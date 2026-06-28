@@ -1,0 +1,40 @@
+baseURL = "https://ilvolodelmattino.github.io/"
+locale = "it-IT"
+title = "Il Volo della Sera"
+theme = "PaperMod"
+paginate = 10
+
+[params]
+  author = "Fabio Volo"
+  description = "Archivio e riflessioni dal programma di Radio Deejay"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowToc = true
+
+[params.homeInfoParams]
+  Title = "Il Volo del Mattino"
+  Content = "Momenti, storie e spunti esistenziali dal programma di Fabio Volo su Radio Deejay."
+
+[[params.socialIcons]]
+  name = "link"
+  url = "https://www.deejay.it/programmi/il-volo-del-mattino/"
+
+[menu]
+  [[menu.main]]
+    name = "Episodi"
+    url = "/episodi/"
+    weight = 1
+  [[menu.main]]
+    name = "Archivio"
+    url = "/archivio/"
+    weight = 2
+  [[menu.main]]
+    name = "Chi siamo"
+    url = "/about/"
+    weight = 3
+
+[taxonomies]
+  tag = "tags"
+  stagione = "stagioni"

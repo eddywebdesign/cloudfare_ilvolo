@@ -1,0 +1,351 @@
+{{ define "main" }}
+
+<div class="vdm-wrap">
+
+    <!-- HERO -->
+    <section class="vdm-hero">
+        <div class="vdm-hero__media">
+            <video autoplay muted loop playsinline class="vdm-hero__video">
+                <source src="/video/mare_notturno.webm" type="video/webm">
+                <source src="/video/mare_notturno.mp4" type="video/mp4">
+            </video>
+            <div class="vdm-hero__overlay"></div>
+        </div>
+        <div class="vdm-hero__content">
+            <p class="vdm-label">Radio Deejay · Fabio Volo</p>
+            <h1 class="vdm-hero__title">Il Volo<br>del Mattino</h1>
+            <p class="vdm-hero__sub">Momenti, storie e spunti esistenziali<br>ricomposti dall'oblio.</p>
+            <div class="vdm-hero__counter">
+                <span class="vdm-dot"></span>
+                <span><strong>{{ len (where .Site.RegularPages "Section" "episodi") }}</strong> frammenti in archivio</span>
+            </div>
+        </div>
+        <div class="vdm-hero__scroll">
+            <span>Scorri</span>
+            <svg width="16" height="24" viewBox="0 0 16 24" fill="none"><rect x="6.5" y="1" width="3" height="8" rx="1.5" fill="currentColor" opacity="0.5"/><path d="M8 22L3 16h10L8 22z" fill="currentColor"/></svg>
+        </div>
+    </section>
+
+    <!-- EPISODI RECENTI -->
+    <section class="vdm-section">
+        <div class="vdm-section__head">
+            <p class="vdm-label">Archivio</p>
+            <h2 class="vdm-section__title">Ultimi frammenti<br>riportati alla luce</h2>
+            <a href="/episodi/" class="vdm-link-all">Vedi tutti →</a>
+        </div>
+        <div class="vdm-grid">
+            {{ range first 4 (where .Site.RegularPages "Section" "episodi") }}
+            <a href="{{ .Permalink }}" class="vdm-card">
+                <div class="vdm-card__inner">
+                    <span class="vdm-card__date">{{ .Date.Format "02 Jan 2006" }}</span>
+                    {{ if .Params.tags }}
+                    <div class="vdm-card__tags">
+                        {{ range first 2 .Params.tags }}<span class="vdm-tag">{{ . }}</span>{{ end }}
+                    </div>
+                    {{ end }}
+                    <h3 class="vdm-card__title">{{ .Title }}</h3>
+                    {{ if .Summary }}<p class="vdm-card__summary">{{ .Summary | truncate 100 }}</p>{{ end }}
+                </div>
+            </a>
+            {{ end }}
+        </div>
+    </section>
+
+    <!-- NAVIGA A CASO -->
+    <section class="vdm-feature">
+        <div class="vdm-feature__inner">
+            <p class="vdm-label vdm-label--light">Esplora</p>
+            <h2 class="vdm-feature__title">Affidati al caso</h2>
+            <p class="vdm-feature__text">Lascia che l'algoritmo scelga per te un frammento memorabile per questa sera.</p>
+            <button onclick="navigaACaso()" class="vdm-btn">Naviga a Vista</button>
+        </div>
+    </section>
+
+    <!-- TELEGRAM -->
+    <section class="vdm-section vdm-section--alt">
+        <div class="vdm-cta">
+            <p class="vdm-label">Comunità</p>
+            <h2 class="vdm-cta__title">Il Messaggio nella Bottiglia</h2>
+            <p class="vdm-cta__text">Questo archivio è un'opera di archeologia collettiva.<br>Hai un ricordo sbiadito di una vecchia puntata? Chiedi aiuto agli altri navigatori.</p>
+            <a href="https://t.me" target="_blank" class="vdm-btn vdm-btn--tg">Entra nel Gruppo Telegram</a>
+        </div>
+    </section>
+
+</div>
+
+<style>
+/* ── Reset & Base ── */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+:root {
+    --bg:      #08090f;
+    --surface: #10131e;
+    --border:  rgba(255,255,255,0.07);
+    --cream:   #f0e8d6;
+    --muted:   #6b7280;
+    --gold:    #c9a84c;
+    --gold-dim: rgba(201,168,76,0.15);
+}
+html { scroll-behavior: smooth; }
+body { background: var(--bg); color: var(--cream); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; overflow-x: hidden; }
+
+/* ── Label ── */
+.vdm-label {
+    display: inline-block;
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 1rem;
+}
+.vdm-label--light { color: rgba(201,168,76,0.7); }
+
+/* ── HERO ── */
+.vdm-hero {
+    position: relative;
+    height: 100vh;
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.vdm-hero__media { position: absolute; inset: 0; overflow: hidden; }
+.vdm-hero__video {
+    width: 100%; height: 100%;
+    object-fit: cover;
+    filter: brightness(0.5);
+}
+.vdm-hero__overlay {
+    position: absolute; inset: 0;
+    background: linear-gradient(to bottom, rgba(8,9,15,0.2) 0%, rgba(8,9,15,0.6) 60%, rgba(8,9,15,1) 100%);
+}
+.vdm-hero__content {
+    position: relative;
+    z-index: 2;
+    padding: 0 24px;
+}
+.vdm-hero__title {
+    font-family: "Georgia", "Times New Roman", serif;
+    font-size: clamp(3rem, 10vw, 7rem);
+    font-weight: 300;
+    line-height: 1.05;
+    letter-spacing: -0.02em;
+    color: var(--cream);
+    margin-bottom: 1.25rem;
+}
+.vdm-hero__sub {
+    font-size: clamp(0.9rem, 2vw, 1.05rem);
+    color: rgba(240,232,214,0.6);
+    line-height: 1.7;
+    margin-bottom: 2.5rem;
+}
+.vdm-hero__counter {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: rgba(255,255,255,0.05);
+    backdrop-filter: blur(12px);
+    border: 1px solid var(--border);
+    padding: 8px 18px;
+    border-radius: 50px;
+    font-size: 0.82rem;
+    color: rgba(240,232,214,0.7);
+}
+.vdm-dot {
+    width: 7px; height: 7px;
+    background: var(--gold);
+    border-radius: 50%;
+    animation: pulse 2s infinite;
+}
+@keyframes pulse {
+    0%,100% { opacity: 1; transform: scale(1); }
+    50%      { opacity: 0.5; transform: scale(0.85); }
+}
+.vdm-hero__scroll {
+    position: absolute;
+    bottom: 2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+    color: rgba(240,232,214,0.35);
+    font-size: 0.7rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    animation: bob 2.5s ease-in-out infinite;
+}
+@keyframes bob {
+    0%,100% { transform: translateX(-50%) translateY(0); }
+    50%      { transform: translateX(-50%) translateY(6px); }
+}
+
+/* ── SECTIONS ── */
+.vdm-section {
+    padding: 100px 24px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+.vdm-section--alt {
+    max-width: 100%;
+    background: var(--surface);
+    border-top: 1px solid var(--border);
+    border-bottom: 1px solid var(--border);
+    padding: 100px 24px;
+}
+.vdm-section__head {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 56px;
+}
+.vdm-section__title {
+    font-family: "Georgia", serif;
+    font-size: clamp(2rem, 5vw, 3.5rem);
+    font-weight: 300;
+    line-height: 1.15;
+    letter-spacing: -0.01em;
+    color: var(--cream);
+    margin-bottom: 1.5rem;
+}
+.vdm-link-all {
+    align-self: flex-start;
+    color: var(--gold);
+    text-decoration: none;
+    font-size: 0.85rem;
+    letter-spacing: 0.05em;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.2s;
+}
+.vdm-link-all:hover { border-color: var(--gold); }
+
+/* ── GRID ── */
+.vdm-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2px;
+}
+@media (max-width: 600px) { .vdm-grid { grid-template-columns: 1fr; } }
+
+.vdm-card { text-decoration: none; color: inherit; display: block; }
+.vdm-card__inner {
+    padding: 32px 28px;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    height: 100%;
+    transition: background 0.2s;
+}
+.vdm-card:hover .vdm-card__inner { background: #151929; }
+.vdm-card__date {
+    display: block;
+    font-size: 0.72rem;
+    color: var(--muted);
+    letter-spacing: 0.08em;
+    margin-bottom: 12px;
+}
+.vdm-card__tags { display: flex; gap: 6px; margin-bottom: 14px; flex-wrap: wrap; }
+.vdm-tag {
+    font-size: 0.68rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--gold);
+    background: var(--gold-dim);
+    padding: 3px 8px;
+    border-radius: 3px;
+}
+.vdm-card__title {
+    font-size: 1.15rem;
+    font-weight: 500;
+    line-height: 1.4;
+    color: var(--cream);
+    margin-bottom: 10px;
+}
+.vdm-card__summary {
+    font-size: 0.85rem;
+    color: var(--muted);
+    line-height: 1.6;
+}
+
+/* ── FEATURE (naviga a caso) ── */
+.vdm-feature {
+    padding: 120px 24px;
+    text-align: center;
+    background: var(--bg);
+}
+.vdm-feature__inner { max-width: 560px; margin: 0 auto; }
+.vdm-feature__title {
+    font-family: "Georgia", serif;
+    font-size: clamp(2.2rem, 6vw, 4rem);
+    font-weight: 300;
+    color: var(--cream);
+    margin-bottom: 1rem;
+    line-height: 1.1;
+}
+.vdm-feature__text {
+    font-size: 0.95rem;
+    color: var(--muted);
+    line-height: 1.7;
+    margin-bottom: 2.5rem;
+}
+
+/* ── BUTTONS ── */
+.vdm-btn {
+    display: inline-block;
+    padding: 14px 36px;
+    border: 1px solid var(--gold);
+    background: transparent;
+    color: var(--gold);
+    font-size: 0.85rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background 0.2s, color 0.2s;
+    font-family: inherit;
+}
+.vdm-btn:hover { background: var(--gold); color: #000; }
+.vdm-btn--tg {
+    border-color: #229ED9;
+    color: #229ED9;
+}
+.vdm-btn--tg:hover { background: #229ED9; color: #fff; }
+
+/* ── CTA ── */
+.vdm-cta {
+    max-width: 680px;
+    margin: 0 auto;
+    text-align: center;
+}
+.vdm-cta__title {
+    font-family: "Georgia", serif;
+    font-size: clamp(1.8rem, 4vw, 3rem);
+    font-weight: 300;
+    color: var(--cream);
+    margin-bottom: 1.25rem;
+    line-height: 1.2;
+}
+.vdm-cta__text {
+    font-size: 0.95rem;
+    color: var(--muted);
+    line-height: 1.8;
+    margin-bottom: 2.5rem;
+}
+</style>
+
+<script>
+function navigaACaso() {
+    const rotte = [
+        {{ range (where .Site.RegularPages "Section" "episodi") }}
+        "{{ .Permalink }}",
+        {{ end }}
+    ];
+    if (rotte.length > 0) {
+        window.location.href = rotte[Math.floor(Math.random() * rotte.length)];
+    } else {
+        alert("Stiamo caricando i primi frammenti. Torna presto!");
+    }
+}
+</script>
+
+{{ end }}
