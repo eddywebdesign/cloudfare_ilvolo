@@ -101,6 +101,7 @@
             </div>
             <!-- Slide: ultimi episodi (descrizione, titolo, data) -->
             <div class="s-temi__slide-wrap">
+                <div class="s-temi__slide-tags" id="tl-tags"></div>
                 <p class="s-temi__slide-desc" id="tl-desc"></p>
                 <h3 class="s-temi__slide-title" id="tl-title"></h3>
                 <p class="s-temi__slide-date" id="tl-date"></p>
@@ -263,17 +264,12 @@
             <a href="/episodi/" class="s-link-all">Vedi tutti →</a>
         </div>
         <div class="s-grid">
-            {{ $frammenti := slice }}
-            {{ range (where .Site.RegularPages "Section" "episodi") }}
-                {{ $ep := . }}
-                {{ range .Params.temi }}
-                    {{ $frammenti = $frammenti | append (dict "tema" . "date" ($ep.Date.Format "02 Jan 2006") "url" $ep.RelPermalink) }}
-                {{ end }}
-            {{ end }}
-            {{ range first 6 $frammenti }}
-            <a href="{{ .url }}" class="s-card">
-                <span class="s-card__date">{{ .date }}</span>
-                <h3 class="s-card__title">{{ .tema }}</h3>
+            {{ range first 4 (where .Site.RegularPages "Section" "episodi") }}
+            <a href="{{ .Permalink }}" class="s-card">
+                <span class="s-card__date">{{ .Date.Format "02 Jan 2006" }}</span>
+                {{ if .Params.temi }}<div class="s-card__tags">{{ range first 2 .Params.temi }}<span class="s-tag">{{ . }}</span>{{ end }}</div>{{ end }}
+                <h3 class="s-card__title">{{ .Title }}</h3>
+                {{ if .Summary }}<p class="s-card__sum">{{ .Summary | truncate 90 }}</p>{{ end }}
             </a>
             {{ end }}
         </div>
@@ -1033,6 +1029,13 @@ header.header #menu .active { color: var(--cream) !important; }
 }
 /* Slide: ultimi episodi (descrizione → titolo → data) */
 .s-temi__slide-wrap { flex: 1; display: flex; flex-direction: column; }
+.s-temi__slide-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin-bottom: 12px;
+    min-height: 24px;
+}
 .s-temi__slide-desc {
     font-size: 0.9rem;
     color: rgba(240,232,214,0.65);
@@ -1395,6 +1398,7 @@ header.header #menu .active { color: var(--cream) !important; }
         "title" .Title
         "date"  (.Date.Format "02 Jan 2006")
         "desc"  (default "Un frammento da riscoprire: parole, momenti e storie ricomposte per strapparle all'oblio." .Params.resumen)
+        "temi"  .Params.temi
     ) }}
     {{ end }}
     var tlData = {{ $tlArr | jsonify | safeJS }};
@@ -1406,6 +1410,7 @@ header.header #menu .active { color: var(--cream) !important; }
     var tlDesc    = document.getElementById('tl-desc');
     var tlTitle   = document.getElementById('tl-title');
     var tlDate    = document.getElementById('tl-date');
+    var tlTags    = document.getElementById('tl-tags');
     var tlPrev    = document.getElementById('tl-prev');
     var tlNext    = document.getElementById('tl-next');
 
@@ -1416,11 +1421,17 @@ header.header #menu .active { color: var(--cream) !important; }
         var t = String(tlData.length).padStart(2, '0');
         if (tlCounter) tlCounter.textContent = n + ' / ' + t;
 
-        [tlDesc, tlTitle, tlDate].forEach(function(el) { if (el) el.classList.remove('in'); });
+        [tlDesc, tlTitle, tlDate, tlTags].forEach(function(el) { if (el) el.classList.remove('in'); });
         void (tlDesc && tlDesc.offsetWidth); /* reflow */
         if (tlDesc)  tlDesc.textContent  = tlData[tlCurrent].desc;
         if (tlTitle) tlTitle.textContent = tlData[tlCurrent].title;
         if (tlDate)  tlDate.textContent  = tlData[tlCurrent].date;
+        if (tlTags) {
+            var temi = tlData[tlCurrent].temi;
+            tlTags.innerHTML = (temi && temi.length)
+                ? temi.map(function(t) { return '<span class="s-tag">' + t + '</span>'; }).join('')
+                : '';
+        }
         requestAnimationFrame(function() {
             [tlDesc, tlTitle, tlDate].forEach(function(el) { if (el) el.classList.add('in'); });
         });
