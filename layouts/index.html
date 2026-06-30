@@ -21,11 +21,14 @@
     <!-- Copyright video -->
     <div class="hero-copyright">© Vladimir</div>
 
-    <!-- Titolo overlay (appare al 45% del video, con l'arrivo della sera) -->
+    <!-- Titolo overlay (appare al 30% del video, con l'arrivo della sera) -->
     <div class="s-verso__title" id="verso-title">
         <h1 class="hero-title-main">ilVolodellaSera</h1>
         <p class="hero-title__label hero-title__label--below">Radio Deejay · Il Volo del Mattino</p>
     </div>
+
+    <!-- Citazione Dante (appare 3s dopo il titolo) -->
+    <p class="hero-dante" id="hero-dante">«Fatti non foste a viver come bruti,<br>ma per seguir virtute e canoscenza.»</p>
 
 </div>
 
@@ -39,15 +42,13 @@
     ════════════════════════════════════ -->
     <section id="titolo" class="s-titolo">
         <div class="split-wrap" id="split-wrap">
-            <h2 class="split-dante">«Fatti non foste a viver come bruti, ma per seguir virtute e canoscenza.»</h2>
-            <p class="s-narrativa__intro">Questo spazio cerca di raccogliere parole, momenti e storie de il Volo del Mattino. Spunti esistenziali ricomposti per strapparli all'oblio.</p>
+            <p class="lbl">L'idea</p>
+            <h3 class="s-narrativa__h3">Uno spazio per raccogliere parole, momenti e storie de il Volo del Mattino. Spunti esistenziali ricomposti per strapparli all'oblio.</h3>
             <div class="s-narrativa__block">
-                <h4 class="s-narrativa__h4">Il senso</h4>
-                <p class="s-narrativa__text">Il tempo fagocita qualsiasi cosa. Il volo del mattino è più di un programma radiofonico… è cultura! E' un piccolo ed importante patrimonio creativo in cui tanti ne condividono la bontà e la genuinità. Il tentativo è preservarlo e arricchirlo offrendone una piccola Wikipedia. Ilvolodellasera, è un desiderio noto di Fabio Volo, e qui si cerca di ricomporre un puzzle ricco di frammenti preziosi. Aggiungere pezzi nuovi al mosaico arricchisce questo spazio e invita alla ricerca...un'avventura crediamo appassioni tanti e a cui si può prenderne parte!</p>
+                <p class="s-narrativa__text">Che nascesse anche un volo-della-sera è un desiderio noto di Fabio Volo. Noi, ascoltatori storici del programma consapevoli che il tempo fagocita qualsiasi cosa, proviamo timidamente a dargli vita. Per noi il volo del mattino è più di un programma radiofonico… è un piccolo ed importante patrimonio creativo di cui tanti ne condividono la bontà e la genuinità. Il tentativo è preservarlo e arricchirlo offrendone una piccola Wikipedia, ricomponendo e riorganizzando un puzzle ricco di frammenti preziosi sparsi in molti anni di vita. Aggiungere pezzi nuovi al mosaico arricchisce questo spazio e si può volontariamente prenderne parte..ne saremmo davvero lieti!</p>
             </div>
             <div class="s-narrativa__block">
-                <h4 class="s-narrativa__h4">Chi siamo</h4>
-                <p class="s-narrativa__text">Siamo ascoltatori storici del programma che giocano con se stessi, provando a condividere ricordi e proiezioni di un futuro più umano.</p>
+                <p class="s-narrativa__text">Benvenuto quindi, a chiunque voglia giocare un pò con sé stesso e condividere in armonia, e benvenuto a te che arrivi qui semplicemente per scaldarti il cuore navigando fra i 'frammenti' finora raccolti.</p>
             </div>
         </div>
     </section>
@@ -448,6 +449,24 @@ header.header #menu .active { color: var(--cream) !important; }
     margin-bottom: 0;
     margin-top: 1.2rem;
 }
+.hero-dante {
+    position: absolute;
+    bottom: 14vh;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-family: "Georgia", serif;
+    font-style: italic;
+    font-size: clamp(0.8rem, 1.5vw, 1.1rem);
+    color: rgba(240,232,214,0.72);
+    letter-spacing: 0.03em;
+    line-height: 1.7;
+    white-space: nowrap;
+    opacity: 0;
+    transition: opacity 2.5s ease;
+    pointer-events: none;
+}
+.hero-dante.visible { opacity: 1; }
 .hero-title__h1 {
     font-family: "Georgia", serif;
     font-size: clamp(3.5rem, 11vw, 8rem);
@@ -759,6 +778,15 @@ header.header #menu .active { color: var(--cream) !important; }
     color: var(--cream);
     opacity: 1;
     transition: none;
+}
+.s-narrativa__h3 {
+    font-family: "Georgia", serif;
+    font-size: clamp(1rem, 1.8vw, 1.35rem);
+    font-weight: 400;
+    font-style: italic;
+    color: var(--gold);
+    line-height: 1.7;
+    margin-bottom: 2rem;
 }
 .s-narrativa__intro {
     font-size: var(--fs-body-lg);
@@ -1410,7 +1438,9 @@ header.header #menu .active { color: var(--cream) !important; }
 
     /* ── Hero (verso_sera.mp4): titolo al 30%, autoscroll a content al termine ── */
     var versoTitleEl    = document.getElementById('verso-title');
+    var versoDanteEl    = document.getElementById('hero-dante');
     var versoTitleShown = false;
+    var versoDanteTimer = null;
     var versoVid        = document.getElementById('hero-video');
 
     if (versoVid) {
@@ -1420,12 +1450,17 @@ header.header #menu .active { color: var(--cream) !important; }
             if (!versoTitleShown && versoVid.currentTime >= dur * 0.30) {
                 versoTitleShown = true;
                 if (versoTitleEl) versoTitleEl.classList.add('visible');
+                versoDanteTimer = setTimeout(function() {
+                    if (versoDanteEl) versoDanteEl.classList.add('visible');
+                }, 3000);
             }
         });
         versoVid.addEventListener('seeked', function() {
             if (versoVid.currentTime < versoVid.duration * 0.30) {
                 versoTitleShown = false;
                 if (versoTitleEl) versoTitleEl.classList.remove('visible');
+                if (versoDanteEl) versoDanteEl.classList.remove('visible');
+                clearTimeout(versoDanteTimer);
             }
         });
         versoVid.addEventListener('ended', function() {
