@@ -1,351 +1,1582 @@
 {{ define "main" }}
 
-<div class="vdm-wrap">
+<!-- ════════════════════════════════════
+     HERO CAROUSEL
+════════════════════════════════════ -->
+<div id="hero" class="hero">
 
-    <!-- HERO -->
-    <section class="vdm-hero">
-        <div class="vdm-hero__media">
-            <video autoplay muted loop playsinline class="vdm-hero__video">
-                <source src="/video/mare_notturno.webm" type="video/webm">
-                <source src="/video/mare_notturno.mp4" type="video/mp4">
-            </video>
-            <div class="vdm-hero__overlay"></div>
-        </div>
-        <div class="vdm-hero__content">
-            <p class="vdm-label">Radio Deejay · Fabio Volo</p>
-            <h1 class="vdm-hero__title">Il Volo<br>del Mattino</h1>
-            <p class="vdm-hero__sub">Momenti, storie e spunti esistenziali<br>ricomposti dall'oblio.</p>
-            <div class="vdm-hero__counter">
-                <span class="vdm-dot"></span>
-                <span><strong>{{ len (where .Site.RegularPages "Section" "episodi") }}</strong> frammenti in archivio</span>
+    <video class="hero-video" id="hero-video" autoplay muted playsinline>
+        <source src="/video/verso_sera.mp4" type="video/mp4">
+    </video>
+
+    <div class="hero-over" id="hero-over"></div>
+
+    <!-- Freccia scroll → content -->
+    <div class="hero-scroll" id="hero-scroll" onclick="scrollToContent()">
+        <svg class="hero-scroll__chevron" viewBox="0 0 24 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <polyline points="1,1 12,13 23,1" stroke="rgba(240,232,214,0.55)" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+    </div>
+
+    <!-- Copyright video -->
+    <div class="hero-copyright">© Vladimir</div>
+
+    <!-- Titolo overlay (appare al 45% del video, con l'arrivo della sera) -->
+    <div class="s-verso__title" id="verso-title">
+        <h1 class="hero-title-main">ilVolodellaSera</h1>
+        <p class="hero-title__label hero-title__label--below">Radio Deejay · Il Volo del Mattino</p>
+    </div>
+
+</div>
+
+<!-- ════════════════════════════════════
+     CONTENUTO PRINCIPALE
+════════════════════════════════════ -->
+<div id="content" class="site-content">
+
+    <!-- ════════════════════════════════════
+         SEZIONE NARRATIVA (Il senso / Chi siamo)
+    ════════════════════════════════════ -->
+    <section id="titolo" class="s-titolo">
+        <div class="split-wrap" id="split-wrap">
+            <h2 class="split-dante">«Fatti non foste a viver come bruti, ma per seguir virtute e canoscenza.»</h2>
+            <p class="s-narrativa__intro">Questo spazio cerca di raccogliere parole, momenti e storie de il Volo del Mattino. Spunti esistenziali ricomposti per strapparli all'oblio.</p>
+            <div class="s-narrativa__block">
+                <h4 class="s-narrativa__h4">Il senso</h4>
+                <p class="s-narrativa__text">Il tempo fagocita qualsiasi cosa. Il volo del mattino è più di un programma radiofonico… è cultura! E' un piccolo ed importante patrimonio creativo in cui tanti ne condividono la bontà e la genuinità. Il tentativo è preservarlo e arricchirlo offrendone una piccola Wikipedia. Ilvolodellasera, è un desiderio noto di Fabio Volo, e qui si cerca di ricomporre un puzzle ricco di frammenti preziosi. Aggiungere pezzi nuovi al mosaico arricchisce questo spazio e invita alla ricerca...un'avventura crediamo appassioni tanti e a cui si può prenderne parte!</p>
             </div>
-        </div>
-        <div class="vdm-hero__scroll">
-            <span>Scorri</span>
-            <svg width="16" height="24" viewBox="0 0 16 24" fill="none"><rect x="6.5" y="1" width="3" height="8" rx="1.5" fill="currentColor" opacity="0.5"/><path d="M8 22L3 16h10L8 22z" fill="currentColor"/></svg>
+            <div class="s-narrativa__block">
+                <h4 class="s-narrativa__h4">Chi siamo</h4>
+                <p class="s-narrativa__text">Siamo ascoltatori storici del programma che giocano con se stessi, provando a condividere ricordi e proiezioni di un futuro più umano.</p>
+            </div>
         </div>
     </section>
 
-    <!-- EPISODI RECENTI -->
-    <section class="vdm-section">
-        <div class="vdm-section__head">
-            <p class="vdm-label">Archivio</p>
-            <h2 class="vdm-section__title">Ultimi frammenti<br>riportati alla luce</h2>
-            <a href="/episodi/" class="vdm-link-all">Vedi tutti →</a>
+    <!-- ════════════════════════════════════
+         EPISODIO DEL GIORNO
+    ════════════════════════════════════ -->
+    {{ $eps := where .Site.RegularPages "Section" "episodi" }}
+    {{ if gt (len $eps) 0 }}
+    {{ $epDelGiorno := index $eps (mod now.YearDay (len $eps)) }}
+    {{ with $epDelGiorno }}
+    <section class="s-epdelgiorno">
+        <p class="lbl">Episodio del giorno</p>
+        <div class="s-epdelgiorno__card">
+            <div class="s-epdelgiorno__head">
+                <h2 class="s-epdelgiorno__title">{{ .Title }}</h2>
+                <span class="s-epdelgiorno__date">{{ .Date.Format "02 Jan 2006" }}</span>
+            </div>
+
+            {{ if .Params.audio }}
+            <audio class="s-epdelgiorno__audio" controls src="{{ .Params.audio }}"></audio>
+            {{ else }}
+            <div class="s-epdelgiorno__audio-placeholder">Player audio in arrivo</div>
+            {{ end }}
+
+            {{ if .Params.video }}
+            <div class="s-epdelgiorno__video-wrap">
+                <video class="s-epdelgiorno__video" controls src="{{ .Params.video }}"></video>
+            </div>
+            {{ end }}
+
+            <p class="s-epdelgiorno__desc">{{ with .Params.resumen }}{{ . }}{{ else }}{{ .Summary | truncate 220 }}{{ end }}</p>
+
+            {{ if .Params.tags }}
+            <div class="s-epdelgiorno__tags">
+                {{ range .Params.tags }}<span class="s-tag">{{ . }}</span>{{ end }}
+            </div>
+            {{ end }}
         </div>
-        <div class="vdm-grid">
+    </section>
+    {{ end }}
+    {{ end }}
+
+    <!-- Temi esistenziali -->
+    <section class="s-temi">
+        <div class="s-temi__left">
+            <!-- Progress bar + nav -->
+            <div class="s-temi__prog-wrap"><div class="s-temi__prog-bar" id="tl-bar"></div></div>
+            <div class="s-temi__nav">
+                <button class="s-temi__arrow" id="tl-prev">←</button>
+                <button class="s-temi__arrow" id="tl-next">→</button>
+                <span class="s-temi__counter" id="tl-counter">01 / 06</span>
+            </div>
+            <!-- Slide: ultimi episodi (descrizione, titolo, data) -->
+            <div class="s-temi__slide-wrap">
+                <p class="s-temi__slide-desc" id="tl-desc"></p>
+                <h3 class="s-temi__slide-title" id="tl-title"></h3>
+                <p class="s-temi__slide-date" id="tl-date"></p>
+            </div>
+            <a href="/episodi/" class="s-temi__archive-link">Vai all'archivio completo →</a>
+        </div>
+        <div class="s-temi__center">
+            <p class="lbl">Spunti esistenziali</p>
+            <div class="s-temi__list">
+                <h2 class="s-temi__h2 active" data-idx="0">Solitudine</h2>
+                <h2 class="s-temi__h2" data-idx="1">Libertà</h2>
+                <h2 class="s-temi__h2" data-idx="2">Sogno</h2>
+                <h2 class="s-temi__h2" data-idx="3">Amore</h2>
+                <h2 class="s-temi__h2" data-idx="4">Tempo</h2>
+                <h2 class="s-temi__h2" data-idx="5">Coraggio</h2>
+                <h2 class="s-temi__h2" data-idx="6">Malinconia</h2>
+            </div>
+        </div>
+        <div class="s-temi__right">
+            <div class="s-temi__img active" style="background-image:url('/immagini/esistenziali/solitudine.jpg')"></div>
+            <div class="s-temi__img" style="background-image:url('/immagini/esistenziali/libert%C3%A0.jpg')"></div>
+            <div class="s-temi__img" style="background-image:url('/immagini/esistenziali/sogno.jpg')"></div>
+            <div class="s-temi__img" style="background-image:url('/immagini/esistenziali/amore.jpg')"></div>
+            <div class="s-temi__img" style="background-image:url('/immagini/esistenziali/tempo.jpg')"></div>
+            <div class="s-temi__img" style="background-image:url('/immagini/esistenziali/coraggio.jpg')"></div>
+            <div class="s-temi__img" style="background-image:url('/immagini/esistenziali/malinconia.jpg')"></div>
+        </div>
+    </section>
+
+    <!-- ════════════════════════════════════
+         LETTURE DI FABIO
+    ════════════════════════════════════ -->
+    <section class="s-letture">
+
+        <div class="s-letture__label">
+            <p class="lbl">Letture di Fabio</p>
+        </div>
+
+        <!-- Riga superiore: 1/3 — testo + foto esistenziali → sinistra -->
+        <div class="s-letture__row s-letture__row--top">
+            <div class="s-letture__track s-letture__track--left">
+                <!-- Set A -->
+                <span class="s-letture__word">il volo</span>
+                <div class="s-letture__photo"><img src="/immagini/esistenziali/solitudine.jpg" alt=""></div>
+                <span class="s-letture__word">del mattino</span>
+                <div class="s-letture__photo"><img src="/immagini/esistenziali/libert%C3%A0.jpg" alt=""></div>
+                <span class="s-letture__word">il volo</span>
+                <div class="s-letture__photo"><img src="/immagini/esistenziali/sogno.jpg" alt=""></div>
+                <span class="s-letture__word">del mattino</span>
+                <div class="s-letture__photo"><img src="/immagini/esistenziali/amore.jpg" alt=""></div>
+                <span class="s-letture__word">il volo</span>
+                <div class="s-letture__photo"><img src="/immagini/esistenziali/tempo.jpg" alt=""></div>
+                <span class="s-letture__word">del mattino</span>
+                <div class="s-letture__photo"><img src="/immagini/esistenziali/coraggio.jpg" alt=""></div>
+                <!-- Set B — duplicato per loop seamless -->
+                <span class="s-letture__word">il volo</span>
+                <div class="s-letture__photo"><img src="/immagini/esistenziali/solitudine.jpg" alt=""></div>
+                <span class="s-letture__word">del mattino</span>
+                <div class="s-letture__photo"><img src="/immagini/esistenziali/libert%C3%A0.jpg" alt=""></div>
+                <span class="s-letture__word">il volo</span>
+                <div class="s-letture__photo"><img src="/immagini/esistenziali/sogno.jpg" alt=""></div>
+                <span class="s-letture__word">del mattino</span>
+                <div class="s-letture__photo"><img src="/immagini/esistenziali/amore.jpg" alt=""></div>
+                <span class="s-letture__word">il volo</span>
+                <div class="s-letture__photo"><img src="/immagini/esistenziali/tempo.jpg" alt=""></div>
+                <span class="s-letture__word">del mattino</span>
+                <div class="s-letture__photo"><img src="/immagini/esistenziali/coraggio.jpg" alt=""></div>
+            </div>
+        </div>
+
+        <!-- Riga inferiore: 2/3 — solo foto lettere → destra -->
+        <div class="s-letture__row s-letture__row--bottom">
+            <div class="s-letture__track s-letture__track--right">
+                <!-- Set A -->
+                <div class="s-letture__photo"><img src="/immagini/lettere/FB_IMG_1673029627463.jpg" alt=""></div>
+                <div class="s-letture__photo"><img src="/immagini/lettere/FB_IMG_1673029992751.jpg" alt=""></div>
+                <div class="s-letture__photo"><img src="/immagini/lettere/FB_IMG_1673091574049.jpg" alt=""></div>
+                <div class="s-letture__photo"><img src="/immagini/lettere/FB_IMG_1673160190463.jpg" alt=""></div>
+                <div class="s-letture__photo"><img src="/immagini/lettere/FB_IMG_1673162529996.jpg" alt=""></div>
+                <div class="s-letture__photo"><img src="/immagini/lettere/FB_IMG_1673162921484.jpg" alt=""></div>
+                <div class="s-letture__photo"><img src="/immagini/lettere/FB_IMG_1673969409919.jpg" alt=""></div>
+                <div class="s-letture__photo"><img src="/immagini/lettere/FB_IMG_1673984836048.jpg" alt=""></div>
+                <!-- Set B — duplicato per loop seamless -->
+                <div class="s-letture__photo"><img src="/immagini/lettere/FB_IMG_1673029627463.jpg" alt=""></div>
+                <div class="s-letture__photo"><img src="/immagini/lettere/FB_IMG_1673029992751.jpg" alt=""></div>
+                <div class="s-letture__photo"><img src="/immagini/lettere/FB_IMG_1673091574049.jpg" alt=""></div>
+                <div class="s-letture__photo"><img src="/immagini/lettere/FB_IMG_1673160190463.jpg" alt=""></div>
+                <div class="s-letture__photo"><img src="/immagini/lettere/FB_IMG_1673162529996.jpg" alt=""></div>
+                <div class="s-letture__photo"><img src="/immagini/lettere/FB_IMG_1673162921484.jpg" alt=""></div>
+                <div class="s-letture__photo"><img src="/immagini/lettere/FB_IMG_1673969409919.jpg" alt=""></div>
+                <div class="s-letture__photo"><img src="/immagini/lettere/FB_IMG_1673984836048.jpg" alt=""></div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Project Journey -->
+    <section class="s-journey">
+        <div class="s-journey__step">
+            <div class="s-journey__text">
+                <span class="s-journey__num">01</span>
+                <h2 class="s-journey__title">Il mattino ha sempre<br>qualcosa da dire</h2>
+                <p class="s-journey__body">Tutto è iniziato con una voce. Fabio Volo al microfono di Radio Deejay, ogni mattina, con la capacità rara di trasformare l'ordinario in straordinario.</p>
+            </div>
+            <div class="s-journey__img-wrap">
+                <img class="s-journey__img" src="https://images.unsplash.com/photo-1478737270239-2f02b77fc618?w=900&q=80&auto=format&fit=crop" alt="Radio microfono">
+            </div>
+        </div>
+        <div class="s-journey__step">
+            <div class="s-journey__text">
+                <span class="s-journey__num">02</span>
+                <h2 class="s-journey__title">Le storie che ci hanno<br>cambiato qualcosa</h2>
+                <p class="s-journey__body">Ospiti, monologhi, lettere degli ascoltatori. Ogni puntata era un viaggio dentro la vita di qualcuno — e inevitabilmente, dentro la nostra.</p>
+            </div>
+            <div class="s-journey__img-wrap">
+                <img class="s-journey__img" src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=900&q=80&auto=format&fit=crop" alt="Ascoltatori">
+            </div>
+        </div>
+        <div class="s-journey__step">
+            <div class="s-journey__text">
+                <span class="s-journey__num">03</span>
+                <h2 class="s-journey__title">L'oblio non è<br>una destinazione</h2>
+                <p class="s-journey__body">Questo archivio nasce da una convinzione: che certi momenti meritino di essere ritrovati. Un frammento salvato è una storia che continua.</p>
+            </div>
+            <div class="s-journey__img-wrap">
+                <img class="s-journey__img" src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=900&q=80&auto=format&fit=crop" alt="Archivio">
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="s-cta">
+        <div class="s-cta__bg" style="background-image:url('https://images.unsplash.com/photo-1478720568477-152d9b164e26?w=1920&q=80&auto=format&fit=crop')"></div>
+        <div class="s-cta__over"></div>
+        <div class="s-cta__content">
+            <p class="lbl">Contribuisci</p>
+            <h2 class="s-cta__title">Aiutaci a riportare<br>alla luce un frammento</h2>
+            <p class="s-cta__sub">Hai il ricordo sbiadito di una puntata? Un nome, una data, un'emozione? Condividila con noi — insieme costruiamo la memoria.</p>
+            <a href="https://t.me" target="_blank" class="btn">Condividi il tuo ricordo</a>
+        </div>
+        <!-- Logos bottom -->
+        <div class="s-cta__logos">
+            <div class="s-cta__logo-deejay">
+                <span class="deejay-radio">radio</span>
+                <span class="deejay-name">DEEJAY</span>
+            </div>
+            <div class="s-cta__logo-divider"></div>
+            <div class="s-cta__logo-carpanelle">
+                <span class="carp-main">Le Carpanelle</span>
+                <span class="carp-sub">Azienda Agricola · Dario Presenti</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Episodi -->
+    <section class="s-episodes">
+        <div class="s-episodes__head">
+            <p class="lbl">Archivio</p>
+            <h2 class="s-episodes__title">Ultimi frammenti<br>riportati alla luce</h2>
+            <a href="/episodi/" class="s-link-all">Vedi tutti →</a>
+        </div>
+        <div class="s-grid">
             {{ range first 4 (where .Site.RegularPages "Section" "episodi") }}
-            <a href="{{ .Permalink }}" class="vdm-card">
-                <div class="vdm-card__inner">
-                    <span class="vdm-card__date">{{ .Date.Format "02 Jan 2006" }}</span>
-                    {{ if .Params.tags }}
-                    <div class="vdm-card__tags">
-                        {{ range first 2 .Params.tags }}<span class="vdm-tag">{{ . }}</span>{{ end }}
-                    </div>
-                    {{ end }}
-                    <h3 class="vdm-card__title">{{ .Title }}</h3>
-                    {{ if .Summary }}<p class="vdm-card__summary">{{ .Summary | truncate 100 }}</p>{{ end }}
-                </div>
+            <a href="{{ .Permalink }}" class="s-card">
+                <span class="s-card__date">{{ .Date.Format "02 Jan 2006" }}</span>
+                {{ if .Params.tags }}<div class="s-card__tags">{{ range first 2 .Params.tags }}<span class="s-tag">{{ . }}</span>{{ end }}</div>{{ end }}
+                <h3 class="s-card__title">{{ .Title }}</h3>
+                {{ if .Summary }}<p class="s-card__sum">{{ .Summary | truncate 90 }}</p>{{ end }}
             </a>
             {{ end }}
         </div>
     </section>
 
-    <!-- NAVIGA A CASO -->
-    <section class="vdm-feature">
-        <div class="vdm-feature__inner">
-            <p class="vdm-label vdm-label--light">Esplora</p>
-            <h2 class="vdm-feature__title">Affidati al caso</h2>
-            <p class="vdm-feature__text">Lascia che l'algoritmo scelga per te un frammento memorabile per questa sera.</p>
-            <button onclick="navigaACaso()" class="vdm-btn">Naviga a Vista</button>
-        </div>
+    <!-- Random -->
+    <section class="s-random">
+        <p class="lbl lbl--dim">Esplora</p>
+        <h2 class="s-random__title">Affidati al caso</h2>
+        <p class="s-random__text">Lascia che l'algoritmo scelga per te un frammento memorabile per questa sera.</p>
+        <button onclick="navigaACaso()" class="btn">Naviga a Vista</button>
     </section>
 
-    <!-- TELEGRAM -->
-    <section class="vdm-section vdm-section--alt">
-        <div class="vdm-cta">
-            <p class="vdm-label">Comunità</p>
-            <h2 class="vdm-cta__title">Il Messaggio nella Bottiglia</h2>
-            <p class="vdm-cta__text">Questo archivio è un'opera di archeologia collettiva.<br>Hai un ricordo sbiadito di una vecchia puntata? Chiedi aiuto agli altri navigatori.</p>
-            <a href="https://t.me" target="_blank" class="vdm-btn vdm-btn--tg">Entra nel Gruppo Telegram</a>
-        </div>
+    <!-- Telegram -->
+    <section class="s-tg">
+        <p class="lbl">Comunità</p>
+        <h2 class="s-tg__title">Il Messaggio nella Bottiglia</h2>
+        <p class="s-tg__text">Questo archivio è un'opera di archeologia collettiva. Hai un ricordo sbiadito di una vecchia puntata? Hai dei 'pezzi', del materiale da condividere? Offri e chiedi aiuto agli altri navigatori.</p>
+        <a href="https://t.me" target="_blank" class="btn btn--tg">Entra nel Gruppo Telegram</a>
     </section>
 
 </div>
 
+<!-- ════════════════════════════════════
+     CSS
+════════════════════════════════════ -->
 <style>
-/* ── Reset & Base ── */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap');
+
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 :root {
-    --bg:      #08090f;
-    --surface: #10131e;
-    --border:  rgba(255,255,255,0.07);
-    --cream:   #f0e8d6;
-    --muted:   #6b7280;
-    --gold:    #c9a84c;
-    --gold-dim: rgba(201,168,76,0.15);
+    --bg:    #08090f;
+    --surf:  #10131e;
+    --bord:  rgba(255,255,255,0.07);
+    --cream: #f0e8d6;
+    --muted: #6b7280;
+    --gold:  #c9a84c;
+    --golddim: rgba(201,168,76,0.15);
+    --tri:   rgba(255,255,255,0.85);
 }
-html { scroll-behavior: smooth; }
-body { background: var(--bg); color: var(--cream); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; overflow-x: hidden; }
+html { overflow-x: hidden; background: var(--bg); }
+body { margin: 0; padding: 0; background: var(--bg); color: var(--cream); font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; overflow-x: hidden; width: 100%; }
 
-/* ── Label ── */
-.vdm-label {
+/* ── Breakout dal container PaperMod ── */
+.main { max-width: 100% !important; padding: 0 !important; margin: 0 !important; }
+header.header {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 100;
+    background: transparent !important;
+    box-shadow: none !important;
+    border: none !important;
+    width: 100vw;
+}
+header.header nav,
+header.header .header-nav {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+    position: relative !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 28px 40px !important;
+    box-sizing: border-box !important;
+}
+header.header #menu {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+    margin: 0; padding: 0;
+}
+header.header #menu li { margin: 0; padding: 0; }
+header.header #menu a {
+    color: rgba(240,232,214,0.75) !important;
+    font-family: 'Inter', sans-serif !important;
+    font-size: 1.125rem !important;
+    font-weight: 400 !important;
+    letter-spacing: -0.01em !important;
+    text-decoration: none !important;
+    transition: color 0.2s !important;
+    line-height: 1 !important;
+}
+header.header #menu a:hover,
+header.header #menu .active { color: var(--cream) !important; }
+.logo { color: var(--cream) !important; flex-shrink: 0; }
+.logo a, .logo span { color: var(--cream) !important; font-style: italic; font-weight: 300; font-size: 1.125rem; letter-spacing: 0.01em; text-decoration: none !important; }
+.logo-switches { flex-shrink: 0; }
+#theme-toggle { color: rgba(240,232,214,0.5) !important; }
+
+/* ── HERO ── */
+.hero {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Video sfondo */
+.hero-video {
+    position: absolute; inset: 0;
+    width: 100%; height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    filter: brightness(0.75) saturate(1.1);
+}
+/* Quando il video carica, nascondi le slide foto */
+.hero-video[src]:not([src=""]) ~ .hero-slides { display: none; }
+
+.hero-slides { position: absolute; inset: 0; }
+.hero-slide {
+    position: absolute; inset: 0;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 1.0s ease-in-out;
+}
+.hero-slide.active { opacity: 1; }
+
+.hero-over {
+    position: absolute; inset: 0;
+    background: linear-gradient(
+        to bottom,
+        rgba(8,9,15,0.1) 0%,
+        rgba(8,9,15,0.0) 20%,
+        rgba(8,9,15,0.3) 70%,
+        rgba(8,9,15,0.88) 100%
+    );
+    z-index: 1;
+}
+
+/* ── TITOLO HERO ── */
+.hero-title {
+    position: absolute;
+    inset: 0;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 24px;
+    opacity: 0;
+    transform: translateY(28px);
+    transition: opacity 1.6s cubic-bezier(0.25, 0, 0.1, 1),
+                transform 1.6s cubic-bezier(0.25, 0, 0.1, 1);
+    pointer-events: none;
+}
+.hero-title.visible {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+.hero-title__label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.65rem;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 1.2rem;
+}
+.hero-title__label--below {
+    margin-bottom: 0;
+    margin-top: 1.2rem;
+}
+.hero-title__h1 {
+    font-family: "Georgia", serif;
+    font-size: clamp(3.5rem, 11vw, 8rem);
+    font-weight: 300;
+    line-height: 1.0;
+    letter-spacing: -0.02em;
+    color: var(--cream);
+    margin: 0 0 1.4rem;
+    text-shadow: 0 4px 40px rgba(0,0,0,0.6);
+}
+.hero-title__sub {
+    font-size: clamp(0.85rem, 2vw, 1.1rem);
+    color: rgba(240,232,214,0.65);
+    letter-spacing: 0.03em;
+    line-height: 1.7;
+    margin-bottom: 2.2rem;
+}
+.hero-title__badge {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.75rem;
+    letter-spacing: 0.1em;
+    color: rgba(240,232,214,0.45);
+    margin-bottom: 2.8rem;
+}
+.hero-dot {
+    width: 6px; height: 6px;
+    border-radius: 50%;
+    background: var(--gold);
     display: inline-block;
-    font-size: 0.7rem;
+}
+.hero-title__cta {
+    padding: 14px 40px;
+    border: 1px solid rgba(240,232,214,0.35);
+    background: transparent;
+    color: var(--cream);
+    font-size: 0.8rem;
     letter-spacing: 0.2em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background 0.3s, border-color 0.3s;
+}
+.hero-title__cta:hover {
+    background: rgba(240,232,214,0.1);
+    border-color: rgba(240,232,214,0.7);
+}
+
+/* ── Titolo hero principale (ilvolodellasera) ── */
+#verso-title { padding-top: 9vh; }
+.hero-title-main {
+    font-family: "Georgia", serif;
+    font-size: clamp(1.7rem, 8vw, 6rem);
+    font-weight: 300;
+    letter-spacing: 0.01em;
+    color: var(--cream);
+    white-space: nowrap;
+    text-shadow: 0 4px 40px rgba(0,0,0,0.6);
+    margin: 0;
+}
+
+/* ── Freccia scroll ── */
+.hero-scroll {
+    position: absolute;
+    bottom: 36px; right: 36px;
+    z-index: 4;
+    cursor: pointer;
+    opacity: 1;
+    pointer-events: auto;
+    animation: arrowBob 2.4s ease-in-out infinite;
+}
+.hero-scroll__chevron {
+    width: 28px;
+    height: 17px;
+    display: block;
+}
+@keyframes arrowBob {
+    0%,100% { transform: translateY(0); }
+    50%      { transform: translateY(7px); }
+}
+
+/* ══ LETTURE DI FABIO ══ */
+.s-letture {
+    --lw-size: clamp(5.5rem, 14vw, 12rem);
+    border-top: 1px solid var(--bord);
+    background: var(--bg);
+    overflow: hidden;
+}
+.s-letture__label {
+    padding: 36px 44px 16px;
+}
+.s-letture__row {
+    overflow: hidden;
+    width: 100%;
+    margin: 0;
+}
+.s-letture__row--top    { height: var(--lw-size); }
+.s-letture__row--bottom { height: calc(var(--lw-size) * 2); margin-top: 3px; }
+
+/* Hover: pausa animazione */
+.s-letture__row--top:hover    .s-letture__track { animation-play-state: paused; cursor: pointer; }
+.s-letture__row--bottom:hover .s-letture__track { animation-play-state: paused; cursor: pointer; }
+
+/* Track */
+.s-letture__track {
+    display: flex;
+    align-items: stretch;
+    gap: 3px;
+    width: max-content;
+    height: 100%;
+    padding: 0;
+}
+.s-letture__track--left  { animation: letture-left  40s linear infinite; }
+.s-letture__track--right { animation: letture-right 55s linear infinite; }
+
+@keyframes letture-left {
+    from { transform: translateX(0); }
+    to   { transform: translateX(-50%); }
+}
+@keyframes letture-right {
+    from { transform: translateX(-50%); }
+    to   { transform: translateX(0); }
+}
+
+/* Testo nella riga top */
+.s-letture__word {
+    display: block;
+    flex-shrink: 0;
+    padding: 0 0.35em;
+    font-family: "Georgia", serif;
+    font-style: italic;
+    text-transform: uppercase;
+    font-size: var(--lw-size);
+    font-weight: 300;
+    color: rgba(240,232,214,0.65);
+    white-space: nowrap;
+    letter-spacing: -0.025em;
+    line-height: var(--lw-size);
+}
+
+/* Foto */
+.s-letture__photo {
+    flex-shrink: 0;
+    overflow: hidden;
+    background: var(--surf);
+}
+.s-letture__photo img {
+    height: 100%;
+    width: auto;
+    min-width: 40px;
+    object-fit: cover;
+    display: block;
+    filter: brightness(0.8) saturate(0.7);
+    transition: filter 0.5s ease;
+}
+
+/* ══ SEZIONE TITOLO (split-text + video) ══ */
+.s-titolo {
+    position: relative;
+    background: var(--bg);
+    border-top: 1px solid var(--bord);
+    padding: 56px 48px 56px 44px;
+}
+.titolo-video {
+    position: absolute; inset: 0;
+    width: 100%; height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    filter: brightness(0.6) saturate(0.9);
+}
+.titolo-over {
+    position: absolute; inset: 0;
+    background: linear-gradient(to bottom,
+        rgba(8,9,15,0.2) 0%,
+        rgba(8,9,15,0.0) 30%,
+        rgba(8,9,15,0.5) 80%,
+        rgba(8,9,15,0.9) 100%);
+    z-index: 1;
+}
+.titolo-title {
+    position: absolute;
+    inset: 0;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 24px;
+    opacity: 0;
+    transform: translateY(28px);
+    transition: opacity 1.6s cubic-bezier(0.25,0,0.1,1), transform 1.6s cubic-bezier(0.25,0,0.1,1);
+    pointer-events: none;
+}
+.titolo-title.visible {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+.split-wrap {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    padding: 0 24px;
+}
+.split-label {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.65rem;
+    letter-spacing: 0.22em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 2rem;
+    opacity: 0;
+    transition: opacity 0.8s ease 1.2s;
+}
+.split-wrap.played .split-label { opacity: 1; }
+
+.split-h1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0 0.35em;
+    margin: 0 0 2rem;
+    line-height: 1;
+}
+/* Ogni parola: contenitore con overflow hidden */
+.split-word {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    line-height: 1;
+}
+/* Le due metà: stessa stringa, clip diversa */
+.split-half {
+    display: block;
+    font-family: "Georgia", serif;
+    font-size: clamp(4rem, 13vw, 10rem);
+    font-weight: 300;
+    letter-spacing: -0.02em;
+    color: var(--cream);
+    white-space: nowrap;
+    position: absolute;
+    left: 0; right: 0;
+}
+.split-half--top {
+    top: 0;
+    clip-path: inset(0 0 50% 0);
+    transform: translateY(-110%);
+    transition: transform 1.0s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.split-half--bot {
+    bottom: 0;
+    clip-path: inset(50% 0 0 0);
+    transform: translateY(110%);
+    transition: transform 1.0s cubic-bezier(0.16, 1, 0.3, 1);
+}
+/* Altezza del contenitore = altezza del testo */
+.split-word::after {
+    content: attr(data-word);
+    font-family: "Georgia", serif;
+    font-size: clamp(4rem, 13vw, 10rem);
+    font-weight: 300;
+    letter-spacing: -0.02em;
+    visibility: hidden;
+    display: block;
+    white-space: nowrap;
+}
+/* Stato animato */
+.split-wrap.played .split-half--top,
+.split-wrap.played .split-half--bot {
+    transform: translateY(0);
+}
+/* Delay per ogni parola */
+.split-h1 .split-word:nth-child(1) .split-half { transition-delay: 0s; }
+.split-h1 .split-word:nth-child(2) .split-half { transition-delay: 0.12s; }
+.split-h1 .split-word:nth-child(3) .split-half { transition-delay: 0.22s; }
+.split-h1 .split-word:nth-child(4) .split-half { transition-delay: 0.32s; }
+
+.split-dante {
+    font-family: "Georgia", serif;
+    font-size: clamp(0.95rem, 2vw, 1.25rem);
+    font-style: italic;
+    color: rgba(240,232,214,0.6);
+    line-height: 1.75;
+    margin: 0 0 0.6rem;
+    opacity: 0;
+    transition: opacity 0.8s ease 1.4s;
+}
+.split-dante-cite {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.63rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: rgba(240,232,214,0.3);
+    opacity: 0;
+    transition: opacity 0.8s ease 1.55s;
+    display: block;
+}
+.split-wrap.played .split-dante,
+.split-wrap.played .split-dante-cite { opacity: 1; }
+
+/* ══ SEZIONE NARRATIVA (Il senso / Chi siamo) ══ */
+.s-titolo .split-wrap { max-width: none; text-align: left; }
+.s-titolo .split-dante {
+    text-align: center;
+    max-width: 900px;
+    margin: 0 auto 2rem;
+    font-size: clamp(1.6rem, 3.6vw, 2.6rem);
+    color: var(--cream);
+    opacity: 1;
+    transition: none;
+}
+.s-narrativa__intro {
+    font-size: clamp(1.1rem, 1.9vw, 1.3rem);
+    color: #F0E8D6;
+    line-height: 1.8;
+    margin: 1.6rem 0 2.4rem;
+}
+.s-narrativa__block {
+    margin-bottom: 2rem;
+}
+.s-narrativa__h4 {
+    font-family: "Georgia", serif;
+    font-size: clamp(1.3rem, 2.5vw, 1.75rem);
+    font-weight: 400;
+    font-style: italic;
+    color: var(--gold);
+    margin-bottom: 0.7rem;
+}
+.s-narrativa__text {
+    font-size: clamp(1.05rem, 1.7vw, 1.2rem);
+    color: #F0E8D6;
+    line-height: 1.8;
+}
+
+/* ══ CONTENUTO ══ */
+.site-content { background: var(--bg); }
+
+.lbl {
+    display: block;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.68rem;
+    letter-spacing: 0.18em;
     text-transform: uppercase;
     color: var(--gold);
     margin-bottom: 1rem;
 }
-.vdm-label--light { color: rgba(201,168,76,0.7); }
+.lbl--dim { color: rgba(201,168,76,0.6); }
 
-/* ── HERO ── */
-.vdm-hero {
+/* Intro */
+.s-intro {
+    padding: 100px 24px 90px;
+    max-width: 760px;
+    margin: 0 auto;
+    text-align: center;
+}
+.s-intro__dante {
+    font-family: "Georgia", serif;
+    font-size: clamp(1.5rem, 3.2vw, 2.4rem);
+    font-weight: 300;
+    font-style: italic;
+    color: var(--cream);
+    line-height: 1.5;
+    margin: 0 0 1.6rem;
+    border: none;
+    padding: 0;
+}
+.s-intro__dante p { margin: 0; }
+.s-intro__dante-cite {
+    font-size: 0.72rem;
+    letter-spacing: 0.18em;
+    color: rgba(240,232,214,0.35);
+    text-transform: uppercase;
+}
+.dot { width: 7px; height: 7px; background: var(--gold); border-radius: 50%; animation: pulse 2s infinite; }
+@keyframes pulse { 0%,100%{opacity:1;} 50%{opacity:.25;} }
+
+/* Episodes */
+.s-episodes { padding: 0 24px 80px; max-width: 1100px; margin: 0 auto; border-top: 1px solid var(--bord); padding-top: 80px; }
+.s-episodes__head { display: flex; flex-direction: column; margin-bottom: 48px; }
+.s-episodes__title { font-family: "Georgia", serif; font-size: clamp(2rem, 5vw, 3rem); font-weight: 300; line-height: 1.15; color: var(--cream); margin-bottom: 1.3rem; }
+.s-link-all { align-self: flex-start; color: var(--gold); text-decoration: none; font-size: 0.85rem; border-bottom: 1px solid transparent; transition: border-color .2s; }
+.s-link-all:hover { border-color: var(--gold); }
+.s-grid { display: grid; grid-template-columns: repeat(2,1fr); gap: 2px; }
+@media(max-width:600px){ .s-grid { grid-template-columns: 1fr; } }
+.s-card { display: block; text-decoration: none; color: inherit; background: var(--surf); border: 1px solid var(--bord); padding: 28px 24px; transition: background .2s; }
+.s-card:hover { background: #151929; }
+.s-card__date { display: block; font-size: .72rem; color: var(--muted); letter-spacing: .08em; margin-bottom: 10px; }
+.s-card__tags { display: flex; gap: 6px; margin-bottom: 12px; flex-wrap: wrap; }
+.s-tag { font-size: .68rem; letter-spacing: .1em; text-transform: uppercase; color: var(--gold); background: var(--golddim); padding: 3px 8px; border-radius: 3px; }
+.s-card__title { font-size: 1.1rem; font-weight: 500; line-height: 1.4; color: var(--cream); margin-bottom: 8px; }
+.s-card__sum { font-size: .83rem; color: var(--muted); line-height: 1.6; }
+
+/* Random */
+.s-random { border-top: 1px solid var(--bord); padding: 90px 24px; text-align: center; }
+.s-random__title { font-family: "Georgia", serif; font-size: clamp(2rem,6vw,3.5rem); font-weight: 300; color: var(--cream); margin-bottom: 1rem; }
+.s-random__text { font-size: .95rem; color: var(--muted); line-height: 1.7; margin-bottom: 2rem; }
+
+/* Telegram */
+.s-tg { background: var(--surf); border-top: 1px solid var(--bord); padding: 90px 24px; text-align: center; }
+.s-tg__title { font-family: "Georgia", serif; font-size: clamp(1.8rem,4vw,2.8rem); font-weight: 300; color: var(--cream); margin-bottom: 1.2rem; }
+.s-tg__text { font-size: .95rem; color: var(--muted); line-height: 1.8; margin-bottom: 2rem; max-width: 600px; margin-left: auto; margin-right: auto; }
+
+/* Buttons */
+.btn { display: inline-block; padding: 13px 36px; border: 1px solid var(--gold); background: transparent; color: var(--gold); font-size: .82rem; letter-spacing: .12em; text-transform: uppercase; text-decoration: none; cursor: pointer; font-family: inherit; transition: background .2s, color .2s; }
+.btn:hover { background: var(--gold); color: #000; }
+.btn--tg { border-color: #229ED9; color: #229ED9; }
+.btn--tg:hover { background: #229ED9; color: #fff; }
+
+/* ══ SPLIT BADGE ══ */
+.split-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: rgba(255,255,255,0.04);
+    border: 1px solid var(--bord);
+    padding: 8px 20px;
+    border-radius: 50px;
+    font-size: 0.82rem;
+    color: rgba(240,232,214,0.6);
+    margin-top: 2.4rem;
+    opacity: 0;
+    transition: opacity 0.8s ease 1.6s;
+}
+.split-wrap.played .split-badge { opacity: 1; }
+
+/* ══ EPISODIO DEL GIORNO ══ */
+.s-epdelgiorno {
+    border-top: 1px solid var(--bord);
+    background: var(--bg);
+    padding: 64px 44px 80px;
+}
+.s-epdelgiorno__card { max-width: 760px; }
+.s-epdelgiorno__head {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-bottom: 28px;
+}
+.s-epdelgiorno__title {
+    font-family: "Georgia", serif;
+    font-size: clamp(1.6rem, 3.2vw, 2.2rem);
+    font-weight: 300;
+    color: var(--cream);
+    line-height: 1.25;
+    margin: 0;
+}
+.s-epdelgiorno__date {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.72rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(240,232,214,0.4);
+    flex-shrink: 0;
+}
+.s-epdelgiorno__audio {
+    width: 100%;
+    margin-bottom: 28px;
+    filter: invert(0.86) grayscale(1) contrast(0.9);
+    border-radius: 4px;
+}
+.s-epdelgiorno__audio-placeholder {
+    width: 100%;
+    padding: 20px;
+    border: 1px dashed var(--bord);
+    text-align: center;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.7rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: rgba(240,232,214,0.3);
+    margin-bottom: 28px;
+}
+.s-epdelgiorno__video-wrap {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    background: var(--surf);
+    margin-bottom: 28px;
+    overflow: hidden;
+}
+.s-epdelgiorno__video { width: 100%; height: 100%; object-fit: cover; display: block; }
+.s-epdelgiorno__desc {
+    font-size: clamp(1rem, 1.6vw, 1.1rem);
+    color: #F0E8D6;
+    line-height: 1.8;
+    margin-bottom: 22px;
+}
+.s-epdelgiorno__tags { display: flex; gap: 8px; flex-wrap: wrap; }
+
+/* ══ TEMI ESISTENZIALI ══ */
+.s-temi {
     position: relative;
-    height: 100vh;
-    min-height: 600px;
+    display: grid;
+    grid-template-columns: 600px 1fr;
+    border-top: 1px solid var(--bord);
+}
+/* Mobile: colonna unica, timeline sotto il titolo */
+@media(max-width:900px) {
+    .s-temi { grid-template-columns: 1fr; }
+    .s-temi__left { order: 2; border-right: none; border-top: 1px solid var(--bord); }
+    .s-temi__center { order: 1; }
+    .s-temi__timeline { display: flex; }
+}
+.s-temi__left {
+    padding: 48px 40px 64px;
+    border-right: 1px solid var(--bord);
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+    position: relative;
+    z-index: 2;
+}
+/* Progress bar */
+.s-temi__prog-wrap {
+    height: 1px;
+    background: rgba(255,255,255,0.12);
+    overflow: hidden;
+}
+.s-temi__prog-bar {
+    height: 100%;
+    background: var(--cream);
+    width: 0%;
+}
+/* Nav */
+.s-temi__nav {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+.s-temi__arrow {
+    background: none;
+    border: none;
+    color: var(--cream);
+    cursor: pointer;
+    font-size: 1rem;
+    padding: 0;
+    opacity: 0.55;
+    transition: opacity 0.2s;
+    line-height: 1;
+}
+.s-temi__arrow:hover { opacity: 1; }
+.s-temi__counter {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.68rem;
+    letter-spacing: 0.08em;
+    color: rgba(240,232,214,0.35);
+    margin-left: auto;
+    font-variant-numeric: tabular-nums;
+}
+/* Slide: ultimi episodi (descrizione → titolo → data) */
+.s-temi__slide-wrap { flex: 1; display: flex; flex-direction: column; }
+.s-temi__slide-desc {
+    font-size: clamp(0.92rem, 1.4vw, 1.02rem);
+    color: rgba(240,232,214,0.7);
+    line-height: 1.65;
+    margin-bottom: 18px;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.4s ease, transform 0.4s ease;
+}
+.s-temi__slide-title {
+    font-family: "Georgia", serif;
+    font-size: clamp(1.15rem, 1.8vw, 1.4rem);
+    font-weight: 400;
+    color: var(--cream);
+    line-height: 1.3;
+    margin-bottom: 10px;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.4s ease 0.06s, transform 0.4s ease 0.06s;
+}
+.s-temi__slide-date {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.68rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: rgba(201,168,76,0.6);
+    opacity: 0;
+    transform: translateY(10px);
+    transition: opacity 0.4s ease 0.12s, transform 0.4s ease 0.12s;
+}
+.s-temi__slide-desc.in,
+.s-temi__slide-title.in,
+.s-temi__slide-date.in {
+    opacity: 1;
+    transform: translateY(0);
+}
+.s-temi__archive-link {
+    align-self: flex-start;
+    margin-top: auto;
+    padding-top: 24px;
+    color: var(--gold);
+    text-decoration: none;
+    font-size: 0.85rem;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.2s;
+}
+.s-temi__archive-link:hover { border-color: var(--gold); }
+.s-temi__center {
+    padding: 56px 48px 56px 44px;
+    display: flex;
+    flex-direction: column;
+}
+.s-temi__list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 28px;
+}
+.s-temi__h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: clamp(2.2rem, 4.5vw, 4.75rem);
+    font-weight: 400;
+    color: rgba(240,232,214,0.2);
+    letter-spacing: -0.03em;
+    line-height: 0.95;
+    padding: 20px 0;
+    border-bottom: 1px solid var(--bord);
+    cursor: default;
+    transition: color 0.25s ease;
+    margin: 0;
+    user-select: none;
+}
+.s-temi__h2:first-child { border-top: 1px solid var(--bord); }
+.s-temi__h2.active,
+.s-temi__h2:hover { color: var(--cream); font-weight: 600; }
+
+/* Overlay immagine — pannello piccolo centrato sulla h2 attiva */
+.s-temi__right {
+    position: absolute;
+    right: 32px;
+    width: 300px;
+    height: 380px;
+    pointer-events: none;
+    z-index: 5;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: top 0.3s ease;
+}
+@media(max-width:900px) { .s-temi__right { display: none; } }
+.s-temi__img {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+    filter: brightness(0.7) saturate(0.8);
+}
+.s-temi__img.active { opacity: 1; }
+
+/* ══ PROJECT JOURNEY ══ */
+.s-journey {
+    border-top: 1px solid var(--bord);
+}
+.s-journey__step {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-bottom: 1px solid var(--bord);
+}
+@media(max-width:700px) {
+    .s-journey__step { grid-template-columns: 1fr; }
+    .s-journey__img { min-height: 220px; }
+}
+.s-journey__text {
+    padding: 48px 52px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 14px;
+}
+.s-journey__num {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.65rem;
+    letter-spacing: 0.18em;
+    color: var(--gold);
+    font-variant-numeric: tabular-nums;
+}
+.s-journey__title {
+    font-family: "Georgia", serif;
+    font-size: clamp(1.6rem, 3vw, 2.4rem);
+    font-weight: 300;
+    color: var(--cream);
+    line-height: 1.2;
+    margin: 0;
+}
+.s-journey__body {
+    font-size: clamp(1rem, 1.5vw, 1.125rem);
+    color: var(--muted);
+    line-height: 1.5;
+    max-width: 420px;
+}
+.s-journey__img-wrap {
+    background: var(--surf);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 28px;
+}
+.s-journey__img {
+    max-width: 100%;
+    max-height: 320px;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    filter: brightness(0.88) saturate(0.8);
+    display: block;
+}
+
+/* ══ CTA ══ */
+.s-cta {
+    position: relative;
+    min-height: 756px;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
+    overflow: hidden;
+    border-top: 1px solid var(--bord);
 }
-.vdm-hero__media { position: absolute; inset: 0; overflow: hidden; }
-.vdm-hero__video {
-    width: 100%; height: 100%;
-    object-fit: cover;
-    filter: brightness(0.5);
+.s-cta__bg {
+    position: absolute;
+    inset: 0;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.3) saturate(0.6);
 }
-.vdm-hero__overlay {
-    position: absolute; inset: 0;
-    background: linear-gradient(to bottom, rgba(8,9,15,0.2) 0%, rgba(8,9,15,0.6) 60%, rgba(8,9,15,1) 100%);
+.s-cta__over {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to bottom, rgba(8,9,15,0.5) 0%, rgba(8,9,15,0.2) 50%, rgba(8,9,15,0.7) 100%);
 }
-.vdm-hero__content {
+.s-cta__content {
     position: relative;
     z-index: 2;
-    padding: 0 24px;
+    padding: 80px 24px;
+    max-width: 700px;
 }
-.vdm-hero__title {
-    font-family: "Georgia", "Times New Roman", serif;
-    font-size: clamp(3rem, 10vw, 7rem);
+.s-cta__title {
+    font-family: "Georgia", serif;
+    font-size: clamp(2.2rem, 5vw, 3.8rem);
     font-weight: 300;
-    line-height: 1.05;
-    letter-spacing: -0.02em;
     color: var(--cream);
-    margin-bottom: 1.25rem;
+    line-height: 1.15;
+    margin: 0 0 1.4rem;
+    letter-spacing: -0.01em;
 }
-.vdm-hero__sub {
-    font-size: clamp(0.9rem, 2vw, 1.05rem);
+.s-cta__sub {
+    font-size: 1rem;
     color: rgba(240,232,214,0.6);
-    line-height: 1.7;
-    margin-bottom: 2.5rem;
+    line-height: 1.8;
+    margin-bottom: 2.4rem;
 }
-.vdm-hero__counter {
-    display: inline-flex;
+
+/* ══ SEZIONE VERSO SERA ══ */
+.s-verso {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.s-verso__video {
+    position: absolute; inset: 0;
+    width: 100%; height: 100%;
+    object-fit: cover;
+    z-index: 0;
+    filter: brightness(0.7) saturate(1.0);
+}
+.s-verso__over {
+    position: absolute; inset: 0;
+    background: linear-gradient(to bottom,
+        rgba(8,9,15,0.1) 0%,
+        rgba(8,9,15,0.0) 20%,
+        rgba(8,9,15,0.3) 70%,
+        rgba(8,9,15,0.88) 100%);
+    z-index: 1;
+}
+.s-verso__title {
+    position: absolute; inset: 0;
+    z-index: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     align-items: center;
-    gap: 10px;
-    background: rgba(255,255,255,0.05);
-    backdrop-filter: blur(12px);
-    border: 1px solid var(--border);
-    padding: 8px 18px;
-    border-radius: 50px;
-    font-size: 0.82rem;
-    color: rgba(240,232,214,0.7);
+    text-align: center;
+    padding: 0 24px;
+    opacity: 0;
+    transform: translateY(28px);
+    transition: opacity 3.2s cubic-bezier(0.25,0,0.1,1), transform 3.2s cubic-bezier(0.25,0,0.1,1);
+    pointer-events: none;
 }
-.vdm-dot {
-    width: 7px; height: 7px;
-    background: var(--gold);
-    border-radius: 50%;
-    animation: pulse 2s infinite;
+.s-verso__title.visible {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
 }
-@keyframes pulse {
-    0%,100% { opacity: 1; transform: scale(1); }
-    50%      { opacity: 0.5; transform: scale(0.85); }
-}
-.vdm-hero__scroll {
+
+/* ── Verso copyright ── */
+.verso-copyright {
     position: absolute;
-    bottom: 2rem;
+    bottom: 14px; left: 14px;
+    z-index: 4;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.6rem;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+    color: rgba(240,232,214,0.35);
+    pointer-events: none;
+}
+
+/* ── Hero copyright ── */
+.hero-copyright {
+    position: absolute;
+    bottom: 14px; left: 14px;
+    z-index: 4;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.6rem;
+    font-weight: 300;
+    letter-spacing: 0.02em;
+    color: rgba(240,232,214,0.35);
+    pointer-events: none;
+}
+
+/* ── Frecce s-verso ── */
+.verso-arrow {
+    position: absolute;
+    right: 36px;
+    z-index: 4;
+    cursor: pointer;
+    animation: arrowBob 2.4s ease-in-out infinite;
+}
+.verso-arrow--up  { top: 36px; animation-direction: reverse; }
+.verso-arrow--down { bottom: 36px; }
+.verso-arrow svg { width: 28px; height: 17px; display: block; }
+
+/* ── CTA bottom logos ── */
+.s-cta__logos {
+    position: absolute;
+    bottom: 28px;
     left: 50%;
     transform: translateX(-50%);
-    z-index: 2;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    z-index: 3;
+    filter: grayscale(1);
+    opacity: 0.45;
+}
+.s-cta__logo-deejay {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 6px;
-    color: rgba(240,232,214,0.35);
+    line-height: 1;
+    gap: 1px;
+}
+.deejay-radio {
+    font-family: 'IBM Plex Mono', monospace;
     font-size: 0.7rem;
-    letter-spacing: 0.15em;
+    letter-spacing: 0.22em;
     text-transform: uppercase;
-    animation: bob 2.5s ease-in-out infinite;
+    color: #fff;
 }
-@keyframes bob {
-    0%,100% { transform: translateX(-50%) translateY(0); }
-    50%      { transform: translateX(-50%) translateY(6px); }
+.deejay-name {
+    font-family: 'Inter', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #fff;
+    line-height: 1;
 }
-
-/* ── SECTIONS ── */
-.vdm-section {
-    padding: 100px 24px;
-    max-width: 1100px;
-    margin: 0 auto;
+.s-cta__logo-divider {
+    width: 1px;
+    height: 44px;
+    background: rgba(255,255,255,0.3);
 }
-.vdm-section--alt {
-    max-width: 100%;
-    background: var(--surface);
-    border-top: 1px solid var(--border);
-    border-bottom: 1px solid var(--border);
-    padding: 100px 24px;
-}
-.vdm-section__head {
+.s-cta__logo-carpanelle {
     display: flex;
     flex-direction: column;
-    margin-bottom: 56px;
+    align-items: flex-start;
+    gap: 4px;
 }
-.vdm-section__title {
-    font-family: "Georgia", serif;
-    font-size: clamp(2rem, 5vw, 3.5rem);
-    font-weight: 300;
-    line-height: 1.15;
-    letter-spacing: -0.01em;
-    color: var(--cream);
-    margin-bottom: 1.5rem;
+.carp-main {
+    font-family: 'Georgia', serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: 0.03em;
+    line-height: 1;
 }
-.vdm-link-all {
-    align-self: flex-start;
-    color: var(--gold);
-    text-decoration: none;
-    font-size: 0.85rem;
-    letter-spacing: 0.05em;
-    border-bottom: 1px solid transparent;
-    transition: border-color 0.2s;
-}
-.vdm-link-all:hover { border-color: var(--gold); }
-
-/* ── GRID ── */
-.vdm-grid {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 2px;
-}
-@media (max-width: 600px) { .vdm-grid { grid-template-columns: 1fr; } }
-
-.vdm-card { text-decoration: none; color: inherit; display: block; }
-.vdm-card__inner {
-    padding: 32px 28px;
-    background: var(--surface);
-    border: 1px solid var(--border);
-    height: 100%;
-    transition: background 0.2s;
-}
-.vdm-card:hover .vdm-card__inner { background: #151929; }
-.vdm-card__date {
-    display: block;
-    font-size: 0.72rem;
-    color: var(--muted);
-    letter-spacing: 0.08em;
-    margin-bottom: 12px;
-}
-.vdm-card__tags { display: flex; gap: 6px; margin-bottom: 14px; flex-wrap: wrap; }
-.vdm-tag {
-    font-size: 0.68rem;
-    letter-spacing: 0.1em;
+.carp-sub {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.6rem;
+    letter-spacing: 0.18em;
     text-transform: uppercase;
-    color: var(--gold);
-    background: var(--gold-dim);
-    padding: 3px 8px;
-    border-radius: 3px;
-}
-.vdm-card__title {
-    font-size: 1.15rem;
-    font-weight: 500;
-    line-height: 1.4;
-    color: var(--cream);
-    margin-bottom: 10px;
-}
-.vdm-card__summary {
-    font-size: 0.85rem;
-    color: var(--muted);
-    line-height: 1.6;
-}
-
-/* ── FEATURE (naviga a caso) ── */
-.vdm-feature {
-    padding: 120px 24px;
-    text-align: center;
-    background: var(--bg);
-}
-.vdm-feature__inner { max-width: 560px; margin: 0 auto; }
-.vdm-feature__title {
-    font-family: "Georgia", serif;
-    font-size: clamp(2.2rem, 6vw, 4rem);
-    font-weight: 300;
-    color: var(--cream);
-    margin-bottom: 1rem;
-    line-height: 1.1;
-}
-.vdm-feature__text {
-    font-size: 0.95rem;
-    color: var(--muted);
-    line-height: 1.7;
-    margin-bottom: 2.5rem;
-}
-
-/* ── BUTTONS ── */
-.vdm-btn {
-    display: inline-block;
-    padding: 14px 36px;
-    border: 1px solid var(--gold);
-    background: transparent;
-    color: var(--gold);
-    font-size: 0.85rem;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    text-decoration: none;
-    cursor: pointer;
-    transition: background 0.2s, color 0.2s;
-    font-family: inherit;
-}
-.vdm-btn:hover { background: var(--gold); color: #000; }
-.vdm-btn--tg {
-    border-color: #229ED9;
-    color: #229ED9;
-}
-.vdm-btn--tg:hover { background: #229ED9; color: #fff; }
-
-/* ── CTA ── */
-.vdm-cta {
-    max-width: 680px;
-    margin: 0 auto;
-    text-align: center;
-}
-.vdm-cta__title {
-    font-family: "Georgia", serif;
-    font-size: clamp(1.8rem, 4vw, 3rem);
-    font-weight: 300;
-    color: var(--cream);
-    margin-bottom: 1.25rem;
-    line-height: 1.2;
-}
-.vdm-cta__text {
-    font-size: 0.95rem;
-    color: var(--muted);
-    line-height: 1.8;
-    margin-bottom: 2.5rem;
+    color: rgba(255,255,255,0.7);
 }
 </style>
 
+<!-- ════════════════════════════════════
+     JS
+════════════════════════════════════ -->
 <script>
-function navigaACaso() {
-    const rotte = [
-        {{ range (where .Site.RegularPages "Section" "episodi") }}
-        "{{ .Permalink }}",
+(function() {
+    /* ── Scroll to top on reload ── */
+    if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+    window.scrollTo(0, 0);
+
+    /* ── Timeline ultimi episodi (s-temi left column) ── */
+    var tlData = [
+        {{ range first 6 (where .Site.RegularPages "Section" "episodi") }}
+        {
+            title: {{ .Title | jsonify }},
+            date: {{ .Date.Format "02 Jan 2006" | jsonify }},
+            /* TODO: sostituire con .Summary reale quando l'archivio sarà popolato */
+            desc: {{ "Un frammento da riscoprire: parole, momenti e storie ricomposte per strapparle all'oblio." | jsonify }}
+        },
         {{ end }}
     ];
-    if (rotte.length > 0) {
-        window.location.href = rotte[Math.floor(Math.random() * rotte.length)];
-    } else {
-        alert("Stiamo caricando i primi frammenti. Torna presto!");
+    var tlCurrent = 0;
+    var tlDuration = 5000;
+    var tlTimer = null;
+    var tlBar     = document.getElementById('tl-bar');
+    var tlCounter = document.getElementById('tl-counter');
+    var tlDesc    = document.getElementById('tl-desc');
+    var tlTitle   = document.getElementById('tl-title');
+    var tlDate    = document.getElementById('tl-date');
+    var tlPrev    = document.getElementById('tl-prev');
+    var tlNext    = document.getElementById('tl-next');
+
+    function tlShow(idx) {
+        if (!tlData.length) return;
+        tlCurrent = ((idx % tlData.length) + tlData.length) % tlData.length;
+        var n = String(tlCurrent + 1).padStart(2, '0');
+        var t = String(tlData.length).padStart(2, '0');
+        if (tlCounter) tlCounter.textContent = n + ' / ' + t;
+
+        [tlDesc, tlTitle, tlDate].forEach(function(el) { if (el) el.classList.remove('in'); });
+        void (tlDesc && tlDesc.offsetWidth); /* reflow */
+        if (tlDesc)  tlDesc.textContent  = tlData[tlCurrent].desc;
+        if (tlTitle) tlTitle.textContent = tlData[tlCurrent].title;
+        if (tlDate)  tlDate.textContent  = tlData[tlCurrent].date;
+        requestAnimationFrame(function() {
+            [tlDesc, tlTitle, tlDate].forEach(function(el) { if (el) el.classList.add('in'); });
+        });
+
+        /* Progress bar */
+        clearTimeout(tlTimer);
+        if (tlBar) {
+            tlBar.style.transition = 'none';
+            tlBar.style.width = '0%';
+            void tlBar.offsetWidth;
+            tlBar.style.transition = 'width ' + tlDuration + 'ms linear';
+            tlBar.style.width = '100%';
+        }
+        tlTimer = setTimeout(function() { tlShow(tlCurrent + 1); }, tlDuration);
     }
-}
+
+    if (tlPrev) tlPrev.addEventListener('click', function() { tlShow(tlCurrent - 1); });
+    if (tlNext) tlNext.addEventListener('click', function() { tlShow(tlCurrent + 1); });
+    if (tlData.length) tlShow(0);
+
+    /* ── Hero (verso_sera.mp4): titolo al 30%, autoscroll a content al termine ── */
+    var versoTitleEl    = document.getElementById('verso-title');
+    var versoTitleShown = false;
+    var versoVid        = document.getElementById('hero-video');
+
+    if (versoVid) {
+        versoVid.addEventListener('timeupdate', function() {
+            var dur = versoVid.duration || 0;
+            if (!dur) return;
+            if (!versoTitleShown && versoVid.currentTime >= dur * 0.30) {
+                versoTitleShown = true;
+                if (versoTitleEl) versoTitleEl.classList.add('visible');
+            }
+        });
+        versoVid.addEventListener('seeked', function() {
+            if (versoVid.currentTime < versoVid.duration * 0.30) {
+                versoTitleShown = false;
+                if (versoTitleEl) versoTitleEl.classList.remove('visible');
+            }
+        });
+        versoVid.addEventListener('ended', function() {
+            var sec = document.getElementById('content');
+            if (sec) smoothScrollTo(sec.offsetTop, 2200);
+        });
+    }
+
+    /* ── Scroll a s-verso ── */
+    function smoothScrollTo(targetY, duration) {
+        var startY = window.scrollY;
+        var dist   = targetY - startY;
+        var startT = null;
+        function ease(t) { return t < 0.5 ? 4*t*t*t : 1 - Math.pow(-2*t+2,3)/2; }
+        function step(ts) {
+            if (!startT) startT = ts;
+            var p = Math.min((ts - startT) / duration, 1);
+            window.scrollTo(0, startY + dist * ease(p));
+            if (p < 1) requestAnimationFrame(step);
+        }
+        requestAnimationFrame(step);
+    }
+
+    window.scrollToVerso = function() {
+        var sec = document.querySelector('.s-verso');
+        if (sec) smoothScrollTo(sec.offsetTop, 1800);
+    };
+
+    window.scrollToHero = function() {
+        smoothScrollTo(0, 1800);
+    };
+
+    window.scrollToContent = function() {
+        var sec = document.getElementById('content');
+        if (sec) smoothScrollTo(sec.offsetTop, 1800);
+    };
+
+    /* ── Scroll alla sezione #titolo ── */
+    window.scrollToTitolo = function() {
+        const sec = document.getElementById('titolo');
+        if (sec) {
+            sec.scrollIntoView({ behavior: 'smooth' });
+            /* Trigger animazione split dopo 600ms (tempo scroll) */
+            setTimeout(triggerSplit, 600);
+        }
+    };
+
+    function triggerSplit() {
+        const wrap = document.getElementById('split-wrap');
+        if (!wrap || wrap.dataset.played) return;
+        wrap.dataset.played = '1';
+        wrap.classList.add('played');
+
+        /* Label e sub fade-in */
+        const label = wrap.querySelector('.split-label');
+        const sub   = wrap.querySelector('.split-sub');
+        if (label) label.style.cssText = 'opacity:1; transition: opacity 0.8s ease 1.0s';
+        var badge = wrap.querySelector('.split-badge');
+        if (badge) badge.style.cssText = 'opacity:1; transition: opacity 0.8s ease 1.8s';
+
+        /* Anima ogni parola con delay crescente */
+        const words = wrap.querySelectorAll('.split-word');
+        words.forEach(function(word, i) {
+            var tops = word.querySelectorAll('.split-half--top');
+            var bots = word.querySelectorAll('.split-half--bot');
+            var delay = i * 120; /* ms */
+            var ease  = 'cubic-bezier(0.16, 1, 0.3, 1)';
+            setTimeout(function() {
+                tops.forEach(function(el) {
+                    el.style.transition = 'transform 1.0s ' + ease;
+                    el.style.transform  = 'translateY(0)';
+                });
+                bots.forEach(function(el) {
+                    el.style.transition = 'transform 1.0s ' + ease;
+                    el.style.transform  = 'translateY(0)';
+                });
+            }, delay);
+        });
+    }
+
+    /* IntersectionObserver: entra → anima, esce → resetta */
+    const splitSec = document.getElementById('titolo');
+    if (splitSec) {
+        new IntersectionObserver(function(entries) {
+            if (entries[0].isIntersecting) {
+                triggerSplit();
+            } else {
+                resetSplit();
+            }
+        }, { threshold: 0.4 }).observe(splitSec);
+    }
+
+    function resetSplit() {
+        const wrap = document.getElementById('split-wrap');
+        if (!wrap) return;
+        delete wrap.dataset.played;
+        wrap.classList.remove('played');
+        const ease = 'cubic-bezier(0.16, 1, 0.3, 1)';
+        wrap.querySelectorAll('.split-half--top').forEach(function(el) {
+            el.style.transition = 'transform 0.6s ' + ease;
+            el.style.transform  = 'translateY(-110%)';
+        });
+        wrap.querySelectorAll('.split-half--bot').forEach(function(el) {
+            el.style.transition = 'transform 0.6s ' + ease;
+            el.style.transform  = 'translateY(110%)';
+        });
+        const label = wrap.querySelector('.split-label');
+        const sub   = wrap.querySelector('.split-sub');
+        if (label) label.style.cssText = 'opacity:0; transition: opacity 0.3s ease';
+        var badge = wrap.querySelector('.split-badge');
+        if (badge) badge.style.cssText = 'opacity:0; transition: opacity 0.3s ease';
+    }
+
+    /* ── Scroll to content (usato dal CTA nell'archivio) ── */
+    window.scrollToContent = function() {
+        document.getElementById('content').scrollIntoView({ behavior: 'smooth' });
+    };
+
+    /* ── Temi esistenziali: hover su h2 → cambia immagine + centra pannello ── */
+    var temiH2s    = document.querySelectorAll('.s-temi__h2');
+    var temiImgs   = document.querySelectorAll('.s-temi__img');
+    var temiSection = document.querySelector('.s-temi');
+    var temiPanel   = document.querySelector('.s-temi__right');
+
+    temiH2s.forEach(function(h2) {
+        h2.addEventListener('mouseenter', function() {
+            var idx = parseInt(h2.dataset.idx, 10);
+            temiH2s.forEach(function(el) { el.classList.remove('active'); });
+            temiImgs.forEach(function(el) { el.classList.remove('active'); });
+            h2.classList.add('active');
+            if (temiImgs[idx]) temiImgs[idx].classList.add('active');
+
+            /* Centra il pannello verticalmente sulla h2 attiva */
+            if (temiPanel && temiSection) {
+                var secRect   = temiSection.getBoundingClientRect();
+                var h2Rect    = h2.getBoundingClientRect();
+                var midY      = h2Rect.top - secRect.top + h2Rect.height / 2;
+                var panelH    = temiPanel.offsetHeight;
+                var newTop    = Math.max(16, Math.min(midY - panelH / 2, temiSection.offsetHeight - panelH - 16));
+                temiPanel.style.top       = newTop + 'px';
+                temiPanel.style.transform = 'none';
+            }
+        });
+    });
+
+    /* ── Naviga a caso ── */
+    window.navigaACaso = function() {
+        const rotte = [
+            {{ range (where .Site.RegularPages "Section" "episodi") }}
+            "{{ .Permalink }}",
+            {{ end }}
+        ];
+        if (rotte.length > 0) {
+            window.location.href = rotte[Math.floor(Math.random() * rotte.length)];
+        } else {
+            alert("Stiamo caricando i primi frammenti. Torna presto!");
+        }
+    };
+})();
 </script>
 
 {{ end }}

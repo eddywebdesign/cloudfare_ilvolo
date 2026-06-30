@@ -6,6 +6,9 @@ paginate = 10
 
 [params]
   author = "Fabio Volo"
+
+[params.label]
+  text = "ilVolodellaSera"
   description = "Archivio e riflessioni dal programma di Radio Deejay"
   ShowReadingTime = true
   ShowShareButtons = false
