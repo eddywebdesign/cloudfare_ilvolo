@@ -1,0 +1,37 @@
+name: Recogida automatica puntate
+
+on:
+  schedule:
+    # 09:30 UTC = 11:30 Italia (CEST) — dopo la fine della diretta del mattino
+    - cron: "30 9 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Recogida puntate da deejay.it
+        run: node scripts/fetch-episodi.mjs
+
+      - name: Commit e push se ci sono nuove puntate
+        run: |
+          git config user.name "ilvolodellasera-bot"
+          git config user.email "actions@users.noreply.github.com"
+          if git status --porcelain content/episodi | grep -q .; then
+            git add content/episodi
+            git commit -m "chore: recogida automatica puntate $(date -u +%Y-%m-%d)"
+            git push
+          else
+            echo "Nessuna nuova puntata da committare."
+          fi
