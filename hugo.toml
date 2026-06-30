@@ -2,7 +2,8 @@ baseURL = "https://ilvolodelmattino.github.io/"
 locale = "it-IT"
 title = "Il Volo della Sera"
 theme = "PaperMod"
-paginate = 10
+[pagination]
+  pagerSize = 10
 
 [params]
   author = "Fabio Volo"
