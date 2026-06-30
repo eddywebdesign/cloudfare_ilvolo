@@ -45,10 +45,10 @@
             <p class="lbl">L'idea</p>
             <h3 class="s-narrativa__h3">Uno spazio per raccogliere parole, momenti e storie de il Volo del Mattino. Spunti esistenziali ricomposti per strapparli all'oblio.</h3>
             <div class="s-narrativa__block">
-                <p class="s-narrativa__text">Che nascesse anche un volo-della-sera è un desiderio noto di Fabio Volo. Noi, ascoltatori storici del programma consapevoli che il tempo fagocita qualsiasi cosa, proviamo timidamente a dargli vita. Per noi il volo del mattino è più di un programma radiofonico… è un piccolo ed importante patrimonio creativo di cui tanti ne condividono la bontà e la genuinità. Il tentativo è preservarlo e arricchirlo offrendone una piccola Wikipedia, ricomponendo e riorganizzando un puzzle ricco di frammenti preziosi sparsi in molti anni di vita. Aggiungere pezzi nuovi al mosaico arricchisce questo spazio e si può volontariamente prenderne parte..ne saremmo davvero lieti!</p>
+                <p class="s-narrativa__text">Questo spazio nasce da un desiderio noto di Fabio Volo: dare vita a un Volo della Sera. Siamo ascoltatori storici del programma. Consapevoli che il tempo fagocita ogni cosa, proviamo timidamente a renderlo reale. Per noi Il Volo del Mattino è molto più di una trasmissione radiofonica: è un piccolo e importante patrimonio creativo di genuinità e spunti esistenziali che meritano di essere salvati dall'oblio. Il tentativo è preservarlo offrendo una piccola Wikipedia emotiva, un mosaico per ricomporre e riorganizzare i frammenti preziosi sparsi in molti anni di vita.</p>
             </div>
             <div class="s-narrativa__block">
-                <p class="s-narrativa__text">Benvenuto quindi, a chiunque voglia giocare un pò con sé stesso e condividere in armonia, e benvenuto a te che arrivi qui semplicemente per scaldarti il cuore navigando fra i 'frammenti' finora raccolti.</p>
+                <p class="s-narrativa__text">Benvenuto, quindi, a chiunque voglia giocare un po' con se stesso e condividere in armonia. E benvenuto a te che arrivi qui semplicemente per scaldarti il cuore navigando fra i ricordi finora raccolti.</p>
             </div>
         </div>
     </section>
@@ -626,7 +626,7 @@ header.header #menu .active { color: var(--cream) !important; }
 /* ══ SEZIONE TITOLO (split-text + video) ══ */
 .s-titolo {
     position: relative;
-    background: var(--bg);
+    background: #0D1117;
     border-top: 1px solid var(--bord);
     padding: 56px 48px 56px 44px;
 }
@@ -808,7 +808,8 @@ header.header #menu .active { color: var(--cream) !important; }
 .s-narrativa__text {
     font-size: var(--fs-body);
     color: #F0E8D6;
-    line-height: 1.8;
+    line-height: 2.1;
+    letter-spacing: 0.01em;
 }
 
 /* ══ CONTENUTO ══ */
@@ -1444,6 +1445,7 @@ header.header #menu .active { color: var(--cream) !important; }
     var versoVid        = document.getElementById('hero-video');
 
     if (versoVid) {
+        versoVid.playbackRate = 1.4;
         versoVid.addEventListener('timeupdate', function() {
             var dur = versoVid.duration || 0;
             if (!dur) return;
