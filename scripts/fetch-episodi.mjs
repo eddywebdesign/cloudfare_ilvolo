@@ -2,13 +2,19 @@
 /**
  * Recoge le puntate di "Il Volo del Mattino" da deejay.it e crea i file
  * markdown mancanti in content/episodi/. Idempotente: salta le puntate
- * il cui file esiste già, così può girare ogni giorno senza duplicare nulla.
+ * il cui file esiste già (aggiorna solo i tag se mancanti), così può
+ * girare ogni giorno senza duplicare nulla.
+ *
+ * Fonti:
+ *   - /puntate/        → audio + data di ogni puntata completa
+ *   - /highlights/      → frammenti tematici con titolo reale, collegati
+ *                          per data alla puntata completa → usati come tag
  *
  * Uso:
  *   node scripts/fetch-episodi.mjs
  */
 
-import { mkdir, readdir, writeFile } from "node:fs/promises";
+import { mkdir, readdir, readFile, writeFile } from "node:fs/promises";
 import { existsSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
@@ -18,8 +24,16 @@ const ROOT = path.resolve(__dirname, "..");
 const EPISODI_DIR = path.join(ROOT, "content", "episodi");
 
 const LISTING_URL = "https://www.deejay.it/programmi/il-volo-del-mattino/puntate/";
+const HIGHLIGHTS_BASE = "https://www.deejay.it/programmi/il-volo-del-mattino/highlights/";
+const HIGHLIGHTS_MAX_PAGES = 8; // ~6 frammenti/pagina → copre oltre un mese di puntate
 const UA =
     "Mozilla/5.0 (compatible; IlVoloDellaSeraArchivioBot/1.0; +https://ilvolodelmattino.github.io/)";
+
+const MESI_IT = {
+    gennaio: "01", febbraio: "02", marzo: "03", aprile: "04",
+    maggio: "05", giugno: "06", luglio: "07", agosto: "08",
+    settembre: "09", ottobre: "10", novembre: "11", dicembre: "12",
+};
 
 async function fetchText(url) {
     const res = await fetch(url, { headers: { "User-Agent": UA } });
@@ -66,7 +80,57 @@ function extractDurataMin(html) {
     return Math.round(parseFloat(m[1]) / 60);
 }
 
-function buildFrontMatter({ iso, dd, mm, yyyy, audioUrl, fonte, durataMin }) {
+/** "5 giugno 2026" → "2026-06-05" */
+function parseDataItaliana(testo) {
+    const m = testo.trim().match(/(\d{1,2})\s+([a-zàèéìòù]+)\s+(\d{4})/i);
+    if (!m) return null;
+    const [, giorno, mese, anno] = m;
+    const mm = MESI_IT[mese.toLowerCase()];
+    if (!mm) return null;
+    return `${anno}-${mm}-${giorno.padStart(2, "0")}`;
+}
+
+/** Estrae { titolo, dataIso } da ogni frammento di una pagina /highlights/. */
+function parseHighlightsPage(html) {
+    const items = [];
+    const re = /<h1 class="title small red"><a href="[^"]*">([^<]+)<\/a><\/h1>\s*<div class="service-title text small">\s*<strong>dalla puntata del:<\/strong>\s*([^<]+)<br/g;
+    let match;
+    while ((match = re.exec(html))) {
+        const [, titoloRaw, dataRaw] = match;
+        const dataIso = parseDataItaliana(dataRaw);
+        if (dataIso) items.push({ titolo: titoloRaw.trim(), dataIso });
+    }
+    return items;
+}
+
+/** Costruisce una mappa dataIso → [titoli frammenti] scorrendo le pagine /highlights/. */
+async function fetchHighlightsMap() {
+    const map = new Map();
+    for (let page = 1; page <= HIGHLIGHTS_MAX_PAGES; page++) {
+        const url = page === 1 ? HIGHLIGHTS_BASE : `${HIGHLIGHTS_BASE}page/${page}/`;
+        await sleep(250);
+        let html;
+        try {
+            html = await fetchText(url);
+        } catch {
+            break; // pagina inesistente o errore di rete → fine paginazione
+        }
+        const items = parseHighlightsPage(html);
+        if (items.length === 0) break;
+        for (const { titolo, dataIso } of items) {
+            if (!map.has(dataIso)) map.set(dataIso, []);
+            const lista = map.get(dataIso);
+            if (!lista.includes(titolo)) lista.push(titolo);
+        }
+    }
+    return map;
+}
+
+function yamlStringArray(arr) {
+    return `[${arr.map((t) => JSON.stringify(t)).join(", ")}]`;
+}
+
+function buildFrontMatter({ iso, dd, mm, yyyy, audioUrl, fonte, durataMin, tags }) {
     const titleDate = `${dd}/${mm}/${yyyy}`;
     const lines = [
         "---",
@@ -78,18 +142,29 @@ function buildFrontMatter({ iso, dd, mm, yyyy, audioUrl, fonte, durataMin }) {
     lines.push(
         `resumen: "Puntata di Il Volo del Mattino del ${titleDate}, condotta da Fabio Volo su Radio Deejay."`,
         `audio: "${audioUrl}"`,
-        `fonte: "${fonte}"`,
-        "---",
-        ""
+        `fonte: "${fonte}"`
     );
+    if (tags && tags.length) lines.push(`tags: ${yamlStringArray(tags)}`);
+    lines.push("---", "");
     return lines.join("\n");
+}
+
+/** Inserisce una riga `tags:` in un file esistente che non ce l'ha ancora. */
+async function aggiornaTagsSeMancanti(filePath, tags) {
+    const testo = await readFile(filePath, "utf8");
+    if (/^tags:/m.test(testo)) return false; // già presenti, non si sovrascrive
+    const rigaTags = `tags: ${yamlStringArray(tags)}\n`;
+    const parts = testo.split(/^---\s*$/m);
+    if (parts.length < 3) return false; // formato inatteso, non tocchiamo il file
+    const nuovoTesto = `---${parts[1]}${rigaTags}---${parts.slice(2).join("---")}`;
+    await writeFile(filePath, nuovoTesto, "utf8");
+    return true;
 }
 
 async function main() {
     if (!existsSync(EPISODI_DIR)) await mkdir(EPISODI_DIR, { recursive: true });
-    const existing = new Set(
-        (await readdir(EPISODI_DIR)).map((f) => f.replace(/\.md$/, ""))
-    );
+    const existingFiles = await readdir(EPISODI_DIR);
+    const existing = new Set(existingFiles.map((f) => f.replace(/\.md$/, "")));
 
     console.log(`Scarico indice puntate: ${LISTING_URL}`);
     const listingHtml = await fetchText(LISTING_URL);
@@ -97,14 +172,28 @@ async function main() {
         b.iso.localeCompare(a.iso)
     );
 
+    console.log("Scarico frammenti tematici (highlights) per i tag...");
+    const highlightsMap = await fetchHighlightsMap();
+    console.log(`Trovati frammenti per ${highlightsMap.size} date diverse.`);
+
     console.log(`Trovate ${episodes.length} puntate nell'indice, ${existing.size} già archiviate.`);
 
     let created = 0;
+    let tagsAggiornati = 0;
     let skippedExisting = 0;
     let skippedNoAudio = 0;
 
     for (const ep of episodes) {
         if (existing.has(ep.iso)) {
+            const tags = highlightsMap.get(ep.iso);
+            if (tags && tags.length) {
+                const filePath = path.join(EPISODI_DIR, `${ep.iso}.md`);
+                const aggiornato = await aggiornaTagsSeMancanti(filePath, tags);
+                if (aggiornato) {
+                    console.log(`🏷️  Aggiunti tag a content/episodi/${ep.iso}.md`);
+                    tagsAggiornati++;
+                }
+            }
             skippedExisting++;
             continue;
         }
@@ -134,15 +223,16 @@ async function main() {
         }
 
         const durataMin = extractDurataMin(html);
-        const frontMatter = buildFrontMatter({ ...ep, audioUrl, fonte, durataMin });
+        const tags = highlightsMap.get(ep.iso) || [];
+        const frontMatter = buildFrontMatter({ ...ep, audioUrl, fonte, durataMin, tags });
         const filePath = path.join(EPISODI_DIR, `${ep.iso}.md`);
         await writeFile(filePath, frontMatter, "utf8");
-        console.log(`✅ Creato content/episodi/${ep.iso}.md`);
+        console.log(`✅ Creato content/episodi/${ep.iso}.md${tags.length ? ` (tag: ${tags.join(", ")})` : ""}`);
         created++;
     }
 
     console.log(
-        `\nFatto. Creati: ${created} · Già presenti: ${skippedExisting} · Senza audio valido: ${skippedNoAudio}`
+        `\nFatto. Creati: ${created} · Tag aggiunti a esistenti: ${tagsAggiornati} · Già presenti: ${skippedExisting} · Senza audio valido: ${skippedNoAudio}`
     );
 }
 

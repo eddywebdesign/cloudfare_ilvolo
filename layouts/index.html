@@ -57,7 +57,7 @@
     ════════════════════════════════════ -->
     {{ $eps := where .Site.RegularPages "Section" "episodi" }}
     {{ if gt (len $eps) 0 }}
-    {{ $epDelGiorno := index $eps (mod now.YearDay (len $eps)) }}
+    {{ $epDelGiorno := index $eps 0 }}
     {{ with $epDelGiorno }}
     <section class="s-epdelgiorno">
         <p class="lbl">Episodio del giorno</p>
@@ -1347,16 +1347,15 @@ header.header #menu .active { color: var(--cream) !important; }
     window.scrollTo(0, 0);
 
     /* ── Timeline ultimi episodi (s-temi left column) ── */
-    var tlData = [
-        {{ range first 6 (where .Site.RegularPages "Section" "episodi") }}
-        {
-            title: {{ .Title | jsonify }},
-            date: {{ .Date.Format "02 Jan 2006" | jsonify }},
-            /* TODO: sostituire con .Summary reale quando l'archivio sarà popolato */
-            desc: {{ "Un frammento da riscoprire: parole, momenti e storie ricomposte per strapparle all'oblio." | jsonify }}
-        },
-        {{ end }}
-    ];
+    {{ $tlArr := slice }}
+    {{ range first 6 (where .Site.RegularPages "Section" "episodi") }}
+    {{ $tlArr = $tlArr | append (dict
+        "title" .Title
+        "date"  (.Date.Format "02 Jan 2006")
+        "desc"  (default "Un frammento da riscoprire: parole, momenti e storie ricomposte per strapparle all'oblio." .Params.resumen)
+    ) }}
+    {{ end }}
+    var tlData = {{ $tlArr | jsonify | safeJS }};
     var tlCurrent = 0;
     var tlDuration = 5000;
     var tlTimer = null;
