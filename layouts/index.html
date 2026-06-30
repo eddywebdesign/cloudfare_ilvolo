@@ -297,10 +297,13 @@
      CSS
 ════════════════════════════════════ -->
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500;1,600&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300;1,9..40,400&family=IBM+Plex+Mono:wght@400;500&display=swap');
 
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 :root {
+    --font-serif: 'Cormorant Garamond', Georgia, serif;
+    --font-sans:  'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-mono:  var(--font-mono);
     --bg:    #08090f;
     --surf:  #10131e;
     --bord:  rgba(255,255,255,0.07);
@@ -320,7 +323,7 @@
     --fs-display: 3rem;      /* titoli display grandi */
 }
 html { overflow-x: hidden; background: var(--bg); }
-body { margin: 0; padding: 0; background: var(--bg); color: var(--cream); font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif; overflow-x: hidden; width: 100%; }
+body { margin: 0; padding: 0; background: var(--bg); color: var(--cream); font-family: var(--font-sans); overflow-x: hidden; width: 100%; }
 
 /* ── Breakout dal container PaperMod ── */
 .main { max-width: 100% !important; padding: 0 !important; margin: 0 !important; }
@@ -357,7 +360,7 @@ header.header #menu {
 header.header #menu li { margin: 0; padding: 0; }
 header.header #menu a {
     color: rgba(240,232,214,0.75) !important;
-    font-family: 'Inter', sans-serif !important;
+    font-family: var(--font-sans) !important;
     font-size: 1rem !important;
     font-weight: 400 !important;
     letter-spacing: -0.01em !important;
@@ -436,7 +439,7 @@ header.header #menu .active { color: var(--cream) !important; }
     pointer-events: auto;
 }
 .hero-title__label {
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: var(--font-mono);
     font-size: 0.65rem;
     letter-spacing: 0.22em;
     text-transform: uppercase;
@@ -453,7 +456,7 @@ header.header #menu .active { color: var(--cream) !important; }
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
-    font-family: "Georgia", serif;
+    font-family: var(--font-serif);
     font-style: italic;
     font-size: clamp(0.8rem, 1.5vw, 1.1rem);
     color: rgba(240,232,214,0.72);
@@ -466,7 +469,7 @@ header.header #menu .active { color: var(--cream) !important; }
 }
 .hero-dante.visible { opacity: 1; }
 .hero-title__h1 {
-    font-family: "Georgia", serif;
+    font-family: var(--font-serif);
     font-size: clamp(3.5rem, 11vw, 8rem);
     font-weight: 300;
     line-height: 1.0;
@@ -516,7 +519,7 @@ header.header #menu .active { color: var(--cream) !important; }
 /* ── Titolo hero principale (ilvolodellasera) ── */
 #verso-title { padding-top: 9vh; }
 .hero-title-main {
-    font-family: "Georgia", serif;
+    font-family: var(--font-serif);
     font-size: clamp(1.7rem, 8vw, 6rem);
     font-weight: 300;
     letter-spacing: 0.01em;
@@ -594,7 +597,7 @@ header.header #menu .active { color: var(--cream) !important; }
     display: block;
     flex-shrink: 0;
     padding: 0 0.35em;
-    font-family: "Georgia", serif;
+    font-family: var(--font-serif);
     font-style: italic;
     text-transform: uppercase;
     font-size: var(--lw-size);
@@ -676,7 +679,7 @@ header.header #menu .active { color: var(--cream) !important; }
     padding: 0 24px;
 }
 .split-label {
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: var(--font-mono);
     font-size: 0.65rem;
     letter-spacing: 0.22em;
     text-transform: uppercase;
@@ -705,7 +708,7 @@ header.header #menu .active { color: var(--cream) !important; }
 /* Le due metà: stessa stringa, clip diversa */
 .split-half {
     display: block;
-    font-family: "Georgia", serif;
+    font-family: var(--font-serif);
     font-size: clamp(4rem, 13vw, 10rem);
     font-weight: 300;
     letter-spacing: -0.02em;
@@ -729,7 +732,7 @@ header.header #menu .active { color: var(--cream) !important; }
 /* Altezza del contenitore = altezza del testo */
 .split-word::after {
     content: attr(data-word);
-    font-family: "Georgia", serif;
+    font-family: var(--font-serif);
     font-size: clamp(4rem, 13vw, 10rem);
     font-weight: 300;
     letter-spacing: -0.02em;
@@ -749,7 +752,7 @@ header.header #menu .active { color: var(--cream) !important; }
 .split-h1 .split-word:nth-child(4) .split-half { transition-delay: 0.32s; }
 
 .split-dante {
-    font-family: "Georgia", serif;
+    font-family: var(--font-serif);
     font-size: clamp(0.95rem, 2vw, 1.25rem);
     font-style: italic;
     color: rgba(240,232,214,0.6);
@@ -759,7 +762,7 @@ header.header #menu .active { color: var(--cream) !important; }
     transition: opacity 0.8s ease 1.4s;
 }
 .split-dante-cite {
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: var(--font-mono);
     font-size: 0.63rem;
     letter-spacing: 0.18em;
     text-transform: uppercase;
@@ -783,7 +786,7 @@ header.header #menu .active { color: var(--cream) !important; }
     transition: none;
 }
 .s-narrativa__h3 {
-    font-family: "Georgia", serif;
+    font-family: var(--font-serif);
     font-size: clamp(1.05rem, 1.9vw, 1.4rem);
     font-weight: 400;
     font-style: italic;
@@ -792,7 +795,7 @@ header.header #menu .active { color: var(--cream) !important; }
     margin: 0 0 2.4rem;
 }
 .s-narrativa__h4 {
-    font-family: "Georgia", serif;
+    font-family: var(--font-serif);
     font-size: var(--fs-h4);
     font-weight: 400;
     font-style: italic;
@@ -817,7 +820,7 @@ header.header #menu .active { color: var(--cream) !important; }
 
 .lbl {
     display: block;
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: var(--font-mono);
     font-size: 0.68rem;
     letter-spacing: 0.18em;
     text-transform: uppercase;
@@ -834,7 +837,7 @@ header.header #menu .active { color: var(--cream) !important; }
     text-align: center;
 }
 .s-intro__dante {
-    font-family: "Georgia", serif;
+    font-family: var(--font-serif);
     font-size: clamp(1.5rem, 3.2vw, 2.4rem);
     font-weight: 300;
     font-style: italic;
@@ -857,7 +860,7 @@ header.header #menu .active { color: var(--cream) !important; }
 /* Episodes */
 .s-episodes { padding: 0 24px 80px; max-width: 1100px; margin: 0 auto; border-top: 1px solid var(--bord); padding-top: 80px; }
 .s-episodes__head { display: flex; flex-direction: column; margin-bottom: 48px; }
-.s-episodes__title { font-family: "Georgia", serif; font-size: clamp(1.5rem, 3.5vw, 2.2rem); font-weight: 300; line-height: 1.15; color: var(--cream); margin-bottom: 1.3rem; }
+.s-episodes__title { font-family: var(--font-serif); font-size: clamp(1.5rem, 3.5vw, 2.2rem); font-weight: 300; line-height: 1.15; color: var(--cream); margin-bottom: 1.3rem; }
 .s-link-all { align-self: flex-start; color: var(--gold); text-decoration: none; font-size: 0.85rem; border-bottom: 1px solid transparent; transition: border-color .2s; }
 .s-link-all:hover { border-color: var(--gold); }
 .s-grid { display: grid; grid-template-columns: repeat(2,1fr); gap: 2px; }
@@ -872,12 +875,12 @@ header.header #menu .active { color: var(--cream) !important; }
 
 /* Random */
 .s-random { border-top: 1px solid var(--bord); padding: 90px 24px; text-align: center; }
-.s-random__title { font-family: "Georgia", serif; font-size: clamp(1.5rem, 4vw, 2.4rem); font-weight: 300; color: var(--cream); margin-bottom: 1rem; }
+.s-random__title { font-family: var(--font-serif); font-size: clamp(1.5rem, 4vw, 2.4rem); font-weight: 300; color: var(--cream); margin-bottom: 1rem; }
 .s-random__text { font-size: .95rem; color: var(--muted); line-height: 1.7; margin-bottom: 2rem; }
 
 /* Telegram */
 .s-tg { background: var(--surf); border-top: 1px solid var(--bord); padding: 90px 24px; text-align: center; }
-.s-tg__title { font-family: "Georgia", serif; font-size: clamp(1.3rem, 3vw, 2rem); font-weight: 300; color: var(--cream); margin-bottom: 1.2rem; }
+.s-tg__title { font-family: var(--font-serif); font-size: clamp(1.3rem, 3vw, 2rem); font-weight: 300; color: var(--cream); margin-bottom: 1.2rem; }
 .s-tg__text { font-size: .95rem; color: var(--muted); line-height: 1.8; margin-bottom: 2rem; max-width: 600px; margin-left: auto; margin-right: auto; }
 
 /* Buttons */
@@ -918,7 +921,7 @@ header.header #menu .active { color: var(--cream) !important; }
     margin-bottom: 28px;
 }
 .s-epdelgiorno__title {
-    font-family: "Georgia", serif;
+    font-family: var(--font-serif);
     font-size: clamp(1.2rem, 2.4vw, 1.7rem);
     font-weight: 300;
     color: var(--cream);
@@ -926,7 +929,7 @@ header.header #menu .active { color: var(--cream) !important; }
     margin: 0;
 }
 .s-epdelgiorno__date {
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: var(--font-mono);
     font-size: 0.72rem;
     letter-spacing: 0.08em;
     text-transform: uppercase;
@@ -944,7 +947,7 @@ header.header #menu .active { color: var(--cream) !important; }
     padding: 20px;
     border: 1px dashed var(--bord);
     text-align: center;
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: var(--font-mono);
     font-size: 0.7rem;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -1020,7 +1023,7 @@ header.header #menu .active { color: var(--cream) !important; }
 }
 .s-temi__arrow:hover { opacity: 1; }
 .s-temi__counter {
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: var(--font-mono);
     font-size: 0.68rem;
     letter-spacing: 0.08em;
     color: rgba(240,232,214,0.35);
@@ -1046,7 +1049,7 @@ header.header #menu .active { color: var(--cream) !important; }
     transition: opacity 0.4s ease, transform 0.4s ease;
 }
 .s-temi__slide-title {
-    font-family: "Georgia", serif;
+    font-family: var(--font-serif);
     font-size: clamp(1.05rem, 1.5vw, 1.25rem);
     font-weight: 400;
     color: var(--cream);
@@ -1057,7 +1060,7 @@ header.header #menu .active { color: var(--cream) !important; }
     transition: opacity 0.4s ease 0.06s, transform 0.4s ease 0.06s;
 }
 .s-temi__slide-date {
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: var(--font-mono);
     font-size: 0.65rem;
     letter-spacing: 0.1em;
     text-transform: uppercase;
@@ -1094,7 +1097,7 @@ header.header #menu .active { color: var(--cream) !important; }
     margin-top: 28px;
 }
 .s-temi__h2 {
-    font-family: 'Inter', sans-serif;
+    font-family: var(--font-sans);
     font-size: clamp(1.8rem, 3.8vw, 3.8rem);
     font-weight: 400;
     color: rgba(240,232,214,0.2);
@@ -1156,14 +1159,14 @@ header.header #menu .active { color: var(--cream) !important; }
     gap: 14px;
 }
 .s-journey__num {
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: var(--font-mono);
     font-size: 0.65rem;
     letter-spacing: 0.18em;
     color: var(--gold);
     font-variant-numeric: tabular-nums;
 }
 .s-journey__title {
-    font-family: "Georgia", serif;
+    font-family: var(--font-serif);
     font-size: clamp(1.2rem, 2.2vw, 1.8rem);
     font-weight: 300;
     color: var(--cream);
@@ -1223,7 +1226,7 @@ header.header #menu .active { color: var(--cream) !important; }
     max-width: 700px;
 }
 .s-cta__title {
-    font-family: "Georgia", serif;
+    font-family: var(--font-serif);
     font-size: clamp(1.6rem, 3.8vw, 2.8rem);
     font-weight: 300;
     color: var(--cream);
@@ -1286,7 +1289,7 @@ header.header #menu .active { color: var(--cream) !important; }
     position: absolute;
     bottom: 14px; left: 14px;
     z-index: 4;
-    font-family: 'Inter', sans-serif;
+    font-family: var(--font-sans);
     font-size: 0.6rem;
     font-weight: 300;
     letter-spacing: 0.02em;
@@ -1299,7 +1302,7 @@ header.header #menu .active { color: var(--cream) !important; }
     position: absolute;
     bottom: 14px; left: 14px;
     z-index: 4;
-    font-family: 'Inter', sans-serif;
+    font-family: var(--font-sans);
     font-size: 0.6rem;
     font-weight: 300;
     letter-spacing: 0.02em;
@@ -1340,14 +1343,14 @@ header.header #menu .active { color: var(--cream) !important; }
     gap: 1px;
 }
 .deejay-radio {
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: var(--font-mono);
     font-size: 0.7rem;
     letter-spacing: 0.22em;
     text-transform: uppercase;
     color: #fff;
 }
 .deejay-name {
-    font-family: 'Inter', sans-serif;
+    font-family: var(--font-sans);
     font-size: 1.8rem;
     font-weight: 700;
     letter-spacing: 0.05em;
@@ -1366,7 +1369,7 @@ header.header #menu .active { color: var(--cream) !important; }
     gap: 4px;
 }
 .carp-main {
-    font-family: 'Georgia', serif;
+    font-family: var(--font-serif);
     font-size: 1.5rem;
     font-weight: 400;
     color: #fff;
@@ -1374,7 +1377,7 @@ header.header #menu .active { color: var(--cream) !important; }
     line-height: 1;
 }
 .carp-sub {
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: var(--font-mono);
     font-size: 0.6rem;
     letter-spacing: 0.18em;
     text-transform: uppercase;
