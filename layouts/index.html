@@ -41,15 +41,12 @@
          SEZIONE NARRATIVA (Il senso / Chi siamo)
     ════════════════════════════════════ -->
     <section id="titolo" class="s-titolo">
-        <div class="split-wrap" id="split-wrap">
+        <div class="s-narrativa__inner">
             <p class="lbl">L'idea</p>
-            <h3 class="s-narrativa__h3">Uno spazio per raccogliere parole, momenti e storie de il Volo del Mattino. Spunti esistenziali ricomposti per strapparli all'oblio.</h3>
-            <div class="s-narrativa__block">
-                <p class="s-narrativa__text">Questo spazio nasce da un desiderio noto di Fabio Volo: dare vita a un Volo della Sera. Siamo ascoltatori storici del programma. Consapevoli che il tempo fagocita ogni cosa, proviamo timidamente a renderlo reale. Per noi Il Volo del Mattino è molto più di una trasmissione radiofonica: è un piccolo e importante patrimonio creativo di genuinità e spunti esistenziali che meritano di essere salvati dall'oblio. Il tentativo è preservarlo offrendo una piccola Wikipedia emotiva, un mosaico per ricomporre e riorganizzare i frammenti preziosi sparsi in molti anni di vita.</p>
-            </div>
-            <div class="s-narrativa__block">
-                <p class="s-narrativa__text">Benvenuto, quindi, a chiunque voglia giocare un po' con se stesso e condividere in armonia. E benvenuto a te che arrivi qui semplicemente per scaldarti il cuore navigando fra i ricordi finora raccolti.</p>
-            </div>
+            <h3 class="s-narrativa__h3">Uno spazio per raccogliere parole, momenti e storie<br>de il Volo del Mattino.<br>Spunti esistenziali ricomposti per strapparli all'oblio.</h3>
+            <p class="s-narrativa__text">Questo spazio nasce da un desiderio noto di Fabio Volo: dare vita a un Volo della Sera. Siamo ascoltatori storici del programma e, consapevoli che il tempo fagocita ogni cosa, proviamo timidamente a renderlo reale.</p>
+            <p class="s-narrativa__text">Per noi Il Volo del Mattino è molto più di una trasmissione radiofonica. È un piccolo e importante patrimonio creativo di genuinità e spunti esistenziali che meritano di essere salvati. Il nostro tentativo è preservarlo offrendo una piccola Wikipedia emotiva: un mosaico per ricomporre e riorganizzare i frammenti preziosi sparsi in molti anni di vita.</p>
+            <p class="s-narrativa__text s-narrativa__conclusion">Benvenuto, quindi, a chiunque voglia giocare un po' con se stesso e condividere in armonia. E benvenuto a te che arrivi qui semplicemente per scaldarti il cuore, navigando fra i ricordi finora raccolti.</p>
         </div>
     </section>
 
@@ -266,12 +263,17 @@
             <a href="/episodi/" class="s-link-all">Vedi tutti →</a>
         </div>
         <div class="s-grid">
-            {{ range first 4 (where .Site.RegularPages "Section" "episodi") }}
-            <a href="{{ .Permalink }}" class="s-card">
-                <span class="s-card__date">{{ .Date.Format "02 Jan 2006" }}</span>
-                {{ if .Params.temi }}<div class="s-card__tags">{{ range first 2 .Params.temi }}<span class="s-tag">{{ . }}</span>{{ end }}</div>{{ end }}
-                <h3 class="s-card__title">{{ .Title }}</h3>
-                {{ if .Summary }}<p class="s-card__sum">{{ .Summary | truncate 90 }}</p>{{ end }}
+            {{ $frammenti := slice }}
+            {{ range (where .Site.RegularPages "Section" "episodi") }}
+                {{ $ep := . }}
+                {{ range .Params.temi }}
+                    {{ $frammenti = $frammenti | append (dict "tema" . "date" ($ep.Date.Format "02 Jan 2006") "url" $ep.RelPermalink) }}
+                {{ end }}
+            {{ end }}
+            {{ range first 6 $frammenti }}
+            <a href="{{ .url }}" class="s-card">
+                <span class="s-card__date">{{ .date }}</span>
+                <h3 class="s-card__title">{{ .tema }}</h3>
             </a>
             {{ end }}
         </div>
@@ -628,7 +630,12 @@ header.header #menu .active { color: var(--cream) !important; }
     position: relative;
     background: #0D1117;
     border-top: 1px solid var(--bord);
-    padding: 56px 48px 56px 44px;
+    padding: 80px 24px 88px;
+}
+.s-narrativa__inner {
+    max-width: 660px;
+    margin: 0 auto;
+    text-align: left;
 }
 .titolo-video {
     position: absolute; inset: 0;
@@ -781,21 +788,12 @@ header.header #menu .active { color: var(--cream) !important; }
 }
 .s-narrativa__h3 {
     font-family: "Georgia", serif;
-    font-size: clamp(1rem, 1.8vw, 1.35rem);
+    font-size: clamp(1.05rem, 1.9vw, 1.4rem);
     font-weight: 400;
     font-style: italic;
     color: var(--gold);
-    line-height: 1.7;
-    margin-bottom: 2rem;
-}
-.s-narrativa__intro {
-    font-size: var(--fs-body-lg);
-    color: #F0E8D6;
-    line-height: 1.8;
-    margin: 1.6rem 0 2.4rem;
-}
-.s-narrativa__block {
-    margin-bottom: 2rem;
+    line-height: 1.65;
+    margin: 0 0 2.4rem;
 }
 .s-narrativa__h4 {
     font-family: "Georgia", serif;
@@ -807,9 +805,15 @@ header.header #menu .active { color: var(--cream) !important; }
 }
 .s-narrativa__text {
     font-size: var(--fs-body);
-    color: #F0E8D6;
-    line-height: 2.1;
+    color: #ddd5c4;
+    line-height: 1.85;
     letter-spacing: 0.01em;
+    margin: 0 0 1.6rem;
+}
+.s-narrativa__conclusion {
+    margin-top: 2.8rem;
+    color: #c8bfb0;
+    font-style: italic;
 }
 
 /* ══ CONTENUTO ══ */
