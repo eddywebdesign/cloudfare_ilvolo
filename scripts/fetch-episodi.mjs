@@ -144,7 +144,7 @@ function buildFrontMatter({ iso, dd, mm, yyyy, audioUrl, fonte, durataMin, tags 
         `audio: "${audioUrl}"`,
         `fonte: "${fonte}"`
     );
-    if (tags && tags.length) lines.push(`tags: ${yamlStringArray(tags)}`);
+    if (tags && tags.length) lines.push(`temi: ${yamlStringArray(tags)}`);
     lines.push("---", "");
     return lines.join("\n");
 }
@@ -152,8 +152,8 @@ function buildFrontMatter({ iso, dd, mm, yyyy, audioUrl, fonte, durataMin, tags 
 /** Inserisce una riga `tags:` in un file esistente che non ce l'ha ancora. */
 async function aggiornaTagsSeMancanti(filePath, tags) {
     const testo = await readFile(filePath, "utf8");
-    if (/^tags:/m.test(testo)) return false; // già presenti, non si sovrascrive
-    const rigaTags = `tags: ${yamlStringArray(tags)}\n`;
+    if (/^temi:/m.test(testo)) return false; // già presenti, non si sovrascrive
+    const rigaTags = `temi: ${yamlStringArray(tags)}\n`;
     const parts = testo.split(/^---\s*$/m);
     if (parts.length < 3) return false; // formato inatteso, non tocchiamo il file
     const nuovoTesto = `---${parts[1]}${rigaTags}---${parts.slice(2).join("---")}`;
