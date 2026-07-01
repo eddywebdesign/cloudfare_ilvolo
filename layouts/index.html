@@ -41,12 +41,18 @@
          SEZIONE NARRATIVA (Il senso / Chi siamo)
     ════════════════════════════════════ -->
     <section id="titolo" class="s-titolo">
-        <div class="s-narrativa__inner">
-            <p class="lbl">L'idea</p>
-            <h3 class="s-narrativa__h3">Uno spazio per raccogliere parole, momenti e storie<br>de il Volo del Mattino.<br>Spunti esistenziali ricomposti per strapparli all'oblio.</h3>
-            <p class="s-narrativa__text">Questo spazio nasce da un desiderio noto di Fabio Volo: dare vita a un Volo della Sera. Siamo ascoltatori storici del programma e, consapevoli che il tempo fagocita ogni cosa, proviamo timidamente a renderlo reale.</p>
-            <p class="s-narrativa__text">Per noi Il Volo del Mattino è molto più di una trasmissione radiofonica. È un piccolo e importante patrimonio creativo di genuinità e spunti esistenziali che meritano di essere salvati. Il nostro tentativo è preservarlo offrendo una piccola Wikipedia emotiva: un mosaico per ricomporre e riorganizzare i frammenti preziosi sparsi in molti anni di vita.</p>
-            <p class="s-narrativa__text s-narrativa__conclusion">Benvenuto, quindi, a chiunque voglia giocare un po' con se stesso e condividere in armonia. E benvenuto a te che arrivi qui semplicemente per scaldarti il cuore, navigando fra i ricordi finora raccolti.</p>
+        <div class="s-titolo__grid">
+            <div class="s-narrativa__inner">
+                <p class="lbl">L'idea</p>
+                <h3 class="s-narrativa__h3">Uno spazio per raccogliere parole, momenti e storie<br>de il Volo del Mattino.<br>Spunti esistenziali ricomposti per strapparli all'oblio.</h3>
+                <p class="s-narrativa__text">Questo spazio nasce da un desiderio noto di Fabio Volo: dare vita a un Volo della Sera. Siamo ascoltatori storici del programma e, consapevoli che il tempo fagocita ogni cosa, proviamo timidamente a renderlo reale.</p>
+                <p class="s-narrativa__text">Per noi Il Volo del Mattino è molto più di una trasmissione radiofonica. È un piccolo e importante patrimonio creativo di genuinità e spunti esistenziali che meritano di essere salvati. Il nostro tentativo è preservarlo offrendo una piccola Wikipedia emotiva: un mosaico per ricomporre e riorganizzare i frammenti preziosi sparsi in molti anni di vita.</p>
+                <p class="s-narrativa__text s-narrativa__conclusion">Benvenuto, quindi, a chiunque voglia giocare un po' con se stesso e condividere in armonia. E benvenuto a te che arrivi qui semplicemente per scaldarti il cuore, navigando fra i ricordi finora raccolti.</p>
+            </div>
+            <div class="s-titolo__media">
+                <img class="s-titolo__img s-titolo__img--back" src="/immagini/puzzle.jpg" alt="">
+                <img class="s-titolo__img s-titolo__img--front" src="/immagini/puzzle.jpg" alt="">
+            </div>
         </div>
     </section>
 
@@ -305,12 +311,12 @@
     --font-sans:  'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
     --font-mono:  var(--font-mono);
     --bg:    #08090f;
-    --surf:  #10131e;
+    --surf:  #08090f;
     --bord:  rgba(255,255,255,0.07);
     --cream: #f0e8d6;
     --muted: #6b7280;
-    --gold:  #c9a84c;
-    --golddim: rgba(201,168,76,0.15);
+    --gold:  #229ED9;
+    --golddim: rgba(34,158,217,0.15);
     --tri:   rgba(255,255,255,0.85);
     /* ── Type scale ── */
     --fs-label:   0.68rem;   /* mono label, tag, data */
@@ -627,14 +633,49 @@ header.header #menu .active { color: var(--cream) !important; }
 /* ══ SEZIONE TITOLO (split-text + video) ══ */
 .s-titolo {
     position: relative;
-    background: #0D1117;
+    background: var(--bg);
     border-top: 1px solid var(--bord);
-    padding: 80px 24px 88px;
+    padding: 100px 24px 110px;
 }
 .s-narrativa__inner {
     max-width: 660px;
     margin: 0 auto;
     text-align: left;
+}
+.s-titolo__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 70px;
+    max-width: 1160px;
+    margin: 0 auto;
+    align-items: center;
+}
+.s-titolo__media {
+    position: relative;
+    height: 420px;
+}
+.s-titolo__img {
+    position: absolute;
+    width: 76%;
+    max-width: 360px;
+    aspect-ratio: 4/3;
+    object-fit: cover;
+    border-radius: 2px;
+    box-shadow: 0 24px 60px rgba(0,0,0,0.55);
+}
+.s-titolo__img--back {
+    top: 6%;
+    left: 2%;
+    transform: rotate(-7deg);
+}
+.s-titolo__img--front {
+    bottom: 4%;
+    right: 2%;
+    transform: rotate(4deg);
+}
+@media (max-width: 860px) {
+    .s-titolo__grid { grid-template-columns: 1fr; gap: 56px; }
+    .s-titolo__media { height: 320px; order: -1; }
 }
 .titolo-video {
     position: absolute; inset: 0;
@@ -827,7 +868,7 @@ header.header #menu .active { color: var(--cream) !important; }
     color: var(--gold);
     margin-bottom: 1rem;
 }
-.lbl--dim { color: rgba(201,168,76,0.6); }
+.lbl--dim { color: rgba(34,158,217,0.6); }
 
 /* Intro */
 .s-intro {
@@ -866,7 +907,7 @@ header.header #menu .active { color: var(--cream) !important; }
 .s-grid { display: grid; grid-template-columns: repeat(2,1fr); gap: 2px; }
 @media(max-width:600px){ .s-grid { grid-template-columns: 1fr; } }
 .s-card { display: block; text-decoration: none; color: inherit; background: var(--surf); border: 1px solid var(--bord); padding: 28px 24px; transition: background .2s; }
-.s-card:hover { background: #151929; }
+.s-card:hover { background: var(--bg); border-color: var(--gold); }
 .s-card__date { display: block; font-size: .72rem; color: var(--muted); letter-spacing: .08em; margin-bottom: 10px; }
 .s-card__tags { display: flex; gap: 6px; margin-bottom: 12px; flex-wrap: wrap; }
 .s-tag { font-size: .68rem; letter-spacing: .1em; text-transform: uppercase; color: var(--gold); background: var(--golddim); padding: 3px 8px; border-radius: 3px; }
@@ -885,7 +926,7 @@ header.header #menu .active { color: var(--cream) !important; }
 
 /* Buttons */
 .btn { display: inline-block; padding: 13px 36px; border: 1px solid var(--gold); background: transparent; color: var(--gold); font-size: .82rem; letter-spacing: .12em; text-transform: uppercase; text-decoration: none; cursor: pointer; font-family: inherit; transition: background .2s, color .2s; }
-.btn:hover { background: var(--gold); color: #000; }
+.btn:hover { background: var(--gold); color: #fff; }
 .btn--tg { border-color: #229ED9; color: #229ED9; }
 .btn--tg:hover { background: #229ED9; color: #fff; }
 
@@ -1064,7 +1105,7 @@ header.header #menu .active { color: var(--cream) !important; }
     font-size: 0.65rem;
     letter-spacing: 0.1em;
     text-transform: uppercase;
-    color: rgba(201,168,76,0.6);
+    color: rgba(34,158,217,0.6);
     opacity: 0;
     transform: translateY(10px);
     transition: opacity 0.4s ease 0.12s, transform 0.4s ease 0.12s;
@@ -1461,9 +1502,18 @@ header.header #menu .active { color: var(--cream) !important; }
     var versoTitleShown = false;
     var versoDanteTimer = null;
     var versoVid        = document.getElementById('hero-video');
+    var versoEndedEarly = false;
+
+    function versoFinish() {
+        if (versoEndedEarly) return;
+        versoEndedEarly = true;
+        versoVid.pause();
+        var sec = document.getElementById('content');
+        if (sec) smoothScrollTo(sec.offsetTop, 2200);
+    }
 
     if (versoVid) {
-        versoVid.playbackRate = 1.4;
+        versoVid.playbackRate = 1.6;
         versoVid.addEventListener('timeupdate', function() {
             var dur = versoVid.duration || 0;
             if (!dur) return;
@@ -1474,6 +1524,9 @@ header.header #menu .active { color: var(--cream) !important; }
                     if (versoDanteEl) versoDanteEl.classList.add('visible');
                 }, 3000);
             }
+            if (dur > 1 && versoVid.currentTime >= dur - 1) {
+                versoFinish();
+            }
         });
         versoVid.addEventListener('seeked', function() {
             if (versoVid.currentTime < versoVid.duration * 0.30) {
@@ -1483,10 +1536,7 @@ header.header #menu .active { color: var(--cream) !important; }
                 clearTimeout(versoDanteTimer);
             }
         });
-        versoVid.addEventListener('ended', function() {
-            var sec = document.getElementById('content');
-            if (sec) smoothScrollTo(sec.offsetTop, 2200);
-        });
+        versoVid.addEventListener('ended', versoFinish);
     }
 
     /* ── Scroll a s-verso ── */
