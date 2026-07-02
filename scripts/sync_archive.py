@@ -56,7 +56,8 @@ def parse_front_matter(path):
 
 
 def write_front_matter(path, fm, body):
-    yaml_text = yaml.dump(fm, allow_unicode=True, sort_keys=False, default_flow_style=False)
+    # width alto: evita che PyYAML spezzi su piu' righe gli URL con spazi
+    yaml_text = yaml.dump(fm, allow_unicode=True, sort_keys=False, default_flow_style=False, width=4096)
     path.write_text(f"---\n{yaml_text}---\n{body}", encoding="utf-8")
 
 
