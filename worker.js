@@ -47,6 +47,19 @@ async function handleRicordo(request, env) {
     return json({ ok: false, error: "Servizio non configurato" }, 500);
   }
 
+  // Allegato opzionale: foto o audio, gia' in base64 lato client. Limite
+  // 8MB originali ≈ 11MB di stringa base64 — margine di sicurezza incluso.
+  let attachments;
+  const allegato = data.allegato;
+  if (allegato && typeof allegato.data === "string" && allegato.data.length < 11 * 1024 * 1024) {
+    attachments = [
+      {
+        filename: String(allegato.filename || "allegato").slice(0, 200),
+        content: allegato.data,
+      },
+    ];
+  }
+
   const resp = await fetch("https://api.resend.com/emails", {
     method: "POST",
     headers: {
@@ -59,6 +72,7 @@ async function handleRicordo(request, env) {
       reply_to: email || undefined,
       subject: `Nuovo ricordo condiviso da ${nome || "un ascoltatore"}`,
       text: `Nome: ${nome || "(non indicato)"}\nEmail: ${email || "(non indicata)"}\n\n${messaggio}`,
+      attachments,
     }),
   });
 

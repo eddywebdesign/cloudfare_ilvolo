@@ -212,13 +212,7 @@
             <p class="lbl">Contribuisci</p>
             <h2 class="s-cta__title">Aiutaci a riportare<br>alla luce un frammento</h2>
             <p class="s-cta__sub">Hai il ricordo sbiadito di una puntata? Un nome, una data, un'emozione? Condividila con noi — insieme costruiamo la memoria.</p>
-            <form class="s-cta__form" id="ricordo-form">
-                <input type="text" name="nome" class="s-cta__input" placeholder="Il tuo nome (facoltativo)">
-                <input type="email" name="email" class="s-cta__input" placeholder="La tua email, se vuoi una risposta">
-                <textarea name="messaggio" class="s-cta__textarea" placeholder="Racconta il tuo ricordo..." required></textarea>
-                <button type="submit" class="btn" id="ricordo-submit">Condividi il tuo ricordo</button>
-                <p class="s-cta__form-msg" id="ricordo-msg"></p>
-            </form>
+            <button type="button" class="btn" id="ricordo-open">Condividi il tuo ricordo</button>
         </div>
         <!-- Logos bottom -->
         <div class="s-cta__logos">
@@ -241,6 +235,27 @@
         <p class="s-tg__text">Questo archivio è un'opera di archeologia collettiva. Hai un ricordo sbiadito di una vecchia puntata? Hai dei 'pezzi', del materiale da condividere? Offri e chiedi aiuto agli altri navigatori.</p>
         <a href="https://t.me/ilvolodelmattino" target="_blank" class="btn btn--tg">Entra nel Gruppo Telegram</a>
     </section>
+
+    <!-- Modale "Condividi il tuo ricordo" -->
+    <div class="ricordo-modal" id="ricordo-modal" aria-hidden="true">
+        <div class="ricordo-modal__backdrop" id="ricordo-backdrop"></div>
+        <div class="ricordo-modal__box" role="dialog" aria-modal="true" aria-labelledby="ricordo-modal-title">
+            <button type="button" class="ricordo-modal__close" id="ricordo-close" aria-label="Chiudi">&times;</button>
+            <h3 id="ricordo-modal-title" class="ricordo-modal__title">Condividi il tuo ricordo</h3>
+            <form class="s-cta__form" id="ricordo-form">
+                <input type="text" name="nome" class="s-cta__input" placeholder="Il tuo nome (facoltativo)">
+                <input type="email" name="email" class="s-cta__input" placeholder="La tua email, se vuoi una risposta">
+                <textarea name="messaggio" class="s-cta__textarea" placeholder="Racconta il tuo ricordo..." required></textarea>
+                <label class="s-cta__file-label" for="ricordo-file">
+                    Allega una foto o un audio (facoltativo, max 8MB)
+                    <input type="file" name="allegato" id="ricordo-file" class="s-cta__file" accept="image/*,audio/*">
+                </label>
+                <span class="s-cta__file-name" id="ricordo-file-name"></span>
+                <button type="submit" class="btn" id="ricordo-submit">Invia il ricordo</button>
+                <p class="s-cta__form-msg" id="ricordo-msg"></p>
+            </form>
+        </div>
+    </div>
 
 </div>
 
@@ -286,6 +301,13 @@ header.header {
     box-shadow: none !important;
     border: none !important;
     width: 100vw;
+    transition: background 0.3s ease, backdrop-filter 0.3s ease;
+}
+/* sfondo solido appena si scrolla oltre l'hero, cosi' il menu non resta
+   illeggibile sopra titoli/testo delle sezioni sottostanti */
+header.header.is-solid {
+    background: rgba(8,9,15,0.85) !important;
+    backdrop-filter: blur(10px);
 }
 header.header nav,
 header.header .header-nav {
@@ -1237,6 +1259,56 @@ header.header #menu .active { color: var(--cream) !important; }
 .s-cta__textarea:focus { outline: none; border-color: var(--gold); }
 .s-cta__form-msg { font-size: 0.82rem; color: rgba(240,232,214,0.55); min-height: 1.2em; opacity: 0; transition: opacity 0.2s ease; }
 .s-cta__form-msg.active { opacity: 1; }
+.s-cta__file-label {
+    width: 100%;
+    max-width: 420px;
+    font-size: 0.8rem;
+    color: rgba(240,232,214,0.55);
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.s-cta__file { font-family: inherit; font-size: 0.82rem; color: rgba(240,232,214,0.7); }
+.s-cta__file-name { font-size: 0.78rem; color: var(--gold); }
+
+/* ── Modale "Condividi il tuo ricordo" ── */
+.ricordo-modal { position: fixed; inset: 0; z-index: 200; display: none; }
+.ricordo-modal.open { display: block; }
+.ricordo-modal__backdrop { position: absolute; inset: 0; background: rgba(4,5,9,0.75); backdrop-filter: blur(3px); }
+.ricordo-modal__box {
+    position: relative;
+    z-index: 1;
+    max-width: 480px;
+    width: calc(100% - 48px);
+    margin: 8vh auto;
+    max-height: 84vh;
+    overflow-y: auto;
+    background: var(--surf, #10131e);
+    border: 1px solid var(--bord, rgba(255,255,255,0.1));
+    padding: 40px 32px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+}
+.ricordo-modal__title {
+    font-family: var(--font-serif);
+    font-size: 1.4rem;
+    font-weight: 300;
+    color: var(--cream);
+    margin-bottom: 1.4rem;
+}
+.ricordo-modal__close {
+    position: absolute;
+    top: 12px; right: 16px;
+    background: none;
+    border: none;
+    color: rgba(240,232,214,0.5);
+    font-size: 1.6rem;
+    line-height: 1;
+    cursor: pointer;
+}
+.ricordo-modal__close:hover { color: var(--cream); }
+@media(max-width: 520px) {
+    .ricordo-modal__box { margin: 5vh auto; padding: 32px 22px; }
+}
 
 /* ══ SEZIONE VERSO SERA ══ */
 .s-verso {
@@ -1495,6 +1567,20 @@ header.header #menu .active { color: var(--cream) !important; }
         versoVid.addEventListener('ended', versoFinish);
     }
 
+    /* ── Header solido dopo l'hero ── */
+    var headerEl = document.querySelector('header.header');
+    if (headerEl) {
+        var heroEl = document.getElementById('hero');
+        var heroH = heroEl ? heroEl.offsetHeight : window.innerHeight;
+        window.addEventListener('scroll', function() {
+            if (window.scrollY > heroH * 0.6) {
+                headerEl.classList.add('is-solid');
+            } else {
+                headerEl.classList.remove('is-solid');
+            }
+        });
+    }
+
     /* ── Scroll a s-verso ── */
     function smoothScrollTo(targetY, duration) {
         var startY = window.scrollY;
@@ -1669,6 +1755,54 @@ header.header #menu .active { color: var(--cream) !important; }
         tick();
     };
 
+    /* ── Modale "Condividi il tuo ricordo" ── */
+    var ricordoModal    = document.getElementById('ricordo-modal');
+    var ricordoOpenBtn  = document.getElementById('ricordo-open');
+    var ricordoCloseBtn = document.getElementById('ricordo-close');
+    var ricordoBackdrop = document.getElementById('ricordo-backdrop');
+    function openRicordoModal() {
+        if (!ricordoModal) return;
+        ricordoModal.classList.add('open');
+        ricordoModal.setAttribute('aria-hidden', 'false');
+    }
+    function closeRicordoModal() {
+        if (!ricordoModal) return;
+        ricordoModal.classList.remove('open');
+        ricordoModal.setAttribute('aria-hidden', 'true');
+    }
+    if (ricordoOpenBtn) ricordoOpenBtn.addEventListener('click', openRicordoModal);
+    if (ricordoCloseBtn) ricordoCloseBtn.addEventListener('click', closeRicordoModal);
+    if (ricordoBackdrop) ricordoBackdrop.addEventListener('click', closeRicordoModal);
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') closeRicordoModal();
+    });
+
+    /* ── Nome file allegato ── */
+    var ricordoFileInput = document.getElementById('ricordo-file');
+    var ricordoFileName  = document.getElementById('ricordo-file-name');
+    var MAX_ALLEGATO_BYTES = 8 * 1024 * 1024;
+    if (ricordoFileInput) {
+        ricordoFileInput.addEventListener('change', function() {
+            var f = ricordoFileInput.files[0];
+            if (!f) { ricordoFileName.textContent = ''; return; }
+            if (f.size > MAX_ALLEGATO_BYTES) {
+                ricordoFileName.textContent = "Troppo grande (max 8MB), scegli un altro file.";
+                ricordoFileInput.value = '';
+                return;
+            }
+            ricordoFileName.textContent = f.name;
+        });
+    }
+
+    function fileToBase64(file) {
+        return new Promise(function(resolve, reject) {
+            var reader = new FileReader();
+            reader.onload = function() { resolve(reader.result.split(',')[1]); };
+            reader.onerror = reject;
+            reader.readAsDataURL(file);
+        });
+    }
+
     /* ── Form "Condividi il tuo ricordo" → Cloudflare Worker (/api/ricordo) ── */
     var ricordoForm = document.getElementById('ricordo-form');
     if (ricordoForm) {
@@ -1679,19 +1813,29 @@ header.header #menu .active { color: var(--cream) !important; }
             var fd = new FormData(ricordoForm);
             var messaggio = (fd.get('messaggio') || '').trim();
             if (!messaggio) return;
+            var file = ricordoFileInput && ricordoFileInput.files[0];
             btnEl.disabled = true;
             msgEl.textContent = 'Invio in corso...';
             msgEl.classList.add('active');
-            fetch('/api/ricordo', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ nome: fd.get('nome'), email: fd.get('email'), messaggio: messaggio })
+            Promise.resolve(file ? fileToBase64(file) : null)
+            .then(function(base64) {
+                var payload = { nome: fd.get('nome'), email: fd.get('email'), messaggio: messaggio };
+                if (file && base64) {
+                    payload.allegato = { filename: file.name, contentType: file.type, data: base64 };
+                }
+                return fetch('/api/ricordo', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload)
+                });
             })
             .then(function(r) { return r.json().catch(function() { return {}; }).then(function(j) { return { ok: r.ok && j.ok, j: j }; }); })
             .then(function(res) {
                 if (res.ok) {
                     msgEl.textContent = "Grazie, il tuo ricordo e' arrivato.";
                     ricordoForm.reset();
+                    if (ricordoFileName) ricordoFileName.textContent = '';
+                    setTimeout(closeRicordoModal, 1400);
                 } else {
                     msgEl.textContent = "Qualcosa e' andato storto. Riprova o scrivici a ilvolodellasera.web@gmail.com.";
                     btnEl.disabled = false;
