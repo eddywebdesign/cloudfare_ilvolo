@@ -199,8 +199,9 @@
     <section class="s-random">
         <p class="lbl lbl--dim">Esplora</p>
         <h2 class="s-random__title">Affidati al caso</h2>
-        <p class="s-random__text">Lascia che l'algoritmo scelga per te un frammento memorabile per questa sera.</p>
-        <button onclick="navigaACaso()" class="btn">Naviga a Vista</button>
+        <p class="s-random__text">Chiudi gli occhi, fai un respiro, clicca. Lascia che sia il caso a scegliere il tuo frammento per questa sera.</p>
+        <button onclick="navigaACaso(this)" class="btn" id="random-btn">Naviga a Vista</button>
+        <p class="s-random__reveal" id="random-reveal" aria-live="polite"></p>
     </section>
 
     <!-- CTA -->
@@ -211,7 +212,13 @@
             <p class="lbl">Contribuisci</p>
             <h2 class="s-cta__title">Aiutaci a riportare<br>alla luce un frammento</h2>
             <p class="s-cta__sub">Hai il ricordo sbiadito di una puntata? Un nome, una data, un'emozione? Condividila con noi — insieme costruiamo la memoria.</p>
-            <a href="mailto:ilvolodellasera.web@gmail.com" class="btn">Condividi il tuo ricordo</a>
+            <form class="s-cta__form" id="ricordo-form">
+                <input type="text" name="nome" class="s-cta__input" placeholder="Il tuo nome (facoltativo)">
+                <input type="email" name="email" class="s-cta__input" placeholder="La tua email, se vuoi una risposta">
+                <textarea name="messaggio" class="s-cta__textarea" placeholder="Racconta il tuo ricordo..." required></textarea>
+                <button type="submit" class="btn" id="ricordo-submit">Condividi il tuo ricordo</button>
+                <p class="s-cta__form-msg" id="ricordo-msg"></p>
+            </form>
         </div>
         <!-- Logos bottom -->
         <div class="s-cta__logos">
@@ -864,6 +871,19 @@ header.header #menu .active { color: var(--cream) !important; }
 .s-random { border-top: 1px solid var(--bord); padding: 90px 24px; text-align: center; }
 .s-random__title { font-family: var(--font-serif); font-size: clamp(1.5rem, 4vw, 2.4rem); font-weight: 300; color: var(--cream); margin-bottom: 1rem; }
 .s-random__text { font-size: .95rem; color: var(--muted); line-height: 1.7; margin-bottom: 2rem; }
+.s-random__reveal {
+    height: 1.4rem;
+    margin-top: 20px;
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    letter-spacing: 0.06em;
+    color: rgba(240,232,214,0.35);
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+.s-random__reveal.active { opacity: 1; }
+.s-random__reveal.picked { color: var(--gold); }
+#random-btn[disabled] { opacity: 0.5; cursor: default; pointer-events: none; }
 
 /* Telegram */
 .s-tg { background: var(--surf); border-top: 1px solid var(--bord); padding: 90px 24px; text-align: center; }
@@ -1197,6 +1217,26 @@ header.header #menu .active { color: var(--cream) !important; }
     line-height: 1.8;
     margin-bottom: 2.4rem;
 }
+.s-cta__form { display: flex; flex-direction: column; gap: 12px; align-items: flex-start; }
+.s-cta__input,
+.s-cta__textarea {
+    width: 100%;
+    max-width: 420px;
+    background: rgba(8,9,15,0.55);
+    border: 1px solid rgba(255,255,255,0.18);
+    color: var(--cream);
+    font-family: inherit;
+    font-size: 0.9rem;
+    padding: 11px 14px;
+    border-radius: 2px;
+}
+.s-cta__textarea { min-height: 90px; resize: vertical; }
+.s-cta__input::placeholder,
+.s-cta__textarea::placeholder { color: rgba(240,232,214,0.4); }
+.s-cta__input:focus,
+.s-cta__textarea:focus { outline: none; border-color: var(--gold); }
+.s-cta__form-msg { font-size: 0.82rem; color: rgba(240,232,214,0.55); min-height: 1.2em; opacity: 0; transition: opacity 0.2s ease; }
+.s-cta__form-msg.active { opacity: 1; }
 
 /* ══ SEZIONE VERSO SERA ══ */
 .s-verso {
@@ -1440,7 +1480,9 @@ header.header #menu .active { color: var(--cream) !important; }
                     if (versoDanteEl) versoDanteEl.classList.add('visible');
                 }, 3000);
             }
-            if (dur > 3.5 && versoVid.currentTime >= dur - 3.5) {
+            /* Pausa piu' lunga dopo la comparsa del titolo (fade 3.2s) prima
+               dello scroll automatico, cosi' non sembra un lampo */
+            if (dur > 1 && versoVid.currentTime >= dur - 1) {
                 versoFinish();
             }
         });
@@ -1592,19 +1634,77 @@ header.header #menu .active { color: var(--cream) !important; }
         });
     });
 
-    /* ── Naviga a caso ── */
-    window.navigaACaso = function() {
+    /* ── Naviga a caso: piccolo "sorteggio" prima di partire, cosi' il
+       bottone mantiene la promessa di "affidarsi al caso" invece di
+       saltare via in silenzio ── */
+    window.navigaACaso = function(btn) {
         const rotte = [
             {{ range (where .Site.RegularPages "Section" "episodi") }}
             "{{ .Permalink }}",
             {{ end }}
         ];
-        if (rotte.length > 0) {
-            window.location.href = rotte[Math.floor(Math.random() * rotte.length)];
-        } else {
-            alert("Stiamo caricando i primi frammenti. Torna presto!");
+        const reveal = document.getElementById('random-reveal');
+        if (!rotte.length) {
+            if (reveal) { reveal.textContent = "Stiamo caricando i primi frammenti. Torna presto!"; reveal.classList.add('active'); }
+            return;
         }
+        function labelFromUrl(url) {
+            const m = url.match(/(\d{4})-(\d{2})-(\d{2})/);
+            return m ? `Puntata del ${m[3]}/${m[2]}/${m[1]}` : "Un frammento a sorpresa";
+        }
+        const finalUrl = rotte[Math.floor(Math.random() * rotte.length)];
+        if (btn) btn.disabled = true;
+        if (reveal) reveal.classList.add('active');
+        var steps = 14, delay = 55, i = 0;
+        function tick() {
+            var pick = i < steps - 1 ? rotte[Math.floor(Math.random() * rotte.length)] : finalUrl;
+            if (reveal) reveal.textContent = labelFromUrl(pick);
+            i++;
+            if (i < steps) {
+                delay *= 1.16;
+                setTimeout(tick, delay);
+            } else {
+                if (reveal) reveal.classList.add('picked');
+                setTimeout(function() { window.location.href = finalUrl; }, 750);
+            }
+        }
+        tick();
     };
+
+    /* ── Form "Condividi il tuo ricordo" → Cloudflare Worker (/api/ricordo) ── */
+    var ricordoForm = document.getElementById('ricordo-form');
+    if (ricordoForm) {
+        ricordoForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            var msgEl = document.getElementById('ricordo-msg');
+            var btnEl = document.getElementById('ricordo-submit');
+            var fd = new FormData(ricordoForm);
+            var messaggio = (fd.get('messaggio') || '').trim();
+            if (!messaggio) return;
+            btnEl.disabled = true;
+            msgEl.textContent = 'Invio in corso...';
+            msgEl.classList.add('active');
+            fetch('/api/ricordo', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ nome: fd.get('nome'), email: fd.get('email'), messaggio: messaggio })
+            })
+            .then(function(r) { return r.json().catch(function() { return {}; }).then(function(j) { return { ok: r.ok && j.ok, j: j }; }); })
+            .then(function(res) {
+                if (res.ok) {
+                    msgEl.textContent = "Grazie, il tuo ricordo e' arrivato.";
+                    ricordoForm.reset();
+                } else {
+                    msgEl.textContent = "Qualcosa e' andato storto. Riprova o scrivici a ilvolodellasera.web@gmail.com.";
+                    btnEl.disabled = false;
+                }
+            })
+            .catch(function() {
+                msgEl.textContent = "Qualcosa e' andato storto. Riprova o scrivici a ilvolodellasera.web@gmail.com.";
+                btnEl.disabled = false;
+            });
+        });
+    }
 })();
 </script>
 
