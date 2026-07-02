@@ -14,37 +14,31 @@
             <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
             {{ . | markdownify }}
         </span>
+        {{- print " · "}}
     {{- end }}
 
+    <a class="footer-telegram" href="https://t.me/ilvolodelmattino" target="_blank" rel="noopener" aria-label="Gruppo Telegram">
+        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="currentColor"><path d="M21.94 4.11a1.6 1.6 0 0 0-1.7-.22L2.7 10.7c-1.1.42-1.09 1.98.02 2.38l4.2 1.5 1.62 5.2c.24.77 1.22.99 1.77.4l2.47-2.63 4.3 3.16c.7.51 1.7.13 1.89-.72l3.4-14.6c.15-.66-.1-1.33-.43-1.28ZM9.6 14.9l-1.02-3.28 8.6-5.36c.2-.13.4.15.23.31l-7.4 6.86Z"/></svg>
+    </a>
+
+    {{/*
+        - The "Powered by Hugo" text is intentionally left visible to give it prominence.
+        - We kindly encourage you to keep this credit. It helps open source projects like PaperMod and Hugo reach more people, supports the open source ecosystem, and shows appreciation for the work that goes into these tools.
+        - If you choose to remove it, please consider adding a link to the PaperMod GitHub repository somewhere on your site to give credit to the project and its contributors.
+        - Support us by sponsoring the project on GitHub Sponsors: https://github.com/sponsors/adityatelange
+    */}}
+    <span class="powered-by-line">
+        · Powered by
+        <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &
+        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
+    </span>
 </footer>
 {{- end }}
 
-{{/*
-    - The "Powered by Hugo" text is intentionally left visible to give it prominence.
-    - We kindly encourage you to keep this credit. It helps open source projects like PaperMod and Hugo reach more people, supports the open source ecosystem, and shows appreciation for the work that goes into these tools.
-    - If you choose to remove it, please consider adding a link to the PaperMod GitHub repository somewhere on your site to give credit to the project and its contributors.
-    - Support us by sponsoring the project on GitHub Sponsors: https://github.com/sponsors/adityatelange
-*/}}
-<span class="powered-by-vertical">
-    Powered by
-    <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &
-    <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
-</span>
 <style>
-.powered-by-vertical {
-    position: fixed;
-    left: 10px;
-    bottom: 10px;
-    z-index: 50;
-    writing-mode: vertical-rl;
-    transform: rotate(180deg);
-    font-size: 11px;
-    color: var(--secondary);
-    white-space: nowrap;
-    line-height: 1.4;
-}
-.powered-by-vertical a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
-.powered-by-vertical a:hover { color: var(--primary); }
+.powered-by-line { font-size: 11px; color: var(--secondary); }
+.powered-by-line a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
+.powered-by-line a:hover { color: var(--primary); }
 </style>
 
 {{- if (not site.Params.disableScrollToTop) }}
@@ -61,6 +55,8 @@
 
 <style>
 .footer-mail { display: inline-flex; align-items: center; gap: 4px; }
+.footer .footer-telegram { display: inline-flex; align-items: center; vertical-align: -2px; color: var(--gold, #229ED9); transition: opacity 0.2s; }
+.footer .footer-telegram:hover { opacity: 0.75; }
 </style>
 
 <script>

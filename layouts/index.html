@@ -44,7 +44,7 @@
         <div class="s-titolo__grid">
             <div class="s-narrativa__inner">
                 <p class="lbl">L'idea</p>
-                <p class="s-narrativa__text">Questo spazio nasce da un desiderio noto di Fabio Volo: dare vita a un Volo della Sera. Siamo ascoltatori storici del programma e, consapevoli che il tempo fagocita ogni cosa, proviamo timidamente a renderlo reale. Per noi Il Volo del Mattino è molto più di una trasmissione radiofonica. È un piccolo e importante patrimonio creativo di genuinità e spunti esistenziali che meritano di essere salvati. Il nostro tentativo è preservarlo offrendo una piccola Wikipedia emotiva: un mosaico per ricomporre e riorganizzare i frammenti preziosi sparsi in molti anni di vita.</p>
+                <p class="s-narrativa__text">Questo spazio nasce da un desiderio noto di Fabio Volo: dare vita ad un Volo della Sera. Siamo ascoltatori storici del programma e, consapevoli che il tempo fagocita ogni cosa, proviamo timidamente a renderlo reale. Per noi Il Volo del Mattino è molto più di una trasmissione radiofonica. È un piccolo e importante patrimonio creativo di genuinità e spunti esistenziali che meritano di essere salvati. Il nostro tentativo è preservarlo offrendo una piccola Wikipedia emotiva: un mosaico per ricomporre e riorganizzare i frammenti preziosi sparsi in molti anni di vita.</p>
             </div>
             <div class="s-titolo__media">
                 <img class="s-titolo__img s-titolo__img--back" src="/immagini/puzzle.jpg" alt="">
@@ -64,37 +64,93 @@
     {{ if gt (len $eps) 0 }}
     {{ $epDelGiorno := index $eps 0 }}
     {{ with $epDelGiorno }}
+    {{ $epImgFiles := where (os.ReadDir "static/immagini/varie") "IsDir" false }}
+    {{ $epImgName := (index $epImgFiles (mod now.YearDay (len $epImgFiles))).Name }}
     <section class="s-epdelgiorno">
         <p class="lbl">Episodio del giorno</p>
+        <div class="s-epdelgiorno__head">
+            <h2 class="s-epdelgiorno__title">{{ .Title }}</h2>
+            <span class="s-epdelgiorno__date">{{ .Date.Format "02 Jan 2006" }}</span>
+        </div>
         <div class="s-epdelgiorno__card">
-            <div class="s-epdelgiorno__head">
-                <h2 class="s-epdelgiorno__title">{{ .Title }}</h2>
-                <span class="s-epdelgiorno__date">{{ .Date.Format "02 Jan 2006" }}</span>
+            <div class="s-epdelgiorno__media">
+                <img class="s-epdelgiorno__img" src="/immagini/varie/{{ $epImgName }}" alt="">
             </div>
+            <div class="s-epdelgiorno__body">
+                {{ if .Params.audio }}
+                <audio class="s-epdelgiorno__audio" controls src="{{ .Params.audio }}"></audio>
+                {{ else }}
+                <div class="s-epdelgiorno__audio-placeholder">Player audio in arrivo</div>
+                {{ end }}
 
-            {{ if .Params.audio }}
-            <audio class="s-epdelgiorno__audio" controls src="{{ .Params.audio }}"></audio>
-            {{ else }}
-            <div class="s-epdelgiorno__audio-placeholder">Player audio in arrivo</div>
-            {{ end }}
+                {{ if .Params.video }}
+                <div class="s-epdelgiorno__video-wrap">
+                    <video class="s-epdelgiorno__video" controls src="{{ .Params.video }}"></video>
+                </div>
+                {{ end }}
 
-            {{ if .Params.video }}
-            <div class="s-epdelgiorno__video-wrap">
-                <video class="s-epdelgiorno__video" controls src="{{ .Params.video }}"></video>
+                <p class="s-epdelgiorno__desc">{{ with .Params.resumen }}{{ . }}{{ else }}{{ .Summary | truncate 220 }}{{ end }}</p>
+
+                {{ if .Params.temi }}
+                <div class="s-epdelgiorno__tags">
+                    {{ range .Params.temi }}<span class="s-tag">{{ . }}</span>{{ end }}
+                </div>
+                {{ end }}
             </div>
-            {{ end }}
-
-            <p class="s-epdelgiorno__desc">{{ with .Params.resumen }}{{ . }}{{ else }}{{ .Summary | truncate 220 }}{{ end }}</p>
-
-            {{ if .Params.temi }}
-            <div class="s-epdelgiorno__tags">
-                {{ range .Params.temi }}<span class="s-tag">{{ . }}</span>{{ end }}
-            </div>
-            {{ end }}
         </div>
     </section>
     {{ end }}
     {{ end }}
+
+    <!-- ════════════════════════════════════
+         LETTURE DI FABIO
+    ════════════════════════════════════ -->
+    {{/* Immagini prese solo da static/immagini/varie (pool foto community), ruotano ogni giorno */}}
+    {{ $varieFiles := where (os.ReadDir "static/immagini/varie") "IsDir" false }}
+    {{ $varieCount := len $varieFiles }}
+    {{ $offset := mod now.YearDay $varieCount }}
+    {{ $topN := 6 }}
+    {{ $bottomN := 8 }}
+    {{ $words := slice "il volo" "del mattino" }}
+    {{ $topImgs := slice }}
+    {{ range $i := seq 0 (sub $topN 1) }}
+        {{ $topImgs = $topImgs | append (index $varieFiles (mod (add $offset $i) $varieCount)).Name }}
+    {{ end }}
+    {{ $bottomImgs := slice }}
+    {{ range $i := seq 0 (sub $bottomN 1) }}
+        {{ $bottomImgs = $bottomImgs | append (index $varieFiles (mod (add (add $offset $topN) $i) $varieCount)).Name }}
+    {{ end }}
+
+    <section class="s-letture">
+
+        <div class="s-letture__label">
+            <p class="lbl">Un po' di tutto</p>
+        </div>
+
+        <!-- Riga superiore: 1/3 — testo + foto → sinistra -->
+        <div class="s-letture__row s-letture__row--top">
+            <div class="s-letture__track s-letture__track--left">
+                {{ range $rep := seq 1 2 }}
+                    {{ range $i, $img := $topImgs }}
+                    <span class="s-letture__word">{{ index $words (mod $i 2) }}</span>
+                    <div class="s-letture__photo"><img src="/immagini/varie/{{ $img }}" alt=""></div>
+                    {{ end }}
+                {{ end }}
+            </div>
+        </div>
+
+        <!-- Riga inferiore: 2/3 — solo foto → destra -->
+        <div class="s-letture__row s-letture__row--bottom">
+            <div class="s-letture__track s-letture__track--right">
+                {{ range $rep := seq 1 2 }}
+                    {{ range $img := $bottomImgs }}
+                    <div class="s-letture__photo"><img src="/immagini/varie/{{ $img }}" alt=""></div>
+                    {{ end }}
+                {{ end }}
+            </div>
+        </div>
+
+    </section>
 
     <!-- Temi esistenziali -->
     <section class="s-temi">
@@ -139,105 +195,12 @@
         </div>
     </section>
 
-    <!-- ════════════════════════════════════
-         LETTURE DI FABIO
-    ════════════════════════════════════ -->
-    <section class="s-letture">
-
-        <div class="s-letture__label">
-            <p class="lbl">Letture di Fabio</p>
-        </div>
-
-        <!-- Riga superiore: 1/3 — testo + foto esistenziali → sinistra -->
-        <div class="s-letture__row s-letture__row--top">
-            <div class="s-letture__track s-letture__track--left">
-                <!-- Set A -->
-                <span class="s-letture__word">il volo</span>
-                <div class="s-letture__photo"><img src="/immagini/esistenziali/solitudine.jpg" alt=""></div>
-                <span class="s-letture__word">del mattino</span>
-                <div class="s-letture__photo"><img src="/immagini/esistenziali/libert%C3%A0.jpg" alt=""></div>
-                <span class="s-letture__word">il volo</span>
-                <div class="s-letture__photo"><img src="/immagini/esistenziali/sogno.jpg" alt=""></div>
-                <span class="s-letture__word">del mattino</span>
-                <div class="s-letture__photo"><img src="/immagini/esistenziali/amore.jpg" alt=""></div>
-                <span class="s-letture__word">il volo</span>
-                <div class="s-letture__photo"><img src="/immagini/esistenziali/tempo.jpg" alt=""></div>
-                <span class="s-letture__word">del mattino</span>
-                <div class="s-letture__photo"><img src="/immagini/esistenziali/coraggio.jpg" alt=""></div>
-                <!-- Set B — duplicato per loop seamless -->
-                <span class="s-letture__word">il volo</span>
-                <div class="s-letture__photo"><img src="/immagini/esistenziali/solitudine.jpg" alt=""></div>
-                <span class="s-letture__word">del mattino</span>
-                <div class="s-letture__photo"><img src="/immagini/esistenziali/libert%C3%A0.jpg" alt=""></div>
-                <span class="s-letture__word">il volo</span>
-                <div class="s-letture__photo"><img src="/immagini/esistenziali/sogno.jpg" alt=""></div>
-                <span class="s-letture__word">del mattino</span>
-                <div class="s-letture__photo"><img src="/immagini/esistenziali/amore.jpg" alt=""></div>
-                <span class="s-letture__word">il volo</span>
-                <div class="s-letture__photo"><img src="/immagini/esistenziali/tempo.jpg" alt=""></div>
-                <span class="s-letture__word">del mattino</span>
-                <div class="s-letture__photo"><img src="/immagini/esistenziali/coraggio.jpg" alt=""></div>
-            </div>
-        </div>
-
-        <!-- Riga inferiore: 2/3 — solo foto lettere → destra -->
-        <div class="s-letture__row s-letture__row--bottom">
-            <div class="s-letture__track s-letture__track--right">
-                <!-- Set A -->
-                <div class="s-letture__photo"><img src="/immagini/lettere/FB_IMG_1673029627463.jpg" alt=""></div>
-                <div class="s-letture__photo"><img src="/immagini/lettere/FB_IMG_1673029992751.jpg" alt=""></div>
-                <div class="s-letture__photo"><img src="/immagini/lettere/FB_IMG_1673091574049.jpg" alt=""></div>
-                <div class="s-letture__photo"><img src="/immagini/lettere/FB_IMG_1673160190463.jpg" alt=""></div>
-                <div class="s-letture__photo"><img src="/immagini/lettere/FB_IMG_1673162529996.jpg" alt=""></div>
-                <div class="s-letture__photo"><img src="/immagini/lettere/FB_IMG_1673162921484.jpg" alt=""></div>
-                <div class="s-letture__photo"><img src="/immagini/lettere/FB_IMG_1673969409919.jpg" alt=""></div>
-                <div class="s-letture__photo"><img src="/immagini/lettere/FB_IMG_1673984836048.jpg" alt=""></div>
-                <!-- Set B — duplicato per loop seamless -->
-                <div class="s-letture__photo"><img src="/immagini/lettere/FB_IMG_1673029627463.jpg" alt=""></div>
-                <div class="s-letture__photo"><img src="/immagini/lettere/FB_IMG_1673029992751.jpg" alt=""></div>
-                <div class="s-letture__photo"><img src="/immagini/lettere/FB_IMG_1673091574049.jpg" alt=""></div>
-                <div class="s-letture__photo"><img src="/immagini/lettere/FB_IMG_1673160190463.jpg" alt=""></div>
-                <div class="s-letture__photo"><img src="/immagini/lettere/FB_IMG_1673162529996.jpg" alt=""></div>
-                <div class="s-letture__photo"><img src="/immagini/lettere/FB_IMG_1673162921484.jpg" alt=""></div>
-                <div class="s-letture__photo"><img src="/immagini/lettere/FB_IMG_1673969409919.jpg" alt=""></div>
-                <div class="s-letture__photo"><img src="/immagini/lettere/FB_IMG_1673984836048.jpg" alt=""></div>
-            </div>
-        </div>
-
-    </section>
-
-    <!-- Project Journey -->
-    <section class="s-journey">
-        <div class="s-journey__step">
-            <div class="s-journey__text">
-                <span class="s-journey__num">01</span>
-                <h2 class="s-journey__title">Il mattino ha sempre<br>qualcosa da dire</h2>
-                <p class="s-journey__body">Tutto è iniziato con una voce. Fabio Volo al microfono di Radio Deejay, ogni mattina, con la capacità rara di trasformare l'ordinario in straordinario.</p>
-            </div>
-            <div class="s-journey__img-wrap">
-                <img class="s-journey__img" src="https://images.unsplash.com/photo-1478737270239-2f02b77fc618?w=900&q=80&auto=format&fit=crop" alt="Radio microfono">
-            </div>
-        </div>
-        <div class="s-journey__step">
-            <div class="s-journey__text">
-                <span class="s-journey__num">02</span>
-                <h2 class="s-journey__title">Le storie che ci hanno<br>cambiato qualcosa</h2>
-                <p class="s-journey__body">Ospiti, monologhi, lettere degli ascoltatori. Ogni puntata era un viaggio dentro la vita di qualcuno — e inevitabilmente, dentro la nostra.</p>
-            </div>
-            <div class="s-journey__img-wrap">
-                <img class="s-journey__img" src="https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=900&q=80&auto=format&fit=crop" alt="Ascoltatori">
-            </div>
-        </div>
-        <div class="s-journey__step">
-            <div class="s-journey__text">
-                <span class="s-journey__num">03</span>
-                <h2 class="s-journey__title">L'oblio non è<br>una destinazione</h2>
-                <p class="s-journey__body">Questo archivio nasce da una convinzione: che certi momenti meritino di essere ritrovati. Un frammento salvato è una storia che continua.</p>
-            </div>
-            <div class="s-journey__img-wrap">
-                <img class="s-journey__img" src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f?w=900&q=80&auto=format&fit=crop" alt="Archivio">
-            </div>
-        </div>
+    <!-- Random -->
+    <section class="s-random">
+        <p class="lbl lbl--dim">Esplora</p>
+        <h2 class="s-random__title">Affidati al caso</h2>
+        <p class="s-random__text">Lascia che l'algoritmo scelga per te un frammento memorabile per questa sera.</p>
+        <button onclick="navigaACaso()" class="btn">Naviga a Vista</button>
     </section>
 
     <!-- CTA -->
@@ -262,14 +225,6 @@
                 <span class="carp-sub">Azienda Agricola · Dario Presenti</span>
             </div>
         </div>
-    </section>
-
-    <!-- Random -->
-    <section class="s-random">
-        <p class="lbl lbl--dim">Esplora</p>
-        <h2 class="s-random__title">Affidati al caso</h2>
-        <p class="s-random__text">Lascia che l'algoritmo scelga per te un frammento memorabile per questa sera.</p>
-        <button onclick="navigaACaso()" class="btn">Naviga a Vista</button>
     </section>
 
     <!-- Telegram -->
@@ -608,7 +563,11 @@ header.header #menu .active { color: var(--cream) !important; }
     line-height: var(--lw-size);
 }
 
-/* Foto */
+/* Foto: tessera a larghezza fissa (rispetto all'altezza riga). object-fit:
+   contain per non tagliare mai i bordi — molte foto del pool "varie" sono
+   frasi/citazioni e vanno lette per intero, mai ritagliate. */
+.s-letture__row--top .s-letture__photo    { width: var(--lw-size); }
+.s-letture__row--bottom .s-letture__photo { width: calc(var(--lw-size) * 2); }
 .s-letture__photo {
     flex-shrink: 0;
     overflow: hidden;
@@ -616,9 +575,8 @@ header.header #menu .active { color: var(--cream) !important; }
 }
 .s-letture__photo img {
     height: 100%;
-    width: auto;
-    min-width: 40px;
-    object-fit: cover;
+    width: 100%;
+    object-fit: contain;
     display: block;
     filter: brightness(0.8) saturate(0.7);
     transition: filter 0.5s ease;
@@ -868,7 +826,7 @@ header.header #menu .active { color: var(--cream) !important; }
     letter-spacing: 0.18em;
     text-transform: uppercase;
     color: var(--gold);
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 .lbl--dim { color: rgba(34,158,217,0.6); }
 
@@ -939,9 +897,37 @@ header.header #menu .active { color: var(--cream) !important; }
 .s-epdelgiorno {
     border-top: 1px solid var(--bord);
     background: var(--bg);
-    padding: 64px 44px 80px;
+    padding: 90px 44px 110px;
+    min-height: 560px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-.s-epdelgiorno__card { max-width: 760px; }
+.s-epdelgiorno__head {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto 28px;
+}
+.s-epdelgiorno__card {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1.1fr;
+    gap: 56px;
+    align-items: center;
+}
+.s-epdelgiorno__media {
+    width: 100%;
+    aspect-ratio: 4 / 5;
+    overflow: hidden;
+    background: var(--surf);
+}
+.s-epdelgiorno__img { width: 100%; height: 100%; object-fit: cover; display: block; }
+@media(max-width: 860px) {
+    .s-epdelgiorno__card { grid-template-columns: 1fr; }
+    .s-epdelgiorno__media { aspect-ratio: 16 / 9; }
+}
 .s-epdelgiorno__head {
     display: flex;
     align-items: baseline;
@@ -1014,7 +1000,7 @@ header.header #menu .active { color: var(--cream) !important; }
     .s-temi__timeline { display: flex; }
 }
 .s-temi__left {
-    padding: 48px 40px 64px;
+    padding: 56px 40px 64px;
     border-right: 1px solid var(--bord);
     display: flex;
     flex-direction: column;
@@ -1069,28 +1055,28 @@ header.header #menu .active { color: var(--cream) !important; }
     min-height: 24px;
 }
 .s-temi__slide-desc {
-    font-size: 0.9rem;
+    font-size: 0.76rem;
     color: rgba(240,232,214,0.65);
-    line-height: 1.65;
-    margin-bottom: 16px;
+    line-height: 1.6;
+    margin-bottom: 14px;
     opacity: 0;
     transform: translateY(10px);
     transition: opacity 0.4s ease, transform 0.4s ease;
 }
 .s-temi__slide-title {
     font-family: var(--font-serif);
-    font-size: clamp(1.05rem, 1.5vw, 1.25rem);
+    font-size: clamp(0.88rem, 1.2vw, 1.02rem);
     font-weight: 400;
     color: var(--cream);
     line-height: 1.3;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
     opacity: 0;
     transform: translateY(10px);
     transition: opacity 0.4s ease 0.06s, transform 0.4s ease 0.06s;
 }
 .s-temi__slide-date {
     font-family: var(--font-mono);
-    font-size: 0.65rem;
+    font-size: 0.6rem;
     letter-spacing: 0.1em;
     text-transform: uppercase;
     color: rgba(34,158,217,0.6);
@@ -1166,64 +1152,6 @@ header.header #menu .active { color: var(--cream) !important; }
     filter: brightness(0.7) saturate(0.8);
 }
 .s-temi__img.active { opacity: 1; }
-
-/* ══ PROJECT JOURNEY ══ */
-.s-journey {
-    border-top: 1px solid var(--bord);
-}
-.s-journey__step {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    border-bottom: 1px solid var(--bord);
-}
-@media(max-width:700px) {
-    .s-journey__step { grid-template-columns: 1fr; }
-    .s-journey__img { min-height: 220px; }
-}
-.s-journey__text {
-    padding: 48px 52px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 14px;
-}
-.s-journey__num {
-    font-family: var(--font-mono);
-    font-size: 0.65rem;
-    letter-spacing: 0.18em;
-    color: var(--gold);
-    font-variant-numeric: tabular-nums;
-}
-.s-journey__title {
-    font-family: var(--font-serif);
-    font-size: clamp(1.2rem, 2.2vw, 1.8rem);
-    font-weight: 300;
-    color: var(--cream);
-    line-height: 1.2;
-    margin: 0;
-}
-.s-journey__body {
-    font-size: var(--fs-body);
-    color: var(--muted);
-    line-height: 1.5;
-    max-width: 420px;
-}
-.s-journey__img-wrap {
-    background: var(--surf);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 28px;
-}
-.s-journey__img {
-    max-width: 100%;
-    max-height: 320px;
-    width: auto;
-    height: auto;
-    object-fit: contain;
-    filter: brightness(0.88) saturate(0.8);
-    display: block;
-}
 
 /* ══ CTA ══ */
 .s-cta {
@@ -1512,7 +1440,7 @@ header.header #menu .active { color: var(--cream) !important; }
                     if (versoDanteEl) versoDanteEl.classList.add('visible');
                 }, 3000);
             }
-            if (dur > 3 && versoVid.currentTime >= dur - 3) {
+            if (dur > 3.5 && versoVid.currentTime >= dur - 3.5) {
                 versoFinish();
             }
         });
