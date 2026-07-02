@@ -129,16 +129,26 @@ def process_file(md_path, hf_token, ia_keys, do_transcribe, do_upload):
     if not fm or not fm.get("audio"):
         return "skip (nessun campo audio)"
 
+    # Se 'audio' punta gia' ad archive.org (es. episodi caricati da
+    # upload_local_archive.py con un identifier diverso), non va mai
+    # ri-scaricato/ri-caricato: crea doppioni e archive.org lo segnala come spam.
+    already_hosted = str(fm.get("audio", "")).startswith("https://archive.org/")
+    updates = {}
+    if already_hosted and not fm.get("archivio_audio_url"):
+        updates["archivio_audio_url"] = fm["audio"]
+
     need_transcribe = do_transcribe and not fm.get("trascrizione")
-    need_upload = do_upload and not fm.get("archivio_audio_url")
+    need_upload = do_upload and not fm.get("archivio_audio_url") and not already_hosted
     if not need_transcribe and not need_upload:
+        if updates:
+            apply_updates(md_path, updates)
+            return "ok (backfill archivio_audio_url, gia' su archive.org)"
         return "skip (gia' fatto)"
 
     audio_url = fm["audio"]
     date_str = str(fm.get("date"))
     identifier = f"ilvolodellasera-{date_str}-{md_path.stem}" if md_path.parent.name != "episodi" else f"ilvolodellasera-{date_str}"
 
-    updates = {}
     with tempfile.TemporaryDirectory() as tmpdir:
         tmp = Path(tmpdir)
         local_audio = tmp / Path(audio_url).name
