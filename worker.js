@@ -4,7 +4,11 @@
  * tuo ricordo" della sezione Contribuisci. Richiede il secret
  * RESEND_API_KEY (wrangler secret put RESEND_API_KEY).
  */
-const DEST_EMAIL = "ilvolodellasera.web@gmail.com";
+// NB: Resend e' in sandbox finche' non si verifica un dominio proprio
+// (resend.com/domains) — puo' consegnare solo alla mail del titolare
+// dell'account. Cambiare qui in ilvolodellasera.web@gmail.com dopo la
+// verifica del dominio.
+const DEST_EMAIL = "eddywebdesign2.0@gmail.com";
 
 export default {
   async fetch(request, env) {
