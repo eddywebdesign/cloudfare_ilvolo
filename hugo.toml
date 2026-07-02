@@ -31,7 +31,7 @@ theme = "PaperMod"
 
 [menu]
   [[menu.main]]
-    name = "Episodi"
+    name = "Puntate"
     url = "/episodi/"
     weight = 1
   [[menu.main]]
