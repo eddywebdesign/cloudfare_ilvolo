@@ -19,7 +19,7 @@
     </div>
 
     <!-- Copyright video -->
-    <div class="hero-copyright">© Vladimir</div>
+    <div class="hero-copyright">©Vladimir</div>
 
     <!-- Titolo overlay (appare al 30% del video, con l'arrivo della sera) -->
     <div class="s-verso__title" id="verso-title">
@@ -44,15 +44,16 @@
         <div class="s-titolo__grid">
             <div class="s-narrativa__inner">
                 <p class="lbl">L'idea</p>
-                <h3 class="s-narrativa__h3">Uno spazio per raccogliere parole, momenti e storie<br>de il Volo del Mattino.<br>Spunti esistenziali ricomposti per strapparli all'oblio.</h3>
-                <p class="s-narrativa__text">Questo spazio nasce da un desiderio noto di Fabio Volo: dare vita a un Volo della Sera. Siamo ascoltatori storici del programma e, consapevoli che il tempo fagocita ogni cosa, proviamo timidamente a renderlo reale.</p>
-                <p class="s-narrativa__text">Per noi Il Volo del Mattino è molto più di una trasmissione radiofonica. È un piccolo e importante patrimonio creativo di genuinità e spunti esistenziali che meritano di essere salvati. Il nostro tentativo è preservarlo offrendo una piccola Wikipedia emotiva: un mosaico per ricomporre e riorganizzare i frammenti preziosi sparsi in molti anni di vita.</p>
-                <p class="s-narrativa__text s-narrativa__conclusion">Benvenuto, quindi, a chiunque voglia giocare un po' con se stesso e condividere in armonia. E benvenuto a te che arrivi qui semplicemente per scaldarti il cuore, navigando fra i ricordi finora raccolti.</p>
+                <p class="s-narrativa__text">Questo spazio nasce da un desiderio noto di Fabio Volo: dare vita a un Volo della Sera. Siamo ascoltatori storici del programma e, consapevoli che il tempo fagocita ogni cosa, proviamo timidamente a renderlo reale. Per noi Il Volo del Mattino è molto più di una trasmissione radiofonica. È un piccolo e importante patrimonio creativo di genuinità e spunti esistenziali che meritano di essere salvati. Il nostro tentativo è preservarlo offrendo una piccola Wikipedia emotiva: un mosaico per ricomporre e riorganizzare i frammenti preziosi sparsi in molti anni di vita.</p>
             </div>
             <div class="s-titolo__media">
                 <img class="s-titolo__img s-titolo__img--back" src="/immagini/puzzle.jpg" alt="">
                 <img class="s-titolo__img s-titolo__img--front" src="/immagini/puzzle.jpg" alt="">
             </div>
+        </div>
+        <div class="s-titolo__bottom">
+            <p class="lbl">Cosa vogliamo</p>
+            <h3 class="s-narrativa__h3">Uno spazio per raccogliere parole, momenti e storie de il Volo del Mattino. Spunti esistenziali ricomposti per strapparli all'oblio.</h3>
         </div>
     </section>
 
@@ -98,6 +99,7 @@
     <!-- Temi esistenziali -->
     <section class="s-temi">
         <div class="s-temi__left">
+            <p class="lbl">Ultimi episodi</p>
             <!-- Progress bar + nav -->
             <div class="s-temi__prog-wrap"><div class="s-temi__prog-bar" id="tl-bar"></div></div>
             <div class="s-temi__nav">
@@ -246,7 +248,7 @@
             <p class="lbl">Contribuisci</p>
             <h2 class="s-cta__title">Aiutaci a riportare<br>alla luce un frammento</h2>
             <p class="s-cta__sub">Hai il ricordo sbiadito di una puntata? Un nome, una data, un'emozione? Condividila con noi — insieme costruiamo la memoria.</p>
-            <a href="https://t.me" target="_blank" class="btn">Condividi il tuo ricordo</a>
+            <a href="mailto:ilvolodellasera.web@gmail.com" class="btn">Condividi il tuo ricordo</a>
         </div>
         <!-- Logos bottom -->
         <div class="s-cta__logos">
@@ -259,25 +261,6 @@
                 <span class="carp-main">Le Carpanelle</span>
                 <span class="carp-sub">Azienda Agricola · Dario Presenti</span>
             </div>
-        </div>
-    </section>
-
-    <!-- Episodi -->
-    <section class="s-episodes">
-        <div class="s-episodes__head">
-            <p class="lbl">Archivio</p>
-            <h2 class="s-episodes__title">Ultimi frammenti<br>riportati alla luce</h2>
-            <a href="/episodi/" class="s-link-all">Vedi tutti →</a>
-        </div>
-        <div class="s-grid">
-            {{ range first 4 (where .Site.RegularPages "Section" "episodi") }}
-            <a href="{{ .Permalink }}" class="s-card">
-                <span class="s-card__date">{{ .Date.Format "02 Jan 2006" }}</span>
-                {{ if .Params.temi }}<div class="s-card__tags">{{ range first 2 .Params.temi }}<span class="s-tag">{{ . }}</span>{{ end }}</div>{{ end }}
-                <h3 class="s-card__title">{{ .Title }}</h3>
-                {{ if .Summary }}<p class="s-card__sum">{{ .Summary | truncate 90 }}</p>{{ end }}
-            </a>
-            {{ end }}
         </div>
     </section>
 
@@ -294,7 +277,7 @@
         <p class="lbl">Comunità</p>
         <h2 class="s-tg__title">Il Messaggio nella Bottiglia</h2>
         <p class="s-tg__text">Questo archivio è un'opera di archeologia collettiva. Hai un ricordo sbiadito di una vecchia puntata? Hai dei 'pezzi', del materiale da condividere? Offri e chiedi aiuto agli altri navigatori.</p>
-        <a href="https://t.me" target="_blank" class="btn btn--tg">Entra nel Gruppo Telegram</a>
+        <a href="https://t.me/ilvolodelmattino" target="_blank" class="btn btn--tg">Entra nel Gruppo Telegram</a>
     </section>
 
 </div>
@@ -380,6 +363,8 @@ header.header #menu .active { color: var(--cream) !important; }
 .logo a, .logo span { color: var(--cream) !important; font-style: italic; font-weight: 300; font-size: 1rem; letter-spacing: 0.01em; text-decoration: none !important; }
 .logo-switches { flex-shrink: 0; }
 #theme-toggle { color: rgba(240,232,214,0.5) !important; }
+.logo-switches a.theme-toggle { color: #229ED9 !important; text-decoration: none; opacity: 0.85; transition: opacity 0.2s; }
+.logo-switches a.theme-toggle:hover { opacity: 1; }
 
 /* ── HERO ── */
 .hero {
@@ -412,13 +397,22 @@ header.header #menu .active { color: var(--cream) !important; }
 
 .hero-over {
     position: absolute; inset: 0;
-    background: linear-gradient(
-        to bottom,
-        rgba(8,9,15,0.1) 0%,
-        rgba(8,9,15,0.0) 20%,
-        rgba(8,9,15,0.3) 70%,
-        rgba(8,9,15,0.88) 100%
-    );
+    background:
+        linear-gradient(
+            to bottom,
+            rgba(8,9,15,0.1) 0%,
+            rgba(8,9,15,0.0) 20%,
+            rgba(8,9,15,0.3) 65%,
+            rgba(8,9,15,0.94) 92%,
+            rgba(8,9,15,1) 100%
+        ),
+        linear-gradient(
+            to right,
+            rgba(8,9,15,0.55) 0%,
+            rgba(8,9,15,0) 8%,
+            rgba(8,9,15,0) 92%,
+            rgba(8,9,15,0.55) 100%
+        );
     z-index: 1;
 }
 
@@ -634,8 +628,12 @@ header.header #menu .active { color: var(--cream) !important; }
 .s-titolo {
     position: relative;
     background: var(--bg);
-    border-top: 1px solid var(--bord);
-    padding: 100px 24px 110px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 120px;
+    padding: 140px 24px 140px;
 }
 .s-narrativa__inner {
     max-width: 660px;
@@ -644,20 +642,21 @@ header.header #menu .active { color: var(--cream) !important; }
 }
 .s-titolo__grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1.7fr 1fr;
     gap: 70px;
     max-width: 1160px;
     margin: 0 auto;
     align-items: center;
+    width: 100%;
 }
 .s-titolo__media {
     position: relative;
-    height: 420px;
+    height: 400px;
 }
 .s-titolo__img {
     position: absolute;
-    width: 76%;
-    max-width: 360px;
+    width: 62%;
+    max-width: 290px;
     aspect-ratio: 4/3;
     object-fit: cover;
     border-radius: 2px;
@@ -826,14 +825,21 @@ header.header #menu .active { color: var(--cream) !important; }
     opacity: 1;
     transition: none;
 }
+.s-titolo__bottom {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+.s-titolo__bottom .lbl { text-align: center; }
+.s-titolo .lbl { font-size: 0.82rem; letter-spacing: 0.14em; }
 .s-narrativa__h3 {
     font-family: var(--font-serif);
-    font-size: clamp(1.05rem, 1.9vw, 1.4rem);
+    font-size: clamp(1.2rem, 1.95vw, 1.75rem);
     font-weight: 400;
     font-style: italic;
     color: var(--gold);
-    line-height: 1.65;
-    margin: 0 0 2.4rem;
+    line-height: 1.5;
+    margin: 0;
 }
 .s-narrativa__h4 {
     font-family: var(--font-serif);
@@ -844,16 +850,12 @@ header.header #menu .active { color: var(--cream) !important; }
     margin-bottom: 0.7rem;
 }
 .s-narrativa__text {
-    font-size: var(--fs-body);
+    font-size: clamp(1.6rem, 2.6vw, 2.5rem);
+    font-weight: 600;
     color: #ddd5c4;
-    line-height: 1.85;
-    letter-spacing: 0.01em;
-    margin: 0 0 1.6rem;
-}
-.s-narrativa__conclusion {
-    margin-top: 2.8rem;
-    color: #c8bfb0;
-    font-style: italic;
+    line-height: 1.3;
+    letter-spacing: -0.01em;
+    margin: 0;
 }
 
 /* ══ CONTENUTO ══ */
@@ -898,21 +900,7 @@ header.header #menu .active { color: var(--cream) !important; }
 .dot { width: 7px; height: 7px; background: var(--gold); border-radius: 50%; animation: pulse 2s infinite; }
 @keyframes pulse { 0%,100%{opacity:1;} 50%{opacity:.25;} }
 
-/* Episodes */
-.s-episodes { padding: 0 24px 80px; max-width: 1100px; margin: 0 auto; border-top: 1px solid var(--bord); padding-top: 80px; }
-.s-episodes__head { display: flex; flex-direction: column; margin-bottom: 48px; }
-.s-episodes__title { font-family: var(--font-serif); font-size: clamp(1.5rem, 3.5vw, 2.2rem); font-weight: 300; line-height: 1.15; color: var(--cream); margin-bottom: 1.3rem; }
-.s-link-all { align-self: flex-start; color: var(--gold); text-decoration: none; font-size: 0.85rem; border-bottom: 1px solid transparent; transition: border-color .2s; }
-.s-link-all:hover { border-color: var(--gold); }
-.s-grid { display: grid; grid-template-columns: repeat(2,1fr); gap: 2px; }
-@media(max-width:600px){ .s-grid { grid-template-columns: 1fr; } }
-.s-card { display: block; text-decoration: none; color: inherit; background: var(--surf); border: 1px solid var(--bord); padding: 28px 24px; transition: background .2s; }
-.s-card:hover { background: var(--bg); border-color: var(--gold); }
-.s-card__date { display: block; font-size: .72rem; color: var(--muted); letter-spacing: .08em; margin-bottom: 10px; }
-.s-card__tags { display: flex; gap: 6px; margin-bottom: 12px; flex-wrap: wrap; }
 .s-tag { font-size: .68rem; letter-spacing: .1em; text-transform: uppercase; color: var(--gold); background: var(--golddim); padding: 3px 8px; border-radius: 3px; }
-.s-card__title { font-size: 1.1rem; font-weight: 500; line-height: 1.4; color: var(--cream); margin-bottom: 8px; }
-.s-card__sum { font-size: .83rem; color: var(--muted); line-height: 1.6; }
 
 /* Random */
 .s-random { border-top: 1px solid var(--bord); padding: 90px 24px; text-align: center; }
@@ -1524,7 +1512,7 @@ header.header #menu .active { color: var(--cream) !important; }
                     if (versoDanteEl) versoDanteEl.classList.add('visible');
                 }, 3000);
             }
-            if (dur > 1 && versoVid.currentTime >= dur - 1) {
+            if (dur > 3 && versoVid.currentTime >= dur - 3) {
                 versoFinish();
             }
         });
