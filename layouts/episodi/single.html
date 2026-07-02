@@ -1,0 +1,61 @@
+{{ define "main" }}
+<script>
+(function () {
+  if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+  window.scrollTo(0, 0);
+})();
+</script>
+<article class="ep-single">
+  <header class="ep-header">
+    <p class="lbl">Puntata</p>
+    <h1 class="ep-title">{{ .Title }}</h1>
+    <div class="ep-meta">
+      <span>{{ .Date | time.Format ":date_long" }}</span>
+      {{ with .Params.durata }}<span> · {{ . }}</span>{{ end }}
+    </div>
+    {{ with .Params.resumen }}<p class="ep-resumen">{{ . }}</p>{{ end }}
+  </header>
+
+  {{ with .Params.audio }}
+  <div class="ep-audio">
+    <audio controls preload="none" src="{{ . }}"></audio>
+  </div>
+  {{ end }}
+
+  {{ with .Params.temi }}
+  <div class="ep-temi">
+    <p class="lbl lbl--sm">Frammenti / temi di questa puntata</p>
+    <div class="ep-temi-list">
+      {{ range . }}<a class="ep-tema" href="{{ "/temi/" | relLangURL }}{{ . | urlize }}/">{{ . }}</a>{{ end }}
+    </div>
+  </div>
+  {{ end }}
+
+  <div class="ep-content">
+    {{ .Content }}
+  </div>
+
+  {{ with .Params.fonte }}
+  <p class="ep-fonte"><a href="{{ . }}" target="_blank" rel="noopener">Ascolta su deejay.it →</a></p>
+  {{ end }}
+</article>
+
+<style>
+.ep-single { max-width: 760px; margin: 0 auto; padding: 140px 24px 100px; }
+.ep-header .lbl { font-family: var(--font-mono, monospace); font-size: 0.68rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold, #229ED9); margin-bottom: 0.8rem; }
+.ep-title { font-family: var(--font-serif, Georgia, serif); font-weight: 300; font-size: clamp(1.8rem, 4vw, 2.8rem); color: var(--primary); margin: 0 0 0.8rem; line-height: 1.15; }
+.ep-meta { font-family: var(--font-mono, monospace); font-size: 0.78rem; letter-spacing: 0.05em; color: var(--secondary); margin-bottom: 1.2rem; }
+.ep-resumen { font-size: 1.05rem; color: var(--content); line-height: 1.7; margin-bottom: 2rem; }
+.ep-audio { margin-bottom: 2rem; }
+.ep-audio audio { width: 100%; border-radius: 4px; }
+.ep-temi { margin-bottom: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border); }
+.lbl--sm { font-size: 0.65rem !important; opacity: 0.7; }
+.ep-temi-list { display: flex; flex-wrap: wrap; gap: 8px; }
+.ep-tema { font-size: 0.72rem; letter-spacing: 0.05em; text-transform: uppercase; color: var(--gold, #229ED9); background: rgba(34,158,217,0.12); padding: 5px 12px; border-radius: 3px; text-decoration: none; }
+.ep-tema:hover { background: rgba(34,158,217,0.25); }
+.ep-content { color: var(--content); line-height: 1.8; }
+.ep-fonte { margin-top: 2.5rem; padding-top: 1.5rem; border-top: 1px solid var(--border); }
+.ep-fonte a { color: var(--gold, #229ED9); text-decoration: none; font-size: 0.9rem; }
+.ep-fonte a:hover { text-decoration: underline; }
+</style>
+{{ end }}

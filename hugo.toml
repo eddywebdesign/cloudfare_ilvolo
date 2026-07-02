@@ -7,6 +7,7 @@ theme = "PaperMod"
 
 [params]
   author = "Fabio Volo"
+  defaultTheme = "dark"
 
 [params.label]
   text = "ilVolodellaSera"
@@ -16,6 +17,9 @@ theme = "PaperMod"
   ShowPostNavLinks = true
   ShowBreadCrumbs = true
   ShowToc = true
+
+[params.footer]
+  text = "[ilvolodellasera.web@gmail.com](mailto:ilvolodellasera.web@gmail.com)"
 
 [params.homeInfoParams]
   Title = "Il Volo del Mattino"
@@ -40,5 +44,7 @@ theme = "PaperMod"
     weight = 3
 
 [taxonomies]
-  tag = "tags"
-  stagione = "stagioni"
+  tema = "temi"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
