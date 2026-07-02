@@ -16,6 +16,7 @@ Richiede due file locali (MAI committati in git):
     ~/archive_org.txt    due righe: access_key, secret_key per archive.org (S3-like)
 """
 import argparse
+import os
 import re
 import subprocess
 import sys
@@ -27,6 +28,9 @@ import requests
 import yaml
 
 UPLOAD_PAUSE_SEC = 12  # pausa tra un upload e il successivo, per non farci bloccare da archive.org
+# Se impostata, ogni audio scaricato viene conservato qui in copia permanente
+# (backup di emergenza: gli URL legacy di deejay.it possono sparire da un giorno all'altro).
+AUDIO_BACKUP_DIR = os.environ.get("AUDIO_BACKUP_DIR")
 UPLOAD_MAX_RETRIES = 5
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -52,7 +56,7 @@ def parse_front_matter(path):
 
 
 def write_front_matter(path, fm, body):
-    yaml_text = yaml.dump(fm, allow_unicode=True, sort_keys=False, default_flow_style=None)
+    yaml_text = yaml.dump(fm, allow_unicode=True, sort_keys=False, default_flow_style=False)
     path.write_text(f"---\n{yaml_text}---\n{body}", encoding="utf-8")
 
 
@@ -150,10 +154,19 @@ def process_file(md_path, hf_token, ia_keys, do_transcribe, do_upload):
     identifier = f"ilvolodellasera-{date_str}-{md_path.stem}" if md_path.parent.name != "episodi" else f"ilvolodellasera-{date_str}"
 
     with tempfile.TemporaryDirectory() as tmpdir:
-        tmp = Path(tmpdir)
-        local_audio = tmp / Path(audio_url).name
-        print(f"  scarico {audio_url}")
-        download(audio_url, local_audio)
+        if AUDIO_BACKUP_DIR:
+            # copia permanente: il file resta sul disco di backup anche dopo l'upload
+            backup_dir = Path(AUDIO_BACKUP_DIR)
+            backup_dir.mkdir(parents=True, exist_ok=True)
+            local_audio = backup_dir / f"{date_str}_{Path(audio_url).name}"
+        else:
+            local_audio = Path(tmpdir) / Path(audio_url).name
+
+        if local_audio.exists() and local_audio.stat().st_size > 0:
+            print(f"  audio gia' in backup locale: {local_audio.name}")
+        else:
+            print(f"  scarico {audio_url}")
+            download(audio_url, local_audio)
 
         if need_transcribe:
             print("  trascrivo con WhisperX (puo' richiedere piu' di un'ora su CPU)...")
@@ -173,10 +186,14 @@ def process_file(md_path, hf_token, ia_keys, do_transcribe, do_upload):
                 "description": fm.get("resumen", ""),
                 "subject": "; ".join(fm.get("temi", []) or []),
                 "source": fm.get("fonte", ""),
+                # tiene l'item fuori dalla ricerca interna di archive.org:
+                # e' un backup di conservazione, non una ripubblicazione
+                "noindex": "true",
             }
             archive_url = upload_to_archive(identifier, local_audio, metadata, ia_keys[0], ia_keys[1])
             updates["archivio_audio_url"] = archive_url
-            updates["audio"] = archive_url
+            # NON si tocca 'audio': il sito continua a puntare alla fonte
+            # ufficiale (deejay.it); archive.org resta il fallback di archivio.
 
     apply_updates(md_path, updates)
     return "ok"
