@@ -75,9 +75,29 @@ def transcribe(audio_path, hf_token):
     return audio_path.parent / (audio_path.stem + ".json")
 
 
+def wait_if_over_limit(identifier, access_key, max_wait_checks=10):
+    """Consulta l'endpoint ufficiale prima di caricare, invece di tentare
+    alla cieca e aspettare dopo un errore 503 SlowDown."""
+    for _ in range(max_wait_checks):
+        try:
+            r = requests.get(
+                "https://s3.us.archive.org/",
+                params={"check_limit": 1, "accesskey": access_key, "bucket": identifier},
+                timeout=15,
+            )
+            data = r.json()
+        except Exception:
+            return  # se il check stesso fallisce, si prosegue e si lascia gestire il retry sotto
+        if not data.get("over_limit"):
+            return
+        print("  archive.org e' al limite in questo momento, aspetto 30s...")
+        time.sleep(30)
+
+
 def upload_to_archive(identifier, audio_path, metadata, access_key, secret_key):
     import internetarchive as ia
     for attempt in range(1, UPLOAD_MAX_RETRIES + 1):
+        wait_if_over_limit(identifier, access_key)
         try:
             responses = ia.upload(
                 identifier, files=[str(audio_path)], metadata=metadata,
