@@ -102,6 +102,49 @@
     {{ end }}
     {{ end }}
 
+    <!-- Temi esistenziali -->
+    <section class="s-temi">
+        <div class="s-temi__left">
+            <p class="lbl">Ultimi episodi</p>
+            <!-- Progress bar + nav -->
+            <div class="s-temi__prog-wrap"><div class="s-temi__prog-bar" id="tl-bar"></div></div>
+            <div class="s-temi__nav">
+                <button class="s-temi__arrow" id="tl-prev">←</button>
+                <button class="s-temi__arrow" id="tl-next">→</button>
+                <span class="s-temi__counter" id="tl-counter">01 / 06</span>
+            </div>
+            <!-- Slide: ultimi episodi (descrizione, titolo, data) -->
+            <div class="s-temi__slide-wrap">
+                <div class="s-temi__slide-tags" id="tl-tags"></div>
+                <p class="s-temi__slide-desc" id="tl-desc"></p>
+                <h3 class="s-temi__slide-title" id="tl-title"></h3>
+                <p class="s-temi__slide-date" id="tl-date"></p>
+            </div>
+            <a href="/episodi/" class="s-temi__archive-link">Vai all'archivio completo →</a>
+        </div>
+        <div class="s-temi__center">
+            <p class="lbl">Spunti esistenziali</p>
+            <div class="s-temi__list">
+                <h2 class="s-temi__h2 active" data-idx="0">Solitudine</h2>
+                <h2 class="s-temi__h2" data-idx="1">Libertà</h2>
+                <h2 class="s-temi__h2" data-idx="2">Sogno</h2>
+                <h2 class="s-temi__h2" data-idx="3">Amore</h2>
+                <h2 class="s-temi__h2" data-idx="4">Tempo</h2>
+                <h2 class="s-temi__h2" data-idx="5">Coraggio</h2>
+                <h2 class="s-temi__h2" data-idx="6">Malinconia</h2>
+            </div>
+        </div>
+        <div class="s-temi__right">
+            <div class="s-temi__img active" style="background-image:url('/immagini/esistenziali/solitudine.jpg')"></div>
+            <div class="s-temi__img" style="background-image:url('/immagini/esistenziali/libert%C3%A0.jpg')"></div>
+            <div class="s-temi__img" style="background-image:url('/immagini/esistenziali/sogno.jpg')"></div>
+            <div class="s-temi__img" style="background-image:url('/immagini/esistenziali/amore.jpg')"></div>
+            <div class="s-temi__img" style="background-image:url('/immagini/esistenziali/tempo.jpg')"></div>
+            <div class="s-temi__img" style="background-image:url('/immagini/esistenziali/coraggio.jpg')"></div>
+            <div class="s-temi__img" style="background-image:url('/immagini/esistenziali/malinconia.jpg')"></div>
+        </div>
+    </section>
+
     <!-- ════════════════════════════════════
          LETTURE DI FABIO
     ════════════════════════════════════ -->
@@ -150,49 +193,6 @@
             </div>
         </div>
 
-    </section>
-
-    <!-- Temi esistenziali -->
-    <section class="s-temi">
-        <div class="s-temi__left">
-            <p class="lbl">Ultimi episodi</p>
-            <!-- Progress bar + nav -->
-            <div class="s-temi__prog-wrap"><div class="s-temi__prog-bar" id="tl-bar"></div></div>
-            <div class="s-temi__nav">
-                <button class="s-temi__arrow" id="tl-prev">←</button>
-                <button class="s-temi__arrow" id="tl-next">→</button>
-                <span class="s-temi__counter" id="tl-counter">01 / 06</span>
-            </div>
-            <!-- Slide: ultimi episodi (descrizione, titolo, data) -->
-            <div class="s-temi__slide-wrap">
-                <div class="s-temi__slide-tags" id="tl-tags"></div>
-                <p class="s-temi__slide-desc" id="tl-desc"></p>
-                <h3 class="s-temi__slide-title" id="tl-title"></h3>
-                <p class="s-temi__slide-date" id="tl-date"></p>
-            </div>
-            <a href="/episodi/" class="s-temi__archive-link">Vai all'archivio completo →</a>
-        </div>
-        <div class="s-temi__center">
-            <p class="lbl">Spunti esistenziali</p>
-            <div class="s-temi__list">
-                <h2 class="s-temi__h2 active" data-idx="0">Solitudine</h2>
-                <h2 class="s-temi__h2" data-idx="1">Libertà</h2>
-                <h2 class="s-temi__h2" data-idx="2">Sogno</h2>
-                <h2 class="s-temi__h2" data-idx="3">Amore</h2>
-                <h2 class="s-temi__h2" data-idx="4">Tempo</h2>
-                <h2 class="s-temi__h2" data-idx="5">Coraggio</h2>
-                <h2 class="s-temi__h2" data-idx="6">Malinconia</h2>
-            </div>
-        </div>
-        <div class="s-temi__right">
-            <div class="s-temi__img active" style="background-image:url('/immagini/esistenziali/solitudine.jpg')"></div>
-            <div class="s-temi__img" style="background-image:url('/immagini/esistenziali/libert%C3%A0.jpg')"></div>
-            <div class="s-temi__img" style="background-image:url('/immagini/esistenziali/sogno.jpg')"></div>
-            <div class="s-temi__img" style="background-image:url('/immagini/esistenziali/amore.jpg')"></div>
-            <div class="s-temi__img" style="background-image:url('/immagini/esistenziali/tempo.jpg')"></div>
-            <div class="s-temi__img" style="background-image:url('/immagini/esistenziali/coraggio.jpg')"></div>
-            <div class="s-temi__img" style="background-image:url('/immagini/esistenziali/malinconia.jpg')"></div>
-        </div>
     </section>
 
     <!-- Random -->
