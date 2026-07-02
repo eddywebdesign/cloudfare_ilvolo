@@ -1480,9 +1480,7 @@ header.header #menu .active { color: var(--cream) !important; }
                     if (versoDanteEl) versoDanteEl.classList.add('visible');
                 }, 3000);
             }
-            /* Pausa piu' lunga dopo la comparsa del titolo (fade 3.2s) prima
-               dello scroll automatico, cosi' non sembra un lampo */
-            if (dur > 1 && versoVid.currentTime >= dur - 1) {
+            if (dur > 3.5 && versoVid.currentTime >= dur - 3.5) {
                 versoFinish();
             }
         });
