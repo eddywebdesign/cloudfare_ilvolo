@@ -39,9 +39,13 @@ theme = "PaperMod"
     url = "/archivio/"
     weight = 2
   [[menu.main]]
+    name = "Galleria"
+    url = "/galleria/"
+    weight = 3
+  [[menu.main]]
     name = "Chi siamo"
     url = "/about/"
-    weight = 3
+    weight = 4
 
 [taxonomies]
   tema = "temi"

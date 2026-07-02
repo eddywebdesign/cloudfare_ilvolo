@@ -1,0 +1,136 @@
+{{ define "main" }}
+{{ $foto := where (os.ReadDir "static/immagini/varie") "IsDir" false }}
+<div id="gal-hero" class="hero">
+  <img class="gal-hero__img" src="/immagini/puzzle.jpg" alt="">
+  <div class="hero-over"></div>
+  <div class="hero-scroll" onclick="document.getElementById('gal-mosaic').scrollIntoView({behavior:'smooth'})">
+    <svg class="hero-scroll__chevron" viewBox="0 0 24 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <polyline points="1,1 12,13 23,1" stroke="rgba(240,232,214,0.55)" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+  </div>
+  <div class="s-verso__title visible">
+    <h1 class="hero-title-main">Galleria</h1>
+    <p class="hero-title__label hero-title__label--below">Un mosaico di momenti condivisi dalla community</p>
+  </div>
+</div>
+
+<section id="gal-mosaic" class="gal-mosaic">
+  {{ range $foto }}
+  <div class="gal-mosaic__item">
+    <img src="/immagini/varie/{{ .Name }}" loading="lazy" alt="">
+  </div>
+  {{ end }}
+</section>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300;1,9..40,400&family=IBM+Plex+Mono:wght@400;500&display=swap');
+
+:root {
+  --font-serif: 'DM Serif Display', Georgia, serif;
+  --font-sans:  'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono:  'IBM Plex Mono', monospace;
+  --gold: #229ED9;
+}
+
+/* ── Header trasparente sopra l'hero (identico alla homepage) ── */
+.main { max-width: 100% !important; padding: 0 !important; margin: 0 !important; }
+header.header {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+  background: transparent !important; box-shadow: none !important; border: none !important;
+  width: 100vw;
+  transition: background 0.3s ease, backdrop-filter 0.3s ease;
+}
+header.header.is-solid { background: rgba(8,9,15,0.85) !important; backdrop-filter: blur(10px); }
+header.header nav, header.header .header-nav {
+  display: flex !important; align-items: center !important; justify-content: space-between !important;
+  position: relative !important; width: 100% !important; max-width: 100% !important;
+  padding: 28px 40px !important; box-sizing: border-box !important;
+}
+header.header #menu {
+  position: absolute; left: 50%; transform: translateX(-50%);
+  display: flex; align-items: center; gap: 40px; list-style: none; margin: 0; padding: 0;
+}
+header.header #menu li { margin: 0; padding: 0; }
+header.header #menu a {
+  color: rgba(240,232,214,0.75) !important; font-family: var(--font-sans) !important;
+  font-size: 1rem !important; font-weight: 400 !important; letter-spacing: -0.01em !important;
+  text-decoration: none !important; transition: color 0.2s !important; line-height: 1 !important;
+}
+header.header #menu a:hover, header.header #menu .active { color: #f0e8d6 !important; }
+.logo { color: #f0e8d6 !important; flex-shrink: 0; }
+.logo a, .logo span { color: #f0e8d6 !important; font-style: italic; font-weight: 300; font-size: 1rem; letter-spacing: 0.01em; text-decoration: none !important; }
+.logo-switches { flex-shrink: 0; }
+#theme-toggle { color: rgba(240,232,214,0.5) !important; }
+
+/* ── HERO con immagine statica ── */
+.hero { position: relative; width: 100vw; height: 100vh; overflow: hidden; margin-left: calc(50% - 50vw); background: #08090f; }
+.gal-hero__img {
+  position: absolute; inset: 0; width: 100%; height: 100%;
+  object-fit: cover; z-index: 0; filter: brightness(0.7) saturate(1.05);
+}
+.hero-over {
+  position: absolute; inset: 0;
+  background:
+    linear-gradient(to bottom, rgba(8,9,15,0.1) 0%, rgba(8,9,15,0.0) 20%, rgba(8,9,15,0.3) 65%, rgba(8,9,15,0.94) 92%, rgba(8,9,15,1) 100%),
+    linear-gradient(to right, rgba(8,9,15,0.55) 0%, rgba(8,9,15,0) 8%, rgba(8,9,15,0) 92%, rgba(8,9,15,0.55) 100%);
+  z-index: 1;
+}
+.hero-scroll { position: absolute; bottom: 36px; right: 36px; z-index: 4; cursor: pointer; animation: galArrowBob 2.4s ease-in-out infinite; }
+.hero-scroll__chevron { width: 28px; height: 17px; display: block; }
+@keyframes galArrowBob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(7px); } }
+.s-verso__title {
+  position: absolute; inset: 0; z-index: 3;
+  display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;
+  padding: 0 24px; padding-top: 9vh;
+}
+.hero-title-main {
+  font-family: var(--font-serif); font-size: clamp(2.6rem, 8vw, 6rem); font-weight: 300;
+  letter-spacing: 0.01em; color: #f0e8d6; text-shadow: 0 4px 40px rgba(0,0,0,0.6); margin: 0;
+}
+.hero-title__label {
+  font-family: var(--font-mono); font-size: 0.65rem; letter-spacing: 0.22em; text-transform: uppercase;
+  color: var(--gold); margin-bottom: 1.2rem;
+}
+.hero-title__label--below { margin-bottom: 0; margin-top: 1.2rem; }
+
+/* ── Mosaico full-page a colonne (foto di altezze diverse, stile Pinterest) ── */
+.gal-mosaic {
+  background: #08090f;
+  padding: 8px;
+  column-count: 2;
+  column-gap: 8px;
+}
+@media(min-width: 640px)  { .gal-mosaic { column-count: 3; } }
+@media(min-width: 960px)  { .gal-mosaic { column-count: 4; } }
+@media(min-width: 1400px) { .gal-mosaic { column-count: 5; } }
+.gal-mosaic__item {
+  break-inside: avoid;
+  margin-bottom: 8px;
+  overflow: hidden;
+  background: #10131e;
+}
+.gal-mosaic__item img {
+  width: 100%;
+  height: auto;
+  display: block;
+  filter: brightness(0.9) saturate(0.95);
+  transition: filter 0.3s ease, transform 0.3s ease;
+}
+.gal-mosaic__item:hover img { filter: brightness(1) saturate(1.05); transform: scale(1.02); }
+</style>
+
+<script>
+(function() {
+  var headerEl = document.querySelector('header.header');
+  if (headerEl) {
+    window.addEventListener('scroll', function() {
+      if (window.scrollY > window.innerHeight * 0.6) {
+        headerEl.classList.add('is-solid');
+      } else {
+        headerEl.classList.remove('is-solid');
+      }
+    });
+  }
+})();
+</script>
+{{ end }}
