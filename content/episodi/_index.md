@@ -1,5 +1,5 @@
 ---
 title: "Puntate"
-_build:
+build:
   render: false
 ---

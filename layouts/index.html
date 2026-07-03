@@ -329,6 +329,13 @@ header.header #menu {
     gap: 40px;
     list-style: none;
     margin: 0; padding: 0;
+    /* il tema imposta solo overflow-x:auto: per spec CSS l'overflow-y
+       "visible" residuo diventa "auto", mostrando una micro-scrollbar
+       verticale nativa (le "frecce" accanto all'ultima voce) quando il
+       contenuto sborda anche di 1-2px. Manteniamo lo scroll orizzontale
+       (utile su mobile, vedi footer.html) ma disattiviamo quello verticale. */
+    overflow-x: auto;
+    overflow-y: hidden;
 }
 header.header #menu li { margin: 0; padding: 0; }
 header.header #menu a {
