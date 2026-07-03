@@ -49,7 +49,7 @@
             <div class="s-narrativa__inner">
                 <p class="lbl">Chi siamo</p>
                 <h3 class="s-narrativa__heading">Il primo tassello del Volo della Sera</h3>
-                <p class="s-narrativa__body">Il Volo della Sera è un vecchio desiderio di Fabio Volo: portare la magia della radio anche nella notte! Noi, ascoltatori appassionati, abbiamo deciso di posare il primo tassello di questo desiderio: uno spazio di raccolta, condivisione e aria sana per chiunque ami questo mondo. Per noi Il Volo del Mattino è molto più di una trasmissione radiofonica: un piccolo, immenso patrimonio creativo, fatto di genuinità, simpatia e spunti esistenziali. Questo sito è il nostro modo di dire «grazie» per tutto quello che abbiamo ricevuto: una piccola Wikipedia emotiva, un mosaico per ricomporre i frammenti sparsi in tanti anni di diretta, a cui tutti possono partecipare.</p>
+                <p class="s-narrativa__body">Il Volo della Sera è un vecchio desiderio di Fabio Volo: portare la magia della radio anche la sera! Noi, ascoltatori appassionati, abbiamo deciso di posare il primo tassello di questo desiderio: uno spazio di raccolta, condivisione e aria sana per chiunque ami questo mondo. Per noi Il Volo del Mattino è molto più di una trasmissione radiofonica: un piccolo, immenso patrimonio creativo, fatto di genuinità, simpatia e spunti esistenziali. Questo sito è il nostro modo di dire «grazie» per tutto quello che abbiamo ricevuto: una piccola Wikipedia emotiva, un mosaico per ricomporre i frammenti sparsi in tanti anni di diretta, a cui tutti possono partecipare.</p>
             </div>
             <div class="s-titolo__media">
                 <img class="s-titolo__img s-titolo__img--back" src="/immagini/puzzle.jpg" alt="">
@@ -78,7 +78,7 @@
         </div>
         <div class="s-epdelgiorno__card">
             <div class="s-epdelgiorno__media">
-                <img class="s-epdelgiorno__img" src="/immagini/il-volo-della-sera-COVER-1200x1500.jpg" alt="">
+                <img class="s-epdelgiorno__img" src="/immagini/il-volo-della-sera-COVER-1200x627.jpg" alt="">
             </div>
             <div class="s-epdelgiorno__body">
                 {{ if .Params.audio }}
@@ -1013,13 +1013,11 @@ header.header #menu .active { color: var(--cream) !important; }
     gap: 56px;
     align-items: center;
 }
-/* Cover estesa con ffmpeg (blur+scurimento del proprio sfondo, non
-   ritaglio) da 1200x627 a 1200x1500: il riquadro torna verticale 4/5
-   come in origine, ma senza letterboxing perche' la foto stessa ora
-   e' gia' in quel formato. */
+/* Riquadro adattato alle proporzioni reali della cover (1200x627):
+   niente letterboxing sopra/sotto. */
 .s-epdelgiorno__media {
     width: 100%;
-    aspect-ratio: 4 / 5;
+    aspect-ratio: 1200 / 627;
     overflow: hidden;
     background: var(--surf);
 }
@@ -1615,13 +1613,12 @@ header.header #menu .active { color: var(--cream) !important; }
     var versoVid        = document.getElementById('hero-video');
     var versoEndedEarly = false;
 
-    /* Se l'utente scrolla di sua iniziativa (rotellina/touch), rinuncia
-       all'autoscroll automatico a fine video: non ha senso riportarlo
-       giu' se ci e' gia' andato da solo. */
-    var userScrollIntent = false;
-    var markUserScroll = function() { userScrollIntent = true; };
-    window.addEventListener('wheel', markUserScroll, { passive: true, once: true });
-    window.addEventListener('touchmove', markUserScroll, { passive: true, once: true });
+    /* Se l'utente e' gia' sceso manualmente (scrollY oltre una piccola
+       soglia) quando il video finisce, rinuncia all'autoscroll: non ha
+       senso riportarlo giu' se ci e' gia' andato da solo. Controllare la
+       posizione reale (non un semplice evento 'wheel', che scatterebbe
+       anche per un piccolo tocco senza vero spostamento). */
+    var USER_SCROLL_THRESHOLD = 80;
 
     /* Loader video: sparisce a 'playing', con fallback a 5s se il video
        impiega troppo (rete lenta) cosi' non resta appeso a vita. */
@@ -1636,7 +1633,7 @@ header.header #menu .active { color: var(--cream) !important; }
         if (versoEndedEarly) return;
         versoEndedEarly = true;
         versoVid.pause();
-        if (userScrollIntent) return;
+        if (window.scrollY > USER_SCROLL_THRESHOLD) return;
         var sec = document.getElementById('content');
         if (sec) smoothScrollTo(sec.offsetTop, 2200);
     }

@@ -163,7 +163,14 @@ header.header #menu a:hover, header.header #menu .active { color: #f5efdf !impor
   color: var(--secondary); padding: 0.4rem 0; user-select: none;
 }
 .arc-filters-spoiler summary:hover { color: var(--primary); }
-.arc-tag-filters { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 0.8rem; }
+.arc-tag-filters { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; margin-top: 0.8rem; }
+.arc-tag-letter {
+  flex-basis: 100%;
+  font-family: var(--font-mono, monospace); font-size: 0.68rem; letter-spacing: 0.16em;
+  text-transform: uppercase; color: var(--gold, #8fb8d9);
+  margin-top: 0.9rem;
+}
+.arc-tag-letter:first-child { margin-top: 0; }
 .arc-tag-btn {
   border: 1px solid var(--border); background: transparent; color: var(--secondary);
   border-radius: 999px; padding: 0.35rem 1rem; cursor: pointer; font-size: 0.78rem; letter-spacing: 0.04em;
@@ -221,13 +228,11 @@ header.header #menu a:hover, header.header #menu .active { color: #f5efdf !impor
     smoothScrollTo(panel.offsetTop, 1800);
   };
 
-  /* Se l'utente scrolla di sua iniziativa, rinuncia all'autoscroll
-     automatico verso la ricerca: non ha senso riportarlo li' se ci e'
-     gia' andato da solo (vedi stessa logica in home). */
-  var userScrollIntent = false;
-  var markUserScroll = function() { userScrollIntent = true; };
-  window.addEventListener('wheel', markUserScroll, { passive: true, once: true });
-  window.addEventListener('touchmove', markUserScroll, { passive: true, once: true });
+  /* Se l'utente e' gia' sceso manualmente (scrollY oltre una piccola
+     soglia), rinuncia all'autoscroll verso la ricerca (vedi stessa
+     logica in home: controlla la posizione reale, non un evento
+     'wheel' che scatterebbe anche per un piccolo tocco senza scroll). */
+  var USER_SCROLL_THRESHOLD = 80;
 
   if (!vid) return;
   var lastTime = 0;
@@ -235,7 +240,7 @@ header.header #menu a:hover, header.header #menu .active { color: #f5efdf !impor
   vid.addEventListener('timeupdate', function () {
     if (!scrolled && vid.currentTime < lastTime - 0.5) {
       scrolled = true;
-      if (!userScrollIntent) window.arcScrollToSearch();
+      if (window.scrollY <= USER_SCROLL_THRESHOLD) window.arcScrollToSearch();
     }
     lastTime = vid.currentTime;
   });
@@ -302,7 +307,19 @@ header.header #menu a:hover, header.header #menu .active { color: #f5efdf !impor
     var all = new Set();
     data.forEach(function (item) { (item.temi || []).forEach(function (t) { all.add(t); }); });
     temiWrap.innerHTML = '';
-    Array.from(all).sort().forEach(function (tema) {
+    /* Temi raggruppati per lettera iniziale: sono moltissimi, senza un
+       indice alfabetico la lista diventa illeggibile. */
+    var sorted = Array.from(all).sort(function (a, b) { return a.localeCompare(b, 'it'); });
+    var lastLetter = null;
+    sorted.forEach(function (tema) {
+      var letter = tema.charAt(0).toUpperCase();
+      if (letter !== lastLetter) {
+        lastLetter = letter;
+        var lbl = document.createElement('span');
+        lbl.className = 'arc-tag-letter';
+        lbl.textContent = letter;
+        temiWrap.appendChild(lbl);
+      }
       var btn = document.createElement('button');
       btn.type = 'button';
       btn.className = 'arc-tag-btn';
