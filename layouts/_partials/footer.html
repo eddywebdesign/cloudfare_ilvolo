@@ -49,6 +49,16 @@
 }
 .footer-copy { font-size: 11px; color: var(--secondary); text-align: left; }
 .footer-center { display: inline-flex; align-items: center; justify-content: center; gap: 18px; font-size: 1rem; color: var(--cream, inherit); }
+.footer-center::after {
+    content: '';
+    display: inline-block;
+    width: 1px;
+    height: 16px;
+    background: rgba(245,239,223,0.25);
+    order: 1;
+}
+.footer-mail { order: 0; }
+.footer-telegram { order: 2; }
 .powered-by-line { font-size: 11px; color: var(--secondary); text-align: right; }
 .powered-by-line a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
 .powered-by-line a:hover { color: var(--primary); }

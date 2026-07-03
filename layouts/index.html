@@ -677,7 +677,7 @@ header.header #menu .active { color: var(--cream) !important; }
 .s-narrativa__inner {
     max-width: 660px;
     margin: 0 auto;
-    text-align: center;
+    text-align: left;
 }
 .s-titolo__grid {
     display: grid;
@@ -894,10 +894,10 @@ header.header #menu .active { color: var(--cream) !important; }
     font-weight: 300;
     color: rgba(245,239,223,0.72);
     line-height: 1.7;
-    margin: 0 auto;
+    margin: 0;
     max-width: 640px;
 }
-.s-titolo__bottom .s-narrativa__body { max-width: 720px; margin: 0 auto; text-align: left; }
+.s-titolo__bottom .s-narrativa__body { max-width: 720px; margin: 0 auto; }
 
 /* ══ CONTENUTO ══ */
 .site-content { background: var(--bg); }
@@ -1022,6 +1022,9 @@ header.header #menu .active { color: var(--cream) !important; }
     background: var(--surf);
 }
 .s-epdelgiorno__img { width: 100%; height: 100%; object-fit: cover; display: block; }
+@media(max-width: 860px) {
+    .s-epdelgiorno__card { grid-template-columns: 1fr; }
+}
 .s-epdelgiorno__head {
     display: flex;
     align-items: baseline;
