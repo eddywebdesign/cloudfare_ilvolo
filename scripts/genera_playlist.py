@@ -30,7 +30,7 @@ ROOT = Path(__file__).resolve().parent.parent
 EPISODI_DIR = ROOT / "content" / "episodi"
 PLAYLIST_DIR = ROOT / "data" / "playlist"
 URL_TEMPLATE = "https://www.deejay.it/programmi/il-volo-del-mattino/playlist/dettaglio/{data}/"
-REQUEST_PAUSE_SEC = 2  # non martellare deejay.it
+REQUEST_PAUSE_SEC = 3  # non martellare deejay.it
 
 SECTION_RE = re.compile(
     r'<section class="playlist-list list">(.*?)</section>', re.S
