@@ -133,7 +133,17 @@
                     <ul class="s-epdelgiorno__playlist-list">
                         {{ range $epPlaylist }}
                         <li class="s-epdelgiorno__playlist-item">
-                            {{ with .cover }}<img class="s-epdelgiorno__playlist-cover" src="{{ . }}" alt="" loading="lazy">{{ end }}
+                            {{ if .cover }}
+                            <img class="s-epdelgiorno__playlist-cover" src="{{ .cover }}" alt="" loading="lazy">
+                            {{ else }}
+                            <span class="s-epdelgiorno__playlist-cover s-epdelgiorno__playlist-cover--placeholder">
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                    <path d="M9 17V5.5L19 4v11.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <circle cx="6.5" cy="17.5" r="2.5" stroke="currentColor" stroke-width="1.4"/>
+                                    <circle cx="16.5" cy="15.5" r="2.5" stroke="currentColor" stroke-width="1.4"/>
+                                </svg>
+                            </span>
+                            {{ end }}
                             <div class="s-epdelgiorno__playlist-info">
                                 <span class="s-epdelgiorno__playlist-song">{{ .titolo }}</span>
                                 <span class="s-epdelgiorno__playlist-artist">{{ .artista }}</span>
@@ -1174,6 +1184,8 @@ header.header #menu .active { color: var(--cream) !important; }
 .s-epdelgiorno__playlist-item { display: flex; align-items: center; gap: 14px; padding: 10px 0; border-bottom: 1px solid var(--bord); }
 .s-epdelgiorno__playlist-item:last-child { border-bottom: none; }
 .s-epdelgiorno__playlist-cover { width: 40px; height: 40px; border-radius: 4px; object-fit: cover; flex-shrink: 0; background: var(--surf); }
+.s-epdelgiorno__playlist-cover--placeholder { display: inline-flex; align-items: center; justify-content: center; color: rgba(245,239,223,0.55); }
+.s-epdelgiorno__playlist-cover--placeholder svg { width: 16px; height: 16px; }
 .s-epdelgiorno__playlist-info { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
 .s-epdelgiorno__playlist-song { font-family: var(--font-serif); font-size: 0.9rem; color: var(--cream); }
 .s-epdelgiorno__playlist-artist { font-family: var(--font-mono); font-size: 0.65rem; letter-spacing: 0.06em; color: var(--muted); }
@@ -1297,6 +1309,8 @@ header.header #menu .active { color: var(--cream) !important; }
 .s-temi__slide-playlist { display: flex; flex-direction: column; }
 .s-temi__slide-playlist-item { display: flex; align-items: center; gap: 10px; padding: 8px 0; border-top: 1px solid var(--bord); }
 .s-temi__slide-playlist-cover { width: 28px; height: 28px; border-radius: 3px; object-fit: cover; flex-shrink: 0; background: var(--surf); }
+.s-temi__slide-playlist-cover--placeholder { display: inline-flex; align-items: center; justify-content: center; color: rgba(245,239,223,0.55); }
+.s-temi__slide-playlist-cover--placeholder svg { width: 12px; height: 12px; }
 .s-temi__slide-playlist-info { display: flex; flex-direction: column; gap: 1px; min-width: 0; }
 .s-temi__slide-playlist-song { font-family: var(--font-serif); font-size: 0.82rem; color: var(--cream); }
 .s-temi__slide-playlist-artist { font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.06em; color: var(--muted); }
@@ -1683,7 +1697,9 @@ header.header #menu .active { color: var(--cream) !important; }
             var pl = tlData[tlCurrent].playlist;
             tlPlaylistEl.innerHTML = (pl && pl.length)
                 ? pl.map(function(s) {
-                    var cover = s.cover ? '<img class="s-temi__slide-playlist-cover" src="' + s.cover + '" alt="" loading="lazy">' : '';
+                    var cover = s.cover
+                        ? '<img class="s-temi__slide-playlist-cover" src="' + s.cover + '" alt="" loading="lazy">'
+                        : '<span class="s-temi__slide-playlist-cover s-temi__slide-playlist-cover--placeholder"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M9 17V5.5L19 4v11.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="6.5" cy="17.5" r="2.5" stroke="currentColor" stroke-width="1.4"/><circle cx="16.5" cy="15.5" r="2.5" stroke="currentColor" stroke-width="1.4"/></svg></span>';
                     return '<div class="s-temi__slide-playlist-item">' + cover +
                         '<div class="s-temi__slide-playlist-info">' +
                         '<span class="s-temi__slide-playlist-song">' + s.titolo + '</span>' +

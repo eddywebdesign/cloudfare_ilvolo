@@ -84,7 +84,17 @@
     <ul class="ep-playlist-list">
       {{ range $playlist }}
       <li class="ep-playlist-item">
-        {{ with .cover }}<img class="ep-playlist-cover" src="{{ . }}" alt="" loading="lazy">{{ end }}
+        {{ if .cover }}
+        <img class="ep-playlist-cover" src="{{ .cover }}" alt="" loading="lazy">
+        {{ else }}
+        <span class="ep-playlist-cover ep-playlist-cover--placeholder">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <path d="M9 17V5.5L19 4v11.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+            <circle cx="6.5" cy="17.5" r="2.5" stroke="currentColor" stroke-width="1.4"/>
+            <circle cx="16.5" cy="15.5" r="2.5" stroke="currentColor" stroke-width="1.4"/>
+          </svg>
+        </span>
+        {{ end }}
         <div class="ep-playlist-info">
           <span class="ep-playlist-song">{{ .titolo }}</span>
           <span class="ep-playlist-artist">{{ .artista }}</span>
@@ -178,6 +188,8 @@ header.header #menu a:hover, header.header #menu .active { color: #f5efdf !impor
 .ep-playlist-item { display: flex; align-items: center; gap: 14px; padding: 0.7rem 0; border-bottom: 1px solid var(--border); }
 .ep-playlist-item:last-child { border-bottom: none; }
 .ep-playlist-cover { width: 44px; height: 44px; border-radius: 4px; object-fit: cover; flex-shrink: 0; background: var(--tertiary); }
+.ep-playlist-cover--placeholder { display: inline-flex; align-items: center; justify-content: center; color: var(--secondary); }
+.ep-playlist-cover--placeholder svg { width: 18px; height: 18px; }
 .ep-playlist-info { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
 .ep-playlist-song { font-family: var(--font-serif); font-size: 0.95rem; color: var(--primary); }
 .ep-playlist-artist { font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.06em; color: var(--secondary); }
