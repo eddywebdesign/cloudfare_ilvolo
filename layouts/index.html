@@ -171,8 +171,6 @@
             </div>
             <!-- Slide: ultimi episodi (descrizione, titolo, data) -->
             <div class="s-temi__slide-wrap">
-                <div class="s-temi__slide-tags" id="tl-tags"></div>
-                <p class="s-temi__slide-desc" id="tl-desc"></p>
                 <a class="s-temi__slide-link" id="tl-link" href="#">
                     <h3 class="s-temi__slide-title" id="tl-title"></h3>
                     <svg class="s-temi__slide-open" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
@@ -181,6 +179,9 @@
                     </svg>
                 </a>
                 <p class="s-temi__slide-date" id="tl-date"></p>
+                <p class="s-temi__slide-desc" id="tl-desc"></p>
+                <div class="s-temi__slide-tags" id="tl-tags"></div>
+                <div class="s-temi__slide-playlist" id="tl-playlist"></div>
             </div>
             <a href="/archivio/" class="s-temi__archive-link">Vai all'archivio completo →</a>
         </div>
@@ -1292,6 +1293,12 @@ header.header #menu .active { color: var(--cream) !important; }
     opacity: 1;
     transform: translateY(0);
 }
+.s-temi__slide-playlist { display: flex; flex-direction: column; }
+.s-temi__slide-playlist-item { display: flex; align-items: center; gap: 10px; padding: 8px 0; border-top: 1px solid var(--bord); }
+.s-temi__slide-playlist-cover { width: 28px; height: 28px; border-radius: 3px; object-fit: cover; flex-shrink: 0; background: var(--surf); }
+.s-temi__slide-playlist-info { display: flex; flex-direction: column; gap: 1px; min-width: 0; }
+.s-temi__slide-playlist-song { font-family: var(--font-serif); font-size: 0.82rem; color: var(--cream); }
+.s-temi__slide-playlist-artist { font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.06em; color: var(--muted); }
 .s-temi__archive-link {
     align-self: flex-start;
     margin-top: auto;
@@ -1626,12 +1633,15 @@ header.header #menu .active { color: var(--cream) !important; }
     /* ── Timeline ultimi episodi (s-temi left column) ── */
     {{ $tlArr := slice }}
     {{ range first 6 (where .Site.RegularPages "Section" "episodi") }}
+    {{ $tlPlaylist := index hugo.Data.playlist .File.ContentBaseName }}
+    {{ if not $tlPlaylist }}{{ $tlPlaylist = slice }}{{ end }}
     {{ $tlArr = $tlArr | append (dict
         "title" .Title
         "date"  (.Date.Format "02 Jan 2006")
         "desc"  (default "Un frammento da riscoprire: parole, momenti e storie ricomposte per strapparle all'oblio." .Params.resumen)
         "temi"  .Params.temi
         "url"   .RelPermalink
+        "playlist" $tlPlaylist
     ) }}
     {{ end }}
     var tlData = {{ $tlArr | jsonify | safeJS }};
@@ -1644,6 +1654,7 @@ header.header #menu .active { color: var(--cream) !important; }
     var tlTitle   = document.getElementById('tl-title');
     var tlDate    = document.getElementById('tl-date');
     var tlTags    = document.getElementById('tl-tags');
+    var tlPlaylistEl = document.getElementById('tl-playlist');
     var tlLink    = document.getElementById('tl-link');
     var tlPrev    = document.getElementById('tl-prev');
     var tlNext    = document.getElementById('tl-next');
@@ -1665,6 +1676,19 @@ header.header #menu .active { color: var(--cream) !important; }
             var temi = tlData[tlCurrent].temi;
             tlTags.innerHTML = (temi && temi.length)
                 ? temi.map(function(t) { return '<span class="s-tag">' + t + '</span>'; }).join('')
+                : '';
+        }
+        if (tlPlaylistEl) {
+            var pl = tlData[tlCurrent].playlist;
+            tlPlaylistEl.innerHTML = (pl && pl.length)
+                ? pl.map(function(s) {
+                    var cover = s.cover ? '<img class="s-temi__slide-playlist-cover" src="' + s.cover + '" alt="" loading="lazy">' : '';
+                    return '<div class="s-temi__slide-playlist-item">' + cover +
+                        '<div class="s-temi__slide-playlist-info">' +
+                        '<span class="s-temi__slide-playlist-song">' + s.titolo + '</span>' +
+                        '<span class="s-temi__slide-playlist-artist">' + s.artista + '</span>' +
+                        '</div></div>';
+                }).join('')
                 : '';
         }
         requestAnimationFrame(function() {
