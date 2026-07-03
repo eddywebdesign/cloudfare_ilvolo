@@ -41,7 +41,7 @@ theme = "PaperMod"
     weight = 2
   [[menu.main]]
     name = "Chi siamo"
-    url = "/about/"
+    url = "/#titolo"
     weight = 3
 
 [taxonomies]

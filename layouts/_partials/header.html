@@ -70,3 +70,18 @@
         </div>
     </nav>
 </header>
+<script>
+(function() {
+    /* Se la funzione esiste (siamo in home) usa lo smooth scroll gia'
+       previsto per #titolo; altrimenti lascia la navigazione normale
+       (che porta comunque in home con l'ancora #titolo). */
+    document.querySelectorAll('#menu a[href$="#titolo"]').forEach(function(a) {
+        a.addEventListener('click', function(e) {
+            if (typeof window.scrollToTitolo === 'function') {
+                e.preventDefault();
+                window.scrollToTitolo();
+            }
+        });
+    });
+})();
+</script>
