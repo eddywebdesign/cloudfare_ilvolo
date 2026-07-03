@@ -6,6 +6,12 @@
 })();
 </script>
 <article class="ep-single">
+  <a class="ep-back" href="/archivio/" onclick="event.preventDefault(); if (window.history.length > 1) { window.history.back(); } else { window.location.href = '/archivio/'; }" aria-label="Torna indietro">
+    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <path d="M15 19 8 12l7-7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    <span>Indietro</span>
+  </a>
   <header class="ep-header">
     <p class="lbl">Puntata</p>
     <h1 class="ep-title">{{ .Title }}</h1>
@@ -153,6 +159,9 @@ header.header #menu a:hover, header.header #menu .active { color: #f5efdf !impor
 #theme-toggle { color: rgba(245,239,223,0.5) !important; }
 
 .ep-single { max-width: 760px; margin: 0 auto; padding: 140px 24px 100px; }
+.ep-back { display: inline-flex; align-items: center; gap: 6px; font-family: var(--font-sans); font-size: 0.85rem; color: var(--secondary); text-decoration: none; margin-bottom: 2rem; transition: color 0.2s; }
+.ep-back svg { width: 16px; height: 16px; }
+.ep-back:hover { color: var(--gold); }
 .ep-header .lbl { font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold); margin-bottom: 0.8rem; }
 .ep-title { font-family: var(--font-serif); font-weight: 300; font-size: clamp(1.8rem, 4vw, 2.8rem); color: var(--primary); margin: 0 0 0.8rem; line-height: 1.15; }
 .ep-meta { font-family: var(--font-mono); font-size: 0.78rem; letter-spacing: 0.05em; color: var(--secondary); margin-bottom: 1.2rem; }
