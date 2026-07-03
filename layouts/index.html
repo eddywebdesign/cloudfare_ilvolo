@@ -49,7 +49,7 @@
             <div class="s-narrativa__inner">
                 <p class="lbl">Chi siamo</p>
                 <h3 class="s-narrativa__heading">Il primo tassello del Volo della Sera</h3>
-                <p class="s-narrativa__body">Il Volo della Sera è un vecchio sogno di Fabio Volo: portare la magia della radio anche nella notte. Noi, ascoltatori appassionati, abbiamo deciso di posare il primo tassello di questo sogno: uno spazio di raccolta, condivisione e aria sana per chiunque ami questo mondo. Per noi Il Volo del Mattino è molto più di una trasmissione radiofonica: un piccolo, immenso patrimonio creativo, fatto di genuinità, simpatia e spunti esistenziali. Questo sito è il nostro modo di dire «grazie» per tutto quello che abbiamo ricevuto: una piccola Wikipedia emotiva, un mosaico per ricomporre i frammenti sparsi in tanti anni di diretta, a cui tutti possono partecipare.</p>
+                <p class="s-narrativa__body">Il Volo della Sera è un vecchio desiderio di Fabio Volo: portare la magia della radio anche nella notte. Noi, ascoltatori appassionati, abbiamo deciso di posare il primo tassello di questo desiderio: uno spazio di raccolta, condivisione e aria sana per chiunque ami questo mondo. Per noi Il Volo del Mattino è molto più di una trasmissione radiofonica: un piccolo, immenso patrimonio creativo, fatto di genuinità, simpatia e spunti esistenziali. Questo sito è il nostro modo di dire «grazie» per tutto quello che abbiamo ricevuto: una piccola Wikipedia emotiva, un mosaico per ricomporre i frammenti sparsi in tanti anni di diretta, a cui tutti possono partecipare.</p>
             </div>
             <div class="s-titolo__media">
                 <img class="s-titolo__img s-titolo__img--back" src="/immagini/puzzle.jpg" alt="">
@@ -487,14 +487,14 @@ header.header #menu .active { color: var(--cream) !important; }
 }
 .hero-dante {
     position: absolute;
-    bottom: 14vh;
+    bottom: 24vh;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
     font-family: var(--font-serif);
     font-style: italic;
     font-size: clamp(0.8rem, 1.5vw, 1.1rem);
-    color: rgba(245,239,223,0.72);
+    color: rgba(245,239,223,0.92);
     letter-spacing: 0.03em;
     line-height: 1.7;
     white-space: nowrap;
@@ -872,7 +872,7 @@ header.header #menu .active { color: var(--cream) !important; }
 .s-titolo .lbl { font-size: 0.82rem; letter-spacing: 0.14em; }
 .s-narrativa__heading {
     font-family: var(--font-serif);
-    font-size: clamp(1.5rem, 2.6vw, 2rem);
+    font-size: clamp(1.6rem, 2.8vw, 2.15rem);
     font-weight: 400;
     font-style: italic;
     color: var(--cream);
@@ -889,12 +889,12 @@ header.header #menu .active { color: var(--cream) !important; }
 }
 .s-narrativa__body {
     font-family: var(--font-sans);
-    font-size: clamp(1rem, 1.25vw, 1.1rem);
+    font-size: clamp(1.1rem, 1.55vw, 1.3rem);
     font-weight: 300;
     color: rgba(245,239,223,0.72);
-    line-height: 1.75;
+    line-height: 1.7;
     margin: 0;
-    max-width: 620px;
+    max-width: 640px;
 }
 .s-titolo__bottom .s-narrativa__body { max-width: 720px; margin: 0 auto; }
 
@@ -1046,25 +1046,30 @@ header.header #menu .active { color: var(--cream) !important; }
     color: rgba(245,239,223,0.4);
     flex-shrink: 0;
 }
-/* Badge "in onda": icona onde radio con pulsazione sottile sopra il player */
+/* Badge "in onda": icona onde radio con pulsazione sottile sopra il player.
+   Pillola con bordo per renderlo un badge riconoscibile, non un dettaglio
+   perso accanto al player (era troppo piccolo/tenue per notarlo). */
 .s-epdelgiorno__onair {
-    display: flex;
+    display: inline-flex;
     align-items: center;
-    gap: 10px;
-    margin-bottom: 12px;
+    gap: 12px;
+    margin-bottom: 18px;
+    padding: 8px 18px 8px 12px;
+    border: 1px solid rgba(143,184,217,0.4);
+    border-radius: 999px;
     color: var(--gold);
 }
-.s-epdelgiorno__onair-icon { width: 26px; height: 17px; flex-shrink: 0; }
+.s-epdelgiorno__onair-icon { width: 32px; height: 20px; flex-shrink: 0; }
 .s-epdelgiorno__onair-label {
     font-family: var(--font-mono);
-    font-size: 0.62rem;
+    font-size: 0.7rem;
     letter-spacing: 0.2em;
     text-transform: uppercase;
 }
 .onair-wave { animation: onairPulse 2.6s ease-in-out infinite; }
 .onair-wave--2 { animation-delay: 0.4s; }
 @keyframes onairPulse {
-    0%, 100% { opacity: 0.35; }
+    0%, 100% { opacity: 0.55; }
     50%      { opacity: 1; }
 }
 .s-epdelgiorno__audio {
