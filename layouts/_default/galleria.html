@@ -16,8 +16,11 @@
 
 <section id="gal-mosaic" class="gal-mosaic">
   {{ range $foto }}
+  {{/* Dimensioni intrinseche a build-time: senza width/height le img misurano
+       0px, il lazy loading non filtra nulla e il layout salta a ogni foto. */}}
+  {{ $cfg := imageConfig (printf "static/immagini/varie/%s" .Name) }}
   <div class="gal-mosaic__item">
-    <img src="/immagini/varie/{{ .Name }}" loading="lazy" alt="">
+    <img src="/immagini/varie/{{ .Name }}" width="{{ $cfg.Width }}" height="{{ $cfg.Height }}" loading="lazy" decoding="async" alt="">
   </div>
   {{ end }}
 </section>
@@ -116,11 +119,27 @@ header.header #menu a:hover, header.header #menu .active { color: #f0e8d6 !impor
   filter: brightness(0.9) saturate(0.95);
   transition: filter 0.3s ease, transform 0.3s ease;
 }
+/* Fade-in progressivo: la tessera (sfondo #10131e) occupa gia' lo spazio
+   grazie a width/height, la foto compare sopra senza far saltare il layout.
+   Scoped su .gal-js cosi' senza JS le foto restano comunque visibili. */
+.gal-js .gal-mosaic__item img { opacity: 0; transition: opacity 0.6s ease, filter 0.3s ease, transform 0.3s ease; }
+.gal-js .gal-mosaic__item img.is-loaded { opacity: 1; }
 .gal-mosaic__item:hover img { filter: brightness(1) saturate(1.05); transform: scale(1.02); }
 </style>
 
 <script>
 (function() {
+  // Attiva il fade-in solo se il JS gira (fallback: foto sempre visibili).
+  document.documentElement.classList.add('gal-js');
+  document.querySelectorAll('.gal-mosaic__item img').forEach(function(img) {
+    if (img.complete && img.naturalWidth > 0) {
+      img.classList.add('is-loaded');
+    } else {
+      img.addEventListener('load', function() { img.classList.add('is-loaded'); }, { once: true });
+      img.addEventListener('error', function() { img.classList.add('is-loaded'); }, { once: true });
+    }
+  });
+
   var headerEl = document.querySelector('header.header');
   if (headerEl) {
     window.addEventListener('scroll', function() {
