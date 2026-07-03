@@ -23,7 +23,7 @@
 
     <!-- Titolo overlay (appare al 30% del video, con l'arrivo della sera) -->
     <div class="s-verso__title" id="verso-title">
-        <h1 class="hero-title-main">ilVolodellaSera</h1>
+        <h1 class="hero-title-main">il Volo della Sera</h1>
         <p class="hero-title__label hero-title__label--below">Radio Deejay · Il Volo del Mattino</p>
     </div>
 
@@ -78,6 +78,16 @@
             </div>
             <div class="s-epdelgiorno__body">
                 {{ if .Params.audio }}
+                <div class="s-epdelgiorno__onair">
+                    <svg class="s-epdelgiorno__onair-icon" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <circle cx="12" cy="8" r="2" fill="currentColor"/>
+                        <path class="onair-wave onair-wave--1" d="M8.5 4.5a5 5 0 0 0 0 7" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/>
+                        <path class="onair-wave onair-wave--1" d="M15.5 4.5a5 5 0 0 1 0 7" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/>
+                        <path class="onair-wave onair-wave--2" d="M6 2a8.5 8.5 0 0 0 0 12" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/>
+                        <path class="onair-wave onair-wave--2" d="M18 2a8.5 8.5 0 0 1 0 12" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/>
+                    </svg>
+                    <span class="s-epdelgiorno__onair-label">In onda &middot; puntata del giorno</span>
+                </div>
                 <audio class="s-epdelgiorno__audio" controls src="{{ .Params.audio }}"></audio>
                 {{ else }}
                 <div class="s-epdelgiorno__audio-placeholder">Player audio in arrivo</div>
@@ -1000,6 +1010,27 @@ header.header #menu .active { color: var(--cream) !important; }
     color: rgba(245,239,223,0.4);
     flex-shrink: 0;
 }
+/* Badge "in onda": icona onde radio con pulsazione sottile sopra il player */
+.s-epdelgiorno__onair {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 12px;
+    color: var(--gold);
+}
+.s-epdelgiorno__onair-icon { width: 26px; height: 17px; flex-shrink: 0; }
+.s-epdelgiorno__onair-label {
+    font-family: var(--font-mono);
+    font-size: 0.62rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+.onair-wave { animation: onairPulse 2.6s ease-in-out infinite; }
+.onair-wave--2 { animation-delay: 0.4s; }
+@keyframes onairPulse {
+    0%, 100% { opacity: 0.35; }
+    50%      { opacity: 1; }
+}
 .s-epdelgiorno__audio {
     width: 100%;
     margin-bottom: 28px;
@@ -1820,6 +1851,14 @@ header.header #menu .active { color: var(--cream) !important; }
             var fd = new FormData(ricordoForm);
             var messaggio = (fd.get('messaggio') || '').trim();
             if (!messaggio) return;
+            /* Il worker /api/ricordo esiste solo su Cloudflare: in locale
+               (hugo server) l'invio darebbe sempre 404 — meglio dirlo chiaro. */
+            if (location.hostname === 'localhost' || location.hostname === '127.0.0.1' || location.hostname.indexOf('192.168.') === 0) {
+                var msgEl0 = document.getElementById('ricordo-msg');
+                msgEl0.textContent = "L'invio funziona solo sul sito online, non in anteprima locale.";
+                msgEl0.classList.add('active');
+                return;
+            }
             var file = ricordoFileInput && ricordoFileInput.files[0];
             btnEl.disabled = true;
             msgEl.textContent = 'Invio in corso...';

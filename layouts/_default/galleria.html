@@ -1,5 +1,4 @@
 {{ define "main" }}
-{{ $foto := where (os.ReadDir "static/immagini/varie") "IsDir" false }}
 <div id="gal-hero" class="hero">
   <img class="gal-hero__img" src="/immagini/puzzle.jpg" alt="">
   <div class="hero-over"></div>
@@ -14,16 +13,46 @@
   </div>
 </div>
 
-<section id="gal-mosaic" class="gal-mosaic">
-  {{ range $foto }}
-  {{/* Dimensioni intrinseche a build-time: senza width/height le img misurano
-       0px, il lazy loading non filtra nulla e il layout salta a ogni foto. */}}
-  {{ $cfg := imageConfig (printf "static/immagini/varie/%s" .Name) }}
-  <div class="gal-mosaic__item">
-    <img src="/immagini/varie/{{ .Name }}" width="{{ $cfg.Width }}" height="{{ $cfg.Height }}" loading="lazy" decoding="async" alt="">
+{{/* Capitoli della galleria: ogni cartella di static/immagini/ e' un capitolo
+     con titolo e intro. Le foto aprono il lightbox (frecce, ESC, contatore). */}}
+{{ $capitoli := slice
+  (dict "id" "lettere" "dir" "lettere" "titolo" "Le lettere" "intro" "Pagine scritte e condivise con Fabio: parole degli ascoltatori che sono passate in radio.")
+  (dict "id" "momenti" "dir" "varie" "titolo" "I momenti" "intro" "Frammenti raccolti negli anni dalla community: immagini, citazioni, ricordi della trasmissione.")
+  (dict "id" "spunti" "dir" "esistenziali" "titolo" "Gli spunti" "intro" "Le immagini dei temi esistenziali che attraversano ogni puntata.")
+}}
+
+<div id="gal-mosaic">
+{{ range $cap := $capitoli }}
+{{ $files := where (os.ReadDir (printf "static/immagini/%s" $cap.dir)) "IsDir" false }}
+{{ if gt (len $files) 0 }}
+<section class="gal-cap" id="cap-{{ $cap.id }}">
+  <header class="gal-cap__head">
+    <h2 class="gal-cap__titolo">{{ $cap.titolo }}</h2>
+    <p class="gal-cap__intro">{{ $cap.intro }}</p>
+  </header>
+  <div class="gal-mosaic">
+    {{ range $files }}
+    {{/* Dimensioni intrinseche a build-time: senza width/height le img misurano
+         0px, il lazy loading non filtra nulla e il layout salta a ogni foto. */}}
+    {{ $cfg := imageConfig (printf "static/immagini/%s/%s" $cap.dir .Name) }}
+    <div class="gal-mosaic__item">
+      <img src="/immagini/{{ $cap.dir }}/{{ .Name }}" width="{{ $cfg.Width }}" height="{{ $cfg.Height }}" loading="lazy" decoding="async" alt="">
+    </div>
+    {{ end }}
   </div>
-  {{ end }}
 </section>
+{{ end }}
+{{ end }}
+</div>
+
+{{/* Lightbox: una sola istanza riusata per tutte le foto */}}
+<div class="gal-lightbox" id="gal-lightbox" aria-hidden="true">
+  <button type="button" class="gal-lightbox__close" id="gal-lb-close" aria-label="Chiudi">&times;</button>
+  <button type="button" class="gal-lightbox__nav gal-lightbox__nav--prev" id="gal-lb-prev" aria-label="Foto precedente">&#8249;</button>
+  <img class="gal-lightbox__img" id="gal-lb-img" src="" alt="">
+  <button type="button" class="gal-lightbox__nav gal-lightbox__nav--next" id="gal-lb-next" aria-label="Foto successiva">&#8250;</button>
+  <div class="gal-lightbox__counter" id="gal-lb-counter"></div>
+</div>
 
 <style>
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300;1,9..40,400&family=IBM+Plex+Mono:wght@400;500&display=swap');
@@ -125,6 +154,72 @@ header.header #menu a:hover, header.header #menu .active { color: #f5efdf !impor
 .gal-js .gal-mosaic__item img { opacity: 0; transition: opacity 0.6s ease, filter 0.3s ease, transform 0.3s ease; }
 .gal-js .gal-mosaic__item img.is-loaded { opacity: 1; }
 .gal-mosaic__item:hover img { filter: brightness(1) saturate(1.05); transform: scale(1.02); }
+.gal-mosaic__item { cursor: pointer; }
+
+/* ── Capitoli ── */
+#gal-mosaic { background: #0b0e17; }
+.gal-cap__head {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 72px 24px 36px;
+  text-align: center;
+}
+.gal-cap:first-child .gal-cap__head { padding-top: 48px; }
+.gal-cap__titolo {
+  font-family: var(--font-serif);
+  font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+  font-weight: 300;
+  color: #f5efdf;
+  margin: 0 0 14px;
+}
+.gal-cap__intro {
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.6;
+  color: #9aa1ad;
+  margin: 0;
+}
+
+/* ── Lightbox ── */
+.gal-lightbox {
+  position: fixed; inset: 0; z-index: 300;
+  display: none;
+  align-items: center; justify-content: center;
+  background: rgba(4,5,9,0.92);
+  backdrop-filter: blur(4px);
+}
+.gal-lightbox.open { display: flex; }
+.gal-lightbox__img {
+  max-width: calc(100vw - 120px);
+  max-height: calc(100vh - 80px);
+  object-fit: contain;
+  display: block;
+}
+.gal-lightbox__close, .gal-lightbox__nav {
+  position: absolute;
+  background: none; border: none; cursor: pointer;
+  color: rgba(245,239,223,0.65);
+  font-family: var(--font-sans);
+  line-height: 1;
+  transition: color 0.2s;
+  z-index: 2;
+  padding: 12px;
+}
+.gal-lightbox__close:hover, .gal-lightbox__nav:hover { color: #f5efdf; }
+.gal-lightbox__close { top: 18px; right: 24px; font-size: 2rem; }
+.gal-lightbox__nav { top: 50%; transform: translateY(-50%); font-size: 3rem; font-weight: 300; }
+.gal-lightbox__nav--prev { left: 12px; }
+.gal-lightbox__nav--next { right: 12px; }
+.gal-lightbox__counter {
+  position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%);
+  font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.18em;
+  color: rgba(245,239,223,0.55);
+}
+@media(max-width: 640px) {
+  .gal-lightbox__img { max-width: calc(100vw - 16px); max-height: calc(100vh - 110px); }
+  .gal-lightbox__nav { top: auto; bottom: 44px; transform: none; }
+}
 </style>
 
 <script>
@@ -150,6 +245,42 @@ header.header #menu a:hover, header.header #menu .active { color: #f5efdf !impor
       }
     });
   }
+
+  // Lightbox: click su una foto -> fullscreen, frecce/ESC per navigare/chiudere.
+  var lbImgs = Array.prototype.slice.call(document.querySelectorAll('.gal-mosaic__item img'));
+  var lb = document.getElementById('gal-lightbox');
+  var lbImg = document.getElementById('gal-lb-img');
+  var lbCounter = document.getElementById('gal-lb-counter');
+  var lbIndex = -1;
+
+  function lbShow(i) {
+    lbIndex = (i + lbImgs.length) % lbImgs.length;
+    lbImg.src = lbImgs[lbIndex].src;
+    lbCounter.textContent = (lbIndex + 1) + ' / ' + lbImgs.length;
+    lb.classList.add('open');
+    lb.setAttribute('aria-hidden', 'false');
+    document.body.style.overflow = 'hidden';
+  }
+  function lbClose() {
+    lb.classList.remove('open');
+    lb.setAttribute('aria-hidden', 'true');
+    lbImg.src = '';
+    document.body.style.overflow = '';
+  }
+
+  lbImgs.forEach(function(img, i) {
+    img.parentElement.addEventListener('click', function() { lbShow(i); });
+  });
+  document.getElementById('gal-lb-close').addEventListener('click', lbClose);
+  document.getElementById('gal-lb-prev').addEventListener('click', function(e) { e.stopPropagation(); lbShow(lbIndex - 1); });
+  document.getElementById('gal-lb-next').addEventListener('click', function(e) { e.stopPropagation(); lbShow(lbIndex + 1); });
+  lb.addEventListener('click', function(e) { if (e.target === lb) lbClose(); });
+  document.addEventListener('keydown', function(e) {
+    if (!lb.classList.contains('open')) return;
+    if (e.key === 'Escape') lbClose();
+    else if (e.key === 'ArrowLeft') lbShow(lbIndex - 1);
+    else if (e.key === 'ArrowRight') lbShow(lbIndex + 1);
+  });
 })();
 </script>
 {{ end }}
