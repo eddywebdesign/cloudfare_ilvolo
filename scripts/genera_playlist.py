@@ -60,6 +60,10 @@ def estrai_canzoni(html_page):
             continue
         img_m = IMG_RE.search(articolo)
         cover = html.unescape(img_m.group(1)).strip() if img_m else ""
+        if "covers_sorted" not in cover:
+            # url generica di deejay.it senza cover reale (es. slot pubblicita'),
+            # torna 404 anche dal loro stesso sito: meglio non mostrare l'img.
+            cover = ""
         canzoni.append({"titolo": titolo, "artista": autore, "cover": cover})
     return canzoni
 
