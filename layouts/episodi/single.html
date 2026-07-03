@@ -70,14 +70,25 @@
        pagina "playlist del giorno" di deejay.it (stesso pattern dati di
        data/frammenti/: file JSON compatto in data/playlist/, committato). */}}
   {{ $playlist := index hugo.Data.playlist .File.ContentBaseName }}
-  {{ if gt (len $playlist) 0 }}
+  {{ if $playlist }}
   <section class="ep-playlist">
-    <p class="lbl lbl--sm">Playlist di questa puntata</p>
+    <div class="ep-playlist-head">
+      <p class="ep-playlist-title">Playlist del {{ .Date | time.Format ":date_long" }}</p>
+      <a class="ep-playlist-open" href="https://www.deejay.it/programmi/il-volo-del-mattino/playlist/" target="_blank" rel="noopener" aria-label="Tutte le playlist su deejay.it" title="Tutte le playlist">
+        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <rect x="3.5" y="3.5" width="17" height="17" rx="2" stroke="currentColor" stroke-width="1.4"/>
+          <path d="M9.5 14.5 14.5 9.5M14.5 9.5H10.2M14.5 9.5V13.8" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </a>
+    </div>
     <ul class="ep-playlist-list">
       {{ range $playlist }}
       <li class="ep-playlist-item">
-        <span class="ep-playlist-song">{{ .titolo }}</span>
-        <span class="ep-playlist-artist">{{ .artista }}</span>
+        {{ with .cover }}<img class="ep-playlist-cover" src="{{ . }}" alt="" loading="lazy">{{ end }}
+        <div class="ep-playlist-info">
+          <span class="ep-playlist-song">{{ .titolo }}</span>
+          <span class="ep-playlist-artist">{{ .artista }}</span>
+        </div>
       </li>
       {{ end }}
     </ul>
@@ -157,10 +168,17 @@ header.header #menu a:hover, header.header #menu .active { color: #f5efdf !impor
 .ep-framm-testo { font-family: var(--font-sans); font-style: italic; font-size: 0.92rem; color: var(--content); line-height: 1.6; border-left: 2px solid var(--border); padding-left: 0.9rem; margin: 0 0 0.6rem; }
 .ep-framm-temi { display: flex; flex-wrap: wrap; gap: 6px; }
 .ep-playlist { margin-bottom: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border); }
-.ep-playlist-list { list-style: none; margin: 0.8rem 0 0; padding: 0; display: flex; flex-direction: column; }
-.ep-playlist-item { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; padding: 0.6rem 0; border-bottom: 1px solid var(--border); }
-.ep-playlist-item:first-child { border-top: 1px solid var(--border); }
+.ep-playlist-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 0.4rem; padding-bottom: 0.6rem; border-bottom: 1px solid var(--border); }
+.ep-playlist-title { font-family: var(--font-serif); font-size: 1rem; font-weight: 400; color: var(--primary); margin: 0; }
+.ep-playlist-open { display: inline-flex; align-items: center; justify-content: center; align-self: flex-start; width: 24px; height: 24px; flex-shrink: 0; color: var(--secondary); transition: color 0.2s; }
+.ep-playlist-open svg { width: 15px; height: 15px; }
+.ep-playlist-open:hover { color: var(--gold); }
+.ep-playlist-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; }
+.ep-playlist-item { display: flex; align-items: center; gap: 14px; padding: 0.7rem 0; border-bottom: 1px solid var(--border); }
+.ep-playlist-item:last-child { border-bottom: none; }
+.ep-playlist-cover { width: 44px; height: 44px; border-radius: 4px; object-fit: cover; flex-shrink: 0; background: var(--tertiary); }
+.ep-playlist-info { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
 .ep-playlist-song { font-family: var(--font-serif); font-size: 0.95rem; color: var(--primary); }
-.ep-playlist-artist { font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--secondary); flex-shrink: 0; }
+.ep-playlist-artist { font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.06em; color: var(--secondary); }
 </style>
 {{ end }}

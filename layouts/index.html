@@ -116,6 +116,33 @@
                     {{ range .Params.temi }}<span class="s-tag">{{ . }}</span>{{ end }}
                 </div>
                 {{ end }}
+
+                {{/* Playlist della puntata del giorno, se scaricata da scripts/genera_playlist.py */}}
+                {{ $epPlaylist := index hugo.Data.playlist .File.ContentBaseName }}
+                {{ if $epPlaylist }}
+                <div class="s-epdelgiorno__playlist">
+                    <div class="s-epdelgiorno__playlist-head">
+                        <p class="s-epdelgiorno__playlist-title">Playlist del {{ .Date | time.Format ":date_long" }}</p>
+                        <a class="s-epdelgiorno__playlist-open" href="https://www.deejay.it/programmi/il-volo-del-mattino/playlist/" target="_blank" rel="noopener" aria-label="Tutte le playlist su deejay.it" title="Tutte le playlist">
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                                <rect x="3.5" y="3.5" width="17" height="17" rx="2" stroke="currentColor" stroke-width="1.4"/>
+                                <path d="M9.5 14.5 14.5 9.5M14.5 9.5H10.2M14.5 9.5V13.8" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                    </div>
+                    <ul class="s-epdelgiorno__playlist-list">
+                        {{ range $epPlaylist }}
+                        <li class="s-epdelgiorno__playlist-item">
+                            {{ with .cover }}<img class="s-epdelgiorno__playlist-cover" src="{{ . }}" alt="" loading="lazy">{{ end }}
+                            <div class="s-epdelgiorno__playlist-info">
+                                <span class="s-epdelgiorno__playlist-song">{{ .titolo }}</span>
+                                <span class="s-epdelgiorno__playlist-artist">{{ .artista }}</span>
+                            </div>
+                        </li>
+                        {{ end }}
+                    </ul>
+                </div>
+                {{ end }}
             </div>
         </div>
     </section>
@@ -1135,6 +1162,19 @@ header.header #menu .active { color: var(--cream) !important; }
     margin-bottom: 22px;
 }
 .s-epdelgiorno__tags { display: flex; gap: 8px; flex-wrap: wrap; }
+.s-epdelgiorno__playlist { margin-top: 24px; padding-top: 20px; border-top: 1px solid var(--bord); }
+.s-epdelgiorno__playlist-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 8px; padding-bottom: 10px; border-bottom: 1px solid var(--bord); }
+.s-epdelgiorno__playlist-title { font-family: var(--font-serif); font-size: 0.95rem; font-weight: 300; color: var(--cream); margin: 0; }
+.s-epdelgiorno__playlist-open { display: inline-flex; align-items: center; justify-content: center; align-self: flex-start; width: 24px; height: 24px; flex-shrink: 0; color: rgba(245,239,223,0.55); transition: color 0.2s; }
+.s-epdelgiorno__playlist-open svg { width: 15px; height: 15px; }
+.s-epdelgiorno__playlist-open:hover { color: var(--gold); }
+.s-epdelgiorno__playlist-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; }
+.s-epdelgiorno__playlist-item { display: flex; align-items: center; gap: 14px; padding: 10px 0; border-bottom: 1px solid var(--bord); }
+.s-epdelgiorno__playlist-item:last-child { border-bottom: none; }
+.s-epdelgiorno__playlist-cover { width: 40px; height: 40px; border-radius: 4px; object-fit: cover; flex-shrink: 0; background: var(--surf); }
+.s-epdelgiorno__playlist-info { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.s-epdelgiorno__playlist-song { font-family: var(--font-serif); font-size: 0.9rem; color: var(--cream); }
+.s-epdelgiorno__playlist-artist { font-family: var(--font-mono); font-size: 0.65rem; letter-spacing: 0.06em; color: var(--muted); }
 
 /* ══ TEMI ESISTENZIALI ══ */
 .s-temi {

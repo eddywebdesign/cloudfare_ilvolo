@@ -32,13 +32,15 @@ PLAYLIST_DIR = ROOT / "data" / "playlist"
 URL_TEMPLATE = "https://www.deejay.it/programmi/il-volo-del-mattino/playlist/dettaglio/{data}/"
 REQUEST_PAUSE_SEC = 2  # non martellare deejay.it
 
+SECTION_RE = re.compile(
+    r'<section class="playlist-list list">(.*?)</section>', re.S
+)
+ARTICLE_RE = re.compile(r'<article>(.*?)</article>', re.S)
+IMG_RE = re.compile(r'<img src="([^"]*)"')
 SONG_RE = re.compile(
     r'<span class="title[^"]*\bsong\b[^"]*">(.*?)</span>\s*'
     r'<span class="title[^"]*\bauthor\b[^"]*">(.*?)</span>',
     re.S,
-)
-SECTION_RE = re.compile(
-    r'<section class="playlist-list list">(.*?)</section>', re.S
 )
 
 
@@ -48,11 +50,17 @@ def estrai_canzoni(html_page):
         return []
     sezione = m.group(1)
     canzoni = []
-    for titolo, autore in SONG_RE.findall(sezione):
-        titolo = html.unescape(titolo).strip()
-        autore = html.unescape(autore).strip()
-        if titolo and autore:
-            canzoni.append({"titolo": titolo, "artista": autore})
+    for articolo in ARTICLE_RE.findall(sezione):
+        song_m = SONG_RE.search(articolo)
+        if not song_m:
+            continue
+        titolo = html.unescape(song_m.group(1)).strip()
+        autore = html.unescape(song_m.group(2)).strip()
+        if not titolo or not autore:
+            continue
+        img_m = IMG_RE.search(articolo)
+        cover = html.unescape(img_m.group(1)).strip() if img_m else ""
+        canzoni.append({"titolo": titolo, "artista": autore, "cover": cover})
     return canzoni
 
 

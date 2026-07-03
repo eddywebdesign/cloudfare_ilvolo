@@ -12,6 +12,12 @@
       "runtimeExecutable": "hugo",
       "runtimeArgs": ["server", "--bind", "0.0.0.0", "--port", "1314"],
       "port": 1314
+    },
+    {
+      "name": "hugo-1315",
+      "runtimeExecutable": "hugo",
+      "runtimeArgs": ["server", "--bind", "0.0.0.0", "--port", "1315"],
+      "port": 1315
     }
   ]
 }
