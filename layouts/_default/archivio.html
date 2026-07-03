@@ -1,8 +1,11 @@
 {{ define "main" }}
 <div id="arc-hero" class="hero">
-  <video class="hero-video" autoplay muted loop playsinline>
+  <video class="hero-video" id="arc-hero-video" autoplay muted loop playsinline preload="auto">
     <source src="/video/tramonto_movement.mp4" type="video/mp4">
   </video>
+  <div class="hero-loader" id="arc-hero-loader" aria-hidden="true">
+    <span class="hero-loader__ring"></span>
+  </div>
   <div class="hero-over"></div>
   <div class="hero-scroll" onclick="window.arcScrollToSearch()">
     <svg class="hero-scroll__chevron" viewBox="0 0 24 14" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -77,6 +80,31 @@ header.header #menu a:hover, header.header #menu .active { color: #f5efdf !impor
     linear-gradient(to right, rgba(11,14,23,0.55) 0%, rgba(11,14,23,0) 8%, rgba(11,14,23,0) 92%, rgba(11,14,23,0.55) 100%);
   z-index: 1;
 }
+/* Loader elegante durante il caricamento del video: anelli pulsanti,
+   sparisce non appena il video parte (con fallback a tempo in JS). */
+.hero-loader {
+  position: absolute; inset: 0; z-index: 6;
+  display: flex; align-items: center; justify-content: center;
+  opacity: 1;
+  transition: opacity 0.7s ease;
+  pointer-events: none;
+}
+.hero-loader.hero-loader--hidden { opacity: 0; }
+.hero-loader__ring { position: relative; width: 40px; height: 40px; }
+.hero-loader__ring::before,
+.hero-loader__ring::after {
+  content: '';
+  position: absolute; inset: 0;
+  border-radius: 50%;
+  border: 1px solid var(--gold);
+  animation: heroLoaderPulse 1.8s ease-out infinite;
+}
+.hero-loader__ring::after { animation-delay: 0.9s; }
+@keyframes heroLoaderPulse {
+  0%   { transform: scale(0.4); opacity: 0.9; }
+  100% { transform: scale(1.6); opacity: 0; }
+}
+
 .hero-scroll { position: absolute; bottom: 36px; right: 36px; z-index: 4; cursor: pointer; animation: arcArrowBob 2.4s ease-in-out infinite; }
 .hero-scroll__chevron { width: 28px; height: 17px; display: block; }
 @keyframes arcArrowBob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(7px); } }
@@ -149,6 +177,15 @@ header.header #menu a:hover, header.header #menu .active { color: #f5efdf !impor
 (function () {
   var vid = document.querySelector('#arc-hero .hero-video');
   var panel = document.getElementById('arc-search-panel');
+
+  /* Loader video: sparisce a 'playing', con fallback a 5s se il video
+     impiega troppo (rete lenta) cosi' non resta appeso a vita. */
+  var arcHeroLoader = document.getElementById('arc-hero-loader');
+  if (arcHeroLoader && vid) {
+    var hideArcHeroLoader = function() { arcHeroLoader.classList.add('hero-loader--hidden'); };
+    vid.addEventListener('playing', hideArcHeroLoader, { once: true });
+    setTimeout(hideArcHeroLoader, 5000);
+  }
 
   function smoothScrollTo(targetY, duration) {
     var startY = window.scrollY;

@@ -5,9 +5,13 @@
 ════════════════════════════════════ -->
 <div id="hero" class="hero">
 
-    <video class="hero-video" id="hero-video" autoplay muted playsinline>
+    <video class="hero-video" id="hero-video" autoplay muted playsinline preload="auto">
         <source src="/video/verso_sera.mp4" type="video/mp4">
     </video>
+
+    <div class="hero-loader" id="hero-loader" aria-hidden="true">
+        <span class="hero-loader__ring"></span>
+    </div>
 
     <div class="hero-over" id="hero-over"></div>
 
@@ -43,8 +47,9 @@
     <section id="titolo" class="s-titolo">
         <div class="s-titolo__grid">
             <div class="s-narrativa__inner">
-                <p class="lbl">L'idea</p>
-                <p class="s-narrativa__text">Questo spazio nasce da un desiderio noto di Fabio Volo: dare vita ad un Volo della Sera. Siamo ascoltatori storici del programma e, consapevoli che il tempo fagocita ogni cosa, proviamo timidamente a renderlo reale. Per noi Il Volo del Mattino è molto più di una trasmissione radiofonica. È un piccolo e importante patrimonio creativo di genuinità e spunti esistenziali che meritano di essere salvati. Il nostro tentativo è preservarlo offrendo una piccola Wikipedia emotiva: un mosaico per ricomporre e riorganizzare i frammenti preziosi sparsi in molti anni di vita.</p>
+                <p class="lbl">Chi siamo</p>
+                <h3 class="s-narrativa__heading">Il primo tassello del Volo della Sera</h3>
+                <p class="s-narrativa__body">Il Volo della Sera è un vecchio sogno di Fabio Volo: portare la magia della radio anche nella notte. Noi, ascoltatori appassionati, abbiamo deciso di posare il primo tassello di questo sogno: uno spazio di raccolta, condivisione e aria sana per chiunque ami questo mondo. Per noi Il Volo del Mattino è molto più di una trasmissione radiofonica: un piccolo, immenso patrimonio creativo, fatto di genuinità, simpatia e spunti esistenziali. Questo sito è il nostro modo di dire «grazie» per tutto quello che abbiamo ricevuto: una piccola Wikipedia emotiva, un mosaico per ricomporre i frammenti sparsi in tanti anni di diretta, a cui tutti possono partecipare.</p>
             </div>
             <div class="s-titolo__media">
                 <img class="s-titolo__img s-titolo__img--back" src="/immagini/puzzle.jpg" alt="">
@@ -53,7 +58,8 @@
         </div>
         <div class="s-titolo__bottom">
             <p class="lbl">Cosa vogliamo</p>
-            <h3 class="s-narrativa__h3">Uno spazio per raccogliere parole, momenti e storie de il Volo del Mattino. Spunti esistenziali ricomposti per strapparli all'oblio.</h3>
+            <h3 class="s-narrativa__heading">Strappare i ricordi all'oblio</h3>
+            <p class="s-narrativa__body">Vogliamo creare un porto sicuro per raccogliere parole, momenti e storie de Il Volo del Mattino: ricomporre questi spunti esistenziali e salvarli dal tempo che passa, custodendoli insieme a te.</p>
         </div>
     </section>
 
@@ -385,6 +391,34 @@ header.header #menu .active { color: var(--cream) !important; }
 }
 /* Quando il video carica, nascondi le slide foto */
 .hero-video[src]:not([src=""]) ~ .hero-slides { display: none; }
+
+/* Loader elegante durante il caricamento del video: anelli pulsanti,
+   sparisce non appena il video parte (con fallback a tempo in JS). */
+.hero-loader {
+    position: absolute; inset: 0; z-index: 6;
+    display: flex; align-items: center; justify-content: center;
+    opacity: 1;
+    transition: opacity 0.7s ease;
+    pointer-events: none;
+}
+.hero-loader.hero-loader--hidden { opacity: 0; }
+.hero-loader__ring {
+    position: relative;
+    width: 40px; height: 40px;
+}
+.hero-loader__ring::before,
+.hero-loader__ring::after {
+    content: '';
+    position: absolute; inset: 0;
+    border-radius: 50%;
+    border: 1px solid var(--gold);
+    animation: heroLoaderPulse 1.8s ease-out infinite;
+}
+.hero-loader__ring::after { animation-delay: 0.9s; }
+@keyframes heroLoaderPulse {
+    0%   { transform: scale(0.4); opacity: 0.9; }
+    100% { transform: scale(1.6); opacity: 0; }
+}
 
 .hero-slides { position: absolute; inset: 0; }
 .hero-slide {
@@ -836,14 +870,14 @@ header.header #menu .active { color: var(--cream) !important; }
 }
 .s-titolo__bottom .lbl { text-align: center; }
 .s-titolo .lbl { font-size: 0.82rem; letter-spacing: 0.14em; }
-.s-narrativa__h3 {
+.s-narrativa__heading {
     font-family: var(--font-serif);
-    font-size: clamp(1.2rem, 1.95vw, 1.75rem);
+    font-size: clamp(1.5rem, 2.6vw, 2rem);
     font-weight: 400;
     font-style: italic;
-    color: var(--gold);
-    line-height: 1.5;
-    margin: 0;
+    color: var(--cream);
+    line-height: 1.35;
+    margin: 0 0 20px;
 }
 .s-narrativa__h4 {
     font-family: var(--font-serif);
@@ -853,14 +887,16 @@ header.header #menu .active { color: var(--cream) !important; }
     color: var(--gold);
     margin-bottom: 0.7rem;
 }
-.s-narrativa__text {
-    font-size: clamp(1.6rem, 2.6vw, 2.5rem);
-    font-weight: 600;
-    color: #ddd5c4;
-    line-height: 1.3;
-    letter-spacing: -0.01em;
+.s-narrativa__body {
+    font-family: var(--font-sans);
+    font-size: clamp(1rem, 1.25vw, 1.1rem);
+    font-weight: 300;
+    color: rgba(245,239,223,0.72);
+    line-height: 1.75;
     margin: 0;
+    max-width: 620px;
 }
+.s-titolo__bottom .s-narrativa__body { max-width: 720px; margin: 0 auto; }
 
 /* ══ CONTENUTO ══ */
 .site-content { background: var(--bg); }
@@ -1569,6 +1605,15 @@ header.header #menu .active { color: var(--cream) !important; }
     var versoDanteTimer = null;
     var versoVid        = document.getElementById('hero-video');
     var versoEndedEarly = false;
+
+    /* Loader video: sparisce a 'playing', con fallback a 5s se il video
+       impiega troppo (rete lenta) cosi' non resta appeso a vita. */
+    var heroLoaderEl = document.getElementById('hero-loader');
+    if (heroLoaderEl && versoVid) {
+        var hideHeroLoader = function() { heroLoaderEl.classList.add('hero-loader--hidden'); };
+        versoVid.addEventListener('playing', hideHeroLoader, { once: true });
+        setTimeout(hideHeroLoader, 5000);
+    }
 
     function versoFinish() {
         if (versoEndedEarly) return;
