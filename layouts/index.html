@@ -75,6 +75,12 @@
         <div class="s-epdelgiorno__head">
             <h2 class="s-epdelgiorno__title">{{ .Title }}</h2>
             <span class="s-epdelgiorno__date">{{ .Date.Format "02 Jan 2006" }}</span>
+            <a class="s-epdelgiorno__open" href="{{ .RelPermalink }}" aria-label="Apri la pagina completa della puntata" title="Apri la puntata">
+                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <rect x="3.5" y="3.5" width="17" height="17" rx="2" stroke="currentColor" stroke-width="1.4"/>
+                    <path d="M9.5 14.5 14.5 9.5M14.5 9.5H10.2M14.5 9.5V13.8" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </a>
         </div>
         <div class="s-epdelgiorno__card">
             <div class="s-epdelgiorno__media">
@@ -140,7 +146,9 @@
             <div class="s-temi__slide-wrap">
                 <div class="s-temi__slide-tags" id="tl-tags"></div>
                 <p class="s-temi__slide-desc" id="tl-desc"></p>
-                <h3 class="s-temi__slide-title" id="tl-title"></h3>
+                <a class="s-temi__slide-link" id="tl-link" href="#">
+                    <h3 class="s-temi__slide-title" id="tl-title"></h3>
+                </a>
                 <p class="s-temi__slide-date" id="tl-date"></p>
             </div>
             <a href="/archivio/" class="s-temi__archive-link">Vai all'archivio completo →</a>
@@ -1048,6 +1056,21 @@ header.header #menu .active { color: var(--cream) !important; }
     color: rgba(245,239,223,0.4);
     flex-shrink: 0;
 }
+/* Icona "apri la puntata": quadrato con freccia, porta alla pagina
+   completa dell'episodio (/episodi/<data>/). */
+.s-epdelgiorno__open {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    margin-left: auto;
+    flex-shrink: 0;
+    color: rgba(245,239,223,0.55);
+    transition: color 0.2s, border-color 0.2s;
+}
+.s-epdelgiorno__open svg { width: 20px; height: 20px; }
+.s-epdelgiorno__open:hover { color: var(--gold); }
 /* Badge "in onda": icona onde radio con pulsazione sottile sopra il player.
    Pillola con bordo per renderlo un badge riconoscibile, non un dettaglio
    perso accanto al player (era troppo piccolo/tenue per notarlo). */
@@ -1186,6 +1209,7 @@ header.header #menu .active { color: var(--cream) !important; }
     transform: translateY(10px);
     transition: opacity 0.4s ease, transform 0.4s ease;
 }
+.s-temi__slide-link { display: block; text-decoration: none; }
 .s-temi__slide-title {
     font-family: var(--font-serif);
     font-size: clamp(0.88rem, 1.2vw, 1.02rem);
@@ -1195,8 +1219,9 @@ header.header #menu .active { color: var(--cream) !important; }
     margin-bottom: 8px;
     opacity: 0;
     transform: translateY(10px);
-    transition: opacity 0.4s ease 0.06s, transform 0.4s ease 0.06s;
+    transition: opacity 0.4s ease 0.06s, transform 0.4s ease 0.06s, color 0.2s ease;
 }
+.s-temi__slide-link:hover .s-temi__slide-title { color: var(--gold); }
 .s-temi__slide-date {
     font-family: var(--font-mono);
     font-size: 0.6rem;
@@ -1552,6 +1577,7 @@ header.header #menu .active { color: var(--cream) !important; }
         "date"  (.Date.Format "02 Jan 2006")
         "desc"  (default "Un frammento da riscoprire: parole, momenti e storie ricomposte per strapparle all'oblio." .Params.resumen)
         "temi"  .Params.temi
+        "url"   .RelPermalink
     ) }}
     {{ end }}
     var tlData = {{ $tlArr | jsonify | safeJS }};
@@ -1564,6 +1590,7 @@ header.header #menu .active { color: var(--cream) !important; }
     var tlTitle   = document.getElementById('tl-title');
     var tlDate    = document.getElementById('tl-date');
     var tlTags    = document.getElementById('tl-tags');
+    var tlLink    = document.getElementById('tl-link');
     var tlPrev    = document.getElementById('tl-prev');
     var tlNext    = document.getElementById('tl-next');
 
@@ -1578,6 +1605,7 @@ header.header #menu .active { color: var(--cream) !important; }
         void (tlDesc && tlDesc.offsetWidth); /* reflow */
         if (tlDesc)  tlDesc.textContent  = tlData[tlCurrent].desc;
         if (tlTitle) tlTitle.textContent = tlData[tlCurrent].title;
+        if (tlLink)  tlLink.href = tlData[tlCurrent].url || '#';
         if (tlDate)  tlDate.textContent  = tlData[tlCurrent].date;
         if (tlTags) {
             var temi = tlData[tlCurrent].temi;
