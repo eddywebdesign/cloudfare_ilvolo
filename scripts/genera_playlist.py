@@ -45,6 +45,11 @@ SONG_RE = re.compile(
 
 
 def estrai_canzoni(html_page):
+    """Estrae titolo/artista/cover da una pagina 'playlist del giorno' di deejay.it.
+
+    Scarta le cover generiche (senza /covers_sorted/, es. slot pubblicita')
+    che risultano rotte (404) anche sul sito originale.
+    """
     m = SECTION_RE.search(html_page)
     if not m:
         return []
@@ -69,6 +74,12 @@ def estrai_canzoni(html_page):
 
 
 def genera(data_str, force=False):
+    """Scarica ed elabora la playlist di una singola data (YYYY-MM-DD).
+
+    Idempotente: salta se data/playlist/<data_str>.json esiste gia',
+    a meno di force=True. Non scrive nulla se la puntata non ha
+    playlist (pagina 200 ma senza canzoni, es. puntate pre-ottobre 2019).
+    """
     dest = PLAYLIST_DIR / f"{data_str}.json"
     if dest.exists() and not force:
         print(f"  {data_str}: gia' presente, salto")
@@ -91,6 +102,8 @@ def genera(data_str, force=False):
 
 
 def main():
+    """CLI: processa le date passate come argomento, o tutti gli episodi
+    in content/episodi/ se nessuna data e' specificata (vedi --help)."""
     parser = argparse.ArgumentParser()
     parser.add_argument("date", nargs="*", help="date (YYYY-MM-DD) da processare")
     parser.add_argument("--force", action="store_true", help="ri-scarica anche se gia' presente")
