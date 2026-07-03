@@ -53,7 +53,7 @@
             </div>
             <div class="s-titolo__media">
                 <img class="s-titolo__img s-titolo__img--back" src="/immagini/puzzle.jpg" alt="">
-                <img class="s-titolo__img s-titolo__img--front" src="/immagini/puzzle.jpg" alt="">
+                <img class="s-titolo__img s-titolo__img--front" src="/immagini/puzzle_2.jpg" alt="">
             </div>
         </div>
         <div class="s-titolo__bottom">
@@ -70,8 +70,6 @@
     {{ if gt (len $eps) 0 }}
     {{ $epDelGiorno := index $eps 0 }}
     {{ with $epDelGiorno }}
-    {{ $epImgFiles := where (os.ReadDir "static/immagini/varie") "IsDir" false }}
-    {{ $epImgName := (index $epImgFiles (mod now.YearDay (len $epImgFiles))).Name }}
     <section class="s-epdelgiorno">
         <p class="lbl">Episodio del giorno</p>
         <div class="s-epdelgiorno__head">
@@ -80,7 +78,7 @@
         </div>
         <div class="s-epdelgiorno__card">
             <div class="s-epdelgiorno__media">
-                <img class="s-epdelgiorno__img" src="/immagini/varie/{{ $epImgName }}" alt="">
+                <img class="s-epdelgiorno__img" src="/immagini/il-volo-della-sera-COVER-1200x627.jpg" alt="">
             </div>
             <div class="s-epdelgiorno__body">
                 {{ if .Params.audio }}
@@ -435,10 +433,12 @@ header.header #menu .active { color: var(--cream) !important; }
     background:
         linear-gradient(
             to bottom,
-            rgba(11,14,23,0.1) 0%,
-            rgba(11,14,23,0.0) 20%,
-            rgba(11,14,23,0.3) 65%,
-            rgba(11,14,23,0.94) 92%,
+            rgba(11,14,23,0.08) 0%,
+            rgba(11,14,23,0.0) 22%,
+            rgba(11,14,23,0.05) 55%,
+            rgba(11,14,23,0.22) 72%,
+            rgba(11,14,23,0.55) 84%,
+            rgba(11,14,23,0.88) 94%,
             rgba(11,14,23,1) 100%
         ),
         linear-gradient(
@@ -487,14 +487,15 @@ header.header #menu .active { color: var(--cream) !important; }
 }
 .hero-dante {
     position: absolute;
-    bottom: 24vh;
+    bottom: 18vh;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
     font-family: var(--font-serif);
     font-style: italic;
     font-size: clamp(0.8rem, 1.5vw, 1.1rem);
-    color: rgba(245,239,223,0.92);
+    color: #f5efdf;
+    text-shadow: 0 4px 30px rgba(0,0,0,0.55);
     letter-spacing: 0.03em;
     line-height: 1.7;
     white-space: nowrap;
@@ -896,7 +897,7 @@ header.header #menu .active { color: var(--cream) !important; }
     margin: 0;
     max-width: 640px;
 }
-.s-titolo__bottom .s-narrativa__body { max-width: 720px; margin: 0 auto; }
+.s-titolo__bottom .s-narrativa__body { max-width: 720px; margin: 0 auto; text-align: left; }
 
 /* ══ CONTENUTO ══ */
 .site-content { background: var(--bg); }
@@ -1054,7 +1055,7 @@ header.header #menu .active { color: var(--cream) !important; }
     align-items: center;
     gap: 12px;
     margin-bottom: 18px;
-    padding: 8px 18px 8px 12px;
+    padding: 11px 22px 11px 16px;
     border: 1px solid rgba(143,184,217,0.4);
     border-radius: 999px;
     color: var(--gold);
