@@ -1,4 +1,10 @@
 {{ define "main" }}
+<script>
+(function () {
+    if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+    window.scrollTo(0, 0);
+})();
+</script>
 
 <!-- ════════════════════════════════════
      HERO CAROUSEL
@@ -1641,10 +1647,6 @@ header.header #menu .active { color: var(--cream) !important; }
 ════════════════════════════════════ -->
 <script>
 (function() {
-    /* ── Scroll to top on reload ── */
-    if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
-    window.scrollTo(0, 0);
-
     /* ── Timeline ultimi episodi (s-temi left column) ── */
     {{ $tlArr := slice }}
     {{ range first 6 (where .Site.RegularPages "Section" "episodi") }}
