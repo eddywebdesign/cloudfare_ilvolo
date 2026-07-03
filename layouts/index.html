@@ -118,7 +118,7 @@
                 {{ end }}
 
                 {{/* Playlist della puntata del giorno, se scaricata da scripts/genera_playlist.py */}}
-                {{ $epPlaylist := index hugo.Data.playlist .File.ContentBaseName }}
+                {{ $epPlaylist := index .Site.Data.playlist .File.ContentBaseName }}
                 {{ if $epPlaylist }}
                 <div class="s-epdelgiorno__playlist">
                     <div class="s-epdelgiorno__playlist-head">
@@ -1634,7 +1634,7 @@ header.header #menu .active { color: var(--cream) !important; }
     /* ── Timeline ultimi episodi (s-temi left column) ── */
     {{ $tlArr := slice }}
     {{ range first 6 (where .Site.RegularPages "Section" "episodi") }}
-    {{ $tlPlaylist := index hugo.Data.playlist .File.ContentBaseName }}
+    {{ $tlPlaylist := index .Site.Data.playlist .File.ContentBaseName }}
     {{ if not $tlPlaylist }}{{ $tlPlaylist = slice }}{{ end }}
     {{ $tlArr = $tlArr | append (dict
         "title" .Title

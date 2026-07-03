@@ -39,7 +39,7 @@
        turni di parola della trascrizione WhisperX. Solo quelli con un
        titolo assegnato a mano vengono mostrati (i grezzi sono troppi
        e senza contesto per essere presentati cosi' come sono). */}}
-  {{ $tuttiFrammenti := index hugo.Data.frammenti .File.ContentBaseName }}
+  {{ $tuttiFrammenti := index .Site.Data.frammenti .File.ContentBaseName }}
   {{ $frammentiCurati := slice }}
   {{ if $tuttiFrammenti }}{{ $frammentiCurati = where $tuttiFrammenti "titolo" "ne" "" }}{{ end }}
   {{ if gt (len $frammentiCurati) 0 }}
@@ -69,7 +69,7 @@
   {{/* Playlist: generata da scripts/genera_playlist.py, scaricata dalla
        pagina "playlist del giorno" di deejay.it (stesso pattern dati di
        data/frammenti/: file JSON compatto in data/playlist/, committato). */}}
-  {{ $playlist := index hugo.Data.playlist .File.ContentBaseName }}
+  {{ $playlist := index .Site.Data.playlist .File.ContentBaseName }}
   {{ if $playlist }}
   <section class="ep-playlist">
     <div class="ep-playlist-head">
