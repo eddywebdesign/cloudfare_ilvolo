@@ -49,7 +49,7 @@
             <div class="s-narrativa__inner">
                 <p class="lbl">Chi siamo</p>
                 <h3 class="s-narrativa__heading">Il primo tassello del Volo della Sera</h3>
-                <p class="s-narrativa__body">Il Volo della Sera è un vecchio desiderio di Fabio Volo: portare la magia della radio anche nella notte. Noi, ascoltatori appassionati, abbiamo deciso di posare il primo tassello di questo desiderio: uno spazio di raccolta, condivisione e aria sana per chiunque ami questo mondo. Per noi Il Volo del Mattino è molto più di una trasmissione radiofonica: un piccolo, immenso patrimonio creativo, fatto di genuinità, simpatia e spunti esistenziali. Questo sito è il nostro modo di dire «grazie» per tutto quello che abbiamo ricevuto: una piccola Wikipedia emotiva, un mosaico per ricomporre i frammenti sparsi in tanti anni di diretta, a cui tutti possono partecipare.</p>
+                <p class="s-narrativa__body">Il Volo della Sera è un vecchio desiderio di Fabio Volo: portare la magia della radio anche nella notte! Noi, ascoltatori appassionati, abbiamo deciso di posare il primo tassello di questo desiderio: uno spazio di raccolta, condivisione e aria sana per chiunque ami questo mondo. Per noi Il Volo del Mattino è molto più di una trasmissione radiofonica: un piccolo, immenso patrimonio creativo, fatto di genuinità, simpatia e spunti esistenziali. Questo sito è il nostro modo di dire «grazie» per tutto quello che abbiamo ricevuto: una piccola Wikipedia emotiva, un mosaico per ricomporre i frammenti sparsi in tanti anni di diretta, a cui tutti possono partecipare.</p>
             </div>
             <div class="s-titolo__media">
                 <img class="s-titolo__img s-titolo__img--back" src="/immagini/puzzle.jpg" alt="">
@@ -1639,22 +1639,12 @@ header.header #menu .active { color: var(--cream) !important; }
         if (sec) smoothScrollTo(sec.offsetTop, 2200);
     }
 
-    /* Velocita' variabile: normale nella parte piu' luminosa (tramonto),
-       molto piu' veloce nel tratto finale che scurisce verso la notte.
-       Cosi' il titolo/testo restano piu' a lungo su sfondo chiaro, e il
-       video finisce comunque sempre in notte ma senza indugiarci sopra. */
-    var VERSO_PHASE_SPLIT = 7;   // secondi di contenuto (luce) a velocita' normale
-    var VERSO_RATE_LIGHT  = 1.0;
-    var VERSO_RATE_DARK   = 3.0;
-
     if (versoVid) {
-        versoVid.playbackRate = VERSO_RATE_LIGHT;
+        versoVid.playbackRate = 1.8;
         versoVid.addEventListener('timeupdate', function() {
             var dur = versoVid.duration || 0;
             if (!dur) return;
-            var targetRate = versoVid.currentTime < VERSO_PHASE_SPLIT ? VERSO_RATE_LIGHT : VERSO_RATE_DARK;
-            if (versoVid.playbackRate !== targetRate) versoVid.playbackRate = targetRate;
-            if (!versoTitleShown && versoVid.currentTime >= dur * 0.30) {
+            if (!versoTitleShown && versoVid.currentTime >= dur * 0.40) {
                 versoTitleShown = true;
                 if (versoTitleEl) versoTitleEl.classList.add('visible');
                 versoDanteTimer = setTimeout(function() {
@@ -1666,7 +1656,7 @@ header.header #menu .active { color: var(--cream) !important; }
             }
         });
         versoVid.addEventListener('seeked', function() {
-            if (versoVid.currentTime < versoVid.duration * 0.30) {
+            if (versoVid.currentTime < versoVid.duration * 0.40) {
                 versoTitleShown = false;
                 if (versoTitleEl) versoTitleEl.classList.remove('visible');
                 if (versoDanteEl) versoDanteEl.classList.remove('visible');

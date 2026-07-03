@@ -17,7 +17,8 @@
             {{ . | markdownify }}
         </span>
         {{- end }}
-        <a class="footer-telegram" href="https://t.me/ilvolodelmattino" target="_blank" rel="noopener" aria-label="Gruppo Telegram">
+        <a class="footer-telegram" href="https://t.me/ilvolodelmattino" target="_blank" rel="noopener" aria-label="Gruppo Telegram ilvolodelmattino">
+            <span class="footer-telegram__handle">ilvolodelmattino</span>
             <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24" fill="currentColor"><path d="M21.94 4.11a1.6 1.6 0 0 0-1.7-.22L2.7 10.7c-1.1.42-1.09 1.98.02 2.38l4.2 1.5 1.62 5.2c.24.77 1.22.99 1.77.4l2.47-2.63 4.3 3.16c.7.51 1.7.13 1.89-.72l3.4-14.6c.15-.66-.1-1.33-.43-1.28ZM9.6 14.9l-1.02-3.28 8.6-5.36c.2-.13.4.15.23.31l-7.4 6.86Z"/></svg>
         </a>
     </span>
@@ -94,8 +95,9 @@
 .footer-mail { display: inline-flex; align-items: center; gap: 6px; }
 .footer-mail a { text-decoration: none; }
 .footer-mail a:hover { text-decoration: underline; }
-.footer .footer-telegram { display: inline-flex; align-items: center; color: var(--gold, #8fb8d9); transition: opacity 0.2s; }
+.footer .footer-telegram { display: inline-flex; align-items: center; gap: 8px; color: var(--gold, #8fb8d9); transition: opacity 0.2s; }
 .footer .footer-telegram:hover { opacity: 0.75; }
+.footer .footer-telegram__handle { font-size: 0.85rem; }
 </style>
 
 <script>

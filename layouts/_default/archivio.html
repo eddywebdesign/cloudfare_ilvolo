@@ -22,6 +22,7 @@
 
 <section id="arc-search-panel" class="arc-search-panel" hidden>
   <input id="arc-q" type="search" placeholder="Cerca per titolo, tema, autore..." autocomplete="off">
+  <nav id="arc-years" class="arc-year-filters" aria-label="Filtra per anno"></nav>
   <details class="arc-filters-spoiler">
     <summary>Filtra per tema</summary>
     <div id="arc-temi" class="arc-tag-filters"></div>
@@ -142,6 +143,20 @@ header.header #menu a:hover, header.header #menu .active { color: #f5efdf !impor
   background: var(--entry); color: var(--primary); margin-bottom: 1.2rem;
 }
 #arc-q::placeholder { color: var(--secondary); }
+.arc-year-filters {
+  display: flex; flex-wrap: wrap; gap: 10px;
+  margin-bottom: 1.4rem;
+}
+.arc-year-btn {
+  font-family: var(--font-mono); font-size: 0.7rem; letter-spacing: 0.08em; text-transform: uppercase;
+  color: rgba(245,239,223,0.6); background: transparent;
+  border: 1px solid rgba(245,239,223,0.18); border-radius: 999px;
+  padding: 9px 18px; cursor: pointer; transition: color 0.2s, border-color 0.2s, background 0.2s;
+}
+.arc-year-btn__count { color: rgba(245,239,223,0.35); margin-left: 4px; }
+.arc-year-btn:hover { color: #f5efdf; border-color: rgba(245,239,223,0.4); }
+.arc-year-btn.is-active { color: #0b0e17; background: var(--gold, #8fb8d9); border-color: var(--gold, #8fb8d9); }
+.arc-year-btn.is-active .arc-year-btn__count { color: rgba(11,14,23,0.55); }
 .arc-filters-spoiler { margin-bottom: 2rem; }
 .arc-filters-spoiler summary {
   cursor: pointer; font-family: var(--font-sans, sans-serif); font-size: 0.85rem;
@@ -206,13 +221,21 @@ header.header #menu a:hover, header.header #menu .active { color: #f5efdf !impor
     smoothScrollTo(panel.offsetTop, 1800);
   };
 
+  /* Se l'utente scrolla di sua iniziativa, rinuncia all'autoscroll
+     automatico verso la ricerca: non ha senso riportarlo li' se ci e'
+     gia' andato da solo (vedi stessa logica in home). */
+  var userScrollIntent = false;
+  var markUserScroll = function() { userScrollIntent = true; };
+  window.addEventListener('wheel', markUserScroll, { passive: true, once: true });
+  window.addEventListener('touchmove', markUserScroll, { passive: true, once: true });
+
   if (!vid) return;
   var lastTime = 0;
   var scrolled = false;
   vid.addEventListener('timeupdate', function () {
     if (!scrolled && vid.currentTime < lastTime - 0.5) {
       scrolled = true;
-      window.arcScrollToSearch();
+      if (!userScrollIntent) window.arcScrollToSearch();
     }
     lastTime = vid.currentTime;
   });
@@ -221,10 +244,12 @@ header.header #menu a:hover, header.header #menu .active { color: #f5efdf !impor
   var data = [];
   var q = document.getElementById('arc-q');
   var temiWrap = document.getElementById('arc-temi');
+  var yearsWrap = document.getElementById('arc-years');
   var results = document.getElementById('arc-results');
   var toggle = document.getElementById('arc-search-toggle');
   var panel = document.getElementById('arc-search-panel');
   var activeTemi = new Set();
+  var activeYear = 'tutti';
 
   toggle.addEventListener('click', function () {
     panel.hidden = !panel.hidden;
@@ -235,9 +260,43 @@ header.header #menu a:hover, header.header #menu .active { color: #f5efdf !impor
     .then(function (r) { return r.json(); })
     .then(function (json) {
       data = json;
+      renderYearFilters();
       renderTemiFilters();
       render();
     });
+
+  function renderYearFilters() {
+    var counts = {};
+    data.forEach(function (item) {
+      var y = (item.date || '').slice(0, 4);
+      if (!y) return;
+      counts[y] = (counts[y] || 0) + 1;
+    });
+    var years = Object.keys(counts).sort(function (a, b) { return b - a; });
+    yearsWrap.innerHTML = '';
+
+    var tuttiBtn = document.createElement('button');
+    tuttiBtn.type = 'button';
+    tuttiBtn.className = 'arc-year-btn is-active';
+    tuttiBtn.innerHTML = 'Tutti <span class="arc-year-btn__count">' + data.length + '</span>';
+    tuttiBtn.addEventListener('click', function () { setActiveYear('tutti', tuttiBtn); });
+    yearsWrap.appendChild(tuttiBtn);
+
+    years.forEach(function (y) {
+      var btn = document.createElement('button');
+      btn.type = 'button';
+      btn.className = 'arc-year-btn';
+      btn.innerHTML = y + ' <span class="arc-year-btn__count">' + counts[y] + '</span>';
+      btn.addEventListener('click', function () { setActiveYear(y, btn); });
+      yearsWrap.appendChild(btn);
+    });
+  }
+
+  function setActiveYear(year, btn) {
+    activeYear = year;
+    yearsWrap.querySelectorAll('.arc-year-btn').forEach(function (b) { b.classList.toggle('is-active', b === btn); });
+    render();
+  }
 
   function renderTemiFilters() {
     var all = new Set();
@@ -258,6 +317,7 @@ header.header #menu a:hover, header.header #menu .active { color: #f5efdf !impor
   }
 
   function matches(item, query) {
+    if (activeYear !== 'tutti' && (item.date || '').slice(0, 4) !== activeYear) return false;
     if (activeTemi.size > 0) {
       var itemTemi = item.temi || [];
       for (var t of activeTemi) { if (itemTemi.indexOf(t) === -1) return false; }
