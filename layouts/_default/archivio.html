@@ -163,14 +163,19 @@ header.header #menu a:hover, header.header #menu .active { color: #f5efdf !impor
   color: var(--secondary); padding: 0.4rem 0; user-select: none;
 }
 .arc-filters-spoiler summary:hover { color: var(--primary); }
-.arc-tag-filters { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem; margin-top: 0.8rem; }
-.arc-tag-letter {
-  flex-basis: 100%;
-  font-family: var(--font-mono, monospace); font-size: 0.68rem; letter-spacing: 0.16em;
+.arc-tag-filters { display: flex; flex-direction: column; gap: 0.4rem; margin-top: 0.8rem; }
+.arc-tag-group { border: 1px solid var(--border); border-radius: 8px; padding: 0 0.9rem; }
+.arc-tag-group__summary {
+  cursor: pointer; list-style: none; user-select: none;
+  display: flex; align-items: center; gap: 8px;
+  font-family: var(--font-mono, monospace); font-size: 0.72rem; letter-spacing: 0.14em;
   text-transform: uppercase; color: var(--gold, #8fb8d9);
-  margin-top: 0.9rem;
+  padding: 0.7rem 0;
 }
-.arc-tag-letter:first-child { margin-top: 0; }
+.arc-tag-group__summary::-webkit-details-marker { display: none; }
+.arc-tag-group__count { color: var(--secondary); font-size: 0.68rem; letter-spacing: 0.05em; }
+.arc-tag-group[open] .arc-tag-group__summary { border-bottom: 1px solid var(--border); }
+.arc-tag-group__body { display: flex; flex-wrap: wrap; gap: 0.5rem; padding: 0.8rem 0; }
 .arc-tag-btn {
   border: 1px solid var(--border); background: transparent; color: var(--secondary);
   border-radius: 999px; padding: 0.35rem 1rem; cursor: pointer; font-size: 0.78rem; letter-spacing: 0.04em;
@@ -307,29 +312,39 @@ header.header #menu a:hover, header.header #menu .active { color: #f5efdf !impor
     var all = new Set();
     data.forEach(function (item) { (item.temi || []).forEach(function (t) { all.add(t); }); });
     temiWrap.innerHTML = '';
-    /* Temi raggruppati per lettera iniziale: sono moltissimi, senza un
-       indice alfabetico la lista diventa illeggibile. */
+    /* Temi raggruppati per lettera iniziale in pannelli apribili
+       (sono moltissimi: un unico blocco aperto sarebbe illeggibile). */
     var sorted = Array.from(all).sort(function (a, b) { return a.localeCompare(b, 'it'); });
-    var lastLetter = null;
+    var groups = {};
+    var letterOrder = [];
     sorted.forEach(function (tema) {
       var letter = tema.charAt(0).toUpperCase();
-      if (letter !== lastLetter) {
-        lastLetter = letter;
-        var lbl = document.createElement('span');
-        lbl.className = 'arc-tag-letter';
-        lbl.textContent = letter;
-        temiWrap.appendChild(lbl);
-      }
-      var btn = document.createElement('button');
-      btn.type = 'button';
-      btn.className = 'arc-tag-btn';
-      btn.textContent = tema;
-      btn.addEventListener('click', function () {
-        if (activeTemi.has(tema)) { activeTemi.delete(tema); btn.classList.remove('active'); }
-        else { activeTemi.add(tema); btn.classList.add('active'); }
-        render();
+      if (!groups[letter]) { groups[letter] = []; letterOrder.push(letter); }
+      groups[letter].push(tema);
+    });
+    letterOrder.forEach(function (letter) {
+      var group = document.createElement('details');
+      group.className = 'arc-tag-group';
+      var summary = document.createElement('summary');
+      summary.className = 'arc-tag-group__summary';
+      summary.innerHTML = letter + ' <span class="arc-tag-group__count">' + groups[letter].length + '</span>';
+      group.appendChild(summary);
+      var body = document.createElement('div');
+      body.className = 'arc-tag-group__body';
+      groups[letter].forEach(function (tema) {
+        var btn = document.createElement('button');
+        btn.type = 'button';
+        btn.className = 'arc-tag-btn';
+        btn.textContent = tema;
+        btn.addEventListener('click', function () {
+          if (activeTemi.has(tema)) { activeTemi.delete(tema); btn.classList.remove('active'); }
+          else { activeTemi.add(tema); btn.classList.add('active'); }
+          render();
+        });
+        body.appendChild(btn);
       });
-      temiWrap.appendChild(btn);
+      group.appendChild(body);
+      temiWrap.appendChild(group);
     });
   }
 
