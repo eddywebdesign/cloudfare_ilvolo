@@ -1,0 +1,17 @@
+{{- $items := where .Site.RegularPages "Section" "episodi" -}}
+[
+{{- $first := true -}}
+{{- range $items -}}
+  {{- $pl := index .Site.Data.playlist .File.ContentBaseName -}}
+  {{- if $pl -}}
+    {{- if not $first }},{{ end -}}
+    {{- $first = false -}}
+    {
+      "date": {{ .Date.Format "2006-01-02" | jsonify }},
+      "url": {{ .RelPermalink | jsonify }},
+      "title": {{ .Title | jsonify }},
+      "playlist": {{ $pl | jsonify }}
+    }
+  {{- end -}}
+{{- end -}}
+]
