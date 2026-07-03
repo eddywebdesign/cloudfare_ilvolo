@@ -644,20 +644,20 @@ header.header #menu .active { color: var(--cream) !important; }
     line-height: var(--lw-size);
 }
 
-/* Foto: tessera a larghezza fissa (rispetto all'altezza riga). object-fit:
-   contain per non tagliare mai i bordi — molte foto del pool "varie" sono
-   frasi/citazioni e vanno lette per intero, mai ritagliate. */
-.s-letture__row--top .s-letture__photo    { width: var(--lw-size); }
-.s-letture__row--bottom .s-letture__photo { width: calc(var(--lw-size) * 2); }
+/* Foto: altezza fissa (quella della riga), larghezza libera secondo le
+   proporzioni reali di ciascuna immagine — mai ritagliare testo/citazioni.
+   Prima la larghezza era fissa e "contain" lasciava bande vuote diverse per
+   ogni foto (sembravano tessere di altezza irregolare); ora l'immagine
+   riempie sempre tutta l'altezza della riga senza letterbox. */
 .s-letture__photo {
     flex-shrink: 0;
+    height: 100%;
     overflow: hidden;
     background: var(--surf);
 }
 .s-letture__photo img {
     height: 100%;
-    width: 100%;
-    object-fit: contain;
+    width: auto;
     display: block;
     filter: brightness(0.8) saturate(0.7);
     transition: filter 0.5s ease;
