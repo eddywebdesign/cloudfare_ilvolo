@@ -48,7 +48,17 @@
     padding-right: 32px;
 }
 .footer-copy { font-size: 11px; color: var(--secondary); text-align: left; }
-.footer-center { display: inline-flex; align-items: center; justify-content: center; gap: 18px; font-size: 1rem; color: var(--cream, inherit); }
+/* Grid a 3 colonne (1fr linea 1fr) cosi' la linea verticale e' sempre
+   l'asse centrale esatto: mail e icona si dispongono simmetriche
+   attorno ad essa, indipendentemente dalla larghezza del testo mail. */
+.footer-center {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    gap: 18px;
+    font-size: 1rem;
+    color: var(--cream, inherit);
+}
 .footer-center::after {
     content: '';
     display: inline-block;
@@ -57,8 +67,8 @@
     background: rgba(245,239,223,0.25);
     order: 1;
 }
-.footer-mail { order: 0; }
-.footer-telegram { order: 2; }
+.footer-mail { order: 0; justify-self: end; }
+.footer-telegram { order: 2; justify-self: start; }
 .powered-by-line { font-size: 11px; color: var(--secondary); text-align: right; }
 .powered-by-line a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
 .powered-by-line a:hover { color: var(--primary); }

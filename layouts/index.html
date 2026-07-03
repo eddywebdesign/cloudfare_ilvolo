@@ -1613,6 +1613,14 @@ header.header #menu .active { color: var(--cream) !important; }
     var versoVid        = document.getElementById('hero-video');
     var versoEndedEarly = false;
 
+    /* Se l'utente scrolla di sua iniziativa (rotellina/touch), rinuncia
+       all'autoscroll automatico a fine video: non ha senso riportarlo
+       giu' se ci e' gia' andato da solo. */
+    var userScrollIntent = false;
+    var markUserScroll = function() { userScrollIntent = true; };
+    window.addEventListener('wheel', markUserScroll, { passive: true, once: true });
+    window.addEventListener('touchmove', markUserScroll, { passive: true, once: true });
+
     /* Loader video: sparisce a 'playing', con fallback a 5s se il video
        impiega troppo (rete lenta) cosi' non resta appeso a vita. */
     var heroLoaderEl = document.getElementById('hero-loader');
@@ -1626,6 +1634,7 @@ header.header #menu .active { color: var(--cream) !important; }
         if (versoEndedEarly) return;
         versoEndedEarly = true;
         versoVid.pause();
+        if (userScrollIntent) return;
         var sec = document.getElementById('content');
         if (sec) smoothScrollTo(sec.offsetTop, 2200);
     }
