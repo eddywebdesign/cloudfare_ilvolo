@@ -41,21 +41,61 @@
 </article>
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,300;1,9..40,400&family=IBM+Plex+Mono:wght@400;500&display=swap');
+
+/* Riallinea la pagina puntata alla palette/tipografia del resto del
+   sito: senza queste variabili la pagina usava i colori/font generici
+   di PaperMod (grigio scuro, Georgia) invece della palette custom. */
+/* :root[data-theme="dark"] del tema ha specificita' piu' alta di un
+   semplice :root, quindi senza questo stesso selettore le variabili
+   sotto verrebbero ignorate a favore della palette grigia di default. */
+:root, :root[data-theme="dark"] {
+  --font-serif: 'DM Serif Display', Georgia, serif;
+  --font-sans:  'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono:  'IBM Plex Mono', monospace;
+  --gold: #8fb8d9;
+  --theme: #0b0e17;
+  --entry: #161b29;
+  --primary: #f5efdf;
+  --secondary: #9aa1ad;
+  --tertiary: #232838;
+  --content: rgba(245,239,223,0.78);
+  --border: rgba(245,239,223,0.14);
+  --code-bg: #161b29;
+}
+body { font-family: var(--font-sans); }
+
+/* Header: stessa palette/font delle altre pagine, ma statico in cima
+   (qui non c'e' un hero sotto da far trasparire). */
+header.header {
+  position: fixed !important; top: 0; left: 0; right: 0; z-index: 100; width: 100vw;
+  background: var(--theme) !important;
+  border-bottom: 1px solid var(--border);
+}
+header.header #menu a {
+  color: rgba(245,239,223,0.75) !important; font-family: var(--font-sans) !important;
+  font-size: 1rem !important; font-weight: 400 !important; letter-spacing: -0.01em !important;
+  text-decoration: none !important;
+}
+header.header #menu a:hover, header.header #menu .active { color: #f5efdf !important; }
+.logo, .logo a, .logo span { color: #f5efdf !important; font-style: italic; font-weight: 300; text-decoration: none !important; }
+#theme-toggle { color: rgba(245,239,223,0.5) !important; }
+
 .ep-single { max-width: 760px; margin: 0 auto; padding: 140px 24px 100px; }
-.ep-header .lbl { font-family: var(--font-mono, monospace); font-size: 0.68rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold, #8fb8d9); margin-bottom: 0.8rem; }
-.ep-title { font-family: var(--font-serif, Georgia, serif); font-weight: 300; font-size: clamp(1.8rem, 4vw, 2.8rem); color: var(--primary); margin: 0 0 0.8rem; line-height: 1.15; }
-.ep-meta { font-family: var(--font-mono, monospace); font-size: 0.78rem; letter-spacing: 0.05em; color: var(--secondary); margin-bottom: 1.2rem; }
-.ep-resumen { font-size: 1.05rem; color: var(--content); line-height: 1.7; margin-bottom: 2rem; }
+.ep-header .lbl { font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.18em; text-transform: uppercase; color: var(--gold); margin-bottom: 0.8rem; }
+.ep-title { font-family: var(--font-serif); font-weight: 300; font-size: clamp(1.8rem, 4vw, 2.8rem); color: var(--primary); margin: 0 0 0.8rem; line-height: 1.15; }
+.ep-meta { font-family: var(--font-mono); font-size: 0.78rem; letter-spacing: 0.05em; color: var(--secondary); margin-bottom: 1.2rem; }
+.ep-resumen { font-family: var(--font-sans); font-size: 1.05rem; color: var(--content); line-height: 1.7; margin-bottom: 2rem; }
 .ep-audio { margin-bottom: 2rem; }
-.ep-audio audio { width: 100%; border-radius: 4px; }
+.ep-audio audio { width: 100%; border-radius: 4px; filter: invert(0.86) grayscale(1) contrast(0.9); }
 .ep-temi { margin-bottom: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border); }
 .lbl--sm { font-size: 0.65rem !important; opacity: 0.7; }
 .ep-temi-list { display: flex; flex-wrap: wrap; gap: 8px; }
-.ep-tema { font-size: 0.72rem; letter-spacing: 0.05em; text-transform: uppercase; color: var(--gold, #8fb8d9); background: rgba(34,158,217,0.12); padding: 5px 12px; border-radius: 3px; text-decoration: none; }
-.ep-tema:hover { background: rgba(34,158,217,0.25); }
-.ep-content { color: var(--content); line-height: 1.8; }
+.ep-tema { font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.05em; text-transform: uppercase; color: var(--gold); background: rgba(143,184,217,0.12); padding: 5px 12px; border-radius: 3px; text-decoration: none; }
+.ep-tema:hover { background: rgba(143,184,217,0.25); }
+.ep-content { font-family: var(--font-sans); color: var(--content); line-height: 1.8; }
 .ep-fonte { margin-top: 2.5rem; padding-top: 1.5rem; border-top: 1px solid var(--border); }
-.ep-fonte a { color: var(--gold, #8fb8d9); text-decoration: none; font-size: 0.9rem; }
+.ep-fonte a { color: var(--gold); text-decoration: none; font-size: 0.9rem; font-family: var(--font-sans); }
 .ep-fonte a:hover { text-decoration: underline; }
 </style>
 {{ end }}
