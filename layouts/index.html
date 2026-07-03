@@ -78,7 +78,7 @@
         </div>
         <div class="s-epdelgiorno__card">
             <div class="s-epdelgiorno__media">
-                <img class="s-epdelgiorno__img" src="/immagini/il-volo-della-sera-COVER-1200x627.jpg" alt="">
+                <img class="s-epdelgiorno__img" src="/immagini/il-volo-della-sera-COVER-1200x1500.jpg" alt="">
             </div>
             <div class="s-epdelgiorno__body">
                 {{ if .Params.audio }}
@@ -1013,11 +1013,13 @@ header.header #menu .active { color: var(--cream) !important; }
     gap: 56px;
     align-items: center;
 }
-/* Riquadro adattato alle proporzioni reali della cover (1200x627):
-   niente letterboxing sopra/sotto come con l'aspect-ratio 4/5 di prima. */
+/* Cover estesa con ffmpeg (blur+scurimento del proprio sfondo, non
+   ritaglio) da 1200x627 a 1200x1500: il riquadro torna verticale 4/5
+   come in origine, ma senza letterboxing perche' la foto stessa ora
+   e' gia' in quel formato. */
 .s-epdelgiorno__media {
     width: 100%;
-    aspect-ratio: 1200 / 627;
+    aspect-ratio: 4 / 5;
     overflow: hidden;
     background: var(--surf);
 }
