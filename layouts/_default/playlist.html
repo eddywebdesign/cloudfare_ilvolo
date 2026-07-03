@@ -169,7 +169,7 @@ header.header #menu a:hover, header.header #menu .active { color: #f5efdf !impor
     if (!panel.hidden) { q.focus(); panel.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
   });
 
-  fetch('{{ "/playlist.json" | relURL }}')
+  fetch('{{ (.OutputFormats.Get "json").RelPermalink }}')
     .then(function (r) { return r.json(); })
     .then(function (json) {
       data = json;
