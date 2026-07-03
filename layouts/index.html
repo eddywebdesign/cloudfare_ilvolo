@@ -1639,11 +1639,21 @@ header.header #menu .active { color: var(--cream) !important; }
         if (sec) smoothScrollTo(sec.offsetTop, 2200);
     }
 
+    /* Velocita' variabile: normale nella parte piu' luminosa (tramonto),
+       molto piu' veloce nel tratto finale che scurisce verso la notte.
+       Cosi' il titolo/testo restano piu' a lungo su sfondo chiaro, e il
+       video finisce comunque sempre in notte ma senza indugiarci sopra. */
+    var VERSO_PHASE_SPLIT = 7;   // secondi di contenuto (luce) a velocita' normale
+    var VERSO_RATE_LIGHT  = 1.0;
+    var VERSO_RATE_DARK   = 3.0;
+
     if (versoVid) {
-        versoVid.playbackRate = 1.6;
+        versoVid.playbackRate = VERSO_RATE_LIGHT;
         versoVid.addEventListener('timeupdate', function() {
             var dur = versoVid.duration || 0;
             if (!dur) return;
+            var targetRate = versoVid.currentTime < VERSO_PHASE_SPLIT ? VERSO_RATE_LIGHT : VERSO_RATE_DARK;
+            if (versoVid.playbackRate !== targetRate) versoVid.playbackRate = targetRate;
             if (!versoTitleShown && versoVid.currentTime >= dur * 0.30) {
                 versoTitleShown = true;
                 if (versoTitleEl) versoTitleEl.classList.add('visible');
