@@ -1,4 +1,10 @@
 {{ define "main" }}
+<script>
+(function () {
+  if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+  window.scrollTo(0, 0);
+})();
+</script>
 <div id="gal-hero" class="hero">
   <img class="gal-hero__img" src="/immagini/puzzle.jpg" alt="">
   <div class="hero-over"></div>

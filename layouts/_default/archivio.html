@@ -1,4 +1,10 @@
 {{ define "main" }}
+<script>
+(function () {
+  if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+  window.scrollTo(0, 0);
+})();
+</script>
 <div id="arc-hero" class="hero">
   <video class="hero-video" id="arc-hero-video" autoplay muted loop playsinline preload="auto">
     <source src="/video/tramonto_movement.mp4" type="video/mp4">
@@ -198,10 +204,6 @@ header.header #menu a:hover, header.header #menu .active { color: #f5efdf !impor
 </style>
 
 <script>
-(function () {
-  if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
-  window.scrollTo(0, 0);
-})();
 (function () {
   var vid = document.querySelector('#arc-hero .hero-video');
   var panel = document.getElementById('arc-search-panel');
