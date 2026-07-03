@@ -1013,17 +1013,15 @@ header.header #menu .active { color: var(--cream) !important; }
     gap: 56px;
     align-items: center;
 }
+/* Riquadro adattato alle proporzioni reali della cover (1200x627):
+   niente letterboxing sopra/sotto come con l'aspect-ratio 4/5 di prima. */
 .s-epdelgiorno__media {
     width: 100%;
-    aspect-ratio: 4 / 5;
+    aspect-ratio: 1200 / 627;
     overflow: hidden;
     background: var(--surf);
 }
-.s-epdelgiorno__img { width: 100%; height: 100%; object-fit: contain; display: block; }
-@media(max-width: 860px) {
-    .s-epdelgiorno__card { grid-template-columns: 1fr; }
-    .s-epdelgiorno__media { aspect-ratio: 16 / 9; }
-}
+.s-epdelgiorno__img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .s-epdelgiorno__head {
     display: flex;
     align-items: baseline;
