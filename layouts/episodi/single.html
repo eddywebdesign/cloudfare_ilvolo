@@ -66,6 +66,24 @@
   </section>
   {{ end }}
 
+  {{/* Playlist: generata da scripts/genera_playlist.py, scaricata dalla
+       pagina "playlist del giorno" di deejay.it (stesso pattern dati di
+       data/frammenti/: file JSON compatto in data/playlist/, committato). */}}
+  {{ $playlist := index hugo.Data.playlist .File.ContentBaseName }}
+  {{ if gt (len $playlist) 0 }}
+  <section class="ep-playlist">
+    <p class="lbl lbl--sm">Playlist di questa puntata</p>
+    <ul class="ep-playlist-list">
+      {{ range $playlist }}
+      <li class="ep-playlist-item">
+        <span class="ep-playlist-song">{{ .titolo }}</span>
+        <span class="ep-playlist-artist">{{ .artista }}</span>
+      </li>
+      {{ end }}
+    </ul>
+  </section>
+  {{ end }}
+
   {{ with .Params.fonte }}
   <p class="ep-fonte"><a href="{{ . }}" target="_blank" rel="noopener">Ascolta su deejay.it →</a></p>
   {{ end }}
@@ -138,5 +156,11 @@ header.header #menu a:hover, header.header #menu .active { color: #f5efdf !impor
 .ep-framm-video { aspect-ratio: 16/9; background: var(--tertiary); border-radius: 6px; overflow: hidden; margin-bottom: 0.8rem; }
 .ep-framm-testo { font-family: var(--font-sans); font-style: italic; font-size: 0.92rem; color: var(--content); line-height: 1.6; border-left: 2px solid var(--border); padding-left: 0.9rem; margin: 0 0 0.6rem; }
 .ep-framm-temi { display: flex; flex-wrap: wrap; gap: 6px; }
+.ep-playlist { margin-bottom: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border); }
+.ep-playlist-list { list-style: none; margin: 0.8rem 0 0; padding: 0; display: flex; flex-direction: column; }
+.ep-playlist-item { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; padding: 0.6rem 0; border-bottom: 1px solid var(--border); }
+.ep-playlist-item:first-child { border-top: 1px solid var(--border); }
+.ep-playlist-song { font-family: var(--font-serif); font-size: 0.95rem; color: var(--primary); }
+.ep-playlist-artist { font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--secondary); flex-shrink: 0; }
 </style>
 {{ end }}

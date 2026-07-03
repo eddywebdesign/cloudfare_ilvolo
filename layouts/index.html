@@ -148,6 +148,10 @@
                 <p class="s-temi__slide-desc" id="tl-desc"></p>
                 <a class="s-temi__slide-link" id="tl-link" href="#">
                     <h3 class="s-temi__slide-title" id="tl-title"></h3>
+                    <svg class="s-temi__slide-open" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                        <rect x="3.5" y="3.5" width="17" height="17" rx="2" stroke="currentColor" stroke-width="1.4"/>
+                        <path d="M9.5 14.5 14.5 9.5M14.5 9.5H10.2M14.5 9.5V13.8" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
                 </a>
                 <p class="s-temi__slide-date" id="tl-date"></p>
             </div>
@@ -1062,6 +1066,7 @@ header.header #menu .active { color: var(--cream) !important; }
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    align-self: flex-start;
     width: 30px;
     height: 30px;
     margin-left: auto;
@@ -1209,7 +1214,7 @@ header.header #menu .active { color: var(--cream) !important; }
     transform: translateY(10px);
     transition: opacity 0.4s ease, transform 0.4s ease;
 }
-.s-temi__slide-link { display: block; text-decoration: none; }
+.s-temi__slide-link { display: flex; align-items: baseline; gap: 10px; text-decoration: none; }
 .s-temi__slide-title {
     font-family: var(--font-serif);
     font-size: clamp(0.88rem, 1.2vw, 1.02rem);
@@ -1221,7 +1226,16 @@ header.header #menu .active { color: var(--cream) !important; }
     transform: translateY(10px);
     transition: opacity 0.4s ease 0.06s, transform 0.4s ease 0.06s, color 0.2s ease;
 }
+.s-temi__slide-open {
+    align-self: flex-start;
+    width: 16px;
+    height: 16px;
+    flex-shrink: 0;
+    color: rgba(245,239,223,0.55);
+    transition: color 0.2s;
+}
 .s-temi__slide-link:hover .s-temi__slide-title { color: var(--gold); }
+.s-temi__slide-link:hover .s-temi__slide-open { color: var(--gold); }
 .s-temi__slide-date {
     font-family: var(--font-mono);
     font-size: 0.6rem;
