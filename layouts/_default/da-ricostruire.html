@@ -9,11 +9,12 @@
   --font-serif: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   --font-sans:  'General Sans', -apple-system, BlinkMacSystemFont, sans-serif;
   --font-mono:  'IBM Plex Mono', monospace;
-  --gold: #8fb8d9;
-  --cream: #f5efdf;
-  --surf: rgba(255,255,255,0.04);
-  --border-c: rgba(245,239,223,0.1);
-  --amber: #ffb464;
+  --gold:     #9aa1ad;   /* usa il muted del sito, non blu-acciaio */
+  --cream:    #f5efdf;
+  --muted:    #9aa1ad;
+  --surf:     rgba(255,255,255,0.04);
+  --border-c: rgba(245,239,223,0.14);
+  --amber:    #ffb464;
   --c-film:    #ffb464;
   --c-libro:   #78c896;
   --c-musica:  #8fb8d9;
@@ -36,15 +37,30 @@ header.header .logo { pointer-events: none !important; cursor: default !importan
 .dr-header__title {
   font-family: var(--font-serif); font-size: 2rem; font-weight: 300; color: var(--cream); margin: 0 0 0.4rem;
 }
-.dr-header__sub { font-family: var(--font-sans); font-size: 0.85rem; color: rgba(245,239,223,0.45); line-height: 1.6; }
+.dr-header__sub { font-family: var(--font-sans); font-size: 0.95rem; color: var(--muted); line-height: 1.7; }
 .dr-tg-link {
   display: inline-flex; align-items: center; gap: 0.4em;
   font-family: var(--font-mono); font-size: 0.65rem; letter-spacing: 0.08em;
-  color: var(--gold); text-decoration: none; margin-top: 0.8rem;
-  border: 1px solid rgba(143,184,217,0.3); border-radius: 999px; padding: 5px 14px;
+  color: var(--muted); text-decoration: none; margin-top: 0.8rem;
+  border: 1px solid var(--border-c); border-radius: 999px; padding: 5px 14px;
   transition: background 0.15s, border-color 0.15s;
 }
-.dr-tg-link:hover { background: rgba(143,184,217,0.08); border-color: var(--gold); }
+.dr-tg-link:hover { background: rgba(245,239,223,0.05); border-color: rgba(245,239,223,0.3); color: var(--cream); }
+
+/* ── Help section ── */
+.dr-help { margin-bottom: 2rem; border: 1px solid var(--border-c); border-radius: 8px; overflow: hidden; }
+.dr-help__toggle {
+  font-family: var(--font-mono); font-size: 0.62rem; letter-spacing: 0.12em; text-transform: uppercase;
+  color: var(--muted); padding: 0.8rem 1rem; cursor: pointer; list-style: none;
+  display: flex; align-items: center; gap: 0.5em; user-select: none;
+}
+.dr-help__toggle::-webkit-details-marker { display: none; }
+.dr-help__toggle::before { content: '▶'; font-size: 0.4rem; transition: transform 0.15s; }
+.dr-help[open] > .dr-help__toggle::before { transform: rotate(90deg); }
+.dr-help__body { padding: 0 1rem 1rem; border-top: 1px solid var(--border-c); }
+.dr-help__body ol { margin: 0.8rem 0 0; padding-left: 1.4rem; }
+.dr-help__body li { font-family: var(--font-sans); font-size: 0.9rem; color: var(--muted); line-height: 1.7; margin-bottom: 0.3rem; }
+.dr-help__body strong { color: var(--cream); font-weight: 500; }
 
 /* ── Filtri ── */
 .dr-filters { display: flex; flex-direction: column; gap: 0.6rem; margin-bottom: 2rem; }
@@ -121,8 +137,8 @@ header.header .logo { pointer-events: none !important; cursor: default !importan
 .dr-card__testo-toggle::before { content: '▶'; font-size: 0.45rem; transition: transform 0.15s; }
 details[open] > .dr-card__testo-toggle::before { transform: rotate(90deg); }
 .dr-card__testo {
-  font-family: var(--font-sans); font-size: 0.82rem; color: rgba(245,239,223,0.52);
-  line-height: 1.7; margin-top: 0.5rem; border-left: 2px solid var(--border-c); padding-left: 0.9rem;
+  font-family: var(--font-sans); font-size: 0.95rem; color: rgba(245,239,223,0.68);
+  line-height: 1.75; margin-top: 0.5rem; border-left: 2px solid var(--border-c); padding-left: 0.9rem;
 }
 
 /* ── Footer card ── */
@@ -240,6 +256,20 @@ dialog#dr-modal::backdrop { background: rgba(0,0,0,0.75); backdrop-filter: blur(
     Vai al gruppo Telegram
   </a>
 </div>
+
+<details class="dr-help">
+  <summary class="dr-help__toggle">Come funziona la revisione?</summary>
+  <div class="dr-help__body">
+    <ol>
+      <li>Clicca il pulsante episodio per ascoltare il frammento su DeeJay a partire dal minuto indicato</li>
+      <li>Se riconosci di cosa parla Fabio, clicca <strong>Identifica</strong> e compila categoria, titolo e autore</li>
+      <li>Se non è un riferimento culturale (conversazione generica, pubblicità, ecc.), clicca <strong>Cestina</strong></li>
+      <li>Inserisci il tuo nome o nickname — apparirà nell'elenco dei contribuitori sul sito</li>
+      <li>Clicca <strong>Invia su Telegram</strong>: si apre la chat con il messaggio già pronto, premi solo Invia</li>
+      <li>La card diventa dorata — l'admin la revisiona e pubblica nelle pagine giuste al prossimo aggiornamento</li>
+    </ol>
+  </div>
+</details>
 
 <div class="dr-filters">
   <div class="dr-filter-row" id="dr-cat-row">
