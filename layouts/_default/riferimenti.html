@@ -176,15 +176,37 @@ header.header #menu a:hover, header.header #menu .active { color: #f5efdf !impor
   display: flex; align-items: baseline; gap: 1rem; justify-content: space-between;
 }
 .rif-unknown-item__testo { flex: 1; }
+.rif-unknown-item__time {
+  font-family: var(--font-mono); font-size: 0.65rem; letter-spacing: 0.06em;
+  color: var(--gold); white-space: nowrap; flex-shrink: 0;
+}
 .rif-unknown-item__link {
   font-family: var(--font-mono); font-size: 0.65rem; letter-spacing: 0.06em;
   color: rgba(143,184,217,0.5); text-decoration: none; white-space: nowrap; flex-shrink: 0;
 }
 .rif-unknown-item__link:hover { color: var(--gold); }
 
+/* ── GRUPPI PER ANNO ── */
+.rif-group { margin-bottom: 0.8rem; }
+.rif-group__summary {
+  font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.15em; text-transform: uppercase;
+  color: rgba(245,239,223,0.45); cursor: pointer; padding: 0.6rem 0;
+  list-style: none; display: flex; align-items: center; gap: 0.5rem;
+  border-bottom: 1px solid var(--border-c); margin-bottom: 1rem;
+  user-select: none;
+}
+.rif-group__summary::-webkit-details-marker { display: none; }
+.rif-group__summary::before { content: '▶'; font-size: 0.5rem; transition: transform 0.2s; color: var(--gold); }
+details[open] > .rif-group__summary::before { transform: rotate(90deg); }
+.rif-group__count { color: var(--gold); }
+.rif-group__grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.4rem; margin-bottom: 1.4rem;
+}
+
 @media (max-width: 640px) {
   .rif-content         { padding: 2rem 16px 4rem; }
-  .rif-grid            { grid-template-columns: 1fr; }
+  .rif-group__grid     { grid-template-columns: 1fr; }
   .rif-unknown-item    { flex-direction: column; gap: 0.4rem; }
   .rif-unknown-item__link { white-space: normal; }
 }
@@ -228,8 +250,12 @@ header.header #menu a:hover, header.header #menu .active { color: #f5efdf !impor
   var countEl = document.getElementById('rif-count');
 
   function episodioUrl(v) {
-    /* /episodi/YYYY-MM-DD/#t=<secondi> */
     return '/episodi/' + v.episodio_data + '/#t=' + Math.floor(v.start);
+  }
+
+  function fmtTime(sec) {
+    var s = Math.floor(sec || 0);
+    return (Math.floor(s / 60) < 10 ? '0' : '') + Math.floor(s / 60) + ':' + (s % 60 < 10 ? '0' : '') + (s % 60);
   }
 
   function playIcon() {
@@ -259,6 +285,7 @@ header.header #menu a:hover, header.header #menu .active { color: #f5efdf !impor
     var items = voci.map(function(v) {
       return '<div class="rif-unknown-item">' +
         '<span class="rif-unknown-item__testo">' + esc(v.testo.slice(0, 120)) + '…</span>' +
+        '<span class="rif-unknown-item__time">' + fmtTime(v.start) + '</span>' +
         '<a class="rif-unknown-item__link" href="' + episodioUrl(v) + '" target="_blank">' +
           v.episodio_data + '</a>' +
         '</div>';
@@ -279,10 +306,32 @@ header.header #menu a:hover, header.header #menu .active { color: #f5efdf !impor
       return (g.voce.titolo + ' ' + g.voce.autore + ' ' + g.voce.anno).toLowerCase().includes(q);
     });
 
-    grid.innerHTML = visible.map(function(k) { return renderCard(byTitolo[k]); }).join('');
     countEl.textContent = visible.length + ' ' + (CATEGORIA === 'film' ? 'film' : 'libri') + ' identificati';
 
-    /* Sezione sconosciuti: sempre visibile, nascosta in caso di ricerca */
+    /* Raggruppa per anno */
+    var byAnno = {};
+    visible.forEach(function(k) {
+      var anno = byTitolo[k].voce.anno || 'Anno sconosciuto';
+      if (!byAnno[anno]) byAnno[anno] = [];
+      byAnno[anno].push(k);
+    });
+    var anni = Object.keys(byAnno).sort(function(a, b) {
+      if (a === 'Anno sconosciuto') return 1;
+      if (b === 'Anno sconosciuto') return -1;
+      return parseInt(b) - parseInt(a);
+    });
+    var isFirst = true;
+    grid.innerHTML = anni.map(function(anno) {
+      var cards = byAnno[anno].map(function(k) { return renderCard(byTitolo[k]); }).join('');
+      var openAttr = isFirst ? ' open' : '';
+      isFirst = false;
+      return '<details class="rif-group"' + openAttr + '>' +
+        '<summary class="rif-group__summary">' + esc(anno) +
+        ' <span class="rif-group__count">(' + byAnno[anno].length + ')</span></summary>' +
+        '<div class="rif-group__grid">' + cards + '</div>' +
+        '</details>';
+    }).join('');
+
     unkSection.innerHTML = q ? '' : renderUnknown(sconosciute);
   }
 

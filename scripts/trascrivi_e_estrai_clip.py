@@ -102,7 +102,11 @@ def trascrivi(path: Path, model) -> tuple[str, float]:
     """Restituisce (testo_completo, durata_secondi)."""
     audio = decode_audio_ffmpeg(path)
     durata = len(audio) / SAMPLE_RATE
-    segments, _ = model.transcribe(audio, language="it", beam_size=5)
+    segments, _ = model.transcribe(
+        audio, language="it", beam_size=5,
+        vad_filter=True,
+        initial_prompt="Il Volo del Mattino, Fabio Volo, Radio DeeJay, film, libro, canzone.",
+    )
     testo = " ".join(s.text.strip() for s in segments)
     return testo, round(durata, 2)
 
@@ -201,9 +205,9 @@ def main() -> None:
     client = Groq(api_key=load_groq_key())
 
     # Carica modello faster-whisper una sola volta
-    print("Carico modello faster-whisper small (CPU)…")
+    print("Carico modello faster-whisper medium (CPU)…")
     from faster_whisper import WhisperModel  # import ritardato: fallisce solo se mancante
-    model = WhisperModel("small", device="cpu", compute_type="int8")
+    model = WhisperModel("medium", device="cpu", compute_type="int8")
     print("Modello pronto.\n")
 
     if len(sys.argv) > 1:
