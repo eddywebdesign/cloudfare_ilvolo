@@ -40,7 +40,7 @@ import numpy as np
 from groq import Groq
 
 ROOT = Path(__file__).resolve().parent.parent
-CLIP_DIR = ROOT / "frammenti_trascr_CPU"
+CLIP_DIR = ROOT.parent / "frammenti_trascr_CPU"
 RIF_DIR = ROOT / "data" / "riferimenti"
 
 SAMPLE_RATE = 16000
@@ -76,12 +76,18 @@ Regole:
 
 
 def parse_data(filename: str) -> str | None:
-    """Estrae episodio_data (2016-MM-DD) dal nome del file."""
+    """Estrae episodio_data dal nome del file.
+    Supporta: YYYYMMDD (es. 'Audio 20160107 - Radio Deejay.mp3')
+              e legacy volo_DDMM_ (es. 'volo_0701_...').
+    """
+    m = re.search(r'(\d{4})(\d{2})(\d{2})', filename)
+    if m:
+        return f"{m.group(1)}-{m.group(2)}-{m.group(3)}"
     m = re.search(r'volo_(\d{2})(\d{2})_', filename)
-    if not m:
-        return None
-    dd, mm = m.group(1), m.group(2)
-    return f"2016-{mm}-{dd}"
+    if m:
+        dd, mm = m.group(1), m.group(2)
+        return f"2016-{mm}-{dd}"
+    return None
 
 
 def decode_audio_ffmpeg(path: Path) -> np.ndarray:
@@ -111,32 +117,48 @@ def trascrivi(path: Path, model) -> tuple[str, float]:
     return testo, round(durata, 2)
 
 
-def estrai_riferimenti(client: Groq, testo: str) -> list[dict]:
-    """Chiama Groq e restituisce lista di riferimenti trovati."""
+CHUNK_SIZE = 6000  # caratteri per chunk (~1500 token input, lascia spazio al prompt)
+CHUNK_SLEEP = 13   # secondi tra chunk (max ~4-5 chunk/min entro 6000 TPM)
+
+
+def _groq_chunk(client: Groq, testo: str) -> list[dict]:
+    """Singola chiamata Groq per un chunk di testo."""
     prompt = PROMPT_TPL.format(testo=testo)
-    try:
-        resp = client.chat.completions.create(
-            model="llama-3.1-8b-instant",
-            messages=[
-                {"role": "system", "content": SYSTEM},
-                {"role": "user", "content": prompt},
-            ],
-            max_tokens=600,
-            temperature=0.1,
-            response_format={"type": "json_object"},
-        )
-        raw = resp.choices[0].message.content.strip()
-        parsed = json.loads(raw)
-        # Groq con json_object può restituire {"riferimenti": [...]} invece di [...]
-        if isinstance(parsed, dict):
-            for v in parsed.values():
-                if isinstance(v, list):
-                    return v
-            return []
-        return parsed if isinstance(parsed, list) else []
-    except Exception as e:
-        print(f"    GROQ ERROR: {e}")
+    resp = client.chat.completions.create(
+        model="llama-3.1-8b-instant",
+        messages=[
+            {"role": "system", "content": SYSTEM},
+            {"role": "user", "content": prompt},
+        ],
+        max_tokens=600,
+        temperature=0.1,
+        response_format={"type": "json_object"},
+    )
+    raw = resp.choices[0].message.content.strip()
+    parsed = json.loads(raw)
+    if isinstance(parsed, dict):
+        for v in parsed.values():
+            if isinstance(v, list):
+                return v
         return []
+    return parsed if isinstance(parsed, list) else []
+
+
+def estrai_riferimenti(client: Groq, testo: str) -> list[dict]:
+    """Divide il testo in chunk e aggrega i riferimenti trovati da Groq."""
+    chunks = [testo[i:i + CHUNK_SIZE] for i in range(0, len(testo), CHUNK_SIZE)]
+    print(f"    Invio {len(chunks)} chunk a Groq…")
+    tutti: list[dict] = []
+    for idx, chunk in enumerate(chunks):
+        try:
+            risultati = _groq_chunk(client, chunk)
+            print(f"      chunk {idx+1}/{len(chunks)}: {len(risultati)} riferimenti")
+            tutti.extend(risultati)
+        except Exception as e:
+            print(f"      chunk {idx+1}/{len(chunks)} ERRORE: {e}")
+        if idx < len(chunks) - 1:
+            time.sleep(CHUNK_SLEEP)
+    return tutti
 
 
 def merge_riferimenti(data_str: str, nuovi: list[dict], testo: str, durata: float) -> None:
