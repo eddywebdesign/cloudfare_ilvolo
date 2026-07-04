@@ -40,9 +40,17 @@ theme = "PaperMod"
     url = "/galleria/"
     weight = 2
   [[menu.main]]
+    name = "Filmografia"
+    url = "/filmografia/"
+    weight = 3
+  [[menu.main]]
+    name = "Bibliografia"
+    url = "/bibliografia/"
+    weight = 4
+  [[menu.main]]
     name = "Chi siamo"
     url = "/#titolo"
-    weight = 3
+    weight = 5
 
 [taxonomies]
   tema = "temi"
