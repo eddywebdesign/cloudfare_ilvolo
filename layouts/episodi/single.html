@@ -54,7 +54,7 @@
     {{ range $frammentiCurati }}
     <article class="ep-framm-card">
       <div class="ep-framm-head">
-        <button class="ep-framm-time" onclick="epSeek({{ .start }})" title="Ascolta da qui" aria-label="Ascolta da {{ printf "%02d:%02d" (div (int .start) 60) (mod (int .start) 60) }}">
+        <button class="ep-framm-time" onclick="epSeek({{ .start }})" title="Ascolta da qui">
           <svg class="ep-framm-play" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><circle cx="8" cy="8" r="7" stroke="currentColor" stroke-width="1.2"/><path d="M6.5 5.5l4 2.5-4 2.5V5.5z" fill="currentColor"/></svg>
           {{ printf "%02d:%02d" (div (int .start) 60) (mod (int .start) 60) }} &ndash; {{ printf "%02d:%02d" (div (int .end) 60) (mod (int .end) 60) }}
         </button>
@@ -214,9 +214,24 @@ header.header #menu a:hover, header.header #menu .active { color: #f5efdf !impor
 function epSeek(t) {
   var audio = document.querySelector('.ep-single audio');
   if (!audio) return;
-  audio.currentTime = t;
-  audio.play();
-  audio.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  var doSeek = function() {
+    audio.currentTime = t;
+    audio.play().catch(function(){});
+    audio.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    audio.style.outline = '2px solid #8fb8d9';
+    setTimeout(function() { audio.style.outline = ''; }, 1800);
+  };
+  if (audio.readyState >= 1) { doSeek(); }
+  else { audio.addEventListener('loadedmetadata', doSeek, { once: true }); }
 }
+/* Auto-seek se la pagina e' stata aperta con hash #t=<secondi> */
+(function() {
+  var m = window.location.hash.match(/^#t=([0-9.]+)$/);
+  if (m) {
+    window.addEventListener('DOMContentLoaded', function() {
+      epSeek(parseFloat(m[1]));
+    });
+  }
+})();
 </script>
 {{ end }}
