@@ -1,8 +1,6 @@
 ---
 title: "Da ricostruire"
 layout: "da-ricostruire"
-_build:
-  list: never
-outputs: [HTML]
+url: "/da-ricostruire/"
 noindex: true
 ---

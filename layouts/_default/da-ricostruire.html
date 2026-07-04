@@ -13,9 +13,10 @@
   --cream: #f5efdf;
   --surf: rgba(255,255,255,0.04);
   --border-c: rgba(245,239,223,0.1);
-  --c-film:   #ffb464;
-  --c-libro:  #78c896;
-  --c-musica: #8fb8d9;
+  --c-film:    #ffb464;
+  --c-libro:   #78c896;
+  --c-musica:  #8fb8d9;
+  --c-lettura: #b09fca;
 }
 html, body { background: #0b0e17 !important; }
 .main { max-width: 960px !important; margin: 0 auto !important; padding: 6rem 24px 6rem !important; }
@@ -59,9 +60,10 @@ html, body { background: #0b0e17 !important; }
   font-family: var(--font-mono); font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase;
   font-weight: 500; margin: 0;
 }
-.dr-section__title--film   { color: var(--c-film); }
-.dr-section__title--libro  { color: var(--c-libro); }
-.dr-section__title--musica { color: var(--c-musica); }
+.dr-section__title--film    { color: var(--c-film); }
+.dr-section__title--libro   { color: var(--c-libro); }
+.dr-section__title--musica  { color: var(--c-musica); }
+.dr-section__title--lettura { color: var(--c-lettura); }
 .dr-section__count {
   font-family: var(--font-mono); font-size: 0.62rem; letter-spacing: 0.08em;
   color: rgba(245,239,223,0.3);
@@ -150,9 +152,10 @@ details[open] > .dr-card__testo-toggle::before { transform: rotate(90deg); }
   <span class="dr-total" id="dr-total"></span>
 </div>
 
-<div id="dr-film"   class="dr-section"></div>
-<div id="dr-libro"  class="dr-section"></div>
-<div id="dr-musica" class="dr-section"></div>
+<div id="dr-film"    class="dr-section"></div>
+<div id="dr-libro"   class="dr-section"></div>
+<div id="dr-musica"  class="dr-section"></div>
+<div id="dr-lettura" class="dr-section"></div>
 <p id="dr-empty" class="dr-empty" hidden>Nessun frammento trovato.</p>
 
 <script>
@@ -169,8 +172,8 @@ details[open] > .dr-card__testo-toggle::before { transform: rotate(90deg); }
   });
   items.sort(function(a, b) { return a.episodio_data < b.episodio_data ? -1 : 1; });
 
-  var CATS = ['film', 'libro', 'musica'];
-  var CAT_LABEL = { film: 'Film', libro: 'Libro', musica: 'Musica' };
+  var CATS = ['film', 'libro', 'musica', 'lettura'];
+  var CAT_LABEL = { film: 'Film', libro: 'Libro', musica: 'Musica', lettura: 'Letture' };
 
   function fmtTime(sec) {
     var s = Math.floor(sec || 0);
@@ -181,9 +184,15 @@ details[open] > .dr-card__testo-toggle::before { transform: rotate(90deg); }
     return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
   }
 
+  function deejayUrl(d) {
+    var p = d.split('-');
+    return 'https://www.deejay.it/programmi/il-volo-del-mattino/puntate/il-volo-del-mattino-del-' +
+      p[2] + '-' + p[1] + '-' + p[0] + '/';
+  }
+
   function renderCard(v) {
     var parziali = [v.autore, v.anno, v.note].filter(function(x){ return x && x !== 'non identificato'; }).join(' · ');
-    var epUrl = '/episodi/' + v.episodio_data + '/#t=' + Math.floor(v.start||0);
+    var epUrl = deejayUrl(v.episodio_data);
     var testoLungo = v.testo && v.testo.length > 200;
     var tgUrl = 'https://t.me/ilvolodelmattino';
 
