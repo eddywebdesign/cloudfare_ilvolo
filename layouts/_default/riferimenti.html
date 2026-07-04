@@ -32,7 +32,6 @@
     <span id="rif-count" class="rif-count"></span>
   </div>
   <div id="rif-grid" class="rif-grid"></div>
-  <div id="rif-unknown" class="rif-unknown-section"></div>
 </section>
 
 <style>
@@ -246,7 +245,6 @@ details[open] > .rif-group__summary::before { transform: rotate(90deg); }
 
   /* ── Rendering ── */
   var grid = document.getElementById('rif-grid');
-  var unkSection = document.getElementById('rif-unknown');
   var countEl = document.getElementById('rif-count');
 
   function episodioUrl(v) {
@@ -280,19 +278,6 @@ details[open] > .rif-group__summary::before { transform: rotate(90deg); }
       '</div>';
   }
 
-  function renderUnknown(voci) {
-    if (!voci.length) return '';
-    var items = voci.map(function(v) {
-      return '<div class="rif-unknown-item">' +
-        '<span class="rif-unknown-item__testo">' + esc(v.testo.slice(0, 120)) + '…</span>' +
-        '<span class="rif-unknown-item__time">' + fmtTime(v.start) + '</span>' +
-        '<a class="rif-unknown-item__link" href="' + episodioUrl(v) + '" target="_blank">' +
-          v.episodio_data + '</a>' +
-        '</div>';
-    }).join('');
-    return '<p class="rif-unknown-title">Da identificare (' + voci.length + ')</p>' +
-      '<div class="rif-unknown-list">' + items + '</div>';
-  }
 
   function esc(s) {
     return String(s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
@@ -332,7 +317,6 @@ details[open] > .rif-group__summary::before { transform: rotate(90deg); }
         '</details>';
     }).join('');
 
-    unkSection.innerHTML = q ? '' : renderUnknown(sconosciute);
   }
 
   render();

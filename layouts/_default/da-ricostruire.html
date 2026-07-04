@@ -1,0 +1,235 @@
+{{ define "main" }}
+{{ if .Params.noindex }}<meta name="robots" content="noindex,nofollow">{{ end }}
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300..700;1,300..700&family=IBM+Plex+Mono:wght@400;500&display=swap');
+@import url('https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600&display=swap');
+
+:root {
+  --font-serif: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-sans:  'General Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono:  'IBM Plex Mono', monospace;
+  --gold: #8fb8d9;
+  --theme: #0b0e17;
+  --cream: #f5efdf;
+  --surf: rgba(255,255,255,0.04);
+  --border-c: rgba(245,239,223,0.1);
+}
+html, body { background: #0b0e17 !important; }
+.main { max-width: 960px !important; margin: 0 auto !important; padding: 6rem 24px 6rem !important; }
+
+/* ── Header ── */
+.dr-header { margin-bottom: 2.4rem; border-bottom: 1px solid var(--border-c); padding-bottom: 1.6rem; }
+.dr-header__label {
+  font-family: var(--font-mono); font-size: 0.62rem; letter-spacing: 0.2em; text-transform: uppercase;
+  color: var(--gold); margin-bottom: 0.5rem;
+}
+.dr-header__title {
+  font-family: var(--font-serif); font-size: 2rem; font-weight: 300; color: var(--cream); margin: 0 0 0.4rem;
+}
+.dr-header__sub { font-family: var(--font-sans); font-size: 0.85rem; color: rgba(245,239,223,0.45); }
+.dr-tg-link {
+  display: inline-flex; align-items: center; gap: 0.4em;
+  font-family: var(--font-mono); font-size: 0.65rem; letter-spacing: 0.08em;
+  color: var(--gold); text-decoration: none; margin-top: 0.6rem;
+  border: 1px solid rgba(143,184,217,0.3); border-radius: 999px; padding: 5px 14px;
+  transition: background 0.15s, border-color 0.15s;
+}
+.dr-tg-link:hover { background: rgba(143,184,217,0.08); border-color: var(--gold); }
+
+/* ── Toolbar ── */
+.dr-toolbar { display: flex; flex-wrap: wrap; gap: 0.7rem; align-items: center; margin-bottom: 2rem; }
+.dr-cat-btn {
+  font-family: var(--font-mono); font-size: 0.62rem; letter-spacing: 0.12em; text-transform: uppercase;
+  padding: 6px 16px; border-radius: 999px; border: 1px solid rgba(245,239,223,0.2);
+  background: transparent; color: rgba(245,239,223,0.5); cursor: pointer; transition: all 0.15s;
+}
+.dr-cat-btn:hover { border-color: rgba(143,184,217,0.5); color: #8fb8d9; }
+.dr-cat-btn.active { border-color: var(--gold); color: var(--gold); background: rgba(143,184,217,0.08); }
+.dr-search {
+  flex: 1; min-width: 180px; padding: 0.6rem 0.9rem; font-size: 0.85rem;
+  font-family: var(--font-sans); border-radius: 6px; border: 1px solid var(--border-c);
+  background: var(--surf); color: var(--cream);
+}
+.dr-search::placeholder { color: rgba(245,239,223,0.3); }
+.dr-count {
+  font-family: var(--font-mono); font-size: 0.65rem; letter-spacing: 0.1em;
+  color: rgba(245,239,223,0.35); white-space: nowrap;
+}
+
+/* ── Cards ── */
+.dr-list { display: flex; flex-direction: column; gap: 1rem; }
+.dr-card {
+  background: var(--surf); border: 1px solid var(--border-c); border-radius: 10px;
+  padding: 1.2rem 1.4rem; display: flex; flex-direction: column; gap: 0.7rem;
+  transition: border-color 0.2s;
+}
+.dr-card:hover { border-color: rgba(143,184,217,0.3); }
+.dr-card__top { display: flex; align-items: center; gap: 0.7rem; flex-wrap: wrap; }
+.dr-badge {
+  font-family: var(--font-mono); font-size: 0.58rem; letter-spacing: 0.14em; text-transform: uppercase;
+  padding: 3px 10px; border-radius: 999px; font-weight: 500;
+}
+.dr-badge--film   { background: rgba(255,180,100,0.12); color: #ffb464; border: 1px solid rgba(255,180,100,0.25); }
+.dr-badge--libro  { background: rgba(120,200,150,0.12); color: #78c896; border: 1px solid rgba(120,200,150,0.25); }
+.dr-badge--musica { background: rgba(143,184,217,0.12); color: var(--gold); border: 1px solid rgba(143,184,217,0.25); }
+.dr-card__parziali {
+  font-family: var(--font-mono); font-size: 0.65rem; letter-spacing: 0.05em;
+  color: rgba(245,239,223,0.4); font-style: italic;
+}
+.dr-card__testo-wrap { margin: 0; }
+.dr-card__testo-toggle {
+  font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase;
+  list-style: none; cursor: pointer; color: rgba(245,239,223,0.3); padding: 0;
+  display: flex; align-items: center; gap: 0.4em; user-select: none;
+}
+.dr-card__testo-toggle::-webkit-details-marker { display: none; }
+.dr-card__testo-toggle::before { content: '▶'; font-size: 0.45rem; transition: transform 0.15s; }
+details[open] > .dr-card__testo-toggle::before { transform: rotate(90deg); }
+.dr-card__testo {
+  font-family: var(--font-sans); font-size: 0.82rem; color: rgba(245,239,223,0.55);
+  line-height: 1.65; margin-top: 0.5rem; border-left: 2px solid var(--border-c); padding-left: 0.8rem;
+}
+.dr-card__footer { display: flex; align-items: center; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
+.dr-card__ep-link {
+  font-family: var(--font-mono); font-size: 0.65rem; letter-spacing: 0.06em;
+  color: rgba(143,184,217,0.7); text-decoration: none;
+  display: inline-flex; align-items: center; gap: 0.4em; transition: color 0.15s;
+}
+.dr-card__ep-link:hover { color: var(--gold); }
+.dr-card__ep-link svg { width: 9px; height: 9px; flex-shrink: 0; }
+.dr-card__tg {
+  font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.08em; text-transform: uppercase;
+  color: rgba(143,184,217,0.45); text-decoration: none; border: 1px solid rgba(143,184,217,0.15);
+  border-radius: 999px; padding: 4px 12px; transition: all 0.15s;
+}
+.dr-card__tg:hover { color: var(--gold); border-color: rgba(143,184,217,0.4); }
+
+.dr-empty { text-align: center; color: rgba(245,239,223,0.3); font-family: var(--font-mono); font-size: 0.75rem; padding: 3rem 0; }
+
+@media (max-width: 640px) {
+  .main { padding: 5rem 16px 4rem !important; }
+  .dr-toolbar { flex-direction: column; align-items: stretch; }
+  .dr-search { min-width: 0; }
+}
+</style>
+
+<div class="dr-header">
+  <p class="dr-header__label">Archivio interno — non indicizzato</p>
+  <h1 class="dr-header__title">Da ricostruire</h1>
+  <p class="dr-header__sub">Frammenti estratti dalla trascrizione che non hanno ancora un titolo o un'attribuzione certa.<br>Aiutaci a identificarli: ascolta il frammento e condividi nel gruppo Telegram se riconosci il riferimento.</p>
+  <a class="dr-tg-link" href="https://t.me/ilvolodelmattino" target="_blank" rel="noopener">
+    <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8l-1.7 8c-.12.55-.46.68-.93.42l-2.57-1.9-1.24 1.19c-.14.13-.25.25-.52.25l.19-2.67 4.87-4.4c.21-.19-.05-.3-.32-.11L8.27 14.4l-2.5-.78c-.54-.17-.55-.54.12-.8l9.78-3.77c.45-.16.85.11.97.75z"/></svg>
+    Segnala nel gruppo Telegram
+  </a>
+</div>
+
+<div class="dr-toolbar">
+  <button class="dr-cat-btn active" data-cat="">Tutti</button>
+  <button class="dr-cat-btn" data-cat="film">Film</button>
+  <button class="dr-cat-btn" data-cat="libro">Libro</button>
+  <button class="dr-cat-btn" data-cat="musica">Musica</button>
+  <input class="dr-search" type="search" id="dr-q" placeholder="Cerca nel testo…" autocomplete="off">
+  <span class="dr-count" id="dr-count"></span>
+</div>
+
+<div id="dr-list" class="dr-list"></div>
+
+<script>
+(function() {
+  var RAW = {{ $.Site.Data.riferimenti | jsonify | safeJS }};
+
+  /* Raccoglie tutti i frammenti da identificare da tutte le date */
+  var items = [];
+  Object.keys(RAW).sort().forEach(function(data) {
+    var arr = RAW[data];
+    if (!Array.isArray(arr)) return;
+    arr.forEach(function(v) {
+      if (!v.titolo || v.note === 'non identificato') {
+        items.push(v);
+      }
+    });
+  });
+
+  /* Ordina cronologico per episodio */
+  items.sort(function(a, b) { return a.episodio_data < b.episodio_data ? -1 : 1; });
+
+  var activeCat = '';
+  var listEl = document.getElementById('dr-list');
+  var countEl = document.getElementById('dr-count');
+  var searchEl = document.getElementById('dr-q');
+
+  function fmtTime(sec) {
+    var s = Math.floor(sec || 0);
+    return (Math.floor(s/60)<10?'0':'')+Math.floor(s/60)+':'+(s%60<10?'0':'')+(s%60);
+  }
+
+  function esc(s) {
+    return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+
+  function badgeClass(cat) {
+    if (cat==='film') return 'dr-badge--film';
+    if (cat==='libro') return 'dr-badge--libro';
+    return 'dr-badge--musica';
+  }
+
+  function renderCard(v) {
+    var cat = v.categoria || '';
+    var parziali = [v.autore, v.anno, v.note].filter(function(x){ return x && x!=='non identificato'; }).join(' · ');
+    var epUrl = '/episodi/' + v.episodio_data + '/#t=' + Math.floor(v.start||0);
+    var tgMsg = encodeURIComponent('Ho riconosciuto un frammento da ricostruire: ' + v.episodio_data + ' al min ' + fmtTime(v.start));
+    var tgUrl = 'https://t.me/ilvolodelmattino';
+    var testoLungo = v.testo && v.testo.length > 200;
+
+    var testoHtml = testoLungo
+      ? '<details class="dr-card__testo-wrap"><summary class="dr-card__testo-toggle">Mostra testo</summary>' +
+        '<p class="dr-card__testo">' + esc(v.testo) + '</p></details>'
+      : '<p class="dr-card__testo">' + esc(v.testo||'') + '</p>';
+
+    return '<div class="dr-card" data-cat="' + esc(cat) + '" data-testo="' + esc((v.testo||'').toLowerCase()) + '">' +
+      '<div class="dr-card__top">' +
+        '<span class="dr-badge ' + badgeClass(cat) + '">' + esc(cat) + '</span>' +
+        (parziali ? '<span class="dr-card__parziali">' + esc(parziali) + '</span>' : '') +
+      '</div>' +
+      testoHtml +
+      '<div class="dr-card__footer">' +
+        '<a class="dr-card__ep-link" href="' + epUrl + '" target="_blank">' +
+          '<svg viewBox="0 0 10 10" fill="currentColor"><polygon points="2,1 9,5 2,9"/></svg>' +
+          esc(v.episodio_data) + ' · ' + fmtTime(v.start) +
+        '</a>' +
+        '<a class="dr-card__tg" href="' + tgUrl + '" target="_blank" rel="noopener">Segnala su Telegram</a>' +
+      '</div>' +
+    '</div>';
+  }
+
+  function render() {
+    var q = searchEl.value.trim().toLowerCase();
+    var visible = items.filter(function(v) {
+      if (activeCat && v.categoria !== activeCat) return false;
+      if (q && (v.testo||'').toLowerCase().indexOf(q) === -1) return false;
+      return true;
+    });
+    countEl.textContent = visible.length + ' frammenti';
+    if (!visible.length) {
+      listEl.innerHTML = '<p class="dr-empty">Nessun frammento trovato.</p>';
+      return;
+    }
+    listEl.innerHTML = visible.map(renderCard).join('');
+  }
+
+  /* Filtri categoria */
+  document.querySelectorAll('.dr-cat-btn').forEach(function(btn) {
+    btn.addEventListener('click', function() {
+      document.querySelectorAll('.dr-cat-btn').forEach(function(b){ b.classList.remove('active'); });
+      btn.classList.add('active');
+      activeCat = btn.dataset.cat || '';
+      render();
+    });
+  });
+
+  searchEl.addEventListener('input', render);
+  render();
+})();
+</script>
+{{ end }}
