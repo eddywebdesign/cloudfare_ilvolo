@@ -40,11 +40,11 @@ theme = "PaperMod"
     url = "/galleria/"
     weight = 2
   [[menu.main]]
-    name = "Filmografia"
+    name = "Film"
     url = "/filmografia/"
     weight = 3
   [[menu.main]]
-    name = "Bibliografia"
+    name = "Libri"
     url = "/bibliografia/"
     weight = 4
   [[menu.main]]

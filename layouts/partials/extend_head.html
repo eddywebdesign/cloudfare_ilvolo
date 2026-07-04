@@ -1,3 +1,12 @@
+<!-- Deregistra service worker legacy (vecchio deploy Cloudflare) -->
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.getRegistrations().then(function(regs) {
+    regs.forEach(function(r) { r.unregister(); });
+  });
+}
+</script>
+
 <style>
 /* ═══════════════════════════════════════════════════════
    GLOBAL OVERRIDES — applicati su TUTTE le pagine
