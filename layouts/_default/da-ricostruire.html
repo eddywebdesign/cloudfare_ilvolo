@@ -168,6 +168,46 @@ details[open] > .dr-card__testo-toggle::before { transform: rotate(90deg); }
 .dr-act-btn--trash { border-color: rgba(245,239,223,0.12); color: rgba(245,239,223,0.25); }
 .dr-act-btn--trash:hover { border-color: rgba(245,100,100,0.4); color: rgba(245,100,100,0.6); }
 
+/* ── Admin panel ── */
+.dr-admin-panel { display: flex; flex-direction: column; gap: 0.7rem; margin-top: 0.4rem; padding-top: 0.8rem; border-top: 1px solid var(--border-c); }
+.dr-admin-label { font-family: var(--font-mono); font-size: 0.55rem; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(245,239,223,0.25); margin-bottom: -0.3rem; }
+.dr-admin-cat { display: flex; gap: 0.3rem; flex-wrap: wrap; }
+.dr-admin-cat-btn {
+  font-family: var(--font-mono); font-size: 0.58rem; letter-spacing: 0.06em; text-transform: uppercase;
+  padding: 3px 10px; border-radius: 999px; border: 1px solid rgba(245,239,223,0.12);
+  background: transparent; color: rgba(245,239,223,0.3); cursor: pointer; transition: all 0.12s;
+}
+.dr-admin-cat-btn.sel { border-color: var(--amber); color: var(--amber); background: rgba(255,180,100,0.08); }
+.dr-admin-row { display: flex; gap: 0.5rem; }
+.dr-admin-input {
+  flex: 1; font-family: var(--font-sans); font-size: 0.82rem; background: rgba(255,255,255,0.04);
+  border: 1px solid var(--border-c); border-radius: 6px; color: var(--cream);
+  padding: 0.5rem 0.7rem; min-width: 0;
+}
+.dr-admin-input::placeholder { color: rgba(245,239,223,0.2); }
+.dr-admin-actions { display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap; }
+.dr-adm-btn {
+  font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.08em; text-transform: uppercase;
+  padding: 6px 14px; border-radius: 6px; border: 1px solid; cursor: pointer; background: transparent; transition: all 0.15s;
+}
+.dr-adm-btn--ok { border-color: rgba(120,200,150,0.4); color: #78c896; }
+.dr-adm-btn--ok:hover { background: rgba(120,200,150,0.12); }
+.dr-adm-btn--no { border-color: rgba(245,239,223,0.12); color: rgba(245,239,223,0.3); }
+.dr-adm-btn--no:hover { border-color: rgba(245,100,100,0.4); color: rgba(245,100,100,0.6); }
+.dr-admin-cmd {
+  font-family: var(--font-mono); font-size: 0.7rem; color: rgba(245,239,223,0.6);
+  background: rgba(0,0,0,0.3); border: 1px solid rgba(245,239,223,0.1);
+  border-radius: 6px; padding: 0.6rem 0.8rem; word-break: break-all; display: none;
+}
+.dr-admin-cmd.show { display: flex; gap: 0.6rem; align-items: flex-start; }
+.dr-admin-copy {
+  font-family: var(--font-mono); font-size: 0.6rem; padding: 4px 10px; flex-shrink: 0;
+  border-radius: 4px; border: 1px solid rgba(245,239,223,0.2); background: transparent;
+  color: rgba(245,239,223,0.4); cursor: pointer; transition: all 0.15s;
+}
+.dr-admin-copy:hover { border-color: var(--amber); color: var(--amber); }
+.dr-admin-copy.copied { border-color: #78c896; color: #78c896; }
+
 .dr-empty { text-align: center; color: rgba(245,239,223,0.25); font-family: var(--font-mono); font-size: 0.75rem; padding: 3rem 0; }
 
 /* ── Modal dialog ── */
@@ -355,6 +395,9 @@ dialog#dr-modal::backdrop { background: rgba(0,0,0,0.75); backdrop-filter: blur(
   var CATS = ['film', 'libro', 'musica', 'lettura'];
   var CAT_LABEL = { film: 'Film', libro: 'Libro', musica: 'Musica', lettura: 'Letture' };
 
+  /* ── Modalità admin ── */
+  var isAdmin = new URLSearchParams(location.search).get('admin') === '1';
+
   /* ── Stato filtri ── */
   var activeCat  = '';
   var activeYear = '';
@@ -418,6 +461,94 @@ dialog#dr-modal::backdrop { background: rgba(0,0,0,0.75); backdrop-filter: blur(
     try { localStorage.setItem('dr_pending_' + id, JSON.stringify(data)); } catch(e) {}
   }
 
+  /* ── Admin panel ── */
+  function renderAdminPanel(v) {
+    var cats = ['film', 'libro', 'musica', 'lettura'];
+    var catBtns = cats.map(function(c) {
+      return '<button class="dr-admin-cat-btn' + (v.categoria === c ? ' sel' : '') +
+        '" data-adm-cat="' + c + '">' + c + '</button>';
+    }).join('');
+    return '<div class="dr-admin-panel" data-adm-id="' + esc(v.id) + '">' +
+      '<span class="dr-admin-label">Admin</span>' +
+      '<div class="dr-admin-cat">' + catBtns + '</div>' +
+      '<div class="dr-admin-row">' +
+        '<input class="dr-admin-input" data-adm-field="titolo" placeholder="Titolo" value="' + esc(v.titolo||'') + '">' +
+        '<input class="dr-admin-input" style="max-width:110px" data-adm-field="autore" placeholder="Autore" value="' + esc(v.autore||'') + '">' +
+      '</div>' +
+      '<div class="dr-admin-row">' +
+        '<input class="dr-admin-input" style="max-width:70px" data-adm-field="anno" placeholder="Anno" value="' + esc(v.anno||'') + '">' +
+        '<input class="dr-admin-input" data-adm-field="note" placeholder="Note" value="' + esc((v.note && v.note !== 'non identificato') ? v.note : '') + '">' +
+      '</div>' +
+      '<div class="dr-admin-actions">' +
+        '<button class="dr-adm-btn dr-adm-btn--ok" data-adm-ok="1">Approva ▶</button>' +
+        '<button class="dr-adm-btn dr-adm-btn--no" data-adm-cestina="1">Cestina</button>' +
+      '</div>' +
+      '<div class="dr-admin-cmd" id="adm-cmd-' + esc(v.id) + '"><span class="adm-cmd-text"></span><button class="dr-admin-copy">📋 Copia</button></div>' +
+    '</div>';
+  }
+
+  /* Delegato: admin panel interactions */
+  document.addEventListener('click', function(e) {
+    /* Selezione categoria admin */
+    var catBtn = e.target.closest('.dr-admin-cat-btn');
+    if (catBtn) {
+      var panel = catBtn.closest('.dr-admin-panel');
+      panel.querySelectorAll('.dr-admin-cat-btn').forEach(function(b) { b.classList.remove('sel'); });
+      catBtn.classList.add('sel');
+      return;
+    }
+    /* Approva */
+    var okBtn = e.target.closest('[data-adm-ok]');
+    if (okBtn) {
+      var panel = okBtn.closest('.dr-admin-panel');
+      buildAdminCmd(panel, false);
+      return;
+    }
+    /* Cestina */
+    var ceBtn = e.target.closest('[data-adm-cestina]');
+    if (ceBtn) {
+      var panel = ceBtn.closest('.dr-admin-panel');
+      buildAdminCmd(panel, true);
+      return;
+    }
+    /* Copia */
+    var copyBtn = e.target.closest('.dr-admin-copy');
+    if (copyBtn) {
+      var cmdEl = copyBtn.closest('.dr-admin-cmd');
+      var txt = cmdEl.querySelector('.adm-cmd-text').textContent;
+      navigator.clipboard.writeText(txt).then(function() {
+        copyBtn.textContent = '✓ Copiato';
+        copyBtn.classList.add('copied');
+        setTimeout(function() { copyBtn.textContent = '📋 Copia'; copyBtn.classList.remove('copied'); }, 2000);
+      });
+      return;
+    }
+  });
+
+  function buildAdminCmd(panel, cestina) {
+    var id = panel.dataset.admId;
+    var cmdEl = document.getElementById('adm-cmd-' + id);
+    var cmd;
+    if (cestina) {
+      cmd = 'python scripts/approva.py --id "' + id + '" --cestina';
+    } else {
+      var cat = (panel.querySelector('.dr-admin-cat-btn.sel') || {}).dataset && panel.querySelector('.dr-admin-cat-btn.sel').dataset.admCat || '';
+      var titolo = panel.querySelector('[data-adm-field="titolo"]').value.trim();
+      var autore = panel.querySelector('[data-adm-field="autore"]').value.trim();
+      var anno   = panel.querySelector('[data-adm-field="anno"]').value.trim();
+      var note   = panel.querySelector('[data-adm-field="note"]').value.trim();
+      if (!titolo) { alert('Inserisci almeno il titolo.'); return; }
+      cmd = 'python scripts/approva.py --id "' + id + '"' +
+        (cat   ? ' --cat "' + cat   + '"' : '') +
+        ' --titolo "' + titolo + '"' +
+        (autore ? ' --autore "' + autore + '"' : '') +
+        (anno   ? ' --anno "'  + anno   + '"' : '') +
+        (note   ? ' --note "'  + note   + '"' : '');
+    }
+    cmdEl.querySelector('.adm-cmd-text').textContent = cmd;
+    cmdEl.classList.add('show');
+  }
+
   /* ── Render card ── */
   function renderCard(v) {
     var parziali = [v.autore, v.anno, v.note].filter(function(x){ return x && x !== 'non identificato'; }).join(' · ');
@@ -431,12 +562,14 @@ dialog#dr-modal::backdrop { background: rgba(0,0,0,0.75); backdrop-filter: blur(
         '<p class="dr-card__testo">' + esc(v.testo) + '</p></details>'
       : '<p class="dr-card__testo">' + esc(v.testo||'') + '</p>';
 
-    var footerRight = pending
-      ? '<span class="dr-card__pending-badge">In attesa di revisione</span>'
-      : '<div class="dr-card__actions">' +
-          '<button class="dr-act-btn dr-act-btn--id" data-id="' + esc(v.id) + '">Identifica</button>' +
-          '<button class="dr-act-btn dr-act-btn--trash" data-id="' + esc(v.id) + '" data-cestina="1">Cestina</button>' +
-        '</div>';
+    var footerRight = isAdmin
+      ? renderAdminPanel(v)
+      : pending
+        ? '<span class="dr-card__pending-badge">In attesa di revisione</span>'
+        : '<div class="dr-card__actions">' +
+            '<button class="dr-act-btn dr-act-btn--id" data-id="' + esc(v.id) + '">Identifica</button>' +
+            '<button class="dr-act-btn dr-act-btn--trash" data-id="' + esc(v.id) + '" data-cestina="1">Cestina</button>' +
+          '</div>';
 
     return '<div class="dr-card' + (pending ? ' dr-card--pending' : '') + '" data-id="' + esc(v.id) + '">' +
       (parziali ? '<p class="dr-card__parziali">' + esc(parziali) + '</p>' : '') +
