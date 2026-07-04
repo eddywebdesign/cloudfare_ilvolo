@@ -105,6 +105,9 @@
                     <span class="s-epdelgiorno__onair-label">In onda &middot; puntata del giorno</span>
                 </div>
                 <audio class="s-epdelgiorno__audio" controls src="{{ .Params.audio }}"></audio>
+                {{ with .Params.fonte }}
+                <p class="ep-fonte"><a href="{{ . }}" target="_blank" rel="noopener">Ascolta su RadioDeejay <span class="ep-fonte__arrow">→</span></a></p>
+                {{ end }}
                 {{ else }}
                 <div class="s-epdelgiorno__audio-placeholder">Player audio in arrivo</div>
                 {{ end }}
@@ -177,6 +180,18 @@
     <!-- Temi esistenziali -->
     <section class="s-temi">
         <div class="s-temi__left">
+            <p class="lbl">Spunti esistenziali</p>
+            <div class="s-temi__list">
+                <h2 class="s-temi__h2 active" data-idx="0">Solitudine</h2>
+                <h2 class="s-temi__h2" data-idx="1">Libertà</h2>
+                <h2 class="s-temi__h2" data-idx="2">Sogno</h2>
+                <h2 class="s-temi__h2" data-idx="3">Amore</h2>
+                <h2 class="s-temi__h2" data-idx="4">Tempo</h2>
+                <h2 class="s-temi__h2" data-idx="5">Coraggio</h2>
+                <h2 class="s-temi__h2" data-idx="6">Malinconia</h2>
+            </div>
+        </div>
+        <div class="s-temi__center">
             <p class="lbl">Ultimi episodi</p>
             <!-- Progress bar + nav -->
             <div class="s-temi__prog-wrap"><div class="s-temi__prog-bar" id="tl-bar"></div></div>
@@ -197,21 +212,10 @@
                 <p class="s-temi__slide-date" id="tl-date"></p>
                 <p class="s-temi__slide-desc" id="tl-desc"></p>
                 <div class="s-temi__slide-tags" id="tl-tags"></div>
+                <p class="ep-fonte" id="tl-fonte" hidden></p>
                 <div class="s-temi__slide-playlist" id="tl-playlist"></div>
             </div>
             <a href="/archivio/" class="s-temi__archive-link">Vai all'archivio completo →</a>
-        </div>
-        <div class="s-temi__center">
-            <p class="lbl">Spunti esistenziali</p>
-            <div class="s-temi__list">
-                <h2 class="s-temi__h2 active" data-idx="0">Solitudine</h2>
-                <h2 class="s-temi__h2" data-idx="1">Libertà</h2>
-                <h2 class="s-temi__h2" data-idx="2">Sogno</h2>
-                <h2 class="s-temi__h2" data-idx="3">Amore</h2>
-                <h2 class="s-temi__h2" data-idx="4">Tempo</h2>
-                <h2 class="s-temi__h2" data-idx="5">Coraggio</h2>
-                <h2 class="s-temi__h2" data-idx="6">Malinconia</h2>
-            </div>
         </div>
         <div class="s-temi__right">
             <div class="s-temi__img active" style="background-image:url('/immagini/esistenziali/solitudine.jpg')"></div>
@@ -1019,7 +1023,7 @@ header.header #menu .active { color: var(--cream) !important; }
 #random-btn[disabled] { opacity: 0.5; cursor: default; pointer-events: none; }
 
 /* Telegram */
-.s-tg { background: var(--surf); border-top: 1px solid var(--bord); padding: 90px 24px; text-align: center; }
+.s-tg { background: var(--bg); border-top: 1px solid var(--bord); padding: 90px 24px; text-align: center; }
 .s-tg__title { font-family: var(--font-serif); font-size: clamp(1.3rem, 3vw, 2rem); font-weight: 300; color: var(--cream); margin-bottom: 1.2rem; }
 .s-tg__text { font-size: .95rem; color: var(--muted); line-height: 1.8; margin-bottom: 2rem; max-width: 600px; margin-left: auto; margin-right: auto; }
 
@@ -1147,9 +1151,13 @@ header.header #menu .active { color: var(--cream) !important; }
     0%, 100% { opacity: 0.55; }
     50%      { opacity: 1; }
 }
+.ep-fonte { margin-top: 0.4rem; margin-bottom: 1.6rem; }
+.ep-fonte a { color: var(--gold); text-decoration: none; font-size: 0.82rem; font-family: var(--font-sans); font-weight: 400; text-transform: uppercase; letter-spacing: 0.08em; }
+.ep-fonte a:hover { text-decoration: underline; }
+.ep-fonte__arrow { margin-left: 0.5em; }
 .s-epdelgiorno__audio {
     width: 100%;
-    margin-bottom: 28px;
+    margin-bottom: 12px;
     filter: invert(0.86) grayscale(1) contrast(0.9);
     border-radius: 4px;
 }
@@ -1362,7 +1370,7 @@ header.header #menu .active { color: var(--cream) !important; }
 /* Overlay immagine — pannello piccolo centrato sulla h2 attiva */
 .s-temi__right {
     position: absolute;
-    right: 32px;
+    left: 32px;
     width: 300px;
     height: 380px;
     pointer-events: none;
@@ -1658,6 +1666,7 @@ header.header #menu .active { color: var(--cream) !important; }
         "desc"  (default "Un frammento da riscoprire: parole, momenti e storie ricomposte per strapparle all'oblio." .Params.resumen)
         "temi"  .Params.temi
         "url"   .RelPermalink
+        "fonte" .Params.fonte
         "playlist" $tlPlaylist
     ) }}
     {{ end }}
@@ -1694,6 +1703,17 @@ header.header #menu .active { color: var(--cream) !important; }
             tlTags.innerHTML = (temi && temi.length)
                 ? temi.map(function(t) { return '<span class="s-tag">' + t + '</span>'; }).join('')
                 : '';
+        }
+        var tlFonteEl = document.getElementById('tl-fonte');
+        if (tlFonteEl) {
+            var fonte = tlData[tlCurrent].fonte;
+            if (fonte && typeof fonte === 'string' && fonte.indexOf('http') === 0) {
+                tlFonteEl.innerHTML = '<a href="' + fonte + '" target="_blank" rel="noopener">Ascolta su RadioDeejay <span class="ep-fonte__arrow">→</span></a>';
+                tlFonteEl.hidden = false;
+            } else {
+                tlFonteEl.innerHTML = '';
+                tlFonteEl.hidden = true;
+            }
         }
         if (tlPlaylistEl) {
             var pl = tlData[tlCurrent].playlist;
