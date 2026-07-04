@@ -24,6 +24,8 @@ html, body { background: #0b0e17 !important; }
 /* ── Nasconde menu di navigazione (pagina privata) ── */
 header.header #menu,
 header.header .logo-switches { display: none !important; }
+/* Logo non cliccabile */
+header.header .logo { pointer-events: none !important; cursor: default !important; }
 
 /* ── Header pagina ── */
 .dr-header { margin-bottom: 2rem; border-bottom: 1px solid var(--border-c); padding-bottom: 1.6rem; }
