@@ -79,12 +79,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300..700;1,300..700&family=IBM+Plex+Mono:wght@400;500&display=swap');
 @import url('https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600&display=swap');
 
-:root {
+:root, :root[data-theme="dark"] {
   --font-serif: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   --font-sans:  'General Sans', -apple-system, BlinkMacSystemFont, sans-serif;
   --font-mono:  'IBM Plex Mono', monospace;
   --gold: #8fb8d9;
+  --theme: #0b0e17;
 }
+html, body { background: #0b0e17 !important; }
 
 /* ── Header trasparente sopra l'hero (identico alla homepage) ── */
 .main { max-width: 100% !important; padding: 0 !important; margin: 0 !important; }
