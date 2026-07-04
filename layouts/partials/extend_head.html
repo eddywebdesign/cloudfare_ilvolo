@@ -1,0 +1,163 @@
+<style>
+/* ═══════════════════════════════════════════════════════
+   GLOBAL OVERRIDES — applicati su TUTTE le pagine
+   ═══════════════════════════════════════════════════════ */
+
+/* Background uniforme #0b0e17 su tutti gli elementi PaperMod */
+body, html,
+.footer, footer,
+.site-content,
+.list,
+.paginav,
+.page-header {
+  background: #0b0e17 !important;
+}
+
+footer.footer {
+  border-top: 1px solid rgba(245,239,223,0.08) !important;
+}
+
+/* ── Header: hamburger mobile ── */
+.mobile-menu-btn {
+  display: none;
+  background: none;
+  border: 1px solid rgba(245,239,223,0.25);
+  border-radius: 5px;
+  width: 36px; height: 36px;
+  cursor: pointer;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 0;
+  z-index: 200;
+}
+.mobile-menu-btn span {
+  display: block;
+  width: 18px; height: 1.5px;
+  background: rgba(245,239,223,0.8);
+  transition: transform 0.25s, opacity 0.25s;
+}
+/* Menu dropdown mobile */
+.mobile-menu-panel {
+  display: none;
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  background: rgba(11,14,23,0.97);
+  backdrop-filter: blur(12px);
+  z-index: 150;
+  padding: 72px 24px 32px;
+  flex-direction: column;
+  gap: 0;
+  border-bottom: 1px solid rgba(245,239,223,0.1);
+}
+.mobile-menu-panel.is-open { display: flex; }
+.mobile-menu-panel a {
+  display: block;
+  color: rgba(245,239,223,0.8) !important;
+  font-size: 1.1rem;
+  text-decoration: none !important;
+  padding: 14px 0;
+  border-bottom: 1px solid rgba(245,239,223,0.07);
+  letter-spacing: 0.01em;
+}
+.mobile-menu-panel a:last-child { border-bottom: none; }
+.mobile-menu-close {
+  position: absolute;
+  top: 18px; right: 18px;
+  background: none; border: none;
+  color: rgba(245,239,223,0.6);
+  font-size: 1.6rem; line-height: 1;
+  cursor: pointer;
+}
+
+@media (max-width: 640px) {
+  /* Nascondi menu desktop, mostra hamburger */
+  header.header #menu { display: none !important; }
+  .mobile-menu-btn    { display: flex !important; }
+  header.header nav,
+  header.header .header-nav {
+    padding: 18px 20px !important;
+  }
+}
+
+/* ── Responsive footer ── */
+@media (max-width: 640px) {
+  .footer {
+    flex-direction: column !important;
+    gap: 1rem !important;
+    text-align: center !important;
+    padding: 1.5rem 1rem !important;
+  }
+  .footer__inner { flex-direction: column !important; align-items: center !important; }
+}
+
+/* ── Hero title responsive ── */
+@media (max-width: 640px) {
+  .hero-title-main { font-size: clamp(2rem, 12vw, 3.5rem) !important; }
+  .hero-title__label { font-size: 0.58rem !important; }
+  .s-verso__title { padding-top: 6vh !important; }
+  .hero-scroll { bottom: 20px; right: 20px; }
+}
+
+/* ── Large screen: centra i container ── */
+@media (min-width: 1600px) {
+  .rif-content,
+  .arc-search-panel,
+  .pl-results { max-width: 1300px !important; }
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+(function() {
+  /* Crea pannello menu mobile e iniettalo nel DOM */
+  var menuEl = document.getElementById('menu');
+  if (!menuEl) return;
+
+  /* Raccoglie tutti i link dal menu desktop */
+  var links = Array.from(menuEl.querySelectorAll('a'));
+  if (!links.length) return;
+
+  /* Crea bottone hamburger */
+  var btn = document.createElement('button');
+  btn.className = 'mobile-menu-btn';
+  btn.setAttribute('aria-label', 'Menu');
+  btn.innerHTML = '<span></span><span></span><span></span>';
+  btn.style.display = 'none'; // mostrato via CSS @media
+
+  /* Crea pannello dropdown */
+  var panel = document.createElement('div');
+  panel.className = 'mobile-menu-panel';
+
+  var closeBtn = document.createElement('button');
+  closeBtn.className = 'mobile-menu-close';
+  closeBtn.innerHTML = '&times;';
+  panel.appendChild(closeBtn);
+
+  links.forEach(function(a) {
+    var link = document.createElement('a');
+    link.href = a.href;
+    link.textContent = a.textContent;
+    panel.appendChild(link);
+  });
+
+  /* Inserisci nella pagina */
+  document.body.appendChild(panel);
+
+  /* Inserisci hamburger nell'header, dopo l'ultimo elemento nav */
+  var nav = document.querySelector('header.header nav, header.header .header-nav');
+  if (nav) nav.appendChild(btn);
+
+  /* Toggle */
+  function open()  { panel.classList.add('is-open');    document.body.style.overflow = 'hidden'; }
+  function close() { panel.classList.remove('is-open'); document.body.style.overflow = ''; }
+
+  btn.addEventListener('click', open);
+  closeBtn.addEventListener('click', close);
+  panel.addEventListener('click', function(e) {
+    if (e.target.tagName === 'A') close();
+  });
+})();
+});
+</script>

@@ -181,6 +181,13 @@ header.header #menu a:hover, header.header #menu .active { color: #f5efdf !impor
   color: rgba(143,184,217,0.5); text-decoration: none; white-space: nowrap; flex-shrink: 0;
 }
 .rif-unknown-item__link:hover { color: var(--gold); }
+
+@media (max-width: 640px) {
+  .rif-content         { padding: 2rem 16px 4rem; }
+  .rif-grid            { grid-template-columns: 1fr; }
+  .rif-unknown-item    { flex-direction: column; gap: 0.4rem; }
+  .rif-unknown-item__link { white-space: normal; }
+}
 </style>
 
 <script>

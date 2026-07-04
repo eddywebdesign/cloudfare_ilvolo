@@ -1657,6 +1657,61 @@ header.header #menu .active { color: var(--cream) !important; }
     text-transform: uppercase;
     color: rgba(255,255,255,0.7);
 }
+
+/* ═══════════════════════════════════════════
+   RESPONSIVE — mobile (<640px) e tablet (<860px)
+   ═══════════════════════════════════════════ */
+@media (max-width: 640px) {
+    /* Padding orizzontale ridotto per tutte le sezioni */
+    .s-tg                           { padding: 48px 20px 48px; }
+    .s-temi__left                   { padding: 40px 20px 48px; }
+    .s-narrativa                    { padding: 48px 20px; }
+    .s-epdelgiorno__body            { padding: 28px 20px 40px; }
+    .s-titolo__grid                 { padding: 0 20px; }
+    .s-titolo__text                 { padding: 40px 0; }
+    .s-titolo__media                { height: 240px; }
+    .s-titolo__lbl,
+    .s-tg__lbl,
+    .s-narrativa__lbl,
+    .s-epdelgiorno__lbl             { font-size: 0.55rem; }
+    .s-tg__intro                    { font-size: 0.9rem; }
+    .s-narrativa__text              { font-size: 0.9rem; }
+
+    /* Sezione TG: rimuovi padding laterale forzato */
+    .s-tg__intro p                  { font-size: clamp(0.85rem, 3.5vw, 1rem); }
+
+    /* Sezione Comunità: bottone più grande */
+    .comunita-cta                   { padding: 0.7rem 1.6rem; font-size: 0.75rem; }
+
+    /* CTA/Versi: title più piccolo */
+    .s-verso__title .hero-title-main { font-size: clamp(2rem, 10vw, 3rem) !important; }
+
+    /* Frecce laterali nascoste su schermi molto piccoli */
+    .verso-arrow                    { right: 16px; }
+    .hero-scroll                    { right: 16px; bottom: 20px; }
+
+    /* Logos CTA: ridimensiona su mobile */
+    .s-cta__logos                   { gap: 12px; bottom: 16px; }
+    .deejay-name                    { font-size: 1.4rem; }
+    .carp-main                      { font-size: 1.1rem; }
+
+    /* Modale ricordo: full-width */
+    .ricordo-modal__overlay         { padding: 0; }
+    .ricordo-modal__box             { width: 100%; min-height: 100vh; border-radius: 0; margin: 0; padding: 32px 20px; }
+}
+
+/* Tablet medio: ridimensiona colonne s-epdelgiorno */
+@media (max-width: 860px) {
+    .s-epdelgiorno__body            { padding: 36px 28px 48px; }
+    .s-titolo__text                 { padding: 48px 28px; }
+}
+
+/* Large screen: centra e amplia i blocchi */
+@media (min-width: 1600px) {
+    .s-tg__inner,
+    .s-narrativa__inner,
+    .s-epdelgiorno__body            { max-width: 1300px; margin-left: auto; margin-right: auto; }
+}
 </style>
 
 <!-- ════════════════════════════════════
