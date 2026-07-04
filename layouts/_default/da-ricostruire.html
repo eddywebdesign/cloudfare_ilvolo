@@ -19,9 +19,13 @@
   --c-lettura: #b09fca;
 }
 html, body { background: #0b0e17 !important; }
-.main { max-width: 960px !important; margin: 0 auto !important; padding: 6rem 24px 6rem !important; }
+.main { max-width: 960px !important; margin: 0 auto !important; padding: 5rem 24px 6rem !important; }
 
-/* ── Header ── */
+/* ── Nasconde menu di navigazione (pagina privata) ── */
+header.header #menu,
+header.header .logo-switches { display: none !important; }
+
+/* ── Header pagina ── */
 .dr-header { margin-bottom: 2rem; border-bottom: 1px solid var(--border-c); padding-bottom: 1.6rem; }
 .dr-header__label {
   font-family: var(--font-mono); font-size: 0.62rem; letter-spacing: 0.2em; text-transform: uppercase;
@@ -40,15 +44,48 @@ html, body { background: #0b0e17 !important; }
 }
 .dr-tg-link:hover { background: rgba(143,184,217,0.08); border-color: var(--gold); }
 
-/* ── Search bar ── */
-.dr-toolbar { display: flex; align-items: center; gap: 0.8rem; margin-bottom: 2.4rem; flex-wrap: wrap; }
+/* ── Filtri ── */
+.dr-filters { display: flex; flex-direction: column; gap: 0.6rem; margin-bottom: 2rem; }
+.dr-filter-row { display: flex; flex-wrap: wrap; gap: 0.4rem; align-items: center; }
+.dr-filter-row--search { gap: 0.8rem; margin-top: 0.4rem; }
+
+/* Bottoni filtro generici */
+.dr-fbtn {
+  font-family: var(--font-mono); font-size: 0.62rem; letter-spacing: 0.1em; text-transform: uppercase;
+  padding: 5px 14px; border-radius: 999px; border: 1px solid rgba(245,239,223,0.15);
+  background: transparent; color: rgba(245,239,223,0.4); cursor: pointer; transition: all 0.15s;
+}
+.dr-fbtn:hover { border-color: rgba(245,239,223,0.35); color: rgba(245,239,223,0.75); }
+.dr-fbtn.active { border-color: rgba(245,239,223,0.5); color: var(--cream); background: rgba(245,239,223,0.06); }
+
+/* Colori categoria per bottoni attivi */
+.dr-fbtn--film.active   { border-color: var(--c-film);    color: var(--c-film);    background: rgba(255,180,100,0.08); }
+.dr-fbtn--libro.active  { border-color: var(--c-libro);   color: var(--c-libro);   background: rgba(120,200,150,0.08); }
+.dr-fbtn--musica.active { border-color: var(--c-musica);  color: var(--c-musica);  background: rgba(143,184,217,0.08); }
+.dr-fbtn--lettura.active{ border-color: var(--c-lettura); color: var(--c-lettura); background: rgba(176,159,202,0.08); }
+
+/* Anno: separatore visivo dalla riga categoria */
+#dr-yr-row { padding-top: 0.2rem; border-top: 1px solid var(--border-c); }
+#dr-yr-row:empty { display: none; }
+
+/* Ricerca testo */
 .dr-search {
-  flex: 1; min-width: 220px; padding: 0.65rem 1rem; font-size: 0.9rem;
+  flex: 1; min-width: 200px; padding: 0.6rem 1rem; font-size: 0.85rem;
   font-family: var(--font-sans); border-radius: 6px; border: 1px solid var(--border-c);
   background: var(--surf); color: var(--cream);
 }
 .dr-search::placeholder { color: rgba(245,239,223,0.3); }
-.dr-total { font-family: var(--font-mono); font-size: 0.65rem; letter-spacing: 0.1em; color: rgba(245,239,223,0.3); white-space: nowrap; }
+
+/* Toggle "solo con indizi" */
+.dr-toggle {
+  display: inline-flex; align-items: center; gap: 0.5em; cursor: pointer;
+  font-family: var(--font-mono); font-size: 0.62rem; letter-spacing: 0.08em; text-transform: uppercase;
+  color: rgba(245,239,223,0.35); user-select: none; white-space: nowrap;
+}
+.dr-toggle input[type=checkbox] { accent-color: var(--gold); width: 13px; height: 13px; cursor: pointer; }
+.dr-toggle:has(input:checked) { color: var(--gold); }
+
+.dr-total { font-family: var(--font-mono); font-size: 0.65rem; letter-spacing: 0.1em; color: rgba(245,239,223,0.25); white-space: nowrap; margin-left: auto; }
 
 /* ── Sezioni per categoria ── */
 .dr-section { margin-bottom: 3rem; }
@@ -64,12 +101,8 @@ html, body { background: #0b0e17 !important; }
 .dr-section__title--libro   { color: var(--c-libro); }
 .dr-section__title--musica  { color: var(--c-musica); }
 .dr-section__title--lettura { color: var(--c-lettura); }
-.dr-section__count {
-  font-family: var(--font-mono); font-size: 0.62rem; letter-spacing: 0.08em;
-  color: rgba(245,239,223,0.3);
-}
+.dr-section__count { font-family: var(--font-mono); font-size: 0.62rem; color: rgba(245,239,223,0.3); }
 .dr-section__list { display: flex; flex-direction: column; gap: 1rem; }
-.dr-section__empty { font-family: var(--font-mono); font-size: 0.7rem; color: rgba(245,239,223,0.2); padding: 0.5rem 0; }
 
 /* ── Card ── */
 .dr-card {
@@ -78,7 +111,6 @@ html, body { background: #0b0e17 !important; }
   transition: border-color 0.2s;
 }
 .dr-card:hover { border-color: rgba(143,184,217,0.25); }
-
 .dr-card__parziali {
   font-family: var(--font-mono); font-size: 0.65rem; letter-spacing: 0.05em;
   color: rgba(245,239,223,0.38); font-style: italic;
@@ -99,15 +131,14 @@ details[open] > .dr-card__testo-toggle::before { transform: rotate(90deg); }
   line-height: 1.7; margin-top: 0.5rem; border-left: 2px solid var(--border-c); padding-left: 0.9rem;
 }
 
-/* ── Link episodio (prominente) ── */
+/* ── Link episodio ── */
 .dr-card__footer { display: flex; align-items: center; justify-content: space-between; gap: 0.8rem; flex-wrap: wrap; margin-top: 0.2rem; }
 .dr-card__ep-btn {
   display: inline-flex; align-items: center; gap: 0.6em;
   font-family: var(--font-mono); font-size: 0.7rem; letter-spacing: 0.06em;
   color: var(--cream); text-decoration: none;
   background: rgba(143,184,217,0.1); border: 1px solid rgba(143,184,217,0.25);
-  border-radius: 6px; padding: 8px 14px;
-  transition: background 0.15s, border-color 0.15s;
+  border-radius: 6px; padding: 8px 14px; transition: background 0.15s, border-color 0.15s;
 }
 .dr-card__ep-btn:hover { background: rgba(143,184,217,0.18); border-color: rgba(143,184,217,0.5); color: var(--gold); }
 .dr-card__ep-btn__play {
@@ -118,7 +149,6 @@ details[open] > .dr-card__testo-toggle::before { transform: rotate(90deg); }
 .dr-card__ep-btn__info { display: flex; flex-direction: column; gap: 1px; }
 .dr-card__ep-btn__date { font-size: 0.68rem; color: var(--gold); letter-spacing: 0.08em; }
 .dr-card__ep-btn__time { font-size: 0.6rem; color: rgba(245,239,223,0.5); letter-spacing: 0.05em; }
-
 .dr-card__tg {
   font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.08em; text-transform: uppercase;
   color: rgba(143,184,217,0.4); text-decoration: none; border: 1px solid rgba(143,184,217,0.12);
@@ -129,9 +159,11 @@ details[open] > .dr-card__testo-toggle::before { transform: rotate(90deg); }
 .dr-empty { text-align: center; color: rgba(245,239,223,0.25); font-family: var(--font-mono); font-size: 0.75rem; padding: 3rem 0; }
 
 @media (max-width: 640px) {
-  .main { padding: 5rem 16px 4rem !important; }
-  .dr-search { min-width: 0; }
-  .dr-card__ep-btn { width: 100%; justify-content: flex-start; }
+  .main { padding: 4rem 16px 4rem !important; }
+  .dr-search { min-width: 0; width: 100%; }
+  .dr-card__ep-btn { width: 100%; }
+  .dr-filter-row--search { flex-direction: column; align-items: stretch; }
+  .dr-total { margin-left: 0; }
 }
 </style>
 
@@ -139,7 +171,7 @@ details[open] > .dr-card__testo-toggle::before { transform: rotate(90deg); }
   <p class="dr-header__label">Archivio interno — non indicizzato</p>
   <h1 class="dr-header__title">Da ricostruire</h1>
   <p class="dr-header__sub">Frammenti estratti dalla trascrizione senza titolo o attribuzione certa.<br>
-  Ogni frammento è collegato all'episodio genitore: clicca il pulsante per ascoltarlo dal minuto esatto.<br>
+  Clicca il pulsante episodio per ascoltarlo su Radio DeeJay a partire dal minuto indicato.<br>
   Se riconosci un riferimento, segnalalo nel gruppo.</p>
   <a class="dr-tg-link" href="https://t.me/ilvolodelmattino" target="_blank" rel="noopener">
     <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8l-1.7 8c-.12.55-.46.68-.93.42l-2.57-1.9-1.24 1.19c-.14.13-.25.25-.52.25l.19-2.67 4.87-4.4c.21-.19-.05-.3-.32-.11L8.27 14.4l-2.5-.78c-.54-.17-.55-.54.12-.8l9.78-3.77c.45-.16.85.11.97.75z"/></svg>
@@ -147,9 +179,26 @@ details[open] > .dr-card__testo-toggle::before { transform: rotate(90deg); }
   </a>
 </div>
 
-<div class="dr-toolbar">
-  <input class="dr-search" type="search" id="dr-q" placeholder="Cerca nel testo di tutti i frammenti…" autocomplete="off">
-  <span class="dr-total" id="dr-total"></span>
+<div class="dr-filters">
+  <!-- Riga 1: categoria -->
+  <div class="dr-filter-row" id="dr-cat-row">
+    <button class="dr-fbtn active" data-cat="">Tutti</button>
+    <button class="dr-fbtn dr-fbtn--film"    data-cat="film">Film</button>
+    <button class="dr-fbtn dr-fbtn--libro"   data-cat="libro">Libro</button>
+    <button class="dr-fbtn dr-fbtn--musica"  data-cat="musica">Musica</button>
+    <button class="dr-fbtn dr-fbtn--lettura" data-cat="lettura">Letture</button>
+  </div>
+  <!-- Riga 2: anno (generata in JS) -->
+  <div class="dr-filter-row" id="dr-yr-row"></div>
+  <!-- Riga 3: ricerca + toggle indizi + contatore -->
+  <div class="dr-filter-row dr-filter-row--search">
+    <input class="dr-search" type="search" id="dr-q" placeholder="Cerca nel testo…" autocomplete="off">
+    <label class="dr-toggle">
+      <input type="checkbox" id="dr-indizi">
+      <span>Solo con indizi</span>
+    </label>
+    <span class="dr-total" id="dr-total"></span>
+  </div>
 </div>
 
 <div id="dr-film"    class="dr-section"></div>
@@ -175,6 +224,54 @@ details[open] > .dr-card__testo-toggle::before { transform: rotate(90deg); }
   var CATS = ['film', 'libro', 'musica', 'lettura'];
   var CAT_LABEL = { film: 'Film', libro: 'Libro', musica: 'Musica', lettura: 'Letture' };
 
+  /* ── Stato filtri ── */
+  var activeCat  = '';
+  var activeYear = '';
+  var soloIndizi = false;
+
+  /* ── Costruisce bottoni anno ── */
+  var years = [];
+  items.forEach(function(v) {
+    var y = (v.episodio_data || '').slice(0, 4);
+    if (y && years.indexOf(y) === -1) years.push(y);
+  });
+  years.sort(function(a, b) { return parseInt(b) - parseInt(a); });
+
+  var yrRow = document.getElementById('dr-yr-row');
+  if (years.length) {
+    var yrHtml = '<button class="dr-fbtn active" data-year="">Tutti</button>';
+    years.forEach(function(y) { yrHtml += '<button class="dr-fbtn" data-year="' + y + '">' + y + '</button>'; });
+    yrRow.innerHTML = yrHtml;
+    yrRow.addEventListener('click', function(e) {
+      var btn = e.target.closest('.dr-fbtn');
+      if (!btn) return;
+      yrRow.querySelectorAll('.dr-fbtn').forEach(function(b) { b.classList.remove('active'); });
+      btn.classList.add('active');
+      activeYear = btn.dataset.year || '';
+      render();
+    });
+  }
+
+  /* ── Bottoni categoria ── */
+  document.getElementById('dr-cat-row').addEventListener('click', function(e) {
+    var btn = e.target.closest('.dr-fbtn');
+    if (!btn) return;
+    this.querySelectorAll('.dr-fbtn').forEach(function(b) { b.classList.remove('active'); });
+    btn.classList.add('active');
+    activeCat = btn.dataset.cat || '';
+    render();
+  });
+
+  /* ── Toggle indizi ── */
+  document.getElementById('dr-indizi').addEventListener('change', function() {
+    soloIndizi = this.checked;
+    render();
+  });
+
+  /* ── Ricerca testo ── */
+  document.getElementById('dr-q').addEventListener('input', render);
+
+  /* ── Helpers ── */
   function fmtTime(sec) {
     var s = Math.floor(sec || 0);
     return (Math.floor(s/60)<10?'0':'')+Math.floor(s/60)+':'+(s%60<10?'0':'')+(s%60);
@@ -190,31 +287,33 @@ details[open] > .dr-card__testo-toggle::before { transform: rotate(90deg); }
       p[2] + '-' + p[1] + '-' + p[0] + '/';
   }
 
+  function haIndizi(v) {
+    return !!(v.autore || v.anno || (v.note && v.note !== 'non identificato'));
+  }
+
   function renderCard(v) {
     var parziali = [v.autore, v.anno, v.note].filter(function(x){ return x && x !== 'non identificato'; }).join(' · ');
     var epUrl = deejayUrl(v.episodio_data);
     var testoLungo = v.testo && v.testo.length > 200;
-    var tgUrl = 'https://t.me/ilvolodelmattino';
+    var playIcon = '<svg viewBox="0 0 10 10" fill="#0b0e17"><polygon points="2,1 9,5 2,9"/></svg>';
 
     var testoHtml = testoLungo
       ? '<details class="dr-card__testo-wrap"><summary class="dr-card__testo-toggle">Leggi trascrizione</summary>' +
         '<p class="dr-card__testo">' + esc(v.testo) + '</p></details>'
       : '<p class="dr-card__testo">' + esc(v.testo||'') + '</p>';
 
-    var playIcon = '<svg viewBox="0 0 10 10" fill="#0b0e17"><polygon points="2,1 9,5 2,9"/></svg>';
-
     return '<div class="dr-card">' +
       (parziali ? '<p class="dr-card__parziali">' + esc(parziali) + '</p>' : '') +
       testoHtml +
       '<div class="dr-card__footer">' +
-        '<a class="dr-card__ep-btn" href="' + epUrl + '" target="_blank" title="Ascolta dal minuto ' + fmtTime(v.start) + '">' +
+        '<a class="dr-card__ep-btn" href="' + epUrl + '" target="_blank">' +
           '<span class="dr-card__ep-btn__play">' + playIcon + '</span>' +
           '<span class="dr-card__ep-btn__info">' +
             '<span class="dr-card__ep-btn__date">Ep. ' + esc(v.episodio_data) + '</span>' +
             '<span class="dr-card__ep-btn__time">dal minuto ' + fmtTime(v.start) + ' — ' + fmtTime(v.end) + '</span>' +
           '</span>' +
         '</a>' +
-        '<a class="dr-card__tg" href="' + tgUrl + '" target="_blank" rel="noopener">Segnala</a>' +
+        '<a class="dr-card__tg" href="https://t.me/ilvolodelmattino" target="_blank" rel="noopener">Segnala</a>' +
       '</div>' +
     '</div>';
   }
@@ -234,8 +333,15 @@ details[open] > .dr-card__testo-toggle::before { transform: rotate(90deg); }
     var q = document.getElementById('dr-q').value.trim().toLowerCase();
     var total = 0;
     CATS.forEach(function(cat) {
+      /* Nasconde sezione se filtro categoria non corrisponde */
+      if (activeCat && activeCat !== cat) {
+        document.getElementById('dr-' + cat).innerHTML = '';
+        return;
+      }
       var visible = items.filter(function(v) {
         if (v.categoria !== cat) return false;
+        if (activeYear && (v.episodio_data||'').slice(0,4) !== activeYear) return false;
+        if (soloIndizi && !haIndizi(v)) return false;
         if (q && (v.testo||'').toLowerCase().indexOf(q) === -1) return false;
         return true;
       });
@@ -246,7 +352,6 @@ details[open] > .dr-card__testo-toggle::before { transform: rotate(90deg); }
     document.getElementById('dr-empty').hidden = total > 0;
   }
 
-  document.getElementById('dr-q').addEventListener('input', render);
   render();
 })();
 </script>
