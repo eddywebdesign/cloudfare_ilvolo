@@ -13,6 +13,7 @@
   --cream: #f5efdf;
   --surf: rgba(255,255,255,0.04);
   --border-c: rgba(245,239,223,0.1);
+  --amber: #ffb464;
   --c-film:    #ffb464;
   --c-libro:   #78c896;
   --c-musica:  #8fb8d9;
@@ -24,7 +25,6 @@ html, body { background: #0b0e17 !important; }
 /* ── Nasconde menu di navigazione (pagina privata) ── */
 header.header #menu,
 header.header .logo-switches { display: none !important; }
-/* Logo non cliccabile */
 header.header .logo { pointer-events: none !important; cursor: default !important; }
 
 /* ── Header pagina ── */
@@ -50,8 +50,6 @@ header.header .logo { pointer-events: none !important; cursor: default !importan
 .dr-filters { display: flex; flex-direction: column; gap: 0.6rem; margin-bottom: 2rem; }
 .dr-filter-row { display: flex; flex-wrap: wrap; gap: 0.4rem; align-items: center; }
 .dr-filter-row--search { gap: 0.8rem; margin-top: 0.4rem; }
-
-/* Bottoni filtro generici */
 .dr-fbtn {
   font-family: var(--font-mono); font-size: 0.62rem; letter-spacing: 0.1em; text-transform: uppercase;
   padding: 5px 14px; border-radius: 999px; border: 1px solid rgba(245,239,223,0.15);
@@ -59,26 +57,18 @@ header.header .logo { pointer-events: none !important; cursor: default !importan
 }
 .dr-fbtn:hover { border-color: rgba(245,239,223,0.35); color: rgba(245,239,223,0.75); }
 .dr-fbtn.active { border-color: rgba(245,239,223,0.5); color: var(--cream); background: rgba(245,239,223,0.06); }
-
-/* Colori categoria per bottoni attivi */
 .dr-fbtn--film.active   { border-color: var(--c-film);    color: var(--c-film);    background: rgba(255,180,100,0.08); }
 .dr-fbtn--libro.active  { border-color: var(--c-libro);   color: var(--c-libro);   background: rgba(120,200,150,0.08); }
 .dr-fbtn--musica.active { border-color: var(--c-musica);  color: var(--c-musica);  background: rgba(143,184,217,0.08); }
 .dr-fbtn--lettura.active{ border-color: var(--c-lettura); color: var(--c-lettura); background: rgba(176,159,202,0.08); }
-
-/* Anno: separatore visivo dalla riga categoria */
 #dr-yr-row { padding-top: 0.2rem; border-top: 1px solid var(--border-c); }
 #dr-yr-row:empty { display: none; }
-
-/* Ricerca testo */
 .dr-search {
   flex: 1; min-width: 200px; padding: 0.6rem 1rem; font-size: 0.85rem;
   font-family: var(--font-sans); border-radius: 6px; border: 1px solid var(--border-c);
   background: var(--surf); color: var(--cream);
 }
 .dr-search::placeholder { color: rgba(245,239,223,0.3); }
-
-/* Toggle "solo con indizi" */
 .dr-toggle {
   display: inline-flex; align-items: center; gap: 0.5em; cursor: pointer;
   font-family: var(--font-mono); font-size: 0.62rem; letter-spacing: 0.08em; text-transform: uppercase;
@@ -86,19 +76,12 @@ header.header .logo { pointer-events: none !important; cursor: default !importan
 }
 .dr-toggle input[type=checkbox] { accent-color: var(--gold); width: 13px; height: 13px; cursor: pointer; }
 .dr-toggle:has(input:checked) { color: var(--gold); }
-
 .dr-total { font-family: var(--font-mono); font-size: 0.65rem; letter-spacing: 0.1em; color: rgba(245,239,223,0.25); white-space: nowrap; margin-left: auto; }
 
-/* ── Sezioni per categoria ── */
+/* ── Sezioni ── */
 .dr-section { margin-bottom: 3rem; }
-.dr-section__head {
-  display: flex; align-items: center; gap: 0.8rem;
-  border-bottom: 1px solid var(--border-c); padding-bottom: 0.7rem; margin-bottom: 1.2rem;
-}
-.dr-section__title {
-  font-family: var(--font-mono); font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase;
-  font-weight: 500; margin: 0;
-}
+.dr-section__head { display: flex; align-items: center; gap: 0.8rem; border-bottom: 1px solid var(--border-c); padding-bottom: 0.7rem; margin-bottom: 1.2rem; }
+.dr-section__title { font-family: var(--font-mono); font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase; font-weight: 500; margin: 0; }
 .dr-section__title--film    { color: var(--c-film); }
 .dr-section__title--libro   { color: var(--c-libro); }
 .dr-section__title--musica  { color: var(--c-musica); }
@@ -110,13 +93,22 @@ header.header .logo { pointer-events: none !important; cursor: default !importan
 .dr-card {
   background: var(--surf); border: 1px solid var(--border-c); border-radius: 10px;
   padding: 1.2rem 1.4rem; display: flex; flex-direction: column; gap: 0.8rem;
-  transition: border-color 0.2s;
+  transition: border-color 0.2s, background 0.2s;
 }
 .dr-card:hover { border-color: rgba(143,184,217,0.25); }
-.dr-card__parziali {
-  font-family: var(--font-mono); font-size: 0.65rem; letter-spacing: 0.05em;
-  color: rgba(245,239,223,0.38); font-style: italic;
+/* Stato in attesa di revisione */
+.dr-card--pending { border-color: rgba(255,180,100,0.45) !important; background: rgba(255,180,100,0.04) !important; }
+.dr-card--pending:hover { border-color: rgba(255,180,100,0.65) !important; }
+.dr-card__pending-badge {
+  display: inline-flex; align-items: center; gap: 0.4em;
+  font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.12em; text-transform: uppercase;
+  color: var(--amber); background: rgba(255,180,100,0.1); border: 1px solid rgba(255,180,100,0.25);
+  border-radius: 999px; padding: 3px 10px; width: fit-content;
 }
+.dr-card__pending-badge::before { content: '●'; font-size: 0.4rem; animation: blink 2s infinite; }
+@keyframes blink { 0%,100%{opacity:1} 50%{opacity:0.3} }
+
+.dr-card__parziali { font-family: var(--font-mono); font-size: 0.65rem; letter-spacing: 0.05em; color: rgba(245,239,223,0.38); font-style: italic; }
 
 /* Testo espandibile */
 .dr-card__testo-wrap { margin: 0; }
@@ -133,32 +125,98 @@ details[open] > .dr-card__testo-toggle::before { transform: rotate(90deg); }
   line-height: 1.7; margin-top: 0.5rem; border-left: 2px solid var(--border-c); padding-left: 0.9rem;
 }
 
-/* ── Link episodio ── */
+/* ── Footer card ── */
 .dr-card__footer { display: flex; align-items: center; justify-content: space-between; gap: 0.8rem; flex-wrap: wrap; margin-top: 0.2rem; }
 .dr-card__ep-btn {
-  display: inline-flex; align-items: center; gap: 0.6em;
-  font-family: var(--font-mono); font-size: 0.7rem; letter-spacing: 0.06em;
-  color: var(--cream); text-decoration: none;
+  display: inline-flex; align-items: center; gap: 0.6em; font-family: var(--font-mono); font-size: 0.7rem;
+  letter-spacing: 0.06em; color: var(--cream); text-decoration: none;
   background: rgba(143,184,217,0.1); border: 1px solid rgba(143,184,217,0.25);
   border-radius: 6px; padding: 8px 14px; transition: background 0.15s, border-color 0.15s;
 }
 .dr-card__ep-btn:hover { background: rgba(143,184,217,0.18); border-color: rgba(143,184,217,0.5); color: var(--gold); }
-.dr-card__ep-btn__play {
-  width: 18px; height: 18px; border-radius: 50%; flex-shrink: 0;
-  background: var(--gold); display: inline-flex; align-items: center; justify-content: center;
-}
+.dr-card__ep-btn__play { width: 18px; height: 18px; border-radius: 50%; flex-shrink: 0; background: var(--gold); display: inline-flex; align-items: center; justify-content: center; }
 .dr-card__ep-btn__play svg { width: 7px; height: 7px; margin-left: 1px; }
 .dr-card__ep-btn__info { display: flex; flex-direction: column; gap: 1px; }
 .dr-card__ep-btn__date { font-size: 0.68rem; color: var(--gold); letter-spacing: 0.08em; }
 .dr-card__ep-btn__time { font-size: 0.6rem; color: rgba(245,239,223,0.5); letter-spacing: 0.05em; }
-.dr-card__tg {
+
+/* Bottoni azione card */
+.dr-card__actions { display: flex; gap: 0.4rem; }
+.dr-act-btn {
   font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.08em; text-transform: uppercase;
-  color: rgba(143,184,217,0.4); text-decoration: none; border: 1px solid rgba(143,184,217,0.12);
-  border-radius: 999px; padding: 5px 13px; transition: all 0.15s;
+  padding: 5px 13px; border-radius: 999px; border: 1px solid; cursor: pointer; background: transparent;
+  transition: all 0.15s;
 }
-.dr-card__tg:hover { color: var(--gold); border-color: rgba(143,184,217,0.35); }
+.dr-act-btn--id { border-color: rgba(120,200,150,0.35); color: #78c896; }
+.dr-act-btn--id:hover { background: rgba(120,200,150,0.1); border-color: rgba(120,200,150,0.6); }
+.dr-act-btn--trash { border-color: rgba(245,239,223,0.12); color: rgba(245,239,223,0.25); }
+.dr-act-btn--trash:hover { border-color: rgba(245,100,100,0.4); color: rgba(245,100,100,0.6); }
 
 .dr-empty { text-align: center; color: rgba(245,239,223,0.25); font-family: var(--font-mono); font-size: 0.75rem; padding: 3rem 0; }
+
+/* ── Modal dialog ── */
+dialog#dr-modal {
+  background: #141824; border: 1px solid rgba(245,239,223,0.12); border-radius: 14px;
+  padding: 0; max-width: 500px; width: calc(100vw - 32px); color: var(--cream);
+  box-shadow: 0 24px 80px rgba(0,0,0,0.6);
+}
+dialog#dr-modal::backdrop { background: rgba(0,0,0,0.75); backdrop-filter: blur(2px); }
+.dm-header {
+  padding: 1.4rem 1.6rem 1rem; border-bottom: 1px solid var(--border-c);
+  display: flex; align-items: center; justify-content: space-between;
+}
+.dm-title { font-family: var(--font-mono); font-size: 0.7rem; letter-spacing: 0.15em; text-transform: uppercase; color: var(--gold); margin: 0; }
+.dm-close { background: none; border: none; color: rgba(245,239,223,0.3); cursor: pointer; font-size: 1.2rem; line-height: 1; padding: 4px; }
+.dm-close:hover { color: var(--cream); }
+.dm-body { padding: 1.4rem 1.6rem; display: flex; flex-direction: column; gap: 1rem; }
+.dm-ep-ref {
+  font-family: var(--font-mono); font-size: 0.65rem; letter-spacing: 0.06em;
+  color: rgba(245,239,223,0.35); background: rgba(245,239,223,0.03);
+  border: 1px solid var(--border-c); border-radius: 6px; padding: 8px 12px;
+}
+.dm-cestina-row {
+  display: flex; align-items: center; gap: 0.5em; cursor: pointer;
+  font-family: var(--font-mono); font-size: 0.65rem; letter-spacing: 0.08em; text-transform: uppercase;
+  color: rgba(245,239,223,0.35); user-select: none;
+}
+.dm-cestina-row input { accent-color: #e57373; width: 14px; height: 14px; cursor: pointer; }
+.dm-cestina-row:has(input:checked) { color: #e57373; }
+.dm-fields { display: flex; flex-direction: column; gap: 0.8rem; }
+.dm-cat-row { display: flex; gap: 0.4rem; flex-wrap: wrap; }
+.dm-cat-btn {
+  font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.08em; text-transform: uppercase;
+  padding: 4px 12px; border-radius: 999px; border: 1px solid rgba(245,239,223,0.15);
+  background: transparent; color: rgba(245,239,223,0.35); cursor: pointer; transition: all 0.12s;
+}
+.dm-cat-btn.sel-film    { border-color: var(--c-film);    color: var(--c-film);    background: rgba(255,180,100,0.1); }
+.dm-cat-btn.sel-libro   { border-color: var(--c-libro);   color: var(--c-libro);   background: rgba(120,200,150,0.1); }
+.dm-cat-btn.sel-musica  { border-color: var(--c-musica);  color: var(--c-musica);  background: rgba(143,184,217,0.1); }
+.dm-cat-btn.sel-lettura { border-color: var(--c-lettura); color: var(--c-lettura); background: rgba(176,159,202,0.1); }
+.dm-input, .dm-textarea {
+  font-family: var(--font-sans); font-size: 0.88rem; background: rgba(255,255,255,0.04);
+  border: 1px solid var(--border-c); border-radius: 8px; color: var(--cream);
+  padding: 0.65rem 0.9rem; width: 100%; box-sizing: border-box; transition: border-color 0.15s;
+}
+.dm-input:focus, .dm-textarea:focus { outline: none; border-color: rgba(143,184,217,0.45); }
+.dm-input::placeholder, .dm-textarea::placeholder { color: rgba(245,239,223,0.25); }
+.dm-textarea { resize: vertical; min-height: 72px; }
+.dm-row2 { display: flex; gap: 0.6rem; }
+.dm-row2 .dm-input { flex: 1; }
+.dm-divider { border: none; border-top: 1px solid var(--border-c); margin: 0; }
+.dm-nome-label { font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase; color: rgba(245,239,223,0.3); margin-bottom: -0.4rem; }
+.dm-footer {
+  padding: 1rem 1.6rem 1.4rem; display: flex; gap: 0.6rem; justify-content: flex-end;
+  border-top: 1px solid var(--border-c);
+}
+.dm-btn-cancel { font-family: var(--font-mono); font-size: 0.65rem; padding: 9px 18px; border-radius: 8px; border: 1px solid var(--border-c); background: transparent; color: rgba(245,239,223,0.4); cursor: pointer; }
+.dm-btn-cancel:hover { color: var(--cream); border-color: rgba(245,239,223,0.3); }
+.dm-btn-send {
+  font-family: var(--font-mono); font-size: 0.65rem; padding: 9px 18px; border-radius: 8px;
+  border: none; background: rgba(143,184,217,0.18); color: var(--gold); cursor: pointer;
+  display: flex; align-items: center; gap: 0.5em; transition: background 0.15s;
+}
+.dm-btn-send:hover { background: rgba(143,184,217,0.28); }
+.dm-btn-send svg { width: 13px; height: 13px; }
 
 @media (max-width: 640px) {
   .main { padding: 4rem 16px 4rem !important; }
@@ -166,6 +224,7 @@ details[open] > .dr-card__testo-toggle::before { transform: rotate(90deg); }
   .dr-card__ep-btn { width: 100%; }
   .dr-filter-row--search { flex-direction: column; align-items: stretch; }
   .dr-total { margin-left: 0; }
+  .dm-row2 { flex-direction: column; }
 }
 </style>
 
@@ -173,16 +232,16 @@ details[open] > .dr-card__testo-toggle::before { transform: rotate(90deg); }
   <p class="dr-header__label">Archivio interno — non indicizzato</p>
   <h1 class="dr-header__title">Da ricostruire</h1>
   <p class="dr-header__sub">Frammenti estratti dalla trascrizione senza titolo o attribuzione certa.<br>
-  Clicca il pulsante episodio per ascoltarlo su Radio DeeJay a partire dal minuto indicato.<br>
-  Se riconosci un riferimento, segnalalo nel gruppo.</p>
+  Ascolta il frammento su DeeJay, poi clicca <strong style="color:var(--cream);font-weight:500">Identifica</strong> per proporre dove collocarlo,<br>
+  o <strong style="color:var(--cream);font-weight:500">Cestina</strong> se non è un riferimento culturale.<br>
+  La tua proposta arriva direttamente all'admin — il tuo nome entrerà nell'elenco dei contribuitori.</p>
   <a class="dr-tg-link" href="https://t.me/ilvolodelmattino" target="_blank" rel="noopener">
     <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8l-1.7 8c-.12.55-.46.68-.93.42l-2.57-1.9-1.24 1.19c-.14.13-.25.25-.52.25l.19-2.67 4.87-4.4c.21-.19-.05-.3-.32-.11L8.27 14.4l-2.5-.78c-.54-.17-.55-.54.12-.8l9.78-3.77c.45-.16.85.11.97.75z"/></svg>
-    Segnala nel gruppo Telegram
+    Vai al gruppo Telegram
   </a>
 </div>
 
 <div class="dr-filters">
-  <!-- Riga 1: categoria -->
   <div class="dr-filter-row" id="dr-cat-row">
     <button class="dr-fbtn active" data-cat="">Tutti</button>
     <button class="dr-fbtn dr-fbtn--film"    data-cat="film">Film</button>
@@ -190,9 +249,7 @@ details[open] > .dr-card__testo-toggle::before { transform: rotate(90deg); }
     <button class="dr-fbtn dr-fbtn--musica"  data-cat="musica">Musica</button>
     <button class="dr-fbtn dr-fbtn--lettura" data-cat="lettura">Letture</button>
   </div>
-  <!-- Riga 2: anno (generata in JS) -->
   <div class="dr-filter-row" id="dr-yr-row"></div>
-  <!-- Riga 3: ricerca + toggle indizi + contatore -->
   <div class="dr-filter-row dr-filter-row--search">
     <input class="dr-search" type="search" id="dr-q" placeholder="Cerca nel testo…" autocomplete="off">
     <label class="dr-toggle">
@@ -208,6 +265,48 @@ details[open] > .dr-card__testo-toggle::before { transform: rotate(90deg); }
 <div id="dr-musica"  class="dr-section"></div>
 <div id="dr-lettura" class="dr-section"></div>
 <p id="dr-empty" class="dr-empty" hidden>Nessun frammento trovato.</p>
+
+<!-- Modal identificazione -->
+<dialog id="dr-modal">
+  <div class="dm-header">
+    <p class="dm-title" id="dm-title">Identifica il frammento</p>
+    <button class="dm-close" id="dm-close" aria-label="Chiudi">✕</button>
+  </div>
+  <div class="dm-body">
+    <p class="dm-ep-ref" id="dm-ep-ref"></p>
+
+    <label class="dm-cestina-row">
+      <input type="checkbox" id="dm-cestina">
+      <span>Cestina questo frammento (non è un riferimento culturale)</span>
+    </label>
+
+    <div class="dm-fields" id="dm-fields">
+      <div class="dm-cat-row" id="dm-cat-row">
+        <button type="button" class="dm-cat-btn" data-cat="film">Film</button>
+        <button type="button" class="dm-cat-btn" data-cat="libro">Libro</button>
+        <button type="button" class="dm-cat-btn" data-cat="musica">Musica</button>
+        <button type="button" class="dm-cat-btn" data-cat="lettura">Lettura</button>
+      </div>
+      <input class="dm-input" id="dm-titolo" placeholder="Titolo">
+      <div class="dm-row2">
+        <input class="dm-input" id="dm-autore" placeholder="Autore / Regista / Artista">
+        <input class="dm-input" id="dm-anno"   placeholder="Anno">
+      </div>
+      <textarea class="dm-textarea" id="dm-note" placeholder="Note o variazioni (opzionale)…"></textarea>
+    </div>
+
+    <hr class="dm-divider">
+    <p class="dm-nome-label">Il tuo nome</p>
+    <input class="dm-input" id="dm-nome" placeholder="Nome o nickname — entrerà nell'elenco contribuitori" required>
+  </div>
+  <div class="dm-footer">
+    <button class="dm-btn-cancel" id="dm-cancel">Annulla</button>
+    <button class="dm-btn-send" id="dm-send">
+      <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8l-1.7 8c-.12.55-.46.68-.93.42l-2.57-1.9-1.24 1.19c-.14.13-.25.25-.52.25l.19-2.67 4.87-4.4c.21-.19-.05-.3-.32-.11L8.27 14.4l-2.5-.78c-.54-.17-.55-.54.12-.8l9.78-3.77c.45-.16.85.11.97.75z"/></svg>
+      Invia su Telegram →
+    </button>
+  </div>
+</dialog>
 
 <script>
 (function() {
@@ -231,14 +330,13 @@ details[open] > .dr-card__testo-toggle::before { transform: rotate(90deg); }
   var activeYear = '';
   var soloIndizi = false;
 
-  /* ── Costruisce bottoni anno ── */
+  /* ── Bottoni anno ── */
   var years = [];
   items.forEach(function(v) {
     var y = (v.episodio_data || '').slice(0, 4);
     if (y && years.indexOf(y) === -1) years.push(y);
   });
   years.sort(function(a, b) { return parseInt(b) - parseInt(a); });
-
   var yrRow = document.getElementById('dr-yr-row');
   if (years.length) {
     var yrHtml = '<button class="dr-fbtn active" data-year="">Tutti</button>';
@@ -264,13 +362,7 @@ details[open] > .dr-card__testo-toggle::before { transform: rotate(90deg); }
     render();
   });
 
-  /* ── Toggle indizi ── */
-  document.getElementById('dr-indizi').addEventListener('change', function() {
-    soloIndizi = this.checked;
-    render();
-  });
-
-  /* ── Ricerca testo ── */
+  document.getElementById('dr-indizi').addEventListener('change', function() { soloIndizi = this.checked; render(); });
   document.getElementById('dr-q').addEventListener('input', render);
 
   /* ── Helpers ── */
@@ -278,33 +370,45 @@ details[open] > .dr-card__testo-toggle::before { transform: rotate(90deg); }
     var s = Math.floor(sec || 0);
     return (Math.floor(s/60)<10?'0':'')+Math.floor(s/60)+':'+(s%60<10?'0':'')+(s%60);
   }
-
   function esc(s) {
     return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
   }
-
   function deejayUrl(d) {
     var p = d.split('-');
     return 'https://www.deejay.it/programmi/il-volo-del-mattino/puntate/il-volo-del-mattino-del-' +
       p[2] + '-' + p[1] + '-' + p[0] + '/';
   }
-
   function haIndizi(v) {
     return !!(v.autore || v.anno || (v.note && v.note !== 'non identificato'));
   }
+  function isPending(id) {
+    try { return !!localStorage.getItem('dr_pending_' + id); } catch(e) { return false; }
+  }
+  function setPending(id, data) {
+    try { localStorage.setItem('dr_pending_' + id, JSON.stringify(data)); } catch(e) {}
+  }
 
+  /* ── Render card ── */
   function renderCard(v) {
     var parziali = [v.autore, v.anno, v.note].filter(function(x){ return x && x !== 'non identificato'; }).join(' · ');
     var epUrl = deejayUrl(v.episodio_data);
     var testoLungo = v.testo && v.testo.length > 200;
     var playIcon = '<svg viewBox="0 0 10 10" fill="#0b0e17"><polygon points="2,1 9,5 2,9"/></svg>';
+    var pending = isPending(v.id);
 
     var testoHtml = testoLungo
       ? '<details class="dr-card__testo-wrap"><summary class="dr-card__testo-toggle">Leggi trascrizione</summary>' +
         '<p class="dr-card__testo">' + esc(v.testo) + '</p></details>'
       : '<p class="dr-card__testo">' + esc(v.testo||'') + '</p>';
 
-    return '<div class="dr-card">' +
+    var footerRight = pending
+      ? '<span class="dr-card__pending-badge">In attesa di revisione</span>'
+      : '<div class="dr-card__actions">' +
+          '<button class="dr-act-btn dr-act-btn--id" data-id="' + esc(v.id) + '">Identifica</button>' +
+          '<button class="dr-act-btn dr-act-btn--trash" data-id="' + esc(v.id) + '" data-cestina="1">Cestina</button>' +
+        '</div>';
+
+    return '<div class="dr-card' + (pending ? ' dr-card--pending' : '') + '" data-id="' + esc(v.id) + '">' +
       (parziali ? '<p class="dr-card__parziali">' + esc(parziali) + '</p>' : '') +
       testoHtml +
       '<div class="dr-card__footer">' +
@@ -315,7 +419,7 @@ details[open] > .dr-card__testo-toggle::before { transform: rotate(90deg); }
             '<span class="dr-card__ep-btn__time">dal minuto ' + fmtTime(v.start) + ' — ' + fmtTime(v.end) + '</span>' +
           '</span>' +
         '</a>' +
-        '<a class="dr-card__tg" href="https://t.me/ilvolodelmattino" target="_blank" rel="noopener">Segnala</a>' +
+        footerRight +
       '</div>' +
     '</div>';
   }
@@ -335,11 +439,7 @@ details[open] > .dr-card__testo-toggle::before { transform: rotate(90deg); }
     var q = document.getElementById('dr-q').value.trim().toLowerCase();
     var total = 0;
     CATS.forEach(function(cat) {
-      /* Nasconde sezione se filtro categoria non corrisponde */
-      if (activeCat && activeCat !== cat) {
-        document.getElementById('dr-' + cat).innerHTML = '';
-        return;
-      }
+      if (activeCat && activeCat !== cat) { document.getElementById('dr-' + cat).innerHTML = ''; return; }
       var visible = items.filter(function(v) {
         if (v.categoria !== cat) return false;
         if (activeYear && (v.episodio_data||'').slice(0,4) !== activeYear) return false;
@@ -353,6 +453,113 @@ details[open] > .dr-card__testo-toggle::before { transform: rotate(90deg); }
     document.getElementById('dr-total').textContent = total ? total + ' frammenti' : '';
     document.getElementById('dr-empty').hidden = total > 0;
   }
+
+  /* ── Modal ── */
+  var modal = document.getElementById('dr-modal');
+  var currentItem = null;
+  var selectedCat = '';
+
+  /* Click su Identifica / Cestina (delegato) */
+  document.addEventListener('click', function(e) {
+    var btn = e.target.closest('.dr-act-btn');
+    if (!btn) return;
+    var id = btn.dataset.id;
+    var item = items.find(function(v) { return v.id === id; });
+    if (!item) return;
+    openModal(item, !!btn.dataset.cestina);
+  });
+
+  function openModal(item, cestina) {
+    currentItem = item;
+    selectedCat = item.categoria || '';
+
+    document.getElementById('dm-title').textContent = cestina ? 'Cestina il frammento' : 'Identifica il frammento';
+    document.getElementById('dm-ep-ref').textContent =
+      'Ep. ' + item.episodio_data + '  ·  ' + fmtTime(item.start) + ' — ' + fmtTime(item.end) + '  ·  ID: ' + item.id;
+
+    /* Pre-compila eventuale dato parziale */
+    document.getElementById('dm-titolo').value = item.titolo || '';
+    document.getElementById('dm-autore').value = item.autore || '';
+    document.getElementById('dm-anno').value   = item.anno   || '';
+    document.getElementById('dm-note').value   = (item.note && item.note !== 'non identificato') ? item.note : '';
+    document.getElementById('dm-nome').value   = '';
+
+    var cestinaChk = document.getElementById('dm-cestina');
+    cestinaChk.checked = cestina;
+    document.getElementById('dm-fields').style.display = cestina ? 'none' : '';
+
+    updateCatButtons(selectedCat);
+    modal.showModal();
+  }
+
+  function updateCatButtons(cat) {
+    document.querySelectorAll('.dm-cat-btn').forEach(function(b) {
+      b.className = 'dm-cat-btn' + (b.dataset.cat === cat ? ' sel-' + cat : '');
+    });
+    selectedCat = cat;
+  }
+
+  /* Toggle cestina */
+  document.getElementById('dm-cestina').addEventListener('change', function() {
+    document.getElementById('dm-fields').style.display = this.checked ? 'none' : '';
+    document.getElementById('dm-title').textContent = this.checked ? 'Cestina il frammento' : 'Identifica il frammento';
+  });
+
+  /* Bottoni categoria dentro modal */
+  document.getElementById('dm-cat-row').addEventListener('click', function(e) {
+    var btn = e.target.closest('.dm-cat-btn');
+    if (!btn) return;
+    updateCatButtons(btn.dataset.cat);
+  });
+
+  /* Chiudi modal */
+  document.getElementById('dm-close').addEventListener('click', function() { modal.close(); });
+  document.getElementById('dm-cancel').addEventListener('click', function() { modal.close(); });
+  modal.addEventListener('click', function(e) { if (e.target === modal) modal.close(); });
+
+  /* Invia su Telegram */
+  document.getElementById('dm-send').addEventListener('click', function() {
+    var nome = document.getElementById('dm-nome').value.trim();
+    if (!nome) { document.getElementById('dm-nome').focus(); return; }
+    if (!currentItem) return;
+
+    var cestina = document.getElementById('dm-cestina').checked;
+    var v = currentItem;
+    var msg;
+
+    if (cestina) {
+      var noteC = document.getElementById('dm-note').value.trim();
+      msg = '🗑️ CESTINA\n' +
+        'ID: ' + v.id + '\n' +
+        'Ep: ' + v.episodio_data + ' · ' + fmtTime(v.start) + ' — ' + fmtTime(v.end) + '\n' +
+        (noteC ? 'Note: ' + noteC + '\n' : '') +
+        '👤 Segnalato da: ' + nome;
+    } else {
+      var titolo = document.getElementById('dm-titolo').value.trim();
+      var autore = document.getElementById('dm-autore').value.trim();
+      var anno   = document.getElementById('dm-anno').value.trim();
+      var note   = document.getElementById('dm-note').value.trim();
+      msg = '🔍 FRAMMENTO DA IDENTIFICARE\n' +
+        'ID: ' + v.id + '\n' +
+        'Ep: ' + v.episodio_data + ' · ' + fmtTime(v.start) + ' — ' + fmtTime(v.end) + '\n\n' +
+        '📋 PROPOSTA\n' +
+        'Categoria: ' + (CAT_LABEL[selectedCat] || selectedCat || '—') + '\n' +
+        'Titolo: ' + (titolo || '—') + '\n' +
+        'Autore: ' + (autore || '—') + '\n' +
+        'Anno: ' + (anno || '—') + '\n' +
+        (note ? 'Note: ' + note + '\n' : '') +
+        '\n👤 Segnalato da: ' + nome;
+    }
+
+    /* Apri Telegram DM admin */
+    window.open('https://t.me/eddydlc?text=' + encodeURIComponent(msg), '_blank');
+
+    /* Salva stato pending in localStorage */
+    setPending(v.id, { stato: 'in_attesa', nome: nome, ts: Date.now() });
+
+    modal.close();
+    render(); /* Aggiorna card → diventa ambra */
+  });
 
   render();
 })();

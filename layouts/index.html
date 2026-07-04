@@ -312,6 +312,12 @@
         <a href="https://t.me/ilvolodelmattino" target="_blank" class="btn btn--tg">Scrivici su Telegram</a>
     </section>
 
+    {{ if $.Site.Data.contribuitori }}
+    <section class="s-contrib">
+      <p class="s-contrib__text">Archivio costruito con la community —{{ range $i, $c := $.Site.Data.contribuitori }}{{ if $i }} ·{{ end }} {{ $c.nome }}{{ end }}</p>
+    </section>
+    {{ end }}
+
     <!-- Modale "Condividi il tuo ricordo" -->
     <div class="ricordo-modal" id="ricordo-modal" aria-hidden="true">
         <div class="ricordo-modal__backdrop" id="ricordo-backdrop"></div>
@@ -1026,6 +1032,8 @@ header.header #menu .active { color: var(--cream) !important; }
 
 /* Telegram */
 .s-tg { background: var(--bg); border-top: 1px solid var(--bord); padding: 90px 24px; text-align: center; }
+.s-contrib { border-top: 1px solid var(--bord); padding: 18px 24px; text-align: center; }
+.s-contrib__text { font-family: var(--font-mono, monospace); font-size: 0.62rem; letter-spacing: 0.05em; color: rgba(245,239,223,0.22); margin: 0; }
 .s-tg__title { font-family: var(--font-serif); font-size: clamp(1.3rem, 3vw, 2rem); font-weight: 300; color: var(--cream); margin-bottom: 1.2rem; }
 .s-tg__text { font-size: .95rem; color: var(--muted); line-height: 1.8; margin-bottom: 2rem; max-width: 600px; margin-left: auto; margin-right: auto; }
 
