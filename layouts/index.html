@@ -77,16 +77,18 @@
     {{ $epDelGiorno := index $eps 0 }}
     {{ with $epDelGiorno }}
     <section class="s-epdelgiorno">
-        <p class="lbl">Episodio del giorno</p>
-        <div class="s-epdelgiorno__head">
-            <h2 class="s-epdelgiorno__title">{{ .Title }}</h2>
-            <span class="s-epdelgiorno__date">{{ .Date.Format "02 Jan 2006" }}</span>
+        <div class="s-epdelgiorno__top">
+            <p class="lbl">Episodio del giorno</p>
             <a class="s-epdelgiorno__open" href="{{ .RelPermalink }}" aria-label="Apri la pagina completa della puntata" title="Apri la puntata">
                 <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
                     <rect x="3.5" y="3.5" width="17" height="17" rx="2" stroke="currentColor" stroke-width="1.4"/>
                     <path d="M9.5 14.5 14.5 9.5M14.5 9.5H10.2M14.5 9.5V13.8" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
             </a>
+        </div>
+        <div class="s-epdelgiorno__head">
+            <h2 class="s-epdelgiorno__title">{{ .Title }}</h2>
+            <span class="s-epdelgiorno__date">{{ .Date.Format "02 Jan 2006" }}</span>
         </div>
         <div class="s-epdelgiorno__card">
             <div class="s-epdelgiorno__media">
@@ -1060,6 +1062,15 @@ header.header #menu .active { color: var(--cream) !important; }
     flex-direction: column;
     justify-content: center;
 }
+.s-epdelgiorno__top {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.s-epdelgiorno__top .lbl { margin: 0; }
 .s-epdelgiorno__head {
     max-width: 1200px;
     width: 100%;
@@ -1115,13 +1126,11 @@ header.header #menu .active { color: var(--cream) !important; }
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    align-self: flex-start;
     width: 30px;
     height: 30px;
-    margin-left: auto;
     flex-shrink: 0;
     color: rgba(245,239,223,0.55);
-    transition: color 0.2s, border-color 0.2s;
+    transition: color 0.2s;
 }
 .s-epdelgiorno__open svg { width: 20px; height: 20px; }
 .s-epdelgiorno__open:hover { color: var(--gold); }
@@ -1208,7 +1217,7 @@ header.header #menu .active { color: var(--cream) !important; }
 .s-temi {
     position: relative;
     display: grid;
-    grid-template-columns: 460px 1fr;
+    grid-template-columns: 1fr 460px;
     border-top: 1px solid var(--bord);
 }
 /* Mobile: colonna unica, timeline sotto il titolo */
