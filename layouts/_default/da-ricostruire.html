@@ -10,16 +10,18 @@
   --font-sans:  'General Sans', -apple-system, BlinkMacSystemFont, sans-serif;
   --font-mono:  'IBM Plex Mono', monospace;
   --gold: #8fb8d9;
-  --theme: #0b0e17;
   --cream: #f5efdf;
   --surf: rgba(255,255,255,0.04);
   --border-c: rgba(245,239,223,0.1);
+  --c-film:   #ffb464;
+  --c-libro:  #78c896;
+  --c-musica: #8fb8d9;
 }
 html, body { background: #0b0e17 !important; }
 .main { max-width: 960px !important; margin: 0 auto !important; padding: 6rem 24px 6rem !important; }
 
 /* ── Header ── */
-.dr-header { margin-bottom: 2.4rem; border-bottom: 1px solid var(--border-c); padding-bottom: 1.6rem; }
+.dr-header { margin-bottom: 2rem; border-bottom: 1px solid var(--border-c); padding-bottom: 1.6rem; }
 .dr-header__label {
   font-family: var(--font-mono); font-size: 0.62rem; letter-spacing: 0.2em; text-transform: uppercase;
   color: var(--gold); margin-bottom: 0.5rem;
@@ -27,97 +29,116 @@ html, body { background: #0b0e17 !important; }
 .dr-header__title {
   font-family: var(--font-serif); font-size: 2rem; font-weight: 300; color: var(--cream); margin: 0 0 0.4rem;
 }
-.dr-header__sub { font-family: var(--font-sans); font-size: 0.85rem; color: rgba(245,239,223,0.45); }
+.dr-header__sub { font-family: var(--font-sans); font-size: 0.85rem; color: rgba(245,239,223,0.45); line-height: 1.6; }
 .dr-tg-link {
   display: inline-flex; align-items: center; gap: 0.4em;
   font-family: var(--font-mono); font-size: 0.65rem; letter-spacing: 0.08em;
-  color: var(--gold); text-decoration: none; margin-top: 0.6rem;
+  color: var(--gold); text-decoration: none; margin-top: 0.8rem;
   border: 1px solid rgba(143,184,217,0.3); border-radius: 999px; padding: 5px 14px;
   transition: background 0.15s, border-color 0.15s;
 }
 .dr-tg-link:hover { background: rgba(143,184,217,0.08); border-color: var(--gold); }
 
-/* ── Toolbar ── */
-.dr-toolbar { display: flex; flex-wrap: wrap; gap: 0.7rem; align-items: center; margin-bottom: 2rem; }
-.dr-cat-btn {
-  font-family: var(--font-mono); font-size: 0.62rem; letter-spacing: 0.12em; text-transform: uppercase;
-  padding: 6px 16px; border-radius: 999px; border: 1px solid rgba(245,239,223,0.2);
-  background: transparent; color: rgba(245,239,223,0.5); cursor: pointer; transition: all 0.15s;
-}
-.dr-cat-btn:hover { border-color: rgba(143,184,217,0.5); color: #8fb8d9; }
-.dr-cat-btn.active { border-color: var(--gold); color: var(--gold); background: rgba(143,184,217,0.08); }
+/* ── Search bar ── */
+.dr-toolbar { display: flex; align-items: center; gap: 0.8rem; margin-bottom: 2.4rem; flex-wrap: wrap; }
 .dr-search {
-  flex: 1; min-width: 180px; padding: 0.6rem 0.9rem; font-size: 0.85rem;
+  flex: 1; min-width: 220px; padding: 0.65rem 1rem; font-size: 0.9rem;
   font-family: var(--font-sans); border-radius: 6px; border: 1px solid var(--border-c);
   background: var(--surf); color: var(--cream);
 }
 .dr-search::placeholder { color: rgba(245,239,223,0.3); }
-.dr-count {
-  font-family: var(--font-mono); font-size: 0.65rem; letter-spacing: 0.1em;
-  color: rgba(245,239,223,0.35); white-space: nowrap;
-}
+.dr-total { font-family: var(--font-mono); font-size: 0.65rem; letter-spacing: 0.1em; color: rgba(245,239,223,0.3); white-space: nowrap; }
 
-/* ── Cards ── */
-.dr-list { display: flex; flex-direction: column; gap: 1rem; }
+/* ── Sezioni per categoria ── */
+.dr-section { margin-bottom: 3rem; }
+.dr-section__head {
+  display: flex; align-items: center; gap: 0.8rem;
+  border-bottom: 1px solid var(--border-c); padding-bottom: 0.7rem; margin-bottom: 1.2rem;
+}
+.dr-section__title {
+  font-family: var(--font-mono); font-size: 0.7rem; letter-spacing: 0.2em; text-transform: uppercase;
+  font-weight: 500; margin: 0;
+}
+.dr-section__title--film   { color: var(--c-film); }
+.dr-section__title--libro  { color: var(--c-libro); }
+.dr-section__title--musica { color: var(--c-musica); }
+.dr-section__count {
+  font-family: var(--font-mono); font-size: 0.62rem; letter-spacing: 0.08em;
+  color: rgba(245,239,223,0.3);
+}
+.dr-section__list { display: flex; flex-direction: column; gap: 1rem; }
+.dr-section__empty { font-family: var(--font-mono); font-size: 0.7rem; color: rgba(245,239,223,0.2); padding: 0.5rem 0; }
+
+/* ── Card ── */
 .dr-card {
   background: var(--surf); border: 1px solid var(--border-c); border-radius: 10px;
-  padding: 1.2rem 1.4rem; display: flex; flex-direction: column; gap: 0.7rem;
+  padding: 1.2rem 1.4rem; display: flex; flex-direction: column; gap: 0.8rem;
   transition: border-color 0.2s;
 }
-.dr-card:hover { border-color: rgba(143,184,217,0.3); }
-.dr-card__top { display: flex; align-items: center; gap: 0.7rem; flex-wrap: wrap; }
-.dr-badge {
-  font-family: var(--font-mono); font-size: 0.58rem; letter-spacing: 0.14em; text-transform: uppercase;
-  padding: 3px 10px; border-radius: 999px; font-weight: 500;
-}
-.dr-badge--film   { background: rgba(255,180,100,0.12); color: #ffb464; border: 1px solid rgba(255,180,100,0.25); }
-.dr-badge--libro  { background: rgba(120,200,150,0.12); color: #78c896; border: 1px solid rgba(120,200,150,0.25); }
-.dr-badge--musica { background: rgba(143,184,217,0.12); color: var(--gold); border: 1px solid rgba(143,184,217,0.25); }
+.dr-card:hover { border-color: rgba(143,184,217,0.25); }
+
 .dr-card__parziali {
   font-family: var(--font-mono); font-size: 0.65rem; letter-spacing: 0.05em;
-  color: rgba(245,239,223,0.4); font-style: italic;
+  color: rgba(245,239,223,0.38); font-style: italic;
 }
+
+/* Testo espandibile */
 .dr-card__testo-wrap { margin: 0; }
 .dr-card__testo-toggle {
   font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase;
-  list-style: none; cursor: pointer; color: rgba(245,239,223,0.3); padding: 0;
+  list-style: none; cursor: pointer; color: rgba(245,239,223,0.28); padding: 0;
   display: flex; align-items: center; gap: 0.4em; user-select: none;
 }
 .dr-card__testo-toggle::-webkit-details-marker { display: none; }
 .dr-card__testo-toggle::before { content: '▶'; font-size: 0.45rem; transition: transform 0.15s; }
 details[open] > .dr-card__testo-toggle::before { transform: rotate(90deg); }
 .dr-card__testo {
-  font-family: var(--font-sans); font-size: 0.82rem; color: rgba(245,239,223,0.55);
-  line-height: 1.65; margin-top: 0.5rem; border-left: 2px solid var(--border-c); padding-left: 0.8rem;
+  font-family: var(--font-sans); font-size: 0.82rem; color: rgba(245,239,223,0.52);
+  line-height: 1.7; margin-top: 0.5rem; border-left: 2px solid var(--border-c); padding-left: 0.9rem;
 }
-.dr-card__footer { display: flex; align-items: center; justify-content: space-between; gap: 1rem; flex-wrap: wrap; }
-.dr-card__ep-link {
-  font-family: var(--font-mono); font-size: 0.65rem; letter-spacing: 0.06em;
-  color: rgba(143,184,217,0.7); text-decoration: none;
-  display: inline-flex; align-items: center; gap: 0.4em; transition: color 0.15s;
+
+/* ── Link episodio (prominente) ── */
+.dr-card__footer { display: flex; align-items: center; justify-content: space-between; gap: 0.8rem; flex-wrap: wrap; margin-top: 0.2rem; }
+.dr-card__ep-btn {
+  display: inline-flex; align-items: center; gap: 0.6em;
+  font-family: var(--font-mono); font-size: 0.7rem; letter-spacing: 0.06em;
+  color: var(--cream); text-decoration: none;
+  background: rgba(143,184,217,0.1); border: 1px solid rgba(143,184,217,0.25);
+  border-radius: 6px; padding: 8px 14px;
+  transition: background 0.15s, border-color 0.15s;
 }
-.dr-card__ep-link:hover { color: var(--gold); }
-.dr-card__ep-link svg { width: 9px; height: 9px; flex-shrink: 0; }
+.dr-card__ep-btn:hover { background: rgba(143,184,217,0.18); border-color: rgba(143,184,217,0.5); color: var(--gold); }
+.dr-card__ep-btn__play {
+  width: 18px; height: 18px; border-radius: 50%; flex-shrink: 0;
+  background: var(--gold); display: inline-flex; align-items: center; justify-content: center;
+}
+.dr-card__ep-btn__play svg { width: 7px; height: 7px; margin-left: 1px; }
+.dr-card__ep-btn__info { display: flex; flex-direction: column; gap: 1px; }
+.dr-card__ep-btn__date { font-size: 0.68rem; color: var(--gold); letter-spacing: 0.08em; }
+.dr-card__ep-btn__time { font-size: 0.6rem; color: rgba(245,239,223,0.5); letter-spacing: 0.05em; }
+
 .dr-card__tg {
   font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.08em; text-transform: uppercase;
-  color: rgba(143,184,217,0.45); text-decoration: none; border: 1px solid rgba(143,184,217,0.15);
-  border-radius: 999px; padding: 4px 12px; transition: all 0.15s;
+  color: rgba(143,184,217,0.4); text-decoration: none; border: 1px solid rgba(143,184,217,0.12);
+  border-radius: 999px; padding: 5px 13px; transition: all 0.15s;
 }
-.dr-card__tg:hover { color: var(--gold); border-color: rgba(143,184,217,0.4); }
+.dr-card__tg:hover { color: var(--gold); border-color: rgba(143,184,217,0.35); }
 
-.dr-empty { text-align: center; color: rgba(245,239,223,0.3); font-family: var(--font-mono); font-size: 0.75rem; padding: 3rem 0; }
+.dr-empty { text-align: center; color: rgba(245,239,223,0.25); font-family: var(--font-mono); font-size: 0.75rem; padding: 3rem 0; }
 
 @media (max-width: 640px) {
   .main { padding: 5rem 16px 4rem !important; }
-  .dr-toolbar { flex-direction: column; align-items: stretch; }
   .dr-search { min-width: 0; }
+  .dr-card__ep-btn { width: 100%; justify-content: flex-start; }
 }
 </style>
 
 <div class="dr-header">
   <p class="dr-header__label">Archivio interno — non indicizzato</p>
   <h1 class="dr-header__title">Da ricostruire</h1>
-  <p class="dr-header__sub">Frammenti estratti dalla trascrizione che non hanno ancora un titolo o un'attribuzione certa.<br>Aiutaci a identificarli: ascolta il frammento e condividi nel gruppo Telegram se riconosci il riferimento.</p>
+  <p class="dr-header__sub">Frammenti estratti dalla trascrizione senza titolo o attribuzione certa.<br>
+  Ogni frammento è collegato all'episodio genitore: clicca il pulsante per ascoltarlo dal minuto esatto.<br>
+  Se riconosci un riferimento, segnalalo nel gruppo.</p>
   <a class="dr-tg-link" href="https://t.me/ilvolodelmattino" target="_blank" rel="noopener">
     <svg width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8l-1.7 8c-.12.55-.46.68-.93.42l-2.57-1.9-1.24 1.19c-.14.13-.25.25-.52.25l.19-2.67 4.87-4.4c.21-.19-.05-.3-.32-.11L8.27 14.4l-2.5-.78c-.54-.17-.55-.54.12-.8l9.78-3.77c.45-.16.85.11.97.75z"/></svg>
     Segnala nel gruppo Telegram
@@ -125,39 +146,31 @@ details[open] > .dr-card__testo-toggle::before { transform: rotate(90deg); }
 </div>
 
 <div class="dr-toolbar">
-  <button class="dr-cat-btn active" data-cat="">Tutti</button>
-  <button class="dr-cat-btn" data-cat="film">Film</button>
-  <button class="dr-cat-btn" data-cat="libro">Libro</button>
-  <button class="dr-cat-btn" data-cat="musica">Musica</button>
-  <input class="dr-search" type="search" id="dr-q" placeholder="Cerca nel testo…" autocomplete="off">
-  <span class="dr-count" id="dr-count"></span>
+  <input class="dr-search" type="search" id="dr-q" placeholder="Cerca nel testo di tutti i frammenti…" autocomplete="off">
+  <span class="dr-total" id="dr-total"></span>
 </div>
 
-<div id="dr-list" class="dr-list"></div>
+<div id="dr-film"   class="dr-section"></div>
+<div id="dr-libro"  class="dr-section"></div>
+<div id="dr-musica" class="dr-section"></div>
+<p id="dr-empty" class="dr-empty" hidden>Nessun frammento trovato.</p>
 
 <script>
 (function() {
   var RAW = {{ $.Site.Data.riferimenti | jsonify | safeJS }};
 
-  /* Raccoglie tutti i frammenti da identificare da tutte le date */
   var items = [];
   Object.keys(RAW).sort().forEach(function(data) {
     var arr = RAW[data];
     if (!Array.isArray(arr)) return;
     arr.forEach(function(v) {
-      if (!v.titolo || v.note === 'non identificato') {
-        items.push(v);
-      }
+      if (!v.titolo || v.note === 'non identificato') items.push(v);
     });
   });
-
-  /* Ordina cronologico per episodio */
   items.sort(function(a, b) { return a.episodio_data < b.episodio_data ? -1 : 1; });
 
-  var activeCat = '';
-  var listEl = document.getElementById('dr-list');
-  var countEl = document.getElementById('dr-count');
-  var searchEl = document.getElementById('dr-q');
+  var CATS = ['film', 'libro', 'musica'];
+  var CAT_LABEL = { film: 'Film', libro: 'Libro', musica: 'Musica' };
 
   function fmtTime(sec) {
     var s = Math.floor(sec || 0);
@@ -168,67 +181,63 @@ details[open] > .dr-card__testo-toggle::before { transform: rotate(90deg); }
     return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
   }
 
-  function badgeClass(cat) {
-    if (cat==='film') return 'dr-badge--film';
-    if (cat==='libro') return 'dr-badge--libro';
-    return 'dr-badge--musica';
-  }
-
   function renderCard(v) {
-    var cat = v.categoria || '';
-    var parziali = [v.autore, v.anno, v.note].filter(function(x){ return x && x!=='non identificato'; }).join(' · ');
+    var parziali = [v.autore, v.anno, v.note].filter(function(x){ return x && x !== 'non identificato'; }).join(' · ');
     var epUrl = '/episodi/' + v.episodio_data + '/#t=' + Math.floor(v.start||0);
-    var tgMsg = encodeURIComponent('Ho riconosciuto un frammento da ricostruire: ' + v.episodio_data + ' al min ' + fmtTime(v.start));
-    var tgUrl = 'https://t.me/ilvolodelmattino';
     var testoLungo = v.testo && v.testo.length > 200;
+    var tgUrl = 'https://t.me/ilvolodelmattino';
 
     var testoHtml = testoLungo
-      ? '<details class="dr-card__testo-wrap"><summary class="dr-card__testo-toggle">Mostra testo</summary>' +
+      ? '<details class="dr-card__testo-wrap"><summary class="dr-card__testo-toggle">Leggi trascrizione</summary>' +
         '<p class="dr-card__testo">' + esc(v.testo) + '</p></details>'
       : '<p class="dr-card__testo">' + esc(v.testo||'') + '</p>';
 
-    return '<div class="dr-card" data-cat="' + esc(cat) + '" data-testo="' + esc((v.testo||'').toLowerCase()) + '">' +
-      '<div class="dr-card__top">' +
-        '<span class="dr-badge ' + badgeClass(cat) + '">' + esc(cat) + '</span>' +
-        (parziali ? '<span class="dr-card__parziali">' + esc(parziali) + '</span>' : '') +
-      '</div>' +
+    var playIcon = '<svg viewBox="0 0 10 10" fill="#0b0e17"><polygon points="2,1 9,5 2,9"/></svg>';
+
+    return '<div class="dr-card">' +
+      (parziali ? '<p class="dr-card__parziali">' + esc(parziali) + '</p>' : '') +
       testoHtml +
       '<div class="dr-card__footer">' +
-        '<a class="dr-card__ep-link" href="' + epUrl + '" target="_blank">' +
-          '<svg viewBox="0 0 10 10" fill="currentColor"><polygon points="2,1 9,5 2,9"/></svg>' +
-          esc(v.episodio_data) + ' · ' + fmtTime(v.start) +
+        '<a class="dr-card__ep-btn" href="' + epUrl + '" target="_blank" title="Ascolta dal minuto ' + fmtTime(v.start) + '">' +
+          '<span class="dr-card__ep-btn__play">' + playIcon + '</span>' +
+          '<span class="dr-card__ep-btn__info">' +
+            '<span class="dr-card__ep-btn__date">Ep. ' + esc(v.episodio_data) + '</span>' +
+            '<span class="dr-card__ep-btn__time">dal minuto ' + fmtTime(v.start) + ' — ' + fmtTime(v.end) + '</span>' +
+          '</span>' +
         '</a>' +
-        '<a class="dr-card__tg" href="' + tgUrl + '" target="_blank" rel="noopener">Segnala su Telegram</a>' +
+        '<a class="dr-card__tg" href="' + tgUrl + '" target="_blank" rel="noopener">Segnala</a>' +
       '</div>' +
     '</div>';
   }
 
-  function render() {
-    var q = searchEl.value.trim().toLowerCase();
-    var visible = items.filter(function(v) {
-      if (activeCat && v.categoria !== activeCat) return false;
-      if (q && (v.testo||'').toLowerCase().indexOf(q) === -1) return false;
-      return true;
-    });
-    countEl.textContent = visible.length + ' frammenti';
-    if (!visible.length) {
-      listEl.innerHTML = '<p class="dr-empty">Nessun frammento trovato.</p>';
-      return;
-    }
-    listEl.innerHTML = visible.map(renderCard).join('');
+  function renderSection(cat, visible) {
+    var el = document.getElementById('dr-' + cat);
+    if (!visible.length) { el.innerHTML = ''; return; }
+    el.innerHTML =
+      '<div class="dr-section__head">' +
+        '<h2 class="dr-section__title dr-section__title--' + cat + '">' + CAT_LABEL[cat] + '</h2>' +
+        '<span class="dr-section__count">(' + visible.length + ')</span>' +
+      '</div>' +
+      '<div class="dr-section__list">' + visible.map(renderCard).join('') + '</div>';
   }
 
-  /* Filtri categoria */
-  document.querySelectorAll('.dr-cat-btn').forEach(function(btn) {
-    btn.addEventListener('click', function() {
-      document.querySelectorAll('.dr-cat-btn').forEach(function(b){ b.classList.remove('active'); });
-      btn.classList.add('active');
-      activeCat = btn.dataset.cat || '';
-      render();
+  function render() {
+    var q = document.getElementById('dr-q').value.trim().toLowerCase();
+    var total = 0;
+    CATS.forEach(function(cat) {
+      var visible = items.filter(function(v) {
+        if (v.categoria !== cat) return false;
+        if (q && (v.testo||'').toLowerCase().indexOf(q) === -1) return false;
+        return true;
+      });
+      renderSection(cat, visible);
+      total += visible.length;
     });
-  });
+    document.getElementById('dr-total').textContent = total ? total + ' frammenti' : '';
+    document.getElementById('dr-empty').hidden = total > 0;
+  }
 
-  searchEl.addEventListener('input', render);
+  document.getElementById('dr-q').addEventListener('input', render);
   render();
 })();
 </script>
