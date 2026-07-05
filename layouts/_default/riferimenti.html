@@ -299,7 +299,8 @@ details[open] > .rif-group__summary::before { transform: rotate(90deg); }
   var countEl = document.getElementById('rif-count');
 
   function episodioUrl(v) {
-    return '/episodi/' + v.episodio_data + '/#t=' + Math.floor(v.start);
+    var t = Math.floor(v.start || 0);
+    return '/episodi/' + v.episodio_data + '/' + (t > 0 ? '#t=' + t : '');
   }
 
   function fmtTime(sec) {
@@ -338,14 +339,8 @@ details[open] > .rif-group__summary::before { transform: rotate(90deg); }
   }
 
   function showPlaceholder(coverDiv, cat) {
-    var colors = { film: '#ffb464', libro: '#78c896', musica: '#8fb8d9', lettura: '#b09fca' };
-    var icons  = { film: '▶', libro: '◼', musica: '♪', lettura: '❝' };
-    var c = colors[cat] || '#9aa1ad';
-    var icon = icons[cat] || '?';
-    coverDiv.innerHTML = '<svg viewBox="0 0 72 108" xmlns="http://www.w3.org/2000/svg">' +
-      '<rect width="72" height="108" fill="' + c + '" opacity="0.12"/>' +
-      '<text x="36" y="62" text-anchor="middle" dominant-baseline="middle" font-size="26" fill="' + c + '" opacity="0.6">' + icon + '</text>' +
-      '</svg>';
+    var src = { film: '/immagini/cinema.jpg', libro: '/immagini/libri_pocket.jpg', musica: '/immagini/musica.jpg' }[cat] || '/immagini/cinema.jpg';
+    coverDiv.innerHTML = '<img src="' + src + '" alt="" style="width:100%;height:100%;object-fit:cover;display:block;">';
   }
 
   function loadCovers() {

@@ -473,6 +473,15 @@ dialog#dr-modal::backdrop { background: rgba(0,0,0,0.75); backdrop-filter: blur(
   document.getElementById('dr-indizi').addEventListener('change', function() { soloIndizi = this.checked; render(); });
   document.getElementById('dr-q').addEventListener('input', render);
 
+  var soloValutazione = false;
+  if (isAdmin) {
+    var vLabel = document.createElement('label');
+    vLabel.className = 'dr-toggle';
+    vLabel.innerHTML = '<input type="checkbox" id="dr-valutazione"><span>Solo in valutazione</span>';
+    document.getElementById('dr-toggle-row').appendChild(vLabel);
+    document.getElementById('dr-valutazione').addEventListener('change', function() { soloValutazione = this.checked; render(); });
+  }
+
   /* ── Helpers ── */
   function fmtTime(sec) {
     var s = Math.floor(sec || 0);
@@ -677,6 +686,7 @@ dialog#dr-modal::backdrop { background: rgba(0,0,0,0.75); backdrop-filter: blur(
         if (v.categoria !== cat) return false;
         if (activeYear && (v.episodio_data||'').slice(0,4) !== activeYear) return false;
         if (soloIndizi && !haIndizi(v)) return false;
+        if (soloValutazione && !isPending(v.id)) return false;
         if (q && (v.testo||'').toLowerCase().indexOf(q) === -1) return false;
         return true;
       });

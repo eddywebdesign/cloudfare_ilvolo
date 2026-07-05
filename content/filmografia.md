@@ -2,7 +2,7 @@
 title: "Filmografia"
 layout: "riferimenti"
 categoria: "film"
-sottotitolo: "I film citati"
+sottotitolo: "Cinema"
 hero_img: "/immagini/film.jpg"
 url: "/filmografia/"
 ---
