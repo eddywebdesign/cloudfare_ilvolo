@@ -319,7 +319,7 @@
     {{ end }}
 
     <!-- Modale "Condividi il tuo ricordo" -->
-    <div class="ricordo-modal" id="ricordo-modal" aria-hidden="true">
+    <div class="ricordo-modal" id="ricordo-modal" aria-hidden="true" style="display:none">
         <div class="ricordo-modal__backdrop" id="ricordo-backdrop"></div>
         <div class="ricordo-modal__box" role="dialog" aria-modal="true" aria-labelledby="ricordo-modal-title">
             <button type="button" class="ricordo-modal__close" id="ricordo-close" aria-label="Chiudi">&times;</button>
@@ -345,9 +345,6 @@
      CSS
 ════════════════════════════════════ -->
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,300..700;1,300..700&family=IBM+Plex+Mono:wght@400;500&display=swap');
-@import url('https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600&display=swap');
-
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 :root {
     --font-serif: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
