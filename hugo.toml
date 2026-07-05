@@ -11,10 +11,10 @@ theme = "PaperMod"
   disableThemeToggle = true
 
 [params.assets]
-  favicon = "/immagini/Volo_radiodeejay.jpg"
-  favicon16x16 = "/immagini/Volo_radiodeejay.jpg"
-  favicon32x32 = "/immagini/Volo_radiodeejay.jpg"
-  apple_touch_icon = "/immagini/Volo_radiodeejay.jpg"
+  favicon = "/immagini/favicon.png"
+  favicon16x16 = "/immagini/favicon.png"
+  favicon32x32 = "/immagini/favicon.png"
+  apple_touch_icon = "/immagini/favicon.png"
 
 [params.label]
   text = "ilVolodellaSera"
