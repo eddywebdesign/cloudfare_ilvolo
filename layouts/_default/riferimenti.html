@@ -31,6 +31,7 @@
     <input id="rif-q" type="search" placeholder="Cerca per titolo, autore, anno..." autocomplete="off">
     <span id="rif-count" class="rif-count"></span>
   </div>
+  <div id="rif-subcat-row" class="rif-subcat-row" hidden></div>
   <div id="rif-grid" class="rif-grid"></div>
 </section>
 
@@ -113,8 +114,18 @@ header.header #menu a:hover, header.header #menu .active { color: #f5efdf !impor
 .rif-content { max-width: 1100px; margin: 0 auto; padding: 3rem 24px 6rem; }
 
 .rif-toolbar {
-  display: flex; align-items: center; gap: 1rem; margin-bottom: 2.4rem;
+  display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;
 }
+.rif-subcat-row {
+  display: flex; gap: 0.4rem; flex-wrap: wrap; margin-bottom: 2rem;
+}
+.rif-sc-btn {
+  font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.1em; text-transform: uppercase;
+  padding: 5px 14px; border-radius: 999px; border: 1px solid rgba(245,239,223,0.15);
+  background: transparent; color: rgba(245,239,223,0.4); cursor: pointer; transition: all 0.15s;
+}
+.rif-sc-btn:hover { border-color: rgba(245,239,223,0.4); color: rgba(245,239,223,0.8); }
+.rif-sc-btn.active { border-color: var(--gold); color: var(--gold); background: rgba(154,161,173,0.08); }
 #rif-q {
   flex: 1; padding: 0.85rem 1.1rem; font-size: 1rem; font-family: var(--font-sans, sans-serif);
   border-radius: 6px; border: 1px solid var(--border-c);
@@ -155,6 +166,7 @@ header.header #menu a:hover, header.header #menu .active { color: #f5efdf !impor
   font-family: var(--font-sans); font-size: 0.85rem; color: rgba(245,239,223,0.6);
   line-height: 1.5; margin-top: 0.2rem;
 }
+.rif-card__sc { color: rgba(245,239,223,0.35); font-size: 0.62rem; letter-spacing: 0.06em; }
 .rif-card__episodi {
   margin-top: 0.8rem; display: flex; flex-direction: column; gap: 0.3rem;
 }
@@ -251,6 +263,37 @@ details[open] > .rif-group__summary::before { transform: rotate(90deg); }
   /* Ordina titoli A-Z */
   var titoli = Object.keys(byTitolo).sort();
 
+  /* ── Sottocategorie disponibili ── */
+  var SC_LABEL = {
+    romanzo: 'Romanzo', poesia: 'Poesia', saggio: 'Saggio',
+    citazione: 'Citazione', lettura_volo: 'Lettura in volo', documentario: 'Documentario'
+  };
+  var subcatSet = {};
+  titoli.forEach(function(k) {
+    var sc = byTitolo[k].voce.sottocategoria || '';
+    if (sc) subcatSet[sc] = true;
+  });
+  var subcats = Object.keys(subcatSet);
+  var activeSubcat = '';
+  var subcatRow = document.getElementById('rif-subcat-row');
+  if (subcats.length) {
+    subcatRow.removeAttribute('hidden');
+    var btns = '<button class="rif-sc-btn active" data-sc="">Tutti</button>';
+    subcats.forEach(function(sc) {
+      btns += '<button class="rif-sc-btn" data-sc="' + sc + '">' + (SC_LABEL[sc] || sc) + '</button>';
+    });
+    subcatRow.innerHTML = btns;
+    subcatRow.addEventListener('click', function(e) {
+      var btn = e.target.closest('.rif-sc-btn');
+      if (!btn) return;
+      subcatRow.querySelectorAll('.rif-sc-btn').forEach(function(b) { b.classList.remove('active'); });
+      btn.classList.add('active');
+      activeSubcat = btn.dataset.sc;
+      render(document.getElementById('rif-q').value);
+      loadCovers();
+    });
+  }
+
   /* ── Rendering ── */
   var grid = document.getElementById('rif-grid');
   var countEl = document.getElementById('rif-count');
@@ -282,11 +325,12 @@ details[open] > .rif-group__summary::before { transform: rotate(90deg); }
       '<img data-rif-titolo="' + esc(v.titolo) + '" data-rif-cat="' + esc(v.categoria) + '" src="" alt="" loading="lazy">' +
       '</div>';
 
+    var scLabel = v.sottocategoria ? (SC_LABEL[v.sottocategoria] || v.sottocategoria) : '';
     return '<div class="rif-card" data-titolo="' + esc(v.titolo) + '" data-meta="' + esc(meta) + '">' +
       coverEl +
       '<div class="rif-card__body">' +
         '<p class="rif-card__titolo">' + esc(v.titolo) + '</p>' +
-        (meta ? '<p class="rif-card__meta">' + esc(meta) + '</p>' : '') +
+        (meta ? '<p class="rif-card__meta">' + esc(meta) + (scLabel ? ' <span class="rif-card__sc">· ' + esc(scLabel) + '</span>' : '') + '</p>' : '') +
         (v.note && v.note !== 'non identificato' ? '<p class="rif-card__note">' + esc(v.note) + '</p>' : '') +
         '<div class="rif-card__episodi">' + epLinks + '</div>' +
       '</div>' +
@@ -331,8 +375,9 @@ details[open] > .rif-group__summary::before { transform: rotate(90deg); }
   function render(query) {
     var q = (query || '').toLowerCase().trim();
     var visible = titoli.filter(function(k) {
-      if (!q) return true;
       var g = byTitolo[k];
+      if (activeSubcat && (g.voce.sottocategoria || '') !== activeSubcat) return false;
+      if (!q) return true;
       return (g.voce.titolo + ' ' + g.voce.autore + ' ' + g.voce.anno).toLowerCase().includes(q);
     });
 

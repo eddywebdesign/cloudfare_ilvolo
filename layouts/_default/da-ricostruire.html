@@ -187,6 +187,8 @@ details[open] > .dr-card__testo-toggle::before { transform: rotate(90deg); }
   padding: 0.5rem 0.7rem; min-width: 0;
 }
 .dr-admin-input::placeholder { color: rgba(245,239,223,0.2); }
+select.dr-admin-input { appearance: none; cursor: pointer; }
+select.dr-admin-input option { background: #141824; color: var(--cream); }
 .dr-admin-actions { display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap; }
 .dr-adm-btn {
   font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.08em; text-transform: uppercase;
@@ -512,6 +514,17 @@ dialog#dr-modal::backdrop { background: rgba(0,0,0,0.75); backdrop-filter: blur(
         '<input class="dr-admin-input" style="max-width:70px" data-adm-field="anno" placeholder="Anno" value="' + esc(v.anno||'') + '">' +
         '<input class="dr-admin-input" data-adm-field="note" placeholder="Note" value="' + esc((v.note && v.note !== 'non identificato') ? v.note : '') + '">' +
       '</div>' +
+      '<div class="dr-admin-row">' +
+        '<select class="dr-admin-input" data-adm-field="subcat" style="max-width:200px">' +
+          '<option value="">— sottocategoria —</option>' +
+          '<option value="romanzo">Romanzo</option>' +
+          '<option value="poesia">Poesia</option>' +
+          '<option value="saggio">Saggio</option>' +
+          '<option value="citazione">Citazione</option>' +
+          '<option value="lettura_volo">Lettura in volo</option>' +
+          '<option value="documentario">Documentario</option>' +
+        '</select>' +
+      '</div>' +
       '<div class="dr-admin-actions">' +
         '<button class="dr-adm-btn dr-adm-btn--ok" data-adm-ok="1">Approva ▶</button>' +
         '<button class="dr-adm-btn dr-adm-btn--no" data-adm-cestina="1">Cestina</button>' +
@@ -590,13 +603,15 @@ dialog#dr-modal::backdrop { background: rgba(0,0,0,0.75); backdrop-filter: blur(
       var autore = panel.querySelector('[data-adm-field="autore"]').value.trim();
       var anno   = panel.querySelector('[data-adm-field="anno"]').value.trim();
       var note   = panel.querySelector('[data-adm-field="note"]').value.trim();
+      var subcat = (panel.querySelector('[data-adm-field="subcat"]') || {value:''}).value.trim();
       if (!titolo) { alert('Inserisci almeno il titolo.'); return; }
       cmd = py + ' --id "' + id + '"' +
-        (cat   ? ' --cat "'    + cat    + '"' : '') +
+        (cat    ? ' --cat "'    + cat    + '"' : '') +
         ' --titolo "' + titolo + '"' +
         (autore ? ' --autore "' + autore + '"' : '') +
         (anno   ? ' --anno "'   + anno   + '"' : '') +
-        (note   ? ' --note "'   + note   + '"' : '');
+        (note   ? ' --note "'   + note   + '"' : '') +
+        (subcat ? ' --subcat "' + subcat + '"' : '');
     }
     cmdEl.querySelector('.adm-cmd-text').textContent = cmd;
     cmdEl.classList.add('show');

@@ -89,11 +89,12 @@ def mostra_pendenti() -> None:
 def main() -> None:
     parser = argparse.ArgumentParser(description="Approva o cestina frammenti da /da-ricostruire/")
     parser.add_argument("--id",     help="ID del frammento (es. 2016-01-07-film-clip-0003)")
-    parser.add_argument("--cat",    help="Categoria: film | libro | musica | lettura")
-    parser.add_argument("--titolo", help="Titolo del riferimento")
-    parser.add_argument("--autore", help="Autore / regista / artista")
-    parser.add_argument("--anno",   help="Anno di uscita/pubblicazione")
-    parser.add_argument("--note",   help="Note aggiuntive")
+    parser.add_argument("--cat",      help="Categoria: film | libro | musica")
+    parser.add_argument("--subcat",   help="Sotto-categoria: romanzo|poesia|saggio|citazione|lettura_volo|documentario")
+    parser.add_argument("--titolo",   help="Titolo del riferimento")
+    parser.add_argument("--autore",   help="Autore / regista / artista")
+    parser.add_argument("--anno",     help="Anno di uscita/pubblicazione")
+    parser.add_argument("--note",     help="Note aggiuntive")
     parser.add_argument("--cestina", action="store_true", help="Marca come cestinato (rimuove dalla cernita)")
     parser.add_argument("--nome",   help="Nome contribuitore (da aggiungere all'elenco)")
     args = parser.parse_args()
@@ -119,12 +120,14 @@ def main() -> None:
         print("Errore: --titolo è obbligatorio per l'approvazione.")
         sys.exit(1)
 
-    r["titolo"]   = args.titolo
-    r["autore"]   = args.autore  or r.get("autore", "")
-    r["anno"]     = args.anno    or r.get("anno", "")
-    r["note"]     = args.note    or ""
+    r["titolo"]        = args.titolo
+    r["autore"]        = args.autore  or r.get("autore", "")
+    r["anno"]          = args.anno    or r.get("anno", "")
+    r["note"]          = args.note    or ""
     if args.cat:
         r["categoria"] = args.cat
+    if args.subcat is not None:
+        r["sottocategoria"] = args.subcat
 
     save_json(dest, records)
 

@@ -60,12 +60,20 @@ TESTO:
 
 Restituisci un array JSON (vuoto [] se non ci sono riferimenti chiari):
 [
-  {{"categoria": "film", "titolo": "...", "autore": "...", "anno": "...", "note": "..."}},
+  {{"categoria": "film", "sottocategoria": "", "titolo": "...", "autore": "...", "anno": "...", "note": "..."}},
   ...
 ]
 
 Regole:
 - categoria: solo "film", "libro" o "musica"
+- sottocategoria per "libro": "romanzo" | "poesia" | "saggio" | "citazione" | "lettura_volo" | "" (vuoto se generico)
+  - "poesia": testi poetici, liriche, componimenti (es. Invictus, Divina Commedia)
+  - "citazione": frasi o brani letti/citati da Fabio in trasmissione
+  - "lettura_volo": Fabio legge ad alta voce un brano durante la puntata
+  - "saggio": saggistica, filosofia, spiritualità, self-help
+  - "romanzo": narrativa fiction o non-fiction
+- sottocategoria per "film": "documentario" | "" (vuoto se fiction/generico)
+- sottocategoria per "musica": sempre "" (vuoto)
 - "libro" include poesie, saggi, romanzi (autore = poeta/scrittore)
 - Se un titolo è sia poesia sia film (es. Invictus), crea DUE entry separate
 - anno: anno di uscita/pubblicazione (stringa vuota se sconosciuto)
@@ -190,9 +198,18 @@ def merge_riferimenti(data_str: str, nuovi: list[dict], testo: str, durata: floa
         if rid in esistenti:
             continue  # già presente, rispetta il merge
 
+        sottocat_valide = {
+            "libro": {"romanzo", "poesia", "saggio", "citazione", "lettura_volo", ""},
+            "film":  {"documentario", ""},
+            "musica": {""},
+        }
+        sottocat = ref.get("sottocategoria", "").lower().strip()
+        if sottocat not in sottocat_valide.get(cat, {""}):
+            sottocat = ""
         esistenti[rid] = {
             "id": rid,
             "categoria": cat,
+            "sottocategoria": sottocat,
             "titolo": ref.get("titolo", ""),
             "anno": ref.get("anno", ""),
             "autore": ref.get("autore", ""),
