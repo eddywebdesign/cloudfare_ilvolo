@@ -1397,7 +1397,9 @@ header.header #menu .active { color: var(--cream) !important; }
    a cui e' agganciato). La foto diventa un blocco statico in cima. */
 @media(max-width:900px) {
     .s-temi__right {
-        position: static;
+        /* relative (non static!): .s-temi__img e' position:absolute;inset:0
+           e deve restare contenuta qui dentro, non sganciarsi fino a .s-temi */
+        position: relative;
         right: auto;
         top: auto;
         transform: none;
