@@ -354,8 +354,13 @@ details[open] > .rif-group__summary::before { transform: rotate(90deg); }
         img.onerror = function() { showPlaceholder(cover, cat); };
         img.onload  = function() { if (!this.naturalWidth) showPlaceholder(cover, cat); };
       } else if (cat === 'film' && OMDB_KEY) {
-        img.src = 'https://img.omdbapi.com/?apikey=' + OMDB_KEY + '&t=' + encodeURIComponent(titolo);
-        img.onerror = function() { showPlaceholder(cover, cat); };
+        fetch('https://www.omdbapi.com/?apikey=' + OMDB_KEY + '&t=' + encodeURIComponent(titolo) + '&type=movie')
+          .then(function(r) { return r.json(); })
+          .then(function(d) {
+            if (d.Poster && d.Poster !== 'N/A') { img.src = d.Poster; }
+            else { showPlaceholder(cover, cat); }
+          })
+          .catch(function() { showPlaceholder(cover, cat); });
       } else {
         showPlaceholder(cover, cat);
       }

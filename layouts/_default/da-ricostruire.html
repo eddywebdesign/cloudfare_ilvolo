@@ -478,7 +478,7 @@ dialog#dr-modal::backdrop { background: rgba(0,0,0,0.75); backdrop-filter: blur(
     var vLabel = document.createElement('label');
     vLabel.className = 'dr-toggle';
     vLabel.innerHTML = '<input type="checkbox" id="dr-valutazione"><span>Solo in valutazione</span>';
-    document.getElementById('dr-toggle-row').appendChild(vLabel);
+    document.querySelector('.dr-filter-row--search').insertBefore(vLabel, document.getElementById('dr-total'));
     document.getElementById('dr-valutazione').addEventListener('change', function() { soloValutazione = this.checked; render(); });
   }
 
