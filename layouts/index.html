@@ -325,9 +325,9 @@
             <button type="button" class="ricordo-modal__close" id="ricordo-close" aria-label="Chiudi">&times;</button>
             <h3 id="ricordo-modal-title" class="ricordo-modal__title">Condividi il tuo ricordo</h3>
             <form class="s-cta__form" id="ricordo-form">
-                <input type="text" name="nome" class="s-cta__input" placeholder="Il tuo nome (facoltativo)">
-                <input type="email" name="email" class="s-cta__input" placeholder="La tua email, se vuoi una risposta">
-                <textarea name="messaggio" class="s-cta__textarea" placeholder="Racconta il tuo ricordo..." required></textarea>
+                <input type="text" name="nome" class="s-cta__input" placeholder="Il tuo nome (facoltativo)" autocomplete="name">
+                <input type="email" name="email" class="s-cta__input" placeholder="La tua email, se vuoi una risposta" autocomplete="email">
+                <textarea name="messaggio" class="s-cta__textarea" placeholder="Racconta il tuo ricordo..." autocomplete="off" required></textarea>
                 <label class="s-cta__file-label" for="ricordo-file">
                     Allega una foto o un audio (facoltativo, max 8MB)
                     <input type="file" name="allegato" id="ricordo-file" class="s-cta__file" accept="image/*,audio/*">
@@ -1402,7 +1402,8 @@ header.header #menu .active { color: var(--cream) !important; }
         top: auto;
         transform: none;
         width: 100%;
-        height: 240px;
+        aspect-ratio: 3 / 4;
+        height: auto;
         order: 0;
         pointer-events: auto;
         border-bottom: 1px solid var(--bord);

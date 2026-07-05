@@ -10,6 +10,12 @@ theme = "PaperMod"
   defaultTheme = "dark"
   disableThemeToggle = true
 
+[params.assets]
+  favicon = "/immagini/Volo_radiodeejay.jpg"
+  favicon16x16 = "/immagini/Volo_radiodeejay.jpg"
+  favicon32x32 = "/immagini/Volo_radiodeejay.jpg"
+  apple_touch_icon = "/immagini/Volo_radiodeejay.jpg"
+
 [params.label]
   text = "ilVolodellaSera"
   description = "Archivio e riflessioni dal programma di Radio Deejay"
