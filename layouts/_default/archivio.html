@@ -6,8 +6,7 @@
 })();
 </script>
 <div id="arc-hero" class="hero">
-  <video class="hero-video" id="arc-hero-video" autoplay muted loop playsinline preload="auto"
-         poster="/immagini/il-volo-della-sera-COVER-1200x627.jpg">
+  <video class="hero-video" id="arc-hero-video" autoplay muted loop playsinline preload="auto">
     <source src="/video/tramonto_movement.mp4" type="video/mp4">
   </video>
   <div class="hero-loader" id="arc-hero-loader" aria-hidden="true">
@@ -97,6 +96,7 @@ header.header #menu a:hover, header.header #menu .active { color: #f5efdf !impor
 .hero-loader {
   position: absolute; inset: 0; z-index: 6;
   display: flex; align-items: center; justify-content: center;
+  background: #0b0e17;
   opacity: 1;
   transition: opacity 0.7s ease;
   pointer-events: none;

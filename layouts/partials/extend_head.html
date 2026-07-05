@@ -159,9 +159,13 @@ document.addEventListener('DOMContentLoaded', function() {
   /* Inserisci nella pagina */
   document.body.appendChild(panel);
 
-  /* Inserisci hamburger nell'header, dopo l'ultimo elemento nav */
+  /* Inserisci hamburger accanto a telegram (logo-switches), cosi' i due
+     controlli restano raggruppati a destra invece che distanziati dal
+     flex space-between dell'header su mobile. */
+  var switches = document.querySelector('.logo-switches');
   var nav = document.querySelector('header.header nav, header.header .header-nav');
-  if (nav) nav.appendChild(btn);
+  if (switches) switches.appendChild(btn);
+  else if (nav) nav.appendChild(btn);
 
   /* Toggle */
   function open()  { panel.classList.add('is-open');    document.body.style.overflow = 'hidden'; }
