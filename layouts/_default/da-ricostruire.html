@@ -200,8 +200,10 @@ details[open] > .dr-card__testo-toggle::before { transform: rotate(90deg); }
   font-family: var(--font-mono); font-size: 0.7rem; color: rgba(245,239,223,0.6);
   background: rgba(0,0,0,0.3); border: 1px solid rgba(245,239,223,0.1);
   border-radius: 6px; padding: 0.6rem 0.8rem; word-break: break-all; display: none;
+  flex-direction: column; gap: 0.5rem;
 }
-.dr-admin-cmd.show { display: flex; gap: 0.6rem; align-items: flex-start; }
+.dr-admin-cmd.show { display: flex; }
+.dr-admin-cmd__row { display: flex; gap: 0.6rem; align-items: flex-start; }
 .dr-admin-copy {
   font-family: var(--font-mono); font-size: 0.6rem; padding: 4px 10px; flex-shrink: 0;
   border-radius: 4px; border: 1px solid rgba(245,239,223,0.2); background: transparent;
@@ -209,6 +211,17 @@ details[open] > .dr-card__testo-toggle::before { transform: rotate(90deg); }
 }
 .dr-admin-copy:hover { border-color: var(--amber); color: var(--amber); }
 .dr-admin-copy.copied { border-color: #78c896; color: #78c896; }
+.dr-admin-done {
+  font-family: var(--font-mono); font-size: 0.65rem; letter-spacing: 0.08em; text-transform: uppercase;
+  padding: 6px 16px; border-radius: 6px; border: 1px solid rgba(120,200,150,0.5);
+  background: rgba(120,200,150,0.1); color: #78c896; cursor: pointer; width: 100%; text-align: center;
+  transition: all 0.15s;
+}
+.dr-admin-done:hover { background: rgba(120,200,150,0.2); }
+.dr-card--adm-done {
+  opacity: 0.3; pointer-events: none; filter: grayscale(1);
+  transition: opacity 0.4s, filter 0.4s;
+}
 
 .dr-empty { text-align: center; color: rgba(245,239,223,0.25); font-family: var(--font-mono); font-size: 0.75rem; padding: 3rem 0; }
 
@@ -400,9 +413,16 @@ dialog#dr-modal::backdrop { background: rgba(0,0,0,0.75); backdrop-filter: blur(
 
   /* ── Modalità admin ── */
   var isAdmin = new URLSearchParams(location.search).get('admin') === '1';
+  function isAdmDone(id) {
+    try { return !!sessionStorage.getItem('adm_done_' + id); } catch(ex) { return false; }
+  }
+
   if (isAdmin) {
-    /* In admin mode: items con indizi prima (più facili da identificare) */
+    /* In admin mode: non processati prima, poi per indizi, poi cronologico */
     items.sort(function(a, b) {
+      var adone = isAdmDone(a.id) ? 1 : 0;
+      var bdone = isAdmDone(b.id) ? 1 : 0;
+      if (adone !== bdone) return adone - bdone;
       var ai = haIndizi(a) ? 0 : 1;
       var bi = haIndizi(b) ? 0 : 1;
       if (ai !== bi) return ai - bi;
@@ -495,7 +515,10 @@ dialog#dr-modal::backdrop { background: rgba(0,0,0,0.75); backdrop-filter: blur(
         '<button class="dr-adm-btn dr-adm-btn--ok" data-adm-ok="1">Approva ▶</button>' +
         '<button class="dr-adm-btn dr-adm-btn--no" data-adm-cestina="1">Cestina</button>' +
       '</div>' +
-      '<div class="dr-admin-cmd" id="adm-cmd-' + esc(v.id) + '"><span class="adm-cmd-text"></span><button class="dr-admin-copy">📋 Copia</button></div>' +
+      '<div class="dr-admin-cmd" id="adm-cmd-' + esc(v.id) + '">' +
+        '<div class="dr-admin-cmd__row"><span class="adm-cmd-text" style="flex:1"></span><button class="dr-admin-copy">📋 Copia</button></div>' +
+        '<button class="dr-admin-done" data-adm-done="' + esc(v.id) + '">✓ Ho eseguito il comando — segna come fatto</button>' +
+      '</div>' +
     '</div>';
   }
 
@@ -533,6 +556,21 @@ dialog#dr-modal::backdrop { background: rgba(0,0,0,0.75); backdrop-filter: blur(
         copyBtn.classList.add('copied');
         setTimeout(function() { copyBtn.textContent = '📋 Copia'; copyBtn.classList.remove('copied'); }, 2000);
       });
+      return;
+    }
+    /* Fatto — segna card come processata e spostala in fondo */
+    var doneBtn = e.target.closest('[data-adm-done]');
+    if (doneBtn) {
+      var id = doneBtn.dataset.admDone;
+      try { sessionStorage.setItem('adm_done_' + id, '1'); } catch(ex) {}
+      var card = doneBtn.closest('.dr-card');
+      if (card) {
+        card.addEventListener('transitionend', function moveToEnd() {
+          card.removeEventListener('transitionend', moveToEnd);
+          if (card.parentNode) card.parentNode.appendChild(card);
+        });
+        card.classList.add('dr-card--adm-done');
+      }
       return;
     }
   });
@@ -584,7 +622,8 @@ dialog#dr-modal::backdrop { background: rgba(0,0,0,0.75); backdrop-filter: blur(
           '</div>';
 
     var adminHighlight = isAdmin && haIndizi(v) ? ' dr-card--adm-indizi' : '';
-    return '<div class="dr-card' + (pending ? ' dr-card--pending' : '') + adminHighlight + '" data-id="' + esc(v.id) + '">' +
+    var adminDone = isAdmin && isAdmDone(v.id) ? ' dr-card--adm-done' : '';
+    return '<div class="dr-card' + (pending ? ' dr-card--pending' : '') + adminHighlight + adminDone + '" data-id="' + esc(v.id) + '">' +
       (parziali ? '<p class="dr-card__parziali">' + esc(parziali) + '</p>' : '') +
       testoHtml +
       '<div class="dr-card__footer">' +
