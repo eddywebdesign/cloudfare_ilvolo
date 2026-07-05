@@ -9,6 +9,7 @@
 {{ $categoria  := .Params.categoria }}
 {{ $titoloPag  := .Title }}
 {{ $sottotitolo := .Params.sottotitolo }}
+{{ $labelHero  := .Params.label_hero | default $categoria }}
 {{ $heroImg    := .Params.hero_img | default "/immagini/archivio.jpg" }}
 
 <div class="rif-hero hero">
@@ -20,7 +21,7 @@
     </svg>
   </div>
   <div class="s-verso__title visible">
-    <p class="hero-title__label">{{ $categoria | upper }}</p>
+    <p class="hero-title__label">{{ $labelHero | upper }}</p>
     <h1 class="hero-title-main">{{ $titoloPag }}</h1>
     <p class="hero-title__label hero-title__label--below">{{ $sottotitolo }}</p>
   </div>
