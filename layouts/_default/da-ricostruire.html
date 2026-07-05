@@ -396,6 +396,7 @@ dialog#dr-modal::backdrop { background: rgba(0,0,0,0.75); backdrop-filter: blur(
 <script>
 (function() {
   var RAW = {{ $.Site.Data.riferimenti | jsonify | safeJS }};
+  var APPROVA_PATH = {{ $.Site.Data.admin.script_path | jsonify | safeJS }};
 
   var items = [];
   Object.keys(RAW).sort().forEach(function(data) {
@@ -578,22 +579,24 @@ dialog#dr-modal::backdrop { background: rgba(0,0,0,0.75); backdrop-filter: blur(
   function buildAdminCmd(panel, cestina) {
     var id = panel.dataset.admId;
     var cmdEl = document.getElementById('adm-cmd-' + id);
+    var py = APPROVA_PATH ? 'python "' + APPROVA_PATH + '"' : 'python scripts/approva.py';
     var cmd;
     if (cestina) {
-      cmd = 'python scripts/approva.py --id "' + id + '" --cestina';
+      cmd = py + ' --id "' + id + '" --cestina';
     } else {
-      var cat = (panel.querySelector('.dr-admin-cat-btn.sel') || {}).dataset && panel.querySelector('.dr-admin-cat-btn.sel').dataset.admCat || '';
+      var selCatBtn = panel.querySelector('.dr-admin-cat-btn.sel');
+      var cat    = selCatBtn ? selCatBtn.dataset.admCat : '';
       var titolo = panel.querySelector('[data-adm-field="titolo"]').value.trim();
       var autore = panel.querySelector('[data-adm-field="autore"]').value.trim();
       var anno   = panel.querySelector('[data-adm-field="anno"]').value.trim();
       var note   = panel.querySelector('[data-adm-field="note"]').value.trim();
       if (!titolo) { alert('Inserisci almeno il titolo.'); return; }
-      cmd = 'python scripts/approva.py --id "' + id + '"' +
-        (cat   ? ' --cat "' + cat   + '"' : '') +
+      cmd = py + ' --id "' + id + '"' +
+        (cat   ? ' --cat "'    + cat    + '"' : '') +
         ' --titolo "' + titolo + '"' +
         (autore ? ' --autore "' + autore + '"' : '') +
-        (anno   ? ' --anno "'  + anno   + '"' : '') +
-        (note   ? ' --note "'  + note   + '"' : '');
+        (anno   ? ' --anno "'   + anno   + '"' : '') +
+        (note   ? ' --note "'   + note   + '"' : '');
     }
     cmdEl.querySelector('.adm-cmd-text').textContent = cmd;
     cmdEl.classList.add('show');
