@@ -115,6 +115,8 @@ header.header .logo { pointer-events: none !important; cursor: default !importan
 /* Stato in attesa di revisione */
 .dr-card--pending { border-color: rgba(255,180,100,0.45) !important; background: rgba(255,180,100,0.04) !important; }
 .dr-card--pending:hover { border-color: rgba(255,180,100,0.65) !important; }
+.dr-card--adm-indizi { border-color: rgba(120,200,150,0.4) !important; background: rgba(120,200,150,0.03) !important; }
+.dr-card--adm-indizi:hover { border-color: rgba(120,200,150,0.65) !important; }
 .dr-card__pending-badge {
   display: inline-flex; align-items: center; gap: 0.4em;
   font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.12em; text-transform: uppercase;
@@ -387,6 +389,7 @@ dialog#dr-modal::backdrop { background: rgba(0,0,0,0.75); backdrop-filter: blur(
     var arr = RAW[data];
     if (!Array.isArray(arr)) return;
     arr.forEach(function(v) {
+      if (v.note === 'cestinato') return;
       if (!v.titolo || v.note === 'non identificato') items.push(v);
     });
   });
@@ -397,6 +400,15 @@ dialog#dr-modal::backdrop { background: rgba(0,0,0,0.75); backdrop-filter: blur(
 
   /* ── Modalità admin ── */
   var isAdmin = new URLSearchParams(location.search).get('admin') === '1';
+  if (isAdmin) {
+    /* In admin mode: items con indizi prima (più facili da identificare) */
+    items.sort(function(a, b) {
+      var ai = haIndizi(a) ? 0 : 1;
+      var bi = haIndizi(b) ? 0 : 1;
+      if (ai !== bi) return ai - bi;
+      return a.episodio_data < b.episodio_data ? -1 : 1;
+    });
+  }
 
   /* ── Stato filtri ── */
   var activeCat  = '';
@@ -571,7 +583,8 @@ dialog#dr-modal::backdrop { background: rgba(0,0,0,0.75); backdrop-filter: blur(
             '<button class="dr-act-btn dr-act-btn--trash" data-id="' + esc(v.id) + '" data-cestina="1">Cestina</button>' +
           '</div>';
 
-    return '<div class="dr-card' + (pending ? ' dr-card--pending' : '') + '" data-id="' + esc(v.id) + '">' +
+    var adminHighlight = isAdmin && haIndizi(v) ? ' dr-card--adm-indizi' : '';
+    return '<div class="dr-card' + (pending ? ' dr-card--pending' : '') + adminHighlight + '" data-id="' + esc(v.id) + '">' +
       (parziali ? '<p class="dr-card__parziali">' + esc(parziali) + '</p>' : '') +
       testoHtml +
       '<div class="dr-card__footer">' +
