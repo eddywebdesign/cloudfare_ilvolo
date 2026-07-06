@@ -1225,11 +1225,8 @@ header.header #menu .active { color: var(--cream) !important; }
     grid-template-columns: 1fr 460px;
     border-top: 1px solid var(--bord);
 }
-/* Mobile/tablet/laptop stretto: colonna unica, timeline sotto il titolo.
-   Sotto ~1300px la colonna sinistra (1fr) diventa cosi' stretta che il
-   testo delle parole arriva sotto la foto flottante (vedi .s-temi__right
-   piu' sotto) e viene coperto: niente piu' 2 colonne fino a quella soglia. */
-@media(max-width:1300px) {
+/* Mobile: colonna unica, timeline sotto il titolo */
+@media(max-width:900px) {
     .s-temi { grid-template-columns: 1fr; }
     .s-temi__left { order: 2; border-right: none; border-top: 1px solid var(--bord); }
     .s-temi__center { order: 1; }
@@ -1384,22 +1381,37 @@ header.header #menu .active { color: var(--cream) !important; }
 .s-temi__h2.active,
 .s-temi__h2:hover { color: var(--cream); font-weight: 600; }
 
-/* Foto: card contenuta, MAI in overlay assoluto. L'overlay assoluto
-   originale (right: calc(460px+20px)) si sovrapponeva sempre al testo
-   della colonna sinistra a qualunque larghezza schermo (verificato: lo
-   fa persino a 1920px, solo che li' capita su spazio vuoto). Per essere
-   davvero responsive a ogni schermo, la card e' sempre in flusso normale,
-   mai flottante sopra il testo.
-   .s-temi__img e' position:absolute;inset:0: .s-temi__right deve restare
-   position:relative per contenerla (non static). */
+/* Overlay immagine — pannello piccolo che segue la h2 attiva al passaggio
+   del mouse (vedi JS: temiPanel.style.top). Funzione voluta, non un bug:
+   il pannello si sovrappone leggermente alla lista per design. */
 .s-temi__right {
-    position: relative;
-    width: min(70%, 260px);
-    aspect-ratio: 3 / 4;
-    order: 0;
-    margin: 32px auto;
-    border-radius: 6px;
-    overflow: hidden;
+    position: absolute;
+    right: calc(460px + 20px);
+    width: 300px;
+    height: 380px;
+    pointer-events: none;
+    z-index: 5;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: top 0.3s ease;
+}
+/* Solo su telefoni veri (non tablet/laptop): niente overlay assoluto,
+   non c'e' spazio. Foto come card statica impilata in cima. */
+@media(max-width:640px) {
+    .s-temi__right {
+        position: relative;
+        right: auto;
+        top: auto;
+        transform: none;
+        width: min(70%, 260px);
+        aspect-ratio: 3 / 4;
+        height: auto;
+        order: 0;
+        margin: 32px auto;
+        border-radius: 6px;
+        overflow: hidden;
+        pointer-events: auto;
+    }
 }
 .s-temi__img {
     position: absolute;
@@ -2023,6 +2035,19 @@ header.header #menu .active { color: var(--cream) !important; }
             temiImgs.forEach(function(el) { el.classList.remove('active'); });
             h2.classList.add('active');
             if (temiImgs[idx]) temiImgs[idx].classList.add('active');
+
+            /* Centra il pannello verticalmente sulla h2 attiva (solo
+               quando e' in overlay assoluto: sotto i 640px e' una card
+               statica in flusso, top non deve toccarla). */
+            if (temiPanel && temiSection && window.innerWidth > 640) {
+                var secRect   = temiSection.getBoundingClientRect();
+                var h2Rect    = h2.getBoundingClientRect();
+                var midY      = h2Rect.top - secRect.top + h2Rect.height / 2;
+                var panelH    = temiPanel.offsetHeight;
+                var newTop    = Math.max(16, Math.min(midY - panelH / 2, temiSection.offsetHeight - panelH - 16));
+                temiPanel.style.top       = newTop + 'px';
+                temiPanel.style.transform = 'none';
+            }
         });
     });
 
