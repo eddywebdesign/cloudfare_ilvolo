@@ -180,17 +180,27 @@
     </section>
 
     <!-- Temi esistenziali -->
+    {{ $temiEsistenziali := slice
+        (dict "titolo" "Solitudine" "img" "/immagini/esistenziali/solitudine.jpg")
+        (dict "titolo" "Libertà" "img" "/immagini/esistenziali/libert%C3%A0.jpg")
+        (dict "titolo" "Sogno" "img" "/immagini/esistenziali/sogno.jpg")
+        (dict "titolo" "Amore" "img" "/immagini/esistenziali/amore.jpg")
+        (dict "titolo" "Tempo" "img" "/immagini/esistenziali/tempo.jpg")
+        (dict "titolo" "Coraggio" "img" "/immagini/esistenziali/coraggio.jpg")
+        (dict "titolo" "Malinconia" "img" "/immagini/esistenziali/malinconia.jpg")
+    }}
     <section class="s-temi">
         <div class="s-temi__left">
             <p class="lbl">Spunti esistenziali</p>
             <div class="s-temi__list">
-                <h2 class="s-temi__h2 active" data-idx="0">Solitudine</h2>
-                <h2 class="s-temi__h2" data-idx="1">Libertà</h2>
-                <h2 class="s-temi__h2" data-idx="2">Sogno</h2>
-                <h2 class="s-temi__h2" data-idx="3">Amore</h2>
-                <h2 class="s-temi__h2" data-idx="4">Tempo</h2>
-                <h2 class="s-temi__h2" data-idx="5">Coraggio</h2>
-                <h2 class="s-temi__h2" data-idx="6">Malinconia</h2>
+                {{ range $i, $t := $temiEsistenziali }}
+                <div class="s-temi__pair">
+                    <h2 class="s-temi__h2{{ if eq $i 0 }} active{{ end }}" data-idx="{{ $i }}">{{ $t.titolo }}</h2>
+                    {{/* Foto solo su mobile (<900px): impilata subito sotto la sua parola,
+                         niente hover — vedi .s-temi__pair-img nel CSS piu' sotto. */}}
+                    <div class="s-temi__pair-img" style="background-image:url('{{ $t.img }}')"></div>
+                </div>
+                {{ end }}
             </div>
         </div>
         <div class="s-temi__center">
@@ -220,13 +230,9 @@
             <a href="/archivio/" class="s-temi__archive-link">Vai all'archivio completo →</a>
         </div>
         <div class="s-temi__right">
-            <div class="s-temi__img active" style="background-image:url('/immagini/esistenziali/solitudine.jpg')"></div>
-            <div class="s-temi__img" style="background-image:url('/immagini/esistenziali/libert%C3%A0.jpg')"></div>
-            <div class="s-temi__img" style="background-image:url('/immagini/esistenziali/sogno.jpg')"></div>
-            <div class="s-temi__img" style="background-image:url('/immagini/esistenziali/amore.jpg')"></div>
-            <div class="s-temi__img" style="background-image:url('/immagini/esistenziali/tempo.jpg')"></div>
-            <div class="s-temi__img" style="background-image:url('/immagini/esistenziali/coraggio.jpg')"></div>
-            <div class="s-temi__img" style="background-image:url('/immagini/esistenziali/malinconia.jpg')"></div>
+            {{ range $i, $t := $temiEsistenziali }}
+            <div class="s-temi__img{{ if eq $i 0 }} active{{ end }}" style="background-image:url('{{ $t.img }}')"></div>
+            {{ end }}
         </div>
     </section>
 
@@ -1382,9 +1388,24 @@ header.header #menu .active { color: var(--cream) !important; }
     margin: 0;
     user-select: none;
 }
-.s-temi__h2:first-child { border-top: 1px solid var(--bord); }
+.s-temi__pair:first-child .s-temi__h2 { border-top: 1px solid var(--bord); }
 .s-temi__h2.active,
 .s-temi__h2:hover { color: var(--cream); font-weight: 600; }
+/* Foto per-parola: nascosta su desktop (li' c'e' il pannello hover
+   .s-temi__right), mostrata impilata sotto la sua h2 solo su mobile. */
+.s-temi__pair-img { display: none; }
+@media(max-width:900px) {
+    .s-temi__pair-img {
+        display: block;
+        width: 100%;
+        aspect-ratio: 3 / 4;
+        margin: 0 0 24px;
+        border-radius: 6px;
+        background-size: cover;
+        background-position: center;
+        filter: brightness(0.7) saturate(0.8);
+    }
+}
 
 /* Overlay immagine — pannello piccolo che segue la h2 attiva al passaggio
    del mouse (vedi JS: temiPanel.style.top). Funzione voluta, non un bug:
@@ -1400,24 +1421,11 @@ header.header #menu .active { color: var(--cream) !important; }
     transform: translateY(-50%);
     transition: top 0.3s ease;
 }
-/* Sotto i 900px (stessa soglia della griglia sopra): niente overlay
-   assoluto, non c'e' spazio per i suoi 300px fissi. Foto come card
-   statica impilata in cima. */
+/* Sotto i 900px niente hover (touch), niente overlay assoluto: il
+   pannello unico sparisce, ogni parola ha gia' la sua foto impilata
+   subito sotto (.s-temi__pair-img, vedi .s-temi__list piu' sotto). */
 @media(max-width:900px) {
-    .s-temi__right {
-        position: relative;
-        right: auto;
-        top: auto;
-        transform: none;
-        width: min(70%, 260px);
-        aspect-ratio: 3 / 4;
-        height: auto;
-        order: 0;
-        margin: 32px auto;
-        border-radius: 6px;
-        overflow: hidden;
-        pointer-events: auto;
-    }
+    .s-temi__right { display: none; }
 }
 .s-temi__img {
     position: absolute;
