@@ -1225,7 +1225,12 @@ header.header #menu .active { color: var(--cream) !important; }
     grid-template-columns: 1fr 460px;
     border-top: 1px solid var(--bord);
 }
-/* Mobile: colonna unica, timeline sotto il titolo */
+/* Mobile/tablet: colonna unica, timeline sotto il titolo. STESSA soglia
+   (900px) della regola .s-temi__right piu' sotto: l'overlay assoluto
+   della foto e' calcolato sulla griglia a 2 colonne (right: calc(460px+
+   20px), pannello largo 300px) e sotto i 900px la colonna sinistra (1fr)
+   diventa troppo stretta per ospitarlo — finisce fuori schermo. Le due
+   soglie DEVONO restare allineate. */
 @media(max-width:900px) {
     .s-temi { grid-template-columns: 1fr; }
     .s-temi__left { order: 2; border-right: none; border-top: 1px solid var(--bord); }
@@ -1395,9 +1400,10 @@ header.header #menu .active { color: var(--cream) !important; }
     transform: translateY(-50%);
     transition: top 0.3s ease;
 }
-/* Solo su telefoni veri (non tablet/laptop): niente overlay assoluto,
-   non c'e' spazio. Foto come card statica impilata in cima. */
-@media(max-width:640px) {
+/* Sotto i 900px (stessa soglia della griglia sopra): niente overlay
+   assoluto, non c'e' spazio per i suoi 300px fissi. Foto come card
+   statica impilata in cima. */
+@media(max-width:900px) {
     .s-temi__right {
         position: relative;
         right: auto;
@@ -2037,9 +2043,9 @@ header.header #menu .active { color: var(--cream) !important; }
             if (temiImgs[idx]) temiImgs[idx].classList.add('active');
 
             /* Centra il pannello verticalmente sulla h2 attiva (solo
-               quando e' in overlay assoluto: sotto i 640px e' una card
+               quando e' in overlay assoluto: sotto i 900px e' una card
                statica in flusso, top non deve toccarla). */
-            if (temiPanel && temiSection && window.innerWidth > 640) {
+            if (temiPanel && temiSection && window.innerWidth > 900) {
                 var secRect   = temiSection.getBoundingClientRect();
                 var h2Rect    = h2.getBoundingClientRect();
                 var midY      = h2Rect.top - secRect.top + h2Rect.height / 2;
