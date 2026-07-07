@@ -10,12 +10,41 @@
 // verifica del dominio.
 const DEST_EMAIL = "eddywebdesign2.0@gmail.com";
 
+// Sito momentaneamente chiuso al pubblico: in attesa di autorizzazione dei
+// contenuti audio da Radio Deejay/Fabio Volo. Rimettere a false per riaprire.
+const MAINTENANCE = true;
+
+const MAINTENANCE_PAGE = `<!doctype html>
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<title>Il Volo della Sera</title>
+<meta name="robots" content="noindex, nofollow">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  body { font-family: system-ui, sans-serif; text-align: center; padding: 4rem 1.5rem; color: #333; }
+  h1 { font-size: 1.4rem; }
+</style>
+</head>
+<body>
+<h1>Sito temporaneamente non disponibile</h1>
+<p>In attesa di autorizzazione dei contenuti da parte degli aventi diritto.</p>
+</body>
+</html>`;
+
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
 
     if (url.pathname === "/api/ricordo" && request.method === "POST") {
       return handleRicordo(request, env);
+    }
+
+    if (MAINTENANCE) {
+      return new Response(MAINTENANCE_PAGE, {
+        status: 503,
+        headers: { "content-type": "text/html; charset=utf-8", "X-Robots-Tag": "noindex" },
+      });
     }
 
     return env.ASSETS.fetch(request);
