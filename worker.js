@@ -50,6 +50,14 @@ const MAINTENANCE_PAGE = `<!doctype html>
 </body>
 </html>`;
 
+const PREVIEW_COOKIE = "ivds_preview";
+
+function hasPreviewCookie(request, env) {
+  const cookie = request.headers.get("Cookie") || "";
+  const match = cookie.match(new RegExp(`${PREVIEW_COOKIE}=([^;]+)`));
+  return !!match && !!env.PREVIEW_TOKEN && match[1] === env.PREVIEW_TOKEN;
+}
+
 export default {
   async fetch(request, env) {
     const url = new URL(request.url);
@@ -58,7 +66,22 @@ export default {
       return handleRicordo(request, env);
     }
 
-    if (MAINTENANCE) {
+    // Accesso riservato: /?preview=<token> imposta un cookie di sblocco e
+    // reindirizza alla stessa pagina senza il parametro in chiaro nell'URL.
+    // Il token vero vive SOLO nel secret PREVIEW_TOKEN (wrangler/API), mai nel codice.
+    const previewParam = url.searchParams.get("preview");
+    if (previewParam && env.PREVIEW_TOKEN && previewParam === env.PREVIEW_TOKEN) {
+      url.searchParams.delete("preview");
+      return new Response(null, {
+        status: 302,
+        headers: {
+          Location: url.pathname + url.search,
+          "Set-Cookie": `${PREVIEW_COOKIE}=${env.PREVIEW_TOKEN}; Path=/; Max-Age=2592000; HttpOnly; Secure; SameSite=Lax`,
+        },
+      });
+    }
+
+    if (MAINTENANCE && !hasPreviewCookie(request, env)) {
       // l'immagine di sfondo della pagina di manutenzione deve restare
       // raggiungibile anche col sito "chiuso", altrimenti il browser
       // richiederebbe di nuovo questa stessa funzione fetch() in loop
