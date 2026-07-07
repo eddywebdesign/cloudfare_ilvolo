@@ -51,8 +51,13 @@ const MAINTENANCE_PAGE = `<!doctype html>
 </html>`;
 
 const PREVIEW_COOKIE = "ivds_preview";
-const PREVIEW_DURATION_SEC = 86400; // 1 giorno
+const PREVIEW_DURATION_SEC = 86400; // 1 giorno per ogni concessione del link
 const PREVIEW_MAX_VISITS = 2; // oltre le 2 visite, il cookie non basta piu'
+// Scadenza assoluta del link ?preview=<token>: dopo questa data il link non
+// concede piu' nuovi accessi, a prescindere da quante volte sia stato usato.
+// Le concessioni gia' fatte prima restano valide secondo le loro regole
+// (1 giorno/2 visite), non vengono revocate retroattivamente.
+const TOKEN_ABSOLUTE_EXPIRY = Date.parse("2026-07-09T16:00:00Z") / 1000;
 
 // Il cookie codifica token, numero di visite gia' consumate e scadenza
 // assoluta: "<token>.<visite>.<scadenzaUnix>". La scadenza si fissa alla
@@ -95,7 +100,10 @@ export default {
     // PREVIEW_MAX_VISITS visite valide per PREVIEW_DURATION_SEC. Il token
     // vero vive SOLO nel secret PREVIEW_TOKEN (wrangler/API), mai nel codice.
     const previewParam = url.searchParams.get("preview");
-    if (previewParam && env.PREVIEW_TOKEN && previewParam === env.PREVIEW_TOKEN) {
+    if (
+      previewParam && env.PREVIEW_TOKEN && previewParam === env.PREVIEW_TOKEN &&
+      Date.now() / 1000 < TOKEN_ABSOLUTE_EXPIRY
+    ) {
       url.searchParams.delete("preview");
       const expiry = Math.floor(Date.now() / 1000) + PREVIEW_DURATION_SEC;
       return new Response(null, {
