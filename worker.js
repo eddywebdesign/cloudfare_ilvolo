@@ -51,11 +51,36 @@ const MAINTENANCE_PAGE = `<!doctype html>
 </html>`;
 
 const PREVIEW_COOKIE = "ivds_preview";
+const PREVIEW_DURATION_SEC = 86400; // 1 giorno
+const PREVIEW_MAX_VISITS = 2; // oltre le 2 visite, il cookie non basta piu'
 
-function hasPreviewCookie(request, env) {
+// Il cookie codifica token, numero di visite gia' consumate e scadenza
+// assoluta: "<token>.<visite>.<scadenzaUnix>". La scadenza si fissa alla
+// prima entrata e non si allunga alle visite successive.
+function parsePreviewCookie(request, env) {
   const cookie = request.headers.get("Cookie") || "";
   const match = cookie.match(new RegExp(`${PREVIEW_COOKIE}=([^;]+)`));
-  return !!match && !!env.PREVIEW_TOKEN && match[1] === env.PREVIEW_TOKEN;
+  if (!match) return null;
+  const [token, visitsStr, expiryStr] = decodeURIComponent(match[1]).split(".");
+  const visits = parseInt(visitsStr, 10);
+  const expiry = parseInt(expiryStr, 10);
+  if (!env.PREVIEW_TOKEN || token !== env.PREVIEW_TOKEN) return null;
+  if (!Number.isFinite(visits) || !Number.isFinite(expiry)) return null;
+  if (Date.now() / 1000 > expiry) return null;
+  return { visits, expiry };
+}
+
+function setPreviewCookie(env, visits, expiry) {
+  return `${PREVIEW_COOKIE}=${env.PREVIEW_TOKEN}.${visits}.${expiry}; Path=/; Expires=${new Date(expiry * 1000).toUTCString()}; HttpOnly; Secure; SameSite=Lax`;
+}
+
+// Una "visita" si conta solo sulla navigazione di pagina (non sui singoli
+// asset tipo CSS/JS/immagini), altrimenti un solo caricamento di pagina
+// esaurirebbe subito le 2 visite consentite.
+function isNavigationRequest(request, url) {
+  const mode = request.headers.get("Sec-Fetch-Mode");
+  if (mode) return mode === "navigate";
+  return request.method === "GET" && !/\.[a-zA-Z0-9]+$/.test(url.pathname);
 }
 
 export default {
@@ -66,22 +91,26 @@ export default {
       return handleRicordo(request, env);
     }
 
-    // Accesso riservato: /?preview=<token> imposta un cookie di sblocco e
-    // reindirizza alla stessa pagina senza il parametro in chiaro nell'URL.
-    // Il token vero vive SOLO nel secret PREVIEW_TOKEN (wrangler/API), mai nel codice.
+    // Accesso riservato: /?preview=<token> concede un nuovo blocco di
+    // PREVIEW_MAX_VISITS visite valide per PREVIEW_DURATION_SEC. Il token
+    // vero vive SOLO nel secret PREVIEW_TOKEN (wrangler/API), mai nel codice.
     const previewParam = url.searchParams.get("preview");
     if (previewParam && env.PREVIEW_TOKEN && previewParam === env.PREVIEW_TOKEN) {
       url.searchParams.delete("preview");
+      const expiry = Math.floor(Date.now() / 1000) + PREVIEW_DURATION_SEC;
       return new Response(null, {
         status: 302,
         headers: {
           Location: url.pathname + url.search,
-          "Set-Cookie": `${PREVIEW_COOKIE}=${env.PREVIEW_TOKEN}; Path=/; Max-Age=2592000; HttpOnly; Secure; SameSite=Lax`,
+          "Set-Cookie": setPreviewCookie(env, 1, expiry),
         },
       });
     }
 
-    if (MAINTENANCE && !hasPreviewCookie(request, env)) {
+    const preview = parsePreviewCookie(request, env);
+    const previewOk = preview && preview.visits <= PREVIEW_MAX_VISITS;
+
+    if (MAINTENANCE && !previewOk) {
       // l'immagine di sfondo della pagina di manutenzione deve restare
       // raggiungibile anche col sito "chiuso", altrimenti il browser
       // richiederebbe di nuovo questa stessa funzione fetch() in loop
@@ -95,7 +124,17 @@ export default {
       });
     }
 
-    return env.ASSETS.fetch(request);
+    const response = await env.ASSETS.fetch(request);
+
+    // Solo le navigazioni di pagina consumano una visita, e solo se il
+    // limite non e' ancora stato raggiunto in questa richiesta.
+    if (preview && preview.visits < PREVIEW_MAX_VISITS && isNavigationRequest(request, url)) {
+      const newResponse = new Response(response.body, response);
+      newResponse.headers.append("Set-Cookie", setPreviewCookie(env, preview.visits + 1, preview.expiry));
+      return newResponse;
+    }
+
+    return response;
   },
 };
 
