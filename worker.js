@@ -102,13 +102,15 @@ export default {
         status: 302,
         headers: {
           Location: url.pathname + url.search,
-          "Set-Cookie": setPreviewCookie(env, 1, expiry),
+          // 0 visite consumate finora: la navigazione che segue il redirect
+          // sara' la prima delle PREVIEW_MAX_VISITS concesse.
+          "Set-Cookie": setPreviewCookie(env, 0, expiry),
         },
       });
     }
 
     const preview = parsePreviewCookie(request, env);
-    const previewOk = preview && preview.visits <= PREVIEW_MAX_VISITS;
+    const previewOk = preview && preview.visits < PREVIEW_MAX_VISITS;
 
     if (MAINTENANCE && !previewOk) {
       // l'immagine di sfondo della pagina di manutenzione deve restare
