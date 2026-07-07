@@ -9,6 +9,7 @@
 // dell'account. Cambiare qui in ilvolodellasera.web@gmail.com dopo la
 // verifica del dominio.
 const DEST_EMAIL = "eddywebdesign2.0@gmail.com";
+// re-trigger deploy 2026-07-07
 
 // Sito momentaneamente chiuso al pubblico: in attesa di autorizzazione dei
 // contenuti audio da Radio Deejay/Fabio Volo. Rimettere a false per riaprire.
