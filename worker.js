@@ -15,6 +15,8 @@ const DEST_EMAIL = "eddywebdesign2.0@gmail.com";
 // contenuti audio da Radio Deejay/Fabio Volo. Rimettere a false per riaprire.
 const MAINTENANCE = true;
 
+const MAINTENANCE_BG = "/immagini/sito_off_line.jpg";
+
 const MAINTENANCE_PAGE = `<!doctype html>
 <html lang="it">
 <head>
@@ -23,13 +25,28 @@ const MAINTENANCE_PAGE = `<!doctype html>
 <meta name="robots" content="noindex, nofollow">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
-  body { font-family: system-ui, sans-serif; text-align: center; padding: 4rem 1.5rem; color: #333; }
-  h1 { font-size: 1.4rem; }
+  html, body { height: 100%; margin: 0; }
+  body {
+    font-family: system-ui, sans-serif;
+    text-align: center;
+    color: #f0e8d6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 1.5rem;
+    background: linear-gradient(rgba(8,9,15,0.72), rgba(8,9,15,0.72)), url('${MAINTENANCE_BG}') center/cover no-repeat;
+  }
+  .box { max-width: 34rem; }
+  h1 { font-size: 1.6rem; }
+  p { opacity: 0.85; }
 </style>
 </head>
 <body>
+<div class="box">
 <h1>Sito temporaneamente non disponibile</h1>
 <p>In attesa di autorizzazione dei contenuti da parte degli aventi diritto.</p>
+</div>
 </body>
 </html>`;
 
@@ -42,6 +59,13 @@ export default {
     }
 
     if (MAINTENANCE) {
+      // l'immagine di sfondo della pagina di manutenzione deve restare
+      // raggiungibile anche col sito "chiuso", altrimenti il browser
+      // richiederebbe di nuovo questa stessa funzione fetch() in loop
+      // e riceverebbe 503 invece dell'immagine.
+      if (url.pathname === MAINTENANCE_BG) {
+        return env.ASSETS.fetch(request);
+      }
       return new Response(MAINTENANCE_PAGE, {
         status: 503,
         headers: { "content-type": "text/html; charset=utf-8", "X-Robots-Tag": "noindex" },
