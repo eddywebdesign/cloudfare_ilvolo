@@ -1,36 +1,16 @@
 {{- if not (.Param "hideFooter") }}
 <footer class="footer footer--split">
-    <span class="footer-copy">
-        {{- if not site.Params.footer.hideCopyright }}
-            {{- if site.Copyright }}
-            {{ site.Copyright | markdownify }}
-            {{- else }}
-            &copy; {{ now.Year }} {{ site.Title }}
-            {{- end }}
-        {{- end }}
-    </span>
-
-    <span class="footer-center">
-        {{- with site.Params.footer.text }}
-        <span class="footer-mail">
-            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
-            {{ . | markdownify }}
-        </span>
-        {{- end }}
-        <a class="footer-telegram" href="https://t.me/ilvolodelmattino" target="_blank" rel="noopener" aria-label="Gruppo Telegram ilvolodelmattino">
-            <span class="footer-telegram__handle">ilvolodelmattino</span>
-            <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24" fill="currentColor"><path d="M21.94 4.11a1.6 1.6 0 0 0-1.7-.22L2.7 10.7c-1.1.42-1.09 1.98.02 2.38l4.2 1.5 1.62 5.2c.24.77 1.22.99 1.77.4l2.47-2.63 4.3 3.16c.7.51 1.7.13 1.89-.72l3.4-14.6c.15-.66-.1-1.33-.43-1.28ZM9.6 14.9l-1.02-3.28 8.6-5.36c.2-.13.4.15.23.31l-7.4 6.86Z"/></svg>
-        </a>
-    </span>
-
     {{/*
         - The "Powered by Hugo" text is intentionally left visible to give it prominence.
         - We kindly encourage you to keep this credit. It helps open source projects like PaperMod and Hugo reach more people, supports the open source ecosystem, and shows appreciation for the work that goes into these tools.
         - If you choose to remove it, please consider adding a link to the PaperMod GitHub repository somewhere on your site to give credit to the project and its contributors.
         - Support us by sponsoring the project on GitHub Sponsors: https://github.com/sponsors/adityatelange
     */}}
+    <span class="footer-video-credit">
+        {{- if eq .RelPermalink "/" }}&copy;Vladimir{{ end -}}
+    </span>
     <span class="powered-by-line">
-        Powered by
+        {{- if not site.Params.footer.hideCopyright }}&copy;{{ now.Year }} {{ end -}}
         <a href="https://gohugo.io/?utm_source=papermod" rel="noopener" target="_blank">Hugo</a> &
         <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
     </span>
@@ -39,46 +19,20 @@
 
 <style>
 .footer--split {
-    display: grid;
-    grid-template-columns: 1fr auto 1fr;
+    display: flex;
     align-items: center;
-    gap: 12px;
+    justify-content: space-between;
     max-width: 100%;
     width: 100%;
     padding-left: 32px;
     padding-right: 32px;
 }
-.footer-copy { font-size: 11px; color: var(--secondary); text-align: left; }
-/* Grid a 3 colonne (1fr linea 1fr) cosi' la linea verticale e' sempre
-   l'asse centrale esatto: mail e icona si dispongono simmetriche
-   attorno ad essa, indipendentemente dalla larghezza del testo mail. */
-.footer-center {
-    display: grid;
-    grid-template-columns: 1fr auto 1fr;
-    align-items: center;
-    gap: 18px;
-    font-size: 1rem;
-    color: var(--cream, inherit);
-}
-.footer-center::after {
-    content: '';
-    display: inline-block;
-    width: 1px;
-    height: 16px;
-    background: rgba(245,239,223,0.25);
-    order: 1;
-}
-.footer-mail { order: 0; justify-self: end; }
-.footer-telegram { order: 2; justify-self: start; }
-.powered-by-line { font-size: 11px; color: var(--secondary); text-align: right; }
+.footer-video-credit { font-size: 9px; color: var(--secondary); }
+.powered-by-line { font-size: 9px; color: var(--secondary); text-align: right; white-space: nowrap; }
 .powered-by-line a { color: inherit; text-decoration: underline; text-underline-offset: 2px; }
 .powered-by-line a:hover { color: var(--primary); }
 @media(max-width: 640px) {
-    .footer--split { grid-template-columns: 1fr; text-align: center; gap: 10px; }
-    .footer-copy, .powered-by-line { text-align: center; }
-    .footer-center { grid-template-columns: 1fr; gap: 12px; }
-    .footer-center::after { display: none; }
-    .footer-mail, .footer-telegram { justify-self: center; }
+    .powered-by-line { white-space: normal; }
 }
 </style>
 
@@ -93,15 +47,6 @@
 {{- end }}
 
 {{- partial "extend_footer.html" . }}
-
-<style>
-.footer-mail { display: inline-flex; align-items: center; gap: 6px; }
-.footer-mail a { text-decoration: none; }
-.footer-mail a:hover { text-decoration: underline; }
-.footer .footer-telegram { display: inline-flex; align-items: center; gap: 8px; color: var(--gold, #8fb8d9); text-decoration: none; transition: opacity 0.2s; }
-.footer .footer-telegram:hover { opacity: 0.75; }
-.footer .footer-telegram__handle { font-size: 0.85rem; }
-</style>
 
 <script>
     let menu = document.getElementById('menu');

@@ -2,12 +2,59 @@
 [
 {{- range $i, $p := $items -}}
   {{- if $i }},{{ end -}}
+  {{- $tuttiFrammenti := index $.Site.Data.frammenti $p.File.ContentBaseName -}}
+  {{- $frammentiCurati := slice -}}
+  {{- if $tuttiFrammenti }}{{ $frammentiCurati = where $tuttiFrammenti "titolo" "ne" "" }}{{ end -}}
+  {{- $tipi := slice -}}
+  {{- $hasVideo := false -}}
+  {{- $frammentiText := slice -}}
+  {{- range $frammentiCurati -}}
+    {{- if .tipo }}{{ if not (in $tipi .tipo) }}{{ $tipi = $tipi | append .tipo }}{{ end }}{{ end -}}
+    {{- if .video_url }}{{ $hasVideo = true }}{{ end -}}
+    {{- if .titolo }}{{ $frammentiText = $frammentiText | append .titolo }}{{ end -}}
+    {{- if .testo }}{{ $frammentiText = $frammentiText | append .testo }}{{ end -}}
+    {{- with .tema }}{{ $frammentiText = $frammentiText | append (delimit . " ") }}{{ end -}}
+  {{- end -}}
+  {{- $playlist := index $.Site.Data.playlist $p.File.ContentBaseName -}}
+  {{- $hasPlaylist := false -}}
+  {{- $playlistText := slice -}}
+  {{- if $playlist }}
+    {{- if gt (len $playlist) 0 }}{{ $hasPlaylist = true }}{{ end -}}
+    {{- range $playlist -}}
+      {{- if .titolo }}{{ $playlistText = $playlistText | append .titolo }}{{ end -}}
+      {{- if .artista }}{{ $playlistText = $playlistText | append .artista }}{{ end -}}
+    {{- end -}}
+  {{- end -}}
+  {{/* Riferimenti curati (libro/film/musica): stessa fonte dati usata da
+       bibliografia.html/filmografia.html (data/riferimenti/<data>.json),
+       filtrata alle sole voci identificate (titolo presente, non "non
+       identificato") cosi' da riflettere solo cio' che l'utente vede
+       davvero cliccando su una card. */}}
+  {{- $rifDati := index $.Site.Data.riferimenti $p.File.ContentBaseName -}}
+  {{- $categorieRif := slice -}}
+  {{- $rifText := slice -}}
+  {{- if $rifDati -}}
+    {{- range $rifDati -}}
+      {{- if and .titolo (ne .note "non identificato") -}}
+        {{- if not (in $categorieRif .categoria) }}{{ $categorieRif = $categorieRif | append .categoria }}{{ end -}}
+        {{- $rifText = $rifText | append .titolo -}}
+        {{- if .autore }}{{ $rifText = $rifText | append .autore }}{{ end -}}
+      {{- end -}}
+    {{- end -}}
+  {{- end -}}
   {
     "title": {{ $p.Title | jsonify }},
     "url": {{ $p.RelPermalink | jsonify }},
     "date": {{ $p.Date.Format "2006-01-02" | jsonify }},
     "temi": {{ $p.Params.temi | jsonify }},
-    "resumen": {{ $p.Params.resumen | jsonify }}
+    "resumen": {{ $p.Params.resumen | jsonify }},
+    "tipi": {{ $tipi | jsonify }},
+    "hasPlaylist": {{ $hasPlaylist | jsonify }},
+    "hasVideo": {{ $hasVideo | jsonify }},
+    "frammenti": {{ $frammentiText | jsonify }},
+    "playlist": {{ $playlistText | jsonify }},
+    "categorieRif": {{ $categorieRif | jsonify }},
+    "riferimenti": {{ $rifText | jsonify }}
   }
 {{- end -}}
 ]

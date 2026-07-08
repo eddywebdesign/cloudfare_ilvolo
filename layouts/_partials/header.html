@@ -32,48 +32,15 @@
             </a>
             {{- end }}
         </div>
-        {{- $currentPage := . }}
-        <ul id="menu" class="menu">
-            {{- range site.Menus.main }}
-            {{- $menu_item_url := (cond (strings.HasSuffix .URL "/") .URL (printf "%s/" .URL) ) | absLangURL }}
-            {{- $page_url:= $currentPage.Permalink | absLangURL }}
-            {{- $is_search := eq (site.GetPage .KeyName).Layout `search` }}
-            <li>
-                <a href="{{ .URL | absLangURL }}" title="{{ .Title | default .Name }} {{- cond $is_search (" (Alt + /)" | safeHTMLAttr) ("" | safeHTMLAttr ) }}"
-                {{- cond $is_search (" accesskey=/" | safeHTMLAttr) ("" | safeHTMLAttr ) }}>
-                    <span {{- if eq $menu_item_url $page_url }} class="active" {{- end }}>
-                        {{- .Pre }}
-                        {{- .Name -}}
-                        {{ .Post -}}
-                    </span>
-                </a>
-            </li>
-            {{- end }}
-        </ul>
-        <div class="logo-switches">
-            <a href="https://t.me/ilvolodelmattino" target="_blank" rel="noopener" class="theme-toggle" title="Telegram" aria-label="Telegram">
-                <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24"
-                    fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                    stroke-linejoin="round">
-                    <path d="M22 2 11 13"></path>
-                    <path d="M22 2 15 22l-4-9-9-4 20-7z"></path>
-                </svg>
-            </a>
-        </div>
+        {{- with site.Params.footer.text }}
+        {{- $email := replaceRE `.*mailto:([^)]+).*` "$1" . }}
+        <a class="header-mail" href="mailto:{{ $email }}" title="Scrivici" aria-label="Scrivici via email">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"></rect><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
+        </a>
+        {{- end }}
     </nav>
 </header>
-<script>
-(function() {
-    /* Se la funzione esiste (siamo in home) usa lo smooth scroll gia'
-       previsto per #titolo; altrimenti lascia la navigazione normale
-       (che porta comunque in home con l'ancora #titolo). */
-    document.querySelectorAll('#menu a[href$="#titolo"]').forEach(function(a) {
-        a.addEventListener('click', function(e) {
-            if (typeof window.scrollToTitolo === 'function') {
-                e.preventDefault();
-                window.scrollToTitolo();
-            }
-        });
-    });
-})();
-</script>
+<style>
+.header-mail { display: inline-flex; align-items: center; justify-content: center; color: var(--gold, #8fb8d9); flex-shrink: 0; transition: opacity 0.2s; }
+.header-mail:hover { opacity: 0.75; }
+</style>

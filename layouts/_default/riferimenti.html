@@ -11,6 +11,8 @@
 {{ $sottotitolo := .Params.sottotitolo }}
 {{ $labelHero  := .Params.label_hero | default $categoria }}
 {{ $heroImg    := .Params.hero_img | default "/immagini/archivio.jpg" }}
+{{ $episodiValidi := slice }}
+{{ range where .Site.RegularPages "Section" "episodi" }}{{ $episodiValidi = $episodiValidi | append .File.ContentBaseName }}{{ end }}
 
 <div class="rif-hero hero">
   <img class="rif-hero__img" src="{{ $heroImg }}" alt="">
@@ -177,6 +179,7 @@ header.header #menu a:hover, header.header #menu .active { color: #f5efdf !impor
 }
 .rif-card__ep-link:hover { color: var(--gold); }
 .rif-card__ep-link svg { width: 10px; height: 10px; flex-shrink: 0; }
+.rif-card__ep-link--pending { color: rgba(154,161,173,0.4); cursor: default; }
 
 /* ── SEZIONE DA IDENTIFICARE ── */
 .rif-unknown-section { margin-top: 4rem; }
@@ -235,6 +238,12 @@ details[open] > .rif-group__summary::before { transform: rotate(90deg); }
   var CATEGORIA = {{ $categoria | jsonify | safeJS }};
   var RAW = {{ $.Site.Data.riferimenti | jsonify | safeJS }};
   var OMDB_KEY = {{ $.Site.Data.config.omdb_key | jsonify | safeJS }};
+  /* Date con una pagina puntata realmente pubblicata: alcuni file di
+     data/riferimenti/ referenziano date senza un content/episodi/<data>.md
+     corrispondente (trascrizioni recuperate ma non ancora pubblicate come
+     puntata). Senza questo controllo il link "vai alla puntata" porterebbe
+     a un 404. */
+  var EPISODI_VALIDI = {{ $episodiValidi | jsonify | safeJS }};
 
   /* Appiattisce tutte le date in un unico array filtrato per categoria */
   var voci = [];
@@ -315,6 +324,14 @@ details[open] > .rif-group__summary::before { transform: rotate(90deg); }
     var v = gruppo.voce;
     var meta = [v.autore, v.anno].filter(Boolean).join(' · ');
     var epLinks = gruppo.episodi.map(function(ep) {
+      if (EPISODI_VALIDI.indexOf(ep.episodio_data) === -1) {
+        /* Trascrizione recuperata ma puntata non ancora pubblicata:
+           niente link (porterebbe a un 404), solo la data in chiaro. */
+        return '<span class="rif-card__ep-link rif-card__ep-link--pending" title="Puntata non ancora pubblicata">' +
+          playIcon() +
+          ep.episodio_data +
+          '</span>';
+      }
       return '<a class="rif-card__ep-link" href="' + episodioUrl(ep) + '" target="_blank">' +
         playIcon() +
         ep.episodio_data +

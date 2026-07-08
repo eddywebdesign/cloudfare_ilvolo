@@ -5,29 +5,19 @@
   window.scrollTo(0, 0);
 })();
 </script>
-<div id="arc-hero" class="hero">
-  <video class="hero-video" id="arc-hero-video" autoplay muted loop playsinline preload="auto">
-    <source src="/video/tramonto_movement.mp4" type="video/mp4">
-  </video>
-  <div class="hero-loader" id="arc-hero-loader" aria-hidden="true">
-    <span class="hero-loader__ring"></span>
-  </div>
-  <div class="hero-over"></div>
-  <div class="hero-scroll" onclick="window.arcScrollToSearch()">
-    <svg class="hero-scroll__chevron" viewBox="0 0 24 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <polyline points="1,1 12,13 23,1" stroke="rgba(245,239,223,0.55)" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
-    </svg>
-  </div>
-  <div class="hero-copyright">©Ahmet Kurt</div>
-  <div class="s-verso__title visible">
-    <h1 class="hero-title-main">Archivio</h1>
-    <p class="hero-title__label hero-title__label--below">Cerca puntate, temi e frammenti</p>
-    <button id="arc-search-toggle" class="arc-search-btn">Cerca nell'archivio</button>
-  </div>
-</div>
 
-<section id="arc-search-panel" class="arc-search-panel" hidden>
-  <input id="arc-q" type="search" placeholder="Cerca per titolo, tema, autore..." autocomplete="off">
+<header class="arc-page-head">
+  <a class="arc-back" href="/" aria-label="Torna alla home">
+    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <path d="M15 19 8 12l7-7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+    </svg>
+    <span>Home</span>
+  </a>
+  <h1 class="arc-page-title">Frammenti</h1>
+  <p class="arc-page-sub" id="arc-page-sub">I frammenti trovati nell'archivio</p>
+</header>
+
+<section id="arc-search-panel" class="arc-search-panel">
   <nav id="arc-years" class="arc-year-filters" aria-label="Filtra per anno"></nav>
   <details class="arc-filters-spoiler">
     <summary>Filtra per tema</summary>
@@ -44,17 +34,20 @@
   --font-mono:  'IBM Plex Mono', monospace;
   --gold: #8fb8d9;
   --theme: #0b0e17;
+  --entry: #161b29;
+  --primary: #f5efdf;
+  --secondary: #9aa1ad;
+  --tertiary: #232838;
+  --content: rgba(245,239,223,0.78);
+  --border: rgba(245,239,223,0.14);
 }
 html, body { background: #0b0e17 !important; }
 
-/* ── Header trasparente sopra l'hero (identico alla homepage) ── */
 .main { max-width: 100% !important; padding: 0 !important; margin: 0 !important; }
 header.header {
-  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
-  background: transparent; box-shadow: none !important; border: none !important;
-  width: 100vw; transition: background 0.3s;
+  position: fixed !important; top: 0; left: 0; right: 0; z-index: 100; width: 100vw;
+  background: var(--theme) !important; border-bottom: 1px solid var(--border);
 }
-header.header.is-solid { background: rgba(11,14,23,0.85) !important; backdrop-filter: blur(10px); }
 header.header nav, header.header .header-nav {
   display: flex !important; align-items: center !important; justify-content: space-between !important;
   position: relative !important; width: 100% !important; max-width: 100% !important;
@@ -64,94 +57,25 @@ header.header #menu {
   position: absolute; left: 50%; transform: translateX(-50%);
   display: flex; align-items: center; gap: 40px; list-style: none; margin: 0; padding: 0;
 }
-header.header #menu li { margin: 0; padding: 0; }
 header.header #menu a {
   color: rgba(245,239,223,0.75) !important; font-family: var(--font-sans) !important;
   font-size: 1rem !important; font-weight: 400 !important; letter-spacing: -0.01em !important;
-  text-decoration: none !important; transition: color 0.2s !important; line-height: 1 !important;
+  text-decoration: none !important;
 }
 header.header #menu a:hover, header.header #menu .active { color: #f5efdf !important; }
-.logo { color: #f5efdf !important; flex-shrink: 0; }
-.logo a, .logo span { color: #f5efdf !important; font-style: italic; font-weight: 300; font-size: 1rem; letter-spacing: 0.01em; text-decoration: none !important; }
-.logo-switches { flex-shrink: 0; }
-.logo-switches a.theme-toggle { color: #8fb8d9 !important; }
+.logo, .logo a, .logo span { color: #f5efdf !important; font-style: italic; font-weight: 300; text-decoration: none !important; }
 
-/* ── HERO (identico alla homepage) ── */
-.hero { position: relative; width: 100vw; height: 100vh; overflow: hidden; margin-left: calc(50% - 50vw); }
-.hero-video {
-  position: absolute; inset: 0; width: 100%; height: 100%;
-  object-fit: cover; z-index: 0; filter: brightness(0.75) saturate(1.1);
+.arc-page-head { max-width: 780px; margin: 0 auto; padding: 150px 24px 0; text-align: center; }
+.arc-back {
+  position: fixed; bottom: 24px; left: 24px; z-index: 90;
+  display: inline-flex; align-items: center; gap: 6px; font-family: var(--font-sans); font-size: 0.85rem; color: var(--secondary); text-decoration: none; transition: color 0.2s;
 }
-.hero-over {
-  position: absolute; inset: 0;
-  background:
-    linear-gradient(to bottom, rgba(11,14,23,0.08) 0%, rgba(11,14,23,0.0) 22%, rgba(11,14,23,0.05) 55%, rgba(11,14,23,0.22) 72%, rgba(11,14,23,0.55) 84%, rgba(11,14,23,0.88) 94%, rgba(11,14,23,1) 100%),
-    linear-gradient(to right, rgba(11,14,23,0.55) 0%, rgba(11,14,23,0) 8%, rgba(11,14,23,0) 92%, rgba(11,14,23,0.55) 100%);
-  z-index: 1;
-}
-/* Loader elegante durante il caricamento del video: anelli pulsanti,
-   sparisce non appena il video parte (con fallback a tempo in JS). */
-.hero-loader {
-  position: absolute; inset: 0; z-index: 6;
-  display: flex; align-items: center; justify-content: center;
-  background: #0b0e17;
-  opacity: 1;
-  transition: opacity 0.7s ease;
-  pointer-events: none;
-}
-.hero-loader.hero-loader--hidden { opacity: 0; }
-.hero-loader__ring { position: relative; width: 40px; height: 40px; }
-.hero-loader__ring::before,
-.hero-loader__ring::after {
-  content: '';
-  position: absolute; inset: 0;
-  border-radius: 50%;
-  border: 1px solid var(--gold);
-  animation: heroLoaderPulse 1.8s ease-out infinite;
-}
-.hero-loader__ring::after { animation-delay: 0.9s; }
-@keyframes heroLoaderPulse {
-  0%   { transform: scale(0.4); opacity: 0.9; }
-  100% { transform: scale(1.6); opacity: 0; }
-}
+.arc-back svg { width: 16px; height: 16px; }
+.arc-back:hover { color: var(--gold); }
+.arc-page-title { font-family: var(--font-serif); font-weight: 300; font-size: clamp(2rem, 5vw, 3rem); color: var(--primary); margin: 0; }
+.arc-page-sub { font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.14em; text-transform: uppercase; color: var(--gold); margin-top: 0.8rem; }
 
-.hero-scroll { position: absolute; bottom: 36px; right: 36px; z-index: 4; cursor: pointer; animation: arcArrowBob 2.4s ease-in-out infinite; }
-.hero-scroll__chevron { width: 28px; height: 17px; display: block; }
-@keyframes arcArrowBob { 0%,100% { transform: translateY(0); } 50% { transform: translateY(7px); } }
-.hero-copyright {
-  position: absolute; bottom: 14px; left: 14px; z-index: 4;
-  font-family: var(--font-sans); font-size: 0.6rem; font-weight: 300; letter-spacing: 0.02em;
-  color: rgba(245,239,223,0.35); pointer-events: none;
-}
-.s-verso__title {
-  position: absolute; inset: 0; z-index: 3;
-  display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center;
-  padding: 0 24px; padding-top: 9vh;
-}
-.hero-title-main {
-  font-family: var(--font-serif); font-size: clamp(2.6rem, 8vw, 6rem); font-weight: 300;
-  letter-spacing: 0.01em; color: #f5efdf; text-shadow: 0 4px 40px rgba(0,0,0,0.6); margin: 0;
-}
-.hero-title__label {
-  font-family: var(--font-mono); font-size: 0.65rem; letter-spacing: 0.22em; text-transform: uppercase;
-  color: var(--gold); margin-bottom: 1.2rem;
-}
-.hero-title__label--below { margin-bottom: 0; margin-top: 1.2rem; }
-.arc-search-btn {
-  font-family: var(--font-sans); font-size: 0.8rem; letter-spacing: 0.1em; text-transform: uppercase;
-  padding: 14px 36px; margin-top: 2.4rem; border-radius: 999px; border: 1px solid rgba(245,239,223,0.4);
-  background: rgba(255,255,255,0.05); color: #f5efdf; cursor: pointer;
-  backdrop-filter: blur(4px); transition: background 0.2s, border-color 0.2s;
-}
-.arc-search-btn:hover { background: rgba(245,239,223,0.12); border-color: rgba(245,239,223,0.7); }
-
-.arc-search-panel { max-width: 780px; margin: 3rem auto; padding: 40px 24px 0; scroll-margin-top: 110px; }
-#arc-q {
-  width: 100%; padding: 0.9rem 1.1rem; font-size: 1rem; font-family: var(--font-sans, sans-serif);
-  border-radius: 6px; border: 1px solid var(--border);
-  background: var(--entry); color: var(--primary); margin-bottom: 1.2rem;
-}
-#arc-q::placeholder { color: var(--secondary); }
+.arc-search-panel { max-width: 780px; margin: 0 auto; padding: 40px 24px 80px; }
 .arc-year-filters {
   display: flex; flex-wrap: wrap; gap: 10px;
   margin-bottom: 1.4rem;
@@ -166,6 +90,8 @@ header.header #menu a:hover, header.header #menu .active { color: #f5efdf !impor
 .arc-year-btn:hover { color: #f5efdf; border-color: rgba(245,239,223,0.4); }
 .arc-year-btn.is-active { color: #0b0e17; background: var(--gold, #8fb8d9); border-color: var(--gold, #8fb8d9); }
 .arc-year-btn.is-active .arc-year-btn__count { color: rgba(11,14,23,0.55); }
+.arc-year-btn:disabled { opacity: 0.3; cursor: not-allowed; }
+.arc-year-btn:disabled:hover { color: rgba(245,239,223,0.6); border-color: rgba(245,239,223,0.18); }
 .arc-filters-spoiler { margin-bottom: 2rem; }
 .arc-filters-spoiler summary {
   cursor: pointer; font-family: var(--font-sans, sans-serif); font-size: 0.85rem;
@@ -190,7 +116,10 @@ header.header #menu a:hover, header.header #menu .active { color: #f5efdf !impor
   border-radius: 999px; padding: 0.35rem 1rem; cursor: pointer; font-size: 0.78rem; letter-spacing: 0.04em;
   font-family: var(--font-sans, sans-serif);
 }
+.arc-tag-btn__count { color: rgba(154,161,173,0.7); font-size: 0.9em; }
 .arc-tag-btn.active { background: var(--gold, #8fb8d9); border-color: var(--gold, #8fb8d9); color: #0b0e17; }
+.arc-tag-btn.active .arc-tag-btn__count { color: rgba(11,14,23,0.55); }
+.arc-tag-btn:disabled { opacity: 0.3; cursor: not-allowed; }
 .arc-results { display: grid; gap: 1rem; }
 .arc-card {
   display: block; padding: 1.1rem 1.3rem; border: 1px solid var(--border);
@@ -200,12 +129,22 @@ header.header #menu a:hover, header.header #menu .active { color: #f5efdf !impor
 .arc-card-date { font-family: var(--font-mono, monospace); font-size: 0.72rem; color: var(--secondary); letter-spacing: 0.05em; }
 .arc-card-title { font-family: var(--font-serif, Georgia, serif); font-weight: 400; font-size: 1.2rem; color: var(--primary); margin: 0.3rem 0; }
 .arc-card-resumen { font-size: 0.9rem; color: var(--content); line-height: 1.5; }
-.arc-card-temi { margin-top: 0.5rem; display: flex; flex-wrap: wrap; gap: 6px; }
+.arc-card-badges { margin-top: 0.7rem; display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+.arc-card-badge {
+  display: inline-flex; align-items: center; gap: 4px;
+  font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.05em;
+  color: var(--secondary); background: var(--tertiary); padding: 3px 9px; border-radius: 3px;
+}
+.arc-card-badge svg { width: 12px; height: 12px; }
+.arc-card-badge--video { color: var(--gold, #8fb8d9); }
+.arc-card-badge--rif { color: var(--primary); background: rgba(245,239,223,0.1); }
+.arc-card-temi { margin-top: 0.6rem; display: flex; flex-wrap: wrap; gap: 6px; }
 .arc-card-temi span { font-size: 0.68rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--gold, #8fb8d9); background: rgba(34,158,217,0.12); padding: 2px 8px; border-radius: 3px; }
 .arc-empty { opacity: 0.5; text-align: center; padding: 2rem 0; }
 
 @media (max-width: 640px) {
-  .arc-search-panel    { padding: 24px 16px 0; }
+  .arc-page-head       { padding: 120px 16px 0; }
+  .arc-search-panel    { padding: 24px 16px 60px; }
   .arc-year-filters    { flex-wrap: wrap; gap: 6px; }
   .arc-year-btn        { font-size: 0.7rem; padding: 4px 10px; }
   .arc-card            { padding: 14px 16px; }
@@ -215,75 +154,23 @@ header.header #menu a:hover, header.header #menu .active { color: #f5efdf !impor
 
 <script>
 (function () {
-  var vid = document.querySelector('#arc-hero .hero-video');
-  var panel = document.getElementById('arc-search-panel');
-
-  /* Loader video: sparisce a 'playing', con fallback a 5s se il video
-     impiega troppo (rete lenta) cosi' non resta appeso a vita. */
-  var arcHeroLoader = document.getElementById('arc-hero-loader');
-  if (arcHeroLoader && vid) {
-    var hideArcHeroLoader = function() { arcHeroLoader.classList.add('hero-loader--hidden'); };
-    vid.addEventListener('playing', hideArcHeroLoader, { once: true });
-    setTimeout(hideArcHeroLoader, 5000);
-  }
-
-  function smoothScrollTo(targetY, duration) {
-    var startY = window.scrollY;
-    var dist = targetY - startY;
-    var startT = null;
-    function ease(t) { return t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2; }
-    function step(ts) {
-      if (!startT) startT = ts;
-      var p = Math.min((ts - startT) / duration, 1);
-      window.scrollTo(0, startY + dist * ease(p));
-      if (p < 1) requestAnimationFrame(step);
-    }
-    requestAnimationFrame(step);
-  }
-
-  window.arcScrollToSearch = function () {
-    panel.hidden = false;
-    smoothScrollTo(panel.offsetTop, 1800);
-  };
-
-  /* Se l'utente e' gia' sceso manualmente (scrollY oltre una piccola
-     soglia), rinuncia all'autoscroll verso la ricerca (vedi stessa
-     logica in home: controlla la posizione reale, non un evento
-     'wheel' che scatterebbe anche per un piccolo tocco senza scroll). */
-  var USER_SCROLL_THRESHOLD = 80;
-
-  if (!vid) return;
-
-  /* Retry autoplay se il browser lo ha bloccato silenziosamente */
-  vid.play().catch(function() {});
-  vid.addEventListener('stalled', function() { vid.load(); vid.play().catch(function(){}); });
-  vid.addEventListener('error', function() { vid.load(); vid.play().catch(function(){}); });
-
-  var lastTime = 0;
-  var scrolled = false;
-  vid.addEventListener('timeupdate', function () {
-    if (!scrolled && vid.currentTime < lastTime - 0.5) {
-      scrolled = true;
-      if (window.scrollY <= USER_SCROLL_THRESHOLD) window.arcScrollToSearch();
-    }
-    lastTime = vid.currentTime;
-  });
-})();
-(function () {
   var data = [];
-  var q = document.getElementById('arc-q');
   var temiWrap = document.getElementById('arc-temi');
   var yearsWrap = document.getElementById('arc-years');
   var results = document.getElementById('arc-results');
-  var toggle = document.getElementById('arc-search-toggle');
-  var panel = document.getElementById('arc-search-panel');
   var activeTemi = new Set();
   var activeYear = 'tutti';
 
-  toggle.addEventListener('click', function () {
-    panel.hidden = !panel.hidden;
-    if (!panel.hidden) { q.focus(); panel.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
-  });
+  var VIDEO_ICON = '<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><rect x="2" y="5" width="15" height="14" rx="2" stroke="currentColor" stroke-width="1.4"/><path d="m22 8-5 3 5 3z" fill="currentColor"/></svg>';
+  var PLAYLIST_ICON = '<svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M9 17V5.5L19 4v11.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="6.5" cy="17.5" r="2.5" stroke="currentColor" stroke-width="1.4"/><circle cx="16.5" cy="15.5" r="2.5" stroke="currentColor" stroke-width="1.4"/></svg>';
+
+  var params = new URLSearchParams(window.location.search);
+  var searchQuery = params.get('q') || '';
+
+  if (searchQuery) {
+    var subEl = document.getElementById('arc-page-sub');
+    if (subEl) subEl.textContent = 'Risultati per « ' + searchQuery + ' »';
+  }
 
   fetch('{{ "/index.json" | relURL }}')
     .then(function (r) { return r.json(); })
@@ -294,30 +181,42 @@ header.header #menu a:hover, header.header #menu .active { color: #f5efdf !impor
       render();
     });
 
+  var yearBtns = {}; // anno -> { btn, countEl }
+  var temaBtns = {}; // tema -> { btn, countEl }
+  var tuttiBtnRef = null;
+
   function renderYearFilters() {
-    var counts = {};
+    var years = {};
     data.forEach(function (item) {
       var y = (item.date || '').slice(0, 4);
-      if (!y) return;
-      counts[y] = (counts[y] || 0) + 1;
+      if (y) years[y] = true;
     });
-    var years = Object.keys(counts).sort(function (a, b) { return b - a; });
+    var sortedYears = Object.keys(years).sort(function (a, b) { return b - a; });
     yearsWrap.innerHTML = '';
+    yearBtns = {};
 
     var tuttiBtn = document.createElement('button');
     tuttiBtn.type = 'button';
     tuttiBtn.className = 'arc-year-btn is-active';
-    tuttiBtn.innerHTML = 'Tutti <span class="arc-year-btn__count">' + data.length + '</span>';
+    var tuttiCount = document.createElement('span');
+    tuttiCount.className = 'arc-year-btn__count';
+    tuttiBtn.appendChild(document.createTextNode('Tutti '));
+    tuttiBtn.appendChild(tuttiCount);
     tuttiBtn.addEventListener('click', function () { setActiveYear('tutti', tuttiBtn); });
     yearsWrap.appendChild(tuttiBtn);
+    tuttiBtnRef = { btn: tuttiBtn, countEl: tuttiCount };
 
-    years.forEach(function (y) {
+    sortedYears.forEach(function (y) {
       var btn = document.createElement('button');
       btn.type = 'button';
       btn.className = 'arc-year-btn';
-      btn.innerHTML = y + ' <span class="arc-year-btn__count">' + counts[y] + '</span>';
-      btn.addEventListener('click', function () { setActiveYear(y, btn); });
+      var countEl = document.createElement('span');
+      countEl.className = 'arc-year-btn__count';
+      btn.appendChild(document.createTextNode(y + ' '));
+      btn.appendChild(countEl);
+      btn.addEventListener('click', function () { if (!btn.disabled) setActiveYear(y, btn); });
       yearsWrap.appendChild(btn);
+      yearBtns[y] = { btn: btn, countEl: countEl };
     });
   }
 
@@ -331,8 +230,7 @@ header.header #menu a:hover, header.header #menu .active { color: #f5efdf !impor
     var all = new Set();
     data.forEach(function (item) { (item.temi || []).forEach(function (t) { all.add(t); }); });
     temiWrap.innerHTML = '';
-    /* Temi raggruppati per lettera iniziale in pannelli apribili
-       (sono moltissimi: un unico blocco aperto sarebbe illeggibile). */
+    temaBtns = {};
     var sorted = Array.from(all).sort(function (a, b) { return a.localeCompare(b, 'it'); });
     var groups = {};
     var letterOrder = [];
@@ -354,34 +252,114 @@ header.header #menu a:hover, header.header #menu .active { color: #f5efdf !impor
         var btn = document.createElement('button');
         btn.type = 'button';
         btn.className = 'arc-tag-btn';
-        btn.textContent = tema;
+        btn.appendChild(document.createTextNode(tema + ' '));
+        var countEl = document.createElement('span');
+        countEl.className = 'arc-tag-btn__count';
+        btn.appendChild(countEl);
         btn.addEventListener('click', function () {
+          if (btn.disabled) return;
           if (activeTemi.has(tema)) { activeTemi.delete(tema); btn.classList.remove('active'); }
           else { activeTemi.add(tema); btn.classList.add('active'); }
           render();
         });
         body.appendChild(btn);
+        temaBtns[tema] = { btn: btn, countEl: countEl };
       });
       group.appendChild(body);
       temiWrap.appendChild(group);
     });
   }
 
-  function matches(item, query) {
-    if (activeYear !== 'tutti' && (item.date || '').slice(0, 4) !== activeYear) return false;
-    if (activeTemi.size > 0) {
-      var itemTemi = item.temi || [];
-      for (var t of activeTemi) { if (itemTemi.indexOf(t) === -1) return false; }
+  var MESI = {
+    gennaio: '01', febbraio: '02', marzo: '03', aprile: '04', maggio: '05', giugno: '06',
+    luglio: '07', agosto: '08', settembre: '09', ottobre: '10', novembre: '11', dicembre: '12'
+  };
+
+  function normalizza(s) {
+    return (s || '').toString().toLowerCase().normalize('NFD').replace(new RegExp('[̀-ͯ]', 'g'), '');
+  }
+
+  /* Motore di ricerca: interpreta la query come una serie di token in AND.
+     Token che sono un anno (4 cifre) o un mese italiano vengono usati per
+     filtrare la data della puntata; gli altri token devono comparire tutti
+     (in qualsiasi ordine) nel testo aggregato di titolo, resumen, temi,
+     frammenti e playlist. Cosi' "aprile 2026", "dante inferno" o "pink floyd"
+     funzionano tutti come ricerche mirate invece che una singola sottostringa.
+     Separata dai filtri anno/tema (matchesYearVal/matchesTemiSet) cosi' da
+     poter ricalcolare i conteggi delle pillole anno/tema restando coerenti
+     con la ricerca testuale attiva, senza duplicare la logica. */
+  function matchesQueryText(item) {
+    if (!searchQuery) return true;
+    var tokens = normalizza(searchQuery).split(/\s+/).filter(Boolean);
+    var year = null, month = null;
+    var textTokens = [];
+    tokens.forEach(function (tok) {
+      if (/^\d{4}$/.test(tok)) { year = tok; return; }
+      if (MESI[tok]) { month = MESI[tok]; return; }
+      textTokens.push(tok);
+    });
+
+    if (year && (item.date || '').slice(0, 4) !== year) return false;
+    if (month && (item.date || '').slice(5, 7) !== month) return false;
+
+    if (textTokens.length) {
+      var haystack = normalizza([item.title, item.resumen]
+        .concat(item.temi || [], item.tipi || [], item.frammenti || [], item.playlist || [], item.riferimenti || [], item.categorieRif || [])
+        .join(' '));
+      for (var i = 0; i < textTokens.length; i++) {
+        if (haystack.indexOf(textTokens[i]) === -1) return false;
+      }
     }
-    if (!query) return true;
-    query = query.toLowerCase();
-    var haystack = [item.title, item.resumen].concat(item.temi || []).join(' ').toLowerCase();
-    return haystack.indexOf(query) !== -1;
+    return true;
+  }
+
+  function matchesTemiSet(item, temiSet) {
+    if (temiSet.size === 0) return true;
+    var itemTemi = item.temi || [];
+    for (var t of temiSet) { if (itemTemi.indexOf(t) === -1) return false; }
+    return true;
+  }
+
+  function matchesYearVal(item, year) {
+    return year === 'tutti' || (item.date || '').slice(0, 4) === year;
+  }
+
+  function matches(item) {
+    return matchesQueryText(item) && matchesTemiSet(item, activeTemi) && matchesYearVal(item, activeYear);
+  }
+
+  /* Ricalcola i numeri sulle pillole anno e sui tag tema in base alla query
+     testuale e ai filtri gia' attivi, disabilitando quelli che porterebbero
+     a "Nessun risultato" se cliccati — invece di lasciare che l'utente lo
+     scopra a tentativi. */
+  function updateFacetCounts() {
+    var tuttiCount = data.filter(function (item) { return matchesQueryText(item) && matchesTemiSet(item, activeTemi); }).length;
+    if (tuttiBtnRef) {
+      tuttiBtnRef.countEl.textContent = tuttiCount;
+      tuttiBtnRef.btn.disabled = tuttiCount === 0 && activeYear !== 'tutti';
+    }
+    Object.keys(yearBtns).forEach(function (y) {
+      var count = data.filter(function (item) {
+        return matchesQueryText(item) && matchesTemiSet(item, activeTemi) && matchesYearVal(item, y);
+      }).length;
+      yearBtns[y].countEl.textContent = count;
+      yearBtns[y].btn.disabled = count === 0 && activeYear !== y;
+    });
+    Object.keys(temaBtns).forEach(function (tema) {
+      var isActive = activeTemi.has(tema);
+      var testSet = new Set(activeTemi);
+      testSet.add(tema);
+      var count = data.filter(function (item) {
+        return matchesQueryText(item) && matchesYearVal(item, activeYear) && matchesTemiSet(item, testSet);
+      }).length;
+      temaBtns[tema].countEl.textContent = count;
+      temaBtns[tema].btn.disabled = count === 0 && !isActive;
+    });
   }
 
   function render() {
-    var query = q.value.trim();
-    var filtered = data.filter(function (item) { return matches(item, query); });
+    updateFacetCounts();
+    var filtered = data.filter(matches);
     results.innerHTML = '';
     if (filtered.length === 0) {
       results.innerHTML = '<p class="arc-empty">Nessun risultato.</p>';
@@ -392,28 +370,27 @@ header.header #menu a:hover, header.header #menu .active { color: #f5efdf !impor
       var card = document.createElement('a');
       card.className = 'arc-card';
       card.href = item.url;
+
+      var badges = (item.tipi || []).map(function (t) {
+        return '<span class="arc-card-badge">' + t + '</span>';
+      });
+      (item.categorieRif || []).forEach(function (cat) {
+        badges.push('<span class="arc-card-badge arc-card-badge--rif">' + cat + '</span>');
+      });
+      if (item.hasPlaylist) badges.push('<span class="arc-card-badge">' + PLAYLIST_ICON + ' playlist</span>');
+      if (item.hasVideo) badges.push('<span class="arc-card-badge arc-card-badge--video">' + VIDEO_ICON + ' video</span>');
+
       var temiHtml = (item.temi || []).map(function (t) { return '<span>' + t + '</span>'; }).join('');
       card.innerHTML =
         '<div class="arc-card-date">' + item.date + '</div>' +
         '<div class="arc-card-title">' + item.title + '</div>' +
         '<div class="arc-card-resumen">' + (item.resumen || '') + '</div>' +
+        (badges.length ? '<div class="arc-card-badges">' + badges.join('') + '</div>' : '') +
         (temiHtml ? '<div class="arc-card-temi">' + temiHtml + '</div>' : '');
       results.appendChild(card);
     });
   }
 
-  q.addEventListener('input', render);
-
-  var headerEl = document.querySelector('header.header');
-  if (headerEl) {
-    window.addEventListener('scroll', function() {
-      if (window.scrollY > window.innerHeight * 0.6) {
-        headerEl.classList.add('is-solid');
-      } else {
-        headerEl.classList.remove('is-solid');
-      }
-    });
-  }
 })();
 </script>
 {{ end }}

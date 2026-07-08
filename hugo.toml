@@ -36,27 +36,6 @@ theme = "PaperMod"
   name = "link"
   url = "https://www.deejay.it/programmi/il-volo-del-mattino/"
 
-[menu]
-  [[menu.main]]
-    name = "Archivio"
-    url = "/archivio/"
-    weight = 1
-  [[menu.main]]
-    name = "Galleria"
-    url = "/galleria/"
-    weight = 2
-  [[menu.main]]
-    name = "Film"
-    url = "/filmografia/"
-    weight = 3
-  [[menu.main]]
-    name = "Libri"
-    url = "/bibliografia/"
-    weight = 4
-  [[menu.main]]
-    name = "Chi siamo"
-    url = "/#titolo"
-    weight = 5
 
 [taxonomies]
   tema = "temi"

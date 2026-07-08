@@ -7,11 +7,11 @@
 </script>
 
 <!-- ════════════════════════════════════
-     HERO CAROUSEL
+     HERO — home minimale: titolo, ricerca, social
 ════════════════════════════════════ -->
 <div id="hero" class="hero">
 
-    <video class="hero-video" id="hero-video" autoplay muted playsinline preload="auto">
+    <video class="hero-video" id="hero-video" autoplay muted loop playsinline preload="auto">
         <source src="/video/verso_sera.mp4" type="video/mp4">
     </video>
 
@@ -19,2190 +19,299 @@
         <span class="hero-loader__ring"></span>
     </div>
 
-    <div class="hero-over" id="hero-over"></div>
+    <div class="hero-over"></div>
 
-    <!-- Freccia scroll → content -->
-    <div class="hero-scroll" id="hero-scroll" onclick="scrollToContent()">
-        <svg class="hero-scroll__chevron" viewBox="0 0 24 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <polyline points="1,1 12,13 23,1" stroke="rgba(245,239,223,0.55)" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-    </div>
+    <div class="hero-main" id="hero-main">
+        <p class="hero-kicker">Il Volo del Mattino</p>
+        <p class="hero-tagline">Divertiti a ripescare ricordi dall'archivio</p>
 
-    <!-- Copyright video -->
-    <div class="hero-copyright">©Vladimir</div>
-
-    <!-- Titolo overlay (appare al 30% del video, con l'arrivo della sera) -->
-    <div class="s-verso__title" id="verso-title">
-        <h1 class="hero-title-main">il Volo della Sera</h1>
-        <p class="hero-title__label hero-title__label--below">Radio Deejay · Il Volo del Mattino</p>
-    </div>
-
-    <!-- Citazione Dante (appare 3s dopo il titolo) -->
-    <p class="hero-dante" id="hero-dante">«Fatti non foste a viver come bruti,<br>ma per seguir virtute e canoscenza.»</p>
-
-</div>
-
-<!-- ════════════════════════════════════
-     CONTENUTO PRINCIPALE
-════════════════════════════════════ -->
-<div id="content" class="site-content">
-
-    <!-- ════════════════════════════════════
-         SEZIONE NARRATIVA (Il senso / Chi siamo)
-    ════════════════════════════════════ -->
-    <section id="titolo" class="s-titolo">
-        <div class="s-titolo__grid">
-            <div class="s-narrativa__inner">
-                <p class="lbl">Chi siamo</p>
-                <h3 class="s-narrativa__heading">Il primo tassello del Volo della Sera</h3>
-                <p class="s-narrativa__body">Il Volo della Sera è un vecchio desiderio di Fabio Volo: portare la magia della radio dopo il tramonto! Noi, ascoltatori appassionati, abbiamo deciso di posare il primo tassello di questo desiderio: uno spazio di raccolta, condivisione e aria sana per chiunque ami questo mondo. Per noi Il Volo del Mattino è molto più di una trasmissione radiofonica: un piccolo, immenso patrimonio creativo, fatto di genuinità, simpatia e spunti esistenziali. Questo sito è il nostro modo di dire «grazie» per tutto quello che abbiamo ricevuto: una piccola Wikipedia emotiva, un mosaico per ricomporre i frammenti sparsi in tanti anni di diretta, a cui tutti possono partecipare.</p>
-            </div>
-            <div class="s-titolo__media">
-                <img class="s-titolo__img s-titolo__img--back" src="/immagini/puzzle.jpg" alt="">
-                <img class="s-titolo__img s-titolo__img--front" src="/immagini/puzzle_2.jpg" alt="">
-            </div>
-        </div>
-        <div class="s-titolo__bottom">
-            <p class="lbl">Cosa vogliamo</p>
-            <h3 class="s-narrativa__heading">Strappare i ricordi all'oblio</h3>
-            <p class="s-narrativa__body">Vogliamo creare un porto sicuro per raccogliere parole, momenti e storie de Il Volo del Mattino: ricomporre questi spunti esistenziali e salvarli dal tempo che passa, custodendoli insieme a te.</p>
-        </div>
-    </section>
-
-    <!-- ════════════════════════════════════
-         EPISODIO DEL GIORNO
-    ════════════════════════════════════ -->
-    {{ $eps := where .Site.RegularPages "Section" "episodi" }}
-    {{ if gt (len $eps) 0 }}
-    {{ $epDelGiorno := index $eps 0 }}
-    {{ with $epDelGiorno }}
-    <section class="s-epdelgiorno">
-        <div class="s-epdelgiorno__top">
-            <p class="lbl">Episodio del giorno</p>
-            <a class="s-epdelgiorno__open" href="{{ .RelPermalink }}" aria-label="Apri la pagina completa della puntata" title="Apri la puntata">
+        <form class="hero-search" id="hero-search-form" role="search">
+            <input type="search" id="hero-search-input" class="hero-search__input" placeholder="Cerca per data, titolo, tema, autore, citazione..." autocomplete="off" aria-label="Cerca nell'archivio">
+            <button type="submit" class="hero-search__btn" aria-label="Cerca">
                 <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                    <rect x="3.5" y="3.5" width="17" height="17" rx="2" stroke="currentColor" stroke-width="1.4"/>
-                    <path d="M9.5 14.5 14.5 9.5M14.5 9.5H10.2M14.5 9.5V13.8" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
+                    <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="1.6"/>
+                    <path d="M21 21 16.5 16.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
                 </svg>
+            </button>
+        </form>
+
+        <div class="hero-social">
+            <a href="#" class="hero-social__link" title="Telegram" aria-label="Telegram">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2 11 13"></path><path d="M22 2 15 22l-4-9-9-4 20-7z"></path></svg>
             </a>
-        </div>
-        <div class="s-epdelgiorno__head">
-            <h2 class="s-epdelgiorno__title">{{ .Title }}</h2>
-            <span class="s-epdelgiorno__date">{{ .Date.Format "02 Jan 2006" }}</span>
-        </div>
-        <div class="s-epdelgiorno__card">
-            <div class="s-epdelgiorno__media">
-                <img class="s-epdelgiorno__img" src="/immagini/Volo_radiodeejay.jpg" alt="">
-            </div>
-            <div class="s-epdelgiorno__body">
-                {{ if .Params.audio }}
-                <div class="s-epdelgiorno__onair">
-                    <svg class="s-epdelgiorno__onair-icon" viewBox="0 0 24 16" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                        <circle cx="12" cy="8" r="2" fill="currentColor"/>
-                        <path class="onair-wave onair-wave--1" d="M8.5 4.5a5 5 0 0 0 0 7" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/>
-                        <path class="onair-wave onair-wave--1" d="M15.5 4.5a5 5 0 0 1 0 7" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/>
-                        <path class="onair-wave onair-wave--2" d="M6 2a8.5 8.5 0 0 0 0 12" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/>
-                        <path class="onair-wave onair-wave--2" d="M18 2a8.5 8.5 0 0 1 0 12" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/>
-                    </svg>
-                    <span class="s-epdelgiorno__onair-label">In onda &middot; puntata del giorno</span>
-                </div>
-                <audio class="s-epdelgiorno__audio" controls src="{{ .Params.audio }}"></audio>
-                {{ with .Params.fonte }}
-                <p class="ep-fonte"><a href="{{ . }}" target="_blank" rel="noopener">Ascolta su RadioDeejay <span class="ep-fonte__arrow">→</span></a></p>
-                {{ end }}
-                {{ else }}
-                <div class="s-epdelgiorno__audio-placeholder">Player audio in arrivo</div>
-                {{ end }}
-
-                {{ if .Params.video }}
-                <div class="s-epdelgiorno__video-wrap">
-                    <video class="s-epdelgiorno__video" controls src="{{ .Params.video }}"></video>
-                </div>
-                {{ end }}
-
-                <p class="s-epdelgiorno__desc">{{ with .Params.resumen }}{{ . }}{{ else }}{{ .Summary | truncate 220 }}{{ end }}</p>
-
-                {{ if .Params.temi }}
-                <div class="s-epdelgiorno__tags">
-                    {{ range .Params.temi }}<span class="s-tag">{{ . }}</span>{{ end }}
-                </div>
-                {{ end }}
-
-                {{/* Playlist della puntata del giorno, se scaricata da scripts/genera_playlist.py */}}
-                {{ $epPlaylist := index .Site.Data.playlist .File.ContentBaseName }}
-                {{ if $epPlaylist }}
-                <div class="s-epdelgiorno__playlist">
-                    <div class="s-epdelgiorno__playlist-head">
-                        <p class="s-epdelgiorno__playlist-title">Playlist del {{ .Date | time.Format ":date_long" }}</p>
-                        <a class="s-epdelgiorno__playlist-open" href="/playlist/" aria-label="Tutte le playlist" title="Tutte le playlist">
-                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                                <rect x="3.5" y="3.5" width="17" height="17" rx="2" stroke="currentColor" stroke-width="1.4"/>
-                                <path d="M9.5 14.5 14.5 9.5M14.5 9.5H10.2M14.5 9.5V13.8" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
-                            </svg>
-                        </a>
-                    </div>
-                    <ul class="s-epdelgiorno__playlist-list">
-                        {{ range $epPlaylist }}
-                        <li class="s-epdelgiorno__playlist-item">
-                            {{ if .cover }}
-                            <img class="s-epdelgiorno__playlist-cover" src="{{ .cover }}" alt="" loading="lazy">
-                            {{ else }}
-                            <span class="s-epdelgiorno__playlist-cover s-epdelgiorno__playlist-cover--placeholder">
-                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                                    <path d="M9 17V5.5L19 4v11.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
-                                    <circle cx="6.5" cy="17.5" r="2.5" stroke="currentColor" stroke-width="1.4"/>
-                                    <circle cx="16.5" cy="15.5" r="2.5" stroke="currentColor" stroke-width="1.4"/>
-                                </svg>
-                            </span>
-                            {{ end }}
-                            <div class="s-epdelgiorno__playlist-info">
-                                <span class="s-epdelgiorno__playlist-song">{{ .titolo }}</span>
-                                <span class="s-epdelgiorno__playlist-artist">{{ .artista }}</span>
-                            </div>
-                        </li>
-                        {{ end }}
-                    </ul>
-                </div>
-                {{ end }}
-            </div>
-        </div>
-    </section>
-    {{ end }}
-    {{ end }}
-
-    <!-- Random -->
-    <section class="s-random">
-        <p class="lbl lbl--dim">Esplora</p>
-        <h2 class="s-random__title">Affidati al caso</h2>
-        <p class="s-random__text">Chiudi gli occhi, fai un respiro, clicca. Lascia che sia il caso a scegliere il tuo frammento per questa sera.</p>
-        <button onclick="navigaACaso(this)" class="btn" id="random-btn">Naviga a Vista</button>
-        <p class="s-random__reveal" id="random-reveal" aria-live="polite"></p>
-    </section>
-
-    <!-- Temi esistenziali -->
-    {{ $temiEsistenziali := slice
-        (dict "titolo" "Solitudine" "img" "/immagini/esistenziali/solitudine.jpg")
-        (dict "titolo" "Libertà" "img" "/immagini/esistenziali/libert%C3%A0.jpg")
-        (dict "titolo" "Sogno" "img" "/immagini/esistenziali/sogno.jpg")
-        (dict "titolo" "Amore" "img" "/immagini/esistenziali/amore.jpg")
-        (dict "titolo" "Tempo" "img" "/immagini/esistenziali/tempo.jpg")
-        (dict "titolo" "Coraggio" "img" "/immagini/esistenziali/coraggio.jpg")
-        (dict "titolo" "Paura" "img" "/immagini/esistenziali/paura.jpg")
-    }}
-    <section class="s-temi">
-        <div class="s-temi__left">
-            <p class="lbl">Spunti esistenziali</p>
-            <div class="s-temi__list">
-                {{ range $i, $t := $temiEsistenziali }}
-                <div class="s-temi__pair">
-                    <h2 class="s-temi__h2{{ if eq $i 0 }} active{{ end }}" data-idx="{{ $i }}">{{ $t.titolo }}</h2>
-                    {{/* Foto solo su mobile (<900px): impilata subito sotto la sua parola,
-                         niente hover — vedi .s-temi__pair-img nel CSS piu' sotto. */}}
-                    <div class="s-temi__pair-img" style="background-image:url('{{ $t.img }}')"></div>
-                </div>
-                {{ end }}
-            </div>
-        </div>
-        <div class="s-temi__center">
-            <p class="lbl">Ultimi episodi</p>
-            <!-- Progress bar + nav -->
-            <div class="s-temi__prog-wrap"><div class="s-temi__prog-bar" id="tl-bar"></div></div>
-            <div class="s-temi__nav">
-                <button class="s-temi__arrow" id="tl-prev">←</button>
-                <button class="s-temi__arrow" id="tl-next">→</button>
-                <span class="s-temi__counter" id="tl-counter">01 / 06</span>
-            </div>
-            <!-- Slide: ultimi episodi (descrizione, titolo, data) -->
-            <div class="s-temi__slide-wrap">
-                <a class="s-temi__slide-link" id="tl-link" href="#">
-                    <h3 class="s-temi__slide-title" id="tl-title"></h3>
-                    <svg class="s-temi__slide-open" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-                        <rect x="3.5" y="3.5" width="17" height="17" rx="2" stroke="currentColor" stroke-width="1.4"/>
-                        <path d="M9.5 14.5 14.5 9.5M14.5 9.5H10.2M14.5 9.5V13.8" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                </a>
-                <p class="s-temi__slide-date" id="tl-date"></p>
-                <p class="s-temi__slide-desc" id="tl-desc"></p>
-                <div class="s-temi__slide-tags" id="tl-tags"></div>
-                <p class="ep-fonte" id="tl-fonte" hidden></p>
-                <div class="s-temi__slide-playlist" id="tl-playlist"></div>
-            </div>
-            <a href="/archivio/" class="s-temi__archive-link">Vai all'archivio completo →</a>
-        </div>
-        <div class="s-temi__right">
-            {{ range $i, $t := $temiEsistenziali }}
-            <div class="s-temi__img{{ if eq $i 0 }} active{{ end }}" style="background-image:url('{{ $t.img }}')"></div>
-            {{ end }}
-        </div>
-    </section>
-
-    <!-- ════════════════════════════════════
-         LETTURE DI FABIO
-    ════════════════════════════════════ -->
-    {{/* Immagini prese solo da static/immagini/varie (pool foto community), ruotano ogni giorno */}}
-    {{ $varieFiles := where (os.ReadDir "static/immagini/varie") "IsDir" false }}
-    {{ $varieCount := len $varieFiles }}
-    {{ $offset := mod now.YearDay $varieCount }}
-    {{ $topN := 6 }}
-    {{ $bottomN := 8 }}
-    {{ $words := slice "il volo" "del mattino" }}
-    {{ $topImgs := slice }}
-    {{ range $i := seq 0 (sub $topN 1) }}
-        {{ $topImgs = $topImgs | append (index $varieFiles (mod (add $offset $i) $varieCount)).Name }}
-    {{ end }}
-    {{ $bottomImgs := slice }}
-    {{ range $i := seq 0 (sub $bottomN 1) }}
-        {{ $bottomImgs = $bottomImgs | append (index $varieFiles (mod (add (add $offset $topN) $i) $varieCount)).Name }}
-    {{ end }}
-
-    <section class="s-letture">
-
-        <div class="s-letture__label">
-            <p class="lbl">Un po' di tutto</p>
-        </div>
-
-        <!-- Riga superiore: 1/3 — testo + foto → sinistra -->
-        <div class="s-letture__row s-letture__row--top">
-            <div class="s-letture__track s-letture__track--left">
-                {{ range $rep := seq 1 2 }}
-                    {{ range $i, $img := $topImgs }}
-                    <span class="s-letture__word">{{ index $words (mod $i 2) }}</span>
-                    <div class="s-letture__photo"><img src="/immagini/varie/{{ $img }}" alt=""></div>
-                    {{ end }}
-                {{ end }}
-            </div>
-        </div>
-
-        <!-- Riga inferiore: 2/3 — solo foto → destra -->
-        <div class="s-letture__row s-letture__row--bottom">
-            <div class="s-letture__track s-letture__track--right">
-                {{ range $rep := seq 1 2 }}
-                    {{ range $img := $bottomImgs }}
-                    <div class="s-letture__photo"><img src="/immagini/varie/{{ $img }}" alt=""></div>
-                    {{ end }}
-                {{ end }}
-            </div>
-        </div>
-
-    </section>
-
-    <!-- CTA -->
-    <section class="s-cta">
-        <div class="s-cta__bg" style="background-image:url('/immagini/sunset.jpg')"></div>
-        <div class="s-cta__over"></div>
-        <div class="s-cta__content">
-            <p class="lbl">Contribuisci</p>
-            <h2 class="s-cta__title">Aiutaci a riportare<br>alla luce un frammento</h2>
-            <p class="s-cta__sub">Questo archivio è un'opera di archeologia collettiva. Hai un ricordo sbiadito di una vecchia puntata? Hai dei 'pezzi', del materiale da condividere o semplicemente una foto per la nostra galleria? Insieme costruiamo la memoria.</p>
-            <button type="button" class="btn" id="ricordo-open">Condividi un ricordo</button>
-        </div>
-        <!-- Logos bottom -->
-        <div class="s-cta__logos">
-            <div class="s-cta__logo-deejay">
-                <span class="deejay-radio">radio</span>
-                <span class="deejay-name">DEEJAY</span>
-            </div>
-            <div class="s-cta__logo-divider"></div>
-            <div class="s-cta__logo-carpanelle">
-                <span class="carp-main">Le Carpanelle</span>
-                <span class="carp-sub">Azienda Agricola · Dario Presenti</span>
-            </div>
-        </div>
-    </section>
-
-    <!-- Telegram -->
-    <section class="s-tg">
-        <p class="lbl">Comunità</p>
-        <h2 class="s-tg__title">Il Messaggio nella Bottiglia</h2>
-        <p class="s-tg__text">Hai il ricordo sbiadito di una puntata? Un nome, una data, un'emozione? Puoi condividerlo con amici appassionati de Il Volo del Mattino.</p>
-        <a href="https://t.me/ilvolodelmattino" target="_blank" class="btn btn--tg">Scrivici su Telegram</a>
-    </section>
-
-    {{ if $.Site.Data.contribuitori }}
-    <section class="s-contrib">
-      <p class="s-contrib__text">Archivio costruito con la community —{{ range $i, $c := $.Site.Data.contribuitori }}{{ if $i }} ·{{ end }} {{ $c.nome }}{{ end }}</p>
-    </section>
-    {{ end }}
-
-    <!-- Modale "Condividi il tuo ricordo" -->
-    <div class="ricordo-modal" id="ricordo-modal" aria-hidden="true" style="display:none">
-        <div class="ricordo-modal__backdrop" id="ricordo-backdrop"></div>
-        <div class="ricordo-modal__box" role="dialog" aria-modal="true" aria-labelledby="ricordo-modal-title">
-            <button type="button" class="ricordo-modal__close" id="ricordo-close" aria-label="Chiudi">&times;</button>
-            <h3 id="ricordo-modal-title" class="ricordo-modal__title">Condividi il tuo ricordo</h3>
-            <form class="s-cta__form" id="ricordo-form">
-                <input type="text" name="nome" class="s-cta__input" placeholder="Il tuo nome (facoltativo)" autocomplete="name">
-                <input type="email" name="email" class="s-cta__input" placeholder="La tua email, se vuoi una risposta" autocomplete="email">
-                <textarea name="messaggio" class="s-cta__textarea" placeholder="Racconta il tuo ricordo..." autocomplete="off" required></textarea>
-                <label class="s-cta__file-label" for="ricordo-file">
-                    Allega una foto o un audio (facoltativo, max 8MB)
-                    <input type="file" name="allegato" id="ricordo-file" class="s-cta__file" accept="image/*,audio/*">
-                </label>
-                <span class="s-cta__file-name" id="ricordo-file-name"></span>
-                <button type="submit" class="btn" id="ricordo-submit">Invia il ricordo</button>
-                <p class="s-cta__form-msg" id="ricordo-msg"></p>
-            </form>
+            <a href="#" class="hero-social__link" title="Facebook" aria-label="Facebook">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path></svg>
+            </a>
+            <a href="#" class="hero-social__link" title="YouTube" aria-label="YouTube">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="5" width="20" height="14" rx="3"></rect><path d="m10 9 5 3-5 3z" fill="currentColor" stroke="none"></path></svg>
+            </a>
+            <a href="#" class="hero-social__link" title="Instagram" aria-label="Instagram">
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><line x1="17.5" y1="6.5" x2="17.5" y2="6.5"></line></svg>
+            </a>
+            <button type="button" class="hero-info-btn" id="chisiamo-open" title="Chi siamo" aria-label="Chi siamo" aria-haspopup="dialog">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="11" x2="12" y2="16.5"></line><circle cx="12" cy="7.5" r="0.9" fill="currentColor" stroke="none"></circle></svg>
+            </button>
         </div>
     </div>
 
 </div>
 
 <!-- ════════════════════════════════════
-     CSS
+     MODALE "Chi siamo"
 ════════════════════════════════════ -->
+<div class="chisiamo-modal" id="chisiamo-modal" aria-hidden="true">
+    <div class="chisiamo-modal__backdrop" id="chisiamo-backdrop"></div>
+    <div class="chisiamo-modal__box" role="dialog" aria-modal="true" aria-labelledby="chisiamo-title">
+        <button type="button" class="chisiamo-modal__close" id="chisiamo-close" aria-label="Chiudi">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+        </button>
+        <div class="chisiamo-modal__scroll">
+            <p class="chisiamo-modal__lbl">Chi siamo</p>
+            <h3 id="chisiamo-title" class="chisiamo-modal__title">Il primo tassello del Volo della Sera</h3>
+            <p class="chisiamo-modal__body">Il Volo della Sera è un vecchio desiderio di Fabio Volo: portare la magia della radio dopo il tramonto! Noi, ascoltatori appassionati, abbiamo deciso di posare il primo tassello di questo desiderio: uno spazio di raccolta, condivisione e aria sana per chiunque ami questo mondo. Per noi Il Volo del Mattino è molto più di una trasmissione radiofonica: un piccolo, immenso patrimonio creativo, fatto di genuinità, simpatia e spunti esistenziali. Questo sito è il nostro modo di dire «grazie» per tutto quello che abbiamo ricevuto: una piccola Wikipedia emotiva, un mosaico per ricomporre i frammenti sparsi in tanti anni di diretta, a cui tutti possono partecipare.</p>
+            <p class="chisiamo-modal__body">Vogliamo creare un porto sicuro per raccogliere parole, momenti e storie de Il Volo del Mattino: ricomporre questi spunti esistenziali e salvarli dal tempo che passa, custodendoli insieme a te.</p>
+        </div>
+    </div>
+</div>
+
 <style>
-*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+*, *::before, *::after { box-sizing: border-box; }
 :root {
     --font-serif: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
     --font-sans:  'General Sans', -apple-system, BlinkMacSystemFont, sans-serif;
     --font-mono:  'IBM Plex Mono', monospace;
     --bg:    #0b0e17;
-    --surf:  #161b29;
-    --bord:  rgba(245,239,223,0.14);
     --cream: #f5efdf;
-    --muted: #9aa1ad;
     --gold:  #8fb8d9;
-    --golddim: rgba(34,158,217,0.15);
-    --tri:   rgba(255,255,255,0.85);
-    /* ── Type scale ── */
-    --fs-label:   0.68rem;   /* mono label, tag, data */
-    --fs-sm:      0.82rem;   /* testo secondario, bottoni */
-    --fs-body:    0.92rem;   /* corpo testo corrente */
-    --fs-body-lg: 1.05rem;   /* corpo importante, slide */
-    --fs-h4:      1.3rem;    /* h4 narrativa, titoli card */
-    --fs-h3:      1.7rem;    /* h3 sezioni medie */
-    --fs-h2:      2.2rem;    /* h2 sezioni principali */
-    --fs-display: 3rem;      /* titoli display grandi */
 }
-html { overflow-x: hidden; background: #0b0e17; }
-body { margin: 0; padding: 0; background: #0b0e17; color: var(--cream); font-family: var(--font-sans); overflow-x: hidden; width: 100%; }
+html, body { background: #0b0e17; overflow-x: hidden; }
+html { height: 100%; overflow: hidden; }
+body {
+    margin: 0; padding: 0; color: var(--cream); font-family: var(--font-sans);
+    height: 100vh; overflow: hidden;
+    display: flex; flex-direction: column;
+}
+body > footer.footer { flex-shrink: 0; }
 
-/* ── Breakout dal container PaperMod ── */
-.main { max-width: 100% !important; padding: 0 !important; margin: 0 !important; }
+.main { max-width: 100% !important; padding: 0 !important; margin: 0 !important; flex: 1 1 auto; min-height: 0; display: flex; flex-direction: column; }
 header.header {
-    position: fixed;
-    top: 0; left: 0; right: 0;
-    z-index: 100;
-    background: transparent !important;
-    box-shadow: none !important;
-    border: none !important;
+    position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+    background: transparent !important; box-shadow: none !important; border: none !important;
     width: 100vw;
-    transition: background 0.3s ease, backdrop-filter 0.3s ease;
 }
-/* sfondo solido appena si scrolla oltre l'hero, cosi' il menu non resta
-   illeggibile sopra titoli/testo delle sezioni sottostanti */
-header.header.is-solid {
-    background: rgba(11,14,23,0.85) !important;
-    backdrop-filter: blur(10px);
-}
-header.header nav,
-header.header .header-nav {
-    display: flex !important;
-    align-items: center !important;
-    justify-content: space-between !important;
-    position: relative !important;
-    width: 100% !important;
-    max-width: 100% !important;
-    padding: 28px 40px !important;
-    box-sizing: border-box !important;
+header.header nav, header.header .header-nav {
+    display: flex !important; align-items: center !important; justify-content: space-between !important;
+    position: relative !important; width: 100% !important; max-width: 100% !important;
+    padding: 28px 40px !important; box-sizing: border-box !important;
 }
 header.header #menu {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    align-items: center;
-    gap: 40px;
-    list-style: none;
-    margin: 0; padding: 0;
-    /* il tema imposta solo overflow-x:auto: per spec CSS l'overflow-y
-       "visible" residuo diventa "auto", mostrando una micro-scrollbar
-       verticale nativa (le "frecce" accanto all'ultima voce) quando il
-       contenuto sborda anche di 1-2px. Manteniamo lo scroll orizzontale
-       (utile su mobile, vedi footer.html) ma disattiviamo quello verticale. */
-    overflow-x: auto;
-    overflow-y: hidden;
+    position: absolute; left: 50%; transform: translateX(-50%);
+    display: flex; align-items: center; gap: 40px; list-style: none; margin: 0; padding: 0;
 }
 header.header #menu li { margin: 0; padding: 0; }
 header.header #menu a {
-    color: rgba(245,239,223,0.75) !important;
-    font-family: var(--font-sans) !important;
-    font-size: 1rem !important;
-    font-weight: 400 !important;
-    letter-spacing: -0.01em !important;
-    text-decoration: none !important;
-    transition: color 0.2s !important;
-    line-height: 1 !important;
+    color: rgba(245,239,223,0.75) !important; font-family: var(--font-sans) !important;
+    font-size: 1rem !important; font-weight: 400 !important; letter-spacing: -0.01em !important;
+    text-decoration: none !important; transition: color 0.2s !important; line-height: 1 !important;
 }
-header.header #menu a:hover,
-header.header #menu .active { color: var(--cream) !important; }
+header.header #menu a:hover, header.header #menu .active { color: var(--cream) !important; }
 .logo { color: var(--cream) !important; flex-shrink: 0; }
-.logo a, .logo span { color: var(--cream) !important; font-style: italic; font-weight: 300; font-size: 1rem; letter-spacing: 0.01em; text-decoration: none !important; }
-.logo-switches { flex-shrink: 0; }
-#theme-toggle { color: rgba(245,239,223,0.5) !important; }
-.logo-switches a.theme-toggle { color: #8fb8d9 !important; text-decoration: none; opacity: 0.85; transition: opacity 0.2s; }
-.logo-switches a.theme-toggle:hover { opacity: 1; }
+.logo a, .logo span { color: var(--cream) !important; font-style: italic; font-weight: 300; font-size: 24px; letter-spacing: 0.01em; text-decoration: none !important; }
 
-/* ── HERO ── */
-.hero {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-}
-
-/* Video sfondo */
+.hero { position: relative; width: 100%; flex: 1 1 auto; min-height: 0; overflow: hidden; }
 .hero-video {
-    position: absolute; inset: 0;
-    width: 100%; height: 100%;
-    object-fit: cover;
-    z-index: 0;
-    filter: brightness(0.75) saturate(1.1);
+    position: absolute; inset: 0; width: 100%; height: 100%;
+    object-fit: cover; z-index: 0;
 }
-/* Quando il video carica, nascondi le slide foto */
-.hero-video[src]:not([src=""]) ~ .hero-slides { display: none; }
-
-/* Loader elegante durante il caricamento del video: anelli pulsanti,
-   sparisce non appena il video parte (con fallback a tempo in JS). */
 .hero-loader {
     position: absolute; inset: 0; z-index: 6;
     display: flex; align-items: center; justify-content: center;
-    background: #0b0e17;
-    opacity: 1;
-    transition: opacity 0.7s ease;
-    pointer-events: none;
+    background: #0b0e17; opacity: 1; transition: opacity 0.7s ease; pointer-events: none;
 }
 .hero-loader.hero-loader--hidden { opacity: 0; }
-.hero-loader__ring {
-    position: relative;
-    width: 40px; height: 40px;
-}
-.hero-loader__ring::before,
-.hero-loader__ring::after {
-    content: '';
-    position: absolute; inset: 0;
-    border-radius: 50%;
-    border: 1px solid var(--gold);
-    animation: heroLoaderPulse 1.8s ease-out infinite;
+.hero-loader__ring { position: relative; width: 40px; height: 40px; }
+.hero-loader__ring::before, .hero-loader__ring::after {
+    content: ''; position: absolute; inset: 0; border-radius: 50%;
+    border: 1px solid var(--gold); animation: heroLoaderPulse 1.8s ease-out infinite;
 }
 .hero-loader__ring::after { animation-delay: 0.9s; }
-@keyframes heroLoaderPulse {
-    0%   { transform: scale(0.4); opacity: 0.9; }
-    100% { transform: scale(1.6); opacity: 0; }
-}
-
-.hero-slides { position: absolute; inset: 0; }
-.hero-slide {
-    position: absolute; inset: 0;
-    background-size: cover;
-    background-position: center;
-    opacity: 0;
-    transition: opacity 1.0s ease-in-out;
-}
-.hero-slide.active { opacity: 1; }
+@keyframes heroLoaderPulse { 0% { transform: scale(0.4); opacity: 0.9; } 100% { transform: scale(1.6); opacity: 0; } }
 
 .hero-over {
     position: absolute; inset: 0;
     background:
-        linear-gradient(
-            to bottom,
-            rgba(11,14,23,0.08) 0%,
-            rgba(11,14,23,0.0) 22%,
-            rgba(11,14,23,0.05) 55%,
-            rgba(11,14,23,0.22) 72%,
-            rgba(11,14,23,0.55) 84%,
-            rgba(11,14,23,0.88) 94%,
-            rgba(11,14,23,1) 100%
-        ),
-        linear-gradient(
-            to right,
-            rgba(11,14,23,0.55) 0%,
-            rgba(11,14,23,0) 8%,
-            rgba(11,14,23,0) 92%,
-            rgba(11,14,23,0.55) 100%
-        );
+        radial-gradient(ellipse at center, rgba(11,14,23,0.0) 0%, rgba(11,14,23,0.25) 70%, rgba(11,14,23,0.5) 100%);
     z-index: 1;
 }
+.hero-main {
+    position: absolute; inset: 0; z-index: 3;
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+    text-align: center; padding: 0 24px;
+    opacity: 0; transform: translateY(16px);
+    transition: opacity 1.4s cubic-bezier(0.25,0,0.1,1), transform 1.4s cubic-bezier(0.25,0,0.1,1);
+}
+.hero-main.visible { opacity: 1; transform: translateY(0); }
 
-/* ── TITOLO HERO ── */
-.hero-title {
-    position: absolute;
-    inset: 0;
-    z-index: 3;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 0 24px;
-    opacity: 0;
-    transform: translateY(28px);
-    transition: opacity 1.6s cubic-bezier(0.25, 0, 0.1, 1),
-                transform 1.6s cubic-bezier(0.25, 0, 0.1, 1);
-    pointer-events: none;
+.hero-kicker {
+    font-family: var(--font-mono); font-size: 0.65rem; letter-spacing: 0.22em; text-transform: uppercase;
+    color: var(--gold); margin: 0 0 1.1rem;
 }
-.hero-title.visible {
-    opacity: 1;
-    transform: translateY(0);
-    pointer-events: auto;
-}
-.hero-title__label {
-    font-family: var(--font-mono);
-    font-size: 0.65rem;
-    letter-spacing: 0.22em;
-    text-transform: uppercase;
-    color: var(--gold);
-    margin-bottom: 1.2rem;
-}
-.hero-title__label--below {
-    margin-bottom: 0;
-    margin-top: 1.2rem;
-}
-.hero-dante {
-    position: absolute;
-    bottom: 18vh;
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
-    font-family: var(--font-serif);
-    font-style: italic;
-    font-size: clamp(0.8rem, 1.5vw, 1.1rem);
-    color: #f5efdf;
-    text-shadow: 0 4px 30px rgba(0,0,0,0.55);
-    letter-spacing: 0.03em;
-    line-height: 1.7;
-    white-space: nowrap;
-    opacity: 0;
-    transition: opacity 2.5s ease;
-    pointer-events: none;
-}
-.hero-dante.visible { opacity: 1; }
-.hero-title__h1 {
-    font-family: var(--font-serif);
-    font-size: clamp(3.5rem, 11vw, 8rem);
-    font-weight: 300;
-    line-height: 1.0;
-    letter-spacing: -0.02em;
-    color: var(--cream);
-    margin: 0 0 1.4rem;
-    text-shadow: 0 4px 40px rgba(0,0,0,0.6);
-}
-.hero-title__sub {
-    font-size: clamp(0.85rem, 2vw, 1.1rem);
-    color: rgba(245,239,223,0.65);
-    letter-spacing: 0.03em;
-    line-height: 1.7;
-    margin-bottom: 2.2rem;
-}
-.hero-title__badge {
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    font-size: 0.75rem;
-    letter-spacing: 0.1em;
-    color: rgba(245,239,223,0.45);
-    margin-bottom: 2.8rem;
-}
-.hero-dot {
-    width: 6px; height: 6px;
-    border-radius: 50%;
-    background: var(--gold);
-    display: inline-block;
-}
-.hero-title__cta {
-    padding: 14px 40px;
-    border: 1px solid rgba(245,239,223,0.35);
-    background: transparent;
-    color: var(--cream);
-    font-size: 0.8rem;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    cursor: pointer;
-    transition: background 0.3s, border-color 0.3s;
-}
-.hero-title__cta:hover {
-    background: rgba(245,239,223,0.1);
-    border-color: rgba(245,239,223,0.7);
+.hero-tagline {
+    max-width: 100%; margin: 0; font-family: var(--font-serif);
+    font-size: clamp(0.85rem, 3.2vw, 1.8rem); font-weight: 300; white-space: nowrap;
+    color: var(--cream); text-shadow: 0 4px 40px rgba(0,0,0,0.6); line-height: 1.35;
 }
 
-/* ── Titolo hero principale (ilvolodellasera) ── */
-#verso-title { padding-top: 9vh; }
-.hero-title-main {
-    font-family: var(--font-serif);
-    font-size: clamp(1.7rem, 8vw, 6rem);
-    font-weight: 300;
-    letter-spacing: 0.01em;
-    color: var(--cream);
-    white-space: nowrap;
-    text-shadow: 0 4px 40px rgba(0,0,0,0.6);
-    margin: 0;
+.hero-search {
+    display: flex; align-items: center; width: 100%; max-width: 400px; margin-top: 2.4rem;
+    background: rgba(11,14,23,0.55); border: 1px solid rgba(245,239,223,0.25); border-radius: 999px;
+    padding: 6px 6px 6px 22px; backdrop-filter: blur(6px); transition: border-color 0.2s;
 }
+.hero-search:focus-within { border-color: var(--gold); }
+.hero-search__input {
+    flex: 1; border: none; background: transparent; color: var(--cream);
+    font-family: var(--font-sans); font-size: 1rem; padding: 12px 0; outline: none;
+}
+.hero-search__input::placeholder { color: rgba(245,239,223,0.4); }
+.hero-search__btn {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 42px; height: 42px; border-radius: 50%; flex-shrink: 0;
+    background: var(--gold); border: none; color: #0b0e17; cursor: pointer; transition: opacity 0.2s;
+}
+.hero-search__btn:hover { opacity: 0.85; }
+.hero-search__btn svg { width: 18px; height: 18px; }
 
-/* ── Freccia scroll ── */
-.hero-scroll {
-    position: absolute;
-    bottom: 36px; right: 36px;
-    z-index: 4;
-    cursor: pointer;
-    opacity: 1;
-    pointer-events: auto;
-    animation: arrowBob 2.4s ease-in-out infinite;
+.hero-social { display: flex; align-items: center; gap: 22px; margin-top: 2.2rem; }
+.hero-social__link {
+    display: inline-flex; align-items: center; justify-content: center;
+    color: rgba(245,239,223,0.6); transition: color 0.2s;
 }
-.hero-scroll__chevron {
-    width: 28px;
-    height: 17px;
-    display: block;
-}
-@keyframes arrowBob {
-    0%,100% { transform: translateY(0); }
-    50%      { transform: translateY(7px); }
-}
+.hero-social__link:hover { color: var(--gold); }
 
-/* ══ LETTURE DI FABIO ══ */
-.s-letture {
-    --lw-size: clamp(5.5rem, 14vw, 12rem);
-    border-top: 1px solid var(--bord);
-    background: var(--bg);
-    overflow: hidden;
+/* "i" info: separata dagli altri social con un margine extra e un
+   bordo circolare, cosi' si capisce a colpo d'occhio che non e' un
+   altro social ma un'azione diversa (apre "Chi siamo"). */
+.hero-info-btn {
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 26px; height: 26px; margin-left: 20px; border-radius: 50%;
+    border: 1px solid rgba(245,239,223,0.3); background: transparent;
+    color: rgba(245,239,223,0.55); cursor: pointer; transition: color 0.2s, border-color 0.2s;
 }
-.s-letture__label {
-    padding: 36px 44px 16px;
-}
-.s-letture__row {
-    overflow: hidden;
-    width: 100%;
-    margin: 0;
-}
-.s-letture__row--top    { height: var(--lw-size); }
-.s-letture__row--bottom { height: calc(var(--lw-size) * 2); margin-top: 3px; }
+.hero-info-btn:hover { color: var(--gold); border-color: var(--gold); }
 
-/* Hover: pausa animazione */
-.s-letture__row--top:hover    .s-letture__track { animation-play-state: paused; cursor: pointer; }
-.s-letture__row--bottom:hover .s-letture__track { animation-play-state: paused; cursor: pointer; }
-
-/* Track */
-.s-letture__track {
-    display: flex;
-    align-items: stretch;
-    gap: 3px;
-    width: max-content;
-    height: 100%;
-    padding: 0;
-}
-.s-letture__track--left  { animation: letture-left  40s linear infinite; }
-.s-letture__track--right { animation: letture-right 55s linear infinite; }
-
-@keyframes letture-left {
-    from { transform: translateX(0); }
-    to   { transform: translateX(-50%); }
-}
-@keyframes letture-right {
-    from { transform: translateX(-50%); }
-    to   { transform: translateX(0); }
-}
-
-/* Testo nella riga top */
-.s-letture__word {
-    display: block;
-    flex-shrink: 0;
-    padding: 0 0.35em;
-    font-family: var(--font-serif);
-    font-style: italic;
-    text-transform: uppercase;
-    font-size: var(--lw-size);
-    font-weight: 300;
-    color: rgba(245,239,223,0.65);
-    white-space: nowrap;
-    letter-spacing: -0.025em;
-    line-height: var(--lw-size);
-}
-
-/* Foto: altezza fissa (quella della riga), larghezza libera secondo le
-   proporzioni reali di ciascuna immagine — mai ritagliare testo/citazioni.
-   Prima la larghezza era fissa e "contain" lasciava bande vuote diverse per
-   ogni foto (sembravano tessere di altezza irregolare); ora l'immagine
-   riempie sempre tutta l'altezza della riga senza letterbox. */
-.s-letture__photo {
-    flex-shrink: 0;
-    height: 100%;
-    overflow: hidden;
-    background: var(--surf);
-}
-.s-letture__photo img {
-    height: 100%;
-    width: auto;
-    display: block;
-    filter: brightness(0.8) saturate(0.7);
-    transition: filter 0.5s ease;
-}
-
-/* ══ SEZIONE TITOLO (split-text + video) ══ */
-.s-titolo {
-    position: relative;
-    background: var(--bg);
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 120px;
-    padding: 140px 24px 140px;
-}
-.s-narrativa__inner {
-    max-width: 660px;
-    margin: 0 auto;
+/* ── Modale "Chi siamo" ──
+   Vetro smerigliato, bordo a filo sottile, scrollbar custom filiforme e
+   una sfumatura in cima/fondo al testo che segnala "c'e' altro sotto"
+   in modo elegante invece della barra di scroll grezza del browser. */
+.chisiamo-modal { position: fixed; inset: 0; z-index: 200; display: none; }
+.chisiamo-modal.open { display: block; }
+.chisiamo-modal__backdrop { position: absolute; inset: 0; background: rgba(4,5,9,0.6); backdrop-filter: blur(6px); }
+.chisiamo-modal__box {
+    position: relative; z-index: 1; max-width: 520px; width: calc(100% - 48px);
+    margin: 11vh auto; max-height: 72vh;
+    background: linear-gradient(180deg, rgba(28,34,51,0.75), rgba(17,21,33,0.75));
+    border: 1px solid rgba(245,239,223,0.1); border-radius: 18px;
+    box-shadow: 0 30px 80px rgba(0,0,0,0.55), inset 0 1px 0 rgba(245,239,223,0.06);
+    backdrop-filter: blur(18px); -webkit-backdrop-filter: blur(18px);
     text-align: left;
-}
-.s-titolo__grid {
-    display: grid;
-    grid-template-columns: 1.7fr 1fr;
-    gap: 70px;
-    max-width: 1160px;
-    margin: 0 auto;
-    align-items: center;
-    width: 100%;
-}
-.s-titolo__media {
-    position: relative;
-    height: 400px;
-}
-.s-titolo__img {
-    position: absolute;
-    width: 62%;
-    max-width: 290px;
-    aspect-ratio: 4/3;
-    object-fit: cover;
-    border-radius: 2px;
-    box-shadow: 0 24px 60px rgba(0,0,0,0.55);
-}
-.s-titolo__img--back {
-    top: 6%;
-    left: 2%;
-    transform: rotate(-7deg);
-}
-.s-titolo__img--front {
-    bottom: 4%;
-    right: 2%;
-    transform: rotate(4deg);
-}
-@media (max-width: 860px) {
-    .s-titolo__grid { grid-template-columns: 1fr; gap: 56px; }
-    .s-titolo__media { height: 320px; order: -1; }
-}
-.titolo-video {
-    position: absolute; inset: 0;
-    width: 100%; height: 100%;
-    object-fit: cover;
-    z-index: 0;
-    filter: brightness(0.6) saturate(0.9);
-}
-.titolo-over {
-    position: absolute; inset: 0;
-    background: linear-gradient(to bottom,
-        rgba(11,14,23,0.2) 0%,
-        rgba(11,14,23,0.0) 30%,
-        rgba(11,14,23,0.5) 80%,
-        rgba(11,14,23,0.9) 100%);
-    z-index: 1;
-}
-.titolo-title {
-    position: absolute;
-    inset: 0;
-    z-index: 3;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 0 24px;
-    opacity: 0;
-    transform: translateY(28px);
-    transition: opacity 1.6s cubic-bezier(0.25,0,0.1,1), transform 1.6s cubic-bezier(0.25,0,0.1,1);
-    pointer-events: none;
-}
-.titolo-title.visible {
-    opacity: 1;
-    transform: translateY(0);
-    pointer-events: auto;
-}
-.split-wrap {
-    position: relative;
-    z-index: 2;
-    text-align: center;
-    padding: 0 24px;
-}
-.split-label {
-    font-family: var(--font-mono);
-    font-size: 0.65rem;
-    letter-spacing: 0.22em;
-    text-transform: uppercase;
-    color: var(--gold);
-    margin-bottom: 2rem;
-    opacity: 0;
-    transition: opacity 0.8s ease 1.2s;
-}
-.split-wrap.played .split-label { opacity: 1; }
-
-.split-h1 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 0 0.35em;
-    margin: 0 0 2rem;
-    line-height: 1;
-}
-/* Ogni parola: contenitore con overflow hidden */
-.split-word {
-    position: relative;
-    display: inline-block;
-    overflow: hidden;
-    line-height: 1;
-}
-/* Le due metà: stessa stringa, clip diversa */
-.split-half {
-    display: block;
-    font-family: var(--font-serif);
-    font-size: clamp(4rem, 13vw, 10rem);
-    font-weight: 300;
-    letter-spacing: -0.02em;
-    color: var(--cream);
-    white-space: nowrap;
-    position: absolute;
-    left: 0; right: 0;
-}
-.split-half--top {
-    top: 0;
-    clip-path: inset(0 0 50% 0);
-    transform: translateY(-110%);
-    transition: transform 1.0s cubic-bezier(0.16, 1, 0.3, 1);
-}
-.split-half--bot {
-    bottom: 0;
-    clip-path: inset(50% 0 0 0);
-    transform: translateY(110%);
-    transition: transform 1.0s cubic-bezier(0.16, 1, 0.3, 1);
-}
-/* Altezza del contenitore = altezza del testo */
-.split-word::after {
-    content: attr(data-word);
-    font-family: var(--font-serif);
-    font-size: clamp(4rem, 13vw, 10rem);
-    font-weight: 300;
-    letter-spacing: -0.02em;
-    visibility: hidden;
-    display: block;
-    white-space: nowrap;
-}
-/* Stato animato */
-.split-wrap.played .split-half--top,
-.split-wrap.played .split-half--bot {
-    transform: translateY(0);
-}
-/* Delay per ogni parola */
-.split-h1 .split-word:nth-child(1) .split-half { transition-delay: 0s; }
-.split-h1 .split-word:nth-child(2) .split-half { transition-delay: 0.12s; }
-.split-h1 .split-word:nth-child(3) .split-half { transition-delay: 0.22s; }
-.split-h1 .split-word:nth-child(4) .split-half { transition-delay: 0.32s; }
-
-.split-dante {
-    font-family: var(--font-serif);
-    font-size: clamp(0.95rem, 2vw, 1.25rem);
-    font-style: italic;
-    color: rgba(245,239,223,0.6);
-    line-height: 1.75;
-    margin: 0 0 0.6rem;
-    opacity: 0;
-    transition: opacity 0.8s ease 1.4s;
-}
-.split-dante-cite {
-    font-family: var(--font-mono);
-    font-size: 0.63rem;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
-    color: rgba(245,239,223,0.3);
-    opacity: 0;
-    transition: opacity 0.8s ease 1.55s;
-    display: block;
-}
-.split-wrap.played .split-dante,
-.split-wrap.played .split-dante-cite { opacity: 1; }
-
-/* ══ SEZIONE NARRATIVA (Il senso / Chi siamo) ══ */
-.s-titolo .split-wrap { max-width: none; text-align: left; }
-.s-titolo .split-dante {
-    text-align: center;
-    max-width: 900px;
-    margin: 0 auto 2rem;
-    font-size: clamp(1.2rem, 2.6vw, 1.9rem);
-    color: var(--cream);
-    opacity: 1;
-    transition: none;
-}
-.s-titolo__bottom {
-    max-width: 900px;
-    margin: 0 auto;
-    text-align: center;
-}
-.s-titolo__bottom .lbl { text-align: center; }
-.s-titolo .lbl { font-size: 0.82rem; letter-spacing: 0.14em; }
-.s-narrativa__heading {
-    font-family: var(--font-serif);
-    font-size: clamp(1.6rem, 2.8vw, 2.15rem);
-    font-weight: 400;
-    font-style: italic;
-    color: var(--cream);
-    line-height: 1.35;
-    margin: 0 0 20px;
-}
-.s-narrativa__h4 {
-    font-family: var(--font-serif);
-    font-size: var(--fs-h4);
-    font-weight: 400;
-    font-style: italic;
-    color: var(--gold);
-    margin-bottom: 0.7rem;
-}
-.s-narrativa__body {
-    font-family: var(--font-sans);
-    font-size: clamp(1.1rem, 1.55vw, 1.3rem);
-    font-weight: 300;
-    color: rgba(245,239,223,0.72);
-    line-height: 1.7;
-    margin: 0;
-    max-width: 640px;
-}
-.s-titolo__bottom .s-narrativa__body { max-width: 720px; margin: 0 auto; }
-
-/* ══ CONTENUTO ══ */
-.site-content { background: var(--bg); }
-
-.lbl {
-    display: block;
-    font-family: var(--font-mono);
-    font-size: 0.68rem;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
-    color: var(--gold);
-    margin-bottom: 1.5rem;
-}
-.lbl--dim { color: rgba(34,158,217,0.6); }
-
-/* Intro */
-.s-intro {
-    padding: 100px 24px 90px;
-    max-width: 760px;
-    margin: 0 auto;
-    text-align: center;
-}
-.s-intro__dante {
-    font-family: var(--font-serif);
-    font-size: clamp(1.5rem, 3.2vw, 2.4rem);
-    font-weight: 300;
-    font-style: italic;
-    color: var(--cream);
-    line-height: 1.5;
-    margin: 0 0 1.6rem;
-    border: none;
-    padding: 0;
-}
-.s-intro__dante p { margin: 0; }
-.s-intro__dante-cite {
-    font-size: 0.72rem;
-    letter-spacing: 0.18em;
-    color: rgba(245,239,223,0.35);
-    text-transform: uppercase;
-}
-.dot { width: 7px; height: 7px; background: var(--gold); border-radius: 50%; animation: pulse 2s infinite; }
-@keyframes pulse { 0%,100%{opacity:1;} 50%{opacity:.25;} }
-
-.s-tag { font-size: .68rem; letter-spacing: .1em; text-transform: uppercase; color: var(--gold); background: var(--golddim); padding: 3px 8px; border-radius: 3px; }
-
-/* Random */
-.s-random { border-top: 1px solid var(--bord); padding: 90px 24px; text-align: center; }
-.s-random__title { font-family: var(--font-serif); font-size: clamp(1.5rem, 4vw, 2.4rem); font-weight: 300; color: var(--cream); margin-bottom: 1rem; }
-.s-random__text { font-size: .95rem; color: var(--muted); line-height: 1.7; margin-bottom: 2rem; }
-.s-random__reveal {
-    height: 1.4rem;
-    margin-top: 20px;
-    font-family: var(--font-mono);
-    font-size: 0.8rem;
-    letter-spacing: 0.06em;
-    color: rgba(245,239,223,0.35);
-    opacity: 0;
-    transition: opacity 0.2s ease;
-}
-.s-random__reveal.active { opacity: 1; }
-.s-random__reveal.picked { color: var(--gold); }
-#random-btn[disabled] { opacity: 0.5; cursor: default; pointer-events: none; }
-
-/* Telegram */
-.s-tg { background: var(--bg); border-top: 1px solid var(--bord); padding: 90px 24px; text-align: center; }
-.s-contrib { border-top: 1px solid var(--bord); padding: 18px 24px; text-align: center; }
-.s-contrib__text { font-family: var(--font-mono, monospace); font-size: 0.62rem; letter-spacing: 0.05em; color: rgba(245,239,223,0.22); margin: 0; }
-.s-tg__title { font-family: var(--font-serif); font-size: clamp(1.3rem, 3vw, 2rem); font-weight: 300; color: var(--cream); margin-bottom: 1.2rem; }
-.s-tg__text { font-size: .95rem; color: var(--muted); line-height: 1.8; margin-bottom: 2rem; max-width: 600px; margin-left: auto; margin-right: auto; }
-
-/* Buttons */
-.btn { display: inline-block; padding: 13px 36px; border: 1px solid var(--gold); background: transparent; color: var(--gold); font-size: .82rem; letter-spacing: .12em; text-transform: uppercase; text-decoration: none; cursor: pointer; font-family: inherit; transition: background .2s, color .2s; }
-.btn:hover { background: var(--gold); color: #fff; }
-.btn--tg { border-color: #8fb8d9; color: #8fb8d9; }
-.btn--tg:hover { background: #8fb8d9; color: #fff; }
-
-/* ══ SPLIT BADGE ══ */
-.split-badge {
-    display: inline-flex;
-    align-items: center;
-    gap: 10px;
-    background: rgba(255,255,255,0.04);
-    border: 1px solid var(--bord);
-    padding: 8px 20px;
-    border-radius: 50px;
-    font-size: 0.82rem;
-    color: rgba(245,239,223,0.6);
-    margin-top: 2.4rem;
-    opacity: 0;
-    transition: opacity 0.8s ease 1.6s;
-}
-.split-wrap.played .split-badge { opacity: 1; }
-
-/* ══ EPISODIO DEL GIORNO ══ */
-.s-epdelgiorno {
-    border-top: 1px solid var(--bord);
-    background: var(--bg);
-    padding: 90px 44px 110px;
-    min-height: 560px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.s-epdelgiorno__top {
-    max-width: 1200px;
-    width: 100%;
-    margin: 0 auto 8px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-.s-epdelgiorno__top .lbl { margin: 0; }
-.s-epdelgiorno__head {
-    max-width: 1200px;
-    width: 100%;
-    margin: 0 auto 28px;
-}
-.s-epdelgiorno__card {
-    max-width: 1200px;
-    width: 100%;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: 1fr 1.1fr;
-    gap: 56px;
-    align-items: center;
-}
-/* Riquadro adattato alle proporzioni reali della cover (1200x627):
-   niente letterboxing sopra/sotto. */
-.s-epdelgiorno__media {
-    width: 100%;
-    overflow: hidden;
-    background: var(--surf);
-}
-.s-epdelgiorno__img { width: 100%; height: auto; display: block; }
-@media(max-width: 860px) {
-    .s-epdelgiorno__card { grid-template-columns: 1fr; }
-}
-.s-epdelgiorno__head {
-    display: flex;
-    align-items: baseline;
-    flex-wrap: wrap;
-    gap: 16px;
-    margin-bottom: 28px;
-}
-.s-epdelgiorno__title {
-    font-family: var(--font-serif);
-    font-size: clamp(1.2rem, 2.4vw, 1.7rem);
-    font-weight: 300;
-    color: var(--cream);
-    line-height: 1.25;
-    margin: 0;
-}
-.s-epdelgiorno__date {
-    font-family: var(--font-mono);
-    font-size: 0.72rem;
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    color: rgba(245,239,223,0.4);
-    flex-shrink: 0;
-}
-/* Icona "apri la puntata": quadrato con freccia, porta alla pagina
-   completa dell'episodio (/episodi/<data>/). */
-.s-epdelgiorno__open {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 30px;
-    height: 30px;
-    flex-shrink: 0;
-    color: rgba(245,239,223,0.55);
-    transition: color 0.2s;
-}
-.s-epdelgiorno__open svg { width: 20px; height: 20px; }
-.s-epdelgiorno__open:hover { color: var(--gold); }
-/* Badge "in onda": icona onde radio con pulsazione sottile sopra il player.
-   Pillola con bordo per renderlo un badge riconoscibile, non un dettaglio
-   perso accanto al player (era troppo piccolo/tenue per notarlo). */
-.s-epdelgiorno__onair {
-    display: inline-flex;
-    align-items: center;
-    gap: 12px;
-    margin-bottom: 18px;
-    padding: 11px 22px 11px 16px;
-    border: 1px solid rgba(143,184,217,0.4);
-    border-radius: 999px;
-    color: var(--gold);
-}
-.s-epdelgiorno__onair-icon { width: 32px; height: 20px; flex-shrink: 0; }
-.s-epdelgiorno__onair-label {
-    font-family: var(--font-mono);
-    font-size: 0.7rem;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-}
-.onair-wave { animation: onairPulse 2.6s ease-in-out infinite; }
-.onair-wave--2 { animation-delay: 0.4s; }
-@keyframes onairPulse {
-    0%, 100% { opacity: 0.55; }
-    50%      { opacity: 1; }
-}
-.ep-fonte { margin-top: 0.4rem; margin-bottom: 1.6rem; }
-.ep-fonte a { color: var(--gold); text-decoration: none; font-size: 0.82rem; font-family: var(--font-sans); font-weight: 400; text-transform: uppercase; letter-spacing: 0.08em; }
-.ep-fonte a:hover { text-decoration: underline; }
-.ep-fonte__arrow { margin-left: 0.5em; }
-.s-epdelgiorno__audio {
-    width: 100%;
-    margin-bottom: 12px;
-    filter: invert(0.86) grayscale(1) contrast(0.9);
-    border-radius: 4px;
-}
-.s-epdelgiorno__audio-placeholder {
-    width: 100%;
-    padding: 20px;
-    border: 1px dashed var(--bord);
-    text-align: center;
-    font-family: var(--font-mono);
-    font-size: 0.7rem;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: rgba(245,239,223,0.3);
-    margin-bottom: 28px;
-}
-.s-epdelgiorno__video-wrap {
-    width: 100%;
-    aspect-ratio: 16 / 9;
-    background: var(--surf);
-    margin-bottom: 28px;
-    overflow: hidden;
-}
-.s-epdelgiorno__video { width: 100%; height: 100%; object-fit: cover; display: block; }
-.s-epdelgiorno__desc {
-    font-size: clamp(1rem, 1.6vw, 1.1rem);
-    color: #f5efdf;
-    line-height: 1.8;
-    margin-bottom: 22px;
-}
-.s-epdelgiorno__tags { display: flex; gap: 8px; flex-wrap: wrap; }
-.s-epdelgiorno__playlist { margin-top: 24px; padding-top: 20px; border-top: 1px solid var(--bord); }
-.s-epdelgiorno__playlist-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 8px; padding-bottom: 10px; border-bottom: 1px solid var(--bord); }
-.s-epdelgiorno__playlist-title { font-family: var(--font-serif); font-size: 0.95rem; font-weight: 300; color: var(--cream); margin: 0; }
-.s-epdelgiorno__playlist-open { display: inline-flex; align-items: center; justify-content: center; align-self: flex-start; width: 24px; height: 24px; flex-shrink: 0; color: rgba(245,239,223,0.55); transition: color 0.2s; }
-.s-epdelgiorno__playlist-open svg { width: 15px; height: 15px; }
-.s-epdelgiorno__playlist-open:hover { color: var(--gold); }
-.s-epdelgiorno__playlist-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; }
-.s-epdelgiorno__playlist-item { display: flex; align-items: center; gap: 14px; padding: 10px 0; border-bottom: 1px solid var(--bord); }
-.s-epdelgiorno__playlist-item:last-child { border-bottom: none; }
-.s-epdelgiorno__playlist-cover { width: 40px; height: 40px; border-radius: 4px; object-fit: cover; flex-shrink: 0; background: var(--surf); }
-.s-epdelgiorno__playlist-cover--placeholder { display: inline-flex; align-items: center; justify-content: center; color: rgba(245,239,223,0.55); }
-.s-epdelgiorno__playlist-cover--placeholder svg { width: 16px; height: 16px; }
-.s-epdelgiorno__playlist-info { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
-.s-epdelgiorno__playlist-song { font-family: var(--font-serif); font-size: 0.9rem; color: var(--cream); }
-.s-epdelgiorno__playlist-artist { font-family: var(--font-mono); font-size: 0.65rem; letter-spacing: 0.06em; color: var(--muted); }
-
-/* ══ TEMI ESISTENZIALI ══ */
-.s-temi {
-    position: relative;
-    display: grid;
-    grid-template-columns: 1fr 460px;
-    border-top: 1px solid var(--bord);
-}
-/* Mobile/tablet: colonna unica, timeline sotto il titolo. STESSA soglia
-   (900px) della regola .s-temi__right piu' sotto: l'overlay assoluto
-   della foto e' calcolato sulla griglia a 2 colonne (right: calc(460px+
-   20px), pannello largo 300px) e sotto i 900px la colonna sinistra (1fr)
-   diventa troppo stretta per ospitarlo — finisce fuori schermo. Le due
-   soglie DEVONO restare allineate. */
-@media(max-width:900px) {
-    .s-temi { grid-template-columns: 1fr; }
-    .s-temi__left { order: 2; border-right: none; border-top: 1px solid var(--bord); }
-    .s-temi__center { order: 1; }
-    .s-temi__timeline { display: flex; }
-}
-.s-temi__left {
-    padding: 56px 40px 64px;
-    border-right: 1px solid var(--bord);
-    display: flex;
-    flex-direction: column;
-    gap: 28px;
-    position: relative;
-    z-index: 2;
-}
-/* Progress bar */
-.s-temi__prog-wrap {
-    height: 1px;
-    background: rgba(255,255,255,0.12);
-    overflow: hidden;
-}
-.s-temi__prog-bar {
-    height: 100%;
-    background: var(--cream);
-    width: 0%;
-}
-/* Nav */
-.s-temi__nav {
-    display: flex;
-    align-items: center;
-    gap: 14px;
-}
-.s-temi__arrow {
-    background: none;
-    border: none;
-    color: var(--cream);
-    cursor: pointer;
-    font-size: 1rem;
-    padding: 0;
-    opacity: 0.55;
-    transition: opacity 0.2s;
-    line-height: 1;
-}
-.s-temi__arrow:hover { opacity: 1; }
-.s-temi__counter {
-    font-family: var(--font-mono);
-    font-size: 0.68rem;
-    letter-spacing: 0.08em;
-    color: rgba(245,239,223,0.35);
-    margin-left: auto;
-    font-variant-numeric: tabular-nums;
-}
-/* Slide: ultimi episodi (descrizione → titolo → data) */
-.s-temi__slide-wrap { flex: 1; display: flex; flex-direction: column; }
-.s-temi__slide-tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 6px;
-    margin-bottom: 12px;
-    min-height: 24px;
-}
-.s-temi__slide-desc {
-    font-size: 0.76rem;
-    color: rgba(245,239,223,0.65);
-    line-height: 1.6;
-    margin-bottom: 14px;
-    opacity: 0;
-    transform: translateY(10px);
-    transition: opacity 0.4s ease, transform 0.4s ease;
-}
-.s-temi__slide-link { display: flex; align-items: baseline; gap: 10px; text-decoration: none; }
-.s-temi__slide-title {
-    font-family: var(--font-serif);
-    font-size: clamp(0.88rem, 1.2vw, 1.02rem);
-    font-weight: 400;
-    color: var(--cream);
-    line-height: 1.3;
-    margin-bottom: 8px;
-    opacity: 0;
-    transform: translateY(10px);
-    transition: opacity 0.4s ease 0.06s, transform 0.4s ease 0.06s, color 0.2s ease;
-}
-.s-temi__slide-open {
-    align-self: flex-start;
-    width: 16px;
-    height: 16px;
-    flex-shrink: 0;
-    color: rgba(245,239,223,0.55);
-    transition: color 0.2s;
-}
-.s-temi__slide-link:hover .s-temi__slide-title { color: var(--gold); }
-.s-temi__slide-link:hover .s-temi__slide-open { color: var(--gold); }
-.s-temi__slide-date {
-    font-family: var(--font-mono);
-    font-size: 0.6rem;
-    letter-spacing: 0.1em;
-    text-transform: uppercase;
-    color: rgba(34,158,217,0.6);
-    opacity: 0;
-    transform: translateY(10px);
-    transition: opacity 0.4s ease 0.12s, transform 0.4s ease 0.12s;
-}
-.s-temi__slide-desc.in,
-.s-temi__slide-title.in,
-.s-temi__slide-date.in {
-    opacity: 1;
-    transform: translateY(0);
-}
-.s-temi__slide-playlist { display: flex; flex-direction: column; }
-.s-temi__slide-playlist-item { display: flex; align-items: center; gap: 10px; padding: 8px 0; border-top: 1px solid var(--bord); }
-.s-temi__slide-playlist-cover { width: 28px; height: 28px; border-radius: 3px; object-fit: cover; flex-shrink: 0; background: var(--surf); }
-.s-temi__slide-playlist-cover--placeholder { display: inline-flex; align-items: center; justify-content: center; color: rgba(245,239,223,0.55); }
-.s-temi__slide-playlist-cover--placeholder svg { width: 12px; height: 12px; }
-.s-temi__slide-playlist-info { display: flex; flex-direction: column; gap: 1px; min-width: 0; }
-.s-temi__slide-playlist-song { font-family: var(--font-serif); font-size: 0.82rem; color: var(--cream); }
-.s-temi__slide-playlist-artist { font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.06em; color: var(--muted); }
-.s-temi__archive-link {
-    align-self: flex-start;
-    margin-top: auto;
-    padding-top: 24px;
-    color: var(--gold);
-    text-decoration: none;
-    font-size: 0.85rem;
-    border-bottom: 1px solid transparent;
-    transition: border-color 0.2s;
-}
-.s-temi__archive-link:hover { border-color: var(--gold); }
-.s-temi__center {
-    padding: 56px 48px 56px 44px;
-    display: flex;
-    flex-direction: column;
-}
-.s-temi__list {
-    display: flex;
-    flex-direction: column;
-    margin-top: 28px;
-}
-.s-temi__h2 {
-    font-family: var(--font-sans);
-    font-size: clamp(1.8rem, 3.8vw, 3.8rem);
-    font-weight: 400;
-    color: rgba(245,239,223,0.2);
-    letter-spacing: -0.03em;
-    line-height: 0.95;
-    padding: 20px 0;
-    border-bottom: 1px solid var(--bord);
-    cursor: default;
-    transition: color 0.25s ease;
-    margin: 0;
-    user-select: none;
-}
-.s-temi__pair:first-child .s-temi__h2 { border-top: 1px solid var(--bord); }
-.s-temi__h2.active,
-.s-temi__h2:hover { color: var(--cream); font-weight: 600; }
-/* Foto per-parola: nascosta su desktop (li' c'e' il pannello hover
-   .s-temi__right), mostrata impilata sotto la sua h2 solo su mobile. */
-.s-temi__pair-img { display: none; }
-@media(max-width:900px) {
-    .s-temi__pair-img {
-        display: block;
-        width: 100%;
-        aspect-ratio: 3 / 4;
-        margin: 0 0 24px;
-        border-radius: 6px;
-        background-size: cover;
-        background-position: center;
-        filter: brightness(0.7) saturate(0.8);
-    }
+    opacity: 0; transform: translateY(10px) scale(0.98);
+    transition: opacity 0.25s ease, transform 0.25s ease;
+}
+.chisiamo-modal.open .chisiamo-modal__box { opacity: 1; transform: translateY(0) scale(1); }
+.chisiamo-modal__scroll {
+    max-height: 72vh; overflow-y: auto; padding: 44px 40px;
+    scrollbar-width: thin; scrollbar-color: rgba(143,184,217,0.4) transparent;
+    -webkit-mask-image: linear-gradient(to bottom, transparent 0, #000 24px, #000 calc(100% - 24px), transparent 100%);
+    mask-image: linear-gradient(to bottom, transparent 0, #000 24px, #000 calc(100% - 24px), transparent 100%);
+}
+.chisiamo-modal__scroll::-webkit-scrollbar { width: 3px; }
+.chisiamo-modal__scroll::-webkit-scrollbar-track { background: transparent; }
+.chisiamo-modal__scroll::-webkit-scrollbar-thumb { background: rgba(143,184,217,0.35); border-radius: 3px; }
+.chisiamo-modal__scroll::-webkit-scrollbar-thumb:hover { background: rgba(143,184,217,0.6); }
+.chisiamo-modal__lbl {
+    font-family: var(--font-mono); font-size: 0.65rem; letter-spacing: 0.22em; text-transform: uppercase;
+    color: var(--gold); margin: 0 0 1rem;
+}
+.chisiamo-modal__title {
+    font-family: var(--font-serif); font-weight: 400; font-style: italic; font-size: 1.4rem;
+    color: var(--cream); margin: 0 0 1.3rem; line-height: 1.4;
+}
+.chisiamo-modal__body {
+    font-family: var(--font-sans); font-size: 0.92rem; color: rgba(245,239,223,0.68);
+    line-height: 1.8; margin: 0 0 1.3rem; font-weight: 300;
+}
+.chisiamo-modal__body:last-child { margin-bottom: 0; }
+.chisiamo-modal__close {
+    position: absolute; top: 18px; right: 18px; z-index: 2;
+    display: inline-flex; align-items: center; justify-content: center;
+    width: 30px; height: 30px; border-radius: 50%;
+    background: rgba(255,255,255,0.04); border: 1px solid rgba(245,239,223,0.12);
+    color: rgba(245,239,223,0.55); cursor: pointer; transition: color 0.2s, border-color 0.2s;
+}
+.chisiamo-modal__close svg { width: 14px; height: 14px; }
+.chisiamo-modal__close:hover { color: var(--cream); border-color: rgba(245,239,223,0.3); }
+@media(max-width: 640px) {
+    .chisiamo-modal__box { margin: 7vh auto; max-height: 82vh; }
+    .chisiamo-modal__scroll { padding: 36px 24px; max-height: 82vh; }
 }
 
-/* Overlay immagine — pannello piccolo che segue la h2 attiva al passaggio
-   del mouse (vedi JS: temiPanel.style.top). Funzione voluta, non un bug:
-   il pannello si sovrappone leggermente alla lista per design. */
-.s-temi__right {
-    position: absolute;
-    right: calc(460px + 20px);
-    width: 300px;
-    height: 380px;
-    pointer-events: none;
-    z-index: 5;
-    top: 50%;
-    transform: translateY(-50%);
-    transition: top 0.3s ease;
-}
-/* Sotto i 900px niente hover (touch), niente overlay assoluto: il
-   pannello unico sparisce, ogni parola ha gia' la sua foto impilata
-   subito sotto (.s-temi__pair-img, vedi .s-temi__list piu' sotto). */
-@media(max-width:900px) {
-    .s-temi__right { display: none; }
-}
-.s-temi__img {
-    position: absolute;
-    inset: 0;
-    background-size: cover;
-    background-position: center;
-    opacity: 0;
-    transition: opacity 0.4s ease;
-    filter: brightness(0.7) saturate(0.8);
-}
-.s-temi__img.active { opacity: 1; }
-
-/* ══ CTA ══ */
-.s-cta {
-    position: relative;
-    min-height: 756px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    overflow: hidden;
-    border-top: 1px solid var(--bord);
-}
-.s-cta__bg {
-    position: absolute;
-    inset: 0;
-    background-size: cover;
-    background-position: center;
-    filter: brightness(0.3) saturate(0.6);
-}
-.s-cta__over {
-    position: absolute;
-    inset: 0;
-    background: linear-gradient(to bottom, rgba(11,14,23,0.5) 0%, rgba(11,14,23,0.2) 50%, rgba(11,14,23,0.7) 100%);
-}
-.s-cta__content {
-    position: relative;
-    z-index: 2;
-    padding: 80px 24px;
-    max-width: 700px;
-}
-.s-cta__title {
-    font-family: var(--font-serif);
-    font-size: clamp(1.6rem, 3.8vw, 2.8rem);
-    font-weight: 300;
-    color: var(--cream);
-    line-height: 1.15;
-    margin: 0 0 1.4rem;
-    letter-spacing: -0.01em;
-}
-.s-cta__sub {
-    font-size: 1rem;
-    color: rgba(245,239,223,0.6);
-    line-height: 1.8;
-    margin-bottom: 2.4rem;
-}
-.s-cta__form { display: flex; flex-direction: column; gap: 12px; align-items: flex-start; }
-.s-cta__input,
-.s-cta__textarea {
-    width: 100%;
-    max-width: 420px;
-    background: rgba(11,14,23,0.55);
-    border: 1px solid rgba(255,255,255,0.18);
-    color: var(--cream);
-    font-family: inherit;
-    font-size: 0.9rem;
-    padding: 11px 14px;
-    border-radius: 2px;
-}
-.s-cta__textarea { min-height: 90px; resize: vertical; }
-.s-cta__input::placeholder,
-.s-cta__textarea::placeholder { color: rgba(245,239,223,0.4); }
-.s-cta__input:focus,
-.s-cta__textarea:focus { outline: none; border-color: var(--gold); }
-.s-cta__form-msg { font-size: 0.82rem; color: rgba(245,239,223,0.55); min-height: 1.2em; opacity: 0; transition: opacity 0.2s ease; }
-.s-cta__form-msg.active { opacity: 1; }
-.s-cta__file-label {
-    width: 100%;
-    max-width: 420px;
-    font-size: 0.8rem;
-    color: rgba(245,239,223,0.55);
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-}
-.s-cta__file { font-family: inherit; font-size: 0.82rem; color: rgba(245,239,223,0.7); }
-.s-cta__file-name { font-size: 0.78rem; color: var(--gold); }
-
-/* ── Modale "Condividi il tuo ricordo" ── */
-.ricordo-modal { position: fixed; inset: 0; z-index: 200; display: none; }
-.ricordo-modal.open { display: block; }
-.ricordo-modal__backdrop { position: absolute; inset: 0; background: rgba(4,5,9,0.75); backdrop-filter: blur(3px); }
-.ricordo-modal__box {
-    position: relative;
-    z-index: 1;
-    max-width: 480px;
-    width: calc(100% - 48px);
-    margin: 8vh auto;
-    max-height: 84vh;
-    overflow-y: auto;
-    background: var(--surf, #161b29);
-    border: 1px solid var(--bord, rgba(255,255,255,0.1));
-    padding: 40px 32px;
-    box-shadow: 0 20px 60px rgba(0,0,0,0.5);
-}
-.ricordo-modal__title {
-    font-family: var(--font-serif);
-    font-size: 1.4rem;
-    font-weight: 300;
-    color: var(--cream);
-    margin-bottom: 1.4rem;
-}
-.ricordo-modal__close {
-    position: absolute;
-    top: 12px; right: 16px;
-    background: none;
-    border: none;
-    color: rgba(245,239,223,0.5);
-    font-size: 1.6rem;
-    line-height: 1;
-    cursor: pointer;
-}
-.ricordo-modal__close:hover { color: var(--cream); }
-@media(max-width: 520px) {
-    .ricordo-modal__box { margin: 5vh auto; padding: 32px 22px; }
-}
-
-/* ══ SEZIONE VERSO SERA ══ */
-.s-verso {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-}
-.s-verso__video {
-    position: absolute; inset: 0;
-    width: 100%; height: 100%;
-    object-fit: cover;
-    z-index: 0;
-    filter: brightness(0.7) saturate(1.0);
-}
-.s-verso__over {
-    position: absolute; inset: 0;
-    background: linear-gradient(to bottom,
-        rgba(11,14,23,0.1) 0%,
-        rgba(11,14,23,0.0) 20%,
-        rgba(11,14,23,0.3) 70%,
-        rgba(11,14,23,0.88) 100%);
-    z-index: 1;
-}
-.s-verso__title {
-    position: absolute; inset: 0;
-    z-index: 3;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 0 24px;
-    opacity: 0;
-    transform: translateY(28px);
-    transition: opacity 3.2s cubic-bezier(0.25,0,0.1,1), transform 3.2s cubic-bezier(0.25,0,0.1,1);
-    pointer-events: none;
-}
-.s-verso__title.visible {
-    opacity: 1;
-    transform: translateY(0);
-    pointer-events: auto;
-}
-
-/* ── Verso copyright ── */
-.verso-copyright {
-    position: absolute;
-    bottom: 14px; left: 14px;
-    z-index: 4;
-    font-family: var(--font-sans);
-    font-size: 0.6rem;
-    font-weight: 300;
-    letter-spacing: 0.02em;
-    color: rgba(245,239,223,0.35);
-    pointer-events: none;
-}
-
-/* ── Hero copyright ── */
-.hero-copyright {
-    position: absolute;
-    bottom: 14px; left: 14px;
-    z-index: 4;
-    font-family: var(--font-sans);
-    font-size: 0.6rem;
-    font-weight: 300;
-    letter-spacing: 0.02em;
-    color: rgba(245,239,223,0.35);
-    pointer-events: none;
-}
-
-/* ── Frecce s-verso ── */
-.verso-arrow {
-    position: absolute;
-    right: 36px;
-    z-index: 4;
-    cursor: pointer;
-    animation: arrowBob 2.4s ease-in-out infinite;
-}
-.verso-arrow--up  { top: 36px; animation-direction: reverse; }
-.verso-arrow--down { bottom: 36px; }
-.verso-arrow svg { width: 28px; height: 17px; display: block; }
-
-/* ── CTA bottom logos ── */
-.s-cta__logos {
-    position: absolute;
-    bottom: 28px;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    z-index: 3;
-    filter: grayscale(1);
-    opacity: 0.45;
-}
-.s-cta__logo-deejay {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    line-height: 1;
-    gap: 1px;
-}
-.deejay-radio {
-    font-family: var(--font-mono);
-    font-size: 0.7rem;
-    letter-spacing: 0.22em;
-    text-transform: uppercase;
-    color: #fff;
-}
-.deejay-name {
-    font-family: var(--font-sans);
-    font-size: 1.8rem;
-    font-weight: 700;
-    letter-spacing: 0.05em;
-    color: #fff;
-    line-height: 1;
-}
-.s-cta__logo-divider {
-    width: 1px;
-    height: 44px;
-    background: rgba(255,255,255,0.3);
-}
-.s-cta__logo-carpanelle {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 4px;
-}
-.carp-main {
-    font-family: var(--font-serif);
-    font-size: 1.5rem;
-    font-weight: 400;
-    color: #fff;
-    letter-spacing: 0.03em;
-    line-height: 1;
-}
-.carp-sub {
-    font-family: var(--font-mono);
-    font-size: 0.6rem;
-    letter-spacing: 0.18em;
-    text-transform: uppercase;
-    color: rgba(255,255,255,0.7);
-}
-
-/* ═══════════════════════════════════════════
-   RESPONSIVE — mobile (<640px) e tablet (<860px)
-   ═══════════════════════════════════════════ */
 @media (max-width: 640px) {
-    /* Padding orizzontale ridotto per tutte le sezioni */
-    .s-tg                           { padding: 48px 20px 48px; }
-    .s-temi__left                   { padding: 40px 20px 48px; }
-    .s-narrativa                    { padding: 48px 20px; }
-    .s-epdelgiorno__body            { padding: 28px 20px 40px; }
-    .s-titolo__grid                 { padding: 0 20px; }
-    .s-titolo__text                 { padding: 40px 0; }
-    .s-titolo__media                { height: 240px; }
-    .s-titolo__lbl,
-    .s-tg__lbl,
-    .s-narrativa__lbl,
-    .s-epdelgiorno__lbl             { font-size: 0.55rem; }
-    .s-tg__intro                    { font-size: 0.9rem; }
-    .s-narrativa__text              { font-size: 0.9rem; }
-
-    /* Sezione TG: rimuovi padding laterale forzato */
-    .s-tg__intro p                  { font-size: clamp(0.85rem, 3.5vw, 1rem); }
-
-    /* Sezione Comunità: bottone più grande */
-    .comunita-cta                   { padding: 0.7rem 1.6rem; font-size: 0.75rem; }
-
-    /* CTA/Versi: title più piccolo */
-    .s-verso__title .hero-title-main { font-size: clamp(2rem, 10vw, 3rem) !important; }
-
-    /* Frecce laterali nascoste su schermi molto piccoli */
-    .verso-arrow                    { right: 16px; }
-    .hero-scroll                    { right: 16px; bottom: 20px; }
-
-    /* Logos CTA: ridimensiona su mobile */
-    .s-cta__logos                   { gap: 12px; bottom: 16px; }
-    .deejay-name                    { font-size: 1.4rem; }
-    .carp-main                      { font-size: 1.1rem; }
-
-    /* Modale ricordo: full-width */
-    .ricordo-modal__overlay         { padding: 0; }
-    .ricordo-modal__box             { width: 100%; min-height: 100vh; border-radius: 0; margin: 0; padding: 32px 20px; }
-}
-
-/* Tablet medio: ridimensiona colonne s-epdelgiorno */
-@media (max-width: 860px) {
-    .s-epdelgiorno__body            { padding: 36px 28px 48px; }
-    .s-titolo__text                 { padding: 48px 28px; }
-}
-
-/* Large screen: centra e amplia i blocchi */
-@media (min-width: 1600px) {
-    .s-tg__inner,
-    .s-narrativa__inner,
-    .s-epdelgiorno__body            { max-width: 1300px; margin-left: auto; margin-right: auto; }
+    .hero-search { max-width: 100%; padding-left: 16px; }
+    .hero-social { gap: 18px; }
 }
 </style>
 
-<!-- ════════════════════════════════════
-     JS
-════════════════════════════════════ -->
 <script>
-(function() {
-    /* ── Timeline ultimi episodi (s-temi left column) ── */
-    {{ $tlArr := slice }}
-    {{ range first 6 (where .Site.RegularPages "Section" "episodi") }}
-    {{ $tlPlaylist := index .Site.Data.playlist .File.ContentBaseName }}
-    {{ if not $tlPlaylist }}{{ $tlPlaylist = slice }}{{ end }}
-    {{ $tlArr = $tlArr | append (dict
-        "title" .Title
-        "date"  (.Date.Format "02 Jan 2006")
-        "desc"  (default "Un frammento da riscoprire: parole, momenti e storie ricomposte per strapparle all'oblio." .Params.resumen)
-        "temi"  .Params.temi
-        "url"   .RelPermalink
-        "fonte" .Params.fonte
-        "playlist" $tlPlaylist
-    ) }}
-    {{ end }}
-    var tlData = {{ $tlArr | jsonify | safeJS }};
-    var tlCurrent = 0;
-    var tlDuration = 8000;
-    var tlTimer = null;
-    var tlBar     = document.getElementById('tl-bar');
-    var tlCounter = document.getElementById('tl-counter');
-    var tlDesc    = document.getElementById('tl-desc');
-    var tlTitle   = document.getElementById('tl-title');
-    var tlDate    = document.getElementById('tl-date');
-    var tlTags    = document.getElementById('tl-tags');
-    var tlPlaylistEl = document.getElementById('tl-playlist');
-    var tlLink    = document.getElementById('tl-link');
-    var tlPrev    = document.getElementById('tl-prev');
-    var tlNext    = document.getElementById('tl-next');
+(function () {
+    var vid = document.getElementById('hero-video');
+    var loader = document.getElementById('hero-loader');
+    var main = document.getElementById('hero-main');
 
-    function tlShow(idx) {
-        if (!tlData.length) return;
-        tlCurrent = ((idx % tlData.length) + tlData.length) % tlData.length;
-        var n = String(tlCurrent + 1).padStart(2, '0');
-        var t = String(tlData.length).padStart(2, '0');
-        if (tlCounter) tlCounter.textContent = n + ' / ' + t;
-
-        [tlDesc, tlTitle, tlDate, tlTags].forEach(function(el) { if (el) el.classList.remove('in'); });
-        void (tlDesc && tlDesc.offsetWidth); /* reflow */
-        if (tlDesc)  tlDesc.textContent  = tlData[tlCurrent].desc;
-        if (tlTitle) tlTitle.textContent = tlData[tlCurrent].title;
-        if (tlLink)  tlLink.href = tlData[tlCurrent].url || '#';
-        if (tlDate)  tlDate.textContent  = tlData[tlCurrent].date;
-        if (tlTags) {
-            var temi = tlData[tlCurrent].temi;
-            tlTags.innerHTML = (temi && temi.length)
-                ? temi.map(function(t) { return '<span class="s-tag">' + t + '</span>'; }).join('')
-                : '';
-        }
-        var tlFonteEl = document.getElementById('tl-fonte');
-        if (tlFonteEl) {
-            var fonte = tlData[tlCurrent].fonte;
-            if (fonte && typeof fonte === 'string' && fonte.indexOf('http') === 0) {
-                tlFonteEl.innerHTML = '<a href="' + fonte + '" target="_blank" rel="noopener">Ascolta su RadioDeejay <span class="ep-fonte__arrow">→</span></a>';
-                tlFonteEl.hidden = false;
-            } else {
-                tlFonteEl.innerHTML = '';
-                tlFonteEl.hidden = true;
-            }
-        }
-        if (tlPlaylistEl) {
-            var pl = tlData[tlCurrent].playlist;
-            tlPlaylistEl.innerHTML = (pl && pl.length)
-                ? pl.map(function(s) {
-                    var cover = s.cover
-                        ? '<img class="s-temi__slide-playlist-cover" src="' + s.cover + '" alt="" loading="lazy">'
-                        : '<span class="s-temi__slide-playlist-cover s-temi__slide-playlist-cover--placeholder"><svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M9 17V5.5L19 4v11.5" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/><circle cx="6.5" cy="17.5" r="2.5" stroke="currentColor" stroke-width="1.4"/><circle cx="16.5" cy="15.5" r="2.5" stroke="currentColor" stroke-width="1.4"/></svg></span>';
-                    return '<div class="s-temi__slide-playlist-item">' + cover +
-                        '<div class="s-temi__slide-playlist-info">' +
-                        '<span class="s-temi__slide-playlist-song">' + s.titolo + '</span>' +
-                        '<span class="s-temi__slide-playlist-artist">' + s.artista + '</span>' +
-                        '</div></div>';
-                }).join('')
-                : '';
-        }
-        requestAnimationFrame(function() {
-            [tlDesc, tlTitle, tlDate].forEach(function(el) { if (el) el.classList.add('in'); });
-        });
-
-        /* Progress bar */
-        clearTimeout(tlTimer);
-        if (tlBar) {
-            tlBar.style.transition = 'none';
-            tlBar.style.width = '0%';
-            void tlBar.offsetWidth;
-            tlBar.style.transition = 'width ' + tlDuration + 'ms linear';
-            tlBar.style.width = '100%';
-        }
-        tlTimer = setTimeout(function() { tlShow(tlCurrent + 1); }, tlDuration);
+    if (loader && vid) {
+        var hideLoader = function() { loader.classList.add('hero-loader--hidden'); };
+        vid.addEventListener('playing', hideLoader, { once: true });
+        setTimeout(hideLoader, 5000);
     }
 
-    if (tlPrev) tlPrev.addEventListener('click', function() { tlShow(tlCurrent - 1); });
-    if (tlNext) tlNext.addEventListener('click', function() { tlShow(tlCurrent + 1); });
-    if (tlData.length) tlShow(0);
+    setTimeout(function() { if (main) main.classList.add('visible'); }, 300);
 
-    /* ── Hero (verso_sera.mp4): titolo al 30%, autoscroll a content al termine ── */
-    var versoTitleEl    = document.getElementById('verso-title');
-    var versoDanteEl    = document.getElementById('hero-dante');
-    var versoTitleShown = false;
-    var versoDanteTimer = null;
-    var versoVid        = document.getElementById('hero-video');
-    var versoEndedEarly = false;
-
-    /* Se l'utente e' gia' sceso manualmente (scrollY oltre una piccola
-       soglia) quando il video finisce, rinuncia all'autoscroll: non ha
-       senso riportarlo giu' se ci e' gia' andato da solo. Controllare la
-       posizione reale (non un semplice evento 'wheel', che scatterebbe
-       anche per un piccolo tocco senza vero spostamento). */
-    var USER_SCROLL_THRESHOLD = 80;
-
-    /* Loader video: sparisce a 'playing', con fallback a 5s se il video
-       impiega troppo (rete lenta) cosi' non resta appeso a vita. */
-    var heroLoaderEl = document.getElementById('hero-loader');
-    if (heroLoaderEl && versoVid) {
-        var hideHeroLoader = function() { heroLoaderEl.classList.add('hero-loader--hidden'); };
-        versoVid.addEventListener('playing', hideHeroLoader, { once: true });
-        setTimeout(hideHeroLoader, 5000);
+    if (vid) {
+        vid.play().catch(function() {});
+        vid.addEventListener('stalled', function() { vid.load(); vid.play().catch(function(){}); });
+        vid.addEventListener('error', function() { vid.load(); vid.play().catch(function(){}); });
     }
 
-    function versoFinish() {
-        if (versoEndedEarly) return;
-        versoEndedEarly = true;
-        versoVid.pause();
-        if (window.scrollY > USER_SCROLL_THRESHOLD) return;
-        var sec = document.getElementById('content');
-        if (sec) smoothScrollTo(sec.offsetTop, 2200);
-    }
-
-    if (versoVid) {
-        versoVid.playbackRate = 1.8;
-        versoVid.addEventListener('timeupdate', function() {
-            var dur = versoVid.duration || 0;
-            if (!dur) return;
-            if (!versoTitleShown && versoVid.currentTime >= dur * 0.40) {
-                versoTitleShown = true;
-                if (versoTitleEl) versoTitleEl.classList.add('visible');
-                versoDanteTimer = setTimeout(function() {
-                    if (versoDanteEl) versoDanteEl.classList.add('visible');
-                }, 3000);
-            }
-            if (dur > 3.5 && versoVid.currentTime >= dur - 3.5) {
-                versoFinish();
-            }
-        });
-        versoVid.addEventListener('seeked', function() {
-            if (versoVid.currentTime < versoVid.duration * 0.40) {
-                versoTitleShown = false;
-                if (versoTitleEl) versoTitleEl.classList.remove('visible');
-                if (versoDanteEl) versoDanteEl.classList.remove('visible');
-                clearTimeout(versoDanteTimer);
-            }
-        });
-        versoVid.addEventListener('ended', versoFinish);
-    }
-
-    /* ── Header solido dopo l'hero ── */
-    var headerEl = document.querySelector('header.header');
-    if (headerEl) {
-        var heroEl = document.getElementById('hero');
-        var heroH = heroEl ? heroEl.offsetHeight : window.innerHeight;
-        window.addEventListener('scroll', function() {
-            if (window.scrollY > heroH * 0.6) {
-                headerEl.classList.add('is-solid');
-            } else {
-                headerEl.classList.remove('is-solid');
-            }
-        });
-    }
-
-    /* ── Scroll a s-verso ── */
-    function smoothScrollTo(targetY, duration) {
-        var startY = window.scrollY;
-        var dist   = targetY - startY;
-        var startT = null;
-        function ease(t) { return t < 0.5 ? 4*t*t*t : 1 - Math.pow(-2*t+2,3)/2; }
-        function step(ts) {
-            if (!startT) startT = ts;
-            var p = Math.min((ts - startT) / duration, 1);
-            window.scrollTo(0, startY + dist * ease(p));
-            if (p < 1) requestAnimationFrame(step);
-        }
-        requestAnimationFrame(step);
-    }
-
-    window.scrollToVerso = function() {
-        var sec = document.querySelector('.s-verso');
-        if (sec) smoothScrollTo(sec.offsetTop, 1800);
-    };
-
-    window.scrollToHero = function() {
-        smoothScrollTo(0, 1800);
-    };
-
-    window.scrollToContent = function() {
-        var sec = document.getElementById('content');
-        if (sec) smoothScrollTo(sec.offsetTop, 1800);
-    };
-
-    /* ── Scroll alla sezione #titolo ── */
-    window.scrollToTitolo = function() {
-        const sec = document.getElementById('titolo');
-        if (sec) {
-            sec.scrollIntoView({ behavior: 'smooth' });
-            /* Trigger animazione split dopo 600ms (tempo scroll) */
-            setTimeout(triggerSplit, 600);
-        }
-    };
-
-    function triggerSplit() {
-        const wrap = document.getElementById('split-wrap');
-        if (!wrap || wrap.dataset.played) return;
-        wrap.dataset.played = '1';
-        wrap.classList.add('played');
-
-        /* Label e sub fade-in */
-        const label = wrap.querySelector('.split-label');
-        const sub   = wrap.querySelector('.split-sub');
-        if (label) label.style.cssText = 'opacity:1; transition: opacity 0.8s ease 1.0s';
-        var badge = wrap.querySelector('.split-badge');
-        if (badge) badge.style.cssText = 'opacity:1; transition: opacity 0.8s ease 1.8s';
-
-        /* Anima ogni parola con delay crescente */
-        const words = wrap.querySelectorAll('.split-word');
-        words.forEach(function(word, i) {
-            var tops = word.querySelectorAll('.split-half--top');
-            var bots = word.querySelectorAll('.split-half--bot');
-            var delay = i * 120; /* ms */
-            var ease  = 'cubic-bezier(0.16, 1, 0.3, 1)';
-            setTimeout(function() {
-                tops.forEach(function(el) {
-                    el.style.transition = 'transform 1.0s ' + ease;
-                    el.style.transform  = 'translateY(0)';
-                });
-                bots.forEach(function(el) {
-                    el.style.transition = 'transform 1.0s ' + ease;
-                    el.style.transform  = 'translateY(0)';
-                });
-            }, delay);
-        });
-    }
-
-    /* IntersectionObserver: entra → anima, esce → resetta */
-    const splitSec = document.getElementById('titolo');
-    if (splitSec) {
-        new IntersectionObserver(function(entries) {
-            if (entries[0].isIntersecting) {
-                triggerSplit();
-            } else {
-                resetSplit();
-            }
-        }, { threshold: 0.4 }).observe(splitSec);
-    }
-
-    function resetSplit() {
-        const wrap = document.getElementById('split-wrap');
-        if (!wrap) return;
-        delete wrap.dataset.played;
-        wrap.classList.remove('played');
-        const ease = 'cubic-bezier(0.16, 1, 0.3, 1)';
-        wrap.querySelectorAll('.split-half--top').forEach(function(el) {
-            el.style.transition = 'transform 0.6s ' + ease;
-            el.style.transform  = 'translateY(-110%)';
-        });
-        wrap.querySelectorAll('.split-half--bot').forEach(function(el) {
-            el.style.transition = 'transform 0.6s ' + ease;
-            el.style.transform  = 'translateY(110%)';
-        });
-        const label = wrap.querySelector('.split-label');
-        const sub   = wrap.querySelector('.split-sub');
-        if (label) label.style.cssText = 'opacity:0; transition: opacity 0.3s ease';
-        var badge = wrap.querySelector('.split-badge');
-        if (badge) badge.style.cssText = 'opacity:0; transition: opacity 0.3s ease';
-    }
-
-    /* ── Scroll to content (usato dal CTA nell'archivio) ── */
-    window.scrollToContent = function() {
-        document.getElementById('content').scrollIntoView({ behavior: 'smooth' });
-    };
-
-    /* ── Temi esistenziali: hover su h2 → cambia immagine + centra pannello ── */
-    var temiH2s    = document.querySelectorAll('.s-temi__h2');
-    var temiImgs   = document.querySelectorAll('.s-temi__img');
-    var temiSection = document.querySelector('.s-temi');
-    var temiPanel   = document.querySelector('.s-temi__right');
-
-    temiH2s.forEach(function(h2) {
-        h2.addEventListener('mouseenter', function() {
-            var idx = parseInt(h2.dataset.idx, 10);
-            temiH2s.forEach(function(el) { el.classList.remove('active'); });
-            temiImgs.forEach(function(el) { el.classList.remove('active'); });
-            h2.classList.add('active');
-            if (temiImgs[idx]) temiImgs[idx].classList.add('active');
-
-            /* Centra il pannello verticalmente sulla h2 attiva (solo
-               quando e' in overlay assoluto: sotto i 900px e' una card
-               statica in flusso, top non deve toccarla). */
-            if (temiPanel && temiSection && window.innerWidth > 900) {
-                var secRect   = temiSection.getBoundingClientRect();
-                var h2Rect    = h2.getBoundingClientRect();
-                var midY      = h2Rect.top - secRect.top + h2Rect.height / 2;
-                var panelH    = temiPanel.offsetHeight;
-                var newTop    = Math.max(16, Math.min(midY - panelH / 2, temiSection.offsetHeight - panelH - 16));
-                temiPanel.style.top       = newTop + 'px';
-                temiPanel.style.transform = 'none';
-            }
-        });
-    });
-
-    /* ── Naviga a caso: piccolo "sorteggio" prima di partire, cosi' il
-       bottone mantiene la promessa di "affidarsi al caso" invece di
-       saltare via in silenzio ── */
-    window.navigaACaso = function(btn) {
-        const rotte = [
-            {{ range (where .Site.RegularPages "Section" "episodi") }}
-            "{{ .Permalink }}",
-            {{ end }}
-        ];
-        const reveal = document.getElementById('random-reveal');
-        if (!rotte.length) {
-            if (reveal) { reveal.textContent = "Stiamo caricando i primi frammenti. Torna presto!"; reveal.classList.add('active'); }
-            return;
-        }
-        function labelFromUrl(url) {
-            const m = url.match(/(\d{4})-(\d{2})-(\d{2})/);
-            return m ? `Puntata del ${m[3]}/${m[2]}/${m[1]}` : "Un frammento a sorpresa";
-        }
-        const finalUrl = rotte[Math.floor(Math.random() * rotte.length)];
-        if (btn) btn.disabled = true;
-        if (reveal) reveal.classList.add('active');
-        var steps = 14, delay = 55, i = 0;
-        function tick() {
-            var pick = i < steps - 1 ? rotte[Math.floor(Math.random() * rotte.length)] : finalUrl;
-            if (reveal) reveal.textContent = labelFromUrl(pick);
-            i++;
-            if (i < steps) {
-                delay *= 1.16;
-                setTimeout(tick, delay);
-            } else {
-                if (reveal) reveal.classList.add('picked');
-                setTimeout(function() { window.location.href = finalUrl; }, 750);
-            }
-        }
-        tick();
-    };
-
-    /* ── Modale "Condividi il tuo ricordo" ── */
-    var ricordoModal    = document.getElementById('ricordo-modal');
-    var ricordoOpenBtn  = document.getElementById('ricordo-open');
-    var ricordoCloseBtn = document.getElementById('ricordo-close');
-    var ricordoBackdrop = document.getElementById('ricordo-backdrop');
-    function openRicordoModal() {
-        if (!ricordoModal) return;
-        ricordoModal.classList.add('open');
-        ricordoModal.setAttribute('aria-hidden', 'false');
-    }
-    function closeRicordoModal() {
-        if (!ricordoModal) return;
-        ricordoModal.classList.remove('open');
-        ricordoModal.setAttribute('aria-hidden', 'true');
-    }
-    if (ricordoOpenBtn) ricordoOpenBtn.addEventListener('click', openRicordoModal);
-    if (ricordoCloseBtn) ricordoCloseBtn.addEventListener('click', closeRicordoModal);
-    if (ricordoBackdrop) ricordoBackdrop.addEventListener('click', closeRicordoModal);
-    document.addEventListener('keydown', function(e) {
-        if (e.key === 'Escape') closeRicordoModal();
-    });
-
-    /* ── Nome file allegato ── */
-    var ricordoFileInput = document.getElementById('ricordo-file');
-    var ricordoFileName  = document.getElementById('ricordo-file-name');
-    var MAX_ALLEGATO_BYTES = 8 * 1024 * 1024;
-    if (ricordoFileInput) {
-        ricordoFileInput.addEventListener('change', function() {
-            var f = ricordoFileInput.files[0];
-            if (!f) { ricordoFileName.textContent = ''; return; }
-            if (f.size > MAX_ALLEGATO_BYTES) {
-                ricordoFileName.textContent = "Troppo grande (max 8MB), scegli un altro file.";
-                ricordoFileInput.value = '';
-                return;
-            }
-            ricordoFileName.textContent = f.name;
-        });
-    }
-
-    function fileToBase64(file) {
-        return new Promise(function(resolve, reject) {
-            var reader = new FileReader();
-            reader.onload = function() { resolve(reader.result.split(',')[1]); };
-            reader.onerror = reject;
-            reader.readAsDataURL(file);
-        });
-    }
-
-    /* ── Form "Condividi il tuo ricordo" → Cloudflare Worker (/api/ricordo) ── */
-    var ricordoForm = document.getElementById('ricordo-form');
-    if (ricordoForm) {
-        ricordoForm.addEventListener('submit', function(e) {
+    var form = document.getElementById('hero-search-form');
+    var input = document.getElementById('hero-search-input');
+    if (form && input) {
+        form.addEventListener('submit', function(e) {
             e.preventDefault();
-            var msgEl = document.getElementById('ricordo-msg');
-            var btnEl = document.getElementById('ricordo-submit');
-            var fd = new FormData(ricordoForm);
-            var messaggio = (fd.get('messaggio') || '').trim();
-            if (!messaggio) return;
-            /* Il worker /api/ricordo esiste solo su Cloudflare: in locale
-               (hugo server) l'invio darebbe sempre 404 — meglio dirlo chiaro. */
-            if (location.hostname === 'localhost' || location.hostname === '127.0.0.1' || location.hostname.indexOf('192.168.') === 0) {
-                var msgEl0 = document.getElementById('ricordo-msg');
-                msgEl0.textContent = "L'invio funziona solo sul sito online, non in anteprima locale.";
-                msgEl0.classList.add('active');
-                return;
-            }
-            var file = ricordoFileInput && ricordoFileInput.files[0];
-            btnEl.disabled = true;
-            msgEl.textContent = 'Invio in corso...';
-            msgEl.classList.add('active');
-            Promise.resolve(file ? fileToBase64(file) : null)
-            .then(function(base64) {
-                var payload = { nome: fd.get('nome'), email: fd.get('email'), messaggio: messaggio };
-                if (file && base64) {
-                    payload.allegato = { filename: file.name, contentType: file.type, data: base64 };
-                }
-                return fetch('/api/ricordo', {
-                    method: 'POST',
-                    headers: { 'Content-Type': 'application/json' },
-                    body: JSON.stringify(payload)
-                });
-            })
-            .then(function(r) { return r.json().catch(function() { return {}; }).then(function(j) { return { ok: r.ok && j.ok, j: j }; }); })
-            .then(function(res) {
-                if (res.ok) {
-                    msgEl.textContent = "Grazie, il tuo ricordo e' arrivato.";
-                    ricordoForm.reset();
-                    if (ricordoFileName) ricordoFileName.textContent = '';
-                    setTimeout(closeRicordoModal, 1400);
-                } else {
-                    msgEl.textContent = "Qualcosa e' andato storto. Riprova o scrivici a ilvolodellasera.web@gmail.com.";
-                    btnEl.disabled = false;
-                }
-            })
-            .catch(function() {
-                msgEl.textContent = "Qualcosa e' andato storto. Riprova o scrivici a ilvolodellasera.web@gmail.com.";
-                btnEl.disabled = false;
-            });
+            var q = input.value.trim();
+            window.location.href = '/archivio/' + (q ? ('?q=' + encodeURIComponent(q)) : '');
         });
     }
+
+    /* ── Modale "Chi siamo" ── */
+    var chisiamoModal    = document.getElementById('chisiamo-modal');
+    var chisiamoOpenBtn  = document.getElementById('chisiamo-open');
+    var chisiamoCloseBtn = document.getElementById('chisiamo-close');
+    var chisiamoBackdrop = document.getElementById('chisiamo-backdrop');
+    function openChisiamoModal() {
+        if (!chisiamoModal) return;
+        chisiamoModal.classList.add('open');
+        chisiamoModal.setAttribute('aria-hidden', 'false');
+    }
+    function closeChisiamoModal() {
+        if (!chisiamoModal) return;
+        chisiamoModal.classList.remove('open');
+        chisiamoModal.setAttribute('aria-hidden', 'true');
+    }
+    if (chisiamoOpenBtn) chisiamoOpenBtn.addEventListener('click', openChisiamoModal);
+    if (chisiamoCloseBtn) chisiamoCloseBtn.addEventListener('click', closeChisiamoModal);
+    if (chisiamoBackdrop) chisiamoBackdrop.addEventListener('click', closeChisiamoModal);
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') closeChisiamoModal();
+    });
 })();
 </script>
-
 {{ end }}
