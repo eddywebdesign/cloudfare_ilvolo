@@ -79,26 +79,38 @@ def genera(data_str, force=False):
     Idempotente: salta se data/playlist/<data_str>.json esiste gia',
     a meno di force=True. Non scrive nulla se la puntata non ha
     playlist (pagina 200 ma senza canzoni, es. puntate pre-ottobre 2019).
+
+    Ritorna True se ha fatto una richiesta di rete (per decidere se
+    aspettare REQUEST_PAUSE_SEC prima della prossima), False se ha
+    solo saltato un file gia' presente (nessun bisogno di pausa).
     """
     dest = PLAYLIST_DIR / f"{data_str}.json"
     if dest.exists() and not force:
         print(f"  {data_str}: gia' presente, salto")
-        return
+        return False
 
     url = URL_TEMPLATE.format(data=data_str)
-    resp = requests.get(url, timeout=20, headers={"User-Agent": "Mozilla/5.0"})
+    try:
+        resp = requests.get(url, timeout=20, headers={"User-Agent": "Mozilla/5.0"})
+    except requests.exceptions.RequestException as e:
+        # Un timeout/errore di rete occasionale non deve far crashare tutto
+        # lo script: si salta la data (resta assente, recuperabile in un
+        # rilancio futuro, idempotente) e si continua con la prossima.
+        print(f"  {data_str}: errore rete ({e}), salto")
+        return True
     if resp.status_code != 200:
         print(f"  {data_str}: HTTP {resp.status_code}, salto")
-        return
+        return True
 
     canzoni = estrai_canzoni(resp.text)
     if not canzoni:
         print(f"  {data_str}: nessuna playlist trovata")
-        return
+        return True
 
     PLAYLIST_DIR.mkdir(parents=True, exist_ok=True)
     dest.write_text(json.dumps(canzoni, ensure_ascii=False, indent=2), encoding="utf-8")
     print(f"  {data_str}: {len(canzoni)} canzoni -> {dest.relative_to(ROOT)}")
+    return True
 
 
 def main():
@@ -113,8 +125,8 @@ def main():
 
     print(f"Genero playlist per {len(date_list)} puntate...")
     for i, d in enumerate(date_list):
-        genera(d, force=args.force)
-        if i < len(date_list) - 1:
+        fatta_richiesta = genera(d, force=args.force)
+        if fatta_richiesta and i < len(date_list) - 1:
             time.sleep(REQUEST_PAUSE_SEC)
 
 

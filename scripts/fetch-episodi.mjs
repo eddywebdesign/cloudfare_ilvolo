@@ -25,7 +25,7 @@ const EPISODI_DIR = path.join(ROOT, "content", "episodi");
 
 const LISTING_URL = "https://www.deejay.it/programmi/il-volo-del-mattino/puntate/";
 const HIGHLIGHTS_BASE = "https://www.deejay.it/programmi/il-volo-del-mattino/highlights/";
-const HIGHLIGHTS_MAX_PAGES = 8; // ~6 frammenti/pagina → copre oltre un mese di puntate
+const HIGHLIGHTS_MAX_PAGES = 500; // scrape storico completo: la paginazione si ferma da sola alla prima pagina vuota
 const UA =
     "Mozilla/5.0 (compatible; IlVoloDellaSeraArchivioBot/1.0; +https://ilvolodelmattino.github.io/)";
 
@@ -90,20 +90,20 @@ function parseDataItaliana(testo) {
     return `${anno}-${mm}-${giorno.padStart(2, "0")}`;
 }
 
-/** Estrae { titolo, dataIso } da ogni frammento di una pagina /highlights/. */
+/** Estrae { titolo, dataIso, url, durata } da ogni pillola di una pagina /highlights/. */
 function parseHighlightsPage(html) {
     const items = [];
-    const re = /<h1 class="title small red"><a href="[^"]*">([^<]+)<\/a><\/h1>\s*<div class="service-title text small">\s*<strong>dalla puntata del:<\/strong>\s*([^<]+)<br/g;
+    const re = /<h1 class="title small red"><a href="([^"]*)">([^<]+)<\/a><\/h1>\s*<div class="service-title text small">\s*<strong>dalla puntata del:<\/strong>\s*([^<]+?)<br\s*\/>\s*<strong>durata:<\/strong>\s*([0-9:]+)min/g;
     let match;
     while ((match = re.exec(html))) {
-        const [, titoloRaw, dataRaw] = match;
+        const [, url, titoloRaw, dataRaw, durata] = match;
         const dataIso = parseDataItaliana(dataRaw);
-        if (dataIso) items.push({ titolo: titoloRaw.trim(), dataIso });
+        if (dataIso) items.push({ titolo: titoloRaw.trim(), dataIso, url, durata });
     }
     return items;
 }
 
-/** Costruisce una mappa dataIso → [titoli frammenti] scorrendo le pagine /highlights/. */
+/** Costruisce una mappa dataIso → [{titolo,url,durata}] scorrendo le pagine /highlights/. */
 async function fetchHighlightsMap() {
     const map = new Map();
     for (let page = 1; page <= HIGHLIGHTS_MAX_PAGES; page++) {
@@ -117,13 +117,35 @@ async function fetchHighlightsMap() {
         }
         const items = parseHighlightsPage(html);
         if (items.length === 0) break;
-        for (const { titolo, dataIso } of items) {
-            if (!map.has(dataIso)) map.set(dataIso, []);
-            const lista = map.get(dataIso);
-            if (!lista.includes(titolo)) lista.push(titolo);
+        for (const pillola of items) {
+            if (!map.has(pillola.dataIso)) map.set(pillola.dataIso, []);
+            const lista = map.get(pillola.dataIso);
+            if (!lista.some((p) => p.url === pillola.url)) lista.push(pillola);
         }
     }
     return map;
+}
+
+/** Scrive data/pillole/<dataIso>.json per ogni data della mappa (stesso pattern
+ *  idempotente/compatto/committato di data/playlist/ e data/frammenti/): non
+ *  sovrascrive un file gia' presente, cosi' un rilancio non perde eventuali
+ *  arricchimenti manuali futuri. */
+async function scriviPilloleData(map) {
+    const PILLOLE_DIR = path.join(ROOT, "data", "pillole");
+    if (!existsSync(PILLOLE_DIR)) await mkdir(PILLOLE_DIR, { recursive: true });
+    let scritti = 0;
+    let saltati = 0;
+    for (const [dataIso, pillole] of map.entries()) {
+        const filePath = path.join(PILLOLE_DIR, `${dataIso}.json`);
+        if (existsSync(filePath)) {
+            saltati++;
+            continue;
+        }
+        const payload = pillole.map(({ titolo, url, durata }) => ({ titolo, url, durata }));
+        await writeFile(filePath, JSON.stringify(payload, null, 2) + "\n", "utf8");
+        scritti++;
+    }
+    console.log(`Pillole: ${scritti} file data/pillole/*.json scritti, ${saltati} già presenti.`);
 }
 
 function yamlStringArray(arr) {
@@ -175,6 +197,7 @@ async function main() {
     console.log("Scarico frammenti tematici (highlights) per i tag...");
     const highlightsMap = await fetchHighlightsMap();
     console.log(`Trovati frammenti per ${highlightsMap.size} date diverse.`);
+    await scriviPilloleData(highlightsMap);
 
     console.log(`Trovate ${episodes.length} puntate nell'indice, ${existing.size} già archiviate.`);
 
@@ -185,8 +208,8 @@ async function main() {
 
     for (const ep of episodes) {
         if (existing.has(ep.iso)) {
-            const tags = highlightsMap.get(ep.iso);
-            if (tags && tags.length) {
+            const tags = (highlightsMap.get(ep.iso) || []).map((p) => p.titolo);
+            if (tags.length) {
                 const filePath = path.join(EPISODI_DIR, `${ep.iso}.md`);
                 const aggiornato = await aggiornaTagsSeMancanti(filePath, tags);
                 if (aggiornato) {
@@ -223,7 +246,7 @@ async function main() {
         }
 
         const durataMin = extractDurataMin(html);
-        const tags = highlightsMap.get(ep.iso) || [];
+        const tags = (highlightsMap.get(ep.iso) || []).map((p) => p.titolo);
         const frontMatter = buildFrontMatter({ ...ep, audioUrl, fonte, durataMin, tags });
         const filePath = path.join(EPISODI_DIR, `${ep.iso}.md`);
         await writeFile(filePath, frontMatter, "utf8");

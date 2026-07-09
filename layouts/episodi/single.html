@@ -38,9 +38,56 @@
   </a>
   {{ end }}
 
+  {{/* Video letture ufficiali (YouTube/Facebook/Instagram), segnalati
+       manualmente in data/video_letture_sources.json e arricchiti via
+       scripts/genera_video_letture.mjs con metadata pubblici (og:meta o
+       oEmbed, mai login/scraping). Stesso principio delle Pillole: solo
+       copertina + testo + link alla fonte, mai il video ospitato da noi. */}}
+  {{ $videoLetture := index .Site.Data.video_letture .File.ContentBaseName }}
+  {{ if $videoLetture }}
+  <section class="ep-video-letture">
+    <p class="lbl lbl--sm">Video letture</p>
+    <div class="ep-vl-list">
+      {{ range $videoLetture }}
+      <a class="ep-vl-card" href="{{ .url }}" target="_blank" rel="noopener">
+        {{ with .cover }}<img class="ep-vl-cover" src="{{ . }}" alt="" loading="lazy">{{ end }}
+        <div class="ep-vl-body">
+          <span class="ep-vl-piattaforma">{{ .piattaforma }}</span>
+          <p class="ep-vl-testo">{{ with .testo }}{{ . }}{{ else }}{{ .titolo }}{{ end }}</p>
+        </div>
+      </a>
+      {{ end }}
+    </div>
+  </section>
+  {{ end }}
+
+  {{/* Le voci in .Params.temi sono in realta' titoli di Pillole ufficiali
+       di deejay.it (verificato: coincidono sempre 1:1), non temi generici.
+       scripts/fetch-episodi.mjs scarica anche URL/durata di ogni pillola in
+       data/pillole/<data>.json (pilota: solo le puntate coperte dalle ultime
+       8 pagine di /highlights/, circa l'ultimo mese) — quando disponibili si
+       mostrano come card cliccabili verso la pagina Pillola su deejay.it
+       (stessa scelta "niente audio diretto sul sito" fatta per la puntata
+       intera). Se i dati non sono ancora stati scaricati per questa data,
+       fallback al vecchio tag di ricerca interna per non rompere le ~2000
+       puntate non ancora coperte dal pilota. */}}
+  {{ $pillole := index .Site.Data.pillole .File.ContentBaseName }}
+  {{ if $pillole }}
+  <div class="ep-temi">
+    <p class="lbl lbl--sm">Pillole di questa puntata</p>
+    <div class="ep-pillole-list">
+      {{ range $pillole }}
+      <a class="ep-pillola" href="{{ .url }}" target="_blank" rel="noopener">
+        <span class="ep-pillola-titolo">{{ .titolo }}</span>
+        <span class="ep-pillola-meta">dalla puntata del {{ $.Date | time.Format ":date_long" }} &middot; durata {{ .durata }}</span>
+      </a>
+      {{ end }}
+    </div>
+  </div>
+  {{ else }}
   {{ with .Params.temi }}
   <div class="ep-temi">
-    <p class="lbl lbl--sm">Frammenti / temi di questa puntata</p>
+    <p class="lbl lbl--sm">Temi di questa puntata</p>
     <div class="ep-temi-list">
       {{/* Il tag rimanda alla ricerca in /archivio/ (con lo stesso motore
            testuale usato dalla home), non alla pagina di tassonomia
@@ -50,6 +97,37 @@
       {{ range . }}<a class="ep-tema" href="/archivio/?q={{ . | urlquery }}">{{ . }}</a>{{ end }}
     </div>
   </div>
+  {{ end }}
+  {{ end }}
+
+  {{/* Libri/film citati nella puntata, da data/riferimenti/<data>.json
+       (categoria musica esclusa: gia' coperta da Playlist sotto). Il link
+       verso /archivio/?q=<titolo> riusa il motore di ricerca gia' esistente
+       (layouts/index.json indicizza categorieRif/riferimenti per episodio),
+       che mostra automaticamente TUTTE le puntate che citano lo stesso
+       titolo — niente nuova struttura dati di cross-reference da costruire. */}}
+  {{ $tuttiRiferimenti := index .Site.Data.riferimenti .File.ContentBaseName }}
+  {{ $libriFilm := slice }}
+  {{ if $tuttiRiferimenti }}
+    {{ $libriFilm = where $tuttiRiferimenti "categoria" "in" (slice "libro" "film") }}
+    {{ $libriFilm = where $libriFilm "note" "ne" "non identificato" }}
+    {{ $libriFilm = where $libriFilm "titolo" "ne" "" }}
+  {{ end }}
+  {{ if gt (len $libriFilm) 0 }}
+  <section class="ep-riferimenti">
+    <p class="lbl lbl--sm">Libri e film citati</p>
+    <div class="ep-rif-list">
+      {{ range $libriFilm }}
+      <a class="ep-rif" href="/archivio/?q={{ .titolo | urlquery }}">
+        <span class="ep-rif-cat">{{ .categoria }}</span>
+        <span class="ep-rif-titolo">{{ .titolo }}</span>
+        {{ if or .autore .anno }}
+        <span class="ep-rif-meta">{{ .autore }}{{ if and .autore .anno }} &middot; {{ end }}{{ .anno }}</span>
+        {{ end }}
+      </a>
+      {{ end }}
+    </div>
+  </section>
   {{ end }}
 
   <div class="ep-content">
@@ -227,6 +305,27 @@ header.header #menu a:hover, header.header #menu .active { color: #f5efdf !impor
 .ep-temi-list { display: flex; flex-wrap: wrap; gap: 8px; }
 .ep-tema { font-family: var(--font-mono); font-size: 0.72rem; letter-spacing: 0.05em; text-transform: uppercase; color: var(--gold); background: rgba(143,184,217,0.12); padding: 5px 12px; border-radius: 3px; text-decoration: none; }
 .ep-tema:hover { background: rgba(143,184,217,0.25); }
+.ep-pillole-list { display: flex; flex-direction: column; gap: 0.6rem; }
+.ep-pillola { display: block; background: var(--entry); border-radius: 8px; padding: 0.8rem 1.1rem; text-decoration: none; transition: background 0.2s; }
+.ep-pillola:hover { background: var(--tertiary); }
+.ep-pillola-titolo { display: block; font-family: var(--font-serif); font-weight: 400; font-size: 1rem; color: var(--primary); margin-bottom: 0.3rem; }
+.ep-pillola-meta { display: block; font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.04em; color: var(--secondary); }
+.ep-riferimenti { margin-bottom: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border); }
+.ep-rif-list { display: flex; flex-direction: column; gap: 0.6rem; }
+.ep-rif { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px; background: var(--entry); border-radius: 8px; padding: 0.8rem 1.1rem; text-decoration: none; transition: background 0.2s; }
+.ep-rif:hover { background: var(--tertiary); }
+.ep-rif-cat { font-family: var(--font-mono); font-size: 0.62rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold); background: rgba(143,184,217,0.12); padding: 2px 9px; border-radius: 3px; flex-shrink: 0; }
+.ep-rif-titolo { font-family: var(--font-serif); font-weight: 400; font-size: 1rem; color: var(--primary); }
+.ep-rif-meta { font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.04em; color: var(--secondary); width: 100%; }
+.ep-video-letture { margin-bottom: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border); }
+.ep-vl-list { display: flex; flex-direction: column; gap: 0.8rem; }
+.ep-vl-card { display: flex; gap: 14px; background: var(--entry); border-radius: 8px; padding: 0.9rem; text-decoration: none; transition: background 0.2s; overflow: hidden; }
+.ep-vl-card:hover { background: var(--tertiary); }
+.ep-vl-cover { width: 96px; height: 96px; border-radius: 6px; object-fit: cover; flex-shrink: 0; background: var(--tertiary); }
+.ep-vl-body { display: flex; flex-direction: column; gap: 0.4rem; min-width: 0; justify-content: center; }
+.ep-vl-piattaforma { font-family: var(--font-mono); font-size: 0.62rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold); background: rgba(143,184,217,0.12); padding: 2px 9px; border-radius: 3px; align-self: flex-start; }
+.ep-vl-testo { font-family: var(--font-sans); font-size: 0.88rem; color: var(--content); line-height: 1.5; margin: 0; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+@media (max-width: 480px) { .ep-vl-cover { width: 64px; height: 64px; } }
 .ep-content { font-family: var(--font-sans); color: var(--content); line-height: 1.8; }
 .ep-fonte { margin-top: 2.5rem; padding-top: 1.5rem; border-top: 1px solid var(--border); }
 .ep-fonte a { color: var(--gold); text-decoration: none; font-size: 0.9rem; font-family: var(--font-sans); font-weight: 400; text-transform: uppercase; letter-spacing: 0.04em; }
