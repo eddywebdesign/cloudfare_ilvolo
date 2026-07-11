@@ -1,0 +1,10 @@
+[Unit]
+Description=Esegue ilvolo-batch-health.service ogni 15 minuti
+
+[Timer]
+OnBootSec=5min
+OnUnitActiveSec=15min
+Unit=ilvolo-batch-health.service
+
+[Install]
+WantedBy=timers.target

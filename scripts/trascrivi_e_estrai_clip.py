@@ -40,6 +40,8 @@ import numpy as np
 from groq import Groq
 
 ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import groq_budget  # noqa: E402
 CLIP_DIR = ROOT.parent / "frammenti_trascr_CPU"
 RIF_DIR = ROOT / "data" / "riferimenti"
 
@@ -142,6 +144,8 @@ def _groq_chunk(client: Groq, testo: str) -> list[dict]:
         temperature=0.1,
         response_format={"type": "json_object"},
     )
+    if resp.usage:
+        groq_budget.registra_uso(resp.usage.total_tokens)
     raw = resp.choices[0].message.content.strip()
     parsed = json.loads(raw)
     if isinstance(parsed, dict):
@@ -158,6 +162,10 @@ def estrai_riferimenti(client: Groq, testo: str) -> list[dict]:
     print(f"    Invio {len(chunks)} chunk a Groq…")
     tutti: list[dict] = []
     for idx, chunk in enumerate(chunks):
+        if not groq_budget.budget_disponibile():
+            print(f"      STOP: budget Groq giornaliero esaurito ({groq_budget.token_usati_oggi()} token oggi), "
+                  f"{len(chunks) - idx} chunk rimasti verranno riprovati domani")
+            break
         try:
             risultati = _groq_chunk(client, chunk)
             print(f"      chunk {idx+1}/{len(chunks)}: {len(risultati)} riferimenti")

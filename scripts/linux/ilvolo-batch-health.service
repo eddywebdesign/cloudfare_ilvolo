@@ -1,0 +1,7 @@
+[Unit]
+Description=Check di salute del batch di trascrizione Il Volo del Mattino
+
+[Service]
+Type=oneshot
+WorkingDirectory=/home/%u/ilvolodelmattino
+ExecStart=/home/%u/ilvolo-env/bin/python3 scripts/linux/check_batch_health.py
