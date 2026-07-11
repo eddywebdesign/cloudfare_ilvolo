@@ -1,12 +1,9 @@
 name: Recogida automatica puntate
 
 on:
-  # Cron disattivato: il sito è ora su Altervista con deploy manuale FTP,
-  # la raccolta automatica delle puntate non serve più senza un deploy
-  # collegato. Riattivabile ripristinando il blocco `schedule` sotto,
-  # oppure lanciabile a mano da GitHub (tab Actions -> Run workflow).
-  # schedule:
-  #   - cron: "30 9 * * *"
+  schedule:
+    # 09:30 UTC = 11:30 Italia (CEST) — dopo la fine della diretta del mattino
+    - cron: "30 9 * * *"
   workflow_dispatch: {}
 
 permissions:
