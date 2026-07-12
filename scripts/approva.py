@@ -42,7 +42,14 @@ def trova_frammento(fid: str) -> tuple[Path, list, int]:
 
 
 def git_commit_push(msg: str) -> None:
-    subprocess.run(["git", "-C", str(ROOT), "add", "data/"], check=True)
+    subprocess.run(["git", "-C", str(ROOT), "add", "data/riferimenti/", "data/contribuitori.json"], check=True)
+    # Niente da salvare: evita il crash di "git commit" quando non c'e' nulla in staging.
+    staged = subprocess.run(
+        ["git", "-C", str(ROOT), "diff", "--cached", "--quiet"]
+    ).returncode
+    if staged == 0:
+        print("(nessuna modifica reale: il valore era gia' quello, niente da committare)")
+        return
     subprocess.run(["git", "-C", str(ROOT), "commit", "-m", msg], check=True)
     subprocess.run(["git", "-C", str(ROOT), "push"], check=True)
 

@@ -48,6 +48,9 @@
             <a href="#" class="hero-social__link" title="Instagram" aria-label="Instagram">
                 <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5"></rect><circle cx="12" cy="12" r="4"></circle><line x1="17.5" y1="6.5" x2="17.5" y2="6.5"></line></svg>
             </a>
+            <button type="button" class="hero-info-btn" id="ricordo-open" title="Condividi un ricordo" aria-label="Condividi un ricordo" aria-haspopup="dialog">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.6l-1-1a5.5 5.5 0 0 0-7.8 7.8l1 1L12 21l7.8-7.6 1-1a5.5 5.5 0 0 0 0-7.8z"></path></svg>
+            </button>
             <button type="button" class="hero-info-btn" id="chisiamo-open" title="Chi siamo" aria-label="Chi siamo" aria-haspopup="dialog">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="11" x2="12" y2="16.5"></line><circle cx="12" cy="7.5" r="0.9" fill="currentColor" stroke="none"></circle></svg>
             </button>
@@ -74,6 +77,35 @@
     </div>
 </div>
 
+<!-- ════════════════════════════════════
+     MODALE "Condividi il tuo ricordo"
+════════════════════════════════════ -->
+<div class="chisiamo-modal" id="ricordo-modal" aria-hidden="true">
+    <div class="chisiamo-modal__backdrop" id="ricordo-backdrop"></div>
+    <div class="chisiamo-modal__box" role="dialog" aria-modal="true" aria-labelledby="ricordo-title">
+        <button type="button" class="chisiamo-modal__close" id="ricordo-close" aria-label="Chiudi">
+            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="m6 6 12 12M18 6 6 18" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/></svg>
+        </button>
+        <div class="chisiamo-modal__scroll">
+            <p class="chisiamo-modal__lbl">Condividi</p>
+            <h3 id="ricordo-title" class="chisiamo-modal__title">Condividi il tuo ricordo</h3>
+            <p class="chisiamo-modal__body">Hai il ricordo sbiadito di una puntata? Un nome, una data, un'emozione? Raccontacelo, entra a far parte dell'archivio.</p>
+            <form class="ricordo-form" id="ricordo-form">
+                <input type="text" name="nome" class="ricordo-form__input" placeholder="Il tuo nome (facoltativo)" autocomplete="name">
+                <input type="email" name="email" class="ricordo-form__input" placeholder="La tua email, se vuoi una risposta" autocomplete="email">
+                <textarea name="messaggio" class="ricordo-form__textarea" placeholder="Racconta il tuo ricordo..." autocomplete="off" required></textarea>
+                <label class="ricordo-form__file-label" for="ricordo-file">
+                    Allega una foto o un audio (facoltativo, max 8MB)
+                    <input type="file" name="allegato" id="ricordo-file" class="ricordo-form__file" accept="image/*,audio/*">
+                </label>
+                <span class="ricordo-form__file-name" id="ricordo-file-name"></span>
+                <button type="submit" class="ricordo-form__submit" id="ricordo-submit">Invia il ricordo</button>
+                <p class="ricordo-form__msg" id="ricordo-msg"></p>
+            </form>
+        </div>
+    </div>
+</div>
+
 <style>
 *, *::before, *::after { box-sizing: border-box; }
 :root {
@@ -91,7 +123,12 @@ body {
     height: 100vh; overflow: hidden;
     display: flex; flex-direction: column;
 }
-body > footer.footer { flex-shrink: 0; }
+body > footer.footer {
+    flex-shrink: 0;
+    position: absolute; left: 0; right: 0; bottom: 0; z-index: 5;
+    background: transparent !important;
+    border-top: none !important;
+}
 
 .main { max-width: 100% !important; padding: 0 !important; margin: 0 !important; flex: 1 1 auto; min-height: 0; display: flex; flex-direction: column; }
 header.header {
@@ -197,6 +234,9 @@ header.header #menu a:hover, header.header #menu .active { color: var(--cream) !
     border: 1px solid rgba(245,239,223,0.3); background: transparent;
     color: rgba(245,239,223,0.55); cursor: pointer; transition: color 0.2s, border-color 0.2s;
 }
+/* Il margine extra separa il gruppo (cuore+info) dai social, ma tra i due
+   pulsanti del gruppo va usato lo stesso gap uniforme del flex, non sommato. */
+.hero-info-btn + .hero-info-btn { margin-left: 0; }
 .hero-info-btn:hover { color: var(--gold); border-color: var(--gold); }
 
 /* ── Modale "Chi siamo" ──
@@ -259,6 +299,33 @@ header.header #menu a:hover, header.header #menu .active { color: var(--cream) !
     .hero-search { max-width: 100%; padding-left: 16px; }
     .hero-social { gap: 18px; }
 }
+
+/* ── Form "Condividi il tuo ricordo" (dentro il modale) ── */
+.ricordo-form { display: flex; flex-direction: column; gap: 10px; margin-top: 0.4rem; }
+.ricordo-form__input, .ricordo-form__textarea {
+    width: 100%; background: rgba(11,14,23,0.5); border: 1px solid rgba(245,239,223,0.18);
+    border-radius: 10px; padding: 11px 14px; color: var(--cream); font-family: var(--font-sans);
+    font-size: 0.92rem; outline: none; transition: border-color 0.2s;
+}
+.ricordo-form__input:focus, .ricordo-form__textarea:focus { border-color: var(--gold); }
+.ricordo-form__input::placeholder, .ricordo-form__textarea::placeholder { color: rgba(245,239,223,0.4); }
+.ricordo-form__textarea { min-height: 110px; resize: vertical; font-family: var(--font-sans); }
+.ricordo-form__file-label {
+    font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.03em;
+    color: rgba(245,239,223,0.55); display: flex; flex-direction: column; gap: 6px; cursor: pointer;
+}
+.ricordo-form__file { color: rgba(245,239,223,0.7); font-size: 0.8rem; }
+.ricordo-form__file-name { font-size: 0.78rem; color: var(--gold); min-height: 1em; }
+.ricordo-form__submit {
+    align-self: flex-start; margin-top: 4px; padding: 11px 26px; border-radius: 999px;
+    background: var(--gold); border: none; color: #0b0e17; font-family: var(--font-sans);
+    font-weight: 500; font-size: 0.92rem; cursor: pointer; transition: opacity 0.2s;
+}
+.ricordo-form__submit:hover { opacity: 0.85; }
+.ricordo-form__submit:disabled { opacity: 0.5; cursor: default; }
+.ricordo-form__msg { font-size: 0.82rem; margin: 0; min-height: 1.2em; }
+.ricordo-form__msg--ok { color: #8fd9a8; }
+.ricordo-form__msg--err { color: #e08a8a; }
 </style>
 
 <script>
@@ -309,8 +376,101 @@ header.header #menu a:hover, header.header #menu .active { color: var(--cream) !
     if (chisiamoOpenBtn) chisiamoOpenBtn.addEventListener('click', openChisiamoModal);
     if (chisiamoCloseBtn) chisiamoCloseBtn.addEventListener('click', closeChisiamoModal);
     if (chisiamoBackdrop) chisiamoBackdrop.addEventListener('click', closeChisiamoModal);
+
+    /* ── Modale "Condividi il tuo ricordo" ── */
+    var ricordoModal    = document.getElementById('ricordo-modal');
+    var ricordoOpenBtn  = document.getElementById('ricordo-open');
+    var ricordoCloseBtn = document.getElementById('ricordo-close');
+    var ricordoBackdrop = document.getElementById('ricordo-backdrop');
+    var ricordoForm     = document.getElementById('ricordo-form');
+    var ricordoFile     = document.getElementById('ricordo-file');
+    var ricordoFileName = document.getElementById('ricordo-file-name');
+    var ricordoSubmit   = document.getElementById('ricordo-submit');
+    var ricordoMsg      = document.getElementById('ricordo-msg');
+
+    function openRicordoModal() {
+        if (!ricordoModal) return;
+        ricordoModal.classList.add('open');
+        ricordoModal.setAttribute('aria-hidden', 'false');
+    }
+    function closeRicordoModal() {
+        if (!ricordoModal) return;
+        ricordoModal.classList.remove('open');
+        ricordoModal.setAttribute('aria-hidden', 'true');
+    }
+    if (ricordoOpenBtn) ricordoOpenBtn.addEventListener('click', openRicordoModal);
+    if (ricordoCloseBtn) ricordoCloseBtn.addEventListener('click', closeRicordoModal);
+    if (ricordoBackdrop) ricordoBackdrop.addEventListener('click', closeRicordoModal);
+
+    if (ricordoFile) {
+        ricordoFile.addEventListener('change', function() {
+            var f = ricordoFile.files[0];
+            ricordoFileName.textContent = f ? f.name : '';
+        });
+    }
+
+    function fileToBase64(file) {
+        return new Promise(function(resolve, reject) {
+            var reader = new FileReader();
+            reader.onload = function() {
+                var result = reader.result;
+                resolve(result.substring(result.indexOf(',') + 1));
+            };
+            reader.onerror = reject;
+            reader.readAsDataURL(file);
+        });
+    }
+
+    if (ricordoForm) {
+        ricordoForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            var fd = new FormData(ricordoForm);
+            var payload = {
+                nome: fd.get('nome') || '',
+                email: fd.get('email') || '',
+                messaggio: fd.get('messaggio') || '',
+            };
+
+            var file = ricordoFile && ricordoFile.files[0];
+            var invia = function() {
+                ricordoSubmit.disabled = true;
+                ricordoMsg.textContent = 'Invio in corso...';
+                ricordoMsg.className = 'ricordo-form__msg';
+                fetch('/api/ricordo', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(payload),
+                }).then(function(r) { return r.json(); }).then(function(res) {
+                    ricordoSubmit.disabled = false;
+                    if (res && res.ok) {
+                        ricordoMsg.textContent = 'Grazie, il tuo ricordo è stato inviato!';
+                        ricordoMsg.className = 'ricordo-form__msg ricordo-form__msg--ok';
+                        ricordoForm.reset();
+                        ricordoFileName.textContent = '';
+                    } else {
+                        ricordoMsg.textContent = (res && res.error) || 'Invio non riuscito, riprova.';
+                        ricordoMsg.className = 'ricordo-form__msg ricordo-form__msg--err';
+                    }
+                }).catch(function() {
+                    ricordoSubmit.disabled = false;
+                    ricordoMsg.textContent = 'Invio non riuscito, riprova.';
+                    ricordoMsg.className = 'ricordo-form__msg ricordo-form__msg--err';
+                });
+            };
+
+            if (file && file.size <= 8 * 1024 * 1024) {
+                fileToBase64(file).then(function(b64) {
+                    payload.allegato = { filename: file.name, data: b64 };
+                    invia();
+                }).catch(invia);
+            } else {
+                invia();
+            }
+        });
+    }
+
     document.addEventListener('keydown', function(e) {
-        if (e.key === 'Escape') closeChisiamoModal();
+        if (e.key === 'Escape') { closeChisiamoModal(); closeRicordoModal(); }
     });
 })();
 </script>

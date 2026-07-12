@@ -1,0 +1,332 @@
+{{ define "main" }}
+<script>
+(function () {
+  if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+  window.scrollTo(0, 0);
+})();
+</script>
+
+<section id="fr-content" class="fr-content">
+  <div class="fr-header">
+    <p class="fr-kicker">Strumento interno · non indicizzato</p>
+    <h1 class="fr-title">Frammenti recenti</h1>
+    <p class="fr-sub">Tutti i frammenti estratti dalle trascrizioni, per valutare la qualita' della classificazione automatica. Le puntate piu' di recente trascritte sono in cima.</p>
+  </div>
+
+  <div class="fr-toolbar">
+    <input id="fr-q" type="search" placeholder="Cerca nel testo, tipo, titolo, tema..." autocomplete="off">
+    <label class="fr-toggle">
+      <input type="checkbox" id="fr-only-classificati">
+      Solo classificati
+    </label>
+    <span id="fr-count" class="fr-count"></span>
+  </div>
+
+  <div id="fr-list"></div>
+</section>
+
+<style>
+:root, :root[data-theme="dark"] {
+  --font-serif: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-sans:  'General Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+  --font-mono:  'IBM Plex Mono', monospace;
+  --gold: #8fb8d9;
+  --theme: #0b0e17;
+  --cream: #f5efdf;
+  --surf: rgba(255,255,255,0.04);
+  --border-c: rgba(245,239,223,0.1);
+}
+html, body { background: #0b0e17 !important; }
+.main { max-width: 100% !important; padding: 0 !important; margin: 0 !important; }
+header.header {
+  position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+  background: rgba(11,14,23,0.85) !important; backdrop-filter: blur(10px);
+  box-shadow: none !important; border: none !important; width: 100vw;
+}
+header.header nav, header.header .header-nav {
+  display: flex !important; align-items: center !important; justify-content: space-between !important;
+  position: relative !important; width: 100% !important; max-width: 100% !important;
+  padding: 28px 40px !important; box-sizing: border-box !important;
+}
+header.header #menu {
+  position: absolute; left: 50%; transform: translateX(-50%);
+  display: flex; align-items: center; gap: 40px; list-style: none; margin: 0; padding: 0;
+}
+header.header #menu a {
+  color: rgba(245,239,223,0.75) !important; font-family: var(--font-sans) !important;
+  font-size: 1rem !important; font-weight: 400 !important; text-decoration: none !important;
+}
+.logo a, .logo span { color: #f5efdf !important; font-style: italic; font-weight: 300; }
+
+.fr-content { max-width: 1000px; margin: 0 auto; padding: 7.5rem 24px 6rem; }
+.fr-kicker {
+  font-family: var(--font-mono); font-size: 0.65rem; letter-spacing: 0.22em; text-transform: uppercase;
+  color: var(--gold); margin: 0 0 0.8rem;
+}
+.fr-title { font-family: var(--font-serif); font-size: clamp(2rem, 5vw, 3rem); font-weight: 300; color: var(--cream); margin: 0 0 0.8rem; }
+.fr-sub { font-family: var(--font-sans); color: rgba(245,239,223,0.55); max-width: 640px; line-height: 1.5; margin: 0 0 2.4rem; }
+
+.fr-toolbar { display: flex; align-items: center; gap: 1rem; margin-bottom: 2rem; flex-wrap: wrap; }
+#fr-q {
+  flex: 1; min-width: 220px; padding: 0.85rem 1.1rem; font-size: 1rem; font-family: var(--font-sans);
+  border-radius: 6px; border: 1px solid var(--border-c); background: var(--surf); color: var(--cream);
+}
+#fr-q::placeholder { color: rgba(245,239,223,0.35); }
+.fr-toggle {
+  display: flex; align-items: center; gap: 0.5rem; font-family: var(--font-mono);
+  font-size: 0.7rem; letter-spacing: 0.06em; color: rgba(245,239,223,0.6); cursor: pointer; white-space: nowrap;
+}
+.fr-count { font-family: var(--font-mono); font-size: 0.7rem; letter-spacing: 0.1em; color: var(--gold); white-space: nowrap; }
+
+.fr-group { margin-bottom: 0.8rem; }
+.fr-group__summary {
+  font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.15em; text-transform: uppercase;
+  color: rgba(245,239,223,0.45); cursor: pointer; padding: 0.8rem 0;
+  list-style: none; display: flex; align-items: center; gap: 0.6rem;
+  border-bottom: 1px solid var(--border-c); margin-bottom: 1rem; user-select: none;
+}
+.fr-group__summary::-webkit-details-marker { display: none; }
+.fr-group__summary::before { content: '▶'; font-size: 0.5rem; transition: transform 0.2s; color: var(--gold); }
+details[open] > .fr-group__summary::before { transform: rotate(90deg); }
+.fr-group__ep-link { color: var(--gold); text-decoration: none; }
+.fr-group__ep-link:hover { text-decoration: underline; }
+.fr-group__count { color: rgba(245,239,223,0.35); }
+
+.fr-rows { display: flex; flex-direction: column; gap: 0.6rem; margin-bottom: 2rem; }
+.fr-row {
+  padding: 0.9rem 1.1rem; border: 1px solid var(--border-c); border-radius: 8px; background: var(--surf);
+  display: flex; gap: 1rem; align-items: flex-start;
+}
+.fr-row--classificato { border-color: rgba(143,184,217,0.3); background: rgba(143,184,217,0.05); }
+.fr-row__time {
+  font-family: var(--font-mono); font-size: 0.65rem; color: rgba(245,239,223,0.4);
+  white-space: nowrap; flex-shrink: 0; padding-top: 0.15rem;
+}
+.fr-row__body { flex: 1; min-width: 0; }
+.fr-row__badges { display: flex; gap: 0.4rem; flex-wrap: wrap; margin-bottom: 0.4rem; }
+.fr-badge {
+  font-family: var(--font-mono); font-size: 0.62rem; letter-spacing: 0.05em; text-transform: uppercase;
+  padding: 2px 8px; border-radius: 999px; border: 1px solid rgba(143,184,217,0.35); color: var(--gold);
+}
+.fr-badge--titolo { border-color: rgba(245,239,223,0.25); color: rgba(245,239,223,0.75); }
+.fr-badge--tema { border-color: rgba(245,239,223,0.15); color: rgba(245,239,223,0.5); }
+.fr-row__testo { font-family: var(--font-sans); font-size: 0.9rem; color: rgba(245,239,223,0.85); line-height: 1.55; }
+.fr-row__speaker { font-family: var(--font-mono); font-size: 0.6rem; color: rgba(245,239,223,0.3); margin-top: 0.3rem; }
+
+@media (max-width: 640px) {
+  .fr-content { padding: 6rem 16px 4rem; }
+  .fr-row { flex-direction: column; gap: 0.4rem; }
+}
+
+/* ── Pannello admin (?admin=1) ── */
+.fr-row--adm-done { opacity: 0.3; pointer-events: none; filter: grayscale(1); transition: opacity 0.4s, filter 0.4s; }
+.fr-admin-panel { display: flex; flex-direction: column; gap: 0.6rem; margin-top: 0.7rem; padding-top: 0.7rem; border-top: 1px solid var(--border-c); }
+.fr-admin-label { font-family: var(--font-mono); font-size: 0.55rem; letter-spacing: 0.12em; text-transform: uppercase; color: rgba(245,239,223,0.25); }
+.fr-admin-row { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+.fr-admin-input {
+  flex: 1; min-width: 140px; font-family: var(--font-sans); font-size: 0.82rem; background: rgba(255,255,255,0.04);
+  border: 1px solid var(--border-c); border-radius: 6px; color: var(--cream); padding: 0.5rem 0.7rem;
+}
+.fr-admin-input::placeholder { color: rgba(245,239,223,0.2); }
+select.fr-admin-input { appearance: none; cursor: pointer; }
+select.fr-admin-input option { background: #141824; color: var(--cream); }
+.fr-admin-actions { display: flex; gap: 0.5rem; align-items: center; flex-wrap: wrap; }
+.fr-adm-btn {
+  font-family: var(--font-mono); font-size: 0.6rem; letter-spacing: 0.08em; text-transform: uppercase;
+  padding: 6px 14px; border-radius: 6px; border: 1px solid; cursor: pointer; background: transparent; transition: all 0.15s;
+}
+.fr-adm-btn--ok { border-color: rgba(120,200,150,0.4); color: #78c896; }
+.fr-adm-btn--ok:hover { background: rgba(120,200,150,0.12); }
+.fr-adm-btn--reset { border-color: rgba(245,239,223,0.12); color: rgba(245,239,223,0.3); }
+.fr-adm-btn--reset:hover { border-color: rgba(245,100,100,0.4); color: rgba(245,100,100,0.6); }
+.fr-admin-cmd {
+  font-family: var(--font-mono); font-size: 0.7rem; color: rgba(245,239,223,0.6);
+  background: rgba(0,0,0,0.3); border: 1px solid rgba(245,239,223,0.1);
+  border-radius: 6px; padding: 0.6rem 0.8rem; word-break: break-all; display: none;
+  flex-direction: column; gap: 0.5rem;
+}
+.fr-admin-cmd.show { display: flex; }
+.fr-admin-cmd__row { display: flex; gap: 0.6rem; align-items: flex-start; }
+.fr-admin-copy {
+  font-family: var(--font-mono); font-size: 0.6rem; padding: 4px 10px; flex-shrink: 0;
+  border-radius: 4px; border: 1px solid rgba(245,239,223,0.2); background: transparent;
+  color: rgba(245,239,223,0.4); cursor: pointer; transition: all 0.15s;
+}
+.fr-admin-copy:hover { border-color: var(--gold); color: var(--gold); }
+.fr-admin-copy.copied { border-color: #78c896; color: #78c896; }
+.fr-admin-done {
+  font-family: var(--font-mono); font-size: 0.65rem; letter-spacing: 0.08em; text-transform: uppercase;
+  padding: 6px 16px; border-radius: 6px; border: 1px solid rgba(120,200,150,0.5);
+  background: rgba(120,200,150,0.1); color: #78c896; cursor: pointer; width: 100%; text-align: center;
+}
+.fr-admin-done:hover { background: rgba(120,200,150,0.2); }
+</style>
+
+<script>
+(function() {
+  var RAW = {{ $.Site.Data.frammenti | jsonify | safeJS }};
+  var episodiValidi = {{ (slice) | jsonify | safeJS }};
+  {{ range where .Site.RegularPages "Section" "episodi" }}episodiValidi.push({{ .File.ContentBaseName | jsonify | safeJS }});{{ end }}
+
+  var list = document.getElementById('fr-list');
+  var countEl = document.getElementById('fr-count');
+  var qInput = document.getElementById('fr-q');
+  var onlyClassificati = document.getElementById('fr-only-classificati');
+
+  /* Episodi del batch di trascrizione locale 2016 completato l'11/07 —
+     tenerli in cima e aperti di default e' l'obiettivo di questa pagina
+     (valutare la qualita' del lavoro appena fatto), non l'ordine cronologico
+     per data puntata (che metterebbe 2026-06-* prima solo perche' l'anno e'
+     piu' recente, pur essendo frammenti curati mesi fa). */
+  var RECENTI = ['2016-02-01','2016-01-29','2016-01-28','2016-01-27','2016-01-26','2016-01-25','2016-01-22','2016-01-21','2016-01-20'];
+  var tuttiDate = Object.keys(RAW).sort().reverse();
+  var date = RECENTI.filter(function(d) { return tuttiDate.indexOf(d) !== -1; })
+    .concat(tuttiDate.filter(function(d) { return RECENTI.indexOf(d) === -1; }));
+
+  function esc(s) {
+    return String(s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+  function fmtTime(sec) {
+    var s = Math.floor(sec || 0);
+    return (Math.floor(s / 60) < 10 ? '0' : '') + Math.floor(s / 60) + ':' + (s % 60 < 10 ? '0' : '') + (s % 60);
+  }
+  function isClassificato(f) { return !!(f.tipo && f.tipo.trim()); }
+
+  /* ── Modalita' admin (?admin=1), stesso pattern di /da-ricostruire/ ── */
+  var isAdmin = new URLSearchParams(location.search).get('admin') === '1';
+  var MODIFICA_PATH = {{ $.Site.Data.admin.frammenti_script_path | jsonify | safeJS }};
+  var TIPI = ['aneddoto','riflessione','citazione','monologo','lettura_volo',
+    'riferimento_libro','riferimento_musica','riferimento_film','riferimento_cultura',
+    'riferimento_articolo','riferimento_legge','riferimento_mito','riferimento_tecnica'];
+
+  function isAdmDone(id) {
+    try { return !!sessionStorage.getItem('fr_adm_done_' + id); } catch(ex) { return false; }
+  }
+
+  function renderAdminPanel(f) {
+    var opts = '<option value="">— tipo —</option>' + TIPI.map(function(t) {
+      return '<option value="' + t + '"' + (f.tipo === t ? ' selected' : '') + '>' + t + '</option>';
+    }).join('');
+    return '<div class="fr-admin-panel" data-adm-id="' + esc(f.id) + '">' +
+      '<span class="fr-admin-label">Admin</span>' +
+      '<div class="fr-admin-row">' +
+        '<select class="fr-admin-input" data-adm-field="tipo">' + opts + '</select>' +
+        '<input class="fr-admin-input" data-adm-field="titolo" placeholder="Titolo" value="' + esc(f.titolo||'') + '">' +
+      '</div>' +
+      '<div class="fr-admin-row">' +
+        '<input class="fr-admin-input" data-adm-field="tema" placeholder="Temi separati da virgola" value="' + esc((f.tema||[]).join(', ')) + '">' +
+      '</div>' +
+      '<div class="fr-admin-actions">' +
+        '<button class="fr-adm-btn fr-adm-btn--ok" data-adm-ok="1">Salva ▶</button>' +
+        '<button class="fr-adm-btn fr-adm-btn--reset" data-adm-reset="1">Reset</button>' +
+      '</div>' +
+      '<div class="fr-admin-cmd" id="adm-cmd-' + esc(f.id) + '">' +
+        '<div class="fr-admin-cmd__row"><span class="adm-cmd-text" style="flex:1"></span><button class="fr-admin-copy">📋 Copia</button></div>' +
+        '<button class="fr-admin-done" data-adm-done="' + esc(f.id) + '">✓ Ho eseguito il comando — segna come fatto</button>' +
+      '</div>' +
+    '</div>';
+  }
+
+  function buildAdminCmd(panel, id, reset) {
+    var cmdEl = document.getElementById('adm-cmd-' + id);
+    var py = MODIFICA_PATH ? 'python "' + MODIFICA_PATH + '"' : 'python scripts/modifica_frammento.py';
+    var cmd;
+    if (reset) {
+      cmd = py + ' --id "' + id + '" --reset';
+    } else {
+      var tipo   = panel.querySelector('[data-adm-field="tipo"]').value.trim();
+      var titolo = panel.querySelector('[data-adm-field="titolo"]').value.trim();
+      var tema   = panel.querySelector('[data-adm-field="tema"]').value.trim();
+      cmd = py + ' --id "' + id + '"' +
+        (tipo   ? ' --tipo "'   + tipo   + '"' : '') +
+        (titolo ? ' --titolo "' + titolo + '"' : '') +
+        (tema   ? ' --tema "'   + tema   + '"' : '');
+    }
+    cmdEl.querySelector('.adm-cmd-text').textContent = cmd;
+    cmdEl.classList.add('show');
+  }
+
+  document.addEventListener('click', function(e) {
+    var okBtn = e.target.closest('[data-adm-ok]');
+    if (okBtn) { var p = okBtn.closest('.fr-admin-panel'); buildAdminCmd(p, p.dataset.admId, false); return; }
+    var reBtn = e.target.closest('[data-adm-reset]');
+    if (reBtn) { var p2 = reBtn.closest('.fr-admin-panel'); buildAdminCmd(p2, p2.dataset.admId, true); return; }
+    var copyBtn = e.target.closest('.fr-admin-copy');
+    if (copyBtn) {
+      var cmdEl = copyBtn.closest('.fr-admin-cmd');
+      var txt = cmdEl.querySelector('.adm-cmd-text').textContent;
+      navigator.clipboard.writeText(txt).then(function() {
+        copyBtn.textContent = '✓ Copiato';
+        copyBtn.classList.add('copied');
+        setTimeout(function() { copyBtn.textContent = '📋 Copia'; copyBtn.classList.remove('copied'); }, 2000);
+      });
+      return;
+    }
+    var doneBtn = e.target.closest('[data-adm-done]');
+    if (doneBtn) {
+      var id = doneBtn.dataset.admDone;
+      try { sessionStorage.setItem('fr_adm_done_' + id, '1'); } catch(ex) {}
+      var row = doneBtn.closest('.fr-row');
+      if (row) row.classList.add('fr-row--adm-done');
+      return;
+    }
+  });
+
+  function renderRow(f) {
+    var badges = '';
+    if (f.tipo) badges += '<span class="fr-badge">' + esc(f.tipo) + '</span>';
+    if (f.titolo) badges += '<span class="fr-badge fr-badge--titolo">' + esc(f.titolo) + '</span>';
+    (f.tema || []).forEach(function(t) { badges += '<span class="fr-badge fr-badge--tema">' + esc(t) + '</span>'; });
+    var adminDone = isAdmin && isAdmDone(f.id) ? ' fr-row--adm-done' : '';
+    return '<div class="fr-row' + (isClassificato(f) ? ' fr-row--classificato' : '') + adminDone + '">' +
+      '<div class="fr-row__time">' + fmtTime(f.start) + '–' + fmtTime(f.end) + '</div>' +
+      '<div class="fr-row__body">' +
+        (badges ? '<div class="fr-row__badges">' + badges + '</div>' : '') +
+        '<div class="fr-row__testo">' + esc(f.testo) + '</div>' +
+        '<div class="fr-row__speaker">' + esc(f.speaker_raw) + '</div>' +
+        (isAdmin ? renderAdminPanel(f) : '') +
+      '</div>' +
+    '</div>';
+  }
+
+  function render() {
+    var q = (qInput.value || '').toLowerCase().trim();
+    var soloClass = onlyClassificati.checked;
+    var totCount = 0, visCount = 0;
+
+    var html = date.map(function(d) {
+      var frammenti = RAW[d] || [];
+      var visibili = frammenti.filter(function(f) {
+        totCount++;
+        if (soloClass && !isClassificato(f)) return false;
+        if (q) {
+          var hay = (f.testo + ' ' + f.tipo + ' ' + f.titolo + ' ' + (f.tema || []).join(' ')).toLowerCase();
+          if (hay.indexOf(q) === -1) return false;
+        }
+        return true;
+      });
+      if (!visibili.length) return '';
+      visCount += visibili.length;
+      var classificatiInEp = frammenti.filter(isClassificato).length;
+      var epLink = episodiValidi.indexOf(d) !== -1
+        ? '<a class="fr-group__ep-link" href="/episodi/' + d + '/" target="_blank">' + d + '</a>'
+        : d + ' <span style="opacity:.4">(non pubblicata)</span>';
+      var openAttr = RECENTI.indexOf(d) !== -1 ? ' open' : '';
+      return '<details class="fr-group"' + openAttr + '>' +
+        '<summary class="fr-group__summary">' + epLink +
+          ' <span class="fr-group__count">(' + classificatiInEp + '/' + frammenti.length + ' classificati, ' + visibili.length + ' mostrati)</span>' +
+        '</summary>' +
+        '<div class="fr-rows">' + visibili.map(renderRow).join('') + '</div>' +
+      '</details>';
+    }).join('');
+
+    list.innerHTML = html || '<p style="color:rgba(245,239,223,0.4);font-family:var(--font-sans)">Nessun frammento trovato.</p>';
+    countEl.textContent = visCount + ' / ' + totCount + ' frammenti';
+  }
+
+  qInput.addEventListener('input', render);
+  onlyClassificati.addEventListener('change', render);
+  render();
+})();
+</script>
+{{ end }}

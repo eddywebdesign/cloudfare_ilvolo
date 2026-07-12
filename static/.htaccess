@@ -1,0 +1,21 @@
+# Router per Altervista: tutte le richieste passano da index.php (gate +
+# serve statico), tranne i file fisici che PHP stesso non deve intercettare
+# (index.php e config.local.php, per evitare loop/esposizione diretta).
+
+# Forza index.php come indice di directory, altrimenti Apache potrebbe
+# servire index.html direttamente per "/" saltando il gate.
+DirectoryIndex index.php
+
+RewriteEngine On
+RewriteCond %{REQUEST_URI} !^/index\.php$
+RewriteCond %{REQUEST_URI} !^/config\.local\.php$
+RewriteRule ^ index.php [L]
+
+# Blocca l'accesso diretto via browser al file di configurazione (contiene
+# il token) e all'esempio — vanno letti solo via require da index.php.
+<Files "config.local.php">
+    Require all denied
+</Files>
+<Files "config.local.example.php">
+    Require all denied
+</Files>
