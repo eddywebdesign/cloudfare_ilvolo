@@ -24,10 +24,12 @@ import tempfile
 import time
 from pathlib import Path
 
+import psutil
 import requests
 import yaml
 
 UPLOAD_PAUSE_SEC = 12  # pausa tra un upload e il successivo, per non farci bloccare da archive.org
+DOWNLOAD_PAUSE_SEC = 8  # pausa tra un download e il successivo da deejay.it, per non infastidirlo (nessuna fretta)
 # Se impostata, ogni audio scaricato viene conservato qui in copia permanente
 # (backup di emergenza: gli URL legacy di deejay.it possono sparire da un giorno all'altro).
 AUDIO_BACKUP_DIR = os.environ.get("AUDIO_BACKUP_DIR")
@@ -69,14 +71,30 @@ def download(url, dest):
                 f.write(chunk)
 
 
-def transcribe(audio_path, hf_token):
+def transcribe(audio_path, hf_token, device="cpu", compute_type="int8", batch_size=8, threads=None, cpu_affinity=None):
+    """cpu_affinity: lista di indici di core logici a cui vincolare il processo
+    (garanzia a livello di sistema operativo — --threads di whisperx da solo
+    non basta, CTranslate2/OpenMP possono comunque usare piu' core di quelli
+    dichiarati durante la fase di trascrizione)."""
     cmd = [
         sys.executable, "-m", "whisperx", str(audio_path),
-        "--model", "large-v3", "--language", "it", "--compute_type", "int8",
-        "--diarize", "--hf_token", hf_token,
+        "--model", "large-v3", "--language", "it",
+        "--device", device, "--compute_type", compute_type, "--batch_size", str(batch_size),
+        "--diarize", "--diarize_model", "pyannote/speaker-diarization-3.1", "--hf_token", hf_token,
         "--output_format", "json", "--output_dir", str(audio_path.parent),
     ]
-    subprocess.run(cmd, check=True)
+    if threads:
+        cmd += ["--threads", str(threads)]
+
+    proc = subprocess.Popen(cmd)
+    if cpu_affinity:
+        try:
+            psutil.Process(proc.pid).cpu_affinity(cpu_affinity)
+        except Exception as e:
+            print(f"  attenzione: impossibile impostare cpu_affinity: {e}")
+    ret = proc.wait()
+    if ret != 0:
+        raise subprocess.CalledProcessError(ret, cmd)
     return audio_path.parent / (audio_path.stem + ".json")
 
 
@@ -129,7 +147,7 @@ def apply_updates(md_path, updates):
     write_front_matter(md_path, fm, body)
 
 
-def process_file(md_path, hf_token, ia_keys, do_transcribe, do_upload):
+def process_file(md_path, hf_token, ia_keys, do_transcribe, do_upload, download_only=False):
     fm, body = parse_front_matter(md_path)
     if not fm or not fm.get("audio"):
         return "skip (nessun campo audio)"
@@ -144,10 +162,17 @@ def process_file(md_path, hf_token, ia_keys, do_transcribe, do_upload):
 
     need_transcribe = do_transcribe and not fm.get("trascrizione")
     need_upload = do_upload and not fm.get("archivio_audio_url") and not already_hosted
-    if not need_transcribe and not need_upload:
+    # --download-only: forza il ramo di scarico anche se transcribe/upload sono
+    # entrambi disattivati, ma MAI per 'audio' gia' su archive.org — quell'URL e'
+    # gia' noto morto (item dark), ritentarlo e' inutile (vedi recupera_audio_da_fonte.mjs
+    # per il recupero di quei casi dal campo 'fonte' originale).
+    need_download_only = download_only and not need_transcribe and not need_upload and not already_hosted
+    if not need_transcribe and not need_upload and not need_download_only:
         if updates:
             apply_updates(md_path, updates)
             return "ok (backfill archivio_audio_url, gia' su archive.org)"
+        if already_hosted:
+            return "skip (audio su archive.org, richiede recupero da 'fonte')"
         return "skip (gia' fatto)"
 
     audio_url = fm["audio"]
@@ -163,11 +188,13 @@ def process_file(md_path, hf_token, ia_keys, do_transcribe, do_upload):
         else:
             local_audio = Path(tmpdir) / Path(audio_url).name
 
+        appena_scaricato = False
         if local_audio.exists() and local_audio.stat().st_size > 0:
             print(f"  audio gia' in backup locale: {local_audio.name}")
         else:
             print(f"  scarico {audio_url}")
             download(audio_url, local_audio)
+            appena_scaricato = True
 
         if need_transcribe:
             print("  trascrivo con WhisperX (puo' richiedere piu' di un'ora su CPU)...")
@@ -197,7 +224,7 @@ def process_file(md_path, hf_token, ia_keys, do_transcribe, do_upload):
             # ufficiale (deejay.it); archive.org resta il fallback di archivio.
 
     apply_updates(md_path, updates)
-    return "ok"
+    return "ok" if (need_transcribe or need_upload or appena_scaricato) else "ok (gia' presente, nessuna richiesta di rete)"
 
 
 def main():
@@ -205,8 +232,16 @@ def main():
     parser.add_argument("--limit", type=int, default=None)
     parser.add_argument("--skip-transcribe", action="store_true")
     parser.add_argument("--skip-upload", action="store_true")
+    parser.add_argument("--download-only", action="store_true",
+                         help="forza il download/backup anche con --skip-transcribe --skip-upload; "
+                              "richiede AUDIO_BACKUP_DIR impostata, salta sempre i file gia' su archive.org")
     parser.add_argument("--reverse", action="store_true", help="parti dai piu' recenti (utile per correre in parallelo con un'altra istanza)")
     args = parser.parse_args()
+
+    if args.download_only and not AUDIO_BACKUP_DIR:
+        print("ERRORE: --download-only richiede la variabile d'ambiente AUDIO_BACKUP_DIR impostata "
+              "(altrimenti scaricherebbe in una tempdir e cancellerebbe tutto a fine run).")
+        sys.exit(1)
 
     hf_token = None if args.skip_transcribe else load_lines(HF_TOKEN_FILE)
     ia_keys = None if args.skip_upload else load_lines(IA_KEYS_FILE, count=2)
@@ -216,14 +251,17 @@ def main():
         md_files = md_files[:args.limit]
 
     for md_path in md_files:
-        print(f"{md_path.relative_to(ROOT)}:")
+        print(f"{md_path.relative_to(ROOT)}:", flush=True)
         try:
-            result = process_file(md_path, hf_token, ia_keys, not args.skip_transcribe, not args.skip_upload)
+            result = process_file(md_path, hf_token, ia_keys, not args.skip_transcribe, not args.skip_upload,
+                                   download_only=args.download_only)
         except Exception as e:
             result = f"ERRORE: {e}"
-        print(f"  -> {result}")
+        print(f"  -> {result}", flush=True)
         if not args.skip_upload and result == "ok":
             time.sleep(UPLOAD_PAUSE_SEC)
+        elif args.download_only and result == "ok":
+            time.sleep(DOWNLOAD_PAUSE_SEC)
 
 
 if __name__ == "__main__":

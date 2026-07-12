@@ -13,7 +13,6 @@
 # Richiede: GROQ_API_KEY nell'ambiente
 
 import json
-import os
 import re
 import subprocess
 import sys
@@ -37,11 +36,10 @@ for _av_mod in [
     sys.modules[_av_mod] = types.ModuleType(_av_mod)
 
 import numpy as np
-from groq import Groq
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-import groq_budget  # noqa: E402
+import llm_multi  # noqa: E402
 CLIP_DIR = ROOT.parent / "frammenti_trascr_CPU"
 RIF_DIR = ROOT / "data" / "riferimenti"
 
@@ -131,11 +129,15 @@ CHUNK_SIZE = 6000  # caratteri per chunk (~1500 token input, lascia spazio al pr
 CHUNK_SLEEP = 13   # secondi tra chunk (max ~4-5 chunk/min entro 6000 TPM)
 
 
-def _groq_chunk(client: Groq, testo: str) -> list[dict]:
-    """Singola chiamata Groq per un chunk di testo."""
+def _groq_chunk(testo: str) -> list[dict]:
+    """Singola chiamata LLM (Groq o Cerebras, sceglie llm_multi) per un chunk di testo."""
+    provider = llm_multi.provider_disponibile()
+    if provider is None:
+        raise RuntimeError("budget Groq E Cerebras esauriti per oggi")
+    client, model = llm_multi.client_e_modello(provider)
     prompt = PROMPT_TPL.format(testo=testo)
     resp = client.chat.completions.create(
-        model="llama-3.1-8b-instant",
+        model=model,
         messages=[
             {"role": "system", "content": SYSTEM},
             {"role": "user", "content": prompt},
@@ -145,7 +147,7 @@ def _groq_chunk(client: Groq, testo: str) -> list[dict]:
         response_format={"type": "json_object"},
     )
     if resp.usage:
-        groq_budget.registra_uso(resp.usage.total_tokens)
+        llm_multi.registra_uso(provider, resp.usage.total_tokens)
     raw = resp.choices[0].message.content.strip()
     parsed = json.loads(raw)
     if isinstance(parsed, dict):
@@ -156,18 +158,18 @@ def _groq_chunk(client: Groq, testo: str) -> list[dict]:
     return parsed if isinstance(parsed, list) else []
 
 
-def estrai_riferimenti(client: Groq, testo: str) -> list[dict]:
-    """Divide il testo in chunk e aggrega i riferimenti trovati da Groq."""
+def estrai_riferimenti(testo: str) -> list[dict]:
+    """Divide il testo in chunk e aggrega i riferimenti trovati (Groq+Cerebras)."""
     chunks = [testo[i:i + CHUNK_SIZE] for i in range(0, len(testo), CHUNK_SIZE)]
-    print(f"    Invio {len(chunks)} chunk a Groq…")
+    print(f"    Invio {len(chunks)} chunk (Groq+Cerebras)…")
     tutti: list[dict] = []
     for idx, chunk in enumerate(chunks):
-        if not groq_budget.budget_disponibile():
-            print(f"      STOP: budget Groq giornaliero esaurito ({groq_budget.token_usati_oggi()} token oggi), "
+        if llm_multi.provider_disponibile() is None:
+            print(f"      STOP: budget Groq E Cerebras esauriti per oggi, "
                   f"{len(chunks) - idx} chunk rimasti verranno riprovati domani")
             break
         try:
-            risultati = _groq_chunk(client, chunk)
+            risultati = _groq_chunk(chunk)
             print(f"      chunk {idx+1}/{len(chunks)}: {len(risultati)} riferimenti")
             tutti.extend(risultati)
         except Exception as e:
@@ -235,22 +237,7 @@ def merge_riferimenti(data_str: str, nuovi: list[dict], testo: str, durata: floa
     print(f"    -> {dest.relative_to(ROOT)} ({aggiunti} nuovi, {len(voci)} totali)")
 
 
-GROQ_KEY_FILE = Path.home() / "API GROQ IA.txt"
-
-
-def load_groq_key() -> str:
-    key = os.environ.get("GROQ_API_KEY", "")
-    if not key and GROQ_KEY_FILE.exists():
-        key = GROQ_KEY_FILE.read_text(encoding="utf-8").strip()
-    if not key:
-        print(f"Errore: chiave Groq non trovata. Imposta GROQ_API_KEY oppure salva la chiave in:\n  {GROQ_KEY_FILE}")
-        sys.exit(1)
-    return key
-
-
 def main() -> None:
-    client = Groq(api_key=load_groq_key())
-
     # Carica modello faster-whisper una sola volta
     print("Carico modello faster-whisper medium (CPU)…")
     from faster_whisper import WhisperModel  # import ritardato: fallisce solo se mancante
@@ -288,8 +275,8 @@ def main() -> None:
             continue
 
         # Estrazione riferimenti
-        refs = estrai_riferimenti(client, testo)
-        print(f"    Groq: {len(refs)} riferimenti trovati")
+        refs = estrai_riferimenti(testo)
+        print(f"    {len(refs)} riferimenti trovati")
         for r in refs:
             print(f"      [{r.get('categoria','?')}] {r.get('titolo','?')} ({r.get('autore','?')} {r.get('anno','')})")
 

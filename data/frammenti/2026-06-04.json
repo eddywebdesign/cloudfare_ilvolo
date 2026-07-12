@@ -5,9 +5,12 @@
     "end": 173.39,
     "speaker_raw": "SPEAKER_02",
     "testo": "tra poco il volo del mattino con fabio volo con gli occhi chiusi è un po più facile per me è facile per me siamo due illusi che sono io senza di te sono io senza di te ma guardati le spalle E vorrei dimenticarmi amore e tutto il resto. Senza vestiti o in un mini dress argento. La notte splende insieme a te e io mi dimentico. Mi dimentico. La vita è una pista. Io non so se esisto più, di sicuro è esistito, è feroce il mondo, è un pontino blu, è come par si fa, hai trovato il graal. Amore tutto il resto, senza vestiti o in un mini dress argento, la notte splende insieme a te, io mi dimentico, mi dimentico, la vita è una pista Ogni mia tristezza, ogni mio ripensamento Ogni mio sbaglio sotto questo cielo immenso La notte splende insieme a te Io mi dimentico, mi dimentico La vita è una pistola che fa Il mondo quanto male ci fa",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Dimenticarmi amore e tutto il resto",
+    "tema": [
+      "amore",
+      "dimenticanza"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -93,9 +96,12 @@
     "end": 315.26,
     "speaker_raw": "SPEAKER_04",
     "testo": "Oh! Oh! Oh! Oh! Oh! Oh! Oh! Felicità",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Felicità",
+    "tema": [
+      "musica",
+      "felicità"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -104,9 +110,12 @@
     "end": 378.4,
     "speaker_raw": "SPEAKER_11",
     "testo": "e non è neanche un lavoro sei fortunato non ti arriva neanche il riconoscimento il cavaliere del lavoro avevi tanto millantato sono andato poi Mattarella mi ha detto guarda c'è stata tutta la polemica con la Minetti così non voglio altri personaggi che hanno nomi scomodi come il tuo Va bene, no, volevo dire, ho delle cose personali e anche professionali, però mi dispiace, perché mi dispiace lunedì non essere qua con gli ascoltatori. Lo diceva Maurizio, Maurizio diceva, ma che cazzo me ne farei, ma no Maurizio, Viola è felicissima.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il cavaliere del lavoro",
+    "tema": [
+      "lavoro",
+      "riconoscimento"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -126,9 +135,12 @@
     "end": 411.44,
     "speaker_raw": "SPEAKER_11",
     "testo": "Io devo contenere l'energia, ragazzi. Ieri l'ho vista, ho visto Viola quando andavo andando al supermercato, ho incontrato Viola per strada. Come si chiamano i flip? Le capriole all'indietro. Tu qua proprio sul viale. Ho detto, ma chi è quella scheggia? Ho detto, wow, ancora due puntate. Felicissimo. Clone, quindi ci mancherete. Un ascoltatore dice che domani è l'ultima puntata ed è anche il suo compleanno. Salutatemi anche se io domani sarò in un hotel a 5 stelle. Bravo!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Viola al supermercato",
+    "tema": [
+      "amici",
+      "supermercato"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -489,9 +501,12 @@
     "end": 1476.61,
     "speaker_raw": "SPEAKER_05",
     "testo": "Quindi non è che non si lava, ma non si sporca. È svenuta la stellina, è svenuta. Buongiorno.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'accappatoio non si sporca mai",
+    "tema": [
+      "pulizia",
+      "accappatoio"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -522,9 +537,12 @@
     "end": 1515.48,
     "speaker_raw": "SPEAKER_01",
     "testo": "Ragazzi, nei Cinque Stelle, colazione in camera, sempre. Room service, donob fuori dalla porta, servizio in camera. Inciviltà, posso dire? Inciviltà.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Colazione in camera",
+    "tema": [
+      "colazione",
+      "film"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -533,9 +551,12 @@
     "end": 1569.46,
     "speaker_raw": "SPEAKER_11",
     "testo": "Sai che c'è una cosa che mi spinge controcorrente? che ho sempre visto nei film che dice colui che ti porta la colazione a letto io ti giuro se è una roba che non riuscirei mai a fare sei un animale se non sei malato ma neanche da malato col tavolino quello poco no ma poi appena mi sveglio a parte che io ho il nettalingo però appena sveglio mi porti mi fai schifo mi fai malissimo si è aperto un mondo sull'accappatoio ma non era questa la puntata oh dai ragazzi l'accappatoio si cambia una volta a settimana su dai Fabio l'accappatoio sei mesi ma anche di più ma la stagione sei mesi un quarto",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Colazione a letto",
+    "tema": [
+      "colazione",
+      "film"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -555,9 +576,12 @@
     "end": 1872.27,
     "speaker_raw": "SPEAKER_11",
     "testo": "Quanto è bello il pianeta Terra, quanto sono belli gli animali, quante sono belle le persone, quante cose belle ha una persona dentro. E poi dopo magari per qualche motivo, qualche energia strana che arriva a cerchio... ci cerchio e di quella persona continui a parlare delle cose brutte del pianeta terra continui a parlare delle cose brutte degli esseri umani continui a parlare delle cose brutte e questo parlare di cose brutte di omicidi, di guerra, di cronaca nera così a un certo punto si normalizza questa cosa e uno dice ma che schifo, ma che mondo e tu dici no ma guarda che è perché tu porti l'attenzione lì ma c'è tanta cosa... tante cose belle da guardare poi ci sono anche quelle brutte però se la televisione invece che fare tre ore il pomeriggio di un omicidio con le nostre mamme, le nostre nonne le nostre zie davanti alla televisione parlassero di cose belle anche dei loro tempi, dei loro amori facessero vedere i loro film non sarebbe più bello che sentir parlare una che è esperta di pugnalate al collo, io non la capisco non la capirò mai questa cosa Non mi interessa neanche, non riesco neanche a capire, però cari ascoltatori, molti di voi che tornano a casa la sera, mangiano, camminano per casa con le scarpe dove sono stati in giro tutto il giorno, le portano in casa, ma non è tanto, invitano gente che non dovrebbe entrare in casa perché comunque portano un pettegoletto, ma soprattutto accendete la televisione che è come aprire la porta di casa. E cosa fate entrare in casa vostra? Discussioni, politica di gente che grida. Pensate che quell'energia lì, quando sentite il cervello riconosce quelle parole, scatena dentro il vostro corpo tutta una serie di secrezioni. C'è secreto. Quindi bisogna stare attenti a chi fa entrare in casa. Ti guardi un programma che parla di tradimenti, quello lo stai facendo entrare in casa? Sì. come un serpente la politica, gente che grida ma non li vedete che sono tutti dei mostri sono tutti dei poveretti quelle pance molli bisogna stare attenti a chi si fa entrare in casa chi fa entrare nella testa quando tu pensi qual è la prima cosa che accendi la mattina cosa ascolti, cosa fai quella roba lì è importante non è solo una questione fisica quindi prima di chiudere questa stagione sentiamo una voce bella Signore e signori, è qui con noi Padre Bianchi, buongiorno! Buongiorno, ciao Fabio! Come stai, come stai?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La bellezza del pianeta Terra",
+    "tema": [
+      "bellezza",
+      "pianeta"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -588,9 +612,12 @@
     "end": 2039.38,
     "speaker_raw": "SPEAKER_10",
     "testo": "ma guarda questo è un mondo che è sedotto dalla guerra tutti i popoli la gente è sedotta dalla guerra questa è una cosa terribile che è nuova anche in questo orizzonte perfino ieri sono sfilati i cappellani militari che non avevano mai fatto insieme all'esercito loro che dovrebbero con l'assistenza spirituale annunciare la pace hanno sfilato gestando dalla parte della stessa chiesa una specie di reazione che va dalla tristezza alla protesta. Non è un periodo buono, però dobbiamo più che mai fare resistenza. Noi dobbiamo essere gli uomini della resistenza, perché solo con la resistenza si acquista la libertà, solo con la resistenza si guadagna la pace, solo con la resistenza si va verso l'uguaglianza della società in vista di una convivenza migliore. Ma bisogna imparare a resistere, a partire dall'esercizio della propria coscienza e a dire sì e no senza dire come fanno tutti, come dicono tutti, in un accattimento indifferito e massificato. Questo è l'esercizio che può essere chiesto in mezzo all'educazione e i giovani sono sensibili a questo. Non sono assolutamente ottusi di fronte a questa proposta, perché in loro c'è sempre di autenticità, sempre di vivere bene la vita. Io ho una speranza forte, anche questo momento di barbarie passerà Fabio, passerà.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La seduzione della guerra",
+    "tema": [
+      "guerra",
+      "seduzione"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -599,9 +626,12 @@
     "end": 2049.05,
     "speaker_raw": "SPEAKER_11",
     "testo": "Dobbiamo farlo già nel nostro piccolo, nelle nostre famiglie, sui nostri posti di lavoro, questo intendi anche per resistenza immagino.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La resistenza quotidiana",
+    "tema": [
+      "resistenza",
+      "quotidiano"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -610,9 +640,12 @@
     "end": 2109.47,
     "speaker_raw": "SPEAKER_10",
     "testo": "Esatto, bisogna iniziare dai rapporti quotidiani che abbiamo, vietarci atteggiamenti di violenza in famiglia, tra coniugi, tra avanti e cercare sempre che prevalga la tederezza, la comprensione, l'ascolto è l'accettazione della differenza, questo esercizio così importante oggi che ci scopriamo così diversi e differenti, essere esperti in differenza, essere esperti in complessità. può essere una fatica innanzitutto ma l'unico termine è una ricchezza per tutti noi dobbiamo farlo se vogliamo vivere più felici vivere meglio grazie padre Bianchi delle tue parole fine stagione ci sentiamo a settembre sicuro ti vengo a trovare ti aspetto ciao ciao",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'importanza dell'ascolto",
+    "tema": [
+      "ascolto",
+      "comprensione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
