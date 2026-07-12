@@ -12,6 +12,7 @@
 #
 # Richiede: GROQ_API_KEY nell'ambiente
 
+import difflib
 import json
 import re
 import subprocess
@@ -80,6 +81,17 @@ Regole:
 - autore: regista / scrittore / artista (vuoto se sconosciuto)
 - note: max 12 parole su perché Fabio lo cita/legge/suona
 - Non includere riferimenti vaghi o non identificabili
+- "titolo" deve essere il titolo VERO e specifico di un'opera (film/libro/canzone) —
+  MAI un argomento di conversazione generico, anche se Fabio ne parla a lungo
+- ESCLUDI persone citate di passaggio (politici, giornalisti, personaggi pubblici,
+  attori nominati SENZA il titolo di un'opera specifica) — includile SOLO come
+  "autore" di un'opera nominata per titolo, mai come "titolo" loro stesse
+- ESCLUDI testate giornalistiche/siti di notizie (New York Times, Repubblica, ecc.):
+  non sono libri
+- ESCLUDI marchi, prodotti, aziende, tecnologie (Volvo, Atari, Google, ecc.)
+- ESCLUDI luoghi geografici (piazze, città, monumenti)
+- Nel dubbio se qualcosa è un'opera reale o solo un nome/argomento menzionato,
+  ESCLUDI — meglio pochi riferimenti sicuri che tanti falsi positivi
 """
 
 
@@ -191,8 +203,29 @@ def estrai_riferimenti(testo: str) -> list[dict]:
     return tutti
 
 
+TITOLO_SIMILARITY_SOGLIA = 0.85  # sopra questa soglia (difflib) un titolo e' considerato doppione,
+# stessa soglia/logica di trascrivi_locale_episodi.py::_titolo_e_doppione (duplicata qui invece di
+# importata per evitare un import circolare: trascrivi_locale_episodi.py importa gia' da qui)
+
+
+def _normalizza_titolo(titolo: str) -> str:
+    return re.sub(r"[^\w\s]", "", titolo.lower()).strip()
+
+
+def _titolo_e_doppione(titolo: str, titoli_esistenti: list[str]) -> bool:
+    norm = _normalizza_titolo(titolo)
+    if not norm:
+        return False
+    for esistente in titoli_esistenti:
+        if difflib.SequenceMatcher(None, norm, _normalizza_titolo(esistente)).ratio() >= TITOLO_SIMILARITY_SOGLIA:
+            return True
+    return False
+
+
 def merge_riferimenti(data_str: str, nuovi: list[dict], testo: str, durata: float) -> None:
-    """Aggiunge i nuovi riferimenti al file JSON, senza sovrascrivere campi già compilati."""
+    """Aggiunge i nuovi riferimenti al file JSON, senza sovrascrivere campi già compilati.
+    Deduplica per CONTENUTO (titolo simile nella stessa categoria), non solo per id: rilanciare
+    l'estrazione su un episodio gia' fatto non deve piu' accumulare doppioni identici."""
     dest = RIF_DIR / f"{data_str}.json"
     esistenti: dict[str, dict] = {}
     if dest.exists():
@@ -201,18 +234,29 @@ def merge_riferimenti(data_str: str, nuovi: list[dict], testo: str, durata: floa
 
     # Conta per generare id progressivi per questa data+categoria
     contatori: dict[str, int] = {}
-    for eid in esistenti:
+    titoli_per_categoria: dict[str, list[str]] = {}
+    for eid, r in esistenti.items():
         m = re.match(r'.+-(film|libro|musica)-clip-(\d+)', eid)
         if m:
             cat = m.group(1)
             n = int(m.group(2))
             contatori[cat] = max(contatori.get(cat, -1), n)
+        if r.get("titolo"):
+            titoli_per_categoria.setdefault(r.get("categoria", ""), []).append(r["titolo"])
 
     aggiunti = 0
+    doppioni_scartati = 0
     for ref in nuovi:
         cat = ref.get("categoria", "").lower()
         if cat not in ("film", "libro", "musica"):
             continue
+        titolo = ref.get("titolo", "").strip()
+        if not titolo:
+            continue  # nessun titolo reale identificato, scarta (evita voci vuote)
+        if _titolo_e_doppione(titolo, titoli_per_categoria.get(cat, [])):
+            doppioni_scartati += 1
+            continue
+
         n = contatori.get(cat, -1) + 1
         contatori[cat] = n
         rid = f"{data_str}-{cat}-clip-{n:04d}"
@@ -232,7 +276,7 @@ def merge_riferimenti(data_str: str, nuovi: list[dict], testo: str, durata: floa
             "id": rid,
             "categoria": cat,
             "sottocategoria": sottocat,
-            "titolo": ref.get("titolo", ""),
+            "titolo": titolo,
             "anno": ref.get("anno", ""),
             "autore": ref.get("autore", ""),
             "note": ref.get("note", ""),
@@ -241,12 +285,14 @@ def merge_riferimenti(data_str: str, nuovi: list[dict], testo: str, durata: floa
             "end": durata,
             "episodio_data": data_str,
         }
+        titoli_per_categoria.setdefault(cat, []).append(titolo)
         aggiunti += 1
 
     voci = sorted(esistenti.values(), key=lambda x: x["start"])
     RIF_DIR.mkdir(parents=True, exist_ok=True)
     dest.write_text(json.dumps(voci, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"    -> {dest.relative_to(ROOT)} ({aggiunti} nuovi, {len(voci)} totali)")
+    dettaglio = f", {doppioni_scartati} doppioni scartati" if doppioni_scartati else ""
+    print(f"    -> {dest.relative_to(ROOT)} ({aggiunti} nuovi{dettaglio}, {len(voci)} totali)")
 
 
 def main() -> None:
