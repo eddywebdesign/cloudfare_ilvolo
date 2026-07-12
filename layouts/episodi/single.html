@@ -194,12 +194,6 @@
   <section class="ep-playlist">
     <div class="ep-playlist-head">
       <p class="ep-playlist-title">Playlist del {{ .Date | time.Format ":date_long" }}</p>
-      <a class="ep-playlist-open" href="/playlist/" aria-label="Tutte le playlist" title="Tutte le playlist">
-        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-          <rect x="3.5" y="3.5" width="17" height="17" rx="2" stroke="currentColor" stroke-width="1.4"/>
-          <path d="M9.5 14.5 14.5 9.5M14.5 9.5H10.2M14.5 9.5V13.8" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/>
-        </svg>
-      </a>
     </div>
     <ul class="ep-playlist-list">
       {{ range $playlist }}
@@ -346,9 +340,6 @@ header.header #menu a:hover, header.header #menu .active { color: #f5efdf !impor
 .ep-playlist { margin-bottom: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border); }
 .ep-playlist-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 0.4rem; padding-bottom: 0.6rem; border-bottom: 1px solid var(--border); }
 .ep-playlist-title { font-family: var(--font-serif); font-size: 1rem; font-weight: 400; color: var(--primary); margin: 0; }
-.ep-playlist-open { display: inline-flex; align-items: center; justify-content: center; align-self: flex-start; width: 24px; height: 24px; flex-shrink: 0; color: var(--secondary); transition: color 0.2s; }
-.ep-playlist-open svg { width: 15px; height: 15px; }
-.ep-playlist-open:hover { color: var(--gold); }
 .ep-playlist-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; }
 .ep-playlist-item { display: flex; align-items: center; gap: 14px; padding: 0.7rem 0; border-bottom: 1px solid var(--border); }
 .ep-playlist-item:last-child { border-bottom: none; }

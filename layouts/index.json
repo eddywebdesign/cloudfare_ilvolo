@@ -25,8 +25,7 @@
       {{- if .artista }}{{ $playlistText = $playlistText | append .artista }}{{ end -}}
     {{- end -}}
   {{- end -}}
-  {{/* Riferimenti curati (libro/film/musica): stessa fonte dati usata da
-       bibliografia.html/filmografia.html (data/riferimenti/<data>.json),
+  {{/* Riferimenti curati (libro/film/musica) da data/riferimenti/<data>.json,
        filtrata alle sole voci identificate (titolo presente, non "non
        identificato") cosi' da riflettere solo cio' che l'utente vede
        davvero cliccando su una card. */}}
