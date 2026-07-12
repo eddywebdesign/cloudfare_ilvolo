@@ -10,6 +10,7 @@
 import json
 import os
 import sys
+import time
 from datetime import date
 from pathlib import Path
 
@@ -107,6 +108,11 @@ class _CerebrasResponse:
         self.usage = _CerebrasResponse._Usage(data.get("usage", {}).get("total_tokens", 0))
 
 
+CEREBRAS_RETRY_429 = (5, 10, 20)  # secondi di attesa crescente, solo su 429 (limite reale ~5-6 RPM,
+# verificato con test empirico il 2026-07-12 — il ritmo dello script ci sta sotto ma senza margine,
+# un burst occasionale non deve far perdere l'intero batch)
+
+
 class _CerebrasCompletions:
     def __init__(self, api_key: str):
         self._api_key = api_key
@@ -118,13 +124,22 @@ class _CerebrasCompletions:
         }
         if model in CEREBRAS_MODELLI_REASONING:
             payload["reasoning_effort"] = "low"
-        r = requests.post(
-            f"{CEREBRAS_BASE_URL}/chat/completions",
-            headers={"Authorization": f"Bearer {self._api_key}", "Content-Type": "application/json"},
-            json=payload, timeout=60,
-        )
-        r.raise_for_status()
-        return _CerebrasResponse(r.json())
+
+        tentativi = (0,) + CEREBRAS_RETRY_429
+        for i, attesa in enumerate(tentativi):
+            if attesa:
+                print(f"      Cerebras 429 (troppe richieste/minuto), riprovo tra {attesa}s "
+                      f"(tentativo {i+1}/{len(tentativi)})...")
+                time.sleep(attesa)
+            r = requests.post(
+                f"{CEREBRAS_BASE_URL}/chat/completions",
+                headers={"Authorization": f"Bearer {self._api_key}", "Content-Type": "application/json"},
+                json=payload, timeout=60,
+            )
+            if r.status_code != 429:
+                r.raise_for_status()
+                return _CerebrasResponse(r.json())
+        r.raise_for_status()  # esauriti i tentativi, propaga il 429 come errore normale
 
 
 class _CerebrasChat:

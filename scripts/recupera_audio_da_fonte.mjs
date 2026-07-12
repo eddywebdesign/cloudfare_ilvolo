@@ -21,7 +21,7 @@
  */
 
 import { mkdir, readdir, readFile, writeFile, appendFile } from "node:fs/promises";
-import { existsSync } from "node:fs";
+import { existsSync, readdirSync } from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
@@ -91,7 +91,31 @@ async function aggiornaFrontMatter(mdPath, text, nuovoAudioUrl) {
     await writeFile(mdPath, nuovo, "utf8");
 }
 
-async function scarica(url, destPath) {
+/** Cerca un file gia' presente per questa data OVUNQUE nell'albero di backup_dir (il
+ * backup e' organizzato in sottocartelle per anno) — controllare solo destPath in root
+ * fa perdere i file gia' li' dentro e li riscarica come doppioni. */
+function trovaEsistente(backupDir, iso) {
+    const stack = [backupDir];
+    while (stack.length) {
+        const dir = stack.pop();
+        let entries;
+        try {
+            entries = readdirSync(dir, { withFileTypes: true });
+        } catch {
+            continue;
+        }
+        for (const e of entries) {
+            const full = path.join(dir, e.name);
+            if (e.isDirectory()) stack.push(full);
+            else if (e.name.startsWith(`${iso}_`) || e.name.includes(iso.replace(/-/g, ""))) return full;
+        }
+    }
+    return null;
+}
+
+async function scarica(url, destPath, iso, backupDir) {
+    const esistente = trovaEsistente(backupDir, iso);
+    if (esistente) return `gia' presente altrove nell'albero: ${esistente}`;
     if (existsSync(destPath)) return "gia' presente";
     const res = await fetch(url, { headers: { "User-Agent": UA } });
     if (!res.ok) throw new Error(`download fallito HTTP ${res.status}`);
@@ -174,7 +198,7 @@ async function main() {
         }
         const destPath = path.join(AUDIO_BACKUP_DIR, `${t.iso}_${path.basename(audioUrlGrezzo)}`);
         try {
-            const esito = await scarica(audioUrlGrezzo, destPath);
+            const esito = await scarica(audioUrlGrezzo, destPath, t.iso, AUDIO_BACKUP_DIR);
             await sleep(8000); // pausa cortese dopo ogni download, nessuna fretta
             console.log(`  ${esito} -> ${destPath}`);
             await aggiornaFrontMatter(t.mdPath, t.text, audioUrlGrezzo);

@@ -185,11 +185,19 @@ def process_file(md_path, hf_token, ia_keys, do_transcribe, do_upload, download_
             backup_dir = Path(AUDIO_BACKUP_DIR)
             backup_dir.mkdir(parents=True, exist_ok=True)
             local_audio = backup_dir / f"{date_str}_{Path(audio_url).name}"
+            # Il backup e' organizzato in sottocartelle per anno (riordino precedente):
+            # controllare SOLO il path piatto in root fa perdere i file gia' presenti li'
+            # dentro e li riscarica come doppioni. Cercare ovunque nell'albero per data.
+            esistente = next(backup_dir.rglob(f"{date_str}_*"), None) or next(backup_dir.rglob(f"*{date_str.replace('-', '')}*"), None)
         else:
             local_audio = Path(tmpdir) / Path(audio_url).name
+            esistente = None
 
         appena_scaricato = False
-        if local_audio.exists() and local_audio.stat().st_size > 0:
+        if esistente and esistente.stat().st_size > 0:
+            print(f"  audio gia' in backup locale (trovato altrove nell'albero): {esistente}")
+            local_audio = esistente
+        elif local_audio.exists() and local_audio.stat().st_size > 0:
             print(f"  audio gia' in backup locale: {local_audio.name}")
         else:
             print(f"  scarico {audio_url}")
