@@ -159,7 +159,11 @@ def _groq_chunk(testo: str) -> list[dict]:
 
 
 def estrai_riferimenti(testo: str) -> list[dict]:
-    """Divide il testo in chunk e aggrega i riferimenti trovati (Groq+Cerebras)."""
+    """Divide il testo in chunk e aggrega i riferimenti trovati (Groq+Cerebras).
+    Un chunk fallito (JSON malformato dal modello, errore di rete, ecc.) viene
+    riprovato UNA volta prima di essere scartato, per non perdere dati per un
+    singolo errore transitorio (visto in pratica: "Expecting value..." su JSON
+    troncato dal modello)."""
     chunks = [testo[i:i + CHUNK_SIZE] for i in range(0, len(testo), CHUNK_SIZE)]
     print(f"    Invio {len(chunks)} chunk (Groq+Cerebras)…")
     tutti: list[dict] = []
@@ -168,12 +172,20 @@ def estrai_riferimenti(testo: str) -> list[dict]:
             print(f"      STOP: budget Groq E Cerebras esauriti per oggi, "
                   f"{len(chunks) - idx} chunk rimasti verranno riprovati domani")
             break
-        try:
-            risultati = _groq_chunk(chunk)
+        risultati = None
+        for tentativo in range(2):
+            try:
+                risultati = _groq_chunk(chunk)
+                break
+            except Exception as e:
+                if tentativo == 0:
+                    print(f"      chunk {idx+1}/{len(chunks)} ERRORE ({e}), riprovo una volta...")
+                    time.sleep(5)
+                else:
+                    print(f"      chunk {idx+1}/{len(chunks)} ERRORE anche al secondo tentativo: {e}")
+        if risultati is not None:
             print(f"      chunk {idx+1}/{len(chunks)}: {len(risultati)} riferimenti")
             tutti.extend(risultati)
-        except Exception as e:
-            print(f"      chunk {idx+1}/{len(chunks)} ERRORE: {e}")
         if idx < len(chunks) - 1:
             time.sleep(CHUNK_SLEEP)
     return tutti

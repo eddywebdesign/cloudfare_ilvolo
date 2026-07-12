@@ -132,26 +132,34 @@ def classifica_frammenti(frammenti: list[dict]) -> None:
         client, model = llm_multi.client_e_modello(provider)
         batch = da_classificare[i:i + CLASSIFY_BATCH]
         lista = "\n".join(f'[{f["id"]}] {f["testo"][:400]}' for f in batch)
-        try:
-            resp = client.chat.completions.create(
-                model=model,
-                messages=[
-                    {"role": "system", "content": CLASSIFY_SYSTEM},
-                    {"role": "user", "content": CLASSIFY_PROMPT_TPL.format(lista=lista)},
-                ],
-                max_tokens=800,
-                temperature=0.1,
-                response_format={"type": "json_object"},
-            )
-            if resp.usage:
-                llm_multi.registra_uso(provider, resp.usage.total_tokens)
-            raw = resp.choices[0].message.content.strip()
-            parsed = json.loads(raw)
-            risultati = parsed if isinstance(parsed, list) else next(
-                (v for v in parsed.values() if isinstance(v, list)), []
-            )
-        except Exception as e:
-            print(f"      classificazione batch {i}: ERRORE {e}")
+        risultati = None
+        for tentativo in range(2):
+            try:
+                resp = client.chat.completions.create(
+                    model=model,
+                    messages=[
+                        {"role": "system", "content": CLASSIFY_SYSTEM},
+                        {"role": "user", "content": CLASSIFY_PROMPT_TPL.format(lista=lista)},
+                    ],
+                    max_tokens=800,
+                    temperature=0.1,
+                    response_format={"type": "json_object"},
+                )
+                if resp.usage:
+                    llm_multi.registra_uso(provider, resp.usage.total_tokens)
+                raw = resp.choices[0].message.content.strip()
+                parsed = json.loads(raw)
+                risultati = parsed if isinstance(parsed, list) else next(
+                    (v for v in parsed.values() if isinstance(v, list)), []
+                )
+                break
+            except Exception as e:
+                if tentativo == 0:
+                    print(f"      classificazione batch {i}: ERRORE ({e}), riprovo una volta...")
+                    time.sleep(5)
+                else:
+                    print(f"      classificazione batch {i}: ERRORE anche al secondo tentativo: {e}")
+        if risultati is None:
             continue
 
         by_id = {f["id"]: f for f in frammenti}
@@ -198,12 +206,20 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("cartella", help="cartella con i file Audio YYYYMMDD*.mp3")
     parser.add_argument("--da", default=None, help="data minima YYYYMMDD (incluso)")
+    parser.add_argument("--a", default=None, help="data massima YYYYMMDD (incluso) — con --da, "
+                         "permette di dividere il lavoro tra piu' macchine su range non sovrapposti")
     parser.add_argument("--limit", type=int, default=None)
     parser.add_argument("--gpu", action="store_true", help="usa CUDA (device=cuda, compute_type=float16, batch_size=16) invece di CPU int8")
     parser.add_argument("--threads", type=int, default=4,
                          help="thread CPU usati da torch (default 4, meta' di un i5-1135G7 a 8 thread, per non saturare/scaldare troppo il chip)")
     parser.add_argument("--pausa", type=int, default=120,
                          help="secondi di pausa tra un episodio e l'altro per far raffreddare la CPU (default 120, 0 per disattivare)")
+    parser.add_argument("--skip-classify", action="store_true",
+                         help="ferma la pipeline dopo aver generato i frammenti grezzi (WhisperX + genera_frammenti), "
+                              "NESSUNA chiamata Groq/Cerebras — per macchine secondarie (es. laptop) che lavorano in "
+                              "parallelo al mini PC: il budget LLM e' condiviso per account, non per macchina, quindi "
+                              "solo UNA macchina deve classificare (vedi riclassifica_frammenti.py per farlo centralmente "
+                              "sui frammenti sincronizzati da piu' fonti)")
     args = parser.parse_args()
 
     if args.gpu:
@@ -218,11 +234,25 @@ def main() -> None:
     mp3s = sorted(cartella.glob("*.mp3"))
     if args.da:
         mp3s = [p for p in mp3s if (parse_data(p.name) or "").replace("-", "") >= args.da]
+    if args.a:
+        mp3s = [p for p in mp3s if (parse_data(p.name) or "").replace("-", "") <= args.a]
+
+    # esclude le date gia' completate PRIMA di applicare --limit: altrimenti
+    # --limit N rischia di selezionare episodi vecchi (gia' trascritti) invece
+    # di N episodi davvero nuovi, sprecando CPU e budget Groq/Cerebras.
+    def _gia_fatto(mp3: Path) -> bool:
+        data_str = parse_data(mp3.name)
+        if not data_str:
+            return False
+        return (TRASCRIZIONI_DIR / f"{data_str}.json").exists() or (FRAMMENTI_DIR / f"{data_str}.json").exists()
+
+    mp3s = [p for p in mp3s if not _gia_fatto(p)]
+
     if args.limit:
         mp3s = mp3s[:args.limit]
 
     if not mp3s:
-        print(f"Nessun MP3 da processare in {cartella}")
+        print(f"Nessun episodio nuovo da processare in {cartella} (tutti gia' trascritti nel range dato)")
         return
 
     hf_token = load_lines(HF_TOKEN_FILE)
@@ -238,25 +268,23 @@ def main() -> None:
         dest_frammenti = FRAMMENTI_DIR / f"{data_str}.json"
         print(f"[{data_str}] {mp3.name}")
 
-        appena_trascritto = False
-        # dest_trascr puo' essere gia' stato cancellato (vedi pulizia a fine ciclo,
-        # il mini PC non tiene il JSON grezzo dopo aver generato i frammenti):
-        # se i frammenti esistono gia', la trascrizione e' comunque stata fatta.
-        if dest_trascr.exists() or dest_frammenti.exists():
-            print("  gia' trascritto, salto WhisperX")
-        else:
-            print("  trascrivo con WhisperX (puo' richiedere piu' di un'ora su CPU)...")
-            try:
-                json_path = transcribe(mp3, hf_token, device=device, compute_type=compute_type, batch_size=batch_size, threads=threads, cpu_affinity=cpu_affinity)
-            except Exception as e:
-                print(f"  ERRORE trascrizione: {e}")
-                continue
-            TRASCRIZIONI_DIR.mkdir(parents=True, exist_ok=True)
-            dest_trascr.write_bytes(json_path.read_bytes())
-            appena_trascritto = True
+        print("  trascrivo con WhisperX (puo' richiedere piu' di un'ora su CPU)...")
+        try:
+            json_path = transcribe(mp3, hf_token, device=device, compute_type=compute_type, batch_size=batch_size, threads=threads, cpu_affinity=cpu_affinity)
+        except Exception as e:
+            print(f"  ERRORE trascrizione: {e}")
+            continue
+        TRASCRIZIONI_DIR.mkdir(parents=True, exist_ok=True)
+        dest_trascr.write_bytes(json_path.read_bytes())
 
         # 2. frammenti (turni di parola)
         genera_frammenti.genera(data_str)
+
+        if args.skip_classify:
+            print("  --skip-classify: nessuna chiamata Groq/Cerebras qui (budget condiviso per account, "
+                  "non per macchina). Frammenti grezzi pronti per riclassifica_frammenti.py centrale.")
+            print(f"  [{data_str}] completato.\n")
+            continue
 
         # 3. classificazione automatica frammenti rilevanti
         try:
@@ -288,16 +316,17 @@ def main() -> None:
 
         # pulizia: il mini PC non deve accumulare i JSON grezzi WhisperX (~900KB/episodio).
         # Cancellato SOLO se i frammenti (il derivato compatto, sincronizzato via Syncthing)
-        # sono stati generati con successo — mai se genera_frammenti e' fallito prima.
+        # sono stati generati con successo — mai se genera_frammenti e' fallito prima. Non si
+        # arriva mai qui con --skip-classify (continue sopra), quindi il grezzo resta disponibile
+        # sulla macchina secondaria finche' non fa anche lei classificazione/riferimenti in futuro.
         if dest_trascr.exists() and dest_frammenti.exists():
             dest_trascr.unlink()
             print("  JSON grezzo cancellato dal mini PC (frammenti gia' al sicuro)")
 
         print(f"  [{data_str}] completato.\n")
 
-        # pausa di raffreddamento SOLO dopo un carico CPU vero (WhisperX appena eseguito),
-        # non dopo un episodio saltato perche' gia' fatto, e non dopo l'ultimo della lista
-        if appena_trascritto and args.pausa > 0 and idx < len(mp3s) - 1:
+        # pausa di raffreddamento dopo il carico CPU di WhisperX, non dopo l'ultimo della lista
+        if args.pausa > 0 and idx < len(mp3s) - 1:
             print(f"  raffreddamento CPU: pausa di {args.pausa}s prima del prossimo episodio...\n")
             time.sleep(args.pausa)
 

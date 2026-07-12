@@ -44,9 +44,12 @@
     "end": 247.71,
     "speaker_raw": "SPEAKER_04",
     "testo": "Ah, les italiens. Non mi ricordavo quell'aneddoto.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ah, les italiens",
+    "tema": [
+      "italia",
+      "popolo"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -55,9 +58,12 @@
     "end": 326.26,
     "speaker_raw": "SPEAKER_06",
     "testo": "Les italiens, les pauvres. Oh, bien sûr, nous sommes... Bloccato. sono le 9 e 7 minuti ragazzi guarda che è una roba incredibile guardate che è una roba pazzesca sono le 9 e 7 minuti del 20 di gennaio è già il 20 di gennaio voi ve lo ricordate il vostro capodanno? cioè non sembrava ieri che avete vomitato no non sembrava giusto ieri meno 5 4 siamo già al 20 mannaggia quest'anno febbraio quanti giorni ha 29 quest'anno 29 un giorno in più per arrivare all'estate siamo anche in onda il 29 quel giorno lì a me affascinano quelli che nascono il 29 quelli che dopo devono decidere se festeggiarlo il 28 o l'1 e poi ogni 4 anni come le olimpiadi tra l'altro insieme alle olimpiadi bene ragazzi iniziamo perché come sempre c'è troppa carne al fuoco",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Capodanno e tempo che passa",
+    "tema": [
+      "tempo",
+      "capodanno"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -160,9 +166,12 @@
     "end": 942.39,
     "speaker_raw": "SPEAKER_04",
     "testo": "Eh sì, ovviamente. Se no, se potessimo avere tutti accesso alle agenzie. Però in linea di massima ormai...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Accesso alle agenzie",
+    "tema": [
+      "informazione",
+      "accesso"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -171,9 +180,12 @@
     "end": 947.36,
     "speaker_raw": "SPEAKER_06",
     "testo": "Cioè pagano un abbonamento a un'agenzia che li tiene aggiornati. Ma quello lì...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Agenzie e abbonamento",
+    "tema": [
+      "informazione",
+      "agenzie"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -193,9 +205,12 @@
     "end": 1038.65,
     "speaker_raw": "SPEAKER_06",
     "testo": "sto aspettando che succeda qualcosa perché poi lo devo dire un po' in giro va bene Calabresi è occupato? va bene se è occupato partiamo o andiamo su scuola? ragazzi lo chiamiamo Calabresi dopo anche perché poi di Scola ne parlerà anche Linus così c'è un po' di tempo di distacco ma guarda che oggi non ci sono le competizioni lui è il capo ma noi siamo più bravi la polizia rimane male allora facciamolo subito Ettore Scola mettiamo un bel pezzo e una bella canzone mettiamo un pezzo allora i film quello diciamo di cui si parlava sempre c'è anche un bellissimo film con Mastroianni e Troisi che ora è credo che si intitoli se non sbaglio dove Troisi è tutto un po' diciamo chiuso riservato invece Mastroianni che ha il senso di colpa di avere un po' trascurato il figlio gli compra la lancia tema se non sbaglio poi gli dice devi andare in America e Troisi un po' dice lasciami in pace nel mio mondo non tutti vogliamo fare soldi e carriera e successo Invece mettiamo un pezzo di Mastroianni nel famoso film scritto tra l'altro insieme a Maurizio Costanzo, perché dobbiamo anche ricordare questa fenomenologia di Maurizio Costanzo che ha scritto una canzone bellissima, se telefonando, un film stupendo e 40 anni di carriera, quindi complimenti anche a Maurizio Costanzo. Mettiamo un pezzo di questo film, una giornata particolare e poi una bella canzone.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Aspettando Calabresi",
+    "tema": [
+      "tempo",
+      "attesa"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -232,9 +247,12 @@
     "end": 1170.16,
     "speaker_raw": "SPEAKER_05",
     "testo": "Perché dovrei farlo? Non c'è ragione per farlo. Non c'è ragione.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ragioni per fare qualcosa",
+    "tema": [
+      "ragione",
+      "azione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -304,9 +322,11 @@
     "end": 1471.41,
     "speaker_raw": "SPEAKER_06",
     "testo": "Su Ettore Scola o su Pink Floyd? No, in generale.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Riferimento a Pink Floyd",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -340,9 +360,11 @@
     "end": 1652.61,
     "speaker_raw": "SPEAKER_07",
     "testo": "Ciao! Musica Musica Ciao Ciao Ciao Ciao Musica I know when the hotline bling That can only mean one thing I know when the hotline bling That can only mean one thing No. fantastico bene ragazzi allora",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Citazione di Hotline Bling",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -604,9 +626,12 @@
     "end": 2491.45,
     "speaker_raw": "SPEAKER_02",
     "testo": "La seconda lettera è semplicemente LAX, quindi... Ed io ritornerò, la E che ritorna. Perché alla fine doveva essere solo l'ex che ritornano o gli ex che ritornano.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La seconda lettera è semplicemente LAX",
+    "tema": [
+      "amore",
+      "relazione"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -665,9 +690,12 @@
     "end": 2898.4,
     "speaker_raw": "SPEAKER_06",
     "testo": "allora ragazzi mi state scrivendo ci state scrivendo tutti i motivi per cui litigate è la puntata di venerdì mi raccomando tenetevi lì venerdì a bomba il ragazzo che aveva chiamato la mamma della compagna del liceo ha staccato noi avevamo detto all'inizio se non vuoi parlare con noi stacca o ha staccato sì ma io effettivamente mi vergognerei ma no vi vergognerei non è vero secondo me hai fatto una roba da adolescente devi anche capire che adolescente l'ormone ne fa da padrone come si dice esplodi ti scoppiano i fruncoli il corpo è tutto in esplosione fruncoli pisello gonfio la madonna lo butti giù e si tira su sembra Rocky 2 lo butti giù si tira su e non crolla mai capito che schifo che bei momenti poi si arriva alla mia età e dice se stasera forse faccio il ciulino sai che faccio oggi pomeriggio? una penica di mezz'ora che mi aiuta mi sostiene cosa mangio a cena che mi può dare una mano",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il ragazzo che aveva chiamato la mamma",
+    "tema": [
+      "relazione",
+      "vergogna"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   }
 ]
