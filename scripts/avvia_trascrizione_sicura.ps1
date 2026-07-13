@@ -6,8 +6,12 @@
 # USO (lancio manuale, doppio click o da terminale):
 #   powershell -ExecutionPolicy Bypass -File "scripts\avvia_trascrizione_sicura.ps1"
 # Parametri opzionali:
-#   -Cartella "D:\...\audio\2015"   (default: 2016)
-#   -Da 20160120                     (default: riprende da dove si e' fermato, salta le date gia' fatte)
+#   -Cartella "D:\...\audio\2015"   (default: cartella di rete NAS \\192.168.8.80\Media\ilvolo-audio-backup\2016,
+#                                    dove vive la maggior parte del corpus; la copia locale D:\Docs\...\2016 resta
+#                                    ma non e' piu' il default)
+#   -Da 20160101                     (default: copre tutto il 2016 da inizio anno; le date gia' fatte
+#                                      si riconoscono comunque dall'mp3 spostato in gia_trascritti/,
+#                                      non serve alzare -Da per saltarle)
 #   -Limit 1                         (default: 1 = UNA puntata a lancio, poi si ferma da solo e avvisa;
 #                                      metti 0 per elaborare tutte le puntate rimanenti in un colpo solo)
 #
@@ -31,8 +35,8 @@
 # script, resta attivo comunque).
 
 param(
-    [string]$Cartella = "D:\Docs\il_volo_del_mattino\Volo del mattino\audio\2016",
-    [string]$Da = "20160120",
+    [string]$Cartella = "\\192.168.8.80\Media\ilvolo-audio-backup\2016",
+    [string]$Da = "20160101",
     [int]$Limit = 1
 )
 

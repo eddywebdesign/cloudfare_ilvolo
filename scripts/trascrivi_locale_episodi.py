@@ -195,6 +195,22 @@ def classifica_frammenti(frammenti: list[dict]) -> None:
             time.sleep(CLASSIFY_SLEEP)
 
 
+def _archivia_mp3(mp3: Path) -> None:
+    """Sposta l'mp3 appena completato in 'gia_trascritti/' dentro la stessa cartella:
+    cosi' basta guardare la cartella per capire a colpo d'occhio cosa manca ancora,
+    senza dover controllare data/frammenti/ o chiedere. Se la cartella di destinazione
+    ha gia' un file con lo stesso nome (es. doppio lancio), non sovrascrive: lascia
+    l'mp3 dov'e'."""
+    dest_dir = mp3.parent / "gia_trascritti"
+    dest_dir.mkdir(exist_ok=True)
+    dest = dest_dir / mp3.name
+    if dest.exists():
+        print(f"  (gia' presente in gia_trascritti/, non sposto: {mp3.name})")
+        return
+    mp3.rename(dest)
+    print(f"  mp3 spostato in gia_trascritti/{mp3.name}")
+
+
 def parse_data(filename: str) -> str | None:
     m = re.search(r'(\d{4})(\d{2})(\d{2})', filename)
     if m:
@@ -283,6 +299,7 @@ def main() -> None:
         if args.skip_classify:
             print("  --skip-classify: nessuna chiamata Groq/Cerebras qui (budget condiviso per account, "
                   "non per macchina). Frammenti grezzi pronti per riclassifica_frammenti.py centrale.")
+            _archivia_mp3(mp3)
             print(f"  [{data_str}] completato.\n")
             continue
 
@@ -323,6 +340,7 @@ def main() -> None:
             dest_trascr.unlink()
             print("  JSON grezzo cancellato dal mini PC (frammenti gia' al sicuro)")
 
+        _archivia_mp3(mp3)
         print(f"  [{data_str}] completato.\n")
 
         # pausa di raffreddamento dopo il carico CPU di WhisperX, non dopo l'ultimo della lista
