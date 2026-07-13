@@ -4,21 +4,50 @@
 #
 # Uso: python3 scripts/linux/sensori_temp.py [filtro_testo]
 #      senza argomenti stampa tutte le temperature disponibili
-#      python3 scripts/linux/sensori_temp.py --loop N [csv_path]
+#      python3 scripts/linux/sensori_temp.py --loop N [csv_path] [--kill-cpu SOGLIA]
 #      registra la temperatura CPU pacchetto ogni N secondi in un CSV
 #      (timestamp,cpu_package_c,distanza_tjmax_c,throttling), stesso formato
 #      del CSV prodotto su Windows da hwinfo_temp.py.
+#      Con --kill-cpu SOGLIA: se la CPU resta >= SOGLIA per KILL_CONSECUTIVE letture
+#      di fila, termina trascrivi_locale_episodi.py + whisperx e scrive
+#      logs/OVERHEAT_STOP.flag — stesso meccanismo di hwinfo_temp.py (Windows),
+#      QUI ANCORA PIU' IMPORTANTE: il K16 gira headless, senza nessuno che guarda
+#      un popup o un terminale.
 
 import csv
 import datetime
 import os
 import sys
 import time
+from pathlib import Path
 
 import psutil
 
 TJMAX_DEFAULT = 100.0  # soglia tipica Ryzen mobile; distanza = TJMAX - temperatura attuale
 THROTTLE_SOGLIA_C = 95.0  # coerente con la soglia di throttling osservata su Windows
+
+KILL_CONSECUTIVE = 2  # stessa soglia/logica di hwinfo_temp.py, per coerenza cross-piattaforma
+ALARM_FLAG = Path("logs/OVERHEAT_STOP.flag")
+
+
+def _termina_trascrizione() -> list[str]:
+    """Uccide prima whisperx (libera subito la CPU), poi trascrivi_locale_episodi.py
+    (evita che passi all'episodio successivo). Stesso criterio di check_batch_health.py."""
+    import psutil as _psutil
+    uccisi = []
+    for pattern in ("whisperx", "trascrivi_locale_episodi"):
+        for p in _psutil.process_iter(["pid", "cmdline"]):
+            try:
+                cmdline = " ".join(p.info["cmdline"] or [])
+            except (_psutil.NoSuchProcess, _psutil.AccessDenied):
+                continue
+            if pattern in cmdline:
+                try:
+                    p.kill()
+                    uccisi.append(f"{pattern} (PID {p.pid})")
+                except (_psutil.NoSuchProcess, _psutil.AccessDenied):
+                    pass
+    return uccisi
 
 
 def leggi_sensori(filtro=None):
@@ -51,13 +80,16 @@ def temperatura_cpu_package():
     return None
 
 
-def loop_log(intervallo_sec, csv_path):
+def loop_log(intervallo_sec, csv_path, kill_cpu_threshold=None):
     nuovo = not os.path.exists(csv_path)
+    consecutivi_pericolo = 0
     with open(csv_path, "a", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
         if nuovo:
             writer.writerow(["timestamp", "cpu_package_c", "distanza_tjmax_c", "throttling"])
         print(f"Log termico ogni {intervallo_sec}s -> {csv_path} (Ctrl+C per fermare)")
+        if kill_cpu_threshold is not None:
+            print(f"Soglia di emergenza attiva: {kill_cpu_threshold}C per {KILL_CONSECUTIVE} letture consecutive")
         while True:
             cpu = temperatura_cpu_package()
             dist = (TJMAX_DEFAULT - cpu) if cpu is not None else None
@@ -66,14 +98,37 @@ def loop_log(intervallo_sec, csv_path):
             writer.writerow([ts, cpu, dist, throttling])
             f.flush()
             print(f"{ts}  CPU: {cpu} C  throttling: {throttling}")
+
+            if kill_cpu_threshold is not None and cpu is not None:
+                if cpu >= kill_cpu_threshold:
+                    consecutivi_pericolo += 1
+                else:
+                    consecutivi_pericolo = 0
+                if consecutivi_pericolo >= KILL_CONSECUTIVE:
+                    print(f"ALLARME TEMPERATURA: CPU a {cpu}C >= {kill_cpu_threshold}C per "
+                          f"{KILL_CONSECUTIVE} letture di fila. Fermo la trascrizione.")
+                    uccisi = _termina_trascrizione()
+                    ALARM_FLAG.parent.mkdir(parents=True, exist_ok=True)
+                    ALARM_FLAG.write_text(
+                        f"{ts} CPU a {cpu}C >= soglia {kill_cpu_threshold}C. Processi terminati: "
+                        f"{', '.join(uccisi) if uccisi else 'nessuno trovato'}\n",
+                        encoding="utf-8",
+                    )
+                    return
             time.sleep(intervallo_sec)
 
 
 if __name__ == "__main__":
     if len(sys.argv) > 1 and sys.argv[1] == "--loop":
-        intervallo = int(sys.argv[2]) if len(sys.argv) > 2 else 60
-        csv_path = sys.argv[3] if len(sys.argv) > 3 else "logs/trascrizioni_log_termico.csv"
-        loop_log(intervallo, csv_path)
+        resto = sys.argv[2:]
+        kill_cpu = None
+        if "--kill-cpu" in resto:
+            i = resto.index("--kill-cpu")
+            kill_cpu = float(resto[i + 1])
+            del resto[i:i + 2]
+        intervallo = int(resto[0]) if len(resto) > 0 else 60
+        csv_path = resto[1] if len(resto) > 1 else "logs/trascrizioni_log_termico.csv"
+        loop_log(intervallo, csv_path, kill_cpu_threshold=kill_cpu)
     else:
         filtro = sys.argv[1] if len(sys.argv) > 1 else None
         for chip, label, valore, unit in leggi_sensori(filtro):
