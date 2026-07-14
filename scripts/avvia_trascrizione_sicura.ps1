@@ -37,7 +37,9 @@
 param(
     [string]$Cartella = "\\192.168.8.80\Media\ilvolo-audio-backup\2016",
     [string]$Da = "20160101",
-    [int]$Limit = 1
+    [int]$Limit = 1,
+    [int]$Threads = 4,
+    [switch]$SkipClassify
 )
 
 $Repo = "D:\Download\CLAUDE FOLDER\ilvolodelmattino"
@@ -99,9 +101,11 @@ $exitCode = 1
 try {
     $limitArgs = @()
     if ($Limit -gt 0) { $limitArgs = @("--limit", "$Limit") }
+    $extraArgs = @("--threads", "$Threads")
+    if ($SkipClassify) { $extraArgs += "--skip-classify" }
     $puntataMsg = if ($Limit -eq 1) { "UNA puntata" } elseif ($Limit -gt 1) { "$Limit puntate" } else { "TUTTE le puntate rimanenti" }
-    Write-Host "`n=== Avvio trascrizione: $puntataMsg da $Cartella (da $Da) ===`n"
-    python scripts\trascrivi_locale_episodi.py "$Cartella" --da $Da @limitArgs
+    Write-Host "`n=== Avvio trascrizione: $puntataMsg da $Cartella (da $Da, $Threads thread$(if($SkipClassify){', skip-classify'})) ===`n"
+    python scripts\trascrivi_locale_episodi.py "$Cartella" --da $Da @limitArgs @extraArgs
     $exitCode = $LASTEXITCODE
     Write-Host "`n=== Trascrizione terminata, codice uscita: $exitCode ===`n"
 }
