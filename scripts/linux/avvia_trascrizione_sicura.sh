@@ -34,15 +34,22 @@ cd "$REPO"
 ROOT="${1:-${ILVOLO_AUDIO_ROOT:-/mnt/ilvolo-audio-backup}}"
 DA="20160101"
 LIMIT=0
+SKIP_CLASSIFY=0
 
 shift || true
 while [[ $# -gt 0 ]]; do
   case "$1" in
     --da) DA="$2"; shift 2 ;;
     --limit) LIMIT="$2"; shift 2 ;;
+    --skip-classify) SKIP_CLASSIFY=1; shift ;;
     *) shift ;;
   esac
 done
+
+EXTRA_ARGS=()
+if [[ "$SKIP_CLASSIFY" -eq 1 ]]; then
+  EXTRA_ARGS+=(--skip-classify)
+fi
 
 mkdir -p logs
 
@@ -76,7 +83,7 @@ for anno_dir in "$ROOT"/*/; do
   [[ "$anno" =~ ^[0-9]{4}$ ]] || continue  # salta sottocartelle che non sono un anno
 
   echo "=== Cartella $anno ($anno_dir) ===" | tee -a logs/ultima_esecuzione.log
-  python3 scripts/trascrivi_locale_episodi.py "$anno_dir" --da "$DA" --limit "$LIMIT" --threads 8
+  python3 scripts/trascrivi_locale_episodi.py "$anno_dir" --da "$DA" --limit "$LIMIT" --threads 8 "${EXTRA_ARGS[@]}"
   EXIT_CODE=$?
 
   if [[ -f logs/OVERHEAT_STOP.flag ]]; then
