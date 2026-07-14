@@ -19,23 +19,29 @@ mkdir -p logs
 
 ts() { date --iso-8601=seconds; }
 
-# Pull prima di committare: il portatile scrive sugli stessi file (classificazione),
-# --rebase evita merge commit inutili su un repo di soli dati.
+# Committa PRIMA di pullare (mai lasciare file nuovi/modificati non tracciati che
+# bloccherebbero il pull --rebase con "hai modifiche non salvate" — successo il
+# 2026-07-14 per un banale chmod +x mai committato).
+git add data/trascrizioni data/frammenti logs/trascrizioni_log_termico.csv 2>/dev/null
+
+if ! git diff --cached --quiet; then
+  N=$(git diff --cached --name-only | wc -l)
+  git commit -m "Autocommit K16: batch trascrizione ($N file)" --quiet
+else
+  N=0
+fi
+
 git pull --rebase --quiet 2>>"$LOG"
 if [[ $? -ne 0 ]]; then
-  echo "$(ts) ERRORE: git pull --rebase fallito, salto questo giro (probabile conflitto, va risolto a mano)." | tee -a "$LOG"
+  echo "$(ts) ERRORE: git pull --rebase fallito, salto il push (probabile conflitto vero, va risolto a mano)." | tee -a "$LOG"
   exit 1
 fi
 
-git add data/trascrizioni data/frammenti logs/trascrizioni_log_termico.csv 2>/dev/null
-
-if git diff --cached --quiet; then
+if [[ "$N" -eq 0 ]]; then
   echo "$(ts) Nessuna modifica da committare." >> "$LOG"
   exit 0
 fi
 
-N=$(git diff --cached --name-only | wc -l)
-git commit -m "Autocommit K16: batch trascrizione ($N file)" --quiet
 if git push --quiet 2>>"$LOG"; then
   echo "$(ts) Committati e pushati $N file." | tee -a "$LOG"
 else
