@@ -842,9 +842,12 @@
     "end": 2836.48,
     "speaker_raw": "SPEAKER_01",
     "testo": "No, no, consiglio agli ascoltatori trovarsi un anima non gemella.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "trovarsi un'anima non gemella",
+    "tema": [
+      "amore",
+      "relazione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -853,9 +856,12 @@
     "end": 2892.52,
     "speaker_raw": "SPEAKER_03",
     "testo": "Non gemella. Allora, Maurizio fa dei segni, non so se dietro di me sta atterrando un jumbo, perché fai così con le braccia, sta entrando un aereo dalla finestra? No, purtroppo dobbiamo parlare. è finito il programma ok noi ci risentiamo poi se puoi la settimana prossima magari troviamo un altro tema ne hai un milione quelli che piacciono a me soprattutto vorrei fare Igor Sibaldi Igor Sibaldi vogliamo dire qualcosa vuoi salutare a casa saluto tutti dare i compiti volevamo dare i compiti allora il compito era una lista di 105 desideri sì per domani per domani Vediamo, allora facciamo così, ragazzi appena avete tempo anche in ufficio, quelli lì che si annoiano, state attenti che adesso vi licenziano però, insomma così bastano due o tre? Tre. Igor dice due o tre, io direi cercate di arrivare a venti perché è lo sforzo che fa anche capire quali sono quelli importanti. Ma c'è due o tre è tanto. Va bene, grazie Igor, grazie a voi.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Igor Sibaldi",
+    "tema": [
+      "libro",
+      "autore"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   }
 ]

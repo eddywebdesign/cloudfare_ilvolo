@@ -5,9 +5,12 @@
     "end": 65.05,
     "speaker_raw": "SPEAKER_05",
     "testo": "tra poco il volo del mattino con Fabio Volo I know it's been a week I know it's not been long but I'm already past the point of no return I got you on a loop I got you in my head a chemical reaction a flashback to your bed waiting for your call I can feel my body shaking Ciao!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Flashback a te",
+    "tema": [
+      "amore",
+      "paura"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -128,9 +131,12 @@
     "end": 497.22,
     "speaker_raw": "SPEAKER_10",
     "testo": "no no no no no gente anche nel mio mestiere gente proprio che siccome li conosco sono finti come la gioconda che c'è capito tutta quella finta bontà così mi innervosisce perché vorrei gridare invece allora oggi questo è il mio livello come siete curiosi Allora, vi ho portato un disco questa mattina che non avete mai sentito probabilmente a Radio DJ, perché insomma è sfuggito, però mette la serenità di una giornata di festa, se sei d'accordo. Cosa devo mettere? Ah no, vuoi mettere l'altro? Eh, lo metto. Vabbè, allora partiamo con un classicone. Eh sì. Vai, vai, vai. L'avete già riconosciuta?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Disco inedito",
+    "tema": [
+      "musica",
+      "serenità"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -163,9 +169,12 @@
     "end": 720.1,
     "speaker_raw": "SPEAKER_01",
     "testo": "Mi ha mandato un messaggio Rudy Zerbi, coscritto... ...di quelli che silenziano, ci sono quelli che tolgono la spunta blu da WhatsApp per non far vedere quando hanno letto i messaggi.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Rudy Zerbi e WhatsApp",
+    "tema": [
+      "comunicazione",
+      "amicizia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -285,9 +294,12 @@
     "end": 1340.93,
     "speaker_raw": "SPEAKER_10",
     "testo": "Le fettuccine le fate con il ragù anche quelle?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Fettuccine e ragù",
+    "tema": [
+      "cucina",
+      "semplicità"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -486,9 +498,12 @@
     "end": 1640.67,
     "speaker_raw": "SPEAKER_10",
     "testo": "volevo anche salutare un mio amico americano che ci sta ascoltando da New York anche se non capisce niente di italiano colfuso? colfuso ci ascolta lo stesso ti sto ascoltando non capisco niente ma ti sto ascoltando ok allora ho messo questa viola questa base ho messo questa base per viola",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ascoltare musica da New York",
+    "tema": [
+      "musica",
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -508,9 +523,12 @@
     "end": 1704.16,
     "speaker_raw": "SPEAKER_10",
     "testo": "È bella, eh? È bella, sì. Fa star bene, fa star bene. va bene allora adesso fra poco no adesso abbiamo fatto così rilassati siamo rilassati adesso nella seconda mezz'ora vi faccio sentire una cosa che vi spezza il cuore no basta una cosa bellissima proprio non mi spezzare no al massimo te lo metto te lo metto insieme vai mettimi insieme il cuore ti metto insieme il cuore è difficile vi faccio sentire una cosa di una bellezza oh un giorno faremo una bella chiacchierata sulla differenza tra essere poveri e morti di fame si può essere morti di fame anche con molti soldi",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Cosa che spezza il cuore",
+    "tema": [
+      "amore",
+      "cuore"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -530,9 +548,12 @@
     "end": 1894.21,
     "speaker_raw": "SPEAKER_10",
     "testo": "di farvi sentire questa cosa molto bella che è una bella cosa da come dire da ricordare da ricordare per l'anno nuovo non so se avete fatto i buoni propositi adesso noi diciamo che la prima puntata del volo di mattino è domani mattino oggi siamo qui un po' a intrattenervi così perché non siete nel traffico vi state facendo i fatti vostri state facendo bollire il ragù non vi vogliamo disturbare più di tanto diciamo Quindi poi dovremmo fare i buoni propositi, io non so se voi lo fate tutti gli anni, io faccio i due fogli a cui do fuoco, non sai che faccio questa cosa?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Buoni propositi per l'anno nuovo",
+    "tema": [
+      "nuovo",
+      "propositi"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -634,9 +655,12 @@
     "end": 2082.06,
     "speaker_raw": "SPEAKER_10",
     "testo": "Scusami, ma tu li fai col tram, scusami. Vabbè, ok, quindi già le due fettine sono diventate due fettine più una crostatina, che secondo me c'è qualcos'altro oltre alla crostatina, di la verità, Angelo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La dieta del figlio",
+    "tema": [
+      "genitori",
+      "dieta"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -667,9 +691,12 @@
     "end": 2100.49,
     "speaker_raw": "SPEAKER_09",
     "testo": "Sì, alla fine avevo la fame, se c'era qualcun altro mi mangiavo, se c'era qualche persona mi stava mangiando la persona.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La fame e la persona",
+    "tema": [
+      "fame",
+      "persona"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -722,9 +749,12 @@
     "end": 2195.58,
     "speaker_raw": "SPEAKER_12",
     "testo": "Milano bella, ti devi immaginare che giù c'era brutto tempo, giù quella settimana che sono rimasto su. E' uscito il sole all'improvviso non appena è atterrato l'aereo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Sole all'atterraggio dell'aereo",
+    "tema": [
+      "viaggio",
+      "sorpresa"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -744,9 +774,12 @@
     "end": 2217.19,
     "speaker_raw": "SPEAKER_12",
     "testo": "Infatti una ragazza che noi abbiamo avuto modo di conoscere, una cameriera, una di quelle però sfacciate, mi ha detto ma cosa mi hai portato dalla Sicilia? Il sole. Il sole, più di questo cosa vuoi?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il sole portato dalla siciliana",
+    "tema": [
+      "sole",
+      "cultura"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -965,9 +998,12 @@
     "end": 3121.31,
     "speaker_raw": "SPEAKER_15",
     "testo": "Un po' più di verdure, un po' meno di tutto.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Verdure e salute",
+    "tema": [
+      "salute",
+      "alimentazione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -1015,9 +1051,12 @@
     "end": 3146.0,
     "speaker_raw": "SPEAKER_16",
     "testo": "Ma è comunale o è lusso?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Bagni pubblici e prezzo",
+    "tema": [
+      "prezzo",
+      "bagni"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -1026,9 +1065,12 @@
     "end": 3190.5,
     "speaker_raw": "SPEAKER_10",
     "testo": "No, no, no, paghi. Paghi pochissimo, tra l'altro. Ok, quindi non è così dannoso. Per loro è una cosa normalissima, vanno quasi tutti i giorni. La cosa bella è che fuori, quando fa proprio freddo freddo, ti si ghiaccia l'acqua sulla testa, sulle ciglia. Però tutto il corpo dentro nel caldo, no? Poi qui domani sarebbe da fare un'altra cosa. il fatto che ti devi lavare prima di entrare invece da noi non capiscono come mai noi non siamo obbligati a lavarci col sapone prima di entrare in piscina no col sapone no adesso domani facciamo magari raccontiamo un po' questa cosa ma la cosa bella è che quando io vedo questo tempo da italiano dico oggi divano no? e invece loro usciamo e dico ma dove andiamo? e invece i bambini si divertono sei dentro dell'acqua? finito dobbiamo chiudere",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Bagni pubblici e comfort",
+    "tema": [
+      "comodità",
+      "bagni"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   }
 ]

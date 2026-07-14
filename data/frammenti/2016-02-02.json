@@ -118,9 +118,11 @@
     "end": 510.57,
     "speaker_raw": "SPEAKER_05",
     "testo": "Quando sono arrivato mi ha detto... Sono arrivato questa mattina qui in studio, ragazzi, e Maurizio diceva Madonna mia, sta cosa che mi manca. Che è che ti manca dei Rollins?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Citazione a Madonna",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -129,9 +131,11 @@
     "end": 514.9,
     "speaker_raw": "SPEAKER_04",
     "testo": "A me ne manca... No, allora, ho tre Darth Maulings. E io ho detto, ma che cosa sono i Rollins?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Riferimento a Darth Maul",
+    "tema": [
+      "star wars"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -343,9 +347,12 @@
     "end": 1229.6,
     "speaker_raw": "SPEAKER_09",
     "testo": "I just need a reason why should I change me to be like you I just need a reason why should I fall just like a fool I just need a reason should I let you control my mind What will you get from me ma no Ciao Ciao",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "I just need a reason",
+    "tema": [
+      "amore",
+      "dubbio"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -365,9 +372,12 @@
     "end": 1323.27,
     "speaker_raw": "SPEAKER_09",
     "testo": "can you save me all that I can say is can you save me all that I can say is can you save me save me I don't wanna fall asleep I can anybody I can anybody save me save me",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Can you save me",
+    "tema": [
+      "amore",
+      "aiuto"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -412,9 +422,12 @@
     "end": 1646.66,
     "speaker_raw": "SPEAKER_08",
     "testo": "Non finirà mai Perché non finirà Non finirà mai Perché non finirà Non finirà mai Perché non finirà Non finirà mai Perché non finirà Non finirà Produciamo nuove contaminazioni Fukushima, Nagasaki e Murura e vaccini ed olocausti e paradossi tartaruga e il re Che non finirà, non finirà la playstation 2",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Non finirà mai",
+    "tema": [
+      "musica",
+      "critica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -423,9 +436,12 @@
     "end": 1688.78,
     "speaker_raw": "SPEAKER_05",
     "testo": "Posso dire che il nome, diciamo, non si addice alla loro bravura, nel senso che nel mondo della musica si dice anche del cinema, no? Lei è una cane, vuole un cane, a cantare un cane. Non si chiamano i cani, invece sono proprio bravi.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il nome non si addice",
+    "tema": [
+      "musica",
+      "critica"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -434,9 +450,12 @@
     "end": 1695.99,
     "speaker_raw": "SPEAKER_07",
     "testo": "Bravissimi, non finirà. In realtà è uno. Eh? È uno. I cani. Che si chiama Niccolò Contessa, che ha questo progetto.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il progetto i cani",
+    "tema": [
+      "musica",
+      "creatività"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -503,9 +522,12 @@
     "end": 1907.6,
     "speaker_raw": "SPEAKER_01",
     "testo": "Il liocorno è un animale mitico non si studia più la mitologia e quindi nessuno sa che esistono gli ocorni ma gli ocorni è un animale che soprattutto nel medioevo nel vestiario medievale era molto di moda e infatti quando noi facemmo uno spettacolo con il gruppo Zafra, dico noi perché ne facevo parte abbiamo fatto tutte le immagini di un vestiario medievale in cui c'erano i liocorni ma ancora non c'erano anche non c'erano più i liocorni ma lei viene da una famiglia di musicisti perché io so che suo padre suonava con mascagni mio padre ha suonato con molti era violinista di preferenza suonava la viola però era violinista la viola che è la ragazza che è qui con noi che è qui con noi che si è sentita me le suonava di brutto me le suonava di brutto vieni qua viola era una persona molto unica bene lui ha suonato con con Cidea con Mascagni con Tanti della musica lei cosa fa signora nella vita? musica del novecento cosa fa lei nella vita?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il liocorno",
+    "tema": [
+      "mitologia",
+      "storia"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {

@@ -266,9 +266,12 @@
     "end": 968.35,
     "speaker_raw": "SPEAKER_12",
     "testo": "il mio è 42 giorni attacco, denaro a parte dovebbero arrivare dei soldi e c'era stata un'ascoltatrice che gli era arrivato qualcosa non mi ricordo se aveva vinto un platte di vini scienza ciao Fabio questa cosa te la dissi anche quando venisti a teatro a Messina ma non la cogliesti ma ve la ridico adesso voi avete fatto tanto per noi ascoltatori allora io vi dico cosa posso fare io per voi",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Vincere un premio",
+    "tema": [
+      "fortuna",
+      "premi"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -277,9 +280,12 @@
     "end": 980.48,
     "speaker_raw": "SPEAKER_13",
     "testo": "Nico Marabello non chiedetevi visto che la settimana prossima vengo in Sicilia allora io come va la ricerca del rudere? in Sicilia?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ricerca del rudere",
+    "tema": [
+      "archeologia",
+      "avventura"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -299,9 +305,12 @@
     "end": 1036.24,
     "speaker_raw": "SPEAKER_06",
     "testo": "offrire il tuo corpo in pasto non ho finito il mio compito buongiorno Fabio, Viola e Maurizio oggi vi ascolto in diretta ho tante puntate da recuperare Perché mi ascolterò al mattino con le strade deserte mentre vado al lavoro. Però oggi volevo ascoltarvi in diretta. Mi mancherete? Ciao, di Trento.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ascoltare in diretta",
+    "tema": [
+      "ascolto",
+      "condivisione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -402,9 +411,12 @@
     "end": 1381.32,
     "speaker_raw": "SPEAKER_05",
     "testo": "Quelli che ormai non credono più a niente, li fregano sempre.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Non credere a niente",
+    "tema": [
+      "credibilità",
+      "sincerità"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -413,9 +425,12 @@
     "end": 1467.87,
     "speaker_raw": "SPEAKER_02",
     "testo": "siamo solo noi l'anemonio e la santità è lo stesso basta che ci sia posto siamo solo noi e facciamo colazione anche con un toast e il resto siamo solo noi quelli che non hanno voglia di far niente rubano solamente",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Siamo solo noi",
+    "tema": [
+      "solitudine",
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -800,9 +815,12 @@
     "end": 2417.58,
     "speaker_raw": "SPEAKER_05",
     "testo": "Eh beh signori, il momento elettronico di Maurizio Rossoio. E Jerry! This is the last goodbye, faccia di merda! Ciao! grazie a tutti Grazie. Did you rush to the phone to call Was there a voice on call In the back of your mind Saying maybe You didn't know him at all You didn't know him at all You didn't know You didn't know",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ultimo addio",
+    "tema": [
+      "amore",
+      "perdita"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -811,9 +829,12 @@
     "end": 2464.97,
     "speaker_raw": "SPEAKER_15",
     "testo": "da cosa si capisce che noi col nostro pubblico e il nostro pubblico con noi ha un bel rapporto e una bella confidenza non tanto perché diciamo ragazzi ciao vi vogliamo bene ma perché diciamo faccia di merda agli ascoltatori ah pane al pane no come gli amici ah faccia di merda come stai tra amici invece quando non si ha confidenza non gli puoi dire faccia di merda a noi anche faccia di merda ragazzi",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Confidenza con l'ascoltatore",
+    "tema": [
+      "amici",
+      "confidenza"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -833,9 +854,12 @@
     "end": 2515.76,
     "speaker_raw": "SPEAKER_15",
     "testo": "Sei dotto e abbandonato, maledetto tuo, maledetto. Allora, caro ascoltatore, se tu mi dici dove sei, io da lunedì, che sono... Io vengo a prenderti. Io da lunedì ho solo il libro, non vedo l'ora a... e quello lì è un lavoro che puoi fare dove vuoi, quando vuoi quindi mi prendo il mio van mi prendo il mio van mi dici dove sei, sai un cortile, un giardinetto una roba, io vengo lì e ci beviamo un caffè e poi mi lasci le mie orette per meditare guarda che questa è una buona idea di business Vengo io da voi, invece che, capito, avete un giardinetto, ma mi serve, siccome il mio van non ha il bagno, mi serve un cespuglietto, oppure che mi fate entrare in casa, però puoi andare a casa di uno che non conosci solo per cagare e vai via.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Promessa di aiuto",
+    "tema": [
+      "aiuto",
+      "amicizia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -855,9 +879,12 @@
     "end": 2585.12,
     "speaker_raw": "SPEAKER_15",
     "testo": "Capito, ma non sei mai entrato neanche a dire ciao, come state, ci vuole la mattina le ore. Io dopo sono anche uno preciso dopo il caffè. Col beauty. Col beauty, lascio una mano sulla spalla e le ciabatte. Ciao, mi chiamo Fabio Volo, se vengo a cagare un attimo a casa tua. Dopo ti firmo Se lasciate il rossetto in bagno Scrivo sullo specchio Benvenuto Fabio Voluno sai quando Viola ci scriveva Elvis Presley ha dormito qui hai capito che c'è Marilyn Monroe ha alloggiato qui la targa esatto ragazzi per una notte poi dopo però nel palazzo potete scrivere a fianco al campanello qui a Cagò Cagò che è sempre più bello Fabio ciao sono Elisa da Siracusa ti cercherò una bella picciottetta nel frattempo tu mi puoi scrivere una lista di libri da fare leggere a mio figlio di 16 anni grazie allora caro ascoltatrice intanto sei in uno dei posti dove vengo col van è uno dei posti più belli del mondo devo andare a trovare degli amici in zona dove ha detto? Ragusa Siracusa o Ragusa?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Visita a casa di un amico",
+    "tema": [
+      "amicizia",
+      "ospitalità"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -891,9 +918,12 @@
     "end": 2647.29,
     "speaker_raw": "SPEAKER_13",
     "testo": "Quindi Fabio Volo precettore, dal prossimo anno prendi gli studenti e proprio come un Socrate, come una, tiri fuori da loro.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'importanza dell'ascolto",
+    "tema": [
+      "ascolto",
+      "impegno"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -902,9 +932,12 @@
     "end": 2674.5,
     "speaker_raw": "SPEAKER_15",
     "testo": "Voi non avete idea quanto sarei bravo a farlo, sai perché? Perché non sono un professore, perché vengo dal basso non dall'alto, quindi mi ascoltano a me. Pane al pane. Intanto entrai subito con un cannone e fai tu... ragazzi, allora, c'è un'idea fantastica no, c'è già un'idea a leggere i libri per 20 euro fammi sapere, ciao, un bacio cari ascoltatori se leggete un libro per 20 euro abbiamo finito Maurizio? fammi dire ciao alla fine della stagione",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'efficacia dell'ascolto",
+    "tema": [
+      "ascolto",
+      "efficacia"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   }
 ]

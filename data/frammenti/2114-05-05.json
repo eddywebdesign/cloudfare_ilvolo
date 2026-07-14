@@ -243,9 +243,12 @@
     "end": 1207.26,
     "speaker_raw": "SPEAKER_01",
     "testo": "perché da una soddisfazione intanto vabbè ammetto di un po' dipendente appena arrivavo a casa la prima cosa scendevo il computer quello tutti ci siamo andati dentro tutte queste cose qua allora mi ci sono tolto e improvvisamente ho iniziato a leggere tantissimi libri tantissimi libri guarda perché",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Leggere libri",
+    "tema": [
+      "lettura",
+      "libri"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -329,9 +332,12 @@
     "end": 1666.75,
     "speaker_raw": "SPEAKER_05",
     "testo": "come avevamo immaginato Maurizio qualcuno prende pause dagli amanti che tanto la moglie non la lascerà mai ecco Misa come scrivo io nel mio ultimo libro l'hai letto Maurizio? certo che l'hai letto ma che te lo fa fare di essere la terza gamba per te nessun'altra famiglia ma perché?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Terza gamba",
+    "tema": [
+      "famiglia",
+      "amanti"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -340,9 +346,12 @@
     "end": 1843.86,
     "speaker_raw": "SPEAKER_07",
     "testo": "quando cammino su queste dannate nuvole vedo le cose che sfuggono dalla mia mente niente dura niente dura e questo lo sai però non ti ci abitui mai quando cammino in questa valle di lacrime vedo che tutto si deve abbandonare niente dura niente dura e questo lo sai però non ti ci abitui mai chissà perché quando mi sento di dire la verità sono confuso non sono sicuro quando mi viene in mente che non esiste niente però tu continuerai chissà perché quando mi viene in mente che non esiste niente solo del fumo niente di vero niente dura niente dura e questo lo sai però tu non ti arrenderai chissà perché",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Niente dura",
+    "tema": [
+      "tempo",
+      "paura"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -362,9 +371,12 @@
     "end": 2120.84,
     "speaker_raw": "SPEAKER_06",
     "testo": "sciazzamatevi o segnatevi questa canzone la canzone è un tè nel Sahara con te immagina di bere un tè nel deserto ecco sei tranquillo sei sempre più tranquillo ora immagina uno schermo uno schermo cinematografico che si apre e si dilata davanti a te in cui proietti un posto che ami Concentrati sul respiro. Così aiuti il corpo a rilassarsi e a sentirsi in pace. Non cambiare il ritmo del respiro. Devi solo lasciarlo andare e venire. Andare e venire. Adesso sei lì. Guarda bene i dettagli.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Tè nel Sahara",
+    "tema": [
+      "relax",
+      "pace"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -384,9 +396,12 @@
     "end": 2145.61,
     "speaker_raw": "SPEAKER_06",
     "testo": "E il calore, senti il calore. Permetti a questa immagine serena di impadronirsi di te. La sensazione di pace è infinita.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Calore",
+    "tema": [
+      "relax",
+      "pace"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {

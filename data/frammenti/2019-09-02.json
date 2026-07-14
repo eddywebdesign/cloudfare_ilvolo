@@ -306,9 +306,11 @@
     "end": 956.52,
     "speaker_raw": "SPEAKER_19",
     "testo": "Dove era? Cosa dici? Tony Dall'Ari? C'è, c'è. È lì in mezzo. C'è. Mi aspettavo una stropetta.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Tony Dall'Ari",
+    "tema": [
+      "letteratura"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -317,9 +319,11 @@
     "end": 1100.79,
     "speaker_raw": "SPEAKER_15",
     "testo": "Ma con la voce di Rega l'ha schiacciato, no? E Rega quando parla sembra sempre quelle rane qui, qui, qui. All'Una Park dove devi buttare le palline dentro. C'ha sta apertura. E' Angelo. bene ragazzi allora sembrava Albano più che Cinelli no è buono è buono allora forse abbiamo un'ascoltatrice Leonora che poi ha anche l'emozione di chiamare il primo ascoltatore che apre la cosa per adesso non abbiamo ancora detto niente infatti un ascoltatore scrive noto che dopo tutti questi mesi la solita confusione è riapparsa ma esiste davvero questo messaggio? rispondo eh certo c'è già anche il nostro amico Davide di Jesolo che dice sbrocca insomma ci sono tutti il nostro camionista ha già scritto tutti allora la nostra ascoltatrice Leonora ci fa notare che ha un'amica che fa la postina nei paesini sperduti sull'Etna ok beh lì ti ricorda subito Troisi il postino di Neruda quella potrebbe essere un'ascoltatrice interessante da lanciare ah quindi l'amica no la postina eh beh la postina sull'Etna la postina con cosa andrà a piedi si può andare in bici non lo so quello potrebbe essere interessante va bene ragazzi adesso mentre mettiamo il disco decidiamo chi sarà di voi il primo abbiamo la ruota tipo 100 la cerco ok mettiamo un po' di numeri il primo che ci deve dire qualcosa di interessante una cosa che ho notato tornando da questo viaggio ovviamente prima di fare la radio cari ascoltatori ho detto sentiamo un po' come sono gli altri programmi una cosa che faccio ogni tanto per sentire io non so se a voi cari ascoltatori di Radio DJ vi sono arrivati dei soldi alla fine del mese vi è arrivata una busta paga avete la CIA quello che ho notato non di Radio DJ delle radio in generale è che i programmi ormai a differenza di quando facevano ti vengono a prendere i programmi ormai vi fanno i messaggi degli ascoltatori ma non l'ascoltatore che chiami e sviluppi quello che lui dice proprio ciao sono Paola sto andando in palestra in bicicletta ciao Paola ciao Paola l'ascoltatrice vuole sentirsi al centro del discorso sono Antonio ho appena fatto un bel piatto di pasta grande Antonio allora ragazzi la vorreste anche voi un piatto di pasta allora fatevi dare i soldi vuol dire vai in onda Almeno uno sbattimento di leggere due cose che hai studiato durante il giorno. Ho studiato, ho studiato. Se no può venire mia mamma a leggere i messaggi degli ascoltatori.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Angelo Rega",
+    "tema": [
+      "letteratura"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -328,9 +332,11 @@
     "end": 1102.85,
     "speaker_raw": "SPEAKER_19",
     "testo": "Guarda che potrebbe essere una rubrica della Madonna.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Madonna",
+    "tema": [
+      "letteratura"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -386,9 +392,12 @@
     "end": 1439.96,
     "speaker_raw": "SPEAKER_15",
     "testo": "che non si è oh ragazzi mi fate una cortesia per quest'anno quando mandate i messaggi vi firmate perché a me piace proprio dire il vostro nome male ciao sono Elena da Pavia ho mangiato la pizza ok grazie Elena telefonate diteci che pizza vi piace Ma guarda che è pazzesco, ma in macchina ho cambiato e tutte le radio più o meno è così. C'è appena arrivato un bel messaggio da Luca che ha parcheggiato la bici. Poi con questa base. allora ragazzi, pazzesco quanto siete in grado di cambiare una mattina dice un ascoltatore, oggi ci troviamo un po' in censata, a parte che lo facciamo sempre, che siamo degli sfigati comunque, no siamo degli sfigati ma questo plurale beh perché uno respira l'energia che ha attorno se voi siete così io sono una spugna se voi siete arroganti comunque ragazzi posso dire la novità è questa Maurizio l'ho visto qualche giorno fa Viola non era a Milano, è arrivata ieri sera perché era a Venezia sul tappeto rosso per il suo nuovo film ma avete visto tutti no? ma Viola è tornata e ha il trigemito quindi fa male il trigemito se lei entra e fa tre volte lo diciamo perché gli ascoltatori ci saranno già passati non solo ci avranno anche sicuramente delle soluzioni potete dire come si può salvare che Viola ha una mano sul collo da quando sono arrivato prima la sciarpa perché mi ha detto che ha il trigemito perché mi fa caldo nel resto del corpo ma sento che ho bisogno il freddo sul collo ma quello viene anche magari da stress non lo so è tutto stress ho tutto comunque stamattina hanno riaperto la farmacia qua vicino che era chiusa zio prete le farmacie sono sempre chiuse ad agosto salutiamoli salutiamo e a un certo punto entro perché io non so se voi lo fate ma per me l'inizio dell'anno è settembre non è gennaio certamente E quindi adesso non ci vogliamo bombare di vitamine, cose, papaya fermentata. Dobbiamo fare la puntata tutti gli anni, la facciamo. Qual è la vostra cosa che vi dà l'illusione che vivremo per sempre?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "messaggio da Luca",
+    "tema": [
+      "amicizia",
+      "pazienza"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -458,9 +467,12 @@
     "end": 1515.18,
     "speaker_raw": "SPEAKER_14",
     "testo": "c'era anche un vecchietto che è tornato e ha detto oh li ho comprati ieri ma sono difettati si piegano bella giornata funesta",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "vecchietto e copri scarpa",
+    "tema": [
+      "vecchiaia",
+      "fallimento"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -648,9 +660,12 @@
     "end": 1976.89,
     "speaker_raw": "SPEAKER_15",
     "testo": "non è scontato non è scontato li mandano a Brescia comunque gioia vivi a Londra noi siamo il programma da sempre da tanti anni che da sette anni ti accompagnano a piedi a Londra al lavoro che è un'ora indietro ma scusami ma tu vai a piedi a Londra cioè praticamente d'inverno te lo fai colombo cioè piove sempre la mattina",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La Brexit",
+    "tema": [
+      "politica",
+      "europea"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -659,9 +674,12 @@
     "end": 1989.16,
     "speaker_raw": "SPEAKER_18",
     "testo": "Allora, non sempre, però cammino anche d'inverno perché preferirei camminare un pochino che prendere i mezzi. E quindi ho scaricato l'app e mi è scolto il radio DJ il volo del mattino.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Preferire camminare",
+    "tema": [
+      "salute",
+      "ambiente"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -706,9 +724,12 @@
     "end": 2053.81,
     "speaker_raw": "SPEAKER_14",
     "testo": "e il marito gli ha detto sì Abbiamo appena aperto un'app e lui ha detto, caso mi metto in un ufficio con l'aria condizionata. Sì, siamo collegati con Google, roba figa. Vieni con me, metti del costumino. Metti del costumino. Ecco, vai dentro un attimo. Oggi ci sono Medusa. va bene Gioia dove sei Gioia? non è a Londra? no ma come zona?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'ufficio con l'aria condizionata",
+    "tema": [
+      "lavoro",
+      "umore"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -728,9 +749,12 @@
     "end": 2103.35,
     "speaker_raw": "SPEAKER_15",
     "testo": "io sono responsabile del visual merchandising per un'azienda inglese di moto vuoi farti dei bagnetti per l'app delle meduse brava Gioia ti salutiamo un abbraccio grazie scusate non c'è quella no no aspetta abbiamo detto che non chiamavamo gli ascoltatori se non hanno un motivo adesso pian pianino i motivi li tiriamo fuori però una scritto sono nuda nella vasca che mi faccio lo scrub perché ti conosci no ho pensato agli ascoltatori maschi che vengono da una vacanza magari con i figli un po' stanchi così comunque l'idea di una che si dà delle grattate",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Le meduse",
+    "tema": [
+      "musica",
+      "immaginazione"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -750,9 +774,12 @@
     "end": 2133.3,
     "speaker_raw": "SPEAKER_15",
     "testo": "no aspetta te lo devi fare prendi il caffè della moca dopo che hai fatto il caffè e il filtrino lì così quello lì lo prendi nella vasca o nella vasca meglio la doccia ti bagni un po' e ti fai lo scrub con quel caffè lì perché c'è l'olio del caffè e poi ti toglie è fighissimo ti toglie la pelle morbida e poi essendo il caffè entra nella pelle tu esci dalla vasca tu esci dalla doccia",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il caffè della moca",
+    "tema": [
+      "musica",
+      "benessere"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {

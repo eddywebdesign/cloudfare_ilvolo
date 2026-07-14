@@ -60,9 +60,12 @@
     "end": 250.94,
     "speaker_raw": "SPEAKER_14",
     "testo": "Senti, abbiamo degli ascoltatori che vanno a Cuba, scusa me lo faccio fare a Nicola, Nicola mi apri la stampa, ecco lì, Salone del Libro, ecco lì quella pagina lì, al Salone del Libro di Torino. Ah, Salone del Libro di Torino? Mi puoi leggere sotto la luce?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Salone del Libro di Torino",
+    "tema": [
+      "libri",
+      "cultura"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -126,9 +129,12 @@
     "end": 322.4,
     "speaker_raw": "SPEAKER_14",
     "testo": "Scusami, Maurizio non vuole più venire perché nella sala a fianco c'è Brunetta. Ma perché vuole andare a fare la musica a Brunetta? Perché Brunetta insieme a Cazzullo, insomma tutta gente che noi conosciamo, ha chiesto a Maurizio vieni a metterci la bagno. Sai che Brunetta a differenza... A differenza mia che entro sul palco da star perché sono un megalomane, lui sta sulla porta. Ah sì? Brunetta, man mano entrano, lui li ferma tutti e gli dice benvenuto, perché lui poi è un politico e bravo, e fa questa domanda a tutti. Quanto guadagni? Quanto guadagni? Quanto guadagni? In base a quanto guadagni ti do il posto a sedere. Quanto guadagni? Va bene, cosa fai?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Brunetta e Maurizio",
+    "tema": [
+      "umorismo",
+      "relazioni"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -170,9 +176,12 @@
     "end": 415.83,
     "speaker_raw": "SPEAKER_13",
     "testo": "e il cuore va risposto questo è mal d'amore per guarirci sono al mente un modo vuoi sapere vuoi sapere come si fa si fa spesso chiodo scaccia chiodo e riprovi la felicità Quanto vuoi dare? Quanto vuoi dare? Quanto vuoi dare? Quanto vuoi dare? Quanto vuoi dare? E' svegliato! Qualcuno scrive, Nicola rimani qui! E se ancora ci vai? E se quasi, quasi!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Mal d'amore",
+    "tema": [
+      "musica",
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -423,9 +432,12 @@
     "end": 909.82,
     "speaker_raw": "SPEAKER_09",
     "testo": "Allora, apriamo domani con una grande festa a cui sono tutti invitati, non servono inviti, non ci sono VIP lounge, non ci sono separene, niente.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "A morte la casta",
+    "tema": [
+      "uguaglianza",
+      "democrazia"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -467,9 +479,12 @@
     "end": 1012.22,
     "speaker_raw": "SPEAKER_09",
     "testo": "c'è un'altra cosa a cui ci tengo a dire ci saranno anche i tre super chef Andrea Bertone, Carlo Cracco e Davide Oldani che per l'occasione hanno fatto a titolo gratuito a scopo di beneficenza un piatto che si chiama risata colorata ed è il classico riso giallo ave milanese però con dei sapori da Icon al Carri",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Risata colorata",
+    "tema": [
+      "cibo",
+      "beneficenza"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -533,9 +548,12 @@
     "end": 1383.61,
     "speaker_raw": "SPEAKER_14",
     "testo": "c'è così empatia tra noi del volo del mattino e i nostri ascoltatori nel nostro rapporto con le persone perché manifesta diciamo la nostra relazione con il mondo noi richiamiamo sentiamo come è andata a finire ci prendiamo proprio cura di quelli che ci chiamano sono proprio persone noi siamo quelli che salutiamo con il nome ciao Paolo ciao ma capito a parte che quando ti presenti non te lo ricordi mai dopo ogni tanto passa del tempo e dici se è troppo tardi di chiedere se gli richiedo il nome allora devi andare da uno come è che smetto che si che sono dei momenti di imbarazzo ma noi c'è così empatia che potremmo fare il programma e dire siamo qua e senza parlare lasciando il silenzio le persone capirebbero quello che vogliamo dire perché tanto non capiscono anche quando parliamo mettiamola così quindi il livello sarebbe comunque uguale se tu adesso io voglio dire una cosa senti Beh, non faceva ridere? Molto. Eh, non faceva ridere. Perché c'è questa magia, sì.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Empatia e relazione",
+    "tema": [
+      "empatia",
+      "relazione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -544,9 +562,12 @@
     "end": 1397.24,
     "speaker_raw": "SPEAKER_08",
     "testo": "C'è gente che non ha bisogno di parlare per capirsi. Le parole a volte sono inutili. Si può parlare anche stando zitti. È perché mi rompi i coglioni. Ma allora, vabbè.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Le parole inutili",
+    "tema": [
+      "parole",
+      "comunicazione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -610,9 +631,12 @@
     "end": 1914.45,
     "speaker_raw": "SPEAKER_02",
     "testo": "Ciao mamma. And you come to me on a summer breeze keep me warm in your love and then softly leave Grazie a tutti.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ciao mamma e brezza estiva",
+    "tema": [
+      "amore",
+      "famiglia"
+    ],
+    "tipo": "lettura_volo",
     "video_url": ""
   },
   {
@@ -643,9 +667,12 @@
     "end": 2193.75,
     "speaker_raw": "SPEAKER_14",
     "testo": "Sono arrivati come sempre, è la nostra soddisfazione, no? Quando ci scrivono che piangono, si commuovono. Dov'è un programma del mattino, la radio, che ogni tanto buttiamo lì... Adesso eravamo indecisi, 9.44, se fare un'altra telefonata o se fare il momento elettronico, siccome qualcuno ci ha scritto che ultimamente non lo fate più, abbiamo fatto questo momento poesia Henry De Luca con una canzone How Deep Is Your Love dei Bee Gees, ma in questa versione di The Bird and the Bee, ce l'avevamo lì nella nostra cartella dalla prima puntata, non l'abbiamo mai messa, questa era l'occasione buona. Allora, ringraziamo e salutiamo tanto tutti gli ascoltatori che ci hanno mandato messaggi di sono commossa, ho pianto e bla bla bla bla bla. È il momento elettronico? Abbiamo una bella sequenza? Allora, fermi tutti. O se siete in macchina, telefono, per adesso non rispondete. In ufficio, se avete la fortuna di avere il vostro ufficio, solo vostro, chiudetevi dentro. Ok? È il momento di saltare sulle sedie. Non hai mai letto tu un racconto, Maurizio? Vabbè. Allora, inizio e fai quella faccia come dire cosa c'entra. La cariola di Pirandello l'hai mai letta? Sì. Vabbè, ma che c***o. Tu l'hai letto? Vabbè, niente. Tu l'hai letto? Sì, l'ho letto. Perché mi rompi i coglioni allora. Era per dirti, vabbè. Momento elettronico, stiamo zitti. Vai, pompa, pompa, pompa. Alzo le cuffie, dove sono? Quanto guadagni? C'è anche lui. Sul cubo? C'è Brunetta sul cubo che bada? Quanto guadagni? Me lo vedo con un bollerino, gilet bollerino, torso nudo, che tira su le braccia e poi punta col dito e... Quanto guadagni?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Momento poesia Henry De Luca",
+    "tema": [
+      "poesia",
+      "musica"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {

@@ -126,9 +126,12 @@
     "end": 383.5,
     "speaker_raw": "SPEAKER_11",
     "testo": "Vai, iniziamo. Suppongo che a questo punto dovrò dirle cosa ho imparato. La conclusione, giusto? Beh, la mia conclusione è che l'odio è una palla al piede. La vita è troppo breve per passarla sempre arrabbiati. Non ne vale la pena.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "vita breve, non arrabbiati",
+    "tema": [
+      "vita",
+      "arrabbiati"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -533,9 +536,12 @@
     "end": 1861.3,
     "speaker_raw": "SPEAKER_02",
     "testo": "Ma guarda che meraviglia il Messico. Senti, allora ti insegno solo questa parola se non sai lo spagnolo. Una cerveza. Ok, che è una birra e algo para picar. Quando tu impari questa frase sei a posto per gli aperitivi. Qualcosa da spiluccare, no?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La birra messicana",
+    "tema": [
+      "alcol",
+      "aperitivo"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -588,9 +594,12 @@
     "end": 2148.73,
     "speaker_raw": "SPEAKER_08",
     "testo": "i nachos no? L'amore passato, l'amore osservato, perché perdere la vita? Grazie a tutti Grazie Grazie a tutti. a presto",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'amore osservato",
+    "tema": [
+      "amore",
+      "perdita"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -599,9 +608,12 @@
     "end": 2247.46,
     "speaker_raw": "SPEAKER_02",
     "testo": "Era tanto che non sentivo un pezzo dei Calexico. Hanno fatto dei... Non c'entra niente col Mexico, ma l'abbiamo messo perché faceva rima. Calexico, Mexico... Quante canzoni conosci con la parola Mexico? Mexico. C'è quella di Vasco Rossi, vado al massimo, vado in Mexico, vado a guffi e vede. Poi c'è Mexico e nuvole, la faccia triste dell'America. C'è bellissima di Jimi Hendrix e i Joe. lui praticamente va a casa trova la fidanzata a letto con un altro, apria la pistola ammazza tutti e scappa in Messico perché sai che il Messico per gli Stati Uniti è un po' anche quella cosa lì appena fai qualcosa di losco scappi in Messico va bene ma parliamo oggi di vita di voglia di vivere, cose belle della vita ciao Vito, a proposito di vita è entrato Vito parlavamo di vita è entrato Vito come stai Vito? ah perché c'è le cuffie stavo dicendo un problema di vita di saper vivere, hai detto vita è entrato Vito sai che in Puglia ci sono delle donne che purtroppo si chiamano Vita di nome, cioè la femminia è di Vito veramente? Vita è bello però come nome no? come ti chiami?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Calexico e il Messico",
+    "tema": [
+      "musica",
+      "Messico"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -610,9 +622,12 @@
     "end": 2248.92,
     "speaker_raw": "SPEAKER_10",
     "testo": "Vita secondo te Vito è bello?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La vita è bella",
+    "tema": [
+      "vita",
+      "felicità"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -654,9 +669,13 @@
     "end": 2362.72,
     "speaker_raw": "SPEAKER_12",
     "testo": "Sentirsi vivi non è solo fare le cose bene, essere efficienti nel lavoro, brillanti nella società, eleganti negli eventi. Sentirsi vivi è rinunciare agli atteggiamenti di facciata e lasciare che chi ci ama conosca di noi la sostanza e questa non è fatta solo di sorriso incondizionato. ma anche di momenti di debolezza, malinconia, paura, riflessione. Le emozioni sono come i colori, infinite tonalità, tutte essenziali per non sentirsi incompleti. Allora provaci, prova a vivere davvero, lasciati conoscere. Non sei un computer che deve elaborare una manciata di bit per far sì che l'interfaccia sia sempre comprensibile e coerente. Sei una persona e con tutti i limiti umani che ne derivano. Comprenderai bene che la parola perfezione non può essere che pura utopia. Non mirare la perfezione, punta alla serenità.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Sentirsi vivi oltre le apparenze",
+    "tema": [
+      "vita",
+      "emozioni",
+      "autenticità"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
