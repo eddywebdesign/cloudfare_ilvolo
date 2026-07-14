@@ -672,9 +672,12 @@
     "end": 2336.34,
     "speaker_raw": "SPEAKER_11",
     "testo": "Ricordati questa frase che troverai anche nel mio libro nuovo, che non è mia ovviamente come tutte le frasi che trovate nel mio libro nuovo. Ricordi questa frase. Il diavolo. Conosce il tuo nome, ma ti chiamerà sempre per i tuoi difetti e i tuoi peccati. E chi l'ha detto? Dio conosce i tuoi difetti e i tuoi peccati, ma ti chiamerà sempre col tuo nome. E chi è? Cheat? Cheat? Chi? I soldi sono lo sterco del diavolo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il diavolo e i tuoi difetti",
+    "tema": [
+      "amore",
+      "peccati"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -777,9 +780,12 @@
     "end": 2660.9,
     "speaker_raw": "SPEAKER_11",
     "testo": "Nella mia testa c'è la festa della Repubblica. Morco Giuda, siamo un popolo con delle persone straordinarie, belline, e te fai sfilare i cararmati, i droni. Ma perché mi devi rappresentare la guerra di un paese, le armi? C'è l'esercito, va benissimo, ci serve, ci serve. Va bene che ce l'abbiamo perché bisogna essere in difesa, preparati alla guerra se vuoi la pace, quelle menate lì. ma figa la festa della Repubblica stiamo lì a guardare i droni ma fammi vedere i panettieri fammi vedere i salumieri allora ragazzi io super fan di Gheo addirittura quando posso mi guardo anche aspettando Gheo",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La guerra e la pace",
+    "tema": [
+      "pace",
+      "guerra"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -788,9 +794,11 @@
     "end": 2667.86,
     "speaker_raw": "SPEAKER_08",
     "testo": "Quando ci sono le edizioni speciali, cose dell'altro Gheo, mi guardo anche quelle.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Edizioni speciali di Gheo",
+    "tema": [
+      "libri"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {

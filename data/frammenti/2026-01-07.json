@@ -49,9 +49,12 @@
     "end": 355.31,
     "speaker_raw": "SPEAKER_08",
     "testo": "Tre croniri di casale. Perché solo nel silenzio...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Tre cronici di Casale",
+    "tema": [
+      "libro",
+      "poesia"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -60,9 +63,12 @@
     "end": 395.08,
     "speaker_raw": "SPEAKER_11",
     "testo": "sul volto tuo non devi cercare spasmodicamente felicità questo è proprio è proprio il classico delle relazioni uno si fa in quattro fa tutto poi sbaglia una volta viene crocifisso a quell'errore per tutto è crocifisso per tutta la vita uno viene ricordato solo per le cose che ti ha fatto di male non per tutto il bene quali sono i tuoi obiettivi?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Non cercare felicità",
+    "tema": [
+      "relazioni",
+      "felicità"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -71,9 +77,12 @@
     "end": 398.53,
     "speaker_raw": "SPEAKER_02",
     "testo": "La vita spesso è un casino, gli obiettini sembrano lontanissimi.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La vita è un casino",
+    "tema": [
+      "vita",
+      "paura"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -129,9 +138,12 @@
     "end": 738.32,
     "speaker_raw": "SPEAKER_11",
     "testo": "Fisicamente sì, fisicamente non sono mai stato così in forma. Cioè, sono scolpito, sono scolpito. Ma scolpito dagli stenti o dalle allenamenti? Dalla vita, dalla vita, dalla vita. La vita mi ha messo sotto, mi ha messo sotto. Mille messaggi.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La vita è dura",
+    "tema": [
+      "vita",
+      "stenti"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -151,9 +163,12 @@
     "end": 752.29,
     "speaker_raw": "SPEAKER_10",
     "testo": "e non agire spasmodicamente ma restare in silenzio guarda che merda ancora lì siete un giorno Fabio ma sei conciatissimo figa obiettivo 2026 zero uomini assolutamente",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Restare in silenzio",
+    "tema": [
+      "silenzio",
+      "azione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -687,9 +702,12 @@
     "end": 2192.88,
     "speaker_raw": "SPEAKER_10",
     "testo": "Di solito si dice così, è un designer esordiente.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Designer esordiente",
+    "tema": [
+      "lavoro",
+      "carriera"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -698,9 +716,12 @@
     "end": 2200.45,
     "speaker_raw": "SPEAKER_11",
     "testo": "Io sono esordiente in tutto, adesso torno anche in tv e sono esordiente, sono molto nuovo, la strategia del vai e torna, sei sempre nuovo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Strategia del vai e torna",
+    "tema": [
+      "lavoro",
+      "carriera"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -709,9 +730,12 @@
     "end": 2204.53,
     "speaker_raw": "SPEAKER_10",
     "testo": "Ho un miliardo di messaggi. Intanto sul progetto Rudere.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Progetto Rudere",
+    "tema": [
+      "ambiente",
+      "conservazione"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -731,9 +755,12 @@
     "end": 2254.85,
     "speaker_raw": "SPEAKER_11",
     "testo": "12 posti letto ma chi li conosce? io ho 12 persone che voglio portare lì non le conosco se volevo dirvi una cosa lo dico cari ascoltatori il progetto casa è svanito il mio progetto casa è diciamo nella natura aspetta è stato introdotto il progetto grotta e caverna cioè io non voglio più una casa io voglio una grotta dove mi faccio il fuoco voglio star là hai progetto Platone Progetto Platone con orso davanti all'ingresso della porta. Non venderti la pelle dell'orso.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Progetto grotta e caverna",
+    "tema": [
+      "natura",
+      "esistenza"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -742,9 +769,12 @@
     "end": 2264.84,
     "speaker_raw": "SPEAKER_15",
     "testo": "Ho una casa in Ligura con un grandissimo pezzo di terreno e pure una montagna. Tipo 40.000 metri. Troppi, troppi. E voi te la vendo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Progetto Platone",
+    "tema": [
+      "filosofia",
+      "esistenza"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -753,9 +783,12 @@
     "end": 2284.84,
     "speaker_raw": "SPEAKER_11",
     "testo": "C'è una grotta nei 40.000 metri di terra? 40.000 metri di terra Madonna ragazzi, mi sento quando l'Ulisse dice a Polifemo che gli chiede chi sei e dice nessuno, nessuno basta, basta, nessuno Buongiorno a tutti ragazzi",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ulisse e Polifemo",
+    "tema": [
+      "mitologia",
+      "identità"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {

@@ -60,9 +60,12 @@
     "end": 359.82,
     "speaker_raw": "SPEAKER_06",
     "testo": "Last night she said she loved me What a pity to part I slept with both eyes open Waiting for today to start Good morning life Good morning world How are you happiness Good morning world I knew what living can be Oh oh oh Oh it's life It's free It's someone waiting for me It's all that gave my life Good morning life",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Good morning life",
+    "tema": [
+      "vita",
+      "gioia"
+    ],
+    "tipo": "lettura_volo",
     "video_url": ""
   },
   {
@@ -196,9 +199,11 @@
     "end": 1011.46,
     "speaker_raw": "SPEAKER_03",
     "testo": "Police 1981 dovevamo chiamare il nostro esperto di musica ma siamo già in ritardo comunque era per dire il nostro esperto di musica ci ha detto questa mattina che Sting se ne andrà con Peter Gabler in tournée per il mondo e quindi per noi amanti della musica siamo molto contenti senta Igor sentiti lo del tuo ovviamente è possibile non avere desideri scrive una ragazza la mail è un po' lunga ma ti dico solo questo lei dice io ho tutta una vita anche abbastanza incasinata ma non ho desideri mi va bene così com'è la mail è bellissima complimenti a quella signora lì sono una donna di 41 anni intelligente, curiosa, elettrice a canita due figli, un matrimonio fallito alle spalle una vita incasinata ma è la vita che voglio vivere Ma non ho desideri, nemmeno quelli più semplici, forse perché li ho pagati tutti, dice. È una poesia? È una poesia. Maurizio ci fa un libro adesso, lui fa libri di poesie. No, questa è una lirica giapponese bella. Allora, ho conosciuto Igor e le tecniche dei desideri da un anno circa e mi sta cambiando la vita, grazie Igor. Quali sono queste tecniche, diciamo, maestri invisibili, qualcuno qua cita, qualcuno dice invece tecniche del desiderio.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Sting tour with Peter Gabriel",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -371,9 +376,12 @@
     "end": 1640.18,
     "speaker_raw": "SPEAKER_03",
     "testo": "durante il giorno passeggiando così mi entra hello di Adele nella testa e vado avanti a canticchiarla tutto il giorno hello così c'è una versione se vi interessa su internet di una ragazzina avrà 12 anni jamaicana l'avete vista?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Hello di Adele",
+    "tema": [
+      "musica",
+      "canzone"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -454,9 +462,12 @@
     "end": 1909.83,
     "speaker_raw": "SPEAKER_01",
     "testo": "sono tutte le grandi storie d'amore e salvare la principessa dal drago dal drago cioè l'archetipo del drago del drago della torre lei è bloccata nella torre c'è il drago che la tiene e l'uomo la deve salvare o viceversa la storia di San Giorgio San Giorgio è il soldato che arriva a un certo punto in un paese questa è la leggenda di San Giorgio e trova una principessa che non può sposarsi perché ha un drago San Giorgio arriva e uccide il drago e lei si sposa non con San Giorgio con un altro e questa è la storia che sta proponendo la signorina perché dice come faccio a tirar fuori qualcuno dalla sua comfort zone diventa San Giorgio",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Storie d'amore e salvare la principessa",
+    "tema": [
+      "amore",
+      "mitologia"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -465,9 +476,12 @@
     "end": 1939.74,
     "speaker_raw": "SPEAKER_03",
     "testo": "è una missione, è un'opera d'arte è un capolavoro che fai lì dove si schiantano tre quarti delle donne di solito, no? mo lo cambio, mo lo cambio, mo lo cambio certo, poi la caratteristica è che tu lo cambi e lui va via perché infatti non si sposa con San Giorgio i miti sono precisissimi tu lo cambi e lo prepari per quella dopo che è un classico anche di quello che a volte amanti e moglie, amanti e moglie a un certo punto lascia tutte e due e arriva la terza e lui è risollevato dalle cose",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La storia di San Giorgio",
+    "tema": [
+      "amore",
+      "mitologia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -476,9 +490,12 @@
     "end": 1954.66,
     "speaker_raw": "SPEAKER_01",
     "testo": "è interessante quel medio di San Giorgio perché la spiegazione psicologica è ovvia tu stai con una persona così com'è se la cambi anche a te non va più bene ma non va più bene neanche a te esatto esatto e anche lui sta con te perché lui è così",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La spiegazione psicologica",
+    "tema": [
+      "amore",
+      "relazioni"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -568,9 +585,12 @@
     "end": 2257.51,
     "speaker_raw": "SPEAKER_03",
     "testo": "Perché non si finisce mai. Non si finisce mai. Ah, la lingua? La lingua, la lingua.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Non si finisce mai",
+    "tema": [
+      "amore",
+      "relazioni"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -626,9 +646,12 @@
     "end": 2273.17,
     "speaker_raw": "SPEAKER_01",
     "testo": "Basta capire che parlano in un modo diverso da noi, perché è tutta una lingua completamente diversa. Noi abbiamo certi verbi, loro non hanno i verbi, hanno delle altre cose strane, praticamente.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La lingua diversa",
+    "tema": [
+      "lingua",
+      "cultura"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -760,9 +783,12 @@
     "end": 2710.19,
     "speaker_raw": "SPEAKER_01",
     "testo": "toccarsi la punta del naso come è uno c'è un modo per come dire esatto sì per togliere un po' di erbaccia andando in giro uno si guarda intorno e dice in realtà come i bambini i bambini dicono voglio questo voglio questo e hanno ragione uno si guarda intorno e dice ma a me cosa piace qua",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La domanda sul piacere",
+    "tema": [
+      "piacere",
+      "soddisfazione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

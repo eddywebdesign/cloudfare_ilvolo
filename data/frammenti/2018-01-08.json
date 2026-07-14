@@ -361,9 +361,12 @@
     "end": 1261.52,
     "speaker_raw": "SPEAKER_11",
     "testo": "Non lo so. So vuoi tre cose su Calcutta? Tre cose su Calcutta. Allora è di Roma.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Tre cose su Calcutta",
+    "tema": [
+      "viaggi",
+      "cultura"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -405,9 +408,12 @@
     "end": 1271.5,
     "speaker_raw": "SPEAKER_11",
     "testo": "Edo. E ha scritto l'ultima canzone di Francesca Michelin. Oh ok.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ultima canzone di Francesca Michelin",
+    "tema": [
+      "musica",
+      "canzoni"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -416,9 +422,12 @@
     "end": 1357.7,
     "speaker_raw": "SPEAKER_08",
     "testo": "Lo salutiamo sarà dormendo. se sei sveglio Calcutta ciao ciao no stavo ripensando alla barzelletta che mi ha detto prima ah perché quelli della mia generazione no no no scusate ho raccontato una barzelletta durante il disco allora volevo dire all'ascoltatrice che ha fatto il test di gravidanza scaduto che non esistono scrive Francesca una che ne sa non esistono test di gravidanza diciamo che danno risultato positivo anche se è scaduto cioè non esiste un falso positivo ok ok cioè quando un test di gravidanza dice Francesca dice che sei incinta sei incinta e quando dice che non sei incinta che potrebbe essere scaduto e quindi i reagenti non hanno reagito no? cioè i reagenti cioè il reagente dice oh c'è qualcuno ci fa la pipì addosso ahhh E uno si dice, reagisci, sono scaduto, sono scaduto. E non la voglia. Perché sono scaduto mi è uscito l'accento meridionale? Perché sono razzista adesso. Cioè se devo fare uno polloso sul divano che non fa niente, mi viene subito, non l'avrei mai detto, sono scaduto, sono scaduto, perché... sono scaduto quindi sei incinta questo è un buon inizio di anno e molti ascoltatori non hanno trovato il comportamento dello zio uno scarro perché non le ha preso i biglietti",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Francesca Michelin",
+    "tema": [
+      "musica",
+      "canzoni"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -482,9 +491,12 @@
     "end": 1652.96,
     "speaker_raw": "SPEAKER_08",
     "testo": "perché lì in Islanda ci si dà un bacio solo e quindi tu quando ci salutano sai le due guance lì loro si danno un bacio solo e quindi io poi mi sposto per dare il secondo e loro indietreggiano io faccio sempre questa figura sono appeso quando invece vado a Brescia se ne danno tre a Brescia quindi io faccio vado via si può fare una regola internazionale quanti ne vuoi? all'estero gli uomini non si baciano tanto come da noi cioè noi a volte è una roba quasi come i russi che si baciano in bocca per noi o gli albi per mano come per mano? anche gli indiani sapete che gli indiani il sabato per dire quando si fanno le vasche in città dove?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Baci internazionali",
+    "tema": [
+      "cultura",
+      "tradizioni"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -493,9 +505,12 @@
     "end": 1656.26,
     "speaker_raw": "SPEAKER_11",
     "testo": "a Calcutta che tra l'altro è di Latina e non di Roma",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Calcutta di Latina",
+    "tema": [
+      "cultura",
+      "viaggi"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -764,9 +779,11 @@
     "end": 2362.85,
     "speaker_raw": "SPEAKER_08",
     "testo": "Emotion, me la son cantata tutta. Forse non lo sai e deve iniziare il 2018. sono antichissimo Carlo da Monza che macchina hai? ho un Audi A4 ecco cavolo sei lì nella tua Audi A4 guarda Carlo ti faccio una domanda quando ti togli la maglietta si è inutile dire quello è gay ma non lo vuol dire c'è un modo solo per sapere di una persona se è gay o no quando ti togli la maglietta la sera davanti alla tua donna Aspetta, fammi capire... Cioè tu vai giù basso con le mani, le incroci davanti all'ombelico, prendi i laterali e tiri su la maglietta. Ma non ti sfogliare.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Emotion",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -775,9 +792,12 @@
     "end": 2365.81,
     "speaker_raw": "SPEAKER_10",
     "testo": "Le incrocio, le incrocio, le incrocio. Eh, sei gay.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Carlo e l'Audi",
+    "tema": [
+      "gay",
+      "identità"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -786,9 +806,12 @@
     "end": 2399.17,
     "speaker_raw": "SPEAKER_08",
     "testo": "Dai, non lo fa nessuno. Il maschio vero fa i dorsali in palestra, poi fa così, va dietro, tira su. di trovare un uomo così ma si uscita solo con Ricchioni che non si dice nel 2018 allora Ricchioni non si dice anche Tony Dallara tira su così Tony Dallara come tira su le magliette ma chi? Tony Dallara lo fa con una mano sola così e si toglie anche i pantaloni così lui da dietro vabbè niente non stava scherzando dove stai andando?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Tony Dallara",
+    "tema": [
+      "gay",
+      "identità"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -797,9 +820,12 @@
     "end": 2435.82,
     "speaker_raw": "SPEAKER_10",
     "testo": "ascolta sto tornando a Malpensa e praticamente mi stanno formando alla locale ma perché sei al telefono con noi? mi stanno formando alla locale ma perché sei al telefono con noi? Così dico che siamo a Radio DJ Ah ma perché eri al telefono No Mi hanno fermato adesso Guarda Ma scusa non avevi l'auricolare Sull'Audi c'è il viva voce Ma sull'Audi c'è il viva voce Sono su Radio DJ Eh sì infatti però siccome l'Audi Non era mia quindi Devo mettere giù",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Carlo e la polizia",
+    "tema": [
+      "polizia",
+      "multa"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -841,9 +867,12 @@
     "end": 2507.52,
     "speaker_raw": "SPEAKER_08",
     "testo": "ciao Fabio ma è un buon inizio di anno quant'è la multa per i punti poi adesso non è uscita una legge violentissima per chi usa il telefono via la patente vanno a casa ti portano via lo stereo ma io scusami ma io pensavo che a parte che l'Audi ha il viva voce ma non è la sua doveva impostare bluetooth ho capito ma cosa fai rispondi al telefono così usai la cuffietta con la cuffia si può infatti",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La multa e la patente",
+    "tema": [
+      "multa",
+      "patente"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -866,9 +895,12 @@
     "end": 2520.55,
     "speaker_raw": "SPEAKER_08",
     "testo": "No, ma va. Io in centro. Ma io lo so, c'è!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La multa e la responsabilità",
+    "tema": [
+      "responsabilità",
+      "conduzione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

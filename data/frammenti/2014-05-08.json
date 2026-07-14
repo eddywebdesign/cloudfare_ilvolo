@@ -317,9 +317,12 @@
     "end": 1291.9,
     "speaker_raw": "SPEAKER_03",
     "testo": "che merda che sei ma non è che Maurizio è diventato già spietato prima era tutto no no tutto discreto come ha letto il suo nome sul giornale è già diventato cattivo senti Orciuolo si chiami di cognome? ecco ok di dove sono originari i tuoi con questo da dove viene questo cognome da Gardaland da dove viene questo nome sei amica di Prezzemolino di Gardaland no io faccio tutte le domande che potevo scusami no è una domanda orciuolo no però dico i tuoi dove sono è una roba tipica e non è tipico della Puglia va bene senti Chiara ieri ti abbiamo chiamato perché in realtà ci ha dato il numero la Laura e non c'era un tema allora sembrava che non avessimo nulla da dirci quindi questa mattina ti abbiamo richiamato esatto uno deve stare attento alle cose che fa nella vita allora e siccome stamattina invece noi vogliamo ridarti una dignità non che ti chiamiamo solo perché ridi e c'hai la bella voce grazie ecco e ti volevo dire che degli scienziati dell'istituto di ricerca Scripps in California hanno creato un DNA espanso in cui sono state aggiunte due lettere artificiali la coppia XY alle quattro che compongono le basi dell'elica della vita l'hai letta questa cosa?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Maurizio diventa cattivo dopo lettura",
+    "tema": [
+      "personalità",
+      "lettura"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -383,9 +386,12 @@
     "end": 1612.23,
     "speaker_raw": "SPEAKER_03",
     "testo": "Allora abbiamo scoperto intanto che Chiara è bellissima, ciao Chiara che ci ascolti e anche la mamma, la mamma avrà spento dopo aver sentito la figlia, fa come mia mamma che ascolta solo il volo del mattino e poi accende quando inizio e spegne quando finisco. tua mamma fa così? mia nonna tua nonna ascolta solo il volo del mattino? diciamo che ognuno ha il suo salutiamo la tua nonna è tornato l'osso già abbronzato allora abbiamo degli ascoltatori scrivono tante belle cose appunto alcune su Chiara altri in generale ma la frase che Maurizio ripeteva ieri non la mettete oggi no Maurizio non la mettiamo oggi quella che dice le parolacce no non la mettere ti vedo che smanetti con la mano qualcuno dice ci fate sentire alle 3 di ripeto non è che possiamo fare la radio così a richiesta Non ho capito chi era Imoremotti, scusa ma mi piace molto, puoi dire il titolo del libro? Il titolo del libro adesso non me lo ricordo, adesso vado a vedere qualcosa con l'angelo, tipo Siamo Angeli, potrebbe essere così il titolo, una roba del genere. Però insomma è molto famoso, Radio DJ, noi lo portammo tantissimi anni fa, Bertallò l'ho messa di... l'ho messa... l'ho messa...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Mamma ascolta solo il volo del mattino",
+    "tema": [
+      "genitori",
+      "ascolto"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -394,9 +400,12 @@
     "end": 1624.56,
     "speaker_raw": "SPEAKER_14",
     "testo": "Cioè, scusami, tu hai venduto 5 milioni di libri e hai detto l'ho messa? Cioè, devi andare proprio a impastare il pane con i sedi con culo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "5 milioni di libri venduti",
+    "tema": [
+      "libri",
+      "successo"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -444,9 +453,12 @@
     "end": 1701.17,
     "speaker_raw": "SPEAKER_01",
     "testo": "Da quella Roma addormentata, da quella Roma puttanona, borghese, fascistoide, quella Roma del volemos e bene andiamo avanti, quella Roma delle pizzerie, delle latterie, dei sali e tabacchi, degli erbagi e frutta, quella Roma dei mostaccioli e caramelli, dei frutti, dei lupini, dei fritossi con la panna, senza panna, delle mosciarelle. Questo è un manifesto strepitoso. Comunque non è cambiata tanto quella Roma degli anni 50 da quella che ho visto ieri.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Roma puttanona, borghese, fascistoide",
+    "tema": [
+      "roma",
+      "società"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {

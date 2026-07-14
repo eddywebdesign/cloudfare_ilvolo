@@ -151,9 +151,12 @@
     "end": 550.78,
     "speaker_raw": "SPEAKER_10",
     "testo": "per dire che il nostro ascoltatore Luca che ci ha appena mandato un messaggio una riga di messaggio capisci che è meglio di noi 5.30 del mattino 12 chilometri e mezzo di corsa 7.40 figli a scuola 8.15 al lavoro ciao Luca bravissimo 5.30 è andato a farci 12 chilometri e mezzo di corsa che voglia No, per dire, capisci che l'ha sfangata meglio di noi nella vita, no? Mi sono svegliata, mi sono tagliata col coltello, la pelle sollevata. Ciao Alessandra, la pelle sollevata fa abbastanza... Ok, oggi è il compleanno di mio suocero, ciao. Buongiorno, faccio colazione con la tua faccia sulla copertina di TV Sorrisi e Canzoni.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Luca corre 12 km al mattino",
+    "tema": [
+      "corsa",
+      "impegno"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -486,9 +489,11 @@
     "end": 1926.68,
     "speaker_raw": "SPEAKER_09",
     "testo": "l'olio non lo devi dire lo devi dire alla fine Questo era lo sponsor. Cioè, non l'ha detto giusto. Ok. Allora, cosa è successo oggi? Allora, è successo che veniva pubblicata in questi giorni in America la canzone The Dock of the Bay, testo originario Dock of the Bay, che poi è resa famosa con Sitting in the Dock of the Bay di Otis Redding.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "canzone The Dock of the Bay",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -690,9 +695,12 @@
     "end": 2304.19,
     "speaker_raw": "SPEAKER_10",
     "testo": "Ok, funziona? adesso devo comprarmi le mandorle da mettere nel naso una la mangi due nel naso senti una cosa Caterina domani ci sarà Igor Sibaldi dovevamo fare una lista il gioco era fare una lista da 150 poi portarla a 101 esatto lui però prima di andar via giovedì scorso ha detto ragazzi va benissimo anche se ne portate tre che è già tanto desideri veri che vengono dalla pancia aspetta tu sei a 20 quanti nei fatti 21 come maurizio",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Igor Sibaldi e la lista",
+    "tema": [
+      "gioco",
+      "liste"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -712,9 +720,12 @@
     "end": 2316.24,
     "speaker_raw": "SPEAKER_10",
     "testo": "Posso dirti che 30 sei un supereroe. Guarda Maurizio come ci è rimasto male.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Maurizio e il controllo",
+    "tema": [
+      "errore",
+      "gioco"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -734,9 +745,12 @@
     "end": 2323.0,
     "speaker_raw": "SPEAKER_10",
     "testo": "Avresti dovuto vedere la faccia di Maurizio. Così ha fatto.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La faccia di Maurizio",
+    "tema": [
+      "errore",
+      "gioco"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -770,9 +784,12 @@
     "end": 2377.18,
     "speaker_raw": "SPEAKER_15",
     "testo": "guarda il sogno della mia vita andare a vivere al mare andare a vivere al mare? aspetta ma considera che io sono già ho 52 anni 52 anni che lavoro fai Caterina?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il sogno della vita",
+    "tema": [
+      "vita",
+      "sogno"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

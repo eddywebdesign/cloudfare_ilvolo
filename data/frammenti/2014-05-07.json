@@ -502,9 +502,12 @@
     "end": 1662.31,
     "speaker_raw": "SPEAKER_00",
     "testo": "E' una persona troppo intelligente per non sapere che ogni uomo ha un suo segreto inconfessabile Facciamo così Lei mi racconta il suo segreto inconfessabile il più recondito E io le racconto il mio Dove sei?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il segreto inconfessabile",
+    "tema": [
+      "secreto",
+      "intimità"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -535,9 +538,12 @@
     "end": 1706.99,
     "speaker_raw": "SPEAKER_12",
     "testo": "Cerco di capire il verso giusto, il giusto slancio per ripartire.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il verso giusto per ripartire",
+    "tema": [
+      "motivazione",
+      "rilancio"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -546,9 +552,13 @@
     "end": 1746.57,
     "speaker_raw": "SPEAKER_02",
     "testo": "Questa partenza è la mia fortuna, un orizzonte che si avvicina. Sotto il mio camion c'è la mia cucina, intanto aspetto, aspetto, aspetto. Che il fango liberi le mie ruote, che la pianura calmi la paura. Che il giorno liberi la nostra notte. insieme siamo tanti siamo distanti siamo fragili macchine che non osano andare più avanti siamo vicini ma completamente fermi siamo i famosi stanti divenuti eterni e continuare per questi pochi chilometri sempre pieni di stacoli e barattri da oltrepassare",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La partenza come fortuna",
+    "tema": [
+      "amore",
+      "paura",
+      "libertà"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -783,9 +793,12 @@
     "end": 2491.53,
     "speaker_raw": "SPEAKER_07",
     "testo": "Sì, sì. Tra l'altro lui è metà australiano, metà della propria nuova Guinea.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il marito metà australiano",
+    "tema": [
+      "amore",
+      "cultura"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -805,9 +818,12 @@
     "end": 2501.46,
     "speaker_raw": "SPEAKER_07",
     "testo": "Eh, beh, sono sposata. All'inizio, quando l'ho conosciuto, non ci capivo una mazza, infatti...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'importanza dell'ascolto",
+    "tema": [
+      "comunicazione",
+      "relazioni"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -838,9 +854,12 @@
     "end": 2541.78,
     "speaker_raw": "SPEAKER_11",
     "testo": "Alessandro ah l'hai fatto con il nome italiano brava lo ci tenevo nessuno riesce a pronunciarlo però perché lì lo chiamano Alexandro",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il nome del figlio",
+    "tema": [
+      "famiglia",
+      "cultura"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -849,9 +868,12 @@
     "end": 2568.04,
     "speaker_raw": "SPEAKER_07",
     "testo": "Alex o Alexandra Alex Alex Sedge come lo chiamano senti ma adesso che stai entrando nell'autunno non hai voglia di venire in Italia e farti una bella primavera estate qui a parte che io il 17 maggio parto e vengo lì che vengo sempre di vacanza e soli 6 settimane quante ore di volo? non vedevo l'ora quante ore di volo? 20-21 io volo poi gli scali e tutto insomma è un bel po' ma io non vedevo l'ora dell'inverno perché c'è sempre tanto",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Spank Me",
+    "tema": [
+      "musica",
+      "relazioni"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -915,9 +937,12 @@
     "end": 2814.59,
     "speaker_raw": "SPEAKER_07",
     "testo": "L'ho lasciato tutto, l'ho fatto finché sono partita, prima di partire, l'ho ancora avuto tutti gli appuntamenti e tutto, però poi ho detto, sai una cosa, mi sono stufato, l'ho lasciato tutto.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La decisione di lasciare",
+    "tema": [
+      "amore",
+      "decisioni"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -926,9 +951,12 @@
     "end": 2894.47,
     "speaker_raw": "SPEAKER_11",
     "testo": "Ma vabbè, ma scusami, ma ce lo dovevi dire subito che gli ascoltatori maschi in ascolto si gasano quando sanno queste notizie. va bene va bene comunque a Carpi hanno detto tu sei molto bella sono contento ma lo sanno loro le donne non lo sanno ma noi uomini vi dedichiamo dei pomeriggi anche se non vi conosciamo di persona basta vedervi passare un attimo e quell'immagine lì è nostra ciao ciao Monica ciao ciao ciao oh Maurizio si comunque noi ci chiamano modelle dall'Australia gente che lavora da Armani da Londra Ivano da Napoli che non lo caghiamo vabbè Qualcuno dice sono triste, ieri hai detto che sono le ultime due settimane del volo del mattino Eh sì Eh vabbè Sai che mi devo tagliare la barba per questo film nuovo? È uno shock dopo anni che ce l'hai Senza barba sembro Nemo, sai il pesce quello lì che io Ciao ragazzi a domani",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La reazione degli ascoltatori",
+    "tema": [
+      "relazioni",
+      "comunicazione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   }
 ]

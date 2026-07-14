@@ -578,9 +578,12 @@
     "end": 2362.2,
     "speaker_raw": "SPEAKER_10",
     "testo": "Avete scritto un libro insieme? Già, che adesso c'è anche un libro in uscita, quindi a quattro c'è scritto Vigor Simaldi e Welling. No, era un altro. Ah, ok, ok. Qual è scritto col tuo gatto? Il tuo al di là personale. Il tuo al di là personale?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "il libro del gatto",
+    "tema": [
+      "libro",
+      "gatto"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -625,9 +628,12 @@
     "end": 2618.62,
     "speaker_raw": "SPEAKER_10",
     "testo": "un ascoltatore di Roma scrive ma abbiamo deciso di diventare il programma più bello della radiofonia mondiale vedi?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "il programma più bello",
+    "tema": [
+      "programma",
+      "radio"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -647,9 +653,12 @@
     "end": 2751.93,
     "speaker_raw": "SPEAKER_10",
     "testo": "ipotecato per i contenuti il volume d'oro non ce lo toglie nessuno il volume d'oro no scherzo ti lascio fuori da questa cosa è una roba dove giochiamo noi tre il peso equivalente al corpo in oro il concetto di premio questa cosa che non essendo andato tanto a scuola è la cosa che pagherò per tutta la vita non ho questa attitudine che faccio una cosa e mi aspetto che uno mi dia un voto io faccio una cosa deve piacermi mentre la faccio e poi devo dire a me stesso ho dato il massimo poi se il mio massimo è 5 ed è una insufficienza lo accetto nel senso che cerco di studiare per arrivare al 6 o 7 ma io non riesco a concepire questo concetto per cui uno mi può dare un consiglio mi può dare la sua idea però che io debba andare da uno che mi dà 20, 25, 30 perché quella mattina magari si è svegliato e c'è pure le palle girate i premi sono questa cosa e ci sono delle persone che sui premi vanno giù di te li metterebbero anche sul cofano della macchina per farlo vedere a tutti allora noi qua al volo del mattino scherziamo molto su queste cose cioè sul guardatemi sono bravo deve essere bello avere un premio noi tutti gli anni vinciamo il microfono d'oro ascoltami è uscito un libro adesso che hai scritto in questi giorni e tu dici non diciamolo perché è un po' difficile quindi io ti ho detto guarda che acchiappa tantissimo come marketing dire lasciate stare è troppo difficile come si intitola? è di filosofia però collana di filosofia no no dove è uscito pensavo fosse il titolo io ti immagino l'immaginazione che nessuno ne parla dell'immaginazione la filosofia è una roba tremenda io ti immagino di filosofia ma il tema di giovedì prossimo invece l'ha detto quell'ascoltatore un ascoltatore l'ha proposto su Logos Vogliamo parlare di Logos? Lui dice, puoi chiedere al tuo ospite cosa ne pensa del Logos e del dialogo interiore, dice Roberto di TV.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "il peso in oro",
+    "tema": [
+      "premio",
+      "ricompensa"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -658,9 +667,12 @@
     "end": 2761.11,
     "speaker_raw": "SPEAKER_09",
     "testo": "Sono due parole fondamentali, sono Logos e Eros. Aristotele, no? Logos e Eros.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Logos e Eros",
+    "tema": [
+      "filosofia",
+      "amore"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {

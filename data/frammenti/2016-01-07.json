@@ -82,9 +82,12 @@
     "end": 380.6,
     "speaker_raw": "SPEAKER_01",
     "testo": "che non è colpa tua che cosa? quello che state per sentire allora quello che state per sentire è una versione del volo del mattino un po' più diciamo più selva più rough più selvaggio più grezza perché è successo un diciamo quello che qui si dice un misunderstanding cioè non ci siamo capiti io avevo capito che il volo del mattino tra l'altro l'ultima puntata del volo del mattino l'ho anche detto ciao ragazzi ci sentiamo lunedì 11 gennaio Poi la cosa è andata via così. Io sono rimasto qui, ho fatto il mio Natale a New York con la famiglia. Siccome un amico partiva da New York e veniva in Italia, gli ho dato la macchinetta, diciamo, chiamiamola così, la macchinetta quella che uso per fare la radio. Perché ho detto, tanto poi torno, non mi serve. Avendo io due passeggini, le valigie, le cose, cerco di dar via più roba possibile. invece poi parlando in questi giorni è saltato fuori che mi ero sbagliato ho capito male che quindi c'è la radio questa mattina e domani ma io sono contento sempre di fare la radio l'unica cosa che la devo fare via Skype si sente bellissimo Maurizio è qualcosa in contrario? ma insomma va bene senti che qualità del suono si sente come una telefonata via Skype mettiamola così non l'abbiamo mai fatta questa esperienza una volta si al telefono tra l'altro con lo skype del telefono perché ero a Londra ed ero rimasto bloccato per una grande nevicata a Hitro non partivano più aerei noi dalla camera d'albergo l'abbiamo fatta dovevi stare tra l'altro in ginocchio dovevo stare in ginocchio col telefono appoggiato sul letto nella camera da letto oggi lo facciamo col computer quindi è già una roba migliore se lo aspetti anche di tossire Sì, non sto tanto bene. Allora... Aspetta che bevo. Ok, poi ci sarà una versione con due bicchieri e un grande filo tra gli Stati Uniti e Milano. Va bene, insomma, comunque abbiamo talmente tante cose da dire, talmente tanta bella musica che chi se ne importa se la mia voce oggi si sente così. Sigla.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Volo del Mattino",
+    "tema": [
+      "radio",
+      "programma"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -93,9 +96,12 @@
     "end": 407.53,
     "speaker_raw": "SPEAKER_14",
     "testo": "Good morning life, good morning sun, how are you skies above, it's great to be alive and in love. Good morning life, good morning birds, sing out, you're happy too, you're so good cause I'll be seeing you soon. non cantare, non cantare",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Good Morning Life",
+    "tema": [
+      "amore",
+      "vita"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -129,9 +135,12 @@
     "end": 652.58,
     "speaker_raw": "SPEAKER_01",
     "testo": "vabbè questo è il mio dilemma del 2016 adesso poi mi informo in un posto qui dove ti fanno manicure pedicure e roba del genere te lo danno però ti mettono prima una crema sui piedi poi te la avvolgono nella pellicola quella trasparente per mettere le robe da mangiare e poi te le infilano lì dentro i piedi sudano tantissimo e lei le unghie praticamente le toglie come si toglie la pelle dal volo sai che quando arrivi ad una certa età te le devi tagliare anche gli ascoltatori lo sapranno le devi tagliare dopo la doccia o dopo il bagno perché prima se no volano per la casa con delle lame rotanti e se le mettono così quando te le toglie con la mano te le toglie io invece per la mia gioia per la mia salute ho ricevuto un forno a microonde per la cucina sana come mangi tu diciamo è perfetta io devo dire che il regalo che non ho ricevuto che ho visto però più strano nel reparto in un negozio perché vendeva cose per bambini una macchinetta tipo dell'espresso quella con le cialde che però quando pigi il bottone scende il latte da dare al neonato bello diciamo le donne che non allattano e danno il bambino il latte in polvere invece di stare lì di notte ti svegli devi scaldarlo la quantità tra i cucchiai ma tutto lei tu vai lì pigi con sotto il biberon lo riempi a temperatura giusta di che marca è? non lo so a me mi ha fatto un po' impressione quella roba lì quella George Clooney versione però pare che sia molto comodo va bene allora io direi di iniziare il programma abbiamo già parlato tanto di iniziare il programma con un bel disco nuovo",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Manicure e pedicure",
+    "tema": [
+      "salone",
+      "servizi"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -176,9 +185,12 @@
     "end": 897.39,
     "speaker_raw": "SPEAKER_12",
     "testo": "Certo, io da buona fuorisede ho fatto le mie gite in terra nativa.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Fuorisede",
+    "tema": [
+      "viaggi",
+      "esperienze"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -220,9 +232,12 @@
     "end": 911.82,
     "speaker_raw": "SPEAKER_01",
     "testo": "Come Verdone, anche Carlo Verdone è andato sui social network.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Carlo Verdone",
+    "tema": [
+      "commedia",
+      "attore"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -651,9 +666,12 @@
     "end": 1902.07,
     "speaker_raw": "SPEAKER_01",
     "testo": "aspetta aspetta cioè ma scusami quello col nastrino che passano sui binari no meglio meglio senza proprio un tavolo sul binarietto passano due sushi al salmone e dietro una poesia di Neruda bravo però quella roba lì così con gli aiku ti piace? come marorio il ristorante è pienissimo va bene va bene va bene nel 2016 c'è ancora la poesia parole note questa roba dai, voltiamo pagina reinventarsi ma basta grazie ascoltatori sta per andare in onda la seconda parte del volo del mattino parleremo dei buoni propositi del 2016 avete fatto la lista con i vostri sogni da realizzare argomentone originalone",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Poesie di Neruda",
+    "tema": [
+      "poesia",
+      "amore"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -662,9 +680,12 @@
     "end": 1973.06,
     "speaker_raw": "SPEAKER_07",
     "testo": "No! di tutto quello che non so, di tutto quello che non ho. Eppure sentire nei fiori tra l'asfalto vicino,",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Sentire i fiori tra l'asfalto",
+    "tema": [
+      "amore",
+      "natura"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -673,9 +694,12 @@
     "end": 2004.73,
     "speaker_raw": "SPEAKER_09",
     "testo": "C'è un senso di te C'è un senso di te",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "C'è un senso di te",
+    "tema": [
+      "amore",
+      "identità"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -719,9 +743,12 @@
     "end": 2165.46,
     "speaker_raw": "SPEAKER_01",
     "testo": "È famosa per la D, no? Perché tutti dicono D di Domodossola, se no uno non se la ricorderebbe mai come città. Guarda che essere famosi per la lettera iniziale non è male. M di Maurizio, V di Viola, F di Fabio, che tu non hai fatto niente nella vita, però hai questa iniziale fantastica. Lista 2016 non l'ho ancora fatta quest'anno, la faccio in aereo quando torno domani perché è l'unico momento in cui sono libero e dormono tutti, faccio la lista. Ti posso dare un consiglio? Bisogna decidere quante cose mettere nella lista.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Famose per la lettera iniziale",
+    "tema": [
+      "fama",
+      "identità"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -900,9 +927,12 @@
     "end": 2775.22,
     "speaker_raw": "SPEAKER_00",
     "testo": "non ha più senso sentiamo un pezzo di Natalino Galasco salve a tutti ci lasciamo alle spalle il 2015 e affrontiamo il 2016 di cosa stiamo parlando? di numeri qualcuno pensa erroneamente che il comico possa portare la gente a nuovi livelli di coscienza ma a giudicare dai risultati si direbbe che la coscienza sia sopravvalutata l'uomo fa sesso il cane si accoppia la coscienza È una questione di lessico. Nel frattempo, nonostante i nostri 86 miliardi di neuroni, il cane si accoppia molto di più di quanto l'uomo faccia sesso. Per non parlare dei bonobo, la razza più intelligente del pianeta, gente che scopa 12 volte al giorno per mantenere la quiete sociale e calmare i nervi. Ci stiamo autocastrando e diamo la colpa a Freud. Il popolo non ha bisogno di artisti, ha bisogno di intrattenitori, perché non è più capace di intrattenersi da solo. L'intrattenitore è adiacente al potere. L'intrattenitore serve a trattenere il popolo e, come la droga, condurlo a nuovi livelli di incoscienza. Dopodiché il popolo attraversa la strada, nel frattempo qualcuno accende gli abbaglianti e dà gas. Io lo so. che vorreste qualcosa di consolatorio che parlasse delle cose che sentiamo in televisione magari volete che vi dica che è una vergogna che le banche depredino i risparmiatori le banche lo fanno lo sappiamo ma affidare 200.000 euro a una banca è come fare i nudisti in galera lo sportello bancario di per sé non ha niente di pericoloso ma se ti affacci col culo non ti vuoi prendertela io non ho mai avuto 200 mila euro da investire se muoio domani la banca ci rimette ma se li avessi differenzierei gli investimenti un po' in droga un po' in alcol un po' in pay tv eccetera dai insomma dai è partito bene quanto dura il filmato?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Sentiamo un pezzo di Natalino Galasco",
+    "tema": [
+      "musica",
+      "canzone"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {

@@ -549,9 +549,12 @@
     "end": 1799.2,
     "speaker_raw": "SPEAKER_15",
     "testo": "Oh oh, sono dal carrozziere, penso che salterò sui divanetti vendendomi la pelle dell'orso, facendo sentire a tutti il momento elettronico. L'ultimo, grazie per quest'anno, mi avete fatto sentire meno sola e anche forse un po' più capita. Ma grazie a te.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "grazie per l'anno",
+    "tema": [
+      "grazie",
+      "solitudine"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -560,9 +563,12 @@
     "end": 1812.71,
     "speaker_raw": "SPEAKER_13",
     "testo": "Ma grazie a te di essere stata con noi. Ciao ragazzi, il mio momento preferito è stato il sintaco che suonava il violino mixato con il professore che faceva...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "sintaco e professore",
+    "tema": [
+      "musica",
+      "violinista"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -909,9 +915,12 @@
     "end": 2647.29,
     "speaker_raw": "SPEAKER_13",
     "testo": "Quindi Fabio Volo precettore, dal prossimo anno prendi gli studenti e proprio come un Socrate, come una, tiri fuori da loro.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'importanza dell'ascolto",
+    "tema": [
+      "ascolto",
+      "impegno"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -920,9 +929,12 @@
     "end": 2674.5,
     "speaker_raw": "SPEAKER_15",
     "testo": "Voi non avete idea quanto sarei bravo a farlo, sai perché? Perché non sono un professore, perché vengo dal basso non dall'alto, quindi mi ascoltano a me. Pane al pane. Intanto entrai subito con un cannone e fai tu... ragazzi, allora, c'è un'idea fantastica no, c'è già un'idea a leggere i libri per 20 euro fammi sapere, ciao, un bacio cari ascoltatori se leggete un libro per 20 euro abbiamo finito Maurizio? fammi dire ciao alla fine della stagione",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'esperienza del precettore",
+    "tema": [
+      "educazione",
+      "impegno"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   }
 ]

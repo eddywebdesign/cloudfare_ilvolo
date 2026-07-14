@@ -433,9 +433,12 @@
     "end": 770.16,
     "speaker_raw": "SPEAKER_11",
     "testo": "Buongiorno! Buongiorno Jacopo, come va? Tutto il Beh, io sto a una favola. Leggo anche questo messaggio. Ciao, sono Francesca, estetista. Mi sono svegliata alle 5 perché mia figlia piangeva. Sono rimasta sveglia, l'ho portata al nido, ho fatto la spesa e adesso sto tornando a casa a dormire.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Sveglia alle 5 per la figlia",
+    "tema": [
+      "genitori",
+      "famiglia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -488,9 +491,12 @@
     "end": 842.28,
     "speaker_raw": "SPEAKER_11",
     "testo": "Ma se potessi fare tutto quello che vuoi. Sì. ok quindi non andare a casa a dormire ma ok tutto anche prendere un aereo e andare a Dubai per dire cosa faresti in questo momento? mi prendi alla nostra lista la nostra lista Igor Sibaldi 10 deri non siete pronti io non sono pronti per niente Jacopo veloce puoi fare tutto quello che vuoi adesso 9-16 minuti vai allora no io ho scritto perché idealmente si guida un cerchio perché ho iniziato ad ascoltarvi l'anno scorso in un periodaccio e quindi mi piaceva condividere questa cosa che vi ho scritto poi nella mail con voi cioè che dopo un anno e mezzo hai fatto l'amore hai fatto l'amore Jacopo intanto voglio sapere prima di questa domanda c'è diciamo il prequel come si dice nei film perché non lo hai fatto per un anno e mezzo",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Igor Sibaldi 10 deri",
+    "tema": [
+      "libro",
+      "autore"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -643,9 +649,12 @@
     "end": 889.51,
     "speaker_raw": "SPEAKER_14",
     "testo": "Avevo internet in casa. Hai sfogato un po'... Sì, sì, sì, ho imparato un po' le categorie nuove, ho un po' filtrato anche i gusti, ho un po' rinnovato anche i gusti.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Sfogato su Youporn",
+    "tema": [
+      "internet",
+      "svago"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -931,9 +940,12 @@
     "end": 1295.39,
     "speaker_raw": "SPEAKER_03",
     "testo": "But I don't mind Ciao! Now she dances to the song on the minute All the time All the time And make her weep when she hear it And it got her on her knees like religion She was young and she was forced to be a woman grazie",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "She was young and she was forced",
+    "tema": [
+      "amore",
+      "forza"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -1000,9 +1012,12 @@
     "end": 1839.87,
     "speaker_raw": "SPEAKER_11",
     "testo": "questo è Daniele Silvestri con quali alibi? bene bene allora c'è addirittura un ragazzo che scrive questo messaggio lo leggo perché so che alle donne fa piacere sentire questa cosa dice ciao ragazzi sono Gio dalla provincia di Como Gio come il profumo di ormai sono Gio sono Gio dalla provincia di Como non faccio l'amore da due anni però diciamo sesso da un paio di giorni nel senso lui dice mi manca proprio fare l'amore sono stufo di lui usa la parola quella lì con la S no? sono stufre che io vorrei proprio fare l'amore in giro ci sono troppe ragazze e poche donne poi le donne dicono in giro ci sono pochi ragazzi e pochi uomini insomma ragazzi non c'è una chat uomini e donne facciamo un programma e chiamiamolo uomini e donne secondo me ah dove uno magari va lì e dice venite a corteggiarmi voglio trovare l'uomo della mia vita La mia domanda, io non credo di aver mai visto la puntata Uomini e Donne della De Filippi, però so di cosa si tratta, semplicemente perché è il pomeriggio, quindi io il pomeriggio non sono a casa, è per un pubblico di persone che sta a casa. La mia domanda di quelle poche cose che ho visto... Comunque ci sono mille repliche, sono cinque... Io la sera torno a casa e dico, Johanna, guardiamoci uomini e donne. No, nel senso che il pomeriggio, così come mi perdo la vita in diretta, così come mi perdo la d'urso, sono programmi per chi sta a casa immagino. Comunque la domanda è, è mai entrato un uomo a uomini e donne con i peli sul petto? Perché vedendoli mi sembrano tutti depilati.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Quale alibi?",
+    "tema": [
+      "amore",
+      "relazione"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -1133,9 +1148,12 @@
     "end": 2080.09,
     "speaker_raw": "SPEAKER_10",
     "testo": "E' chiaro, è un messaggio da Leo Di Caprio.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Messaggio da Leo Di Caprio",
+    "tema": [
+      "ambiente",
+      "salute"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -1144,9 +1162,12 @@
     "end": 2088.77,
     "speaker_raw": "SPEAKER_11",
     "testo": "Va bene, insomma, quindi, Leo Di Caprio, mettiamo questo disco e poi invece ci ascoltiamo delle belle parole e un disco o sigaretta che è l'ultima che mi fate in macchina.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Disco di Leo Di Caprio",
+    "tema": [
+      "musica",
+      "relax"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {

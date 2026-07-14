@@ -202,9 +202,11 @@
     "end": 872.46,
     "speaker_raw": "SPEAKER_13",
     "testo": "stavo facendo tu scendi dalle stelle come si chiama? l'inno alla gioia l'oculele come si accordano le quattro corde dell'oculele se non sei uno che sa suonare bene tipo me però è la canzone di Corrado e io che sono Carletto e io che capito? e io che sono Carletto ecco la canzone di quelle note sono perfette per accordare l'uculele oh ma quante ne so allora parliamo invece della classifica dei regali più venduti per il Natale 2016 sì ovviamente quello che ha spopolato assolutamente è l'overboard non mi dire che sei caduto nella trappola dell'overboard Natale 2015 scusa ho sbagliato perché era ancora di là esatto io ho visto anche un prete che ha fatto la predica sull'overboard per chi non lo sapesse che cos'è sono quelle due rotelline che si mettono sotto i piedi su una barretta è come un segue è lo stesso meccanismo ti sposti spostando il peso in avanti sposti il peso in avanti io ho visto un prete fare la predica che so che l'hanno anche sospeso se sei pedofilo ti tengono un po' lì in stand by ma se fai la predica su quella da lì sei sospeso subito",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Inno alla gioia",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -213,9 +215,12 @@
     "end": 910.87,
     "speaker_raw": "SPEAKER_14",
     "testo": "comunque l'overboard è stato quello che ha fatto il boom assolutamente e non è neanche un regalino da poco sono varie centinaia di euro comunque è un giocattolone da adulti sì perché sono giocattoli per adulti questi sì perché sono veramente pericolosi se vogliamo un altro invece regalo che ha scalato le vette delle classifiche di vendite di Amazon è il giradischi il giradischi e beh certo e nessuno se l'aspettava però non si sta parlando ovviamente del giradischi vintage originale eccetera ma di un giradischi più moderno con entrata usb radio eccetera",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Overboard",
+    "tema": [
+      "giocattoli",
+      "regali"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -224,9 +229,12 @@
     "end": 936.03,
     "speaker_raw": "SPEAKER_13",
     "testo": "Beh perché uno si può ascoltare i dischi del padre se non ha la passione dei vinili, dei genitori così però si può attaccare sempre anche il telefono, il computer ascoltare la radio, la nuova versione esatto che abbiano un'uscita che si possono attaccare le casse se no ti devi ascoltare le casse di quel giradischi lì che a volte sono dentro come in una valigetta e fa schifo e non è che si senta proprio bene se sei uno che vuole ascoltare bene la musica sì",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Giradischi",
+    "tema": [
+      "vinili",
+      "musica"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -887,9 +895,12 @@
     "end": 2000.45,
     "speaker_raw": "SPEAKER_12",
     "testo": "Ma diciamo quella, una delle ultime, dato che mi piace sempre fare un po' quelle ultime, insomma, come Bonnie e Clay a me piace molto farla live, ecco.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Bonnie e Clay",
+    "tema": [
+      "musica",
+      "live"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -920,9 +931,12 @@
     "end": 2027.83,
     "speaker_raw": "SPEAKER_07",
     "testo": "Io non vedevo l'ora di crescere, la macchina sta stata stereo Pioneer, che suona dai bonzovi e i rambi. La miseria!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "macchina stereo Pioneer",
+    "tema": [
+      "gioventu",
+      "musica"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -942,9 +956,12 @@
     "end": 2053.47,
     "speaker_raw": "SPEAKER_13",
     "testo": "quando adesso Max deve fare la turniera radiofonica che non c'ha voglia comunque non si veda la radio mandiamo Michele a fare l'intervista così tu Max ormai come mestere a casa con la famiglia io ti mando anche il tour e io scendo in mezzo al pubblico così che mi diverto di più",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "scambio vita",
+    "tema": [
+      "amici",
+      "scambio"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
