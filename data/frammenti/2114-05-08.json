@@ -38,9 +38,13 @@
     "end": 385.15,
     "speaker_raw": "SPEAKER_08",
     "testo": "Mi sembra che sia soltanto un'apparenza e che nasconda l'inferno. Pensa cosa vedranno i miei figli domani. Il mondo sarà meraviglioso, dicono. ma da che punto di vista se basta uno squillo di telefono ad annunciare la fine di tutto bisognerebbe vivere fuori dalle passioni oltre ai sentimenti nell'armonia che c'è nell'opera d'arte riuscita dovremmo riuscire ad amarci tanto da vivere fuori del tempo distaccati distaccati",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Vivere fuori dal tempo",
+    "tema": [
+      "tempo",
+      "passioni",
+      "sentimenti"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -49,9 +53,12 @@
     "end": 450.28,
     "speaker_raw": "SPEAKER_02",
     "testo": "Ma hai capito qualcosa? C'è chi stamattina si è svegliato e ha pensato a queste cose? Sì Allora, ma no, no Questa notte ho consultato il cuore Senza alcun dottore Il cuore va risposto, sciocco, questo è mal d'amore Per guarirci è solamente un cuore Vuoi sapere, vuoi sapere come si fa Si fa spesso, chiodo, scaccia, chiodo E ritrovi la felicità Chi è più felice di me? Voglio scordarmi di te. Ha detto il cuore sereno. L'amor fin quando c'è gioventù. Sorridi sempre di più. La donna è un fiore, ti dà il proprio amore. Veneno di amor. Chi è più felice di me? Voglio scordarmi di te. Nel mondo non c'è nessuno, nessuno più felice di me Altre arresti? Che meraviglia",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Cuore e felicità",
+    "tema": [
+      "amore",
+      "felicità"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -71,9 +78,11 @@
     "end": 621.66,
     "speaker_raw": "SPEAKER_04",
     "testo": "Fabio Volo, la strada verso casa, l'auditorio, ore 13.30. Sotto cosa c'è scritto? Supporto musicale, il maestro Maurizio. Ma perché maestro? Perché sono cintura nera.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Supporto musicale",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -82,9 +91,12 @@
     "end": 660.01,
     "speaker_raw": "SPEAKER_03",
     "testo": "ti ho fatto scrivere sulla stampa che parteciperà il maestro Maurizio Rossato hai capito? i giornali mi chiamano a vedere se sei un maestro o no per dirti il potere hai capito Maurizio? quindi tu sarai all'auditorio con me domenica Ma cosa fai? Porti dei computer? Io non ci volevo venire. Adesso devi fare qualcosa. Sì, porto la mia console col computer. Ma se le persone si dividono in due categorie, ok? Ricordati sempre, il gabbiano che pesca il pesce, cioè quello che sta lì e dice oggi non so se mangio, poi va giù e lo prende, se è bravo lo prende, o il gabbiano da peschereccio. Il gabbiano da peschereccio prende il pesce pescato da un altro.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Maestro Maurizio Rossato",
+    "tema": [
+      "libro",
+      "maestro"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -104,9 +116,12 @@
     "end": 685.25,
     "speaker_raw": "SPEAKER_03",
     "testo": "si ho capito qui il radio pieno di gabbiai da peschereccio gente che non sa pescare sta lì a fianco appena tu peschi boom ok? tu devi fare lo stesso con me io ho pescato tanto, ho il peschereccio pieno vieni, mangia, prendi il mio corpo e prendi il sacrificio per noi un indovina chi prima di cominciare te lo volevo chiedere ma oggi niente indovina chi che confusione oggi vai sono pronto ce l'hai?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Peschereccio e sacrificio",
+    "tema": [
+      "pesca",
+      "sacrificio"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -390,9 +405,12 @@
     "end": 1635.92,
     "speaker_raw": "SPEAKER_03",
     "testo": "Cioè, l'ho mise anche Bertalloi in una sua compilation, te lo ricordi? Tra le varie cose che fece, tra l'altro c'è anche nei film di Nanni Moretti, così. Però la più famosa, diciamo, quella che abbiamo sempre messo noi a Radio DJ è questa. Cioè, me ne andai da Roma.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Me ne andai da Roma",
+    "tema": [
+      "musica",
+      "Roma"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -401,9 +419,12 @@
     "end": 1642.83,
     "speaker_raw": "SPEAKER_01",
     "testo": "Negli anni 50 io me ne andai, come oggi i ragazzi vanno... È un manifesto, capolavoro assoluto. Anch'io me ne andai nauseato, stanco da...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Manifesto",
+    "tema": [
+      "film",
+      "Roma"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -423,9 +444,12 @@
     "end": 1701.17,
     "speaker_raw": "SPEAKER_01",
     "testo": "Da quella Roma addormentata, da quella Roma puttanona, borghese, fascistoide, quella Roma del volemos e bene andiamo avanti, quella Roma delle pizzerie, delle latterie, dei sali e tabacchi, degli erbagi e frutta, quella Roma dei mostaccioli e caramelli, dei frutti, dei lupini, dei fritossi con la panna, senza panna, delle mosciarelle. Questo è un manifesto strepitoso. Comunque non è cambiata tanto quella Roma degli anni 50 da quella che ho visto ieri.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Manifesto di Roma",
+    "tema": [
+      "film",
+      "Roma"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -445,9 +469,12 @@
     "end": 1899.15,
     "speaker_raw": "SPEAKER_13",
     "testo": "erotiche, ovvio quanto il nome con le consonanti esotiche, ovvio che sai già che nella vita sarei madre di maschi, sposa di maschi, amante di maschi, comunque sarei sempre raccontata da maschi, con meno fantasia dei pastori tedeschi, l'ovvio, sempre l'ovvio, fondamentalmente l'ovvio, la fuga da ogni dubbio, dentro le canzoni ti sussurrano l'ovvio, ti danno le istruzioni per vestire il tuo doppio, ti dicono le marche, ti elencano i modelli, così vuoi sempre quelli, perché sono i più belli, ti dicono per sempre ma intendono per ora, ti dicono l'ovvio di quell'ovvio che innamora. se ti dicono l'ovvio tremite emozioni se ti dicono l'ovvio il cuore batte forte se ti dicono l'ovvio questo perché baby I love you baby I love you l'ovvio come l'unica ragione come una religione l'ovvio dei popoli anche a colazione la razione d'obvietà la danno presto danno su danno per tutto il palinsesto ovvio che parlare delle angosce non deprima ovvio che se fai vedere le cosce arrivi prima ovvio che quest'anno va del viola ovvio che un bidello ti faccia il doposcuola e tu li limiti portando ai limiti le relazioni con i tuoi simili e giustifichi gli atteggiamenti orribili elimini il contraddittorio solo col volume un'opinione vale solamente se è comune giri è importante che in mezzo alla gente tu ti senta presente emozioni mentre te la tiri svogliatamente e non metti mai niente che non possa attirare attenzioni ridi se ti dicono ovvio tremi te emozioni ti dicono l'ovvio, questo perché baby I love you, baby I love you, se ti dicono l'ovvio, tremite emozioni se ti dicono l'ovvio, il cuore batte forte se ti dicono l'ovvio, questo perché baby I love you, baby I love you, sai che dipende da te la direzione da prendere, ascolta il cuore prima di scegliere abbi presente chi sei e per chi sei imprescindibile il resto sono chiacchiere sono chiacchiere sui soldi per i vizi per gli sfizi per gli sprizzi di servizi chiacchiere su nome di lui spazio nome di lei spazio mamera mai spazio voto fra i tuoi vuoti che si riempiono con la personalità non esiste antidoto non esiste formula ora è il tuo momento non sei più la prossima non aver paura e guardati sei bellissima rischi a volte succede nella vita di tutti noi che ci svegliamo il mattino che magari esci anche di buon umore vai al lavoro e ci sono subito delle seccature delle cose sono orribili",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Stereotipi di genere",
+    "tema": [
+      "genere",
+      "società"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -456,9 +483,12 @@
     "end": 1953.11,
     "speaker_raw": "SPEAKER_03",
     "testo": "senti che bello questo messaggio io con mia nonna non ho mai viaggiato ma con mio marito una volta siamo arrivati al porto di Salerno la sera prima non c'era neanche la barca abbiamo dormito in macchina ci sono quelli ansiosi di perdere io mi ricordo ho questo ricordo Tu per esempio, faccio l'esempio, siamo qui a Radio DJ in via Massena, sono le 9.40, finisce la radio alle 10, tu hai per esempio l'aereo all'inate a luna, a che ora sei all'aeroporto?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Viaggio con la nonna",
+    "tema": [
+      "viaggio",
+      "famiglia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -478,9 +508,12 @@
     "end": 1981.89,
     "speaker_raw": "SPEAKER_03",
     "testo": "io sono uno cioè tu senti quelli che ti dicono bisogna arrivare all'aeroporto due ore prima per esempio devi andare a New York ok a Malpensa New York ok Milano Malpensa New York il treno metti ce n'è uno che è anche alle 10 alle 10 c'è l'aereo a che ora sei a Malpensa 8 e mezza",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Puntualità all'aeroporto",
+    "tema": [
+      "viaggio",
+      "puntualità"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

@@ -16,9 +16,12 @@
     "end": 184.12,
     "speaker_raw": "SPEAKER_11",
     "testo": "We're a thousand miles from comfort We have traveled land and sea But as long as you are with me There's no place I'd rather be I would wait forever Exalted in the sea As long as I am with you Ciao! when I am with you there's no place I'd rather be",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "canto sul viaggio",
+    "tema": [
+      "viaggio",
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -192,9 +195,12 @@
     "end": 539.44,
     "speaker_raw": "SPEAKER_10",
     "testo": "chi è più felice di me voglio scordarmi di te ma detto il cuore se cercherai ritroverai l'amore fin quando sei gioventù sorridi sempre di più la donna un fiore ti dà il profumo ma tanto oggi nel mondo non c'è nessuno nessuno più felice di me bene",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Canzone di Maurizio",
+    "tema": [
+      "amore",
+      "gioventù"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -203,9 +209,12 @@
     "end": 701.91,
     "speaker_raw": "SPEAKER_07",
     "testo": "Ieri, Maurizio, a un certo punto, lì, alla sala del salone, lì, più di mille persone, la cattedrale della cultura in quel momento lì in Italia, tutto avveniva lì, no? Hai visto quanta gente che c'era nei corridoi? C'era De Gregori che parlava con Guccini, che tu dici, ammazza! Poi c'era Piero Angela con Alberto Angela, lì in un altro angolo, è venuto a Manniti, ciao ciao, bello bello, poi sono venuti tanti altri scrittori, c'era anche Concita de Gregor, Concita quella che ha vinto l'Eurofest, che tra l'altro ti assomiglia col cappello corto. cioè se lei dovesse tagliarsi i capelli sto ragazzo con la barba un po' te e un po' Maurino e a un certo punto Maurizio in questa sala dove si facevano solo speculazioni filosofiche con il suo computerino cosa ha pensato di fare? di pigiare un pulsante e immettere in questa sala gigantesca ma non mi rompete i coglioni C'erano degli... C'erano delle signore anziane che hanno tirato un attimo il collo così e hanno detto... Hai capito? Allora, Maurizio, ci stavamo chiedendo, ma voi nella vita, cari ascoltatori, no? Perché ormai questa cosa non vi rompete i coglioni se ci ascoltate tutti i giorni, ce l'avete nella testa perché ormai riesce. Ma non vi è mai capitato di partecipare a una di quelle cene così dove uno... ha sbroccato e ha detto veramente quello che guarda che quello lì è la cosa più bella persino uno si sbrocca con me a me mi fa piacere a me quando uno dice quando proprio uno butta giù le maschere eh guarda che coglione diciamo onestamente ma tu no sai che io quando ero ragazzino quando avevo la tua età senti come parlo anche un po' più giovane a Riccione a un certo punto noi eravamo lì a fare la stagione c'erano quelli con i risciò ti ricordi quelle macchinine a pedali? e io fermavo la gente e gli dicevo ragazzi non vi state divertendo non è così che ci si diverte cioè andare lì e dire la verità cioè andare a sbattere contro il marciapiede e ridere siete dei deficienti cioè non fa ridere invece magari faceva ridere per loro non lo so però davanti all'ascensore Maurizio ti ho detto aspettami giù scendo e Maurizio con chi sta parlando?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Salone del libro di Torino",
+    "tema": [
+      "cultura",
+      "libri"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -247,9 +256,12 @@
     "end": 753.37,
     "speaker_raw": "SPEAKER_07",
     "testo": "sono rimasto che lui ascolta allora salutiamo se è Pulpita che ci ascolta metteremo spec abbiamo dei piccoli sbrocchetti nel film abbiamo preparato una sequenza per voi che siete in ascolto di piccoli film dove ci sono degli sbrocchetti ho incontrato anche Fassino Fassino Fassino quello lì che adesso è famoso che ha fatto che ti ha detto Fassino?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Piccoli sbrocchetti nel film",
+    "tema": [
+      "film",
+      "cultura"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -258,9 +270,12 @@
     "end": 755.05,
     "speaker_raw": "SPEAKER_08",
     "testo": "mi ha chiesto se Platinati viene vestita",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Platinati vestita",
+    "tema": [
+      "film",
+      "cultura"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -533,9 +548,12 @@
     "end": 1702.37,
     "speaker_raw": "SPEAKER_00",
     "testo": "Perché prende tutto così seriamente? Perché le dà fastidio, signor Andorsi? Sì, sì, me ne dà fastidio Dà fastidio anche a lei, signor Fox? Un pochino forse Volete che vi racconti una barzelletta? Eh sì, ci piacerebbe sentire una sua barzelletta Toc toc Chi è?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La vita è fatta di stagioni",
+    "tema": [
+      "amore",
+      "tempo"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -555,9 +573,12 @@
     "end": 1739.62,
     "speaker_raw": "SPEAKER_08",
     "testo": "ricco ad Abu Dhabi qual era la seconda opzione? povero in Italia preferiresti straccione",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Preferiresti Abu Dhabi o Italia",
+    "tema": [
+      "denaro",
+      "scelta"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -566,9 +587,12 @@
     "end": 1934.62,
     "speaker_raw": "SPEAKER_12",
     "testo": "La fallottola in canna è una bella calligrafia, la giustizia che aspetti è uguale per tutti, ma le sentenze sono un vero ritardo. Fa più luce di quanto vediamo con i pitbull mollati a sbranare per strada i due padroni che stanno filmando non ha mai pagato l'argenteria chi doveva pagare non ha mai pagato c'è qualcuno",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La giustizia è uguale per tutti",
+    "tema": [
+      "giustizia",
+      "società"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -709,9 +733,12 @@
     "end": 2314.44,
     "speaker_raw": "SPEAKER_07",
     "testo": "volevo dire si si abitua al matrimonio ci si abitua anche al caldo di Abu Dhabi dai che non può essere senti Margherita ti faccio una domanda non avresti mai voglia di stare sempre lì a Frascati o a Roma no perché dopo sei come gli zingari quando inizi a viaggiare non ti vuoi più fermare",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Abu Dhabi e la routine",
+    "tema": [
+      "matrimonio",
+      "viaggi"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -720,9 +747,12 @@
     "end": 2318.09,
     "speaker_raw": "SPEAKER_05",
     "testo": "Con mio marito diciamo che questo tiene vivo il nostro matrimonio.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Matrimonio e impegno",
+    "tema": [
+      "matrimonio",
+      "impegno"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -753,9 +783,12 @@
     "end": 2368.26,
     "speaker_raw": "SPEAKER_07",
     "testo": "magari scusami invece di andare ad Abu Dhabi vai a Guadalampur Stefano così c'è già delle amicizie va bene adesso la Laura vi scambia i numeri poi se vi va insomma che avete dei dubbi vi chiacchierate va bene ciao ragazzi grazie a voi ciao ciao ciao l'anno scorso ho passato 322 giorni in viaggio ho volato per 350.000 miglia la luna ne vista 250.000 le cose che tutti odiano del viaggiare per me sono confortanti le miniscenze che sono a casa",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Le cose che odiano del viaggiare",
+    "tema": [
+      "viaggi",
+      "esperienza"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -764,9 +797,12 @@
     "end": 2372.12,
     "speaker_raw": "SPEAKER_01",
     "testo": "bello ascoltare le telefonate degli altri",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ascoltare le telefonate",
+    "tema": [
+      "musica",
+      "esperienza"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -808,9 +844,12 @@
     "end": 2682.58,
     "speaker_raw": "SPEAKER_07",
     "testo": "...che fate venire... ma sarà faticoso ogni tanto? ma io ho una forza di sopportazione che neanche una ma mamma mia come l'altro giorno uno mi ridi sempre ma cambia canale ma scusami ma quante radio ci saranno al mondo c'è pure il web ma guarda che la gente veramente secondo te perché i genitori erano così con loro? io mi chiedo sempre quelli lì che continuano a dire ma tu fai ma tu fai hanno avuto i genitori che gli hanno cagato perché io non sono così con gli altri mi hanno sempre lasciato in pace i miei genitori tu non sei così ti hanno lasciato in pace Questi cazzo hanno vinto dei genitori... Eh no, se non prendi 10, no, non mangi la merenda. Comunque qui abbiamo delle mail stupende, sarebbe da fare altre due ore di programma. Io vivo a Zurigo da 18 anni e mio marito ha trovato un'offerta ad Oslo che faccio parto. Maurizio? Sì, sì. Ci sono i soldi a Oslo? Sì, ci sono, sì. va bene poi io discutevo oggi con il mio capo se dovessimo chiudere e trasferirci cosa che forse dobbiamo fare è andare via dall'Italia lui vota USA USA io voto Emirati cioè tu fra gli Emirati e non so New York dove andresti? New York però ci sono più soldi degli Emirati allora è meglio allaggia allaggia anch'io a casa sto con la Johanna stiamo valutando una serie di città dove in base agli impegni di lavoro dove ci sono i soldi sono nel programma di Linus disegniamo Italia trasferiamoci lì qui in questa radio gli unici che hanno i soldi vogliamo diventare amici ciao Linus mannaggia io sono di Pavia ma hanno offerto un lavoro a Bologna che faccio vado ma che sei matto Bologna è dall'altra parte volontà va bene un saluto a tutti voi anche quelli che rompete i coglioni perché non è colpa vostra è colpa dei vostri genitori va bene ci vediamo domani non esiste domani non esiste domani non esiste domani",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Genitori e figli",
+    "tema": [
+      "genitori",
+      "figli"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   }
 ]

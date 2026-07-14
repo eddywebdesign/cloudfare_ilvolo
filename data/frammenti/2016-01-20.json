@@ -487,9 +487,12 @@
     "end": 1952.96,
     "speaker_raw": "SPEAKER_03",
     "testo": "erano lì molti hai sentito un... comunque la gente ha la... i colleghi tutti hanno la consapevolezza questa stessa cosa la sta facendo anche il Corriere della Sera la sta facendo anche la stampa cioè non ti hanno preso per un folle no non mi hanno preso per un folle",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La consapevolezza della stampa",
+    "tema": [
+      "stampa",
+      "credibilità"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -615,9 +618,12 @@
     "end": 2468.68,
     "speaker_raw": "SPEAKER_06",
     "testo": "il paese ragazzi allora mi ha chiamato ieri un camionista è pieno di refusi ma cosa ma cosa stai dicendo Jacopo ragazzi basta refusi ok perché la guerra dell'informazione Jacopo senti la discussione con la tua compagna senza entrare nei particolari che sono cose private il tema è sempre quello qual è tu sai che è una parola che inizia per e e finisce per vediamo emorroidi quelle di solito cerco di tenermi e aspetta fermi un attimo e allora vuoi mettere a posto e la devi smettere ma è una cosa fisica? aspetta una cosa seconda parola",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La guerra dell'informazione",
+    "tema": [
+      "informazione",
+      "comunicazione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -640,9 +646,12 @@
     "end": 2542.88,
     "speaker_raw": "SPEAKER_06",
     "testo": "il bello è che ritornano sempre da entrambe le parti allora il punto è quello posso farti una frase scusami è lei che torna l'ex o è te che torna l'ex? no no ma non è un discorso il fatto che ritornino è la presenza la presenza dentro di te dentro di te quelli che hanno anche quelli che hanno anche l'ex proprio fisicamente magari sei nei paesi scusami amore posso fare questo? scusa amore è stata una persona importante nella mia vita non c'è sempre questa frase non è che adesso siamo stati insieme 5 anni adesso non la saluto posso dire anche tu non fai bella figura sembra che me lo dici tu di non salutarla e dico ciao e finita lì ma ti ho visto che ti manda i messaggi ma voleva solo sapere come stavo non vorrei mai che suonassi in maniera diversa",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La presenza dell'ex",
+    "tema": [
+      "amore",
+      "relazioni"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

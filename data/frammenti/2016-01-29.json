@@ -16,9 +16,11 @@
     "end": 131.37,
     "speaker_raw": "SPEAKER_06",
     "testo": "You make me feel Like I'm alive again Alive again You make me feel Like I'm alive again Said I can't go on Ciao Ciao ciao ciao ciao",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Testo canzone ripetuto",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -251,9 +253,11 @@
     "end": 867.34,
     "speaker_raw": "SPEAKER_12",
     "testo": "ho cambiato la scaletta di questa puntata mentre andava a questo rischio perché l'ho messa giù un po' più sexy visto che il tema è un po' quello ma no, si stava parlando di bambini no, sexy nel senso è venerdì ah ok ok chilling Allora, attenzione, mentre andava questa bellissima canzone di John Legend featuring Rootsen e Melanie, walk up everybody, ho chiesto perché scusami, a me per esempio nessuno mi ha educato sessualmente, no? A parte che avevo, essendo io un ragazzo diciamo di strada del quartiere, quelli più grandi di strada, no di strada, no che voglio fare, sono un ragazzo di strada, che canzone è? Sono un ragazzo di strada. i corvi ragazzi diciamo che di strada nel senso che stavo per la strada durante il giorno sui marciapiedi fino all'età di 8-9 anni perché poi ho cambiato casa e sono andato nel mondo dell'oratorio questo è la mia biografia esatto Sono un po' cutibono. No, diciamo, la vuoi sentire? Senti qua.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "John Legend featuring Rootsen",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -379,9 +383,12 @@
     "end": 1232.54,
     "speaker_raw": "SPEAKER_06",
     "testo": "a presto Grazie a tutti! a presto Ciao! grazie I just hope it ain't the money money money money money Love me love me honey I just hope it ain't the money money money money money Love me love me honey I just hope it ain't the money money money money money Love me love me honey I just hope it ain't the money money money money money Love me love me honey You got me singin' dojo",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Canzone di ABBA",
+    "tema": [
+      "amore",
+      "moneta"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -437,9 +444,12 @@
     "end": 1390.96,
     "speaker_raw": "SPEAKER_12",
     "testo": "Sì, sì. Viola mi ha detto che uso male i miei soldi, perché scusa quando mi vede che voglio fare tutto io, mi dice, ma un assistente! Ma infatti, un PA. Ma scusami, ma ieri la stufa, la caldaria dell'operaio, a casa di amici, io mi sono incaricato di questo sbattimento. bisogna rimanere persone se diventi personaggio sei fottuto poi vedi tutti lì le droghe ma l'assistente ce l'ha anche l'ultimo dei moicani io non ho neanche l'agenda",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'assistente e la stufa dell'operaio",
+    "tema": [
+      "lavoro",
+      "responsabilità"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -646,9 +656,12 @@
     "end": 2007.1,
     "speaker_raw": "SPEAKER_12",
     "testo": "questo succede in Italia il marito della Mussolini che è stato processato e condannato è al Family Day in prima fila con la moglie va bene perché il male era la sedicenne ciao Riccardo, grazie mille un abbraccio forte, grazie Fabio ciao ciao ciao",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il marito di Mussolini al Family Day",
+    "tema": [
+      "politica",
+      "storia"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -741,9 +754,11 @@
     "end": 2691.61,
     "speaker_raw": "SPEAKER_12",
     "testo": "Ben Harper, a proposito di vita e di condivisione di aneddotisti che ne arrivano anche tanti dai nostri ascoltatori, mentre Michele ci raccontava la sua storia con i figli, ad Andrea Squillato il telefono era la mamma che ha detto che a lei ha regalato i figli. Hai ancora il telefono? Sì, è qua mamma. Mettila in viva voce. Buongiorno signora. Ciao Fabio. Ciao, saluta prima me e dopo. Non conto niente. Che cosa ha regalato i suoi nipoti? Diggielo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ben Harper citato",
+    "tema": [
+      "vita"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {

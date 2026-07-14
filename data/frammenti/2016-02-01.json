@@ -5,9 +5,12 @@
     "end": 11.0,
     "speaker_raw": "SPEAKER_04",
     "testo": "Radio DJ, one nation, one station. One love, one life.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "One love, one life",
+    "tema": [
+      "amore",
+      "unità"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -16,9 +19,12 @@
     "end": 48.79,
     "speaker_raw": "SPEAKER_00",
     "testo": "My nights are broken up by the sounds of women I'll never meet. And when my eyes are closed I can start to feel you staring. The right side of my bed has always left me feeling stuck in between Everything I know and all the lies I tell myself so I can sleep",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "The right side of my bed",
+    "tema": [
+      "solitudine",
+      "sogni"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -74,9 +80,12 @@
     "end": 242.91,
     "speaker_raw": "SPEAKER_11",
     "testo": "no aspetta però ogni programma che va in onda diciamo intercetta un numero infinito di persone e ogni persona ha un carattere diverso ha una giornata diversa un modo diverso di svegliarsi quindi bisogna intercettare come si dice nelle grandi aziende dobbiamo intercettare quel pubblico ok ecco questa mattina al volo del mattino noi intercettiamo quelli che vanno piano infatti cioè io ho sentito gli ultimi minuti del trio loro hanno intercettato quelli che sono già a bomba e va ecco noi gli altri quelli che oggi dobbiamo fare così per forza perché non capite dalla voce dalla voce e dal pigiama non è un pigiama è una tuta è un po' pigiamato anche lunedì scorso sono venuto in tuta infatti è un nuovo trend questo sì perché finisco troppo tardi con le iene quindi fai la mattina mi metto questa per far colazione e alla fine poi capito perché non c'ho la doccia mi metto la tuta faccio colazione poi mi spoglio invece con tempo camicia camicia",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Interceptare il pubblico",
+    "tema": [
+      "comunicazione",
+      "pubblico"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -242,9 +251,12 @@
     "end": 433.56,
     "speaker_raw": "SPEAKER_11",
     "testo": "Ma ce l'hai a casa una tastiera, un pianoforte, qualcosa?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Zeppolman",
+    "tema": [
+      "musica",
+      "strumenti"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -664,9 +676,12 @@
     "end": 909.16,
     "speaker_raw": "SPEAKER_13",
     "testo": "Quello lo fanno in base alla tua storia, alla tua cronologia.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Speranza e cronologia",
+    "tema": [
+      "speranza",
+      "cronologia"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -730,9 +745,12 @@
     "end": 957.65,
     "speaker_raw": "SPEAKER_11",
     "testo": "Già col nome Jacopo non è che siete tantissimi Ma è un nome finto Perché non voglio farlo Ma non dovevi dirlo io lo sapevo Tu dovevi sostenere Dimmi le iniziali del cantante o del gruppo C C Cremonini Il Chiur Carboni È italiano Carmen Consoli",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Cantanti italiani",
+    "tema": [
+      "musica",
+      "italia"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -741,9 +759,12 @@
     "end": 985.43,
     "speaker_raw": "SPEAKER_14",
     "testo": "no neanche non ci arriverei mai Fabio non credo che tu lo conosca scusami faccio un po' l'alternativone non penso che tu lo conosca Ciro Ricci Ciro Ricci no ma adesso è partito il toto scusa adesso tutti gli ascoltatori ha detto alternativone allora definiamo è un artista rap Clementino lì come si chiama?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Artista rap",
+    "tema": [
+      "musica",
+      "rap"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -763,9 +784,12 @@
     "end": 1007.41,
     "speaker_raw": "SPEAKER_14",
     "testo": "si chiama Coez brava Viola ci ho preso la giovane del gruppo al concetto Coez ok va bene Ho dato un nome che non è quello reale, perché non volevo fare la parte dello sborone, non volevo parlare.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Coez e Clementino",
+    "tema": [
+      "musica",
+      "italia"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -816,9 +840,12 @@
     "end": 1044.77,
     "speaker_raw": "SPEAKER_11",
     "testo": "Mezz'oretta. Quanto è durato la prima volta?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Prima volta con la donna",
+    "tema": [
+      "amore",
+      "prima volta"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -849,9 +876,12 @@
     "end": 1076.31,
     "speaker_raw": "SPEAKER_14",
     "testo": "è stato nella norma mi aspettavo di meglio e poi alla fine ho pensato però un anno e mezzo non è stato neanche così devastante no no",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Un anno e mezzo",
+    "tema": [
+      "tempo",
+      "amore"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -1123,9 +1153,12 @@
     "end": 2080.09,
     "speaker_raw": "SPEAKER_10",
     "testo": "E' chiaro, è un messaggio da Leo Di Caprio.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Messaggio di Leo Di Caprio",
+    "tema": [
+      "ambiente",
+      "responsabilità"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -1317,9 +1350,12 @@
     "end": 2912.99,
     "speaker_raw": "SPEAKER_12",
     "testo": "non gli piace non gli piace oppure c'era anche questo suono un po' alla Culture Club do you really want to hurt me?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Canzone di Culture Club",
+    "tema": [
+      "musica",
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -1341,9 +1377,12 @@
     "end": 2943.51,
     "speaker_raw": "SPEAKER_12",
     "testo": "E a proposito di DJ, era molto caratteristico il suono dance, come in questa canzone di Yasu.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Suono dance di Yasu",
+    "tema": [
+      "musica",
+      "danza"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -1387,9 +1426,12 @@
     "end": 3035.3,
     "speaker_raw": "SPEAKER_11",
     "testo": "scusate non mi avete sentito per qualche seconda perché stavo facendo le flessioni ora ho smesso saluto questo ragazzo che dice con le parole di corona mi avete commosso grazie per questa puntata ma grazie a voi ci sentiamo domani mattina dalle 9 alle 10 con il volo del mattino perfetto senza pigiama domani senza pigiama",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Flessioni in diretta",
+    "tema": [
+      "fitness",
+      "umorismo"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   }
 ]

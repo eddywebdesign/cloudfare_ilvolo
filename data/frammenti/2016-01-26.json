@@ -344,9 +344,12 @@
     "end": 886.48,
     "speaker_raw": "SPEAKER_00",
     "testo": "già qua, perché 50 anni è giovane scusami, 50 anni è giovane nel senso che 50 anni non è che stiamo dicendo ora non so se c'ha 50 anni sono me ce l'ha e forse anche un pochino di più pensa se magari in questo momento lei a casa ha detto speriamo di no non riconosca la voce dimmi una radio una radio famosa a Firenze",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La voce di una radio famosa",
+    "tema": [
+      "radio",
+      "famose"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -410,9 +413,12 @@
     "end": 931.77,
     "speaker_raw": "SPEAKER_00",
     "testo": "Perché magari c'è Federico Russo. Mette e dice... Come si dice? L'elmi vicino? Non lo so. Vabbè, insomma... ma lei è bassa con la minigonna sopra i 50 perché io dal tuo messaggio mi ero già immaginato un'altra roba ma bassa quanto? tipo bassina o bassa?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La signora con la minigonna",
+    "tema": [
+      "età",
+      "bassità"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -421,9 +427,13 @@
     "end": 960.51,
     "speaker_raw": "SPEAKER_11",
     "testo": "bassa forse 1,50 come diceva mio amico è così basta che si inciampa nel filo del Tampax ma ti dico un'altra ha dei tacchi che hanno 15 e perché porta i tacchi? quando tu la guardi, gli guardi le gambe ha dei polpacci sviluppati che bella immagine Fabio ti hai rimaginato un'altra roba la panterona, single, cinquantenne da lontano è un bel effetto Avvicino, aiuto.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La signora con i tacchi",
+    "tema": [
+      "età",
+      "bassità",
+      "tacchi"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -443,9 +453,12 @@
     "end": 971.39,
     "speaker_raw": "SPEAKER_11",
     "testo": "Perché questo non è solo tutto quello che ha, eh. Quando esce porta cappelli o porta un bel fiore sulla testa. Guardatemi.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il cappello e il fiore",
+    "tema": [
+      "cappelli",
+      "fiori"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -761,9 +774,12 @@
     "end": 1833.91,
     "speaker_raw": "SPEAKER_00",
     "testo": "Io dico una cosa ragazzi, la mia idea di dedica e richiesta... E poi dopo chiudiamo il discorso, non è che mi chiami tu, mi telefoni, mi dici ciao voglio dedicare Giovanotti al mio fidanzato, no, mi parli un po' del tuo fidanzato, come quando vai dal dottore e dici i sintomi, e io ti dico che cosa piace al tuo fidanzato, allora forse gli può piacere questa canzone, la propongo io la canzone, o gli altri ascoltatori che dicono... capito? che c'è gente che ci ascolta che ha cultura musicale molto più alta della nostra quindi noi non siamo in cattedra è una social condivision 2.0 rock cosa hai appena detto? 2.0 rock sono giovane allora possiamo dire una cosa importante oggi ricordiamo Paul Newman che Paul Newman è un uomo fighissimo a parte bello, bravo e poi ha fatto queste salse in America con la faccia di Paul Newman c'è un Rolex che si chiama Paul Newman ma lui queste salse le ha date in beneficenza è un uomo fantastico, un uomo che disse anche la famosa frase ma lei è uno degli uomini più belli e desiderati del mondo però come mai è sposato? lui diceva perché dovrei andare in giro a mangiare degli hamburger quando a casa ho l'ambistecca migliore del mondo fece questo paragone con la carne e con la donna però insomma la disse anche un po' meglio di come l'ho detta io Adesso mettiamo un pezzo dello spaccone, ma perché è bella la frase, la dovete godere tutta così, e poi una bella canzone, e poi se volete dedica richiesta, non illudere.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La dedica della canzone",
+    "tema": [
+      "musica",
+      "relazioni"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -772,9 +788,12 @@
     "end": 1879.52,
     "speaker_raw": "SPEAKER_03",
     "testo": "Ma dovevo farglielo vedere, a quei cialtroni, a quei delinquenti, com'è una partita quando è giocata, quando è bella davvero, come può essere bella qualunque cosa, qualunque cosa può essere bella, qualunque cosa può essere bella. Nessuna esclusa, spaccar pietre può essere bello se è ben fatto, quando sai quello che fai e perché e viene come vuoi tu. E quando succede a me è una cosa fantastica, mi sento come può sentirsi un fantino sul suo cavallo con quella carica di energia stretta fra le ginocchia. Entra sull'addirittura, lo stringono tutti e lui sa, lo sente, lo sente, lo sente. Quando lasciarlo andare è quanto? Ragazzi, è una cosa fantastica. È qualcosa di grande quando sei bravo e lo sai che sei bravo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La bellezza è soggettiva",
+    "tema": [
+      "bellezza",
+      "soggettività"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -783,9 +802,12 @@
     "end": 2020.44,
     "speaker_raw": "SPEAKER_07",
     "testo": "a presto Ciao! If you come along with us, the doors are never ending. If you want to rule the world, you've got to stop pretending. If you want to rule the world, you've got to stop pretending. You see, we've got a rough around.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Regole per il successo",
+    "tema": [
+      "successo",
+      "presa di responsabilità"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {

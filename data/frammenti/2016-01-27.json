@@ -5,9 +5,11 @@
     "end": 9.21,
     "speaker_raw": "SPEAKER_06",
     "testo": "Radio DJ. One nation, one station. One love.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "One nation, one station, one love",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -326,9 +328,13 @@
     "end": 1494.75,
     "speaker_raw": "SPEAKER_10",
     "testo": "Allora, sulla domanda cosa ci faceva Lapina sulla macchina con Ivana Spagna, è arrivato Diego, che era qua. Con un po' d'anticipo. Vai in onda fra 12 ore. Ti controllo Fabio. Oggi è una giornata importante, si va a pregare, si va a fare qualcosa di serio. Ah no, pensavo fossi venuto a fare... No, sono venuto a fare cose, però... A quest'ora? Pensa quante ore di redazione, Pinocchio, dalle 9! Programma di contenuto. 9 ore, esatto, 9 ore di contenuto. Perché Lapina... Niente, una base un po' anche intriga, un po'... Ma metti un pezzo di Ivana, scusa, una base di Ivana. Ce l'ha tutti perché lei ascolta il peccato. Ma lui è... Devi mettere una spallina.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Arrivo di Diego in studio",
+    "tema": [
+      "studio",
+      "arrivo",
+      "ospite"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -513,9 +519,13 @@
     "end": 1950.05,
     "speaker_raw": "SPEAKER_09",
     "testo": "Canzone pubblicata postuma perché avveniva la morte in un incidente aereo il 10 di dicembre del 1967 quando Otis Redding aveva solo 26 anni e stava rientrando da un tour con il suo gruppo I Barcase. Quindi questa canzone era stata scritta il 7 dicembre.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Canzone postuma di Otis Redding",
+    "tema": [
+      "musica",
+      "morte",
+      "canzoni"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -535,9 +545,13 @@
     "end": 2009.63,
     "speaker_raw": "SPEAKER_09",
     "testo": "Successivamente alla sua morte tutte le radio iniziano a suonare le canzoni del suo repertorio però quando esce questa canzone la prima settimana di gennaio fa il top e proprio la canzone diventa famosissima in tutto il mondo tant'è che ancora adesso è una delle canzoni più suonate. Il problema è che però la casa discografica non voleva che lui prendesse questa svolta troppo solo. Allora, al momento della morte, il chitarrista, che aveva coscritto la canzone con lui, era anche coautore di questa canzone, contribuì sulle sue memorie e le confidenze che gli aveva fatto Otis Redding, aggiungendo soprattutto il suono dei gabbiani, perché la canzone... Era stata composta quando lui si trovava sussolito in questa baia di San Francisco e quindi su questa barca, in questa tranquillità, lui aveva anche una storia d'amore con una donna che aveva appena conosciuto e quindi si stava staccando un po' dal momento della popolarità e io in questa situazione ho un po' rivisto il Fabio Volo di questi giochi.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Canzone di Otis Redding diventa famosa",
+    "tema": [
+      "musica",
+      "fama",
+      "canzoni"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -561,9 +575,11 @@
     "end": 2150.68,
     "speaker_raw": "SPEAKER_02",
     "testo": "e quindi ci sono i gabbiani in questa e quindi ci sono i gabbiani in questa watching the tide roll away sitting on the dock of the bay wasting time I left my home in Georgia headed for the Frisco Bay I've had nothing to live for It looks like nothing's gonna come my way So I'm just gonna sit on the dock of the bay Watching the tide roll away I'm sitting on the dock of the bay Wasting time I can't do what ten people tell me to do So I guess I'll remain the same Sitting here resting my bones And this loneliness won't leave me alone Grazie a tutti.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "citazione Dock of the Bay",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -887,9 +903,12 @@
     "end": 2489.17,
     "speaker_raw": "SPEAKER_15",
     "testo": "Eh, guarda, per me fa parte dei sogni. Eh, esatto. Si può realizzare, ma fa parte dei sogni.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "I sogni si possono realizzare",
+    "tema": [
+      "sogni",
+      "realizzazione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -931,9 +950,12 @@
     "end": 2500.56,
     "speaker_raw": "SPEAKER_09",
     "testo": "Ma li ha scritti bene, le regole.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Le regole scritte bene",
+    "tema": [
+      "regole",
+      "scrittura"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {

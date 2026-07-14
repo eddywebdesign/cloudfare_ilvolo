@@ -62,6 +62,11 @@ su lavoro/famiglia/tempo buttata li' senza svilupparla NON e' una riflessione, a
 (non solo un tema pertinente), ESCLUDI — la lunghezza da sola non basta, ma un frammento troppo corto \
 quasi mai contiene una svolta narrativa o un insegnamento completo.
 - INCLUDI sempre invece: citazioni/letture ad alta voce, riferimenti identificabili a libro/film/canzone/articolo.
+- Per riferimento_libro/film/musica: il titolo/autore DEVE essere esplicitamente presente o \
+chiaramente deducibile dal testo del frammento stesso — MAI completarlo con conoscenza \
+esterna tua. Se il testo menziona solo un argomento generico (es. "un disco", "un libro \
+che ho letto") senza nominare title/autore reali, NON classificarlo come riferimento — usalo \
+come aneddoto/riflessione se rispetta quei criteri, altrimenti escludilo.
 - Nel dubbio, ESCLUDI. Meglio pochi frammenti buoni che tanti irrilevanti.
 
 FRAMMENTI:

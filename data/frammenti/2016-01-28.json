@@ -194,9 +194,12 @@
     "end": 886.14,
     "speaker_raw": "SPEAKER_10",
     "testo": "stavo dicendo mentre andava questa bellissima canzone di have a nice day cioè abbiate tutti una buona giornata ragazzi un po' un augurio qui dal volo del mattino degli stereofonics che il nonno di mio padre cioè mio bisnonno anch'esso anch'ello anch'egli il nonno di mio padre, panettiere non metteva la sveglia perché lui si doveva svegliare alle 2 e lo svegliava sempre il gatto ma non 2 e 5 l'1 e 58, alle 2 in pacca il gatto andava sulla testa e lo svegliava io sono cresciuto con questa questa immagine, mi sono sempre chiesto come è il gatto, perché ho cercato di darvi delle risposte il gatto vedeva la sveglia sul muro quando vedeva la lancetta così, vedeva un segno e quel segno gli ricordava no, no, no, no come no?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "citazione canzone have a nice day",
+    "tema": [
+      "musica",
+      "augurio"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -494,9 +497,12 @@
     "end": 2150.56,
     "speaker_raw": "SPEAKER_10",
     "testo": "Eri come i gatti, volevi i croccantini.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Gatti e croccantini",
+    "tema": [
+      "animali",
+      "cibo"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -614,9 +620,12 @@
     "end": 2589.8,
     "speaker_raw": "SPEAKER_07",
     "testo": "All this talk of getting old It's getting me down, my love Like a cat in a bag Waiting to drown This time I'm coming down And I hope you're thinking of me grazie a tutti No, I'm on the losing streak Is out past my old streak And if you wanna show Then just let me know And I'll sing Grazie a tutti. Grazie a tutti. Grazie a tutti. ciao ciao I'm coming too Just like you said You leave my life I'm better out there But if you wanna shut Just let me know while I sing in your ear again Now the drugs don't work",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Canzone di Ringo Starr",
+    "tema": [
+      "amore",
+      "perdita"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -625,9 +634,12 @@
     "end": 2618.62,
     "speaker_raw": "SPEAKER_10",
     "testo": "un ascoltatore di Roma scrive ma abbiamo deciso di diventare il programma più bello della radiofonia mondiale vedi?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Programma più bello",
+    "tema": [
+      "libro",
+      "radio"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {

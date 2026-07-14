@@ -369,9 +369,12 @@
     "end": 1437.29,
     "speaker_raw": "SPEAKER_08",
     "testo": "come si chiama? Tinder? ok, Tinder come si chiama? non sono mai andato su però ti volevo chiedere perché tu un giorno mi hai detto Viola in diretta perché non ti metti su Daya",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Viola in diretta",
+    "tema": [
+      "libri",
+      "amore"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -435,9 +438,12 @@
     "end": 1497.19,
     "speaker_raw": "SPEAKER_08",
     "testo": "Per conversazioni profonde, no incontri sessuali, solo chiacchiere e distintivo. Io sarò così allora.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Conversazioni profonde",
+    "tema": [
+      "amore",
+      "relazioni"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -776,9 +782,11 @@
     "end": 2336.92,
     "speaker_raw": "SPEAKER_08",
     "testo": "Bellissima canzone di Rodriguez, I think of you, era il 1970, caro Fabio, da ex fruitore, dice un ascoltatore, di app di incontri, quindi uno che ha usato le app di incontri, la foto chiave, e per chiave si intende quella per il verbo poi, chiave come verbo, ok? Barba, moto, cane, tatuaggio e sorriso. con questa chiave allora la barba ce l'ho la moto no il cane no il tatuaggio sì il sorriso sì mi manca allora cari ascoltatori il cane si rimedia facile per la foto vabbè il cane ci sarà qualcuno con il radio che c'ha l'inus il cane nessuno di noi c'ha il cane allora vabbè Savino c'è il cane che cane vuoi Savino c'è il cane un po' c'ha un Cavalier King che è un po' un è un po' più da Charlotte di Sex and the City io che cane sono sono da Labrador sei dal canile te sei da da cane da bastardino si un meticcio si un meticcio allora e la moto chi mi può prestare la moto io ho gli amici con la moto no c'è il mio amico che c'ha la Triumph quella proprio customizzata no brand vabbè quella lì con la sella quella con tutti i quadratini oh mi faccio prestare quella quindi mi prendo la moto il cane in mano il cane in mano mi devi inquadrare la moto il cane la barba il tatuaggio il tatuaggio invece da sulle braccia cos'altro c'era? sorriso ma che faccio? guardami sono già mi stai già scrivendo sono già ti vedo che mi stai già scrivendo la domanda cari ascoltatrici femmine si cosa scrivete a uno così? ciao ti va di bere una cosa? come funzionano ste cose? no vi assicuro, ve lo dico seriamente non mi interessa, non mi metterei mai su una chat perché non ho bisogno perché mi piace il cane perché ho deciso che voglio il cane però voglio dire c'è niente di male se ti piace il cane",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "canzone di Rodriguez I think of you",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -798,9 +806,12 @@
     "end": 2358.28,
     "speaker_raw": "SPEAKER_08",
     "testo": "lo state dicendo come se mi piace il cazzo il cane mi piace il cane ditemi a quello lì Andrea il caro ascoltatore foto chiave, barba, moto, caneta cosa ti scrivevano? ciao ti va? mi passi a prendere con la moto?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il cane e la moto",
+    "tema": [
+      "musica",
+      "cani"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -866,9 +877,12 @@
     "end": 2611.86,
     "speaker_raw": "SPEAKER_11",
     "testo": "dice l'ascoltatore che la moto inglese è quella che ha la guida a destra certo Fabio ma io ti scriverei anche con una forchetta nell'occhio senza denti come il famoso Brad Pitt che si presenta alla porta di viola una forchetta nell'occhio senza denti senza denti",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Brad Pitt e la forchetta",
+    "tema": [
+      "film",
+      "umorismo"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -913,9 +927,12 @@
     "end": 2631.63,
     "speaker_raw": "SPEAKER_07",
     "testo": "Mi starà a vedere, fatto di pezzi.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La moto e il pezzo",
+    "tema": [
+      "moto",
+      "pezzi"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

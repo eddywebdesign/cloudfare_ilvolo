@@ -96,9 +96,12 @@
     "end": 368.09,
     "speaker_raw": "SPEAKER_10",
     "testo": "Good morning sun, how are you? It's great to be alive and involved Grazie a tutti. Buonasera.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Buon giorno, essere vivo",
+    "tema": [
+      "amore",
+      "vita"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -226,9 +229,11 @@
     "end": 947.92,
     "speaker_raw": "SPEAKER_00",
     "testo": "Nella versione scapero. Eh, addio. Peggio dell'originale.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Versione scapero",
+    "tema": [
+      "letteratura"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -572,9 +577,12 @@
     "end": 1789.78,
     "speaker_raw": "SPEAKER_03",
     "testo": "mi hanno scritto due dj di altre radio che vorrebbero venire alla festa di radio dj la domanda è possono venire? se io li invito? non è che vengono a darvi gli adesivi dell'altra radio stiamo per mettere la canzone quella lì abbiamo vinto Allora, volevo dire a un ascoltatore o ascoltatrice che dice Fabio, metti questa canzone lenta che vuoi rimetterla perché io sono ancora a letto e me la godo. Allora gli ho detto chiamiamola così ho la scusa. Ci butta giù il telefono. Adesso per colpa di questa persona.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Vincere",
+    "tema": [
+      "musica",
+      "vittoria"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -689,9 +697,12 @@
     "end": 2477.27,
     "speaker_raw": "SPEAKER_06",
     "testo": "Ora c'è Paolo Bucci Rosso Paolo Bucci Rosso?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Paolo Bucci Rosso",
+    "tema": [
+      "autore",
+      "libro"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -758,9 +769,12 @@
     "end": 2851.82,
     "speaker_raw": "SPEAKER_03",
     "testo": "scusate non mi sono accorto abbiamo chiamato Bucci Rosso Paolo ok Carlo Carlo è anche uno dei miei attori preferiti scusa Carlo io l'ho detto no però io non mi sono accorto ho fatto anche il film con lui io l'ho sentito che avevi detto così allora invece di ascoltatore non ho apprezzato le due canzoni che voi qua ehi la io l'avevo apprezzata si è riempita la mail di dedica e richiesta bravo allora se io fossi il direttore artistico prenderai in considerazione questa cosa l'idea di cambiare indirizzo mail perché adesso la vita è finita ragazzi un programma di radio dj facciamo il venerdì che li facciamo venire qua siamo amici poi non ce ne frega niente l'ascoltatore gli fa piacere la domenica il sabato che dice ciao io sono qua vorrei dedicare ma non sempre al tuo compagno a una mia amica vorrei dedicarlo a quei ragazzi che gli erano manifestati in piazza cioè gesti d'amore servono in questo momento posso dire a me ma la rassunta Va bene, va bene. Cosa succede adesso?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Carlo",
+    "tema": [
+      "attore",
+      "film"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -780,9 +794,12 @@
     "end": 2893.11,
     "speaker_raw": "SPEAKER_03",
     "testo": "La presa di posizione su cosa? Sul Family Day. Mi dico solo che il Family Day è la cosa più bella. Una volta negli anni passati al Family Day prendevano per il culo tipo Casini che ha sette famiglie o Berlusconi che aveva le palazzine piene di donne. per me quest'anno hanno superato se stessi perché quest'anno ci va la Mussolini col marito e lui è stato condannato per aver avuto pluri rapporti con una prostituta sedicenne però sarà lì in prima fila fantastico viva la vita tutti fermi oh la metti sta cazzo di sigla finale che paura ciao ragazzi a domani ciao",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Family Day",
+    "tema": [
+      "famiglia",
+      "valori"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   }
 ]
