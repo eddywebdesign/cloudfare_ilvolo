@@ -217,6 +217,13 @@ def _archivia_mp3(mp3: Path) -> None:
 
 
 def parse_data(filename: str) -> str | None:
+    # Priorita' al formato YYYY-MM-DD (sempre a inizio nome file, affidabile) —
+    # alcuni filename hanno un secondo blocco di 8 cifre embedded piu' avanti
+    # (es. "2014-05-06_reloaded_21140506_volo.mp3": "21140506" e' un refuso nel
+    # nome originale, NON e' 2014-05-06) che il vecchio regex prendeva per primo.
+    m = re.search(r'(\d{4})-(\d{2})-(\d{2})', filename)
+    if m:
+        return f"{m.group(1)}-{m.group(2)}-{m.group(3)}"
     m = re.search(r'(\d{4})(\d{2})(\d{2})', filename)
     if m:
         return f"{m.group(1)}-{m.group(2)}-{m.group(3)}"
