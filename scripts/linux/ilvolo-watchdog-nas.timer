@@ -1,0 +1,10 @@
+[Unit]
+Description=Ogni 5 minuti: controlla mount NAS e batch trascrizione K16
+
+[Timer]
+OnBootSec=2min
+OnUnitActiveSec=5min
+Persistent=true
+
+[Install]
+WantedBy=timers.target
