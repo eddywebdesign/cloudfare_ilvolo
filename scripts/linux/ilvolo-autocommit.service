@@ -1,0 +1,7 @@
+[Unit]
+Description=Autocommit dati batch trascrizione Il Volo del Mattino
+
+[Service]
+Type=oneshot
+WorkingDirectory=/home/%u/ilvolodelmattino
+ExecStart=/usr/bin/bash scripts/linux/autocommit_dati.sh

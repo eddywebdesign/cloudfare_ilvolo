@@ -1,0 +1,10 @@
+[Unit]
+Description=Esegue ilvolo-autocommit.service ogni 20 minuti
+
+[Timer]
+OnBootSec=5min
+OnUnitActiveSec=20min
+Unit=ilvolo-autocommit.service
+
+[Install]
+WantedBy=timers.target
