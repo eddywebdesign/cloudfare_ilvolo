@@ -542,9 +542,12 @@
     "end": 1614.47,
     "speaker_raw": "SPEAKER_01",
     "testo": "bello eh Maurizio annuiva tutto il tempo come se fosse il suo film come se l'avessi scritto magari sì avrei cambiato una cosina nella sceneggiatura ma è arrivato prima durante il disco di Jerry Zoblin capito che ci ha parlato di questo film e ha detto certo se l'avessi girato io avrei cambiato delle cose più bello non si possono dire sai con le tu quanto pubblico non lo puoi fare come quando vai nei grandi ristoranti che non c'è il sale e il pepe sul tavolo l'hai mai notata questa cosa? se tu vai in un ristorante dove il cuoco è uno chef importante sul tavolo non c'è la saliera e il pepe perché tu non sei autorizzato a toccare quel dipinto sale e il pepe c'è nei posti dove tu gli dici mi dai il sale ma se tu vai a mangiare da bottura o vai a mangiare da non lo so, da Oldani scusami, può portare il sale? come dire, va ad avere una mostra di Picasso e dice scusami, passi il giallo che non si può fare va bene sentite invece che bella canzone vi ho portato per iniziare l'anno nuovo una bella canzone, senti senti, di Gonzales",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il film di Maurizio",
+    "tema": [
+      "cinema",
+      "creatività"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -564,9 +567,12 @@
     "end": 1720.38,
     "speaker_raw": "SPEAKER_16",
     "testo": "why can't you take the leaf off your mouth now that you have the facts on your side take a moment to reflect who we are let the reason guide you see all tracks lead you out from the dark how the light feeds life what makes up you and I a presto",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La luce guida la vita",
+    "tema": [
+      "luce",
+      "vita"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -600,9 +606,12 @@
     "end": 1798.32,
     "speaker_raw": "SPEAKER_01",
     "testo": "I dorayaki? Che sono i dorayaki? Mi sembra un personaggio di Spenker. Sono quelli del film. Sono buoni?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il film di Spenker",
+    "tema": [
+      "cinema",
+      "giappone"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -644,9 +653,12 @@
     "end": 1837.92,
     "speaker_raw": "SPEAKER_01",
     "testo": "a me piace quello del sesamo però sui dolci preferisco andare giù pesante nel mio ristorante giapponese vedremo di mettere cose nuove allora visto che l'ascoltatore ti ha regalato lo scaldapiedi perché hai richiesto vediamo adesso se nel 2016 riusciamo a trovare un ascoltatore che insieme a te ti aiuta ad aprire un ristorante mamagare pasticceria o ristorante?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Lo scaldapiedi regalato",
+    "tema": [
+      "ospitalità",
+      "amici"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -826,9 +838,12 @@
     "end": 2335.0,
     "speaker_raw": "SPEAKER_01",
     "testo": "Oh, lasciala aperta. Togli solo quando dice il numero che gli lasciamo il messaggio in segreteria. 9, 8, registri il suo messaggio. Vai. Ciao Andrea, sono Fabio Volo. Il tuo obiettivo del 2016 era di riuscire a parlare con me. Hai appena preso a calci la fortuna rispondendo al telefono. Io sono Fabio Volo, sei in diretta al Volo del Mattino e adesso partiranno dei sondaggi per capire dai nostri ascoltatori se ti devo dare un'altra possibilità a richiamarti o se passare direttamente al 2017. Ciao e buona giornata. Io passerei al 2018 addirittura.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Messaggio obiettivo 2016",
+    "tema": [
+      "obiettivo",
+      "ascoltatore"
+    ],
+    "tipo": "lettura_volo",
     "video_url": ""
   },
   {

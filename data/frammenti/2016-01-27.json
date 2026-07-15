@@ -165,9 +165,12 @@
     "end": 552.96,
     "speaker_raw": "SPEAKER_11",
     "testo": "Ah, non l'avevo vista la copertina.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "copertina delle IE",
+    "tema": [
+      "libri",
+      "copertina"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -234,9 +237,12 @@
     "end": 996.74,
     "speaker_raw": "SPEAKER_09",
     "testo": "Secondo me ha ragione la Spagna, ci pensavo ieri.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "ha ragione la Spagna",
+    "tema": [
+      "politica",
+      "spagna"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -256,9 +262,12 @@
     "end": 1001.5,
     "speaker_raw": "SPEAKER_09",
     "testo": "Non hai visto la D'Urso ieri?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "D'Urso",
+    "tema": [
+      "tv",
+      "programmi"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -629,9 +638,11 @@
     "end": 2264.93,
     "speaker_raw": "SPEAKER_10",
     "testo": "Le mandorle per non avere il raffreddore?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Le mandorle per il raffreddore",
+    "tema": [
+      "salute"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -651,9 +662,12 @@
     "end": 2268.86,
     "speaker_raw": "SPEAKER_10",
     "testo": "Bravo, ma perché l'ha detto il dottor Mozzi?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il dottor Mozzi e le mandorle",
+    "tema": [
+      "medico",
+      "consiglio"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -684,9 +698,12 @@
     "end": 2272.52,
     "speaker_raw": "SPEAKER_15",
     "testo": "E l'ha detto la mia naturopata.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La naturopata e le mandorle",
+    "tema": [
+      "salute",
+      "natura"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -870,9 +887,12 @@
     "end": 2426.92,
     "speaker_raw": "SPEAKER_10",
     "testo": "Eh, lì cos'è? Liguria, immagino, da Cuneo. No, no, no. No, no, no. Dove vuoi andare, Caterina?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Caterina e la Liguria",
+    "tema": [
+      "viaggio",
+      "famiglia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -920,9 +940,12 @@
     "end": 2491.45,
     "speaker_raw": "SPEAKER_10",
     "testo": "Perché tuo marito invece vuole stare lì.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il marito e la Liguria",
+    "tema": [
+      "viaggio",
+      "famiglia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

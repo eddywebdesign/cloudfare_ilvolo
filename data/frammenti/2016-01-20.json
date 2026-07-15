@@ -326,9 +326,11 @@
     "end": 1471.41,
     "speaker_raw": "SPEAKER_06",
     "testo": "Su Ettore Scola o su Pink Floyd? No, in generale.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Pink Floyd",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -403,9 +405,11 @@
     "end": 1805.76,
     "speaker_raw": "SPEAKER_06",
     "testo": "voce di Zucconi era Zucconi che ha fatto l'hai scritto tu il testo ma poi Zucconi ha fatto il discorso da Washington senti noi che abbiamo i giornali qui la mattina quando arriviamo no abbiamo un po' diciamo quella che si chiama la mazzetta e con un po' di giornali Troveremo già dei cambiamenti qui o è tutto un cambiamento interno vostro?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Discorso da Washington",
+    "tema": [
+      "politica"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -414,9 +418,12 @@
     "end": 1819.45,
     "speaker_raw": "SPEAKER_03",
     "testo": "No, no, ma guarda ti dico una cosa fondamentale, non bisogna più ragionare sul fatto che Repubblica è un giornale, poi c'è un'altra cosa che è Repubblica.it, quello che penso io è che oggi se tu guardi come ti comporti tu, tu cosa fai e tu ti...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Non bisogna più ragionare",
+    "tema": [
+      "media",
+      "informazione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

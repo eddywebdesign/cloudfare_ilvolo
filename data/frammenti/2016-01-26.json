@@ -582,9 +582,12 @@
     "end": 1360.96,
     "speaker_raw": "SPEAKER_00",
     "testo": "Prima serata, la domanda che, siccome io non ho letto il libro e non ho visto il film Io non ho letto il libro ma ho visto il film Ieri sera hai visto il film, però non l'hai visto quando è uscito al cinema E la domanda di Viola questa mattina la chiediamo a qualcuno di voi che l'ha visto al cinema e l'ha visto ieri sera Se era un po' censurato Io spero che fosse... che fosse censurato perché non è tanto no è abbastanza spinto però mi immaginavo chissà cosa io quando ho intervistato la scrittrice non te lo ricordi perché lavoravamo già insieme lavoravamo già insieme Charlotte Street a London aveva in ufficio la sua editrice ai tempi vi ricordiamo che ha venduto qualcosa come 130-125 milioni di copie nel mondo",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Io non ho letto il libro",
+    "tema": [
+      "libro",
+      "film"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -593,9 +596,12 @@
     "end": 1378.34,
     "speaker_raw": "SPEAKER_02",
     "testo": "ok e a un certo punto durante l'intervista mi sono messo la pallina rossa in bocca sai quando i film erotici ball gag si chiama ball gag te l'ha insegnato lei io ho scritto i sottotitoli del tuo servizio quindi ho imparato ball gag no vabbè ragazzi no vabbè tu sai il nome ho tolto ho tolto",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Intervista con la pallina rossa",
+    "tema": [
+      "intervista",
+      "film"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -604,9 +610,12 @@
     "end": 1390.79,
     "speaker_raw": "SPEAKER_00",
     "testo": "tu sai il nome della pallina rossa? qui sono ignorante la pallina rossa di Pulp Fiction Pulp Fiction c'è una scena come si chiama?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Pulp Fiction",
+    "tema": [
+      "film",
+      "pulp fiction"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {

@@ -38,9 +38,12 @@
     "end": 342.84,
     "speaker_raw": "SPEAKER_08",
     "testo": "Good morning life, good morning sun, how are you? It's great to be alive and involved. Good morning life, good morning bird, sing out your happy tune. Feels so good cause I'll be seeing her soon. Buonasera Buonasera Buonasera",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Buon giorno vita, buon giorno sole",
+    "tema": [
+      "amore",
+      "vita"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -49,9 +52,12 @@
     "end": 431.84,
     "speaker_raw": "SPEAKER_00",
     "testo": "Dico bene? Cosa? 69 anni aveva David Bowie, prima di partire per le vacanze di Natale avevamo raccontato, avevamo detto che era uscito il nuovo singolo, il nuovo album, non è una morte improvvisa, nel senso che lui aveva un tumore, si sapeva da tanto tempo, quindi probabilmente anche l'uscita dell'album è stata fatta un po' più... no non da parte discografica ma proprio da parte sua lasciare ancora una cosa sapendo che aveva i giorni contati si sarà probabilmente impegnato a far uscire questo album 69 anni fa parte di quel mondo diciamo della storia della storia della musica sono rimasti vivi ormai di quel mondo lì Rolling Stones, Paul McCartney qualcuno dei Led Zeppelin due o tre degli Who tre dei Queen se si possono mettere ma i Queen magari non li metterei però adesso i fan dei Queen mi scrivono Insomma, quel modo lì, 70 anni, 70 anni, elegante.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Morte di David Bowie",
+    "tema": [
+      "morte",
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -93,9 +99,12 @@
     "end": 454.77,
     "speaker_raw": "SPEAKER_00",
     "testo": "Tu lo sai che sua moglie c'è quella famosa storia che entra in camera da letto e lo trova a letto con Mick Jagger, no? E hanno passato la notte, tutta notte nel letto, erano un po' seminudi e da lì si narra che loro abbiano avuto una...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Storia di David Bowie e Mick Jagger",
+    "tema": [
+      "amore",
+      "celebrità"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -126,9 +135,12 @@
     "end": 461.22,
     "speaker_raw": "SPEAKER_04",
     "testo": "Ma è comprovato o è una leggenda metropolitana?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Verità sulla storia di David Bowie e Mick Jagger",
+    "tema": [
+      "verità",
+      "credibilità"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -137,9 +149,12 @@
     "end": 560.32,
     "speaker_raw": "SPEAKER_00",
     "testo": "Fai conto che per dirvi quanto è figo David Bowie, i Rolling Stones, che erano già i Rolling Stones in quegli anni, Mick Jagger vedeva David Bowie come uno molto più figo di lui, perché David Bowie rompe un mondo, no? Mentre tutti dicono, eh, lui esce, si trucca, si veste da donna, cioè ha portato un po' quello che noi in Italia avevamo, avevamo Renato Zega, che usciva con le pime e mele. nella versione ovviamente adesso insomma con le dovute distanze però insomma lui è considerato quello un po' alternativo quindi non rock diretto così ci dispiace comunque insomma sentirete parlare oggi tutto il giorno di David Bowie quindi noi lasciamo anche un po' l'argomento a tutti gli altri ieri ci sono stati i Golden Globes questa notte anzi Questa notte per la precisione Golden Globe quindi è andato via un po' di premi, di attore, ne parleremo anche di quello, le prime pagine dei giornali c'è questa meravigliosa foto di Sean Penn con El Chapo, che a me El Chapo mi fa ridere il nome, non si scherza su uno che si chiama El Chapo, però El Chapo E il ciapo nel film mi viene subito spontaneo, comunque niente, è il ciapo che ha fatto arrabbiare... Personaggetto, no, non è il ciapo che ha fatto arrabbiare... No, Sean Penn, diciamo, questa situazione, Sean Penn, perché per i Rolling Stones viene mandato a intervistare nella foresta al ciapo e attorno c'ha tutti quelli lì come Narcos, c'ha tutti intorno quelli col fucile, no? Il suo esercito era attorno a Sean Penn e al ciapo mentre lo intervistavano. Fanno questa intervista, fanno la foto, bruciano un po' di foto e ovviamente la CIA si incazza perché dice lo stiamo cercando, non lo troviamo, l'ha trovato la redazione di Rolling Stone. È come da noi, non so, stanno cercando un capo dalla camorra e lo trova a TV su Riese Canzoni. Cioè Vitali, capito? Il direttore di tv e delle canzoni.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "David Bowie e la sua influenza",
+    "tema": [
+      "influenza",
+      "musica"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -159,9 +174,12 @@
     "end": 581.95,
     "speaker_raw": "SPEAKER_00",
     "testo": "Ma senti Volo, mi vuoi andare a intervistare? Ecco, c'è tutta la... i servizi segreti che lo cercano e non lo trovano. Partiamo subito con un disco di David Bowie che ha fatto la storia della musica perché questa canzone cambia completamente la sua, diciamo, di musica ma è anche di ispirazione per tutti quelli che vengono dopo. Starman.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Starman di David Bowie",
+    "tema": [
+      "musica",
+      "influenza"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -357,9 +375,12 @@
     "end": 1038.84,
     "speaker_raw": "SPEAKER_04",
     "testo": "Jennifer Lawrence con Joy. Matt Damon come miglior attore protagonista in un film comedy.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Jennifer Lawrence e Matt Damon",
+    "tema": [
+      "cinema",
+      "premi"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -368,9 +389,12 @@
     "end": 1053.98,
     "speaker_raw": "SPEAKER_00",
     "testo": "e Sylvester Stallone come attore grande non protagonista in Creed in Creed cioè non si chiama più Rocky ma si chiama Creed cioè il figlio di Apollo Creed quello lì esatto che diventa anche lui campione grazie ai consigli di Sylvester Stallone lo vedi",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Sylvester Stallone in Creed",
+    "tema": [
+      "cinema",
+      "premi"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -379,9 +403,12 @@
     "end": 1071.08,
     "speaker_raw": "SPEAKER_01",
     "testo": "il messaggio da Rudy Zerbi il fischiatore che fischiava nei pezzi di Morriconi è Alessandro Alessandroni è un compositore e direttore d'orchestra bravissimo non si può chiamare Alessandro Alessandroni si chiama così a Brescia c'è Paola Di Paola",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Rudy Zerbi e il fischiatore",
+    "tema": [
+      "musica",
+      "fame"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -412,9 +439,12 @@
     "end": 1306.6,
     "speaker_raw": "SPEAKER_00",
     "testo": "Volevo dirti che il film di Tarantino è uscito anche a Londra, io l'ho visto, scrive un ascoltatore, è bellissimo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Film di Tarantino",
+    "tema": [
+      "cinema",
+      "londra"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -434,9 +464,12 @@
     "end": 1385.78,
     "speaker_raw": "SPEAKER_00",
     "testo": "No, insomma, quello non vuol dire, però insomma, devo dire che, vabbè, lui al di là del fatto che saranno tre ore di gente che si ammazza, però diciamo dal punto di vista registico, cioè diciamo del movimento di macchine, è proprio un maestro. cioè uno non vince mai a caso dicono vince perché è di moda no lui è proprio uno che tecnicamente capito quando uno vede i quadri di Picasso hai mai sentito nella tua vita quanti anni hai adesso Viola? 31 hai mai sentito in 31 anni uno dire lì potrebbe fare anche mia figlia di 3 anzi mia figlia di 3 li fa anche meglio ci sono quelli che commentano così no? esatto ecco io per esempio però lui per esempio non so se mi hai visto invece i disegni quelli normali diciamo non non in quello stile cubistico come era bravo a disegnare cioè nel senso lui ha detto che ci ha voluto una vita intera per dimenticare quello che aveva imparato per poter essere così libero nelle sue cose allora abbiamo detto c'è anche Lady Gaga miglior attrice serie televisiva per American Horror Story ok E in italiano, scusate che faccio quello lì che sembra un po' il fighetto, non lo so in italiano. Però insomma il titolo del film che dicevo prima, con la Lawrence, De Niro e Cooper, sì, il lato positivo. Silver Linings.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Regia di Tarantino",
+    "tema": [
+      "cinema",
+      "arte"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -456,9 +489,12 @@
     "end": 1415.51,
     "speaker_raw": "SPEAKER_00",
     "testo": "Quindi lo stesso regista e lo stesso cast hanno fatto questo joy che pare sia molto divertente. Adesso tu Maurizio devi decidere. Sì. Due cose prima di andare nella pubblicità. Sì. Ok. Se mettere un pezzo del film in lato positivo o se mettere il discorso di Sylvester Stallone quando ieri ha ritirato il premio. Il discorso di Sylvester Stallone. Allora vince come miglior attore non protagonista Sylvester Stallone.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Regista e cast di Joy",
+    "tema": [
+      "cinema",
+      "divertimento"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -467,9 +503,12 @@
     "end": 1423.77,
     "speaker_raw": "SPEAKER_10",
     "testo": "è il suo discorso cioè lui si fa chiamare Rocky nella vita privata certo, certo",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Discorso di Sylvester Stallone",
+    "tema": [
+      "cinema",
+      "premi"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -478,9 +517,12 @@
     "end": 1495.83,
     "speaker_raw": "SPEAKER_00",
     "testo": "va in giro anche con i pantaloncini tu ti sei mai chiesto la moglie di Silvestre Stallone quando fanno l'amore che coraggio adesso a me sembra che ha preso un boiler in faccia però insomma ha i suoi anni lascia stare ma la domanda è lei va a letto e in quel momento lì quello che fa l'amore con lei è sia Rambo che Rocky cioè cosa c'è di più nella vita no? eh sì guarda che se ci pensi ieri ho fatto l'amore con Rambo e Rocky insieme allora possiamo anche smettere di parlare di cinema e andare incontro a un'ascoltatrice che dice avrei bisogno di un consiglio da voi ragazzi il mio collega mi rende così nervosa perché non fa niente vorrei essere aiutata da voi perché io cerco di stare calmo ma mi nervosisce la capisco la capisco anche io la capisco vabbè non guardate non guardate",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Sylvester Stallone e la moglie",
+    "tema": [
+      "amore",
+      "umorismo"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -489,9 +531,12 @@
     "end": 1694.58,
     "speaker_raw": "SPEAKER_12",
     "testo": "Ho leccato via il sale dagli occhi per saperti più forte degli altri Ho nascosto le pieghe del nostro cuscino perché tu non possa annoiarti Ho rubato un odore dai sensi, ti ho sentito col naso che menti Ho tenuto per stretto tra i denti il respiro per non far sapere i tormenti Ho sentito il rumore del cielo diventare ogni giorno più grande Ho copiato il fastuomo che fanno anche gli alberi quando la vita è ingombrante Ho ingoiato il sudore del mare indossando le nuvole grigie Ho capito che tutto appartiene al resto che manca non solo se esiste. Vivere non è abbastanza se non c'è distanza che non ti permetta di desiderare. Perdersi per poi riprendersi non è dividersi, siamo sostanza che non può sparire. Ho strappato le ali dai sogni, per cadere ogni volta sui tetti, preferisco restare coi gatti sul mondo che tanto comunque ritorni, e ti accorgi che quello che senti ha radice nel posto dei santi, ma tradotto nei gesti dell'uomo che sbaglia ogni volta si torna perdenti, ho imitato le nuove stagioni. Per cambiare la pelle del giorno Ho coperto ogni singola parte di pelle del corpo con pedali e fiori Ho chiamato per nome quei santi, troppo comodi, troppo distanti E ho convinto ad avere paura di quelli che giocano a fare i potenti Vivere non è abbastanza se non c'è distanza che non ti permetta di desiderare Perdersi, per poi riprendersi, non è difficile Siamo sostanza che non può sparire Vivere non è abbastanza se Non c'è una danza che Non ti convinca di poter volare liberi Senza rinchiudersi E infine arrendersi A questa stanza che non sa dormire Mi sono accorto proprio adesso Che non ammuri quest'inverno, dagli occhi passa solo vento, porta via con sé il rimpianto di un cielo che non si è più spento, illudimi che adesso posso. Vivere non è abbastanza se non c'è una danza che Non ti convinca di poter volare in viverì Senza rinchiudersi e infine arrendersi A questa stanza che non sa dormire A questa stanza che non sa dormire In questa stanza che non sa dormire",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Poema d'amore",
+    "tema": [
+      "amore",
+      "poesia"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -775,9 +820,12 @@
     "end": 2097.36,
     "speaker_raw": "SPEAKER_04",
     "testo": "io per quanto non valga niente consiglio di andare a controllare la sua cronologia a meno che non abbia la cronologia del computer e poi fai stampi e fai la spia poi glielo dici ridendo ridendo tipo ma allora alla passo sai come si chiama la sua parola?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La spia nel computer",
+    "tema": [
+      "lavoro",
+      "collega"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -786,9 +834,12 @@
     "end": 2164.11,
     "speaker_raw": "SPEAKER_00",
     "testo": "sgobbone Madonna che nervi Guarda Così come non c'è niente che mi affascina di più Nel vedere una persona che sa fare una cosa Qualsiasi lavoro sia Dal falegname all'attore Quando io vedo uno con le mani Rimango incantato Quando vedo uno che o non si impegna O che lavora per lo stipendio Mi viene Me lo passi? no ti creo un problema non me lo puoi passare Antonio Daluca mi dai l'interno che lo chiamo e io gli dico non ti posso dire chi sono hai rotto che non fai un caso mi dai l'interno dammi l'interno chiamo anonimo ma voi lo sanno che sono io sono l'unica che sta in ufficio con le cuffiette Ma non dico che sono radio DJ, io dico scusami lui è Antonio Daluca mi dirà il nome vero, tu sei Maria D'Ancona e io dico che sono Piero da Bergamo, lo chiamiamo, se non ti metti a lavorare ti sparisce la macchina, sappiamo dove vai in palestra, lo spaventiamo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'importanza del lavoro",
+    "tema": [
+      "lavoro",
+      "impegno"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -830,9 +881,12 @@
     "end": 2388.67,
     "speaker_raw": "SPEAKER_00",
     "testo": "ascoltatori che scrivono la pubblica amministrazione è piena di gente che deve lavorare il doppio perché un collega lavora meno mia moglie lavora nell'ambito ospedaliero tu non sai cosa è successo ma sono arrivate molti messaggi qualcuno invece ha sostegno di questo che ci siamo inventati il nome Antonio Dalluca Antonio Dalluca ha tanti sostenitori ha tanti sostenitori uno addirittura vive al fancazzismo così adesso noi Viola che voi non sapete ma è una delle peculiarità di questa ragazza sono le imitazioni ma",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La pubblica amministrazione",
+    "tema": [
+      "lavoro",
+      "amministrazione"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -874,9 +928,12 @@
     "end": 2534.25,
     "speaker_raw": "SPEAKER_00",
     "testo": "Sul Sagrato, un gruppo di fan di De Andrè si troverà con la chitarra.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Fan di De André con chitarra",
+    "tema": [
+      "musica",
+      "deandré"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -896,9 +953,12 @@
     "end": 2540.14,
     "speaker_raw": "SPEAKER_00",
     "testo": "Si chiama schitarrata anarchica e cantano le canzoni di De Andrè con la chitarra.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Schitarrata anarchica di De André",
+    "tema": [
+      "musica",
+      "deandré"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -940,9 +1000,12 @@
     "end": 2555.52,
     "speaker_raw": "SPEAKER_00",
     "testo": "Si porti la chitarra e la cosa e facciamo dei pezzi. Noi ovviamente abbiamo ricordato David Bowie, non possiamo dimenticarci di De Andrè.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Riferimento a David Bowie",
+    "tema": [
+      "musica",
+      "bowie"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -951,9 +1014,12 @@
     "end": 2633.49,
     "speaker_raw": "SPEAKER_06",
     "testo": "È una specie di elogio della solitudine. Si sa, non tutti se la possono permettere, non se la possono permettere i vecchi, non se la possono permettere i malati, non se la può permettere il politico, un politico solitario è un politico fottuto di solito. Però, sostanzialmente, quando si può rimanere soli con se stessi, io credo che si riesca ad avere più facilmente contatto con il circostante. Il circostante non è fatto soltanto di nostri simili, direi che è fatto di tutto l'universo, dalla foglia che spunta di nozze fino alle stelle. e ci si riesce ad accordare meglio con questo circostante si riesce a pensare meglio ai propri problemi credo addirittura che si riescano a trovare anche delle migliori soluzioni e siccome siamo simili ai nostri simili credo che si possano trovare soluzioni anche per gli altri non è che si debba fare gli eremiti è che ho constatato attraverso la mia esperienza di vita mi sono reso conto che un uomo solo non mi ha mai fatto paura Invece l'uomo organizzato mi ha sempre fatto molta paura.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Solitudine e contatto con il circostante",
+    "tema": [
+      "solitudine",
+      "riflessione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

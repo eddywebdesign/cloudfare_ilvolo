@@ -212,9 +212,12 @@
     "end": 803.98,
     "speaker_raw": "SPEAKER_02",
     "testo": "disannuncia tu dai talisco come si chiama aspetta che prendo la copertina prendi la copertina hai baffi talisco porta gli occhiali talisco talisco your wish your wish i tuoi desideri no cosa desideri your wish va bene volevo dirti una cosa bella del volo del mattino no che ti ricordi ieri sono arrivati dei dati stupendi che a chi si loda si broda lasciamo stare ma la cosa bella è il senso del gruppo del fatto che siamo qui una famiglia bravi o non bravi, belli o non belli noi siamo qua, ci facciamo compagnia tutte le mattine ormai da anni abbiamo fatto su un bel gruppetto come si dice La settimana scorsa ha chiamato un'ascoltatrice che raccoglieva le fragole, se te lo ricordi. Sì, mi ricordo. Ok, si chiamava Chiara di Imola. Ne abbiamo parlato, ha detto, fatti un po' di pubblicità. Oh, non sono andati degli ascoltatori della famiglia, di voi al mattino? Chiara! Pronto? Io conosco DJ di radio, ok, che si farebbero dare dei soldi per la pubblicità. no dai sto scherzando senti Chiara allora scusami hai fatto pubblicità hai raccontato la tua famosa confettura di pesche e lavanda sono venuti a chiederti proprio quelle esatto una coppia di conselice sono venuti perché erano curiosi di vedere se era vero e hanno preso il pesto ma scusami ma si sono avvicinati dicendo ciao siamo ascoltatori del vuoto del mattino sì sì sì io tra l'altro stavo caricando stavi sempre piegata raccoglie le fragole comunque la metti sempre un po' sull'erotico tu questa cosa no",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "I tuoi desideri",
+    "tema": [
+      "musica",
+      "desideri"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -256,9 +259,12 @@
     "end": 912.83,
     "speaker_raw": "SPEAKER_02",
     "testo": "Cioè tu hai lasciato l'ufficio con la tua amica e sei andato in questa azienda di tua nonna e stai cercando di portare avanti queste cose.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Lavoro e amica",
+    "tema": [
+      "lavoro",
+      "amici"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -267,9 +273,12 @@
     "end": 925.28,
     "speaker_raw": "SPEAKER_01",
     "testo": "Esatto, questa è mia amica, ha una biscotteria naturale, lei sapeva che avevo la lavanda, glielo ho data e ha fatto i biscotti alla lavanda.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Biscotti alla lavanda",
+    "tema": [
+      "cucina",
+      "lavanda"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -289,9 +298,12 @@
     "end": 994.32,
     "speaker_raw": "SPEAKER_01",
     "testo": "faccio pubblicità anche alla mia amica ma si dai si chiama è bravissima ma sono belle storie queste e guarda sono fantastici perché rinfrescano un sacco la bocca e da lì ho detto ascolta ho la lavanda potrò fare qualche ricetta e mi hanno consigliato la pesca lavanda e piace tantissimo adesso non so se farò anche la fragola e lavanda lavanda con tutto eccoci allora senti Chiara dai ridi il nome perché è una bella storia questa poi quando mi hai detto che l'azienda di tua nonna mi piace ancora di più che hai lasciato l'ufficio il computer le cose ti sei messa lì a fare le fragole le marmellate Chiara Boschi azienda agricola anzi Boschi Chiara c'è il cartello adesso ho fatto anche una cosa un po' carina con legno l'hai fatta tu con legno no ho fatto la grafica io e poi l'ho fatto stampare o almeno unisco anche i miei vecchi",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ricette con lavanda",
+    "tema": [
+      "cucina",
+      "lavanda"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -355,9 +367,12 @@
     "end": 1277.24,
     "speaker_raw": "SPEAKER_02",
     "testo": "Io già lo faccio... tu l'hai mai comprato quei robottini? io ho sempre avuto la tentazione di comprare quei robottini perché quel robottino lì gira che pulisce casa a me la cosa che mi affascina è che quando lui è stanco che va giù di batteria lui torna a casa e si ricarica però non è stupenda questa parte qua di là che pulisce per terra tu lo attacchi lui va in giro vai via sai che c'è? andiamo a casa torna indietro va dentro nel suo garagino flup si ricarica e poi riparte a pulire guarda che è un po' come il bambino la sera lo buttiamo lì esatto esatto dai ma a proposito di indovina chi ieri avevate anche detto che avreste fatto le playlist a richiesta possiamo far tutto ragazzi questo è il nostro ultimo mesetto cerchiamo di accontentarvi tutti che playlist vogliamo fare oggi? ascoltatori che dicono di avere il vino preso lì dove hanno girato il film un'ottima annata lo vuoi Maurizio?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Robottini e pulizia",
+    "tema": [
+      "tecnologia",
+      "pulizia"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -670,9 +685,12 @@
     "end": 2303.23,
     "speaker_raw": "SPEAKER_02",
     "testo": "noi abbiamo fatto la centrale del latte da bambini il giornale di Brescia io tutte le centrali del latte le ho fatte no no falli venire non c'è problema noi anzi ci piacciono va bene quindi vi faccio sentire queste parole bellissime che in qualche modo vi dovrebbero dare un po' di piacere chiamala così oi vita il nome vita come ti chiami vita il cognome de merda",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Vita il nome",
+    "tema": [
+      "amore",
+      "identità"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -729,9 +747,12 @@
     "end": 2719.45,
     "speaker_raw": "SPEAKER_02",
     "testo": "attenzione ieri un ascoltatore ha scritto lo trovo un po' troppo affermativo salta fuori che fai delle cose ogni tanto ho fatto delle cose quando ero giovane sai che ogni ragazza nella sua storia di ragazza poi dopo donna nella sua storia ha sempre quello che ha chiamato con le amiche scusate se avete dei bambini nascosti il merda, lo stronzo cioè quelli che le hanno strappato un po' il cuore e anche il corpo però erano un po' stronzetti tu sei mai stato il merda di una? no è un bel soprannome se vuoi chiamami tu sai chi mi ha chiamato ieri? il merda però il merda ce l'hai sempre un po' nel cuore perché il merda picchia duro non hai un altro indovina chi per finire ti avevo portato da parlarne con gli ascoltatori anche se ormai il programma è quasi finito questa storia dei Los Angeles non l'ho ancora detta dei Los Angeles Clipper sai che lui ha detto non ci piace questo ne parliamo domani?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Storia di ragazze e ragazzi",
+    "tema": [
+      "amore",
+      "relazioni"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -740,9 +761,12 @@
     "end": 2741.44,
     "speaker_raw": "SPEAKER_11",
     "testo": "guarda che è una bella storia fermi tutti ce l'ho vado con le domande? è un attore? no è un cantante? no è un politico? è simpatico? no è alto?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Brunetta",
+    "tema": [
+      "politica",
+      "identità"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {

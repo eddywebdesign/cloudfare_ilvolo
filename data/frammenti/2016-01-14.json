@@ -49,9 +49,11 @@
     "end": 262.13,
     "speaker_raw": "SPEAKER_04",
     "testo": "voi ragazzi che ci state ascoltando in questo momento e state aspettando l'inizio del volo del mattino avete la fortuna di sentire questa canzone no? del 2015 di Sophie Tucker già la versione remix solo per il volo del mattino ed è una versione che fa Maurizio tutte le volte che questo disco va in onda noi spegniamo i microfoni e Maurizio comincia e tu la metti sotto se tu la metti sotto lì dall'inizio quando attacca e tu fai così mi viene sempre da ridere Buongiorno, 9 e 7 minuti, buongiorno Stefania, la stellin non c'è, chi c'è oggi al posto della stellin? La Chiara, la Chiara, non ti sei neanche informato prima di arrivare È entrata, ha alzato la mano, ma aveva il dolce vita fino al naso. Poi ha gli occhiali, aveva il ciuffo giù. Io pensavo fosse uno del bar che aveva portato un toast o qualcosa, non so. Abbiamo Maurizio, abbiamo la Viola e abbiamo tante belle notizie. Oh, allegria, allegria. Come state?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Sophie Tucker remix 2015",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -258,9 +260,12 @@
     "end": 1015.42,
     "speaker_raw": "SPEAKER_04",
     "testo": "due ti è rimasto un poco di Cosenza addosso?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Cosenza",
+    "tema": [
+      "casa",
+      "origini"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -280,9 +285,12 @@
     "end": 1032.89,
     "speaker_raw": "SPEAKER_04",
     "testo": "Non cambierò mai. Allora, quanti hai detto che ne hai, scusami, di figli? Due. Due figli. Tu, tua moglie e i due figli, ve ne andate dove ti piacerebbe andare? Cioè, gli Stati Uniti, la Thailandia, l'Australia?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "5 milioni di euro",
+    "tema": [
+      "soldi",
+      "scelta"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -291,9 +299,12 @@
     "end": 1038.54,
     "speaker_raw": "SPEAKER_06",
     "testo": "Ma guarda, a me piace di più l'Europa, quindi se potessi scegliere, scegliere un paese europeo, magari uno del nord, però...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Europa",
+    "tema": [
+      "viaggi",
+      "scelta"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -324,9 +335,12 @@
     "end": 1169.14,
     "speaker_raw": "SPEAKER_04",
     "testo": "Aspetta, adesso dovrei dire una cosa, però dobbiamo toccarci con io perché è un po' schifo. Aspetta, aspetta, aspetta. No, non lo posso dire perché magari la gente ferma, lo so. Se ti dicessero che fra tre anni non ci sono più i tuoi genitori,",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "genitori",
+    "tema": [
+      "genitori",
+      "morte"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -335,9 +349,12 @@
     "end": 1192.94,
     "speaker_raw": "SPEAKER_06",
     "testo": "eh vabbè allora a quel punto che devo fare accetto i soldi però sarebbe però gli ultimi tre della loro vita che sono i più importanti a maggior ragione appunto sapendo che mi resterebbero solo tre anni a quel punto davvero nessuna cifra sarebbe vedi che bravo Vincenzo bravo tu sei uno che prende 20.000 al mese si capisce da come parli che tu c'hai un bonifico",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "soldi e genitori",
+    "tema": [
+      "soldi",
+      "genitori"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -346,9 +363,12 @@
     "end": 1211.61,
     "speaker_raw": "SPEAKER_04",
     "testo": "tu alla fine del mese vai lì col banco ma ti dice vuoi vedere la tua posizione tu si fammi godere che stanno arrivando i venti la ricaricabile faccio 5 euro oggi che lavoro fai?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "banco",
+    "tema": [
+      "banca",
+      "soldi"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -357,9 +377,12 @@
     "end": 1231.02,
     "speaker_raw": "SPEAKER_06",
     "testo": "io faccio il medico qui sono 25 faccio un medico con un contratto di schifo quelli cococro maledetti quelle porcherie incredibili quindi no non sono un medico niente niente senti bravo",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "medico",
+    "tema": [
+      "lavoro",
+      "medico"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -434,9 +457,12 @@
     "end": 1563.97,
     "speaker_raw": "SPEAKER_04",
     "testo": "ci sarebbe un messaggio che dice io ho perso il babbo quando avevo 16 anni e la mamma ha 34 ne ho 36 se avessi 5 milioni di euro li ridarei tutti indietro pur di passare un anno con loro è figata che bei valori che escono da questo programma e chi meglio dei Duran Duran Con Ordinary World. Oddio. 1993, avevamo le spalline sotto le giacche. Qualche donna le metteva anche sotto la spallina del reggiseno quando aveva la camicia, per non farle scivolare fuori. E le donne avevano i peli sotto le ascelle.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Duran Duran – Ordinary World",
+    "tema": [
+      "soldi",
+      "valori"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -478,9 +504,12 @@
     "end": 2018.3,
     "speaker_raw": "SPEAKER_07",
     "testo": "allora qualche tempo fa è uscito quel film stupendo che si chiama Dio esiste e vive a Bruxelles ok non c'è da spoilerare già dal trailer si capisce per cui non sto facendo spoiler ok tira tutto intorno al fatto che a un certo punto tutte le persone del mondo sanno la data gli arriva un sms con la data precisa della loro morte prima gli arriva la telefonata della team della Vodafone abbiamo un'offerta allora",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Film Dio esiste e vive a Bruxelles",
+    "tema": [
+      "morte",
+      "destino"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -555,9 +584,12 @@
     "end": 2139.95,
     "speaker_raw": "SPEAKER_04",
     "testo": "Quindi ti muoiono tutti, come nel film di Adeline.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "film di Adeline",
+    "tema": [
+      "morte",
+      "film"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -577,9 +609,12 @@
     "end": 2160.84,
     "speaker_raw": "SPEAKER_04",
     "testo": "Di cui vogliamo parlare, ma sono già le 9.43. No, perché voglio mettere anche Jeff Buckley stamattina. Intanto mettiamo on. Oggi è uscita la notizia che Jeff Buckley uscirà un album inedito e noi il volumettino dobbiamo essere sul pezzo. Fa cover dei Led Zeppeli, fa il cover di Bob Dylan.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "album inedito di Jeff Buckley",
+    "tema": [
+      "musica",
+      "Jeff Buckley"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -632,9 +667,12 @@
     "end": 2755.11,
     "speaker_raw": "SPEAKER_00",
     "testo": "poiché non sappiamo quando moriremo si è portati a credere che la vita sia un pozzo inesauribile però tutto accade solo un certo numero di volte un numero minimo di volte quante volte vi ricorderete di un certo pomeriggio della vostra infanzia un pomeriggio che è così profondamente parte di voi che senza neanche riuscireste a concepire la vostra vita forse altre quattro o cinque volte forse nemmeno Quante altre volte guarderete levarsi la luna? Forse venti. Eppure tutto sembra senza limite.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "la vita è limitata",
+    "tema": [
+      "vita",
+      "tempo"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -665,9 +703,12 @@
     "end": 2897.94,
     "speaker_raw": "SPEAKER_04",
     "testo": "Perché tutti gli anni noi vinciamo il premio? Perché noi cazzeggiamo e mettiamo per quelli che vogliono riflettere dei punti di impressione. Diciamo, una cazzà è una cosa seria. Mettiamo Jeff Bagley, ho capito, mettiamo Jeff Bagley, e poi mettiamo un pezzo, che cos'era questo? Il tè nel deserto, no? Sì. Il tè nel deserto, famoso fin di... non lo so dimmelo Ben Stiller viene Ben Stiller in Italia per gli amanti di Zoolander questo film è caldo ne abbiamo parlato tanto l'uno del mattino hanno rifatto Zoolander 2 e quindi viene Ben Stiller fra due settimane a Roma a fare la prima, c'è anche una festa a Zoolander io sono stato invitato poi non so se andrò però io dovrei sono stato invitato allora io venerdì vado a Roma perché devo andare a fare il Kung Fu Panda lì il trailer che fra un po' esce il Kung Fu Panda tra l'altro mi esce il Kung Fu Panda mentre mi esce anche un film dove invece sono io con la voce del panda che creerà confusione creerà confusione ti dico andiamo a vedere il film di Fabio Volo ma quale? Quello dove Ciccione? Sì e allora vado a vedere il film normale e poi rimango lì a dormire perché la sera c'è la prima del film di DiCaprio e c'è DiCaprio a Roma non ti ha telefonato ieri Maurizio? te l'ho messo dentro nel gruppo di Whatsapp siamo io ci vai almeno da DiCaprio vado all'anteprima quindi c'è un via vai di super attoroni che vorrei intervistare per il volo del mattino ma sono difficili da raggiungere Vabbè fai una nota vocale così Allora io adesso ho fatto il gruppo Whatsapp Ci siamo io, Maurizio Di Caprio Di Caprio manda solo foto Di donne nude Come tutti i miei amici sposati Vai dentro nella chat di Whatsapp Il pomeriggio ti arrivano culi, tette E dico ma non lavorate voi Guarda questo Poi bisogna stare attenti Tu pensi di cancellarlo Invece lo archivi",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il tè nel deserto",
+    "tema": [
+      "film",
+      "Ben Stiller"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   }
 ]

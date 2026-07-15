@@ -27,9 +27,12 @@
     "end": 234.57,
     "speaker_raw": "SPEAKER_03",
     "testo": "Adventure of a lifetime, 2015, the new song of the Coldplay. This is Radio DJ, this is the Morning Fly, 9-7 in the morning, buongiorno a tutti. Ma cosa ho detto? Ma chi lo sa?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Adventure of a lifetime",
+    "tema": [
+      "musica",
+      "canzone"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -102,9 +105,12 @@
     "end": 532.42,
     "speaker_raw": "SPEAKER_03",
     "testo": "Gli ascoltatori del Vuoto del Mattino, cioè quelli che ci ascoltano, io proprio li voglio bene come se fossero tutti figli miei, sono qua da quasi 15 anni, abbiamo fatto le poesie, abbiamo fatto i film, ho portato tutte le persone interessanti che ho conosciuto nella vita e le ho portate qua per condividere, perché io sono proprio, li amo, siamo qua tutte le mattine nel bene e nel male. Adesso noi parliamo con te di questa cosa, per esempio del... Io all'inizio dell'anno faccio la lista delle cose da fare, quello che si fa durante il giorno, e dico voglio fare questo, quest'anno devo riuscire, mi metto degli obiettivi sempre, ci sono quelli a lungo termine, cioè entro cinque anni, e quelli diciamo...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ascoltatori del Vuoto del Mattino",
+    "tema": [
+      "ascoltatori",
+      "radio"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -262,9 +268,12 @@
     "end": 1141.88,
     "speaker_raw": "SPEAKER_01",
     "testo": "Ecco, il suo principio è perfetto, perché dice, guarda, uno se ci riesce, se ti impegni dopo una giornata, riesce a fare un desiderio serio. fanne centinaia perché per uscire a desiderare sul serio uno deve superare tanti di quegli ostacoli dentro che tutta la sua vita viene ribaltata non solo viene ribaltato il mondo diciamo prima desiderare desiderare vuol dire al tempo dei latini gli astrologi antichi l'astrologia era tutto per cui le stelle determinavano tutto il potere, le possibilità, la psicologia, lo stato d'animo il mondo intero desiderare vuol dire uscire dal mondo trovarne un altro è una fatica terribile è quella che ha fatto tutti i grandissimi e che ognuno può fare per conto suo quando comincia a guardarsi dentro a vedere quello che gli piace e quello che non gli piace è terribile all'inizio guardarsi dentro e dire cosa voglio non lo so c'è una stanza non apparecchiata forse perché uno non è stato educato a chiederselo",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Superare ostacoli per desiderare",
+    "tema": [
+      "desiderio",
+      "ostacoli"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -301,9 +310,12 @@
     "end": 1293.69,
     "speaker_raw": "SPEAKER_03",
     "testo": "E tu devi sorridere a tutti quelli che entrano in casa. Cioè non puoi essere maleducato e piangere con la zia e ridere col cugino.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Sorridere a tutti",
+    "tema": [
+      "sorriso",
+      "ospitalità"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -312,9 +324,12 @@
     "end": 1386.79,
     "speaker_raw": "SPEAKER_01",
     "testo": "Tu devi fare appugni col compagno. Tu devi prendere il voto di quella signora lì che è la tua maestra che però è disturbata. Tu devi fare tutte queste cose qui e tu continui a sentire dentro che è sbagliato. però ti dicono tutti che è giusto allora devi scegliere metti che tu hai tre anni e ti dico tu senti che è una cosa sbagliata e tutti gli altri dicono che è giusto non puoi pensare di essere in mano degli incompetenti perché a tre anni se ti accorgi che i tuoi genitori cosa fai? cioè pigli tre pannolini e scappi non arrivi neanche ai pulsanti ti adegui al contesto in cui vivi sociale, familiare a tre anni non arrivi neanche ai pulsanti dell'ascensore cosa fai fuori? trovi un lavoro chiedi un passaggio pensi che lo stupido sei tu pensi che il cattivo sei tu possiamo dire che da lì si genera uno dei grandi problemi cioè non lo merito il senso di colpa è non lo merito è la stessa cosa Steso di colpa vuol dire io vedo che un altro è più bravo di me, ed è giusto così. però è giusto per loro o per me è sbagliato questo è un sintomo vuol dire che tu sei molto di più di quello che sei però non riesci a esserlo e vedi gli altri che ti passano davanti invece di vedere quelli normali sei sensibile alla sconfitta ok uno è sensibile alla sconfitta e naturalmente se la tira addosso in continuazione poi ci sono le scene classiche la persona che trova il grande amore della sua vita e comincia a litigarci furiosamente beh Perché? Perché non se lo merita. Non è che non se lo merita, pensa io non me lo merito.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Scegliere tra giusto e sbagliato",
+    "tema": [
+      "giusto",
+      "sbagliato"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -351,9 +366,12 @@
     "end": 1430.1,
     "speaker_raw": "SPEAKER_03",
     "testo": "nella riuscita, nel venir bene nel successo aborro il principio di vincitore di stare bene mentre tu parli la viola con la testa annuisce quindi adesso mettiamo un bel disco se avete domande ovviamente noi siamo qua Everybody loves the things you do",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Everybody loves the things you do",
+    "tema": [
+      "musica",
+      "canzone"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -437,9 +455,12 @@
     "end": 1827.14,
     "speaker_raw": "SPEAKER_04",
     "testo": "con Deus mi dito, con Deus mi levanto, conmigo eu calo, conmigo eu canto, eu bato e um papo, eu bato e um ponto, eu tomo um drink e eu fico tonto",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Con Deus mi dito",
+    "tema": [
+      "musica",
+      "canzone"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {

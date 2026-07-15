@@ -5,9 +5,11 @@
     "end": 3.77,
     "speaker_raw": "SPEAKER_17",
     "testo": "Radio DJ One Nation One Station One Love Turn your magic on",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Turn your magic on",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -623,9 +625,12 @@
     "end": 1769.88,
     "speaker_raw": "SPEAKER_12",
     "testo": "Sì sono nella nuova versione però quella versione lì la facevo a fine anni 90 quando iniziai a fare queste cose qui un po'.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "versione degli 883",
+    "tema": [
+      "musica",
+      "anni 90"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -645,9 +650,12 @@
     "end": 1781.44,
     "speaker_raw": "SPEAKER_12",
     "testo": "Sì, di base ha una passione verso gli 823 e i Max Speciali, sicuramente.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Max Speciali",
+    "tema": [
+      "libri",
+      "fantascienza"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -678,9 +686,12 @@
     "end": 1820.84,
     "speaker_raw": "SPEAKER_13",
     "testo": "ufficiale aspetta un attimo perché adesso voglio sentire come la canti ma vuoi che prima proviamo a chiamare Max Pezzali se mi risponde credo di sì e poi tu gli canti un pezzo potrebbe anche essere no no perché ti abbiamo chiamato ma noi l'avevamo organizzata un po' vediamo se Max risponde perché non è un orario facile adesso la viola lo chiama",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Max Pezzali",
+    "tema": [
+      "libri",
+      "biografia"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -757,9 +768,12 @@
     "end": 1897.64,
     "speaker_raw": "SPEAKER_13",
     "testo": "Allora, sto ragazzo non ti ha mai parlato e sei praticamente una specie di Vergine Maria, allora adesso io faccio cantare un pezzo di una canzone e tu mi devi dare il voto, devi dire secondo te, da te, come ti senti. Perfetto, perfetto. Perfetto. Michele vuoi salutare Max che sarai contento di parlarci.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Vergine Maria",
+    "tema": [
+      "religione",
+      "immagine"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -768,9 +782,12 @@
     "end": 1905.43,
     "speaker_raw": "SPEAKER_12",
     "testo": "Sì, ciao Max. Ciao Michele. È un onore finalmente. Siamo andati vicino e ci stiamo parlando quindi è già un sogno questi rally.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Rally",
+    "tema": [
+      "sport",
+      "avventura"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -779,9 +796,12 @@
     "end": 1918.96,
     "speaker_raw": "SPEAKER_13",
     "testo": "ma ci mancherebbe fossero così affrontabili i sogni noi quest'anno nel 2016 realizziamo i sogni degli ascoltatori allora dove sei in questo momento Michele?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Realizzare sogni",
+    "tema": [
+      "sogni",
+      "realizzazione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -790,9 +810,12 @@
     "end": 1930.05,
     "speaker_raw": "SPEAKER_12",
     "testo": "perché Max è sul treno anche tu sei sul treno però su un tram sono in macchina in pulmino sto rientrando da una data fatta ieri sera sono in viaggio",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Viaggio",
+    "tema": [
+      "viaggio",
+      "avventura"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -815,9 +838,12 @@
     "end": 1950.42,
     "speaker_raw": "SPEAKER_12",
     "testo": "Diciamo che è un po' versione liscio, sai quei pulmini che...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Pulmino",
+    "tema": [
+      "viaggio",
+      "avventura"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -840,9 +866,12 @@
     "end": 1965.15,
     "speaker_raw": "SPEAKER_12",
     "testo": "Magari i pulmini precari, no? Bisogna un po' pregare perché funziona.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Pulmino precario",
+    "tema": [
+      "viaggio",
+      "avventura"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -851,9 +880,12 @@
     "end": 1968.84,
     "speaker_raw": "SPEAKER_08",
     "testo": "Quei Ducati ancora col cambio al volante.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ducati",
+    "tema": [
+      "viaggio",
+      "avventura"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

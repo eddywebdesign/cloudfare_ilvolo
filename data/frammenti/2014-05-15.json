@@ -38,9 +38,12 @@
     "end": 364.28,
     "speaker_raw": "SPEAKER_01",
     "testo": "con tu Bernali compagni di pranzi e di cene spezziamo il pane facciamo mille atti assieme la scoperta di un nuovo continente l'irresistibile ascesa di un capo il pianto sfrenato di una vedova nulla sono in confronto al gesto di un amico amici un detto greco dice non ci sono amici ma che mi importa dei greci",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La scoperta di un nuovo continente",
+    "tema": [
+      "amici",
+      "amicizia"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -49,9 +52,12 @@
     "end": 370.03,
     "speaker_raw": "SPEAKER_08",
     "testo": "Un gesto di un amico vale più di qualsiasi cosa.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Un gesto di un amico",
+    "tema": [
+      "amici",
+      "amicizia"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -60,9 +66,12 @@
     "end": 405.15,
     "speaker_raw": "SPEAKER_05",
     "testo": "Questa notte ho consultato il cuore senza alcun dottore ed il cuore va risposto a questo mal d'amore. Per parirci è solamente un modo, vuoi sapere come si fa? Si fa spesso chiodo, scaccia chiodo e riprovi la felicità. Chi è più felice di me Volrà scordarmi di te Ma detto il cuore se cercherai Ritroverai l'amore Fin quando c'è gioventù Sorridi sempre di più",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Chi è più felice di me",
+    "tema": [
+      "amore",
+      "felicità"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -93,9 +102,12 @@
     "end": 514.3,
     "speaker_raw": "SPEAKER_07",
     "testo": "A proposito di gesti d'amico però...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "A proposito di gesti d'amico",
+    "tema": [
+      "amici",
+      "amicizia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -104,9 +116,12 @@
     "end": 531.73,
     "speaker_raw": "SPEAKER_08",
     "testo": "sai chi è Fibonacci? ho detto Fibonacci le sequenze numeri Fibonacci lui si era un matematico è giusto non lo so il fratello di Monica Fibonacci la gran patata di Monica Fibonacci no ecco quella roba lì ok qual è il gesto d'amico che ti aspetti?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Fibonacci",
+    "tema": [
+      "matematica",
+      "amici"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -148,9 +163,11 @@
     "end": 750.03,
     "speaker_raw": "SPEAKER_08",
     "testo": "Quelle canzoni che conoscono un po' tutti, magari non si ricordano del titolo, vuoi dirlo tu? Big Yellow Taxi Johnny Mitchell? Sì Ok, ero un po' preoccupato Maurizio, esco un attimo dal nostro discorso perché stavo guardando qui, avevo acceso qui su Sky ed erano già quasi 15-20 secondi che non c'era la scritta Renzi Mi sono un po' preso male, un po' come se leggi Repubblica e non si parla bene di Renzi. Sono quella che mi dice, cosa sta succedendo qua? Invece adesso è già uscito, ok, Renzi era parlato in prefetto. ok no perché poi vanno giù le certezze allora una cosa Maurizio sì un'ascoltatrice ormai facciamo il programma con gli ascoltatori un'ascoltatrice dice oh ma non ci dite oggi chi nasce io vi ascolto solo per quello c'è gente che ci ascolta solo per se perché noi ricordiamo tutti i giorni se è nato qualcuno di famoso va bene chi è nato oggi?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Big Yellow Taxi di Joni Mitchell",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -313,9 +330,12 @@
     "end": 1291.58,
     "speaker_raw": "SPEAKER_09",
     "testo": "Io ho fatto tutti questi film con tutte queste compagne per poter avere la valanga di regali di te. no invece sei tu che regali tu come fai i figli io regalo tanta umanità però un po' arriverà anche il quarto magari chi lo sa ma quanti figli? allora riconosciuti tre che io sappia se voi sapete qualcosa chiamatemi perché ogni tanto salta fuori",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La valanga di regali",
+    "tema": [
+      "regali",
+      "amore"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -335,9 +355,12 @@
     "end": 1305.63,
     "speaker_raw": "SPEAKER_09",
     "testo": "Materassi ci sono sempre e ci saranno per altri 50 anni. Quello me lo dovresti regalare? La mia pensione e la sicurezza. Per tutti gli italiani io ci sono.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La sicurezza per tutti",
+    "tema": [
+      "sicurezza",
+      "italiani"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -368,9 +391,12 @@
     "end": 1342.41,
     "speaker_raw": "SPEAKER_08",
     "testo": "sei il numero uno, tanti auguri allora grazie Fabio, grazie a tutti ciao Ho dovuto buttar giù, altrimenti mi sarei comprato qualcosa. E riesce a convincermi, capito? Stava dicendo, cavolo, sai che i seramenti e la doccia, forse la devo cambiare. Pericoloso, eh? Il diavolo fa le pentole, le mastotte le vede.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La doccia e il materasso",
+    "tema": [
+      "materasso",
+      "doccia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -379,9 +405,12 @@
     "end": 1359.46,
     "speaker_raw": "SPEAKER_10",
     "testo": "Ma sarai stato innamorato? All'inizio almeno. Non ci ho mai pensato. Avete mai parlato di avere dei figli? Quanti ne volevate e ne avete parlato? no e perché ci avete fatti? perché a me piace scopare e tua madre è cattolica fai un po' tu la somma",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La decisione di avere figli",
+    "tema": [
+      "figli",
+      "amore"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -412,9 +441,12 @@
     "end": 1389.2,
     "speaker_raw": "SPEAKER_08",
     "testo": "vabbè però lì posso dire una cosa con un cognome così è ovvio che è brava in piscina o a tuffarsi o a nuotare mica può andare in un fiume, in un lago o nel mare da tutti i mozzi da Tania Cagnotto arriva tutti i pesci",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Tania Cagnotto",
+    "tema": [
+      "Tania Cagnotto",
+      "piscina"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -434,9 +466,12 @@
     "end": 1541.41,
     "speaker_raw": "SPEAKER_16",
     "testo": "Grazie a tutti mirando lo quotidiano, i disegni trasformavano l'inverno in un grande verano papà mi ha regalato sotto la mia insistenza un gioco in cui ho cercato di condividere la sofferenza ma nel patio hanno fatto la competizione è stato quando ho sentito la mia prima impotenza 1970 1970 1970 no no la musica Grazie a tutti. no no",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La sofferenza del bambino",
+    "tema": [
+      "sofferenza",
+      "bambino"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -588,9 +623,12 @@
     "end": 2300.4,
     "speaker_raw": "SPEAKER_12",
     "testo": "Senti che frase qua Lo sono solo Tanto quanto sono sicura Che la realtà Di una sola notte Senti, la realtà di una sola notte Senza contare quella di un'intera vita Ok, senti qua Corrisponde alla verità",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La realtà di una sola notte",
+    "tema": [
+      "amore",
+      "verità"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -643,9 +681,12 @@
     "end": 2567.65,
     "speaker_raw": "SPEAKER_08",
     "testo": "No, ma non è che facciamo un serio cazzeggio, non è che funziona così, insomma. Le puntate è un po' come le torte, escono un po' così. Allora, Maurizio, l'hai visto quel film di Kubrick con Nicole Kidman e Tom Cruise? Andava avanti poi il discorso. Sai che se tu guardi Nicole Kidman in quel film e la guardi adesso sono due persone completamente diverse, altro che io con la barba o senza barba. che peccato che le donne si toccano la faccia senti eh sì loro due marito e moglie quel film ha messo in crisi loro due perché quel film andava proprio dentro pesante nelle relazioni di coppia e quindi sai è come la distanza la distanza è come il vento c'entra ancora l'asino Esatto, come il veto, spegne i fuochi piccoli, alimenta quelli grandi. Vabbè, vuoi sentire un altro pezzo di questa frase prima che puoi capire perché si è sfondata la famiglia? Per sempre. Vedi, stiamo svegli per sempre. Per sempre. Cioè, basta, non dobbiamo più mentire, mettere maschere.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Film di Kubrick con Nicole Kidman",
+    "tema": [
+      "cinema",
+      "identità"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -665,9 +706,12 @@
     "end": 2574.4,
     "speaker_raw": "SPEAKER_08",
     "testo": "Ecco. Mi spaventa, Bill. Eh, per sempre spaventa.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La paura per sempre",
+    "tema": [
+      "paura",
+      "vita"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -698,9 +742,12 @@
     "end": 2620.67,
     "speaker_raw": "SPEAKER_06",
     "testo": "Non esiste domani! Non esiste domani!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La non esistenza del domani",
+    "tema": [
+      "tempo",
+      "vita"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -720,9 +767,12 @@
     "end": 2638.52,
     "speaker_raw": "SPEAKER_08",
     "testo": "Mi sono dato una grattatina. Sorridi, prendi il volo, se un giorno sei solo. Grazie ragazzi, noi ci sentiamo domani mattina, mi raccomando. Vi aspettiamo le nove, noi siamo qui per voi e per noi. Ciao.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La grattatina e il volo",
+    "tema": [
+      "amore",
+      "partenza"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   }
 ]

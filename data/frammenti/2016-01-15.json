@@ -236,9 +236,12 @@
     "end": 1258.05,
     "speaker_raw": "SPEAKER_00",
     "testo": "bene bene bene ti segniamo le faremo sapere però sei stata ancora buona perché mi aspettavo un più una cosa sclerata brava Barbara sei buona vuol dire che tu devi fare la parte da buona ok allora ti faccio fare adesso ci penso dobbiamo mettere un disco e poi sentiamo Anna va bene ciao Barbara Secondo me lei ha preso un dialogo dalla sua vita vera. Direi di sì. Quindi l'intervista è quanto c'è di autobiografico in questo film?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "intervista",
+    "tema": [
+      "vita",
+      "verità"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -247,9 +250,12 @@
     "end": 1447.71,
     "speaker_raw": "SPEAKER_10",
     "testo": "Scusa ma mi era sembrato di vedere qualcosa di strano tipo un esercito nemico in uno stato sovrano tipo un'aperta violazione degli accordi che abbiamo io te lo dico e tu mi dici di parlare piano mi era sembrato di Grazie a tutti. meno problemi a bracchi meno si sente che per esempio ho conosciuto questo parlamentare no dice a me che me ne frega finché è legale passare ad una nuova appartenenza e restare senza neanche andare che c'ho l'influenza e mi sale su quali ali di calibri la validità quali ali di colibri libri nell'area Grazie a tutti passa la cresta e smetti di chiedere la busta l'hai vista non farmi ricredere poi pacco tabacco ma soprattutto venere vedrai che conviene che smetti di chiedere non basta la busta per farmi recedere l'ho vista ma adesso ne resterà ce n'è ma intanto che aspetti che arrivi l'accelero c'è giusto lo spazio per potermi rispondere su quali alibi calibri la validità quali alibi con libri, libri nell'aria di quali macabri crimini tragici o comici Zitto zitto fa finta di niente, che tanto il mondo gira ancora come sempre, finché c'è vita beh c'è la corrente, meno problemi avrà chi meno si sente, se la vicina cina ci nasconde cose, cose meglio dire di restare statici dici dove. Grazie a tutti. Grazie a tutti.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "violenza degli accordi",
+    "tema": [
+      "politica",
+      "violenza"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -258,9 +264,12 @@
     "end": 1500.4,
     "speaker_raw": "SPEAKER_00",
     "testo": "non la volevo deludere allora chi è? ancora Di Caprio? basta con sta roba, cancellala dai, spegni dice che non dobbiamo più leggere i suoi messaggi in diretta non dobbiamo leggere i suoi messaggi in diretta perché lui ascolta anche il volo del mattino beh certo, cosa fa?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Di Caprio",
+    "tema": [
+      "film",
+      "celebrità"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -280,9 +289,12 @@
     "end": 1527.89,
     "speaker_raw": "SPEAKER_00",
     "testo": "Io ho un ruolo azzeccato per me, la ragazza imbranata che si intreccia nella porta girevole per andare in ufficio la mattina e dopo una lunga lotta riesce ad uscirne esausta nell'incuria totale del mondo. Tu devi fare la sceneggiatrice, guarda tu devi fidarti di me, Lara, abbandono, magari sei brava pure a recitare, ma devi fare la sceneggiatrice, che è scritto bene. Dobbiamo dire una cosa, cosa abbiamo scoperto? Le donne scrivono tutte che vogliono fare le pazze.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "sceneggiatrice",
+    "tema": [
+      "scrittura",
+      "creatività"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -302,9 +314,12 @@
     "end": 1555.78,
     "speaker_raw": "SPEAKER_00",
     "testo": "le pazze e le stronze allora gli uomini che ascolto non sarà perché si sentono un ruolo che già non è che devo fare una roba diversa devo alzare un po' più la voce gli uomini tutti cattivi l'assassino, il cattivo ieri c'era un attore che è venuto a fare il casting gli abbiamo fatto provare due o tre parti e tutte le volte diceva ma io non sono così ma sei un attore o non sei un attore?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "cattivi",
+    "tema": [
+      "film",
+      "genere"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -313,9 +328,12 @@
     "end": 1583.44,
     "speaker_raw": "SPEAKER_03",
     "testo": "ma no ma io non sono così non vorrei che poi voi pensaste che io sono così certo se no non ti avremmo chiamato perché era veramente era veramente sconsolato beh perché non vuole poi dice poi vado nel film faccio un ruolo che non sono io poi i miei amici dicono ma allora sei ma lui interpreta se stesso in tutti i film mi sembra strano come quando mi dicono ho letto il tuo libro non sapevo che ti era successa questa cosa no ma quello è un romanzo non è",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Dorian Gray",
+    "tema": [
+      "film",
+      "classico"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -324,9 +342,12 @@
     "end": 1614.36,
     "speaker_raw": "SPEAKER_00",
     "testo": "Non è che Dorian Gray aveva veramente un quadro che invecchiava il suo film? Ma io non sono così. Altrimenti Stephen King è un assassino. Va bene ragazzi, ci serve un attore romantico adesso. la rido perché Katia scrive io potrei fare o la professoressa delle comediani 70 o Chuck Norris bello Chuck Norris trasformista o super sexy o vi spacco la faccia",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Stephen King",
+    "tema": [
+      "libro",
+      "orrore"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -390,9 +411,11 @@
     "end": 1838.34,
     "speaker_raw": "SPEAKER_00",
     "testo": "Jack Garrett Worry un disco del 2014 però suona ancora proprio fresco fresco fresco ciao ragazzi io sono stato scelto dal mago Zurli 10 anni, a 10 anni, tra tutti i bambini della scuola per fare il monologo davanti ai principi di Monte Carlo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Jack Garrett - Worry (2014)",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -720,9 +743,12 @@
     "end": 2543.69,
     "speaker_raw": "SPEAKER_00",
     "testo": "due lingue che non si incontreranno mai questa però non l'ho capita no ma nessuno l'ha capita due lingue che non si capiscono allora adesso Roberta stai lì perché adesso Chiara ti dirà che lei te lo aveva già detto che lui era uno stronzo ok e che addirittura lui una volta con lei ci ha provato ok allora beh in modo che voglio dire questa cosa",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Roberta e Chiara parlano di un uomo",
+    "tema": [
+      "amore",
+      "relazioni"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -764,9 +790,12 @@
     "end": 2622.89,
     "speaker_raw": "SPEAKER_00",
     "testo": "Ah, quindi era autobiografico il monologo. Ma l'hai trovato con un'altra davvero?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Monologo autobiografico",
+    "tema": [
+      "letteratura",
+      "autobiografia"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -786,9 +815,12 @@
     "end": 2631.41,
     "speaker_raw": "SPEAKER_00",
     "testo": "Ma come si dice azziccato? Cioè che l'hai trovato, intendi? L'hai pizzicato.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Parola per descrivere un uomo",
+    "tema": [
+      "lingua",
+      "parole"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -830,9 +862,12 @@
     "end": 2667.96,
     "speaker_raw": "SPEAKER_00",
     "testo": "no no no poi diventerà triste ah ok dice che non hai ancora subito il colpo maulizio non hai ancora subito il colpo datti tempo e sarai triste fra un po' no no no non mi do tempo poi ho la mia personal trainer qua che è mia mamma vabbè però domenica pomeriggio da sola a casa",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Roberta e la sua personal trainer",
+    "tema": [
+      "amore",
+      "relazioni"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -841,9 +876,12 @@
     "end": 2771.95,
     "speaker_raw": "SPEAKER_02",
     "testo": "questa facoltà perché purtroppo lavoro in un centro commerciale quindi la domenica pomeriggio lunedì mattina va bene ciao Robè ciao ciao ciao ciao ciao well I won't let you down and I won't mess around there will be better days Ciao! no no feel no shame there will be better days better days will",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Canzone di consolazione",
+    "tema": [
+      "musica",
+      "consolazione"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {

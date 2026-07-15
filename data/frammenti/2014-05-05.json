@@ -5,9 +5,12 @@
     "end": 16.81,
     "speaker_raw": "SPEAKER_06",
     "testo": "radio dj one nation one station one love buongiorno a tutti buon lunedì mattina sono le 9 4 minuti e il 5 maggio del 2014 chi lo avrebbe detto",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il 5 maggio del 2014",
+    "tema": [
+      "data",
+      "anniversario"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -167,9 +170,12 @@
     "end": 1030.93,
     "speaker_raw": "SPEAKER_01",
     "testo": "Allora, in teoria, proprio se guardiamo le timorossi italiane, sarebbe un'altra cosa perché credo che il contadino sia...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Le timorosità italiane",
+    "tema": [
+      "italia",
+      "paura"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -272,9 +278,12 @@
     "end": 1295.37,
     "speaker_raw": "SPEAKER_05",
     "testo": "praticamente due ore al giorno cioè le mie giornate si sono allungate di due ore istantaneamente è come quando smetti di farti le canne io mi facevo le canne ho detto basta basta fammi le canne e intanto quando mi facevo le canne pensavo che tutti si facessero le canne perché tu poi giri con la gente che fa le cose che fai tu dal momento in cui smetti di fare le canne c'è quello che dicevo mezza giornata libera la sera libera i sabato e sera lunghissimi ma tu ce l'avevi la fattoria su facebook? no perché già avevo mi piaceva l'idea che tornavi a casa dal lavoro e ti mettevi a coltivare quella lì virtuale no quella me la risparmiavo no vabbè ma io ho conosciuto te lo giuro ho conosciuto una copia loro due tornano a casa con la spesa in mano sacchi sacchetti così lei va in cucina a mettere a posto la cosa che avevano comprato iniziare a cucinare lui va nel suo studio perché aveva degli orari per raccogliere le cose virtuali la campagna non ha orari ma lui la cosa è virtuale cioè lui a un certo punto ha detto scusa amore non ti posso aiutare perché devo mungere devo raccogliere le carote e tu gli dici ma io ho sposato sto deficiente adesso come cazzo riesco da sta vita con questo che torna a casa e deve raccogliere sul computer le carote sai dove la devi mettere amore amore le carote senti Marco fa caldo?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La libertà dalle abitudini",
+    "tema": [
+      "libertà",
+      "abitudini"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

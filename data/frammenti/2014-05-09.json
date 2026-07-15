@@ -76,9 +76,12 @@
     "end": 260.68,
     "speaker_raw": "SPEAKER_15",
     "testo": "Aspetta, Fabio Volo, la strada verso casa, auditorium, ore 13.30, supporto musicale.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Strada verso casa",
+    "tema": [
+      "viaggio",
+      "casa"
+    ],
+    "tipo": "lettura_volo",
     "video_url": ""
   },
   {
@@ -87,9 +90,12 @@
     "end": 280.26,
     "speaker_raw": "SPEAKER_14",
     "testo": "il maestro Maurizio Rossato che oggi mi dice dopo che l'ho fatto mettere sul giornale forse oggi ho deciso che non vengo più non si può più guarda l'evento dopo cosa c'entra Maurizio l'evento dopo?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Maurizio Rossato e l'evento dopo",
+    "tema": [
+      "evento",
+      "Maurizio Rossato"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -109,9 +115,12 @@
     "end": 283.89,
     "speaker_raw": "SPEAKER_14",
     "testo": "Devi andare alla finestra per la luce.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Luce e oscurità",
+    "tema": [
+      "luce",
+      "oscurità"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -156,9 +165,12 @@
     "end": 350.72,
     "speaker_raw": "SPEAKER_14",
     "testo": "Beh, ma se no non sopravvivi a Brescia. Però dopo sei diventato famoso e non lo puoi più fare.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Fama e comportamento",
+    "tema": [
+      "fama",
+      "comportamento"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -178,9 +190,12 @@
     "end": 415.83,
     "speaker_raw": "SPEAKER_13",
     "testo": "e il cuore va risposto questo è mal d'amore per guarirci sono al mente un modo vuoi sapere vuoi sapere come si fa si fa spesso chiodo scaccia chiodo e riprovi la felicità Quanto vuoi dare? Quanto vuoi dare? Quanto vuoi dare? Quanto vuoi dare? Quanto vuoi dare? E' svegliato! Qualcuno scrive, Nicola rimani qui! E se ancora ci vai? E se quasi, quasi!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Mal d'amore",
+    "tema": [
+      "amore",
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {

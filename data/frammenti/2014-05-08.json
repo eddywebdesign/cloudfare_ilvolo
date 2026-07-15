@@ -553,9 +553,12 @@
     "end": 2114.5,
     "speaker_raw": "SPEAKER_05",
     "testo": "Poco fa, parlando di Crizia e degli altri tiranni, hai adoperato la parola follia. Ma i nostri tiranni non sono dei folli, Socrate. Sono dei criminali.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La Repubblica di Platone",
+    "tema": [
+      "filosofia",
+      "politica"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -564,9 +567,12 @@
     "end": 2136.67,
     "speaker_raw": "SPEAKER_07",
     "testo": "È la stessa cosa. Conosci la canzone che dice che il bene più grande è prima di tutto la salute, poi la bellezza e poi essere ricchi? La conosco. Ebbene, quella canzone mente. La più grande felicità è essere giusti. È un bene così grande che quelli che fanno il male sono dei folli. È per questo che ha usato la parola follia.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La vera felicità è essere giusti",
+    "tema": [
+      "giustizia",
+      "felicità"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

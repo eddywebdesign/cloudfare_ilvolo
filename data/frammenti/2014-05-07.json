@@ -252,9 +252,12 @@
     "end": 935.6,
     "speaker_raw": "SPEAKER_11",
     "testo": "Allora, qua per esempio, per tenere alto il livello, qualche ascoltatore, ascoltatrice che dice, aspetta che devo alzare il volume della cuffia, troverebbero 70 perizomi conservati negli ultimi due anni, vedi? Cioè tu, Maurizio, la tua fidanzata dovessi venire un giorno a mancare, dovrà aprire un cassetto. e tirar via dei segreti o anche lei ci avrà dei suoi segreti io ho un libro che è meglio che non si scopra un libro nel comodino?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Segreti nascosti",
+    "tema": [
+      "segreti",
+      "relazioni"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -263,9 +266,12 @@
     "end": 940.16,
     "speaker_raw": "SPEAKER_09",
     "testo": "come si intitola? è roba erotica? come conquistare una donna in 25 anni",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Come conquistare una donna",
+    "tema": [
+      "amore",
+      "relazioni"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -340,9 +346,12 @@
     "end": 1042.52,
     "speaker_raw": "SPEAKER_11",
     "testo": "Ciao ragazzi, Radio DJ, volevo dire sono a Londra, c'è una bella giornata, sono felice, più o meno così il tuo messaggio?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Messaggio di Chiara",
+    "tema": [
+      "felicità",
+      "gioia"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -622,9 +631,12 @@
     "end": 2285.9,
     "speaker_raw": "SPEAKER_09",
     "testo": "Un milione. Quanta gente verrà? 20? 30? No, no. 100? L'ultima l'ho fatta da 300.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Parole e Notte",
+    "tema": [
+      "libro",
+      "scrittura"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -691,9 +703,12 @@
     "end": 2404.4,
     "speaker_raw": "SPEAKER_07",
     "testo": "cioè che l'ora cambia ma i minuti sono uguali però sai che secondo me ci sono certi poverari che cambiano di mezz'ora in mezz'ora non sono sicura ma dici?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ora e minuti",
+    "tema": [
+      "tempo",
+      "orologio"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -702,9 +717,12 @@
     "end": 2436.42,
     "speaker_raw": "SPEAKER_11",
     "testo": "tipo lì in Russia ci sarà un punto esatto ma anche in Russia che è talmente vasta dal punto di vista esatto ecco Maurizio lo sai che mi sa che ho detto una cagata? mi sa cosa fai? stai cucinando? cosa fai alle 5.47? sto facendo la pasta alla salsiccia con la panna comunque sei andata in Australia e hai perso le abitudini diciamo italiane la bella pasta, panna e salsiccia di dove sei tu originaria?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Pasta alla salsiccia",
+    "tema": [
+      "cucina",
+      "Australia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -735,9 +753,12 @@
     "end": 2448.28,
     "speaker_raw": "SPEAKER_11",
     "testo": "Ah, talde, di Carpi! Conosci? Ma sono bellissime le donne di Carpi! Tu sei bellissima! Certo! Sì, sei molto bella!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Donne di Carpi",
+    "tema": [
+      "Carpi",
+      "donne"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -782,9 +803,12 @@
     "end": 2485.91,
     "speaker_raw": "SPEAKER_11",
     "testo": "Ma scusami, un ragazzo australiano lì, quando eri lì?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Giappone",
+    "tema": [
+      "Giappone",
+      "paese"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {

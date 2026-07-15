@@ -38,9 +38,11 @@
     "end": 147.51,
     "speaker_raw": "SPEAKER_02",
     "testo": "Con Deus mi dito, con Deus mi levanto, conmigo eu calo, conmigo eu canto, eu bato em um papo, eu bato em um ponto, eu tomo um drink e eu fico tonto.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Con Deus mi dito",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -235,9 +237,11 @@
     "end": 947.92,
     "speaker_raw": "SPEAKER_00",
     "testo": "Nella versione scapero. Eh, addio. Peggio dell'originale.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Nella versione scapero",
+    "tema": [
+      "letteratura"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -352,9 +356,12 @@
     "end": 1157.85,
     "speaker_raw": "SPEAKER_03",
     "testo": "Non si dicono i prezzi, però quanto stai a casa di una persona mediamente? Una mattina basta o ci devi andare due o tre giorni?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Prezzi di affitto",
+    "tema": [
+      "denaro",
+      "abitazione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -443,9 +450,12 @@
     "end": 1193.64,
     "speaker_raw": "SPEAKER_03",
     "testo": "Ok, no, io se avessi una compagna potrei lasciare tutto in giro, anche per tenerti allenata sul lavoro, no?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Compagna e lavoro",
+    "tema": [
+      "lavoro",
+      "relazioni"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
