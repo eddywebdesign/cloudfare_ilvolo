@@ -6,20 +6,28 @@
 # Stessa logica di controlli fattuali (non euristici) dello script Windows originale:
 # processi vivi via psutil, CPU del sottoprocesso whisperx in crescita in una finestra
 # di 8s (prova che non e' bloccato), JSON trascritto con segmenti validi, soglia
-# temperatura 78C dall'ultima riga del CSV termico.
+# temperatura 90C dall'ultima riga del CSV termico (operazione normale osservata:
+# 72-84C: 78C generava falsi allarmi costanti).
+#
+# In caso di anomalia, invia anche un'email (scripts/linux/enviar_alerta.py) -
+# nessuno guarda logs/batch_health_ALERT.txt in tempo reale su un K16 headless.
 
 import datetime
 import json
+import sys
 import time
 from pathlib import Path
 
 import psutil
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from enviar_alerta import enviar_alerta  # noqa: E402
+
 REPO = Path(__file__).resolve().parent.parent.parent
 LOGS_DIR = REPO / "logs"
 STOP_FLAG = REPO / "data" / "STOP_BATCH_AFTER_EPISODE.flag"
 CSV_TERMICO = LOGS_DIR / "trascrizioni_log_termico.csv"
-SOGLIA_TEMP_C = 78.0
+SOGLIA_TEMP_C = 90.0
 
 
 def trova_processo(match_in_cmdline: str):
@@ -60,14 +68,14 @@ def main() -> None:
         anomalie.append("batch vivo ma nessun sottoprocesso whisperx trovato (tra un episodio e l'altro puo' essere normale per pochi secondi)")
 
     trascrizioni_dir = REPO / "data" / "trascrizioni"
-    json_2016 = sorted(trascrizioni_dir.glob("2016-*.json"), key=lambda p: p.stat().st_mtime, reverse=True)
-    if json_2016:
+    json_recenti = sorted(trascrizioni_dir.glob("*.json"), key=lambda p: p.stat().st_mtime, reverse=True)
+    if json_recenti:
         try:
-            d = json.loads(json_2016[0].read_text(encoding="utf-8"))
+            d = json.loads(json_recenti[0].read_text(encoding="utf-8"))
             if not d.get("segments"):
-                anomalie.append(f"ultimo JSON trascrizione ({json_2016[0].name}) senza segmenti validi")
+                anomalie.append(f"ultimo JSON trascrizione ({json_recenti[0].name}) senza segmenti validi")
         except Exception as e:
-            anomalie.append(f"ultimo JSON trascrizione ({json_2016[0].name}) illeggibile: {e}")
+            anomalie.append(f"ultimo JSON trascrizione ({json_recenti[0].name}) illeggibile: {e}")
 
     if CSV_TERMICO.exists():
         ultima_riga = CSV_TERMICO.read_text(encoding="utf-8").strip().splitlines()[-1]
@@ -98,6 +106,7 @@ def main() -> None:
         with open(LOGS_DIR / "batch_health_ALERT.txt", "a", encoding="utf-8") as f:
             f.write(msg + "\n")
         print(msg)
+        enviar_alerta("Anomalia detectada", msg)
 
 
 if __name__ == "__main__":

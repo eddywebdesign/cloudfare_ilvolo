@@ -23,6 +23,9 @@ from pathlib import Path
 
 import psutil
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from enviar_alerta import enviar_alerta  # noqa: E402
+
 TJMAX_DEFAULT = 100.0  # soglia tipica Ryzen mobile; distanza = TJMAX - temperatura attuale
 THROTTLE_SOGLIA_C = 95.0  # coerente con la soglia di throttling osservata su Windows
 
@@ -109,11 +112,12 @@ def loop_log(intervallo_sec, csv_path, kill_cpu_threshold=None):
                           f"{KILL_CONSECUTIVE} letture di fila. Fermo la trascrizione.")
                     uccisi = _termina_trascrizione()
                     ALARM_FLAG.parent.mkdir(parents=True, exist_ok=True)
-                    ALARM_FLAG.write_text(
+                    testo_alarm = (
                         f"{ts} CPU a {cpu}C >= soglia {kill_cpu_threshold}C. Processi terminati: "
-                        f"{', '.join(uccisi) if uccisi else 'nessuno trovato'}\n",
-                        encoding="utf-8",
+                        f"{', '.join(uccisi) if uccisi else 'nessuno trovato'}\n"
                     )
+                    ALARM_FLAG.write_text(testo_alarm, encoding="utf-8")
+                    enviar_alerta("SOBRECALENTAMIENTO - transcripcion detenida", testo_alarm)
                     return
             time.sleep(intervallo_sec)
 
