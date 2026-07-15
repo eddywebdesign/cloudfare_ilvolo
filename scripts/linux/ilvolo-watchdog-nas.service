@@ -3,4 +3,5 @@ Description=Watchdog auto-remount NAS + rilancio batch trascrizione K16
 
 [Service]
 Type=oneshot
+KillMode=none
 ExecStart=/usr/bin/env bash %h/ilvolodelmattino/scripts/linux/watchdog_nas.sh
