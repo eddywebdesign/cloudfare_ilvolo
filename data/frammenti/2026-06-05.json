@@ -266,9 +266,12 @@
     "end": 968.35,
     "speaker_raw": "SPEAKER_12",
     "testo": "il mio è 42 giorni attacco, denaro a parte dovebbero arrivare dei soldi e c'era stata un'ascoltatrice che gli era arrivato qualcosa non mi ricordo se aveva vinto un platte di vini scienza ciao Fabio questa cosa te la dissi anche quando venisti a teatro a Messina ma non la cogliesti ma ve la ridico adesso voi avete fatto tanto per noi ascoltatori allora io vi dico cosa posso fare io per voi",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Platte di vini scienza",
+    "tema": [
+      "vini",
+      "scienza"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -455,9 +458,12 @@
     "end": 1534.6,
     "speaker_raw": "SPEAKER_13",
     "testo": "E poi... Ci dovrebbe essere Maurizio che introduce il frontman.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Macchina del suono",
+    "tema": [
+      "suono",
+      "macchina"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {

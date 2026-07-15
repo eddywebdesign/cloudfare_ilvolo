@@ -16,9 +16,11 @@
     "end": 131.37,
     "speaker_raw": "SPEAKER_06",
     "testo": "You make me feel Like I'm alive again Alive again You make me feel Like I'm alive again Said I can't go on Ciao Ciao ciao ciao ciao",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "You make me feel",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -63,9 +65,11 @@
     "end": 309.67,
     "speaker_raw": "SPEAKER_09",
     "testo": "Ah, in quel senso lì. Così che se devi andare in alto a sinistra, in realtà ti scende. Non possiamo spiegarti tutto.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Problema con il touch screen",
+    "tema": [
+      "tecnologia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -171,9 +175,11 @@
     "end": 578.83,
     "speaker_raw": "SPEAKER_12",
     "testo": "La pippa da solo, ragazzi. Posso dire, care donne, è bellissimo quello che fate, ma la pippa... Io mi sto facendo la mia bella pippa da solo. Bene. Perché introduco questo argomento? Bene. che gancio sentite questo messaggio mail messaggio caro Fabio un periodo di grazia un matrimonio felice una casa piccolina accogliente un lavoro stabile una figlia che è molto buona qua è scritto la più tenera del mondo va bene fino a stamattina Chiamo la piccola a colazione, è pronta e lei arriva tutta sorridente, appoggia accanto alla tazza e ci dà lì una cosa e dice papà che cos'è questo? Aveva trovato un preservativo nei nostri cassetti. Ora devo spiegare a mia figlia come si fanno e come non si fanno i bambini. Eh sì. Eh esatto. E la tematica è questa. E quindi Viola mi ha detto ma tu... al tuo babbo la tua mamma ma come lo dirai ai tuoi figlioli soprattutto in che lingua in quei lingua in italiano perché parlerà in italiano però insomma dovrò dire a un certo punto e io ho detto quello per me non è un problema ma poi sono anche due maschi secondo me mi viene più facile tra maschi non voglio fare come hanno fatto come ha fatto il papà del mio amico quello so come non si fa eh vuoi mettere un disco? papà del mio amico lo dico sempre ha fatto così papà come nascono i bambini papà era uno di quelli lì di Brescia, lavoratore credo facesse il falegnano, non mi ricordo ho già paura non ti preoccupare, ti spiego tutto l'ha preso, l'ha portato in camera da letto e ha detto mettiti nell'armadio e guarda quello che faccio la mamma mamma ma lo trovo aggressivo ma vai a infangare a infangare gli amici palegnavi allora ah perché tu sai che no basta",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La pippa da solo",
+    "tema": [
+      "matrimonio"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

@@ -38,9 +38,12 @@
     "end": 265.44,
     "speaker_raw": "SPEAKER_27",
     "testo": "In ginocchio, ancora in ginocchio da ieri.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "In ginocchio ancora in ginocchio",
+    "tema": [
+      "amore",
+      "speranza"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -93,9 +96,12 @@
     "end": 508.2,
     "speaker_raw": "SPEAKER_10",
     "testo": "Allora, ieri durante tutte le interviste che facevo per questo film che devo uscire, poi mi dicevano i prossimi obiettivi, io sentivo solo obiettivi. Stavamo parlando, non so, c'era la Pastorelli, la Claudia Gerighi, dicevano no perché ognuno di noi ha i propri obiettivi e io dicevo obiettivi, obiettivi. Gli obiettivi sembrano lontanissimi. ormai vi avete saccagnato senti ma l'outfit di ieri alla fine gli uccellini avevano fatto un buon lavoro buon lavoro ho messo dei pantaloni vintage nocciola chiaro una camicia di lino molto bella bianca collo come? Il collo, il colletto normale, la camicia, non quelli col button down si chiama, è una New Balance nuova, moderna, giovane, che usano i giovani, ma un modello molto bello, molto bello, sì sì. vedremo questo lascialo decidere a noi uscirà qualcosa di questi sì sì sono già delle foto perché poi ieri sono andato alla vita in diretta la vita in diretta ce lo potevi dire prima che si faceva un briefing eh sì dieci secondi sono stato lì di cinque minuti a dire insomma che sì ma cinque minuti su Rai 1 di pomeriggio nel momento clou per far felice la mia mamma esatto sempre in questi posti infatti l'abbiamo salutata hanno fatto vedere anche la clip quando avevo i capelli lunghi che avevo fatto Castro Caro che ha la domanda sogni nel cassetto obiettini sogni nel cassetto io dissi ingenuamente vorrei fare lo scrittore invece lì si vede che si era aperto un portale e la mia voce che è andata nell'universo ha riportato indietro capito i sogni sono desideri come diceva ieri la mia amica che mi ha fatto il vestitino qua qui tu puoi vedere va bene ragazzi allora sono qui per ascoltarvi cari ascoltatori non ho più niente da dire come stai oggi perché ieri ti abbiamo lasciato un po' giù di corda no no non sono giù di corda ho semplicemente deciso che niente ho tolto il mantello basta fate quello che volete io sono qua ad ascoltarvi sono un vaso vuoto da riempire come state voi intanto? ma se tu viola clicchi sul primo messaggio che vedi lì alla cieca cosa salta fuori secondo te? allora aspetta non abbiamo neanche provato se vanno i messaggi vanno proviamo?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Obiettivi lontanissimi",
+    "tema": [
+      "lavoro",
+      "obiettivi"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -126,9 +132,12 @@
     "end": 543.01,
     "speaker_raw": "SPEAKER_09",
     "testo": "Niente, niente Niente, niente Eh, certo Love me two time, baby Love me twice today Love me two time, girl I'm going away Love me two time, girl",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Love me two time",
+    "tema": [
+      "musica",
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -137,9 +146,12 @@
     "end": 679.95,
     "speaker_raw": "SPEAKER_17",
     "testo": "One for tomorrow, one just for today. Love me two times, I'm going away. Love me one time, do not speak. Musica Grazie a tutti. Amami due volte, mannaggia il cane!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Amami due volte",
+    "tema": [
+      "musica",
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -535,9 +547,12 @@
     "end": 1690.54,
     "speaker_raw": "SPEAKER_05",
     "testo": "Viola, buongiorno. Puoi dire a Maurizio di caricare l'ultima puntata del 25 dicembre che ancora non è disponibile? Ancora? Sto qui in attesa come il finale di Stranger Things dell'anno.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "finale di Stranger Things",
+    "tema": [
+      "serie",
+      "aspettativa"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -817,9 +832,12 @@
     "end": 2337.16,
     "speaker_raw": "SPEAKER_10",
     "testo": "era partito tutto come tutto come passato basta basta quella roba lì basta basta è una maga circe basta basta è l'errore che nel 2026 non farai mai più non voglio più fare basta basta basta basta io è virale ragazzi la puntata del 25 non c'è non è stata fatta e se c'era era intelligenza artificiale erano tutti in vacanza comunque voi siete andate in fissa su delle cose vi stiamo parlando di cose profonde gli errori del 2025 l'errore di quando sei bambino la matrice, tutto e voi siete in fissa con la puntata del 2025 in fissa con l'unica cosa che non potete avere è la metafora della vita è simbolico e incredibile è incredibile parliamone allora è possibile ascoltare le puntate che io mi sono persa quando ho vissuto finora",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La puntata del 25 dicembre non esiste",
+    "tema": [
+      "errore",
+      "programma"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -828,9 +846,12 @@
     "end": 2365.0,
     "speaker_raw": "SPEAKER_09",
     "testo": "no ma davvero però che bello adesso infatti puoi fare tutti gli anni passati quando uno ti scrive un bigliettino ok poi c'è una parola che la cancella si e tu vuoi solo vedere cosa c'era scritto lì sotto in quella parola cancellata guardi incontro a lui mamma mia il messaggio inviato è cancellato ma che è chissà cosa ha cambiato idea capito addio io io",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il messaggio cancellato",
+    "tema": [
+      "comunicazione",
+      "errore"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -853,9 +874,12 @@
     "end": 2431.38,
     "speaker_raw": "SPEAKER_18",
     "testo": "Anche le stelle non sono niente di che Non sono niente di serio La notte, la notte, la notte, la notte Cercare, cercare, cercare dappertutto Senza l'età Anche le stelle non sono niente di che Non sono niente di serio Metto tutti sti versi Chiudo con il lucchetto Quando ci siamo persi Io non ci stavo dentro Rompersi mille pezzi Per vederci un po' meglio Per cercare tra i resti",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Anche le stelle non sono niente di che",
+    "tema": [
+      "amore",
+      "perdita"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {

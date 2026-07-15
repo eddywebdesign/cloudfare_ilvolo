@@ -16,9 +16,12 @@
     "end": 203.97,
     "speaker_raw": "SPEAKER_01",
     "testo": "tra le persone diciamo che si tatuano le parole e le frasi non solo diciamo i disegni sai che è stato un periodo che giapponesi tutte le cose adesso invece da qualche anno un po' anche per una giornina che si fa proprio dei capitoli dei libri sulla schiena c'è gente che si fa proprio delle pagine intere di A4 una delle parole più diciamo tatuate è let it go che è dentro questo titolo della canzone",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "tattoo della frase let it go",
+    "tema": [
+      "musica",
+      "tattoo"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -71,9 +74,12 @@
     "end": 780.66,
     "speaker_raw": "SPEAKER_07",
     "testo": "Un documentario si chiama The Swedish Theory of Love, quindi è la teoria dell'amore di Eric Gandini.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "documentario The Swedish Theory of Love",
+    "tema": [
+      "amore",
+      "documentario"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -159,9 +165,12 @@
     "end": 1131.43,
     "speaker_raw": "SPEAKER_07",
     "testo": "Si chiama La teoria svedese dell'amore. The Swedish theory of love.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La teoria svedese dell'amore",
+    "tema": [
+      "amore",
+      "documentario"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -214,9 +223,12 @@
     "end": 1287.54,
     "speaker_raw": "SPEAKER_01",
     "testo": "Brutte persone come quelli del trio. Sono brutte persone dentro. Un bel messaggio come questo che spiccava su tutti. a sfregio ho detto no no perché c'è scritto Svezia ci dovevi scrivere Roma Nord Roma Sud allora l'ho letto ma niente comunque tu cosa presentavi in inglese in Svezia scusami ma io sono un'informatica sono una programmatrice ed ero in Svezia per un progetto internazionale e niente dovevo ma scusami hai scritto botto al posto di bottom o bottom bottom bottom che vuol dire un po' anche culo in sostanza per 30 pagine basta schiacciare il culo e il computer si accende esatto qualcosa del genere e poi il giorno dopo a cena",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Svezia ci dovevi scrivere",
+    "tema": [
+      "viaggio",
+      "errore"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -225,9 +237,12 @@
     "end": 1317.14,
     "speaker_raw": "SPEAKER_08",
     "testo": "una ragazza in confidenza mi dice guarda Mara ieri non ti ho fermato perché non volevo metterti in baratto la presentazione andava benissimo però hai scritto per 30 pagine il culo sei stata bravissima solo che hai scritto per 30 pagine bottom anziché bottom e io sofferenza di tutti i colori e volevo tornarmene invitati a la velocità della luce senti ma non ridacchiavano gli svedesi un pochino vedi come sono bravi",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Presentazione in Svezia",
+    "tema": [
+      "lavoro",
+      "errore"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -236,9 +251,12 @@
     "end": 1343.09,
     "speaker_raw": "SPEAKER_01",
     "testo": "serissimi perché non mi volevano offendere ma poi ho capito loro sono proprio così pensi l'avessi fatta in Italia al contrario che uno veniva in Italia e a un certo punto se tu schiacci il culo si accende il computer va bene va bene è andata bene a parte quello che ti guardavano un po' i jeans quando sei andata via",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Schiacciare il culo in Svezia",
+    "tema": [
+      "lavoro",
+      "cultura"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -258,9 +276,12 @@
     "end": 1371.87,
     "speaker_raw": "SPEAKER_01",
     "testo": "un messaggio bello hai capito il trio cosa si è giocato per distrazione perché ce l'ha scritto Svezia hai capito? Mentre discutiamo tra una canzone e l'altra.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Messaggio bello",
+    "tema": [
+      "errore",
+      "attenzione"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -280,9 +301,12 @@
     "end": 1379.33,
     "speaker_raw": "SPEAKER_01",
     "testo": "Non siamo mai contenti, non siamo mai contenti. Sì. Allora, bene?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Non siamo mai contenti",
+    "tema": [
+      "felicità",
+      "soddisfazione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -313,9 +337,12 @@
     "end": 1459.09,
     "speaker_raw": "SPEAKER_15",
     "testo": "all around me are familiar faces worn out places worn out faces bright and early for their daily races going nowhere going nowhere no no no Grazie.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "All around me",
+    "tema": [
+      "musica",
+      "canzone"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -335,9 +362,12 @@
     "end": 1568.08,
     "speaker_raw": "SPEAKER_15",
     "testo": "Grazie a tutti. And I find it kind of funny, I find it kind of sad The dreams in which I'm dying are the best I've ever had I find it hard to tell you, I find it hard to take When people run in circles it's a very, very mad world",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Canzone dei Pink Floyd",
+    "tema": [
+      "musica",
+      "canzone"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -357,9 +387,12 @@
     "end": 1991.11,
     "speaker_raw": "SPEAKER_13",
     "testo": "Ancora un altro temporale Tutto frana sotto colpi impercettibili E i tuoi pensieri orari Che tutto questo ora diventa indispensabile E che io posso solo arrendermi E sorridere di te Cosa c'è? Lo vedrai Quando inizi Cosa c'è? Lo vedrai Perché è bellissimo convivere e se vuoi resto qua aspettando torni la voglia di ricominciare e lo sai tornerà il momento in cui ti pentirai ed è bellissimo comprendere che tutto questo ora diventerà Ciao!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Temporale",
+    "tema": [
+      "musica",
+      "canzone"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -390,9 +423,12 @@
     "end": 2063.77,
     "speaker_raw": "SPEAKER_01",
     "testo": "Sai che molte donne sono sulla retrotopia. dice c'è un tabù stasera retrotopia come dice come è scritto una volta un ascoltatore le donne fanno tutte quelle ho letto 50 sfumature di grigio e poi quando ho letto gli dici girati perché è entrato qualcuno Dai amore, girati. Mi fa sempre molto ridere. Fate tutte le ganasse, le fighissime. Ho letto 50 sfumature di grigio, quello la lega. Fantastico. Allora, non avevo finito il mio disco, solo che la lunga mi ha messo un disco. Perché volevo arrivare a Trump, che è nato, cioè che ha vinto usando questa, come dire, teoria della retrotopia.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "citazione 50 sfumature di grigio",
+    "tema": [
+      "amore",
+      "letteratura"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -456,9 +492,12 @@
     "end": 2194.7,
     "speaker_raw": "SPEAKER_01",
     "testo": "Allora, Taekun è un titolo di rispetto arcaico giapponese, termine derivato dal libro dei mutamenti cinesi. In giapponese significava grande signore, principe o comandante supremo. Gli americani hanno tolto la K, hanno messo quella cosa lì, la J e la Q con due O. Viene usato per estensione di finire un magnate di uno o più settori industriali. ok Giuseppe di Milano scrive consulente in fase di nuova attività indipendente settore affitti brevi mi date una mano chiede a noi e quindi agli ascoltatori a trovare il nome della società Airbnb il primo che mi viene in mente no Airbnb devi fare qualcosa di simile a Airbnb perché quando uno vuole gli affitti brevi va lì",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "origini di Taekun dal libro dei mutamenti",
+    "tema": [
+      "cultura",
+      "lingua"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -555,9 +594,12 @@
     "end": 2661.09,
     "speaker_raw": "SPEAKER_07",
     "testo": "ha detto la malinconia è come quando esci di casa e c'è un bel tramonto ma piovigina e te decidi di non prendere l'ombrello perché è bello così ma poi quando rientri a casa sei completamente zuppo mi ha molto colpito non sono io che ti affezioni a una cosa e poi dopo ti trovi bagnato ti trovi perso per goderti una roba poi non ti rendi conto che invece non sei nella realtà potrebbe essere non ci abbiamo capito niente",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La malinconia e la realtà",
+    "tema": [
+      "malinconia",
+      "realtà"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -566,9 +608,12 @@
     "end": 2736.7,
     "speaker_raw": "SPEAKER_01",
     "testo": "vabbè Alessandro da Firenze non ci abbiamo capito niente la retrotopia che appunto noi abbiamo detto anche si vede nei palinsesti televisivi si vede al cinema tantissimo anche un ascoltatore dice di fatti si fanno tanti remake si vede la televisione a volte propone programmi di successo degli anni 90 così li sta riproponendo la letteratura e la narrativa spesso fa un po' così soprattutto diciamo nel mondo degli intellettuali Cioè il mondo dell'intellettuale è difficilmente un intellettuale scrittore considerato importante e racconta la vita contemporanea di adesso. Non si sporca con le parole tipo Facebook, cellulare, iPhone, così, ma piuttosto sta sempre in una stanza più gotica, mettiamola così. Chi racconta, diciamo, invece della vita contemporanea, che è un po' anche il senso della letteratura, della narrativa, cioè raccontare il tempo in cui si è, riesce ad avere più appeal sul pubblico, per esempio. quindi viene considerato i grandi scrittori vendono di meno io per esempio che non sono un grande scrittore vendo molto di più perché racconto quella roba lì quella quotidianità lì che molti dicono ma chi se ne frega di uno che manda perché devo scrivere whatsapp in un testo letterario che fa schifo questa cosa hai mai scritto whatsapp? io scrivo anche cacca io scrivo tutto io parlo con i miei figli",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La retrotopia e la letteratura",
+    "tema": [
+      "letteratura",
+      "retrotopia"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -577,9 +622,12 @@
     "end": 2756.72,
     "speaker_raw": "SPEAKER_11",
     "testo": "I know I made you angry but you love me. I love the way you kiss me, kiss me once, boo. Before you leave angry cause I love you. So won't you forgive me now?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Amore e rabbia",
+    "tema": [
+      "amore",
+      "rabbia"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -610,9 +658,12 @@
     "end": 2903.66,
     "speaker_raw": "SPEAKER_01",
     "testo": "Molta gente sulla nave, ipotetica, in queste immagini che abbiamo dato, dice io sto al bar, io sto alla via di mezzo. Quelli che se la godono non stanno né a pensare al fuoco, guarda che è una metafora perfetta anche questa. Cioè tu non stai né a poppa, capito, a guardare quello che stai lasciando, cioè la via vita, e né a prua a dire stai lì e te la godi, ti fai un po' trasportare dagli eventi.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La nave e la metafora",
+    "tema": [
+      "metafora",
+      "nave"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -621,9 +672,12 @@
     "end": 2906.8,
     "speaker_raw": "SPEAKER_07",
     "testo": "Quindi potresti essere ovunque, potresti anche essere sulla terraferma.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La libertà e la scelta",
+    "tema": [
+      "libertà",
+      "scelta"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -632,9 +686,12 @@
     "end": 2979.31,
     "speaker_raw": "SPEAKER_01",
     "testo": "sono quelli che non si fanno tante domande che non sono né nostalgici né ansiosi per il futuro ma si godono i buddhisti stanno al bar ma non è vero si sta davanti tu staresti un po' al bar ma io viola starei al bar lo sai a San Benedetto del Tronto sta nevicando tantissimo grazie per questa canzone che è perfetta con la neve qua a Milano niente c'è il cielo nero si era la città che nevicava e non si è più neanche quello il sud ci ha rubato anche quello allora quando vado da New York scrivo un ascoltatore a Staten Island ok al contrario quando vado verso New York da Staten Island sto davanti quando lui è a Staten Island e va a New York sta davanti così vede New York quando da New York va a Staten Island sta dietro così vede New York in sostanza vuol vedere New York cosa dici Maurizio? basta dobbiamo chiudere c'è una cosa bellissima una cosa di Bauman quattro parole le avrei dette invece di continuare a dirti a te no no no sta diventando il leader da domani Maurino",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La neve a Milano",
+    "tema": [
+      "neve",
+      "Milano"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   }
 ]

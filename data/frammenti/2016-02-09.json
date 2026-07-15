@@ -159,9 +159,13 @@
     "end": 890.98,
     "speaker_raw": "SPEAKER_00",
     "testo": "tappeti musicali poche parole poco testo poca gente che canta sicuramente non le ballate invece qualcuno si ascolta per adesso un ascoltatore abbiamo Stellin che è la più esperta la maggiore esperta di Bruce Springsteen dice ascoltare Nebraska in cuffia non ha prezzo alza la mano se è vero o no è vero? è vero è vero ok Nebraska ci ascoltiamo tutto l'album Nebraska adesso dai play sai che una volta io avevo anche proposto un album a puntata oggi prendiamo un album e parliamo e sentiamo tutti i pezzi e lì Venus ha iniziato a correre è stato lì che lui ha deciso che la maratona doveva far parte della sua vita ma perché con la musica e con gli album interi citando il testo e le cose puoi far come Google cioè vai dentro in una cosa che vai dentro in una cosa è una matrioska infinita vi ascolto da un furgone ho 22 anni e vi consiglio gli Explosion in the Sky again explosion in the sky guarda Maurizio explosion in the sky explosion in the sky explosion in the sky vediamo che tipo di musica ci consiglia il nostro ascoltatore dice very boring ha scritto molto noiosi ottimo a me già mi piace a me già qua Questa si intitola Hello. Hello! Questo è il massimo della loro felicità. È quando si salutano i ragazzi. Aspetta. Senti. Vuoi la più ascoltata? No! Aspetta, fammi... Vediamo come attacca. Secondo me no. Magari non attacca mai. Chi ha detto che attacca? però questo è un bel viaggio ha ragione il nostro amico sul furgone 22 anni ammettila più ascoltata proviamo a sentire la più ascoltata magari la conosciamo mai babba via questa è la loro hit fighissima mi fai un favore me la trascini tutte e due nella mia playlist collabored poi invece abbiamo un ascoltatore di 15 anni buongiorno 15enne ciao a tutti ciao Fabio senti l'energia ti faccio una domanda come si sta nel 2016 da 15enne quindi nati nel 2001 no nel 2000 ah perché hai quasi 16 anni allora 16 anni a dicembre senti come si sta che tu sei nato nel 2000 che noi lo abbiamo aspettato come una cosa meravigliosa come si sta a 15 anni nel 2000? sì, abbastanza bene ti devo fare delle domande perché ovviamente adesso ti chiamerò tutte le mattine per capire il nostro mondo perché tutti viviamo sullo stesso pianeta ma tra me, mia zia e te sono tre pianeti diversi vi faccio una domanda quando siete lì sulla panchina o ai baretti così siete in cinque tutti e cinque che guardate l'iPhone il cellulare, queste robe qua non vi mancano le chiacchiere tra di voi con gli sguardi?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Nebraska di Bruce Springsteen",
+    "tema": [
+      "musica",
+      "springsteen",
+      "album"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -192,9 +196,12 @@
     "end": 931.99,
     "speaker_raw": "SPEAKER_14",
     "testo": "ma non so con gli amici di solito ci troviamo in casa e li possiamo parlare perché non so a volte mettiamo via i telefoni e diciamo ok adesso parliamo guardandoci negli occhi no veramente vi dite via i telefoni ma è stupendo via i telefoni è una cosa bellissima riscoprite quello che per noi era normale per voi una specie di droga mi ha guardato in un modo strano",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Riscoprire il contatto visivo",
+    "tema": [
+      "amici",
+      "telefoni"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -203,9 +210,12 @@
     "end": 955.03,
     "speaker_raw": "SPEAKER_00",
     "testo": "perché quando ci si scrivono le cose non c'è mai la faccia di chi le riceve e quindi invece è educativo capire che la parola che si usa ha un'influenza sulla persona che la riceve che può essere offensiva, un complimento, arrossire cioè vi siete persi una serie di sensazioni secondo me poi avete tante altre cose meravigliose E quindi state lì seduti e di che parlate?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'importanza della parola",
+    "tema": [
+      "parola",
+      "influenza"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -214,9 +224,12 @@
     "end": 963.73,
     "speaker_raw": "SPEAKER_14",
     "testo": "Due settimane fa abbiamo avuto una discussione sulla indie music. Sulla indie music, quella che Maurizio chiama... Io non ho capito cosa sia.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Indie music",
+    "tema": [
+      "musica",
+      "indipendente"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -291,9 +304,12 @@
     "end": 1029.29,
     "speaker_raw": "SPEAKER_00",
     "testo": "Quali sono i loro riferimenti che ti stanno passando?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "I Beatles e James Taylor",
+    "tema": [
+      "musica",
+      "classici"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -412,9 +428,12 @@
     "end": 1341.06,
     "speaker_raw": "SPEAKER_06",
     "testo": "he said I know you you know me one thing I can tell you is you got to be free come together right now over me shoot shoot ... ... ... Grazie a tutti.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "citazione canzone libertà",
+    "tema": [
+      "libertà",
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -489,9 +508,11 @@
     "end": 1536.54,
     "speaker_raw": "SPEAKER_15",
     "testo": "Ho rubato la faccia, una stronza. Non ti vista neanche l'ombra. E fermati un momento a quel che sembra A volte tutto quello che abbastanza Non chiederti se qui qualcosa è persa Tra quello che uno vede e che uno pensa Sei attenta, stai attenta almeno a te",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Attenzione a se stessi",
+    "tema": [
+      "autocoscienza"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -500,9 +521,12 @@
     "end": 1725.19,
     "speaker_raw": "SPEAKER_06",
     "testo": "sta attenta che mi uccidi in questa stanza, e un bacio non conosce l'immogenza, e sei colpevole di questo no, ti eletta proprio come me, non hai pazienza, ricordati degli angoli di bocca, sono l'ultimo regalo inviato, almeno te non dà la colpa a me la colpa c'è tutto è bellissimo c'è come un miracolo c'è anche il pavimento sembra sabbia contro un cielo che si innalza altissimo intorno a noi bellissimo attento attenta che si muove questa stanza e chiudi gli occhi un treno è già in partenza un passeggero per te sai che un po' con la pazienza come me che resto senza Il cuore l'ho copiato da una stronza Non fare caso a questa imperdinenza Stai attento, stai attento almeno a te Non dà la colpa a me, la colpa a me Tutto è bellissimo se è così se anche il pavimento sembra sabbia contro il cielo che si innalza altissimo intorno a noi bellissimo attenta stai attenta attenta bellissimo eminenza altissimo intorno a noi bellissimo attenta oh oh",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Bellezza e innocenza",
+    "tema": [
+      "bellezza",
+      "innocenza"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -511,9 +535,11 @@
     "end": 1731.55,
     "speaker_raw": "SPEAKER_00",
     "testo": "Un gruppo indie, Negra Maro, attenta.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Negra Maro",
+    "tema": [
+      "musica indie"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -533,9 +559,12 @@
     "end": 1871.69,
     "speaker_raw": "SPEAKER_00",
     "testo": "Un tempo, un tempo. Beh, loro sono diventati famosi, erano già tipo il terzo album, credo, forse il quarto, poi dopo pian pianino tutte le altre canzoni. Buongiorno Maurizio, buongiorno Viola, buongiorno ascoltatori, grazie per tutte le mail che ci state mandando, i messaggi di gruppi che ascoltate, diciamo, di musica non radiofonica, soprattutto per un programma mattutino. Io di esempio le playlist non le divido mai in genere, rock, blues, le divido in momenti della giornata. Le mie sono, non so, colazioni, avevo fatto anche delle compilation, una colazione, uno se fai l'amore, uno se guidi. A un tempo esisteva Stereo Mood, non so se esiste ancora Stereo Mood. E quindi ci sono, per esempio esiste una specie di Spotify che si chiama, adesso non me lo ricordo, vediamo se prendo la... l'applicazione dove ci sono le playlist tipo quando ti ha lasciato la fidanzata ma anche su Spotify domenica mattina quando ti sei ubriacato il sabato sera Hangover playlist su Spotify hai anche ad esempio Songza song za però devi avere l'account americano non c'è in Italia allora che informazioni ci dai per dire che ci sono le playlist tipo barbecue con gli amici con la migliore amica mentre scegli il vestito il sabato sera queste titoli sono molto belle per esempio noi adesso abbiamo parlato di musica diciamo come da sottofondo per il viaggio ma ci sono due tipi di viaggio dove il corpo è fermo quindi sei sul divano ti fai i fatti tuoi così e la musica ti accompagna e diciamo sì oppure quando sei in viaggio fisicamente cioè che sei in macchina in treno così e quindi è un altro tipo di musica secondo me soprattutto se sei in macchina in treno da solo quindi in cuffia così o se invece sei in compagnia perché in compagnia sono belle anche come è bello fare l'amore Quelle lì sono un po' da viaggio, quelle un po' allegre. Per esempio, un pezzo che consigliamo sempre per quando si è in macchina o in treno da soli, cioè quel momento lì, ed è va bene anche sul divano, è questo in assoluto, perché questo va proprio dentro nell'esofago. Cioè, se uno ha un bel impianto in macchina adesso e io sto zitto, sarebbe anche meglio, senti come sale la cosa, no?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il successo dei Negra Maro",
+    "tema": [
+      "musica",
+      "successo"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -555,9 +584,11 @@
     "end": 1915.64,
     "speaker_raw": "SPEAKER_00",
     "testo": "Gus Gus sta in zitto così lo sciazzammano e se riesco? l'avranno sciazzamato è impossibile da sciazzamare se non parte qualcosa no va mi viene tanto da ridere ma perché stiamo zitti senti",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Sciazzamare Gus Gus",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -599,9 +630,12 @@
     "end": 1998.86,
     "speaker_raw": "SPEAKER_00",
     "testo": "cioè non vi piace? no no mi piace veramente i soliti savoiardi io so che quei tre canciazzamato sono stati contenti la tirila sotto così tirila sotto e ci parlo sopra invece per viaggiare magari in compagnia ogni tanto lo mettiamo per esempio un disco vecchio stiamo mettendo i basici non è che sto andando a cercare le robe troppo difficili no no per esempio il piccio di Timo Mass noi si metteva in radio tanti anni fa questo invece c'è un bel impianto sei in macchina con gli amici vai per la seratona capito in cerca di donne in un'altra città quando si va a fare il ratto delle sabine da Brescia a Padova da Padova a Bergamo da Napoli a Salerno da Roma a Ostia che si va nell'altra città non ci conosce nessuno qua possiamo far finta di essere fighi perché da noi ci siamo già sbuttanati senti qua Lasciala, lasciala, lasciala",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La musica per viaggiare",
+    "tema": [
+      "viaggi",
+      "musica"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -665,9 +699,11 @@
     "end": 2506.89,
     "speaker_raw": "SPEAKER_00",
     "testo": "cioè si può dire tutto a meno che non è una bella canzone questa magari non è da radio del mattino 9.49 però ve la siete presa poi vi ascoltate questo è un album che si può ascoltare tutto perché non c'è mai la ballata fastidiosa nella playlist che altri nomi ci sono con altri simili te li dico iron and wine vai su such a great hate di chi di iron and wine eccola qua senti questa è quasi da buonanotte attacca senti la voce ma il trio sveglia la gente e noi la rimettiamo a letto il trio violenta la gente ma che cazzo ti risveglio fate piano senti questo come Kat ti sta dicendo una cosa senti hanno tutti la barba eh sì e si lamentano di tutto con quelle scarpe lì tipo quelle lì spagnole le campe quelle che c'ha la striga col nodo vai su The Tallest Man on Earth il più alto uomo della terra anche lui c'ha una metà barbetta c'è l'album Shallow Grave aspetta eh la più allegra è Pistol Dreams Pistol Dreams ok senti questa è la più allegra l'abbiamo messa una mattina e ci ha scritto mandatemela perché ha la voce tipo Bob Dylan ma ancora più antipatica",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Iron & Wine e altri artisti",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {

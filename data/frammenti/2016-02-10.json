@@ -5,9 +5,12 @@
     "end": 91.08,
     "speaker_raw": "SPEAKER_08",
     "testo": "radio dj one nation one station one love oh yeah buongiorno a tutti don't you shut your eyes and hide your heart behind the shadow cause you can count on me as long as I can breathe you should know Grazie. I'm much less a saint than a sinner Oh no, ain't no superhuman Cause that's just in the movies, I know But I'll carry you through the night Through the storm Give you love, always love in return",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Non sono un santo",
+    "tema": [
+      "amore",
+      "speranza"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -27,9 +30,12 @@
     "end": 389.47,
     "speaker_raw": "SPEAKER_11",
     "testo": "Buongiorno, vita! Buongiorno, parole, canta, sei felice, senti così bene, perché la vedrai presto. Oh, oh, oh, oh, oh! L'ultima notte, ha detto che amava me. Che pittura di partire, ho dormito con le mani aperte, aspettando la notte a partire. Buongiorno, vita! Grazie a tutti.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Buongiorno, vita!",
+    "tema": [
+      "felicità",
+      "amore"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -60,9 +66,12 @@
     "end": 483.62,
     "speaker_raw": "SPEAKER_01",
     "testo": "A Bari. Soffri a fare riabilitazione? Cioè è dolorosa?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Riabilitazione a Bari",
+    "tema": [
+      "salute",
+      "dolori"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -104,9 +113,12 @@
     "end": 514.62,
     "speaker_raw": "SPEAKER_01",
     "testo": "Senti, dimmi solo una cosa, usa l'olio? Eh sì. Ma ha le mani ruvide o ha le mani soffici?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Massaggiatrice con le mani ruvide",
+    "tema": [
+      "massaggi",
+      "piacere"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -170,9 +182,12 @@
     "end": 635.08,
     "speaker_raw": "SPEAKER_01",
     "testo": "Senti, è tante mattine che ti toccaccia. ma tipo l'hai portato fuori a bere una birra? non siamo ancora in quella fase lì hai due ghiottoni non l'hai ancora portato lì hai due ghiottoni no però neanche la busca senti quanto devi farla ancora di steriabilitazione ma penso tutte le mattine con una fascia elastica tremenda che fa male che si vede anche ma sei già fidanzato sposato o sei sul mercato preparato e adesso fidanzato ah ok no perché guarda che alle donne quelli lì un po' scassati alle donne piacciono quelli lì con la benda col gesso con la fascia cioè certo se ce l'hai tipo del dottor Gibo no però se ce l'hai tipo che sei appena che sei appena con la pancera del dottor Gibo non la chiappi molto però la fascia tipo sono appena uscito da una rista giù nei peggiori bar di Caracas quello piace Fight Club eh Fight Club tu puoi dire che ti dico ma Andrea ma che è successo eh ma la sera di ieri sera ho fatto Fight Club oh no no erano in cinque non ho visto il colpo dell'ultimo va bene senti ti piace Mobi per fare riabilitazione? grande salutaci anche Nico e dilli che le mani soffici servono perché è brutto quando vai a farti fare un massaggio da un uomo che capisci che il pomeriggio va da brico center e la mattina fa il fisioterapista che c'ha i cali sulla schiena che tu dici va beh ciao Andrea grazie ciao ciao ciao ciao ciao ciao ciao ieri giù allo spaccio con la narizia",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Giovane massaggiatore",
+    "tema": [
+      "massaggi",
+      "gioventù"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -456,9 +471,12 @@
     "end": 2262.62,
     "speaker_raw": "SPEAKER_12",
     "testo": "When I wake up in the morning And the light from the curtain Hurts my eyes when I hide and see your face One, two, three, oh You got me singing torture I'd do anything for you I know I lost a fortune But at least I know I'm falling I say you got me singing tipsy tipsy ... ... ... grazie a tutti Sì",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Tipsy",
+    "tema": [
+      "musica",
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -467,9 +485,12 @@
     "end": 2317.77,
     "speaker_raw": "SPEAKER_01",
     "testo": "Volevo dire che anch'io, avendo problemi di schiena e lavorando in posti senza riscaldamento, pancera e maglie termiche sono d'obbligo. Ma quando sono così, sono inguzzabile. Capito? Perché lì dicono guzzare, no? L'intrombabile Dario, c'è scritto, si chiama Dario. Allora, abbiamo scoperto che quella che dicevo io, cottone fuori, no, cottone dentro, era, te la ricordati che negli anni 80-90, quella della mia età, era Liabel. Liabel! Eh sì. E hai sempre, l'abbiamo trovato lo scopo. Vorrei una maglietta insieme della Liabel.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Pancera e maglie termiche",
+    "tema": [
+      "salute",
+      "comportamento"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -478,9 +499,12 @@
     "end": 2321.68,
     "speaker_raw": "SPEAKER_05",
     "testo": "Ma non si dice Liabel, si dice Liabel.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Liabel",
+    "tema": [
+      "libro",
+      "errore"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -676,9 +700,12 @@
     "end": 2454.51,
     "speaker_raw": "SPEAKER_01",
     "testo": "Allora adesso lo psicologo direbbe che in realtà c'hai un transfert, amavi tanto il tuo papà, finalmente tuo marito alla pancera si è chiuso un cerchio. Sei contenta? Tu sei contenta di vederlo con la pancera?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il transfert con il papà",
+    "tema": [
+      "amore",
+      "genitori"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -742,9 +769,12 @@
     "end": 2594.38,
     "speaker_raw": "SPEAKER_03",
     "testo": "I don't know you, but I want to I don't wanna steal your freedom I don't wanna change your mind I don't have to make you love me I just wanna take your time I don't wanna wreck your Friday I ain't gonna waste my life I don't have to take your heart I just wanna take your time",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Canzone di libertà",
+    "tema": [
+      "libertà",
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -764,9 +794,12 @@
     "end": 2659.92,
     "speaker_raw": "SPEAKER_01",
     "testo": "in quanto DJ non sarebbe da togliere questa canzone abbiamo appena messa ma abbiamo degli orari molto serrati se no prendiamo le multe ok qui dobbiamo chiudere voglio dire solo che un'ascoltatrice Sabina dice volo non è l'abbigliamento ma l'atteggiamento quindi uno figo con la pancera probabilmente Brad Pitt in pancera è sempre meglio di Maurizio in smoking direi se ne dico uno ciao ragazzi a domani ciao",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'atteggiamento è più importante",
+    "tema": [
+      "abbigliamento",
+      "atteggiamento"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   }
 ]

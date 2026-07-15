@@ -748,9 +748,12 @@
     "end": 2198.7,
     "speaker_raw": "SPEAKER_10",
     "testo": "L'avete portato voi, lei e la signora Cettina.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Benvenuti in studio",
+    "tema": [
+      "benvenuto",
+      "studio"
+    ],
+    "tipo": "lettura_volo",
     "video_url": ""
   },
   {
@@ -981,9 +984,12 @@
     "end": 3117.06,
     "speaker_raw": "SPEAKER_10",
     "testo": "sembrava un piano possiamo rifare tutto da capo 15 canzoni che abbiamo messo oggi abbiamo messo tanta musica tranquilli allora ragazzi domani mattina invece vi voglio belli carichi in pista non lo dico a voi qui io sono carichi in pista no no dico a quelli in ascolto vi voglio belli carichi in pista basta poi vogliamo fare una dieta uguale per tutti cioè da domani ci decidiamo che tutti facciamo la stessa colazione no perché non ha la sua vita assolutamente no comunque adesso un po' meno di carboidrato no",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La dieta in studio",
+    "tema": [
+      "dieta",
+      "studio"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1045,9 +1051,12 @@
     "end": 3146.0,
     "speaker_raw": "SPEAKER_16",
     "testo": "Ma è comunale o è lusso?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Lusso o comunale?",
+    "tema": [
+      "lusso",
+      "comunale"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

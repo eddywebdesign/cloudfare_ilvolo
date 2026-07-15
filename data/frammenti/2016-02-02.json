@@ -746,9 +746,12 @@
     "end": 2907.91,
     "speaker_raw": "SPEAKER_05",
     "testo": "Stiamo già parlando di Berlusconi con nostalgia, capisci? Passi vent'anni a discutere, a litigare, nervoso, poi uno diventa un po' anziano, passa il tempo e la nostalgia ti prende. Viola stava ascoltando Berlusconi quando racconta la barzelletta del commendatore di Troia. ma ce l'hai lì? si ce l'ho sapete mi ricordate che ha raccontato una serie di barzellette ha raccontato quella posso dire le politicamente scorrette quelle che io non potrei mai dire quella sull'ids la ricordi? poi disse quella orchidea era andato all'Aquila all'Aquila delle montagne e ha detto la sapete la barzelletta è quella dell'orchidea e poi arriva quello lì brutto e dice orco e l'ultima di quelle che ha detto è che il marito va al night con la moglie la porta una sera e insomma il tassista per la prima volta c'ha la moglie c'ha il commenda con la moglie in macchina che li porta a casa e il tassista fa così ce l'hai lì?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La nostalgia del tempo passato",
+    "tema": [
+      "tempo",
+      "nostalgia"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -768,9 +771,12 @@
     "end": 2912.53,
     "speaker_raw": "SCONOSCIUTO",
     "testo": "Noi di Troia ne abbiamo caricate tante.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Le barzellette di Troia",
+    "tema": [
+      "umorismo",
+      "storia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -779,9 +785,12 @@
     "end": 2914.17,
     "speaker_raw": "SPEAKER_04",
     "testo": "Mavuna, brutta, peggio e cattiva come questa qui.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La descrizione di Mavuna",
+    "tema": [
+      "umorismo",
+      "descrizione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   }
 ]

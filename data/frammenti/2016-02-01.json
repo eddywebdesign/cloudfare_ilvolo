@@ -58,9 +58,11 @@
     "end": 186.95,
     "speaker_raw": "SPEAKER_11",
     "testo": "Buongiorno a tutti. Ridi, ridi. Volevo dire che ogni ora, ogni due ore c'è un programma diverso Radio DJ, tendenzialmente ogni due ore, un'ora e mezzo, ma sono pochi i programmi di un'ora perché anche sono difficili da, come dire, da sviluppare, no? Perché c'è poco tempo per delle cose e troppo tempo per altre. Sentite la mia voce che è fantastica.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "voce fantastica",
+    "tema": [
+      "voce"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -235,9 +237,12 @@
     "end": 430.66,
     "speaker_raw": "SPEAKER_15",
     "testo": "Sì, no vabbè, suonavo il pianoforte quando ero ancora abbastanza piccolo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "suonavo il pianoforte",
+    "tema": [
+      "musica",
+      "infanzia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -328,9 +333,12 @@
     "end": 544.37,
     "speaker_raw": "SPEAKER_15",
     "testo": "sto andando a visitare un cliente giù a Montevarchi insomma in Toscana bello cosa gli devi vendere? no niente l'ho già venduto nel senso io lavoro in banca faccio i fidi per le aziende quindi poi alla fine vai giù a incassare? no no no no assolutamente no vediamo di darti una mano com'è la situazione nelle banche? a livello di come si dice soldi bisogna stare un po' attenti insomma ce n'è il giusto e bisogna avere un po' di pazienza a livello di importanza non andiamo molto no no no no non se ne parla bene va bene senti ti saluto buona giornata grazie buon programma a te vuoi fare la sigla del prossimo anno?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "banca e fidi",
+    "tema": [
+      "banca",
+      "lavoro"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -885,9 +893,13 @@
     "end": 1112.2,
     "speaker_raw": "SPEAKER_11",
     "testo": "sai che da ragazzini, non so se lo facevi anche tu da ragazzini quando c'è il momento in cui l'ormone esplode quindi tutti i giorni ti devi dedicare un attimo alla professoressa ci sono dei giorni che dici per 3-4 giorni non lo faccio così il quinto senti di più c'è più trasporto un anno e mezzo ti ricordavi anche tutto mi ricordavo un po' tutto quanto non ho avuto grossi problemi bene bravo bravo Sono contento, state bene insieme, l'hai rifatto, questo weekend è stato una bomba.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'ormone dell'adolescenza",
+    "tema": [
+      "adolescenza",
+      "ormone",
+      "pubertà"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -918,9 +930,13 @@
     "end": 1153.17,
     "speaker_raw": "SPEAKER_14",
     "testo": "ma ti dirò sai perché ho letto un anno e mezzo senza sesso? perché ad un certo punto ho letto tutta vita di Fabio Volo porta sfiga senti una cosa Jacopo ti volevo dire hai trovato anche lavoro? no non ancora ma tra un po' ho appuntamento in comune perché mi è venuta un'idea e quindi voglio andare in comune vedrai che adesso si muove tutto adesso ti arriva tutto",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La lettura come fuga",
+    "tema": [
+      "lettura",
+      "fuga",
+      "solitudine"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -965,9 +981,12 @@
     "end": 1530.76,
     "speaker_raw": "SPEAKER_11",
     "testo": "allora guarda che è finito qua eh sì sì con tutta la calma guardano e la Stefi mi ha detto non entrare vediamo se sono capaci da soli ad andare in pubblicità io avevo già pronto il disannuncio erano the weekend in the night ma non si fa più questa cosa anni 80 io l'ho sentita in radio ogni tanto chi è che fa così Bene allora continuiamo Non si fa più Sono le 9.26 Senza di me Non sono in grado neanche di dire Ma io ero già pronto con una poesia Va bene va bene Comunque arrivano molti messaggi di ascoltatori Che dicono per esempio Jacopo il principiante Io sono 5 anni che non faccio l'amore Altro dice io ho 2 anni a me io dopo 4 anni un ragazzo io ho 30 anni non l'ho mai fatto wow non so se avete visto ieri un servizio del family day dove a un certo punto una ragazza intervistata al family day hanno detto ti sei contrario ai matrimoni gay e poi a un certo punto dice però se dovesse passare la legge che anche gli omosessuali si possono sposare Dopo, quando ci sono i terremoti e le catastrofi, non pensate che siano cose casuali, ma è la natura che si ribella. Quindi, ragazzi, se da domani anche in Italia, come in molti paesi del mondo, l'omosessualità otterrà gli stessi delitti degli etero, sappiate che si rischiano i terremoti. non volevo scendere dalla macchina perché vi stavo ascoltando poi dovevo per forza sono scesa sono entrata al bar e vi ascoltavano anche al bar allora perfetto stai al bar Steffi da Bologna ciao Steffi da Bologna senti qua oh yeah quale alibi",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La vita di Fabio Volo",
+    "tema": [
+      "libro",
+      "autobiografia"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {

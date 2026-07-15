@@ -451,9 +451,12 @@
     "end": 1389.82,
     "speaker_raw": "SPEAKER_14",
     "testo": "musica e come musica il desiderio regna nella mente parto senza voglia di tornare musica e come musica la smania che mi prende di vestirmi da sirena è come una visione magica mia madre non In compagnia di uno straniero, su spiagge assonate, mi parli in silenzio con languide occhiate. Voglio andare ad Alghero, in compagnia di uno straniero, le corse sfrenate, su moto cromate. Che scandalo da sola ad Alguero, da sola ad Alguero con uno straniero. Mia madre non lo deve sapere, non lo deve sapere. musica la sabbia e musica cristalli scintillanti sulla pelle che colorano un tramonto caldo e mitico mia madre non lo deve sapere non lo deve sapere non lo deve sapere mia madre non lo deve sapere non lo deve sapere su spiagge assolate mi parli in silenzio con anguide occhiate sono ancora dal ghero in compagnia dello straniero le corse sfrenate su moto cromate di sera all'estate che scandalo da sola dal ghero da sola dal ghero Mia madre non lo deve sapere, non lo deve sapere.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il desiderio regna nella mente",
+    "tema": [
+      "amore",
+      "desiderio"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -686,9 +689,12 @@
     "end": 2348.09,
     "speaker_raw": "SPEAKER_07",
     "testo": "Dai ragazzi, l'accappatoio non si può sentire sei mesi. Sei mesi va bene, poi cambi tasca e fai altri sei mesi. Spreco d'acqua.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'accappatoio spreca acqua",
+    "tema": [
+      "acqua",
+      "risparmio"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -719,9 +725,12 @@
     "end": 2401.43,
     "speaker_raw": "SPEAKER_11",
     "testo": "poi alla fine del campionato attenzione ha senso scusami Viola adesso metterei un upgrade anche se la puntata è finita l'accappatoio di casa che comunque esci te lo metti ti asciughi e lo appendi o quello che finisce anche nelle borse di calcio e magari sta lì anche la notte che quella sera ti dimentichi ovvio con le scarpe con le pente con le mutande le erce e i calzettoni quando entro a casa con la borsa della palestra sì Non ho l'asciugamano perché me lo dà la palestra, quindi lo lascio là, che palestra di gusto. Però ho dentro le magliette. Lo metto in mezzo alla stanza la borsa perché se mi dimentico...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'accappatoio in borsa",
+    "tema": [
+      "accappatoio",
+      "bagno"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -829,9 +838,12 @@
     "end": 2681.79,
     "speaker_raw": "SPEAKER_05",
     "testo": "A festa della Repubblica! Il mio marito si lamenta sempre perché mi asciugo la bocca dopo che mi lavate i denti nel suo capottoio e gli lascio tutte le strisce bianche del dentifricio.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La festa della Repubblica",
+    "tema": [
+      "festa",
+      "repubblica"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

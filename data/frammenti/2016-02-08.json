@@ -225,9 +225,12 @@
     "end": 969.17,
     "speaker_raw": "SPEAKER_00",
     "testo": "Fabio io le do del lei ma mi piacerebbe tanto darle del tu perché sono rimasto affascinato da lei e dal suo lavoro le voglio dire lei adesso ogni tanto riceverà una telefonata da noi del volo del mattino perché lei ci deve raccontare un po' tutto ciò che noi non sappiamo per esempio lei mi ha detto che non è vero che il sole sorge a est e tramonta a ovest tutti i giorni",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il sole non sorge sempre a est",
+    "tema": [
+      "sole",
+      "equinozio"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -236,9 +239,12 @@
     "end": 990.05,
     "speaker_raw": "SPEAKER_05",
     "testo": "Quasi corretto, come sempre noi siamo sempre precisi. Due volte l'anno questo succede, ma solo due volte, due giorni l'anno. Sono i famosi giorni degli equinozio, l'equinozio di primavera, l'equinozio d'autunno. Ecco, in quei due giorni il sole sorge esattamente a est e tramonta esattamente a ovest.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Equinozio di primavera",
+    "tema": [
+      "equinozio",
+      "primavera"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -258,9 +264,12 @@
     "end": 1045.52,
     "speaker_raw": "SPEAKER_05",
     "testo": "Lui comincia a spostare il punto di levata e il punto di tramonto, si sposta un pochino. Quando andiamo dal marzo verso l'estate il punto di levata e di tramonto si sposta verso nord, ma si sposta di tanto perché si sposta ogni giorno un pezzettino alla volta fino ad arrivare a un punto molto lontano dall'est e dall'ovest, spostato verso nord d'estate, verso sud d'inverno. ma ha spostato di 30-40 gradi quindi non poco e quello sarà un giorno in cui per un po' sembra sempre sorgere tramontare lì si chiama solstizio il sole che sta fermo e poi ricomincia a muoversi ricomincia ad andare verso il punto est la mattina supererà l'est a settembre che è l'equinozio e andrà di nuovo verso sud andremo verso l'inverno si fermerà di nuovo altro solstizio e questa oscillazione del sole",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il punto di levata si sposta",
+    "tema": [
+      "sole",
+      "movimento"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -269,9 +278,12 @@
     "end": 1074.27,
     "speaker_raw": "SPEAKER_00",
     "testo": "lungo l'est continua da millenni anzi da milioni di anni siamo da astronomi da miliardi da miliardi da miliardi è così senta oggi noi parliamo della luna sì allora ci vuole dire due cose belle sulla luna ci sono delle storie affascinanti intanto lei crede a questa storia che se mi taglio i capelli quando io ho degli amici che mi dicono non te li tagliare tagliateli quando è crescente perché tutte queste cose qua è vero che la luna influenza secondo lei anche l'umore delle persone con i suoi studi",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La luna e la forza di gravità",
+    "tema": [
+      "luna",
+      "gravità"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -280,9 +292,12 @@
     "end": 1102.42,
     "speaker_raw": "SPEAKER_05",
     "testo": "Allora, io sono un fisico, quindi non entro nella biologia, però qualcosa la luna fa, che vuol dire la forza di attrazione gravitazionale. Le maree sono una cosa sacrosanta, i fluidi del nostro corpo un po' meno, perché se uno fa due conti scopre che un grattacielo ti attira più della luna, quindi quando uno passa vicino a un grattacielo dovrebbe cambiare di umore. Questo magari succede, però non è mai stato trovato una cosa del genere.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La forza di gravità è universale",
+    "tema": [
+      "gravità",
+      "universo"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -291,9 +306,12 @@
     "end": 1107.68,
     "speaker_raw": "SPEAKER_00",
     "testo": "ecco perché mi sono un po' perso in questo discorso come è entrato il grattacielo in questo discorso?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il grattacielo e la forza di gravità",
+    "tema": [
+      "grattacielo",
+      "gravità"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -467,9 +485,12 @@
     "end": 1684.17,
     "speaker_raw": "SPEAKER_01",
     "testo": "Che tu possa avere sempre il vento in poppa E che il sole ti risplenda in viso E che il vento del destino ti porti in alto A danzare con le stelle",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Benedizione per il viaggio",
+    "tema": [
+      "viaggio",
+      "benedizione"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -478,9 +499,12 @@
     "end": 1716.21,
     "speaker_raw": "SPEAKER_00",
     "testo": "volevo dirti Fabio che il planetario c'è anche a Roma ci ho portato mia figlia con le amichette fatto anche una festa di compleanno alla fine dello spettacolo non so se fossimo più eccitati io e mio marito dei bambini comunque volevo dire a tutti i genitori della capitale non portate i vostri figli al centro commerciale ma regalatevi un'esperienza indimenticabile ho beccato anche l'intro notizie dall'estero passami Boston Maurizio Chicago voglio Chicago sulla 2 Boston",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Visita al planetario di Roma",
+    "tema": [
+      "famiglia",
+      "esperienza"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -500,9 +524,12 @@
     "end": 2075.97,
     "speaker_raw": "SPEAKER_00",
     "testo": "ciao mi chiamo Nicola grazie a voi oggi alla mia età ho scoperto di essere del gallo c'è anche il gallo perché c'è capra scimmia topo gallo allora topo bue tigre coniglio serpente cavallo fantastico c'è anche la gallina la gallina Allora, ho fatto questa riflessione in questi giorni, pensavo alla luna, pensavo a questo astronauta, perché mi ci metto proprio lì, se ho 30 secondi quando sono in bagno o prima di addormentarmi, cerco proprio di entrare, penso se fossi io quello lì, cerco di immaginarmi com'è appunto nella vita dopo... Cioè se sei andato sulla luna a me mi sembra una roba, capito? Già io tipo a vent'anni sono venuto a Milano per i miei amici di Brescia, ero già una specie di... lo cavolo vive a Milano, vai vive a Milano, cioè quello è andato sulla luna. Ma pensate ai danni anche domestici, ho pensato, sono arrivato a questa conclusione, ai danni domestici che ha fatto... l'essere andato sulla luna perché per esempio si rompe qualcosa in casa mio papà si metteva lì un po' per ripararla e io gli dico papà ma non sei capace lascia stare chiamiamolo elettricista se sono andati sulla luna cioè hanno spostato diciamo il punto così in alto che tu ti senti un idiota a perderti a bordighera ecco quelli sono andati sulla luna e noi ci siamo persi a bordighera perché quella frase lì è entrata in circolo in maniera non so se si dice ancora adesso sì la voglia ecco ma la parcheggi tu la macchina che lo so che faccio cazzo ragazzi sono andati sulla luna e tu non sai parcheggiare una Yaris cioè è rimasta un po' questa quindi la gente si è misurata con delle cose fuori dalla loro portata e invece l'altra cosa ma non l'ho pensata l'altro giorno perché l'avevo già scritta in un mio libro com'è i figli d'arte tu sei figlio di un grande cantante un grande giocatore un grande architetto tuo padre che è andato sulla luna che foto gli fai vedere? pensa a Armstrong che torna in America non c'erano i cellulari ti ricordi che ai nostri tempi si andava a settembre a casa di qualcuno e ti mostrava le foto delle vacanze le diapositive e tu dicevi sono stato in Kenya io non ho mai stato, vieni a vedere le foto comunque andavi cioè tu inviti Armstrong sei dalla famiglia vieni anche a Armstrong no dai Armstrong no che... perché lui si sarà lo invitiamo a mangiare la pizza no ma lui si rompe il cazzo ha detto che vieni qua eravamo nel Kentucky ti piace ma io avevo visto la pelata ci va tutti insieme cioè sbarella anche un po' la testa nelle relazioni va bene detto questo che erano tutte cose abbastanza inutili che erano le mie riflessioni diciamo prima di addormentarvi siamo arrivati a quel momento lì dove io vorrei adesso andarci in macchina e ascoltarvi ma vai vai solo che non hai una macchina prendiamo un enjoy al volo non hai la macchina non hai la macchina vado giù con un enjoy esatto e ascolto un po' ascolto Radio DJ i prossimi minuti il vostro vizio che sia quale che sia toccacciarvi o fumare una sigaretta o bere un caffè ma come? l'abbiamo fatto per voi sono andati sulla luna pensa quel giorno lì",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La luna e l'astronauta",
+    "tema": [
+      "luna",
+      "astronauta"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -544,9 +571,12 @@
     "end": 2486.54,
     "speaker_raw": "SPEAKER_00",
     "testo": "Ma ragazzi... Quanti ricordi, quanti immagini, quanti pensieri nella testa proprio che mi sono venuti con questa canzone, a differenza della musica che schiaccia, no? Quella che ti invade, questa proprio ti apre il cervello. E stavo pensando, mentre ascoltavo questa canzone, a cui io sono legato particolarmente, perché insomma è un album meraviglioso, se i giovani adolescenti, visto che io ho figli molto piccoli, non ho relazioni con gli adolescenti, diciamo, non ne incontro mai, se hanno, dalla musica di oggi... questi album qui dove non è che c'è bella la canzone dove io me le metto in cameretta me le mettevo in cuffia tra l'altro avevo messo quelle stelle sul soffitto che accendi la luce la spendi quella lì tamarrata avevo riempito che brutto la cameretta un giorno mia sorella perché dormivamo nella stanza la spendo la luce boom ma che cazzo guarda che tribo io facevo le cane quelle che si ricaricavano durante il giorno con la luce sì tu bastava accendere la luce tipo 30 secondi spegnevi boom era tutto ma avevo fatto l'avò riempito quindi era proprio stellatissimo un ragazzo qua di Brescia dice quanti spinelli non sentivo la parola spinelli comunque mi mettevano in cuffia avevo delle cuffie della della Philips che avevano anche il volume sopra una cuffia che ai tempi erano super tecnologiche e mi mettevo lì e mi mettevo tipo non so un questo album per esempio gli altri non te li ricordi neanche no Shine o Crazy Diamond sempre dei Pink Floyd 14 minuti lo dico sempre cioè proprio una roba che e tu praticamente queste canzoni diventavano una navicella un tappeto volante dove tu andavi dentro capito dentro te stesso le tue cose le tue paure poi quando sei adolescente c'hai un sacco di ansia più di quando sei adulto nel senso che fai finta di nascondere però ti ammazzi di quello che puoi però c'è dove vado cosa faccio sarà uno sfigato sarà uno figo cosa succede la voglio baciare non so come si bacia cioè c'è in mille paranoia e tu ti ascolti capito un album così The Wall adesso ne sto pensando a questi però ce ne sono tantissimi di album belli anche in musica ancora più vecchia ci sono le nuove generazioni perché non mi vedo un ragazzo che si mette lì e mette Fedez e si mette in cuffia Fedez e dice oh",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Canzone che apre il cervello",
+    "tema": [
+      "musica",
+      "pensieri"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -588,9 +618,12 @@
     "end": 2545.48,
     "speaker_raw": "SPEAKER_00",
     "testo": "Pink Floyd e ACDC a palla ma grazie quattro anni io ti dico quello che devi ascoltare bisogna vedere quando uno allibera il video non so se avete visto su Facebook gira tanto questo filmato di questo bambino che il papà gli dice ti metto Peppa Pig no l'avete visto? no ti metto il coccodrillo no ti metto questo ti metto i lezzepoli lui gli mette il pezzo di lezzepoli e il bambino fa giù di cominciare una cosa importante è che non lo perda quando arriva nell'adolescenza non lo perda quando arriva nell'adolescenza va bene insomma io grandi viaggi che me li sto aspettando perché fra qualche anno mi rimetto lì",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il bambino e i lezzepoli",
+    "tema": [
+      "bambino",
+      "musica"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -610,9 +643,12 @@
     "end": 2664.98,
     "speaker_raw": "SPEAKER_02",
     "testo": "Grazie. I did it, did it, no I did it, did it I did it, did it, no I did it, did it You make it all shine When I saw you tonight It was like the first time",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Canzone di successo",
+    "tema": [
+      "musica",
+      "successo"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -621,9 +657,12 @@
     "end": 2766.09,
     "speaker_raw": "SPEAKER_00",
     "testo": "io ascolto musica in cuffia la sera a casa tipo Rihanna però è un'altra cosa quello che volevo spiegare è questo tipo di musica che è all'interno di un album e l'album ai tempi miei aveva un senso la scaletta in cui il produttore e l'artista sceglievano le canzoni di quell'album perché era proprio un viaggio al di là dei concept album tipo The Wall ma in generale c'era tutto un sali e scendi questo è Alvaro Vitali questo è Alvanoto io consiglio Alvanoto ecco per esempio Alvanoto che rifà questo pezzo di Brianino ecco tu ti metti immaginatevi se avete le cuffie una bella poltrona, un divano quello che è la sera cuffia così va anche un po' di sincopatino lui Devo dire che è anche difficile forse vedere gli adolescenti che hanno questo trip anche con la letteratura. Cioè i pomeriggi magari che ci facevamo noi a leggerci il libro. Adesso diciamo la tecnologia ha accelerato così tanto che l'attenzione di 30 pagine di un libro importante sono difficili da sostenere.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "concetto album e The Wall",
+    "tema": [
+      "musica",
+      "album"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
