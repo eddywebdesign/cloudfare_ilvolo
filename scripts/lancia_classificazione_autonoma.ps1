@@ -15,6 +15,19 @@ function Scrivi($msg) {
     "$ts $msg" | Out-File -FilePath $Log -Append -Encoding utf8
 }
 
+# Committa PRIMA di pullare: mai lasciare file modificati non tracciati (es. da
+# un giro precedente interrotto) che bloccherebbero il pull --rebase con "hai
+# modifiche non salvate" - stesso fix gia' applicato in autocommit_dati.sh (K16)
+# dopo l'incidente del 2026-07-14/15 (backlog di frammenti mai committato che
+# bloccava OGNI esecuzione successiva, senza possibilita' di auto-ripararsi).
+git add data\frammenti data\riferimenti 2>$null
+git diff --cached --quiet
+if ($LASTEXITCODE -ne 0) {
+    $nPrevio = (git diff --cached --name-only | Measure-Object -Line).Lines
+    git commit -m "Autocommit classificazione notturna, backlog pre-pull ($nPrevio file)" --quiet
+    Scrivi "Committati $nPrevio file pendenti di un giro precedente, prima del pull."
+}
+
 git pull --rebase --quiet 2>>$Log
 if ($LASTEXITCODE -ne 0) {
     Scrivi "ERRORE: git pull --rebase fallito, salto questo giro."
