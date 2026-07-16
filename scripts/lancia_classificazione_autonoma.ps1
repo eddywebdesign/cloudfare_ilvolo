@@ -50,6 +50,24 @@ git commit -m "Autocommit classificazione notturna ($n file)" --quiet
 git push --quiet 2>>$Log
 if ($LASTEXITCODE -eq 0) {
     Scrivi "Committati e pushati $n file."
+    exit 0
+}
+
+# Push rifiutato (remoto avanzato nel frattempo, es. autocommit del K16): un
+# solo tentativo di pull --rebase + repush prima di arrendersi. Prima (fino al
+# 2026-07-16) un push fallito veniva solo loggato ma lo script usciva con
+# successo comunque - Task Scheduler non segnalava mai il problema.
+Scrivi "AVVISO: git push fallito al primo tentativo, provo pull --rebase + repush..."
+git pull --rebase --quiet 2>>$Log
+if ($LASTEXITCODE -ne 0) {
+    Scrivi "ERRORE: pull --rebase di recupero fallito. $n file committati in locale, NON pushati."
+    exit 1
+}
+git push --quiet 2>>$Log
+if ($LASTEXITCODE -eq 0) {
+    Scrivi "Committati e pushati $n file (tras reintento)."
+    exit 0
 } else {
-    Scrivi "ERRORE: git push fallito ($n file committati in locale)."
+    Scrivi "ERRORE: git push fallito tras reintento ($n file committati en local, NO pushati)."
+    exit 1
 }
