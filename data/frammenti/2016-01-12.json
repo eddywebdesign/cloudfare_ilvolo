@@ -74,9 +74,12 @@
     "end": 391.39,
     "speaker_raw": "SPEAKER_14",
     "testo": "Volevo dirvi che il nostro ascoltatore Luigi D'Alticino ci ha appena scritto che in direzione Zurigo piove con mista neve. Sai quella pioggia mista neve? Che bella.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "pioggia mista neve",
+    "tema": [
+      "musica",
+      "pioggia"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -202,9 +205,12 @@
     "end": 614.83,
     "speaker_raw": "SPEAKER_14",
     "testo": "a marzo io sono già maestro Shifu, amo il Kung Fu va bene, quindi Ascoltatori, oggi siete voi che ci dovete buttare un po' di energia. Sono piccole cose, non sono questi i problemi della vita, però sono quelle piccole cosine che durante il giorno poi non so cosa può succedere. Parleremo di tante cose, è stupendo, parleremo di longevità, di gente che non muore mai, che sono quasi sempre i rompicoglioni. parleremo di colloqui di lavoro con le domande giuste da dire cioè le risposte giuste da dare per essere assunti assolutamente anche se un lavoro ce l'avete già e volete cambiarlo ma prima sentite qua i Cure con Close to Me un disco del 1985 e questo è il volo del mattino oggi sentirete anche Bob Dylan poi se muore lo sentite dappertutto ma per adesso solo da noi povero no perché ieri i Devi Bowie erano tutti i fan di Devi Bowie ieri guarda che grigio Bowie",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "piccole cose",
+    "tema": [
+      "longevità",
+      "problemi"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -355,9 +361,12 @@
     "end": 997.55,
     "speaker_raw": "SPEAKER_14",
     "testo": "ho già troppe domande ciao uno dei consigli dicono sempre mai fare scena muta cioè piuttosto temporeggiate con delle dunque io mi ricordo intanto cercate un'idea cioè sdoppiatevi uno parla per voi dentro di voi comunque in questo modo hai saltato la domanda Eh vedi per esempio, una cosa creativa che mi viene in mente in questo momento, ma cosa vuol dire una cosa creativa? Io avevo già risposto in un secondo. Qual è? Dimmi qual è? Un fiore meccanico.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "scena muta",
+    "tema": [
+      "creatività",
+      "tempo"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -893,9 +902,12 @@
     "end": 2126.42,
     "speaker_raw": "SPEAKER_11",
     "testo": "ma Marco cosa ha risposto? io l'ho risposto questo giorno in teoria poi volevo rispondere i miei figli però mi sentivo un po' dai non ci sa questa in realtà noi non siamo riusciti a trovare la risposta te l'ho fatta prima allora hai due uova e vuoi scoprire qual è il piano più alto da cui puoi farle cadere senza romperle come lo faresti?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il piano più alto per le uova",
+    "tema": [
+      "paura",
+      "rischio"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -904,9 +916,12 @@
     "end": 2176.87,
     "speaker_raw": "SPEAKER_14",
     "testo": "qual è l'estremo dell'altezza? il piano più alto da cui puoi far cadere due uova che hai in mano io penso che dovrei cercare un complice per provare questo esperimento pensa che io Cesare sono già entrato nella sua testa sono entrato nella testa di Cesare non ascolto neanche più quello che dice cerco di capire il secondo messaggio cioè Cesare ci ha appena detto sono collaborativo ma io non riconosco chi è chi Marco è quello bravo ragazzo che fa una frittata che Marco dice ma ragazzi che domande di merda sono io sono qua per il computer Cesare invece ha detto ho la famiglia tutto a posto però sono uno che mi piace anche lavorare con gli altri bisogno di un complice ma dove hai imparato Cesare con tutte queste risposte? c'è un libro?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Cesare entrato nella testa",
+    "tema": [
+      "politica",
+      "potere"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -982,9 +997,12 @@
     "end": 2470.1,
     "speaker_raw": "SPEAKER_14",
     "testo": "Allora, parola di ingegnere informatico, sei ingegnere informatico?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ingegnere informatico",
+    "tema": [
+      "lavoro",
+      "carriera"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -1004,9 +1022,12 @@
     "end": 2487.87,
     "speaker_raw": "SPEAKER_14",
     "testo": "Beh, non così bene come hanno fatto loro Allora, scusami, tu hai risolto il quesito delle due uova?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il quesito delle due uova",
+    "tema": [
+      "paura",
+      "rischio"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

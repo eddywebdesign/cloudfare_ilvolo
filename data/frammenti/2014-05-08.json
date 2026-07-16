@@ -27,9 +27,12 @@
     "end": 355.14,
     "speaker_raw": "SPEAKER_03",
     "testo": "Ho fatto un giro veloce sui notiziari per capire se c'è qualche news. C'è un'ultima ora, c'è un arresto, se non sbaglio, di Scaiola. Hanno arrestato Scaiola stamattina. Chissà come ti svegli la mattina. Chi è? Davide Carabinieri. Puoi fare la borsa che andiamo ad andare a fare un attimo? Che ansia! Ti potrei raccontare una storia stupenda, Maurizio? Mai raccontato! No! senti questa cosa, la faccio veloce anche per gli ascoltatori, velocissima tante cose purtroppo che mi vengono riportate o che vedo non le posso dire ovviamente però questa qui fa ridere è una piccola cosa, nel periodo di Mani Pulite quelle lì che arrestavano a un certo punto I carabinieri vanno a casa di questo che era uno che lavorava alla RAI, quindi bussano, salgono e la moglie dice sì, cerchiamo, dice il nome del marito, lui arriva con tutta la dignità del mondo e dice... Un attimo, datemi cinque minuti, ok? Va di là in camera, prende la valigia e mette dentro. Perché lì cominciavano ad andare dentro magari anche cinque o sei notti prima del processo, ma comunque davvero in galera subito. Prende le sue robe, fa la valigia, arriva davanti alla porta e dice, sono pronto. E dice, in che senso? No, dico, sono pronto se vogliamo andare. E lui dice, saremmo venuti qui a invitarla per questo genio? Pensa come la coscienza era pulita. Va bene. Allora, a proposito, Maurizio, sono arrivato perché... Ieri ho fatto queste tre ore di treno e avevo dei blocchi emotivi da sbloccare, li ho sbloccati in queste tre ore, ho lasciato giù il telefono, ho lasciato giù il libro, ho detto adesso ok vado lì, vado lì e sblocco. Oggi sono un fiume in piena di belle cose e ovviamente questo mi crea dei problemi perché ovviamente quando tu sei felice a qualcuno ti rompi i maroni e quindi ti fai gli sgambettini. Quindi nonostante sia venuto qui al lavoro, ci sono già successe quelle due o tre cose che me li sbranerei in un secondo... tiro sulla testa dalla nebbia e guarda sì perché ho pensato come scrissi una volta in un libro se tu esci guardi il cielo ne sei affascinato e mentre cammini guardando il cielo pesti una merda no non è che tu dopo devi rinunciare al cielo per paura delle merde e la vita è così tu guardi il cielo ogni tanto ci sono delle merde ecco noi la mattina l'abbiamo già incontrato ma siamo felici come una pasqua si può dire sì tu cosa hai pensato invece stamattina invece mi sono svegliato ho pensato questo temo la pace più di ogni altra cosa",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Scaiola",
+    "tema": [
+      "giustizia",
+      "notizie"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -196,9 +199,12 @@
     "end": 1068.07,
     "speaker_raw": "SPEAKER_03",
     "testo": "Where's that supernova? I want you to be my girl. Ciao, Johanna. Where's that supernova? Scusa se vi rompo le scasse, ti rompo. Ormai leggo tutto al pullare, Maurizio. Ormai quest'anno il programma sei tu. Mi viene anche il sospetto. Chi ha ucciso Spank? Questo sarebbe il titolo di una serie televisiva. Chi ha ucciso Spank? Perché tu hai sostituito Spank. Scusate ragazzi, vi rompo le scatole, io e mio papà vi stiamo ascoltando. Volevo chiedervi qual è quel film che avete messo dove parlano dei quadri e a un certo punto si staccano. Fram! Fram, è Novecento. Novecento, la leggenda del pianista sull'oceano. Dico bene? Sì. Che il film è un altro titolo. Ok, Novecento, leggenda, quindi vai, è bellissimo. Lo trovi anche su YouTube già tagliato, credo, forse da qualcuno. bella bella bella la metafora del gabbiano eh ragazzi ma io sono un pozzo di saggezza ma io sono tutto impregnato di poesia io mi taglio le unghie prendo l'unghia guardo contro luce e lì c'è un pezzo di poesia che schifo che schifo o il gabbiano pesca da solo e si arrangia oppure segue il peschereccio perché attenzione il peschereccio è lì e tu gli rubi il pesce ma sei costretto a seguire quello dove va lui tu stai leggendo solo te stesso sulla stampa ti ha preso la botta di popolarità rileggi supporto musicale del maestro Maurizio Rossato poi di che non sono un amico l'hai voluto tu il maestro ho chiamato io ieri e ho detto ragazzi dovete farmi questa cortesia Così come facciamo pubblicità agli ascoltatori, lo facciamo anche a te Maurizio. Ma uno ragazzo ha scritto, non scendo dalla macchina, stai lì che cazzo ne frega, non scendo dalla macchina se non richiamate la ragazza ieri di Londra che avevate promesso che l'aveste chiamata. Ok? La mattina zecco anche i verti ragazzi. Buongiorno Chiara! Ciao, buongiorno. Ciao, buongiorno. Senti Chiara, quante telefonate e messaggi hai ricevuto ieri? Ti ho sentito ora il DJ. O no?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Where's that supernova?",
+    "tema": [
+      "musica",
+      "amore"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {

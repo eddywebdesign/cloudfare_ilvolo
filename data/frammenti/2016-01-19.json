@@ -5,9 +5,12 @@
     "end": 30.6,
     "speaker_raw": "SPEAKER_00",
     "testo": "radio dj one nation one station one love my nights are broken up by the sounds of women i'll never meet and when my eyes are closed i can start to feel Ciao Ciao Ciao",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ciao Ciao Ciao",
+    "tema": [
+      "musica",
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -207,9 +210,12 @@
     "end": 1007.47,
     "speaker_raw": "SPEAKER_10",
     "testo": "Comunque sono ancora alla fase preliminare, quindi ancora non la stanno costruendo. C'è una gara e ci sono vari team che dovranno presentare dei progetti.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "progetto di città",
+    "tema": [
+      "architettura",
+      "invenzione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -251,9 +257,12 @@
     "end": 1112.21,
     "speaker_raw": "SPEAKER_10",
     "testo": "sono Spike Lee e Giada Pinkett Smith e la piccolina moglie di Bruce Willis di Will Smith lo sai c'era Aria di Maretta tra loro due secondo me si sono proprio lasciati",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Spike Lee e Giada Pinkett Smith",
+    "tema": [
+      "film",
+      "celebrità"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -589,9 +598,12 @@
     "end": 2317.38,
     "speaker_raw": "SPEAKER_08",
     "testo": "Non per parlare di vita privata, ma l'altra sera Giuliano mi ha fatto un pacchero a casa sua. Mamma mia, questo ragazzo è difficile.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Giuliano fa il pacchero",
+    "tema": [
+      "genitori",
+      "figli"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -611,9 +623,12 @@
     "end": 2325.72,
     "speaker_raw": "SPEAKER_08",
     "testo": "Sì, ha cucinato un paccherino, poi mi ha tirato due mozzarella in faccia appena sono entrato in casa.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Giuliano tiracapo",
+    "tema": [
+      "genitori",
+      "figli"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -633,9 +648,12 @@
     "end": 2402.41,
     "speaker_raw": "SPEAKER_08",
     "testo": "io ho portato due bottiglie di vino una per loro e una per me perché ovviamente adesso quando mi ritrovo diciamo da solo senza i figli così è il mio weekend da adolescente perché ho detto questa è per voi è un buon vino rosso questa la tengo qua a fianco al bicchiere e non si deve spostare e niente mi sono fatto quella bella bottiglia è buona buona molto buona ma non era questo di cui volevamo parlare volevamo dire un'altra cosa il mondo ideale cioè la città ideale che si chiama Liberland se potete poi andiamo a vedere se sarà cittadina intanto andiamo a vedere se la costruiranno io dico agli ascoltatori se voi sentite di poter partecipare a questa cosa portando un'idea insomma il bando è aperto bando alle ciance si chiama ovviamente solo se avete delle idee valide se no al bando un cazzo ieri è uscita questa notizia a proposito dell'ingiustizia o della giustizia del mondo ideale cioè la proprietà del valore e dei valori del denaro sul pianeta terra ieri è uscita questa notizia molto forte per cui 62 persone nel mondo hanno lo stesso patrimonio di 3 miliardi e",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Vino e figli",
+    "tema": [
+      "genitori",
+      "figli"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

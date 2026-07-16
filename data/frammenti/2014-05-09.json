@@ -518,9 +518,12 @@
     "end": 1012.22,
     "speaker_raw": "SPEAKER_09",
     "testo": "c'è un'altra cosa a cui ci tengo a dire ci saranno anche i tre super chef Andrea Bertone, Carlo Cracco e Davide Oldani che per l'occasione hanno fatto a titolo gratuito a scopo di beneficenza un piatto che si chiama risata colorata ed è il classico riso giallo ave milanese però con dei sapori da Icon al Carri",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "risata colorata",
+    "tema": [
+      "cucina",
+      "beneficenza"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -540,9 +543,12 @@
     "end": 1074.53,
     "speaker_raw": "SPEAKER_09",
     "testo": "in Expo Gate di fronte al Castello Scorsese via Beltrami dalle 18.30, non serve invito e poi aggiungo che dall'indomani noi siamo aperti tutti i giorni dalle 10 alle 20 con eventi gratuiti tutti i giorni però mangiare si mangia domani mangiare si mangia domani si mangia domani Fabio, si pagano 5 euro, vanno totalmente a scopo di beneficenza, comunità nuova, di Don Gino Rigoldi e Ollus via Libra. Quindi voglio ringraziare gli chef per essersi anche prestati a titolo gratuito e a scopo di beneficenza.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Expo Gate",
+    "tema": [
+      "evento",
+      "beneficenza"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -623,9 +629,12 @@
     "end": 1414.66,
     "speaker_raw": "SPEAKER_14",
     "testo": "Qui c'è un sacco di gente che viene domenica a vederti, Maurizio. Io posso anche non venire più ormai. Lo faccio io. Oh! Comunque noi avremmo potuto fare anche quelli che inventano le pubblicità alla radio.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "pulce e pubblicità",
+    "tema": [
+      "radio",
+      "pubblicità"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

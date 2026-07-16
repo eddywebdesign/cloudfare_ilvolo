@@ -546,9 +546,12 @@
     "end": 1953.63,
     "speaker_raw": "SPEAKER_10",
     "testo": "Quindi l'ha incisa al sette e dopo tre giorni c'è stato l'incidente.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'incidente dopo tre giorni",
+    "tema": [
+      "incidente",
+      "tempo"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -625,9 +628,12 @@
     "end": 2259.71,
     "speaker_raw": "SPEAKER_10",
     "testo": "Attenzione! Cioè tu a colazione mangi tre mandorle?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Mangiare tre mandorle",
+    "tema": [
+      "cibo",
+      "abitudine"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -785,9 +791,12 @@
     "end": 2324.82,
     "speaker_raw": "SPEAKER_15",
     "testo": "Mi stavi dicendo che vorrei vedere la faccia.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La faccia di mio marito",
+    "tema": [
+      "famiglia",
+      "umore"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -824,9 +833,12 @@
     "end": 2387.19,
     "speaker_raw": "SPEAKER_10",
     "testo": "sono a casa ho sempre aiutato mio marito ah ok e tu devi aspettare che finisca lui di lavorare probabilmente si e fra quanto vai?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Aspettare mio marito",
+    "tema": [
+      "famiglia",
+      "tempo"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -835,9 +847,12 @@
     "end": 2388.15,
     "speaker_raw": "SPEAKER_15",
     "testo": "4-5 anni c'hai le guanciotte Caterina?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Le guanciotte di Caterina",
+    "tema": [
+      "famiglia",
+      "età"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -846,9 +861,12 @@
     "end": 2412.77,
     "speaker_raw": "SPEAKER_10",
     "testo": "perché mi hai appena schiacciato un tasto del telefono sorridendo può darsi o le guanciotte si può darsi che io abbia scorso no perché abbia sorriso e quando uno sorride ogni tanto senti sono quelli con le guanciotte ma scusami fra quanto vai in pensione? perché adesso Quarenzi ci butterà altri 5 o 6 anni da qui a quando va via",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Le guanciotte e la pensione",
+    "tema": [
+      "famiglia",
+      "tempo"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

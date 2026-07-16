@@ -93,9 +93,12 @@
     "end": 386.19,
     "speaker_raw": "SPEAKER_01",
     "testo": "Good morning life, good morning sun, how are you? It's great to be alive and in love. a presto Last night she said she loved me What a pity to part I slurred with both eyes open Waiting for today to start Good morning life Good morning world How are you? All at once I knew what living can be It's life, it's free It's someone waiting for me Good morning life",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Good morning life",
+    "tema": [
+      "amore",
+      "vita"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -104,9 +107,12 @@
     "end": 408.51,
     "speaker_raw": "SPEAKER_04",
     "testo": "a volte però io leggo dei messaggi e penso di aver perso dei pezzi perché mi arriva un messaggio ciao Fabio che fine ha fatto Irene Grandi puoi dire a mio marito Gabriele che lo amo c'è lo stesso messaggio che fine ha fatto Irene Grandi abbiamo parlato di Irene Grandi?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Messaggi in arrivo",
+    "tema": [
+      "comunicazione",
+      "relazioni"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -115,9 +121,12 @@
     "end": 413.33,
     "speaker_raw": "SPEAKER_02",
     "testo": "no però c'è stato un periodo in cui chiedevi che fine ha fatto Giovanna Mezzogiorno ti ricordi?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Giovanna Mezzogiorno",
+    "tema": [
+      "personaggi",
+      "televisivo"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -126,9 +135,12 @@
     "end": 422.0,
     "speaker_raw": "SPEAKER_04",
     "testo": "Ah ok, ma Irene Grandi, non so se ha cambiato il numero, se no dovrei averlo, lo possiamo chiamare. Puoi dirmi un marito Gabriele che lo amo, cioè nella stessa riga.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Irene Grandi",
+    "tema": [
+      "personaggi",
+      "musica"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -424,9 +436,12 @@
     "end": 1199.6,
     "speaker_raw": "SPEAKER_05",
     "testo": "Due mamme diverse ma siamo in quattro, due maschi e due femmine.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "due mamme diverse",
+    "tema": [
+      "famiglia",
+      "genitori"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -435,9 +450,12 @@
     "end": 1226.54,
     "speaker_raw": "SPEAKER_04",
     "testo": "Verena e Valentina due mamme cioè tuo papà pensa a quella cazzo di Verena quando va in giro scusami Verena Valentina Werther e William quindi la V diciamo perché vicinanza è il cognome quindi devono ah Vivi ma la mia domanda è tuo padre è riuscito a fare una gemellata con una donna e una gemellata con un'altra donna ma non mi mi la doppietta eh Beh, lui dove colpisce fa tutto doppio.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "gemellata con due donne",
+    "tema": [
+      "genitori",
+      "famiglia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -457,9 +475,12 @@
     "end": 1237.25,
     "speaker_raw": "SPEAKER_04",
     "testo": "Ah, quindi siete in quattro, ma che meraviglia. Sono più piccole o sono del primo matrimonio? Allora sono più piccole. Hanno 13 anni. E si assomigliano?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "gemelle piccole",
+    "tema": [
+      "famiglia",
+      "genitori"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -468,9 +489,12 @@
     "end": 1240.69,
     "speaker_raw": "SPEAKER_05",
     "testo": "Sì, come noi. Hanno quelle differenze un po' come noi.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "somiglianza tra gemelle",
+    "tema": [
+      "famiglia",
+      "genitori"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -479,9 +503,12 @@
     "end": 1249.66,
     "speaker_raw": "SPEAKER_04",
     "testo": "Ma la mia domanda è, non c'è nel percorso di vita uno, non so, è stato più stressato, ha sofferto per amore, quindi non so, ha perso i capelli, c'è i capelli... Cioè, voi invecchiate sempre uguali.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "invecchiare sempre uguali",
+    "tema": [
+      "invecchiamento",
+      "somiglianza"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

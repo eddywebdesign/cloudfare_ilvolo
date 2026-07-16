@@ -568,9 +568,11 @@
     "end": 1236.95,
     "speaker_raw": "SPEAKER_01",
     "testo": "Big Leboschi Fargo Fargo bellissimo sono totalmente impreparata come si chiamava quello con Brad Pitt che faceva ah brava",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Big Leboschi e Fargo",
+    "tema": [
+      "cinema"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {

@@ -284,9 +284,11 @@
     "end": 878.24,
     "speaker_raw": "SPEAKER_01",
     "testo": "Tre allegri ragazzi morti, Futurings. Futurings. Futurings. Futurings in questa grande città. Lorenzo Giovanotti, buongiorno a tutti. Bene, bene. Sono arrivati i messaggi con altri numeri di bar, parrucchieri e dove ci sono le belle ragazze. Vogliamo fare una rubrica belle ragazze d'Italia e facciamo una specie di Miss Italia del volo del mattino? Sì, perché no? A me! Mamma mia! Però quando uno esce di casa, soprattutto se sei sposato, se sei fidanzato così, esci di casa e hai la tua barista, la tua parrucchia, persone con cui non hai una relazione intima, però che diventano paese, è bello. Lo dico anche, vai al bar, c'è quella lì carina, fai il caffè, fai due chiacchiere, fai il lavoro più contento. Anche le donne sicuramente avranno magari il barista quello figo. Sì, stavo pensando. Ce l'hai tu, te lo so, quello che guida il trama la mattina che ti porta qua? No. E ti dice, viola come va oggi? Hai già timbrato? No, l'abbonamento! Ma, ma, fa così, ma, ma. Va bene. Allora, l'altro giorno, vi devo portare questa esperienza, l'altro giorno sono andato alla sede del Touring Club.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Tre allegri ragazzi morti",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -405,9 +407,12 @@
     "end": 1293.55,
     "speaker_raw": "SPEAKER_07",
     "testo": "Pretending I'm doing well My need is such I pretend too much I'm lonely but no one can tell Oh yes, I'm the great pretender Drifting a world of my own I play the game, but to my real shame You've left me to dream all alone ... ... ... ... ... ... ... ... ... ... Grazie I'm the great pretender Just like a girl Like a clown I seem to be What I'm not used to I'm wearing my heart Like a crown Pretending Grazie.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Pretending I'm doing well",
+    "tema": [
+      "solitudine",
+      "falsità"
+    ],
+    "tipo": "lettura_volo",
     "video_url": ""
   },
   {
@@ -430,9 +435,12 @@
     "end": 1636.65,
     "speaker_raw": "SPEAKER_03",
     "testo": "Ferramentista, tappeziere Ferramente, ferramente Negli occhi di un bambino, uno sguardo da gigante Nei sogni di una donna, la bellezza irriverente Un vecchio che rincorre, quell'attimo fuggente L'avesse preso prima, non ne avrebbe fatto niente Un tetto che si apre dalla casa, piove il cielo qualcuno lo raccoglie per poi farne del veleno, da bere a sorsi lenti come gocce di cristallo, c'è una ragazza sola che da sempre aspetta il ballo. L'amore qui non passa mai, Nel bacio degli amanti che si scambiano i silenzi, c'è una storia da buttare, un'altra tutta da rifare. E sotto scalabui di questi anni ridispersi, c'è un cumulo di polvere e desideri da mischiare. Un cane si accontenta di pisciare contro i muri, nessuna terra nuova per cui vada. tanto resta fermo a fissarlo sopra i tetti. Quella ragazza ha perso anche tutti quei denti, l'amore che non passa. Nell'ombra dei ricordi di chi non ha mai vissuto c'è uno che somiglia a te e non l'hai riconosciuto. Nei soldi che contiamo c'è una smania devastante di ripicciolire il tempo, di accorgiare le distanze, dei segni che conservo sulla bellezza e cicatrice se bruci forte ancora. Non è vero quel che si dice, da qui è passato amore e se n'è andato smetto, ma sei rimasta mia, sei intrappolata adesso. L'amore qui non passa e bruci forte ancora.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Negli occhi di un bambino",
+    "tema": [
+      "bambino",
+      "sogni"
+    ],
+    "tipo": "lettura_volo",
     "video_url": ""
   },
   {

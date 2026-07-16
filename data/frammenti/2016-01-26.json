@@ -5,9 +5,11 @@
     "end": 10.09,
     "speaker_raw": "SPEAKER_08",
     "testo": "DJ One Nation One Station One Love",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Rufus",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -165,9 +167,11 @@
     "end": 357.16,
     "speaker_raw": "SPEAKER_00",
     "testo": "E lui capisce, è lui che capisce. Ah questo è il dramma. Oddio che ansia, oddio che ansia.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ansia",
+    "tema": [
+      "ansia"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -298,9 +302,11 @@
     "end": 853.26,
     "speaker_raw": "SPEAKER_11",
     "testo": "Allora, come vestita potrebbe anche andare bene, ma la faccia gli scipa tutto.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Fisico e faccia",
+    "tema": [
+      "aspetto"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -309,9 +315,11 @@
     "end": 858.73,
     "speaker_raw": "SPEAKER_00",
     "testo": "Però, diciamo, fisicamente se la puoi permettere la minigonna?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Minigonna",
+    "tema": [
+      "abbigliamento"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -320,9 +328,11 @@
     "end": 862.33,
     "speaker_raw": "SPEAKER_11",
     "testo": "Vestita, non so com'è sotto, quindi vestita forse sì.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Vestito e bassa",
+    "tema": [
+      "aspetto"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

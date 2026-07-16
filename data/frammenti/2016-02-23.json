@@ -307,9 +307,12 @@
     "end": 1171.44,
     "speaker_raw": "SPEAKER_07",
     "testo": "No? Se ora pronunciassi il suo nome credo che mi sentirei molto combattuta Magari è una bella sensazione a 21 anni ma ora come ora Lasciamo stare il passato, ok? Non ti sei mai totalmente aperto con me Non è vero No È così invece Mi hai reso infelice per molto tempo, Damien C'è nient'altro? Non sono ferita e nemmeno arrabbiata È come io me lo ricordo Ma non ha più importanza ormai, giusto? Giusto Ti rendi conto, Damien?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La storia con Damien",
+    "tema": [
+      "amore",
+      "infelicità"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -329,9 +332,12 @@
     "end": 1209.21,
     "speaker_raw": "SPEAKER_07",
     "testo": "Stiamo qui a chiacchierare come due fidanzatini Già Cinque minuti con te ed è come se tutta la mia vita fosse frutto della mia immaginazione Non lo so No, non lo sai No, non lo sai Ok Tu sei solo quella fottuta cosa che continua a divorarmi dentro Non puoi presentarti davanti a me Dopo due secoli Sposato E dirmi che pensi ancora a me Non lo puoi fare Perché no? Ami tua moglie?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La vita è solo immaginazione",
+    "tema": [
+      "amore",
+      "realtà"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -340,9 +346,12 @@
     "end": 1211.98,
     "speaker_raw": "SPEAKER_08",
     "testo": "Sì, certo, tu ami tuo marito, ma qui è diverso.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La differenza tra amore e passione",
+    "tema": [
+      "amore",
+      "passione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -362,9 +371,12 @@
     "end": 1224.97,
     "speaker_raw": "SPEAKER_08",
     "testo": "Qui si tratta di noi. Di noi, Damian e Diana. Di quello che saremo sempre. Niente potrà cambiare le cose. Tanto vale che lo accetti. Lo sai che è così.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La vita non cambia",
+    "tema": [
+      "amore",
+      "destino"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -461,9 +473,12 @@
     "end": 1798.73,
     "speaker_raw": "SPEAKER_11",
     "testo": "seriate, nativo, indigeno sei anche indigeno?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Seriate, nativo, indigeno",
+    "tema": [
+      "libro",
+      "identità"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -472,9 +487,12 @@
     "end": 1819.99,
     "speaker_raw": "SPEAKER_09",
     "testo": "potresti parlare il dialetto e io potrei capire pota pota caso no dai allora sei in tangenziale est di Milano come molti di Bergamo sei schiavo della 4 come si dice vieni a Milano ma stamattina è successo un trauma un dramma e un trauma",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il trauma di un giorno",
+    "tema": [
+      "paura",
+      "incidente"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -497,9 +515,12 @@
     "end": 1870.22,
     "speaker_raw": "SPEAKER_09",
     "testo": "siamo al quarto piano c'è poco da fare cioè è tuo figlio che fa la collezione di queste cose mio figlio che gli è caduto proprio nel buchino tra la porta e l'ascensore il Rollins nell'ascensore ma ce l'aveva doppio?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La collezione di Rollins",
+    "tema": [
+      "figli",
+      "collezionismo"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -508,9 +529,12 @@
     "end": 1880.36,
     "speaker_raw": "SPEAKER_11",
     "testo": "Lui dice di no, io non lo so perché gliene mancano quattro, io ti dico non ho visto neanche una puntata.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La discussione sui Rollins",
+    "tema": [
+      "figli",
+      "collezionismo"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -519,9 +543,12 @@
     "end": 1889.27,
     "speaker_raw": "SPEAKER_09",
     "testo": "Ah, non stai di Guerre Stellari. Sentimi una cosa, abiti lontano da Via Massena, cioè lavori lontano da Radio DJ?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Guerre Stellari",
+    "tema": [
+      "film",
+      "fantascienza"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {

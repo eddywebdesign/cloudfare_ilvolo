@@ -60,9 +60,11 @@
     "end": 528.4,
     "speaker_raw": "SPEAKER_07",
     "testo": "Era il 1986 quando nelle radio mondiali suonava questa canzone degli Wham! Ok, e mentre andava questo disco e ve la siete un po' canticchiata, anche se non sapevate il testo, ma insomma un po' tat tat tat tat tat, ricordando le vostre cose, qualcuno di voi avrà pensato, devo mettere il gel! Eh sì? Eh sì, perché se... Signore e signore è qui con noi Mario Calabresi, direttore di La Repubblica. Buongiorno Mario. Ciao Fabio, buongiorno a tutti. Buongiorno, ti sei abituato? Sai che io una volta ho cambiato radio e mi succedeva che nei primi giorni che lavoravo Radio DJ dicevo Radio Capital perché ero talmente abituato. A te ti capita di dire direttore della stampa?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "canzone Wham! del 1986",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -225,9 +227,12 @@
     "end": 972.96,
     "speaker_raw": "SPEAKER_06",
     "testo": "Caro Fabio, per esempio, no? Posso fare una dichiarazione prima? Perché poi lo so come va a finire, lo so come continua. No, tu vuoi parlare oggi di disobbedienza. Ecco, che sistemerebbe tutto. Di Pinocchio.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Disobbedienza di Pinocchio",
+    "tema": [
+      "disobbedienza",
+      "libro"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -423,9 +428,13 @@
     "end": 1580.24,
     "speaker_raw": "SPEAKER_06",
     "testo": "questa è quell'evoluzione lì portata a c'è un regista c'è un regista che adesso ho un po' dimenticato ma è stato uno dei grandissimi degli anni 30 che si chiama Ernst Lubitsch Lubitsch tutte storie così tutte storie così c'è una che si chiama partita 4 che è bellissima bellissima che è la storia di uno che sta con una poi nel frattempo si accorge che il suo migliore amico sta con lei ok allora all'inizio vogliono litigare poi si accorgono che stanno benissimo in tre",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ernst Lubitsch e la partita 4",
+    "tema": [
+      "cinema",
+      "regista",
+      "anni30"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -434,9 +443,13 @@
     "end": 1632.86,
     "speaker_raw": "SPEAKER_07",
     "testo": "un po' come Truffaut con Jules et Jim a un certo punto lei litiga tutti e due e vuole sposarsi con uno loro cercano di impedirgli di sposarsi e salvare dal matrimonio come se fosse un disastro non era un giudizio sto solo dicendo che io guarda che stanchezza perché è un po' come mentre cucini fai un'altra roba fai una roba alla volta una roba alla volta, falla bene, godi rompiti, poi... Igor mi fa col dito no non leggere questo arrivano solo storie di queste qui difficili da gestire e anche un po' diciamo di sofferenze comunque più o meno è l'amante non l'amante la cosa adesso Igor parli solo tu da qui in avanti e parliamo di disobbedienza che un po' forse c'entra anche col temo",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Truffaut e Jules et Jim",
+    "tema": [
+      "cinema",
+      "truffaut",
+      "relazioni"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -687,9 +700,11 @@
     "end": 2726.33,
     "speaker_raw": "SPEAKER_07",
     "testo": "Senti, vuoi sentire un pezzo di Pinocchio? Senti.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Pinocchio",
+    "tema": [
+      "letteratura"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -698,9 +713,12 @@
     "end": 2742.16,
     "speaker_raw": "SPEAKER_01",
     "testo": "Tentazioni. Cose errate che paiono giuste da prima. Ma per quanto ciò che è giusto può sembrare errato a volte, accade che cose sbagliate siano giuste a tempo debito o viceversa.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Giusto vs. sbagliato",
+    "tema": [
+      "morale",
+      "etica"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

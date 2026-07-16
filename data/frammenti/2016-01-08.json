@@ -728,9 +728,11 @@
     "end": 1830.6,
     "speaker_raw": "SPEAKER_08",
     "testo": "Pronto? Pronto Max? Eccomi qua, eccomi qua. Ciao, ciao, come stai? Ciao, ciao, bene, tutto a posto, tutto a posto.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ciao, ciao, come stai?",
+    "tema": [
+      "saluto"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -911,9 +913,12 @@
     "end": 1979.78,
     "speaker_raw": "SPEAKER_13",
     "testo": "Michele, dal pulmino, sei pronto che stai tornando? Sarai stanco, Max? Non sai cosa vuol dire stare in tournée? Stai tornando da una serata? Vuoi sceglierlo tu, Max? Che pezzo vorresti analizzare?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Tournée e stanchezza",
+    "tema": [
+      "tournée",
+      "stanchezza"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -922,9 +927,12 @@
     "end": 1987.51,
     "speaker_raw": "SPEAKER_08",
     "testo": "Io lascio a lui la scelta perché è lui che conosce meglio di te probabilmente il mio repertorio.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Conoscere il repertorio",
+    "tema": [
+      "conoscenza",
+      "repertorio"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -933,9 +941,12 @@
     "end": 1991.01,
     "speaker_raw": "SPEAKER_13",
     "testo": "Qual è la tua preferita, Michele, quella che ti viene meglio?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Preferita del repertorio",
+    "tema": [
+      "preferita",
+      "repertorio"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -1062,9 +1073,12 @@
     "end": 2108.13,
     "speaker_raw": "SPEAKER_13",
     "testo": "quindi sono abbastanza preparato anche in quello complimenti vuoi imitarmi senti Michele in bocca al lupo per il tuo anno e se vieni in tournée a Milano faccelo sapere che veniamo con Max a trovarti sicuramente grazie di cuore Fabio ciao",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Incontro con Max",
+    "tema": [
+      "incontro",
+      "Max"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

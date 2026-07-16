@@ -85,9 +85,11 @@
     "end": 344.65,
     "speaker_raw": "SPEAKER_04",
     "testo": "Questa mattina, mentre facevo colazione, ho schiacciato il pulsante di una playlist che ho fatto di canzoni, che sono quelle che piacciono a tutti. Sto cercando di catalogare una serie di canzoni che difficilmente uno la sente e dice, ah, e cambia canale. Al limite è perché l'ha sentita troppe volte, no? Però, ah, aspettiamo un attimo. Come hanno sentito che non c'è Viola? Il nostro te, il nostro esperto musicale ha preso il suo posto. Ciao Fabio. Ciao. fantastico e allora ho fatto una cosa così per esempio una volta ho scoperto uno che mi ha detto a me non piace la pizza ho detto vabbè sarete in dieci al mondo come a te Maurizio non piace il caffè il caffè uno lo può capire ma la pizza e uno ti dice a me proprio la pizza mi fa schifo quanti ce ne saranno sul pianeta oppure non l'avrai mangiata buona 12 come i nostri ascoltatori quindi ho portato una di quelle canzoni lì che iniziamo il lunedì mattina uno di quelli come si chiamava easy listening easy listening le compilation ok mettiamo la sigla perché devo dire una cosa importante una cosa importantissima",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "canzoni che piacciono a tutti",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -110,9 +112,12 @@
     "end": 416.67,
     "speaker_raw": "SPEAKER_04",
     "testo": "ascoltatori che dicono se non c'è viola è il momento in cui raccontate le barzellette maschiliste perché noi ovviamente come non c'è viola lei difende diciamo la categoria quando facciamo cose un po' troppo maschiliste si infastidisce hai delle barzellette maschiliste?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "barzellette maschiliste",
+    "tema": [
+      "umorismo",
+      "società"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -168,9 +173,11 @@
     "end": 952.44,
     "speaker_raw": "SPEAKER_04",
     "testo": "a Superclassifica Show ci sono gli Eagles oh yeah ditemi se ho sbagliato a portarla me lo scrivete tanto so che anche quelli a cui non sono particolarmente simpatico ascoltano il volo del mattino uno che dica che non cambia un po' la giornata e mette di buon umore tra i vari messaggi tra cui passeggiare per Firenze con questa canzone in cuffia non ha prezzo scrive un ascoltatore un altro che dice la solo più bello grazie ce n'è uno che è molto breve che dice autonomia benzina 770 km che faccio vado capito cioè quando butti l'occhio che hai fatto il pieno che ti dice che hai che tu dici ma veramente riesco a fare tutti questi chilometri con questo pieno 800 chilometri dove va posso andare in Puglia senza mai fermarmi da Milano capito una roba del genere più o meno e invece poi vai sempre lì come i sorcenti bene ragazzi salutiamo speriamo che Viola torni presto tra noi ok? sì ma non è proprio Viola la cazzi mi dico lì però prendila con calma Viola so che ci stai ascoltando tranquilla con calma se hai bisogno di rest rest allora parliamo di una cosa seria sì perché quando succede che manca Maurizio ne chiamiamo un altro, di solito viene Franco, no? Esatto. Manca la viola, Maurizio si incarica di far la relazione. Ok. Sono Ligio. A me sai che i tuoi temi piacciono sempre. Sono belli. Oggi ovviamente il volo del mattino ricorderà anche Umberto Eco, no? Sì. Un po' perché ci teniamo, un po' perché... quale altro programma potrebbe fare siamo pochi costretti diciamo no?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Eagles - canzone",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -190,9 +197,12 @@
     "end": 989.52,
     "speaker_raw": "SPEAKER_04",
     "testo": "Qui dobbiamo fermarci. Quando è successa la notizia? Noi la mattina stessa abbiamo dato la notizia e abbiamo fatto sentire un pezzo delle onde gravitazionali, ok? E Maurizio aveva già messo sotto un bit, così, no? Proprio veloce. Tant'è che questo bisognerebbe fare un disco elettronico. Vedi, Maurizio... Arthur Jeffs... Come ti dico sempre... il si dovrebbe, dovrei, avrei dovuto, niente. Tu quel pomeriggio lo dovevi fare.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "onde gravitazionali in radio",
+    "tema": [
+      "scienza",
+      "tecnologia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -526,9 +536,12 @@
     "end": 2210.57,
     "speaker_raw": "SPEAKER_04",
     "testo": "dopo tanti anni che ti ascolto so che quando cazzeggiate alla fine poi mi mettete lì una botta che mi commuove eppure anche questa mattina mi avete fregato quasi pianto con questa canzone 1 9 44 io sono già soddisfatto della mia giornata Maurizio. Non lo so, devo verificare quel messaggio. Ma senti che voce, che versione, che roba che... Cioè, posso dirti, una voce, una chitarra che riempie la stanza così, cioè, merita di essere ascoltata altre dieci volte. Ma la rimetti? No. Abbiamo il nostro esperto musicale. Buongiorno, esperto musicale.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "1 9 44",
+    "tema": [
+      "musica",
+      "canzone"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -559,9 +572,12 @@
     "end": 2252.39,
     "speaker_raw": "SPEAKER_05",
     "testo": "Volevo solamente dire che questa fantastica voce che abbiamo ascoltato nel programma Il Volo del Mattino ha uno pseudonimo che è questo impronunciabile Lott Kostner, ma in realtà lei si chiama Giulia. Anna Lyne Williams ah ok e ha nella sua carriera interpretato numerosissime cover tra cui una di Damien Jurado e abbiamo ascoltato anche questa bellissima versione e anche una fantastica versione di Flume di Bon Iver quindi lei è esperta in riprendere canzoni già triste in questo caso e farle ancora più tristi riesce?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Giulia Lott Kostner",
+    "tema": [
+      "musica",
+      "cantante"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {

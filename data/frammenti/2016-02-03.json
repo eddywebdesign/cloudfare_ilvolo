@@ -5,9 +5,12 @@
     "end": 7.36,
     "speaker_raw": "SPEAKER_15",
     "testo": "Radio DJ. One nation, one station. One love.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "One nation, one station",
+    "tema": [
+      "unità",
+      "amore"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -136,9 +139,12 @@
     "end": 671.96,
     "speaker_raw": "SPEAKER_06",
     "testo": "a proposito di persone diciamo famiglie che hanno relazioni diciamo con i cani no relazioni molto intime siamo così noi non riusciamo a passare neanche una notte fuori perché ho tre argentini recuperati da un canile e",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Relazioni con i cani",
+    "tema": [
+      "animali",
+      "amore"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -396,9 +402,12 @@
     "end": 1189.46,
     "speaker_raw": "SPEAKER_03",
     "testo": "Ho imparato un sacco, perché comunque... Sì, ma se glielo chiedo una persona... Maurizio, scusami, ma...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Domande e risposte",
+    "tema": [
+      "comunicazione",
+      "interviste"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

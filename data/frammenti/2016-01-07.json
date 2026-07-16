@@ -354,9 +354,13 @@
     "end": 1389.07,
     "speaker_raw": "SPEAKER_01",
     "testo": "Cioè, chiunque ha una vita complicata o comunque complessa, magari si sente fragile rispetto alla pressione del mondo circostante, che può essere anche solo quello familiare o dell'ambiente lavorativo, non conta, no? Cioè, lei era famosa nel mondo, ma non conta la pressione esterna.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Pressione esterna e fragilità",
+    "tema": [
+      "fragilità",
+      "pressione",
+      "esterna"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -415,9 +419,12 @@
     "end": 1467.01,
     "speaker_raw": "SPEAKER_11",
     "testo": "Esatto, invece è bellissimo, molto poetico, parla di questa signora che vabbè non si può dire che cosa ha perché sennò scoprirà il film, però insomma si propone a questo negozietto di dolci giapponesi come cuoca e infatti inizia a fare questa marmellata, si chiama marmellata Anne di fagioli rossi. e il titolare di questo negozietto vede che i clienti apprezzano tantissimo si moltiplicano i clienti ma ci stai raccontando tutto il film no no questo è proprio l'inizio non lo diciamo tutto e poi appunto c'è il colpo di scena e lì no non posso però sia buono perché quando vai a mangiare il sushi che ti dicono vuoi il dolce sai cosa c'è?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Marmellata Anne di fagioli rossi",
+    "tema": [
+      "film",
+      "giapponese"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -426,9 +433,12 @@
     "end": 1486.59,
     "speaker_raw": "SPEAKER_01",
     "testo": "il gelato e ti dice sempre abbiamo il gelato al tè verde al fagiolo rosso alla trota Ecco, non è che proprio un amante del gelato impazzisce, però i dolci giapponesi in realtà hanno una cultura infinita e sono molto delicati. Qui c'è una pasticceria giapponese, tu so che vuoi aprirne una a Milano, un ristorante giapponese.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Cultura giapponese e dolci",
+    "tema": [
+      "giapponese",
+      "dolci"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {

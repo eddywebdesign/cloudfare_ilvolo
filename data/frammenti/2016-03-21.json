@@ -192,9 +192,11 @@
     "end": 377.38,
     "speaker_raw": "SPEAKER_03",
     "testo": "Ah, quindi sei la tossica, diciamo, che gli ricomincia a fumare. Ok, ok, va bene. Ragazzi, oggi è una puntata meravigliosa perché si parla d'amore. Oggi è come se fosse Natale e noi abbiamo Babbo Natale perché è la settimana, scusatemi, è il giorno mondiale della poesia. È uscito Parole e Notte 3, lo trovate su iTunes. Abbiamo qui Maurizio. Ho detto tutto, sigla. Parliamo d'amore e anche l'amore che finisce.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Parole e Notte 3",
+    "tema": [
+      "poesia"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -522,9 +524,12 @@
     "end": 1985.89,
     "speaker_raw": "SPEAKER_03",
     "testo": "messaggi in codice va bene va bene cosa vogliamo mettere adesso Maurizio? non lo so avevo una poesia di Alda Merini letta da Mariangela Melato oh perché oggi Google ricorda essendo la giornata l'abbiamo detto prima mondiale della poesia ricorda Alda Merini è andata su Google nel senso che la ricorda Google è un doodle di Google io ricordo sempre che ho avuto la fortuna di andare a casa sua e di parlarle che l'era nel letto, tirava fuori le sigarette da sotto il cuscino e l'accendeva e mi diceva mi trovi bella ma aveva i numeri di telefono scritti sul muro aveva nella camera da letto aveva sul muro della camera da letto tutti i numeri di telefono con sotto il nome e mi ha detto a volte mi dicono perché non mi porto l'agenda con me lo vedi lo vedi perché l'agenda è la mia stanza sentiamo due grandissime donne a questo punto ok sentiamo quando gli innamorati si parlano attraverso gli alberi",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "poesia di Alda Merini letta",
+    "tema": [
+      "poesia",
+      "aldamerini"
+    ],
+    "tipo": "lettura_volo",
     "video_url": ""
   },
   {

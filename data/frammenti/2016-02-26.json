@@ -419,9 +419,12 @@
     "end": 1676.46,
     "speaker_raw": "SPEAKER_00",
     "testo": "Eh, a proposito di povertà, loro a lavorare, a te come finiva la scuola ti spedivano giù, ma andavi giù da sola, no?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Viaggi in treno da bambina",
+    "tema": [
+      "infanzia",
+      "viaggi"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -452,9 +455,12 @@
     "end": 1706.72,
     "speaker_raw": "SPEAKER_09",
     "testo": "Io faccio anch'io i viaggi col treno da Torino giù, dormendo nel corridoio sopra la valigia.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Viaggi in treno da adulta",
+    "tema": [
+      "adulta",
+      "viaggi"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -463,9 +469,12 @@
     "end": 1713.01,
     "speaker_raw": "SPEAKER_00",
     "testo": "Ma poi la cosa peggiore per i meridionali è il treno da giù a su, perché ci sono i pomodori, il pane.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Pomodori e pane nel treno",
+    "tema": [
+      "meridionali",
+      "treno"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -844,9 +853,12 @@
     "end": 2620.9,
     "speaker_raw": "SPEAKER_00",
     "testo": "cercavo di capire ieri mentre l'ascoltavo in treno cosa dice quella voce che whisper no quella che sussura dice fai piano che i grandi non piangono fai piano che i grandi non piangono io sento questa cosa non lo so magari è una specie è una tramisata da trio magari invece dice fai piano che i grandi rimangono non lo so fai piano che tu cosa hai capito quando lo dicevi? io quello ma dobbiamo chiederlo a zucchero se lo ricorderà magari non è scritto nel testo è la corista che a un certo punto ha quella a fianco ed è finita la canzone bellissima questa canzone poi quando lo riesco a dare due volte mi sono messo anche d'une mosse perché c'è una versione almeno io ho una versione ieri nel random c'è una versione quella con Miles Davis alla tromba che è un capolavoro assoluto magari la mettiamo la settimana prossima rivalutiamo un po' sei andato a cercarla? sto cercando sì perché lo senti che senti che inizia senti con Miles Davis cioè zucchero e Miles Davis alla tromba scusami anche questo è un capolavoro assoluto settimana prossima la mettiamo sai che ho iniziato la mia carriera imitando Zucchero viaggio in fondo ai tuoi occhi quando nel periodo in cui Zucchero si muoveva come come Joko che te ricordi che lo insulti dicevano stai copiando Joko invece è proprio perché la canzone ti entra Va bene, ma a proposito di grandi talenti, grandi voci, un'altra bellissima voce che, diciamo, quella di Zucchero è sabbiosa, si potrebbe dire, no? Cioè, ha questa roba un po' sabbia. Invece c'è una voce molto calda, molto bassa, che ricorda sempre Barry White, la voce italiana di Mario Biondi, che ha aderito a questo... Ha partecipato... al mio nuovo disco di parole note parole note volume 3 mamma mia che due marone no scherzo parole note volume 3 poesie artisti musiche uscirà il 18 marzo i proventi andranno sempre alla fondazione veronesi ok noi adesso facciamo proprio promozione nel senso che ne vogliamo sentire un pezzo perché al di là del fatto che sei tu sono sempre prodotti molto belli curati, fatti bene solo che essendo noi sembra che ce la raccontiamo invece se lo mettessero in un altro programma o se tu fossi di un'altra radio direbbero quando sei in casa un po' come tra moglie e marito una volta fa fatica a vedere la meraviglia nell'altro perché ce l'ha sempre lì comunque Mario Piondi ha letto una poesia di Cias Bukowski oh interessante sentiamone un pezzo se hai intenzione di tentare",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La voce che sussura",
+    "tema": [
+      "amore",
+      "paura"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -978,9 +990,12 @@
     "end": 2786.72,
     "speaker_raw": "SPEAKER_00",
     "testo": "è finita così? posso dire una cosa? no, voglio dire una cosa che sentire Mario Biondi con questa voce che dice fallo e dice fino in fondo ho capito di avere un'omosessualità latente perché ho avuto quasi un brivido cioè fallo fino in fondo quanto ne vuoi? ciao ragazzi a lunedì ciao",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Mario Biondi - Fallo",
+    "tema": [
+      "musica",
+      "omosessualità"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   }
 ]

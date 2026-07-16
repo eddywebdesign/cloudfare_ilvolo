@@ -83,9 +83,11 @@
     "end": 423.24,
     "speaker_raw": "SPEAKER_06",
     "testo": "voglio scordarmi di te oggi nel mondo non c'è nessuno nessuno più felice di me",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Voglio scordarmi di te",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -291,9 +293,12 @@
     "end": 1225.09,
     "speaker_raw": "SPEAKER_08",
     "testo": "Ma Giorgio! Giorgio, ma lo sai che compie gli anni insieme a Brianino? Hai capito? Allora, ho detto a Maurizio, ho il cellulare di Brianino e di Mastrotta, uno dei due, adesso disturbo. Però siccome a Londra c'è un'ora di differenza, magari Brianino dorme ancora. Come stai, Giorgio?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Giorgio Mastrotta compie gli anni",
+    "tema": [
+      "amici",
+      "nascita"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -331,9 +336,12 @@
     "end": 1261.15,
     "speaker_raw": "SPEAKER_09",
     "testo": "Io ho tutto, ho tutto, ho i clienti, gli sponsor che mi regalano le cose. Ma tu scherzi, invece nessuno mi regala un cazzo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Nessuno mi regala niente",
+    "tema": [
+      "soddisfazione",
+      "ricchezza"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

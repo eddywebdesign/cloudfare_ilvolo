@@ -807,9 +807,12 @@
     "end": 2066.71,
     "speaker_raw": "SPEAKER_07",
     "testo": "Secondo me il mio collega lo farebbe volentieri, molto volentieri.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Collega e lavoro",
+    "tema": [
+      "lavoro",
+      "collega"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -818,9 +821,12 @@
     "end": 2071.49,
     "speaker_raw": "SPEAKER_00",
     "testo": "Mannaggia, posso dire, con tanta gente che cerca lavoro e non lo trova.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Lavoro e disoccupazione",
+    "tema": [
+      "lavoro",
+      "disoccupazione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -948,9 +954,12 @@
     "end": 2419.57,
     "speaker_raw": "SPEAKER_04",
     "testo": "facciamo finta che tu sei questo ragazzo che va tutti i giorni al lavoro come molti che ci stanno ascoltando l'accento lucchese non mi viene no no no fa niente però qual è secondo te la versione è proprio uno che ti dice voglio rubare lo stipendio o è uno che ti dice secondo me se la racconta e te la racconta e cosa ti dice ti dice che sono anni ormai che gli rinnovano il contratto ogni tre mesi e che non arriva a mille euro",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Contratto di lavoro",
+    "tema": [
+      "lavoro",
+      "contratto"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

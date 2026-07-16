@@ -707,9 +707,12 @@
     "end": 2479.88,
     "speaker_raw": "SPEAKER_08",
     "testo": "Non hai capito, non hai capito. È stata una tragedia, te lo giuro. Perché? Non so come spiegartelo, veramente. Non me l'aspettavo, non me l'aspettavo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La tragedia di Robè",
+    "tema": [
+      "tragedia",
+      "Robè"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -740,9 +743,12 @@
     "end": 2510.68,
     "speaker_raw": "SPEAKER_08",
     "testo": "Allora Mare non hai capito Praticamente l'ho aziccato Che era con una Con una Vabbè ha buscato insomma Certo, azziccato, alla grande. Dove? Azziccato. E che stai facendo? Lui era al bar, tranquillo, prendersi il caffè, mi aveva appena mandato il messaggino.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'azzicco di Mare",
+    "tema": [
+      "azzicco",
+      "Mare"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -762,9 +768,11 @@
     "end": 2523.19,
     "speaker_raw": "SPEAKER_08",
     "testo": "È la rabbia, è la rabbia, ma chi c'è a diri, chi c'è a diri? Cos'è?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La rabbia",
+    "tema": [
+      "rabbia"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -787,9 +795,12 @@
     "end": 2607.8,
     "speaker_raw": "SPEAKER_01",
     "testo": "Non te l'ha già mai detto prima perché comunque mi dispiaceva. Tu sei una scema, Robè. Chi sei lo strunzo? No! Sì! Ma sai quanti voti ci ha provato con me? E Amanelle, Amanelle. E io non te l'ho mai detto niente perché che te va a dicere? Amanelle. Ma io non mi dicevi prima, scusa. Ora mi vieni a dire. E vabbò, che va a fa'? Che avresti fatto tu? Che va a fa'? No, no, si cosa non si fa Anna, non si dice nessuna cosa. Immagina fatta è fatta mia e basta. bella amica veramente ma no l'ha fatto per te l'aveva capito ma tu niente continuavi niente non voleva vedere non voleva stare a guarda Fabio te ne fai le prosciutto un colpo agli occhi sarò licenziata no hai trovato un posto di lavoro grazie che stai facendo Roberta",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La storia di Amanelle",
+    "tema": [
+      "Amanelle",
+      "storia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

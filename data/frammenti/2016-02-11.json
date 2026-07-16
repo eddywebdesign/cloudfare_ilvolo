@@ -399,9 +399,11 @@
     "end": 983.28,
     "speaker_raw": "SPEAKER_06",
     "testo": "l'amore ecco per esempio lui dice love was made for me in a new way è stato creato per me per te in qualche modo allora abbiamo detto ci sono due parole perché per esempio io mi accorgo questa cosa però per esempio gli inglesi non hanno ti voglio bene che è una roba che io faccio fatica a spiegare perché i miei amici erano già nel love love è ti voglio bene ah ecco perché quando io dico no io non Non dico mia mamma ti amo, poi glielo posso anche dire, ma è una roba forte. Noi diciamo ti voglio bene.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Love was made for me",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -410,9 +412,11 @@
     "end": 985.57,
     "speaker_raw": "SPEAKER_07",
     "testo": "In inglese non ti voglio bene, noi non abbiamo...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ti voglio bene",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -435,9 +439,12 @@
     "end": 1061.6,
     "speaker_raw": "SPEAKER_07",
     "testo": "Amore vuol dir gelosia. È vero, love no. No. E tu sia quella parte d'Europa, sia questa devono esprimere una cosa che non ci sta dentro intera, né in love né in...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Amore vuol dire gelosia",
+    "tema": [
+      "amore",
+      "gelosia"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -460,9 +467,12 @@
     "end": 1115.52,
     "speaker_raw": "SPEAKER_07",
     "testo": "però scusami anche la parola Dio a questo punto è una parola che contiene tante cose quella è una parola bloccante perché Dio da noi in Italia è per forza maschile singolare quindi già è un marchio inizio fin da quando sei piccolo tu devi immaginare Dio come maschio con la barba, il triangolo, l'occhio il papà di Gesù non c'è mai la mamma di Gesù però lui è anche il padre non c'è la foto di Dio da bambino come era da bambino nessuno riesce a immaginare Dio da bambino il papà di Gesù diciamo il nonno da piccolo il nonno perché Dio è sempre stato e lo chiamano signore deve essere una certa età però lui è nato già vecchio come Linus purtroppo E questo blocca il pensiero, perché uno può pensare anche a Dio femmina a un certo punto, può pensare a un Dio bambino.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Dio come maschio con la barba",
+    "tema": [
+      "religione",
+      "Dio"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -496,9 +506,12 @@
     "end": 1131.18,
     "speaker_raw": "SPEAKER_06",
     "testo": "È avuto un malore, forse Dio non era d'accordo, qualcuno dice che l'hanno avvelenato, magari non c'è stato Dio.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Dio non era d'accordo",
+    "tema": [
+      "religione",
+      "Dio"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -507,9 +520,12 @@
     "end": 1134.54,
     "speaker_raw": "SPEAKER_07",
     "testo": "In questi casi sembra che Dio sia in ostaggio, però non so se si può dire questo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Dio in ostaggio",
+    "tema": [
+      "religione",
+      "Dio"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -529,9 +545,12 @@
     "end": 1186.58,
     "speaker_raw": "SPEAKER_07",
     "testo": "ok io come tu mi insegni di questa frase all'inizio siamo a posto come tu ridete spesso il crocifisso uno è incastrato la figura sul crocifisso certo è inchiodato cioè il simbolo non è Gesù che fa il miracolo no Gesù che ride non c'è una foto di Gesù che ride non c'è una foto di Gesù che lavora e non ride mai che Dio sei nel Vangelo non c'è un punto dove c'è Gesù che lavora interessante io non lavoravo lavora mai e quando vedeva qualcuno che lavorava glielo faceva smettere",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Gesù che lavora",
+    "tema": [
+      "religione",
+      "Gesù"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -540,9 +559,12 @@
     "end": 1200.78,
     "speaker_raw": "SPEAKER_05",
     "testo": "cosa fai tu il pescatore? ma vieni qua che ti faccio Matteo che lavora in banca Matteo cosa fai? tutti i giorni in ufficio vieni fuori perché Dio porta fuori la gente dal lavoro? per amore",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Matteo il pescatore",
+    "tema": [
+      "religione",
+      "Gesù"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -914,9 +936,12 @@
     "end": 2227.94,
     "speaker_raw": "SPEAKER_07",
     "testo": "In un ambiente religioso sì è molto difficile. Comunque, se è amore è inspiegabile, però spiega un sacco di cose. Per esempio, i rapporti umani sono difficilissimi, i rapporti di coppia sono difficilissimi e spesso tormentosi, perché si vede dall'esperienza anche personale, oltre agli immensi studi fatti sul argomento, che in ciascuna coppia, diciamo nella stragrande maggioranza delle coppie, c'è un'alta energia e un'alta energia, uno dei due di alta energia e l'altro di bassa energia. Cosa vuol dire alta energia? Alta energia è una persona che dà tanto e chiede tanto. La persona di bassa energia è uno che dà poco e chiede poco. In una coppia si dà subito che uno che l'altro. Se uno guarda come sono le due e mezza di notte, si vede che uno dorme tranquillo e l'altro è sveglio e è insoddisfatto.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'amore è inspiegabile",
+    "tema": [
+      "amore",
+      "relazioni"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -936,9 +961,12 @@
     "end": 2244.39,
     "speaker_raw": "SPEAKER_07",
     "testo": "Quello con l'alta energia di solito è il leader e quello con bassa energia è il giuda. È il giuda. Cioè che lo abbassa in continuazione, lo abbassa in continuazione.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il giuda nella coppia",
+    "tema": [
+      "coppie",
+      "relazioni"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -958,9 +986,12 @@
     "end": 2285.91,
     "speaker_raw": "SPEAKER_07",
     "testo": "come dire passare entusiasmo a uno di bassa energia è quasi impossibile è come se quel vaso lì fosse già pieno ed è un vaso piccolo perché la cosa si stabilisce non è che sono persone di bassa energia è all'interno di ogni rapporto cioè da come comincia il rapporto all'inizio si definisce chi è bassa energia e chi è alta energia e poi non si può più cambiare quindi quello di quello per dire quello di bassa energia in un altro rapporto può essere alta energia se si lascia un'alta energia può essere lui l'alta energia cioè quello che dà tanto quello L'altro è quello, non è che prende tanto, l'altro prende poco, questo è il guaio, l'altro prende poco.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'energia nella coppia",
+    "tema": [
+      "coppie",
+      "energia"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -969,9 +1000,12 @@
     "end": 2291.83,
     "speaker_raw": "SPEAKER_06",
     "testo": "Non è che dà poco e chiede tanto, no, dà poco e chiede poco, quindi troppe attenzioni lo infastidiscono.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La persona di bassa energia",
+    "tema": [
+      "coppie",
+      "relazioni"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -980,9 +1014,12 @@
     "end": 2302.64,
     "speaker_raw": "SPEAKER_07",
     "testo": "Quindi alla fine rimane vedo, perché... Perché l'altro rimane, cioè quello di alta energia, dà tantissimo e l'altro non prende e chiede tantissimo e l'altro non dà.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La coppia disarmonica",
+    "tema": [
+      "coppie",
+      "relazioni"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -991,9 +1028,12 @@
     "end": 2310.81,
     "speaker_raw": "SPEAKER_06",
     "testo": "Senti, può essere che uno che tradisce può usare questa come scusa per la moglie. È l'unica. Io ti volevo dare tanto, non lo volevi e a un certo punto l'ho dato a qualcun altro.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La tradizione come scusa",
+    "tema": [
+      "coppie",
+      "relazioni"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

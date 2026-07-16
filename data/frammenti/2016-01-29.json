@@ -109,9 +109,11 @@
     "end": 405.14,
     "speaker_raw": "SPEAKER_12",
     "testo": "Bravissima Viola. Non mi prendere in giro. Bravissima, bravissima ragazzi, bravissima. Come sta andando la nostra serie televisiva?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "serie televisiva",
+    "tema": [
+      "televisivo"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -167,9 +169,11 @@
     "end": 471.41,
     "speaker_raw": "SPEAKER_09",
     "testo": "Ma come gliel'hai detto? Gli hai proprio lanciato una bomba.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "lancio di bomba",
+    "tema": [
+      "comunicazione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -270,9 +274,11 @@
     "end": 875.0,
     "speaker_raw": "SPEAKER_07",
     "testo": "Sono un ragazzo di strada e tu ti prendi gioco di me.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "prese in giro",
+    "tema": [
+      "comunicazione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -376,9 +382,11 @@
     "end": 1075.2,
     "speaker_raw": "SPEAKER_00",
     "testo": "per dare origine a un bambino o a una bambina chi lo sa come va chi ci mette al mondo che fabbrica sarà e poi come si fa dite un po' se si può la mia faccia posso dire che, esatto, adesso me la cerco perché è figo, intanto io ho imparato una cosa che lo spermetto zoo lascia la codina come una sciarpa fuori, non lo sapevo c'è il guardaroba eh sì",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "origine bambino",
+    "tema": [
+      "genitori"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -415,9 +423,11 @@
     "end": 1309.78,
     "speaker_raw": "SPEAKER_09",
     "testo": "Ma secondo me si trova, si trova.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "trovare soluzioni",
+    "tema": [
+      "problemi"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -426,9 +436,11 @@
     "end": 1354.63,
     "speaker_raw": "SPEAKER_12",
     "testo": "possiamo chiedere a Linus di chiedere a Repubblica di chiedere di darci queste videocassette che magari le potrebbero fare adesso in DVD posso dire una cosa ma manco in DVD fate uscire le chiavette oppure mettetele online direttamente già la chiavetta è una roba solita devi spendere dei soldi ormai tutti hanno il forfè dai facciamo così in edicola è uscita la nuova chiavetta in tutta la colonna è vero adesso devo comprare il computer nuovo che mi è scaduto diciamo e me lo vogliono dare senza il lettore dvd e io ho capito che sono un vecchio perché ho detto no ma mi piace avere il lettore dvd",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "chiavette DVD",
+    "tema": [
+      "tecnologia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -437,9 +449,11 @@
     "end": 1363.77,
     "speaker_raw": "SPEAKER_09",
     "testo": "Non capisco, usi male i tuoi soldi, te lo posso dire?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "uso dei soldi",
+    "tema": [
+      "economia"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
