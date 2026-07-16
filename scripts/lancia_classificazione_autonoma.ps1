@@ -4,15 +4,51 @@
 # indipendente da Claude/abbonamento Pro (in scadenza il 16). Nessuna conferma
 # richiesta: pensato per girare da Task Scheduler senza nessuno collegato.
 #
+# Scrive SEMPRE data\estado_clasificacion.json (trackeado in git, NON in
+# logs/) con l'esito dell'ultima esecuzione - a differenza del log (in
+# logs/, ignorato da git), questo file arriva al K16 tramite il normale
+# flusso git push/pull, cosi' il panel del K16 puo' mostrare anche lo stato
+# della classificazione senza connessione diretta tra le due macchine.
+#
 # Uso: powershell -ExecutionPolicy Bypass -File "scripts\lancia_classificazione_autonoma.ps1"
 
 $Repo = "D:\Download\CLAUDE FOLDER\ilvolodelmattino"
 Set-Location $Repo
 $Log = "logs\classificazione_autonoma.log"
+$EstadoPath = "data\estado_clasificacion.json"
 $ts = Get-Date -Format "yyyy-MM-ddTHH:mm:ss"
 
 function Scrivi($msg) {
     "$ts $msg" | Out-File -FilePath $Log -Append -Encoding utf8
+}
+
+function Escribe-Estado($resultado, $archivos, $mensaje) {
+    $estado = @{
+        ultima_ejecucion   = $ts
+        resultado          = $resultado
+        archivos_clasificados = $archivos
+        mensaje            = $mensaje
+    }
+    $estado | ConvertTo-Json | Out-File -FilePath $EstadoPath -Encoding utf8
+}
+
+function Push-ConReintento($n) {
+    git push --quiet 2>>$Log
+    if ($LASTEXITCODE -eq 0) { return $true }
+
+    Scrivi "AVVISO: git push fallito al primo tentativo, provo pull --rebase + repush..."
+    git pull --rebase --quiet 2>>$Log
+    if ($LASTEXITCODE -ne 0) {
+        Scrivi "ERRORE: pull --rebase di recupero fallito. $n file committati in locale, NON pushati."
+        return $false
+    }
+    git push --quiet 2>>$Log
+    if ($LASTEXITCODE -eq 0) {
+        Scrivi "Committati e pushati $n file (tras reintento)."
+        return $true
+    }
+    Scrivi "ERRORE: git push fallito tras reintento ($n file committati en local, NO pushati)."
+    return $false
 }
 
 # Committa PRIMA di pullare: mai lasciare file modificati non tracciati (es. da
@@ -31,43 +67,38 @@ if ($LASTEXITCODE -ne 0) {
 git pull --rebase --quiet 2>>$Log
 if ($LASTEXITCODE -ne 0) {
     Scrivi "ERRORE: git pull --rebase fallito, salto questo giro."
+    Escribe-Estado "error" 0 "git pull --rebase fallito"
+    git add $EstadoPath 2>$null
+    git commit -m "Estado: pull fallito" --quiet 2>$null
+    Push-ConReintento 1 | Out-Null
     exit 1
 }
 
 Scrivi "Avvio riclassifica_frammenti.py..."
 python scripts\riclassifica_frammenti.py 2>>$Log
-Scrivi "riclassifica_frammenti.py terminato (exit $LASTEXITCODE)."
+$exitClassificazione = $LASTEXITCODE
+Scrivi "riclassifica_frammenti.py terminato (exit $exitClassificazione)."
 
 git add data\frammenti data\riferimenti 2>$null
 git diff --cached --quiet
 if ($LASTEXITCODE -eq 0) {
     Scrivi "Nessuna modifica da committare."
-    exit 0
+    $resultado = if ($exitClassificazione -eq 0) { "ok" } else { "error" }
+    Escribe-Estado $resultado 0 "Sin cambios nuevos que clasificar"
+    git add $EstadoPath 2>$null
+    git commit -m "Estado: sin cambios" --quiet 2>$null
+    Push-ConReintento 1 | Out-Null
+    exit $exitClassificazione
 }
 
 $n = (git diff --cached --name-only | Measure-Object -Line).Lines
+$resultadoFinal = if ($exitClassificazione -eq 0) { "ok" } else { "error" }
+Escribe-Estado $resultadoFinal $n "riclassifica_frammenti.py exit $exitClassificazione"
+git add $EstadoPath 2>$null
 git commit -m "Autocommit classificazione notturna ($n file)" --quiet
-git push --quiet 2>>$Log
-if ($LASTEXITCODE -eq 0) {
-    Scrivi "Committati e pushati $n file."
-    exit 0
-}
 
-# Push rifiutato (remoto avanzato nel frattempo, es. autocommit del K16): un
-# solo tentativo di pull --rebase + repush prima di arrendersi. Prima (fino al
-# 2026-07-16) un push fallito veniva solo loggato ma lo script usciva con
-# successo comunque - Task Scheduler non segnalava mai il problema.
-Scrivi "AVVISO: git push fallito al primo tentativo, provo pull --rebase + repush..."
-git pull --rebase --quiet 2>>$Log
-if ($LASTEXITCODE -ne 0) {
-    Scrivi "ERRORE: pull --rebase di recupero fallito. $n file committati in locale, NON pushati."
-    exit 1
-}
-git push --quiet 2>>$Log
-if ($LASTEXITCODE -eq 0) {
-    Scrivi "Committati e pushati $n file (tras reintento)."
+if (Push-ConReintento $n) {
     exit 0
 } else {
-    Scrivi "ERRORE: git push fallito tras reintento ($n file committati en local, NO pushati)."
     exit 1
 }
