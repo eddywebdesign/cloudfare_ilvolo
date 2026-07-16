@@ -38,9 +38,11 @@
     "end": 189.9,
     "speaker_raw": "SPEAKER_14",
     "testo": "è una canzone importantissima per il movimento dei diritti civili oh ecco",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Mi manca il mio amore",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -71,9 +73,12 @@
     "end": 336.96,
     "speaker_raw": "SPEAKER_11",
     "testo": "Lì si dividono le due persone, i due caratteri. Cioè il tema libero, puoi far tutto ciò che vuoi, non sai cosa fare. Per esempio ieri, e sono senza bambini in questi due o tre giorni, quindi sono un uomo libero nel senso che posso fare un po' quello che voglio. E quindi voglio fare tutto. Voglio andare a dormire presto perché sono stanco morto. Ma anche... Ma voglio anche star fuori a divertirmi. Volevo andare fuori a cena, ma anche cucinarmi una cosa mia a casa. Volevo vedere un film, guardare un leggere un libro. Vedi, troppa libertà. E a un certo punto, siccome per lavoro avevo un appuntamento in centro alle due, mi sono trovato lì alle quattro e ho detto, ok, posso andare dove voglio. Non sapevo dove andare. E quindi dove sei andato? Ah, sono andato a casa a lavorare, perché poi alla fine mi rintano nel lavoro, però... la libertà è difficile da gestire poi se non ce l'hai spesso è difficile da organizzare quindi cosa vi manca cari ascoltatori?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il tema libero",
+    "tema": [
+      "libertà",
+      "tempo"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -159,9 +164,12 @@
     "end": 466.62,
     "speaker_raw": "SPEAKER_13",
     "testo": "Perché praticamente i miei amici sono venuti da Rimini, perché io lavoro a Rimini spesso, sempre d'estate, e ho praticamente detto dai, inutile che andate lì alle 9 del mattino e che rischiate magari di non prendere l'aereo, venite la sera della domenica.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Viaggi con gli amici",
+    "tema": [
+      "amici",
+      "viaggi"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -498,9 +506,12 @@
     "end": 1705.94,
     "speaker_raw": "SPEAKER_12",
     "testo": "Sì, ero in linea mentre veniva multato. Esatto, mentre veniva multato. Era distrutto per lui.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ascoltatore multato in diretta",
+    "tema": [
+      "multa",
+      "ascoltatore"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -509,9 +520,12 @@
     "end": 1732.2,
     "speaker_raw": "SPEAKER_11",
     "testo": "Esatto. e lui siccome si cantava da solo in macchina a squarciagola a Nox io ho detto sei gay e tu Marco che sei gay hai detto mi sono offeso perché io sono gay a me a Nox non piace questi sono dei luoghi comuni a me e a tanti altri a volte questi luoghi comuni un po' infastidiscono ascolta Marco non è vero che sei gay lo fai perché adesso fa trendy che lavoro fai?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Luoghi comuni e stereotipi",
+    "tema": [
+      "stereotipi",
+      "accettazione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -520,9 +534,12 @@
     "end": 1749.11,
     "speaker_raw": "SPEAKER_12",
     "testo": "Allora, io lavoro come consulente adesso purtroppo per motivi, a causa che è bene capito, quindi lavoro per Società di Mona, mio gruppo di sviluppo internazionale retail.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Lavoro come consulente",
+    "tema": [
+      "lavoro",
+      "carriera"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -546,9 +563,12 @@
     "end": 1794.65,
     "speaker_raw": "SPEAKER_12",
     "testo": "assolutamente no niente di tutto questo assolutamente no sono figlio di Albertino per quanto riguarda i musicali comunque ascoltami quando ti guardi le unghie delle mani",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Musicali e Albertino",
+    "tema": [
+      "musica",
+      "teatro"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -557,9 +577,12 @@
     "end": 1827.16,
     "speaker_raw": "SPEAKER_11",
     "testo": "pieghi le dita verso di te col palmo in alto capite? fai così col palmo in alto è come per dire se piove o per chiedere i soldi poi pieghi le dita e guardi le unghie o stendi il braccio tutto teso teso con la mano a paletta stendo il braccio allora c'è un piccolo sospetto di gaytudine ok ok senti quindi abbiamo detto chi ti piace scusami musicalmente?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Sospetti di gaytudine",
+    "tema": [
+      "gay",
+      "sospetti"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -568,9 +591,12 @@
     "end": 1860.28,
     "speaker_raw": "SPEAKER_12",
     "testo": "io vado più sull'elettronica quindi ho un genere completamente diverso l'italiana la musica italiana a volte la credo un po' patetica poi ci sono pezzi come ma neanche Renatone? no assolutamente zero non sei un sorcino? assolutamente no però apprezzo dal vivo li apprezzo di più dai però Marco sei bisex dai Marco sei bisex dai mi sarebbe stato più facile sarebbe stato più facile nella mia vita anche nei colloqui di lavoro sì",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Musica elettronica e Renato Zero",
+    "tema": [
+      "musica",
+      "elettronica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -631,9 +657,12 @@
     "end": 1939.69,
     "speaker_raw": "SPEAKER_11",
     "testo": "Adesso scriveranno altri che diranno non è vero. Va bene, comunque adesso abbiamo anche il test. Marco, allora ti chiediamo scusa per scusarci, cosa possiamo fare?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Scusa per l'errore",
+    "tema": [
+      "errore",
+      "scusa"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -822,9 +851,11 @@
     "end": 2965.76,
     "speaker_raw": "SPEAKER_11",
     "testo": "buongiorno ragazzi che è piaciuta tanto questa canzone lenta voi che mi boicottate sulle canzoni lenta ogni tanto una la mettiamo ma quest'anno si è detto niente muri guardami Tarassia Tarassia Tarassia sento Tarassia Tarassia ma vai fa niente fa niente bene ragazzi allora troppo bella questa canzone Questa è sia homo che etero secondo me. Dici? Eh esatto.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Tarassia",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -844,9 +875,11 @@
     "end": 2994.6,
     "speaker_raw": "SPEAKER_11",
     "testo": "Eh ma questo chissà cosa dice, abbiamo cercato di capirlo, a parte sana patata è uscito per i parcheggi, non siamo andati oltre. Va bene ragazzi, buona giornata a tutti, vi auguriamo veramente una giornata meravigliosa e speriamo di avervi dato un po' di spinta, un po' di sprint. Noi ci sentiamo domani mattina sulla radio più bella del mondo, Radio DJ, il programma si chiama Il Volo del Mattino. Vabbè dai, fra dei coglioni, ciao ciao ciao ragazzi, ciao!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "spinta e sprint",
+    "tema": [
+      "motivazione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   }
 ]

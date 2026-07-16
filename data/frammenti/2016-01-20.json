@@ -195,9 +195,12 @@
     "end": 963.86,
     "speaker_raw": "SPEAKER_04",
     "testo": "il primo ancora il primo ancora devi avere uno sul posto sì infatti non tutti i giornali riescono a avere direttamente qualcuno sul posto e quindi si fanno l'abbonamento all'agenzia alle agenzie che hanno gente sparsa in tutto il mondo tu che lavoro fai?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "agenzie giornalistiche",
+    "tema": [
+      "giornalismo",
+      "informazione"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -353,9 +356,12 @@
     "end": 1499.28,
     "speaker_raw": "SPEAKER_06",
     "testo": "giornata è iniziata benissimo ragazzi sveglia con la mia coinquilina andiamo a vedere l'esame di clinica medica ma prima al bar a fare colazione e qui ascoltano il volo del mattino da Perugia state lì bravi continuate così il programma più ascoltato nei bar il programma più ascoltato nei bar",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "colazione e ascolto del volo",
+    "tema": [
+      "famiglia",
+      "colazione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -485,9 +491,12 @@
     "end": 1933.45,
     "speaker_raw": "SPEAKER_06",
     "testo": "beh insomma comunque diciamo si può godere la famiglia al pomeriggio l'altra appunto questo caporedattore tu lo vuoi lì alle 7 che sei stato buono se ci pensi perché forse doveva essere lì alle 6 per essere in bomba alle 7 vabbè facciamo le 7 quello lì quando l'hai detto era lì quello lì?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "caporedattore e sveglia",
+    "tema": [
+      "lavoro",
+      "sveglia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -616,9 +625,12 @@
     "end": 2418.91,
     "speaker_raw": "SPEAKER_02",
     "testo": "noi facciamo sospensioni sospensioni per i camion, per i bus ma andiamo avanti",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "guerra dell'informazione",
+    "tema": [
+      "informazione",
+      "guerra"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -627,9 +639,12 @@
     "end": 2468.68,
     "speaker_raw": "SPEAKER_06",
     "testo": "il paese ragazzi allora mi ha chiamato ieri un camionista è pieno di refusi ma cosa ma cosa stai dicendo Jacopo ragazzi basta refusi ok perché la guerra dell'informazione Jacopo senti la discussione con la tua compagna senza entrare nei particolari che sono cose private il tema è sempre quello qual è tu sai che è una parola che inizia per e e finisce per vediamo emorroidi quelle di solito cerco di tenermi e aspetta fermi un attimo e allora vuoi mettere a posto e la devi smettere ma è una cosa fisica? aspetta una cosa seconda parola",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "camionista e refusi",
+    "tema": [
+      "camion",
+      "refusi"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

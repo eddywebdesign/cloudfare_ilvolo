@@ -556,9 +556,12 @@
     "end": 1515.48,
     "speaker_raw": "SPEAKER_01",
     "testo": "Ragazzi, nei Cinque Stelle, colazione in camera, sempre. Room service, donob fuori dalla porta, servizio in camera. Inciviltà, posso dire? Inciviltà.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Colazione in camera",
+    "tema": [
+      "inciviltà",
+      "servizio"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -592,9 +595,12 @@
     "end": 1872.27,
     "speaker_raw": "SPEAKER_11",
     "testo": "Quanto è bello il pianeta Terra, quanto sono belli gli animali, quante sono belle le persone, quante cose belle ha una persona dentro. E poi dopo magari per qualche motivo, qualche energia strana che arriva a cerchio... ci cerchio e di quella persona continui a parlare delle cose brutte del pianeta terra continui a parlare delle cose brutte degli esseri umani continui a parlare delle cose brutte e questo parlare di cose brutte di omicidi, di guerra, di cronaca nera così a un certo punto si normalizza questa cosa e uno dice ma che schifo, ma che mondo e tu dici no ma guarda che è perché tu porti l'attenzione lì ma c'è tanta cosa... tante cose belle da guardare poi ci sono anche quelle brutte però se la televisione invece che fare tre ore il pomeriggio di un omicidio con le nostre mamme, le nostre nonne le nostre zie davanti alla televisione parlassero di cose belle anche dei loro tempi, dei loro amori facessero vedere i loro film non sarebbe più bello che sentir parlare una che è esperta di pugnalate al collo, io non la capisco non la capirò mai questa cosa Non mi interessa neanche, non riesco neanche a capire, però cari ascoltatori, molti di voi che tornano a casa la sera, mangiano, camminano per casa con le scarpe dove sono stati in giro tutto il giorno, le portano in casa, ma non è tanto, invitano gente che non dovrebbe entrare in casa perché comunque portano un pettegoletto, ma soprattutto accendete la televisione che è come aprire la porta di casa. E cosa fate entrare in casa vostra? Discussioni, politica di gente che grida. Pensate che quell'energia lì, quando sentite il cervello riconosce quelle parole, scatena dentro il vostro corpo tutta una serie di secrezioni. C'è secreto. Quindi bisogna stare attenti a chi fa entrare in casa. Ti guardi un programma che parla di tradimenti, quello lo stai facendo entrare in casa? Sì. come un serpente la politica, gente che grida ma non li vedete che sono tutti dei mostri sono tutti dei poveretti quelle pance molli bisogna stare attenti a chi si fa entrare in casa chi fa entrare nella testa quando tu pensi qual è la prima cosa che accendi la mattina cosa ascolti, cosa fai quella roba lì è importante non è solo una questione fisica quindi prima di chiudere questa stagione sentiamo una voce bella Signore e signori, è qui con noi Padre Bianchi, buongiorno! Buongiorno, ciao Fabio! Come stai, come stai?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La bellezza e la negatività",
+    "tema": [
+      "bellezza",
+      "negatività"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -625,9 +631,12 @@
     "end": 2039.38,
     "speaker_raw": "SPEAKER_10",
     "testo": "ma guarda questo è un mondo che è sedotto dalla guerra tutti i popoli la gente è sedotta dalla guerra questa è una cosa terribile che è nuova anche in questo orizzonte perfino ieri sono sfilati i cappellani militari che non avevano mai fatto insieme all'esercito loro che dovrebbero con l'assistenza spirituale annunciare la pace hanno sfilato gestando dalla parte della stessa chiesa una specie di reazione che va dalla tristezza alla protesta. Non è un periodo buono, però dobbiamo più che mai fare resistenza. Noi dobbiamo essere gli uomini della resistenza, perché solo con la resistenza si acquista la libertà, solo con la resistenza si guadagna la pace, solo con la resistenza si va verso l'uguaglianza della società in vista di una convivenza migliore. Ma bisogna imparare a resistere, a partire dall'esercizio della propria coscienza e a dire sì e no senza dire come fanno tutti, come dicono tutti, in un accattimento indifferito e massificato. Questo è l'esercizio che può essere chiesto in mezzo all'educazione e i giovani sono sensibili a questo. Non sono assolutamente ottusi di fronte a questa proposta, perché in loro c'è sempre di autenticità, sempre di vivere bene la vita. Io ho una speranza forte, anche questo momento di barbarie passerà Fabio, passerà.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La seduzione della guerra",
+    "tema": [
+      "guerra",
+      "pace"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -714,9 +723,12 @@
     "end": 2355.82,
     "speaker_raw": "SPEAKER_09",
     "testo": "Quanto giocava a calcio l'accappatoio si lavava alla fine del giro dell'andata.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'accappatoio giocatore di calcio",
+    "tema": [
+      "accappatoio",
+      "calcio"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

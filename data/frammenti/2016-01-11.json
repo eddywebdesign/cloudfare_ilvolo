@@ -232,9 +232,12 @@
     "end": 807.54,
     "speaker_raw": "SPEAKER_00",
     "testo": "L'Uomo delle Stelle è un brano musicale scritto da David Bowie e pubblicato nell'aprile del 1972. Considerata una delle canzoni più influenti dell'intero repertorio di Bowie, Starman rappresentò un punto di svolta nella carriera del cantante inglese. In particolare la performance a Top of the Pops che la BBC trasmise il 6 luglio del 1972 e che è stata citata come fonte di ispirazione di un'intera generazione. per questo abbiamo scelto questa canzone non è la mia preferita la mia preferita è sempre Space Oddity mi è rimasta lì nel cuore ti piace Space Oddity?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'Uomo delle Stelle",
+    "tema": [
+      "musica",
+      "influenza"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -243,9 +246,11 @@
     "end": 813.65,
     "speaker_raw": "SPEAKER_04",
     "testo": "mi piace molto comunque stavamo appunto dicendo che il merito di questa canzone in realtà è un altro è Meteore",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Meteore e Matricone",
+    "tema": [
+      "programmi televisivi"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -265,9 +270,12 @@
     "end": 921.98,
     "speaker_raw": "SPEAKER_04",
     "testo": "Ma secondo me Morricone c'ha il fischiatore ufficiale. C'ha il fischiatore? Sì, considerando che è praticamente lo strumento principale del suo repertorio.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Fischiatore ufficiale",
+    "tema": [
+      "musica",
+      "strumenti"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -287,9 +295,12 @@
     "end": 948.41,
     "speaker_raw": "SPEAKER_04",
     "testo": "Infatti. Miglior attore... In un film drama.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Miglior attore",
+    "tema": [
+      "premi",
+      "cinema"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -320,9 +331,11 @@
     "end": 994.49,
     "speaker_raw": "SPEAKER_00",
     "testo": "Il suo regista... Alejandro Gonzales Ignarrito Ignarrito, Ignarrito qui è un po' come Cesaria Evora, Cesaria Evora Winona Ryder, comunque Ignarrito o Inarrito, come molti lo chiamano che ha scritto praticamente ha fatto solo capolavori, ecco se vi piace il cinema e vi siete persi qualcosa lui ha fatto, vabbè, Babel che è 21 grammi, con Champagne che abbiamo citato prima ha fatto Beautiful, scritto proprio con la I Beautiful, con Javier Barden esatto ha fatto l'anno scorso Birdman e poi mi ricordo uno dei primi che era Mores Perros che era forse quello che l'ha lanciato proprio che l'ha reso popolare lo ricordi a Mores Perros?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Riferimento al film Babel",
+    "tema": [
+      "film"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -331,9 +344,11 @@
     "end": 1008.27,
     "speaker_raw": "SPEAKER_04",
     "testo": "assolutamente no però mi sto mettendo in pari miglior attrice aspetta che ho chiuso tutto non ce la ricordiamo c'è Jennifer Lawrence la conosci? in una comedy un film che si chiama Joy",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Riferimento al film Joy",
+    "tema": [
+      "film"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -600,9 +615,12 @@
     "end": 1909.85,
     "speaker_raw": "SPEAKER_07",
     "testo": "Antonio Dalluca trova il modo per fare il meno possibile facendolo fare agli altri o facendo finta di farlo e poi non facendolo ma poi come succede quando uno fa finta di fare una cosa e poi non la fa che arriverà, non avete un superiore, un capo? no purtroppo no siete autogestiti siamo autogestiti e anche chi sta sopra di noi sa della situazione ma non se ne frega niente perché alla fine se il lavoro qualcuno lo fa chi se ne frega lo fa 50 e 50 ok se lo fai tu doppio la mia domanda è siete tutti assunti a tempo indeterminato esatto chi lo protegge?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il capo che fa il meno possibile",
+    "tema": [
+      "lavoro",
+      "capo"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -622,9 +640,12 @@
     "end": 1916.77,
     "speaker_raw": "SPEAKER_07",
     "testo": "Nessuno, ma secondo me è proprio che se ne sbattono altamente da sopra.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "I superiori che non si fanno nulla",
+    "tema": [
+      "lavoro",
+      "responsabilità"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -633,9 +654,12 @@
     "end": 1920.27,
     "speaker_raw": "SPEAKER_00",
     "testo": "Lui non fa un lavoro che gli piace, questo l'abbiamo capito.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il lavoro che non piace",
+    "tema": [
+      "lavoro",
+      "piacere"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -677,9 +701,12 @@
     "end": 1938.01,
     "speaker_raw": "SPEAKER_00",
     "testo": "Io risgrido tutti quelli che lavorano con me e non si danno affare.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il capo che gioca ai videogiochi",
+    "tema": [
+      "lavoro",
+      "gioco"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -699,9 +726,12 @@
     "end": 1985.39,
     "speaker_raw": "SPEAKER_00",
     "testo": "poi si inventa ma gli altri due ascoltami gli altri tre cioè tu e gli altri due no? sì non siete andati a dire oh cioè non è che devi il capo tu diciamo noi non è che posso fare il doppio perché tu non fai niente nessuno ha detto mai niente sì qualche volta c'è stata una mezzalite con il collega eh e lui cosa dice?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il capo che fa finta di non fare nulla",
+    "tema": [
+      "lavoro",
+      "capo"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -710,9 +740,12 @@
     "end": 2010.95,
     "speaker_raw": "SPEAKER_07",
     "testo": "fa finta di cadere dalle nuvole che non è vero che non fa niente come i bambini io ma che cazzo io ma ci ho fatto tutto ma io esattamente oppure se gli fai notare qualcosa tipo un lavoro non fatto da un sacco di tempo ti risponde che cioè Si risente anche, è pure permaloso, quindi non riesci neanche a dire le cose, a meno che non di non creare una guerra in un ufficio.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il capo permaloso",
+    "tema": [
+      "lavoro",
+      "permalosità"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -721,9 +754,12 @@
     "end": 2052.87,
     "speaker_raw": "SPEAKER_00",
     "testo": "No, quello lo fanno apposta, i permalosi lo fanno apposta proprio per evitare che qualcuno vada a dire qualcosa. Quindi cosa possiamo fare? Allora, Maria Dancona, adesso Maurizio o la Viola ti danno un consiglio, però io non te lo posso dare perché io vengo da un'altra scuola. lei ha chiamato per te io lo porto in bagno uno così ma tu sei mad ma io lo porto in bagno ci rendi la vita impossibile a tutti ma anche tu hai una vita di merda pure la tua nel senso il fatto che poi ci devo tornare tutte le mattine appunto",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "I permalosi che evitano la critica",
+    "tema": [
+      "lavoro",
+      "critica"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -732,9 +768,12 @@
     "end": 2058.38,
     "speaker_raw": "SPEAKER_07",
     "testo": "O lo faccio e me ne vado. Come gli spacchi la faccia?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La scelta di lasciare il lavoro",
+    "tema": [
+      "lavoro",
+      "scelta"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

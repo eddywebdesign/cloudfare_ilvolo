@@ -437,9 +437,11 @@
     "end": 1688.78,
     "speaker_raw": "SPEAKER_05",
     "testo": "Posso dire che il nome, diciamo, non si addice alla loro bravura, nel senso che nel mondo della musica si dice anche del cinema, no? Lei è una cane, vuole un cane, a cantare un cane. Non si chiamano i cani, invece sono proprio bravi.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "I cani",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -517,9 +519,12 @@
     "end": 1907.6,
     "speaker_raw": "SPEAKER_01",
     "testo": "Il liocorno è un animale mitico non si studia più la mitologia e quindi nessuno sa che esistono gli ocorni ma gli ocorni è un animale che soprattutto nel medioevo nel vestiario medievale era molto di moda e infatti quando noi facemmo uno spettacolo con il gruppo Zafra, dico noi perché ne facevo parte abbiamo fatto tutte le immagini di un vestiario medievale in cui c'erano i liocorni ma ancora non c'erano anche non c'erano più i liocorni ma lei viene da una famiglia di musicisti perché io so che suo padre suonava con mascagni mio padre ha suonato con molti era violinista di preferenza suonava la viola però era violinista la viola che è la ragazza che è qui con noi che è qui con noi che si è sentita me le suonava di brutto me le suonava di brutto vieni qua viola era una persona molto unica bene lui ha suonato con con Cidea con Mascagni con Tanti della musica lei cosa fa signora nella vita? musica del novecento cosa fa lei nella vita?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Liocorno nel medioevo",
+    "tema": [
+      "mitologia",
+      "medioevo"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -539,9 +544,12 @@
     "end": 1935.52,
     "speaker_raw": "SPEAKER_01",
     "testo": "faccio l'editore io per molto tempo ho insegnato sono laureata in lettera sono musicologa ho fatto musicologia proprio per passione per conoscere meglio il canto popolare e anche la musica sacra perché sa che dopo il concilio c'è stato molto ci sono state molte cose, insomma, molti cambiamenti, ecco, io volevo approfondire, quindi ho studiato musicologia dopo la laurea e il matrimonio, intanto continuavo a studiare perché mi piace.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Importanza della musica sacra",
+    "tema": [
+      "musica sacra",
+      "canto popolare"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -561,9 +569,11 @@
     "end": 1939.2,
     "speaker_raw": "SPEAKER_01",
     "testo": "Ho difeso molto il canto popolare.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Difesa del canto popolare",
+    "tema": [
+      "canto popolare"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -572,9 +582,12 @@
     "end": 1945.86,
     "speaker_raw": "SPEAKER_05",
     "testo": "Io ringrazio lei e tutto il gruppo che ha scritto questa canzone, perché ci appartiene da generazione a generazioni. Grazie.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ringraziamento per la canzone",
+    "tema": [
+      "ringraziamento",
+      "canzone"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -619,9 +632,12 @@
     "end": 2305.71,
     "speaker_raw": "SPEAKER_05",
     "testo": "un ascoltatore dice che la canzone è stata scritta dal signore a più mani cioè era uno strumento di ci sono due coccodri la cantavo sempre con mia sorella che si trasformava in un unicorno e mi prendeva bastonate con il corno che inventava ciao angelo In realtà stavamo molto ridendo mentre andava questa canzone dei Muse per un messaggio che è di un ragazzo che scrive la mia vita è incastrata in un collo di bottiglia, ho 20 anni e quindi noi diciamo, io che sono il più vecchio qua, io quando penso uno di 20 anni mi ricordo che a 20 avevo le mie ansie, cosa farò, però a 40... Mi volto indietro e dico, madonna, come me la sarei potuta godere di più senza paranoia. Si dice, se i giovani sapessero, i vecchi potessero. E allora lui dice, ho vent'anni, sono appena tornato dall'Erasmus in Danimarca e ho capito che nella vita non so fare niente. E quindi è un dramma. E il rientro è... No, è un dramma. E Viola ha detto, il rientro dall'Erasmus è un dramma perché... Io l'ho fatto a Parigi Ho perso 10 kg Mi è venuto uno stomaco piccolissimo Ho smesso di mangiare Perché dovevo decidere o bere o mangiare Perché non avevo i soldi abbastanza E in quell'età preferisci bere, uscire, divertirti Però scusami Può essere che un uomo, un ragazzo Per esempio io a 20 anni facevo un altro mestiero invece volevo fare mille cose non avevo il problema di non capisci? io non ho mai avuto nella vita il problema di non so cosa fare non ho tempo per fare tutto quello che ho in testa però lui dice non so fare non so fare niente tra l'altro in Danimarca già a 20 anni le persone vivono da sole, hanno i figli sono assolutamente autonome e hanno già un prestito sulle spalle esatto scusami caro ascoltatore che non ti firmi probabilmente è stato il confronto con quella società che ti ha un po' buttato giù quelle lì che si arrangiano da soli e ti dicono ma è tua mamma che ti fa il sugo? quale mamma?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Storia della canzone dei Muse",
+    "tema": [
+      "canzone",
+      "Muse"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

@@ -287,9 +287,13 @@
     "end": 935.55,
     "speaker_raw": "SPEAKER_02",
     "testo": "Maurizio si è buttato a terra, pensa quando te ne vai nella Provence a mangiare il caffè l'altra mattina e pusci il tuo biscotto alla lavanda.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Maurizio si butta a terra",
+    "tema": [
+      "Provence",
+      "caffè",
+      "biscotto"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -312,9 +316,13 @@
     "end": 1019.68,
     "speaker_raw": "SPEAKER_02",
     "testo": "esatto esatto si ricicla tutto senti in bocca al lupo sono contento insomma che sono venute lì hai fatto sconto volo del mattino? certo ho dato in omaggio il succo e polpa Maurizio andiamo a farci il succo e polpa va bene ciao Chiara grazie ciao ciao è una bella storia bellissima",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Succo e polpa alla pesca",
+    "tema": [
+      "sconto",
+      "omaggio",
+      "succo"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -431,9 +439,13 @@
     "end": 1652.55,
     "speaker_raw": "SPEAKER_02",
     "testo": "stavo pensando a un personaggio che gli ascoltatori hanno scritto allora sto gioco vedi come siete vedi come siete abbiamo detto che facevamo l'indovina chi abbiamo mollato l'indovina chi perché ci piaceva la storia adesso ma abbiamo degli ascoltatori di nuovo prima gli ascoltatori vai vai vai Buongiorno, buongiorno! Ciao! Come va, come va? Molto bene, grazie! Allora, voi siete sposati da quanto? Praticamente questo è il secondo giorno da sposare. Oh, state partendo per il viaggio di nozze. Sì. E dove andate?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Personaggio degli ascoltatori",
+    "tema": [
+      "indovina",
+      "chiave",
+      "storia"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -453,9 +465,13 @@
     "end": 1680.08,
     "speaker_raw": "SPEAKER_02",
     "testo": "Quanto state in Messico? 8 giorni 8 giorni? Di dove è sito? De Pordenone? Si sente sai che siete in Pordenone Senti Eleonora Dov'è il tuo maritino?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Parcheggio a Malpensa",
+    "tema": [
+      "parcheggio",
+      "costo",
+      "volo"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -736,9 +752,12 @@
     "end": 2641.14,
     "speaker_raw": "SPEAKER_11",
     "testo": "Sì, sono stato a Ciccinizza. Con chi? Con la mia ex fidanzata.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Fidanzata a Ciccinizza",
+    "tema": [
+      "amore",
+      "relazione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -775,9 +794,12 @@
     "end": 2787.65,
     "speaker_raw": "SPEAKER_02",
     "testo": "non è alto, è Brunetta e allora vai quanto guadagni quanto guadagni ormai li conosci tutti i miei punti fermi Nick Drake Vasco Rossi Brunetta Kisloski, Brunetta i fratelli Cohen Alfano va bene domani mattina vi racconto questa storia interessante di lei va bene va bene non mi interessa niente lei chi? avevo anche una storia sui cinesi posso dire la storia dei cinesi? domani tutto domani ma non vi rompete i coglioni",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Nick Drake e Vasco Rossi",
+    "tema": [
+      "musica",
+      "artisti"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   }
 ]

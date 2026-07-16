@@ -331,9 +331,12 @@
     "end": 1295.16,
     "speaker_raw": "SPEAKER_12",
     "testo": "Non l'ho letto, l'ho sentita prima.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "non ho letto, l'ho sentita prima",
+    "tema": [
+      "libri",
+      "lettura"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -342,9 +345,12 @@
     "end": 1301.68,
     "speaker_raw": "SPEAKER_03",
     "testo": "Ecco, così abbraccio, tu cosa ne pensi di questo DNA?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "abbraccio, tu cosa ne pensi di questo DNA?",
+    "tema": [
+      "DNA",
+      "genetica"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -364,9 +370,12 @@
     "end": 1348.99,
     "speaker_raw": "SPEAKER_03",
     "testo": "Allora te ne faccio uno più semplice, perché sennò sembra che non sappiamo niente da dirci. Il fatto che, secondo te, il fatto che la psicanalisi, cioè svolti così velocemente nel subconscio, è un po' una chiara ammissione della sua debolezza? dai Chiara ti stiamo prendendo in giro va bene era solo per sapere allora qua arriva già com'è carina la Chiara Massi da Grosseto bene Chiara oggi pomeriggio quando andrai all'aeroporto e poi a Udine sappi che torni super popolare in Italia e oggi riceverai molte richieste d'amicizia te le meriti tutte ciao Chiara saluto tua mamma che ci sta ascoltando ciao ciao ciao ciao ciao ciao ciao",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "psicanalisi, debolezza",
+    "tema": [
+      "psicanalisi",
+      "debolezza"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -467,9 +476,12 @@
     "end": 1741.32,
     "speaker_raw": "SPEAKER_03",
     "testo": "Voi conoscete un rumano che arriva in orario? Sì, ci sono. Non facciamo frasi razziste, ci sono. Se tu arrivi mezz'ora dopo l'appuntamento, arrivate insieme. Tutti innamorati di Chiara. Dunque, all'aereo a Luna sono le nove e mezza, a Londra sono le otto e mezza. Forse mia nonna o mia mamma sarebbero già all'aeroporto. Quando viaggiavi con tua nonna da bambino, no? Mia nonna era così, treno alle 10 del mattino, alle 7 eravamo in stazione, per me è portasanti, vabbè ma cazzo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "rumano, orario, aereo",
+    "tema": [
+      "orario",
+      "viaggio"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -581,9 +593,12 @@
     "end": 2193.71,
     "speaker_raw": "SPEAKER_06",
     "testo": "come un uomo che cammina solo e nelle tenebre. Procedevo così, cauto, lentamente, ed usavo tanta circospezione in tutte le cose da avanzare ben poco. Ciò mi salvava almeno dal cadere nell'errore. Perciò presi la decisione di non accettare niente per vero che non apparisse tale alla mia conoscenza in modo evidente appena l'età mi permise di sottrarmi all'autorità dei miei maestri abbandonai lo studio delle lettere e decisi di non cercare altra scienza all'infuori di quella che si celava in me stesso e nel grande libro del mondo Nel corso dei miei viaggi mi resi conto senza traccia di falsa modestia che vi era più verità nei ragionamenti che fa la gente riguardo i propri affari che fra i pensieri di un uomo di lettere chiuso dentro il suo studio.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "cammina solo e nelle tenebre",
+    "tema": [
+      "libri",
+      "autobiografia"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -603,9 +618,12 @@
     "end": 2363.1,
     "speaker_raw": "SPEAKER_03",
     "testo": "io quando andavo all'università arrivavo sempre alle 8 anche se avevo l'esame alle 18 e la madonna una ragazza oggi ci scrive oggi ricordate la festa della mamma e io mi sono trovato impreparato perché per me invece è domenica la festa della mamma l'undici no però una volta era l'otto quindi qui durante questo disco è partita tutta una roba ma forse no forse l'otto marzo la festa della donna ci siamo confusi invece c'è una storia Abbiamo anche il nostro amico Mario, buongiorno, questa voce che si sente spesso a Radio Capital, ma adesso è brutto qui perché io sono l'unico che mi vengono a trovare tutti, anche quelli delle altre radio. Allora, spiegaci un attimo, è l'otto o è l'undici?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "festa della mamma, università",
+    "tema": [
+      "festa",
+      "università"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

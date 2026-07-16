@@ -5,9 +5,11 @@
     "end": 11.06,
     "speaker_raw": "SPEAKER_06",
     "testo": "Radio DJ. One nation, one station. One love, one life.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "One nation, one station",
+    "tema": [
+      "unità"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -71,9 +73,12 @@
     "end": 319.56,
     "speaker_raw": "SPEAKER_01",
     "testo": "bene a parte questo che speriamo non sia successo niente di grave buona giornata a tutti oggi abbiamo della bellissima musica anche musica italiana perché ci sono dei compleanni stupendi oggi ricordiamo Lucio Dalla ricordiamo Battisti anche se probabilmente non metteremo un disco oggi è il compleanno anche di Tozzi A me sembra strano, non ho mai saputo nella vita che Umberto Tozzi e Lucio Dalla avessero lo stesso...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Compleanni Lucio Dalla e Battisti",
+    "tema": [
+      "musica",
+      "compleanni"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -159,9 +164,12 @@
     "end": 384.75,
     "speaker_raw": "SPEAKER_01",
     "testo": "Quello è un lapsus, è un lapsus proibiano.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Lapsus proibiano",
+    "tema": [
+      "comunicazione",
+      "errore"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -181,9 +189,12 @@
     "end": 436.72,
     "speaker_raw": "SPEAKER_01",
     "testo": "Arrivano dei soprannomi che non ne capisco il senso, ma non fa niente. Il mio soprannome è Spruzzilov.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Soprannomi",
+    "tema": [
+      "amici",
+      "nome"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -203,9 +214,12 @@
     "end": 526.6,
     "speaker_raw": "SPEAKER_01",
     "testo": "no niente va bene allora aspettate un attimo perché a proposito di disordine perché noi abbiamo questa cosa che il giovedì con Sibaldi scavalliamo quindi non è come se fosse mercoledì dobbiamo finire il discorso perché molti ascoltatori vogliono saperlo perché molti ascoltatori hanno il mal di testa qualcuno ha la cervicale qualcuno ha proprio il mal di testa e noi mercoledì avevamo fatto nella puntata aveva chiamato una ragazza che l'osteopata gli aveva detto per il tuo mal di testa mettiti un ghiacciolo là i bagni derivativi noi adesso abbiamo finalmente un osteopata buongiorno osteopata Massimo buongiorno a voi allora volevo dirti anche un'altra cosa scusami siccome sul podcast di Radio DJ hanno scritto ovviamente si chiama il programma si chiama il volo del mattino quindi la colpa è sempre mia l'altro giorno su Twitter qualcuno che non gestisco io la pace così ha scritto anno senza H e ieri qualcuno ha scritto osteopata cioè l'ho staccato steopata non ero io e tutti dopo dicono che sono un ignorante io non sono io facciamo per te mi arrivano gli insulti su Twitter durante il giorno io sto lavorando e dico ma che cazzo è successo lo so comunque Massimo sappiamo che non l'hai scritto tu sappiamo che non l'hai scritto tu no no no vabbè fai niente tanto a me mi cambia un cazzo però voglio dire Massimo perché per il mal di testa si mette il ghiaccio alle parti diciamo erogene",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Disordine giovedì",
+    "tema": [
+      "ordine",
+      "giovedì"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -214,9 +228,12 @@
     "end": 580.2,
     "speaker_raw": "SPEAKER_13",
     "testo": "allora allora intanto dobbiamo fare la precisazione che questa pratica non è una pratica osteopatica incominciamo a distinguere chi l'ha inventata il mago Telma? no no no queste sono pratiche che si fanno ma da centinaia da 1800 sono pratiche di una corrente che si chiama igienista igienista e che lavorano proprio su questa differenza di temperatura del corpo perché il principio di questo tipo di pratiche è che se io riesco a spostare il sangue in periferia non ho freddo e invece quando il sangue sta in addome diminuisce in periferia e quindi ho freddo alle mani e ai piedi è molto cinese questa cosa se non sbaglio ma sì perché i cinesi hanno il corpo uguale a quello nostro cioè non...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Igienista",
+    "tema": [
+      "salute",
+      "medicina"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -225,9 +242,12 @@
     "end": 626.37,
     "speaker_raw": "SPEAKER_01",
     "testo": "Massimo mi dicono ti devo fare questa confidenza dove abito io a Brescia o abitavo ci sono le ragazze e i ragazzi quelli lì che dicono hai capito no? e quindi siccome lì è un quartiere diciamo molto etnico io ho la visione diciamo delle etnie e delle cose così dal punto di vista della prostituzione e mi dicono loro che il cinese però ha delle dimensioni più ridotte perché è piccolo Ora, io queste misure non... No, ma poi tu sei uno serio, io ti tiro in mezzo queste cose stupide. Parliamo di cose... però io quando vado dal cinese a farmi guarire, diciamo, a farmi visitare, mi dice sempre, hai il corpo caldo o il corpo freddo? Cioè, lavorano molto sulle temperature.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Prostituzione a Brescia",
+    "tema": [
+      "prostituzione",
+      "Brescia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -236,9 +256,12 @@
     "end": 666.61,
     "speaker_raw": "SPEAKER_13",
     "testo": "Ma sì, ma anche chiunque, insomma, si occupa di lavori sul corpo. E perché la circolazione è un principio base. tu pensa che un organo funziona se è irrorato bene questo è un principio dell'osteopatia cioè che l'arteria è suprema nel senso che un organo funziona bene se è irrorato e innervato bene se si muove bene noi in osteopatia lavoriamo proprio sulla liberazione di tutte le parti del corpo perché queste parti vengono irrorate e quindi insieme all'irrorazione arriva l'alimentazione arriva anche il drenaggio e quindi quell'organo può funzionare la differenza tra un vivo e un morto è che se si muove non si muove così giusto per... Quindi funziona un po' questa cosa? L'osteopatia indubbiamente sì.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Circolazione del sangue",
+    "tema": [
+      "salute",
+      "circolazione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -247,9 +270,12 @@
     "end": 720.74,
     "speaker_raw": "SPEAKER_01",
     "testo": "no no questa cosa del spostare diciamo il sangue esattamente allora intanto sicuramente il collega non avrà parlato del ghiacciolo quello inteso quello che mangiamo le nostre curiosità sono ma funziona più alla menta o funziona di più al tamarindo sai quelle cose poi noi ci siamo chiesti delle cose capisco che voi dovete fare spettacolo quello al limone stringe alla banana spinge non si capisce capisci allora scusami allora intendiamoci non si riferiva a quel ghiacciolo là ok va bene l'altra domanda che ti voglio fare io ho degli amici adesso poi ne chiamo uno lui dice però mi chiami ma mi devi cambiare la voce perché io non voglio essere quel relato denunciato ho degli amici a cui è andata via la cervicale togliendo il latte e i suoi derivati diciamo",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ghiacciolo e sangue",
+    "tema": [
+      "ghiacciolo",
+      "sangue"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -258,9 +284,12 @@
     "end": 726.13,
     "speaker_raw": "SPEAKER_13",
     "testo": "Allora, Fabio, su questa cosa mi trovi d'accordo al mille per mille, quindi andiamo in galera insieme.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Osteopati in galera",
+    "tema": [
+      "osteopatia",
+      "galera"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -269,9 +298,12 @@
     "end": 734.16,
     "speaker_raw": "SPEAKER_01",
     "testo": "Ah, ok. Quindi è vero che ogni tanto ci sono osteopati che dicono togliete il latte? Allora, ci dobbiamo intendere questo. Ok, dimmi.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Latte e osteopatia",
+    "tema": [
+      "latte",
+      "osteopatia"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -335,9 +367,11 @@
     "end": 836.91,
     "speaker_raw": "SPEAKER_01",
     "testo": "la cervicale si adatta perché non posso guardare a terra devo adattarmi guardando in avanti fantastico cioè tu ti pieghi un po' in avanti la testa ha capito è tutto esatto esatto è come quando io una volta per colpa di una caviglia avevo il mal di collo perché si piegava tutto il corpo esattamente fantastico Massimo sei fantastico ma tu sei pugliese Massimo di Bisceglie la focaccia vuoi? ascoltami ma lì con il latte è difficile con quelle mozzarella siamo messi veramente male tu sei a posto col tuo lavoro lì allora infatti io vivo solo di quello viva i latticini ciao Massimo grazie Ciao Fabio, alla prossima! Ciao, grazie, grazie, grazie! Oh yeah! Hai capito? Un testino mi piega, piego il collo ma non vedo il cartello stradale",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Aneddoto caviglia e collo",
+    "tema": [
+      "salute"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -357,9 +391,12 @@
     "end": 1079.84,
     "speaker_raw": "SPEAKER_01",
     "testo": "Ci stava il venerdì, ci stava il venerdì, un po' di Duran Duran, ma rimaniamo in quegli anni, cioè rimaniamo un po' nel passato, ricordiamo il nostro amico, possiamo dire amico? Non è un amico, però è un amico di tutti del sesso, chi è che non ama o non ha amato Lucio Dalla? Se proprio devi dire, tipo non ho comprato i suoi dischi, va bene, ma dire mi fa schifo, cioè non esiste.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Riferimento Duran Duran e Lucio Dalla",
+    "tema": [
+      "musica",
+      "anni"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -467,9 +504,12 @@
     "end": 1597.02,
     "speaker_raw": "SPEAKER_01",
     "testo": "Adesso, non so se ci possiamo essere denunciati quei relati dai Fabio, non lo so per aver detto questa cosa, però non faceva che ti venisse il buco nello stomaco.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La storia del relativo",
+    "tema": [
+      "relazione",
+      "amore"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -478,9 +518,12 @@
     "end": 1615.4,
     "speaker_raw": "SPEAKER_00",
     "testo": "No, cioè nel senso, diciamo che grosso modo non è proprio così e quindi tu ritiro tutto. Ecco, ritiro tutto. Però diciamo che può avere complicazioni gastro. Può dare con complicazioni gastriche. Gastriche, ok. Può dare in soggetti particolari. Piccole scritte da dire velocemente.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Gli effetti collaterali dei farmaci",
+    "tema": [
+      "salute",
+      "farmaci"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -489,9 +532,12 @@
     "end": 1673.25,
     "speaker_raw": "SPEAKER_01",
     "testo": "Dentro nella scatola. Sai che io guardo sempre, te lo dico sempre, le pubblicità in America dei farmaci. Durano tipo, non so, un minuto. I primi cinque è se vuoi farti passare il mal di testa prendi questo. Gli altri cinquantacinque sono gli effetti collaterali. La morte. Esatto. stiamo parlando di soprannomi o no? evidentemente no la novalgina esiste ancora mercato nero sai la camorra vende cocaina, armi e novalgina qua scrivono e la cibalgina cos'è? però l'ho già sentito questo nome la cibalgina non mi ricordo da bambini ce la davano Volevo dirvi che mia madre... No, stavo leggendo un messaggio ma non faccio in tempo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La pubblicità dei farmaci in America",
+    "tema": [
+      "farmaci",
+      "pubblicità"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -511,9 +557,12 @@
     "end": 1870.57,
     "speaker_raw": "SPEAKER_07",
     "testo": "gli soffrigge la testa posso fare una precisazione lo sai che quando dico qualche cavolata poi me la trascino per tutta la settimana ah che poi ci rimani male esatto una mia amica medico mi ha scritto dicendo che ovviamente il mesolid esiste ancora serve la ricetta ci vuole la ricetta",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La storia del mesolid",
+    "tema": [
+      "farmaci",
+      "salute"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -522,9 +571,12 @@
     "end": 1957.05,
     "speaker_raw": "SPEAKER_01",
     "testo": "Ok, il cambiamento è stato che mentre prima andavi in farmacia e dicevi mi dai dieci scatole di Auli, adesso ci vuoi la ricetta. Però in alcuni paesi da bandito è stato ritirato. Esatto, gli americani sono forse il popolo che si sfondano di più di medicinali. Io devo dire che qualche anno fa, stupidamente, appena avevo un attimino, mi bombavo, di fatti ho il fegato da buttare via, e invece qua abbiamo tanti ascoltatori che lavorano su queste cose con rimedi naturali, rimedi proprio anche di frutta, verdura, malve, erbe, impacchi di malva, non so se ti ricordi, facevano gli impacchi di malva. volevo dire che noi cuochi quando ci scottiamo usiamo la patata non specifica quale posso capire per la scottatura ma per il mal di denti infiammazione succhia l'infiammazione come fai a capire la patata succhia sembra sempre di fare le cose comunque stiamo parlando di soprannomi veramente no non lo fa niente stiamo parlando di soprannomi ma prima dobbiamo dare voce Ho ricevuto due messaggi da voi due storditi. Ieri quello di Maurizio che mi diceva domani potremmo fare Igor Sibaldi contro Nicola Alportinaio. Cioè Nicola Alportinaio commenta Igor Sibaldi. Perché ci sono persone che amano la puntata del giovedì con Igor Sibaldi, altri invece che dicono che parli preferiamo le cazzate.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'abuso dei farmaci",
+    "tema": [
+      "farmaci",
+      "salute"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -533,9 +585,12 @@
     "end": 1974.63,
     "speaker_raw": "SPEAKER_07",
     "testo": "e un messaggio di Viola che mi dice sul canale 9 c'è una che mangia il cartongesso è vero io e la mia ossessione si chiama una che mangiava il cartongesso e uno che invece si eccitava tirando fuori i capelli dallo scarico della doccia ma è un programma che merita",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il programma 'Una che mangia il cartongesso'",
+    "tema": [
+      "televisivo",
+      "programmi"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -544,9 +599,12 @@
     "end": 2019.48,
     "speaker_raw": "SPEAKER_01",
     "testo": "sai che io ho imparato a fare quella roba lì mi fa schifo però mi dà una soddisfazione bravo infatti era su questo con cosa lo faceva lui con lo stuzzicadente no no con tipo una gruccia no ragazzi vi dico questa cosa che è strepitosa prendete gli stuzzicadenti quelli lunghi dello spiedino ma che schifo cosa stai dicendo io lo faccio nella doccia lo faccio io spuzzicadente quello lungo dello spiedino lo metti dentro con le mani palmi così come quando devi accendere il fuoco nei film fai avanti e indietro così cioè sprechi così così tiri su e c'è un capito schifo eh vabbè fa schifo però viene via che è una goduria comunque comunque mi sono addormentata va bene mi sono risvegliata sempre sul nove c'era l'uomo senza pene",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La storia di uno che si eccitava tirando fuori i capelli",
+    "tema": [
+      "televisivo",
+      "programmi"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -775,9 +833,13 @@
     "end": 2537.15,
     "speaker_raw": "SPEAKER_01",
     "testo": "conta l'amore saperci fare che amore saperci fare parliamo di cose più serie Nicola l'altro giorno sono passato e mi hai detto che bello Maurizio diventa papà crescono le responsabilità ma anche la felicità la responsabilità è legata alla felicità senza di quello non si può essere dopo felice ce l'hai lì la lettera per il papà che hai scritto a Maurizio? la poesia, ce l'hai lì?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La responsabilità è legata alla felicità",
+    "tema": [
+      "amore",
+      "responsabilità",
+      "felicità"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -830,9 +892,13 @@
     "end": 2575.23,
     "speaker_raw": "SPEAKER_02",
     "testo": "no, l'avevo scritto sì, quando ho sentito la tua smissione ho in mente di scrivere queste quattro cose ah dai, scrivi, dici queste quattro righe che hai scritto per Maurizio allora è bello diventare papà ieri sera era un sogno cioè ieri era un sogno oggi è una dolce realtà essere papà è una grande responsabilità ma soprattutto è un'immensa felicità eh",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La poesia per Maurizio",
+    "tema": [
+      "amore",
+      "papà",
+      "felicità"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -874,9 +940,12 @@
     "end": 2677.47,
     "speaker_raw": "SPEAKER_05",
     "testo": "can anybody save me save me I don't wanna fall asleep I can anybody I can anybody save me save me I don't wanna fall asleep people care when they want but I know I'll be strong I'll take care",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Can anybody save me",
+    "tema": [
+      "musica",
+      "aiuto"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -907,9 +976,12 @@
     "end": 2877.03,
     "speaker_raw": "SPEAKER_01",
     "testo": "Allora, non solo me l'ha detto Vito, ma arrivano anche ascoltatori che dicono che se tu saldi, sai la saldatrice, e vedi tanta di quella luce lì, gli occhi ti bruciano alla sera, suo papà, ma anche alcuni ascoltatori, mettono le patate, tagliano due fette di patate e le mettono su gli occhi. Una ragazza addirittura dice una cosa che io non sapevo, se io per esempio quando cucino mi accorgo che è troppo salato, butto un pezzo di patata e dopo è meno salato. La patata succhia, è vero questa roba? Sembra detta così una roba erotica, invece no, la patata succhia. Ok, ci proverò. Ok, comunque questo Andrew Waller ha aperto un altro mondo, perché uno che fa l'amore con, cioè fa l'amore, ha relazioni con cento donne e solo alcune di loro si sono accorte che ne mancava. il vero è interessante comunque no ma lui ha detto una bugia semplicemente gli ha detto oggi non sono in forma oggi non sono in forma non mi risponde qualcuno qua dice forse usava sai quelle cose con la cintura il famoso strapon lo strapon magari non lo so comunque certo un uomo comunque c'è un documentario ci hanno fatto un film hai detto ieri che l'hai visto scusami cioè tu ti sei addormentata con una che mangiava il cartongesso ti sei svegliato con un uomo senza bere infatti nove ci va giù pesante ma che vita hai che vita hai no dormo in due tranche la prima sul divano e la seconda no ma che vita hai con queste notizie prima di andare a dormire quello che toglie i peri dalla doccia ma io e la mia ossessione è un programma che va visto almeno una volta ora che hai la televisione invece di guardare i fatti vostri il pomeriggio aspetta mi è arrivata una mail che uno dice che è una tua amica che dice che il pomeriggio tu guardi i uomini a voglia ah è vero che guardi i uomini a voglia scusami con la versione con gli anziani no guardo il trono come si chiama tradizionale trono originale c'hai dei pomeriggi così la sera ti guardi quella mangi da schifo fatti delle domande è tutta vita allora ragazzi volevo dirvi c'è esiste anche un documentario di un uomo senza sedere è un uomo senza culo è una vita difficile perché non si può mai sedere Sto sempre in piedi. E succhiale su post!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Soluzioni per gli occhi brucianti",
+    "tema": [
+      "salute",
+      "soluzioni"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   }
 ]

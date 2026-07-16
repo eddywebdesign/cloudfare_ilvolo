@@ -470,9 +470,12 @@
     "end": 1509.89,
     "speaker_raw": "SPEAKER_00",
     "testo": "Che cos'è? Il gusto e il profumo, incredibili.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Gusto e profumo incredibili",
+    "tema": [
+      "cucina",
+      "giappone"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -667,9 +670,12 @@
     "end": 1851.27,
     "speaker_raw": "SPEAKER_11",
     "testo": "un sushi bar piccolino io ho un amico che vuole aprire la pasticceria giapponese da almeno 10 anni allora la mia idea è fare il sushi bar con le poesie",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Sushi bar con poesie",
+    "tema": [
+      "arte",
+      "giappone"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -783,9 +789,12 @@
     "end": 2219.18,
     "speaker_raw": "SPEAKER_01",
     "testo": "in modo tale che uno ha un pochino più di pepe al sedere entro questo mese devo perdere un chilo, adesso dico una cavolata piuttosto che riuscire ad andare a Venezia ma voi l'avete fatta la lista del 2016? certo io ho fatto una cosa nel 2016 che per ora è nella lista del 2015 è stata una delle prime cose che ho fatto nel 2016 ma che non ho fatto in tempo a fare nel 2015 quindi l'ho trascinata, vale lo stesso perché comunque era in automatico passata al 2016",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Perdere un chilo entro questo mese",
+    "tema": [
+      "salute",
+      "obiettivi"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -794,9 +803,12 @@
     "end": 2258.44,
     "speaker_raw": "SPEAKER_12",
     "testo": "Comunque Fabio, non so se ti è arrivata la notizia, ma noi adesso abbiamo una casella di posta solo nostra, che io ho attivato durante le vacanze alle tue spalle. Cioè? Il volo del mattino, chioccioladj.it Con l'articolo davanti? Il volo del mattino, sì. il volo del mattino chiocciola dj.it e ci è arrivata una mail con oggetto obiettivo 2016 di un ascoltatore che ha come obiettivo dell'anno parlare con te quindi noi nella prima settimana dell'anno già gli esaudiamo il suo obiettivo ma che sogno di me ma cos'è?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Obiettivo 2016 di un ascoltatore",
+    "tema": [
+      "obiettivi",
+      "ascoltatore"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {

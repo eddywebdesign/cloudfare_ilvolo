@@ -949,9 +949,12 @@
     "end": 2451.33,
     "speaker_raw": "SPEAKER_06",
     "testo": "Ti prego parliamo di te che se parlo di me mi manca il respiro Ho perso troppe ore di sonno che se dopo mi sdraio dormo come un ghiro E ho fatto le cose più brutte che se mamma sapesse rimanerebbe male E ho fatto le cose più brutte guarda scusa mamma è una scusa per cantare Ti prego amore mio promettimi",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Promesse e rimpianti",
+    "tema": [
+      "amore",
+      "promesse"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -960,9 +963,12 @@
     "end": 2459.42,
     "speaker_raw": "SPEAKER_05",
     "testo": "Se qualcuno poi ti parla di me, parla di me, un sorriso ti spaccherà in tre.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Un sorriso ti spaccherà",
+    "tema": [
+      "amore",
+      "sorriso"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -971,9 +977,12 @@
     "end": 2511.74,
     "speaker_raw": "SPEAKER_07",
     "testo": "Lo sai vorrei prometterti, il vento nei capelli, quando sei qui davanti, e sono sempre fermi, e non mi dire che ti manco tanto, tanto, che torni a casa e dormi sempre insieme al gatto, mentre ti rigiri, mentre ti rigiri.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il vento nei capelli",
+    "tema": [
+      "amore",
+      "vento"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -982,9 +991,12 @@
     "end": 2515.12,
     "speaker_raw": "SPEAKER_05",
     "testo": "Oh caro pane dai prometti, e poi prometti.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Promessi e poi prometti",
+    "tema": [
+      "amore",
+      "promesse"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -1043,9 +1055,12 @@
     "end": 2673.3,
     "speaker_raw": "SPEAKER_15",
     "testo": "Io anche a scuola facevo così.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La postina a scuola",
+    "tema": [
+      "posta",
+      "scuola"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1079,9 +1094,12 @@
     "end": 2695.93,
     "speaker_raw": "SPEAKER_17",
     "testo": "Allora, sinceramente, io la postina la inizierò a fare proprio via Breno. E cosa hai fatto prima? Qui sull'Etna ho lavorato dentro la posta, ero...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La postina sull'Etna",
+    "tema": [
+      "posta",
+      "Etna"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

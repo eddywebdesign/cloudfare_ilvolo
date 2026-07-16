@@ -571,9 +571,12 @@
     "end": 1324.33,
     "speaker_raw": "SPEAKER_02",
     "testo": "Sì, no, è stato un caso il fatto che ieri Mediaset l'abbiamo mandato in onda in prima serata.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Mediaset in onda in prima serata",
+    "tema": [
+      "tv",
+      "programmi"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -624,9 +627,12 @@
     "end": 1397.37,
     "speaker_raw": "SPEAKER_02",
     "testo": "Ball Gag Gag, scritto gag come la gag Ball Gag e ti è piaciuto il film?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ball Gag",
+    "tema": [
+      "film",
+      "recensione"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {

@@ -76,9 +76,11 @@
     "end": 312.79,
     "speaker_raw": "SPEAKER_06",
     "testo": "Senti Tony Dallara come correggia. Ha correggiato? Sì, sì.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Tony Dallara",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -145,9 +147,11 @@
     "end": 509.11,
     "speaker_raw": "SPEAKER_16",
     "testo": "Eh. Cos'è? Big in Japan. Sì, ma cos'era? Ichigatuko è una parola giapponese. Non sei cambiato. 20-20? Ichigatuko. Come metta qui. Metta qui. Metta qui.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Big in Japan",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -592,9 +596,13 @@
     "end": 1954.13,
     "speaker_raw": "SPEAKER_10",
     "testo": "No, devi bruciare tutto, perché lo spirito del fuoco è quello che ti aiuta, dell'acqua, tu devi scegliere quale spirito acqua è affidabile. Giusto, giusto. Angioletto, per esempio, tu. Ciao, buongiorno a tutti. Angioletto, Angioletto. Ciao Fabio, ciao Riola, ciao Mauro. Ciao, ciao.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Spirito del fuoco e dell'acqua",
+    "tema": [
+      "spirito",
+      "fuoco",
+      "acqua"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -690,9 +698,12 @@
     "end": 2103.12,
     "speaker_raw": "SPEAKER_16",
     "testo": "Quindi due fettine di arrosto senza contorno?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Due fettine di arrosto senza contorno",
+    "tema": [
+      "cena",
+      "arrosto"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -723,9 +734,12 @@
     "end": 2178.01,
     "speaker_raw": "SPEAKER_10",
     "testo": "Forse a te ti ascolta. Senta signor Antonello, lei è siciliano, come ha trovato Milano?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Siciliano a Milano",
+    "tema": [
+      "Milano",
+      "Sicilia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

@@ -284,9 +284,12 @@
     "end": 1546.01,
     "speaker_raw": "SPEAKER_01",
     "testo": "Ma non è The Wrestler, no? Quando era ancora figo, no? Prima che si gonfiasse. Vabbè, andiamo avanti, te lo trovo io. Vabbè, insomma, c'è una scena dove lui ha le mani così, con la fasciatura così, fuma una sigaretta con le due dita strette così e fa... E c'ha in mano un rasoio Madonna mia guarda che fa fighissimo Sì mi ricordo la scena Allora Maurizio dice Angel heart Madonna mia ragazzi che ignoranti Comunque ascoltatemi Fermi tutti Arrivano ascoltatori che dicono Ma il guanto che aveva Brad Pitt È il guanto di gomma per lavare i piatti O la presina per il guanto presina con il disegno di Babbo Natale con il disegno di Natalizzi che io a casa mia li usiamo solo sotto Natale no è il guanto di gomma e sapete cosa mi ha detto Maurizio mentre andavo di No Arms? ma hai capito cosa serviva? lui non stava facendo l'amore con lei dove è l'altro guanto?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "The Wrestler",
+    "tema": [
+      "film",
+      "sport"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -317,9 +320,12 @@
     "end": 1767.53,
     "speaker_raw": "SPEAKER_02",
     "testo": "con le religioni e la playstation 2 sillogismi e imperativi hanno fallito come il sol dell'avvenire così sia continuiamo ad inventare dimensioni dopo il cubo l'ipercubo e così via solo il senso Perché non finirà, non finirà mai Perché non finirà, non finirà mai Produciamo nuove contaminazioni Fukushima, Nagasaki e Mururo I vaccini, i rolocausti e i paradossi Tartarughe irraggiungibili Continuiamo a scogitare scampatoie Ne tilone, ne fedrone e così via Solo il senso che se tutto va già visto Quello stai sicura non finirà mai Perché non finirà, non finirà mai Perché non finirà, non finirà mai Perché non finirà, non finirà mai Grazie a tutti Mi dispiace. Perché non finirà, non finirà mai. Perché non finirà, non finirà mai. Perché non finirà, non finirà mai.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Non finirà mai",
+    "tema": [
+      "paura",
+      "società"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -328,9 +334,12 @@
     "end": 1792.39,
     "speaker_raw": "SPEAKER_01",
     "testo": "I cani, non finirà, ci piace molto questo pezzo. Loro si chiamano i cani, ma in realtà è solo uno, e chi si chiama? Niccolo Contessa. Ehi, guarda che siamo bravissimi noi, che smascheriamo cosa c'è dietro un gruppo. Allora ragazzi, in farmacia c'è una fila di uomini che comprano cerotti, bende e mercurio cromo. Aspetto anch'io, dice Giovanni Branca. È vero.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "I cani",
+    "tema": [
+      "musica",
+      "umorismo"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -339,9 +348,12 @@
     "end": 1795.37,
     "speaker_raw": "SPEAKER_00",
     "testo": "Ah, il mercurio cromo per fare la finta, il finto sangue.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Mercurio cromo",
+    "tema": [
+      "umorismo",
+      "società"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -350,9 +362,12 @@
     "end": 1889.24,
     "speaker_raw": "SPEAKER_01",
     "testo": "Ma che comunque lì ti sei ferito tanto, ci metti anche il mercurio cromo. Guarda che figo l'uomo bendato. Adesso che arriva il carnevale approfittate, approfittate, approfittate. Allora, in passato mi sono permesso di esprimere un mio parere sull'uomo in pigiama. Nel senso che io ho smesso di mettere il pigiama quando avevo tipo 9-10 anni, no? E poi io non ce l'ho mai fatta a comprare proprio il pigiama. C'è stato un periodo che ho comprato quello da signore, sai quello con la giacca, col taschino? Quello di Totò, diciamo. Però è durato poco anche quello. Ho avuto il periodo recenziale con la vestaglia da notte. ma di spugnina o di graso? no vabbè di graso anche il cappello il cappellino così però poi io piuttosto in casa per esempio la tuta, i pantaloni comodi non riesco a mettermi il pigiama Maurizio invece ama proprio quello con l'elastico in fondo sui polsi e le caviglie con quei disegni strani tipo gli euro però qualcuno si è offeso negli anni gli ascoltatori dicevano mio marito ce l'ha è fighissimo anche adesso arriveranno messaggi così secondo me c'è un passaggio ancora possiamo andare oltre io non voglio esprimere giudizio ho imparato ho 44 anni non do più giudizio ognuno fa quello che gli pare ma noi abbiamo Paolo Daviadana 49 anni io porto la pancera ed è indispensabile buongiorno Paolo ma buongiorno Fabio scusami un attimo dove sei fisicamente in questo momento?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Finto sangue",
+    "tema": [
+      "umorismo",
+      "società"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -372,9 +387,12 @@
     "end": 1918.88,
     "speaker_raw": "SPEAKER_01",
     "testo": "via dana diciamo no? no adesso sono a Carpi tu sei vestito normale ma sotto diciamo porti la pancera quella lì che quando eravamo bambini io c'era quello mino nero in farmacia di profilo che aveva ginocchiera, cavigliera la pancera tu hai preso la pancera tessuto scusami di lana",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Pancera",
+    "tema": [
+      "umorismo",
+      "società"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -383,9 +401,12 @@
     "end": 1929.79,
     "speaker_raw": "SPEAKER_07",
     "testo": "misto, cotone e lana lana sulla pelle e cotone fuori come si chiamava? questa qua è il meglio che ci sia in commercio",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Pancera tessuto",
+    "tema": [
+      "umorismo",
+      "società"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -394,9 +415,12 @@
     "end": 1981.24,
     "speaker_raw": "SPEAKER_01",
     "testo": "come si chiamava scusa quella che diceva Cottone fuori c'era la pubblicità da ragazzini non lo so ma lo sai che noi siamo stati ragazzini in momenti diversi qual era scusami tu che hai la mia età più o meno Paolo no guarda me la dovrei togliere e leggere no ma c'era la pubblicità c'era la pubblicità famosa no si sarà quella lì dai va bene va bene senti tu la mattina ti svegli ti fai o la usi anche a dormire no no io la uso solo per lavoro è indispensabile ma guarda che tu stai arrivando hai detto che hai 44 anni e non la scappi no perché la pancera come il burro cacao i cotonfiò questo mondo qui sono quei mondi che tu ci entri non sai che sono peggio della nicotina quando tu vai a lavorare senza pancera hai freddo ti senti nudo sono sicuro che tu non ne puoi più fare a meno sei nel tunnel della pancera",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Cottone fuori",
+    "tema": [
+      "umorismo",
+      "società"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -405,9 +429,12 @@
     "end": 2005.85,
     "speaker_raw": "SPEAKER_07",
     "testo": "sono nel tunnel della pancera infatti mi manca tantissimo se non la metto però sono nei periodi invernali e ti dirò che ho capito oggi che sono un coglione perché? perché per beccare bisogna mettere in evidenza queste cose e io invece ce l'ho sotto e non si vede facciamola vedere ma scusami la dovrei far vedere cioè se tu dici che alle donne l'uomo con la pancera prende",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Pancera e donne",
+    "tema": [
+      "società",
+      "relazioni"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -416,9 +443,12 @@
     "end": 2029.75,
     "speaker_raw": "SPEAKER_01",
     "testo": "la pancera non lo so non si vede perciò dovrei avere quelle facce scusami no ma io prima ho detto la fascia da box e le botte ma la pancera era fuori da questa categoria comunque tu aspetta la mattina ti fai la doccia ti metti le calze le mutande la pancera non la canottiera a questo punto della salute mi metto la pancera tra una maglia tecnica",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Pancera e salute",
+    "tema": [
+      "società",
+      "salute"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -689,9 +719,12 @@
     "end": 2442.97,
     "speaker_raw": "SPEAKER_05",
     "testo": "Sì, pensando che anche mio papà ne faceva uso.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "uso della pancera da parte del padre",
+    "tema": [
+      "famiglia",
+      "salute"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -747,9 +780,12 @@
     "end": 2530.62,
     "speaker_raw": "SPEAKER_01",
     "testo": "no guarda che sono anche contenitivi ti fanno tutta la silhouette il bustino stretto ci stai pensando no non ci credo a quelle cose lì non ci credi va bene pensa che una volta a 16 anni ho comprato una pancera fatta come la muta sai la muta dei sub da mettere quando si andava a correre intorno alla pancia con lo strapio che ti faceva sudare il doppio a voglia? ecco quella devo prendere va bene grazie Romina buona giornata niente grazie a voi ciao ciao ciao Poi un mio amico mi ha detto, non serve quella pancera, fai come me, usa il domopack. Lui andava a correre e si faceva tutta la pellicola trasparente.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "acquisto di una pancera da parte del conduttore",
+    "tema": [
+      "gioventu",
+      "sport"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

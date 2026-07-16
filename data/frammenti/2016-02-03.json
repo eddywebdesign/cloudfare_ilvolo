@@ -411,9 +411,12 @@
     "end": 1206.75,
     "speaker_raw": "SPEAKER_05",
     "testo": "Beh, bellissimo, lui è un grande attore, quindi è molto bello lavorare con uno così bravo, impegnato anche nel sociale.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Nicole Kidman",
+    "tema": [
+      "film",
+      "attori"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -483,9 +486,12 @@
     "end": 1336.21,
     "speaker_raw": "SPEAKER_02",
     "testo": "come un contagio passa già da te a chi ti guarderà libertà è un concetto semplice se non rinuncia al complicato che sia per sempre un giorno solo un attimo",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "libertà è un concetto",
+    "tema": [
+      "libertà",
+      "tempo"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -745,9 +751,12 @@
     "end": 2011.67,
     "speaker_raw": "SPEAKER_06",
     "testo": "Non lo so, dice che oggi si mangia il panettone Io non conosco questa tradizione È una tradizione di oggi?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "panettone a San Biagio",
+    "tema": [
+      "panettone",
+      "tradizioni"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

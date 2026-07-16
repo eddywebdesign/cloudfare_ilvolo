@@ -52,9 +52,12 @@
     "end": 485.71,
     "speaker_raw": "SPEAKER_01",
     "testo": "prima di introdurre Igor Sibaldi volevo dire una cosa che ascoltando canzone di Adele da quando l'ho vista nel programma quello lì di James Corden non so se avete visto, vi capita su internet di vedere questi personaggi famosi che sono in macchina con un presentatore televisivo e cantano quella famosa era quella di Stevie Wonder perché inizia che Stevie Wonder vuole guidare ovviamente l'altro dice sei sicuro che è la patente? e Stevie Wonder dice sì l'ho lasciata a casa ma fidati ce l'ho mettiti la cintura e dice ma facciamo così E ho visto quella puntata lì, poi ho visto la puntata con Justin Bieber a Los Angeles, poverino, a me fa sempre tenerezza, a me quelli che diventano famosi da bambini, quando li vedo poi da adulti che li vedi che sono, come dire, che sono crepati per sempre. Io avevo detto che non è un film. Sì, che gli hanno proprio, come dire, non so, erano dritti, un bambino è lì bello pure per dire che PAM! Dentro nella gamba ed è tutto storto nella vita, lo vedi come parla, mi fa sempre tenerezza. Ieri c'era la puntata con Chris Martin, fantastico, il cantante dei Coldplay, ma ho visto la puntata con Adele e Adele, anche quando è andata da Fazio, così... Ogni volta che, diciamo, appare in televisione, non solo come cantante, ma anche come persona, quindi in intervista così, fa una simpatia incredibile. Si mette in gioco. Sembra la Pausini. Quando tu intervisti la Pausini, ti fa simpatia su quelle persone che, boom, ti prendono nella pancia, insomma. Fantastico. Ecco, quindi volevo dire che adesso vedo Adele e mi dico, andrei a mangiare la pizza. Adele mangia due. Lo dico subito. quando tu sei lì che dici prendiamo una margherita e gli dici ma dividiamo un'altra dopo detto questo è arrivato Igor Sibaldi buongiorno ascoltatori chiedono già come sta andando il suo dialogo con il gatto se vi siete detti qualcosa questa settimana Mauro il nostro diciamo programmatore musicale ha portato due mangimi per il gatto lì non so come si chiamano i gatti quelli lì che salmone pollo anatra roba",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "James Corden e Stevie Wonder",
+    "tema": [
+      "televisivo",
+      "musica"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -96,9 +99,12 @@
     "end": 547.46,
     "speaker_raw": "SPEAKER_01",
     "testo": "sa che mio amico aveva un gatto che usciva tutte le sere ad avere rapporti così anzi a un punto l'ha fatto castrare ma il gatto continuava a uscire allora lui ha detto ma scusa l'abbiamo fatto castrare ma perché esce? lui dice no è andato a disdire gli appuntamenti",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il gatto castrato",
+    "tema": [
+      "animali",
+      "umorismo"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -107,9 +113,12 @@
     "end": 596.27,
     "speaker_raw": "SPEAKER_00",
     "testo": "buongiorno parliamo di logos logos e eros spiegazione della parola logos dal greco prego dunque dietro naturalmente c'è la solita test per le persone queste cose qui antiche non sono mai cose che sono per aria sempre cose che riguardano la gente personalmente allora sono tre cose fondamentali queste qui che uno deve vedere un po' a quale appartiene C'è una cosa che si chiama pathos, che vuol dire sofferenza, io sto male, c'è qualcosa, mi peso sullo stomaco, non mi piace questo, che brutto il grigio dell'asfalto, c'è lo smolto, tutte queste cose. Poi c'è la cosa contraria, esatta, che sarebbe eros, che pochissimi ce l'hanno, pochissimi. Che non è l'erotismo in realtà.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Logos e eros",
+    "tema": [
+      "filosofia",
+      "psicologia"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -129,9 +138,12 @@
     "end": 653.88,
     "speaker_raw": "SPEAKER_00",
     "testo": "Invece non c'entra niente perché fa talmente paura l'Eros che si è pensato si potesse risolvere con la parte sessuale. Poi dice, starà imparando di sesso, che comunque diventa normale e può includere il pathos. Nel sesso ci può essere dolore, mi ha tradito, non mi ha guardato, abbiamo litigato. Ecco Eros non c'entra niente. Eros è il non avere paura delle cose belle. cioè davanti alla bellezza la maggior parte delle persone scappa via scappano perché? perché la bellezza quando una persona la guarda che sia una nuvola che sia un cavallo che sia una bellissima persona eccetera ti alza il livello di vita di colpo ti alza l'energia ti dà un'energia fortissima e questa energia così forte non ti permette di vivere come prima credo fosse Calvino che ha detto Baudelaire pensa adesso come maschio o Dostoievski comunque uno di questi qua intelligentissimi che dice la bellezza ci salverà Dostoievski",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'eros e la paura",
+    "tema": [
+      "amore",
+      "paura"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -307,9 +319,12 @@
     "end": 1304.74,
     "speaker_raw": "SPEAKER_00",
     "testo": "Dio crea il mondo, a un certo punto si mette lì a lavorare con l'acqua, con la terra, con le nuvole e fa tutte queste cose. L'immaginazione viene prima, l'immaginazione è totalmente libera, con l'immaginazione scopri altre realtà. Praticamente l'immaginazione tu hai l'impulso a creare, poi puoi tenertela e non fare niente. Dopodiché arrivi sulla terra, diciamo, terra a terra e lì cominci a usare la creatività. Ci sono i sette vizi capitali che bloccano tutto.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'immaginazione e la creazione",
+    "tema": [
+      "creatività",
+      "immaginazione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -688,9 +703,11 @@
     "end": 2733.85,
     "speaker_raw": "SPEAKER_01",
     "testo": "si è svegliata ha preso coscienza allora abbiamo messo devendra e c'è anche il nostro fai saluto romano subito così il nostro no il nostro esperto musicale mauro perché un ascoltatore ieri ha scritto ultimamente il volo del mattino mi ha scritto su twitter non mette più tanto musica del volo del mattino ma state mettendo la musica della radio come gli altri programmi allora tu ti sei un po infiammato questa mattina no scherzo però hai voluto dare una risposta voluto",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "musica della radio",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -713,9 +730,11 @@
     "end": 2796.97,
     "speaker_raw": "SPEAKER_01",
     "testo": "fuori dei lavori, cioè non addetto ai lavori ma assolutamente all'esterno dei lavori che non siamo noi che seguiamo la tendenza musicale del paese ma il paese si adegua al volo del mattino si abbeverà la fonte del mattino grazie, grazie mille abbiamo finito con la superbia ciao ragazzi, a domani grazie Igor, torni giovedì volentieri",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "la fonte del mattino",
+    "tema": [
+      "autorevolezza"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   }
 ]

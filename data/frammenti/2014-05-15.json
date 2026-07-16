@@ -231,9 +231,13 @@
     "end": 996.8,
     "speaker_raw": "SPEAKER_08",
     "testo": "Ok, allora facciamo così. Parliamo a metafore, ok? C'è una bella serata, si è tutti insieme e a casa ci siete tu. Come si chiamava lui, scusami? Federico. Clementina me lo ricordo. Clementina e Federico sono a casa una sera, ok? E dice, Clementina ti va se ci facciamo due spaghetti così? E Clementina dice, certo, certo. Vai lì, metti sulla padella l'acqua. l'acqua bolle Clementina l'acqua bolle la pasta il macchero lo spaghetto l'abbiamo buttato l'abbiamo buttato sì se no non si mangia la pasta ok il pacchetto dello spaghetto l'abbiamo aperto solo da un lato o tutti? no ma questo è troppo questo è troppo anche per me senti ma se no scusami se non butti la pasta non mangi eh bravo dopo spegni resta tutto il calcare sulla padella è un casino senti Clementina quindi insomma dai c'è una storia vi vede oh Maurizio noi abbiamo fatto in amore avete passato dei bei momenti? sì Maurizio noi abbiamo creato dei bei momenti nella vita di altre persone carezze, baci, appuntamenti l'emozione del primo messaggio oh mi ha scritto alle due di notte oh che bello stasera ti vedo questo weekend mi manchi beh potapè potapè che sete stai a letto vado io a prendere l'acqua ah no così non mi stai facendo male i capelli quanta roba quanta roba che abbiamo fatto il mattino va bene quindi tutto a posto tutto a posto il mio sogno è che tu mi dica che sei in ritardo no va bene senti allora sono contento che è nato un amore allora prima di chiudere il volo della stagione del volo del mattino che devo dire mi è piaciuta assai quest'anno ti richiamo e chiamiamo anche lui e sentiamo un po' insomma va bene ok d'accordo grazie Clementina grazie a te ciao ciao ti rendi conto Maurizio cosa hai messo in piedi io no no",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La serata con Clementina e Federico",
+    "tema": [
+      "amici",
+      "casa",
+      "spaghetti"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -286,9 +290,12 @@
     "end": 1237.56,
     "speaker_raw": "SPEAKER_09",
     "testo": "Tanti auguri, eh? sono benissimo come vuoi che sia io sono da Dio da una vita e anche oggi ancora di più 50 anni passati che una meraviglia ma oggi fai 50?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Auguri a Giorgio Mastrotta",
+    "tema": [
+      "amici",
+      "compleanno"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -297,9 +304,13 @@
     "end": 1253.28,
     "speaker_raw": "SPEAKER_08",
     "testo": "oggi 50 che meraviglia senti una cosa una curiosità a uno come a te io sono di quelli che tu mi dici fammi un regalo tu sei di quelli che mandi tutto Tu hai tutto, hai tutto.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La ricchezza non è solo denaro",
+    "tema": [
+      "denaro",
+      "amici",
+      "amicizia"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -380,9 +391,12 @@
     "end": 1320.87,
     "speaker_raw": "SPEAKER_09",
     "testo": "Ci sono delle docce favolose, ci sono dei ferramenti che ti conviene cambiare perché anche tu avrai le finestre vecchie. C'è il 65% di sconto di sgravi fiscali in questo periodo. Devi approfittarne Fabio. Tutti quanti dovete chiamare.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Sgravi fiscali e ferramenti",
+    "tema": [
+      "fiscali",
+      "ferramenti"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -419,9 +433,12 @@
     "end": 1372.54,
     "speaker_raw": "SPEAKER_08",
     "testo": "fortuna dovevate fare il programma di spessore uno ha scritto comunque oggi è il compleanno anche di Tana di chi?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il compleanno di Tana",
+    "tema": [
+      "compleanno",
+      "Tana"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -480,9 +497,12 @@
     "end": 1636.62,
     "speaker_raw": "SPEAKER_08",
     "testo": "non è bello è brutto da dire a un bambino io sono cresciuto poi va bene, allora siamo arrivati a un momento a cui tengo tantissimo Maurizio che l'altro giorno mi hai detto non conosco Luigi Ghirri c'è questa mostra a Reggio Emilia ti ho detto, forse ce n'è una anche a Roma non so se c'è ancora a Maxi di Roma abbiamo qui con noi la Betty che è una esperta conoscitrice Quindi ci siamo sentiti in questi giorni e ho detto vieni a spiegare a Maurizio, ma anche agli ascoltatori che non lo conoscono, una persona che io non ho conosciuto personalmente, è stato il professore di un mio carissimo amico però, quindi so anche di aneddoti diciamo di vita vera.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La mostra di Luigi Ghirri",
+    "tema": [
+      "mostra",
+      "Luigi Ghirri"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -637,9 +657,12 @@
     "end": 2332.35,
     "speaker_raw": "SPEAKER_08",
     "testo": "a volte in una notte c'è più verità che in tutta la vita sai che loro vanno anche a ciular con le maschere a fare le orge non ha capito neanche lei l'importante è che ora siamo specchi ecco Hai capito? Ma non mi rompete i coglioni? Cioè loro si sono svegliati da una quotidianità e si sono visti senza maschera proprio nelle scene in cui ci sono le maschere. Beh, ma qui sbagliamo di altri. Ma non conosci, non capisci l'asino con la sedia di plastica? Ancora?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Svegliarsi senza maschera",
+    "tema": [
+      "verità",
+      "autenticità"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -720,9 +743,12 @@
     "end": 2591.44,
     "speaker_raw": "SPEAKER_13",
     "testo": "ma io ti voglio molto bene e sai c'è una cosa molto importante che noi dobbiamo fare prima possibile un bel viaggio? sarà un bel viaggio?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Importanza del viaggio",
+    "tema": [
+      "viaggio",
+      "relazioni"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -731,9 +757,12 @@
     "end": 2617.6,
     "speaker_raw": "SPEAKER_08",
     "testo": "scopare questo dovete dire oggi quando tornate a casa e vedete vostra moglie o vostro marito noi una cosa dobbiamo fare il prima possibile a casa un bel viaggio Domani è venerdì, c'è il momento elettronico.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Scopare a casa",
+    "tema": [
+      "relazioni",
+      "intimità"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

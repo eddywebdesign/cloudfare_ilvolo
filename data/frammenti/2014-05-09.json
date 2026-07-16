@@ -215,9 +215,12 @@
     "end": 467.21,
     "speaker_raw": "SPEAKER_14",
     "testo": "ieri l'altro ieri mi ha fastidio la gente perché poi tu cosa fai cari ascoltatori cosa fa Nicola Savino entra e accende tutte le luci invece al maestro come tutti i maestri ama un po' anche l'oscurità perché gli accendi tutte le luci perché le tenebre ma chiunque sta ascoltando è meglio le tenebre o la luce sarà meglio la luce hai ragione",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "la luce o le tenebre",
+    "tema": [
+      "luce",
+      "tenebre"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -306,9 +309,13 @@
     "end": 607.74,
     "speaker_raw": "SPEAKER_10",
     "testo": "lei voleva tanto tu no? io pensai ma si e ti penti di averlo fatto? ogni giorno poteva andare peggio ma sarai stato innamorato? all'inizio almeno non ci ho mai pensato Avete mai parlato di avere dei figli? Quanti ne volevate? Ne avete parlato? No. E perché ci avete fatti? Perché a me piace scopare. E tua madre è cattolica. Fai un po' tu la somma. Quindi tu e mamma non vi siete mai detti se volevate figli o no? Io sapevo che se continuavamo a scopare alla fine un paio li facevamo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "la decisione di avere un figlio",
+    "tema": [
+      "figli",
+      "amore",
+      "decisione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -643,9 +650,13 @@
     "end": 1870.2,
     "speaker_raw": "SPEAKER_00",
     "testo": "In te sono passato da cellula a scheletro, un milione di volte mi sono ingrandito. Fuori di te l'accrescimento è stato immensamente meno. Sono sgusciato dalla tua pienezza senza lasciarti vuota perché il vuoto l'ho portato con me. sono venuto nudo mi hai coperto così ho imparato nudità e pudore il latte e la sua assenza mi hai messo in bocca tutte le parole a cucchiaini tranne una mamma quella l'inventa il figlio sbattendo le due labbra quella la insegna il figlio da te ho preso le voci del mio luogo le canzoni le ingiuri e gli scongiuri da te ho ascoltato il primo libro dietro la febbre della scarlattina Ti ho dato aiuto a vomitare, a friggere le pizze, a scrivere una lettera, ad accendere un fuoco, a finire le parole crociate. Ti ho versato il vino e ho macchiato la tavola. Non ti ho messo un nipote sulle gambe, non ti ho fatto bussare a una prigione, non ancora. Da te ho imparato il lutto, è l'ora di finirlo. A tuo padre somiglio, a tuo fratello non sono stato figlio. Da te ho preso gli occhi chiari, non il loro peso. «A te ho nascosto tutto. Ho promesso di bruciare il tuo corpo, di non darlo alla terra. Ti darò al fuoco, fratello del vulcano che ci orientava il sonno. Ti spargerò nell'aria dopo l'acquazzone, all'ora dell'arcobaleno che ti faceva spalancare gli occhi».",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Nascita e crescita",
+    "tema": [
+      "amore",
+      "nascita",
+      "crescita"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -739,9 +750,12 @@
     "end": 2359.26,
     "speaker_raw": "SCONOSCIUTO",
     "testo": "Senti come suona questo programma. Mi sono in lontano.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Sensazione del programma",
+    "tema": [
+      "programma",
+      "radio"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

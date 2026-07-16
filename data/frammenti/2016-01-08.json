@@ -18,9 +18,12 @@
     "end": 132.61,
     "speaker_raw": "SPEAKER_04",
     "testo": "You make me feel Like I'm alive again Alive again You make me feel Like I'm alive again Instead of taking one Grazie. ciao ciao ciao",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "You make me feel Like I'm alive",
+    "tema": [
+      "musica",
+      "sentimento"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -259,9 +262,12 @@
     "end": 982.52,
     "speaker_raw": "SPEAKER_13",
     "testo": "l'azienda toscana che si occupa della fabbricazione di quel giocattolo ha avuto un'impennata di vete mi dovevo comprare le azioni o chiedere io vi faccio sta copertina però mi dovete dare un 5% è vero come con Spank io penso sempre a Spank noi abbiamo fatto Spank e c'erano quelli che facevano i pupazzi vedi che noi siamo generosi noi facciamo diventare ricchi gli altri comunque vedi potevo diventare milionario con Spank va bene",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'azienda toscana e il giocattolo",
+    "tema": [
+      "azienda",
+      "giocattolo"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -270,9 +276,12 @@
     "end": 991.14,
     "speaker_raw": "SPEAKER_14",
     "testo": "Comunque vedi, per gli adulti giocattoloni tecnologici e pericolosi come il hoverboard, per bambini invece il triciclo di legno super lo fai.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il triciclo di legno super",
+    "tema": [
+      "bambini",
+      "giocattolo"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -1027,9 +1036,12 @@
     "end": 2089.5,
     "speaker_raw": "SPEAKER_12",
     "testo": "Michele! Sì, è una grandissima sorpresa, un grandissimo regalo e mi unisco anche a Max per i complimenti ai tuoi libri perché gli ho...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "libri di Michele",
+    "tema": [
+      "libri",
+      "scrittura"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {

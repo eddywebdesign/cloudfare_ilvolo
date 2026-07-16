@@ -91,9 +91,12 @@
     "end": 507.37,
     "speaker_raw": "SPEAKER_11",
     "testo": "Ma che cosa esattamente? La droga. Beh, lui ha fatto dei racconti specifici, ha fatto anche un nome di una sostanza.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La droga",
+    "tema": [
+      "droga",
+      "sostanze"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -162,9 +165,12 @@
     "end": 643.24,
     "speaker_raw": "SPEAKER_08",
     "testo": "Come si chiama questo strumento? Vai Viola.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Vai Viola",
+    "tema": [
+      "viola",
+      "strumento"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -173,9 +179,12 @@
     "end": 649.54,
     "speaker_raw": "SPEAKER_11",
     "testo": "La Citra. La Citra. La Citra. La Citar. Il Citar.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La Citra",
+    "tema": [
+      "citra",
+      "strumento"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -198,9 +207,12 @@
     "end": 802.52,
     "speaker_raw": "SPEAKER_12",
     "testo": "ma sono credo in quell'età in cui non ci facciamo più regali ma che età hai scusami eh ne faccio quasi 40 fra poco ma non lo sapevo ma scusami è una storia te l'hanno raccontata a te perché non c'è voglia di farti quando eri bambina ricordati dopo i 27",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Regali di compleanno",
+    "tema": [
+      "regali",
+      "compleanno"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -209,9 +221,12 @@
     "end": 831.21,
     "speaker_raw": "SPEAKER_08",
     "testo": "hai ancora pochi anni per godere del regalo no ma non era un regalo sì sarebbe stato un regalo ma dei pacchettini non hai ricevuto dei pacchettini dal tuo collega di lavoro con dentro un no perché non lavoro quindi quelli di sicuro non mi facevano nessun regalo stai per diventare la telefonata più triste della radiofonia mondiale di inizio anno tra l'altro allora scrivo Erika con la C o con la K",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Regali di lavoro",
+    "tema": [
+      "regali",
+      "lavoro"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -256,9 +271,12 @@
     "end": 906.09,
     "speaker_raw": "SPEAKER_08",
     "testo": "non lavora non riceve e non fa regali è già incazzata nera detesta parenti ma parenti di tuo marito o anche i tuoi? non sono sposata entrambi però ognuno è suo stavo pensando adesso dirà non sono sposata in realtà sei sposata è più difficile la vita da sposare scusami cosa hai sotto? un grillo? cos'è questo suono Erika? no non è roba mia non lo so cos'è ma scusi magari ti ha regalato un vibratore non te ne sei accorta non l'hai ancora scartato non l'hai ancora scartato c'è lì una scatola che sembra una candela aprilo ma cos'è questo suono?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Vibratore regalo",
+    "tema": [
+      "vibratore",
+      "regalo"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -278,9 +296,12 @@
     "end": 938.11,
     "speaker_raw": "SPEAKER_08",
     "testo": "è finito scusami allora dimmi un pacchettino che hai scartato Erika eh no in realtà non ho scartato niente sai che non so se sei la telefonata triste o se ci stai facendo sentire belli e fortunati cioè è quel riflesso che dicono mamma mia ascoltami no ma io non sono triste perché non ho ricevuto niente tu sei incazzata qualcuno si mi ha fatto uno sgarbo magari",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Riflessione sulla felicità",
+    "tema": [
+      "felicità",
+      "riflessione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

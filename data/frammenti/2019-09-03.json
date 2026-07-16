@@ -195,9 +195,11 @@
     "end": 596.81,
     "speaker_raw": "SPEAKER_11",
     "testo": "Ma no, ma c'è anche una registrazione, tra l'altro, dove si sente la sua voce in una canzone di Bob Marley. Vabbè, vabbè. Comunque, smettiamo questo primo disco. Senti qua. Andrà tutto bene ragazzi, andrà tutto bene.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "voce in canzone di Bob Marley",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -468,9 +470,12 @@
     "end": 1146.5,
     "speaker_raw": "SPEAKER_14",
     "testo": "potremmo fare una rubrica su questo le canzoni che sembravano altre canzoni",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "le canzoni che sembrano altre canzoni",
+    "tema": [
+      "musica",
+      "canzoni"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -490,9 +495,12 @@
     "end": 1416.79,
     "speaker_raw": "SPEAKER_11",
     "testo": "Siccome ne arriviamo un po' dappertutto, scrive anche un ascoltatore, ciao, io sono proprio qui a Sarnico, sul lago di Oseo, dove è nato il sogno del cugino di mia madre. Però abbiamo fatto questo intro che è veramente invece interessante, di quando tu nella vita desideri o vuoi o sogni qualcosa, ma il contesto intorno a te non è in grado di ricevere questo cambiamento e quindi si fa fatica, insomma, è un po' complessa. abbiamo una bellissima cosa da mettere dopo la pubblicità che non vedo l'ora che accada presto allora mia moglie fa la cosa come hai fatto tu dei respiri così ma grida in un barattolo scrive un ascoltatore ok sarebbe interessante e poi lo chiude invece io ve l'ho buttato addosso a voi vi vedo un po' nervosetti rispetto a prima io mi sento un po' spostata nei prossimi giorni introdurremo un tema molto interessante che sono gli hertz le frequenze cioè sedersi davanti a una cassa di uno stereo e ricevere delle frequenze le varie frequenze muovono delle cose diverse è abbastanza interessante parte tutto da Tesla non quello della macchina quello da cui lui ha preso il nome non quello della macchina ma quello prima dimmi Maurizio no ma non così così arrivano i cani sai che una volta stavo montando una prima mensola con i libri così ma questa è inventata prima è caduta la mensola io non so quanti libri c'erano sopra mi è andata sul ginocchio non è che sul piede sul ginocchio mi ha smussato la rotola ho fatto un urlo che al certo punto sono arrivati tipo 20-30 cani nel quartiere ai ai lì mi hanno detto come mio cugino mio cugino mio cugino come mio cugino di Bergamo Da sentire. Cazzarola. Guarda, peccato che non c'è più, sennò te lo direbbe lui. Come non c'è più? È il cugino di mia mamma, vecchio. Vi sto ascoltando in bicicletta qui ad Amsterdam, mentre torno al lavoro dopo le vacanze. Andrà tutto bene, Samantha.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "il contesto impedisce il cambiamento",
+    "tema": [
+      "cambiamento",
+      "contesto"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -523,9 +531,11 @@
     "end": 1435.16,
     "speaker_raw": "SPEAKER_09",
     "testo": "Sì, andrò a portare il mio osso sulla strada di Old Town Road. Andrò a correre fino a non riuscire più. Andrò a portare il mio osso sulla strada di Old Town Road. Andrò a... Musica",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Old Town Road",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -971,9 +981,12 @@
     "end": 2648.31,
     "speaker_raw": "SPEAKER_01",
     "testo": "Beh, mi interesso di molte cose. Cinema, teatro, fotografia, musica, leggo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "cinema, teatro, fotografia, musica, leggo",
+    "tema": [
+      "libri",
+      "interesse"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -1037,9 +1050,12 @@
     "end": 2671.04,
     "speaker_raw": "SPEAKER_01",
     "testo": "Ma te l'ho detto, giro, vedo gente, mi muovo, conosco, faccio delle cose, vivo con mio fratello e non lo pago.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "vive con fratello senza pagarlo",
+    "tema": [
+      "famiglia",
+      "economia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1059,9 +1075,12 @@
     "end": 2689.49,
     "speaker_raw": "SPEAKER_01",
     "testo": "Un amico per esempio che va a Londra gli dico di portarmi delle cose, di mangiare, mi ospitano molto spesso. Ho incontrato un amico stamattina con due racchetti di questo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "ospitato da amici a Londra",
+    "tema": [
+      "amici",
+      "viaggi"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

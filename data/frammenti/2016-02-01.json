@@ -179,9 +179,11 @@
     "end": 383.04,
     "speaker_raw": "SPEAKER_11",
     "testo": "No, Vittorio. No, ormai non ti crediamo più. Ma mi spieghi perché la sigla inizia...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La sigla inizia",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -466,9 +468,12 @@
     "end": 781.08,
     "speaker_raw": "SPEAKER_11",
     "testo": "Sì, ma non dormirà. Quanto daresti, Viola, adesso o tu, Jacopo, per tornare nel letto a cadere? Oggi rinuncio a 30 euro e vado.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Rinunciare a 30 euro",
+    "tema": [
+      "sonno",
+      "denaro"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -488,9 +493,12 @@
     "end": 785.82,
     "speaker_raw": "SPEAKER_10",
     "testo": "No, io ormai sono sveglia. Quindi niente.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Non dormirà",
+    "tema": [
+      "sonno",
+      "denaro"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -945,9 +953,13 @@
     "end": 1171.38,
     "speaker_raw": "SPEAKER_11",
     "testo": "sono andato un sacco di cose insieme dopo un anno e mezzo di nulla bene bene bravo Jacopo grazie chissà come si chiama veramente comunque va bene te lo dico io il suo nome e cognome no no no ciao grazie ragazzi ciao ciao ciao ciao",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'analista e il suo cliente",
+    "tema": [
+      "relazione",
+      "analista",
+      "cliente"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1059,9 +1071,13 @@
     "end": 1954.4,
     "speaker_raw": "SPEAKER_11",
     "testo": "con i peli, quelli si, non si depilano quelli di 80 anni magari i cascano ogni volta che si mette la calza va via un po' di peli trovi anche i cinquantenni, i sessantenni con gran peli hai visto gli anziani che hanno magari un po' di peli fino alle ginocchia poi dalle ginocchia sono depilati per le calze va bene Viola, voi prima di introdurre il prossimo argomento scusami, spiegare agli ascoltatori la differenza fra fare sesso e fare l'amore aiuto, lascio le cuffie e corro via Maurizio usa una citazione una poesia Woody Allen diceva fare l'amore no il sesso penetri diciamo per qualche centimetro secondo me lo diceva esattamente l'amore diciamo il sesso diciamo vai solo dentro per qualche centimetro invece l'amore ci vai dentro fino nel profondo è una questione di quanto deep vai quanto profondo vai un ascoltatore scrive ma la canzone sigaretta stamattina non la mettete e noi a parte che te l'ho portata caro ascoltatore mi trovi preparato bella mai passata sulla dirigente la mettiamo dopo ma a proposito di sigarette volevo dire a tutti gli ascoltatori che attenzione perché oggi è l'ultimo giorno che si possono fare delle cose da domani entra in vigore una legge nuova ebbene sì allora intanto i pacchetti Come in Brasile, quelli che hanno viaggiato li hanno già visti in Brasile, Canada, in tanti paesi del mondo, verranno alcuni pacchetti, diciamo, usciranno con la fotografia abbastanza scioccanti, quindi c'è gente intubata, gente aperta col petto fuori.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La depilazione e le calze",
+    "tema": [
+      "depilazione",
+      "calze",
+      "anziani"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -1070,9 +1086,13 @@
     "end": 1977.75,
     "speaker_raw": "SPEAKER_10",
     "testo": "Soprattutto queste immaginette, quindi dovranno prendere il 65% del pacchetto. pacchetto quindi voi comprate adesso le sigarette dove c'è scritto la marca li vedrete uno intubato in un ospedale con i dottori a fianco se va bene perché ci sono cose molto belle tolgono i pacchetti da 10 esatto perché comunque invogliano e soprattutto minimizzano il danno sembra come il cucchiaio della Nutella o della cosa che dici ne do un cucchiaio poi la metto via poi vedi un altro mezzo cucchiaio esatto",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il pacchetto delle sigarette",
+    "tema": [
+      "sigarette",
+      "pacchetto",
+      "danno"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -1109,9 +1129,13 @@
     "end": 2015.11,
     "speaker_raw": "SPEAKER_11",
     "testo": "Neanche fuori ragazzi, quindi i medici o i pazienti dove vanno a fumare? Smetteranno di fumare. Il paziente che è lì va sempre sul balconcino con la flebo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Fumare in ospedale",
+    "tema": [
+      "fumare",
+      "ospedale",
+      "salute"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -1131,9 +1155,13 @@
     "end": 2069.54,
     "speaker_raw": "SPEAKER_11",
     "testo": "la donna incinta voglio dire una cosa mi è capitato anche di vedere donne incinte fumare in quel caso lì io devo tenere la Johanna perché la Johanna che ha un'altra mentalità guarda che in Italia non andiamo mai a farci i fatti degli altri lei va e ci litiga quando vede una donna incinta che fuma la sigaretta no fa bene comunque sta diventando sempre meno di moda fumare come negli Stati Uniti negli Stati Uniti non sei visto come cool No, negli Stati Uniti ti vedono come uno sfigato, diciamo. Non si può fumare al parco, non si può fumare in spiaggia.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La donna incinta e la sigaretta",
+    "tema": [
+      "donna incinta",
+      "sigaretta",
+      "salute"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {

@@ -337,9 +337,12 @@
     "end": 1187.75,
     "speaker_raw": "SPEAKER_10",
     "testo": "Allora, in pratica io ho sognato Beppe Grillo stanotte.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Sogno di Beppe Grillo",
+    "tema": [
+      "politica",
+      "sogno"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -370,9 +373,12 @@
     "end": 1200.2,
     "speaker_raw": "SPEAKER_11",
     "testo": "Beh, ma lui ci sta anche se lo inviti, secondo me, perché lui va proprio nelle piazze e cose, è uno da...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Beppe Grillo e le piazze",
+    "tema": [
+      "politica",
+      "piazze"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -381,9 +387,12 @@
     "end": 1207.81,
     "speaker_raw": "SPEAKER_10",
     "testo": "E niente, ero a raccogliere le trombette e c'erano dei voli che mi parlavano, però non ho...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Raccogliere le trombette",
+    "tema": [
+      "agricoltura",
+      "trombette"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -791,9 +800,11 @@
     "end": 2526.08,
     "speaker_raw": "SPEAKER_07",
     "testo": "Veste su tutto, diciamo. Sì, uno stronzo. di seppellirti è una bella frase da dire",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Veste su tutto",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -826,9 +837,12 @@
     "end": 2693.18,
     "speaker_raw": "SPEAKER_11",
     "testo": "Niente, comunque, una mucca di queste mette dentro la testa, sotto il cofano, e mi prendo uno spavento. E dico, che spavento, cazzo. E la mucca mi ha guardato. E lì ho capito. Mi sono illuminato. La mucca ha detto... è il carburatore o la mucca ha detto è il carburatore hai capito la morale? no cioè che se viene fuori il fumo e tu dici è il carburatore vuol dire che le mucche di motori non capiscono Perché uno che ne sa non l'avrebbe mai detto un carburatore. Vabbè, comunque domani porto... No, la settimana prossima. Porto storie mie vere e tu, come al cinema... Ma queste non erano vere? Me le hai sonorite. Certo, sono tutte vere. Lo mi hai raccontato quella volta che io e Stevie Wonder ci siamo... Aspetta, aspetta, l'ho messa giù male. No, no. Tu mai...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La mucca e il carburatore",
+    "tema": [
+      "paura",
+      "incidenti"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -837,9 +851,12 @@
     "end": 2701.46,
     "speaker_raw": "SPEAKER_03",
     "testo": "Sorridi, prendi il volo Se un giorno sei solo Non ti scordare di me",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Sorridi, prendi il volo",
+    "tema": [
+      "amore",
+      "partenza"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   }
 ]

@@ -497,9 +497,12 @@
     "end": 1701.74,
     "speaker_raw": "SPEAKER_11",
     "testo": "hotel io vengo a vedere come il sogno di ognuno di noi che vorrebbe essere al prossimo come il sogno di ognuno di noi che vorrebbe essere al proprio funerale io vengo a vedere il mio cadavere ok",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il sogno di essere al proprio funerale",
+    "tema": [
+      "morte",
+      "sogno"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -519,9 +522,12 @@
     "end": 1720.85,
     "speaker_raw": "SPEAKER_14",
     "testo": "Fabio, Viola, Maurizio, bentornati, siete mancati un sacco. L'obiettino per il 2026 è avere molto più spesso quello degli insetti e durante questo periodo di vacanza non sono riuscito a staccare dal pensiero delle ghiandole anali del castoro.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'obiettivo degli insetti",
+    "tema": [
+      "insetti",
+      "obiettivo"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -530,9 +536,12 @@
     "end": 1772.89,
     "speaker_raw": "SPEAKER_11",
     "testo": "ah il professore Accinelli ce lo dobbiamo portare anche nel 2026 ce ne sono rimasti due in croce forse sto volando per iniziare progetti comprare casa, comprare un terreno wow mi siete mancati un abbraccio che voglio bene buon anno comunque comprare un terreno è affascinante cosa fai? sto comprando un terreno un pezzo di terra è più bello che comprarsi una casa sto comprando un pezzo di terra capito? o è soltanto o defecabile però comunque è un pezzo di terra se tu hai l'illusione che quella lì è tua poi tu morirai la tela rimane lì però se ci pensi è un pezzo di terra è tuo scusami ma il progetto rudere come va?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il professore Accinelli",
+    "tema": [
+      "professore",
+      "amici"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -577,9 +586,12 @@
     "end": 1803.45,
     "speaker_raw": "SPEAKER_15",
     "testo": "Il mio obiettivo l'ho già raggiunto, mi sono comprato i biglietti per la Patagonia, ciao Dome da Cirinido.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La Patagonia",
+    "tema": [
+      "viaggio",
+      "Patagonia"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -599,9 +611,12 @@
     "end": 1810.26,
     "speaker_raw": "SPEAKER_10",
     "testo": "No, più che altro l'obiettivo non è comprare i biglietti ma è partire e tornare.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'obiettivo non è comprare i biglietti",
+    "tema": [
+      "obiettivo",
+      "viaggio"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -660,9 +675,12 @@
     "end": 2121.96,
     "speaker_raw": "SPEAKER_20",
     "testo": "Se mi fanno un bonifico la carico.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La puntata del 25 non caricata",
+    "tema": [
+      "puntata",
+      "problema"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

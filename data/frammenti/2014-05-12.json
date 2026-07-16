@@ -390,9 +390,12 @@
     "end": 1147.58,
     "speaker_raw": "SPEAKER_06",
     "testo": "C'è quella molto bella, abbiamo appena passato un weekend e c'è stata un'apertura di diversi spazi espositivi gratis.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "mostra di Pasolini",
+    "tema": [
+      "arte",
+      "cultura"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -401,9 +404,12 @@
     "end": 1257.99,
     "speaker_raw": "SPEAKER_07",
     "testo": "pensa che Maurizio settimana scorsa che l'ho portato a Roma un giorno si è messo lì davanti all'ingresso della mostra di Pasolini col suo computerino due casse piccole quando la gente usciva Maurizio gli diceva ma non vi rompete i coglioni ma ancora con Pasolini senti Stefano allora tu ti occupi di marketing adesso qui poniamo la tua domanda personale sulla tua vita agli ascoltatori i quali daranno una risposta si occupa di marketing gli hanno fatto una buona proposta per trasferirsi con tutta la famiglia ad Abu Dhabi Abu Dhabi ok cosa faccio? porto la famiglia ad Abu Dhabi mollo Roma che comunque poi è un disastro perché tu sei questa sfiga che sei nato e cresciuto in una delle città più belle del mondo cosa fa Maurizio? Va ad Abu Dhabi con la famiglia? Ma sì, vai ad Abu Dhabi con la famiglia Maurizio è uno che non esce neanche da Pavia e da Milano però gli altri dovrebbero sempre andare dappertutto ma poi non è vero che non esco da Pavia no esatto vai anche in Provence esatto senti Stefano entro quanto devi decidere? eh guarda praticamente entro due giorni ah mazza ma sentiti non voglio sapere le cifre ma diciamo da quello che guadagni adesso a Roma a quello che guadagneresti ad Abu Dhabi c'è molta differenza? sostanziale diciamo scusami faccio un esempio non voglio sbagliare quanto guadagni ma se tu dovessi guadagnare 2 a Roma in proporzione ad Abu Dhabi ti danno 4 c'è il doppio? no c'è ah cazzarola vedi che avevo ragione ma senti è stesso lavoro",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Maurizio a Roma con Pasolini",
+    "tema": [
+      "viaggio",
+      "arte"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -747,9 +753,12 @@
     "end": 2275.7,
     "speaker_raw": "SPEAKER_07",
     "testo": "è che siamo in ritardo e qui dobbiamo fargli smettere di parlare mi scoccia perché loro due si stanno dicendo delle cose io ripartirei domani per Abu Dhabi invece adesso sto aspettando il traslocatore cioè lei sta traslocando in questo momento per andare a Kuala Lumpur cazzo Rono io dico parla con tua moglie",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Trasloco a Kuala Lumpur",
+    "tema": [
+      "viaggi",
+      "trasloco"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -797,9 +806,12 @@
     "end": 2337.28,
     "speaker_raw": "SPEAKER_07",
     "testo": "Perché lui si leva e poi tu ti devi occupare della casa, delle cose, c'hai molto da fare, immagino sia un lavoro impegnativo. Va bene, quindi consiglieresti a Stefano... Senti, ma scusami Margherita, ma diamo il tuo telefono alla moglie di Stefano, che è anche tra donne, romane... Credo che forse è con lei che dovrei parlare.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Lavoro e responsabilità",
+    "tema": [
+      "lavoro",
+      "responsabilità"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -808,9 +820,12 @@
     "end": 2338.96,
     "speaker_raw": "SPEAKER_05",
     "testo": "Ecco, tu dovresti parlare con lei.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Parlare con la moglie",
+    "tema": [
+      "comunicazione",
+      "relazioni"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

@@ -541,9 +541,12 @@
     "end": 1243.01,
     "speaker_raw": "SPEAKER_03",
     "testo": "è la mia sfiga io invece nel disordine le cose le trovo è nell'ordine che non le trovo la scusa più vecchia del mondo ti dico cosa fa la Johanna che lascia le cose lì per vedere quanti giorni restano lì",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La sfiga di Johanna",
+    "tema": [
+      "disordine",
+      "organizzazione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -605,9 +608,12 @@
     "end": 1792.58,
     "speaker_raw": "SPEAKER_06",
     "testo": "Ma no, perché c'ha la voce ancora impastata e si vergogna.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La voce impastata",
+    "tema": [
+      "voce",
+      "vergogna"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -796,9 +802,12 @@
     "end": 2855.83,
     "speaker_raw": "SPEAKER_06",
     "testo": "Io volevo sapere la tua presa di posizione, me l'hai promesso prima.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La presa di posizione",
+    "tema": [
+      "impegno",
+      "responsabilità"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

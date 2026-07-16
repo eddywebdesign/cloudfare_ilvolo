@@ -161,9 +161,12 @@
     "end": 723.81,
     "speaker_raw": "SPEAKER_07",
     "testo": "Sì, è stato proprio un momento unico. Comunque ho Brad Pitt.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Brad Pitt in studio",
+    "tema": [
+      "celebrità",
+      "ospiti"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -308,9 +311,12 @@
     "end": 1245.36,
     "speaker_raw": "SPEAKER_06",
     "testo": "A Brescia nevica, arriva un messaggio. Prima Viola è arrivata e ha detto, secondo me oggi a Milano finisce che nevica. Sì, sì, l'odore è quello. C'è l'odore di neve. Maurizio, sei stato troppo...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Viola e la neve a Milano",
+    "tema": [
+      "neve",
+      "previsioni"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -628,9 +634,12 @@
     "end": 1884.26,
     "speaker_raw": "SPEAKER_22",
     "testo": "E come la ruota della fortuna, anche il momento elettronico di Maurizio underscore Rossato gira. Stai ascoltando il momento elettronico con Maurizio Rossato. ciao sono Linus e questo è il momento elettronico di Maurizio Rossato parleremo del metodo Linus per assumere",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il metodo Linus",
+    "tema": [
+      "lavoro",
+      "carriera"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -718,9 +727,12 @@
     "end": 2249.28,
     "speaker_raw": "SPEAKER_06",
     "testo": "No, però devo dire che quando mi ero messo a cercare la casa, devo dire che le più belle come vista sono alla Spezia, cioè quella zona di Cinque Terre così. Là ci sono dei ruderini buttati da così solo che da qua è un po' troppo lontano, poi devi fare tre ore di macchina, poi c'è tutto il traffico fino a Parma, c'è gli incidenti sicuramente, è un disastro.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La ricerca della casa",
+    "tema": [
+      "casa",
+      "viaggio"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -740,9 +752,12 @@
     "end": 2262.27,
     "speaker_raw": "SPEAKER_06",
     "testo": "Io dico ragazzi, voi che abitate invece in zona andate a vedere, non costa neanche tanto, sono bellissime, magari c'hanno anche solo due stanzette, però sono proprio in pietra con tutta questa vista davanti, ma che spettacolo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La bellezza della natura",
+    "tema": [
+      "natura",
+      "bellezza"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

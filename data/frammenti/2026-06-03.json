@@ -221,9 +221,13 @@
     "end": 950.25,
     "speaker_raw": "SPEAKER_08",
     "testo": "certo col burro? gli spinaci ma stai scherzando o i fagiolini ah poi comunque tutto ciò che è condito burro, saglia, burro e parmigiano è tutto molto più buono io col burro lo uso solo per le uova quando faccio le uova me le faccio col burro poi il resto io uso sempre l'olio d'oliva però una volta in Puglia lo dico agli ascoltatori una volta in Puglia ho mangiato a Ceglie dei fagiolini saltati in padella probabilmente col burro ma dentro c'era anche la pancetta e sopra il parmigiano grattugiato",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Fagiolini saltati in Puglia",
+    "tema": [
+      "cibo",
+      "puglia",
+      "ricetta"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -542,9 +546,12 @@
     "end": 1739.32,
     "speaker_raw": "SPEAKER_07",
     "testo": "Puoi mettere una citazione di Fabio Volo. Oppure io in cucina, in cucina finalmente.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "citazione di Fabio Volo",
+    "tema": [
+      "libri",
+      "autore"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -553,9 +560,12 @@
     "end": 1743.44,
     "speaker_raw": "SPEAKER_08",
     "testo": "In cucina che preparo la frolla a mano.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "preparazione della frolla",
+    "tema": [
+      "cucina",
+      "frolla"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

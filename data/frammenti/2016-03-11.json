@@ -60,9 +60,12 @@
     "end": 245.44,
     "speaker_raw": "SPEAKER_00",
     "testo": "Se dovete dire la frase a qualcuno, no? Save me, can you save me? Cioè, puoi salvarmi. A chi vi viene in mente? Chiudete gli occhi e dite save me. A un genitore, al compagno, al proprio lavoro, alla propria passione. Io per esempio ho pensato a me stesso, ovviamente. cioè io se devo dire a qualcuno salvi dico sei in grado di can you save me puoi salvarmi puoi salvarmi io è una frase che mi sono ripetuto spesso prima di questa meravigliosa canzone di John Etiele adesso invece penso a voi del volo del mattino soprattutto Maurizio, Viola, la Stefi, la Stelina ragazzi ogni mattina potete salvarmi salvatemi da me stesso invece che chiedere a me stesso di salvarmi da voi come state?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Save me, can you save me?",
+    "tema": [
+      "aiuto",
+      "salvare"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -104,9 +107,12 @@
     "end": 286.68,
     "speaker_raw": "SPEAKER_00",
     "testo": "Fa ridere che noi abbiamo nel computer, senti qua come parlo, nel computer della radio abbiamo una testimonianza di un ascoltatore con la voce cambiata che dice appunto la roba cervicale, l'anticini così, no? Non l'abbiamo mai messa perché ci vuole il... cosa facciamo ragazzi salviamo la no stiamo lontani da quei re le robe varie chi se ne frega dai dai dai dai va bene va bene scusa dobbiamo mettere la sigla perché sono troppe le cose da fare da sentire oggi vai",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ascoltatore con la voce cambiata",
+    "tema": [
+      "voce",
+      "cervicale"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -115,9 +121,12 @@
     "end": 336.94,
     "speaker_raw": "SPEAKER_07",
     "testo": "Buongiorno, vita! Buongiorno, bambino! Come ti senti? Buongiorno, bambino! Buongiorno vita Buongiorno mondo Come stai? Buongiorno vita Grazie.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Buongiorno, vita!",
+    "tema": [
+      "saluto",
+      "buongiorno"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -126,9 +135,12 @@
     "end": 443.28,
     "speaker_raw": "SPEAKER_00",
     "testo": "ciao ragazzi domani tutto il giorno devo tirare in piedi si sente che è di Brescia o di Bergamo devo tirare in piedi un muretto per la gabbia dei cani non ho mai preso una cazzuola in mano sapete qualcosa? allora intanto se sei di Brescia dice Enrico da Brescia è impossibile che non hai mai preso in mano una cazzuola se sei di Brescia cioè può darsi che non hai mai preso in mano un'enciclopedia ma una cazzuola è quasi impossibile vedrai che la fai dritta mi raccomando esatto falla dritta cioè tira su due paletti tira un filo in mezzo con due paletti ma che stai? sei capace? beh insomma sì il basic se mi dici fai una casa no però tu fai un muretto per i cani insomma sì tira due fili tira il filo in mezzo hai due paletti il filo in mezzo la stessa altezza e vai su con i mattoni stai segui sempre la linea del bravo hai una certa manualità bravo bravo ma avete già preso in giro solo le 10 no no no ero sincerissima rimaniamo in zona Brescia ragazzi scusate se sembra quasi una cosa come dire personale no però dobbiamo chiudere questo cerchio della settimana e mandare via ogni dubbio ok ecco qua che suona il nostro ma che bello il suono datemi la 1 da Washington la 2 Boston la 3 Dario da Brescia ok ci abbiamo Dario da Brescia? pronto Dario da Brescia? si sono sempre io ok aspetta un secondo fai aspettare Jack sulla Washington ok George da Boston fermati squilla un altro telefono quello lì chi è? David da Chicago ok chi abbiamo sulla 2? niente Dario da Brescia scusami come è andata a finire con la barista?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Muretto per la gabbia dei cani",
+    "tema": [
+      "muretto",
+      "cani"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -137,9 +149,12 @@
     "end": 493.38,
     "speaker_raw": "SPEAKER_11",
     "testo": "eh sono andato io ma non lo so la vedo molto ma aspetta gliel'hai detto che sono io quello che ha chiamato la radio che ti ha messo giù i fiori piccoli certo sì sì no gli ho detto tutto ma lei ti conosceva ti conosceva sì certo che mi conosceva ok e cosa ti ha detto e mi ha detto che gli ha fatto piacere per il gesto e poi mi ha detto ancora e poi mi dispiace mi ha fatto un po' la figura di mera dicendo il prezzo e mi ha detto 30 euro e mi ha detto l'importante è il gesto e lì ho capito che io preferivo quelli grandi guarda i soldi non so niente ma quello da 50 l'ho apprezzato di più senti ma qui sei già andato al bar stamattina? sono già andato al bar ho bevuto anche il caffè corretto come corretto? E certo, corretto per forza.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Fiori piccoli per la radio",
+    "tema": [
+      "fiori",
+      "radio"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -159,9 +174,12 @@
     "end": 496.72,
     "speaker_raw": "SPEAKER_11",
     "testo": "Con la grappa. Ma cazzo alle nove?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Con la grappa",
+    "tema": [
+      "grappa",
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -192,9 +210,12 @@
     "end": 506.41,
     "speaker_raw": "SPEAKER_00",
     "testo": "Ah, perché tu fai le consegne del pane?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Faccio sia il pane alla notte che anche le consegne",
+    "tema": [
+      "pane",
+      "consegne"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -346,9 +367,11 @@
     "end": 827.03,
     "speaker_raw": "SPEAKER_03",
     "testo": "An escape A life of every face And that's a change Till I'm finally left with an eight Tell me to relax I just stare Maybe I don't know if I should change A feeling that we share It's a shame It's a shame It's the shine!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "An escape",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -357,9 +380,12 @@
     "end": 935.32,
     "speaker_raw": "SPEAKER_00",
     "testo": "No, siccome qualcuno ha mandato delle mail e dei messaggi dicendo, ma il ragazzo non può dire che guida e beve la grappa. Allora, aspettate un attimo, ha corretto il caffè, cioè vuol dire quattro drop, quattro gocce. Poi vabbè, adesso mai sono cinque. Non è che si è fatto il grappino secco. State calmi. Perché è un problema la grappa per la guida. No, vedi come la vedete al contrario. È la guida che è un problema per la grappa. allora fermi tutti fermi tutti che è successo? allora abbiamo un ascoltatore che dice potete dire a tutti quelli che passano alla rotonda passando scusa a Rondò della Forca a Torino che non ho deciso di parcheggiare lì ma sono senza benzina io rimango senza perché non ho la macchina adesso però insomma ma succede ancora che si resta a piedi ormai te lo segnalano in 7000 modi le macchine una volta ce l'abbiamo Valentina Valentina Valentina quanti anni hai Valentina? 36 ai miei tempi non siamo tanto lontani però ai miei tempi la macchina aveva solo una lancettina che era da bianco a rosso quando andava sul rosso la lancetta adesso c'è una lucina rossa la cosa che ti dice quanti chilometri hai ancora da fare no no la mia macchina è vecchia non mi dice quanti chilometri perché io addirittura l'ho detto anche l'altra volta con la Golf di mia sorella ho la 5 CS e tu facevi tac tac tac col dito sul coso sul vetro l'arancetta un po' si muoveva ti dava quella soddisfazione di dire ho fatto quasi mezzo pieno con questa roba qua scusami che macchina hai Valentina?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Guida e grappa",
+    "tema": [
+      "guida",
+      "alcol"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -423,9 +449,12 @@
     "end": 956.29,
     "speaker_raw": "SPEAKER_00",
     "testo": "Hai le quattro frecce? Certo. Chi hai chiamato? Chi è il disgraziato?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Disgraziato",
+    "tema": [
+      "amici",
+      "famiglia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -445,9 +474,12 @@
     "end": 961.47,
     "speaker_raw": "SPEAKER_00",
     "testo": "Non hai chiamato genitori, fidanzati, amici?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Chiama qualcuno",
+    "tema": [
+      "amici",
+      "famiglia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -489,9 +521,12 @@
     "end": 1016.58,
     "speaker_raw": "SPEAKER_00",
     "testo": "Anzi, non glielo vuoi neanche dire perché poi... No, infatti! gli regali il bonus per la prossima litigata e poi se posso dirti una cosa sei una che rimane a piedi con la benzina non puoi mai fare figure così col compagno senti la tua collega sta andando a prendere la benzina per te con la tanichetta che non si può è illegale quindi Valentina ha preso la tanichetta quella giusta legale non con l'acquapanna che arriva l'acquapanna no no la benzina non è più color rosa come una volta se non sbaglio ha dei colori strani adesso è verde è verde è verde come testa al verde ma non l'hai fatto benzina perché pensavi non c'hai mai voglia di fermarti sì ma",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Compagno e benzina",
+    "tema": [
+      "relazioni",
+      "benzina"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -665,9 +700,12 @@
     "end": 1734.0,
     "speaker_raw": "SPEAKER_02",
     "testo": "La sua immagine ideale Che poi svanisce Nel rumore della vita reale Sarebbe meglio se Li riuscissi ad ascoltare nascosti in certi attimi che non torneranno più per questo tu potresti scegliere l'amore e vivere per i piccoli miracoli nascosti in certi attimi che non torneranno più per questo tu potresti",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'amore e i piccoli miracoli",
+    "tema": [
+      "amore",
+      "miracoli"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -676,9 +714,12 @@
     "end": 1950.89,
     "speaker_raw": "SPEAKER_00",
     "testo": "ciao sono simona di lecce amavo volo era il mio uomo ideale ma poi mi sono disamorata totalmente perché durante una trasmissione ho visto le sue gambe a x come ti capisco simona di lecce tu non sai quanto soffro fin da bambino fin da bambino per questa cosa le gambe a x perché l'uomo figo può avere le gambe storte ma no a X al contrario cioè a cavallo diciamo come calciatori come Zambrotta no Zambrotta sembra veramente le ruote della 500 cioè mangi un po' più così si sta ascoltando tra l'altro perché è un ascoltatore però sono caratteristiche un po' troppo però l'uomo figo è quello lì che scena da cavallo e ce li ha un po' diciamo a semicerchio due parentesi invece io a X che secondo me sono la cosa meno erotica dell'universo per un uomo qual è la cosa meno erotica per una donna? la gambotta non lo so Maurizio quando parli di donne Maurizio si spegne ha detto delle cose violente stamattina sulla sessualità Maurizio si ha detto delle cose sessuali pesanti qual è ragazzi scusate che cambiamo completamente il discorso è uscito così qual è la cosa meno sexy per un uomo per esempio per me una cosa meno sexy per un uomo è fisicamente le gambe X che ho io io ce le ho tutte quelle lì la calvizia la posso anche sopportare però insomma diciamo le gambe X e invece esatto che io copro con la barba sai che per questo film che ho fatto adesso con Silvio Orlando sono ingrassato di 4 kg ho visto il trailer sono il regista ha detto lo chiamiamo l'intrombabile volo il film e io ho detto no dai così no dai chiamiamolo l'intrombabile volo perché ho succhiato da me stesso ho succhiato tutto Fabio Volo e quello lì secondo me che ho messo in scena tutto goffo cammino tutto così con la voce secondo me nella mia testa sono io se non se non avessi se non avessi fatto Fabio Goro cioè sono lo sliding doors di Fabio Bonetti di Brescia Panettiere 3-4 kg in più vestito un po' perché sai come lo vedi anche le volte trovano qualcuno che non è famoso tipo X-Factor quelli così poi si vede che diventano famosi diventano un po' più bellini perché gli fanno boom arriva la parrucchiera ti dice tagliati ecco io sono quella roba lì sono E poi l'altra cosa meno sexy per un uomo secondo me è quando uno è bello e lo sa. quando un uomo è bello e lo sa che li vedi che non stanno mai rilassati ma tengono sempre la mano così che all'atteggiamento di quello sono bello capito? un po' come te Maurizio invece per una donna la cosa meno sexy qualcuno scrive i baffi l'allice valgo ma le donne non hanno l'alluce valgo prima dei 50 no dai c'è l'alluce valgo posso dirti ecco perché non mi è mai piaciuto Io sono nell'età in cui le dita dei piedi stanno andando un po' per i fatti loro. Lo sento, lo sento che si...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Le gambe a X di Fabio Volo",
+    "tema": [
+      "amore",
+      "disamore"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -698,9 +739,12 @@
     "end": 1968.25,
     "speaker_raw": "SPEAKER_00",
     "testo": "No, che il secondo rischia di andare sopra l'alluce. Mia nonna, o no, c'era la nonna di un mio amico, che dico sempre, sembrava il pesce martello. Cioè l'alluce era completamente all'interno così. Cioè era, capito, era di traverso.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La nonna con l'alluce",
+    "tema": [
+      "nonna",
+      "alluce"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -720,9 +764,12 @@
     "end": 1998.32,
     "speaker_raw": "SPEAKER_00",
     "testo": "mio padre faceva in ultimi anni faceva un buco nelle scarpe da ginnastica perché gli usciva proprio e gli faceva malissimo hai mai provato ad usare le calze con le dita? magari ti possono aiutare io adesso ogni tanto faccio stretching perché mi accorgo che le dita dei piedi siccome invecchiando i tendini le dita si tirano un po' su quindi ti fa un po' male sotto e poi sono brutte le dita così quindi la sera mi siedo a ginocchio su un cuscino e faccio stretching",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Le calze con le dita",
+    "tema": [
+      "invecchiamento",
+      "salute"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -742,9 +789,12 @@
     "end": 2058.24,
     "speaker_raw": "SPEAKER_00",
     "testo": "vabbè mi sono un po' dato oggi mi sono dato per una donna i polpacci enormi dice Jonathan le braccia smilze antisesso pelo sulla schiena dell'uomo è vero le spalle più ancora della schiena anche la schiena ok la cosa meno sexy per un uomo sono le sopracciglia ah quelle ad ali da gabbiano ammazza quelle lì alcune sono proprio delle virovesciate li vedi però quello è migliorabile le lascia un po' crescere si sistemano sì però lì la cosa ok dei brutti denti sono la cosa meno sexy brutti denti è un po' vago brutti denti vuol dire a me più che brutti quando sono un po' smarciolini io per esempio credo di essere mai stata una donna che ha i denti un po' brown diciamo un po' smarcioli come si dice in italiano smarcioli è come anche le donne rispurchine io non sono mai riuscito magari una un po' bruttina sovrappeso l'ho portato a casa di tutto ed ero anche contento l'ho anche riviste ma le rispurchine non tanto",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Le caratteristiche dell'uomo ideale",
+    "tema": [
+      "uomo",
+      "ideale"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -753,9 +803,12 @@
     "end": 2063.24,
     "speaker_raw": "SPEAKER_06",
     "testo": "Ora, se mandiamo un pezzo, nel frattempo mi spieghi che cos'è. Come si dice in italiano?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il pezzo da mandare",
+    "tema": [
+      "musica",
+      "libro"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -764,9 +817,12 @@
     "end": 2103.49,
     "speaker_raw": "SPEAKER_00",
     "testo": "Vunce, vunce, vunce. Quello è un po' col collo, che capisci che la doccia non è una cosa importante, ecco. Quelle lì non si può. Ma sporche. Sì, però non è che sono sporche, sono quelle un po' che attaccaticce sul collo. Ok, ho capito, ho capito. Cioè, sono un po' smarsuline. Smarsuline. Sì, quelle col capello che gli dici, vabbè, dai, nasce. Ciampata buttatela lì che ti vengono di buttargli una in faccia così. Dovevamo parlare di tutt'altro. Volevo parlare di Donald Trump. Mettiamo un disco dai. Ragazzi se gli ascoltatori mandano messaggi belli io li leggo. I peli nel naso. Madonna un altro problema. Naso e orecchie crescono dopo una certa età. Cioè sono i capelli che non crescono più e crescono alla rovescia dalla radice.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La doccia e le capelli",
+    "tema": [
+      "doccia",
+      "capelli"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -786,9 +842,12 @@
     "end": 2306.17,
     "speaker_raw": "SPEAKER_00",
     "testo": "scusate ma adesso si è aperta sta cosa abbiamo pochi minuti la dobbiamo fare lunedì mattina ok ragazzi fate i compiti questo weekend non la faremo ascoltatori ascoltatori del volo del mattino fate i compiti lunedì mattina parliamo delle cose meno sexy in un uomo in una donna molti scrivono nelle donne per esempio le unghie mangiate cioè le donne che si mangiano quando proprio stai dietro la caccia sì ma anche negli uomini anche negli uomini sappiate l'unghia mangiata a qualcuno non piace comunque qua un ragazzo scusate perché Benzo dice L'antisesso di una donna sono le unghie mangiate Mi viene voglia di staccarmi il bigolo E di lanciarlo in un campo Accidenti Mi sembra un po' eccessivo Vorrei vederlo Aspetta un attimo mi fa ridere l'eccesso allora abbiamo lo sporco sotto le unghie l'uomo con la forfora sulle spalle Valentina da Verona va a letto da 10 anni con l'orso yogi pronto Valentina? pronto ma scusa è peloso ovunque tuo marito?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Le cose meno sexy",
+    "tema": [
+      "musica",
+      "sessualità"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -808,9 +867,12 @@
     "end": 2349.84,
     "speaker_raw": "SPEAKER_00",
     "testo": "ah nel senso che non siete sposati o che è il marito di un'altra? no però è il tuo ragazzo insomma no intendi proprio il vero orso yogi no nel senso tu hai una storia da dieci anni con uno che non è il tuo fidanzato e non è il tuo compagno esatto no scusami adesso non mi interessa più dei peli mi interessa sapere quanti anni hai scusami quanti anni hai 40 ma cosa aspetti Ma scusami, dopo dieci anni siete ancora lì che vi vedete, fate il ciulino e lui va via? Dorme lì la mattina? Più o meno sì. Ma quanti anni ha lui?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La storia da dieci anni",
+    "tema": [
+      "storia",
+      "relazione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

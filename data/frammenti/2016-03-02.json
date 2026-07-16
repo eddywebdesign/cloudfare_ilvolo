@@ -49,9 +49,11 @@
     "end": 529.34,
     "speaker_raw": "SPEAKER_01",
     "testo": "a proposito di ascoltatori famiglie amici così voglio tranquillizzare Sissi che ci scrive oggi è il compleanno di Bongiovi l'abbiamo già lì come primo disco per cui a tutti gli altri compreso Sissi comunque se avete una giornata che è iniziata un po' ingolfata o comunque avete una giornata difficile prendetevi questi 5 minuti perché il pezzo di Bongiovi comunque è quello che toglie la polvere sui mobili da un minuto sta ridendo Maurizio che cosa ridi? perché ridi? ho una paura ma cosa hai fatto ai capelli? ah ho i capelli sono sempre cotonato sì perché allora che merda Allora, siccome in questi giorni mi mettono la lacca, il gel e cose perché sto girando la serie televisiva così, poi il sabato pure fazio, poi quando sono in tv mi mettono anche la polverina nera, quel famoso tappo, immaginatevi un barattolino del pepe un po' più grosso, si chiama Topic se vi interessa, lo trovate su Amazon USA, non lo compro io, lo compro alle truccate, io sì. Prima mi pettinano, mi tirano tutti i capelli indietro, poi mettono la lacca. Io ho detto, ma la lacca esiste ancora? E ho sempre pure che mi muoiono quei pochi che mi sono rimasti. Però prima di andare in televisione, sia alle Iene che da Fazio, fanno... come sai il pepe è proprio il ketchup anzi il ketchup sulla testa così allora io la lacca così tutti i giorni ho paura che ora ieri sera la Johanna mi ha detto aspetta vai a dormire con questo olio mi ha messo un olio sulla testa che carino l'ha fatto in casa? no no un olio di lino non ho capito quelle cose lì mi sembrava di lino non sono sicuro comunque aveva un odore tremendo mi sono svegliato tre volte solo per l'odore comunque vabbè sono andato lì con tutti questi capelli unti sembravo quelli che incontro sul tram ogni tanto la mattina quindi stamattina mi sono fatto lo shampoo e ho dovuto mettere il balzo ho capito ho capito ora poi non ho messo gel non ho messo niente sono uscito e ho messo il cappellino per andare a portarsi il balzo giuro non rido più per questo sei arrivato perché sembravo già ricalato però sono molto soffici non rido più non rido più comunque oh ma lo devo mettere anche in radio per la webcam va bene va bene o seggi le pelate le pelate scusate quando sono arrivato di corsa andavi in onda al notiziario allora non so se ieri ho bevuto delle cose strane ma ho sentito una cosa strana la vorrei risentire se è vera e poi mettiamo bon jovi così diamo la botta alla giornata",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Bongiovi disco per ascoltatori",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -181,9 +183,12 @@
     "end": 926.55,
     "speaker_raw": "SPEAKER_15",
     "testo": "uno fa la preghiera si potrebbe mettere uno schermo che scorre oppure sotto come il TG2 che poi sottopassa le notizie o a Capodanno le bestemmie comunque aveva fatto già discutere questo ammodernamento del santuario perché il responsabile che ora non ho sotto mano aveva applicato il poste",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ammodernamento del santuario",
+    "tema": [
+      "santuario",
+      "ammodernamento"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -214,9 +219,12 @@
     "end": 1061.55,
     "speaker_raw": "SPEAKER_01",
     "testo": "allora no mi sa che lì non ci arriva poi devo pagare le tasse sai che sulle tasse siamo tutti diversi io dico sempre come faccio sempre questo esempio un mio amico ha un albergo a Roma a fianco poco distante c'è un altro albergo che appartiene alla chiesa lui non riesce a mettere le stanze a meno prezzo perché lui paga le tasse mentre quello a fianco non paga le tasse quindi a tutti i clienti io la considero concorrenza sleale qualcuno invece dice che sono un peccatore Comunque adesso vado a buttare una preghiera lì a Caravaggio. Tra l'altro gran pittore, posso dire.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Tasse e imprese",
+    "tema": [
+      "tasse",
+      "imprese"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -236,9 +244,12 @@
     "end": 1282.41,
     "speaker_raw": "SPEAKER_01",
     "testo": "scusate avete detto che avete pensato al compleanno di Bongiovi e di Loride anche il compleanno di mio zio se canta mandaci un disco un file lo mandiamo oggi mandiamo tutto allora abbiamo una ragazza che ci ha scritto dal Giappone che ci piacerebbe chiamare perché dice stanno iniziando a fiorire i ciliegi che devo dire che è quando sbocciano i ciliegi a parte nei cartoni animati giapponesi che caricano molto su quella cosa quando volano via che mai c'è Gaemon in piedi così e dietro tutti i petali di ciliegi Lupin buongiorno Gwenda ma la Gwenda la Gwenda la Gwenda è quella la Gwenda quella di Bologna quella di Bologna che c'aveva l'ex l'ex io non mi ricordo proprio allora Maurizio perché tu hai un cuore per gli ascoltatori Gwenda si era anche un po' infastidita perché c'aveva scritto l'ex che però poi quando la vedeva non la salutava una roba del genere giusto come stai Gwenda hai fatto pace col tuo ex a Bologna bene no no non l'ho più sentito adesso ti sta ascoltando ti manderà un messaggio ti dirà cucciolotta non essere arrabbiata con me ma io non sono arrabbiata allora intanto l'hai poi preso quel lavoro là per cui hai fatto il colloquio in quell'albergo e sei lì che lavori al bed and breakfast?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Compleanno di Bongiovi",
+    "tema": [
+      "musica",
+      "Bongiovi"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -511,9 +522,12 @@
     "end": 1583.35,
     "speaker_raw": "SPEAKER_13",
     "testo": "Giuliano, il gatto Giuliano. And when my eyes are closed I can start to feel you staring at me ... ...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Quando gli occhi sono chiusi",
+    "tema": [
+      "musica",
+      "sentimenti"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -566,9 +580,12 @@
     "end": 1813.04,
     "speaker_raw": "SPEAKER_01",
     "testo": "ragazzi messaggi di ascoltatori il mondo è in fiore proprio cioè ma volete dirmi che è finito l'inverno più o meno non è mai iniziato cioè io ho sempre pensato quante giornate come ieri o come oggi poi ci aspetterà un aprile marzo invece qua sbocciano però dopo se fa freddo ammazza tutti i bulb c'è ragione di caprio ragazzi qua troppo caldo troppo caldo i figli dei nostri figli esatto non diamo questo pianeta per scontato io non do questa serata per scontato ciao ragazzi io a Gallarate zona Malpensa piantai un ciliegio ma poi mi sono separato e non so se è fiorito ciao Alfredo l'ha piantato quando si è sposato no?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il mondo è in fiore",
+    "tema": [
+      "natura",
+      "tempo"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -577,9 +594,12 @@
     "end": 1843.06,
     "speaker_raw": "SCONOSCIUTO",
     "testo": "con le religioni e la playstation 2 sillogismi e imperativi hanno fallito come il sol dell'avvenire così sia continuiamo ad inventare dimensioni dopo il cubo l'ipercubo e così via",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il sol dell'avvenire",
+    "tema": [
+      "libro",
+      "futuro"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -588,9 +608,12 @@
     "end": 1987.36,
     "speaker_raw": "SPEAKER_05",
     "testo": "Perché non finirà, non finirà mai Perché non finirà, non finirà mai Produciamo nuove contaminazioni Fukushima, Nagasaki e Mururō ...e vaccini ed olocausti e paradossi... ...tartarughe irraggiungibili... ...continuiamo a scogitare scampatoie... ...ne tilone, ne fedrone e così via... ...solo il senso che se tutto l'ho già visto... ...quello stai sicura non finirà mai... ...perché non finirà, non finirà mai... Perché non finirà, non finirà mai. Perché non finirà, non finirà mai. Grazie a tutti. Perché non finirà, non finirà mai",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Non finirà mai",
+    "tema": [
+      "musica",
+      "paura"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -610,9 +633,12 @@
     "end": 2027.88,
     "speaker_raw": "SPEAKER_15",
     "testo": "Come ti vengono in mente queste cose?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Come ti vengono in mente queste cose?",
+    "tema": [
+      "pensieri",
+      "domande"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -874,9 +900,12 @@
     "end": 2670.64,
     "speaker_raw": "SPEAKER_01",
     "testo": "La grandezza di questa canzone è che nel 2016 si tollera ancora questo sax, mentre tutte le altre canzoni col sax di quegli anni sono ormai insopportabili. Soprattutto quando il musicista, su un pezzo lento così, vi ricordate? Tipo il festival, così si buttavano a terra e facevano... Però la musica era tipo... per fare tutta quella roba complessa allora io ho un'infiammazione al nervo sciatico ho paura a chiedere adesso abbiamo creato il panico tra gli ascoltatori nessuno aveva capito vogliamo chiederti se ce l'abbiamo l'osteopato domani abbiamo Sibaldi che parliamo dei miti greci e quindi è interessante a me fa ridere che il mercoledì puntiamo al venerdì perché dobbiamo scavalcare il giovedì per Sibaldi Comunque ragazzi so che non c'entra niente ma io ho appena incontrato De Rossi sul lungotevere di Roma e oggi la mia giornata può andare solo meglio. Isabella di Roma. Cosa fa De Rossi?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La grandezza di una canzone",
+    "tema": [
+      "musica",
+      "sax"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -951,9 +980,12 @@
     "end": 3014.3,
     "speaker_raw": "SPEAKER_01",
     "testo": "scusa Maurizio hai ragione tu quando mi dici ma non leggere le notizie degli ascoltatori che se non siamo sicuri allora Alberto Fontanella ha detto che il sax di Doride è suonato da David Bowie e ci hanno scritto tutti che è una stronzata fotonica tutti ostini a leggere i messaggi degli ascoltatori che di musica non sanno niente ma sei un ascoltatore io mi fido Alberto Fontanella mi scrive così invece chi è che lo suonava sto sax? non lo so Mauro lo sa chi lo suonava? Ronny Ross che ha insegnato a David Bowie a suonare il sax ah ecco vabbè allora vabbè però come se lo avesse suonato David Bowie per combattere la cefalea si può ricorrere alla crioterapia si tratta dell'applicazione del freddo mediante il ghiaccio che dovrebbe essere appoggiato sulla testa per circa 10 minuti il tutto dovrebbe decongestionare rapidamente in alternativa si può immergere piedi e gambe dal ginocchio in su in una bacinella d'acqua fredda molti assicurano che questo trucco decongestiona rapidamente il cervello con effetti sorprendenti ma Linus non ha fatto la crioterapia che si infilava dentro in colonna che usciva il fumo come Superman ma non per il mal di testa penso adesso finiamo lo studio di Linus è giù vado giù e gli dico Linus ti devi infilare un ghiacciolo",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il sax di Doride",
+    "tema": [
+      "musica",
+      "sax"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {

@@ -185,9 +185,12 @@
     "end": 910.14,
     "speaker_raw": "SPEAKER_00",
     "testo": "a parte che sei 15 anni adesso hai un'attività manuale molto intensa ma al di là di quello fate le prime due cosa fai dopo?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Prima cosa dopo la scuola",
+    "tema": [
+      "scuola",
+      "tempo libero"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -238,9 +241,12 @@
     "end": 987.4,
     "speaker_raw": "SPEAKER_00",
     "testo": "Sì, sono quelli, diciamo, è difficile un po' da definire, diciamo la musica indipendente, cioè quella che non va nelle mezzo, poi magari ci va anche, però che ha magari, come dire, una provenienza più... non si è difficile da spiegare. Esatto. E' come il cinema indie, cioè indipendente. Comunque, capito, la parola vuol dire quello. Ah, non sta per indiano.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Musica indipendente",
+    "tema": [
+      "musica",
+      "indipendente"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -260,9 +266,13 @@
     "end": 1004.63,
     "speaker_raw": "SPEAKER_00",
     "testo": "No, cioè la musica indipendente, quella che in Italia veniva dai centri sociali, da tutto quel mondo lì, cioè quelli che non frequentano il mainstream da subito. Detto mainstream... Senti, tu per esempio che musica ascolti?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Musica indipendente italiana",
+    "tema": [
+      "musica",
+      "italiana",
+      "indipendente"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -318,9 +328,12 @@
     "end": 1042.91,
     "speaker_raw": "SPEAKER_14",
     "testo": "ma sono già stato avvisato i Beatles i quattro ragazzi di Liverpool i Beatles che non sono male poi lo sto passando anche per James Taylor ma italiani?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "I Beatles",
+    "tema": [
+      "musica",
+      "beatles"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -329,9 +342,13 @@
     "end": 1052.74,
     "speaker_raw": "SPEAKER_00",
     "testo": "italiani insomma De Gregori no non tanto scusami italiano contemporaneo cioè dalla tua generazione tu cosa ascolti?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Musica italiana contemporanea",
+    "tema": [
+      "musica",
+      "italiana",
+      "contemporanea"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -340,9 +357,12 @@
     "end": 1070.99,
     "speaker_raw": "SPEAKER_14",
     "testo": "poca roba ma soltanto italiano in generale no di musica italiana qual è il cantante italiano che dici mi piace me lo ascolto volentieri ma guarda un cantante preferito in generale non ce l'ho però ultimamente ho ascoltato diciamo un loop la vita com'è queste cose poi l'altro non mi ricordo il nome di chi?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ascolto di musica italiana",
+    "tema": [
+      "musica",
+      "italiana"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -351,9 +371,12 @@
     "end": 1078.04,
     "speaker_raw": "SPEAKER_00",
     "testo": "la vita com'è e la vita com'è no non quella l'altra ma no lo sono sparato a casa ma Max Gazze ma Max Gazze",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La vita com'è",
+    "tema": [
+      "musica",
+      "italiana"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -373,9 +396,12 @@
     "end": 1140.44,
     "speaker_raw": "SPEAKER_00",
     "testo": "ok ok senti dei Beatles cosa ti piace? ma tutto tutto hai una canzone se vuoi te la mettiamo adesso poi se vuoi ogni tanto ti chiamiamo tu ci aggiorni sul tuo mondo le nuove app le vostre discussioni tra di voi e noi ti diciamo vatti a ascoltare un gruppo che si chiama Ping Floyd con la G e magari ti piacciono ci facciamo uno scambio generazionale ti piace? anche sui libri se vuoi sono preparato eh io purtroppo no ecco ti aiuto io ti sconsiglio i miei ma ti consiglio dei bei libri va bene cosa mettiamo dei bitos Lorenzo? ma non lo so una qualsiasi ma tu dove sei adesso fisicamente a 15 anni?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ping Floyd",
+    "tema": [
+      "musica",
+      "ping floyd"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -417,9 +443,11 @@
     "end": 1181.5,
     "speaker_raw": "SPEAKER_00",
     "testo": "ecco perché anche ieri ci hai tanato va bene ti mettiamo un pezzo dei Beatles e poi la settimana prossima ti dovrai andare in bagno per parlare con noi eh non lo so oppure chiedi alla prof prof possiamo parlare con Fabio Volo Radio DJ che ci consiglia un bel libro lei dice sì mettevi la voce e io vi dico un titolo dei miei va bene va bene ciao Lorenzo ciao ciao ciao ciao Mi ha dato carica sto ragazzo, che bello che era. Era un bel giovanotto, come diceva mia nonna. E così un bel giovanotto.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "pezzo dei Beatles",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -677,9 +705,12 @@
     "end": 2380.37,
     "speaker_raw": "SPEAKER_00",
     "testo": "No vabbè, non è che quando stai solo con un uomo tu gli dici metti la mano qui. No, appunto. Ho capito, ma sono in macchina insieme. Vabbè, adesso entriamo in una tematica. più complessa allora arrivano anche ascoltatori che dicono io la playlist è bored cioè annoiato di Fabio Polo la vorrei allora io Ma non è bored, sono momenti della giornata, ce l'avrete un momento ogni tanto al cesso, non lo so, quando vi fate il bagno, la doccia, che metti della musica che non ti schiaccia continuamente. Allora io ho detto, per esempio, uno degli album più belli della musica indie che sono usciti in questi anni, di qualche anno fa, che è Bon Iver, che molti chiamano Bon Iver perché lui è americano e invece lui fa il verso al francese, no? Bon Iver. C'est Bon Iver, oh là là. Ok. lui cosa è successo prima ha fatto un album stupendo sentite qua gli amici l'hanno scalzato perché la fidanzata l'ha mollato lui è diventato un depressone quelli lì che rompeva le palle quindi gli amici hanno detto sai che ci hai rotto le palle e lui non sapeva cosa fare ha rotto il gruppo che suonava in un gruppo gli amici non lo cagavano più il gruppo l'ha mollato la fidanzata anche se n'è andato in mezzo al niente in un capannone la tua vita In un capanno nel Wisconsin ed è uscito con un album strepitoso, no? Poi ne ha fatto un altro che si chiama Bon Iver come lui e io quando me la metto in casa questa qua, la domenica mattina per esempio, immaginatevi di svegliarvi con calma voi che non avete i figli, metti su questa canzone mentre prepari la colazione, non è bored, è un capolavoro assoluto, zitti che la sciazzammano. stai fermo col mouse clicchi poi in shazam esce bonniver più clic computer volo come",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "playlist annoiata",
+    "tema": [
+      "musica",
+      "ascoltatori"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -723,9 +754,12 @@
     "end": 2574.11,
     "speaker_raw": "SPEAKER_00",
     "testo": "posso chiudere prima di mettere Coldplay e Beyoncé con un messaggio di un ascoltatore ciao Fabio hai rotto il cazzo con ste canzoni Saverio da Rutigliano Saverio in amicizia lo so che stiamo scherzando un giorno io non so quanti anni hai un giorno tu mentre ti farai la barba o ti laverai i denti o ti laverai la faccia ti guarderai lo specchio e ti dirai ma che vita di merda che ho E penserai che è Dio, che è il capo, che è tua moglie, che è il tuo fratello, la tua famiglia, il tuo lavoro. E invece sei tu che non ti apri alle cose belle. Questo la dedichiamo a Saverio.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "vita di merda",
+    "tema": [
+      "vita",
+      "disperazione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -756,9 +790,12 @@
     "end": 2755.72,
     "speaker_raw": "SPEAKER_00",
     "testo": "ringrazio quelli che hanno detto vorrei una puntata così tutte le mattine una volta ogni tanto ci deve essere posto per tutti comunque molti ringraziano molti dicono sarai la causa di molti incidenti per colpi di sonno di gente che va al lavoro però qualcuno da oggi avrà sul cellulare della musica bella che si scarica stasera se la ascolta se la compra sono contento intanto devo fare qualcosa che mi piace ciao a domani",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "musica bella",
+    "tema": [
+      "musica",
+      "ascoltatori"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   }
 ]

@@ -667,9 +667,12 @@
     "end": 2375.62,
     "speaker_raw": "SPEAKER_11",
     "testo": "dal Giappone? dalla Cina? dall'Australia? no, dall'Australia bene, ci ascolti dall'Australia quindi per te il volo del mattino è un volo della sera che ore sono lì adesso? le 7?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "il volo del mattino",
+    "tema": [
+      "tempo",
+      "giorni"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -778,9 +781,12 @@
     "end": 2474.65,
     "speaker_raw": "SPEAKER_11",
     "testo": "Beh, certo! Ma da quant'è che vivi in Australia? da cinque anni e mezzo scherzavo ma si vede che sei una bella topolona no però scherzavo no ma qua noi guarda il mattino non c'è niente di serio è tutto un direcassate senti sei andata lì in vacanza ti sei innamorata del posto o hai trovato un'occasione di lavoro e sei andata",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "vita in Australia",
+    "tema": [
+      "Australia",
+      "vita"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -906,9 +912,12 @@
     "end": 2611.34,
     "speaker_raw": "SPEAKER_11",
     "testo": "che sfiga lì magari vicino al mare quindi dopo 20 ore scendi con le scarpe piene di piedi non ti entrano più le scarpe quando arrivi ma sono abituato lo faccio sempre brava brava senti allora buona pasta con la salsiccia e la panna salutaci tanto con l'Australia e tuo marito tuo figlio e spero che ti abbiano ascoltato i tuoi amici di Carpi va bene ciao Fabio la Monica di Carpi è una super topa era anche una modella scusa hai già buttato giù Maurizio? richiama che voglio sapere se è una modella",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "arrivo in Australia",
+    "tema": [
+      "Australia",
+      "arrivo"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
