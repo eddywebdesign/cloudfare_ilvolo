@@ -31,6 +31,7 @@ from tkinter import ttk
 import psutil
 
 REPO = Path(__file__).resolve().parent.parent.parent
+CSV_TERMICO = REPO / "logs" / "trascrizioni_log_termico.csv"
 DURACION_MEDIA_MIN = 55  # media observada: 44-51 min, con margen de seguridad
 INTERVALO_CHEQUEO_MS = 5000
 
@@ -63,6 +64,24 @@ def buscar_whisperx():
                     nombre = Path(token).stem
             return p, nombre
     return None, None
+
+
+def leer_temperatura():
+    """Devuelve (temperatura_c, segundos_desde_ultima_lectura) o (None, None)
+    si el CSV no existe o esta vacio."""
+    if not CSV_TERMICO.exists():
+        return None, None
+    try:
+        ultima = CSV_TERMICO.read_text(encoding="utf-8").strip().splitlines()[-1]
+        campos = ultima.split(",")
+        if len(campos) < 2:
+            return None, None
+        ts = datetime.fromisoformat(campos[0])
+        temp = float(campos[1])
+        antiguedad = (datetime.now() - ts).total_seconds()
+        return temp, antiguedad
+    except (ValueError, IndexError):
+        return None, None
 
 
 def matar_transcripcion():
@@ -150,6 +169,9 @@ class Panel:
 
         self.lbl_restante = ttk.Label(tarjeta, text="", style="Info.TLabel")
         self.lbl_restante.pack(anchor="w")
+
+        self.lbl_temp = ttk.Label(tarjeta, text="", style="Info.TLabel")
+        self.lbl_temp.pack(anchor="w", pady=(4, 0))
 
         self.banner_programada = ttk.Label(
             cont, text="⏸ Parada programada: se detendrá al terminar este episodio",
@@ -250,7 +272,25 @@ class Panel:
                 foreground=COLOR_ROJO,
             )
 
+    def _actualizar_temperatura(self):
+        temp, antiguedad = leer_temperatura()
+        if temp is None:
+            self.lbl_temp.config(text="Temperatura: sin datos", foreground=COLOR_TEXTO_SUAVE)
+            return
+        color = COLOR_VERDE if temp < 90 else COLOR_ROJO
+        if antiguedad is not None and antiguedad > 180:
+            # el logger deberia escribir cada 60s; si lleva mas de 3 min sin
+            # actualizar, avisar en vez de mostrar un dato quiza' desfasado
+            self.lbl_temp.config(
+                text=f"Temperatura: {temp:.0f}°C (⚠ dato de hace {antiguedad/60:.0f} min, "
+                     f"el logger puede haberse detenido)",
+                foreground=COLOR_NARANJA,
+            )
+        else:
+            self.lbl_temp.config(text=f"Temperatura CPU: {temp:.0f}°C", foreground=color)
+
     def actualizar(self):
+        self._actualizar_temperatura()
         p, nombre = buscar_whisperx()
 
         if p is None:
