@@ -191,7 +191,7 @@ class Panel:
         matar_transcripcion()
         systemctl_user("stop", "ilvolo-watchdog-nas.timer")
         self.detener_al_finalizar = False
-        self._mostrar_banner_programada(False)
+        self._sincronizar_boton_proximo()
 
         # Verificar de verdad, no solo asumir que el clic funciono'
         time.sleep(1)
@@ -210,7 +210,7 @@ class Panel:
 
     def toggle_detener_proximo(self):
         self.detener_al_finalizar = not self.detener_al_finalizar
-        self._mostrar_banner_programada(self.detener_al_finalizar)
+        self._sincronizar_boton_proximo()
         if self.detener_al_finalizar:
             self.lbl_aviso.config(
                 text=f"✓ Programado a las {hora()}: se detendrá en cuanto termine "
@@ -223,10 +223,20 @@ class Panel:
                 foreground=COLOR_TEXTO_SUAVE,
             )
 
+    def _sincronizar_boton_proximo(self):
+        """El botón cambia de texto/color según el estado, para que un segundo
+        clic sea inequívoco (antes era un toggle silencioso: un doble clic sin
+        querer cancelaba la parada programada sin que se notara)."""
+        self._mostrar_banner_programada(self.detener_al_finalizar)
+        if self.detener_al_finalizar:
+            self.btn_proximo.config(text="✕ Cancelar parada programada", style="Rojo.TButton")
+        else:
+            self.btn_proximo.config(text="Detener al finalizar", style="Naranja.TButton")
+
     def reanudar(self):
         systemctl_user("start", "ilvolo-watchdog-nas.timer")
         self.detener_al_finalizar = False
-        self._mostrar_banner_programada(False)
+        self._sincronizar_boton_proximo()
 
         time.sleep(1)
         if watchdog_activo():
@@ -257,7 +267,7 @@ class Panel:
                     matar_transcripcion()
                     systemctl_user("stop", "ilvolo-watchdog-nas.timer")
                     self.detener_al_finalizar = False
-                    self._mostrar_banner_programada(False)
+                    self._sincronizar_boton_proximo()
                     self.lbl_aviso.config(
                         text=f"✓ Detenido automáticamente a las {hora()}, tras "
                              f"finalizar el episodio anterior.",
