@@ -21,6 +21,7 @@
 # (creado por install_panel.sh). También se puede lanzar a mano:
 #   python3 scripts/linux/panel_control.py
 
+import json
 import subprocess
 import time
 import tkinter as tk
@@ -32,6 +33,7 @@ import psutil
 
 REPO = Path(__file__).resolve().parent.parent.parent
 CSV_TERMICO = REPO / "logs" / "trascrizioni_log_termico.csv"
+ESTADO_CLASIFICACION = REPO / "data" / "estado_clasificacion.json"
 DURACION_MEDIA_MIN = 55  # media observada: 44-51 min, con margen de seguridad
 INTERVALO_CHEQUEO_MS = 5000
 
@@ -84,6 +86,15 @@ def leer_temperatura():
         return None, None
 
 
+def leer_estado_clasificacion():
+    if not ESTADO_CLASIFICACION.exists():
+        return None
+    try:
+        return json.loads(ESTADO_CLASIFICACION.read_text(encoding="utf-8-sig"))
+    except (json.JSONDecodeError, OSError):
+        return None
+
+
 def matar_transcripcion():
     for pattern in ("whisperx", "trascrivi_locale_episodi", "avvia_trascrizione_sicura"):
         subprocess.run(["pkill", "-9", "-f", pattern], check=False)
@@ -107,7 +118,7 @@ class Panel:
     def __init__(self, root):
         self.root = root
         self.root.title("Il volo del mattino — control")
-        self.root.geometry("440x340")
+        self.root.geometry("440x460")
         self.root.configure(bg=COLOR_FONDO)
         self.root.attributes("-topmost", True)
 
@@ -172,6 +183,17 @@ class Panel:
 
         self.lbl_temp = ttk.Label(tarjeta, text="", style="Info.TLabel")
         self.lbl_temp.pack(anchor="w", pady=(4, 0))
+
+        # Tarjeta separada, solo lectura: estado de la clasificacion (HP14).
+        # Llega via git (data/estado_clasificacion.json, trackeado), no hay
+        # conexion directa entre las dos maquinas. Sin botones a proposito.
+        tarjeta_clas = ttk.Frame(cont, style="Tarjeta.TFrame", padding=18)
+        tarjeta_clas.pack(fill="x", pady=(10, 0))
+        ttk.Label(
+            tarjeta_clas, text="Clasificación (HP14, Groq/Cerebras)", style="Titulo.TLabel"
+        ).pack(anchor="w")
+        self.lbl_clasificacion = ttk.Label(tarjeta_clas, text="", style="Info.TLabel")
+        self.lbl_clasificacion.pack(anchor="w", pady=(6, 0))
 
         self.banner_programada = ttk.Label(
             cont, text="⏸ Parada programada: se detendrá al terminar este episodio",
@@ -289,8 +311,26 @@ class Panel:
         else:
             self.lbl_temp.config(text=f"Temperatura CPU: {temp:.0f}°C", foreground=color)
 
+    def _actualizar_clasificacion(self):
+        estado = leer_estado_clasificacion()
+        if not estado:
+            self.lbl_clasificacion.config(
+                text="Sin datos todavía.", foreground=COLOR_TEXTO_SUAVE,
+            )
+            return
+        color = COLOR_VERDE if estado.get("resultado") == "ok" else COLOR_ROJO
+        self.lbl_clasificacion.config(
+            text=(
+                f"Última ejecución: {estado.get('ultima_ejecucion', '?')}\n"
+                f"Resultado: {estado.get('resultado', '?')}\n"
+                f"Archivos: {estado.get('archivos_clasificados', '?')}"
+            ),
+            foreground=color,
+        )
+
     def actualizar(self):
         self._actualizar_temperatura()
+        self._actualizar_clasificacion()
         p, nombre = buscar_whisperx()
 
         if p is None:
