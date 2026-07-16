@@ -491,9 +491,12 @@
     "end": 1700.64,
     "speaker_raw": "SPEAKER_02",
     "testo": "Esatto Sai che il parcheggio lì vi costerà più del volo per il Messico Quando tornerete no, non è vero, non è vero, dai senti, Eleonora ma come mai il Messico?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il Messico",
+    "tema": [
+      "viaggi",
+      "avventura"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -585,9 +588,12 @@
     "end": 1861.3,
     "speaker_raw": "SPEAKER_02",
     "testo": "Ma guarda che meraviglia il Messico. Senti, allora ti insegno solo questa parola se non sai lo spagnolo. Una cerveza. Ok, che è una birra e algo para picar. Quando tu impari questa frase sei a posto per gli aperitivi. Qualcosa da spiluccare, no?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Cerveza",
+    "tema": [
+      "musica",
+      "spagnolo"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {

@@ -587,9 +587,12 @@
     "end": 1851.8,
     "speaker_raw": "SPEAKER_02",
     "testo": "E non bastava già questa miseria, alzarsi e non avere prospettiva, nella puntura quando viene sera, nella paura, la paura. Nella paura che ci arresta, che ci tempesta, non i seti che volano ma proiettili sopra la testa, è una puntura ma direi che un po' diversa, la cura c'è ma l'aria non è non è soltanto una scelta ma è la mia sola rivolta possibile senza dimenticare che dopo pochi chilometri ci dovremo di nuovo fermare da qui passeranno tutti o non passerà nessuno con le scarpe nelle mani in fila uno ad uno da qui passeranno tutti fino a quando c'è qualcuno perché l'ultimo che passa va",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La paura che ci arresta",
+    "tema": [
+      "paura",
+      "arresto"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -598,9 +601,12 @@
     "end": 2088.82,
     "speaker_raw": "SPEAKER_11",
     "testo": "Fabi Silvestri Gazze, life is sweet, la vita è dolce. Bene, Maurizio, che tra l'altro, lo dico per gli ascoltatori che magari non hanno la possibilità di seguirci anche sulle webcam, che dietro Maurizio oggi c'è un via vai, solo perché non sono lì, i gatti vanno, i topi ballano. Cosa c'hai lì dietro? Cosa c'è tutta quella gente lì? Sono amici miei. Dopo gli amici di Maria De Filippi, gli amici di Maurizio. Cosa fanno lì? Chi sono? Chi sono? ragazzi sono venuti a vedere come lavoriamo insomma ciao ragazzi cosa fate chi siete siamo ma lo dico ma si ma si ci occupiamo di software radiofonico ecco hai capito non hai capito no vabbè comunque non mi danno fastidio se vuoi andiamo via no no non mi date fastidio non ti danno fastidio no è perché mi rompi i coglioni allora non ti ho detto niente va bene ascoltami allora qualche giorno fa abbiamo messo un bellissimo pezzo dei polisse qualcuno la conosceva altri dicono ecco non la conoscevo grazie che ce la fai ogni tanto portiamo dei dischi devo dire io essendo un po' un uomo triste fuori dall'onda o solo dischi molto tristi che Maurizio dice no è troppo triste per il mattino è troppo lento per il mattino vabbè io non sono più adatto diciamo a questa a questo orario del mattino no ormai musicalmente mi sposto su cose più più meditative no ho anche una certa età ormai allora ho pensato di trovare una via di mezzo non trovare dischi troppo sconosciuti sennò dopo ci rompono le scatole indovina chi è che ci rompe le scatole eh ai baffi va bene comunque niente allora ho trovato questo disco tranquillo che secondo me se vi capita soprattutto se siete in provincia di andare a fare la spesa un sabato mattina o la domenica al mercato sei mai andato al mercato a fare la spesa Maurizio oppure tu che ti piace la Francia sono andato a vedere i mercatini della Provenza ho fatto il tour dei mercatini eh quello è bello il tour dei mercatini è stupendo dove vendono cose con la lavanda immagino ok oppure lo so vai a Parigi vai a Rue de Mouffetard che vai giù sotto che poi la domenica ballano lì le cose cantano ecco non c'entra niente con la canzone che stiamo scegliendo da farvi sentire No, però io quello che vi voglio dire, non esiste sabato o domenica mattina usciti di casa pronti per andare a fare quello che vi pare, che sia la spesa, il mercato, quello che è, senza ascoltare una canzone che dice sono stanco di essere da solo, di camminare da solo, insomma vieni a prendermi, rendi la mia vita più bella, no? Ok, e senti com'è sexy questa canzone. Si chiama Al Green, va bene? Come Alfano, Albano, Al Pacino.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Life is sweet",
+    "tema": [
+      "musica",
+      "dolcezza"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -609,9 +615,12 @@
     "end": 2181.86,
     "speaker_raw": "SPEAKER_05",
     "testo": "...to make you say that you love me. Ciao! I'm tired of being alone here by myself now Sì.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "To make you say that you love me",
+    "tema": [
+      "amore",
+      "parole"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
