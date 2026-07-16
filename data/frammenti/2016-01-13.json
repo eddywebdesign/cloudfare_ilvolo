@@ -40,9 +40,12 @@
     "end": 295.13,
     "speaker_raw": "SPEAKER_08",
     "testo": "Pensa che bello con sta giornata di sole oggi. Ieri e oggi Milano è una giornata stupenda. Nicola cosa potrebbe fare intanto che Linus si fa una corsetta? Un programma televisivo. Ti mette lì sulla panchina e dice ALLORA! Matteo Curdi va lì dove fanno i lavori con le mani dietro lo scavo così nel 1975 la Sara e tutte le altre vanno a farsi un tatuaggio no la Sara non può farsi un tatuaggio la Sara va a farsi un eco oppure vai in un negozio di bambini che pensi di aver comprato tutto e invece manca sempre qualcosa tu vanno a farsi un tatuaggio questa è un tatuaggio io penso tipo tre donne sdraiate sul lettino Ne fai uno lungo che parte su un corpo e finisce su un altro.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Milano è una giornata stupenda",
+    "tema": [
+      "musica",
+      "giornata"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -336,9 +339,12 @@
     "end": 1092.36,
     "speaker_raw": "SPEAKER_01",
     "testo": "allora gli ospiti io so che c'è la mia preferita Madalina Ghinea che ha fatto un film con il non giovane ha fatto iuto di Sorrentino è venuta un giorno qua in radio e gli ho offerto alla macchinetta del caffè e gli ho detto ma una come te Che è così bellissima, si mangia due brioche la mattina. Come Viola.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Madalina Ghinea e Sorrentino",
+    "tema": [
+      "film",
+      "ospiti"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -347,9 +353,12 @@
     "end": 1111.77,
     "speaker_raw": "SPEAKER_08",
     "testo": "Come Viola, come Viola. Senti, allora, gli ospitoni sono Renato Zero, Ipu, Ramazzotti, Pausini. E abbiamo il cellulare di tutti. Potremmo fare un controsenno. Quando è Sanremo? Febbraio, immagino. Da qui a Sanremo gli spoileriamo gli ospiti. Gli chiamiamo e gli diciamo cosa dirai, cosa dirai. Dal 9 febbraio. Dal 9 febbraio.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Sanremo 2016",
+    "tema": [
+      "musica",
+      "Sanremo"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {

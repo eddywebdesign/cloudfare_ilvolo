@@ -387,9 +387,12 @@
     "end": 1813.62,
     "speaker_raw": "SPEAKER_08",
     "testo": "Eh ma di fatti posso dire la felicità sta nell'essere orfani senza figli.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Felicità senza figli",
+    "tema": [
+      "felicità",
+      "orfani"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -442,9 +445,12 @@
     "end": 1924.23,
     "speaker_raw": "SPEAKER_06",
     "testo": "il presidente si è autodichiarato presidente di questo fazzoletto di terra mai rivendicato e hanno proposto un bando architettonico per creare una nazione che ospiti 350.000 abitanti e sia sostenibile, sia innovativa, eccetera.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Progetto di città sostenibile",
+    "tema": [
+      "città",
+      "sostenibilità"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -453,9 +459,12 @@
     "end": 1928.84,
     "speaker_raw": "SPEAKER_08",
     "testo": "Come l'Islanda, l'Islanda sono 320.000 abitanti, forse Bologna.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Islanda come modello",
+    "tema": [
+      "islanda",
+      "sostenibilità"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -519,9 +528,12 @@
     "end": 2038.61,
     "speaker_raw": "SPEAKER_05",
     "testo": "Allora, fondamentalmente a marzo, il 5 marzo, noi consegniamo il nostro progetto e poi entro il 5 aprile teoricamente dovremmo avere una risposta. La cosa interessante per noi architetti, cioè il fatto che ci ha portato a voler partecipare è stato il fatto che in Giulia c'è un architetto molto noto che è Zadid e quindi appunto sembra una cosa...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Giulia e Zadid",
+    "tema": [
+      "architettura",
+      "Giulia"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -660,9 +672,12 @@
     "end": 2456.95,
     "speaker_raw": "SPEAKER_08",
     "testo": "Perché diciamo, soprattutto con la crisi, si sono accorpati. Quindi sarà sempre così. Diciamo, fra una decina d'anni, tre persone, dieci persone o cinque, sarà la persona più ricca del pianeta. Nel senso che tutto il resto...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La crisi e la ricchezza",
+    "tema": [
+      "crisi",
+      "ricchezza"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -749,9 +764,12 @@
     "end": 2762.79,
     "speaker_raw": "SPEAKER_10",
     "testo": "Allora, abbiamo detto 62 persone hanno quanto? 3 miliardi?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il calcolo sbagliato",
+    "tema": [
+      "calcolo",
+      "errore"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

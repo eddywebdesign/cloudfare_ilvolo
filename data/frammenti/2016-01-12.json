@@ -85,9 +85,12 @@
     "end": 395.09,
     "speaker_raw": "SPEAKER_11",
     "testo": "Ma ci ascoltano anche dalla Svizzera? Sì, sì.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ascoltatori dalla Svizzera",
+    "tema": [
+      "ascoltatori",
+      "Svizzera"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -185,9 +188,12 @@
     "end": 551.88,
     "speaker_raw": "SPEAKER_11",
     "testo": "senti con l'eco, accidenti no, la nostra preghiera quella dell'anno scorso maestro Shifu naufragata malamente poi esce il panda quando?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il panda e il maestro Shifu",
+    "tema": [
+      "Kung Fu",
+      "panda"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -218,9 +224,12 @@
     "end": 788.24,
     "speaker_raw": "SPEAKER_14",
     "testo": "Volevo dire Fabio che io ho la mia preghiera che faccio quando nei momenti di difficoltà rivolto a Dio, è un ascoltatore, guarda che sono i più belli del mondo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Preghiera a Dio",
+    "tema": [
+      "fede",
+      "difficoltà"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -240,9 +249,12 @@
     "end": 812.55,
     "speaker_raw": "SPEAKER_14",
     "testo": "Certo che ce l'ha scritta, Dio. E già. Allora aspetta, Dio mio, fai per me quello che io farei per te se tu fossi me e io fossi te. Bella! È bella questa! Quindi la domanda, non fare agli altri ciò che non è, dovrebbe essere rivolta a Dio. Guarda che invece è una grande domanda.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Non fare agli altri ciò che non è",
+    "tema": [
+      "etica",
+      "relazioni"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -604,9 +616,12 @@
     "end": 1765.91,
     "speaker_raw": "SPEAKER_04",
     "testo": "che si trovi su un aereo o in un grande appartamento, sui gradini di una chiesa, nella favela di Kangiao. L'uomo suona di volare e scrive sui muri, noi siamo tutti uguali, ma prega nel buio la sorte del più debole. Pensare non è colpa mia, come diventa facile, ma tutto quello che può dire un uomo è. L'uomo sogna di volare. Ma non sa più come fare, l'uomo ha voglia di cambiare, ma non sa più cosa fare, l'uomo sogna di volare. E allora partenza, decollo, non c'è nessun controllo, discatto, riparto, ci sono cose che volevo. Ma tutto quello che può dire veramente un uomo è Non fate come me, non fate come me",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "uguaglianza e preghiera",
+    "tema": [
+      "uguaglianza",
+      "preghiera"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -615,9 +630,11 @@
     "end": 1841.02,
     "speaker_raw": "SPEAKER_14",
     "testo": "allora un ascoltatore Daniele dice entrare ad Arezzo in questo momento entro ad Arezzo e sentire il pezzo dei Negrita non ha prezzo che fa anche rima Arezzo è prezzo Va bene ragazzi, questa mattina il mio figlio che vomita, il fidanzato con la febbre, la gatta che vomita, la lavatrice che perde. Sono uscita di casa di corsa, il banco mi ha sentito a credito e arrivano tardi al lavoro. Noi non possiamo neanche far solo la preghiera adesso, devo dire. Questo mi sembra un caso che, cioè, devi andare giù verso Roma, lì ci sono degli esorcisti al Vaticano.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Negrita - non ha prezzo",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -637,9 +654,11 @@
     "end": 1881.81,
     "speaker_raw": "SPEAKER_14",
     "testo": "Il gatto vomita i peli, non fa mica le palline di peli. Tossisce fuori i peli. Sai dove l'ho imparata? Lascia re. ancora che imparare una cosa così per chi guarda dice eh che è importante quando faceva era bandera gatto con gli spiali va bene insomma qui mi spiace caro ascoltatrice anzi ascoltatrice sicura però non si sa insomma qua la roba è un po' più grave ma ora abbiamo da città di castello Bello che ci facciamo tutta l'Italia stamattina. E da V-Mercate abbiamo Marco e Cesare. Buongiorno ragazzi.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "gatto che tossisce",
+    "tema": [
+      "animali"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -797,9 +816,11 @@
     "end": 2026.35,
     "speaker_raw": "SPEAKER_16",
     "testo": "il mio miglior amico oltre a Cesare è me stesso da parte che ancora non conosco io faccio risposte serio?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "amico migliore",
+    "tema": [
+      "amici"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

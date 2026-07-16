@@ -55,9 +55,12 @@
     "end": 302.45,
     "speaker_raw": "SPEAKER_07",
     "testo": "rischia poco se lo tieni in basso quando cari ascoltatori quando Nicola viene qui e guarda il banco un po' come il vecchio in pensione che ha sempre scavato che va lì agli scavi e dice ma si fa così",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il vecchio in pensione",
+    "tema": [
+      "vecchiaia",
+      "lavoro"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -155,9 +158,12 @@
     "end": 387.09,
     "speaker_raw": "SPEAKER_07",
     "testo": "Poi vedi quel naso lì, come il tuo, quel naso lì, si sa che... Si promette che... Eh, sì, che a Gabunnas... Va bene, iniziamo, no? Ecco, bravo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il naso di Gabunnas",
+    "tema": [
+      "amici",
+      "naso"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -166,9 +172,12 @@
     "end": 416.75,
     "speaker_raw": "SPEAKER_09",
     "testo": "vogliamo cominciare vogliamo far commentare un attimo non so due cose abbiamo Nicola qui scusami potrebbe essere non ci vuoi commentare Skyol hai letto un po' di questa matacena questa biondona con ste tettone l'hai visto la foto dove è sdraiata sulla Ferrari sì sì sì succedono cose ecco diciamo succedono cose ti devi accinare al microfono sì lo so qui ha ragione qui ha ragione",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Matacena",
+    "tema": [
+      "libri",
+      "fotografie"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -720,9 +729,12 @@
     "end": 2242.21,
     "speaker_raw": "SPEAKER_05",
     "testo": "Le differenze è un paese, essendo un paese islamico, è molto differente dal nostro, però non per questo...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Differenze tra paesi",
+    "tema": [
+      "cultura",
+      "religione"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -731,9 +743,12 @@
     "end": 2248.55,
     "speaker_raw": "SPEAKER_07",
     "testo": "Proprio sentire la telefonata degli altri è stupendo. Come le intercettazioni, adesso arriva Scaiola e si compra mezza Budava.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Scaiola e Budava",
+    "tema": [
+      "amici",
+      "battute"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

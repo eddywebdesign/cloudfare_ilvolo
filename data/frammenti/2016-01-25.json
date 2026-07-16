@@ -395,9 +395,12 @@
     "end": 1176.71,
     "speaker_raw": "SPEAKER_00",
     "testo": "Può volere due, tre giorni, dipende, davvero non c'è una regola.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "non c'è una regola",
+    "tema": [
+      "tempo",
+      "imprevedibilità"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -439,9 +442,12 @@
     "end": 1188.55,
     "speaker_raw": "SPEAKER_00",
     "testo": "Lui, diciamo che è ordinato per quello che gli interessa, box super ordinato, in casa piace meno.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "lui è ordinato solo per quello che gli interessa",
+    "tema": [
+      "ordinamento",
+      "priorità"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -475,9 +481,12 @@
     "end": 1199.88,
     "speaker_raw": "SPEAKER_03",
     "testo": "Ecco, va bene. Senti Elena, ma c'è un sito, qualcosa...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Rinchiudeteli con la Y canale",
+    "tema": [
+      "libro",
+      "canale"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {

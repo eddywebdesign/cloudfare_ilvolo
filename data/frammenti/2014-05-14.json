@@ -293,9 +293,12 @@
     "end": 1110.57,
     "speaker_raw": "SPEAKER_11",
     "testo": "un saluto alla moglie di Emanuele da Modica il furgonista ciao benvenuta da oggi un'ascoltatrice nuova lo sai Maurizio che gli ascolti pian pianino aumentano aumentano durante questa fascia quindi ogni giorno abbiamo anche gente nuova dovremmo spiegare tutta la serie di cose a chi arriva se voi guardate le serie televisive italiane carabinieri, strattori di polizia c'è un certo punto fateci caso magari non essendo di mestiere non lo notate tu mi vuoi dire che quando noi abbiamo ucciso lui che era fratello di quello e fa tutto un pipottone di 40 minuti sai perché? perché se uno si sintonizza in quel momento in quella puntata e ha perso le altre lei in quel dialogo butta dentro ha capito? certo Maurizio che una volta facevi solo il tecnico adesso invece da quando non c'è Spen che ti tiro in mezzo e lei la moglie di Emanuele capisce grande quesito dopo la mia storia dell'asino intanto qua c'è qualcuno che dice Dio ti ha mandato l'asino ma poi dopo Dio ha mandato questa storia a me perché mi stavo facendo questa domanda e mi ha illuminato quindi grande storia che sia canali divini non è che noi diciamo cose intelligenti che Dio ci usa come canale io pensavo durante il disco di Ray Lamontagne che ero pure di Pavia che c'entra cosa c'entri tu col bucchè lui è messicano che non c'entri non capisci il nesso della storia ma poi chiede Antonio grande quesito hai poi offerto da bere all'asino certo qua vediamo grandissima la storia guarda secondo me avevi mangiato il peyote quello sono nato dopo ok Che Guevara non è nato oggi quindi hai detto una cazzata Maurizio io però sai che come sei appena arrivato devi prendere i tuoi cetrioti quello era peyote anche io ho incontrato un asino che mi ha cambiato la vita ma aveva due piedi solo signore e signori",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "carabinieri, strattori di polizia",
+    "tema": [
+      "televisivo",
+      "italiano"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -326,9 +329,12 @@
     "end": 1183.87,
     "speaker_raw": "SPEAKER_11",
     "testo": "Maurizio... Buongiorno. No, perché Maurizio mi dice, c'è un errore cortografico, non si scrive Loano ma è le apostrofe. No, si scrive... si scrive Loano, ho sbagliato l'articolo ma è così, sono quelle robe sbagliate scrive Loano ed è la cittadina più bella che c'è nel mondo caro il nostro contadino felice ci chiedi un... la Laura dice un buco di città lo hanno ma non è vero ma è bellissimo no buco lo hanno senti Andrea vuole parlare con Maurizio perché ha fatto un sogno mi sembra di aver capito dai dati che ho sul computer e non riesce a decodificarlo allora siccome dice non capisci neanche la sedia dell'asino è perché mi rompi i coglioni allora dice ho fatto un sogno assurdo me lo spiegate voi ascoltatori noi siamo pronti",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "contadino di Loano",
+    "tema": [
+      "viaggio",
+      "amore"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -351,9 +357,12 @@
     "end": 1191.76,
     "speaker_raw": "SPEAKER_11",
     "testo": "Buono, gridava o rideva? La versione in cui rideva o la versione in cui rideva?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "gridava o rideva?",
+    "tema": [
+      "umorismo",
+      "commedia"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -579,9 +588,12 @@
     "end": 2095.03,
     "speaker_raw": "SPEAKER_12",
     "testo": "No, no, sono proprio figa, mi chiamo Mary Ann.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "nome Mary Ann",
+    "tema": [
+      "identità",
+      "nome"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -643,9 +655,12 @@
     "end": 2189.02,
     "speaker_raw": "SPEAKER_11",
     "testo": "Vabbè, ma il tuo capo non ti dirà di no?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "capo e lavoro",
+    "tema": [
+      "lavoro",
+      "autorità"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

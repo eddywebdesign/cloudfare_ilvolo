@@ -437,9 +437,12 @@
     "end": 1228.5,
     "speaker_raw": "SPEAKER_11",
     "testo": "Nell'ufficio, cosa fai da Armani? la stagista la stagista, va bene, voi che chiamiamo Roberta Armani? no, no, no è nostra amica non chiamiamole su, so ti licenziano magari senti, qualcuno chiede se hai almeno un divano o qualcosa per ospitare come sei messa ad appartamenti? adesso vado in Italia e si libera la mia camera per un weekend se vogliono qui abbiamo anche, madonna quanti ragazzi che stanno scrivendo, Riccardo chiede sei bella?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La stagista di Armani",
+    "tema": [
+      "lavoro",
+      "esperienza"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -536,9 +539,12 @@
     "end": 1692.41,
     "speaker_raw": "SPEAKER_11",
     "testo": "e parlavo con Bottura di Radio Capital ciao Bottura ciao non avete registrato la nostra conversazione no altrimenti cercare un altro lavoro subito bene ragazzi questi sono loro i tre fantastici passo il tempo passo il tempo fra intervalli di vento e terreni",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La conversazione con Bottura",
+    "tema": [
+      "conversazione",
+      "libro"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -576,9 +582,12 @@
     "end": 1799.78,
     "speaker_raw": "SPEAKER_13",
     "testo": "collega modi di pensare, un ponte chiedo solamente, un ponte per andare, andare, andare.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Un ponte per andare avanti",
+    "tema": [
+      "pensiero",
+      "progresso"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -629,9 +638,12 @@
     "end": 2278.12,
     "speaker_raw": "SPEAKER_11",
     "testo": "Ci sarò anch'io Ok, Maurizio, un ascoltatore dice, se vieni a Torino e hai bisogno di un taxi, chiamami Walter. Quindi c'hai anche il taxi. Vieni? Eh, ci penso, dai. Un sacco di ascoltatori scrivono, se viene Maurizio vengo anch'io. Ma scusami, quando fai parole note? Sì. Ok, quanta gente viene a vederti, più o meno?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Maurizio e il suo libro",
+    "tema": [
+      "libro",
+      "promozione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -779,9 +791,12 @@
     "end": 2449.82,
     "speaker_raw": "SPEAKER_07",
     "testo": "Soprattutto quelle che vivono in Australia!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Le persone che vivono in Australia",
+    "tema": [
+      "Australia",
+      "vita"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -871,9 +886,12 @@
     "end": 2526.19,
     "speaker_raw": "SPEAKER_11",
     "testo": "E ti sei innamorata, non hai mai paura... all'inizio parli poco scusa non è che sai tanto di roba all'inizio basta che impari spank me spank me wait me we are coming together quelle robe lì senti quanti anni ha il bambino? uno un anno?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Gli australiani e la comunicazione",
+    "tema": [
+      "comunicazione",
+      "difficoltà"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

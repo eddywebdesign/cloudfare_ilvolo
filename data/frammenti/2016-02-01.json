@@ -726,9 +726,12 @@
     "end": 924.29,
     "speaker_raw": "SPEAKER_14",
     "testo": "Questa donna l'ho conosciuta ad un concerto insieme a... perché è amica di altri amici.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Concerto",
+    "tema": [
+      "amici",
+      "musica"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -798,9 +801,11 @@
     "end": 1007.41,
     "speaker_raw": "SPEAKER_14",
     "testo": "si chiama Coez brava Viola ci ho preso la giovane del gruppo al concetto Coez ok va bene Ho dato un nome che non è quello reale, perché non volevo fare la parte dello sborone, non volevo parlare.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Coez",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -916,9 +921,12 @@
     "end": 1122.87,
     "speaker_raw": "SPEAKER_14",
     "testo": "Sì, molto. Ok, fantastico. Bravi, continuate così. Sì, sì, l'idea è quella, e poi ti ripeto, è una persona con cui sto molto bene.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Persona speciale",
+    "tema": [
+      "amore",
+      "relazioni"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

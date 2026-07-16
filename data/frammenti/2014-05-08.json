@@ -632,9 +632,13 @@
     "end": 2381.45,
     "speaker_raw": "SPEAKER_00",
     "testo": "Allora, però vado a memoria, poi magari non ho googolato, quindi vado a memoria. Mi pare che fosse l'otto maggio, la festa dell'Immacolata Concezione. Quindi la festa del giorno in cui fu concepita anche Gesù, la mamma, eccetera, e quindi era la festa della mamma, ed era festa proprio. E si stava a casa. Si stava a casa.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Festa della mamma spostata",
+    "tema": [
+      "festa",
+      "mamma",
+      "scuola"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -643,9 +647,13 @@
     "end": 2387.29,
     "speaker_raw": "SPEAKER_14",
     "testo": "Ai tuoi tempi si stava a casa da scuola, c'erano le scuole, sì, o veniva uno in piazza e vi spiegava. Esatto.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Scuole e festa della mamma",
+    "tema": [
+      "festa",
+      "mamma",
+      "scuola"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -654,9 +662,13 @@
     "end": 2419.33,
     "speaker_raw": "SPEAKER_00",
     "testo": "poi però abolirono a un certo punto una serie di feste religiose inter settimanali diciamo così e allora le spostarono tutte per religiosamente diciamo così alla domenica successiva e di fatto alla festa della mamma che è un po' una festa così popolare automaticamente andò a coincidere sempre con la stessa festa quindi è stato spostato per non farci stare a casa ci ha spostato la mamma la mamma sta a casa noi no grazie per questa precisazione va bene allora per curiosità Chiara",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Feste religiose spostate",
+    "tema": [
+      "festa",
+      "religione",
+      "scuola"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -676,9 +688,13 @@
     "end": 2447.49,
     "speaker_raw": "SPEAKER_12",
     "testo": "non lo so non ho ancora aperto però sono resa conto dopo del danno che ho fatto no ma va bene hai detto che sei anche single magari trovi l'uomo sì ma ci sto bene single ti piacciono le donne?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Single e donne",
+    "tema": [
+      "amore",
+      "single",
+      "donne"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

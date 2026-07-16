@@ -30,9 +30,12 @@
     "end": 262.83,
     "speaker_raw": "SPEAKER_01",
     "testo": "quando uscì questa canzone di Elisa era il 2016 è uscita da qualche giorno no hero radio dj questo è il volo del mattino solo le 9 e 7 minuti di lunedì 18 gennaio del 2016 Hai visto che ho beccato nel finire? Ok, ragazzi, mestiere, mestiere, mestiere. Buongiorno. La prima mail che arriva questa mattina dice bravi ragazzi, c'è scritto bravo Fabio, ma bravi ragazzi, me la cambio così. Bravi ragazzi, muovete i governi. Avete parlato di fannulloni, di quelli che non fanno niente? Pronta una legge, nada. Che è successo?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "No Hero",
+    "tema": [
+      "musica",
+      "Elisa"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -177,9 +180,12 @@
     "end": 589.69,
     "speaker_raw": "SPEAKER_01",
     "testo": "Ma cosa c'è? Parliamo di una cosa seria invece. Questa mattina vorremmo giocare, scherzare con voi parlando di questa cosa, di quando da bambini o da adolescenti avete cominciato a uscire di casa, quindi magari andando a scuola, e avete capito che il mondo fuori era un po' diverso dal mondo dentro. Io per esempio quando ho cominciato a uscire di casa mi sono accorto che eravamo poveri. cioè economicamente non è che eravamo dei morti di fame perché avevamo il panificio però mi sono accorto della condizione perché se non hai il confronto pensi che tutti sono così allora mi ricordo io avevo degli amici anche loro poveri per esempio che a scuola non si facevano accompagnare dal papà con quella macchina orrenda ma si facevano lasciaggi un po' prima e poi arrivavano a piedi prima parlando anche Mauro ha detto siccome io abitavo nelle case popolari mi piaceva una sull'autobus scendevo sempre due fermate dopo dove c'erano le case un po' più belle e poi me la facevo a piedi magari anche guardando con faccia schipata quando passa davanti a casa sua sti straccioni guarda quello sembra mia mamma quella stracciona Quindi ci sono quelli per esempio quando tu eri povero, non so se adesso è ancora così, però ammaccavi la portiera della macchina, la macchina era bianca, poi non è che tu andavi in concessionario, andavi da quello, la bristica marrottamata, quello lì che ha tutte le marrottamazioni, e lui ti dice se ce l'hai una portiera da 126, ma è marrone, quindi... quindi c'hai la macchina bianca la portiera o il cofano verde la macchina blu sai quelle cose lì e quindi poi il bambino un po' si vergogna non lo so magari dall'aspetto fisico dei genitori non lo so dalla povertà io penso oppure anche quelli eccentrici magari arriva il papà con il cappello e la pelliccia uno dice papà non mi accompagnare va bene diteci le cose di cui vi siete un po' vergognati 347 347 342 5220 oppure diretta chioccioladj.it ma per darvi una svegliata sentite qua cosa ho scelto stamattina Nadine chi sarebbe?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Infanzia e mondo esterno",
+    "tema": [
+      "infanzia",
+      "mondo esterno"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -291,9 +297,12 @@
     "end": 971.77,
     "speaker_raw": "SPEAKER_05",
     "testo": "sia la stampa che la Repubblica James Jagger dice che in passato è stato messo in imbarazzo dall'avere un padre così ingombrante cioè tu ti vergogni che tuo padre sia Mick Jagger non che ti vergogni ci sono dei momenti in cui lui dice testò le parole quando sei adolescente un padre come il mio può essere ingombrante e farti sentire in imbarazzo ingombrante sicuro in imbarazzo perché comunque avere un padre che va con i pantaloni super attillati che si butta sulla gente però è Mick Jagger cioè non è quello che volesse Mick Jagger della periferia di Brescia ma poi immagina tutte le donne che si strappano ai reggiseni per tuo padre non ce la faccio no?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Mick Jagger e figli",
+    "tema": [
+      "genitori",
+      "fama"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -302,9 +311,12 @@
     "end": 1019.04,
     "speaker_raw": "SPEAKER_01",
     "testo": "non ce la posso fare no no no no no no non lo so le folle io ho visto gente strapparsi la camicia per mio padre sì sì erano i direttori di banca andavano a discutere però voglio dire la diciamo sempre perché è una bella storia perché immaginate l'intervista alla figlia di di Coso di Calvin Klein che diceva che lei negli anni 90 era nel pieno della sua vita sessuale diceva tutte le volte che spogliavo un uomo leggevo il nome di mio padre sulla mutanda che deve essere veramente difficile dai vieni qua, in ginocchio Calvin Klein e mia sorella si dice ah Bonetti Giovanni ti guardo come il mio amico gay che ha la croce tatuata sulla schiena e io gli dico ma perché ti sei fatto una croce così gli do il senso di colpa",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Calvin Klein e figlia",
+    "tema": [
+      "libro",
+      "sessualità"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -873,9 +885,12 @@
     "end": 2792.38,
     "speaker_raw": "SPEAKER_01",
     "testo": "Ma a 15 anni siamo come dei cagli da tartufo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "I cagnolini da tartufo",
+    "tema": [
+      "adolescenza",
+      "amici"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -909,9 +924,12 @@
     "end": 2813.14,
     "speaker_raw": "SPEAKER_00",
     "testo": "stupendo salve lo so che lei mi vede come uno piccolo sono il compagno di fece una telefonata poi me l'ha raccontato dopo ci abbiamo scherzato per anni ma lui scusami a quanti anni?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La telefonata di un compagno",
+    "tema": [
+      "amici",
+      "infanzia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -934,9 +952,12 @@
     "end": 2832.84,
     "speaker_raw": "SPEAKER_00",
     "testo": "Mi ricordo che si presentò, le disse appunto chi era, se si ricordava, che l'aveva incontrata a scuola, sono compagna di Vanessa e mi farebbe piacere portarla fuori. Scusami.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La presentazione di un compagno",
+    "tema": [
+      "amici",
+      "infanzia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

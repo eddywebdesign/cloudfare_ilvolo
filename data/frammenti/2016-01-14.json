@@ -84,9 +84,11 @@
     "end": 418.69,
     "speaker_raw": "SPEAKER_09",
     "testo": "Good morning life, good morning work, sing out you're happy too, feel so good cause I'll be seeing you soon. ... ... ... ... ... Oh, it's light, it's free It's someone waiting for me Who's holding me, my wife Good morning, love",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Buongiorno, amore",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -117,9 +119,12 @@
     "end": 670.88,
     "speaker_raw": "SPEAKER_04",
     "testo": "su là il Corriere si leggeva l'intervista ad Andrea Pirlo famosissimo giocatore di Brescia soprattutto la cosa più importante che ormai gioca negli Stati Uniti e c'è una bella intervista con una bella foto anche racconta come ti trovi in America ti manca l'Italia gli dice a parte gli affetti non mi manca niente si dice che anzi si trova molto bene negli Stati Uniti si vive bene, la gente è educata io vivo a New York, vivo a Chelsea che è anche un bel quartiere il parco, le mostre, i musei lo chiamano il maestro è il maestro, bravo maestro e dice sta molto bene e quindi sorseggiando della vodka così stamattina ho detto la solita domanda che avevo fatto qualche anno fa che c'era un libro che faceva questa domanda vi do cari ascoltatori 5 milioni di euro e finisce qua la puntata venite a ritirarli 5 milioni di euro però non puoi più tornare in Italia va bene e la viola dice ma la mia mamma ma la mia mamma può venire a trovarmi no no no volevo tutti gli elementi per decidere allora io voglio capire una cosa cari ascoltatori prendete la vostra famiglia intesa come moglie o marito o figli quindi no genitori cugini cioè la famiglia quella lì ok con i bambini così vi trasferite dove vi pare vi do io io Io Fausto Volo vi do 5 milioni di euro ma non potete mai più tornare in Italia. Ma io sotto la viola. E la viola. Io sì, io sì. Maurizio, io che 4. Sì, sì, 4, 3 e mezzo. Oh ma non puoi più vedere tua mamma, i tuoi amici. Aspetta Maurizio ti butto l'asso. Non puoi più vedere me. va bene insomma cari ascoltatori pensateci io sono sicuro che uno di voi dirà non c'è cifra per me non mi comprerete mai ma va bene ho 5 milioni infatti sto vacillando 5 milioni non vedi più la tua mamma se no su skype su skype ok 5 milioni su skype 5 milioni",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Intervista ad Andrea Pirlo",
+    "tema": [
+      "calcio",
+      "Italia"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -172,9 +177,12 @@
     "end": 828.84,
     "speaker_raw": "SPEAKER_08",
     "testo": "Can you save me? All that I can say is Can you save me? All that I can say is Can you save me?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Salvami",
+    "tema": [
+      "paura",
+      "aiuto"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {

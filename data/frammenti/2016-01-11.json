@@ -124,9 +124,11 @@
     "end": 458.72,
     "speaker_raw": "SPEAKER_00",
     "testo": "Una liaison, hanno avuto una storia lui e Mick Jagger.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "liaison con Mick Jagger",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -560,9 +562,12 @@
     "end": 1778.89,
     "speaker_raw": "SPEAKER_00",
     "testo": "Negra Maro, il posto dei santi. Sono le 9.35, abbiamo sempre più, grazie anche a voi ascoltatori, più notizie, stiamo imparando che esistono proprio i fischiatori, che in realtà è un compositore, un maestro, insomma, quindi cerchiamo attraverso anche la nostra amicizia con Rudy Zerbi di arrivare all'originale, di arrivare all'originale e sentire, insomma, perché è interessante sapere. se esiste anche proprio uno dice vabbè dai sono qua sai che a volte sul lavoro tu sei lì non fai il tuo lavoro dice chi fa questo vabbè dai io lo so fare io lo faccio io metti che lui è lì così secondo me qua dovresti mettere un flauto che fa così e poi Morricone dice ma no lasciamoci il fischio che è bellissimo ma dobbiamo sapere come nasce questa storia a proposito di colleghi Eh, va bene, allo stesso tempo. ma qualcuno ti riconosce lo dice a lui o a lei è lei o lui?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Negra Maro, il posto dei santi",
+    "tema": [
+      "libro",
+      "lettura"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -582,9 +587,12 @@
     "end": 1803.26,
     "speaker_raw": "SPEAKER_00",
     "testo": "Allora, aspetta, tu non dico il nome, non dico la città, ne inventi un altro. Bravo. Ok, non lo so, Maria da Ancona. Perfetto. Maria da Ancona. Senti l'accento marchigiano. Maria da Ancona, che lavoro fai?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Maria da Ancona",
+    "tema": [
+      "ospedale",
+      "colleghi"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -604,9 +612,12 @@
     "end": 1866.43,
     "speaker_raw": "SPEAKER_00",
     "testo": "a due quattro colleghi scusami ospedale cose di pratiche appuntamenti ricette no no no tipo ci occupiamo delle ehi come faccio una cosa interna una cosa interna interna che non attocca al pubblico con i non interna al corpo perché sei in un ospedale comunque fai un lavoro arrivi lì la mattina tu e altri tre colleghi siete in quattro e c'è una mole di lavoro da fare esatto c'è una mole di lavoro da fare quindi scusami perché in molti uffici molti giocano ai giochini perché devono fare orario perché se vanno a casa prima non gli pagano le ore ma non c'è il lavoro invece lì il lavoro c'è c'è a volte capita che ci sia meno da fare però tendenzialmente c'è sempre qualcosa da fare e lui cosa fa questo Antonio Daluca e tutti i giorni Dalluca va ancora forse per quello arriva stanco comunque cosa fa Antonio Dalluca?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Colleghi in ospedale",
+    "tema": [
+      "ospedale",
+      "lavoro"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -782,9 +793,12 @@
     "end": 2062.12,
     "speaker_raw": "SPEAKER_04",
     "testo": "Mi prenderanno come consulente del Ministero del Lavoro.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Collega e videogiochi",
+    "tema": [
+      "lavoro",
+      "distrazioni"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -1100,9 +1114,11 @@
     "end": 2972.39,
     "speaker_raw": "SPEAKER_00",
     "testo": "per ricordare De Andrè posso correggermi? prima ho detto schitarrata invece è cantata anarchica cantata anarchica e non schitarrata sarà scatarrata una cantata due volevo dire alle 9.54 che il nostro programma durando poco adesso partiva il programma adesso sarebbe partito perché si sono divise non l'avrei mai pensato si è diviso il pubblico del volo del mattino quelli che dicono c'è un sacco di gente che non fa niente soprattutto nei posti fissi e altri che dicono fanno bene a non far niente io non riesco a capire quest'ultima posizione allora mentre andava a disco di Andrea giustamente Viola dice per me non c'è mai un buon motivo per non fare niente piuttosto uno se ne va se non ti piace il tuo lavoro tu dici ma non ce n'è un altro ti tiene attaccato quello e non lo fai non riesco io divento matto però senti qua per esempio cosa dice questo ascoltatore allora intanto trovate la soluzione veloci dicono perché anch'io sono nella stessa condizione ho bisogno di sapere cioè gente che ha colleghi che non fanno niente allora caro Fabio tanto buongiorno Fabio e già è partito bene di solito è testa di capo buongiorno Fabio scusa ma stai sbagliando a voler mazziare il collega d'ufficio di Maria quello lì che non fa niente Avrai i suoi buoni motivi a non fare un... Detto da un laureato geologo di 50 anni finito a informatizzare dati sulle caldaie per una società in provincia di Bindisi ovviamente. Ovviamente a questa condizione per una mancanta di raccomandazioni politiche. Avrai i suoi buoni motivi per non fare niente in ufficio. Quindi chiedi a lui prima di pregiudicarlo, cioè di giudicarlo prima. anche sta cosa che nella vita ci vogliono le raccomandazioni ci vogliono le raccomandazioni se non sei capace ma se sei capace ce la fai lo stesso hai detto una cosa che adesso scatenerà l'inferno no quelli che dicono io sono bravissimo ma non sono stato raccomandato ma se sei bravissimo non c'è bisogno i raccomandati sono per quelli che non sono capaci tu pensi che nei garage ci siano delle super band rock che nessuno ha scoperto perché il mondo della discografia è un mondo di merda approfondiremo domani parla Le memorie di Adriano Bisogna leggere Sì sì",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "correzione su De André",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   }
 ]

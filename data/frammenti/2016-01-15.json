@@ -204,9 +204,12 @@
     "end": 1154.45,
     "speaker_raw": "SPEAKER_00",
     "testo": "no no dimmi tu cosa devo dire non lo so per esempio ai provini a volte non si leggono le sceneggiature per esempio il mio primo provino ho letto la sceneggiatura e poi mi ho detto dove è andato ieri sera il protagonista del film e non c'era scritto uno solo improvviso ok senti una cosa quanti anni hanno i tuoi figli? 4 e 8 4 e 8 ok tu sei a casa con i tuoi figli 4 e 8 è sabato tuo marito che è l'unico giorno che non lavora il sabato decide che vuole andare in bicicletta ecco decide che va via con i suoi amici in bicicletta no e tu dici già la settimana è stata dura sabato che mi puoi aiutare tu vai e quando è che tocca va bene niente il sabato pomeriggio cade dalla bicicletta si rompe una gamba e quindi non ti può più aiutare neanche la domenica torna a casa tu hai scoperto che non si è fatto malissimo però insomma c'è una fasciatura ok e a un certo punto lui ti dice ma amore sono le otto e non è ancora pronta la cena",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "provini e sceneggiature",
+    "tema": [
+      "lavoro",
+      "film"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -215,9 +218,12 @@
     "end": 1185.19,
     "speaker_raw": "SPEAKER_07",
     "testo": "tu sei di schiena le chiappe arrangiati o se no chiami la tua mammina perché io non sono tua mamma non sono la tua serva butta un po' di Freud io non sono tua madre comunque va bene perché è una santa donna tu sei di schiena al lavello lui ti dice così e sul divano ma sei di schiena e non vede la tua faccia prenditi un tempo quindi amore perché non c'è ancora la cena a tavola",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "discussione con i figli",
+    "tema": [
+      "famiglia",
+      "genitori"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -803,9 +809,12 @@
     "end": 2618.16,
     "speaker_raw": "SPEAKER_08",
     "testo": "questa mattina lentamente lavoro lavoro ma sei stata lasciata veramente? Veramente.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Lavoro e abbandono",
+    "tema": [
+      "lavoro",
+      "abbandono"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -853,9 +862,11 @@
     "end": 2640.47,
     "speaker_raw": "SPEAKER_08",
     "testo": "Azziccato, sì, lo pizzichi. Pizzicato. In varie situazioni, però in questo ci sta molto bene. Però auguriamoci che non sia così.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Pizzicato",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -875,9 +886,11 @@
     "end": 2649.51,
     "speaker_raw": "SPEAKER_08",
     "testo": "vabbè il telefono dai che faccio mi metto a piacere certo c'è questo il momento cosa c'è?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Momento di distrazione",
+    "tema": [
+      "distrazione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

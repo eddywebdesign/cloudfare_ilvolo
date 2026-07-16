@@ -80,9 +80,12 @@
     "end": 259.24,
     "speaker_raw": "SPEAKER_13",
     "testo": "Bene, saluto anche la Stellin e la Stefi che non vedo da questa inquadratura. Oggi è l'ultima puntata da New York, per fortuna, visto come si sente. La facciamo via Skype, ma poi da lunedì invece la squadra si riunisce. Inutile che fai quella faccia, Maurizio. Cioè, ci sono anche delle necessità familiari che vanno a influire sulla vita professionale. Sì, sì. Va bene, metti la sigla.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Necessità familiari e vita professionale",
+    "tema": [
+      "lavoro",
+      "famiglia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -196,9 +199,11 @@
     "end": 793.29,
     "speaker_raw": "SPEAKER_16",
     "testo": "sembra una chitarra una mini chitarrina piccolina cos'è? è l'ukulele ah vedi non capivo non ti va a sbirciare non ti va a fare la radio mica che tu sbirci a casa mia gira un po' la telecamera che vediamo anche le altre stanze ah vedi guarda",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'ukulele",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -518,9 +523,12 @@
     "end": 1686.41,
     "speaker_raw": "SPEAKER_12",
     "testo": "Ma io diciamo che mi diverto a fare il cantante della tribute band agli 83. Ma nella vita fai solo quello? No, diciamo che sono geometro, sono un geometro, mi applico le edilizie, diciamo una passione più che così una professione.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il geometra cantante",
+    "tema": [
+      "passione",
+      "professione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -986,9 +994,13 @@
     "end": 2034.97,
     "speaker_raw": "SPEAKER_08",
     "testo": "Scusa Max, eri tu sul treno o lui sul pulmino? No, no, ma infatti scambiamoci le vite a questo punto!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Scambiare le vite",
+    "tema": [
+      "amici",
+      "scambi",
+      "vite"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1174,9 +1186,13 @@
     "end": 2412.54,
     "speaker_raw": "SPEAKER_14",
     "testo": "3, 4, 5, 6, 7, 8. 8. 8. E questo ti dovrebbe dire qualcosa.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Password di Viola",
+    "tema": [
+      "password",
+      "segreto",
+      "gioco"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1218,9 +1234,13 @@
     "end": 2450.45,
     "speaker_raw": "SPEAKER_14",
     "testo": "Va bene che stai tornando in qua e quindi adesso ormai sarà troppo tardi, però se ti fossi trattenuto qualche giorno in più negli Stati Uniti avresti potuto fare l'acquisto del secolo. L'acquisto del secolo. Sì, soprattutto per te che sei un grande fan. È in vendita la villa che è stata dei Rolling Stones a Los Angeles.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Villa dei Rolling Stones",
+    "tema": [
+      "villaggio",
+      "rock",
+      "americano"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {

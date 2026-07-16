@@ -234,9 +234,12 @@
     "end": 1099.58,
     "speaker_raw": "SPEAKER_05",
     "testo": "Attenzione che il signor mulino bianco ci ascolta, eh? Cosa stai dicendo?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il Mulino Bianco",
+    "tema": [
+      "libro",
+      "infanzia"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -256,9 +259,12 @@
     "end": 1185.55,
     "speaker_raw": "SPEAKER_05",
     "testo": "dal mio punto di vista senti ieri al supermercato ho detto prendo le cose come si chiamano gli abbracci che poi quelle lì le sottomarche sono uguali agli abbracci o ai pandistelli però li chiamano in un altro modo devi guardare dove è la fabbrica in cui li fanno devi guardare dietro sì perché poi quelle aziende che fanno per la barilla fanno anche per altre comunque io ieri sera volevo dire una cosa come si chiamano quelle lì Maurizio che hanno battuto le macine nel caffè latte le campagnole le campagnole sono buonissime scusami Marco tu mi hai preso le campagnole no comunque niente ieri volevo prendere un pacchettino di campagnole piccolino che era più piccolo e invece era in omaggio se compravi altre cose vabbè c'entra un cazzo vabbè Marco da che cosa stai stiamo intergiversando da cosa hai staccato tu da un anno hai staccato Facebook come si vive io non lo uso mai però come si vive senza Facebook c'è gente che non ce la fa più secondo me ne vale la pena di iscriversi apposta per poi cancellarsi ti togli ti togli",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Supermercato e prodotti",
+    "tema": [
+      "supermercato",
+      "prodotti"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -306,9 +312,12 @@
     "end": 1354.54,
     "speaker_raw": "SPEAKER_05",
     "testo": "zucche trombette a proposito si lo sto a far ridere però ma le zucche trombette sono quelle lunghe quelle pizzellone hanno lo stesso sapore delle altre no sono un po' più morbide un po' più dolci quindi sono più consigliate per certe ricette diciamo guarda io le coltivo e le vendo poi la gente ci fa quello che vuole chiamiamo Cracco senti Marco adesso non sai se i tuoi amici si sono lasciati se la tua ex del liceo è felice con i figli come fai senza Facebook a sapere i cazzi degli altri faccio fatica a immaginare cose che mi interessino di meno di questo senti un abbraccio Marco buon lavoro anche a te ciao ciao ciao ciao ciao ciao ciao Anch'io sono uscito da due anni da Facebook, è una goduria. Ecco. Scusa, è Maurizio Vanni.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Zucche e coltivazione",
+    "tema": [
+      "zucche",
+      "coltivazione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

@@ -296,9 +296,12 @@
     "end": 1140.44,
     "speaker_raw": "SPEAKER_12",
     "testo": "No, io volevo dire, quindi, obiettivi cinematografici dei prossimi giorni, Zalone e Janis Joplin, giusto?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "obiettivi cinematografici Janis Joplin",
+    "tema": [
+      "musica",
+      "cinema"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -459,9 +462,12 @@
     "end": 1502.66,
     "speaker_raw": "SPEAKER_13",
     "testo": "Ho visto che cerca un aiutante. Io cucino questi dolci da 50 anni. Assaggi, assaggi la prego.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La cucina giapponese",
+    "tema": [
+      "cucina",
+      "giapponese"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -886,9 +892,12 @@
     "end": 2436.59,
     "speaker_raw": "SPEAKER_17",
     "testo": "You came around to say that you'd been away like I hadn't known As if I don't wake up every single day not seeing you go As if this moon of ours only shines a half to make me feel whole Grazie a tutti.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Canzone d'amore",
+    "tema": [
+      "amore",
+      "musica"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -930,9 +939,12 @@
     "end": 2622.97,
     "speaker_raw": "SPEAKER_01",
     "testo": "Ovviamente, ovviamente ci sono sicuramente molte persone che non possono accettare il fatto che non richiamiamo l'ascoltatore. Ha detto che era già nel 2015 che ci provava e non l'abbiamo mai cagato. Cioè ha perso la sua occasione. Ma tu eri già cattivo con un altro ascoltatore che doveva suonare la chitarra. Sì, sì. scorso io non do seconde opportunità tu dici la vita è un biglietto da lotteria one shot all in come si dice tutto dentro o sì o no bisogna dare sempre una seconda chance comunque allora intanto volevo ringraziarvi perché mi arrivano notizie molto belle io su vendita del mio libro sono contento e sono felice che Cozzalone sta spopolando il cinema e sono contento perché a noi c'è simpatico su internet",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La vita è un biglietto da lotteria",
+    "tema": [
+      "vita",
+      "opportunità"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

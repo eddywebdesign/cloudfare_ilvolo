@@ -71,9 +71,12 @@
     "end": 276.35,
     "speaker_raw": "SPEAKER_06",
     "testo": "Last night she said she loved me, what a pity to part I slept with for that lover, it's hard to let this die Good morning life, good morning world, how are you? Happiness, but don't sign up, what living can be? Oh, oh, oh Oh, it's life, it's free It's someone waiting for me It's only in my life, good morning love",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La vita è libera",
+    "tema": [
+      "amore",
+      "libertà"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -104,9 +107,12 @@
     "end": 335.92,
     "speaker_raw": "SPEAKER_02",
     "testo": "è tipo indovina il personaggio lo fai con il telefono o con il computer c'è una specie di genietto virtuale che ti fa delle domande tu devi rispondere sì o no e in pochissime domande devi capire di chi sta parlando indovina la persona che hai in testa",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Akinator",
+    "tema": [
+      "giochi",
+      "intelligenza"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -278,9 +284,12 @@
     "end": 848.32,
     "speaker_raw": "SPEAKER_00",
     "testo": "ma io voglio andare da Angelo a Firenze voglio andare da Angelo a Firenze perché voglio ribaltare il tavolo con le carte e cambiare completamente discorso buongiorno Angelo buongiorno Fabio ho buttato lì quella roba lì la donna con la minigonna e tu hai scritto la mia vicina di casa 50 anni superati mette ancora la minigonna ma com'è sta oltre 50 anni cioè la merita la minigonna o non riesce a give up non riesce a mollare il colpo",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La donna con la minigonna",
+    "tema": [
+      "età",
+      "vestiti"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

@@ -179,9 +179,12 @@
     "end": 367.75,
     "speaker_raw": "SPEAKER_15",
     "testo": "quindi c'ho dentro quel nervoso a 50 anni farò appugni con tutti va bene, iniziamo il programma ci sono dei cantanti che fanno ancora bocca si, i rapper no no no no pop se bastasse soltanto che ci ascolta ciao",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Cantanti e rapper",
+    "tema": [
+      "musica",
+      "generi"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -324,9 +327,12 @@
     "end": 614.83,
     "speaker_raw": "SPEAKER_14",
     "testo": "Hai capito? Tu Maurizio sai di che ti chiedi? Ma lo facciamo un figlio? No, adesso poi con il lavoro, la crisi e cose. Si faceva...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Lavoro e figli",
+    "tema": [
+      "lavoro",
+      "famiglia"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -443,9 +449,12 @@
     "end": 896.38,
     "speaker_raw": "SPEAKER_09",
     "testo": "E beh certo, ci starò dentro per i prossimi 18 mesi, quindi un'idea me la sto facendo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Inaugurazione apertura",
+    "tema": [
+      "eventi",
+      "apertura"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

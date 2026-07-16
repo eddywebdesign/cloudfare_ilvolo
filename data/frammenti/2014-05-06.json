@@ -5,9 +5,11 @@
     "end": 19.38,
     "speaker_raw": "SPEAKER_01",
     "testo": "radio dj oh yeah buongiorno a tutti i ragazzi che sia una buona giornata nel nome del padre del figlio dello spirito santo",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Buongiorno a tutti i ragazzi",
+    "tema": [
+      "saluto"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -168,9 +170,12 @@
     "end": 491.7,
     "speaker_raw": "SPEAKER_02",
     "testo": "Ok, un'ascoltatrice dice se facciamo il gioco che io penso e voi mi chiedete. Possiamo farlo anche con un'ascoltatrice? Sì, possiamo anche farlo, scusami. Va bene, iniziamo un altro un po' più difficile, ok? Ne penso un altro, fammi un po' di domande. Dopo se no iniziamo. L'hai pensato? Posso dirti? Non sarà, voglio rassicurare gli ascoltatori, non sarà così tutta la mattina. È solo un cazzeggio così di martedì. Penso, petta.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Canzone francese",
+    "tema": [
+      "musica",
+      "francia"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -179,9 +184,12 @@
     "end": 501.23,
     "speaker_raw": "SPEAKER_11",
     "testo": "è un cantante? no hai baffi?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Vasco Rossi baffi",
+    "tema": [
+      "vasco rossi",
+      "baffi"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
