@@ -83,43 +83,52 @@ def temperatura_cpu_package():
     return None
 
 
-def loop_log(intervallo_sec, csv_path, kill_cpu_threshold=None):
-    nuovo = not os.path.exists(csv_path)
-    consecutivi_pericolo = 0
+def _escribir_fila(csv_path, fila):
+    """Abre, escribe y cierra en cada llamada (en vez de mantener el archivo
+    abierto durante todo el bucle). Un handle de larga duracion se queda
+    'huerfano' y deja de escribir sin avisar si algo externo (ej. un
+    'git pull --rebase' que toque este mismo archivo) recrea el inodo por
+    debajo - vivido en produccion el 2026-07-16, varias horas de log termico
+    parado sin que el proceso muriera ni diera ningun error."""
+    nuevo = (not os.path.exists(csv_path)) or os.path.getsize(csv_path) == 0
     with open(csv_path, "a", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
-        if nuovo:
+        if nuevo:
             writer.writerow(["timestamp", "cpu_package_c", "distanza_tjmax_c", "throttling"])
-        print(f"Log termico ogni {intervallo_sec}s -> {csv_path} (Ctrl+C per fermare)")
-        if kill_cpu_threshold is not None:
-            print(f"Soglia di emergenza attiva: {kill_cpu_threshold}C per {KILL_CONSECUTIVE} letture consecutive")
-        while True:
-            cpu = temperatura_cpu_package()
-            dist = (TJMAX_DEFAULT - cpu) if cpu is not None else None
-            throttling = "SI" if (cpu is not None and cpu >= THROTTLE_SOGLIA_C) else "NO"
-            ts = datetime.datetime.now().isoformat(timespec="seconds")
-            writer.writerow([ts, cpu, dist, throttling])
-            f.flush()
-            print(f"{ts}  CPU: {cpu} C  throttling: {throttling}")
+        writer.writerow(fila)
 
-            if kill_cpu_threshold is not None and cpu is not None:
-                if cpu >= kill_cpu_threshold:
-                    consecutivi_pericolo += 1
-                else:
-                    consecutivi_pericolo = 0
-                if consecutivi_pericolo >= KILL_CONSECUTIVE:
-                    print(f"ALLARME TEMPERATURA: CPU a {cpu}C >= {kill_cpu_threshold}C per "
-                          f"{KILL_CONSECUTIVE} letture di fila. Fermo la trascrizione.")
-                    uccisi = _termina_trascrizione()
-                    ALARM_FLAG.parent.mkdir(parents=True, exist_ok=True)
-                    testo_alarm = (
-                        f"{ts} CPU a {cpu}C >= soglia {kill_cpu_threshold}C. Processi terminati: "
-                        f"{', '.join(uccisi) if uccisi else 'nessuno trovato'}\n"
-                    )
-                    ALARM_FLAG.write_text(testo_alarm, encoding="utf-8")
-                    enviar_alerta("SOBRECALENTAMIENTO - transcripcion detenida", testo_alarm)
-                    return
-            time.sleep(intervallo_sec)
+
+def loop_log(intervallo_sec, csv_path, kill_cpu_threshold=None):
+    consecutivi_pericolo = 0
+    print(f"Log termico ogni {intervallo_sec}s -> {csv_path} (Ctrl+C per fermare)")
+    if kill_cpu_threshold is not None:
+        print(f"Soglia di emergenza attiva: {kill_cpu_threshold}C per {KILL_CONSECUTIVE} letture consecutive")
+    while True:
+        cpu = temperatura_cpu_package()
+        dist = (TJMAX_DEFAULT - cpu) if cpu is not None else None
+        throttling = "SI" if (cpu is not None and cpu >= THROTTLE_SOGLIA_C) else "NO"
+        ts = datetime.datetime.now().isoformat(timespec="seconds")
+        _escribir_fila(csv_path, [ts, cpu, dist, throttling])
+        print(f"{ts}  CPU: {cpu} C  throttling: {throttling}")
+
+        if kill_cpu_threshold is not None and cpu is not None:
+            if cpu >= kill_cpu_threshold:
+                consecutivi_pericolo += 1
+            else:
+                consecutivi_pericolo = 0
+            if consecutivi_pericolo >= KILL_CONSECUTIVE:
+                print(f"ALLARME TEMPERATURA: CPU a {cpu}C >= {kill_cpu_threshold}C per "
+                      f"{KILL_CONSECUTIVE} letture di fila. Fermo la trascrizione.")
+                uccisi = _termina_trascrizione()
+                ALARM_FLAG.parent.mkdir(parents=True, exist_ok=True)
+                testo_alarm = (
+                    f"{ts} CPU a {cpu}C >= soglia {kill_cpu_threshold}C. Processi terminati: "
+                    f"{', '.join(uccisi) if uccisi else 'nessuno trovato'}\n"
+                )
+                ALARM_FLAG.write_text(testo_alarm, encoding="utf-8")
+                enviar_alerta("SOBRECALENTAMIENTO - transcripcion detenida", testo_alarm)
+                return
+        time.sleep(intervallo_sec)
 
 
 if __name__ == "__main__":
