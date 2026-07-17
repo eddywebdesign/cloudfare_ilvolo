@@ -4,5 +4,6 @@ resources/_gen/
 __pycache__/
 *.pyc
 *.log
-logs/
+logs/*
+!logs/frammenti_dubbi.json
 .claude/scheduled-tasks/

@@ -18,15 +18,15 @@ Richiede due file locali (MAI committati in git):
 import argparse
 import os
 import re
-import subprocess
 import sys
 import tempfile
 import time
 from pathlib import Path
 
-import psutil
 import requests
 import yaml
+
+from transcribe_utils import transcribe, load_lines, HF_TOKEN_FILE  # noqa: F401
 
 UPLOAD_PAUSE_SEC = 12  # pausa tra un upload e il successivo, per non farci bloccare da archive.org
 DOWNLOAD_PAUSE_SEC = 8  # pausa tra un download e il successivo da deejay.it, per non infastidirlo (nessuna fretta)
@@ -38,13 +38,7 @@ UPLOAD_MAX_RETRIES = 5
 ROOT = Path(__file__).resolve().parent.parent
 EPISODI_DIR = ROOT / "content" / "episodi"
 TRANSCRIPT_DIR = ROOT / "data" / "trascrizioni"
-HF_TOKEN_FILE = Path.home() / "hf_token.txt"
 IA_KEYS_FILE = Path.home() / "archive_org.txt"
-
-
-def load_lines(path, count=1):
-    lines = path.read_text(encoding="utf-8").strip().splitlines()
-    return lines[0] if count == 1 else lines[:count]
 
 
 def parse_front_matter(path):
@@ -69,33 +63,6 @@ def download(url, dest):
         with open(dest, "wb") as f:
             for chunk in r.iter_content(chunk_size=1 << 16):
                 f.write(chunk)
-
-
-def transcribe(audio_path, hf_token, device="cpu", compute_type="int8", batch_size=8, threads=None, cpu_affinity=None):
-    """cpu_affinity: lista di indici di core logici a cui vincolare il processo
-    (garanzia a livello di sistema operativo — --threads di whisperx da solo
-    non basta, CTranslate2/OpenMP possono comunque usare piu' core di quelli
-    dichiarati durante la fase di trascrizione)."""
-    cmd = [
-        sys.executable, "-m", "whisperx", str(audio_path),
-        "--model", "large-v3", "--language", "it",
-        "--device", device, "--compute_type", compute_type, "--batch_size", str(batch_size),
-        "--diarize", "--diarize_model", "pyannote/speaker-diarization-3.1", "--hf_token", hf_token,
-        "--output_format", "json", "--output_dir", str(audio_path.parent),
-    ]
-    if threads:
-        cmd += ["--threads", str(threads)]
-
-    proc = subprocess.Popen(cmd)
-    if cpu_affinity:
-        try:
-            psutil.Process(proc.pid).cpu_affinity(cpu_affinity)
-        except Exception as e:
-            print(f"  attenzione: impossibile impostare cpu_affinity: {e}")
-    ret = proc.wait()
-    if ret != 0:
-        raise subprocess.CalledProcessError(ret, cmd)
-    return audio_path.parent / (audio_path.stem + ".json")
 
 
 def wait_if_over_limit(identifier, access_key, max_wait_checks=10):

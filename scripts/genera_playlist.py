@@ -26,9 +26,12 @@ from pathlib import Path
 
 import requests
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from dati_root import dati_root  # noqa: E402
+
 ROOT = Path(__file__).resolve().parent.parent
 EPISODI_DIR = ROOT / "content" / "episodi"
-PLAYLIST_DIR = ROOT / "data" / "playlist"
+PLAYLIST_DIR = dati_root(ROOT) / "playlist"
 URL_TEMPLATE = "https://www.deejay.it/programmi/il-volo-del-mattino/playlist/dettaglio/{data}/"
 REQUEST_PAUSE_SEC = 3  # non martellare deejay.it
 

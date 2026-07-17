@@ -24,6 +24,7 @@
 import json
 import re
 import subprocess
+import sys
 import time
 import tkinter as tk
 from datetime import datetime
@@ -33,9 +34,12 @@ from tkinter import ttk
 import psutil
 
 REPO = Path(__file__).resolve().parent.parent.parent
+sys.path.insert(0, str(REPO / "scripts"))
+from dati_root import dati_root, logs_root  # noqa: E402
+
 CSV_TERMICO = REPO / "logs" / "trascrizioni_log_termico.csv"
-ESTADO_CLASIFICACION = REPO / "data" / "estado_clasificacion.json"
-FRAMMENTI_DIR = REPO / "data" / "frammenti"
+ESTADO_CLASIFICACION = logs_root(REPO) / "estado_clasificacion.json"
+FRAMMENTI_DIR = dati_root(REPO) / "frammenti"
 AUDIO_ROOT = Path("/mnt/ilvolo-audio-backup")
 CONSOLA_BATCH = REPO / "logs" / "consola_batch.log"
 RE_PROGRESO = re.compile(r"^\[(\d+)/(\d+)\]")

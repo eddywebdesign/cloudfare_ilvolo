@@ -41,8 +41,9 @@ import numpy as np
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import llm_multi  # noqa: E402
+from dati_root import dati_root  # noqa: E402
 CLIP_DIR = ROOT.parent / "frammenti_trascr_CPU"
-RIF_DIR = ROOT / "data" / "riferimenti"
+RIF_DIR = dati_root(ROOT) / "riferimenti"
 
 SAMPLE_RATE = 16000
 
@@ -175,10 +176,18 @@ def estrai_riferimenti(testo: str) -> list[dict]:
     Un chunk fallito (JSON malformato dal modello, errore di rete, ecc.) viene
     riprovato UNA volta prima di essere scartato, per non perdere dati per un
     singolo errore transitorio (visto in pratica: "Expecting value..." su JSON
-    troncato dal modello)."""
+    troncato dal modello).
+
+    Ogni riferimento restituito porta con se' il testo/offset del chunk da cui
+    proviene (_chunk_testo, _start_frac, _end_frac) cosi' merge_riferimenti puo'
+    salvare il contesto reale invece di un blob condiviso identico per tutte le
+    voci dell'episodio. Le voci il cui titolo/autore non compare nel testo del
+    chunk (probabile allucinazione del modello) vengono scartate qui."""
     chunks = [testo[i:i + CHUNK_SIZE] for i in range(0, len(testo), CHUNK_SIZE)]
+    n_char = max(len(testo), 1)
     print(f"    Invio {len(chunks)} chunk (Groq+Cerebras)…")
     tutti: list[dict] = []
+    scartati_non_ancorati = 0
     for idx, chunk in enumerate(chunks):
         if llm_multi.provider_disponibile() is None:
             print(f"      STOP: budget Groq E Cerebras esauriti per oggi, "
@@ -196,10 +205,24 @@ def estrai_riferimenti(testo: str) -> list[dict]:
                 else:
                     print(f"      chunk {idx+1}/{len(chunks)} ERRORE anche al secondo tentativo: {e}")
         if risultati is not None:
-            print(f"      chunk {idx+1}/{len(chunks)}: {len(risultati)} riferimenti")
-            tutti.extend(risultati)
+            char_start = idx * CHUNK_SIZE
+            char_end = min(len(testo), char_start + len(chunk))
+            ancorati = []
+            for r in risultati:
+                if not _titolo_e_ancorato_al_testo(r.get("titolo", ""), r.get("autore", ""), chunk):
+                    scartati_non_ancorati += 1
+                    continue
+                r["_chunk_testo"] = chunk
+                r["_start_frac"] = char_start / n_char
+                r["_end_frac"] = char_end / n_char
+                ancorati.append(r)
+            print(f"      chunk {idx+1}/{len(chunks)}: {len(ancorati)} riferimenti "
+                  f"({len(risultati) - len(ancorati)} scartati, non ancorati al testo)")
+            tutti.extend(ancorati)
         if idx < len(chunks) - 1:
             time.sleep(CHUNK_SLEEP)
+    if scartati_non_ancorati:
+        print(f"    Totale scartati per allucinazione probabile: {scartati_non_ancorati}")
     return tutti
 
 
@@ -222,10 +245,35 @@ def _titolo_e_doppione(titolo: str, titoli_esistenti: list[str]) -> bool:
     return False
 
 
+def _titolo_e_ancorato_al_testo(titolo: str, autore: str, testo: str) -> bool:
+    """Verifica che titolo o autore compaiano davvero nel testo di origine.
+
+    Il modello a volte 'trova' un riferimento che non e' nel testo (allucinazione).
+    Se ne' il titolo ne' l'autore compaiono (anche parzialmente) nel chunk da cui
+    e' stato estratto, scartiamo la voce invece di fidarci ciecamente."""
+    testo_norm = _normalizza_titolo(testo)
+    for candidato in (titolo, autore):
+        norm = _normalizza_titolo(candidato)
+        if not norm:
+            continue
+        parole = [p for p in norm.split() if len(p) >= 4]
+        if not parole:
+            if norm in testo_norm:
+                return True
+            continue
+        if any(p in testo_norm for p in parole):
+            return True
+    return False
+
+
 def merge_riferimenti(data_str: str, nuovi: list[dict], testo: str, durata: float) -> None:
     """Aggiunge i nuovi riferimenti al file JSON, senza sovrascrivere campi già compilati.
     Deduplica per CONTENUTO (titolo simile nella stessa categoria), non solo per id: rilanciare
-    l'estrazione su un episodio gia' fatto non deve piu' accumulare doppioni identici."""
+    l'estrazione su un episodio gia' fatto non deve piu' accumulare doppioni identici.
+
+    Ogni voce usa il proprio testo/start/end di chunk (allegati da estrai_riferimenti come
+    _chunk_testo/_start_frac/_end_frac) invece del blob `testo`/`durata` passati come argomento —
+    quei due restano solo come fallback per voci senza offset (retrocompatibilita')."""
     dest = RIF_DIR / f"{data_str}.json"
     esistenti: dict[str, dict] = {}
     if dest.exists():
@@ -272,6 +320,9 @@ def merge_riferimenti(data_str: str, nuovi: list[dict], testo: str, durata: floa
         sottocat = ref.get("sottocategoria", "").lower().strip()
         if sottocat not in sottocat_valide.get(cat, {""}):
             sottocat = ""
+        ref_testo = ref.get("_chunk_testo") or testo
+        ref_start = round(ref.get("_start_frac", 0.0) * durata, 2)
+        ref_end = round(ref.get("_end_frac", 1.0) * durata, 2)
         esistenti[rid] = {
             "id": rid,
             "categoria": cat,
@@ -280,9 +331,9 @@ def merge_riferimenti(data_str: str, nuovi: list[dict], testo: str, durata: floa
             "anno": ref.get("anno", ""),
             "autore": ref.get("autore", ""),
             "note": ref.get("note", ""),
-            "testo": testo,
-            "start": 0.0,
-            "end": durata,
+            "testo": ref_testo,
+            "start": ref_start,
+            "end": ref_end,
             "episodio_data": data_str,
         }
         titoli_per_categoria.setdefault(cat, []).append(titolo)

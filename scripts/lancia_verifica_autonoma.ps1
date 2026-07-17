@@ -3,11 +3,22 @@
 # corregge/cancella nulla da solo, coerente con verifica_frammenti.py). Autorizzato
 # dall'utente il 2026-07-14, pensato per girare da Task Scheduler senza supervisione.
 #
+# Dal 2026-07-17 verifica_frammenti.py scrive il report in
+# \\192.168.8.80\Media\ilvolodellasera\logs\ (share condiviso, vedi dati_root.py)
+# invece che in logs\ locale — per mantenere comunque uno storico leggibile via
+# git (utile per vedere QUANDO e' stata segnalata ogni allucinazione), questo
+# script copia il report nel repo locale prima di committarlo.
+#
 # Uso: powershell -ExecutionPolicy Bypass -File "scripts\lancia_verifica_autonoma.ps1"
 
 $Repo = "D:\Download\CLAUDE FOLDER\ilvolodelmattino"
 Set-Location $Repo
 $Log = "logs\verifica_autonoma.log"
+if ($env:ILVOLO_DATA_DIR) {
+    $ReportRemoto = Join-Path (Split-Path $env:ILVOLO_DATA_DIR -Parent) "logs\frammenti_dubbi.json"
+} else {
+    $ReportRemoto = "logs\frammenti_dubbi.json"
+}
 $ts = Get-Date -Format "yyyy-MM-ddTHH:mm:ss"
 
 function Scrivi($msg) {
@@ -23,6 +34,11 @@ if ($LASTEXITCODE -ne 0) {
 Scrivi "Avvio verifica_frammenti.py..."
 python scripts\verifica_frammenti.py 2>>$Log
 Scrivi "verifica_frammenti.py terminato (exit $LASTEXITCODE)."
+
+if ((Resolve-Path $ReportRemoto -ErrorAction SilentlyContinue) -and
+    ((Resolve-Path $ReportRemoto).Path -ne (Join-Path $Repo "logs\frammenti_dubbi.json"))) {
+    Copy-Item $ReportRemoto "logs\frammenti_dubbi.json" -Force
+}
 
 git add logs\frammenti_dubbi.json 2>$null
 git diff --cached --quiet

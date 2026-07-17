@@ -14,14 +14,18 @@
 
 import json
 import os
+import re
 import sys
 import time
 from pathlib import Path
 
 from groq import Groq
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from dati_root import dati_root  # noqa: E402
+
 ROOT = Path(__file__).resolve().parent.parent
-RIFERIMENTI_DIR = ROOT / "data" / "riferimenti"
+RIFERIMENTI_DIR = dati_root(ROOT) / "riferimenti"
 
 CATEGORIA_LABEL = {
     "film": "film",
@@ -52,7 +56,34 @@ Se nel testo è menzionato o chiaramente identificabile un {cat_label} specifico
 
 Se il testo è troppo vago o non identifica un {cat_label} specifico:
 {{"trovato": false, "titolo": "", "anno": "", "autore": "", "note": "non identificato"}}
+
+IMPORTANTE: rispondi "trovato": true SOLO se il titolo (o un riferimento inequivocabile
+ad esso, es. una citazione riconoscibile) compare esplicitamente nell'ESTRATTO. Non
+usare conoscenza esterna per indovinare di cosa potrebbe parlare Fabio: cibi, nomi di
+persone, marchi o argomenti generici NON sono film/libri/canzoni. Nel dubbio, "trovato": false.
 """
+
+
+def _normalizza(s):
+    return re.sub(r"[^\w\s]", "", s.lower()).strip()
+
+
+def _ancorato_al_testo(titolo, autore, testo):
+    """Scarta risultati del modello il cui titolo/autore non compare nel testo
+    di origine (probabile allucinazione, es. cibo o persona scambiati per opera)."""
+    testo_norm = _normalizza(testo)
+    for candidato in (titolo, autore):
+        norm = _normalizza(candidato)
+        if not norm:
+            continue
+        parole = [p for p in norm.split() if len(p) >= 4]
+        if not parole:
+            if norm in testo_norm:
+                return True
+            continue
+        if any(p in testo_norm for p in parole):
+            return True
+    return False
 
 
 def chiedi_groq(client, voce):
@@ -108,7 +139,12 @@ def arricchisci(client, data_str):
             print("errore, salto")
             continue
 
-        if risultato.get("trovato"):
+        if risultato.get("trovato") and not _ancorato_al_testo(
+            risultato.get("titolo", ""), risultato.get("autore", ""), v.get("testo", "")
+        ):
+            v["note"] = "non identificato"
+            print(f"scartato (non ancorato al testo: '{risultato.get('titolo', '')}')")
+        elif risultato.get("trovato"):
             v["titolo"] = risultato.get("titolo", "")
             v["anno"]   = risultato.get("anno", "")
             v["autore"] = risultato.get("autore", "")

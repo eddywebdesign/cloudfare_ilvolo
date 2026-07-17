@@ -17,9 +17,13 @@ import json
 import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from dati_root import dati_root  # noqa: E402
+
 ROOT = Path(__file__).resolve().parent.parent
-TRASCRIZIONI_DIR = ROOT / "data" / "trascrizioni"
-FRAMMENTI_DIR = ROOT / "data" / "frammenti"
+DATI = dati_root(ROOT)
+TRASCRIZIONI_DIR = DATI / "trascrizioni"
+FRAMMENTI_DIR = DATI / "frammenti"
 
 
 def raggruppa_per_speaker(segments):

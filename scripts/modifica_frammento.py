@@ -12,8 +12,11 @@ import subprocess
 import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from dati_root import dati_root  # noqa: E402
+
 ROOT = Path(__file__).resolve().parent.parent
-FRAMMENTI_DIR = ROOT / "data" / "frammenti"
+FRAMMENTI_DIR = dati_root(ROOT) / "frammenti"
 
 
 def load_json(path: Path) -> list:

@@ -17,7 +17,10 @@ from pathlib import Path
 import requests
 from groq import Groq
 
-STATO_PATH = Path(__file__).resolve().parent.parent / "logs" / "llm_budget_state.json"
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from dati_root import logs_root  # noqa: E402
+
+STATO_PATH = logs_root(Path(__file__).resolve().parent.parent) / "llm_budget_state.json"
 
 # Margine di sicurezza sotto il tetto reale, per non rischiare un 429 a meta' chiamata.
 PROVIDER_CONFIG = {

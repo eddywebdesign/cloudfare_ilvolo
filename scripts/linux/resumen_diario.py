@@ -23,8 +23,12 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from enviar_alerta import enviar_alerta  # noqa: E402
 
 REPO = Path(__file__).resolve().parent.parent.parent
+sys.path.insert(0, str(REPO / "scripts"))
+from dati_root import dati_root, logs_root  # noqa: E402
+
 LOGS_DIR = REPO / "logs"
-DATA_DIR = REPO / "data"
+DATA_DIR = dati_root(REPO)
+ESTADO_DIR = logs_root(REPO)
 NAS_ROOT = Path("/mnt/ilvolo-audio-backup")
 DURACION_MEDIA_MIN = 55
 
@@ -158,7 +162,7 @@ def progreso_total() -> list[str]:
 
 def resumen_clasificacion(hoy: datetime.date) -> list[str]:
     lineas = ["— Clasificación de contenidos (Groq/Cerebras, en el HP14) —"]
-    estado_path = DATA_DIR / "estado_clasificacion.json"
+    estado_path = ESTADO_DIR / "estado_clasificacion.json"
     if not estado_path.exists():
         lineas.append("Todavía no hay ningún dato de clasificación sincronizado desde el HP14.")
         return lineas

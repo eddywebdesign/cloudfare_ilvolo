@@ -11,8 +11,11 @@ import subprocess
 import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from dati_root import dati_root  # noqa: E402
+
 ROOT = Path(__file__).resolve().parent.parent
-RIF_DIR = ROOT / "data" / "riferimenti"
+RIF_DIR = dati_root(ROOT) / "riferimenti"
 CONTRIB_FILE = ROOT / "data" / "contribuitori.json"
 
 

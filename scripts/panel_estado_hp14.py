@@ -1,6 +1,6 @@
 # Panel unico del HP14: estado (clasificacion + tareas Windows) y ahora
 # tambien la transcripcion del K16 EN VIVO + control remoto, por SSH por
-# clave ya configurado (eddy@192.168.8.130, sin contrasena). Sustituye a la
+# clave ya configurado (eddy@192.168.8.132, sin contrasena). Sustituye a la
 # version solo-lectura anterior: el usuario pidio un unico panel porque no
 # tiene pantalla fisica en el K16 habitualmente.
 #
@@ -15,6 +15,7 @@
 import base64
 import json
 import subprocess
+import sys
 import threading
 import time
 import tkinter as tk
@@ -23,7 +24,10 @@ from pathlib import Path
 from tkinter import ttk
 
 REPO = Path(__file__).resolve().parent.parent
-ESTADO_PATH = REPO / "data" / "estado_clasificacion.json"
+sys.path.insert(0, str(REPO / "scripts"))
+from dati_root import logs_root  # noqa: E402
+
+ESTADO_PATH = logs_root(REPO) / "estado_clasificacion.json"
 INTERVALO_MS = 15000
 
 K16_HOST = "eddy@192.168.8.132"  # Ethernet fija (IP fija por regla DHCP), antes .130 por WiFi
@@ -320,7 +324,7 @@ class PanelEstado:
             cont,
             text=(
                 "Tarjetas 1-3: solo lectura. Tarjetas 4-5: en vivo vía SSH al K16 "
-                "(eddy@192.168.8.130). Sin conexión al K16, la tarjeta 4-5 lo indica."
+                "(eddy@192.168.8.132). Sin conexión al K16, la tarjeta 4-5 lo indica."
             ),
             style="Nota.TLabel",
         ).pack(pady=(4, 0))

@@ -18,8 +18,9 @@ sys.path.insert(0, str(ROOT / "scripts"))
 
 from trascrivi_locale_episodi import classifica_frammenti  # noqa: E402
 import llm_multi  # noqa: E402
+from dati_root import dati_root  # noqa: E402
 
-FRAMMENTI_DIR = ROOT / "data" / "frammenti"
+FRAMMENTI_DIR = dati_root(ROOT) / "frammenti"
 
 
 def main() -> None:

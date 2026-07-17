@@ -16,9 +16,13 @@ import re
 import sys
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from dati_root import dati_root  # noqa: E402
+
 ROOT = Path(__file__).resolve().parent.parent
-TRASCRIZIONI_DIR = ROOT / "data" / "trascrizioni"
-RIFERIMENTI_DIR = ROOT / "data" / "riferimenti"
+DATI = dati_root(ROOT)
+TRASCRIZIONI_DIR = DATI / "trascrizioni"
+RIFERIMENTI_DIR = DATI / "riferimenti"
 
 # ── Pattern di rilevamento ──────────────────────────────────────────────────
 # Ogni pattern è (nome_categoria, regex_sul_testo_di_una_finestra)

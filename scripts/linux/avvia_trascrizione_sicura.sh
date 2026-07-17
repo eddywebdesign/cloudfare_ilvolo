@@ -31,6 +31,8 @@ set -uo pipefail
 REPO="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
 cd "$REPO"
 
+export ILVOLO_DATA_DIR="${ILVOLO_DATA_DIR:-/mnt/ilvolodellasera-data}"
+
 ROOT="${1:-${ILVOLO_AUDIO_ROOT:-/mnt/ilvolo-audio-backup}}"
 DA="20160101"
 LIMIT=0

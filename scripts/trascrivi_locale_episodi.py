@@ -14,7 +14,7 @@
 #   python scripts/trascrivi_locale_episodi.py "D:\Docs\il_volo_del_mattino\Volo del mattino\audio\2016" [--da 20160120]
 #
 # Richiede (MAI committati in git):
-#   ~/hf_token.txt        token HuggingFace per la diarizzazione pyannote (gia' usato da sync_archive.py)
+#   ~/hf_token.txt        token HuggingFace per la diarizzazione pyannote (gia' usato da transcribe_utils.py)
 #   GROQ_API_KEY oppure ~/API GROQ IA.txt
 
 import argparse
@@ -28,13 +28,14 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
 
-from sync_archive import transcribe, load_lines, HF_TOKEN_FILE  # noqa: E402
+from transcribe_utils import transcribe, load_lines, HF_TOKEN_FILE  # noqa: E402
 import genera_frammenti  # noqa: E402
 from trascrivi_e_estrai_clip import estrai_riferimenti, merge_riferimenti  # noqa: E402
 import llm_multi  # noqa: E402
+from dati_root import dati_root  # noqa: E402
 
-TRASCRIZIONI_DIR = ROOT / "data" / "trascrizioni"
-FRAMMENTI_DIR = ROOT / "data" / "frammenti"
+TRASCRIZIONI_DIR = dati_root(ROOT) / "trascrizioni"
+FRAMMENTI_DIR = dati_root(ROOT) / "frammenti"
 
 CLASSIFY_SYSTEM = (
     "Sei un assistente che analizza trascrizioni del programma radiofonico italiano "

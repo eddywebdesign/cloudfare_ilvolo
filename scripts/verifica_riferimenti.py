@@ -20,9 +20,10 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
 import llm_multi  # noqa: E402
+from dati_root import dati_root, logs_root  # noqa: E402
 
-RIF_DIR = ROOT / "data" / "riferimenti"
-REPORT_PATH = ROOT / "logs" / "riferimenti_dubbi.json"
+RIF_DIR = dati_root(ROOT) / "riferimenti"
+REPORT_PATH = logs_root(ROOT) / "riferimenti_dubbi.json"
 
 BATCH = 15
 SLEEP = 13
