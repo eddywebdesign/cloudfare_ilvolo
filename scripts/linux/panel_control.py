@@ -22,6 +22,7 @@
 #   python3 scripts/linux/panel_control.py
 
 import json
+import re
 import subprocess
 import time
 import tkinter as tk
@@ -34,6 +35,10 @@ import psutil
 REPO = Path(__file__).resolve().parent.parent.parent
 CSV_TERMICO = REPO / "logs" / "trascrizioni_log_termico.csv"
 ESTADO_CLASIFICACION = REPO / "data" / "estado_clasificacion.json"
+FRAMMENTI_DIR = REPO / "data" / "frammenti"
+AUDIO_ROOT = Path("/mnt/ilvolo-audio-backup")
+CONSOLA_BATCH = REPO / "logs" / "consola_batch.log"
+RE_PROGRESO = re.compile(r"^\[(\d+)/(\d+)\]")
 DURACION_MEDIA_MIN = 55  # media observada: 44-51 min, con margen de seguridad
 INTERVALO_CHEQUEO_MS = 5000
 
@@ -95,6 +100,49 @@ def leer_estado_clasificacion():
         return None
 
 
+def formatear_fecha(iso_str) -> str:
+    """Convierte 'AAAA-MM-DDTHH:MM:SS' en 'DD/MM/AAAA HH:MM:SS' (con espacio,
+    formato mas habitual que el ISO crudo con 'T')."""
+    try:
+        return datetime.fromisoformat(iso_str).strftime("%d/%m/%Y %H:%M:%S")
+    except (ValueError, TypeError):
+        return str(iso_str)
+
+
+def contar_progreso_total():
+    """Devuelve (transcritos, total_audio) contando data/frammenti/*.json
+    contra todos los .mp3 del archivo completo (todas las carpetas ano en
+    el NAS), o (None, None) si el NAS no esta montado."""
+    try:
+        transcritos = sum(1 for _ in FRAMMENTI_DIR.glob("*.json"))
+    except OSError:
+        transcritos = None
+    if not AUDIO_ROOT.exists():
+        return transcritos, None
+    try:
+        total_audio = sum(1 for _ in AUDIO_ROOT.rglob("*.mp3"))
+    except OSError:
+        total_audio = None
+    return transcritos, total_audio
+
+
+def leer_progreso_batch():
+    """Devuelve (indice, total) del ultimo episodio en curso segun el log
+    de consola (linea '[N/M] [fecha] archivo.mp3'), o (None, None) si no
+    hay ninguna linea de progreso reciente."""
+    if not CONSOLA_BATCH.exists():
+        return None, None
+    try:
+        lineas = CONSOLA_BATCH.read_text(encoding="utf-8", errors="ignore").splitlines()
+    except OSError:
+        return None, None
+    for linea in reversed(lineas):
+        m = RE_PROGRESO.match(linea)
+        if m:
+            return int(m.group(1)), int(m.group(2))
+    return None, None
+
+
 def matar_transcripcion():
     for pattern in ("whisperx", "trascrivi_locale_episodi", "avvia_trascrizione_sicura"):
         subprocess.run(["pkill", "-9", "-f", pattern], check=False)
@@ -118,7 +166,7 @@ class Panel:
     def __init__(self, root):
         self.root = root
         self.root.title("Il volo del mattino — control")
-        self.root.geometry("440x460")
+        self.root.geometry("580x580")
         self.root.configure(bg=COLOR_FONDO)
         self.root.attributes("-topmost", True)
 
@@ -138,19 +186,19 @@ class Panel:
         style.configure("Tarjeta.TFrame", background=COLOR_TARJETA)
         style.configure(
             "Titulo.TLabel", background=COLOR_TARJETA, foreground=COLOR_TEXTO,
-            font=("Ubuntu", 15, "bold"),
+            font=("Ubuntu", 19, "bold"),
         )
         style.configure(
             "Info.TLabel", background=COLOR_TARJETA, foreground=COLOR_TEXTO_SUAVE,
-            font=("Ubuntu", 10),
+            font=("Ubuntu", 14), wraplength=520, justify="left",
         )
         style.configure(
             "Aviso.TLabel", background=COLOR_FONDO, foreground=COLOR_TEXTO_SUAVE,
-            font=("Ubuntu", 9), wraplength=400, justify="center",
+            font=("Ubuntu", 12), wraplength=540, justify="center",
         )
         style.configure(
             "Banner.TLabel", background=COLOR_NARANJA, foreground="white",
-            font=("Ubuntu", 10, "bold"), padding=8,
+            font=("Ubuntu", 13, "bold"), padding=10,
         )
         for nombre, color in (
             ("Rojo.TButton", COLOR_ROJO), ("Naranja.TButton", COLOR_NARANJA),
@@ -158,7 +206,7 @@ class Panel:
         ):
             style.configure(
                 nombre, background=color, foreground="white",
-                font=("Ubuntu", 10, "bold"), padding=10, borderwidth=0,
+                font=("Ubuntu", 13, "bold"), padding=14, borderwidth=0,
             )
             style.map(nombre, background=[("active", color)])
 
@@ -183,6 +231,9 @@ class Panel:
 
         self.lbl_temp = ttk.Label(tarjeta, text="", style="Info.TLabel")
         self.lbl_temp.pack(anchor="w", pady=(4, 0))
+
+        self.lbl_progreso_total = ttk.Label(tarjeta, text="", style="Info.TLabel")
+        self.lbl_progreso_total.pack(anchor="w", pady=(4, 0))
 
         # Tarjeta separada, solo lectura: estado de la clasificacion (HP14).
         # Llega via git (data/estado_clasificacion.json, trackeado), no hay
@@ -319,18 +370,39 @@ class Panel:
             )
             return
         color = COLOR_VERDE if estado.get("resultado") == "ok" else COLOR_ROJO
+        try:
+            total_frammenti = sum(1 for _ in FRAMMENTI_DIR.glob("*.json"))
+        except OSError:
+            total_frammenti = None
+        clasificados = estado.get("archivos_clasificados", "?")
+        total_txt = f" de {total_frammenti}" if total_frammenti else ""
         self.lbl_clasificacion.config(
             text=(
-                f"Última ejecución: {estado.get('ultima_ejecucion', '?')}\n"
+                f"Última ejecución: {formatear_fecha(estado.get('ultima_ejecucion'))}\n"
                 f"Resultado: {estado.get('resultado', '?')}\n"
-                f"Archivos: {estado.get('archivos_clasificados', '?')}"
+                f"Archivos clasificados: {clasificados}{total_txt}"
             ),
             foreground=color,
         )
 
+    def _actualizar_progreso_total(self):
+        transcritos, total_audio = contar_progreso_total()
+        if transcritos is None:
+            self.lbl_progreso_total.config(text="")
+            return
+        if total_audio:
+            self.lbl_progreso_total.config(
+                text=f"Progreso total: {transcritos} de {total_audio} episodios transcritos"
+            )
+        else:
+            self.lbl_progreso_total.config(
+                text=f"Progreso total: {transcritos} episodios transcritos (NAS no montado, sin total)"
+            )
+
     def actualizar(self):
         self._actualizar_temperatura()
         self._actualizar_clasificacion()
+        self._actualizar_progreso_total()
         p, nombre = buscar_whisperx()
 
         if p is None:
@@ -367,8 +439,10 @@ class Panel:
             transcurrido_min = (time.time() - self.inicio_actual) / 60
             restante_min = max(0, DURACION_MEDIA_MIN - transcurrido_min)
 
+            idx, total = leer_progreso_batch()
+            progreso = f" ({idx} de {total} en esta carpeta)" if idx and total else ""
             self.lbl_estado.config(text="● Transcribiendo")
-            self.lbl_episodio.config(text=f"Episodio: {self.episodio_actual}")
+            self.lbl_episodio.config(text=f"Episodio: {self.episodio_actual}{progreso}")
             self.lbl_tiempo.config(text=f"Empezado hace: {transcurrido_min:.0f} min")
             self.lbl_restante.config(
                 text=f"Estimado restante: ~{restante_min:.0f} min (media {DURACION_MEDIA_MIN} min)"

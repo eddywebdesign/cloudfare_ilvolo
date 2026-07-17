@@ -294,7 +294,7 @@ def main() -> None:
 
         dest_trascr = TRASCRIZIONI_DIR / f"{data_str}.json"
         dest_frammenti = FRAMMENTI_DIR / f"{data_str}.json"
-        print(f"[{data_str}] {mp3.name}")
+        print(f"[{idx + 1}/{len(mp3s)}] [{data_str}] {mp3.name}")
 
         print("  trascrivo con WhisperX (puo' richiedere piu' di un'ora su CPU)...")
         try:
