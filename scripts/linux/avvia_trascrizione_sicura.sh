@@ -85,7 +85,7 @@ for anno_dir in "$ROOT"/*/; do
   [[ "$anno" =~ ^[0-9]{4}$ ]] || continue  # salta sottocartelle che non sono un anno
 
   echo "=== Cartella $anno ($anno_dir) ===" | tee -a logs/ultima_esecuzione.log
-  python3 scripts/trascrivi_locale_episodi.py "$anno_dir" --da "$DA" --limit "$LIMIT" --threads 8 "${EXTRA_ARGS[@]}"
+  python3 -u scripts/trascrivi_locale_episodi.py "$anno_dir" --da "$DA" --limit "$LIMIT" --threads 8 "${EXTRA_ARGS[@]}"
   EXIT_CODE=$?
 
   if [[ -f logs/OVERHEAT_STOP.flag ]]; then

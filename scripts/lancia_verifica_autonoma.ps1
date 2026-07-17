@@ -32,7 +32,7 @@ if ($LASTEXITCODE -ne 0) {
 }
 
 Scrivi "Avvio verifica_frammenti.py..."
-python scripts\verifica_frammenti.py 2>>$Log
+python -u scripts\verifica_frammenti.py *>> $Log
 Scrivi "verifica_frammenti.py terminato (exit $LASTEXITCODE)."
 
 if ((Resolve-Path $ReportRemoto -ErrorAction SilentlyContinue) -and

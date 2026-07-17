@@ -51,7 +51,7 @@ if ($LASTEXITCODE -ne 0) {
 }
 
 Scrivi "Avvio riclassifica_frammenti.py..."
-python scripts\riclassifica_frammenti.py 2>>$Log
+python -u scripts\riclassifica_frammenti.py *>> $Log
 $exitClassificazione = $LASTEXITCODE
 Scrivi "riclassifica_frammenti.py terminato (exit $exitClassificazione)."
 
