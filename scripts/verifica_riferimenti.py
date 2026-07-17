@@ -133,7 +133,7 @@ def main() -> None:
 
     REPORT_PATH.parent.mkdir(parents=True, exist_ok=True)
     REPORT_PATH.write_text(json.dumps(dubbi, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"\nFatto. {len(dubbi)} voci dubbie salvate in {REPORT_PATH.relative_to(ROOT)} — NON cancellate, solo segnalate.")
+    print(f"\nFatto. {len(dubbi)} voci dubbie salvate in {REPORT_PATH} — NON cancellate, solo segnalate.")
 
 
 if __name__ == "__main__":

@@ -112,7 +112,7 @@ def genera(data_str, force=False):
 
     PLAYLIST_DIR.mkdir(parents=True, exist_ok=True)
     dest.write_text(json.dumps(canzoni, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"  {data_str}: {len(canzoni)} canzoni -> {dest.relative_to(ROOT)}")
+    print(f"  {data_str}: {len(canzoni)} canzoni -> {dest}")
     return True
 
 

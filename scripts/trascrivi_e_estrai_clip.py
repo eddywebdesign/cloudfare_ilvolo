@@ -343,7 +343,7 @@ def merge_riferimenti(data_str: str, nuovi: list[dict], testo: str, durata: floa
     RIF_DIR.mkdir(parents=True, exist_ok=True)
     dest.write_text(json.dumps(voci, ensure_ascii=False, indent=2), encoding="utf-8")
     dettaglio = f", {doppioni_scartati} doppioni scartati" if doppioni_scartati else ""
-    print(f"    -> {dest.relative_to(ROOT)} ({aggiunti} nuovi{dettaglio}, {len(voci)} totali)")
+    print(f"    -> {dest} ({aggiunti} nuovi{dettaglio}, {len(voci)} totali)")
 
 
 def main() -> None:

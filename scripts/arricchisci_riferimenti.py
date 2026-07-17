@@ -159,7 +159,7 @@ def arricchisci(client, data_str):
 
     if modificato:
         path.write_text(json.dumps(voci, ensure_ascii=False, indent=2), encoding="utf-8")
-        print(f"    salvato -> {path.relative_to(ROOT)}")
+        print(f"    salvato -> {path}")
 
 
 def main():

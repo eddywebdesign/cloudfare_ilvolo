@@ -199,7 +199,7 @@ def genera(data_str):
     print(
         f"  {data_str}: {totale} hit "
         f"(film={contatore['film']}, libri={contatore['libro']}, musica={contatore['musica']}) "
-        f"-> {dest.relative_to(ROOT)}"
+        f"-> {dest}"
     )
 
 

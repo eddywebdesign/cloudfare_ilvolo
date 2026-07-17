@@ -83,7 +83,7 @@ def genera(data_str):
 
     FRAMMENTI_DIR.mkdir(parents=True, exist_ok=True)
     dest.write_text(json.dumps(frammenti, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"  {data_str}: {len(frammenti)} frammenti -> {dest.relative_to(ROOT)}")
+    print(f"  {data_str}: {len(frammenti)} frammenti -> {dest}")
 
 
 def main():
