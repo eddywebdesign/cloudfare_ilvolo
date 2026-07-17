@@ -26,7 +26,7 @@ REPO = Path(__file__).resolve().parent.parent
 ESTADO_PATH = REPO / "data" / "estado_clasificacion.json"
 INTERVALO_MS = 15000
 
-K16_HOST = "eddy@192.168.8.130"
+K16_HOST = "eddy@192.168.8.132"  # Ethernet fija (IP fija por regla DHCP), antes .130 por WiFi
 SSH_TIMEOUT_S = 8
 DURACION_MEDIA_MIN = 55  # misma media usada en scripts/linux/panel_control.py
 RETRASO_REANUDAR_MIN = 30  # ver nota en k16_reanudar()

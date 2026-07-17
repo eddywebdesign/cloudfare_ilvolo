@@ -1,0 +1,6 @@
+[Unit]
+Description=Resumen diario por email del trabajo cumplido (transcripcion, clasificacion, alertas)
+
+[Service]
+Type=oneshot
+ExecStart=/usr/bin/env python3 %h/ilvolodelmattino/scripts/linux/resumen_diario.py

@@ -1,0 +1,9 @@
+[Unit]
+Description=Cada dia a las 21:00: enviar resumen del trabajo cumplido
+
+[Timer]
+OnCalendar=*-*-* 21:00:00
+Persistent=true
+
+[Install]
+WantedBy=timers.target

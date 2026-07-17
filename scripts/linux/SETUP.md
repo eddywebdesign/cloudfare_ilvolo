@@ -52,6 +52,18 @@ systemctl --user enable --now ilvolo-batch-health.timer
 systemctl --user status ilvolo-batch-health.timer
 ```
 
+## 6bis. Resumen diario por email
+Requiere `~/.config/ilvolo_alert_smtp.conf` ya configurado (mismo SMTP que usan las alertas de `check_batch_health.py`).
+```bash
+cp ~/ilvolodelmattino/scripts/linux/ilvolo-resumen-diario.service ~/.config/systemd/user/
+cp ~/ilvolodelmattino/scripts/linux/ilvolo-resumen-diario.timer ~/.config/systemd/user/
+systemctl --user daemon-reload
+systemctl --user enable --now ilvolo-resumen-diario.timer
+systemctl --user status ilvolo-resumen-diario.timer
+# Prueba manual inmediata (no espera a las 21:00):
+python3 ~/ilvolodelmattino/scripts/linux/resumen_diario.py
+```
+
 ## 7. Primo run di prova
 Il default dello script (`--limit 0`) elabora TUTTE le puntate rimanenti di ogni cartella anno prima di passare alla successiva — per un primo test controllato, limita a una sola puntata:
 ```bash
