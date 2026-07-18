@@ -25,6 +25,7 @@ import psutil
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from enviar_alerta import enviar_alerta  # noqa: E402
+from kill_coordinado import matar_trascrizione  # noqa: E402
 
 TJMAX_DEFAULT = 100.0  # soglia tipica Ryzen mobile; distanza = TJMAX - temperatura attuale
 THROTTLE_SOGLIA_C = 95.0  # coerente con la soglia di throttling osservata su Windows
@@ -34,23 +35,12 @@ ALARM_FLAG = Path("logs/OVERHEAT_STOP.flag")
 
 
 def _termina_trascrizione() -> list[str]:
-    """Uccide prima whisperx (libera subito la CPU), poi trascrivi_locale_episodi.py
-    (evita che passi all'episodio successivo). Stesso criterio di check_batch_health.py."""
-    import psutil as _psutil
-    uccisi = []
-    for pattern in ("whisperx", "trascrivi_locale_episodi"):
-        for p in _psutil.process_iter(["pid", "cmdline"]):
-            try:
-                cmdline = " ".join(p.info["cmdline"] or [])
-            except (_psutil.NoSuchProcess, _psutil.AccessDenied):
-                continue
-            if pattern in cmdline:
-                try:
-                    p.kill()
-                    uccisi.append(f"{pattern} (PID {p.pid})")
-                except (_psutil.NoSuchProcess, _psutil.AccessDenied):
-                    pass
-    return uccisi
+    """Uccide whisperx + trascrivi_locale_episodi.py (non il wrapper bash: vede
+    OVERHEAT_STOP.flag e si ferma da solo senza passare all'anno successivo)."""
+    _, riga = matar_trascrizione(
+        origine="sensori_temp.py", motivo="surriscaldamento CPU", aggressivo=False,
+    )
+    return [riga]
 
 
 def leggi_sensori(filtro=None):

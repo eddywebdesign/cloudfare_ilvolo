@@ -257,7 +257,10 @@ def main() -> None:
         device, compute_type, batch_size, threads = "cpu", "int8", 8, args.threads
         # garanzia a livello di sistema operativo: --threads da solo non basta
         # (CTranslate2/OpenMP possono comunque usare piu' core durante l'ASR)
-        cpu_affinity = list(range(args.threads))
+        # *2: un thread per core fisico distinto, non le coppie SMT (0,1 = stesso core fisico
+        # su CPU con hyperthreading/SMT interleaved) - evita di concentrare il calore su meta'
+        # dei core fisici e la contesa SMT inutile su un carico CPU-bound come questo
+        cpu_affinity = [i * 2 for i in range(args.threads)]
 
     cartella = Path(args.cartella)
     mp3s = sorted(cartella.glob("*.mp3"))

@@ -28,6 +28,17 @@ sys.path.insert(0, str(REPO / "scripts"))
 from dati_root import logs_root  # noqa: E402
 
 ESTADO_PATH = logs_root(REPO) / "estado_clasificacion.json"
+# Fallback esplicito al path di rete noto: se ILVOLO_DATA_DIR non e' visibile
+# nel processo corrente (setx non si propaga a sessioni/processi gia' aperti
+# finche' non c'e' un logout/login o un riavvio di explorer.exe - capitato
+# davvero il 18/07/2026, pannello bloccato su "Sin datos" con dati freschi e
+# validi sullo share), non arrenderti al path locale del repo (che non ha mai
+# questo file) se il path di rete e' comunque raggiungibile.
+ESTADO_PATH_FALLBACK = Path(r"\\192.168.8.80\Media\ilvolodellasera\logs\estado_clasificacion.json")
+# Persistido en disco local del HP14 (no en el share): mismo motivo que en
+# panel_control.py (K16) - si este panel se cierra/crashea con una parada
+# programada pendiente, no debe perderse en silencio.
+FLAG_STOP_PENDIENTE = REPO / "data" / "panel_hp14_stop_pendiente.flag"
 INTERVALO_MS = 15000
 
 K16_HOST = "eddy@192.168.8.132"  # Ethernet fija (IP fija por regla DHCP), antes .130 por WiFi
@@ -51,10 +62,11 @@ COLOR_NARANJA = "#c9822a"
 
 
 def leer_estado_clasificacion():
-    if not ESTADO_PATH.exists():
+    path = ESTADO_PATH if ESTADO_PATH.exists() else ESTADO_PATH_FALLBACK
+    if not path.exists():
         return None
     try:
-        return json.loads(ESTADO_PATH.read_text(encoding="utf-8-sig"))
+        return json.loads(path.read_text(encoding="utf-8-sig"))
     except (json.JSONDecodeError, OSError):
         return None
 
@@ -163,23 +175,20 @@ echo "${PID}|${EP}|${ETIME}|${TERM_LINE}|${WD}"
 
 
 def k16_detener_ahora():
-    # pkill -9 -f 'whisperx' (sin corchete) SI debe matchear cualquier
-    # variante real del proceso -- aqui no hay riesgo de auto-matcheo porque
-    # pkill mata y sale, no imprime su propia linea de comandos como resultado.
-    script = r"""
-pkill -9 -f whisperx
-pkill -9 -f trascrivi_locale_episodi
-tmux kill-session -t trascrizione 2>/dev/null
-systemctl --user stop ilvolo-watchdog-nas.timer
-sleep 1
-pgrep -f '[w]hisperx'
-"""
-    ssh_run_script(script)
-    # Verificacion aparte con el patron anti-autodetectado, para no reportar
-    # "sigue vivo" por culpa del propio pgrep de verificacion.
-    ok2, restante = ssh_run_script("pgrep -f '[w]hisperx'")
-    detenido = not ok2  # ssh_run marca ok=False cuando pgrep no encuentra nada (rc=1)
-    return detenido, restante
+    # Antes: pkill/tmux kill-session escritos a mano aqui, un cuarto mecanismo
+    # de kill independiente del panel local (panel_control.py), sensori_temp.py
+    # y check_batch_health.py, sin registro compartido de quien mato que y por
+    # que. Ahora invoca el mismo punto unico (kill_coordinado.py) que usan los
+    # otros tres, via SSH -- un solo lugar donde se decide como matar la
+    # transcripcion, un solo log (logs/kill_events.log) para reconstruir
+    # cualquier incidente futuro.
+    script = (
+        "cd ~/ilvolodelmattino && python3 scripts/linux/kill_coordinado.py "
+        "--origine 'pannello HP14' --motivo 'bottone Detener AHORA (remoto)'"
+    )
+    ok, salida = ssh_run_script(script)
+    detenido = ok  # kill_coordinado.py sale con 0 si detenido, 1 si no
+    return detenido, salida
 
 
 def k16_reanudar(retraso_min=RETRASO_REANUDAR_MIN):
@@ -220,7 +229,7 @@ class PanelEstado:
         self.root.configure(bg=COLOR_FONDO)
 
         self.pid_k16_visto = None
-        self.detener_al_finalizar = False
+        self.detener_al_finalizar = FLAG_STOP_PENDIENTE.exists()
         self._consultando_k16 = False
         self.reanudar_unidad = None  # nombre de la unidad systemd-run pendiente, si hay una
 
@@ -430,6 +439,7 @@ class PanelEstado:
         if self.detener_al_finalizar and pid_actual and pid_actual != self.pid_k16_visto and self.pid_k16_visto is not None:
             self._ejecutar_detener_ahora(origen="detección de episodio nuevo")
             self.detener_al_finalizar = False
+            FLAG_STOP_PENDIENTE.unlink(missing_ok=True)
             self._sincronizar_boton_proximo()
 
         self.pid_k16_visto = pid_actual
@@ -482,6 +492,10 @@ class PanelEstado:
 
     def toggle_detener_proximo(self):
         self.detener_al_finalizar = not self.detener_al_finalizar
+        if self.detener_al_finalizar:
+            FLAG_STOP_PENDIENTE.touch()
+        else:
+            FLAG_STOP_PENDIENTE.unlink(missing_ok=True)
         self._sincronizar_boton_proximo()
         if self.detener_al_finalizar:
             self.lbl_aviso.config(

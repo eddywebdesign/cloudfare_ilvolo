@@ -17,6 +17,9 @@ from dati_root import dati_root  # noqa: E402
 ROOT = Path(__file__).resolve().parent.parent
 RIF_DIR = dati_root(ROOT) / "riferimenti"
 CONTRIB_FILE = ROOT / "data" / "contribuitori.json"
+# Vedi commento identico in modifica_frammento.py: se i dati vivono sullo
+# share OMV, il commit locale su data/riferimenti/ non vedrebbe la modifica.
+SCRIVE_SU_SHARE_ESTERNO = RIF_DIR != ROOT / "data" / "riferimenti"
 
 
 def load_json(path: Path) -> list:
@@ -45,7 +48,13 @@ def trova_frammento(fid: str) -> tuple[Path, list, int]:
 
 
 def git_commit_push(msg: str) -> None:
-    subprocess.run(["git", "-C", str(ROOT), "add", "data/riferimenti/", "data/contribuitori.json"], check=True)
+    # contribuitori.json e' sempre locale al repo (non su dati_root), va committato
+    # comunque; data/riferimenti/ invece va saltato se vive sullo share esterno.
+    add_args = ["data/contribuitori.json"] if SCRIVE_SU_SHARE_ESTERNO else ["data/riferimenti/", "data/contribuitori.json"]
+    if SCRIVE_SU_SHARE_ESTERNO:
+        print(f"(riferimenti scritti su {RIF_DIR}, share condiviso: il commit lo fara' "
+              "il prossimo snapshot automatico; committo solo contribuitori.json qui)")
+    subprocess.run(["git", "-C", str(ROOT), "add", *add_args], check=True)
     # Niente da salvare: evita il crash di "git commit" quando non c'e' nulla in staging.
     staged = subprocess.run(
         ["git", "-C", str(ROOT), "diff", "--cached", "--quiet"]

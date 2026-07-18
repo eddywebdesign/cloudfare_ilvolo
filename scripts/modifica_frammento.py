@@ -17,6 +17,12 @@ from dati_root import dati_root  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 FRAMMENTI_DIR = dati_root(ROOT) / "frammenti"
+# Se ILVOLO_DATA_DIR e' impostata, i dati veri vivono sullo share OMV, fuori
+# dal repo git: "git add data/frammenti/" (path del repo locale) non vedrebbe
+# mai la modifica appena scritta. In quel caso il commit lo fa gia'
+# sync_snapshot_data.ps1 (mirror giornaliero OMV->repo), quindi qui va solo
+# saltato con un avviso invece di finire per committare un path stantio.
+SCRIVE_SU_SHARE_ESTERNO = FRAMMENTI_DIR != ROOT / "data" / "frammenti"
 
 
 def load_json(path: Path) -> list:
@@ -45,6 +51,10 @@ def trova_frammento(fid: str) -> tuple[Path, list, int]:
 
 
 def git_commit_push(msg: str) -> None:
+    if SCRIVE_SU_SHARE_ESTERNO:
+        print(f"(scritto su {FRAMMENTI_DIR}, share condiviso: il commit lo fara' "
+              "il prossimo snapshot automatico, non questo script)")
+        return
     subprocess.run(["git", "-C", str(ROOT), "add", "data/frammenti/"], check=True)
     # Niente da salvare (es. --reset su un frammento gia' non classificato):
     # evita il crash di "git commit" quando non c'e' nulla in staging.

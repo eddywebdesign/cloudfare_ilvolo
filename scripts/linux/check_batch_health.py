@@ -22,6 +22,7 @@ import psutil
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from enviar_alerta import enviar_alerta  # noqa: E402
+from kill_coordinado import matar_trascrizione  # noqa: E402
 
 REPO = Path(__file__).resolve().parent.parent.parent
 LOGS_DIR = REPO / "logs"
@@ -92,9 +93,19 @@ def main() -> None:
 
     stop_eseguito = False
     if STOP_FLAG.exists() and batch and not whisperx:
-        batch.terminate()
-        STOP_FLAG.unlink()
-        stop_eseguito = True
+        # aggressivo=False: qui va fermato solo il wrapper trascrivi_locale_episodi.py
+        # (whisperx non e' in esecuzione per definizione, siamo nella pausa tra
+        # episodi), non l'intera sessione tmux/wrapper bash. Verifica reale con
+        # psutil prima di consumare il flag, non solo assunta.
+        detenuto, riga = matar_trascrizione(
+            origine="check_batch_health.py", motivo="STOP_BATCH_AFTER_EPISODE.flag",
+            aggressivo=False,
+        )
+        if detenuto:
+            STOP_FLAG.unlink()
+            stop_eseguito = True
+        else:
+            anomalie.append(f"STOP_FLAG presente ma il batch non si e' fermato: {riga}")
 
     stato_riga = (f"{ts} | batch={bool(batch)} logger={bool(logger)} whisperx={bool(whisperx)} "
                   f"anomalie={len(anomalie)} stopEseguito={stop_eseguito}")

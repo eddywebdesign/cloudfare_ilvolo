@@ -22,6 +22,7 @@
 #   python3 scripts/linux/panel_control.py
 
 import json
+import os
 import re
 import subprocess
 import sys
@@ -36,11 +37,17 @@ import psutil
 REPO = Path(__file__).resolve().parent.parent.parent
 sys.path.insert(0, str(REPO / "scripts"))
 from dati_root import dati_root, logs_root  # noqa: E402
+sys.path.insert(0, str(REPO / "scripts" / "linux"))
+from kill_coordinado import matar_trascrizione  # noqa: E402
 
 CSV_TERMICO = REPO / "logs" / "trascrizioni_log_termico.csv"
 ESTADO_CLASIFICACION = logs_root(REPO) / "estado_clasificacion.json"
 FRAMMENTI_DIR = dati_root(REPO) / "frammenti"
-AUDIO_ROOT = Path("/mnt/ilvolo-audio-backup")
+# Stesso mount point di default usato da avvia_trascrizione_sicura.sh/watchdog_nas.sh,
+# ma rispettando ILVOLO_AUDIO_ROOT se impostata: prima era hardcoded qui soltanto,
+# quindi un cambio di mount point rompeva in silenzio solo il progresso nel pannello.
+AUDIO_ROOT = Path(os.environ.get("ILVOLO_AUDIO_ROOT", "/mnt/ilvolo-audio-backup"))
+FLAG_STOP_PENDIENTE = REPO / "data" / "panel_stop_pendiente.flag"
 CONSOLA_BATCH = REPO / "logs" / "consola_batch.log"
 RE_PROGRESO = re.compile(r"^\[(\d+)/(\d+)\]")
 DURACION_MEDIA_MIN = 55  # media observada: 44-51 min, con margen de seguridad
@@ -147,10 +154,9 @@ def leer_progreso_batch():
     return None, None
 
 
-def matar_transcripcion():
-    for pattern in ("whisperx", "trascrivi_locale_episodi", "avvia_trascrizione_sicura"):
-        subprocess.run(["pkill", "-9", "-f", pattern], check=False)
-    subprocess.run(["tmux", "kill-session", "-t", "trascrizione"], check=False)
+def matar_transcripcion(motivo="pannello K16"):
+    detenuto, _ = matar_trascrizione(origine="pannello K16", motivo=motivo)
+    return detenuto
 
 
 def systemctl_user(accion, unidad) -> bool:
@@ -170,17 +176,38 @@ class Panel:
     def __init__(self, root):
         self.root = root
         self.root.title("Il volo del mattino — control")
-        self.root.geometry("580x580")
+        self.root.geometry("620x800")
+        self.root.minsize(560, 700)
         self.root.configure(bg=COLOR_FONDO)
         self.root.attributes("-topmost", True)
 
-        self.pid_actual = None
-        self.episodio_actual = None
-        self.inicio_actual = None
-        self.detener_al_finalizar = False
+        # Registrar el proceso YA en marcha (si existe) como conocido antes de
+        # arrancar el bucle de actualizar(): sin esto, un reinicio del panel
+        # mientras whisperx esta corriendo hace que actualizar() lo confunda
+        # con un episodio "recien empezado" (pid_actual partia de None) y, si
+        # habia una parada programada pendiente, lo mataba al instante en vez
+        # de esperar a que terminara. Paso de verdad el 18/07: elimino' 4h de
+        # trabajo de diarizacion ya casi terminada.
+        p_inicial, nombre_inicial = buscar_whisperx()
+        self.pid_actual = p_inicial.pid if p_inicial else None
+        self.episodio_actual = nombre_inicial
+        self.inicio_actual = p_inicial.create_time() if p_inicial else None
+        # Persistido en disco: si el panel se cae o se reinicia (crash, reboot,
+        # actualizacion) mientras hay una parada programada pendiente, no se
+        # pierde en silencio - se restaura aqui. Motivo: paso de verdad el
+        # 17/07, el panel se reinicio' solo entre el clic del usuario y el
+        # fin del episodio y la orden de parar desaparecio' sin avisar.
+        self.detener_al_finalizar = FLAG_STOP_PENDIENTE.exists()
 
         self._estilo()
         self._construir_ui()
+        self._sincronizar_boton_proximo()
+        if self.detener_al_finalizar:
+            self.lbl_aviso.config(
+                text=f"↺ Parada programada restaurada al reiniciar el panel "
+                     f"(pendiente desde antes de las {hora()}).",
+                foreground=COLOR_NARANJA,
+            )
         self.actualizar()
 
     def _estilo(self):
@@ -194,11 +221,11 @@ class Panel:
         )
         style.configure(
             "Info.TLabel", background=COLOR_TARJETA, foreground=COLOR_TEXTO_SUAVE,
-            font=("Ubuntu", 14), wraplength=520, justify="left",
+            font=("Ubuntu", 14), wraplength=530, justify="left",
         )
         style.configure(
             "Aviso.TLabel", background=COLOR_FONDO, foreground=COLOR_TEXTO_SUAVE,
-            font=("Ubuntu", 12), wraplength=540, justify="center",
+            font=("Ubuntu", 12), wraplength=560, justify="center",
         )
         style.configure(
             "Banner.TLabel", background=COLOR_NARANJA, foreground="white",
@@ -287,9 +314,10 @@ class Panel:
             self.banner_programada.pack_forget()
 
     def detener_ahora(self):
-        matar_transcripcion()
+        matar_transcripcion(motivo="bottone 'Detener AHORA'")
         systemctl_user("stop", "ilvolo-watchdog-nas.timer")
         self.detener_al_finalizar = False
+        FLAG_STOP_PENDIENTE.unlink(missing_ok=True)
         self._sincronizar_boton_proximo()
 
         # Verificar de verdad, no solo asumir que el clic funciono'
@@ -309,6 +337,10 @@ class Panel:
 
     def toggle_detener_proximo(self):
         self.detener_al_finalizar = not self.detener_al_finalizar
+        if self.detener_al_finalizar:
+            FLAG_STOP_PENDIENTE.touch()
+        else:
+            FLAG_STOP_PENDIENTE.unlink(missing_ok=True)
         self._sincronizar_boton_proximo()
         if self.detener_al_finalizar:
             self.lbl_aviso.config(
@@ -335,6 +367,7 @@ class Panel:
     def reanudar(self):
         systemctl_user("start", "ilvolo-watchdog-nas.timer")
         self.detener_al_finalizar = False
+        FLAG_STOP_PENDIENTE.unlink(missing_ok=True)
         self._sincronizar_boton_proximo()
 
         time.sleep(1)
@@ -420,9 +453,10 @@ class Panel:
             if es_nuevo:
                 if self.detener_al_finalizar:
                     # el episodio anterior termino' y habiamos pedido parar: actuar YA
-                    matar_transcripcion()
+                    matar_transcripcion(motivo="parada programada (episodio nuevo detectado)")
                     systemctl_user("stop", "ilvolo-watchdog-nas.timer")
                     self.detener_al_finalizar = False
+                    FLAG_STOP_PENDIENTE.unlink(missing_ok=True)
                     self._sincronizar_boton_proximo()
                     self.lbl_aviso.config(
                         text=f"✓ Detenido automáticamente a las {hora()}, tras "

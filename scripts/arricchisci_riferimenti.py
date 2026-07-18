@@ -23,6 +23,7 @@ from groq import Groq
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from dati_root import dati_root  # noqa: E402
+from llm_multi import budget_disponibile, registra_uso  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 RIFERIMENTI_DIR = dati_root(ROOT) / "riferimenti"
@@ -95,6 +96,11 @@ def chiedi_groq(client, voce):
         testo=testo,
     )
 
+    if not budget_disponibile("groq"):
+        print("\n    budget Groq giornaliero esaurito (condiviso con la classificazione "
+              "automatica), salto")
+        return None
+
     try:
         completion = client.chat.completions.create(
             model="llama-3.1-8b-instant",
@@ -106,6 +112,8 @@ def chiedi_groq(client, voce):
             temperature=0.1,
             response_format={"type": "json_object"},
         )
+        if completion.usage:
+            registra_uso("groq", completion.usage.total_tokens)
         raw = completion.choices[0].message.content.strip()
         return json.loads(raw)
     except json.JSONDecodeError:
