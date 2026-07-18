@@ -1,11 +1,16 @@
 # Tracker + selezione multi-provider per la classificazione/estrazione via LLM: Groq
-# (500K token/giorno free) + Cerebras (1.000.000 token/giorno free, no carta) usati in
-# parallelo per triplicare circa il budget giornaliero combinato. Sostituisce
-# groq_budget.py (stessa logica di tracking, generalizzata per piu' provider).
+# (500K token/giorno free) + Cerebras (1.000.000 token/giorno free, no carta) + Gemini
+# (gemini-flash-lite-latest, free, no carta - aggiunto 2026-07-18 in vista della perdita
+# del tier gratuito Cerebras ad agosto) usati in parallelo per aumentare il budget
+# giornaliero combinato. Sostituisce groq_budget.py (stessa logica di tracking,
+# generalizzata per piu' provider).
 #
-# Nessun costo nascosto su nessuno dei due: entrambi i piani free rispondono 429/errore
-# quando il tetto e' superato, non addebitano nulla. Questo modulo si ferma PRIMA di
-# sprecare una chiamata che fallirebbe comunque.
+# Nessun costo nascosto su nessuno dei tre: tutti i piani free rispondono 429/errore
+# quando il tetto e' superato, non addebitano nulla (verificato: i modelli "gemini-2.0-*"
+# hanno limite 0 su questo account/progetto, serve billing abilitato - EVITATI apposta;
+# gemini-flash-lite-latest invece ha quota free reale, verificata con chiamate vere il
+# 2026-07-18, ~15 richieste/minuto misurate empiricamente prima del primo 429). Questo
+# modulo si ferma PRIMA di sprecare una chiamata che fallirebbe comunque.
 
 import json
 import os
@@ -23,16 +28,24 @@ from dati_root import logs_root  # noqa: E402
 STATO_PATH = logs_root(Path(__file__).resolve().parent.parent) / "llm_budget_state.json"
 
 # Margine di sicurezza sotto il tetto reale, per non rischiare un 429 a meta' chiamata.
+# Gemini: tetto giornaliero (TPD) NON verificato empiricamente (bruciare quota solo per
+# scoprirlo non valeva la pena, dato che il piano free non addebita mai nulla) - il numero
+# qui e' un placeholder alto apposta, la vera rete di sicurezza e' il retry-on-429 nel
+# client (_GeminiCompletions), stesso principio gia' usato per Cerebras.
 PROVIDER_CONFIG = {
     "groq": {"tpd": 500_000, "margine": 450_000},
     "cerebras": {"tpd": 1_000_000, "margine": 900_000},
+    "gemini": {"tpd": 2_000_000, "margine": 1_800_000},
 }
-ORDINE_PROVIDER = ["groq", "cerebras"]  # alternati per bilanciare il carico
+ORDINE_PROVIDER = ["groq", "cerebras", "gemini"]  # alternati per bilanciare il carico
 
 GROQ_MODEL = "llama-3.1-8b-instant"
 GROQ_KEY_FILE = Path.home() / "API GROQ IA.txt"
 CEREBRAS_KEY_FILE = Path.home() / "API Cerebras.txt"
 CEREBRAS_BASE_URL = "https://api.cerebras.ai/v1"
+GEMINI_MODEL = "gemini-flash-lite-latest"
+GEMINI_KEY_FILE = Path.home() / "API_google_AI.txt"
+GEMINI_BASE_URL = "https://generativelanguage.googleapis.com/v1beta"
 # Preferenza modelli Cerebras: il catalogo cambia nel tempo, si sceglie il primo
 # disponibile in questo ordine. I modelli "reasoning" (gpt-oss/glm) hanno bisogno di
 # reasoning_effort=low per non sprecare token in ragionamento nascosto (verificato).
@@ -180,6 +193,83 @@ def modello_cerebras_migliore(api_key: str) -> str:
     raise RuntimeError("Nessun modello disponibile su Cerebras (catalogo vuoto)")
 
 
+class _GeminiResponse:
+    """Stessa forma di _CerebrasResponse: resp.choices[0].message.content, resp.usage.total_tokens."""
+
+    class _Usage:
+        def __init__(self, total_tokens):
+            self.total_tokens = total_tokens
+
+    class _Message:
+        def __init__(self, content):
+            self.content = content
+
+    class _Choice:
+        def __init__(self, content):
+            self.message = _GeminiResponse._Message(content)
+
+    def __init__(self, data: dict):
+        parti = data["candidates"][0]["content"]["parts"]
+        # I modelli "thinking" (flash-lite-latest incluso) restituiscono anche parti con
+        # "thought": true prima della risposta vera - va scartata, altrimenti il JSON
+        # atteso dal chiamante si rompe (contiene il ragionamento, non la risposta).
+        content = next((p["text"] for p in parti if not p.get("thought")), parti[-1].get("text", "{}"))
+        self.choices = [_GeminiResponse._Choice(content)]
+        tot = data.get("usageMetadata", {}).get("totalTokenCount", 0)
+        self.usage = _GeminiResponse._Usage(tot)
+
+
+GEMINI_RETRY_429 = (5, 10, 20)  # stesso principio di CEREBRAS_RETRY_429: limite reale
+# ~15 richieste/minuto misurato empiricamente il 2026-07-18 (burst di chiamate vere fino
+# al primo 429, quotaId GenerateRequestsPerMinutePerProjectPerModel-FreeTier).
+
+
+class _GeminiCompletions:
+    def __init__(self, api_key: str):
+        self._api_key = api_key
+
+    def create(self, model: str, messages: list, max_tokens: int, temperature: float, response_format: dict):
+        # Adatta la forma "messages" (system/user, stile OpenAI/Groq) al formato Gemini
+        # (system_instruction separata + contents/parts, niente ruolo "system" in contents).
+        system_txt = "\n".join(m["content"] for m in messages if m["role"] == "system")
+        user_txt = "\n".join(m["content"] for m in messages if m["role"] != "system")
+        payload = {
+            "contents": [{"role": "user", "parts": [{"text": user_txt}]}],
+            "generationConfig": {"maxOutputTokens": max_tokens, "temperature": temperature},
+        }
+        if system_txt:
+            payload["systemInstruction"] = {"parts": [{"text": system_txt}]}
+        if response_format.get("type") == "json_object":
+            payload["generationConfig"]["responseMimeType"] = "application/json"
+
+        tentativi = (0,) + GEMINI_RETRY_429
+        for i, attesa in enumerate(tentativi):
+            if attesa:
+                print(f"      Gemini 429 (troppe richieste/minuto), riprovo tra {attesa}s "
+                      f"(tentativo {i+1}/{len(tentativi)})...")
+                time.sleep(attesa)
+            r = requests.post(
+                f"{GEMINI_BASE_URL}/models/{model}:generateContent?key={self._api_key}",
+                headers={"Content-Type": "application/json"}, json=payload, timeout=60,
+            )
+            if r.status_code != 429:
+                r.raise_for_status()
+                return _GeminiResponse(r.json())
+        r.raise_for_status()  # esauriti i tentativi, propaga il 429 come errore normale
+
+
+class _GeminiChat:
+    def __init__(self, api_key: str):
+        self.completions = _GeminiCompletions(api_key)
+
+
+class GeminiClient:
+    """Client minimale, stessa forma di Groq()/CerebrasClient: client.chat.completions.create(...)."""
+
+    def __init__(self, api_key: str):
+        self.chat = _GeminiChat(api_key)
+
+
 _client_cache: dict[str, object] = {}
 _model_cache: dict[str, str] = {}
 
@@ -197,6 +287,10 @@ def client_e_modello(provider: str):
             _client_cache["cerebras"] = CerebrasClient(api_key=key)
             _model_cache["cerebras"] = modello_cerebras_migliore(key)
             print(f"  Cerebras: modello selezionato '{_model_cache['cerebras']}'")
+        elif provider == "gemini":
+            key = _load_key("GEMINI_API_KEY", GEMINI_KEY_FILE, "Gemini")
+            _client_cache["gemini"] = GeminiClient(api_key=key)
+            _model_cache["gemini"] = GEMINI_MODEL
         else:
             raise ValueError(f"provider sconosciuto: {provider}")
     return _client_cache[provider], _model_cache[provider]

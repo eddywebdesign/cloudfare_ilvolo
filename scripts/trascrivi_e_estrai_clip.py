@@ -185,7 +185,7 @@ def estrai_riferimenti(testo: str) -> list[dict]:
     chunk (probabile allucinazione del modello) vengono scartate qui."""
     chunks = [testo[i:i + CHUNK_SIZE] for i in range(0, len(testo), CHUNK_SIZE)]
     n_char = max(len(testo), 1)
-    print(f"    Invio {len(chunks)} chunk (Groq+Cerebras)…")
+    print(f"    Invio {len(chunks)} chunk (Groq+Cerebras+Gemini)…")
     tutti: list[dict] = []
     scartati_non_ancorati = 0
     for idx, chunk in enumerate(chunks):

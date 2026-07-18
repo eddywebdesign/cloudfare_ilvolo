@@ -137,6 +137,24 @@ def contar_progreso_total():
     return transcritos, total_audio
 
 
+def contar_estado_classificazione():
+    """Stessa logica della pagina /frammenti-recenti/ (renderStats()): quanti
+    frammenti sono classificati, quanti in coda, quanti scartati perche'
+    troppo corti (<6 parole, mai classificati per design)."""
+    tot = classificati = brevi = 0
+    try:
+        for f in FRAMMENTI_DIR.glob("*.json"):
+            for x in json.loads(f.read_text(encoding="utf-8")):
+                tot += 1
+                if x.get("tipo"):
+                    classificati += 1
+                elif len((x.get("testo") or "").split()) < 6:
+                    brevi += 1
+    except OSError:
+        return None
+    return {"tot": tot, "classificati": classificati, "brevi": brevi, "da_fare": tot - classificati - brevi}
+
+
 def leer_progreso_batch():
     """Devuelve (indice, total) del ultimo episodio en curso segun el log
     de consola (linea '[N/M] [fecha] archivo.mp3'), o (None, None) si no
@@ -176,7 +194,11 @@ class Panel:
     def __init__(self, root):
         self.root = root
         self.root.title("Il volo del mattino — control")
-        self.root.geometry("620x800")
+        # Offset esplicito (non solo dimensione): senza, il window manager sotto
+        # RDP condiviso posiziona la finestra a sinistra, dietro la barra dock
+        # verticale di GNOME — va spostata a mano ogni volta. +160 la porta
+        # oltre la dock in tutte le risoluzioni viste finora.
+        self.root.geometry("620x800+160+60")
         self.root.minsize(560, 700)
         self.root.configure(bg=COLOR_FONDO)
         self.root.attributes("-topmost", True)
@@ -266,13 +288,17 @@ class Panel:
         self.lbl_progreso_total = ttk.Label(tarjeta, text="", style="Info.TLabel")
         self.lbl_progreso_total.pack(anchor="w", pady=(4, 0))
 
-        # Tarjeta separada, solo lectura: estado de la clasificacion (HP14).
-        # Llega via git (data/estado_clasificacion.json, trackeado), no hay
-        # conexion directa entre las dos maquinas. Sin botones a proposito.
+        self.lbl_classificazione_stats = ttk.Label(tarjeta, text="", style="Info.TLabel")
+        self.lbl_classificazione_stats.pack(anchor="w", pady=(4, 0))
+
+        # Tarjeta separada, solo lectura: estado de la clasificacion. Desde
+        # 2026-07-18 corre en OMV (cron diario), ya no en HP14 — se lee del
+        # mismo share (logs/estado_clasificacion.json via ILVOLO_LOGS_DIR),
+        # no via git ni conexion directa entre maquinas.
         tarjeta_clas = ttk.Frame(cont, style="Tarjeta.TFrame", padding=18)
         tarjeta_clas.pack(fill="x", pady=(10, 0))
         ttk.Label(
-            tarjeta_clas, text="Clasificación (HP14, Groq/Cerebras)", style="Titulo.TLabel"
+            tarjeta_clas, text="Classificazione (OMV, Groq/Cerebras)", style="Titulo.TLabel"
         ).pack(anchor="w")
         self.lbl_clasificacion = ttk.Label(tarjeta_clas, text="", style="Info.TLabel")
         self.lbl_clasificacion.pack(anchor="w", pady=(6, 0))
@@ -436,6 +462,17 @@ class Panel:
                 text=f"Progreso total: {transcritos} episodios transcritos (NAS no montado, sin total)"
             )
 
+        stats = contar_estado_classificazione()
+        if stats:
+            classificabili = stats["tot"] - stats["brevi"]
+            pct = round(stats["classificati"] / classificabili * 100) if classificabili else 0
+            self.lbl_classificazione_stats.config(
+                text=(f"Frammenti: {stats['classificati']} classificati ({pct}%), "
+                      f"{stats['da_fare']} in coda, {stats['brevi']} scartati (troppo corti)")
+            )
+        else:
+            self.lbl_classificazione_stats.config(text="")
+
     def actualizar(self):
         self._actualizar_temperatura()
         self._actualizar_clasificacion()
@@ -471,6 +508,7 @@ class Panel:
                 self.inicio_actual = p.create_time()
                 # Nuevo episodio: sacar la ventana al frente para que se vea sin abrirla a mano
                 self.root.deiconify()
+                self.root.geometry("+160+60")  # misma correccion de posicion que en __init__
                 self.root.lift()
                 self.root.attributes("-topmost", True)
 
@@ -481,7 +519,8 @@ class Panel:
             progreso = f" ({idx} de {total} en esta carpeta)" if idx and total else ""
             self.lbl_estado.config(text="● Transcribiendo")
             self.lbl_episodio.config(text=f"Episodio: {self.episodio_actual}{progreso}")
-            self.lbl_tiempo.config(text=f"Empezado hace: {transcurrido_min:.0f} min")
+            inicio_hhmm = datetime.fromtimestamp(self.inicio_actual).strftime("%d/%m %H:%M")
+            self.lbl_tiempo.config(text=f"Iniziato: {inicio_hhmm} ({transcurrido_min:.0f} min fa)")
             self.lbl_restante.config(
                 text=f"Estimado restante: ~{restante_min:.0f} min (media {DURACION_MEDIA_MIN} min)"
             )

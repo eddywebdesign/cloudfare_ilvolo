@@ -19,5 +19,14 @@ def dati_root(root_repo: Path) -> Path:
 
 
 def logs_root(root_repo: Path) -> Path:
-    """logs/ e' sempre sorella di data/ (sia in locale che nella cartella condivisa)."""
-    return dati_root(root_repo).parent / "logs"
+    """logs/ e' sorella di data/ nella struttura reale dello share OMV, ma NON lo e'
+    piu' quando data/ e' raggiunta via un mount CIFS con un nome diverso dalla
+    cartella reale (es. K16 monta .../ilvolodellasera/data su /mnt/ilvolodellasera-data:
+    il parent di quel mount point e' /mnt, non /mnt/ilvolodellasera, quindi
+    dati_root().parent/"logs" punterebbe a /mnt/logs, che non esiste).
+
+    Imposta ILVOLO_LOGS_DIR esplicitamente sulle macchine dove il mount non
+    rispecchia la struttura reale (K16); altrimenti si ricade sul calcolo
+    "sorella di data/", valido su OMV stesso e in locale."""
+    env = os.environ.get("ILVOLO_LOGS_DIR")
+    return Path(env) if env else dati_root(root_repo).parent / "logs"

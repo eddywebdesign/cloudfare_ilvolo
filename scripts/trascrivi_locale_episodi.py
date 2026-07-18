@@ -68,6 +68,17 @@ chiaramente deducibile dal testo del frammento stesso — MAI completarlo con co
 esterna tua. Se il testo menziona solo un argomento generico (es. "un disco", "un libro \
 che ho letto") senza nominare title/autore reali, NON classificarlo come riferimento — usalo \
 come aneddoto/riflessione se rispetta quei criteri, altrimenti escludilo.
+- ATTENZIONE, errori concreti gia' visti (categoria "riferimento_libro" abusata quasi quanto \
+aneddoto/riflessione — la trovi facilmente citata in un nome proprio o in una parola qualunque \
+e la scambi per un titolo): un riferimento_libro/film/musica e' SOLO un'opera pubblicata reale \
+(romanzo, film, canzone con titolo e autore identificabili), MAI un giocattolo/prodotto/marchio \
+citato per nome (es. "il triciclo di legno", "l'hoverboard"), MAI la discussione di un nome \
+proprio/soprannome di una persona (es. "Erika con la H invece che con la K"), MAI un fatto/aneddoto \
+su una persona famosa raccontato senza citare un'opera sua specifica (es. "cosa mangia la Regina \
+Elisabetta" NON e' un riferimento_libro solo perche' si parla di un libro/articolo che lo racconta, \
+a meno che il TITOLO di quel libro/articolo sia nominato esplicitamente). Nel dubbio se sia \
+un'opera vera o solo un nome/oggetto/fatto citato di passaggio, classifica come aneddoto/riflessione \
+o escludi, MAI come riferimento_libro/film/musica "a scatola chiusa".
 - Nel dubbio, ESCLUDI. Meglio pochi frammenti buoni che tanti irrilevanti.
 
 FRAMMENTI:
@@ -323,7 +334,7 @@ def main() -> None:
         try:
             frammenti_path = FRAMMENTI_DIR / f"{data_str}.json"
             frammenti = json.loads(frammenti_path.read_text(encoding="utf-8"))
-            print(f"  classifico {len(frammenti)} frammenti (Groq+Cerebras)...")
+            print(f"  classifico {len(frammenti)} frammenti (Groq+Cerebras+Gemini)...")
             classifica_frammenti(frammenti)
             frammenti_path.write_text(json.dumps(frammenti, ensure_ascii=False, indent=2), encoding="utf-8")
         except Exception as e:
@@ -341,7 +352,7 @@ def main() -> None:
                 if testo_intero.strip() and llm_multi.provider_disponibile() is None:
                     print("  SALTO riferimenti culturali: budget Groq E Cerebras esauriti per oggi.")
                 elif testo_intero.strip():
-                    print("  estraggo riferimenti culturali (Groq+Cerebras)...")
+                    print("  estraggo riferimenti culturali (Groq+Cerebras+Gemini)...")
                     refs = estrai_riferimenti(testo_intero)
                     merge_riferimenti(data_str, refs, testo_intero[:2000], durata)
             except Exception as e:

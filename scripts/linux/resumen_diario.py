@@ -1,8 +1,15 @@
 # Resumen diario por email de todo el trabajo cumplido: transcripcion K16,
-# clasificacion Groq/Cerebras (HP14, via data/estado_clasificacion.json ya
-# sincronizado por git), y alertas/errores. Reusa el mismo SMTP ya
+# clasificacion Groq/Cerebras/Gemini (corre en el OMV desde 2026-07-18, via
+# logs/estado_clasificacion.json en el share - antes corria en HP14 via git,
+# comentario viejo corregido), y alertas/errores. Reusa el mismo SMTP ya
 # configurado y probado en enviar_alerta.py -- no se crea infraestructura
 # nueva de email.
+#
+# IMPORTANTE: este script lee data/ y logs/ vía dati_root()/logs_root(), que
+# dependen de ILVOLO_DATA_DIR/ILVOLO_LOGS_DIR - el servicio systemd que lo
+# lanza DEBE tenerlas seteadas (Environment= en el .service), si no cae en
+# el path local del repo (vacío/desactualizado) y el resumen sale mal sin
+# ningún error visible - bug real encontrado y corregido el 2026-07-18.
 #
 # Pensado para leerse SIN conocimientos tecnicos: frases completas, sin
 # jerga, con el periodo exacto que cubre (para no confundir "poco trabajo
@@ -161,7 +168,7 @@ def progreso_total() -> list[str]:
 
 
 def resumen_clasificacion(hoy: datetime.date) -> list[str]:
-    lineas = ["— Clasificación de contenidos (Groq/Cerebras, en el HP14) —"]
+    lineas = ["— Clasificación de contenidos (Groq/Cerebras/Gemini, en el OMV) —"]
     estado_path = ESTADO_DIR / "estado_clasificacion.json"
     if not estado_path.exists():
         lineas.append("Todavía no hay ningún dato de clasificación sincronizado desde el HP14.")
