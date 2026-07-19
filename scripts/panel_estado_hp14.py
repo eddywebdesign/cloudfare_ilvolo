@@ -13,6 +13,7 @@
 # (o doble clic en abrir_panel_estado.bat)
 
 import base64
+import os
 import re
 import subprocess
 import sys
@@ -28,7 +29,7 @@ REPO = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO / "scripts"))
 from dati_root import logs_root  # noqa: E402
 from panel_comun import (  # noqa: E402
-    COLOR_FONDO, COLOR_NARANJA, COLOR_ROJO, COLOR_TARJETA, COLOR_TEXTO,
+    COLOR_AZUL, COLOR_FONDO, COLOR_NARANJA, COLOR_ROJO, COLOR_TARJETA, COLOR_TEXTO,
     COLOR_TEXTO_SUAVE, COLOR_VERDE, formatear_fecha, leer_json_estado,
 )
 
@@ -284,6 +285,10 @@ class PanelEstado:
             "Aviso.TLabel", background=COLOR_FONDO, foreground=COLOR_TEXTO_SUAVE,
             font=("Segoe UI", 9), wraplength=600, justify="left",
         )
+        style.configure(
+            "Link.TLabel", background=COLOR_FONDO, foreground=COLOR_AZUL,
+            font=("Segoe UI", 9, "underline"),
+        )
         for nombre, color in (
             ("Rojo.TButton", COLOR_ROJO), ("Naranja.TButton", COLOR_NARANJA),
             ("Verde.TButton", COLOR_VERDE),
@@ -366,6 +371,15 @@ class PanelEstado:
             ),
             style="Nota.TLabel",
         ).pack(pady=(4, 0))
+
+        # Visible solo si el archivo existe (hay errores capturados en
+        # actualizar() -- ver _log_error). Clic abre el .log con el programa
+        # asociado por defecto en Windows, sin necesidad de ir a buscarlo a mano.
+        self.lbl_log_errores = ttk.Label(
+            cont, text="⚠ Ver log de errores", style="Link.TLabel", cursor="hand2",
+        )
+        self.lbl_log_errores.bind("<Button-1>", self._abrir_log_errores)
+        # no se hace pack() aqui -- _actualizar_link_errores() lo muestra/oculta
 
     # -- tarjetas 1-3 (igual que antes) -----------------------------------
 
@@ -450,7 +464,18 @@ class PanelEstado:
                 threading.Thread(target=self._consultar_k16_en_hilo, daemon=True).start()
         except Exception:
             self._log_error()
+        self._actualizar_link_errores()
         self.root.after(INTERVALO_MS, self.actualizar)
+
+    def _actualizar_link_errores(self):
+        if LOG_ERRORES.exists():
+            self.lbl_log_errores.pack(pady=(6, 0))
+        else:
+            self.lbl_log_errores.pack_forget()
+
+    def _abrir_log_errores(self, event=None):
+        if LOG_ERRORES.exists():
+            os.startfile(LOG_ERRORES)
 
     def _log_error(self):
         try:
