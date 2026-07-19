@@ -18,6 +18,7 @@ import subprocess
 import sys
 import threading
 import time
+import traceback
 import tkinter as tk
 from datetime import datetime
 from pathlib import Path
@@ -41,6 +42,10 @@ TAREA_SYNC = "ilvolo-sync-snapshot-data"
 # panel_control.py (K16) - si este panel se cierra/crashea con una parada
 # programada pendiente, no debe perderse en silencio.
 FLAG_STOP_PENDIENTE = REPO / "data" / "panel_hp14_stop_pendiente.flag"
+# abrir_panel_estado.bat lancia con pythonw (nessuna console): senza questo,
+# le eccezioni catturate in actualizar() sparirebbero nel nulla invece di
+# finire da qualche parte leggibile per il debug.
+LOG_ERRORES = REPO / "logs" / "panel_estado_hp14_errores.log"
 INTERVALO_MS = 15000
 
 K16_HOST = "eddy@192.168.8.132"  # Ethernet fija (IP fija por regla DHCP), antes .130 por WiFi
@@ -71,6 +76,16 @@ def leer_estado_clasificacion():
         return json.loads(path.read_text(encoding="utf-8-sig"))
     except (json.JSONDecodeError, OSError):
         return None
+
+
+def formatear_fecha(iso_str) -> str:
+    """Convierte 'AAAA-MM-DDTHH:MM:SS[+HH:MM]' en 'DD/MM/AAAA HH:MM:SS'.
+    Mismo formato que scripts/linux/panel_control.py -- faltaba aqui, por eso
+    esta card mostraba el ISO crudo mientras la del K16 ya se veia bien."""
+    try:
+        return datetime.fromisoformat(iso_str).strftime("%d/%m/%Y %H:%M:%S")
+    except (ValueError, TypeError):
+        return str(iso_str)
 
 
 def leer_ultimo_push():
@@ -369,7 +384,7 @@ class PanelEstado:
             color = COLOR_VERDE if estado.get("resultado") == "ok" else COLOR_ROJO
             self.lbl_clas.config(
                 text=(
-                    f"Última ejecución: {estado.get('ultima_ejecucion', '?')}\n"
+                    f"Última ejecución: {formatear_fecha(estado.get('ultima_ejecucion'))}\n"
                     f"Resultado: {estado.get('resultado', '?')}\n"
                     f"Archivos clasificados: {estado.get('archivos_clasificados', '?')}\n"
                     f"{estado.get('mensaje', '')}"
@@ -406,12 +421,34 @@ class PanelEstado:
     # -- tarjetas 4-5 (K16 en vivo, en un hilo aparte) ---------------------
 
     def actualizar(self):
-        self._actualizar_clasificacion()
-        self._actualizar_push()
-        if not self._consultando_k16:
-            self._consultando_k16 = True
-            threading.Thread(target=self._consultar_k16_en_hilo, daemon=True).start()
+        # Isolato in try/except per ogni sotto-aggiornamento: un'eccezione (es.
+        # JSON corrotto) non deve impedire il self.root.after() finale, o il
+        # loop si ferma per sempre finche' non si riavvia a mano (stesso bug
+        # reale gia' risolto in scripts/linux/panel_control.py il 2026-07-19 —
+        # qui mancava lo stesso fix).
+        try:
+            self._actualizar_clasificacion()
+        except Exception:
+            self._log_error()
+        try:
+            self._actualizar_push()
+        except Exception:
+            self._log_error()
+        try:
+            if not self._consultando_k16:
+                self._consultando_k16 = True
+                threading.Thread(target=self._consultar_k16_en_hilo, daemon=True).start()
+        except Exception:
+            self._log_error()
         self.root.after(INTERVALO_MS, self.actualizar)
+
+    def _log_error(self):
+        try:
+            with open(LOG_ERRORES, "a", encoding="utf-8") as f:
+                f.write(f"{datetime.now().isoformat()}\n")
+                traceback.print_exc(file=f)
+        except OSError:
+            pass
 
     def _consultar_k16_en_hilo(self):
         estado, error = leer_estado_k16()
