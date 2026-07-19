@@ -35,6 +35,8 @@ ESTADO_PATH = logs_root(REPO) / "estado_clasificacion.json"
 # validi sullo share), non arrenderti al path locale del repo (che non ha mai
 # questo file) se il path di rete e' comunque raggiungibile.
 ESTADO_PATH_FALLBACK = Path(r"\\192.168.8.80\Media\ilvolodellasera\logs\estado_clasificacion.json")
+LOG_SYNC_PATH = REPO / "logs" / "sync_snapshot_data.log"
+TAREA_SYNC = "ilvolo-sync-snapshot-data"
 # Persistido en disco local del HP14 (no en el share): mismo motivo que en
 # panel_control.py (K16) - si este panel se cierra/crashea con una parada
 # programada pendiente, no debe perderse en silencio.
@@ -69,6 +71,26 @@ def leer_estado_clasificacion():
         return json.loads(path.read_text(encoding="utf-8-sig"))
     except (json.JSONDecodeError, OSError):
         return None
+
+
+def leer_ultimo_push():
+    """Ultima riga rilevante (PUSH OK / ERRORE / Nessuna modifica) del log di
+    sync_snapshot_data.ps1 -- dice se l'ultimo giro schedulato e' arrivato
+    fino al push o si e' fermato prima (es. working tree sporco, vedi
+    scripts/sync_snapshot_data.ps1). Le righe iniziano con un timestamp ISO
+    scritto da Scrivi(), es. '2026-07-19T12:04:58 PUSH OK: 3 file...'."""
+    if not LOG_SYNC_PATH.exists():
+        return None
+    try:
+        righe = LOG_SYNC_PATH.read_text(encoding="utf-8", errors="ignore").splitlines()
+    except OSError:
+        return None
+    for riga in reversed(righe):
+        if riga.startswith("20") and any(
+            m in riga for m in ("PUSH OK", "ERRORE", "Nessuna modifica")
+        ):
+            return riga.strip()
+    return None
 
 
 def leer_tarea_programada(nombre):
@@ -282,23 +304,24 @@ class PanelEstado:
         cont = ttk.Frame(self.root, style="Fondo.TFrame", padding=16)
         cont.pack(fill="both", expand=True)
 
-        t1 = self._tarjeta(cont, "Clasificación (Groq/Cerebras)")
-        self.lbl_clas = ttk.Label(t1, text="Cargando...", style="Info.TLabel")
+        # Le 3 tarjetas centrales siguen el orden real del pipeline: primero se
+        # transcribe (K16), luego se identifica (OMV), luego HP14 sincroniza
+        # el resultado con GitHub. Sustituyen a las 2 tarjetas de tareas
+        # Windows deshabilitadas desde 2026-07-18 (clasificacion se mudo' a
+        # OMV) que antes ocupaban este lugar y ya no reportaban nada util.
+        t1 = self._tarjeta(cont, "1. Transcripción (K16, en vivo vía SSH)")
+        self.lbl_k16_estado = ttk.Label(t1, text="Consultando K16...", style="Estado.TLabel")
+        self.lbl_k16_estado.pack(anchor="w", pady=(6, 0))
+        self.lbl_k16 = ttk.Label(t1, text="", style="Info.TLabel")
+        self.lbl_k16.pack(anchor="w", pady=(4, 0))
+
+        t2 = self._tarjeta(cont, "2. Identificación (OMV, Groq/Cerebras/Gemini)")
+        self.lbl_clas = ttk.Label(t2, text="Cargando...", style="Info.TLabel")
         self.lbl_clas.pack(anchor="w", pady=(6, 0))
 
-        t2 = self._tarjeta(cont, "Tarea diaria: IlVoloClassificazioneNotturna")
-        self.lbl_tarea1 = ttk.Label(t2, text="Cargando...", style="Info.TLabel")
-        self.lbl_tarea1.pack(anchor="w", pady=(6, 0))
-
-        t3 = self._tarjeta(cont, "Tarea diaria: IlVoloVerificaSettimanale")
-        self.lbl_tarea2 = ttk.Label(t3, text="Cargando...", style="Info.TLabel")
-        self.lbl_tarea2.pack(anchor="w", pady=(6, 0))
-
-        t4 = self._tarjeta(cont, "Transcripción K16 (en vivo, vía SSH)")
-        self.lbl_k16_estado = ttk.Label(t4, text="Consultando K16...", style="Estado.TLabel")
-        self.lbl_k16_estado.pack(anchor="w", pady=(6, 0))
-        self.lbl_k16 = ttk.Label(t4, text="", style="Info.TLabel")
-        self.lbl_k16.pack(anchor="w", pady=(4, 0))
+        t3 = self._tarjeta(cont, "3. Commit/Push (HP14 → GitHub)")
+        self.lbl_push = ttk.Label(t3, text="Cargando...", style="Info.TLabel")
+        self.lbl_push.pack(anchor="w", pady=(6, 0))
 
         t5 = self._tarjeta(cont, "Control remoto K16")
         self.lbl_control_estado = ttk.Label(t5, text="", style="Info.TLabel")
@@ -332,8 +355,8 @@ class PanelEstado:
         ttk.Label(
             cont,
             text=(
-                "Tarjetas 1-3: solo lectura. Tarjetas 4-5: en vivo vía SSH al K16 "
-                "(eddy@192.168.8.132). Sin conexión al K16, la tarjeta 4-5 lo indica."
+                "Tarjetas 2-3: solo lectura. Tarjeta 1 y control remoto: en vivo vía SSH "
+                "al K16 (eddy@192.168.8.132). Sin conexión al K16, lo indican."
             ),
             style="Nota.TLabel",
         ).pack(pady=(4, 0))
@@ -356,31 +379,35 @@ class PanelEstado:
         else:
             self.lbl_clas.config(text="Sin datos todavía.", foreground=COLOR_TEXTO_SUAVE)
 
-    def _actualizar_tareas(self):
-        for lbl, nombre in (
-            (self.lbl_tarea1, "IlVoloClassificazioneNotturna"),
-            (self.lbl_tarea2, "IlVoloVerificaSettimanale"),
-        ):
-            info = leer_tarea_programada(nombre)
-            if info:
-                ultima, resultado, proxima = info
-                color = COLOR_VERDE if resultado.strip() == "0" else COLOR_ROJO
-                lbl.config(
-                    text=(
-                        f"Última ejecución: {ultima}\n"
-                        f"Código resultado: {resultado} {'(éxito)' if resultado.strip() == '0' else '(revisar)'}\n"
-                        f"Próxima ejecución: {proxima}"
-                    ),
-                    foreground=color,
-                )
-            else:
-                lbl.config(text="No se pudo leer la tarea.", foreground=COLOR_TEXTO_SUAVE)
+    def _actualizar_push(self):
+        info = leer_tarea_programada(TAREA_SYNC)
+        ultima_linea = leer_ultimo_push()
+
+        if ultima_linea and "PUSH OK" in ultima_linea:
+            color, resumen = COLOR_VERDE, "✓ Último giro: pushed correctamente"
+        elif ultima_linea and "Nessuna modifica" in ultima_linea:
+            color, resumen = COLOR_VERDE, "✓ Último giro: nada que sincronizar"
+        elif ultima_linea and "ERRORE" in ultima_linea:
+            color, resumen = COLOR_ROJO, "✗ Último giro: fallido, revisar detalle"
+        else:
+            color, resumen = COLOR_TEXTO_SUAVE, "Sin datos del log todavía"
+
+        partes = [resumen]
+        if ultima_linea:
+            partes.append(ultima_linea)
+        if info:
+            ultima, resultado, proxima = info
+            partes.append(f"Tarea programada — última: {ultima}, código: {resultado}, próxima: {proxima}")
+        else:
+            partes.append("No se pudo leer la tarea programada.")
+
+        self.lbl_push.config(text="\n".join(partes), foreground=color)
 
     # -- tarjetas 4-5 (K16 en vivo, en un hilo aparte) ---------------------
 
     def actualizar(self):
         self._actualizar_clasificacion()
-        self._actualizar_tareas()
+        self._actualizar_push()
         if not self._consultando_k16:
             self._consultando_k16 = True
             threading.Thread(target=self._consultar_k16_en_hilo, daemon=True).start()

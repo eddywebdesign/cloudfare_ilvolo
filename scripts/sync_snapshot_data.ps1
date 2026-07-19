@@ -23,7 +23,14 @@ function Scrivi($msg) {
 
 function Push-ConReintento($n) {
     git push --quiet 2>>$Log
-    if ($LASTEXITCODE -eq 0) { return $true }
+    if ($LASTEXITCODE -eq 0) {
+        # Successo silenzioso finora: nessuna riga di log distingueva "pushato
+        # bene" da "script mai arrivato fin qui" — necessario per la card
+        # commit/push del pannello HP14, che legge questo file per sapere se
+        # l'ultimo giro e' andato a buon fine.
+        Scrivi "PUSH OK: $n file pushati su GitHub."
+        return $true
+    }
 
     Scrivi "AVVISO: git push fallito al primo tentativo, provo pull --rebase + repush..."
     git pull --rebase --quiet 2>>$Log
@@ -33,7 +40,7 @@ function Push-ConReintento($n) {
     }
     git push --quiet 2>>$Log
     if ($LASTEXITCODE -eq 0) {
-        Scrivi "Committati e pushati $n file (tras reintento)."
+        Scrivi "PUSH OK: $n file pushati su GitHub (dopo reintento)."
         return $true
     }
     Scrivi "ERRORE: git push fallito tras reintento ($n file committati en local, NO pushati)."
