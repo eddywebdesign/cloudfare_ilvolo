@@ -27,6 +27,7 @@ import re
 import subprocess
 import sys
 import time
+import traceback
 import tkinter as tk
 from datetime import datetime
 from pathlib import Path
@@ -474,21 +475,39 @@ class Panel:
             self.lbl_classificazione_stats.config(text="")
 
     def actualizar(self):
-        self._actualizar_temperatura()
-        self._actualizar_clasificacion()
-        self._actualizar_progreso_total()
-        p, nombre = buscar_whisperx()
+        # Ogni sotto-aggiornamento e' isolato nel proprio try/except: un'eccezione
+        # (es. JSON corrotto in un frammento) non deve congelare l'intero pannello.
+        # In Tkinter un'eccezione in un callback non fa crashare il processo ma
+        # interrompe silenziosamente quella invocazione — se non richiamiamo noi
+        # stessi self.root.after() nel finally, il loop di refresh si ferma per
+        # sempre (bug reale, 2026-07-18: un solo JSON corrotto ha bloccato tutte
+        # le schede, transcripcion inclusa, per oltre 24h finche' non e' stato
+        # riavviato a mano).
+        try:
+            self._actualizar_temperatura()
+        except Exception:
+            traceback.print_exc()
+        try:
+            self._actualizar_clasificacion()
+        except Exception:
+            traceback.print_exc()
+        try:
+            self._actualizar_progreso_total()
+        except Exception:
+            traceback.print_exc()
 
-        if p is None:
-            self.lbl_estado.config(text="○ Sin transcripción activa")
-            self.lbl_episodio.config(text="")
-            self.lbl_tiempo.config(text="")
-            self.lbl_restante.config(text="")
-            self.pid_actual = None
-        else:
-            es_nuevo = p.pid != self.pid_actual
-            if es_nuevo:
-                if self.detener_al_finalizar:
+        try:
+            p, nombre = buscar_whisperx()
+
+            if p is None:
+                self.lbl_estado.config(text="○ Sin transcripción activa")
+                self.lbl_episodio.config(text="")
+                self.lbl_tiempo.config(text="")
+                self.lbl_restante.config(text="")
+                self.pid_actual = None
+            else:
+                es_nuevo = p.pid != self.pid_actual
+                if es_nuevo and self.detener_al_finalizar:
                     # el episodio anterior termino' y habiamos pedido parar: actuar YA
                     matar_transcripcion(motivo="parada programada (episodio nuevo detectado)")
                     systemctl_user("stop", "ilvolo-watchdog-nas.timer")
@@ -500,32 +519,33 @@ class Panel:
                              f"finalizar el episodio anterior.",
                         foreground=COLOR_VERDE,
                     )
-                    self.root.after(INTERVALO_CHEQUEO_MS, self.actualizar)
-                    return
+                elif es_nuevo:
+                    self.pid_actual = p.pid
+                    self.episodio_actual = nombre
+                    self.inicio_actual = p.create_time()
+                    # Nuevo episodio: sacar la ventana al frente para que se vea sin abrirla a mano
+                    self.root.deiconify()
+                    self.root.geometry("+160+60")  # misma correccion de posicion que en __init__
+                    self.root.lift()
+                    self.root.attributes("-topmost", True)
 
-                self.pid_actual = p.pid
-                self.episodio_actual = nombre
-                self.inicio_actual = p.create_time()
-                # Nuevo episodio: sacar la ventana al frente para que se vea sin abrirla a mano
-                self.root.deiconify()
-                self.root.geometry("+160+60")  # misma correccion de posicion que en __init__
-                self.root.lift()
-                self.root.attributes("-topmost", True)
+                if not (es_nuevo and self.detener_al_finalizar):
+                    transcurrido_min = (time.time() - self.inicio_actual) / 60
+                    restante_min = max(0, DURACION_MEDIA_MIN - transcurrido_min)
 
-            transcurrido_min = (time.time() - self.inicio_actual) / 60
-            restante_min = max(0, DURACION_MEDIA_MIN - transcurrido_min)
-
-            idx, total = leer_progreso_batch()
-            progreso = f" ({idx} de {total} en esta carpeta)" if idx and total else ""
-            self.lbl_estado.config(text="● Transcribiendo")
-            self.lbl_episodio.config(text=f"Episodio: {self.episodio_actual}{progreso}")
-            inicio_hhmm = datetime.fromtimestamp(self.inicio_actual).strftime("%d/%m %H:%M")
-            self.lbl_tiempo.config(text=f"Iniziato: {inicio_hhmm} ({transcurrido_min:.0f} min fa)")
-            self.lbl_restante.config(
-                text=f"Estimado restante: ~{restante_min:.0f} min (media {DURACION_MEDIA_MIN} min)"
-            )
-
-        self.root.after(INTERVALO_CHEQUEO_MS, self.actualizar)
+                    idx, total = leer_progreso_batch()
+                    progreso = f" ({idx} de {total} en esta carpeta)" if idx and total else ""
+                    self.lbl_estado.config(text="● Transcribiendo")
+                    self.lbl_episodio.config(text=f"Episodio: {self.episodio_actual}{progreso}")
+                    inicio_hhmm = datetime.fromtimestamp(self.inicio_actual).strftime("%d/%m %H:%M")
+                    self.lbl_tiempo.config(text=f"Iniziato: {inicio_hhmm} ({transcurrido_min:.0f} min fa)")
+                    self.lbl_restante.config(
+                        text=f"Estimado restante: ~{restante_min:.0f} min (media {DURACION_MEDIA_MIN} min)"
+                    )
+        except Exception:
+            traceback.print_exc()
+        finally:
+            self.root.after(INTERVALO_CHEQUEO_MS, self.actualizar)
 
 
 if __name__ == "__main__":
