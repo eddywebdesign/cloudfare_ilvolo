@@ -453,6 +453,11 @@ class PanelEstado:
 
         self.lbl_push.config(text="\n".join(lineas), foreground=color)
 
+        if LOG_SYNC_PATH.exists():
+            self.lbl_link_sync.pack(anchor="w", pady=(6, 0))
+        else:
+            self.lbl_link_sync.pack_forget()
+
     # -- tarjetas 4-5 (K16 en vivo, en un hilo aparte) ---------------------
 
     def actualizar(self):
