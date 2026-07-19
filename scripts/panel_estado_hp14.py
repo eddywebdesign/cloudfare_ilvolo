@@ -82,10 +82,16 @@ def leer_ultimo_push():
     except OSError:
         return None
     for riga in reversed(righe):
-        if riga.startswith("20") and any(
-            m in riga for m in ("PUSH OK", "ERRORE", "Nessuna modifica")
+        # .strip(" \x00") in piu' del solito .strip(): righe scritte da git
+        # tramite "2>>" in PowerShell 5.1 potevano lasciare un NUL residuo
+        # davanti al timestamp (bug reale, fix alla radice in
+        # sync_snapshot_data.ps1 il 2026-07-19) -- tollerarlo qui e' una rete
+        # di sicurezza in piu', non l'unico fix.
+        riga_pulita = riga.strip(" \x00﻿")
+        if riga_pulita.startswith("20") and any(
+            m in riga_pulita for m in ("PUSH OK", "ERRORE", "Nessuna modifica")
         ):
-            return riga.strip()
+            return riga_pulita
     return None
 
 
@@ -333,6 +339,11 @@ class PanelEstado:
         t3 = self._tarjeta(cont, "3. Commit/Push (HP14 → GitHub)")
         self.lbl_push = ttk.Label(t3, text="Cargando...", style="Info.TLabel")
         self.lbl_push.pack(anchor="w", pady=(6, 0))
+        self.lbl_link_sync = ttk.Label(
+            t3, text="📄 Abrir sync_snapshot_data.log", style="Link.TLabel", cursor="hand2",
+        )
+        self.lbl_link_sync.bind("<Button-1>", self._abrir_log_sync)
+        # no se hace pack() aqui -- _actualizar_push() lo muestra/oculta segun exista el archivo
 
         t5 = self._tarjeta(cont, "Control remoto K16")
         self.lbl_control_estado = ttk.Label(t5, text="", style="Info.TLabel")
@@ -476,6 +487,10 @@ class PanelEstado:
     def _abrir_log_errores(self, event=None):
         if LOG_ERRORES.exists():
             os.startfile(LOG_ERRORES)
+
+    def _abrir_log_sync(self, event=None):
+        if LOG_SYNC_PATH.exists():
+            os.startfile(LOG_SYNC_PATH)
 
     def _log_error(self):
         try:

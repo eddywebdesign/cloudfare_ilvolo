@@ -26,6 +26,21 @@ function Scrivi($msg) {
     "$ts $msg" | Out-File -FilePath $Log -Append -Encoding utf8
 }
 
+# In PowerShell 5.1, redirigere lo stderr di un comando nativo con "2>>file"
+# lo incapsula in un ErrorRecord e lo serializza con un encoding diverso da
+# quello (utf8) usato da Scrivi() per le righe sopra/sotto -- il risultato e'
+# un file con blocchi UTF-16 in mezzo a blocchi UTF-8, che lascia un byte NUL
+# residuo capace di corrompere l'inizio della riga successiva. Bug reale
+# trovato il 2026-07-19: la card push del pannello HP14 non trovava MAI
+# l'ultima riga "ERRORE"/"PUSH OK" per colpa di questo NUL residuo davanti al
+# timestamp. "2>&1 | Out-File -Encoding utf8" forza tutto a testo prima di
+# scrivere, niente piu' ErrorRecord grezzi nel file.
+function Log-Comando {
+    param([scriptblock]$Comando)
+    & $Comando 2>&1 | Out-File -FilePath $Log -Append -Encoding utf8
+    return $LASTEXITCODE
+}
+
 function Scrivi-EstadoPush($resultado, $mensaje, $n) {
     $obj = [ordered]@{
         resultado = $resultado
@@ -41,8 +56,8 @@ function Scrivi-EstadoPush($resultado, $mensaje, $n) {
 }
 
 function Push-ConReintento($n) {
-    git push --quiet 2>>$Log
-    if ($LASTEXITCODE -eq 0) {
+    $exit = Log-Comando { git push --quiet }
+    if ($exit -eq 0) {
         # Successo silenzioso finora: nessuna riga di log distingueva "pushato
         # bene" da "script mai arrivato fin qui" — necessario per la card
         # commit/push del pannello K16 (panel_control.py), che legge
@@ -53,14 +68,14 @@ function Push-ConReintento($n) {
     }
 
     Scrivi "AVVISO: git push fallito al primo tentativo, provo pull --rebase + repush..."
-    git pull --rebase --quiet 2>>$Log
-    if ($LASTEXITCODE -ne 0) {
+    $exit = Log-Comando { git pull --rebase --quiet }
+    if ($exit -ne 0) {
         Scrivi "ERRORE: pull --rebase di recupero fallito. $n file committati in locale, NON pushati."
         Scrivi-EstadoPush "error" "pull --rebase di recupero fallito, $n file committati in locale NON pushati." $n
         return $false
     }
-    git push --quiet 2>>$Log
-    if ($LASTEXITCODE -eq 0) {
+    $exit = Log-Comando { git push --quiet }
+    if ($exit -eq 0) {
         Scrivi "PUSH OK: $n file pushati su GitHub (dopo reintento)."
         Scrivi-EstadoPush "ok" "$n file pushati su GitHub (dopo reintento)." $n
         return $true
@@ -84,13 +99,13 @@ if (-not (Test-Path $ShareData)) {
 $stashOutput = git stash push --include-untracked --quiet --message "sync_snapshot_data auto-stash" 2>>$Log
 $haStash = $LASTEXITCODE -eq 0 -and $stashOutput -notmatch "No local changes to save"
 
-git pull --rebase --quiet 2>>$Log
-if ($LASTEXITCODE -ne 0) {
+$exit = Log-Comando { git pull --rebase --quiet }
+if ($exit -ne 0) {
     Scrivi "ERRORE: git pull --rebase fallito, salto questo giro."
     Scrivi-EstadoPush "error" "git pull --rebase fallito, giro saltato." 0
     if ($haStash) {
-        git stash pop --quiet 2>>$Log
-        if ($LASTEXITCODE -ne 0) {
+        $exit = Log-Comando { git stash pop --quiet }
+        if ($exit -ne 0) {
             Scrivi "ATTENZIONE: git stash pop fallito dopo pull fallito, stash lasciato intatto (mai perso lavoro locale)."
         }
     }
@@ -99,8 +114,8 @@ if ($LASTEXITCODE -ne 0) {
 
 function Esci-ConStashPop($code) {
     if ($haStash) {
-        git stash pop --quiet 2>>$Log
-        if ($LASTEXITCODE -ne 0) {
+        $exitPop = Log-Comando { git stash pop --quiet }
+        if ($exitPop -ne 0) {
             Scrivi "ATTENZIONE: git stash pop fallito, stash lasciato intatto (mai perso lavoro locale) — controllare 'git stash list' su HP14."
         }
     }
