@@ -342,8 +342,32 @@ class PanelEstado:
         return tarjeta
 
     def _construir_ui(self):
-        cont = ttk.Frame(self.root, style="Fondo.TFrame", padding=16)
-        cont.pack(fill="both", expand=True)
+        # Canvas + scrollbar: con 3 tarjetas numeradas + progreso + control
+        # remoto, el contenido ya no entra siempre en los 860px de alto fijo
+        # de la ventana -- sin scroll, la parte de abajo (botones) quedaba
+        # cortada segun la resolucion.
+        canvas = tk.Canvas(self.root, bg=COLOR_FONDO, highlightthickness=0)
+        scrollbar = ttk.Scrollbar(self.root, orient="vertical", command=canvas.yview)
+        canvas.configure(yscrollcommand=scrollbar.set)
+        canvas.pack(side="left", fill="both", expand=True)
+        scrollbar.pack(side="right", fill="y")
+
+        cont = ttk.Frame(canvas, style="Fondo.TFrame", padding=16)
+        cont_id = canvas.create_window((0, 0), window=cont, anchor="nw")
+
+        def _actualizar_scrollregion(event=None):
+            canvas.configure(scrollregion=canvas.bbox("all"))
+
+        def _ajustar_ancho(event):
+            canvas.itemconfig(cont_id, width=event.width)
+
+        cont.bind("<Configure>", _actualizar_scrollregion)
+        canvas.bind("<Configure>", _ajustar_ancho)
+
+        def _rueda_raton(event):
+            canvas.yview_scroll(int(-1 * (event.delta / 120)), "units")
+
+        canvas.bind_all("<MouseWheel>", _rueda_raton)
 
         # Le 3 tarjetas centrales siguen el orden real del pipeline: primero se
         # transcribe (K16), luego se identifica (OMV), luego HP14 sincroniza
