@@ -13,13 +13,14 @@
 # (o doble clic en abrir_panel_estado.bat)
 
 import base64
+import re
 import subprocess
 import sys
 import threading
 import time
 import traceback
 import tkinter as tk
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 from tkinter import ttk
 
@@ -251,7 +252,12 @@ class PanelEstado:
 
         self._estilo()
         self._construir_ui()
+        self._tick_reloj()
         self.actualizar()
+
+    def _tick_reloj(self):
+        self.lbl_reloj.config(text=f"🕐 {datetime.now().strftime('%d/%m/%Y %H:%M:%S')}")
+        self.root.after(1000, self._tick_reloj)
 
     def _estilo(self):
         style = ttk.Style(self.root)
@@ -308,6 +314,12 @@ class PanelEstado:
         self.lbl_k16_estado.pack(anchor="w", pady=(6, 0))
         self.lbl_k16 = ttk.Label(t1, text="", style="Info.TLabel")
         self.lbl_k16.pack(anchor="w", pady=(4, 0))
+        # Reloj en vivo, independiente del ciclo de refresco de 15s: prueba
+        # inequivocable de que el panel sigue vivo y no congelado (el bug real
+        # del 2026-07-19 en panel_control.py se quedaba con la ultima tarjeta
+        # vista para siempre, sin ningun indicio visual de que se habia parado).
+        self.lbl_reloj = ttk.Label(t1, text="", style="Info.TLabel")
+        self.lbl_reloj.pack(anchor="w", pady=(8, 0))
 
         t2 = self._tarjeta(cont, "2. Identificación (OMV, Groq/Cerebras/Gemini)")
         self.lbl_clas = ttk.Label(t2, text="Cargando...", style="Info.TLabel")
@@ -377,25 +389,44 @@ class PanelEstado:
         info = leer_tarea_programada(TAREA_SYNC)
         ultima_linea = leer_ultimo_push()
 
+        # Quita el timestamp inicial "2026-07-19T12:04:58 " de la linea del
+        # log (ya se ve en "Última ejecución" de la tarea programada, y sin
+        # quitarlo el mensaje quedaba ilegible pegado a codigos/timestamps).
+        detalle_log = re.sub(r"^\S+\s+", "", ultima_linea) if ultima_linea else None
+
         if ultima_linea and "PUSH OK" in ultima_linea:
-            color, resumen = COLOR_VERDE, "✓ Último giro: pushed correctamente"
+            color, resumen = COLOR_VERDE, "✓ Último push: correcto"
         elif ultima_linea and "Nessuna modifica" in ultima_linea:
             color, resumen = COLOR_VERDE, "✓ Último giro: nada que sincronizar"
         elif ultima_linea and "ERRORE" in ultima_linea:
-            color, resumen = COLOR_ROJO, "✗ Último giro: fallido, revisar detalle"
+            color, resumen = COLOR_ROJO, "✗ Último giro: FALLIDO"
         else:
-            color, resumen = COLOR_TEXTO_SUAVE, "Sin datos del log todavía"
+            color, resumen = COLOR_TEXTO_SUAVE, "Sin datos del log todavía (¿nunca ha corrido en esta máquina?)"
 
-        partes = [resumen]
-        if ultima_linea:
-            partes.append(ultima_linea)
+        lineas = [resumen]
+        if detalle_log:
+            lineas.append(f"Detalle: {detalle_log}")
+
+        lineas.append("")  # separador visual entre "que paso" y "cuando"
         if info:
             ultima, resultado, proxima = info
-            partes.append(f"Tarea programada — última: {ultima}, código: {resultado}, próxima: {proxima}")
+            resultado = resultado.strip()
+            if resultado == "0":
+                resultado_txt = "0 (éxito)"
+            elif resultado == "267009":
+                resultado_txt = "267009 (todavía en ejecución)"
+            elif resultado == "267008":
+                resultado_txt = "267008 (todavía no ha corrido nunca)"
+            else:
+                resultado_txt = f"{resultado} (falló — ver logs\\sync_snapshot_data.log)"
+            lineas.append(f"Tarea programada '{TAREA_SYNC}':")
+            lineas.append(f"  Última ejecución: {ultima}")
+            lineas.append(f"  Resultado: {resultado_txt}")
+            lineas.append(f"  Próxima ejecución: {proxima}")
         else:
-            partes.append("No se pudo leer la tarea programada.")
+            lineas.append("No se pudo leer la tarea programada.")
 
-        self.lbl_push.config(text="\n".join(partes), foreground=color)
+        self.lbl_push.config(text="\n".join(lineas), foreground=color)
 
     # -- tarjetas 4-5 (K16 en vivo, en un hilo aparte) ---------------------
 
@@ -456,7 +487,13 @@ class PanelEstado:
             if etime_s is not None:
                 transcurrido_min = etime_s / 60
                 restante_min = max(0, DURACION_MEDIA_MIN - transcurrido_min)
-                partes.append(f"Empezado hace: {transcurrido_min:.0f} min")
+                # Hora absoluta de inicio, no solo relativa -- para distinguir
+                # de un vistazo "en marcha desde hace poco" de "esto lleva
+                # parado/colgado desde ayer" (mismo formato que panel_control.py).
+                inicio_dt = datetime.now() - timedelta(seconds=etime_s)
+                partes.append(
+                    f"Iniciado: {inicio_dt.strftime('%d/%m %H:%M')} ({transcurrido_min:.0f} min hace)"
+                )
                 partes.append(
                     f"Estimado restante: ~{restante_min:.0f} min (media {DURACION_MEDIA_MIN} min)"
                 )
