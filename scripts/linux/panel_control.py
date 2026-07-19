@@ -43,6 +43,10 @@ from kill_coordinado import matar_trascrizione  # noqa: E402
 
 CSV_TERMICO = REPO / "logs" / "trascrizioni_log_termico.csv"
 ESTADO_CLASIFICACION = logs_root(REPO) / "estado_clasificacion.json"
+# Scritto da scripts/sync_snapshot_data.ps1 (HP14) sullo stesso share OMV di
+# ESTADO_CLASIFICACION: nessuna connessione diretta HP14->K16, solo il file
+# condiviso — stesso pattern gia' usato per la classificazione.
+ESTADO_PUSH = logs_root(REPO) / "estado_push.json"
 FRAMMENTI_DIR = dati_root(REPO) / "frammenti"
 # Stesso mount point di default usato da avvia_trascrizione_sicura.sh/watchdog_nas.sh,
 # ma rispettando ILVOLO_AUDIO_ROOT se impostata: prima era hardcoded qui soltanto,
@@ -108,6 +112,15 @@ def leer_estado_clasificacion():
         return None
     try:
         return json.loads(ESTADO_CLASIFICACION.read_text(encoding="utf-8-sig"))
+    except (json.JSONDecodeError, OSError):
+        return None
+
+
+def leer_estado_push():
+    if not ESTADO_PUSH.exists():
+        return None
+    try:
+        return json.loads(ESTADO_PUSH.read_text(encoding="utf-8-sig"))
     except (json.JSONDecodeError, OSError):
         return None
 
@@ -271,6 +284,7 @@ class Panel:
         tarjeta = ttk.Frame(cont, style="Tarjeta.TFrame", padding=18)
         tarjeta.pack(fill="x")
 
+        ttk.Label(tarjeta, text="1. Transcripción", style="Info.TLabel").pack(anchor="w")
         self.lbl_estado = ttk.Label(tarjeta, text="Comprobando...", style="Titulo.TLabel")
         self.lbl_estado.pack(anchor="w")
 
@@ -299,10 +313,21 @@ class Panel:
         tarjeta_clas = ttk.Frame(cont, style="Tarjeta.TFrame", padding=18)
         tarjeta_clas.pack(fill="x", pady=(10, 0))
         ttk.Label(
-            tarjeta_clas, text="Classificazione (OMV, Groq/Cerebras)", style="Titulo.TLabel"
+            tarjeta_clas, text="2. Identificación (OMV, Groq/Cerebras/Gemini)", style="Titulo.TLabel"
         ).pack(anchor="w")
         self.lbl_clasificacion = ttk.Label(tarjeta_clas, text="", style="Info.TLabel")
         self.lbl_clasificacion.pack(anchor="w", pady=(6, 0))
+
+        # Tarjeta separada, solo lectura: estado dell'ultimo giro di
+        # sync_snapshot_data.ps1 su HP14. Legge estado_push.json dallo stesso
+        # share OMV (vedi ESTADO_PUSH sopra), nessuna connessione diretta a HP14.
+        tarjeta_push = ttk.Frame(cont, style="Tarjeta.TFrame", padding=18)
+        tarjeta_push.pack(fill="x", pady=(10, 0))
+        ttk.Label(
+            tarjeta_push, text="3. Commit/Push (HP14 → GitHub)", style="Titulo.TLabel"
+        ).pack(anchor="w")
+        self.lbl_push = ttk.Label(tarjeta_push, text="", style="Info.TLabel")
+        self.lbl_push.pack(anchor="w", pady=(6, 0))
 
         self.banner_programada = ttk.Label(
             cont, text="⏸ Parada programada: se detendrá al terminar este episodio",
@@ -449,6 +474,21 @@ class Panel:
             foreground=color,
         )
 
+    def _actualizar_push(self):
+        estado = leer_estado_push()
+        if not estado:
+            self.lbl_push.config(text="Sin datos todavía.", foreground=COLOR_TEXTO_SUAVE)
+            return
+        color = COLOR_VERDE if estado.get("resultado") == "ok" else COLOR_ROJO
+        self.lbl_push.config(
+            text=(
+                f"Última ejecución: {formatear_fecha(estado.get('ultima_ejecucion'))}\n"
+                f"Resultado: {estado.get('resultado', '?')}\n"
+                f"{estado.get('mensaje', '')}"
+            ),
+            foreground=color,
+        )
+
     def _actualizar_progreso_total(self):
         transcritos, total_audio = contar_progreso_total()
         if transcritos is None:
@@ -493,6 +533,10 @@ class Panel:
             traceback.print_exc()
         try:
             self._actualizar_progreso_total()
+        except Exception:
+            traceback.print_exc()
+        try:
+            self._actualizar_push()
         except Exception:
             traceback.print_exc()
 

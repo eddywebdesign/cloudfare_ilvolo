@@ -15,10 +15,29 @@ $Repo = "D:\Download\CLAUDE FOLDER\ilvolodelmattino"
 Set-Location $Repo
 $Log = "logs\sync_snapshot_data.log"
 $ShareData = "\\192.168.8.80\Media\ilvolodellasera\data"
+# Stesso share/cartella di logs_root() (vedi dati_root.py) dove OMV scrive
+# estado_clasificacion.json: il pannello di K16 gia' lo legge da li' via
+# ILVOLO_LOGS_DIR, quindi scrivere qui lo stato del push lo rende visibile a
+# K16 senza bisogno di SSH ne' di accesso diretto al disco locale di HP14.
+$ShareLogs = "\\192.168.8.80\Media\ilvolodellasera\logs"
 $ts = Get-Date -Format "yyyy-MM-ddTHH:mm:ss"
 
 function Scrivi($msg) {
     "$ts $msg" | Out-File -FilePath $Log -Append -Encoding utf8
+}
+
+function Scrivi-EstadoPush($resultado, $mensaje, $n) {
+    $obj = [ordered]@{
+        resultado = $resultado
+        ultima_ejecucion = $ts
+        archivos = $n
+        mensaje = $mensaje
+    }
+    try {
+        $obj | ConvertTo-Json -Compress | Out-File -FilePath "$ShareLogs\estado_push.json" -Encoding utf8 -Force
+    } catch {
+        Scrivi "AVVISO: impossibile scrivere estado_push.json su share OMV: $_"
+    }
 }
 
 function Push-ConReintento($n) {
@@ -26,9 +45,10 @@ function Push-ConReintento($n) {
     if ($LASTEXITCODE -eq 0) {
         # Successo silenzioso finora: nessuna riga di log distingueva "pushato
         # bene" da "script mai arrivato fin qui" — necessario per la card
-        # commit/push del pannello HP14, che legge questo file per sapere se
-        # l'ultimo giro e' andato a buon fine.
+        # commit/push del pannello K16 (panel_control.py), che legge
+        # estado_push.json per sapere se l'ultimo giro e' andato a buon fine.
         Scrivi "PUSH OK: $n file pushati su GitHub."
+        Scrivi-EstadoPush "ok" "$n file pushati su GitHub." $n
         return $true
     }
 
@@ -36,19 +56,23 @@ function Push-ConReintento($n) {
     git pull --rebase --quiet 2>>$Log
     if ($LASTEXITCODE -ne 0) {
         Scrivi "ERRORE: pull --rebase di recupero fallito. $n file committati in locale, NON pushati."
+        Scrivi-EstadoPush "error" "pull --rebase di recupero fallito, $n file committati in locale NON pushati." $n
         return $false
     }
     git push --quiet 2>>$Log
     if ($LASTEXITCODE -eq 0) {
         Scrivi "PUSH OK: $n file pushati su GitHub (dopo reintento)."
+        Scrivi-EstadoPush "ok" "$n file pushati su GitHub (dopo reintento)." $n
         return $true
     }
     Scrivi "ERRORE: git push fallito tras reintento ($n file committati en local, NO pushati)."
+    Scrivi-EstadoPush "error" "push fallito dopo reintento, $n file committati in locale NON pushati." $n
     return $false
 }
 
 if (-not (Test-Path $ShareData)) {
     Scrivi "ERRORE: share OMV non raggiungibile ($ShareData), salto questo giro."
+    Scrivi-EstadoPush "error" "share OMV non raggiungibile, giro saltato." 0
     exit 1
 }
 
@@ -63,6 +87,7 @@ $haStash = $LASTEXITCODE -eq 0 -and $stashOutput -notmatch "No local changes to 
 git pull --rebase --quiet 2>>$Log
 if ($LASTEXITCODE -ne 0) {
     Scrivi "ERRORE: git pull --rebase fallito, salto questo giro."
+    Scrivi-EstadoPush "error" "git pull --rebase fallito, giro saltato." 0
     if ($haStash) {
         git stash pop --quiet 2>>$Log
         if ($LASTEXITCODE -ne 0) {
@@ -98,6 +123,7 @@ foreach ($sub in @("trascrizioni", "frammenti", "pillole", "riferimenti", "playl
 # robocopy: exit code < 8 = successo (0-7 sono tutti "ok" con vari dettagli, vedi doc MS)
 if ($rcMax -ge 8) {
     Scrivi "ERRORE: robocopy fallito (exit code $rcMax), salto il commit."
+    Scrivi-EstadoPush "error" "robocopy fallito (exit code $rcMax), commit saltato." 0
     Esci-ConStashPop 1
 }
 Scrivi "robocopy completato (exit code max $rcMax)."
@@ -106,6 +132,7 @@ git add data
 git diff --cached --quiet
 if ($LASTEXITCODE -eq 0) {
     Scrivi "Nessuna modifica nello snapshot da committare."
+    Scrivi-EstadoPush "ok" "nessuna modifica da sincronizzare." 0
     Esci-ConStashPop 0
 }
 
