@@ -38,6 +38,10 @@ import psutil
 REPO = Path(__file__).resolve().parent.parent.parent
 sys.path.insert(0, str(REPO / "scripts"))
 from dati_root import dati_root, logs_root  # noqa: E402
+from panel_comun import (  # noqa: E402
+    COLOR_AZUL, COLOR_FONDO, COLOR_NARANJA, COLOR_ROJO, COLOR_TARJETA,
+    COLOR_TEXTO, COLOR_TEXTO_SUAVE, COLOR_VERDE, formatear_fecha, leer_json_estado,
+)
 sys.path.insert(0, str(REPO / "scripts" / "linux"))
 from kill_coordinado import matar_trascrizione  # noqa: E402
 
@@ -57,17 +61,6 @@ CONSOLA_BATCH = REPO / "logs" / "consola_batch.log"
 RE_PROGRESO = re.compile(r"^\[(\d+)/(\d+)\]")
 DURACION_MEDIA_MIN = 55  # media observada: 44-51 min, con margen de seguridad
 INTERVALO_CHEQUEO_MS = 5000
-
-# Paleta sobria (fondo oscuro, acentos planos) en vez de los colores saturados
-# de antes.
-COLOR_FONDO = "#1e2530"
-COLOR_TARJETA = "#2a3342"
-COLOR_TEXTO = "#e6e9ef"
-COLOR_TEXTO_SUAVE = "#9aa5b1"
-COLOR_VERDE = "#3ba776"
-COLOR_ROJO = "#c0392b"
-COLOR_NARANJA = "#c9822a"
-COLOR_AZUL = "#3d7fd9"
 
 
 def hora() -> str:
@@ -108,30 +101,11 @@ def leer_temperatura():
 
 
 def leer_estado_clasificacion():
-    if not ESTADO_CLASIFICACION.exists():
-        return None
-    try:
-        return json.loads(ESTADO_CLASIFICACION.read_text(encoding="utf-8-sig"))
-    except (json.JSONDecodeError, OSError):
-        return None
+    return leer_json_estado(ESTADO_CLASIFICACION)
 
 
 def leer_estado_push():
-    if not ESTADO_PUSH.exists():
-        return None
-    try:
-        return json.loads(ESTADO_PUSH.read_text(encoding="utf-8-sig"))
-    except (json.JSONDecodeError, OSError):
-        return None
-
-
-def formatear_fecha(iso_str) -> str:
-    """Convierte 'AAAA-MM-DDTHH:MM:SS' en 'DD/MM/AAAA HH:MM:SS' (con espacio,
-    formato mas habitual que el ISO crudo con 'T')."""
-    try:
-        return datetime.fromisoformat(iso_str).strftime("%d/%m/%Y %H:%M:%S")
-    except (ValueError, TypeError):
-        return str(iso_str)
+    return leer_json_estado(ESTADO_PUSH)
 
 
 def contar_progreso_total():

@@ -13,7 +13,6 @@
 # (o doble clic en abrir_panel_estado.bat)
 
 import base64
-import json
 import subprocess
 import sys
 import threading
@@ -27,6 +26,10 @@ from tkinter import ttk
 REPO = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(REPO / "scripts"))
 from dati_root import logs_root  # noqa: E402
+from panel_comun import (  # noqa: E402
+    COLOR_FONDO, COLOR_NARANJA, COLOR_ROJO, COLOR_TARJETA, COLOR_TEXTO,
+    COLOR_TEXTO_SUAVE, COLOR_VERDE, formatear_fecha, leer_json_estado,
+)
 
 ESTADO_PATH = logs_root(REPO) / "estado_clasificacion.json"
 # Fallback esplicito al path di rete noto: se ILVOLO_DATA_DIR non e' visibile
@@ -59,33 +62,9 @@ RETRASO_REANUDAR_MIN = 30  # ver nota en k16_reanudar()
 # las suprime.
 _NO_WINDOW = subprocess.CREATE_NO_WINDOW if hasattr(subprocess, "CREATE_NO_WINDOW") else 0
 
-COLOR_FONDO = "#1e2530"
-COLOR_TARJETA = "#2a3342"
-COLOR_TEXTO = "#e6e9ef"
-COLOR_TEXTO_SUAVE = "#9aa5b1"
-COLOR_VERDE = "#3ba776"
-COLOR_ROJO = "#c0392b"
-COLOR_NARANJA = "#c9822a"
-
 
 def leer_estado_clasificacion():
-    path = ESTADO_PATH if ESTADO_PATH.exists() else ESTADO_PATH_FALLBACK
-    if not path.exists():
-        return None
-    try:
-        return json.loads(path.read_text(encoding="utf-8-sig"))
-    except (json.JSONDecodeError, OSError):
-        return None
-
-
-def formatear_fecha(iso_str) -> str:
-    """Convierte 'AAAA-MM-DDTHH:MM:SS[+HH:MM]' en 'DD/MM/AAAA HH:MM:SS'.
-    Mismo formato que scripts/linux/panel_control.py -- faltaba aqui, por eso
-    esta card mostraba el ISO crudo mientras la del K16 ya se veia bien."""
-    try:
-        return datetime.fromisoformat(iso_str).strftime("%d/%m/%Y %H:%M:%S")
-    except (ValueError, TypeError):
-        return str(iso_str)
+    return leer_json_estado(ESTADO_PATH, ESTADO_PATH_FALLBACK)
 
 
 def leer_ultimo_push():
