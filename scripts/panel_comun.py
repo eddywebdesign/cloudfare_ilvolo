@@ -34,6 +34,41 @@ def formatear_fecha(iso_str) -> str:
         return str(iso_str)
 
 
+def contar_progreso_total(frammenti_dir: Path, audio_root: Path):
+    """Devuelve (transcritos, total_audio) contando frammenti_dir/*.json
+    contra todos los .mp3 de audio_root (recursivo), o (transcritos, None)
+    si audio_root no existe/no es alcanzable en este momento."""
+    try:
+        transcritos = sum(1 for _ in frammenti_dir.glob("*.json"))
+    except OSError:
+        transcritos = None
+    if not audio_root.exists():
+        return transcritos, None
+    try:
+        total_audio = sum(1 for _ in audio_root.rglob("*.mp3"))
+    except OSError:
+        total_audio = None
+    return transcritos, total_audio
+
+
+def contar_estado_classificazione(frammenti_dir: Path):
+    """Stessa logica della pagina /frammenti-recenti/ (renderStats()): quanti
+    frammenti sono classificati, quanti in coda, quanti scartati perche'
+    troppo corti (<6 parole, mai classificati per design)."""
+    tot = classificati = brevi = 0
+    try:
+        for f in frammenti_dir.glob("*.json"):
+            for x in json.loads(f.read_text(encoding="utf-8")):
+                tot += 1
+                if x.get("tipo"):
+                    classificati += 1
+                elif len((x.get("testo") or "").split()) < 6:
+                    brevi += 1
+    except OSError:
+        return None
+    return {"tot": tot, "classificati": classificati, "brevi": brevi, "da_fare": tot - classificati - brevi}
+
+
 def leer_json_estado(path: Path, path_fallback: Path | None = None):
     """Legge un JSON di estado (estado_clasificacion.json, estado_push.json)
     scritto da un altro processo/macchina su uno share condiviso. Ritorna

@@ -40,7 +40,8 @@ sys.path.insert(0, str(REPO / "scripts"))
 from dati_root import dati_root, logs_root  # noqa: E402
 from panel_comun import (  # noqa: E402
     COLOR_AZUL, COLOR_FONDO, COLOR_NARANJA, COLOR_ROJO, COLOR_TARJETA,
-    COLOR_TEXTO, COLOR_TEXTO_SUAVE, COLOR_VERDE, formatear_fecha, leer_json_estado,
+    COLOR_TEXTO, COLOR_TEXTO_SUAVE, COLOR_VERDE, contar_estado_classificazione,
+    contar_progreso_total, formatear_fecha, leer_json_estado,
 )
 sys.path.insert(0, str(REPO / "scripts" / "linux"))
 from kill_coordinado import matar_trascrizione  # noqa: E402
@@ -61,6 +62,7 @@ CONSOLA_BATCH = REPO / "logs" / "consola_batch.log"
 RE_PROGRESO = re.compile(r"^\[(\d+)/(\d+)\]")
 DURACION_MEDIA_MIN = 55  # media observada: 44-51 min, con margen de seguridad
 INTERVALO_CHEQUEO_MS = 5000
+RETRASO_REANUDAR_MIN = 30  # ver nota en reanudar() -- misma cifra que panel_estado_hp14.py
 
 
 def hora() -> str:
@@ -108,41 +110,6 @@ def leer_estado_push():
     return leer_json_estado(ESTADO_PUSH)
 
 
-def contar_progreso_total():
-    """Devuelve (transcritos, total_audio) contando data/frammenti/*.json
-    contra todos los .mp3 del archivo completo (todas las carpetas ano en
-    el NAS), o (None, None) si el NAS no esta montado."""
-    try:
-        transcritos = sum(1 for _ in FRAMMENTI_DIR.glob("*.json"))
-    except OSError:
-        transcritos = None
-    if not AUDIO_ROOT.exists():
-        return transcritos, None
-    try:
-        total_audio = sum(1 for _ in AUDIO_ROOT.rglob("*.mp3"))
-    except OSError:
-        total_audio = None
-    return transcritos, total_audio
-
-
-def contar_estado_classificazione():
-    """Stessa logica della pagina /frammenti-recenti/ (renderStats()): quanti
-    frammenti sono classificati, quanti in coda, quanti scartati perche'
-    troppo corti (<6 parole, mai classificati per design)."""
-    tot = classificati = brevi = 0
-    try:
-        for f in FRAMMENTI_DIR.glob("*.json"):
-            for x in json.loads(f.read_text(encoding="utf-8")):
-                tot += 1
-                if x.get("tipo"):
-                    classificati += 1
-                elif len((x.get("testo") or "").split()) < 6:
-                    brevi += 1
-    except OSError:
-        return None
-    return {"tot": tot, "classificati": classificati, "brevi": brevi, "da_fare": tot - classificati - brevi}
-
-
 def leer_progreso_batch():
     """Devuelve (indice, total) del ultimo episodio en curso segun el log
     de consola (linea '[N/M] [fecha] archivo.mp3'), o (None, None) si no
@@ -170,12 +137,30 @@ def systemctl_user(accion, unidad) -> bool:
     return r.returncode == 0
 
 
-def watchdog_activo() -> bool:
+def programar_reanudacion(retraso_min=RETRASO_REANUDAR_MIN) -> tuple[bool, str]:
+    """NO reactiva el timer al instante. `ilvolo-watchdog-nas.timer` tiene
+    Persistent=true: al reactivarlo con `systemctl start` tras haber estado
+    parado, systemd lo considera un intervalo "perdido" y dispara una
+    ejecucion de catch-up INMEDIATA -- eso relanzo' el batch sin aviso en un
+    incidente real. Se programa la reactivacion con `systemd-run --on-active`
+    (unidad transient con nombre unico) en vez de systemctl_user("start", ...)
+    directo, dando margen real antes de que vuelva a arrancar la
+    transcripcion. Stesso meccanismo gia' usato da panel_estado_hp14.py
+    (via SSH) -- qui e' locale, K16 lancia systemd-run su se stesso."""
+    unidad = f"ilvolo-watchdog-nas-resume-{int(time.time())}"
     r = subprocess.run(
-        ["systemctl", "--user", "is-active", "ilvolo-watchdog-nas.timer"],
-        capture_output=True, text=True, check=False,
+        ["systemd-run", "--user", f"--unit={unidad}", f"--on-active={retraso_min}min",
+         "bash", "-c", "systemctl --user start ilvolo-watchdog-nas.timer"],
+        check=False,
     )
-    return r.stdout.strip() == "active"
+    return r.returncode == 0, unidad
+
+
+def cancelar_reanudacion_programada(unidad) -> None:
+    if not unidad:
+        return
+    subprocess.run(["systemctl", "--user", "stop", f"{unidad}.timer"], check=False)
+    subprocess.run(["systemctl", "--user", "reset-failed", f"{unidad}.timer", f"{unidad}.service"], check=False)
 
 
 class Panel:
@@ -208,6 +193,7 @@ class Panel:
         # 17/07, el panel se reinicio' solo entre el clic del usuario y el
         # fin del episodio y la orden de parar desaparecio' sin avisar.
         self.detener_al_finalizar = FLAG_STOP_PENDIENTE.exists()
+        self.reanudar_unidad = None  # nombre de la unidad systemd-run pendiente, si hay una
 
         self._estilo()
         self._construir_ui()
@@ -326,7 +312,8 @@ class Panel:
         self.btn_proximo.grid(row=0, column=1, sticky="ew", padx=(6, 0))
 
         self.btn_reanudar = ttk.Button(
-            cont, text="Reanudar", style="Verde.TButton", command=self.reanudar,
+            cont, text=f"Reanudar (en {RETRASO_REANUDAR_MIN} min)", style="Verde.TButton",
+            command=self.reanudar,
         )
         self.btn_reanudar.pack(fill="x", pady=(0, 8))
 
@@ -391,20 +378,34 @@ class Panel:
             self.btn_proximo.config(text="Detener al finalizar", style="Naranja.TButton")
 
     def reanudar(self):
-        systemctl_user("start", "ilvolo-watchdog-nas.timer")
+        if self.reanudar_unidad:
+            # ya hay una reanudacion programada -> este clic la cancela (toggle)
+            cancelar_reanudacion_programada(self.reanudar_unidad)
+            self.reanudar_unidad = None
+            self.btn_reanudar.config(text=f"Reanudar (en {RETRASO_REANUDAR_MIN} min)", style="Verde.TButton")
+            self.lbl_aviso.config(
+                text=f"✓ Reanudación programada cancelada a las {hora()}. El watchdog sigue parado.",
+                foreground=COLOR_TEXTO_SUAVE,
+            )
+            return
+
         self.detener_al_finalizar = False
         FLAG_STOP_PENDIENTE.unlink(missing_ok=True)
         self._sincronizar_boton_proximo()
 
-        time.sleep(1)
-        if watchdog_activo():
+        ok, unidad = programar_reanudacion()
+        if ok:
+            self.reanudar_unidad = unidad
+            self.btn_reanudar.config(text="✕ Cancelar reanudación programada", style="Rojo.TButton")
             self.lbl_aviso.config(
-                text=f"✓ Reanudado y verificado a las {hora()}.", foreground=COLOR_VERDE,
+                text=f"✓ Reanudación programada a las {hora()}: el watchdog NAS (y con él la "
+                     f"transcripción) se reactivará en ~{RETRASO_REANUDAR_MIN} min, no de inmediato "
+                     f"(unidad: {unidad}).",
+                foreground=COLOR_VERDE,
             )
         else:
             self.lbl_aviso.config(
-                text=f"✗ Se envió la orden a las {hora()} pero el watchdog no quedó "
-                     f"activo — revisa manualmente.",
+                text=f"✗ No se pudo programar la reanudación a las {hora()}.",
                 foreground=COLOR_ROJO,
             )
 
@@ -464,7 +465,7 @@ class Panel:
         )
 
     def _actualizar_progreso_total(self):
-        transcritos, total_audio = contar_progreso_total()
+        transcritos, total_audio = contar_progreso_total(FRAMMENTI_DIR, AUDIO_ROOT)
         if transcritos is None:
             self.lbl_progreso_total.config(text="")
             return
@@ -477,7 +478,7 @@ class Panel:
                 text=f"Progreso total: {transcritos} episodios transcritos (NAS no montado, sin total)"
             )
 
-        stats = contar_estado_classificazione()
+        stats = contar_estado_classificazione(FRAMMENTI_DIR)
         if stats:
             classificabili = stats["tot"] - stats["brevi"]
             pct = round(stats["classificati"] / classificabili * 100) if classificabili else 0

@@ -30,7 +30,8 @@ sys.path.insert(0, str(REPO / "scripts"))
 from dati_root import logs_root  # noqa: E402
 from panel_comun import (  # noqa: E402
     COLOR_AZUL, COLOR_FONDO, COLOR_NARANJA, COLOR_ROJO, COLOR_TARJETA, COLOR_TEXTO,
-    COLOR_TEXTO_SUAVE, COLOR_VERDE, formatear_fecha, leer_json_estado,
+    COLOR_TEXTO_SUAVE, COLOR_VERDE, contar_estado_classificazione, contar_progreso_total,
+    formatear_fecha, leer_json_estado,
 )
 
 ESTADO_PATH = logs_root(REPO) / "estado_clasificacion.json"
@@ -41,6 +42,15 @@ ESTADO_PATH = logs_root(REPO) / "estado_clasificacion.json"
 # validi sullo share), non arrenderti al path locale del repo (che non ha mai
 # questo file) se il path di rete e' comunque raggiungibile.
 ESTADO_PATH_FALLBACK = Path(r"\\192.168.8.80\Media\ilvolodellasera\logs\estado_clasificacion.json")
+# Stesso file che K16 legge (ESTADO_PUSH in panel_control.py) -- HP14 lo
+# raggiunge via UNC diretto, nessun SSH necessario (e' un file su share, non
+# un dato del processo K16). ATTENZIONE: "ilvolo-audio-backup" NON e' piu'
+# direttamente sotto Media\ (verificato il 2026-07-19 con Test-Path -- un
+# commento vecchio in avvia_trascrizione_sicura.ps1 dava un path superato
+# dalla migrazione dati del 17/07), ora vive sotto Media\ilvolodellasera\.
+ESTADO_PUSH_PATH = Path(r"\\192.168.8.80\Media\ilvolodellasera\logs\estado_push.json")
+FRAMMENTI_DIR_UNC = Path(r"\\192.168.8.80\Media\ilvolodellasera\data\frammenti")
+AUDIO_ROOT_UNC = Path(r"\\192.168.8.80\Media\ilvolodellasera\ilvolo-audio-backup")
 LOG_SYNC_PATH = REPO / "logs" / "sync_snapshot_data.log"
 TAREA_SYNC = "ilvolo-sync-snapshot-data"
 # Persistido en disco local del HP14 (no en el share): mismo motivo que en
@@ -67,6 +77,10 @@ _NO_WINDOW = subprocess.CREATE_NO_WINDOW if hasattr(subprocess, "CREATE_NO_WINDO
 
 def leer_estado_clasificacion():
     return leer_json_estado(ESTADO_PATH, ESTADO_PATH_FALLBACK)
+
+
+def leer_estado_push():
+    return leer_json_estado(ESTADO_PUSH_PATH)
 
 
 def leer_ultimo_push():
@@ -153,14 +167,22 @@ def ssh_run_script(script_bash, timeout=SSH_TIMEOUT_S):
 def leer_estado_k16():
     """Un solo comando remoto que junta: proceso whisperx (pid + nombre
     episodio + segundos transcurridos), ultima temperatura del CSV termico, y
-    si el watchdog NAS esta activo. Formato de salida:
-    'PID|EPISODIO|ETIME_S|TERM_LINE|WATCHDOG' (campos vacios si no aplica).
+    si el watchdog NAS esta activo, y el progreso "N de M" dentro de la
+    carpeta-ano en curso. Formato de salida:
+    'PID|EPISODIO|ETIME_S|TERM_LINE|WATCHDOG|IDX_BATCH|TOTAL_BATCH' (campos
+    vacios si no aplica).
 
     Patron '[w]hisperx' (no 'whisperx' a secas): pgrep -f matchea contra la
     linea de comandos COMPLETA del proceso que lo invoca via ssh, que
     contiene literalmente el texto del patron -- sin el truco del corchete
     pgrep se detecta a si mismo como si fuera una transcripcion en curso
-    (mismo gotcha ya documentado con pkill -f en la sesion RDP del K16)."""
+    (mismo gotcha ya documentado con pkill -f en la sesion RDP del K16).
+
+    IDX_BATCH/TOTAL_BATCH: misma logica de leer_progreso_batch() en
+    panel_control.py (ultima linea '[N/M] ...' de logs/consola_batch.log),
+    reimplementada aqui en bash porque ese archivo es local a K16 -- a
+    diferencia de progreso total/clasificacion (ver contar_progreso_total en
+    panel_comun.py), no esta en el share de red y no se puede leer via UNC."""
     script = r"""
 cd ~/ilvolodelmattino 2>/dev/null || cd ~/Documenti/ilvolodelmattino 2>/dev/null
 PID=$(pgrep -f '[w]hisperx' | head -1)
@@ -172,7 +194,10 @@ if [ -n "$PID" ]; then
 fi
 TERM_LINE=$(tail -1 logs/trascrizioni_log_termico.csv 2>/dev/null)
 WD=$(systemctl --user is-active ilvolo-watchdog-nas.timer 2>/dev/null)
-echo "${PID}|${EP}|${ETIME}|${TERM_LINE}|${WD}"
+PROGRESO=$(grep -oE '^\[[0-9]+/[0-9]+\]' logs/consola_batch.log 2>/dev/null | tail -1 | tr -d '[]')
+IDX=$(echo "$PROGRESO" | cut -d/ -f1)
+TOTAL=$(echo "$PROGRESO" | cut -d/ -f2)
+echo "${PID}|${EP}|${ETIME}|${TERM_LINE}|${WD}|${IDX}|${TOTAL}"
 """
     ok, salida = ssh_run_script(script)
     if not ok:
@@ -185,6 +210,8 @@ echo "${PID}|${EP}|${ETIME}|${TERM_LINE}|${WD}"
     etime_s = campos[2].strip()
     term_line = campos[3].strip()  # "ts,temp,otro,throttling" (CSV, no pipes)
     watchdog = campos[4].strip()
+    idx_batch = campos[5].strip() if len(campos) > 5 else ""
+    total_batch = campos[6].strip() if len(campos) > 6 else ""
     term_campos = term_line.split(",")
     term_ts = term_campos[0].strip() if len(term_campos) > 0 and term_campos[0] else None
     term_c = term_campos[1].strip() if len(term_campos) > 1 else None
@@ -195,6 +222,8 @@ echo "${PID}|${EP}|${ETIME}|${TERM_LINE}|${WD}"
         "temp_ts": term_ts or None,
         "temp_c": term_c or None,
         "watchdog": watchdog,
+        "idx_batch": int(idx_batch) if idx_batch.isdigit() else None,
+        "total_batch": int(total_batch) if total_batch.isdigit() else None,
     }, None
 
 
@@ -255,6 +284,7 @@ class PanelEstado:
         self.pid_k16_visto = None
         self.detener_al_finalizar = FLAG_STOP_PENDIENTE.exists()
         self._consultando_k16 = False
+        self._consultando_progreso = False
         self.reanudar_unidad = None  # nombre de la unidad systemd-run pendiente, si hay una
 
         self._estilo()
@@ -325,6 +355,13 @@ class PanelEstado:
         self.lbl_k16_estado.pack(anchor="w", pady=(6, 0))
         self.lbl_k16 = ttk.Label(t1, text="", style="Info.TLabel")
         self.lbl_k16.pack(anchor="w", pady=(4, 0))
+        # Progreso total/clasificacion: calculados via UNC directo al share
+        # OMV (no via SSH -- son datos de archivos compartidos, no del
+        # proceso K16), misma formulacion exacta que panel_control.py.
+        self.lbl_progreso_total = ttk.Label(t1, text="", style="Info.TLabel")
+        self.lbl_progreso_total.pack(anchor="w", pady=(4, 0))
+        self.lbl_classificazione_stats = ttk.Label(t1, text="", style="Info.TLabel")
+        self.lbl_classificazione_stats.pack(anchor="w", pady=(4, 0))
         # Reloj en vivo, independiente del ciclo de refresco de 15s: prueba
         # inequivocable de que el panel sigue vivo y no congelado (el bug real
         # del 2026-07-19 en panel_control.py se quedaba con la ultima tarjeta
@@ -411,6 +448,23 @@ class PanelEstado:
             self.lbl_clas.config(text="Sin datos todavía.", foreground=COLOR_TEXTO_SUAVE)
 
     def _actualizar_push(self):
+        # Fuente principal: estado_push.json via UNC, mismo archivo y misma
+        # formulacion exacta de panel_control.py (K16) -- los dos pannelli
+        # deben mostrar lo mismo para el mismo evento. Lo que sigue debajo
+        # (log local + tarea programada) es detalle SUPLEMENTARIO exclusivo
+        # de HP14 (K16 no tiene acceso a ninguno de los dos).
+        estado = leer_estado_push()
+        if estado:
+            color = COLOR_VERDE if estado.get("resultado") == "ok" else COLOR_ROJO
+            lineas = [
+                f"Última ejecución: {formatear_fecha(estado.get('ultima_ejecucion'))}",
+                f"Resultado: {estado.get('resultado', '?')}",
+                f"{estado.get('mensaje', '')}",
+            ]
+        else:
+            color = COLOR_TEXTO_SUAVE
+            lineas = ["Sin datos todavía."]
+
         info = leer_tarea_programada(TAREA_SYNC)
         ultima_linea = leer_ultimo_push()
 
@@ -419,20 +473,10 @@ class PanelEstado:
         # quitarlo el mensaje quedaba ilegible pegado a codigos/timestamps).
         detalle_log = re.sub(r"^\S+\s+", "", ultima_linea) if ultima_linea else None
 
-        if ultima_linea and "PUSH OK" in ultima_linea:
-            color, resumen = COLOR_VERDE, "✓ Último push: correcto"
-        elif ultima_linea and "Nessuna modifica" in ultima_linea:
-            color, resumen = COLOR_VERDE, "✓ Último giro: nada que sincronizar"
-        elif ultima_linea and "ERRORE" in ultima_linea:
-            color, resumen = COLOR_ROJO, "✗ Último giro: FALLIDO"
-        else:
-            color, resumen = COLOR_TEXTO_SUAVE, "Sin datos del log todavía (¿nunca ha corrido en esta máquina?)"
-
-        lineas = [resumen]
+        lineas.append("")  # separador visual entre estado_push.json y el detalle local
         if detalle_log:
-            lineas.append(f"Detalle: {detalle_log}")
+            lineas.append(f"Detalle log local: {detalle_log}")
 
-        lineas.append("")  # separador visual entre "que paso" y "cuando"
         if info:
             ultima, resultado, proxima = info
             resultado = resultado.strip()
@@ -480,8 +524,53 @@ class PanelEstado:
                 threading.Thread(target=self._consultar_k16_en_hilo, daemon=True).start()
         except Exception:
             self._log_error()
+        try:
+            if not self._consultando_progreso:
+                self._consultando_progreso = True
+                threading.Thread(target=self._consultar_progreso_en_hilo, daemon=True).start()
+        except Exception:
+            self._log_error()
         self._actualizar_link_errores()
         self.root.after(INTERVALO_MS, self.actualizar)
+
+    def _consultar_progreso_en_hilo(self):
+        # En un hilo aparte porque son lecturas de red (UNC) que pueden
+        # tardar -- no debe bloquear la UI como el resto del ciclo de 15s.
+        try:
+            transcritos, total_audio = contar_progreso_total(FRAMMENTI_DIR_UNC, AUDIO_ROOT_UNC)
+        except Exception:
+            transcritos, total_audio = None, None
+        try:
+            stats = contar_estado_classificazione(FRAMMENTI_DIR_UNC)
+        except Exception:
+            stats = None
+        self.root.after(0, lambda: self._aplicar_progreso(transcritos, total_audio, stats))
+
+    def _aplicar_progreso(self, transcritos, total_audio, stats):
+        self._consultando_progreso = False
+        if transcritos is None:
+            self.lbl_progreso_total.config(text="")
+        elif total_audio:
+            self.lbl_progreso_total.config(
+                text=f"Progreso total: {transcritos} de {total_audio} episodios transcritos",
+                foreground=COLOR_TEXTO_SUAVE,
+            )
+        else:
+            self.lbl_progreso_total.config(
+                text=f"Progreso total: {transcritos} episodios transcritos (share no accesible, sin total)",
+                foreground=COLOR_TEXTO_SUAVE,
+            )
+
+        if stats:
+            classificabili = stats["tot"] - stats["brevi"]
+            pct = round(stats["classificati"] / classificabili * 100) if classificabili else 0
+            self.lbl_classificazione_stats.config(
+                text=(f"Frammenti: {stats['classificati']} classificati ({pct}%), "
+                      f"{stats['da_fare']} in coda, {stats['brevi']} scartati (troppo corti)"),
+                foreground=COLOR_TEXTO_SUAVE,
+            )
+        else:
+            self.lbl_classificazione_stats.config(text="")
 
     def _actualizar_link_errores(self):
         if LOG_ERRORES.exists():
@@ -527,7 +616,9 @@ class PanelEstado:
         if pid_actual:
             episodio = estado["episodio"] or "?"
             self.lbl_k16_estado.config(text="● Transcribiendo", foreground=COLOR_VERDE)
-            partes.append(f"Episodio: {episodio}")
+            idx, total = estado.get("idx_batch"), estado.get("total_batch")
+            progreso = f" ({idx} de {total} en esta carpeta)" if idx and total else ""
+            partes.append(f"Episodio: {episodio}{progreso}")
             etime_s = estado.get("etime_s")
             if etime_s is not None:
                 transcurrido_min = etime_s / 60
