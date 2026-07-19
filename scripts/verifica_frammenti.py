@@ -128,9 +128,25 @@ def main() -> None:
         if i + BATCH < len(tutte_le_voci):
             time.sleep(SLEEP)
 
+    # Fonde con il report precedente invece di sovrascriverlo: una run che si
+    # ferma subito per budget esaurito (0 batch controllati) non deve
+    # cancellare i dubbi gia' trovati da run precedenti nella stessa giornata.
+    # Bug reale trovato il 2026-07-18: una seconda run a budget zero aveva
+    # svuotato un report di 774 voci con uno vuoto.
+    esistenti = {}
+    if REPORT_PATH.exists():
+        try:
+            for v in json.loads(REPORT_PATH.read_text(encoding="utf-8")):
+                esistenti[v["id"]] = v
+        except (json.JSONDecodeError, OSError):
+            pass
+    for v in dubbi:
+        esistenti[v["id"]] = v
+    fuso = list(esistenti.values())
+
     REPORT_PATH.parent.mkdir(parents=True, exist_ok=True)
-    REPORT_PATH.write_text(json.dumps(dubbi, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"\nFatto. {len(dubbi)} frammenti dubbi salvati in {REPORT_PATH} — NON cancellati, solo segnalati.")
+    REPORT_PATH.write_text(json.dumps(fuso, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"\nFatto. {len(dubbi)} nuovi in questa run, {len(fuso)} totali salvati in {REPORT_PATH} — NON cancellati, solo segnalati.")
 
 
 if __name__ == "__main__":

@@ -131,9 +131,22 @@ def main() -> None:
         if i + BATCH < len(tutte_le_voci):
             time.sleep(SLEEP)
 
+    # Fonde con il report precedente invece di sovrascriverlo (stesso bug/fix
+    # di verifica_frammenti.py, trovato il 2026-07-18).
+    esistenti = {}
+    if REPORT_PATH.exists():
+        try:
+            for v in json.loads(REPORT_PATH.read_text(encoding="utf-8")):
+                esistenti[v["id"]] = v
+        except (json.JSONDecodeError, OSError):
+            pass
+    for v in dubbi:
+        esistenti[v["id"]] = v
+    fuso = list(esistenti.values())
+
     REPORT_PATH.parent.mkdir(parents=True, exist_ok=True)
-    REPORT_PATH.write_text(json.dumps(dubbi, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(f"\nFatto. {len(dubbi)} voci dubbie salvate in {REPORT_PATH} — NON cancellate, solo segnalate.")
+    REPORT_PATH.write_text(json.dumps(fuso, ensure_ascii=False, indent=2), encoding="utf-8")
+    print(f"\nFatto. {len(dubbi)} nuove in questa run, {len(fuso)} totali salvate in {REPORT_PATH} — NON cancellate, solo segnalate.")
 
 
 if __name__ == "__main__":
