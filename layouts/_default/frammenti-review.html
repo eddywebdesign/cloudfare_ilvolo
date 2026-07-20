@@ -16,13 +16,16 @@
   <div id="fr-stats" class="fr-stats"></div>
 
   <div class="fr-toolbar">
-    <input id="fr-q" type="search" placeholder="Cerca nel testo, tipo, titolo, tema..." autocomplete="off">
+    <select id="fr-anno" class="fr-filtro fr-filtro--anno">
+      <option value="tutti">Tutti gli anni</option>
+    </select>
     <select id="fr-filtro" class="fr-filtro">
       <option value="tutti">Tutti</option>
       <option value="dubbi">⚠ Da rivedere (segnalati)</option>
       <option value="ok">✓ Classificati, non segnalati</option>
       <option value="vuoti">Da classificare</option>
     </select>
+    <input id="fr-q" type="search" placeholder="Cerca nel testo, tipo, titolo, tema..." autocomplete="off">
     <span id="fr-count" class="fr-count"></span>
   </div>
   <div id="fr-legenda" class="fr-legenda"></div>
@@ -93,6 +96,7 @@ header.header #menu a {
   border-radius: 6px; border: 1px solid var(--border-c); background: var(--surf); color: var(--cream); cursor: pointer;
 }
 .fr-filtro option { background: #141824; color: var(--cream); }
+.fr-filtro--anno { font-weight: 600; border-color: rgba(143,184,217,0.4); order: -1; }
 .fr-count { font-family: var(--font-mono); font-size: 0.7rem; letter-spacing: 0.1em; color: var(--gold); white-space: nowrap; }
 .fr-legenda {
   font-family: var(--font-mono); font-size: 0.65rem; letter-spacing: 0.04em; color: rgba(245,239,223,0.4);
@@ -203,6 +207,7 @@ select.fr-admin-input option { background: #141824; color: var(--cream); }
   var countEl = document.getElementById('fr-count');
   var qInput = document.getElementById('fr-q');
   var filtroSel = document.getElementById('fr-filtro');
+  var annoSel = document.getElementById('fr-anno');
   var legendaEl = document.getElementById('fr-legenda');
 
   /* Mappa id -> motivo, dai frammenti segnalati da verifica_frammenti.py
@@ -226,6 +231,11 @@ select.fr-admin-input option { background: #141824; color: var(--cream); }
     if (da !== db) return db - da;
     return a < b ? 1 : -1; // a parita', piu' recente prima
   });
+
+  /* Filtro anno: popolato dagli anni realmente presenti nei dati, non hardcoded */
+  var anni = Array.from(new Set(tuttiDate.map(function(d) { return d.slice(0, 4); }))).sort().reverse();
+  annoSel.innerHTML = '<option value="tutti">Tutti gli anni</option>' +
+    anni.map(function(a) { return '<option value="' + a + '">' + a + '</option>'; }).join('');
 
   function esc(s) {
     return String(s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
@@ -378,10 +388,13 @@ select.fr-admin-input option { background: #141824; color: var(--cream); }
   function render() {
     var q = (qInput.value || '').toLowerCase().trim();
     var filtro = filtroSel.value;
+    var anno = annoSel.value;
     var totCount = 0, visCount = 0;
     var globalCounts = { dubbi: 0, ok: 0, vuoti: 0 };
 
-    var html = date.map(function(d) {
+    var html = date.filter(function(d) {
+      return anno === 'tutti' || d.slice(0, 4) === anno;
+    }).map(function(d) {
       var frammenti = RAW[d] || [];
       var visibili = frammenti.filter(function(f) {
         totCount++;
@@ -423,6 +436,7 @@ select.fr-admin-input option { background: #141824; color: var(--cream); }
 
   qInput.addEventListener('input', render);
   filtroSel.addEventListener('change', render);
+  annoSel.addEventListener('change', render);
   renderStats();
   render();
 })();
