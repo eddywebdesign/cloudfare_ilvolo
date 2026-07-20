@@ -21,6 +21,7 @@
     </select>
     <select id="fr-filtro" class="fr-filtro">
       <option value="tutti">Tutti</option>
+      <option value="classificati">✓ Classificati (tutti)</option>
       <option value="dubbi">⚠ Da rivedere (segnalati)</option>
       <option value="ok">✓ Classificati, non segnalati</option>
       <option value="vuoti">Da classificare</option>
@@ -400,7 +401,11 @@ select.fr-admin-input option { background: #141824; color: var(--cream); }
         totCount++;
         var cat = categoria(f);
         globalCounts[cat]++;
-        if (filtro !== 'tutti' && cat !== filtro) return false;
+        if (filtro === 'classificati') {
+          if (!isClassificato(f)) return false;
+        } else if (filtro !== 'tutti' && cat !== filtro) {
+          return false;
+        }
         if (q) {
           var hay = (f.testo + ' ' + f.tipo + ' ' + f.titolo + ' ' + (f.tema || []).join(' ')).toLowerCase();
           if (hay.indexOf(q) === -1) return false;
