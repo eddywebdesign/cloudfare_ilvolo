@@ -1,0 +1,1833 @@
+[
+  {
+    "id": "2016-01-07-007",
+    "file": "2016-01-07.json",
+    "tipo": "riferimento_libro",
+    "titolo": "La versione del volo del mattino",
+    "tema": [
+      "errore",
+      "capire"
+    ],
+    "testo": "che non è colpa tua che cosa? quello che state per sentire allora quello che state per sentire è una versione del volo del mattino un po' più diciamo più selva più rough più selvaggio più grezza perch",
+    "motivo": "Il tipo \"riferimento_libro\" non corrisponde al contenuto, che parla di un programma radiofonico, non di un libro."
+  },
+  {
+    "id": "2016-01-07-008",
+    "file": "2016-01-07.json",
+    "tipo": "citazione",
+    "titolo": "Good morning life",
+    "tema": [
+      "amore",
+      "vita"
+    ],
+    "testo": "Good morning life, good morning sun, how are you skies above, it's great to be alive and in love. Good morning life, good morning birds, sing out, you're happy too, you're so good cause I'll be seeing",
+    "motivo": "Il tipo \"citazione\" non è supportato: il testo è una composizione originale, non una citazione di un'opera preesistente."
+  },
+  {
+    "id": "2016-01-07-047",
+    "file": "2016-01-07.json",
+    "tipo": "riferimento_musica",
+    "titolo": "Canzone di ispirazione",
+    "tema": [
+      "musica",
+      "spirito"
+    ],
+    "testo": "why can't you take the leaf off your mouth now that you have the facts on your side take a moment to reflect who we are let the reason guide you see all tracks lead you out from the dark how the light",
+    "motivo": "Il testo non parla di musica, ma di riflessione e ispirazione."
+  },
+  {
+    "id": "2016-01-07-072",
+    "file": "2016-01-07.json",
+    "tipo": "citazione",
+    "titolo": "Canzone d'amore",
+    "tema": [
+      "amore"
+    ],
+    "testo": "You came around to say that you'd been away like I hadn't known As if I don't wake up every single day not seeing you go As if this moon of ours only shines a half to make me feel whole Grazie a tutti",
+    "motivo": "Il testo non è una citazione, ma una canzone."
+  },
+  {
+    "id": "2016-01-07-078",
+    "file": "2016-01-07.json",
+    "tipo": "riferimento_libro",
+    "titolo": "La coscienza di Natalino Balasso",
+    "tema": [
+      "coscienza"
+    ],
+    "testo": "non ha più senso sentiamo un pezzo di Natalino Galasco salve a tutti ci lasciamo alle spalle il 2015 e affrontiamo il 2016 di cosa stiamo parlando? di numeri qualcuno pensa erroneamente che il comico ",
+    "motivo": "Il testo non parla della coscienza di Natalino Balasso, ma di un altro argomento."
+  },
+  {
+    "id": "2016-01-08-022",
+    "file": "2016-01-08.json",
+    "tipo": "riferimento_libro",
+    "titolo": "triciclo di legno",
+    "tema": [
+      "bambini",
+      "giocattoli"
+    ],
+    "testo": "Comunque vedi, per gli adulti giocattoloni tecnologici e pericolosi come il hoverboard, per bambini invece il triciclo di legno super lo fai.",
+    "motivo": "manca riferimento a libro"
+  },
+  {
+    "id": "2016-01-08-099",
+    "file": "2016-01-08.json",
+    "tipo": "riferimento_film",
+    "titolo": "La villa dei Rolling Stones",
+    "tema": [
+      "musica",
+      "villaggio"
+    ],
+    "testo": "Va bene che stai tornando in qua e quindi adesso ormai sarà troppo tardi, però se ti fossi trattenuto qualche giorno in più negli Stati Uniti avresti potuto fare l'acquisto del secolo. L'acquisto del ",
+    "motivo": "Il tipo è 'riferimento_film' ma il testo parla di una villa reale, non di un film."
+  },
+  {
+    "id": "2016-01-20-010",
+    "file": "2016-01-20.json",
+    "tipo": "aneddoto",
+    "titolo": "29 febbraio",
+    "tema": [
+      "amore",
+      "amici"
+    ],
+    "testo": "bello bello sto pezzo no è bello è bello no me lo stai dicendo con il tuo solito modo a me ma parla che ti piace beh bene ragazzi scusate una cosa un giorno ero con un mio amico che fa gli anni il 29 ",
+    "motivo": "Il tema 'amore' non è presente nel testo"
+  },
+  {
+    "id": "2016-01-20-018",
+    "file": "2016-01-20.json",
+    "tipo": "riferimento_musica",
+    "titolo": "The Great Gig in the Sky",
+    "tema": [
+      "musica",
+      "pink floyd"
+    ],
+    "testo": "Tra l'altro la donna che gli salva la vita è Sofia Lorenzo. Comunque col film dietro le scuole non sbagliate. Come non sbagliate con questa canzone? Staccate il telefono, accendetevi una sigaretta. Qu",
+    "motivo": "Il titolo 'The Great Gig in the Sky' non è presente nel testo"
+  },
+  {
+    "id": "2016-01-20-025",
+    "file": "2016-01-20.json",
+    "tipo": "riferimento_musica",
+    "titolo": "Riferimento a Pink Floyd",
+    "tema": [
+      "musica"
+    ],
+    "testo": "Su Ettore Scola o su Pink Floyd? No, in generale.",
+    "motivo": "Il testo non contiene alcun riferimento musicale concreto, solo una domanda generica su Pink Floyd."
+  },
+  {
+    "id": "2016-01-20-048",
+    "file": "2016-01-20.json",
+    "tipo": "aneddoto",
+    "titolo": "La guerra dell'informazione",
+    "tema": [
+      "informazione",
+      "comunicazione"
+    ],
+    "testo": "il paese ragazzi allora mi ha chiamato ieri un camionista è pieno di refusi ma cosa ma cosa stai dicendo Jacopo ragazzi basta refusi ok perché la guerra dell'informazione Jacopo senti la discussione c",
+    "motivo": "Il tema 'informazione' non è presente nel testo, che parla di una discussione con la compagna."
+  },
+  {
+    "id": "2016-01-20-049",
+    "file": "2016-01-20.json",
+    "tipo": "citazione",
+    "titolo": "La seconda lettera è semplicemente LAX",
+    "tema": [
+      "amore",
+      "relazione"
+    ],
+    "testo": "La seconda lettera è semplicemente LAX, quindi... Ed io ritornerò, la E che ritorna. Perché alla fine doveva essere solo l'ex che ritornano o gli ex che ritornano.",
+    "motivo": "Il tema 'amore' e 'relazione' non sono presenti nel testo, che parla di una citazione letteraria."
+  },
+  {
+    "id": "2016-01-21-002",
+    "file": "2016-01-21.json",
+    "tipo": "riferimento_libro",
+    "titolo": "Adventure of a lifetime",
+    "tema": [
+      "musica",
+      "canzoni"
+    ],
+    "testo": "Adventure of a lifetime, 2015, the new song of the Coldplay. This is Radio DJ, this is the Morning Fly, 9-7 in the morning, buongiorno a tutti. Ma cosa ho detto? Ma chi lo sa?",
+    "motivo": "Il tipo indicato è 'riferimento_libro' ma il testo parla di una canzone, non di un libro."
+  },
+  {
+    "id": "2016-01-21-005",
+    "file": "2016-01-21.json",
+    "tipo": "lettura_volo",
+    "titolo": "Good morning life",
+    "tema": [
+      "felicità",
+      "vita"
+    ],
+    "testo": "Last night she said she loved me What a pity to part I slept with both eyes open Waiting for today to start Good morning life Good morning world How are you happiness Good morning world I knew what li",
+    "motivo": "Il tipo 'lettura_volo' non corrisponde al contenuto, che è un testo lirico e non una lettura in volo."
+  },
+  {
+    "id": "2016-01-21-008",
+    "file": "2016-01-21.json",
+    "tipo": "aneddoto",
+    "titolo": "Ascoltatori del Vuoto",
+    "tema": [
+      "amore",
+      "fedeltà"
+    ],
+    "testo": "Gli ascoltatori del Vuoto del Mattino, cioè quelli che ci ascoltano, io proprio li voglio bene come se fossero tutti figli miei, sono qua da quasi 15 anni, abbiamo fatto le poesie, abbiamo fatto i fil",
+    "motivo": "I temi 'amore' e 'fedeltà' non sono supportati dal testo."
+  },
+  {
+    "id": "2016-01-21-016",
+    "file": "2016-01-21.json",
+    "tipo": "riferimento_musica",
+    "titolo": "Sting in tournée",
+    "tema": [
+      "musica"
+    ],
+    "testo": "Police 1981 dovevamo chiamare il nostro esperto di musica ma siamo già in ritardo comunque era per dire il nostro esperto di musica ci ha detto questa mattina che Sting se ne andrà con Peter Gabler in",
+    "motivo": "Il testo non parla di Sting in tournée, ma di un esperto di musica che ha detto che Sting se ne andrà in tournée con Peter Gabler."
+  },
+  {
+    "id": "2016-01-21-017",
+    "file": "2016-01-21.json",
+    "tipo": "riflessione",
+    "titolo": "Difficoltà nel fare una torta",
+    "tema": [
+      "tempo",
+      "lavoro"
+    ],
+    "testo": "ma fondamentalmente sono tecniche delle procedure come per fare una torta ok delle ricette si trovano tutte in internet uno basta guardare 101 desideri 101 desideri sono tantissimi Maurizio la sta fac",
+    "motivo": "Il testo non parla di difficoltà nel fare una torta, ma di tecniche e procedure per fare una torta."
+  },
+  {
+    "id": "2016-01-21-021",
+    "file": "2016-01-21.json",
+    "tipo": "riflessione",
+    "titolo": "Superare ostacoli",
+    "tema": [
+      "superare",
+      "ostacoli"
+    ],
+    "testo": "Ecco, il suo principio è perfetto, perché dice, guarda, uno se ci riesce, se ti impegni dopo una giornata, riesce a fare un desiderio serio. fanne centinaia perché per uscire a desiderare sul serio un",
+    "motivo": "Il testo non parla di superare ostacoli, ma di un principio che dice che se si riesce a fare un desiderio, si può fare centinaia di altri."
+  },
+  {
+    "id": "2016-01-21-025",
+    "file": "2016-01-21.json",
+    "tipo": "aneddoto",
+    "titolo": "Scegliere tra giusto e sbagliato",
+    "tema": [
+      "giusto",
+      "sbagliato"
+    ],
+    "testo": "Tu devi fare appugni col compagno. Tu devi prendere il voto di quella signora lì che è la tua maestra che però è disturbata. Tu devi fare tutte queste cose qui e tu continui a sentire dentro che è sba",
+    "motivo": "Il testo non parla di scegliere tra giusto e sbagliato, ma di una situazione in cui si deve scegliere tra due cose che sono entrambe sbagliate."
+  },
+  {
+    "id": "2016-01-21-030",
+    "file": "2016-01-21.json",
+    "tipo": "riferimento_musica",
+    "titolo": "Adele - Hello",
+    "tema": [
+      "musica",
+      "ispirazione"
+    ],
+    "testo": "durante il giorno passeggiando così mi entra hello di Adele nella testa e vado avanti a canticchiarla tutto il giorno hello così c'è una versione se vi interessa su internet di una ragazzina avrà 12 a",
+    "motivo": "Il titolo e il tema non sono coerenti con il testo, che non parla di musica di Adele"
+  },
+  {
+    "id": "2016-01-21-037",
+    "file": "2016-01-21.json",
+    "tipo": "riferimento_mito",
+    "titolo": "San Giorgio e il drago",
+    "tema": [
+      "amore",
+      "mitologia"
+    ],
+    "testo": "sono tutte le grandi storie d'amore e salvare la principessa dal drago dal drago cioè l'archetipo del drago del drago della torre lei è bloccata nella torre c'è il drago che la tiene e l'uomo la deve ",
+    "motivo": "Il titolo e il tema non sono coerenti con il testo, che non parla di San Giorgio come libro"
+  },
+  {
+    "id": "2016-01-21-038",
+    "file": "2016-01-21.json",
+    "tipo": "riferimento_libro",
+    "titolo": "San Giorgio",
+    "tema": [
+      "miti",
+      "amore"
+    ],
+    "testo": "è una missione, è un'opera d'arte è un capolavoro che fai lì dove si schiantano tre quarti delle donne di solito, no? mo lo cambio, mo lo cambio, mo lo cambio certo, poi la caratteristica è che tu lo ",
+    "motivo": "Il titolo e il tema non sono coerenti con il testo, che non parla di San Giorgio come libro"
+  },
+  {
+    "id": "2016-01-21-062",
+    "file": "2016-01-21.json",
+    "tipo": "riflessione",
+    "titolo": "Desideri e relazioni",
+    "tema": [
+      "relazioni",
+      "desideri"
+    ],
+    "testo": "di questa stanza di questa via di questo tram di questa macchina cosa mi piace di questa città di questo paese la domanda scusami ecco che mi viene adesso perché abbiamo pochissimi minuti ti rinvito l",
+    "motivo": "Il tema indicato non corrisponde al contenuto del testo."
+  },
+  {
+    "id": "2016-01-21-063",
+    "file": "2016-01-21.json",
+    "tipo": "aneddoto",
+    "titolo": "Scoperta di sé",
+    "tema": [
+      "relazioni",
+      "crescita"
+    ],
+    "testo": "l'anima gemella è quella che poi quando si arriva a andare a dormire io dormo a destra e anche lei esatto uno sopra l'altro io ho detto quello lo so già lo penso anch'io dopo quattro giorni non sai pi",
+    "motivo": "Il titolo e il tema indicati non corrispondono al contenuto del testo."
+  },
+  {
+    "id": "2016-01-21-065",
+    "file": "2016-01-21.json",
+    "tipo": "riflessione",
+    "titolo": "trovarsi un'anima non gemella",
+    "tema": [
+      "amore",
+      "relazione"
+    ],
+    "testo": "No, no, consiglio agli ascoltatori trovarsi un anima non gemella.",
+    "motivo": "Il titolo e il tema indicati non corrispondono al contenuto del testo."
+  },
+  {
+    "id": "2016-01-21-066",
+    "file": "2016-01-21.json",
+    "tipo": "riferimento_libro",
+    "titolo": "Igor Sibaldi",
+    "tema": [
+      "libro",
+      "autore"
+    ],
+    "testo": "Non gemella. Allora, Maurizio fa dei segni, non so se dietro di me sta atterrando un jumbo, perché fai così con le braccia, sta entrando un aereo dalla finestra? No, purtroppo dobbiamo parlare. è fini",
+    "motivo": "Il tipo indicato non corrisponde al contenuto del testo."
+  },
+  {
+    "id": "2016-01-22-012",
+    "file": "2016-01-22.json",
+    "tipo": "aneddoto",
+    "titolo": "La formula per essere mamma",
+    "tema": [
+      "genitori",
+      "famiglia"
+    ],
+    "testo": "aspetta cosa vuol dire essere recuperata appunto bisogna essere più precisi io voglio essere recuperata guarda che quello è il T9 vai vai vai andare ad Amsterdam andare a New York guarda come si incal",
+    "motivo": "Il testo non contiene riferimenti a genitori, famiglia o al titolo indicato"
+  },
+  {
+    "id": "2016-01-22-024",
+    "file": "2016-01-22.json",
+    "tipo": "riferimento_film",
+    "titolo": "nuovo film",
+    "tema": [
+      "coppie",
+      "relazioni"
+    ],
+    "testo": "io sono perfettamente d'accordo la mia mamma ha ragione la mia mamma, il mio mambo fantastico stiamo parlando di tutto una confusione totale volevamo sapere quali erano le tematiche diciamo per cui av",
+    "motivo": "Il titolo 'nuovo film' non è presente nel testo, che parla di una discussione tra la madre e il figlio."
+  },
+  {
+    "id": "2016-01-22-037",
+    "file": "2016-01-22.json",
+    "tipo": "riferimento_libro",
+    "titolo": "Metodo per stendere i panni",
+    "tema": [
+      "lavaggio",
+      "organizzazione"
+    ],
+    "testo": "io per esempio litigo con la mia ragazza su come provo a fregare il suo sistema su come stendere i panni dalla lavatrice a fregare? cioè ci vuol dire che lui li stende a modo suo probabilmente c'è una",
+    "motivo": "Il titolo 'Metodo per stendere i panni' non è presente nel testo, che parla di una discussione tra la ragazza e il suo ragazzo su come stendere i panni."
+  },
+  {
+    "id": "2016-01-22-039",
+    "file": "2016-01-22.json",
+    "tipo": "riflessione",
+    "titolo": "Differenze tra uomini e donne",
+    "tema": [
+      "uomini",
+      "donne",
+      "comunicazione"
+    ],
+    "testo": "è vero che noi donne teniamo i messaggi perché ci piace rileggere invece gli uomini li sganiano perché sono pigri troppo pigri per cancellarli perché noi ci dimentichiamo qualcuno dice anche perché ci",
+    "motivo": "Il titolo 'Differenze tra uomini e donne' non è presente nel testo, che parla di come le donne conservano i messaggi e gli uomini li cancellano."
+  },
+  {
+    "id": "2016-01-22-068",
+    "file": "2016-01-22.json",
+    "tipo": "citazione",
+    "titolo": "It's not unusual",
+    "tema": [
+      "amore",
+      "relazioni"
+    ],
+    "testo": "... ... ... ... ... It's not unusual to go out at any time But when I see you out and about it's such a crime If you should ever want to be loved by anyone It's not unusual, it happens every day No ma",
+    "motivo": "Il titolo 'It's not unusual' non è presente nel testo, che sembra essere una citazione di una canzone."
+  },
+  {
+    "id": "2016-01-25-003",
+    "file": "2016-01-25.json",
+    "tipo": "citazione",
+    "titolo": "Poesia",
+    "tema": [
+      "poesia",
+      "vita"
+    ],
+    "testo": "Con Deus mi dito, con Deus mi levanto, conmigo eu calo, conmigo eu canto, eu bato em um papo, eu bato em um ponto, eu tomo um drink e eu fico tonto.",
+    "motivo": "Il tema 'vita' non è presente nel testo."
+  },
+  {
+    "id": "2016-01-25-008",
+    "file": "2016-01-25.json",
+    "tipo": "citazione",
+    "titolo": "Buon giorno, essere vivo",
+    "tema": [
+      "amore",
+      "vita"
+    ],
+    "testo": "Good morning sun, how are you? It's great to be alive and involved Grazie a tutti. Buonasera.",
+    "motivo": "Il tema 'amore' non è presente nel testo."
+  },
+  {
+    "id": "2016-01-25-019",
+    "file": "2016-01-25.json",
+    "tipo": "riferimento_libro",
+    "titolo": "Versione scapero",
+    "tema": [
+      "letteratura"
+    ],
+    "testo": "Nella versione scapero. Eh, addio. Peggio dell'originale.",
+    "motivo": "Il testo non contiene un chiaro riferimento a un libro."
+  },
+  {
+    "id": "2016-01-25-054",
+    "file": "2016-01-25.json",
+    "tipo": "aneddoto",
+    "titolo": "Giuliano e il compleanno",
+    "tema": [
+      "amici",
+      "comunicazione"
+    ],
+    "testo": "E resto qui.",
+    "motivo": "Il testo non contiene alcun riferimento al titolo o ai temi indicati"
+  },
+  {
+    "id": "2016-01-25-055",
+    "file": "2016-01-25.json",
+    "tipo": "citazione",
+    "titolo": "Canzone",
+    "tema": [
+      "amore",
+      "insicurezza"
+    ],
+    "testo": "Sul filo di un rasoio, ad asciugar parole che oggi ho spesso e mai dirò. Non senti che, tremo mentre canto, nascondo questa stupida albedria. Quando mi guardi, non senti che, tremo mentre canto, è il ",
+    "motivo": "Il contenuto è poetico ma non tratta esplicitamente i temi 'amore' o 'insicurezza'"
+  },
+  {
+    "id": "2016-01-25-057",
+    "file": "2016-01-25.json",
+    "tipo": "riferimento_libro",
+    "titolo": "Paolo Bucci Rosso",
+    "tema": [
+      "autore",
+      "libro"
+    ],
+    "testo": "Ora c'è Paolo Bucci Rosso Paolo Bucci Rosso?",
+    "motivo": "Manca qualsiasi riferimento a un libro o all'autore, solo il nome ripetuto"
+  },
+  {
+    "id": "2016-01-26-030",
+    "file": "2016-01-26.json",
+    "tipo": "riferimento_libro",
+    "titolo": "La voce di una radio famosa",
+    "tema": [
+      "radio",
+      "famose"
+    ],
+    "testo": "già qua, perché 50 anni è giovane scusami, 50 anni è giovane nel senso che 50 anni non è che stiamo dicendo ora non so se c'ha 50 anni sono me ce l'ha e forse anche un pochino di più pensa se magari i",
+    "motivo": "Il testo non parla di un libro, quindi il tipo 'riferimento_libro' non è valido."
+  },
+  {
+    "id": "2016-01-26-037",
+    "file": "2016-01-26.json",
+    "tipo": "aneddoto",
+    "titolo": "La signora con i tacchi",
+    "tema": [
+      "età",
+      "bassità",
+      "tacchi"
+    ],
+    "testo": "bassa forse 1,50 come diceva mio amico è così basta che si inciampa nel filo del Tampax ma ti dico un'altra ha dei tacchi che hanno 15 e perché porta i tacchi? quando tu la guardi, gli guardi le gambe",
+    "motivo": "Il testo non parla di tacchi, quindi il tema 'tacchi' non è valido."
+  },
+  {
+    "id": "2016-01-26-039",
+    "file": "2016-01-26.json",
+    "tipo": "riferimento_libro",
+    "titolo": "Il cappello e il fiore",
+    "tema": [
+      "cappelli",
+      "fiori"
+    ],
+    "testo": "Perché questo non è solo tutto quello che ha, eh. Quando esce porta cappelli o porta un bel fiore sulla testa. Guardatemi.",
+    "motivo": "Il testo non parla di un libro, quindi il tipo 'riferimento_libro' non è valido."
+  },
+  {
+    "id": "2016-01-26-042",
+    "file": "2016-01-26.json",
+    "tipo": "riferimento_film",
+    "titolo": "E.T. e la fantasia",
+    "tema": [
+      "fantasia",
+      "infanzia"
+    ],
+    "testo": "insomma quindi ti svegli quindi c'è la vicina che ti sveglia va bene va bene comunque c'è allora basta coi tacchi 15 al cappello allora siccome Siccome la radio è come la letteratura, quando leggi o q",
+    "motivo": "Il testo non parla di un film, quindi il tipo 'riferimento_film' non è valido."
+  },
+  {
+    "id": "2016-01-26-051",
+    "file": "2016-01-26.json",
+    "tipo": "riferimento_film",
+    "titolo": "Pulp Fiction e la pallina rossa",
+    "tema": [
+      "cinema",
+      "erotismo"
+    ],
+    "testo": "tu sai il nome della pallina rossa? qui sono ignorante la pallina rossa di Pulp Fiction Pulp Fiction c'è una scena come si chiama?",
+    "motivo": "Il testo non parla di un film, quindi il tipo 'riferimento_film' non è valido."
+  },
+  {
+    "id": "2016-01-26-057",
+    "file": "2016-01-26.json",
+    "tipo": "riferimento_libro",
+    "titolo": "Francesco De Gregori e Ligabue",
+    "tema": [
+      "musica",
+      "poesia"
+    ],
+    "testo": "Tutto sta roba. Francesco De Gregori e Ligabue.",
+    "motivo": "Il tipo indicato è \"riferimento_libro\" ma il testo non cita né descrive alcun libro; parla solo di due musicisti."
+  },
+  {
+    "id": "2016-01-27-027",
+    "file": "2016-01-27.json",
+    "tipo": "aneddoto",
+    "titolo": "Arrivo di Diego in studio",
+    "tema": [
+      "studio",
+      "arrivo",
+      "ospite"
+    ],
+    "testo": "Allora, sulla domanda cosa ci faceva Lapina sulla macchina con Ivana Spagna, è arrivato Diego, che era qua. Con un po' d'anticipo. Vai in onda fra 12 ore. Ti controllo Fabio. Oggi è una giornata impor",
+    "motivo": "Il tipo è aneddoto, ma il testo non parla di un aneddoto, ma di un arrivo in studio."
+  },
+  {
+    "id": "2016-01-27-033",
+    "file": "2016-01-27.json",
+    "tipo": "riferimento_film",
+    "titolo": "Il sogno di George Michael",
+    "tema": [
+      "sogno",
+      "desiderio"
+    ],
+    "testo": "mille volte ancora Max Gazzera di DJ questo è il volo del mattino vi ricordo che domani mattina tornerà Igor Sibaldi a trovarci nella puntata del giovedì parleremo ancora di desideri di sogni da reali",
+    "motivo": "Il titolo \"Il sogno di George Michael\" non è presente nel testo; il testo non parla di George Michael."
+  },
+  {
+    "id": "2016-01-27-040",
+    "file": "2016-01-27.json",
+    "tipo": "riferimento_musica",
+    "titolo": "La storia di Sitting in the Dock of the Bay",
+    "tema": [
+      "musica",
+      "morte",
+      "carriera"
+    ],
+    "testo": "l'olio non lo devi dire lo devi dire alla fine Questo era lo sponsor. Cioè, non l'ha detto giusto. Ok. Allora, cosa è successo oggi? Allora, è successo che veniva pubblicata in questi giorni in Americ",
+    "motivo": "Il tema include \"morte\" ma il testo non menziona la morte."
+  },
+  {
+    "id": "2016-01-27-064",
+    "file": "2016-01-27.json",
+    "tipo": "riflessione",
+    "titolo": "Il sogno della mia vita",
+    "tema": [
+      "amore",
+      "famiglia"
+    ],
+    "testo": "guarda il sogno della mia vita andare a vivere al mare andare a vivere al mare? aspetta ma considera che io sono già ho 52 anni 52 anni che lavoro fai Caterina?",
+    "motivo": "Il tema include \"famiglia\" ma il testo non ne parla."
+  },
+  {
+    "id": "2016-01-28-007",
+    "file": "2016-01-28.json",
+    "tipo": "aneddoto",
+    "titolo": "Comunicazione con gli animali",
+    "tema": [
+      "comunicazione",
+      "animali"
+    ],
+    "testo": "Come vuoi, qua si può dire tutto.",
+    "motivo": "Il testo non contiene alcun riferimento a un aneddoto o a un argomento specifico."
+  },
+  {
+    "id": "2016-01-28-044",
+    "file": "2016-01-28.json",
+    "tipo": "riferimento_libro",
+    "titolo": "Un libro insieme",
+    "tema": [
+      "libro",
+      "scrittura"
+    ],
+    "testo": "Abbiamo scritto un libro insieme.",
+    "motivo": "Il testo non menziona la scrittura come argomento principale, il titolo e il tema sembrano essere stati inventati."
+  },
+  {
+    "id": "2016-01-28-045",
+    "file": "2016-01-28.json",
+    "tipo": "riferimento_libro",
+    "titolo": "Un libro con il gatto",
+    "tema": [
+      "libro",
+      "gatto"
+    ],
+    "testo": "Avete scritto un libro insieme? Già, che adesso c'è anche un libro in uscita, quindi a quattro c'è scritto Vigor Simaldi e Welling. No, era un altro. Ah, ok, ok. Qual è scritto col tuo gatto? Il tuo a",
+    "motivo": "Il testo non menziona la scrittura come argomento principale, il titolo e il tema sembrano essere stati inventati."
+  },
+  {
+    "id": "2016-01-28-049",
+    "file": "2016-01-28.json",
+    "tipo": "riferimento_libro",
+    "titolo": "Programma più bello",
+    "tema": [
+      "libro",
+      "radio"
+    ],
+    "testo": "un ascoltatore di Roma scrive ma abbiamo deciso di diventare il programma più bello della radiofonia mondiale vedi?",
+    "motivo": "Il testo non menziona un libro come argomento principale, il titolo e il tema sembrano essere stati inventati."
+  },
+  {
+    "id": "2016-01-28-052",
+    "file": "2016-01-28.json",
+    "tipo": "riferimento_libro",
+    "titolo": "Logos e Eros",
+    "tema": [
+      "filosofia",
+      "amore"
+    ],
+    "testo": "Sono due parole fondamentali, sono Logos e Eros. Aristotele, no? Logos e Eros.",
+    "motivo": "Il testo non menziona la filosofia come argomento principale, il titolo e il tema sembrano essere stati inventati."
+  },
+  {
+    "id": "2016-01-29-001",
+    "file": "2016-01-29.json",
+    "tipo": "riferimento_musica",
+    "titolo": "Testo canzone ripetuto",
+    "tema": [
+      "musica"
+    ],
+    "testo": "You make me feel Like I'm alive again Alive again You make me feel Like I'm alive again Said I can't go on Ciao Ciao ciao ciao ciao",
+    "motivo": "Il testo non menziona un libro come argomento principale, il titolo e il tema sembrano essere stati inventati."
+  },
+  {
+    "id": "2016-01-29-013",
+    "file": "2016-01-29.json",
+    "tipo": "riferimento_film",
+    "titolo": "Bomba di una spiegazione",
+    "tema": [
+      "lavoro",
+      "comunicazione"
+    ],
+    "testo": "Ma come gliel'hai detto? Gli hai proprio lanciato una bomba.",
+    "motivo": "Il tipo è 'riferimento_film' ma il testo non contiene alcun riferimento a un film."
+  },
+  {
+    "id": "2016-01-29-031",
+    "file": "2016-01-29.json",
+    "tipo": "citazione",
+    "titolo": "Canzone di ABBA",
+    "tema": [
+      "amore",
+      "moneta"
+    ],
+    "testo": "a presto Grazie a tutti! a presto Ciao! grazie I just hope it ain't the money money money money money Love me love me honey I just hope it ain't the money money money money money Love me love me honey",
+    "motivo": "Il tema 'moneta' non è presente nel testo."
+  },
+  {
+    "id": "2016-01-29-047",
+    "file": "2016-01-29.json",
+    "tipo": "riferimento_libro",
+    "titolo": "Programma di educazione sessuale",
+    "tema": [
+      "educazione",
+      "sessualità",
+      "sanità pubblica"
+    ],
+    "testo": "Allora, in Olanda hanno costruito proprio un'agenzia. E pensa, l'ha costruita il Ministero della Sanità, non il Ministero della Pubblica Istruzione. Perché per loro è una questione di sanità pubblica.",
+    "motivo": "Il tipo è 'riferimento_libro' ma il testo non cita né descrive un libro"
+  },
+  {
+    "id": "2016-01-29-049",
+    "file": "2016-01-29.json",
+    "tipo": "riferimento_libro",
+    "titolo": "Il kamasutra italiano",
+    "tema": [
+      "pornografia",
+      "adolescenza",
+      "educazione"
+    ],
+    "testo": "poi esce fuori quando scoppia la tragedia oppure quando in tutte quelle storie i ragazzini ricattate perché i ragazzi si mandano le foto magari a sfondo sessuale cioè il kamasutra italiano è il lingua",
+    "motivo": "Il tipo è 'riferimento_libro' ma non vi è alcun riferimento a un libro"
+  },
+  {
+    "id": "2016-01-29-052",
+    "file": "2016-01-29.json",
+    "tipo": "riferimento_film",
+    "titolo": "Il marito di Mussolini al Family Day",
+    "tema": [
+      "politica",
+      "storia"
+    ],
+    "testo": "questo succede in Italia il marito della Mussolini che è stato processato e condannato è al Family Day in prima fila con la moglie va bene perché il male era la sedicenne ciao Riccardo, grazie mille u",
+    "motivo": "Il tipo è 'riferimento_film' ma il testo non parla di un film"
+  },
+  {
+    "id": "2016-01-29-067",
+    "file": "2016-01-29.json",
+    "tipo": "riferimento_film",
+    "titolo": "La sessualità imparata da Katy Perry",
+    "tema": [
+      "sessualità",
+      "educazione"
+    ],
+    "testo": "prende in mano dentro il pancione esatto ok buongiorno Anna grazie mille buongiorno ciao ciao ciao ciao ciao ciao viola dimmi qui arrivano ascoltatori che hanno imparato la sessualità come te da quest",
+    "motivo": "Il tipo è 'riferimento_film' ma il contenuto non menziona né descrive un film"
+  },
+  {
+    "id": "2016-02-01-010",
+    "file": "2016-02-01.json",
+    "tipo": "riferimento_libro",
+    "titolo": "Sigla tonalità",
+    "tema": [
+      "musica"
+    ],
+    "testo": "Mi chiamo Vittorio da Firenze e vorrei sapere una cosa. Mi spiegate perché la vostra sigla a metà cambia tonalità.",
+    "motivo": "Il testo non parla di musica, quindi il tipo 'riferimento_libro' non è coerente."
+  },
+  {
+    "id": "2016-02-01-019",
+    "file": "2016-02-01.json",
+    "tipo": "riferimento_musica",
+    "titolo": "Suo passato musicale",
+    "tema": [
+      "musica",
+      "infanzia"
+    ],
+    "testo": "Sì, no vabbè, suonavo il pianoforte quando ero ancora abbastanza piccolo.",
+    "motivo": "Il testo non parla di musica, quindi il tipo 'riferimento_musica' non è coerente."
+  },
+  {
+    "id": "2016-02-01-020",
+    "file": "2016-02-01.json",
+    "tipo": "riferimento_musica",
+    "titolo": "Zeppolman",
+    "tema": [
+      "musica",
+      "strumenti"
+    ],
+    "testo": "Ma ce l'hai a casa una tastiera, un pianoforte, qualcosa?",
+    "motivo": "Il testo non parla di musica, quindi il tipo 'riferimento_musica' non è coerente."
+  },
+  {
+    "id": "2016-02-01-045",
+    "file": "2016-02-01.json",
+    "tipo": "riferimento_libro",
+    "titolo": "Palestra",
+    "tema": [
+      "lavoro",
+      "allenamento"
+    ],
+    "testo": "Sul lavoro, sul posto di lavoro?",
+    "motivo": "titolo e tema non presenti nel testo"
+  },
+  {
+    "id": "2016-02-01-065",
+    "file": "2016-02-01.json",
+    "tipo": "riferimento_musica",
+    "titolo": "Coez e Clementino",
+    "tema": [
+      "musica",
+      "italia"
+    ],
+    "testo": "si chiama Coez brava Viola ci ho preso la giovane del gruppo al concetto Coez ok va bene Ho dato un nome che non è quello reale, perché non volevo fare la parte dello sborone, non volevo parlare.",
+    "motivo": "Il titolo e il tema non sono coerenti con il contenuto del testo."
+  },
+  {
+    "id": "2016-02-01-076",
+    "file": "2016-02-01.json",
+    "tipo": "aneddoto",
+    "titolo": "La vita di Fabio Volo",
+    "tema": [
+      "amore",
+      "relazione"
+    ],
+    "testo": "ma ti dirò sai perché ho letto un anno e mezzo senza sesso? perché ad un certo punto ho letto tutta vita di Fabio Volo porta sfiga senti una cosa Jacopo ti volevo dire hai trovato anche lavoro? no non",
+    "motivo": "Il titolo e il tema non sono coerenti con il contenuto del testo."
+  },
+  {
+    "id": "2016-02-01-078",
+    "file": "2016-02-01.json",
+    "tipo": "citazione",
+    "titolo": "Canzone di Rihanna",
+    "tema": [
+      "amore",
+      "relazione"
+    ],
+    "testo": "But I don't mind Ciao! Now she dances to the song on the minute All the time All the time And make her weep when she hear it And it got her on her knees like religion She was young and she was forced ",
+    "motivo": "Il titolo cita una canzone di Rihanna, ma nel testo non compare alcun riferimento a Rihanna o a una sua canzone."
+  },
+  {
+    "id": "2016-02-01-095",
+    "file": "2016-02-01.json",
+    "tipo": "riferimento_film",
+    "titolo": "Messaggio di Leo Di Caprio",
+    "tema": [
+      "ambiente",
+      "responsabilità"
+    ],
+    "testo": "E' chiaro, è un messaggio da Leo Di Caprio.",
+    "motivo": "Il tipo è \"riferimento_film\" ma il testo non menziona alcun film, solo un messaggio attribuito a Leonardo Di Caprio."
+  },
+  {
+    "id": "2016-02-01-113",
+    "file": "2016-02-01.json",
+    "tipo": "riferimento_musica",
+    "titolo": "Suono dance di Yasu",
+    "tema": [
+      "musica",
+      "danza"
+    ],
+    "testo": "E a proposito di DJ, era molto caratteristico il suono dance, come in questa canzone di Yasu.",
+    "motivo": "Il titolo non è presente nel testo"
+  },
+  {
+    "id": "2016-02-02-024",
+    "file": "2016-02-02.json",
+    "tipo": "riferimento_musica",
+    "titolo": "Scambio dei Rollins",
+    "tema": [
+      "musica"
+    ],
+    "testo": "Allora arrivano, a parte ascoltatori che hanno cose da scambiarsi con te, dicono anche che il sabato, se vuoi Maurizio, in Darsena, quindi qua sui navigli a Milano, c'è lo scambio dei Rollins. buongio",
+    "motivo": "Il testo non parla di musica, ma di uno scambio di oggetti"
+  },
+  {
+    "id": "2016-02-02-026",
+    "file": "2016-02-02.json",
+    "tipo": "riflessione",
+    "titolo": "Mantenere viva la passione",
+    "tema": [
+      "amore",
+      "relazione"
+    ],
+    "testo": "Io faccio quello che tu vuoi, lo sai che sono io. Ecco, un altro tema, direi che... 8-9 donne su 10 8-9 ha fatto questa cosa 8-9 su 8-9 donne su 10 dopo un po' di anni di matrimonio slash convivenza n",
+    "motivo": "Il testo non parla di amore o relazione, ma di una discussione sul sesso"
+  },
+  {
+    "id": "2016-02-02-028",
+    "file": "2016-02-02.json",
+    "tipo": "riferimento_libro",
+    "titolo": "Samantha della valigia rossa",
+    "tema": [
+      "libro",
+      "erotismo"
+    ],
+    "testo": "dopo un po' 8-9 è precisa però sui anni è vaga potrebbe essere un tema potrebbe essere un tema cioè come mantenere viva la passione ma c'ho scritto un libro è tutta vita poi eventualmente abbiamo la S",
+    "motivo": "Il testo non parla di un libro, ma di una discussione sul sesso"
+  },
+  {
+    "id": "2016-02-02-035",
+    "file": "2016-02-02.json",
+    "tipo": "riferimento_musica",
+    "titolo": "Non finirà mai",
+    "tema": [
+      "musica",
+      "critica"
+    ],
+    "testo": "Non finirà mai Perché non finirà Non finirà mai Perché non finirà Non finirà mai Perché non finirà Non finirà mai Perché non finirà Non finirà Produciamo nuove contaminazioni Fukushima, Nagasaki e Mur",
+    "motivo": "Il testo non contiene riferimenti musicali coerenti con il tipo 'riferimento_musica'"
+  },
+  {
+    "id": "2016-02-02-036",
+    "file": "2016-02-02.json",
+    "tipo": "riferimento_libro",
+    "titolo": "Il nome non si addice",
+    "tema": [
+      "musica",
+      "critica"
+    ],
+    "testo": "Posso dire che il nome, diciamo, non si addice alla loro bravura, nel senso che nel mondo della musica si dice anche del cinema, no? Lei è una cane, vuole un cane, a cantare un cane. Non si chiamano i",
+    "motivo": "Manca un riferimento a un libro, il tipo è 'riferimento_libro'"
+  },
+  {
+    "id": "2016-02-02-037",
+    "file": "2016-02-02.json",
+    "tipo": "riferimento_libro",
+    "titolo": "Il progetto i cani",
+    "tema": [
+      "musica",
+      "creatività"
+    ],
+    "testo": "Bravissimi, non finirà. In realtà è uno. Eh? È uno. I cani. Che si chiama Niccolò Contessa, che ha questo progetto.",
+    "motivo": "Il contenuto non cita alcun libro, non corrisponde al tipo 'riferimento_libro'"
+  },
+  {
+    "id": "2016-02-02-043",
+    "file": "2016-02-02.json",
+    "tipo": "riferimento_libro",
+    "titolo": "Il liocorno",
+    "tema": [
+      "mitologia",
+      "storia"
+    ],
+    "testo": "Il liocorno è un animale mitico non si studia più la mitologia e quindi nessuno sa che esistono gli ocorni ma gli ocorni è un animale che soprattutto nel medioevo nel vestiario medievale era molto di ",
+    "motivo": "Il testo non fa riferimento a un libro, ma a un animale mitico e a un gruppo musicale"
+  },
+  {
+    "id": "2016-02-03-007",
+    "file": "2016-02-03.json",
+    "tipo": "riferimento_musica",
+    "titolo": "I Rollins di Ian Solo",
+    "tema": [
+      "musica",
+      "Star Wars"
+    ],
+    "testo": "Io ho trovato i Rollins di Ian Solo. Ancora lì sei tu, da ieri.",
+    "motivo": "Il testo non menziona Ian Solo, ma sembra che il titolo sia un riferimento a Ian Solo, il personaggio di Star Wars."
+  },
+  {
+    "id": "2016-02-03-008",
+    "file": "2016-02-03.json",
+    "tipo": "riferimento_film",
+    "titolo": "Film di Tarantino",
+    "tema": [
+      "cinema",
+      "Tarantino"
+    ],
+    "testo": "Volevo dire una cosa da ieri, ho trovato Ian Solo. Oggi ragazzi vi volevamo dire delle cose molto belle. Ve le diciamo perché... parlo già da troppo tempo domani esce il film di Tarantino io ho avuto ",
+    "motivo": "Il testo non menziona Tarantino, ma sembra che il titolo sia un riferimento a un film di Tarantino."
+  },
+  {
+    "id": "2016-02-03-010",
+    "file": "2016-02-03.json",
+    "tipo": "aneddoto",
+    "titolo": "Relazioni con i cani",
+    "tema": [
+      "animali",
+      "famiglia"
+    ],
+    "testo": "a proposito di persone diciamo famiglie che hanno relazioni diciamo con i cani no relazioni molto intime siamo così noi non riusciamo a passare neanche una notte fuori perché ho tre argentini recupera",
+    "motivo": "Il testo non menziona cani, ma sembra che il titolo sia un riferimento a relazioni con i cani."
+  },
+  {
+    "id": "2016-02-03-020",
+    "file": "2016-02-03.json",
+    "tipo": "riferimento_film",
+    "titolo": "Film di Heidi con Ganz",
+    "tema": [
+      "cinema",
+      "film"
+    ],
+    "testo": "Aspetta, ragazzi, esce il film di Heidi e pensavamo fosse una cosa così. C'è persino Ganz che fa il nonno di Heidi. C'è un film d'autore serio. Fantastico.",
+    "motivo": "Il testo non menziona Heidi, ma sembra che il titolo sia un riferimento a un film di Heidi."
+  },
+  {
+    "id": "2016-02-03-043",
+    "file": "2016-02-03.json",
+    "tipo": "riferimento_libro",
+    "titolo": "Tempesta di Malika Yen",
+    "tema": [
+      "libro"
+    ],
+    "testo": "Tempesta, Malika Yen. Allora, un ascoltatore dice, vi siete dimenticati di dire che a Sanremo c'è anche Metre Games. Però noi lo troviamo per scontato perché ormai Metre Games, non so se avete notato,",
+    "motivo": "Il testo non contiene alcun riferimento a un libro, ma parla di Metre Games."
+  },
+  {
+    "id": "2016-02-03-053",
+    "file": "2016-02-03.json",
+    "tipo": "riferimento_musica",
+    "titolo": "I don't wanna steal your freedom",
+    "tema": [
+      "amore",
+      "libertà"
+    ],
+    "testo": "sono sempre le stesse domande più o meno le stesse risposte poi con internet ci sono tanti altri mille giornalini giornaletti che vanno riempiti tutti i giorni e quindi per esempio una volta uno mi ha",
+    "motivo": "Il testo non menziona né una canzone né un artista; non è un riferimento musicale."
+  },
+  {
+    "id": "2016-02-03-073",
+    "file": "2016-02-03.json",
+    "tipo": "riferimento_libro",
+    "titolo": "Panettone e pandoro",
+    "tema": [
+      "natale",
+      "cucina"
+    ],
+    "testo": "Vale anche il pandoro, chiedo? Ma oggi come... Non è che Dio dice a me piace solo il panettone?",
+    "motivo": "Il contenuto riguarda panettone e pandoro, non un libro."
+  },
+  {
+    "id": "2017-01-09-031",
+    "file": "2017-01-09.json",
+    "tipo": "riflessione",
+    "titolo": "Uso del cuore e del cervello",
+    "tema": [
+      "amore",
+      "ragionamento"
+    ],
+    "testo": "Diminuire la disponibilità per gli altri, pensare più a me. Poi per ragionare uso il cuore invece del cervello e rimango fregato. Come ti capisco.",
+    "motivo": "Il tema 'amore' non è presente nel testo."
+  },
+  {
+    "id": "2017-01-09-033",
+    "file": "2017-01-09.json",
+    "tipo": "aneddoto",
+    "titolo": "Maurizio e la cassa",
+    "tema": [
+      "lavoro",
+      "burocrazia"
+    ],
+    "testo": "è la descrizione di Maurizio perché Maurizio usa il cuore Maurizio non ce l'ha neanche il cuore ma c'hai una registratura di cassa come questo qua fa anche le nalotto col cuore Maurizio puoi pagare an",
+    "motivo": "Il tema 'lavoro' e 'burocrazia' non sono trattati nel testo."
+  },
+  {
+    "id": "2018-01-08-048",
+    "file": "2018-01-08.json",
+    "tipo": "riferimento_libro",
+    "titolo": "Viaggio in Atlantico",
+    "tema": [
+      "viaggio",
+      "atlantico"
+    ],
+    "testo": "dalla Spezia dalla Spezia a Givilterra da Givilterra alle Canarie e dalle Canarie ai Caraibi a Marchesca e scusami e da là hai un aereo?",
+    "motivo": "Il tipo è 'riferimento_libro' ma il testo non contiene alcun riferimento a un libro."
+  },
+  {
+    "id": "2018-01-08-056",
+    "file": "2018-01-08.json",
+    "tipo": "riferimento_libro",
+    "titolo": "La ricerca sulle barche",
+    "tema": [
+      "barche",
+      "ricerca"
+    ],
+    "testo": "No, io faccio materiali e tecnologie per l'industria nautica. Ah.",
+    "motivo": "Il tipo è 'riferimento_libro' ma il testo non cita alcun libro."
+  },
+  {
+    "id": "2018-01-08-057",
+    "file": "2018-01-08.json",
+    "tipo": "aneddoto",
+    "titolo": "La telefonata con Arianna",
+    "tema": [
+      "telefono",
+      "relazione"
+    ],
+    "testo": "io ti vedevo lì col microscopio col topolino stamattina serve comunque il microscopio va bene senti buona giornata grazie mille non so se sono contento di questa telefonata dici qualcosa di due mesi d",
+    "motivo": "Il testo è incomprensibile e non contiene un chiaro aneddoto relativo a una telefonata o a una relazione."
+  },
+  {
+    "id": "2018-01-08-058",
+    "file": "2018-01-08.json",
+    "tipo": "riflessione",
+    "titolo": "La sensazione di libertà in Calabria",
+    "tema": [
+      "libertà",
+      "Calabria"
+    ],
+    "testo": "Nel senso che c'era tanta tanta tanta aria, quando sei in città c'è un pacco di cose sopra l'orizzonte o anche in montagna, hai le montagne sopra l'orizzonte. Ah lì è orizzonte, e lì invece... piatto ",
+    "motivo": "Il testo non menziona la Calabria né la libertà, quindi il tema non è supportato."
+  },
+  {
+    "id": "2018-01-08-059",
+    "file": "2018-01-08.json",
+    "tipo": "riferimento_musica",
+    "titolo": "Canzone di Roberta Armani",
+    "tema": [
+      "musica",
+      "canzone"
+    ],
+    "testo": "vabbè ti saluto ciao Arianna buona bocca al lupo ciao ciao ciao ciao ciao stamattina non so perché ho portato questa canzone bella parlava come Roberta Armani era lei era la Roberta Armani ho fatto i ",
+    "motivo": "Il titolo e il tema non sono coerenti con il testo, che non parla di musica"
+  },
+  {
+    "id": "2018-01-08-080",
+    "file": "2018-01-08.json",
+    "tipo": "riferimento_musica",
+    "titolo": "Tell me why",
+    "tema": [
+      "musica",
+      "canzone"
+    ],
+    "testo": "... ... ... oh tell me why I'm underneath the dark ice blue sky oh oh oh oh oh oh oh oh oh Grazie a tutti. Grazie a tutti.",
+    "motivo": "Il titolo e il tema non sono coerenti con il testo, che non parla di musica"
+  },
+  {
+    "id": "2018-01-08-082",
+    "file": "2018-01-08.json",
+    "tipo": "aneddoto",
+    "titolo": "Baciare i colleghi",
+    "tema": [
+      "lavoro",
+      "relazioni"
+    ],
+    "testo": "Dobbiamo chiedere scusa a una ragazza.",
+    "motivo": "Il titolo e il tema non sono coerenti con il testo, che non parla di un aneddoto"
+  },
+  {
+    "id": "2019-09-02-003",
+    "file": "2019-09-02.json",
+    "tipo": "riferimento_film",
+    "titolo": "Vince Zingaretti al governo",
+    "tema": [
+      "politica",
+      "governo"
+    ],
+    "testo": "La canzone vincitrice della 69° edizione del Festival di Sanremo è Soldi Mamù. Se gli italiani hanno votato in massa per un altro che ha perso. Vince Zingaretti, primi dati inequivocabili, il governat",
+    "motivo": "Il titolo e il tema non sono coerenti con il testo, che parla di un evento politico e non di un film"
+  },
+  {
+    "id": "2019-09-02-009",
+    "file": "2019-09-02.json",
+    "tipo": "riferimento_libro",
+    "titolo": "Il volo del mattino torna",
+    "tema": [
+      "libro",
+      "giornalismo"
+    ],
+    "testo": "I titoli dei giornali di questa mattina sono tutti sulla stessa falsa riga. Corriere della sera. Finalmente torna il volo del mattino. Con Fabio Volo ne vedremo delle belle. La Repubblica. Lo aspettav",
+    "motivo": "Il titolo e il tema non sono coerenti con il testo, che parla di un evento giornalistico e non di un libro"
+  },
+  {
+    "id": "2019-09-02-016",
+    "file": "2019-09-02.json",
+    "tipo": "riflessione",
+    "titolo": "Le 5 parole più importanti",
+    "tema": [
+      "amore",
+      "vita",
+      "imparare"
+    ],
+    "testo": "perché ognuno nella propria vita ha le sue faccende diciamo uno dei motivi per cui siamo su questo pianeta è per imparare le 5 parole più importanti non so dove stai andando a parlare ho già paura son",
+    "motivo": "Il titolo e il tema non sono coerenti con il testo, che non parla di amore, vita e imparare"
+  },
+  {
+    "id": "2019-09-02-026",
+    "file": "2019-09-02.json",
+    "tipo": "riferimento_libro",
+    "titolo": "Tony Dall'Ari",
+    "tema": [
+      "letteratura"
+    ],
+    "testo": "Dove era? Cosa dici? Tony Dall'Ari? C'è, c'è. È lì in mezzo. C'è. Mi aspettavo una stropetta.",
+    "motivo": "Il testo non contiene alcun riferimento a un libro o a contenuti letterari, quindi il tipo \"riferimento_libro\" è errato."
+  },
+  {
+    "id": "2019-09-02-027",
+    "file": "2019-09-02.json",
+    "tipo": "riferimento_libro",
+    "titolo": "Angelo Rega",
+    "tema": [
+      "letteratura"
+    ],
+    "testo": "Ma con la voce di Rega l'ha schiacciato, no? E Rega quando parla sembra sempre quelle rane qui, qui, qui. All'Una Park dove devi buttare le palline dentro. C'ha sta apertura. E' Angelo. bene ragazzi a",
+    "motivo": "Il frammento non menziona né un libro né contenuti letterari; il tipo \"riferimento_libro\" è quindi ingiustificato."
+  },
+  {
+    "id": "2019-09-02-028",
+    "file": "2019-09-02.json",
+    "tipo": "riferimento_libro",
+    "titolo": "Madonna",
+    "tema": [
+      "letteratura"
+    ],
+    "testo": "Guarda che potrebbe essere una rubrica della Madonna.",
+    "motivo": "Il testo parla solo di una possibile rubrica della Madonna, senza alcun riferimento a un libro; il tipo è errato."
+  },
+  {
+    "id": "2019-09-02-063",
+    "file": "2019-09-02.json",
+    "tipo": "riferimento_musica",
+    "titolo": "Le meduse",
+    "tema": [
+      "musica",
+      "immaginazione"
+    ],
+    "testo": "io sono responsabile del visual merchandising per un'azienda inglese di moto vuoi farti dei bagnetti per l'app delle meduse brava Gioia ti salutiamo un abbraccio grazie scusate non c'è quella no no as",
+    "motivo": "Il testo non parla di musica, il titolo e il tema sono incoerenti"
+  },
+  {
+    "id": "2019-09-02-065",
+    "file": "2019-09-02.json",
+    "tipo": "riferimento_musica",
+    "titolo": "Il caffè della moca",
+    "tema": [
+      "musica",
+      "benessere"
+    ],
+    "testo": "no aspetta te lo devi fare prendi il caffè della moca dopo che hai fatto il caffè e il filtrino lì così quello lì lo prendi nella vasca o nella vasca meglio la doccia ti bagni un po' e ti fai lo scrub",
+    "motivo": "Il testo non parla di musica, il titolo e il tema sono incoerenti"
+  },
+  {
+    "id": "2019-09-02-069",
+    "file": "2019-09-02.json",
+    "tipo": "riferimento_musica",
+    "titolo": "La musica di Padova",
+    "tema": [
+      "musica",
+      "Padova"
+    ],
+    "testo": "c'avete c'avete quel però che voce il sex api come si chiama senti senti questa non è mica Maurizio che l'ha messa è conosciuto Fabio nella tua vita vale non l'ha messa Maurizio sta musica è proprio a",
+    "motivo": "Il testo non parla di musica, il titolo e il tema sono incoerenti"
+  },
+  {
+    "id": "2019-09-02-087",
+    "file": "2019-09-02.json",
+    "tipo": "riferimento_libro",
+    "titolo": "I confini della Spagna",
+    "tema": [
+      "viaggi",
+      "geografia"
+    ],
+    "testo": "I confini della Spagna, allora, qua.",
+    "motivo": "Il testo non contiene alcun riferimento ai confini della Spagna"
+  },
+  {
+    "id": "2019-09-02-091",
+    "file": "2019-09-02.json",
+    "tipo": "riferimento_musica",
+    "titolo": "Everybody's Laughing",
+    "tema": [
+      "musica",
+      "canzoni"
+    ],
+    "testo": "a presto everybody's laughing everybody's sure nothing seems likely nothing's unknown did you ever feel like everything's falling to fly like an eagle and to the dawn and you know I always feel like t",
+    "motivo": "Il testo non parla di musica, il titolo e il tema sono incoerenti"
+  },
+  {
+    "id": "2020-01-06-012",
+    "file": "2020-01-06.json",
+    "tipo": "riferimento_musica",
+    "titolo": "Citazione di \"Big in Japan\"",
+    "tema": [
+      "musica"
+    ],
+    "testo": "Eh. Cos'è? Big in Japan. Sì, ma cos'era? Ichigatuko è una parola giapponese. Non sei cambiato. 20-20? Ichigatuko. Come metta qui. Metta qui. Metta qui.",
+    "motivo": "Il testo non contiene riferimenti musicali concreti, ma solo una citazione vaga, quindi il tipo 'riferimento_musica' non è supportato."
+  },
+  {
+    "id": "2020-01-06-017",
+    "file": "2020-01-06.json",
+    "tipo": "riferimento_libro",
+    "titolo": "Charles Costa",
+    "tema": [
+      "libro",
+      "riparazione"
+    ],
+    "testo": "Dipende dal tuo settore. Aspetta, per esempio, Charles Costa mi è uscito adesso. Charles Costa è quello che mi ha... Chi è? Che mi ha riparato l'aria condizionata a New York. Vedi? Non esce niente. No",
+    "motivo": "Il tema 'libro' non è presente nel testo; si parla solo di una persona, non di un libro."
+  },
+  {
+    "id": "2020-01-06-018",
+    "file": "2020-01-06.json",
+    "tipo": "citazione",
+    "titolo": "Domani Iran",
+    "tema": [
+      "politica",
+      "internazionale"
+    ],
+    "testo": "Domani Iran. Oggi la famiglia. Domani l'Iran.",
+    "motivo": "Il testo non fornisce contenuti politici o internazionali, solo una ripetizione della frase."
+  },
+  {
+    "id": "2020-01-06-020",
+    "file": "2020-01-06.json",
+    "tipo": "riferimento_libro",
+    "titolo": "Rudy Zerbi",
+    "tema": [
+      "libro",
+      "messaggio"
+    ],
+    "testo": "oggi siamo ascoltati molto anche dai nostri colleghi dopo il messaggio di Rudy Zerbi mi arriva il messaggio di Michele di Andrea e Michele bello ascoltarvi da casa perché loro non hanno fatto la radio",
+    "motivo": "Il tema 'libro' è inesistente nel contenuto; il testo tratta solo di messaggi radiofonici."
+  },
+  {
+    "id": "2020-01-06-042",
+    "file": "2020-01-06.json",
+    "tipo": "riferimento_musica",
+    "titolo": "Ascoltare musica da New York",
+    "tema": [
+      "musica",
+      "amore"
+    ],
+    "testo": "volevo anche salutare un mio amico americano che ci sta ascoltando da New York anche se non capisce niente di italiano colfuso? colfuso ci ascolta lo stesso ti sto ascoltando non capisco niente ma ti ",
+    "motivo": "Il testo non parla di musica, quindi il tipo 'riferimento_musica' non è coerente."
+  },
+  {
+    "id": "2020-01-06-044",
+    "file": "2020-01-06.json",
+    "tipo": "citazione",
+    "titolo": "Cosa che spezza il cuore",
+    "tema": [
+      "amore",
+      "cuore"
+    ],
+    "testo": "È bella, eh? È bella, sì. Fa star bene, fa star bene. va bene allora adesso fra poco no adesso abbiamo fatto così rilassati siamo rilassati adesso nella seconda mezz'ora vi faccio sentire una cosa che",
+    "motivo": "Il testo non parla di citazione, quindi il tipo 'citazione' non è coerente."
+  },
+  {
+    "id": "2020-01-06-046",
+    "file": "2020-01-06.json",
+    "tipo": "riferimento_libro",
+    "titolo": "Buoni propositi per l'anno nuovo",
+    "tema": [
+      "nuovo",
+      "propositi"
+    ],
+    "testo": "di farvi sentire questa cosa molto bella che è una bella cosa da come dire da ricordare da ricordare per l'anno nuovo non so se avete fatto i buoni propositi adesso noi diciamo che la prima puntata de",
+    "motivo": "Il testo non parla di libro, quindi il tipo 'riferimento_libro' non è coerente."
+  },
+  {
+    "id": "2020-01-06-050",
+    "file": "2020-01-06.json",
+    "tipo": "riflessione",
+    "titolo": "Lo spirito del fuoco",
+    "tema": [
+      "spirito",
+      "fuoco",
+      "riflessione"
+    ],
+    "testo": "No, devi bruciare tutto, perché lo spirito del fuoco è quello che ti aiuta, dell'acqua, tu devi scegliere quale spirito acqua è affidabile. Giusto, giusto. Angioletto, per esempio, tu. Ciao, buongiorn",
+    "motivo": "Il testo non parla di spirito del fuoco, quindi il tema 'spirito' e 'fuoco' non è supportato."
+  },
+  {
+    "id": "2020-01-06-077",
+    "file": "2020-01-06.json",
+    "tipo": "citazione",
+    "titolo": "Il treno dei desideri",
+    "tema": [
+      "amore",
+      "desiderio"
+    ],
+    "testo": "Cerco l'estate tutto l'anno e all'improvviso eccola qua. Ehi è partita per le spiagge e sono solo. qua su in città sento fischiare sopra i tetti un aeroplano che se ne va azzurro il pomeriggio è tropp",
+    "motivo": "Il tipo citazione non corrisponde al contenuto, non è una citazione reale"
+  },
+  {
+    "id": "2020-01-06-087",
+    "file": "2020-01-06.json",
+    "tipo": "riferimento_libro",
+    "titolo": "Bagni pubblici e prezzo",
+    "tema": [
+      "prezzo",
+      "bagni"
+    ],
+    "testo": "Ma è comunale o è lusso?",
+    "motivo": "Il tipo riferimento_libro non è supportato dal contenuto del testo"
+  },
+  {
+    "id": "2026-01-07-046",
+    "file": "2026-01-07.json",
+    "tipo": "riferimento_musica",
+    "titolo": "La Patagonia",
+    "tema": [
+      "viaggio",
+      "avventura"
+    ],
+    "testo": "Il mio obiettivo l'ho già raggiunto, mi sono comprato i biglietti per la Patagonia, ciao Dome da Cirinido.",
+    "motivo": "Il tipo è 'riferimento_musica' ma il testo non parla di musica né di un brano; titolo e tema non sono supportati."
+  },
+  {
+    "id": "2026-01-07-053",
+    "file": "2026-01-07.json",
+    "tipo": "riferimento_libro",
+    "titolo": "Il bonifico",
+    "tema": [
+      "monetario",
+      "soluzione"
+    ],
+    "testo": "Se mi fanno un bonifico la carico.",
+    "motivo": "Il tipo è 'riferimento_libro' ma il testo non cita alcun libro; titolo/tema non trovati."
+  },
+  {
+    "id": "2026-01-07-077",
+    "file": "2026-01-07.json",
+    "tipo": "riferimento_libro",
+    "titolo": "Costellazioni familiari",
+    "tema": [
+      "famiglia",
+      "dinamiche"
+    ],
+    "testo": "Poi c'è Google, comunque informati perché sono molto interessanti. Sono le dinamiche della tua famiglia. C'è Google.",
+    "motivo": "Il tipo è 'riferimento_libro' ma il testo non menziona alcun libro, solo Google."
+  },
+  {
+    "id": "2026-01-08-083",
+    "file": "2026-01-08.json",
+    "tipo": "riferimento_libro",
+    "titolo": "La puntata del 25",
+    "tema": [
+      "libro",
+      "errore"
+    ],
+    "testo": "parlate voi che sono metallico ogni scusa è buona incredibile messaggi ma come si fa a sentire questa benedetta puntata del 25 dicembre io non riesco a trovarla grazie ciao da Silvia non la trovi perc",
+    "motivo": "Il testo non contiene alcun riferimento a un libro né supporta i temi indicati; il tipo 'riferimento_libro' è incoerente."
+  },
+  {
+    "id": "2026-06-03-004",
+    "file": "2026-06-03.json",
+    "tipo": "citazione",
+    "titolo": "Felicità personale",
+    "tema": [
+      "felicità",
+      "personalità"
+    ],
+    "testo": "Savigli a te perché ci sta sul mondo tuo felicità.",
+    "motivo": "Il tema 'personalità' non è presente nel testo; il contenuto non supporta pienamente i temi dichiarati."
+  },
+  {
+    "id": "2026-06-03-007",
+    "file": "2026-06-03.json",
+    "tipo": "riferimento_libro",
+    "titolo": "L'otto per mille",
+    "tema": [
+      "fede",
+      "religione"
+    ],
+    "testo": "Dico agli ascoltatori che non ci hanno ascoltato ieri, Arianna è la nostra amica dell'associazione SSCH che ieri abbiamo sentito perché se qualcuno di voi non avesse ancora fatto il 5x1000 si chiama? ",
+    "motivo": "Il testo parla di donazioni religiose, non di un libro; il tipo 'riferimento_libro' è errato."
+  },
+  {
+    "id": "2026-06-03-008",
+    "file": "2026-06-03.json",
+    "tipo": "aneddoto",
+    "titolo": "Maurizio e le puntate",
+    "tema": [
+      "lavoro",
+      "impegno"
+    ],
+    "testo": "ma mancano le puntate dell'uno e del due Maurizio ha mollato Maurizio non ti fischiavano le orecchie questi due giorni le puntate non funzionano neanche quella di ieri c'è solo la pubblicità",
+    "motivo": "Il tema 'lavoro' e 'impegno' non è trattato nel testo; l'aneddoto non corrisponde ai temi indicati."
+  },
+  {
+    "id": "2026-06-03-011",
+    "file": "2026-06-03.json",
+    "tipo": "citazione",
+    "titolo": "La distanza e la guerra",
+    "tema": [
+      "distanza",
+      "guerra",
+      "amore"
+    ],
+    "testo": "Grazie a tutti. Io conosco già cosa è la distanza, o è la guerra durante dieci anni, o è che la quitto a dieci anni. Guarda il sorriso, più niente non crea, tant'è che ci resta una seconda di ricordi ",
+    "motivo": "Il tema 'amore' non è presente nel testo, sebbene distanza e guerra lo siano; i temi non sono tutti supportati."
+  },
+  {
+    "id": "2026-06-03-024",
+    "file": "2026-06-03.json",
+    "tipo": "riferimento_libro",
+    "titolo": "Il burro islandese",
+    "tema": [
+      "islanda",
+      "burro"
+    ],
+    "testo": "Voglio dire una cosa, quando vado in Islanda dai miei ex-suoceri, cioè quando i miei figli vanno dai nonni e io vado là a Natale, in Islanda c'è un burro già salato, giallo, che è una roba di una bont",
+    "motivo": "Il tipo 'riferimento_libro' è incompatibile con il contenuto, che è un aneddoto su burro islandese."
+  },
+  {
+    "id": "2026-06-03-025",
+    "file": "2026-06-03.json",
+    "tipo": "riferimento_film",
+    "titolo": "Ultimo tango a Parigi",
+    "tema": [
+      "parigi",
+      "erotismo"
+    ],
+    "testo": "Poi c'è quello, sui vasa, o tipo vasa.",
+    "motivo": "Il testo non contiene alcun riferimento a un film né supporta i temi 'parigi' o 'erotismo'."
+  },
+  {
+    "id": "2026-06-03-026",
+    "file": "2026-06-03.json",
+    "tipo": "riferimento_film",
+    "titolo": "Il cielo sopra Berlin",
+    "tema": [
+      "berlino",
+      "guerra"
+    ],
+    "testo": "no brand sui knack broad comunque ci avrò tre chili di burro uno lo tengo in camera tipo ultimo tango a Parigi per giochi erotici uno ce l'ho lì vai a venire in camera del burro francese della Bretagn",
+    "motivo": "Il titolo e il tema non sono coerenti con il testo del frammento"
+  },
+  {
+    "id": "2026-06-03-030",
+    "file": "2026-06-03.json",
+    "tipo": "riferimento_libro",
+    "titolo": "Viola in diretta",
+    "tema": [
+      "libri",
+      "amore"
+    ],
+    "testo": "come si chiama? Tinder? ok, Tinder come si chiama? non sono mai andato su però ti volevo chiedere perché tu un giorno mi hai detto Viola in diretta perché non ti metti su Daya",
+    "motivo": "Il titolo e il tema non sono coerenti con il testo del frammento"
+  },
+  {
+    "id": "2026-06-03-047",
+    "file": "2026-06-03.json",
+    "tipo": "riferimento_libro",
+    "titolo": "Identità e autenticità",
+    "tema": [
+      "identità",
+      "autenticità"
+    ],
+    "testo": "Allora, secondo me questa identità è quella che ti farà...",
+    "motivo": "Il titolo e il tema non sono coerenti con il testo del frammento"
+  },
+  {
+    "id": "2026-06-03-049",
+    "file": "2026-06-03.json",
+    "tipo": "riferimento_libro",
+    "titolo": "Tarocchi e Valtellina",
+    "tema": [
+      "tarocchi",
+      "valtellina"
+    ],
+    "testo": "nei tarots che si fanno con i fagiolini e la pancetta questo è proprio Valtellina ragazzi quella roba buona ma Maurizio guarda che non hai caricato nemmeno la puntata di Zazzaroni a Caressa cosa?",
+    "motivo": "Il titolo e il tema non sono coerenti con il testo del frammento"
+  },
+  {
+    "id": "2026-06-03-054",
+    "file": "2026-06-03.json",
+    "tipo": "riflessione",
+    "titolo": "La superficialità della massa",
+    "tema": [
+      "superficialità",
+      "massa"
+    ],
+    "testo": "La cosa bella è che tutti avranno pensato, sta parlando con me, sta parlando con me.",
+    "motivo": "Il titolo e il tema non sono coerenti con il testo del frammento"
+  },
+  {
+    "id": "2026-06-03-064",
+    "file": "2026-06-03.json",
+    "tipo": "riferimento_musica",
+    "titolo": "I think of you",
+    "tema": [
+      "amore"
+    ],
+    "testo": "Grazie a tutti Of the dreams we dreamt together Of the love we vowed would never Melt like snowflakes in the sun My days now end as they begun With thoughts of you and think of you down the streets I ",
+    "motivo": "Il testo non parla di amore, ma di una canzone che parla di amore."
+  },
+  {
+    "id": "2026-06-03-067",
+    "file": "2026-06-03.json",
+    "tipo": "riferimento_musica",
+    "titolo": "Il cane e la moto",
+    "tema": [
+      "musica",
+      "cani"
+    ],
+    "testo": "lo state dicendo come se mi piace il cazzo il cane mi piace il cane ditemi a quello lì Andrea il caro ascoltatore foto chiave, barba, moto, caneta cosa ti scrivevano? ciao ti va? mi passi a prendere c",
+    "motivo": "Il testo non parla di musica, ma di un ascoltatore che parla di un cane e una moto."
+  },
+  {
+    "id": "2026-06-03-077",
+    "file": "2026-06-03.json",
+    "tipo": "aneddoto",
+    "titolo": "La moto e il pezzo",
+    "tema": [
+      "moto",
+      "pezzi"
+    ],
+    "testo": "Mi starà a vedere, fatto di pezzi.",
+    "motivo": "Il testo non parla di un aneddoto, ma di una frase che sembra un aneddoto."
+  },
+  {
+    "id": "2026-06-04-008",
+    "file": "2026-06-04.json",
+    "tipo": "riferimento_musica",
+    "titolo": "Felicità",
+    "tema": [
+      "musica",
+      "felicità"
+    ],
+    "testo": "Oh! Oh! Oh! Oh! Oh! Oh! Oh! Felicità",
+    "motivo": "Il testo non contiene alcun riferimento a musica, ma il tipo è 'riferimento_musica'"
+  },
+  {
+    "id": "2026-06-04-028",
+    "file": "2026-06-04.json",
+    "tipo": "riferimento_musica",
+    "titolo": "La colazione perfetta",
+    "tema": [
+      "colazione",
+      "albergo"
+    ],
+    "testo": "passare agli altri a meno stelle è dura è veramente dura perché capisci la differenza allora intanto scusate va bene non è il tema della giornata ovviamente però cosa cercate voi in un albergo codesta",
+    "motivo": "Il testo non parla di musica, ma il tipo è 'riferimento_musica'"
+  },
+  {
+    "id": "2026-06-04-047",
+    "file": "2026-06-04.json",
+    "tipo": "riferimento_film",
+    "titolo": "Colazione in camera",
+    "tema": [
+      "colazione",
+      "film"
+    ],
+    "testo": "Ragazzi, nei Cinque Stelle, colazione in camera, sempre. Room service, donob fuori dalla porta, servizio in camera. Inciviltà, posso dire? Inciviltà.",
+    "motivo": "Il testo non parla di un film specifico, il titolo sembra essere un titolo generico"
+  },
+  {
+    "id": "2026-06-04-050",
+    "file": "2026-06-04.json",
+    "tipo": "riflessione",
+    "titolo": "La bellezza del pianeta Terra",
+    "tema": [
+      "bellezza",
+      "pianeta"
+    ],
+    "testo": "Quanto è bello il pianeta Terra, quanto sono belli gli animali, quante sono belle le persone, quante cose belle ha una persona dentro. E poi dopo magari per qualche motivo, qualche energia strana che ",
+    "motivo": "Il testo non parla della bellezza del pianeta Terra, ma piuttosto della bellezza delle persone e degli animali"
+  },
+  {
+    "id": "2026-06-04-053",
+    "file": "2026-06-04.json",
+    "tipo": "riferimento_film",
+    "titolo": "La seduzione della guerra",
+    "tema": [
+      "guerra",
+      "seduzione"
+    ],
+    "testo": "ma guarda questo è un mondo che è sedotto dalla guerra tutti i popoli la gente è sedotta dalla guerra questa è una cosa terribile che è nuova anche in questo orizzonte perfino ieri sono sfilati i capp",
+    "motivo": "Il testo non parla di un film specifico, il titolo sembra essere un titolo generico"
+  },
+  {
+    "id": "2026-06-04-057",
+    "file": "2026-06-04.json",
+    "tipo": "citazione",
+    "titolo": "Il diavolo conosce il tuo nome",
+    "tema": [
+      "peccati",
+      "difetti"
+    ],
+    "testo": "Ricordati questa frase che troverai anche nel mio libro nuovo, che non è mia ovviamente come tutte le frasi che trovate nel mio libro nuovo. Ricordi questa frase. Il diavolo. Conosce il tuo nome, ma t",
+    "motivo": "La citazione sembra essere inventata, non è possibile identificare la fonte"
+  },
+  {
+    "id": "2026-06-04-066",
+    "file": "2026-06-04.json",
+    "tipo": "riferimento_libro",
+    "titolo": "La festa della Repubblica",
+    "tema": [
+      "libro",
+      "festa"
+    ],
+    "testo": "Nella mia testa c'è la festa della Repubblica. Morco Giuda, siamo un popolo con delle persone straordinarie, belline, e te fai sfilare i cararmati, i droni. Ma perché mi devi rappresentare la guerra d",
+    "motivo": "Il tipo è 'riferimento_libro' ma il testo non menziona né un libro né un riferimento letterario."
+  },
+  {
+    "id": "2026-06-05-023",
+    "file": "2026-06-05.json",
+    "tipo": "riferimento_libro",
+    "titolo": "Vincere un premio",
+    "tema": [
+      "fortuna",
+      "premi"
+    ],
+    "testo": "il mio è 42 giorni attacco, denaro a parte dovebbero arrivare dei soldi e c'era stata un'ascoltatrice che gli era arrivato qualcosa non mi ricordo se aveva vinto un platte di vini scienza ciao Fabio q",
+    "motivo": "Il tipo è 'riferimento_libro' ma il contenuto non contiene alcun riferimento a un libro o a un'opera letteraria."
+  },
+  {
+    "id": "2026-06-05-024",
+    "file": "2026-06-05.json",
+    "tipo": "riferimento_libro",
+    "titolo": "Ricerca del rudere",
+    "tema": [
+      "archeologia",
+      "avventura"
+    ],
+    "testo": "Nico Marabello non chiedetevi visto che la settimana prossima vengo in Sicilia allora io come va la ricerca del rudere? in Sicilia?",
+    "motivo": "Il tipo è 'riferimento_libro' ma il testo parla solo di una ricerca archeologica, non di un libro."
+  },
+  {
+    "id": "2026-06-05-069",
+    "file": "2026-06-05.json",
+    "tipo": "citazione",
+    "titolo": "Ultimo addio",
+    "tema": [
+      "amore",
+      "perdita"
+    ],
+    "testo": "Eh beh signori, il momento elettronico di Maurizio Rossoio. E Jerry! This is the last goodbye, faccia di merda! Ciao! grazie a tutti Grazie. Did you rush to the phone to call Was there a voice on call",
+    "motivo": "Il tema 'amore' e 'perdita' non è presente nel testo"
+  },
+  {
+    "id": "2026-06-05-077",
+    "file": "2026-06-05.json",
+    "tipo": "riflessione",
+    "titolo": "L'importanza dell'ascolto",
+    "tema": [
+      "ascolto",
+      "impegno"
+    ],
+    "testo": "Quindi Fabio Volo precettore, dal prossimo anno prendi gli studenti e proprio come un Socrate, come una, tiri fuori da loro.",
+    "motivo": "Il tema 'ascolto' e 'impegno' non è trattato nel testo"
+  },
+  {
+    "id": "2026-06-05-078",
+    "file": "2026-06-05.json",
+    "tipo": "riflessione",
+    "titolo": "L'efficacia dell'ascolto",
+    "tema": [
+      "ascolto",
+      "efficacia"
+    ],
+    "testo": "Voi non avete idea quanto sarei bravo a farlo, sai perché? Perché non sono un professore, perché vengo dal basso non dall'alto, quindi mi ascoltano a me. Pane al pane. Intanto entrai subito con un can",
+    "motivo": "Il tema 'ascolto' e 'efficacia' non è presente nel testo"
+  },
+  {
+    "id": "2114-05-06-048",
+    "file": "2114-05-06.json",
+    "tipo": "riferimento_musica",
+    "titolo": "La birra messicana",
+    "tema": [
+      "alcol",
+      "aperitivo"
+    ],
+    "testo": "Ma guarda che meraviglia il Messico. Senti, allora ti insegno solo questa parola se non sai lo spagnolo. Una cerveza. Ok, che è una birra e algo para picar. Quando tu impari questa frase sei a posto p",
+    "motivo": "Il tipo è 'riferimento_musica' ma il testo parla solo di birra e aperitivi, non di musica."
+  },
+  {
+    "id": "2114-05-06-053",
+    "file": "2114-05-06.json",
+    "tipo": "citazione",
+    "titolo": "L'amore osservato",
+    "tema": [
+      "amore",
+      "perdita"
+    ],
+    "testo": "i nachos no? L'amore passato, l'amore osservato, perché perdere la vita? Grazie a tutti Grazie Grazie a tutti. a presto",
+    "motivo": "Il tipo è 'citazione' ma il testo non contiene una citazione riconoscibile né un riferimento all'amore o alla perdita."
+  },
+  {
+    "id": "2114-05-07-013",
+    "file": "2114-05-07.json",
+    "tipo": "citazione",
+    "titolo": "Mal d'amore",
+    "tema": [
+      "amore",
+      "felicità"
+    ],
+    "testo": "Ma perché devi mettere le parolacce? Non capisco. Questa notte ho consultato il cuore senza alcun dottore. Ed il cuore va risposto, sciocco, questo è mal d'amore. Per guarirci è solamente un modo. Vuo",
+    "motivo": "Il tipo è 'citazione' ma il testo non presenta una citazione né un contenuto coerente con il tema dell'amore/felicità."
+  },
+  {
+    "id": "2114-05-08-038",
+    "file": "2114-05-08.json",
+    "tipo": "riferimento_film",
+    "titolo": "Manifesto di Roma",
+    "tema": [
+      "film",
+      "Roma"
+    ],
+    "testo": "Da quella Roma addormentata, da quella Roma puttanona, borghese, fascistoide, quella Roma del volemos e bene andiamo avanti, quella Roma delle pizzerie, delle latterie, dei sali e tabacchi, degli erba",
+    "motivo": "Il tipo è \"riferimento_film\" ma il testo non menziona alcun film né il titolo corrisponde a un film."
+  },
+  {
+    "id": "2114-05-09-015",
+    "file": "2114-05-09.json",
+    "tipo": "riferimento_musica",
+    "titolo": "Mal d'amore",
+    "tema": [
+      "musica",
+      "amore"
+    ],
+    "testo": "e il cuore va risposto questo è mal d'amore per guarirci sono al mente un modo vuoi sapere vuoi sapere come si fa si fa spesso chiodo scaccia chiodo e riprovi la felicità Quanto vuoi dare? Quanto vuoi",
+    "motivo": "Il tipo è \"riferimento_musica\" ma il testo non contiene alcun riferimento a brani, artisti o musica."
+  },
+  {
+    "id": "2114-05-09-038",
+    "file": "2114-05-09.json",
+    "tipo": "riferimento_libro",
+    "titolo": "A morte la casta",
+    "tema": [
+      "uguaglianza",
+      "democrazia"
+    ],
+    "testo": "Allora, apriamo domani con una grande festa a cui sono tutti invitati, non servono inviti, non ci sono VIP lounge, non ci sono separene, niente.",
+    "motivo": "Il tipo è \"riferimento_libro\" ma il contenuto non cita né descrive un libro."
+  },
+  {
+    "id": "2114-05-09-042",
+    "file": "2114-05-09.json",
+    "tipo": "riferimento_libro",
+    "titolo": "Risata colorata",
+    "tema": [
+      "cibo",
+      "beneficenza"
+    ],
+    "testo": "c'è un'altra cosa a cui ci tengo a dire ci saranno anche i tre super chef Andrea Bertone, Carlo Cracco e Davide Oldani che per l'occasione hanno fatto a titolo gratuito a scopo di beneficenza un piatt",
+    "motivo": "Il tipo è \"riferimento_libro\" ma il testo parla di un piatto e di chef, non di un libro."
+  },
+  {
+    "id": "2114-05-12-051",
+    "file": "2114-05-12.json",
+    "tipo": "riferimento_film",
+    "titolo": "La giustizia è uguale per tutti",
+    "tema": [
+      "giustizia",
+      "società"
+    ],
+    "testo": "La fallottola in canna è una bella calligrafia, la giustizia che aspetti è uguale per tutti, ma le sentenze sono un vero ritardo. Fa più luce di quanto vediamo con i pitbull mollati a sbranare per str",
+    "motivo": "Il tipo è 'riferimento_film' ma il testo non contiene alcun riferimento a un film."
+  },
+  {
+    "id": "2114-05-12-065",
+    "file": "2114-05-12.json",
+    "tipo": "riferimento_libro",
+    "titolo": "Matrimonio e impegno",
+    "tema": [
+      "matrimonio",
+      "impegno"
+    ],
+    "testo": "Con mio marito diciamo che questo tiene vivo il nostro matrimonio.",
+    "motivo": "Il tipo è 'riferimento_libro' ma il testo non menziona né un libro né un autore."
+  },
+  {
+    "id": "2114-05-12-068",
+    "file": "2114-05-12.json",
+    "tipo": "riferimento_musica",
+    "titolo": "Le cose che odiano del viaggiare",
+    "tema": [
+      "viaggi",
+      "esperienza"
+    ],
+    "testo": "magari scusami invece di andare ad Abu Dhabi vai a Guadalampur Stefano così c'è già delle amicizie va bene adesso la Laura vi scambia i numeri poi se vi va insomma che avete dei dubbi vi chiacchierate",
+    "motivo": "Il tipo è 'riferimento_musica' ma il contenuto non parla di musica."
+  },
+  {
+    "id": "2114-05-12-069",
+    "file": "2114-05-12.json",
+    "tipo": "riferimento_musica",
+    "titolo": "Ascoltare le telefonate",
+    "tema": [
+      "musica",
+      "esperienza"
+    ],
+    "testo": "bello ascoltare le telefonate degli altri",
+    "motivo": "Il tipo è 'riferimento_musica' ma il testo tratta solo di ascoltare telefonate, non di musica."
+  }
+]
