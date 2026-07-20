@@ -14,7 +14,6 @@
 
 import base64
 import os
-import re
 import subprocess
 import sys
 import threading
@@ -51,8 +50,6 @@ ESTADO_PATH_FALLBACK = Path(r"\\192.168.8.80\Media\ilvolodellasera\logs\estado_c
 ESTADO_PUSH_PATH = Path(r"\\192.168.8.80\Media\ilvolodellasera\logs\estado_push.json")
 FRAMMENTI_DIR_UNC = Path(r"\\192.168.8.80\Media\ilvolodellasera\data\frammenti")
 AUDIO_ROOT_UNC = Path(r"\\192.168.8.80\Media\ilvolodellasera\ilvolo-audio-backup")
-LOG_SYNC_PATH = REPO / "logs" / "sync_snapshot_data.log"
-TAREA_SYNC = "ilvolo-sync-snapshot-data"
 # Persistido en disco local del HP14 (no en el share): mismo motivo que en
 # panel_control.py (K16) - si este panel se cierra/crashea con una parada
 # programada pendiente, no debe perderse en silencio.
@@ -81,55 +78,6 @@ def leer_estado_clasificacion():
 
 def leer_estado_push():
     return leer_json_estado(ESTADO_PUSH_PATH)
-
-
-def leer_ultimo_push():
-    """Ultima riga rilevante (PUSH OK / ERRORE / Nessuna modifica) del log di
-    sync_snapshot_data.ps1 -- dice se l'ultimo giro schedulato e' arrivato
-    fino al push o si e' fermato prima (es. working tree sporco, vedi
-    scripts/sync_snapshot_data.ps1). Le righe iniziano con un timestamp ISO
-    scritto da Scrivi(), es. '2026-07-19T12:04:58 PUSH OK: 3 file...'."""
-    if not LOG_SYNC_PATH.exists():
-        return None
-    try:
-        righe = LOG_SYNC_PATH.read_text(encoding="utf-8", errors="ignore").splitlines()
-    except OSError:
-        return None
-    for riga in reversed(righe):
-        # .strip(" \x00") in piu' del solito .strip(): righe scritte da git
-        # tramite "2>>" in PowerShell 5.1 potevano lasciare un NUL residuo
-        # davanti al timestamp (bug reale, fix alla radice in
-        # sync_snapshot_data.ps1 il 2026-07-19) -- tollerarlo qui e' una rete
-        # di sicurezza in piu', non l'unico fix.
-        riga_pulita = riga.strip(" \x00﻿")
-        if riga_pulita.startswith("20") and any(
-            m in riga_pulita for m in ("PUSH OK", "ERRORE", "Nessuna modifica")
-        ):
-            return riga_pulita
-    return None
-
-
-def leer_tarea_programada(nombre):
-    """Devuelve (ultima_ejecucion, resultado, proxima_ejecucion) o None si la
-    tarea no existe. Usa Get-ScheduledTaskInfo, solo lectura."""
-    ps = (
-        f"$i = Get-ScheduledTask -TaskName '{nombre}' -ErrorAction SilentlyContinue "
-        f"| Get-ScheduledTaskInfo -ErrorAction SilentlyContinue; "
-        f"if ($i) {{ '{{0}}|{{1}}|{{2}}' -f $i.LastRunTime, $i.LastTaskResult, $i.NextRunTime }}"
-    )
-    try:
-        r = subprocess.run(
-            ["powershell", "-NoProfile", "-Command", ps],
-            capture_output=True, text=True, timeout=10, check=False,
-            creationflags=_NO_WINDOW,
-        )
-        salida = r.stdout.strip()
-        if not salida or "|" not in salida:
-            return None
-        ultima, resultado, proxima = salida.split("|")
-        return ultima, resultado, proxima
-    except (subprocess.TimeoutExpired, OSError):
-        return None
 
 
 def ssh_run(comando_remoto, timeout=SSH_TIMEOUT_S):
@@ -397,14 +345,9 @@ class PanelEstado:
         self.lbl_clas = ttk.Label(t2, text="Cargando...", style="Info.TLabel")
         self.lbl_clas.pack(anchor="w", pady=(6, 0))
 
-        t3 = self._tarjeta(cont, "3. Commit/Push (HP14 → GitHub)")
+        t3 = self._tarjeta(cont, "3. Commit/Push (OMV → GitHub)")
         self.lbl_push = ttk.Label(t3, text="Cargando...", style="Info.TLabel")
         self.lbl_push.pack(anchor="w", pady=(6, 0))
-        self.lbl_link_sync = ttk.Label(
-            t3, text="📄 Abrir sync_snapshot_data.log", style="Link.TLabel", cursor="hand2",
-        )
-        self.lbl_link_sync.bind("<Button-1>", self._abrir_log_sync)
-        # no se hace pack() aqui -- _actualizar_push() lo muestra/oculta segun exista el archivo
 
         t5 = self._tarjeta(cont, "Control remoto K16")
         self.lbl_control_estado = ttk.Label(t5, text="", style="Info.TLabel")
@@ -472,11 +415,11 @@ class PanelEstado:
             self.lbl_clas.config(text="Sin datos todavía.", foreground=COLOR_TEXTO_SUAVE)
 
     def _actualizar_push(self):
-        # Fuente principal: estado_push.json via UNC, mismo archivo y misma
-        # formulacion exacta de panel_control.py (K16) -- los dos pannelli
-        # deben mostrar lo mismo para el mismo evento. Lo que sigue debajo
-        # (log local + tarea programada) es detalle SUPLEMENTARIO exclusivo
-        # de HP14 (K16 no tiene acceso a ninguno de los dos).
+        # Desde 2026-07-20: escribe este estado autocommit_dati_omv.sh (OMV,
+        # cron cada 20 min), no ya sync_snapshot_data.ps1 (HP14, tarea
+        # deshabilitada) -- mismo archivo/mismo path UNC, misma formulacion
+        # exacta que panel_control.py (K16). Ya no hay detalle suplementario
+        # de tarea programada local: el HP14 no ejecuta nada de este proceso.
         estado = leer_estado_push()
         if estado:
             color = COLOR_VERDE if estado.get("resultado") == "ok" else COLOR_ROJO
@@ -489,42 +432,7 @@ class PanelEstado:
             color = COLOR_TEXTO_SUAVE
             lineas = ["Sin datos todavía."]
 
-        info = leer_tarea_programada(TAREA_SYNC)
-        ultima_linea = leer_ultimo_push()
-
-        # Quita el timestamp inicial "2026-07-19T12:04:58 " de la linea del
-        # log (ya se ve en "Última ejecución" de la tarea programada, y sin
-        # quitarlo el mensaje quedaba ilegible pegado a codigos/timestamps).
-        detalle_log = re.sub(r"^\S+\s+", "", ultima_linea) if ultima_linea else None
-
-        lineas.append("")  # separador visual entre estado_push.json y el detalle local
-        if detalle_log:
-            lineas.append(f"Detalle log local: {detalle_log}")
-
-        if info:
-            ultima, resultado, proxima = info
-            resultado = resultado.strip()
-            if resultado == "0":
-                resultado_txt = "0 (éxito)"
-            elif resultado == "267009":
-                resultado_txt = "267009 (todavía en ejecución)"
-            elif resultado == "267008":
-                resultado_txt = "267008 (todavía no ha corrido nunca)"
-            else:
-                resultado_txt = f"{resultado} (falló — ver logs\\sync_snapshot_data.log)"
-            lineas.append(f"Tarea programada '{TAREA_SYNC}':")
-            lineas.append(f"  Última ejecución: {ultima}")
-            lineas.append(f"  Resultado: {resultado_txt}")
-            lineas.append(f"  Próxima ejecución: {proxima}")
-        else:
-            lineas.append("No se pudo leer la tarea programada.")
-
         self.lbl_push.config(text="\n".join(lineas), foreground=color)
-
-        if LOG_SYNC_PATH.exists():
-            self.lbl_link_sync.pack(anchor="w", pady=(6, 0))
-        else:
-            self.lbl_link_sync.pack_forget()
 
     # -- tarjetas 4-5 (K16 en vivo, en un hilo aparte) ---------------------
 
@@ -605,10 +513,6 @@ class PanelEstado:
     def _abrir_log_errores(self, event=None):
         if LOG_ERRORES.exists():
             os.startfile(LOG_ERRORES)
-
-    def _abrir_log_sync(self, event=None):
-        if LOG_SYNC_PATH.exists():
-            os.startfile(LOG_SYNC_PATH)
 
     def _log_error(self):
         try:
