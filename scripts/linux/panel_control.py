@@ -284,7 +284,7 @@ class Panel:
         tarjeta_push = ttk.Frame(cont, style="Tarjeta.TFrame", padding=18)
         tarjeta_push.pack(fill="x", pady=(10, 0))
         ttk.Label(
-            tarjeta_push, text="3. Commit/Push (HP14 → GitHub)", style="Titulo.TLabel"
+            tarjeta_push, text="3. Commit/Push (OMV → GitHub)", style="Titulo.TLabel"
         ).pack(anchor="w")
         self.lbl_push = ttk.Label(tarjeta_push, text="", style="Info.TLabel")
         self.lbl_push.pack(anchor="w", pady=(6, 0))
