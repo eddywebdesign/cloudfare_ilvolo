@@ -507,9 +507,12 @@
     "end": 991.11,
     "speaker_raw": "SPEAKER_14",
     "testo": "Sai che questi Selton tutti dicono che li ho scoperti io. Anche loro? No, perché io quando facevo un programma a Barcellona li avevamo trovati, in realtà è stato K, li abbiamo portati nel mio programma. Da Barcellona e poi loro da loro, da quel programma lì, si sono trasferiti in Italia. Sono bravissimi. Senti, a noi ci interessa che la festa è gratis e possono entrare tutti.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Selton",
+    "tema": [
+      "musica",
+      "scoperta"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -532,9 +535,12 @@
     "end": 1037.91,
     "speaker_raw": "SPEAKER_14",
     "testo": "ragazzi io lo dico per tutte le donne intanto c'è Cracco e Oldani poi per i ragazzi che amano la musica e per donne ma scusami Maurizio vai domani se non c'è la lavanda non vai mi fai un favore mi metti giù due fogliettine di lavanda così viene anche il maestro Maurizio qua davanti a me che lui va solo dove c'è la lavanda metteremo un po' di piantina di lavanda senti, dimmi la festa quella lì al di là della parata la festa lì a che ora possiamo venire?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Lavanda",
+    "tema": [
+      "musica",
+      "relax"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -657,9 +663,12 @@
     "end": 1774.85,
     "speaker_raw": "SPEAKER_14",
     "testo": "Grazie Alibonzi, ringrazio anche la mamma. Cosa è nostra dei messaggi Maurizio? pensa a proposito della frase che avete messo questa mattina ci sono due messaggi una che dice proprio sulla frase più bella dialogo padre figlio una collega ma disturbato e quindi adesso non ho sentito ma la potete rimettere no no potevo non leggere però no dire un po così anche se ecco no comunque no la possiamo mettere a proposito di padri figli e cose tu pensi io sto con una ragazza cattolica da due mesi e ci baciamo e basta neanche ci tocchiamo io ho 42 anni lei 33 io prima di lei sono stato con molte donne lei ha 4 anni che non fa l'amore insomma però però non è un sacrificio perché sono innamorato pazzo ecco sì è perché mi rompi i coglioni allora ma non ce la rompi i coglioni ma ce la sono scritta ci voleva far cogliere diventato spietato, comunque il successo ti ha cambiato non sei più un ragazzo della porta accanto come prima, come una volta senti questo intervento qua te lo sei preparato questo adesso, che faccio adesso? certo, fammi anche un canziatore adesso, allora ragazzi ieri abbiamo chiuso il programma dicendo la festa Allora cari ascoltatori, noi abbiamo chiuso il programma che cercavamo di capire come mai la festa della mamma è passata dall'otto al dieci all'undici, la seconda domenica di maggio è la festa della mamma, adesso è così, cioè domenica prossima, fra due giorni, sabato e domenica è la festa della mamma, noi siamo nel mezzo, ovviamente noi sono cose che, festa del papà, della mamma, la Pasqua... ma lo so ormai niente allora quello che volevo dirvi siccome noi domenica mattina non ci siamo cioè il volo del mattino si ascolta dalle 9 alle 10 non ci sono repliche non c'è il meglio di niente noi siamo sempre in castigo allora ci dovete ascoltare per forza in questa versione ecco allora vi volevo dire che vorremmo fare un pensiero nei prossimi minuti per tutte le mamme che ci ascoltano e anche per le vostre che magari non ci ascoltano ma ci ascoltate voi non è una buona presentazione Henry De Luca dice delle cose belle di sua mamma l'abbiamo preso lui in te sono stato albume, uovo, pesce le ere sconfinate della terra ho attraversato nella tua placenta fuori di te sono contato a giorni",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "frase più bella",
+    "tema": [
+      "dialogo",
+      "padre-figlio"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -744,9 +753,12 @@
     "end": 2287.03,
     "speaker_raw": "SPEAKER_12",
     "testo": "è così è così protestate pure ma è così è così va bene ultimo pezzo",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ultimo pezzo",
+    "tema": [
+      "musica",
+      "libro"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {

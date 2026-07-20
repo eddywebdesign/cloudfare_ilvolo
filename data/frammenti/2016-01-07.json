@@ -661,9 +661,12 @@
     "end": 1814.02,
     "speaker_raw": "SPEAKER_11",
     "testo": "O il gelato al tè verde anche.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "gelato al tè verde",
+    "tema": [
+      "cibo",
+      "sapore"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -742,9 +745,12 @@
     "end": 2096.75,
     "speaker_raw": "SPEAKER_07",
     "testo": "sentire i fiori tra l'asfalto e il cielo intorno un senso di te un senso di te",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "sentire i fiori",
+    "tema": [
+      "natura",
+      "gioia"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -938,9 +944,12 @@
     "end": 2536.76,
     "speaker_raw": "SPEAKER_08",
     "testo": "pick apart the pieces you love don't you worry about",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "pick apart",
+    "tema": [
+      "amore",
+      "relazioni"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -1001,9 +1010,12 @@
     "end": 2787.11,
     "speaker_raw": "SPEAKER_12",
     "testo": "Natalino Balasso 2016 Balasso discorso di Capodanno 2016 dopo va giù pesante si parla di censura parla di comicità",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "discorso di Capodanno",
+    "tema": [
+      "politica",
+      "comicità"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -1049,9 +1061,12 @@
     "end": 3115.5,
     "speaker_raw": "SPEAKER_10",
     "testo": "ma aspetta aspetta vai vai vai no no no volevo qualche consiglio visto che in questi 5-6 anni ho sfruttato molto sui libri e anche il programma allora avevo bisogno di qualche consiglio però diciamo che poi ho scoperto altre cose quindi ormai è andata però sono contentissimo mamma mia era una questione con una ragazza qualche consiglio poi ho scoperto che c'era altro nemmeno fa due ore riesci vabbè provare a parlare con te di tutto ho provato ha fatto pure stalking a Giuliano me ne gramarono me da stalking per la proprietà transitiva ma scusami ma c'è il senso che la tua ex ha già un altro quello intendi? no non c'è un altro però ho trovato dei messaggi quindi ho detto beh lasciamo perdere allora comunque Giuliano tramite un amico siccome io sono vicino a San Pietro però sono vicino a Lecce anche c'è un amico in comune che una sera ha detto guarda stanno qui vieni e io volevo andare da lui perché ho detto no devi chiamarlo devo parlare",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "scoperta libri e programma",
+    "tema": [
+      "libri",
+      "programma"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1060,9 +1075,12 @@
     "end": 3132.72,
     "speaker_raw": "SPEAKER_01",
     "testo": "poi però quando sono andato lì mi sembrava male ho detto vabbè lasciamo stare lasciamo così adesso noi siamo io sono a New York poi torno lunedì e siamo tutti con più calma non parlo con Skype il programma riprende tutto normale ti richiamiamo una mattina con calma va bene?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "lasciare stare",
+    "tema": [
+      "pace",
+      "calma"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -1071,9 +1089,12 @@
     "end": 3141.58,
     "speaker_raw": "SPEAKER_10",
     "testo": "va bene magari ti faccio parlare con Giuliano mi devo nascondere va bene va bene ciao Andrea allora ciao a presto",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "chiamata a New York",
+    "tema": [
+      "telefonia",
+      "viaggio"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1082,9 +1103,12 @@
     "end": 3179.2,
     "speaker_raw": "SPEAKER_01",
     "testo": "ciao ciao ciao va bene è andata così comunque abbiamo finito la prima puntata e ce n'è ancora una domani vediamo se riusciamo domani a farla più brutta di quella di oggi è abbastanza impossibile devo dire sarà quasi impossibile, va bene insomma comunque dai io ho anche le valigie da preparare insomma comunque grazie perché siete sempre affettuosi anche nei momenti di difficoltà ci state vicini, grazie Maurizio grazie Viola, ci sentiamo domani mattina sempre in questa condizione e poi dopo un grande comunque il 2006 è iniziato così con una spada a taggine meglio meglio, può solo migliorare ciao ragazzi a domani ciao",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "aiuto in difficoltà",
+    "tema": [
+      "aiuto",
+      "amicizia"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   }
 ]

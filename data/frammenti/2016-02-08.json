@@ -49,9 +49,12 @@
     "end": 407.88,
     "speaker_raw": "SPEAKER_00",
     "testo": "un ascoltatore o ascoltatrice dice siete come i domiciliari parlate attraverso il vetro portatemi gli aranci portatemi gli aranci torno al lavoro dopo la maternità pensavo insomma di trovarmi un po' come dire a dover un po' ricominciare invece il volo del mattino una certezza e già questo mi fa andare al lavoro nel tragitto come se niente fosse cambiato In questo paese non cambia mai niente, questo è evidente, noi ci piace la stabilità, cioè quel senso lì di andiamo, andiamo, andiamo e non andiamo mai. Buongiorno, oggi parliamo di luna, ma no è l'apostrofo, proprio luna, il pianeta, perché ci sono tante notizie. Intanto qualche giorno fa è morto un astronauta di quelli che sono andati sulla luna veramente.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La certezza del lavoro",
+    "tema": [
+      "lavoro",
+      "certezza"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -60,9 +63,12 @@
     "end": 413.88,
     "speaker_raw": "SPEAKER_06",
     "testo": "Eh sì, si chiamava Edgar Mitchell, scusa sono concentrata sulla mia voce, tutto strano.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Edgar Mitchell",
+    "tema": [
+      "scienza",
+      "astronauti"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -179,9 +185,12 @@
     "end": 926.43,
     "speaker_raw": "SPEAKER_06",
     "testo": "Ma è Igor Sibaldi, non è? La voce di Sibaldi.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Conservatore del Planetario",
+    "tema": [
+      "libro",
+      "astronomia"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -718,9 +727,12 @@
     "end": 2771.87,
     "speaker_raw": "SPEAKER_06",
     "testo": "Forse non abbiamo fiducia negli adolescenti che ci mostreranno che leggono e ascoltano musica stupenda.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "fiducia negli adolescenti",
+    "tema": [
+      "fiducia",
+      "adolescenti"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -729,9 +741,12 @@
     "end": 2779.44,
     "speaker_raw": "SPEAKER_00",
     "testo": "Sicuramente sanno più cose di noi. Ehi! o forse dobbiamo chiudere dobbiamo chiudere il programma va bene ragazzi a domani ciao",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "saperi degli adolescenti",
+    "tema": [
+      "saperi",
+      "adolescenti"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   }
 ]

@@ -297,9 +297,12 @@
     "end": 969.48,
     "speaker_raw": "SPEAKER_00",
     "testo": "Tutti i ragazzi che guardavamo con gli occhialini.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Gli occhialini in caserma",
+    "tema": [
+      "caserma",
+      "infanzia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -369,9 +372,12 @@
     "end": 1074.47,
     "speaker_raw": "SPEAKER_00",
     "testo": "Cosa ha fatto l'astronomia in 50 anni come è entrata nella musica rock? Per cui questa è una cosa che faremo a marzo di 15. Ma poi ne abbiamo una anche questo giovedì che è strana. Pensare il tempo tra filosofia e scienza. Ecco. Sto pensando.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'astronomia e la musica rock",
+    "tema": [
+      "astronomia",
+      "musica"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -391,9 +397,11 @@
     "end": 1083.9,
     "speaker_raw": "SPEAKER_00",
     "testo": "di tempo, cos'è il tempo? Cosa abbiamo potuto dire sul tempo?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "il tempo",
+    "tema": [
+      "tempo"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -426,9 +434,12 @@
     "end": 1102.77,
     "speaker_raw": "SPEAKER_10",
     "testo": "È un classico, è come l'amore, come Dio, sono quelle parole lì che sono insondabili.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il tempo è insondabile",
+    "tema": [
+      "tempo",
+      "mistero"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -473,9 +484,12 @@
     "end": 1472.88,
     "speaker_raw": "SPEAKER_09",
     "testo": "Ma sì, va bene. La donna è Dio.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "la donna è dio",
+    "tema": [
+      "religione",
+      "femminismo"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -710,9 +724,12 @@
     "end": 2312.26,
     "speaker_raw": "SPEAKER_10",
     "testo": "un ascoltatore o un'ascoltatrice dice adoro questa canzone mi immagino sempre su una bicicletta che vado in discesa con le braccia aperte in campagna con un gran sole e il vento sul viso va bene va bene benissimo benissimo allora qualcuno dice che adesso la barista dovrebbe tirargliene in faccia che ha detto il prezzo ma lei non ha sentito ma qualcuno glielo dirà poi ascolterà la registrazione ma 30 euro che modi sono comunque piccoli un caso rispetto a 30 euro va bene signore e signori andiamo da un maestro un matematico un saggista Pier Giorgio di Freddi buongiorno a voi buongiorno Pier Giorgio intanto voglio dirti che hai tutta la mia stima perché mi hai scritto nel messaggio ti chiamo a nove e mezza metterò la sveglia e lì ho capito che c'è un mondo di gente che sta bene come dicevano i surrealisti credo fosse André Breton lascia che a svegliarti sia il cuscino ma magari senti Pier Giorgio come stai intanto?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "canzone",
+    "tema": [
+      "musica",
+      "canzone"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -721,9 +738,12 @@
     "end": 2321.11,
     "speaker_raw": "SPEAKER_01",
     "testo": "Io tutto bene, sono appena tornato dall'India, quindi sono... Cosa sei andato a fare? ...oltre che gastroenterologicamente.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "India",
+    "tema": [
+      "viaggi",
+      "India"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -743,9 +763,12 @@
     "end": 2339.92,
     "speaker_raw": "SPEAKER_01",
     "testo": "Io ci vado spesso, vado una volta ogni due anni, sono andato circa una dozzina di volte ormai, mi piace Volpe, è uno dei posti che mi piacciono di più, perché lì tutto è eccessivo, i colori, gli odori, i sapori, le disegnerie, tutto viene in grande stile.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Volpe",
+    "tema": [
+      "India",
+      "viaggi"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -776,9 +799,12 @@
     "end": 2394.74,
     "speaker_raw": "SPEAKER_10",
     "testo": "E disidratati, a volte anche disidratati. Senti, allora, intanto ti volevo dire una cosa. Io ogni tanto penso a Galileo Galilei. che deve andare dal Papa a dirgli che il sole sta fermo e la terra gira tu te lo immagini mai quella mattina lì che sai quando hai un esame che devi convincere qualcuno che gli devi vendere una penna un nuovo frullatore io in realtà quello l'ho quasi fatto qualche anno fa ho scritto una lettera aperta a Benedetto XVI che si chiamava caro Papa ti scrivo quando lui si è dimesso glielo ho fatto avere tramite il suo segretario il bel padre Georg quello piaceva a tutti",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Galileo e il Papa",
+    "tema": [
+      "storia",
+      "scienza"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -802,9 +828,12 @@
     "end": 2417.74,
     "speaker_raw": "SPEAKER_10",
     "testo": "Con il Papa, fantastico! Cosa ha la tua lettera aperta? Su che tema era?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Lettera aperta al Papa",
+    "tema": [
+      "religione",
+      "papa"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -828,9 +857,12 @@
     "end": 2609.45,
     "speaker_raw": "SPEAKER_13",
     "testo": "All you got Give to me All you are",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "All you got",
+    "tema": [
+      "musica",
+      "canzone"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -850,9 +882,12 @@
     "end": 2714.37,
     "speaker_raw": "SPEAKER_05",
     "testo": "Ciao! Can you save me? Si può dire Johan, Johan, dipende da che parte del mondo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Johan",
+    "tema": [
+      "musica",
+      "canzone"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {

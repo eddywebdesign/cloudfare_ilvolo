@@ -110,9 +110,12 @@
     "end": 570.22,
     "speaker_raw": "SPEAKER_00",
     "testo": "Ma chi quelli neanche ci cagano più che altro. Comunque niente, sono arrivato... No, però la devi togliere questa... Hai ragione, tolgo la suoneria, dai. No, perché poi adesso in Italia, quando vai a Los Angeles, lo mettiamo di nuovo nel gruppo, perché là poi è notte e si spera che dorma. Insomma, quindi, la domanda è quella, dimentichiamoci tutto, la mia domanda è questa. mentre mettiamo il primo disco che è anche bello perché abbiamo scelto Fatboy Slim è venerdì mentre va questo disco cari ascoltatori voi dovete pensare a voi stessi e dire io in un film qual è il ruolo diciamo dove potrei dare il massimo una commedia, un dramma quello che inciampa sempre l'atleta, non lo so dovete trovare il vostro ruolo e poi noi vi facciamo i casti E siete fortunati che io ormai ho moglie e figli. No, oltre al casting, mi facevamo pure qualcosa. E inizia sempre con la C. Uomini, donne, ma che ci importa? Basta godere! È il buso del buso!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Los Angeles",
+    "tema": [
+      "viaggi",
+      "Italia"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -182,9 +185,12 @@
     "end": 1093.05,
     "speaker_raw": "SPEAKER_00",
     "testo": "oh dai che ti lo fa Otto Romano un'attività di? in centro no artigianale artigianale ok per esempio dimmi ah no scusami abbiamo un'Anna che si propone per Giulia Roberts in Notting Hill eh magari invece Barbara di Pordenone tu allora lavori con tuo padre potresti fare una pronto Anna ciao ciao per fare il dialogo è perfetto eh sono due donne però sono due donne allora aspetta Barbara tu sei con il padre potresti fare tipo quel film ti presento Joe Black quando lui papà sull'elicottero dice lei non dice niente mi sembra in quella frase lei ascolta ok ascolto vai meglio allora abbiamo un dialogo Giulia Roberts in Notting Hill dialoghi, leva una tazza di tè prima di andarsene no, caffè, no, succo d'arancia forse no, qualcosa di freddo coca, acqua, un disgustoso bevanda di zucchero va beh questo è troppo difficile ma devo dirlo io? no aspetta Barbara tu in che ruolo ti vedi?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Notting Hill",
+    "tema": [
+      "film",
+      "attori"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -374,9 +380,12 @@
     "end": 1654.13,
     "speaker_raw": "SPEAKER_05",
     "testo": "And when my eyes are closed I can start to feel you staring at me The right side of my bed has always left me feeling stuck in between Everything I know and all the lies I tell myself so I can sleep",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Canzone",
+    "tema": [
+      "amore",
+      "sogni"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -453,9 +462,12 @@
     "end": 1846.34,
     "speaker_raw": "SPEAKER_00",
     "testo": "Oggi vendo pesce e domenica faccio 40 anni. Luigi, una carriera che sembrava quasi fatta.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Vendita di pesce e 40 anni",
+    "tema": [
+      "lavoro",
+      "età"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -533,9 +545,12 @@
     "end": 2056.66,
     "speaker_raw": "SPEAKER_04",
     "testo": "Questa mattina Mara mi ha chiamato e mi ha detto che non mi vuole più. Fabio, io sto male dentro Fabio.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Mara mi ha lasciato",
+    "tema": [
+      "amore",
+      "relazione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -555,9 +570,12 @@
     "end": 2072.36,
     "speaker_raw": "SPEAKER_00",
     "testo": "Io non te l'ho voluto dire ma lei me l'aveva già detto ieri sera. Mi aveva detto di starti vicino oggi perché sarebbe stato un giorno difficile. Ma tu hai capito perché ti ha lasciato?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Mara mi ha detto di stare vicino",
+    "tema": [
+      "amore",
+      "relazione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -566,9 +584,12 @@
     "end": 2076.06,
     "speaker_raw": "SPEAKER_04",
     "testo": "Fabio, io credo che abbia un altro.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Credo che abbia un altro",
+    "tema": [
+      "amore",
+      "relazione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -591,9 +612,12 @@
     "end": 2099.99,
     "speaker_raw": "SPEAKER_04",
     "testo": "Fabio, forse ho capito che è colpa mia. Lei voleva qualcosa di più da me, io invece... Lei voleva te.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Lei voleva qualcosa di più da me",
+    "tema": [
+      "amore",
+      "relazione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -602,9 +626,12 @@
     "end": 2159.59,
     "speaker_raw": "SPEAKER_00",
     "testo": "Voleva te, ma ti voleva tutto. Voleva te con le tue scelte. Io gli ho dato quello che voleva Fabio. Allora ci viene un po' da dire che è un peccato, perché invece è bello. Sai che, Jack, io sono il tuo miglior amico. Adesso tu devi riuscire ad accettare le parole che sto per dirti, ok? Va bene Fabio. Ok, sono due le cose per cui lei ti ha lasciato. Una, che non la vedevi più, lei non si sentiva più vista da te. E la seconda, è che tua madre da bambino continuava a dirti che eri il più bravo e il più bello. E poi la vita ti ha insegnato che non era così. E tu hai pensato che fossero gli altri a non vedere il talento in te, invece tu non vali un cazzo. Grazie padre. Grazie padre. ma non ti preoccupare Jack ma tu non ti preoccupare che io sono un tuo amico nonostante tutto ok? e adesso beviamo vuoi un valpolicello?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Voleva te con le tue scelte",
+    "tema": [
+      "amore",
+      "relazione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -613,9 +640,12 @@
     "end": 2174.56,
     "speaker_raw": "SPEAKER_07",
     "testo": "mi serva Fabio sai cosa ti dico? mi bevo una birretta alla fine va bene ciao Daniele grazie ciao Fabio ciao ciao ciao che climax si è creato un momento mi bevo una birretta sai che ti dico?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Mi bevo una birretta",
+    "tema": [
+      "alcol",
+      "relazione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -663,9 +693,12 @@
     "end": 2394.47,
     "speaker_raw": "SPEAKER_03",
     "testo": "col capo, con la moglie, col pisello piccolo ci stavamo divertendo io dico solo questo",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Col capo, con la moglie, col pisello piccolo",
+    "tema": [
+      "relazione",
+      "sessualità"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -674,9 +707,12 @@
     "end": 2458.91,
     "speaker_raw": "SPEAKER_00",
     "testo": "Ma lui può cambiare, ma scusami Alex, ma metti il suo RTL, no? Ma che fatica farà allungare una mano e cambiare canale? Ci stiamo divertendo, Roberto da Catania! interpretazione femminile catanese di donna lasciata a parte che noi abbiamo qui Chiara che potrebbe fare una scenata napoletana Chiara scusa vieni dentro un secondo perché Chiara che ha suddito tutta la stellin è proprio quella tu potresti fare una specie di Anna Magnani napoletana bellissima è vero è una responsabilità puoi venire qua a fianco a me aspetta un secondo Roberta potrete anche fare tu di Catania Roberta che chiami Chiara Napoli per dire che ti ha lasciato e lei ti dice che lui è uno stronzo ed è meglio così te la senti Chiara? non riesci a dire stronzo in napoletano? strunzo allora vai vai Roberta devi fare pronto Chiara e poi parti ok",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Interpretazione femminile catanese di donna lasciata",
+    "tema": [
+      "film",
+      "relazione"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {

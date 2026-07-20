@@ -160,9 +160,12 @@
     "end": 609.35,
     "speaker_raw": "SPEAKER_09",
     "testo": "amore fuoco fuochino dove sei lui si è nascosto era qualche gioco erotico non lo so adesso noi mettiamo un bel disco per dare una bella svolta poi leggo un messaggio nel frattempo ti faccio cercare una frase di un film che è perfetto per questo messaggio di questo ascoltatore ma adesso senti un po' i Toto e i Peppino arrivano dopo questa è una canzone dovrebbe cambiarvi la giornata ciao a tutti vi vogliamo bene questo è il volo del mattino mamma che bellezza mamma che bellezza 3, 4, 5, 6",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Toto e Peppino",
+    "tema": [
+      "musica",
+      "canzoni"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -193,9 +196,12 @@
     "end": 838.22,
     "speaker_raw": "SPEAKER_04",
     "testo": "now she's gone and I have to say Grazie.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Now she's gone",
+    "tema": [
+      "amore",
+      "perdita"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -204,9 +210,12 @@
     "end": 915.57,
     "speaker_raw": "SPEAKER_09",
     "testo": "così bello quando spippotta col basso sta canzone che sono sicuro che Saturnino quando ci ascolta la mattina tipo adesso è andato lì ha preso il basso e l'ha rifatta lui a casa perché mi viene da suonarlo anche se non sono capace questi sono i Toto che bella canzone grazie sto andando al lavoro felice Rosaria di Bologna ciao Daniela da Torino il mio ex ha come amante la moglie vedi che quella roba lì è diffusissima c'è anche un bellissimo film se non sbaglio con la Keaton che lei col marito di nascosto insomma si ritrovano camminare con voi è bellissimo ecco senza stare in una valle verde Carlo72 ciao ieri Hotel California oggi Roseno ma siete fantastici infatti quando mettiamo queste canzoni sono un po' contento per noi un po' mi spiace per gli altri programmi e gli altri DJ perché non avranno mai un programma così bello cioè deve essere anche stancante inseguire sempre il volo del mattino da 15 anni no vabbè ci stancheremo anche noi prima o poi Allora, volevo dire una cosa, puoi dire gentilmente a Maurizio chiedere se sa qualcosa della parata dei personaggi di Star Wars al 3 maggio a Milano? Grazie, Milena di Verona.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Toto",
+    "tema": [
+      "musica",
+      "canzoni"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -215,9 +224,12 @@
     "end": 918.95,
     "speaker_raw": "SPEAKER_10",
     "testo": "No, non lo sapevo. ma c'entrano i Rollins?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Rollins",
+    "tema": [
+      "musica",
+      "rock"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -226,9 +238,12 @@
     "end": 1039.49,
     "speaker_raw": "SPEAKER_09",
     "testo": "non lo so, questa mattina sono arrivato in radio cari ascoltatori e Maurizio mi ha detto tu non sai cosa mi è successo ieri ti trovo preoccupato no ho visto una cosa, cosa è successo? ero alla cassa dell'Esselunga e il signore davanti a me il cassiere ha detto vuole i Rollins? io gli ho detto no grazie e tu hai fatto ma hai detto tipo me li dì ma glieli hai detto di darteli a te certo e il cassiere te li ha dati? sì sì sì ok ok perché io per esempio quando sono alla cassa di qualsiasi supermercato mi dicono alla tessera sai quelle lì che io dico no e mi volto sempre verso quello dopo di medico sempre se vuole usare la sua tessera ma non si può più adesso ah no? cioè il cassiere non ti può vedere fare quel movimento lì quindi dobbiamo fare una spesa unica capito con vabbè insomma ma è signore me li ha ceduti no quello lì è diverso io parlo della fidelity quelle robe lì delle fidelity tra l'altro ho trovato Obi-Wan Kenobi quindi quanti te ne bancano ancora per finire? secondo me un paio la stellina non ce l'ha? eh la stellina non ce l'ha c'è rimasta male allora fermi tutti un ascoltatore dice io sono stato 5 mesi l'amante della mia ex moglie arrivano un po' di messaggi così ma ce n'è uno che dice io una settimana fa ho incontrato la mia ex ormai noi siamo già sposati però da quel momento lì continuo a pensarci voglio fare una premessa Sai che ci sono delle persone che a volte si lasciano, no? Poi tu puoi affarti anche una famiglia e l'altra famiglia, però con quella persona lì rimane sempre un qualcosa di speciale, mettiamola così. Tant'è che per esempio io so di molte donne che quando l'ex ha un figlio sentono il dolore come se... cioè non sono proprio felici, capito? Quel dolore lì. Quando ho letto questo messaggio stamattina, parlando con te, mi hai detto come il film? Nove vite da donne. 9 vite da donna ragazzi vi stiamo per regalare 5 minuti tra una bella canzone che ho portato che si chiama Rest cioè riposa stai tranquillo tra la canzone Rest e prima la frase di un film bellissima che adesso ve la godete tutti se siete fumatori fumatevi la sigaretta",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Cassiere e Rollins",
+    "tema": [
+      "commercio",
+      "errore"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -604,9 +619,12 @@
     "end": 2157.31,
     "speaker_raw": "SPEAKER_03",
     "testo": "and if you try to take it from her your end will come too soon she dreams about her big balloon carrying her higher and higher up to the moon she ties it to her waist she ties it to her wrist and if you're lucky she might let it go for you and make a wish first thing she wakes up pours herself a cup before she's off the door she stops to blow it up sometimes she carries it high sometimes she carries it low people point at her and say there she goes Grazie.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Big Balloon",
+    "tema": [
+      "infanzia",
+      "sogni"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -626,9 +644,12 @@
     "end": 2242.5,
     "speaker_raw": "SPEAKER_10",
     "testo": "Cioè è una cosa che... Dovremmo chiamare Rovelli che è un fisico.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Rovelli fisico",
+    "tema": [
+      "fisica",
+      "scienza"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -637,9 +658,12 @@
     "end": 2371.39,
     "speaker_raw": "SPEAKER_09",
     "testo": "Rovelli fisico, senta Rovelli, mentre lei sta lì a vedere le onde gravitazionali, mi risolve questo problema. No, io avevo questi dubbi, lo dico sempre, questo... e l'altra domanda scusami l'altra domanda che mi facevo da bambino era se io avessi trovato il modo di rimanere sollevato la terra gira a quello me la facevo anch'io e poi io scendo e sono a New York sono a latitudine diciamo longitudine si ok cioè tu ti alzi la terra gira non ci bisogna che vai tu a New York arriva la terra la terra gira secondo me è fattibile no perché io l'ho chiesto te l'ho detto l'avevo chiesto poi a un capitano dell'aeronautica da adulto pensa cosa avrà detto questo mi ha detto che ovviamente con la terra si sposta anche diciamo l'aria e quindi sposta anche te ma se tu vai oltre l'atmosfera ah vabbè sì vabbè ho capito ma da bambino io mi immaginavo una roba tipo che no no l'atmosfera sì probabilmente funziona ovviamente allora volevo dirvi questa cosa un giorno aspettavo mio padre a un appuntamento e mentre lo aspetto in macchina si avvicina un SUV tira giù il finestrino ed era il mio ex con la fede e il seggiolino dietro per i bambini cioè praticamente dopo che mi ha mollato è diventato ricco si è sposato e ha fatto un figlio si vede che lei portava un po' spiega non lo so pure la bloccava la bloccava allora dicono tutti dai Giuseppe trova il modo di andare a Radio DJ a prendere per tuo figlio sono il tuo padre poi è un trauma credo per il bambino io mi ricordo posso dire mi ricordo ancora i palloncini che i palloncini non è niente quando vai alle fiere che più il palloncino ti scappa e lo vedi volare nel cielo cioè sparami nel petto mi fai meno male con una forchetta così mi fai meno male oddio di fatti adesso quando i miei figli scoppiano i palloni si io mi vedo piangere sentite qua ragazzi visto che abbiamo parlato un po' di ex e vi piace cantare vi ho portato una canzone in italiano così ve la canticchiate e soprattutto vi ricorderà i vostri momenti quando eravate più ragazzini sentite qua lui è Lucio Battisti la canzone è Rantola Tu se non sbaglio Rantola Tu quando vede la ex ma non dovevamo vederci più",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Dubbi da bambino",
+    "tema": [
+      "infanzia",
+      "curiosità"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -659,9 +683,12 @@
     "end": 2570.65,
     "speaker_raw": "SPEAKER_02",
     "testo": "ho mangiato o no ho fame anch'io e non soltanto di te che bella sei sembri più giovane o forse sei solo più simpatica Nessuna no Ho solo ripreso a fumare Sei ancora tu Purtroppo l'unica Ancora tu L'incorregibile Ma lasciarti non è Possibile non lasciarti non è Possibile lasciarti non è Possibile non lasciarti non è Possibile purtroppo l'unica ancora tu l'incorregibile ma lasciarti non è possibile lasciarti non è possibile lasciarti non è possibile disperazione gioia mia sarò ancora tuo sperando che non sia follia ma sia quel che sia abbracciami amore mio abbracciami amor mio che adesso lo voglio anch'io",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Lasciarti non è possibile",
+    "tema": [
+      "amore",
+      "relazioni"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -670,9 +697,12 @@
     "end": 2745.07,
     "speaker_raw": "SPEAKER_09",
     "testo": "non mi sorprende lo sai Maurizio ancora tu stessa cosa all'asilo mi è caduto nel buco del tombino la macchina più bella mai vista una golf verde con portapacchi la sogno e ancora oggi trauma o lezione di vita entrambi dipende dallo stato d'animo dice un ascoltatore Quelle lì sono cose dolorosissime, le cose dei bambini che ti portano via, io mio vicino di casa che mi ha rubato la macchina militare, ancora come se fosse successo ieri. Posso dire una storia cattiva? Vado dal mio vicino di casa, io bambino, ho avuto 5 anni, 4-5 anni, mio papà e mia mamma, che di soldi non c'erano tanti, però mi avevano comprato tutta una serie di soldatini, tra cui anche una macchinina militare, ma piccolina, ok? vado dal vicino ballandi a giocare giochiamoli così e a un certo punto la nonna di questo bambino nel cortile dice ok basta vai a casa prende i giocattoli e la macchina la dà al suo figlio e gli dico no signora la macchina è mia no no no è quella di Fulvio e non me l'ha data non me la data ora ti capisco ti giuro non sto scherzando mi viene da piangere anche perché adesso vedo mio figlio al posto mio quindi mi commuovo mi viene da piangere sono andato via sono andato da mia mamma mi ha rubato la macchinina e l'ha detto vabbè cosa faccio vado lì cioè nel senso anche un adulto non è che va lì dice sei da signora la macchina sono mia mamma che noi veniamo da una famiglia non voglio disturbare non sei sempre paura ti fai riguardo niente non me l'ha recuperata la macchina ora capisco il successo dei tuoi libri ho una fitta nel petto perché vengono dal dolore va bene voglio dire che sul mio cellulare a differenza delle mail degli ascoltatori arrivano altri messaggi mia cugina Fabrizia che si ricorda questa canzone bellissima è sotto allora oggi inizio le riprese della mia serie televisiva quindi sono contentissimo io non posso te l'ho già detto ho altri contratti purtroppo tu devi andare a fare Don Matteo io ho già firmato oggi non ci sono ma domani e dopo domani ci saranno anche alcuni ascoltatori del volo del mattino che abbiamo contattato con parse e anche magari attori parlanti con breve cose e volevo dirti che ieri quindi volevo fare una super riunione una super riunione perché ho detto ragazzi domani poi sai io devo gasare tutti domani ci vediamo una cena vi pompo tutti però tra il gruppo ci sono dei napoletani e ieri c'era Milan Napoli allora ieri ho fatto saltare la riunione per Milan-Napoli ma però stanotte gli ho detto per un 1 a 1 e sono tutti incazzati stamattina mi mandano i messaggi era meglio lavorare non glielo vuole proprio vincere lo scudetto il Napoli c'è niente da fare oggi è Chuck si gira ascoltatori volo del mattino vai Chuck don't you shut your eyes and hide your heart behind the shadows",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Macchina rubata",
+    "tema": [
+      "infanzia",
+      "perdita"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -681,9 +711,12 @@
     "end": 2813.72,
     "speaker_raw": "SPEAKER_13",
     "testo": "I can't jump over buildings I'm no hero ... ... ... grazie a tutti",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "I can't jump over buildings",
+    "tema": [
+      "eroismo",
+      "supereroi"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {

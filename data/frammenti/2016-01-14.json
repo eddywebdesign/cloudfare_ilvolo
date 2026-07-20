@@ -97,9 +97,12 @@
     "end": 530.11,
     "speaker_raw": "SPEAKER_04",
     "testo": "Allora, avevamo finalmente, che è da lunedì o da martedì, che diciamo che parliamo di questo argomento, di questa persona che non muore mai. Però ogni giorno succede che poi non riusciamo a fare, perché ci perdiamo dentro delle cose senza tema, un po' gli ascoltatori, quello che viene cazziato dalla moglie, quell'altro che vuole fare qualcosa. Per esempio, questa mattina eravamo qui alle sei, sei un quarto nel buio. eravamo qua con i monboots vi ricordate voi i monboots? però quelli col pelo ok quindi questa mattina eravamo qua c'era la Viola in bikini con i monboots col pelo a me piace dire monboots la Steffi uguale bikino e i monboots io e Maurizio calzoncino lo slip che si chiama in inglese sai che lo chiamo la banana hamaca a me fa troppo ridere mai sentito i miei amici a New York mi dicono sempre ma why perché è una roba anche che non si usa all'estero vuol dire quando io metto lo slipino al mare mi piono per il culo tutti perché non si mette lo slipino adesso va è un po' tornato di moda però posso dirti se ti parte il fisico da lì cioè se sopra lo slip ti parte la tartaruga il pettorale così ci sta manca un po' di pancina va bene anzi se no sembri un po' troppo Io un po' così, poi insomma è brutto perché poi si vede anche un po' la dimensione, cioè quando eschi dall'acqua c'è quel funcoletto lì davanti, è brutto se non, capito? Vabbè comunque gli inglesi, gli americani che se vai in spiaggia così ti guardano come una specie di depravato, la chiamano la banana hamack, la maca della banana, lo slip, lo spido, lo spido così, why do you wear the banana hamack? Va bene comunque.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Perdere tempo in cose insignificanti",
+    "tema": [
+      "tempo",
+      "priorità"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -191,9 +194,12 @@
     "end": 849.12,
     "speaker_raw": "SPEAKER_12",
     "testo": "Save me I don't wanna fall asleep I can anybody I can anybody Save me, save me I don't wanna fall asleep Ciao!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Canzone Save Me",
+    "tema": [
+      "musica",
+      "salvezza"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -321,9 +327,12 @@
     "end": 1147.73,
     "speaker_raw": "SPEAKER_04",
     "testo": "dimmi che te ne vai a Oslo non lo so Copenaghen Copenaghen è una bella città ok ti diamo 5 milioni di euro la viola ha deciso che te li da lei 5 milioni di euro di beuri tu te ne vai con tua moglie e i tuoi due figli ma non puoi più tornare né a Cosenza né a Perugia e non puoi più vedere dove stanno i tuoi genitori a Cosenza esatto non puoi più tornare a Cosenza e quindi non puoi più vedere i tuoi genitori questa clausola no aspetta siccome sono buono attenzione i tuoi genitori volendo possono venire a Copenaghen aspetta quanti anni ha tuo papà? mio papà ce n'ha 65 secondo te tuo papà di 65 calabrese di Cosenza viene a vivere a Copenaghen per vedere te Sicuramente sì, però tu hai detto che non si poteva fare Ma che cazzo, quello ti dice Io qua sono nato, io voglio morire in Calabria Non mi dovete rocciare Io mio papà non l'avrei spostato da Brescia Neanche Ma non Brescia per Copenaghe C'è Brescia per Mantua Non l'avrei spostato neanche Ma mio padre è un tipo che lascerebbe tutto Forse lui sì, anche per molto meno Dei 5 milioni Però senza vederli non lo faresti mai ma penso davvero per nessuna cifra tu non sai come stai facendo sentire male dentro la Viola e Maurizio che loro pensavano che persone come te non esistessero al mondo bravo per 10 per 10 se la clausola è sempre quella che non li potrò mai più vedere non c'è cifra",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Offerta di 5 milioni di euro",
+    "tema": [
+      "denaro",
+      "offerta"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -630,9 +639,12 @@
     "end": 2141.99,
     "speaker_raw": "SPEAKER_07",
     "testo": "Esatto, che era il film che hai visto l'altro giorno.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "film visto l'altro giorno",
+    "tema": [
+      "cinema",
+      "intrattenimento"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -716,9 +728,12 @@
     "end": 2767.21,
     "speaker_raw": "SPEAKER_04",
     "testo": "Ma questo perché gli altri programmi radiofonici sono bellini, sono ascoltati, e questo è superlativo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "programmi radiofonici ascoltati",
+    "tema": [
+      "media",
+      "ascolto"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

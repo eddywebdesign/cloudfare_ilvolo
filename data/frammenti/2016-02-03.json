@@ -228,9 +228,11 @@
     "end": 882.87,
     "speaker_raw": "SPEAKER_03",
     "testo": "non lo so, però possiamo andare a vedere i casce vecchi che hanno fatto sempre creare grosse polemiche servizio pubblico",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "casce vecchi",
+    "tema": [
+      "servizio pubblico"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -391,9 +393,11 @@
     "end": 1184.13,
     "speaker_raw": "SPEAKER_06",
     "testo": "gente che dice se Nicole Kidman non vuol venire a 500 vengo io 500 euro tra l'altro vengo io a 500 euro scusate oggi il budget quest'anno era un po' abbiamo qui Luciana Luciana da Parma buongiorno sono Luciana come va? va bene due domande secondo me le domande che si fanno i personaggi ma anche quando mi fanno le interviste secondo me possono rispondere tutti cioè tipo fammi la domanda tua com'è stata questa esperienza nel doppiare il Kung Fu Panda tu lo chiedi a un barista lui ti dice ma è divertente io non è che dico una cosa diversa vuoi che sia mai successo il doppiare Come è stato lavorare con Silvio Orlando?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "domande interviste",
+    "tema": [
+      "comunicazione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -443,9 +447,11 @@
     "end": 1214.43,
     "speaker_raw": "SPEAKER_06",
     "testo": "Senti, senti, ti ha insegnato qualcosa lavorandoci insieme?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "insegnamento lavoro",
+    "tema": [
+      "lavoro"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -493,9 +499,11 @@
     "end": 1272.59,
     "speaker_raw": "SPEAKER_06",
     "testo": "Beh, sono cresciuto, mi sembra bella. Insomma, non me la immaginavo diversa. Però la rifaresti, sì. Che dici? No, mi sta sul cazzo. Oh, vai là! Grazie a tutti.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "rifare la montagna",
+    "tema": [
+      "montagna"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -638,9 +646,11 @@
     "end": 1661.79,
     "speaker_raw": "SPEAKER_04",
     "testo": "Esatto, esatto. Non posso lasciarlo che pare così.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "polemiche risposte",
+    "tema": [
+      "polemiche"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -882,9 +892,12 @@
     "end": 2327.61,
     "speaker_raw": "SPEAKER_12",
     "testo": "Non ancora, anche perché chi è che porta il panettone è stato anche benedetto in chiesa, se no è...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "panettone benedetto in chiesa",
+    "tema": [
+      "famiglia",
+      "natale"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -893,9 +906,12 @@
     "end": 2332.92,
     "speaker_raw": "SPEAKER_06",
     "testo": "Ah, ma c'è tutto un'operazione. Scusami, cioè va tagliata la fetta e portata in chiesa a farla benedire?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "operazione panettone benedetto",
+    "tema": [
+      "famiglia",
+      "natale"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

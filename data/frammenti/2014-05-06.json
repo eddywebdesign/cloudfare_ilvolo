@@ -54,9 +54,12 @@
     "end": 346.4,
     "speaker_raw": "SPEAKER_02",
     "testo": "Allora cari ascoltatori oggi giochiamo a indovina chi, magari si azzecca anche una parola prima o poi. Oggi giochiamo a indovina chi? Io penso a un personaggio, ok? Maurizio e anche voi attraverso il 347-345-120, la cosa più stupida che abbiamo fatto negli ultimi anni, lo so. Dovete cercare di indovinare, facciamo un esempio. Maurizio, aspetta un attimo, mi concentro. Ok, ce l'ho, chiedimi.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Giochi radiofonici",
+    "tema": [
+      "gioco",
+      "radio"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -65,9 +68,12 @@
     "end": 351.24,
     "speaker_raw": "SPEAKER_11",
     "testo": "È un cantante? Sì. Vasco Rossi? Sì, vabbè, però questo lo faccio io.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Vasco Rossi",
+    "tema": [
+      "musica",
+      "vasco rossi"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -234,9 +240,12 @@
     "end": 814.2,
     "speaker_raw": "SPEAKER_01",
     "testo": "No, no, assolutamente no. Sto caricando la macchina che devo andare a fare il mercato. Sono arrivati questa coppia e incuriositi dalla telefonata...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Incontro al mercato",
+    "tema": [
+      "mercato",
+      "incontro"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -256,9 +265,12 @@
     "end": 904.65,
     "speaker_raw": "SPEAKER_01",
     "testo": "Il pesto? Il pesto e poi vabbè io gli ho dato un omaggio, un succo e polpa alla pesca, quello dolcificato col succo d'uva, perciò... ma adesso va tanto la gente preferisce più tutto a base di frutta e poi l'altra cosa mi sfugge poi mi ha chiamato il signore dell'Abruzzo perché stava ascoltando anche lui Radio DJ infatti mentre mi ha chiamato sentivo Radio DJ incredibile poi mi ha ascoltato mi ha ascoltato mi ha sentito tanti amici tanti amici senti una cosa Chiara mi hanno detto ma dovevi dire anche il nome dell'azienda solo che è il mio nome e cognome e non lo vuoi dire Chiara Boschi sì sì ti chiami pure Chiara Boschi sei proprio sì è il tema avrai anche mirtilli lamponi non lo so i famosi frutti di boschi senti una cosa Maurizio chiede cosa si può fare con la lavanda oltre alla confettura di pesca e lavanda ma l'idea è venuta perché una mia amica tra l'altro prima sia io che questa mia anche facevamo tutt'altro lavoro io facevo la grafica pubblicitaria e lavoravamo insieme ti sei annoiata di quel lavoro? Ma le cose cambiano, diciamo che era l'azienda di mia nonna, abbiamo deciso di non vendere, di provarci e tenere l'azienda, cambiare un attimo perché prima ovviamente era in convenzionale.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Conversazione al mercato",
+    "tema": [
+      "mercato",
+      "conversazione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

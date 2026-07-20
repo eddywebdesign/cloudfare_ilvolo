@@ -88,9 +88,12 @@
     "end": 406.14,
     "speaker_raw": "SPEAKER_08",
     "testo": "Dico agli ascoltatori che non ci hanno ascoltato ieri, Arianna è la nostra amica dell'associazione SSCH che ieri abbiamo sentito perché se qualcuno di voi non avesse ancora fatto il 5x1000 si chiama? Sì. Ok, una volta c'era l'8x1000. quella è la chiesa cattolica cioè la chiesa l'otto per mille ma io non lotto vago per me stessa comunque no cinque per mille cinque per mille è associazioni associazioni quindi siccome anche Emergency adesso quando scrivete un aiuto ora esce il sito di Emergency cioè gli è passato davanti essendo anche più grosso va benissimo noi aiutiamo chiunque non c'è problema però se voi non l'avete ancora fatto volete anche donare solo 5 euro 10 euro quello che è un aiuto ora SSCH e quindi andate lì e ci possono donare 5 euro 6 euro vi ricordo che la situazione lì non solo non è mai finita ma è anche peggiorata va bene allora ragazzi ultime tre puntate mercoledì 3 giugno ci si accusa ci si accusa di che roba",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "otto per mille",
+    "tema": [
+      "denaro",
+      "carità"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -99,9 +102,12 @@
     "end": 419.85,
     "speaker_raw": "SPEAKER_16",
     "testo": "ma mancano le puntate dell'uno e del due Maurizio ha mollato Maurizio non ti fischiavano le orecchie questi due giorni le puntate non funzionano neanche quella di ieri c'è solo la pubblicità",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "puntate non funzionano",
+    "tema": [
+      "radio",
+      "tecnologia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -110,9 +116,12 @@
     "end": 438.98,
     "speaker_raw": "SPEAKER_15",
     "testo": "solo la pubblicità però la pubblicità l'hai caricata i soldi non è colpa mia io l'ho caricata adesso la puntata del 2 c'è sto rinforzando la puntata del 2 classica banalità del male però se hai mollato Maurizio ci sta",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "puntata del 2",
+    "tema": [
+      "radio",
+      "tecnologia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -121,9 +130,12 @@
     "end": 552.14,
     "speaker_raw": "SPEAKER_08",
     "testo": "allora ragazzi dico a quelli che verranno allo speaker corner sabato alle ore 16 a vedere il bruno del mattino addirittura le unghie mi fanno schifo ma poi che unghie spesse e dei piedi che schifo dai che c'è gente che sta mangiando se avete una richiesta specifica per quel nostro spettacolo lo spettacolo più grande del Big Bang che faremo sabato alle 4 avete ancora 3 giorni per dirci se no facciamo noi ho visto una puntata di report l'avete vista? andatevela a vedere su RaiPlay ci hanno solto anche le brioche c'era una tutta sul mondo del calcio poi dopo fanno tutta la puntata sui cornetti la colazione tipica dell'italiano c'è cappuccio e brioche per l'intelligence Cioè quella brioche lì che ho scritto integrale col miele, quella roba lì non è miele, non c'è dentro il miele, l'integrale ce n'è pochissimo, cioè tutta la crema non è crema, fasta con la margherina invece che col burro, niente, lo dico a quelli che stanno facendo adesso colazione, ragazzi mi raccomando se proprio vi volete concedere quella roba lì, di alta qualità, perché se no vi sfondano. Rayford Rayford ci stanno ci rovina tutto Siegfried Siegfried ci sono tante cose siamo pieni di problemi non ci toccate le brioche va bene ragazzi iniziamo ieri qua c'era un temporale incredibile pioggia vento lampi tuoni sembrava agosto tanto è rinfrescato mamma che meraviglia ma io vorrei che tutta la settimana fosse così no sì anche c'è da lavorare oggi è vacanza senti Sì.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "bruno del mattino",
+    "tema": [
+      "tv",
+      "commedia"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -210,9 +222,12 @@
     "end": 914.13,
     "speaker_raw": "SPEAKER_07",
     "testo": "io salto in padella col burro è molto più gustoso fai saltare in padella che cosa? la verdura magari che hai fatto lì la verdura?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "fagiolini in padella",
+    "tema": [
+      "cucina",
+      "ricetta"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -258,9 +273,12 @@
     "end": 995.35,
     "speaker_raw": "SPEAKER_08",
     "testo": "Lei è bravissima e la puntata è stupenda, devo dire che Rai 3 sta tenendo un po' botta, non so ancora per quanto, però insomma devo dire che fa ancora delle cose un po' interessanti. Io sono appena tornato dalla Bretagna ragazzi, burro burro burro, scrive un'ascoltatrice.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "rai 3",
+    "tema": [
+      "tv",
+      "informazione"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -455,9 +473,12 @@
     "end": 1500.25,
     "speaker_raw": "SPEAKER_15",
     "testo": "Comunque esiste la trattoria Sganiabrodo. Esiste?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Trattoria Sganiabrodo",
+    "tema": [
+      "viaggio",
+      "cibo"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -574,9 +595,12 @@
     "end": 1746.51,
     "speaker_raw": "SPEAKER_07",
     "testo": "Allora, secondo me questa identità è quella che ti farà...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Identità personale",
+    "tema": [
+      "identità",
+      "autenticità"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -635,9 +659,12 @@
     "end": 1858.05,
     "speaker_raw": "SPEAKER_09",
     "testo": "ma c'è posto per tutti mi posso comprare sia il burro che fare donazioni ci può comprare tutti Fabio il burro lo scubetti e lo lanci nel frizz te lo mangi piano piano è peccato sprecarlo ciao Maria da Rivalta",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Burro e donazioni",
+    "tema": [
+      "generosità",
+      "solidarietà"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -660,9 +687,12 @@
     "end": 1898.5,
     "speaker_raw": "SPEAKER_00",
     "testo": "La cosa bella è che tutti avranno pensato, sta parlando con me, sta parlando con me.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Tutti pensano che sto parlando con loro",
+    "tema": [
+      "comunicazione",
+      "relazioni"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -682,9 +712,12 @@
     "end": 1905.61,
     "speaker_raw": "SPEAKER_00",
     "testo": "Ma in realtà siamo, sono o siamo tutti una massa di superficiali.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Siamo superficiali",
+    "tema": [
+      "superficialità",
+      "umanità"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -740,9 +773,12 @@
     "end": 2015.9,
     "speaker_raw": "SPEAKER_08",
     "testo": "verso il cane cioè io il mio prossimo passaggio è che mi prendo un cane quindi c'è una chat di una dove mi prendono i cani una piattaforma per i cani un fotoprofilo con cane a un certo punto io mi accompagnerò con un cane quando i miei figli andranno via di casa io sarò solo non lo so però io mi sopporta solo un essere vivente che comunque lo tratto scodinzola quando mi vede purtroppo il mio livello è quello sono insopportabile sono insopportabile posso dire mi spiace anche per il cane a un certo punto mi accompagnerò da solo per evitare di rompere i coglioni anche al cane Eh vabbè, se ammessi così, l'importante ragazzi è che non pensiate che la vita è eterna, ma che vi decidiate a fare ciò che volete fare da oggi. Oggi inizia il vostro percorso per fare ciò che sognate di fare. Non domani, non a settembre, non a lunedì. Oggi, mercoledì 3 giugno, 9.43.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il prossimo passaggio è il cane",
+    "tema": [
+      "cani",
+      "solitudine"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -907,9 +943,12 @@
     "end": 2618.78,
     "speaker_raw": "SPEAKER_08",
     "testo": "Ciao, faccio il lavoro, si scoccia se usiamo a bere una cosa. Mi tolgo la forchetta.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La forchetta si scoccia",
+    "tema": [
+      "comportamento",
+      "umorismo"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -932,9 +971,12 @@
     "end": 2629.53,
     "speaker_raw": "SPEAKER_08",
     "testo": "Mamma mia, che bello. Ah, forchettello occhio, boh. Capirai.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Forchettello occhio",
+    "tema": [
+      "amore",
+      "attenzione"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {

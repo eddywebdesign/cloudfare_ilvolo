@@ -76,9 +76,12 @@
     "end": 277.61,
     "speaker_raw": "SPEAKER_14",
     "testo": "abbastanza bene sono migliorato è un po' che non frequento adesso finisce la mia ultima puntata oggi la settimana prossima vado a Roma e da lì andrò a Napoli ma no come sei bella e non lo sai lascia stare Rai sì una creatura in mezzo ai leone ma nella vita non tiene padrone ma che bella voce che l'anima si squaglia quando canta",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "voce che si squaglia",
+    "tema": [
+      "musica",
+      "voce"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -98,9 +101,12 @@
     "end": 301.45,
     "speaker_raw": "SPEAKER_15",
     "testo": "che bella voce non so se è su diavolo o su salto vabbè andiamo avanti l'infinito ti manca la canottiera la coppola e c'ho troppo ciuffo ultimamente ho speso troppi soldi Maurizio sigla è la ultima della dell'agno come si dice della stagione della season",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Infinito",
+    "tema": [
+      "musica",
+      "canzone"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -256,9 +262,12 @@
     "end": 868.44,
     "speaker_raw": "SPEAKER_13",
     "testo": "Allora da dieci mesi è quasi un anno Quasi un annetto Vuol dire da agosto Ma le vacanze Lì ha dato la bottarella con lo spumante Si è fatta uno spritz Era estate, erano in vacanza Parliamone, parlatene Chi? Loro due E che si fa?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "vacanze e spritz",
+    "tema": [
+      "vacanze",
+      "amici"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -295,9 +304,12 @@
     "end": 980.48,
     "speaker_raw": "SPEAKER_13",
     "testo": "Nico Marabello non chiedetevi visto che la settimana prossima vengo in Sicilia allora io come va la ricerca del rudere? in Sicilia?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ricerca del rudere in Sicilia",
+    "tema": [
+      "avventura",
+      "Sicilia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -306,9 +318,12 @@
     "end": 1012.41,
     "speaker_raw": "SPEAKER_15",
     "testo": "in Sicilia dicevo una picciottella ma non c'è una picciottella? una picciottella in Sicilia per il vostro amico Fabio caro ascoltatore di Messina che ti chiedi cosa puoi fare la ricerca del rudere ho mollato ho mollato anche perché l'ambulanza a rudere non arriva abbiamo visto che dovevi fare un pezzo a piedi ho detto qua con la barella cado ho mollato perché purtroppo il mio karma ancora qua devo stare devo ancora stare qua a sacrificarmi",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "ricerca del rudere",
+    "tema": [
+      "Sicilia",
+      "avventura"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -451,9 +466,12 @@
     "end": 1502.86,
     "speaker_raw": "SPEAKER_05",
     "testo": "Siamo solo noi. Generazione di sconvolti che vanno più solti in eroi. Siamo solo noi. Siamo solo noi. Alla macchina del suono, Maurizio Rossardo. Al centralino, la stellina!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "generazione di sconvolti",
+    "tema": [
+      "gioventù",
+      "società"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -462,9 +480,12 @@
     "end": 1522.38,
     "speaker_raw": "SPEAKER_15",
     "testo": "Co-conduttrice del volo del mattino! Protagonista a saluto, la piana! Riprese digitali, Stefania!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La piana",
+    "tema": [
+      "letteratura",
+      "Sicilia"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -861,9 +882,12 @@
     "end": 2470.96,
     "speaker_raw": "SPEAKER_14",
     "testo": "Oh Fabio, mi stavi sulle balle, mi sono affezionato e adesso mi lasci così?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Lasciato da Fabio",
+    "tema": [
+      "amore",
+      "relazione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -911,9 +935,12 @@
     "end": 2592.55,
     "speaker_raw": "SPEAKER_13",
     "testo": "a parte è bello tutte e due ma come ci arrivi col van? ti devi attraversare tutta l'Italia col van o prendi un traghetto no no no vado vado vado",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Viaggio con il van",
+    "tema": [
+      "viaggio",
+      "avventura"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

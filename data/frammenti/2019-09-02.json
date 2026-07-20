@@ -38,9 +38,12 @@
     "end": 230.72,
     "speaker_raw": "SPEAKER_11",
     "testo": "La canzone vincitrice della 69° edizione del Festival di Sanremo è Soldi Mamù. Se gli italiani hanno votato in massa per un altro che ha perso. Vince Zingaretti, primi dati inequivocabili, il governatore del Lazio sopra il 60%. Sono contento che abbiamo vinto ancora. Il premio è conto, è impegnato, è importante. Finalmente dopo anni di chiacchiere e di polemiche è sancito definitivamente al Parlamento italiano il sacrosanto diritto alla legittima difesa per chi viene aggredito.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Soldi Mamù",
+    "tema": [
+      "politica",
+      "voto"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -71,9 +74,12 @@
     "end": 292.12,
     "speaker_raw": "SPEAKER_00",
     "testo": "Preciso subito che non sarà un governo contro, sarà un governo per il bene dei cittadini, per modernizzare il paese.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Governo per il bene",
+    "tema": [
+      "politica",
+      "governo"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -107,9 +113,12 @@
     "end": 371.37,
     "speaker_raw": "SPEAKER_12",
     "testo": "I titoli dei giornali di questa mattina sono tutti sulla stessa falsa riga. Corriere della sera. Finalmente torna il volo del mattino. Con Fabio Volo ne vedremo delle belle. La Repubblica. Lo aspettavamo da mesi. Per gli italiani il mattino cambia musica. La stampa. Da oggi torna il volo del mattino. Finalmente si ride. Speriamo. Il messaggero, finalmente rimanere bloccati nel traffico non è più una seccatura, Fabio Volo torna con il volo del mattino.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Finalmente torna il volo del mattino",
+    "tema": [
+      "notizie",
+      "programma"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -184,9 +193,12 @@
     "end": 518.28,
     "speaker_raw": "SPEAKER_15",
     "testo": "perché ognuno nella propria vita ha le sue faccende diciamo uno dei motivi per cui siamo su questo pianeta è per imparare le 5 parole più importanti non so dove stai andando a parlare ho già paura sono 9.11 non vorrei dirle come primo intervento però se vuoi allora io dico una cosa adesso un po' di good vibe e partiamo con questo disco di qualche anno fa perché noi vogliamo che si risenta nell'aria l'amore sì lo mettiamo? ah la mignotta ma che è sta roba? ma che siete fatti? ma non famo parlare sta gente ah ah",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Disco di qualche anno fa",
+    "tema": [
+      "musica",
+      "good vibe"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -708,9 +720,12 @@
     "end": 1992.11,
     "speaker_raw": "SPEAKER_15",
     "testo": "Bravo, c'hai anche l'app quella che ti dice se piove o non piove, immagino.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "app che ti dice se piove",
+    "tema": [
+      "tecnologia",
+      "meteo"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -769,9 +784,12 @@
     "end": 2103.35,
     "speaker_raw": "SPEAKER_15",
     "testo": "io sono responsabile del visual merchandising per un'azienda inglese di moto vuoi farti dei bagnetti per l'app delle meduse brava Gioia ti salutiamo un abbraccio grazie scusate non c'è quella no no aspetta abbiamo detto che non chiamavamo gli ascoltatori se non hanno un motivo adesso pian pianino i motivi li tiriamo fuori però una scritto sono nuda nella vasca che mi faccio lo scrub perché ti conosci no ho pensato agli ascoltatori maschi che vengono da una vacanza magari con i figli un po' stanchi così comunque l'idea di una che si dà delle grattate",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "scrub nudo nella vasca",
+    "tema": [
+      "relazione",
+      "intimità"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -877,9 +895,12 @@
     "end": 2203.28,
     "speaker_raw": "SPEAKER_15",
     "testo": "Tant'è che si fa lo scrub nuda alle 9.40 del mattino, non è che c'è tutta sta fretta. Va bene, ma con cosa te lo fai lo scrub? Col caffè?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "scrub con sale e vino",
+    "tema": [
+      "relazione",
+      "intimità"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -899,9 +920,12 @@
     "end": 2240.32,
     "speaker_raw": "SPEAKER_14",
     "testo": "Cioè, praticamente sei un'orata, praticamente. Senti, ma c'è anche il limone e il prezzemolo in bocca, Rosmarino! una fetta di limone lei ha la vasca tutta coperta di sale come il branzino l'ho fatto al sacco poi senti è economico hai capito è il modo più economico per farsi lo scrub sei fidanzata Vale?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "scrub con limone e prezzemolo",
+    "tema": [
+      "benessere",
+      "pelle"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -1108,9 +1132,12 @@
     "end": 2853.15,
     "speaker_raw": "SPEAKER_15",
     "testo": "quindi io inizierò completamente con lo scooter però hanno capito che tu eri una di quelle che voleva andare in giro col motorino perché anche lì sulla scrivania avevi il casco volevi mandare questo messaggio al capo ufficio certo per forza quindi inizierò diciamo un nuovo lavoro completamente anche tu vedrai che dall'Etna lì dal tuo paesino a Catania uno dei posti quando vai a Breno mi richiamerai per l'app delle meduse è in Valcamonica sono stata già tre giorni a vederlo tu ricordati non prendere niente sul personale che è una regola che io sto facendo nella vita ho capito questa cosa qua che a volte me la prendo perché penso che sia un affronto personale invece è un suo disturbo che cade anche su di me quando tu arrivi lì che sentirai con la coda dell'orecchio cos'è che sentirai? che manca un alter teru quando tu sentirai ma se l'hanno trasferita vuol dire che mancava lassù qualcuno sei fortunato adesso l'intolleranza leghista è andata oltre confine e ti è andata di culo ormai siete dei nostri capito? salgono in tre e anche G è in tre e anche G è in tre perché bisogna andare io mi ricordo quando ero bambino quelli che si incazzavano perché le nostre maestre elementari avevano l'accento meridionale ok perché invece te che accettaciorevi quello di Brescia eh sì ma era comunque incomprensibile è italiano è italiano è italiano va bene comunque non è niente di personale Anna Maria poi ti dovrei fare una domanda ma vado vado fuori onda a farti la domanda perché è un po' non me lo la mia posizione non me lo permette vai non ti preoccupare comunque mi ha fatto piacere Anna Maria sei carina sei carina sono carina eh sei carina sei carina eh sì, penso di sì no perché c'è anche Cessle lì no no no ok ok va bene la molestia delle 9.54 Anna Maria un abbraccio e ti richiamiamo che ti teniamo in compagnia grazie mille ciao ragazzi",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "nuovo lavoro con scooter",
+    "tema": [
+      "lavoro",
+      "viaggio"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

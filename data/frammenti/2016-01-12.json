@@ -38,9 +38,11 @@
     "end": 150.36,
     "speaker_raw": "SPEAKER_00",
     "testo": "con Deus mi dito, con Deus mi levanto, conmigo eu calo, conmigo eu canto, eu bato em um papo, eu bato em um ponto, eu tomo um drink e eu fico tonto",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Deus mi dito",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -49,9 +51,12 @@
     "end": 328.19,
     "speaker_raw": "SPEAKER_14",
     "testo": "Mentre andava questo disco che sa un po' di after. Dai ragazzi, ho saputo che c'è una festa! Non ti sono mai capitato, a Maurizio neanche lo chiedo, non so se hai notato come ho scavallato la domanda. Non ti è mai capitato di andare a una festa, ballare, poi alle 5, alle 6 del mattino andare a un'altra festa, ballare, poi alle 3 del pomeriggio a un'altra festa, ballare. no in realtà no anche perché se esco dalla prima festa e vedi la luce no io vado in paranoia sento gli uccellini quelli del mattino devo correre è una delle cose belle del far tardi che adesso non mi capita più ovviamente quando tornavi a casa questi ricordi meravigliosi a vent'anni guarda Maurizio Fratesto no che torni a casa io me lo ricordo proprio perfettamente che parcheggiavo la macchina di mia sorella sotto casa e c'erano gli uccellini come fastidio no ma come fastidio bellissimo no la sensazione è devo essere a letto io devo essere a letto in questo momento non la devo vivere questa cosa con questi ruttini alcolici di tanto che tutto così io mi ricordo parcheggiavo la macchina così che magari si andava a fare cappuccio prima di andare a dormire mai fatto neanche questo no l'ho fatto ma con grande disagio poi tu sei no e vedi quel signore l'anziano col cane fuori che c'è tutto un po' così lo spazzino ma così io andavo su bevevo il caffè con mia mamma mio papà poi io andavo a dormire ah bravi era domenica così loro si svegliavano comunque presto andavo a bere il caffè poi chiacchierata con i miei genitori com'è andata a bere bene hai ciulato no? non è vero spero che io ho sempre avuto un rapporto molto bello si vabbè non esageriamo la domanda era più imbarazzante era come? e vai a dormire con quel saporino di caffè latte così e ti addormenti alcol e caffè latte non lo so perché siamo andati lì però erano dei bei momenti andiamo alla festa andiamo alla festa va bene facciamo sigla perché veramente oggi se no non ci stiamo con tutte le cose Facciamo propaganda.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Festa e ballare",
+    "tema": [
+      "festa",
+      "ballare"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -169,9 +174,12 @@
     "end": 499.09,
     "speaker_raw": "SPEAKER_11",
     "testo": "Comunque anch'io stamattina ho iniziato così, con una spallata a una finestra e poi mi sono data un'unghiata sulla faccia.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Spallata e unghiata",
+    "tema": [
+      "umorismo",
+      "giornata"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -412,9 +420,12 @@
     "end": 1033.53,
     "speaker_raw": "SPEAKER_14",
     "testo": "No, posso dirti che è una bella risposta. È vero? che io se fossi uno dell'Apple ti avrei preso e ti farei fare dei fiori meccanici USB in un angolo del capannone allora in fondo ci va Maurizio che fiorisce e sfiorisce no perché sai che hanno fatto delle specie sono tre foglie è una foglia sola diciamo come forma però che poi si apre a ventaglio diventano tre e sono per ricaricare la batteria i pannelli solari",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Fiori meccanici USB",
+    "tema": [
+      "invenzione",
+      "tecnologia"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -473,9 +484,12 @@
     "end": 1162.96,
     "speaker_raw": "SPEAKER_13",
     "testo": "Ma cos'è la bacheca di spade? allora è un frantoio nella lucchesia un frantoio molto bello, molto antico un ex frantoio molto bello il livello di questo programma è la nobiltà toscana lui è la vera nobiltà toscana Lippi da Viareggio rappresenta la nobiltà toscana anche l'altro Lippi no va bene scusami comunque puoi ritirare quella roba lì della lucchesia un ex frantone lucchesia adibito adibito a villa villa moderna e sulla parete c'era una specie di bacheca piena di spade ma che spade?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Bacheca di spade",
+    "tema": [
+      "arte",
+      "storia"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -581,9 +595,12 @@
     "end": 1577.33,
     "speaker_raw": "SPEAKER_10",
     "testo": "non sei un ingegnere non sei un progettista non sai neanche piantare un chiodo il circuito stampato è mio l'interfaccia grafica è stata rubata Come mai allora, dieci volte al giorno, leggo che Steve Jobs è un genio? Che cosa fai tu? I musicisti suonano uno strumento. Io ho tutta l'orchestra.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Steve Jobs e la genialità",
+    "tema": [
+      "genialità",
+      "invenzione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -1086,9 +1103,12 @@
     "end": 2635.24,
     "speaker_raw": "SCONOSCIUTO",
     "testo": "they sat together in the park as the evening sky grew dark she looked at him and he felt a spark",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Twist of Fate",
+    "tema": [
+      "musica",
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -1097,9 +1117,12 @@
     "end": 2815.12,
     "speaker_raw": "SPEAKER_03",
     "testo": "grazie a tutti grazie a tutti a saxophone someplace far off play as she was walking on by the arcade as the light burst through a beat up shade where he was waking up she dropped her coin into the cup above a blind man at the gates and forgot about a simple twist of fate he woke up the room was bare he didn't see her anywhere he told himself he didn't care pushed the window open wide felt that emptiness inside to which he just could not relate brought on by a simple twist of fate People tell me grazie a tutti",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "A Simple Twist of Fate",
+    "tema": [
+      "musica",
+      "canzone"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -1119,9 +1142,12 @@
     "end": 3030.54,
     "speaker_raw": "SPEAKER_11",
     "testo": "In realtà sì, è una conversazione con Andrea Tornielli della stampa. Benigni presenta il libro... Esatto, niente po' di meno che perché il Papa ha citato Benigni. Benigni, in un angelo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Benigni presenta il libro del Papa",
+    "tema": [
+      "religione",
+      "politica"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -1130,9 +1156,12 @@
     "end": 3058.29,
     "speaker_raw": "SPEAKER_14",
     "testo": "Comunque, Benigni presenta il libro del Papa. E ieri, cioè a me per esempio non è che vengono a casa a portarmi il libro. Ma no? tanto meno Marina Berlusconi vado io là lei intanto la vedo quando vado là però insomma non è che non te lo porta a casa non me lo porta a casa giustamente però abbiamo il momento sul corriere sulla stampa così c'è la foto di quando Marina Berlusconi consegna la prima copia al Papa e il Papa le dice io sono tuo padre a domani ciao",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Libro del Papa",
+    "tema": [
+      "libro",
+      "politica"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   }
 ]

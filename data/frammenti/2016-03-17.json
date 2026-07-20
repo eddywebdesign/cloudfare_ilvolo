@@ -27,9 +27,12 @@
     "end": 225.88,
     "speaker_raw": "SPEAKER_03",
     "testo": "devo dire che le canzoni quelle che hanno il tararattattallallalla cioè che non hanno la parola alleggeriscono molto, non sei d'accordo Ivo? Sì, specialmente al mattino Sì, quando nelle canzoni c'è il nanananananatattarattattata no? Cioè, non lo so Ricorda Mozart? ti alleggerisce molto la canzone magari un bel testo e poi alla fine come nei film le scene mute probabilmente è quello devo dire anche non lo so anche le canzoni che hanno un testo in realtà se tutte le cantichi con c'è solo la melodia alleggeriscono del peso della parola buongiorno Igor Sibanti Sai che abbiamo spezzato il cuore agli ascoltatori giovedì scorso che stavo a Roma e ci siamo potuti vedere. Che hai fatto giovedì mattina della settimana scorsa? Che hai fatto?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "canzoni alleggerenti",
+    "tema": [
+      "musica",
+      "allegria"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -104,9 +107,12 @@
     "end": 289.84,
     "speaker_raw": "SPEAKER_01",
     "testo": "ah si sui programmi aperti come costruire i programmi aperti per la mente ah ok ok senti perché qui arrivano ovviamente mi diceva anche la strina interessante la cosa dei programmi aperti sono i tipi occhi e i tipi unghia nel mondo aspetta aspetta aspettate ragazzi fermi tutti 9.08 programmi aperti per la mente programmi aperti cioè dunque esiste il tipo umano che si chiama unghia unghia l'unghia non sa fare niente sa solo crescere in avanti ok lei cresce in avanti non gliene frega niente di niente cresce e sa fare solamente quello ok è talmente specializzata nel fare quello che certe volte il proprietario normalmente muore ok e le unghie continuano a crescere per un po' finché l'avvertono e dice guarda guarda che qui è finito tutto no no no",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "programmi aperti per la mente",
+    "tema": [
+      "mente",
+      "apertura"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -126,9 +132,12 @@
     "end": 333.63,
     "speaker_raw": "SPEAKER_01",
     "testo": "ma che non sanno fare niente no, fanno solo una cosa sono dei soldati i kamikaze servono ammazza se serve certo che fare un viaggio in treno con un unghia è terribile perché non sai parlare di niente poi ci sono gli esseri umani gli occhi i tipi occhi i tipi occhi sono imprevedibili si guardano dappertutto intorno hanno sempre la mente aperta e per passare da un programma all'altro perché tutti hanno la fase unghia nella vita ok ci sono queste tecniche interessantissime ah di annientamento tu dicevi ovviamente come tutti gli ascoltatori chi sono io tu lo chiedi subito chi sono io sono tipo un sacco di tempo",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "tipi occhi e unghia",
+    "tema": [
+      "mente",
+      "apertura"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -137,9 +146,12 @@
     "end": 341.19,
     "speaker_raw": "SPEAKER_03",
     "testo": "Io mi sono visto per esempio un occhio che invece delle ciglia c'ha le unghie, perché rischia di essere un occhio di mezzo e chiudo gli occhi e clic, clic, clic.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "occhio con unghie",
+    "tema": [
+      "mente",
+      "apertura"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -148,9 +160,12 @@
     "end": 345.19,
     "speaker_raw": "SPEAKER_01",
     "testo": "Ma tutti hanno fatto l'unghia, io per esempio quando facevo lo slavista.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "slavista",
+    "tema": [
+      "lavoro",
+      "storia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -236,9 +251,12 @@
     "end": 571.73,
     "speaker_raw": "SPEAKER_01",
     "testo": "Ma è bellissima come storia perché vuol dire che si amano davvero che non possono stare separati l'uno dall'altro.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Amore e separazione",
+    "tema": [
+      "amore",
+      "separazione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -258,9 +276,12 @@
     "end": 613.62,
     "speaker_raw": "SPEAKER_01",
     "testo": "Questi ruoli chiusi io non sono per niente d'accordo. Ci sono tantissimi tipi di matrimonio, tantissimi tipi. C'è anche questo tipo qua.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Matrimoni diversi",
+    "tema": [
+      "matrimonio",
+      "relazioni"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -269,9 +290,12 @@
     "end": 619.4,
     "speaker_raw": "SPEAKER_03",
     "testo": "Come i tavolini, ce ne sono alcuni che stanno su con una gamba sola centrale, altri che hanno bisogno di tre gambe.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Tavolini con gambe",
+    "tema": [
+      "matrimonio",
+      "relazioni"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -280,9 +304,12 @@
     "end": 634.6,
     "speaker_raw": "SPEAKER_01",
     "testo": "Il fatto di separarsi, se due persone non si sopportano l'una con l'altra, se ne accorgono subito e non c'è niente da fare. Cioè proprio gli dà fastidio sentire che in un'altra stanza qualcuno sta camminando. Sì, questo sono d'accordo. Quello che mi stupisce è la terapeuta che dice lei faccia questo, questo è terribile.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Separazione naturale",
+    "tema": [
+      "separazione",
+      "relazioni"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -291,9 +318,12 @@
     "end": 650.18,
     "speaker_raw": "SPEAKER_03",
     "testo": "a meno che non sia una sua terapia d'urto però quindi lei ha affittato questo ragazzo ha affittato un orecchio ma ha affittato anche una bocca perché quello gli dice cosa fare gli ha scattato la bocca all'orecchio gli ha scattato la bocca all'orecchio come l'unghia con l'occhio però eccolo non si può intervenire subito",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Terapia d'urto",
+    "tema": [
+      "terapia",
+      "relazioni"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -302,9 +332,12 @@
     "end": 675.4,
     "speaker_raw": "SPEAKER_01",
     "testo": "nel senso però lui sostiene che loro stanno insieme per motivi di lavoro e anche perché hanno un bambino il fatto stesso che scriva una lettera così vuol dire che Enzio tu vuole farlo sapere poi ci tiene mette dappertutto i puntini sospensione praticamente vuol dire guarda scrive sospeso e poi puntini sospeso vuol dire aggiungete voi sono delle cose che voglio dire ma non le voglio dire",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Lettera sospesa",
+    "tema": [
+      "lettera",
+      "relazioni"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -313,9 +346,12 @@
     "end": 730.34,
     "speaker_raw": "SPEAKER_03",
     "testo": "ok pieno di puntini di sospensione anche io c'ho sta fobia sta mania prima di sospeso poi puntini di sospensione lei esce con un altro ma comunque mi cerca e si appoggia a me secondo me mi cerca anche un po' sessualmente la posso dire perché in italiano si dice lei mi cerca chi ti cerca poi si appoggia è un verbo forte si appoggia questi qua tra un anno staranno insieme saranno felicissimi senza questo terzo uomo magari viene a trovare ogni tanto senti stamattina quando sono arrivato il nostro portinare Nicola mi ha detto allora questa mattina viene il professore che sa tutto ma come fa a sapere tutto adesso noi mettiamo un disco poi abbiamo tante altre domande di ascoltatori per esempio qui un ascoltatore dice per i desideri non materiali la famosa lista di desideri per esempio voglio diventare questo tipo di persona come si fa poi a verificare se si realizzano veramente dice Giulia di",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Appoggio emotivo",
+    "tema": [
+      "appoggio",
+      "relazioni"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -324,9 +360,13 @@
     "end": 744.65,
     "speaker_raw": "SPEAKER_01",
     "testo": "A Prato sono stranissimi. Questa tecnica che va dai desideri non è che sia tanto importante la realizzazione che quella avviene di per sé. È importante lo sforzo mentale di chiarire quello che uno vuol fare.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Lo sforzo mentale è importante",
+    "tema": [
+      "amore",
+      "desiderio",
+      "realizzazione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -335,9 +375,13 @@
     "end": 749.65,
     "speaker_raw": "SPEAKER_03",
     "testo": "Perché dai potenza a quel desiderio nel senso che lo togli da ogni cosa che lo tiene legato.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Togliere legami al desiderio",
+    "tema": [
+      "amore",
+      "desiderio",
+      "libertà"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -346,9 +390,13 @@
     "end": 782.95,
     "speaker_raw": "SPEAKER_01",
     "testo": "Perché più pensi, più anticipi il futuro, più pensi a quello che vuoi davvero, più ti conosci, più aumentano. e più scopri tutta una serie di problemi che pensavi di non avere e che ti facevano rassegnare la vita e tutto un tanto te ne liberi proprio precisando se non se la cava dicendo voglio essere più simpatico, voglio essere più ricco e non precisa niente fate voi il fate voi da evitare io voglio essere più simpatico cioè è stata di immaginare esattamente una scena in cui qualcuno gli dice ah porca come sei simpatico sai che sei simpatico, paga te la cena no, una roba così",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Conoscenza di sé e problemi",
+    "tema": [
+      "amore",
+      "conoscenza",
+      "problemi"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -412,9 +460,13 @@
     "end": 1150.39,
     "speaker_raw": "SPEAKER_03",
     "testo": "mi stampo la membra ma scusa Nicola non è in linea chiamiamo un secondo Nicola questo è Proust è Proust che non riesce a staccarsi dalla ragazza Radio DJ sono Fabio Volo Fabio Volo ciao abbassa un secondo la radio Nicola ho spento senti allora qui c'è il professore che sa tutto mi hai detto stamattina come fa a sapere tutto Nicola?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Proust e la ragazza",
+    "tema": [
+      "letteratura",
+      "amore",
+      "Proust"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -610,9 +662,12 @@
     "end": 1987.47,
     "speaker_raw": "SPEAKER_01",
     "testo": "Ma certo che è una bella storia. A parte che è il primo terzo del romanzo Naccarenina, che è esattamente quello. Sì, no, ma difatti. Lei sta con Vronsky, però lei sta col marito.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Naccarenina",
+    "tema": [
+      "amore",
+      "relazioni"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -621,9 +676,12 @@
     "end": 2028.08,
     "speaker_raw": "SPEAKER_03",
     "testo": "Eh, certo, certo. Adesso. Però è una storia abbastanza, ha ragione Viola, è abbastanza diffusa. Io credo che ci si innamori anche della donna, del proprio amico, dell'uomo del proprio amico, per due motivi. Uno perché ci si frequenta magari. Un po' anche perché se si è amico di una persona e si è innamorato di una persona vuol dire che ci sono delle cose in comune, no? Cioè è più facile. Io non mi innamorerai mai, non so, per dire, dalla moglie di, non so, Gasparri. Perché è chiaro che... Lo sapevo. Di Gasparri. Sì, faccio un esempio. Zitti, zitti, ragazzi. Perché Gasparri non può essere il mio miglior amico e soprattutto a una donna che gli piace Gasparri non si può innamorare di me. Faccio un esempio pratico. Chi? Lei. Ragazzi, usciamo, per favore. Ho fatto un esempio adesso.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Innamorarsi del proprio amico",
+    "tema": [
+      "amore",
+      "amicizia"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -632,9 +690,12 @@
     "end": 2095.84,
     "speaker_raw": "SPEAKER_01",
     "testo": "andiamo avanti posso dire allora però è una bella storia tu dici a me piace perché ogni storia tu dici ah è bella no no questa è tragedia lasciamo parlare la storia bruttina è quello che sta lì fermo e dice io sono il marito lei è la moglie andiamo avanti così per altri 60 anni non cambierà mai niente anche se non siamo felici non provo più niente per lei però io sono questa questa è la più brutta del mondo ok però sono normale perché ho spento il cuore quando ci sono storie così incasinate non è un consiglio, è una mia opinione bisogna immaginarle secondo me, di vederle come le vedrebbe un delfino o come le vedrebbe un gatto senti l'affanculo in macchina degli ascoltatori le ho sentite? siamo delfini Cosa vede un delfino? Un delfino vede un essere umano intenerito, con il cuore che batte forte, con la vita che ha un progetto da realizzare e dice come è contento questa persona, che meraviglia. Per esempio, io ho tre gatti a casa e quando litigavo con mia moglie, i tre gatti si mettevano lì a sentire e dicevano guarda come sono belli quando litigano.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Storia di un matrimonio infelice",
+    "tema": [
+      "amore",
+      "matrimonio"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -643,9 +704,12 @@
     "end": 2098.16,
     "speaker_raw": "SPEAKER_03",
     "testo": "Dal loro punto di vista è uno spettacolo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Spettacolo di un matrimonio",
+    "tema": [
+      "amore",
+      "matrimonio"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -654,9 +718,12 @@
     "end": 2126.64,
     "speaker_raw": "SPEAKER_01",
     "testo": "guarda come sono finalmente spontanei, sinceri non se la raccontano, non si addormentano altrimenti l'uomo è così noioso ma così noioso quando è normale che non è sopportabile io non sono un delfino non è detto non lo so, te lo garantisco aspetta un secondo cerchiamo sempre di capire il noccio della questione il noccio della questione è che spesso in una litigata, in una usì",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Capire il noccio della questione",
+    "tema": [
+      "comunicazione",
+      "relazioni"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -665,9 +732,12 @@
     "end": 2188.18,
     "speaker_raw": "SPEAKER_03",
     "testo": "vanno giù le macce esce quella cosa lì tant'è che quando uno dice scusami ti ho detto quella cosa perché eravamo arrabbiati però quella è quella che veramente pensa è quello che non ti dice quando non è arrabbiato che è tutto un po' più finto infatti per cui vedere queste storie qui quello che ho detto fino adesso è bellissimo perché sono persone che sono sveglie mentre la maggior parte delle persone che io vedo che conosco per strada faccio una domanda che è un po' birichina no ti faccio una domanda A 101 avrebbero detto birichina, no? Birichina, anche a Radio Montecare un po' birichina. Ti faccio una domanda, anche a Radio Italia. Ti faccio una domanda un po' birichina, Igor. Quando tu sei lì e ti mezzo innamori dalla moglie del tuo miglior amico, non c'hai un pensiero che dice dentro di te il dolore che io posso creare al mio amico è superiore alla quantità d'amore che io posso ricevere e dare? Cioè nel senso che ti fai un riguardo, quello che mia nonna diceva è un riguardo. io rispondo ma poi qualcuno si arrabbia di sicuro io sono già pronta come dice Roberto Facchinetti il cantante, il leader dei Pooh",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Storie di persone sveglie",
+    "tema": [
+      "comunicazione",
+      "relazioni"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -676,9 +746,12 @@
     "end": 2203.15,
     "speaker_raw": "SPEAKER_09",
     "testo": "e a qualunque costo non possiamo fargli questo non sarà più giusto",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Non essere più giusto",
+    "tema": [
+      "giustizia",
+      "etica"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -687,9 +760,12 @@
     "end": 2220.33,
     "speaker_raw": "SPEAKER_01",
     "testo": "Allora, posso dire quello che penso? Nessuno sarà bel 65.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Non essere bello a 65",
+    "tema": [
+      "invecchiamento",
+      "bellezza"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -742,9 +818,12 @@
     "end": 2294.71,
     "speaker_raw": "SPEAKER_03",
     "testo": "Si sente vivo nel dolore, quello sì, siamo d'accordo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Dolore e passione",
+    "tema": [
+      "amore",
+      "passione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -753,9 +832,12 @@
     "end": 2321.9,
     "speaker_raw": "SPEAKER_01",
     "testo": "perché altrimenti magari nella sua vita non niente ha senso è tutto quanto ovvio tutto quanto ripetitivo tutto un tratto comincia questa passione dolorosa si risveglia si rimette in moto e poi le cose magari quello è un passaggio necessario per poi rigenerare una nuova persona il famoso dolore naturalmente se i tradimenti rinvigoriscono possono rinvigorire una coppia quando una persona si accorge che le cose non vanno c'è il tradimento la amo lo stesso o lo amo lo stesso",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Dolore e rigenerazione",
+    "tema": [
+      "amore",
+      "rigenerazione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -775,9 +857,13 @@
     "end": 2384.01,
     "speaker_raw": "SPEAKER_01",
     "testo": "pensa a una persona che si fa il traffico alla mattina il traffico la sera che torna in ufficio è tutto uguale di notte si addormenta subito perché è stanco e tutto un tratto gli arriva a casa una storia di autentica passione e dolore in cui si accorge di essere vivo e di aver sempre amato la sua compagna straordinariamente praticamente tu fai il traffico andare il traffico a tornare è brutto al lavoro tu di casa sei stanco il tuo amore ti mette pure le corna e quella lì dici oh finalmente qualcosa di bello mi sento vivo",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Storia di passione e dolore",
+    "tema": [
+      "amore",
+      "passione",
+      "dolore"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -797,9 +883,11 @@
     "end": 2488.16,
     "speaker_raw": "SPEAKER_11",
     "testo": "Oh cause you got inside my head",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Canzone di Fabio",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -843,9 +931,11 @@
     "end": 2716.25,
     "speaker_raw": "SPEAKER_04",
     "testo": "Ale questa sera 10 e 10 e 10 sto postando la canzone scritta da Fabio e musicata dagli street clerks la sto postando sul nostro facebook va bene dove vai adesso Igor?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Canzone di Fabio e gli Street Clerks",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {

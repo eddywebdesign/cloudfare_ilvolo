@@ -80,9 +80,12 @@
     "end": 295.94,
     "speaker_raw": "SPEAKER_01",
     "testo": "Quelli lì che si vedono ogni tanto nei programmi televisivi con la telecamerina dal lago che fanno, vanno in mutande, timbrano e poi tornano a casa, quelli lì in 48 ore possono essere licenziati. Ci piace questa legge o non ci piace?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Licenziati in 48 ore",
+    "tema": [
+      "lavoro",
+      "licenziamento"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -275,9 +278,12 @@
     "end": 884.02,
     "speaker_raw": "SPEAKER_05",
     "testo": "I bambetti che conoscevi una ragazza e tornavi a casa.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ricordi d'infanzia",
+    "tema": [
+      "infanzia",
+      "ricordi"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -325,9 +331,12 @@
     "end": 1218.07,
     "speaker_raw": "SPEAKER_11",
     "testo": "Se non fai l'amore subito non sei davvero sicuro di te E c'è una favola per cui chi mangia una mela fa il peccato più grande e più brutto che c'è quando guardo le stelle è così normale pensare che questa vita è bellissima anche se a volte ci tira giù qualcosa ci tira giù Non ho capito come si fa, come si fa Non ho capito come si fa, come si fa C'è una regola per cui serve andare a Berlino Per sentirsi un po' meno normali E c'è una favola per cui solo i soldi davvero ti fanno stare bene quando sto per gridare mi fermo a pensare che questa vita è bellissima anche se a volte ci tira giù ci tira su come si fa sì questa vita è bellissima anche se a volte mi tira giù qualcosa mi tira giù forse Bologna è una regola che sapevi soltanto vuoto non ti dimentico più io non sono partito e non ti ho mai detto se mi hai sbagliato Come si fa? Come si fa? Come si fa? Come si fa? Non ho capito. Come si fa? Come si fa? Come si fa? Come si fa? Non ho capito.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La vita è bella",
+    "tema": [
+      "vita",
+      "bellezza"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -590,9 +599,12 @@
     "end": 1966.24,
     "speaker_raw": "SPEAKER_01",
     "testo": "Ah, ok. E c'è Via Vai? cos'è che va la domenica la cioccolata calda d'inverno perché quando si era bambini io mi ricordo che la domenica si prendeva l'autobus il 3 quando eravamo più piccoli andavamo in città il sabato e per convincerci probabilmente io e mia sorella ci rompiamo anche i marroni la cioccolata calda che ovviamente noi prima di mangiare erano due bustine di zucchero sopra che non sprofondavano neanche beh insomma ecco il risultato sono io Francesco buon riposo sei a casa da solo? no con la ragazza allora per quello che hai detto che niente con viola cioè non puoi dirlo ma che scena vabbè ciao Francesco grazie ciao a tutti ciao ciao ciao ciao ciao abbiamo una risposta dalla madre bipolare eletta a capogruppo diciamo non veniva eletta era l'unica che non lavorava per questo faceva lei la rappresentante ottimo ok",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "cioccolata calda d'inverno",
+    "tema": [
+      "infanzia",
+      "tradizione"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -676,9 +688,12 @@
     "end": 2396.57,
     "speaker_raw": "SPEAKER_12",
     "testo": "All you got, give to me",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "All you got, give to me",
+    "tema": [
+      "musica",
+      "canzoni"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -753,9 +768,12 @@
     "end": 2643.05,
     "speaker_raw": "SPEAKER_01",
     "testo": "allora non sono stato l'unico insieme a questa ascoltatrice a portare i sandaletti blu con gli occhietti era proprio ma non solo un ascoltatore dice io vendo scarpe e vi dico che questi sandaletti blu con i buchi io mi ricordo prima c'erano anche bianchi però a casa noi bianchi le calze avevamo un ascoltatore dice che è una combo dice maledetta nel senso che erano anche dure le calze erano delle calze di pizzo in ferro battuto praticamente comunque io vendo scarpe e vi dico che soprattutto in maggio giugno quando ancora non fa troppo caldo vanno tantissimo naturalmente si portano quei calzini guarda che sono belle sono imbarazzanti per i bambini secondo me non lo so parliamo di una vergogna una vergogna bella perché Vanessa 30 anni di Lucca si vergognava ma in senso quasi buono perché aveva la mamma buona",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "sandaletti blu con occhietti",
+    "tema": [
+      "infanzia",
+      "moda"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

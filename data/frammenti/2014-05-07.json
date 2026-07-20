@@ -462,9 +462,12 @@
     "end": 1302.05,
     "speaker_raw": "SPEAKER_11",
     "testo": "si dai sei carina qualcuno dice mi sono già innamorato della risata di Chiara posso parlarle? 327444 ti interessano dei numeri? oddio no va bene qua arrivano molte domande comunque la vostra telefonata di quanti minuti Maurizio? è stata una conversazione interessante grazie che hai chiamato Chiara io mi sono divertito molto facciamo così ti richiamiamo domani mattina oggi pensiamo a un argomento va bene domani sei preparata domani sei all'aeroporto a che ora? alle 10 perfetto alle 9 ti chiamiamo sarai sulla metropolitana vai a Heathrow pochi soldi periodaccio poi dopo a te ritra Bergamo e Milano in un paesino lì e poi c'è un cavallo che ti porta alla stazione ti chiamiamo domani ciao ciao Si vede che sto sudando, Maurizio? Sono bagnato. Sì, si vede. Odia la Laura.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Conversazione con Chiara",
+    "tema": [
+      "telefono",
+      "conversazione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -861,9 +864,12 @@
     "end": 2496.07,
     "speaker_raw": "SPEAKER_11",
     "testo": "Ah, ma tu, scusami, lo capisci quando parla? Gli australiani non si capisce un cazzo quando parlano.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Difficoltà di comunicazione",
+    "tema": [
+      "comunicazione",
+      "difficoltà"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

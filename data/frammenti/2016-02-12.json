@@ -460,9 +460,12 @@
     "end": 1667.04,
     "speaker_raw": "SPEAKER_07",
     "testo": "La devo togliere? Eh sì, era per far gasare un po' i ragazzi, soprattutto quelli sui furgoncini. I padroncini, i corrieri, quelli che sono lì da solo e che sul cruscotto ci sono mille fogli, fatture, bolle, sigarette. Tutti i pupazzetti delle selungali. Tararatarà. Ha scritto anche un ragazzo che era veramente sul furgone a pari. Anche su Twitter. Li visualizzo, li visualizzo, li visualizzo. Qualcuno adesso ha le dita nel naso. T'ho beccato. Io. Dove la metti adesso? Ragazzo in macchina con le dita nel naso. Eh? Lascia stare i sedili.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il furgone dei corrieri",
+    "tema": [
+      "lavoro",
+      "stress"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -551,9 +554,11 @@
     "end": 2102.62,
     "speaker_raw": "SPEAKER_06",
     "testo": "Allora scusami, io ho messo questa fase. Devi adeguarti al tono. L'amore.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'amore",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -603,9 +608,12 @@
     "end": 2209.86,
     "speaker_raw": "SPEAKER_00",
     "testo": "Poi veniamo in casa, facciamo la doccia assieme, ci laviamo assieme. Cioè, lei mi lava a me, io la lavo a lei, dopo mangiamo, guardiamo la tele e andiamo a letto. E a letto facciamo l'amore.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'amore è una routine",
+    "tema": [
+      "amore",
+      "relazione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -614,9 +622,12 @@
     "end": 2216.39,
     "speaker_raw": "SPEAKER_07",
     "testo": "Gli ho portato anche questa canzone che era un po' che non la si metteva. È amazing.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Canzone The Amazing",
+    "tema": [
+      "musica",
+      "canzoni"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -639,9 +650,12 @@
     "end": 2407.04,
     "speaker_raw": "SPEAKER_07",
     "testo": "Cioè abbiamo il nostro cantante italiano che si chiama Icani e invece questo ragazzo americano si è chiamato The Amazing, cioè il super figo galattico. Vedi l'approccio è diverso, è il contrario di Icani e The Amazing. Allora, bla bla bla, non perdiamo tempo, andiamo da Manlio, si chiama? Manlio, con la L dopo la N, Manlio?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Icani e The Amazing",
+    "tema": [
+      "libri",
+      "personaggi"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -825,9 +839,12 @@
     "end": 2571.48,
     "speaker_raw": "SPEAKER_01",
     "testo": "Sì, sì, sì, assolutamente. Anzi, ne approfitto per salutarle, sono Miri e Lenuria, che sono due ragazze fantastiche.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Saluti a Miri e Lenuria",
+    "tema": [
+      "saluti",
+      "amici"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -836,9 +853,12 @@
     "end": 2588.75,
     "speaker_raw": "SPEAKER_07",
     "testo": "Sentite, vi siete conosciuti a Gardaland voi, Miriam, Lenuria e cosa? Padri giapponesi, hai capito. Senti, beh, siete rimasti amici, perfetto. Ok, conosci altre macchine oggi che partono da Milano e vanno, lo so, a Roma, Firenze, Bologna?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Gardaland e amici",
+    "tema": [
+      "amici",
+      "viaggi"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

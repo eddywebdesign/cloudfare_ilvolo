@@ -692,9 +692,12 @@
     "end": 1797.31,
     "speaker_raw": "SPEAKER_12",
     "testo": "No, personalmente no, non l'ho mai incontrato, non l'ho mai avuto di modo. Ci siamo sentiti molti anni fa al telefono, però poi non c'è mai stato un incontro.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Max",
+    "tema": [
+      "famoso",
+      "personaggio"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -1156,9 +1159,12 @@
     "end": 2380.87,
     "speaker_raw": "SPEAKER_13",
     "testo": "le passo, per esempio Maurizio è uno di famiglia per cui ci avrà messo sicuramente il nome di uno della sua famiglia ah su Twitter è così, è vero sì sono quelle robe lì ecco grazie o il nome di tua mamma per dire magari con un numero oppure una frase tu sei una che potrebbe mettere anche una frase per esempio ho sbagliato no è un gioco psicologico che io faccio",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "gioco psicologico",
+    "tema": [
+      "gioco",
+      "psicologia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1167,9 +1173,12 @@
     "end": 2395.53,
     "speaker_raw": "SPEAKER_14",
     "testo": "è un gioco psicologico trova la password di Viola potrebbe essere l'obiettivo mio del 2016 esatto quante lettere sono? di solo quante lettere? ma della mail del volo del mattino o della mia?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "trova password",
+    "tema": [
+      "password",
+      "gioco"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1178,9 +1187,12 @@
     "end": 2403.53,
     "speaker_raw": "SPEAKER_13",
     "testo": "no la password del volo del mattino quante lettere sono? no via ok dalla tua privata quante lettere sono?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "quante lettere",
+    "tema": [
+      "password",
+      "lettere"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1215,9 +1227,12 @@
     "end": 2422.59,
     "speaker_raw": "SPEAKER_13",
     "testo": "Mi piace. 1, 2, 3, 4, 5, 6, 7... Ah no, mi piace, non ci sta perché è già finito 8.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "gioco password",
+    "tema": [
+      "password",
+      "gioco"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1285,9 +1300,12 @@
     "end": 2471.2,
     "speaker_raw": "SPEAKER_13",
     "testo": "La villa dei Rolling Stones a Los Angeles non è tanto. Per dirti, a New York con 3 milioni e 8 ti prendi un bilocale. Davvero?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Rolling Stones",
+    "tema": [
+      "musica",
+      "celebrità"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -1357,9 +1375,12 @@
     "end": 2738.09,
     "speaker_raw": "SPEAKER_16",
     "testo": "Ma perché sei così fissato con i Rolling Stones? Ma perché dimmi che non ti è piaciuta questa canzone Ma sì, non l'ho sentita Non la stavi neanche ascoltando Ascoltavo altro Cosa stavi ascoltando? Così imparo ad accordare l'oculele.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "oculele",
+    "tema": [
+      "musica",
+      "strumenti"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {

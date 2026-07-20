@@ -16,9 +16,11 @@
     "end": 83.66,
     "speaker_raw": "SPEAKER_05",
     "testo": "One love. Saturday morning, jumped out of bed. Put on my best suit. Got in my car and raced like a jet. All the way to you. Knocked on your door with heart in my hand. To ask you a question. Ciao! say yes say yes",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "One love",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -27,9 +29,11 @@
     "end": 272.61,
     "speaker_raw": "SPEAKER_11",
     "testo": "Magic, magic, Ruth. Buongiorno a tutti ragazzi, benvenuti. Questo è il volo del mattino, sono le 9 e 7 minuti. Siete al posto giusto, al momento giusto. Dove siete? Lo sapete solo voi. Dove saranno... Saranno sempre lì. Sai che noi siamo anche, Maurizio, determiniamo anche il tempo. Quando inizia il volo del mattino sei a quel semaforo, sei in ritardo. Se invece sei all'altro, sei in anticipo. Noi segniamo anche il tempo. Buongiorno a tutti, benvenuti. Oggi grandissima puntata, siamo carichi come delle molle. Sono entrato stamattina in studio e Maurizio mi ha detto oggi sono proprio felice. Oggi sono contento. Laura come stai oggi? Bene, siamo tutti bene qua ragazzi, se siete un po' giovenite qua che vi diamo due o tre abbracci, vi passiamo una buona energia Ieri sera Maurizio sono stato lì sul computer a spippo, oggi è il compleanno di un po' di persone famose che hanno cambiato la nostra vita Oggi per esempio è il compleanno anche di Zoggenberg ho visto Shalpi io io compravo di Shalpi beh da ragazzino quella canzone la spaccava rock and roll per difenderti sono due quelle che ricordo di Shalpi questa e l'altra che faceva il duetto no? pregherei non è sua quella pregherei se mi sei questa è rock and roll o è pregherei? comunque oggi e cosa ride? dura otto minuti l'intro? ragazzi vedete me la comoda facciamo sentire otto minuti di shampi pregherei ma inizia? lui ci mette un po' a entrare sul palco come tutte le dive qui vince uno stadio no? e poi? e vabbè è arrivato il batterista",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Determiniamo il tempo",
+    "tema": [
+      "tempo"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -60,9 +64,11 @@
     "end": 354.67,
     "speaker_raw": "SPEAKER_03",
     "testo": "forse quella è quella giusta pregherei quella là era live a San Siro quando ha fatto San Siro pregherei pregherei se mi sentisse lui chiederei chiederei che ne sarà di noi gli direi gli direi del di ciò che vuoi dammi lei dammi lui",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Shigevara Shigevara",
+    "tema": [
+      "libri"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -71,9 +77,11 @@
     "end": 391.75,
     "speaker_raw": "SPEAKER_11",
     "testo": "ho la sua memoria comunque sembro quasi concita dell'Eurofestival ho tagliato la barba va bene comunque ieri spimpottavo sul computer una serie di cose per trovare dove ci sono degli studi belli radiofonici per poter fare la radio l'anno prossimo un po' in giro per il mondo perché finché si è giovani e si può bisogna fare esperienze quindi sei pronto? perché non vuoi venire con me? troppe cose da fare che mi legano ci sono gli ascoltatori che scrivono sempre vengo io gratis tu che hai la possibilità hai i denti e non hai il pane e il pane non hai i denti perché non vieni?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Cercare esperienze",
+    "tema": [
+      "esperienze"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -174,9 +182,11 @@
     "end": 468.89,
     "speaker_raw": "SPEAKER_11",
     "testo": "immaginati questi ragazzi che parlano di queste cose che poi sfonda la vita a tutto il mondo capito?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Vita e mondo",
+    "tema": [
+      "vita"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -719,9 +729,12 @@
     "end": 2222.14,
     "speaker_raw": "SPEAKER_12",
     "testo": "Sono stati quei capi un po' che vorresti aver sempre voluto dirgli l'ultima parola.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Capo strano",
+    "tema": [
+      "genitori",
+      "lavoro"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -730,9 +743,12 @@
     "end": 2246.12,
     "speaker_raw": "SPEAKER_11",
     "testo": "allora prima firmi e poi carichi la pistola Maurizio aspetta aspetta gli ascoltatori immaginatevi di dover andare dal capo e potervi quello che volete sentiamo cosa dicono gli ascoltatori Maurizio so già cosa metterai sei uno stronzo così grosso",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Parola finale al capo",
+    "tema": [
+      "lavoro",
+      "genitori"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -741,9 +757,12 @@
     "end": 2254.76,
     "speaker_raw": "SPEAKER_07",
     "testo": "Quando ti siedi sulla sabbia i gatti cercano di seppellirti. Sei veramente un tipo volgare. Signori, vorremmo cominciare.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Gatti sulla sabbia",
+    "tema": [
+      "animali",
+      "umorismo"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

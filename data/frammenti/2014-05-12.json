@@ -80,9 +80,12 @@
     "end": 332.04,
     "speaker_raw": "SPEAKER_07",
     "testo": "molto bene voglio sapere lì del salone del libro come è andata bene bene insomma Maurizio è entrato sul palco c'erano insomma mille qualche persone un po' più di un migliaio la fidanzata anche mentre lui diceva ciao ragazzi si è messa a piangere è vero",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Salone del libro",
+    "tema": [
+      "libri",
+      "eventi"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -269,9 +272,12 @@
     "end": 732.01,
     "speaker_raw": "SPEAKER_08",
     "testo": "così mi ha chiesto perché non hai spank?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Maurizio e Platinet",
+    "tema": [
+      "umorismo",
+      "relazioni"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -669,9 +675,12 @@
     "end": 2066.76,
     "speaker_raw": "SPEAKER_05",
     "testo": "Ho due bambine, una adesso ha quasi sei anni e l'altra ha quasi due.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La vita con i bambini",
+    "tema": [
+      "famiglia",
+      "genitori"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -680,9 +689,12 @@
     "end": 2142.93,
     "speaker_raw": "SPEAKER_07",
     "testo": "Scusami, tipo tuo marito fa un lavoro che deve... Esatto, io seguo mio marito. Che lavoro... una stalker io sono la stalker di mio marito dove va lui vado anch'io no e senza dire il nome le cose che tipo di lavoro fa per capire ci fa il capitano il pilota no è un ingegnere meccanico ingegnere meccanico ok perfetto senti noi abbiamo Stefano non so se hai sentito ovviamente la telefonata e ce l'abbiamo in ascolto Stefano ciao ciao allora ti volevo dire Stefano non c'è niente che io possa chiedere a Margherita che non sia che diciamo che sia originale come le tue di paure e di domande quindi io ti dico Maurizio abbiamo Margherita chiedi ha due figli va in giro segue il marito ecco Margherita una sola domanda prego quel giorno che quando tu sei lì a Abu Dhabi o a Kuala Lumpur non va una lampadina tu ti giri verso il tuo marito e dici è colpa tua io qua non ci volevo venire ma ero ti no No, provo a vedere se è fulminata. Di dove sei tu Margherita? Io sono di Frascati, sono nata a Frascati. Ah quindi stai proprio anche in zona. Assolutamente. Una Frascatara, Cassamortara e tutto questo mondo. Va bene, vi lascio un attimo. Stefano chiedi pure le tue paure.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La stalker di mio marito",
+    "tema": [
+      "famiglia",
+      "genitori"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

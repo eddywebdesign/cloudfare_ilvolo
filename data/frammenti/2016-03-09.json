@@ -27,9 +27,12 @@
     "end": 204.18,
     "speaker_raw": "SPEAKER_09",
     "testo": "Diciamo che sono molto migliorata in tante cose.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Migliorata in tante cose",
+    "tema": [
+      "autostima",
+      "sviluppo"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -196,9 +199,12 @@
     "end": 551.96,
     "speaker_raw": "SPEAKER_01",
     "testo": "Ah, ok. Beh, sono anche gentili. Poi dicono dei bresciardi, che gentilezza. Ciao Monica, sono sempre Fabio Volo, scusami se ti disturbo. Sì. Allora, intanto volevo dire, sono arrivati molti messaggi dicendo che sei molto bella. sei bionda? sei mora? sono mora ti volevo chiedere degli ascoltatori maschi che stanno andando al lavoro anche per la tua timidezza si sono come un po' innamorati volevano sapere se possiamo avere un cognome per trovarti su facebook mi puoi dire come ti chiami? di cognome?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Bresciardi gentili",
+    "tema": [
+      "gentilezza",
+      "bresciardi"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -218,9 +224,12 @@
     "end": 574.06,
     "speaker_raw": "SPEAKER_01",
     "testo": "plebani ma forse siamo anche mezzi parenti perché io ho dei parenti plebani davvero secondo me sì senti e poi è venuto il ragazzo quello dei fiori piccoli sì ma è arrivato prima che arrivassero ah esatto ma poi non è venuto a dire sono stato io sono stato io no no no ci vuoi uscire con sto ragazzo? no oh non ti trovo",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ragazzo dei fiori piccoli",
+    "tema": [
+      "amore",
+      "innamoramento"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -240,9 +249,12 @@
     "end": 590.7,
     "speaker_raw": "SPEAKER_01",
     "testo": "Cambiamo domanda. Va bene. Senti, allora ogni tanto la mattina ti chiamiamo per dirti che sei bella. Va bene. Monica. Foto della Plebani. Ah, ma sei carina, cavolo. Secondo me con questa faccia c'hai anche un bel culo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Foto della Plebani",
+    "tema": [
+      "fotografia",
+      "bellezza"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -273,9 +285,12 @@
     "end": 788.95,
     "speaker_raw": "SPEAKER_04",
     "testo": "Qualcuno vuol farsi vedere qualcuno si nasconde e la chiamano così capital ben vestita e la chiamano così capital ben vestita Qualcuno vuol farsi vedere qualcuno si nasconde in questa grande città che tutto il mondo conosce qualcuno cerca l'amore qualcuno si fa male in questa grande città in questa grande città si lavora di notte e ci si consola e la chiamano così capital ben vestida si la chiamano così capital ben vestida e la chiamano così capital ben vestida si la chiamano così capital ben vestida Su Corso Buenos Aires di una ragazza mi innamorai Aveva la pelle nera e gli occhi di una sfinge Su Corso Buenos Aires di una morena mi innamorai Capitata investita, se la chiamano così. Capitata investita, se la chiamano così. In questa grande città",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Capital",
+    "tema": [
+      "amore",
+      "città"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -308,9 +323,12 @@
     "end": 911.36,
     "speaker_raw": "SPEAKER_01",
     "testo": "Touring Club che è nel nostro immaginario da sempre, da quando siamo bambini, però magari non sappiamo esattamente... le iniziative che fanno però lo conosciamo tutti io sono entrato perché dovevo andare lì per lavoro a parte un palazzo bellissimo ma poi fanno un sacco di cose molto belle guardami là il numero che ti chiamo una mattina in radio ne parliamo magari degli ascoltatori che vogliono anche partecipare perché fanno anche cose molto belle con dei volontari e roba del genere quindi signore e signori non so che carica ricopri però so che ti chiami Erika",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Touring Club",
+    "tema": [
+      "viaggio",
+      "associazione"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -330,9 +348,12 @@
     "end": 949.42,
     "speaker_raw": "SPEAKER_01",
     "testo": "no purtroppo ancora no brava purtroppo ancora brava brava senti sei il vice capo? neanche neanche va bene insomma chiudila la portineria ho avuto una bella esperienza quando sono venuto lì perché fate un sacco di cose fighissime in realtà un po' il nostro DNA cose fighissime perché il touring club intanto è un club ovviamente privato è un'associazione che sta in piedi con gli abbonati",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "esperienza al Touring Club",
+    "tema": [
+      "viaggio",
+      "associazione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -449,9 +470,13 @@
     "end": 1684.29,
     "speaker_raw": "SPEAKER_01",
     "testo": "L'amore qui non passa mai, mai. nuovo nuovo nuovo è fresco è fresco è il nuovo single è fresco è fresco io sono felicissima di quello dei tre allegri che abbiamo messo prima è molto bello i tre allegri ragazzi morti in questa grande città bene bene bene allora abbiamo prima di andare avanti con il nostro programma perché abbiamo cose più importanti da fare che risolvere sempre gli enigmi gli enigmi gli enigmi gli enigmi Buongiorno Ferramenta, le chiedo scusa, lavoro per un programma radiofonico a Radio DJ e io mi chiamo Fabio Volo, non so se conosci Radio DJ, se ne hai mai sentito parlare.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "nuovo single dei tre allegri",
+    "tema": [
+      "musica",
+      "nuovo",
+      "band"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -515,9 +540,12 @@
     "end": 1788.25,
     "speaker_raw": "SPEAKER_01",
     "testo": "la ringrazio gentilissima signora grazie buongiorno buongiorno sei soddisfatto? non tanto non tanto perché sono delle cose perché poi sarebbe da fare una domanda più filosofica cioè uno è dottore è macellaio è meccanico o fa il medico capisci? questo a Sibaldi lo puoi chiedere secondo me cioè a Sibaldi vorrei chiedere è l'attore che genera l'azione o è l'azione che genera l'attore? questa è anche molto Gigi Marzullo mo sabato da fazio glielo chiedo esatto ce l'hai capita quella dell'attore? sì cioè dal momento in cui reciti diventi attore o essendo attore che generi l'azione? e la la la quanta bella la questa mattina è una noia mortale",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Attore o azione che genera?",
+    "tema": [
+      "identità",
+      "autenticità"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -643,9 +671,12 @@
     "end": 2143.61,
     "speaker_raw": "SPEAKER_01",
     "testo": "Nella vita. Ti posso chiedere, secondo te quel ragazzo che è partito un paio d'anni fa più o meno, che cos'ha di diverso da te?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ragazzo che ha lasciato tutto",
+    "tema": [
+      "viaggio",
+      "libertà"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -707,9 +738,12 @@
     "end": 2221.16,
     "speaker_raw": "SPEAKER_01",
     "testo": "Però sta viaggiando senza aerei da due anni. Io fossi qualcuno di voi in ascolto, settimana prossima partirei.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Viaggio senza aerei",
+    "tema": [
+      "viaggio",
+      "libertà"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -729,9 +763,12 @@
     "end": 2555.13,
     "speaker_raw": "SPEAKER_01",
     "testo": "Ciao Fabio, so che non leggerai mai questo messaggio, ma volevo dirti che questa mattina siete un po' noiosi. Noi siamo esseri umani, siamo qua tutte le mattine, tutte le mattine dobbiamo essere allegri. Tenete presente sempre una cosa che non ci stiamo lamentando assolutamente. ma noi abbiamo una vita più o meno come voi nel senso che anche noi abbiamo famiglia lavoro sogni rotture di palle cose che non vanno bene e quindi ci sono delle mattine dove uno è delle mattine però non veniamo mai depressi insomma veniamo sempre ad un livello questa mattina è uscita la puntata un po' noiosa? sì ma a parte te, scusami Maurizio sulla battuta della feramenta sono Tiziana Ferri hai riso solo tu sono come quelle di Rudy Zerbi era pancia all'aria bellissimo ma a parte quello sì questa mattina magari siamo un po' noiosi vabbè pace insomma vi chiediamo scusa però siamo esseri umani a me piace essere sono delle mattine che siamo irresistibili delle mattine un po' meno ieri eri sul di ieri cattivo cattivo no è una cosa che non si può più dire niente tenete presente che io dico un terzo delle cose che vorrei veramente dire facciamo una cantatina stai presto facciamo una cantatina abbiamo detto del karaoke così adesso con una cantatina tiriamo su un po' l'umore poi ve ne andate a fare e poi dopo questa è bella quando dice non sarà giù i finestrini ragazzi e dalle macchine fatevi sentire ma fa freddo ma fa niente non sarà questa è leggera un'avventura è dopo che attacca non può essere soltanto una primavera rispetto al messaggio ma sono canzoni per vecchi sono senza tempo se lo dico io non sarà un'avventura",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La positività è fondamentale",
+    "tema": [
+      "positività",
+      "allegria"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -740,9 +777,12 @@
     "end": 2600.14,
     "speaker_raw": "SPEAKER_06",
     "testo": "questo amore fatto solo di poesia tu sei mia tu sei mia fino a quando gli occhi miei avranno luce per guardare gli occhi tuoi momento karaoke 3, 2, 1 innamorato sempre di più",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Amore fatto di poesia",
+    "tema": [
+      "amore",
+      "poesia"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -751,9 +791,12 @@
     "end": 2659.99,
     "speaker_raw": "SPEAKER_01",
     "testo": "va bene prometto che domani vediamo belli carichi ora domani per tutti i fan di Igor Sibaldi non c'è con questo preambolo perché sono a Roma io sono a Roma domani no uffa dobbiamo fare la diretta ma vai via così ma perché per Sibaldi allora l'idea era di farlo tornare il venerdì poi il venerdì gli ascoltatori vogliono invece merenda torna la settimana prossima era dispiaciuto ma in questo studio nuovo non ti vediamo ciao ragazzi a domani",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Igor Sibaldi",
+    "tema": [
+      "libro",
+      "autore"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   }
 ]

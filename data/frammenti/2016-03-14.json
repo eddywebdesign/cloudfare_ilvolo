@@ -27,9 +27,12 @@
     "end": 191.94,
     "speaker_raw": "SPEAKER_06",
     "testo": "Musica Musica Musica Ciao Ciao Ciao Ciao Ciao soon we'll be 30 years old our songs have been sold we've traveled around the world and we're still roaming soon we'll be 30 years old I'm Still Learning About Life Anche se nel testo non si sa bene però nel senso che però quando fa ti vieni a farla in macchina no?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "I'm Still Learning About Life",
+    "tema": [
+      "musica",
+      "gioventù"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -60,9 +63,12 @@
     "end": 411.6,
     "speaker_raw": "SPEAKER_03",
     "testo": "Last night she said she loved me, pity to part, I slept with both eyes open, waiting for it to start. Good morning life, good morning world, how are you happiness? All at once I knew what living can be, oh it's life. Buon Natale!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Buon Natale!",
+    "tema": [
+      "natale",
+      "amore"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -71,9 +77,12 @@
     "end": 470.53,
     "speaker_raw": "SPEAKER_10",
     "testo": "Oh, c'è un sacco di gente infastidita sul parcheggio, perché ovviamente il parcheggio tocchi il nervo alla gente. Io mi ricordo quando avevo la macchina, ma quando abitavo sui Navigli, che siccome è un posto dove tutti andavano a bere la sera, se tu tornavi a casa dopo le otto di sera, la macchina la mettevi a munza praticamente, no? E quindi fai un giro, due giri, poi c'è sempre quel parcheggio, quello diciamo per quelli con le sedie a rotelle, sai quello? Sì. che ovviamente non la metti, però ti dici, anna, già, capito, ci passi davanti, poi dopo vedi il marciapiede. Però io mi ricordo una volta, perché l'ho trovato il foglio, avevo scritto, vigile, avevo scritto, vigile, fai tu, sono le nove, ho lavorato tutto il giorno, ho fatto quattro giri dalla casa, questo è l'uomo che ho trovato, l'avevo messa davanti a un passo carame di quelli che però non usciva mai nessuno.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Parcheggio a munza",
+    "tema": [
+      "parcheggio",
+      "Navigli"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -140,9 +149,12 @@
     "end": 608.51,
     "speaker_raw": "SPEAKER_10",
     "testo": "Adesso gli mando le iene. All'arco della pace, come in tante città d'Italia, cosa hanno deciso di fare? Ci sono le persone che fanno finta di fare i lavori, cioè prendono delle, come si dice, non le impalcature, come si chiama? insomma fanno finta di far la facciata ai palazzi non è vero che fanno la facciata ai palazzi serve a metterci la pubblicità sopra così con quei soldi si pagano le spese condominali così ma anche nelle zone private così anche nelle zone pubbliche qui all'arco della pace a fianco ci sono due casette ah sì? ok due casette che da mesi ci sono le impalcature attorno e fanno finta di fare lavori ma non c'è mai neanche un operaio che fa sai se la facessi io sta truffetta qua farei almeno metterei uno sfigato con la carriola che va anche io allora col cappello fatto con la gazzetta non ci sono i lavori servono a mettere le pubblicità siccome l'arco della pace è bellissimo perché è più bello questo di quello per esempio della Fifth Avenue a New York cioè il nostro arco della pace a Milano è di una bellezza incredibile secondo forse solo a quello di Parigi non lo accendono più la sera perché devono accendere le due pubblicità quindi c'è l'arco della pace buio nel mezzo e a fianco queste due cose finte con le pubblicità delle macchine ma da mesi immaginati questi che si sono presi gli appartamenti vista l'arco della pace e non vedono quello che hanno pagato adesso c'è Bertolaso su Sky Bertolaso Bertolaso era quello che andava nei centri massaggi e chi non va nei centri massaggi? per non prendere gli appalti come la zanzara, chiamiamo cosa allora Bertolaso è quello che nell'intercettazione andava nel centro massaggio e poi trovavano i preservativi nel cestino, ti ricordi?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Arco della pace",
+    "tema": [
+      "arco della pace",
+      "pubblicità"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -184,9 +196,12 @@
     "end": 645.53,
     "speaker_raw": "SPEAKER_10",
     "testo": "Bellissimo. Ok, ha una canzone nuova. Aspetta, c'è un'altra da sentire, quella che ha usato Sorrentino.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Sorrentino",
+    "tema": [
+      "libro",
+      "autore"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -195,9 +210,12 @@
     "end": 665.36,
     "speaker_raw": "SPEAKER_02",
     "testo": "beh ha fatto una canzone nuova con Cat Power con Cat Power che canta come si chiama?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Cat Power",
+    "tema": [
+      "musica",
+      "cantante"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -228,9 +246,12 @@
     "end": 999.92,
     "speaker_raw": "SPEAKER_10",
     "testo": "Cassio che canzone per il lunedì mattina eh! La voce di Kit Power, questo è Radio DJ, questo è il volo del mattino, diciamo, credo il primo passaggio di questa canzone a Radio DJ, poi vedremo se avrà storia o se sarà solo un momento così. Volevo dirvi che sono andato questa domenica a vedere i pesci con i miei bambini, sai che nel parco Sempione poi a un certo punto c'è il museo dove puoi vedere tutti i pescetti, le cose, bello divertente con i bambini, i giri, l'acquario. siamo andati prima all'acquario poi all'acquario dei pesci morti che anche quello devo dire è affascinante cos'è? la pescheria siamo andati a prendere un branzino per il pranzo comunque siamo andati lì è molto bello e per passeggiare sai in questo periodo che sono molto impegnato la domenica magari mi prendo poi il sabato la domenica prima di andare a lavorare quelle due ore dove sto da solo con mio figlio ma è difficile perché ti fermano le foto le cose insomma quindi devi stare in casa se vuoi stare tranquillo con i tuoi figli tant'è che a un certo punto sono arrivato davanti a un super camper con i palloncini e mio figlio come ha visto i palloncini e si è avvicinato questo uomo bellissimo un uomo molto bello mi ha detto ti devo parlare vorrei stare con i miei figli ma è una cosa importante anche per i tuoi figli come ti chiami? Marco all'oisio sarà all'oisio all'oisio marco eccomi qua ciao ti ho appena presentato come un uomo bello perché non è vero è un uomo bello comunque chirurgo oncologo presidente della zezione Hai scritto Zezione? Settione milanese della Lega Italiana per la lotta contro i tumori. Avete un posto mobile e un posto semimobile, uno sta al Parco Sempione, cosa avviene?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "pesci con i bambini",
+    "tema": [
+      "famiglia",
+      "bambini"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -239,9 +260,12 @@
     "end": 1016.16,
     "speaker_raw": "SPEAKER_00",
     "testo": "Questo è dove sei venuto tu, siamo stati felicissimi di accoglierti, te e il tuo bambino felicissimo peraltro, contento del suo palloncino verde, palloncino della settimana della prevenzione della Lega Italiana per la lotta contro i tumori.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "palloncino verde",
+    "tema": [
+      "famiglia",
+      "bambini"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -283,9 +307,12 @@
     "end": 1052.29,
     "speaker_raw": "SPEAKER_00",
     "testo": "Beh, in queste unità mobili, o semimobili come tu dici, noi facciamo prevenzione, cioè prevenzione primaria, cioè... Diamo la cultura della prevenzione alle persone di mantenere corretti i stili di vita, per cui movimento e alimentazione.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "prevenzione tumori",
+    "tema": [
+      "salute",
+      "prevenzione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -294,9 +321,12 @@
     "end": 1081.19,
     "speaker_raw": "SPEAKER_10",
     "testo": "e poi diamo anche l'opportunità di fare delle visite senologiche e dermatologiche cioè come prevenzione dei tumori cutanei e dei tumori al seno posso dire che io tra l'altro ho perso anche un amico per una situazione così posso dire che si dice INEO o INEI è molto sottovalutata dalla cultura nel senso che nessuno considera il tumore una cosa seria perché è una roba piccola non è un organo invece",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "tumore INEO",
+    "tema": [
+      "salute",
+      "tumore"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -463,9 +493,12 @@
     "end": 2325.8,
     "speaker_raw": "SPEAKER_10",
     "testo": "Let's go outside! Non so se ho visto lo stesso programma che hai visto tu, ma io ho pensato la stessa cosa. Addirittura sono andati, questa cosa di Trump che dice le cose di Berlusconi vent'anni fa, la cosa affascinante è che a un certo punto sono andati nelle suburbia, diciamo, nei posti... Nella suburbia! Ok, sono andati nelle periferie, sapete che gli Stati Uniti, anche come nelle grandi città italiane, anche Roma, Milano, a volte così così... ci concentra tutto molto nella città poi vengono un po' abbandonate le periferie sono un po' a volte case, case, case non c'è quasi praticamente niente sono dei supermercati sono andati nella suburbia americana che è molto più lo dico per esperienza personale è molto più indietro della provincia italiana in questo mentre magari le città grandi Los Angeles, New York per qualche cosa sono più contemporanee per una serie di motivi la provincia invece è molto più arretrata c'è un gap fortissimo tra la città soprattutto quella delle coste E sono andati nelle subibie, quindi dove c'è gli operai, la working class, le cose povere e per la prima volta, come è successo con Berlusconi tanti anni fa, quelli che hanno sempre votato sinistra, cioè gli operai democratici, hanno intervistato questo uomo mentre mangiava un panino. se lo mangiava io ho pensato se lo dovessi mangiare prima di lui devo dormire sei ore dopo come un orso yogi così comunque la domanda dice io non sono d'accordo su tante cose che dice donald trump soprattutto diciamo quella roba lì che non devono fare entrare l'islam insomma tutta una serie di cose un po assurde però è un uomo sentite la frase se non vi ricordo qualcosa è un uomo che siccome ha fatto tanto per sé riuscirà a fare tanto anche per noi equazione equazione elementare pazzesco è veramente la stessa cosa quindi è molto affascinante vedere se anche insomma Donald Trump avrà la fortuna che ha avuto poi io preferisco non vederlo Berlusconi beh quella cosa lì la differenza nostra diciamo dell'Italia degli Stati Uniti è che mentre Berlusconi diciamo quella roba lì poi dopo ricade un po' su di sé cioè noi siamo sempre su di noi quindi sui nostri interessi le nostre cose il cambio sulla politica estera gli Stati Uniti hanno un peso importante quello ricade poi anche sulle nostre vite ovviamente e speriamo in bene sempre qualsiasi cosa dovesse mai accadere allora una cosa che trovo non sexy nell'uomo sono gli slip una ragazza ha detto i slip sono belli se hai un bel fisico però",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Trump e le suburbia",
+    "tema": [
+      "politica",
+      "stati uniti"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -507,9 +540,12 @@
     "end": 2385.05,
     "speaker_raw": "SPEAKER_10",
     "testo": "Domanda, lo sdrai a destra o a sinistra? Perché lo slip a volte richiede uno sdraiamento No, no Niente, dietro così come un elefante Un forno all'elastico dietro Madonna che impressione Così, prendi anche le noccioline quando sei davanti alla televisione Prendi gli arachidi così Bluff, bluff, bluff",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Scherzi sullo slip",
+    "tema": [
+      "umorismo",
+      "relazioni"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -540,9 +576,11 @@
     "end": 2591.58,
     "speaker_raw": "SPEAKER_10",
     "testo": "Be the one! volevamo ringraziare un ascoltatore o un'ascoltatrice che ha lasciato alla portineria di Radio DJ un Rollins per Maurizio si grazie, quello che mi mancava se li hai tutti adesso?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Be the one!",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -551,9 +589,12 @@
     "end": 2608.27,
     "speaker_raw": "SPEAKER_02",
     "testo": "sai che non lo so, devi farlo a conta va bene, va bene, tra l'altro adesso tu fra un po' avrai il tuo disco in uscita si venerdì, il 18 esce il disco esce Parole e Notte 3 faccio la presentazione alla Mondadori di Marghera di Marghera se volete, avete dei Rollins di Marghera via Marghera",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Parole e Notte 3",
+    "tema": [
+      "musica",
+      "disco"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -562,9 +603,12 @@
     "end": 2668.55,
     "speaker_raw": "SPEAKER_10",
     "testo": "voglio andare a Marghera a Milano in via Marghera se volete portare anche i Rollins ce li scambiamo piacciono tanto le poesie posso dire una cosa a un ascoltatore che non si è firmato quando inizi così non voglio entrare in polemica però ha detto la smettete di fare smettete di fare campagna elettorale per la Clinton ma me l'ha detto serie fate schifo a parte che ho detto Bernie Sanders neanche la Clinton no però secondo questo scontatore noi stiamo facendo la tirata alla Clinton contro di la verità associando Donald Trump a Berlusconi di la verità che sei un agente segreto come Ferrara del KGB del KGB comunisti comunisti va bene ragazzi noi ci sentiamo domani mattina dalle nove alle dieci col volo del mattino e grazie di tutto grazie a Maurizio Viola Stellin al direttore ai saluti finali e io vi faccio anche i saluti finali certo certo certo e ciao",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Poesie dei Rollins",
+    "tema": [
+      "poesia",
+      "letteratura"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   }
 ]

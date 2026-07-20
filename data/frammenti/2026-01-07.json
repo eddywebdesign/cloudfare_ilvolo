@@ -511,9 +511,12 @@
     "end": 1706.67,
     "speaker_raw": "SPEAKER_10",
     "testo": "Ti metto un po' di messaggi, che tristezza.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Tristezza dei messaggi",
+    "tema": [
+      "tristezza",
+      "messaggi"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -711,9 +714,12 @@
     "end": 2151.68,
     "speaker_raw": "SPEAKER_11",
     "testo": "Perché non l'hai caricata? Ah per incuria, per sciatteria, per incuria, per incuria, per incuria, per incuria, sono gli uccellini mi sta facendo il vestito per la conferenza stampa, pure l'orlo, pure l'orlo",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Incuria e vestito per la conferenza",
+    "tema": [
+      "incuria",
+      "conferenza"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -733,9 +739,12 @@
     "end": 2189.3,
     "speaker_raw": "SPEAKER_11",
     "testo": "non vedrai indossarlo è vero guarda come lo sollevano guarda chissà se Marco Giallini che sarà lì con me oggi e la Claudia Gerini chissà chi gliela ha fatti se gliela ha fatti gli uccellini questo mi sembra più bello mi si noterà mi si noterà in mezzo a questi attori ma dire no vabbè è un esordiente",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Vestito per la conferenza",
+    "tema": [
+      "conferenza",
+      "vestito"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -786,9 +795,12 @@
     "end": 2224.34,
     "speaker_raw": "SPEAKER_18",
     "testo": "senti Fabio se vuoi ho una bella casetta in montagna Malonno da vendere è di mio zio però ci mettiamo d'accordo non la uso più dispersa nel bosco fantastica figata bella grande 12 posti letto cucina cammino possiamo organizzare anche qualche festa ti interessa?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Casa in montagna da vendere",
+    "tema": [
+      "casa",
+      "montagna"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1055,9 +1067,12 @@
     "end": 2971.02,
     "speaker_raw": "SPEAKER_11",
     "testo": "Non mi ci trovo. Allora Maurizio, venerdì che sono lì a Milano, ti metti in ginocchio davanti a me, ma non come quando all'inizio per fare questo programma. Il metodo volo, dopo il metodo... quando Corona uscirà col metodo volo allora ti metterai in ginocchio io con la spada e tu sei il nostro capo ah l'investitura ti investiterò avevo un ultimo messaggio ciao Viola, ciao Maurizio mio Bettino del 2026 pace amore ma di questo vi racconteremo la prossima volta",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "investitura del capo",
+    "tema": [
+      "lavoro",
+      "leadership"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

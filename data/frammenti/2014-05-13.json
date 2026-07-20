@@ -498,9 +498,12 @@
     "end": 1827.84,
     "speaker_raw": "SPEAKER_09",
     "testo": "Allora... Proviamo a chiamare dopo Gigio, ho pensato. Sarà sveglio dopo Gigio quest'ora.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Chiamare Gigio",
+    "tema": [
+      "amici",
+      "telefono"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

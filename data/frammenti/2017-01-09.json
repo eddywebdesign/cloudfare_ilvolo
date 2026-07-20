@@ -215,9 +215,12 @@
     "end": 448.55,
     "speaker_raw": "SPEAKER_11",
     "testo": "Andate a spenderli, andate a spenderli. Quindi la prima telefonata è un po' salmone, un po' controcorrente. Ok, ok. Oh, buona vacanza. Grazie mille. mentre ero in vacanza io vi ho pensato proprio anche a voi due e ho detto iniziamo con una canzone magari che non ha un tiro proprio che ti dà energia però che ha una bella atmosfera e che soprattutto è nuova cioè che non si è mai sentita così diamo un senso proprio di cambiamento e ho portato questa Laura Gibson che non è famosissima diciamo cantante indie così con una canzone che si intitola Two Kids ciao Valentina",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Canzone nuova per energia",
+    "tema": [
+      "musica",
+      "energia"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -312,9 +315,12 @@
     "end": 758.4,
     "speaker_raw": "SPEAKER_12",
     "testo": "azienda ho finito il turno alle 2 praticamente e alle 4 e mezza mi ha chiamato un collega mi ha detto guarda che qua ci hanno fatto spegnere le macchine ci hanno detto di andare a casa tutti in 135 così ma scusami neanche un preavviso",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Collega senza preavviso",
+    "tema": [
+      "lavoro",
+      "imprevisti"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -429,9 +435,12 @@
     "end": 956.9,
     "speaker_raw": "SPEAKER_11",
     "testo": "no ho detto l'ultimo sì ieri aspetta ti chiediamo noi adesso una cosa assurda così come dire battezzi il primo no senti Astro non lo so vuoi uscire a cena con Viola? no ma scusa è loro è più forte senti ti devo trovare una roba così senti vuoi venire qui Astro a Radio DJ tanto sei di Pavia sei vicino a pesare con la mano destra lo scrotto di Maurizio perché?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Scherzo tra amici",
+    "tema": [
+      "amici",
+      "scherzi"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -664,9 +673,12 @@
     "end": 2281.06,
     "speaker_raw": "SPEAKER_11",
     "testo": "le frasi e il comportamento proprio da utilizzare in pubblico anche il linguaggio del corpo quindi ok mai mani giunte cioè mai braccia giunte ma stai cercando di cattire voglio capire voglio capire cosa fai indichi col dito hai sentito falso mito adesso chiamiamo Cirelli spaca tutto va bene insomma fate anche quello bene Matteo facciamoci pubblicità gratis la società si chiama Training Meta Training Meta Meta come Meta? Meta come la Meta Meta in greco in greco quindi non Meta non Meta ciao Matteo ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Training Meta Traini",
+    "tema": [
+      "formazione",
+      "sviluppo"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -756,9 +768,12 @@
     "end": 2672.56,
     "speaker_raw": "SPEAKER_13",
     "testo": "Quindi questo è il mondo del 2017?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il mondo del 2017",
+    "tema": [
+      "tempo",
+      "società"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

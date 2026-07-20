@@ -5,9 +5,12 @@
     "end": 68.37,
     "speaker_raw": "SPEAKER_06",
     "testo": "Don't you shut your eyes and hide your heart behind the shadow Cause you can count on me as long as I can breathe, you should know Grazie a tutti. Ciao Ciao Ciao",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Don't you shut your eyes",
+    "tema": [
+      "amore",
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -38,9 +41,12 @@
     "end": 378.63,
     "speaker_raw": "SPEAKER_03",
     "testo": "Faccia da culo, amico! You're happy, too. Awada is giving it. Hey! Whoa, whoa, whoa, whoa, whoa! Oh, last night she said she loved me What a pity that I slept with both eyes open Waiting for the day to start Good morning life, good morning world How are you, happiness? All at once I knew what living can be Oh, it's life, it's free It's someone waiting for me Who told me to live a life, a good morning life",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "It's life, it's free",
+    "tema": [
+      "amore",
+      "libertà"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -62,9 +68,12 @@
     "end": 553.79,
     "speaker_raw": "SPEAKER_00",
     "testo": "Bill Gates si conferma per il terzo anno consecutivo l'uomo più ricco del mondo, secondo la classifica annuale stilata dalla rivista Forbes. Con un patrimonio netto di 75 miliardi di dollari, il presidente onorario di Microsoft precede il fondatore della catena Zara, Manzi Ortega, e il guru della finanza Warren Buffett. Al quarto posto, grazie alla vendita dei suoi libri, il bresciano Fabio Volo. Maiari, sentite qua ragazzi!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Classifica Forbes",
+    "tema": [
+      "ricchezza",
+      "potere"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -117,9 +126,12 @@
     "end": 830.98,
     "speaker_raw": "SPEAKER_15",
     "testo": "Il santuario di Caravaggio. Il santuario di Caravaggio, c'è la Madonna di Caravaggio.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Santuario di Caravaggio",
+    "tema": [
+      "arte",
+      "religione"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -779,9 +791,12 @@
     "end": 2282.66,
     "speaker_raw": "SPEAKER_01",
     "testo": "Ma no! ma no aspetta di mettermi un panetto di ghiaccio lì la Stevia ha scritto o la Laura ha scritto no io pensavo di fare la battuta cioè scusami aspetta fermi tutti fermi tutti mal di testa vai dallo steopata lui ti ha detto si prende un ghiacciolo lo mettono là e se lo metta là eh sì 10 minuti al giorno però scusami ma adesso non so se sono dei bambini cambiate canale perché io sono curioso scusami tra le cosce o proprio che deve sparire no mi devo Fabio mi devo togliere le mutande e appoggiare quello lì e appoggiare il ghiaccio lì ma scusami ma dov'è sto stoppate che voglio andare subito che magari conosce delle cose ti faccio una domanda scusami ti posso chiedere cosa mangi a colazione no è una domanda seria perché l'altro giorno a Fatti Vostri programma con Magalli così un signore ha detto che i formaggi stagionati possono far venire il mal di testa sì ma la notizia è Fabio te guardi Fatti Vostri no vabbè ero lì sul set scusami ero sul set c'era la televisione accesa e siccome io sapete che sul latte non posso più dire niente però insomma ma io lo posso dire sul latte io l'ho tolto il latte da due anni ok tu hai tolto il latte da due anni esatto però ti è rimasto il mal di testa che cosa mangi? hai fatto il controllo alla tiroide? sì, l'ho fatto hai fatto le allergie, le intolleranze? esatto, ho fatto probabilmente anche il tuo stop, ti ha fatto queste domande hai fatto tutto e tu sai che c'è ma con il ghiacciolo nel sedere ma no nel sedere però se vado io probabilmente mi dice scusi mi fa un po' male la testa mangia dal latte, io no allora prendo un calippo Ma scusami, lo devi fare da oggi?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ghiacciolo per il mal di testa",
+    "tema": [
+      "mal di testa",
+      "soluzione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -801,9 +816,12 @@
     "end": 2319.32,
     "speaker_raw": "SPEAKER_01",
     "testo": "Ma facciamolo insieme. Io per esempio so che se la sera fate fatica ad addormentarvi, a me succede a volte delle sere, se si fa un bidet con l'acqua fredda concilia il sonno. Questa è una cosa che mi hanno insegnato tanti anni fa. uno che sapeva di queste cose un esperto di bidet non lo so ok allora hanno scritto in tanti di chiamare l'osteopata si chiama bagno derivativo stiamo imparando si chiamano bagni derivativi esatto cioè vuol dire che tu hai un'infiammazione o un surriscaldamento da qualche parte no",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Concilia il sonno con l'acqua fredda",
+    "tema": [
+      "sonno",
+      "rilassamento"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -812,9 +830,12 @@
     "end": 2321.98,
     "speaker_raw": "SPEAKER_18",
     "testo": "Lui mi ha detto che ha un problema circolatorio.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il problema circolatorio dell'osteopata",
+    "tema": [
+      "osteopata",
+      "salute"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -834,9 +855,12 @@
     "end": 2327.9,
     "speaker_raw": "SPEAKER_18",
     "testo": "Ha un problema di circolazione. Poi non mi ha detto altro e io non ho avuto il coraggio di chiedergli altro.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'osteopata non vuole parlare",
+    "tema": [
+      "osteopata",
+      "segreto"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -845,9 +869,12 @@
     "end": 2339.72,
     "speaker_raw": "SPEAKER_01",
     "testo": "Ma insomma, avevi anche un problema cervicale. Però hai detto, se per il mal di testa mi hai infilato un ghiacciolo là, ho paura a chiedere. Ma mi fa un po' male il polso. Allora, deve prendere.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Problema cervicale e ghiacciolo",
+    "tema": [
+      "cervicale",
+      "soluzione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -856,9 +883,12 @@
     "end": 2343.79,
     "speaker_raw": "SPEAKER_18",
     "testo": "Ma la volta prima mi aveva infilato un dito in bocca. No, quello. Allora, aspetta.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Dito in bocca per il mal di testa",
+    "tema": [
+      "mal di testa",
+      "soluzione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -867,9 +897,12 @@
     "end": 2400.18,
     "speaker_raw": "SPEAKER_01",
     "testo": "è disperato aspetta aspetta quello è successo anche a me perché ti ti deve raddrizzare diciamo cioè diciamo la mandibola le cose anche a me va lì col guanto della prostata va dentro lì e ti sistema e poi mi aveva anche massaggiato l'osso sacro ma scusami ma non è che tu magari un po' gli piace questo osteopati no ma non mi guarda neanche in faccia ma magari ti punta verso la webcam nascosta ti fa sempre fare le cose in un angolo dell'ufficio sempre allo stesso posto mi fa male l'alluce del piede allora intanto si spogli si mette lì nell'angolo sotto una luce e sorrida va bene adesso ci informiamo mi fai sapere allora ciao Lisa e questo è per ricordare l'urine guardate take a walk in the wild side potrebbe essere quello dell'osteopata va bene oh mi sono passati tutti i dolori",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Osteopata e massaggi",
+    "tema": [
+      "osteopata",
+      "massaggio"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

@@ -269,9 +269,12 @@
     "end": 894.42,
     "speaker_raw": "SPEAKER_04",
     "testo": "Ciao, qui c'è un'ascoltatrice che dice che lei l'ha fatto la sera il test e si è acceso come un albero di Natale, cioè non c'è bisogno che aspetti domani.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Test di gravidanza",
+    "tema": [
+      "gravidanza",
+      "test"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -302,9 +305,12 @@
     "end": 923.67,
     "speaker_raw": "SPEAKER_02",
     "testo": "con Andrea Michele buongiornazzo Andrea Michele mi sveglio",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ora di sveglia",
+    "tema": [
+      "sveglia",
+      "orario"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -313,9 +319,12 @@
     "end": 974.36,
     "speaker_raw": "SPEAKER_04",
     "testo": "no allora aspetta dai aspetta le nove cinque che sei in onda ma devo portare la bambina all'asilo come faccio portila ma intanto in che città vivi allora io vivo a Beninzago che è un paesino in provincia di Novara tra l'altro vuol dire che in 40 minuti sei a Milano si è velocissimo vieni a far la pipì nei bagni di Allora, domani mattina porti la bambina all'asilo, poi prendi la macchina, ti bevi una bottiglietta d'acqua da mezzo litro e vieni qua. Ti faccio parcheggiare dentro così non spendi il tempo a cercare parcheggio. Vieni su, ci saluti in diretta, pubblicità, vai di là nel bagno, fai la pipì e poi vieni di qua.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Vita quotidiana",
+    "tema": [
+      "famiglia",
+      "lavoro"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -335,9 +344,12 @@
     "end": 985.65,
     "speaker_raw": "SPEAKER_04",
     "testo": "Posso dirti una cosa, qui a Radio DJ lavoreremo in 40 persone e 20 sono incinte anche in questo momento. Qui c'è un'aria, come vieni qua fai due boccate d'aria e sei al terzo mese.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "incidenza gravidanza in azienda",
+    "tema": [
+      "lavoro",
+      "gravidanza"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -346,9 +358,12 @@
     "end": 990.61,
     "speaker_raw": "SPEAKER_02",
     "testo": "Ah dici tu, a parte che non c'è da mettere, sono rimasta incinta in flotta.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "incinta in flotta",
+    "tema": [
+      "gravidanza",
+      "lavoro"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -467,9 +482,11 @@
     "end": 1303.52,
     "speaker_raw": "SPEAKER_04",
     "testo": "Vogliamo ricordare il momento quello lì di Friends, ce l'hai, di Ross and Rachel? In che lingua ce l'hai? In italiano. Alcuni ascoltatori dicono che va sentito in tedesco. Ah, vedete. Giusto. Mettiamolo in italiano.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Momento di Friends Ross Rachel",
+    "tema": [
+      "amicizia"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -632,9 +649,12 @@
     "end": 1789.76,
     "speaker_raw": "SPEAKER_04",
     "testo": "senti una volta mio padre che era un ossessionato dal lavoro e a cui io devo praticamente tutto perché non avendo un gran talento io diciamo ce l'ho fatta realizzare i miei sogni solo perché ho lavorato più degli altri che mi stavano a fianco e mi diceva sempre su un posto di lavoro ricordati che quel giorno che stai a casa una cosa brutta che può succedere è che si accorgano che tu non servi quindi stai attento quando si fa una pausa una cosa brutta che può succedere è che ti accorgi di stare bene bravo ok quindi se tu adesso ti accogli di stare bene sta pausa è un po' una fregatura perché non è una pausa che ti serve per caricarti e ritornare dentro la battaglia quotidiana con lei tu dici ma a me chi me lo fa fa torno a casa dal lavoro vado a bermi una birra esco con gli amici torno a casa esatto sono bello tranquillo Mangiare in giro ce n'è ormai perché siamo una generazione che esci e fai fatica a trovare altre compagne per il momento. anche se le amicizie ho degli amici che sono un po' pazzerelli bisogna fare attenzione perché basta un attimo e tac sono già con un'altra persona no no no non cambiare asino allora aspetta cosa vogliamo fare Marco dopo una settimana due settimane che sei un po' così stai cercando vediamo se ho capito dal tono di voce stai cercando di racimolare la forza per dire guarda mi sa che qua non ce n'è più e ti stai chiedendo la devo incontrare fisicamente per dirglielo o è inutile che la faccio venire fino qui che questa è una roba da maschio la faccio venire fino qui per poi dirle basta tanto vale che glielo dica senza farla venire qui e lei dirà alle sue amiche quella merda ma il telefono mi ha lasciato invece io ti dico Marco hai già deciso? sai cosa devi fare? devi andare tu cioè no tu non ti devi chiedere la faccio venire lo dico al telefono tu vai cioè tu devi fare questo sforzo questa fatica mettiamola così vai io non sono d'accordo no? no cosa fai un sms?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il padre ossessionato dal lavoro",
+    "tema": [
+      "lavoro",
+      "genitori"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -643,9 +663,12 @@
     "end": 1802.09,
     "speaker_raw": "SPEAKER_01",
     "testo": "non sms chiama risparmiamo soldi tempo tutti e due dopo quanto tempo stavate insieme Marco? sono sei mesi sei mesi sono pochi si può lasciare al telefono",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La relazione a sei mesi",
+    "tema": [
+      "amore",
+      "relazione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -654,9 +677,12 @@
     "end": 1863.45,
     "speaker_raw": "SPEAKER_04",
     "testo": "A sei mesi? Allora aspetta facciamo il tabellario. No secondo me sei mesi sai. Massi posso dirti Marco che tanto ti avranno già riconosciuto anche amici di lei e quindi adesso metà del lavoro te l'abbiamo fatto noi. va bene va bene senti bocca al lupo però ti posso dire dopo fra 4-5 giorni una settimana un mese quando hai finito di uscire con gli amici di bere le birre di ciulare in giro a caso poi ci sarà una domenica pomeriggio che ti senti vuoto come un vaso di nutella dopo che ci hai infilato anche lì non gli rompere le palle richiamandola dicendo ho sbagliato tutto mi manchi scusa solo perché ti sei sfogato basta poi lasciala in pace va bene va bene ciao Marco un abbraccio di solito gli uomini aspettano di vederla e lei con un altro che si rialza e il dottore dice no ma com'è con quello lì ti sei rattristata Viola?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il padre orgoglioso del figlio",
+    "tema": [
+      "genitori",
+      "orgoglio"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -819,9 +845,12 @@
     "end": 2380.22,
     "speaker_raw": "SPEAKER_04",
     "testo": "Ciao Fabio. Ciao a te. Ciao Marco. le scarpette, la bicicletta, ma più piccoli, belli i sogni piccoli che li vedi che si realizzano in pochi giorni.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "scarpette e bicicletta",
+    "tema": [
+      "sogni",
+      "infanzia"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -841,9 +870,12 @@
     "end": 2616.55,
     "speaker_raw": "SPEAKER_04",
     "testo": "Facendo vedere ancora la lista dei nomi di questo Panama Papers, devo dire che la cosa che mi fa più ridere è l'intervista all'islandese, con la Johanna ne ridiamo, perché lui durante l'intervista gliel'hanno chiesto, l'avete visto? Lui si è alzato e se n'è andato. continuava a parlare no perché è uscito dall'inquadratura scusate l'intervista è andato ma è stupendo perché c'ha una faccia da culo è un insospettabile tra l'altro no perché ti spiego in realtà non è che ho fatto i corti corretti ed è uscito e è andato ammazzo va bene scusate un attimo allora uno dice io sono andato per lasciarla e poi alla fine l'ho sposata abbiamo due figli siamo felici vedi che ci sono anche storie belle uno va per lasciarla la vede e capisce invece che sta sbagliando un altro invece Zaira o Zaira Zaira Zaira che dice che dice col cavolo che ha ragione viola aspetta ha ragione viola col cavolo che vieni qui a toglierti i sensi di colpa se mi telefonate vomito tutto l'odio che ho dentro Zaira da dove chiami?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "intervista all'islandese",
+    "tema": [
+      "politica",
+      "corruzione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -863,9 +895,12 @@
     "end": 2626.61,
     "speaker_raw": "SPEAKER_04",
     "testo": "Senti Zaire, che c'hai? Perché c'hai l'odio dentro?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "odio dentro",
+    "tema": [
+      "relazioni",
+      "amore"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -885,9 +920,12 @@
     "end": 2637.22,
     "speaker_raw": "SPEAKER_04",
     "testo": "Ascoltami, stavate insieme da quanto tempo?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "stato di relazione",
+    "tema": [
+      "amore",
+      "relazioni"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -907,9 +945,12 @@
     "end": 2641.96,
     "speaker_raw": "SPEAKER_04",
     "testo": "Da due anni. Lui è da dove? Cioè, ditemi delle due città.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "due anni di relazione",
+    "tema": [
+      "amore",
+      "relazioni"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -962,9 +1003,12 @@
     "end": 2666.26,
     "speaker_raw": "SPEAKER_03",
     "testo": "Ok, che cosa, due anni, due anni che stavamo insieme, sì, è venuto, cioè praticamente io mi sono trasferita a Torino da pochissimi mesi e è salito su qua, mi ha lasciato.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Lui è salito a Torino per lasciarmi",
+    "tema": [
+      "amore",
+      "relazione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1006,9 +1050,12 @@
     "end": 2705.8,
     "speaker_raw": "SPEAKER_03",
     "testo": "Ma che stai facendo? No, non è stato proprio così. Diciamo che sono i sensi di colpa che l'hanno portato. È il minimo che poteva fare.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Sensi di colpa possono portare a scelte",
+    "tema": [
+      "amore",
+      "relazione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

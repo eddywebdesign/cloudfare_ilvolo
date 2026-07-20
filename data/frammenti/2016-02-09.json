@@ -394,9 +394,12 @@
     "end": 1084.31,
     "speaker_raw": "SPEAKER_14",
     "testo": "ok scusami chi è la vita con me? scusami non è pieno di vita? di giovanotti?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Scusami chi è la vita con me?",
+    "tema": [
+      "amore",
+      "relazione"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -430,9 +433,12 @@
     "end": 1144.33,
     "speaker_raw": "SPEAKER_00",
     "testo": "dove sei a 15 anni al telefono? dove sei fisicamente?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Dove sei a 15 anni al telefono?",
+    "tema": [
+      "adolescenza",
+      "relazione"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -479,9 +485,11 @@
     "end": 1413.95,
     "speaker_raw": "SPEAKER_00",
     "testo": "Che spettacolo Fabio, ti ascolto sempre dal Qatar, ore 11 puntuali la radio è accesa, sono appena atterrato, salgo su un cargo ed eccoti, Alessandra. Siete mai stati nel Qatar? No.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Che spettacolo Fabio",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -490,9 +498,12 @@
     "end": 1419.11,
     "speaker_raw": "SPEAKER_11",
     "testo": "Io ho un Teo che mi dice 21 anni, vi ascolto tutti i giorni in ufficio da Beirut.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Teo che mi dice 21 anni",
+    "tema": [
+      "gioventù",
+      "amicizia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -501,9 +512,12 @@
     "end": 1423.89,
     "speaker_raw": "SPEAKER_00",
     "testo": "Da Beirut? Che bello ha 21 anni a Beirut. Cosa fai a fare a 21 anni?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Da Beirut?",
+    "tema": [
+      "viaggio",
+      "gioventù"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -512,9 +526,12 @@
     "end": 1425.9,
     "speaker_raw": "SPEAKER_11",
     "testo": "Ho un social twittato, ora gli rispondo inizio a chattare.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ho un social twittato",
+    "tema": [
+      "gioventù",
+      "comunicazione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -523,9 +540,12 @@
     "end": 1501.19,
     "speaker_raw": "SPEAKER_00",
     "testo": "Vuol dire che non ha fatto l'università? O può averla fatta in... In un ufficio, potrebbe fare uno stage. Uno stage, uno stage, uno stage. Va bene, allora, nella seconda mezz'ora parliamo anche un po' di musica indie, perché sono arrivate un po' di domande. Dateci qualche titolo di musica indie. Madonna, io potessi fare questo lavoro e la vita lo farei. Eh, lo stai facendo. No! No! cioè venire qua e dire ok ragazzi ho letto questo libro è bellissimo, parlare del libro dire perché è bello, cosa mi è piaciuto poi dopo dire c'è uscito questo album sentite questa canzone e uno si nutre continuamente capito? tu ti nutri? io sì sì e ti natri? Frank si natra se vuoi non lo mettiamo più questo stacchetto no mi piace Ascoltatori che mandano link di canzoni stupende, ragazzi. Sono scatenati. Sono scatenati. Sentite le prossime. Adesso mi mettiamo un pezzo italiano. Stai attenta. Viola.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Madonna e la vita",
+    "tema": [
+      "musica",
+      "lavoro"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -645,9 +665,12 @@
     "end": 1928.07,
     "speaker_raw": "SPEAKER_00",
     "testo": "Ma è già partita. Ah sì? Ma adesso aggiungono degli strumenti ma ci vuole aspettare i quarti.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ma è già partita?",
+    "tema": [
+      "viaggio",
+      "gioventù"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -656,9 +679,12 @@
     "end": 1936.04,
     "speaker_raw": "SPEAKER_11",
     "testo": "I quarti di finale. Io non riesco a guidare con questa musica. Senti come apre qua e cambia l'armonia. Ah fermo, fermo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Musica e guida",
+    "tema": [
+      "musica",
+      "guida"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -692,9 +718,11 @@
     "end": 2263.34,
     "speaker_raw": "SPEAKER_00",
     "testo": "comunque senti qua molti hanno scritto sciazzamato grazie bella puntata grazie che ci fate qua uno dice fabio scusami marcel fosse cioè quella che abbiamo messo prima dei gosgos la canzone più bella della musica elettronica grande io posso dire è piaciuto a uno agli altri no io sono contento per quell'uno lì sì ma c'è stato un malinteso no a voi due guarda non vi sopporto comunque un altro ragazzo dice bella anche questa lui è il cantante dei placebo del placebo dei placebo I wanna go down capito Avete sentito anche il testo quanto era sexy? Cioè, capito? Non ti bacio a meno che sia tu a chiedermi di baciarti, non ti tolgo i vestiti a meno che non sia tu a chiedermi. Cioè, non ti tocco lì a meno che non sia tu a chiedermi.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La canzone più bella",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -703,9 +731,11 @@
     "end": 2266.16,
     "speaker_raw": "SPEAKER_11",
     "testo": "È bella forza. È tutta così il testo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il testo della canzone",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {

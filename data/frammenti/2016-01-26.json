@@ -51,9 +51,12 @@
     "end": 227.16,
     "speaker_raw": "SPEAKER_00",
     "testo": "ieri sera ho mangiato gli spaghetti con Rufus una bella parola, suona bene Rufus Rufus, like an animal 2015 sta per cominciare il volo del mattino Subito sì, grazie. Ma da quando facciamo una? Mai!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "spaghetti con Rufus",
+    "tema": [
+      "cibo",
+      "animali"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -565,9 +568,12 @@
     "end": 1220.39,
     "speaker_raw": "SPEAKER_08",
     "testo": "Ciao. so tell my friends that I'll be over here oh yeah oh yeah I ask myself what am I doing here ... ... ... Ciao Ciao Ciao Ciao Ciao Ciao",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "canzone sconosciuta",
+    "tema": [
+      "amore",
+      "dubbio"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -671,9 +677,12 @@
     "end": 1412.18,
     "speaker_raw": "SPEAKER_02",
     "testo": "poi lo sai la mia conoscenza la mia esperienza cinematografica dal punto di vista di fruittore evidentemente è pari a uno però è sufficiente per dire che fa schifo non vi è piaciuto?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "film bruttino",
+    "tema": [
+      "cinema",
+      "opinione"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -734,9 +743,12 @@
     "end": 1585.21,
     "speaker_raw": "SPEAKER_04",
     "testo": "Alice guarda i gatti e i gatti muoiono nel sole mentre il sole poco a poco si avvicina e Cesare perduto nella pioggia sta aspettando da sei ore il suo amore ballerina e rimane lì a bagnarsi ancora un po' il tram di mezzanotte se ne va ma tutto questo Alice non lo sa ma io non ci sto più gli do lo sposo e poi Tutti pensarono dietro ai cappelli, lo sposo è impazzito oppure ha bevuto, ma la sposa aspetta un figlio e lui lo sa, non è così e se ne andrà.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Alice e i gatti nel sole",
+    "tema": [
+      "amore",
+      "pazzia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -945,9 +957,12 @@
     "end": 2832.32,
     "speaker_raw": "SPEAKER_00",
     "testo": "sono contento di aver riportato questa canzone mi spiace doverla interrompere ma c'è una questione di tempistica che non possiamo sforare mai se no prendiamo le multe entra il vigile allora ciao ragazzi mi conferma la mia collega che il calzolaio se vai a consegnare le scarpe a volte ti accoglie in minigonna quindi abbiamo iniziato con la minigonna un ragazzo di Firenze la vicina di casa con la minigonna e finita con il calzolaio di Brescia in minigonna non mettere la minigonna domani continuiamo",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "canzone interrotta",
+    "tema": [
+      "musica",
+      "tempo"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   }
 ]

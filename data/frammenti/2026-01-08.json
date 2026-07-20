@@ -94,9 +94,11 @@
     "end": 349.84,
     "speaker_raw": "SPEAKER_16",
     "testo": "che non sai descrivere e va mi fai schifo a tutti saluti a te saluti a te saluti a te saluti a te saluti a te",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "va mi fai schifo",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -130,9 +132,11 @@
     "end": 523.09,
     "speaker_raw": "SPEAKER_10",
     "testo": "fermi fermi no mi si deve essere staccata ma scusami Fabio allora mettiamo un disco mettiamo un disco ok e intanto ripariamo la parte tecnica vedi appena mollo il mantello crolla tutto va ok",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "mettiamo un disco",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -169,9 +173,11 @@
     "end": 711.89,
     "speaker_raw": "SPEAKER_10",
     "testo": "Allora, abbiamo dei messaggi, credo, che si è stata riparata la macchina dei messaggi.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "riparata la macchina dei messaggi",
+    "tema": [
+      "tecnologia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -258,9 +264,11 @@
     "end": 755.03,
     "speaker_raw": "SPEAKER_10",
     "testo": "Ma dov'è sta grotta? Ma io guarda, se non avessi sto contratto qui, guarda, me proprio...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "grotta e contratto",
+    "tema": [
+      "lavoro"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -280,9 +288,11 @@
     "end": 767.47,
     "speaker_raw": "SPEAKER_08",
     "testo": "Ok il vestito, Fabio, ce l'ho detto anche ieri, ma la domanda è con quale macchina sei andato a questo appuntamento? quale della tua collezione hai scelto?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "vestito e macchina",
+    "tema": [
+      "relazioni"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -352,9 +362,11 @@
     "end": 934.17,
     "speaker_raw": "SPEAKER_27",
     "testo": "Allora non ci insegna più niente Fabio, non avete capito, è finita l'epoca, è finita la pacchia.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "epoca e pacchia",
+    "tema": [
+      "tempo"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -474,9 +486,12 @@
     "end": 1431.74,
     "speaker_raw": "SPEAKER_10",
     "testo": "ve l'ho già detto una volta ma lo potete fare anche a casa o in ufficio prendete un collega io penso che poi qualcuno lo farà davvero prendete un collega portatelo alla finestra del vostro ufficio e chiedete al vostro collega cosa vedi? ok poi ne prendete un altro e gli fate la stessa domanda senza che abbia sentito cosa ha detto l'altro e vi accongerete che quello che si vede dalla finestra non è la stessa cosa dipende da chi guarda ok questa è la vita questo è il mondo no cioè uno dice facci un esempio ti svegli la mattina non hai nessuno che ti rompe i maroni no non hai una moglie o un marito che ti da fastidio che ti rompe le palle o i figli con le loro richieste durante il giorno non hai nessuno che ti scrive dove sei, cosa fai, vai a prendere l'acqua la sera torni a casa non hai nessuno che ti dice dove sei stato, cosa mangiamo, perché sei arrivato tardi questa qui che non hai nessuno per qualcuno è libertà, per qualcuno è solitudine quindi è tempo la stessa cosa quindi ognuno vede la realtà in base a ciò che è e pensavo, pensa all'ascoltatore che mi ha chiesto della maga Circe e poi noi abbiamo mandato in onda quel discorso che dice tu molli, non molli e pensa per coincidenza che poi non esistono la risposta che simbolicamente chi è Circe era dentro quel messaggio lì perché Circe rappresenta la tentazione di fermarsi verso il cammino, verso l'obiettivo l'obiettino esatto di seguire più l'istinto animale di fatti si trasformano in animali alcuni capito e dimenticarsi qual è il tuo vero scopo cioè la ricerca di te in cambio di capito vedi che te cerchi di non dire ma poi dici quanta roba che c'è qua dentro dici sempre",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Esperimento di percezione",
+    "tema": [
+      "percezione",
+      "realtà"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -518,9 +533,12 @@
     "end": 1616.38,
     "speaker_raw": "SPEAKER_21",
     "testo": "Sì. I'll take my pride and stand in for you No, I'm not blind, just seeing it through You take my life just for the thrill I'll take tonight and die on this hill I always will Stubborn and patient But you wrote the book I just took a page out To be loved To be loved and nothing more And you kept your word That you wouldn't matter The way that someone leaves this world So just love was to me now To me now I'll take my pride Standing for you No, I'm not blind Just seeing it through You take my life Ciao! I'll be here cause I can Yeah, I know you don't care I know nothing could matter God, I wish something mattered to you",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Canzone di Pink Floyd",
+    "tema": [
+      "amore",
+      "perdita"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -587,9 +605,12 @@
     "end": 1704.89,
     "speaker_raw": "SPEAKER_28",
     "testo": "Questa puntata del 25! Io dal 26 dicembre che cerco di riascoltarla. è una presa di posizione ma perché siete infissa?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Importanza delle puntate",
+    "tema": [
+      "importanza",
+      "puntate"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

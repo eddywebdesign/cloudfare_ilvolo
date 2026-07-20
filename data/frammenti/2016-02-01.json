@@ -253,9 +253,11 @@
     "end": 433.56,
     "speaker_raw": "SPEAKER_11",
     "testo": "Ma ce l'hai a casa una tastiera, un pianoforte, qualcosa?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "verticale su Zeppolman",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -313,9 +315,11 @@
     "end": 487.01,
     "speaker_raw": "SPEAKER_10",
     "testo": "Ma io pensavo fosse un vezzo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "pensavo fosse un vezzo",
+    "tema": [
+      "lavoro"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -563,9 +567,11 @@
     "end": 861.53,
     "speaker_raw": "SPEAKER_11",
     "testo": "Sul lavoro, sul posto di lavoro?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "sul posto di lavoro",
+    "tema": [
+      "lavoro"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -599,9 +605,11 @@
     "end": 868.84,
     "speaker_raw": "SPEAKER_14",
     "testo": "Palestra non ci andavo, spassovo un po' in casa.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "palestra in casa",
+    "tema": [
+      "salute"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -610,9 +618,11 @@
     "end": 871.4,
     "speaker_raw": "SPEAKER_11",
     "testo": "E beh, ma cos'è di aspetti che ti cadono dentro?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "aspetti che ti cadono dentro",
+    "tema": [
+      "salute"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1152,9 +1162,12 @@
     "end": 2037.35,
     "speaker_raw": "SPEAKER_10",
     "testo": "Sì, ma non dovrebbe esistere più questa cosa. e poi tipo quando si buttano i mozziconi in terra si rischia una multa dai 60 ai 300 questo da domani quindi oggi potete andare in ospedale e farvi un pacchetto e buttare le sigarette per terra così e fumare con i vostri bambini in macchina",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "mozziconi in terra",
+    "tema": [
+      "fumo",
+      "ambiente"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1354,9 +1367,12 @@
     "end": 2789.31,
     "speaker_raw": "SPEAKER_10",
     "testo": "io mi ricordo ai nostri tempi i tuoi non sono i miei",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "non sono i miei",
+    "tema": [
+      "famiglia",
+      "genitori"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1392,9 +1408,12 @@
     "end": 2896.01,
     "speaker_raw": "SPEAKER_11",
     "testo": "Perché non son di questi anni, oh?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "non sono di questi anni",
+    "tema": [
+      "tempo",
+      "età"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

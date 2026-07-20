@@ -115,9 +115,13 @@
     "end": 891.04,
     "speaker_raw": "SPEAKER_08",
     "testo": "allora Antonio Guerra detto Tonino è stato un poeta scrittore e sceneggiatore italiano maestro elementare fu inizialmente appassionato di pittura si dipingeva ad acquerelle d'inchiostro Vuoi che te la legga tu? No, no, no, ha scritto dei film importanti, delle poesie bellissime. Grande sceneggiatore di Fellini, non solo, insomma, ha scritto poesie bellissime.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Antonio Guerra e Fellini",
+    "tema": [
+      "cinema",
+      "scrittori",
+      "italia"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -126,9 +130,12 @@
     "end": 943.5,
     "speaker_raw": "SPEAKER_09",
     "testo": "Non solo Fellini, perché lui ha lavorato anche con Itavia, Monicelli, insomma, sai che l'è. Antonioni Tarkovsky come si chiamava Tarkovsky De Sica De Sica ragazzi lavorare per Tarkovsky De Sica Tarkovsky Fellini basta basta che Fellini ma sì ma poi vuol dire poi Tarkovsky comunque no esatto chi è Tarkovsky? dai Tarkovsky lo specchio cioè un film di quelli lì che tu guardi e dici non ho capito come quando guardi un film di quelli belli insomma sì che sei lì che dici mi è rimasto una roba dentro però non l'ho capito perché ti arriva l'emozione ma non ti arriva razionalmente il perché va bene oggi nasceva Tonino Guerra lo ricordiamo con delle parole che ci arricchiscono la giornata dobbiamo rallentare",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Fellini e Tarkovsky",
+    "tema": [
+      "cinema",
+      "registi"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -184,9 +191,12 @@
     "end": 1294.82,
     "speaker_raw": "SPEAKER_09",
     "testo": "Questa mia immagine legata a questa canzone che mi piace da matti proprio, mi riempie tanto. Ok, mi immagino sempre lì nella serie c'è un momento in cui passeggio con le mani in tasca. no affrontando i problemi quotidiani e robe del genere così avevo questa immagine invece poi un ragazzo scrive no io sono in macchina che giro per la Sicilia con la pioggia questa canzone è il massimo e lì mi ha fregato perché è più bella la sua immagine ragazza intanto ragazza sua intanto perché la Sicilia è uno dei posti più belli quando poi vai da città a città c'è tutte ste montagne c'è sta stradina nel mezzo con la pioggia in macchina deve essere una bomba Viviana ciao stai andando da Catania a Siracusa da Siracusa a Catania da Siracusa tutta in retro o ho sbagliato io? Allora, com'è questa canzone buttata lì così?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Look How Far We've Come",
+    "tema": [
+      "amore",
+      "paura"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -217,9 +227,12 @@
     "end": 1313.41,
     "speaker_raw": "SPEAKER_08",
     "testo": "How far, dai, ci sei vicino. How far we've come.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "How Far, Dai, Ci Sei Vicino",
+    "tema": [
+      "amore",
+      "paura"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -261,9 +274,12 @@
     "end": 1428.76,
     "speaker_raw": "SPEAKER_10",
     "testo": "in my life no time to think time for sleep now time to sink way into the blue",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "In My Life",
+    "tema": [
+      "amore",
+      "paura"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -294,9 +310,12 @@
     "end": 1516.31,
     "speaker_raw": "SPEAKER_09",
     "testo": "Ok, vabbè, comunque Mardo lo usano tantissimo anche nelle lezioni di yoga, perché tutto l'album è bello. Alexi Mardok, si scrive Murdoch. Cosa vai a fare a Siragusa? Cioè, scusami, a Catania? vado a lavorare tutte le mattine ti fai quella strada quant'è? 100 km 100 km in Sicilia non sono 100 km tra Milano e Brescia in treno sono 6 giorni in macchina saranno 1 il treno è improponibile in macchina faccio un'oretta un'oretta e mezza tutti i giorni ti fai 3 ore di macchina giusto? quasi tutti i giorni chi ascolti a ritorno? la Pina? eh sì bravo ok ok sì perché noi siamo gli stessi ascoltatori nostri quelli della Pina che sono quelli che noi li portiamo al lavoro la Pina li riporta a casa infatti noi io dico l'anno prossimo potremmo invertire gli orari per cambiare un po' attivilissimo tra l'altro la Pina non se la prende non se la prende va bene ciao Viviano in bocca al lupo ciao Fabio ciao ciao ciao potremmo invertire no?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Alexi Murdoch",
+    "tema": [
+      "musica",
+      "relax"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -305,9 +324,12 @@
     "end": 1517.87,
     "speaker_raw": "SPEAKER_01",
     "testo": "io sto proprio bene la mattina eh",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La Mattina E' Bella",
+    "tema": [
+      "gioia",
+      "felicità"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -316,9 +338,12 @@
     "end": 1523.25,
     "speaker_raw": "SPEAKER_09",
     "testo": "Chiamiamola Pina, proponiamoli. Pina ti va di alzarti alle sette?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Pina Ti Va Di Alzarti",
+    "tema": [
+      "amici",
+      "relazione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -338,9 +363,12 @@
     "end": 1561.82,
     "speaker_raw": "SPEAKER_09",
     "testo": "Allora, l'altro giorno una ragazza senza benzina, una rotonda, adesso una ragazza in Sicilia e tutti, anch'io sto andando da Marsala a... Andiamo in Sicilia oggi pomeriggio? Andiamo, sì! Quanto è bello! Ci sta bene qua con la pioggia? Anche in Sicilia, però c'è più profumo di piante, di erbe, di mare...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La Sicilia E' Bella",
+    "tema": [
+      "viaggio",
+      "natura"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -349,9 +377,12 @@
     "end": 1698.34,
     "speaker_raw": "SPEAKER_02",
     "testo": "ti riuscissi ad ascoltare e vivere per i piccoli miracoli nascosti in certi attimi che non torneranno più per questo tu potresti diventata una prigione non ti piaci mai e vorresti cambiare sarebbe meglio se ti riuscissi ad accettare Fatti me che non torneranno più, per questo tu potresti giocare.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Accettare il presente",
+    "tema": [
+      "accettazione",
+      "presente"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -393,9 +424,12 @@
     "end": 1873.13,
     "speaker_raw": "SPEAKER_06",
     "testo": "Le porto avanti, oramai vado avanti solo con quelle. Finalmente ho cominciato a capire come",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Consigli su posizioni",
+    "tema": [
+      "posizioni",
+      "consigli"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -404,9 +438,12 @@
     "end": 1898.43,
     "speaker_raw": "SPEAKER_09",
     "testo": "ti volevo dire che sono andato a vedere su inter quando ho scoperto che ti partiva questa diciamo casa Siffredi dopo casa Vienello casa Siffredi che voglio dirti che hai una famiglia i tuoi figli sono dei fotomodelli a parte tua moglie bellissima per il merito della mamma io ci ho messo poco pochissimo di mio ma loro sono di una bella quanti anni hanno i tuoi figli sono veramente belli?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Casa Siffredi",
+    "tema": [
+      "libro",
+      "famiglia"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -426,9 +463,12 @@
     "end": 1902.6,
     "speaker_raw": "SPEAKER_09",
     "testo": "Ma loro vogliono seguire, ovviamente te lo chiederanno tutti.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Figli che vogliono seguire",
+    "tema": [
+      "figli",
+      "carriera"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -437,9 +477,12 @@
     "end": 1936.28,
     "speaker_raw": "SPEAKER_06",
     "testo": "Ma guarda, il piccolino è molto, chiamiamolo aperto di visioni del mondo, al che mi fa molto piacere. Il primo, il grande, è un po' più, non voglio dire... Riservato. No, è un po' più tradizionale. tradizionale e io ne sono molto orgoglioso perché è diverso da me lui ha solo una donna ne vuole solo una vuole sposarsi con lei vuole fare una famiglia con lei non vede nessun'altra guarda per me è un gran motivo d'orgoglio Brocco",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Figli con visioni diverse",
+    "tema": [
+      "figli",
+      "visioni"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -536,9 +579,12 @@
     "end": 2466.91,
     "speaker_raw": "SPEAKER_09",
     "testo": "In sostanza un elenco di cose che ti insegnano, che impari. You learn, tu vai. You cry, piangi, impari. Ridi, impari. Ascolti il volo del mattino, disimpari. Ascolti Rocco, impari. No, ho detto quella cosa che facciamo fatica, ma forse è il mio cervello. Quando io immagino... anche per i figli immagino quella famiglia io vedo la mia mio papà lavorava mia mamma sempre insieme mio papà messa la domenica la macchina parcheggiata sotto la finestra e invece mi immagino deve essere una realtà più complessa quella lì stanno insieme, sono fantastici oggi l'accompagno a fare shopping posso dire una cosa tra noi? c'è anche lui le rotture di coglioni per noi c'è portare la moglie a fare shopping a Mestre tra l'altro da Budapest amore oggi shopping domani dove andiamo? a Budapest? no a Mestre va bene allora ragazzi Viola attenzione voi non la vedete sentite la voce ok so che sentendo la voce ma anche guardandole non le dareste due lire perché si vede che cioè un po' un po' lenta ma sì no sto scherzando con la testa rasata in realtà in realtà ha scoperto qual è la morale della storia dei bambini there's no such a thing like a dragon there's no such a thing no non l'ho scoperto è una storia molto semplice un bambino va dalla mamma e dice mamma in camera mia c'è un drago e la mamma gli dice non esistono i draghi e ogni volta che la mamma nega questa cosa il drago diventa più grande finché si mangia la casa alla fine della storia ma perché hai spoilerato? stavo per guardarlo su Amazon saranno sei pagine comunque vabbè qual è la morale? il bambino aveva delle allucinazioni magari il latte il bambino le cavallerane o il latte era scaduto oppure nella vita dai Viola no penso da quello che ho gli ascoltatori molti l'hanno interpretata come te e credo perché io non è che so le cose se ignori la paura magari di tuo figlio ma anche la tua più la ignori e più aumenta quando tu hai paura di una cosa più la ignori e più quella paura diventa grande nella tua casa cioè dentro di te nelle tue cose e poi ti mangia le tue paure in sostanza vanno affrontate qui mi verrebbe da fare io che ho le associazioni di idee molto veloci ti ricordi Truman Show dove gliel'hanno piazzato la porta dello studio dove lui capisce che è tutta una farsa dietro il mare e lui aveva paura a nuotare aveva paura del mare cioè gli hanno messo addosso quelle paure così sicuri che lui non sarebbe arrivato fino in fondo e si sarebbe accorto che invece dell'orizzonte c'era un muro dello studio quindi molto probabilmente dietro le nostre paure ci sono le risposte che ci servono di più mi devo confrontare con Sibaldi domani domani è già giovedì domani c'è Sibaldi oh quanto abbiamo bisogno paghiamo del Kung Fu Panda con Sibaldi secondo te un oca e un panda possono accoppiarsi?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'importanza dell'apprendimento",
+    "tema": [
+      "apprendimento",
+      "sviluppo"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -547,9 +593,12 @@
     "end": 2562.68,
     "speaker_raw": "SPEAKER_11",
     "testo": "... ... ... ... ... Grazie. I just hope it ain't the money money money money money Love me love me honey I just hope it ain't the money money money money money Love me love me honey I just hope it ain't the money money money money money Love me love me honey I just hope it ain't the money money money money money Love me love me honey You got me singing don't you?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Canzone di ABBA",
+    "tema": [
+      "musica",
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -558,9 +607,12 @@
     "end": 2674.25,
     "speaker_raw": "SPEAKER_09",
     "testo": "a parte la musica straordinaria che avete messo questa mattina volevo dire che il fatto di sapere che anche Rocco Siffredi deve accompagnare la moglie a fare shopping non lo so mi fa stare meglio scrive uno ascoltatore perché è il famoso malcomune mezzo Claudio mezzo caudio ok allora ragazzi in cuffia è fastidiosissimo il rumore del click del mouse mentre parli qualcuno faccio dammi uno sfumino si dobbiamo risolverla ok è vero vi chiedo scusa io leggo tutte le mail ma c'è una cosa più fastidiosa ma posso dire che io conoscendo Maurizio come my pocket come le mie tasche come my pockets Maurizio su questo messaggio ragazzi in cuffia è fastidiosissimo il rumore del click del mouse Alessio Basiliani Alessio Basiliani sappi che c'è una cosa in questo messaggio che manda giù di testa Maurizio iniziare col ragazzo io non o ragazzi stasera oppure anche tutti quelli che rispondono anche no anche no un mio amico impazziva per non so come dire non so come dire ma comunque posso dirti una cosa Maurizio anche no dai ragazzi a domani con Sibaldi",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Rocco Siffredi e la moglie",
+    "tema": [
+      "famiglia",
+      "umori"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   }
 ]

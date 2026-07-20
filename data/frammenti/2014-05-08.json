@@ -177,9 +177,12 @@
     "end": 734.57,
     "speaker_raw": "SPEAKER_04",
     "testo": "Come si ammessi? Non si capisce quando parla? No, non si capisce più quando parla. Ci sono rimasti due, rimane sempre Topo Gigio. Ci sono rimasti Topo Gigio e Costanzo. E Topo Gigio. Hai indovinato!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Topo Gigio e Costanzo",
+    "tema": [
+      "tv",
+      "umorismo"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -213,9 +216,12 @@
     "end": 1073.16,
     "speaker_raw": "SPEAKER_12",
     "testo": "No, è arrivata la chiamata di mia madre dicendo, ah, tu dici che lavori?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Chiamata di mia madre",
+    "tema": [
+      "famiglia",
+      "umore"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -246,9 +252,12 @@
     "end": 1122.03,
     "speaker_raw": "SPEAKER_03",
     "testo": "Quando sei italiana, diciamo, di dove sei? di Udine ah stai tornando per il weekend degli alpini? per andare lì vicino io sono in prima linea la festa più bella del mondo tutti gli anni chiamiamo un alpino raccontiamo la festa degli alpini quest'anno no quest'anno no pronto? ok un attimo scusami che ho spaccato tutto scusa un secondo Aspetta che mi si è rotta la cuffia. Aspetta che sposto il corriere. Allora, ehi! Ma a che ora ce l'hai l'aereo per tornare in Italia?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Festa degli alpini",
+    "tema": [
+      "festa",
+      "alpini"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -268,9 +277,12 @@
     "end": 1172.24,
     "speaker_raw": "SPEAKER_03",
     "testo": "Ah, va bene. Senti, siccome ieri ti abbiamo chiamato e si sono innamorati tutti gli ascoltatori di te... Sì, ho riso tutto il tempo. Allora, ci volevo chiedere, vuoi darci il cognome che ti cerchiamo su Facebook? oddio è la fine ma hai paura ma che udine qua ci ascolta in tutto il mondo ti arrivano mail da tutto il mondo te la senti? no ma è un cognome ridicolo attenzione attenzione ma se non lo vuoi dire puoi anche non dirlo no dai ma non lo vuoi dire perché non vuoi essere diciamo riconosciuta o per il cognome? Cioè non vuoi che la gente sappia che sei tu che dopo ti viene a cercare su Facebook?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ascoltatori innamorati",
+    "tema": [
+      "amore",
+      "ascoltatori"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -279,9 +291,12 @@
     "end": 1177.86,
     "speaker_raw": "SPEAKER_12",
     "testo": "No, è che tanto la gente saprà già perché oggi ci sono quattro gatti, non è che ci sono tanti di chiama.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Gatti e cognome",
+    "tema": [
+      "gatti",
+      "cognome"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -290,9 +305,12 @@
     "end": 1184.0,
     "speaker_raw": "SPEAKER_03",
     "testo": "Vabbè, ma uno di Barletta non è che riesce a capire come ti chiami di cognome, capito? Lo vuoi dire?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Cognome di Barletta",
+    "tema": [
+      "cognome",
+      "Barletta"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

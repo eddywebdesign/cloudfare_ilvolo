@@ -385,9 +385,12 @@
     "end": 1381.84,
     "speaker_raw": "SPEAKER_14",
     "testo": "Eh, si sente depredato della sua musica indie.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "musica indie",
+    "tema": [
+      "musica",
+      "indie"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -396,9 +399,12 @@
     "end": 1409.59,
     "speaker_raw": "SPEAKER_11",
     "testo": "L'anno scorso c'era uno che tutte le mattine, come una goccia cinese, mi scriveva tipo panettiere di merda, smettilo di fare. A parte che mi fa sempre ridere il fatto che pensino che panettiere sia offensivo, no? Io dico sempre, fra DJ e panettiere avrà un po' più di dignità al lavoro del panettiere, no? tutte le mattine 9.05 con una goccia e mi chiedo sempre il resto della giornata quando noi andiamo via cosa succede?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il panettiere e la dignità",
+    "tema": [
+      "lavoro",
+      "dignità"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -429,9 +435,12 @@
     "end": 1452.2,
     "speaker_raw": "SPEAKER_14",
     "testo": "ci sono i no sono io sei te? Stavo pensando un attimo. Sono io, sono io. Ah, Dio mio. Eh, vabbè, Bruno Rissa.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Bruno Rissa",
+    "tema": [
+      "umorismo",
+      "radio"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -440,9 +449,12 @@
     "end": 1467.91,
     "speaker_raw": "SPEAKER_11",
     "testo": "Ah, ragazzi, che mezz'ora che ci aspetta adesso. Non scendete dalla macchina. Non scendete. Chiamate e dite, oggi non vengo al lavoro perché devo ascoltare il programma.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "ascoltatori al lavoro",
+    "tema": [
+      "lavoro",
+      "ascoltatori"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -473,9 +485,12 @@
     "end": 1692.51,
     "speaker_raw": "SPEAKER_11",
     "testo": "allora abbiamo scoperto che abbiamo molti ascoltatori tendenzialmente di buon umore diciamo positivi insomma nonostante tutto che hanno però a che fare probabilmente forse il positivo attira un po' il negativo o viceversa persone tipo buongiorno e quello le risponde il collega tutte le mattine buongiorno una sega sarà toscano è molto toscana come frase no? è vero buongiorno una sega come va oggi? eh vabbè mi ricordo negli anni passati che per me la radio è come fare analisi io grazie a voi è come se facessi analisi allora quando magari dicevo no perché oggi è un periodo così i messaggi erano vabbè ma se ti lamenti tu con quello che prendi con quello che guadagno con tutti i soldi allora magari dopo facevo no ragazzi la vita è bella facile per te con tutti i soldi non se ne viene fuori quest'anno però abbiamo delle nuove regole abbiamo una nuova regola nel 2018 cioè che se diciamo un qualcosa che qualcuno un po' si infastidisce andiamo a prenderlo la pecorella smarrita ma non chiediamo scusa no andiamo a prenderlo chiediamo scusa ci chiediamo ok e poi o viene di qua o passa RTL no non lo so qual è l'alternativa radio DJ niente niente devo dire la verità niente il silenzio bravo Marco Ciao, buongiorno. Buongiorno Marco. Stavi scherzando tu ieri ovviamente.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il positivo e il negativo",
+    "tema": [
+      "umore",
+      "positività"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -495,9 +510,12 @@
     "end": 1700.14,
     "speaker_raw": "SPEAKER_11",
     "testo": "Ah no, sei serio? Allora ieri ho chiamato un ascoltatore che poi ha preso pure la multa.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "multa per ascoltatore",
+    "tema": [
+      "multa",
+      "ascoltatore"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -620,9 +638,12 @@
     "end": 1919.41,
     "speaker_raw": "SPEAKER_12",
     "testo": "no assolutamente guarda sono sotto le vacanze in Sicilia quindi ho preso tre chili e l'ho preso in un periodo insulto quindi no ti ho chiesto perché no siccome sento il pipì dei tasti a volte sono i cicciottelli con la guanza quando telefono ha capito che sono lì al telefono con Battistono ogni tanto sento capito",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "telefono con Battistono",
+    "tema": [
+      "telefono",
+      "Battistono"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

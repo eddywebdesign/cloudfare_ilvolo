@@ -598,9 +598,12 @@
     "end": 2373.51,
     "speaker_raw": "SPEAKER_01",
     "testo": "Sì. Ciao, sono Fabio Volo, Radio DJ, non so se mi conosci, è un programma radiofonico?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Presentazione del programma",
+    "tema": [
+      "radio",
+      "programma"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -609,9 +612,12 @@
     "end": 2376.05,
     "speaker_raw": "SPEAKER_05",
     "testo": "Sì, sì, ti ho già sentito, dimmi.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Riconoscimento del conduttore",
+    "tema": [
+      "radio",
+      "programma"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {

@@ -5,9 +5,12 @@
     "end": 6.93,
     "speaker_raw": "SPEAKER_08",
     "testo": "Radio DJ. One nation, one station. One love, one life. Turn your magic on.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Inno di apertura",
+    "tema": [
+      "amore",
+      "unità"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -41,9 +44,12 @@
     "end": 236.15,
     "speaker_raw": "SPEAKER_00",
     "testo": "Abbiamo già perso quei pochi ascoltatori.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Perdita di ascoltatori",
+    "tema": [
+      "ascoltatori",
+      "popolarità"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -52,9 +58,12 @@
     "end": 310.6,
     "speaker_raw": "SPEAKER_03",
     "testo": "Quei pochi ascoltatori con il tuo inglese da terza media, ma dove vuoi andare? Ah, guarda, perché io questa la metto sempre qui? Per poterlo dire in inglese. Hey guys, the pen... Allora, buongiorno a tutti, sono le 9 e 7 minuti, abbiamo detto, questa mattina bando alle ciance, ok, parliamo pochissimo, mettiamo la sigla, iniziamo oggi, come vi avevo detto già da lunedì, Igor Sibaldi è qui con noi, buongiorno Igor. Buongiorno. Ti abbiamo fatto la promozione già durante la settimana, verrà Igor, verrà Igor, quindi una grande, adesso quella cosa che non devi deludere le attese. No, no, non lo sapevo. No, no, noi facciamo tutte le cose alla grande. Oggi, ragazzi, ve la metto giù così, proprio dopo che ho sbagliato. A volte desiderate una cosa e non si capisce veramente se la desiderate prima o seconda. Perché a qualcuno gli va sempre un po' bene, a qualcuno gli va sempre un po' male? Perché a voi sembra che rincoriate un desiderio e come l'orizzonte si allontana con voi? Ecco, questa mattina parliamo di desideri, parliamo di volontà, parliamo di... lo scopriamo perché se sapessi già tutto adesso di cosa parliamo e cosa parliamo a fare",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "101 desideri",
+    "tema": [
+      "desideri",
+      "libro"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -218,9 +227,12 @@
     "end": 1026.03,
     "speaker_raw": "SPEAKER_01",
     "testo": "ma fondamentalmente sono tecniche delle procedure come per fare una torta ok delle ricette si trovano tutte in internet uno basta guardare 101 desideri 101 desideri sono tantissimi Maurizio la sta facendo da quanti?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "fare una torta",
+    "tema": [
+      "cucina",
+      "ricette"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -229,9 +241,12 @@
     "end": 1039.03,
     "speaker_raw": "SPEAKER_03",
     "testo": "due settimane? sì neanche sì allora l'altra mattina me la detto è difficile dovete mettervi lì con un foglio e dovete scrivere 101 desideri 150 150 all'inizio e poi diventano 101 ma è impossibile a quanti seri va? 20",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "scrivere 101 desideri",
+    "tema": [
+      "desideri",
+      "scrittura"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -823,9 +838,12 @@
     "end": 2751.86,
     "speaker_raw": "SPEAKER_03",
     "testo": "di questa stanza di questa via di questo tram di questa macchina cosa mi piace di questa città di questo paese la domanda scusami ecco che mi viene adesso perché abbiamo pochissimi minuti ti rinvito la settimana prossima i desideri sì poi esistono i nuclei nel senso io per esempio adesso ho una compagna e la nostra chiacchierata a cena è perché in alcuni punti desideriamo due cose diverse uno desidera andare, uno desidera rimanere quando si ha un nucleo che non si è più da soli se uno desidera una cosa diversa cosa significa? tu una volta mi hai detto l'anima gemella è la cosa peggiore che ti possa capitare nella vita perché?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "desideri in coppia",
+    "tema": [
+      "amore",
+      "relazioni"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -876,9 +894,12 @@
     "end": 2892.52,
     "speaker_raw": "SPEAKER_03",
     "testo": "Non gemella. Allora, Maurizio fa dei segni, non so se dietro di me sta atterrando un jumbo, perché fai così con le braccia, sta entrando un aereo dalla finestra? No, purtroppo dobbiamo parlare. è finito il programma ok noi ci risentiamo poi se puoi la settimana prossima magari troviamo un altro tema ne hai un milione quelli che piacciono a me soprattutto vorrei fare Igor Sibaldi Igor Sibaldi vogliamo dire qualcosa vuoi salutare a casa saluto tutti dare i compiti volevamo dare i compiti allora il compito era una lista di 105 desideri sì per domani per domani Vediamo, allora facciamo così, ragazzi appena avete tempo anche in ufficio, quelli lì che si annoiano, state attenti che adesso vi licenziano però, insomma così bastano due o tre? Tre. Igor dice due o tre, io direi cercate di arrivare a venti perché è lo sforzo che fa anche capire quali sono quelli importanti. Ma c'è due o tre è tanto. Va bene, grazie Igor, grazie a voi.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "jumbo dalla finestra",
+    "tema": [
+      "aereo",
+      "sorpresa"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   }
 ]

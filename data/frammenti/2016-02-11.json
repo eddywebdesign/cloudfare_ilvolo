@@ -38,9 +38,12 @@
     "end": 247.93,
     "speaker_raw": "SPEAKER_07",
     "testo": "E' come Nerone, quando c'era Nerone più o meno così. Quando c'era Nerone era così? Eh sì, infatti ha bruciato Roma perché potevano farlo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Nerone e la distruzione di Roma",
+    "tema": [
+      "amore",
+      "potere"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -60,9 +63,12 @@
     "end": 329.27,
     "speaker_raw": "SPEAKER_22",
     "testo": "buonanotte Grazie a tutti. Grazie a tutti. oh it's life it's free it's someone waiting for me who'll someday be my",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "It's Life",
+    "tema": [
+      "amore",
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -82,9 +88,12 @@
     "end": 384.16,
     "speaker_raw": "SPEAKER_07",
     "testo": "dice questo ragazzo ha ragione i proverbi sono sempre utili quasi tutti per esempio acqua passata non macina più acqua passata non macina più cosa vuol dire? vuol dire che è inutile che sforzarsi di tenere in mente come determinante delle proprie azioni qualcosa di passato è finto non farlo oppure né di venere né di Marte non si arriva e non si parte perché questa cosa?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Acqua passata non macina più",
+    "tema": [
+      "passato",
+      "azioni"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -93,9 +102,12 @@
     "end": 386.88,
     "speaker_raw": "SPEAKER_06",
     "testo": "né si sposa né si parte è uguale e perché?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Né si sposa né si parte",
+    "tema": [
+      "amore",
+      "relazioni"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -104,9 +116,12 @@
     "end": 405.0,
     "speaker_raw": "SPEAKER_07",
     "testo": "e tutti pensano che sia venerdì e martedì ma non è mica vero no, invece è vuol dire né sul principio della passione per qualcuno né sul principio dell'odio per qualcuno bisogna fondare le proprie decisioni cioè decidi quando non è per amore e non è per odio scusami, amore, venere è abbastanza così perché Marte è odio? è la guerra",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Né di Venere né di Marte",
+    "tema": [
+      "amore",
+      "odio"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -115,9 +130,12 @@
     "end": 468.46,
     "speaker_raw": "SPEAKER_06",
     "testo": "Marte è guerra non lo sapevo io questo là quindi né di venere né di Marte non si arriva non si parte vuol dire devi prendere una decisione aspetta quando non c'è di mezzo il sesso e quando non c'è di mezzo l'aggressività l'aggressività pensa che questa cosa che tu mi hai appena detto che non ce l'ho sempre preparata perché volevo andare da un'altra parte però sai che io ti cito sempre la Divina Commedia perché è la mia passione in radio lo dico ogni tanto in realtà ne parlerei tutti i giorni c'è un momento in cui Dante dice che lume non è se non viene dal sereno che non si turba mai o anzi è tenebra o ombra della carne o suo veleno detto semplicemente di venere di Marte pensa te che coincidenza sappiamo che Dante era un illuminato se tu non sei un sereno che non si trova mai quindi ti fai prendere le passioni spesso le decisioni tu pensi che siano razionali invece sono spinte dalla carne o dal suo veleno cioè dalle passioni dall'odio da tutto quello che è interessante ma oggi noi parliamo d'amore si lavora e si fatica e la dica non so come bisogna inventare la parte femminile ma questo no però ah tu dici che il lavoro mi sta pazzo mi sto",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La Divina Commedia",
+    "tema": [
+      "amore",
+      "passione"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -126,9 +144,12 @@
     "end": 530.19,
     "speaker_raw": "SPEAKER_07",
     "testo": "mi lavora e mi strapazzo è per il pazzo è per il pazzo che c'è in me ma è vero oggi Igor è impazzito questo è il proverbio più marxista che ci sia perché è verissimo adesso non ho mai modo di dire Marx però è simpatico Marx ha svegliato quasi tutto le strutture le ha prese buone uno lavora e fatica perché? perché deve per la carriera, perché la mamma dice no, no, se per lavorare e faticare bene devi pensare a una soddisfazione tua personale autentica di nutrimento quindi la pancia diciamo e l'amore l'amore cioè comunque diventare come dire fascinosi sugli altri o avere delle possibilità questo è più da politico invece la cosa migliore è tu lavorando hai la coscienza abbastanza a posto sei abbastanza libero per innamorarti per innamorarti perché chi ha il senso di colpa fa fatica a innamorarsi e sposa quello che gli dice sua mamma sposa",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Marx e la fatica",
+    "tema": [
+      "lavoro",
+      "fatica"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -534,9 +555,12 @@
     "end": 1159.86,
     "speaker_raw": "SPEAKER_06",
     "testo": "no no si può dire che Dio è un ostaggio assolutamente cioè chiunque in una discussione ti mette davanti la croce con Gesù dice sei contro di lui è chiaro che lui lo sta usando è sotto ricatto Gesù no? è l'ostaggio dalla chiesa questo è evidente un po' in ostaggio il fatto però si possono dire queste cose ci può dire tutto perché io lui si chiama Igor Sibaldi lo dico per chi lo deve querelare Igor Sibaldi io sono Fabio Ore sono un altro io ho già le mie battaglie con quelli del latte comunque tu dici tu dici",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Dio come ostaggio",
+    "tema": [
+      "religione",
+      "potere"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -573,9 +597,12 @@
     "end": 1232.37,
     "speaker_raw": "SPEAKER_06",
     "testo": "e tutte le foto di Gesù nel Vangelo sono a tavola non lavora, mangia gli lavano i piedi lui lava i piedi degli altri ma non c'era la maddalena che piange sui piedi quella è bellissima quella è una grande storia e senti come siamo arrivati qua stavamo dicendo è inchiodato sulla croce si famoso amore di Dio che non è quello della fidanzata perché con la fidanzata fai delle cose che Dio con te non fa certo",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Vangelo",
+    "tema": [
+      "religione",
+      "storia"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -914,9 +941,12 @@
     "end": 2120.31,
     "speaker_raw": "SPEAKER_23",
     "testo": "Pesaro, una donna intelligente, forse al vero ti hai fatto trasparente, ma non ci cascherai mai. E non mi importa se non mi ami più, e non mi importa se non mi vuoi bene, dovrò soltanto rimparare a camminare, dovrò soltanto rimparare a camminare se non ci sei più. Raggiungermi un orgasmo da provare Ricordami le olive sono buone Mi prenderò un gelato con il tuo sapore Ti spaccherò la faccia se non mi raccuori Tanto ne imparare a camminare Se non ci sei tu Allora dimmi che cosa mi manchi a fare Ti prego dimmi che cosa mi manchi a fare Tanto mi mancheresti lo stesso che cosa mi manchi a fare Ti prego dimmi Ma non ti dichiaro dentro una tv Che io da te non ho voluto amore Volevo solo scomparire in un abbraccio Volevo solo scomparire in un abbraccio Confondermi con...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La donna intelligente di Pesaro",
+    "tema": [
+      "amore",
+      "paura"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -950,9 +980,12 @@
     "end": 2235.68,
     "speaker_raw": "SPEAKER_06",
     "testo": "La domanda è, è più facile che quello lo sia il leader? Cioè quello con bassa energia diventa più capo di quello con...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il leader con bassa energia",
+    "tema": [
+      "leader",
+      "energia"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -975,9 +1008,12 @@
     "end": 2250.93,
     "speaker_raw": "SPEAKER_06",
     "testo": "Cioè è più difficile, diciamo, sollevare, metaforicamente, alzare l'energia o quindi anche, diciamo...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Alzare l'energia",
+    "tema": [
+      "energia",
+      "leader"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -1081,9 +1117,12 @@
     "end": 2395.26,
     "speaker_raw": "SPEAKER_06",
     "testo": "questa è una teoria che potete usare benissimo ogni volta che vi beccano quando uno vi becca che avete tradito ok togliete il vino a questo qui Luca da San Benedetto del Tronto levategli il vino stasera devo far ascoltare una puntata a mia moglie dove la trovo ok",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Togliere il vino a Luca",
+    "tema": [
+      "vino",
+      "Luca"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1203,9 +1242,13 @@
     "end": 2804.68,
     "speaker_raw": "SPEAKER_06",
     "testo": "per cui si fanno scegliere dal bassa energia per frenarsi ok è paura del successo paura della riuscita paura della felicità diciamo che aborre come senti che parola aborre il concetto di vincitore che sono quelli magari che ti dicono io li incontro anche tanti mi piacerebbe scrivere un libro non è che deve vendere cioè quelli che ti dicono subito che deve andare male una cosa ma scusami ma quando uno fa un lavoro vuole che vada bene ma sono persone molto nobili perché gli sembra che la vittoria sia una banalità Ma secondo te perché vengono magari da una famiglia dove diciamo il contesto in cui sono nati si sentiva che quella libertà, se una volta ho raccontato una metafora del maratoneta che avevo messo una volta in un libro, cioè tu vai a correre con un gruppo di persone e poi a tutto punto ti accorgi che hai una gamba più forte delle altre e cominci e vai e ti pieghi al tuo talento. a un certo punto tu però stai correndo da solo ti giri, vedi tutto il gruppetto che ride tutti insieme, allora tu fingi in qualche modo di non avere quel talento per rinfilarti nel gruppo perché altrimenti devi accettare la solitudine quello che si dice la solitudine dei numeri primi quindi può anche essere che una persona non voglia esprimere la grandezza che ha dentro che ne ha presa magari coscienza perché ha paura della solitudine ha paura della morte, ha paura che dopo non ci sia più niente sembra di essere ancora sempre molto molto giovane se non ancora vinto",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Paura del successo e della felicità",
+    "tema": [
+      "paura",
+      "successo",
+      "felicità"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -1214,9 +1257,12 @@
     "end": 2860.59,
     "speaker_raw": "SPEAKER_07",
     "testo": "piglia questo, piglia questo piglia lo energy, si innamora dello energy ama lo energy, lo energy è contento perché vive di rendita prima o poi io farò quella cosa quindi ha ancora diciamo lo sbocciare come proiezione del futuro e quindi pensa che la vita sia ancora lunga mentre se è già sbocciato dice vabbè quello che devo fare l'ho fatto e adesso cosa succede mi aspetta solo quando parlo di queste cose lo energy la gente dice qual è la soluzione allora se uno è così e l'altro è così nella maggior parte dei casi qual è la soluzione e la soluzione non c'è, la soluzione paradossale è che è l'amore che giustifica tutto l'amore giustifica qualsiasi cosa cioè tu stai con un criminale ma lo ami e va bene così, tu stai con uno stupido e lo ami, va benissimo così perché lo ami e questo non è che l'amore ha una spiegazione è l'amore che spiega le cose la stessa cosa per quello che riguarda in grande stile l'amore di Dio cioè Dio fa sto uomo e dai primi cinque pochi minuti questo subito gli fa dei dispetti grazie",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Lo sbocciare come proiezione del futuro",
+    "tema": [
+      "futuro",
+      "proiezione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1225,9 +1271,13 @@
     "end": 2996.95,
     "speaker_raw": "SPEAKER_06",
     "testo": "però Dio non è che lo elimina dal pianeta terra lo ama la follia lo ama proprio perché l'uomo è lo energy e Dio è bassa energia e l'uomo alta energia come nelle coppie nostre e come nelle coppie che lo energy abbassa Dio perché spesso nella spiegazione di Dio è continuamente una ridimensione di una cosa gigantesca poi Dio arriva sulla terra e l'uomo lo fa fuori perché non ne vuole sapere di quella cosa però l'amore continua e solo l'amore può spiegare questa cosa l'amore tra l'altro esce da ogni dimensione spazio-tempo perché tu puoi amare una persona che sta dall'altra parte del mondo e puoi amare una persona anche che è morta per dire e l'ami per altri vent'anni, trent'anni per uscire dalla dimensione spazio-tempo basta un bacio cioè tu dai un bacio a una persona che ami già sei fuori dal tempo non sai quanti sono sai quando di ragazzino che ti baciavi sulle panchine sui motorini passavi 6 ore il pomeriggio pensavi che fossero 10 minuti e andavi a casa che ti facevamo la mattina ma che ore sono? sono già le 7 mia mamma ha già messo giù la cena è quella roba lì senti giovedì prossimo per la gioia di molti a me piace molto il talk radio parliamo di angeli perché tu nella tua follia credi negli angeli credo è l'iconstato l'iconstato angeli arcangeli tutte queste cose ma non gli angeli quei dei film non quelli con le ali con le antenne tutti tedeschi gli angeli tedeschi tutti biondi non c'è mai un angelo marocchino la settimana prossima parliamo di angeli quindi di energia e di incontri diciamo perché l'angelo che cos'è se non uno specchio l'angelo è la parte soluzione dei problemi diciamo perché per gli antichi eh l'angelo è quello che sei davvero quando si parla di angelo dice ho visto l'angelo il problema è il verbo essere tu che angelo sei tu sei un angelo tu sei quello che sei è il tuo divenire è la terra promessa è il grado evolutivo superiore giovedì prossimo grazie ancora a Igor Sibaldi se vi volete preparare per giovedì prossimo c'è un libro che si chiama proprio Libro degli Angeli grazie a tutti Grazie Igor, ciao a tutti!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Dio e l'uomo come coppie",
+    "tema": [
+      "Dio",
+      "uomo",
+      "coppie"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   }
 ]

@@ -301,9 +301,12 @@
     "end": 899.22,
     "speaker_raw": "SPEAKER_09",
     "testo": "Io dal barbiere, sai che avevano sempre i giornaletti?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Giornaletti al barbiere",
+    "tema": [
+      "barbiere",
+      "giornaletti"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -599,9 +602,12 @@
     "end": 1858.35,
     "speaker_raw": "SPEAKER_12",
     "testo": "Senti, ci sono dei professori, diciamo, come c'è il professore di latino, o c'è già un'altra materia che fa anche questa ora di...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Professore di latino",
+    "tema": [
+      "latino",
+      "scuola"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -792,9 +798,12 @@
     "end": 2701.83,
     "speaker_raw": "SPEAKER_15",
     "testo": "Che nipote ha regalato? è molto carino, spiega tutto dalle somiglianze quanti anni devono avere i bambini?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Regalo dello zio Andre",
+    "tema": [
+      "regalo",
+      "zio"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -828,9 +837,12 @@
     "end": 2725.72,
     "speaker_raw": "SPEAKER_11",
     "testo": "Sì, è mia figlia la seconda, la Giulia. La prima in parallelo è stata la Caterina che adesso ha 14 anni. La Giulia è la terza.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Figlia e libro",
+    "tema": [
+      "figlia",
+      "libro"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

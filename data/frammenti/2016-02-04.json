@@ -336,9 +336,12 @@
     "end": 1336.93,
     "speaker_raw": "SPEAKER_01",
     "testo": "Adesso noi parliamo dei sette vizi capitali che io quando li ho letti mi hai cambiato tante cose. Anche a me? Probabilmente, come diceva Dante, faccio una citazione di un mio collega, diceva che... Che l'artista quando si mette a lavorare una cosa e poi deve rispondere anche alle leggi di quella materia, quindi lui dice nell'immaginazione fai quello che vuoi, ma la creatività si deve anche piegare a quello che è la materia, che è il legno, la pietra, quello che è. Questo è un discorso bellissimo. Lui ha i suoi tempi, adesso se mi dai un secondo, chiudo gli occhi, mi viene anche in mente quel passaggio lì della...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "I sette vizi capitali",
+    "tema": [
+      "etica",
+      "morale"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -347,9 +350,12 @@
     "end": 1415.4,
     "speaker_raw": "SPEAKER_00",
     "testo": "no, non mi viene in mente se mi viene in mente la prima parola poi la dico tutta a memoria ma mi manca la prima parola l'idea è quando uno comincia a costruire una casa comincia a fare i muri quando ha fatto i muri, 4 o 5 muri dopo la casa gli impone le sue leggi praticamente ti dice qualsiasi cosa tu faccia che sia un libro, un quadro una casa, un figlio, un'idea un bar tu cominci a costruirlo e lì hai la tua immaginazione e la scoperta è che questa cosa che stai facendo in qualche modo esisteva già mi aspettava te perché tu la facessi perché tu la cominci e dici adesso tu hai cominciato ma io mi scopri adesso non mi stai più inventando adesso sono io che uso te per finirmi diciamo una roba del genere e la sensazione bella e la sensazione bella è che non è che tu a un certo punto inventi ti usa lei la cosa e quest'altra parte che c'è è stata interpretata in tantissimi modi l'anima, l'infinito eccetera eccetera io penso che sia una parte di noi molto più grande ognuno ce l'ha che vuole manifestarsi e che non vede l'ora dice guarda sei qui sulla terra per favore fammi esistere musica",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La creatività e le leggi",
+    "tema": [
+      "creatività",
+      "autonomia"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

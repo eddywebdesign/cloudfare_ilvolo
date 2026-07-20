@@ -126,9 +126,11 @@
     "end": 417.84,
     "speaker_raw": "SPEAKER_04",
     "testo": "Tre, quattro, sei, sei. Felicità. Buongiorno. Felicità. Felicità. Eccola qua, un'emozione che non sai descrivere, viene e va. Sabili a te, che ci sta, sul volto tuo. Siamo liberi!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Emozione che non sai descrivere",
+    "tema": [
+      "emozione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -159,9 +161,11 @@
     "end": 573.74,
     "speaker_raw": "SPEAKER_14",
     "testo": "Ma in che senso il tuo cugino lavorava per Bob Marley?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Bob Marley",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -346,9 +350,12 @@
     "end": 1044.78,
     "speaker_raw": "SPEAKER_11",
     "testo": "Vabbè, perché esteticamente non c'è niente da dire, cosa ti posso dire? C'è un mio cugino che andava a girare dei volumi.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "cugino che girava volumi",
+    "tema": [
+      "famiglia",
+      "lavoro"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -448,9 +455,11 @@
     "end": 1137.12,
     "speaker_raw": "SPEAKER_11",
     "testo": "Sì, mio cugino è mio cugino. Allora, Piero Gaimadufi, guarda. Prendi i tuoi figli. Cosa faccio? Attacco i figli. Si dà gli attacco qua. No, aspetta. Questo era giusto. Attacco i figli.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "cugino e i figli",
+    "tema": [
+      "famiglia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -588,9 +597,11 @@
     "end": 1577.4,
     "speaker_raw": "SPEAKER_11",
     "testo": "Io ho pensato a Canavacciuolo, Antonino Canavacciuolo. Antonino Canavacciuolo, questo soffritto, come lo facciamo questo soffritto, che dice che lui grida nel cuscino, che di solito è tipico delle mogli, no?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Canavacciuolo e il soffritto",
+    "tema": [
+      "cucina"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -632,9 +643,12 @@
     "end": 1591.63,
     "speaker_raw": "SPEAKER_14",
     "testo": "Non fa come terapia e pallotto. E sai quello che sparavano? Tu sai che cosa faccio io quando sono arrabbiato? Mi sfogo col cuscino. Sfogati col cuscino. Vedrai come ti senti.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "sfogarsi col cuscino",
+    "tema": [
+      "stress",
+      "rilassamento"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -654,9 +668,13 @@
     "end": 1833.76,
     "speaker_raw": "SPEAKER_13",
     "testo": "le cose grandi finiscono sono quelle piccole che durano la società deve tornare unita e non così frammentata basterebbe osservare la natura per capire che la vita è semplice e che bisogna tornare al punto di prima in quel punto dove voi avete imboccato la strada sbagliata Bisogna tornare alle basi principali della vita, senza sporcare l'acqua.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La società frammentata",
+    "tema": [
+      "unità",
+      "natura",
+      "semplicità"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -904,9 +922,12 @@
     "end": 2562.3,
     "speaker_raw": "SPEAKER_11",
     "testo": "te lo giuro è stato uno dei primi libri che mi ha cambiato la vita ma tu ti sei adeguata ai cantatori del giorno d'oggi i cantatori del giorno d'oggi che prendono aspirina poi la bevo vado a dormire e mi sveglio faccio cola cioè è descrittivo si dice mollo tutto e vado a vivere in campo intanto te lo ricordi",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Libro che cambiò la vita",
+    "tema": [
+      "libri",
+      "cambiamento"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -1283,9 +1304,12 @@
     "end": 3128.76,
     "speaker_raw": "SPEAKER_07",
     "testo": "Dice sì, sempre sì, sì, sono qui. Stamattina nei polmoni non voglio l'aria dei termosifoni. Amore mio, vieni anche tu, il capo ufficio lasciamolo su, lasciamolo su. Spagna dove è? Voglia il verde intorno a me. Il profumo della sera quando torna primavera. Per stavolta faccio senza della pasta asciutta scatta della mensa. Amore mio, vieni anche tu il capo ufficio. Lasciamolo su, e anche tu.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il profumo della sera",
+    "tema": [
+      "musica",
+      "primavera"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -1305,9 +1329,12 @@
     "end": 3155.98,
     "speaker_raw": "SPEAKER_07",
     "testo": "Ma dove andiamo tutti in colla con queste nostre maledette macchinette? Oggi c'è il sole! Non lo timbrate il cartellino! Non la firmate la presenza! Dobbiamo chiudere?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La macchinetta",
+    "tema": [
+      "lavoro",
+      "ufficio"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1327,9 +1354,12 @@
     "end": 3160.46,
     "speaker_raw": "SPEAKER_07",
     "testo": "Non vi arrampicate su un albero!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Non arrampicarsi",
+    "tema": [
+      "saggezza",
+      "consiglio"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

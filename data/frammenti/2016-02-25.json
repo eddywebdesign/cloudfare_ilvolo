@@ -343,9 +343,11 @@
     "end": 793.49,
     "speaker_raw": "SPEAKER_02",
     "testo": "la mia favola ma forse quella a cui sono più affezionata direi Cenerentola Cenerentola vuol dire che sei una stronza cioè hai detto no sto scherzando no no no Cenerentola",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Cenerentola riferimento",
+    "tema": [
+      "fiaba"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -365,9 +367,11 @@
     "end": 802.98,
     "speaker_raw": "SPEAKER_07",
     "testo": "Cenerentola è quella più spinta di tutte.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Cenerentola commento",
+    "tema": [
+      "fiaba"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -398,9 +402,12 @@
     "end": 807.12,
     "speaker_raw": "SPEAKER_00",
     "testo": "È quella più erotica Cenerentola. Sole!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Cenerentola erotica",
+    "tema": [
+      "amore",
+      "fantasia"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -431,9 +438,12 @@
     "end": 879.64,
     "speaker_raw": "SPEAKER_07",
     "testo": "Disney l'ha capita benissimo Disney è un grande maestro e infatti è l'unico cartone animato Cenerentola in cui compare uno striptease lei all'inizio comincia e si spoglia l'adulto non ci fa caso perché pensa che siano solo cartoni animati il bambino ha gli occhi così dice questa qui è nuda lì dietro e tutta la Cenerentola è una storia di iniziazione sessuale di un passaggio da un tipo di sessualità a un altro per esempio tutti l'hanno visto Cenerentola lei all'inizio frequenta chi? Passerottini e Topolini ah dici che c'è quella cosa lì tra i topolini che sono amici suoi i passerottini che girano intorno nei linguaggi popolari di mezzo mondo il passerottino e il topolino voltati al femminile indicano una sessualità di un certo tipo che sessualità indicano? indicano una sessualità piccola, spaventata, clandestina che scappa via quando arrivano gli adulti e questa qui c'era intorno all'inizio Dopodiché arriva la fatta, quando Cervento è disperato, perché bisogna sempre essere un po' disperati nelle fiabe, o nelle pancie dei lupi, o nelle grotte.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Cenerentola di Disney",
+    "tema": [
+      "sessualità",
+      "iniziazione"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -453,9 +463,12 @@
     "end": 924.33,
     "speaker_raw": "SPEAKER_07",
     "testo": "Infatti, e lì c'è il cambio di personalità. E la fatta gli fa una lezione di potenza sessuale terribile, perché prende i topolini e li trasforma in due cavalloni giganteschi. Come dire, ragazza mia, tu non hai capito questa cosa. quella cosa che tu hai lì che pensi sia un topolino quella è una potenza straordinaria devi sapere per andare dal principe cosa travolge cosa vuole il principe soprattutto questi cavalloni questa potenza e la zucca è la zucca importante questa è una cosa che sanno solo le donne perché a un certo punto nella pubertà comincia a cambiare il corpo all'improvviso per una donna è terribile perché si sente ingrossata ai fianchi ingrossata al seno cambia tutto è una roba spaventosa noi non possiamo capire questa è una cosa",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La fata e la zucca",
+    "tema": [
+      "potere",
+      "sessualità"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -536,9 +549,12 @@
     "end": 1230.8,
     "speaker_raw": "SPEAKER_07",
     "testo": "La comunità si rivolge al pifferaio, poi qualcosa non va bene e il pifferaio, che sarebbe il capo della comunità, trascina via la giovane generazione e la distrugge.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La comunità e il pifferaio",
+    "tema": [
+      "potere",
+      "distruzione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -650,9 +666,12 @@
     "end": 1364.25,
     "speaker_raw": "SPEAKER_00",
     "testo": "E la cenerentola è quello che noi teniamo in cantina, diciamo, a ramazzare.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Cenerentola in cantina",
+    "tema": [
+      "lavoro",
+      "umiliazione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -699,9 +718,12 @@
     "end": 1435.29,
     "speaker_raw": "SPEAKER_00",
     "testo": "Qualunque cosa desideri, riesci a tenerlo. Non ti scappa, non te lo dimentichi e rimane primo nella lista delle cose, secondo me.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Tenere le promesse",
+    "tema": [
+      "impegno",
+      "responsabilità"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -710,9 +732,12 @@
     "end": 1463.67,
     "speaker_raw": "SPEAKER_07",
     "testo": "spiega perché nel verso prima cioè dice nei sogni non hai heartaches cioè non hai dolori non hai dolori allora se tu non sei triste qualsiasi cosa tu desideri hai il coraggio di tenerla e di formularla se la formuli è fatta torniamo con il gatto con gli stivali per tutti quelli che hanno i gatti torniamo col pifferaio con Pinocchio che è importantissima ok la spada nella doccia",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Non avere dolori",
+    "tema": [
+      "felicità",
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -746,9 +771,12 @@
     "end": 1720.63,
     "speaker_raw": "SPEAKER_00",
     "testo": "buon anno Diamo un abbraccio forte e speciale alla nostra ascoltatrice Veronica. Ciao Veronica. Allora, qua adesso molti chiedono, per esempio Aladino, che lavora anche qui a Radio VJ, tra l'altro uno che si chiama...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "riferimento ad Aladino",
+    "tema": [
+      "fiaba",
+      "cinema"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
