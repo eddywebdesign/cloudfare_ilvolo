@@ -38,11 +38,9 @@
     "end": 189.9,
     "speaker_raw": "SPEAKER_14",
     "testo": "è una canzone importantissima per il movimento dei diritti civili oh ecco",
-    "titolo": "Mi manca il mio amore",
-    "tema": [
-      "amore"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
@@ -363,9 +361,12 @@
     "end": 1351.31,
     "speaker_raw": "SPEAKER_14",
     "testo": "oh mannaggia rivendica la fraternità Dario Brunori ma tu io vorrei come",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "rivendicare la fraternità",
+    "tema": [
+      "fraternità",
+      "amicizia"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -374,9 +375,12 @@
     "end": 1377.94,
     "speaker_raw": "SPEAKER_11",
     "testo": "ci puoi venire a trovarci ci puoi venire a trovare io anche gli haters a volte quelli proprio cattivosi io li vorrei incontrare ma non so se è cattivo no no ma anche questo che tutte le volte che mettiamo Bruno Rissas lui scrive ah avete scoperto Fabio Vola ha scoperto a parte che non l'ho scoperto poi non l'ho scelto neanch'io nel senso che non faccio io questo Ma mi fa ridere che 20 volte 20 messaggi.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Bruno Rissal e la pazienza",
+    "tema": [
+      "pazienza",
+      "ascoltatore"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -424,9 +428,12 @@
     "end": 1439.08,
     "speaker_raw": "SPEAKER_11",
     "testo": "questo tipo va al bar buongiorno buongiorno sono quelli che fa sempre un po' così ha scoperto il buongiorno ma voi ce li avete nella vita quelli che come va? come no? ce li avete? ci sono qua in radio? la sento fare nomi dimmi se ci sono in radio quelli dai come va?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "il buongiorno",
+    "tema": [
+      "buongiorno",
+      "comportamento"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -718,9 +725,12 @@
     "end": 1999.42,
     "speaker_raw": "SPEAKER_12",
     "testo": "che meraviglia hai salvato la vita puoi venire qua in radio e la accendiamo che devo andare a molire io devo venire in radio per salutare a Barbara che è un'amica ah Barbarina lei si che è bisex della mia stessa città quindi senza dire dove ciao va bene Marco ti mettiamo una bella canzone grazie e vienici a trovare presto porta l'app e poi",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "molire",
+    "tema": [
+      "libro",
+      "ascoltatore"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -740,9 +750,12 @@
     "end": 2086.73,
     "speaker_raw": "SPEAKER_01",
     "testo": "vai ti aspettavo abbiamo il test verificate la vostra virilità Questa è la cassetta audio numero uno. Occhio all'apparenza. Sei vestito in modo adeguatamente virile? Molto. Sei un vero uomo? Sì. Alzati in piedi. Tirati fuori la camicia. Solo da una parte. Ti dà molto fastidio, vero? Ma certo, guarda qua. Tu vuoi essere preciso, vuoi essere ordinato. Destemati. Non i capelli. Il pacco. Minuccia. I gioielli di famiglia. Sei in un bar. Ok. Ripeti con me. Au. Au. Bella fica. Bella fica. Che deliziose tendine. Che deliziose... Regato. Porca... Capice. Siamo arrivati al punto più critico del comportamento virile. Qual è? Ballare. i veri maschi non ballano nessuna circostanza io questa me la ballo ragazzi fuori tutta la nostra omosessualità",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "la cassetta audio",
+    "tema": [
+      "libro",
+      "virilità"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -762,9 +775,12 @@
     "end": 2358.81,
     "speaker_raw": "SPEAKER_11",
     "testo": "Molti ascoltatori si sono dichiarati gay durante questa canzone, io sto potando e me la sto cantando tutta, forse l'immagine più gay che possiamo dare di un etero è che ciao sto ballando mentre spingo il passeggino in un quartiere hipster di Copenhagen. Passa dalla Cristiania e comprati un panetto, che è meraviglioso. È ancora così? Non lo so, sono stato l'altro giorno a Copenaghe ma all'aeroporto, dove però c'è quello che fa i panini più buoni del mondo, per cui sono sempre contento di atterrare lì.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "ballare con il passeggino",
+    "tema": [
+      "musica",
+      "genitori"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {

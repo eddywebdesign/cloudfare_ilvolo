@@ -66,12 +66,9 @@
     "end": 282.91,
     "speaker_raw": "SPEAKER_05",
     "testo": "Che nel 2016, pare, ora bisogna capire se sarà attuato veramente o se è uno slogan elettorale. Uno slogan, così! Comunque nel giro di 48 ore, dipendenti assenteisti o comunque fannulloni potranno essere licenziati.",
-    "titolo": "Legge sul lavoro",
-    "tema": [
-      "lavoro",
-      "politica"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
@@ -359,9 +356,12 @@
     "end": 1363.97,
     "speaker_raw": "SPEAKER_07",
     "testo": "dimmi dimmi piacere di stare insieme solo per criticare questi sono i blur poi vi spiego cosa è successo",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "I Blur e la critica sociale",
+    "tema": [
+      "musica",
+      "critica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {

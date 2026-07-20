@@ -38,9 +38,12 @@
     "end": 245.1,
     "speaker_raw": "SPEAKER_07",
     "testo": "My Girl Radio DJ sta per cominciare una nuova puntata del volo del mattino da un armadio di Manhattan, buongiorno Maurizio, Viola, tutti, eccoli lì, ok la Viola non è ancora arrivata immagino che non sento il ciao, no mi ha detto che andava per dare il caffè Allora, senti una cosa, ovviamente ho saputo della morte di Marco Pannella e mi dispiace tanto perché è uno dei pochi politici che ho veramente sempre stimato anche il suo modo eccentrico di fare politica, immagino perché non sono lì che ne abbiano parlato un po' tutti.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Marco Pannella",
+    "tema": [
+      "politica",
+      "morte"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -60,9 +63,12 @@
     "end": 266.97,
     "speaker_raw": "SPEAKER_07",
     "testo": "spero che gli abbiano dedicato tutte le attenzioni che merita e quindi dedichiamo questo volo del mattino anche se non ne parliamo perché comunque appunto ne hanno già parlato tanti e poi comunque noi andiamo avanti però come dedica così simbolicamente questa puntata del volo del mattino è dedicata a Marco Pannella sigla",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Dedica a Marco Pannella",
+    "tema": [
+      "politica",
+      "memoria"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -71,9 +77,12 @@
     "end": 314.76,
     "speaker_raw": "SPEAKER_06",
     "testo": "Good morning life, good morning sun, how are you skies above, it's great to be alive and in love. Have a good day sir. Good morning life, good morning birds, sing out your happy tune, feel so good cause I'll be seeing you soon. Ho ho ho! Good morning life, good morning world, how are you? Happiness, all at once I knew what living can be. sandwich sandwiches",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Good Morning Life",
+    "tema": [
+      "amore",
+      "felicità"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -82,9 +91,12 @@
     "end": 409.71,
     "speaker_raw": "SPEAKER_07",
     "testo": "Allora, diciamo che ho un umore che, come si direbbe a Brescia, va su, va su, va su e giù, su e giù, su e giù, come la pelle del piccio, nel senso che è variabile. Che volgarotto. Eh, difatti, l'ho detta veloce perché così molti non hanno capito. Cosa succede? Allora, sono contento perché quando sono in questa città ovviamente mi vengo perché mi piace. Poi perché sono qui non solo perché vengo tutti gli anni, ma perché sto realizzando un sogno, cioè quello di girare una serie televisiva me la sono scritta tutta la sto girando e quindi comunque vada ho fatto una cosa che volevo fare nella vita speriamo che poi vada bene dovrebbe essere pronta per ottobre ok? sono particolarmente contento perché quando trasmetto qui dall'armadio a fianco c'è una bacheca appesa al muro e per esempio adesso mentre andava la sigla guardavo e c'è l'ecografia del mio primo figlio di Sebastian perché l'avevamo fatta qua ok? quindi adesso la guardavo e dicevo ammazza pensa adesso c'è una persona lì capito che... mi tira anche sveglio e una volta era solo capito un bianco e nero su questa cosa molto contento poi però vado anche un po' in tristezza perché leggo questo messaggio Fabio quando da fazio vai vestito elegante si vede che non sei a tuo agio oltre che a non stare esteticamente bene elegante senti elegante non stai affatto bene e non capisco questa tua punto di domanda scelta ma",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Umori variabili",
+    "tema": [
+      "umore",
+      "personalità"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -184,9 +196,12 @@
     "end": 658.0,
     "speaker_raw": "SPEAKER_12",
     "testo": "Vespe truccate, anni sessanta, girano in centro sfiorando i novanta Rosse di fuoco, comincia la danza, di frecce con dietro attaccata una targa Dammi una sperocia all'estate che avanza, dammi una vespa e ti porto in vacanza Ma quanto è bello andare in giro con le ali sotto i piedi Se la mia vespa specia anche, ti toglie i problemi Ho una vespa domenica e già, e una vespa mi porterà fuori città. Fuori città. Esco di fretta dalla mia stanza A marce ingranate dalla prima alla quarta Devo fare in fretta, devo andare a una festa Fammi fare un giro prima sulla mia Vespa Dammi una special, l'estate che avanza Dammi una Vespa e ti porto in vacanza Ma cos'è bello andare in giro Con le ali sotto i piedi Se hai una Vespa special che Ti toglie i problemi La scuola non va, ma una vespa una donna non ho, ho una vespa domenica è già, e una vespa mi porterà.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Vespa",
+    "tema": [
+      "estate",
+      "libertà"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -264,9 +279,12 @@
     "end": 798.91,
     "speaker_raw": "SPEAKER_07",
     "testo": "no invece lei mi dice no che sto bene in giacca e cravatta sto bene e invece no ma io penso che sia dovuto al successo secondo me ripeto devi dimostrarti qualcosa di meglio rispetto a quello che ah dici che l'abito che tento con l'abito che fa il monaco",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "il successo cambia le persone",
+    "tema": [
+      "successo",
+      "cambiamento"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -289,9 +307,12 @@
     "end": 834.23,
     "speaker_raw": "SPEAKER_07",
     "testo": "Mi fa ridere che tu pensi che io mi vesta in giacca e gravata perché il successo mi ha rovinato, mi fa ridere.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "il successo non mi ha rovinato",
+    "tema": [
+      "successo",
+      "autostima"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -350,9 +371,12 @@
     "end": 867.54,
     "speaker_raw": "SPEAKER_01",
     "testo": "Comunque guarda qualcosa su YouTube, è un canale YouTube con diversi video. Luca Tassone.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "video di Luca Tassone",
+    "tema": [
+      "YouTube",
+      "video"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -394,9 +418,13 @@
     "end": 931.38,
     "speaker_raw": "SPEAKER_01",
     "testo": "A proposito dei miei cortometraggi, ho visto proprio a Silvano, no, perché li faccio, cerco di farli seriamente. ho proprio chiesto a Silvano di recitare la sua poesia e lui mi ha messo la voce per il mio corso bello va bene va bene adesso andiamo a vederli un secondo prendo un attimo fiato che ho corso l'ultima cosa ho fatto l'ultimo cortometraggio si chiama i due soli e anche lì ho messo una poesia di Silvano guarda il trailer che secondo me ti piace ti passo un attimo l'analisa che la saluti mia moglie aspetta un secondo",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La realizzazione del cortometraggio I due soli",
+    "tema": [
+      "cinema",
+      "poesia",
+      "creatività"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -493,9 +521,12 @@
     "end": 970.77,
     "speaker_raw": "SPEAKER_05",
     "testo": "Sono andato su YouTube a vedere adesso la poesia letta da Silvana.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "poesia letta da Silvana",
+    "tema": [
+      "poesia",
+      "lettura"
+    ],
+    "tipo": "lettura_volo",
     "video_url": ""
   },
   {
@@ -515,9 +546,12 @@
     "end": 1186.14,
     "speaker_raw": "SPEAKER_07",
     "testo": "vedo Viola che scarta sono arrivati perché ovviamente mi ritiri tu la posta che faccio giù c'è una cortina di perro fatta di posta tua di posta mia ok allora sono arrivati no no perché io lo so che l'ho già visto io quel libro lì che tu stai cercando di non dirmelo che mi è arrivato",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "il libro di Viola",
+    "tema": [
+      "libro",
+      "posta"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -540,9 +574,12 @@
     "end": 1320.37,
     "speaker_raw": "SPEAKER_07",
     "testo": "ok e poi secondo Matteo Matteo Salvini allora quello che volevo visto io che tu cercavi di nasconderlo dopo la telefonata dell'anno scorso l'anno scorso era no era quest'anno all'inizio si eravamo nello studio bello si con la telefonata con Salvini che ci siamo mandati a quel paese a vicenda poi dopo io quando è uscito il mio libro glielo ho mandato perché gliel'avevo promesso davvero e eh sì perché io gli ho detto io te lo manderò il mio libro io gli ho mandato quella dedica perché ognuno la pensa come vuole ma io sono comunque di parola e lui adesso mi ha mandato il suo perché mi ha mandato un messaggio dicendomi ti ho mandato il libro quindi ci sarà la dedica per forza vediamo c'è la dedica vuoi sapere? la dedica nel libro di Salvini che lo legge Viola ma se ci stai ascoltando Matteo Salvini lo legge la Viola nelle vacanze perché io sono andato via la dedica dice a Fabio chi l'avrebbe mai detto puntini Matteo va bene va bene secondo me tu lo leggi Viola poi lo leggo io e poi lo vendiamo con la dedica e secondo me ci facciamo anche dei soldi qualcuno che ha Pontida paga chissà quanto per avere la sua firma Va bene, va bene. Un ascoltatore ci fa notare che oggi è il compleanno di Albano. Ci pensiamo noi. Come va il tuo seno, Fabio? Bene, bene. Ho una seconda coppa C. No, qualcuno mi chiede invece dei biscotti. Non ho il nome qua, mannaggia. informati domani ve li porto domani no che è sabato lunedì va bene",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "il libro di Matteo Salvini",
+    "tema": [
+      "libro",
+      "politica"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {

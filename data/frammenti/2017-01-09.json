@@ -16,12 +16,9 @@
     "end": 133.64,
     "speaker_raw": "SPEAKER_17",
     "testo": "where the moon glows in your hair and the rain falls down on a ground that's cold and bare dripping from the clouds where I sing because I care till my lungs fall out I'm asleep but well aware Il nostro corso gratuito è www.mesmerism.info Grazie a tutti.",
-    "titolo": "Canzone di apertura",
-    "tema": [
-      "musica",
-      "canzone"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
@@ -584,9 +581,12 @@
     "end": 2072.97,
     "speaker_raw": "SPEAKER_11",
     "testo": "però ti tocca farla no no però ha capito però ti va bene lo stesso è la cosa interessante",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Priorità e compiti",
+    "tema": [
+      "lavoro",
+      "gestione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -609,9 +609,12 @@
     "end": 2148.59,
     "speaker_raw": "SPEAKER_11",
     "testo": "a noi si voleva sapere tutto no aspetta tu vuoi dire Matteo ci vuoi dire che altri sei e Matteo quanto tempo hai perché il programma fra un po' è finito mi va bene lo stesso certo che mi va bene lo stesso le priorità capo ti dice ho bisogno che mi aiuti con quest'altro caso e ne ho già tre quale preferisci che ti consegni prima guarda che vabbè Matteo me le devi devo venire a fare il corso questa non mi ha convinto senti senti dimmi nelle relazioni di copia ti va di amore abbiamo dieci minuti ti va di fare l'amore Ho un'erezione fra un quarto d'ora, ti va bene lo stesso?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Matteo e compiti",
+    "tema": [
+      "lavoro",
+      "gestione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -634,9 +637,12 @@
     "end": 2170.65,
     "speaker_raw": "SPEAKER_13",
     "testo": "Acidino eh. No, no. Passive aggressive.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Acidino",
+    "tema": [
+      "film",
+      "commedia"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -824,9 +830,12 @@
     "end": 2860.2,
     "speaker_raw": "SPEAKER_06",
     "testo": "in this location grazie a tutti Grazie a tutti. ... ... ... ... ... ... ... ... ... ... ... ... Sì.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Grazie a tutti",
+    "tema": [
+      "ringraziamento",
+      "apprezzamento"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {

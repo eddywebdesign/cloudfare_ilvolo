@@ -104,9 +104,13 @@
     "end": 628.03,
     "speaker_raw": "SPEAKER_14",
     "testo": "Chi sguarza i cortili? Grazie a tutti. Chi ha l'antifurto? Chi ha fatto un bel quadro? Chi scrive sui muri? Chi regisce d'istinto? Chi ha perso? Chi ha vinto?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Domande sull'istinto e la vita",
+    "tema": [
+      "istinto",
+      "vittoria",
+      "sconfitta"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -181,9 +185,12 @@
     "end": 764.07,
     "speaker_raw": "SPEAKER_00",
     "testo": "Madonna, sai che a me una volta mi è successo col peperoncino, sembra una barzelletta ma è vero, mi è successo col peperoncino, sono andato in bagno.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'incidente col peperoncino",
+    "tema": [
+      "disavventure",
+      "quotidianità"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -225,9 +232,11 @@
     "end": 795.46,
     "speaker_raw": "SPEAKER_00",
     "testo": "Pronti? Pronti, come va? Sono sempre Fabio, ormai sono di casa.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Pronti? Pronti, come va?",
+    "tema": [
+      "benvenuto"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -247,9 +256,12 @@
     "end": 803.76,
     "speaker_raw": "SPEAKER_00",
     "testo": "Allora, dopo la telefonata in onda dove il figlio la accusava di essere, o ti accusava perché...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il figlio accusa la madre",
+    "tema": [
+      "famiglia",
+      "genitori"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -269,9 +281,12 @@
     "end": 814.91,
     "speaker_raw": "SPEAKER_00",
     "testo": "Esatto, dove tuo figlio ti accusava di essere uno schiavista e invece tu dicevi che era lui che ti schiavizzava. Ecco, ti voglio chiedere, dopo quella telefonata è cambiato qualcosa?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Dopo la telefonata è cambiato qualcosa?",
+    "tema": [
+      "genitori",
+      "comunicazione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -291,9 +306,12 @@
     "end": 854.5,
     "speaker_raw": "SPEAKER_00",
     "testo": "è peggiorata la situazione perché guarda adesso prima mi dava ancora la mancia settimanale adesso me la ridotta perché adesso lui si sente un po' la popolarità addosso e quindi è ancora più spregevole come persona è più arrogante Senti, guarda, guarda, non posso, devo sempre chiedere permesso, tutto, sai come a scuola quando alzi la mano, secondo come gli dice zitto, e allora stai zitto e... Sai che, siccome avete tutti e due la voce da giovane, devo ricordarmi che tu sei il papà, ma ti volevo dire, però si capisce che comandi tu, perché tu stai facendo le fragoline, lui sta facendo l'aglio, eh, cioè...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Figlio che ti accusa di essere uno schiavista",
+    "tema": [
+      "genitori",
+      "comunicazione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -302,9 +320,12 @@
     "end": 857.02,
     "speaker_raw": "SPEAKER_07",
     "testo": "Ma guarda che è più simpatico fare l'aglio che le fragoline, eh!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Fare l'aglio è più simpatico",
+    "tema": [
+      "umore",
+      "giardino"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -313,9 +334,12 @@
     "end": 859.87,
     "speaker_raw": "SPEAKER_00",
     "testo": "Perché? Perché le fragole ti devi abbassare, no?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il figlio e le fragole",
+    "tema": [
+      "famiglia",
+      "genitori"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -324,9 +348,12 @@
     "end": 866.24,
     "speaker_raw": "SPEAKER_07",
     "testo": "Eh, beh, anche l'aglio, ma comunque... Sì, vabbè, diciamo... Diciamo che oggi mi ha un po' agevolato, dai.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il figlio e l'aglio",
+    "tema": [
+      "famiglia",
+      "genitori"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -335,9 +362,12 @@
     "end": 875.74,
     "speaker_raw": "SPEAKER_00",
     "testo": "Ah, dai, ok, ok. Va bene, dopo lui va in bicicletta con le mani che puzzano di aglio, il resto è sul manubrio della bici, capito? La vuoi dire? Eh, non lo so, adesso glielo chiedo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il figlio e la bicicletta",
+    "tema": [
+      "famiglia",
+      "genitori"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -346,9 +376,12 @@
     "end": 886.97,
     "speaker_raw": "SPEAKER_07",
     "testo": "Ma io pensavo che quando fa le gare, se lui si corpargesse bene di aglio che fa il vuoto intorno, e invece di arrivare sempre ultimo, potrebbe fare anche tenutimo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Aglio per vincere le gare",
+    "tema": [
+      "sport",
+      "umore"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -379,9 +412,12 @@
     "end": 941.91,
     "speaker_raw": "SPEAKER_00",
     "testo": "eh devi stare attento va bene ragazzi in bocca al lupo sono contento che ti sei fatto il panino col pomodoro mentre ci ascoltavi va bene va bene fantastico va bene la prima canzone è stata favolosa ti è piaciuta la prima canzone? sì fantastica ok grazie ci sentiamo l'anno prossimo grazie va bene grazie mille io aspetto sempre ciao ciao ciao ciao ciao ciao ciao ciao Vi mancheranno di più le nostre parole, le nostre telefonate con gli ascoltatori o la nostra musica?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La prima canzone del programma",
+    "tema": [
+      "musica",
+      "programma"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -390,9 +426,12 @@
     "end": 1087.16,
     "speaker_raw": "SPEAKER_12",
     "testo": "I found me a better lover in the UK ... Ciao! Ciao! grazie",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "I found me a better lover",
+    "tema": [
+      "musica",
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -401,9 +440,12 @@
     "end": 1227.68,
     "speaker_raw": "SPEAKER_00",
     "testo": "mentre andava questo disco meraviglioso riflettevo sul fatto che a 44 anni non ho ancora imparato a tagliarmi bene le unghie della mano destra usando la sinistra mentre mi taglio con la destra mi taglio le unghie della mano sinistra con l'altra faccio fatica e l'indice me lo sono tagliato troppo tutte le mangi viola per cui non puoi capire assolutamente no sono dieci anni che non mi mangio un'unghia per quelli che non si mangiano per quelli che non si mangiano le unghie delle mani è fastidioso tagliarle troppo capito? tu Maurizio non te le mangi più no no no non te le sei mai mangiate no no no era tuo fratello che proprio non le aveva cioè tuo fratello fino alle nocchie se le mangiava mi ricordo vabbè comunque con questa bella immagine della pulizia del corpo ci sentiamo tra pochissimo c'è anche Igor Sibaldi oggi lui le unghie se le mangia ho visto si ha le mani no no quelle dei piedi qualcuno ci dice che già mancheremo ma c'è ancora domani ragazzi c'è ancora domani e poi è la solita storia che si ripete tutti gli anni un po' ci manchiamo poi a ottobre torniamo i primi giorni ci dite che eravamo più bravi l'anno prima e dopo alla fine ci dite ah che bella questa stagione questa è stata una bella stagione sia per Radio DJ che per il volo del mattino grazie a voi di cuore cari ascoltatori noi vi vogliamo bene",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La difficoltà di tagliarsi le unghie",
+    "tema": [
+      "autostima",
+      "perfezione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -412,9 +454,12 @@
     "end": 1388.64,
     "speaker_raw": "SPEAKER_16",
     "testo": "Non sono ricco, ho perso tutto ma io sono happy, io ci ho provato sai, non amo il lusso io. passa l'estate tramonta il sole ma Perché ci si innamora sacralità odio davvero anche i regali",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Non amo il lusso",
+    "tema": [
+      "felicità",
+      "lusso"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -423,9 +468,12 @@
     "end": 1459.07,
     "speaker_raw": "SPEAKER_00",
     "testo": "Luca Carboni Radio DJ questo è il volo del mattino stanno arrivando le vacanze manca ancora poco e quindi i maestri e i professori ci devono dare i compiti a casa Buongiorno a tutti, è qui con noi per l'ultima volta di questa stagione il maestro professor Igor Sibaldi, buongiorno maestro Buongiorno maestro, fa mio volo, professore di tantissime cose Senti no Igor, allora andiamo in vacanza, vuoi darci dei compiti per le vacanze come tutti i maestri e i professori?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il maestro professor Igor Sibaldi",
+    "tema": [
+      "libro",
+      "maestro"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -434,9 +482,12 @@
     "end": 1567.93,
     "speaker_raw": "SPEAKER_08",
     "testo": "Sì, ma le vacanze bisogna pigliarsele, non è che le vacanze uno aspetta che gliele danno, perché è brutto no? Sai che c'è questo modo di dire amo al prossimo tuo, vero? e noi abbiamo tantissimo il prossimo nostro perché gli lasciamo decidere tutto della nostra vita praticamente ti dice vai in vacanza dal giorno tale al giorno tale e tu obbedisci come se fosse la tua più grande amante e obbedire a queste cose qua non è giusto che è una delle parole più tremende della nostra civiltà il tempo libero che uno fa pensare che il resto del tempo sia schiavo per qualcuno insomma ci sono tante cose da fare prima e poi dopo finalmente quando ha finito di fare tutto quello che deve fare ha il suo tempo libero finalmente il tempo libero tra l'altro a prenderlo come tempo libero proprio sul serio diventa una delle cose più serie della vita perché se è tempo libero devo usarlo sotto forma di libertà io avevo trovato una volta in una teoria della creatività posso raccontartelo? avevo trovato in una teoria della creatività che sono importanti dove sei tu il modo per capire come una persona può essere creativa non a caso cioè può farcela in qualsiasi momento sentiamo le campane sei innamorato quando uno sente le campane dice che è innamorato allora dicevi la creatività allora nella teoria della creatività il tempo libero è importante perché è una cosa che serve a connetterti insieme a tante altre a cui non fa caso un consiglio per usare bene il tempo libero era bellissimo Fatevi dei regali, ma dei regali segreti che nessuno sappia, preparati con estrema precisione, con grande anticipo. Ti prepari un regalo, per il mio tempo libero mi faccio questo regalo qua, nessuno lo saprà mai.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Non aspettare le vacanze",
+    "tema": [
+      "vacanze",
+      "libertà"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -445,9 +496,12 @@
     "end": 1570.88,
     "speaker_raw": "SPEAKER_00",
     "testo": "Ma che tipo di regalo è?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il regalo che non si può condividere",
+    "tema": [
+      "regalo",
+      "amore"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -456,9 +510,12 @@
     "end": 1577.28,
     "speaker_raw": "SPEAKER_08",
     "testo": "Il regalo che ti dia una gioia straordinaria e che sia una delle cose più preziose che ti possano capitare nell'arco di mezzo, penso.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il regalo della libertà",
+    "tema": [
+      "regalo",
+      "libertà"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -467,9 +524,12 @@
     "end": 1581.25,
     "speaker_raw": "SPEAKER_00",
     "testo": "Da non condividere, devi tenertelo per te.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il regalo personale",
+    "tema": [
+      "regalo",
+      "amore"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -478,9 +538,12 @@
     "end": 1637.44,
     "speaker_raw": "SPEAKER_08",
     "testo": "Sì, perché se lo dici a qualcuno non sei libero di scegliere, perché scegli anche con la testa dell'altra persona. È un regalo, un esempio di regalo di questo tipo. Senti che bello. Una persona ci pensa a questo regalo e dice, bene, allora io mi prendo un mio tempo libero una mattina libera dal lavoro. Esco di Roma, esco di casa alle 8, vado a Ostia tutto il giorno, la mattina dalle 9 fino a mezzogiorno. Io non ho mai visto il mare in un giorno feriale. in primavera, è aprile mi ha raccontato, non ho mai visto il mare in un giorno feriare e so che non lo vedrò mai se non lo decido, il giorno decido di fare questo regalo qua, quindi va a Ostia si fa la sua passeggiata si arriva al mare, vede com'è bello essere perfettamente liberi, totalmente liberi si fa una magnata romana e alle tre di nuovo in ufficio lavorare bellissimo come regalo questo bello, bello, va bene, ragazzi domani tutti a Ostia, nove nove un quarto ci si trova lì, va bene",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il regalo della scelta",
+    "tema": [
+      "regalo",
+      "libertà"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -511,9 +574,12 @@
     "end": 1902.58,
     "speaker_raw": "SPEAKER_00",
     "testo": "come me la sono goduta questa canzone inaspettata così dei dubbi brothers dei dubbi brothers allora ragazzi vi do io anche un compito per le vacanze prima di chiudere questa stagione voglio riproporvi il famoso discorso che fece che è sempre difficile da dire il nome di sta ragazza eh vista signora Meryl Meryl Streep mh Sì Perché c'è chi la chiama Marilyn Strip Mary Strip Invece lei è Meryl Strip Esatto M-A-R-Y-L Sì Meryl Strip Ok Meryl Strip Amica di Wynonna Ryder Can you schweiz Uma turma Wynonna Ryder Kevin Schweiz Patrick Schweiz Patrick Schweiz Kevin McConnery Can you McConnery Can you McConnery Va bene, sentiamo questa che se avesse avuto un nome più facile avrebbe avuto più successo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il discorso di Meryl Streep",
+    "tema": [
+      "cinema",
+      "discorsi"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -533,9 +599,13 @@
     "end": 1987.17,
     "speaker_raw": "SPEAKER_00",
     "testo": "pazienza per alcune cose, non perché sia diventata arrogante, semplicemente perché sono arrivata ad un punto della mia vita in cui non mi piace più perdere tempo con ciò che mi dispiace o mi ferisce. Non ho pazienza per il cinismo, critiche eccessive e richieste di qualsiasi natura. Ho perso la voglia di compiacere chi non mi aggrada, di amare chi non mi ama e di sorridere a chi Ho deciso di non convivere più con la presunzione, l'ipocrisia, la disonestà e le lodi a buon mercato. Non tollero l'insegnamento selettivo e l'arroganza accademica. non mi adeguo più al provincialismo e ai pettegoletti non sopporto conflitti e confronti credo in un mondo di opposti per questo evito le persone rigide e inflessibili nell'amicizia non mi piace la mancanza di lealtà e il tradimento non mi accompagno con chi non sappia elogiare o incoraggiare i sensazionalismi mi annoiano e ho difficoltà ad accettare coloro a cui non piacciono gli animali Soprattutto non ho nessuna pazienza per chi non merita la mia pazienza",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Non perdere tempo con ciò che ferisce",
+    "tema": [
+      "consapevolezza",
+      "tempo",
+      "autostima"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -544,9 +614,12 @@
     "end": 2101.87,
     "speaker_raw": "SPEAKER_13",
     "testo": "Ciao! we don't love you anymore so walk your farts out the door no",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Citazione di una canzone",
+    "tema": [
+      "amore",
+      "relazioni"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -566,9 +639,12 @@
     "end": 2182.24,
     "speaker_raw": "SPEAKER_01",
     "testo": "Big Lebowski è una bellissima colonna sonora io ti devo tutti gli Oceans 11, 12 a me piace molto un grande colonna sonora",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Colonne sonore di Big Lebowski e Ocean's Eleven",
+    "tema": [
+      "cinema",
+      "musica"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -577,9 +653,12 @@
     "end": 2216.87,
     "speaker_raw": "SPEAKER_00",
     "testo": "fratello dove sei grandissima colonna sonora in questo momento non mi viene in mente niente tutti quelli di Tarantino grandissima colonna sonora ce ne sono tanti vediamo quale un attimo Pronto? Scusa Matteo, sono Fabio Volo. Ciao Fabio! Ciao, sono curioso come una scimmia. Ma che... cos'è successo? Che disco? Che colonna sonora? Che bambino? No, ma ascoltami, è successa una vita di anni fa. Quanti anni hai tu?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Colonne sonore di Fratello dove sei e Tarantino",
+    "tema": [
+      "cinema",
+      "musica"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -654,9 +733,13 @@
     "end": 2292.37,
     "speaker_raw": "SPEAKER_06",
     "testo": "Ok, noi abbiamo chiesto al commesso un... dal titolo di un film o un cavolo di cd per riuscire a recuperarlo e non sapevamo il titolo di niente eccetera abbiamo detto il titolo del film tu eri dietro di noi e mi sono fatto i fatti vostri come sapete mi sono impicciato bravo Fabio ti sei girato e hai dato il titolo del film che poi era il grande fratello no no no il grande freddo lo sai che io qua c'ho il vinile qua a New York di quel disco scusami ma che canzone vuoi di quel che canzone hai usato poi Beh, la scena più bella di tutte, che poi ho adoperato anche, è quella della cucina quando loro fanno da mangiare.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Fabio Volo aiuta un fan a trovare la colonna sonora de Il grande freddo",
+    "tema": [
+      "musica",
+      "ricordi",
+      "fan"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -786,9 +869,12 @@
     "end": 2528.15,
     "speaker_raw": "SPEAKER_04",
     "testo": "Buonasera a tutti. Ciao Ciao Ciao we were just passing the time we were young and we ain't had no vows no no no maybe later on i'll text you and maybe you'll reply we both know we had no patience together day and night you deny on our supply and we ain't satisfied i could love you all occasions we got way too much in common no no no Musica",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Citazione del brano We Were Just Passing The Time",
+    "tema": [
+      "musica",
+      "relazioni"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -819,9 +905,12 @@
     "end": 2637.83,
     "speaker_raw": "SPEAKER_00",
     "testo": "Non si truccherà mai più ed è sempre bella, è sempre bella. Va bene ragazzi, allora vi volevo lasciare con una canzone che ha un bel tiro, che ho trovato l'altro giorno e che secondo me se andate a correre, per esempio scusami, leggevo questo messaggio, fammi tornare. Io questa mattina vado per la seconda settimana di fila a correre, cuffie nelle orecchie e ci provo, ma siccome qui in campagna sono tutti più sportivi di me, vado nei campi da sola così non mi faccio superare continuamente. Buona giornata a tutti. allora io penso come si fa ad andare a correre e ascoltare la radio uno quando corre non ha bisogno di sentire musica che gli pompa come quando fa gli esercizi ma io mi annoio terribilmente quando corro comunque niente può aiutare allora io ho trovato una canzone che è perfetta per quando andate a correre per esempio questa ascoltatrice ascolta la radio ma adesso ascolterà una canzone che la pompa Beh, l'inizio non è composo. Ma senti, state calmi. Senti che roba. Sto piccando. Vado anch'io a correre adesso durante questa canzone.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Canzone per correre",
+    "tema": [
+      "musica",
+      "sport"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -841,9 +930,12 @@
     "end": 2807.89,
     "speaker_raw": "SPEAKER_00",
     "testo": "sono andato a correre e devo dire che qui mi hanno scritto che se corri con sta musica rischi di romperti una caviglia perché è un po' da zoppo come ritmo, ti diventa a battere sempre con un piede, comunque sono appena rientrato da casa Lo sapete che qua i campanelli delle porte, queste porte qua vecchie dove sono io adesso, non sono come da noi, ma tu schiacci un pulsante sulla porta e dentro c'è come una molla che fa ten ten ten ten, capito? Voi che te lo faccio sentire? Sì, sì. Se ci arriva la cuffia, aspetta, se ci arriva la cuffia, aspetta. è proprio una roba artigianale è una roba che arriva alle pecore è una pentola va bene bene ragazzi allora domani chiedono gli ascoltatori c'è Tirelli o non c'è Tirelli? io non l'ho convocato io l'ho convocato perché non si può trattarmare la gente come fate voi finché vi serviva andava bene poi non vi serviva più l'avete buttato via come un fazzoletto usato il rispetto ragazzi cavolo ciao ragazzi a domani",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Campanelli delle porte",
+    "tema": [
+      "casa",
+      "abitazione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   }
 ]

@@ -124,9 +124,11 @@
     "end": 746.47,
     "speaker_raw": "SCONOSCIUTO",
     "testo": "grazie ... ... I have to praise you like I should",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Citazione del brano Praise You di Fatboy Slim",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -352,12 +354,9 @@
     "end": 1583.44,
     "speaker_raw": "SPEAKER_03",
     "testo": "ma no ma io non sono così non vorrei che poi voi pensaste che io sono così certo se no non ti avremmo chiamato perché era veramente era veramente sconsolato beh perché non vuole poi dice poi vado nel film faccio un ruolo che non sono io poi i miei amici dicono ma allora sei ma lui interpreta se stesso in tutti i film mi sembra strano come quando mi dicono ho letto il tuo libro non sapevo che ti era successa questa cosa no ma quello è un romanzo non è",
-    "titolo": "Dorian Gray",
-    "tema": [
-      "film",
-      "classico"
-    ],
-    "tipo": "riferimento_film",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
@@ -405,9 +404,12 @@
     "end": 1717.6,
     "speaker_raw": "SPEAKER_09",
     "testo": "As if this moon of ours only shines a half to make me feel whole As if I haven't felt your breath in every step I take when the wind blows Take apart the pieces you left Don't you worry",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Lettura di un testo poetico in inglese",
+    "tema": [
+      "poesia",
+      "sentimenti"
+    ],
+    "tipo": "lettura_volo",
     "video_url": ""
   },
   {
@@ -895,12 +897,9 @@
     "end": 2631.41,
     "speaker_raw": "SPEAKER_00",
     "testo": "Ma come si dice azziccato? Cioè che l'hai trovato, intendi? L'hai pizzicato.",
-    "titolo": "Parola per descrivere un uomo",
-    "tema": [
-      "lingua",
-      "parole"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
@@ -960,12 +959,9 @@
     "end": 2771.95,
     "speaker_raw": "SPEAKER_02",
     "testo": "questa facoltà perché purtroppo lavoro in un centro commerciale quindi la domenica pomeriggio lunedì mattina va bene ciao Robè ciao ciao ciao ciao ciao well I won't let you down and I won't mess around there will be better days Ciao! no no feel no shame there will be better days better days will",
-    "titolo": "Canzone di consolazione",
-    "tema": [
-      "musica",
-      "consolazione"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {

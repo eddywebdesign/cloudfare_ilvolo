@@ -100,9 +100,12 @@
     "end": 562.79,
     "speaker_raw": "SPEAKER_10",
     "testo": "tu che cazzo dire calma calma ripeti che cazzo hai detto ho detto ma ho detto ma ho detto ma perché c'ha",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Scena di litigio",
+    "tema": [
+      "litigio",
+      "relazione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -139,9 +142,12 @@
     "end": 593.68,
     "speaker_raw": "SPEAKER_05",
     "testo": "va bene se è scritto essere mamma?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Essere mamma",
+    "tema": [
+      "libro",
+      "essere mamma"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -178,12 +184,9 @@
     "end": 658.85,
     "speaker_raw": "SPEAKER_06",
     "testo": "io voglio andare ad Amsterdam ma sono tutte così non esiste l'io voglio da nessuna parte c'è neanche una che dice no alla fine c'è il degenero c'è desidero tinteggiare casa Maurizio guarda che devo dare la vena sul collo quelli sono appunto una cosa da fare poi l'ha detto Igor che non bisogna usare il verbo desiderare è desiderare ma io voglio tinteggiare casa però è un desiderio è una roba che devi cioè è un punto ti dico come finisce desidero completare gli ultimi lavoretti sul terrazzo",
-    "titolo": "Il manuale di linguaggio",
-    "tema": [
-      "linguaggio",
-      "comunicazione"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
@@ -206,12 +209,9 @@
     "end": 719.8,
     "speaker_raw": "SPEAKER_05",
     "testo": "non va bene la tua lista e poi come dice il maestro Rossato perché ieri Sibaldi non aveva tempo quindi quelli che non hanno visto la puntata hanno sentito ieri Igor Sibaldi su Google adesso lo rendiamo l'uomo più famoso d'Italia ha detto che vanno usate massimo 14 parole compreso io voglio cioè non fatelo troppo lungo perché il respiro umano dura 14 parole io sono uscito di casa questa mattina e ho pensato facciamo la radio io faccio banalità 25 io non lo so maometto archeggio maometto archeggio",
-    "titolo": "Il manuale di linguaggio",
-    "tema": [
-      "linguaggio",
-      "comunicazione"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
@@ -471,9 +471,12 @@
     "end": 1430.91,
     "speaker_raw": "SPEAKER_10",
     "testo": "Musica Grazie a tutti. ciao ciao",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Grazie a tutti",
+    "tema": [
+      "grazie",
+      "ciao"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -496,12 +499,9 @@
     "end": 1781.35,
     "speaker_raw": "SPEAKER_07",
     "testo": "no no Sì. comunque una donna dice è vero che noi",
-    "titolo": "messaggi",
-    "tema": [
-      "comunicazione",
-      "relazioni"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
@@ -592,9 +592,12 @@
     "end": 2039.05,
     "speaker_raw": "SPEAKER_05",
     "testo": "Quando apri il cassetto che dentro c'è la vaschettina con le robe separate, non ti succede mai come a me che il coltello sta nella corsia delle forchette, no?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ordine nel cassetto",
+    "tema": [
+      "ordine",
+      "casa"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -678,9 +681,12 @@
     "end": 2091.9,
     "speaker_raw": "SPEAKER_03",
     "testo": "No, non ci stanno, però il mestolo più grande contiene quello più piccolo e così.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Soluzione per la vaschetta",
+    "tema": [
+      "soluzione",
+      "casa"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -703,9 +709,12 @@
     "end": 2147.17,
     "speaker_raw": "SPEAKER_03",
     "testo": "No, no, quelli li piego e sono singoli, li piego singolarmente.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Piega le cose",
+    "tema": [
+      "piega",
+      "casa"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -753,9 +762,12 @@
     "end": 2228.81,
     "speaker_raw": "SPEAKER_03",
     "testo": "No, le lascia sulle sedia direttamente.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Lascia le cose",
+    "tema": [
+      "lascia",
+      "casa"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -764,9 +776,12 @@
     "end": 2232.38,
     "speaker_raw": "SPEAKER_05",
     "testo": "E lui le fai la scenata, scusami, ma perché non le hai messo? O hai dimenticato?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Scenata per la vaschetta",
+    "tema": [
+      "scenata",
+      "casa"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

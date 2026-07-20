@@ -107,9 +107,12 @@
     "end": 478.81,
     "speaker_raw": "SPEAKER_04",
     "testo": "In verità sarebbero di più ma dalla vittoria di Sanremo nei bigli sono passati esattamente 30 anni.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Vittoria di Sanremo",
+    "tema": [
+      "musica",
+      "Sanremo"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -231,9 +234,12 @@
     "end": 871.79,
     "speaker_raw": "SPEAKER_15",
     "testo": "sono venuto con i capperi lunghi facendo finta di averla fatto a piedi come come Tom Hanks allora non lo so c'è Maurizio che tu conosci perché tu ci ascolti la battita che continua a dirmi io ho una barzelletta e tu sei così famoso che hai le barzellette su di te e lui dice ho una barzelletta è così brutta Maurizio non la dire non è mia tra l'altro compagno delle medie sentiamo sapete cosa ha detto Mosè quando è arrivato nella terra promessa stacco d'onde staccati un dente staccati un dente staccati un dente staccati un dente staccati un dente abbiamo perché come il monitor non lo vedono abbiamo un ascoltatore andiamo avanti a parlare così perché ho detto mettiamo un disco e sentiamo la seconda torre non si caga nessuno no guarda che fai c'è una confusione ok no no allora poco odio no a me piace quando cambiamo così ieri c'era Sibaldi lo sai ci si ascolta ogni tanto il giovedì come no c'è Igor Sibaldi",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Maurizio e la barzelletta",
+    "tema": [
+      "amici",
+      "umorismo"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -411,9 +417,11 @@
     "end": 1212.47,
     "speaker_raw": "SPEAKER_02",
     "testo": "ma dovevi farmi il blues chiamatemi così ascoltatori stiamo aspettando una chiamata fai il rap Francesca è all'ascolto del volo del mattino e posso dire una cosa c'è pure Savino",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Fai il rap",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -433,9 +441,12 @@
     "end": 1234.78,
     "speaker_raw": "SPEAKER_15",
     "testo": "Sì! Buongiorno, come stai? Tutto bene, ci sento lontano Siamo lontani perché c'è la chitarra in questo momento Adesso a parte Savino che non ha le cuffie ti sentiamo tutti Tutto improvvisato Francesca come stai? Da dove chiami? racchiamo dal centro di Milano ah sei qua sotto vuoi venire su?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Francesca chiama in diretta",
+    "tema": [
+      "radio",
+      "ascoltatori"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -444,9 +455,12 @@
     "end": 1245.57,
     "speaker_raw": "SPEAKER_04",
     "testo": "volentieri ok siamo in via Massena 2 ci metti 7 ore con lo sciopero dei taxi ho la bici che zona stai più o meno?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Francesca si reca in studio",
+    "tema": [
+      "radio",
+      "ascoltatori"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -466,9 +480,12 @@
     "end": 1283.99,
     "speaker_raw": "SPEAKER_10",
     "testo": "solo in Italia adesso tu ce l'hai qua che ti ascolta allora è successo questo adesso qua c'è un problema è successa una cosa bellissima scusa c'è Biagio c'è Biagio scusami Biagio che è successo?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Biagio c'è",
+    "tema": [
+      "radio",
+      "ascoltatori"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -826,9 +843,11 @@
     "end": 2183.63,
     "speaker_raw": "SPEAKER_02",
     "testo": "vorrei poterti ricordare così con quel sorriso acceso d'amore come se fosse uscita di colpo lì un'occhiata di sole",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Sorriso acceso d'amore",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -837,9 +856,12 @@
     "end": 2280.91,
     "speaker_raw": "SPEAKER_15",
     "testo": "poterci ricordare lo sai come una storia ma cara corri troppo oh c'hai fretta Daniele fanne una più tranquilla fanne una più tranquilla c'hai fretta vai vai vai corri sempre Daniele corri c'hai fretta c'hai fretta senti cosa vuoi dire Daniele Aeros non vedo l'ora di vederla a Tavornina che finalmente ritorna il 15 di settembre siamo a Tavornina ci vediamo guarda ti posso dire se nel frattempo in quest'estate in vacanza impari ad andare un po' più piano Eros ti tira sul palco come fa Bruce ciao Daniele un abbraccio abbiamo Massimo pronto Massimo? come ti si sente bene? da dove chiami? da Reggio Emilia tutti uomini ci sono tante donne per fare onore alle donne nel mio caso per fare onore alle donne io mi ricordo quando ero più ragazzino si andava ai concerti di Eros perché era pieno andiamo a vedere Eros ma non ce l'hai neanche il CD Eros ma è pieno si portava via è vero è vero tra l'altro in tutto il mondo perché anche a Stoccolma non avevi neanche bisogno delle luci erano tutte bionde illuminavano il palazzetto cosa vuoi fare Massimo? vuoi cantare? vuoi salutarlo?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Storia cara corri troppo",
+    "tema": [
+      "amore",
+      "tempo"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -1138,9 +1160,12 @@
     "end": 2759.71,
     "speaker_raw": "SPEAKER_15",
     "testo": "il rapporto massimo mio fratello al telefono che mi navigava con la guffietta cioè tu in bicicletta col telefono in mano e tuo fratello con la mia voce ti diceva vai a destra vai a sinistra no vabbè stupendo pilotata dal negozio va bene salutiamo quindi il fratello che ci ascolta adesso Eros tu scendi da Linus vai giù o vai a spostargli la macchina va anche da Cattelan stai a radio DJ oggi DJ time ok puoi venire in negozio cosa vendi tu nel tuo negozio? cosa fai? oggi Eros viene a vendere due rosari ci vuole però un rosario? quello grande va bene grazie Eros per essere stati con noi ti saluto Maurizio ciao Eros grazie ciao ragazzi ci sentiamo lunedì ciao grazie grazie di cuore Eros Rabazzotti vieni nelle librerie",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "pilotata dal negozio",
+    "tema": [
+      "famiglia",
+      "bici"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   }
 ]

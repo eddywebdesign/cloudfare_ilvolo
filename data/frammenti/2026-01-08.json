@@ -5,9 +5,12 @@
     "end": 3.35,
     "speaker_raw": "SPEAKER_02",
     "testo": "tra poco il volo del mattino con Fabio Volo",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Introduzione al volo del mattino",
+    "tema": [
+      "introduzione",
+      "puntata"
+    ],
+    "tipo": "lettura_volo",
     "video_url": ""
   },
   {
@@ -558,9 +561,12 @@
     "end": 1650.96,
     "speaker_raw": "SPEAKER_21",
     "testo": "Ma di che si sta lamentando? Finito. Eccoci qua, benvenuti.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Benvenuti al volo del mattino",
+    "tema": [
+      "benvenuti",
+      "puntata"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -569,9 +575,12 @@
     "end": 1652.5,
     "speaker_raw": "SPEAKER_10",
     "testo": "Ma che sarà mai successo? Allora, sentiamo, sentiamo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Sentiamo la puntata",
+    "tema": [
+      "sentiamo",
+      "puntata"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -652,12 +661,9 @@
     "end": 1790.41,
     "speaker_raw": "SPEAKER_10",
     "testo": "scusami Maurizio vuoi doppio bonifico o con uno carichi tutti sono due mondi separati del resto sono due fatture diverse 92, 24, 25 e poi più la caricate di hype sta puntata più sembra che sia chissà che era una puntata piuttosto bruttina e poi Maurizio aumenta il cachette va bene comunque Buongiorno ragazzi, io nel 2026 non chiederò più scusa per far piacere agli altri Se devo chiedere scusa lo faccio perché me lo sento Mi sono pentita di aver chiesto scusa Posso dire che è l'unica ascoltatrice che ha seguito il tema del giorno Perché qua tutti come l'ho visto ieri in televisione Allora ragazzi, stiamo sul pezzo Adesso non devo dire niente perché è Maurizio",
-    "titolo": "Scaglietta di tartufo avanzata",
-    "tema": [
-      "natale",
-      "cibo"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
@@ -905,12 +911,9 @@
     "end": 2392.07,
     "speaker_raw": "SPEAKER_14",
     "testo": "Ti ho promesso dentro ad un parcheggio non voglio fallire Ma ero in giro e stasera son finito in fondo all'abisso L'ho capito da solo ogni cosa che inizia e finisce Se ho sparito di nuovo sarebbe stato meglio dirselo Attraverso la notte saltando sopra le strisce Questo mondo va in fiamma e una giungla che si annerisce Sto cercando nel buio qualcuno che mi capisce Dimmi buona fortuna",
-    "titolo": "Senza l'età",
-    "tema": [
-      "amore",
-      "gioventù"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
@@ -933,9 +936,12 @@
     "end": 2456.99,
     "speaker_raw": "SPEAKER_14",
     "testo": "Siamo ancora gli stessi, forse io un po' più freddo, ma anche tu ti difendi Questo mondo è un marcello, però sai cos'è peggio, non ci siamo mai detti, ho bisogno di averti La notte, la notte, la notte, la notte, cercare, cercare, cercare dappertutto Senza di te, anche le stelle non sono niente di che",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Citazione del brano La Notte",
+    "tema": [
+      "musica",
+      "sentimenti"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {

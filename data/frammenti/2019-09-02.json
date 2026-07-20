@@ -171,9 +171,13 @@
     "end": 473.04,
     "speaker_raw": "SPEAKER_15",
     "testo": "fate il cambio ragazzi adesso noi con voi ci rimettiamo lì perché la cosa tremenda di tutto questo è se odi sei sincero se ami sei ipocrita abbiamo un anno di programma per cambiare idea se ami sei buonista se non arrivi alla fine del mese puoi dire quello che vuoi se arrivi alla fine del mese non capisci un cavolo della vita No, noi adesso col volo del mattino ci mettiamo qua e cominciamo. Un po' di barzellette, Marino, quest'anno vorrei... Basta politica. Poi non c'è un programma televisivo neanche dove si vedono culi e tette e dove a un certo punto non si parla di politica. Basta. L'intrattenimento. Basta. Quelle sono le faccende della vita. La vita è un'altra cosa. Noi adesso ci mettiamo qua a imparare cinque parole prima di mettere il primo disco. Quali sarebbero?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'ipocrisia del giudizio sociale",
+    "tema": [
+      "giudizio",
+      "ipocrisia",
+      "società"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -692,12 +696,9 @@
     "end": 1976.89,
     "speaker_raw": "SPEAKER_15",
     "testo": "non è scontato non è scontato li mandano a Brescia comunque gioia vivi a Londra noi siamo il programma da sempre da tanti anni che da sette anni ti accompagnano a piedi a Londra al lavoro che è un'ora indietro ma scusami ma tu vai a piedi a Londra cioè praticamente d'inverno te lo fai colombo cioè piove sempre la mattina",
-    "titolo": "La Brexit",
-    "tema": [
-      "politica",
-      "europea"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
@@ -834,9 +835,12 @@
     "end": 2151.75,
     "speaker_raw": "SPEAKER_15",
     "testo": "nel frattempo ho fatto 10 scrabbra poi Vale scusate cari ascoltatori ma voi se non siete della zona è di Padova già uno si imbarzottisce perché sei di Padova ma perché?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Padova e la zona",
+    "tema": [
+      "identità",
+      "territorio"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -845,9 +849,12 @@
     "end": 2154.01,
     "speaker_raw": "SPEAKER_07",
     "testo": "ma infatti cosa vuol dire essere di Padova?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "essere di Padova",
+    "tema": [
+      "identità",
+      "appartenenza"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -909,9 +916,12 @@
     "end": 2209.88,
     "speaker_raw": "SPEAKER_18",
     "testo": "Allora, no, no, no, no. Sale, vino e olio. Oh!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Sale, vino e olio",
+    "tema": [
+      "cucina",
+      "tradizione"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -934,9 +944,12 @@
     "end": 2374.78,
     "speaker_raw": "SPEAKER_15",
     "testo": "no no non sono fidanzata entro all'uomo della vasca e tu le dici gliela pulisco io o fa lei? come fa il cameriere? gliela pulisco io o fa lei? vabbè Vale hai finito? eh beh per forza Fabio ti consiglierei però scusami adesso noi ti teniamo ovviamente perché l'argomento è così profondo però una mattina di queste ci sentiamo lascia crescere un po' di pelle morta vorrei che tu provassi col caffè dopo che hai fatto il caffè è una cosa vera perché c'è anche l'olio del caffè è più gratta invece che del sale ti asciuga un po' comunque va bene asciuga, tira via i liquidi Hai capito? Assorbe i conflitti. Luca non voglio dire niente perché metto che è un cliché. E io adesso volevo dire una cosa volgare ma non la vogliamo. No, no, no. Sono amici che aspettiamo le tue cose volgari. No, perché non sono volgari. Apro la finestra, la dico alla città di Milano. Una volta una del Padova, sai cosa mi ha detto? Aspetta che vedo quello lì sotto. Non si sente. no ma non la posso dire no ormai dai Fabio ti prendi la responsabilità dai Fabio l'hai anche annunciata dai dai perché perché la prima puntata è un po' simbolica ma che simbolica di che Fabio mi piace la Valentina aspetta che apro la porta di casa della Vale sì sono qui tutta sotto sale sai non far l'accento padovano lo vedi sotto la scella c'ho il limone lo vedi c'ho la scella al limone senti male vai a lavorare oggi o no? no oggi no sto a fare scrub tutto il giorno e sei anche parrucchiero estetista che è chiuso oggi? no no oggi niente lavoro se era estetista o parrucchiera col sale è proprio un barzottimento capito? qui l'affare si ingrossa tutto dà più senso ciao Vale ciao ragazzi ben tornato avevamo la postina che deve andare sull'Etna bella romantica ci sta tutta la stagione davanti",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Vasca e cameriere",
+    "tema": [
+      "umore",
+      "relazione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1054,12 +1067,9 @@
     "end": 2658.07,
     "speaker_raw": "SPEAKER_15",
     "testo": "Ci piaceva perché era più romantica come cosa. Invece tu sei di Catania. Così è triste.",
-    "titolo": "La vita è bella",
-    "tema": [
-      "film",
-      "guerra"
-    ],
-    "tipo": "riferimento_film",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
@@ -1068,9 +1078,12 @@
     "end": 2669.12,
     "speaker_raw": "SPEAKER_17",
     "testo": "Fai la postina sull'Etna e vai a Breno. Mi devo spostare a Breno. Dov'è Breno? Grazie alla posta. Sì, sì, lo conosco ovviamente. Scusami. Qua che vuol dire località?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "posta e località",
+    "tema": [
+      "comunicazione",
+      "errore"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1107,9 +1120,12 @@
     "end": 2687.27,
     "speaker_raw": "SPEAKER_15",
     "testo": "Lì a sinistra, destra. Allora, ascoltami, Anna Maria, intanto ti volevo chiedere, come è fare la postina? Non è sull'Etna, ovviamente, è l'inzona.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Postina e Etna",
+    "tema": [
+      "lavoro",
+      "geografia"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {

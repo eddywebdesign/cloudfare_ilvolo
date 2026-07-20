@@ -38,11 +38,9 @@
     "end": 163.09,
     "speaker_raw": "SPEAKER_15",
     "testo": "Certo. Sabato. Può ricordarmi di fare una foto per i miei figli. Papà, buon anno.",
-    "titolo": "Una foto per i figli",
-    "tema": [
-      "famiglia"
-    ],
-    "tipo": "monologo",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
@@ -251,9 +249,12 @@
     "end": 849.91,
     "speaker_raw": "SPEAKER_15",
     "testo": "grazie a te beh oh posso dirti beato te perché io l'ho detto ma non l'ho ancora imparato figurati abbiamo fatto tutta una puntata sì sì però voglio dirti grazie ascoltatore che mi dici grazie a me lo accetto e grazie così però sappi che invece grazie a te mannaggia il cane che poi era imparare a dire di no senza dare spiegazioni che fatica a dire di no silenzio silenzio che papà deve dire una cosa e anche quest'anno è il volo del mattino ce lo siamo levati dalle palle scherzo naturalmente Oscar mandi allora qui un ascoltatore dice a proposito di domande sono dieci mesi che non si fa l'amore con mia moglie cosa ne pensi cosa ne pensate l'ultima puntata apriamo questo dibattito Maurizio cosa ne pensi che questo ascoltatore viola io passerei la parola viola Cosa ne pensi che non si fa l'amore da dieci mesi? C'è qualcuno che è andato oltre dieci mesi?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La fatica di dire di no",
+    "tema": [
+      "assertivita",
+      "comunicazione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -494,12 +495,9 @@
     "end": 1534.6,
     "speaker_raw": "SPEAKER_13",
     "testo": "E poi... Ci dovrebbe essere Maurizio che introduce il frontman.",
-    "titolo": "Macchina del suono",
-    "tema": [
-      "suono",
-      "macchina"
-    ],
-    "tipo": "riferimento_film",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
@@ -566,12 +564,9 @@
     "end": 1697.8,
     "speaker_raw": "SPEAKER_04",
     "testo": "I know that the bar closes at 11 I hope you never finish that beer You know all the words sit just like heaven And I know why he wrote them Now that you're standing right here Musica Ciao!",
-    "titolo": "Testo canzone in inglese",
-    "tema": [
-      "musica",
-      "testo"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
@@ -857,9 +852,12 @@
     "end": 2417.58,
     "speaker_raw": "SPEAKER_05",
     "testo": "Eh beh signori, il momento elettronico di Maurizio Rossoio. E Jerry! This is the last goodbye, faccia di merda! Ciao! grazie a tutti Grazie. Did you rush to the phone to call Was there a voice on call In the back of your mind Saying maybe You didn't know him at all You didn't know him at all You didn't know You didn't know",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Citazione del brano The Last Goodbye di Jeff Buckley",
+    "tema": [
+      "musica",
+      "addio"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {

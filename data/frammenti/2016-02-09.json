@@ -16,9 +16,12 @@
     "end": 31.75,
     "speaker_raw": "SPEAKER_01",
     "testo": "One love. My nights are broken up by the sounds of women I'll never meet. And when my eyes are closed I can start to feel you staring at me. ...so I can't sleep.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Non riesco a dormire",
+    "tema": [
+      "amore",
+      "insonnia"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -157,9 +160,12 @@
     "end": 709.09,
     "speaker_raw": "SPEAKER_08",
     "testo": "come prima questo è molto sexy questo entra in camera da letto un po' nudo con questo grazie no no Ciao Ciao Ciao! oh yeah trovo molto sexy questa canzone più che diciamo da viaggio e qualcuno ascolta per viaggiare quindi per farsi un po' i propri trip anche musica con le canzoni ecco io invece per esempio ho bisogno di",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Canzone sexy",
+    "tema": [
+      "musica",
+      "sessualità"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -290,9 +296,12 @@
     "end": 1012.03,
     "speaker_raw": "SPEAKER_14",
     "testo": "Ma io sono un po' indietro con la musica, a me piace ancora ascoltare musica degli anni 80-70, la vedo in gente.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Musica degli anni 80-70",
+    "tema": [
+      "musica",
+      "anni 80"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -301,9 +310,12 @@
     "end": 1021.24,
     "speaker_raw": "SPEAKER_00",
     "testo": "Eh già, perché per te la musica 80 è indietrissima. Scusami, ma hai un genitore o un fratello più grande che ti porta lì o fai da solo?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Mamma e zio Jimmy",
+    "tema": [
+      "genitori",
+      "musica"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -323,12 +335,9 @@
     "end": 1029.29,
     "speaker_raw": "SPEAKER_00",
     "testo": "Quali sono i loro riferimenti che ti stanno passando?",
-    "titolo": "I Beatles e James Taylor",
-    "tema": [
-      "musica",
-      "classici"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
@@ -351,13 +360,9 @@
     "end": 1052.74,
     "speaker_raw": "SPEAKER_00",
     "testo": "italiani insomma De Gregori no non tanto scusami italiano contemporaneo cioè dalla tua generazione tu cosa ascolti?",
-    "titolo": "Musica italiana contemporanea",
-    "tema": [
-      "musica",
-      "italiana",
-      "contemporanea"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
@@ -471,12 +476,9 @@
     "end": 1341.06,
     "speaker_raw": "SPEAKER_06",
     "testo": "he said I know you you know me one thing I can tell you is you got to be free come together right now over me shoot shoot ... ... ... Grazie a tutti.",
-    "titolo": "citazione canzone libertà",
-    "tema": [
-      "libertà",
-      "musica"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {

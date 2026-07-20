@@ -256,12 +256,9 @@
     "end": 886.62,
     "speaker_raw": "SPEAKER_11",
     "testo": "Ballare alla luce della luna, che meraviglia, molto romantica la luna, no? Mentre il sole è proprio, diciamo, il padre, il padrone, la giustizia, non so com'è, insomma, Dio, sono stati rappresentati in tante cose. Tra l'altro, adesso appena ingraneremo quel programma, vi voglio raccontare anche di alcune esperienze che ho fatto per le intese. Ma noi siamo qui che pendiamo dalle tue labbra. Ho passato delle notti con gli sciamani dell'Amazzonia, che adesso, poverini, hanno un po' di problemi con gli incendi, però siamo ancora... tra l'altro quella roba lì è andata un po' in cavalleria c'è stato due giorni che c'era solo l'Amazzonia e poi con gli sciamani del Messico tante belle cose da raccontarvi ho visto Dio a un certo punto sai cosa mi ha detto? Amici, che vi manca? Allora, gente che ha fatto l'esperimento di gridare da sola in macchina, dice io purtroppo sono in treno, non lo posso fare, un altro ha detto io l'ho fatto a casa, mi gira la testa, perché effettivamente sei super ossigenato, adesso io veramente l'ho fatto col grido, ma fatelo anche solo... via potete fare così anche con le mani come togliersi l'acqua dalle mani via un gomitolo nero è il gomitolo nero e io ho la fortuna nella vita di trovarne le persone subito quando le vedo io vedo quelli che hanno il gomitolo nero vado lì e faccio e non tiro fuori tu non hai il gomitolo allora ragazzi va bene allora stavamo parlando no no no",
-    "titolo": "Dancing in the Moonlight",
-    "tema": [
-      "musica",
-      "romantico"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
@@ -958,9 +955,12 @@
     "end": 2588.84,
     "speaker_raw": "SPEAKER_12",
     "testo": "no ho fatto in un anno tutto il giro di Italia Francia, Spagna e Marocco Adesso esattamente mi trovo in Italia perché sarò presente alla fiera del camper a Parma dal 14 al 27.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il giro di Italia, Francia e Spagna",
+    "tema": [
+      "viaggio",
+      "avventura"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -969,9 +969,12 @@
     "end": 2592.86,
     "speaker_raw": "SPEAKER_11",
     "testo": "Dove devo andare io? Che adesso sai che mi compro il camper fra un mesetto, no?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il camper e la fiera di Parma",
+    "tema": [
+      "camper",
+      "viaggio"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -980,9 +983,12 @@
     "end": 2637.07,
     "speaker_raw": "SPEAKER_12",
     "testo": "No, no, dove vai? Sì, lo so, mi ha parlato di te, di questa cosa tua che hai fatto, che me l'ero persa. compro il camper l'amica mia che poi mi ha fatto la sorpresa stamattina perché non ho chiamato lei mi aveva detto chiama il tuo camper scusami Daniela il tuo camper è quello con il bagno o devi andare con le foglie? No, c'è il bagno, la doccia, sì. Poi se vuoi ti faccio una consulenza privata. Per il camper, va bene. Tanto il mio numero ce l'hai. Allora, in bocca al lupo per il tuo viaggio. Grazie mille, ragazzi. Va bene, bravo, mollo tutto. E grazie al libro Un posto nel mondo. Grazie, grazie. Ciao Daniela. Ciao ragazzi.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La sorpresa del camper",
+    "tema": [
+      "camper",
+      "sorpresa"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1110,9 +1116,12 @@
     "end": 2692.28,
     "speaker_raw": "SPEAKER_16",
     "testo": "Così si fa? Non si riesce ad avere la risposta.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La risposta difficile da trovare",
+    "tema": [
+      "risposta",
+      "domanda"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -1182,9 +1191,12 @@
     "end": 2875.93,
     "speaker_raw": "SPEAKER_14",
     "testo": "Metti 400-500 euro al mese con camper che spesi ci avrai.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il costo del camper",
+    "tema": [
+      "camper",
+      "costo"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -1232,9 +1244,12 @@
     "end": 3007.53,
     "speaker_raw": "SPEAKER_06",
     "testo": "Fabio, sei più bravo di me? Fai quello che vuoi.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La libertà del lavoro",
+    "tema": [
+      "lavoro",
+      "libertà"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -1368,9 +1383,12 @@
     "end": 3166.57,
     "speaker_raw": "SPEAKER_11",
     "testo": "Da quanto tempo non ci arrampichiamo su un albero? Domani ne parliamo! Ciao ragazzi!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'arrampicata sugli alberi",
+    "tema": [
+      "alberi",
+      "arrampicata"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   }
 ]

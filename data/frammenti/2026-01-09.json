@@ -108,9 +108,13 @@
     "end": 705.15,
     "speaker_raw": "SPEAKER_06",
     "testo": "Potrebbe essere che oggi Roma è vuota. Comunque un sacco di amici che arrivano in ritardo mi dà proprio... è anche rispetto del tempo altrui oh no bravo Maurizio se mi arrivi in ritardo io sto perdendo tempo bravo Maurizio che imbruttiti che siamo mamma mia proprio milanesi allora io ho un messaggio perché si riapre si va sempre lì ciao Fabio sono Gasman senti ma la puntata del 25 dicembre basta allora ragazzi non ne parliamo più perché ieri abbiamo fatto la puntata comunque magari ogni tanto vi facciamo sentire degli estratti un estratto cioè giusto per della voce",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il rispetto del tempo altrui",
+    "tema": [
+      "rispetto",
+      "tempo",
+      "puntualità"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -189,12 +193,9 @@
     "end": 783.05,
     "speaker_raw": "SPEAKER_06",
     "testo": "intanto non ho esordito ma è stato un suggerimento di Brad ma sei andato? perché ora è tempo ragazzi voi che avete mangiato i panettoni i pandori che sono tutti lieviti bisogna andare a dare una sciacquata adesso si gonfia tutto adesso gli lieviti stanno creando dei villaggi dei puffi quindi hai già preso appuntamento anche Maurizio ha già preso appuntamento Allora, leggo una cosa importante ragazzi, leggo una cosa importante, molto importante. Ho deciso di buttare giù la maschera e di aprire il mio cuore e dirvi veramente a microfono spento chi sono io nella vita. Come a microfono spento? Sì, non il personaggio che sto facendo adesso, Fabio Volo, ma Fabio.",
-    "titolo": "Idrocolon e panettone",
-    "tema": [
-      "salute",
-      "tradizioni"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
@@ -217,12 +218,9 @@
     "end": 892.65,
     "speaker_raw": "SPEAKER_06",
     "testo": "Ciao ragazzi, che bello venerdì, questo è Fabio Volo. questo è Fabio ricordati che tu sei molto più importante di Fabio Volto esatto e anche più importante di Fabio allora vi leggo una cosa io so che lì qualcuno è così è così bisogna andare a pescare questi qua ragazzi questi devono andare in televisione a parlare questi devono avere un microfono bisogna andare a prendere quelli lì questi devono essere i nostri caporeparto i nostri capo ufficio questi «La verità è che non fingo mai interesse per qualcuno. Ci tengo davvero. Il mio interesse è vero, è genuino. Mi interesso perché lo voglio, non perché mi aspetti qualcosa in cambio. Non ho bisogno che tu avvalori le mie azioni per farmi sentire che ciò che faccio vale la pena». «Quello che do lo do col cuore e senza secondi fini, non faccio giochetti. Credo nella sincerità e nello stare vicino alle persone perché è la cosa giusta da fare, non perché abbia gli occhi su qualche tipo di ricompensa». È semplicemente quello che sono. Se investo il mio tempo, le mie energie o il mio cuore è perché per me sei importante, semplicemente. Questo è il tipo di persona che sono e questo è il modo in cui ho deciso di vivere la mia vita. Perché solo nel silenzio...",
-    "titolo": "Winter is coming",
-    "tema": [
-      "inverno",
-      "arrivo"
-    ],
-    "tipo": "riferimento_film",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
@@ -356,12 +354,9 @@
     "end": 1270.69,
     "speaker_raw": "SPEAKER_01",
     "testo": "Ciao, volo del mattino. Io ho tanta voglia di messaggiarvi perché non vi ascolto più al mattino e adesso mi sento fuori dal giro perché non so più gli argomenti e mi dispiace molto. Un abbraccio, Martina. Che argomenti?",
-    "titolo": "Treviso nevica il 25 dicembre",
-    "tema": [
-      "nevica",
-      "Treviso"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
@@ -581,9 +576,12 @@
     "end": 1695.62,
     "speaker_raw": "SPEAKER_06",
     "testo": "No, perché è la croce di San Giorgio data dalla città di Genova all'Inghilterra. L'Inghilterra quando scende in campo c'è la croce di San Giorgio. La vera croce. Esatto, perché quando nel Medioevo Genova aveva una potenza marittima molto forte gli inglesi per poter navigare nel Mediterraneo così per farci un po' dire oh siamo amici di quelli lì non ci dovete rompere i maroni compagavano Genova e Genova gli diceva ok puoi mettere sulla tua barca la croce di San Giorgio hai capito? hai capito i Liguri subito a incassare a incassare cos'è sto carrello?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Croce di San Giorgio",
+    "tema": [
+      "storia",
+      "genova"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -629,9 +627,12 @@
     "end": 1743.42,
     "speaker_raw": "SPEAKER_06",
     "testo": "Ma una grotta in Liguria non c'è, è possibile con tutte quelle montagne lì? Non c'è una grotta per me? Ma costa anche quella in Liguria? Mamma mia! Ma io sono appagato! Strappaglia! Strappaglia!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "grotta in Liguria",
+    "tema": [
+      "viaggi",
+      "disagio"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -665,9 +666,12 @@
     "end": 1929.15,
     "speaker_raw": "SPEAKER_07",
     "testo": "Ma non siamo un po' vecchi per questa roba?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "vecchiaia e tecnologia",
+    "tema": [
+      "vecchiaia",
+      "adattamento"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -676,9 +680,12 @@
     "end": 1931.19,
     "speaker_raw": "SPEAKER_06",
     "testo": "Io no, io sono vecchio per tutto.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "vecchiaia e percezione",
+    "tema": [
+      "vecchiaia",
+      "percezione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -698,11 +705,9 @@
     "end": 1940.55,
     "speaker_raw": "SPEAKER_06",
     "testo": "Tranne per la grotta. Besame, besame. Besame, piccio. Muccio, muccio, muccio, muccio. Besame.",
-    "titolo": "Bésame Mucho",
-    "tema": [
-      "amore"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
@@ -722,9 +727,12 @@
     "end": 2227.87,
     "speaker_raw": "SPEAKER_06",
     "testo": "C'è anche il bollito, comunque si sente il profumo del bollito. Devo dire, no, dicevo, qui a Milano quelli che hanno la casa tendono ad andare qui, sai, tipo a Rapallo, queste zone qua.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "profumo del bollito",
+    "tema": [
+      "cibo",
+      "viaggi"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -783,9 +791,12 @@
     "end": 2263.85,
     "speaker_raw": "SPEAKER_07",
     "testo": "Ma te prendi, ma che te ne frega.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Prenditi e che te ne frega",
+    "tema": [
+      "stress",
+      "tempo"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -808,9 +819,12 @@
     "end": 2316.52,
     "speaker_raw": "SPEAKER_07",
     "testo": "No, almeno siamo pronti per il weekend, iniziamo subito a mettere in pratica.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Pronti per il weekend",
+    "tema": [
+      "tempo libero",
+      "weekend"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

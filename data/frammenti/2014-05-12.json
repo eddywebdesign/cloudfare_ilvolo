@@ -16,12 +16,9 @@
     "end": 184.12,
     "speaker_raw": "SPEAKER_11",
     "testo": "We're a thousand miles from comfort We have traveled land and sea But as long as you are with me There's no place I'd rather be I would wait forever Exalted in the sea As long as I am with you Ciao! when I am with you there's no place I'd rather be",
-    "titolo": "canto sul viaggio",
-    "tema": [
-      "viaggio",
-      "amore"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
@@ -222,12 +219,9 @@
     "end": 539.44,
     "speaker_raw": "SPEAKER_10",
     "testo": "chi è più felice di me voglio scordarmi di te ma detto il cuore se cercherai ritroverai l'amore fin quando sei gioventù sorridi sempre di più la donna un fiore ti dà il profumo ma tanto oggi nel mondo non c'è nessuno nessuno più felice di me bene",
-    "titolo": "Canzone di Maurizio",
-    "tema": [
-      "amore",
-      "gioventù"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
@@ -250,9 +244,12 @@
     "end": 718.98,
     "speaker_raw": "SPEAKER_08",
     "testo": "con Sepulveda era lì abbiamo fatto una chiacchierata cosa ti ha detto Sepulveda? stava bevendo un crudino la domanda è perché non usiamo più spank? io non lo so ma chi?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Incontro con Sepulveda al Salone del Libro",
+    "tema": [
+      "scrittori",
+      "torino"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -394,9 +391,12 @@
     "end": 1139.08,
     "speaker_raw": "SPEAKER_07",
     "testo": "Non conosci Ghirri? Cari ascoltatori, se non conoscete Ghirri... no non personalmente perché non c'è più è perché mi rompi i coglioni allora si casca come un pirla si perché ho fiducia in te comunque Ghiri è uno dei più grandi fotografi italiani era anche un professore di Reggio Emilia conosci Basilico? no ma neanche Basilico lo conosci? no veramente è un fotografo Basilico lo conosci? no dai quello che fa sempre le città vuote senza le persone comunque c'è una bellissima mostra di Ghirri tra l'altro uno dei miei preferiti tra i fotografi italiani quindi se siete in quella zona lì siete in zona Reggio Emilia una bella città sono arrivato no? sono arrivato lì con la Johanna al passeggino vai sempre in giro che non sai mai se viene assalito perché c'è questa cosa adesso che devo imparare a gestire la popolarità con la famiglia che non mi era mai capitato prima che quando incontro uno che ascolta la radio mi dice ciao e poi sposta la tendina del passeggino e si tuffa dentro a tocca Sebastian in mano la Johanna che è islandese che vengono dal nord e che non si permettono neanche di avvicinarsi c'è una prossemica diversa dal nord al sud Insomma, lei mi guarda come dire cosa faccio io, sparo o io lo dici tu? Perché proprio me lo dico con la mano in faccia se basta. Ti ascolto la mattina! E dallo i pacchetti in faccia. Sono uscito dall'angolo col passeggino così, cazzo c'era Beppe Grillo che parlava. La piazza era murata di gente, carabinieri, televisioni e tutto, sembrava uno scherzo. Insomma, c'è una bella mostra di Ghirri, questo vi volevo dire. Ma parliamo adesso... Ciao Stefano, come stai? Ciao Fabio! Tu conosci il fotografo Ghirri? Eh sì, ne ho sentito parlare. Era anche un amante di Bob Dylan, tu stai a Roma, cosa c'è di bello da vedere adesso? Ci sono delle belle mostre, c'è quella di Pasolini?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Luigi Ghirri e Gabriele Basilico",
+    "tema": [
+      "fotografia",
+      "cultura"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -405,12 +405,9 @@
     "end": 1147.58,
     "speaker_raw": "SPEAKER_06",
     "testo": "C'è quella molto bella, abbiamo appena passato un weekend e c'è stata un'apertura di diversi spazi espositivi gratis.",
-    "titolo": "mostra di Pasolini",
-    "tema": [
-      "arte",
-      "cultura"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
@@ -597,9 +594,12 @@
     "end": 1687.88,
     "speaker_raw": "SPEAKER_07",
     "testo": "basta sei a posto quello che non c'è te lo compri cioè tu dove ci sono i soldi andresti cioè tu andresti a vivere a Monaco per esempio ci sono i soldi principato di Monaco già perché lo vogliamo dire che il principato di Morgo ci saranno tutti quei righi ma è un posto di me, ma lo vogliamo dire che è molto bello la Puglia la Sicilia, di quel posto orrendo che è una colata di cemento con tutti questi stronzi con le barche ma lo vogliamo dire che è un posto orrendo che ci vanno quelli famosi italiani per non pagare le tasse e voi gli fate anche l'applauso ma lo vogliamo dire oh",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Vivere a Monaco",
+    "tema": [
+      "monaco",
+      "ricchezza"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -608,12 +608,9 @@
     "end": 1702.37,
     "speaker_raw": "SPEAKER_00",
     "testo": "Perché prende tutto così seriamente? Perché le dà fastidio, signor Andorsi? Sì, sì, me ne dà fastidio Dà fastidio anche a lei, signor Fox? Un pochino forse Volete che vi racconti una barzelletta? Eh sì, ci piacerebbe sentire una sua barzelletta Toc toc Chi è?",
-    "titolo": "La vita è fatta di stagioni",
-    "tema": [
-      "amore",
-      "tempo"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
@@ -703,9 +700,12 @@
     "end": 2147.21,
     "speaker_raw": "SPEAKER_06",
     "testo": "Margherita, dimmi un po' insomma, come ti sei trovata ad amputarmi? I bambini?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Margherita e i biscotti",
+    "tema": [
+      "bambini",
+      "cibo"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -806,9 +806,12 @@
     "end": 2295.99,
     "speaker_raw": "SPEAKER_05",
     "testo": "starà benissimo che non è così caldo a tutto ci si abitua il resto le persone ci vivono ci sono i mesi invernali che sono meravigliosi scusate ragazzi no no perché devo portare avanti anche il programma",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "I mesi invernali",
+    "tema": [
+      "libro",
+      "natura"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {

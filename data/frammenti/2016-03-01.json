@@ -5,9 +5,11 @@
     "end": 5.99,
     "speaker_raw": "SPEAKER_11",
     "testo": "Radio DJ. One nation, one station. One love.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "One nation, one station, one love",
+    "tema": [
+      "unità"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -182,12 +184,9 @@
     "end": 568.08,
     "speaker_raw": "SPEAKER_02",
     "testo": "ok la nasa cosa ha fatto scusami viola sì allora c'è un astronauta che si chiama scott kelly che è partito 340 giorni fa per la stazione nannetto un anno un pochino meno di un anno e il suo gemello è rimasto ovviamente sulla terra non gli hanno fatti ci sono quelli separati alla nascita separati alla nasa La domanda è chi si è divertito di più? Esatto. Allora. Hanno fatto degli esperimenti.",
-    "titolo": "Gemelli nello spazio",
-    "tema": [
-      "spazio",
-      "gemelli"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
@@ -579,12 +578,9 @@
     "end": 1269.03,
     "speaker_raw": "SPEAKER_04",
     "testo": "Eh lo stampino, tu faccia lo stampino. Ma scusami. Adesso ti mando una foto dove siamo tutti e quattro. Adesso la mettiamo sulla pagina del volo. Guarda che incredibile. Va bene. Sentite, fate anche lo stesso lavoro?",
-    "titolo": "gemelli con Danny DeVito e Schwarzenegger",
-    "tema": [
-      "film",
-      "gemelli"
-    ],
-    "tipo": "riferimento_film",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
@@ -740,9 +736,12 @@
     "end": 2296.41,
     "speaker_raw": "SPEAKER_10",
     "testo": "ha una tendenza curva verso sinistra sunrise sunrise looks like morning in your eyes but the clocks held 9.15 for hours sunrise sunrise couldn't tempt us if it tried cause the afternoon Grazie. a presto",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "sunrise looks like morning",
+    "tema": [
+      "musica",
+      "inizio"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -751,9 +750,12 @@
     "end": 2548.3,
     "speaker_raw": "SPEAKER_04",
     "testo": "Bene, sono le 9.44 e ora si è aperto il mondo del reciclabile, del reciclato e della differenziata. Allora, cari ascoltatori, ve lo dico perché lo so che voi lo fate, io mangio pochissimo tonno devo dire, però adesso dovrò farlo diversamente. il vasetto dipende se lo comprate in vetro o nella lattina l'olio del tonno non va buttato nel lavandino e lavato con l'acqua prima di buttarlo nel vetro ma andrebbe versato sulla carta di giornale e poi il giornale non lo puoi buttare nella carta a quel punto va indifferenziato quindi aprite il tonno attenzione l'olio lo buttate su un giornale quindi dovete comprare il giornale se lo leggete sull'ipad dovete versarlo sull'ipad comunque lo versate sul giornale poi il giornale lo buttate nella carta il tonno lo mangiate ovviamente quando poi date in bagno? fra un po' faranno così le feci differenziate comunque niente qualcuno invece dice che la bustina del tè spesso non è biodegradabile è quel caso dove la butto nell'indifferenziato invece se è biodegradabile nell'umido vorrei fare una domanda che è un po' legata alla sessualità strano perché è un argomento che proprio non mi entra alla testa quando si fa l'amore protetti sono molto vago, l'avete già capito quando si fa l'amore protetti cioè che il marchio si protegge ma lo puoi dire siamo moderni Quella roba lì, usato, cosa succede? La butto sul giornale, poi il giornale lo butto e la gomma... dove si butta? Direi indifferenziato. Indifferenziato? Non nell'umido? Se l'hai usato bene... comunque parliamo di è una domanda che poneva Platone va bene scusa Fabio vorrei cambiare altrimenti argomento visto che prima hai citato il tuo organino sessuale questa notte ho sognato che abbiamo fatto l'amore ora la mia domanda è ma ti ho portato fuori a cena prima abbiamo fatto una lunga passeggiata o sono arrivato boom e sono andato via lo sappiamo, dobbiamo chiederlo all'ascoltatrice perché Maurizio quando gli ho detto adesso mi ha detto ma guarda che i sogni non è che iniziano e finiscono tu ti trovi già nella situazione hanno un altro tipo di tempo livello del tempo perché mi hai detto come il film di DiCaprio? come il film Inception Inception aspetta che cerco la scena intratieni Inception di DiCaprio sostiene madonna mia che confusione stamattina allora qua uno vediamo cosa dice ecco io va bene no questa purtroppo non la posso leggere trovata trovata l'olio del tonno scusate non va più messo sul giornale ma va versato in un vaso e conferito al crm centro raccolta materiali come olio ad uso alimentare che va smaltito in modo speciale un barilotto di plastica chi è? Salve, mi chiamo Fabio. Ho qui un barile dove ho messo tutto l'olio del tonno che ho mangiato nel 2015. Sì. Glielo do. Loro ci pensano loro.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "tonno e vasetto",
+    "tema": [
+      "cibo",
+      "reciclo"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -762,9 +764,12 @@
     "end": 2561.2,
     "speaker_raw": "SPEAKER_02",
     "testo": "Ma di solito non è che in un anno ci vai una volta all'anno. No. Cioè se friggi, se fai... Tutto l'olio usato lo metti in questi barilotti e poi li porti al centro di Smith & Wesson. Lo vogliamo salvare?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "olio fritto e barilotti",
+    "tema": [
+      "cibo",
+      "reciclo"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -784,9 +789,12 @@
     "end": 2569.6,
     "speaker_raw": "SPEAKER_03",
     "testo": "La scena dei sogni. La scena dei sogni, vai. Perception.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Perception",
+    "tema": [
+      "film",
+      "percezione"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -795,9 +803,12 @@
     "end": 2588.72,
     "speaker_raw": "SPEAKER_00",
     "testo": "Dicono che usiamo solo una frazione del vero potenziale del cervello, questo quando siamo svegli. Quando dormiamo la mente può fare quasi ogni cosa. Ad esempio? Immagina di progettare un edificio, d'accordo? Ne crei consapevolmente ogni aspetto, ma a volte sembra quasi che si stia creando da solo, non so se mi spiego.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Potenziale del cervello",
+    "tema": [
+      "cervello",
+      "potenziale"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -806,9 +817,12 @@
     "end": 2593.28,
     "speaker_raw": "SPEAKER_10",
     "testo": "Sì, sì, come se lo stessi scoprendo È pura ispirazione, giusto?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "ispirazione",
+    "tema": [
+      "creatività",
+      "ispirazione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -859,9 +873,12 @@
     "end": 2645.42,
     "speaker_raw": "SPEAKER_10",
     "testo": "Beh, siamo venuti prima o meno?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "arrivo e partenza",
+    "tema": [
+      "viaggio",
+      "tempo"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -909,9 +926,12 @@
     "end": 3017.14,
     "speaker_raw": "SPEAKER_02",
     "testo": "cosa sono i barilotti io metto in una bottiglia di vetro capito ma sversa uno wok pieno di olio fritto in una bottiglia esiste una cosa che si chiama imbuto ho capito ma devo anche sporcare l'imbuto no ragazzi barilotto comunque avete rotto le balle",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "barilotti e imbuto",
+    "tema": [
+      "cibo",
+      "reciclo"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

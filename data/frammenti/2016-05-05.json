@@ -38,9 +38,12 @@
     "end": 203.71,
     "speaker_raw": "SPEAKER_03",
     "testo": "what a sound baby oh yeah questo è zucchero con partigiano reggiano chissà se si può fare una canzone anche col grana padano stavo pensando l'altro giorno frana padano frana padano si potrebbe fare la grana che per noi dalle nostre parti anche i soldi quello c'ha la grana si dice in tutta Italia c'ha la grana ma in realtà il napoletano non lo dice c'ha il grano magari c'ha il grano sì",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Grana Padano",
+    "tema": [
+      "musica",
+      "italia"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -49,9 +52,12 @@
     "end": 217.1,
     "speaker_raw": "SPEAKER_02",
     "testo": "scusami Sibaldi le palanche le palanche oh signor dalle belle braghe bianche farà le palanche farà le palanche ma cos'è? ma conosci questa canzone?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Sibaldi",
+    "tema": [
+      "libro",
+      "autore"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -60,9 +66,12 @@
     "end": 293.06,
     "speaker_raw": "SPEAKER_03",
     "testo": "no ma mi piace è orecchiavile è una canzone popolare no? come era? o signore dalle braghe bianche cioè che il padrone praticamente o signor dalle belle braghe bianche ferale palanche ferale palanche va bene insomma buongiorno a tutti oggi è giovedì giorno di Igor Sibaldi possiamo dire che non lo diciamo mai perché tu sei un signore ma io invece che sono un cafone lo dico è uscito il tuo libro ieri un libro nuovo quindi adesso noi spingiamo perché tu vada primo in classifica capito e oscuri tutto e poi paghi se vai primo in classifica poi paghi adesso sei simpatico a tutti perché sei conosciuto e anche no ma come arrivi là in cima me l'han detto io ho sentito gente criticare Vasco Rossi per esempio come se uno non conoscesse la storia di cosa ha fatto musicalmente per questo paese detto questo cosa vogliamo fare ragazzi? mettere la sigla? ma serve il giovedì la sigla? dovremmo fare la sigla di Igor? siamo arrivati a fine stagione qualcosa di russo la sigla di Igor Volga Volga cos'è una canzone famosa russa? noi conosciamo quelle italiane dello zecchino d'oro che facevano Volga Volga come è Volga Volga?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Sibaldi e il libro",
+    "tema": [
+      "libro",
+      "autore"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -71,9 +80,12 @@
     "end": 343.51,
     "speaker_raw": "SPEAKER_10",
     "testo": "la canto? è un pezzettino? è basso poi ci parli in russo un po' sì è la mia lingua vai annuncia Volga Volga in russo e poi cantare un pezzo sentiamo come suona io come sento sta cosa mi fa male di bere è una canzone terribile tra l'altro è la canzone più antifeminista che ho mai sentito è un canto di cosacchi ah canto dei cosacchi perché il capo dei cosacchi Stian Karasin si innamora di una principessa persiana però gli altri sono arrabbiati allora lui perché non ci sia rissa tra i cosacchi durante un viaggio sulla nave prende la principessa e la butta in mare ammazzo sigla sigla sigla",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Volga Volga",
+    "tema": [
+      "libro",
+      "russo"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -82,9 +94,12 @@
     "end": 351.08,
     "speaker_raw": "SPEAKER_02",
     "testo": "è meglio non tradurre le cose la canzone nazionale russa mamma mia arriva una mail in russo spasiba cosa c'è scritto lì?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Mamma Mia",
+    "tema": [
+      "libro",
+      "russo"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -104,9 +119,12 @@
     "end": 457.14,
     "speaker_raw": "SPEAKER_03",
     "testo": "questa è più bella eh capito invece i russi eh l'ho buttata in mare vabbè insomma comunque posso dirti che noi soprattutto diciamo se non conosci le lingue no e quindi la canzone è un suono anche se uno non conosce bene l'inglese sai di e per esempio l'inglese suona bene come si immagina di tutto musicalmente per esempio per dire i testi delle canzoni di Elvis Presley io la prima volta sono rimasto mare cucciolotto orsacchiotto vieni qui mio tenero orsacchiotto che sembra capito poi c'è gente che dice amo Elvis Presley ma non mi piace non lo so Gigi D'Alessio Gigi D'Alessio scrive cose più profonde di Elvis Presley se lo metti a confronto poi magari musicalmente è un'altra roba oggi la giornata è cominciata di corsa Non ha suonato la sveglia. Ho appena accompagnato mio figlio in seconda ora. Abbiamo cantato Fiorella Mannoia in macchina. Lui è sceso ed era vestito in camicia e cravatta. Ha 16 anni. Sembrava di essere un film di 70. Valentina. Dimenticavo. Buongiorno.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Elvis Presley",
+    "tema": [
+      "musica",
+      "elvis"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -115,9 +133,12 @@
     "end": 464.11,
     "speaker_raw": "SPEAKER_10",
     "testo": "Speriamo che non gli capiti quella cosa terribile che capita il 5 maggio a tutti gli studenti da quando c'era la scuola italiana. Oggi è il 5 maggio.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La scuola italiana",
+    "tema": [
+      "scuola",
+      "studenti"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -126,9 +147,12 @@
     "end": 490.19,
     "speaker_raw": "SPEAKER_03",
     "testo": "E il fusico... Guarda come sto qua. bonetti alla lavagna e i fussi come immobile dato il mortal sospiro mi diceva sempre sì ma dille con un po' più di non si può io odio studiare le cose a memoria perché le dico ma quella è particolarmente terribile Possiamo dire noi oggi, così per farci amare da chi ci ascolta, che il 5 maggio, come direbbe Fantozzi, è una cagata.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Fantozzi e il 5 maggio",
+    "tema": [
+      "fantozzi",
+      "5 maggio"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -137,9 +161,12 @@
     "end": 499.1,
     "speaker_raw": "SPEAKER_10",
     "testo": "È cattiva poesia. Ci insultano. Ci possono insultare, però appello a tutti gli insegnanti dello superiore d'Italia, spiegate ai ragazzi che il 5 maggio è una brutta poesia.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il 5 maggio è una brutta poesia",
+    "tema": [
+      "poesia",
+      "5 maggio"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -447,9 +474,12 @@
     "end": 1196.25,
     "speaker_raw": "SPEAKER_03",
     "testo": "che si fa? questa intanto è musica a chizomba te lo dico la senti la chizomba James? una specie di gambada dovresti essere meno timido adesso e muoverti un po' mentre sei al telefono per istinto cioè tu vorresti fare carriera in questo diciamo cioè farlo diventare la tua professione la tua professione sarebbe una gran cosa perché nessuno sa cos'è se la fai conoscere in Italia è bella questa cosa qui lei non vuole quindi tu adesso ti trovi cerco di abbreviare la sintesi non è tua scusami James tu adesso ti trovi a un bivio scelgo la mia fidanzata o scelgo la carriera della chizomba il bivio è quello l'amore o il sogno poi stando insieme a lei ci sarebbe poi il dubbio nel futuro dire magari perché ho rinunciato qua questo però si diffonde anche fuori dall'anchizomba è un problema di tutti non avrei nessun dubbio non può essere che lei è un po' come l'asino nella grotta quando è nato Gesù",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La chizomba",
+    "tema": [
+      "musica",
+      "danza"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -458,9 +488,12 @@
     "end": 1233.03,
     "speaker_raw": "SPEAKER_10",
     "testo": "infatti sta frenando uno sviluppo iniziatico come si dice l'asino nella grotta rappresenta i freni che una persona incontra infatti quando poi entra Gerusalemme Gesù è su un asino quindi adesso i freni li cavalco adesso vediamo cosa mi fanno e gli va non tanto bene certo se una persona però che ama un altro dice adesso spegni un tuo talento creativo perché se no qui non va bene io non ci sto più questa persona deve rivedere un po' alcune cose dovremmo parlare più con lei che con te forse ce l'hai lì vicino?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'asino nella grotta",
+    "tema": [
+      "freni",
+      "creatività"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -535,9 +568,13 @@
     "end": 1301.53,
     "speaker_raw": "SPEAKER_10",
     "testo": "c'è un proverbio c'è un proverbio georgiano bello delle parti mie molto bello che dice se tuo figlio scrive poesie tu strappagliele sei tuo figlio è lungo è lungo aspetta aspetta se tuo figlio continua a scrivere poesie tu rimproverolo con forza se tuo figlio continua a scrivere poesie tu diseredalo se tuo figlio continua a scrivere poesie fagliere scrivere, spendi tutto quello che hai per fagliere scrivere perché è un grande poeta è finita bene ok ok va bene James secondo te adesso noi mettiamo un disco possiamo chiamare la tua ragazza ci dai il telefono la chiamiamo",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Proverbio georgiano sulla vocazione artistica",
+    "tema": [
+      "vocazione",
+      "talento",
+      "genitori"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -850,9 +887,12 @@
     "end": 2304.32,
     "speaker_raw": "SPEAKER_03",
     "testo": "Sei minorenne? Sì. Aspetta un attimo, è caduta la linea. però hai già imparato tutte le sei già stata programmata come donna il programma è stato inserito tutto va bene Igor Igor fai finta che lo abbia detto Sabrina il 5 maggio è una poesia di merda te lo volevo dire senti Sabrina vedrai che tu crescendo sarai sempre meno gelosa",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "la poesia",
+    "tema": [
+      "poesia",
+      "amore"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -905,9 +945,12 @@
     "end": 2562.65,
     "speaker_raw": "SPEAKER_03",
     "testo": "qualcuno fa notare che era minorenne e non era a scuola perché era a casa però ha detto che era a casa a studiare magari il 5 maggio è festa in memoria di Manzoni non penso ragazzi nemmeno al Manzoni va bene allora quindi diciamo il tema di oggi che non l'abbiamo sviluppato tanto perché poi ci faceva ridere questa cosa James la chizomba e la fidanzata insomma tanti di noi si devono trovare si trovano si sono trovati si troveranno a questo bivio no? cioè dentro di me ha un come dire un destino personale e quindi se a fianco a me non ho una persona che sostiene questo destino personale e mi mette nella condizione di dover dire o me o il sogno o me o il tuo lavoro o me o una cosa l'uomo o la donna in questo caso si trova davanti a un grandissimo dubbio che è il famoso amore non direi neanche tanto lavoro quanto realizzazione di sé forse no?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "il 5 maggio è festa",
+    "tema": [
+      "festa",
+      "memoria"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -916,9 +959,13 @@
     "end": 2694.76,
     "speaker_raw": "SPEAKER_10",
     "testo": "è il famoso ama il prossimo tuo ama il prossimo tuo tu e cosa ama il prossimo tuo C'è un equivoco a riguardo perché il prossimo tuo è un comandamento della Bibbia e quando Mosè sta spiegando agli ebrei come si fa ad essere un popolo. Per essere un popolo bisogna andare d'accordo, dice lui. Allora bisogna fare in modo che tu ami il tuo connazionale tanto quanto te, così batti tutti. Non devi litigare con il connazionale, devi litigare con lo straniero. E invece nei Vangeli poi salta fuori Gesù che dice no guarda non è vero che stiamo qua. Non devi amare il tuo connazzamento, devi amare il nemico. Il nemico come amite stesso. Nella nostra vita noi purtroppo abbiamo amato il prossimo nostro in una maniera assoluta e terribile. perché abbiamo lasciato decidere quando tu ami una persona gli fai decidere la tua vita ami una persona e dici voglio andare in vacanza in Inghilterra l'altra dice no voglio andare in vacanza in Germania e si va in Germania noi abbiamo fatto così con i nostri connazionali in tutti i modi abbiamo lasciato che i nostri connazionali decidessero che cosa studiare a scuola quando andare a scuola, quando fare vacanza che mestiere fare cosa credere, cosa non credere e ci siamo fatti condizionare totalmente per amore del connazionale È una cosa che è veramente sbagliata perché poi finisce che tutti si condizionano l'uno con l'altro, si bloccano gli uni con gli altri e scatta quello che dicevamo all'inizio che è il meccanismo delle proiezioni. Quando è che uno fa una proiezione? Quando uno ha delle grandissime qualità, ha paura di queste qualità, allora si ferma, cede e tira fuori qualcuno da venerare che gli sembra che abbia queste qualità qua. Per esempio nell'autorità, uno dentro potrebbe avere una grande autorità, però ha paura di averla perché poi diventa il padrone della sua vita allora trova lo statista che lui venera perché è una grande autorità o il papa che venera perché è una grande autorità e uno mette negli altri una qualità sua e così non la usa e lascia che gli altri lo comandino naturalmente tutte le persone di politica, di potere ci marciano con questa roba è una cosa terribile e comincia da queste scelte qua a casa tu vuoi fare lo scrittore ma non devi perché muori di fame tu vuoi fare il violinista ma non devi perché muori di fame tu ti fermi e cominci ad avere gli idoli e proietti queste cose ci cascano tutti non cascateci c'è un momento che è troppo tardi",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il significato originale di ama il prossimo tuo",
+    "tema": [
+      "bibbia",
+      "storia",
+      "convivenza"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -1026,9 +1073,12 @@
     "end": 2799.77,
     "speaker_raw": "SPEAKER_10",
     "testo": "È una James. Di Fabio. Fabio viene da dove? Fabio è uno delle tribù romane più",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "le tribù romane",
+    "tema": [
+      "storia",
+      "cultura"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {

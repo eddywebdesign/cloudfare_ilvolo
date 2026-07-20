@@ -55,12 +55,9 @@
     "end": 279.36,
     "speaker_raw": "SPEAKER_06",
     "testo": "ho visto un film con Heidi però era rossa non mi era piaciuto perché era rossa riccia non mi ci ritrovavo nel personaggio comunque via E.T. via Rambo via Spenca abbiamo Viola e Maurizio ecco ragazzi quindi continua diciamo la versione cartunesca della vita poi abbiamo la Stellina e la Steffi al centralino 347 342 5220 oppure diretta chioccioladj.it come siamo istituzionali stamattina mi sta tornando anche un po' di voce per cui ragazzi I'm back sto tornando ho scelto due canzoni che vale la pena di sentire con antipatia la mia voce quelli che non mi sopportano perché ci sono due canzoni che meritano pian piano la voce se ne sta andando sigla",
-    "titolo": "E.T. il libro",
-    "tema": [
-      "film",
-      "infanzia"
-    ],
-    "tipo": "riferimento_film",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
@@ -433,12 +430,9 @@
     "end": 1206.75,
     "speaker_raw": "SPEAKER_05",
     "testo": "Beh, bellissimo, lui è un grande attore, quindi è molto bello lavorare con uno così bravo, impegnato anche nel sociale.",
-    "titolo": "Nicole Kidman",
-    "tema": [
-      "film",
-      "attori"
-    ],
-    "tipo": "riferimento_film",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
@@ -804,9 +798,12 @@
     "end": 2125.98,
     "speaker_raw": "SPEAKER_06",
     "testo": "Ecco io che c'ho problemi Infatti lui mi ha detto la gola, hai mangiato il panettone Io l'ho guardato strano e sono andato via Però scusatemi, San Biagio San Biagio si mangia il panettone l'ha scritto adesso? l'hanno scritto ma dove lo trovi il panettone adesso? è quello che dovresti aver avanzato ma lo tiro in faccia va conservato lo devi conservare a posto evidentemente io quando avevo il negozio poi avevamo i panettoni 2x1, 5x1 più andavi avanti i primi di aprile pagavi un panettone ti veniva a casa il signor Baulo e ti si sceglieva in braccio si si si andava in braccio e con un panettone ti baciava grazie grazie che hai comprato il panettone ad aprile comunque incredibile chiamiamo Nicola un secondo chiamiamo Nicola un secondo ah ma Nicola giù chiamiamo Nicola Savino infatti ho detto no per noi Nicola al 2 del mattino è Nicola Portinà è occupato fantastico va bene lo sentiamo dopo aspetta abbiamo in quel momento di dedica richieste sapete che sto portando avanti questa scuola questa mia cosa voglio fare un programma di dedica richiesta e questa mattina ho portato una bella canzone per una persona che mi ha scritto sul mio twitter personale ah si può? un ragazzo che ha scritto veramente non mi ha scritto su twitter mi ha scritto su instagram fa niente comunque mi ha scritto sono anni che sto con sta ragazza non ho mai avuto il coraggio di fare il passo serio ok adesso invece dopo che è successa una cosa mi è tutto molto chiaro e voglio stare con lei per sempre vorrei dedicare una canzone e io sto lì e cerco di capire la canzone mi è venuta in mente quella che si chiama I can see clear now te la ricordi? posso vederci chiaramente adesso e quindi dedica richiesta una scusa per poter mettere sta canzone senti che bella che è",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il panettone avanzato",
+    "tema": [
+      "Natale",
+      "panettone"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -837,9 +834,12 @@
     "end": 2304.2,
     "speaker_raw": "SPEAKER_06",
     "testo": "Vedi che siamo tre ignoranti così. A Natale si taglia una fetta, si mette in un sacchetto e si mette via apposta per il 3 febbraio che è San Biagio. Il panettone deve diventare un po' duro in modo che ti gratti la gola andando giù che come degli operai ti fa lo stucco. Non sembro piacevole però. Non deve essere piacevole. Nicola!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "San Biagio e il panettone",
+    "tema": [
+      "tradizione",
+      "festa"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {

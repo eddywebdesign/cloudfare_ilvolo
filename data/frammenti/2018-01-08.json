@@ -736,9 +736,12 @@
     "end": 2009.49,
     "speaker_raw": "SPEAKER_08",
     "testo": "io ti vedevo lì col microscopio col topolino stamattina serve comunque il microscopio va bene senti buona giornata grazie mille non so se sono contento di questa telefonata dici qualcosa di due mesi di attraversato non so un bel tramonto hai capito qualcosa del rapporto con tuo pa qualcosa di profondo no ho capito che eravamo immersi in aria e non immersi in acqua che senso La droga nel Calabria è buona, io ho visto Narcos, ho visto tutti quei alciapo, è buona.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il tramonto",
+    "tema": [
+      "musica",
+      "natura"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -747,9 +750,12 @@
     "end": 2030.06,
     "speaker_raw": "SPEAKER_12",
     "testo": "Nel senso che c'era tanta tanta tanta aria, quando sei in città c'è un pacco di cose sopra l'orizzonte o anche in montagna, hai le montagne sopra l'orizzonte. Ah lì è orizzonte, e lì invece... piatto piatto piatto e non c'è niente sopra di te è solo aria ti ha ricordato Gallarate tutto questo?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La sensazione dell'orizzonte",
+    "tema": [
+      "spazio",
+      "libertà"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -758,9 +764,12 @@
     "end": 2044.1,
     "speaker_raw": "SPEAKER_08",
     "testo": "vabbè ti saluto ciao Arianna buona bocca al lupo ciao ciao ciao ciao ciao stamattina non so perché ho portato questa canzone bella parlava come Roberta Armani era lei era la Roberta Armani ho fatto i caraibe",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Roberta Armani",
+    "tema": [
+      "musica",
+      "nome"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -899,9 +908,12 @@
     "end": 2451.63,
     "speaker_raw": "SPEAKER_08",
     "testo": "Quale di RTL? Butta giù Maurizio, butta giù Ma no, ma veramente Che magari cercavamo di convincere il poliziotto Ancora qua Vuoi che parlo col poliziotto?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La conversazione con il poliziotto",
+    "tema": [
+      "comportamento",
+      "imprevedibilità"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -910,9 +922,12 @@
     "end": 2478.83,
     "speaker_raw": "SPEAKER_10",
     "testo": "Eh, posso passarle al Fabio Volo? Ma no Hai pure rubato l'Audi Che non è tua Guardi che l'hai rubata l'Audi ma continua a stare ma non la metti giù sto telefono ma sei matto ma sei ancora al telefono ma non la metti giù sto telefono ma lo metto giù mi sta guardando anche male ma scusa sei ancora al telefono ma mettilo giù no ma butta giù",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La conversazione con il poliziotto (continuazione)",
+    "tema": [
+      "comportamento",
+      "imprevedibilità"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -963,9 +978,12 @@
     "end": 2523.24,
     "speaker_raw": "SPEAKER_11",
     "testo": "Scusami adesso. Vabbè, è una multa.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La multa",
+    "tema": [
+      "responsabilità",
+      "conseguenze"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

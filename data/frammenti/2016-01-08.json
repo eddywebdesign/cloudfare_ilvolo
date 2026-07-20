@@ -334,12 +334,9 @@
     "end": 1215.89,
     "speaker_raw": "SPEAKER_05",
     "testo": "All right love Used to hold and kiss me Till the dawn Then one day I awoke And he was gone there's no more baby baby all night long he called me baby baby all night long lord I feel so empty since he's been gone Until the dawn I miss my baby Baby baby baby All night long He called me baby Baby baby All night long Yes he did Kiss my teeth ... ... nowish night and dreams just like a song I can still hear baby baby baby Ciao!",
-    "titolo": "Testo canzone romantica",
-    "tema": [
-      "musica",
-      "amore"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
@@ -631,9 +628,12 @@
     "end": 1762.33,
     "speaker_raw": "SPEAKER_13",
     "testo": "Non c'è la versione degli 883 dove c'era anche il repetto per quando fai quei pezzi di hanno ucciso l'uomo ragno, sei già nella nuova versione?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Gli 883 e Hanno ucciso l'Uomo Ragno",
+    "tema": [
+      "musica",
+      "anni novanta"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -692,12 +692,9 @@
     "end": 1797.31,
     "speaker_raw": "SPEAKER_12",
     "testo": "No, personalmente no, non l'ho mai incontrato, non l'ho mai avuto di modo. Ci siamo sentiti molti anni fa al telefono, però poi non c'è mai stato un incontro.",
-    "titolo": "Max",
-    "tema": [
-      "famoso",
-      "personaggio"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
@@ -766,9 +763,12 @@
     "end": 1871.49,
     "speaker_raw": "SPEAKER_13",
     "testo": "ah ok ok vediamo noi abbiamo un ascoltatore del volo del mattino che fa il geometra però ha anche una band diciamo dove fanno tutte le cover degli 83 quindi lui è il tuo diciamo sosia travolgo Ok, e volevo sapere se tu non avevi mai sentito parlare di una band che si chiama North-Sudovest Band.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La North-Sudovest Band e gli 883",
+    "tema": [
+      "musica",
+      "cover band"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -1134,12 +1134,9 @@
     "end": 2339.9,
     "speaker_raw": "SPEAKER_13",
     "testo": "Scancanessi al volo del mattino e allora adesso Viola ovviamente ti si riempirà la casella postale ed è il volo del mattino tutto attaccato chioccioladj.it di ascoltatori che vorranno parlare con Ligabue, Giovanotti, Vasco Rossi, Renato Zero e noi li leggiamo e poi decidiamo quale sarà la password chi ha la password?",
-    "titolo": "citazione di artisti italiani",
-    "tema": [
-      "musica",
-      "ascoltatori"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {

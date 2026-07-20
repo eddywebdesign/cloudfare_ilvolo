@@ -374,9 +374,12 @@
     "end": 1174.16,
     "speaker_raw": "SPEAKER_07",
     "testo": "Onora il padre e la madre.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Onora i genitori",
+    "tema": [
+      "famiglia",
+      "rispetto"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -413,9 +416,12 @@
     "end": 1235.97,
     "speaker_raw": "SPEAKER_06",
     "testo": "Gli adulti ce l'hanno, i bambini le sentono, le vedono proprio. Quando un bambino, un genitore, chiama molto e il genitore non lo ricambia tanto, non è tanto presente, il bambino ha la tendenza a stargli vicino, ad aiutarlo, pigliandosi i suoi traumi.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Genitori e bambini",
+    "tema": [
+      "genitori",
+      "bambini"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -424,9 +430,12 @@
     "end": 1244.62,
     "speaker_raw": "SPEAKER_07",
     "testo": "Ok, ma al comune, pensando, se io mi prendo un pezzo della tua sofferenza, la dividiamo, invece si moltiplica come la luce delle candele. Come dire, chi va con lo zoppo impara a zoppicare.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Condividere sofferenza",
+    "tema": [
+      "sofferenza",
+      "aiuto"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -435,9 +444,12 @@
     "end": 1246.68,
     "speaker_raw": "SPEAKER_06",
     "testo": "Chi sta col traumatizzato si traumatizza.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Traumatizzazione",
+    "tema": [
+      "trauma",
+      "aiuto"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -446,9 +458,12 @@
     "end": 1343.99,
     "speaker_raw": "SPEAKER_07",
     "testo": "adesso prima del primo disco quindi non la leggo questa mail di questa donna che è l'amante però facciamo leggere un delfino caro Fabio bisogno di aiuto di Igor amo il mio amante e lui ama me alla follia mi ha chiesto di lasciare mio marito per andare a vivere con lui e ricominciare insieme perché non riesco a lasciare mio marito ho confessato tutto a mio marito che ovviamente ci è rimasto male appena appena mio marito è disposto a ricominciare con me io amo il mio amante è l'uomo che mi corrisponde ma non riesco a lasciare mio marito questa qui è una mail questo è Shakespeare cara che non ti sei firmata giustamente ci tengo a precisare scusami non ho finito di leggere lasciato mio marito ci tengo a precisare che ho 32 anni mai nella vita mi sarei immaginato di vivere una situazione del genere ho dovuto imparare a non giudicare e già si è risposta cosa deve fare questa ragazza intanto non scrivere a noi infatti prima cosa mettere un cartello davanti al proprio ambiente lavori in corso lavori in corso non parlare al guidatore osservati osservati in questa cosa ma forse la domanda che tutti vorrebbero sapere forse magari invece è solo mia questa curiosità prima del primo disco è Maurizio come è stato il tuo primo bacio? io non voglio saperlo e sarà stato ieri pomeriggio te lo ricordi benissimo ma i maschi è diverso, mentono sempre vabbè hai metto il primo disco o ci dici del bacio? io aspetto i tuoi segni, va bene mettiamo il primo disco ok vi ho portato questo che rilegra un po' questo è Jim Croce, una storia di vita non bellissima ma grandi canzoni",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'amante e il marito",
+    "tema": [
+      "amore",
+      "relazioni"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -468,9 +483,12 @@
     "end": 1554.94,
     "speaker_raw": "SPEAKER_07",
     "testo": "io ovviamente tendo a non giudicare ho questa fortuna perché vengo secondo te quando uno giudica molto è perché viene da una famiglia di genitori che giudicano molto non lo so io per esempio i miei genitori non sono così quindi né io né mia sorella non abbiamo tanto questa tendenza a giudicare cerchiamo di comprendere le cose però posso dire vai con chi giudica e cominci a giudicare no che voglio dire i messaggi che stanno arrivando che mi fanno fatica fisica cioè io leggo questi messaggi di quattro righe e vedo la loro vita l'amante la cosa e io penso se avessi una giornata così sarei stremato alla fine del giorno è mezz'ora che urlo qua dietro cosa urli? io ho amato la mia amante probabilmente lei ha amato me ma non ho mai voluto lasciare la mia compagna adesso che sto per avere un figlio dalla mia compagna lui ha fatto il figlio con la compagna però nel frattempo aveva l'amante mi fa una fatica solo a pensarci adesso che sto per avere un figlio dalla mia compagna lei, la mia amante sposata con figli ha deciso che è tutto finito la capisco ma io voglio scegliere di stare bene io stavo bene non c'è nessuna domanda sai che è la versione adulta di caro cioè è un giornaletto che tu non conosci mi ha baciato con la lingua sarò incinta erano queste le frasi",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "genitori e giudizio",
+    "tema": [
+      "genitori",
+      "giudizio"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -524,9 +542,11 @@
     "end": 1768.67,
     "speaker_raw": "SPEAKER_10",
     "testo": "L'amore qui non passa e non si vede ancora L'amore qui non passa",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'amore qui non passa",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -535,9 +555,13 @@
     "end": 1810.09,
     "speaker_raw": "SPEAKER_09",
     "testo": "Nell'ombra dei ricordi di chi non ha mai vissuto, c'è uno che somiglia a te e non l'hai riconosciuto. Nei soldi che contiamo c'è una smania devastante di ripicciolire il tempo, di accorgiare le distanze, dei segni che conservo sulla bellezza e cicatrice, se bruci forte ancora non E' vero quel che si dice, da qui è passato amore e se ne è andato smetto, ma sei rimasta mia, sei intrappolata adesso.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Lettura di un testo poetico sull'amore",
+    "tema": [
+      "amore",
+      "ricordi",
+      "tempo"
+    ],
+    "tipo": "lettura_volo",
     "video_url": ""
   },
   {
@@ -576,9 +600,13 @@
     "end": 2238.97,
     "speaker_raw": "SPEAKER_07",
     "testo": "è arrivato non lo so ma non si può dire Maurizio non è che non si può dire non lo so ma la mia domanda scusami e tu devi immaginare per esempio voglio imparare a suonare il piano o mi devo immaginare che sono un grande pianista immagini che piacere deve dare suonare il piano ecco questa cosa qua c'è tutti i medesimi diciamo in quella io lo faccio questo esercizio mi è capitato e tu lo fai se non scriveresti i libri io da ragazzino mi facevo le interviste io guardavo la televisione mentre passeggiavo ero solo in cameretta mi immaginavo che mi avrebbero intervistato e cosa avrei detto su quella cosa mi intervistavo come hai fatto a diventare il più grande sciatore del mondo e io dicevo no perché io mi sono messo lì e preparavo le risposte ma questa tecnica vale Igor?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il potere dell'immaginazione nell'apprendimento",
+    "tema": [
+      "apprendimento",
+      "immaginazione",
+      "obiettivi"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -629,9 +657,12 @@
     "end": 2329.92,
     "speaker_raw": "SPEAKER_06",
     "testo": "sai cosa vorrebbe fare il papà?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "papà e bambino",
+    "tema": [
+      "genitori",
+      "bambino"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -693,9 +724,12 @@
     "end": 2572.76,
     "speaker_raw": "SPEAKER_07",
     "testo": "io tranne quando mi costringe a star seduto tanto perché avendo una certa età a me mi fa male il ginocchio, le caviglie e lui mi dice siediti e io dico mi posso sedere lì sul cuscinello? no qua, ti devi sedere qua allora io mi siedo lì è una dittatura sì perché mi fa male che sono uno che non fa stretching è dello scorpione no? mio figlio è uno dello scorpione è dello scorpione sai che ho già una volta ho fatto questo gioco volevo che lui mangiasse la banana invece dell'arancio allora ho capito e lui mi ha detto l'arancio allora io gli ho detto guarda la banana non te la do tu puoi mangiare solo l'arancio banana no lui ha fatto così e io ho dato la banana hai benedetto i figli? ho benedetto i figli il battesimo? è una cosa che non c'entra nella religione non c'entra niente è una cosa estremamente lontana io ho battezzati tutti e due insieme e ce li ha battezzati un nostro vicino di casa che è un artista che ci piace tanto guarda che la benedizione è molto più potente come si fa?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "figlio e ginocchio",
+    "tema": [
+      "genitori",
+      "bambino"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -746,9 +780,12 @@
     "end": 2701.55,
     "speaker_raw": "SPEAKER_07",
     "testo": "perché lui sa che sta diventando papà prepara il discorsetto capito quindi non devo parlare al bambino ma col bambino tu ricordi quando sei in sala parto anche non parlare con l'Elena ma con l'Elena andrai in sala parto? sì sì posso dare due o tre consigli? abbiamo un minuto e mezzo se ti metti nell'angolo sbagliato è come andare a Disneyland dopo una strage è un posto dove tu dopo andare a giocare ti posso dare due consigli? mi la metto in un disco? ancora un minutino e poi salutiamo? ok allora leggo un po' di mail mi hai commosso con questa roba del film ma guarda che dopo devi bere qualcosa perché il ragazzo esce frastornato no ma io sono frastornato tu esci che non capisci più dove sei No, no, ma di fatto io già quando gli dicono all'orecchio alla sera, vai, io ti voglio bere, ti voglio bere, mi abbraccio. È troppo facile. No, lo so, ma è piccolo già, non riesce a spiegare tutto sto discorso qua, già che capisce ti voglio bere. Capito? No, lui mi abbraccia, mi sta... è da piangere.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Preparazione al parto",
+    "tema": [
+      "genitori",
+      "nascita"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -768,9 +805,12 @@
     "end": 2721.09,
     "speaker_raw": "SPEAKER_07",
     "testo": "Non pensavo, non pensavo. Eh ragazzi, lo so, lo so. Allora, stavano dicendo, l'amante è l'hard disk, no? Stavano dicendo che vale per... bisogna tradire. Viola diceva che è giusto tradire se uno se lo sente. È quello che stavi dicendo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Tradire per amore",
+    "tema": [
+      "amore",
+      "fedeltà"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -817,9 +857,12 @@
     "end": 2769.54,
     "speaker_raw": "SPEAKER_07",
     "testo": "hai capito? però adesso lui in realtà poi adesso quando gli dice sei bisogno di me fai un fischio e io vengo che è un po' forse anche la cosa che hai appena detto tu sappi che io ci sono nei momenti io sono sempre con te e Pinocchio non sa fischiare dobbiamo chiudere un sacco di donne non sanno fischiare lo sai io so fischiare sai fischiare ciao ragazzi a domani grazie Igor Sibaldi grazie",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Citazione di Pinocchio",
+    "tema": [
+      "letteratura",
+      "infanzia"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   }
 ]

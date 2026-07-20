@@ -501,9 +501,11 @@
     "end": 1558.4,
     "speaker_raw": "SPEAKER_01",
     "testo": "Mannaggia. Va bene. Senti, Gwenda, in bocca al lupo e mandaci delle foto dei ciliegi.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "In bocca al lupo",
+    "tema": [
+      "buona fortuna"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -523,9 +525,11 @@
     "end": 1567.62,
     "speaker_raw": "SPEAKER_01",
     "testo": "Che vocina da cartone animato che c'ha Gwenda, proprio. È andata lì per quello, secondo me.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Gwenda e il cartone animato",
+    "tema": [
+      "cartone animato"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -534,12 +538,9 @@
     "end": 1583.35,
     "speaker_raw": "SPEAKER_13",
     "testo": "Giuliano, il gatto Giuliano. And when my eyes are closed I can start to feel you staring at me ... ...",
-    "titolo": "Quando gli occhi sono chiusi",
-    "tema": [
-      "musica",
-      "sentimenti"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
@@ -634,9 +635,12 @@
     "end": 2023.51,
     "speaker_raw": "SPEAKER_01",
     "testo": "cani allora ciao ragazzi sono in una serra a 30 gradi altro che ciliegie pesche mi stanno fiorendo i pomodori oltre che ai maroni 30 gradi è tanta roba magari anche umido è lo che ti puoi schiacciare tutti i punti neri senza fare i graffi sul naso",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Serra a 30 gradi",
+    "tema": [
+      "giardino",
+      "clima"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -659,9 +663,12 @@
     "end": 2097.16,
     "speaker_raw": "SPEAKER_01",
     "testo": "Perché ogni tanto a casa ci facciamo le mini spa, le mini spa quando tutti e due i bambini sono a letto, lei se le fa lei me le faccio fare anch'io perché mi fa tipo le masche, quelle lì in argilla che succhia la faccia, che poi rimangono in buchini sul naso, sai come si chiama Maurizio, diciamo il grasso che è nella pelle? il sebo che io quando lo scoprì a 16 anni mi strizzai il naso un attimo e venne fuori e ho scoperto questo ma mi impressionò questo verme bianco fermi fermi che brutta immagine cambiamo discorso buongiorno Lisa ciao ti sei appena svegliata no mi sono svegliata alle 6 per andare dal dottore stamattina allora sei andata dall'osteopata che noi il volo del mattino vogliamo sapere cosa faccio e ci facciamo i fatti vostri per risolvere il mal di testa esatto hai sempre il mal di testa in questi giorni o in questi mesi",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Mini spa a casa",
+    "tema": [
+      "benessere",
+      "famiglia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -681,9 +688,12 @@
     "end": 2105.47,
     "speaker_raw": "SPEAKER_01",
     "testo": "Senti, ma i giorni quelli lì, diciamo, delle donne, fa ancora più male?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "I giorni delle donne",
+    "tema": [
+      "salute",
+      "femminilità"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -703,9 +713,12 @@
     "end": 2113.45,
     "speaker_raw": "SPEAKER_01",
     "testo": "Eh, ne immaginavo, vedi, ma guarda, guarda, lo sapevo. Ouch. Anche il seno? Anche il seno?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il mal di testa e l'osteopata",
+    "tema": [
+      "mal di testa",
+      "osteopata"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -725,9 +738,12 @@
     "end": 2127.79,
     "speaker_raw": "SPEAKER_01",
     "testo": "Un pochino, no? No, no, quello no, solo tu ha tutto alla testa, sei tutta testa. Testa, tutta testa. Allora, sei andata lì perché c'è il mal di testa e l'osteopata ti ha fatto un po' così e poi ti ha detto... No, neanche.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La visita all'osteopata",
+    "tema": [
+      "visita medica",
+      "osteopata"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -736,9 +752,12 @@
     "end": 2132.27,
     "speaker_raw": "SPEAKER_18",
     "testo": "Niente? Neanche. No, neanche. Cosa ti ha fatto? Questo me l'aveva fatto la scorsa settimana.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Osteopata e mal di testa",
+    "tema": [
+      "salute",
+      "benessere"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -758,9 +777,12 @@
     "end": 2136.88,
     "speaker_raw": "SPEAKER_18",
     "testo": "Anche invece mi ha fatto sedere e basta.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La visita all'osteopata continua",
+    "tema": [
+      "visita medica",
+      "osteopata"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -769,9 +791,12 @@
     "end": 2147.4,
     "speaker_raw": "SPEAKER_01",
     "testo": "Signore, lei è solo stanca, si siede qua. Allora, ti ha dato l'appuntamento alle sette e poi ti dice che sei stanca. Comunque, scusami, ti ha messo un panetto di ghiaccio in testa? No.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La visita all'osteopata si conclude",
+    "tema": [
+      "visita medica",
+      "osteopata"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -780,9 +805,12 @@
     "end": 2168.36,
     "speaker_raw": "SPEAKER_18",
     "testo": "No, mi ha detto di tornare a casa, di prendere uno di quei ghiaccioli che si usano per i picnic, metterci della carta trasparente intorno e metterlo... No, dove ti ha detto di metterlo? Tra le gambe. No!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La visita all'osteopata si conclude con un consiglio",
+    "tema": [
+      "visita medica",
+      "osteopata"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -805,9 +833,12 @@
     "end": 2286.97,
     "speaker_raw": "SPEAKER_18",
     "testo": "Esatto, sì, da oggi. Ok. Per i prossimi 28 giorni.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La vita è un percorso",
+    "tema": [
+      "vita",
+      "percorso"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -1002,9 +1033,12 @@
     "end": 2934.81,
     "speaker_raw": "SPEAKER_04",
     "testo": "... ... ... ... ... ... ... ... ... ... ... a presto Ciao! Ciao! I just hope it ain't the money money money money money Love me love me honey I just hope it ain't the money money money money money Love me love me honey I just hope it ain't the money money money money money Love me love me honey I just hope it ain't the money money money money money",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Money di Leehom Wang",
+    "tema": [
+      "denaro",
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {

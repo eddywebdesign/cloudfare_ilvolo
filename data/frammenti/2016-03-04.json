@@ -18,12 +18,9 @@
     "end": 185.91,
     "speaker_raw": "SPEAKER_12",
     "testo": "Musica ... ... ... Ciao! Ciao! we'll be 30 years old I'm still learning about life my woman brought children for me so I can sing them all my songs and I can tell them stories most of my boys are with me some are still out seeking glory and some I had to leave behind my brother I'm still savvy soon I'll be 60 years old my daddy got 61 remember life and then your life becomes a better one I made a man so happy when I rode a letter once I hope my children come and a presto",
-    "titolo": "Canzone di vita e crescita",
-    "tema": [
-      "vita",
-      "crescita"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
@@ -460,9 +457,11 @@
     "end": 1392.12,
     "speaker_raw": "SPEAKER_06",
     "testo": "Di più, muoviti più in fretta, di più, benedetto. più su, nel silenzio tra le nuvole più su, che si arriva la luna, si la luna E una sottana americana l'ora su, mettendosi di fianco più su. Guida tu che sono stanco più su, in mezzo ai razzi un batticuore più su. Sono sicuro che c'è il sole, ma che sole, è un cappello di ghiaccio. Questo sole è una catena di ferro senza montaggio.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il sole è una catena di ferro",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -471,9 +470,11 @@
     "end": 1481.72,
     "speaker_raw": "SPEAKER_03",
     "testo": "Lento, lento, adesso batte più lento, ciao, come sta? Il tuo cuore lo sento, i tuoi occhi così belli non li ho visti mai. Ma adesso non voltarti, voglio ancora guardarti, non girare la testa dove sono le tue mani. Aspettiamo che ritorni la luce, di sentire la voce aspettiamo senza avere paura domani",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Lento, lento, adesso batte più lento",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -730,9 +731,11 @@
     "end": 2359.52,
     "speaker_raw": "SPEAKER_02",
     "testo": "Io pugnalo? No, è detto quello che pensavo, è un pensiero normale. Non è nessuno a pugnalare, mai avrei in mente di pugnalare a Fabio, per carità. E quelli stracciati di morire.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Non è nessuno a pugnalare",
+    "tema": [
+      "amicizia"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -763,12 +766,9 @@
     "end": 2372.69,
     "speaker_raw": "SPEAKER_01",
     "testo": "Ma lo vuoi meno, è un programma, dici che siamo troppo intellettuali, ma come ti... Sì, secondo me è un...",
-    "titolo": "L'uomo senza pene",
-    "tema": [
-      "documentario",
-      "realtà"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
@@ -854,9 +854,12 @@
     "end": 2496.54,
     "speaker_raw": "SPEAKER_01",
     "testo": "come si direbbe in pugliese? da noi diciamo un cazzo anche da noi comunque senti qua un attimo Nicola nato senza pene Andrew Wardle si chiama Andrew Wardle oh mamma mia ha fatto sesso con più di 100 donne e senza che loro si accorgessero di nulla ma che ne so tu usava la mano a posto dell'acqua non lo so leggo con te questa informazione è un quarantenne passavo da una ragazza all'altra e all'epoca era l'unico modo per gestire il problema solo il 20% delle sue partner ha saputo la verità quindi lui ha fatto l'amore con queste donne e loro non si sono accorti io che mi preoccupavo di avere delle misure ridotte ma no tu",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La storia di Andrew Wardle",
+    "tema": [
+      "identità",
+      "relazioni"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

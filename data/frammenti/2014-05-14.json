@@ -64,11 +64,9 @@
     "end": 354.67,
     "speaker_raw": "SPEAKER_03",
     "testo": "forse quella è quella giusta pregherei quella là era live a San Siro quando ha fatto San Siro pregherei pregherei se mi sentisse lui chiederei chiederei che ne sarà di noi gli direi gli direi del di ciò che vuoi dammi lei dammi lui",
-    "titolo": "Shigevara Shigevara",
-    "tema": [
-      "libri"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
@@ -682,9 +680,12 @@
     "end": 2201.31,
     "speaker_raw": "SPEAKER_12",
     "testo": "No, no, certo che non mi dirà di no, però la mia domanda era, una volta che firmo, che ho fatto tutto, che non ho più rapporti con lui, lo guardo e cosa gli dico? Voi cosa gli direste?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Come affrontare un ex capo",
+    "tema": [
+      "lavoro",
+      "impegno"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -782,9 +783,12 @@
     "end": 2265.68,
     "speaker_raw": "SPEAKER_11",
     "testo": "Dimmi il nome perché il cognome non lo possiamo dire. A parte che magari qualcuno ti sta ascoltando, lo conosce, glielo sta dicendo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Un libro da non dire",
+    "tema": [
+      "libri",
+      "secreto"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -804,9 +808,13 @@
     "end": 2514.53,
     "speaker_raw": "SPEAKER_11",
     "testo": "Ecco. Comunque, tu fai un... Non è che so il cognome... No, no, no, senti, tu devi fare un bel respiro. Studiatela a memoria, Marianne. Sì. allora vai lì vai lì bevi quello che devi bere entri in ufficio ti dà il foglio, firmi le devo dire ancora una cosa fai un bel respiro, studiato la memoria sei uno stronzo così grosso che quando ti siedi sulla sabbia i gatti cercano di seppellirti ho trovato la frase finale in bocca al lupo per la tua nuova avventura grazie ciao Fabio ma questa qui la posso usare anch'io solo che non ho un capo devo trovare un capo e poi la soddisfazione di dirgliela appena diventi più famoso di me Maurizio te la dico l'ho inventato io e ti posso dire una cosa Maurizio Sono arrivati, Maurizio e cari ascoltatori, molti messaggi di gente che si è sfogata col capo o che si sfogherebbe volentieri col capo. Quindi c'è del rancorino dentro ognuno di noi. Tu a me vorresti dire qualcosa, Maurizio? Sì. Quella che ti ha detto prima. Andava bene anche per me.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Consiglio per un confronto difficile",
+    "tema": [
+      "confronto",
+      "lavoro",
+      "assertività"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

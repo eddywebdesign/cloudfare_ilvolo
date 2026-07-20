@@ -41,9 +41,12 @@
     "end": 239.15,
     "speaker_raw": "SPEAKER_09",
     "testo": "Allora, è successo questa cosa, l'altro giorno Viola parlava con Maurizio e Maurizio stava registrando, poi dopo Maurizio ha fatto sentire a Viola la registrazione.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Viola e Maurizio registrano",
+    "tema": [
+      "registrazione",
+      "amicizia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -85,9 +88,12 @@
     "end": 312.36,
     "speaker_raw": "SPEAKER_09",
     "testo": "Mi sembra Ma se non te l'avevo messa c'era un motivo Spaventi, spaventi Il tuo fidanzato santo subito Mi dispiace tanto Registratevi e ascoltatevi Good morning sun How are you?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Spaventi",
+    "tema": [
+      "musica",
+      "paura"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -110,9 +116,12 @@
     "end": 449.62,
     "speaker_raw": "SPEAKER_09",
     "testo": "Scusate, tutto questo perché questa mattina abbiamo avuto una mezza discussione con Viola su delle domande, quelle lì stupide che non si danno a risposta, tipo la domanda di questa mattina era, che è una domanda che si pongono in tanti da tanto tempo, se piove uno cammina per strada, si bagna di più se cammina o se corre? e la cosa affascinante è che la risposta a tutto questo non viene come sempre si sente nei programmi dall'università del Massachusetts ma è uno di Brescia quindi adesso lo stiamo cercando sto professore si chiama Franco Bocci è un professore di fisica della facoltà di ingegneria dell'università di Brescia io sono rimasta sconvolta già lei però Fenni e tu Cioè avete l'università a Brescia? Ma come ti permetti? Questo professore, già il fatto che l'abbia scoperto, diciamo, zona Brescia, è più, diciamo, credibile che il Wisconsin, che non sappiamo mai come è questo Wisconsin. Dov'è questo Wisconsin? Ok, detto questo, quindi lo cerchiamo. Però io faccio un ragionamento logico, no? Diciamo che tu devi fare... 500 metri sotto la pioggia da qui all'altra parte della strada 500 metri se tu corri fai questo tragitto in 10 secondi se cammini in 20 secondi quindi se cammini ti bagni di più perché stai più tempo sotto la pioggia questo mi sembra una cosa logica invece tu sostieni che correndo uno prende anche quella davanti ma non prende quella dietro secondo me dipende dal vento e poi che cosa si intende?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La risposta alle domande",
+    "tema": [
+      "pensiero",
+      "conoscenza"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -198,12 +207,9 @@
     "end": 743.12,
     "speaker_raw": "SPEAKER_10",
     "testo": "No, non è sbagliata. Il concetto è che bisogna confrontare la parità di percorso da compiere.",
-    "titolo": "European Journal of Physics",
-    "tema": [
-      "fisica",
-      "scienza"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
@@ -212,9 +218,12 @@
     "end": 752.69,
     "speaker_raw": "SPEAKER_09",
     "testo": "Cioè, se io faccio 500 metri correndo o 500 metri a piedi, quello che cammina si bagna di più di quello che corre?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La discussione su piovere",
+    "tema": [
+      "pioggia",
+      "camminata"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -462,9 +471,13 @@
     "end": 1236.18,
     "speaker_raw": "SPEAKER_06",
     "testo": "E ci si bagna di meno, capisci? C'è la praticità. Ragazzi, il metodo sperimentale Galileo, buttato tutto all'ottimo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il metodo scientifico applicato alla vita quotidiana",
+    "tema": [
+      "scienza",
+      "metodo",
+      "praticità"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -484,9 +497,13 @@
     "end": 1285.61,
     "speaker_raw": "SPEAKER_01",
     "testo": "Si scherza. Io ti mostro una carta, tu mi dici il seme. Andrò sempre più veloce. Voglio vedere se sei in grado di tenere il passo. Ok. Quadri. Fiori. Picche. Cuori. Cuori. Picche. Quadri. Fiori. Picche. Cuori. Promosso? No. Cuori neri, picche rosse. Andiamo, mi hai imbrogliato. Ah, l'esperienza ti ha condizionato a pensare che tutti i cuori siano rossi e tutte le picche debbano essere nere. Le forme sono simili, quindi per la tua mente è facile recepirli sulla base delle esperienze passate piuttosto che aprirti all'idea che potrebbero essere diversi. Vediamo quello che ci aspettiamo di vedere, non necessariamente che cosa c'è in realtà.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'esperimento visivo sui pregiudizi cognitivi",
+    "tema": [
+      "percezione",
+      "abitudine",
+      "psicologia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -495,9 +512,12 @@
     "end": 1321.66,
     "speaker_raw": "SPEAKER_09",
     "testo": "e allora ci chiediamo quante altre cose ci siano proprio di fronte a noi segni, suoni, profumi che non riusciamo a sentire solo perché non ci stiamo abituati dobbiamo chiamare Monolis e ci mettiamo laureati e non laureati ciao Darwin ovviamente noi stiamo scherzando Io per esempio soffro che non ho un metodo di studio, questo è vero, è una cosa che mi manca perché non essere andato a scuola, cioè faccio più fatica.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La mancanza di un metodo di studio",
+    "tema": [
+      "formazione",
+      "autoconsapevolezza"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -691,9 +711,12 @@
     "end": 1819.08,
     "speaker_raw": "SPEAKER_07",
     "testo": "Io ne ho sterminati una mezza settimana. a un certo punto del percorso crollavano dicevano bravo però tu comunque il Vaticano è l'unico luogo al mondo dove per fare cadere devi sapere l'italiano devi sapere l'italiano però tu sei un prete italiano che parla inglese io non sono un prete cosa sei?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il Vaticano e l'italiano",
+    "tema": [
+      "italiano",
+      "vaticano"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -738,9 +761,12 @@
     "end": 1883.78,
     "speaker_raw": "SPEAKER_07",
     "testo": "Sì, per poi arrivare. Questa è una cosa che ci preme molto perché ovviamente là ci andiamo a fare il risultato, a cercare di fare il risultato a Roma.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Risultato a Roma",
+    "tema": [
+      "roma",
+      "risultato"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -749,9 +775,12 @@
     "end": 1889.24,
     "speaker_raw": "SPEAKER_09",
     "testo": "A Roma. Dopo Pasqua sei a Roma? Ah, stavolta vengo, sì.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Pasqua a Roma",
+    "tema": [
+      "roma",
+      "pasqua"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -774,9 +803,12 @@
     "end": 1899.55,
     "speaker_raw": "SPEAKER_09",
     "testo": "Stavolta vengo. Stavolta vengo. Perché comunque, oh, segretario di Stato, uno se lo va a vedere.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Segretario di Stato",
+    "tema": [
+      "stato",
+      "segretario"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {

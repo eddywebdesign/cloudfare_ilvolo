@@ -127,9 +127,11 @@
     "end": 607.47,
     "speaker_raw": "SPEAKER_00",
     "testo": "Deriviamo tutti dalla scimmia. Mettiamo un disco e parliamo di tutte queste belle cose. Ah, non vi ho detto che andiamo in onda fino a luna per dare proprio il senso a questa puntata. Aiuto!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Disco",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -185,12 +187,9 @@
     "end": 926.43,
     "speaker_raw": "SPEAKER_06",
     "testo": "Ma è Igor Sibaldi, non è? La voce di Sibaldi.",
-    "titolo": "Conservatore del Planetario",
-    "tema": [
-      "libro",
-      "astronomia"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
@@ -210,9 +209,11 @@
     "end": 939.45,
     "speaker_raw": "SPEAKER_05",
     "testo": "Ah no. Fabio. Fabio andrebbe benissimo. Perfetto. Il titolo si chiama Conservatore del Planetario, poi non si sa bene cosa conserva.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Titolo del programma",
+    "tema": [
+      "lavoro"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -464,12 +465,9 @@
     "end": 1341.07,
     "speaker_raw": "SPEAKER_00",
     "testo": "la disturbo grazie mille salve salve salve salve salve no ma oggi c'è, a parte la musica senti cosa è partito adesso comunque il sole non sorge sempre anzi solo due volte al giorno shock of course it's getting better do you feel the same will it make it easier on you now you got someone to blame you're the same",
-    "titolo": "Canzone di John Lennon",
-    "tema": [
-      "musica",
-      "amore"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
@@ -530,9 +528,11 @@
     "end": 1673.91,
     "speaker_raw": "SPEAKER_00",
     "testo": "si può trovare su youtube sicuro no? va bene noi torniamo fra pochissimo e scusatemi che dopo gli U2 al ritorno cazzeggiamo un po' e vi spariamo lì in Floyd no no per carità poi dopo dite che i programmi sono tutti uguali col cazzo tutti uguali col cazzo",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "U2 e Pink Floyd",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {

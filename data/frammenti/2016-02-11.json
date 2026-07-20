@@ -406,12 +406,9 @@
     "end": 935.45,
     "speaker_raw": "SPEAKER_04",
     "testo": "is very very extraordinary is even more than anyone that you adore can love is all that I can give a presto is for the way you look at me oh is for the only one I see V is very very extraordinary E is even more than anyone that you adore can love is all that I can give you a presto",
-    "titolo": "Canzone di amore",
-    "tema": [
-      "amore",
-      "musica"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
@@ -700,9 +697,11 @@
     "end": 1571.29,
     "speaker_raw": "SPEAKER_24",
     "testo": "love is wanting to be loved love is touch Love is asking to be loved Love is you You and me ... ... ... ... ... Vivi in là",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Citazione sul significato dell'amore",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -736,9 +735,12 @@
     "end": 1665.01,
     "speaker_raw": "SPEAKER_18",
     "testo": "Chiudete gli occhi e pensate a qualcosa di buono. Intensamente, intensamente cosa vedete?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Pensate a qualcosa di buono",
+    "tema": [
+      "buono",
+      "pensiero"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -955,9 +957,12 @@
     "end": 2181.2,
     "speaker_raw": "SPEAKER_06",
     "testo": "usciamo dal discorso diciamo Dio, Gesù, religioni, spiritualità e ci spostiamo invece sull'argomento quello più amore quello che interessa forse anche di più gli ascoltatori quello l'amore delle relazioni è lo stesso discorso sì no però per semplificare diciamo entriamo più in quello delle relazioni io sostengo sempre questa cosa l'ho anche scritta nell'ultimo libro io posso fare un elenco di motivi per cui mi piace la donna con cui sto o anche perché la amo nel senso per una serie di qualità o comunque cose che piacciono a me ma il motivo per cui amo quelle cose e amo lei con quelle cose è una risposta insondabile tu entri in una stanza, conosci uno, lo conosci, ami lei ti è chiaro che non potevi amare in quel modo un'altra persona che quello è legato a quella persona Quindi l'amore in realtà è insondabile il motivo reale? Se è amore è inspiegabile. È come Dio forse alla fine, poi non voglio tornare in quell'argomento, però Dio è difficile da raccontare con le parole, da definire con le parole.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La dinamica delle relazioni amorose",
+    "tema": [
+      "amore",
+      "relazioni"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -1092,9 +1097,12 @@
     "end": 2332.16,
     "speaker_raw": "SPEAKER_06",
     "testo": "qua adesso posso dirti se abbiamo ricevuto 5-6 mail di vaffanculo per dio ti posso dire che adesso con questo che hai appena detto c'è quello che te lo dici e quello che ama di più io mi associo a lui ma mi dissocio sulle mail adesso vedrai cosa ti arriva",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Mail di vaffanculo per Dio",
+    "tema": [
+      "mail",
+      "Dio"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

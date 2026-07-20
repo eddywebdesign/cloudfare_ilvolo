@@ -146,9 +146,13 @@
     "end": 482.59,
     "speaker_raw": "SPEAKER_08",
     "testo": "Sono tornato a messa e ho capito che la chiesa è aperta, ha le porte aperte. Per quello che è aperta a tutti sempre. ti ho lasciato che andavi dall'analista tutti e due una combo qualsiasi cosa mi faccia stare meglio comunque il libretto di istruzioni della vita di un cattolico ha diciamo una decina di pagine nella vita di un non credente ha 5.000 pagine scritte piccole e molto difficili quindi io preferisco potendo quello da 10 pagine ma fai tutte le mattine ma quando mai sei impazzito io capisco che tu hai fatto il chirichetto da piccolo e ci sei rimasto sotto ma è la domenica quando riesco vado dopo quelli che calcio dopo? ma per gli ascolti? sì anche un po' ma secondo te ma tu sei vado perché mi rilassa e poi di mattina prima di andare messa prima no no no la mattina vado da solo perché la messa è alle nove",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La complessità della vita senza fede",
+    "tema": [
+      "fede",
+      "vita",
+      "complessità"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -526,9 +530,12 @@
     "end": 994.12,
     "speaker_raw": "SPEAKER_05",
     "testo": "È uno dei miei desideri, ho sentito Nicola, è uno dei miei desideri che si è avverato.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Desiderio avverato",
+    "tema": [
+      "speranza",
+      "realizzazione"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -741,9 +748,12 @@
     "end": 1638.6,
     "speaker_raw": "SPEAKER_04",
     "testo": "allora senti una cosa Riccardo Rossi allora dove sei fisicamente? Adesso a casa mia. A Roma, ok. Vieni a Milano nei prossimi giorni, nei prossimi mesi?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Riccardo Rossi",
+    "tema": [
+      "libro",
+      "autore"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -833,9 +843,12 @@
     "end": 1822.38,
     "speaker_raw": "SPEAKER_06",
     "testo": "metto la camicia mi faccio la barba bene stai un po' più attento ho visto che è un periodo che stai prediligendo il doppio petto",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Camicia e barba",
+    "tema": [
+      "umiliazione",
+      "autostima"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -844,9 +857,12 @@
     "end": 1871.05,
     "speaker_raw": "SPEAKER_04",
     "testo": "anche i cessatini i capelli indietro un po' quelli della barba sai cosa fai sai quando vado lì alla ride a fazio ma anche quando faccio le iene mi mettono la polverina sulla testa per coprirmi i buchi della pelata e c'è questo che fa così come se fosse il pepe su un cacio e pepe e tu sei lì seduto lei non ti accorgi quanto è umiliante quando ti vedi allo specchio con una che fa così no non proprio e poi arrivano tutti i personaggi famosi ciao come stai bene io non posso manco girarmi ci guardiamo lo specchio parliamo di cose magari profonde si sente madonna che umiliazione va bene ci vediamo presto Riccardo in bocca al lupo ciao ciao ciao ciao",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Barba e pelata",
+    "tema": [
+      "umiliazione",
+      "autostima"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

@@ -280,11 +280,9 @@
     "end": 829.45,
     "speaker_raw": "SPEAKER_12",
     "testo": "Grazie. It's amusement never ends. I wanna be your sledgehammer. Why don't you call my name? Hold up and be your sledgehammer. Sì. Musica Sì",
-    "titolo": "Canzone dei Rollins",
-    "tema": [
-      "musica"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
@@ -318,9 +316,12 @@
     "end": 1107.82,
     "speaker_raw": "SPEAKER_05",
     "testo": "Io faccio quello che tu vuoi, lo sai che sono io. Ecco, un altro tema, direi che... 8-9 donne su 10 8-9 ha fatto questa cosa 8-9 su 8-9 donne su 10 dopo un po' di anni di matrimonio slash convivenza non hanno più voglia di fare l'amore come prima e lo scrive una donna siamo d'accordo?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Voglia di fare l'amore",
+    "tema": [
+      "amore",
+      "matrimonio"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -340,9 +341,12 @@
     "end": 1158.55,
     "speaker_raw": "SPEAKER_05",
     "testo": "dopo un po' 8-9 è precisa però sui anni è vaga potrebbe essere un tema potrebbe essere un tema cioè come mantenere viva la passione ma c'ho scritto un libro è tutta vita poi eventualmente abbiamo la Samantha della valigia rossa la Samantha della valigia rossa che viene con i toys con le robe erotiche come si fa a mantenere vivo la passione all'interno di una relazione stabile come si fa? mettiamo un disco e vediamo Se state scendendo per andare al lavoro, rimanete lì. Darò la soluzione subito dopo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il libro Tutta vita di Fabio Volo",
+    "tema": [
+      "relazioni",
+      "passione"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -390,9 +394,12 @@
     "end": 1450.18,
     "speaker_raw": "SPEAKER_05",
     "testo": "una ascoltatrice dice io ho una smart ma per non far arrabbiare il prossimo la parcheggio sempre che si vede il culetto della macchina brava grazie sei gentilissima mi viene un nervoso io non ho neanche la macchina parlo di dieci anni fa a piedi esatto pensate che io scrivo melodie per il pianoforte ma non lo so suonare questo deve essere un danno per il cervello lui conosce la musica quindi scrive sul pentagramma ma non sa suonare il pianoforte madonna che ansia ma fallo sto sforzo visto che conosci bene la musica io lo farei volevo dirvi che avete raccontato la mia vita un giorno in Giappone a casa di amici c'era un pianoforte ma perché in Giappone? oh era in Giappone che ti devo dire Dopo aver tentato un disastroso Fra Martino Anche sbagliato Non lo sai come me, non lo sai suonare Per Elisa Piano forte Lo sai suonare E lui E certo allora avranno guardato la figlia e hanno detto come dire ma che ti spogli questo coglione comunque dice dopo aver fatto una brutta figura con un frammartino gli ho conquistati quei tagliolini fai quello che sai fare eh certo perché un tedesco scusami un tedesco per dire un tedesco viene a casa di un'italiana non sa suonare il pianoforte va lì e dice io mi bevo sei pinte di birra io a differenza di voi stronzetti che è evidente che siete delle checca isteriche io mi bevo sei media in un minuto ottimo e lei cade i genitori cadono a terra conquistati tra l'altro io a differenza di voi faccio la brocca col coperchio proprio quella della baviera lo stantuffo",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Parcheggio della smart",
+    "tema": [
+      "parcheggio",
+      "macchina"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

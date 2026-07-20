@@ -49,9 +49,11 @@
     "end": 144.43,
     "speaker_raw": "SPEAKER_00",
     "testo": "con Deus mi dito, con Deus mi levanto, conmigo eu calo, conmigo eu canto, eu bato em um papo, eu bato em um ponto, eu tomo um drink e eu fico tonto",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Deus mi dito",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -113,9 +115,12 @@
     "end": 544.08,
     "speaker_raw": "SPEAKER_09",
     "testo": "Quanto ci ha messo? Non c'è scritto lì Cinque giorni Cinque giorni? Senti ma quando dormiva Dormiva col naso Cioè no si sdraiava Valeva toccarlo con le mani? No no no Con il naso Però dico quando dormiva Quindi dormiva così Con il cavoletto in discesa Appoggiato qua sul naso immagino Immagino di sì Madonna pensa che Adesso quelli che hanno studiato in ascolto In ascolto Quelli che hanno studiato C'è nella mitologia greca Uno Che butta su Porta su questa palla e poi la palla cade di là e quindi poi ritira su e cade dall'altra parte sono quelli che nella vita non sono mai tranquilli un attimo ma hanno sempre qualcosa da fare ma causano questo stile di vita vuoi anche la seconda notizia? sempre dal New York Times?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Dormiva col naso",
+    "tema": [
+      "umorismo",
+      "scherzi"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -135,9 +140,11 @@
     "end": 550.43,
     "speaker_raw": "SPEAKER_09",
     "testo": "Come era scritto su New York Times?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "New York Times",
+    "tema": [
+      "giornalismo"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -267,9 +274,12 @@
     "end": 1087.05,
     "speaker_raw": "SPEAKER_09",
     "testo": "questo è degli ex quindi ve lo dico subito se avete ancora quel pensierino lì legato all'ex mettete su RTL dite ciao pro ci manda Fabio Volo perché qui tocca una cosa che tocca in realtà non faccio che pensare a te ma le cose che abbiamo fatto ci sono capitate",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Le cose che abbiamo fatto",
+    "tema": [
+      "amore",
+      "relazioni"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -278,9 +288,12 @@
     "end": 1096.13,
     "speaker_raw": "SPEAKER_08",
     "testo": "Alla persona che eravamo Per un po' è stato bellissimo, non è vero?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Per un po' è stato bellissimo",
+    "tema": [
+      "amore",
+      "relazioni"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -608,9 +621,12 @@
     "end": 2060.42,
     "speaker_raw": "SPEAKER_09",
     "testo": "perché alle brutte ci vengo in pausa dunque qua c'è il tram è così domodossola domodossola o pagano però insomma è un pezzettino senti se no prendi l'uno il tram quello che prendo io la mattina ma ti volevo dire dice la Stefi se vieni puoi tornare a casa a tuo figlio e dire che sei andato giù in ascensura a recuperarglielo ti puoi inventare una super storia io se no facciamo così sei ricco? eh no investi un 30 euro manda un pony eh vieni qua prendetelo in pausa pranzo ti diamo anche un cappellino della radio è importante perché per te è solo un giocattolino non garantisco di riuscire se dovessi come funziona arrivo là citofono senti Giuseppe è come se a te ti avessero rubato la macchina per tuo figlio per te ti sembra una stronzata un giocattolino ma per lui sarà l'asilo che piange e pensa solo a quel buco dove è passato tra l'altro so che si sono già lamentati gli abitanti del palazzo perché adesso tutte le volte che schiacciano un pulsante si sente io sono tuo padre allora noi te lo lasciamo in portineria con il rischio che adesso tutti gli ascoltatori vanno lì e dicono ciao mi chiamo Giuseppe da Bergamo magari a microfoni spenti ci diciamo una password una parola d'ordine ieri sono andato a comprare una cosa in un negozio ma non avendo la macchina ho mandato un mio amico a prenderla e gli ho detto al cassiere verrà un ragazzo e ti dirà pizza margherita pizza margherita e quella era la password quindi insomma adesso ci decidiamo una password tu vieni e porti a casa per tuo figlio va bene? va benissimo dai dai che lavoro fai Giuseppe? io sono consulente informato vai lì dal tuo capo e gli dici non mi romperi i coglioni cioè lasciami in pace lasciami andare a radio portatelo anche lui portati anche lui no devo capire adesso se riesco a capire come fare perché io non conosco i mezzi di Milano guarda qua passa lui allora dopo ti chiama la Steffi ti dà tutte le mappature ce l'hai Enjoy pigliati un Enjoy le macchine quelle lì car sharing guarda adesso faccio da quando abbiamo iniziato a parlare sto cercando parcheggio vabbè Giuseppe me lo mangio io questo qua e basta passa a prenderlo domani mattina passa quando vuoi ti passo la Steffi ciao Giuseppe grazie ragazzi",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Stefi e il figlio",
+    "tema": [
+      "umorismo",
+      "scherzi"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

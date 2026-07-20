@@ -125,9 +125,12 @@
     "end": 508.22,
     "speaker_raw": "SPEAKER_10",
     "testo": "Cioè lui ha detto, finalmente, dopo anni che stiamo insieme, hai capito che il citofono era lì, ok?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il citofono",
+    "tema": [
+      "relazioni",
+      "comunicazione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -150,9 +153,12 @@
     "end": 609.54,
     "speaker_raw": "SPEAKER_10",
     "testo": "ma ti sto prendendo in pieno non ci credo che parla con i gatti adesso quello lo dice per ridere se tu pensi fortemente scusami Wellington ti va di venire in cucina ti aspetto in cucina vedi che il gatto si alza e viene no di solito la risposta è ti farò sapere cioè c'ha anche i suoi gusti però sulle questioni filosofiche è interessantissimo ho un problema e penso tu cosa ne dici e la risposta poi per due giorni non sai cosa conto risponde perché sono rapidissimi allora lì per esempio adesso noi ovviamente stiamo scherzando no no no io spero un po' di sì è come quando ci si mette davanti al mare o ci si mette davanti al fuoco si dice che diciamo sono portatori di risposte ovviamente quelli sono semplicemente una condizione in cui probabilmente la risposta è già dentro di te poi tu la associ al gatto uno la associa al mare uno la associa al fuoco e il problema è dentro di te dove?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Gatti filosofi",
+    "tema": [
+      "animali",
+      "filosofia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -633,9 +639,11 @@
     "end": 2367.55,
     "speaker_raw": "SPEAKER_10",
     "testo": "Va bene, sentiamo questa bellissima canzone e poi torniamo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Canzone",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -644,12 +652,9 @@
     "end": 2589.8,
     "speaker_raw": "SPEAKER_07",
     "testo": "All this talk of getting old It's getting me down, my love Like a cat in a bag Waiting to drown This time I'm coming down And I hope you're thinking of me grazie a tutti No, I'm on the losing streak Is out past my old streak And if you wanna show Then just let me know And I'll sing Grazie a tutti. Grazie a tutti. Grazie a tutti. ciao ciao I'm coming too Just like you said You leave my life I'm better out there But if you wanna shut Just let me know while I sing in your ear again Now the drugs don't work",
-    "titolo": "Canzone di Ringo Starr",
-    "tema": [
-      "amore",
-      "perdita"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
@@ -736,9 +741,12 @@
     "end": 2812.92,
     "speaker_raw": "SPEAKER_10",
     "testo": "e Logos è invece la parte intelligenza tutti ce l'hanno dai bambini a tutti gliele bloccano quella che si chiama più che conoscenza si chiama sapienza se non sbaglio si chiamerebbe ragione allora facciamo così Maurizio col saluto romano ti devo dire che non è fascista è che lui fa così quando vuol dire che è finito l'ora anche no te lo dico ogni tanto se ne viene fuori così allora grazie all'ascoltatore Romerto prendiamo questo Logos Eros ok noi possiamo anche chiamare Eros Ramazzotti se c'è un cantante Logos grazie Igor Simaldi grazie",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Logos e sapienza",
+    "tema": [
+      "filosofia",
+      "conoscenza"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   }
 ]

@@ -163,12 +163,9 @@
     "end": 569.15,
     "speaker_raw": "SPEAKER_01",
     "testo": "allora io sono ingegnere eh? vita di tutti i giorni faccio ricercatore universitario cosa stai cercando in questi giorni?",
-    "titolo": "super liquidator",
-    "tema": [
-      "infanzia",
-      "giochi"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
@@ -177,9 +174,12 @@
     "end": 618.69,
     "speaker_raw": "SPEAKER_08",
     "testo": "ingegneria sismica e terremoti e anche la ragazza che ti ha scritto lavoriamo insieme perfetto, allora mentre voi fate tu non sei in grado di parcheggiare senza spaccare lo specchietto io non sono in grado di parcheggiare un parcheggio semplice sotto casa dove è tutto dritto va bene una cosa alla volta Paola una cosa alla volta va bene allora in bocca al lupo saluteci anche la tua amica Federica giusto? va bene Federica se vuoi salutarla in diretta noi ti stiamo ascoltando se vuoi certo va bene ciao Federica ciao ciao Paola va bene ciao a tutti ciao ciao ciao ciao ciao cosa è successo? Dovevamo parlare di un'altra cosa Era carino da chiamare Comunque se arriva la fattura dello specchietto ragazzi Quello lì si divide Perché chi è che mi ha fatto ridere durante la bobbicetta?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "ingegneria sismica e terremoti",
+    "tema": [
+      "scienza",
+      "terremoti"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -430,9 +430,12 @@
     "end": 1826.91,
     "speaker_raw": "SPEAKER_08",
     "testo": "Un'ascoltatrice dice io e il mio fidanzato non abbiamo la condanna come prima ho detto che in posti dove vado c'è sempre il lavoro e dice abbiamo il tavolino quello che balla.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "tavolino che balla",
+    "tema": [
+      "umore",
+      "relazione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -452,9 +455,12 @@
     "end": 1903.76,
     "speaker_raw": "SPEAKER_08",
     "testo": "madonna via va bene va bene allora parliamo con il futuro di questo paese signore e signori Matteo e Andrea buongiorno ciao ma come siete in viva voce o due telefoni separati? abbiamo le auricolari un orecchio per uno? esatto come le adolescenti fuori da scuola senti questo ok ok va bene aspetta un secondo Maurizio se tu metti tutto a destra o tutto a sinistra uno dei due non sente se tu metti quello che stiamo dicendo quello che dico io tutto da una parte ecco per esempio questa qui io ce l'ho sulla destra per esempio chi è che dei due sente? Andrea quindi se voglio dire una cosa ad Andrea che è Matteo lo zia quindi dico vai su Andrea tu vai di lì no ma sentiamo tutti e due va bene allora ragazzi spiegateci un po' che cos'è questa perché è veramente una storia affascinante sì allora guarda noi abbiamo trovato online questo bando Liberland e praticamente è una micronazione che si è",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "futuro del paese",
+    "tema": [
+      "politica",
+      "società"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -728,12 +734,9 @@
     "end": 2469.36,
     "speaker_raw": "SPEAKER_07",
     "testo": "in Italia l'1% delle persone possiede un quarto del patrimonio totale dell'Italia quindi l'1% possiede il 25% della ricchezza italiana oh la madonna chi è quello lì?",
-    "titolo": "Ineguaglianza economica",
-    "tema": [
-      "ricchezza",
-      "disuguaglianza"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {

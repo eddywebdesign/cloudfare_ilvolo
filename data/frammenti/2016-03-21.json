@@ -16,9 +16,12 @@
     "end": 50.1,
     "speaker_raw": "SPEAKER_07",
     "testo": "Ciao! I don't wanna fall asleep",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Non voglio addormentarmi",
+    "tema": [
+      "sonno",
+      "stanchezza"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -82,9 +85,12 @@
     "end": 273.79,
     "speaker_raw": "SPEAKER_03",
     "testo": "sarà una che ci ascolta in ufficio comunque amica di Marzia sta arrivando è un po' come te Viola questa ragazza oggi sono in ritardo no è da un po' che non lo faccio più l'anno scolastico scorso quest'anno meno mando le notizie dal tram mandi le notizie dal tram la cosa affascinante è che tu mandi messaggi che guardi un programma televisivo a qualsiasi ora cioè tu passi quante ore davanti alla televisione ultimamente abbastanza ma la televisione a prescindere dal mio tempo libero è la mia passione cioè a te ti piace guardare la televisione sì mi piace tantissimo la televisione ma ti piace guardare i programmi per capire come li fanno così o proprio ti piace essere intrattenuta no no no intrattenuta Cioè tu, scusami, il pomeriggio quando sei a casa non lavori? No, in questo periodo no. Ok. E cosa fai?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Viola manda messaggi dal tram",
+    "tema": [
+      "comunicazione",
+      "tempo"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -93,9 +99,12 @@
     "end": 280.09,
     "speaker_raw": "SPEAKER_04",
     "testo": "Mangi e guardi la tv? Mangio e guardo la tv. Cosa guardi? Vuoi sapere cronologicamente?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Viola mangia e guarda la TV",
+    "tema": [
+      "tempo libero",
+      "abitudini"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -115,9 +124,12 @@
     "end": 287.51,
     "speaker_raw": "SPEAKER_04",
     "testo": "Allora, considera che c'è subito dopo pranzo c'è Amici. Amici? Su Realtime.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Amici su Realtime",
+    "tema": [
+      "televisivo",
+      "intrattenimento"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -159,9 +171,12 @@
     "end": 343.34,
     "speaker_raw": "SPEAKER_04",
     "testo": "i ragazzi sono anonimi poi ci sono Emma, Neck, J-Ax e Elisa come coach poi inizio con uomini e donne finisce uomini e donne inizio due uomini e mezzo che è tornato, grande notizia e poi ora c'è l'isola dei famosi sia su la 5, Italia 1 e Canale 5 e forse su Mediaset Extra c'è tipo Camera Caffè cose vecchie solo comincio ad appassionarmi a te è fantastico ma guardando la mia televisione del pomeriggio sabato ho visto che eri avverissimo ah che ero a fare promozione del Panda non entrare nella mia televisione no, ti volevo dire lo avessi saputo ti avrei salutato",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Uomini e Donne, Due uomini e mezzo, L'isola dei famosi",
+    "tema": [
+      "televisivo",
+      "intrattenimento"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -170,9 +185,12 @@
     "end": 350.24,
     "speaker_raw": "SPEAKER_03",
     "testo": "Viola, se venissi a casa mia non saprei come intrattenerti, dato che non ho la tv e ti assicuro che viviamo benissimo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La TV non è necessaria",
+    "tema": [
+      "tempo libero",
+      "benessere"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -181,9 +199,12 @@
     "end": 352.32,
     "speaker_raw": "SPEAKER_04",
     "testo": "Io sono stata tanto tempo senza televisione.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Vita senza televisione",
+    "tema": [
+      "tv",
+      "vita"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -436,9 +457,12 @@
     "end": 1200.52,
     "speaker_raw": "SPEAKER_04",
     "testo": "ma per un essere umano che è limitato fisicamente e nel tempo 100 milioni come li usi? non sono tanti comunque i 100 milioni come?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Limiti fisici e tempo",
+    "tema": [
+      "tempo",
+      "limiti"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -519,9 +543,12 @@
     "end": 1794.91,
     "speaker_raw": "SPEAKER_03",
     "testo": "volevo dirti Enzo caro ascoltatore che ti stiamo chiamando ma non ci rispondi ci ha mandato questa mail un ascoltatore Enzo che dice parlando d'amore vorrei raccontarvi la mia credibile storia una ragazza durata 5 anni è finita perché ci amavamo troppo lui da allora non è più stato con nessuna perché amava troppo quella lì",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La fine di una storia per troppo amore",
+    "tema": [
+      "amore",
+      "relazioni"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -530,9 +557,12 @@
     "end": 1822.94,
     "speaker_raw": "SPEAKER_04",
     "testo": "ma come si fa a lasciarsi tutti e due? è come dire non vado più in quel ristorante a mangiare le lasagne perché sono troppo buone preferisco andare in un posto dove fanno cagare forse si amavano troppo ma avevano un rapporto distruttivo non lo so che ami talmente tanto che ami talmente tanto che mi stai dicendo cose a caso comunque non risponde nessuno al telefono no su questi argomenti fanno un po' un passo indietro lanciano il sas",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il paradosso di lasciarsi per troppo amore",
+    "tema": [
+      "amore",
+      "scelte"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -541,9 +571,12 @@
     "end": 1912.77,
     "speaker_raw": "SPEAKER_03",
     "testo": "volevo dire all'ascoltatore che ha detto adesso si parlano tra di loro come i commenti di youtube sotto quello che ha detto che l'amico gli ha offerto 30.000 euro per far l'amore con la fidanzata che A è di un maschilismo totale perché la donna non è che appartiene all'uomo certo infatti dalle a me i soldi e poi diceva B se lo proponeva lei probabilmente va bene va bene allora no l'ascoltatore dice che non vuole venire in onda che non se la sente camuffiamo la voce allora io volevo raccontarvi invece che una volta per lasciare una donna ah perché qui una donna dice è vero che noi magari non siamo chiari nel lasciare gli uomini ma se aspettiamo che siano loro a lasciarci può essere tutta una vita c'è questa diciamo nomea si dice che gli uomini non lasciano mai ma aspettano di essere lasciati beh dipende non lo so io sono abbastanza d'accordo sì ma perché secondo te Ma no, che tu stai lì e aspetti che fa... perché lui aspetta che lei faccia il caffè, lui aspetta che lei lava i piatti, lui aspetta che lei gli faccia... perché lui, hai capito, rimane bambino anche da adulto, no? Rimane bambino con la fidanzata. Vabbè, non tutti adesso, non è che... No! Questa categoria, mi dici, come fa tutto lei? Lava i piatti, stira, io sto qui sul divano, io ho fatto il mio, ma... non gli vado bene vabbè mi lascerà prima o poi perché comunque lui dove va dopo si deve fare la spesa da solo si deve lavare le cose da solo cioè magari la mamma è vecchia o abita in un'altra città dice oh se prendo la donna di pulizia costa sentiamo viola faccio finta io mi sono messa qui in trincello sai quando mi metto dietro lo schermo",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Critica al maschilismo nelle relazioni",
+    "tema": [
+      "maschilismo",
+      "rispetto"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -552,9 +585,12 @@
     "end": 1917.24,
     "speaker_raw": "SPEAKER_04",
     "testo": "è perché sono cosa vi state dicendo?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Discussione con i conduttori",
+    "tema": [
+      "discussione",
+      "conduttori"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -695,9 +731,12 @@
     "end": 2745.55,
     "speaker_raw": "SPEAKER_03",
     "testo": "no almeno questo se ti mandiamo il paparazzo due giorni Europa va bene noi ci sentiamo domani mattina con una notizia adesso vado da Linus con la Miriam cioè vado lì da ospite quindi non è più il mio capo ma è lui che è mio ospite quindi ho sempre ragione io adesso che sono l'ospite quando io dico mi fa schifo quella roba lì ma che caffè di merda ma c'è Miriam Leone c'è anche quella bella patatona di Miriam e il regista va bene ci vediamo adesso vado giù ci sentiamo domani mattina con un argomento più profondo perché ormai lunedì l'abbiamo sfangata volevo chiedere agli ascoltatori il fatto che la psicanalisi svolta così velocemente nel subconscio è una chiara ammissione della sua debolezza?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ospite a casa di Linus",
+    "tema": [
+      "ospite",
+      "casa"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   }
 ]

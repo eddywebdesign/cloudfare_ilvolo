@@ -253,11 +253,9 @@
     "end": 433.56,
     "speaker_raw": "SPEAKER_11",
     "testo": "Ma ce l'hai a casa una tastiera, un pianoforte, qualcosa?",
-    "titolo": "verticale su Zeppolman",
-    "tema": [
-      "musica"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
@@ -266,9 +264,11 @@
     "end": 438.92,
     "speaker_raw": "SPEAKER_15",
     "testo": "Sì, sì, ho un verticale su Zeppolman, ma insomma, molto antico come...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Zeppolman",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -580,12 +580,9 @@
     "end": 864.33,
     "speaker_raw": "SPEAKER_14",
     "testo": "Sul posto di lavoro non lavoravo in quel momento.",
-    "titolo": "Non lavorare",
-    "tema": [
-      "lavoro",
-      "occupazione"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
@@ -642,9 +639,11 @@
     "end": 876.18,
     "speaker_raw": "SPEAKER_11",
     "testo": "Ah, un po' depresso, un po' depresso.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "depressione",
+    "tema": [
+      "salute"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -689,9 +688,11 @@
     "end": 900.84,
     "speaker_raw": "SPEAKER_11",
     "testo": "Senti, ti faccio fare una cosa, quando apri Youporn che ti esce dietro automaticamente la pagina che ti dice che il tuo computer deve essere pulito con Mac qualcosa di così... Con Megafi... Tu lo accetti? O no? O cancelli? No, a me...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Youporn",
+    "tema": [
+      "internet"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -714,9 +715,11 @@
     "end": 914.36,
     "speaker_raw": "SPEAKER_14",
     "testo": "Alla mia cronologia, però capisco che non c'è speranza.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "speranza",
+    "tema": [
+      "salute"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -725,9 +728,11 @@
     "end": 916.71,
     "speaker_raw": "SPEAKER_11",
     "testo": "Niente, senti, dove hai conosciuto questa donna?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "donna",
+    "tema": [
+      "relazioni"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -772,12 +777,9 @@
     "end": 957.65,
     "speaker_raw": "SPEAKER_11",
     "testo": "Già col nome Jacopo non è che siete tantissimi Ma è un nome finto Perché non voglio farlo Ma non dovevi dirlo io lo sapevo Tu dovevi sostenere Dimmi le iniziali del cantante o del gruppo C C Cremonini Il Chiur Carboni È italiano Carmen Consoli",
-    "titolo": "Cantanti italiani",
-    "tema": [
-      "musica",
-      "italia"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
@@ -1011,12 +1013,9 @@
     "end": 1530.76,
     "speaker_raw": "SPEAKER_11",
     "testo": "allora guarda che è finito qua eh sì sì con tutta la calma guardano e la Stefi mi ha detto non entrare vediamo se sono capaci da soli ad andare in pubblicità io avevo già pronto il disannuncio erano the weekend in the night ma non si fa più questa cosa anni 80 io l'ho sentita in radio ogni tanto chi è che fa così Bene allora continuiamo Non si fa più Sono le 9.26 Senza di me Non sono in grado neanche di dire Ma io ero già pronto con una poesia Va bene va bene Comunque arrivano molti messaggi di ascoltatori Che dicono per esempio Jacopo il principiante Io sono 5 anni che non faccio l'amore Altro dice io ho 2 anni a me io dopo 4 anni un ragazzo io ho 30 anni non l'ho mai fatto wow non so se avete visto ieri un servizio del family day dove a un certo punto una ragazza intervistata al family day hanno detto ti sei contrario ai matrimoni gay e poi a un certo punto dice però se dovesse passare la legge che anche gli omosessuali si possono sposare Dopo, quando ci sono i terremoti e le catastrofi, non pensate che siano cose casuali, ma è la natura che si ribella. Quindi, ragazzi, se da domani anche in Italia, come in molti paesi del mondo, l'omosessualità otterrà gli stessi delitti degli etero, sappiate che si rischiano i terremoti. non volevo scendere dalla macchina perché vi stavo ascoltando poi dovevo per forza sono scesa sono entrata al bar e vi ascoltavano anche al bar allora perfetto stai al bar Steffi da Bologna ciao Steffi da Bologna senti qua oh yeah quale alibi",
-    "titolo": "La vita di Fabio Volo",
-    "tema": [
-      "libro",
-      "autobiografia"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
@@ -1449,9 +1448,12 @@
     "end": 2943.51,
     "speaker_raw": "SPEAKER_12",
     "testo": "E a proposito di DJ, era molto caratteristico il suono dance, come in questa canzone di Yasu.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il suono dance di Yasu",
+    "tema": [
+      "musica",
+      "dance"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {

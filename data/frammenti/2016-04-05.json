@@ -192,9 +192,12 @@
     "end": 585.8,
     "speaker_raw": "SPEAKER_01",
     "testo": "Beh, in teoria la prima pipì la dovresti buttare. Sì? La prima, prima, prima, cioè il primo oggetto. Eh, veramente? All'interno della prima pipì devi aspettare.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La prima pipì",
+    "tema": [
+      "pipì",
+      "igiene"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -247,9 +250,12 @@
     "end": 883.89,
     "speaker_raw": "SPEAKER_04",
     "testo": "scusate ragazzi sono un tecnico di laboratorio guarda che noi ci ascoltano in tutti i settori il primo goccino diciamo di pipì si butta solo se si deve fare l'urinocoltura per test di gravidanza e urine serve il primo mito cosa? mito aspetta perché qua c'è un'ascoltatrice un ascoltatore vabbè qua uno dice come la moca del caffè il primo goccio si butta il primo goccio di caffè della moca questo non lo sapevo io lo sapevo che si teneva perché con lo zucchero fai la schiumetta quando ero bambino ok si chiama minto intermedio attenzione ragazzi voi ragazzi state andando al lavoro state entrando nelle vostre vite siete già dentro e sappiate che da oggi molti di voi come me hanno imparato una parola nuova questa sera cena con vostra moglie amore lo sai che ieri io Domani mattina farò la pipì e devo dirti il primo goccio che si chiama Minto Intermedio. Se dovessi fare un test di urinocultura... Mito. Mito. Ok. Mito. No, qua uno ha scritto Minto. Il suo sa un po' di menta. Qui dice mito intermedio, mirino coltura. Ok, va bene, abbiamo saputo tante cose. Scusami Lucia.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'urinocoltura",
+    "tema": [
+      "urinocoltura",
+      "gravidanza"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -283,9 +289,12 @@
     "end": 904.96,
     "speaker_raw": "SPEAKER_02",
     "testo": "No, allora, diciamo che io sono scaramagica, faccio le cose sempre nella stessa maniera, quindi per la prima l'ho fatto la mattina e quindi oggi contro il mio test lo metto nella mia borsa.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "prima prova esame",
+    "tema": [
+      "esami",
+      "studi"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -333,9 +342,12 @@
     "end": 976.76,
     "speaker_raw": "SPEAKER_02",
     "testo": "Sì, ma se poi non sono riuscita mi prendo male.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Prendersi male",
+    "tema": [
+      "salute",
+      "preoccupazione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -405,9 +417,12 @@
     "end": 1004.06,
     "speaker_raw": "SPEAKER_02",
     "testo": "Io faccio la visual, faccio gli allestimenti per una catena di appigliamenti femminili.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il lavoro",
+    "tema": [
+      "lavoro",
+      "professione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -438,9 +453,12 @@
     "end": 1079.05,
     "speaker_raw": "SPEAKER_04",
     "testo": "ha detto oberata domani ti oberano mi spiace che ti oberano scatti una cosa devi fare il controllo delle feci nei prossimi giorni per ora no dai ma vieni a farti una cagattina a Radio DJ ti costa vabbè niente Lucia allora stai lì fatela da sola nella tua tristezza nel tuo bagno triste no vabbè va bene buongiorno a tutti va bene va bene ok 9 5 va bene ciao lucia ciao ciao ciao ciao ciao non si riesce a convincere l'ascoltatore a venire a fare la pipì a radio 16 sa perché vediamo il bagno quello bello giù sotto",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "controllo feci",
+    "tema": [
+      "salute",
+      "igiene"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -449,9 +467,12 @@
     "end": 1240.22,
     "speaker_raw": "SPEAKER_10",
     "testo": "Climb on board We'll go slow and high tempo Light and dark Hold me high and mellow I'm seeing the pain, seeing the pleasure Nobody but you, nobody but me, nobody but us, bodies together I love to hold you close tonight and always I love to wake up next to you I love to hold you close tonight and always I love to wake up next to you So we'll put something nameless In a place that feels the tears The place you lose your fears, yeah Reckless behavior A place that is so pure No, it's a paradise and it's our zone. It's a paradise and it's our zone. Pillow talk, our enemy, my ally. Prisoners, then we're free. It's a thin line. I'm seeing the pain, seeing the pleasure Nobody but you, nobody but me Nobody but us, bodies together I'd love to hold you close Tonight and always I'd love to wake up next to you So we'll kiss off the neighbors In a place to feel the tears The place to lose your fears Yeah, reckless behavior A place that is so pure ciao ciao Musica",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Testo del brano Hold Me di PJ Harvey",
+    "tema": [
+      "musica",
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -460,9 +481,12 @@
     "end": 1290.23,
     "speaker_raw": "SPEAKER_04",
     "testo": "Come se non ci fosse, mi piace questo. La base è così bella che la mia voce la rovina. Allora, abbiamo due ascoltatori da chiamare immediatamente, poi abbiamo anche questa cosa dei sogni che ci piace tanto. Dobbiamo andare in pubblicità o...?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Come se non ci fosse",
+    "tema": [
+      "amore",
+      "relazione"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -495,9 +519,12 @@
     "end": 1308.68,
     "speaker_raw": "SPEAKER_00",
     "testo": "Tu mi rendi la vita impossibile! Io ti rendo la vita impossibile? Che cosa dovrei fare?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "vita impossibile",
+    "tema": [
+      "relazioni",
+      "stress"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -539,9 +566,12 @@
     "end": 1381.74,
     "speaker_raw": "SPEAKER_04",
     "testo": "invece qualcuno ascolta e sta dicendo ma magari ma magari ma magari Sì, sì. cinghiali incazzati si chiama questa canzone",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Cinghiali incazzati",
+    "tema": [
+      "musica",
+      "canzone"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -550,9 +580,12 @@
     "end": 1497.1,
     "speaker_raw": "SPEAKER_07",
     "testo": "sono l'ultimo ballo prima dell'addio sono come sono un po' cambiato ehi tu come ti senti che cosa sei non ne sono sicuro sono una foto ricordo che non ho vissuto una storia allegra con un finale aperto sono un binario acquato un mattino scosto sono un sonno io non l'ho mai capito sono un binocchio aperto",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ultimo ballo prima dell'addio",
+    "tema": [
+      "amore",
+      "relazione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -583,9 +616,12 @@
     "end": 1613.59,
     "speaker_raw": "SPEAKER_04",
     "testo": "Ma la domanda è questa, pausa senza neanche messaggi e telefonate o pausa a vedersi però...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Pausa senza vedersi",
+    "tema": [
+      "relazione",
+      "comunicazione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -713,9 +749,13 @@
     "end": 2152.93,
     "speaker_raw": "SPEAKER_04",
     "testo": "Ci sono due scuole di pensiero che stanno movimentando le dita dei nostri ascoltatori sui loro smartphone e sui loro computer. Una dice brava Viola, ma sì per sei mesi, altri dicono che c'entrano i sei mesi, che c'entra il tempo. Ti lasci con una persona e glielo devi dire in faccia. io dico questo non farmi perdere tempo io non so qual è la distanza se è una roba che fa via Milano io mi immaginavo lui Andrea lei Bergamo magari sta a Londra io andrei andresti perché sei un paraculo no perché io ci metto la faccia sì e sto espiando no espiando ho avuto che fare con te intanto vado lì perché voglio spiegare anche perché no ecco mi è arrivato un'altra dalla Johanna ti aspetto stronzo no no scusami intanto vado perché voglio anche spiegare perché poi ci sono delle cose che sono sotto come dire il controllo dell'essere umano e delle persone altre cose soprattutto in amore nelle relazioni in amicizia così che non sono sotto controllo capisci? non è che tutto è gestibile io mi metto nei panni di chi viene lasciato e dico però ragazzi la vita è così ti potrei risparmiare la strada io da lasciata lo dico magari io andrei a lasciare ma non è vero però da lasciata non importa che tu venga fin qua a dimostrare chissà cosa va bene va bene caro ascoltatore fidanzato di Viola il giorno che la vuoi lasciare una chat esatto collettiva con gli amici con le famiglie ciao stronza è tutto finito esatto ma ad ora parliamo di cose belle parliamo di sogni con la occhiusa buongiorno Marco ciao Fabio l'altro giorno l'altro giorno Viola mi parla di questo articolo di questa edicola etica un posto bellissimo così dico vabbè la facciamo nei prossimi giorni dopodiché vado per fare il passaporto di Portusio e uno dall'altra parte una strada un edicolo Fabio Fabio vieni qua e dico ma dai abbiamo parlato di te stamattina ti chiamerò la settimana prossima eccoci qua",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La gestione del tempo nelle relazioni",
+    "tema": [
+      "relazioni",
+      "tempo",
+      "chiarezza"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -735,9 +775,12 @@
     "end": 2159.26,
     "speaker_raw": "SPEAKER_04",
     "testo": "I casi della vita. Allora, in piazza Cordusio c'è un'edicola etica.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'edicola etica di Piazza Cordusio",
+    "tema": [
+      "solidarietà",
+      "progetti sociali"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -757,9 +800,12 @@
     "end": 2219.04,
     "speaker_raw": "SPEAKER_04",
     "testo": "dei piccoli progetti che sono dei piccoli sogni di bambini praticamente voi mettete un cartello e ogni diciamo un sogno al mese più o meno dipende da quanto ci si mette a realizzarlo per esempio una bambina vuole fare un giro in bicicletta sono bambini che vengono da famiglie diciamo un po' faticose in difficoltà in situazioni molto faticose adesso guarda il sogno di adesso è di Giuseppe che ha 12 anni e vuole fare atletica ok e deve cercare di comprargli un paio di scarpe",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il progetto dei sogni per i bambini",
+    "tema": [
+      "solidarietà",
+      "infanzia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1086,9 +1132,13 @@
     "end": 2786.53,
     "speaker_raw": "SPEAKER_04",
     "testo": "almeno quello ah vedi? ha capito lui è andato ha fatto i suoi i suoi porci comodi poi mentre lì di schiena ti ha picchiato sulla spalla e tu ti sei girata e lui davanti ma quasi quasi adesso posso lasciarti dopo che ha fatto Lui era dietro ha fatto to to sulla spalla Lei si è già detto dimmi amore E lui sai che è finita Sì hai capito perché non lo sapevo E tu vieni fai quello che devi fare Dopo mi lasci Sei quello che sei Mannaggia E adesso non lo senti più? ci sentiamo ogni tanto però posso dirti Zaira a te ti piace ancora il tuo odio in realtà è amore a te ti piace ancora ma certo adesso tu che lui venga e ti faccia i suoi sporci comodi poi se ne vada via ti fa anche bene intanto che ci pensa no non è che sono così ma così davvero perché la tua amica come si chiama la tua amica quella con cui ti confessi?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "la storia di un amore finito",
+    "tema": [
+      "amore",
+      "relazioni",
+      "dramma"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1108,9 +1158,12 @@
     "end": 2850.24,
     "speaker_raw": "SPEAKER_04",
     "testo": "come fa a chiamare in un posto così che sembra di essere un cartone animato giapponese comunque senti una cosa no perché lì ti spiego io me lo metto in testa tutto il discorso da fargli quando arrivano poi come lo vedo mi dimentico tutto e alla fine c'ha ragione lui così dice la tua amica ma allora è giusto che vi diano due copie e vanno via questa proprio col cuore la dico ciao Zaira buona giornata ciao ciao abbiamo finito? eh sì c'era uno che doveva venire a fare gli esami delle feci glielo diamo a Linus? glielo diamo a Linus all'orario di Linus e Nicola? eh sì sì ok allora quello che deve venire a fare che deve venire a fare può chiamare e dice chiama Italia ci sentiamo domani mattina? un po' più puntuale io sono arrivato puntuale ragazzi buongiornazzo va bene ci sentiamo domani dalle 9 alle 10 ciao",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "la preparazione per un discorso",
+    "tema": [
+      "comunicazione",
+      "relazioni"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   }
 ]

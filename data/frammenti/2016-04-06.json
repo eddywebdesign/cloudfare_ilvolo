@@ -172,9 +172,12 @@
     "end": 906.53,
     "speaker_raw": "SPEAKER_11",
     "testo": "vuoi veramente ferirmi farmi male vuoi veramente farmi piangere dice questa canzone dei court club questa canzone questo momento che avete fatto mi ha caricato peccato che oggi il capo non c'è potete rifarlo anche domani dice Daniele lino lino lino lino no no ho un ufficio grigiolino sarà grigiolino grigiolino o è lino si è firmato perché è grigio poi a capo c'è scritto lino non lo so comunque l'altro ascoltatore dice grazie per aver cambiato la scaletta al momento per un ascoltatore e cambiato la giornata anche a me questa mattina tra l'altro qui c'è la 2 datemi la 2 da Boston pronto bella patatona come stai Oddio. Ti risenti in onda? Lo senti che c'è la radio accesa? Sì. Se alzi il volume e dici ciao ti senti, prova. Ciao, ciao, l'ho messo d'accordo. Che bello! Come ti chiami? Come ti chiami?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Court Club - Vuoi veramente farmi male",
+    "tema": [
+      "musica",
+      "canzone"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -194,9 +197,11 @@
     "end": 911.59,
     "speaker_raw": "SPEAKER_11",
     "testo": "Vanessa, adesso io sto zitto di ciao Vanessa ad alta voce.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Autosaluto",
+    "tema": [
+      "autosaluto"
+    ],
+    "tipo": "lettura_volo",
     "video_url": ""
   },
   {
@@ -216,9 +221,12 @@
     "end": 954.98,
     "speaker_raw": "SPEAKER_11",
     "testo": "Com'è sentire che ti autosaluti? non lo so mi sembra essere un po' pirla esatto comunque ci sono dei farmaci che aiutano dopo un po' senti Vanessa come stai? bene bene bene dove stai andando? e sto andando a lavorare non te l'aspettavi una chiamata così no decisamente no uno ascolta ascolta il programma tanti anni e poi squilla il telefono ma chi sarà a quest'ora 0-2 rispondi no ma no era privato era privato infatti pensavo fosse una qualche rossura di scatole no si esce io ormai quando quando mi chiama qualcuno con numeri che non ho in rubrica rispondo e dico se siete Vodafone Fastware l'utente non è momentaneamente",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Chiamata inaspettata",
+    "tema": [
+      "telefono",
+      "lavoro"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -227,9 +235,12 @@
     "end": 971.24,
     "speaker_raw": "SPEAKER_01",
     "testo": "io ho un amico che risponde obitorio di careggi ascoltami che lavoro fai Vanessa? Io progetto spazi esterni, è la seconda volta che io e te ci sentiamo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Progetto spazi esterni",
+    "tema": [
+      "lavoro",
+      "progetto"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -317,9 +328,12 @@
     "end": 1004.59,
     "speaker_raw": "SPEAKER_01",
     "testo": "No, assolutamente, l'altra volta mi avete chiamato perché io ero quella che aveva la mamma buona. La mamma buona!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Mamma buona",
+    "tema": [
+      "genitori",
+      "mamma"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -405,9 +419,11 @@
     "end": 1063.8,
     "speaker_raw": "SPEAKER_01",
     "testo": "Eh sì, si fa desiderare, però in realtà in questo momento non sto molto bene, ho letto malata. Ah!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Non sto molto bene",
+    "tema": [
+      "salute"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -517,9 +533,12 @@
     "end": 1126.65,
     "speaker_raw": "SPEAKER_11",
     "testo": "questo qui è Rocky 4 giustamente però a lei piace molto Rocky 1 a me piace molto Rocky 1 vabbè c'è una cosa che ti piace che ti mettiamo in onda che ti abbiamo fatto piangere ma è sempre di Rocky non lo so anche di Lilo Banfi no allora di Rocky se la trovate secondo me la frase più bella proprio",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La preferenza per Rocky 1",
+    "tema": [
+      "cinema",
+      "emozioni"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -542,9 +561,12 @@
     "end": 1184.53,
     "speaker_raw": "SPEAKER_11",
     "testo": "no no va bene allora no aspetta un secondo o Maurizio RTL l'avrebbero trovato no ma io l'ho trovato è una scena da 7 minuti mettila sotto un pezzo poi al limite andiamo avanti no vabbè ma è lunga non importa Vanessa tu sei per noi tu sei al centro del programma capisci? ma tua mamma è buona e tu sei cessa o sei buona anche tu? no mi difendo sei carina dai sei carina",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Mamma buona e io cessa",
+    "tema": [
+      "genitori",
+      "famiglia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -586,9 +608,11 @@
     "end": 1192.2,
     "speaker_raw": "SPEAKER_11",
     "testo": "Sei sposata. Ah già, è vero, sei sposata, per quello.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Sposata",
+    "tema": [
+      "matrimonio"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -608,9 +632,12 @@
     "end": 1196.94,
     "speaker_raw": "SPEAKER_11",
     "testo": "C'hai anche un bambino? Non facciamo battute, dai.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Bambino",
+    "tema": [
+      "famiglia",
+      "genitori"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -663,9 +690,12 @@
     "end": 1235.44,
     "speaker_raw": "SPEAKER_01",
     "testo": "il giusto il giusto no dopo un pochino riprende poi si è messo in seconda produzione alti e bassi alti e bassi alti e bassi va bene allora noi ti salutiamo oppure rimani con noi aspetta devo fare una cosa io rimango con voi ma io devo salutare la mia amica Francesca e la mia amica Martina perché mi ascoltano e mi beccano sempre tutte le volte che parlo con DJ quindi lo dovevo fare",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Altalena e seconda produzione",
+    "tema": [
+      "infanzia",
+      "famiglia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -739,9 +769,11 @@
     "end": 1309.43,
     "speaker_raw": "SPEAKER_11",
     "testo": "Ma Vanessa, ma piango io però.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Piangi io però",
+    "tema": [
+      "emotività"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -776,9 +808,11 @@
     "end": 1373.23,
     "speaker_raw": "SPEAKER_05",
     "testo": "Don't you shut your eyes and hide your heart behind the shadow Cause you can count on me as long as I can breathe, you should know",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Don't You Shut Your Eyes",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -820,9 +854,12 @@
     "end": 1682.69,
     "speaker_raw": "SPEAKER_11",
     "testo": "la vita normale ho una cosa che voglio che tu faccia per me cosa? porta tu oggi la spazzatura esatto vogliamo dire che l'uomo essere umano maschile a differenza della donna ha un talento che la donna se lo sogna che è quello di riuscire ad aprire la porta di casa senza vedere la monnezza che lei ha messo davanti alla porta anche io ho questo talento ce l'hai di scavalcare proprio trincee trincee a parte l'umido che è l'unica cosa perché l'umido sporca il pavimento e poi ci sono delle cose a volte che lascia la cosa che appiccica poi però la capacità di alzare il piede scavalcare il sacchetto aprire la porta e ti dice non l'hai buttato e tu dici non l'ho visto lì devi essere maschio super maschio Mi avete fatto venire voglia di guardare tutti i Rocky. Dai, facciamo una marathon. Prendiamoci un cinemino piccolo qua. Esattamente come mio marito. Riesce a schivare il sacchetto ed uscire. Ma stai masticando? Scusate, avete mai sentito un DJ che rientra da pubblicità finendo di masticare un pezzo di focaccia? Sì. Stamattina c'è una fame che mi potrei mangiare un cane. Oh!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Uomo e porta di casa",
+    "tema": [
+      "uomo",
+      "porta"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -831,9 +868,12 @@
     "end": 1844.2,
     "speaker_raw": "SPEAKER_03",
     "testo": "adesso gli animalisti no un hot dog volevo dire in italiano no non si dice in radio che si mangia le camere ma me non lo mangio hanno vinto le corsie preferenziali hanno vinto le metropolitane hanno vinto le rotonde e i ponti a quadrifoglio alle uscite autostradali Hanno vinto i parcheggi in doppia fila, quelli multipiano vicino agli aeroporti, le tangenziali alle otto di mattina e i centri commerciali nel fine settimana. Hanno vinto le corporazioni infiltrate nei consigli comunali, i loschi affari dei palazzinari, gli alveari umani e le case popolari. i bed and breakfast affittati agli studenti americani hanno vinto i super artici a 3.000 euro al mese le puttane lungo i viali sulle strade consolari hanno vinto i pendolari ma ha perso la città ha perso un sogno abbiamo perso il fiato per parlarci ha perso la città ha perso la comunità abbiamo perso la voglia di aiutarci hanno vinto le catene dei negozi le insegne luminose sui tetti dei palazzi le luci lampeggianti dei semafori di notte i bar che aprono le sede hanno vinto i ristoranti giapponesi che poi sono cinesi anche se il cibo è giapponese i locali modaioli frequentati solamente da bellezze tutte uguali le montagne di mondizia gli orizzonti verticali le giornate a targa alterne e le polveri sottili hanno vinto le filiali delle banche hanno perso i calzolai E ha perso la città, ha perso un sogno, abbiamo perso il fiato per parlarci, ha perso la città, ha perso la comunità, abbiamo perso la voglia di aiutare.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Animalisti e hot dog",
+    "tema": [
+      "animalisti",
+      "hot dog"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -866,9 +906,12 @@
     "end": 1992.08,
     "speaker_raw": "SPEAKER_11",
     "testo": "Io adesso mi sono fatto la focaccia che è anche bella unta lo senti però integrale forse con due integrali è come averne presa una nuova comunque noi stiamo ancora aspettando la colazione con i semi di chiatro noi stiamo ancora aspettando le orecchiette che ti sei portata a casa tu ieri ma ieri mi avete detto che me le regalavate buonissime Andrea cari ascoltatori che adesso dobbiamo fare una telefonata importante però volevo dirvi che ieri ero sul divano e ho ricevuto due messaggi uno da Maurizio e uno da Viola questo quello di Viola era sta per cominciare settechini in sette giorni mi raccomando guardatelo e Maurizio stai iniziando i dieci comandamenti dopo venti minuti sono ancora la sigla iniziale allora ho iniziato a vedere c'erano i titoli ho detto cambio un attimo canale e poi dopo dieci minuti c'erano ancora i titoli perché lì sai l'autore di dieci comandamenti c'ha un sacco di ringraziamenti da fare ma signore e signori Giacomini giusto? Sì. Ecco. Ecco. Andrea Giacomini portavoce dell'Unicef. Buongiorno. Buongiorno Fabio. Bene. Ti avevo ti avevo chiesto la settimana scorsa. Allora tu avevi bisogno di parlare un po' delle iniziative, delle cose. E quindi Radio DJ soprattutto il mattino molto seguito è una buona occasione. E io ti ho chiesto in cambio se ci dici anche delle cose belle.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Focaccia e colazione",
+    "tema": [
+      "focaccia",
+      "colazione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

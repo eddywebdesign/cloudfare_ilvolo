@@ -30,12 +30,9 @@
     "end": 84.22,
     "speaker_raw": "SPEAKER_11",
     "testo": "I don't know you But I want to And I don't wanna steal your freedom I don't wanna change your mind I don't have to make you love me I just wanna take your time I don't wanna wreck your Friday I ain't gonna waste my life I don't have to take your heart I just wanna take your time",
-    "titolo": "Non Voglio Cambiare il Tuo Mondo",
-    "tema": [
-      "amore",
-      "relazione"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
@@ -66,9 +63,12 @@
     "end": 274.13,
     "speaker_raw": "SPEAKER_04",
     "testo": "buongiorno a tutti benvenuti in questo meraviglioso lunedì che inizia benissimo buongiorno In realtà siamo in meno questa mattina, accorgerete subito, manca la voce calda e seducente di Viola, che è a casa un po' malata. Proprio le tonsille, proprio nella sua zona, diciamo, quella che esercita di più, che esercita di più. Abbiamo Ostellin, la Steffi al centralino, abbiamo Maurizio alla macchina del suono e questa voce meravigliosa che scalda i vostri cuori, è la mia. allora ok Come state?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Tonsille di Viola",
+    "tema": [
+      "malattia",
+      "Viola"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -230,9 +230,12 @@
     "end": 1047.55,
     "speaker_raw": "SPEAKER_04",
     "testo": "È anche bello? Sì, sì. Però ti ha ascoltato quella mattina, capito? Come le pubblicità, noi usiamo le sigle, l'anno dopo è una pubblicità. E a me... Posso dire che il tuo era più bello? O attacca? Non lo so. Sì, attacca, attacca. Però qui, posso dirti, è già quattro del mattino, con la pastiglia che va giù la botta. È tutta così? Sì. E dove sono le onde gravitazionali dell'universo? Ma forse quel suono sotto... non lo so no Maurizio la tua era più lo dico lo sai che io se posso parlare male di te lo faccio ma questa era la tua era più bella va bene altro tema altro tema allora il gatto Jasper il gatto sciatore cos'è il gatto sciatore?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Pubblicità e sigle",
+    "tema": [
+      "pubblicità",
+      "sigle"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -316,12 +319,9 @@
     "end": 1163.25,
     "speaker_raw": "SPEAKER_06",
     "testo": "In Scozia, quando piove non puoi innaffiare il giardino.",
-    "titolo": "leggi scozzesi",
-    "tema": [
-      "leggi",
-      "ambiente"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
@@ -330,9 +330,12 @@
     "end": 1174.08,
     "speaker_raw": "SPEAKER_04",
     "testo": "Ci sto pensando al motivo, sto pensando al motivo. Che non è che è perché bagni quello sotto, sta piovendo. Forse è per non consumare l'acqua. Esatto, non sprecare l'acqua che tanto non serve.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Conservare l'acqua",
+    "tema": [
+      "acqua",
+      "risparmio"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -341,9 +344,12 @@
     "end": 1183.74,
     "speaker_raw": "SPEAKER_06",
     "testo": "Ottawa, si dice Ottawa. Ottawa! Ottawa! È illegale mangiare il gelato di domenica sulla Bank Street. Perché? Non lo so, ma non devi farti delle domande.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Legge assurda sul gelato a Ottawa",
+    "tema": [
+      "curiosità",
+      "leggi"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -352,9 +358,12 @@
     "end": 1192.65,
     "speaker_raw": "SPEAKER_04",
     "testo": "Allora, c'è un ascoltatore che vive ad Ottawa e ci dice perché in quella strada non si può mangiare il gelato, perché la gente cade, appiccica, non ha i cestini. Vabbè.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Gelato a Ottawa",
+    "tema": [
+      "gelato",
+      "Ottawa"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -363,9 +372,12 @@
     "end": 1198.8,
     "speaker_raw": "SPEAKER_06",
     "testo": "In Inghilterra tutti i maschi inglesi oltre i 14 anni devono praticare almeno per due ore alla settimana il tiro con l'arco.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Obbligo tiro con l'arco in Inghilterra",
+    "tema": [
+      "curiosità",
+      "tradizioni"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -385,9 +397,12 @@
     "end": 1220.04,
     "speaker_raw": "SPEAKER_06",
     "testo": "cioè sono tutti illegali o tutti i ragazzini tirano con magari a scuola tirano con l'arco a York se incontri uno scozzese è legale colpirlo con una freccia tranne la domenica tranne la domenica basta come è?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Arco e freccia",
+    "tema": [
+      "arco",
+      "freccia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -457,9 +472,12 @@
     "end": 1583.59,
     "speaker_raw": "SPEAKER_04",
     "testo": "Io sto con Spalletti. Allora, per tirar su un po' l'immagine dal programma, un messaggio che appunto ci regala un'immagine. Ciao Fabio, che bello ascoltarti nei bagni dell'autogrill mentre faccio pipì. Alessia da Bologna. Interessante.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Messaggio di Alessia",
+    "tema": [
+      "messaggio",
+      "Alessia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

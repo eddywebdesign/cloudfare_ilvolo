@@ -87,9 +87,12 @@
     "end": 255.18,
     "speaker_raw": "SPEAKER_00",
     "testo": "Maurizio ha un po' giù la voce questa mattina. E sono andato a vedere Fatboy Slim ieri sera. Ma no, avrei mangiato i formaggi.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Concerto di Fatboy Slim",
+    "tema": [
+      "musica",
+      "concerto"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -667,9 +670,13 @@
     "end": 1508.42,
     "speaker_raw": "SPEAKER_00",
     "testo": "te la succhiano con la pompa sai quando andavamo a rubarla quando eravamo ragazzine andavamo a rubare la benzina con la pompa ma scusami chi hai chiamato tu? io ho chiamato mio papà comunque scusatemi tu sei fidanzata Martina? sì allora la Valentina aspetta ha dedicato la canzone al compagno e ha detto ma non l'ho avvisato perché non verrebbe mai a prendermi tu hai chiamato tuo papà perché?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Rubare benzina da bambini",
+    "tema": [
+      "infanzia",
+      "bambini",
+      "benzina"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -678,9 +685,13 @@
     "end": 1513.54,
     "speaker_raw": "SPEAKER_08",
     "testo": "Perché il mio fidanzato sarebbe venuto, il problema è che lavora fuori Torino.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Problema di lavoro e distanza",
+    "tema": [
+      "lavoro",
+      "distanza",
+      "relazioni"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -700,9 +711,13 @@
     "end": 1524.63,
     "speaker_raw": "SPEAKER_08",
     "testo": "No, io in realtà gli ho detto che ero ferma, io pensavo fosse la batteria, poi quando è arrivato lui mi ha detto guarda che sei senza benzina.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Papà scopre la benzina finita",
+    "tema": [
+      "genitori",
+      "benzina",
+      "errore"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -919,9 +934,13 @@
     "end": 2357.91,
     "speaker_raw": "SPEAKER_00",
     "testo": "Ma dai, ma basta bambinoni. Ma se si divertono. Ma scusami, ma lui c'ha un'altra?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Lui ha un'altra",
+    "tema": [
+      "relazioni",
+      "amore",
+      "infedeltà"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

@@ -27,9 +27,12 @@
     "end": 84.37,
     "speaker_raw": "SPEAKER_06",
     "testo": "I don't know you, but I want to And I don't wanna steal your freedom I don't wanna change your mind I don't have to make you love me I just wanna take your time I don't wanna wreck your Friday I ain't gonna waste my life I don't have to take your heart I just wanna take your time",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Voglio prendere il tuo tempo",
+    "tema": [
+      "amore",
+      "tempo"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -60,9 +63,12 @@
     "end": 287.88,
     "speaker_raw": "SPEAKER_03",
     "testo": "Riti perché ancora parlavo? No, no, no. Ah, perché mi stavi registrando? No, no, no. Ah, che merda. Buongiorno a tutti ragazzi, benvenuti. Questo è Il Volo del Mattino e sempre la nostra meravigliosa radio DJ. sai di buon umore sono di buon umore quando non dormo sono sempre di buon umore perché ho quella schizofrenia di chi non ha dormito quindi ho l'energia non proprio quella potente sai come quando si è stanchi perché si è lavorato tanto o si è stanchi perché si è fatto l'amore sono due stanchezze diverse e così questa è la mia e oggi qual è? No, io ho questa energia che non è perché ho dormito tanto, ma perché ho dormito poco. E quindi sono... per tenermi sveglio. Buongiorno, avete già sentito la voce di Igor Sibaldi. Buongiorno a tutti. Cosa ridi Maurizio? Ma cosa c'è? Ma sono un uomo felice. Ma che cavolo dici? Ma se c'è una vita orrende. Hai una vita misera, come fai a essere grida? Sto scherzando. Buongiorno Viola! Ciao! Come va la tua influenza?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Schizofrenia e buon umore",
+    "tema": [
+      "umore",
+      "sveglia"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -93,9 +99,12 @@
     "end": 297.18,
     "speaker_raw": "SPEAKER_02",
     "testo": "Sì, avevo le tonsille infiammate. Lo senti ancora?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Tonsille infiammate di Viola",
+    "tema": [
+      "tonsille",
+      "malattia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -104,9 +113,12 @@
     "end": 304.72,
     "speaker_raw": "SPEAKER_03",
     "testo": "Eh, lo senti. Però posso dirti che noi riceviamo molti, molti messaggi di uomini che dicono io ascolto il volo solo per la voce della Viola. O per quando ride. Ridi!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ascoltatori che ascoltano per la voce di Viola",
+    "tema": [
+      "ascoltatori",
+      "voce"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -115,9 +127,12 @@
     "end": 310.53,
     "speaker_raw": "SPEAKER_02",
     "testo": "Ma comando non riesco, però per tutta la puntata solitamente rido, non so come mai.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ridere durante la puntata",
+    "tema": [
+      "puntata",
+      "risata"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -889,12 +904,9 @@
     "end": 2307.06,
     "speaker_raw": "SPEAKER_00",
     "testo": "è di quell'età lì di quel mese lì di quello stesso anno si si lui arriva in alto è altissimo altissimo fa depingere la frescoli e si rovina e si rovina poi come si rovina?",
-    "titolo": "Il sogno di Leonardo",
-    "tema": [
-      "sogno",
-      "leonardo"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
@@ -1061,9 +1073,12 @@
     "end": 2608.16,
     "speaker_raw": "SPEAKER_03",
     "testo": "un ascoltatore simpaticissimo dice Marinella insieme a Benedetto XVI hanno in comune che sono tutti disoccupati non si può ridere di questa cosa però fa ridere come messaggio allora io sono nata il 16 ottobre come Oscar Wilde attenzione tu stavi dicendo che il 16 di ottobre è il contrario di quello che abbiamo detto di Marinella cioè loro costruiscono tutti e poi distruggono se stessi come Oscar Wilde come Calvino a lei è 13",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Oscar Wilde",
+    "tema": [
+      "filosofia",
+      "umorismo"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -1072,9 +1087,12 @@
     "end": 2624.19,
     "speaker_raw": "SPEAKER_00",
     "testo": "per tutta un'altra cosa come Nietzsche e quelli devono stare molto attenti perché sono intelligenti super intelligenti però sono quelli che devono per forza avere un capo sopra",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Intelligenza e autorità",
+    "tema": [
+      "potere",
+      "leadership"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -1083,9 +1101,12 @@
     "end": 2636.78,
     "speaker_raw": "SPEAKER_03",
     "testo": "ferma lì non si arrepia di tanto perché se salgano troppo esatto come Icaro ok Maurizio dice che dobbiamo salutare vogliamo solo dire un'ascoltatrice cos'è che era 12 maggio?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Icaro e la caduta",
+    "tema": [
+      "mitologia",
+      "pericolosità"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

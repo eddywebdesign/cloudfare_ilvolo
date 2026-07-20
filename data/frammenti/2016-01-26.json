@@ -5,11 +5,9 @@
     "end": 10.09,
     "speaker_raw": "SPEAKER_08",
     "testo": "DJ One Nation One Station One Love",
-    "titolo": "Rufus",
-    "tema": [
-      "musica"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
@@ -112,12 +110,9 @@
     "end": 335.92,
     "speaker_raw": "SPEAKER_02",
     "testo": "è tipo indovina il personaggio lo fai con il telefono o con il computer c'è una specie di genietto virtuale che ti fa delle domande tu devi rispondere sì o no e in pochissime domande devi capire di chi sta parlando indovina la persona che hai in testa",
-    "titolo": "Akinator",
-    "tema": [
-      "giochi",
-      "intelligenza"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
@@ -183,9 +178,12 @@
     "end": 360.82,
     "speaker_raw": "SPEAKER_02",
     "testo": "No, io ho trovato della gente che, io non sono famosa ma, quindi ancora meno...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Fama e anonimato",
+    "tema": [
+      "fama",
+      "anonimato"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -557,9 +555,12 @@
     "end": 1072.05,
     "speaker_raw": "SPEAKER_11",
     "testo": "volevo dire una cosa a Viola dimmi Viola si chiama anche mia figlia vedi? a Firenze si chiamano tutte Viola io non lo sapevo ciao Angelo ciao",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Nome comune",
+    "tema": [
+      "nomi",
+      "comuni"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -677,12 +678,9 @@
     "end": 1412.18,
     "speaker_raw": "SPEAKER_02",
     "testo": "poi lo sai la mia conoscenza la mia esperienza cinematografica dal punto di vista di fruittore evidentemente è pari a uno però è sufficiente per dire che fa schifo non vi è piaciuto?",
-    "titolo": "film bruttino",
-    "tema": [
-      "cinema",
-      "opinione"
-    ],
-    "tipo": "riferimento_film",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
@@ -757,9 +755,12 @@
     "end": 1654.18,
     "speaker_raw": "SPEAKER_01",
     "testo": "Alice guarda i gatti e i gatti girano nel sole mentre il sole fa l'amore con la luna il mendicante arabo ha un cancro nel cappello ma è convinto che sia un portafortuna non ti chiede mai e un posto per dormire non ce l'ha tutto questo Alice non lo sa e io non voglio più che i pazzi siete voi",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Alice nel Paese delle Meraviglie",
+    "tema": [
+      "fantasia",
+      "avventura"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {

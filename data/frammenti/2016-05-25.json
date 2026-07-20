@@ -60,9 +60,12 @@
     "end": 305.58,
     "speaker_raw": "SPEAKER_12",
     "testo": "tutti che ridono quando faccio gli starnuti da quando sono bambino perché ne faccio tipo 7-8 di fila siamo in pochissimi al mondo che riescono a farne 9 di fila tra l'altro un po' interrotti speriamo che questa sigla non solo cambi l'umore a qualcuno di noi ma che mi tolga nella testa le canzoncine che mi martellano per tutto il giorno e io faccio parte di questa categoria dei genitori con bambini piccoli che entrano in loop queste canzoncine di bambini che sono fatte come dei lavaggi del cervello ti restano in testa continuamente tipo passeggiando in questa notte di New York continuavo a ripetermi Si arrabbia ma non strilla, sorseggia camomilla e mezzo addormentato se ne va. E il coccodrillo come fa?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Gli starnuti dei bambini",
+    "tema": [
+      "genitori",
+      "bambini"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -148,9 +151,12 @@
     "end": 429.62,
     "speaker_raw": "SPEAKER_12",
     "testo": "scusatemi c'è Renga e la regina Elisabetta insieme esatto ma veramente lei è di Brescia il tema era l'eleganza l'eleganza da Renga cosa dice Renga scusatemi",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Eleganza di Renga",
+    "tema": [
+      "eleganza",
+      "Renga"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -159,9 +165,13 @@
     "end": 445.65,
     "speaker_raw": "SPEAKER_14",
     "testo": "sociale, sesso, religione solo l'amore comprende tutto Francesco Renga riflette sui suoi 30 anni di carriera ho capito che ce l'avevo fatta quando sono riuscito a raccontare in pubblico le mie sofferenze tre pagine di sofferenze",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Riflessione su 30 anni di carriera",
+    "tema": [
+      "carriera",
+      "riflessione",
+      "musica"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -170,9 +180,12 @@
     "end": 471.54,
     "speaker_raw": "SPEAKER_12",
     "testo": "invece la regina ha tre pagine di menù ok la regina ha tre pagine di menù c'è il menù della regina? si allora aspetta una cosa siccome Maurizio abbiamo scoperto ieri che sei molto bravo a leggere grazie grazie allora mettiamo un disco e poi rientro i segreti della regina perché lei adesso ha un novantino no? si infatti ha un novantino",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Menù della regina",
+    "tema": [
+      "regina",
+      "menù"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -192,9 +205,12 @@
     "end": 610.31,
     "speaker_raw": "SPEAKER_05",
     "testo": "Grazie. bevi la coca cola che ti fa bene bevi la coca cola che ti fa diselire con tutte quelle, tutte quelle bollicine cola sì, coca cola a me mi fa morire Coca-Cola sì, Coca-Cola me mi fa impazzire spazio pubblicità l'angolo e la posta spazio pubblicità",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Coca-Cola",
+    "tema": [
+      "Coca-Cola",
+      "pubblicità"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -596,9 +612,12 @@
     "end": 1878.27,
     "speaker_raw": "SPEAKER_12",
     "testo": "bene devo dire però che sono più preoccupato per Viola che riascoltando durante questo disco l'intercettazione a me non interessa no ti posso dire che va bene Maurizio cercava di tirarci fuori il peggio di noi che io il peggio di me l'ho già messo diciamo alla luce secondo me che si sa che sono un mezzo deficiente invece secondo me Viola stupisce un po' ma non ho detto niente di offensivo no di offensivo no però si parlava della regina questa mattina e tu hai fatto vabbè comunque sentiamo l'intercettazione alla viola piace molto la mia versione io perché me la immagino lì in posizioni",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "il peggio di noi",
+    "tema": [
+      "autocritica",
+      "amici"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -607,9 +626,12 @@
     "end": 1903.79,
     "speaker_raw": "SPEAKER_13",
     "testo": "Tutta nuda me la immagino Che poi la regina si depilerà Secondo voi Parli che da vecchi si perdono i peli Si perdono, si si perdono Lei più che altro è sul cesso Qualcuno aveva fatto delle statue Sono la regina Sul cesso tutte le mattine Dopo le prugne di colazione Prugne",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "la regina nuda",
+    "tema": [
+      "regina",
+      "umorismo"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -776,9 +798,12 @@
     "end": 2476.98,
     "speaker_raw": "SPEAKER_10",
     "testo": "No, andiamo proprio Ma avete dei figli? Non abbiamo dei figli, abbiamo due gazze che ci seguiranno.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "gazze come figli",
+    "tema": [
+      "animali",
+      "famiglia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -798,9 +823,12 @@
     "end": 2485.9,
     "speaker_raw": "SPEAKER_10",
     "testo": "Ma io sto mangiando un'amichetta col pane, burro e zucchero.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'amichetta col pane",
+    "tema": [
+      "cibo",
+      "infanzia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -842,9 +870,12 @@
     "end": 2510.49,
     "speaker_raw": "SPEAKER_10",
     "testo": "io voglio saperle queste cose facciamo allora praticamente io lavoro in un supermercato e Alessandro lavora in un albergo ok mollate tutto e che fatela? andiamo a coltivare caffè",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il lavoro in supermercato",
+    "tema": [
+      "lavoro",
+      "supermercato"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -853,9 +884,12 @@
     "end": 2514.64,
     "speaker_raw": "SPEAKER_12",
     "testo": "ma veramente? andate in una piantagione di caffè?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La piantagione di caffè",
+    "tema": [
+      "caffè",
+      "piantagione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -864,9 +898,12 @@
     "end": 2526.85,
     "speaker_raw": "SPEAKER_10",
     "testo": "sì abbiamo degli amici lì che già hanno questa terra dove coltivano il loro caffè biologico e noi andiamo così cioè andate ad aiutare loro a raccogliere il caffè e vivete lì?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La terra dei caffè biologici",
+    "tema": [
+      "caffè",
+      "biologico"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -875,9 +912,12 @@
     "end": 2530.14,
     "speaker_raw": "SPEAKER_12",
     "testo": "esatto con la casetta di legno vicino al mare?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La casetta di legno vicino al mare",
+    "tema": [
+      "casetta",
+      "mare"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -897,9 +937,12 @@
     "end": 2557.98,
     "speaker_raw": "SPEAKER_12",
     "testo": "la baracca di legno la baracca di legno vicino al mare esatto non è proprio vicino al mare che ci vogliono un due ore e mezzo per arrivare a uno dei due mari vabbè però una volta vai di là ci sono i caraibi con i rasta che parlano inglese una volta vai di qua che meraviglia posso chiedervi come mai questa scelta questa scelta vi siete stufati vi fa sta vita qua Fabio l'Italia è bellissima",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La scelta di vita: coltivare caffè",
+    "tema": [
+      "cambiamento",
+      "scelte di vita"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
