@@ -1,20 +1,28 @@
 #!/usr/bin/env bash
-# Autocommit incondizionato dei dati che il K16 NON copre (data/riferimenti,
-# data/pillole, data/playlist) - creato 2026-07-20 per sostituire
-# sync_snapshot_data.ps1 (HP14), che falliva per due motivi reali risolti in
-# quella sessione (working tree sporco, encoding log) piu' un terzo mai
-# risolvibile su un portatile: la tarea Windows ha
-# DisallowStartIfOnBatteries/StopIfGoingOnBatteries, quindi se l'HP14 gira a
-# batteria semplicemente non parte. L'OMV e' sempre acceso e sempre a
-# corrente, nessuno di questi problemi si applica qui.
+# Autocommit incondizionato di TUTTA data/ - riscritto 2026-07-20 sera dopo aver
+# trovato il bug reale: prima di questa versione, sia questo script sia
+# autocommit_dati.sh (K16) committavano dalla copia LOCALE del clone git
+# (~/ilvolodelmattino/data/), MAI dal share reale dove scrivono davvero la
+# trascrizione/classificazione (ILVOLO_DATA_DIR) - due cartelle fisicamente
+# separate. Risultato verificato: gli ultimi 20 "Autocommit K16: batch
+# trascrizione" toccavano SOLO logs/trascrizioni_log_termico.csv, mai un file
+# vero di trascrizione/frammenti, nonostante il messaggio del commit.
 #
-# NON tocca data/trascrizioni ne' data/frammenti: quelle le committa gia' il
-# K16 (ilvolo-autocommit.timer, ogni 20 min) - farlo anche qui duplicherebbe
-# gli autocommit delle stesse cartelle da due macchine diverse.
+# Fix reale (non un altro patch sopra il sintomo): data/ del clone git
+# sull'OMV ora e' un bind mount della cartella vera dello share
+# (/srv/dev-disk-by-uuid-.../ilvolodellasera/data), fatto UNA TANTA a mano
+# (vedi memoria project_ilvolodelmattino_pipeline_infra.md). Da quel momento
+# "il clone git" e "il share" sono la STESSA cartella fisica - questo script
+# non ha piu' bisogno di sapere quali sottocartelle toccare, ne' di fare
+# nessuna copia: cio' che classifica_frammenti/estrai_riferimenti scrivono
+# e' gia' li'.
 #
-# Stesso pattern gia' testato in scripts/linux/autocommit_dati.sh (K16):
-# commit PRIMA di pullare, cosi' un working tree dirty non blocca mai il
-# pull --rebase con "hai modifiche non salvate".
+# Sostituisce sia sync_snapshot_data.ps1 (HP14, disabilitato) sia
+# autocommit_dati.sh (K16, disabilitato) - questo e' l'UNICO punto di
+# commit/push dei dati di tutto il progetto.
+#
+# Stesso pattern gia' testato: commit PRIMA di pullare (un working tree
+# dirty non deve mai bloccare il pull --rebase).
 #
 # Uso: bash scripts/linux/autocommit_dati_omv.sh (lanciato da cron)
 
@@ -28,11 +36,11 @@ mkdir -p logs
 
 ts() { date --iso-8601=seconds; }
 
-git add data/riferimenti data/pillole data/playlist 2>/dev/null
+git add data/ 2>/dev/null
 
 if ! git diff --cached --quiet; then
   N=$(git diff --cached --name-only | wc -l)
-  git commit -m "Autocommit OMV: dati riferimenti/pillole/playlist ($N file)" --quiet
+  git commit -m "Autocommit OMV: dati aggiornati ($N file)" --quiet
 else
   N=0
 fi
