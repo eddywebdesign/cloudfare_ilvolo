@@ -7,3 +7,11 @@ __pycache__/
 logs/*
 !logs/frammenti_dubbi.json
 .claude/scheduled-tasks/
+
+# File di lavoro/debug di sessione creati per errore nella root del repo
+# (causa reale del working tree sporco che bloccava sync_snapshot_data.ps1
+# il 2026-07-17/19 — vedi memoria feedback_repo_root_clutter). Le note
+# manuali vanno in ilvolodelmattino_notas\ (cartella gemella fuori dal repo).
+/errors*.txt
+/items.txt
+/hwinfo_temp_log.csv
