@@ -9,6 +9,13 @@
 # git (utile per vedere QUANDO e' stata segnalata ogni allucinazione), questo
 # script copia il report nel repo locale prima di committarlo.
 #
+# ATTENZIONE bug reale trovato il 2026-07-20: il sito Hugo legge il badge "da
+# rivedere" da .Site.Data.frammenti_dubbi, che carica SOLO data\frammenti_dubbi.json
+# (cartella dati di Hugo) — MAI logs\frammenti_dubbi.json (Hugo non guarda dentro
+# logs\). Il report veniva aggiornato per mesi senza che il sito lo mostrasse mai
+# (contatore "0 da rivedere" fisso nonostante centinaia di voci nel report reale).
+# Ora la copia va SEMPRE fatta in entrambi i posti.
+#
 # Uso: powershell -ExecutionPolicy Bypass -File "scripts\lancia_verifica_autonoma.ps1"
 
 $Repo = "D:\Download\CLAUDE FOLDER\ilvolodelmattino"
@@ -39,8 +46,9 @@ if ((Resolve-Path $ReportRemoto -ErrorAction SilentlyContinue) -and
     ((Resolve-Path $ReportRemoto).Path -ne (Join-Path $Repo "logs\frammenti_dubbi.json"))) {
     Copy-Item $ReportRemoto "logs\frammenti_dubbi.json" -Force
 }
+Copy-Item "logs\frammenti_dubbi.json" "data\frammenti_dubbi.json" -Force
 
-git add logs\frammenti_dubbi.json 2>$null
+git add logs\frammenti_dubbi.json data\frammenti_dubbi.json 2>$null
 git diff --cached --quiet
 if ($LASTEXITCODE -eq 0) {
     Scrivi "Nessuna modifica al report da committare."

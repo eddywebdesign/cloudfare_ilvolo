@@ -86,6 +86,16 @@ riferimento_libro anche se il tema sembra "letterario" — usa riferimento_music
 identificare un titolo/artista reale, escludilo.
 - Nel dubbio, ESCLUDI. Meglio pochi frammenti buoni che tanti irrilevanti.
 
+ESEMPI REALI (da errori gia' fatti in passato — studiali prima di rispondere):
+- BUONO (aneddoto): "ragazzi volevo darvi belle notizie le ho chiesto di sposarci ha detto si \
+Alessandro da Siracusa ha fatto quella roba la mi vuoi sposare?" -> evento concreto con inizio/svolta/esito, \
+INCLUDI come aneddoto.
+- CATTIVO (NON classificare cosi'): "buongiorno a tutti ragazzi, sono le 9 e 7 minuti, oggi Igor Sibaldi \
+e' qui con noi, buongiorno Igor" -> nessun libro nominato, e' solo la presentazione di un ospite: NON e' \
+riferimento_libro, ESCLUDI del tutto (non ha nemmeno un insegnamento autonomo per riflessione).
+- CATTIVO (NON classificare cosi'): "abbiamo gia' perso quei pochi ascoltatori" -> una battuta isolata, \
+nessuna svolta narrativa: NON e' un aneddoto, ESCLUDI.
+
 FRAMMENTI:
 {lista}
 
@@ -106,6 +116,35 @@ TIPI_VALIDI = {
     "citazione", "lettura_volo", "aneddoto", "riflessione",
     "riferimento_libro", "riferimento_film", "riferimento_musica",
 }
+
+# Guardarraili deterministici, trovati necessari il 2026-07-20: le regole del prompt
+# sopra (titolo ancorato al testo, minimo ~25-30 parole per aneddoto/riflessione) sono
+# gia' scritte ma un modello piccolo/gratuito (Groq 8B, Cerebras, Gemini flash-lite) non
+# le rispetta in modo affidabile — misurato: 9,6% dei riferimento_* storici NON ancorati,
+# 25,8% di aneddoto/riflessione sotto le 25 parole, nonostante il prompt lo vietasse gia'.
+# `verifica_frammenti.py` (un altro LLM che giudica) non li aveva presi (0 segnalati) —
+# un modello debole che giudica un altro modello debole non e' una rete affidabile.
+# Qui la regola diventa CODICE, non piu' una richiesta che il modello puo' ignorare.
+RIF_TIPI = {"riferimento_libro", "riferimento_film", "riferimento_musica"}
+NARR_TIPI = {"aneddoto", "riflessione"}
+MIN_PAROLE_NARRATIVO = 25
+
+
+def _normalizza_per_ancoraggio(s: str) -> str:
+    return re.sub(r"[^\w\s]", "", (s or "").lower()).strip()
+
+
+def _titolo_ancorato(titolo: str, testo: str) -> bool:
+    """Stessa logica di controlla_ancoraggio_riferimenti.py::ancorato() — almeno una
+    parola di 4+ lettere del titolo proposto deve comparire nel testo del frammento."""
+    testo_norm = _normalizza_per_ancoraggio(testo)
+    norm = _normalizza_per_ancoraggio(titolo)
+    if not norm:
+        return False
+    parole = [p for p in norm.split() if len(p) >= 4]
+    if not parole:
+        return norm in testo_norm
+    return any(p in testo_norm for p in parole)
 
 CLASSIFY_BATCH = 12
 CLASSIFY_SLEEP = 13
@@ -145,6 +184,8 @@ def classifica_frammenti(frammenti: list[dict]) -> None:
     titoli_episodio = [f["titolo"] for f in frammenti if f["titolo"]]
     doppioni_scartati = 0
     tipi_fuori_schema = 0
+    non_ancorati = 0
+    troppo_corti = 0
 
     for i in range(0, len(da_classificare), CLASSIFY_BATCH):
         provider = llm_multi.provider_disponibile()
@@ -198,6 +239,12 @@ def classifica_frammenti(frammenti: list[dict]) -> None:
                 print(f"      tipo fuori schema scartato: {tipo!r} (id {r.get('id')})")
                 continue
             titolo = r.get("titolo", "")[:120]
+            if tipo in RIF_TIPI and not _titolo_ancorato(titolo, f["testo"]):
+                non_ancorati += 1
+                continue
+            if tipo in NARR_TIPI and len(f["testo"].split()) < MIN_PAROLE_NARRATIVO:
+                troppo_corti += 1
+                continue
             if _titolo_e_doppione(titolo, titoli_episodio):
                 doppioni_scartati += 1
                 continue
@@ -211,6 +258,10 @@ def classifica_frammenti(frammenti: list[dict]) -> None:
             dettagli.append(f"{doppioni_scartati} doppioni scartati finora")
         if tipi_fuori_schema:
             dettagli.append(f"{tipi_fuori_schema} tipi fuori schema scartati finora")
+        if non_ancorati:
+            dettagli.append(f"{non_ancorati} riferimenti non ancorati scartati finora")
+        if troppo_corti:
+            dettagli.append(f"{troppo_corti} aneddoto/riflessione troppo corti scartati finora")
         print(f"      classificazione batch {i // CLASSIFY_BATCH + 1}: {taggati} frammenti taggati"
               + (f" ({', '.join(dettagli)})" if dettagli else ""))
         if i + CLASSIFY_BATCH < len(da_classificare):
