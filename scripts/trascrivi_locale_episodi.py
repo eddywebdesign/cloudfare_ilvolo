@@ -79,6 +79,11 @@ Elisabetta" NON e' un riferimento_libro solo perche' si parla di un libro/artico
 a meno che il TITOLO di quel libro/articolo sia nominato esplicitamente). Nel dubbio se sia \
 un'opera vera o solo un nome/oggetto/fatto citato di passaggio, classifica come aneddoto/riflessione \
 o escludi, MAI come riferimento_libro/film/musica "a scatola chiusa".
+- ATTENZIONE, altro errore concreto gia' visto: testo con rima, ritmo o struttura da ritornello/strofa \
+(versi brevi che rimano tra loro, frasi ripetute piu' volte come un refrain, es. "e' il tuo controllo \
+e' il tuo controllo") e' quasi sempre una CANZONE recitata/cantata, MAI classificarlo come \
+riferimento_libro anche se il tema sembra "letterario" — usa riferimento_musica, o se non riesci a \
+identificare un titolo/artista reale, escludilo.
 - Nel dubbio, ESCLUDI. Meglio pochi frammenti buoni che tanti irrilevanti.
 
 FRAMMENTI:
