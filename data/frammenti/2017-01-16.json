@@ -16,10 +16,13 @@
     "end": 208.66,
     "speaker_raw": "SPEAKER_03",
     "testo": "Grazie. ... ... ... ... ... ... ... ... Oh, tell me that you need me Come take me home And lay me down in your coffin So I can rest my soul See, I know you just need a little space and time I know you're not even really the one for trying Grazie a tutti Grazie a tutti. Don't you know that I'm just restless baby Without you Don't you know that I'm just restless baby Don't you know that I'm just restless baby Without you",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Restless",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Unknown"
   },
   {
     "id": "2017-01-16-002",
@@ -137,10 +140,13 @@
     "end": 764.33,
     "speaker_raw": "SPEAKER_09",
     "testo": "I have cried Silent tears Full of pride In a world Made of steel Made of stone Where I Hear the music Close my eyes Feel the rhythm Wrap around Grazie.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Silent Tears",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Unknown"
   },
   {
     "id": "2017-01-16-013",
@@ -273,9 +279,7 @@
     "speaker_raw": "SPEAKER_04",
     "testo": "La Steffi l'ha chiamato, non ha ancora risposto. Avrei un paio di domande. Noi siamo Warren Buffett, noi ascoltatori di Valle del Mattino abbiamo 300-400 euro, facceli diventare qualcosa di più importante. Maurizio diceva durante il disco Flashdance, mentre stavamo ballando, che come esistono i libri per smettere di fumare, esistono anche dei libri per come fare i soldi. Ah certo. E secondo me uno dei modi è scrivere un libro su come fare i soldi. Esatto.",
     "titolo": "Citazione del brano Flashdance",
-    "tema": [
-      "musica"
-    ],
+    "tema": [],
     "tipo": "riferimento_musica",
     "video_url": ""
   },
@@ -286,10 +290,7 @@
     "speaker_raw": "SPEAKER_01",
     "testo": "dicevi hai qualche titolo beh pensa e arricchisci te stesso di Napoleon Hill bellissimo ma è una cosa interiore arricchisci interiore questo sì no interiore e anche materiale automaticamente arriva anche la parte materiale questo sì invece uno che proprio va giù tecnico è Kiyosaki Kiyosaki Kiyosaki chiamarmi a quest'ora?",
     "titolo": "Libri sulla ricchezza di Hill e Kiyosaki",
-    "tema": [
-      "finanza",
-      "crescita personale"
-    ],
+    "tema": [],
     "tipo": "riferimento_libro",
     "video_url": ""
   },
@@ -311,9 +312,7 @@
     "speaker_raw": "SPEAKER_01",
     "testo": "non lo so adesso guardo che è padre ricco padre povero è un libro?",
     "titolo": "Padre ricco padre povero",
-    "tema": [
-      "finanza"
-    ],
+    "tema": [],
     "tipo": "riferimento_libro",
     "video_url": ""
   },
@@ -335,10 +334,7 @@
     "speaker_raw": "SPEAKER_05",
     "testo": "Padre ricco, padre povero di Kiyosaki. Ok, l'ho già trovato.",
     "titolo": "Padre ricco, padre povero di Kiyosaki",
-    "tema": [
-      "finanza",
-      "educazione"
-    ],
+    "tema": [],
     "tipo": "riferimento_libro",
     "video_url": ""
   },
