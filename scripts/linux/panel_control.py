@@ -434,6 +434,13 @@ class Panel:
             self.lbl_temp.config(text=f"Temperatura CPU: {temp:.0f}°C", foreground=color)
 
     def _actualizar_clasificacion(self):
+        # Misma formulacion EXACTA de panel_estado_hp14.py -- los dos pannelli
+        # deben mostrar lo mismo para el mismo evento (mismo estado_clasificacion.json
+        # en el share). Antes esta version anadia "de {total_frammenti}" (contando
+        # EPISODIOS locales de K16, no fragmentos) junto al numero de FRAGMENTOS
+        # clasificados -- mismo tipo de confusion de unidades ya detectada en la
+        # card de arriba ("5276 de 5887"), y ademas HP14 no lo mostraba: dos
+        # pannelli con texto distinto para el mismo dato. Quitado.
         estado = leer_estado_clasificacion()
         if not estado:
             self.lbl_clasificacion.config(
@@ -441,17 +448,12 @@ class Panel:
             )
             return
         color = COLOR_VERDE if estado.get("resultado") == "ok" else COLOR_ROJO
-        try:
-            total_frammenti = sum(1 for _ in FRAMMENTI_DIR.glob("*.json"))
-        except OSError:
-            total_frammenti = None
-        clasificados = estado.get("archivos_clasificados", "?")
-        total_txt = f" de {total_frammenti}" if total_frammenti else ""
         self.lbl_clasificacion.config(
             text=(
                 f"Última ejecución: {formatear_fecha(estado.get('ultima_ejecucion'))}\n"
                 f"Resultado: {estado.get('resultado', '?')}\n"
-                f"Archivos clasificados: {clasificados}{total_txt}"
+                f"Archivos clasificados: {estado.get('archivos_clasificados', '?')}\n"
+                f"{estado.get('mensaje', '')}"
             ),
             foreground=color,
         )
