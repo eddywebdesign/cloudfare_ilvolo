@@ -41,7 +41,8 @@ from dati_root import dati_root, logs_root  # noqa: E402
 from panel_comun import (  # noqa: E402
     COLOR_AZUL, COLOR_FONDO, COLOR_NARANJA, COLOR_ROJO, COLOR_TARJETA,
     COLOR_TEXTO, COLOR_TEXTO_SUAVE, COLOR_VERDE, contar_estado_classificazione,
-    contar_progreso_total, formatear_fecha, leer_json_estado,
+    contar_estado_classificazione_episodio, contar_progreso_total, formatear_fecha,
+    leer_json_estado,
 )
 sys.path.insert(0, str(REPO / "scripts" / "linux"))
 from kill_coordinado import matar_trascrizione  # noqa: E402
@@ -263,6 +264,12 @@ class Panel:
         self.lbl_progreso_total = ttk.Label(tarjeta, text="", style="Info.TLabel")
         self.lbl_progreso_total.pack(anchor="w", pady=(4, 0))
 
+        # Frammenti DE ESTA puntata en concreto -- separado del total
+        # acumulado (linea siguiente), que antes se mostraban mezclados en
+        # una sola linea sin distinguir "de este episodio" vs "de siempre".
+        self.lbl_frammenti_episodio = ttk.Label(tarjeta, text="", style="Info.TLabel")
+        self.lbl_frammenti_episodio.pack(anchor="w", pady=(4, 0))
+
         self.lbl_classificazione_stats = ttk.Label(tarjeta, text="", style="Info.TLabel")
         self.lbl_classificazione_stats.pack(anchor="w", pady=(4, 0))
 
@@ -478,12 +485,25 @@ class Panel:
                 text=f"Progreso total: {transcritos} episodios transcritos (NAS no montado, sin total)"
             )
 
+        stats_ep = contar_estado_classificazione_episodio(FRAMMENTI_DIR, self.episodio_actual or "")
+        if stats_ep:
+            self.lbl_frammenti_episodio.config(
+                text=(f"Puntata attuale ({stats_ep['data']}): {stats_ep['tot']} frammenti, "
+                      f"{stats_ep['classificati']} classificati, {stats_ep['brevi']} scartati")
+            )
+        elif self.episodio_actual:
+            self.lbl_frammenti_episodio.config(
+                text="Puntata attuale: ancora senza frammenti generati"
+            )
+        else:
+            self.lbl_frammenti_episodio.config(text="")
+
         stats = contar_estado_classificazione(FRAMMENTI_DIR)
         if stats:
             classificabili = stats["tot"] - stats["brevi"]
             pct = round(stats["classificati"] / classificabili * 100) if classificabili else 0
             self.lbl_classificazione_stats.config(
-                text=(f"Frammenti: {stats['classificati']} classificati ({pct}%), "
+                text=(f"Totale accumulato (tutte le puntate): {stats['classificati']} classificati ({pct}%), "
                       f"{stats['da_fare']} in coda, {stats['brevi']} scartati (troppo corti)")
             )
         else:

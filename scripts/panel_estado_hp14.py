@@ -29,7 +29,8 @@ sys.path.insert(0, str(REPO / "scripts"))
 from dati_root import logs_root  # noqa: E402
 from panel_comun import (  # noqa: E402
     COLOR_AZUL, COLOR_FONDO, COLOR_NARANJA, COLOR_ROJO, COLOR_TARJETA, COLOR_TEXTO,
-    COLOR_TEXTO_SUAVE, COLOR_VERDE, contar_estado_classificazione, contar_progreso_total,
+    COLOR_TEXTO_SUAVE, COLOR_VERDE, contar_estado_classificazione,
+    contar_estado_classificazione_episodio, contar_progreso_total,
     formatear_fecha, leer_json_estado,
 )
 
@@ -230,6 +231,7 @@ class PanelEstado:
         self.root.configure(bg=COLOR_FONDO)
 
         self.pid_k16_visto = None
+        self.episodio_actual = None  # actualizado por _aplicar_estado_k16, leido por _aplicar_progreso
         self.detener_al_finalizar = FLAG_STOP_PENDIENTE.exists()
         self._consultando_k16 = False
         self._consultando_progreso = False
@@ -332,6 +334,10 @@ class PanelEstado:
         # proceso K16), misma formulacion exacta que panel_control.py.
         self.lbl_progreso_total = ttk.Label(t1, text="", style="Info.TLabel")
         self.lbl_progreso_total.pack(anchor="w", pady=(4, 0))
+        # Frammenti DE ESTA puntata en concreto -- separado del total
+        # acumulado, mismo criterio que panel_control.py (K16).
+        self.lbl_frammenti_episodio = ttk.Label(t1, text="", style="Info.TLabel")
+        self.lbl_frammenti_episodio.pack(anchor="w", pady=(4, 0))
         self.lbl_classificazione_stats = ttk.Label(t1, text="", style="Info.TLabel")
         self.lbl_classificazione_stats.pack(anchor="w", pady=(4, 0))
         # Reloj en vivo, independiente del ciclo de refresco de 15s: prueba
@@ -476,9 +482,13 @@ class PanelEstado:
             stats = contar_estado_classificazione(FRAMMENTI_DIR_UNC)
         except Exception:
             stats = None
-        self.root.after(0, lambda: self._aplicar_progreso(transcritos, total_audio, stats))
+        try:
+            stats_ep = contar_estado_classificazione_episodio(FRAMMENTI_DIR_UNC, self.episodio_actual or "")
+        except Exception:
+            stats_ep = None
+        self.root.after(0, lambda: self._aplicar_progreso(transcritos, total_audio, stats, stats_ep))
 
-    def _aplicar_progreso(self, transcritos, total_audio, stats):
+    def _aplicar_progreso(self, transcritos, total_audio, stats, stats_ep):
         self._consultando_progreso = False
         if transcritos is None:
             self.lbl_progreso_total.config(text="")
@@ -493,11 +503,25 @@ class PanelEstado:
                 foreground=COLOR_TEXTO_SUAVE,
             )
 
+        if stats_ep:
+            self.lbl_frammenti_episodio.config(
+                text=(f"Puntata attuale ({stats_ep['data']}): {stats_ep['tot']} frammenti, "
+                      f"{stats_ep['classificati']} classificati, {stats_ep['brevi']} scartati"),
+                foreground=COLOR_TEXTO_SUAVE,
+            )
+        elif self.episodio_actual:
+            self.lbl_frammenti_episodio.config(
+                text="Puntata attuale: ancora senza frammenti generati",
+                foreground=COLOR_TEXTO_SUAVE,
+            )
+        else:
+            self.lbl_frammenti_episodio.config(text="")
+
         if stats:
             classificabili = stats["tot"] - stats["brevi"]
             pct = round(stats["classificati"] / classificabili * 100) if classificabili else 0
             self.lbl_classificazione_stats.config(
-                text=(f"Frammenti: {stats['classificati']} classificati ({pct}%), "
+                text=(f"Totale accumulato (tutte le puntate): {stats['classificati']} classificati ({pct}%), "
                       f"{stats['da_fare']} in coda, {stats['brevi']} scartati (troppo corti)"),
                 foreground=COLOR_TEXTO_SUAVE,
             )
@@ -539,6 +563,7 @@ class PanelEstado:
             return
 
         pid_actual = estado["pid"]
+        self.episodio_actual = estado["episodio"]  # leido en _aplicar_progreso (hilo separado)
 
         partes = []
         if pid_actual:

@@ -69,6 +69,39 @@ def contar_estado_classificazione(frammenti_dir: Path):
     return {"tot": tot, "classificati": classificati, "brevi": brevi, "da_fare": tot - classificati - brevi}
 
 
+def contar_estado_classificazione_episodio(frammenti_dir: Path, episodio_id: str):
+    """Come contar_estado_classificazione(), ma limitata a UN solo episodio
+    (frammenti_dir/<data>.json), non al totale accumulato. episodio_id puo'
+    contenere suffissi extra dopo la data (es. '2017-02-01_20170201.mp3' o
+    '2017-02-01_20170201') -- i primi 10 caratteri sono sempre 'AAAA-MM-DD',
+    che e' il nome file reale scritto da genera_frammenti.py.
+
+    Ritorna None se episodio_id e' vuoto o se il file non esiste ancora
+    (trascrizione in corso, genera_frammenti.py non e' ancora girato per
+    questo episodio) -- il chiamante mostra un messaggio "ancora senza
+    frammenti" invece di un errore o uno 0/0 confuso."""
+    if not episodio_id or len(episodio_id) < 10:
+        return None
+    data_str = episodio_id[:10]
+    f_path = frammenti_dir / f"{data_str}.json"
+    if not f_path.exists():
+        return None
+    tot = classificati = brevi = 0
+    try:
+        for x in json.loads(f_path.read_text(encoding="utf-8")):
+            tot += 1
+            if x.get("tipo"):
+                classificati += 1
+            elif len((x.get("testo") or "").split()) < 6:
+                brevi += 1
+    except (OSError, json.JSONDecodeError):
+        return None
+    return {
+        "data": data_str, "tot": tot, "classificati": classificati,
+        "brevi": brevi, "da_fare": tot - classificati - brevi,
+    }
+
+
 def leer_json_estado(path: Path, path_fallback: Path | None = None):
     """Legge un JSON di estado (estado_clasificacion.json, estado_push.json)
     scritto da un altro processo/macchina su uno share condiviso. Ritorna
