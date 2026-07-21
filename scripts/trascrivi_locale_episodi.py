@@ -79,6 +79,10 @@ Elisabetta" NON e' un riferimento_libro solo perche' si parla di un libro/artico
 a meno che il TITOLO di quel libro/articolo sia nominato esplicitamente). Nel dubbio se sia \
 un'opera vera o solo un nome/oggetto/fatto citato di passaggio, classifica come aneddoto/riflessione \
 o escludi, MAI come riferimento_libro/film/musica "a scatola chiusa".
+- Per riferimento_libro/film/musica il campo "autore" e' OBBLIGATORIO e DEVE essere una persona/gruppo \
+DIVERSO dal "titolo" (chi ha scritto/diretto/cantato l'opera, non l'opera stessa). Se riesci a nominare \
+SOLO una persona ma NON un titolo di opera distinto, quello NON e' un riferimento_libro/film/musica: \
+e' solo una persona citata, classifica come aneddoto/riflessione o escludi.
 - ATTENZIONE, altro errore concreto gia' visto: testo con rima, ritmo o struttura da ritornello/strofa \
 (versi brevi che rimano tra loro, frasi ripetute piu' volte come un refrain, es. "e' il tuo controllo \
 e' il tuo controllo") e' quasi sempre una CANZONE recitata/cantata, MAI classificarlo come \
@@ -95,6 +99,11 @@ e' qui con noi, buongiorno Igor" -> nessun libro nominato, e' solo la presentazi
 riferimento_libro, ESCLUDI del tutto (non ha nemmeno un insegnamento autonomo per riflessione).
 - CATTIVO (NON classificare cosi'): "abbiamo gia' perso quei pochi ascoltatori" -> una battuta isolata, \
 nessuna svolta narrativa: NON e' un aneddoto, ESCLUDI.
+- CATTIVO (NON classificare cosi', trovato 2026-07-21): "era quello di Bill Gates tutta gente ricca \
+tutta gente ricca tecnica e ricchezza" -> Bill Gates e' una persona citata di sfuggita, nessuna opera \
+sua nominata (nessun libro/film specifico): NON e' riferimento_libro, ESCLUDI.
+- CATTIVO (NON classificare cosi', trovato 2026-07-21): "le mandorle per non avere il raffreddore?" \
+-> domanda di chiacchiera generica, nessun libro/opera: NON e' riferimento_libro, ESCLUDI.
 
 FRAMMENTI:
 {lista}
@@ -102,7 +111,9 @@ FRAMMENTI:
 Restituisci un array JSON (vuoto [] se nessuno e' rilevante):
 [
   {{"id": "...", "tipo": "citazione|lettura_volo|aneddoto|riflessione|riferimento_libro|riferimento_film|riferimento_musica", \
-"titolo": "breve titolo del frammento (max 8 parole)", "tema": ["..."]}},
+"titolo": "breve titolo del frammento (max 8 parole)", \
+"autore": "OBBLIGATORIO solo per riferimento_libro/film/musica: chi ha scritto/diretto/cantato l'opera, \
+vuoto '' per gli altri tipi", "tema": ["..."]}},
   ...
 ]
 Regole:
@@ -145,6 +156,52 @@ def _titolo_ancorato(titolo: str, testo: str) -> bool:
     if not parole:
         return norm in testo_norm
     return any(p in testo_norm for p in parole)
+
+
+# Guardarraili aggiunti il 2026-07-21: campionando 40 riferimento_* REALI a caso (non scelti
+# a mano), il 55% erano falsi positivi in cui il "titolo" e' preso quasi letteralmente da
+# chiacchiera normale (una persona citata di sfuggita, un argomento generico) - l'ancoraggio
+# da solo non li blocca perche' le parole del "titolo" fanno parte dello stesso testo di
+# chiacchiera. Riusa lo schema titolo+autore gia' presente in trascrivi_e_estrai_clip.py
+# invece di inventarne uno nuovo.
+VERBI_CONVERSAZIONE = {
+    "e", "sono", "ha", "hanno", "fa", "fanno", "dice", "dicono",
+    "vuole", "vogliono", "andiamo", "partite",
+}
+
+
+def _titolo_e_frase_di_conversazione(titolo: str) -> bool:
+    """Un titolo vero e' un nome/frase breve, non una domanda o una frase con verbi
+    coniugati: se lo sembra, e' quasi certamente chiacchiera trascritta, non un'opera."""
+    if "?" in titolo:
+        return True
+    parole = _normalizza_per_ancoraggio(titolo).split()
+    if len(parole) > 10:
+        return True
+    return sum(1 for p in parole if p in VERBI_CONVERSAZIONE) >= 2
+
+
+def _riferimento_valido(titolo: str, autore: str, testo: str) -> bool:
+    """Guardrail completo per riferimento_libro/film/musica: titolo e autore devono
+    essere entrambi presenti, distinti l'uno dall'altro (altrimenti e' solo una persona
+    citata, non un'opera+creatore), ancorati al testo, e il titolo non deve avere la
+    forma di una frase di conversazione."""
+    if not autore or not titolo:
+        return False
+    t_norm = _normalizza_per_ancoraggio(titolo)
+    a_norm = _normalizza_per_ancoraggio(autore)
+    if not t_norm or not a_norm:
+        return False
+    if t_norm == a_norm:
+        return False
+    if _titolo_e_frase_di_conversazione(titolo):
+        return False
+    # Basta che UNO dei due sia ancorato: l'autore/artista spesso non e' nominato
+    # nel frammento cantato/letto stesso (es. testo di canzone senza dire chi la canta) -
+    # richiederlo su entrambi scarterebbe classificazioni corrette (verificato con test reali).
+    if not (_titolo_ancorato(titolo, testo) or _titolo_ancorato(autore, testo)):
+        return False
+    return True
 
 CLASSIFY_BATCH = 12
 CLASSIFY_SLEEP = 13
@@ -239,7 +296,8 @@ def classifica_frammenti(frammenti: list[dict]) -> None:
                 print(f"      tipo fuori schema scartato: {tipo!r} (id {r.get('id')})")
                 continue
             titolo = r.get("titolo", "")[:120]
-            if tipo in RIF_TIPI and not _titolo_ancorato(titolo, f["testo"]):
+            autore = r.get("autore", "")[:120]
+            if tipo in RIF_TIPI and not _riferimento_valido(titolo, autore, f["testo"]):
                 non_ancorati += 1
                 continue
             if tipo in NARR_TIPI and len(f["testo"].split()) < MIN_PAROLE_NARRATIVO:
@@ -250,6 +308,8 @@ def classifica_frammenti(frammenti: list[dict]) -> None:
                 continue
             f["titolo"] = titolo
             f["tipo"] = tipo
+            if tipo in RIF_TIPI:
+                f["autore"] = autore
             f["tema"] = r.get("tema", []) if isinstance(r.get("tema"), list) else []
             titoli_episodio.append(titolo)
             taggati += 1

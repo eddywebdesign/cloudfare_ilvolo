@@ -250,7 +250,19 @@ def _titolo_e_ancorato_al_testo(titolo: str, autore: str, testo: str) -> bool:
 
     Il modello a volte 'trova' un riferimento che non e' nel testo (allucinazione).
     Se ne' il titolo ne' l'autore compaiono (anche parzialmente) nel chunk da cui
-    e' stato estratto, scartiamo la voce invece di fidarci ciecamente."""
+    e' stato estratto, scartiamo la voce invece di fidarci ciecamente.
+
+    Aggiunto 2026-07-21: se titolo e autore normalizzati sono UGUALI (uguaglianza
+    esatta, non solo "contenuto in" - un titolo reale puo' legittimamente includere
+    il nome dell'autore, es. "La Dieta del Dottor Mozzi"/"Dottor Mozzi", verificato
+    con test reale che quel caso NON va scartato), il modello ha nominato SOLO una
+    persona, non un'opera+creatore distinti (es. "Bill Gates"/"Bill Gates") -
+    scartiamo anche se entrambi sono tecnicamente ancorati al testo, stesso bug
+    trovato in trascrivi_locale_episodi.py::_riferimento_valido lo stesso giorno."""
+    t_norm = _normalizza_titolo(titolo)
+    a_norm = _normalizza_titolo(autore)
+    if t_norm and a_norm and t_norm == a_norm:
+        return False
     testo_norm = _normalizza_titolo(testo)
     for candidato in (titolo, autore):
         norm = _normalizza_titolo(candidato)
