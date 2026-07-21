@@ -169,6 +169,15 @@ VERBI_CONVERSAZIONE = {
     "vuole", "vogliono", "andiamo", "partite",
 }
 
+# Trovato 2026-07-21 in un test reale: reso "autore" obbligatorio, il modello ha scritto
+# "Unknown" per rispettare lo schema quando non sapeva davvero chi fosse l'artista (es.
+# testo di canzone reale ma non identificabile) - un placeholder che aggira il controllo,
+# non un vero autore. Va trattato come autore assente.
+AUTORE_PLACEHOLDER = {
+    "unknown", "sconosciuto", "sconosciuta", "ignoto", "ignota", "non specificato",
+    "non specificata", "na", "nd", "n a", "artista sconosciuto", "autore sconosciuto",
+}
+
 
 def _titolo_e_frase_di_conversazione(titolo: str) -> bool:
     """Un titolo vero e' un nome/frase breve, non una domanda o una frase con verbi
@@ -190,6 +199,8 @@ def _riferimento_valido(titolo: str, autore: str, testo: str) -> bool:
         return False
     t_norm = _normalizza_per_ancoraggio(titolo)
     a_norm = _normalizza_per_ancoraggio(autore)
+    if a_norm in AUTORE_PLACEHOLDER:
+        return False
     if not t_norm or not a_norm:
         return False
     if t_norm == a_norm:
