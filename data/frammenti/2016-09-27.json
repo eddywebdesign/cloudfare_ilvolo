@@ -319,9 +319,12 @@
     "end": 920.08,
     "speaker_raw": "SPEAKER_07",
     "testo": "no, non c'è oggi scusami, posso farti una domanda visto che sei vicino al microfono cosa diresti al tuo ventenne cioè al te stesso quando avevi vent'anni come ti sei ridotto no, no come ti ridurrai come ti ridurrai quanto eri meglio prima credi di più in te stesso quando è che hai iniziato a credere un po' più in te stesso?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Consiglio al proprio io ventenne",
+    "tema": [
+      "crescita",
+      "autostima"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -402,9 +405,11 @@
     "end": 1178.17,
     "speaker_raw": "SPEAKER_17",
     "testo": "Stand by me Stand by me Stand by me Whenever you're in trouble Stand by me",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Stand by me",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -524,9 +529,12 @@
     "end": 1629.24,
     "speaker_raw": "SPEAKER_07",
     "testo": "con molta tristezza mi direi di lasciar perdere dice il nome, lo dico? Tiziana dice, o l'ha scritto ormai la mia ex moglie è ascoltare il consiglio di Giretto, il mio ex titolare si vede come le diceva, lasciala stare quella lì si vede che sapeva qualcosa devo dire che per esempio Maurizio alla macchina del suono che è il poeta tra di noi, quello più artista ha detto una cosa però sensata durante questa canzone di Zucchero che non me la sarei aspettata ma io invece te la dico da tanti anni penserei più ai soldi ci è diventato venale in un'estate no è perché tu hai la fase diciamo dai 15 17 ai 30 dove la passione le cose i diritti umani diciamo tendenzialmente come diceva Cerci se da giovane non sei di sinistra sei un idiota se lo sei da grande sei un idiota nel senso che teoricamente umanamente uno dovrebbe portare diciamo partire da sinistra e spostarsi verso destra si dice e quindi lui che è sempre le cose ma no ma lo faccio per quello adesso lui ovviamente messo su famiglia e roba del genere dice però forse quel rubinetto lo dovevo aprire non è essere venale è trovare una via di mezzo trovare una via di mezzo anche perché bisogna sempre dirlo quando uno ha una diciamo un'indipendenza economica si può permettere i no che è una grandissima libertà",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il consiglio di Giretto",
+    "tema": [
+      "amici",
+      "consigli"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -571,9 +579,12 @@
     "end": 1774.19,
     "speaker_raw": "SPEAKER_07",
     "testo": "abbastanza ci sono delle zone di taglio dove diciamo c'è solo i due baffetti qui sull'angolo un po' alla messicana ma sono anche carini secondo me Il famoso Dirty Sanchez. Allora, Samuela, 33 anni, gli anni di Cristo, gli anni bellissimi dove una donna sboccia. Cosa diresti alla tua ventenne? Tra l'altro 13 anni fa neanche così lontano.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il Dirty Sanchez",
+    "tema": [
+      "barba",
+      "umorismo"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -593,9 +604,12 @@
     "end": 1789.01,
     "speaker_raw": "SPEAKER_11",
     "testo": "Tra l'altro ieri mattina sono andata a fare colazione, ero vestita molto da 15 anni, quindi con il pantalone un po' largo, la converse. Quando ti chiamano signora, buongiorno signora, al bar vuol dire che è proprio...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La signora al bar",
+    "tema": [
+      "età",
+      "identità"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -965,9 +979,12 @@
     "end": 3022.95,
     "speaker_raw": "SPEAKER_12",
     "testo": "everyone I do right does me wrong so every lonely night I sing this song I hate you I love you I hate that I love you don't want to but I can't put nobody else above you I hate you I love you I hate that I want you you want her you need her and I'll never be her",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Testo del brano I Hate U, I Love U",
+    "tema": [
+      "amore",
+      "sofferenza"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {

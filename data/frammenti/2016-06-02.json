@@ -628,9 +628,12 @@
     "end": 2172.13,
     "speaker_raw": "SPEAKER_00",
     "testo": "chissà se anche Lizzo come Rizzo ha la pagnotta nel forno questa l'ho capita solo io no l'abbiamo capita tutti l'hai capita anche te Rizzo ha la pagnotta nel forno ma è incredibile allora ciao Fabio tu mi hai aiutato da bambino a trovare una colonna sonora di un film pazzesco ancora oggi parte fondamentale della mia vita meravigliosa Matteo Davigevano allora io posso passare adesso tutte le estate con questa cosa che mi attanaglia che cosa gli avrò consigliato che disco gli avrò consigliato colonne sonore belle diciamo dei cd, dei dischi, degli album colonne sonore belle quali sono?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Colonna sonora del grande freddo",
+    "tema": [
+      "musica",
+      "colonna sonora"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -667,9 +670,12 @@
     "end": 2229.82,
     "speaker_raw": "SPEAKER_06",
     "testo": "Ne faccio 36 ed è successo almeno 24 anni fa. Ma sono così vecchio io! Ammazza! Vedi tu, vedi tu, no, sul serio. Sai dove?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ammazza, sono vecchio!",
+    "tema": [
+      "età",
+      "vecchiaia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -711,9 +717,12 @@
     "end": 2244.09,
     "speaker_raw": "SPEAKER_06",
     "testo": "Allora, io ero con mio padre e siamo entrati dentro. Non so se ti ricordi, tu al secondo piano vendevano i cd e i dischi usati.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Entrati in un negozio di dischi",
+    "tema": [
+      "negozio",
+      "dischi"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

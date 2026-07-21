@@ -329,9 +329,12 @@
     "end": 1409.66,
     "speaker_raw": "SPEAKER_07",
     "testo": "Ragazzi, cominciamo con alcuni... È forse una delle battute più belle di South Park. Ma tu sai imitare la viola? No.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Citazione da South Park",
+    "tema": [
+      "satira",
+      "televisione"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {

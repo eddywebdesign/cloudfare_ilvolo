@@ -195,9 +195,12 @@
     "end": 762.55,
     "speaker_raw": "SPEAKER_01",
     "testo": "colloquio conoscitivo come giustamente hai detto tu fanno domande sulla tua situazione di salute e la situazione di salute della tua famiglia e nonni anche quindi si va indietro anche nei nonni per capire se ci sono delle malattie importanti come le malattie del sangue oppure Alzheimer o altre ok senti visto che adesso non voglio fare battute troppo diciamo semplici però visto diciamo te lo guardano il pisello",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Colloquio conoscitivo",
+    "tema": [
+      "salute",
+      "famiglia"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -228,9 +231,12 @@
     "end": 829.08,
     "speaker_raw": "SPEAKER_00",
     "testo": "Cazzo, ma quello lì è la prova. Cioè, se tu riesci a portare a casa il vasetto di seme con un uomo davanti, con la viadella, beh, hai vinto, capito? Quindi no, po-po-po-po-po, mentre parlavate. No, ieri no. Allora, attenzione, attenzione, perché adesso tu devi tornare in maglia. Hai passato l'esame? stanno facendo le analisi su quello che hanno fatto ieri le domande e poi faranno analisi più specifiche sullo sperma quindi dovrà fare una donazione vera e propria che però si butta quello lì serve solo per fare le analisi pensati i poveri bambini che sarebbero potuti nascere che sono stati lì solo a farsi controllare allora senti la domanda che molti si chiedono perché alla fine è sempre lì sul soldo che cade l'italiano quanti soldi ti danno a donazione?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Vasetto di seme",
+    "tema": [
+      "test",
+      "umiliazione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -239,9 +245,12 @@
     "end": 839.83,
     "speaker_raw": "SPEAKER_01",
     "testo": "bisogna dire una cosa però se tu fai il questionario iniziale e non lo superi non ti danno assolutamente nulla ma il questionario scusami per il cui?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Questionario iniziale",
+    "tema": [
+      "salute",
+      "donazioni"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -448,9 +457,12 @@
     "end": 1470.03,
     "speaker_raw": "SPEAKER_00",
     "testo": "un ascoltatore è fantastico dice questo quando i miei figli fanno qualcosa di bello io dico a mia moglie si vede che hanno preso dal padre e lei mi risponde hai ragione peccato che non l'hai conosciuto è una bella risposta da dare ok la distribuiamo fra gli ascoltatori",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La risposta della moglie sui figli",
+    "tema": [
+      "genitori",
+      "ironia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -715,9 +727,12 @@
     "end": 1970.69,
     "speaker_raw": "SPEAKER_00",
     "testo": "Giustamente non si può ammorbar la gente, a me piace solo musica che è un disastro. Fai conto che Nick Drake è il mio cantautore preferito, non so se lo conosci, ti darà soddisfazione. comunque ha una soglia della depressione per apprezzare la musica che mi piace quindi vado in contrasto con un programma del mattino però adesso ne facciamo sentire un pezzetto di questa canzone che ci hai consigliato che è molto bella e poi gli ascoltatori se la ascolteranno stasera intanto grazie posso nominare anche il mio gruppo musicale? certo ma non ti stiamo salutando stiamo solo ascoltando un pezzo del disco rimani lì, non ci lasciare sì sì",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'apprezzamento per Nick Drake",
+    "tema": [
+      "musica",
+      "depressione"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {

@@ -192,9 +192,12 @@
     "end": 954.41,
     "speaker_raw": "SPEAKER_04",
     "testo": "io incontro molte persone sai sei molto bravo non ho complimenti sei molto bravo e io dico ma scusami ci siamo appena incontrati ma perché mi devi dare un giudizio subito ma che cazzo sei tu ma sai che mi hai pure detto che sono bravo però il meccanismo è così malato che no ma sei bravo ho visto una volta mi hai fatto ridere oppure fai una battuta fai ridere ma ridi no ma sei scemo ma scusami ma tradire fai ridere e ridi ma perché scegli di definire una cosa invece che goderti è per neutralizzarti you're funny va bene quindi donne in ascolto siate sincere avete delle amiche del cuore che se potessero quella borsetta ve la porterebbero via diretti la frase posso farti una domanda",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Giudizio immediato",
+    "tema": [
+      "giudizio",
+      "complimento"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -231,9 +234,11 @@
     "end": 1191.81,
     "speaker_raw": "SPEAKER_08",
     "testo": "Vabbè, la quota di pressa con i Smashing Pumpkins, se l'abbiamo coperta. Ci sta, ci sta. Bello comunque.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Smashing Pumpkins",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -242,9 +247,11 @@
     "end": 1246.91,
     "speaker_raw": "SPEAKER_04",
     "testo": "La parte un po' novembre, diciamo, il novembre sta arrivando. Allora stiamo parlando ovviamente, ironicamente, senza così in generale, stiamo cazzeggiando, è venerdì, è come se fosse l'ora di Pongo, come se fosse l'ora di Pongo. Però vi siete scatenati, donne e uomini mi fa molto ridere, mi fa molto ridere. Allora, abbiamo anche il messaggio... Aspetta, vediamo, non credo che risponda perché... Non credo che... no ma lo sapevo ho detto a Stevi guarda prova a chiamarlo ma non risponde di solito quelli che insultano poi quando li chiami non rispondono quando ero ragazzino in provincia ogni tanto succedeva magari che andavi al bar e ci succedevano dei piccoli tafferugli alla provincia un po' così ti devi fare un po' le ossa così c'erano sempre quelli che stavano un po' in disparte poi magari quando uno cadeva per terra andavano lì davano un cazzo e scappavano questi qua sono quelli che mandano i messaggi che poi li richiami e non ti rispondono i famosi codardi allora",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Pongo",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -253,9 +260,12 @@
     "end": 1286.07,
     "speaker_raw": "SPEAKER_08",
     "testo": "parliamo di una cosa, leggi quel messaggio di quella donna che si è scatenata ci avete fatto diventare voi così la competizione è così alta che bisogna uscire con il coltello tra i denti tutti i nemici e siccome i posti per noi sono pochissimi meglio eliminare subito le concorrenti, triste ma vero io non so sinceramente però a livello conscio io non esco col coltello tra i denti poi però divento una iena e ciò che accetto da un uomo lo stesso atteggiamento da una donna fai più fatica mi vergogno a dirlo forse a scuola",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Competizione alta",
+    "tema": [
+      "competizione",
+      "società"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -339,9 +349,11 @@
     "end": 1478.5,
     "speaker_raw": "SPEAKER_04",
     "testo": "Qual è la battuta dalle medie, diciamo? Ma sì, è arrivata il tredicesimo, il tredicesimo, sai, queste robe qui. Giuda, Giuda, va bene. Giuliana, sei già al lavoro?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Giuda",
+    "tema": [
+      "bibbia"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -383,9 +395,12 @@
     "end": 1504.29,
     "speaker_raw": "SPEAKER_04",
     "testo": "Ma non è vero, guarda, la Stefania ha stampato la tua foto, sei tu, mi sembra, su un sentiero, cioè dietro si vedo dalla campagna, un sentiero, tipo in montagna alta, hai i capelli un po' spettinati, hai la bocca quella un po' broncina...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Foto in montagna",
+    "tema": [
+      "foto",
+      "montagna"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -526,9 +541,13 @@
     "end": 1751.59,
     "speaker_raw": "SPEAKER_04",
     "testo": "Una volta una mia amica mi disse questa cosa, hai notato che le donne dicono di un'altra donna, sei un pochino più grassa di lei che è una cicciona, sei più magra che è anoressica.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il giudizio femminile sul peso",
+    "tema": [
+      "giudizio",
+      "donne",
+      "corpo"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

@@ -726,9 +726,11 @@
     "end": 2379.18,
     "speaker_raw": "SPEAKER_01",
     "testo": "Mi viene da piangere. Anche a me.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Mi viene da piangere",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -792,9 +794,11 @@
     "end": 2513.5,
     "speaker_raw": "SPEAKER_01",
     "testo": "ragazzi io voglio più tirelli nella vita più tirelli più tirelli comunque sono qui da solo in questo appartamentino microscopico senza figli senza moglie senza niente con sta musichina mi hai messo tre pezzi giamaicani ti dico che me la farei una cannetta ma non lo posso dire perché è un brutto messaggio da dire da diffondere radiofonicamente e comunque non intendevo la droga intendevo proprio una cannetta da pesca per andare a godermi le mie vacanze c'è tu dall'armadio lanci la lenza e via esatto DJ Tirelli che sei anche il tassista di 8585 ti ringrazio e per farti capire quanto ti apprezzo cancello l'applicazione Uber in questo momento vai facci vedere Uber ecco che tremano tutte le app tremano tutte via ragazzi io vi saluto vi ringrazio del tempo che mi ti ho dedicato e voglio dire a tutti gli ascoltatori se vogliono venire a trovare",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La vita senza figli",
+    "tema": [
+      "solitudine"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -828,9 +832,11 @@
     "end": 2773.66,
     "speaker_raw": "SPEAKER_14",
     "testo": "Grazie a tutti. Ciao! Ciao! ... ... ... ... ... ...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Grazie a tutti",
+    "tema": [
+      "ringraziamento"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {

@@ -71,9 +71,12 @@
     "end": 234.82,
     "speaker_raw": "SPEAKER_12",
     "testo": "Mi metto sempre di buon umore questa canzone, anche se sono passati tanti anni, anche se ci capita di sentirla spesso. Buongiorno a tutti, benvenuti, questo è il volo del mattino.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Benvenuti al volo del mattino",
+    "tema": [
+      "benvenuti",
+      "buon umore"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -93,9 +96,12 @@
     "end": 264.42,
     "speaker_raw": "SPEAKER_12",
     "testo": "No, aspettate un attimo, aspettate un attimo. Mi sono accorto di avere questo raspino qua, così diciamo, no? Che devo andare a prendere un bicchiere d'acqua, ma mentre quando sono a Milano e lì fuori il boccione... Qui ho due fermate di autobus per andare a prenderlo perché è in fondo al palazzo. Allora, adesso dobbiamo mettere un disco un po' lungo e io nel frattempo corro e vado a prendermi un bicchiere d'acqua perché mi è rimasto il caffè qua. Ecco. E che disco vogliamo mettere? Ho dormito in albergo ragazzi, ok? Ma come mai?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il raspino e il bicchiere d'acqua",
+    "tema": [
+      "raspino",
+      "bicchiere d'acqua"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -104,9 +110,12 @@
     "end": 269.05,
     "speaker_raw": "SPEAKER_06",
     "testo": "Tutte le volte che vai a Roma, poi io ho la voce da sonno sempre e no.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La voce da sonno",
+    "tema": [
+      "voce da sonno",
+      "Roma"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -115,9 +124,12 @@
     "end": 339.08,
     "speaker_raw": "SPEAKER_12",
     "testo": "quando stai a Roma invece hai la voce il carboidrato il glutine free il glutine il glutine avete notato che adesso dopo che vi rompiamo l'anno scorso vi abbiamo rotonescato questa roba del glutine avete notato che su tutti i pacchetti adesso è una roba di super moda scrivere glutine free cioè senza glutine senza glutine senza glutine adesso l'altra cosa è no olio di palma no olio di palma no olio di palma è vero tranne alcune aziende che si basano praticamente sull'olio di palma alcune aziende che fanno cioccolata buongiorno a tutti buongiorno allora ragazzi ho visto la scaletta delle canzoni che mettiamo questa mattina ho visto i temi ho visto voi nella webcam che siete lì a Milano mentre io sono qui a Roma devo dire che è veramente una bella mattina ho una bella mattinata il primo messaggio è non siete il mio programma preferito ma mi siete simpatici ok va bene ok fa niente a noi non ci piace a noi essere primi a noi ci piace essere secondi perché ci piace sempre inseguire qualcosa che ci capito perché poi il primo c'ha la pancia gonfia c'ha sempre l'ansia di essere superato invece il secondo è di questo ce la farò ce la farò chi è? Chi è? Chi è che mi avete chiamato? Non lo so, scusami perché sono a Roma. Chi mi avete chiamato? Chi è?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il glutine e la moda",
+    "tema": [
+      "glutine",
+      "moda"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -137,9 +149,12 @@
     "end": 373.04,
     "speaker_raw": "SPEAKER_12",
     "testo": "Pronto, come ti chiami? Ciao, sono Gianni. Gianni, da dove chiami? Da Bologna. Da Bologna? Sì. Sei sui colli, ti sento male. No, sono in balestra. C'hai l'accento bolognese a bomba proprio. Tipico, tipico. Senti, in balestra dove sei? Ma di dove sei Gianni? Sono di Salerno. E che fai a Bologna? Faccio il tranviere. Il tranviere? La mattina a quest'ora vai in palestra?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il tranviere di Salerno",
+    "tema": [
+      "tranviere",
+      "Salerno"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -170,9 +185,12 @@
     "end": 412.2,
     "speaker_raw": "SPEAKER_10",
     "testo": "perché è in target ma perché lavori perché lavori no no no perché sono anche simpatici no lo so però dico perché quello che ascolti proprio in diretta o sei sempre sveglio anche al mattino no io io allora io ascolto solo Radio DJ ok però allora io ascolto la mattina e soprattutto la sera ok il tuo programma è di notte chi ti piace chi ti piace chi è che ti che ha negozi",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il programma di notte",
+    "tema": [
+      "programma di notte",
+      "ascoltatori"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -203,9 +221,12 @@
     "end": 442.92,
     "speaker_raw": "SPEAKER_12",
     "testo": "è un tuo amico come fai a saperlo? lo so perché ho già pubblicato qualcosa su facebook ma no no non c'è più nessuno scusami Maurizio il vero numero di Nicola Vittiello finisce con 6 8 o si è 6 8 non lo so ne ha 5 io non lo seguo più ormai senti Gianni che esercizi stai facendo in palestra?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il numero di Nicola",
+    "tema": [
+      "numero di Nicola",
+      "facebook"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1035,9 +1056,12 @@
     "end": 2813.24,
     "speaker_raw": "SPEAKER_12",
     "testo": "volevo leggere una mail l'ho persa mannaggia eccola qua aspettate un attimo finestrini abbassati 19 gradi solo in faccia gli U2 statale in mezzo ai campi di Valpellice cosa vuoi più della vita Erven Bassino dov'è la Valpellice? dov'è Erven Bassino? Valpellice no?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Mail di un ascoltatore",
+    "tema": [
+      "viaggio",
+      "musica"
+    ],
+    "tipo": "lettura_volo",
     "video_url": ""
   },
   {

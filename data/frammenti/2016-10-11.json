@@ -307,9 +307,11 @@
     "end": 504.57,
     "speaker_raw": "SPEAKER_11",
     "testo": "però dicevo adesso alla mia età invece la busta la busta a mia sorella se puoi darmi i soldi è meglio portaci via a forma di elefante 6 euro sentite come partiamo questa mattina Bruno Mars il cioccolatino play us",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Citazione di Bruno Mars",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -489,9 +491,12 @@
     "end": 906.54,
     "speaker_raw": "SPEAKER_11",
     "testo": "con questi soldi comprerete intendi anche immagino matite, quaderni i libri astucci io non ho figlie da tanto che non vado a scuola quello che serve per andare a scuola quello che ti devo dire tutti i ricordi della scuola forse uno dei più belli è quando vai a comprare tutte le cose nuove che hanno quell'odore io li ho presi nuovi l'astuccio poi già al secondo anno prendevo i libri usati della prima insomma sai",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il ricordo dell'odore del materiale scolastico nuovo",
+    "tema": [
+      "scuola",
+      "ricordi"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -544,9 +549,13 @@
     "end": 939.14,
     "speaker_raw": "SPEAKER_14",
     "testo": "C'è già un'altra edicola che ricordiamo sempre che è quella di Carla in via da Panigale. Ok, ma se in altre città? Se in altre edicole, altre città ovunque, sì.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "edicola di Carla",
+    "tema": [
+      "edicola",
+      "carla",
+      "via da Panigale"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -566,9 +575,12 @@
     "end": 947.28,
     "speaker_raw": "SPEAKER_14",
     "testo": "Possono usare anche i canali Facebook di Comunità Nuova.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "canali Facebook",
+    "tema": [
+      "facebook",
+      "comunita nuova"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -577,9 +589,12 @@
     "end": 1000.61,
     "speaker_raw": "SPEAKER_11",
     "testo": "ok comunità nuova va bene su facebook su twitter ok comunità nuova sono quei nomi che si comunità nuova sono quei nomi che se scrivete nuova su google magari viene fuori forza nuova ecco è comunità nuova no no partire da comunità va bene senti da quando è iniziata questa è iniziata da un paio di settimane manca ancora molto? eh sì l'estate ha rallentato un attimino va bene gli ascoltatori del volo del mattino vedrai che adesso verranno a prendersi tutti i giornali che servono esatto ciao Marco buona giornata ciao ciao ciao ciao E adesso sentite che canzone, questa versione di Hurt di Johnny Cash. Cioè, ho fatto male a me stesso per sentire se sentivo ancora qualcosa.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "comunita nuova",
+    "tema": [
+      "comunita nuova",
+      "google"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -689,9 +704,12 @@
     "end": 1289.29,
     "speaker_raw": "SPEAKER_09",
     "testo": "La trattazione che ha per tema le deiezioni. Forme patologiche possono portare alle... no, va bene.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "trattazione scatologia",
+    "tema": [
+      "scatologia",
+      "deiezioni"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -1134,9 +1152,12 @@
     "end": 2485.53,
     "speaker_raw": "SPEAKER_08",
     "testo": "non lo so quello che sei per me quello che mi togli quello che mi dai talmente tanto che semplicemente non lo so vedere per intero come l'universo",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La complessità dell'amore",
+    "tema": [
+      "amore",
+      "sentimenti"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -1145,9 +1166,12 @@
     "end": 2516.9,
     "speaker_raw": "SPEAKER_07",
     "testo": "Quello stato di euforia, di confusione, sì di confusione Quando trovi tutto quello che avevi perso E bruciare per te, bruciare per te, bruciare per te E bruciare per te, bruciare per te",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Bruciare per te di Elisa",
+    "tema": [
+      "musica",
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -1156,9 +1180,12 @@
     "end": 2551.88,
     "speaker_raw": "SPEAKER_05",
     "testo": "come l'aria, come nuvole mai avrei sperato mai che fosse tutto così forte e così fragile forte da resistere e io insieme a te scrivere le pagine",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Amore e fragilità",
+    "tema": [
+      "amore",
+      "fragilità"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -1167,9 +1194,12 @@
     "end": 2572.11,
     "speaker_raw": "SPEAKER_07",
     "testo": "E bruciare per te, bruciare per te, bruciare per te E bruciare per te, bruciare per te",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Bruciare per te",
+    "tema": [
+      "musica",
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -1189,9 +1219,12 @@
     "end": 2719.36,
     "speaker_raw": "SPEAKER_11",
     "testo": "Ovviamente adesso sono arrivati molti messaggi di persone, Fabio mi aiuti, Fabio mi aiuti. Eh certo. Ragazzi, noi ci troviamo in un parcheggio, ok? Dove nel parcheggio c'è parcheggiato un ciao piaggio. Poi io vado via, voi mi inseguite e io vi dico, mi avevate già convinti al ciao. No, è una bella idea questo ragazzo, no? Nel senso che anche se ha scopo di lucro, cioè che fa i soldi lui, non è che deve essere sempre una roba di beneficenza. io una mattina ragazzi ve lo dico sbrocco su due cose che non ero in onda quest'estate e ce le ho ancora qua ormai purtroppo sono passate una su come uno che ha fatto i soldi in maniera onesta li spende ok sbrocco perché questo moralismo fastidioso mi manda ho capito a cosa ti riferisci cioè hai fatto dei soldi sei un cantante hai fatto i soldi hai pagato le tasse gli hai rubato i soldi no hai fatto i soldi come li spendi sono fatti tuoi a me di andare a dire a uno non si deve prendere l'attico quell'altro non si deve prendere l'aereo privato ma ecco sbrocco l'altro i giornalisti che quest'estate hanno detto bambini salvati dalla dieta vegana stavano morendo io vado a prendere quei giornalisti e li massacro di botte perché un problema reale è l'obesità nei bambini primo secondo se un bambino vegano sta morendo la dieta non è vegana vuol dire che è sbagliata quindi l'utilizzo delle parole perché dire che adesso la Williams che è una campionessa di tennis è una che sta morendo perché è vegana c'è da andare a prendere i giornalisti e dire tu devi scavare con le mani posso dirti una cosa?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'idea del ciao piaggio",
+    "tema": [
+      "parcheggio",
+      "ciao piaggio"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

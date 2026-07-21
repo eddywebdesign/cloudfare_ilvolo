@@ -5,9 +5,12 @@
     "end": 120.45,
     "speaker_raw": "SPEAKER_16",
     "testo": "Don't stop, stop, stop, keep on driving Don't stop, stop, stop, keep on driving Don't stop, stop, I'll keep on riding with you, you, taxi driver Saw you at a light, 3am I found you Rain was coming down like cats and dogs around you Ran and slammed the door, yeah my heart was pounding Just start rolling around Ciao Ciao Ciao! Ciao! Grazie.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Taxi Driver",
+    "tema": [
+      "musica",
+      "viaggio"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -71,9 +74,12 @@
     "end": 460.23,
     "speaker_raw": "SPEAKER_10",
     "testo": "allora il solito lunedì problematico come scrive anche Stefania sul monitor ragazzi mi vergogno un po' ma vorrei chiedere scusa a mia moglie ieri sera l'ho fatta addormentare con la rabbia Marco che brutto quando sei nel letto che c'è quella tensione ma spiega anche il motivo? che c'è quella tensione dove l'uomo si addormenta comunque e lei dice abbiamo litigato tutti i giri e dormi proprio te non te ne frega niente sono stata sveglia fino alle 4 dal nervoso e tu russavi ma perché fate così? posso dire che essere maschi se ti potessi firmare per le prossime vite io starei maschio ancora un po' ma anche io ma ci sto già provando perché tu mi hai detto quella cosa ma volevi dire perché io lo so che tu hai pensato che tu dici no no no io ho detto quella cosa volevo dire quella cosa non c'è tutta la dietrologia della testa delle donne Poi, oggi mio figlio non voleva andare a scuola, dopo aver cercato di consolarlo, ho dovuto spingerlo oltre la porta della sala d'accettazione, mentre la maestra lo portava via, si è girato e piangendo, mi ha dato un'ultima occhiata, uno sguardo del tipo non abbandonarmi, non lo dimenticherò mai.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Litigio coniugale prima di dormire",
+    "tema": [
+      "coppia",
+      "conflitto"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -739,9 +745,12 @@
     "end": 2549.61,
     "speaker_raw": "SPEAKER_14",
     "testo": "Ok, bene. Quando c'è stata la visita allo zoo mi sono fatto leccare da una capretta il pisello. Ma come si fa? Tesoro, hai promesso di non arrabbiarti, ok? Ho bevuto una birra col vecchio motociclista del quartiere e mi ha fatto toccare le tette di sua moglie. Oddio! Al centro commerciale mi nascondo sotto le scale e faccio foto sotto le gonne delle donne. Una volta mi sono messo una lucciola nel sedere. Perché? Per farlo ciccare le scorreggie.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ho bevuto una birra col vecchio motociclista",
+    "tema": [
+      "relazione",
+      "famiglia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -775,9 +784,12 @@
     "end": 2636.45,
     "speaker_raw": "SPEAKER_06",
     "testo": "Don't ask my opinion Don't ask me to lie And beg for forgiveness For making you cry For making you cry",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Don't ask my opinion",
+    "tema": [
+      "amore",
+      "relazione"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -808,9 +820,12 @@
     "end": 2763.44,
     "speaker_raw": "SPEAKER_10",
     "testo": "che discorso altre domande che accompagneranno i nostri ascoltatori nel tentativo di trovare una risposta ok allora senti qua Fabio senti qua senti una ragazza io e una ragazza ci incontriamo in un supermercato senti qua ci sorridiamo punto sguardi intensi punto stop l'ha scritto un po' così a telegramma mi piace comunque una ragazza mi vede al supermercato ci sorridiamo sguardi intensi stop stamattina trovo un biglietto sulla macchina con un numero di telefono e un messaggio le scrivo su whatsapp scopro che ha 20 anni e io ne ho 38 sto richiamando all'ordine la mia etica faccio bene? ma 20 anni 20 anni e 38 quasi il doppio però è 20 anni",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "un po' così",
+    "tema": [
+      "amore",
+      "relazione"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -830,9 +845,12 @@
     "end": 2777.73,
     "speaker_raw": "SPEAKER_10",
     "testo": "Ah! Cioè, magari è più quello. Vedete, cari ascoltatori maschi, com'è l'approccio delle donne. È meraviglioso. Cioè, loro anche in questo vorrebbero parlare. Cosa vi dovete dire?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'approccio delle donne",
+    "tema": [
+      "amore",
+      "relazione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

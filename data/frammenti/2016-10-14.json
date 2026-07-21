@@ -554,9 +554,12 @@
     "end": 1764.43,
     "speaker_raw": "SPEAKER_06",
     "testo": "Lui lavora sotto casa, sostituisce i corrimani delle scale mobili in giro per l'Italia.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "corrimani delle scale mobili",
+    "tema": [
+      "lavoro",
+      "professione"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -609,9 +612,12 @@
     "end": 1791.02,
     "speaker_raw": "SPEAKER_05",
     "testo": "dopo tre volte grazie a quelli come noi trova lavoro ok ho sempre avuto quell'immagine quando ero bambino mi dicevano stai attento perché se cadi vanno dentro i capelli nella scala mobile come i pipistrelli sono quelle immagini che me le porto tutta la vita e tu ti alzi dopo e che fai?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "immagine della scala mobile",
+    "tema": [
+      "infanzia",
+      "paura"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -620,9 +626,12 @@
     "end": 1801.2,
     "speaker_raw": "SPEAKER_06",
     "testo": "io preparo la colazione per me per lui e poi io vado al lavoro e resta lì la colazione pronta perché lui poi torna indietro Sì, sì, quando lavora giù in magazzino.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "colazione pronta",
+    "tema": [
+      "famiglia",
+      "quotidianità"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -642,9 +651,12 @@
     "end": 1812.69,
     "speaker_raw": "SPEAKER_06",
     "testo": "No, ok, gli ho già fatto infonder le foglie del tè. Le foglie? Certo, noi abbiamo il tè serio.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "tè in foglie",
+    "tema": [
+      "abitudini",
+      "quotidianità"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -675,9 +687,12 @@
     "end": 1865.01,
     "speaker_raw": "SPEAKER_05",
     "testo": "E poi dicono che a Bergamo non capite niente, siete grezzi e ignoranti come le belle. Sai quello che sto scherzando? Sì, sì. poi dice che a Brescia e Bergamo la gente è ignorante guarda lì foglie io ho un mio amico di Brescia che anche lui c'ha le foglie però non fa te c'ha delle foglie con delle cime rosse senti Giada buona giornata e complimenti per il regalo sexy è un regalone ma noi abbiamo da Bergamo andiamo a passami la 7 è sulla 7 Ciampino? andiamo a Ciampino da Gioconda buongiorno Gioconda ciao meravigliose creature plurale scusami Gioconda dai dicelo subito alle medie elementari come era sto nome?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "ignoranza e pregiudizi",
+    "tema": [
+      "pregiudizi",
+      "ignoranza"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

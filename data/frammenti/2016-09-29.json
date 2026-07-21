@@ -333,9 +333,12 @@
     "end": 1358.04,
     "speaker_raw": "SPEAKER_15",
     "testo": "codesto è un pronome o aggettivo dimostrativo arcaico ho detto ok codesto vai allora oggi quindi ieri oggi tra valpellice seguito da un'amputazione la puttanata dei 21 giorni e cos'è fibonacci hai abbastanza superato te stesso",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "superare se stessi",
+    "tema": [
+      "superamento",
+      "se stesso"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -447,9 +450,12 @@
     "end": 1771.55,
     "speaker_raw": "SPEAKER_14",
     "testo": "Ok, quindi voi siete l'associazione che aiuta gli studenti del sud che vengono a Milano a studiare. Esatto. Quindi è un appartamento o un ufficio, scusami?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "associazione per studenti del sud",
+    "tema": [
+      "studenti",
+      "sud"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -458,9 +464,12 @@
     "end": 1778.08,
     "speaker_raw": "SPEAKER_12",
     "testo": "è una sede dove abbiamo diverse stanze facciamo diverse attività ma ci dormite anche?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "sede dell'associazione",
+    "tema": [
+      "associazione",
+      "sede"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -469,9 +478,12 @@
     "end": 1795.11,
     "speaker_raw": "SPEAKER_14",
     "testo": "no tu sei di? Reggio Calabria e tu sei? Reggio Calabria quindi siete del sud perché dall'accento non si sente Dalla gente come me di Brescia non si sente, l'abbiamo ripulito venendo a Milano. E che fate lì dentro tutto il giorno?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "accento calabrese",
+    "tema": [
+      "accento",
+      "calabrese"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -558,9 +570,12 @@
     "end": 2238.16,
     "speaker_raw": "SPEAKER_16",
     "testo": "Sì, ok, mi dai l'idea di far passare il nome un po' come quello del coglione di turno, però va bene così.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "nome di persona",
+    "tema": [
+      "nome",
+      "persona"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -608,9 +623,12 @@
     "end": 2416.0,
     "speaker_raw": "SPEAKER_16",
     "testo": "faccio un lavoro totalmente distaccato rispetto alle cose delle quali parliamo il macellare eh? commerciale il commerciale cioè che cosa vendi vendo vendo finestre beh che bello però si che ha un po' a che fare anche con la visione no con le immagini un conto è vendere porte un conto è vendere finestre grazie Sandro grazie mille ciao buona giornata grazie ciao di nuovo",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "vendita di finestre",
+    "tema": [
+      "vendita",
+      "finestre"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -619,9 +637,12 @@
     "end": 2602.7,
     "speaker_raw": "SPEAKER_06",
     "testo": "Grazie a tutti. Grazie a tutti. a presto c'è",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "fine della puntata",
+    "tema": [
+      "fine",
+      "puntata"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -630,9 +651,12 @@
     "end": 2691.1,
     "speaker_raw": "SPEAKER_14",
     "testo": "come ha detto la Viola durante questo disco gliela mollano ancora questi ultra quarantenni ragazzi ma 40 uno è nel pieno della forza 30, 20, 20 non lo so dipende 30, quanti anni hai Maurizio? 37 tra poco cavolo ti facevo un 31-32 eh tu sei tutti me lo dici tutte le volte che me lo dici io ti dico questa cosa e tu ci credi sempre allora allora fermi tutti perché qualche ascoltatore ci fa notare però che Maurizio ha selezionato come come papabile fidanzato per Viola il Cristian ma dove sono tutti gli altri? ce ne erano un sacco in realtà posso dire non è arrivata nessuna a me dagli ascoltatori è una cosa che vogliamo fare noi ho barato come sempre mi sono inventato questo messaggio in realtà io dico ma scusami ma c'è solo Cristian che le vuole scassate ti faccio sentire i concorrenti vai",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "canzone degli ultra quarantenni",
+    "tema": [
+      "canzone",
+      "età"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {

@@ -30,9 +30,11 @@
     "end": 203.78,
     "speaker_raw": "SPEAKER_06",
     "testo": "ho aspettato proprio fino all'ultimo ad entrare buongiorno a tutti buona giornata oggi andrà tutto bene ma fatemelo dire anche se ok qualcuno tutte le volte che lo dico in macchina fa cadere la mano delicatamente dal volante no rocks radio dj un disco del 2010 pronti a iniziare una nuova puntata siamo già avanti noi qui come redazione come gruppo perché si parla già di tante cose interessanti secondo me quando baro la gente ormai ha imparato a conoscere dovremmo fare un facebook live prima della puntata perché io devo sempre non voglio neanche stare qui a spiegare mettiamola",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "un disco del 2010",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -55,9 +57,12 @@
     "end": 285.57,
     "speaker_raw": "SPEAKER_06",
     "testo": "oh oh oh it's life it's free if someone went to me would someday be my wife good morning love allora ieri abbiamo raccontato e abbiamo detto se ci dite cosa fate in una cosa un po' particolare vi troviamo la crona sonora e da ieri che ci penso non ho ancora trovato esito a questa mail che mi sono stampato E me la son portata a casa. Una colonna sonora mi serve, molto importante. Ho appena scoperto che mia suocera si tratterrà altri tre mesi a casa nostra.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "it's life it's free",
+    "tema": [
+      "amore",
+      "libertà"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -225,9 +230,12 @@
     "end": 875.36,
     "speaker_raw": "SPEAKER_06",
     "testo": "ok della felicità il dottor della felicità qua già te le faccio allora senta senta dottore io ho provato sulla mia pelle sul mio corpo che queste cose per quanto assurde possano sembrare in realtà ritornano costantemente e quindi forse una veridicità profonda c'è per esempio Viola per tre volte a Viola ho chiesto di parlarmi di questo viaggio che deve fare per tre volte ha fatto così sotto il naso sai proprio buff buff buff no? dal basso verso l'alto un po' sai un po' esatto allora io le ho detto è evidente che tu sei la prima che non vuol fare questo viaggio e lei mi ha detto in toscano come parla lei allora tutte ste bravolate bene una domanda professore allora perché quando perché ci tocchiamo delle parti del corpo in maniera inconscia e queste parti del corpo ci stanno dicendo qualcosa esatto innanzitutto perché c'è un'intelligenza diciamo razionale logica anche in viola anche in viola c'è un'intelligenza logica ok",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "il dottor della felicità",
+    "tema": [
+      "felicità",
+      "psicologia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -251,9 +259,12 @@
     "end": 985.22,
     "speaker_raw": "SPEAKER_06",
     "testo": "e chiude baracca dirà cinque o sei cose viola senza pensarci si graffierà si toccherà insomma farà delle cose comunicherà e lei professore capisce in che direzione il suo vero io vuole andare sì però",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "viola si graffia",
+    "tema": [
+      "psicologia",
+      "comunicazione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -277,9 +288,12 @@
     "end": 1034.02,
     "speaker_raw": "SPEAKER_06",
     "testo": "Ok, per esempio, lei è venuto una volta alla presentazione di un mio libro. e ogni volta che qualcuno mi faceva delle domande ogni volta che io parlavo di mio padre lei me l'ha fatto notare io facevo così e i grattini mi si bloccava un po' la voce sono andato a rivedermi il filmato e oggettivamente tre volte l'ho fatto e tre volte la mia voce è cambiata non può essere semplicemente provocato dall'emozione certo però perché il grattino e non che mi lecco il labbro per dire perché Viola tre volte",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "il libro del conduttore",
+    "tema": [
+      "libro",
+      "genitori"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -303,9 +317,12 @@
     "end": 1100.55,
     "speaker_raw": "SPEAKER_06",
     "testo": "si sblocca qualche cosa dentro professore è un tema molto importante è un tema che sicuramente incuriosisce gli ascoltatori non lo possiamo fare al telefono lei adesso un giorno si prende una giornata di vacanza rinuncia a quei 10-20 mila euro non so quanto guadagni al giorno magari e viene qua in radio e facciamo queste cose con gli ascoltatori ovviamente non possiamo farlo perché non vedendo con la radio non si può farlo noi non parliamo di questo parliamo di tutte le altre cose però si potrebbe interagire in qualche modo perché se noi in radio adesso parliamo e diciamo",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "si sblocca qualcosa dentro",
+    "tema": [
+      "psicologia",
+      "comunicazione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
