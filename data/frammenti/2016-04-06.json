@@ -5,9 +5,11 @@
     "end": 11.22,
     "speaker_raw": "SPEAKER_06",
     "testo": "Buongiorno a tutti. Sta per cominciare il volo del mattino.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Buongiorno a tutti",
+    "tema": [
+      "benvenuto"
+    ],
+    "tipo": "lettura_volo",
     "video_url": ""
   },
   {
@@ -293,9 +295,12 @@
     "end": 989.51,
     "speaker_raw": "SPEAKER_11",
     "testo": "No, hai scritto mi sono dovuta fermare piangua di rotto V, forse nel vederla V che sembra un po' una patata e forse noi siamo attratti da quel simbolo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Piangeva V",
+    "tema": [
+      "amici",
+      "mamma"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -342,9 +347,12 @@
     "end": 1021.63,
     "speaker_raw": "SPEAKER_11",
     "testo": "quella che il tuo amico a scuola ci aveva provato con tua mamma esatto è un programma che sembra proprio di provincia scusami Vanessa ma poi è successo che noi abbiamo cercato di parlare con tua mamma ma tua mamma si vergognava",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Prova con mamma",
+    "tema": [
+      "amici",
+      "mamma"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -353,9 +361,12 @@
     "end": 1033.48,
     "speaker_raw": "SPEAKER_01",
     "testo": "No, più che altro era il mio amico che poi, non lo so, mi ha detto che non stava bene quella mattina lì. Cioè tua mamma o il tuo amico non stava bene? No, il mio amico. Ah, perché noi volevamo metterli in onda insieme. Esatto, sì, esatto.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Mamma si vergognava",
+    "tema": [
+      "amici",
+      "mamma"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

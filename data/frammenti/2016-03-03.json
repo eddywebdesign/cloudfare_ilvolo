@@ -370,9 +370,12 @@
     "end": 617.87,
     "speaker_raw": "SPEAKER_09",
     "testo": "Allora abbiamo un'ascoltatrice, Lara, che dice sono già a quota 90 desideri. Ho qualche problema. Ho qualche problema, arrivare a 150 o... E no, avrà un problema che avrà chiesto la Rolls Royce e ci vorrà anche l'autista. Sì, ho chiesto delle cose che complicano. No, stavo dicendo...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Desideri impossibili",
+    "tema": [
+      "desideri",
+      "impossibili"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -598,9 +601,12 @@
     "end": 1020.61,
     "speaker_raw": "SPEAKER_09",
     "testo": "Questa è la tipica canzone che uno viene da masticare un chewing gum quando l'ascolta, no? Fa anche un po' strafottente, no? Papà, mi rompe le scale, no? Come va, ragazzi, dall'altra parte del vetro? Bene! Allora, andiamo subito a Roma, non perdiamo tempo! Bando alle ciance buongiorno Giulia buongiorno come metà della popolazione femminile di Roma si chiama Giulia sai che in Roma sono tutti o Giulia o Massimo ma io non sono proprio romana sei andata lì perché ti chiamavi Giulia ti volevi sentire un po' accolta Allora, Giulia, quota 90 desideri, se sarebbe già da fare un applauso, almeno dal mio punto di vista. Nessuno si è realizzato, al contrario, si stanno ponendo le premesse perché non se ne realizzi nessuno. Che pessimismo. Esatto. Come la mettiamo, Giulia?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Canzone strafottente",
+    "tema": [
+      "musica",
+      "canzone"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {

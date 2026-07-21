@@ -795,9 +795,11 @@
     "end": 2606.44,
     "speaker_raw": "SPEAKER_00",
     "testo": "io sono a San Benedetto del Tronto nelle macchie al mare stavo dicendo se vieni qua domani ti do due o tre post non c'è bisogno che ci vediamo fisicamente te li posso mandare sì ma la devi pagare questo è il brutto di questi lavori qui che ci sono tante aziende che dicono no no va bene ma la pagina facebook la cura mio nipote mio cugino mio fratello più o meno quanto può costare più o meno dipende da tante cose dipende dal materiale fotografico se l'azienda ha già un materiale fotografico che ovviamente vado a controllare perché poi sono anche fotografa di food quindi ok",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Lavoro freelance",
+    "tema": [
+      "lavoro"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -806,9 +808,11 @@
     "end": 2625.06,
     "speaker_raw": "SPEAKER_06",
     "testo": "soprattutto mi occupo di ristoranti ok ok ok quindi tutto deve essere originale va bene vedo Maurizio che mi dice ti abbiamo detto che la chiamiamo domani va benissimo a Maurizio non sei simpatico io te lo dico doppio saluto romano ha fatto no Samuela stiamo scherzando ti chiamo domani va bene va benissimo ok ciao",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ristoranti",
+    "tema": [
+      "cibo"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -831,9 +835,11 @@
     "end": 2785.84,
     "speaker_raw": "SPEAKER_06",
     "testo": "chiediamo scusa ad Adel che la dobbiamo togliere perché siamo in ritardo per colpa della nostra ascoltatrice ma la cosa migliore è Maurizio che è agitato continua che è? vabbè ragazzi a domani scusate volevo dire una cosa niente",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ascoltatori",
+    "tema": [
+      "ascolto"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   }
 ]

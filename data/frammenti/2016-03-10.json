@@ -566,9 +566,12 @@
     "end": 1037.93,
     "speaker_raw": "SPEAKER_04",
     "testo": "3 mesi come gloria nell'alto dei cieli ciao Elia ciao Nicola ciao ciao",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "3 mesi come gloria",
+    "tema": [
+      "musica",
+      "canzone"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {

@@ -82,9 +82,11 @@
     "end": 559.41,
     "speaker_raw": "SPEAKER_09",
     "testo": "Oh yeah, it's my life! It's my life",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "It's My Life di Bon Jovi",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -391,9 +393,12 @@
     "end": 1348.09,
     "speaker_raw": "SPEAKER_01",
     "testo": "Sì, mi dice la Stefi che parli con cadenza giapponese. Senti, ma stanno già sbocciando, perché più che quando sbocciano, sono belli quando perdono i petali, come nei cartoni animati stanno dicendo. La stagione è come la nostra?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "cartoni animati",
+    "tema": [
+      "infanzia",
+      "natura"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -402,9 +407,12 @@
     "end": 1376.31,
     "speaker_raw": "SPEAKER_17",
     "testo": "in linea di massima sì a parte che un po' c'è la situazione delle piogge un po' più avanti che viene un po' più brutto tempo ok però adesso ieri l'altro mi sono svegliata e aveva nevicato non ha nevicato in tutto l'inverno e ha nevicato quindi c'erano gli alberelli con i sciori e la neve sopra madonna mia sembra veramente di essere lì con chismilicia sembra di essere lì cosa ti mangi questa sera?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "nevicata inaspettata",
+    "tema": [
+      "inverno",
+      "sorpresa"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -424,9 +432,12 @@
     "end": 1451.13,
     "speaker_raw": "SPEAKER_11",
     "testo": "vabbè ma anche ci abbiamo pure qualcun altro sulla traccia abbiamo Gian Maria pronto? pronto Gian Maria da dove chiami? da Castelbelfo vicino a Bologna scusami i ciliegi?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "ciliegi a Bologna",
+    "tema": [
+      "natura",
+      "viaggio"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

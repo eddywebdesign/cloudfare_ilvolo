@@ -506,9 +506,11 @@
     "end": 1237.73,
     "speaker_raw": "SPEAKER_01",
     "testo": "che secondo me lei è dell'est non lo so però è un po' da porno star mi fa un po' sesco lo dice tipo tu a destra lo dice sempre un po' che un po' mi imbarzottisco se me lo dice alle 3-4 del pomeriggio sono sensibile va bene il prossimo disco è molto bello non è mai stato suonato radio DJ ve l'abbiamo portato noi del volo pronti a sciazzamarlo se vi piace se no ve lo scrivete izibizu si chiama Itzibizu chissà come lo direbbe la signora di Google hai già rotto le scatole questa storia Itzibizu Itzibizu",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Itzib",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -632,9 +634,11 @@
     "end": 1914.66,
     "speaker_raw": "SPEAKER_01",
     "testo": "Allora, intanto c'è quel super patatone di Raul Bova che è qui con noi. Buongiorno! Buongiorno! Ti piace? Credo che tu abbia fatto molte interviste radiofoniche e nessuno ti ha detto bel patatone.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Raul Bova",
+    "tema": [
+      "celebrità"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -654,9 +658,11 @@
     "end": 1957.61,
     "speaker_raw": "SPEAKER_01",
     "testo": "solo io riesco a racchiudere il pensiero la pancia del paese senti una cosa Raul questa sera inizia tu sei un capitano militare c'è scritto capace e carismatico che è bello da scrivere capace e carismatico dovresti metterlo sul biglietto da visita sul biglietto da visita ciao sono Raul Bova capace e carismatico è bellissimo comunque sono delle incursioni di staccamento incursione nono reggimento d'assalto paracadutisti giusto?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Capitano militare",
+    "tema": [
+      "militare"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -712,9 +718,11 @@
     "end": 2105.36,
     "speaker_raw": "SPEAKER_00",
     "testo": "Però ti posso dire, Fabio, la cosa interessante è che sono state montate tutte da montatori, quattro montatori. E questo è un po' come una cosa particolare perché abbiamo avuto una varietà di...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Montaggio puntate",
+    "tema": [
+      "lavoro"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -932,9 +940,11 @@
     "end": 2640.58,
     "speaker_raw": "SPEAKER_01",
     "testo": "Grazie Nick, ti voglio bene. Ciao. Ciao. ciao ciao ciao ciao persona fantastica",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Grazie Nick",
+    "tema": [
+      "amicizia"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {

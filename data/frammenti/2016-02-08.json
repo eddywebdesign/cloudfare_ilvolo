@@ -605,9 +605,12 @@
     "end": 2285.65,
     "speaker_raw": "SPEAKER_03",
     "testo": "Grazie a tutti no Grazie a tutti.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Grazie a tutti",
+    "tema": [
+      "grazie",
+      "ringraziamento"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {

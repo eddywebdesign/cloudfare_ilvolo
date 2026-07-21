@@ -764,9 +764,12 @@
     "end": 2154.71,
     "speaker_raw": "SPEAKER_06",
     "testo": "Hai visto i casi della vita?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "I casi della vita",
+    "tema": [
+      "vita",
+      "casi"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -789,9 +792,12 @@
     "end": 2175.28,
     "speaker_raw": "SPEAKER_06",
     "testo": "Esatto, siamo qua da un anno, è un progetto di comunità nuova cooperativa, nasce per dare un'occasione a persone in difficoltà per motivi vari e niente, oltre a questo del progetto principale abbiamo anche",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Progetto di comunità",
+    "tema": [
+      "comunità",
+      "progetto"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -814,9 +820,12 @@
     "end": 2269.14,
     "speaker_raw": "SPEAKER_06",
     "testo": "abbiamo il dispenser dei sogni c'è una boccia sotto un rubinetto da cui chiaramente i soldi non escono ed è lì praticamente allora adesso uno viene compra il giornale e mette non so un altro euro due euro quello che vuole fa un'offerta c'è chi lascia il resto c'è chi porta fuori il portafoglio e mette anche la banconota per esempio in questo caso le scarpette stiamo parlando di 60 euro 70 euro 30 euro non lo so è una difra del genere chiaramente i sogni devono essere a misura di edicola a misura di ok ok non riusciremo mai a raccogliere 10.000 euro in una boccia perché a misura di edicola è anche sensato essere il Se il bambino, con tutto rispetto, chiede un pallo all'ultimo modello della Nike, non è che sia proprio un sogno... No, ma adesso quelli della Nike ci stanno ascoltando e ce lo manderanno sicuramente.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Dispenser dei sogni",
+    "tema": [
+      "sogni",
+      "dispenser"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -1074,9 +1083,13 @@
     "end": 2692.87,
     "speaker_raw": "SPEAKER_03",
     "testo": "Ma quale Siracusa? Allora, io sono in Siracusa, ok, mi sono trasferita a Torino da Puglia. ok questo l'abbiamo capito e lui era in giro per il mondo cioè nel senso non ha un lavoro ben fisso cioè nel senso gira sempre ok era in Puglia esattamente beh però ti posso dire che dalla Puglia è venuto fino a Torino per lasciarti merita ma merita che?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il viaggio dalla Puglia a Torino per lasciarsi",
+    "tema": [
+      "relazioni",
+      "viaggio",
+      "rottura"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

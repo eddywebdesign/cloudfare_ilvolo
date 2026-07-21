@@ -46,9 +46,12 @@
     "end": 345.02,
     "speaker_raw": "SPEAKER_11",
     "testo": "sì per quanto riguarda il caffè è una settimana che sto facendo colazione beh con con i biscotti che ci hanno mandato ricordi che c'è una nota marca che ci hanno mandato i bucaneve che poi ora si chiamano bucanevica bucanevica chi sa perché si chiamano così è una roba di comunque abbiamo parlato dei bucaneve ce li hanno mandati e li abbiamo distribuiti tra l'altro ne avevo parlato male invece mi sono ricreduto comunque fai colazione niente caffè te lo fai qua alla macchinetta e ieri è successa una cosa super fastidiosa ho messo i soldi non c'era il bicchierino quindi sono rimasta lì davanti così con lo spisciolo con la mano a conchetta",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "I biscotti dei bucaneve",
+    "tema": [
+      "biscotti",
+      "regalo"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -57,9 +60,12 @@
     "end": 367.91,
     "speaker_raw": "SPEAKER_10",
     "testo": "tutto bolletto in bocca va bene no bravi è brutto quando il giorno prima dici mi devo ricordare no di comprare il caffè poi arrivi la mattina e ti hai dimenticato io quando manca una cosa lo dico ad alta voce in casa e gli faccio così tipo manca il caffè ricordiamoci che domani entro domani dobbiamo sì però fa niente ce lo dimentichiamo lo stesso",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Dimenticare il caffè",
+    "tema": [
+      "caffè",
+      "dimenticanza"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -254,9 +260,12 @@
     "end": 1000.38,
     "speaker_raw": "SPEAKER_10",
     "testo": "La Spagna su cosa, scusami? Ivana Spagna. Tu Ivana Spagna.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ivana Spagna",
+    "tema": [
+      "libro",
+      "autore"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -441,9 +450,12 @@
     "end": 1878.16,
     "speaker_raw": "SPEAKER_09",
     "testo": "Buongiorno a tutti. Buongiorno esperto. Oggi ho anche portato lo sponsor.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Sponsor del volo del mattino",
+    "tema": [
+      "sponsor",
+      "volomattino"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -474,9 +486,12 @@
     "end": 1891.16,
     "speaker_raw": "SPEAKER_01",
     "testo": "sponsored by olio extravergine di oliva grisoglio ancora? agricoltura biologica come?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Olio extravergine di oliva",
+    "tema": [
+      "olio",
+      "agricoltura"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {

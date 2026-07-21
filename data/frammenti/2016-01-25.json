@@ -306,9 +306,12 @@
     "end": 1099.07,
     "speaker_raw": "SPEAKER_03",
     "testo": "Sì, cioè nel senso gente proprio sepolta in casa, come si dice.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "sepolta in casa",
+    "tema": [
+      "paura",
+      "isolamento"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -492,9 +495,12 @@
     "end": 1210.4,
     "speaker_raw": "SPEAKER_00",
     "testo": "C'è un sito, c'è una pagina Facebook. Come si chiama? Si chiama Rinchiudeteli con la Y canale. Ok. Non poteva essere normale, giusto?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Rinchiudeteli con la Y",
+    "tema": [
+      "soluzione",
+      "aiuto"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {

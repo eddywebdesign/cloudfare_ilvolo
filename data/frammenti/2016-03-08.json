@@ -226,9 +226,12 @@
     "end": 838.83,
     "speaker_raw": "SPEAKER_10",
     "testo": "ma volare no però andare di passare un anno sulla stazione spaziale un anno un anno senza una finestra senza niente lascio che la guardino gli altri poi mi raccontano come si fa una vita senza poter stendere i panni che è una delle cose più belle poi lì sei tutto addormenti ti svegli che sei sul soffitto bisogna essere concentrati senti dottor Fabio Peri si dimmi ok intanto hai qualche bella iniziativa magari oggi c'è la festa della donna fate qualcosa di speciale no?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La vita sulla stazione spaziale",
+    "tema": [
+      "spazio",
+      "vita quotidiana"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -806,9 +809,12 @@
     "end": 2346.42,
     "speaker_raw": "SPEAKER_10",
     "testo": "Tutto? Il tuo corpicino, diciamo, deve inglobare e buttare fuori dimensioni.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il corpicino",
+    "tema": [
+      "corpo",
+      "dimensioni"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -928,9 +934,12 @@
     "end": 2721.2,
     "speaker_raw": "SPEAKER_10",
     "testo": "Tiele, safety. Ah, così? Abbiamo finito, così. Ciao ragazzi, domani mattina.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Tiele, safety",
+    "tema": [
+      "film",
+      "azione"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   }
 ]

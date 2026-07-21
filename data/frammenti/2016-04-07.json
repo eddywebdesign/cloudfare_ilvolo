@@ -38,9 +38,12 @@
     "end": 237.26,
     "speaker_raw": "SPEAKER_03",
     "testo": "Volevo dire a un'ascoltatrice, Alice, che mi scuso, perché Alice dice, ciao Fabio, qualche giorno fa ti sei dimenticato del compleanno di Eric Clapton, ho imparato ad amarlo grazie a te, no? Questo è un compito della Viola, e quindi Alice, io ti chiedo scusa perché, a differenza di Igor Sibaldi che è già qui in postazione... Igor Simaldi, qualsiasi giorno dell'anno... Qualsiasi giorno era? No, non lo so questo, però... Igor Simaldi, che ricordiamo che la settimana scorsa è finita dicendo Maurizio, quando è che compi gli anni? 28 ottobre. Per forza fai il tecnico, hai detto, e abbiamo riso.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Eric Clapton",
+    "tema": [
+      "musica",
+      "compleanni"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -137,9 +140,12 @@
     "end": 433.58,
     "speaker_raw": "SPEAKER_06",
     "testo": "voglio di più, non mi basta mai voglio di più Last night she said she loved me What a pity to part I slept with both eyes open Waiting for it to start Good morning life Good morning world How are you? Happiness All at once I knew what living can be Oh it's life It's free It's someone waiting for me Who someday will be",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Testo canzone Good Morning",
+    "tema": [
+      "vita",
+      "felicità"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -159,9 +165,13 @@
     "end": 502.08,
     "speaker_raw": "SPEAKER_04",
     "testo": "Sì, è una cosa che a me ha stupito tantissimo, ogni tanto noi parliamo, ma veramente sono ancora due volte che ci penso, ma come hanno fatto questi egiziani? Perché hanno praticamente suddiviso tutto il tempo umano, che sono 360 giorni secondo loro, in fasi energetiche. Per cui una persona che è nata in un certo giorno ha quella particolare fase lì, come un vento che lo porta. Se segue questo vento gli va tutto bene, se esce da questo vento comincia ad avere mal di pancia, mal di stomaco, mal di schiena, le cose gli vanno stupide.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Le fasi energetiche degli egiziani",
+    "tema": [
+      "tempo",
+      "energia",
+      "destino"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -181,9 +191,12 @@
     "end": 564.26,
     "speaker_raw": "SPEAKER_04",
     "testo": "io sento le voci di quelli in macchina che lo mandano anche io la penso così oggi è il 7 aprile non c'è una canzone oggi è il compleanno di Buddha oggi è il compleanno di Buddha ma veramente auguri Buddha",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il compleanno di Buddha",
+    "tema": [
+      "buddismo",
+      "religione"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -203,9 +216,12 @@
     "end": 664.42,
     "speaker_raw": "SPEAKER_04",
     "testo": "però va bene il 7 di aprile per Buddha oggi che giornata è per tutti noi dunque sono quelli dotati di una dote naturale ripeto, io queste cose qui mi sembravano del tutto assurde finché non le ho verificate sono quelli dotati di poteri di conoscenza straordinari che se però si vantano li perdono ecco hai capito? quindi praticamente Buddha andrebbe benissimo quello che dice no io non ci sono io sono al di fuori io devo sparire esattamente questa cosa c'era un mio amico per esempio simpaticissimo che è nato questo giorno lo saluto se che lavorava alle poste ed era un genio è un genio allora gli ho detto perché non fai queste cose qui sei così bravo fai un corso questo fa un corso un seminario a Torino torna a casa la sera felice perché non stava tanto bene economicamente torna a casa la sera felice con questi soldi che aveva fatto con il corso e il giorno dopo mi racconta mi sono fermato a fare benzina lungo la via e dopo 50 km mi sono accorto che ho lasciato la busta dei soldi sul distributore perché? Perché non li vuole?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La vanità e la perdita",
+    "tema": [
+      "vanità",
+      "perdita"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -214,9 +230,12 @@
     "end": 724.81,
     "speaker_raw": "SPEAKER_03",
     "testo": "Perché non li voleva lui. Maurizio, sì, sì, è viola. Ragazzi, il computer è tornato, ci potete mandare le vostre cose. Allora, ti volevo dire, la nostra ascoltatrice, quella della settimana scorsa, che c'è il figlio, diciamo, un po' ribelle, che si chiama Schiavi Genitori, ha fatto, l'abbiamo sentita poi lunedì o martedì, ha fatto quella cosa di dire al figlio adolescente, in un periodo un po' così, 19 anni, anzi, insomma, comunque... diventa tu il capofamiglia per un po' e noi ti seguiamo il figlio ha detto no lascio è bravo ha detto no col cavolo è bella lezione bellissima lezione bellissima lezione come si può fare con sto ragazzo che non vuol fare niente siccome poi da quella telefonata sono arrivati molti messaggi di ascoltatori che hanno figli che appunto adolescenti gli sfuggono un po' sfuggono sfuggono sti ragazzi come è giusto come è giusto però sfuggono come è sempre stato Però non è che sfuggono perché inseguono un sogno o qualcosa, sfuggono perché non hanno voglia di fare niente. Qualcuno ha persino detto che è questa generazione, ha questa malattia, gli adolescenti di oggi non hanno passione, non hanno sogni da realizzare, non hanno motivazione.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La storia di Schiavi Genitori",
+    "tema": [
+      "genitori",
+      "adolescenza"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -225,9 +244,12 @@
     "end": 804.1,
     "speaker_raw": "SPEAKER_04",
     "testo": "Gli adolescenti di oggi hanno un perché gigantesco, enorme, grande come tutto il mondo, ed esigono delle risposte e nessuno gliele sa dare. E qual è questo perché? Non ce ne sono tante. Perché le cose vanno così? Che cos'è questo? E tra l'altro è una bella tecnica di disobbedienza questa, è bellissima. Intanto parliamo della disobbedienza che è una serie di tecniche psicologiche per allargare la mente. C'è una tecnica bellissima che è farsi domande, che è la cosa più semplice che ci sia. Uno va in giro, nota qualcosa, per esempio, a me è capitato l'altro giorno, guardo il cartello di divieto di sosta. Perché? Lo vedo da quando sono nato e ho sempre pensato il cartello è lì, è così e basta. È così. A un certo punto l'ho visto davvero e dico ma perché è fatto blu e rosso? Perché? Perché è indaco e bordeaux tra l'altro. Cosa vuol dire indaco e bordeaux? Non c'è nessun senso. E perché per esempio in Irlanda invece è bianco? ecco questa cosa io non la so non la so ma nessuno lo sa no sicuramente qualcuno lo sa ci sarà un signore che si è svegliato la mattina e ha detto ragazzi facciamo così allora rossofermi ma perché rosso e blu ci sarà un senso per esempio quando c'è il senso unico si vede tu non fai questi concorsi a Brescia perché se tu fai questi concorsi a Brescia io so già cosa ti rispondono",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La disobbedienza e la ricerca di risposte",
+    "tema": [
+      "disobbedienza",
+      "risposte"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -247,9 +269,12 @@
     "end": 990.11,
     "speaker_raw": "SPEAKER_05",
     "testo": "Oh Mr. Johnson must get out, Mr. Johnson must be free, Mr. Johnson must get white before the night. Oh Mr. Johnson must get out, Mr. Johnson must be free, Mr. Johnson must get white before the night. He dreams for more, he dreams for a change to come It's hard to find a way in the middle of a crowd And it's always hard to say if our doubts are wrong or right Oh, Mr. Johnson must get out Mr. Johnson must be free Mr. Johnson must get white before the night Oh, Mr. Johnson must get out Il nostro corso gratuito è www.mesmerism.info Musica Mr. Johnson must get out Mr. Johnson must be free Mr. Johnson must get white before the night Mr. Johnson must get out Mr. Johnson must be free Mr. Johnson must get white before the night Mr. Johnson must get out Mr. Johnson must be free Mr. Johnson must get white before the night Mr. Johnson must get out Ciao!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Mr. Johnson",
+    "tema": [
+      "musica",
+      "canzone"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -258,9 +283,12 @@
     "end": 1044.26,
     "speaker_raw": "SPEAKER_03",
     "testo": "Per fortuna Jain stava cantando e gli ascoltatori non hanno sentito il fatto che il 29 settembre che è nato sia Berlusconi che Bersani e anche Francesco D'Assisi, a un certo punto Igor Viola tu non l'hai sentito, ha detto ma perché Berlusconi e Francesco D'Assisi sono la stessa cosa dal punto di vista della personalità. fortuna non hanno sentito gli ascoltatori perché uno più attratto dalle forze non del bene ma della condivisione l'altro più da un ego non è astrologia come concili questi due personaggi prima di sentire Bettina che ci sta chiamando da Bruxelles no",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Berlusconi e Bersani",
+    "tema": [
+      "politica",
+      "personalità"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -269,9 +297,12 @@
     "end": 1171.03,
     "speaker_raw": "SPEAKER_04",
     "testo": "Milano vive a Parigi vive a Parigi ok ok va bene va bene stai lì Bettina un secondo esatto allora Francesco D'Assisi e Berlusconi dunque ognuno ha la sua funzione energetica poi la usa come vuole ok cioè uno può essere un pazzo giocatore d'azzardo contrabbandiere e l'altro lato allo stesso giorno può essere un francescano generosissimo ok però è interessante l'atteggiamento che è l'orientamento della personalità generale e hanno in comune sia Berlusconi sia Francesco Assisi una cosa interessantissima che è io devo piacere a tutti io devo piacere a tutti attenzione, Viola dice sì come Maurizio con la testa Francesco aveva questa caratteristica che è un personaggio straordinario è piaciuto sia al sultano che a quel tempo era in guerra, faceva le crociate sia al Papa sia a tutti quanti salvo che al suo paese ecco lì a Sisi non è piaciuto assolutamente poi per il resto dovunque andava il suo bisogno principale era piacere io devo piacere a tutti devo far vedere a tutti che si può splendere per me tutti sono principeschi lo stesso atteggiamento c'è anche in quello statista italiano che c'era prima che Berlusconi ok però la domanda è questa cosa che li unisce e che quindi quando la luce non è su di loro cioè l'attenzione non è su di loro pericolo terribile pericolo pericolo terribile è perché è quella roba lì dove quindi soffre uno invecchiando così infatti Francesco Assisi ha fatto una fine tremenda perché il poveraccio aveva un erettico grandioso un filosofo uno dei più grandi filosofi italiani ma penso europei per la profondità del pensiero e per l'intelligenza e il coraggio a un certo punto quando è tornato dall'Egitto lo hanno totalmente emarginato i suoi tanto che lui se n'è andato dicendo adesso io me ne vado sul laverno voglio vedere se vieni a chiamarmi e nessuno è andato a chiamarlo da lì è cominciato un problema fisico tremendo e poi ha fatto una fine orribile tristissimo abbandonato solo grande poeta tra l'altro il primo che ha scritto tutte le cose teologiche in italiano pensa un po' ok abbiamo Bettina buongiorno Bettina ciao come stai Bettina?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La funzione energetica e la personalità",
+    "tema": [
+      "energia",
+      "personalità"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -511,9 +542,13 @@
     "end": 1969.34,
     "speaker_raw": "SPEAKER_03",
     "testo": "Buongiorno a tutti, avrei preferito una pugnalata piuttosto che sentire mio figlio di sei anni in crisi per la scuola perché non gli piace e nonostante tutto prende dei bei voti. Mi ha detto, allora la mia vita è finita, nessuno mi vuole. Stai imitando la mamma? Alessandra! ma che meraviglia un bambino di 6 anni sentire un bambino di 6 anni che dice la mia vita è finita se tu mi manchi ancora a scuola la mia vita è finita la mia vita è finita che giorno è nato? che giorno è nato tuo figlio Alessandra?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il figlio di sei anni in crisi scolastica",
+    "tema": [
+      "genitori",
+      "scuola",
+      "infanzia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -676,9 +711,11 @@
     "end": 2621.19,
     "speaker_raw": "SPEAKER_03",
     "testo": "Acrobati è anche il titolo della canzone Daniele Silvestri mia figlia a tre anni e mezzo mi ha detto prima di andare a dormire mamma vai a letto questa sera la favola me la leggo da solo e poi vado a dormire non servi e così non servi tre anni e poi lei è andata nel letto così dice la mamma sono andato a vedere poi se si era addormentato ho aperto la porta per vedere se stava leggendo e mia figlia mi ha detto devi dirmi qualcosa scusa, devi dirmi qualcosa? no, sono venuto a dormire vai a dormire tre anni, va bene mio figlio, scusami, mio nipote il primo giorno alle elementari mi ha detto ma che ci vado a fare a scuola che non sono capace né di leggere né di scrivere va bene insomma c'è questa altri ascoltatori adesso qui dovrei trovarla quella di prima che dice e io l'anno prossimo devo mandare mio figlio a scuola e non so come cioè come convincerlo come dire come rendegli dolce questa pillola che perché c'è tutto un mondo qua leggiamo anche di persone che ci scrivono molto bella dice come faccio a convincerlo senza fargli capire che mento che mento cioè quindi ci sono dei genitori che adesso qualcuno si arrabbia i maestri anche qualcos'altro che convinti che quando mandano un figlio a scuola in qualche modo in qualche modo glielo rovinano mettiamola così io sono di queste idee lo sfregiano sono di queste idee perché sperimentalmente ma non solo io anche Sant'Agostino eh",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Acrobati titolo canzone Daniele Silvestri",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -720,9 +757,12 @@
     "end": 2794.52,
     "speaker_raw": "SPEAKER_03",
     "testo": "c'è ancora c'è ancora dal minutaggio sono un insegnante ha scritto solo così ha scritto solo sono un insegnante puntini puntini ok mio marito da piccolo piangendo ha chiesto ma come ho fatto a trovarmi se sono sempre stato a casa con te? mi hanno fatto a trovarmi se sono sempre stato... non ho capito questa forse volevo dire un'altra cosa ah qua qualcuno ti dice ecco per esempio qui una Mara, Mara Cirillo dice che i ragazzi non hanno passione perché quelli come noi comunque in questo momento stanno facendo un po' qualunquismo totale negativi no, io non sono qualunquista sono negativista non è qualunquismo proprio no nientellismo Antonella dice ok che parlate di figli ma c'è gente anche che è singola e non ha figli e basta faremo una puntata sono loro i figli, sono loro i genitori",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il marito da piccolo",
+    "tema": [
+      "famiglia",
+      "infanzia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -753,9 +793,12 @@
     "end": 2807.61,
     "speaker_raw": "SPEAKER_04",
     "testo": "C'è una cosa bellissima nei messaggi però.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Messaggi belli",
+    "tema": [
+      "messaggi",
+      "psicologia"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -775,9 +818,12 @@
     "end": 2868.04,
     "speaker_raw": "SPEAKER_04",
     "testo": "c'è una cosa bellissima in questi messaggi una bella cosa per psicologica di autoterapia è raccontare agli altri i propri problemi insegnandolo nei dettagli cioè se uno ha un problema per esempio arriva in ritardo Viola scusa guarda che ti stiamo parlando l'importante è se io questo problema lo sento veramente è cominciare a raccontare a qualcuno come fai tu ad arrivare in ritardo nei minimi dettagli come se glielo insegnassi ma io sono una ritardataria? non dire così perché non è vero va bene va bene a insegnare i propri problemi è una cosa magnifica invece di vantarti di come va bene tu spiega alla gente perché una cosa non ti va tanto bene una volta due ti sparisce va bene ci sentiamo giovedì prossimo con Igor Sibaldi e noi domani mattina con il volo del mattino ciao ragazzi",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Raccontare i propri problemi",
+    "tema": [
+      "autoterapia",
+      "psicologia"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   }
 ]

@@ -18,9 +18,13 @@
     "end": 185.91,
     "speaker_raw": "SPEAKER_12",
     "testo": "Musica ... ... ... Ciao! Ciao! we'll be 30 years old I'm still learning about life my woman brought children for me so I can sing them all my songs and I can tell them stories most of my boys are with me some are still out seeking glory and some I had to leave behind my brother I'm still savvy soon I'll be 60 years old my daddy got 61 remember life and then your life becomes a better one I made a man so happy when I rode a letter once I hope my children come and a presto",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Testo di 7 Years di Lukas Graham",
+    "tema": [
+      "crescita",
+      "vita",
+      "tempo"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -324,9 +328,12 @@
     "end": 771.28,
     "speaker_raw": "SPEAKER_13",
     "testo": "Allora, il concetto è che anche la cosa più buona del mondo, se uno ne abusa, si intossica. Ok. tu pensa che questo vale pure per la mamma per intendere è bellissimo questo se abusi della mamma ce ne sono di donne adesso che dicono guarda me lo so sposato quello lì il problema non è il latte in sé per sé di cui possiamo parlare la qualità possiamo entrare in un capitolo il problema è la quantità allora se io faccio la colazione la mattina e poi mangio lo yogurt e poi mi mangio la piscina e poi il gelato il dolce il corpo reagisce Quindi il concetto è l'intossicazione.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il concetto di abuso e misura",
+    "tema": [
+      "equilibrio",
+      "moderazione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -953,9 +960,11 @@
     "end": 2604.6,
     "speaker_raw": "SPEAKER_01",
     "testo": "ok vabbè secondo te l'uomo senza pene l'avrà capito questa poesia l'osso senza pene l'avrà apprezzata questa poesia ma secondo me lui cerca altre felicità cerca altre felicità grazie Nicola ciao ciao ciao comunque in barese la CID Il Cid? No! Oh yeah! Come fanno le donne a non accoggersi?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il Cid",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -964,9 +973,11 @@
     "end": 2610.08,
     "speaker_raw": "SPEAKER_07",
     "testo": "Fai in un altro modo, andiamo! Spinge Colosso! Il Colosso! Colosso su S!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il Colosso",
+    "tema": [
+      "libro"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {

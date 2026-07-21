@@ -491,9 +491,12 @@
     "end": 943.32,
     "speaker_raw": "SPEAKER_00",
     "testo": "ma io sono rimasta come quando avevo 5 anni fisicamente per ora che sei ancora lì con i topolini e i passerottini comunque scusami Sole all'orale mi aveva alzato il voto di 3 punti salutate Maria Sole e ringraziatela Matteo da Parma un ex studente ti ringrazia Maria Sole",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il voto alzato all'esame",
+    "tema": [
+      "università",
+      "gratitudine"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -524,9 +527,12 @@
     "end": 974.45,
     "speaker_raw": "SPEAKER_07",
     "testo": "e lei ha paura di questo e la fata gli dice no guarda questa qui è la tua carrozzeria e trasforma questa zucchera in una carrozzeria in una cosa bella è questa che ti porterà dal principe cioè il tuo seno lo stendi subito va bene ciao sole buona giornata ciao",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La fata trasforma la zucchera",
+    "tema": [
+      "paura",
+      "magia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -708,9 +714,11 @@
     "end": 1373.62,
     "speaker_raw": "SPEAKER_00",
     "testo": "sentiamo un pezzo della canzoncina che è sempre bella senti qua che belle che sono queste canzoni è un grande è un grande",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Canzone bella",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -761,9 +769,12 @@
     "end": 1499.48,
     "speaker_raw": "SPEAKER_00",
     "testo": "oh arrivano anche nomi di fiabe che noi non conosciamo non so Balto Balto che favola è Balto? mai sentito sono quelle della nuova Disney molti amano gli Aristogatti tra i nostri ascoltatori invece il tuo gatto non l'amiamo Wellington si è girato quando hanno trasmesso gli Aristogatti per la verità non era Wellington era Romeo comunque non poteva sopportarlo non si sentiva rappresentata",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Gatto e Aristogatti",
+    "tema": [
+      "gatti",
+      "preferenze"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -814,9 +825,12 @@
     "end": 1800.65,
     "speaker_raw": "SPEAKER_00",
     "testo": "Ok, è un caso che sono tra i desideri? No, la Dino sono infiniti. sono infiniti, non dice tre desideri nelle fiabe russe sono tre perché secondo te nelle fiabe russe sono tre?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Tre desideri",
+    "tema": [
+      "desideri",
+      "limiti"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -825,9 +839,12 @@
     "end": 1811.27,
     "speaker_raw": "SPEAKER_07",
     "testo": "è perché è una prova tipo roulette russa, è terribile deve dirmene tre e uno deve fare il conto della sua vita io non riesco a scrivere i 150 desideri io tre mi troverei a mio agio",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Roulette russa",
+    "tema": [
+      "rischi",
+      "limiti"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -889,9 +906,12 @@
     "end": 1894.06,
     "speaker_raw": "SPEAKER_00",
     "testo": "è un film che te lo riguardi continuamente piace sempre proprio come quando leggi le favole ai bambini ce l'abbiamo quel pezzo lì?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Film preferito",
+    "tema": [
+      "film",
+      "preferenze"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -980,9 +1000,11 @@
     "end": 2451.7,
     "speaker_raw": "SPEAKER_06",
     "testo": "sono bene Grazie a tutti. ciao ciao ciao Grazie.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Arrivederci",
+    "tema": [
+      "addio"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {

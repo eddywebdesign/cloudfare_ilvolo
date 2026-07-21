@@ -27,9 +27,12 @@
     "end": 358.73,
     "speaker_raw": "SPEAKER_00",
     "testo": "sono stata tentata ieri non so se ha senso che io racconti questa esperienza perché è un po' intima ho fatto la cacca no dopo la puntata di ieri sono andata all'arco della pace perché comunque c'era il sole si stava bene si è avvicinato un uomo e mi ha chiesto se cercavo lavoro perché cercava qualcuno per pulire casa è venuto da me e mi ha chiesto ti giuro io sono rimasta malissimo e tu sai perché me l'ha chiesto e non sarei neanche brava se ha bisogno ancora vado io ha detto cerco qualcuno per fare le pulizie è venuto proprio da me mi sono offesa tantissimo va bene mettiamo la sigla è venuto da te perché sanno tutti che sei brava a fare le pulizie certo che gentaglia",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'uomo che mi ha chiesto di pulire casa",
+    "tema": [
+      "lavoro",
+      "umiliazione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -60,9 +63,12 @@
     "end": 473.81,
     "speaker_raw": "SPEAKER_08",
     "testo": "Grazie, grazie a tutti. Il mese prossimo mi hanno detto che faremo l'apericultura. Sono un tipo degli aperitivi dove si parla di cultura. Inventiamoci gli ape qualcosa, dai. Facciamo l'aperic... Vabbè, io andrei volentieri all'apericulata, che è quella lì dove è praticamente, che poi... bene bene bene allora scusate c'è un ascoltatore che ci ascolta con le cuffiette il capo si è un po' infastidito che sta sempre con le cuffiette durante il lavoro dice quindi ieri mi sono persa la puntata no però oggi mi sono organizzato organizzata non ho capito e ho portato il bluetooth quindi il capo non mi vede che ho il filo delle cuffie e quindi faccio finta di stare al telefono così vi ascolto Andrea pensa se stai addirittura al telefono con noi io sto riscando tu fai finta di stare al telefono per lavoro invece ascolti il volo del mattino ma noi addirittura ti abbiamo chiamato quindi proprio in realtà sei al telefono",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'apericultura",
+    "tema": [
+      "cultura",
+      "aperitivi"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -104,9 +110,12 @@
     "end": 521.99,
     "speaker_raw": "SPEAKER_08",
     "testo": "No, ma che tipo di lavoro? Come possiamo entrare? Nel caso ammetti che adesso entra il capo. Con chi c'è il telefono? Passamelo. E noi facciamo finta che siamo dei clienti del tuo ufficio. Che lavoro fai? è programmatore di macchine a controllo numerico quindi mi chiama aspetta un secondo Maurizio programmatore di macchine numeriche scusami programmatore dimmi se mi chiama qualcuno voi li state chiamando dalla produzione perché ci sono dei problemi con i numeri",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il triste caso di Rignoni",
+    "tema": [
+      "letteratura",
+      "mistero"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -137,9 +146,12 @@
     "end": 545.77,
     "speaker_raw": "SPEAKER_09",
     "testo": "c'è una giornata fantastica infatti oggi per strada ma scusami a che ora volevo quasi quasi mandare un messaggio e dire di non venire oggi ma andavo a mare scusami ma a che ora finisci oggi?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La giornata fantastica a Brindisi",
+    "tema": [
+      "vacanza",
+      "amici"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -247,9 +259,12 @@
     "end": 728.68,
     "speaker_raw": "SPEAKER_02",
     "testo": "No matter what you say You'll find it happens all the time It's not unusual to be mad with anyone It's not unusual to be sad with anyone But if I ever find that you've changed at any time It's not unusual to find that I'm in love with you Chiede il nostro ascoltatore Andrea, dice ma cavolo Tom Jones che è il mio preferito Ha detto, ah ma fatemi sentire anche un pe... Eh ragazzi siamo... oh ci chiamano tutti a quest'ora, siamo veramente...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "It's Not Unusual di Tom Jones",
+    "tema": [
+      "musica",
+      "tom jones"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -313,9 +328,13 @@
     "end": 890.59,
     "speaker_raw": "SPEAKER_01",
     "testo": "Allora, guarda, molto semplicemente, il sì vuol dire mettere un po' dei limiti alle concessioni delle piattaforme petrolifere in mari italiani. Però, al di là del problema delle trivelle, io passerei al significato che c'è dietro il sì. Il sì vuol dire, sostanzialmente, vogliamo un mondo basato per il futuro sulle energie rinnovabili e che esca via via dal fossile, dal petrolio, dal gas. E questo è quello che ci indicano tutti i trattati internazionali tra cui l'ultimo di Parigi che ci dicono se non vogliamo che il clima della terra vada a pallino dobbiamo lasciare i combustibili fossili sottoterra. Quindi questo è il significato secondo me importante del referendum. Poi come sempre in Italia bisogna rispondere a una domanda per dire una cosa diversa ma",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il significato del voto sulle trivelle",
+    "tema": [
+      "ambiente",
+      "energia",
+      "referendum"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -346,9 +365,13 @@
     "end": 977.05,
     "speaker_raw": "SPEAKER_08",
     "testo": "non ha importanza la forma della siringa bisogna togliergli la droga ok questo è un po' il senso va bene io credo di aver capito perché sei stato molto chiaro di fatti per quello ti abbiamo chiamato sapevo che tu saresti riuscito a spiegarla quindi domenica si va a votare diciamo così il mondo quello un po' più ecologico dice sì il mondo quello un po' più andiamo avanti, tutto quello che c'è bruciamolo dice no, mettiamola così mi sembra un'ottima scelta grazie Luca grazie mille, ciao ciao",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Metafora sulla transizione energetica",
+    "tema": [
+      "ecologia",
+      "energia",
+      "scelte"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -357,9 +380,12 @@
     "end": 1053.46,
     "speaker_raw": "SPEAKER_05",
     "testo": "Grazie a tutti I'll carry you through the night, through the storm, give you love, only love in return. I can jump over buildings, I'm no hero, love can do miracles. I cannot run a bullet, I'm no hero, but I will take one for you, for sure. I'm much less a saint than a sinner Oh no I ain't no superhuman Cause that's just in the movies I know But I'll carry you through the night Through the storm Give you love always love in return",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Testo di No Hero di Elisa",
+    "tema": [
+      "musica",
+      "elisa"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -643,9 +669,12 @@
     "end": 2490.1,
     "speaker_raw": "SPEAKER_04",
     "testo": "Grazie a tutti. I got guns in my head and they won't go Spirits in my head and they won't go But the gun still rattles, the gun still rattles, oh I got guns in my head and they won't go Spirits in my head and they won't go I spend a lot of nights on the run And I think, oh, like I'm lost and can't be found I'm just waiting for my day to come And I think oh I don't wanna let you down Cause something inside has changed And maybe we don't wanna stay the same I got guns in my head and they won't go Spirits in my head and they won't go I got guns in my head and they won't go I just wanna be alive While I'm here And I don't want a never ending lie I just wanna be alive While I'm here And I don't want to see another night Lost inside a long lie Oh yeah!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Guns in My Head",
+    "tema": [
+      "paura",
+      "solitudine"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -654,9 +683,12 @@
     "end": 2680.97,
     "speaker_raw": "SPEAKER_08",
     "testo": "ha fatto bene ha fatto bene la nostra ascoltatrice a comprare il vestito al marito perché il mio ha speso 200 euro e si è sciolto durante si è sciolto il vestito da solo 200 euro dice dove l'ha preso non lo diciamo per correttezza ci sono rimasta male ma era figo lo stesso ciao Viviana mi aveva raccontato questa storia di quando ero povero che uno ricco di Brescia ma più ricco ricco il figlio degli industriali non so io ero simpatico ma invitato al suo compleanno di 18 anni aveva l'R Moscia no però loro a 18 anni i ricchi facevano il diciottesimo arrivavano tutti e quindi io sono stato invitato ma non avevo l'attrezzatura per andarci non avevo la giacca e mia mamma mi ha portato prendendo i soldi dal parificio facendo grandi sacrifici mi ha portato al tipo al coin o all'ovs non mi ricordo mi ha preso la giacca la camicia poi proprio la mamma col cuore piccolo che diceva ma non ti preoccupare mamma ma io ci tengo sai poi quell'età lì insomma siamo andati al coin a prendere sta giacca e quei soldi che avevamo insomma quindi io mi vesto e mi aveva preso come si chiama come si chiama quella specie di foulard che si mette al posto della cravata non l'ascort una roba del genere ascort una roba del genere ok e capito che poi mi si allargava sempre che non ero capace di fare il nodo mi dice si vedeva la maglietta sotto la camicia vabbè comunque sono andato a 16-18 loro avevano tutti questi vestiti belli io avevo la giacca di fustagno bella pesante con un marchio sulla tasca sopra tipo il principe di Savoia eh però beh con le scarpe tutte sfondate perché avevo le scarpe la postura è sbagliata quindi tutte le scarpe sfondate sulla testa ma che immagine triste una povertà però lui mi ha voluto bene lo stesso Ricky Santino ma perché ti hai raccontato non mi ricordo perché questo ha preso il vestito da Zara perché sai i poveri li vedi dalle scarpe dagli orologi cioè li vedi dalle cose hai capito una giacca uno se la può far prestare va bene detto questo sì abbiamo chiarito con Viola tutti a posto gli ascoltatori Viola ti vogliamo bene scusami c'è stato un misandestene quindi può parlare nessuno ha scritto scusami c'è stato un misandestene no no Viola sei via te annoiavano perché sei via comunque Maurizio Viola si è ripresa era molto giù dopo vieni da farlo pulire visto che ti sei ripresa Viola oggi pomeriggio non c'è un cavolo da fare mi vai a fare solo i vetri comunque dipende dalla paga io non disdegno con il giornale sai il corriere lì che c'è il petrolio mi fai i vetri tutti i mesi di casa va bene senti allora Maurizio dobbiamo chiudere o risolviamo il problema di Giovanni veloce il problema di Giovanni ciao ragazzi sono Giovanni ho un problema agli auricolari sono sfalsati mi metti la voce di Fabio un po' più a sinistra ok allora che fastidio Ciao, ciao a domani, no? Allora...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Vestito da Matrimonio",
+    "tema": [
+      "matrimonio",
+      "spese"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   }
 ]

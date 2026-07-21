@@ -66,9 +66,11 @@
     "end": 286.77,
     "speaker_raw": "SPEAKER_09",
     "testo": "Quindi poi si è risentita e sentendocela fuori, sapete che quando sentite la voce registrata di solito non vi piace, ma potete anche vedere tante cose di voi, no? E una volta una mia amica mi ha detto ma io parlo così tanto, ho detto no, tu non stai mai zitta, no mi sono accorta, ok ecco, si è accorta che hai un po' di aggressività, un po', a parte lì stavamo proprio fingendo di litigare quindi ho anche calcato un pochino, però non mi ero mai sentita veramente ma un po' anche la lingua secondo me il toscano è comunque bello è carnivoro Maurizio dice abbiamo la registrazione facciamola sentire a tutto il mondo ho preso anche la sigletta finale del albero della vita non me l'avevi segnata ma era bella",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Finta lite",
+    "tema": [
+      "litigi"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -243,9 +245,11 @@
     "end": 770.63,
     "speaker_raw": "SPEAKER_09",
     "testo": "soluzione esatta del problema però con ogni probabilità ci si bagna di più e qual è allora qual è il cavillo diciamo la cosa che vi mette lì e dire no adesso noi dobbiamo perché bisogna scientificamente provarlo quindi bisogna fare almeno 500 camminate 1000 camminate non lo so",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Prova scientifica",
+    "tema": [
+      "scienza"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -276,9 +280,11 @@
     "end": 816.9,
     "speaker_raw": "SPEAKER_10",
     "testo": "perché dipende un pochino anche dalla forma del corpo sostanzialmente perché è un problema troppo difficile da studiare esattamente quindi in qualche modo si cerca di modellizzarlo e però poi non si è sicuri che il modello semplificato che uno adotta sia uno non ha la certezza assoluta che il modello che uno ha usato sia assolutamente valido anche per la situazione Conta anche il vento?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Modello scientifico",
+    "tema": [
+      "scienza"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

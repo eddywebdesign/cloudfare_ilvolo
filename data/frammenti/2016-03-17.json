@@ -646,9 +646,12 @@
     "end": 1674.8,
     "speaker_raw": "SPEAKER_03",
     "testo": "Purtroppo l'ultimo giovedì che sei in quelli qua abbiamo parlato di miti cose del genere poi abbiamo parlato di angeli abbiamo parlato di sogni così oggi con quella mail che abbiamo letto all'inizio si è trasformato un po' nella posta del cuore arrivano solo messaggi di gente io l'amo ante io amo mia moglie ma non mi vuole più",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La posta del cuore",
+    "tema": [
+      "amore",
+      "relazioni"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -657,9 +660,12 @@
     "end": 1687.01,
     "speaker_raw": "SPEAKER_01",
     "testo": "è tutta roba di coppia io se vuoi andiamo avanti con questa cosa intanto prendiamo lo spunto per parlare anche di miti perché è interessante ce n'è uno che stiamo dicendo prima che è bellissimo è un po' la situazione di quello lì tra l'altro",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Miti",
+    "tema": [
+      "mitologia",
+      "storia"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -668,9 +674,12 @@
     "end": 1708.55,
     "speaker_raw": "SPEAKER_03",
     "testo": "Ragazzi, con tutto l'affetto che ho per voi, quanto mi spiace che vi state perdendo una discussione fra Igor e Viola, Laura e Maurizio. Appena torniamo in onda, la voglio in onda sta discussione. Il commento di Viola è stato, oh Igor, oh Igor, eh no, eh così è troppo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Discussione in redazione",
+    "tema": [
+      "relazioni",
+      "lavoro"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -694,9 +703,12 @@
     "end": 1978.44,
     "speaker_raw": "SPEAKER_03",
     "testo": "Perché non finirà, non finirà mai. o le cose concrete ma non solo qui di ascoltatori qui anche in redazione cioè durante la pubblicità di cose c'è stato un o Igor è così è troppo o Maurizio perché Maurizio ti dava ragione sì Maurizio ti dava ragione allora aspettiamo un attimo dobbiamo coinvolgere gli ascoltatori quanto manca giovedì prossimo allora aspetta un secondo intanto scrivono ragazzi tipo io amo una ragazza da sei anni ma lei è lesbica sta arrivando un po' di tutti io voglio disconoscere mio figlio delle cose un po' diciamo trasversali ma ne arriva uno che dice è successo che come l'ha commentato alla fine Viola la storia più vecchia del mondo questo ragazzo trova parte una simpatia con la moglie del suo miglior amico ok stai seguendo perché tu sei serio invece qua loro tiravano già delle penne no io sono già pronta sono già pronta allora con la simpatia alla fine si innamorano cominciano a vedersi di nascosto lui dice adesso noi siamo innamorati io però non tollero più che lei poi torni a casa dal marito cioè lui è diventata di suo proprietario prima gliela usavo presa poi adesso lui vorrebbe proprio che fosse solo sua mettiamola così parlando di proprietà e dice insomma quindi io adesso gli ho detto o me o lui o me o lui e lei dice che mi ama ma non riesce a fare questa scelta e la Viola ha detto la storia più vecchia del mondo e io ho detto Viola se tu dovessi scoprire che il tuo fidanzato fa l'amore con la tua migliore amica mi butto dalla finestra Insomma, invece Igor sostiene che è una bella storia. Sì, sì.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Non finirà mai",
+    "tema": [
+      "relazioni",
+      "amore"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -939,9 +951,12 @@
     "end": 2488.16,
     "speaker_raw": "SPEAKER_11",
     "testo": "Oh cause you got inside my head",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Inside My Head",
+    "tema": [
+      "musica",
+      "canzone"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {

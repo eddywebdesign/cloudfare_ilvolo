@@ -30,9 +30,12 @@
     "end": 84.22,
     "speaker_raw": "SPEAKER_11",
     "testo": "I don't know you But I want to And I don't wanna steal your freedom I don't wanna change your mind I don't have to make you love me I just wanna take your time I don't wanna wreck your Friday I ain't gonna waste my life I don't have to take your heart I just wanna take your time",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Take Your Time di Sam Hunt",
+    "tema": [
+      "musica",
+      "relazioni"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -747,9 +750,12 @@
     "end": 2412.45,
     "speaker_raw": "SPEAKER_04",
     "testo": "La bambina e il cane, molli giù. Allora, aspetta, la capra, il lupo e il cavolo sull'altra sponda. Ascolta, porti giù tutti e due, poi torni a casa e gli riporti il cane.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La bambina e il cane",
+    "tema": [
+      "amore",
+      "animali"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {

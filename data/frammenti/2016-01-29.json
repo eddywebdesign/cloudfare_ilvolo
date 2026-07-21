@@ -5,9 +5,11 @@
     "end": 21.83,
     "speaker_raw": "SPEAKER_12",
     "testo": "è incredibile sarà che venerdì ma si parlava di sesso qui prima dell'inizio del programma la tematica a quest'ora sesso",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Sesso",
+    "tema": [
+      "sessualità"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -745,9 +747,11 @@
     "end": 2408.87,
     "speaker_raw": "SPEAKER_11",
     "testo": "infatti è l'input che mi manca lo zio Andre",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "zio Andre",
+    "tema": [
+      "famiglia"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -879,9 +883,11 @@
     "end": 2786.11,
     "speaker_raw": "SPEAKER_12",
     "testo": "prende in mano dentro il pancione esatto ok buongiorno Anna grazie mille buongiorno ciao ciao ciao ciao ciao ciao viola dimmi qui arrivano ascoltatori che hanno imparato la sessualità come te da questa videocassette vedi e mi avete preso in giro tutti di Repubblica speriamo che le ristampino va bene ma scusate vale post al market vale io l'ho imparata lì ciao ragazzi ciao ciao",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "videocassette",
+    "tema": [
+      "educazione"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   }
 ]

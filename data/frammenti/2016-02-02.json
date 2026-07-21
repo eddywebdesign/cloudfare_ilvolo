@@ -116,9 +116,11 @@
     "end": 500.29,
     "speaker_raw": "SPEAKER_07",
     "testo": "Secondo me è questo di cui si parlerà per tutta la giornata.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Non finirà mai",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -280,9 +282,11 @@
     "end": 829.45,
     "speaker_raw": "SPEAKER_12",
     "testo": "Grazie. It's amusement never ends. I wanna be your sledgehammer. Why don't you call my name? Hold up and be your sledgehammer. Sì. Musica Sì",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Sledgehammer",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {

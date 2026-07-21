@@ -650,9 +650,12 @@
     "end": 2491.45,
     "speaker_raw": "SPEAKER_02",
     "testo": "La seconda lettera è semplicemente LAX, quindi... Ed io ritornerò, la E che ritorna. Perché alla fine doveva essere solo l'ex che ritornano o gli ex che ritornano.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "LAX e gli ex che ritornano",
+    "tema": [
+      "musica",
+      "ritornano"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
