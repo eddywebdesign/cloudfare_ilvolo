@@ -134,9 +134,12 @@
     "end": 825.59,
     "speaker_raw": "SPEAKER_09",
     "testo": "radio dj c'è lucio dalla con balla balla ballerino come sono stato come disannunciatore ma l'avresti detto meglio tu avresti anche letto meglio ricordiamo come leggi bene il raggio ti lega qualcosa qualcosa leggimi qualcosa si aspetta adesso la c'è aspetta",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il Raggio",
+    "tema": [
+      "libri",
+      "leggere"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -159,9 +162,12 @@
     "end": 911.88,
     "speaker_raw": "SPEAKER_09",
     "testo": "per fortuna che in parole note non leggi tu comunque ragazzi parliamo di cose serie siccome l'ultima settimana dobbiamo cominciare a portare dentro i tavolini del bar cioè pian pianino siamo arrivati diciamo alla chiusura del locale avevamo promesso che avremmo chiamato Francesco Baccini quindi io me lo sono segnato esatto quindi adesso noi chiamiamo Francesco Baccini lo salutiamo in diretta ok dopodiché andiamo avanti con la puntata perché oggi c'è un tema importantissimo che voglio affrontare con voi molto divertente che vi cambierà la giornata chiamami Baccini adesso signore e signori è qui con noi al volo del mattino Francesco Baccini buongiorno buongiorno ammazza che entusiasmo ti ho svegliato Come stai?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Francesco Baccini",
+    "tema": [
+      "musica",
+      "bar"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -357,9 +363,12 @@
     "end": 1142.87,
     "speaker_raw": "SPEAKER_09",
     "testo": "Senti Francesco, noi ti aspettiamo, adesso io sono a New York, quando torno a settembre ti aspettiamo in bocca al lupo sia per il progetto con Caputo che poi...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Caputo",
+    "tema": [
+      "musica",
+      "progetto"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {

@@ -982,9 +982,11 @@
     "end": 2864.88,
     "speaker_raw": "SPEAKER_17",
     "testo": "Ciao! ... ... ... ... ... ... ... Ciao!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ciao!",
+    "tema": [
+      "saluto"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -1015,9 +1017,12 @@
     "end": 3003.42,
     "speaker_raw": "SPEAKER_12",
     "testo": "sono ancora qua pensavate e invece si sono ancora qui oggi sei perattivo oggi sono iperattivo se non hai niente da dire ieri ho lavorato posso dire che voglio parlare bene non dico di un collega perché quando dico collega i colleghi ci offendono ho lavorato ieri con Marco D'Amore presente no? collega abbiamo recitato insieme però non mi permetterei mai io sono sempre nelle mie umide provenienze insomma comunque ho recitato ieri con Marco D'Amore in Gomorra? ha recitato lui nella mia serie e voglio dire che è veramente un figo pazzesco umanamente e professionalmente",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Lavoro con Marco D'Amore",
+    "tema": [
+      "lavoro",
+      "collega"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   }
 ]

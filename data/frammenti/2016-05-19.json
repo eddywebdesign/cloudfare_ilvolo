@@ -19,9 +19,11 @@
     "end": 20.57,
     "speaker_raw": "SPEAKER_11",
     "testo": "Buongiorno a tutti. Sempre da un armadio di Manhattan va ora in onda il volo del mattino.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Buongiorno a tutti",
+    "tema": [
+      "buongiorno"
+    ],
+    "tipo": "lettura_volo",
     "video_url": ""
   },
   {
@@ -44,9 +46,11 @@
     "end": 192.23,
     "speaker_raw": "SPEAKER_11",
     "testo": "Secondo me è sempre meglio se li disannunci tu da Milano questi dischi.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Dischi",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -69,9 +73,12 @@
     "end": 217.09,
     "speaker_raw": "SPEAKER_11",
     "testo": "migliorando eh? Beh no ma sei fortissimo buongiorno a tutti buongiorno Maurizio buongiorno Stelli buongiorno Stefi buongiorno Viola ciao Viola come stai? Lo sento già dalla voce che ti manco Viola perché io sono il tuo timone io ti indico la strada.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Viola non si vede",
+    "tema": [
+      "amici",
+      "telefoni"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -420,9 +427,12 @@
     "end": 902.74,
     "speaker_raw": "SPEAKER_09",
     "testo": "Sì, ok, allora, cari ascoltatori del volo del mattino, ora ascoltiamo il Bassotto. un ricordo per tanti di noi per me è meno perché sono un pochino più piccola ma godiamocela tutta e buon ascolto a tutti grande ciao buona giornata ciao ciao ciao ed un uovo di cioccolata chissà",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il Bassotto di Davide Toffolo",
+    "tema": [
+      "musica",
+      "ricordi"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {

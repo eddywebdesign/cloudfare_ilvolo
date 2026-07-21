@@ -5,9 +5,12 @@
     "end": 184.41,
     "speaker_raw": "SPEAKER_00",
     "testo": "radio dj one nation one station one love for all the times that you ain't on my parade and all the clubs you get in using my name you think you broke my heart oh girl for goodness sake you think i'm crying on my own well i ain't Grazie a tutti Grazie a tutti. Ciao Ciao Ciao Ciao! Grazie a tutti. ... ... ...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Love Yourself di Justin Bieber",
+    "tema": [
+      "musica",
+      "citazione"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -96,9 +99,13 @@
     "end": 468.99,
     "speaker_raw": "SPEAKER_15",
     "testo": "Perché lui ha il suo posto privato e stamattina Eros è arrivato, ha messo la sua macchina lì. È arrivato Linus e non ha trovato capire. E chi si può permettere di mettere la macchina al posto di Linus? Solo Ramazzotti, perché se lo facevamo noi... Andiamo con viva voce. Fabio? Ecco! Ciao, ti volevo dire, la macchina che hai trovato nel tuo parcheggio... Sì, l'hai fatta. sarà una delle macchine che sta trafficando Mauro e invece no, è di Eros scusami, scusami direttore, non volevo ti ho posteggiato dietro e ti faccio un pochino addosso meglio dietro che sopra esatto, comunque adesso fino a mezzogiorno non può più andare via adesso che gli hai bloccato la macchina dopo di te viene da voi e poi gli facciamo fare un po' vengo a fare un salto da te e ti chiedo scusa ciao capo ciao grazie Eros che sei venuto è finito il programma abbiamo finito un disco abbiamo già molti messaggi di ascoltatori i tuoi grandissimi fan questo libro racconta 30 anni di carriera",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Eros Ramazzotti occupa il parcheggio di Linus",
+    "tema": [
+      "aneddoto",
+      "radio",
+      "ospiti"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -223,9 +230,13 @@
     "end": 796.63,
     "speaker_raw": "SPEAKER_04",
     "testo": "non l'ho vissuta tanto bene però proprio come posto come situazioni come rispetto della gente sono veramente top io ti ho visto una volta in Svezia sono venuto a vederti a Stoccolma c'era un palazzetto pienissimo ma non sei venuto a darmi il premio?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il tour europeo di Eros Ramazzotti",
+    "tema": [
+      "musica",
+      "tour",
+      "viaggi"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -505,9 +516,12 @@
     "end": 1318.2,
     "speaker_raw": "SPEAKER_15",
     "testo": "io ti ho chiamato prima e lui dopo e hai richiamato prima lui non ho da fare pipì roba grossa altro che pipì senti abbiamo anche Francesca in ascolto un'ascoltatrice ciao Biagio Francesca hai mai visto Biagio in concerto? si tante volte anche lui ma è sempre in concerto sta Francesca è sempre lì eh Biagio dove sei?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Biagio in concerto",
+    "tema": [
+      "musica",
+      "concerti"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -527,9 +541,12 @@
     "end": 1365.95,
     "speaker_raw": "SPEAKER_15",
     "testo": "perché sono io che ho telefonato è qua con me fisicamente tu hai chiamato me ma scusami Biagio, sai che una volta Eros mi ha detto che tu sei bravo a fare le imitazioni e ti abbiamo chiamato quindi chi c'è lì con te che è appena uscito dal bagno aspetta un attimo che cazzo c'ha una camera a posto del bagno chi c'è lì con te aspetta ha chiamato Volo e Eros",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Eros e le imitazioni",
+    "tema": [
+      "amici",
+      "umorismo"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -538,9 +555,12 @@
     "end": 1397.39,
     "speaker_raw": "SPEAKER_14",
     "testo": "ma dove vai Eros? volo Eros senti ma c'è lì Vasco c'è lì qualcuno con te aspetta aspetta un attimo aspetta un attimo no siamo in diretta c'è volo c'è volos volos di Eros aspetta e ragazzi come stai? tutto bene? ti risplendi? sono sicuro che parlerete di un libro molto bello lo vorrei fare anch'io ma non so che faccio tutti i giorni",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Libro bello da leggere",
+    "tema": [
+      "libri",
+      "lettura"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {

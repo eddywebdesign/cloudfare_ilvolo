@@ -449,9 +449,12 @@
     "end": 1775.03,
     "speaker_raw": "SPEAKER_11",
     "testo": "Astronavi in fiamme a largo dei bastioni di orione Colpi di fulmine che fanno impazzire le persone Sacchetti della spesa vuoti, trasportati dal vento Cani che abbaiano in tutte le lingue, senza nessun accento Maestre elementari, con emozioni complesse Le mani fredde, la pelle d'oca, le guance rosse Una lucertola traiata al sole come un essere superiore Cravate annotate in testa come una scena del cacciatore Mia madre che insegna a saltare la corda, alla mia bimba contenta, il neon dell'insegna di un motel, con una lettera spenta, la volpe che ti attraversa la strada, ritornando a notte fonda, la stessa domanda che torna senza bisogno che tu risponda, ladri che entrano in pieno giorno, dalla porta principale, babbo natale ubriaco di rum, in un villaggio tropicale, una ragazza che rischia la vita per poter fare una cosa, E non è visto ancora niente, e non è visto ancora niente. Eppure, eppure, eppure, milioni di serrature. Grazie a tutti",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Astronavi in fiamme",
+    "tema": [
+      "spazio",
+      "paura"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -460,9 +463,12 @@
     "end": 1900.09,
     "speaker_raw": "SPEAKER_01",
     "testo": "sai quando a volte gli aerei hanno delle turbolenze un po' più pesanti non so se ti è mai capitato tu sei già in aereo io fra un po' sì tu sei già in aereo delle turbolenze uno guarda la hostess di solito guarda la hostess perché se si spaventano loro c'è qualcosa adesso vedevo Maurizio era una hostess che gridava praticamente successo di tutto cose tecniche cose tecniche ha fatto oddio oddio oddio e non hai visto ancora niente allora un'ascoltatrice dice io trovo uomini gli tolgo i vizi ok no questo è un marco per mirco si praticamente gli tolgo i vizi loro mi lasciano e figliano con altre e figliano con altre ok qui abbiamo mirco da caserta buongiorno mirco ciao buongiorno buongiorno l'altro ha incontrato incontri marco d'amore in giro per caserta che l'altro giorno ha fatto una parte nella mia serie tv e mi ha detto che vive a Caserta Caserta ha una provincia vasta potrebbe essere un paesino e molti dicono Caserta ok ok scusami Mirko esponi la tua vita",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Turbolenze in aereo",
+    "tema": [
+      "viaggio",
+      "paura"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -499,9 +505,12 @@
     "end": 2052.39,
     "speaker_raw": "SPEAKER_05",
     "testo": "no ma io chi si contenta con le cose così così ma a questo punto ho un po' la sindrome del croce rossino forse non lo so come tante donne però la domanda è hai bisogno di qualcosa?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Sindrome del croce rossino",
+    "tema": [
+      "relazioni",
+      "amore"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -521,9 +530,12 @@
     "end": 2093.59,
     "speaker_raw": "SPEAKER_05",
     "testo": "di attenzione? vorrei trovare insomma una donna che no di più di più un uomo una donna col pisello quello è per te allora no tu vuoi trovare di più di una donna tu hai bisogno di trovare una mamma no di più uno specchio dove ti vedi bello think it bigger quello che vorrei è trovare una persona che mi desse lo stesso che io do a lei tu che mestiere fai Mirko? Io sono commerciante e pasticceria per passione.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Cercare una mamma",
+    "tema": [
+      "amore",
+      "relazioni"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -574,9 +586,12 @@
     "end": 2250.84,
     "speaker_raw": "SPEAKER_01",
     "testo": "la rubedo prendi una nizzarda senza rubedo mi togli uova e rubedo cos'è la rubedo?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La Rubedo",
+    "tema": [
+      "alchimia",
+      "paura"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -649,9 +664,12 @@
     "end": 2618.58,
     "speaker_raw": "SPEAKER_01",
     "testo": "allora un ragazzo dice io tutti vogliono la principessa a me basterebbe una che non rompe le palle altri che ce l'hanno altri che invece conoscevano queste parole difficili che hai nominato rubeda mareda ma non sono difficili è facile è facile nero verde nero verde bianco e rosso e rosso ok dicono che l'anigredo sia anche una birra una birra scura eh vedi perché ti butta la disperazione completa ok ok interessanti i messaggi però ci sono alcuni messaggi che si vantano dice che sono felice ho tolto il principio azzurro io ho tutto una ragazza qua scrive io sono felice così perché mi va bene il lavoro mi va bene la vita in generale mi va bene la famiglia mi va bene la relazione di coppia chissà che faccia aveva quando mi ha dato invio cioè come dire ecco beccati qua no no l'ha detto come dire oh c'è anche gente qua che è super felice ma sono più belli gli altri che dicono aiutami lei in una fase così non hai detto che è per sempre madonna poraccia adesso si starà toccando sono belli gli altri mi sento un imperatrice ma sono disperata questo è un futuro",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La principessa",
+    "tema": [
+      "amore",
+      "relazioni"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -674,9 +692,12 @@
     "end": 2627.95,
     "speaker_raw": "SPEAKER_01",
     "testo": "Oddio mi fai trappolire con questa tua visione dei delfini, che ne sappiamo. E dei gatti. E dei gatti.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "I delfini",
+    "tema": [
+      "natura",
+      "paura"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -727,9 +748,12 @@
     "end": 2699.0,
     "speaker_raw": "SPEAKER_01",
     "testo": "in inglese o in russo se me lo vuoi dare in russo l'apprezzo di più va bene grazie Igor grazie a tutti voi grazie per i messaggi per la vostra super accoglienza sono contento vi sia piaciuto questo giovedì non so se ce ne saranno altri adesso dobbiamo capire perché io giovedì prossimo sono a New York nel caso Igor a settembre non lo so boh magari domani non lo so già mi manchi mi manchi va bene grazie a tutti voi vi ricordo che Igo Civaldi scrive anche dei libri andate a cercarli c'è scritto di che cosa parlano scegliete il vostro preferito ok ciao ragazzi a domani",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Grazie a tutti",
+    "tema": [
+      "ringraziamento",
+      "amore"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   }
 ]

@@ -754,9 +754,12 @@
     "end": 2451.54,
     "speaker_raw": "SPEAKER_10",
     "testo": "Vado, vado, parto, vado in Costa Rica.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Vado in Costa Rica",
+    "tema": [
+      "viaggi",
+      "avventura"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -787,9 +790,12 @@
     "end": 2468.65,
     "speaker_raw": "SPEAKER_12",
     "testo": "Ma di dove siete in Italia? Milano Ma scusami, ma andate in vacanza o andate proprio ve ne andate?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Dove vai in Costa Rica",
+    "tema": [
+      "viaggi",
+      "avventura"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -837,9 +843,12 @@
     "end": 2490.92,
     "speaker_raw": "SPEAKER_12",
     "testo": "Buono, buono. Quando è che partite?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Quando partite",
+    "tema": [
+      "viaggi",
+      "programmazione"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -848,9 +857,12 @@
     "end": 2495.86,
     "speaker_raw": "SPEAKER_10",
     "testo": "Partiamo entro fine anno, probabilmente sarà ottobre, novembre.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Partenza entro fine anno",
+    "tema": [
+      "viaggi",
+      "programmazione"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -976,9 +988,12 @@
     "end": 2627.53,
     "speaker_raw": "SPEAKER_12",
     "testo": "io ho 30 e lui lui va quasi per i 50 bello bello ragazzi guarda in bocca al lupo tenete questo numero che noi ogni tanto vi chiamiamo a parte che ci dovete andare a fine anno per cui a settembre magari siete ancora qua però appena andate la dopo noi vi chiamiamo quando siete la ci mandate un po' di caffè certo che si va bene in bocca al lupo e ascoltateci lo stesso sul reload ok ciao ciao ciao ciao ciao ciao",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Bocca al lupo",
+    "tema": [
+      "amici",
+      "buona fortuna"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

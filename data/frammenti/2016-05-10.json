@@ -138,9 +138,12 @@
     "end": 544.37,
     "speaker_raw": "SPEAKER_12",
     "testo": "Sabato 14 maggio, via di Novoli, parte San Donato a Firenze.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "San Donato a Firenze",
+    "tema": [
+      "viaggio",
+      "Firenze"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -185,9 +188,12 @@
     "end": 557.03,
     "speaker_raw": "SPEAKER_12",
     "testo": "Benissimo. Vuoi farti un classico? Patti bravo?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Patti bravo",
+    "tema": [
+      "libro",
+      "classico"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -300,9 +306,12 @@
     "end": 1053.51,
     "speaker_raw": "SPEAKER_11",
     "testo": "cioè diciamo lui come siccome voi siete dei super fan come la stellina al centralino siccome lui vi dà tanto voi qui a San Siro per la prima volta diciamo volete ridare indietro con anche una coreografia bravissimo esatto l'idea è proprio quella cioè i concerti sono sempre bellissimi a prescindere da che noi ovviamente facciamo una coreografia e le emozioni sono",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Concerto a San Siro",
+    "tema": [
+      "concerto",
+      "San Siro"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

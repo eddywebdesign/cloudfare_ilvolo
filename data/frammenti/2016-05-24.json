@@ -66,9 +66,12 @@
     "end": 265.31,
     "speaker_raw": "SPEAKER_12",
     "testo": "come fai a sentire questo? ma è lontanissima vedi di chiuderle prima di iniziare lontanissima sono 35 metri quadrati devo andare a chiuderla no aspetta lanciamo la sigla la gente mica frega sta roba cari ascoltatori io so che a voi non dà fastidio sentire dei rumori qui del West Village di New York è quella un affettivo di Maurizio che trova tutto fastidioso se non si parla di pavia sigla Cioè, ma te guarda!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il West Village di New York",
+    "tema": [
+      "viaggi",
+      "New York"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -91,9 +94,12 @@
     "end": 415.64,
     "speaker_raw": "SPEAKER_12",
     "testo": "stracciona morta di fame ho guardato nelle tasche della giacca di Johanna se c'erano dei soldi sai quando trovi 10 euro i 5 dollari un fazzolettino di carta forse anche usato non lo so nella mia neanche un fazzoletto di carta va bene insomma ragazzi buongiorno a tutti mi lega un po' la bocca si dice mi lega come quando mangi i cacchi che si dice che fa quella all'appa diciamo a Brescia si dice che legano un po' non lo so perché come potete vedere voi nella webcam no ma voi su Skype sì Maurizio Viola sto facendo questo beverone verde sembra pesto super sano che fa veramente schifo perché è cavolo nero è zenzero e poi c'è quella roba lì gialla che fa bene al fegato come si chiama? il turmeric perché? sarebbe la curcuma siccome io ho un problema al fegato perché sono microcittemico ho la sindrome di Gilbert sono così devo ogni tanto utilizzare questa radice il tumbaring come si chiama però devo dire che fa veramente schifo domani quando mi sveglierò dopo un piccolo riposino notturno mi sono preso mezza giornata per andare a fare tipo la sauna, il bagnoturco, tutta quella roba lì alla faccia di chi ci ascolta che magari sta andando al lavoro o nel traffico io voglio passarmi un pomeriggio di quelli lì con l'asciugamano in testa",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La ricerca di soldi",
+    "tema": [
+      "denaro",
+      "poveri"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -113,9 +119,12 @@
     "end": 454.37,
     "speaker_raw": "SPEAKER_12",
     "testo": "ho più da nascondere in testa che in vita per cui pensa te come si ammessi comunque no quindi pensavo no? non vi capita mai a volte anche solo un gelato durante un pomeriggio tra una riunione e l'altra piuttosto che una passeggiata in centro al mattino imprevista cioè una roba del genere che ti cambia la giornata io però purtroppo non l'ho fatta di impulso ma l'ho programmata che perde un po' quella... come dire quella originalità spontaneità va bene non siete ancora svegli ragazzi io direi iniziamo con un bel disco dai",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il valore del tempo",
+    "tema": [
+      "tempo",
+      "valore"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -152,9 +161,11 @@
     "end": 749.18,
     "speaker_raw": "SPEAKER_15",
     "testo": "pronto Laura ciao Fabio come stai?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Pronto Laura",
+    "tema": [
+      "saluti"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -174,9 +185,12 @@
     "end": 796.16,
     "speaker_raw": "SPEAKER_15",
     "testo": "sì, in pratica mi sono alzata un pochettino in ritardo non ho fatto un tempo a toccarmi a casa sono partita, di solito ci metto quasi un paio d'ore per arrivare al lavoro ma scusami ma dove vivi e dove lavori che ci metti due ore? Io vivo a San Cesario, provincia di Roma, vicino a Frascati e lavoro all'Eur. Ma guarda, persone che vivono dentro Roma, dall'altra parte di Roma, ci mettono più o meno lo stesso tempo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La vita a San Cesario",
+    "tema": [
+      "vita",
+      "lavoro"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -218,9 +232,12 @@
     "end": 823.95,
     "speaker_raw": "SPEAKER_15",
     "testo": "Io sto in un call center adesso. Comunque noi ci siamo visti e sentiti un annesto fa, io dovevo andare a lavorare come hostess all'Expo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il lavoro al call center",
+    "tema": [
+      "lavoro",
+      "telefono"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -229,9 +246,12 @@
     "end": 834.5,
     "speaker_raw": "SPEAKER_12",
     "testo": "Ah, all'Expo, sei sempre tu, sei sempre tu. Ma scusami, ma tu hai il call center di quelli che chiami anche alle otto di sera, Vodafone, quelli di Vodafone Team, Fastweb?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il lavoro a Vodafone",
+    "tema": [
+      "lavoro",
+      "telefono"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -603,9 +623,13 @@
     "end": 1573.59,
     "speaker_raw": "SPEAKER_11",
     "testo": "a casa di amici, gente gente che incontri fai anche il couchsurfing sì, il couchsurfing è stato grazie al couchsurfing ho viaggiato in Giappone con veramente pochissimi soldi per tre mesi facendo autostop e couchsurfing senti, tu hai i capelli come si chiamano?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Viaggiare in Giappone con il couchsurfing",
+    "tema": [
+      "viaggi",
+      "economia",
+      "avventura"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -614,9 +638,13 @@
     "end": 1584.4,
     "speaker_raw": "SPEAKER_12",
     "testo": "afro, quelli lì tutti super ricci, giusto? e quindi tu sei andato in Asia dove praticamente nessuno ha i capelli così o pochissimi e in cambio ti facevi toccare i capelli",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'esperienza dei capelli afro in Asia",
+    "tema": [
+      "viaggi",
+      "diversità",
+      "interazione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

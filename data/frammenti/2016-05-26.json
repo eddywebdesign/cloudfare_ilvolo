@@ -203,9 +203,13 @@
     "end": 573.36,
     "speaker_raw": "SPEAKER_12",
     "testo": "Ma come non pensavo che ti chiamassi? Mi hai detto, allora sai che noi abbiamo la regola che se un ascoltatore del volo del mattino è triste ci dobbiamo fermare. Ci dobbiamo fermare perché non si può essere felici se uno è triste. Allora, qua siamo una famiglia, ma stai soffrendo veramente, ovviamente, ma riesci anche a scherzare, un po' ironizzare? O abbiamo sbagliato, sei depresso?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La responsabilità della felicità collettiva",
+    "tema": [
+      "empatia",
+      "felicità",
+      "comunità"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -672,9 +676,12 @@
     "end": 1697.23,
     "speaker_raw": "SPEAKER_10",
     "testo": "è giusto anche perché ultimamente si mangia addirittura niente no esatto di fare conferenze di qua e di là finisce che poi è difficile che il ristorante è chiuso ma ieri a Brescia ce n'era uno bellissimo cosa hai mangiato? beh tutto quello che c'era avrei voluto prendere molto di più però solamente tagliata di vitello con patate e prosciutto",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Mangiare al ristorante",
+    "tema": [
+      "cibo",
+      "esperienza"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -852,9 +859,12 @@
     "end": 2221.84,
     "speaker_raw": "SPEAKER_17",
     "testo": "Pelé è un supereroe da quando è qua Maurizio?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Pelé",
+    "tema": [
+      "calcio",
+      "film"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -921,9 +931,12 @@
     "end": 2297.61,
     "speaker_raw": "SPEAKER_17",
     "testo": "Vincerò la Coppa del Mondo per il Brasile. Te lo prometto.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Vincerò la Coppa del Mondo",
+    "tema": [
+      "calcio",
+      "film"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {

@@ -5,9 +5,12 @@
     "end": 125.33,
     "speaker_raw": "SPEAKER_09",
     "testo": "Radio DJ. One nation, one station. One love, one land. I know I could lie but I'm telling the truth. Wherever I go there's a shadow of you. I know I could try looking for something new. But wherever I go I'll be looking for you. some people lie but they're looking for magic others they're crying they're going insane I feel alive when I'm close to the madness no easy love could ever make me feel the same I know I could lie but I won't lie to you ciao ciao no no Ciao! no no",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Some People Lie",
+    "tema": [
+      "amore",
+      "verità"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -135,9 +138,12 @@
     "end": 767.78,
     "speaker_raw": "SPEAKER_16",
     "testo": "mentre andava la canzone viola ha gridato che voglia di andare al mare viva la puglia viva l'italia viva soprattutto il sud adesso somma da qui in avanti esplode sempre bello il sud ma d'estate da proprio il massimo il massimo di sé allora vi volevo parlare di una cosa molto interessante sono andato a mangiare con i miei amici ieri sera o qualche ora fa dipende insomma dai punti di vista in un ristorante vegano allora qui ovviamente i ristoranti vegani non è che sono solo per i vegani uno la sera esce una volta magari va a mangiare la pizza una volta la pizza così ogni tanto si va anche a mangiare vegano perché è saporito non c'è questa battaglia violenta come c'è in Italia che se sei vegano ti prendono per il culo se non lo sei ti viene voglia di prendere cioè è un disastro siamo andati a mangiare lì qui ci sono ristoranti vegani ristoranti vegetariani pesciariani che sono i vegetariani ma che mangiano il pesce i fisheriani poi c'è un ristorante bellissimo vicino a Union Square di crudisti buonissimo si mangia adesso lo so che detta così fa tristezza invece sono delle ricette si mangia buonissimo crudisti e poi anche quelli che seguono il gruppo sanguigno come quando abbiamo chiamato il dottor Mozzi l'unico problema del vegano che quando ci vado io vado volentieri pur non essendo vegano perché si mangia bene così è che è broccoli cavolfiore kale qui c'è tanto il cavolo qui diciamo che pensano che la soluzione salutista del futuro sia tutto a base di cocco c'è olio di cocco, burro di cocco latte di cocco e qui c'è il cavolo ovunque fanno anche le patatine ora ho capito perché tieni le finestre aperte ieri sera sì perché quando vai con i miei quando vai lì che io lo chiamavo anche dallo scorreggione lo chiamiamo che è qui sulla sulla e poi tornando a casa tutti insieme effettivamente passeggiando per New York",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Mangia con gli amici",
+    "tema": [
+      "amici",
+      "cibo"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -388,9 +394,12 @@
     "end": 1222.12,
     "speaker_raw": "SPEAKER_12",
     "testo": "Aspetta, questo manzo era proprio feroce. Aveva due corna enormi, enormi corna, e incornava i piccoli vitelli, vitellini piccoli piccoli, e alla fine iacca. l'abbiamo eliminato capito?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il manzo feroce",
+    "tema": [
+      "animali",
+      "agricoltura"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -399,9 +408,12 @@
     "end": 1238.86,
     "speaker_raw": "SPEAKER_00",
     "testo": "adesso basta dammi il tuo piatto troverò un pezzo che ti piacerà ecco qui su passami il tuo grazie no way sono una veggie locavore piuttosto mangio carpaccio di verdure ma soltanto verdure locali mai sentito parlare degli allevamenti intensivi?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Mangiare localmente",
+    "tema": [
+      "alimentazione",
+      "sostenibilità"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

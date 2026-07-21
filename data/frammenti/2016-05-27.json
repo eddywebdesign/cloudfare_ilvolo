@@ -169,9 +169,12 @@
     "end": 344.92,
     "speaker_raw": "SPEAKER_08",
     "testo": "ma questa spacca Va bene, ma non rimaniamo su queste cose, su queste canzoni. Allora, ci scrive un'ascoltatrice che dice che sua mamma, potete fare gli auguri a mia mamma, avete quattro giorni di tempo perché sulla carta d'identità ha una data, però sua mamma le ha detto che è nata un altro giorno. Tra l'altro tutti la chiamano Luisa ma lei si chiama Angelina.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "confusione data di nascita madre",
+    "tema": [
+      "identità",
+      "famiglia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -376,9 +379,11 @@
     "end": 516.18,
     "speaker_raw": "SPEAKER_08",
     "testo": "Non vi sbagliate. E senta, invece il nome Luisa Angelina?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Luisa Angelina",
+    "tema": [
+      "nome"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -423,9 +428,12 @@
     "end": 587.27,
     "speaker_raw": "SPEAKER_08",
     "testo": "ah da Luigi che però non era neanche ok che è anche il mio secondo nome insieme a quello di Maurizio che è qua con me va bene insomma una vita un po' confusa ma alla fine ce l'ha fatta lo stesso sono qua ancora e sto benissimo e vado a ballare anche ha deciso che vuole smettere di fumare? vuole smettere di fumare?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Vita confusa di Luigi",
+    "tema": [
+      "vita",
+      "genitori"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -512,9 +520,11 @@
     "end": 814.83,
     "speaker_raw": "SPEAKER_08",
     "testo": "Viola mi ha appena detto che mi gira una mail. Cos'è che mi hai detto? Te la giro? Te la giro. Te la giro? Ma perché devi dire giro?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Viola",
+    "tema": [
+      "nome"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -545,9 +555,11 @@
     "end": 828.62,
     "speaker_raw": "SPEAKER_01",
     "testo": "No, stamane mi hai detto stamani. Stamani. Ma ti dirò una cosa ancora più difficile. Eh.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Stamani",
+    "tema": [
+      "nome"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {

@@ -42,9 +42,12 @@
     "end": 337.88,
     "speaker_raw": "SPEAKER_18",
     "testo": "Good morning life, good morning world, how are you happiness? All at once I knew what living can be.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Buongiorno vita mondo felicità",
+    "tema": [
+      "felicità",
+      "vita"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -53,9 +56,12 @@
     "end": 424.06,
     "speaker_raw": "SPEAKER_12",
     "testo": "un ascoltatore dice che invece è una settimana che si sveglia prima della sveglia è la stagione ma tu senti gli uccellini hai la fortuna di avere piante e uccellini lì vicino ho il tetto perché tu sei in mansarda fa caldo e freddo in mansarda si sta bene ma quella mansarda come ce l'avevo io a Verona che picchiavo la testa cioè col tetto che va giù quando abitavo a Verona che la stanza era grande più o meno come questo studio avevo messo il divano in fondo al muro che il tetto veniva giù così quindi tu quando ti sedevi lo vedevi il muro e ti abbassavi dopo un po' che ero lì poi sai fumacchiavi bevevi così io ho degli amici che sempre con il telefono dell'ambulanza mi passavano Avevo le graffiate sul muro dei capelli.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La mansarda di Verona",
+    "tema": [
+      "abitazione",
+      "Verona"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -75,9 +81,12 @@
     "end": 474.94,
     "speaker_raw": "SPEAKER_12",
     "testo": "Sangue! Va bene, va bene. Allora, suoni belli invece tecnologici, quelli che piacciono a me, sono il cestino del computer quando lo sguardo. Quello lì mi fa proprio godere. E anche quando mandi la mail con il cellulare che fa... infatti se ce l'ho in silenzioso vado subito a metterlo in suono normale va bene oggi ragazzi è una giornata importante perché il volo del mattino quando si tratta di ricordare cose importanti noi ci siamo oggi ricordiamo è bella questa qua oggi sarebbe stato ma è perché è eterno il compleanno di Giovanni Falcone quindi lo ricordiamo io direi iniziamo subito una bella canzone perché ho già parlato tanto va bene poi mi trovi quella lì che svuota il cestino a me svuota il cestino",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Suoni tecnologici",
+    "tema": [
+      "musica",
+      "tecnologia"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -115,9 +124,12 @@
     "end": 734.02,
     "speaker_raw": "SPEAKER_01",
     "testo": "va bene io volevo dire una cosa Fabio non a proposito di musica ma volevo dire una cosa a proposito di suoni e di appartamenti chi ha la fortuna di abitare in alto a differenza mia che abito a piano terra non riesce a sentire quando ad esempio i cani si avvicinano e fanno i loro bisognini vicino all'appartamento cioè Maurizio che sta in mansarda sente gli uccellini tu senti addirittura i cani che fanno la bimbi esatto no ma dai",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Suoni e appartamenti",
+    "tema": [
+      "abitazione",
+      "suoni"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -185,9 +197,12 @@
     "end": 980.9,
     "speaker_raw": "SPEAKER_13",
     "testo": "No, no, ho la radiolina. Ho la radiolina perché quella è immortale. Quella non ti delude mai la radiolina. Il telefonino per i posti dove vado io è un po'... ti sento che ogni tanto vai via senti Alex quando sei lì da solo che pensieri ti vengono quando sei lì da solo con le tue pecore che guardi la valle diciamo a tante cose soprattutto rifletti su tante cose su tante cose anche che senti anche che appunto che ti risultano strano perché sembra ma è un mondo che viaggia parallelo a quello moderno rifletto su tante cose che mi sembrano assurde dal mio punto di vista io magari sono lì comunque sei sempre qui ci metti tante ore tutto il giorno per lavorare però ad esempio rifletto sulla frenesia che vedi passarti di fianco quando sei in pianura cioè tu sei lì che pascoli con un migliaio di bestie in un prato e la gente che passa su una strada statale a cento metri di distanza non si accorge neanche quasi che esisti quella roba lì fa riflettere perché tu comunque viaggi con un'alta velocità",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": " Riflessioni da solo",
+    "tema": [
+      "riflessione",
+      "solitudine"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

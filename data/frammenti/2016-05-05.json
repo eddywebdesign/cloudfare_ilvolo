@@ -397,9 +397,12 @@
     "end": 1098.36,
     "speaker_raw": "SPEAKER_09",
     "testo": "No, che praticamente noi due siamo una coppia, no? E lei sarebbe la mia ballerina, no? Ah! Scusami! La mia ballerina. Tango, liscio? No, no, chi zomba?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La ballerina",
+    "tema": [
+      "amore",
+      "danza"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -854,9 +857,13 @@
     "end": 2165.28,
     "speaker_raw": "SPEAKER_11",
     "testo": "è partita con la cosa economica è una questione come dicevano le nostre mamme vai a lavorare in posta che c'hai lo stipendio fisico scusami tra l'altro è un ballo che ci si sta un po' ad osso no?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La sicurezza del posto fisso",
+    "tema": [
+      "lavoro",
+      "sicurezza",
+      "tradizione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

@@ -710,9 +710,11 @@
     "end": 2329.74,
     "speaker_raw": "SPEAKER_00",
     "testo": "Sennò lo registrano. Sporcamo il mix! Confermatelo uno scrive. Grazie. chi è Proci?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Proci",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -735,9 +737,12 @@
     "end": 2406.82,
     "speaker_raw": "SPEAKER_07",
     "testo": "c'è da sportare la macchina venga fuori qualcuno che da solo non ce l'ha fatto farcela sono arrivati anche Andrea e Michele a ballare è un sì o un no per DJ Tirelli pollice su ok voi due follower come vi siete trovati? vi piace? lo confermiamo? è duro dir di no in faccia alla gente",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "DJ Tirelli",
+    "tema": [
+      "amici",
+      "festa"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -802,9 +807,11 @@
     "end": 2682.0,
     "speaker_raw": "SPEAKER_00",
     "testo": "chiudiamo se vuoi se non hai più niente da dire beh ma da bocca non ho più niente da dire dall'89 allora chiudiamo ciao ragazzi buon weekend viva la V",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ciao ragazzi",
+    "tema": [
+      "buon weekend"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   }
 ]

@@ -588,9 +588,12 @@
     "end": 1811.51,
     "speaker_raw": "SPEAKER_12",
     "testo": "esatto sei da bocca aperta così non si perché io respiro anche solo con la bocca perciò proprio mamma mia non sono neanche particolarmente in sovrappeso comunque ti è chiaro che lui ti ama no?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'uomo che ti ama",
+    "tema": [
+      "amore",
+      "relazione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -625,9 +628,12 @@
     "end": 1915.39,
     "speaker_raw": "SPEAKER_15",
     "testo": "space with minimal waste maximum joy city lights business nights when you require street car desire for higher highs no place for beginners or sensitives",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Space with Minimal Waste",
+    "tema": [
+      "musica",
+      "canzone"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {

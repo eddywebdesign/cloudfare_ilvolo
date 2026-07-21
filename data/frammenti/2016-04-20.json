@@ -38,9 +38,12 @@
     "end": 241.89,
     "speaker_raw": "SPEAKER_01",
     "testo": "Oh yeah! allora i messaggi che arrivano prima del programma no perché c'è gente che si mette in coda come davanti ai negozi e dicono uno dice voglio il momento Adriana no cioè ho bisogno di darmi una carica un altro dice fate piano che ho fatto tardi ieri sera per il lavoro allora non sappiamo cosa fare se seguiamo dobbiamo essere leader noi dobbiamo imporre loro ci devono seguire",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Gente che si mette in coda",
+    "tema": [
+      "comportamento",
+      "ascoltatori"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -60,9 +63,12 @@
     "end": 289.21,
     "speaker_raw": "SPEAKER_01",
     "testo": "la priorità secondo me è intanto voi due Enzino e Viola che smettete di ridere solo perché ho aperto la gazzetta e Enzino ha detto oh Fabio con la gazzetta fai fare una foto e io ho capito tra l'altro come quando leggo tutti gli altri giornali che tra l'altro pochissimo ultimamente io parto dal fondo errore anche le riviste non so perché io non parto mai dalla prima pagina parto dall'ultima perché forse nei giornali poi lì c'è tv spettacolo c'è le cose che mi interessano di più e poi vado poi le prime pagine del Corriere Pubblica potrebbero stampare la stessa pagina da vent'anni la stessa roba no è viola eh no eh no la gazzetta se sei il vero lettore della gazzetta A non puoi partire dal fondo B leggi solo le prime 5-6 pagine",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Leggere i giornali",
+    "tema": [
+      "lettura",
+      "informazione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -71,9 +77,12 @@
     "end": 296.47,
     "speaker_raw": "SPEAKER_07",
     "testo": "No, nel senso che gli sport minori, minori tra virgolette, sono alla fine. È vero che a Zettaro non interessa.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Zettaro",
+    "tema": [
+      "libro",
+      "sport"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -115,9 +124,12 @@
     "end": 365.44,
     "speaker_raw": "SPEAKER_10",
     "testo": "Good morning life, good morning sun, how are you skies above, gee it's great to be alive and in love.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Good morning life",
+    "tema": [
+      "musica",
+      "canzone"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -181,9 +193,12 @@
     "end": 563.58,
     "speaker_raw": "SPEAKER_06",
     "testo": "che cosa c'è che non va che poi quando ho scritto il messaggio mentre lo inviavo ho detto figurati se Maurizio cambia la scaletta è uno smorso sei non me lo metterà mai è uno smorso sei dimenticavo che oggi non c'è quindi vuoi mettere un disco vuoi mettere un disco tuo Se metto il disco lì è finita la trasmissione e io metterei i Pink Floyd.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Citazione dei Pink Floyd",
+    "tema": [
+      "musica",
+      "radio"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -225,9 +240,13 @@
     "end": 710.11,
     "speaker_raw": "SPEAKER_08",
     "testo": "ritrovandomi sempre sveglio alle tre del mattino paure diverse mi sono reso conto che è la paura la peggiore delle disgrazie è la paura il vero nemico perciò alzati vada ad affrontare la vita reale e se il mondo è un bastardo allora colpiscilo con tutta la forza che hai",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La paura come nemico",
+    "tema": [
+      "paura",
+      "coraggio",
+      "vita"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -269,9 +288,12 @@
     "end": 884.88,
     "speaker_raw": "SPEAKER_12",
     "testo": "Out there in the cold, getting lonely, getting old, can you feel me? Hey you, standing in the aisles with itchy feet and fainting smiles, can you feel me? Hey you, don't help them to bury the lies without a fight hey you out there on your own sitting naked by the phone would you touch me hey you with your ear against the wall waiting for someone to call out would you Grazie a tutti.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Testo di Hey You dei Pink Floyd",
+    "tema": [
+      "musica",
+      "solitudine"
+    ],
+    "tipo": "lettura_volo",
     "video_url": ""
   },
   {
@@ -500,9 +522,12 @@
     "end": 1396.3,
     "speaker_raw": "SPEAKER_01",
     "testo": "Madonna, gliel'hai messa giù così da maestrina. A parte che posso dirti, a 11.30 non dovevi più scrivere e far finta che anche tu ti eri dimenticata. Invece la butti sul rispetto e non ti richiama più. Però... ma no ma chiamato pure si sentiva in colpa diceva ma si è dimenticato no vabbè è una cosa veramente vabbè avrà una cosa importante vuoi darci il numero lo chiami in diretta e dico che sono la polizia del rispetto",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La cena da sola",
+    "tema": [
+      "solitudine",
+      "amore"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -522,9 +547,12 @@
     "end": 1450.23,
     "speaker_raw": "SPEAKER_01",
     "testo": "Ah, se lo può permettere. Io ho avuto una vita un po' così, non ero figo, però ero famoso per cui, insomma, senza sto lavoro sarei morto vergine. Invece c'è stato un momento che mi è andata bene. Sai come succede questa roba che si è dimenticato? Che lui alle sette, alle otto, quando ti ha chiamato a mezzogiorno, ha chiamato te, ha messo te e ha mandato un messaggio alle altre otto. poi non sapeva durante il giorno che stasera chi è che mi butto giù stasera e poi diventano le 5 del pomeriggio e poi alla fine all'ultimo rischi anche di rimanere senza niente invece qualcuno ha risposto qualcuno più carino di te ha risposto",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il ragazzo che si dimentica",
+    "tema": [
+      "amore",
+      "dimenticanza"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -533,9 +561,12 @@
     "end": 1466.95,
     "speaker_raw": "SPEAKER_05",
     "testo": "no ma la cosa assurda è che io poi alla fine alle 11 sono andata a cena da sola stavo sbarionando e sono andata a cena nell'hotel in cui lui era e cioè casualità della sorte poi non ci siamo incrociati per fortuna ma",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La cena da sola (continuazione)",
+    "tema": [
+      "solitudine",
+      "amore"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -610,9 +641,12 @@
     "end": 1916.13,
     "speaker_raw": "SPEAKER_13",
     "testo": "Astronavi in fiamme al largo dei bastioni di Orione, colpi di fulmine che fanno impazzire le persone, sacchetti della spesa vuoti, trasportati dal vento, cani che abbaiano in tutte le lingue senza nessun accento, maestre elementari con emozioni complesse, le mani fredde, la pelle d'oca, le guance rosse. Mia madre che insegna a saltare la corda, alla mia bimba contenta, il neon dell'insegna di un motel, con una lettera spenta, la volpe che ti attraversa la strada, ritornando a notte fonda, la stessa domanda che torna senza bisogno che tu risponda. Ladri che entrano in pieno giorno, dalla porta principale, babbo natale ubriaco di rum, in un villaggio tropicale, una ragazza che rischia la vita per poter fare una cosa normale. eppure eppure eppure milioni di serrature non riesco Grazie a tutti",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Descrizione poetica",
+    "tema": [
+      "natura",
+      "immaginazione"
+    ],
+    "tipo": "lettura_volo",
     "video_url": ""
   },
   {
@@ -764,9 +798,13 @@
     "end": 2532.18,
     "speaker_raw": "SPEAKER_00",
     "testo": "dove diciamo si vede soprattutto diciamo si parla dei cani nei canili esatto io ho fatto un video per un'associazione che si chiama Acqua che vuole dimostrare che tutti i cani non solo i cani di razza ma anche quelli abbandonati anche quelli qui nei canili possono diventare cani guida per non vedenti questo è interessante Sì, è molto bello, infatti ve lo sto raccontando perché mi è piaciuta molto questa iniziativa e loro lo vogliono fare in un modo dolce, quindi inserendo il cane nell'ambiente famiglia. Non ti danno un cane già pronto, un robot, ma conoscono il non vedente, pensano al cane che potrebbe andare bene per lui, lo selezionano nei canili e poi li fanno crescere insieme. Creano un rapporto tra loro.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Cani dei canili come cani guida",
+    "tema": [
+      "animali",
+      "solidarietà",
+      "disabilità"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
