@@ -43,6 +43,17 @@ python3 -u scripts/verifica_frammenti.py >> "$LOG" 2>&1
 rc2=$?
 echo "$(ts) verifica_frammenti.py terminato (exit $rc2)." >> "$LOG"
 
+# Aggiunto 2026-07-21: Hugo legge il badge "da rivedere" SOLO da
+# data/frammenti_dubbi.json (.Site.Data.frammenti_dubbi), mai da
+# logs/frammenti_dubbi.json (dove scrive davvero verifica_frammenti.py, sullo
+# share). Prima di oggi questa copia la faceva lancia_verifica_autonoma.ps1 su
+# HP14 - macchina uscita dal processo automatico la sera del 20/07, quindi la
+# copia si era fermata e il badge era tornato stantio senza che nessuno se ne
+# accorgesse. Ora la fa direttamente questo script, cosi' arriva anche in git
+# tramite autocommit_dati_omv.sh (git add data/, ogni 20 min).
+cp "$(dirname "$ILVOLO_DATA_DIR")/logs/frammenti_dubbi.json" data/frammenti_dubbi.json 2>>"$LOG"
+echo "$(ts) data/frammenti_dubbi.json aggiornato per Hugo." >> "$LOG"
+
 # Aggiunto 2026-07-18: verifica anche i riferimenti storici (libri/film/musica),
 # mai riprocessati dopo il fix di ancoraggio del 17/07. Solo segnalazione
 # (logs/riferimenti_dubbi.json), non cancella/modifica nulla da solo.
