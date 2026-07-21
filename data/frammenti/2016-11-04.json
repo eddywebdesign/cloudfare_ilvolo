@@ -595,9 +595,13 @@
     "end": 2362.54,
     "speaker_raw": "SPEAKER_00",
     "testo": "Ormai di questi argomenti parlo da così tanto tempo che proprio non è necessario che scriva niente. Anche se però tutte le volte è una grande ansia, un pompa tema.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'ansia di parlare in pubblico",
+    "tema": [
+      "ansia",
+      "comunicazione",
+      "esperienza"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -617,9 +621,13 @@
     "end": 2382.05,
     "speaker_raw": "SPEAKER_00",
     "testo": "Dipende dagli anni. I primi due anni sono andati benissimo. L'anno scorso erano un pochino meno cerchieri, parlavano di meno, intervenivano di meno. Io conto che quest'anno invece intervengano molto.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'interazione con gli studenti",
+    "tema": [
+      "scuola",
+      "giovani",
+      "comunicazione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

@@ -258,9 +258,13 @@
     "end": 718.13,
     "speaker_raw": "SPEAKER_01",
     "testo": "Il male c'è. Non sono solo una figura stravagante che indossa un costume rosso acceso e assume atteggiamenti bislacchi. Come ha detto lei, io sono un simbolo. il simbolo della capacità che hanno gli esseri umani di reprimere quelle egoistiche, odiose tentazioni che regolano gran parte della nostra vita. Se lei non è capace di credere, non può accettare niente per fede. Allora è condannata a una vita dominata dal dubbio.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il significato simbolico di Babbo Natale",
+    "tema": [
+      "fede",
+      "simbolismo",
+      "umanità"
+    ],
+    "tipo": "lettura_volo",
     "video_url": ""
   },
   {
@@ -577,9 +581,13 @@
     "end": 2224.47,
     "speaker_raw": "SPEAKER_09",
     "testo": "C'è qualche donna in ascolto un po' butterfly, cioè che sta aspettando che quello lì che si è fidanzato, sposato, fatto i figli, torni da lei. Bizeffe. Ce ne sono? Però adesso c'è Facebook, è una fregatura, perché pattisci a ogni clic sulla vita dell'altro. Noi social network sono un disastro. Cos'è sto coso? Bello. Sentite che roba vi abbiamo messo. Ma chi? Quello lì, l'ho visto sulle foto di Facebook, lo vedo che non è felice.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'impatto dei social sulle relazioni",
+    "tema": [
+      "social network",
+      "relazioni",
+      "gelosia"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -621,9 +629,11 @@
     "end": 2391.53,
     "speaker_raw": "SPEAKER_03",
     "testo": "I wanna reach out and touch the flame where the streets have no name Sì. Grazie. Grazie a tutti.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Where the Streets Have No Name",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -665,9 +675,11 @@
     "end": 2522.88,
     "speaker_raw": "SPEAKER_14",
     "testo": "Ah, no, che ci sono un sacco di Madame Butterfly.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Madame Butterfly",
+    "tema": [
+      "opera"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {

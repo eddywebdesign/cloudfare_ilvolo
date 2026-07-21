@@ -358,9 +358,12 @@
     "end": 1038.13,
     "speaker_raw": "SPEAKER_07",
     "testo": "che va capito un piccoglio un pesantone senti io so che tu vuoi sentire Sigma featuring Birdie Find Me perfetto brava ciao Brunella ciao grazie ciao che bella voce anche l'uomo la Bruni",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Dedica musicale a Brunella",
+    "tema": [
+      "musica",
+      "radio"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -463,9 +466,12 @@
     "end": 1564.25,
     "speaker_raw": "SPEAKER_07",
     "testo": "Infatti, a parte che contento abbiamo detto che non è positivo Abbiamo detto che non va bene, allora ragazzi non bisogna più dire sono contento, bisogna dire sono felice, sono felice Pronto? Ehi, come stai? Fabio Ah, avevi sbagliato un numero, mi hanno spaventato Come stai? Ti sento male, mi senti? Gianluca, Gianluca, pronto? Mi senti? Aspetta un attimo, scusa. Che c'hai la sega circolare accesa lì. Ah, proprio con l'attesa.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Differenza tra essere contenti ed essere felici",
+    "tema": [
+      "felicita",
+      "linguaggio"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

@@ -186,9 +186,11 @@
     "end": 852.88,
     "speaker_raw": "SPEAKER_15",
     "testo": "perché è il prequel per prepararti a partire sull'uno vabbè grazie ah perché tu dici hai paura che se uno dice perché se uno dice uno due tre quattro uno due non aggancia bene così no hai capito quindi è il prequel per prepararti per l'uno è il prequel è il prequel come guerre stellari sono fermi e poi partono sull'uno",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Guerre Stellari",
+    "tema": [
+      "cinema"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -362,9 +364,13 @@
     "end": 1249.46,
     "speaker_raw": "SPEAKER_09",
     "testo": "Sai che ci sono delle cose che... Per contare, no? Uno dice uno, due, tre. In America, perché uno non faccia uno, due, tre, quattro, si dice Mississippi. No, non lo so. One Mississippi, two Mississippi, three Mississippi. Ma perché? Perché la lunghezza di Mississippi dà il tempo giusto per saltare al secondo dopo, capito? No. 1, 2, 3, 4 1, 2, 3, 4 conta fino a 10 allora per farlo giusto fai o Mississippi o Mississippi e invece come dice anche Woody Allen in un suo film per togliere i batteri dalle mani quando usi il sapone devi cantare così la canzone Happy Birthday se tu canti happy birthday to you e ti lavi alla fine il tempo è giusto perché se smetti di lavarti prima i batteri non li hai tolti del tutto infatti non li tolgo mai posso dire ragazzi stiamo dando notizie di una rilevanza impressionante allora abbiamo altri due commenti intanto possiamo dire che se andate in California da oggi la marijuana è considerata ricreativa anche prima hanno votato per il referendum non è più che dovete avere delle malattie per poter comprare la marijuana anche a scopo ricreativo cioè se siete con i vostri amici e volete fare una cannetta è legale invece prima devi avere un problema all'occhio, la circolazione, i dolori a scopo terapeutico quindi stasera quelli che hanno votato Hillary Clinton come nel film di Nanni Moretti che quando visse Berlusconi lui nel film aprile se non sbaglio con sua mamma al tavolo tira a fare un cannone lungo come un avambraccio e se lo fuma tra l'altro Nanni Moretti ha commentato il fatto che Hillary Clinton non ha ancora fatto il discorso",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il metodo Mississippi per contare il tempo",
+    "tema": [
+      "tempo",
+      "metodo",
+      "conteggio"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -453,9 +459,12 @@
     "end": 1381.81,
     "speaker_raw": "SPEAKER_09",
     "testo": "Con gli slip e lui ha la maglietta col fisico disegnato! Desicca! comunque dicono uno domodossola uno domodossola Didi domodossola tra poco con Laura Pausini volevo dire che sono un'amica di Celeste la ballerina di Lodi e mi sono sorbita tutti i suoi saggi di danza ecco Celeste una tua amica ha scritto non si è firmata Ho cinque biglietti per il concerto dei Coldplay e non so cosa farne. No, oggi faccio i filtri e ricomincio a fumare. Così.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Concerto dei Coldplay",
+    "tema": [
+      "musica",
+      "concerto"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -701,9 +710,13 @@
     "end": 2635.68,
     "speaker_raw": "SPEAKER_09",
     "testo": "Fino adesso è incostituzionale il fatto che in maniera automatica sia l'uomo, cioè il maschio, il padre a dare il cognome al proprio figlio. Adesso diciamo che è 50-50 per cui nelle famiglie si potrà decidere, diamo il tuo, diamo il mio, verranno fuori che daranno tutti e due, quindi verranno fuori tutti che siano tutti nobili. della della rocca della stocca cavolo i tuoi figli i miei figli i miei figli darò il cognome islandese che sarebbe sarebbe Fabio Son sarebbe Sebastian Fabio Son ma no il cognome della Johanna mica il tuo eh no perché il cognome della Johanna è figlia di Hux che è suo papà Hux Dottir hai capito? sì lì non funziona anche la Russia ha completamente un altro posto allora non per farmi promozione non per dire che su internet abbiamo già spopolato e sono l'uomo più felice del mondo abbiamo già fatto dei record sono proprio felice quindi siccome so che molti di quelli che hanno visto la mia serie sono ascoltatori del volo del mattino sicuramente quindi io già vi ringrazio perché non tanto per me ma perché a me mi va sempre bene però insomma c'è veramente un gruppo di ragazzi che hanno dato il sangue per fare questa cosa perché ci siamo voluti togliere da una serie di dinamiche produttive fantastiche scriverò un libro un giorno su questo sogno meraviglioso che hanno fatto questi ragazzi più del mio Ok, quindi vi metto solo la canzone della sigla perché mette allegria. E basta. I gotta go, me ne devo andare. E vattene.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La legge sul cognome dei figli",
+    "tema": [
+      "famiglia",
+      "diritti",
+      "società"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

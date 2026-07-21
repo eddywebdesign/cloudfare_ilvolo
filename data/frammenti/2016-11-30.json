@@ -5,9 +5,13 @@
     "end": 149.06,
     "speaker_raw": "SPEAKER_18",
     "testo": "a tutto quello che non basta a tutti gli alibi alla verità a quello che non hai mai chiesto ad ogni dubbio che si accenderà al cielo azzurro dietro a un vetro ad uno sguardo che si è perso ormai All'innegabile paura che questa vita non mi basterà. Gli alberi, le foglie, il sole, un temporale e io cerco una risposta, cerco una risposta alla strada dolce. Cerco una risposta alla strada dove ogni cosa... A tutto quello che non resta, a quello che poi si dimentica, ad un'idea che gira in testa, a cosa chiede il mio DNA, alle domande più frequenti, alla paura, alla necessità. alla bellezza di un tramonto, al mio bisogno di semplicità, a quello che non so capire, a tutto quello che verrà. Le alberine, i fogli, il sole, un temporale e io cerco una risposta, cerco una risposta alla strada.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Lettura di un testo poetico",
+    "tema": [
+      "vita",
+      "dubbio",
+      "verità"
+    ],
+    "tipo": "lettura_volo",
     "video_url": ""
   },
   {
@@ -71,9 +75,12 @@
     "end": 339.63,
     "speaker_raw": "SPEAKER_14",
     "testo": "Good morning life, good morning sun, how are you? Surprise above, it's great to be alive. Good morning life, good morning bird, say how's your happy tooth? Feels so good cause I'll be seeing her soon. Bye bye bye bye bye bye. ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Good morning life",
+    "tema": [
+      "musica",
+      "vita"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -159,9 +166,13 @@
     "end": 584.12,
     "speaker_raw": "SPEAKER_08",
     "testo": "Esatto, io ho le mamme che mi dicono che questi bimbi... I bambini stanno col telefono tantissimo ore al giorno in mano e utilizzano molto il pollice, la posizione è statica per cui il tendine si infiamma e le mamme non riescono a togliere ai bambini questo telefono.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'impatto dell'uso eccessivo dello smartphone sui bambini",
+    "tema": [
+      "tecnologia",
+      "bambini",
+      "salute"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -291,9 +302,12 @@
     "end": 1057.84,
     "speaker_raw": "SPEAKER_11",
     "testo": "I Rem sono quel gruppo musicale che se tu esci dall'Italia e dici Rem, nessuno capisce. Sappiate che se uscite dall'Italia dovete dire R-E-M, come i Levis. Le Nike, va bene. Allora, due cose, veloci veloci, giusto. Dunque, anni fa una mia amica tedesca era andata dal pediatra e aveva chiesto al pediatra quanto poteva dormire la bambina fuori sul terrazzo. Così ha rischiato una denuncia. perché al nord Europa ma in che stagione? no anche d'inverno perché il nord Europa Svezia, Islanda i bambini dormono fuori coperti bene però fuori prendono l'aria fuori a Milano magari non conviene tanto non è proprio un'aria buonissima ieri ragazzi c'ho il jet lag come si dice sono giustificato oggi sono un po' lento no, ieri è successa diciamo una cosa, c'è stata una conferenza stampa ok, una conferenza stampa che ha buttato lì della tristezza perché non è l'annuncio di una cosa bella è una cosa che a noi si... capito? cioè ieri i Pooh hanno detto che faranno un concerto il 30 di dicembre sarà l'ultimo che poi sarà visto in tutti i cinema d'Italia e ha detto e chiuderanno con questo concerto abbiamo un pezzo della conferenza stampa come ha reagito a questa notizia cioè si è oscurato il cielo capito per oggi c'è una bella notizia legata a quella notizia brutta che è il compleanno di red che noi chiamiamo tutti gli anni buongiorno red dai dimmi che è una trovata di marketing e poi dopo a gennaio dite no rifacciamo una tournée",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Amica tedesca e denuncia al pediatra",
+    "tema": [
+      "famiglia",
+      "salute"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -324,9 +338,13 @@
     "end": 1153.44,
     "speaker_raw": "SPEAKER_00",
     "testo": "ognuno di noi continuerà a fare quello che ha sempre fatto io oltre alla musica che continuerò a fare tu lo sai che ho la passione per la salute per il veganismo e queste cose qua per cui a febbraio esco con un libro che ho scritto a quattro mani con Chiara mia figlia dove io parlo dell'etica vegana e lei presenta 50 ricette meravigliose tutte vegane e tutte italiane bello bene bene bene bene riprendiamo in mano la nostra vita a fare quelle cose che abbiamo sempre messo in un cassetto perché sono sempre arrivati prima i pu come la mia come la mia research di Proust che la devo leggere ce l'ho lì già nel cofanetto lo vedi?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Pubblicazione libro sull'etica vegana",
+    "tema": [
+      "alimentazione",
+      "etica",
+      "libri"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -368,9 +386,12 @@
     "end": 1263.17,
     "speaker_raw": "SPEAKER_00",
     "testo": "guarda oggi mi piacerebbe riascoltare un pezzo che ho scritto 40 anni fa che si titola Colazione a New York perché noi siamo in un pullman in questo momento e stiamo andando alla Malpensa perché vogliamo su New York dove dopo domani abbiamo un concerto a Long Island ma sono tornato ieri da New York e vedevo che c'era del fermento lì sulla Fifth Avenue non capivo non capivo va bene ciao Red in bocca al lupo salutaci tutti un abbraccio a voi grazie Fabio ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Citazione del brano Colazione a New York",
+    "tema": [
+      "musica",
+      "viaggi"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -632,9 +653,13 @@
     "end": 2387.37,
     "speaker_raw": "SPEAKER_06",
     "testo": "Sale già leggera l'idea di una moto e via, notte sei in vita. Modila la tua fantasia, non dormire aspettando domani. Crescerà forte più di te questa voglia di vita tra le tue mani.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Vivere il presente senza aspettare il domani",
+    "tema": [
+      "vita",
+      "fantasia",
+      "presente"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -643,9 +668,12 @@
     "end": 2425.51,
     "speaker_raw": "SPEAKER_11",
     "testo": "il buio ti innamora è una licenza poetica ti fa innamorare qual è l'altra invece da scegliere? Cicale? anche questa senti come entra questa è già più Pink Floyd per niente senti sembra un radio Che lei entra subito con il ritornello.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Citazione dei Pink Floyd",
+    "tema": [
+      "musica",
+      "pink floyd"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -698,9 +726,13 @@
     "end": 2743.59,
     "speaker_raw": "SPEAKER_11",
     "testo": "beh Maurizio non capivi cicale cale cale gli ascoltatori te lo spiegano c'è cale inteso come ci importa ci interessa in che lingua la cicale è una citazione della cicale la formica cicale vuol dire ci interessa quindi delle cicale ci interessa delle formiche no tra l'altro sembra che sia pare che sia un'espressione toscana Mai sentita, cioè praticamente di quella vita lì delle formiche che lavorano così non ci interessa perché noi diciamo è una canzone di festa e quindi ci interessa solo cantare e ballare. Ti abbiamo spiegato Maurizio? Sei contento? Sei soddisfatto della spiega? Ok, ok. Allora, mercoledì scorso e anche il mercoledì prima abbiamo fatto i Gypsy King perché volevamo fare un po' di festa. oggi siccome siamo entrati in questo diciamo tormentone Cuccarini e Terparisi per il programma televisivo che inizierà venerdì di quegli anni lì diciamo c'erano altre donne, c'era Tracy Spence Tracy Chapman tra l'altro il mondo radio DJ perché era quegli anni lì, Franchino Cecchetto Io ho la foto con lei, lo sai? Io e il mio amico Marco Paroli di Brescia, il nano, ok?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il significato del brano Cicale",
+    "tema": [
+      "musica",
+      "linguaggio",
+      "interpretazione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -742,9 +774,12 @@
     "end": 3026.92,
     "speaker_raw": "SPEAKER_11",
     "testo": "ascoltatori attenti che dicono ma sai perché non la trovi touch me di sabrina salerno perché hai sbagliato era di samantha fox ho sbagliato tette scusatemi perché lì era io tanto samantha fox proprio poster in cameretta lei con il calzoncino in g ma così mi segui siamo fuori troppo corto sto programma",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Confusione tra Samantha Fox e Sabrina Salerno",
+    "tema": [
+      "musica",
+      "anni ottanta"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   }
 ]

@@ -5,9 +5,11 @@
     "end": 45.11,
     "speaker_raw": "SPEAKER_12",
     "testo": "Don't put your blame on me Don't put your blame on me Ciao Ciao",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Citazione brano Don't put your blame on me",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -411,9 +413,12 @@
     "end": 1429.87,
     "speaker_raw": "SPEAKER_13",
     "testo": "Vabbè, ma segniamolo per il Natale, scusami, ma me lo metti adesso così, cosa c'entra? Ho sentito la canzone di Natale di Radio DJ. È bella? L'ho sentita e ne ho anche già cantato un pezzo. Sembra che sia mojo insieme a Last Christmas, senti. È un po' mojo? Figus. Figus? È la mia preferita, cacchio. Che pezzo tolgo. che se non sbaglio mojo è proprio in inglese è il contrario cioè vuol dire una cosa energetica credo che mojo non è mojo come in italiano sai che ci sono le parole quelle come l'inglese lo spagnolo per esempio in islandese costruire si dice picchia quindi Sebastian va a scuola e dice alla maestra papi picchia con Sebastian e loro pensano io meno mio figlio a casa invece facciamo il lego ottima copertura di rientro alla pubblicità abbiamo ancora musica da festa adesso un italiano a Radio DJ solo musica italiana Max Gazzeo bella Radio DJ solo musica italiana un'amica che ti tiene compagnia per favore se io fossi al tuo posto fare meglio e preservare questo nostro rimasuglio di un'intesa",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Last Christmas",
+    "tema": [
+      "musica",
+      "natale"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -455,9 +460,11 @@
     "end": 1662.56,
     "speaker_raw": "SPEAKER_13",
     "testo": "va davanti? uno dei tuoi cavalli di battaglia quando ero cintura nera di karaoke tra i miei cavalli di battaglia c'era My Way e poi c'era quella bellissima degli Stadio Grande figlio di Wuhan, anche amico per te, uno che ti guarda anche la luna. È nel sole, certo. Posso fare il mashup se vuoi, come prima abbiamo fatto il mashup. Signore e signori, andiamo nella capitale, che pian pianino sta risorgendo. Buongiorno, Patrizia. Ciao, Fabio. Ciao, ciao, come stai?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "My Way",
+    "tema": [
+      "karaoke"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -789,9 +796,12 @@
     "end": 2267.16,
     "speaker_raw": "SPEAKER_13",
     "testo": "No, no, ma io sono... ma figurati, a me non mi torna manco il sorriso, figurati, ho una vita sola, non ho tempo. Però, dico, non c'è qualcuno in ascolto che ha quella sensazione? Che come la fai? C'è sempre un parente, un amico, un prof, che ti dice, ma falla tu, no? Ma scusi, ma perché non l'hai fatta tu, meglio. Eh, ma cosa vuol dire? stiamo allegri portiamo non solo la felicità e diciamo la serenità ma portiamo anche un po' di tamarragine siccome una delle grandi critiche che ricevo è che sono un ragazzo di provincia tanto volevo fare una distinzione tra essere provinciali ed essere di provincia ok uno può essere anche di provincia ma non essere provinciale e io non sono provinciale ci tengo a dirlo sono di provincia me ne vanto puzzo di birra sì, puzzo di campagna sì, ho le scarpe sporche di vitame sì, e io a casa sul tavolo ballo i gypsy kick che bella immagine biscotto? no, mon amour facciamo dieci secondi di gypsy kick oh, mannaggia a me che non sono andato a scuola ancora non me lo perdono e sfondo e sfondo",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La critica altrui",
+    "tema": [
+      "giudizio",
+      "relazioni"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

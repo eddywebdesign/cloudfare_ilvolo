@@ -27,9 +27,12 @@
     "end": 329.53,
     "speaker_raw": "SPEAKER_05",
     "testo": "Buongiorno mezzaseghe. good morning life good morning bird sing out you're happy too feel so good cause I'll be seeing her soon whoa whoa whoa whoa whoa last night she said she loved me what a pity to part I slept with both eyes open waiting for today to start good morning life good morning world how are you happiness all at once I knew what living can be bravi, continuate così",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Good Morning Life",
+    "tema": [
+      "musica",
+      "buongiorno"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -147,9 +150,11 @@
     "end": 834.2,
     "speaker_raw": "SPEAKER_13",
     "testo": "never say goodbye to desire when we are together rainy days growing in your eyes tell me where's the way rainy days never say goodbye to desire when we are together rainy days",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Rainy Days",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -191,9 +196,12 @@
     "end": 888.42,
     "speaker_raw": "SPEAKER_03",
     "testo": "tra l'altro la usava anche Basquiat per per impingere esatto quindi immagina ma non so è questa non lo so è Bolero Ravelli vai sì questa sì sì è questa eh ma qui è ancora low profile più avanti più avanti dopo proprio te la sbatte in faccia tanto così no no vai avanti di nove eh sì quindici minuti avanti dura tre questo sì",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Bolero di Ravel",
+    "tema": [
+      "musica",
+      "arte"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -497,9 +505,12 @@
     "end": 1317.5,
     "speaker_raw": "SPEAKER_00",
     "testo": "La tela di Penelope che non vuoi mai finire. Questo è un po' pericoloso, questo adesso non so neanche se si può leggere. Facevo buio pesto, mi bagnavo l'avambraccio con l'alcol, gli davo fuoco e facevo l'uomo torcia in camera, poi spegnevo tutti in una bacinella. No, è impossibile. Mi compravo i roller d'inverno e l'unico posto dove potevo usarli era a camera mia, i roller, tre metri per tre, facevo avanti e indietro, vado alla finestra, contenti quelli sotto, io una cameretta non l'avevo, dormivo in corridoio, quindi per me è l'unico momento mio, non sono io Fabio, sto leggendo un messaggio. l'unico momento mio era la domenica quando facevo il bagno e stavo lì chiusa per delle ore che cantavo anche le mie canzoni a volte piangevo per la felicità di star da sola ma che immagini ma i nostri ascoltatori sono così posso dire una cosa cari ascoltatori quando viene dottor Mozzi che dice come curarsi con il cibo ci mandate un miliardo di messaggi che ci vede un sacco dei problemi Quando viene Andrea Cirelli per la parte psicologica e sentimentale si bomba la cosa e ci avete un sacco di problemi. Quando parliamo di ricordi di povertà... Eh ma sono i tuoi.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'infanzia e i giochi pericolosi",
+    "tema": [
+      "infanzia",
+      "giochi"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

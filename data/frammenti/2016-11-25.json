@@ -5,9 +5,12 @@
     "end": 218.36,
     "speaker_raw": "SPEAKER_06",
     "testo": "Non è facile pensare di andar via E portarsi dietro la malinconia Non è facile partire, puoi morire di un mondo migliore Che possa esistere. Quando passa la necessità di andare Quando è ora, è ora, è ora di partire Che non puoi, non puoi, non puoi più rimandare che possa esistere",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Testo di una canzone sul partire",
+    "tema": [
+      "partenza",
+      "malinconia"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -49,9 +52,12 @@
     "end": 357.48,
     "speaker_raw": "SPEAKER_03",
     "testo": "Good morning life, good morning sun, how are you skies above, it's great to be alive and in love. Posso cantare? Ah, canta tu, dai! Last night she said she loved me What a pity to part I slept with all that open Waiting for it to start Good morning life, good morning world How are you, happiness? All at once I knew what living can be Oh it's life, it's free, someone wins for me, for someday be my wife.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Good Morning Life",
+    "tema": [
+      "musica",
+      "vita"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -60,9 +66,12 @@
     "end": 430.67,
     "speaker_raw": "SPEAKER_14",
     "testo": "Allora, vi volevo dire intanto che sono andato a vedere una mostra dei Rolling Stones, che è un super capolavoro, nel senso c'è tutta la loro storia. Hanno rifatto, diciamo, ricostruito il loro appartamento quando all'inizio della loro carriera vivevano insieme. e cercavano di raccattare un po' di soldi tutto sporco tutto sporco con i piatti con le sigarette spente dentro proprio va bene super rock and roll poi tutti i loro costumi tutti i loro album tutte le foto così alla fine in 3D c'è una I can't get no satisfaction che tu col 3D è come se fossi proprio sotto il palco a vederli chissà se poi questa mostra l'inaugurazione è stata la settimana scorsa e c'erano proprio i Rolling Stones chissà se verrà anche in Italia speriamo Per tutti gli amanti dei Rolling Stones. Come state ragazzi? Molto bene. Vi sento un po' spenti. No, stiamo benissimo. Sarà che la mia immagine qui nell'armadio un po' ammorba tutti. Ma non mettiamo un po' di gypsy king come l'altro giorno? Un piccio piccio qui, un piccio là. Niente oggi. Sì, va bene, se vuoi. Niente festa? Non lo so.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Mostra dei Rolling Stones",
+    "tema": [
+      "musica",
+      "storia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -423,9 +432,12 @@
     "end": 1204.82,
     "speaker_raw": "SPEAKER_00",
     "testo": "Per me la natura è, sai, non lo so, i ragni, i cimici, il pesce grosso che mangia il piccolo, le piante che mangiano altre piante, animali che mangiano... È un enorme ristorante, così la vedo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La natura come un enorme ristorante",
+    "tema": [
+      "natura",
+      "vita"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -489,9 +501,11 @@
     "end": 1562.19,
     "speaker_raw": "SPEAKER_14",
     "testo": "grandissimi come sempre gli XX al volo del mattino sono sempre ben accolti e ben accetti ci piacciono da matti allora una domanda il tacchino quanti ginocchi ha? due voi lo sapete per esempio che si chiamano zampe non gambe beh e che tutte le braccia dei macchinari si dicono bracci? sì certo perché un giorno in radio ho detto lì c'era la macchina che faceva andare i bracci si era scatenato l'inferno ignoranti così e invece no si dice i bracci della macchina va bene Scusate, non c'entrava niente, ma io sono di quelli che non hanno studiato e quando sanno una cosa la devono dire per far bella figura, come dire, la so. Comunque adesso noi stiamo per fare una cosa importante, ok? Adesso io mi fingerò uno della polizia postale. Cosa che non si può fare, però. Cosa che non si può fare, però se no nessuno di voi mi querelerà, a parte la ragazza vegana che si è arrabbiata perché prima ho detto che ho assaggiato il tacchino, vabbè ti chiedo scusa. Comunque adesso noi chiamiamo... ok e andiamo a scovare questo ragazzo che diciamo come dire vabbè chiamiamola pronto Gabriele? ciao scusami è la polizia postale polizia postale abbiamo ricevuto una mail dove una ragazza dice che mentre lei alpicci sul divano credo sia la tua fidanzata Giada tu ogni tanto vai lì e col pisello glielo picchi in faccia sono Fabio Volo radio dj come stai scusami se ti disturbo ma scusa ma Gabriele ma io sapevo che era uno scherzo è un numero sconosciuto sarà un cretino che si diverte ascoltami no pensavamo che tu non so da dietro con la mano no davide schiaffi sulla faccia allora l'abbiamo chiamata invece lei ci ha spiegato no che tu fai la doccia poi stai a doccia e pam pam ma gli dai le pisellate ma non è vero",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Gli XX al Volo del Mattino",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -687,9 +701,13 @@
     "end": 2230.34,
     "speaker_raw": "SPEAKER_01",
     "testo": "e al mattino mi sveglio, inizio a lavorare e non ho l'impressione di farlo e questo è un grosso regalo che la sorte mi ha concesso io sono afflitto da una forma di bulimia comunicativa cioè mi piace provare tutto è proprio un desiderio, una curiosità voglia di fare, di mettermi in gioco, di provare io credo di non avere mai da un punto di vista mentale superato i 17 anni infatti questo sarà, presumo, anche il mio epitafio Mi fa sorridere il mondo, mi fanno sorridere di tenerezza certi spettacoli, certe cose, ogni tanto arrivano a casa delle foto, sai queste cose che gli amici mandano, questi PPS dove ci sono delle foto di cuccioli, di animali, animali con i loro cuccioli, mi fa sorridere un bel panorama, mi incanta un tramonto, mi fanno sorridere certe persone perché capisco che sono persone vere, autentiche, reali. Mi fanno infuriare altre cose sulle quali cerco di glissare, cerco di dimenticare. La vita e il lavoro di un comico sostanzialmente non è neanche la riproduzione oppure il racconto di quello che la vita offre di comico, di suo. perché niente è così creativo come la realtà penso che fare il comico sia una delle arti più difficili che esistano sia un'arte nobilissima e credo che una risata sia uno dei più bei regali che un uomo possa fare a un altro uomo Chi riesce a trovare le chiavi per far ridere il mondo del mondo è una persona che sicuramente ha una sensibilità che è pari a quella di chi riesce in qualche modo a far riflettere il mondo a proposito del mondo. Questa è sempre stata la mia battaglia.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La curiosità come motore della vita",
+    "tema": [
+      "lavoro",
+      "curiosità",
+      "giovinezza"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -698,9 +716,12 @@
     "end": 2252.25,
     "speaker_raw": "SPEAKER_14",
     "testo": "ciao Giorgio allora questa canzone l'avete già riconosciuta è una canzone di Lucio Battisti però questo è un remix un remix che ho trovato in rete non so neanche se è legale però devo dire che prima del weekend ci sta proprio soprattutto anche dopo queste parole per come dire entrare in una buona armonia con tutto ciò che c'è intorno",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Remix di Lucio Battisti",
+    "tema": [
+      "musica",
+      "armonia"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -753,9 +774,12 @@
     "end": 2578.37,
     "speaker_raw": "SPEAKER_14",
     "testo": "tutto accade per un motivo tutte le cose si inseguono per un motivo quindi non è una coincidenza non è una coincidenza ma è solo un'ignoranza davanti a dei fatti che non riusciamo ad analizzare perché abbiamo messo questa canzone di Battisti e proprio ieri mi ha detto Viola c'era una mail di un'ascoltatrice che voleva dedicare questa canzone al suo fidanzato veramente coincidenza Azzurro aveva detto ieri buon compleanno al fidanzato ricorda che si vive solo il tempo in cui si ama vedi mi sconti sempre che voglio fare il programma di dedica e richiesta e poi era irresistibile comunque Scusatemi, l'altro giorno con Giuliano siamo andati a mangiare in un posto, c'erano dei suoi amici, c'era questa ragazza che era fidanzata, a un certo punto chiacchieriamo e la conosco anch'io, stacco, vado a vedere il bar dove inizia la mia serie televisiva, la scena di New York e lei lavora lì. voglio dire New York è grande le persone sono tante eppure ho conosciuto una sono andato lì a vedere il bar e lei lavorava lì per coincidenza è la danza della realtà ma va fate in chi la buongiorno a tutti ci sentiamo lunedì mattina torna ciao ciao ciao",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il significato delle coincidenze",
+    "tema": [
+      "coincidenze",
+      "destino"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   }
 ]

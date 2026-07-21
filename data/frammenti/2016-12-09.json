@@ -16,9 +16,12 @@
     "end": 56.72,
     "speaker_raw": "SPEAKER_06",
     "testo": "La radio passa già le canzoni di Sinatra. E come una promessa se ne va una serenata. La cravatta che mi hai regalato l'anno scorso l'ho cambiata.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Citazione di Frank Sinatra",
+    "tema": [
+      "musica",
+      "natale"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -60,9 +63,12 @@
     "end": 192.96,
     "speaker_raw": "SPEAKER_13",
     "testo": "Eccola qua, una notte frattante Eccolo qua, è il Natale Per le navi e i pescatori Per i grandi sognatori Per chi aspetta l'occasione Per chi resta sempre fuori Per i giochi e i bambini Per i furbi e gli assassini Per mia madre, per gli artisti Per chi scrive le canzoni",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Testo sul Natale",
+    "tema": [
+      "natale",
+      "umanità"
+    ],
+    "tipo": "lettura_volo",
     "video_url": ""
   },
   {
@@ -126,9 +132,13 @@
     "end": 674.11,
     "speaker_raw": "SPEAKER_00",
     "testo": "Ricordo sempre un amico di mio padre che allenava i ciclisti, lo dico sempre, i bambini ciclisti, che un genitore disse ma non si può mettere qualcosa nella borraccia per farlo andare più veloce a un bambino di sei anni. Ridi, ma i bambini cambiano sport o si allontanano dallo sport. Eh beh, ma certo, scusa, l'antagoria, cioè l'ansia che i genitori mettono su quella. Comunque abbiamo belle notizie. Sì. perché è uscito, sta uscendo il film di Scorsese ok si chiama Silent io la settimana scorsa sono andato a Roma a intervistare Scorsese quindi un'emozione ovviamente per me stare lì seduto a chiacchierare con lui e Mick Jagger è diventato papà l'abbiamo detto nei giorni scorsi siccome loro due insieme Scorsese e Mick Jagger hanno creato Vinyl si fanno 150 anni il papà di Michael Douglas 100 fa 100 anni oggi io l'ho incontrato per strada una volta a New York uscendo da un albergo tipo almeno dieci anni fa e sembrava già impagliato ai tempi comunque lo portavano in giro non da solo però camminava dalla porta alla limousine però la faccia anche Michael lì un po' di botox è già messo bene ti ricordi Michael si è tirato tutto sì pensa che lui non può chiudere bene gli occhi se strizza l'occhio scorreggia per esempio allora non può capito lui strizza l'occhio solo in posti molto rumorosi o in bagno va bene a proposito di New York Times a proposito di New York guarda che collegamenti così no vi ho portato questo disco questa mattina che non credo sia mai passato qui su Radio DJ perché è abbastanza famoso diciamo nel mondo il New York Times lo dichiara come uno degli album e soprattutto questo singolo più belli del 2016",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il genitore e il bambino ciclista",
+    "tema": [
+      "genitori",
+      "sport",
+      "ansia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -137,9 +147,11 @@
     "end": 824.87,
     "speaker_raw": "SPEAKER_07",
     "testo": "e quindi prima che finisca il 2016 lo ascoltiamo anche noi emotion and math everything's alright it's just when you're gone I start to snooze the alarm cause I stay up until four in the morning counting all the days to your back Oh, it's a shame and I'm to blame Cos we're alright Until you go and I start losing control Without a warning Counting all the days till you're back Shivering in an ice-cold bag Of emotions and pain Ciao! Ciao! Ciao!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Citazione brano Emotion and Math",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -159,9 +171,13 @@
     "end": 938.21,
     "speaker_raw": "SPEAKER_09",
     "testo": "ma soprattutto sul calcio io mi ricordo andai a una partita ma di bambini piccolissimi c'erano questi genitori che urlavano ai bambini tipo simulazione sei un attore gli facevano gli applausi per prenderlo in giro ma bambini di sei anni io sono convinto che sia l'abuso infantile",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "partita di calcio e abuso",
+    "tema": [
+      "calcio",
+      "abuso",
+      "bambini"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -324,9 +340,12 @@
     "end": 1243.31,
     "speaker_raw": "SPEAKER_12",
     "testo": "... ... I'm a legal alien, I'm an Englishman in New York If manners make us mad, as someone said He's our hero of the day It takes a man to suffer ignorance and smile Be yourself, no matter what they say",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Englishman in New York di Sting",
+    "tema": [
+      "identità",
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -401,9 +420,11 @@
     "end": 1687.47,
     "speaker_raw": "SPEAKER_00",
     "testo": "buongiorno a tutti benvenuti se siete arrivati adesso se siete saliti in macchina se avete preso un taxi il tassista casualmente sta ascoltando il volo del mattino ciao ciao tassista mi piace questa canzone di Samuel Ti piace questa canzone di Summer che si chiama Rabbia, forse è per questo, ci trovi? Eh sì, e non sapevo quale fosse il titolo, adesso... Ecco vedi, vedi, l'inconscio aveva già letto questo titolo. Allora, andiamo a Bergamo un secondo, da Londra a Bergamo che si assomigliano, che a volte uno passeggiando per Bergamo pensa di essere a Londra e viceversa. Buongiorno Marco! Buongiorno Fabione!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Rabbia di Samuel",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -434,9 +455,12 @@
     "end": 1786.98,
     "speaker_raw": "SPEAKER_01",
     "testo": "senti Marco tu sei ridicolante ma sei anche arbitro io adoro la pallavolo ho giocato a livelli infimi perché il mio fisico non mi permetteva di più poi ho fatto il dirigente e adesso negli ultimi anni sono arrivato a fare anche l'arbitro maschile e femminile uguale? è uguale noi fino a livello provinciale e regionale facciamo comunque maschile e femminile",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'esperienza come arbitro di pallavolo",
+    "tema": [
+      "sport",
+      "pallavolo"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -610,9 +634,13 @@
     "end": 2354.34,
     "speaker_raw": "SPEAKER_00",
     "testo": "Per esempio questo si manifesta in situazioni poi anche un po' estreme. Porto un esempio abbastanza pesante di una mia esperienza di vita. Quando è nato mio primo figlio, che è nato prematuro, quindi incubatrice, quindi vi dico delle ore abbastanza di panico tra vita e morte, una roba abbastanza pesante. Quando io chiedevo agli infermieri o ai medici che erano lì, muore, vive, sono domande che mi viene da piangere ancora adesso, pur sapendo che se la sarebbe cavata non me l'hanno mai detto perché se poi fosse morto io avrei potuto denunciarli. e quindi loro ci hanno tenuto su quella griglia per non essere querelati e noi abbiamo passato dei giorni delle ore di inferno e questo succede tanto per esempio questo atteggiamento come dice questa maestra di danza non c'è nessuna autocritica e tu sei sempre hai sbagliato devi pagare non c'è più quella sorta di umanità che teneva in piedi i rapporti può dire così stavo pensando che magari stavano seguendo un protocollo sicuramente come negli Stati Uniti quando io vado a New York lì ci si denuncia per tutto qualsiasi cosa fa parte la denuncia loro non dicono mai niente addirittura se io chiedo quando sono andato a vedere una volta una casa ma di che abitava una famiglia qui se io ti rispondo e ti dico sposate con figli tu mi puoi denunciare quindi non parlano, sono tutti una paura della Madonna e questo porta a la medicina e alla chirurgia come si chiama? Ricordi che aveva fatto il servizio anche Nadia?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La nascita prematura del figlio",
+    "tema": [
+      "genitori",
+      "paura",
+      "vita"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -643,9 +671,11 @@
     "end": 2408.62,
     "speaker_raw": "SPEAKER_03",
     "testo": "I feel like somebody I wanna live, wanna die On a silver lining",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Testo del brano Silver Lining",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -687,9 +717,12 @@
     "end": 2647.13,
     "speaker_raw": "SPEAKER_00",
     "testo": "quando farai la puntata su medicina difensiva chiamami che ho tante cose da dirti va bene per i padri di qualche generazione fa dice un ascoltatore i figli erano praticamente delle merde incapaci per i genitori di oggi il figlio sono sempre dei premi nobeli incompresi no non ci sono più i non sei capace a far niente ma sei il più bravo di tutti è il mondo che non ti capisce è vero mio fratello arbitro di calcio di ragazzi età elementari ok quindi diciamo dai 6 ai 10 più o meno quell'età lì è 11 è dovuto rimanere chiuso negli spogliatoi perché un genitore voleva picchiarlo dopo che mio fratello aveva ammonito suo figlio ma riempiono veramente le pagine di cronaca ormai tutti i giorni allora senti questo quando giocavo mio figlio la domenica era una guerra mi piace perché fa degli esempi ho visto mamme arrampicate su reti sputare in testa agli arbitri mamme in pelliccia rotturarsi per terra e gridare verso i mariti senti la frase vai a casa a prendere la pistola vai a casa a prendere la pistola ma in che zona è d'Italia? non lo so Fiorella scrive così no da Collegno io pensavo fosse chissà cosa fallo a mio figlio fallo a mio figlio vai a casa a prendere la pistola mentre sputa dalla rete ci dovrebbe essere una legge che incatena alcune persone va bene detto questo sono le 9.53.55 ci sentiamo lunedì a casa a prendere la pistola",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La percezione dei figli tra generazioni",
+    "tema": [
+      "genitori",
+      "educazione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   }
 ]
