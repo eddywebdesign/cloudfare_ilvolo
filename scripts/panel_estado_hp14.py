@@ -334,12 +334,6 @@ class PanelEstado:
         # proceso K16), misma formulacion exacta que panel_control.py.
         self.lbl_progreso_total = ttk.Label(t1, text="", style="Info.TLabel")
         self.lbl_progreso_total.pack(anchor="w", pady=(4, 0))
-        # Frammenti DE ESTA puntata en concreto -- separado del total
-        # acumulado, mismo criterio que panel_control.py (K16).
-        self.lbl_frammenti_episodio = ttk.Label(t1, text="", style="Info.TLabel")
-        self.lbl_frammenti_episodio.pack(anchor="w", pady=(4, 0))
-        self.lbl_classificazione_stats = ttk.Label(t1, text="", style="Info.TLabel")
-        self.lbl_classificazione_stats.pack(anchor="w", pady=(4, 0))
         # Reloj en vivo, independiente del ciclo de refresco de 15s: prueba
         # inequivocable de que el panel sigue vivo y no congelado (el bug real
         # del 2026-07-19 en panel_control.py se quedaba con la ultima tarjeta
@@ -350,6 +344,15 @@ class PanelEstado:
         t2 = self._tarjeta(cont, "2. Identificación (OMV, Groq/Cerebras/Gemini)")
         self.lbl_clas = ttk.Label(t2, text="Cargando...", style="Info.TLabel")
         self.lbl_clas.pack(anchor="w", pady=(6, 0))
+        # Frammenti (2026-07-21): estadisticas de CLASIFICACION, no de
+        # transcripcion -- viven aqui, no en la card 1. lbl_clas arriba es un
+        # snapshot del ultimo giro del cron; estas dos se recalculan EN VIVO
+        # cada refresco, por eso la etiqueta "en vivo ahora mismo".
+        ttk.Label(t2, text="Estado en vivo ahora mismo:", style="Info.TLabel").pack(anchor="w", pady=(10, 0))
+        self.lbl_frammenti_episodio = ttk.Label(t2, text="", style="Info.TLabel")
+        self.lbl_frammenti_episodio.pack(anchor="w", pady=(4, 0))
+        self.lbl_classificazione_stats = ttk.Label(t2, text="", style="Info.TLabel")
+        self.lbl_classificazione_stats.pack(anchor="w", pady=(4, 0))
 
         t3 = self._tarjeta(cont, "3. Commit/Push (OMV → GitHub)")
         self.lbl_push = ttk.Label(t3, text="Cargando...", style="Info.TLabel")

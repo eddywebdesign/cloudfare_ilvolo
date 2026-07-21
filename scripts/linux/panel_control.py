@@ -264,15 +264,6 @@ class Panel:
         self.lbl_progreso_total = ttk.Label(tarjeta, text="", style="Info.TLabel")
         self.lbl_progreso_total.pack(anchor="w", pady=(4, 0))
 
-        # Frammenti DE ESTA puntata en concreto -- separado del total
-        # acumulado (linea siguiente), que antes se mostraban mezclados en
-        # una sola linea sin distinguir "de este episodio" vs "de siempre".
-        self.lbl_frammenti_episodio = ttk.Label(tarjeta, text="", style="Info.TLabel")
-        self.lbl_frammenti_episodio.pack(anchor="w", pady=(4, 0))
-
-        self.lbl_classificazione_stats = ttk.Label(tarjeta, text="", style="Info.TLabel")
-        self.lbl_classificazione_stats.pack(anchor="w", pady=(4, 0))
-
         # Tarjeta separada, solo lectura: estado de la clasificacion. Desde
         # 2026-07-18 corre en OMV (cron diario), ya no en HP14 — se lee del
         # mismo share (logs/estado_clasificacion.json via ILVOLO_LOGS_DIR),
@@ -284,6 +275,21 @@ class Panel:
         ).pack(anchor="w")
         self.lbl_clasificacion = ttk.Label(tarjeta_clas, text="", style="Info.TLabel")
         self.lbl_clasificacion.pack(anchor="w", pady=(6, 0))
+
+        # Frammenti (2026-07-21): estas dos lineas viven aqui, NO en la card 1
+        # de transcripcion -- son estadisticas de CLASIFICACION (trabajo del
+        # OMV), no de transcripcion (trabajo del K16). Antes vivian mezcladas
+        # en la card 1 repitiendo el mismo numero que aqui arriba sin
+        # explicar la relacion. A diferencia de lbl_clasificacion (snapshot
+        # del ultimo giro del cron), estas se recalculan EN VIVO cada
+        # refresco -- por eso llevan su propia etiqueta "en vivo ahora mismo".
+        ttk.Label(
+            tarjeta_clas, text="Estado en vivo ahora mismo:", style="Info.TLabel",
+        ).pack(anchor="w", pady=(10, 0))
+        self.lbl_frammenti_episodio = ttk.Label(tarjeta_clas, text="", style="Info.TLabel")
+        self.lbl_frammenti_episodio.pack(anchor="w", pady=(4, 0))
+        self.lbl_classificazione_stats = ttk.Label(tarjeta_clas, text="", style="Info.TLabel")
+        self.lbl_classificazione_stats.pack(anchor="w", pady=(4, 0))
 
         # Tarjeta separada, solo lectura: estado dell'ultimo giro di
         # sync_snapshot_data.ps1 su HP14. Legge estado_push.json dallo stesso
