@@ -82,9 +82,12 @@
     "end": 370.5,
     "speaker_raw": "SPEAKER_11",
     "testo": "allora ti stavo dicendo abbiamo tutta questa cosa per esempio gli ascoltatori siccome domenica vado al salone del libro di Torino ho pensato vieni quindi ho scritto su twitter Maurizio vieni vieni anche tu perché ci sono tanti ascoltatori del volo del mattino che vengono lì a sentirmi devi venire anche tu porti parole vabbè Torino Milano che cazzo Maurizio Ma vieni col treno solo un'ora, adesso vai con le frecce lì un'ora. Io vado la mattina presto.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Salone del libro di Torino",
+    "tema": [
+      "libri",
+      "eventi"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -129,9 +132,12 @@
     "end": 488.13,
     "speaker_raw": "SPEAKER_11",
     "testo": "ma come se mi fanno uscire? vuoi mettere queste ansie? perché non dovrebbero farmi uscire? non so, 100 euro in nero e magari quelli del Salone Libo mi danno 100 euro in nero ascoltami una cosa Maurizio parliamo di cose serie Allora, ha già mandato un messaggio chiaro all'ascoltatrice di ieri, quella delle fragole così, che ha ricevuto molte telefonate e molti messaggi su Facebook. Ok, abbiamo altri ascoltatori oggi che ci chiedono, mi fate pubblicità all'azienda? Adesso pian pianino lo faremo. Ma ti voglio regalare, insieme a tutti i nostri ascoltatori, l'immagine, quest'immagine di una nostra ascoltatrice calabrese. Senti quest'immagine. Cari ascoltatori, riposatevi un attimo, sentite quest'immagine. Sono al lavoro già da un'oretta. E piove. Mi piace quando nello studio non è ancora arrivato nessuno. Sto ritoccando dei disegni, sposto linee, ne cancello altre e ascolto nel frattempo Immigration di Mark Horton. Lo conosci Mark Horton? Ha fatto la conoscenza anche di Nebraska? L'hai visto il film Nebraska? No. Non l'ho visto, non ho avuto tempo. Esatto. Guardate il film Nebraska. È un film americano... che senza retorica addolcisce senza retorica è miele che addolcisce la vecchiaia e senza risoluzioni rassicuranti a voi una buona giornata Francesca ascoltatrice calabrese infreddolita ecco immaginati questa situazione lei da sola in studio magari con un tè caldo un caffè lungo non lo so così che disegna come eravamo bambini è bello quando si arrivano in studio che non c'è ancora nessuno è una bella immagine per iniziare il programma o no? sì sì sì no bellissimo cosa ti senti di dire?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Maurizio e il carcere",
+    "tema": [
+      "carcere",
+      "libertà"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

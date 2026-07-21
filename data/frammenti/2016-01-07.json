@@ -60,9 +60,12 @@
     "end": 251.76,
     "speaker_raw": "SPEAKER_01",
     "testo": "Diciamola subito. Non è colpa mia. Tanto vuoi dirmi bentornato, come sono andate le feste, ti voglio bene, mi sei mancato, mi volevi dire questo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Non è colpa mia",
+    "tema": [
+      "amore",
+      "relazioni"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -451,9 +454,12 @@
     "end": 1491.63,
     "speaker_raw": "SPEAKER_11",
     "testo": "Un ristorante giapponese a Milano, sì, non so come chiamarlo, se avete idee, sì, non lo so.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ristorante giapponese a Milano",
+    "tema": [
+      "cibo",
+      "viaggi"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -654,9 +660,12 @@
     "end": 1812.39,
     "speaker_raw": "SPEAKER_01",
     "testo": "Di solito ti portano quella cosa che è un po' gommosa, con dentro... Eh, bravo, sì. Che cos'è quello? Di ravioli dolci con dentro delle marmellate, delle cose...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ravioli dolci con marmellate",
+    "tema": [
+      "cibo",
+      "dolci"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {

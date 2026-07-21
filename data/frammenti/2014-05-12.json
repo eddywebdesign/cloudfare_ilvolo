@@ -16,9 +16,12 @@
     "end": 184.12,
     "speaker_raw": "SPEAKER_11",
     "testo": "We're a thousand miles from comfort We have traveled land and sea But as long as you are with me There's no place I'd rather be I would wait forever Exalted in the sea As long as I am with you Ciao! when I am with you there's no place I'd rather be",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "We're a thousand miles",
+    "tema": [
+      "amore",
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -219,9 +222,12 @@
     "end": 539.44,
     "speaker_raw": "SPEAKER_10",
     "testo": "chi è più felice di me voglio scordarmi di te ma detto il cuore se cercherai ritroverai l'amore fin quando sei gioventù sorridi sempre di più la donna un fiore ti dà il profumo ma tanto oggi nel mondo non c'è nessuno nessuno più felice di me bene",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Voglio scordarmi di te",
+    "tema": [
+      "amore",
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {

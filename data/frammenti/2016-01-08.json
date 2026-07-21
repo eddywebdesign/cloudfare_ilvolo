@@ -334,9 +334,12 @@
     "end": 1215.89,
     "speaker_raw": "SPEAKER_05",
     "testo": "All right love Used to hold and kiss me Till the dawn Then one day I awoke And he was gone there's no more baby baby all night long he called me baby baby all night long lord I feel so empty since he's been gone Until the dawn I miss my baby Baby baby baby All night long He called me baby Baby baby All night long Yes he did Kiss my teeth ... ... nowish night and dreams just like a song I can still hear baby baby baby Ciao!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "All Night Long",
+    "tema": [
+      "musica",
+      "nostalgia"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -1426,9 +1429,11 @@
     "end": 3030.11,
     "speaker_raw": "SPEAKER_03",
     "testo": "ciao ciao Ciao! a presto Ciao!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ciao a presto",
+    "tema": [
+      "buona notte"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -1437,9 +1442,12 @@
     "end": 3116.35,
     "speaker_raw": "SPEAKER_13",
     "testo": "va bene ragazzi con fatica siamo arrivati alla fine di questa settimana le feste e le ferie ormai sono proprio concluse per qualcuno da molto tempo per altri insomma in questi giorni io torno domani ci sentiamo lunedì a bomba e ci sentiamo bene con un bel suono il volo del mattino dalle 9 alle 10 stagione 2016 iniziata così così ma che finirà alla grande tra l'altro ho molte belle notizie da darvi torna col comodino non ti presentare senza il comodino Viola vuoi che ti porto qualcosa? maglietta I love New York I love New York quella col cuore ciao ragazzi grazie scusate ancora ci sentiamo lunedì ciao Ciao!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Fine settimana",
+    "tema": [
+      "feste",
+      "ferie"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   }
 ]

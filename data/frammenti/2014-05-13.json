@@ -567,9 +567,12 @@
     "end": 1888.27,
     "speaker_raw": "SPEAKER_09",
     "testo": "Ci sono i bambini in ascolto che sono molto contenti. Ti volevo solo fare una domanda. Sì? Maurizio sostiene che Topo Gigio è un nome d'arte, ma che tu si chiami Edoardo Zanzara, ma è vero? Pronto? Edoardo Zanzara? Ha messo giù. Ha buttato giù? Forse non lo voleva far sapere, scusami. può essere, vabbè è caduta, l'abbiamo messo giù sembra che l'abbiamo messo giù è una parola che lo manda fuori di testa gli ha ricordato qualcosa allora psicologicamente forse ritelefona e lui è troppo ciccio di nuovo",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La vera identità di Topo Gigio",
+    "tema": [
+      "identità",
+      "segreto"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -578,9 +581,12 @@
     "end": 1975.66,
     "speaker_raw": "SPEAKER_05",
     "testo": "Pronto? Pronto? Sono Topo Giglio. Ciao. Trapazzami di cordone. Ma scusami, ha chiamato lui adesso. Mi tremano i baffi, mi tremano dalle emozioni. Ma è vero che ti chiami Edoardo Zanzara? Pronto? Pronto? Edo... Niente, non c'è... Vabbè, allora, adesso cosa va a richiamare? Pronto? non siamo in onda vero? no no di chi sei amico tu in radio? tipo Gigio? io? io sono nell'ufficio di Linus perché cosa fai lì quando lui non c'è? io come faccio il palinsesto con le mie zampette scrivo le cose sulle griglie ti dirà che effettivamente ascoltando l'adio ogni tanto il sospetto mi è anche venuto va bene ciao Edoardo ti saluto Ma ascolta, tu fai bonetti però di cognome. Sì, ma non lo dire a nessuno. Sarà il nostro segretone, segretone, segretone. Ciao, ciao, ciao, ciao. Maurizio, come si chiama il cognome?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La chiamata di Topo Giglio",
+    "tema": [
+      "telefono",
+      "risposta"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -690,9 +696,12 @@
     "end": 2309.06,
     "speaker_raw": "SPEAKER_09",
     "testo": "anche io voglio l'astuccio con la faccia di Maurizio Maurizio è diventato il più famoso di radio DJ mi darai un 10% delle tue nuove entrate delle tue nuove entrate allora scusami è sulla nostra pagina facebook del volo del mattino qualcuno chi c'è un nome così lo ringraziamo Alessandra Alessandra ha postato un video di una bambina che vede il padre che si fa la barba c'è tutta la scena proprio il padre con la barba la bambina che gioca poi il papà va a fare la barba e torna torna e la bambina cosa fa? piange? piange?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'astuccio con la faccia di Maurizio",
+    "tema": [
+      "musica",
+      "popolare"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -738,9 +747,12 @@
     "end": 2590.0,
     "speaker_raw": "SPEAKER_04",
     "testo": "Ciao Ciao Ciao Grazie a tutti. Ciao! ... ... ... ... ... ...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La chiusura della puntata",
+    "tema": [
+      "ciao",
+      "saluto"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
