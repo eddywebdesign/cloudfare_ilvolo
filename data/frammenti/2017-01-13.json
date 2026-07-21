@@ -247,9 +247,13 @@
     "end": 986.2,
     "speaker_raw": "SPEAKER_10",
     "testo": "Io non guardo il voto di laurea perché in realtà tantissime ricerche scientifiche hanno dimostrato proprio scientificamente che non è predittivo poi della performance al lavoro Qual è una cosa che guardi? una cosa che guardo la capacità di lavorare insieme la capacità di risolvere problemi ma quello glielo fai tu stamattina questo test o lo capisci dal curriculum?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il voto di laurea non predice la performance",
+    "tema": [
+      "lavoro",
+      "merito",
+      "valutazione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -302,9 +306,11 @@
     "end": 1309.4,
     "speaker_raw": "SPEAKER_07",
     "testo": "Volevo dirvi che mentre andava questa bellissima canzone, Somewhere Anywhere, la short love story, ho dato la risposta vera sulla questione dei numeri, però quella è una cosa privata tra di noi.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Citazione del brano Somewhere Anywhere",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -533,9 +539,12 @@
     "end": 2181.59,
     "speaker_raw": "SPEAKER_03",
     "testo": "a presto This location is my home Sticky move, you're living in a quick world Got a heavy life for such a tiny girl Born into it, that's for sure Rivers get connected So much stronger than expected Well, sick love come to wash us away Grazie. Grazie a tutti. Grazie a tutti.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Citazione del brano Sick Love dei Red Hot Chili Peppers",
+    "tema": [
+      "musica",
+      "citazione"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {

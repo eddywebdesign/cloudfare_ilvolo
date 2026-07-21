@@ -245,9 +245,12 @@
     "end": 779.35,
     "speaker_raw": "SPEAKER_04",
     "testo": "Everybody's dancing in the moonlight Dancing in the moonlight",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Dancing in the Moonlight",
+    "tema": [
+      "musica",
+      "luna"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {

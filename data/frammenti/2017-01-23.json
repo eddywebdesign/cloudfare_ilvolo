@@ -137,9 +137,13 @@
     "end": 474.56,
     "speaker_raw": "SPEAKER_03",
     "testo": "Ecco, quello che stavamo dicendo adesso, queste immagini di quando tolgono le persone ancora vive dopo due o tre giorni e le immagini invece brutte di quando non si tolgono più persone vive.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il contrasto emotivo delle catastrofi",
+    "tema": [
+      "emozioni",
+      "tragedia",
+      "speranza"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -412,9 +416,13 @@
     "end": 2057.18,
     "speaker_raw": "SPEAKER_10",
     "testo": "e non ci pensi più te ne sei accorto sì che tutto questo rischio calcolato toglie il sapore pure al cioccolato e non ti basta più Ma l'hai capito che non serve a niente mostrarti sorridente agli occhi della gente e che il dolore serve proprio come serve la felicità. te ne sei accorto sì che passi tutto il giorno a disegnare quella barchetta ferma in mezzo al mare e non ti butti mai",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Citazione del brano Te ne sei accorto di Niccolò Fabi",
+    "tema": [
+      "dolore",
+      "felicità",
+      "scelte"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {

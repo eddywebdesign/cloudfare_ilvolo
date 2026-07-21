@@ -643,9 +643,12 @@
     "end": 1876.48,
     "speaker_raw": "SPEAKER_01",
     "testo": "Questa sera la guardate, io ho appena finito di guardare la nuova serie di Sarah Jessica Parker che si chiama Divorce, che è la storia di lei e del marito che divorzano. Bene, bene. Va bene, stasera è la sera del Coca Room, chi passa al McDonald's? Oggi, oggi. Chi passa al McDonald's? in che chilo va a prendere?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "nuova serie Divorce",
+    "tema": [
+      "serie",
+      "relazioni"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -896,9 +899,12 @@
     "end": 2509.0,
     "speaker_raw": "SPEAKER_07",
     "testo": "I don't please baby my baby don't care for shorts and he don't even care for clothes he cares for me my baby don't care grazie a tutti",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "My Baby Just Cares for Me di Nina Simone",
+    "tema": [
+      "musica",
+      "swing"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {

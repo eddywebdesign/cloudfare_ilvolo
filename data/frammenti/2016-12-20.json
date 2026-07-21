@@ -401,9 +401,12 @@
     "end": 867.94,
     "speaker_raw": "SPEAKER_25",
     "testo": "Fantozzi audio libro inedito completamente e acquistabile su Autunz. L'amoroso.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Fantozzi audiolibro inedito",
+    "tema": [
+      "audiolibro",
+      "letteratura"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": ""
   },
   {
@@ -511,9 +514,13 @@
     "end": 1029.38,
     "speaker_raw": "SPEAKER_20",
     "testo": "me lo ridomando io qual è il vantaggio che ha un audiolibro su un libro naturalmente a stampa eccetera eccetera esatto qual è il vantaggio ecco ma sei tu che devi rispondere ah beh perché è più semplice nel senso che uno per esempio quando guida la macchina e non riesce o quando cucina non riesce a leggere un libro mentre invece l'audiolibro può accompagnarti sempre senza distrarti dalle cose che devi fare oltre a sentire la voce originale del personaggio che quindi ha ancora un valore aggiunto devo stare tranquillo quindi? è una cosa molto bella adesso noi sentiremo dei pezzi di questo audiolibro la ringrazio ancora che è successo? la ringrazio ancora adesso sentiremo delle parti di questo audiolibro allora in questo modo il personaggio Fantocchi forse è",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "I vantaggi dell'audiolibro",
+    "tema": [
+      "audiolibri",
+      "lettura",
+      "abitudini"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -907,9 +914,13 @@
     "end": 2238.03,
     "speaker_raw": "SPEAKER_20",
     "testo": "Un giorno potrebbe servire. Va bene. Quello che disse il nostro amico Andrea Cirelli, presagio di sventura. Essere sempre pronti al peggio e quindi uno non si gode il meglio perché non è preparato, è sempre pronto alla guerra.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'ansia del futuro",
+    "tema": [
+      "ansia",
+      "futuro",
+      "atteggiamento"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -962,9 +973,12 @@
     "end": 2379.88,
     "speaker_raw": "SPEAKER_01",
     "testo": "Allora, siamo in centro Milano, Piazza della Scala, stupenda, bigliata festa e c'è come al solito, ormai di tradizione da alcuni anni, l'amministrazione milanese fa un dono bellissimo alla cittadinanza e ai turisti. Arriva un'opera d'arte, dentro Palazzo Marino, dentro Sala Lessi e quest'anno c'è la Madonna della Misericordia di Piero della Francesca. Piero della Francesca, bravo, bellissimo, stupendo, bravo. È un politico, nel senso che è un insieme di tante tavole.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Arrivo della Madonna della Misericordia",
+    "tema": [
+      "arte",
+      "milano"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -984,9 +998,12 @@
     "end": 2428.61,
     "speaker_raw": "SPEAKER_01",
     "testo": "E ora è arrivata da Sansepolcro, che è anche la città dove è nato il paese, insomma il villaggio, dove è nato Piero della Francesca, dal museo gli è arrivato un pezzo, il pezzo centrale, quello che propone appunto questa Madonna, una Madonna bellissima. alta gigantesca con una corona in testa ma gigantesca anche perché apre il mantello e sotto il mantello a semicirchio da una parte gli uomini da una parte le donne ci sono tante figurine piccole perché non sono proporzionate rispetto a lei e sono una serie di fedeli che lei abbraccia in modo simbolico come la chiesa che ti protegge ti accoglie e lì dentro fate bene attenzione guardate gli uomini ce n'è solo uno che guarda verso il pubblico in camera diciamo come",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Descrizione della Madonna gigante",
+    "tema": [
+      "arte",
+      "piero della francesca"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -995,9 +1012,12 @@
     "end": 2447.31,
     "speaker_raw": "SPEAKER_20",
     "testo": "guarda il pittore ed è il pittore ed è se stesso si è fatto il selfie Piero della Francesca andate a vedere il selfie di Piero della Francesca non è detto perché ovviamente gli storici dicono non c'è niente si è fatto il selfie e quindi insomma ma non è tutto",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il selfie di Piero della Francesca",
+    "tema": [
+      "arte",
+      "storia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1116,9 +1136,12 @@
     "end": 2931.12,
     "speaker_raw": "SPEAKER_25",
     "testo": "Fantozzi e Filini al ballo mascherato il capo ufficio Conte Cavazzini prima di estendere a Fantozzi e Filini l'invito al gran ballo in maschera della Contessa Serbelloni mazzanti lì nel mare mi fece soffrire dolorosamente fino all'ultima ora poi improvvisamente alle due di notte invitò entrambi il conte era un uomo maligno profumatissimo brutto con mani spugnate alito tipo fogna ricalcutta nella stagione monsonica nella stagione monsonica ciao ragazzi a domani",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Citazione Fantozzi",
+    "tema": [
+      "cinema",
+      "fantozzi"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   }
 ]

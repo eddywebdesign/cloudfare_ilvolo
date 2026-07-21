@@ -38,9 +38,12 @@
     "end": 189.9,
     "speaker_raw": "SPEAKER_14",
     "testo": "è una canzone importantissima per il movimento dei diritti civili oh ecco",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Canzone sui diritti civili",
+    "tema": [
+      "musica",
+      "diritti civili"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -855,9 +858,12 @@
     "end": 2834.41,
     "speaker_raw": "SPEAKER_11",
     "testo": "Ah, bellissimo. Il testo sono 5-6 parole, mi sono cresciute le ali, sono finalmente una ragazza, posso volare. Io tutte le volte che la sento, pur non empatizzando con questo tema perché ho altri problemi nella vita, però empatizzo col fatto della ricerca di sé. mi piace tanto e immagino anche la difficoltà, no? Perché adesso di là di tutti gli scherzi, immagino la difficoltà soprattutto in alcune età perché io mi ricordo che a Brescia bastava mettersi alle medie la giacca con le frange e diventavi la barzelletta di tutta la scuola quindi immagino tutta una serie di dolore e quel dolore a un certo punto rompe qualcosa e dici sapete che c'è? Infatti si dice in America uscire dall'armadio infatti è per quello poi che hanno molto gusto nel vestirsi perché sono stati nell'armadio tanti anni",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La ricerca di sé",
+    "tema": [
+      "identità",
+      "empatia"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

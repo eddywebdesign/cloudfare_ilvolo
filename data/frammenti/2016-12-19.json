@@ -533,9 +533,12 @@
     "end": 1426.07,
     "speaker_raw": "SPEAKER_06",
     "testo": "Buone feste da Radio DJ Buone feste da Radio DJ All I want for Christmas is you I don't want a lot for Christmas, there is just one thing I need. And I don't care about the prison, I only need the Christmas tree. I don't need to hang my stocking there upon the fireplace. Grazie a tutti",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "All I want for Christmas is you",
+    "tema": [
+      "natale",
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -588,9 +591,13 @@
     "end": 1734.53,
     "speaker_raw": "SPEAKER_18",
     "testo": "una volta all'anno metta lì i bambini cerca di esaudirli poi quando il bambino diventa grande dicono Babbo Natale non esiste qualcuno dice questa frase vuole anche un po' dire basta desiderare basta fantasticare Babbo Natale non esiste è una frase lugubre che vuol dire due cose molto lugubre",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il significato della fine della magia",
+    "tema": [
+      "bambini",
+      "desiderio",
+      "crescita"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -621,9 +628,12 @@
     "end": 1820.2,
     "speaker_raw": "SPEAKER_01",
     "testo": "Sì, c'è anche un finto proverbio che in realtà è una cosa veramente diabolica, che chi si contenta gode, che tutti sanno che non è vero. che se proprio vuoi godere vuol dire che non ti devi accontentare e poi che Babbo Natale non esiste è una frase terribile perché vuol dire che quello che importa è quello che esiste ma non è vero quello che esiste, esistere vuol dire se una cosa esiste è una cosa che stai facendo caso il giro filologico di parole è complicato però quando dici questa cosa esiste è perché la sto vedendo ma non è importante quello che esiste l'importante è quello che c'è c'è molta più roba di quella che esiste sono un sacco di cose a cui non fa caso poi vabbè il diavolo non è solo quello Babbo Natale è anche San Nicola sono tutti gli elfi per esempio i nordici c'è tutta questa cosa qui degli elfi che arrivano a fare i regali",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Critica al proverbio chi si contenta gode",
+    "tema": [
+      "felicita",
+      "ambizione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -643,9 +653,12 @@
     "end": 1897.37,
     "speaker_raw": "SPEAKER_01",
     "testo": "c'è un modo bello di liberare che è bellissimo proprio bello dell'antico 2000 anni fa che è questo i desideri più importanti sono quelli che sono talmente profondi che non riesci neanche a formularli in parole però sai che ci sono ma sono profondissimi e quelli si realizzano sicuro tra l'altro oh che meraviglia grazie per questo ottimismo adesso ho voglia di fare mille cose ciao Igor ci vediamo fisicamente qui in radio l'anno prossimo 2017 Grazie, buon Natale intanto. Ciao Igor, ciao a tutti.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La natura profonda dei desideri",
+    "tema": [
+      "desiderio",
+      "psicologia"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -841,9 +854,12 @@
     "end": 2509.82,
     "speaker_raw": "SPEAKER_09",
     "testo": "Mamma ho perso l'aereo è il film per eccellenza non abbiamo chiamato il direttore quest'anno non l'abbiamo chiamato cosa danno quest'anno alla vigilia di Madara una poltrona per due penso di sì tutti gli anni guardiamo invece abbiamo messo un pezzetto",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Film classici di Natale",
+    "tema": [
+      "natale",
+      "cinema"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -863,9 +879,12 @@
     "end": 2562.97,
     "speaker_raw": "SPEAKER_00",
     "testo": "Ron Saxmith Maybe This Christmas Maybe This Christmas sentite com'è allegra Maybe this Christmas will mean something more Maybe this year bella la vicinia di Natale cibo che bolle io faccio le tagliatelle in casa ormai perché andando in Islanda è cambiata la mia tradizione e lì faccio tagliatelle in casa ho la macchinetta con la maniglia bravo qualità della vita",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Maybe This Christmas di Ron Sexsmith",
+    "tema": [
+      "musica",
+      "natale"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
@@ -896,9 +915,12 @@
     "end": 2596.61,
     "speaker_raw": "SPEAKER_18",
     "testo": "yes what? questa è molto bella si invece poi vi facciamo sentire l'altro o vuoi mettere la frase del film? eh a proposito di film anche Miracolo nella 34esima strada ok allora mettiamo il pezzettino parla di Babbo Natale di Babbo Natale ancora e poi mettiamo la canzone di Natale che non è molto diciamo conosciuta ma è bellissima",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Miracolo nella 34esima strada",
+    "tema": [
+      "natale",
+      "cinema"
+    ],
+    "tipo": "riferimento_film",
     "video_url": ""
   },
   {
@@ -907,9 +929,12 @@
     "end": 2599.98,
     "speaker_raw": "SPEAKER_12",
     "testo": "Dimentichi che c'è una telecamera e vedrà che andrà tutto bene.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Dialogo su Babbo Natale",
+    "tema": [
+      "natale",
+      "simboli"
+    ],
+    "tipo": "lettura_volo",
     "video_url": ""
   },
   {
@@ -1050,9 +1075,13 @@
     "end": 2835.34,
     "speaker_raw": "SPEAKER_19",
     "testo": "Christmas for me this year For the simple reason being you're not here There won't be eggnogs by the cozy fire There won't be glasses of mulled wine either There won't even be a Christmas tree senta honey won't you bring my baby back to me cause i miss him yes i miss him oh so dearly i haven't sent him his christmas card cause i will the Christmas stockings are as empty as my heart I know you're away doing something good but just this once baby if you could you know you can and you know you should cause Christmas won't be Christmas without you it won't be Christmas without you Ciao! But it was cold, it was getting late Suddenly I crept back into bed But then I felt a soft kiss on my cheek I opened my eyes and there my baby was with me My baby came back for me Merry Christmas baby Merry Christmas baby",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Poema di Natale triste",
+    "tema": [
+      "natale",
+      "cuore",
+      "solitudine"
+    ],
+    "tipo": "lettura_volo",
     "video_url": ""
   },
   {
@@ -1105,9 +1134,12 @@
     "end": 2888.23,
     "speaker_raw": "SPEAKER_10",
     "testo": "Una volta avevo un bel paio di pattini a putella. E pensavo che se li avessi messi li avrei rotti. Così li ho tenuti nella scatola. E sa cosa è successo? No. I piedi sono cresciuti e non li ho mai usati fuori nel parco. Li ho messi solo un paio di volte in camera mia.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "I pattini a rotelle mai usati",
+    "tema": [
+      "paura",
+      "crescita"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1127,9 +1159,12 @@
     "end": 2907.36,
     "speaker_raw": "SPEAKER_10",
     "testo": "Io non sono del suo parere. Se uno il cuore non lo usa, che differenza fa se si rompe? Se uno se lo tiene per sé, forse fa la fine dei miei pattini a rotelle. Quando uno si decide a usarli, è troppo tardi. Bisogna correre il rischio. Non c'è niente da perdere.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il rischio di non vivere i sentimenti",
+    "tema": [
+      "amore",
+      "coraggio"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
