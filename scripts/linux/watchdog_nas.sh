@@ -46,7 +46,7 @@ fi
 # termico e' rimasto vivo ma fermo per quasi 3 ore, scatenando false alarme
 # "log termico fermo" via email ogni 15 min senza che nulla si fosse rotto
 # davvero - solo bloccato su una print() sul pty pieno.
-COMANDO_BATCH="cd '$REPO' && source ~/ilvolo-env/bin/activate && export ILVOLO_AUDIO_ROOT='$ROOT' && bash scripts/linux/avvia_trascrizione_sicura.sh '' --skip-classify > logs/consola_batch.log 2>&1"
+COMANDO_BATCH="cd '$REPO' && source ~/ilvolo-env/bin/activate && export ILVOLO_AUDIO_ROOT='$ROOT' && bash scripts/linux/avvia_trascrizione_sicura.sh '' --skip-classify --gpu > logs/consola_batch.log 2>&1"
 
 if ! tmux has-session -t trascrizione 2>/dev/null; then
   echo "$(ts) Sessione tmux 'trascrizione' assente, la ricreo e rilancio il batch." | tee -a "$LOG"
