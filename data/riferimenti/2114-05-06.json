@@ -11,7 +11,7 @@
     "start": 0.0,
     "end": 834.75,
     "episodio_data": "2114-05-06",
-    "confermato_esterno": true
+    "confermato_esterno": false
   },
   {
     "id": "2114-05-06-film-clip-0000",
@@ -39,7 +39,7 @@
     "start": 0.0,
     "end": 834.75,
     "episodio_data": "2114-05-06",
-    "confermato_esterno": true
+    "confermato_esterno": false
   },
   {
     "id": "2114-05-06-musica-clip-0002",
@@ -179,6 +179,6 @@
     "start": 2504.26,
     "end": 2787.65,
     "episodio_data": "2114-05-06",
-    "confermato_esterno": true
+    "confermato_esterno": false
   }
 ]

@@ -67,7 +67,7 @@
     "start": 720.76,
     "end": 1441.53,
     "episodio_data": "2016-02-09",
-    "confermato_esterno": true
+    "confermato_esterno": false
   },
   {
     "id": "2016-02-09-musica-clip-0005",
@@ -81,7 +81,7 @@
     "start": 720.76,
     "end": 1441.53,
     "episodio_data": "2016-02-09",
-    "confermato_esterno": true
+    "confermato_esterno": false
   },
   {
     "id": "2016-02-09-musica-clip-0006",
@@ -95,7 +95,7 @@
     "start": 720.76,
     "end": 1441.53,
     "episodio_data": "2016-02-09",
-    "confermato_esterno": true
+    "confermato_esterno": false
   },
   {
     "id": "2016-02-09-musica-clip-0007",
@@ -137,6 +137,6 @@
     "start": 1441.53,
     "end": 2162.29,
     "episodio_data": "2016-02-09",
-    "confermato_esterno": true
+    "confermato_esterno": false
   }
 ]
