@@ -48,7 +48,7 @@ SOGLIA_BASSA = 0.45  # sotto: quasi certamente falso positivo, segnalato come ta
 MUSICBRAINZ_SLEEP = 1.05  # poco sopra 1 richiesta/secondo per margine di sicurezza
 
 
-def _normalizza(s: str) -> float:
+def _normalizza(s: str) -> str:
     return re.sub(r"[^\w\s]", "", (s or "").lower()).strip()
 
 
@@ -201,6 +201,20 @@ def main() -> None:
         if punteggio < 0:
             # Errore di rete: non scrivere nulla, riprovare in un run futuro.
             continue
+
+        # Trovato 2026-07-22 nel run reale sul backlog: "Ray Charles"/autore="Ray
+        # Charles" e "Lucio Dalla"/autore="Lucio Dalla" confermati automaticamente
+        # perche' il database esterno (MusicBrainz include tributi/compilation con
+        # lo stesso nome dell'artista come titolo) trova un "match" che pero' dice
+        # solo "l'artista esiste", non "e' un'opera specifica citata". Stesso
+        # controllo strutturale gia' fatto in trascrivi_e_estrai_clip.py: se
+        # titolo e autore normalizzati sono uguali, non fidarsi MAI del punteggio
+        # esterno, forzare "dubbio" a prescindere da quanto alto sia.
+        titolo_norm = _normalizza(titolo)
+        autore_norm = _normalizza(autore)
+        titolo_e_autore_uguali = bool(titolo_norm) and titolo_norm == autore_norm
+        if titolo_e_autore_uguali:
+            punteggio = min(punteggio, SOGLIA_ALTA - 0.01)
 
         r["confermato_esterno"] = punteggio >= SOGLIA_ALTA
         per_file.setdefault(fp, []).append(r)
