@@ -261,13 +261,11 @@ def _titolo_e_ancorato_al_testo(titolo: str, autore: str, testo: str) -> bool:
     trovato in trascrivi_locale_episodi.py::_riferimento_valido lo stesso giorno."""
     t_norm = _normalizza_titolo(titolo)
     a_norm = _normalizza_titolo(autore)
-    # Stesso placeholder trovato in trascrivi_locale_episodi.py::AUTORE_PLACEHOLDER:
-    # trattarlo come autore assente, non come un autore anchorabile per caso.
-    if a_norm in {
-        "unknown", "sconosciuto", "sconosciuta", "ignoto", "ignota",
-        "non specificato", "non specificata", "na", "nd", "n a",
-        "artista sconosciuto", "autore sconosciuto",
-    }:
+    # Stesso placeholder trovato in trascrivi_locale_episodi.py::AUTORE_PLACEHOLDER_SOTTOSTRINGHE:
+    # controllo per SOTTOSTRINGA (non uguaglianza esatta) - trovato 2026-07-22 nel run
+    # notturno reale che varianti come "Artista non specificato"/"Articolo non specificato
+    # nel testo" non sono mai uguali esatte a una voce del set, quindi lo bypassavano.
+    if any(s in a_norm for s in ("unknown", "sconosciut", "ignot", "non specificat", "n a", "varie", "vario")):
         autore = ""
         a_norm = ""
     if t_norm and a_norm and t_norm == a_norm:

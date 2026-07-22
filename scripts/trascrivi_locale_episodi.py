@@ -173,10 +173,13 @@ VERBI_CONVERSAZIONE = {
 # "Unknown" per rispettare lo schema quando non sapeva davvero chi fosse l'artista (es.
 # testo di canzone reale ma non identificabile) - un placeholder che aggira il controllo,
 # non un vero autore. Va trattato come autore assente.
-AUTORE_PLACEHOLDER = {
-    "unknown", "sconosciuto", "sconosciuta", "ignoto", "ignota", "non specificato",
-    "non specificata", "na", "nd", "n a", "artista sconosciuto", "autore sconosciuto",
-}
+# AGGRAVANTE 2026-07-22, trovato nel run notturno reale: un controllo per uguaglianza
+# ESATTA non basta - il modello scrive varianti come "Artista non specificato" o
+# "Articolo non specificato nel testo" che non sono MAI uguali esatte a una voce del
+# set. Serve un controllo per sottostringa.
+AUTORE_PLACEHOLDER_SOTTOSTRINGHE = (
+    "unknown", "sconosciut", "ignot", "non specificat", "n a", "varie", "vario",
+)
 
 
 def _titolo_e_frase_di_conversazione(titolo: str) -> bool:
@@ -199,7 +202,7 @@ def _riferimento_valido(titolo: str, autore: str, testo: str) -> bool:
         return False
     t_norm = _normalizza_per_ancoraggio(titolo)
     a_norm = _normalizza_per_ancoraggio(autore)
-    if a_norm in AUTORE_PLACEHOLDER:
+    if any(s in a_norm for s in AUTORE_PLACEHOLDER_SOTTOSTRINGHE):
         return False
     if not t_norm or not a_norm:
         return False
