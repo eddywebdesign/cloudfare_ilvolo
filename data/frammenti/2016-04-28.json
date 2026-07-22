@@ -821,10 +821,14 @@
     "end": 2319.67,
     "speaker_raw": "SPEAKER_05",
     "testo": "Alla fine la mia formazione mi permette anche di poter spacciare vari ambiti della scienza.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "scienza e formazione",
+    "tema": [
+      "scienza",
+      "formazione"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Fabio Volo"
   },
   {
     "id": "2016-04-28-072",
@@ -890,9 +894,12 @@
     "end": 2695.76,
     "speaker_raw": "SPEAKER_00",
     "testo": "è come affacciarsi ad un abisso le possibilità che sono in mente sono talmente straordinarie e che gli ultimi che se ne accorgono sono gli psicologi cari psicologi in ascolto abbiamo la canzoncina?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "affacciarsi all'abisso",
+    "tema": [
+      "paura",
+      "possibilità"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

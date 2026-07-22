@@ -905,10 +905,13 @@
     "end": 1664.38,
     "speaker_raw": "SPEAKER_08",
     "testo": "Tra l'altro questa tournée, se non ho capito male, prende due nomi, cioè c'è la parte estiva e la parte autunnale, invernale.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Tournée estiva e autunnale",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Fabio Volo"
   },
   {
     "id": "2016-05-27-075",
@@ -930,10 +933,13 @@
     "end": 1717.03,
     "speaker_raw": "SPEAKER_08",
     "testo": "Allora so che comincia il 28 di giugno a Roma e io spero di venirti a vedere presto quando torno in Italia, intanto in bocca al lupo e grazie sempre per averci dato anche questo album, sai che noi al volo del mattino siamo grandi sostenitori del tuo lavoro insomma.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Album del Volo del Mattino",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Fabio Volo"
   },
   {
     "id": "2016-05-27-077",
@@ -1008,9 +1014,11 @@
     "end": 2118.25,
     "speaker_raw": "SPEAKER_08",
     "testo": "Linus, se fosse per Linus tu non saresti neanche salito. Chiamiamo Linus. Chiamiamo Linus, non ti avrebbe fatto neanche parcheggiare davanti alla radio. Sai che Linus e Nicola odiano gli ascoltatori, vedi che non li chiamano mai. Mai, mai, mai. sta scherzando allora senti spero di risalire sul tuo taxi un giorno per caso magari fra una decina d'anni e così ci rivedremo e così ci rivedremo tutti i ricordi esatto va bene grazie Tirelli scusami come si intitola questo mega mix di questa settimana questo mix è un mega mix di musica funk visto che sei in America l'ho chiamato old ex funk con un fotopitolo con un fotopitolo anche se non c'entra niente ma giusto per fare una battuta le e",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Linus e gli ascoltatori",
+    "tema": [
+      "comportamento"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1052,9 +1060,11 @@
     "end": 2226.59,
     "speaker_raw": "SPEAKER_08",
     "testo": "Va beh, dai, riprendiamo la sezione. Cosa entra adesso?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Riprendiamo la sezione",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -1063,9 +1073,11 @@
     "end": 2299.12,
     "speaker_raw": "SPEAKER_02",
     "testo": "intanto mi sono messo la camicia col colletto alto bravo cioè mi fanno usare quelle che mi piacciono e poi ne mette un'altra che ride",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Camicia col colletto alto",
+    "tema": [
+      "comportamento"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

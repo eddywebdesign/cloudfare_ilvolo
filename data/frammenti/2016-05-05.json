@@ -919,9 +919,12 @@
     "end": 2344.9,
     "speaker_raw": "SPEAKER_03",
     "testo": "di più niente ne siete fatti l'una per l'altra va bene ragazzi lui dice tanto ma poi è lui anche sentiamo cosa ne pensa Maria De Filippi chiamami Maria lei la risolve in un secondo allora io penso va bene ragazzi in bocca al lupo fatemi sapere come va a finire ok ciao ciao ciao ciao ciao",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Maria De Filippi risolve il problema",
+    "tema": [
+      "amore",
+      "relazioni"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1047,10 +1050,14 @@
     "end": 2790.6,
     "speaker_raw": "SPEAKER_10",
     "testo": "Lui è Eros. È una James romana.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "James romana",
+    "tema": [
+      "letteratura",
+      "romanzo"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Eros"
   },
   {
     "id": "2016-05-05-085",

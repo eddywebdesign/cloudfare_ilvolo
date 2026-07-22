@@ -973,9 +973,12 @@
     "end": 2538.75,
     "speaker_raw": "SPEAKER_05",
     "testo": "musica I just toss and turn right there beside you So someone could help me now They'd help you too They'd help you too grazie a tutti",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "canzone di conforto",
+    "tema": [
+      "amore",
+      "aiuto"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -1056,9 +1059,12 @@
     "end": 2813.01,
     "speaker_raw": "SPEAKER_01",
     "testo": "Sai che cos'è questo? Sei giovane, sei giovane. Diglielo, Maurizio. È Gigrobo. È Gigrobo. Metà dei nostri ascoltatori fanno il nodo con la lingua al gambo della ciliegia.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "ascoltatori e abilità",
+    "tema": [
+      "abilità",
+      "ascoltatori"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

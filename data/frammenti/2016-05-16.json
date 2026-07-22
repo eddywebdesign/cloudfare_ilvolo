@@ -233,10 +233,14 @@
     "end": 729.02,
     "speaker_raw": "SPEAKER_11",
     "testo": "abbiamo Claudio Baglioni ragazzi no finché non lo sento me lo ha detto ieri sera che mi avrebbe risposto se vi dico di sì ragazzi ci siamo messaggiati fino alle 5 del mattino lui mi diceva ah i tuoi libri lui diceva ah i tuoi dischi va bene va bene signore e signori Grazie a tutti.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "i tuoi libri",
+    "tema": [
+      "libri",
+      "amici"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Claudio Baglioni"
   },
   {
     "id": "2016-05-16-020",

@@ -850,10 +850,14 @@
     "end": 2299.64,
     "speaker_raw": "SPEAKER_01",
     "testo": "ma se vedi da occhio nudo che c'entri in cazzo a che cazzo quando c'è voce magari io devo dire guardando il film ci avevo anche creduto perché in Verdone io riconosco delle somiglianze con Elvis Presi ma adesso parliamo con Andrea Iacomini Unicef Signore e signore, qui con noi nella nostra ultima settimana del volo del mattino, direttamente da non so dove sei, Andrea Unicef, buongiorno.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Verdone",
+    "tema": [
+      "cinema",
+      "commedia"
+    ],
+    "tipo": "riferimento_film",
+    "video_url": "",
+    "autore": "Ettore Scola"
   },
   {
     "id": "2016-06-01-069",

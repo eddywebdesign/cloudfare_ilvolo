@@ -818,10 +818,14 @@
     "end": 2479.72,
     "speaker_raw": "SPEAKER_12",
     "testo": "Ma scusami, ma che lavoro fa? Ma spiega un attimo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Il lavoro",
+    "tema": [
+      "lavoro",
+      "impegno"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Alessandro Manzoni"
   },
   {
     "id": "2016-05-25-068",
@@ -871,10 +875,14 @@
     "end": 2497.7,
     "speaker_raw": "SPEAKER_12",
     "testo": "ma che lavoro fate in Italia?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Il lavoro in Italia",
+    "tema": [
+      "lavoro",
+      "Italia"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Alessandro Manzoni"
   },
   {
     "id": "2016-05-25-072",

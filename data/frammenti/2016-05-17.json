@@ -127,9 +127,12 @@
     "end": 854.11,
     "speaker_raw": "SPEAKER_12",
     "testo": "c'è anche la cultura del colore frutta o verdura dello stesso colore in che senso? cioè devi mangiare tutto verde o tutto rosso perché sennò che succede? non lo so si mischiano alimenti chimici che non va bene che dopo fai la cacca come gli smarties fai delle pepite colorate come gli M&M's detto questo siamo arrivati al momento seduzione per tutti gli ascoltatori che non si sentono particolarmente belli non siete soli parlo per voi perché io si sa che sono di una bellezza naturale non sono bello, piaccio",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "cultura del colore frutta o verdura",
+    "tema": [
+      "cibo",
+      "salute"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -282,10 +285,14 @@
     "end": 1219.12,
     "speaker_raw": "SPEAKER_15",
     "testo": "Le tue orecchie del bambino predicatore che diceva la tussoreca... La tussoreca! L'oreca! L'oreca del Van Gogh!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "oreca del Van Gogh",
+    "tema": [
+      "arte",
+      "pittura"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Vincent Van Gogh"
   },
   {
     "id": "2016-05-17-024",

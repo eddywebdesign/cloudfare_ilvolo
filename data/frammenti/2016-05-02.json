@@ -424,9 +424,12 @@
     "end": 2045.14,
     "speaker_raw": "SPEAKER_05",
     "testo": "È una questione di uncomfortable, cioè se non sei comfort, quando sei un po' pelato come me qua dietro, quando ad esempio sali sull'aereo, sul treno, tu senti proprio lo sguardo delle persone lì che dici shh, senti che ti brucia la cute un po', shh. E dici, no mannaggia, ma cappellino, cappellino. Andiamo avanti. Parliamo di cose serie. Il presidente degli Stati Uniti, l'avete sentito, ha fatto questo discorso simpatico, però si è veramente dato, cioè, l'abbiamo visto cantare, l'abbiamo visto giocare a basket, l'abbiamo visto, insomma, essere un presidente simpatico.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "il potere degli sguardi",
+    "tema": [
+      "paura",
+      "invisibilità"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -468,10 +471,14 @@
     "end": 2228.96,
     "speaker_raw": "SPEAKER_05",
     "testo": "ai tempi comici Trump steak? ok praticamente lui ha raccontato ha detto no vabbè dai stiamo qui adesso vi parlo di un'altra cosa e lui dice dai sto scherzando lo so che continuerò a parlare lo sapete già che continuerò a parlare di Donald Trump che l'ha un po' messo sotto e gli ha raccontato un po' di barzellette di cose su Donald Trump ha fatto un paio di battute anche su Hillary Clinton e poi alla fine come avete sentito che dal trio ha buttato il microfono come fanno i rapper Comunque ha detto, come sapete, il caso Spotlight è un film che parla di un gruppo di giornalisti investigativi che hanno le risorse e l'indipendenza necessarie per scoprire la verità e chiedere spiegazioni ai potenti. Il miglior film di fantascienza dopo Star Wars. Capisci? E poi ha detto, otto anni fa Hillary Clinton diceva che non sarei stato pronto a rispondere a una chiamata di emergenza alle tre di notte. Adesso alle tre del mattino sono già sveglio perché faccio la pipì. Anche io la prostata. Problemi di prostata. Ilari che cerca di atterrare gli elettori giovani come un anziano parente che sembra un anziano parente che si iscrive a Facebook. Cara America, ti è arrivato il mio poke? Ti è apparsa la notifica? Non so se lo sto usando bene. Un bacione, la zia Ilari. Un po' come la mamma di Mauro, la mamma e il papà di Mauro. I repubblicani sconoscono scocciati che Donald Trump potrebbe essere il loro candidato. Dicono che gli manca esperienza nella politica estera, ma si dimenticano che per anni ha incontrato rappresentanti di tutti i paesi del mondo. Miss Svezia, Miss Argentina e Miss Azerbaijan. L'ha detto proprio con dei ritmi comici. Oh, come on, I'm just kidding.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Trump steak",
+    "tema": [
+      "politica",
+      "commedia"
+    ],
+    "tipo": "riferimento_film",
+    "video_url": "",
+    "autore": "Donald Trump"
   },
   {
     "id": "2016-05-02-042",

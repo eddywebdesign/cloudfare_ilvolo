@@ -854,10 +854,14 @@
     "end": 2269.15,
     "speaker_raw": "SPEAKER_09",
     "testo": "Ah, ma tu non vuoi i nostri cartoni animati, vuoi i suoi?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "cartoni animati",
+    "tema": [
+      "infanzia",
+      "tv"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Fabio Volo"
   },
   {
     "id": "2016-05-31-069",
@@ -887,10 +891,14 @@
     "end": 2295.57,
     "speaker_raw": "SPEAKER_11",
     "testo": "Eh, quella del coccodrillo, quella eterna. Praticamente ascolta tutte queste.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "coccodrillo",
+    "tema": [
+      "infanzia",
+      "tv"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Fabio Volo"
   },
   {
     "id": "2016-05-31-072",

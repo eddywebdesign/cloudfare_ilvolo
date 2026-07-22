@@ -870,9 +870,12 @@
     "end": 2855.54,
     "speaker_raw": "SPEAKER_10",
     "testo": "Beh, anche se lei ti dice facciamo l'amore tutta l'oltre, comincia ad essere un problema. Però insomma non lo so Gaetano, posso dire una cosa? Dipende anche dai vent'anni, cioè ci sono dei 25-30 che non si può affrontare e dei 20 magari si dipende, cioè se è una ragazza di cui tu approfitti perché è un po' fragile, è un po'... è vero conoscetevi almeno fate una conversazione esce a bere un caffè tu lei no che gli viene la tachicardia e ci avventari lei all'orzo un bel caffè d'orzo con buccia d'aria chiacchierate lo capisci se è una persona che c'ha che è una persona dei ventenni che ci capito che danno però è intraprendente lei brava brava c'è una comunque che sicuramente Gaetano non è che spondi una porta chiusa spiegare con dunque mia figlia terza elementare compito in classe spiegare con l'aiuto del dizionario alcune parole mia figlia la prima parola che ha scelto è cassa integrato avrei preferito parlare di ehm come siamo messi con l'orario Maurizio? dobbiamo chiudere abbiamo 30 secondi ma questa mattina ci sono un sacco di bei messaggi c'è la gente a bomba dice grazie Fabio avevo proprio bisogno del vostro programma stamattina non riuscivo a partire niente così?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Conversazione con una ragazza",
+    "tema": [
+      "amore",
+      "comunicazione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -903,9 +906,12 @@
     "end": 2879.53,
     "speaker_raw": "SPEAKER_14",
     "testo": "vabbè allora niente ci sentiamo domani ciao vabbè ci penso io una volta mi sono messo una lucchetta nel sedere perché? per far luccicare le scorreggie",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Lucchetta nel sedere",
+    "tema": [
+      "umorismo",
+      "relazioni"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   }
 ]

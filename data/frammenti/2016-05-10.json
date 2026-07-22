@@ -776,10 +776,14 @@
     "end": 2487.63,
     "speaker_raw": "SPEAKER_11",
     "testo": "Sono venuto, ho rubato, ho portato via il lavoro, ho preso le donne più belle e poi me ne sono andato. Ho rubato il lavoro, sono emigrato al sud. Vabbè, senti, in bocca al lupo per il tour.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Il lupo di Wall Street",
+    "tema": [
+      "lavoro",
+      "successo"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Jordan Belfort"
   },
   {
     "id": "2016-05-10-065",

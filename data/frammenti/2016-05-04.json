@@ -694,10 +694,14 @@
     "end": 2263.86,
     "speaker_raw": "SPEAKER_09",
     "testo": "eppure non è che ha detto volevo fare chissà no l'ISEF l'ISEF non esiste più l'ISEF ma l'ISEF è quello dei scienze motorie adesso della ginnastica diciamo dove c'era la patata",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Iscritti alle scienze motorie",
+    "tema": [
+      "scienze motorie",
+      "ginnastica"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "ISEF"
   },
   {
     "id": "2016-05-04-057",

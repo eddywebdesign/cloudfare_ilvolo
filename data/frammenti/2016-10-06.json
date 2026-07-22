@@ -785,9 +785,12 @@
     "end": 2394.8,
     "speaker_raw": "SPEAKER_01",
     "testo": "Ci saluta Gigi da Caffè Nero, Londra, che è questa cattina che fa il caffè molto buona. Anche Costa mi piace, insomma quelli lì un po'... A me piace quelli che i miei amici dicono, acqua sporca. Quello lì, ecco, a me piace quel caffè lì, la famosa acqua sporca. Mi chiamo Nicola, 23 anni. Oggi ho il mio primo colloquio di lavoro della vita. Che consiglio colonna sonora mi daresti? ti voglio bene ma anche scritto Riccola addirittura addirittura Riccola io ti tengo in prodiga dall'anno scorso da un anno è la prima volta finalmente che mi chiamate perché oggi c'è il grande colloquio tu chiami da Palermo scusami ti stai facendo il caffè qualcosa che sento picchiettare",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "colloquio di lavoro",
+    "tema": [
+      "lavoro",
+      "preparazione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

@@ -585,10 +585,14 @@
     "end": 1024.38,
     "speaker_raw": "SPEAKER_07",
     "testo": "Il lato oscuro di che cosa fai?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Il lato oscuro",
+    "tema": [
+      "lavoro",
+      "psicologia"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "F. Kafka"
   },
   {
     "id": "2016-05-09-051",
@@ -607,9 +611,12 @@
     "end": 1055.82,
     "speaker_raw": "SPEAKER_07",
     "testo": "le fatture la parte noiosa del tutto pensavo riuscire ad aprire il vaso con dentro i soldi no no va bene quella è la fase divertente dai contare tutti i soldini sembra di aver vinto alla slot machine lo dico adesso quelli che ci ascoltano da Messina da Catania da Bari sentono questa storia ma non possono magari partecipare direttamente a questa idea però magari possono addirittura aprirla dove sono invece per quelli di Milano dobbiamo venire",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La fase noiosa del lavoro",
+    "tema": [
+      "lavoro",
+      "fatture"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -618,10 +625,14 @@
     "end": 1100.62,
     "speaker_raw": "SPEAKER_00",
     "testo": "Dobbiamo venire in Piazza Cordusio. Piazza Cordusio. Siamo sotto le vecchie poste centrali. Ok. Quindi adesso siamo sotto dei giganteschi cartoni pubblicitari, ne parlavamo l'altra volta. Il palazzo è chiuso se sono in centro. Se sono in zona portello posso andare in via da Panicale, che c'è l'edicola di Carla, che c'è una bolla anche lì. e basta poi se vogliono venire qua tutti i giorni noi siamo solo contenti grazie Marco e divertiti con la fattura non sbagliare non sbagliare non ho salvato il lavoro adesso è un casino ciao Fabio è partito il tour è partito il tour",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Piazza Cordusio",
+    "tema": [
+      "viaggio",
+      "esplorazione"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Italo Calvino"
   },
   {
     "id": "2016-05-09-054",

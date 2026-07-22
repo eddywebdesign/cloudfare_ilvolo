@@ -764,10 +764,14 @@
     "end": 2387.3,
     "speaker_raw": "SPEAKER_07",
     "testo": "Ma non è la storia di Belen che è andata sull'isola? Anche Belen.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Belen",
+    "tema": [
+      "isola",
+      "storia"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "nome non specificato"
   },
   {
     "id": "2016-09-26-064",
@@ -830,10 +834,14 @@
     "end": 2426.19,
     "speaker_raw": "SPEAKER_07",
     "testo": "Questa è la cosa bella che ha proprio copiato il discorso alla cosa che non eravamo in onda in quel periodo. Il discorso di Michelle è stato abbastanza imbarazzante. che ieri ha abbracciato Bush infatti sta succedendo la guerra dei mondi il mondo sta arrivando Maurizio come sempre che dice ok non metto più frasi dei film ha già il discorso sono riuscito a trovare il discorso di Trump se diventasse presidente vuoi sentirlo?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "discorso di Michelle",
+    "tema": [
+      "politica",
+      "guerra"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "nome non specificato"
   },
   {
     "id": "2016-09-26-070",
@@ -877,9 +885,12 @@
     "end": 2780.88,
     "speaker_raw": "SPEAKER_07",
     "testo": "Allora, stiamo cercando di capire anche grazie a voi cosa, diciamo, tenere dell'anno scorso, delle stagioni, e di cosa proporvi, no? E poi dopo faremo come il Movimento 5 Stelle, tutti direte la vostra e cercheremo di capire. Uno vale uno, eh? Uno vale uno, ragazzi, siamo tutti uguali, eh? Ve lo dico, ok. Detto questo, su DJ Tirelli, che io stavo dicendo, ma certo che c'è, no? Questo DJ... io lo voglio se avessi più potere di voi in questo programma lo imporrei e poi mi entra Mauro l'uomo che sa tutto di tutti e dice ma lo sai che DJ Tirelli ha offerto un mix ad Andrea Michele e forse è anche andato in onda Pronto? Sì, pronto. Chi sei, scusami? Andrea D'Andrea Michele. Scusami, questa voce dei corridoi che DJ Tirelli vi ha portato un mixerino, un mixato, è vera o non è vera?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "DJ Tirelli",
+    "tema": [
+      "radio",
+      "programma"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

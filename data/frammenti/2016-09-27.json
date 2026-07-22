@@ -782,9 +782,12 @@
     "end": 2206.25,
     "speaker_raw": "SPEAKER_05",
     "testo": "l'amore 20 anni dopo hai un sacco di informazioni che ti permettono di vivere in modo assolutamente agiato senza problemi sai come andrà il mondo?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'amore 20 anni dopo",
+    "tema": [
+      "amore",
+      "tempo"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -929,9 +932,12 @@
     "end": 2858.41,
     "speaker_raw": "SPEAKER_08",
     "testo": "scusami cioè stai attento agli autovelox diresti al tuo ventennio 12 punti e un pacco di soldi ora vado in giro con l'ansia di trovare qualcuno l'ansia che qualcuno mi misuri la velocità questa",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Multe e soldi",
+    "tema": [
+      "multe",
+      "soldi"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -968,9 +974,12 @@
     "end": 2969.07,
     "speaker_raw": "SPEAKER_10",
     "testo": "Ciao Ciao Ciao Ciao Ciao Ciao ciao ciao ciao",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ciao Ciao Ciao",
+    "tema": [
+      "ciao",
+      "saluto"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {

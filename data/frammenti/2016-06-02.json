@@ -892,9 +892,12 @@
     "end": 2568.7,
     "speaker_raw": "SPEAKER_00",
     "testo": "Alice Kiki se non ho capito male quando è venuta lì a Radio DJ ha fatto una strage di cuori, no? Cioè tutti innamorati assolutamente.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Alice Kiki e la strage di cuori",
+    "tema": [
+      "amore",
+      "Alice Kiki"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

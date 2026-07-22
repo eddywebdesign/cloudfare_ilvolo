@@ -203,10 +203,13 @@
     "end": 1088.51,
     "speaker_raw": "SPEAKER_05",
     "testo": "è più sporca diciamo è più più black più trasuda più no? poi c'ha sta voce lui che vabbè do me wrong Qual è la tua canzone preferita di Otis Reddy? Qual è, cari ascoltatori, la vostra canzone? Allora, ce ne sono due, diciamo, le hit che piacciono a tutti, che è Sitting on the Doctrine of the Day, e l'altra che, scusami, però è I've Been Loving You, anche quella non me la sottovalutare, I've Been Loving You Too Long, vabbè, intanto senti qua, senti.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "I've Been Loving You",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Otis Redding"
   },
   {
     "id": "2016-04-29-019",
@@ -538,9 +541,12 @@
     "end": 1660.26,
     "speaker_raw": "SPEAKER_01",
     "testo": "Sì, prima tenta disperatamente con... Con cipolla. La cosa bella è il fratello Antonio che gli porta le goccine per calmarsi perché lui poi morirà, la cosa bella.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "fratello Antonio",
+    "tema": [
+      "famiglia",
+      "cura"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -819,9 +825,12 @@
     "end": 2570.69,
     "speaker_raw": "SPEAKER_05",
     "testo": "alla prima parolaccia stoppa tutto ah dice le parolacce ok va bene mettiamo un disco di quelli da vecchi e ci sentiamo e grazie oggi reciti me stesso oggi c'è la particina dove devi fare me bravo bravo bravo quando entri in scena tu diventa tutto più bello vuoi andarvi la a mixare tu c'è il giradischi di Albertino vuoi andarvi la a mixare un po' faccio un po' di foto",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "la particina",
+    "tema": [
+      "teatro",
+      "recitazione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -830,9 +839,11 @@
     "end": 2692.45,
     "speaker_raw": "SPEAKER_03",
     "testo": "Ciao! ciao ciao Musica Musica Ciao!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "ciao ciao ciao",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
