@@ -37,6 +37,7 @@ ROOT="${1:-${ILVOLO_AUDIO_ROOT:-/mnt/ilvolo-audio-backup}}"
 DA="20160101"
 LIMIT=0
 SKIP_CLASSIFY=0
+USE_GPU=0
 
 shift || true
 while [[ $# -gt 0 ]]; do
@@ -44,6 +45,7 @@ while [[ $# -gt 0 ]]; do
     --da) DA="$2"; shift 2 ;;
     --limit) LIMIT="$2"; shift 2 ;;
     --skip-classify) SKIP_CLASSIFY=1; shift ;;
+    --gpu) USE_GPU=1; shift ;;
     *) shift ;;
   esac
 done
@@ -51,6 +53,9 @@ done
 EXTRA_ARGS=()
 if [[ "$SKIP_CLASSIFY" -eq 1 ]]; then
   EXTRA_ARGS+=(--skip-classify)
+fi
+if [[ "$USE_GPU" -eq 1 ]]; then
+  EXTRA_ARGS+=(--gpu)
 fi
 
 mkdir -p logs
