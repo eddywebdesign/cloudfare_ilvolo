@@ -181,10 +181,13 @@
     "end": 1080.67,
     "speaker_raw": "SPEAKER_04",
     "testo": "Ciao Ciao Ciao This location is my home Sticky move, you're living in a quick world Got a heavy life for such a tiny girl Born into it, that's for sure Rivers that connect It's so much stronger than expected Well, sick love come to wash us away Grazie a tutti. This location is my heart grazie a tutti Grazie.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Sick Love dei Red Hot Chili Peppers",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Red Hot Chili Peppers"
   },
   {
     "id": "2017-02-01-017",

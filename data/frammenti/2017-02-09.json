@@ -5,10 +5,13 @@
     "end": 16.71,
     "speaker_raw": "SPEAKER_05",
     "testo": "Sentite qui che perla, che chicca. Buongiorno a tutti, questa è Radio DJ e questo è il Volo del Mattino. Questa mattina iniziamo con il Radiohead High & Dry 1995.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "High & Dry dei Radiohead",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Radiohead"
   },
   {
     "id": "2017-02-09-001",
@@ -434,10 +437,15 @@
     "end": 1254.78,
     "speaker_raw": "SPEAKER_05",
     "testo": "I Depeche Mode, che mi ricordo durante la mia adolescenza, condizionarono così tanto la vita di alcuni miei amici che a un certo punto loro andavano in giro per la città a campionare suoni. Tram che passava, rotaie, perché i Depeche Mode portavano sempre questi suoni innovativi e loro dicevano, senti qua ho fatto una frenata col motorino e l'ha portata la Continuiamo alla Media Records, in questa casa discografica di Brescia. Perché si chiama Planetaria? Non lo so, sinceramente, perché si chiama Planetaria.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "L'influenza sonora dei Depeche Mode",
+    "tema": [
+      "musica",
+      "adolescenza",
+      "creatività"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Depeche Mode"
   },
   {
     "id": "2017-02-09-040",

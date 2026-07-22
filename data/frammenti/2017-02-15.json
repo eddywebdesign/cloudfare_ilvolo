@@ -258,10 +258,14 @@
     "end": 851.94,
     "speaker_raw": "SPEAKER_07",
     "testo": "Era il 2011 quando passava questa canzone Questa è Radio DJ, questo è Il Voto del Mattino Teresa, buongiorno Buongiorno Fabio, buongiorno a tutti Secondo me ci sono tante canzoni con il nome Teresa Qual è la tua preferita? Quella del fucile o quella di Max Gazza?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Canzoni dedicate a Teresa",
+    "tema": [
+      "musica",
+      "canzoni"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Max Gazzè"
   },
   {
     "id": "2017-02-15-024",
@@ -269,10 +273,13 @@
     "end": 862.69,
     "speaker_raw": "SPEAKER_05",
     "testo": "Beh, l'ultima di Max Gazza è molto bella Che bella Faccelo sentire Teresa Ma no, trattatemi male Teresa Teresa",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Teresa di Max Gazzè",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Max Gazzè"
   },
   {
     "id": "2017-02-15-025",
@@ -511,10 +518,14 @@
     "end": 2137.16,
     "speaker_raw": "SPEAKER_13",
     "testo": "Cause I would never break your heart No!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Never Break Your Heart",
+    "tema": [
+      "musica",
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Backstreet Boys"
   },
   {
     "id": "2017-02-15-047",
@@ -588,9 +599,13 @@
     "end": 2248.87,
     "speaker_raw": "SPEAKER_07",
     "testo": "Alla mia festa di compleanno in discoteca, tra gli auguri e i baci sulla guancia, la mia ragazza vide che sfiorai l'angolo delle labbra di una sua amica. Sceneggiata e io ubriaco in lacrime a dire che non avevo fatto apposta. Che sfigato.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Litigio di compleanno",
+    "tema": [
+      "gelosia",
+      "festa",
+      "relazioni"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

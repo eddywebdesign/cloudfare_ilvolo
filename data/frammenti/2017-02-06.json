@@ -82,10 +82,14 @@
     "end": 799.05,
     "speaker_raw": "SPEAKER_01",
     "testo": "Ma no! Ma non è... Cos'è questo? È Beach on the Beach? Questa è la versione originale del pezzo di Chris Rea, On the Beach. che cosa mi hai tirato fuori? che memoria bellissimo incredibile come uno non si ricorda delle cose poi quando sente si ricorda quindi vuol dire che c'è una parte del cervello che è lì devi solo aprire la porta chissà quante canzoni adesso che non sappiamo di sapere o quante cose in generale i tre tre i tre tre i tre tre L'acqua è poca, ossia scarseggia e la mavera non galleggia. Vabbè, poi c'era anche la versione galleggia, scarseggia. comunque va bene caro ascoltatore io ti consiglio allora On The Beach di Chris Rial è la mia versione quella che c'è sull'album del 1986 poi se vuoi il remix questo qua la new version che ho la lì del 98 che c'è su Spotify prenditi quella ma mi avete già stufato non si fa convincere sei sicuro di avere ragione?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "On the Beach",
+    "tema": [
+      "musica",
+      "nostalgia"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Chris Rea"
   },
   {
     "id": "2017-02-06-008",
@@ -236,10 +240,14 @@
     "end": 1376.31,
     "speaker_raw": "SPEAKER_01",
     "testo": "che peccato che non abbiate potuto sentire la recensione di La La Land da parte di Viola durante questo disco comunque la devo smettere di dire che quando non siamo in onda diciamo delle cose che poi cresce la curiosità le mie storie comunque diciamo Viola hai visto La La Land che piace a tutti stravincerà gli Oscar e quello che è però dicevi che è un po' troppo perfettina se devi trovare un difetto è un po' stucchevole loro belli bravi la storia d'amore ma è un inceppo cantano su tutto ti va un sandwich? un sandwich con il formaggio",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "La La Land",
+    "tema": [
+      "cinema",
+      "recensione"
+    ],
+    "tipo": "riferimento_film",
+    "video_url": "",
+    "autore": "Damien Chazelle"
   },
   {
     "id": "2017-02-06-022",
@@ -302,10 +310,13 @@
     "end": 1689.54,
     "speaker_raw": "SPEAKER_01",
     "testo": "Bruno Risas, se mischiate le lettere esce Bruno Mars, volendo, mancherebbe una M. La verità, Radio DJ, bellissima voce, bellissima canzone, grazie. Musica italiana sta facendo delle belle cose.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "24K Magic",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Bruno Mars"
   },
   {
     "id": "2017-02-06-028",
@@ -500,10 +511,14 @@
     "end": 2029.2,
     "speaker_raw": "SPEAKER_01",
     "testo": "Le otto montagne di Cognetti si dice che vincerà lo strega, è il libro un po' del momento. Io me lo sto ottenendo lì. Te lo tieni lì, io sono già a pagina cinquanta di quello. poi l'ho lasciato perché ne ho iniziato un altro che mi serviva non farlo, quello è bello, va letto per bene dobbiamo concentrare e poi facciamo il club del libro io lo leggo due o tre alla volta e ci metto degli anni perché vado a sentimento abbiamo una bellissima frase sui libri la tessera della biblioteca?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Le otto montagne",
+    "tema": [
+      "libri",
+      "lettura"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Paolo Cognetti"
   },
   {
     "id": "2017-02-06-046",

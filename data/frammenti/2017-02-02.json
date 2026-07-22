@@ -16,10 +16,14 @@
     "end": 296.96,
     "speaker_raw": "SPEAKER_09",
     "testo": "Evenflow. cos'è questa musica del diavolo? cos'è il rumore? voi giovanotti lo chiamate chiamate questa musica? questo è il diavolo buongiorno a tutti questi sono i Pearl Jam sta per cominciare il volo del mattino sempre qui su Radio DJ che è diciamo 35 più 1 insomma è il primo giorno dei 35 ci sentiamo già più vecchi? ci sentiamo Luca è molto più giovane di noi almeno di me di me è più vecchio tu hai meno di 35 anni che è successo?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Evenflow dei Pearl Jam",
+    "tema": [
+      "musica",
+      "rock"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Pearl Jam"
   },
   {
     "id": "2017-02-02-002",
@@ -104,10 +108,14 @@
     "end": 844.61,
     "speaker_raw": "SPEAKER_09",
     "testo": "ovviamente questa canzone è così bella che Tarantino l'ha messa in un film è l'inizio di Jackie Brown Brown Jackie Brown Tarantino è come anche Sorrentino forse tutti quelli che finiscono in Nino anche Sorrentino oltre ad essere bravissimo nel raccontare le storie oltre ad essere bravissimo esteticamente acqua ha anche quella cosa in più, che ci prende sempre delle colonne sonore incredibili, no?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Jackie Brown di Tarantino",
+    "tema": [
+      "cinema",
+      "colonne sonore"
+    ],
+    "tipo": "riferimento_film",
+    "video_url": "",
+    "autore": "Quentin Tarantino"
   },
   {
     "id": "2017-02-02-010",
@@ -115,10 +123,14 @@
     "end": 870.39,
     "speaker_raw": "SPEAKER_08",
     "testo": "Davvero. Poi delle pause... No, comunque, in effetti Sorrentino, ma già da... non so se ti ricordi Le conseguenze dell'amore. Sì, no, ma... Era il brano della Lipuna, quando... la Lipuna è un gruppo islandese, mi sembra, o comunque del nord Europa. Quando c'è proprio la scena di aiuto, di servillo sul tapirulano che sta arrivando dall'aeroporto.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Le conseguenze dell'amore di Sorrentino",
+    "tema": [
+      "cinema",
+      "musica"
+    ],
+    "tipo": "riferimento_film",
+    "video_url": "",
+    "autore": "Paolo Sorrentino"
   },
   {
     "id": "2017-02-02-011",
@@ -335,10 +347,14 @@
     "end": 1029.24,
     "speaker_raw": "SPEAKER_00",
     "testo": "Quando c'è stata quella canzone Maracaibo. Ah!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Canzone Maracaibo alla festa",
+    "tema": [
+      "musica",
+      "festa"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Lu Colombo"
   },
   {
     "id": "2017-02-02-031",

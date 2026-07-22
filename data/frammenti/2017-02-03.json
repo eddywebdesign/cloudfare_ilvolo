@@ -5,10 +5,14 @@
     "end": 17.29,
     "speaker_raw": "SPEAKER_01",
     "testo": "Wow ragazzi, forse non c'è inizio migliore. Questo è Lucky Man dei Verve, era un disco del 1997. Buongiorno a tutti, buon venerdì.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Lucky Man dei Verve",
+    "tema": [
+      "musica",
+      "anni novanta"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "The Verve"
   },
   {
     "id": "2017-02-03-001",

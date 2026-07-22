@@ -247,10 +247,13 @@
     "end": 1290.94,
     "speaker_raw": "SPEAKER_01",
     "testo": "Questa è Your Song, famosa canzone in questa versione invece di Al Jarreau che ieri, come si dice, ci ha lasciato, si ha lasciato. Cominciano il 2017. Insomma, Al Jarreau, grandissimo, grandissimo artista. Buongiorno, buona giornata. Ieri mio marito mi ha pulito la stalla che sarebbe la macchina e questo è il suo regalo di San Valentino. mio padre faceva così intanto ti posso lavare la macchina ti prego quindi è una cosa che faceva per sé perché chiama la macchina vedere le macchine sporche è una roba così domani regalo alla ragazza con cui sto da due mesi non ho la più pari di idea se avete qualche consiglio due mesi è poco quindi ci sta che non la conosca bene io ho appena comprato per la mia compagna le palline di cui ho appena raccontato io dico solo una cosa ho letto qualche riga di 50 sfumature di grigio quando ero uscito come io l'anno prima avevo scritto un libro erotico per cui Per curiosità, non è carino fare commenti negativi, no no no assolutamente, è un bellissimo libro, ha venduto miliardi per cui hanno ragione loro. Posso dire solo che ho una percezione, poi magari mi sbaglio, che chi ha scritto quelle scene erotiche le ha immaginate ma non le ha vissute, cioè non ha fatto delle granciulate alla scrittrice secondo me, dal mio punto di vista.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Your Song",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Al Jarreau"
   },
   {
     "id": "2017-02-13-023",
@@ -335,9 +338,13 @@
     "end": 1630.59,
     "speaker_raw": "SPEAKER_11",
     "testo": "Grazie a tutti. Per pesare il cuore con entrambe le mani ci vuole coraggio e occhi bellati. Su un cielo girato di spalle, tua pazienza è casa nostra, il coraggio è il tuo conforto. Piaggio d'estate, Dio che ci guarda dall'alto, sarà che non esci da me se sei stanco, hai finito e respiri soltanto. Per pesare il cuore con entrambe le mani mi si vuole un miraggio, quel conforto che ho. Ciao!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Per pesare il cuore con entrambe le mani",
+    "tema": [
+      "coraggio",
+      "cuore",
+      "emozioni"
+    ],
+    "tipo": "lettura_volo",
     "video_url": ""
   },
   {
@@ -346,10 +353,14 @@
     "end": 1745.36,
     "speaker_raw": "SPEAKER_01",
     "testo": "Tiziano Ferro e Carmen Consoli il confronto un disco del 2016 bene ora siamo arrivati alla rubrica dell'oroscopo mi piacciono molto a volte queste radio così pulite senza tutta questa confusione per esempio che c'è in questo programma la rubrichina ricetta del giorno il pollo con il marsala la pulita così tranquilla allora a proposito di pollo e di marsala e di gente che oggi si iscrive questo ascoltatore che oggi inizia e fa crossfit e lo sentiremo fra due giorni se mai riuscirà a rispondere al telefono ce la farà abbiamo Nausica da Roma ciao che bella città e che bel nome e che bella associazione Nausicaa da Roma tu sei lì sul fiume che giochi a palla e niente po' di meno Ulisse ti arriva era Ulisse che arrivava? era Ulisse che poi mi ha debitamente mandato a quel paese quando mi ripartì da Circe che sottrasse a me più di un anno là presso Gaeta prima che sia nella Nomasse la stai leggendo si sa ma che la stai leggendo? che merda che merda guarda Nausica da Roma ciao Fabio io oggi comincio la mia settecentesima dieta d'altronde è lunedì allora intanto aspetta perché gli ascoltatori in macchina vogliono avere una localizzazione diciamo no un'immagine allora Nausica età",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Il conforto",
+    "tema": [
+      "musica",
+      "disco"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Tiziano Ferro e Carmen Consoli"
   },
   {
     "id": "2017-02-13-032",

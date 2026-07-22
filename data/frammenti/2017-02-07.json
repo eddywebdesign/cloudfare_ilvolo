@@ -27,10 +27,14 @@
     "end": 242.36,
     "speaker_raw": "SPEAKER_00",
     "testo": "Pure Morning Radio DJ questo è il volo del mattino una canzone che diciamo era molto come dire gettonata e molto passata anche a Radio DJ nel 1998 Bellissimo. Se io vi dicessi 1998 cosa stavi facendo, a parte le donne che se lo ricordano giorno per giorno perché è la memoria delle donne su questi dettagli, però magari nel 98 devo andare a pensare quanti anni avevo e invece con la canzone ti riporta subito come la Madeleine Proust in quel periodo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Pure Morning del 1998",
+    "tema": [
+      "musica",
+      "memoria"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Placebo"
   },
   {
     "id": "2017-02-07-003",
@@ -71,10 +75,14 @@
     "end": 317.51,
     "speaker_raw": "SPEAKER_00",
     "testo": "Il padre ci sta scrivendo, all'attenzione di Fabio Volo. Ciao Fabio, oggi oltre al compleanno di Vasco Rossi... Cos'è? È un cantante credo. Vasco Rossi, anche mia figlia Francesca compie 36 anni.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Compleanno di Vasco Rossi",
+    "tema": [
+      "musica",
+      "compleanno"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Vasco Rossi"
   },
   {
     "id": "2017-02-07-007",
@@ -93,9 +101,12 @@
     "end": 341.29,
     "speaker_raw": "SPEAKER_00",
     "testo": "Volevo dire a Francesca che ci sta ascoltando che il papà ha scritto è una ragazza speciale. Guarda che bello sentire i complimenti di un genitore. io vengo da quella generazione in cui mio padre magari non me li ha fatti diretti poi parlavo con qualche suo amico qualcuno diceva tuo papà parla sempre bene di te perché non me lo dice a me spread in giro sigla ragazzi",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "I complimenti dei genitori",
+    "tema": [
+      "genitori",
+      "affetto"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -126,10 +137,14 @@
     "end": 380.82,
     "speaker_raw": "SPEAKER_03",
     "testo": "Io avevo 14 anni e ascoltavo i placebo proprio triste.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Ascoltare i Placebo a 14 anni",
+    "tema": [
+      "musica",
+      "adolescenza"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Placebo"
   },
   {
     "id": "2017-02-07-012",
@@ -137,10 +152,14 @@
     "end": 389.82,
     "speaker_raw": "SPEAKER_00",
     "testo": "Ma i sceghinis, che poi c'era il video di lui che camminava sul palazzo, lo ricordi? Che arrivava lì, che sembrava cadesse, invece iniziava come un gecko a camminare sul palazzo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Il video dei Placebo sul palazzo",
+    "tema": [
+      "musica",
+      "videoclip"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Placebo"
   },
   {
     "id": "2017-02-07-013",
