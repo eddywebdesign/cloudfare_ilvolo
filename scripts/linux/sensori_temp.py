@@ -108,9 +108,14 @@ def _escribir_fila(csv_path, fila):
         writer.writerow(fila)
 
 
+GPU_NONE_AVVISO_CONSECUTIVE = 5  # ~5 min con intervallo 60s: avvisa (non uccide) se nvidia-smi smette di rispondere
+
+
 def loop_log(intervallo_sec, csv_path, kill_cpu_threshold=None, kill_gpu_threshold=None):
     consecutivi_pericolo_cpu = 0
     consecutivi_pericolo_gpu = 0
+    consecutivi_gpu_none = 0
+    avviso_gpu_none_inviato = False
     print(f"Log termico ogni {intervallo_sec}s -> {csv_path} (Ctrl+C per fermare)")
     if kill_cpu_threshold is not None:
         print(f"Soglia di emergenza CPU attiva: {kill_cpu_threshold}C per {KILL_CONSECUTIVE} letture consecutive")
@@ -124,6 +129,23 @@ def loop_log(intervallo_sec, csv_path, kill_cpu_threshold=None, kill_gpu_thresho
         ts = datetime.datetime.now().isoformat(timespec="seconds")
         _escribir_fila(csv_path, [ts, cpu, dist, throttling, gpu])
         print(f"{ts}  CPU: {cpu} C  throttling: {throttling}  GPU: {gpu} C")
+
+        if kill_gpu_threshold is not None:
+            if gpu is None:
+                consecutivi_gpu_none += 1
+                if consecutivi_gpu_none >= GPU_NONE_AVVISO_CONSECUTIVE and not avviso_gpu_none_inviato:
+                    testo = (
+                        f"{ts} nvidia-smi non risponde da {consecutivi_gpu_none} letture consecutive "
+                        f"(~{consecutivi_gpu_none * intervallo_sec // 60} min). La soglia di emergenza GPU "
+                        f"({kill_gpu_threshold}C) e' DISATTIVATA di fatto finche' non torna a rispondere — "
+                        f"la trascrizione continua SENZA sicurezza termica GPU. Controllare il driver/hardware."
+                    )
+                    print(f"AVVISO: {testo}")
+                    enviar_alerta("ATTENZIONE - monitoraggio GPU non risponde (nessun kill)", testo)
+                    avviso_gpu_none_inviato = True
+            else:
+                consecutivi_gpu_none = 0
+                avviso_gpu_none_inviato = False
 
         if kill_cpu_threshold is not None and cpu is not None:
             if cpu >= kill_cpu_threshold:
