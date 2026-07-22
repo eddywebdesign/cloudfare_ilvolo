@@ -31,6 +31,17 @@ set -uo pipefail
 REPO="$(cd "$(dirname "${BASH_SOURCE[0]}")/../.." && pwd)"
 cd "$REPO"
 
+mkdir -p logs
+
+VENV="${ILVOLO_VENV:-$HOME/ilvolo-env}"
+if [[ -f "$VENV/bin/activate" ]]; then
+  # shellcheck disable=SC1091
+  source "$VENV/bin/activate"
+else
+  echo "ERRORE: venv Python non trovato in $VENV (serve numpy/whisperx/torch)." | tee -a logs/ultima_esecuzione.log
+  exit 1
+fi
+
 export ILVOLO_DATA_DIR="${ILVOLO_DATA_DIR:-/mnt/ilvolodellasera-data}"
 
 ROOT="${1:-${ILVOLO_AUDIO_ROOT:-/mnt/ilvolo-audio-backup}}"
@@ -57,8 +68,6 @@ fi
 if [[ "$USE_GPU" -eq 1 ]]; then
   EXTRA_ARGS+=(--gpu)
 fi
-
-mkdir -p logs
 
 echo "Controllo sensori disponibili..."
 if ! python3 scripts/linux/sensori_temp.py > /dev/null 2>&1; then
