@@ -63,9 +63,12 @@
     "end": 291.21,
     "speaker_raw": "SPEAKER_03",
     "testo": "Esatto, e tu hai detto, poi uscendo hai detto, no perché quel giorno lì sono nati questo e questo e questo. Quando io ti ho detto la mia data, ma hai detto, quel giorno lì sono nati questo e questo. Quindi tu, di ogni giorno dell'anno, tu sai, tipo se io ti dico il primo gennaio, due giorni tu di quei giorni sai almeno uno o due per forza, 15 anni di lavoro su sta roba 15 anni di lavoro ma posso provare? sì sì sì Viola, quando è il tuo compleanno? 3 di ottobre John Lennon è morto è nato John Lennon lo controlliamo non lo sai abbiamo paura che in quella finestra lì in quella finestra lì ok quanti giorni si intende la finestra 5 giorni ok vediamo se lo sappiamo comunque insomma è questa roba qua ecco 9 ottobre ci siamo 9 ottobre John Lennon anche parolotti giovanotti giovanotti è nato in quel periodo lì Scusami, ma la mia domanda è questa. Perché ti è sfuggito Eric Clapton?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "data di nascita",
+    "tema": [
+      "data",
+      "nascita"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -129,10 +132,14 @@
     "end": 381.69,
     "speaker_raw": "SPEAKER_03",
     "testo": "no, adesso ne mettiamo la sigla volevo dire, non abbiamo un tema specifico con Igor di Sibaldi perché ci piace molto voi scrivete le domande e Igor risponde ma il tema sono sempre i delfini questa cosa qui si il desiderio è disobbedienza seguire i propri sogni i desideri come dice quella signora lì che dice una domanda a Igor ma non pensa che le cose che insegna nei suoi libri o conferenze siano troppo lontane dalla vita di tutti i giorni cioè certamente dice Alessio è questo il bello certo certo è questo il bello il fatto che la vita di tutti i giorni è troppo poco per tutti è troppo poco per tutti che bello",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "il desiderio è disobbedienza",
+    "tema": [
+      "desiderio",
+      "obbedienza"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Igor Sibaldi"
   },
   {
     "id": "2016-04-07-012",
@@ -154,9 +161,12 @@
     "end": 476.77,
     "speaker_raw": "SPEAKER_03",
     "testo": "ovviamente adesso tutti gli ascoltatori scrivono oh ma puoi chiedere della mia data ovviamente ciao Igor io sono un altro mi fanno ridere quelli che dico tipo il 5 settembre siamo io Freddy Mercoli e Enrico Beruschi non solo c'è Ivan il Terribile no però è tipo da da Margarita Orologiava, cosa unisce? Margarita Orologiava, ascoltami, nel senso che ci sono delle energie di quel giorno?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Freddy Mercoli e Enrico Beruschi",
+    "tema": [
+      "data",
+      "nascita"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -205,10 +215,14 @@
     "end": 597.61,
     "speaker_raw": "SPEAKER_03",
     "testo": "è pure buddista Viola cioè non sai che il tuo capo compie gli anni oggi quindi è Natale tipo ma noi cattolici lo sappiamo quando nasce Gesù perché voi buddisti perché poi sono tanti Buddha in realtà non è uno solo il tuo Buddha quando compie gli anni il mio Buddha sono io quindi il 13 ottobre",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "il tuo Buddha",
+    "tema": [
+      "Buddhismo",
+      "festa"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Igor Sibaldi"
   },
   {
     "id": "2016-04-07-018",
@@ -645,10 +659,14 @@
     "end": 2229.45,
     "speaker_raw": "SPEAKER_04",
     "testo": "Ma è presto, stamattina è presto. Sì, no, ma lui si sveglia presto, Silvano. Ogni tanto lo sento alle sette, alle sei. Intanto comunque se leggi a tuo figlio Pinocchio non è mica male, eh?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Pinocchio",
+    "tema": [
+      "infanzia",
+      "educazione"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Collodi"
   },
   {
     "id": "2016-04-07-056",
@@ -667,9 +685,13 @@
     "end": 2321.29,
     "speaker_raw": "SPEAKER_04",
     "testo": "E i bambini di solito dicono quello che vedono i genitori, è un loro modo. Essendo molto superiori ai genitori, se ne prendono cura cercando di aiutarli, di fargli parlare. Poi purtroppo si accorga che i genitori non capiscono e allora pensano di essere sbagliati loro.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Genitori e figli",
+    "tema": [
+      "genitori",
+      "figli",
+      "educazione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -700,9 +722,13 @@
     "end": 2531.44,
     "speaker_raw": "SPEAKER_09",
     "testo": "Visto dall'oblò di questo aereo il mondo sembra bene organizzato dell'uomo cogli l'operato serio il tratto netto, duro ed ordinato reticoli di campi cesellati di cui non percepisci mai l'arsura e specchi d'acqua poi come diamanti quell'uomo regalato alla natura forse per darle una struttura per darle una struttura E strade che si inseguono impossibili Dei popoli raccontano il cammino Aggirano i più straordinari ostacoli Ma basta non guardarli da vicino E noi che siamo in mezzo a queste ali impavide Non siamo niente o siamo tutto Lasciarci trasportare è stato facile Ma adesso ritornare giù Non sembrerebbe giusto Dovremmo resistere Dovremmo insistere E starcene ancora su Se fosse possibile Toccando le nuvole O vivere altissimi Non guardare giù, non so se c'è la rete, il mondo da quassù, sembra lontano invece, invece un attimo lo sai, rifinirci dentro e devo stare attento, a non sbagliare a polvere lento, a non sbagliarsi di me lato. è già una strada sottilissima che non riesco più a vedere se continui ad aggrapparti rischiamo di cadere di cadere oppure fingere un'altra acrobazia è una questione di equilibrio e l'equilibrio è una filosofia dovremmo resistere dovremmo insistere e starcene ancora su Se fosse possibile, toccando le nuvole, vivere altissimi.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Visto dall'oblò",
+    "tema": [
+      "natura",
+      "uomo",
+      "organizzazione"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -724,9 +750,13 @@
     "end": 2650.64,
     "speaker_raw": "SPEAKER_04",
     "testo": "Sant'Agostino nelle confessioni a un certo punto dice i miei genitori sono andati a scuola allora hanno visto com'è e perché mi ci hanno mandato anche me non capisco però l'avevano visto com'era Sant'Agostino però uno come può fare a non mandare i figli a scuola io ci ho pensato per diversi anni perché non riuscivo a trovare la soluzione poi una cosa l'ho trovata mi sembra abbastanza buona allora si prende il ragazzino e la ragazzina e gli spiega che l'insegnante bisogna dargli ragione perché è una persona in difficoltà è una persona che non ha fatto nessun altro lavoro",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Sant'Agostino e la scuola",
+    "tema": [
+      "educazione",
+      "genitori",
+      "responsabilità"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

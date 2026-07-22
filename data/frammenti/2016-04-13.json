@@ -606,10 +606,14 @@
     "end": 2202.55,
     "speaker_raw": "SPEAKER_01",
     "testo": "sono stanca di stare da sola aspetta ti devo dire una cosa Maurizio let's stay together Rosita let's stay together let's stay together lo so dire per quello ho scelto l'altra va bene, ciao Rosita, ciao Davide ciao ciao ciao quanto fanno lì, è bella quella area lì",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "let's stay together",
+    "tema": [
+      "musica",
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Al Green"
   },
   {
     "id": "2016-04-13-054",

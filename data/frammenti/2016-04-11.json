@@ -493,10 +493,14 @@
     "end": 2138.79,
     "speaker_raw": "SPEAKER_00",
     "testo": "dalla tasca della camicia? no dalla tasca dei calzoni ha fatto proprio pluff che bello che bel momento senti una cosa Piero Villaggio ovviamente tu da quando sei piccolo ti diranno il figlio di Paolo Villaggio che sarà immagino una presenza un padre affascinante però anche molto ingombrante immagino",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Il figlio di Paolo Villaggio",
+    "tema": [
+      "genitori",
+      "famiglia"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Piero Villaggio"
   },
   {
     "id": "2016-04-11-043",
@@ -515,9 +519,12 @@
     "end": 2198.2,
     "speaker_raw": "SPEAKER_00",
     "testo": "Senti tu ci hai scritto un libro su questa cosa perché nel senso tu racconti la tua storia e essere anche un po' il figlio di una persona così ingombrante però in realtà le persone anche che ci stanno ascoltando che hanno un padre ingombrante che può essere anche semplicemente una questione di carattere, non necessariamente perché uno è popolare, è famoso, cioè quei padri ingombranti, quelle figure che quando entrano nella stanza le riempiono totalmente. Il figlio, come dire, si deve far notare, si deve far, come dire, hai sempre la sensazione di essere sempre in ombra, no?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Padri ingombranti",
+    "tema": [
+      "genitori",
+      "famiglia"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -537,9 +544,12 @@
     "end": 2243.03,
     "speaker_raw": "SPEAKER_00",
     "testo": "Egoriferita, forse è la parola più adatta. Perché hai sentito la necessità di scrivere questo libro dal tuo punto di vista? Un libro sulla tua vita, possiamo dire che fa parte di quella cosa che dicevo all'inizio, anche un po' un desiderio di dire ci sono, sono questa persona, sono questa cosa.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Desiderio di dire",
+    "tema": [
+      "autobiografia",
+      "verità"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -548,9 +558,12 @@
     "end": 2303.35,
     "speaker_raw": "SPEAKER_07",
     "testo": "probabilmente tu hai ragione è una chiave alla quale ho pensato diverse volte allora io ho scritto questo libro perché negli anni devo dire la responsabile è mia moglie ok come se è come in tutto ho conosciuto mia moglie molto spesso ho conosciuto mia moglie 13 anni fa in Marocco durante un film e negli anni io gli ho fatto i racconti di questa mia vita passata perché io parlo di queste mie esperienze che ho avuto dal 79 fino all'87 quando ho avuto un problema di tossicodipendenza e ho avuto una vita diciamo problematica facendo a mia moglie vari racconti lei più volte mi ha detto ma guarda che queste cose che tu racconti anche drammatiche le racconti in maniera leggera secondo me le dovresti scrivere che poi tu le pubblichi o meno è un altro discorso però secondo me non dovresti perderle ecco io mi sono deciso a scriverle Poi ho mandato quello che avevo scritto alla Mondadori nel quale sono rimasti...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Conoscenza di mia moglie",
+    "tema": [
+      "amore",
+      "incontro"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -559,9 +572,12 @@
     "end": 2329.75,
     "speaker_raw": "SPEAKER_00",
     "testo": "colpiti diciamo mi hanno detto ma è veramente ma è tutto vero dico ma sì è scritto tu dico cioè sì l'ho scritto io perché anche se è una storia tua unica però ci si può ritrovare facilmente in questa necessità anche di affetto ma anche appunto di presenza di volerci essere di voler dire la propria è una cosa che secondo me troverai molti lettori in realtà molto più vicini a te di quanto tu possa pensare ecco",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Necessità di presenza",
+    "tema": [
+      "amore",
+      "presenza"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -570,9 +586,12 @@
     "end": 2366.49,
     "speaker_raw": "SPEAKER_07",
     "testo": "guarda io in questi mesi sono due mesi che è uscito il libro devo dire che ho ricevuto molti complimenti in questo senso molte persone che mi hanno detto guarda è un libro vero ed è ed è il complimento che più mi fa piacere non è un libro facile si legge facilmente perché è corto ma è è un libro insomma intendo beh ci hai messo la pancia si sente si sente sì devo dire di sì devo dire di sì non mi sono fatto mancare niente il titolo è assolutamente emblematico perché veramente non mi sono fatto mancare niente nel bene e nel male grazie mille Piero Villaggio ciao a presto ti abbraccio Fabio grazie ciao ciao ciao ciao",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Complimenti per il libro",
+    "tema": [
+      "libro",
+      "autobiografia"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

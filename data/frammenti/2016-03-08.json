@@ -637,9 +637,11 @@
     "end": 1951.72,
     "speaker_raw": "SPEAKER_10",
     "testo": "ma che telefono c'hai poi? non c'hai l'iPhone o il Samsung? non c'ho i soldi come te che tu sei ricco e noi siamo poveri e noi siamo brutti e tu sei fortunato ascoltami Dario comunque tu alla mattina vai a fare colazione in un bar ti piace la barista e oggi anonimo gli hai mandato un vaso di fiori eh esatto e mentre eri lì a bere il caffè hai visto che non ha ricevuto il tuo vaso di fiori però ne ha ricevuto un altro da un altro anonimo molto più belli dei tuoi molti di più tra l'altro a parte che deve essere carina sta barista perché se tutti gli mandano i fiori eh sì ma sei molto carina senti ci vuoi dare il nome del bar per cortesia? par bleu par bleu ma andate a cagare comunque a chiari siete tutti così o volete far tutti sempre di più par bleu no la me par salda ascoltami sai che c'era la barzelletta di quello che faceva il francese allora aspetta stiamo chiamando il bar par bleu come si chiama la ragazza Dario? Monica Monica Pronto? Pronto, Barbara Bleu? Sì. C'è Monica, per cortesia?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Telefono",
+    "tema": [
+      "telefono"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -659,9 +661,11 @@
     "end": 1964.57,
     "speaker_raw": "SPEAKER_10",
     "testo": "Fabio Volo, Radio DJ. Pronto? Eh, cazzo, sono sempre me, eh. Sono Fabio Volo, Radio DJ. Guardi che gliela passo. Grazie mille.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Identità",
+    "tema": [
+      "identità"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -681,10 +685,13 @@
     "end": 1974.67,
     "speaker_raw": "SPEAKER_10",
     "testo": "Buongiorno, Monica, sono Fabio Volo, Radio DJ, la disturbo. No, prego. Sai chi siamo, Radio DJ?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Radio DJ",
+    "tema": [
+      "radio"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Fabio Volo"
   },
   {
     "id": "2016-03-08-057",

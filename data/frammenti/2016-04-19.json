@@ -394,10 +394,14 @@
     "end": 1317.69,
     "speaker_raw": "SPEAKER_08",
     "testo": "Sei entrata in un posto e c'era la vetrata, il pavimento in legno. Urge Sibaldi. Eh sì.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Museo di Siddacalo",
+    "tema": [
+      "viaggio",
+      "scoperta"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Urge Sibaldi"
   },
   {
     "id": "2016-04-19-035",
@@ -791,9 +795,13 @@
     "end": 2826.77,
     "speaker_raw": "SPEAKER_08",
     "testo": "Il mio sogno è quello di vedermi esattamente uguale ad una ragazza che ho incontrato durante un viaggio a New York. Vedi quando anche vedi la vita degli altri, a volte anche sulle pagine di Instagram. La ragazza era in metro, indossava un camice da medico, aveva appena finito il suo turno in ospedale di Manhattan. Un'immagine che non dimenticherò mai, la città dei miei sogni e il lavoro dei miei sogni. ce l'ho avuta anch'io a New York una visione così ho visto un altro ragazzo ho detto io voglio essere come quello lì me lo ricordo chi era? Al Pacino non a caso era il pizzaiolo di Joe Pizza ci ha scritto Jack Savoretti dice sono un bavuscio milanese Jack Giaselli non mi dire questo Jack Savoretti è un altro ho appena detto è bravo è tutto complimento e poi mi faccio questo misunderstanding vabbè niente ho peggiorato la situazione questo uno scrive una cattiveria non lo leggiamo se no dopo Viola sta male tutto il giorno no vedi ma cos'hai fatto peggio l'hai fatto lo stesso senza dirlo io mi vedo incinta io vorrei essere in un paradiso fuori dal mondo nel sogno sono il curatore in una galleria di fotografie d'arte a Chelsea io vorrei essere il tecnico del tuo programma ciao ragazzi",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Incontro con ragazza a New York",
+    "tema": [
+      "viaggio",
+      "incontro",
+      "città"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   }
 ]

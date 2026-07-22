@@ -27,9 +27,12 @@
     "end": 255.23,
     "speaker_raw": "SPEAKER_20",
     "testo": "no stiamo in onda ma no dovevo dirti una cosa prima che gli ascoltatori sentissero eh ormai è troppo tardi volevo dirtela per una cosa da preparare eh troppo tardi vuoi mettere un altro pezzo di comma comma no no mettiamo un po' di base e dimmela no allora facciamo così aspetta aspetta buongiorno aspetta aspetta Arimus si dice Arimus Arimo Arimo quando ero bambino si diceva Arimus Arimo che cosa voleva dire cioè che si fermava il gioco fiasco o squisio scusa tu che sei andata a scuola non è latino Arimus da noi addirittura Arimus si diceva noi dicevamo fiasco oppure squisio ma per fermare il gioco ma tu poi lo dici anche nella vita squisi un attimo no perché io le riunioni intanto dico Arimus e mi dicono sei scemo fermi tutti vedi anche in periferia est di Milano si diceva Arimus fammi vedere un attimo esiste ancora Arimus per intendere pausa eh vedi ho messo Arimus al cd Arimus noi a casa parliamo latino amen e dico scusami ma hai messo omnia salux in ecclesia ah io sapevo omo simpecunia essi magomortis eh bravo bravo io sapevo omnia salux in ecclesia extra no aspetta extra cla vabbè ora ci si informa comunque la cosa è hai messo arimus al cd?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Arimus Arimo",
+    "tema": [
+      "infanzia",
+      "tradizione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -157,9 +160,12 @@
     "end": 487.04,
     "speaker_raw": "SPEAKER_20",
     "testo": "Ok, dov'è il tubabbo? Passami il tubabbo. Ci abbiamo Viola che parla la vostra lingua. Abbiamo il traduttore. mi sa che il babbo non lo sa buongiorno babbo come ti chiami? sono Giuseppe Giuseppe 30 anni di matrimonio eh sono tanti eh mamma mia che pazienza che c'hai Giuseppe Giuseppe ogni tanto metti i marroni proprio sul tornio e gli dai una limatura anche tu gli rifai gli angoli ogni tanto qual è il segreto Giuseppe? e oggi vuoi in officina e vai lì con la lima quante limate hai dato di nervoso in questi 30 anni? no, non tante lei dov'è la mamma? la mamma è a caccia che sta facendo da mangiare?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Giuseppe e il tornio",
+    "tema": [
+      "famiglia",
+      "matrimonio"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -655,9 +661,12 @@
     "end": 1719.72,
     "speaker_raw": "SPEAKER_12",
     "testo": "Allora sono seduta di fianco alla Unicredit Pavilion in piazza Gaia Olenti a Milano. Ok. Aspettando i nostri ricercatori che oggi verranno premiati insomma li festeggeremo tutti insieme. Quando",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Aspettando i ricercatori",
+    "tema": [
+      "ricerca",
+      "scienza"
+    ],
+    "tipo": "lettura_volo",
     "video_url": ""
   },
   {
@@ -728,9 +737,12 @@
     "end": 1796.39,
     "speaker_raw": "SPEAKER_12",
     "testo": "Ma in realtà noi italiani per la maggior parte, perché i fondi che noi riusciamo a raccogliere sono quasi tutti dal 5 per 1000, quindi le persone che decidono di dare una parte delle proprie tasse alla ricerca scientifica e poi anche da donazioni e da anche aziende, insomma enti privati che decidono comunque appunto di donare dei soldi per sostenere la ricerca scientifica dei nostri",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Fondi per la ricerca",
+    "tema": [
+      "ricerca",
+      "finanziamento"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -798,10 +810,14 @@
     "end": 1884.68,
     "speaker_raw": "SPEAKER_12",
     "testo": "proprio dalla Fondazione Umberto Veronesi che ogni anno eroga circa 160-180 borse di ricerca e speriamo sempre di più in futuro ai ricercatori più bravi, insomma, quelli che se lo meritano.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Fondazione Veronesi",
+    "tema": [
+      "fondazione",
+      "ricerca"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Umberto Veronesi"
   },
   {
     "id": "2016-04-27-070",
@@ -809,9 +825,12 @@
     "end": 2020.28,
     "speaker_raw": "SPEAKER_20",
     "testo": "Grazie Chiara, in bocca al lupo e che questi ricercatori trovino qualcosa. Uno cerca, cerca. Sicuramente. Va bene, va bene. Grazie a voi. Grazie Chiara. Ciao, ciao, ciao, ciao. Ciao, ciao. Qualche anno fa, credo un paio d'anni fa, non mi ricordo, avevo fatto un elogio in onda a una copertina di un libro che parlava di... Cosa c'hai?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Elogio in onda",
+    "tema": [
+      "libro",
+      "elogio"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {

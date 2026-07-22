@@ -1036,9 +1036,12 @@
     "end": 2652.53,
     "speaker_raw": "SPEAKER_03",
     "testo": "Di più, di più, di più.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Di più, di più, di più",
+    "tema": [
+      "amore",
+      "relazione"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {

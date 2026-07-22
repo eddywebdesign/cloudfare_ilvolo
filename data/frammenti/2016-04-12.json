@@ -555,9 +555,12 @@
     "end": 2136.16,
     "speaker_raw": "SPEAKER_09",
     "testo": "Tutte le volte che vengo lì mi esce il sangue dal naso, lì c'è uno scambio che, come si direbbe a Brescia, daga oio, cioè mi viene voglia di venire lì con le... non so qual è lo scambio esatto non lo so però quando passo di via Cordugio ogni tanto anche perché è una piazza così a un certo punto c'è un inquinamento che è una roba fastidiosissima esatto esatto, ascoltami allora bellissima notizia avete raggiunto la quota per le scarpette al bambino della settimana scorsa quasi a tempo di record grazie a te alle tue ascoltatrici ecco esatto sono passati quelli del volo del mattino?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Inquinamento a Brescia",
+    "tema": [
+      "inquinamento",
+      "brescia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -566,10 +569,14 @@
     "end": 2173.53,
     "speaker_raw": "SPEAKER_01",
     "testo": "sono passati, lo volevo chiedere ma sono donne? perché sono le più generose le donne ti ascoltano anche gli uomini ma poi tra l'oretta sono le donne mettiamo un altro tipo è che tu hai detto qui abbiamo delle riviste di un certo livello all'uomo veramente tanti bene bene allora dimmi qual è il sogno di questa settimana allora abbiamo il sogno adesso per una bambina più piccola 10 anni e vuole imparare a nuotare un corso di nuoto e il budget è raddoppiato il paio di mesi di corso di nuoto pare che siamo sulle 150 euro 150 euro?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Riviste di un certo livello",
+    "tema": [
+      "riviste",
+      "livello"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Fabio Volo"
   },
   {
     "id": "2016-04-12-049",
@@ -577,9 +584,12 @@
     "end": 2196.6,
     "speaker_raw": "SPEAKER_09",
     "testo": "beh allora si raggiunge velocemente entro la fine dell'anno scolastico così facciamo fare l'estate in piscina io ti ricordo che Marco che lo dico anche agli ascoltatori che lo so che a qualcuno viene distinto dire te li do tutti io come la settimana scorsa uno ha detto vi mando io le scarpe e invece noi voi vorreste tenere questa cosa che uno compra il giornale e lascia un",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Sogno di una bambina",
+    "tema": [
+      "sogno",
+      "bambina"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -639,9 +649,12 @@
     "end": 2299.83,
     "speaker_raw": "SPEAKER_01",
     "testo": "E' tutto possibile, al momento è una roba nostra perché, come ti dicevo l'altra volta, le richieste, i sogni vengono dal segretariato sociale di Viabellini.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Sogni e realtà",
+    "tema": [
+      "sogni",
+      "realtà"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

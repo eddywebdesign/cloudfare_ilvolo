@@ -291,9 +291,12 @@
     "end": 980.84,
     "speaker_raw": "SPEAKER_03",
     "testo": "È tutta vita! È tutto assaggio subliminale.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "assaggio subliminale",
+    "tema": [
+      "cibo",
+      "sapore"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -353,10 +356,14 @@
     "end": 1093.88,
     "speaker_raw": "SPEAKER_04",
     "testo": "Voglio sentire Alfano che dice i gemelli omozigotti sono contro natura. Allora, senti una cosa Werther, tu hai un fratello gemello, abbiamo detto. Avete 35 anni. Sì, ti sento più basso adesso. Mi senti a me più basso? Sì, sento poco. Ok. Adesso?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Werther",
+    "tema": [
+      "letteratura",
+      "classico"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Goethe"
   },
   {
     "id": "2016-03-01-028",

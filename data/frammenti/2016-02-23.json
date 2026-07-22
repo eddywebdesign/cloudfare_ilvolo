@@ -688,10 +688,14 @@
     "end": 2389.71,
     "speaker_raw": "SPEAKER_06",
     "testo": "Mi sorprende, lo sai Ah, ancora tu Ma non dovevamo vederci più E come stai? Domanda inutile Stai come me E ci scappa da ridere",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Ancora tu di Lucio Battisti",
+    "tema": [
+      "musica",
+      "ex"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Lucio Battisti"
   },
   {
     "id": "2016-02-23-054",

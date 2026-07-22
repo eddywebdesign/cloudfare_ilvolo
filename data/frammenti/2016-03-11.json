@@ -76,10 +76,13 @@
     "end": 249.02,
     "speaker_raw": "SPEAKER_06",
     "testo": "bene bene madonna mia ma sentite la voce di Maurizio",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "La voce di Maurizio",
+    "tema": [
+      "voce"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Maurizio"
   },
   {
     "id": "2016-03-11-007",
@@ -284,9 +287,12 @@
     "end": 557.89,
     "speaker_raw": "SPEAKER_00",
     "testo": "Senti, ti volevo chiedere una cosa Dario, andando a dormire dopo aver visto la barista del bar, fai anche una dedica prima di addormentarti ogni tanto per buttare fuori la tensione della notte? Aspetta, sulla 5 abbiamo Washington. Pronto Monica? Ciao! Monica Parbleu di Chiari, buongiorno, senta signorina... cosa vogliamo dire a sto ragazzo ciao Fabio cosa vogliamo dire Monica a questo ragazzo ha delle possibilità no dai dai cambiamo discorso comunque è gentile è carino ha speso 30 beuri ciao",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Dedica prima di addormentarti",
+    "tema": [
+      "rilassamento",
+      "tensione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -306,9 +312,12 @@
     "end": 573.33,
     "speaker_raw": "SPEAKER_00",
     "testo": "Allora, non vuol mica dire che se ci esci ci devi limonare. Uscite una sera così, fate una passeggiata lì sull'olio, andate al lago di Seo, non lo so. Va bene?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Non vuol mica dire che se ci esci ci devi limonare",
+    "tema": [
+      "relazioni",
+      "amore"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

@@ -47,9 +47,11 @@
     "end": 431.72,
     "speaker_raw": "SPEAKER_09",
     "testo": "caro Fabio anche Cruciani ieri ha detto che ha esagerato nei mostri wow Ok, vabbè, mica devo aver ragione per forza. Posso dire una cosa, ma è un mio punto di vista.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "punto di vista",
+    "tema": [
+      "punto di vista"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -69,9 +71,12 @@
     "end": 528.83,
     "speaker_raw": "SPEAKER_09",
     "testo": "Sì, perché l'ho mandato a fangù, cioè, hai capito? Quando ho parlato con Salvini gli ho detto, sei una merda, cioè, adesso che non ho i modi educa... Che è anche uno dei motivi per cui continuano a invitarmi in alcuni programmi tipo, sai, tipo Ballarò, così, e dico sempre, no, non vengo, perché io se vado, ovviamente, sono lì seduto, non ho questo atteggiamento del... i parolacci non si dicono se io mi trovo davanti a Gasparri che dice una roba o salto dall'altra parte e mangio la sedia di legno di cartone cioè non riesco giustamente per cui me ne sto a casa e sto zitto però posso dire è il mio punto di vista non sto dicendo che ho sempre ragione per esempio io tra un vaffanculo e dire che un uomo che adotta un bambino non è suo padre io trovo molto più volgare l'altra cosa mentre il vaffanculo lo trovo anche liberatorio e ci sta e basta Ma non è questo l'argomento di oggi. abbiamo preparato un sacco di cose abbiamo delle cose bomba anche oggi ma noi vogliamo venire via perché citando proprio un grande maestro cioè Gesù lasciate che i morti seppelliscano i morti tu vai e porta il regno dei cieli ed è quello che facciamo noi col volo del mattino siamo portatori di luce di buon umore ma sentirete dopo cosa succede al volo del mattino Ciao!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "salvini e parolacce",
+    "tema": [
+      "parolacce",
+      "salvini"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -234,10 +239,13 @@
     "end": 1307.85,
     "speaker_raw": "SPEAKER_09",
     "testo": "È in top. Allora, lui si chiama Dina Leblanc. Il titolo della canzone te la dice Maurizio. No, non ce l'ho. Dai, ce l'avevi lì.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "canzone di Maurizio",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Maurizio"
   },
   {
     "id": "2016-03-16-019",
@@ -412,9 +420,12 @@
     "end": 1769.5,
     "speaker_raw": "SPEAKER_09",
     "testo": "salutiamo paolo da frosinone io devo scendere a far delle consegne potete finire prima non riesco a scendere anche bene queste sono le grandi soddisfazioni di chi fa questo lavoro allora reality reality reality maurizio sta per fare un reality la poesia vista da dietro e viola sta facendo un reality come vivere pur mangiando malissimo adesso c'è un reality che sta per cominciare alla 5 con Rocco Siffredi maestro come va? ma io sono in treno senti Rocco potrebbe cadere la linea perché sei in treno non so dove stai andando ma immagino un percorso pieno di gallerie soprattutto più che cadere la linea si sente un po' terrificato un po' metallico dove sei? su che treno sei?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "reality e poesia",
+    "tema": [
+      "reality",
+      "poesia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -423,9 +434,12 @@
     "end": 1841.16,
     "speaker_raw": "SPEAKER_06",
     "testo": "sono sul Milano Venezia oh cosa puoi fare a Venezia? I'm going to Venice perché a Venezia Mestre uno dice va a Mestre va a Venezia con la moglie a fare una bella giornata d'amore no mia moglie a Venezia ha trovato piccolo negozio in Italia dove faccio shopping tutti gli anni due volte l'anno quindi bisogna stare una giornata dietro mia moglie scusami cosa vendono non voglio sapere il nome ma cosa vendono a Mestre che vendono solo a Mestre ecco Paolo stranamente lo vedono anche a Milano però lei si è affezionata con questa ragazza che è una server c'è poco da fare minocchia fare il mestre va bene scusami allora inizia un reality sulla 5 quando? più che reality è la vita vera mia con la famiglia esattamente da giovedì sera cioè tomorrow night domani sera alle 9 doppia puntata in versione un po' più diciamo casa Siffredi in testa e subito dopo Siffredi Hard Academy cioè la tua scuola di Siffredi Hard Academy è un po' più hot e poi Hard Academy è una pasta",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Venezia e shopping",
+    "tema": [
+      "Venezia",
+      "shopping"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -434,9 +448,12 @@
     "end": 1867.29,
     "speaker_raw": "SPEAKER_09",
     "testo": "che parte dal 9 credo di aprile lì invece è tutto hard academy sempre sulla 5 ma lì dopo l'orario dei vampiri una volta che sono tutti i vampiri partiamo noi scusami ogni tanto penso che tu sia Savino quando ti sento parlare perché sai che ti imita Nicola senti una cosa ti volevo dire una cosa quei due o tre consigli che ti avevo dato su quelle posizioni come sono andati poi?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Savino e Nicola",
+    "tema": [
+      "Savino",
+      "Nicola"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -542,9 +559,12 @@
     "end": 2008.03,
     "speaker_raw": "SPEAKER_09",
     "testo": "non voglio entrare però visto che è casa Siffredi quindi c'è anche molto del privato qual è il limite che tu hai con tua moglie? cioè qual è il vostro deal? il deal guarda il deal è che",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Siffredi e moglie",
+    "tema": [
+      "Siffredi",
+      "moglie"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

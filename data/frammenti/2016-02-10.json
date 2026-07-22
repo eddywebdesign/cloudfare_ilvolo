@@ -588,9 +588,12 @@
     "end": 2367.13,
     "speaker_raw": "SPEAKER_01",
     "testo": "Dio mette la pancera, questo abbiamo scoperto. No, però pensate come erano fighi, perché te lo dicevano mille volte il nome, no? La pubblicità. Quindi alla fine, liabel oliabel, capito? Se non è così, è pomì. È nuovo, non lavato con perlana. Abbiamo la moglie? Proviamo. La moglie non sa niente.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Dio e la pancera",
+    "tema": [
+      "religione",
+      "umorismo"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -829,10 +832,14 @@
     "end": 2594.38,
     "speaker_raw": "SPEAKER_03",
     "testo": "I don't know you, but I want to I don't wanna steal your freedom I don't wanna change your mind I don't have to make you love me I just wanna take your time I don't wanna wreck your Friday I ain't gonna waste my life I don't have to take your heart I just wanna take your time",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Take Your Time",
+    "tema": [
+      "musica",
+      "relazioni"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Sam Hunt"
   },
   {
     "id": "2016-02-10-068",

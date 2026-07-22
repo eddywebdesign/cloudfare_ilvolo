@@ -483,10 +483,15 @@
     "end": 2349.9,
     "speaker_raw": "SPEAKER_12",
     "testo": "Oh yeah! Tanta musica questa mattina al volo del mattino perché è venerdì però diciamo ci stiamo sbilanciando sui contenuti e quindi è uscito un bel libro e ve ne voglio parlare. Signore e signori voi all'ascolto non mi potete vedere ma io sono in ginocchio perché qui c'è il maestro, il professore Roberto Vecchioni. Sì! da panettiere a scitore di successo a cui ho anche plagiato il titolo io ho scritto un libro tutta vita ma il vero libro è la vita che si ama che è un titolo che avrei voluto mettere io Roberto come stai Roberto Vecchiori come stai?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Il mercante di luce",
+    "tema": [
+      "libri",
+      "scrittura",
+      "maestri"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Roberto Vecchioni"
   },
   {
     "id": "2016-04-08-042",
@@ -494,10 +499,14 @@
     "end": 2376.72,
     "speaker_raw": "SPEAKER_13",
     "testo": "Ha stato un bene meraviglioso ma il libro l'ho lo so ma io sai che come esce un tuo libro banchiamo subito perché io sono anche un tuo lettore ovviamente ne sono molto contento anche perché questo è un libro che credo farà bene a parecchia gente perché è un libro sulla felicità è un libro sulla felicità raccontata ai figli la felicità che c'è sempre che comunque non la vediamo ma lei è sempre nell'angolo un po' nascosta tra gli alberi però dobbiamo andarla a beccare",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "La felicità raccontata ai figli",
+    "tema": [
+      "felicità",
+      "figli"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Fabio Volo"
   },
   {
     "id": "2016-04-08-043",
@@ -505,9 +514,12 @@
     "end": 2405.87,
     "speaker_raw": "SPEAKER_12",
     "testo": "ma tu qua dici per esempio in questo libro qui sono proprio io cioè non è che hai voluto raccontare la storia diciamo autobiografica di te come scrivi le canzoni così ma hai raccontato delle storie tu la casa al lago tu il rapporto con i figli con la moglie così in racconti no? si si sono racconti sembra lettere ma sono racconti in realtà ecco io ti volevo chiedere visto che hai introdotto l'argomento della felicità tu sei anche un super professore ma c'è veramente la risposta a quella domanda che cos'è e dov'è?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Racconti di vita personale",
+    "tema": [
+      "vita",
+      "personale"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -516,9 +528,12 @@
     "end": 2435.58,
     "speaker_raw": "SPEAKER_13",
     "testo": "c'è la risposta anche perché non bisogna farsi la domanda in realtà è come chiedersi se c'è l'aria che cazzo ci chiediamo a fare se c'è l'aria la felicità c'è sempre noi abbiamo una definizione piuttosto mediocre di felicità pensiamo che sia quando stiamo al sole col cocktail in mano quando abbiamo fatto una bella scopata oppure quando ha segnato la nostra squadra quelli sono gioie attimi così Ma la felicità è una pianura immensa.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Definizione di felicità",
+    "tema": [
+      "felicità",
+      "definizione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -575,9 +590,12 @@
     "end": 2561.46,
     "speaker_raw": "SPEAKER_12",
     "testo": "esatto questa è una prima con te ok io mi sono messo in fila quando il negozio era ancora chiuso io ero già lì fuori come l'iPhone 6 allora",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Acquisto di un iPhone 6",
+    "tema": [
+      "telefono",
+      "acquisto"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -586,9 +604,12 @@
     "end": 2589.51,
     "speaker_raw": "SPEAKER_13",
     "testo": "vado domenica sera da Fabio Fazio ok e poi si lo presento certo che lo presento vado a Bologna, Firenze, Roma in vari posti mi piace moltissimo parlare poi vienici a trovare una mattina che te sei anche bello da vedere proprio sei bello da vedere mi piace perché sei bello da vedere ma sono molto invecchiato ma no esteticamente sei bello nella stanza sei bello",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Visita a Fabio Fazio",
+    "tema": [
+      "visita",
+      "Fazio"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -622,10 +643,14 @@
     "end": 2789.23,
     "speaker_raw": "SPEAKER_12",
     "testo": "oh ringraziamo allora Roberto Vecchioni ringraziamo DJ Tirelli che oggi è venuto con un altro collega 8585 che si chiama Sergio puoi parlare a quel microfono se vuoi Sergio sei venuto in quanto manager in quanto amico consigliere musicale o perché siete una lobby? ma perché dei tassisti dicono sempre che siete una lobby? perché non conoscono bene il lavoro che facciamo quando tu dici al bar guarda lascia di stare quelli sono una lobby ma sembra tutte delle belle persone Allora sei venuto in che ruolo?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Ringraziamento a Roberto Vecchioni",
+    "tema": [
+      "musica",
+      "ringraziamento"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Roberto Vecchioni"
   },
   {
     "id": "2016-04-08-054",
@@ -633,9 +658,12 @@
     "end": 2807.83,
     "speaker_raw": "SPEAKER_09",
     "testo": "Sono venuto come Prima di tutto per vedere te Per ringraziarti da parte di mia moglie Che ha cambiato la giornata La dedica che hai fatto gli ha cambiato la vita Non la giornata Ah no pensavo dicesse che vi siete baciati No no no no Ti ha messo l'immagine sul comodino No sono lì che dormi",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ringraziamento a Fabio Volo",
+    "tema": [
+      "ringraziamento",
+      "Volo"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

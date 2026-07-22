@@ -155,9 +155,12 @@
     "end": 458.82,
     "speaker_raw": "SPEAKER_01",
     "testo": "Poi stamattina ho detto, ma solo per sapere che ora ci sono i treni per Roma. Una volta le ultime tecnologie che tu chiamavi, stazione, partenza, Brescia, ha detto Pavia, no, Brescia, sì, quella roba lì no?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Treni per Roma",
+    "tema": [
+      "viaggio",
+      "comunicazione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -238,9 +241,12 @@
     "end": 974.89,
     "speaker_raw": "SPEAKER_06",
     "testo": "Sì, ma anche a Francavilla al mare, guarda, anche l'uscita prima, forse è meglio... Ma che succede? Ma scusami, è vero che per una rapina... Una rapina a un portavalo, dicono che io mi sono fermato a un autogrill a prendere un caffè, quella della parista, maledettuale, solita procedura, hanno messo un camion in mezzo, non so, gli hanno dato fuoco. Così dicono, quindi non sono notizie attendibili. Infatti ho mandato un messaggio per sapere...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Rapina a un portavalo",
+    "tema": [
+      "violenza",
+      "strada"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

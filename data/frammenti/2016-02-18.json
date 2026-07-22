@@ -380,9 +380,12 @@
     "end": 861.07,
     "speaker_raw": "SPEAKER_03",
     "testo": "va bene oggi possiamo aprire anche alle telefonate abbiamo tante domande e mettiamo subito una canzone a tema no è la prima scusa ma il suo posso fare una domanda secondo te il suo angelo può essere uno non so quando è nato che tipo mi sveglia alle 10 un quarto può essere uno che si sveglia alle 10 un quarto il suo angelo aspetta qual era?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "angelo sveglia alle 10",
+    "tema": [
+      "angelo",
+      "sveglia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

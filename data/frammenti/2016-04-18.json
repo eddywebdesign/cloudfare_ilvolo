@@ -560,10 +560,13 @@
     "end": 1314.16,
     "speaker_raw": "SPEAKER_04",
     "testo": "Eh beh sì, è un modo alternativo di dire affilare. Qualcuno chiama affilare, qualcuno arrotare, qualcuno morare. Ripristino taglienti, dalla ceramica alle tronchesine per le cuticole.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Affilare e arrotare",
+    "tema": [
+      "linguaggio"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Eligio"
   },
   {
     "id": "2016-04-18-049",
@@ -582,10 +585,13 @@
     "end": 1476.94,
     "speaker_raw": "SPEAKER_02",
     "testo": "Ciao! These screens are lost Ciao!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "These screens are lost",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "DJ Aladin"
   },
   {
     "id": "2016-04-18-051",
@@ -593,10 +599,13 @@
     "end": 1544.93,
     "speaker_raw": "SPEAKER_05",
     "testo": "e bravo il nostro DJ Aladin il DJ Aladin che ha fatto questo disco featuring Anymore Forella scrivetegli oggi pomeriggio quando in onda bravo abbiamo sentito dal volo del mattino bravo Aladin allora Mi spiace, ma Marta dice che a Cagliari l'arrotino passa ancora in bici. Doveva andare col coach. Il coach gli avrebbe detto, allora, in bici ci vai nel weekend per i fatti tuoi.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Disco di Aladin",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "DJ Aladin"
   },
   {
     "id": "2016-04-18-052",
@@ -828,10 +837,14 @@
     "end": 2133.69,
     "speaker_raw": "SPEAKER_05",
     "testo": "Quello devo dire che è una cosa mondiale nel senso che si applica ad ogni settore, per esempio anche al mio, è difficile adesso trovare un cantante che faccia una carriera da 40 anni come tipo adesso prima abbiamo parlato di Bob Dylan e tutti questi, hanno tutti carriere più brevi, più intense che però è difficile pianificare, così come è difficile magari in futuro pensare che una famiglia viva in quella città per sempre, perché ormai è tutto in movimento, uno adesso può fare un lavoro col computer e quindi non ha più l'obbligo di andare in quella fabbrica in quell'azienda uno può anche decidere di fare dei lavori essendo un po' più mobile quindi è tutto velocizzato anche nel design c'è un qualcosa in particolare che hai visto che hai detto wow",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Carriere artistiche e Bob Dylan",
+    "tema": [
+      "musica",
+      "carriera"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Bob Dylan"
   },
   {
     "id": "2016-04-18-072",
