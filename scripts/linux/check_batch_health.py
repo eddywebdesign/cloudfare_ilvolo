@@ -26,7 +26,10 @@ from kill_coordinado import matar_trascrizione  # noqa: E402
 
 REPO = Path(__file__).resolve().parent.parent.parent
 LOGS_DIR = REPO / "logs"
-STOP_FLAG = REPO / "data" / "STOP_BATCH_AFTER_EPISODE.flag"
+STOP_FLAG = REPO / "data" / "panel_stop_pendiente.flag"  # stesso file di FLAG_STOP_PENDIENTE in panel_control.py
+# (nome allineato 2026-07-23: prima puntava a un file mai creato da nessuno script Linux,
+# residuo della vecchia convenzione Windows STOP_BATCH_AFTER_EPISODE.flag - questo ramo
+# di codice era di fatto morto, nessuna rete di sicurezza se il pannello grafico crashava)
 CSV_TERMICO = LOGS_DIR / "trascrizioni_log_termico.csv"
 SOGLIA_TEMP_C = 90.0
 SOGLIA_TEMP_GPU_C = 88.0  # coerente con SOGLIA_EMERGENZA_GPU in avvia_trascrizione_sicura.sh
