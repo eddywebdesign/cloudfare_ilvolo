@@ -155,8 +155,15 @@ def loop_log(intervallo_sec, csv_path, kill_cpu_threshold=None, kill_gpu_thresho
             if consecutivi_pericolo_cpu >= KILL_CONSECUTIVE:
                 print(f"ALLARME TEMPERATURA CPU: {cpu}C >= {kill_cpu_threshold}C per "
                       f"{KILL_CONSECUTIVE} letture di fila. Fermo la trascrizione.")
-                uccisi = _termina_trascrizione(motivo="surriscaldamento CPU")
+                # Scrivere il flag PRIMA di uccidere il processo: il wrapper bash
+                # controlla il flag SUBITO dopo che il suo sottoprocesso muore -- se
+                # il kill precede la scrittura, e' una race condition reale (verificata
+                # 2026-07-23 con un test dal vivo: il wrapper e' passato all'anno
+                # successivo invece di fermarsi, perche' il flag non esisteva ancora
+                # nel momento esatto del controllo).
                 ALARM_FLAG.parent.mkdir(parents=True, exist_ok=True)
+                ALARM_FLAG.write_text(f"{ts} CPU a {cpu}C >= soglia {kill_cpu_threshold}C. In corso...\n", encoding="utf-8")
+                uccisi = _termina_trascrizione(motivo="surriscaldamento CPU")
                 testo_alarm = (
                     f"{ts} CPU a {cpu}C >= soglia {kill_cpu_threshold}C. Processi terminati: "
                     f"{', '.join(uccisi) if uccisi else 'nessuno trovato'}\n"
@@ -173,8 +180,11 @@ def loop_log(intervallo_sec, csv_path, kill_cpu_threshold=None, kill_gpu_thresho
             if consecutivi_pericolo_gpu >= KILL_CONSECUTIVE:
                 print(f"ALLARME TEMPERATURA GPU: {gpu}C >= {kill_gpu_threshold}C per "
                       f"{KILL_CONSECUTIVE} letture di fila. Fermo la trascrizione.")
-                uccisi = _termina_trascrizione(motivo="surriscaldamento GPU")
+                # Ordine invertito rispetto a prima: flag scritto PRIMA del kill,
+                # vedi commento identico nel ramo CPU sopra per il perche'.
                 ALARM_FLAG.parent.mkdir(parents=True, exist_ok=True)
+                ALARM_FLAG.write_text(f"{ts} GPU a {gpu}C >= soglia {kill_gpu_threshold}C. In corso...\n", encoding="utf-8")
+                uccisi = _termina_trascrizione(motivo="surriscaldamento GPU")
                 testo_alarm = (
                     f"{ts} GPU a {gpu}C >= soglia {kill_gpu_threshold}C. Processi terminati: "
                     f"{', '.join(uccisi) if uccisi else 'nessuno trovato'}\n"
