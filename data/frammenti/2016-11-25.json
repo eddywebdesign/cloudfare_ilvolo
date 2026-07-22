@@ -322,9 +322,12 @@
     "end": 1095.93,
     "speaker_raw": "SPEAKER_14",
     "testo": "questo è il volo del mattino sempre dall'armadio di Manhattan volevo capire una cosa ieri abbiamo parlato di notizie un po' strane diciamo di curiosità come si direbbe e un ascoltatore Roberto dal furgone ha scritto scusatemi perché sono 24 ore che non ci dormo dice l'elefante è l'unico animale con quattro ginocchia no in realtà ho fatto una ricerca ora al volo è una bufala ah ecco no perché scusami non è che il cavallo ha le gambe tese scusami",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "ascoltatore Roberto dal furgone",
+    "tema": [
+      "curiosità",
+      "notizie"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -355,9 +358,12 @@
     "end": 1115.13,
     "speaker_raw": "SPEAKER_17",
     "testo": "Sì, due gomiti che connettono l'omero al radio e che si piegano in direzione opposta rispetto alle ginocchia. Quindi penso che sia questa la discriminante.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "discriminante",
+    "tema": [
+      "elefante",
+      "anatomia"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -377,9 +383,12 @@
     "end": 1149.47,
     "speaker_raw": "SPEAKER_17",
     "testo": "No, quelle davanti come le nostre, tanto che noi abbiamo i gomiti, proprio come gli elefanti. hai detto che si piegano in direzione opposta delle nostre l'elefante ha due ginocchia va bene? con tanto di legamenti crociati che connettono il femore e la tibia e due gomiti che connettono l'omero al radio e che si piegano in direzione opposta rispetto alle ginocchia capito?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "anatomia dell'elefante",
+    "tema": [
+      "elefante",
+      "anatomia"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

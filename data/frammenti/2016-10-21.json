@@ -567,9 +567,13 @@
     "end": 1785.42,
     "speaker_raw": "SPEAKER_04",
     "testo": "Mi piace questo cazzeggio del venerdì perché si è scatenato... Si è scattinata una bella diatriba, tanti messaggi. Una ragazza scrive, Giuliana è veramente simpatica, non può essere bella. Vedi? È tutto ironico, ragazzi. Qua noi siamo qui con l'ironia da quasi vent'anni. Non ci prendete sul serio. Soprattutto me.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Giuliana e la bellezza",
+    "tema": [
+      "bellezza",
+      "ironia",
+      "popolarità"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -600,9 +604,13 @@
     "end": 1935.2,
     "speaker_raw": "SPEAKER_03",
     "testo": "E portarsi dietro la malinconia. Non è facile partire e poi morire Per rinascere in un'altra situazione Un mondo migliore Non è facile pensare di cambiare Le abitudini di tutta una stagione una vita che è passata come un lampo e che fila dritta verso la stazione di un mondo migliore quando passa la necessità di andare quando è ora è ora è ora di partire e non puoi non puoi non puoi più rimandare",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Non è facile cambiare",
+    "tema": [
+      "cambiamento",
+      "malinconia",
+      "rinascita"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -633,9 +641,13 @@
     "end": 2101.33,
     "speaker_raw": "SPEAKER_04",
     "testo": "non sei d'accordo perché questo è un po' è un po' troppo no no io ti dico empiricamente empiricamente io sottoscrivo durante le vacanze perché quando poi si va a letto l'uomo si gira con la schiena che c'è no perché comunque quando lei ha detto poi vuole sempre andare a mangiare e io dico ma perché dobbiamo sempre andare a mangiare lì solo perché lei vuole andare a mangiare lì ma dormi? ma dormi? sì sono stanco, c'è il sole, il sale sono cotto ecco a te non te ne frega mai niente poi anche tu voglio dire c'è un po' più uomo è la domanda sto improvvisando ma la mia domanda è tutte le donne si lamentano che il proprio uomo non è un vero uomo o no? la maggior parte a un certo punto l'uomo si spegne un pochino perde un po' di nervo di fronte alla propria compagna Massimo Coppola nel traffico di Roma buongiorno ciao Fabio come stai? bene mi hai mandato un messaggio adesso in diretta mi sono autoproposto sono candidato no ma io ti ho chiamato da quando mi è arrivato il secondo messaggio dicendo dai che sono nel traffico pieno di donne che guidano la smart e non sono capace no ironicamente quello era per adescarsi io in realtà non voglio dire delle cose noiosiste L'hai notato che nel traffico quando sorpassi una Smart o una Mini Cooper butti sempre l'occhio perché di solito dentro c'è una bella ragazza.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La discussione in vacanza",
+    "tema": [
+      "vacanza",
+      "discussione",
+      "relazioni"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -644,9 +656,13 @@
     "end": 2111.98,
     "speaker_raw": "SPEAKER_05",
     "testo": "Di solito sì, però io adesso non vorrei giocare. Quando si giocava a calcio nello spogliatoio tu avevi le mutandine quando ti facevi la doccia, vero?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La doccia nello spogliatoio",
+    "tema": [
+      "calcio",
+      "spogliatoio",
+      "mutandine"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -747,10 +763,13 @@
     "end": 2173.49,
     "speaker_raw": "SPEAKER_04",
     "testo": "Che ti sei magnato? Un libro di Paolo Coelho?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Un libro di Paolo Coelho",
+    "tema": [
+      "libri"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Paulo Coelho"
   },
   {
     "id": "2016-10-21-065",

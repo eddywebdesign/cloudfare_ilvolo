@@ -287,10 +287,14 @@
     "end": 962.18,
     "speaker_raw": "SPEAKER_09",
     "testo": "no sto scherzando va bene ciao Celeste grazie mille buona giornata a tutti ciao ciao ciao Maurizio mi trovi per gioia mia personale De Sica Verdone che fanno turudurudurudu che film era? quello lì è borraspettoso",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Tururù",
+    "tema": [
+      "film",
+      "commedia"
+    ],
+    "tipo": "riferimento_film",
+    "video_url": "",
+    "autore": "De Sica, Verdone"
   },
   {
     "id": "2016-11-09-025",
@@ -342,9 +346,12 @@
     "end": 1135.61,
     "speaker_raw": "SPEAKER_09",
     "testo": "L'ascoltatore dice ma uno potrebbe fare anche 5, 4, 3, 2, 1, no però ha ragione non suona bene come 5, 6, 7, 8, perché prendi il lancio come per fare i tuffi a bomba.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Controproposta per il conteggio",
+    "tema": [
+      "conteggio",
+      "proposta"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -404,9 +411,12 @@
     "end": 1289.84,
     "speaker_raw": "SPEAKER_09",
     "testo": "ma tira fuori c'è sua mamma al tavolo con lui e tira fuori sto bazzucone va bene dai facciamoci una ballatina con Verdone e De Sica vai dai",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Verdone e De Sica",
+    "tema": [
+      "film",
+      "commedia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

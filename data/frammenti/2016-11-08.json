@@ -246,10 +246,14 @@
     "end": 987.44,
     "speaker_raw": "SPEAKER_02",
     "testo": "Che è un po' una cosa che è successa anche in Italia tanti anni fa, no? Io ho visto un'intervista, lui diceva io non sono un politico, sono un imprenditore, ho fatto i soldi, farò fare i soldi anche agli altri, non sento niente con la classe politica, cioè sta usando molto questa linea che è stata diciamo il grande maestro, credo Berlusconi, in Italia, no?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Il grande maestro",
+    "tema": [
+      "politica",
+      "populismo"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Berlusconi"
   },
   {
     "id": "2016-11-08-022",
@@ -257,9 +261,12 @@
     "end": 1020.11,
     "speaker_raw": "SPEAKER_00",
     "testo": "è verissimo e lo ammettono anche gli americani sempre più spesso citano fra i precedenti quello di Silvio Berlusconi e così come altri precedenti nei populismi europei la verità è che questa campagna elettorale americana in un certo senso È un po' al traino di fenomeni che l'Europa conosce da tempo, populismi di destra, di sinistra, di centro, che dilagano non solo in Italia ma perfino nell'Europa scandinava, quella che a noi sembrava forse la culla di un modello sociale avanzatissimo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Populismi europei",
+    "tema": [
+      "politica",
+      "populismo"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -342,10 +349,14 @@
     "end": 1171.81,
     "speaker_raw": "SPEAKER_08",
     "testo": "i maschi ci sono dappertutto ma qui hanno le armi va bene grazie mille Federico Rampini ti chiameremo presto e salutaci New York grazie a te ciao ciao sentite questa canzone che bella che è we said goodbye that's what you told me once so many times we've made our peace but this is love I'll never give you up I know your love has come home to me Sì.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Never Give Up",
+    "tema": [
+      "amore",
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Rick Astley"
   },
   {
     "id": "2016-11-08-030",

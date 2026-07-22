@@ -534,9 +534,13 @@
     "end": 2307.5,
     "speaker_raw": "SPEAKER_03",
     "testo": "Ci sono Luca e Paolo. Le volevo chiedere se in questo momento un genitore o un professore o un preside ci sta ascoltando e decide di aderire a questa iniziativa molto importante per i giovani, dove può trovare tutte le indicazioni per poter aderire a questo cinema?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Importanza dell'aderire",
+    "tema": [
+      "genitori",
+      "adolescenza",
+      "educazione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -663,9 +667,12 @@
     "end": 2585.64,
     "speaker_raw": "SPEAKER_03",
     "testo": "Saluti i miei amici da Capoverde, di Capoverde, che ci stanno ascoltando da Capoverde, ok? Liriche con tutti, insomma, Petra, Tommaso, Lavo, Mappi, tutti lì così. Buongiorno ragazzi, che fate nel weekend?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Saluti da Capoverde",
+    "tema": [
+      "amicizia",
+      "Capoverde"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {

@@ -387,9 +387,12 @@
     "end": 1733.27,
     "speaker_raw": "SPEAKER_00",
     "testo": "Hanno smesso di fare figli come adesso, sono entrati dalla periferia dell'impero, quelli che erano cosiddetti barbari, che mangiavano carne e pesce, che hanno preso in mano prima le attività economiche essenziali, come succede adesso, ecco, falegnami, artigiani, muratori e tutto, e poi...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La caduta dell'impero",
+    "tema": [
+      "impero",
+      "caduta"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -398,10 +401,14 @@
     "end": 1760.0,
     "speaker_raw": "SPEAKER_01",
     "testo": "poi l'altra cosa che mi fa ridere è che Kate Richard che l'ha visto con le mani distrutte dall'artrosi deformante che lui è famoso nella sua biografia per aver provato tutte le droghe ma mi piace molto che il suo problema è stato il glutine e l'altra cosa è come vi ho detto che se l'altro giorno l'Inter durante l'intervallo l'intervallo avesse mangiato dei brutti e buoni albume, zucchero e mandorle senza dargli il tè ecco",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "La biografia di Kate Richard",
+    "tema": [
+      "biografia",
+      "Kate Richard"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Kate Richard"
   },
   {
     "id": "2016-10-20-033",
@@ -442,9 +449,12 @@
     "end": 1806.27,
     "speaker_raw": "SPEAKER_01",
     "testo": "Senti Jacopo, noi adesso tu sei il nostro empirico. La nostra casa. allora tu gratuitamente adesso seguirai per i prossimi giorni se hai voglia di fare questo esperimento con noi seguirai questi consigli che ti dà il dottor Mozzi dopodiché tu hai l'onore di dire grazie o di dire con me non ha funzionato ok il che significa che se funziona con te non è detto che funzioni con tutti e che se non funziona con te che non ha funzionato con gli altri noi ti usiamo solo come esempio 24 anni gruppo sanguigno",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'esperimento con Jacopo",
+    "tema": [
+      "esperimento",
+      "Jacopo"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

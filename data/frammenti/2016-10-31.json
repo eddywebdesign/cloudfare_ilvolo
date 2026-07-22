@@ -38,10 +38,14 @@
     "end": 188.91,
     "speaker_raw": "SPEAKER_05",
     "testo": "Ciao! I'm only human after all I'm only human after all Don't put the blame on me",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Human dei Rag'n'Bone Man",
+    "tema": [
+      "umanità",
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Rag'n'Bone Man"
   },
   {
     "id": "2016-10-31-004",
@@ -649,9 +653,12 @@
     "end": 2277.24,
     "speaker_raw": "SPEAKER_04",
     "testo": "troppo veloce quindi adesso stai lì vediamo comunque detto questo sarebbe da fare se qualcuno si sta laureando ragazzi io vi dico questo è un tema importante cioè la macchina fa il monaco L'abito non fa il monaco, ma la macchina sì, si dice anche che con le donne chi ha la bella macchina ha più appinto. Fa una roba vecchia. No, lo so, ho detto si dice. Ok, detto questa, il ragazzo dell'iPhone ha riscritto di nuovo, ha detto che il suo iPhone però ha dato dentro quello da vecchio, gli ha dato 400 e quindi 900, meno 400 fa 500.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "l'abito non fa il monaco",
+    "tema": [
+      "etica",
+      "valori"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -779,9 +786,12 @@
     "end": 2747.44,
     "speaker_raw": "SPEAKER_04",
     "testo": "Stasera Maurizio sai che va con la sua bambina di 5 mesi a porta a porta, a dire scherzetto dolcetto, ma non è troppo piccolo?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Maurizio e la bambina",
+    "tema": [
+      "famiglia",
+      "bambini"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

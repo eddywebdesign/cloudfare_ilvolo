@@ -274,9 +274,12 @@
     "end": 1244.83,
     "speaker_raw": "SPEAKER_02",
     "testo": "Where could you be on such a lonely winter's night? no Grazie.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Inverno solitario",
+    "tema": [
+      "solitudine",
+      "inverno"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -285,9 +288,12 @@
     "end": 1308.1,
     "speaker_raw": "SPEAKER_07",
     "testo": "Vaporiera elettrica, girmi, tre cestelli, nuova, regalo sbagliato, Claudio da Palermo. Questa la potresti prendere, la vaporiera. Ho tre porte in abete da vendere con vetri. Ognuno ha qualcosa in casa che è lì per qualcosa. Io vorrei sbarazzarmi di mio marito. Allora, qualcuno chiede, ma basta che Viola non si sia sentita. Tranquilli, non sta male.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Vaporiera elettrica",
+    "tema": [
+      "vaporiera",
+      "regalo"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -307,9 +313,12 @@
     "end": 1375.6,
     "speaker_raw": "SPEAKER_07",
     "testo": "Ma secondo me è quella roba lì delle donne. Sai che ogni tanto le donne non stanno bene. Cioè, ogni tanto ci sono dei giorni difficili. Posso dire che è proprio più facile essere maschio in generale, no? Anche proprio fisicamente. Cioè, comunque le donne devono subire una serie di fastidi. No... stasera usciamo boom iniziano alle 7 prepararsi per uscire alle 9 quando escono dal bagno a 5 alle 9 tu entri in bagno a 5 alle 9 alle 9 sei pronto poi cammini con le scarpe comode pantalone un maglioncino e via cammini con le scarpe comode e loro devono camminare con quei piedi vai a una festa, a un matrimonio c'hanno tutti questi piedi incastrati dentro una scarpa così ieri all'aeroporto di Parigi c'era quella di Zijet c'era una di Zijet sai quelli che ti devono vedere se la valigia va dentro che si era tolta le scarpe aveva le scarpe a fianco e rapidino non ce la faceva più probabilmente adesso magari mi sente qualcuno di Zijet vanno a vedere chi è per un secondo solo l'hanno fatta Va bene, comunque ragazzi, sarà quella roba lì, delle donne? Sì. Come dice South Park?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Difficoltà femminili",
+    "tema": [
+      "femminilità",
+      "difficoltà"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -318,9 +327,12 @@
     "end": 1388.18,
     "speaker_raw": "SPEAKER_00",
     "testo": "Beh, le vostre mamme sono solo agitate, forse hanno le mestruazioni tutto qui. È offensivo! Signor Garrison, Wendy e io la riteniamo una battuta sessista. Beh, mi dispiace Wendy, ma io non mi fido di una cosa che sanguina per cinque giorni e che non muore.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Battuta sessista",
+    "tema": [
+      "sessismo",
+      "battuta"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

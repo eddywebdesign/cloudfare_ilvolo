@@ -93,9 +93,12 @@
     "end": 295.08,
     "speaker_raw": "SPEAKER_08",
     "testo": "Facciamo un momento il momento cuore di De Amici il momento povertà siccome io ero povero però i miei genitori avevano il negozio avevo la tuta del mago G della Galbusera che si dava in omaggio rossa che si dava in omaggio dopo un tot di tagliandini sui biscotti gli zalet soprattutto i miei preferiti però adesso andrebbe molto di moda vi ho aperto un mondo si ritagliavano dei biscotti gli zalet di punti e poi c'era la tuta rossa nel frattempo siccome io abitavo in una zona la panetteria era una zona abbastanza ricca nessuno faceva i punti la tuta ce l'avevo io avevo la tuta e avevo la radiolina del mulino bianco a quella?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La tuta del Mago G",
+    "tema": [
+      "infanzia",
+      "ricordi"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -137,9 +140,12 @@
     "end": 376.11,
     "speaker_raw": "SPEAKER_03",
     "testo": "Good morning life Good morning sun How are you skies above It's great to be alive and in love Good morning life, good morning bird, sing out your happy tune, feel so good cause I'll be seeing her soon. Last night she said she loves me, what a pity to part, I slept with both eyes open, waiting for today to start. Good morning life, good morning world, all your happiness, all at once I knew what living can be. Oh, it's life, it's free, it's someone waiting for me, who'll someday be my wife. Good morning, love.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Good Morning Life",
+    "tema": [
+      "amore",
+      "felicità"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -148,9 +154,12 @@
     "end": 442.93,
     "speaker_raw": "SPEAKER_08",
     "testo": "Ho fatto un po', diciamo, un momento nostalgia, un po' un momento piccola fiammiferaia, non vi volevo commuovere, era per dire, insomma, sono traumi che sono superati, sono stati superati, però qualcuno, uno, una persona ha scritto, anch'io avevo la tuta del Mago G, qualcuno invece ha detto che bei ricordi, perché pare che questa radio del Molino Bianco fosse molto diffusa. Io sono sicuro che mio padre, che non c'è più ormai da un paio d'anni, ma c'è una cantina che lo racconta ancora, non ci abbiamo ancora messo mano, che era uno di quelli che teneva tutto. Non so se avete dei parenti o amici di quelli che non vogliono mai buttarvi a niente. Non quella cosa famosa di cui abbiamo parlato, cos'è sepolti in casa. però mio padre è sempre stato uno che diceva non si sa mai un giorno può venire buono questo italiano ha anche un po' di provincia può venire buono sicuramente lui quella sveglia lì da qualche parte ce l'ha ma te la ricordi la pubblicità del mago G che lui aveva i pattini aveva i pattini con la cariola G come calbusera dai che smanetta la legge",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ricordi della radio del Molino Bianco",
+    "tema": [
+      "infanzia",
+      "ricordi"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -702,9 +711,12 @@
     "end": 2610.27,
     "speaker_raw": "SPEAKER_08",
     "testo": "Perché a me dispiace, guarda, io ho dei figli troppo piccoli, ho i figli piccolini di un anno e tre anni, no? Però vedo ogni tanto i figli dei miei amici quelli che sono portati avanti, che sono anche un po' adolescetti così. Cioè, posso fare una critica generazionale? No, non fare il vecchio. Mangiate male, sciulate male, ascoltate musica sbagliata, vi drogate male, cioè avete proprio dai negozietto in centro, che c'era il culatello di Zibello, a lì... No, no, no, non fare di più. no sto scherzando sono contento vattela ascoltare bene perché al telefono non era proprio magari il massimo infatti sì assolutamente comunque Sam Cooke grazie mille poi se preferisci generi musicali con voci femminili no mi vanno bene entrambi ok per esempio se ti vuoi adesso ti vuoi gasare vuoi sentire la voce di una donna che sale che sale che sale che sale ti ascolti Over the Rainbow della versione di Eva Cassidy per esempio però sono presente esatto quella lì sì Eva Cassidy ok adesso tu ascolti vedrai che a un certo punto lei sale e sale e ti sembra che vieni fuori dallo stereo ti dà due sberle e ritorna dentro le casse va bene ciao Bushra in bocca al lupo ciao ciao ciao grazie a te ciao ciao ciao",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "critica generazionale",
+    "tema": [
+      "genitori",
+      "adolescenza"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -724,10 +736,14 @@
     "end": 2786.74,
     "speaker_raw": "SPEAKER_08",
     "testo": "James Taylor Watts, di fatti lui si firma James T.W. con la cover di Torne. Volevo dirti che anch'io mi chiamo Etta da Concetta, quindi che bello avere il nome Etta. Perché Edda era la figlia di Mussolini, cioè a un certo punto c'erano le Edda, perché sai quelli che hanno anche, io ho conosciuto anche gente che hanno il cane che si chiama Benito, Adolfo, cioè sono quelli che, Palmiro, Palmiro era un altro nome diciamo per quelli della sinistra, esatto, io ho un cugino lontano, Palmiro ce l'ho, Palmiro, poi come si chiamavano quei Igor, quei nomi russi... Boris Ivan Ivan no ma ce n'era uno Dimitri Dimitri insomma li capivi un po' l'orientamento politico poi lì finisce un'epoca politica e tu ti ritrovi con quel nome e ti danno una caccia bisogna stare molto attenti comunque c'era anche Trento e Trieste persone che si chiamano Trento e Trieste per via della storia ah non lo sapevo no io mi ricordo invece che da bambino ero rimasto colpito dal fatto che chiamassero i figli quei numeri ogni tanto c'era primo, quinto c'era il parrucchiere sotto casa che chiamava quinto perché era il quinto",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Torne",
+    "tema": [
+      "nome",
+      "famiglia"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "James Taylor Watts"
   },
   {
     "id": "2016-11-28-065",
@@ -746,9 +762,12 @@
     "end": 2839.38,
     "speaker_raw": "SPEAKER_08",
     "testo": "fantastico chissà come sbagliare i numeri perché mia mamma per chiamare me chiamava mio papà, mia sorella, mia cugina Fabio, Cristina, Giovanni 7, 14, 22 Come sarà? Va bene, un'ascoltatrice dice non avevo mai visto una stanza vuota da questo punto di vista, ma hai regalato queste immagini e adesso sto cercando con le mani di accalappiare delle parole. Gli emoticon, in questo momento noi parliamo, anche la vostra macchina dove ci state ascoltando, è piena di gente che si sta dicendo no, ci vediamo dopo il pranzo. piena di amore quando vengono giù tutte le parole esatto esatto bisogna riuscire a sviluppare una sensibilità per cogliere il più possibile cosa dici Maurizio?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "mamma chiamava i figli",
+    "tema": [
+      "famiglia",
+      "nome"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

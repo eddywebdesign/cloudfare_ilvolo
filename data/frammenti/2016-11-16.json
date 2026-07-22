@@ -427,10 +427,14 @@
     "end": 1585.15,
     "speaker_raw": "SPEAKER_02",
     "testo": "Teresa, è giusto che ora ti levi di dosso tutta la vita mia Come facevi, ma troppo spesso, con la biancheria Teresa oggi è decisa, ti mollo con preavviso Che lo sbaglio è tuo di amarmi col guinsaglio e stati dillo di guillusa Teresa, se i tuoi sentieri son passi sul ghiaccio più falsi che leggeri Come l'abbraccio a mano tesa che ora mi dai Teresa tu non prendertela male, niente capirai di personale, Teresa senza offesa ce l'ha un cuore, e allora vada sedigliela tu di rinunciare, se non altro ormai perché non ti amo più. E poi sono tre mesi che convivo con i miei, e quasi quasi adesso io ci resto, ti abbandonare, ti lasciare. e non è per qualcosa ma con queste premesse Teresa non vorrei poi ti sfuggisse che comunque tu la metti Teresa ci sono affetti in effetti che affetti non sono stati mai ma cosa vuoi ai tempi sai mi innamorai Teresa intanto smettila di urlare che brutta sei quando ti fai volgare ma sento che l'hai detta con il cuore e allora vado a sé chiedimi tu di rinunciare se non altro ormai perché non mi ami più e poi sono tre mesi che non c'è nessuno che cucina come i miei ma c'è che ti ritrovi in ogni dove vorrei fingere che non sia dolore respiro sì però respiro male rimani tra il pensiero e le parole nel fondo riuscirei soltanto a dirti che non vali tanto ma tu sai capire quando mento",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Teresa di Max Gazzè",
+    "tema": [
+      "musica",
+      "canzoni"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Max Gazzè"
   },
   {
     "id": "2016-11-16-037",
@@ -438,10 +442,14 @@
     "end": 1623.68,
     "speaker_raw": "SPEAKER_13",
     "testo": "Grande Max Gazzè, grande Max Gazzè, questa è Teresa, Teresa, Teresa. Questa sera nella mia serie canto con Giuliano, canto sul palco con Giuliano, un pezzo di Francinatra.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Teresa",
+    "tema": [
+      "musica",
+      "concerti"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Max Gazzè"
   },
   {
     "id": "2016-11-16-038",
@@ -609,10 +617,14 @@
     "end": 1855.92,
     "speaker_raw": "SPEAKER_11",
     "testo": "C'è un buon peso, diciamo. C'è un buon peso come d'Alza Lumiere.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Alza Lumiere",
+    "tema": [
+      "libro",
+      "classico"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Dumas"
   },
   {
     "id": "2016-11-16-053",
@@ -686,9 +698,12 @@
     "end": 1887.16,
     "speaker_raw": "SPEAKER_13",
     "testo": "Senti, Patrizia, sappi che sei entrata nella rubrica ascoltatori che richiamiamo. Ok, benissimo. Ci hai regalato un sacco di... Quando vai in posta vai col cappottino o col trench?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Entrata nella rubrica",
+    "tema": [
+      "ascoltatori",
+      "rubrica"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

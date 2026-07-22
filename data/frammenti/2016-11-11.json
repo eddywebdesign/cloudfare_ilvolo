@@ -198,9 +198,12 @@
     "end": 1101.76,
     "speaker_raw": "SPEAKER_10",
     "testo": "Perché lui aveva detto gli darei un pugno in faccia e allora adesso lui dice siccome il presidente non lo posso più fare, andrei in galera, però posso sempre andare in Italia.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La sfida al presidente",
+    "tema": [
+      "politica",
+      "autorità"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -231,9 +234,12 @@
     "end": 1125.97,
     "speaker_raw": "SPEAKER_10",
     "testo": "Vieni De Niro, vieni qua al volo del mattino. Pensa che figata, Maurizio, Viola, volo De Niro, che bomba.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'invito a De Niro",
+    "tema": [
+      "invito",
+      "ospite"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -253,9 +259,12 @@
     "end": 1421.15,
     "speaker_raw": "SPEAKER_10",
     "testo": "boshra boshra vedi che comunque nella testa anche degli ascoltatori ogni tanto si confondono i personaggi per esempio uno ha scritto ma è morta Liz Taylor e poi dice ah no mi sono confusa era Liza Minnelli e Liza Minnelli dovrebbe essere viva è viva Liza Minnelli per esempio Viola non distingue Steve Martin ve lo ricordate Steve Martin adesso che ce l'ho davanti agli occhi lo confondi con Leslie Nielsen che è quello della pallottola spurtata e sono i capelli devo dire per esempio Matt Damon all'inizio con DiCaprio se DiCaprio non avesse fatto Titanic Matt Damon sarebbe esploso molto di più gli è andato un po' capito? per me è Matt Damon e Mark Wahlberg che si sovrappongono vabbè comunque fateci sapere come sta Liza Minnelli se siete in ascolto no ma è viva allora vedi Liza è viva Liza è viva ha 70 anni è anche giovane la mia battaglia con mia mamma che ne ha 74 dice sai io ormai sono vecchio sai quando i vecchi cominciano a dire che sono vecchi mamma ma 74 anni era la tua bisnonna vecchia tu ormai 74 anni è giovane la tua mamma ma gli faccio gli esempi ma hai visto Renzo Piano da faccia che entra ha spaccato lo studio ha 80 anni Morricone ha fatto 88 anni ieri ma ragazzi Berlusconi comunque adesso un po' che non lo vedo però insomma comunque è arrivato lungo anche lui bello carico ma quando era presidente del consiglio stava al pomeriggio a New York la sera ad Arcoli dicevo io arrivo a casa la sera sono distrutto ma questo come fa che c'ha eh capito però io lo dico parlo per me non vale con tutti io da quando ho tolto insaccati e formaggi ho il doppio dell'energia che io mi sfondavo mi piaceva sia il prosciutto che io mettevo addirittura il formaggio arrotolavo la fetta di prosciutto crudo sul pezzo di formaggio mi facevo questi accidenti mamma che buono tolto anche io io parlo per me non è detto che funziona con tutti io ho tolto quella roba lì cioè come se pippassi cocaina",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La confusione tra personaggi",
+    "tema": [
+      "confusione",
+      "personaggi"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -264,9 +273,12 @@
     "end": 1438.93,
     "speaker_raw": "SPEAKER_11",
     "testo": "dovrei provare io ieri sera a cena la gente non interessa niente piadina con la mortadella e il gorgonzola quindi tutte e tre cose strano che stamattina hai detto non ho sentito la sveglia arrivo in ritardo e sei pimpante oggi",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La vita è strana",
+    "tema": [
+      "vita",
+      "stranezza"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -275,9 +287,12 @@
     "end": 1487.64,
     "speaker_raw": "SPEAKER_10",
     "testo": "Comunque ormai molte diete sconsigliano latte e formaggi, è come avevo detto l'anno scorso. Stanno arrivando o si stanno sbagliando tutti? Ma non lo so. Io non lo ho, non posso dire che fa male. Bravi, continuate così. ho appena fatto promesse da padre promesse da padre è una nuova rubrica passo più di 24 ore da solo con i figli senza Johanna ho appena detto a Viola glieli riconsegno due soldatini due militari vedremo mio padre diceva sempre così la ruina dei figli e la madre la rovina dei figli sulle madri adesso io sto 24 ore al primo che sgarra non è facile pensare di andare via e portarsi dietro la malinconia",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La dieta",
+    "tema": [
+      "dieta",
+      "salute"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -311,9 +326,12 @@
     "end": 1630.47,
     "speaker_raw": "SPEAKER_16",
     "testo": "Quando passa la necessità di andare Quando è ora, è ora, è ora di partire Che non puoi, non puoi, non puoi più rimandare",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La necessità di partire",
+    "tema": [
+      "partenza",
+      "necessità"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -347,9 +365,12 @@
     "end": 1968.38,
     "speaker_raw": "SPEAKER_17",
     "testo": "Grazie. When they say Repent Repent I wonder what they mean When they say Repent Repent",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La ripentenza",
+    "tema": [
+      "ripentenza",
+      "redenzione"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -421,10 +442,14 @@
     "end": 2297.07,
     "speaker_raw": "SPEAKER_01",
     "testo": "E' tutto vero. Leopardi a Silvia la conosceva veramente. Ma è stato su Instagram, ma quando va? Allora secondo te i poeti, i scrittori...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Leopardi e Silvia",
+    "tema": [
+      "poesia",
+      "amore"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Giacomo Leopardi"
   },
   {
     "id": "2016-11-11-037",

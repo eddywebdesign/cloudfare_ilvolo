@@ -318,10 +318,14 @@
     "end": 1911.2,
     "speaker_raw": "SPEAKER_07",
     "testo": "Ho incontrato Luciano l'altro giorno e mi ha detto quella frase lì, bellico verso il sole, l'ho proprio pensata ascoltando il volo del mattino a tutti i tuoi ascoltatori. Quindi ragazzi sappiate quando sentite bellico verso il sole che è per voi. Oh me l'ha detto lui?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Bellico verso il sole",
+    "tema": [
+      "libro",
+      "ispirazione"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Luciano"
   },
   {
     "id": "2016-11-15-026",
@@ -408,9 +412,12 @@
     "end": 2102.77,
     "speaker_raw": "SPEAKER_04",
     "testo": "devi affrontare un colloquio stai per parlare in pubblico devi concentrarti nello studio una prestazione sportiva ormai anche noi che prendiamo da mamma america siamo pronti ci arriveremo tra qualche anno ma che abbiamo il nostro coach che ci aiuta a darci i nostri ancoraggi per riuscire bene in quel colloquio dove abbiamo paura e tensione prima di parlare in pubblico prima di una prestazione sportiva per potenziare il potere della mente nella concentrazione prima di avvicinarsi a una donna un uomo che ti piace che ti crea magari un po' di ansia no? adesso mi prenderò una denuncia ma possibile che andiamo a prendere quelle pastigliette a quelle pastigliette lì che si dicono se prendi quella pastiglietta sarai più concentrato abbiamo il potere della mente a disposizione ci tratta di apprendere una tecnica semplice che apprende un bambino di 10 anni adesso non dico per forza che farò meno di 10 anni ma è talmente semplice dove tu richiami lo stato emotivo che ti serve senza pastigliette è importante o no Fabio?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ancoraggi per la concentrazione",
+    "tema": [
+      "concentrazione",
+      "preparazione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

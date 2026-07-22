@@ -519,9 +519,11 @@
     "end": 1319.48,
     "speaker_raw": "SPEAKER_11",
     "testo": "Ma chi siete? Sono i tuoi.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Chi sei tu?",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -544,9 +546,11 @@
     "end": 1419.35,
     "speaker_raw": "SPEAKER_02",
     "testo": "C'è un altro uomo che è impazzito per te Ma non penso che possa dirti Tutto quello che ti dico io",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Un altro uomo",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -581,9 +585,11 @@
     "end": 1598.62,
     "speaker_raw": "SPEAKER_03",
     "testo": "È il modo perfetto per imparare i testi.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Imparare i testi",
+    "tema": [
+      "studio"
+    ],
+    "tipo": "lettura_volo",
     "video_url": ""
   },
   {
@@ -614,9 +620,11 @@
     "end": 1631.35,
     "speaker_raw": "SPEAKER_00",
     "testo": "Adesso capiamo perché tante cose, tante cose. Va bene, pensa che le cassettine, io ragazzi vorrei dire una cosa, se non lo vogliamo fare come programma ricorrente, perché magari non è nella linea del programma, non è nella linea editoriale di Radio DJ, Ma io insisto a dire la cosa che ho detto mi sembra l'anno scorso, a inizio stagione non mi ricordo, ormai i tempi sono dilatati, io vorrei rifare un programma di dedica e richiesta.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Cassettine",
+    "tema": [
+      "famiglia"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -647,9 +655,11 @@
     "end": 1775.62,
     "speaker_raw": "SPEAKER_08",
     "testo": "quella del bambino che vedeva il pollo però non mi ricordo mamma mamma guarda il galletto va all'esplugno è fantastico mamma mamma era papà papà guarda un pollo e poi c'era un periodo che c'era Cristina D'Avena che faceva la pubblicità dei puffi ah veramente?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Bambino e pollo",
+    "tema": [
+      "infanzia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -658,9 +668,11 @@
     "end": 1805.24,
     "speaker_raw": "SPEAKER_00",
     "testo": "ma i pupazzetti i pupazzetti i pupazzetti allora non so faceva una gag ma tu ti ricordi scusate qualcuno assieme lo deve ricordare perché mi hai fatto venire con questa roba del pollo mi è venuta in mente non me la ricordo bene adesso non ce l'ho una notte Perché lui regalava una specie di fornetto a lei, no? E lei gli diceva, ma cosa fa? Solo spuntini? Sì, lui diceva tipo, sì, spuntini, come pizzette, come queste, e tirava sulla tovaglia e c'era un tavolo con lasagne e base. Cos'è che era?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Pupazzetti",
+    "tema": [
+      "infanzia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

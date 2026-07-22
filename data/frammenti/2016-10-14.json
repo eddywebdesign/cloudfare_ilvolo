@@ -5,10 +5,13 @@
     "end": 98.09,
     "speaker_raw": "SPEAKER_02",
     "testo": "We met with a goodbye kiss I broke my wrist It all kicked off I had no choice You said that you didn't mind Cause love's hard to find Ciao! a presto",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "We met with a goodbye kiss",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Artista non specificato"
   },
   {
     "id": "2016-10-14-001",
@@ -590,10 +593,14 @@
     "end": 1768.91,
     "speaker_raw": "SPEAKER_05",
     "testo": "Quelli che ogni tanto da bambino cercavi di fermare?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Quelli che",
+    "tema": [
+      "infanzia",
+      "avventura"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Italo Calvino"
   },
   {
     "id": "2016-10-14-052",
@@ -712,9 +719,12 @@
     "end": 1885.14,
     "speaker_raw": "SPEAKER_05",
     "testo": "lo so Mona Lisa esatto poi ho fatto anche liceo artistico ma quello sei stata spinta sai omen omen omen omen ma certo viola che sai latino omen omen omen omen omen omen omen",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Mona Lisa",
+    "tema": [
+      "arte",
+      "storia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1037,10 +1047,14 @@
     "end": 2525.55,
     "speaker_raw": "SPEAKER_05",
     "testo": "un mondo migliore questo nuovo singolo di Vasco Rossi che diciamo da questo momento sentirete molto in radio arrivano messaggi tanto la Stefi scrive che il tema sul tè ha preso più diciamo come messaggio del vaginalize di ieri poi c'è uno secondo me Matteo di Verona che merita di essere citato scusate ragazzi da fuoco da fuoco voglio fare una domanda da fuoco allora per il tè solubile già zuccherato in busta da un chilo qui c'è la gioconda a casa che si dà fuoco con la tannica di benzina per il tè solubile già zuccherato in busta da un chilo qual è la temperatura giusta c'è il bustino quando ero ragazzino quando ero bambino che avendo la sorella più grande facevo anche cose da donna tipo compravo ragazza impre che lo comprava lei c'erano i poster grandi però c'era il poster di Loredana Bertè da pirata che poi da ragazzo l'ho utilizzato e a un certo punto andava di moda negli anni 80 così ai miei tempi farsi lo shampoo con la camomilla per diventare più biondi e a casa mia nel negozio mia mamma vendeva quelle in bustine surbre già zuccherate quindi noi ci siamo fatti io e mia sorella da bambini così e c'è dovuto con lo zucchero era tutto attaccato chi lo dice la mamma? niente biondi Nei cartoni giapponesi. Allora, ci sono tè verdi giapponesi non aromatizzati per il quale il tempo di infusione va dai 30 secondi ai 3 minuti, Chris. Comunque vabbè, torneremo sul tema tè perché comunque è una roba da sciuretti il tè.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Un mondo migliore di Vasco Rossi",
+    "tema": [
+      "musica",
+      "singolo"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Vasco Rossi"
   },
   {
     "id": "2016-10-14-090",

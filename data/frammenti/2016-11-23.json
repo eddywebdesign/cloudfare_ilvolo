@@ -502,10 +502,14 @@
     "end": 1528.14,
     "speaker_raw": "SPEAKER_10",
     "testo": "Molto bella, molto bella. Su tutte belle cose. Che il nord è bello. bionde con gli occhi azzurri il nord Europa sai che come mi ha detto una volta Faso del Elio e le storie tese mi ha detto qual è il paese più lontano di tutti Finlandia una battuta che faceva ridere solo a me senti una cosa sei a New York di nuovo perché hai mollato cosa facevi in Finlandia? A parte stare con sta ragazza, ti ospitava?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Faso del Elio e le storie tese",
+    "tema": [
+      "umorismo",
+      "commedia"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Faso"
   },
   {
     "id": "2016-11-23-043",
@@ -513,9 +517,12 @@
     "end": 1544.23,
     "speaker_raw": "SPEAKER_08",
     "testo": "No, a Vilania sono stato un po' con lei, poi sono andato a Tallinn e poi ho degli amici a Rauma, che è una cittadina che sta un po' più a nord, e poi ho prontato lì da viaggio per andare in Lappogna, perché quando ritorno da New York il 26, prendo il treno e vado a vedere l'Aurora Boreale, che è proprio il childhood dream.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Viaggio in Finlandia",
+    "tema": [
+      "viaggio",
+      "amore"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -553,9 +560,12 @@
     "end": 1590.08,
     "speaker_raw": "SPEAKER_10",
     "testo": "Proiettato sul futuro. Va bene, comunque, hai mollato la Finlandia, hai preso un biglietto per la Lapponia, sei andato a New York a vendere gli alberi di Natale, come sempre. Anche sei notte, so che sei sveglio a fare le consegne, o state solo lì al freddo?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Viaggio in Lapponia",
+    "tema": [
+      "viaggio",
+      "avventura"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -600,9 +610,12 @@
     "end": 1619.42,
     "speaker_raw": "SPEAKER_10",
     "testo": "Ah, un sacco di ragazzi vanno lì a vendere gli alberi, quindi vuol dire che si guadagna bene o è solo per fare un'esperienza divertente?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Vendita alberi di Natale",
+    "tema": [
+      "lavoro",
+      "viaggio"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -622,9 +635,12 @@
     "end": 1683.72,
     "speaker_raw": "SPEAKER_10",
     "testo": "E ricordiamo sempre, voi siete lì con i vostri camperini, così dove andate a fare la doccia e andare in bagno? La doccia quest'anno abbiamo una bella palestra a Leonard. Ah! ho capito, ho capito è quella che fa lì a Leonard è quella che non so come si chiama forse Viola lo sa che conosce bene le palestre sono specializzati in quel sai quel peso che sembra una campana però è un peso che tieni con le due mani tiri su così, tiri su qua a me bastano gli alberi come peso io vado lì solo a fare la doccia senti allora siamo tutti e due nella stessa città se non fosse che tu vendi gli alberi e io sono famoso potevamo diventare amici e vederci invece purtroppo la vita ci ha messo a me diciamo in una oligarchia di gente speciale tu che sei uno straccione io sono la plebbe proprio ti vengo a trovare davvero ti vengo a trovare sei a Leonard giusto?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Doccia e bagno",
+    "tema": [
+      "igiene",
+      "viaggio"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -733,9 +749,12 @@
     "end": 2222.67,
     "speaker_raw": "SPEAKER_10",
     "testo": "quando io facevo il dj a Brescia in provincia da ragazzino al bar Retro ok in Viale Piave che questa qui spopolava spopolava perché quella tamarrata che ti entra che fa sempre piacere a me è piaciuta tanto allora ma era Manolo o Nicolas? era Manolo allora dovete sapere che c'è questa storia dei Gypsy King sono delle varie leggende alcuni dicono che loro essendo Gypsy non sapevano né leggere né scrivere in qualche modo nei contratti qualcuno se ne ha approfittato se ne ha un po' approfittato sì altri invece sostengono che esista questo ragazzo che si chiama Manolo che si spaccia come uno dei Gypsy King e non è vero e i Gypsy King si sono incazzati e hanno detto noi in Italia non veniamo più perché c'è questo Manolo che dice di essere uno dei nostri è andato anche dalla Venier e il capo dei Gypsy che si chiama Nicolas Reyes ha detto che noi tra l'altro siamo andati a casa di Mara Venier al suo compleanno c'è Mara Venier, vedi che figa Mara Venier ha detto dai venite c'ho anche un gruppo che suona esatto, soltanto che sembra un po' che l'uno valga l'altro e invece no, i gipsy quelli originali insomma spacchi, io li chiamerei al mio matrimonio tutta la vita guarda che costano tanti soldi vi prendo Manolo allora per questo è Manolo Spock mentre andava nella confusione dei gipsy, Maurizio mi ha detto guarda che c'è uno che ci ascolta dalla Gruber ma cosa vuol dire ci ascolta dalla Gruber? no, invece ci ascolta dalla Gru è uno che sta dentro nella gru tutta la mattina in alto in alto in alto pensa da dove ci ascoltano che mondo meraviglioso Adrian ciao c'è quel bellissimo film con Rocky Balboa che alla fine tutti cercano di elogiarlo ma lui cerca solo la sua donna che si chiama Adriana e grida Adriana Adriana Adriana sono io tua moglie ti grida Adriana Adriana La mia si chiama Luciana. Luciana. Senti, come stai Adrian? Adesso sono sul lavoro. Sei sul lavoro? Sempre con la mia gru. Ma quanto è alta sta gru da dove ci ascolti?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Gypsy King",
+    "tema": [
+      "storia",
+      "tradizione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -755,9 +774,12 @@
     "end": 2235.49,
     "speaker_raw": "SPEAKER_10",
     "testo": "Ma tu su, scusami, le gru, per intenderci, perché sai che qua in Italia ogni città ha i suoi nomi. La gru esattamente è quella specie di T gigante che si muove.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Gru e caroponte",
+    "tema": [
+      "lingua",
+      "tradizione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

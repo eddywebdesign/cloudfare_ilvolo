@@ -391,10 +391,14 @@
     "end": 1406.96,
     "speaker_raw": "SPEAKER_00",
     "testo": "Si dice che in Italia, se non sbaglio, due, l'abbiamo già detto e tu non ci credevi, mi sembra che due persone su dieci sono figlie non di quello che chiamano padre ma di una relazione extraconiugale segreta dalla madre.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "figli non di chi si crede",
+    "tema": [
+      "genitori",
+      "identità"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Adinolfi"
   },
   {
     "id": "2016-10-25-034",
@@ -413,9 +417,12 @@
     "end": 1432.18,
     "speaker_raw": "SPEAKER_00",
     "testo": "io ad esempio ho due figli uno dei due potrebbe non essere mio no due su dieci e uno su cinque e io dico sempre quando parliamo scherziamo su questa cosa anche in caso si fa la battuta io dico sempre quel giorno che dovessi scoprire che uno dei miei due figli non è mio sappi che sono miei lo stesso certo direi se no lo prendo io che arriverà Vito in studio da voi e vi dirà e no",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "figli non certi",
+    "tema": [
+      "genitori",
+      "identità"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -493,9 +500,12 @@
     "end": 1581.0,
     "speaker_raw": "SPEAKER_02",
     "testo": "l'estate ci picchia addosso e l'alba ci illumina, un colore, una sfumatura, i tuoi capelli sul mio volto, camminiamo insieme con un panino e tappere, e tutte queste montagne,",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "estate e natura",
+    "tema": [
+      "estate",
+      "natura"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

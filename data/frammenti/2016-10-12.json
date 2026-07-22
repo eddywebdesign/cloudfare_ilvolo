@@ -16,10 +16,13 @@
     "end": 204.53,
     "speaker_raw": "SPEAKER_03",
     "testo": "Robby Williams, party like a Russian. Avete amici russi voi nella vostra vita? Hai un'amica russa? Tu un amico russo? No. Io ho amici russi. Amici che russa invece. Amici russi. Buongiorno a tutti, mercoledì 12 ottobre 2016. Come state? Maurizio?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Party like a Russian",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Robby Williams"
   },
   {
     "id": "2016-10-12-002",
@@ -303,9 +306,12 @@
     "end": 1227.8,
     "speaker_raw": "SPEAKER_03",
     "testo": "Io, io. abbiamo detto così e si è bombata la Medici di romani guarda ieri un mio amico di Roma io gli ho detto comunque mi sono girato verso il regista che è pugliese mi sono girato e siamo arrivati di Porta Venezia Piazza Venezia Piazza Venezia che poi se ci sono anche le due chiese ho detto a Roma giri l'angolo è proprio l'unica città al mondo nemmeno Parigi ha questa potenza che poi è bella in un altro modo che tu proprio giri l'angolo e c'è sempre sta chiesa, ste cappelle, ste cose, ste cupole ti dà proprio se stai attento soprattutto se non sei romano quindi entri e esci come al bagno tu devi guardare così hai capito l'esempio stavo pensando entri e esci come al bagno sei in bagno e sei convinto di non aver fatto nessun odore poi vai un secondo in corridoio rientri e ti raccogli devi sempre uscire un attimo per capire la relazione dove sei ottima metafora abbiamo anche ospiti c'è Buschra è già arrivata non facciamoci riconoscere è già arrivata comunque è proprio una città che ti dà un po' Stendhal il romano in macchina con noi mi ha detto è molto bella de notte Nel senso proprio che viene tolta da tutta la fatica, cioè uno di Roma che veramente deve andare al lavoro, se poi deve portare il figlio da una parte e lavorare dall'altra, cioè se devi svegliare alle 5, arrivi in ufficio e stai già sudato per dire no?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Roma e il regista pugliese",
+    "tema": [
+      "Roma",
+      "regista"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -351,9 +357,12 @@
     "end": 1293.99,
     "speaker_raw": "SPEAKER_03",
     "testo": "Quando togli tutto, di fatti quelli che dicono sempre agosto è bellissimo, fa caldo però è bello, comunque è una città meravigliosa, ma la mail adesso è tutta sul tema Roma. Tutto all'ortico. addirittura un ragazzo dice sto discutendo con la mia fidanzata da mesi lei è romana io di Bologna vieni a vivere a Roma vieni a vivere a Roma adesso che hai detto sta cosa oggi la chiamo le dirò che non andrò più quindi ho anche rovinato una famiglia non solo la puntata ho rovinato la puntata la vostra mattinata eravamo una famiglia dalla serie ma fatti riga capito chi tocca il sengrugno Ho toccato un pulsante nel cuore dei romani che sono esplosi come dei robot transformers e ci hanno impallato praticamente. Allora, sentite questa bella voce che ride. È Bushra, lo dovremmo dire bene?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Roma e la sua bellezza",
+    "tema": [
+      "Roma",
+      "bellezza"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

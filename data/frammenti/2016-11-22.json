@@ -16,9 +16,11 @@
     "end": 124.52,
     "speaker_raw": "SPEAKER_14",
     "testo": "Ciao Ciao Grazie a tutti Ciao!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ciao Ciao Grazie a tutti",
+    "tema": [
+      "saluto"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -49,9 +51,12 @@
     "end": 181.01,
     "speaker_raw": "SPEAKER_09",
     "testo": "Sono contento, sapete che il venerdì si va al lavoro col trolley? Oggi è martedì e sono venuto al lavoro col trolley. Sono contento, sento quel partire e sempre un po' morire. Speriamo che non sia...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "trolley al lavoro",
+    "tema": [
+      "lavoro",
+      "umore"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -71,9 +76,12 @@
     "end": 221.16,
     "speaker_raw": "SPEAKER_09",
     "testo": "Conosci pure tu Allello? No, non lo so. Tutte le volte che dico la verità, hai scoperto questa cosa, io non ho paura di volare. Non ho paura di volare. Non ho paura di morire. Mi scoccia, che è un altro atteggiamento. Morire? Mi scoccia l'idea di morire. Non ho paura di un giorno muoio, ho paura. Mi rompe un po' le scatole. Mi rompe... Mi rompe. Scocciature. Andarmene mi rompe, dico la verità.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "paura di morire",
+    "tema": [
+      "morte",
+      "paura"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -126,9 +134,12 @@
     "end": 314.5,
     "speaker_raw": "SPEAKER_00",
     "testo": "Chi parte sa da che cosa fugge ma non sa che cosa cerca. Commessa cosa? Chi parte sa da che cosa fugge ma non sa che cosa cerca.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "chi parte sa da che cosa fugge",
+    "tema": [
+      "partenza",
+      "fuga"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -162,9 +173,12 @@
     "end": 763.86,
     "speaker_raw": "SPEAKER_09",
     "testo": "insomma vedi qui c'è una ragazza che dice che da quando è diventata mamma non prende più gli aerei è una cosa probabilmente che nasce con sai che succedono delle cose strane alle donne quando hanno i figli fisicamente cosa succede? cioè tipo a Johanna ma anche a molte donne alcune perdono un po' di vista per esempio no a Johanna come a molte donne gli crescono dei capelli strani qua diciamo zona basetta ma va sarà una cosa ormonale che crescono dei capelli tutti che rimangono cortini un po' allora io l'ho vista l'altra settimana e non ho notato i grandi ciuffi di capelli ci sono donne per esempio con i capelli lisci che diventano ricce la sapevi sta cosa? no non la sapevo oppure donne ricce diventano un po' più lisce e agli uomini non succede niente? a noi credo che si abbassi un po' poi i marroni cadono ma no perché la moglie diventa madre tu sembra che non sei più capace a far niente aggiungo un po' i maroni ok è brutta l'immagine all'uomo succede questo l'ho anche scritto nell'ultimo libro che avevo scritto era proprio su questi passaggi strani che incontri una donna sei una specie di superman con te vuoi fare un figlio poi nasce un figlio e sei peggio di fantozzi nel senso che non vale più guarda Maurizio con la testa eh sì l'uomo perde un po' la vista secondo me anche l'uomo Nel senso che la vista, non so se ti capita con Elena, che tu lo so, apri l'armadietto e dici, dov'è la marmellata? E lei ti dice, no non c'è, guarda che l'hai presa tu. E tu cominci a litigare, dove vuoi dimostrare che la marmellata non è solo un vasetto di marmellata, è chi vince a sto punto perché non capisci niente. E non vedi la marmellata. Lei si avvicina e man mano si avvicina compare il vasetto di marmellata. Certo. e ti dice oh ma non vedi più ed è vero sai io cucchiai di legno non vedo le cose gli ho detto dov'è la mia maglietta è lì nel primo cassetto ho già guardato guarda che lì nel primo cassetto non c'è arriva lei e tira fuori la maglietta come mai ci rincoglioniamo così a me non è successo comunque non avevo dubbi e Maurizio è perfetto può essere no adesso è rimasto male ma veramente solo io? no, non ci credo comunque anche sui sapori e i gusti sono donne che dopo che hanno partorito non amano più un cibo che prima amavano Super Jam, Radio DJ, questo è il volo del mattino. Mentre andava al disco si parlava appunto, dovesse cadere l'aereo, dobbiamoci i paroni, però quando c'è gente così uno se lo chiede, no ma una volta io Milano-Roma è salito Bonolis, ho detto beh sicuramente non lo diranno neanche che ero sull'aereo con lui. E quando era, quanti anni fa? Beh un po' di anni fa, ma in generale ancora adesso, dovessi prendere un aereo, cade con Bonolis, parlano solo di Bonolis. direbbero c'era anche quello lì che faceva le iene allora adesso me la dico fra me Catalan ok secondo me diciamo sui giornali quelli proprio giovani capito Catalan e poi quello lì che faceva le iene invece magari che ne so su una roba da vecchi ma secondo te lui se lo chiede? beh ma non credo che lo sia così stupido è molto più intelligente però adesso aspetta che so che non era qua ho soltanto vedere se era di là non c'era lo chiamo lo chiamo aspetta Pronto? Oh Ale, sono Fabio. Ciao. Ciao. Scusami, siccome oggi devo prendere un aereo che vado via, no? Eh. No, e allora ha fatto questa cosa stupida che è proprio un gioco da ego, che ho detto, se fossi sull'aereo con Bonoli, se cade l'aereo. Ah certo, parlano di Bonoli. Tutti parlano di Bonoli, te lo fai anche tu questo pensiero?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "madre che non prende più gli aerei",
+    "tema": [
+      "genitori",
+      "paura"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -184,10 +198,14 @@
     "end": 901.04,
     "speaker_raw": "SPEAKER_09",
     "testo": "che potrebbe morire anche io faccio così con questo qua c'è gente che potrebbe morire sì sì bravo bravo ecco ti volevo chiedere su un aereo tramete eh parlano di te no no secondo me c'è un settore diciamo internet giornali più giovani più anche un po' più fighi secondo me eh magari sì sì sì ci dividiamo è vero secondo me anche fino a Vanity Fair è tuo anche Vanity Fair è tuo eh tuo la d'urso è tutta mia la d'urso e il tg5 scusami la come si chiama la 7 è tua la 7 è mia la 7 è tua sky sky tg24 è solo speciale catena senti no la toffanin è verissimo sei te ancora io più tu perché sei più famoso però siccome mi vuole un po' bene un accenno a me un coccodrillo tra l'altro potrebbe dire tipo volo vabbè morto ma chi se ne frega potrebbe dire piuttosto che peccato per questa stella nascente va bene allora domani prendilo secondo me devi prenderlo con qualcuno lo so qualcuno della radio ce n'è uno che mi fareste anche un favore bisogna viaggiare sempre in coppia ti porti sai come quelli che escono con l'amico brutto un po' meno famoso va bene ciao scusa che ti abbia disturbato ciao ciao spero non succeda ciao ciao ciao ciao ciao Rolling Stones Rolling Stones Catela guarda avrebbe voglia di morire per dimostrarvi che avete torto oh yeah balla vai questa è la mia canzone ragazzi e tra poco arriva Pacifico",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Vanity Fair",
+    "tema": [
+      "libro",
+      "cultura"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "William Makepeace Thackeray"
   },
   {
     "id": "2016-11-22-017",
@@ -543,10 +561,15 @@
     "end": 2379.11,
     "speaker_raw": "SPEAKER_01",
     "testo": "ma sta andando benissimo proprio bene bene bene ogni sera viene sempre più gente vogliamo dare un po' di date? poi andiamo a Genova al Politeama dal 28 al 4 e poi Firenze e poi Roma al Sistina per un sacco di tempo però tutte le date sono su Evita Opera Rock hai fatto il finale proprio come da",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Evita Opera Rock a teatro",
+    "tema": [
+      "teatro",
+      "spettacolo",
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Evita"
   },
   {
     "id": "2016-11-22-048",

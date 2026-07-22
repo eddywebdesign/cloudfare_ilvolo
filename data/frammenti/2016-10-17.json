@@ -332,10 +332,14 @@
     "end": 1864.19,
     "speaker_raw": "SPEAKER_01",
     "testo": "Viola ha appena detto ho un problema uno tra i tanti devo mettere su un po' di massa magra cioè i muscoli diciamo e Maurizio là in fondo nella stanza in un angolo ha detto perché non mangi il grano greco il fieno greco scusami perché non mangi il fieno greco che notizia è questa cosa del fieno greco Maurizio? io facevo atletica anche io avevo questo problema voi magri che mangiate e rimanete magri che è un problema bisogna mangiare il fieno greco tipo integratore va bene ma questo è un altro discorso Michela buongiorno tu sei insegnante di clarinetto",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "fieno greco",
+    "tema": [
+      "salute",
+      "alimentazione"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Maurizio"
   },
   {
     "id": "2016-10-17-026",
@@ -398,9 +402,12 @@
     "end": 1893.16,
     "speaker_raw": "SPEAKER_01",
     "testo": "Comunque il clarinetto sta giù dritto così. Come un calippo, sta dritto così. Mentre il flauto è come bere l'acqua alla fontanella, cioè vai di profilo, giusto?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "flauto e clarinetto",
+    "tema": [
+      "musica",
+      "strumenti"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -434,10 +441,14 @@
     "end": 1929.42,
     "speaker_raw": "SPEAKER_05",
     "testo": "Se no, Pauud è il primo flauto dei Berliner ed è una specie di divo. E' fantastico.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Berliner",
+    "tema": [
+      "musica",
+      "Berlin"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Pauud"
   },
   {
     "id": "2016-10-17-035",
