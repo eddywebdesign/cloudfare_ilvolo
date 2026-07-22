@@ -82,10 +82,11 @@ if [[ ! -d "$ROOT" ]]; then
 fi
 
 SOGLIA_EMERGENZA_CPU=93
+SOGLIA_EMERGENZA_GPU=88  # RTX 5070, margine sotto il tipico punto di throttling (~90-95C) -- ignorata se nvidia-smi non e' disponibile
 rm -f logs/OVERHEAT_STOP.flag
 
-echo "Avvio il logger termico in background (soglia di emergenza ${SOGLIA_EMERGENZA_CPU}C)..."
-python3 scripts/linux/sensori_temp.py --loop 60 logs/trascrizioni_log_termico.csv --kill-cpu "$SOGLIA_EMERGENZA_CPU" &
+echo "Avvio il logger termico in background (soglia di emergenza CPU ${SOGLIA_EMERGENZA_CPU}C, GPU ${SOGLIA_EMERGENZA_GPU}C)..."
+python3 scripts/linux/sensori_temp.py --loop 60 logs/trascrizioni_log_termico.csv --kill-cpu "$SOGLIA_EMERGENZA_CPU" --kill-gpu "$SOGLIA_EMERGENZA_GPU" &
 LOGGER_PID=$!
 
 cleanup() {

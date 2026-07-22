@@ -37,7 +37,7 @@ LOGS_DIR = REPO / "logs"
 DATA_DIR = dati_root(REPO)
 ESTADO_DIR = logs_root(REPO)
 NAS_ROOT = Path("/mnt/ilvolo-audio-backup")
-DURACION_MEDIA_MIN = 55
+DURACION_MEDIA_MIN = 1.7  # RTX 5070 via OCuLink dal 2026-07-22 (~1m35-40s/episodio reali, prima 55 min su CPU) -- il JSON di output non registra il device usato, non distinguibile retroattivamente se si torna a CPU-only
 
 
 def _es_de_hoy(path: Path, hoy: datetime.date) -> bool:

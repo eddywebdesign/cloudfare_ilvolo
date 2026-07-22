@@ -61,7 +61,8 @@ AUDIO_ROOT = Path(os.environ.get("ILVOLO_AUDIO_ROOT", "/mnt/ilvolo-audio-backup"
 FLAG_STOP_PENDIENTE = REPO / "data" / "panel_stop_pendiente.flag"
 CONSOLA_BATCH = REPO / "logs" / "consola_batch.log"
 RE_PROGRESO = re.compile(r"^\[(\d+)/(\d+)\]")
-DURACION_MEDIA_MIN = 55  # media observada: 44-51 min, con margen de seguridad
+DURACION_MEDIA_MIN_CPU = 55  # media observada: 44-51 min, con margen de seguridad
+DURACION_MEDIA_MIN_GPU = 1.7  # RTX 5070 via OCuLink, misurato 2026-07-22: ~1m35-40s/episodio reali
 INTERVALO_CHEQUEO_MS = 5000
 RETRASO_REANUDAR_MIN = 30  # ver nota en reanudar() -- misma cifra que panel_estado_hp14.py
 
@@ -81,8 +82,9 @@ def buscar_whisperx():
             for token in p.info["cmdline"]:
                 if token.endswith(".mp3"):
                     nombre = Path(token).stem
-            return p, nombre
-    return None, None
+            gpu = "device cuda" in cmdline
+            return p, nombre, gpu
+    return None, None, False
 
 
 def leer_temperatura():
@@ -184,10 +186,11 @@ class Panel:
         # habia una parada programada pendiente, lo mataba al instante en vez
         # de esperar a que terminara. Paso de verdad el 18/07: elimino' 4h de
         # trabajo de diarizacion ya casi terminada.
-        p_inicial, nombre_inicial = buscar_whisperx()
+        p_inicial, nombre_inicial, gpu_inicial = buscar_whisperx()
         self.pid_actual = p_inicial.pid if p_inicial else None
         self.episodio_actual = nombre_inicial
         self.inicio_actual = p_inicial.create_time() if p_inicial else None
+        self.gpu_actual = gpu_inicial
         # Persistido en disco: si el panel se cae o se reinicia (crash, reboot,
         # actualizacion) mientras hay una parada programada pendiente, no se
         # pierde en silencio - se restaura aqui. Motivo: paso de verdad el
@@ -348,7 +351,7 @@ class Panel:
 
         # Verificar de verdad, no solo asumir que el clic funciono'
         time.sleep(1)
-        p, _ = buscar_whisperx()
+        p, _, _ = buscar_whisperx()
         if p is None:
             self.lbl_aviso.config(
                 text=f"✓ Detenido y verificado a las {hora()}. Watchdog pausado.",
@@ -544,7 +547,7 @@ class Panel:
             traceback.print_exc()
 
         try:
-            p, nombre = buscar_whisperx()
+            p, nombre, gpu = buscar_whisperx()
 
             if p is None:
                 self.lbl_estado.config(text="○ Sin transcripción activa")
@@ -570,6 +573,7 @@ class Panel:
                     self.pid_actual = p.pid
                     self.episodio_actual = nombre
                     self.inicio_actual = p.create_time()
+                    self.gpu_actual = gpu
                     # Nuevo episodio: sacar la ventana al frente para que se vea sin abrirla a mano
                     self.root.deiconify()
                     self.root.geometry("+160+60")  # misma correccion de posicion que en __init__
@@ -577,8 +581,9 @@ class Panel:
                     self.root.attributes("-topmost", True)
 
                 if not (es_nuevo and self.detener_al_finalizar):
+                    duracion_media = DURACION_MEDIA_MIN_GPU if getattr(self, "gpu_actual", False) else DURACION_MEDIA_MIN_CPU
                     transcurrido_min = (time.time() - self.inicio_actual) / 60
-                    restante_min = max(0, DURACION_MEDIA_MIN - transcurrido_min)
+                    restante_min = max(0, duracion_media - transcurrido_min)
 
                     idx, total = leer_progreso_batch()
                     progreso = f" ({idx} de {total} en esta carpeta)" if idx and total else ""
@@ -586,8 +591,9 @@ class Panel:
                     self.lbl_episodio.config(text=f"Episodio: {self.episodio_actual}{progreso}")
                     inicio_hhmm = datetime.fromtimestamp(self.inicio_actual).strftime("%d/%m %H:%M")
                     self.lbl_tiempo.config(text=f"Iniziato: {inicio_hhmm} ({transcurrido_min:.0f} min fa)")
+                    gpu_label = " [GPU]" if getattr(self, "gpu_actual", False) else ""
                     self.lbl_restante.config(
-                        text=f"Estimado restante: ~{restante_min:.0f} min (media {DURACION_MEDIA_MIN} min)"
+                        text=f"Estimado restante: ~{restante_min:.1f} min (media {duracion_media:.1f} min{gpu_label})"
                     )
         except Exception:
             traceback.print_exc()

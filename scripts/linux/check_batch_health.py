@@ -29,6 +29,7 @@ LOGS_DIR = REPO / "logs"
 STOP_FLAG = REPO / "data" / "STOP_BATCH_AFTER_EPISODE.flag"
 CSV_TERMICO = LOGS_DIR / "trascrizioni_log_termico.csv"
 SOGLIA_TEMP_C = 90.0
+SOGLIA_TEMP_GPU_C = 88.0  # coerente con SOGLIA_EMERGENZA_GPU in avvia_trascrizione_sicura.sh
 
 
 def trova_processo(match_in_cmdline: str):
@@ -90,6 +91,12 @@ def main() -> None:
                     anomalie.append(f"CPU a {campi[1]}C, sopra soglia {SOGLIA_TEMP_C}C")
             except (ValueError, IndexError):
                 pass
+            if len(campi) >= 5:
+                try:
+                    if float(campi[4]) > SOGLIA_TEMP_GPU_C:
+                        anomalie.append(f"GPU a {campi[4]}C, sopra soglia {SOGLIA_TEMP_GPU_C}C")
+                except ValueError:
+                    pass
 
     stop_eseguito = False
     if STOP_FLAG.exists() and batch and not whisperx:

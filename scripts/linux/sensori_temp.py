@@ -13,10 +13,14 @@
 #      logs/OVERHEAT_STOP.flag — stesso meccanismo di hwinfo_temp.py (Windows),
 #      QUI ANCORA PIU' IMPORTANTE: il K16 gira headless, senza nessuno che guarda
 #      un popup o un terminale.
+#      Con --kill-gpu SOGLIA: stessa logica ma sulla temperatura GPU (nvidia-smi),
+#      aggiunta 2026-07-22 con l'arrivo della RTX 5070 — prima di allora non
+#      esisteva nessuna sicurezza termica per la GPU durante il batch headless.
 
 import csv
 import datetime
 import os
+import subprocess
 import sys
 import time
 from pathlib import Path
@@ -34,13 +38,29 @@ KILL_CONSECUTIVE = 2  # stessa soglia/logica di hwinfo_temp.py, per coerenza cro
 ALARM_FLAG = Path("logs/OVERHEAT_STOP.flag")
 
 
-def _termina_trascrizione() -> list[str]:
+def _termina_trascrizione(motivo="surriscaldamento CPU") -> list[str]:
     """Uccide whisperx + trascrivi_locale_episodi.py (non il wrapper bash: vede
     OVERHEAT_STOP.flag e si ferma da solo senza passare all'anno successivo)."""
     _, riga = matar_trascrizione(
-        origine="sensori_temp.py", motivo="surriscaldamento CPU", aggressivo=False,
+        origine="sensori_temp.py", motivo=motivo, aggressivo=False,
     )
     return [riga]
+
+
+def temperatura_gpu():
+    """Legge la temperatura GPU via nvidia-smi. None se non disponibile
+    (nessuna GPU NVIDIA, driver non caricato, o comando assente) — non deve
+    mai far fallire il resto del loop, la GPU e' un extra opzionale qui."""
+    try:
+        r = subprocess.run(
+            ["nvidia-smi", "--query-gpu=temperature.gpu", "--format=csv,noheader,nounits"],
+            capture_output=True, text=True, timeout=5, check=False,
+        )
+        if r.returncode == 0 and r.stdout.strip():
+            return float(r.stdout.strip().splitlines()[0])
+    except (FileNotFoundError, subprocess.TimeoutExpired, ValueError):
+        pass
+    return None
 
 
 def leggi_sensori(filtro=None):
@@ -84,40 +104,63 @@ def _escribir_fila(csv_path, fila):
     with open(csv_path, "a", newline="", encoding="utf-8") as f:
         writer = csv.writer(f)
         if nuevo:
-            writer.writerow(["timestamp", "cpu_package_c", "distanza_tjmax_c", "throttling"])
+            writer.writerow(["timestamp", "cpu_package_c", "distanza_tjmax_c", "throttling", "gpu_c"])
         writer.writerow(fila)
 
 
-def loop_log(intervallo_sec, csv_path, kill_cpu_threshold=None):
-    consecutivi_pericolo = 0
+def loop_log(intervallo_sec, csv_path, kill_cpu_threshold=None, kill_gpu_threshold=None):
+    consecutivi_pericolo_cpu = 0
+    consecutivi_pericolo_gpu = 0
     print(f"Log termico ogni {intervallo_sec}s -> {csv_path} (Ctrl+C per fermare)")
     if kill_cpu_threshold is not None:
-        print(f"Soglia di emergenza attiva: {kill_cpu_threshold}C per {KILL_CONSECUTIVE} letture consecutive")
+        print(f"Soglia di emergenza CPU attiva: {kill_cpu_threshold}C per {KILL_CONSECUTIVE} letture consecutive")
+    if kill_gpu_threshold is not None:
+        print(f"Soglia di emergenza GPU attiva: {kill_gpu_threshold}C per {KILL_CONSECUTIVE} letture consecutive")
     while True:
         cpu = temperatura_cpu_package()
+        gpu = temperatura_gpu()
         dist = (TJMAX_DEFAULT - cpu) if cpu is not None else None
         throttling = "SI" if (cpu is not None and cpu >= THROTTLE_SOGLIA_C) else "NO"
         ts = datetime.datetime.now().isoformat(timespec="seconds")
-        _escribir_fila(csv_path, [ts, cpu, dist, throttling])
-        print(f"{ts}  CPU: {cpu} C  throttling: {throttling}")
+        _escribir_fila(csv_path, [ts, cpu, dist, throttling, gpu])
+        print(f"{ts}  CPU: {cpu} C  throttling: {throttling}  GPU: {gpu} C")
 
         if kill_cpu_threshold is not None and cpu is not None:
             if cpu >= kill_cpu_threshold:
-                consecutivi_pericolo += 1
+                consecutivi_pericolo_cpu += 1
             else:
-                consecutivi_pericolo = 0
-            if consecutivi_pericolo >= KILL_CONSECUTIVE:
-                print(f"ALLARME TEMPERATURA: CPU a {cpu}C >= {kill_cpu_threshold}C per "
+                consecutivi_pericolo_cpu = 0
+            if consecutivi_pericolo_cpu >= KILL_CONSECUTIVE:
+                print(f"ALLARME TEMPERATURA CPU: {cpu}C >= {kill_cpu_threshold}C per "
                       f"{KILL_CONSECUTIVE} letture di fila. Fermo la trascrizione.")
-                uccisi = _termina_trascrizione()
+                uccisi = _termina_trascrizione(motivo="surriscaldamento CPU")
                 ALARM_FLAG.parent.mkdir(parents=True, exist_ok=True)
                 testo_alarm = (
                     f"{ts} CPU a {cpu}C >= soglia {kill_cpu_threshold}C. Processi terminati: "
                     f"{', '.join(uccisi) if uccisi else 'nessuno trovato'}\n"
                 )
                 ALARM_FLAG.write_text(testo_alarm, encoding="utf-8")
-                enviar_alerta("SOBRECALENTAMIENTO - transcripcion detenida", testo_alarm)
+                enviar_alerta("SOBRECALENTAMIENTO CPU - transcripcion detenida", testo_alarm)
                 return
+
+        if kill_gpu_threshold is not None and gpu is not None:
+            if gpu >= kill_gpu_threshold:
+                consecutivi_pericolo_gpu += 1
+            else:
+                consecutivi_pericolo_gpu = 0
+            if consecutivi_pericolo_gpu >= KILL_CONSECUTIVE:
+                print(f"ALLARME TEMPERATURA GPU: {gpu}C >= {kill_gpu_threshold}C per "
+                      f"{KILL_CONSECUTIVE} letture di fila. Fermo la trascrizione.")
+                uccisi = _termina_trascrizione(motivo="surriscaldamento GPU")
+                ALARM_FLAG.parent.mkdir(parents=True, exist_ok=True)
+                testo_alarm = (
+                    f"{ts} GPU a {gpu}C >= soglia {kill_gpu_threshold}C. Processi terminati: "
+                    f"{', '.join(uccisi) if uccisi else 'nessuno trovato'}\n"
+                )
+                ALARM_FLAG.write_text(testo_alarm, encoding="utf-8")
+                enviar_alerta("SOBRECALENTAMIENTO GPU - transcripcion detenida", testo_alarm)
+                return
+
         time.sleep(intervallo_sec)
 
 
@@ -129,9 +172,14 @@ if __name__ == "__main__":
             i = resto.index("--kill-cpu")
             kill_cpu = float(resto[i + 1])
             del resto[i:i + 2]
+        kill_gpu = None
+        if "--kill-gpu" in resto:
+            i = resto.index("--kill-gpu")
+            kill_gpu = float(resto[i + 1])
+            del resto[i:i + 2]
         intervallo = int(resto[0]) if len(resto) > 0 else 60
         csv_path = resto[1] if len(resto) > 1 else "logs/trascrizioni_log_termico.csv"
-        loop_log(intervallo, csv_path, kill_cpu_threshold=kill_cpu)
+        loop_log(intervallo, csv_path, kill_cpu_threshold=kill_cpu, kill_gpu_threshold=kill_gpu)
     else:
         filtro = sys.argv[1] if len(sys.argv) > 1 else None
         for chip, label, valore, unit in leggi_sensori(filtro):
