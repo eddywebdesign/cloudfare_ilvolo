@@ -28,7 +28,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
 
-from transcribe_utils import transcribe, load_lines, HF_TOKEN_FILE  # noqa: E402
+from transcribe_utils import transcribe, load_lines, HF_TOKEN_FILE, PROMPT_DOMINIO  # noqa: E402
 import genera_frammenti  # noqa: E402
 from trascrivi_e_estrai_clip import estrai_riferimenti, merge_riferimenti  # noqa: E402
 import llm_multi  # noqa: E402
@@ -394,7 +394,9 @@ def main() -> None:
 
     if args.gpu:
         device, compute_type, batch_size, threads, cpu_affinity = "cuda", "float16", 16, None, None
+        beam_size, best_of, initial_prompt = 5, 5, PROMPT_DOMINIO
     else:
+        beam_size, best_of, initial_prompt = None, None, None
         device, compute_type, batch_size, threads = "cpu", "int8", 8, args.threads
         # garanzia a livello di sistema operativo: --threads da solo non basta
         # (CTranslate2/OpenMP possono comunque usare piu' core durante l'ASR)
@@ -443,7 +445,7 @@ def main() -> None:
 
         print("  trascrivo con WhisperX (puo' richiedere piu' di un'ora su CPU)...")
         try:
-            json_path = transcribe(mp3, hf_token, device=device, compute_type=compute_type, batch_size=batch_size, threads=threads, cpu_affinity=cpu_affinity)
+            json_path = transcribe(mp3, hf_token, device=device, compute_type=compute_type, batch_size=batch_size, threads=threads, cpu_affinity=cpu_affinity, beam_size=beam_size, best_of=best_of, initial_prompt=initial_prompt)
         except Exception as e:
             print(f"  ERRORE trascrizione: {e}")
             continue

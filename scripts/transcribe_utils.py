@@ -17,7 +17,21 @@ def load_lines(path, count=1):
     return lines[0] if count == 1 else lines[:count]
 
 
-def transcribe(audio_path, hf_token, device="cpu", compute_type="int8", batch_size=8, threads=None, cpu_affinity=None):
+PROMPT_DOMINIO = "Fabio Volo, Maurizio, Viola."
+# Testato 2026-07-22 su GPU (RTX 5070) contro il default puro: beam_size/best_of
+# da soli non cambiano la qualita' in modo percepibile (confidenza pressoche'
+# identica al default) - il guadagno reale viene dal prompt di dominio, che
+# recupera contenuto (sigle/nome del programma) che il default perde del tutto
+# e migliora la punteggiatura nel parlato sostanziale. Costo: ~20s/episodio in
+# piu', e un rischio residuo di eco del prompt SOLO nei passaggi musicali/jingle
+# ambigui (non nel parlato vero) - confermato che quell'eco esiste anche senza
+# prompt in quello stesso punto, quindi e' ambiguita' audio intrinseca, non
+# un artefatto puro del prompt. Prompt tenuto corto apposta (senza il nome del
+# programma) per non "auto-innescare" l'eco sulla propria stessa sigla.
+
+
+def transcribe(audio_path, hf_token, device="cpu", compute_type="int8", batch_size=8, threads=None,
+                cpu_affinity=None, beam_size=None, best_of=None, initial_prompt=None):
     """cpu_affinity: lista di indici di core logici a cui vincolare il processo
     (garanzia a livello di sistema operativo — --threads di whisperx da solo
     non basta, CTranslate2/OpenMP possono comunque usare piu' core di quelli
@@ -31,6 +45,12 @@ def transcribe(audio_path, hf_token, device="cpu", compute_type="int8", batch_si
     ]
     if threads:
         cmd += ["--threads", str(threads)]
+    if beam_size:
+        cmd += ["--beam_size", str(beam_size)]
+    if best_of:
+        cmd += ["--best_of", str(best_of)]
+    if initial_prompt:
+        cmd += ["--initial_prompt", initial_prompt]
 
     proc = subprocess.Popen(cmd)
     if cpu_affinity:
