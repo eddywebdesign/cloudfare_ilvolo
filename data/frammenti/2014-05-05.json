@@ -493,10 +493,13 @@
     "end": 2624.89,
     "speaker_raw": "SPEAKER_10",
     "testo": "I'm the man, I'm the man, I'm the man. This is my world ... ... no no Ciao!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "I'm the Man",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Aloe Blacc"
   },
   {
     "id": "2014-05-05-039",

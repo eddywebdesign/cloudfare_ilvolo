@@ -185,10 +185,13 @@
     "end": 556.86,
     "speaker_raw": "SPEAKER_10",
     "testo": "Non c'è la TV Sorrisi e Canzoni qua, sì, perché c'è la copertina delle IE. Ah, ok.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "IE",
+    "tema": [
+      "media"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Sorrisi e Canzoni"
   },
   {
     "id": "2016-01-27-015",
@@ -511,9 +514,12 @@
     "end": 1904.75,
     "speaker_raw": "SPEAKER_01",
     "testo": "tutta la notte siamo stati a dire il fatto ora sei sbagliato azienda agricola foresta cassano delle murgebari olio extravergine di oliva grisoglio ad agricoltura biologica fermo ha detto che è sbagliato di nuovo ma cos'è che sbaglia?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "azienda agricola",
+    "tema": [
+      "lavoro",
+      "errore"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

@@ -29,9 +29,12 @@
     "end": 207.22,
     "speaker_raw": "SPEAKER_15",
     "testo": "bene bene l'altro giorno ci siamo salutati da un balcone a un balcone ah che bel momento è romantico è romantico come mai con la giacca di pelle vieni in moto? si si vengo in moto",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Saluto da balcone",
+    "tema": [
+      "amore",
+      "relazione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -232,9 +235,12 @@
     "end": 494.68,
     "speaker_raw": "SPEAKER_15",
     "testo": "perché lui è introspettivo è il suo bello ma il suo bello sarà il suo bello ma me mi fa cagare allora qui ci salta tutta la scaletta con la presenza di Nicola no no nel senso io sono ma stai di lì? no non lo so me ne vado allora vado che momento di radio allora va vado",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Introversione",
+    "tema": [
+      "psicologia",
+      "comunicazione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -496,10 +502,14 @@
     "end": 965.21,
     "speaker_raw": "SPEAKER_09",
     "testo": "Allora, si parte, attenzione, perché bisogna un attimo concentrarsi, alle 17.30 da Piazza San Babila con una parata, con due fantastiche marching bands, si arriva alle 6.30 in via Beltrami, dove c'è Expo Gate, di fronte al castello, non vederli come dicevi tu prima e da lì si inizia con musica e cibo la musica tra l'altro ci saranno dei DJ set di radio DJ by Farolfi e Shorty attenzione ma guarda cosa abbiamo scoperto allora Farolfi che adesso sale a prendere la pubblicità un secondo adesso lo vedrà quindi mette i dischi Farolfi e scusami dicevi Shorty ah ok Poi ci saranno dei live show del mitologico Nanni Svampa e poi di questo gruppo di ragazzi brasiliani, Selton, che rifanno canzoni di Cocchi e Renato e di Iannacci in versione brasilea.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Apertura Expo",
+    "tema": [
+      "politica",
+      "società"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Italo Calvino"
   },
   {
     "id": "2014-05-09-041",

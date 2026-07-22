@@ -82,9 +82,12 @@
     "end": 326.65,
     "speaker_raw": "SPEAKER_03",
     "testo": "Aiuto. Fa caldo, qualcuno ha toccato il riscaldamento di questo studio, tu? Sto spogliando. A un certo punto mi è arrivato un phon in faccia di aria calda, sembrava di essere il deserto. Adesso l'hai spento? Sì. Ok, di solito qui fa molto freddo, diciamo. No, infatti. Buongiorno Maurizio, buongiorno Stefania ed è tornata anche la stellina che ormai dobbiamo chiamarla signora gamba si chiama, gamba. Gambi il marito si chiama Gambi perché la Stellini questa settimana che non c'era è andata via un attimo a sposarsi e poi è tornata tra l'altro è riuscita a tornare è riuscita a tornare esatto perché non hai beccato la super bufera è proprio sei partita e dietro di te è arrivata la bufera uno si gira e dice ma è successo la vedo tutto bianco insomma New York parleremo anche di New York ovviamente la nostra seconda casa no? Ci piacerebbe fosse la nostra. Tutti noi in questo momento siamo interessati a cosa succede a New York, non lo so. Però insomma lo avete visto sui giornali, i telegiornali, Instagram, ma anche i social network, proprio la città, immaginate una città caotica, cioè immaginatevi Milano a centomila, capito, che a un certo punto è costretta a fermarsi, no macchine, no autobus, e quindi loro poverini non sanno neanche cosa dirsi a un certo punto, secondo me, perché è una città talmente... come ti chiami tu? sono tua moglie da 10 anni ah scusami è che non possiamo uscire oggi però devo dire una città affascinante perché in quella bellezza lì c'è immaginatevi la neve quindi il silenzio insomma la gente che cammina vanno fuori a giocare per strada insomma è abbastanza una sorpresa ecco questi sono i passi nella neve registrati io vorrei fare una domanda agli ascoltatori dopo tanti anni del volo del mattino quindi diciamo avete una cultura musicale più alta diciamo del resto della radiofonia ecco allora perché volevo sapere ecco immaginatevi una passeggiata nella neve in silenzio nelle cuffie che canzone vi piacerebbe ascoltare così poi la mettiamo dateci delle cose emozionanti ma io direi che possiamo mettere la sigla",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il phon in faccia",
+    "tema": [
+      "caldo",
+      "studio"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -462,10 +465,14 @@
     "end": 1199.88,
     "speaker_raw": "SPEAKER_03",
     "testo": "Ecco, va bene. Senti Elena, ma c'è un sito, qualcosa...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Rinchiudeteli",
+    "tema": [
+      "libro",
+      "sito"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Elena"
   },
   {
     "id": "2016-01-25-039",

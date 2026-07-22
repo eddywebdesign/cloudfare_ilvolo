@@ -583,9 +583,12 @@
     "end": 1839.03,
     "speaker_raw": "SPEAKER_02",
     "testo": "Non lo so, io sono felice per voi. Sai che voglia che avrei di andarmene in Messico adesso una settimanina? Un po' di guacamole, olali seduto.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Guacamole in Messico",
+    "tema": [
+      "viaggio",
+      "cibo"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -630,9 +633,12 @@
     "end": 1909.02,
     "speaker_raw": "SPEAKER_02",
     "testo": "una cerveza e algo para picar dopo a tuo marito avrei altre frasi da dire che sono molto importanti algo para picar grande Maurizio una mujer e algo para picar senti me lo puoi passare anche se sta guidando un secondo si certo te lo passo ciao ciao Benissimo, benissimo. Senti, ti volevo dire, ma adesso tu stai in spiaggia. Sì. Ci sono delle donne bellissime lì in vacanza. Eh, io guardo. Come farai a guardare adesso che sei sposato? Io sto imparando come gli animali. Riesci a muovere gli occhi senza muovere la testa?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Sposo in spiaggia",
+    "tema": [
+      "viaggio",
+      "matrimonio"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -702,9 +708,12 @@
     "end": 2262.71,
     "speaker_raw": "SPEAKER_02",
     "testo": "vabbè non è un bel nome Vito? non mi piace il tuo nome che non è un corto perché è Andorotto Vito è Vito tu sei di quelli che ce l'hanno corto e dopo ti chiamano Vittorello Vittorio e cercano di allungare la vita non ti piace?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Nome Vito",
+    "tema": [
+      "nome",
+      "identità"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -713,9 +722,12 @@
     "end": 2275.98,
     "speaker_raw": "SPEAKER_09",
     "testo": "sono anche i telefoni guarda parla di tu sta arrivando una classe ti dà fastidio una classe? una classe una classe dalle decenni no no anzi cioè perché adesso in gita si va a radio DJ eh sì eh non c'è più la laterila con il fao",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Telefoni in classe",
+    "tema": [
+      "scuola",
+      "telefoni"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -764,9 +776,12 @@
     "end": 2637.57,
     "speaker_raw": "SPEAKER_02",
     "testo": "Allora, avevamo intanto tanti ascoltatori invidiosi, degli altri ascoltatori che se ne vanno in Messico. Non te la faresti una bella settimana in Messico, Valenzio? Sì, sì, volentieri. Sei mai stato in Messico? Sì, Ciccinizza sei stato. Con chi sei stato in Messico?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Messico invidioso",
+    "tema": [
+      "viaggio",
+      "invidia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

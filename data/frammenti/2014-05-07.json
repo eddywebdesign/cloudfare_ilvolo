@@ -380,9 +380,12 @@
     "end": 1171.21,
     "speaker_raw": "SPEAKER_11",
     "testo": "Laura? No, niente, volevo chiederti, tanto farti i complimenti perché insomma fai una selezione sulle telefonate così insomma... senti c'è gente qua io leggo i messaggi di ascoltatori c'è gente che per farsi chiamare si inventa delle cose ciao c'ho tre peni c'ho un occhio sulla fronte tu hai chiamato Chiara perché ha scritto che è una bella giornata di sole a me piace la gente normale ho capito io adesso gli chiedo alla Laura se non c'è un tema o una roba ma lei sta facendo tante cose sta facendo l'intership lavora a Darmani e a Londra ah lavori a Darmani senti come no senti Chiara niente no ma adesso noi qualcosa da dire vai di corpo sei bravissima senti il tuo colore preferito di che segno sei? cancro che bel segno Laura hai qualcosa da chiedere su Bruce Prinstein? semmai se non loro ti chiedono a me senti Chiara com'è il tempo oggi a Londra? adesso si era nuvolato un po' anche il programma perché stavamo partendo a bomba domande a Chiara da parte degli ascoltatori cari ascoltatori 347 3425 220 aiutateci voi ma da dove viene Chiara? abito Camden Town sei già andata lì a prendere il riso quello lì basmati quello lì degli indianini ok ecco qua chiedi a Chiara una bellissima voce molto dolce è fidanzata? sei fidanzata?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "selezione telefonate",
+    "tema": [
+      "ascoltatori",
+      "telefonate"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -424,9 +427,12 @@
     "end": 1195.79,
     "speaker_raw": "SPEAKER_11",
     "testo": "Ah, ma siamo più giovane, stiamo attenti a quello che diciamo. Oggi la vado a trovare, Claudio dice, sono di Londra, sei al negozio di Armani?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "visita a Londra",
+    "tema": [
+      "Londra",
+      "visita"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

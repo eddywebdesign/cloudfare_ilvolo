@@ -44,10 +44,13 @@
     "end": 265.19,
     "speaker_raw": "SPEAKER_05",
     "testo": "Hai scritto te alla Madia, al Ministro Madia?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "alla Madia",
+    "tema": [
+      "politica"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Ministro Madia"
   },
   {
     "id": "2016-01-18-004",
@@ -295,9 +298,12 @@
     "end": 933.57,
     "speaker_raw": "SPEAKER_01",
     "testo": "Troviamoci direttamente là, perché... non guardarti intorno mentre va allora ciao a tutti mio padre veniva a prendermi a scuola pensa come siamo invecchiati perché lei dice in macchina ascoltava ciao belli con le mie amiche a tutto volume io mi vergognavo le mie amiche ridevano invece vedi era tutte robe un po' magari volgari ma la cosa interessante intanto i miei figli si chiamano Bonetti e sono salvi comunque poi li porterò all'estero a un certo punto per evitare ma c'è un articolo oggi per l'uscita di questa serie tv di cui vi abbiamo già parlato qualche mese fa che si chiama Vinyl una serie sul mondo della discografia ambientata a New York prodotta da Scorsese e Mick Jagger all'interno della serie c'è una band rock e il cantante leader è il figlio di Mick Jagger esatto e nell'intervista oggi su",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "infanzia del conduttore",
+    "tema": [
+      "infanzia",
+      "genitori"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -489,9 +495,12 @@
     "end": 1803.25,
     "speaker_raw": "SPEAKER_01",
     "testo": "a un anno in più vabbè magari avete anche limonato non lo sapete no io a Prato un po' sei di quelle che vanno fuori tutte le italiane hanno un po' questa cosa cioè le padovane vengono a Brescia le bresciane vanno dappertutto però le bresciane vanno di là comunque a Prato mi sono tenuta si è tenuta Milano si è data via ma a Prato si è tenuta di cosa ti vergognavi Francesco?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "identità regionale",
+    "tema": [
+      "identità",
+      "regione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

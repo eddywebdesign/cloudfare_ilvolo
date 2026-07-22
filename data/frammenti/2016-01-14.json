@@ -5,9 +5,12 @@
     "end": 10.75,
     "speaker_raw": "SPEAKER_12",
     "testo": "DJ One Nation One Station One Love",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "DJ One Nation One Station One Love",
+    "tema": [
+      "amore",
+      "unità"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -437,9 +440,12 @@
     "end": 1379.67,
     "speaker_raw": "SPEAKER_02",
     "testo": "... ... ... ... ... ... Grazie a tutti Sì.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Grazie a tutti",
+    "tema": [
+      "ringraziamento",
+      "grazie"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {

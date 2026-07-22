@@ -534,9 +534,12 @@
     "end": 1841.33,
     "speaker_raw": "SPEAKER_05",
     "testo": "Ciao Fabio Volo. Ciao. Rapazzami di coccolo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Rapazzami di coccolo",
+    "tema": [
+      "amore",
+      "infanzia"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {

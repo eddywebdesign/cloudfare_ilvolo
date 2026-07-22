@@ -695,9 +695,12 @@
     "end": 1797.31,
     "speaker_raw": "SPEAKER_12",
     "testo": "No, personalmente no, non l'ho mai incontrato, non l'ho mai avuto di modo. Ci siamo sentiti molti anni fa al telefono, però poi non c'è mai stato un incontro.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Non ho mai incontrato",
+    "tema": [
+      "incontro",
+      "personale"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1278,10 +1281,14 @@
     "end": 2460.05,
     "speaker_raw": "SPEAKER_13",
     "testo": "L'ho vista, l'ho vista, quella di Los Angeles. Ma non costa neanche tanto, tra l'altro. Devo essere sincero, se c'è un ascoltatore che ha molta liquidità, credo che costi meno di 4 milioni.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "La casa di Los Angeles",
+    "tema": [
+      "libro",
+      "fantascienza"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Ray Bradbury"
   },
   {
     "id": "2016-01-08-101",
@@ -1418,10 +1425,14 @@
     "end": 2876.4,
     "speaker_raw": "SPEAKER_13",
     "testo": "lui già ai tempi suoi, ai tempi d'oro ogni tanto si presentava sul palco in maniera abbastanza in condizione così Pietose bisogna vedere questa riunione anche perché un po' che non suonano insieme non sono più giovanissimi quindi il corpo reagisce anche in maniera diversa la sua faccia è un po' cambiata un po' negli anni 90 tutte le donne amavano lui con questi capelli biondi e poi purtroppo scelte sbagliate nella vita magari come Janis Joplin anche lì una fragilità che uno non ci vuole pensare come dice nel documentario Janis Joplin e poi chiudo perché lo so che è una radio da vecchio Janis Joplin Un amico di Janice Jobs dice che lei sentiva il dolore di tutte le persone, per quello aveva un'empatia forte con il suo pubblico, ma tu non puoi reggere tutto il dolore delle persone per cui la droga ti viene in qualche modo, tra virgolette, in aiuto, cioè ti toglie coscienza. Mi piace questa... posso dire una cosa e poi dopo lascio stare vedi per esempio a me piacciono i Rolling Stones però trovo che questa canzone di Corrado io che sono Carletto sia una grandissima canzone bellissima e gioiosa e divertente non ho il pregiudizio capito invece tu da Carletto hai il pregiudizio verso i Rolling Stones",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Pietose",
+    "tema": [
+      "musica",
+      "canzone"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Ligabue"
   },
   {
     "id": "2016-01-08-112",
