@@ -291,10 +291,14 @@
     "end": 1162.01,
     "speaker_raw": "SPEAKER_07",
     "testo": "nel futuro provare ad arrivare in contatto fisicamente materialmente con questi nuovi mondi grazie mille Guido Tonelli cercare mondi editor Izzoli grazie se ogni tanto lei ci vuole come dire rispondere al telefono e spiegarci un po' qualcosina noi siamo solo che contenti grazie a voi va bene grazie professore salve",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Cercare mondi",
+    "tema": [
+      "scienza",
+      "astronomia"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Guido Tonelli"
   },
   {
     "id": "2017-02-24-027",
@@ -302,10 +306,14 @@
     "end": 1286.9,
     "speaker_raw": "SPEAKER_08",
     "testo": "I like to watch things on TV Satellite of love Satellite of love Satellite of love Satellite of Satellite's gone way up to Mars a presto Satellites gone up to the skies Things like that drive me out of my mind satellite of love satellite of love satellite of love satellite of",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Satellite of Love",
+    "tema": [
+      "musica",
+      "spazio"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Lou Reed"
   },
   {
     "id": "2017-02-24-028",
@@ -423,9 +431,13 @@
     "end": 1811.97,
     "speaker_raw": "SPEAKER_06",
     "testo": "Io ho iniziato con lo sport da piccolino perché i miei, fin da quando avevo tre anni, mi hanno portato a nuotare perché quando non vedi il terrore è cadere, le robe in mezzo, l'acqua è sempre stato il mio elemento. Perché l'acqua ti avvolge, ti porta. Esatto, al massimo pigli delle cragnate quando nuoti l'orso oppure se fai la gara di apnea. Quello anche noi ve lo dico la verità. Era bello quando facevamo la prova di apnea, si partiva e io riemergevo nella corsia delle vecchie sempre.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Inizio sport con nuoto da piccolo",
+    "tema": [
+      "sport",
+      "acqua",
+      "infanzia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -456,9 +468,13 @@
     "end": 1885.93,
     "speaker_raw": "SPEAKER_07",
     "testo": "porta ragazzi non vedenti a sciare adesso c'è internet ci sono molte più ma nell'82 veramente era una cosa da visionare io una volta ho sciato io ho un'amica non vedente ho sciato con lei una volta la saluto Piera e quando lei mi diceva vado a sciare comunque sono sempre domande che uno si pone aveva davanti uno con un microfono e un megafonino piccolino e lei seguiva il suono però andavano anche vicino alle piante Io a lei ho detto sai perché tu scendi da qua? Perché non vedi la discenda, perché io che la vedo non scenderai mai da qua.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Sci con amica non vedente",
+    "tema": [
+      "sport",
+      "amicizia",
+      "disabilità"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

@@ -181,10 +181,14 @@
     "end": 561.18,
     "speaker_raw": "SPEAKER_09",
     "testo": "questa è proprio la musica quella che una volta sai che Linus disse in un'intervista che facevo musica da birreria questa è proprio da birreria questa te la vedi proprio il sabato sera che c'è lei che fa tutt'altro nella settimana ma nel weekend in birreria si scatena Allora, sono in fissa, scrive un ascoltatore, Federico, con Stranger Things, che è la serie televisiva di Netflix, devo dire, molto bella. Fatta molto bene, soprattutto per quelli della mia generazione, perché lì c'è tutto un mondo anni 80, da E.T. ai Goonies, c'è tutto quel mondo, ragazzini con le BMX, così. E poi c'è quella trovata geniale, che è diventata anche un costume di carnevale nelle stanze, del genere. lei che comunica col bambino con queste lucine mette le lucine sul muro e sotto ogni lucina c'è una lettera e lui accende le lucine e comunica così sì come le sedute spiritiche da ragazzino si andava in vacanza e si metteva lì intorno al tavolo mamma mia se ci sei io lo fa se ci sei batti un conto io non l'ho mai fatto non l'hai mai fatto no ora si fa dopo si fa scusate scusatoni stiamo facendo un po' confusione come sempre sai cosa pensavo l'altra mattina Maurizio ma proprio mi sei venuto in mente no l'ultima volta che sei uscito con degli amici a berti una birra ah beh si comprisco i menegatti ahahah non vale cinque anni fa comunque questi sono i jet per iniziare un buon lunedì buongiorno a tutti",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Stranger Things",
+    "tema": [
+      "serie",
+      "fantascienza"
+    ],
+    "tipo": "riferimento_film",
+    "video_url": "",
+    "autore": "Netflix"
   },
   {
     "id": "2017-02-27-017",
@@ -236,10 +240,14 @@
     "end": 810.39,
     "speaker_raw": "SPEAKER_09",
     "testo": "Questa versione di Are You Gonna Be My Girl dei Jet con Lello Arena e ce l'abbiamo solo noi. Solo noi, solo noi. Allora, perché a fine concerto poi i Jet andavano via e invece Lello Arena rimaneva lì e invece di dire tipo ciao Milano diceva... Come il periodo di Riccione che c'era sto Valerio, lo ricordi? No, io non lo so. C'è stato un anno, dopo per qualche anno è andato avanti. A un certo punto su Viale Ceccherini, la gente gridava Valerio. Ma perché? Probabilmente è passato uno una sera ubriaco, uno si è agganciato, Valerio, Valerio, ed non è più finita, Valerio. Va bene, grande inizio, lungo il mare, verso Roma per andare a donare il sangue. Buongiorno a tutti, Giuseppe. Bravo, bravissimo. Quando si dona il sangue, faccio una domanda, siccome io adesso non posso perché il mio sangue ha dei problemi.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Are You Gonna Be My Girl",
+    "tema": [
+      "musica",
+      "rock"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "The Jets"
   },
   {
     "id": "2017-02-27-022",
@@ -335,9 +343,12 @@
     "end": 1128.78,
     "speaker_raw": "SPEAKER_01",
     "testo": "Ho passato tutta la vita Paura di disgrazie terribili, che potevano accadere oppure no. Per cinquante anni ho vissuto nella paura, ritrovandomi sempre sveglio alle tre del mattino. Ma ora è diverso, mi sono reso conto che è la paura la peggiore delle disgrazie, è la paura il vero nemico. Perciò, alzati, vado ad affrontare la vita reale. E se il mondo è un bastardo, allora colpiscilo con tutta la forza che hai.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Paura e coraggio",
+    "tema": [
+      "paura",
+      "coraggio"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

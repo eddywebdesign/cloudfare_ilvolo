@@ -742,10 +742,14 @@
     "end": 2818.79,
     "speaker_raw": "SPEAKER_08",
     "testo": "tutte le volte che mettiamo questa canzone ricordiamo sempre ai maschi in ascolto che è una bella frase da dire a una donna che la vai a prendere la sera hey girl you'll be a woman soon capito? no in che senso? hey ragazza diventerai donna presto perché non sono già no come dire adesso ci penso ti faccio diventare io donna in quel senso lì un po grazie grazie Bene ragazzi, io ho trovato fra tutte le cose che vi hanno buttato, ho sofferto insieme a voi, le bambole decapitate e così, però questo se dovesse succedere a me, Johanna torna in Islanda dopo un secondo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "A Girl Like You",
+    "tema": [
+      "musica",
+      "relazioni"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Neil Diamond"
   },
   {
     "id": "2017-02-20-068",
@@ -764,9 +768,12 @@
     "end": 2883.49,
     "speaker_raw": "SPEAKER_08",
     "testo": "Matteo aiutami la moglie del mio vicino di casa a sua insaputa ha buttato sul marciapiede LP dei Pink Floyd live 7 LP dei Queen 5 dei Rolling Stones tutti poggiati sul marciapiede per regalarlo ai passanti io ovviamente li ho presi tutti io adesso a parte che lui sente il marito e dice ok vado al vicino ecco che ce l'ha cioè ma non si buttano via gli LP così forse era una vendetta per qualcosa lui è uscito con una e lei per vendetta gli ha buttato via gli LP ha fatto il mercatino come si faceva da piccoli sul marciapiede con il collenzolino esatto esatto quello è dolore vero va bene io sono un caso disperato non butto niente mio marito dice che seppellito sotto vecchi oggetti potremmo trovare una vecchia zia che è scorparsa la famosa sepolta in casa ciao ragazzi a domani ciao",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Dischi storici buttati sul marciapiede",
+    "tema": [
+      "musica",
+      "collezione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

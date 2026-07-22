@@ -313,10 +313,14 @@
     "end": 1826.58,
     "speaker_raw": "SPEAKER_13",
     "testo": "Sono certo della differenza tra distanza e lontananza Sarà che piove da luglio, il mondo che esplode in pianto Sarà che non esci da me se sei stanco, hai finito il sorriso soltanto per pesare il cuore con entrambe le mani ci vuole coraggio e occhi incandati sul cielo girato di spalle tua pazienza casa nostra il coraggio e il tuo conforto",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Il conforto di Tiziano Ferro e Carmen Consoli",
+    "tema": [
+      "musica",
+      "emozioni"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Tiziano Ferro e Carmen Consoli"
   },
   {
     "id": "2017-02-21-029",
@@ -412,10 +416,14 @@
     "end": 2231.71,
     "speaker_raw": "SPEAKER_00",
     "testo": "capolavoro assoluto vi consiglio proprio di andare questa sera non so se avete spotify o qualcosa mettevelo lì anche mentre cucinate o cenate così un nina simone la prima canzone che ho sentito di nina simone è quella lì quella che c'ha le pause dove pensavo fosse un uomo scusatemi ma se io non vi avessi detto che una donna e qualcuno di voi non dovesse per caso conoscerla non sembra la voce di un maschio no no",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Ascolto di Nina Simone",
+    "tema": [
+      "musica",
+      "consigli"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Nina Simone"
   },
   {
     "id": "2017-02-21-038",
@@ -423,10 +431,13 @@
     "end": 2266.62,
     "speaker_raw": "SPEAKER_07",
     "testo": "Una delle canzoni più sexy al mondo Senti And I'm feeling good.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Feeling Good di Nina Simone",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Nina Simone"
   },
   {
     "id": "2017-02-21-039",
