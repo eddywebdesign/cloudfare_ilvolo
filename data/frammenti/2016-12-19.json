@@ -522,10 +522,14 @@
     "end": 1296.89,
     "speaker_raw": "SPEAKER_18",
     "testo": "il cinevalettone di quest'anno pensa che i miei ricordi di Natale di Brescia sono queste gastronomie che hanno tutti questi gamberi con la gelatina sopra le aragoste i ravioli mamma mia qual è il prossimo disco che metterai Maurizio? Mariah Carey lo sai che io non riesco mai a dire Mariah Carey senza pensare al mio amico napoletano che era la gag in quegli anni Mariah Carey cioè che tu dici me la dai Carey Mariah Carey allora e lui diceva sempre così è come tu che dici se è come te Maurizio dici sempre Aretha Aretha Frank rockin' around Christmas tree at the Christmas party house",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Mariah Carey e i ricordi di Natale",
+    "tema": [
+      "natale",
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Mariah Carey"
   },
   {
     "id": "2016-12-19-048",

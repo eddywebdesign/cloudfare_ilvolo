@@ -558,9 +558,12 @@
     "end": 2298.2,
     "speaker_raw": "SPEAKER_03",
     "testo": "Bruno! Ciao Fabio! Ciao! Che nome che è Bruno! Tutti i nomi sono diversi, no? Tutti i nomi sono diversi dall'altro, ma Bruno è più diverso da tutti. ai tempi piaceva mio padre i Bruno non sono così diffusi come Marco, Paolo, Luca anche Fabio magari, Maurizio Bruno è Bruno chi era famoso Bruno?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "nome diverso Bruno",
+    "tema": [
+      "nomi",
+      "genitori"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -580,9 +583,12 @@
     "end": 2346.72,
     "speaker_raw": "SPEAKER_03",
     "testo": "Bruno il ragazzo della terza C Bruno il ricciolone Bruno 2 a tuo padre chi piaceva che ti hai chiamato Bruno? perché c'era un suo carissimo amico di cui aveva molta stima e quindi ha dato questo nome il ricordo suo senti tu Bruno sei uno di quelli che a scuola i professori in qualche modo avevano già segnalato come te nella vita te lo dico tiri il carretto che si capisce cos'è che ti dicevano i professori? alle medie come a me?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "nome Bruno",
+    "tema": [
+      "genitori",
+      "nome"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

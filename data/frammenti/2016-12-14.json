@@ -409,10 +409,14 @@
     "end": 1259.92,
     "speaker_raw": "SPEAKER_11",
     "testo": "no no I wanna live, wanna die, on a silver lining, I wanna ride the wings of love. When I die, don't you cry, I'll be dying by you, I'll be riding the wings of love.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Wings of Love",
+    "tema": [
+      "musica",
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Artista non specificato"
   },
   {
     "id": "2016-12-14-037",

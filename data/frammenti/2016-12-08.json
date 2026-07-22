@@ -357,9 +357,12 @@
     "end": 1876.95,
     "speaker_raw": "SPEAKER_04",
     "testo": "Ciao, grazie a voi. Max, Max. Ehi, pronto. Come stai? Ciao Fabio, tutto bene, grazie. Voi come state? Bene, sai che io vorrei fare la radio così, cioè via un ascoltatore sotto l'altro.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Vorrei fare la radio",
+    "tema": [
+      "radio",
+      "passione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -379,10 +382,13 @@
     "end": 1919.93,
     "speaker_raw": "SPEAKER_04",
     "testo": "Fare così, chiacchierare con voi e poi ogni tanto, ogni quarto d'ora un disco. Giusto. Mandiamo mail a Linus. È la radio più bella. Sì, che dice a Linus, fai fare a Fabio il talk radio e seconda roba, quanto hai applaudito tu ieri la mattina? non più di due minuti ma neanche allora Max Torino 22 anni col tuo amico stai andando a Torino sì cioè quindi se abiti fuori Torino allora sì noi abitiamo fuori Torino ma in questo momento siamo già a Torino siete già a Torino ok cari ascoltatori che siete tanti che ci ascoltano Radio DJ è molto forte a Torino che siete in ascolto sappiate che oggi in via Garibaldi il nostro ascoltatore Max col suo amico sono vestiti da elfo e babbo natale pronti per questa bella giornata di sole ma il babbo bastardo",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Disco",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Linus"
   },
   {
     "id": "2016-12-08-035",
@@ -390,9 +396,12 @@
     "end": 1933.47,
     "speaker_raw": "SPEAKER_06",
     "testo": "No, in realtà noi dobbiamo consegnare le letterine di Babbo Natale ai bambini che poi porteranno all'elfo che è incaricato da Babbo Natale. Ah, ok, scusami. No, oggi siamo il Babbo Natale vero. Quello vero.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Babbo Natale",
+    "tema": [
+      "natale",
+      "bambini"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -423,9 +432,12 @@
     "end": 1941.94,
     "speaker_raw": "SPEAKER_04",
     "testo": "Io sono l'elfo e il mio degno compagno è il Babbo Natale. Ma hai la barba, ce l'ha vera la barba il tuo amico o no?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Elfo e Babbo Natale",
+    "tema": [
+      "natale",
+      "bambini"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -445,9 +457,12 @@
     "end": 1981.88,
     "speaker_raw": "SPEAKER_04",
     "testo": "tutta quella nera però credimi sembro un elfo davvero ti posso fare una domanda però è un po' spinta come sempre quando metti la calzamaglia stretta dove lo parcheggi? a destra, a sinistra, in alto, in basso?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Calzamaglia",
+    "tema": [
+      "umorismo",
+      "bambini"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -467,9 +482,12 @@
     "end": 2012.53,
     "speaker_raw": "SPEAKER_04",
     "testo": "vai tipo a mcdonald's io vado sempre in queste grandi cattive tipo mcdonald's, starbucks quanto ne devi tirare giù? io cerco di farlo inizio giornata e di non bere non ce la farò lì è un problema vuoi un goccio d'acqua? no no no senti in bocca al lupo lavorate per un'azienda o lavorate per il comune?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Acqua",
+    "tema": [
+      "umorismo",
+      "bambini"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -588,10 +606,14 @@
     "end": 2521.18,
     "speaker_raw": "SPEAKER_05",
     "testo": "everyone I do right does me wrong so every lonely night I sing this song I hate you I love you I hate that I love you don't want to but I can't put nobody else above you I hate you I love you I hate that I want you you want her you need her and I'll never be her grazie a tutti musica",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "I Hate You, I Love You",
+    "tema": [
+      "amore",
+      "relazioni"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Gnash feat. Olivia O'Brien"
   },
   {
     "id": "2016-12-08-054",

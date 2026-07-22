@@ -225,9 +225,12 @@
     "end": 614.87,
     "speaker_raw": "SPEAKER_11",
     "testo": "Giocare in giardino, perché sarebbe un peccato. Comunque, cari bambini e genitori d'ascolto, se avete figli a cui date il telefono molto, sappiate che ogni tanto devi dire...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Bambini e telefono",
+    "tema": [
+      "bambini",
+      "telefono"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -236,9 +239,12 @@
     "end": 629.6,
     "speaker_raw": "SPEAKER_08",
     "testo": "basta col pollice usa un po' l'indice vai fuori a giocare io non abito in un paese enorme nel senso che non abito in una città come Milano qui i bambini dovrebbero essere ancora bravi e uscire",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Bambini e uscita",
+    "tema": [
+      "bambini",
+      "uscita"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -247,9 +253,12 @@
     "end": 656.53,
     "speaker_raw": "SPEAKER_11",
     "testo": "pensa a Milano e Roma va bene va bene senti una cosa pensa che qualche anno fa quando stavo appunto a New York c'era il Blackberry aveva la pallina il Blackberry c'erano già dei centri spa massaggio me lo ricordo che facevano il massaggio al pollice eh sì perché appunto dove pensate Va bene. Anna, non so se sei emozionata, se stai facendo le scale o se tuo marito ha delle perversioni.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Blackberry a New York",
+    "tema": [
+      "New York",
+      "Blackberry"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -291,10 +300,14 @@
     "end": 941.22,
     "speaker_raw": "SPEAKER_03",
     "testo": "Grazie. Grazie a tutti. Grazie a tutti. Buongiorno a tutti. you find it in your heart it's pulling me apart you find it in your heart I told you I love you it's pulling me apart I love you I love you Grazie a tutti. I saw the light fading out Leaving New York never easy I saw the light fading out Leaving New York never easy I saw the light fading out",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "You Find It in Your Heart",
+    "tema": [
+      "musica",
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Bryan Adams"
   },
   {
     "id": "2016-11-30-026",
@@ -316,9 +329,12 @@
     "end": 1085.82,
     "speaker_raw": "SPEAKER_00",
     "testo": "abbiamo deciso di chiudere col cinquantennale perché è il momento magico per farlo questa reunione è una cosa meravigliosa ci sta dando un abbraccio da parte del pubblico incredibile e non deve essersi troppa tristezza dobbiamo essere orgogliosi noi e il pubblico di essere riusciti a portare in porto questa nave meravigliosa con le luci accese perché guarda che non è facile",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Cinquantennale",
+    "tema": [
+      "cinquantennale",
+      "orgoglio"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -327,9 +343,12 @@
     "end": 1111.93,
     "speaker_raw": "SPEAKER_11",
     "testo": "fermarsi con le luci ancora accende si va a raschiare il fondo non vogliamo farlo stavate aspettando che si spegnessero queste luci ma non si spegnevano mai io l'ho visto ogni tanto ai concerti che mi guardate a te e dici ma queste luci se spengono scusami Red ma intanto tanti auguri grazie grazie secondo ma a parte coltivare bacche di goji cosa farai adesso?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Luci accese",
+    "tema": [
+      "luci",
+      "orgoglio"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -353,9 +372,12 @@
     "end": 1186.88,
     "speaker_raw": "SPEAKER_11",
     "testo": "per adesso ascolto ancora i pu adesso che finite mi butto su Proust dai pu ai Proust scusami Red ci sono tantissimi programmi televisivi di cucina eh che se uno conosce due o tre regole sulla salute sarebbe da denunciarli praticamente ogni programma dovrebbe partire una querela perché non fai un programma di cucina che lo guardano in cinque però di cucina sana perché in Italia la cucina sana è contro la cultura bisognerebbe riuscire ad andare in questi posti a parlare in maniera corretta a questa gente",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Cucina sana",
+    "tema": [
+      "cucina",
+      "salute"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -364,9 +386,12 @@
     "end": 1210.67,
     "speaker_raw": "SPEAKER_00",
     "testo": "di cosa è realmente l'alimentazione perché finché continuano a promuovere il latte come paracea per l'osteoporosi quando invece il latte acidifica il sangue e il sangue per ritornare basico il calino va a rubare proprio il calcio alle nostre ossa e la provoca l'osteoporosi finché sentiamo queste paginate raccontate",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Alimentazione",
+    "tema": [
+      "alimentazione",
+      "salute"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -598,10 +623,14 @@
     "end": 2214.92,
     "speaker_raw": "SPEAKER_15",
     "testo": "Musica I'm only human Don't ask my opinion, don't ask me to lie. And beg for forgiveness for making you cry. For making you cry. Cause I'm only human after all. I'm only human after all. Don't put your blame on me. Don't put the blame on me.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Human",
+    "tema": [
+      "umanità",
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Rag'n'Bone Man"
   },
   {
     "id": "2016-11-30-053",
@@ -682,10 +711,14 @@
     "end": 2438.22,
     "speaker_raw": "SPEAKER_01",
     "testo": "Delle cicale. Cicale, cicale, cicale. Della formica. Invece non cicale mica.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Cicale",
+    "tema": [
+      "musica",
+      "televisione"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Heather Parisi"
   },
   {
     "id": "2016-11-30-060",

@@ -694,10 +694,14 @@
     "end": 1357.07,
     "speaker_raw": "SPEAKER_20",
     "testo": "qual è la tua preferita dei film di Fantozzi? ma è quella del Titanic ah quella lì sei già grande a me piaceva quello che fa sorpassare il cane che era tipo Ivan terribile era Ivan il terribile erano delle polpette fuori fredde dentro qual è quella del Titanic?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "I film di Fantozzi e Titanic",
+    "tema": [
+      "cinema",
+      "comicità"
+    ],
+    "tipo": "riferimento_film",
+    "video_url": "",
+    "autore": "Paolo Villaggio"
   },
   {
     "id": "2016-12-20-063",
