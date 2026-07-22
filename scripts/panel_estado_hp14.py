@@ -61,9 +61,10 @@ FLAG_STOP_PENDIENTE = REPO / "data" / "panel_hp14_stop_pendiente.flag"
 LOG_ERRORES = REPO / "logs" / "panel_estado_hp14_errores.log"
 INTERVALO_MS = 15000
 
-K16_HOST = "eddy@192.168.8.132"  # Ethernet fija (IP fija por regla DHCP), antes .130 por WiFi
+K16_HOST = "eddy@192.168.8.130"  # 2026-07-22: K16 spostato fisicamente vicino alla TV, IP cambiato da .132 a .130 (stessa Ethernet, DHCP diverso da quella posizione) -- riverificare se torna alla postazione originale
 SSH_TIMEOUT_S = 8
-DURACION_MEDIA_MIN = 55  # misma media usada en scripts/linux/panel_control.py
+DURACION_MEDIA_MIN_CPU = 55  # misma media usada en scripts/linux/panel_control.py
+DURACION_MEDIA_MIN_GPU = 1.7  # RTX 5070 via OCuLink, misurato 2026-07-22: ~1m35-40s/episodio reali
 RETRASO_REANUDAR_MIN = 30  # ver nota en k16_reanudar()
 
 # En Windows, subprocess abre una consola visible por cada llamada (ssh.exe,
@@ -137,16 +138,19 @@ cd ~/ilvolodelmattino 2>/dev/null || cd ~/Documenti/ilvolodelmattino 2>/dev/null
 PID=$(pgrep -f '[w]hisperx' | head -1)
 EP=""
 ETIME=""
+GPU=""
 if [ -n "$PID" ]; then
-  EP=$(ps -p "$PID" -o args= | grep -oE '[^ /]*\.mp3' | head -1)
+  ARGS=$(ps -p "$PID" -o args=)
+  EP=$(echo "$ARGS" | grep -oE '[^ /]*\.mp3' | head -1)
   ETIME=$(ps -p "$PID" -o etimes= | tr -d ' ')
+  echo "$ARGS" | grep -q 'device cuda' && GPU="1"
 fi
 TERM_LINE=$(tail -1 logs/trascrizioni_log_termico.csv 2>/dev/null)
 WD=$(systemctl --user is-active ilvolo-watchdog-nas.timer 2>/dev/null)
 PROGRESO=$(grep -oE '^\[[0-9]+/[0-9]+\]' logs/consola_batch.log 2>/dev/null | tail -1 | tr -d '[]')
 IDX=$(echo "$PROGRESO" | cut -d/ -f1)
 TOTAL=$(echo "$PROGRESO" | cut -d/ -f2)
-echo "${PID}|${EP}|${ETIME}|${TERM_LINE}|${WD}|${IDX}|${TOTAL}"
+echo "${PID}|${EP}|${ETIME}|${TERM_LINE}|${WD}|${IDX}|${TOTAL}|${GPU}"
 """
     ok, salida = ssh_run_script(script)
     if not ok:
@@ -161,6 +165,7 @@ echo "${PID}|${EP}|${ETIME}|${TERM_LINE}|${WD}|${IDX}|${TOTAL}"
     watchdog = campos[4].strip()
     idx_batch = campos[5].strip() if len(campos) > 5 else ""
     total_batch = campos[6].strip() if len(campos) > 6 else ""
+    gpu = campos[7].strip() if len(campos) > 7 else ""
     term_campos = term_line.split(",")
     term_ts = term_campos[0].strip() if len(term_campos) > 0 and term_campos[0] else None
     term_c = term_campos[1].strip() if len(term_campos) > 1 else None
@@ -173,6 +178,7 @@ echo "${PID}|${EP}|${ETIME}|${TERM_LINE}|${WD}|${IDX}|${TOTAL}"
         "watchdog": watchdog,
         "idx_batch": int(idx_batch) if idx_batch.isdigit() else None,
         "total_batch": int(total_batch) if total_batch.isdigit() else None,
+        "gpu": bool(gpu),
     }, None
 
 
@@ -577,8 +583,9 @@ class PanelEstado:
             partes.append(f"Episodio: {episodio}{progreso}")
             etime_s = estado.get("etime_s")
             if etime_s is not None:
+                duracion_media = DURACION_MEDIA_MIN_GPU if estado.get("gpu") else DURACION_MEDIA_MIN_CPU
                 transcurrido_min = etime_s / 60
-                restante_min = max(0, DURACION_MEDIA_MIN - transcurrido_min)
+                restante_min = max(0, duracion_media - transcurrido_min)
                 # Hora absoluta de inicio, no solo relativa -- para distinguir
                 # de un vistazo "en marcha desde hace poco" de "esto lleva
                 # parado/colgado desde ayer" (mismo formato que panel_control.py).
@@ -586,8 +593,9 @@ class PanelEstado:
                 partes.append(
                     f"Iniciado: {inicio_dt.strftime('%d/%m %H:%M')} ({transcurrido_min:.0f} min hace)"
                 )
+                gpu_label = " [GPU]" if estado.get("gpu") else ""
                 partes.append(
-                    f"Estimado restante: ~{restante_min:.0f} min (media {DURACION_MEDIA_MIN} min)"
+                    f"Estimado restante: ~{restante_min:.1f} min (media {duracion_media:.1f} min{gpu_label})"
                 )
         else:
             self.lbl_k16_estado.config(text="○ Sin transcripción activa", foreground=COLOR_TEXTO_SUAVE)
