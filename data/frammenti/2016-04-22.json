@@ -227,11 +227,13 @@
     "end": 1276.57,
     "speaker_raw": "SPEAKER_09",
     "testo": "Sono tratte dal documentario Home... Home come casa? Home C'è il pianeta Terra inteso come casa Di Jan Arthur Sbrentrand Sbrentrand?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Home documentario",
+    "tema": [
+      "pianeta terra"
+    ],
+    "tipo": "riferimento_film",
     "video_url": "",
-    "autore": ""
+    "autore": "Luc Besson"
   },
   {
     "id": "2016-04-22-020",

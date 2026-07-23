@@ -11,7 +11,8 @@
     "start": 0.0,
     "end": 622.87,
     "episodio_data": "2017-12-04",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/00ae6b5d-6edd-46f3-b097-7b46ebcc2770/front-250"
   },
   {
     "id": "2017-12-04-musica-clip-0001",
@@ -55,7 +56,8 @@
     "start": 622.87,
     "end": 1245.75,
     "episodio_data": "2017-12-04",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/11959275-M.jpg"
   },
   {
     "id": "2017-12-04-musica-clip-0003",

@@ -672,9 +672,11 @@
     "end": 2652.99,
     "speaker_raw": "SPEAKER_01",
     "testo": "Pronto? Pronto? Gaetano? Gaetano? ciao Fabio tu sei la dimostrazione vivente che in Italia solo i raccomandati e gli incompetenti lavorano Gaetano, lavoratore autonomo poi lo chiami e non rispondo dai richiamalo dai che lo mando a fanculo direttamente perché siccome non sappiamo cosa fare stamattina stiamo aspettando finisca poi dai faccio una litigata non provocate se poi dopo ma no ma poi a me mi si può dire tutto ma che sono raccomandato proprio sto chiaro hai i santi in paradiso eh Fabio mamma mia proprio a me non devi dire sta roba sto deficiente lo stai chiamando dai Gaetano dai dai cazzo rispondi che sei così bravo Gaetano Gaetano Gaetano Gaetano ma no ma figurati poi dalla voce non aveva tipo 12 anni era anche abbastanza grande ma Dai Gaetano! Ma cazzo! Gaetano! Non risponde. Non risponde. Va beh, no, un altro scott... Eccolo qua. Gaetano! Mi metti un'azia addosso che mi fai paura, guarda. Gaetano! Gaetano! Stai guidando! Gaetano! Gaetano! Stai guidando! Cioè tu hai avuto il tempo mentre guidi di prendere il telefono, ricordarti il numero di Radio DJ, scrivermi che sono... No, c'è un'applicazione Fabio, non conosci bene le app, c'è un'applicazione. C'è l'applicazione, ok, vai sull'applicazione mentre guidi per dirmi che sono raccomandato, su che basi scusami?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "litigio con gaetano",
+    "tema": [
+      "lavoro"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -727,10 +729,13 @@
     "end": 2777.66,
     "speaker_raw": "SPEAKER_06",
     "testo": "tu sai che noi mettiamo anche un po' di musica se certo ci avete il cazzo da dire mettete la musica dimmi il mio è un lavoro serio ma dimmi che disco c'è in onda adesso adesso c'è Semeni di Gramm",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Semeni",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Gramm"
   },
   {
     "id": "2016-04-26-063",
@@ -771,9 +776,12 @@
     "end": 3037.81,
     "speaker_raw": "SPEAKER_07",
     "testo": "Hanno vinto le metropolitane, hanno vinto le rotonde, i ponti a quadrifoglio, alle uscite autostradali. Hanno vinto i parcheggi in doppia fila, quelli multipiano vicino agli aeroporti, le tangenziali alle otto di mattina e i centri commerciali nel fine settimana. Hanno vinto le corporazioni infiltrate nei consigli comunali, i loschi affari dei palazzinari, gli alveari umani e le case popolari. I bed and breakfast affittati agli studenti americani hanno vinto i superaltici a 3.000 euro al mese, le puttane lungo i viali, sulle strade consolari hanno vinto i pendolari. ma ha perso la città, ha perso il sogno, abbiamo perso il fiato per parlarci, ha perso la città, ha perso la comunità, abbiamo perso la voglia di aiutarci. Hanno vinto le catene dei negozi, le insegne luminose sui tetti dei palazzi, le luci lampeggianti dei semafori di notte, i bar che aprono alle sette. Hanno vinto i ristoranti giapponesi che poi sono cinesi anche se il cibo è giapponese, i locali modaioli frequentati solamente da bellezze tutte uguali. Le montagne di Mondizia, gli orizzonti verticali, le giornate a targa alterne e le polveri sottili hanno vinto alle filiali delle banche e hanno perso i calzolai. E ha perso la città, ha perso un sogno, abbiamo perso... Salutiamo Riccardo da Roma.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "vittoria delle infrastrutture",
+    "tema": [
+      "città",
+      "comunità"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

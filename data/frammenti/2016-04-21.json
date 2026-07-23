@@ -286,11 +286,14 @@
     "end": 1135.23,
     "speaker_raw": "SPEAKER_01",
     "testo": "sul nostro chat whatsapp mi hai scritto io poi leggo come tu parli sentiamo ho letto lo psicologo che sostiene una psicologa anzi che si chiama Gianna Schelotto ciao Gianna, so che ci ascolti sempre che ha scritto un libro che si chiama L'amore non sa e lei dice proprio che l'indifferenza genera attaccamento quindi se lui è indifferente più lui non ti considera guardate ieri la telefonata della nostra ascoltatrice che ha detto questo ragazzo Nacho mi doveva chiamare per cena alle undici e mezza l'ho dovuto chiamare io ieri tutte pazze per Nacho lo richiamerei o Nacho ormai è un personaggio del programma tutte le sono andate a vederlo su Facebook mi chiedevano tutte la foto Ma con la bava alla bocca ragazzi. Ecco, quindi l'uomo che tratta un po' male la donna, non tratta male in violenza, cioè tratta male non la caga tanto, non la considera molto, si alza, se ne va fuori dal letto, nessuna pietà, ancora ha il peso. Purtroppo sì. Il problema è essere troppo gentili che ammoscia un po', asciuga un po'. Io dico sempre, come dicono a Roma, è bello ma non balla. Cioè ha tutte le robe belle ma gli manca quella... però vedi Nacho era stato un po' stronzo però al telefono un signore non è che ha detto è scappato l'altro ironico si è messo in gioco si diceva anche dopo l'amato si fa per scherzare insomma vale ancora questa regola? chiediamola alle donne in ascolto vogliamo mettere la canzone? beh questa è proprio questa vabbè questa vabbè",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'amore non sa",
+    "tema": [
+      "indifferenza",
+      "attaccamento"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": ""
+    "autore": "Gianna Schelotto"
   },
   {
     "id": "2016-04-21-025",
@@ -715,11 +718,13 @@
     "end": 2370.53,
     "speaker_raw": "SPEAKER_16",
     "testo": "vai cosa ne vuoi sapere tu Giacomino? guarda che Marco Ferradini è il guru dell'amore se vuoi sapere qualcosa sulle donne devi ascoltare Marco Ferradini a prassi ascoltiamolo ricominciamo da capo cerca di essere quello che sei",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "guru dell'amore",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": ""
+    "autore": "Marco Ferradini"
   },
   {
     "id": "2016-04-21-062",

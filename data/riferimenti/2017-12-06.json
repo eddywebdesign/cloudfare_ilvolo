@@ -69,7 +69,8 @@
     "start": 617.84,
     "end": 1235.69,
     "episodio_data": "2017-12-06",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/a1cfd3af-6458-4174-a641-d9702101c270/front-250"
   },
   {
     "id": "2017-12-06-musica-clip-0003",
@@ -83,6 +84,7 @@
     "start": 1235.69,
     "end": 1853.53,
     "episodio_data": "2017-12-06",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/00223a26-8297-420f-b41d-b8bb0615889f/front-250"
   }
 ]

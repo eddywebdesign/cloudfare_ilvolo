@@ -279,11 +279,13 @@
     "end": 885.47,
     "speaker_raw": "SPEAKER_20",
     "testo": "Sai che sembra un po' il macete? Te lo ricordi il film Macete? Quello lì, quello di Tarantino, quello tutto butterato cattivo. L'hai visto, hai presente? Sì. Macete, ok. La Sciuracarla, buongiorno signora Carla.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Macete di Tarantino",
+    "tema": [
+      "vendetta"
+    ],
+    "tipo": "riferimento_film",
     "video_url": "",
-    "autore": ""
+    "autore": "Quentin Tarantino"
   },
   {
     "id": "2016-04-27-024",

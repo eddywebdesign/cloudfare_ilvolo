@@ -379,11 +379,14 @@
     "end": 1053.46,
     "speaker_raw": "SPEAKER_05",
     "testo": "Grazie a tutti I'll carry you through the night, through the storm, give you love, only love in return. I can jump over buildings, I'm no hero, love can do miracles. I cannot run a bullet, I'm no hero, but I will take one for you, for sure. I'm much less a saint than a sinner Oh no I ain't no superhuman Cause that's just in the movies I know But I'll carry you through the night Through the storm Give you love always love in return",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "I'll Carry You Through the Night",
+    "tema": [
+      "amore",
+      "sacrificio"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": ""
+    "autore": "James Blunt"
   },
   {
     "id": "2016-04-15-033",

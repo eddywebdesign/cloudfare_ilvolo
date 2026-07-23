@@ -25,7 +25,8 @@
     "start": 0.0,
     "end": 599.18,
     "episodio_data": "2017-12-18",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/1732a2a1-99e6-4f76-aa76-632b7f2878d3/front-250"
   },
   {
     "id": "2017-12-18-musica-clip-0002",
@@ -39,7 +40,8 @@
     "start": 0.0,
     "end": 599.18,
     "episodio_data": "2017-12-18",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/02c1f2c9-eeba-4301-ac1e-4009aa820b69/front-250"
   },
   {
     "id": "2017-12-18-musica-clip-0003",
@@ -81,6 +83,6 @@
     "start": 0.0,
     "end": 599.18,
     "episodio_data": "2017-12-18",
-    "confermato_esterno": false
+    "confermato_esterno": true
   }
 ]

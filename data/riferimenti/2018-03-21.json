@@ -11,7 +11,8 @@
     "start": 0.0,
     "end": 606.36,
     "episodio_data": "2018-03-21",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/b5cd934a-0d0c-44eb-a343-6cfce488eeaf/front-250"
   },
   {
     "id": "2018-03-21-musica-clip-0001",
@@ -25,7 +26,8 @@
     "start": 0.0,
     "end": 606.36,
     "episodio_data": "2018-03-21",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/7848831a-3b3c-4ca6-a81a-ac3b55c661a6/front-250"
   },
   {
     "id": "2018-03-21-musica-clip-0002",
@@ -39,6 +41,7 @@
     "start": 0.0,
     "end": 606.36,
     "episodio_data": "2018-03-21",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/0d2ac8ce-afbf-4303-a369-3b5b395b42a4/front-250"
   }
 ]

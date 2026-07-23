@@ -25,7 +25,8 @@
     "start": 0.0,
     "end": 616.63,
     "episodio_data": "2017-12-07",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/544c2efe-a4d7-48f3-9311-115d58d8d341/front-250"
   },
   {
     "id": "2017-12-07-libro-clip-0000",
@@ -53,7 +54,8 @@
     "start": 0.0,
     "end": 616.63,
     "episodio_data": "2017-12-07",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/6688188-M.jpg"
   },
   {
     "id": "2017-12-07-libro-clip-0002",
@@ -67,7 +69,8 @@
     "start": 0.0,
     "end": 616.63,
     "episodio_data": "2017-12-07",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/12686664-M.jpg"
   },
   {
     "id": "2017-12-07-musica-clip-0002",
@@ -125,7 +128,8 @@
     "start": 1849.9,
     "end": 2466.53,
     "episodio_data": "2017-12-07",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/d5967f8c-4353-4bf6-a1bf-802daa928203/front-250"
   },
   {
     "id": "2017-12-07-musica-clip-0005",
@@ -153,7 +157,8 @@
     "start": 1849.9,
     "end": 2466.53,
     "episodio_data": "2017-12-07",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/7af4f539-e2c1-4be2-b74b-b67c843cdc5c/front-250"
   },
   {
     "id": "2017-12-07-musica-clip-0008",
@@ -167,7 +172,8 @@
     "start": 1849.9,
     "end": 2466.53,
     "episodio_data": "2017-12-07",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/060d7f25-49e4-368c-b2c9-a9d5703cf5a3/front-250"
   },
   {
     "id": "2017-12-07-musica-clip-0011",

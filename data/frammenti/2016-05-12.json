@@ -703,11 +703,13 @@
     "end": 2637.17,
     "speaker_raw": "SPEAKER_01",
     "testo": "In un romanzo di Tolstoi il Principe Azzurro... Beh ci sta. In guerra e pace.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Guerra e Pace",
+    "tema": [
+      "letteratura"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": ""
+    "autore": "Lev Tolstoj"
   },
   {
     "id": "2016-05-12-057",

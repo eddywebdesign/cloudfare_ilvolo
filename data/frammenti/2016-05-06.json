@@ -1064,11 +1064,13 @@
     "end": 2426.09,
     "speaker_raw": "SPEAKER_15",
     "testo": "E gli metti i dischi di Eros per, diciamo, tirar su un po' l'ambiente. Ascoltami. Non ho capito. No, dico, metti la musica per tirar su un po' l'ambiente. Sì, è certo. Secondo me non ha capito. Hai già comprato il libro di Eros? Sì, l'ho comprato ieri, l'ho prenotato. Ah, l'ha prenotato.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "dischi di Eros",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": ""
+    "autore": "Eros Ramazzotti"
   },
   {
     "id": "2016-05-06-089",
