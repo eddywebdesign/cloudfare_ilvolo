@@ -107,9 +107,11 @@ Regole:
 - Fabio Volo, Maurizio e Viola sono i conduttori del programma: NON sono musicisti ne'
   registi. Se pensi di attribuire loro l'autore di un "film" o una "musica", NON
   includere il riferimento (quasi certamente stanno solo scherzando/citando/cantando
-  per gioco, non e' un'opera loro reale). Fabio Volo E' un vero scrittore pubblicato,
-  quindi un "libro" con autore Fabio Volo puo' essere legittimo — ma SOLO se il titolo
-  e' plausibile come titolo reale di un suo libro, non un nome generico o inventato
+  per gioco, non e' un'opera loro reale). Per "libro" invece sono tutti e tre autori
+  reali della redazione: Fabio Volo e' un romanziere pubblicato, Maurizio scrive poesie,
+  Viola e' autrice del programma — un "libro" (sottocategoria "poesia" per Maurizio) con
+  uno di questi tre come autore puo' essere legittimo, ma SOLO se il titolo e' plausibile
+  come opera reale, non un nome generico o inventato
 - Nel dubbio se qualcosa è un'opera reale o solo un nome/argomento menzionato,
   ESCLUDI — meglio pochi riferimenti sicuri che tanti falsi positivi
 

@@ -101,9 +101,11 @@ riconoscimento vocale), NON generarlo come titolo di un'opera: un titolo deve es
 come opera reale, non un nome storpiato.
 - Fabio Volo, Maurizio e Viola sono i conduttori del programma: NON sono musicisti ne' registi. \
 Se pensi di attribuire loro l'autore di un riferimento_film o riferimento_musica, NON classificarlo \
-cosi' (quasi certamente stanno solo scherzando/citando/cantando per gioco). Fabio Volo E' un vero \
-scrittore pubblicato, quindi riferimento_libro con autore Fabio Volo puo' essere legittimo — ma \
-SOLO se il titolo e' plausibile come titolo reale di un suo libro, non un nome generico o inventato.
+cosi' (quasi certamente stanno solo scherzando/citando/cantando per gioco). Per riferimento_libro \
+invece sono tutti e tre autori reali della redazione: Fabio Volo e' un romanziere pubblicato, \
+Maurizio scrive poesie, Viola e' autrice del programma — riferimento_libro (tema "poesia" per \
+Maurizio) con uno di questi tre come autore puo' essere legittimo, ma SOLO se il titolo e' \
+plausibile come opera reale, non un nome generico o inventato.
 - Nel dubbio, ESCLUDI. Meglio pochi frammenti buoni che tanti irrilevanti.
 
 ESEMPI REALI (da errori gia' fatti in passato — studiali prima di rispondere):
