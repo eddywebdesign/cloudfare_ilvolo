@@ -781,9 +781,12 @@
     "end": 2691.61,
     "speaker_raw": "SPEAKER_12",
     "testo": "Ben Harper, a proposito di vita e di condivisione di aneddotisti che ne arrivano anche tanti dai nostri ascoltatori, mentre Michele ci raccontava la sua storia con i figli, ad Andrea Squillato il telefono era la mamma che ha detto che a lei ha regalato i figli. Hai ancora il telefono? Sì, è qua mamma. Mettila in viva voce. Buongiorno signora. Ciao Fabio. Ciao, saluta prima me e dopo. Non conto niente. Che cosa ha regalato i suoi nipoti? Diggielo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Regalo dei figli dalla mamma",
+    "tema": [
+      "genitori",
+      "figli"
+    ],
+    "tipo": "aneddoto",
     "video_url": "",
     "autore": ""
   },
@@ -874,9 +877,12 @@
     "end": 2786.11,
     "speaker_raw": "SPEAKER_12",
     "testo": "prende in mano dentro il pancione esatto ok buongiorno Anna grazie mille buongiorno ciao ciao ciao ciao ciao ciao viola dimmi qui arrivano ascoltatori che hanno imparato la sessualità come te da questa videocassette vedi e mi avete preso in giro tutti di Repubblica speriamo che le ristampino va bene ma scusate vale post al market vale io l'ho imparata lì ciao ragazzi ciao ciao",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Imparare sessualità da videocassette",
+    "tema": [
+      "sessualità",
+      "educazione"
+    ],
+    "tipo": "riflessione",
     "video_url": "",
     "autore": ""
   }

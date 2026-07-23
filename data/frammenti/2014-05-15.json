@@ -551,11 +551,13 @@
     "end": 1652.23,
     "speaker_raw": "SPEAKER_08",
     "testo": "Vieni in veste di amica mia o di Ghirri? No tu. Ah mia, mia, ok. Tu vai di Maurizio. Io ho dei bellissimi cataloghi di Ghirri a casa, quindi se vi capita adesso se siete in ufficio andate proprio Luigi Ghirri immagini, sono, non lo so, è proprio una poesia fatta a fotografia.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Luigi Ghirri immagini",
+    "tema": [
+      "fotografia"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": ""
+    "autore": "Luigi Ghirri"
   },
   {
     "id": "2014-05-15-043",
