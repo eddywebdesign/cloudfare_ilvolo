@@ -44,7 +44,8 @@
       "felicita"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-04-21-004",
@@ -237,7 +238,8 @@
       "giustizia"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true
   },
   {
     "id": "2016-04-21-021",
@@ -274,7 +276,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Marco Ferradini"
+    "autore": "Marco Ferradini",
+    "confermato_esterno": false
   },
   {
     "id": "2016-04-21-024",
@@ -288,7 +291,8 @@
       "relazioni"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-04-21-025",
@@ -635,7 +639,8 @@
       "tecnica"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-04-21-055",
@@ -693,7 +698,8 @@
       "paura"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-04-21-060",
@@ -721,7 +727,8 @@
       "relazioni"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-04-21-062",
@@ -735,7 +742,8 @@
       "relazioni"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-04-21-063",

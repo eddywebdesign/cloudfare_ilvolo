@@ -106,7 +106,8 @@
     ],
     "tipo": "riferimento_film",
     "video_url": "",
-    "autore": "Vari"
+    "autore": "Vari",
+    "confermato_esterno": false
   },
   {
     "id": "2017-02-16-009",
@@ -143,7 +144,8 @@
     ],
     "tipo": "riferimento_film",
     "video_url": "",
-    "autore": "Matt Ross"
+    "autore": "Matt Ross",
+    "confermato_esterno": true
   },
   {
     "id": "2017-02-16-012",
@@ -1004,7 +1006,8 @@
     ],
     "tipo": "riferimento_film",
     "video_url": "",
-    "autore": "Massimiliano Bruno"
+    "autore": "Massimiliano Bruno",
+    "confermato_esterno": true
   },
   {
     "id": "2017-02-16-090",

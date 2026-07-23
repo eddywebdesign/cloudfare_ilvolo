@@ -646,7 +646,8 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-12-07-057",
@@ -692,7 +693,8 @@
       "opera"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-12-07-061",

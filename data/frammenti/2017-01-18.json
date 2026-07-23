@@ -202,7 +202,8 @@
       "attori"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-01-18-018",
@@ -216,7 +217,8 @@
       "registi"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-01-18-019",
@@ -596,7 +598,8 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-01-18-052",

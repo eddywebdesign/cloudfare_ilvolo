@@ -55,7 +55,8 @@
       "Alicia Keys"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-10-27-005",
@@ -119,7 +120,8 @@
       "amore"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-10-27-010",
@@ -347,7 +349,8 @@
       "televisione"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-10-27-028",
@@ -416,7 +419,8 @@
       "cinema"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-10-27-034",

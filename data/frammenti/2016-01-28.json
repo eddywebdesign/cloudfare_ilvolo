@@ -50,7 +50,8 @@
       "responsabilità"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-28-004",
@@ -145,7 +146,8 @@
       "comunicazione"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-28-011",
@@ -212,7 +214,8 @@
       "augurio"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-28-016",
@@ -452,7 +455,8 @@
       "collaborazione"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-28-034",
@@ -617,7 +621,8 @@
       "gatto"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-28-046",
@@ -631,7 +636,8 @@
       "relazione"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-28-047",
@@ -644,7 +650,8 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-28-048",
@@ -658,7 +665,8 @@
       "malinconia"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-28-049",
@@ -711,7 +719,8 @@
       "amore"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-28-053",
@@ -750,6 +759,7 @@
       "conoscenza"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   }
 ]

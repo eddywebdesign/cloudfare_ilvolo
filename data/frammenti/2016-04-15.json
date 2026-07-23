@@ -116,7 +116,8 @@
       "mistero"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-04-15-010",
@@ -265,7 +266,8 @@
       "tom jones"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-04-15-023",
@@ -386,7 +388,8 @@
       "elisa"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-04-15-033",
@@ -473,7 +476,8 @@
     ],
     "tipo": "riferimento_film",
     "video_url": "",
-    "autore": "Emile Ardolino"
+    "autore": "Emile Ardolino",
+    "confermato_esterno": true
   },
   {
     "id": "2016-04-15-040",
@@ -688,7 +692,8 @@
       "solitudine"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-04-15-059",

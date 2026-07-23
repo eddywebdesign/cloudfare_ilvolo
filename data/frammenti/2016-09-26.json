@@ -22,7 +22,8 @@
       "emozione"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-09-26-002",
@@ -125,7 +126,8 @@
       "libro"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-09-26-010",
@@ -706,7 +708,8 @@
       "elezioni"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-09-26-059",
@@ -742,7 +745,8 @@
       "rock"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-09-26-062",
@@ -756,7 +760,8 @@
       "biografia"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-09-26-063",
@@ -771,7 +776,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "nome non specificato"
+    "autore": "nome non specificato",
+    "confermato_esterno": false
   },
   {
     "id": "2016-09-26-064",
@@ -841,7 +847,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "nome non specificato"
+    "autore": "nome non specificato",
+    "confermato_esterno": false
   },
   {
     "id": "2016-09-26-070",
@@ -1016,6 +1023,7 @@
       "parola"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   }
 ]

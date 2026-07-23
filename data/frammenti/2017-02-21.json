@@ -320,7 +320,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Tiziano Ferro e Carmen Consoli"
+    "autore": "Tiziano Ferro e Carmen Consoli",
+    "confermato_esterno": false
   },
   {
     "id": "2017-02-21-029",
@@ -423,7 +424,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Nina Simone"
+    "autore": "Nina Simone",
+    "confermato_esterno": true
   },
   {
     "id": "2017-02-21-038",
@@ -437,7 +439,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Nina Simone"
+    "autore": "Nina Simone",
+    "confermato_esterno": true
   },
   {
     "id": "2017-02-21-039",

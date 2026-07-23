@@ -11,7 +11,8 @@
       "citazione"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-06-001",
@@ -25,7 +26,8 @@
       "musica"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-06-002",
@@ -120,7 +122,8 @@
       "Sanremo"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-06-010",
@@ -134,7 +137,8 @@
       "musica"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-06-011",
@@ -276,7 +280,8 @@
       "vacanza"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-06-023",
@@ -433,7 +438,8 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-06-036",
@@ -522,7 +528,8 @@
       "concerti"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-06-043",
@@ -561,7 +568,8 @@
       "lettura"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-06-046",
@@ -590,7 +598,8 @@
       "Peter Gabriel"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-06-048",
@@ -694,7 +703,8 @@
       "Genesis"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-06-056",
@@ -707,7 +717,8 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-06-057",
@@ -855,7 +866,8 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-06-070",
@@ -1075,7 +1087,8 @@
       "Eros Ramazzotti"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-06-089",
@@ -1101,7 +1114,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Eros Ramazzotti"
+    "autore": "Eros Ramazzotti",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-06-091",
@@ -1126,7 +1140,8 @@
       "canzone"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-06-093",
@@ -1140,7 +1155,8 @@
       "grazie di cuore"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-06-094",

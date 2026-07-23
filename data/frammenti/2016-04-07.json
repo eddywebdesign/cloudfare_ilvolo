@@ -44,7 +44,8 @@
       "compleanni"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-04-07-004",
@@ -139,7 +140,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Igor Sibaldi"
+    "autore": "Igor Sibaldi",
+    "confermato_esterno": false
   },
   {
     "id": "2016-04-07-012",
@@ -207,7 +209,8 @@
       "religione"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-04-07-017",
@@ -222,7 +225,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Igor Sibaldi"
+    "autore": "Igor Sibaldi",
+    "confermato_esterno": false
   },
   {
     "id": "2016-04-07-018",
@@ -289,7 +293,8 @@
       "canzone"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-04-07-023",
@@ -303,7 +308,8 @@
       "personalità"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-04-07-024",
@@ -666,7 +672,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Collodi"
+    "autore": "Collodi",
+    "confermato_esterno": true
   },
   {
     "id": "2016-04-07-056",
@@ -742,7 +749,8 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-04-07-062",

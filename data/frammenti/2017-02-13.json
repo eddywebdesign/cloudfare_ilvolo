@@ -253,7 +253,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Al Jarreau"
+    "autore": "Al Jarreau",
+    "confermato_esterno": true
   },
   {
     "id": "2017-02-13-023",
@@ -360,7 +361,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Tiziano Ferro e Carmen Consoli"
+    "autore": "Tiziano Ferro e Carmen Consoli",
+    "confermato_esterno": false
   },
   {
     "id": "2017-02-13-032",

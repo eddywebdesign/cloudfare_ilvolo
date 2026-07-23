@@ -41,7 +41,8 @@
     "titolo": "Con Deus mi dito",
     "tema": [],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-25-004",
@@ -63,7 +64,8 @@
     "titolo": "Trick and track",
     "tema": [],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-25-006",
@@ -113,7 +115,8 @@
     "titolo": "Canzoni",
     "tema": [],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-25-010",
@@ -149,7 +152,8 @@
     "titolo": "Nuove puntate su Fox",
     "tema": [],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-25-013",
@@ -182,7 +186,8 @@
     "titolo": "X-Files riaperti",
     "tema": [],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-25-016",
@@ -193,7 +198,8 @@
     "titolo": "Mancini sale Family Day",
     "tema": [],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-25-017",
@@ -215,7 +221,8 @@
     "titolo": "Counting Crows",
     "tema": [],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-25-019",
@@ -226,7 +233,8 @@
     "titolo": "Nella versione scapero",
     "tema": [],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-25-020",
@@ -293,7 +301,8 @@
     "titolo": "sepolta in casa",
     "tema": [],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-25-025",
@@ -472,7 +481,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Elena"
+    "autore": "Elena",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-25-039",
@@ -483,7 +493,8 @@
     "titolo": "Rinchiudeteli con la Y",
     "tema": [],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-25-040",
@@ -708,7 +719,8 @@
     "titolo": "Paolo Bucci Rosso",
     "tema": [],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-25-058",
@@ -719,7 +731,8 @@
     "titolo": "Film con Paolo Bucci Rosso",
     "tema": [],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-25-059",
@@ -777,7 +790,8 @@
     "titolo": "Carlo",
     "tema": [],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true
   },
   {
     "id": "2016-01-25-064",

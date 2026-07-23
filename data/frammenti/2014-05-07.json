@@ -88,7 +88,8 @@
       "eventi"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2014-05-07-008",
@@ -187,7 +188,8 @@
       "letteratura"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2014-05-07-016",
@@ -281,7 +283,8 @@
       "relazioni"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2014-05-07-024",
@@ -496,7 +499,8 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2014-05-07-042",
@@ -524,7 +528,8 @@
       "personaggi"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2014-05-07-044",
@@ -563,7 +568,8 @@
       "libro"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2014-05-07-047",
@@ -634,7 +640,8 @@
       "dolcezza"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2014-05-07-052",
@@ -709,7 +716,8 @@
       "giorni"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2014-05-07-058",
@@ -723,7 +731,8 @@
       "mondo"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2014-05-07-059",
@@ -812,7 +821,8 @@
       "vita"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2014-05-07-066",

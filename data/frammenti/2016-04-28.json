@@ -334,7 +334,8 @@
       "italia"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-04-28-030",
@@ -594,7 +595,8 @@
       "simbolismo"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-04-28-052",
@@ -641,7 +643,8 @@
       "crescita"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-04-28-056",
@@ -828,7 +831,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Fabio Volo"
+    "autore": "Fabio Volo",
+    "confermato_esterno": true
   },
   {
     "id": "2016-04-28-072",
@@ -1016,7 +1020,8 @@
       "bambini"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-04-28-088",
@@ -1030,6 +1035,7 @@
       "poesia"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   }
 ]

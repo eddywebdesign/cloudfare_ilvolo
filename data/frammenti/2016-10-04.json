@@ -22,7 +22,8 @@
       "testi"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-10-04-002",
@@ -35,7 +36,8 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-10-04-003",
@@ -88,7 +90,8 @@
       "tempo"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-10-04-007",
@@ -124,7 +127,8 @@
       "danza"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-10-04-010",
@@ -138,7 +142,8 @@
       "robbie williams"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-10-04-011",
@@ -414,7 +419,8 @@
       "canzone"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-10-04-033",
@@ -429,7 +435,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Jovanotti"
+    "autore": "Jovanotti",
+    "confermato_esterno": true
   },
   {
     "id": "2016-10-04-034",
@@ -523,7 +530,8 @@
       "arte"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-10-04-042",
@@ -579,7 +587,8 @@
       "incinta"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-10-04-046",
@@ -696,7 +705,8 @@
       "napoletano"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-10-04-055",
@@ -757,7 +767,8 @@
       "discorso"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-10-04-060",
@@ -782,6 +793,7 @@
       "lingue"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   }
 ]

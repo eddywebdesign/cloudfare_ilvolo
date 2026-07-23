@@ -352,7 +352,8 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-09-031",
@@ -365,7 +366,8 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-09-032",
@@ -389,7 +391,8 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-09-034",
@@ -453,7 +456,8 @@
       "bambina"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-09-039",
@@ -592,7 +596,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "F. Kafka"
+    "autore": "F. Kafka",
+    "confermato_esterno": true
   },
   {
     "id": "2016-05-09-051",
@@ -632,7 +637,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Italo Calvino"
+    "autore": "Italo Calvino",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-09-054",
@@ -804,7 +810,8 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-09-067",

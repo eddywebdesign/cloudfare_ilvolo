@@ -220,7 +220,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Gianni Battiato"
+    "autore": "Gianni Battiato",
+    "confermato_esterno": false
   },
   {
     "id": "2016-12-01-020",
@@ -390,7 +391,8 @@
       "tiromancino"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-12-01-034",
@@ -404,7 +406,8 @@
       "truffaut"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-12-01-035",
@@ -429,7 +432,8 @@
     ],
     "tipo": "riferimento_film",
     "video_url": "",
-    "autore": "François Truffaut"
+    "autore": "François Truffaut",
+    "confermato_esterno": true
   },
   {
     "id": "2016-12-01-037",
@@ -443,7 +447,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Maurizio"
+    "autore": "Maurizio",
+    "confermato_esterno": false
   },
   {
     "id": "2016-12-01-038",
@@ -457,7 +462,8 @@
       "letteratura"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-12-01-039",
@@ -617,7 +623,8 @@
       "emozioni"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-12-01-053",
@@ -642,7 +649,8 @@
       "michael jackson"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-12-01-055",

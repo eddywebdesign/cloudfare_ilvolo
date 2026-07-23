@@ -414,7 +414,8 @@
       "rolling stones"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-12-06-037",
@@ -440,7 +441,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "nome proprio"
+    "autore": "nome proprio",
+    "confermato_esterno": false
   },
   {
     "id": "2016-12-06-039",

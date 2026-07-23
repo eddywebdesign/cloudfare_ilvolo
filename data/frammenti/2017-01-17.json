@@ -99,7 +99,8 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-01-17-009",
@@ -445,7 +446,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Hunter Hayes"
+    "autore": "Hunter Hayes",
+    "confermato_esterno": false
   },
   {
     "id": "2017-01-17-039",
@@ -657,7 +659,8 @@
       "citazione"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-01-17-058",

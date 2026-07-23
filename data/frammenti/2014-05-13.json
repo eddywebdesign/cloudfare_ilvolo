@@ -21,7 +21,8 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2014-05-13-002",
@@ -77,7 +78,8 @@
       "Carla Bruni"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2014-05-13-006",
@@ -155,7 +157,8 @@
       "Beppe Grillo"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true
   },
   {
     "id": "2014-05-13-012",
@@ -324,7 +327,8 @@
       "fotografia"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2014-05-13-026",
@@ -352,7 +356,8 @@
       "simbolo"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2014-05-13-028",
@@ -490,7 +495,8 @@
       "amore"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2014-05-13-039",
@@ -625,7 +631,8 @@
       "libro"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2014-05-13-050",
@@ -680,7 +687,8 @@
       "canzone"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2014-05-13-054",
@@ -705,7 +713,8 @@
       "popolare"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2014-05-13-056",

@@ -388,7 +388,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Linus"
+    "autore": "Linus",
+    "confermato_esterno": false
   },
   {
     "id": "2016-12-08-035",
@@ -613,7 +614,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Gnash feat. Olivia O'Brien"
+    "autore": "Gnash feat. Olivia O'Brien",
+    "confermato_esterno": true
   },
   {
     "id": "2016-12-08-054",

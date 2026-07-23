@@ -566,7 +566,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Tiziano Ferro e Carmen Consoli"
+    "autore": "Tiziano Ferro e Carmen Consoli",
+    "confermato_esterno": false
   },
   {
     "id": "2017-01-31-051",
@@ -835,7 +836,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Angelo Branduardi"
+    "autore": "Angelo Branduardi",
+    "confermato_esterno": false
   },
   {
     "id": "2017-01-31-075",

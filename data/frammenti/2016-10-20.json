@@ -22,7 +22,8 @@
       "party"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-10-20-002",
@@ -346,7 +347,8 @@
       "umanità"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-10-20-028",
@@ -408,7 +410,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Kate Richard"
+    "autore": "Kate Richard",
+    "confermato_esterno": false
   },
   {
     "id": "2016-10-20-033",
@@ -546,7 +549,8 @@
       "mal di testa"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-10-20-045",
@@ -607,7 +611,8 @@
       "allattamento"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-10-20-050",
@@ -632,7 +637,8 @@
       "alimentazione"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-10-20-052",
@@ -657,7 +663,8 @@
       "alimentazione"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-10-20-054",
@@ -682,7 +689,8 @@
       "alimentazione"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-10-20-056",

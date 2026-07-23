@@ -100,7 +100,8 @@
     "titolo": "va mi fai schifo",
     "tema": [],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2026-01-08-008",
@@ -136,7 +137,8 @@
     "titolo": "mettiamo un disco",
     "tema": [],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2026-01-08-011",
@@ -147,7 +149,8 @@
     "titolo": "Love me two time",
     "tema": [],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2026-01-08-012",
@@ -158,7 +161,8 @@
     "titolo": "Amami due volte",
     "tema": [],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2026-01-08-013",
@@ -322,7 +326,8 @@
     "titolo": "Capello lungo di Fabio Volo",
     "tema": [],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2026-01-08-026",
@@ -368,7 +373,8 @@
     "titolo": "Riferimento a Dostoevskij e i fratelli Karamazov",
     "tema": [],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2026-01-08-030",
@@ -576,7 +582,8 @@
     "titolo": "finale di Stranger Things",
     "tema": [],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2026-01-08-047",
@@ -801,7 +808,8 @@
     "titolo": "Brad Pitt ospite in studio",
     "tema": [],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2026-01-08-065",
@@ -900,7 +908,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Articolo non specificato nel testo"
+    "autore": "Articolo non specificato nel testo",
+    "confermato_esterno": false
   },
   {
     "id": "2026-01-08-073",
@@ -925,7 +934,8 @@
     "titolo": "Citazione del brano La Notte",
     "tema": [],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2026-01-08-075",

@@ -529,7 +529,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Mariah Carey"
+    "autore": "Mariah Carey",
+    "confermato_esterno": false
   },
   {
     "id": "2016-12-19-048",
@@ -543,7 +544,8 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-12-19-049",
@@ -864,7 +866,8 @@
       "cinema"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-12-19-077",
@@ -889,7 +892,8 @@
       "natale"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-12-19-079",
@@ -925,7 +929,8 @@
       "cinema"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-12-19-082",

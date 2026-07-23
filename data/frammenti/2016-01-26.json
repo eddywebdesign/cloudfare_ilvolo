@@ -425,7 +425,8 @@
     "titolo": "Radio DJ",
     "tema": [],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-26-036",
@@ -542,7 +543,8 @@
     "titolo": "Scena E.T. vestito da donna",
     "tema": [],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-26-045",
@@ -609,7 +611,8 @@
     "titolo": "Io non ho letto il libro",
     "tema": [],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-26-050",
@@ -634,7 +637,8 @@
     "titolo": "Pulp Fiction",
     "tema": [],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true
   },
   {
     "id": "2016-01-26-052",
@@ -645,7 +649,8 @@
     "titolo": "Ball Gag",
     "tema": [],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-26-053",
@@ -703,7 +708,8 @@
     "titolo": "Francesco De Gregori e Ligabue",
     "tema": [],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-26-058",
@@ -795,7 +801,8 @@
     "titolo": "500 Miles",
     "tema": [],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-26-065",
@@ -859,7 +866,8 @@
     "titolo": "La condizione molte donne",
     "tema": [],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-26-070",
@@ -939,6 +947,7 @@
     "titolo": "canzone interrotta",
     "tema": [],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   }
 ]

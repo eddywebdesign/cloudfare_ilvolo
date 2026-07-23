@@ -44,7 +44,8 @@
       "concerti"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-06-01-004",
@@ -214,7 +215,8 @@
       "citazione"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-06-01-018",
@@ -239,7 +241,8 @@
       "citazione"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-06-01-020",
@@ -395,7 +398,8 @@
       "abilità"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-06-01-033",
@@ -445,7 +449,8 @@
       "cavallo"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-06-01-037",
@@ -544,7 +549,8 @@
       "immigrazione"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-06-01-044",
@@ -558,7 +564,8 @@
       "mascalcia"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-06-01-045",
@@ -630,7 +637,8 @@
       "pop"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-06-01-051",
@@ -658,7 +666,8 @@
       "apprezzamento"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-06-01-053",
@@ -683,7 +692,8 @@
       "elogio"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-06-01-055",
@@ -730,7 +740,8 @@
       "pop"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-06-01-059",
@@ -799,7 +810,8 @@
       "giudizio"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-06-01-065",
@@ -814,7 +826,8 @@
       "canzone"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-06-01-066",
@@ -828,7 +841,8 @@
       "elvis presley"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-06-01-067",
@@ -857,7 +871,8 @@
     ],
     "tipo": "riferimento_film",
     "video_url": "",
-    "autore": "Ettore Scola"
+    "autore": "Ettore Scola",
+    "confermato_esterno": false
   },
   {
     "id": "2016-06-01-069",
@@ -949,7 +964,8 @@
       "vergognie"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-06-01-076",
@@ -974,6 +990,7 @@
       "piacere"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   }
 ]

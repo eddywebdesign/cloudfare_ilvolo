@@ -230,7 +230,8 @@
       "desideri"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2014-05-06-019",
@@ -413,7 +414,8 @@
       "piacere"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2014-05-06-033",
@@ -464,7 +466,8 @@
       "storia"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2014-05-06-037",
@@ -515,7 +518,8 @@
       "avventura"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2014-05-06-041",
@@ -565,7 +569,8 @@
       "Messico"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2014-05-06-045",
@@ -615,7 +620,8 @@
       "spagnolo"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2014-05-06-049",
@@ -687,7 +693,8 @@
       "Messico"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2014-05-06-055",
@@ -743,7 +750,8 @@
       "identità"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2014-05-06-059",
@@ -836,6 +844,7 @@
       "artisti"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   }
 ]

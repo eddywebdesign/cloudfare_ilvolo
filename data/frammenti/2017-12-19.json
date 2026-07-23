@@ -23,7 +23,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "J. Fred Coots e Haven Gillespie"
+    "autore": "J. Fred Coots e Haven Gillespie",
+    "confermato_esterno": false
   },
   {
     "id": "2017-12-19-002",
@@ -555,7 +556,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Etta James"
+    "autore": "Etta James",
+    "confermato_esterno": false
   },
   {
     "id": "2017-12-19-050",
@@ -569,7 +571,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "The Bee Gees"
+    "autore": "The Bee Gees",
+    "confermato_esterno": true
   },
   {
     "id": "2017-12-19-051",
@@ -2190,7 +2193,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Ivano Fossati"
+    "autore": "Ivano Fossati",
+    "confermato_esterno": true
   },
   {
     "id": "2017-12-19-197",

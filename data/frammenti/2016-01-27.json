@@ -177,7 +177,8 @@
       "copertina"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-27-014",
@@ -191,7 +192,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Sorrisi e Canzoni"
+    "autore": "Sorrisi e Canzoni",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-27-015",
@@ -241,7 +243,8 @@
       "gioventù"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-27-019",
@@ -269,7 +272,8 @@
       "autore"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-27-021",
@@ -283,7 +287,8 @@
       "programmi"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-27-022",
@@ -361,7 +366,8 @@
       "lavoro"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-27-028",
@@ -445,7 +451,8 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-27-034",
@@ -459,7 +466,8 @@
       "volomattino"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-27-035",
@@ -495,7 +503,8 @@
       "agricoltura"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-27-038",
@@ -533,7 +542,8 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-27-041",
@@ -559,7 +569,8 @@
       "canzoni"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-27-043",
@@ -588,7 +599,8 @@
       "canzoni"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-27-045",
@@ -616,7 +628,8 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-27-047",
@@ -630,7 +643,8 @@
       "Michael Bolton"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-27-048",
@@ -679,7 +693,8 @@
       "salute"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-27-052",
@@ -740,7 +755,8 @@
       "natura"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-27-057",
@@ -1030,7 +1046,8 @@
       "scrittura"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-27-079",

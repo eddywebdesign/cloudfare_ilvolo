@@ -10,7 +10,8 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-11-16-001",
@@ -24,7 +25,8 @@
       "fragilità"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-11-16-002",
@@ -60,7 +62,8 @@
       "vita"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-11-16-005",
@@ -107,7 +110,8 @@
       "energia"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-11-16-009",
@@ -245,7 +249,8 @@
       "anatomia"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-11-16-021",
@@ -380,7 +385,8 @@
       "concerti"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-11-16-033",
@@ -419,7 +425,8 @@
       "natale"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-11-16-036",
@@ -434,7 +441,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Max Gazzè"
+    "autore": "Max Gazzè",
+    "confermato_esterno": false
   },
   {
     "id": "2016-11-16-037",
@@ -449,7 +457,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Max Gazzè"
+    "autore": "Max Gazzè",
+    "confermato_esterno": true
   },
   {
     "id": "2016-11-16-038",
@@ -473,7 +482,8 @@
       "karaoke"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-11-16-040",
@@ -624,7 +634,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Dumas"
+    "autore": "Dumas",
+    "confermato_esterno": false
   },
   {
     "id": "2016-11-16-053",
@@ -930,7 +941,8 @@
       "concerti"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-11-16-080",

@@ -398,7 +398,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Adinolfi"
+    "autore": "Adinolfi",
+    "confermato_esterno": false
   },
   {
     "id": "2016-10-25-034",
@@ -685,7 +686,8 @@
       "consigli"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-10-25-059",
@@ -743,7 +745,8 @@
       "depressione"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-10-25-064",
@@ -914,7 +917,8 @@
       "libro"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-10-25-079",
@@ -928,7 +932,8 @@
       "blues"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-10-25-080",

@@ -188,7 +188,8 @@
     ],
     "tipo": "riferimento_film",
     "video_url": "",
-    "autore": "Netflix"
+    "autore": "Netflix",
+    "confermato_esterno": true
   },
   {
     "id": "2017-02-27-017",
@@ -247,7 +248,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "The Jets"
+    "autore": "The Jets",
+    "confermato_esterno": false
   },
   {
     "id": "2017-02-27-022",

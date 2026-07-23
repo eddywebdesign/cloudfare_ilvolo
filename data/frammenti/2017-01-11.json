@@ -21,7 +21,8 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-01-11-002",
@@ -531,7 +532,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "B.B. King"
+    "autore": "B.B. King",
+    "confermato_esterno": true
   },
   {
     "id": "2017-01-11-047",
@@ -636,7 +638,8 @@
       "politica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-01-11-056",

@@ -86,7 +86,8 @@
       "personaggi"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true
   },
   {
     "id": "2016-04-27-007",
@@ -191,7 +192,8 @@
       "vita quotidiana"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-04-27-016",
@@ -227,7 +229,8 @@
       "citazione"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-04-27-019",
@@ -284,7 +287,8 @@
       "cinema"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-04-27-024",
@@ -595,7 +599,8 @@
       "natura"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-04-27-052",
@@ -817,7 +822,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Umberto Veronesi"
+    "autore": "Umberto Veronesi",
+    "confermato_esterno": false
   },
   {
     "id": "2016-04-27-070",
@@ -1010,7 +1016,8 @@
       "umorismo"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-04-27-087",

@@ -157,7 +157,8 @@
       "Renga"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-25-014",
@@ -186,7 +187,8 @@
       "menù"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-25-016",
@@ -211,7 +213,8 @@
       "pubblicità"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-25-018",
@@ -283,7 +286,8 @@
       "regina"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-25-024",
@@ -685,7 +689,8 @@
       "relazioni"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-25-057",
@@ -699,7 +704,8 @@
       "amore"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true
   },
   {
     "id": "2016-05-25-058",
@@ -760,7 +766,8 @@
       "avventura"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-25-063",
@@ -796,7 +803,8 @@
       "avventura"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-25-066",
@@ -825,7 +833,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Alessandro Manzoni"
+    "autore": "Alessandro Manzoni",
+    "confermato_esterno": true
   },
   {
     "id": "2016-05-25-068",
@@ -853,7 +862,8 @@
       "programmazione"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-25-070",
@@ -867,7 +877,8 @@
       "programmazione"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-25-071",
@@ -882,7 +893,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Alessandro Manzoni"
+    "autore": "Alessandro Manzoni",
+    "confermato_esterno": true
   },
   {
     "id": "2016-05-25-072",
@@ -988,7 +1000,8 @@
       "famiglia"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-25-080",

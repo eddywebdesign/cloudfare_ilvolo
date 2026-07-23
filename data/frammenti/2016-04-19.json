@@ -55,7 +55,8 @@
       "ottimismo"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-04-19-005",
@@ -401,7 +402,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Urge Sibaldi"
+    "autore": "Urge Sibaldi",
+    "confermato_esterno": false
   },
   {
     "id": "2016-04-19-035",
@@ -696,7 +698,8 @@
       "talento"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-04-19-061",

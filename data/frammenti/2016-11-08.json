@@ -59,7 +59,8 @@
       "vita"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-11-08-005",
@@ -205,7 +206,8 @@
       "politica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-11-08-018",
@@ -253,7 +255,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Berlusconi"
+    "autore": "Berlusconi",
+    "confermato_esterno": false
   },
   {
     "id": "2016-11-08-022",
@@ -356,7 +359,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Rick Astley"
+    "autore": "Rick Astley",
+    "confermato_esterno": true
   },
   {
     "id": "2016-11-08-030",
@@ -415,7 +419,8 @@
       "Trump"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-11-08-035",
@@ -489,7 +494,8 @@
       "Fai bei sogni"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-11-08-041",
@@ -562,7 +568,8 @@
       "rock"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-11-08-047",
@@ -620,7 +627,8 @@
       "letteratura"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-11-08-052",
@@ -760,7 +768,8 @@
       "cinema"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-11-08-064",
@@ -863,6 +872,7 @@
       "promozione"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   }
 ]

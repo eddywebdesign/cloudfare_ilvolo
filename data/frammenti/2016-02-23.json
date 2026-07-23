@@ -54,7 +54,8 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-02-23-005",
@@ -68,7 +69,8 @@
       "poesia"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-02-23-006",
@@ -145,7 +147,8 @@
       "giornalismo"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-02-23-012",
@@ -173,7 +176,8 @@
       "canzoni"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-02-23-014",
@@ -223,7 +227,8 @@
       "canzoni"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-02-23-018",
@@ -237,7 +242,8 @@
       "rock"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-02-23-019",
@@ -266,7 +272,8 @@
       "drammatico"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-02-23-021",
@@ -418,7 +425,8 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-02-23-033",
@@ -479,7 +487,8 @@
       "speranza"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true
   },
   {
     "id": "2016-02-23-038",
@@ -507,7 +516,8 @@
       "identità"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-02-23-040",
@@ -577,7 +587,8 @@
       "fantascienza"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true
   },
   {
     "id": "2016-02-23-045",
@@ -641,7 +652,8 @@
       "sogni"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-02-23-050",
@@ -666,7 +678,8 @@
       "scienza"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-02-23-052",
@@ -695,7 +708,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Lucio Battisti"
+    "autore": "Lucio Battisti",
+    "confermato_esterno": false
   },
   {
     "id": "2016-02-23-054",
@@ -737,7 +751,8 @@
       "supereroi"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-02-23-057",

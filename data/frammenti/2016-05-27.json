@@ -44,7 +44,8 @@
       "umorismo"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true
   },
   {
     "id": "2016-05-27-004",
@@ -384,7 +385,8 @@
       "nome"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-27-033",
@@ -459,7 +461,8 @@
       "cornflakes"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-27-039",
@@ -473,7 +476,8 @@
       "illusioni"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-27-040",
@@ -525,7 +529,8 @@
       "nome"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-27-044",
@@ -560,7 +565,8 @@
       "nome"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-27-047",
@@ -599,7 +605,8 @@
       "sogni"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-27-050",
@@ -780,7 +787,8 @@
       "intervista"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-27-065",
@@ -819,7 +827,8 @@
       "folk"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-27-068",
@@ -883,7 +892,8 @@
       "magia"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true
   },
   {
     "id": "2016-05-27-073",
@@ -911,7 +921,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Fabio Volo"
+    "autore": "Fabio Volo",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-27-075",
@@ -925,7 +936,8 @@
       "doppio"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-27-076",
@@ -939,7 +951,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Fabio Volo"
+    "autore": "Fabio Volo",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-27-077",
@@ -953,7 +966,8 @@
       "cultura"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-27-078",
@@ -981,7 +995,8 @@
       "amore"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-27-080",
@@ -995,7 +1010,8 @@
       "lingua"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-27-081",
@@ -1169,7 +1185,8 @@
       "moda"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-27-096",
@@ -1183,7 +1200,8 @@
       "potere"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-27-097",

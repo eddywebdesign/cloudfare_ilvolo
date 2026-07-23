@@ -11,7 +11,8 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-03-16-001",
@@ -25,7 +26,8 @@
       "testo"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-03-16-002",
@@ -39,7 +41,8 @@
       "felicità"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-03-16-003",
@@ -127,7 +130,8 @@
       "immaginazione"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-03-16-010",
@@ -142,7 +146,8 @@
       "italia"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-03-16-011",
@@ -156,7 +161,8 @@
       "registi"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-03-16-012",
@@ -195,7 +201,8 @@
       "tristezza"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-03-16-015",
@@ -245,7 +252,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Maurizio"
+    "autore": "Maurizio",
+    "confermato_esterno": false
   },
   {
     "id": "2016-03-16-019",
@@ -273,7 +281,8 @@
       "amore"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-03-16-021",
@@ -309,7 +318,8 @@
       "paura"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-03-16-024",
@@ -345,7 +355,8 @@
       "relax"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-03-16-027",
@@ -482,7 +493,8 @@
       "famiglia"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-03-16-037",

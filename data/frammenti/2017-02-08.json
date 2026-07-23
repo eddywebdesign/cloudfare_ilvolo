@@ -11,7 +11,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Roixop"
+    "autore": "Roixop",
+    "confermato_esterno": false
   },
   {
     "id": "2017-02-08-001",
@@ -488,7 +489,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Lucio Battisti"
+    "autore": "Lucio Battisti",
+    "confermato_esterno": true
   },
   {
     "id": "2017-02-08-044",
@@ -789,7 +791,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Trent Reznor"
+    "autore": "Trent Reznor",
+    "confermato_esterno": false
   },
   {
     "id": "2017-02-08-071",

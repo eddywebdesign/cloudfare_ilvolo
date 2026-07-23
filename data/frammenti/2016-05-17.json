@@ -58,7 +58,8 @@
     "titolo": "riferimento al film di Troisi",
     "tema": [],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-17-005",
@@ -158,7 +159,8 @@
     "titolo": "Titio e Tarantula",
     "tema": [],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-17-013",
@@ -169,7 +171,8 @@
     "titolo": "Strolling in the night",
     "tema": [],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-17-014",
@@ -292,7 +295,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Vincent Van Gogh"
+    "autore": "Vincent Van Gogh",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-17-024",
@@ -342,7 +346,8 @@
     "titolo": "Tutto qui accade per te",
     "tema": [],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-17-028",
@@ -433,7 +438,8 @@
     "titolo": "We were young and we ain't had no vows",
     "tema": [],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-17-036",
@@ -470,7 +476,8 @@
     "titolo": "Faccia da Pirla",
     "tema": [],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-17-039",
@@ -514,7 +521,8 @@
     "titolo": "I Toto e il brano Africa",
     "tema": [],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-17-043",

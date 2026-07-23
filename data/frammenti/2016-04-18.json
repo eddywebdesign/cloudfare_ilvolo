@@ -88,7 +88,8 @@
       "concerti"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-04-18-008",
@@ -168,7 +169,8 @@
       "citazione"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-04-18-015",
@@ -566,7 +568,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Eligio"
+    "autore": "Eligio",
+    "confermato_esterno": false
   },
   {
     "id": "2016-04-18-049",
@@ -591,7 +594,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "DJ Aladin"
+    "autore": "DJ Aladin",
+    "confermato_esterno": false
   },
   {
     "id": "2016-04-18-051",
@@ -605,7 +609,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "DJ Aladin"
+    "autore": "DJ Aladin",
+    "confermato_esterno": false
   },
   {
     "id": "2016-04-18-052",
@@ -844,7 +849,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Bob Dylan"
+    "autore": "Bob Dylan",
+    "confermato_esterno": false
   },
   {
     "id": "2016-04-18-072",
@@ -1018,6 +1024,7 @@
       "serie"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   }
 ]

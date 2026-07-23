@@ -143,7 +143,8 @@
       "registi"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-12-13-013",
@@ -399,7 +400,8 @@
       "emozioni"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-12-13-036",
@@ -735,7 +737,8 @@
       "passione"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-12-13-066",
@@ -761,7 +764,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Elisa"
+    "autore": "Elisa",
+    "confermato_esterno": true
   },
   {
     "id": "2016-12-13-068",
@@ -796,7 +800,8 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-12-13-071",
@@ -1139,7 +1144,8 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-12-13-102",

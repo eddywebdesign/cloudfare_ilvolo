@@ -251,7 +251,8 @@
       "citazione"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-11-28-022",
@@ -590,7 +591,8 @@
       "emozioni"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-11-28-052",
@@ -743,7 +745,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "James Taylor Watts"
+    "autore": "James Taylor Watts",
+    "confermato_esterno": true
   },
   {
     "id": "2016-11-28-065",

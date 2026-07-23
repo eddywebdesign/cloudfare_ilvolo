@@ -322,7 +322,8 @@
     "titolo": "Citazione album dei Baustelle",
     "tema": [],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-01-12-029",
@@ -851,7 +852,8 @@
     "titolo": "La scrittura di Gomorra la serie",
     "tema": [],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-01-12-076",

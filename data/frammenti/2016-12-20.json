@@ -407,7 +407,8 @@
       "letteratura"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-12-20-037",
@@ -701,7 +702,8 @@
     ],
     "tipo": "riferimento_film",
     "video_url": "",
-    "autore": "Paolo Villaggio"
+    "autore": "Paolo Villaggio",
+    "confermato_esterno": false
   },
   {
     "id": "2016-12-20-063",
@@ -1146,6 +1148,7 @@
       "fantozzi"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   }
 ]

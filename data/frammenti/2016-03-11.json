@@ -82,7 +82,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Maurizio"
+    "autore": "Maurizio",
+    "confermato_esterno": false
   },
   {
     "id": "2016-03-11-007",
@@ -96,7 +97,8 @@
       "concerto"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-03-11-008",
@@ -188,7 +190,8 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-03-11-015",
@@ -224,7 +227,8 @@
       "consegne"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-03-11-018",
@@ -379,7 +383,8 @@
       "café"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-03-11-031",
@@ -392,7 +397,8 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-03-11-032",
@@ -577,7 +583,8 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-03-11-047",
@@ -861,7 +868,8 @@
       "libro"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-03-11-069",
@@ -900,7 +908,8 @@
       "sessualità"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-03-11-072",
@@ -938,7 +947,8 @@
       "età"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-03-11-075",

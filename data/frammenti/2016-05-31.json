@@ -21,7 +21,8 @@
       "umorismo"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-31-002",
@@ -45,7 +46,8 @@
       "nome"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-31-004",
@@ -140,7 +142,8 @@
       "leggere"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-31-011",
@@ -154,7 +157,8 @@
       "lucio dalla"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-31-012",
@@ -204,7 +208,8 @@
       "luoghi"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-31-016",
@@ -243,7 +248,8 @@
       "produttività"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-31-019",
@@ -257,7 +263,8 @@
       "swing"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-31-020",
@@ -369,7 +376,8 @@
       "progetto"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-31-029",
@@ -626,7 +634,8 @@
       "emancipazione"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-31-050",
@@ -741,7 +750,8 @@
       "Kiss"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-31-059",
@@ -861,7 +871,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Fabio Volo"
+    "autore": "Fabio Volo",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-31-069",
@@ -898,7 +909,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Fabio Volo"
+    "autore": "Fabio Volo",
+    "confermato_esterno": true
   },
   {
     "id": "2016-05-31-072",
@@ -1000,7 +1012,8 @@
       "salumi"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-31-081",
@@ -1067,7 +1080,8 @@
       "infanzia"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-31-086",

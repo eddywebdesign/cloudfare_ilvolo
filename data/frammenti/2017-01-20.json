@@ -430,7 +430,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Vasco Rossi"
+    "autore": "Vasco Rossi",
+    "confermato_esterno": true
   },
   {
     "id": "2017-01-20-039",
@@ -653,7 +654,8 @@
       "relazioni"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-01-20-059",
@@ -909,7 +911,8 @@
       "swing"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-01-20-082",

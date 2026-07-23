@@ -179,7 +179,8 @@
       "comportamento"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-04-11-016",
@@ -452,7 +453,8 @@
       "album"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-04-11-039",
@@ -500,7 +502,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Piero Villaggio"
+    "autore": "Piero Villaggio",
+    "confermato_esterno": false
   },
   {
     "id": "2016-04-11-043",

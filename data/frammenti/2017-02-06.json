@@ -89,7 +89,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Chris Rea"
+    "autore": "Chris Rea",
+    "confermato_esterno": true
   },
   {
     "id": "2017-02-06-008",
@@ -247,7 +248,8 @@
     ],
     "tipo": "riferimento_film",
     "video_url": "",
-    "autore": "Damien Chazelle"
+    "autore": "Damien Chazelle",
+    "confermato_esterno": true
   },
   {
     "id": "2017-02-06-022",
@@ -316,7 +318,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Bruno Mars"
+    "autore": "Bruno Mars",
+    "confermato_esterno": true
   },
   {
     "id": "2017-02-06-028",
@@ -518,7 +521,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Paolo Cognetti"
+    "autore": "Paolo Cognetti",
+    "confermato_esterno": true
   },
   {
     "id": "2017-02-06-046",

@@ -12,7 +12,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Sly & The Family Stone"
+    "autore": "Sly & The Family Stone",
+    "confermato_esterno": true
   },
   {
     "id": "2016-11-17-001",
@@ -126,7 +127,8 @@
       "termini"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-11-17-010",
@@ -168,7 +170,8 @@
       "lavoro"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-11-17-013",
@@ -193,7 +196,8 @@
       "Brasile"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-11-17-015",
@@ -295,7 +299,8 @@
       "testo"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-11-17-024",
@@ -473,7 +478,8 @@
       "amore"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-11-17-039",
@@ -533,7 +539,8 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-11-17-044",
@@ -569,7 +576,8 @@
       "amici"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-11-17-047",

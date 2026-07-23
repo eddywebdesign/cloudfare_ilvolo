@@ -56,7 +56,8 @@
     ],
     "tipo": "riferimento_film",
     "video_url": "",
-    "autore": "Baz Luhrmann"
+    "autore": "Baz Luhrmann",
+    "confermato_esterno": false
   },
   {
     "id": "2017-03-01-005",
@@ -778,7 +779,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Twenty One Pilots"
+    "autore": "Twenty One Pilots",
+    "confermato_esterno": false
   },
   {
     "id": "2017-03-01-070",

@@ -298,7 +298,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Guido Tonelli"
+    "autore": "Guido Tonelli",
+    "confermato_esterno": false
   },
   {
     "id": "2017-02-24-027",
@@ -313,7 +314,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Lou Reed"
+    "autore": "Lou Reed",
+    "confermato_esterno": true
   },
   {
     "id": "2017-02-24-028",

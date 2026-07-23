@@ -299,7 +299,8 @@
       "agricoltura"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-04-026",
@@ -430,7 +431,8 @@
       "concerti"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-04-036",
@@ -497,7 +499,8 @@
       "Prince"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-04-041",
@@ -583,7 +586,8 @@
       "contatto"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-04-048",
@@ -597,7 +601,8 @@
       "politica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-04-049",
@@ -701,7 +706,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "ISEF"
+    "autore": "ISEF",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-04-057",
@@ -831,7 +837,8 @@
       "tradimento"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-04-067",
@@ -844,7 +851,8 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-04-068",

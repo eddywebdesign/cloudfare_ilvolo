@@ -71,7 +71,8 @@
       "cultura"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2014-05-09-006",
@@ -188,7 +189,8 @@
       "generi"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2014-05-09-015",
@@ -202,7 +204,8 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2014-05-09-016",
@@ -310,7 +313,8 @@
       "scelte"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2014-05-09-025",
@@ -375,7 +379,8 @@
       "Vasco Rossi"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2014-05-09-030",
@@ -509,7 +514,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Italo Calvino"
+    "autore": "Italo Calvino",
+    "confermato_esterno": false
   },
   {
     "id": "2014-05-09-041",
@@ -523,7 +529,8 @@
       "scoperta"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2014-05-09-042",
@@ -537,7 +544,8 @@
       "beneficenza"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2014-05-09-043",
@@ -551,7 +559,8 @@
       "relax"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2014-05-09-044",
@@ -565,7 +574,8 @@
       "beneficenza"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2014-05-09-045",
@@ -744,7 +754,8 @@
       "musica"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2014-05-09-059",
@@ -769,7 +780,8 @@
       "libro"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2014-05-09-061",
@@ -782,7 +794,8 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2014-05-09-062",

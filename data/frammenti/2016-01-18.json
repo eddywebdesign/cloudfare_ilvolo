@@ -36,7 +36,8 @@
       "Elisa"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-18-003",
@@ -50,7 +51,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Ministro Madia"
+    "autore": "Ministro Madia",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-18-004",
@@ -220,7 +222,8 @@
       "rock"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-18-017",
@@ -234,7 +237,8 @@
       "Chuck Berry"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-18-018",
@@ -332,7 +336,8 @@
       "sessualità"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-18-025",
@@ -374,7 +379,8 @@
       "critica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-18-028",
@@ -432,7 +438,8 @@
       "anni '90"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-18-033",
@@ -620,7 +627,8 @@
       "tradizione"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-18-049",
@@ -670,7 +678,8 @@
       "esperienza"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-18-053",
@@ -695,7 +704,8 @@
       "canzone"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-18-055",
@@ -709,7 +719,8 @@
       "canzoni"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-18-056",
@@ -872,7 +883,8 @@
       "programmi"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-18-070",
@@ -1010,6 +1022,7 @@
       "cinema"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   }
 ]

@@ -81,7 +81,8 @@
       "vita"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-11-30-007",
@@ -307,7 +308,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Bryan Adams"
+    "autore": "Bryan Adams",
+    "confermato_esterno": true
   },
   {
     "id": "2016-11-30-026",
@@ -417,7 +419,8 @@
       "viaggi"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-11-30-034",
@@ -630,7 +633,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Rag'n'Bone Man"
+    "autore": "Rag'n'Bone Man",
+    "confermato_esterno": true
   },
   {
     "id": "2016-11-30-053",
@@ -703,7 +707,8 @@
       "pink floyd"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-11-30-059",
@@ -718,7 +723,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Heather Parisi"
+    "autore": "Heather Parisi",
+    "confermato_esterno": true
   },
   {
     "id": "2016-11-30-060",
@@ -813,6 +819,7 @@
       "anni ottanta"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   }
 ]

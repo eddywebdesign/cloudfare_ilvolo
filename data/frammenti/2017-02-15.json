@@ -265,7 +265,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Max Gazzè"
+    "autore": "Max Gazzè",
+    "confermato_esterno": false
   },
   {
     "id": "2017-02-15-024",
@@ -279,7 +280,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Max Gazzè"
+    "autore": "Max Gazzè",
+    "confermato_esterno": false
   },
   {
     "id": "2017-02-15-025",
@@ -525,7 +527,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Backstreet Boys"
+    "autore": "Backstreet Boys",
+    "confermato_esterno": true
   },
   {
     "id": "2017-02-15-047",

@@ -69,7 +69,8 @@
       "complessità"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-10-26-006",
@@ -370,7 +371,8 @@
       "citazione"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-10-26-032",
@@ -384,7 +386,8 @@
       "paura"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-10-26-033",
@@ -421,7 +424,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Elisa"
+    "autore": "Elisa",
+    "confermato_esterno": false
   },
   {
     "id": "2016-10-26-036",

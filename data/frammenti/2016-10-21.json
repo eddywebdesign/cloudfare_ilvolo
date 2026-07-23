@@ -226,7 +226,8 @@
       "preferenze"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-10-21-020",
@@ -239,7 +240,8 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-10-21-021",
@@ -252,7 +254,8 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-10-21-022",
@@ -280,7 +283,8 @@
       "identità"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-10-21-024",
@@ -354,7 +358,8 @@
       "bibbia"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-10-21-030",
@@ -769,7 +774,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Paulo Coelho"
+    "autore": "Paulo Coelho",
+    "confermato_esterno": false
   },
   {
     "id": "2016-10-21-065",

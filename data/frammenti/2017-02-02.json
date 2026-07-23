@@ -23,7 +23,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Pearl Jam"
+    "autore": "Pearl Jam",
+    "confermato_esterno": false
   },
   {
     "id": "2017-02-02-002",
@@ -115,7 +116,8 @@
     ],
     "tipo": "riferimento_film",
     "video_url": "",
-    "autore": "Quentin Tarantino"
+    "autore": "Quentin Tarantino",
+    "confermato_esterno": false
   },
   {
     "id": "2017-02-02-010",
@@ -130,7 +132,8 @@
     ],
     "tipo": "riferimento_film",
     "video_url": "",
-    "autore": "Paolo Sorrentino"
+    "autore": "Paolo Sorrentino",
+    "confermato_esterno": false
   },
   {
     "id": "2017-02-02-011",
@@ -354,7 +357,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Lu Colombo"
+    "autore": "Lu Colombo",
+    "confermato_esterno": false
   },
   {
     "id": "2017-02-02-031",

@@ -33,7 +33,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "The Killers"
+    "autore": "The Killers",
+    "confermato_esterno": true
   },
   {
     "id": "2017-11-29-003",
@@ -106,7 +107,8 @@
     ],
     "tipo": "riferimento_film",
     "video_url": "",
-    "autore": "Francis Ford Coppola"
+    "autore": "Francis Ford Coppola",
+    "confermato_esterno": true
   },
   {
     "id": "2017-11-29-009",
@@ -882,7 +884,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Alitalia"
+    "autore": "Alitalia",
+    "confermato_esterno": true
   },
   {
     "id": "2017-11-29-079",
@@ -1475,7 +1478,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Jack Ma"
+    "autore": "Jack Ma",
+    "confermato_esterno": true
   },
   {
     "id": "2017-11-29-132",
@@ -1969,7 +1973,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Vasco Rossi"
+    "autore": "Vasco Rossi",
+    "confermato_esterno": false
   },
   {
     "id": "2017-11-29-176",
@@ -2028,7 +2033,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Guns N' Roses"
+    "autore": "Guns N' Roses",
+    "confermato_esterno": false
   },
   {
     "id": "2017-11-29-181",
@@ -2632,7 +2638,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "I'm just a showboat"
+    "autore": "I'm just a showboat",
+    "confermato_esterno": false
   },
   {
     "id": "2017-11-29-235",
@@ -2680,7 +2687,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Ambra"
+    "autore": "Ambra",
+    "confermato_esterno": false
   },
   {
     "id": "2017-11-29-239",

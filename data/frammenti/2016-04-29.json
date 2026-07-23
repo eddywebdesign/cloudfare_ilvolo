@@ -209,7 +209,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Otis Redding"
+    "autore": "Otis Redding",
+    "confermato_esterno": true
   },
   {
     "id": "2016-04-29-019",
@@ -394,7 +395,8 @@
       "famiglia"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-04-29-035",
@@ -408,7 +410,8 @@
       "famiglia"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-04-29-036",
@@ -483,7 +486,8 @@
       "famiglia"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-04-29-042",
@@ -522,7 +526,8 @@
       "famiglia"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-04-29-045",
@@ -638,7 +643,8 @@
       "viaggio"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-04-29-055",

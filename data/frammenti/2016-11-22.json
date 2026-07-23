@@ -68,7 +68,8 @@
     "titolo": "La strada è qualcosa",
     "tema": [],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-11-22-006",
@@ -126,7 +127,8 @@
     "titolo": "Il titolo fa su Diego Della Pina",
     "tema": [],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-11-22-011",
@@ -205,7 +207,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "William Makepeace Thackeray"
+    "autore": "William Makepeace Thackeray",
+    "confermato_esterno": true
   },
   {
     "id": "2016-11-22-017",
@@ -285,7 +288,8 @@
     "titolo": "Il bacio che una madre dà a un figlio",
     "tema": [],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-11-22-024",
@@ -307,7 +311,8 @@
     "titolo": "Trama del libro di Pacifico",
     "tema": [],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-11-22-026",
@@ -340,7 +345,8 @@
     "titolo": "Testo del brano Soli di Pacifico",
     "tema": [],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-11-22-029",
@@ -373,7 +379,8 @@
     "titolo": "Collaborazione tra Pacifico e Gianna Nannini",
     "tema": [],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-11-22-032",
@@ -553,7 +560,8 @@
     "titolo": "Evita",
     "tema": [],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true
   },
   {
     "id": "2016-11-22-047",
@@ -569,7 +577,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Evita"
+    "autore": "Evita",
+    "confermato_esterno": false
   },
   {
     "id": "2016-11-22-048",
@@ -580,7 +589,8 @@
     "titolo": "Il libro di Fabio Volo",
     "tema": [],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-11-22-049",
@@ -624,7 +634,8 @@
     "titolo": "Nick Drake",
     "tema": [],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-11-22-053",

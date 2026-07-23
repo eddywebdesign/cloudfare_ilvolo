@@ -55,7 +55,8 @@
       "Rihanna"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-10-005",
@@ -102,7 +103,8 @@
       "serie"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-10-009",
@@ -144,7 +146,8 @@
       "Firenze"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-10-012",
@@ -180,7 +183,8 @@
       "Julio Iglesias"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-10-015",
@@ -194,7 +198,8 @@
       "classico"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-10-016",
@@ -208,7 +213,8 @@
       "Patti Bravò"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-10-017",
@@ -233,7 +239,8 @@
       "ballare"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-10-019",
@@ -270,7 +277,8 @@
       "beneficenza"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-10-022",
@@ -284,7 +292,8 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-10-023",
@@ -298,7 +307,8 @@
       "emozioni"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-10-024",
@@ -340,7 +350,8 @@
       "libro"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-10-027",
@@ -365,7 +376,8 @@
       "ospite"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-10-029",
@@ -768,7 +780,8 @@
       "cucina"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-10-064",
@@ -783,7 +796,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Jordan Belfort"
+    "autore": "Jordan Belfort",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-10-065",
@@ -890,7 +904,8 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-10-074",
@@ -918,6 +933,7 @@
       "serie"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   }
 ]

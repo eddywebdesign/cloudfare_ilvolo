@@ -11,7 +11,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Radiohead"
+    "autore": "Radiohead",
+    "confermato_esterno": false
   },
   {
     "id": "2017-02-09-001",
@@ -445,7 +446,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Depeche Mode"
+    "autore": "Depeche Mode",
+    "confermato_esterno": false
   },
   {
     "id": "2017-02-09-040",

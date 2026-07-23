@@ -111,7 +111,8 @@
       "musica"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-11-23-010",
@@ -159,7 +160,8 @@
       "famiglia"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-11-23-014",
@@ -296,7 +298,8 @@
       "cassettina"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-11-23-025",
@@ -509,7 +512,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Faso"
+    "autore": "Faso",
+    "confermato_esterno": false
   },
   {
     "id": "2016-11-23-043",
@@ -680,7 +684,8 @@
       "canzone"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-11-23-056",

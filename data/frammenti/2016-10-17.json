@@ -100,7 +100,8 @@
       "letteratura"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-10-17-008",
@@ -125,7 +126,8 @@
       "gioia"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-10-17-010",
@@ -206,7 +208,8 @@
       "affari"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-10-17-016",
@@ -234,7 +237,8 @@
       "economia"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-10-17-018",
@@ -273,7 +277,8 @@
       "sentimenti"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-10-17-021",
@@ -313,7 +318,8 @@
       "gioventù"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-10-17-024",
@@ -339,7 +345,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Maurizio"
+    "autore": "Maurizio",
+    "confermato_esterno": false
   },
   {
     "id": "2016-10-17-026",
@@ -448,7 +455,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Pauud"
+    "autore": "Pauud",
+    "confermato_esterno": false
   },
   {
     "id": "2016-10-17-035",
@@ -721,7 +729,8 @@
       "scozia"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-10-17-059",
@@ -767,7 +776,8 @@
       "moda"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-10-17-063",

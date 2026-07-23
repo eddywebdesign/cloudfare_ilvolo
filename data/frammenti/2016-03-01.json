@@ -24,7 +24,8 @@
       "perdita"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-03-01-002",
@@ -59,7 +60,8 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-03-01-005",
@@ -337,7 +339,8 @@
       "diritti"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-03-01-026",
@@ -363,7 +366,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Goethe"
+    "autore": "Goethe",
+    "confermato_esterno": true
   },
   {
     "id": "2016-03-01-028",
@@ -471,7 +475,8 @@
       "nome"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-03-01-037",
@@ -763,7 +768,8 @@
       "inizio"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-03-01-060",
@@ -816,7 +822,8 @@
       "percezione"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true
   },
   {
     "id": "2016-03-01-064",
@@ -858,7 +865,8 @@
       "creazione"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-03-01-067",

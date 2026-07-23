@@ -45,7 +45,8 @@
       "conflitto"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-11-15-004",
@@ -103,7 +104,8 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-11-15-008",
@@ -310,7 +312,8 @@
       "canzoni"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-11-15-025",
@@ -325,7 +328,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Luciano"
+    "autore": "Luciano",
+    "confermato_esterno": false
   },
   {
     "id": "2016-11-15-026",
@@ -371,7 +375,8 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-11-15-030",
@@ -464,6 +469,7 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   }
 ]
