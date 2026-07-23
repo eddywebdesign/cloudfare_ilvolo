@@ -286,7 +286,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Iggy Pop"
+    "autore": "Iggy Pop",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/5c1d011e-16d7-4c34-a5d9-a3c3413c4fc8/front-250"
   },
   {
     "id": "2017-03-31-026",
@@ -458,7 +460,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Fabio Volo"
+    "autore": "Fabio Volo",
+    "confermato_esterno": false
   },
   {
     "id": "2017-03-31-041",
@@ -585,7 +588,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Fabrizio Ardito"
+    "autore": "Fabrizio Ardito",
+    "confermato_esterno": false
   },
   {
     "id": "2017-03-31-052",
@@ -611,7 +615,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Fabrizio Ardito"
+    "autore": "Fabrizio Ardito",
+    "confermato_esterno": false
   },
   {
     "id": "2017-03-31-054",
@@ -887,7 +892,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Gian Maria Testa"
+    "autore": "Gian Maria Testa",
+    "confermato_esterno": false
   },
   {
     "id": "2017-03-31-078",

@@ -165,7 +165,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Bob Marley"
+    "autore": "Bob Marley",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/96ed7dc7-5fa2-4875-b8c2-7a516b5d0d03/front-250"
   },
   {
     "id": "2018-03-08-015",
@@ -542,7 +544,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Fausto Coppi"
+    "autore": "Fausto Coppi",
+    "confermato_esterno": false
   },
   {
     "id": "2018-03-08-049",
@@ -1128,7 +1131,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Maurizio Viola"
+    "autore": "Maurizio Viola",
+    "confermato_esterno": false
   },
   {
     "id": "2018-03-08-102",

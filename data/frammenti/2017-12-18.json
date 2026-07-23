@@ -1898,7 +1898,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Frank Sinatra"
+    "autore": "Frank Sinatra",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/d52724d5-2e29-42b3-b7bf-be04e259b5ed/front-250"
   },
   {
     "id": "2017-12-18-171",

@@ -572,7 +572,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Michael Jackson"
+    "autore": "Michael Jackson",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/46d34681-ba9d-47c1-9370-7279d2fe107d/front-250"
   },
   {
     "id": "2018-02-28-052",
@@ -1338,7 +1340,8 @@
     ],
     "tipo": "riferimento_film",
     "video_url": "",
-    "autore": "Walt"
+    "autore": "Walt",
+    "confermato_esterno": false
   },
   {
     "id": "2018-02-28-121",
@@ -1583,7 +1586,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Vasco Rossi"
+    "autore": "Vasco Rossi",
+    "confermato_esterno": false
   },
   {
     "id": "2018-02-28-143",

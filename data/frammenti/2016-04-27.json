@@ -186,11 +186,14 @@
     "end": 560.13,
     "speaker_raw": "SPEAKER_20",
     "testo": "c'è solamente Daniele, quello di 26 anni quell'altro c'ha l'ultimo anno di ragioneria ah ok, bravo Daniele, sei proprio l'italiano quello lì bello, la moglie maestra te in officina, sembra un racconto di Italo Calvino allora tanti auguri a te e alla tua moglie e alla tua moglie e non vorriam sapere che succede dopo dopo la scena non vorriam sono cose vostre vabbè ciao Giuseppe grazie salutaci Daniele ciao ciao ciao sembrava di essere entrato in un racconto di Italo Calvino non vorriam eh?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "racconto di Italo Calvino",
+    "tema": [
+      "famiglia",
+      "lavoro"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": ""
+    "autore": "Italo Calvino"
   },
   {
     "id": "2016-04-27-016",
@@ -282,7 +285,8 @@
     ],
     "tipo": "riferimento_film",
     "video_url": "",
-    "autore": "Quentin Tarantino"
+    "autore": "Quentin Tarantino",
+    "confermato_esterno": false
   },
   {
     "id": "2016-04-27-024",
@@ -982,7 +986,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Celentano"
+    "autore": "Celentano",
+    "confermato_esterno": false
   },
   {
     "id": "2016-04-27-085",
@@ -997,7 +1002,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Domenico Modugno"
+    "autore": "Domenico Modugno",
+    "confermato_esterno": false
   },
   {
     "id": "2016-04-27-086",

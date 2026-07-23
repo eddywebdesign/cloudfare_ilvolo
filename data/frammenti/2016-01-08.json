@@ -109,7 +109,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Bob Dylan"
+    "autore": "Bob Dylan",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-08-009",
@@ -190,7 +191,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Sophie Tucker"
+    "autore": "Sophie Tucker",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-08-016",

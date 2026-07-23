@@ -166,7 +166,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Tears For Fear"
+    "autore": "Tears For Fear",
+    "confermato_esterno": false
   },
   {
     "id": "2017-06-01-015",
@@ -554,7 +555,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Stevie Wonder"
+    "autore": "Stevie Wonder",
+    "confermato_esterno": false
   },
   {
     "id": "2017-06-01-050",

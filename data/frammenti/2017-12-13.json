@@ -56,7 +56,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Blur"
+    "autore": "Blur",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/ebfaa89e-8c94-4698-9fac-386b286fa888/front-250"
   },
   {
     "id": "2017-12-13-005",
@@ -194,7 +196,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Max Pezzari"
+    "autore": "Max Pezzari",
+    "confermato_esterno": false
   },
   {
     "id": "2017-12-13-017",

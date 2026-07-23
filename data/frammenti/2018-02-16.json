@@ -669,7 +669,9 @@
     "tema": [],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Lana Del Rey"
+    "autore": "Lana Del Rey",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/d9cc68b0-7164-48ae-b6aa-be6a22f9361f/front-250"
   },
   {
     "id": "2018-02-16-061",
@@ -692,7 +694,8 @@
     "tema": [],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Queen"
+    "autore": "Queen",
+    "confermato_esterno": false
   },
   {
     "id": "2018-02-16-063",
@@ -1026,7 +1029,9 @@
     "tema": [],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Simon & Garfunkel"
+    "autore": "Simon & Garfunkel",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/9d2e4c88-6672-4cb6-bb40-e258761f8dde/front-250"
   },
   {
     "id": "2018-02-16-093",

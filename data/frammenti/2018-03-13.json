@@ -393,7 +393,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Dario Argento"
+    "autore": "Dario Argento",
+    "confermato_esterno": false
   },
   {
     "id": "2018-03-13-035",
@@ -640,7 +641,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Dario Algezzi"
+    "autore": "Dario Algezzi",
+    "confermato_esterno": false
   },
   {
     "id": "2018-03-13-057",
@@ -654,7 +656,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Ross Royce"
+    "autore": "Ross Royce",
+    "confermato_esterno": false
   },
   {
     "id": "2018-03-13-058",
@@ -734,7 +737,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Fabio Concato"
+    "autore": "Fabio Concato",
+    "confermato_esterno": false
   },
   {
     "id": "2018-03-13-065",
@@ -894,7 +898,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Truffaut"
+    "autore": "Truffaut",
+    "confermato_esterno": false
   },
   {
     "id": "2018-03-13-079",

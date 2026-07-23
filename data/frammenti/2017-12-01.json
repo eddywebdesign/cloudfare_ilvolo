@@ -302,7 +302,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Fabio Volo"
+    "autore": "Fabio Volo",
+    "confermato_esterno": false
   },
   {
     "id": "2017-12-01-027",
@@ -781,7 +782,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Pink Floyd"
+    "autore": "Pink Floyd",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/bc1cae19-0e04-4db1-a93e-17afe18d433b/front-250"
   },
   {
     "id": "2017-12-01-070",

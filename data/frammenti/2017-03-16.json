@@ -421,7 +421,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Valle Tantone"
+    "autore": "Valle Tantone",
+    "confermato_esterno": false
   },
   {
     "id": "2017-03-16-038",
@@ -635,7 +636,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Vasco Rossi"
+    "autore": "Vasco Rossi",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/84ee5dee-5f8f-4fbe-ae7f-8834651d64e2/front-250"
   },
   {
     "id": "2017-03-16-057",

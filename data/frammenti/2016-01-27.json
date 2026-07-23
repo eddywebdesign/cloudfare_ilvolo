@@ -548,7 +548,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Otis Redding"
+    "autore": "Otis Redding",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/52f7e5c1-45f4-4c84-ae5c-0c052208e705/front-250"
   },
   {
     "id": "2016-01-27-043",

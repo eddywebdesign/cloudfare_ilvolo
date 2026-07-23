@@ -504,7 +504,9 @@
     "tema": [],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Little Willie John"
+    "autore": "Little Willie John",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/33ba8428-f29d-4b2d-9a48-bd0491f0ace3/front-250"
   },
   {
     "id": "2017-11-28-046",
@@ -1046,7 +1048,8 @@
     ],
     "tipo": "riferimento_film",
     "video_url": "",
-    "autore": "Martin Sheen"
+    "autore": "Martin Sheen",
+    "confermato_esterno": false
   },
   {
     "id": "2017-11-28-095",
@@ -1403,7 +1406,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Freud"
+    "autore": "Freud",
+    "confermato_esterno": false
   },
   {
     "id": "2017-11-28-127",
@@ -1672,7 +1676,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "The Beatles"
+    "autore": "The Beatles",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/b3c84f5f-9e20-3cb6-b0e5-1b7252fa4883/front-250"
   },
   {
     "id": "2017-11-28-151",
@@ -1832,6 +1838,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Bob Dylan"
+    "autore": "Bob Dylan",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/4f5c5a7f-1349-48cb-b848-ed2bdb599638/front-250"
   }
 ]

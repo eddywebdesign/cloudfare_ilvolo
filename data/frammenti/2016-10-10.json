@@ -185,9 +185,12 @@
     "end": 876.8,
     "speaker_raw": "SPEAKER_10",
     "testo": "Sì, devo togliere la suoneria, ho una scena oggi a tavola, allora Luca mi scrive che tu lo conosci, va bene lasagne, cosce di pollo, insalata russa e formaggio?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "scena a tavola",
+    "tema": [
+      "famiglia",
+      "umorismo"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

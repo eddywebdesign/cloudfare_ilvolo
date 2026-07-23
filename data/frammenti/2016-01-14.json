@@ -137,7 +137,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Corriere della Sera"
+    "autore": "Corriere della Sera",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-14-011",
@@ -515,7 +516,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Duran Duran"
+    "autore": "Duran Duran",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/a8b30292-5b91-4db1-bb4c-b35729cf0e44/front-250"
   },
   {
     "id": "2016-01-14-040",

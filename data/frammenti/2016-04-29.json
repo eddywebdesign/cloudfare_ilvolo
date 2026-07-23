@@ -293,9 +293,12 @@
     "end": 1234.61,
     "speaker_raw": "SPEAKER_05",
     "testo": "comunque ho pagato io il bar e siccome sono un signore non lo voglio far pesare voglio che tutta l'Italia sappia che 11 euro 11 euro pagato 11 euro e 60 sì perché ho preso la macedonia mauro perché tu quando dici ragazzi pago io per il bar tutti vogliono la spremuta quando dice ognuno paga se spressino spremute di frutti che arrivano chissà da dove ananas mango",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Pagamento del bar",
+    "tema": [
+      "amicizia",
+      "spesa"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -362,9 +365,12 @@
     "end": 1485.15,
     "speaker_raw": "SPEAKER_05",
     "testo": "Ma lui l'hai mai incontrato? L'hai mai incontrato?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Incontro con Alberto Sordi",
+    "tema": [
+      "celebrità",
+      "incontro"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -410,9 +416,12 @@
     "end": 1523.2,
     "speaker_raw": "SPEAKER_05",
     "testo": "Ma tu hai fatto l'imitazione più strepitosa di Alberto Sordi, i bambini a quest'ora reposano, com'è che facevi?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Imitazione di Sordi",
+    "tema": [
+      "teatro",
+      "imitazione"
+    ],
+    "tipo": "citazione",
     "video_url": "",
     "autore": ""
   },
@@ -754,7 +763,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "P!nk"
+    "autore": "P!nk",
+    "confermato_esterno": false
   },
   {
     "id": "2016-04-29-065",

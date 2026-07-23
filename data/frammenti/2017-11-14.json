@@ -863,7 +863,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Ivano Fossati"
+    "autore": "Ivano Fossati",
+    "confermato_esterno": false
   },
   {
     "id": "2017-11-14-078",
@@ -967,7 +968,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Gershwin"
+    "autore": "Gershwin",
+    "confermato_esterno": false
   },
   {
     "id": "2017-11-14-087",

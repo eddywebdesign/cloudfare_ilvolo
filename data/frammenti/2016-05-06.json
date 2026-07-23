@@ -126,11 +126,13 @@
     "end": 511.82,
     "speaker_raw": "SPEAKER_15",
     "testo": "Prima di quel Sanremo lì c'è stato un momento dove tu hai capito che quella era la strada che dovevi battere? già anni prima era successo quando mi sono trasferito a Milano questo era la cosa che volevo fare dovevi andare avanti lì adesso è uscito questo libro appunto abbiamo detto grazie di cuore edito da Rizzoli abbiamo degli ascoltatori sicuramente no ormai è tutta una grande famiglia abbiamo inglobato tutto ok mettiamo dei dischi hai delle preferenze ti piacciono i ridocili peppe?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Grazie di Cuore",
+    "tema": [
+      "carriera"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": ""
+    "autore": "Eros Ramazzotti"
   },
   {
     "id": "2016-05-06-011",
@@ -1065,7 +1067,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Eros Ramazzotti"
+    "autore": "Eros Ramazzotti",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-06-089",

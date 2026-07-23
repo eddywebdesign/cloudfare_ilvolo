@@ -1034,7 +1034,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Franco Battiato"
+    "autore": "Franco Battiato",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/d1eb7ac7-73a2-4082-9586-1f3c440c7aba/front-250"
   },
   {
     "id": "2018-01-30-094",
@@ -1059,7 +1061,8 @@
     ],
     "tipo": "riferimento_film",
     "video_url": "",
-    "autore": "Jack Black"
+    "autore": "Jack Black",
+    "confermato_esterno": false
   },
   {
     "id": "2018-01-30-096",
@@ -1392,7 +1395,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Eric Clapton"
+    "autore": "Eric Clapton",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/6b09507c-059d-486a-ac2f-41127e47f245/front-250"
   },
   {
     "id": "2018-01-30-126",
@@ -1595,7 +1600,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Pablo Neruda"
+    "autore": "Pablo Neruda",
+    "confermato_esterno": false
   },
   {
     "id": "2018-01-30-144",

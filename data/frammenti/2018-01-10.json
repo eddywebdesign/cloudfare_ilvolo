@@ -33,7 +33,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Dido"
+    "autore": "Dido",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/127dda8f-c8b3-4738-ab09-23f5db35dd14/front-250"
   },
   {
     "id": "2018-01-10-003",
@@ -113,7 +115,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Dido"
+    "autore": "Dido",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/0094cf0e-b729-473e-a26f-96d4acc84e99/front-250"
   },
   {
     "id": "2018-01-10-010",
@@ -270,7 +274,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Oscar Wilde"
+    "autore": "Oscar Wilde",
+    "confermato_esterno": true
   },
   {
     "id": "2018-01-10-024",
@@ -1522,7 +1527,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Leonard Cohen"
+    "autore": "Leonard Cohen",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/745ce061-77be-4666-bdc1-75d9784a9531/front-250"
   },
   {
     "id": "2018-01-10-137",
@@ -1548,7 +1555,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Leonard Cohen"
+    "autore": "Leonard Cohen",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/b155e899-83ac-4d70-a320-57f45ebde2b6/front-250"
   },
   {
     "id": "2018-01-10-139",
@@ -1573,7 +1582,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "The Beatles"
+    "autore": "The Beatles",
+    "confermato_esterno": false
   },
   {
     "id": "2018-01-10-141",

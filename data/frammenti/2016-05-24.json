@@ -1097,11 +1097,13 @@
     "end": 2641.19,
     "speaker_raw": "SPEAKER_12",
     "testo": "è da capire non li vorresti neanche tu che ce li hai a volte i bambini urlanti ma non ci puoi fare niente va bene la Viola ti manderà una mail con un sacco di posti che adesso gliela giro va bene salutami i bambini crudisti grazie ciao Compliano di Bob Dylan, non ci siamo dimenticati.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Compliano di Bob Dylan",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": ""
+    "autore": "Bob Dylan"
   },
   {
     "id": "2016-05-24-089",

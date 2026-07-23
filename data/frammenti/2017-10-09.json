@@ -22,7 +22,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Bruce Springsteen"
+    "autore": "Bruce Springsteen",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/4bfe8d31-c3c1-49e2-9f75-0a5de8cf70d2/front-250"
   },
   {
     "id": "2017-10-09-002",
@@ -742,7 +744,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Sean Lennon"
+    "autore": "Sean Lennon",
+    "confermato_esterno": false
   },
   {
     "id": "2017-10-09-067",

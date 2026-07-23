@@ -1424,7 +1424,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Fabio Volo"
+    "autore": "Fabio Volo",
+    "confermato_esterno": false
   },
   {
     "id": "2017-11-30-129",
@@ -1519,7 +1520,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Francesco De Gregori"
+    "autore": "Francesco De Gregori",
+    "confermato_esterno": false
   },
   {
     "id": "2017-11-30-137",
@@ -1534,7 +1536,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Francesco De Gregori"
+    "autore": "Francesco De Gregori",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/45958c84-cf52-48af-9d4e-6d3d88e40140/front-250"
   },
   {
     "id": "2017-11-30-138",

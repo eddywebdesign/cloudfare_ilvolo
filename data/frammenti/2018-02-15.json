@@ -500,7 +500,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Rupi Kaur"
+    "autore": "Rupi Kaur",
+    "confermato_esterno": false
   },
   {
     "id": "2018-02-15-045",
@@ -536,7 +537,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Rupi Kaur"
+    "autore": "Rupi Kaur",
+    "confermato_esterno": false
   },
   {
     "id": "2018-02-15-048",

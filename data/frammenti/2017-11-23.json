@@ -167,7 +167,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "regione Lombardia"
+    "autore": "regione Lombardia",
+    "confermato_esterno": false
   },
   {
     "id": "2017-11-23-015",
@@ -218,7 +219,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Josh Ritter"
+    "autore": "Josh Ritter",
+    "confermato_esterno": false
   },
   {
     "id": "2017-11-23-019",

@@ -357,7 +357,8 @@
     ],
     "tipo": "riferimento_film",
     "video_url": "",
-    "autore": "Paolo Sorrentino"
+    "autore": "Paolo Sorrentino",
+    "confermato_esterno": false
   },
   {
     "id": "2017-01-27-032",
@@ -438,7 +439,8 @@
     ],
     "tipo": "riferimento_film",
     "video_url": "",
-    "autore": "Pieraccioni"
+    "autore": "Pieraccioni",
+    "confermato_esterno": false
   },
   {
     "id": "2017-01-27-039",

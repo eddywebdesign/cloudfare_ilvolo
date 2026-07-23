@@ -568,11 +568,14 @@
     "end": 1902.58,
     "speaker_raw": "SPEAKER_00",
     "testo": "come me la sono goduta questa canzone inaspettata così dei dubbi brothers dei dubbi brothers allora ragazzi vi do io anche un compito per le vacanze prima di chiudere questa stagione voglio riproporvi il famoso discorso che fece che è sempre difficile da dire il nome di sta ragazza eh vista signora Meryl Meryl Streep mh Sì Perché c'è chi la chiama Marilyn Strip Mary Strip Invece lei è Meryl Strip Esatto M-A-R-Y-L Sì Meryl Strip Ok Meryl Strip Amica di Wynonna Ryder Can you schweiz Uma turma Wynonna Ryder Kevin Schweiz Patrick Schweiz Patrick Schweiz Kevin McConnery Can you McConnery Can you McConnery Va bene, sentiamo questa che se avesse avuto un nome più facile avrebbe avuto più successo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "discorso di Meryl Streep",
+    "tema": [
+      "nome",
+      "pronuncia"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": ""
+    "autore": "Meryl Streep"
   },
   {
     "id": "2016-06-02-047",

@@ -23,7 +23,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Nick Drake"
+    "autore": "Nick Drake",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/42407ff2-18d8-443e-93b4-d35dcff893ee/front-250"
   },
   {
     "id": "2018-03-28-002",
@@ -611,7 +613,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Fabio Volo"
+    "autore": "Fabio Volo",
+    "confermato_esterno": false
   },
   {
     "id": "2018-03-28-055",
@@ -658,7 +661,9 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Fabio Volo"
+    "autore": "Fabio Volo",
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/8750316-M.jpg"
   },
   {
     "id": "2018-03-28-059",

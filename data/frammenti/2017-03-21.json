@@ -919,6 +919,8 @@
     ],
     "tipo": "riferimento_film",
     "video_url": "",
-    "autore": "Giovanni Veronesi"
+    "autore": "Giovanni Veronesi",
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/f79iGPjXyYks6Comz4c2nSMgnSA.jpg"
   }
 ]

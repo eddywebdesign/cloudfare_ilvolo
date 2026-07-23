@@ -243,7 +243,8 @@
     ],
     "tipo": "riferimento_film",
     "video_url": "",
-    "autore": "Nicole Kidman"
+    "autore": "Nicole Kidman",
+    "confermato_esterno": false
   },
   {
     "id": "2017-04-11-022",
@@ -302,7 +303,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Queen"
+    "autore": "Queen",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/bbb459c3-f053-456c-aced-972652d4f46c/front-250"
   },
   {
     "id": "2017-04-11-027",
@@ -382,7 +385,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Pink Floyd"
+    "autore": "Pink Floyd",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/2c422296-0296-4085-91a6-8a0babe6dae2/front-250"
   },
   {
     "id": "2017-04-11-034",
@@ -418,7 +423,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Pink Floyd"
+    "autore": "Pink Floyd",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/72747c3c-345c-4b44-84e9-4496a72f75df/front-250"
   },
   {
     "id": "2017-04-11-037",
@@ -788,7 +795,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Bill Gates"
+    "autore": "Bill Gates",
+    "confermato_esterno": false
   },
   {
     "id": "2017-04-11-070",
@@ -967,7 +975,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Van Morrison"
+    "autore": "Van Morrison",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/9b2fb6b7-5571-4ec1-86f4-f885071b0156/front-250"
   },
   {
     "id": "2017-04-11-086",
@@ -1025,7 +1035,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Michael Kiwanuka"
+    "autore": "Michael Kiwanuka",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/dba9da94-c71f-4152-ab2d-a713a7afdd2f/front-250"
   },
   {
     "id": "2017-04-11-091",

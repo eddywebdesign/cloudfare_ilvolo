@@ -850,7 +850,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Letizia Lianza"
+    "autore": "Letizia Lianza",
+    "confermato_esterno": false
   },
   {
     "id": "2018-02-13-077",
@@ -1687,7 +1688,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Fabrizio Moretti"
+    "autore": "Fabrizio Moretti",
+    "confermato_esterno": false
   },
   {
     "id": "2018-02-13-152",

@@ -121,7 +121,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "The Beatles"
+    "autore": "The Beatles",
+    "confermato_esterno": false
   },
   {
     "id": "2018-03-07-011",
@@ -379,7 +380,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Lessi"
+    "autore": "Lessi",
+    "confermato_esterno": false
   },
   {
     "id": "2018-03-07-034",
@@ -624,7 +626,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Fabio Volo"
+    "autore": "Fabio Volo",
+    "confermato_esterno": false
   },
   {
     "id": "2018-03-07-056",
@@ -773,7 +776,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Loredana Bertè"
+    "autore": "Loredana Bertè",
+    "confermato_esterno": false
   },
   {
     "id": "2018-03-07-069",
@@ -953,7 +957,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Dante Alighieri"
+    "autore": "Dante Alighieri",
+    "confermato_esterno": true
   },
   {
     "id": "2018-03-07-085",
@@ -990,7 +995,9 @@
     ],
     "tipo": "riferimento_film",
     "video_url": "",
-    "autore": "Paolo Streller"
+    "autore": "Paolo Streller",
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/8YJAXasmnkkXqoZwYyjOoAWwRm0.jpg"
   },
   {
     "id": "2018-03-07-088",

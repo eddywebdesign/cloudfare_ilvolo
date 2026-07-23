@@ -601,7 +601,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Raggino"
+    "autore": "Raggino",
+    "confermato_esterno": false
   },
   {
     "id": "2016-11-22-050",
@@ -615,7 +616,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Fabio Volo"
+    "autore": "Fabio Volo",
+    "confermato_esterno": false
   },
   {
     "id": "2016-11-22-051",

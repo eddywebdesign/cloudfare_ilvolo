@@ -1320,7 +1320,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Fabio Volo"
+    "autore": "Fabio Volo",
+    "confermato_esterno": false
   },
   {
     "id": "2017-12-07-120",
@@ -1587,7 +1588,9 @@
     ],
     "tipo": "riferimento_film",
     "video_url": "",
-    "autore": "Paolo Villaggio"
+    "autore": "Paolo Villaggio",
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/s4aiPMLsrjD2GIq6OxZ0J0RosYp.jpg"
   },
   {
     "id": "2017-12-07-144",
@@ -2099,7 +2102,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Fabio Volo"
+    "autore": "Fabio Volo",
+    "confermato_esterno": false
   },
   {
     "id": "2017-12-07-190",

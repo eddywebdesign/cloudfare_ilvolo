@@ -233,7 +233,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Benny Benassi"
+    "autore": "Benny Benassi",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/3e7cb4cd-84ae-40ae-a15f-31e01c08b81c/front-250"
   },
   {
     "id": "2018-01-15-021",

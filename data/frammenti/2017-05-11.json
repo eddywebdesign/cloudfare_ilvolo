@@ -121,7 +121,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "U2"
+    "autore": "U2",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/a95dc04e-eb3d-4f24-a68a-6877ac66851a/front-250"
   },
   {
     "id": "2017-05-11-011",

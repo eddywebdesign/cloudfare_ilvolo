@@ -377,10 +377,14 @@
     "end": 1305.61,
     "speaker_raw": "SPEAKER_04",
     "testo": "No, scherzo, no, assolutamente, cioè la energy è quel destino lì, deve per forza fare tantissimo, sono quelli che fanno, non so, dei registi che fanno un film ogni cinque anni, sono dei registi che fanno uno all'anno, non possono farne a meno, no? cioè c'è Kubrick e c'è come si chiama Woody Allen che devono per forza stralaborare c'è Fabio Volo per esempio io sono un high energy io faccio la serie, la radio, due figli, i libri tutto male però faccio tutto c'è una cosa che uno può vedere tranquillamente se è high energy o se è estroverso o introverso che questa qui è la parte principale high energy vuol dire estroverso",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "film di Kubrick e Woody Allen",
+    "tema": [
+      "lavoro",
+      "creatività"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Kubrick, Woody Allen"
   },
   {
     "id": "2016-04-07-031",

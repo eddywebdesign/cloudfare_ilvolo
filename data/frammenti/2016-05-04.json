@@ -422,9 +422,12 @@
     "end": 1531.12,
     "speaker_raw": "SPEAKER_07",
     "testo": "non ho visto il concerto dei Pink Floyd a Venezia in compenso ne avrò visti 40 di Vasco Rossi si? tra l'altro ecco Leo però è una cosa bella nel senso che prima da e poi da vado in camerino a salutarlo dopo che è proprio allora meniamo proprio lì posso dire ragazzi stamattina me la meno non solo io l'ho visto anche ad Amsterdam a un concerto ad Amsterdam e poi siamo andati in un coffee shop con lui non è vero non vi dico se abbiamo fumato o no perché non voglio tirare sono sicura che no aspetta non voglio infamare il video non voglio infamare non fare cattiva pubblicità fumava come fanno gli amici non voglio infamare il mio amico Vasco l'ho detto vabbè posso dire l'altra cosa che vorrei di quelle robe lì Roger Waters tutta la vita però anche con i morti tipo Nick Drake sui morti non ti possiamo aiutare vogliamo dire una cosa, intanto voglio dire a un ascoltatore che mi ha scritto invece mio papà al concerto di Pinfa Venezia mi ha portato ma questa mi fa molto dolore quella che sto per leggere adesso in terza media dopo aver fatto il record del collegio sugli 80 metri ai giochi scolastici ed essere arrivato secondo alla gara comunale ero pronto per la prova interregionale pronto, allenato consapevole nelle gambe della vittoria scusa l'età di questo? non c'è scritto l'età non l'ha segnato era per immaginarmi come una scusami collegio insomma pomeriggio e mia mamma non mi ha mandato perché il giorno dopo avevo il compito d'inglese e dovevo studiare Che lui se lo chiamo non lo parla neanche inglese, sicuro adesso. Quindi ha perso tutte e due le cose. Comunque è pieno di cose così, eh.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Concerto di Vasco Rossi a Venezia",
+    "tema": [
+      "musica",
+      "viaggio"
+    ],
+    "tipo": "aneddoto",
     "video_url": "",
     "autore": ""
   },
@@ -587,11 +590,14 @@
     "end": 2013.69,
     "speaker_raw": "SPEAKER_01",
     "testo": "Sì, io addirittura a Cristina Costanza mi sentirei di dedicare Miss Sarajevo degli U2 e di Pavarotti, perché oggi quello che accadde da Leppo, Fabio, è molto molto simile, se non peggiore, a quello che accadeva negli anni 90 in quella città.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Miss Sarajevo",
+    "tema": [
+      "guerra",
+      "pace"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": ""
+    "autore": "U2, Luciano Pavarotti"
   },
   {
     "id": "2016-05-04-049",

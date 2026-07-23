@@ -738,7 +738,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Bob Marley"
+    "autore": "Bob Marley",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/96ed7dc7-5fa2-4875-b8c2-7a516b5d0d03/front-250"
   },
   {
     "id": "2017-04-07-067",

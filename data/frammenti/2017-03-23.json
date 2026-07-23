@@ -286,7 +286,9 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Eric Fromm"
+    "autore": "Eric Fromm",
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/13803761-M.jpg"
   },
   {
     "id": "2017-03-23-026",
@@ -435,7 +437,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "professore"
+    "autore": "professore",
+    "confermato_esterno": false
   },
   {
     "id": "2017-03-23-039",

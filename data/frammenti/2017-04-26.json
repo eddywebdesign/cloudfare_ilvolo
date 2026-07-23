@@ -70,7 +70,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Giorgio Moroder"
+    "autore": "Giorgio Moroder",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/eb33e7cf-3659-4784-9aa9-7e28b93709b3/front-250"
   },
   {
     "id": "2017-04-26-006",
@@ -168,7 +170,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Piercy"
+    "autore": "Piercy",
+    "confermato_esterno": false
   },
   {
     "id": "2017-04-26-014",
@@ -347,7 +350,9 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Edmondo De Amicis"
+    "autore": "Edmondo De Amicis",
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/8242318-M.jpg"
   },
   {
     "id": "2017-04-26-030",
@@ -582,7 +587,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Fabio Volo"
+    "autore": "Fabio Volo",
+    "confermato_esterno": false
   },
   {
     "id": "2017-04-26-051",

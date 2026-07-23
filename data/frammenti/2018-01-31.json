@@ -287,7 +287,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Calista Floccarzi"
+    "autore": "Calista Floccarzi",
+    "confermato_esterno": false
   },
   {
     "id": "2018-01-31-026",
@@ -1221,7 +1222,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Zygmunt Bauman"
+    "autore": "Zygmunt Bauman",
+    "confermato_esterno": false
   },
   {
     "id": "2018-01-31-110",

@@ -1237,7 +1237,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Eminem"
+    "autore": "Eminem",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/84f06667-67b6-4c8b-a5b8-bbe81c7fed98/front-250"
   },
   {
     "id": "2017-11-17-112",
@@ -1550,7 +1552,9 @@
     ],
     "tipo": "riferimento_film",
     "video_url": "",
-    "autore": "Quentin Tarantino"
+    "autore": "Quentin Tarantino",
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/hOpN58hkQGZph5LHhyRrryy1hzF.jpg"
   },
   {
     "id": "2017-11-17-140",
@@ -1652,7 +1656,9 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Hermann Hesse"
+    "autore": "Hermann Hesse",
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/6562535-M.jpg"
   },
   {
     "id": "2017-11-17-149",

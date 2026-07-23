@@ -99,7 +99,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Little Walter"
+    "autore": "Little Walter",
+    "confermato_esterno": false
   },
   {
     "id": "2017-04-04-009",
@@ -810,7 +811,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Stefano Benemeglio Comunale"
+    "autore": "Stefano Benemeglio Comunale",
+    "confermato_esterno": false
   },
   {
     "id": "2017-04-04-073",
@@ -824,7 +826,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "sua Teresa di Calcutta"
+    "autore": "sua Teresa di Calcutta",
+    "confermato_esterno": false
   },
   {
     "id": "2017-04-04-074",

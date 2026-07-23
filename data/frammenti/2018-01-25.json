@@ -528,7 +528,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Jack White"
+    "autore": "Jack White",
+    "confermato_esterno": false
   },
   {
     "id": "2018-01-25-048",
@@ -542,7 +543,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Jack White"
+    "autore": "Jack White",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/5bade87d-26d4-4813-9328-a8c33ab97e29/front-250"
   },
   {
     "id": "2018-01-25-049",
@@ -725,7 +728,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "PSY"
+    "autore": "PSY",
+    "confermato_esterno": true
   },
   {
     "id": "2018-01-25-065",
@@ -1347,7 +1351,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Mondadori"
+    "autore": "Mondadori",
+    "confermato_esterno": false
   },
   {
     "id": "2018-01-25-121",

@@ -321,11 +321,14 @@
     "end": 1163.34,
     "speaker_raw": "SPEAKER_05",
     "testo": "questo è un po' l'effetto Bob Dylan e Dario Fo qui al volo del mattino abbiamo messo Dario Fo è venuto l'anno scorso a parlare del suo libro mettiamo Bob Dylan la settimana scorsa oggi tutti i fan di Bob Dylan e tutti che stimano Dario Fo appena muoiono tutti di pappo vedrai che sentirai questa canzone anche negli altri programmi comunque io sono a posto Maurizio Io sono troppo contento che noi ci ricordiamo dei grandi quando sono vivi.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "libro di Dario Fo",
+    "tema": [
+      "letteratura",
+      "cultura"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": ""
+    "autore": "Dario Fo"
   },
   {
     "id": "2016-10-14-029",
@@ -1074,9 +1077,12 @@
     "end": 2613.68,
     "speaker_raw": "SPEAKER_00",
     "testo": "hai una bella storiella sulla quale stai lavorando da tre anni? Hai un protagonista vincente? Forse c'è anche un ostacolo che devi superare? Una bella storiella in cantiere? Stai lavorando? Stai lavorando da un bel po' di tempo? Sì? Hai iniziato a parlarne tre anni fa? Sì! Un bel pezzo di narrativa, inizio, sviluppo e fine. Amici che diventano nemici, nemici che diventano amici, sì. Alla fine il tuo personaggio principale esce arricchito da questa esperienza, sì, sì. No, no, no, ti meriti del tempo libero.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Storia di tre anni",
+    "tema": [
+      "amicizia",
+      "narrativa"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

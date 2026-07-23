@@ -1052,7 +1052,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Karen Dalton"
+    "autore": "Karen Dalton",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/cf557a59-a02e-428a-9dc7-4d1ebc9a43f3/front-250"
   },
   {
     "id": "2018-01-12-095",
@@ -1265,7 +1267,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Friedrich Nietzsche"
+    "autore": "Friedrich Nietzsche",
+    "confermato_esterno": false
   },
   {
     "id": "2018-01-12-114",

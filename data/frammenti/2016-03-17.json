@@ -483,11 +483,14 @@
     "end": 1150.39,
     "speaker_raw": "SPEAKER_03",
     "testo": "mi stampo la membra ma scusa Nicola non è in linea chiamiamo un secondo Nicola questo è Proust è Proust che non riesce a staccarsi dalla ragazza Radio DJ sono Fabio Volo Fabio Volo ciao abbassa un secondo la radio Nicola ho spento senti allora qui c'è il professore che sa tutto mi hai detto stamattina come fa a sapere tutto Nicola?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "In Search of Lost Time",
+    "tema": [
+      "ricerca",
+      "tempo"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": ""
+    "autore": "Marcel Proust"
   },
   {
     "id": "2016-03-17-038",
@@ -630,7 +633,7 @@
     "testo": "... ... ... ... Grazie a tutti. Ciao!",
     "titolo": "",
     "tema": [],
-    "tipo": "",
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -655,9 +658,12 @@
     "end": 1687.01,
     "speaker_raw": "SPEAKER_01",
     "testo": "è tutta roba di coppia io se vuoi andiamo avanti con questa cosa intanto prendiamo lo spunto per parlare anche di miti perché è interessante ce n'è uno che stiamo dicendo prima che è bellissimo è un po' la situazione di quello lì tra l'altro",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Situazione di coppia",
+    "tema": [
+      "miti",
+      "relazioni"
+    ],
+    "tipo": "aneddoto",
     "video_url": "",
     "autore": ""
   },
@@ -716,7 +722,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Giovanni Verga"
+    "autore": "Giovanni Verga",
+    "confermato_esterno": false
   },
   {
     "id": "2016-03-17-056",
@@ -991,7 +998,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Liev Tolstoj"
+    "autore": "Liev Tolstoj",
+    "confermato_esterno": false
   },
   {
     "id": "2016-03-17-076",

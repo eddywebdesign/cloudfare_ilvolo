@@ -858,7 +858,9 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Fabio Volo"
+    "autore": "Fabio Volo",
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/14130595-M.jpg"
   },
   {
     "id": "2018-03-20-078",

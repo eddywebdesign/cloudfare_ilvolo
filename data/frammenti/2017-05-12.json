@@ -807,7 +807,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Bob Dylan"
+    "autore": "Bob Dylan",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/74871df8-4de7-48f7-a7f4-b6f154d81a0d/front-250"
   },
   {
     "id": "2017-05-12-073",
@@ -877,6 +879,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Michael Jackson"
+    "autore": "Michael Jackson",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/ffd697f0-343e-430e-bcf6-df7448a28913/front-250"
   }
 ]

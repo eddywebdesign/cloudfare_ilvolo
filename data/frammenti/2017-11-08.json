@@ -451,7 +451,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Otis Redding"
+    "autore": "Otis Redding",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/c24cdc66-ffdf-4d4c-91c7-9431caab2e2f/front-250"
   },
   {
     "id": "2017-11-08-041",
@@ -523,7 +525,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Imagine Dragons"
+    "autore": "Imagine Dragons",
+    "confermato_esterno": false
   },
   {
     "id": "2017-11-08-047",

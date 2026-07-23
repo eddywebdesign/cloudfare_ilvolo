@@ -807,11 +807,13 @@
     "end": 2181.27,
     "speaker_raw": "SPEAKER_01",
     "testo": "Centinaia e centinaia di versioni di questa canzone, Blue Sway Shoes, bellissime, bellissime tutte, perché è una canzone che sta in piedi da sola. Volevo dire che ogni volta che adesso sento un pezzo di Elvis Presley o comunque vedo quelle giacche, quelle cose di quegli occhiali giganti, penso sempre al film di Carlo Verdone, quando va, se non sbaglio, a Ostia. Dove c'è il raduno di tutti gli Elvis e dove lui sostiene di essere il figlio segreto di Elvis Presley perché la mamma lavorava in albergo dove Elvis è andato quando è passato da Roma e si porta la figlia dicendo che lei è praticamente la coppia gemella di Elvis Presley.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "film di Carlo Verdone con gli Elvi",
+    "tema": [
+      "imitazione"
+    ],
+    "tipo": "riferimento_film",
     "video_url": "",
-    "autore": ""
+    "autore": "Carlo Verdone"
   },
   {
     "id": "2016-06-01-067",
@@ -927,9 +929,12 @@
     "end": 2715.16,
     "speaker_raw": "SPEAKER_01",
     "testo": "Non è vero, no. io delle città è un capolavoro potremmo fare una puntata delle piccole vergogni i piccoli segreti di uno capito?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "piccoli segreti di una città",
+    "tema": [
+      "segreti",
+      "città"
+    ],
+    "tipo": "citazione",
     "video_url": "",
     "autore": ""
   },

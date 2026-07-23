@@ -1648,7 +1648,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Leonard Cohen"
+    "autore": "Leonard Cohen",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/827560d2-e82c-4dd0-91d6-1744008e61d1/front-250"
   },
   {
     "id": "2018-02-02-149",

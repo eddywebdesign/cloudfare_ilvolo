@@ -221,7 +221,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Fyodor Dostoevsky"
+    "autore": "Fyodor Dostoevsky",
+    "confermato_esterno": false
   },
   {
     "id": "2017-05-02-020",
@@ -279,7 +280,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "David Bowie"
+    "autore": "David Bowie",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/931cbf86-ca91-4e6d-bc60-23e92cab65c8/front-250"
   },
   {
     "id": "2017-05-02-025",
@@ -363,7 +366,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Fyodor Dostoevsky"
+    "autore": "Fyodor Dostoevsky",
+    "confermato_esterno": false
   },
   {
     "id": "2017-05-02-032",
@@ -378,7 +382,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Fyodor Dostoevsky"
+    "autore": "Fyodor Dostoevsky",
+    "confermato_esterno": false
   },
   {
     "id": "2017-05-02-033",
@@ -469,7 +474,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Bruno Rissas"
+    "autore": "Bruno Rissas",
+    "confermato_esterno": false
   },
   {
     "id": "2017-05-02-041",
@@ -812,6 +818,7 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Dostoievski"
+    "autore": "Dostoievski",
+    "confermato_esterno": false
   }
 ]

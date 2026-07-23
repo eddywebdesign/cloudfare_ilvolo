@@ -232,7 +232,8 @@
     ],
     "tipo": "riferimento_film",
     "video_url": "",
-    "autore": "Robert Flaherty"
+    "autore": "Robert Flaherty",
+    "confermato_esterno": false
   },
   {
     "id": "2017-05-17-021",
@@ -258,7 +259,8 @@
     ],
     "tipo": "riferimento_film",
     "video_url": "",
-    "autore": "Robert Flaherty"
+    "autore": "Robert Flaherty",
+    "confermato_esterno": false
   },
   {
     "id": "2017-05-17-023",
@@ -562,7 +564,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Arthur Schopenhauer"
+    "autore": "Arthur Schopenhauer",
+    "confermato_esterno": false
   },
   {
     "id": "2017-05-17-050",

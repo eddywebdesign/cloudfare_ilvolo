@@ -218,7 +218,9 @@
     "tema": [],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Green Day"
+    "autore": "Green Day",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/cde12028-d5a0-42c6-a056-c1872f70a063/front-250"
   },
   {
     "id": "2018-03-27-020",
@@ -230,7 +232,9 @@
     "tema": [],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Gipsy Kings"
+    "autore": "Gipsy Kings",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/12bed79b-2c66-4094-a585-db8615de1b99/front-250"
   },
   {
     "id": "2018-03-27-021",
@@ -948,7 +952,8 @@
     ],
     "tipo": "riferimento_film",
     "video_url": "",
-    "autore": "Quentin Tarantino"
+    "autore": "Quentin Tarantino",
+    "confermato_esterno": false
   },
   {
     "id": "2018-03-27-086",

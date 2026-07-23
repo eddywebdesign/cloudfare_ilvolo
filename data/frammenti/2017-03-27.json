@@ -55,7 +55,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Drake"
+    "autore": "Drake",
+    "confermato_esterno": false
   },
   {
     "id": "2017-03-27-005",
@@ -479,7 +480,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "John Lennon"
+    "autore": "John Lennon",
+    "confermato_esterno": false
   },
   {
     "id": "2017-03-27-043",
@@ -663,7 +665,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Lucio Dalla"
+    "autore": "Lucio Dalla",
+    "confermato_esterno": false
   },
   {
     "id": "2017-03-27-059",
@@ -732,7 +735,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Dante Alighieri"
+    "autore": "Dante Alighieri",
+    "confermato_esterno": true
   },
   {
     "id": "2017-03-27-065",

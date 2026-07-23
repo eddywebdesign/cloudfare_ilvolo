@@ -275,7 +275,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Red Hot Chili Peppers"
+    "autore": "Red Hot Chili Peppers",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/31486fcb-06d8-4986-916f-4f1cc622203a/front-250"
   },
   {
     "id": "2017-03-17-025",
@@ -751,7 +753,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Dante Alighieri"
+    "autore": "Dante Alighieri",
+    "confermato_esterno": false
   },
   {
     "id": "2017-03-17-068",

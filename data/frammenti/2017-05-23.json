@@ -22,7 +22,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Gianni Morandi"
+    "autore": "Gianni Morandi",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/27f2415e-58fd-4158-b40e-80de8082c981/front-250"
   },
   {
     "id": "2017-05-23-002",
@@ -653,7 +655,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Fabio Volo"
+    "autore": "Fabio Volo",
+    "confermato_esterno": false
   },
   {
     "id": "2017-05-23-058",
@@ -788,7 +791,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Fabio Volo"
+    "autore": "Fabio Volo",
+    "confermato_esterno": false
   },
   {
     "id": "2017-05-23-070",

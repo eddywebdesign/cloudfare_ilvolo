@@ -210,7 +210,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Totsufa"
+    "autore": "Totsufa",
+    "confermato_esterno": false
   },
   {
     "id": "2017-10-30-019",
@@ -334,7 +335,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Marie Kondo"
+    "autore": "Marie Kondo",
+    "confermato_esterno": false
   },
   {
     "id": "2017-10-30-030",

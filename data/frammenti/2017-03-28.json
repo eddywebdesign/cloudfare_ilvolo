@@ -55,7 +55,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Gabriel Garcia Marquez"
+    "autore": "Gabriel Garcia Marquez",
+    "confermato_esterno": false
   },
   {
     "id": "2017-03-28-005",
@@ -113,7 +114,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Terry Eagleton"
+    "autore": "Terry Eagleton",
+    "confermato_esterno": false
   },
   {
     "id": "2017-03-28-010",
@@ -140,7 +142,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Tom Jones"
+    "autore": "Tom Jones",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/f832d60f-17a9-4412-8b78-301d2592fc18/front-250"
   },
   {
     "id": "2017-03-28-012",

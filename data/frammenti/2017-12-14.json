@@ -341,7 +341,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "David Bowie"
+    "autore": "David Bowie",
+    "confermato_esterno": false
   },
   {
     "id": "2017-12-14-031",
@@ -578,7 +579,9 @@
     ],
     "tipo": "riferimento_film",
     "video_url": "",
-    "autore": "Omar Sy"
+    "autore": "Omar Sy",
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/faiaTsKo3nw7s6Q5V9nJ2m8UHf3.jpg"
   },
   {
     "id": "2017-12-14-052",

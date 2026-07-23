@@ -99,7 +99,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Lana Del Rey"
+    "autore": "Lana Del Rey",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/0c70552b-4af2-4cb1-b0ac-acf0f02136d4/front-250"
   },
   {
     "id": "2017-04-28-009",
@@ -113,7 +115,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "The Weeknd"
+    "autore": "The Weeknd",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/375c170b-c4be-4fda-94e1-4abd54e61e8f/front-250"
   },
   {
     "id": "2017-04-28-010",
@@ -182,7 +186,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Pink Floyd"
+    "autore": "Pink Floyd",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/ad5d27b8-2b87-4ce3-bfff-bd478da6ab34/front-250"
   },
   {
     "id": "2017-04-28-016",

@@ -22,7 +22,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "The Plain White T's"
+    "autore": "The Plain White T's",
+    "confermato_esterno": false
   },
   {
     "id": "2017-10-13-002",
@@ -190,7 +191,9 @@
     "tema": [],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "The Jackson 5"
+    "autore": "The Jackson 5",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/6214d3c8-02c2-40e2-8a8e-1280a1b64215/front-250"
   },
   {
     "id": "2017-10-13-017",
@@ -844,7 +847,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Franco Battiato"
+    "autore": "Franco Battiato",
+    "confermato_esterno": false
   },
   {
     "id": "2017-10-13-076",

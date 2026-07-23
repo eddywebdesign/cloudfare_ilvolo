@@ -723,6 +723,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "John Lennon"
+    "autore": "John Lennon",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/a6fef939-c7f4-4b33-94cf-89987a4a78c7/front-250"
   }
 ]

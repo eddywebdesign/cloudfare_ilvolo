@@ -231,7 +231,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Fabio Volo"
+    "autore": "Fabio Volo",
+    "confermato_esterno": false
   },
   {
     "id": "2017-10-19-021",
@@ -355,7 +356,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Paolo Sorrentino"
+    "autore": "Paolo Sorrentino",
+    "confermato_esterno": false
   },
   {
     "id": "2017-10-19-031",
@@ -525,7 +527,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Antonio Cabrini"
+    "autore": "Antonio Cabrini",
+    "confermato_esterno": false
   },
   {
     "id": "2017-10-19-046",
@@ -737,7 +740,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Nada"
+    "autore": "Nada",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/3fb6238d-ec61-462a-bdd2-1d4b40cf5560/front-250"
   },
   {
     "id": "2017-10-19-065",
@@ -840,7 +845,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Andrea Moro"
+    "autore": "Andrea Moro",
+    "confermato_esterno": false
   },
   {
     "id": "2017-10-19-074",

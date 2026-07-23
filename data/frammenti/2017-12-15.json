@@ -942,7 +942,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Ella Figgera"
+    "autore": "Ella Figgera",
+    "confermato_esterno": false
   },
   {
     "id": "2017-12-15-084",
@@ -1071,7 +1072,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Prof. Accinelli"
+    "autore": "Prof. Accinelli",
+    "confermato_esterno": false
   },
   {
     "id": "2017-12-15-095",
@@ -1559,7 +1561,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Ioanna"
+    "autore": "Ioanna",
+    "confermato_esterno": false
   },
   {
     "id": "2017-12-15-139",

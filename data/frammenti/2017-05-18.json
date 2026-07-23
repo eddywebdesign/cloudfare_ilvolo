@@ -11,7 +11,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Angus e Julia Stone"
+    "autore": "Angus e Julia Stone",
+    "confermato_esterno": false
   },
   {
     "id": "2017-05-18-001",
@@ -776,7 +777,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Ben Harper"
+    "autore": "Ben Harper",
+    "confermato_esterno": false
   },
   {
     "id": "2017-05-18-070",

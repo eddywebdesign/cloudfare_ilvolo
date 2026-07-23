@@ -520,7 +520,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Raiù"
+    "autore": "Raiù",
+    "confermato_esterno": false
   },
   {
     "id": "2017-11-10-047",
@@ -735,7 +736,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Fabio Volo"
+    "autore": "Fabio Volo",
+    "confermato_esterno": false
   },
   {
     "id": "2017-11-10-066",
@@ -916,7 +918,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Gabriel Garcia Marquez"
+    "autore": "Gabriel Garcia Marquez",
+    "confermato_esterno": false
   },
   {
     "id": "2017-11-10-082",

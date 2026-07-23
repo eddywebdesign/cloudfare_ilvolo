@@ -1,0 +1,3712 @@
+[
+  {
+    "id": "2016-01-07-019",
+    "file": "2016-01-07.json",
+    "categoria": "film",
+    "titolo": "Carlo Verdone",
+    "autore": "",
+    "punteggio": 0.619,
+    "match_trovato": "Buon compleanno Carlo Verdone! (2018)",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2016-01-08-016",
+    "file": "2016-01-08.json",
+    "categoria": "musica",
+    "titolo": "L'ukulele",
+    "autore": "",
+    "punteggio": 0.509,
+    "match_trovato": "Lukulele Perry — Phoebe Kreutz",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2016-01-14-045",
+    "file": "2016-01-14.json",
+    "categoria": "film",
+    "titolo": "film",
+    "autore": "",
+    "punteggio": 0.533,
+    "match_trovato": "A Serbian Film (2010)",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2016-01-15-023",
+    "file": "2016-01-15.json",
+    "categoria": "film",
+    "titolo": "Di Caprio",
+    "autore": "",
+    "punteggio": 0.533,
+    "match_trovato": "El Huemul de DiCaprio (2025)",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2016-01-15-027",
+    "file": "2016-01-15.json",
+    "categoria": "film",
+    "titolo": "cattivi",
+    "autore": "",
+    "punteggio": 0.667,
+    "match_trovato": "Troppo cattivi (2022)",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2016-01-15-072",
+    "file": "2016-01-15.json",
+    "categoria": "musica",
+    "titolo": "Pizzicato",
+    "autore": "",
+    "punteggio": 0.7,
+    "match_trovato": "Pizzicato — Djamel Ben Yelles",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2016-01-15-077",
+    "file": "2016-01-15.json",
+    "categoria": "musica",
+    "titolo": "Better Days citato",
+    "autore": "",
+    "punteggio": 0.531,
+    "match_trovato": "Better Days — Josh Joplin Band",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2016-01-20-028",
+    "file": "2016-01-20.json",
+    "categoria": "musica",
+    "titolo": "Citazione di Hotline Bling",
+    "autore": "",
+    "punteggio": 0.467,
+    "match_trovato": "Hotline Bling — Quinn Wolf",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2016-01-26-064",
+    "file": "2016-01-26.json",
+    "categoria": "musica",
+    "titolo": "500 Miles",
+    "autore": "",
+    "punteggio": 0.7,
+    "match_trovato": "500 Miles — Dan Kibler",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2016-01-27-040",
+    "file": "2016-01-27.json",
+    "categoria": "musica",
+    "titolo": "canzone The Dock of the Bay",
+    "autore": "",
+    "punteggio": 0.578,
+    "match_trovato": "The Dock of the Bay — Orbit 3",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2016-02-03-027",
+    "file": "2016-02-03.json",
+    "categoria": "film",
+    "titolo": "La casa di Charlie",
+    "autore": "",
+    "punteggio": 0.533,
+    "match_trovato": "Le notti bianche di Charlot (1915)",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2016-02-12-050",
+    "file": "2016-02-12.json",
+    "categoria": "musica",
+    "titolo": "canzone di Rich",
+    "autore": "",
+    "punteggio": 0.513,
+    "match_trovato": "Canzone di luna — Fernando Express",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2016-02-22-002",
+    "file": "2016-02-22.json",
+    "categoria": "musica",
+    "titolo": "Take Your Time di Sam Hunt",
+    "autore": "",
+    "punteggio": 0.49,
+    "match_trovato": "Take Your Time — Brian Culbertson",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2016-02-23-053",
+    "file": "2016-02-23.json",
+    "categoria": "musica",
+    "titolo": "Ancora tu di Lucio Battisti",
+    "autore": "Lucio Battisti",
+    "punteggio": 0.65,
+    "match_trovato": "Ancora tu — Lucio Battisti",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2016-02-26-063",
+    "file": "2016-02-26.json",
+    "categoria": "musica",
+    "titolo": "Canzone italiana",
+    "autore": "",
+    "punteggio": 0.7,
+    "match_trovato": "Canzone italiana — Angelo Fabiani",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2016-02-29-012",
+    "file": "2016-02-29.json",
+    "categoria": "film",
+    "titolo": "Oscar: Leonardo DiCaprio",
+    "autore": "",
+    "punteggio": 0.654,
+    "match_trovato": "Leonardo DiCaprio: Most Wanted! (2021)",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2016-03-02-053",
+    "file": "2016-03-02.json",
+    "categoria": "musica",
+    "titolo": "Non finirà mai",
+    "autore": "",
+    "punteggio": 0.583,
+    "match_trovato": "Finirà mai? — Wretched",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2016-03-16-018",
+    "file": "2016-03-16.json",
+    "categoria": "musica",
+    "titolo": "canzone di Maurizio",
+    "autore": "Maurizio",
+    "punteggio": 0.668,
+    "match_trovato": "Domina (Maurizio mix) — Maurizio",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2016-04-07-003",
+    "file": "2016-04-07.json",
+    "categoria": "musica",
+    "titolo": "Eric Clapton",
+    "autore": "",
+    "punteggio": 0.7,
+    "match_trovato": "Eric Clapton — John Valby",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2016-04-08-020",
+    "file": "2016-04-08.json",
+    "categoria": "film",
+    "titolo": "Charlie Sheen",
+    "autore": "",
+    "punteggio": 0.565,
+    "match_trovato": "Charlie Sheen's Stunts Spectacular (1994)",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2016-04-08-053",
+    "file": "2016-04-08.json",
+    "categoria": "musica",
+    "titolo": "Ringraziamento a Roberto Vecchioni",
+    "autore": "Roberto Vecchioni",
+    "punteggio": 0.471,
+    "match_trovato": "Luci a San Siro — Roberto Vecchioni",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2016-04-18-071",
+    "file": "2016-04-18.json",
+    "categoria": "musica",
+    "titolo": "Carriere artistiche e Bob Dylan",
+    "autore": "Bob Dylan",
+    "punteggio": 0.615,
+    "match_trovato": "Bob Dylan — Bob Dylan",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2016-04-21-003",
+    "file": "2016-04-21.json",
+    "categoria": "musica",
+    "titolo": "Good Morning Life",
+    "autore": "",
+    "punteggio": 0.7,
+    "match_trovato": "Good Morning Life — Banzai",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2016-04-21-023",
+    "file": "2016-04-21.json",
+    "categoria": "musica",
+    "titolo": "La canzone di Ferradini e la censura",
+    "autore": "Marco Ferradini",
+    "punteggio": 0.625,
+    "match_trovato": "Sul ponte di Messina — Marco Ferradini",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2016-05-02-054",
+    "file": "2016-05-02.json",
+    "categoria": "musica",
+    "titolo": "Can't Help Falling in Love",
+    "autore": "",
+    "punteggio": 0.7,
+    "match_trovato": "Cant Help Falling in Love — Pete „Wyoming“ Bender",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2016-05-06-090",
+    "file": "2016-05-06.json",
+    "categoria": "libro",
+    "titolo": "un libro",
+    "autore": "Eros Ramazzotti",
+    "punteggio": 0.509,
+    "match_trovato": "Un libro sucio — Eduardo del Llano",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2016-05-18-022",
+    "file": "2016-05-18.json",
+    "categoria": "musica",
+    "titolo": "Brown eyes",
+    "autore": "",
+    "punteggio": 0.7,
+    "match_trovato": "Brown Eyes — Siavash Shams",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2016-05-18-024",
+    "file": "2016-05-18.json",
+    "categoria": "musica",
+    "titolo": "One night stand",
+    "autore": "",
+    "punteggio": 0.592,
+    "match_trovato": "Night Stand — Scrounge",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2016-05-20-016",
+    "file": "2016-05-20.json",
+    "categoria": "musica",
+    "titolo": "Vespa",
+    "autore": "",
+    "punteggio": 0.7,
+    "match_trovato": "Vespa — Buio Pesto",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2016-05-24-030",
+    "file": "2016-05-24.json",
+    "categoria": "film",
+    "titolo": "New York",
+    "autore": "",
+    "punteggio": 0.696,
+    "match_trovato": "Una pazza giornata a New York (2004)",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2016-05-31-068",
+    "file": "2016-05-31.json",
+    "categoria": "libro",
+    "titolo": "cartoni animati",
+    "autore": "Fabio Volo",
+    "punteggio": 0.5,
+    "match_trovato": "I Cartoni Animati Piu' Amati — Selena ROMANO",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2016-06-01-068",
+    "file": "2016-06-01.json",
+    "categoria": "film",
+    "titolo": "Verdone",
+    "autore": "Ettore Scola",
+    "punteggio": 0.483,
+    "match_trovato": "Bianco, rosso e Verdone (1981)",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2016-09-26-063",
+    "file": "2016-09-26.json",
+    "categoria": "libro",
+    "titolo": "Belen",
+    "autore": "nome non specificato",
+    "punteggio": 0.56,
+    "match_trovato": "Belén — ",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2016-09-28-056",
+    "file": "2016-09-28.json",
+    "categoria": "musica",
+    "titolo": "Testo di Bruciare per te",
+    "autore": "",
+    "punteggio": 0.538,
+    "match_trovato": "Bruciare per te — Elisa",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2016-09-28-061",
+    "file": "2016-09-28.json",
+    "categoria": "musica",
+    "titolo": "Bruciare per te",
+    "autore": "",
+    "punteggio": 0.7,
+    "match_trovato": "Bruciare per te — Elisa",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2016-10-04-002",
+    "file": "2016-10-04.json",
+    "categoria": "musica",
+    "titolo": "un disco del 2010",
+    "autore": "",
+    "punteggio": 0.535,
+    "match_trovato": "Un disco del Fary — Un pingüino en mi ascensor",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2016-10-07-001",
+    "file": "2016-10-07.json",
+    "categoria": "musica",
+    "titolo": "Citazione del brano Californication dei Red Hot Chili Peppers",
+    "autore": "",
+    "punteggio": 0.529,
+    "match_trovato": "Californication (Red Hot Chili Peppers) — Стары Ольса",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2016-10-10-063",
+    "file": "2016-10-10.json",
+    "categoria": "musica",
+    "titolo": "Rag'n'Bone Man - Human",
+    "autore": "",
+    "punteggio": 0.506,
+    "match_trovato": "CRYING MAN - HUMAN — Sound Ideas",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2016-10-12-054",
+    "file": "2016-10-12.json",
+    "categoria": "musica",
+    "titolo": "musica pop europea e americana",
+    "autore": "",
+    "punteggio": 0.487,
+    "match_trovato": "Musica Americana — Kid Creole and the Coconuts",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2016-10-31-003",
+    "file": "2016-10-31.json",
+    "categoria": "musica",
+    "titolo": "Human dei Rag'n'Bone Man",
+    "autore": "Rag'n'Bone Man",
+    "punteggio": 0.559,
+    "match_trovato": "Human — Rag’n’Bone Man",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2016-11-16-036",
+    "file": "2016-11-16.json",
+    "categoria": "musica",
+    "titolo": "Teresa di Max Gazzè",
+    "autore": "Max Gazzè",
+    "punteggio": 0.636,
+    "match_trovato": "Teresa — Max Gazzè",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2016-12-05-021",
+    "file": "2016-12-05.json",
+    "categoria": "musica",
+    "titolo": "Ascolto dei Pearl Jam",
+    "autore": "Pearl Jam",
+    "punteggio": 0.714,
+    "match_trovato": "Leaving Here - Pearl Jam — Pearl Jam",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2016-12-06-038",
+    "file": "2016-12-06.json",
+    "categoria": "libro",
+    "titolo": "Michael",
+    "autore": "nome proprio",
+    "punteggio": 0.544,
+    "match_trovato": "Michael Vey — Richard Paul Evans",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2016-12-08-034",
+    "file": "2016-12-08.json",
+    "categoria": "musica",
+    "titolo": "Disco",
+    "autore": "Linus",
+    "punteggio": 0.588,
+    "match_trovato": "Giant Disco — DJ Linus",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2016-12-19-047",
+    "file": "2016-12-19.json",
+    "categoria": "musica",
+    "titolo": "Mariah Carey e i ricordi di Natale",
+    "autore": "Mariah Carey",
+    "punteggio": 0.617,
+    "match_trovato": "Honey - Mariah Carey — Mariah Carey",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2017-01-31-074",
+    "file": "2017-01-31.json",
+    "categoria": "musica",
+    "titolo": "Il gatto e la volpe o canzoni sul gatto",
+    "autore": "Angelo Branduardi",
+    "punteggio": 0.538,
+    "match_trovato": "La volpe — Angelo Branduardi",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2017-02-02-001",
+    "file": "2017-02-02.json",
+    "categoria": "musica",
+    "titolo": "Evenflow dei Pearl Jam",
+    "autore": "Pearl Jam",
+    "punteggio": 0.673,
+    "match_trovato": "Evenflow — Pearl Jam",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2017-02-02-030",
+    "file": "2017-02-02.json",
+    "categoria": "musica",
+    "titolo": "Canzone Maracaibo alla festa",
+    "autore": "Lu Colombo",
+    "punteggio": 0.689,
+    "match_trovato": "Maracaibo (original version) — Lu Colombo",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2017-02-07-006",
+    "file": "2017-02-07.json",
+    "categoria": "musica",
+    "titolo": "Compleanno di Vasco Rossi",
+    "autore": "Vasco Rossi",
+    "punteggio": 0.716,
+    "match_trovato": "“Blasco” Rossi — Vasco Rossi",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2017-02-07-011",
+    "file": "2017-02-07.json",
+    "categoria": "musica",
+    "titolo": "Ascoltare i Placebo a 14 anni",
+    "autore": "Placebo",
+    "punteggio": 0.623,
+    "match_trovato": "Black‐Eyed (Placebo vs. Le Vibrator mix) — Placebo",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2017-02-07-012",
+    "file": "2017-02-07.json",
+    "categoria": "musica",
+    "titolo": "Il video dei Placebo sul palazzo",
+    "autore": "Placebo",
+    "punteggio": 0.642,
+    "match_trovato": "Soulmates Never Die - Placebo Live in Paris (DVD Trailer) — Placebo",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2017-02-08-070",
+    "file": "2017-02-08.json",
+    "categoria": "musica",
+    "titolo": "While I'm Here",
+    "autore": "Trent Reznor",
+    "punteggio": 0.677,
+    "match_trovato": "While Waiting — Trent Reznor, Atticus Ross",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2017-02-09-000",
+    "file": "2017-02-09.json",
+    "categoria": "musica",
+    "titolo": "High & Dry dei Radiohead",
+    "autore": "Radiohead",
+    "punteggio": 0.694,
+    "match_trovato": "High & Dry — Radiohead",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2017-02-09-039",
+    "file": "2017-02-09.json",
+    "categoria": "musica",
+    "titolo": "L'influenza sonora dei Depeche Mode",
+    "autore": "Depeche Mode",
+    "punteggio": 0.668,
+    "match_trovato": "80’s Heroes: Depeche Mode — Depeche Mode",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2017-02-15-023",
+    "file": "2017-02-15.json",
+    "categoria": "musica",
+    "titolo": "Canzoni dedicate a Teresa",
+    "autore": "Max Gazzè",
+    "punteggio": 0.571,
+    "match_trovato": "Teresa — Max Gazzè",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2017-02-15-024",
+    "file": "2017-02-15.json",
+    "categoria": "musica",
+    "titolo": "Teresa di Max Gazzè",
+    "autore": "Max Gazzè",
+    "punteggio": 0.636,
+    "match_trovato": "Teresa — Max Gazzè",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2017-02-20-067",
+    "file": "2017-02-20.json",
+    "categoria": "musica",
+    "titolo": "A Girl Like You",
+    "autore": "Neil Diamond",
+    "punteggio": 0.638,
+    "match_trovato": "Act Like a Man — Neil Diamond",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2017-02-27-021",
+    "file": "2017-02-27.json",
+    "categoria": "musica",
+    "titolo": "Are You Gonna Be My Girl",
+    "autore": "The Jets",
+    "punteggio": 0.588,
+    "match_trovato": "Paper Girl — The Jets",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2017-03-01-069",
+    "file": "2017-03-01.json",
+    "categoria": "musica",
+    "titolo": "HeavyDirtySoul dei Twenty One Pilots",
+    "autore": "Twenty One Pilots",
+    "punteggio": 0.692,
+    "match_trovato": "Heavydirtysoul — twenty one pilots",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2017-11-29-180",
+    "file": "2017-11-29.json",
+    "categoria": "musica",
+    "titolo": "La Guerra dei Guns N'Roses",
+    "autore": "Guns N' Roses",
+    "punteggio": 0.642,
+    "match_trovato": "Guns n' Roses Megamix — Guns N’ Roses",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2017-12-19-049",
+    "file": "2017-12-19.json",
+    "categoria": "musica",
+    "titolo": "At Last di Etta James",
+    "autore": "Etta James",
+    "punteggio": 0.65,
+    "match_trovato": "At Last — Etta James",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2020-01-06-066",
+    "file": "2020-01-06.json",
+    "categoria": "film",
+    "titolo": "Albano",
+    "autore": "",
+    "punteggio": 0.571,
+    "match_trovato": "Albano Brothers (1962)",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2026-01-08-010",
+    "file": "2026-01-08.json",
+    "categoria": "musica",
+    "titolo": "mettiamo un disco",
+    "autore": "",
+    "punteggio": 0.452,
+    "match_trovato": "Pones Un Disco — Singapur",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2014-05-07-015",
+    "file": "2014-05-07.json",
+    "categoria": "libro",
+    "titolo": "opere di Chekhov",
+    "autore": "Anton Chéjov",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2014-05-15-058",
+    "file": "2014-05-15.json",
+    "categoria": "film",
+    "titolo": "film Nicole Kidman Tom Cruise",
+    "autore": "Stanley Kubrick",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2016-01-07-056",
+    "file": "2016-01-07.json",
+    "categoria": "libro",
+    "titolo": "poesia di Neruda",
+    "autore": "Pablo Neruda",
+    "punteggio": 0.546,
+    "match_trovato": "La poesia di Pablo Neruda — Giuseppe Bellini",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2016-01-07-077",
+    "file": "2016-01-07.json",
+    "categoria": "film",
+    "titolo": "discorso di Capodanno Natalino Balasso",
+    "autore": "Natalino Balasso",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2016-01-08-008",
+    "file": "2016-01-08.json",
+    "categoria": "musica",
+    "titolo": "Free Willy di Bob Dylan",
+    "autore": "Bob Dylan",
+    "punteggio": 0.694,
+    "match_trovato": "Bob Dylan — Bob Dylan",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2016-01-08-015",
+    "file": "2016-01-08.json",
+    "categoria": "musica",
+    "titolo": "Drinky Drinky di Sophie Tucker",
+    "autore": "Sophie Tucker",
+    "punteggio": 0.59,
+    "match_trovato": "Selection of Sophie Tucker’s Songs (From ‘Follow A Star’) — Sophie Tucker, Jack Hulbert",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2016-01-11-019",
+    "file": "2016-01-11.json",
+    "categoria": "musica",
+    "titolo": "L'Uomo delle Stelle",
+    "autore": "David Bowie",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2016-01-11-090",
+    "file": "2016-01-11.json",
+    "categoria": "libro",
+    "titolo": "cantata anarchica",
+    "autore": "Luigi De Andrè",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2016-01-12-090",
+    "file": "2016-01-12.json",
+    "categoria": "libro",
+    "titolo": "libro del Papa",
+    "autore": "Andrea Tornielli",
+    "punteggio": 0.338,
+    "match_trovato": "Libro Da Colorare Festa Del Papà per Bambini — patri cia",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2016-01-13-026",
+    "file": "2016-01-13.json",
+    "categoria": "musica",
+    "titolo": "Les Jeux Sans Visage",
+    "autore": "Perry Lister",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2016-01-14-010",
+    "file": "2016-01-14.json",
+    "categoria": "libro",
+    "titolo": "intervista ad Andrea Pirlo",
+    "autore": "Corriere della Sera",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2016-01-15-035",
+    "file": "2016-01-15.json",
+    "categoria": "musica",
+    "titolo": "Jack Garrett Worry",
+    "autore": "Jack Garrett",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2016-01-21-037",
+    "file": "2016-01-21.json",
+    "categoria": "libro",
+    "titolo": "Leggenda di San Giorgio",
+    "autore": "Dante Alighieri",
+    "punteggio": 0.44,
+    "match_trovato": "Leggenda Di San Giorgio — Giacomo Zanoni, Nicoletta Martirano [titolo reale ma nessun autore trovato somiglia a 'Dante Alighieri': attribuzione probabilmente sbagliata]",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2016-01-28-015",
+    "file": "2016-01-28.json",
+    "categoria": "musica",
+    "titolo": "Have a Nice Day",
+    "autore": "Stereo MC's",
+    "punteggio": 0.55,
+    "match_trovato": "I’m a Believer — Stereo MC’s",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2016-02-01-109",
+    "file": "2016-02-01.json",
+    "categoria": "musica",
+    "titolo": "Goody Two Shoes di Adam Antler",
+    "autore": "Adam Antler",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2016-02-03-008",
+    "file": "2016-02-03.json",
+    "categoria": "film",
+    "titolo": "film di Tarantino",
+    "autore": "Quentin Tarantino",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2016-02-05-000",
+    "file": "2016-02-05.json",
+    "categoria": "musica",
+    "titolo": "One Don't You Shut Your Eyes",
+    "autore": "Radio DJ",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2016-02-08-041",
+    "file": "2016-02-08.json",
+    "categoria": "musica",
+    "titolo": "Shock of course",
+    "autore": "U2",
+    "punteggio": 0.686,
+    "match_trovato": "Out of Control — U2",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2016-02-09-036",
+    "file": "2016-02-09.json",
+    "categoria": "libro",
+    "titolo": "un titolo dei miei",
+    "autore": "Fabio Volo",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2016-02-22-017",
+    "file": "2016-02-22.json",
+    "categoria": "musica",
+    "titolo": "Black Hole 5.0",
+    "autore": "Arthur Jeffs",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2016-02-23-020",
+    "file": "2016-02-23.json",
+    "categoria": "film",
+    "titolo": "9 vite",
+    "autore": "Rodrigo Garcia",
+    "punteggio": 0.571,
+    "match_trovato": "9 vite da donna (2005)",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2016-02-26-077",
+    "file": "2016-02-26.json",
+    "categoria": "musica",
+    "titolo": "Fallo Fallo",
+    "autore": "Mario Biondi",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2016-03-01-029",
+    "file": "2016-03-01.json",
+    "categoria": "libro",
+    "titolo": "Il diario di Werther",
+    "autore": "Johann Wolfgang von Goethe",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2016-03-17-055",
+    "file": "2016-03-17.json",
+    "categoria": "libro",
+    "titolo": "Naccarenina",
+    "autore": "Giovanni Verga",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2016-03-17-075",
+    "file": "2016-03-17.json",
+    "categoria": "libro",
+    "titolo": "Anna Karenina",
+    "autore": "Liev Tolstoj",
+    "punteggio": 0.44,
+    "match_trovato": "Anna Karenina — Louise Maude [titolo reale ma nessun autore trovato somiglia a 'Liev Tolstoj': attribuzione probabilmente sbagliata]",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2016-03-24-038",
+    "file": "2016-03-24.json",
+    "categoria": "film",
+    "titolo": "Partita 4",
+    "autore": "Ernst Lubitsch",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2016-04-07-032",
+    "file": "2016-04-07.json",
+    "categoria": "libro",
+    "titolo": "Analisi di Jung",
+    "autore": "Carl Gustav Jung",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2016-04-13-006",
+    "file": "2016-04-13.json",
+    "categoria": "musica",
+    "titolo": "Pink Floyd al Madison Square Garden",
+    "autore": "Gilmore",
+    "punteggio": 0.379,
+    "match_trovato": "Square Bimagic — Patricia Brennan, Mauricio Herrera",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2016-04-15-032",
+    "file": "2016-04-15.json",
+    "categoria": "musica",
+    "titolo": "I'll Carry You Through the Night",
+    "autore": "James Blunt",
+    "punteggio": 0.704,
+    "match_trovato": "Carry You Home — James Blunt",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2016-04-19-058",
+    "file": "2016-04-19.json",
+    "categoria": "musica",
+    "titolo": "Lost in Devotion",
+    "autore": "Jack Gioselli",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2016-04-19-060",
+    "file": "2016-04-19.json",
+    "categoria": "musica",
+    "titolo": "The End",
+    "autore": "Jack Gioselli",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2016-04-21-024",
+    "file": "2016-04-21.json",
+    "categoria": "libro",
+    "titolo": "L'amore non sa",
+    "autore": "Gianna Schelotto",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2016-04-21-061",
+    "file": "2016-04-21.json",
+    "categoria": "libro",
+    "titolo": "guru dell'amore",
+    "autore": "Marco Ferradini",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2016-04-22-019",
+    "file": "2016-04-22.json",
+    "categoria": "film",
+    "titolo": "Home documentario",
+    "autore": "Luc Besson",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2016-04-26-062",
+    "file": "2016-04-26.json",
+    "categoria": "musica",
+    "titolo": "Semeni",
+    "autore": "Gramm",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2016-04-27-023",
+    "file": "2016-04-27.json",
+    "categoria": "film",
+    "titolo": "Macete di Tarantino",
+    "autore": "Quentin Tarantino",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2016-04-27-084",
+    "file": "2016-04-27.json",
+    "categoria": "musica",
+    "titolo": "Valotation",
+    "autore": "Celentano",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2016-04-27-085",
+    "file": "2016-04-27.json",
+    "categoria": "musica",
+    "titolo": "Celentano fa ballare",
+    "autore": "Domenico Modugno",
+    "punteggio": 0.529,
+    "match_trovato": "Come si fa a non volerti bene — Domenico Modugno",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2016-04-29-064",
+    "file": "2016-04-29.json",
+    "categoria": "musica",
+    "titolo": "Let Me Go",
+    "autore": "P!nk",
+    "punteggio": 0.715,
+    "match_trovato": "Don’t Let Me Get Me — P!nk",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2016-05-06-088",
+    "file": "2016-05-06.json",
+    "categoria": "musica",
+    "titolo": "dischi di Eros",
+    "autore": "Eros Ramazzotti",
+    "punteggio": 0.706,
+    "match_trovato": "Occhi di speranza — Eros Ramazzotti",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2016-05-12-056",
+    "file": "2016-05-12.json",
+    "categoria": "libro",
+    "titolo": "Guerra e Pace",
+    "autore": "Lev Tolstoj",
+    "punteggio": 0.44,
+    "match_trovato": "Guerra e Pace — Federigo Verdinois, Tolstoy, Leo, graf, 1828-1910 [titolo reale ma nessun autore trovato somiglia a 'Lev Tolstoj': attribuzione probabilmente sbagliata]",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2016-05-13-023",
+    "file": "2016-05-13.json",
+    "categoria": "libro",
+    "titolo": "Salirò fra le rose",
+    "autore": "Maurizio",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2016-09-27-017",
+    "file": "2016-09-27.json",
+    "categoria": "musica",
+    "titolo": "nuovo singolo dei Passengers",
+    "autore": "Passengers",
+    "punteggio": 0.586,
+    "match_trovato": "Passengers for Mexico — Passengers",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2016-10-04-031",
+    "file": "2016-10-04.json",
+    "categoria": "musica",
+    "titolo": "Nothing's Fine",
+    "autore": "Linkin Park",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2016-10-06-081",
+    "file": "2016-10-06.json",
+    "categoria": "musica",
+    "titolo": "Keep Cudi Futuring",
+    "autore": "Pharrell",
+    "punteggio": 0.616,
+    "match_trovato": "Keep It Playa — Pharrell, Slim Thug",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2016-10-27-048",
+    "file": "2016-10-27.json",
+    "categoria": "musica",
+    "titolo": "I Can't Take My Eyes Off You",
+    "autore": "Bob Crewe & Bob Gaudio",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2016-11-02-037",
+    "file": "2016-11-02.json",
+    "categoria": "musica",
+    "titolo": "If It Makes You Feel Good",
+    "autore": "Willie Nelson",
+    "punteggio": 0.614,
+    "match_trovato": "If It’s Wrong to Love You — Willie Nelson",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2016-11-08-041",
+    "file": "2016-11-08.json",
+    "categoria": "libro",
+    "titolo": "Dolore della perdita",
+    "autore": "maestro",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2016-11-11-002",
+    "file": "2016-11-11.json",
+    "categoria": "film",
+    "titolo": "film con Dean Martin",
+    "autore": "Steve Martin",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2016-11-17-046",
+    "file": "2016-11-17.json",
+    "categoria": "musica",
+    "titolo": "album in macchina insieme",
+    "autore": "Jeff Buckley",
+    "punteggio": 0.533,
+    "match_trovato": "Back in N.Y.C. — Jeff Buckley",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2016-11-22-049",
+    "file": "2016-11-22.json",
+    "categoria": "musica",
+    "titolo": "Belle canzoni",
+    "autore": "Raggino",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2016-11-22-050",
+    "file": "2016-11-22.json",
+    "categoria": "libro",
+    "titolo": "Due volte",
+    "autore": "Fabio Volo",
+    "punteggio": 0.548,
+    "match_trovato": "Nati due volte — Giuseppe Pontiggia",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2016-11-29-002",
+    "file": "2016-11-29.json",
+    "categoria": "musica",
+    "titolo": "Parting Like a Russian",
+    "autore": "Ravi Williams",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2016-12-05-032",
+    "file": "2016-12-05.json",
+    "categoria": "musica",
+    "titolo": "Where the Moon Glows in Your Hair",
+    "autore": "Sia",
+    "punteggio": 0.598,
+    "match_trovato": "Where I Belong — Sia",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2016-12-09-013",
+    "file": "2016-12-09.json",
+    "categoria": "musica",
+    "titolo": "canzone New York Times",
+    "autore": "Margaret Claxpy",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2016-12-12-032",
+    "file": "2016-12-12.json",
+    "categoria": "libro",
+    "titolo": "poesia di Carducci",
+    "autore": "Giosuè Carducci",
+    "punteggio": 0.548,
+    "match_trovato": "La poesia di Giosuè Carducci — Cesare Federico Goffis",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2016-12-19-039",
+    "file": "2016-12-19.json",
+    "categoria": "musica",
+    "titolo": "Somewhere Anywhere",
+    "autore": "Claudiman",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2016-12-20-030",
+    "file": "2016-12-20.json",
+    "categoria": "musica",
+    "titolo": "It's Been So Lonely Without You Here",
+    "autore": "Breathless",
+    "punteggio": 0.713,
+    "match_trovato": "The Same Rooms Without You — Breathless",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2016-12-20-045",
+    "file": "2016-12-20.json",
+    "categoria": "libro",
+    "titolo": "audiolibro Paolo Villaggio",
+    "autore": "Paolo Villaggio",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2016-12-20-064",
+    "file": "2016-12-20.json",
+    "categoria": "musica",
+    "titolo": "Canzone di Gregori",
+    "autore": "Gregori",
+    "punteggio": 0.496,
+    "match_trovato": "Francesco De Gregori - Genera — Francesco De Gregori",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2016-12-20-095",
+    "file": "2016-12-20.json",
+    "categoria": "film",
+    "titolo": "Bob Wilson regista teatro",
+    "autore": "Bob Wilson",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-01-11-049",
+    "file": "2017-01-11.json",
+    "categoria": "libro",
+    "titolo": "trasposizione di Obama",
+    "autore": "ascoltatore",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-01-12-043",
+    "file": "2017-01-12.json",
+    "categoria": "libro",
+    "titolo": "l'apparenza dei bambini",
+    "autore": "Paolo Sorrentino",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-01-12-046",
+    "file": "2017-01-12.json",
+    "categoria": "libro",
+    "titolo": "Accademia Nobel",
+    "autore": "Nobel Prize Committee",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-01-20-028",
+    "file": "2017-01-20.json",
+    "categoria": "musica",
+    "titolo": "I thought we would last",
+    "autore": "The Smiths",
+    "punteggio": 0.608,
+    "match_trovato": "I Started Something I Couldn’t Finish — The Smiths",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2017-01-27-031",
+    "file": "2017-01-27.json",
+    "categoria": "film",
+    "titolo": "La sciarpa che si perde",
+    "autore": "Paolo Sorrentino",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-01-27-038",
+    "file": "2017-01-27.json",
+    "categoria": "film",
+    "titolo": "Arrivo alla stazione",
+    "autore": "Pieraccioni",
+    "punteggio": 0.606,
+    "match_trovato": "L'arrivo di un treno alla stazione di La Ciotat (1896)",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2017-01-31-052",
+    "file": "2017-01-31.json",
+    "categoria": "libro",
+    "titolo": "Cresima a Pavona",
+    "autore": "Don Stefano",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-02-06-018",
+    "file": "2017-02-06.json",
+    "categoria": "musica",
+    "titolo": "Don't You Cry",
+    "autore": "The Eagles",
+    "punteggio": 0.571,
+    "match_trovato": "Tryin’ to Get to You — The Eagles",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2017-02-07-069",
+    "file": "2017-02-07.json",
+    "categoria": "musica",
+    "titolo": "capolavoro assoluto di Vasco Rossi",
+    "autore": "Vasco Rossi",
+    "punteggio": 0.635,
+    "match_trovato": "'Blasco' Rossi — Vasco Rossi",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2017-02-08-044",
+    "file": "2017-02-08.json",
+    "categoria": "musica",
+    "titolo": "Battisti capolavoro",
+    "autore": "Pino Daniele",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-02-10-085",
+    "file": "2017-02-10.json",
+    "categoria": "musica",
+    "titolo": "Elastica pom pom pom",
+    "autore": "Elastica",
+    "punteggio": 0.611,
+    "match_trovato": "How He Wrote Elastica Man — Elastica",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2017-02-13-063",
+    "file": "2017-02-13.json",
+    "categoria": "musica",
+    "titolo": "I never thought",
+    "autore": "The Beatles",
+    "punteggio": 0.62,
+    "match_trovato": "Tomorrow Never Knows — The Beatles",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2017-02-16-069",
+    "file": "2017-02-16.json",
+    "categoria": "musica",
+    "titolo": "Intoxicated",
+    "autore": "Adele",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-02-17-025",
+    "file": "2017-02-17.json",
+    "categoria": "musica",
+    "titolo": "Be Mine",
+    "autore": "Offenbach",
+    "punteggio": 0.465,
+    "match_trovato": "Be-Bop-A-Lula — Offenbach",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2017-02-21-029",
+    "file": "2017-02-21.json",
+    "categoria": "musica",
+    "titolo": "Il conforto",
+    "autore": "Radio DeeJay",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-02-24-013",
+    "file": "2017-02-24.json",
+    "categoria": "libro",
+    "titolo": "libro di Guido Tonelli",
+    "autore": "Guido Tonelli",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-02-28-078",
+    "file": "2017-02-28.json",
+    "categoria": "musica",
+    "titolo": "Play the Song",
+    "autore": "Train",
+    "punteggio": 0.715,
+    "match_trovato": "The Lemon Song — Train",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2017-03-01-030",
+    "file": "2017-03-01.json",
+    "categoria": "film",
+    "titolo": "spettacolo al buio",
+    "autore": "Daniel Pagnac",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-03-02-015",
+    "file": "2017-03-02.json",
+    "categoria": "musica",
+    "titolo": "She's a Kind of Friend",
+    "autore": "Ray Charles",
+    "punteggio": 0.704,
+    "match_trovato": "What Kind of Man Are You — Ray Charles",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2017-03-06-057",
+    "file": "2017-03-06.json",
+    "categoria": "musica",
+    "titolo": "Por la tarde y por la noche",
+    "autore": "El sueño de ti",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-03-08-046",
+    "file": "2017-03-08.json",
+    "categoria": "musica",
+    "titolo": "Il Conforto",
+    "autore": "Tiziano Ferro e Carmen Consoli",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-03-13-001",
+    "file": "2017-03-13.json",
+    "categoria": "musica",
+    "titolo": "Restless di Louis Berry",
+    "autore": "Louis Berry",
+    "punteggio": 0.661,
+    "match_trovato": "Restless — Louis Berry",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2017-03-14-007",
+    "file": "2017-03-14.json",
+    "categoria": "libro",
+    "titolo": "album di franco battiato",
+    "autore": "franco battiato",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-03-14-010",
+    "file": "2017-03-14.json",
+    "categoria": "libro",
+    "titolo": "il silenzio",
+    "autore": "esploratore norvegese",
+    "punteggio": 0.497,
+    "match_trovato": "Il silenzio dell'onda — Gianrico Carofiglio",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2017-03-14-074",
+    "file": "2017-03-14.json",
+    "categoria": "musica",
+    "titolo": "Sarà che piove da luglio",
+    "autore": "Tiziano Ferro",
+    "punteggio": 0.618,
+    "match_trovato": "Le cose che non dici — Tiziano Ferro",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2017-03-15-060",
+    "file": "2017-03-15.json",
+    "categoria": "musica",
+    "titolo": "A House Is A Home",
+    "autore": "Jacob Dylan",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-03-16-037",
+    "file": "2017-03-16.json",
+    "categoria": "libro",
+    "titolo": "Hotel delle Rane d'Oro",
+    "autore": "Valle Tantone",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-03-17-067",
+    "file": "2017-03-17.json",
+    "categoria": "libro",
+    "titolo": "Dante legge Volo",
+    "autore": "Dante Alighieri",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-03-23-038",
+    "file": "2017-03-23.json",
+    "categoria": "libro",
+    "titolo": "libro del professore",
+    "autore": "professore",
+    "punteggio": 0.44,
+    "match_trovato": "Libro Del Professore 3 — Amelia Cepollaro [titolo reale ma nessun autore trovato somiglia a 'professore': attribuzione probabilmente sbagliata]",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-03-27-004",
+    "file": "2017-03-27.json",
+    "categoria": "musica",
+    "titolo": "Passion Fruit",
+    "autore": "Drake",
+    "punteggio": 0.454,
+    "match_trovato": "Fruit Tree — Nick Drake",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2017-03-27-042",
+    "file": "2017-03-27.json",
+    "categoria": "musica",
+    "titolo": "Restless Baby",
+    "autore": "John Lennon",
+    "punteggio": 0.665,
+    "match_trovato": "Maybe Baby — John Lennon",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2017-03-27-058",
+    "file": "2017-03-27.json",
+    "categoria": "musica",
+    "titolo": "vinile lucio dalla",
+    "autore": "Lucio Dalla",
+    "punteggio": 0.65,
+    "match_trovato": "Lucio dove vai — Lucio Dalla",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2017-03-28-004",
+    "file": "2017-03-28.json",
+    "categoria": "libro",
+    "titolo": "Cento anni di solitudine",
+    "autore": "Gabriel Garcia Marquez",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-03-28-009",
+    "file": "2017-03-28.json",
+    "categoria": "libro",
+    "titolo": "Speranza senza ottimismo",
+    "autore": "Terry Eagleton",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-03-31-040",
+    "file": "2017-03-31.json",
+    "categoria": "libro",
+    "titolo": "viaggiare senza soldi",
+    "autore": "Fabio Volo",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-03-31-051",
+    "file": "2017-03-31.json",
+    "categoria": "libro",
+    "titolo": "Come sopravvivere al cammino di Santiago",
+    "autore": "Fabrizio Ardito",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-03-31-053",
+    "file": "2017-03-31.json",
+    "categoria": "libro",
+    "titolo": "Consigli per il Cammino di Santiago",
+    "autore": "Fabrizio Ardito",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-03-31-077",
+    "file": "2017-03-31.json",
+    "categoria": "musica",
+    "titolo": "Album di Gian Maria Testa",
+    "autore": "Gian Maria Testa",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-04-04-008",
+    "file": "2017-04-04.json",
+    "categoria": "musica",
+    "titolo": "capolavoro di Little Walter",
+    "autore": "Little Walter",
+    "punteggio": 0.51,
+    "match_trovato": "Walter's Blues — Little Walter",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2017-04-04-072",
+    "file": "2017-04-04.json",
+    "categoria": "libro",
+    "titolo": "Madre Teresa di Calcutta",
+    "autore": "Stefano Benemeglio Comunale",
+    "punteggio": 0.44,
+    "match_trovato": "Madre Teresa di Calcutta — Mario V. Pucci [titolo reale ma nessun autore trovato somiglia a 'Stefano Benemeglio Comunale': attribuzione probabilmente sbagliata]",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-04-04-073",
+    "file": "2017-04-04.json",
+    "categoria": "libro",
+    "titolo": "Studi sulle emozioni",
+    "autore": "sua Teresa di Calcutta",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-04-05-026",
+    "file": "2017-04-05.json",
+    "categoria": "libro",
+    "titolo": "La Pietà di Michelangelo",
+    "autore": "Michelangelo Buonarroti",
+    "punteggio": 0.579,
+    "match_trovato": "La Pietà di Michelangelo a Firenze — Jack Wasserman",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2017-04-10-043",
+    "file": "2017-04-10.json",
+    "categoria": "libro",
+    "titolo": "Poesia di Maurizio",
+    "autore": "Maurizio",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-04-10-046",
+    "file": "2017-04-10.json",
+    "categoria": "musica",
+    "titolo": "Canzone di De Andrè",
+    "autore": "Luigi Veronelli",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-04-11-021",
+    "file": "2017-04-11.json",
+    "categoria": "film",
+    "titolo": "Big Little Lies",
+    "autore": "Nicole Kidman",
+    "punteggio": 0.326,
+    "match_trovato": "Piccoli segreti, grandi bugie (2016)",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-04-11-069",
+    "file": "2017-04-11.json",
+    "categoria": "libro",
+    "titolo": "Non lasciare tutto ai figli",
+    "autore": "Bill Gates",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-04-13-020",
+    "file": "2017-04-13.json",
+    "categoria": "libro",
+    "titolo": "simboli primavera",
+    "autore": "Fabio Fazio",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-04-13-037",
+    "file": "2017-04-13.json",
+    "categoria": "musica",
+    "titolo": "Rimanete qua",
+    "autore": "Tiro Mancino",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-04-13-040",
+    "file": "2017-04-13.json",
+    "categoria": "libro",
+    "titolo": "poesia di Leopardi",
+    "autore": "Giacomo Leopardi",
+    "punteggio": 0.536,
+    "match_trovato": "La poesia di Giacomo Leopardi — Tito Lucrezio Rizzo",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2017-04-13-042",
+    "file": "2017-04-13.json",
+    "categoria": "libro",
+    "titolo": "Cedi la strada agli alberi",
+    "autore": "Chiare Lettere",
+    "punteggio": 0.44,
+    "match_trovato": "Cedi la strada agli alberi — Franco Arminio [titolo reale ma nessun autore trovato somiglia a 'Chiare Lettere': attribuzione probabilmente sbagliata]",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-04-26-013",
+    "file": "2017-04-26.json",
+    "categoria": "libro",
+    "titolo": "Lo Zene della Manutenzione Motocicletta",
+    "autore": "Piercy",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-04-26-050",
+    "file": "2017-04-26.json",
+    "categoria": "libro",
+    "titolo": "quando si prova a scalare una montagna",
+    "autore": "Fabio Volo",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-04-27-088",
+    "file": "2017-04-27.json",
+    "categoria": "libro",
+    "titolo": "Abramo e Isacco",
+    "autore": "Bibbia",
+    "punteggio": 0.44,
+    "match_trovato": "Abramo e Isacco — Feo Belcari [titolo reale ma nessun autore trovato somiglia a 'Bibbia': attribuzione probabilmente sbagliata]",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-05-02-019",
+    "file": "2017-05-02.json",
+    "categoria": "libro",
+    "titolo": "L'Idiota",
+    "autore": "Fyodor Dostoevsky",
+    "punteggio": 0.44,
+    "match_trovato": "L'idiota — Фёдор Михайлович Достоевский [titolo reale ma nessun autore trovato somiglia a 'Fyodor Dostoevsky': attribuzione probabilmente sbagliata]",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-05-02-031",
+    "file": "2017-05-02.json",
+    "categoria": "libro",
+    "titolo": "L'Idiot di Dostoevskij",
+    "autore": "Fyodor Dostoevsky",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-05-02-032",
+    "file": "2017-05-02.json",
+    "categoria": "libro",
+    "titolo": "Bellezza e salvezza",
+    "autore": "Fyodor Dostoevsky",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-05-02-040",
+    "file": "2017-05-02.json",
+    "categoria": "libro",
+    "titolo": "La Mezza Mila",
+    "autore": "Bruno Rissas",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-05-02-070",
+    "file": "2017-05-02.json",
+    "categoria": "libro",
+    "titolo": "coraggio di essere idiota",
+    "autore": "Dostoievski",
+    "punteggio": 0.44,
+    "match_trovato": "Il coraggio di essere idiota — Igor Sibaldi [titolo reale ma nessun autore trovato somiglia a 'Dostoievski': attribuzione probabilmente sbagliata]",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-05-03-024",
+    "file": "2017-05-03.json",
+    "categoria": "musica",
+    "titolo": "I Can Hear It Now",
+    "autore": "Annie Lennox",
+    "punteggio": 0.7,
+    "match_trovato": "I Can Dream, Can’t I? — Annie Lennox",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2017-05-03-027",
+    "file": "2017-05-03.json",
+    "categoria": "libro",
+    "titolo": "libro di Fabio Volo",
+    "autore": "Fabio Volo",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-05-03-041",
+    "file": "2017-05-03.json",
+    "categoria": "film",
+    "titolo": "squalo a bocca aperta",
+    "autore": "Damien Hirst",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-05-03-045",
+    "file": "2017-05-03.json",
+    "categoria": "film",
+    "titolo": "Luna Park del fake",
+    "autore": "Damien Hirst",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-05-03-071",
+    "file": "2017-05-03.json",
+    "categoria": "libro",
+    "titolo": "Definizione di bellezza",
+    "autore": "Alberti",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-05-08-071",
+    "file": "2017-05-08.json",
+    "categoria": "libro",
+    "titolo": "in tre, storia di un numero quasi perfetto",
+    "autore": "papà professore",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-05-09-015",
+    "file": "2017-05-09.json",
+    "categoria": "libro",
+    "titolo": "sogno realizzato",
+    "autore": "papà di Sara",
+    "punteggio": 0.44,
+    "match_trovato": "Il sogno realizzato — Umberto Sereni [titolo reale ma nessun autore trovato somiglia a 'papà di Sara': attribuzione probabilmente sbagliata]",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-05-10-022",
+    "file": "2017-05-10.json",
+    "categoria": "musica",
+    "titolo": "Stracciando a duemila",
+    "autore": "Gianluca Grignani",
+    "punteggio": 0.597,
+    "match_trovato": "Falco a metà — Gianluca Grignani",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2017-05-16-093",
+    "file": "2017-05-16.json",
+    "categoria": "musica",
+    "titolo": "cerco i miei sogni",
+    "autore": "Litfiba",
+    "punteggio": 0.586,
+    "match_trovato": "Prendi in mano i tuoi anni — Litfiba",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2017-05-16-099",
+    "file": "2017-05-16.json",
+    "categoria": "libro",
+    "titolo": "poesia di sei righe",
+    "autore": "Fabio Volo",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-05-17-020",
+    "file": "2017-05-17.json",
+    "categoria": "film",
+    "titolo": "Nanook di Pelliccia",
+    "autore": "Robert Flaherty",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-05-17-022",
+    "file": "2017-05-17.json",
+    "categoria": "film",
+    "titolo": "Nanuk degli Eschimesi",
+    "autore": "Robert Flaherty",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-05-17-049",
+    "file": "2017-05-17.json",
+    "categoria": "libro",
+    "titolo": "Il Velo di Maya",
+    "autore": "Arthur Schopenhauer",
+    "punteggio": 0.44,
+    "match_trovato": "Il velo di Maya — Carlo Sgorlon [titolo reale ma nessun autore trovato somiglia a 'Arthur Schopenhauer': attribuzione probabilmente sbagliata]",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-05-18-000",
+    "file": "2017-05-18.json",
+    "categoria": "musica",
+    "titolo": "Big Jet Plane",
+    "autore": "Angus e Julia Stone",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-05-18-069",
+    "file": "2017-05-18.json",
+    "categoria": "musica",
+    "titolo": "Even When the Grass Is Overgrown",
+    "autore": "Ben Harper",
+    "punteggio": 0.614,
+    "match_trovato": "When She Believes — Ben Harper",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2017-05-19-045",
+    "file": "2017-05-19.json",
+    "categoria": "musica",
+    "titolo": "I fili invisibili della natura",
+    "autore": "Muse",
+    "punteggio": 0.549,
+    "match_trovato": "I Belong to You — Muse",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2017-05-22-085",
+    "file": "2017-05-22.json",
+    "categoria": "libro",
+    "titolo": "nulla più attuale",
+    "autore": "Fabio Volo",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-05-23-057",
+    "file": "2017-05-23.json",
+    "categoria": "libro",
+    "titolo": "la mafia non è invincibile",
+    "autore": "Fabio Volo",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-05-23-069",
+    "file": "2017-05-23.json",
+    "categoria": "libro",
+    "titolo": "libri di Fabio Polo",
+    "autore": "Fabio Volo",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-05-24-003",
+    "file": "2017-05-24.json",
+    "categoria": "libro",
+    "titolo": "Anna Karenina",
+    "autore": "Leo Tolstoy",
+    "punteggio": 0.44,
+    "match_trovato": "Anna Karenina — Louise Maude [titolo reale ma nessun autore trovato somiglia a 'Leo Tolstoy': attribuzione probabilmente sbagliata]",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-05-25-009",
+    "file": "2017-05-25.json",
+    "categoria": "libro",
+    "titolo": "fratelli in un secondo",
+    "autore": "Silvano Agosti",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-05-25-014",
+    "file": "2017-05-25.json",
+    "categoria": "libro",
+    "titolo": "storia di Paolo Cognetti",
+    "autore": "Paolo Cognetti",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-05-26-008",
+    "file": "2017-05-26.json",
+    "categoria": "libro",
+    "titolo": "rituali scrittori",
+    "autore": "scrittori anonimi",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-05-26-012",
+    "file": "2017-05-26.json",
+    "categoria": "libro",
+    "titolo": "scrittori e italo calvino",
+    "autore": "Veronesi",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-05-26-015",
+    "file": "2017-05-26.json",
+    "categoria": "libro",
+    "titolo": "libri e ricordi",
+    "autore": "Chiara Valerio",
+    "punteggio": 0.296,
+    "match_trovato": "Fra libri e ricordi di storia della rivoluzione italiana — Ernesto Masi",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-05-30-046",
+    "file": "2017-05-30.json",
+    "categoria": "libro",
+    "titolo": "Poesia contro l'ansia",
+    "autore": "Ilma Racusa",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-05-31-049",
+    "file": "2017-05-31.json",
+    "categoria": "libro",
+    "titolo": "poesia punk",
+    "autore": "Roberto Perciballi",
+    "punteggio": 0.44,
+    "match_trovato": "Poesía Punk — C. J. Gallegos [titolo reale ma nessun autore trovato somiglia a 'Roberto Perciballi': attribuzione probabilmente sbagliata]",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-06-01-014",
+    "file": "2017-06-01.json",
+    "categoria": "musica",
+    "titolo": "Tears For Fear - Everybody Wants To Rule The World",
+    "autore": "Tears For Fear",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-06-01-049",
+    "file": "2017-06-01.json",
+    "categoria": "musica",
+    "titolo": "Never Can Tell",
+    "autore": "Stevie Wonder",
+    "punteggio": 0.661,
+    "match_trovato": "Never in Your Sun — Stevie Wonder",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2017-06-02-052",
+    "file": "2017-06-02.json",
+    "categoria": "musica",
+    "titolo": "Hurt Yourself Again",
+    "autore": "Imagine Dragons",
+    "punteggio": 0.695,
+    "match_trovato": "Start All Over Again — Imagine Dragons",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2017-06-02-058",
+    "file": "2017-06-02.json",
+    "categoria": "film",
+    "titolo": "momento Monicelli",
+    "autore": "Pietro Germi",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-10-02-034",
+    "file": "2017-10-02.json",
+    "categoria": "musica",
+    "titolo": "Charlotte Gainsbourg - Deadly Valentine",
+    "autore": "Charlotte Gainsbourg",
+    "punteggio": 0.715,
+    "match_trovato": "Deadly Valentine — Charlotte Gainsbourg",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2017-10-04-055",
+    "file": "2017-10-04.json",
+    "categoria": "libro",
+    "titolo": "libro con Lara Albanese",
+    "autore": "professoressa Anna Pari dottoressa",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-10-05-009",
+    "file": "2017-10-05.json",
+    "categoria": "film",
+    "titolo": "film di Woody Allen",
+    "autore": "Woody Allen",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-10-06-029",
+    "file": "2017-10-06.json",
+    "categoria": "musica",
+    "titolo": "All the Other Kids",
+    "autore": "MGMT",
+    "punteggio": 0.555,
+    "match_trovato": "Kids — MGMT",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2017-10-06-042",
+    "file": "2017-10-06.json",
+    "categoria": "libro",
+    "titolo": "Nan Goldin Fotografie",
+    "autore": "Nan Goldin",
+    "punteggio": 0.49,
+    "match_trovato": "Nan Goldin - Fotografie und Freundschaft — Nora Demattio",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2017-10-06-043",
+    "file": "2017-10-06.json",
+    "categoria": "libro",
+    "titolo": "Ballad of Love",
+    "autore": "Nan Goldin",
+    "punteggio": 0.44,
+    "match_trovato": "A ballad of love — Prokosch, Frederic [titolo reale ma nessun autore trovato somiglia a 'Nan Goldin': attribuzione probabilmente sbagliata]",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-10-06-075",
+    "file": "2017-10-06.json",
+    "categoria": "musica",
+    "titolo": "Let's Go Away",
+    "autore": "DJ Francesco",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-10-09-066",
+    "file": "2017-10-09.json",
+    "categoria": "libro",
+    "titolo": "compleanno Sean Lennon",
+    "autore": "Sean Lennon",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-10-12-002",
+    "file": "2017-10-12.json",
+    "categoria": "musica",
+    "titolo": "disco del 1982 dei Clash",
+    "autore": "The Clash",
+    "punteggio": 0.66,
+    "match_trovato": "Radio Clash — The Clash",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2017-10-13-001",
+    "file": "2017-10-13.json",
+    "categoria": "musica",
+    "titolo": "Hey There Delilah",
+    "autore": "The Plain White T's",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-10-13-075",
+    "file": "2017-10-13.json",
+    "categoria": "musica",
+    "titolo": "canzone di Franco Battiato",
+    "autore": "Franco Battiato",
+    "punteggio": 0.592,
+    "match_trovato": "23 coppie di cromosomi — Franco Battiato",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2017-10-17-016",
+    "file": "2017-10-17.json",
+    "categoria": "libro",
+    "titolo": "Bottiglia Messaggio",
+    "autore": "Breve storia di una bottiglia spedita nel 1914",
+    "punteggio": 0.304,
+    "match_trovato": "Messaggio in Bottiglia 2020 — Pierstefano VERNASCHI",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-10-17-019",
+    "file": "2017-10-17.json",
+    "categoria": "libro",
+    "titolo": "Beethoven's Symphony",
+    "autore": "Ludwig van Beethoven",
+    "punteggio": 0.44,
+    "match_trovato": "Beethoven's symphonies — Lewis Lockwood [titolo reale ma nessun autore trovato somiglia a 'Ludwig van Beethoven': attribuzione probabilmente sbagliata]",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-10-17-049",
+    "file": "2017-10-17.json",
+    "categoria": "musica",
+    "titolo": "Evil's In My Pocket",
+    "autore": "Florence + The Machine",
+    "punteggio": 0.58,
+    "match_trovato": "My Love — Florence + the Machine",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2017-10-18-048",
+    "file": "2017-10-18.json",
+    "categoria": "libro",
+    "titolo": "Butterò questo enorme cuore tra le stelle un giorno",
+    "autore": "Paolo Sorrentino",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-10-19-020",
+    "file": "2017-10-19.json",
+    "categoria": "libro",
+    "titolo": "il mio libro sugli animali",
+    "autore": "Fabio Volo",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-10-19-030",
+    "file": "2017-10-19.json",
+    "categoria": "libro",
+    "titolo": "Leonardo da Vinci",
+    "autore": "Paolo Sorrentino",
+    "punteggio": 0.44,
+    "match_trovato": "Leonardo da Vinci — Walter Isaacson, Jordi Ainaud i Escudero [titolo reale ma nessun autore trovato somiglia a 'Paolo Sorrentino': attribuzione probabilmente sbagliata]",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-10-19-045",
+    "file": "2017-10-19.json",
+    "categoria": "libro",
+    "titolo": "lettera di una bambina",
+    "autore": "Antonio Cabrini",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-10-19-073",
+    "file": "2017-10-19.json",
+    "categoria": "libro",
+    "titolo": "Linguaggio e mente umana",
+    "autore": "Andrea Moro",
+    "punteggio": 0.187,
+    "match_trovato": "Manipolazione Mentale e PNL : Il Manuale Completo e Pratico Sulla Manipolazione Della Mente Umana, il Linguaggio Del Corpo e PNL — Edoardo Pilato",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-10-20-010",
+    "file": "2017-10-20.json",
+    "categoria": "musica",
+    "titolo": "You Say Potato",
+    "autore": "Louis Armstrong",
+    "punteggio": 0.571,
+    "match_trovato": "Potato Head Blues — Louis Armstrong",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2017-10-20-015",
+    "file": "2017-10-20.json",
+    "categoria": "libro",
+    "titolo": "ragazza canadese indiana",
+    "autore": "Maurizio",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-10-20-019",
+    "file": "2017-10-20.json",
+    "categoria": "libro",
+    "titolo": "libro di poesie",
+    "autore": "Rupi Kaur",
+    "punteggio": 0.525,
+    "match_trovato": "libro di poesie di Lolita — manuela zoia",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2017-10-20-024",
+    "file": "2017-10-20.json",
+    "categoria": "libro",
+    "titolo": "poesia di Rupi Kaur",
+    "autore": "Rupi Kaur",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-10-25-066",
+    "file": "2017-10-25.json",
+    "categoria": "libro",
+    "titolo": "studi di Stevenson",
+    "autore": "Jan Stevenson",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-10-26-058",
+    "file": "2017-10-26.json",
+    "categoria": "film",
+    "titolo": "canzone titolo film",
+    "autore": "Favino, Battistone",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-10-27-001",
+    "file": "2017-10-27.json",
+    "categoria": "musica",
+    "titolo": "Kelly watch the stars",
+    "autore": "Kelly Price",
+    "punteggio": 0.603,
+    "match_trovato": "Through the Fire — Kelly Price",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2017-10-27-003",
+    "file": "2017-10-27.json",
+    "categoria": "musica",
+    "titolo": "King Kong",
+    "autore": "Eire",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-10-27-005",
+    "file": "2017-10-27.json",
+    "categoria": "musica",
+    "titolo": "Cherry Blossom Girl",
+    "autore": "All Saints",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-10-27-050",
+    "file": "2017-10-27.json",
+    "categoria": "libro",
+    "titolo": "libro nuovo di Fabio Bolle",
+    "autore": "Fabio Bolle",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-10-27-055",
+    "file": "2017-10-27.json",
+    "categoria": "libro",
+    "titolo": "Il mondo hip hop italiano",
+    "autore": "Toni Dallara",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-10-30-018",
+    "file": "2017-10-30.json",
+    "categoria": "libro",
+    "titolo": "Consigli del Monaco Zen",
+    "autore": "Totsufa",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-10-30-029",
+    "file": "2017-10-30.json",
+    "categoria": "libro",
+    "titolo": "La magia dell'ordine",
+    "autore": "Marie Kondo",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-11-01-082",
+    "file": "2017-11-01.json",
+    "categoria": "musica",
+    "titolo": "I made it all my own",
+    "autore": "Christina Aguilera",
+    "punteggio": 0.58,
+    "match_trovato": "All I Need — Christina Aguilera",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2017-11-03-022",
+    "file": "2017-11-03.json",
+    "categoria": "film",
+    "titolo": "buonasera signorina",
+    "autore": "Dean Martin",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-11-03-028",
+    "file": "2017-11-03.json",
+    "categoria": "musica",
+    "titolo": "I can't walk out because I love you too much",
+    "autore": "Elvis Presley",
+    "punteggio": 0.575,
+    "match_trovato": "I Love You Because — Elvis Presley",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2017-11-03-057",
+    "file": "2017-11-03.json",
+    "categoria": "musica",
+    "titolo": "We have all the time in the world",
+    "autore": "Loving Criminal",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-11-03-060",
+    "file": "2017-11-03.json",
+    "categoria": "libro",
+    "titolo": "prima mostra 1960",
+    "autore": "Dino Buzzati",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-11-06-012",
+    "file": "2017-11-06.json",
+    "categoria": "musica",
+    "titolo": "Noel Gallagher's Song for Coffee Lovers",
+    "autore": "Noel Gallagher",
+    "punteggio": 0.706,
+    "match_trovato": "Noel Gallagher Interview — Noel Gallagher",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2017-11-08-046",
+    "file": "2017-11-08.json",
+    "categoria": "musica",
+    "titolo": "Still Growing Up",
+    "autore": "Imagine Dragons",
+    "punteggio": 0.543,
+    "match_trovato": "Wake Up — Imagine Dragons",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2017-11-10-046",
+    "file": "2017-11-10.json",
+    "categoria": "libro",
+    "titolo": "Il Segreto",
+    "autore": "Raiù",
+    "punteggio": 0.424,
+    "match_trovato": "Il Segreto Della Sfinge — Elisabetta Dami",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-11-10-065",
+    "file": "2017-11-10.json",
+    "categoria": "libro",
+    "titolo": "frase scritta in un libro",
+    "autore": "Fabio Volo",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-11-10-081",
+    "file": "2017-11-10.json",
+    "categoria": "libro",
+    "titolo": "Cento anni di solitudine",
+    "autore": "Gabriel Garcia Marquez",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-11-14-077",
+    "file": "2017-11-14.json",
+    "categoria": "musica",
+    "titolo": "inciampa piuttosto che tacere",
+    "autore": "Ivano Fossati",
+    "punteggio": 0.58,
+    "match_trovato": "Oh che sarà — Ivano Fossati",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2017-11-14-086",
+    "file": "2017-11-14.json",
+    "categoria": "musica",
+    "titolo": "Heaven I'm in Heaven",
+    "autore": "Gershwin",
+    "punteggio": 0.603,
+    "match_trovato": "Heaven on Earth — George Gershwin",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2017-11-15-098",
+    "file": "2017-11-15.json",
+    "categoria": "libro",
+    "titolo": "intervista su Vanity Fair",
+    "autore": "Vanity Fair",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-11-15-116",
+    "file": "2017-11-15.json",
+    "categoria": "libro",
+    "titolo": "il libro di Fabio Volo",
+    "autore": "Fabio Volo",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-11-15-143",
+    "file": "2017-11-15.json",
+    "categoria": "libro",
+    "titolo": "ordine dell'amore",
+    "autore": "Bert Hellinger",
+    "punteggio": 0.117,
+    "match_trovato": "Tractato dello amore di Iesu Christo composto da frate Hyeronimo da Ferrara dell ordine de frati predicatori priore di san Marco di Firenze — Girolamo Savonarola",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-11-16-014",
+    "file": "2017-11-16.json",
+    "categoria": "musica",
+    "titolo": "Linda di Lucio Battisti",
+    "autore": "Lucio Battisti",
+    "punteggio": 0.558,
+    "match_trovato": "Dolce di giorno — Lucio Battisti",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2017-11-20-002",
+    "file": "2017-11-20.json",
+    "categoria": "musica",
+    "titolo": "That You Loved Me",
+    "autore": "Luca Carboni e Giovanotti",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-11-20-070",
+    "file": "2017-11-20.json",
+    "categoria": "libro",
+    "titolo": "seminario con Jodorowsky",
+    "autore": "Alejandro Jodorowsky",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-11-21-001",
+    "file": "2017-11-21.json",
+    "categoria": "musica",
+    "titolo": "Under an Air-conditioned Sun",
+    "autore": "Beck",
+    "punteggio": 0.603,
+    "match_trovato": "Sunday Sun — Beck",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2017-11-21-049",
+    "file": "2017-11-21.json",
+    "categoria": "libro",
+    "titolo": "15 cose da fare per successo",
+    "autore": "Dan Walschmitz",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-11-21-077",
+    "file": "2017-11-21.json",
+    "categoria": "musica",
+    "titolo": "Malpensa",
+    "autore": "Cocchi e Renato",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-11-23-014",
+    "file": "2017-11-23.json",
+    "categoria": "libro",
+    "titolo": "rettifica obbligatoria",
+    "autore": "regione Lombardia",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-11-23-018",
+    "file": "2017-11-23.json",
+    "categoria": "musica",
+    "titolo": "Showboats",
+    "autore": "Josh Ritter",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-11-24-066",
+    "file": "2017-11-24.json",
+    "categoria": "musica",
+    "titolo": "Blue Moon",
+    "autore": "Richard Rodgers, Lorenz Hart",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-11-28-094",
+    "file": "2017-11-28.json",
+    "categoria": "film",
+    "titolo": "accusa e risposta",
+    "autore": "Martin Sheen",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-11-28-126",
+    "file": "2017-11-28.json",
+    "categoria": "libro",
+    "titolo": "Teoria sessuale del bambino",
+    "autore": "Freud",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-11-30-128",
+    "file": "2017-11-30.json",
+    "categoria": "libro",
+    "titolo": "netter e formiche",
+    "autore": "Fabio Volo",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-11-30-136",
+    "file": "2017-11-30.json",
+    "categoria": "musica",
+    "titolo": "Mino cammina",
+    "autore": "Francesco De Gregori",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-12-01-026",
+    "file": "2017-12-01.json",
+    "categoria": "libro",
+    "titolo": "Negromaro",
+    "autore": "Fabio Volo",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-12-05-003",
+    "file": "2017-12-05.json",
+    "categoria": "musica",
+    "titolo": "Radio DJ Suede",
+    "autore": "Suede",
+    "punteggio": 0.7,
+    "match_trovato": "Jam With Suede — Suede",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2017-12-05-049",
+    "file": "2017-12-05.json",
+    "categoria": "musica",
+    "titolo": "album battito cammello",
+    "autore": "Battiato",
+    "punteggio": 0.409,
+    "match_trovato": "Come un cammello in una grondaia — Franco Battiato",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-12-05-065",
+    "file": "2017-12-05.json",
+    "categoria": "libro",
+    "titolo": "poesia inedita",
+    "autore": "Fabio Volo",
+    "punteggio": 0.44,
+    "match_trovato": "Poesias inéditas — Fernando Pessoa [titolo reale ma nessun autore trovato somiglia a 'Fabio Volo': attribuzione probabilmente sbagliata]",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-12-06-072",
+    "file": "2017-12-06.json",
+    "categoria": "musica",
+    "titolo": "disco di Ennio Morricone",
+    "autore": "Ennio Morricone",
+    "punteggio": 0.611,
+    "match_trovato": "Il ritorno di Ringo: Il ritorno di Ringo — Ennio Morricone",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2017-12-06-155",
+    "file": "2017-12-06.json",
+    "categoria": "libro",
+    "titolo": "libro firmato",
+    "autore": "Fabio Volo",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-12-07-119",
+    "file": "2017-12-07.json",
+    "categoria": "libro",
+    "titolo": "libro di Fabio Volo",
+    "autore": "Fabio Volo",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-12-07-189",
+    "file": "2017-12-07.json",
+    "categoria": "libro",
+    "titolo": "aneddoto tecnico radio",
+    "autore": "Fabio Volo",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-12-08-053",
+    "file": "2017-12-08.json",
+    "categoria": "libro",
+    "titolo": "La solitudine dei numeri primi",
+    "autore": "Paola Celanese, Alessandro Turchi",
+    "punteggio": 0.44,
+    "match_trovato": "La solitudine dei numeri primi — Paolo Giordano, Anna Casassas Figueras [titolo reale ma nessun autore trovato somiglia a 'Paola Celanese, Alessandro Turchi': attribuzione probabilmente sbagliata]",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-12-08-077",
+    "file": "2017-12-08.json",
+    "categoria": "musica",
+    "titolo": "I found a love",
+    "autore": "Kodaline",
+    "punteggio": 0.665,
+    "match_trovato": "Same Love — Kodaline",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2017-12-08-095",
+    "file": "2017-12-08.json",
+    "categoria": "libro",
+    "titolo": "articolo sul giornale",
+    "autore": "Libero",
+    "punteggio": 0.213,
+    "match_trovato": "Risposta all'articolo comunicato (nostra corrispondenza Vieste 28 settembre 1863) sul numero 57 giornale la Nuova Daunia — Sanvincenzo Nobile",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-12-11-098",
+    "file": "2017-12-11.json",
+    "categoria": "libro",
+    "titolo": "richiesta di Tonino Guerra",
+    "autore": "Tonino Guerra",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-12-12-035",
+    "file": "2017-12-12.json",
+    "categoria": "libro",
+    "titolo": "articolo di Beatrice Corradi",
+    "autore": "Beatrice Corradi",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-12-12-072",
+    "file": "2017-12-12.json",
+    "categoria": "libro",
+    "titolo": "il mio libro",
+    "autore": "Fabio Volo",
+    "punteggio": 0.44,
+    "match_trovato": "Il mio Libro — Angelo Conti Rossini [titolo reale ma nessun autore trovato somiglia a 'Fabio Volo': attribuzione probabilmente sbagliata]",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-12-12-127",
+    "file": "2017-12-12.json",
+    "categoria": "libro",
+    "titolo": "Harry Potter",
+    "autore": "J.K. Rowling",
+    "punteggio": 0.457,
+    "match_trovato": "Harry Potter and the Goblet of Fire — J. K. Rowling",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2017-12-12-129",
+    "file": "2017-12-12.json",
+    "categoria": "libro",
+    "titolo": "Buona vita a tutti",
+    "autore": "Nome dell'autore",
+    "punteggio": 0.268,
+    "match_trovato": "buona vita a tutti: i benefici del fallimento e l'importanza dell'immaginazione — J. K. Rowling",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-12-13-016",
+    "file": "2017-12-13.json",
+    "categoria": "musica",
+    "titolo": "pezzo di Max Pezzari",
+    "autore": "Max Pezzari",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-12-14-030",
+    "file": "2017-12-14.json",
+    "categoria": "musica",
+    "titolo": "pezzo di David Bowie",
+    "autore": "David Bowie",
+    "punteggio": 0.695,
+    "match_trovato": "David Bowie (talking) — David Bowie",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2017-12-15-083",
+    "file": "2017-12-15.json",
+    "categoria": "musica",
+    "titolo": "Give A Little, Get A Little Love",
+    "autore": "Ella Figgera",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-12-15-094",
+    "file": "2017-12-15.json",
+    "categoria": "libro",
+    "titolo": "Radio DJ",
+    "autore": "Prof. Accinelli",
+    "punteggio": 0.44,
+    "match_trovato": "Radio DJs — Debbie Foy [titolo reale ma nessun autore trovato somiglia a 'Prof. Accinelli': attribuzione probabilmente sbagliata]",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-12-15-138",
+    "file": "2017-12-15.json",
+    "categoria": "libro",
+    "titolo": "Mother Spell",
+    "autore": "Ioanna",
+    "punteggio": 0.4,
+    "match_trovato": "Football Tom and Mother's Spell — Jonathan Wedge",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-12-19-168",
+    "file": "2017-12-19.json",
+    "categoria": "musica",
+    "titolo": "O Vita",
+    "autore": "Giovanotti",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-12-20-042",
+    "file": "2017-12-20.json",
+    "categoria": "musica",
+    "titolo": "Dream a Little Dream of Me",
+    "autore": "Louis Armstrong e Ella Fitzgerald",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-12-20-105",
+    "file": "2017-12-20.json",
+    "categoria": "musica",
+    "titolo": "Frida Sundemo demo",
+    "autore": "Frida Sundemo",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2017-12-21-005",
+    "file": "2017-12-21.json",
+    "categoria": "musica",
+    "titolo": "Mechanical Animal",
+    "autore": "Nine Inch Nails",
+    "punteggio": 0.665,
+    "match_trovato": "Animal — Nine Inch Nails, Kevin McMahon",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2017-12-21-056",
+    "file": "2017-12-21.json",
+    "categoria": "libro",
+    "titolo": "Antropologia della caccia",
+    "autore": "Fabio Volo",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2018-01-10-140",
+    "file": "2018-01-10.json",
+    "categoria": "musica",
+    "titolo": "Nothing's gonna change my world",
+    "autore": "The Beatles",
+    "punteggio": 0.695,
+    "match_trovato": "Across the Universe - No One's Gonna Change Our World Mix — The Beatles",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2018-01-11-150",
+    "file": "2018-01-11.json",
+    "categoria": "libro",
+    "titolo": "Mystic Chemical",
+    "autore": "professor Azzinelli",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2018-01-12-113",
+    "file": "2018-01-12.json",
+    "categoria": "libro",
+    "titolo": "Al di sopra del bene e del male",
+    "autore": "Friedrich Nietzsche",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2018-01-18-042",
+    "file": "2018-01-18.json",
+    "categoria": "film",
+    "titolo": "discorso Natalino Balasso",
+    "autore": "Natalino Balasso",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2018-01-18-106",
+    "file": "2018-01-18.json",
+    "categoria": "musica",
+    "titolo": "Boxer di due taglie in meno",
+    "autore": "I Bee Gees",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2018-01-18-114",
+    "file": "2018-01-18.json",
+    "categoria": "libro",
+    "titolo": "Ulisse",
+    "autore": "Dante Alighieri",
+    "punteggio": 0.44,
+    "match_trovato": "Ulisse — Antonino Pagliaro [titolo reale ma nessun autore trovato somiglia a 'Dante Alighieri': attribuzione probabilmente sbagliata]",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2018-01-19-001",
+    "file": "2018-01-19.json",
+    "categoria": "musica",
+    "titolo": "All Summer Long",
+    "autore": "Sublime with Rome",
+    "punteggio": 0.58,
+    "match_trovato": "All I Need — Sublime With Rome",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2018-01-22-135",
+    "file": "2018-01-22.json",
+    "categoria": "libro",
+    "titolo": "Madonna della Pietà",
+    "autore": "Michelangelo Buonarroti",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2018-01-22-141",
+    "file": "2018-01-22.json",
+    "categoria": "musica",
+    "titolo": "cambiamento Sam Cooke",
+    "autore": "Sam Cooke",
+    "punteggio": 0.6,
+    "match_trovato": "Sam Cooke, You Send Me — Sam Cooke",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2018-01-23-158",
+    "file": "2018-01-23.json",
+    "categoria": "musica",
+    "titolo": "Tiger Stripe Sky",
+    "autore": "Rupanes",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2018-01-25-047",
+    "file": "2018-01-25.json",
+    "categoria": "musica",
+    "titolo": "CD di Jack White",
+    "autore": "Jack White",
+    "punteggio": 0.65,
+    "match_trovato": "Jack White on “Only Child” — Jack White",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2018-01-25-120",
+    "file": "2018-01-25.json",
+    "categoria": "libro",
+    "titolo": "meridiani della Mondadori",
+    "autore": "Mondadori",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2018-01-26-005",
+    "file": "2018-01-26.json",
+    "categoria": "libro",
+    "titolo": "l'amore è come il sole",
+    "autore": "Silvano Agosti",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2018-01-26-024",
+    "file": "2018-01-26.json",
+    "categoria": "libro",
+    "titolo": "Agenda di fine relazione",
+    "autore": "Rupi Kaur",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2018-01-26-026",
+    "file": "2018-01-26.json",
+    "categoria": "libro",
+    "titolo": "Vendita libro poesia",
+    "autore": "Rupi Kaur",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2018-01-26-028",
+    "file": "2018-01-26.json",
+    "categoria": "film",
+    "titolo": "vista da grande",
+    "autore": "francois truffaut",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2018-01-26-136",
+    "file": "2018-01-26.json",
+    "categoria": "film",
+    "titolo": "lettera a una sconosciuta",
+    "autore": "Guadagnino",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2018-01-26-137",
+    "file": "2018-01-26.json",
+    "categoria": "film",
+    "titolo": "croma sonora di Guadagnino",
+    "autore": "Luca Guadagnino",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2018-01-30-095",
+    "file": "2018-01-30.json",
+    "categoria": "film",
+    "titolo": "Mosè e la bevuta",
+    "autore": "Jack Black",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2018-01-30-143",
+    "file": "2018-01-30.json",
+    "categoria": "libro",
+    "titolo": "Poesie di Pablo Neruda",
+    "autore": "Pablo Neruda",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2018-01-31-025",
+    "file": "2018-01-31.json",
+    "categoria": "libro",
+    "titolo": "Ellie Macbill",
+    "autore": "Calista Floccarzi",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2018-01-31-109",
+    "file": "2018-01-31.json",
+    "categoria": "libro",
+    "titolo": "La felicità",
+    "autore": "Zygmunt Bauman",
+    "punteggio": 0.44,
+    "match_trovato": "La felicità — Alessandro Biral [titolo reale ma nessun autore trovato somiglia a 'Zygmunt Bauman': attribuzione probabilmente sbagliata]",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2018-02-01-009",
+    "file": "2018-02-01.json",
+    "categoria": "libro",
+    "titolo": "libro di autore invitato",
+    "autore": "nome_autore",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2018-02-01-038",
+    "file": "2018-02-01.json",
+    "categoria": "libro",
+    "titolo": "Garcia Lorca",
+    "autore": "Lorca",
+    "punteggio": 0.44,
+    "match_trovato": "García Lorca — Edwin Honig [titolo reale ma nessun autore trovato somiglia a 'Lorca': attribuzione probabilmente sbagliata]",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2018-02-07-041",
+    "file": "2018-02-07.json",
+    "categoria": "musica",
+    "titolo": "Lasciala",
+    "autore": "Totto Cotugno",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2018-02-07-080",
+    "file": "2018-02-07.json",
+    "categoria": "musica",
+    "titolo": "toto cotugno remix",
+    "autore": "henry de luca",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2018-02-08-082",
+    "file": "2018-02-08.json",
+    "categoria": "libro",
+    "titolo": "il mio libro",
+    "autore": "Fabio Volo",
+    "punteggio": 0.44,
+    "match_trovato": "Il mio Libro — Angelo Conti Rossini [titolo reale ma nessun autore trovato somiglia a 'Fabio Volo': attribuzione probabilmente sbagliata]",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2018-02-09-079",
+    "file": "2018-02-09.json",
+    "categoria": "film",
+    "titolo": "Una di miele in tre",
+    "autore": "Pozzetto",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2018-02-13-076",
+    "file": "2018-02-13.json",
+    "categoria": "libro",
+    "titolo": "Il Porto",
+    "autore": "Letizia Lianza",
+    "punteggio": 0.467,
+    "match_trovato": "Il porto sepolto — Giuseppe Ungaretti",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2018-02-13-151",
+    "file": "2018-02-13.json",
+    "categoria": "musica",
+    "titolo": "batterista degli Strokes",
+    "autore": "Fabrizio Moretti",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2018-02-15-044",
+    "file": "2018-02-15.json",
+    "categoria": "libro",
+    "titolo": "lista di Rupi Kaur",
+    "autore": "Rupi Kaur",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2018-02-15-047",
+    "file": "2018-02-15.json",
+    "categoria": "libro",
+    "titolo": "nuovo libro Rupi Kaur",
+    "autore": "Rupi Kaur",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2018-02-16-062",
+    "file": "2018-02-16.json",
+    "categoria": "musica",
+    "titolo": "Electric Tonight",
+    "autore": "Queen",
+    "punteggio": 0.685,
+    "match_trovato": "Need Your Loving Tonight — Queen",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2018-02-20-043",
+    "file": "2018-02-20.json",
+    "categoria": "musica",
+    "titolo": "Toto Africa",
+    "autore": "Mauro Porcini",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2018-02-21-038",
+    "file": "2018-02-21.json",
+    "categoria": "libro",
+    "titolo": "le parole ai giovani",
+    "autore": "Fabio Volo",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2018-02-21-060",
+    "file": "2018-02-21.json",
+    "categoria": "libro",
+    "titolo": "Lettere di ragazzi",
+    "autore": "Volo",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2018-02-22-032",
+    "file": "2018-02-22.json",
+    "categoria": "musica",
+    "titolo": "Hero",
+    "autore": "David Bowie",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2018-02-26-026",
+    "file": "2018-02-26.json",
+    "categoria": "film",
+    "titolo": "Città del silenzio",
+    "autore": "Charlie Chaplin",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2018-02-26-103",
+    "file": "2018-02-26.json",
+    "categoria": "libro",
+    "titolo": "libro di Peter Gomez",
+    "autore": "Peter Gomez",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2018-02-27-045",
+    "file": "2018-02-27.json",
+    "categoria": "libro",
+    "titolo": "Biografia Michelle Obama",
+    "autore": "Michelle Obama",
+    "punteggio": 0.408,
+    "match_trovato": "Michelle Obama Biografia — ",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2018-02-27-054",
+    "file": "2018-02-27.json",
+    "categoria": "libro",
+    "titolo": "Jenny e Giobbe",
+    "autore": "Paolo Sorrentino",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2018-02-27-173",
+    "file": "2018-02-27.json",
+    "categoria": "film",
+    "titolo": "Otto e mezzo",
+    "autore": "Federico Fellini",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2018-02-28-120",
+    "file": "2018-02-28.json",
+    "categoria": "film",
+    "titolo": "decisive",
+    "autore": "Walt",
+    "punteggio": 0.696,
+    "match_trovato": "Decisive Moment (2018)",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2018-02-28-142",
+    "file": "2018-02-28.json",
+    "categoria": "musica",
+    "titolo": "canzone di vasco rossi",
+    "autore": "Vasco Rossi",
+    "punteggio": 0.712,
+    "match_trovato": "“Blasco” Rossi — Vasco Rossi",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2018-03-02-000",
+    "file": "2018-03-02.json",
+    "categoria": "musica",
+    "titolo": "I'm a sinner",
+    "autore": "John Lennon",
+    "punteggio": 0.541,
+    "match_trovato": "Aisumasen (I'm Sorry) — John Lennon",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2018-03-02-084",
+    "file": "2018-03-02.json",
+    "categoria": "musica",
+    "titolo": "Running on Empty",
+    "autore": "Del Amitri",
+    "punteggio": 0.7,
+    "match_trovato": "Lines Running North — Del Amitri",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2018-03-02-109",
+    "file": "2018-03-02.json",
+    "categoria": "musica",
+    "titolo": "musica italiana Renato Zero",
+    "autore": "Renato Zero",
+    "punteggio": 0.527,
+    "match_trovato": "Più musica — Renato Zero",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2018-03-06-083",
+    "file": "2018-03-06.json",
+    "categoria": "libro",
+    "titolo": "Cent'anni di Solitudine",
+    "autore": "Gabriel Garcia Marquez",
+    "punteggio": 0.44,
+    "match_trovato": "Cent'anni di solitudine —  [titolo reale ma nessun autore trovato somiglia a 'Gabriel Garcia Marquez': attribuzione probabilmente sbagliata]",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2018-03-07-010",
+    "file": "2018-03-07.json",
+    "categoria": "musica",
+    "titolo": "Imagine Me And You",
+    "autore": "The Beatles",
+    "punteggio": 0.692,
+    "match_trovato": "Imagine — The Beatles",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2018-03-07-033",
+    "file": "2018-03-07.json",
+    "categoria": "libro",
+    "titolo": "Rintintin",
+    "autore": "Lessi",
+    "punteggio": 0.504,
+    "match_trovato": "Rintintin 6-Kacak — Morris (Maurice de Bevere)",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2018-03-07-055",
+    "file": "2018-03-07.json",
+    "categoria": "libro",
+    "titolo": "Il segreto di Pietramara",
+    "autore": "Fabio Volo",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2018-03-07-068",
+    "file": "2018-03-07.json",
+    "categoria": "musica",
+    "titolo": "Paura della fine",
+    "autore": "Loredana Bertè",
+    "punteggio": 0.7,
+    "match_trovato": "La donna della sera — Loredana Bertè",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2018-03-08-048",
+    "file": "2018-03-08.json",
+    "categoria": "libro",
+    "titolo": "La Dama Bianca",
+    "autore": "Fausto Coppi",
+    "punteggio": 0.44,
+    "match_trovato": "La dama bianca — Eugène Scribe [titolo reale ma nessun autore trovato somiglia a 'Fausto Coppi': attribuzione probabilmente sbagliata]",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2018-03-08-101",
+    "file": "2018-03-08.json",
+    "categoria": "libro",
+    "titolo": "Infamiamola",
+    "autore": "Maurizio Viola",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2018-03-13-034",
+    "file": "2018-03-13.json",
+    "categoria": "libro",
+    "titolo": "Horror, storie di sangue",
+    "autore": "Dario Argento",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2018-03-13-056",
+    "file": "2018-03-13.json",
+    "categoria": "libro",
+    "titolo": "nuovo libro di Dario Algezzi",
+    "autore": "Dario Algezzi",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2018-03-13-057",
+    "file": "2018-03-13.json",
+    "categoria": "musica",
+    "titolo": "Wishing on a Star",
+    "autore": "Ross Royce",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2018-03-13-064",
+    "file": "2018-03-13.json",
+    "categoria": "libro",
+    "titolo": "sei racconti dell'orrore",
+    "autore": "Fabio Concato",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2018-03-13-078",
+    "file": "2018-03-13.json",
+    "categoria": "libro",
+    "titolo": "intervista Truffaut Hitchcock",
+    "autore": "Truffaut",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2018-03-16-128",
+    "file": "2018-03-16.json",
+    "categoria": "musica",
+    "titolo": "Alice e Battiato",
+    "autore": "Alice, Franco Battiato",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2018-03-19-007",
+    "file": "2018-03-19.json",
+    "categoria": "libro",
+    "titolo": "intervista a Paolo Villaggio",
+    "autore": "Paolo Villaggio",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2018-03-19-022",
+    "file": "2018-03-19.json",
+    "categoria": "libro",
+    "titolo": "Pietra Emiliana",
+    "autore": "Abba Tantuane",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2018-03-21-095",
+    "file": "2018-03-21.json",
+    "categoria": "libro",
+    "titolo": "poesia di Alda Merini",
+    "autore": "Alda Merini",
+    "punteggio": 0.414,
+    "match_trovato": "Il multiforme universo della poesia di Alda Merini — Silvia Dipace",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2018-03-21-107",
+    "file": "2018-03-21.json",
+    "categoria": "musica",
+    "titolo": "Anna e Marco",
+    "autore": "Alden",
+    "punteggio": 0.333,
+    "match_trovato": "Cacio e Pepe — Dana and Alden",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2018-03-23-091",
+    "file": "2018-03-23.json",
+    "categoria": "musica",
+    "titolo": "La stagione dell'amore",
+    "autore": "Frango Battietto",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2018-03-23-115",
+    "file": "2018-03-23.json",
+    "categoria": "film",
+    "titolo": "film di Tarantino",
+    "autore": "Quentin Tarantino",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2018-03-27-085",
+    "file": "2018-03-27.json",
+    "categoria": "film",
+    "titolo": "Tarantino metafora supereroi",
+    "autore": "Quentin Tarantino",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2018-03-28-054",
+    "file": "2018-03-28.json",
+    "categoria": "libro",
+    "titolo": "libro di viaggi",
+    "autore": "Fabio Volo",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2018-03-30-081",
+    "file": "2018-03-30.json",
+    "categoria": "libro",
+    "titolo": "romanzo annuale di Fabio Volo",
+    "autore": "Fabio Volo",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2018-04-04-128",
+    "file": "2018-04-04.json",
+    "categoria": "libro",
+    "titolo": "Poesia di Maya Angelou",
+    "autore": "Maya Angelou",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  },
+  {
+    "id": "2018-04-05-003",
+    "file": "2018-04-05.json",
+    "categoria": "musica",
+    "titolo": "Make Me Feel",
+    "autore": "H.E.R.",
+    "punteggio": 0.708,
+    "match_trovato": "Make Believe — HER",
+    "esito": "dubbio"
+  },
+  {
+    "id": "2018-04-05-067",
+    "file": "2018-04-05.json",
+    "categoria": "film",
+    "titolo": "film di George Clooney",
+    "autore": "George Clooney",
+    "punteggio": 0.0,
+    "match_trovato": "",
+    "esito": "probabile_falso_positivo"
+  }
+]

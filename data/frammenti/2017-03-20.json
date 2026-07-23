@@ -143,7 +143,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Chuck Berry"
+    "autore": "Chuck Berry",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/0c4cd2ff-0e5b-47c2-a1e1-4bb1c38f49e1/front-250"
   },
   {
     "id": "2017-03-20-013",
@@ -498,7 +500,9 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Walter Isaacson"
+    "autore": "Walter Isaacson",
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/12374726-M.jpg"
   },
   {
     "id": "2017-03-20-045",

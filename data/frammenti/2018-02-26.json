@@ -297,7 +297,8 @@
     ],
     "tipo": "riferimento_film",
     "video_url": "",
-    "autore": "Charlie Chaplin"
+    "autore": "Charlie Chaplin",
+    "confermato_esterno": false
   },
   {
     "id": "2018-02-26-027",
@@ -542,7 +543,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Kiss"
+    "autore": "Kiss",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/fe98bba4-4668-49d5-b46c-e79324d6305a/front-250"
   },
   {
     "id": "2018-02-26-049",
@@ -1153,7 +1156,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Peter Gomez"
+    "autore": "Peter Gomez",
+    "confermato_esterno": false
   },
   {
     "id": "2018-02-26-104",
@@ -1222,7 +1226,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Johnny Cash"
+    "autore": "Johnny Cash",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/d5e2acf5-3bf0-45bf-9877-5bac0c2a13bc/front-250"
   },
   {
     "id": "2018-02-26-110",
@@ -1313,7 +1319,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "U2"
+    "autore": "U2",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/ede9e0f4-c4d4-400e-af42-bb09b57b61e4/front-250"
   },
   {
     "id": "2018-02-26-118",

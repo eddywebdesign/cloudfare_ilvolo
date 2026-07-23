@@ -224,7 +224,8 @@
     "tema": [],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Passengers"
+    "autore": "Passengers",
+    "confermato_esterno": false
   },
   {
     "id": "2016-09-27-018",
@@ -246,10 +247,14 @@
     "end": 860.84,
     "speaker_raw": "SPEAKER_07",
     "testo": "Anywhere dei Passengers un gruppo che noi a Radio DJ ma soprattutto diciamo noi del volo del mattino sosteniamo da tanto perché ci piacciono domani suonano a Milano se siete in zona al Fabric dove abbiamo fatto la festa di Radio DJ già sai che i locali ne conosco tre in base alle cose di lavoro ah dove voi eravate tra i ricchi e noi tra i poveri esatto ma rispetto per la festa ma secondo me è bello è bello che ci sia se sei ricco è bello ragazzi quando andate in un posto e c'è la zona ricca e la zona povera uno può dire che è ingiustizia invece no è perfetta perché stay angry stay foolish tu la povertà dici un giorno voglio arrivare là se è tutto piano invece ci devuole la scalata capisci? è giusto io sono venuto un paio di volte a sputare non so se ti ricordi a dire mi fate schifo allora aspettate un attimo ci sarebbe da fare subito un'analisi sociale a questo ma non è una festa qui ragazzi noi qui siamo qui a lavorare dai chi c'è? è arrivato Savino chi c'è ancora?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Anywhere",
+    "tema": [
+      "musica",
+      "concerto"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Passengers"
   },
   {
     "id": "2016-09-27-020",
@@ -695,11 +700,14 @@
     "end": 1941.56,
     "speaker_raw": "SPEAKER_11",
     "testo": "Dick Kauna, il film, quello con Kevin Spacey, è la migliore rappresentazione di quello che si dovrebbe fare a vent'anni, cioè non pensare troppo, non...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Dick Kauna",
+    "tema": [
+      "vita",
+      "gioventù"
+    ],
+    "tipo": "riferimento_film",
     "video_url": "",
-    "autore": ""
+    "autore": "Kevin Spacey"
   },
   {
     "id": "2016-09-27-057",

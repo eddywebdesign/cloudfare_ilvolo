@@ -191,7 +191,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Breve storia di una bottiglia spedita nel 1914"
+    "autore": "Breve storia di una bottiglia spedita nel 1914",
+    "confermato_esterno": false
   },
   {
     "id": "2017-10-17-017",
@@ -227,7 +228,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Ludwig van Beethoven"
+    "autore": "Ludwig van Beethoven",
+    "confermato_esterno": false
   },
   {
     "id": "2017-10-17-020",
@@ -527,7 +529,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Celentano"
+    "autore": "Celentano",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/9520702d-654c-4dbd-944d-0c3b662c00f0/front-250"
   },
   {
     "id": "2017-10-17-047",
@@ -564,7 +568,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Florence + The Machine"
+    "autore": "Florence + The Machine",
+    "confermato_esterno": false
   },
   {
     "id": "2017-10-17-050",

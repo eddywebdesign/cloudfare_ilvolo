@@ -497,7 +497,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "maestro"
+    "autore": "maestro",
+    "confermato_esterno": false
   },
   {
     "id": "2016-11-08-042",

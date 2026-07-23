@@ -286,7 +286,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Green Day"
+    "autore": "Green Day",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/18c20680-667d-4b88-bacd-eda9ace793f6/front-250"
   },
   {
     "id": "2017-11-22-026",

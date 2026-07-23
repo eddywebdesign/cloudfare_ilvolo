@@ -155,7 +155,9 @@
     ],
     "tipo": "riferimento_film",
     "video_url": "",
-    "autore": "Martin Scorsese"
+    "autore": "Martin Scorsese",
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/ier8B7zChS9iX5ODtx996OFfuBM.jpg"
   },
   {
     "id": "2017-10-02-014",
@@ -390,7 +392,8 @@
     "tema": [],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Charlotte Gainsbourg"
+    "autore": "Charlotte Gainsbourg",
+    "confermato_esterno": false
   },
   {
     "id": "2017-10-02-035",

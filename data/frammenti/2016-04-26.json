@@ -575,9 +575,12 @@
     "end": 1918.03,
     "speaker_raw": "SPEAKER_01",
     "testo": "Cioè Milano è ancora vuota comunque, volevo dirvi questa cosa Ho dovuto aprire la finestra, c'è un freddo bello Stamattina, a parte che Milano fa freddo, stamattina sono salito sul tram e eravamo in tre Ho pensato, ho sbagliato, sono andato all'asilo e eravamo in tre anche lì Quindi cioè non ci sono i genitori o i bambini, sono tutti a fare il ponte Non siete andati a fare il ponte voi?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Tram vuoto e freddo a Milano",
+    "tema": [
+      "freddo",
+      "trasporto"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -608,9 +611,12 @@
     "end": 1927.93,
     "speaker_raw": "SPEAKER_08",
     "testo": "In Toscana, no no, sono andata a Piombino dove vado sempre al mare Ah, e com'era il tempo? E ha piovuto tutto il tempo a parte ieri Bello, bello, bello",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Viaggio in Toscana",
+    "tema": [
+      "tempo",
+      "vacanza"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -730,7 +736,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Gramm"
+    "autore": "Gramm",
+    "confermato_esterno": false
   },
   {
     "id": "2016-04-26-063",

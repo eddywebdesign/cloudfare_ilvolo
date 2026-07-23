@@ -672,7 +672,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Lucio Dalla"
+    "autore": "Lucio Dalla",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/35a4e360-ddc4-4262-964f-11186a96d49e/front-250"
   },
   {
     "id": "2016-02-18-052",

@@ -33,7 +33,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Bob Marley"
+    "autore": "Bob Marley",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/cfd276bb-8a40-4f9d-ab33-38b4af164cd7/front-250"
   },
   {
     "id": "2017-06-02-003",
@@ -587,7 +589,8 @@
     "tema": [],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Imagine Dragons"
+    "autore": "Imagine Dragons",
+    "confermato_esterno": false
   },
   {
     "id": "2017-06-02-053",
@@ -659,6 +662,7 @@
     ],
     "tipo": "riferimento_film",
     "video_url": "",
-    "autore": "Pietro Germi"
+    "autore": "Pietro Germi",
+    "confermato_esterno": false
   }
 ]

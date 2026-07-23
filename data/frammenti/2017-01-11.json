@@ -571,7 +571,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "ascoltatore"
+    "autore": "ascoltatore",
+    "confermato_esterno": false
   },
   {
     "id": "2017-01-11-050",

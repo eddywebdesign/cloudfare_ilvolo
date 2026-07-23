@@ -56,7 +56,9 @@
     ],
     "tipo": "riferimento_film",
     "video_url": "",
-    "autore": "Bernardo Bertolucci"
+    "autore": "Bernardo Bertolucci",
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/5VOYbc5ZinBkwiUqePIc396pSI0.jpg"
   },
   {
     "id": "2018-03-30-005",
@@ -738,7 +740,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Franco Califano"
+    "autore": "Franco Califano",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/1861db81-a276-4a42-9f76-accce494f901/front-250"
   },
   {
     "id": "2018-03-30-066",
@@ -920,7 +924,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Fabio Volo"
+    "autore": "Fabio Volo",
+    "confermato_esterno": false
   },
   {
     "id": "2018-03-30-082",

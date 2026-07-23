@@ -22,7 +22,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Kelly Price"
+    "autore": "Kelly Price",
+    "confermato_esterno": false
   },
   {
     "id": "2017-10-27-002",
@@ -47,7 +48,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Eire"
+    "autore": "Eire",
+    "confermato_esterno": false
   },
   {
     "id": "2017-10-27-004",
@@ -72,7 +74,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "All Saints"
+    "autore": "All Saints",
+    "confermato_esterno": false
   },
   {
     "id": "2017-10-27-006",
@@ -573,7 +576,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Fabio Bolle"
+    "autore": "Fabio Bolle",
+    "confermato_esterno": false
   },
   {
     "id": "2017-10-27-051",
@@ -634,7 +638,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Toni Dallara"
+    "autore": "Toni Dallara",
+    "confermato_esterno": false
   },
   {
     "id": "2017-10-27-056",
@@ -659,7 +664,9 @@
     ],
     "tipo": "riferimento_film",
     "video_url": "",
-    "autore": "george clooney"
+    "autore": "george clooney",
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/jwM6AsjfHo3A9GZZWOcxlfXzayj.jpg"
   },
   {
     "id": "2017-10-27-058",
@@ -727,7 +734,9 @@
     "tema": [],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Jones"
+    "autore": "Jones",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/ea82240f-525b-4d51-afd7-d19e8e3ea6fd/front-250"
   },
   {
     "id": "2017-10-27-064",

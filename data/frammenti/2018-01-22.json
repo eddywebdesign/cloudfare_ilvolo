@@ -1503,7 +1503,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Michelangelo Buonarroti"
+    "autore": "Michelangelo Buonarroti",
+    "confermato_esterno": false
   },
   {
     "id": "2018-01-22-136",
@@ -1550,7 +1551,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Sam Cooke"
+    "autore": "Sam Cooke",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/29ba2948-2848-41c9-8a65-b1a8fadf4f70/front-250"
   },
   {
     "id": "2018-01-22-140",
@@ -1564,7 +1567,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Sam Cooke"
+    "autore": "Sam Cooke",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/0d44b1a6-cf65-479c-a88f-caad49b95c3d/front-250"
   },
   {
     "id": "2018-01-22-141",
@@ -1578,7 +1583,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Sam Cooke"
+    "autore": "Sam Cooke",
+    "confermato_esterno": false
   },
   {
     "id": "2018-01-22-142",

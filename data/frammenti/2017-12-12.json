@@ -23,7 +23,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "R. Kelly"
+    "autore": "R. Kelly",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/9332d56d-dc29-4584-afda-5697bb060c7f/front-250"
   },
   {
     "id": "2017-12-12-002",
@@ -402,7 +404,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Beatrice Corradi"
+    "autore": "Beatrice Corradi",
+    "confermato_esterno": false
   },
   {
     "id": "2017-12-12-036",
@@ -812,7 +815,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Fabio Volo"
+    "autore": "Fabio Volo",
+    "confermato_esterno": false
   },
   {
     "id": "2017-12-12-073",
@@ -1425,7 +1429,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "J.K. Rowling"
+    "autore": "J.K. Rowling",
+    "confermato_esterno": false
   },
   {
     "id": "2017-12-12-128",
@@ -1450,7 +1455,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Nome dell'autore"
+    "autore": "Nome dell'autore",
+    "confermato_esterno": false
   },
   {
     "id": "2017-12-12-130",

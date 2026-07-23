@@ -122,7 +122,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Louis Armstrong"
+    "autore": "Louis Armstrong",
+    "confermato_esterno": false
   },
   {
     "id": "2017-10-20-011",
@@ -180,7 +181,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Maurizio"
+    "autore": "Maurizio",
+    "confermato_esterno": false
   },
   {
     "id": "2017-10-20-016",
@@ -228,7 +230,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Rupi Kaur"
+    "autore": "Rupi Kaur",
+    "confermato_esterno": false
   },
   {
     "id": "2017-10-20-020",
@@ -286,7 +289,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Rupi Kaur"
+    "autore": "Rupi Kaur",
+    "confermato_esterno": false
   },
   {
     "id": "2017-10-20-025",

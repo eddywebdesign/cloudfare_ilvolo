@@ -114,7 +114,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Silvano Agosti"
+    "autore": "Silvano Agosti",
+    "confermato_esterno": false
   },
   {
     "id": "2017-05-25-010",
@@ -173,7 +174,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Paolo Cognetti"
+    "autore": "Paolo Cognetti",
+    "confermato_esterno": false
   },
   {
     "id": "2017-05-25-015",

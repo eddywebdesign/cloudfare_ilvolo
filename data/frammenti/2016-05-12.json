@@ -692,11 +692,13 @@
     "end": 2633.15,
     "speaker_raw": "SPEAKER_00",
     "testo": "Beh, delfini e gatti sono dei... In un romanzo di Tolstoi il Principe Azzurro è una quercia.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "romanzo di Tolstoi",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": ""
+    "autore": "Tolstoj"
   },
   {
     "id": "2016-05-12-056",
@@ -710,7 +712,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Lev Tolstoj"
+    "autore": "Lev Tolstoj",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-12-057",

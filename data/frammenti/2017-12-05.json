@@ -44,7 +44,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Suede"
+    "autore": "Suede",
+    "confermato_esterno": false
   },
   {
     "id": "2017-12-05-004",
@@ -259,7 +260,9 @@
     ],
     "tipo": "riferimento_film",
     "video_url": "",
-    "autore": "Paul Schrader"
+    "autore": "Paul Schrader",
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/bcjeNZCTCQ48xqlfmjvCwZwGIRO.jpg"
   },
   {
     "id": "2017-12-05-023",
@@ -562,7 +565,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Battiato"
+    "autore": "Battiato",
+    "confermato_esterno": false
   },
   {
     "id": "2017-12-05-050",
@@ -730,7 +734,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Negramaro"
+    "autore": "Negramaro",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/3449fda9-4cce-42aa-b720-884942d360a4/front-250"
   },
   {
     "id": "2017-12-05-065",
@@ -745,7 +751,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Fabio Volo"
+    "autore": "Fabio Volo",
+    "confermato_esterno": false
   },
   {
     "id": "2017-12-05-066",

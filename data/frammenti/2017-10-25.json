@@ -165,7 +165,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "ZZ Top"
+    "autore": "ZZ Top",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/fec84884-10df-454e-b33d-6b122910dcbb/front-250"
   },
   {
     "id": "2017-10-25-015",
@@ -744,7 +746,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Jan Stevenson"
+    "autore": "Jan Stevenson",
+    "confermato_esterno": false
   },
   {
     "id": "2017-10-25-067",

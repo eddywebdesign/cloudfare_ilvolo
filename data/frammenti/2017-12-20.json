@@ -476,7 +476,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Louis Armstrong e Ella Fitzgerald"
+    "autore": "Louis Armstrong e Ella Fitzgerald",
+    "confermato_esterno": false
   },
   {
     "id": "2017-12-20-043",
@@ -1177,7 +1178,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Frida Sundemo"
+    "autore": "Frida Sundemo",
+    "confermato_esterno": false
   },
   {
     "id": "2017-12-20-106",

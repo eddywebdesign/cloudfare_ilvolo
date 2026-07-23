@@ -233,7 +233,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Fabio Fazio"
+    "autore": "Fabio Fazio",
+    "confermato_esterno": false
   },
   {
     "id": "2017-04-13-021",
@@ -426,7 +427,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Tiro Mancino"
+    "autore": "Tiro Mancino",
+    "confermato_esterno": false
   },
   {
     "id": "2017-04-13-038",
@@ -465,7 +467,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Giacomo Leopardi"
+    "autore": "Giacomo Leopardi",
+    "confermato_esterno": false
   },
   {
     "id": "2017-04-13-041",
@@ -490,7 +493,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Chiare Lettere"
+    "autore": "Chiare Lettere",
+    "confermato_esterno": false
   },
   {
     "id": "2017-04-13-043",

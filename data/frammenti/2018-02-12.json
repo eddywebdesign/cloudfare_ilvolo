@@ -319,7 +319,9 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Jack Kerouac"
+    "autore": "Jack Kerouac",
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/34655-M.jpg"
   },
   {
     "id": "2018-02-12-029",

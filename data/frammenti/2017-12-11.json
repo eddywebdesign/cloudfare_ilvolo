@@ -22,7 +22,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Tracy Chapman"
+    "autore": "Tracy Chapman",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/b96ded9e-e8fa-4b82-ae60-06058a84513f/front-250"
   },
   {
     "id": "2017-12-11-002",
@@ -1114,7 +1116,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Tonino Guerra"
+    "autore": "Tonino Guerra",
+    "confermato_esterno": false
   },
   {
     "id": "2017-12-11-099",
@@ -1420,7 +1423,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "The Rolling Stones"
+    "autore": "The Rolling Stones",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/61e341eb-f5b5-44c6-aff1-57e77f3c85fd/front-250"
   },
   {
     "id": "2017-12-11-126",
@@ -1445,7 +1450,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "The Rolling Stones"
+    "autore": "The Rolling Stones",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/4e8f5774-356d-4864-b1b5-316870e306fa/front-250"
   },
   {
     "id": "2017-12-11-128",

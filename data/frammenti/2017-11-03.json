@@ -234,7 +234,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Perry Como"
+    "autore": "Perry Como",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/1b9fb6c2-d502-4107-9e63-972581bedb0c/front-250"
   },
   {
     "id": "2017-11-03-021",
@@ -259,7 +261,8 @@
     ],
     "tipo": "riferimento_film",
     "video_url": "",
-    "autore": "Dean Martin"
+    "autore": "Dean Martin",
+    "confermato_esterno": false
   },
   {
     "id": "2017-11-03-023",
@@ -328,7 +331,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Elvis Presley"
+    "autore": "Elvis Presley",
+    "confermato_esterno": false
   },
   {
     "id": "2017-11-03-029",
@@ -655,7 +659,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Loving Criminal"
+    "autore": "Loving Criminal",
+    "confermato_esterno": false
   },
   {
     "id": "2017-11-03-058",
@@ -692,7 +697,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Dino Buzzati"
+    "autore": "Dino Buzzati",
+    "confermato_esterno": false
   },
   {
     "id": "2017-11-03-061",

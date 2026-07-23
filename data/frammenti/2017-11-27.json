@@ -573,7 +573,9 @@
     ],
     "tipo": "riferimento_film",
     "video_url": "",
-    "autore": "David Fincher"
+    "autore": "David Fincher",
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/rtNLQ8HbPElzEfrHjrzSr07prKT.jpg"
   },
   {
     "id": "2017-11-27-052",
@@ -1393,7 +1395,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Lucio Dalla"
+    "autore": "Lucio Dalla",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/08615588-5271-4c7b-9b4e-db85ff35fca2/front-250"
   },
   {
     "id": "2017-11-27-126",

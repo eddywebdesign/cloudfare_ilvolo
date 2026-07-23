@@ -1059,7 +1059,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Alda Merini"
+    "autore": "Alda Merini",
+    "confermato_esterno": false
   },
   {
     "id": "2018-03-21-096",
@@ -1202,7 +1203,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Alden"
+    "autore": "Alden",
+    "confermato_esterno": false
   },
   {
     "id": "2018-03-21-108",

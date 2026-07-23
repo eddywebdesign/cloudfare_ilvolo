@@ -111,7 +111,8 @@
     "tema": [],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "nome_autore"
+    "autore": "nome_autore",
+    "confermato_esterno": false
   },
   {
     "id": "2018-02-01-010",
@@ -433,7 +434,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Lorca"
+    "autore": "Lorca",
+    "confermato_esterno": false
   },
   {
     "id": "2018-02-01-039",

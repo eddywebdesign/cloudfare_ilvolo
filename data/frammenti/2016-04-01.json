@@ -813,7 +813,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Nena"
+    "autore": "Nena",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/d3f923fb-0650-412e-ab6a-a2d8d07e0fcb/front-250"
   },
   {
     "id": "2016-04-01-066",

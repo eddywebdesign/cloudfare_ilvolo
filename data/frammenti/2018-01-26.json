@@ -69,7 +69,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Silvano Agosti"
+    "autore": "Silvano Agosti",
+    "confermato_esterno": false
   },
   {
     "id": "2018-01-26-006",
@@ -282,7 +283,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Rupi Kaur"
+    "autore": "Rupi Kaur",
+    "confermato_esterno": false
   },
   {
     "id": "2018-01-26-025",
@@ -308,7 +310,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Rupi Kaur"
+    "autore": "Rupi Kaur",
+    "confermato_esterno": false
   },
   {
     "id": "2018-01-26-027",
@@ -334,7 +337,8 @@
     ],
     "tipo": "riferimento_film",
     "video_url": "",
-    "autore": "francois truffaut"
+    "autore": "francois truffaut",
+    "confermato_esterno": false
   },
   {
     "id": "2018-01-26-029",
@@ -1534,7 +1538,8 @@
     ],
     "tipo": "riferimento_film",
     "video_url": "",
-    "autore": "Guadagnino"
+    "autore": "Guadagnino",
+    "confermato_esterno": false
   },
   {
     "id": "2018-01-26-137",
@@ -1548,7 +1553,8 @@
     ],
     "tipo": "riferimento_film",
     "video_url": "",
-    "autore": "Luca Guadagnino"
+    "autore": "Luca Guadagnino",
+    "confermato_esterno": false
   },
   {
     "id": "2018-01-26-138",

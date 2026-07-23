@@ -119,11 +119,14 @@
     "end": 866.12,
     "speaker_raw": "SPEAKER_09",
     "testo": "There's no such things like a dragon. sai che c'è una delle storie più famose per bambini negli Stati Uniti in America un libro bellissimo non credo sia stato tradotto in italiano però è famoso di questo bambino che dice alla mamma mamma nel letto c'è un piccolo drago c'è un piccolo drago la mamma gli dice non esistono i draghi non esistono i mostri e ogni volta che la mamma dice così il drago diventa un po' più grande ok quindi il bambino dice mamma ma guarda che non ci scioglie e alla fine qual è la morale di questa storia? che più ne parli no no no che i draghi esistono no no pensateci bene è una storia vecchia ha un successo planetario perché ha una morale bellissima cioè il bambino va dalla mamma e dice mamma c'è sta roba e la mamma dice quella roba lì non esiste e quella roba lì diventa sempre più grande per il bambino che più neghi ok è legato anche alle paure per esempio diceva anche Osho non devi dire devo smettere di fumare voglio smettere di fumare perché non smetterai mai di fumare tu devi riempire quel vuoto che ti fa tenere la sigaretta in mano perché la sigaretta è un riempitivo dalla solitudine, dalla frustrazione automaticamente quando tu avrai soddisfatto quella roba lì la sigaretta ti si staccherà dalle dita automaticamente cioè la famosa causa effetto sì ed ora tutti insieme oggi ragazzi prima di iniziare il programma e prima di tirar fuori un po' di passione e anche di nervoso vogliamo ricordare Tonino Guerra Tonino Guerra Maurizio ti spiego velocemente chi era Tonino Guerra per qualcuno di voi un soldato era sempre in giro che litigava con tutti no tanto subito sotto musica di rota no quindi fin di Fellini perché?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Non esistono i draghi",
+    "tema": [
+      "bambini",
+      "immaginazione"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": ""
+    "autore": "William Steig"
   },
   {
     "id": "2016-03-16-010",
@@ -131,9 +134,12 @@
     "end": 891.04,
     "speaker_raw": "SPEAKER_08",
     "testo": "allora Antonio Guerra detto Tonino è stato un poeta scrittore e sceneggiatore italiano maestro elementare fu inizialmente appassionato di pittura si dipingeva ad acquerelle d'inchiostro Vuoi che te la legga tu? No, no, no, ha scritto dei film importanti, delle poesie bellissime. Grande sceneggiatore di Fellini, non solo, insomma, ha scritto poesie bellissime.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Antonio Guerra poeta e sceneggiatore",
+    "tema": [
+      "letteratura",
+      "arte"
+    ],
+    "tipo": "citazione",
     "video_url": "",
     "autore": ""
   },
@@ -143,9 +149,12 @@
     "end": 943.5,
     "speaker_raw": "SPEAKER_09",
     "testo": "Non solo Fellini, perché lui ha lavorato anche con Itavia, Monicelli, insomma, sai che l'è. Antonioni Tarkovsky come si chiamava Tarkovsky De Sica De Sica ragazzi lavorare per Tarkovsky De Sica Tarkovsky Fellini basta basta che Fellini ma sì ma poi vuol dire poi Tarkovsky comunque no esatto chi è Tarkovsky? dai Tarkovsky lo specchio cioè un film di quelli lì che tu guardi e dici non ho capito come quando guardi un film di quelli belli insomma sì che sei lì che dici mi è rimasto una roba dentro però non l'ho capito perché ti arriva l'emozione ma non ti arriva razionalmente il perché va bene oggi nasceva Tonino Guerra lo ricordiamo con delle parole che ci arricchiscono la giornata dobbiamo rallentare",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Registi famosi",
+    "tema": [
+      "cinema",
+      "arte"
+    ],
+    "tipo": "citazione",
     "video_url": "",
     "autore": ""
   },
@@ -632,7 +641,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "The Foundations"
+    "autore": "The Foundations",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/3ce747a5-3a9a-4fdb-b2fc-c79831df541a/front-250"
   },
   {
     "id": "2016-03-16-050",

@@ -495,7 +495,9 @@
     ],
     "tipo": "riferimento_film",
     "video_url": "",
-    "autore": "Hal Ashby"
+    "autore": "Hal Ashby",
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/emdyDokptAJVCCCLUozmeOsn2t3.jpg"
   },
   {
     "id": "2017-12-06-045",
@@ -809,7 +811,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Ennio Morricone"
+    "autore": "Ennio Morricone",
+    "confermato_esterno": false
   },
   {
     "id": "2017-12-06-073",
@@ -1731,7 +1734,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Fabio Volo"
+    "autore": "Fabio Volo",
+    "confermato_esterno": false
   },
   {
     "id": "2017-12-06-156",

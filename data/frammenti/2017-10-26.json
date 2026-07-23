@@ -611,7 +611,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "alan sorrenti"
+    "autore": "alan sorrenti",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/52cc9315-cfc6-4f29-b4db-42ff6a140fdd/front-250"
   },
   {
     "id": "2017-10-26-055",
@@ -661,7 +663,8 @@
     ],
     "tipo": "riferimento_film",
     "video_url": "",
-    "autore": "Favino, Battistone"
+    "autore": "Favino, Battistone",
+    "confermato_esterno": false
   },
   {
     "id": "2017-10-26-059",

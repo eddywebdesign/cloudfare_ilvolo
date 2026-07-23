@@ -286,7 +286,9 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Ernesto Che Guevara"
+    "autore": "Ernesto Che Guevara",
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/664050-M.jpg"
   },
   {
     "id": "2017-03-09-026",

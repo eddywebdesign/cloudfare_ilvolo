@@ -286,7 +286,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Bob Marley"
+    "autore": "Bob Marley",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/cfd276bb-8a40-4f9d-ab33-38b4af164cd7/front-250"
   },
   {
     "id": "2018-02-06-026",
@@ -1397,7 +1399,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "The Beatles"
+    "autore": "The Beatles",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/4a23abe8-cb2e-425f-82fb-a9fcb2e70cb4/front-250"
   },
   {
     "id": "2018-02-06-126",

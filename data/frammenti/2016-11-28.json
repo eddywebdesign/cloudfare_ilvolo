@@ -687,7 +687,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Sam Cooke"
+    "autore": "Sam Cooke",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/0d44b1a6-cf65-479c-a88f-caad49b95c3d/front-250"
   },
   {
     "id": "2016-11-28-060",

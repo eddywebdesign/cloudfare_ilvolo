@@ -176,7 +176,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Ray Charles"
+    "autore": "Ray Charles",
+    "confermato_esterno": false
   },
   {
     "id": "2017-03-02-016",
@@ -578,7 +579,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Laura Gibson"
+    "autore": "Laura Gibson",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/5756bf75-7495-471f-b77b-730854fd7470/front-250"
   },
   {
     "id": "2017-03-02-052",
@@ -604,7 +607,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Dante Alighieri"
+    "autore": "Dante Alighieri",
+    "confermato_esterno": true
   },
   {
     "id": "2017-03-02-054",

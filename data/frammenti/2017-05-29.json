@@ -588,7 +588,9 @@
     ],
     "tipo": "riferimento_film",
     "video_url": "",
-    "autore": "Will Smith"
+    "autore": "Will Smith",
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/sY1ugG5EL6Bbem7hPVqNqRowwVx.jpg"
   },
   {
     "id": "2017-05-29-053",
@@ -778,7 +780,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Little Steven"
+    "autore": "Little Steven",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/e9a08e2e-9300-4af0-b3e9-94db5e4d9f34/front-250"
   },
   {
     "id": "2017-05-29-070",

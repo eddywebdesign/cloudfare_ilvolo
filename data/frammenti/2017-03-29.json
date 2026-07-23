@@ -606,7 +606,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Lewis Carroll"
+    "autore": "Lewis Carroll",
+    "confermato_esterno": true
   },
   {
     "id": "2017-03-29-055",
@@ -642,7 +643,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "The Beatles"
+    "autore": "The Beatles",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/11b079cd-3e1a-47d2-8bf1-b552925f8c25/front-250"
   },
   {
     "id": "2017-03-29-058",

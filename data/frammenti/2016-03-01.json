@@ -388,7 +388,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Johann Wolfgang von Goethe"
+    "autore": "Johann Wolfgang von Goethe",
+    "confermato_esterno": false
   },
   {
     "id": "2016-03-01-030",

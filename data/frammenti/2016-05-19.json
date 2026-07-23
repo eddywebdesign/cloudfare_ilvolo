@@ -519,9 +519,9 @@
     "end": 1147.46,
     "speaker_raw": "SPEAKER_07",
     "testo": "... ... ... ... ... ... no no no",
-    "titolo": "",
+    "titolo": "Nessuna citazione valida",
     "tema": [],
-    "tipo": "",
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -530,9 +530,12 @@
     "end": 1219.56,
     "speaker_raw": "SPEAKER_11",
     "testo": "allora un ascoltatore scrive Maurizio come si chiama che dice io sarei disposto anche se Viola dice che è sbagliato a spendere dei soldi per l'applicazione di supercar come si chiama come si chiama lo sai aspetta devo uscire dall'applicazione ai supercar i supercar ah come l'iphone si bravo ok i supercar ok vogliamo sentire un'altra barzelletta di si sta accendendo aspetta Che freddure, che freddure Va bene, andiamo in pubblicità con l'altra canzone famosissima di Nino Toffolo Magari sentendo questo inizio non ve lo ricordate Ma poi? Ma poi invece quando dice Eins, zwei, paste e fagioli Signorina, eine paste e fagioli bitte",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Applicazione SuperCar iPhone",
+    "tema": [
+      "tecnologia",
+      "soldi"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -777,11 +780,13 @@
     "end": 1872.12,
     "speaker_raw": "SPEAKER_11",
     "testo": "E questa è Tracy Chapman, da un armadio di Manhattan, talking about revolution.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Talking About Revolution",
+    "tema": [
+      "rivoluzione"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": ""
+    "autore": "Tracy Chapman"
   },
   {
     "id": "2016-05-19-065",
@@ -926,11 +931,14 @@
     "end": 2151.26,
     "speaker_raw": "SPEAKER_10",
     "testo": "mister robot è quella che hai parlato tu però è quella più cool 221163 che sta andando in onda in questo periodo che è una miniserie tratta da un libro di Stephen King bella quella quella è molto carina per caso hai visto quella di Depardieu e Sunetti Marseille come no bella molto bella soprattutto ha un taglio europeo che cosa come si sostanzia il taglio europeo come si sostanzia e che i protagonisti non sono americani non sono tipicamente con quei tratti lì tutti belli e tutti fighi ah insomma stai dicendo che noi europei siamo dei cessi no siamo fatti un po' diversi però facciamo le serie anche con i brutti Facciamo le serie meno pettinate. Poi cosa mi dici di Gomorra?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Miniserie di Stephen King",
+    "tema": [
+      "televisione",
+      "libro"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": ""
+    "autore": "Stephen King"
   },
   {
     "id": "2016-05-19-078",

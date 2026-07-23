@@ -239,7 +239,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "David Bowie"
+    "autore": "David Bowie",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-11-020",
@@ -347,7 +348,9 @@
     ],
     "tipo": "riferimento_film",
     "video_url": "",
-    "autore": "Alejandro González Iñárritu"
+    "autore": "Alejandro González Iñárritu",
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/oKMTFRO9bCOC7FpYy3zstmBel8J.jpg"
   },
   {
     "id": "2016-01-11-028",
@@ -424,7 +427,9 @@
     ],
     "tipo": "riferimento_film",
     "video_url": "",
-    "autore": "Ryan Coogler"
+    "autore": "Ryan Coogler",
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/mhqVOe6yxBpVQBIdMjDnGDSMTXB.jpg"
   },
   {
     "id": "2016-01-11-034",
@@ -478,7 +483,9 @@
     ],
     "tipo": "riferimento_film",
     "video_url": "",
-    "autore": "Quentin Tarantino"
+    "autore": "Quentin Tarantino",
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/q97e00kaVT4aVDZenZK3ebV6u9t.jpg"
   },
   {
     "id": "2016-01-11-038",
@@ -1154,6 +1161,7 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Luigi De Andrè"
+    "autore": "Luigi De Andrè",
+    "confermato_esterno": false
   }
 ]

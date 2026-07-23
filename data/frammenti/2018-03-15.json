@@ -452,7 +452,9 @@
     ],
     "tipo": "riferimento_film",
     "video_url": "",
-    "autore": "Roberto Benigni"
+    "autore": "Roberto Benigni",
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/Moz0CzJ44U9L3ADxlVE24LTwY4.jpg"
   },
   {
     "id": "2018-03-15-041",

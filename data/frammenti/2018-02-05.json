@@ -341,7 +341,9 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Antoine de Saint-Exupéry"
+    "autore": "Antoine de Saint-Exupéry",
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/13626459-M.jpg"
   },
   {
     "id": "2018-02-05-031",
@@ -1031,7 +1033,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Lucio Dalla"
+    "autore": "Lucio Dalla",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/b2a3cf78-fc5d-4527-b18a-478cc1db7fde/front-250"
   },
   {
     "id": "2018-02-05-093",

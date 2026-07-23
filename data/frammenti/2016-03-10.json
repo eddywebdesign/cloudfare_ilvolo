@@ -22,7 +22,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Elisa"
+    "autore": "Elisa",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/9b62e6a4-3b54-4f0c-9a41-5f386b44a6eb/front-250"
   },
   {
     "id": "2016-03-10-002",
@@ -594,7 +596,9 @@
     ],
     "tipo": "riferimento_film",
     "video_url": "",
-    "autore": "fratelli Coe"
+    "autore": "fratelli Coe",
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/bWezs5KaRGomGLclXIfXOpeEyxU.jpg"
   },
   {
     "id": "2016-03-10-049",

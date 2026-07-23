@@ -338,7 +338,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Pink Floyd"
+    "autore": "Pink Floyd",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/452d6dcc-ff0e-4a93-aead-b8220e9bb488/front-250"
   },
   {
     "id": "2016-04-20-028",

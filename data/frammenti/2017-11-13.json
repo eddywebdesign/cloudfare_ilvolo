@@ -575,7 +575,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Dua Lipa"
+    "autore": "Dua Lipa",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/58cc3b68-1a2a-4309-a36e-7f7fea61a653/front-250"
   },
   {
     "id": "2017-11-13-052",

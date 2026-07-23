@@ -721,7 +721,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Marvin Gaye"
+    "autore": "Marvin Gaye",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/8542c6dc-586b-4cc6-9d97-78d04e44803a/front-250"
   },
   {
     "id": "2017-11-15-065",
@@ -1098,7 +1100,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Vanity Fair"
+    "autore": "Vanity Fair",
+    "confermato_esterno": false
   },
   {
     "id": "2017-11-15-099",
@@ -1301,7 +1304,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Fabio Volo"
+    "autore": "Fabio Volo",
+    "confermato_esterno": false
   },
   {
     "id": "2017-11-15-117",
@@ -1608,7 +1612,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Bert Hellinger"
+    "autore": "Bert Hellinger",
+    "confermato_esterno": false
   },
   {
     "id": "2017-11-15-144",

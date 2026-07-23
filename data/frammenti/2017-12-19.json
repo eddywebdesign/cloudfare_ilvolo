@@ -1891,7 +1891,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Giovanotti"
+    "autore": "Giovanotti",
+    "confermato_esterno": false
   },
   {
     "id": "2017-12-19-169",
@@ -2123,7 +2124,9 @@
     "tema": [],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Elbow"
+    "autore": "Elbow",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/b8d127d9-4254-414d-bafb-5a5690c9e452/front-250"
   },
   {
     "id": "2017-12-19-190",

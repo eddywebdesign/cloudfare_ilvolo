@@ -184,9 +184,12 @@
     "end": 887.82,
     "speaker_raw": "SPEAKER_01",
     "testo": "Ma salvatore signore nel senso che ha salvato la signora, non è il suo nome. Scusa, scusa. Pronto? Pronto Max, sono Fabio Volo, come stai? Bene. Max da opera, un eroe. Intanto volevo capire, perché molti non sanno che cos'è esattamente. Praticamente è quella cosa lì dove uno si mette dietro e ti... Cosa fa? Tira? Esatto.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Salvataggio in giacca e cravatta",
+    "tema": [
+      "eroe",
+      "salvataggio"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -250,9 +253,12 @@
     "end": 1006.61,
     "speaker_raw": "SPEAKER_05",
     "testo": "No, no, la signora è rimasta lì un attimino poi a riprendersi e ha soltanto pronunciato dopo qualche minuto, ho visto San Pietro. Ah, ok. più brutta lei che io, evidentemente.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Paradiso guadagnato",
+    "tema": [
+      "paradiso",
+      "salvataggio"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -305,9 +311,12 @@
     "end": 1055.41,
     "speaker_raw": "SPEAKER_01",
     "testo": "Esatto, e poi soprattutto per te andare in giro a salvare le vite deve essere una cosa che devi diventare. Ormai è diventata una rutina. ciao scusami se ti abbiamo disturbato ciao Max grazie grazie a voi ciao grazie ciao ciao ciao bravo il nostro Salvatore eh ma non si chiama Salvatore si chiama Max da opera capito? poi opera perché opera capisci? è sempre tutto fatto apposta",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Max da opera",
+    "tema": [
+      "eroe",
+      "salvataggio"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

@@ -180,7 +180,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Bob Marley"
+    "autore": "Bob Marley",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/2890b763-d5fc-42ea-8f16-497fc4138a04/front-250"
   },
   {
     "id": "2018-02-07-016",
@@ -473,7 +475,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Totto Cotugno"
+    "autore": "Totto Cotugno",
+    "confermato_esterno": false
   },
   {
     "id": "2018-02-07-042",
@@ -909,7 +912,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "henry de luca"
+    "autore": "henry de luca",
+    "confermato_esterno": false
   },
   {
     "id": "2018-02-07-081",

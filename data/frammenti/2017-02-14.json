@@ -477,7 +477,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Vasco Rossi"
+    "autore": "Vasco Rossi",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/333d0d4f-4d32-421c-b23c-907388ba3069/front-250"
   },
   {
     "id": "2017-02-14-043",

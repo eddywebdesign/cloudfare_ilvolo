@@ -330,7 +330,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "MGMT"
+    "autore": "MGMT",
+    "confermato_esterno": false
   },
   {
     "id": "2017-10-06-030",
@@ -461,7 +462,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Negramaro"
+    "autore": "Negramaro",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/3449fda9-4cce-42aa-b720-884942d360a4/front-250"
   },
   {
     "id": "2017-10-06-041",
@@ -487,7 +490,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Nan Goldin"
+    "autore": "Nan Goldin",
+    "confermato_esterno": false
   },
   {
     "id": "2017-10-06-043",
@@ -502,7 +506,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Nan Goldin"
+    "autore": "Nan Goldin",
+    "confermato_esterno": false
   },
   {
     "id": "2017-10-06-044",
@@ -527,7 +532,9 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Michelangelo Merisi"
+    "autore": "Michelangelo Merisi",
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/552315-M.jpg"
   },
   {
     "id": "2017-10-06-046",
@@ -862,7 +869,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "DJ Francesco"
+    "autore": "DJ Francesco",
+    "confermato_esterno": false
   },
   {
     "id": "2017-10-06-076",

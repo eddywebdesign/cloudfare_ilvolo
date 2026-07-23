@@ -683,7 +683,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Imagine Dragons"
+    "autore": "Imagine Dragons",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/dd4fd399-b094-447b-b690-a30944a3e8eb/front-250"
   },
   {
     "id": "2016-03-21-055",

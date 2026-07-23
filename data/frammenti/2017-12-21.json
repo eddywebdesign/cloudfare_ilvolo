@@ -66,7 +66,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Nine Inch Nails"
+    "autore": "Nine Inch Nails",
+    "confermato_esterno": false
   },
   {
     "id": "2017-12-21-006",
@@ -636,7 +637,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Fabio Volo"
+    "autore": "Fabio Volo",
+    "confermato_esterno": false
   },
   {
     "id": "2017-12-21-057",

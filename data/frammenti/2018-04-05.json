@@ -45,7 +45,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "H.E.R."
+    "autore": "H.E.R.",
+    "confermato_esterno": false
   },
   {
     "id": "2018-04-05-004",
@@ -755,7 +756,8 @@
     ],
     "tipo": "riferimento_film",
     "video_url": "",
-    "autore": "George Clooney"
+    "autore": "George Clooney",
+    "confermato_esterno": false
   },
   {
     "id": "2018-04-05-068",

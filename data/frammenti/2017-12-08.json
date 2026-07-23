@@ -599,7 +599,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Paola Celanese, Alessandro Turchi"
+    "autore": "Paola Celanese, Alessandro Turchi",
+    "confermato_esterno": false
   },
   {
     "id": "2017-12-08-054",
@@ -866,7 +867,8 @@
     "tema": [],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Kodaline"
+    "autore": "Kodaline",
+    "confermato_esterno": false
   },
   {
     "id": "2017-12-08-078",
@@ -1071,7 +1073,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Libero"
+    "autore": "Libero",
+    "confermato_esterno": false
   },
   {
     "id": "2017-12-08-096",

@@ -45,7 +45,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Leo Tolstoy"
+    "autore": "Leo Tolstoy",
+    "confermato_esterno": false
   },
   {
     "id": "2017-05-24-004",

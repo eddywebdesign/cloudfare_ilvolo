@@ -264,7 +264,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Billy Idol"
+    "autore": "Billy Idol",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/1aefc1d8-a5cf-4ca7-8f23-d6aabb099bfe/front-250"
   },
   {
     "id": "2017-02-28-024",
@@ -874,7 +876,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Train"
+    "autore": "Train",
+    "confermato_esterno": false
   },
   {
     "id": "2017-02-28-079",

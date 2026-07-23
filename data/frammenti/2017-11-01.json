@@ -541,7 +541,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Bill Evans"
+    "autore": "Bill Evans",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/7720f8f5-efeb-4307-846c-eaf41cccfbea/front-250"
   },
   {
     "id": "2017-11-01-049",
@@ -920,7 +922,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Christina Aguilera"
+    "autore": "Christina Aguilera",
+    "confermato_esterno": false
   },
   {
     "id": "2017-11-01-083",

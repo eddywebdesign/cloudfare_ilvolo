@@ -132,7 +132,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Al Green"
+    "autore": "Al Green",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/046dedcc-f8bc-48f4-9139-30b5f3587798/front-250"
   },
   {
     "id": "2017-10-04-012",
@@ -619,7 +621,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "professoressa Anna Pari dottoressa"
+    "autore": "professoressa Anna Pari dottoressa",
+    "confermato_esterno": false
   },
   {
     "id": "2017-10-04-056",
@@ -779,7 +782,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Franco Battiato"
+    "autore": "Franco Battiato",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/234975bc-c2e5-45a0-915f-cce7c2f85112/front-250"
   },
   {
     "id": "2017-10-04-070",

@@ -57,7 +57,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Elbow"
+    "autore": "Elbow",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/37f34e39-e137-4398-9f04-4a3342814e16/front-250"
   },
   {
     "id": "2017-05-03-005",
@@ -282,7 +284,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Annie Lennox"
+    "autore": "Annie Lennox",
+    "confermato_esterno": false
   },
   {
     "id": "2017-05-03-025",
@@ -318,7 +321,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Fabio Volo"
+    "autore": "Fabio Volo",
+    "confermato_esterno": false
   },
   {
     "id": "2017-05-03-028",
@@ -476,7 +480,8 @@
     ],
     "tipo": "riferimento_film",
     "video_url": "",
-    "autore": "Damien Hirst"
+    "autore": "Damien Hirst",
+    "confermato_esterno": false
   },
   {
     "id": "2017-05-03-042",
@@ -524,7 +529,8 @@
     ],
     "tipo": "riferimento_film",
     "video_url": "",
-    "autore": "Damien Hirst"
+    "autore": "Damien Hirst",
+    "confermato_esterno": false
   },
   {
     "id": "2017-05-03-046",
@@ -815,7 +821,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Alberti"
+    "autore": "Alberti",
+    "confermato_esterno": false
   },
   {
     "id": "2017-05-03-072",

@@ -31,7 +31,9 @@
     "tema": [],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "John Lennon"
+    "autore": "John Lennon",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/42446e6c-bb56-4604-992a-f6411128c791/front-250"
   },
   {
     "id": "2017-11-06-003",
@@ -144,7 +146,8 @@
     "tema": [],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Noel Gallagher"
+    "autore": "Noel Gallagher",
+    "confermato_esterno": false
   },
   {
     "id": "2017-11-06-013",
