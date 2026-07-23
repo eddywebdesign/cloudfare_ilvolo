@@ -266,9 +266,26 @@ def estrai_riferimenti(testo: str) -> list[dict]:
     return tutti
 
 
-CONDUTTORI_PROGRAMMA = {"fabio volo", "fabio", "maurizio", "viola"}
+CONDUTTORI_PROGRAMMA = {"fabio volo", "fabio", "volo", "maurizio", "viola"}
 # Normalizzati (vedi _normalizza_titolo) — persone del programma stesso, mai autori
 # reali di musica/film. Usato in merge_riferimenti().
+
+
+def _autore_e_solo_conduttori(autore: str) -> bool:
+    """Trovato 2026-07-23 in produzione: autore='Volo, Maurizio, Viola' (i tre
+    conduttori elencati insieme) bypassava il controllo CONDUTTORI_PROGRAMMA perche'
+    quello confrontava la stringa intera, non uguale a nessun singolo nome. Qui si
+    divide su virgole/"e"/"&" e si scarta solo se OGNI token risultante e' un
+    conduttore (un autore reale citato insieme a un conduttore, es. "Maurizio e Vasco
+    Rossi", NON viene scartato: basta un token che non sia un conduttore)."""
+    if not (autore or "").strip():
+        return False
+    # Split PRIMA di normalizzare: _normalizza_titolo toglie la punteggiatura (incluse
+    # le virgole), quindi va fatto sulla stringa originale o "Volo, Maurizio, Viola"
+    # diventerebbe un unico token "volo maurizio viola" mai uguale a un nome singolo.
+    token = [_normalizza_titolo(t) for t in re.split(r",|\be\b|&", autore, flags=re.IGNORECASE)]
+    token = [t for t in token if t]
+    return bool(token) and all(t in CONDUTTORI_PROGRAMMA for t in token)
 
 TITOLO_SIMILARITY_SOGLIA = 0.85  # sopra questa soglia (difflib) un titolo e' considerato doppione,
 # stessa soglia/logica di trascrivi_locale_episodi.py::_titolo_e_doppione (duplicata qui invece di
@@ -407,7 +424,7 @@ def merge_riferimenti(data_str: str, nuovi: list[dict], testo: str, durata: floa
         # basta a scartarlo. Per "libro" NON si scarta: Fabio Volo e' un autore pubblicato
         # reale, li' serve la verifica esterna (Open Library) per distinguere i titoli
         # veri da quelli inventati, non un'esclusione cieca.
-        if cat in ("musica", "film") and _normalizza_titolo(ref.get("autore", "")) in CONDUTTORI_PROGRAMMA:
+        if cat in ("musica", "film") and _autore_e_solo_conduttori(ref.get("autore", "")):
             conduttori_scartati += 1
             continue
         if _titolo_e_doppione(titolo, titoli_per_categoria.get(cat, [])):

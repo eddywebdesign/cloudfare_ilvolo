@@ -219,9 +219,22 @@ def _titolo_e_frase_di_conversazione(titolo: str) -> bool:
     return sum(1 for p in parole if p in VERBI_CONVERSAZIONE) >= 2
 
 
-CONDUTTORI_PROGRAMMA = {"fabio volo", "fabio", "maurizio", "viola"}
+CONDUTTORI_PROGRAMMA = {"fabio volo", "fabio", "volo", "maurizio", "viola"}
 # Stessa lista/motivazione di trascrivi_e_estrai_clip.py::CONDUTTORI_PROGRAMMA (duplicata
 # qui per lo stesso motivo di TITOLO_SIMILARITY_SOGLIA sopra: evitare import circolare).
+
+
+def _autore_e_solo_conduttori(autore: str) -> bool:
+    """Stessa logica di trascrivi_e_estrai_clip.py::_autore_e_solo_conduttori — trovato
+    2026-07-23 in produzione: autore='Volo, Maurizio, Viola' bypassava il controllo
+    per uguaglianza esatta. Scarta solo se OGNI nome elencato e' un conduttore."""
+    if not (autore or "").strip():
+        return False
+    # Split PRIMA di normalizzare, stesso motivo di trascrivi_e_estrai_clip.py::
+    # _autore_e_solo_conduttori (le virgole sparirebbero prima di poterle usare).
+    token = [_normalizza_per_ancoraggio(t) for t in re.split(r",|\be\b|&", autore, flags=re.IGNORECASE)]
+    token = [t for t in token if t]
+    return bool(token) and all(t in CONDUTTORI_PROGRAMMA for t in token)
 
 
 def _riferimento_valido(titolo: str, autore: str, testo: str, tipo: str = "") -> bool:
@@ -239,7 +252,7 @@ def _riferimento_valido(titolo: str, autore: str, testo: str, tipo: str = "") ->
         return False
     t_norm = _normalizza_per_ancoraggio(titolo)
     a_norm = _normalizza_per_ancoraggio(autore)
-    if tipo in ("riferimento_film", "riferimento_musica") and a_norm in CONDUTTORI_PROGRAMMA:
+    if tipo in ("riferimento_film", "riferimento_musica") and _autore_e_solo_conduttori(autore):
         return False
     if any(s in a_norm for s in AUTORE_PLACEHOLDER_SOTTOSTRINGHE):
         return False
