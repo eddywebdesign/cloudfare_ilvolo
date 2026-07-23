@@ -38,6 +38,17 @@ python3 -u scripts/riclassifica_frammenti.py >> "$LOG" 2>&1
 rc1=$?
 echo "$(ts) riclassifica_frammenti.py terminato (exit $rc1)." >> "$LOG"
 
+# Aggiunto 2026-07-23 su richiesta esplicita dell'utente: OGNI riferimento_libro/
+# film/musica dentro i frammenti (appena classificato sopra, da Groq/Cerebras/Gemini/
+# Ollama) va confrontato con un database esterno reale (Open Library/TMDB/MusicBrainz),
+# non solo con l'ancoraggio al testo — trovati errori concreti nel primo run manuale
+# (es. "Il Mulino Bianco" classificato come libro, "Vasco Rossi" come titolo canzone
+# senza autore). NON cancella nulla da solo, solo marca confermato_esterno true/false.
+echo "$(ts) Avvio verifica_riferimenti_esterna.py --dataset frammenti..." >> "$LOG"
+python3 -u scripts/verifica_riferimenti_esterna.py --dataset frammenti >> "$LOG" 2>&1
+rc1b=$?
+echo "$(ts) verifica_riferimenti_esterna.py (frammenti) terminato (exit $rc1b)." >> "$LOG"
+
 echo "$(ts) Avvio verifica_frammenti.py..." >> "$LOG"
 python3 -u scripts/verifica_frammenti.py >> "$LOG" 2>&1
 rc2=$?
@@ -93,7 +104,7 @@ json.dump({
     'resultado': resultato,
     'archivos_clasificados': classificati,
     'ultima_ejecucion': '$(ts)',
-    'mensaje': 'estrai_riferimenti_nuovi=$rc0 riclassifica=$rc1 verifica_frammenti=$rc2 verifica_riferimenti=$rc3 reprocessa_riferimenti=$rc4',
+    'mensaje': 'estrai_riferimenti_nuovi=$rc0 riclassifica=$rc1 verifica_esterna_frammenti=$rc1b verifica_frammenti=$rc2 verifica_riferimenti=$rc3 reprocessa_riferimenti=$rc4',
 }, open(logs_dir / 'estado_clasificacion.json', 'w', encoding='utf-8'))
 "
 echo "$(ts) estado_clasificacion.json aggiornato." >> "$LOG"
