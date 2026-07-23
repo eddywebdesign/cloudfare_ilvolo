@@ -316,10 +316,11 @@
     "end": 1021.94,
     "speaker_raw": "SPEAKER_08",
     "testo": "Ciao Ciao Ciao I thought we would last Now that you're through I can feel your soul Where there was love lies an empty hole",
-    "titolo": "",
+    "titolo": "I thought we would last",
     "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "The Smiths"
   },
   {
     "id": "2017-01-20-029",
@@ -465,9 +466,12 @@
     "end": 1569.84,
     "speaker_raw": "SPEAKER_01",
     "testo": "Vorrei udlare il nome di Tiziana, la mia amica in cielo. Arriva questo messaggio, momento molto bello e anche momento molto triste. Ciao Tiziana. Allora, pensavo che ridere, pensavo di essere l'unica a intossicarmi di notte al balcone quando la prole dorme. Il posacenere non esiste a casa nostra. Io rigorosamente bicchiere di plastica pieno d'acqua. posso dire, mi interrompo subito io anche quando ero fumatore è una delle cose che mi fa vomitare quando la vedo nel vero senso della parola mi tocca, quando vedo le sigarette che galleggiano e dopo un po' cominciano, si sfaldano la carta galleggia a parte che una volta l'ho bevuta da una lattina non è vero comunque bicchiere di plastica pieno d'acqua che viene buttato dopo la terza sigaretta ok, così mia figlia più grande non mi sgama perché poi c'hai anche i figli che ffff ffff basta quando mangi biscotti biscotti hai mangiato biscotti?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "posacenere di plastica",
+    "tema": [
+      "amicizia",
+      "abitudini"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

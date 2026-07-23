@@ -343,10 +343,14 @@
     "end": 1728.45,
     "speaker_raw": "SPEAKER_01",
     "testo": "subito di strappone va bene allora senti una cosa tu fai questo abbiamo chiamato perché fai questo spettacolo no grazie che è uno spettacolo di daniel pegnac nel teatro al buio dell'istituto cieco di milano cioè praticamente tu fai una performa diciamo appunto metti in scena questo spettacolo però diciamo possono venire diciamo vedenti o non vedenti perché tutto al buio se tu non vedi nulla sei su un palco buio",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "spettacolo al buio",
+    "tema": [
+      "cieco",
+      "esperienza"
+    ],
+    "tipo": "riferimento_film",
+    "video_url": "",
+    "autore": "Daniel Pagnac"
   },
   {
     "id": "2017-03-01-031",
@@ -467,9 +471,12 @@
     "end": 2154.28,
     "speaker_raw": "SPEAKER_01",
     "testo": "vabbè insomma siamo normali come i corridoi di radio di gelo ti ringrazio Fabio perché è la prima volta che dico una cosa del genere ai miei studenti sono contento da un colpo di gioventù professore noi siamo rimasti l'ultima volta che si faceva la liposuzione alle mosche per fare del carburante per le macchine",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "studenti e liposuzione",
+    "tema": [
+      "gioventù",
+      "scuola"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

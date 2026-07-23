@@ -489,10 +489,13 @@
     "end": 1687.94,
     "speaker_raw": "SPEAKER_00",
     "testo": "Bene, resistiamo, sei molto impegnato, sei in questo momento a Napoli anche per Sangre Napoli Magari a Napoli, a Milano Scusami a Milano, ti chiedo scusa se le mie pronunce di Sangre Napoli Sangre Napoli Sangre Spagnolo Ok, San Gennaro è la storia di San Gennaro, poi ovviamente il libro, l'apparenza dei bambini, insomma una doppia tournée che ti ha impegnato molto ultimamente. Poi al di là di questo si leggono i tuoi due articoli su Repubblica, insomma sei abbastanza sotto l'obiettivo. Allora... intanto ti volevo dire questa cosa che è la prima domanda che mi viene in mente che non sentenete né col libro né così che è abbastanza personale che è la prima domanda che ti ho fatto quando ti ho incontrato una volta privatamente se tu ti puoi permettere la felicità cioè io la prima cosa che ti ho detto è se tu un giorno vai in un programma televisivo e sei felice il giorno dopo tu la devi pagare di più cioè te non ti è permesso fare come si dice il cazzone nel senso tu devi sempre tenere un'immagine austera quello che scrivi non puoi mai sbagliare io qua delle mattine dico delle puttanate se tu sbagli un nome finita e crolla tutto il castello quindi avrai al di là di tutti i tuoi problemi però anche una tensione proprio focalizzata su come vieni percepito continuamente quindi tu ridi da solo con i tuoi amici in un angolo a volte qualcuno me lo dice ma poi alla fine sai in fondo sei anche simpatico non me l'aspettavo che delusione perché sei un ragazzo giovane ma tu riderai ogni tanto no?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "l'apparenza dei bambini",
+    "tema": [
+      "storia"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Paolo Sorrentino"
   },
   {
     "id": "2017-01-12-044",
@@ -643,9 +646,11 @@
     "end": 2166.5,
     "speaker_raw": "SPEAKER_09",
     "testo": "How many lives do I have to wait? How many hearts does it take to break this body? Do I feel like somebody? How many lives do I have to wait? How many hearts does it take to break this body? Do I feel like somebody? I wanna live, I wanna die, on a silver lining",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "How many lives do I have to wait?",
+    "tema": [
+      "dolore"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {

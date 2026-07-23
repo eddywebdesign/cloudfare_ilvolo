@@ -600,10 +600,13 @@
     "end": 2471.42,
     "speaker_raw": "SPEAKER_01",
     "testo": "Raggino è veramente proprio bravo è una penna pazzesca in più mi aiuta a scrivere un sacco di belle canzoni o meglio la gente pensa che siano belle proprio perché lui mi aiuta a scriverle ma noi sappiamo scriverle e ecco quindi hai voluto ricambiare qualche cosa hai stato veramente guarda un gesto io mi sono quasi commosso no ma anch'io ora che lo so non avevo capito perché poi lei per discrezione non mi ha spiegato esattamente ma perché una signora tu quando torni da Fazio me lo devi dire che ti do il mio",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Belle canzoni",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Raggino"
   },
   {
     "id": "2016-11-22-050",

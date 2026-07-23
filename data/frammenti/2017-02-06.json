@@ -282,9 +282,12 @@
     "end": 1528.63,
     "speaker_raw": "SPEAKER_05",
     "testo": "E poi ti fermi al primo ristorante e non ci pensi più. Te ne sei accorto sì, che tutto questo rischio calcolato toglie il sapore pure al cioccolato e non ti basta più. Ma l'hai capito che non serve a niente mostrarti sorridente agli occhi della gente e che il dolore serve Proprio come serve la felicità Te ne sei accorto, sì?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "rischi e sapore",
+    "tema": [
+      "dolore",
+      "felicità"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -304,9 +307,12 @@
     "end": 1587.9,
     "speaker_raw": "SPEAKER_05",
     "testo": "Quella barchetta ferma in mezzo al mare e non ti butti mai. Te ne sei accorto o no? Che non c'hai più le palle per rischiare di diventare quello che ti pare e non ci credi. Perché morire serve anche a rinascere",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "barchetta nel mare",
+    "tema": [
+      "rischio",
+      "crescita"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -559,9 +565,12 @@
     "end": 2049.67,
     "speaker_raw": "SPEAKER_02",
     "testo": "Oh, non ha importanza. Non sottovalutare questa tessera, Bobby. Quei libri valgono più dell'oro. Vedi, i grandi scrittori ci fanno passare delle belle serate da secoli. E dai un'ora o due per agganciarti e se non ci riesce, tanti saluti e passiamo altro.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "grandi scrittori ci fanno passare belle serate",
+    "tema": [
+      "lettura",
+      "tempo"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -570,9 +579,12 @@
     "end": 2291.7,
     "speaker_raw": "SPEAKER_01",
     "testo": "Io leggo 4 o 5 libri al mese, il mio Kindle è carico di 579 libri. compreso il suo ultimo Silvia Silvia Silvia Silvia allora valgono anche riviste specializzate come lettura cioè io magari non leggo libri ma leggo riviste di settore no questo studio qui è soltanto sui libri è sui libri ok io purtroppo ragazzi sono come avete appena detto mi perdo in Facebook e leggo sempre meno io qua io l'ultimo libro che ho letto è alle medie è vero no questo Fontamara si leggeva alle medie o Italo Calvino o Italo Calvino eh All'asilo dove va mio figlio, l'elementario fa leggere un libro a settimana dicendo che è un grande lettore e un grande pensatore, i bambini sono contenti, viva la scuola pubblica No ma infatti io sono perfettamente d'accordo anche se so, almeno su di me, che l'imposizione di alcuni titoli mi hanno fatto assolutamente rifiutare Beh, i promessi sposi, molte persone odiano questo libro che è un capolavoro.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "leggo riviste di settore",
+    "tema": [
+      "lettura",
+      "studio"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

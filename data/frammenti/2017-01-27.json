@@ -315,9 +315,11 @@
     "end": 799.86,
     "speaker_raw": "SPEAKER_11",
     "testo": "È brutto lasciarsi all'aeroporto. È già brutto quando uno va via e si sta bene, che lo vedi anche sul treno, che adesso non puoi più accompagnare fino ai binari, no? È vero. No, non si può più. È vero.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "lasciarsi all'aeroporto",
+    "tema": [
+      "addio"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

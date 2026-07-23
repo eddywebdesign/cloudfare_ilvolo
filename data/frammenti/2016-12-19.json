@@ -93,9 +93,12 @@
     "end": 269.31,
     "speaker_raw": "SPEAKER_17",
     "testo": "ero con mia madre mi ricordo uscivamo dalla piscina d'estate c'era il signor Drupi con i capelli lunghi sì sì ma ecco certo e entravano lo so in un garage allora e gli ho detto mamma mamma mamma quello è Drupi e allora mia mamma è andata lì e ci può fare un po' signor Drupi può fare una foto allora fermi un attimo sigla e poi un pezzo di Drupi sigla e poi ah va bene vai",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Incontro con Drupi da bambino",
+    "tema": [
+      "incontro",
+      "infanzia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -437,10 +440,13 @@
     "end": 1163.12,
     "speaker_raw": "SPEAKER_17",
     "testo": "Maurizio, disannuncia tu questo disco. Somewhere Anywhere featuring Claudiman, a short love story.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Somewhere Anywhere",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Claudiman"
   },
   {
     "id": "2016-12-19-040",

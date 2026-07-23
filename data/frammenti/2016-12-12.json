@@ -363,10 +363,13 @@
     "end": 887.94,
     "speaker_raw": "SPEAKER_16",
     "testo": "ma lasciando tutte le foglie sembrava una poesia di Carducci la stiga è la mamma perché quando tu cresci che è la mamma che ti dice si prendi freddo se cammini scalzo ecco lì la stiga che io sono cresciuta con questo incubo metti le tabatte sai che io l'altro giorno mentre ero in bagno ho fatto questa riflessione che è bello quelli che hanno le case nuove col riscaldamento nel pavimento ah quella è una",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "poesia di Carducci",
+    "tema": [
+      "natura"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Giosuè Carducci"
   },
   {
     "id": "2016-12-12-033",
@@ -487,9 +490,11 @@
     "end": 1684.93,
     "speaker_raw": "SPEAKER_13",
     "testo": "Prendeva il disco, è entrato Nicola, ha fatto il motivatore. Forza, forza! Dai ragazzi, dai! We praise the Lord, no, Jesus! Jesus, Jesus!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "motivatore entrante",
+    "tema": [
+      "religione"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {

@@ -549,9 +549,11 @@
     "end": 1804.31,
     "speaker_raw": "SPEAKER_13",
     "testo": "Ho aperto una letterina ed è piena di lavanda e ha sporcato tutto il banco. Chi glielo dice a Vito adesso? Scusami, è Beatrice, la ragazza da lavanda. Ci ha mandato una lettera con la lavanda.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "letterina lavanda",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

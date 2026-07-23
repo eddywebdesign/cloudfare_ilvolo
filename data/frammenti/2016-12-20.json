@@ -505,10 +505,13 @@
     "end": 973.32,
     "speaker_raw": "SPEAKER_02",
     "testo": "semplicissimo cioè uno che non legge gli italiani leggono molto poco e poi poi se il domandatore è una persona divertente so che tu hai fama di essere una persona singolare sono felice molto di rispondere a qualunque tipo di domanda cioè la domanda che mi devi fare tu deve essere questa secondo lei l'audiolibro tu devi domandarmi e per un po' mi domanderai ma qual è il vantaggio lo stai domandando però ridomandalo qual è il vantaggio lo domando io ok",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "audiolibro Paolo Villaggio",
+    "tema": [
+      "lettura"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Paolo Villaggio"
   },
   {
     "id": "2016-12-20-046",
@@ -1080,10 +1083,14 @@
     "end": 2575.92,
     "speaker_raw": "SPEAKER_01",
     "testo": "allora andiamo a Varese Villa Panza di Varese dove c'è uno che tu dovresti conoscere a mare se non altro perché è new yorkese ok Bob Wilson grande regista teatro ma non era un cantante?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Bob Wilson regista teatro",
+    "tema": [
+      "arte",
+      "teatro"
+    ],
+    "tipo": "riferimento_film",
+    "video_url": "",
+    "autore": "Bob Wilson"
   },
   {
     "id": "2016-12-20-096",

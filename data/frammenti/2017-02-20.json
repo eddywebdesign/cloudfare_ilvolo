@@ -305,9 +305,12 @@
     "end": 1278.52,
     "speaker_raw": "SPEAKER_04",
     "testo": "Te ne sei accorto, sì, che tutto questo rischio calcolato toglie il sapore pure al cioccolato e non ti basta più. Ma l'hai capito che non serve a niente mostrarti sorridente agli occhi della gente e che il dolore serve proprio come serve la felicità.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "rischio calcolato toglie sapore",
+    "tema": [
+      "dolore",
+      "felicità"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

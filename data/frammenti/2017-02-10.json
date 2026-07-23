@@ -515,9 +515,12 @@
     "end": 1123.32,
     "speaker_raw": "SPEAKER_05",
     "testo": "Cos'è? Gli ha coperto. Avevo un drago e mancava tutta la parte intorno, ma me l'ha riempito praticamente. Poi gli occhi di Buddha, un ragazzo in Nepal.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "tatuaggi in viaggio",
+    "tema": [
+      "viaggio",
+      "arte"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -559,9 +562,11 @@
     "end": 1194.02,
     "speaker_raw": "SPEAKER_07",
     "testo": "il mondo è così bello senza te è così bello il mio cuore è così pesante come la palla che abbiamo costruito ci mantiene da lavorare il mio cuore è così pesante ogni sera e ogni giorno Grazie.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "poesia buddista",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -944,10 +949,13 @@
     "end": 2586.6,
     "speaker_raw": "SPEAKER_01",
     "testo": "Una delle più famose, queste sono gli Elastica, ditemi la verità, siete contenti che ve li ho portati? Perché non si sentono mai, ma questo è un bel pezzo, quel pom pom pom. Una delle famose frasi, diciamo, il mio ragazzo, dice un'ascoltatrice, mi ha conquistata con questa frase. La prima frase che era, ciao, io pago le tasse.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Elastica pom pom pom",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Elastica"
   },
   {
     "id": "2017-02-10-086",
