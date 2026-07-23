@@ -5,11 +5,16 @@
 # A/B: autore mai estratto, giudicare SOLO sul titolo) non si applicherebbe MAI al
 # backlog gia' segnato, solo alle voci nuove future.
 #
-# Aggiorna: campo "confermato_esterno"/"copertina" nel file dati originale, e il
-# report (*_non_confermati.json): rimuove le voci ora risolte (confermate o
-# probabile_falso_positivo), lascia intatte quelle ANCORA dubbie con la formula
-# corretta (es. categoria C: autore reale, titolo non trovato — genuinamente
-# ambigua, richiede sempre revisione umana).
+# Aggiorna il file dati originale — stesso trattamento per-dataset di
+# pulisci_riferimenti_non_confermati.py, cosi' non serve un secondo passaggio manuale:
+#   - confermato: confermato_esterno=true (+ copertina se disponibile)
+#   - falso_positivo, dataset "riferimenti": la voce viene RIMOSSA dall'array
+#   - falso_positivo, dataset "frammenti": la voce viene RESETTATA (torna in coda)
+#   - ancora_dubbio: lasciata intatta, solo punteggio/match aggiornati nel report
+# Il report (*_non_confermati.json) viene riscritto senza le voci ora risolte,
+# lascia intatte quelle ANCORA dubbie con la formula corretta (es. categoria C:
+# autore reale, titolo non trovato — genuinamente ambigua, richiede sempre
+# revisione umana).
 #
 # Uso: python scripts/rivaluta_dubbi_esterni.py --dataset riferimenti [--dry-run] [--limit N]
 
@@ -63,7 +68,9 @@ def main() -> None:
             continue
         dati = json.loads(fp.read_text(encoding="utf-8"))
         by_id = {r.get("id"): r for r in dati}
+        by_id_idx = {r.get("id"): i for i, r in enumerate(dati)}
         modificato = False
+        idx_da_rimuovere = []
         for v in voci:
             r = by_id.get(v["id"])
             if not r or r.get("confermato_esterno") is not False or r.get("titolo") != v.get("titolo"):
@@ -105,20 +112,38 @@ def main() -> None:
             if esito != "ancora_dubbio":
                 ids_risolti.append(v["id"])
                 if not args.dry_run:
-                    r["confermato_esterno"] = (esito == "confermato")
-                    if esito == "confermato" and copertina:
-                        r["copertina"] = copertina
+                    if esito == "falso_positivo":
+                        # Stesso trattamento per-dataset di pulisci_riferimenti_non_confermati.py:
+                        # "riferimenti" rimuove la voce (nessuno stato "vuoto" a cui tornare),
+                        # "frammenti" resetta i campi (torna in coda "da classificare").
+                        if args.dataset == "riferimenti":
+                            idx_da_rimuovere.append(by_id_idx[v["id"]])
+                        else:
+                            r["tipo"] = ""
+                            r["titolo"] = ""
+                            r["autore"] = ""
+                            r["tema"] = []
+                            r.pop("confermato_esterno", None)
+                            r.pop("copertina", None)
+                    else:  # confermato
+                        r["confermato_esterno"] = True
+                        if copertina:
+                            r["copertina"] = copertina
                     modificato = True
             else:
                 # Aggiorna il punteggio/match nel report (formula nuova) ma resta "dubbio".
                 v["punteggio"] = round(punteggio, 3)
                 v["match_trovato"] = match
+        if idx_da_rimuovere and not args.dry_run:
+            for idx in sorted(idx_da_rimuovere, reverse=True):
+                del dati[idx]
         if modificato and not args.dry_run:
             fp.write_text(json.dumps(dati, ensure_ascii=False, indent=2), encoding="utf-8")
 
+    azione_falsi = "rimosse" if args.dataset == "riferimenti" else "resettate (tornano in coda)"
     prefisso = "[DRY RUN] " if args.dry_run else ""
     print(f"\n{prefisso}Confermate: {riclassificate['confermato']}. "
-          f"Falsi positivi: {riclassificate['falso_positivo']}. "
+          f"Falsi positivi {azione_falsi}: {riclassificate['falso_positivo']}. "
           f"Ancora dubbie: {riclassificate['ancora_dubbio']}. "
           f"Saltate (gia' cambiate): {riclassificate['saltate']}.")
 
