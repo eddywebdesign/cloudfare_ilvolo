@@ -68,7 +68,13 @@ def main() -> None:
             if cpu2 - cpu1 <= 0:
                 anomalie.append(f"whisperx PID {whisperx.pid} vivo ma CPU ferma (possibile hang)")
         except (psutil.NoSuchProcess, psutil.AccessDenied):
-            anomalie.append(f"whisperx PID {whisperx.pid} sparito durante il check")
+            # Il PID monitorato puo' sparire durante gli 8s di attesa semplicemente perche'
+            # l'episodio e' finito e ne e' partito uno nuovo con un PID diverso (con GPU un
+            # episodio dura ~1m35s-2m10s, quindi capita spesso, non e' un'anomalia). Controllo
+            # diretto (CLAUDE.md "mai euristiche quando esiste un controllo diretto"): verificare
+            # se un whisperx e' vivo ADESSO, non se il vecchio riferimento PID lo e' ancora.
+            if not trova_processo("whisperx"):
+                anomalie.append(f"whisperx PID {whisperx.pid} sparito durante il check, nessun nuovo whisperx trovato")
     elif batch:
         anomalie.append("batch vivo ma nessun sottoprocesso whisperx trovato (tra un episodio e l'altro puo' essere normale per pochi secondi)")
 

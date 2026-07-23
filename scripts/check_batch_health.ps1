@@ -28,7 +28,13 @@ if ($whisperx) {
         $cpu2 = (Get-Process -Id $pid1 -ErrorAction Stop).CPU
         if (($cpu2 - $cpu1) -le 0) { $anomalie += "whisperx PID $pid1 vivo ma CPU ferma (possibile hang)" }
     } catch {
-        $anomalie += "whisperx PID $pid1 sparito durante il check"
+        # Il PID puo' sparire durante gli 8s di attesa solo perche' l'episodio e' finito e
+        # ne e' partito uno nuovo con un PID diverso - controllo diretto: c'e' un whisperx
+        # vivo ADESSO? Se si', non e' un'anomalia (vedi stesso fix in check_batch_health.py).
+        $whisperxOra = Get-CimInstance Win32_Process -Filter "Name='python.exe'" | Where-Object { $_.CommandLine -match 'whisperx' }
+        if (-not $whisperxOra) {
+            $anomalie += "whisperx PID $pid1 sparito durante il check, nessun nuovo whisperx trovato"
+        }
     }
 } elseif ($batch) {
     $anomalie += "batch vivo ma nessun sottoprocesso whisperx trovato (tra un episodio e l'altro puo' essere normale per pochi secondi)"
