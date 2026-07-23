@@ -269,10 +269,14 @@
     "end": 414.89,
     "speaker_raw": "SPEAKER_03",
     "testo": "È un elenco di punti. Cose da fare quando finisce una relazione? Sì, di una poetessa, Rupi Kaur.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Agenda di fine relazione",
+    "tema": [
+      "relazione",
+      "fine"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Rupi Kaur"
   },
   {
     "id": "2018-01-26-025",
@@ -291,10 +295,14 @@
     "end": 432.38,
     "speaker_raw": "SPEAKER_06",
     "testo": "Sì, sì, sì. Ha venduto il suo libro di poesia, una ragazzina, tipo 700.000 copie. New York Times ha fatto un super articolone.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Vendita libro poesia",
+    "tema": [
+      "vendita",
+      "poesia"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Rupi Kaur"
   },
   {
     "id": "2018-01-26-027",
@@ -313,10 +321,14 @@
     "end": 470.89,
     "speaker_raw": "SPEAKER_06",
     "testo": "Va bene, io mi ricordo da ragazzino, perché le storie d'amore di solito fa male, l'ultima e la prima, cioè quelle che ricordi di più. E mi ricordo che invece io cassettina sempre ascoltare canzoni tristi, perché mi piaceva stare dentro in quel dolore. Come la famosa frase del film di Truffaut, vedi come siamo alti stamattina, Truffaut, poesie. Quella dei pattini. Quella che lui dice alla bambina che tu sei triste e piangi, ma nel piangere, di la verità, c'è un po' di piacere, no? Insinua questa cosa. Guarda, Maurizio, che veloce che è.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "vista da grande",
+    "tema": [
+      "amore",
+      "dolore"
+    ],
+    "tipo": "riferimento_film",
+    "video_url": "",
+    "autore": "francois truffaut"
   },
   {
     "id": "2018-01-26-029",
@@ -654,9 +666,12 @@
     "end": 947.81,
     "speaker_raw": "SPEAKER_06",
     "testo": "Sì, è stato lasciato e ogni tanto torna lì, c'è niente da fare. L'idealizzazione è quello, dai. Perché poi quando ti manca la persona che hai amato tanto, con cui sei stata bene, non ti manca solo lei, ma ti manca anche cos'eri tu con lei. Cioè tu non riesci più a essere la persona che eri con lei quando non c'è lei. E ti manca un po' quella parte che ti piace di te. Ho scritto un libro, ragazzi, scusate. Quando tutto inizia, andate lì, leggete questo libro e godete della vita. Numero tre, non ascoltare canzoni lente. Invece sì. Scusami, ha appena detto piangere. Grufoliamo nel nostro dolore. No, devi andare dentro nel dolore. Face it, lo devi affrontare. Punto quattro, cancellare il suo numero di telefono anche se è memorizzato nei polpastrelli.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "idealizzazione e perdita",
+    "tema": [
+      "amore",
+      "cambiamento"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -1479,9 +1494,11 @@
     "end": 2520.84,
     "speaker_raw": "SPEAKER_06",
     "testo": "Ho già detto anche in radio, io mi ricordo sempre il mio amico che passava sotto casa, dalla fine non vivevano insieme, lei viveva da sola, passava sotto casa di lei e metteva la mano sul cofano della macchina per vedere se era caldo e quindi se lei era uscita in macchina o no. Ci sono dei streghe? Ci sono gli estremi. No, però è un tema che è troppo delicato e mi fa anche un po' tristezza. Invece, siccome abbiamo fatto la parte allegra col professore, per tornare al discorso. Quindi era la parte allegra. Quella era la parte allegra. Siamo arrivati alla parte commovente. Ma la cosa più allegra, che rende più felice, è fra pochissimo. Cioè quando finisce il programma.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "amico curioso di ex",
+    "tema": [
+      "gelosia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1501,10 +1518,13 @@
     "end": 2573.52,
     "speaker_raw": "SPEAKER_06",
     "testo": "No, perché poi molti, appena finisce il volo di mattina, ringiovani. Ah, ce lo siamo anche stamattina, ce lo siamo tolti dalle palle. No, abbiamo un bellissimo film di qualche anno fa, ha una bellissima chiusura, nel senso lui che scrive una lettera a una ex. Se non l'avete mai visto, ma l'ha visto un po' tutti, ma se non l'avete visto questo weekend, ve lo consigliamo, che si chiama... Er. Sì. Lei. Er. Con l'asma. H davanti e R. Er. Ok. E attori. Lui è pazzesco. Lui è pazzesco. Si chiama? Eh, non mi ricordo. Come si chiama lui? Jack in Phoenix. Era un test. Certo che era un test, va bene, comunque. E poi una canzone che ha portato Maurizio, quindi non è merito mio.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "lettera a una sconosciuta",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "riferimento_film",
+    "video_url": "",
+    "autore": "Guadagnino"
   },
   {
     "id": "2018-01-26-137",
@@ -1534,9 +1554,12 @@
     "end": 2601.16,
     "speaker_raw": "SPEAKER_03",
     "testo": "Scrivi lettera a Katrin. Lettera a Katrin Klosen.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Lettera a Katrin",
+    "tema": [
+      "amore",
+      "pentimento"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -1545,9 +1568,12 @@
     "end": 2646.99,
     "speaker_raw": "SPEAKER_08",
     "testo": "Cara Katrin, ho pensato tanto a tutte le cose per cui ti vorrei chiedere scusa. A tutto il male che ci siamo fatti. A tutto quello di cui ti ho accusato. Tutto ciò che avevo bisogno che tu fossi e dicessi. Ti chiedo perdono. Ti amerò sempre perché siamo cresciuti insieme. E mi hai aiutato a essere chi sono. Voglio che tu sappia che ci sarà sempre un po' di te dentro di me. E ti sono grato per questo. Chiunque tu sia diventata, in qualunque parte del mondo tu sia,",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Scuse per Katrin",
+    "tema": [
+      "pentimento",
+      "amicizia"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {

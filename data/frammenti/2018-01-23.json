@@ -1061,9 +1061,11 @@
     "end": 1855.46,
     "speaker_raw": "SPEAKER_08",
     "testo": "Questa è proprio citazione, ti è rimasta dentro questa serie? Perché mi ricordo la frase, l'individualità.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "individualità centrale",
+    "tema": [
+      "identità"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -1743,10 +1745,13 @@
     "end": 2855.09,
     "speaker_raw": "SPEAKER_07",
     "testo": "In passato, se avete la possibilità di sciazzamare, ma forse l'avete già fatto, io ve la farei sentire. L'artista si chiama Rupanes. Rupanes. Vedi, se fossi di là all'altro microfono avrei detto... La canzone è Tiger Stripe Sky. Ha capito il cielo a strisce di grado. Da tigre. Sentite che meraviglia. Questo è Radio Rai, tra poco le news, onda verde, visto il culto. Ciao. I grandi successi passano prima da qui.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Tiger Stripe Sky",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Rupanes"
   },
   {
     "id": "2018-01-23-159",
@@ -1765,9 +1770,11 @@
     "end": 3044.9,
     "speaker_raw": "SPEAKER_07",
     "testo": "Questa quando la metti in casa riempie proprio la stanza, è una meraviglia. Volevo salutare Barbara che dice quando io sono da sola in macchina, intanto mi annoio così, il mio segreto è che mi immagino un personaggio famoso e lo intervisto. Io mi immaginavo di essere intervistato. Non fate mai le finte interviste. Adesso lo faccio ancora un po', lo faccio ogni tanto, ma per prepararmi. Se mi fanno quella domanda, quel giorno che vado in tv e mi dicono cosa ne pensi dello YouSori, non posso proprio venire giù dal pero. Però non riesco mai a trovare delle interviste. Non riesco mai a dare delle risposte. Infatti non vado mai in televisione. Allora, ragazzi. No, cosa? Dobbiamo chiudere? Devo dirvi, la puntata di ieri è stata caotica. Quella di oggi, però non siamo ancora entrati in pieno regime.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "interviste immaginarie",
+    "tema": [
+      "preparazione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

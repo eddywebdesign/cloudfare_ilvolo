@@ -137,9 +137,12 @@
     "end": 447.78,
     "speaker_raw": "SPEAKER_05",
     "testo": "A vent'anni. Posso dirti una cosa, Andrea? Non fare come quelli che vivono in casa con i genitori e poi si sposano e vivono con la moglie. Impara a vivere da solo, i tuoi spazi. Altrimenti tua moglie poi diventa tua mamma, capito? Col tempo. Perché vai a vivere da solo. Stai lì la notte e dire... Ma che ci faccio io qua tutto solo? Stai lì, governati. Che la farai? Osservati da solo. Ma chi sono io quando sono da solo? Perché quando sei in un gruppo familiare si entrano nelle relazioni e quindi si entrano nei ruoli. Quindi la mamma ha più piacere a parlare con quello, tu hai il conflitto. Invece tu devi stare solo, neutro. E da lì costruisci e poi accogli una ragazza in casa e non ce la farai più. Accogli o trovi una casa nuova. Però dopo che hai vissuto tanto tempo, non stare troppo, è un altro consiglio, ti posso dare un pochino, ma non troppo. Perché quando poi godi della solitudine, chiunque entra è più una seccatura che una gioia. No? È così. Cavolo. È più una seccatura che una gioia.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Vivere da soli prima del matrimonio",
+    "tema": [
+      "indipendenza",
+      "relazioni"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -742,9 +745,12 @@
     "end": 1432.99,
     "speaker_raw": "SPEAKER_05",
     "testo": "È una cosa vera, basta, non posso dire niente. Dico solo che c'era un gruppo di mamme e di papà, insomma un gruppo della scuola. Non si è capito bene, c'era anche lui in quanto padre. A lui non so come ha fatto a non capire che quello era un gruppo. Pensava di parlare solo con quella che a lui piaceva e che già un po'... Si vedevano, quindi quando ha letto sopra il nome, lui ha cominciato a dire ciao, allora quando è che ci vediamo, per i bici, ci rivediamo, le altre giustamente, zitta, pippa, hanno fatto pippa, sono state zitte e si sono ascoltate queste cose. Certo. E lui ha 6, 7, 8 messaggi, si è tolto le mutande, foto. Non è vero. Sì, si fa, si fa di mandare le foto, io le mando durante la riunione di lavoro, a Maurizio, domani dico Maurizio, domani mettiamo quel disco, poi faccio la foto allo scrotto.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "errore di gruppo whatsapp",
+    "tema": [
+      "sbaglio",
+      "relazioni"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -808,9 +814,12 @@
     "end": 1520.78,
     "speaker_raw": "SPEAKER_05",
     "testo": "Questa è vita vera. Ho scritto a mia mamma che avrei fatto tardi al pranzo perché andavo da quella stronza del mio capo che mi aveva mandato a consegnare lontano, ok? E invece di mandarlo a mia mamma l'ho mandato alla mia capo. Vicenza. Oh! Alcune fanno veramente molto ridere. È successo anche... No, ma aspetta, aspetta. Aspettiamo questo disco che è bello, poi ve lo dico.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "messaggio sbagliato al capo",
+    "tema": [
+      "errore",
+      "lavoro"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -841,10 +850,11 @@
     "end": 1543.42,
     "speaker_raw": "SPEAKER_07",
     "testo": "Oh! I'm a sinner, I won't consider I am my father's son Volo, Maurizio, Viola.",
-    "titolo": "",
+    "titolo": "i'm a sinner",
     "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Volo, Maurizio, Viola"
   },
   {
     "id": "2018-01-17-077",
@@ -852,10 +862,11 @@
     "end": 1590.33,
     "speaker_raw": "SPEAKER_08",
     "testo": "I'm not brittle, I'm just a little scared of your temperament I'm not brittle, I'm just a little scared of my government",
-    "titolo": "",
+    "titolo": "not brittle",
     "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Volo, Maurizio, Viola"
   },
   {
     "id": "2018-01-17-078",
@@ -885,9 +896,12 @@
     "end": 1760.8,
     "speaker_raw": "SPEAKER_05",
     "testo": "No, io e i miei amici no. Scusate ascoltatori carissimi, una ragazza dice io sono l'unica donna di un gruppo Whatsapp di uomini, di uomini di 40 anni che si mandano foto anche di parti intime loro. Come? No, io e i miei amici non ci mandiamo le foto dei nostri piselli, devo dire la verità. Sono tutte foto di stasera andiamo a mangiare la pizza e uno manda un culo con scritto vieni anche lei. C'è la povertà, la tristezza, la malinconia di vecchi che pensano di parlare come i giovani. Ecco la roba lì, però a me più che le cose che ogni tanto finisco, appunto arrivano cugliettette, a me sono tutte queste battute, queste barzellette con la fottina e la frasetta, mi fa schiantare. Sono i meme, ormai è il male del nostro segno. Me ne ha appena mandato uno alle catena perché stiamo parlando del tiamento, ti piace questo? Io rido. I miei grandi fornitori, quelli dove siamo nel giro, c'è dentro Saturnino, Renga è un grandissimo... Davvero?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "gruppo whatsapp intimo",
+    "tema": [
+      "amici",
+      "privacy"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

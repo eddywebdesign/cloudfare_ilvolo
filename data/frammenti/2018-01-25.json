@@ -522,10 +522,13 @@
     "end": 715.66,
     "speaker_raw": "SPEAKER_12",
     "testo": "Jack White, che tutti abbiamo il CD di Jack White a casa. Certo. Ok, vai.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "CD di Jack White",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Jack White"
   },
   {
     "id": "2018-01-25-048",
@@ -566,9 +569,12 @@
     "end": 1047.36,
     "speaker_raw": "SPEAKER_12",
     "testo": "C'è stato qualcuno di noi che è andato a vedere una puntata di X Factor per vedere Catra da trovare a Ale. Possiamo dire chi era? Possiamo dire chi era la Steffi? La Steffi è andata a vedere Ale Cattelan a X Factor e dice davanti a lei c'era una bambina di otto anni che tutta la trasmissione di due ore col telefono l'ha ripresa. Non l'ha mai guardato dal vivo ma l'ha sempre ripreso tutto guardando dal vivo che poi se lo poteva guardare a casa il concerto. Tutto mediato. Adesso parleremo di cose più interessanti. Questo era per dire non parleremo di questa cosa noiosa. Adesso parliamo di cose belle. Sei la prima, sei l'ultima, sei tutto. Vio Lupo. Avrei messo una roba slang alla fine, ognuno nella propria città, no? Da lui si dice, che ne so, figaleggia, dai molto del nord. Tu sei la prima, tu sei l'ultima, tu sei everything, tu sei tutto. Peso prima e ultima. Zio canta, non lo so, capito? Allora, apprezzata molto questa canzone dai nostri ascoltatori. Lui è sempre una tonalità... Un'ottava sotto il rutto, si dice. È super cool. Che timbro. Sarà stato così anche nella vita? Con questo timbro gli usci? Penso di sì. È bello avere un uomo in casa con una voce da maschio. Io ho questa voce antipatica. Quando vedo quei film che arriva l'attore e dice... E tu dici... Ti arriva la vibe. Allora...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "X Factor e il telefono",
+    "tema": [
+      "tecnologia",
+      "spettacoli"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -709,10 +715,14 @@
     "end": 1203.16,
     "speaker_raw": "SPEAKER_09",
     "testo": "Vivere a Seul è vivere come in una grande metropoli, non so come dirti, tu ogni tanto vai a vivere a New York, io sono stata a New York diverse volte, è una grande metropoli, è un più moderna di New York immagino, sarà più moderna, è tutto più nuovo. Sì, ci sono delle parti veramente nuovissime, tipo Gangnam è tutta piena di luci. A Gangnam come la canzone? Gangnam Style? Perché Gangnam è un quartiere. Sì, esattamente, è un quartiere molto turistico dal punto di vista commerciale, pieno di negozi, con le grandi firme, tutte queste cose qua.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Gangnam Style",
+    "tema": [
+      "metropoli",
+      "cultura"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "PSY"
   },
   {
     "id": "2018-01-25-065",
@@ -808,9 +818,12 @@
     "end": 1256.86,
     "speaker_raw": "SPEAKER_12",
     "testo": "E senti, però lì immagino come succede nelle altre metropoli asiatiche, alla fine gli europei si trovano tutti insieme, cioè non c'è questa mescla poi con quelli del posto.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "mescolanza culturale difficile",
+    "tema": [
+      "cultura",
+      "lingua"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -1798,9 +1811,11 @@
     "end": 2716.31,
     "speaker_raw": "SPEAKER_14",
     "testo": "That's Shuggie Otis. That's Gianni Otis, he's a big boy.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Shuggie Otis",
+    "tema": [
+      "musicista"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {

@@ -247,10 +247,14 @@
     "end": 784.84,
     "speaker_raw": "SPEAKER_12",
     "testo": "Vado punto e a capo così spegnerò le luci e da qui sparirai pochi attimi oltre questa nebbia oltre il temporale c'è una notte lunga E ci fa paura. Sei nell'anima e lì ti lascio per sempre, sospeso, immobile, fermo. e a capo vedrai quel che resta indietro non è tutto falso e inutile capirai lascio andare i giorni tra certezze e sbagli Strada stretta. Volo, Maurizio, Viola. In questo spazio indifeso",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Spazio indifeso",
+    "tema": [
+      "anima",
+      "tempo"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Volo, Maurizio, Viola"
   },
   {
     "id": "2018-01-22-023",
@@ -434,9 +438,11 @@
     "end": 975.71,
     "speaker_raw": "SPEAKER_04",
     "testo": "Eh, non va bene. No, dimmi, non perché è la mia prossima vacanza, ma la stai bocciando? Quattro è il numero massimo. Cinque. Viola è esperta di vacanze in camper. Ok, vacanze in camper.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "camper cinque persone",
+    "tema": [
+      "viaggio"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -511,9 +517,12 @@
     "end": 1159.08,
     "speaker_raw": "SPEAKER_00",
     "testo": "Sei come ero io per gran parte della mia vita sempre, te lo vedo negli occhi mentre dormi nel tuo modo di rispondere a tutto, sei vivo a malapena. Però sai qual è la cosa stupenda? È che il cambiamento può essere così costante che non senti nemmeno la differenza fino a quando non cambia tutto. Può essere un processo così lento che non ti accorgi che la tua vita è meglio o peggio finché non è diversa. Oppure il cambiamento può essere radicale e tutto è diverso in un attimo. È capitato così a me.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "cambiamento lento",
+    "tema": [
+      "cambiamento",
+      "vita"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -1490,10 +1499,14 @@
     "end": 2481.56,
     "speaker_raw": "SPEAKER_04",
     "testo": "Michelangelo diceva, la Madonna per esempio, la pietà è dentro, l'opera d'arte è dentro, la devo solo liberare. Perché sei ignorante, ascoltami. L'opera d'arte è già dentro nel cubo di marmo, tu non la devi scolpire, devi togliere tutto ciò che impedisce. Ok, quindi che la blocca, quindi può essere la tua famiglia, le tue paure, tutta una serie di cose. Però tu per poterla liberare devi avere in testa come è fatta quest'opera d'arte.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Madonna della Pietà",
+    "tema": [
+      "arte",
+      "creatività"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Michelangelo Buonarroti"
   },
   {
     "id": "2018-01-22-136",
@@ -1545,10 +1558,13 @@
     "end": 2696.09,
     "speaker_raw": "SPEAKER_08",
     "testo": "Volo, Maurizio, Viola It's been too hard living But I'm afraid to die Cause I don't know what's up there Beyond the sky It's been a long, a long time coming But I know a change gonna come Oh, yes it will. I go to the movie and I go downtown. Somebody keep telling me don't hang around. It's been a long, a long time coming but I know Oh yes it will Then I go to my brother And I say brother help me please But he winds up Volo, Maurizio, Viola It's been a long, a long time coming, but I know a change gonna come. Oh yes it will.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "A Change Is Gonna Come",
+    "tema": [
+      "cambiamento"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Sam Cooke"
   },
   {
     "id": "2018-01-22-141",
@@ -1655,9 +1671,11 @@
     "end": 2800.68,
     "speaker_raw": "SPEAKER_04",
     "testo": "Sono un prudente. Intanto ho scoperto questa cosa meravigliosa, la condivido con voi. Un giorno parlando con un mio amico che lavora per una multinazionale, una delle più grandi del mondo, ho raccontato certi miei atteggiamenti, ma si fa anche nel business. Certo. Cioè io per esempio se devo prendere una decisione, devo visualizzare e devo pensare alle cose peggiori che mi possono succedere in quella decisione.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Peggior caso scenario",
+    "tema": [
+      "preparazione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

@@ -16,10 +16,13 @@
     "end": 247.79,
     "speaker_raw": "SPEAKER_01",
     "testo": "Come state? All Summer Long, un disco del 2008. Questo è il Radio DJ, questo è il Volo del Mattino. Sono le 9 e 7 minuti di un venerdì 19 gennaio 2018. Come siamo istituzionali? A Milano ha finito l'inverno, è durato tre settimane a Milano l'inverno, ieri faceva freschino la sera, però durante il giorno, ieri ho il cappotto sciarpo, mi spogliavo camminando, fantastico, tornerà, io spero che torni un po'. È gennaio. C'è la temperatura più calda, più umida, ci piace a tutti. Però speriamo che non sia già finito.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "All Summer Long",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Sublime with Rome"
   },
   {
     "id": "2018-01-19-002",
@@ -346,9 +349,11 @@
     "end": 867.52,
     "speaker_raw": "SPEAKER_01",
     "testo": "Allora, una che abbiamo chiamato ma è staccata, occupata, dice, ieri sera sono uscita dopo secoli una ragazza e ho capito una cosa, che quando hanno distribuito il mignottismo, probabilmente c'era fila e io me ne sono andata. Cioè, quindi ha notato che in giro c'è proprio... O forse che lei non ce l'ha. O forse che lei non c'ha quella cosa lì, che è un po' anche la malizia in uno sguardo, potrebbe essere anche solo quello. Seconda telefonata che ci hanno accannato. Ciao Danilo e Ilenia, io e mia moglie ti ascoltiamo abbracciati a letto. Giovedì super positivo, buongiorno. Oggi non è venerdì. Perché giovedì super positivo? Hai sbagliato l'ora a scrivere. Siamo registrati. Aiuto, siamo registrati. Che giorno è da te Sara? Allora, tu invece hai scritto sono un'educatrice di scuola materna di Milano e la macchina del capo si canta ancora.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "uscita dopo secoli",
+    "tema": [
+      "relazione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -654,9 +659,12 @@
     "end": 1295.83,
     "speaker_raw": "SPEAKER_01",
     "testo": "Addirittura una ragazza scrive, ma perché non fate la diretta DJ in tv come fa RTL con tutti i programmi? Io ho fatto togliere anche le webcam, pensa come vado controcorrente. Sono un sostenitore che la radio non vada vista. Cioè la magia della radio è l'invisibile. Almeno che... Perché è come la letteratura, no? Se io adesso dico una cosa, voi ve la immaginate come volete voi, come leggere un libro, no? Se invece c'è la telecamera, è come la televisione, vi ho dato tutto e voi dovete solo subirla, no? Infatti la tv è il chewing gum del cervello, no? Quando tu stai davanti alla televisione, cioè mastichi un chewing gum, è difficile che ti nutri, sono pochi i programmi che ti arriva della roba.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "magia dell'invisibile",
+    "tema": [
+      "radio",
+      "immaginazione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

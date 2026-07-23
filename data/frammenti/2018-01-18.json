@@ -456,9 +456,12 @@
     "end": 1137.14,
     "speaker_raw": "SPEAKER_00",
     "testo": "Avete presente quegli hotel dove il personale delle pulizie mette sul coperchio del water una fascetta con la scritta garanzia di pulizia? Ovviamente quella fascetta non è affatto garanzia di pulizia, è solo la garanzia che qualcuno ha messo la fascetta. È un po' come il controllo di qualità. Il timbro non mi dice che hai controllato la qualità, mi dice che hai messo il timbro. È la civiltà delle fascette e dei tag. Se dici la parola giusta, il portone ti si schiude facile. Per esempio, non puoi fare politica oggi se non dici la parola sicurezza. I cittadini, si sa, e gente che si caga ad osso come ridere, bisogna farli stare tranquilli. Volete stare più sicuri? Facciamo una bella legge. Tirate fuori dei schei. A cosa servono i schei? A fare i corsi sulla sicurezza. E siamo di nuovo a capo. Non è che sei più sicuro, hai solo fatto il corso. Le macchine sono sempre più sicure, ma a cosa serve la sicurezza stradale, i cartelli, i sistemi automatici di sicurezza, se poi a guidare c'è una manica di coglioni? Io faccio centomila chilometri all'anno e li vedo questi qua che sfiorano la carneficina solo per arrivare prima all'autogrill a mangiare un panino fatto con la faesite. Questi qua farebbero un incidente anche con un deambulatore, altro che sistemi di sicurezza. Ma perché la gente abbia necessità di sicurezza, bisogna che abbia paura. Se tu hai paura, voterai coloro che ti indicano i pericoli. Poco importa se è proprio a causa di chi voti che hai paura. Perché sono proprio loro che ti fanno venire lo scago per l'estraneo. La gente teme gli omicidi, siamo una delle nazioni con meno omicidi al mondo, ma grazie all'abile lavoro della stampa, che per capirci chiama Igor il russo un serbo di nome Ezechiele, allora abbiamo paura, ci compriamo la porta blindata, poi il 70% dei delitti avviene in famiglia, altro che porta blindata, lascia la porta aperta, preparati una via di fuga. Every time it rains it pours, I pray it rains just a little more on me.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "garanzia di pulizia illusoria",
+    "tema": [
+      "insicurezza",
+      "apparenza"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -467,10 +470,13 @@
     "end": 1138.9,
     "speaker_raw": "SPEAKER_02",
     "testo": "Grande Natalino Balasso, lo trovate su YouTube col discorso del 2018.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "discorso Natalino Balasso",
+    "tema": [
+      "parodia"
+    ],
+    "tipo": "riferimento_film",
+    "video_url": "",
+    "autore": "Natalino Balasso"
   },
   {
     "id": "2018-01-18-043",
@@ -1138,10 +1144,13 @@
     "end": 2198.27,
     "speaker_raw": "SPEAKER_02",
     "testo": "Vai, vatti a prendere l'Inferno di Dante, leggi Tinulisse, ti dà una botta che te ne vai via. Ciao Andrea!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Inferno di Dante",
+    "tema": [
+      "inferno"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Dante Alighieri"
   },
   {
     "id": "2018-01-18-104",
@@ -1171,10 +1180,13 @@
     "end": 2382.31,
     "speaker_raw": "SPEAKER_02",
     "testo": "Che meraviglia, questa canzone stupenda, i Bee Gees hanno avuto un'idea che ha rivoluzionato la musica di quegli anni, no? I boxer di due taglie in meno.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Boxer di due taglie in meno",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "I Bee Gees"
   },
   {
     "id": "2018-01-18-107",
@@ -1259,10 +1271,13 @@
     "end": 2790.33,
     "speaker_raw": "SPEAKER_10",
     "testo": "Quante cose abbiamo imparato oggi, tra l'Ulisse.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Ulisse",
+    "tema": [
+      "letteratura"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Dante Alighieri"
   },
   {
     "id": "2018-01-18-115",
@@ -1270,9 +1285,11 @@
     "end": 2799.16,
     "speaker_raw": "SPEAKER_02",
     "testo": "Qual è la cosa che, sull'Ulisse la gente si è quasi commossa. Io ho una frase che quando io l'ho detta prima, la so tutta a memoria perché me la sono studiata apposta, quella parte lì, mi viene ancora la pelle d'oca.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "frase commovente",
+    "tema": [
+      "emozione"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {

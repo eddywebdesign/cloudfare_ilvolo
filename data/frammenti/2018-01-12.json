@@ -60,9 +60,11 @@
     "end": 277.9,
     "speaker_raw": "SPEAKER_04",
     "testo": "I miei figli? Queste qua lo so perché un giorno è partita in casa, hanno iniziato a ballare, ogni tanto mi dicono mettimi la canzone di ieri. Però poi passate delle settimane loro la chiamano sempre la canzone di ieri, anche se è passata una settimana. Ma è interessante questa cosa?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "figli cool",
+    "tema": [
+      "genitori"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -1039,10 +1041,13 @@
     "end": 2071.57,
     "speaker_raw": "SPEAKER_04",
     "testo": "Bene, bene, bene. Ok. Fabrizio, grazie per la tua testimonianza. Grazie a voi. Ciao, ciao, ciao. Ah, vi avrei portato questa canzone di Karen Dalton, questa versione. How sweet it is to be loved by you.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "How sweet it is to be loved by you",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Karen Dalton"
   },
   {
     "id": "2018-01-12-095",
@@ -1248,10 +1253,14 @@
     "end": 2733.97,
     "speaker_raw": "SPEAKER_03",
     "testo": "Al di sopra del bene e del male.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Al di sopra del bene e del male",
+    "tema": [
+      "etica",
+      "morale"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Friedrich Nietzsche"
   },
   {
     "id": "2018-01-12-114",

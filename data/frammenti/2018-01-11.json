@@ -49,9 +49,12 @@
     "end": 301.88,
     "speaker_raw": "SPEAKER_01",
     "testo": "Non c'erano ancora i droni. Costava ancora un sacco di soldi fare delle riprese dall'alto, i permessi per le ricordi. Era tutto uno sbattimento. Buongiorno a tutti, come state? Bene, bene, bene. Avrei già tante cose da dire, però sentendo la mia voce mi sono già stufato. Sono veramente fastidioso. No, volevo dire delle cose. Posso dire una cosa? Cioè, gli angeli, no? Questa è una canzone sugli angeli, no? Al di là degli angeli quelli lì che noi ci immaginiamo i putti, diciamo, quelli ricciolini con le ali. Però nella vita di tutti i giorni esistono degli angeli occasionali. Perché le vie del Signore sono infinite, bla bla bla. Cioè tu sei in un momento di difficoltà, passa una persona, ti dice una parola, ti appoggia la mano sulla spalla così e se ne va, non hai relazioni necessariamente con questa persona, non è una persona della tua vita, eppure quella persona lì ti ha dato una mano per sollevarti. Quelli vengono chiamati gli angeli.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "discorso su angeli",
+    "tema": [
+      "angelo",
+      "salvezza"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -269,10 +272,13 @@
     "end": 789.09,
     "speaker_raw": "SPEAKER_01",
     "testo": "I Doobie Brothers Long Train Running. Guarda che questa in pista quando sentivo questa, che arrivava quasi sempre dopo quella di qualche anno prima che era questa. Questa però ci ha quasi sfrangiato i maroni dalle volte che l'abbiamo sentita. A quello che l'ha scritta...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Long Train Running",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Doobie Brothers"
   },
   {
     "id": "2018-01-11-025",
@@ -1149,9 +1155,12 @@
     "end": 1665.17,
     "speaker_raw": "SPEAKER_08",
     "testo": "Cioè era una cosa che io a un certo punto ho smesso. Ho dovuto smettere. Ho dovuto smettere e mi ricordo bene bene proprio tutto il gesto. Ho preso la Playstation, l'ho staccata. Cavio. Senza dire strappata. L'ho staccata. L'ho avvolta su se stessa, ho preso tutti i videogiochi, li ho messi dentro un sacchetto dell'S lunga, me lo ricordo ancora. L'ho chiuso e l'ho dato a un mio amico, Ricky Paternò, che è ancora qua. Ricky, guarda, tieni, io ho smesso. Non ce l'ha... Non ce la faccio, era un'emozione troppo forte.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "smontare playstation",
+    "tema": [
+      "gioco",
+      "abbandono"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1589,9 +1598,12 @@
     "end": 2504.2,
     "speaker_raw": "SPEAKER_00",
     "testo": "Tutti Allora, la signora Trofea, Frau Trofea, appunto questo fatidico 14 luglio del 1518, si mette a ballare per le strade di Stalisburgo. E qui fin qui dice vabbè una signora un po' bizzarra, invece questa continua a ballare, il giorno dopo balla, dopo due giorni balla, tre giorni balla, al quarto giorno timidamente uno si avvicina e inizia a ballare con lei. E poi si unisce al gruppetto altre persone, insomma a metà agosto ci sono circa 400 persone che ballano per le strade di Salisburgo. Il comune di Stalisburgo, non sa come interpretare questa cosa, decide addirittura di costruire un palchetto di fianco ai ballerini in cui alcuni musicisti suonano e accompagnano questa d'andua forsennata. Sembra divertente. Questa cosa iniziano i problemi a fine agosto, cioè dopo un mese e mezzo, perché le persone iniziano a rompersi le caviglie e continuano a ballare. Il primo settembre 1518 ci scappa il morto. Una persona, il cuore non regge e muore. Arriva la polizia. Insomma, ve la faccio breve. Il 16 settembre, sempre lo stesso anno, il gruppetto si disperde e di nuovo il silenzio ritorna nelle strade di Stalisburgo. Cosa è successo? Sembra Lucarelli. La gente adesso non scende dalla macchina finché lei non ci dice perché ballavano. Vada lì prof, vada lì. In un laboratorio di chimica della città di Basilea, Albert Hoffman stava studiando le sostanze contenute in una malattia della segale. La segale è un cereale. Questa malattia viene chiamata la segale cornuta. Cioè aveva estrapolato diverse sostanze e una di queste gli cade nella mano prima di andare a pranzo. E si sente un po' strano. Sente un sapore metallico in bocca, inizia a vedere delle lucine nella testa. Allora decide di assumere 200 mg di questa sostanza. Poi inforca la bicicletta e va a casa per pranzo. Durante il tragitto, che lui descrive in un bellissimo libro, racconta di essere stato attaccato da dei nani da giardino, la foresta... Allucinogine, allucinogine. Esattamente. A proposito, la moglie quando la incontra sembra un elefante alla proboscide. Dopo pranzo va sul tetto perché vuole farsi un voletto, perché pensa di essere un aereo. Dopo sei ore si riprende e dice ma che cosa mi è successo? Qual è questa sostanza? Ma il laboratorio identifica e scopre che è l'NLNVT7BT466A789-esacarbosilammide. Come se la mena.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "balla infezione Stalisburgo",
+    "tema": [
+      "storia",
+      "incredibile"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1655,10 +1667,14 @@
     "end": 2554.5,
     "speaker_raw": "SPEAKER_00",
     "testo": "Anedoti narcos del prof. È molto educativo, è molto educativo. È un libro bellissimo, Mystic Chemical.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Mystic Chemical",
+    "tema": [
+      "droga",
+      "educazione"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "professor Azzinelli"
   },
   {
     "id": "2018-01-11-151",

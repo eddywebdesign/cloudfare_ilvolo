@@ -27,10 +27,13 @@
     "end": 9.95,
     "speaker_raw": "SCONOSCIUTO",
     "testo": "Cosa abbiamo tirato fuori questa mattina? Ve la ricordate? Dido o Daido? My tears gone cold I'm wondering",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "My Tears Gone Cold",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Dido"
   },
   {
     "id": "2018-01-10-003",
@@ -104,10 +107,13 @@
     "end": 221.43,
     "speaker_raw": "SPEAKER_04",
     "testo": "Ti ricordi lei come si chiama? Lei si chiama Dido o Daido, Florian, Claude, De Bonnevial, O'Malley, Armstrong. Potremmo disannunciarla così? Era un disco di... Dido, Florian, Claude, De Bonnevial, O'Malley, Armstrong, sorella di... Rollo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "All I See Is You",
+    "tema": [
+      "relazione"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Dido"
   },
   {
     "id": "2018-01-10-010",
@@ -1501,10 +1507,14 @@
     "end": 1981.29,
     "speaker_raw": "SPEAKER_05",
     "testo": "Ciao, ciao, ciao. Allora, Maurizio, questa mattina ho portato per gli ascoltatori una bellissima canzone di Leonard Cohen, Chelsea Hotel, una canzone che lui scrisse dedicata a Janis Joplin, perché si incontrarono lì. Ok, noi la mettiamo però a una versione di Rufus Warbler. Sì. Ok. Vado? Sì. Esiste gente che fa colazione a letto?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Chelsea Hotel",
+    "tema": [
+      "amore",
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Leonard Cohen"
   },
   {
     "id": "2018-01-10-137",
@@ -1545,10 +1555,13 @@
     "end": 2223.22,
     "speaker_raw": "SPEAKER_05",
     "testo": "Il gesto poetico che era. Non l'hanno capito. Era finita la puntata. Questo pezzo dei Beatles fatto da lui, senti che bella che è. Senti.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Nothing's gonna change my world",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "The Beatles"
   },
   {
     "id": "2018-01-10-141",
@@ -1655,9 +1668,11 @@
     "end": 2486.22,
     "speaker_raw": "SPEAKER_05",
     "testo": "Guarda che quando è precisina lei è stressante, ma quando c'è l'uomo diciamo anale, si chiama anale quella fase, è fastidioso. Magda, quando guardi la scrivania di Linus dovremmo chiamare la moglie, perché secondo me anche lui a casa è uno così, è uno che non mette mai un foglio messo un po', è sempre in linea col tavolo. Quelle robe lì che Freud chiamava la fase anale. Sarebbe interessante. Allora, se avete un compagno anale... Un compagno precisetti. Chiamateci. Mannaggia Anna, sei in ascolto. Ale, scusami. Alessandra, in ascolto. Ci hai mandato la mail, non ci hai lasciato il numero.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "fase anale",
+    "tema": [
+      "sviluppo_personale"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

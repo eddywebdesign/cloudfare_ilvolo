@@ -225,10 +225,13 @@
     "end": 424.63,
     "speaker_raw": "SPEAKER_09",
     "testo": "Ragazzi, tutti insieme. Mi ha scritto Benny Benassi, uno dei DJ più famosi al mondo, dicendo che peso che sei stamattina.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Benny Benassi messaggio",
+    "tema": [
+      "social media"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Benny Benassi"
   },
   {
     "id": "2018-01-15-021",
@@ -324,9 +327,12 @@
     "end": 526.56,
     "speaker_raw": "SPEAKER_06",
     "testo": "Già ancora adesso mi pento di aver dato via la mia Fiat 500 a 22 anni che adesso darei per riaverla. Valeva, eh? Però quella me l'han smontata un pezzo alla volta. La Vespa è uguale, non l'ho mai messa a posto perché non ho il garage, no? Quindi sai che come la metti a posto te la portan via. Allora, adesso però la voglio mettere a posto e al limite me la metto in casa come soprammobile. Sì. Di quelle case fighissime, metti dentro la Vespa, il campo da tennis, ping pong. Va bene, ragazzi, parliamo di cose serie. Questa mattina dobbiamo darvi allegria perché sapete che tra l'altro nel mondo oggi si celebra il... Blue Monday. Blue Monday. Sapete che la parola blu significa sia blu del colore, ma il blu è anche la malinconia, la tristezza, il dolore, no? Sì, I'm in blue, I'm blue, bla bla bla. Quella va lì, grazie. Però il blu in inglese è quando siete tutti un po' così. Oggi è il blu mande perché è il terzo lunedì dell'anno. Esatto. E pare che sia il giorno più triste dove la gente si deprime di più.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Fiat 500 smontata",
+    "tema": [
+      "ricordi",
+      "veicoli"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -379,9 +385,11 @@
     "end": 780.04,
     "speaker_raw": "SPEAKER_08",
     "testo": "Volo, Maurizio, Viola. Volo, Maurizio, Viola. Volo, Maurizio, Viola. Take a little walk to make your story clear. Now that you're lifting your feet from the ground, weigh up your anchor and have a look around. She's back again in my mind If songs were lines in a conversation The situation would be fine",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Take a little walk",
+    "tema": [
+      "poesia"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -1578,9 +1586,11 @@
     "end": 2545.83,
     "speaker_raw": "SPEAKER_05",
     "testo": "Hanno fatto un evento recentemente, mi sa, proprio questo weekend, quelli di Netflix. Ed è un evento in cui praticamente ricevevi il cibo in base ai follower che avevi. Per avere una seconda portata dovevi aspettare di totalizzare abbastanza like.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "evento Netflix",
+    "tema": [
+      "social media"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

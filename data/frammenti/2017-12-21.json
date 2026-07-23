@@ -60,10 +60,13 @@
     "end": 217.55,
     "speaker_raw": "SPEAKER_10",
     "testo": "È stato il mio primo disco acquistato con i miei soldi. Tutto vestito, tutto nudo, bianco. Mechanical Animal, era il suo alter ego, Omega si chiamava lui.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Mechanical Animal",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Nine Inch Nails"
   },
   {
     "id": "2017-12-21-006",
@@ -159,9 +162,11 @@
     "end": 351.62,
     "speaker_raw": "SPEAKER_07",
     "testo": "La sicumera. Ma com'era? Va bene, fai yet. Allora ragazzi, intanto vi ho portato un bel disco come primo disco, che non sentite tanto in radio, si sarà me, lo so, era in tale per cui forse qualcuno l'ha messo, però insomma l'abbiamo portato con amore. E poi abbiamo da salutare il professor Accinelli.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "primo disco",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -577,9 +582,12 @@
     "end": 972.43,
     "speaker_raw": "SPEAKER_06",
     "testo": "Esattamente alle 12.30. In un pomeriggio piovoso. Oddio mio. Il fatto scopo è cosa è successo in Kenya. Avevano preso delle antilope e le avevano messe all'interno di un recinto. Dentro questo recinto c'erano anche delle piante di acacia. E queste antilope hanno iniziato a mangiare e mangiare. E più mangiavano e più divagrivano e stavano male. Non si capiva il motivo. A un certo punto queste antilope sono morte.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Antilope e acacia",
+    "tema": [
+      "natura",
+      "morte"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -940,9 +948,12 @@
     "end": 1728.17,
     "speaker_raw": "SPEAKER_07",
     "testo": "Ho lasciato la patente sul tavolo. Ho lasciato la patente sul tavolo. Esatto, esatto. Gloria Volpato, un giorno lei ci disse in onda non dite ai bambini stai attento, stai attento perché li tirate fuori da una specie di bolla inconscia in cui loro si stanno muovendo. Poi lei ha fatto adesso sette punti che noi vogliamo leggere ai nostri ascoltatori del volo del mattino di come sopravvivere al Natale, come uscirne migliori.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "sette punti per sopravvivere al Natale",
+    "tema": [
+      "natale",
+      "consigli"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -973,9 +984,12 @@
     "end": 1833.4,
     "speaker_raw": "SPEAKER_00",
     "testo": "Allora, innanzitutto ho scritto questo articolo per ricordarmi e per ricordare a tutti che il Natale è una grandissima occasione per decidere se vogliamo stare meglio o stare peggio. Quindi questi punti hanno a che vedere col fatto che non è tanto importante che cosa succede al Natale, ma come... L'attitudine, l'attitudine, l'atteggiamento. E l'atteggiamento ha proprio a che vedere con uno dei simboli del Natale, che è proprio la luce. E la rinascita. Non solo è la rinascita, ma è proprio l'intenzione, la scelta. Il Natale è il momento più buio dell'anno. Questo vuol dire che il Natale ci fa necessariamente fare i conti con degli aspetti in cui brancoliamo. Ieri avevi ospite una persona non vedente. A Natale considerarci tutti non vedenti vuol dire metterci un po' tutti alla pari e renderci conto che ogni anno dobbiamo fare i conti con degli aspetti interessanti. I risolti e i bui della nostra famiglia, sempre. È comunque un momento di bilancio. E lì l'altra luce che mettiamo sul nostro albero interiore è la scelta. Cioè chi vuoi essere, che Natale vuoi avere. Non è tanto importante cosa ti fanno, diceva Sartre, ma cosa te ne fai di quello che ti fanno. E quindi io ho scritto questi sette punti perché... Per coloro che magari si trova in alcune situazioni particolarmente faticose, possono scegliere.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "atteggiamento al natale",
+    "tema": [
+      "attitudine",
+      "natale"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -1248,9 +1262,12 @@
     "end": 2589.83,
     "speaker_raw": "SPEAKER_09",
     "testo": "Remember those walls I built? Oh baby they're tumbling down And they didn't even put up a fight They didn't even make a sound Volo, Maurizio, Viola. It's a risk that I'm taking I ain't never gonna shut you out Everywhere I'm looking now Surrounded by your embrace Baby I can see your halo You know you're my saving grace Grazie a tutti. I can see your halo, halo Hit me like a ray of sun Burning through my darkest night You're the only one that I want And I'm addicted to your light I swore I'd never fall again But this don't even feel like Graffiti can't forget To pull me back to the ground again It's like I've been awakened Every rule I had you breaking It's a risk that I'm taking I ain't never gonna shut you out Volo, Maurizio, Viola.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Canzone Halo",
+    "tema": [
+      "amore",
+      "salvataggio"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
