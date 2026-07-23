@@ -38,13 +38,11 @@
     "end": 150.36,
     "speaker_raw": "SPEAKER_00",
     "testo": "con Deus mi dito, con Deus mi levanto, conmigo eu calo, conmigo eu canto, eu bato em um papo, eu bato em um ponto, eu tomo um drink e eu fico tonto",
-    "titolo": "Deus mi dito",
-    "tema": [
-      "musica"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-01-12-004",
@@ -842,14 +840,11 @@
     "end": 2032.24,
     "speaker_raw": "SPEAKER_14",
     "testo": "tu sei al colloquio dell'Apple scusi Marco chi è il suo miglior amico?",
-    "titolo": "Il colloquio",
-    "tema": [
-      "lavoro",
-      "intervista"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-01-12-069",
@@ -936,14 +931,11 @@
     "end": 2182.74,
     "speaker_raw": "SPEAKER_17",
     "testo": "no no, devo scriverlo un libro devo scrivere un libro e fare dei corsi per far superare",
-    "titolo": "scrivere un libro",
-    "tema": [
-      "scrittura",
-      "lavoro"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-01-12-076",
@@ -965,14 +957,11 @@
     "end": 2324.91,
     "speaker_raw": "SPEAKER_08",
     "testo": "You make me feel Like I'm alive again Alive again You make me feel Like I'm alive again Said I can't go on Ciao! Musica",
-    "titolo": "You make me feel",
-    "tema": [
-      "musica",
-      "sentimento"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-01-12-078",
@@ -1113,7 +1102,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/36c5608f-95b1-4235-b137-71821d5979aa/front-250"
   },
   {
     "id": "2016-01-12-089",

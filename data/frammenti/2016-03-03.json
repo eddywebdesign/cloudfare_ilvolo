@@ -56,7 +56,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/d874da5a-cbbc-4039-b571-c16687ce13fe/front-250"
   },
   {
     "id": "2016-03-03-005",
@@ -138,7 +139,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/5989e87d-3a8b-4c49-882a-d4cbaff9e7db/front-250"
   },
   {
     "id": "2016-03-03-012",
@@ -563,14 +565,11 @@
     "end": 773.02,
     "speaker_raw": "SPEAKER_09",
     "testo": "Via! va bene, allora abbiamo un'ascoltatrice facciamo così, mettiamo un disco e cerchiamo un'ascoltatrice che ci legge prima di parlare di dei come ha scritto i desideri e vediamo se è giusto dove sono gli alberi?",
-    "titolo": "Canzone con alberi",
-    "tema": [
-      "musica",
-      "alberi"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-03-03-047",
@@ -600,14 +599,11 @@
     "end": 1020.61,
     "speaker_raw": "SPEAKER_09",
     "testo": "Questa è la tipica canzone che uno viene da masticare un chewing gum quando l'ascolta, no? Fa anche un po' strafottente, no? Papà, mi rompe le scale, no? Come va, ragazzi, dall'altra parte del vetro? Bene! Allora, andiamo subito a Roma, non perdiamo tempo! Bando alle ciance buongiorno Giulia buongiorno come metà della popolazione femminile di Roma si chiama Giulia sai che in Roma sono tutti o Giulia o Massimo ma io non sono proprio romana sei andata lì perché ti chiamavi Giulia ti volevi sentire un po' accolta Allora, Giulia, quota 90 desideri, se sarebbe già da fare un applauso, almeno dal mio punto di vista. Nessuno si è realizzato, al contrario, si stanno ponendo le premesse perché non se ne realizzi nessuno. Che pessimismo. Esatto. Come la mettiamo, Giulia?",
-    "titolo": "Canzone strafottente",
-    "tema": [
-      "musica",
-      "canzone"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-03-03-050",
@@ -1118,14 +1114,11 @@
     "end": 2613.9,
     "speaker_raw": "SPEAKER_17",
     "testo": "Posso farlo muovere a mio piacimento? Lo faccio tramontare?",
-    "titolo": "Il sole tramonta",
-    "tema": [
-      "libro",
-      "natura"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-03-03-091",

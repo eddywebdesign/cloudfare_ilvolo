@@ -270,7 +270,7 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true
   },
   {
     "id": "2016-03-08-023",
@@ -764,7 +764,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/d14334ea-ff5d-49cf-973c-ad00bab72264/front-250"
   },
   {
     "id": "2016-03-08-063",
@@ -779,7 +780,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/569100-M.jpg"
   },
   {
     "id": "2016-03-08-064",
@@ -888,7 +890,7 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true
   },
   {
     "id": "2016-03-08-072",
@@ -903,7 +905,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/810be783-538f-4a21-b304-438551aed1c8/front-250"
   },
   {
     "id": "2016-03-08-073",
@@ -929,7 +932,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/30cd8852-a7c3-4be6-8b1e-f20631c54c2c/front-250"
   },
   {
     "id": "2016-03-08-075",

@@ -422,7 +422,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/13463103-M.jpg"
   },
   {
     "id": "2016-02-17-035",
@@ -728,13 +729,11 @@
     "end": 2511.43,
     "speaker_raw": "SPEAKER_06",
     "testo": "Ah ok, io sto sudando, sono malato. Samuela, tu fai un lavoro dove con i tuoi studi ogni giorno ti aggiorni per fare in modo che tutto ciò che uno pubblica su Facebook per esempio venga visto il più possibile. Perché ci sono dei meccanismi che io non conoscevo, Viola e Maurizio adesso un po' me li hanno spiegati. io per esempio vado su youtube e vedo una bella canzone di Ray Charles scrivo, condividi, metto su facebook e la vedono un tot di persone ma io potrei fare in modo che un mio video venga visto da più persone da più persone, ok?",
-    "titolo": "Canzone di Ray Charles",
-    "tema": [
-      "musica"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-02-17-060",
@@ -809,7 +808,7 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true
   },
   {
     "id": "2016-02-17-066",

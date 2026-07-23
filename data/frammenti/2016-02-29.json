@@ -294,14 +294,11 @@
     "end": 1710.31,
     "speaker_raw": "SPEAKER_11",
     "testo": "se fate sentire Morricone potete fare presto che devo scendere sono nel parcheggio sto aspettando quel momento perché effettivamente le canzoni di Morricone magari è difficile ricordarsi il titolo come la musica classica uno conosce un pezzo però poi non si ricorda che è under 2, 9 maggiore però ecco questo è Tarantino questo è quella che ha vinto diciamo Poi è successa una cosa strana negli Oscar, diciamo, di ieri sera, insomma, o di questa mattina, dipende, insomma. Che, per esempio, DiCaprio, io l'ho visto l'ultimo, questo che ha vinto, no? Devo dire che doveva vincerlo per altri film. Poi a forza di aspettare, di aspettare, bisognava proprio darglielo, come si dice. Ma non è sicuramente la sua performance migliore dal mio punto di vista. E così Morricone. Devo dire che molte di queste... music Morricone li aveva lì nel cassetto poi se non sbaglio adesso non c'è anche una non vorrei dire una cazzata ma in realtà loro hanno chiarito cioè loro hanno detto che lui aveva diciamo preso una loro canzone mentre lui ha detto ma io questa l'avevo scritta nel 70 quindi l'avete presa voi quindi lui adesso ha querelato loro nessuno ha querelato nessuno in realtà sono i media che hanno fatto sono tutti amici ma ti pare comunque per esempio di Morricone ricordiamo sicuramente c'era una volta in America quella che noi abbiamo usato tantissimo al volo del mattino perché io ve la consiglio anche da mettervela in casa nei momenti vostri di solitudine questo è un capolavoro Poi alcune invece ti martellano la testa, non so se ce l'hai quella del un cittadino bellissimo film, questo, cittadino al di sopra di ogni sospetto. In questo momento su Sky sta facendo un discorso moricone. quale consiglieresti adesso Maurizio? io Mission a me piace Mission ti piace Mission Mission fa sempre la differenza questa Mission secondo me questa qui c'era una volta in America e Mission era quella questa c'era una volta in America e questa Mission però è lunga",
-    "titolo": "Tarantino e Morricone",
-    "tema": [
-      "musica",
-      "classica"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-02-29-025",
@@ -413,7 +410,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/201269-M.jpg"
   },
   {
     "id": "2016-02-29-034",
@@ -458,7 +456,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/012a888d-2929-4c2d-870e-f0ac56097602/front-250"
   },
   {
     "id": "2016-02-29-037",

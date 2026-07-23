@@ -22,7 +22,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/f2f8c5eb-e5b1-476a-a686-9dda72962d12/front-250"
   },
   {
     "id": "2016-01-13-002",
@@ -41,14 +42,11 @@
     "end": 295.13,
     "speaker_raw": "SPEAKER_08",
     "testo": "Pensa che bello con sta giornata di sole oggi. Ieri e oggi Milano è una giornata stupenda. Nicola cosa potrebbe fare intanto che Linus si fa una corsetta? Un programma televisivo. Ti mette lì sulla panchina e dice ALLORA! Matteo Curdi va lì dove fanno i lavori con le mani dietro lo scavo così nel 1975 la Sara e tutte le altre vanno a farsi un tatuaggio no la Sara non può farsi un tatuaggio la Sara va a farsi un eco oppure vai in un negozio di bambini che pensi di aver comprato tutto e invece manca sempre qualcosa tu vanno a farsi un tatuaggio questa è un tatuaggio io penso tipo tre donne sdraiate sul lettino Ne fai uno lungo che parte su un corpo e finisce su un altro.",
-    "titolo": "Milano è una giornata stupenda",
-    "tema": [
-      "musica",
-      "giornata"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-01-13-004",
@@ -351,14 +349,11 @@
     "end": 1111.77,
     "speaker_raw": "SPEAKER_08",
     "testo": "Come Viola, come Viola. Senti, allora, gli ospitoni sono Renato Zero, Ipu, Ramazzotti, Pausini. E abbiamo il cellulare di tutti. Potremmo fare un controsenno. Quando è Sanremo? Febbraio, immagino. Da qui a Sanremo gli spoileriamo gli ospiti. Gli chiamiamo e gli diciamo cosa dirai, cosa dirai. Dal 9 febbraio. Dal 9 febbraio.",
-    "titolo": "Sanremo 2016",
-    "tema": [
-      "musica",
-      "Sanremo"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-01-13-030",
@@ -400,7 +395,7 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true
   },
   {
     "id": "2016-01-13-033",
@@ -537,7 +532,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/10059272-M.jpg"
   },
   {
     "id": "2016-01-13-044",
@@ -945,15 +941,11 @@
     "end": 2846.73,
     "speaker_raw": "SPEAKER_08",
     "testo": "Van Morrison, quello che fece anche una copertina che sembrava un po' Van Gogh, sembra una battuta, invece no, ve lo ricordate? La copertina, lui con i pelli un po' rossi, c'era la sua faccia, dove c'era quella meravigliosa canzone I can hear your heartbeat. La canto tutta io? E come sentite? Crazy love, crazy love, crazy love. Beh, un capolavoro assoluto, sentite qua. Non ce l'abbiamo. Ma cosa? Ma veramente non ce l'hai? Sentite qua. Non c'è. I can hear your heart ma è impossibile è come dire metti i bagliori non sarà crazy love non si chiamerà crazy love si chiama crazy love si chiama crazy love io ce l'ho su youtube love love love love crazy love",
-    "titolo": "Van Morrison - I can hear your heartbeat",
-    "tema": [
-      "musica",
-      "poesia",
-      "ispirazione"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-01-13-078",

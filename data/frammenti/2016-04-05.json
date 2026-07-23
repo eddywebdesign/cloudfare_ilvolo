@@ -482,7 +482,7 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true
   },
   {
     "id": "2016-04-05-041",
@@ -567,7 +567,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/1de6a087-8c54-42eb-b476-1a2d7c2fb364/front-250"
   },
   {
     "id": "2016-04-05-048",

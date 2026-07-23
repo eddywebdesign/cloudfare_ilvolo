@@ -143,7 +143,7 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true
   },
   {
     "id": "2016-01-22-011",
@@ -231,7 +231,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/551c167d-5869-409a-a561-945675300423/front-250"
   },
   {
     "id": "2016-01-22-018",
@@ -873,7 +874,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/007ae9c6-f3ec-4e1c-96f4-2035da3ec553/front-250"
   },
   {
     "id": "2016-01-22-069",

@@ -203,14 +203,11 @@
     "end": 711.6,
     "speaker_raw": "SPEAKER_13",
     "testo": "Don't stand so close to me Don't stand so close to me Don't stand so close to me.",
-    "titolo": "Citazione del brano Don't Stand So Close to Me",
-    "tema": [
-      "musica",
-      "the police"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-02-26-017",
@@ -218,14 +215,11 @@
     "end": 769.54,
     "speaker_raw": "SPEAKER_00",
     "testo": "Don't stand so close to me, capito? Non mi starà dosso. Oppure diceva anche, if you love someone, set them free, capito? Lascialo libero. Insomma, comunque si capisce che Sting non vuole la gente attorno che gli sta un po' troppo addosso, va bene? Sì. Allora, scusate, a novembre sono stata licenziata e sapete una cosa? Ne sono stata felice come liberata. Ho deciso di prendere un periodo sabbatico per capire cosa voglio davvero fare da grande. Wow! Michela possiamo chiederti intanto quanti anni hai? 37 oh ma scusami a 37 anni uno ti licenzia per giusta causa? no l'azienda ha ridotto il personale perché sta attraversando un periodo un po' particolare ok tu sei di Bergamo immagino dall'accento dalle sfumature si esatto ok senti a 37 anni sei sposata hai figli sei single? senza figli e quindi a 37 anni non ti spaventa l'idea di aver perso il lavoro",
-    "titolo": "Sting - Don't Stand So Close to Me",
-    "tema": [
-      "amore",
-      "libertà"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-02-26-018",
@@ -359,14 +353,11 @@
     "end": 1443.01,
     "speaker_raw": "SPEAKER_01",
     "testo": "con Deus mi dito, con Deus mi levanto, conmigo eu calo, conmigo eu canto, eu bato em um papo, eu bato em um ponto, eu tomo um drink e eu fico tonto",
-    "titolo": "Deus mi dito",
-    "tema": [
-      "musica",
-      "divertimento"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-02-26-029",
@@ -825,13 +816,11 @@
     "end": 2233.19,
     "speaker_raw": "SCONOSCIUTO",
     "testo": "Pioggia sarò e pioggia tu sarai.",
-    "titolo": "Pioggia sarò",
-    "tema": [
-      "musica"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-02-26-067",
@@ -947,7 +936,7 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true
   },
   {
     "id": "2016-02-26-076",

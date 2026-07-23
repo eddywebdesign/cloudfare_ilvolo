@@ -125,7 +125,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/0a055d6b-ae99-4199-a8f0-7dc15ecbdcc1/front-250"
   },
   {
     "id": "2016-02-03-010",
@@ -678,14 +679,11 @@
     "end": 1788.0,
     "speaker_raw": "SPEAKER_14",
     "testo": "perché è la tua notizia I don't know if you were looking at me or not you probably smile like that all the time I don't mean to bother you but I couldn't just walk by and not say hi no no no",
-    "titolo": "I don't know if you were looking at me",
-    "tema": [
-      "amore",
-      "incontro"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-02-03-055",

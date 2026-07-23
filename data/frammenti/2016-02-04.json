@@ -16,14 +16,11 @@
     "end": 212.55,
     "speaker_raw": "SPEAKER_09",
     "testo": "Everybody loves the things you do. From the way you talk to the way you move. Everybody here is watching you. Cause you feel like home You're like a dream come true But if by chance you're here alone Can I have a moment Before I go Cause I've been by myself all night long Hoping you're someone ...of when we were young. It was just like a movie It was just like a song I was so scared to face my fears Nobody told me Grazie a tutti. Grazie a tutti. Grazie. Grazie a tutti.",
-    "titolo": "Dedica canzone \"When We Were Young\"",
-    "tema": [
-      "musica",
-      "amore"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-02-04-002",
@@ -31,14 +28,11 @@
     "end": 306.35,
     "speaker_raw": "SPEAKER_01",
     "testo": "posso dedicare questa canzone alla mia compagna perché il titolo è when we were young capito che lei è ancora young però siamo distrutti a casa non c'è forza when we were young Adele 2016 questo è il volo del mattino è già arrivato il nostro amico posso chiamarti amico? non sai quelle cose ma chi ti conosce? nostro amico Igor Sibaldi oggi parliamo di una cosa importante oggi impariamo io spero delle cose importanti oggi si parla di logos e di eros e di eros e di pathos tutte queste cose con la S che altre parole ti vengono in mente? geox scusami tu hai secondo te nella tua vita come peculiarità hai pathos o eros? io ho geox mi respiro nei piedi va bene mettiamo la sigla e non perdiamo tempo",
-    "titolo": "When We Were Young (Adele)",
-    "tema": [
-      "canzone",
-      "giovani"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-02-04-003",
@@ -245,7 +239,7 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true
   },
   {
     "id": "2016-02-04-019",
@@ -340,7 +334,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/13262863-M.jpg"
   },
   {
     "id": "2016-02-04-026",
@@ -402,7 +397,7 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true
   },
   {
     "id": "2016-02-04-031",
@@ -421,13 +416,11 @@
     "end": 1678.38,
     "speaker_raw": "SPEAKER_01",
     "testo": "Questi sono i Negramaro, il posto dei santi.",
-    "titolo": "Negramaro - il posto dei santi",
-    "tema": [
-      "musica"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-02-04-033",
@@ -690,7 +683,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/2093dae5-b1b5-41be-b7cb-e9630991b541/front-250"
   },
   {
     "id": "2016-02-04-053",
@@ -724,13 +718,11 @@
     "end": 2733.85,
     "speaker_raw": "SPEAKER_01",
     "testo": "si è svegliata ha preso coscienza allora abbiamo messo devendra e c'è anche il nostro fai saluto romano subito così il nostro no il nostro esperto musicale mauro perché un ascoltatore ieri ha scritto ultimamente il volo del mattino mi ha scritto su twitter non mette più tanto musica del volo del mattino ma state mettendo la musica della radio come gli altri programmi allora tu ti sei un po infiammato questa mattina no scherzo però hai voluto dare una risposta voluto",
-    "titolo": "musica della radio",
-    "tema": [
-      "musica"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-02-04-056",

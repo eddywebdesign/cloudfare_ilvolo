@@ -79,13 +79,11 @@
     "end": 621.66,
     "speaker_raw": "SPEAKER_04",
     "testo": "Fabio Volo, la strada verso casa, l'auditorio, ore 13.30. Sotto cosa c'è scritto? Supporto musicale, il maestro Maurizio. Ma perché maestro? Perché sono cintura nera.",
-    "titolo": "Supporto musicale",
-    "tema": [
-      "musica"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2014-05-08-007",
@@ -447,7 +445,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/16bcebdd-b5e4-4cdc-b15b-c0c1ce1f8266/front-250"
   },
   {
     "id": "2014-05-08-036",

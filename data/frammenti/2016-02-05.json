@@ -26,7 +26,7 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true
   },
   {
     "id": "2016-02-05-002",
@@ -101,7 +101,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/69d33bee-7b25-4d76-8e35-7fe848731f3a/front-250"
   },
   {
     "id": "2016-02-05-008",
@@ -162,14 +163,11 @@
     "end": 604.53,
     "speaker_raw": "SPEAKER_14",
     "testo": "Sometimes I feel like saying Lord I just don't care But you've got the love I need to see me through time after time I say oh lord what's the use time after time I say this just won't do but sooner or later in life the things you love you'll lose just like before I know I call on you",
-    "titolo": "Time after time",
-    "tema": [
-      "musica",
-      "amore"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-02-05-013",
@@ -177,13 +175,11 @@
     "end": 684.12,
     "speaker_raw": "SPEAKER_09",
     "testo": "You've got the love Da quanti anni vive a Brescia?",
-    "titolo": "You've got the love",
-    "tema": [
-      "musica"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-02-05-014",
@@ -578,7 +574,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/e861b82c-e35d-46e4-b758-324bf8da42c2/front-250"
   },
   {
     "id": "2016-02-05-045",
@@ -783,14 +780,11 @@
     "end": 1889.24,
     "speaker_raw": "SPEAKER_09",
     "testo": "A Roma. Dopo Pasqua sei a Roma? Ah, stavolta vengo, sì.",
-    "titolo": "Pasqua a Roma",
-    "tema": [
-      "roma",
-      "pasqua"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-02-05-061",
@@ -1018,7 +1012,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/feca5350-71d1-444a-91fd-b938c0ef4e90/front-250"
   },
   {
     "id": "2016-02-05-079",

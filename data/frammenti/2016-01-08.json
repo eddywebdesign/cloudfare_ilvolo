@@ -11,7 +11,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/ec290ed7-c3a0-44e2-9c22-f56d7826d7e1/front-250"
   },
   {
     "id": "2016-01-08-001",
@@ -19,14 +20,11 @@
     "end": 132.61,
     "speaker_raw": "SPEAKER_04",
     "testo": "You make me feel Like I'm alive again Alive again You make me feel Like I'm alive again Instead of taking one Grazie. ciao ciao ciao",
-    "titolo": "You make me feel Like I'm alive",
-    "tema": [
-      "musica",
-      "sentimento"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-01-08-002",
@@ -46,13 +44,11 @@
     "end": 230.74,
     "speaker_raw": "SPEAKER_16",
     "testo": "Erano i Coldplay con Adventure of a Lifetime.",
-    "titolo": "Coldplay - Adventure of a Lifetime",
-    "tema": [
-      "musica"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-01-08-004",
@@ -165,13 +161,11 @@
     "end": 658.78,
     "speaker_raw": "SPEAKER_09",
     "testo": "con Deus mi dito, con Deus mi levanto, conmigo eu calo, conmigo eu canto, eu bato em um papo, eu bato em um ponto, eu tomo um drink e eu fico tonto",
-    "titolo": "Deus mi dito",
-    "tema": [
-      "musica"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-01-08-014",
@@ -224,7 +218,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/7af94b2f-8d7e-4e83-910d-9cb9ce19c8f0/front-250"
   },
   {
     "id": "2016-01-08-018",
@@ -232,14 +227,11 @@
     "end": 910.87,
     "speaker_raw": "SPEAKER_14",
     "testo": "comunque l'overboard è stato quello che ha fatto il boom assolutamente e non è neanche un regalino da poco sono varie centinaia di euro comunque è un giocattolone da adulti sì perché sono giocattoli per adulti questi sì perché sono veramente pericolosi se vogliamo un altro invece regalo che ha scalato le vette delle classifiche di vendite di Amazon è il giradischi il giradischi e beh certo e nessuno se l'aspettava però non si sta parlando ovviamente del giradischi vintage originale eccetera ma di un giradischi più moderno con entrata usb radio eccetera",
-    "titolo": "Overboard",
-    "tema": [
-      "giocattoli",
-      "regali"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-01-08-019",
@@ -247,14 +239,11 @@
     "end": 936.03,
     "speaker_raw": "SPEAKER_13",
     "testo": "Beh perché uno si può ascoltare i dischi del padre se non ha la passione dei vinili, dei genitori così però si può attaccare sempre anche il telefono, il computer ascoltare la radio, la nuova versione esatto che abbiano un'uscita che si possono attaccare le casse se no ti devi ascoltare le casse di quel giradischi lì che a volte sono dentro come in una valigetta e fa schifo e non è che si senta proprio bene se sei uno che vuole ascoltare bene la musica sì",
-    "titolo": "Giradischi",
-    "tema": [
-      "vinili",
-      "musica"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-01-08-020",
@@ -300,14 +289,11 @@
     "end": 1005.32,
     "speaker_raw": "SPEAKER_13",
     "testo": "Cosa di legno, è tutto un ritorno alla natura, tutto indietro, vinili, cose di legno. A proposito di vinili, il disco che mettiamo dopo è un disco che ho comprato appunto in Vilini, non ne ho presi tanti questa volta perché ho avuto poco tempo.",
-    "titolo": "ritorno alla natura",
-    "tema": [
-      "musica",
-      "vinili"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-01-08-024",
@@ -326,14 +312,11 @@
     "end": 1023.89,
     "speaker_raw": "SPEAKER_13",
     "testo": "se ci sta il disco nel comodino te lo porto un disco del 1971 l'album si chiama Stand By Your Man ok e la canzone è una delle più belle molto famosa comunque lei è Candy Stanton sentite qualche roba",
-    "titolo": "Album Stand By Your Man 1971",
-    "tema": [
-      "musica",
-      "vinile"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-01-08-026",
@@ -341,14 +324,11 @@
     "end": 1215.89,
     "speaker_raw": "SPEAKER_05",
     "testo": "All right love Used to hold and kiss me Till the dawn Then one day I awoke And he was gone there's no more baby baby all night long he called me baby baby all night long lord I feel so empty since he's been gone Until the dawn I miss my baby Baby baby baby All night long He called me baby Baby baby All night long Yes he did Kiss my teeth ... ... nowish night and dreams just like a song I can still hear baby baby baby Ciao!",
-    "titolo": "All Night Long",
-    "tema": [
-      "musica",
-      "nostalgia"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-01-08-027",
@@ -581,14 +561,11 @@
     "end": 1729.64,
     "speaker_raw": "SPEAKER_13",
     "testo": "questo è quello che fai nella vita e ti piace hai studiato per fare quello e ti piace poi ogni tanto tu durante la settimana soprattutto nei weekend ti vesti da Max Pezzali esatto mi metto il cappellino e comincio così a cantare quanti anni hai Michele? ne ho 34 e sei un po' più giovane di Max ti vesti da Max Pezzali esatto E con una band tua fate le cover, quindi tutte le canzoni degli 883 e tu sei Max Pezzali.",
-    "titolo": "Vestirsi da Max Pezzali",
-    "tema": [
-      "musica",
-      "max pezzali"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-01-08-047",
@@ -630,14 +607,11 @@
     "end": 1762.33,
     "speaker_raw": "SPEAKER_13",
     "testo": "Non c'è la versione degli 883 dove c'era anche il repetto per quando fai quei pezzi di hanno ucciso l'uomo ragno, sei già nella nuova versione?",
-    "titolo": "Gli 883 e Hanno ucciso l'Uomo Ragno",
-    "tema": [
-      "musica",
-      "anni novanta"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-01-08-051",
@@ -957,14 +931,11 @@
     "end": 2000.45,
     "speaker_raw": "SPEAKER_12",
     "testo": "Ma diciamo quella, una delle ultime, dato che mi piace sempre fare un po' quelle ultime, insomma, come Bonnie e Clay a me piace molto farla live, ecco.",
-    "titolo": "Bonnie e Clay",
-    "tema": [
-      "musica",
-      "live"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-01-08-076",
@@ -1298,7 +1269,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/eaef8693-2af3-486f-a161-d0cd1c0622ce/front-250"
   },
   {
     "id": "2016-01-08-103",
@@ -1386,7 +1358,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/34082d58-564b-45f0-96b8-0de5bff3a776/front-250"
   },
   {
     "id": "2016-01-08-110",

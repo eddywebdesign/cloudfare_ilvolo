@@ -68,14 +68,11 @@
     "end": 351.24,
     "speaker_raw": "SPEAKER_11",
     "testo": "È un cantante? Sì. Vasco Rossi? Sì, vabbè, però questo lo faccio io.",
-    "titolo": "Vasco Rossi",
-    "tema": [
-      "musica",
-      "vasco rossi"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2014-05-06-006",
@@ -224,14 +221,11 @@
     "end": 803.98,
     "speaker_raw": "SPEAKER_02",
     "testo": "disannuncia tu dai talisco come si chiama aspetta che prendo la copertina prendi la copertina hai baffi talisco porta gli occhiali talisco talisco your wish your wish i tuoi desideri no cosa desideri your wish va bene volevo dirti una cosa bella del volo del mattino no che ti ricordi ieri sono arrivati dei dati stupendi che a chi si loda si broda lasciamo stare ma la cosa bella è il senso del gruppo del fatto che siamo qui una famiglia bravi o non bravi, belli o non belli noi siamo qua, ci facciamo compagnia tutte le mattine ormai da anni abbiamo fatto su un bel gruppetto come si dice La settimana scorsa ha chiamato un'ascoltatrice che raccoglieva le fragole, se te lo ricordi. Sì, mi ricordo. Ok, si chiamava Chiara di Imola. Ne abbiamo parlato, ha detto, fatti un po' di pubblicità. Oh, non sono andati degli ascoltatori della famiglia, di voi al mattino? Chiara! Pronto? Io conosco DJ di radio, ok, che si farebbero dare dei soldi per la pubblicità. no dai sto scherzando senti Chiara allora scusami hai fatto pubblicità hai raccontato la tua famosa confettura di pesche e lavanda sono venuti a chiederti proprio quelle esatto una coppia di conselice sono venuti perché erano curiosi di vedere se era vero e hanno preso il pesto ma scusami ma si sono avvicinati dicendo ciao siamo ascoltatori del vuoto del mattino sì sì sì io tra l'altro stavo caricando stavi sempre piegata raccoglie le fragole comunque la metti sempre un po' sull'erotico tu questa cosa no",
-    "titolo": "I tuoi desideri",
-    "tema": [
-      "musica",
-      "desideri"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2014-05-06-019",
@@ -408,14 +402,11 @@
     "end": 1327.12,
     "speaker_raw": "SPEAKER_00",
     "testo": "noi se è gratis prendiamo tutto Max ti ho mai detto perché fare il vino è per me fonte di grande piacere? tu non fai il vino zio Henry è il signor Duflo a farlo in Francia è sempre chi possiede la terra che fa il vino anche se non fa nulla di più che osservare col binocolo dalla finestra del proprio studio no io amo fare il vino perché è questo nettare sublime è semplicemente incapace di mentire vendemmiato presto o tardi non importa il vino ti bisbiglierà in bocca sempre con completa e imperturbabile onestà ogni volta che ne berrai un sorso wow fate pubblicità anche alla mia di azienda va bene allora adesso nei prossimi giorni facciamo anche pubblicità alle aziendine dei nostri ascoltatori lavoro, negozi",
-    "titolo": "fare il vino",
-    "tema": [
-      "vino",
-      "piacere"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2014-05-06-033",
@@ -515,7 +506,7 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true
   },
   {
     "id": "2014-05-06-041",
@@ -566,7 +557,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/2771961-M.jpg"
   },
   {
     "id": "2014-05-06-045",
@@ -617,7 +609,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/0774dc94-676e-46b0-9b2d-fe2c75294b35/front-250"
   },
   {
     "id": "2014-05-06-049",
@@ -683,14 +676,11 @@
     "end": 2247.46,
     "speaker_raw": "SPEAKER_02",
     "testo": "Era tanto che non sentivo un pezzo dei Calexico. Hanno fatto dei... Non c'entra niente col Mexico, ma l'abbiamo messo perché faceva rima. Calexico, Mexico... Quante canzoni conosci con la parola Mexico? Mexico. C'è quella di Vasco Rossi, vado al massimo, vado in Mexico, vado a guffi e vede. Poi c'è Mexico e nuvole, la faccia triste dell'America. C'è bellissima di Jimi Hendrix e i Joe. lui praticamente va a casa trova la fidanzata a letto con un altro, apria la pistola ammazza tutti e scappa in Messico perché sai che il Messico per gli Stati Uniti è un po' anche quella cosa lì appena fai qualcosa di losco scappi in Messico va bene ma parliamo oggi di vita di voglia di vivere, cose belle della vita ciao Vito, a proposito di vita è entrato Vito parlavamo di vita è entrato Vito come stai Vito? ah perché c'è le cuffie stavo dicendo un problema di vita di saper vivere, hai detto vita è entrato Vito sai che in Puglia ci sono delle donne che purtroppo si chiamano Vita di nome, cioè la femminia è di Vito veramente? Vita è bello però come nome no? come ti chiami?",
-    "titolo": "Calexico e il Messico",
-    "tema": [
-      "musica",
-      "Messico"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2014-05-06-055",
@@ -831,13 +821,10 @@
     "end": 2787.65,
     "speaker_raw": "SPEAKER_02",
     "testo": "non è alto, è Brunetta e allora vai quanto guadagni quanto guadagni ormai li conosci tutti i miei punti fermi Nick Drake Vasco Rossi Brunetta Kisloski, Brunetta i fratelli Cohen Alfano va bene domani mattina vi racconto questa storia interessante di lei va bene va bene non mi interessa niente lei chi? avevo anche una storia sui cinesi posso dire la storia dei cinesi? domani tutto domani ma non vi rompete i coglioni",
-    "titolo": "Nick Drake e Vasco Rossi",
-    "tema": [
-      "musica",
-      "artisti"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   }
 ]

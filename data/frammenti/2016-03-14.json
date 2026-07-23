@@ -27,14 +27,11 @@
     "end": 191.94,
     "speaker_raw": "SPEAKER_06",
     "testo": "Musica Musica Musica Ciao Ciao Ciao Ciao Ciao soon we'll be 30 years old our songs have been sold we've traveled around the world and we're still roaming soon we'll be 30 years old I'm Still Learning About Life Anche se nel testo non si sa bene però nel senso che però quando fa ti vieni a farla in macchina no?",
-    "titolo": "I'm Still Learning About Life",
-    "tema": [
-      "musica",
-      "gioventù"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-03-14-003",
@@ -175,14 +172,11 @@
     "end": 627.21,
     "speaker_raw": "SPEAKER_10",
     "testo": "facciamoci chiudere il programma il primo disco Maurizio racconta la storia di questo disco e poi iniziamo con allegria ma come non ti ho detto qual è? ma come non ti ho detto qual è?",
-    "titolo": "Il primo disco",
-    "tema": [
-      "musica",
-      "allegria"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-03-14-015",
@@ -190,14 +184,11 @@
     "end": 640.51,
     "speaker_raw": "SPEAKER_01",
     "testo": "ah Cassius pensavo stessi imprecando testa di Cassius concentrati Cassius è famoso per due o tre canzoni tipo questa",
-    "titolo": "Il gruppo Cassius",
-    "tema": [
-      "musica",
-      "artisti"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-03-14-016",
@@ -205,14 +196,11 @@
     "end": 645.53,
     "speaker_raw": "SPEAKER_10",
     "testo": "Bellissimo. Ok, ha una canzone nuova. Aspetta, c'è un'altra da sentire, quella che ha usato Sorrentino.",
-    "titolo": "Sorrentino",
-    "tema": [
-      "libro",
-      "autore"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-03-14-017",
@@ -227,7 +215,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/c4de7ff9-fffb-4fc8-927a-d8e20d351256/front-250"
   },
   {
     "id": "2016-03-14-018",
@@ -413,13 +402,11 @@
     "end": 1464.8,
     "speaker_raw": "SPEAKER_10",
     "testo": "sempre bella questa versione hanno fatto anche varie versioni sono sempre tutte belle la versione baby can I hold you Tracy Chapman era un disco del 1988 ciao Fabio mi fa molto tristezza cosa? ho rattristato un'ascoltatrice quando ho detto che la domenica voglio stare qualche ora con i miei bambini devo stare in casa poi se vado in giro mi fermano per le foto mi ha fatto molta tristezza questa immagine vabbè noi non ci possiamo lamentare ci sono cose più tristi però diciamo quando ho magari quell'ora che dico ho un'ora vado al parco con Sebastien lo metto sull'altalena prima arrivano i senegalesi con i libri tutti i giorni quello anche a noi comuni mortali io gli dico ho parlato con Bubba non è che tutti i giorni posso comprare un libro quando ci gli ho delle cose te le do non voglio neanche il libro ho fatto un contratto poi scusami non ti voglio disturbare possiamo fare una foto vabbè lo metto giù Sebastien perché non lo voglio nelle foto Sebastien Sebastien piange a volte perché capito mi distrago poi è il nostro momento continua faccio la foto poi vado avanti lo metto sull'altro giro arriva un altro scusa non ti vorrei disturbare possiamo fare puoi parlare con mia sorella al telefono e Sebastian a un certo punto gioca da solo allora io lo prendo vado a casa ci guidiamo in cameretta pippiamo insieme stiamo lì ci facciamo di droghe nei modi come Mick Jagger non ci stiamo lamentando c'è di peggio eh direi eh certo c'è sempre di posso dire c'è sempre di peggio ti hanno dato un calcio nei maroni stamattina c'è di peggio c'è gente che non ha da mangiare vero? tarà tarà tarà se ti dà fastidio poi devi scegliere di fare un altro lavoro che mi pare vai a scegliere un'azienda tua volevo ringraziarti per avermi informato dalla presenza di stazione prevenzione andrò con questa settimana con la mia famiglia ciao domenico ciao verico Mi è arrivato il messaggio, quello che abbiamo detto per ridere. Se ti dà fastidio che ti fermano per strada dovevi scegliere un altro lavoro. È arrivato. Davvero? Sì, sì.",
-    "titolo": "Tracy Chapman disco 1988",
-    "tema": [
-      "musica"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-03-14-033",

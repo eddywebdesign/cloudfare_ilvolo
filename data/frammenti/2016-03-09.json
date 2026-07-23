@@ -298,7 +298,8 @@
     "tema": [],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/6041a234-54fb-4021-8bb6-ecf5c2f40149/front-250"
   },
   {
     "id": "2016-03-09-025",
@@ -321,7 +322,7 @@
     "tema": [],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true
   },
   {
     "id": "2016-03-09-027",
@@ -366,11 +367,11 @@
     "end": 1050.41,
     "speaker_raw": "SPEAKER_01",
     "testo": "andare nei borghi è una delle cose più belle dell'universo esatto esatto quando te ne vai giù lì Toscana Umbria così che vai in quei borghetti meravigliosi che c'è sempre il formaggio la carne le spezie le nocciole i biscotti ma non è che monta senti invece l'altra cosa in realtà appunto come hai detto Toscana piuttosto che Umbria in realtà sono poi un po' no no lo so io perché sono andato in quelli ma ti volevo dire una cosa invece che mi interessa che sappiano gli ascoltatori del volo del mattino è che voi grazie a dei volontari riuscite in tutta Italia a tenere aperto dei posti che altrimenti i comuni non avrebbero magari soldi per sostenerli e quindi viene abbandonato mi puoi fare degli esempi?",
-    "titolo": "borghi italiani",
+    "titolo": "",
     "tema": [],
-    "tipo": "riferimento_libro",
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-03-09-031",
@@ -407,7 +408,7 @@
     "tema": [],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true
   },
   {
     "id": "2016-03-09-034",

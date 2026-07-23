@@ -70,7 +70,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/254f9a9b-e0fd-47f2-91fa-1919eb023411/front-250"
   },
   {
     "id": "2016-02-11-006",
@@ -136,7 +137,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/11621024-M.jpg"
   },
   {
     "id": "2016-02-11-011",
@@ -424,7 +426,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/09e8b341-3d39-4cd4-a25d-1dc04d0a7833/front-250"
   },
   {
     "id": "2016-02-11-033",
@@ -438,7 +441,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/ea174475-255b-48b2-9c8e-92d795a7472c/front-250"
   },
   {
     "id": "2016-02-11-034",
@@ -597,14 +601,11 @@
     "end": 1232.37,
     "speaker_raw": "SPEAKER_06",
     "testo": "e tutte le foto di Gesù nel Vangelo sono a tavola non lavora, mangia gli lavano i piedi lui lava i piedi degli altri ma non c'era la maddalena che piange sui piedi quella è bellissima quella è una grande storia e senti come siamo arrivati qua stavamo dicendo è inchiodato sulla croce si famoso amore di Dio che non è quello della fidanzata perché con la fidanzata fai delle cose che Dio con te non fa certo",
-    "titolo": "Vangelo",
-    "tema": [
-      "religione",
-      "storia"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-02-11-046",
@@ -893,14 +894,11 @@
     "end": 1910.47,
     "speaker_raw": "SPEAKER_17",
     "testo": "buon compleanno dj buonissimo compleanno oro saiva per i suoi 60 anni di bontà oro saiva ti regala la festa di radio dj partecipa al quiz su dj.it in palio 60 biglietti e un soggiorno per due a roma che cosa vi regala oro saiva per i suoi 60 anni se lo sai cosa aspetti rispondi e vieni alla festa dj con oro saiva regolamento su dj.it montepremi 1400 euro scade il 14 febbraio",
-    "titolo": "Oro saiva",
-    "tema": [
-      "musica",
-      "compleanno"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-02-11-070",

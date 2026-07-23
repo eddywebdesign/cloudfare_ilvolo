@@ -123,13 +123,11 @@
     "end": 510.57,
     "speaker_raw": "SPEAKER_05",
     "testo": "Quando sono arrivato mi ha detto... Sono arrivato questa mattina qui in studio, ragazzi, e Maurizio diceva Madonna mia, sta cosa che mi manca. Che è che ti manca dei Rollins?",
-    "titolo": "Citazione a Madonna",
-    "tema": [
-      "musica"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-02-02-011",
@@ -280,7 +278,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/c2fb41dc-b300-4213-b34d-610bfdffa0f4/front-250"
   },
   {
     "id": "2016-02-02-024",
@@ -348,14 +347,11 @@
     "end": 1229.6,
     "speaker_raw": "SPEAKER_09",
     "testo": "I just need a reason why should I change me to be like you I just need a reason why should I fall just like a fool I just need a reason should I let you control my mind What will you get from me ma no Ciao Ciao",
-    "titolo": "I just need a reason",
-    "tema": [
-      "amore",
-      "dubbio"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-02-02-030",
@@ -374,14 +370,11 @@
     "end": 1323.27,
     "speaker_raw": "SPEAKER_09",
     "testo": "can you save me all that I can say is can you save me all that I can say is can you save me save me I don't wanna fall asleep I can anybody I can anybody save me save me",
-    "titolo": "Can you save me",
-    "tema": [
-      "amore",
-      "aiuto"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-02-02-032",
@@ -445,7 +438,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/8510506b-f42c-4f60-ab0e-54317e32e3ca/front-250"
   },
   {
     "id": "2016-02-02-037",
@@ -597,14 +591,11 @@
     "end": 1978.26,
     "speaker_raw": "SPEAKER_01",
     "testo": "Sì, sì, che l'abbiamo cantata anche in Giappone, dopo lo tsunami. Ah! Perché questa è una canzone che racconta la storia di Noè, via dicendo. l'abbiamo cantato, ci ha chiamato un gruppetto di noi, siamo andati in Giappone chiamati da un insegnante dell'università di Nagoya, siamo andati proprio nelle zone dello tsunami e ho le foto, forse voi siete un orale ma le abbiamo cantate con i bambini per ritrattenerli, farli ridere sorridere grazie mille signora, grazie grazie per le sue parole salve salve salve",
-    "titolo": "La storia di Noè",
-    "tema": [
-      "musica",
-      "storia"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-02-02-050",
@@ -695,14 +686,11 @@
     "end": 2719.95,
     "speaker_raw": "SPEAKER_05",
     "testo": "Questo è il mio amico Jim Croce, che mi ricordo sempre di andare a vedere anche solo la faccia, io i suoi dischi ne ha fatti pochi perché è morto in un incidente aereo molto presto, però insomma c'è questa faccia proprio come i nostri genitori negli anni 60 e 60 con il baffone, sai quando vedi i film che c'è l'uomo con il baffone, ecco lui è così riccio, simpatico con il baffone, che sembra sempre più vecchi quando li vedi, invece erano molto giovani. Allora, tra le varie cose divertenti della politica così, un ascoltatore dice che Berlusconi a Trieste aveva fatto cucù dietro la colonna di Piazza Unità alla Merkel. E' un altro momento indimenticabile quando si trovano tutti i grandi del mondo, che c'è la regina d'Inghilterra con la sua manina come le statuette che muove a destra e a sinistra e si sente Mr Obama! La regina... e la regina dice scusa la regina ha detto ma chi è che grida ragazzi ma la si alza è fantastico e Donald Trump dice queste cose una giornalista che l'ha messo un po' in difficoltà disse che aveva il ciclo diceva usciva il sangue dagli occhi ti rendi conto avere un presidente del genere che imbarazzo che imbarazzo fantastico va bene ragazzi io ho 25 anni vi scrivo dalla Francia dove gioco a rugby sono di Brescia sai che a Brescia c'è una cultura rugby molto forte però quando torno a casa appunto a Brescia io porto le robe da lavare a mia mamma è quel cordone che non si è spezzato va bene dai succede allora io consiglierei dice Federico Dappadova come argomento la legge di gravità che quando hai mal di schiena ti cade tutto per terra cosa è un tema vale tutto domani su questo Sai che adesso mi siedo alla mattina per mettermi le calze?",
-    "titolo": "Jim Croce",
-    "tema": [
-      "musica",
-      "artista"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-02-02-058",

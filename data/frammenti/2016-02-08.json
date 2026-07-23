@@ -84,7 +84,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/944675-M.jpg"
   },
   {
     "id": "2016-02-08-007",
@@ -345,7 +346,7 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true
   },
   {
     "id": "2016-02-08-028",
@@ -629,14 +630,11 @@
     "end": 2486.54,
     "speaker_raw": "SPEAKER_00",
     "testo": "Ma ragazzi... Quanti ricordi, quanti immagini, quanti pensieri nella testa proprio che mi sono venuti con questa canzone, a differenza della musica che schiaccia, no? Quella che ti invade, questa proprio ti apre il cervello. E stavo pensando, mentre ascoltavo questa canzone, a cui io sono legato particolarmente, perché insomma è un album meraviglioso, se i giovani adolescenti, visto che io ho figli molto piccoli, non ho relazioni con gli adolescenti, diciamo, non ne incontro mai, se hanno, dalla musica di oggi... questi album qui dove non è che c'è bella la canzone dove io me le metto in cameretta me le mettevo in cuffia tra l'altro avevo messo quelle stelle sul soffitto che accendi la luce la spendi quella lì tamarrata avevo riempito che brutto la cameretta un giorno mia sorella perché dormivamo nella stanza la spendo la luce boom ma che cazzo guarda che tribo io facevo le cane quelle che si ricaricavano durante il giorno con la luce sì tu bastava accendere la luce tipo 30 secondi spegnevi boom era tutto ma avevo fatto l'avò riempito quindi era proprio stellatissimo un ragazzo qua di Brescia dice quanti spinelli non sentivo la parola spinelli comunque mi mettevano in cuffia avevo delle cuffie della della Philips che avevano anche il volume sopra una cuffia che ai tempi erano super tecnologiche e mi mettevo lì e mi mettevo tipo non so un questo album per esempio gli altri non te li ricordi neanche no Shine o Crazy Diamond sempre dei Pink Floyd 14 minuti lo dico sempre cioè proprio una roba che e tu praticamente queste canzoni diventavano una navicella un tappeto volante dove tu andavi dentro capito dentro te stesso le tue cose le tue paure poi quando sei adolescente c'hai un sacco di ansia più di quando sei adulto nel senso che fai finta di nascondere però ti ammazzi di quello che puoi però c'è dove vado cosa faccio sarà uno sfigato sarà uno figo cosa succede la voglio baciare non so come si bacia cioè c'è in mille paranoia e tu ti ascolti capito un album così The Wall adesso ne sto pensando a questi però ce ne sono tantissimi di album belli anche in musica ancora più vecchia ci sono le nuove generazioni perché non mi vedo un ragazzo che si mette lì e mette Fedez e si mette in cuffia Fedez e dice oh",
-    "titolo": "Canzone che apre il cervello",
-    "tema": [
-      "musica",
-      "pensieri"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-02-08-050",

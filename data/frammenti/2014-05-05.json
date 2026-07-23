@@ -143,14 +143,11 @@
     "end": 840.33,
     "speaker_raw": "SPEAKER_02",
     "testo": "I'm sitting down here wondering why, oh why. grazie ... ... ... ... ... ... ... ... Ausenzia c'ha un vasino da un grano, sei un melandaggio del preceo, baspiazza. Grazie a tutti.",
-    "titolo": "I'm sitting down here wondering why",
-    "tema": [
-      "musica",
-      "canzone"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2014-05-05-012",
@@ -407,7 +404,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/399bc0ad-f932-4be7-93a6-704021814a3e/front-250"
   },
   {
     "id": "2014-05-05-032",
@@ -433,7 +431,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/4bf9c3e1-8379-4709-89ef-2f31740121cb/front-250"
   },
   {
     "id": "2014-05-05-034",

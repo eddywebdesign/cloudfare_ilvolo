@@ -5,14 +5,11 @@
     "end": 68.57,
     "speaker_raw": "SPEAKER_03",
     "testo": "Radio DJ One Nation One Station One Buongiorno Oh Don't you shut your eyes And hide your heart behind the shadow Cause you can count on me As long as I can breathe You should know ciao ciao ciao ... ... ... ... ... ... ...",
-    "titolo": "Can't Shut Your Eyes",
-    "tema": [
-      "amore",
-      "musica"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-02-12-001",
@@ -63,7 +60,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/372715-M.jpg"
   },
   {
     "id": "2016-02-12-005",
@@ -217,7 +215,7 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true
   },
   {
     "id": "2016-02-12-017",
@@ -261,14 +259,11 @@
     "end": 1060.99,
     "speaker_raw": "SPEAKER_05",
     "testo": "è di fatto di energia ma no se vuole il termine tecnico si chiama campo gravitazionale ma non è che il termine tecnico aiuta poi no no mi viene in mente una canzone di Battiato che non c'entra niente esatto allora",
-    "titolo": "Battiato",
-    "tema": [
-      "musica",
-      "Battiato"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-02-12-021",
@@ -638,14 +633,11 @@
     "end": 2216.39,
     "speaker_raw": "SPEAKER_07",
     "testo": "Gli ho portato anche questa canzone che era un po' che non la si metteva. È amazing.",
-    "titolo": "Canzone The Amazing",
-    "tema": [
-      "musica",
-      "canzoni"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-02-12-050",
@@ -741,14 +733,11 @@
     "end": 2488.04,
     "speaker_raw": "SPEAKER_07",
     "testo": "3, 4, 5 ore di viaggio chiacchierando, scherzando ascoltando la musica condividendo le proprie azioni come una volta si faceva sui treni che la gente si incontrava e chiacchierava adesso stanno sui telefoni, sui libri in macchina siccome almeno quello che guida non può stare tanto al telefono c'è un'applicazione ovviamente si chiama Blablacar l'applicazione?",
-    "titolo": "Blablacar",
-    "tema": [
-      "viaggio",
-      "condivisione"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-02-12-058",

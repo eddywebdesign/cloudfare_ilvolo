@@ -65,14 +65,11 @@
     "end": 250.94,
     "speaker_raw": "SPEAKER_14",
     "testo": "Senti, abbiamo degli ascoltatori che vanno a Cuba, scusa me lo faccio fare a Nicola, Nicola mi apri la stampa, ecco lì, Salone del Libro, ecco lì quella pagina lì, al Salone del Libro di Torino. Ah, Salone del Libro di Torino? Mi puoi leggere sotto la luce?",
-    "titolo": "Salone del Libro di Torino",
-    "tema": [
-      "libri",
-      "cultura"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2014-05-09-006",
@@ -195,14 +192,11 @@
     "end": 415.83,
     "speaker_raw": "SPEAKER_13",
     "testo": "e il cuore va risposto questo è mal d'amore per guarirci sono al mente un modo vuoi sapere vuoi sapere come si fa si fa spesso chiodo scaccia chiodo e riprovi la felicità Quanto vuoi dare? Quanto vuoi dare? Quanto vuoi dare? Quanto vuoi dare? Quanto vuoi dare? E' svegliato! Qualcuno scrive, Nicola rimani qui! E se ancora ci vai? E se quasi, quasi!",
-    "titolo": "Mal d'amore",
-    "tema": [
-      "amore",
-      "musica"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2014-05-09-016",
@@ -367,14 +361,11 @@
     "end": 796.75,
     "speaker_raw": "SPEAKER_14",
     "testo": "Allora, a ah beh ah beh ti ho visto ieri sera che commentavi Vasco Rossi ah ieri c'era uno speciale Vasco Rossi su Rai 2 eh non me lo ricordavo non me lo so ricordato ho fatto ho fatto dei commenti come quelli americani che poi uno commenta commenta salutiamo Vasco salutiamo buon compleanno Nadia allora come mai Fabio Volo ridi per ogni cazzata La risposta sarebbe perché sono felice di esistere al mondo, però in realtà è perché sono un coglione, cioè perché io rido sempre, come i coglioni, come i deficienti in sostanza. Dimmi una cosa che fa un po' ridere.",
-    "titolo": "Vasco Rossi",
-    "tema": [
-      "musica",
-      "Vasco Rossi"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2014-05-09-030",
@@ -544,7 +535,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/fd2b0161-79dd-489f-81f9-d53034603439/front-250"
   },
   {
     "id": "2014-05-09-044",
@@ -770,7 +762,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/2750d449-99a2-472e-932a-a8d377cefaf8/front-250"
   },
   {
     "id": "2014-05-09-062",

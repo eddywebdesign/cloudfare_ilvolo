@@ -606,7 +606,8 @@
     "tema": [],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/5ce2c05e-1d11-4a01-bb2d-69e69428ab5e/front-250"
   },
   {
     "id": "2016-02-18-047",
@@ -807,7 +808,7 @@
     "tema": [],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true
   },
   {
     "id": "2016-02-18-063",
@@ -1009,11 +1010,11 @@
     "end": 2459.0,
     "speaker_raw": "SPEAKER_03",
     "testo": "questo è il silenzio la causa di tutto non dire un lavoro dimmi cosa vuoi e noi te lo diamo questo è il silenzio bello come quando passa una stella come passa una stella a cometa voglio realizzarmi no è troppo facile vai dimmi domani mattina ti vuoi svegliare dove vuoi andare a lavorare Sparala Grossa voglio andare a lavorare in Svizzera ma noi in che ufficio? cosa fai in Svizzera? Toblerone è un interrogatorio poverina dai Marinella non sei pronta vai commerciale ecco dovete fare così anche voi a casa cari ascoltatori rispondete a questa domanda mentre siete lì in macchina in ufficio cosa volete? cosa vuoi? io dormire ciao Marinella in bocca al lupo Fabio posso dirti una cosa?",
-    "titolo": "Il silenzio come stella",
+    "titolo": "",
     "tema": [],
-    "tipo": "riferimento_musica",
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-02-18-080",
@@ -1061,7 +1062,8 @@
     "tema": [],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/4128486-M.jpg"
   },
   {
     "id": "2016-02-18-084",

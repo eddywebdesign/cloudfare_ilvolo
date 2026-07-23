@@ -5,13 +5,11 @@
     "end": 21.83,
     "speaker_raw": "SPEAKER_12",
     "testo": "è incredibile sarà che venerdì ma si parlava di sesso qui prima dell'inizio del programma la tematica a quest'ora sesso",
-    "titolo": "Sesso",
-    "tema": [
-      "sessualità"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-01-29-001",
@@ -19,13 +17,11 @@
     "end": 131.37,
     "speaker_raw": "SPEAKER_06",
     "testo": "You make me feel Like I'm alive again Alive again You make me feel Like I'm alive again Said I can't go on Ciao Ciao ciao ciao ciao",
-    "titolo": "You make me feel",
-    "tema": [
-      "musica"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-01-29-002",
@@ -400,14 +396,11 @@
     "end": 1232.54,
     "speaker_raw": "SPEAKER_06",
     "testo": "a presto Grazie a tutti! a presto Ciao! grazie I just hope it ain't the money money money money money Love me love me honey I just hope it ain't the money money money money money Love me love me honey I just hope it ain't the money money money money money Love me love me honey I just hope it ain't the money money money money money Love me love me honey You got me singin' dojo",
-    "titolo": "Money Money Money",
-    "tema": [
-      "musica",
-      "canzone"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-01-29-032",
@@ -422,7 +415,7 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true
   },
   {
     "id": "2016-01-29-033",
@@ -788,13 +781,11 @@
     "end": 2691.61,
     "speaker_raw": "SPEAKER_12",
     "testo": "Ben Harper, a proposito di vita e di condivisione di aneddotisti che ne arrivano anche tanti dai nostri ascoltatori, mentre Michele ci raccontava la sua storia con i figli, ad Andrea Squillato il telefono era la mamma che ha detto che a lei ha regalato i figli. Hai ancora il telefono? Sì, è qua mamma. Mettila in viva voce. Buongiorno signora. Ciao Fabio. Ciao, saluta prima me e dopo. Non conto niente. Che cosa ha regalato i suoi nipoti? Diggielo.",
-    "titolo": "Ben Harper citato",
-    "tema": [
-      "vita"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-01-29-061",
@@ -883,12 +874,10 @@
     "end": 2786.11,
     "speaker_raw": "SPEAKER_12",
     "testo": "prende in mano dentro il pancione esatto ok buongiorno Anna grazie mille buongiorno ciao ciao ciao ciao ciao ciao viola dimmi qui arrivano ascoltatori che hanno imparato la sessualità come te da questa videocassette vedi e mi avete preso in giro tutti di Repubblica speriamo che le ristampino va bene ma scusate vale post al market vale io l'ho imparata lì ciao ragazzi ciao ciao",
-    "titolo": "videocassette",
-    "tema": [
-      "educazione"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   }
 ]

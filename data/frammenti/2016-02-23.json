@@ -49,13 +49,11 @@
     "end": 144.43,
     "speaker_raw": "SPEAKER_00",
     "testo": "con Deus mi dito, con Deus mi levanto, conmigo eu calo, conmigo eu canto, eu bato em um papo, eu bato em um ponto, eu tomo um drink e eu fico tonto",
-    "titolo": "Deus mi dito",
-    "tema": [
-      "musica"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-02-23-005",
@@ -139,13 +137,11 @@
     "end": 550.43,
     "speaker_raw": "SPEAKER_09",
     "testo": "Come era scritto su New York Times?",
-    "titolo": "New York Times",
-    "tema": [
-      "giornalismo"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-02-23-012",
@@ -167,14 +163,11 @@
     "end": 609.35,
     "speaker_raw": "SPEAKER_09",
     "testo": "amore fuoco fuochino dove sei lui si è nascosto era qualche gioco erotico non lo so adesso noi mettiamo un bel disco per dare una bella svolta poi leggo un messaggio nel frattempo ti faccio cercare una frase di un film che è perfetto per questo messaggio di questo ascoltatore ma adesso senti un po' i Toto e i Peppino arrivano dopo questa è una canzone dovrebbe cambiarvi la giornata ciao a tutti vi vogliamo bene questo è il volo del mattino mamma che bellezza mamma che bellezza 3, 4, 5, 6",
-    "titolo": "Toto e Peppino",
-    "tema": [
-      "musica",
-      "canzoni"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-02-23-014",
@@ -225,7 +218,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/454cf54b-a10f-49b7-9e05-c5059817a840/front-250"
   },
   {
     "id": "2016-02-23-018",
@@ -240,7 +234,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/4a6daa1f-550c-4533-8c61-630893e9b716/front-250"
   },
   {
     "id": "2016-02-23-019",
@@ -415,13 +410,11 @@
     "end": 1239.23,
     "speaker_raw": "SPEAKER_09",
     "testo": "Prendetevi questa canzone perché è bellissima e non la sentirete mai più a Radio DG.",
-    "titolo": "Canzone bellissima",
-    "tema": [
-      "musica"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-02-23-033",
@@ -647,7 +640,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/49ed4502-adae-48a0-b65e-bd1c59668a74/front-250"
   },
   {
     "id": "2016-02-23-050",

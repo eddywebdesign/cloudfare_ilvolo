@@ -16,13 +16,11 @@
     "end": 83.66,
     "speaker_raw": "SPEAKER_05",
     "testo": "One love. Saturday morning, jumped out of bed. Put on my best suit. Got in my car and raced like a jet. All the way to you. Knocked on your door with heart in my hand. To ask you a question. Ciao! say yes say yes",
-    "titolo": "One love",
-    "tema": [
-      "amore"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2014-05-14-002",
@@ -420,7 +418,7 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true
   },
   {
     "id": "2014-05-14-034",
@@ -476,13 +474,11 @@
     "end": 1692.68,
     "speaker_raw": "SPEAKER_11",
     "testo": "Ha fiaccato il cane. Hai sbloccato anche a me con la storia dell'asino. Vado a chiedere la separazione fra me e Zora. Si fanno anche dei danni, eh. Se non chiamate Topo Gigio, non vi ascolto più. È vero! no però ci sta ascoltando devo dire ciao Topo ciao Gigio sai che Vasco Rossi l'ha anche messo in una sua canzone Topo Gigio te lo ricordi?",
-    "titolo": "Vasco Rossi e Topo Gigio",
-    "tema": [
-      "musica"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2014-05-14-039",

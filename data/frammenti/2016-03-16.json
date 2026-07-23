@@ -5,14 +5,11 @@
     "end": 90.28,
     "speaker_raw": "SPEAKER_04",
     "testo": "Buongiorno a tutti, sta per cominciare il volo del mattino Don't you shut your eyes and hide your heart behind the shadow Cause you can count on me as long as I can breathe, you should know Sì. Falling from grace, yeah, I'm much less a saint than a sinner Oh no, ain't no superhuman, cause that's just in the movies, I know But I'll carry you through the night, through the storm Give you love, always love in return",
-    "titolo": "Don't You Shut Your Eyes",
-    "tema": [
-      "amore",
-      "musica"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-03-16-001",
@@ -39,7 +36,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/98591db1-d94e-4197-98dc-3154609e728d/front-250"
   },
   {
     "id": "2016-03-16-003",
@@ -182,14 +180,11 @@
     "end": 1040.85,
     "speaker_raw": "SPEAKER_09",
     "testo": "a parte che mi piacciono oltre alle parole anche la voce no? e poi sentitevi rimettiamo questa canzone che ho trovato qualche giorno fa che mi ossessiona la sto ascoltando in loop in loop in loop la voglio per la mia serie tv già vedo anche l'immagine hai capito? io triste solo con le mani in tasca",
-    "titolo": "La canzone che mi ossessiona",
-    "tema": [
-      "musica",
-      "tristezza"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-03-16-015",
@@ -267,7 +262,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/5991052c-afea-4604-8b14-8acd957bb7ee/front-250"
   },
   {
     "id": "2016-03-16-021",
@@ -297,14 +293,11 @@
     "end": 1428.76,
     "speaker_raw": "SPEAKER_10",
     "testo": "in my life no time to think time for sleep now time to sink way into the blue",
-    "titolo": "In My Life",
-    "tema": [
-      "amore",
-      "paura"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-03-16-024",
@@ -334,14 +327,11 @@
     "end": 1516.31,
     "speaker_raw": "SPEAKER_09",
     "testo": "Ok, vabbè, comunque Mardo lo usano tantissimo anche nelle lezioni di yoga, perché tutto l'album è bello. Alexi Mardok, si scrive Murdoch. Cosa vai a fare a Siragusa? Cioè, scusami, a Catania? vado a lavorare tutte le mattine ti fai quella strada quant'è? 100 km 100 km in Sicilia non sono 100 km tra Milano e Brescia in treno sono 6 giorni in macchina saranno 1 il treno è improponibile in macchina faccio un'oretta un'oretta e mezza tutti i giorni ti fai 3 ore di macchina giusto? quasi tutti i giorni chi ascolti a ritorno? la Pina? eh sì bravo ok ok sì perché noi siamo gli stessi ascoltatori nostri quelli della Pina che sono quelli che noi li portiamo al lavoro la Pina li riporta a casa infatti noi io dico l'anno prossimo potremmo invertire gli orari per cambiare un po' attivilissimo tra l'altro la Pina non se la prende non se la prende va bene ciao Viviano in bocca al lupo ciao Fabio ciao ciao ciao potremmo invertire no?",
-    "titolo": "Alexi Murdoch",
-    "tema": [
-      "musica",
-      "relax"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-03-16-027",

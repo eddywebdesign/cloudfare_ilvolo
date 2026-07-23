@@ -34,7 +34,8 @@
     "tema": [],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/b4350a67-b40b-44f4-9712-237652b0afe1/front-250"
   },
   {
     "id": "2016-01-21-003",
@@ -60,7 +61,7 @@
     "tema": [],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true
   },
   {
     "id": "2016-01-21-005",
@@ -209,11 +210,11 @@
     "end": 1011.46,
     "speaker_raw": "SPEAKER_03",
     "testo": "Police 1981 dovevamo chiamare il nostro esperto di musica ma siamo già in ritardo comunque era per dire il nostro esperto di musica ci ha detto questa mattina che Sting se ne andrà con Peter Gabler in tournée per il mondo e quindi per noi amanti della musica siamo molto contenti senta Igor sentiti lo del tuo ovviamente è possibile non avere desideri scrive una ragazza la mail è un po' lunga ma ti dico solo questo lei dice io ho tutta una vita anche abbastanza incasinata ma non ho desideri mi va bene così com'è la mail è bellissima complimenti a quella signora lì sono una donna di 41 anni intelligente, curiosa, elettrice a canita due figli, un matrimonio fallito alle spalle una vita incasinata ma è la vita che voglio vivere Ma non ho desideri, nemmeno quelli più semplici, forse perché li ho pagati tutti, dice. È una poesia? È una poesia. Maurizio ci fa un libro adesso, lui fa libri di poesie. No, questa è una lirica giapponese bella. Allora, ho conosciuto Igor e le tecniche dei desideri da un anno circa e mi sta cambiando la vita, grazie Igor. Quali sono queste tecniche, diciamo, maestri invisibili, qualcuno qua cita, qualcuno dice invece tecniche del desiderio.",
-    "titolo": "Sting tour with Peter Gabriel",
+    "titolo": "",
     "tema": [],
-    "tipo": "riferimento_musica",
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-01-21-017",
@@ -263,11 +264,11 @@
     "end": 1080.67,
     "speaker_raw": "SPEAKER_03",
     "testo": "L'ho letto, non tutto, l'ho iniziato, a parte che era in inglese, dopo un po' l'ho un po' lasciato, ma il capitolo, quello dei desideri, l'ho letto. Io credo di essere arrivato a sette, esatto.",
-    "titolo": "I desideri",
+    "titolo": "",
     "tema": [],
-    "tipo": "riferimento_libro",
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-01-21-021",
@@ -373,11 +374,11 @@
     "end": 1430.1,
     "speaker_raw": "SPEAKER_03",
     "testo": "nella riuscita, nel venir bene nel successo aborro il principio di vincitore di stare bene mentre tu parli la viola con la testa annuisce quindi adesso mettiamo un bel disco se avete domande ovviamente noi siamo qua Everybody loves the things you do",
-    "titolo": "Everybody loves the things you do",
+    "titolo": "",
     "tema": [],
-    "tipo": "riferimento_musica",
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-01-21-029",
@@ -403,7 +404,8 @@
     "tema": [],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/f174f17a-d6f0-4976-a05d-8a82b506483a/front-250"
   },
   {
     "id": "2016-01-21-031",
@@ -474,7 +476,8 @@
     "tema": [],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/13905211-M.jpg"
   },
   {
     "id": "2016-01-21-037",
@@ -482,11 +485,14 @@
     "end": 1909.83,
     "speaker_raw": "SPEAKER_01",
     "testo": "sono tutte le grandi storie d'amore e salvare la principessa dal drago dal drago cioè l'archetipo del drago del drago della torre lei è bloccata nella torre c'è il drago che la tiene e l'uomo la deve salvare o viceversa la storia di San Giorgio San Giorgio è il soldato che arriva a un certo punto in un paese questa è la leggenda di San Giorgio e trova una principessa che non può sposarsi perché ha un drago San Giorgio arriva e uccide il drago e lei si sposa non con San Giorgio con un altro e questa è la storia che sta proponendo la signorina perché dice come faccio a tirar fuori qualcuno dalla sua comfort zone diventa San Giorgio",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Leggenda di San Giorgio",
+    "tema": [
+      "amore",
+      "salvataggio"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": ""
+    "autore": "Dante Alighieri"
   },
   {
     "id": "2016-01-21-038",
@@ -735,11 +741,11 @@
     "end": 2381.86,
     "speaker_raw": "SPEAKER_03",
     "testo": "mettiamo questa canzone che piace solo a me a quanto pare qui nel gruppo quindi me la metto per me perché a me è la pelle d'oca quindi mi dedico una canzone e a quei cinque in ascolto che capiscono la meraviglia e la magia di questa canzone del maestro Lucio Dalla è la sera dei miracoli fai attenzione qualcuno nei vicoli di Roma",
-    "titolo": "La sera dei miracoli di Lucio Dalla",
+    "titolo": "",
     "tema": [],
-    "tipo": "riferimento_musica",
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-01-21-057",

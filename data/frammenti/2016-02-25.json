@@ -19,13 +19,11 @@
     "end": 257.75,
     "speaker_raw": "SPEAKER_00",
     "testo": "Oggi mi si risolverà un grande enigma perché questa sera alla festa di Radio DJ io vi introdurrò come ho fatto qui a Radio DJ con il suo disco Maitre Gims, cioè il ragazzo che sta accanto ad esso e così probabilmente digli Bonsoir Maitre Gims, tutta pelle Maitre Gims, Maitre Gims, Maitre Gims, ci faremo dire come si dice la canzone esattamente e come si pronuncia il proprio nome Matrigi, Matrigim, insomma, comunque sarà lì questa sera alla festa di Radio DJ in una, posso dire, delle città più belle del mondo. Perché quando ci sarà lì Matrigi che dirà, no, je vends Paris, sì, vabbè, bella Parigi, va bene, no, no, bella Parigi, quelle cinque illuminazioni lì, ma Roma, Roma, no. ma non fa quella faccia Maurizio tu preferisci Parigi di Roma? tu Sibaldi scusami se tu attento a quello che dici ci ascoltano molto più romani che francesi però più bella Parigi o Roma?",
-    "titolo": "Maitre Gims",
-    "tema": [
-      "musica"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-02-25-002",
@@ -324,7 +322,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/452995-M.jpg"
   },
   {
     "id": "2016-02-25-026",
@@ -338,7 +337,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/12503367-M.jpg"
   },
   {
     "id": "2016-02-25-027",
@@ -715,7 +715,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/982b6679-33e2-43ca-8d59-3cf784a29a8f/front-250"
   },
   {
     "id": "2016-02-25-057",
@@ -751,14 +752,11 @@
     "end": 1463.67,
     "speaker_raw": "SPEAKER_07",
     "testo": "spiega perché nel verso prima cioè dice nei sogni non hai heartaches cioè non hai dolori non hai dolori allora se tu non sei triste qualsiasi cosa tu desideri hai il coraggio di tenerla e di formularla se la formuli è fatta torniamo con il gatto con gli stivali per tutti quelli che hanno i gatti torniamo col pifferaio con Pinocchio che è importantissima ok la spada nella doccia",
-    "titolo": "Non avere dolori",
-    "tema": [
-      "felicità",
-      "amore"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-02-25-060",
@@ -806,14 +804,11 @@
     "end": 1792.1,
     "speaker_raw": "SPEAKER_07",
     "testo": "Se tu sei Aladino, può darsi che tu sia Aladino. Non c'è Rentola, non Biancaneve, non i tre porcellini, ma Aladino. la prima cosa è sapere dove e come si incontra il genio della lampada che naturalmente realizza i desideri ovvio allora la prima cosa è trovarsi in una grotta cioè sentirsi stretti nella vita in cui ci si trova secondo la lampada la lampada è polverosa è una lampada di ottone tu togli la polvere da una lampada di ottone chi vedi sulla lampada di ottone? vedi te stesso riflesso quando vedi te stesso da fuori quando ti vedi come se tu fossi piccolo e tu avessi un punto di vista in cui tu sei più grande di te a quel punto è il momento giusto dei desideri quindi diciamo alla fine il genio sei ancora sei sempre tu il genio è il rapporto che c'è tra il piccolo e il grande tra il piccolo e il tuo io piccolo e il tuo io grande Tutti noi abbiamo questa cosa, siamo una persona, appunto le sorelle che vanno in giro e la cenerentola nascosta. Tutti noi abbiamo un punto di vista sulla nostra vita che dice non mi basta, la mia vita non è tutta qui, la mia storia non è tutta qui, io sono più di questo. Quando riesco a mettermi da quella parte lì e a vedere me, vedo cosa mi manca e ho il coraggio di dire cosa mi manca.",
-    "titolo": "Aladino e la lampada",
-    "tema": [
-      "fabbri",
-      "genio"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-02-25-064",

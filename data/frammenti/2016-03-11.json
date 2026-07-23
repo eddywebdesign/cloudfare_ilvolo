@@ -88,14 +88,11 @@
     "end": 255.18,
     "speaker_raw": "SPEAKER_00",
     "testo": "Maurizio ha un po' giù la voce questa mattina. E sono andato a vedere Fatboy Slim ieri sera. Ma no, avrei mangiato i formaggi.",
-    "titolo": "Concerto di Fatboy Slim",
-    "tema": [
-      "musica",
-      "concerto"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-03-11-008",
@@ -181,14 +178,11 @@
     "end": 496.72,
     "speaker_raw": "SPEAKER_11",
     "testo": "Con la grappa. Ma cazzo alle nove?",
-    "titolo": "Con la grappa",
-    "tema": [
-      "grappa",
-      "musica"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-03-11-015",
@@ -378,7 +372,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/9d3e61df-7ff8-41c6-8664-4e7d5fea78a5/front-250"
   },
   {
     "id": "2016-03-11-031",
@@ -392,7 +387,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/5316a3dc-6c86-4aa0-b302-242dd6243052/front-250"
   },
   {
     "id": "2016-03-11-032",
@@ -572,13 +568,11 @@
     "end": 1050.74,
     "speaker_raw": "SPEAKER_01",
     "testo": "sto ascoltando cos'è il rondò della forca?",
-    "titolo": "Rondò della forca",
-    "tema": [
-      "musica"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-03-11-047",

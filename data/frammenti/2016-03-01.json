@@ -58,7 +58,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/7495c06b-b72d-4400-a4c0-8f15f29356b2/front-250"
   },
   {
     "id": "2016-03-01-005",
@@ -330,14 +331,11 @@
     "end": 1068.76,
     "speaker_raw": "SPEAKER_04",
     "testo": "non lo dire che non fai bella figura allora sei di Rimini? quindi hai già fatto l'amore stamattina tu? magari però tu hai un gemello i gemelli intanto anche lì sono tutte le categorie che gemello sei? omozigota omozigota omozigota omozigota Sì. Avete gli stessi diritti? Vi potete sposare? Perché adesso abbiamo fatto la battaglia per gli omosessuali. Vorremmo farla adesso.",
-    "titolo": "Diritti omosessuali",
-    "tema": [
-      "omosessuali",
-      "diritti"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-03-01-026",
@@ -760,14 +758,11 @@
     "end": 2296.41,
     "speaker_raw": "SPEAKER_10",
     "testo": "ha una tendenza curva verso sinistra sunrise sunrise looks like morning in your eyes but the clocks held 9.15 for hours sunrise sunrise couldn't tempt us if it tried cause the afternoon Grazie. a presto",
-    "titolo": "sunrise looks like morning",
-    "tema": [
-      "musica",
-      "inizio"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-03-01-060",

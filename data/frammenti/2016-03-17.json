@@ -184,14 +184,11 @@
     "end": 355.94,
     "speaker_raw": "SPEAKER_01",
     "testo": "quello che studia la letteratura russa si chiama slavista?",
-    "titolo": "letteratura russa",
-    "tema": [
-      "letteratura",
-      "russo"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-03-17-016",
@@ -199,14 +196,11 @@
     "end": 399.54,
     "speaker_raw": "SPEAKER_03",
     "testo": "lo slavista è colui che studia le lingue slave, polacco, russo, bulgaro si assomigliano molto io sono solo una parola che in molte lingue c'è che è una parolaccia perché in italiano è curva però invece in molte lingue dell'est vuol dire una brutta parola donna di facce di costume in polacco vogliamo saltare la sigla Maurizio o la vogliamo mettere? vogliamo metterla perché qui arrivano guarda la posta è già piena di domande buongiorno vita buongiorno sole come si sta là in cima dice?",
-    "titolo": "lingue slave",
-    "tema": [
-      "lingue",
-      "slaviche"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-03-17-017",
@@ -652,7 +646,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/11664855-M.jpg"
   },
   {
     "id": "2016-03-17-051",
@@ -956,7 +951,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/e5e7fcd9-facf-43c5-8d90-13ab40dec20c/front-250"
   },
   {
     "id": "2016-03-17-073",

@@ -518,7 +518,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/d4a00ddd-157d-440c-bd69-2e5bb8289378/front-250"
   },
   {
     "id": "2016-02-10-042",

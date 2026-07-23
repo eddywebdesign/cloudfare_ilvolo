@@ -82,14 +82,11 @@
     "end": 370.5,
     "speaker_raw": "SPEAKER_11",
     "testo": "allora ti stavo dicendo abbiamo tutta questa cosa per esempio gli ascoltatori siccome domenica vado al salone del libro di Torino ho pensato vieni quindi ho scritto su twitter Maurizio vieni vieni anche tu perché ci sono tanti ascoltatori del volo del mattino che vengono lì a sentirmi devi venire anche tu porti parole vabbè Torino Milano che cazzo Maurizio Ma vieni col treno solo un'ora, adesso vai con le frecce lì un'ora. Io vado la mattina presto.",
-    "titolo": "Salone del libro di Torino",
-    "tema": [
-      "libri",
-      "eventi"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2014-05-07-008",
@@ -491,13 +488,11 @@
     "end": 1423.04,
     "speaker_raw": "SPEAKER_14",
     "testo": "Sì. Sì. My many artifacts, the list goes on If you just say the words I'll hop and run Oh to you, oh adivino Oh to you, oh adivino Give me one good reason why I should never make a change a presto",
-    "titolo": "My many artifacts",
-    "tema": [
-      "musica"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2014-05-07-042",
@@ -632,7 +627,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/0f11997c-cfec-4237-a274-1d3b787e1a7f/front-250"
   },
   {
     "id": "2014-05-07-052",

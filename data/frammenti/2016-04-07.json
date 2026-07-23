@@ -287,7 +287,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/1a7ba68c-c3cc-4183-a258-fd9a9b7f4120/front-250"
   },
   {
     "id": "2016-04-07-023",

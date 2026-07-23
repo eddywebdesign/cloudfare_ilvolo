@@ -411,14 +411,11 @@
     "end": 1257.93,
     "speaker_raw": "SPEAKER_04",
     "testo": "è stato un intervento inutile no? no secondo me no io quello che dico sempre in alcuni paesi del mondo addirittura anche in alcuni paesi degli Stati Uniti è illegale la sodomia che cos'è un'arte marziale tu non sei cinturone di sodomia cioè tu anche con la tua compagna non puoi praticare la sodomia perché è illegale neanche a casa tua perché ovviamente ti interessa questa notizia? sì sì sì mettiamo un disco e te la spiego aspetta cioè anche se sei consenziente capisci? cioè tu non capisco sai quando lei dice no no no lì no no no no",
-    "titolo": "sodomia",
-    "tema": [
-      "sessualità",
-      "diritti"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-02-22-033",
@@ -508,7 +505,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/af56d866-e12e-49f3-9292-868072e0788b/front-250"
   },
   {
     "id": "2016-02-22-040",
@@ -544,14 +542,11 @@
     "end": 2002.49,
     "speaker_raw": "SPEAKER_10",
     "testo": "I didn't even make a sound I found a way to let you in But I never really had a doubt Standing in the light of your halo I've got my angel now It's like I've been awakened Every rule that you're breaking It's a risk that I'm taking I ain't never gonna shut you out grazie a tutti",
-    "titolo": "Halo di Beyoncé",
-    "tema": [
-      "musica",
-      "amore"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-02-22-043",
@@ -634,7 +629,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/d14334ea-ff5d-49cf-973c-ad00bab72264/front-250"
   },
   {
     "id": "2016-02-22-050",

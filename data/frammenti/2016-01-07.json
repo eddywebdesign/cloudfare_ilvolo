@@ -179,7 +179,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/869d9154-4cc1-4bf3-aefc-95cc854f7a3b/front-250"
   },
   {
     "id": "2016-01-07-015",
@@ -283,14 +284,11 @@
     "end": 1134.06,
     "speaker_raw": "SPEAKER_01",
     "testo": "Poi io pianto al cinema per Janis Joplin. Lo capisci subito che è fragile, che è una brava ragazza, poverina, che non ha saputo ottenere la pressione della vita. A me mi affascinano queste storie, mi avete rotto il cazzo.",
-    "titolo": "Janis Joplin fragile",
-    "tema": [
-      "musica",
-      "fragilità"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-01-07-024",
@@ -745,13 +743,11 @@
     "end": 2131.72,
     "speaker_raw": "SPEAKER_01",
     "testo": "una bellissima canzone di Elisa che un po' che non si sentiva invece mi è capitata l'altro giorno dentro nel telefono e devo dire che questa la metto perché è proprio bella allora parliamo della lista 2016 cioè anno 2016 cosa avete fatto a capodanno intanto? festa a Domodossola A Domodossola?",
-    "titolo": "canzone di Elisa",
-    "tema": [
-      "musica"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-01-07-061",
@@ -1021,7 +1017,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/b8de90ad-dbe7-4968-9778-b28998f89d3f/front-250"
   },
   {
     "id": "2016-01-07-083",

@@ -37,7 +37,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/bbe3657f-0d14-4313-906e-86c726009cb5/front-250"
   },
   {
     "id": "2016-01-20-003",
@@ -239,7 +240,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/96e127b3-ad41-4b47-bf6b-e26c3d3188c5/front-250"
   },
   {
     "id": "2016-01-20-019",
@@ -329,7 +331,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/bdbdbbf9-a8f0-423d-ae7a-deb3381c9274/front-250"
   },
   {
     "id": "2016-01-20-026",
@@ -641,14 +644,11 @@
     "end": 2491.45,
     "speaker_raw": "SPEAKER_02",
     "testo": "La seconda lettera è semplicemente LAX, quindi... Ed io ritornerò, la E che ritorna. Perché alla fine doveva essere solo l'ex che ritornano o gli ex che ritornano.",
-    "titolo": "LAX e gli ex che ritornano",
-    "tema": [
-      "musica",
-      "ritornano"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-01-20-050",

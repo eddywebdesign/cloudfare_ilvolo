@@ -426,7 +426,8 @@
     "tema": [],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/10800166-M.jpg"
   },
   {
     "id": "2016-01-26-036",
@@ -706,11 +707,11 @@
     "end": 1457.38,
     "speaker_raw": "SPEAKER_00",
     "testo": "Tutto sta roba. Francesco De Gregori e Ligabue.",
-    "titolo": "Francesco De Gregori e Ligabue",
+    "titolo": "",
     "tema": [],
-    "tipo": "riferimento_musica",
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-01-26-058",
@@ -945,10 +946,10 @@
     "end": 2832.32,
     "speaker_raw": "SPEAKER_00",
     "testo": "sono contento di aver riportato questa canzone mi spiace doverla interrompere ma c'è una questione di tempistica che non possiamo sforare mai se no prendiamo le multe entra il vigile allora ciao ragazzi mi conferma la mia collega che il calzolaio se vai a consegnare le scarpe a volte ti accoglie in minigonna quindi abbiamo iniziato con la minigonna un ragazzo di Firenze la vicina di casa con la minigonna e finita con il calzolaio di Brescia in minigonna non mettere la minigonna domani continuiamo",
-    "titolo": "canzone interrotta",
+    "titolo": "",
     "tema": [],
-    "tipo": "riferimento_musica",
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   }
 ]

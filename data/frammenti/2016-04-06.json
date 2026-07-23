@@ -25,7 +25,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/1e4eedc8-d2ee-37f9-bb2e-c3e096dec170/front-250"
   },
   {
     "id": "2016-04-06-002",
@@ -104,7 +105,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/c69114f3-72ea-4a66-9c12-516c3b12f97f/front-250"
   },
   {
     "id": "2016-04-06-008",
@@ -140,14 +142,11 @@
     "end": 655.01,
     "speaker_raw": "SPEAKER_11",
     "testo": "Ora potete gridare quello che volete. Lui gridava Adriano, a voi quello che vi pare. Sono più forte, sono più forte, sono più forte. Vai, vai, vai, vai, vai, vai, vai, vai! Canzone Icona Gay Canzone Icona Gay",
-    "titolo": "Icona Gay",
-    "tema": [
-      "musica",
-      "passione"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-04-06-011",
@@ -637,14 +636,11 @@
     "end": 1196.94,
     "speaker_raw": "SPEAKER_11",
     "testo": "C'hai anche un bambino? Non facciamo battute, dai.",
-    "titolo": "Bambino",
-    "tema": [
-      "famiglia",
-      "genitori"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-04-06-052",
@@ -812,13 +808,11 @@
     "end": 1373.23,
     "speaker_raw": "SPEAKER_05",
     "testo": "Don't you shut your eyes and hide your heart behind the shadow Cause you can count on me as long as I can breathe, you should know",
-    "titolo": "Don't You Shut Your Eyes",
-    "tema": [
-      "musica"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-04-06-066",
@@ -887,13 +881,11 @@
     "end": 1913.97,
     "speaker_raw": "SPEAKER_11",
     "testo": "salutiamo Nicolo Fabi con ha perso la città un testo da ascoltare sono tante piccole parole state mangiando prima mi avete fatto il cazziatore che avevo mangiato la focaccia adesso ve la state mangiando tutti e due focaccia hanno portato anche i cornetti la Betty ha portato focaccia integrale io ho preso quella perché sono a dieta adesso nei bar avete visto che va molto c'è la brioche con il soprambigliettino infilato dentro c'è scritto brioche vegana che vuol dire che non c'ha le uova al burro poi non è vero perché quando la mangio lo sento che c'è qualcosa del genere però insomma perlomeno non c'è una serie di cose e io dico io prendo sempre quella lì che toglie un po' il senso di colpo o quella integrale col miele che è anche buona però ti dà l'idea che se la mangi integrale un po' di senso di colpo lo alleggerisce",
-    "titolo": "Nicolo Fabi - Ha perso la città",
-    "tema": [
-      "musica"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-04-06-072",
@@ -1015,14 +1007,11 @@
     "end": 2198.41,
     "speaker_raw": "SPEAKER_11",
     "testo": "E questo invece è uno dei miei amici preferiti, Jim Croce. Una storia molto triste, una faccia molto simpatica della bella musica. 3, 4, 3, 2, 1...",
-    "titolo": "Jim Croce e la sua storia triste",
-    "tema": [
-      "musica",
-      "tristezza"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-04-06-082",

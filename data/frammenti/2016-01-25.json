@@ -61,11 +61,11 @@
     "end": 203.46,
     "speaker_raw": "SPEAKER_03",
     "testo": "Non ci fai un pezzo di remix, Maurizio, stamattina? Trick and track, trick and track, trick and track. Ci piace, ci piace questo trick and track. Buongiorno a tutti, buongiorno Viola.",
-    "titolo": "Trick and track",
+    "titolo": "",
     "tema": [],
-    "tipo": "riferimento_musica",
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-01-25-006",
@@ -116,7 +116,8 @@
     "tema": [],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/a781a29d-cef4-4174-a87a-89a2ebd43c71/front-250"
   },
   {
     "id": "2016-01-25-010",
@@ -222,7 +223,8 @@
     "tema": [],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/0941abec-9a73-4792-966c-30ae71c900f1/front-250"
   },
   {
     "id": "2016-01-25-019",

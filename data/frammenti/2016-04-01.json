@@ -74,14 +74,11 @@
     "end": 222.12,
     "speaker_raw": "SPEAKER_09",
     "testo": "il cotillon è un'antica danza francese ma durante quella danza regalavano caramelle aspetta comunque la redazione è lenta intratieni infatti passero solitario guarda ci sono a conclusione del ballo venivano scambiati o distribuiti piccoli doni per cui il termine cotillon viene usato per indicare i piccoli regali a sorpresa che vengono distribuiti ma com'è scritto?",
-    "titolo": "cotillon",
-    "tema": [
-      "storia",
-      "tradizione"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-04-01-007",
@@ -480,14 +477,11 @@
     "end": 1798.99,
     "speaker_raw": "SPEAKER_12",
     "testo": "e tu hai fatto pace con questa cosa perché io so di alcuni cantanti famosi che quando chiedono quella canzone lì che non sopportano più un po' dicono però io ho fatto anche dell'altro invece tu sei ancora hai fatto pace con questa cosa chiaramente sì mi diverte figurati non sono così cattivi da dirti ce lo rifai no quello io non te lo chiederei mai",
-    "titolo": "La canzone dell'Hurra",
-    "tema": [
-      "musica",
-      "pubblicità"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-04-01-039",
@@ -495,14 +489,11 @@
     "end": 1818.61,
     "speaker_raw": "SPEAKER_11",
     "testo": "poi mi viene tutto arrocchito adesso è la voce di un vecchio catarroso sentiamo l'originale un secondo io non ho mai provato un rato provalo un rato è tutto nuovo io non ho mai provato un rato ma come non hai mai provato un rato un rato ma tu sei siciliano Fabio?",
-    "titolo": "La voce del vecchio",
-    "tema": [
-      "voce",
-      "umorismo"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-04-01-040",
@@ -624,7 +615,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/12574314-M.jpg"
   },
   {
     "id": "2016-04-01-050",

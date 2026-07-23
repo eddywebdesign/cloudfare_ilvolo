@@ -37,7 +37,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/859abc91-0fe9-410c-a603-42ab33f60b07/front-250"
   },
   {
     "id": "2016-01-18-003",
@@ -232,7 +233,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/9b73ad9c-4a05-45a2-9351-1c2190ea5992/front-250"
   },
   {
     "id": "2016-01-18-018",
@@ -679,14 +681,11 @@
     "end": 2362.45,
     "speaker_raw": "SPEAKER_07",
     "testo": "carica, l'adrenalina a me mi dà la scarica, e credimi fratello, io sono onesto, non è mai tardi e non è mai presto, per cominciare, per l'emozione, basta rimettere in discussione i nostri punti di riferimento, chi ha avuto niente, chi ha avuto cento, niente per sempre, solo la morte, e le bugie hanno le gambe corte, domani cambia giro e sei per terra, oggi la pace e domani la guerra, oggi ha le stelle numero uno, dopo domani non ti caga nessuno, oggi sei solo se ti ... ... ... ... ... ... ...",
-    "titolo": "Le bugie hanno le gambe corte",
-    "tema": [
-      "musica",
-      "canzone"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-01-18-055",
@@ -694,14 +693,11 @@
     "end": 2396.57,
     "speaker_raw": "SPEAKER_12",
     "testo": "All you got, give to me",
-    "titolo": "All you got, give to me",
-    "tema": [
-      "musica",
-      "canzoni"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-01-18-056",

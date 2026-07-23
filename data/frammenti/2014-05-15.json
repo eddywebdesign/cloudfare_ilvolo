@@ -125,14 +125,11 @@
     "end": 531.73,
     "speaker_raw": "SPEAKER_08",
     "testo": "sai chi è Fibonacci? ho detto Fibonacci le sequenze numeri Fibonacci lui si era un matematico è giusto non lo so il fratello di Monica Fibonacci la gran patata di Monica Fibonacci no ecco quella roba lì ok qual è il gesto d'amico che ti aspetti?",
-    "titolo": "Fibonacci",
-    "tema": [
-      "matematica",
-      "amici"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2014-05-15-010",
@@ -185,7 +182,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/27ed5e57-9d40-4836-8c42-4fbe432154b6/front-250"
   },
   {
     "id": "2014-05-15-014",
@@ -553,14 +551,11 @@
     "end": 1652.23,
     "speaker_raw": "SPEAKER_08",
     "testo": "Vieni in veste di amica mia o di Ghirri? No tu. Ah mia, mia, ok. Tu vai di Maurizio. Io ho dei bellissimi cataloghi di Ghirri a casa, quindi se vi capita adesso se siete in ufficio andate proprio Luigi Ghirri immagini, sono, non lo so, è proprio una poesia fatta a fotografia.",
-    "titolo": "Ghirri",
-    "tema": [
-      "fotografia",
-      "arte"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2014-05-15-043",
@@ -602,7 +597,7 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true
   },
   {
     "id": "2014-05-15-046",
