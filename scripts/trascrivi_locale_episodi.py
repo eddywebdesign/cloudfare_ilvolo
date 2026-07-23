@@ -71,6 +71,11 @@ ne' esprime un insegnamento, e' solo informazione/opinione generica: ESCLUDI.
 - ESCLUDI presentazioni/introduzioni/segmenti ricorrenti del programma stesso (sigla, benvenuto, \
 presentazione della squadra, "buongiorno a tutti benvenuti al Volo del Mattino") — sono il FORMATO \
 del programma, non un aneddoto vissuto da qualcuno.
+- ATTENZIONE, errore concreto trovato 2026-07-23 (37,7% delle "citazione" storiche): un testo IN \
+INGLESE non e' quasi mai una "citazione" o "lettura_volo" vera (il programma e' in italiano) — e' \
+quasi sempre una CANZONE che suona in sottofondo trascritta per errore. Se il testo e' prevalentemente \
+in inglese, classificalo come riferimento_musica (se riesci a identificare titolo/artista reale) o \
+escludilo, MAI come citazione/lettura_volo.
 - Per entrambe: se il frammento e' sotto le ~25-30 parole E non contiene una frase autonoma e memorabile \
 (non solo un tema pertinente), ESCLUDI — la lunghezza da sola non basta, ma un frammento troppo corto \
 quasi mai contiene una svolta narrativa o un insegnamento completo.
@@ -249,6 +254,33 @@ def _titolo_e_frase_di_conversazione(titolo: str) -> bool:
     return sum(1 for p in parole if p in VERBI_CONVERSAZIONE) >= 2
 
 
+MARCATORI_INGLESE = {
+    "the", "and", "you", "is", "are", "my", "that", "this", "with", "for", "of",
+    "in", "on", "to", "be", "me", "it", "was", "your", "can", "all", "love",
+    "know", "when", "have", "will",
+}
+MARCATORI_ITALIANO = {
+    "di", "che", "non", "il", "la", "per", "con", "un", "una", "sono", "questo",
+    "ma", "se", "ho", "anche", "molto", "come", "cosa", "allora",
+}
+
+
+def _testo_probabile_canzone_inglese(testo: str) -> bool:
+    """Trovato 2026-07-23 analizzando il backlog reale: 37,7% delle "citazione" e
+    18,1% delle "lettura_volo" sono in realta' canzoni in inglese suonate in
+    sottofondo durante il segmento, trascritte da WhisperX e scambiate per un
+    brano che Fabio ha citato/letto ad alta voce. Il programma e' in italiano —
+    un frammento prevalentemente in inglese per questi due tipi e' quasi sempre
+    musica di sottofondo, non una citazione/lettura vera (che sarebbe in
+    italiano, salvo rarissime eccezioni accettate come falso negativo)."""
+    parole = _normalizza_per_ancoraggio(testo).split()
+    if len(parole) < 5:
+        return False
+    n_ing = sum(1 for p in parole if p in MARCATORI_INGLESE)
+    n_ita = sum(1 for p in parole if p in MARCATORI_ITALIANO)
+    return n_ing > n_ita and n_ing >= 2
+
+
 CONDUTTORI_PROGRAMMA = {"fabio volo", "fabio", "volo", "maurizio", "viola"}
 # Stessa lista/motivazione di trascrivi_e_estrai_clip.py::CONDUTTORI_PROGRAMMA (duplicata
 # qui per lo stesso motivo di TITOLO_SIMILARITY_SOGLIA sopra: evitare import circolare).
@@ -340,6 +372,7 @@ def classifica_frammenti(frammenti: list[dict]) -> None:
     non_ancorati = 0
     troppo_corti = 0
     riflessioni_domanda = 0
+    canzoni_in_inglese = 0
 
     for i in range(0, len(da_classificare), CLASSIFY_BATCH):
         provider = llm_multi.provider_disponibile()
@@ -410,6 +443,9 @@ def classifica_frammenti(frammenti: list[dict]) -> None:
             if tipo == "riflessione" and f["testo"].rstrip().rstrip('"\'').endswith("?"):
                 riflessioni_domanda += 1
                 continue
+            if tipo in ("citazione", "lettura_volo") and _testo_probabile_canzone_inglese(f["testo"]):
+                canzoni_in_inglese += 1
+                continue
             if _titolo_e_doppione(titolo, titoli_episodio):
                 doppioni_scartati += 1
                 continue
@@ -431,6 +467,8 @@ def classifica_frammenti(frammenti: list[dict]) -> None:
             dettagli.append(f"{troppo_corti} aneddoto/riflessione troppo corti scartati finora")
         if riflessioni_domanda:
             dettagli.append(f"{riflessioni_domanda} riflessioni-domanda scartate finora")
+        if canzoni_in_inglese:
+            dettagli.append(f"{canzoni_in_inglese} citazione/lettura_volo in inglese (probabile canzone) scartate finora")
         print(f"      classificazione batch {i // CLASSIFY_BATCH + 1}: {taggati} frammenti taggati"
               + (f" ({', '.join(dettagli)})" if dettagli else ""))
         # CLASSIFY_SLEEP serve solo a rispettare i TPM dei provider cloud — Ollama
