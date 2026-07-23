@@ -599,10 +599,14 @@
     "end": 2558.57,
     "speaker_raw": "SPEAKER_07",
     "testo": "sono riusciti con la tecnologia a realizzare il suo sogno una specie di Alice nel paese delle meraviglie come si chiamavano? la fabbrica di cioccolato no, quelli che venivano, andavano, aprivano l'armadio e fum, sparivano dentro Daria Narnia e quindi una grande mostra che va avanti fino a luglio e ci fa capire chi era Candischi ma adesso tu mi tocchi sul vivo io ho questa passione per Michelangelo da tantissimi anni c'è questa cosa meravigliosa",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Alice nel paese delle meraviglie",
+    "tema": [
+      "fantasia",
+      "meraviglia"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Lewis Carroll"
   },
   {
     "id": "2017-03-29-055",

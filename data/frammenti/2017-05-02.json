@@ -214,10 +214,14 @@
     "end": 607.3,
     "speaker_raw": "SPEAKER_01",
     "testo": "E c'hai la mamma russa. Ok, tanto stanno arrivando, vedi? Sta già arrivando l'ambulanza. Ok, si batte qua ragazzi, salite, salite. Ti metteranno una camicia che si veste al contrario, poi tu stai tranquillo. Ok, come mai hai usato l'idiota di Dostoevsky?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "L'Idiota",
+    "tema": [
+      "verità",
+      "compassione"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Fyodor Dostoevsky"
   },
   {
     "id": "2017-05-02-020",
@@ -693,9 +697,12 @@
     "end": 2693.05,
     "speaker_raw": "SPEAKER_00",
     "testo": "Questa è la nostra culturaccia religiosa, non solo quella cristiana, però c'è tutta una serie di cose religiose che sono per infelicità. Come dire, la valle di lacrime, no? Invece se uno guarda tutti questi fondatori di religione, tutti, tutti, e so di cosa parlano sempre, sempre, come essere felici. Mosè dice ti porti in una terra promessa dove scorre la temiera. Gesù dice beati questi e beati quest'altri, no? Maometto dice l'unica cosa, devi imparare a dire che tu vivi nel mondo migliore di tutti. i tuoi amici sono i migliori di tutti gli esseri viventi tu sei una persona straordinaria abbi il coraggio di dire questo e comportarti di conseguenza nel momento classico ecco e naturalmente tu che sarai qui poi nelle religioni si vede che alla civiltà nostra interessa il contrario di quello che interessa la nostra specie noi viviamo tra civiltà e specie la specie è quello che tu senti dentro quello che ti piace o non ti piace l'ess? no, proprio il corpo la mente, la gioia, la felicità e così via la specie umana vuole da te che tu sia bellissimo intelligentissimo preparatissimo divertito, allegro che dormi bene e ti svegli meglio la civiltà è invece il gruppo a cui appartieni in cui hai un ruolo la civiltà vuole da te che tu sia mediocre con dei problemi per favore non tanto intelligente se no l'hai fastidio non ti fai governare bene e soprattutto che tu abbia delle malattie per far funzionare l'industria perché così almeno c'è dei problemi metti in moto un po' tutta la catena dal farmacista al medico e uno è combattuto tra civiltà e specie quelli che scelgono la civiltà di solito si sistemano in una moderata infelicità come la chiamava Freud quelli che scelgono la specie che sono pochi di solito non resta altro che fondare una religione",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "valle di lacrime",
+    "tema": [
+      "religione",
+      "infelicità"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -774,9 +781,12 @@
     "end": 3020.58,
     "speaker_raw": "SPEAKER_01",
     "testo": "come li possiamo chiamare noi ascoltatori perché il volo del mattino non va bene i mattinini, i volini non va bene dobbiamo uscire da questo concetto i sacripanti bisogna trovare prima il contenuto cioè la frase il claim come direbbe un pubblicitario a me piace tantissimo il crescente moltiplicatevi",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "trovare il claim",
+    "tema": [
+      "comunicazione",
+      "identità"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

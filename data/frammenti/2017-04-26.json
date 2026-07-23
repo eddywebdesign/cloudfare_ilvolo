@@ -38,9 +38,12 @@
     "end": 475.36,
     "speaker_raw": "SPEAKER_01",
     "testo": "Tre ore, tre ore, salutiamo Vic, grazie, anche al trio per la settimana prima, grazie mille. Mio padre me lo diceva sempre, me lo diceva sempre, non andare mai via dal posto di lavoro perché torni e non trovi più la scrivania. Mi diceva sempre questa frase, dicevo, ma noi facciamo il pane, dove sta la scrivania? No, diceva, è una metafora. perché è come quando tu lasci una persona basta ti mollo così perché vuoi vedere un po' e poi magari quella persona scopre che sta molto meglio senza mai allontanarsi ti sei sentito messo da parte sempre io si soffro subito sono salito sul taxi vi ho sentito no ero molto contento perché ho sentito intanto che eri molto più spigliata ho capito che ti faccio parlare poco è uno dei miei no ma è il volo del mattino perché io ho questa ossessione del ritmo siccome io ho l'orecchio assoluto intanto e poi ho il senso del ritmo quindi io quando anche con gli ascoltatori nonostante il colore della tua pelle esatto dovresti averlo più tu il senso del ritmo io sono lì che ascolto ascolto ascolto se l'ascoltatore o qualcuno temporeggia un po' io entro subito perché voglio tenere sempre tutto capito no perché dopo tanto c'è c'è DJ Chiamo Italia per fare quelle lunghe chiacchierate con serenità, c'è il trio prima e noi dobbiamo tenere un po' di ritmo che passiamo da... SIGLA! SIGLA! SIGLA! un ascoltatore o un'ascoltatrice non si firma che dice qua in ufficio che tristezza sono contento siete tornati bene bene bene ti sei divertito in vacanza bene noi intanto il primo anno che andiamo in vacanza dopo anni è stato molto bello noi del volo di mattino non abbiamo mai fatto la vacanza lo diciamo sempre no? perché poi io ero single per cui quando tu sei single lavori sempre sabato e domenica anche in ufficio se c'è da fare un extra dai quello lì c'è i figli e chiamano sempre il poraccio che è da solo sai quanti adesso dicono è vero che ci vai tu domenica e certo e tu essendo senza figli senza mogli sei considerato niente insomma e quindi è stato sì è stato molto bello abbiamo sperimentato delle cose nuove tipo? tipo delle droghe no non so sperimentato delle cose nuove vi ho pensato se mi seguite su Instagram vi ho anche condiviso delle cose molto interessanti ma questa mattina sì bello quello del drone esatto ho fatto una ripresa anche dal drone ma va sì che dalla faccia andava su un altro e io lo guardavo sempre per evitare che si inquadrasse la pelata quindi è venuto il torcicollo ma chi lo comandava? un mio amico un mio amico che si chiama Paolo quindi il drone non è tuo il drone no non sa per i capaci di guidare un drone mi sa che devi anche prendere tipo un brevetto no ma poi non è facile poi su un'isola che tira vento bisogna essere capaci lui Paolo è molto bravo io no io ci metto la faccia Ma oggi non vogliamo cazzeggiare perché abbiamo tante cose da dire, siamo tornati ritmo ritmo ritmo, Milano è frenetica, è pioggia, non ci sono i taxi, ho portato i figli a scuola con il tram, uno mi è caduto, l'altro l'ombra non si chiudeva, sono arrivato che devo andare a farmi la doccia, alle 10 e 5 pensatemi nudo sotto la doccia. insaponato bello una soapy shower e poi faccio come faceva Corona nel film Videocracy che si metteva davanti allo specchio e si metteva io intanto me la ricordo perché un po' l'ho invidiato si metteva nudo con la crema davanti allo specchio poi Maurizio con due mani si prendeva e faceva si metteva la crema lì però tirava come sai quando si si si",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "consiglio di padre",
+    "tema": [
+      "lavoro",
+      "metaphora"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -572,10 +575,14 @@
     "end": 2333.88,
     "speaker_raw": "SPEAKER_01",
     "testo": "qualche metafora che ti ho buttato qui non troppo profondi che sennò dopo cambiano poi quando si prova a scalare una montagna questa è una delle mie preferite l'avevo anche sottolineata sul mio libro quando si prova a scalare una montagna per dimostrare la propria bravura è raro che si arrivi alla vetta e anche se ci si arriva è una vittoria ben meschina per consolidarla bisogna continuare a misurarsi incessantemente condannati ad aderire per sempre a una falsa immagine di sé, ossessionati dalla paura che l'immagine non sia vera e che qualcuno la scopra. E dopo un bellissimo libro, ricordiamolo, una bellissima canzone, sempre di quegli anni più o meno. Che musica stamattina!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "quando si prova a scalare una montagna",
+    "tema": [
+      "bravura",
+      "vittoria"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Fabio Volo"
   },
   {
     "id": "2017-04-26-051",
@@ -638,9 +645,12 @@
     "end": 2820.52,
     "speaker_raw": "SPEAKER_01",
     "testo": "Quasi sempre le posizioni nei mezzi di comunicazione come la radio o la televisione vengono un po' presi, come diceva anche Pasolini, un po' come dal pulpito, cioè tu parli è come se fossi un pulpito perché la maggior parte delle persone ti ascoltano. Questo invece è l'unico programma dove l'ascoltatore è più alto e chi parla è più basso, diciamo, quindi noi da sotto parliamo come si faceva nell'antica Grecia, capito? Voi siete tutti là in cima nell'arena, noi siamo lì sotto, perché per esempio un'ascoltatrice, io non arrivo a 5 desideri, altri ascoltatori hanno scritto io sono arrivato a 15, a 20, a 25, lei ne ha fatti 180.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "parlare da pulpito",
+    "tema": [
+      "comunicazione",
+      "ascolto"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

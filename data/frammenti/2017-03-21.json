@@ -764,9 +764,12 @@
     "end": 2082.91,
     "speaker_raw": "SPEAKER_01",
     "testo": "Ogni settimana, io vedo che ogni settimana escono due o tre film italiani, due film italiani, tre film italiani. E come si fa? Uno di questi è il mio, che esce giovedì. Che esce giovedì, ok. Adesso Giuliano si è tirato indietro, ma dopo fra un po' entrerai... No, mi piace guardarvi. No, ora cosa ci canti?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "film italiani ogni settimana",
+    "tema": [
+      "cinema",
+      "difficoltà"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -910,9 +913,12 @@
     "end": 2657.72,
     "speaker_raw": "SPEAKER_01",
     "testo": "per esempio sai che a Milano Brambilla è il secondo posto come cognome il primo è quello del cinese che non mi ricordo mai U è il primo cognome milanese allora adesso noi dobbiamo salutare non è un paese per giovani se vuoi vengo ospite da te subito oggi faccio io la promozione del film andate a vederlo colonna sonora di Giuliano ricordiamo non è un paese per giovani regia di Giovanni Veronesi la sceneggiatura avrebbe dato quello slancio soprattutto nel momento quello della pancia della balena io sono forte di mentore e pancia della balena cosa ho detto? non lo so te sei bravo nelle scene erotiche comunque per me sei Kung Fu Panda Giuliano ci deve 4 secondi se vuoi cantarci lo sai da qui ci sentiamo domani mattina grazie ragazzi per essere venuti ciao ciao",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "non è un paese per giovani",
+    "tema": [
+      "cinema"
+    ],
+    "tipo": "riferimento_film",
+    "video_url": "",
+    "autore": "Giovanni Veronesi"
   }
 ]

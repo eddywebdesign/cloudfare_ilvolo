@@ -621,9 +621,12 @@
     "end": 2368.09,
     "speaker_raw": "SPEAKER_11",
     "testo": "L'importante non è stabilire se uno ha paura o meno, è saper convivere con la propria paura, non farsi condizionare dalla stessa. Ecco, il coraggio è questo, altrimenti non è più coraggio e inconscienza.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "convivere con la paura",
+    "tema": [
+      "paura",
+      "coraggio"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -643,10 +646,14 @@
     "end": 2410.9,
     "speaker_raw": "SPEAKER_12",
     "testo": "La mafia non è affatto invincibile, è un fatto umano e come tutti i fatti umani ha un inizio e avrà anche una fine. Piuttosto bisogna rendersi conto che è un fenomeno terribilmente serio e molto grave e che si può vincere non pretendendo l'eroismo dai nervi cittadini, ma impegnando in questa battaglia tutte le forze migliori delle istituzioni.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "la mafia non è invincibile",
+    "tema": [
+      "mafia",
+      "coraggio"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Fabio Volo"
   },
   {
     "id": "2017-05-23-058",

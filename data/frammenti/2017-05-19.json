@@ -502,10 +502,13 @@
     "end": 2228.07,
     "speaker_raw": "SPEAKER_05",
     "testo": "i fili invisibili della natura ok, grazie prof grazie, ciao ciao questo è il nuovo dei Muse senti che bomba questo suono deep oh yeah oh yeah",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "I fili invisibili della natura",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Muse"
   },
   {
     "id": "2017-05-19-046",
@@ -524,9 +527,11 @@
     "end": 2471.81,
     "speaker_raw": "SPEAKER_05",
     "testo": "Allora abbiamo detto, abbiamo anche sentito la canzone Volare di Fabio Rovazzi, c'è Gianni Morandi che canta, fantastico sempre Gianni Morandi, alle tre oggi esce il video, sarà molto cliccato, molto visto, la canzone sarà quella lì che qua già arrivano messaggi, adesso torno a casa, faccio sentire il reload, ti devo fare però una domanda. tu vieni ovviamente molto da questo mondo diciamo tecnologico però tu lo critichi anche tanto nei tuoi testi cioè la canzone precedente era chi se ne frega di tutto quello che metti su Instagram qui ci sono due o tre punti dove si capisce che ironizzi sempre su quel mondo quindi tu lo vivi e prendi anche un po' di distanze ma nella posizione in cui sei non sei neanche così tanto dentro questa cosa cioè non sei uno che tutte le volte che mangia il gelato fa un video ogni volta che si alza il piede da casa fa un video ma io vado a periodi io a volte ho voglia di mostrare a tutti cosa faccio a volte no ma non sei un po' costretto invece a doverlo fare?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Volare di Fabio Rovazzi",
+    "tema": [
+      "canzone"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {

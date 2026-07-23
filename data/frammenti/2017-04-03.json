@@ -519,9 +519,11 @@
     "end": 1884.16,
     "speaker_raw": "SPEAKER_10",
     "testo": "Noi dobbiamo credere a quelli che fanno esperienza. Per esempio, un ascoltatore fa il postino, ok? Quindi postino, bicicletto, motorino, quel che le dipende, ok? E quindi sta sempre fuori, l'intemperio, i cambi di temperatura, la pioggia, così, e dice, io prima mi ammalavo, bronchiti, polmoniti, così, ho risolto con la spremuta di un limone al mattino.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "esperienza postino",
+    "tema": [
+      "salute"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

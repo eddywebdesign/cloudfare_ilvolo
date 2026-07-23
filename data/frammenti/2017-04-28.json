@@ -93,10 +93,13 @@
     "end": 557.69,
     "speaker_raw": "SPEAKER_01",
     "testo": "Però è molto diffuso, lo possiamo dire. Io nella mia vita ho avuto la fortuna che il mio Xanax era mia mamma. Io tornavo a casa, mamma sono preoccupato, lei mi diceva non ti preoccupare e ti abbraccia. Difatti lo Xanax è la mamma che ti ha mancata, cioè quella persona che ti dice stai tranquillo, stai tranquillo. Tant'è che nell'ultima canzone di Lana Del Rey, che si chiama... love lei è la regina proprio della flemma esatto in questo articolo usano proprio lei come simbolo infatti sentite come qui proprio si sentono le goccine che entrano nel bicchiere e alla fine della canzone come cita anche l'articolo è proprio don't worry baby cioè non ti preoccupare in cantina l'ha preso l'oxana",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Lana Del Rey - Love",
+    "tema": [
+      "tranquillità"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Lana Del Rey"
   },
   {
     "id": "2017-04-28-009",
@@ -104,10 +107,13 @@
     "end": 584.3,
     "speaker_raw": "SPEAKER_04",
     "testo": "sono tutti downbeat tutti questi sono quelle canzoni che quando noi mettiamo in radio al mattino voi ci scrivete oh mi sto addormentando perché sono spinte adesso sappiamo qual è la matrice e comunque Lana Del Rey è anche abbastanza evidente però lo stesso concetto lo ritroviamo anche per esempio in The Weeknd con Starboy o appunto in Passion Fruit",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "The Weeknd - Starboy",
+    "tema": [
+      "droga"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "The Weeknd"
   },
   {
     "id": "2017-04-28-010",
@@ -297,9 +303,11 @@
     "end": 1643.71,
     "speaker_raw": "SPEAKER_00",
     "testo": "Allora, oggi vorrei illuminare sulla liberazione d'Italia. Ah! E vorrei parlavi di un grande eroe che ha partecipato appunto alla liberazione d'Italia. Sta a servire. Il famosissimo G.I. Joe. G.I. Joe?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "G.I. Joe in Italia",
+    "tema": [
+      "storia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

@@ -28,8 +28,10 @@
     "speaker_raw": "SPEAKER_04",
     "testo": "Se avevate delle piccole scaramucce, scaramucce già iniziate oggi, mercoledì 3 maggio, in questo momento sono le 9, 7 minuti e 54 secondi, dice il nostro orologio qua. Se avevate delle scaramucce con la moglie, con il lavoro, con i clienti, con voi stessi, con un periodo della vita così, devo dire che questa canzone non ve le fa passare, ma porta un po' di... no? A me porta un po' di quel balsamo un po'... Olia, olia, bisogna olia.",
     "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "tema": [
+      "consolazione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -97,8 +99,10 @@
     "speaker_raw": "SPEAKER_04",
     "testo": "rimani in Italia questa estate è della mia parte quello lì è di una meraviglia quindi sarà un momento via subito con i biglietti andiamo via con le telefonate regaliamo non è vero cari organizzatori del festival mandateci due biglietti che regaliamo ai nostri ascoltatori sai non si fa così assolutamente no anzi metti nei casini tutti a dire queste cose una mattina io lo dico solo per i super fan del volo del mattino cioè quelli che ci seguono così una mattina tanti anni fa ebbi un'idea geniale senti l'idea geniale l'ascoltatore faceva pubblicità alla sua attività tipo un'agenzia viaggi ok L'ascoltatore aveva l'agenzia viaggi e diceva io ho un'agenzia viaggi, sto in questa città, gli ascoltatori del volo del mattino vengono qua a fare i biglietti, io do un biglietto gratis a un ascoltatore del volo del mattino. Quindi abbiamo chiamato, l'agenzia ha detto l'indirizzo, il nome, tutto così e poi il giorno dopo ha detto no i biglietti non ve li posso dare, ma non solo. a radio dj ma hanno fatto un culo come una capanna ovviamente esiste tutto un mondo di rapporti commerciali appunto di contratti così che io ho ma abbiamo capito anche stamattina che le cose più base più concrete non sono le tue vai nel pallone crei problemi scusate ma il genio rifiuta la risposta va bene ragazzi oggi parliamo veramente di cose belle parliamo di bellezza parliamo di arte e parliamo di relazioni ma soprattutto iniziamo il programma con gli in excess wow eh mandate biglietti salami non fateci",
     "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "tema": [
+      "biglietti"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -308,10 +312,13 @@
     "end": 1253.92,
     "speaker_raw": "SPEAKER_04",
     "testo": "L'ho scritto io in un libro tre anni fa.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "libro di Fabio Volo",
+    "tema": [
+      "relazione"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Fabio Volo"
   },
   {
     "id": "2017-05-03-028",

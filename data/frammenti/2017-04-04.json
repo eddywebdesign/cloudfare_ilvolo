@@ -723,9 +723,12 @@
     "end": 2554.04,
     "speaker_raw": "SPEAKER_01",
     "testo": "Certo, quando la battaglia è finita, Walter, e ti togli l'armatura perché hai vinto la tua battaglia, lì ti devi togliere l'armatura, ma togliersela non è facile se tu hai sempre avuto quel peso addosso per anni, capisci? Esatto. Perché è anche un'identità l'armatura, capisci?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "togliere l'armatura dopo la battaglia",
+    "tema": [
+      "identità",
+      "libertà"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -815,10 +818,13 @@
     "end": 2828.45,
     "speaker_raw": "SPEAKER_00",
     "testo": "il padre di questi studi sulle emozioni dice sua Teresa di Calcutta andava a 80 anni a baciare i lebrosi nei villaggi non si prendeva niente noi siamo talmente messi male con le emozioni col capire quel che vogliamo che se uno con raffreddore a 10 metri ce lo prendiamo subito no perché attenzione gestirci a livello emozionale facendo quel che vogliamo vuol dire anche star bene con la salute bene perché sviluppiamo il sistema immunitario tornerai presto buongiorno a tutti questo è un lavoro del mattino ci sentiamo domani mattina ciao ragazzi",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Studi sulle emozioni",
+    "tema": [
+      "emozioni"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "sua Teresa di Calcutta"
   },
   {
     "id": "2017-04-04-074",

@@ -788,9 +788,11 @@
     "end": 2428.7,
     "speaker_raw": "SPEAKER_13",
     "testo": "... ... ... ... That's the way I remember her best. If you go when the snowflakes fall, when the rivers freeze and summer ends,",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "brano cantato",
+    "tema": [
+      "ricordi"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -799,10 +801,13 @@
     "end": 2459.46,
     "speaker_raw": "SPEAKER_02",
     "testo": "see for me if she's wearing a coat so warm to keep her from the howling wind if you're traveling in the north country fair where the winds get heavy on the borders",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "north country fair",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Bob Dylan"
   },
   {
     "id": "2017-05-12-073",

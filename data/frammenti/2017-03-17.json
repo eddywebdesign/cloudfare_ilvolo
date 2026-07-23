@@ -745,10 +745,13 @@
     "end": 2394.43,
     "speaker_raw": "SPEAKER_09",
     "testo": "hai scritto questa pagina oggi mi hai chiesto se la posso leggere se ti va come Fabio Volo legge la dance ah quelle cose lì Fabio Volo legge questa pagina è un po' riflessivo dopo Benigni legge Dante Dante legge Volo Volo legge Davide",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Dante legge Volo",
+    "tema": [
+      "lettura"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Dante Alighieri"
   },
   {
     "id": "2017-03-17-068",

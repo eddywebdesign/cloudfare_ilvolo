@@ -368,9 +368,12 @@
     "end": 856.06,
     "speaker_raw": "SPEAKER_01",
     "testo": "Esattamente, una sudata. Ma niente si spreca, niente così va sprecato in natura, ci sono delle farfalle che volano attorno ai coccodrilli e succhiano le lacrime del coccodrillo, perché sono appunto ricche di sali minerali.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "niente va sprecato in natura",
+    "tema": [
+      "natura",
+      "ricchezza"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

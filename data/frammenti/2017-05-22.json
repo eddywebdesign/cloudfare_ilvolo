@@ -392,9 +392,11 @@
     "end": 1350.91,
     "speaker_raw": "SPEAKER_04",
     "testo": "Non sto legato a un'arba. Il giardino dei sogni profuma di fiori ed aspetta soltanto il mio arrivo La statua della mia libertà si muove Una marea che non si ritirerà si muove La statua della mia libertà si muove Non sto legato a un'orbita Qui nessuno ti spiega la strada per scegliere il lato migliore",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "giardino dei sogni",
+    "tema": [
+      "libertà"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -931,9 +933,12 @@
     "end": 2368.13,
     "speaker_raw": "SPEAKER_00",
     "testo": "Io non so cosa fare per combattere la crisi e l'inflazione e la violenza per le strade. Io so soltanto che prima dovete incazzarvi. Dovete dire sono un essere umano. Porca puttana, la mia vita ha un valore. Ma prima vi dovete incazzare, dovete dire sono un essere umano, porca puttana, la mia vita ha un valore.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "incazzarsi per valore vita",
+    "tema": [
+      "valore",
+      "vita"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -942,10 +947,13 @@
     "end": 2379.56,
     "speaker_raw": "SPEAKER_09",
     "testo": "Giusto per ricordarvelo era il 1977, nulla di più attuale, chi ha un lavoro ha paura di perderlo, chi non ce l'ha lo vuole, i negozianti sono spaventati.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "nulla più attuale",
+    "tema": [
+      "crisi"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Fabio Volo"
   },
   {
     "id": "2017-05-22-086",

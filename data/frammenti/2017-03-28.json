@@ -49,10 +49,13 @@
     "end": 313.67,
     "speaker_raw": "SPEAKER_05",
     "testo": "Tu diciamo che hai letto molti libri, ma non hai letto molto Marquez, secondo me. Io capisco sempre le persone che hanno letto Marquez o che non hanno letto Marquez, perché tu non conosci il senso dell'aspettare. Cioè hai fretta, hai fretta. Invece Marquez, quando tu leggi Marquez, ti insegna che lui per la donna della sua vita ha aspettato quasi 40 passanti.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Cento anni di solitudine",
+    "tema": [
+      "aspettativa"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Gabriel Garcia Marquez"
   },
   {
     "id": "2017-03-28-005",
@@ -131,10 +134,13 @@
     "end": 681.6,
     "speaker_raw": "SPEAKER_10",
     "testo": "It's not unusual to be loved by anyone It's not unusual to have fun with anyone But when I see you hanging about with anyone It's not unusual to see me cry I wanna die No matter what you say You'll find it happens all the time grazie a tutti Wow!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "It's Not Unusual",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Tom Jones"
   },
   {
     "id": "2017-03-28-012",
@@ -351,9 +357,12 @@
     "end": 1486.57,
     "speaker_raw": "SPEAKER_11",
     "testo": "E te ne sei accorto sì, che parti per scalare le montagne e poi ti fermi al primo ristorante e non ci pensi più. te ne sei accorto sì che tutto questo rischio calcolato toglie il sapore pure al cioccolato e non ti basta più ma l'hai capito che non serve a niente mostrarti sorridente agli occhi della gente e che il dolore serve proprio come serve la felicità.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "rischio e sapore",
+    "tema": [
+      "rischio",
+      "soddisfazione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

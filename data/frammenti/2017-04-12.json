@@ -489,9 +489,11 @@
     "end": 1388.24,
     "speaker_raw": "SPEAKER_11",
     "testo": "I've been a romantic for so long All I've ever heard are love songs Singing oh how I'm gonna dare you",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "romantico per tanto tempo",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -698,9 +700,11 @@
     "end": 2330.95,
     "speaker_raw": "SPEAKER_15",
     "testo": "grazie a tutti Losing you in my life you see Cause you mean that much to me You could have told me yourself That you love someone else instead Grazie.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Losing you in my life",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -766,9 +770,11 @@
     "end": 2544.47,
     "speaker_raw": "SPEAKER_14",
     "testo": "makes my body dance for you",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "makes my body dance for you",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {

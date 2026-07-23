@@ -362,9 +362,12 @@
     "end": 1306.87,
     "speaker_raw": "SPEAKER_03",
     "testo": "Il koala si mangiava le foglie dell'eucalipto, ci ha messo in crisi dagli infettinosi, quindi per salvare l'eucalipto hanno ucciso il koala che è in qualche modo un parassita dell'eucalipto. è una follia abbiamo finito? no non è finito perché c'è il lieto finale arrivano gli eroi gli entomologi gli entomologi studiano la situazione e scoprono che in Sud America i conigli, animale europeo non riusciva a crescere perché lì c'era una zanzara che veicolava una malattia la mixomatosi prendo la zanzara la porto in Australia punge il koala che dice ma si può mai stare tranquilli un attimo e quindi tutti i conigli d'Australia poveretti muoiono a parte l'1% che si riproduce come conigli ogni tanto danno anche due colpi a un koala ok",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "koala e conigli in Australia",
+    "tema": [
+      "natura",
+      "crisi"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -455,10 +458,14 @@
     "end": 1899.94,
     "speaker_raw": "SPEAKER_04",
     "testo": "La poesia è anche una struttura, un suono, è una cosa perfetta. Mentre in una pagina di un libro uno può cambiare delle parole e rimanere sempre quella pagina, la poesia, se togli una parola o anche solo la sposti, è un'altra poesia. Io quando faccio le lezioni in università sulla poesia faccio sempre l'esempio di Leopardi, no? Quando dice, ti ricordi quando... con gli occhi tuoi lo diciamo sempre ridenti e fuggitivi cioè lei un po' ride e poi è timida e si allontana se tu fai il contrario fuggitivi e ridenti è una strozza e ti prende per il culo sono rimasta un attimo bloccata su quando io faccio le lezioni all'università quando mi chiamano all'università per parlare delle cose io faccio sempre questo esempio ridenti e fuggitivi o fuggitivi e ridenti sono due donne diverse eppure sono due parole spostate ma io chi sono per poter parlare della poesia? esatto per cui abbiamo chiamato Franco Arminio Franco Arminio ti posso dare del lei? ti posso dare del tu? procediamo senta Franco chiedo scusa per questa intro mi son permesso di giocherellare un po' con la poesia tu sei il poeta italiano in questo momento sono tutti pazzi per te finalmente perché di solito succede sempre quando uno muore invece tu stai bene no?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "poesia di Leopardi",
+    "tema": [
+      "struttura",
+      "linguaggio"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Giacomo Leopardi"
   },
   {
     "id": "2017-04-13-041",
@@ -492,8 +499,11 @@
     "speaker_raw": "SPEAKER_00",
     "testo": "mi sono autoproclamato paesologo sono l'unico paesologo al mondo in realtà i poeti erano troppi mi fa un po' fastidio stare in quella compagnia paesologo mi sono messo un po' appartato però adesso le due figure si stanno un po' rimettendo assieme vado in giro per i paesi poi a volte scrivo delle poesie a volte scrivo delle",
     "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "tema": [
+      "poesia",
+      "isolamento"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -593,9 +603,12 @@
     "end": 2355.16,
     "speaker_raw": "SPEAKER_04",
     "testo": "Aveva il ritmo di un poeta, diciamolo. Perché quando lo senti, uno che fa il poeta vive sugli appennini. Buon appennino a tutti. Buon appennino a tutti, fa intrattenimento, diciamo così. Poi la poesia, la cosa bella della poesia, permettetemi di dire un'altra cosa che racconto in questi incontri all'università. Ma chi ti chiama? Ho fatto Parigi, Stoccolmo, Stoccato. l'altra cosa bella della poesia è che come si dice ma io l'ho scritta anche nei miei libri comunque in inglese non si dice studiare a memoria si dice by heart o i francesi dicono bouquet comunque la stessa roba bouquet con il cuore perché la poesia tu la studia a memoria la poesia contiene un suo ritmo che si aggiunge al tuo del tuo battito capito quindi c'è un'empatia forte perché sì però ragazzi posso dire la Juve ha vinto col Barcellona lì dovete rimanere lì lì lì basta lì lì Morgan va via da amici lì dovete rimanere sono cose importanti vanno sapute la Lucarelli ha detto alla De Sio lì dovete rimanere infatti lì siamo anche io perché mi piace mi appassiona sta cosa vi leggo una poesia un pezzettino di questo Franco Arminio ok abbiamo bisogno di contadini di poeti, gente che sa fare il pane, che ama gli alberi e riconosce il vento. Più che l'anno della crescita ci vorrebbe l'anno dell'attenzione. Attenzione a chi cade, al sole che nasce e che muore, ai ragazzi che crescono. Attenzione anche a un lampione semplice o a un muro scrostato. Oggi essere rivoluzionari significa togliere più che aggiungere, rallentare più che accelerare, significa dare valore al silenzio, alla luce, alla fragilità, alla dolcezza.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "ruolo sociale della poesia",
+    "tema": [
+      "poesia",
+      "emozione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

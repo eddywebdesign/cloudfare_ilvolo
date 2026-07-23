@@ -492,10 +492,13 @@
     "end": 2275.22,
     "speaker_raw": "SPEAKER_05",
     "testo": "Caro amico Filippo che ci scrivi oggi con la musica e vi siete superati, lo so, e ti sto dando ancora, pensi che sia finita, invece faccio come Steve Jobs. Sapete che Steve Jobs aveva questo meraviglioso metodo, no? Cioè? Cioè parlava magari tipo per un quarto d'ora, diceva delle cose interessanti, ma non era il clou della cosa, no? Cioè tipo quando lanciava l'iPhone o roba del genere. Iniziava, diceva, no abbiamo fatto questo, poi diceva, ok grazie ragazzi, ah! One more thing. Diceva ancora una cosa e gli buttava la bomba. Ok. Quello è figo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Steve Jobs",
+    "tema": [
+      "innovazione"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Walter Isaacson"
   },
   {
     "id": "2017-03-20-045",

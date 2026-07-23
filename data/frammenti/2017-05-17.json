@@ -251,10 +251,14 @@
     "end": 858.62,
     "speaker_raw": "SPEAKER_01",
     "testo": "Cioè che Nanuk Leschimese è calvo in questa versione che ho io, ha perso i capelli. del 1922 un film del 1922 è il primo praticamente documentario ci racconta la vita degli eschimesi è un film che è protetto dal mondo del cinema come Pierino Contro Tutti esatto è messo lì come pilastro voi cosa fate con queste cose?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Nanuk degli Eschimesi",
+    "tema": [
+      "storia",
+      "esplorazione"
+    ],
+    "tipo": "riferimento_film",
+    "video_url": "",
+    "autore": "Robert Flaherty"
   },
   {
     "id": "2017-05-17-023",
@@ -517,9 +521,11 @@
     "end": 1586.76,
     "speaker_raw": "SPEAKER_01",
     "testo": "e qui c'è sempre la solita frase che se qualcuno ci avesse ascoltato questa mattina o nell'ultimo periodo per la prima volta tanto che non la diciamo oggi il sole oggi il sole splende come non ha mai splenduto no se qualcuno interessa tanto siete già su google oggi devo dire è meraviglioso se ci pensate ormai l'abitudine di quando uno ha un dubbio una cosa una ricerca ma è su google boom ma anche tipo devi cercare un posto dov'è dov'è dov'è vai su google ti arriva la via gira a destra gira a sinistra cioè come siamo proprio presi per manina e mai lasciati però questo ha un piccolo svantaggio l'ha creato cioè ha distrutto soprattutto nelle città di provincia ma anche a Roma e così così il cazzaro è vero cioè il cazzaro quello che a cena sosteneva una cosa non vera era bravo a dirtela era tiro a simpatia e tu ci credevi poi invece adesso quando uno dice una cazzata ma non è vero boom vai a vedere su google e lo smenti subito cinque telefoni vengono tirati fuori il cazzaro dura veramente poco ed è un peccato capito cioè io mi ricordo le cose anche che mi diceva mio padre quando ero piccolo che lui faceva motocross e mi diceva sai che io a volte quando faccio i salti sto su anche dei quarti d'ora mi cercano mi cercano e dopo un po' si sentono e sono io che scendo io andavo a scuola e dicevo sai che mio papà no si e mi dicevano ma che ma ho detto mio papà invece gli avrei detto papà non si può volare con la moto da cross e poi su Repubblica ci sarebbe l'articolo questo che avete chiesto a Google vi rispondiamo è vero lo fanno lo fanno o sul Corriere mi ricordo stessa proprietà pronto eccoci qua abbiamo Marco buongiorno ma non ce l'ho Marco mai ah c'è scritto Marco non l'ISP cosa vuol dire l'ISP scusate ascoltatori c'è scritto sul computer marco non risp e io non risponde ma io pensavo non respira cioè andiamo soccorriamolo subito va bene dai marco rispondi non fare il caghetta cosa vuol dire dice se una ragazza ti dice o sono incazzata o sto applicando i principi base di schopenhauer tanto vuol dire che è una bruttissima ciulata molla il colpo o sono incazzata no ma il colpo è già complicato una che ti risponde così già vuol fare cioè via via se la sta menando sì vuol fare sì via via ti fa pesare che ha studiato questo è trouble come si dice questi sono problemi di scatola è trouble comunque approfittiamo visto che facciamo sempre programmi bassi come tu tra l'altro sei laureata in queste cose qua mai cosa sono i principi basi di Schopenhauer?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "abitudine google",
+    "tema": [
+      "tecnologia"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -550,10 +556,13 @@
     "end": 1670.37,
     "speaker_raw": "SPEAKER_04",
     "testo": "no il velo di maia ve lo leggo testualmente aspetta ho la sigla vai il velo di Maya oggi ragazzi imparate una cosa importante che il velo di Maya è una cosa bella allora Schopenhauer afferma che l'uomo può solo percepire fenomeni nel mondo e non la cosa in sé perché stai facendo l'eco? no! ah perché lo sai? comunque ovvero come il mondo realmente è differenza quindi tra essere e essere percepito a causa del velo di Maya capito?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Il Velo di Maya",
+    "tema": [
+      "percezione"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Arthur Schopenhauer"
   },
   {
     "id": "2017-05-17-050",
