@@ -392,9 +392,12 @@
     "end": 858.71,
     "speaker_raw": "SPEAKER_20",
     "testo": "Chissà se poi io mi sono chiesto, chissà che ogni tanto parliamo anche di Cirelli, se io non ho per esempio il portafoglio, ma ho sempre i soldi così selvaggi in tasca, perché mia mamma e mio papà non avevano nessuno dei due, avevano il portafoglio. Mio papà solo alla fine, da anziano, diciamo da in pensione, e gli piacevano tutte queste tesserine qua, quella dell'esse lunga, del pam, gli ha dato in trip con le tesserine. l'avete anche voi i genitori mio papà a un certo punto aveva le mille tesserine in America per esempio le fanno molto piccole come dire una falange del vostro dito dall'unghia fino alla e le attacchi al portachiavi e tu arrivi c'è dentro il supermercato tira fuori come dei secondini delle prigioni e c'hanno tutte le io adesso le ho tutte nella app tu ce l'hai nell'app perché tu scusami puoi avere la fidelity del supermercato è un'app io vado all'esse lunga clic clic clic eh vedi io non ne ho mai non ho tesserine non hai carta fedeltà di niente no no cioè vai al museo e non hai lo sconto per niente no no a me mi hanno detto qua al supermercato dice vuoi la carta fedeltà io dico sì io sono fedele solo a mia moglie non a un supermercato no non ce l'ho per scomodità però dico c'ho sempre i soldi che tra l'altro ne ho quasi mai 10 euro 15 euro grandi cose scusate ragazzi a proposito di regale di Natale e di pensieri molto divertenti non sto parlando del mio libro che sarebbe comunque il regalo migliore oggi l'ho visto in una cartoleria fuori in vetrina io dappertutto anche nelle rosticcerie lo metto a me non interessa questa cosa che deve stare nella libreria del centro di Regno no no dove deve andare quello invoglia i giovani a leggere quindi mi sento soddisfatto detto questo il regalo veramente figo quest'anno è che è uscito l'audiolibro con la propria con la sua voce di Fantozzi con la voce di Paolo Villaggio notizia agghiacciante al 2 dicembre",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Portafogli dei genitori",
+    "tema": [
+      "genitori",
+      "vita"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -403,11 +406,14 @@
     "end": 867.94,
     "speaker_raw": "SPEAKER_25",
     "testo": "Fantozzi audio libro inedito completamente e acquistabile su Autunz. L'amoroso.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'amoroso",
+    "tema": [
+      "vita",
+      "amore"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": ""
+    "autore": "Paolo Villaggio"
   },
   {
     "id": "2016-12-20-037",

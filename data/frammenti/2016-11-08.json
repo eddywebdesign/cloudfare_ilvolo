@@ -478,11 +478,14 @@
     "end": 1801.98,
     "speaker_raw": "SPEAKER_02",
     "testo": "Sì, fra i prossimi 15-20 anni. Sì, ma non so se lo vedremo io e te questa mutazione. Va bene, allora, best seller, un libro che è stato uno dei più venduti in Italia così, da questo libro scritto da Gramellini, Fai bei sogni, è stato tratto con la sceneggiatura, un grandissimo regista, bell'occhio, grandi attori, Valerio Mastrandrea ovviamente, che esce giovedì, giovedì 10 esce questo film nelle sale, insomma, quindi... vuoi fare una sinossi la farei fare a te il libro è andato meglio dei tuoi questo qua è andato tanto meglio dei tuoi dipende del sesso di quello prima no di quello dopo si al massimo pareggia non perde quando stampa stampa pesante infatti ci lavora pure la stampa lo saluto carissimo amico faccio una sinossi la faccio io storia di un bambino all'inizio con la storia di un bambino basta grazie cominciare con questa sufficienza",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Fai bei sogni",
+    "tema": [
+      "sogni",
+      "mutazione"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": ""
+    "autore": "Gramellini"
   },
   {
     "id": "2016-11-08-041",

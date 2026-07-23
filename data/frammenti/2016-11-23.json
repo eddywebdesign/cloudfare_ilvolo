@@ -172,9 +172,12 @@
     "end": 755.3,
     "speaker_raw": "SPEAKER_10",
     "testo": "Ma com'è che tua nonna che non c'è più adesso, giusto? Sì, giusto. Com'è che gliel'ha venuta dopo i 75 questo amore per i gypsy?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Nonna e Gypsy Kings",
+    "tema": [
+      "nonne",
+      "musica"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

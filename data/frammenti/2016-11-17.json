@@ -520,11 +520,13 @@
     "end": 2384.55,
     "speaker_raw": "SPEAKER_05",
     "testo": "Ecco, io faccio così. Allora, Alessio, hai l'onore di dire ascoltiamo Jeff Buckley. Ascoltiamo Jeff Buckley! Grande! Grande, ciao! Ciao! Io qua godo, godo proprio, mi riempie tutta sta canzone. Here's the moon, I ask you to stay Long enough for the clouds",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Here's the moon",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": ""
+    "autore": "Jeff Buckley"
   },
   {
     "id": "2016-11-17-044",

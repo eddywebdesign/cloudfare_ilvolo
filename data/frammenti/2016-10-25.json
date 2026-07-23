@@ -676,11 +676,14 @@
     "end": 1903.44,
     "speaker_raw": "SPEAKER_07",
     "testo": "ci hai consigliato un disco è per quello che noi ti abbiamo richiamato te lo consiglio vivamente perché sai da musicista ti seguo e mi piace molto la ricerca che ogni tanto spingi in avanti e te lo consiglio di cuore ok quindi si chiamano The Ambassador No, il cantatore si chiama Gabriel Kahane e il disco è The Ambassador.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "The Ambassador",
+    "tema": [
+      "musica",
+      "consiglio"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": ""
+    "autore": "Gabriel Kahane"
   },
   {
     "id": "2016-10-25-059",

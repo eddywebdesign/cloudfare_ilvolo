@@ -241,11 +241,14 @@
     "end": 1287.54,
     "speaker_raw": "SPEAKER_01",
     "testo": "Brutte persone come quelli del trio. Sono brutte persone dentro. Un bel messaggio come questo che spiccava su tutti. a sfregio ho detto no no perché c'è scritto Svezia ci dovevi scrivere Roma Nord Roma Sud allora l'ho letto ma niente comunque tu cosa presentavi in inglese in Svezia scusami ma io sono un'informatica sono una programmatrice ed ero in Svezia per un progetto internazionale e niente dovevo ma scusami hai scritto botto al posto di bottom o bottom bottom bottom che vuol dire un po' anche culo in sostanza per 30 pagine basta schiacciare il culo e il computer si accende esatto qualcosa del genere e poi il giorno dopo a cena",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Svezia",
+    "tema": [
+      "viaggio",
+      "cultura"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": ""
+    "autore": "Eric Gandini"
   },
   {
     "id": "2017-01-10-020",
@@ -418,9 +421,12 @@
     "end": 2015.53,
     "speaker_raw": "SPEAKER_01",
     "testo": "Posso applicare questa teoria della retrotopia per conquistare una ragazza che mi piace tanto? Sì, tu invece di andare a dire gli avremo un futuro meraviglioso, tu devi dire ti ricordi quando al liceo, devi andare a prendergli una parte di nostalgia.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "teoria della retrotopia per conquistare una ragazza",
+    "tema": [
+      "amore",
+      "relazioni"
+    ],
+    "tipo": "riflessione",
     "video_url": "",
     "autore": ""
   },
@@ -441,11 +447,14 @@
     "end": 2063.77,
     "speaker_raw": "SPEAKER_01",
     "testo": "Sai che molte donne sono sulla retrotopia. dice c'è un tabù stasera retrotopia come dice come è scritto una volta un ascoltatore le donne fanno tutte quelle ho letto 50 sfumature di grigio e poi quando ho letto gli dici girati perché è entrato qualcuno Dai amore, girati. Mi fa sempre molto ridere. Fate tutte le ganasse, le fighissime. Ho letto 50 sfumature di grigio, quello la lega. Fantastico. Allora, non avevo finito il mio disco, solo che la lunga mi ha messo un disco. Perché volevo arrivare a Trump, che è nato, cioè che ha vinto usando questa, come dire, teoria della retrotopia.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "50 sfumature di grigio",
+    "tema": [
+      "amore",
+      "desiderio"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": ""
+    "autore": "E.L. James"
   },
   {
     "id": "2017-01-10-036",

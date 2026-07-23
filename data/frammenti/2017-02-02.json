@@ -232,9 +232,12 @@
     "end": 934.8,
     "speaker_raw": "SPEAKER_00",
     "testo": "Ma io non lo so, lei sostiene, tra l'altro io ho dormito nel letto di sua figlia che ha 6 anni, la figlia dormiva dai miei.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Letto bambina",
+    "tema": [
+      "famiglia",
+      "soggiorno"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

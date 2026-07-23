@@ -5,11 +5,14 @@
     "end": 45.11,
     "speaker_raw": "SPEAKER_12",
     "testo": "Don't put your blame on me Don't put your blame on me Ciao Ciao",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Don't put your blame on me",
+    "tema": [
+      "colpa",
+      "umanità"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": ""
+    "autore": "Paul McCartney"
   },
   {
     "id": "2016-11-16-001",
@@ -170,9 +173,12 @@
     "end": 837.91,
     "speaker_raw": "SPEAKER_13",
     "testo": "Aspetta, a volte poi solo nei film dico queste fragili. No! Comunque il vostro programma andrebbe ascoltato anche solo per sentire i no pseudo disperati di Viola. No! Perché tu ogni tanto mi dici no, mi fai muro, lo dico sempre, Viola mi fa muro.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "pseudo disperati di Viola",
+    "tema": [
+      "umorismo",
+      "programma"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -214,9 +220,12 @@
     "end": 991.29,
     "speaker_raw": "SPEAKER_13",
     "testo": "ok siete due veterinarie c'è un momento quello che noi diciamo ignoranti chiamiamo il calore esatto quando le cagne a me dire cagna mi fa brutto ci sono alcune parole che faccio bastardo è una parola che non riesco a dire potrei dire sperma tranquillamente anche nella versione più hard ma non riesco a dire cagna e non riesco a dire bastardo sono parole che mi infastidiscono non lo dire nella versione ma non è in senso offensivo in questo caso no non lo direi mai non lo direi mai ascoltami Cinzia e Valentina praticamente fate il tampone per capirci fate il tampone al cane femmina e capite da quel tampone se è feconda o no si poi si fa un secondo esame se si vuole essere più precisi ammazza ma che giornatina ma come mai vi siete infilati hai presente quanto è grande il mondo poi dal mondo con dei telescopi nel mondo si può vedere anche l'universo quindi c'è una vastità incredibile com'è che da lì quella vastità siete venuti a guardare una cellula dentro la patata di un cane che vi hanno fatto da ragazzini che avete scelto No, perché uno dice le stelle, il Big Bang, la supernova. No, no, no, io voglio sapere se quel cane lì può rimanere incinta. Andiamo dentro con un tampone. Ma che cazzo lei dice? Eh sì, io sono curiosa.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "parolacce e citologia vaginale",
+    "tema": [
+      "linguaggio",
+      "medicina"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -236,9 +245,12 @@
     "end": 1041.63,
     "speaker_raw": "SPEAKER_13",
     "testo": "senti cosa possiamo fare per rallegrarvi rallegrarvi la vostra giornata ragazzi non lo so allora se mi dici che ti ho spiegato bene di cosa si tratta si e dici alla prof di farci passare l'esame si io dico prof hanno chiamato al volo del mattino hanno chiarito delle cose noi pensavamo che la citologia vaginale fosse la sai quella che ne eruda sulla patata per dire e invece no esatto io faccio citologia vaccinale senti ma scusami però a Perugia avete la cioccolata buona cioè nel momento di disperazione comunque tra uno studio e l'altro vi darete una capito",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Esame di citologia vaginale risolto",
+    "tema": [
+      "esami",
+      "scuola"
+    ],
+    "tipo": "aneddoto",
     "video_url": "",
     "autore": ""
   },
@@ -481,9 +493,12 @@
     "end": 1675.75,
     "speaker_raw": "SPEAKER_11",
     "testo": "Io benissimo, mi sono fermata per ascoltarvi. Ma dove stai andando? Allora, stavo andando in un ufficio postale per una pratica, perché io ho 70 anni, però ancora lavoro.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "70 anni e ancora lavoro",
+    "tema": [
+      "lavoro",
+      "anziani"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

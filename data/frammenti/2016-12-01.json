@@ -449,11 +449,14 @@
     "end": 1796.28,
     "speaker_raw": "SPEAKER_06",
     "testo": "Ma scusami... qualità del suono eccola qua delta lx la versione esclusiva di un'auto esclusiva sono io che guido sta macchina che tra l'altro la macchina della madonna del delta era bellissima ammazza la delta era stupenda comunque vabbè allora aspettiamo un attimo perché l'anno scorso avevamo parlato di un libro di Roberto Vecchioni La vita che si ama ok ad aprile lui ci ha fatto la zonta come si dice a Brescia gli ha fatto un'aggiunta cioè l'ha presa e ci ha buttato dentro anche un cd Natale Natale chiamiamo il professore maestro professore sei lì? sì sono qua ma siamo in trasmissione?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La vita che si ama",
+    "tema": [
+      "libri",
+      "arte"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": ""
+    "autore": "Roberto Vecchioni"
   },
   {
     "id": "2016-12-01-039",

@@ -480,11 +480,14 @@
     "end": 1880.9,
     "speaker_raw": "SPEAKER_00",
     "testo": "sì esatto non ho scritto il libro per far studiare il greco ma per farlo amare il mio obiettivo così è far innamorare le persone sei partita al top perché potevi iniziare con i promessi sposi o la divina commedia che tutti odiano ma ho una lunga carriera tu esatto essendo andata a scuola dovresti è il mio agente che mi dice",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Promessi Sposi",
+    "tema": [
+      "amore",
+      "storia"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": ""
+    "autore": "Alessandro Manzoni"
   },
   {
     "id": "2016-11-02-042",
@@ -520,11 +523,14 @@
     "end": 1957.12,
     "speaker_raw": "SPEAKER_06",
     "testo": "Cioè tu riesci a leggere per esempio l'Odissea in lingua originale, come si dice? Sì. purtroppo sì che meraviglia questo perché poi ho fatto persino le tue classi proprio ti piaceva questo picchiare duro scusami mentre ti dicevo prima mentre per esempio mi sono accorto che chi ha studiato latino è molto più rapido di me a imparare il francese e lo spagnolo cioè io avevo un amico che ci eravamo messi un po' a studiare lo spagnolo insieme lui avendo fatto latino aveva delle radici e poi se vai a scuola ci sono anche dei vantaggi cioè il metodo io una cosa che non ho Ecco, il greco esattamente dal punto di vista pratico, a parte forse l'etimologia delle parole, a che ti serve?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Odissea",
+    "tema": [
+      "viaggio",
+      "avventura"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": ""
+    "autore": "Omero"
   },
   {
     "id": "2016-11-02-045",

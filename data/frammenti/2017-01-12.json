@@ -863,11 +863,14 @@
     "end": 2904.29,
     "speaker_raw": "SPEAKER_01",
     "testo": "La difesa, anche spesso dalle carte. dall'altro poi le interviste che fai ai protagonisti, a Pentiti, i processi assistere a un processo è incredibile perché è già un dialogato che prendi e metti nel romanzo per esempio Gomorra la serie, tutto il dialogato di Gomorra la serie noi abbiamo lavorato su intercettazioni, interrogatori, è incredibile come l'autenticità il percorso che tu vai raccontando sia molto più in là della tua fantasia è incredibile la famosa scena non so se ti ricordi Gomorra 1, Biv che gli dà il bicchiere di pipì già capisci come posso fidarti è un fatto reale come facevo a inventarlo?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Gomorra la serie",
+    "tema": [
+      "processo",
+      "dialogato"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": ""
+    "autore": "Sergio Ramazzotti e Francesco Scherano"
   },
   {
     "id": "2017-01-12-076",

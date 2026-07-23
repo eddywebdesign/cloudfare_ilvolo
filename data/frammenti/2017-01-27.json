@@ -93,9 +93,12 @@
     "end": 454.97,
     "speaker_raw": "SPEAKER_11",
     "testo": "Garfagnana Casanovi ah ma sei pure nobile no oggi c'è la stupidezza ma c'è scritto Michele Garfagnana virgola 29 anni ho pensato che fosse il cognome comunque non è Valdostano non sei Valdostano tu sei Toscano e mi hai le mucche valdostane esatto ci siamo arrivati bene bene Linus rinnovami il contratto hai 16 mucche ieri abbiamo detto che sono andato a casa di Rita Berti mi ha parlato delle vacche rosse che fanno il parmigiano devono essere di quella zona lì e tu ci hai scritto che hai 16 mucchine rosse le pezzate rosse valdostane che non sono quelle lì reggiane che fanno il parmigiano reggiano",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "mucche valdostane",
+    "tema": [
+      "allevamento",
+      "vacche"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -293,9 +296,12 @@
     "end": 789.24,
     "speaker_raw": "SPEAKER_11",
     "testo": "no però io invece quando tu hai detto così ho pensato invece a quelli che ciao ci vediamo la settimana prossima che ti baci limoni duro e lei ha detto una volta uno ha lasciato uno alla stazione ma non si va fino là conviene che lo lasci a casa si prende un taxi non eravamo né nella mia città né nella sua città",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Lasciata alla stazione",
+    "tema": [
+      "addio",
+      "stazione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
