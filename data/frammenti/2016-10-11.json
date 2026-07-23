@@ -593,15 +593,11 @@
     "end": 1174.77,
     "speaker_raw": "SPEAKER_15",
     "testo": "I hurt myself today To see if I still feel I focus on the pain The only thing that's real The needle tears a hole The old familiar sting Try to kill it all away But I remember everything What have I become? My sweetest friend Everyone I know Goes away in the end And you could have it all My empire of dirt I wear this crown of thorns Upon my liar's chair Full of broken thoughts I cannot repair Beneath the stains of time The feelings disappear You are someone else I am still right here What have I become My sweetest friend I will let you down ... ...",
-    "titolo": "Testo di Hurt di Johnny Cash",
-    "tema": [
-      "dolore",
-      "memoria",
-      "musica"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-10-11-051",
@@ -1148,14 +1144,11 @@
     "end": 2516.9,
     "speaker_raw": "SPEAKER_07",
     "testo": "Quello stato di euforia, di confusione, sì di confusione Quando trovi tutto quello che avevi perso E bruciare per te, bruciare per te, bruciare per te E bruciare per te, bruciare per te",
-    "titolo": "Bruciare per te di Elisa",
-    "tema": [
-      "musica",
-      "amore"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-10-11-098",
@@ -1184,7 +1177,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/af183855-7846-44bc-a00a-7ad82b3febe9/front-250"
   },
   {
     "id": "2016-10-11-100",

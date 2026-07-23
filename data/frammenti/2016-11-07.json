@@ -34,7 +34,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/7367737d-938d-413a-aad4-77b7b6badcaf/front-250"
   },
   {
     "id": "2016-11-07-003",
@@ -156,7 +157,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/c71868bf-aae4-44f4-a643-e57f166411d8/front-250"
   },
   {
     "id": "2016-11-07-013",
@@ -197,14 +199,11 @@
     "end": 888.42,
     "speaker_raw": "SPEAKER_03",
     "testo": "tra l'altro la usava anche Basquiat per per impingere esatto quindi immagina ma non so è questa non lo so è Bolero Ravelli vai sì questa sì sì è questa eh ma qui è ancora low profile più avanti più avanti dopo proprio te la sbatte in faccia tanto così no no vai avanti di nove eh sì quindici minuti avanti dura tre questo sì",
-    "titolo": "Bolero di Ravel",
-    "tema": [
-      "musica",
-      "arte"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-11-07-017",
@@ -500,7 +499,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/7016548-M.jpg"
   },
   {
     "id": "2016-11-07-043",
@@ -888,7 +888,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/1c707a31-b605-44d8-9cb4-6ed5651eb912/front-250"
   },
   {
     "id": "2016-11-07-076",

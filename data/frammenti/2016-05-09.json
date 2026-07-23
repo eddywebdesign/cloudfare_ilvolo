@@ -353,7 +353,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/ecee6da3-0a48-41b5-b88c-d57089494b0b/front-250"
   },
   {
     "id": "2016-05-09-031",
@@ -624,15 +625,11 @@
     "end": 1100.62,
     "speaker_raw": "SPEAKER_00",
     "testo": "Dobbiamo venire in Piazza Cordusio. Piazza Cordusio. Siamo sotto le vecchie poste centrali. Ok. Quindi adesso siamo sotto dei giganteschi cartoni pubblicitari, ne parlavamo l'altra volta. Il palazzo è chiuso se sono in centro. Se sono in zona portello posso andare in via da Panicale, che c'è l'edicola di Carla, che c'è una bolla anche lì. e basta poi se vogliono venire qua tutti i giorni noi siamo solo contenti grazie Marco e divertiti con la fattura non sbagliare non sbagliare non ho salvato il lavoro adesso è un casino ciao Fabio è partito il tour è partito il tour",
-    "titolo": "Piazza Cordusio",
-    "tema": [
-      "viaggio",
-      "esplorazione"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "autore": "Italo Calvino",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-05-09-054",

@@ -5,14 +5,11 @@
     "end": 218.36,
     "speaker_raw": "SPEAKER_06",
     "testo": "Non è facile pensare di andar via E portarsi dietro la malinconia Non è facile partire, puoi morire di un mondo migliore Che possa esistere. Quando passa la necessità di andare Quando è ora, è ora, è ora di partire Che non puoi, non puoi, non puoi più rimandare che possa esistere",
-    "titolo": "Testo di una canzone sul partire",
-    "tema": [
-      "partenza",
-      "malinconia"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-11-25-001",
@@ -60,7 +57,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/7367737d-938d-413a-aad4-77b7b6badcaf/front-250"
   },
   {
     "id": "2016-11-25-005",

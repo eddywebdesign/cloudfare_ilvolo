@@ -531,14 +531,11 @@
     "end": 1972.95,
     "speaker_raw": "SPEAKER_00",
     "testo": "Ah, questa è una domanda più vecchia del greco, secondo me. Ma se mi parli di apprendimento di lingua è sicuramente la stessa cosa del latino, ovvero proprio la disciplina, il metodo per imparare una lingua. Io sto studiando lo slavo, come ti dicevo prima, e per me...",
-    "titolo": "imparare una lingua",
-    "tema": [
-      "greco",
-      "apprendimento"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-11-02-046",
@@ -571,14 +568,11 @@
     "end": 2002.28,
     "speaker_raw": "SPEAKER_06",
     "testo": "Perché lo ami così tanto il greco? Perché oggi è il giorno dei morti, quindi la lingua morta e siamo perfetti. Perché ami così tanto il greco?",
-    "titolo": "greco antico",
-    "tema": [
-      "greco",
-      "classici"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-11-02-049",
@@ -704,7 +698,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/619faf3b-2814-45ed-9ae7-62f1eaecaccb/front-250"
   },
   {
     "id": "2016-11-02-059",

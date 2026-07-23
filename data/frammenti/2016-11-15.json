@@ -38,15 +38,11 @@
     "end": 163.57,
     "speaker_raw": "SPEAKER_08",
     "testo": "everyone I do right does me wrong so every lonely night I sing this song I hate you I love you I hate that I love you don't want to but I can't put nobody else above you I hate you I love you I hate that I want you you want her you need her and I'll never be her",
-    "titolo": "Testo del brano I Hate U, I Love U",
-    "tema": [
-      "amore",
-      "relazioni",
-      "conflitto"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-11-15-004",
@@ -366,13 +362,11 @@
     "end": 1981.08,
     "speaker_raw": "SPEAKER_04",
     "testo": "gratis dall'hotel Rizzi via Spallanzani vieni martedì 22 sera vieni ma attenzione tu vai troppo per filtro pensiero cioè pensi che deve essere la migliore invece devi sentire quella che ti dà delle percezioni delle sensazioni intense qualsiasi essa sia può essere a 5 anni a 15 a 20 a 25 io per esempio ascolto la musica di Nick Drake",
-    "titolo": "musica di Nick Drake",
-    "tema": [
-      "musica"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-11-15-030",
@@ -466,6 +460,7 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/ae2249ae-df12-4fcc-8dc4-0d12b1470f63/front-250"
   }
 ]

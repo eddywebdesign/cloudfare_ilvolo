@@ -93,14 +93,11 @@
     "end": 671.15,
     "speaker_raw": "SPEAKER_17",
     "testo": "Lei è bella, lo so, è passato del tempo ed io ce l'ho nel sangue ancora. Io vorrei, io vorrei ritornare laggiù da lei, ma so che non andrò. la faccia triste dell'America il vento soffia la sua armonica voglia di piangere o messico e nuvole la faccia triste dell'America intorno a lei, intorno a lei la chitarra risuonerà per tanto tempo ancora e il mio amore per lei i suoi passi accompagnerà Chi lo sa? a pronunciare sì sì sì sì mentre sa che è già provvisorio amore che c'è sì ma forse no oh In quel nuvole La faccia triste dell'America Il vento soffia la sua armonica Che voglia di piangere In quel nuvole La faccia triste dell'America Il vento soffia la sua armonica",
-    "titolo": "Citazione di Messico e Nuvole",
-    "tema": [
-      "musica",
-      "nostalgia"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-05-18-008",
@@ -322,7 +319,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/b59453af-6a42-4645-a562-6fb277e0feac/front-250"
   },
   {
     "id": "2016-05-18-026",
@@ -469,13 +467,11 @@
     "end": 1823.89,
     "speaker_raw": "SPEAKER_19",
     "testo": "One man come in the name of love, one man come and go, one man come he to justify, one man to overthrow. Grazie a tutti. Grazie a tutti",
-    "titolo": "Citazione di Pride (In the Name of Love)",
-    "tema": [
-      "musica"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-05-18-038",

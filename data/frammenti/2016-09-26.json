@@ -23,7 +23,7 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true
   },
   {
     "id": "2016-09-26-002",
@@ -120,14 +120,11 @@
     "end": 525.89,
     "speaker_raw": "SPEAKER_07",
     "testo": "Mi ha detto la mia sessualità, tutte robe sue, giochi erotici Viola, ho detto Viola, sei in C qualcosa? Non sono niente Single E sei tornata single?",
-    "titolo": "La sessualità",
-    "tema": [
-      "sessualità",
-      "libro"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-09-26-010",
@@ -743,7 +740,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/93c44b1d-61c1-4175-b1e2-39cc8eee587c/front-250"
   },
   {
     "id": "2016-09-26-062",
@@ -758,7 +756,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/13004132-M.jpg"
   },
   {
     "id": "2016-09-26-063",

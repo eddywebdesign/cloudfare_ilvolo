@@ -97,11 +97,11 @@
     "end": 349.84,
     "speaker_raw": "SPEAKER_16",
     "testo": "che non sai descrivere e va mi fai schifo a tutti saluti a te saluti a te saluti a te saluti a te saluti a te",
-    "titolo": "va mi fai schifo",
+    "titolo": "",
     "tema": [],
-    "tipo": "riferimento_musica",
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2026-01-08-008",
@@ -150,7 +150,8 @@
     "tema": [],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/22ce885d-5813-4b62-84df-ef67429632ca/front-250"
   },
   {
     "id": "2026-01-08-012",
@@ -158,11 +159,11 @@
     "end": 679.95,
     "speaker_raw": "SPEAKER_17",
     "testo": "One for tomorrow, one just for today. Love me two times, I'm going away. Love me one time, do not speak. Musica Grazie a tutti. Amami due volte, mannaggia il cane!",
-    "titolo": "Amami due volte",
+    "titolo": "",
     "tema": [],
-    "tipo": "riferimento_musica",
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2026-01-08-013",

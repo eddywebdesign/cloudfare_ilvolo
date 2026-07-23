@@ -111,7 +111,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/98591db1-d94e-4197-98dc-3154609e728d/front-250"
   },
   {
     "id": "2016-09-27-009",
@@ -370,14 +371,11 @@
     "end": 1105.26,
     "speaker_raw": "SPEAKER_17",
     "testo": "is the only light we'll see no I won't be afraid no I won't be afraid just as long as you stand by me and darling darling stand by me stand by me oh darling stand by me stand by me if the sky that we look upon should tumble and fall And the mountain should crumble up to the sea Well I won't cry, I won't cry, no I won't shed a tear Just as long as you stand stand by me stand by me stand by me",
-    "titolo": "Testo di Stand by Me",
-    "tema": [
-      "musica",
-      "supporto"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-09-27-031",
@@ -396,13 +394,11 @@
     "end": 1178.17,
     "speaker_raw": "SPEAKER_17",
     "testo": "Stand by me Stand by me Stand by me Whenever you're in trouble Stand by me",
-    "titolo": "Stand by me",
-    "tema": [
-      "musica"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-09-27-033",
@@ -830,7 +826,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/a419d257-029d-4d0f-ae5d-6f7ba438f123/front-250"
   },
   {
     "id": "2016-09-27-067",
@@ -933,14 +930,11 @@
     "end": 2873.38,
     "speaker_raw": "SPEAKER_07",
     "testo": "è la bellezza dei vent'anni noi qua, l'amore, le cose guarda uno di venti, l'autovelox il resto, come diceva il mio amico sai cosa fa male nella vita? Le botte il resto sono tutte puttanate ciao Michele, buona giornata ciao",
-    "titolo": "le botte",
-    "tema": [
-      "dolore",
-      "vita"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-09-27-076",
@@ -976,14 +970,11 @@
     "end": 3022.95,
     "speaker_raw": "SPEAKER_12",
     "testo": "everyone I do right does me wrong so every lonely night I sing this song I hate you I love you I hate that I love you don't want to but I can't put nobody else above you I hate you I love you I hate that I want you you want her you need her and I'll never be her",
-    "titolo": "Testo del brano I Hate U, I Love U",
-    "tema": [
-      "amore",
-      "sofferenza"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-09-27-079",

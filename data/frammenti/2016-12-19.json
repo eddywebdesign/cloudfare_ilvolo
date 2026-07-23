@@ -554,7 +554,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/fb3fbbd2-62e5-4ed5-9b83-787a67cbb26b/front-250"
   },
   {
     "id": "2016-12-19-049",
@@ -898,14 +899,11 @@
     "end": 2562.97,
     "speaker_raw": "SPEAKER_00",
     "testo": "Ron Saxmith Maybe This Christmas Maybe This Christmas sentite com'è allegra Maybe this Christmas will mean something more Maybe this year bella la vicinia di Natale cibo che bolle io faccio le tagliatelle in casa ormai perché andando in Islanda è cambiata la mia tradizione e lì faccio tagliatelle in casa ho la macchinetta con la maniglia bravo qualità della vita",
-    "titolo": "Maybe This Christmas di Ron Sexsmith",
-    "tema": [
-      "musica",
-      "natale"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-12-19-079",

@@ -72,14 +72,11 @@
     "end": 277.61,
     "speaker_raw": "SPEAKER_14",
     "testo": "abbastanza bene sono migliorato è un po' che non frequento adesso finisce la mia ultima puntata oggi la settimana prossima vado a Roma e da lì andrò a Napoli ma no come sei bella e non lo sai lascia stare Rai sì una creatura in mezzo ai leone ma nella vita non tiene padrone ma che bella voce che l'anima si squaglia quando canta",
-    "titolo": "voce che si squaglia",
-    "tema": [
-      "musica",
-      "voce"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2026-06-05-007",
@@ -105,7 +102,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/05c72c39-bf62-4e5c-8df8-37bba661dbc0/front-250"
   },
   {
     "id": "2026-06-05-009",
@@ -458,7 +456,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/b7397f66-2724-4225-9c73-d3edc08157aa/front-250"
   },
   {
     "id": "2026-06-05-036",
@@ -597,14 +596,11 @@
     "end": 1812.71,
     "speaker_raw": "SPEAKER_13",
     "testo": "Ma grazie a te di essere stata con noi. Ciao ragazzi, il mio momento preferito è stato il sintaco che suonava il violino mixato con il professore che faceva...",
-    "titolo": "sintaco e professore",
-    "tema": [
-      "musica",
-      "violinista"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2026-06-05-048",
@@ -626,13 +622,11 @@
     "end": 1868.78,
     "speaker_raw": "SPEAKER_13",
     "testo": "si sente che bello un primario di matrimonio la senti dalla voce che è contenta che è felice il loro guacamole vuol dire che è l'unica cosa su cui vanno d'accordo come per me Gheo in Gheo io parto da Gheo senti questa folla",
-    "titolo": "Il guacamole",
-    "tema": [
-      "musica"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2026-06-05-050",

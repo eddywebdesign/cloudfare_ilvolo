@@ -45,7 +45,7 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true
   },
   {
     "id": "2016-05-20-004",
@@ -648,14 +648,11 @@
     "end": 1593.72,
     "speaker_raw": "SPEAKER_09",
     "testo": "e non l'ho mai capito Albano Carrisi chiamalo va bene lo chiamiamo vediamo se ci risponde andiamo andiamo allo pronto tanti auguri pronto a chi tanti amanti ha tanti auguri",
-    "titolo": "Albano Carrisi",
-    "tema": [
-      "musica",
-      "cantanti"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-05-20-054",
@@ -1055,14 +1052,11 @@
     "end": 2262.35,
     "speaker_raw": "SPEAKER_02",
     "testo": "She's a maniac, maniac on the floor And she's dancing like she's never danced before",
-    "titolo": "She's a Maniac",
-    "tema": [
-      "musica",
-      "danza"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-05-20-089",

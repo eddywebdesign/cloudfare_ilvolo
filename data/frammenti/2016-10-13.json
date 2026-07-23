@@ -207,7 +207,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/8578635e-74cd-47a0-82e3-be27554ab4c1/front-250"
   },
   {
     "id": "2016-10-13-018",
@@ -693,13 +694,11 @@
     "end": 2534.21,
     "speaker_raw": "SPEAKER_16",
     "testo": "no no è un po' più grande più grande? più grande di un tostapane è grande quanto un piccolo fornetto elettrico ok così grande per una pastiglietta ancora è grande si può molto ridurre ah è come i primi computer e poi si arriva a quelli piccoli può buttare fuori anche dei cheeseburger allora magari",
-    "titolo": "computer piccoli",
-    "tema": [
-      "tecnologia"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-10-13-060",

@@ -12,7 +12,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/53731785-fd40-47b6-a724-1e50e88524d8/front-250"
   },
   {
     "id": "2016-05-06-001",
@@ -265,14 +266,11 @@
     "end": 909.5,
     "speaker_raw": "SPEAKER_15",
     "testo": "Ma noi non ne diciamo quasi mai. Un pochino, ma adesso noi ci stiamo organizzando per non dirle tutte. Allora, ti volevo chiedere questa cosa, tu a un certo punto, vabbè, grande successo in Italia, grande successo in Europa, grande successo internazionale, Sud America, Russia, gli Stati Uniti, a me è sonato New York. Sì, sì. io mi ricordo ci andava in vacanza e si sentiva Ramazzotti in giro un po' per il mondo e poi tu hai fatto anche delle grandi collaborazioni con grandi artisti così tu nel tuo cellulare chi hai di quelli lì?",
-    "titolo": "Ramazzotti in giro",
-    "tema": [
-      "musica",
-      "vacanza"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-05-06-023",
@@ -424,13 +422,11 @@
     "end": 1212.47,
     "speaker_raw": "SPEAKER_02",
     "testo": "ma dovevi farmi il blues chiamatemi così ascoltatori stiamo aspettando una chiamata fai il rap Francesca è all'ascolto del volo del mattino e posso dire una cosa c'è pure Savino",
-    "titolo": "Fai il rap",
-    "tema": [
-      "musica"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-05-06-036",
@@ -513,14 +509,11 @@
     "end": 1318.2,
     "speaker_raw": "SPEAKER_15",
     "testo": "io ti ho chiamato prima e lui dopo e hai richiamato prima lui non ho da fare pipì roba grossa altro che pipì senti abbiamo anche Francesca in ascolto un'ascoltatrice ciao Biagio Francesca hai mai visto Biagio in concerto? si tante volte anche lui ma è sempre in concerto sta Francesca è sempre lì eh Biagio dove sei?",
-    "titolo": "Biagio in concerto",
-    "tema": [
-      "musica",
-      "concerti"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-05-06-043",
@@ -587,7 +580,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/d692ba41-950e-498b-a5d8-1814d4652498/front-250"
   },
   {
     "id": "2016-05-06-048",
@@ -703,7 +697,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/5c0f9f32-3813-425c-8bc0-bbefb80ed468/front-250"
   },
   {
     "id": "2016-05-06-057",

@@ -270,14 +270,11 @@
     "end": 1315.23,
     "speaker_raw": "SPEAKER_12",
     "testo": "Allora, molti ascoltatori stanno scrivendo i paragoni, no? È come se io vincessi, è come se io vincessi. Un ascoltatore forse ha fatto, diciamo, come dire, la metafora più azzeccata. È come se il volo del mattino vincesse le cuffie, no?",
-    "titolo": "Il volo del mattino",
-    "tema": [
-      "musica",
-      "canzoni"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-05-03-022",
@@ -328,7 +325,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/dd5c9bd8-5658-4a6b-a913-5d5eaa217b66/front-250"
   },
   {
     "id": "2016-05-03-026",
@@ -870,7 +868,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/660edeb3-6e93-4fd6-a784-20f56dc49e39/front-250"
   },
   {
     "id": "2016-05-03-072",

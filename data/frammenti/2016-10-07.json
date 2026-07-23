@@ -152,14 +152,11 @@
     "end": 664.93,
     "speaker_raw": "SPEAKER_07",
     "testo": "Questi sono i Rolling Stones per iniziare questo venerdì 7 ottobre del 2016. Buongiorno a tutti, Jumping Jam Flash.",
-    "titolo": "Rolling Stones - Jumpin' Jack Flash",
-    "tema": [
-      "musica",
-      "rock"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-10-07-013",
@@ -178,13 +175,11 @@
     "end": 935.72,
     "speaker_raw": "SPEAKER_07",
     "testo": "allora molti ascoltatori dicono non sarebbe male ogni tanto fare il venerdì rock la giornata che inizia qui a Rolling Stone sarà sicuramente una buona giornata oggi abbiamo iniziato con i Redocci di Peppers ti ricordi? ah che l'ascoltatrice dice che quella che hanno parte abbiamo recuperato con i Rolling Stones abbiamo anche un pezzo di Bob Dylan se lo vogliamo mettere dopo ho scelto anche un Neil Young ho scelto anche un Vasco Rossi giusto per fare rock diciamo rock in casa Maurizio detesta il reggae e anche un po' il rock ma ti dà fastidio il rock vecchio tipo appunto Rolling Stones io ho rock in generale no vabbè non è che detesto il rock il reggae sì il reggae sì sia vecchio che nuovo il rock vabbè forse ti dà fastidio il levare può essere non lo so potrebbe essere io invece adoro proprio quello ma penso sia una cosa di sangue di sangue Alessandro da Nettuno pronto? pronto? non c'è Nettuno? una battuta di radio DJ del 2016 impottibile impottibile te lo ricordi Alessandro? vabbè comunque da bambino c'era la barzelletta come si chiama il dio del mare? Nettuno, impottibile qualcuno deve mettere Alessandro come va? Allora Alessandro, noi ti sentiamo male, però ci hai scritto che dobbiamo dire a tua moglie che è ora di fare la spesa. Mi piace che utilizzate Radio DJ anche per scopi personali. Ma noi sulla 2 abbiamo la moglie, buongiorno. Ma siete insieme? No, assolutamente no. Dove sei tu?",
-    "titolo": "Rolling Stone playlist mix",
-    "tema": [
-      "musica"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-10-07-015",
@@ -792,14 +787,11 @@
     "end": 2088.62,
     "speaker_raw": "SPEAKER_07",
     "testo": "adesso poi vi voglio far parlare anche di un'altra cosa però in questo weekend diciamo puntiamo questa mattina così c'è questo concerto meraviglioso in California dove ci sono i Rolling Stones Bob Dylan Paul McCartney Lil Young Roger Waters e The Who io dovevo essere là invece per motivi di lavoro sono qua sono contento che ci siete voi così mi avete in qualche modo alleggerito la pena ma perché?",
-    "titolo": "concerto in california",
-    "tema": [
-      "musica",
-      "concerti"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-10-07-065",
@@ -818,13 +810,11 @@
     "end": 2105.28,
     "speaker_raw": "SPEAKER_07",
     "testo": "esatto e andiamo là e allora la musica questa mattina è un po' in quella direzione infatti adesso mettiamo Bob Dylan ah ne ho scelta una un po' movimentata perché sennò lui ci ammorba un po' sì perché io lo ascolto la sera Bob Dylan o la mattina ma se ne evica",
-    "titolo": "bob dylan al mattino",
-    "tema": [
-      "musica"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-10-07-067",
@@ -945,7 +935,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/6bff58b9-ec07-4409-8c2e-70f85e92a77d/front-250"
   },
   {
     "id": "2016-10-07-076",

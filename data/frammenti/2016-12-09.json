@@ -16,14 +16,11 @@
     "end": 56.72,
     "speaker_raw": "SPEAKER_06",
     "testo": "La radio passa già le canzoni di Sinatra. E come una promessa se ne va una serenata. La cravatta che mi hai regalato l'anno scorso l'ho cambiata.",
-    "titolo": "Citazione di Frank Sinatra",
-    "tema": [
-      "musica",
-      "natale"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-12-09-002",
@@ -353,7 +350,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/3c335cf9-477d-4c0e-bf27-2feefe9ff927/front-250"
   },
   {
     "id": "2016-12-09-030",

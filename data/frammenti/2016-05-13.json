@@ -458,14 +458,11 @@
     "end": 1325.79,
     "speaker_raw": "SPEAKER_03",
     "testo": "grazie a tutti baby I'm still rising I was running you were walking No, we ain't kids no more I'm giving you up I've forgiven it all You set me free",
-    "titolo": "I'm Still Rising",
-    "tema": [
-      "musica",
-      "canzone"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-05-13-038",
@@ -530,7 +527,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/46963b56-3e4a-4f84-bae9-3595e525e76e/front-250"
   },
   {
     "id": "2016-05-13-043",
@@ -655,7 +653,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/6af2f5ec-0311-4bce-b640-02a7f54b768d/front-250"
   },
   {
     "id": "2016-05-13-053",

@@ -5,13 +5,11 @@
     "end": 45.11,
     "speaker_raw": "SPEAKER_12",
     "testo": "Don't put your blame on me Don't put your blame on me Ciao Ciao",
-    "titolo": "Citazione brano Don't put your blame on me",
-    "tema": [
-      "musica"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-11-16-001",
@@ -19,14 +17,11 @@
     "end": 100.98,
     "speaker_raw": "SPEAKER_10",
     "testo": "some people think I'm so good Lord Heaven's above I'm only human after all I'm only human after all don't put the blame on me don't put the blame on me don't ask my opinion don't ask me to lie beg for forgiveness for making you cry",
-    "titolo": "Human di Rag'n'Bone Man",
-    "tema": [
-      "umanità",
-      "fragilità"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-11-16-002",
@@ -63,7 +58,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/98591db1-d94e-4197-98dc-3154609e728d/front-250"
   },
   {
     "id": "2016-11-16-005",
@@ -373,14 +369,11 @@
     "end": 1307.6,
     "speaker_raw": "SPEAKER_14",
     "testo": "fuori ma si dice ancora fuori ai concerti non si dice fuori oppure one more song mai andato a un concerto dove è solo quello di battiato cosa dici tu cosa dite ai concerti per favore maestro esca ancora ancora una Kundalini Nirvana Shanti Shanti in discoteca si dice noi non siamo stanchi veramente?",
-    "titolo": "Kundalini Nirvana",
-    "tema": [
-      "musica",
-      "concerti"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-11-16-033",
@@ -420,7 +413,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/06ad5af8-ff91-41d3-8d09-18ca87c2e81e/front-250"
   },
   {
     "id": "2016-11-16-036",
@@ -478,7 +472,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/098fafd6-cf12-4d60-b1c2-2139511219a2/front-250"
   },
   {
     "id": "2016-11-16-040",

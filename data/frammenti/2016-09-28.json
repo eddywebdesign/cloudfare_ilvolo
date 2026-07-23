@@ -536,13 +536,11 @@
     "end": 1497.1,
     "speaker_raw": "SPEAKER_12",
     "testo": "Sai cosa stavo pensando mentre andava questa canzone di Alanis Morisette? Cari ascoltatori, ditemi se sbaglio, c'è questa nuova versione un po' più rai, ditemi se sbaglio. Uno può anche, ho pensato, io ho più di 21 a cui ringraziare, però se non li avesse potrei anche ringraziare qualcuno che ha fatto qualcosa a qualcun altro. di bello se lo senti veramente però non è che deve arrivare al 21 è come i desideri di Sibaldi non è che li inventi puoi anche dire grazie a un tuo cantante uno ha scritto una canzone per esempio se Nick Drake che adesso è morto che è il mio cantatore preferito fosse vivo mi ha dato così mi ha dato così tanti bei momenti diciamo mi ha regalato no no è una furbata ma una cosa che mi sono perso forse perché 21? perché è il numero perché probabilmente non so sarà nella cabala che so chi lo sa Però, allora, a proposito del ringraziamento, mentre io vi parlo, cari ascoltatori, nella webcam vedo Maurizio e Viola che tutti e due si girano di schiena.",
-    "titolo": "Canzone di Alanis Morisette",
-    "tema": [
-      "musica"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-09-28-046",
@@ -809,7 +807,7 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true
   },
   {
     "id": "2016-09-28-067",

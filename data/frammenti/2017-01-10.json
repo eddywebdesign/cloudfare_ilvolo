@@ -118,14 +118,11 @@
     "end": 940.82,
     "speaker_raw": "SPEAKER_12",
     "testo": "I got one shot, one shot to love you all night long.",
-    "titolo": "I got one shot",
-    "tema": [
-      "musica",
-      "amore"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2017-01-10-010",
@@ -354,14 +351,11 @@
     "end": 1459.09,
     "speaker_raw": "SPEAKER_15",
     "testo": "all around me are familiar faces worn out places worn out faces bright and early for their daily races going nowhere going nowhere no no no Grazie.",
-    "titolo": "All around me",
-    "tema": [
-      "musica",
-      "canzone"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2017-01-10-029",
@@ -415,7 +409,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/81da8548-c176-4fc8-ae03-fe1eb368ca92/front-250"
   },
   {
     "id": "2017-01-10-033",

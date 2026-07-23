@@ -917,7 +917,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/3c9330ae-d075-45c6-842e-adf3095786ac/front-250"
   },
   {
     "id": "2017-01-20-082",

@@ -415,7 +415,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/ff7e3f24-2c93-41ed-9101-a19f549c526c/front-250"
   },
   {
     "id": "2016-12-06-037",

@@ -369,7 +369,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/1abdb77e-7a26-48cc-a4d9-294990293429/front-250"
   },
   {
     "id": "2016-10-26-032",

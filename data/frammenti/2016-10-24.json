@@ -132,13 +132,11 @@
     "end": 862.92,
     "speaker_raw": "SPEAKER_03",
     "testo": "And nothing else matters. Never care for what they say. Never care for games they play.",
-    "titolo": "Nothing Else Matters lyric",
-    "tema": [
-      "musica"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-10-24-012",
@@ -553,13 +551,11 @@
     "end": 2185.52,
     "speaker_raw": "SPEAKER_02",
     "testo": "I wanna live, wanna die, on a silver line",
-    "titolo": "I wanna live, wanna die, on a silver line",
-    "tema": [
-      "musica"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-10-24-047",
@@ -654,7 +650,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/0b6169bf-01b9-4db4-81d1-7f047d341960/front-250"
   },
   {
     "id": "2016-10-24-055",
@@ -668,7 +665,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/5c1d011e-16d7-4c34-a5d9-a3c3413c4fc8/front-250"
   },
   {
     "id": "2016-10-24-056",

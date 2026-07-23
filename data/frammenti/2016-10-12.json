@@ -703,14 +703,11 @@
     "end": 2128.51,
     "speaker_raw": "SPEAKER_03",
     "testo": "Diciamo turismo e internet hanno accelerato questi processi di cambiamento. Perché io so che tu conosci la copertina di The Dark Side of the Moon, uno dei miei album prefitti, dei Pink Floyd, ma non conosci le canzoni dentro, o sì? tu non l'hai mai ascoltato? cioè The Great Gig in the Sky per esempio il più grande concerto questo qua che noi ogni tanto il volo di mattino mettiamo ti faccio sentire un pezzettino di questa donna che canta e tu lo ascolti diciamo per la prima volta mi devi dire che emozione ti perché io non la posso più vivere questa la so a memoria la potrei anche cantare io no no no no ok questa la dedico anche ai romani nel traffico che questa rilassa un attimo ok",
-    "titolo": "The Dark Side of the Moon dei Pink Floyd",
-    "tema": [
-      "musica",
-      "cultura"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-10-12-059",
@@ -812,7 +809,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/1754537-M.jpg"
   },
   {
     "id": "2016-10-12-067",

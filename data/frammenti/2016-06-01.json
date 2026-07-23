@@ -229,14 +229,11 @@
     "end": 910.74,
     "speaker_raw": "SPEAKER_01",
     "testo": "ciao sono io ciao sono io adesso Maurizio ne farà sentire un pezzo di ascoltatori vai Maurizio senti battiato qua le cose astronavi volteggiano sparuti capisci che si sono messe insieme delle mamme per questo testo insomma c'è stato un brainstorming ciao sono io poron poron poron certo vabbè ma il risortello è quello meno significativo c'è nelle strofe va bene grazie Federica grazie a voi ciao ciao ciao ciao ciao ciao",
-    "titolo": "Citazione di Battiato",
-    "tema": [
-      "musica",
-      "citazione"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-06-01-020",
@@ -613,14 +610,11 @@
     "end": 1851.67,
     "speaker_raw": "SPEAKER_01",
     "testo": "Ha fatto un album della Madonna e quello lo dicono anche gli intenditori di musica perché ovviamente sono dei produttori della Madonna. Però a casa ogni tanto Joanna mette suo Selena Gomez, capito? Che è anche la sua ex se non sbaglio. Sì, sì. Oh, l'altro giorno in macchina a palla c'era Justin Bieber, no? Quella lì, quella lì come si chiama? Ce l'hai tu, Maurizio? Sorry? Ah, beh. Cioè, non è un... è un pezzo della Madonna, no? Cioè, non riesco a capire se è perché siamo qui e quindi questa è la musica che si adatta a questa città, diciamo, perché insomma... quando escono anche in discoteca suonano questi dischi no? esatto che cos'hai Dalet di Selena Gomez? è un po' inquietante eh Fabio eh lo so lo so no almeno non cantare Cioè sono canzoni sensuali e comunque ci hanno tiro, ci hanno tiro. Eh non lo so, ci è venuto sto trip di ascoltare un po' questa... No ma Johanna va bene, sei tempo ritardo. Perché è giovane. No perché lei in questa canzone dice voglio solo che tu sia orgogliosa di me e voglio solo diciamo look good for you, no? Cioè... Cioè look good for you.",
-    "titolo": "Justin Bieber e Selena Gomez",
-    "tema": [
-      "musica",
-      "pop"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-06-01-051",
@@ -672,7 +666,7 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true
   },
   {
     "id": "2016-06-01-055",
@@ -720,7 +714,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/1a03d832-7731-47c1-ab45-90608471c043/front-250"
   },
   {
     "id": "2016-06-01-059",
@@ -803,7 +798,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/28db548a-7730-4794-be11-4c4d517407a6/front-250"
   },
   {
     "id": "2016-06-01-066",
@@ -811,14 +807,11 @@
     "end": 2181.27,
     "speaker_raw": "SPEAKER_01",
     "testo": "Centinaia e centinaia di versioni di questa canzone, Blue Sway Shoes, bellissime, bellissime tutte, perché è una canzone che sta in piedi da sola. Volevo dire che ogni volta che adesso sento un pezzo di Elvis Presley o comunque vedo quelle giacche, quelle cose di quegli occhiali giganti, penso sempre al film di Carlo Verdone, quando va, se non sbaglio, a Ostia. Dove c'è il raduno di tutti gli Elvis e dove lui sostiene di essere il figlio segreto di Elvis Presley perché la mamma lavorava in albergo dove Elvis è andato quando è passato da Roma e si porta la figlia dicendo che lei è praticamente la coppia gemella di Elvis Presley.",
-    "titolo": "Blue Suede Shoes e l'eredità di Elvis",
-    "tema": [
-      "musica",
-      "elvis presley"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-06-01-067",
@@ -964,6 +957,7 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/6d34332a-74e4-4396-ab8f-22f967c31589/front-250"
   }
 ]

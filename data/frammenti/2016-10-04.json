@@ -81,14 +81,11 @@
     "end": 290.31,
     "speaker_raw": "SPEAKER_06",
     "testo": "Tre mesi, dici vogliono i Gypsy Kings.",
-    "titolo": "Tre mesi",
-    "tema": [
-      "musica",
-      "tempo"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-10-04-007",
@@ -125,7 +122,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/7380aad3-5cf1-4faf-a25e-976e473cf9ae/front-250"
   },
   {
     "id": "2016-10-04-010",
@@ -133,14 +131,11 @@
     "end": 656.45,
     "speaker_raw": "SPEAKER_06",
     "testo": "Gabriele del Trio Medusa, Party Like Russian, Radio Disney. Cosa? No, io chiamo Gabriele del Trio Medusa e Robby Williams. Perché? Perché ogni tanto fai programmi in tv da solo, no? Quindi molla i tech debt e si mette a cercare a carriere. No, lo chiamo così. Robby Williams. Allora. Anche mamme di mamme, suocere sono un po' rompiscatore, ma non è un tema che ci interessa la suocera. Piuttosto sui nonni si è scatenato nei prossimi giorni.",
-    "titolo": "Citazione del brano Party Like a Russian",
-    "tema": [
-      "musica",
-      "robbie williams"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-10-04-011",
@@ -420,7 +415,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/fd0c2509-e738-47ee-a9ef-7d44e8705840/front-250"
   },
   {
     "id": "2016-10-04-033",
@@ -704,7 +700,7 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true
   },
   {
     "id": "2016-10-04-055",

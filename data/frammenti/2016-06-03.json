@@ -86,7 +86,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/27b31c91-0c64-48cd-86fc-23497ecea44a/front-250"
   },
   {
     "id": "2016-06-03-007",
@@ -326,14 +327,11 @@
     "end": 1277.22,
     "speaker_raw": "SPEAKER_01",
     "testo": "Secondo te, Maurizio, ma lo chiedo anche agli ascoltatori, mentre vanno i Red Hot Chili Peppers, è un'informazione importante per noi due, soprattutto sapere che Viola deve andare in bagno durante la pubblicità? Perché ce l'ha detta al microfono e non se l'è tenuta per sé?",
-    "titolo": "Citazione dei Red Hot Chili Peppers",
-    "tema": [
-      "musica",
-      "radio"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-06-03-027",
@@ -574,14 +572,11 @@
     "end": 1834.69,
     "speaker_raw": "SPEAKER_01",
     "testo": "senti una cosa Alex ma tu scusami quindi la tua fidanzata non la porti mai al mare adesso che arriva l'estate una settimana o due eh no no quello no ci sono sai i pregi e i difetti ci pensi mai che un giorno dirai vabbè dopo un giorno dirò basta e farò una vita diciamo più tra virgolette normale cioè quella che più o meno fanno tutti",
-    "titolo": "la vita normale",
-    "tema": [
-      "amore",
-      "relazione"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-06-03-047",

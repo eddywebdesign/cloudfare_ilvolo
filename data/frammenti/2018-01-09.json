@@ -330,7 +330,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/d0e5c685-5d2f-4be8-897c-9997ad5a776e/front-250"
   },
   {
     "id": "2018-01-09-028",
@@ -338,14 +339,11 @@
     "end": 1332.4,
     "speaker_raw": "SPEAKER_06",
     "testo": "Sono canzoni poco irriverenti, insomma canzoni come me, che ho perso tutti i denti, canzoni per chi non ha voglia di abbaiare o di ringhiare, canzoni tanto per cantare. Io canto solo per voi. Le mie canzoni poco intelligenti, che ti ci svegli la mattina e ti ci lavi i denti, canzoni per chi non ha voglia di pensare, di ascoltare, canzoni per dimenticare. Sono canzoni poco consistenti, insomma canzoni come me, che non faccio più ragionamenti, che voglio solo sensazioni, solo sentimenti e una tazzina di caffè. canzoni che parlano d'amore perché alla fine dai di che altro vuoi parlare che se ti guardi intorno non c'è molto da cantare solamente una tristezza che è difficile a toccare perciò sarò superficiale ma in mezzo a questo dolore in tutto questo rumore io canto un mondo che non c'è Emozionanti che ti accappano alla gola Senza tanti complimenti Canzoni come smerla in faccia Per costringerti a pensare Canzoni per non restarci male Alle canzoni da cantare a spazio a gola Come se cinque mila volte diventassero sola Canzoni che ti amano ancora Anche se triste, anche se dura Canzoni che non trova una Canzoni che ti salvano la vita a volte basta una canzone anche una stupida canzone solo una stupida canzone a ricordare ma non ti sembra un miracolo che in mezzo a questo dolore tutto questo dolore a volte basta una canzone anche una stupida canzone solo una stupida canzone",
-    "titolo": "Canzoni per dimenticare",
-    "tema": [
-      "musica",
-      "dimenticare"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2018-01-09-029",
@@ -615,14 +613,11 @@
     "end": 1860.28,
     "speaker_raw": "SPEAKER_12",
     "testo": "io vado più sull'elettronica quindi ho un genere completamente diverso l'italiana la musica italiana a volte la credo un po' patetica poi ci sono pezzi come ma neanche Renatone? no assolutamente zero non sei un sorcino? assolutamente no però apprezzo dal vivo li apprezzo di più dai però Marco sei bisex dai Marco sei bisex dai mi sarebbe stato più facile sarebbe stato più facile nella mia vita anche nei colloqui di lavoro sì",
-    "titolo": "Musica elettronica e Renato Zero",
-    "tema": [
-      "musica",
-      "elettronica"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2018-01-09-050",
@@ -771,14 +766,11 @@
     "end": 2358.81,
     "speaker_raw": "SPEAKER_11",
     "testo": "Molti ascoltatori si sono dichiarati gay durante questa canzone, io sto potando e me la sto cantando tutta, forse l'immagine più gay che possiamo dare di un etero è che ciao sto ballando mentre spingo il passeggino in un quartiere hipster di Copenhagen. Passa dalla Cristiania e comprati un panetto, che è meraviglioso. È ancora così? Non lo so, sono stato l'altro giorno a Copenaghe ma all'aeroporto, dove però c'è quello che fa i panini più buoni del mondo, per cui sono sempre contento di atterrare lì.",
-    "titolo": "ballare con il passeggino",
-    "tema": [
-      "musica",
-      "genitori"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2018-01-09-062",

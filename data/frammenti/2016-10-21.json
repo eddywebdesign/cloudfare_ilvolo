@@ -222,14 +222,11 @@
     "end": 1187.55,
     "speaker_raw": "SPEAKER_04",
     "testo": "Ci stava uno Smashing Pumpkins, no? Andrea, che voleva Nick Cave, ci ha detto no, scusate, non mi chiamate che sto lavorando. Allora, ciao. Cioè, ci chiede una cosa, ti chiamiamo per... Guarda, sono andato di là a coltellate per poter mettere Nick Cave, niente. Mi girano perché lo volevo sentire, ma hai fatto venire voglia.",
-    "titolo": "Nick Cave e Smashing Pumpkins",
-    "tema": [
-      "musica",
-      "preferenze"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-10-21-020",
@@ -243,7 +240,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/8c305bde-5562-4149-8a43-931446e7e4cf/front-250"
   },
   {
     "id": "2016-10-21-021",
@@ -257,7 +255,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/0e76eaa9-60f8-4ab3-bf54-2a9e95577d55/front-250"
   },
   {
     "id": "2016-10-21-022",
@@ -358,7 +357,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/11192338-M.jpg"
   },
   {
     "id": "2016-10-21-030",

@@ -60,7 +60,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/8ebc7d5a-40f4-4878-b74f-000a16010638/front-250"
   },
   {
     "id": "2016-10-03-005",

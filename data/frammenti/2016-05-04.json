@@ -494,7 +494,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/7ba1dee9-dec1-4aa3-a394-a24319272df2/front-250"
   },
   {
     "id": "2016-05-04-041",
@@ -586,14 +587,11 @@
     "end": 2013.69,
     "speaker_raw": "SPEAKER_01",
     "testo": "Sì, io addirittura a Cristina Costanza mi sentirei di dedicare Miss Sarajevo degli U2 e di Pavarotti, perché oggi quello che accadde da Leppo, Fabio, è molto molto simile, se non peggiore, a quello che accadeva negli anni 90 in quella città.",
-    "titolo": "Miss Sarajevo e Leppo",
-    "tema": [
-      "musica",
-      "politica"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-05-04-049",
@@ -818,14 +816,11 @@
     "end": 2783.98,
     "speaker_raw": "SPEAKER_02",
     "testo": "di chi poi si rivela, ma quando t'arrabbi sei ancora più bella, e così su due piedi io sarei liquidato, come mette allegria, ma vittima sarai tu bilancio sbagliato. e un uomo tradisce tradisce a metà per cinque minuti e non eri più qua se mi lasci non vale se mi lasci non vale se mi lasci non vale se mi lasci non vale non ti sembra un po' caro il prezzo che adesso io sto per pagare se mi lasci non vale arriva un messaggio così triste che butta giù tutta la puntata",
-    "titolo": "Se mi lasci non vale di Julio Iglesias",
-    "tema": [
-      "amore",
-      "tradimento"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-05-04-067",

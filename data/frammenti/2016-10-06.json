@@ -229,7 +229,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/5c1d011e-16d7-4c34-a5d9-a3c3413c4fc8/front-250"
   },
   {
     "id": "2016-10-06-020",
@@ -399,7 +400,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/10080522-9b96-4be4-b949-5c3fe1b8c5c0/front-250"
   },
   {
     "id": "2016-10-06-034",
@@ -483,7 +485,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/dfae8a5c-c63b-487a-974e-f06b252878e1/front-250"
   },
   {
     "id": "2016-10-06-040",
@@ -558,7 +561,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/10124876-M.jpg"
   },
   {
     "id": "2016-10-06-046",
@@ -739,14 +743,11 @@
     "end": 2339.36,
     "speaker_raw": "SPEAKER_01",
     "testo": "I can't stop thinking about you. Questo è Sting, questo è Radio DJ e questo è il volo del mattino. In Inghilterra c'è una legge che diciamo obbliga, possiamo dire obbliga, è una legge insomma quindi sei obbligato a rispettarla, a cercare prima di assumere uno straniero devi per 28 giorni dedicarti alla ricerca di un inglese per quel posto di lavoro.",
-    "titolo": "Sting - I Can't Stop Thinking About You",
-    "tema": [
-      "musica",
-      "sting"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-10-06-061",
@@ -1004,7 +1005,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/483d4d97-d5a7-4c4a-974d-4c68e4ce6381/front-250"
   },
   {
     "id": "2016-10-06-083",
@@ -1045,6 +1047,7 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/c9491759-47c1-4274-a08e-40cf74b7bb54/front-250"
   }
 ]

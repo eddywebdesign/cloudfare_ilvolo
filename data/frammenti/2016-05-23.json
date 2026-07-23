@@ -5,14 +5,11 @@
     "end": 125.33,
     "speaker_raw": "SPEAKER_09",
     "testo": "Radio DJ. One nation, one station. One love, one land. I know I could lie but I'm telling the truth. Wherever I go there's a shadow of you. I know I could try looking for something new. But wherever I go I'll be looking for you. some people lie but they're looking for magic others they're crying they're going insane I feel alive when I'm close to the madness no easy love could ever make me feel the same I know I could lie but I won't lie to you ciao ciao no no Ciao! no no",
-    "titolo": "Some People Lie",
-    "tema": [
-      "amore",
-      "verità"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-05-23-001",
@@ -31,14 +28,11 @@
     "end": 187.77,
     "speaker_raw": "SPEAKER_16",
     "testo": "Come sono bravi, come sono bravi, chi sono Maurizio? Erano i One Republic con Wherever I Go. Ti sento con un microfono un po' come da radio di provincia o delle giostre.",
-    "titolo": "One Republic – Wherever I Go",
-    "tema": [
-      "musica",
-      "one republic"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-05-23-003",
@@ -132,14 +126,11 @@
     "end": 581.41,
     "speaker_raw": "SPEAKER_15",
     "testo": "Vieni a ballare in Puglia, Puglia, Puglia Trebulo come una foglia, foglia, foglia Tieni la testa alta quando pensi vicino alla gru Perché può capitare ... ... ... ... ... ... a presto Grazie a tutti.",
-    "titolo": "Caparezza - Vieni a ballare in Puglia",
-    "tema": [
-      "musica",
-      "puglia"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-05-23-011",
@@ -837,7 +828,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/fbbd357c-01f8-493f-9a43-6bcfc08e9b1f/front-250"
   },
   {
     "id": "2016-05-23-066",

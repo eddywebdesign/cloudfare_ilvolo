@@ -167,7 +167,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/e322f174-37f1-4053-8787-7fc3403e5634/front-250"
   },
   {
     "id": "2019-09-03-015",
@@ -250,7 +251,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/4f4c9b1b-e309-40ca-ba0d-a6de1d89c051/front-250"
   },
   {
     "id": "2019-09-03-022",
@@ -543,7 +545,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/83d82905-3e8e-49b4-a2d4-2e1e81e36847/front-250"
   },
   {
     "id": "2019-09-03-047",
@@ -1297,14 +1300,11 @@
     "end": 3063.29,
     "speaker_raw": "SPEAKER_06",
     "testo": "Non mi va Voglio dare un calcio a tutta la città Amore mio Vieni anche tu Il capo vince Lasciamolo su Lasciamolo su Ma che meraviglia Che hanno fatto Di me Un lacche Sono un semplice lacche Spacchia tutto Che danni",
-    "titolo": "Voglio dare un calcio a tutta la città",
-    "tema": [
-      "musica",
-      "canzoni"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2019-09-03-109",
@@ -1312,14 +1312,11 @@
     "end": 3128.76,
     "speaker_raw": "SPEAKER_07",
     "testo": "Dice sì, sempre sì, sì, sono qui. Stamattina nei polmoni non voglio l'aria dei termosifoni. Amore mio, vieni anche tu, il capo ufficio lasciamolo su, lasciamolo su. Spagna dove è? Voglia il verde intorno a me. Il profumo della sera quando torna primavera. Per stavolta faccio senza della pasta asciutta scatta della mensa. Amore mio, vieni anche tu il capo ufficio. Lasciamolo su, e anche tu.",
-    "titolo": "Il profumo della sera",
-    "tema": [
-      "musica",
-      "primavera"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2019-09-03-110",

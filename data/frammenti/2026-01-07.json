@@ -125,7 +125,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/5ffc8a99-b388-43b1-83ba-55a2ffb41ecb/front-250"
   },
   {
     "id": "2026-01-07-010",
@@ -601,7 +602,7 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true
   },
   {
     "id": "2026-01-07-047",
@@ -915,7 +916,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/4909765-M.jpg"
   },
   {
     "id": "2026-01-07-071",
@@ -944,7 +946,7 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true
   },
   {
     "id": "2026-01-07-073",

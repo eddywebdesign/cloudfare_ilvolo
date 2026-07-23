@@ -155,14 +155,11 @@
     "end": 737.18,
     "speaker_raw": "SPEAKER_05",
     "testo": "Grazie. The End, Jack Giaselli, il nostro amico Jack Giaselli, non ci siamo mai incontrati ma noi siamo quelli che lo sentiamo parte del volo del mattino. Addirittura? Sì, non lo so, non lo so, non l'ho mai incontrato. Jack Giaselli mi devi una birra perché metto tante volte il tuo disco, credo che il minimo sia o due punti sia o una birra media. Vengo via con la birra media. Va bene, allora ve lo dici che in Germania il cane fa vao vao, fao fao. Fao fao quindi. Fa così, con la V doppia, vao. no con la via normale non lo so mentre scusatemi ma in Romania il cane fa ham ham dice un ragazzo qua non lo so dice Giovanni Tamarro Tamarro scusami ham ham non lo so è al contrario allora scusatemi qual era la triste delle due Milana Milana si pronto buongiorno come stai bene buon lunedì mattina grazie anche a lei a lei dove sei Milana? è pronto si o parli con me o parli con chi c'è a fianco decidi no no parlo con te ok Milana da dove chiami? un attimo aspetta aspetta sono allo stage no perché c'è scritto scusami sono triste sono triste chiamateci noi sai che gli ascoltatori tristi li andiamo a prendere uno a uno per cambiargli l'umore che c'hai Milana?",
-    "titolo": "Il tuo disco",
-    "tema": [
-      "musica",
-      "amici"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-05-02-014",
@@ -499,7 +496,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/5cacdab1-6013-445d-84a7-efa2cc58f540/front-250"
   },
   {
     "id": "2016-05-02-044",

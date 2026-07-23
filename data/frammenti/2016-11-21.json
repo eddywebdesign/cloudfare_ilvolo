@@ -378,14 +378,11 @@
     "end": 1670.59,
     "speaker_raw": "SPEAKER_09",
     "testo": "qui questa mattina si sta parlando della caratteristica delle città italiane dicono che a Parma siete un po' snob abbiamo chiamato un bar a caso Parma è la città più bella del mondo tranne qualcuno c'è della gente simpaticissima acculturata si mangia si mangia bene si mangia bene",
-    "titolo": "Città italiane",
-    "tema": [
-      "italia",
-      "città"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-11-21-034",
@@ -450,7 +447,7 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true
   },
   {
     "id": "2016-11-21-039",

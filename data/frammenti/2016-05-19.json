@@ -58,14 +58,11 @@
     "end": 197.85,
     "speaker_raw": "SPEAKER_12",
     "testo": "Ma che io? Sì, sì, sì. Va bene, erano i One Republic on Wherever I Go.",
-    "titolo": "One Republic – Wherever I Go",
-    "tema": [
-      "musica",
-      "canzone"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-05-19-005",
@@ -216,7 +213,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/4828877-M.jpg"
   },
   {
     "id": "2016-05-19-017",
@@ -616,7 +614,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/71e160ad-2ac2-420f-a9c9-f4284bcfc668/front-250"
   },
   {
     "id": "2016-05-19-052",
@@ -631,7 +630,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/64e557d2-d5a1-4dc9-96b0-0dbc5b40642e/front-250"
   },
   {
     "id": "2016-05-19-053",
@@ -661,14 +661,11 @@
     "end": 1324.64,
     "speaker_raw": "SPEAKER_04",
     "testo": "mozzarella, mortadella, tartella, ecco l'abbia me scusa chi è che cantava?",
-    "titolo": "Mozzarella, Mortadella",
-    "tema": [
-      "musica",
-      "cultura"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-05-19-056",
@@ -780,14 +777,11 @@
     "end": 1872.12,
     "speaker_raw": "SPEAKER_11",
     "testo": "E questa è Tracy Chapman, da un armadio di Manhattan, talking about revolution.",
-    "titolo": "Tracy Chapman e rivoluzione",
-    "tema": [
-      "rivoluzione",
-      "musica"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-05-19-065",
@@ -806,14 +800,11 @@
     "end": 1926.19,
     "speaker_raw": "SPEAKER_15",
     "testo": "who are people gonna rise up and take what's theirs",
-    "titolo": "Who Are People Gonna Rise Up",
-    "tema": [
-      "rivolta",
-      "società"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-05-19-067",
@@ -981,7 +972,7 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true
   },
   {
     "id": "2016-05-19-081",
@@ -1073,7 +1064,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/5d73a30b-9bf6-460a-8834-5e50491e3f51/front-250"
   },
   {
     "id": "2016-05-19-089",

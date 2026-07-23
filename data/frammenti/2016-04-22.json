@@ -514,6 +514,7 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/cee80882-7509-497f-b23b-455cc23c50c6/front-250"
   }
 ]

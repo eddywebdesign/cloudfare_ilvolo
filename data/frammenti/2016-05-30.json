@@ -305,7 +305,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/14114111-M.jpg"
   },
   {
     "id": "2016-05-30-025",
@@ -718,7 +719,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/ee274de7-145b-42d6-9028-5a368019338a/front-250"
   },
   {
     "id": "2016-05-30-059",
@@ -795,14 +797,11 @@
     "end": 2730.23,
     "speaker_raw": "SPEAKER_11",
     "testo": "Maurizio tu devi coltivare la lavanda e poi massaggiare Viola e fargli da mangiare dipende quanto vi paga poi poca roba allora I wanna hold the hand inside you I wanna take a breath that's true",
-    "titolo": "I wanna hold the hand inside you",
-    "tema": [
-      "amore",
-      "musica"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-05-30-066",

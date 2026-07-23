@@ -391,14 +391,11 @@
     "end": 963.84,
     "speaker_raw": "SPEAKER_12",
     "testo": "Pronto? Manuela? Sì? Ma cosa vuol dire esattamente rebirthing? Rebirthing? Rebirthing? Ma non ci parlo? Fabio Volo, scusami che ti disturbo.",
-    "titolo": "Rebirthing",
-    "tema": [
-      "nascita",
-      "trasformazione"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-05-26-034",
@@ -520,7 +517,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/835659-M.jpg"
   },
   {
     "id": "2016-05-26-044",
@@ -546,7 +544,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/c00fb981-41e8-4fbd-ba53-d229c946679e/front-250"
   },
   {
     "id": "2016-05-26-046",
@@ -612,14 +611,11 @@
     "end": 1430.56,
     "speaker_raw": "SPEAKER_12",
     "testo": "L'altro giorno Giuliano mi ha mandato su Whatsapp delle foto e dei video del concerto dell'Arena di Verona. È sempre bella l'Arena di Verona, qualsiasi concerto. Io ci ho visto anche la Carmen, metà. Negra Maro Radio DJ, questo è il volo del mattino, buongiorno.",
-    "titolo": "Concerto all'Arena di Verona",
-    "tema": [
-      "musica",
-      "concerti"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-05-26-052",
@@ -1085,14 +1081,11 @@
     "end": 2799.59,
     "speaker_raw": "SPEAKER_16",
     "testo": "I wanna take a breath that's true I look to you and I see nothing I look to you to see the truth You live your life, you go in ciao ciao",
-    "titolo": "I wanna take a breath",
-    "tema": [
-      "musica",
-      "amore"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-05-26-089",

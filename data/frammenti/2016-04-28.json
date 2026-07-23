@@ -1026,6 +1026,7 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/608509ff-f8f9-4d90-bb53-6875ab544dd0/front-250"
   }
 ]

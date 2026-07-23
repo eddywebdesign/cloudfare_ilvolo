@@ -12,7 +12,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/3288cb64-84ce-4970-8dda-7ba6609712b4/front-250"
   },
   {
     "id": "2016-10-10-001",
@@ -432,14 +433,11 @@
     "end": 1733.0,
     "speaker_raw": "SPEAKER_02",
     "testo": "Ciao! Ciao! Oh and I will be with you when the darkest winter comes Oh and I will be with you to feel the California sun Oh and I will be with you in the night time with you Oh I'll go anywhere with you Musica Ciao! ciao ciao ciao",
-    "titolo": "Ciao! ciao ciao ciao",
-    "tema": [
-      "musica",
-      "amore"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-10-10-037",
@@ -569,7 +567,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/2c89ace9-c729-4818-ab70-7f1d8b2b741e/front-250"
   },
   {
     "id": "2016-10-10-047",
@@ -577,14 +576,11 @@
     "end": 2287.84,
     "speaker_raw": "SPEAKER_10",
     "testo": "Stamattina ci stavano i Tolkienettes e ci stava anche questa meravigliosa Betty Davis Eyes di Kim Carnes. Buongiorno a tutti, arrivano messaggi molto divertenti questa mattina. Intanto c'è Federico, per esempio, sentite qua, ventenne, questa mattina siamo partiti un po' ventenne, ventenni. Sono innamorato di uno dei miei più cari amici, ok? Ma ovviamente non so come dirglielo. Il problema? Né io né lui siamo gay. cioè lui è etero però si è innamorato follemente del suo amico e non sa come gestire questa cosa ti dico io l'ho letto perché qua solo degli ascoltatori ci posso dare risposta io lì non ci arrivo ti posso dire che l'amore è sempre bello ok che è sempre una bella cosa ok e che nella gestione dell'amore a volte si fanno degli errori ma l'amore di per sé è sempre affascinante ok quindi non lo so chissà se anche il tuo amico è innamorato di te non lo so vuoi buttare lì un un discorso in terza persona tipo? no in personale tipo secondo te può succedere che un uomo etero si innamori di un altro cioè la butti lì come un mio amico sai cos'è successo a un mio amico ti scopri subito c'è un mio cugino mio cugino non lo so una cosa del genere è",
-    "titolo": "Betty Davis Eyes di Kim Carnes",
-    "tema": [
-      "musica",
-      "canzone"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-10-10-048",

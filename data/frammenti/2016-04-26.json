@@ -56,7 +56,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/c69114f3-72ea-4a66-9c12-516c3b12f97f/front-250"
   },
   {
     "id": "2016-04-26-005",
@@ -207,13 +208,11 @@
     "end": 882.29,
     "speaker_raw": "SPEAKER_01",
     "testo": "Allora, che canzone era questa, esperto musicale? Kill the Lights, direttamente dalla serie HBO Final. Ah, ok, l'hai trovata, la stai seguendo? Vedo che non ho le cuffie, spero che le rubo un secondo alla viola. Ok, scusa un secondo viola. Tutto in diretta. è anche giù la voce ti stai seguendo la serie? no non l'ho assolutamente mai vista però me l'hanno parlato bene Enzino Fargetta Andrea Marchesi del duo Andre Michele e il maestro Dario Suelli invece pare che sia uno dei motivi per cui la HBO comincia a avere dei problemi economici costa molto questa serie verrà sostituita da uno di un nuovo ragazzo bresciano che ha dei costi molto più bassi dicono che non ha avuto il riscontro però insomma è molto bella volevo dire invece una cosa ti taglieresti un dito in cambio di internet? in cambio di internet no ma in cambio di non poter usare delle auto tedesche sì perché giustamente è saltato fuori questa cosa grazie esperto musicale scusami che ti abbiamo chiesto grazie grazie perché effettivamente molti ascoltatori dipende anche dalla vita che uno va ovviamente il pianista il meccanico dice io senza un dito faccio molta fatica il pianista il meccanico Maurizio stai tanto al computer così cioè io scrivere un libro mi toglie il mignolo non lo uso neanche tra l'altro perché io scrivo con tre dita come con tre dita? poi ce l'hai sempre in alto il mignolo se io scrivo con i mignoli mi vanno su in alto non li uso forse non so se li tiro su per una questione di bilancia non lo so insomma dipende appunto dal lavoro che uno fa poi qualcuno qua chiede come me lo tagliano a freddo o con l'anestesia? troppe domande particolari",
-    "titolo": "canzone Kill the Lights",
-    "tema": [
-      "musica"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-04-26-018",
@@ -389,13 +388,11 @@
     "end": 1303.13,
     "speaker_raw": "SPEAKER_06",
     "testo": "Ma c'è anche una canzone di Giorgia.",
-    "titolo": "Canzone di Giorgia",
-    "tema": [
-      "musica"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-04-26-034",
@@ -511,13 +508,11 @@
     "end": 1669.22,
     "speaker_raw": "SPEAKER_01",
     "testo": "Ciao Angelo Oh when you're looking at the sun",
-    "titolo": "Oh when you're looking at the sun",
-    "tema": [
-      "musica"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-04-26-044",

@@ -245,14 +245,11 @@
     "end": 554.98,
     "speaker_raw": "SPEAKER_16",
     "testo": "solo una sana e consapevole libidine solo una sana e consapevole libidine salva il giovane dallo stress e dall'azione carica ma non potresti dirmi sempre sì",
-    "titolo": "Citazione di Sana e Consapevole Libidine",
-    "tema": [
-      "musica",
-      "citazione"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-11-28-022",
@@ -592,7 +589,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/cabfd30c-e3ef-44ac-bac8-2c795bf07140/front-250"
   },
   {
     "id": "2016-11-28-052",

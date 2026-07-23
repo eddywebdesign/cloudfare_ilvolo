@@ -197,7 +197,7 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true
   },
   {
     "id": "2016-05-16-017",
@@ -205,14 +205,11 @@
     "end": 643.06,
     "speaker_raw": "SPEAKER_06",
     "testo": "è arrivato a Spreggio ha già detto che risponde ci si è iscritti ieri sera Ciao Ciao Ciao That's the driver. Don't stop, stop, stop, keep on driving. Don't stop, stop, stop, keep on driving. Don't stop, stop, I'll keep on running with you. That's the driver. All the stories that this car could tell could leave you shaking. The things you show and how you've been through are held to make it. People kissing in the backseat, drunken naked. Stars don't grow. ciao ciao ciao musica",
-    "titolo": "That's the driver",
-    "tema": [
-      "musica",
-      "canzoni"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-05-16-018",
@@ -231,15 +228,11 @@
     "end": 729.02,
     "speaker_raw": "SPEAKER_11",
     "testo": "abbiamo Claudio Baglioni ragazzi no finché non lo sento me lo ha detto ieri sera che mi avrebbe risposto se vi dico di sì ragazzi ci siamo messaggiati fino alle 5 del mattino lui mi diceva ah i tuoi libri lui diceva ah i tuoi dischi va bene va bene signore e signori Grazie a tutti.",
-    "titolo": "i tuoi libri",
-    "tema": [
-      "libri",
-      "amici"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "autore": "Claudio Baglioni",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-05-16-020",
@@ -395,14 +388,11 @@
     "end": 1615.46,
     "speaker_raw": "SPEAKER_11",
     "testo": "Marco Mengoni solo due satelliti mentre andava questa canzone leggevo la mail di una nostra ascoltatrice Samantha che torna al discorso di venerdì sul russare ma non si lamenta del marito che russa dice quella che russa veramente da sempre sono io cioè bisogna che me la spieghi questa Samantha ciao Fabio ciao ciao bisogna che me la spieghi ma sei a casa ancora?",
-    "titolo": "Marco Mengoni - Solo due satelliti",
-    "tema": [
-      "musica",
-      "radio"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-05-16-032",
@@ -671,7 +661,7 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true
   },
   {
     "id": "2016-05-16-055",

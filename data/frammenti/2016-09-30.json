@@ -24,7 +24,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/06a48973-74c4-4a0b-a227-35cb0ad1f5a8/front-250"
   },
   {
     "id": "2016-09-30-002",
@@ -460,14 +461,11 @@
     "end": 1315.45,
     "speaker_raw": "SPEAKER_17",
     "testo": "no no no senza Fabio guarda che il vino buono la bella classica frase non sei sento che hai quella patatina in bocca quello gnocco in bocca dei Veneti di dove sei? di Venezia di Venezia no no dai come l'ho detto no ma però dai non dire così non si sente poi sei bravo voi ci prendete sempre in giro noi veneziani che abbiamo questa calata no sei bravo sai sei bella senti Valentina che fai adesso?",
-    "titolo": "Patatina in bocca",
-    "tema": [
-      "musica",
-      "Veneti"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-09-30-039",

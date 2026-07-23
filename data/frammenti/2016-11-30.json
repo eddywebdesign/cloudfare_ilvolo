@@ -82,7 +82,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/98591db1-d94e-4197-98dc-3154609e728d/front-250"
   },
   {
     "id": "2016-11-30-007",
@@ -414,14 +415,11 @@
     "end": 1263.17,
     "speaker_raw": "SPEAKER_00",
     "testo": "guarda oggi mi piacerebbe riascoltare un pezzo che ho scritto 40 anni fa che si titola Colazione a New York perché noi siamo in un pullman in questo momento e stiamo andando alla Malpensa perché vogliamo su New York dove dopo domani abbiamo un concerto a Long Island ma sono tornato ieri da New York e vedevo che c'era del fermento lì sulla Fifth Avenue non capivo non capivo va bene ciao Red in bocca al lupo salutaci tutti un abbraccio a voi grazie Fabio ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao",
-    "titolo": "Citazione del brano Colazione a New York",
-    "tema": [
-      "musica",
-      "viaggi"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-11-30-034",

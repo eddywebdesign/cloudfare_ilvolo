@@ -172,7 +172,8 @@
     "tema": [],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/020ab425-6afc-4277-9496-8ad9e2fb84b0/front-250"
   },
   {
     "id": "2016-05-17-014",
@@ -339,11 +340,11 @@
     "end": 1501.17,
     "speaker_raw": "SPEAKER_07",
     "testo": "Tutto qui accade per te Faccio finta che niente ti appartenga Ma se accanto a te io respiro appena Tutto qui accade, tutto qui accade per te E lì esplode una stella Se chiudi i tuoi occhi si spegne la luna Al buio e la terra Tutto qui accade, tutto qui accade per te tutto che accade tutto che accade per te ad un tratto c'è che ti cerco ancora senza Isperdi pianeti Se chiudi la bocca L'ossigeno manca Per tutta la terra Tutto qui accade Tutto qui accade Sei tu quel sole che fa crescere anche gli alberi Sei tu la luna che addormenta tutti gli angeli Sei tu l'inizio di ogni cosa che ti immagini E sei la fine di ogni limite che superi Sei tu tutti i limiti che superi Sei tu tutti i limiti che superi Sei tu quel sole che fa crescere anche gli alberi",
-    "titolo": "Tutto qui accade per te",
+    "titolo": "",
     "tema": [],
-    "tipo": "riferimento_musica",
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-05-17-028",
@@ -473,7 +474,8 @@
     "tema": [],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/6a2e334d-6192-4194-97fc-8ba959d06e44/front-250"
   },
   {
     "id": "2016-05-17-039",
@@ -492,11 +494,11 @@
     "end": 2380.72,
     "speaker_raw": "SPEAKER_12",
     "testo": "comunque a lei piace la musica di Vasco Rossi a lui la musica ogni 80 mettiamo un pezzo italiano ogni 80 eh questo è un bel ingresso mi vuoi sposare? si perché? si sono sciolti no sono sciolti se ne è andato il baffo il baffo dei ricchi e poveri che si chiama Franco se non sbaglio se ne è andato",
-    "titolo": "Vasco Rossi",
+    "titolo": "",
     "tema": [],
-    "tipo": "riferimento_musica",
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-05-17-041",

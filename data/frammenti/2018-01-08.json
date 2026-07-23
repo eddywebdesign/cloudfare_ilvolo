@@ -34,7 +34,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/ae3b5a68-5415-46b9-964b-63912c4fef85/front-250"
   },
   {
     "id": "2018-01-08-003",
@@ -97,7 +98,7 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true
   },
   {
     "id": "2018-01-08-008",
@@ -376,7 +377,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/9358e91e-6ab3-4aea-bd27-aedd5a822074/front-250"
   },
   {
     "id": "2018-01-08-030",
@@ -429,14 +431,11 @@
     "end": 1271.5,
     "speaker_raw": "SPEAKER_11",
     "testo": "Edo. E ha scritto l'ultima canzone di Francesca Michelin. Oh ok.",
-    "titolo": "Ultima canzone di Francesca Michelin",
-    "tema": [
-      "musica",
-      "canzoni"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2018-01-08-035",
@@ -699,14 +698,11 @@
     "end": 1969.36,
     "speaker_raw": "SPEAKER_08",
     "testo": "Ma scusami, pensavo ricerca, la persona lotta al tumore, al cancro, eh? No, la ricerca alle barche, cioè tu cerchi le barche per quelle che la devono comprare?",
-    "titolo": "La ricerca sul cancro",
-    "tema": [
-      "sano",
-      "malattia"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2018-01-08-056",
@@ -732,7 +728,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/7d789531-966f-47db-8955-769437901148/front-250"
   },
   {
     "id": "2018-01-08-058",
@@ -766,14 +763,11 @@
     "end": 2192.51,
     "speaker_raw": "SPEAKER_03",
     "testo": "Spadiglio sopra un cappuccino e pago il conto al mio destino, è tutto un attimo. Io che firmo il nome come viene, dormo spesso accanto al finestrino, mi trucco il viso più deciso e vivo il tempo più vicino, è tutto un attimo. e questa qua e un'altra dentro non ci sta questa vita siete voi questo cuore immenso che solo se ci pensi in fondo solo nei momenti miei con te immaginando anche il bambino chiedo il resto al mio destino è tutto un attimo la mia vita questa qua e un'altra dentro non ci sta questa vita siete voi questo cuore immenso che solo se ci penso La mia vita è questa qua che un'altra dentro non ci sta.",
-    "titolo": "Questa vita siete voi",
-    "tema": [
-      "amore",
-      "musica"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2018-01-08-061",
@@ -1036,7 +1030,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/594a17df-f85a-4df0-a5e9-faf155f461a8/front-250"
   },
   {
     "id": "2018-01-08-081",

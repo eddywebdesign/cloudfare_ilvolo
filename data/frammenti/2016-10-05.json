@@ -37,7 +37,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/8036187-M.jpg"
   },
   {
     "id": "2016-10-05-003",
@@ -127,7 +128,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/b6a77df0-7939-4fcc-be72-c769cd830095/front-250"
   },
   {
     "id": "2016-10-05-010",
@@ -142,7 +144,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/7367737d-938d-413a-aad4-77b7b6badcaf/front-250"
   },
   {
     "id": "2016-10-05-011",
@@ -197,14 +200,11 @@
     "end": 706.83,
     "speaker_raw": "SPEAKER_09",
     "testo": "sai che adesso noi vinciamo il premio RTL stanno passando tutti di là bellissima sta musica però questo è l'album nuovo comunque si chiama The Demon Dance quella di prima l'hanno presa bello mi piace un po' lenta Cosa c'hai dell'album vecchio? Ah ma ce ne sono tanti qua! siamo in pochi lasciamo stare allora ragazzi bene benvenuti questo è il volo del mattino vogliamo rimettere la sigla e partiamo da capo? non è stato un bel inizio allora vado qua clicco ricevi invia messaggio sono Nadia Fabio metti Beyoncé che sto facendo la cacca L'ho letto in diretta, è in bagno, è in bagno. Aspetta, The Mondense, vabbè l'han trovato, l'han trovato. Io non l'ho trovata chiaramente perché il mio metodo... No perché mettere il telefono nella cuffia non sempre funziona. Allora oggi ragazzi parliamo anche di disciplina e autodisciplina. ci sono delle persone in ascolto che sono in grado di autodisciplinarsi di essere sergenti di se stessi basta con la roba lì non mangio più i dolci per un po' piuttosto che questo lavoro lo devo finire e soprattutto sul lavoro sulle deadline sulla consegna di un qualcosa ma anche di un compito in classe di un esame ci sono persone che anche già da bambini tornano a casa da scuola io avevo compagni che facevano subito i compiti subito mangiavano compiti e poi uscivano e quelli come me che mangiavano uscivano andavano a dormire si svegliavano la mattina arrivavano a scuola e facevano i compiti che stress non è molto più stressante così è stressantissimo però per esempio io se devo consegnare un lavoro tendo a fare sempre le cose all'ultimo momento perché quella tensione quello stress è produttivo Mentre invece in altre persone, credo come te, quello stress e quello lì ti bloccano, giusto? Quindi abbiamo un bellissimo articolo che è uscito ieri sull'internazionale e che arriva dal The Guardian, che dopo lo leggiamo, quindi... ho trovato quella che ti piace scusate ragazzi ci facciamo un 10-20 secondi di questa cosa di questa cosa su uno dei miei album preferiti ce l'ho anche in vinile sentite la goduria così ve lo sciazzamate senti senti speriamo boom alzate il volume alzate il volume",
-    "titolo": "Album The Demon Dance",
-    "tema": [
-      "musica",
-      "album"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-10-05-016",
@@ -417,13 +417,11 @@
     "end": 1409.6,
     "speaker_raw": "SPEAKER_06",
     "testo": "I love you just because You lead me down To the ocean The world is fine By the ocean",
-    "titolo": "Citazione del brano Ocean",
-    "tema": [
-      "musica"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-10-05-034",
@@ -492,14 +490,11 @@
     "end": 1673.56,
     "speaker_raw": "SPEAKER_09",
     "testo": "ci credo stanno ascoltando hanno paura poi però un ascoltatore ha detto che la canzone Ocean è molto brutta ma che musica è? questo lo chiamiamo questo lo chiamiamo adesso ti chiamo Andrea mi viene voglia di cambiare stazione no adesso Andrea tu devi cambiare i ricordi della tua infanzia adesso noi andiamo lì Andrea chiamiamolo",
-    "titolo": "Critica alla canzone Ocean",
-    "tema": [
-      "musica",
-      "ascoltatori"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-10-05-040",
@@ -973,13 +968,11 @@
     "end": 2954.63,
     "speaker_raw": "SPEAKER_09",
     "testo": "vuoi disannunciare tu Maurizio? John TLA Lost Ones suona un po' Emiliana Torrini come genere musicale anche come tono della voce posso dire però che Lorinil la versione originale di Lorinil era giusto un tantinello allora Milf in libertà abbiamo un ragazzo di Roma che dice io sono un toy boy tiratemi dentro nel gruppo ho 28 anni date pure il mio numero ma è serio? io vorrei entrare anche in amiche del prosecco secondo me amiche del prosecco si dice siamo sposate, separate, divorziate con figli e senza figli splendide quarantenni amiche del prosecco è carino un prosecchino ogni tanto non so mi fa un po' no non dico niente il mercoledì da leoni è un altro che potrebbe essere interessante c'era Alcatraz il gruppo da cui non puoi uscire se tu esci ti rinfilano dentro subito Comunque il mercoledì da Leoni è poi diventato negli anni, perché poi cambiano, la gente si sposa, è diventato il venerdì dalle cinghiale. Non so cosa vuol dire. Da mercoledì da Leoni il venerdì dalle cinghiale. Abbiamo altri gruppetti. Maurizio, a quale vuoi partecipare tu?",
-    "titolo": "Emiliana Torrini",
-    "tema": [
-      "musica"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-10-05-082",

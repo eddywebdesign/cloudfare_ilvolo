@@ -49,14 +49,11 @@
     "end": 279.84,
     "speaker_raw": "SPEAKER_11",
     "testo": "Chi è Maurizio? Scusami, chi è Maurizio questa persona che canta? Questa è Rihanna con Is It Better Sai che Rihanna è molto brava, non è molto bella ma è molto brava Sì, non è molto bella Mamma di una bellezza Era sovrappensato A me Rihanna mi fa un sangue che... Maurizio come te la cotillard? uguale uguale hai saputo qualcosa della cotillard di Brad? ti hanno detto qualcosa ai news? no no non si sa niente buongiorno ragazzi questa puntata da Roma anche oggi Radio DJ sta per cominciare il volo del mattino tra poco arriverà anche Emma Marrone per cui insomma se qualcuno di voi ci vuole parlare basta che ci mandi un messaggio io direi bando alle ciance ciance che voi sapete cosa vuol dire no? la parola ciancia cosa sono le ciance?",
-    "titolo": "Rihanna - Is It Better",
-    "tema": [
-      "musica",
-      "Rihanna"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-05-10-005",
@@ -97,14 +94,11 @@
     "end": 469.06,
     "speaker_raw": "SPEAKER_11",
     "testo": "good morning life good morning vieni vieni vieni vieni vieni vieni qua vieni vieni è un mio amico allora oh oh oh oh it's life aspetta eh che non hai le cuffie aspetta good morning life allora qui con me c'è un ragazzo che si chiama Matteo giusto? giusto Matteo ma che siccome fa parte della troupe di questa serie televisiva ormai da mesi ognuno di noi ha il proprio soprannome ormai io l'ho soprannominato Rissulin no? Rissulin perché è tutto riccio c'ha i capelli così quindi per noi adesso Rissulin di dove sei tu? ebbè sono di Genova quanti anni hai? 27 a volte mi dimentico che ti chiami Matteo che è un classico che lavoro fai nella vita? faccio l'assistente operatore che assisto l'operatore cioè tu sei anche ciacchista che è una roba in più la famosa cosa che avete visto tutti nei film, quello motore ma non ce la puoi fare? vuoi fare un ciak? tu vai a prendere il ciak allora tante volte quando parliamo del ciak cioè quel clapboard si direbbe in inglese eccolo qua che sta arrivando, quello famoso con la striscia bianca e nera, eccolo qua tipo volo del mattino puntata del martedì prima ma non suona tanto bene comunque questo qua che ci hai messo lo scoccetto che si è rotto vuoi salutare a casa la fidanzata qualcuno? si saluto il Genoa che ha vinto il derby 3 a 0 e tutti gli amici doriani va bene, ah così cattivo subito va bene, grazie mille Matteo ciao ciao allora tanti a volte quando si parla di queste cose degli ascoltatori dicono Ma perché si fa quel ciak lì? Cosa vuol dire quella roba lì? Perché prima di una scena si fa tac? Perché sotto intanto si scrive che scena si sta facendo, che serve poi per montare il film. Ma perché il video è una cosa, ma la telecamera, per dire la macchina da presa, non prende anche l'audio. L'audio lo fa un altro. Quindi quel ciak lì, tac, su quel rumore lì, prendono il video, prendono il sound e riescono a metterlo in sync sincronizzano video e audio però l'hai spiegato malissimo però noi abbiamo capito è perché sono due piste diverse una video e un audio su quel clac che è il rumore loro capiscono dove attaccare il file",
-    "titolo": "La serie televisiva",
-    "tema": [
-      "televisivo",
-      "serie"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-05-10-009",
@@ -140,14 +134,11 @@
     "end": 544.37,
     "speaker_raw": "SPEAKER_12",
     "testo": "Sabato 14 maggio, via di Novoli, parte San Donato a Firenze.",
-    "titolo": "San Donato a Firenze",
-    "tema": [
-      "viaggio",
-      "Firenze"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-05-10-012",
@@ -184,7 +175,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/79a08eb9-2111-49f0-a137-edf9d44d2d50/front-250"
   },
   {
     "id": "2016-05-10-015",
@@ -211,7 +203,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/18a1fbe6-adb8-4a46-bb61-8df7237e0ba0/front-250"
   },
   {
     "id": "2016-05-10-017",
@@ -283,7 +276,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/2fff7ea3-d91e-4726-bf7b-4d23da6b412e/front-250"
   },
   {
     "id": "2016-05-10-023",
@@ -354,14 +348,11 @@
     "end": 1309.27,
     "speaker_raw": "SPEAKER_11",
     "testo": "Sempre bello sentire il boss Bruce Prinstein, questo è il volo del mattino, sono un po' tutto in confusione, è arrivata Emma Marrone, quindi io direi, direi, che bella che è, quando l'ho vista lì, io direi, mettiamo, mettiamo la pubblicità? Mettiamola. Senti Viola, siccome in questo momento non mi sta sentendo, tu in quanto donna, cosa devo fare? Fagli trovare dei succhi, delle mele, delle pere, un caffè, cioè come si dà il welcome a un artista?",
-    "titolo": "Arrivo di Emma Marrone",
-    "tema": [
-      "musica",
-      "ospite"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-05-10-029",
@@ -758,14 +749,11 @@
     "end": 2475.65,
     "speaker_raw": "SPEAKER_14",
     "testo": "no no ci parliamo lui cucina anche per te ho visto lui cucina per tutti ci cuciniamo a vicenda è bello senti Fabio però facciamo un altro gioco scusami tu la puoi dire in dialetto salentino tu lo sai che cosa? Cosa posso dire? Cioè, ci hai rubato l'anima in quella nostra terra, sei venuto, sei stato anni.",
-    "titolo": "Cucina per tutti",
-    "tema": [
-      "amore",
-      "cucina"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-05-10-064",
@@ -879,13 +867,11 @@
     "end": 2575.99,
     "speaker_raw": "SPEAKER_11",
     "testo": "c'è si beddu devi aggiungere un po' di r qua e là c'è si bedroom bedroom come gli inglesi ok ciao Giulio ciao Giulio di tutta questa telefonata ricorderò solo questo che tu lo chiami Giulio invece che Giuliano we are lost in an ocean",
-    "titolo": "We are lost in an ocean",
-    "tema": [
-      "musica"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-05-10-074",

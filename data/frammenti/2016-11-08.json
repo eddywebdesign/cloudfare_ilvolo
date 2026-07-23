@@ -204,7 +204,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/a6d5fe48-dd5e-4fb5-ab9d-ae29ca6de2d0/front-250"
   },
   {
     "id": "2016-11-08-018",

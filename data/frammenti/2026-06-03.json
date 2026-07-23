@@ -73,7 +73,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/4930475-M.jpg"
   },
   {
     "id": "2026-06-03-006",
@@ -186,14 +187,11 @@
     "end": 901.45,
     "speaker_raw": "SPEAKER_08",
     "testo": "Dei burri viso. Ok. Allora, ma io il burro, tu usi il burro in casa, cucini col burro tu? Beh, è davvero buono col burro. Sì, ma tu cucini col burro. Certo. Voi cucinate col burro, cari ascoltatori.",
-    "titolo": "Burri viso",
-    "tema": [
-      "musica",
-      "burro"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2026-06-03-015",
@@ -399,7 +397,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/10322868-M.jpg"
   },
   {
     "id": "2026-06-03-031",
@@ -418,14 +417,11 @@
     "end": 1472.0,
     "speaker_raw": "SPEAKER_08",
     "testo": "È comunque Tinder? No è Brand È come Tinder Sì però Sono quelle dove le donne iniziano loro No questo è Bumble Bumble è la donna che inizia la conversazione A New York Il mio amico di New York era su Bumble Quando tornavo a New York non lo vedevo più il mio amico Ah Perché quelle chat lì lavorava di brutto. Comunque Tinder, Bumble, Hinge. Hinge? Io dove dovrei andare? Te da nessuna parte. No, Gaia si chiama? Sul Raya.",
-    "titolo": "Bumble",
-    "tema": [
-      "relazioni",
-      "amore"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2026-06-03-033",

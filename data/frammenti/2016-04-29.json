@@ -520,14 +520,11 @@
     "end": 1647.39,
     "speaker_raw": "SPEAKER_01",
     "testo": "Un po' meno? Un po' meno, un po' meno. Meno meno, meno meno. Meno meno! No, meno meno, meno meno. Oddio, sei un grandissimo. E poi, vabbè, da lì passa Pippo Franco, poi c'è tutta una serie.",
-    "titolo": "La canzone di Pippo Franco",
-    "tema": [
-      "musica",
-      "famiglia"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-04-29-045",

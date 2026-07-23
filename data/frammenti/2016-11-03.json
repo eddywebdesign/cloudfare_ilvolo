@@ -378,7 +378,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/333d0d4f-4d32-421c-b23c-907388ba3069/front-250"
   },
   {
     "id": "2016-11-03-033",

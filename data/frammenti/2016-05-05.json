@@ -38,14 +38,11 @@
     "end": 203.71,
     "speaker_raw": "SPEAKER_03",
     "testo": "what a sound baby oh yeah questo è zucchero con partigiano reggiano chissà se si può fare una canzone anche col grana padano stavo pensando l'altro giorno frana padano frana padano si potrebbe fare la grana che per noi dalle nostre parti anche i soldi quello c'ha la grana si dice in tutta Italia c'ha la grana ma in realtà il napoletano non lo dice c'ha il grano magari c'ha il grano sì",
-    "titolo": "Grana Padano",
-    "tema": [
-      "musica",
-      "italia"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-05-05-004",
@@ -86,7 +83,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/2386392-M.jpg"
   },
   {
     "id": "2016-05-05-007",
@@ -101,7 +99,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/1331348-M.jpg"
   },
   {
     "id": "2016-05-05-008",
@@ -127,7 +126,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/5a1d7c11-b79e-460c-99e5-089141503e64/front-250"
   },
   {
     "id": "2016-05-05-010",
@@ -262,14 +262,11 @@
     "end": 914.82,
     "speaker_raw": "SPEAKER_03",
     "testo": "Che musica ascolti tu Igor Sibaldi quando sei a casa? Ovviamente niente perché sto lavorando. Però tendenzialmente hai dei dischi a casa?",
-    "titolo": "Musica preferita",
-    "tema": [
-      "musica",
-      "preferenze"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-05-05-021",
@@ -277,14 +274,11 @@
     "end": 923.09,
     "speaker_raw": "SPEAKER_10",
     "testo": "Canticchio. Una passione sono le canzoni degli anni 30. Addirittura 30? Sono bellissime.",
-    "titolo": "Canzoni degli anni 30",
-    "tema": [
-      "musica",
-      "storia"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-05-05-022",
@@ -303,14 +297,11 @@
     "end": 948.98,
     "speaker_raw": "SPEAKER_10",
     "testo": "Mamma mormona la bambina. piena di pianto agli occhi quella è una canzone di una tristezza non compri mai balocchi queste parole d'amore forse non si usano più mamma ma la canzone mia più bella sei tu mamma la bambina la canzone contro la mamma mai fatta in Italia mamma",
-    "titolo": "Mamma mormona",
-    "tema": [
-      "musica",
-      "amore"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-05-05-024",
@@ -895,7 +886,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/13161687-M.jpg"
   },
   {
     "id": "2016-05-05-073",
@@ -999,7 +991,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/11177363-M.jpg"
   },
   {
     "id": "2016-05-05-081",
@@ -1087,7 +1080,7 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true
   },
   {
     "id": "2016-05-05-088",

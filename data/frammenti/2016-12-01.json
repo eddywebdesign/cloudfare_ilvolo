@@ -386,14 +386,11 @@
     "end": 1597.01,
     "speaker_raw": "SPEAKER_03",
     "testo": "ripartirò è stato troppo in fretta e noi dobbiamo salutarci così l'ultimo treno della notte Ripartirai, non chiedermi se ritornerò Ti giuro questo adesso nemmeno io lo so",
-    "titolo": "Citazione brano L'ultimo treno della notte",
-    "tema": [
-      "musica",
-      "tiromancino"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-12-01-034",
@@ -640,7 +637,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/ced6c709-8452-44e9-a51f-4e45a9e34913/front-250"
   },
   {
     "id": "2016-12-01-055",

@@ -138,14 +138,11 @@
     "end": 497.22,
     "speaker_raw": "SPEAKER_10",
     "testo": "no no no no no gente anche nel mio mestiere gente proprio che siccome li conosco sono finti come la gioconda che c'è capito tutta quella finta bontà così mi innervosisce perché vorrei gridare invece allora oggi questo è il mio livello come siete curiosi Allora, vi ho portato un disco questa mattina che non avete mai sentito probabilmente a Radio DJ, perché insomma è sfuggito, però mette la serenità di una giornata di festa, se sei d'accordo. Cosa devo mettere? Ah no, vuoi mettere l'altro? Eh, lo metto. Vabbè, allora partiamo con un classicone. Eh sì. Vai, vai, vai. L'avete già riconosciuta?",
-    "titolo": "Disco inedito",
-    "tema": [
-      "musica",
-      "serenità"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2020-01-06-012",
@@ -159,7 +156,7 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true
   },
   {
     "id": "2020-01-06-013",
@@ -575,7 +572,7 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true
   },
   {
     "id": "2020-01-06-047",
@@ -583,13 +580,11 @@
     "end": 1898.16,
     "speaker_raw": "SPEAKER_16",
     "testo": "Sempre queste cose, queste pagliacciate, puoi scrivere in un foglio?",
-    "titolo": "pagliacciate",
-    "tema": [
-      "scrittura"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2020-01-06-048",
@@ -896,14 +891,11 @@
     "end": 2608.3,
     "speaker_raw": "SPEAKER_10",
     "testo": "Ascolterei con attenzione anche il testo di questa canzone che abbiamo messo a posto, abbiamo messo a posto. In sostanza chi non si evolve si ripete, scegliete voi con chi stare.",
-    "titolo": "Canzone di evoluzione",
-    "tema": [
-      "evoluzione",
-      "cambiamento"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2020-01-06-071",
@@ -982,14 +974,11 @@
     "end": 2890.61,
     "speaker_raw": "SPEAKER_14",
     "testo": "Cerco l'estate tutto l'anno e all'improvviso eccola qua. Ehi è partita per le spiagge e sono solo. qua su in città sento fischiare sopra i tetti un aeroplano che se ne va azzurro il pomeriggio è troppo azzurro è lungo per me mi accorgo di non avere più risorse senza di te E allora io quasi quasi prendo il treno e vengo, vengo da te. Il treno dei desideri, dei miei pensieri all'incontrario va. Sembra quando ero all'oratorio con tanto sole tanti anni fa Quelle domeniche da solo in un cortile a passeggiare Ora mi annoio più di allora, neanche ho prete per chiacchierare Azzurro, il pomeriggio è troppo azzurro e lungo",
-    "titolo": "Azzurro di Adriano Celentano",
-    "tema": [
-      "desiderio",
-      "distanza"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2020-01-06-078",
@@ -997,14 +986,11 @@
     "end": 2916.17,
     "speaker_raw": "SPEAKER_10",
     "testo": "quando mi ha chiamato l'altro giorno Adriano per chiedere una cosa che ho scritto nel libro che non aveva capito allora gli ho detto ti faccio gli auguri in anticipo e metterò un pezzo della tua canzone il giorno del tuo compleanno ma sa benissimo che non vi sentite e lui mi ha detto sei forte sei forte sei forte sei forte Salutami Fiora!",
-    "titolo": "Auguri a Adriano",
-    "tema": [
-      "musica",
-      "amici"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2020-01-06-079",

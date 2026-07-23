@@ -647,7 +647,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/3bd98127-f38b-4990-9415-ebb21b3e8086/front-250"
   },
   {
     "id": "2016-12-07-057",
@@ -694,7 +695,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/47a9be89-7a86-4f6b-8524-9ba62b7bc5ea/front-250"
   },
   {
     "id": "2016-12-07-061",
