@@ -115,10 +115,13 @@
     "end": 542.59,
     "speaker_raw": "SPEAKER_05",
     "testo": "Grande, grande Gaber. Questi sono gli U2 con Beautiful Day, un disco del 2000. Questo è il radio DJ, questo è il volo del mattino. Istituzionale. Ah yeah!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Beautiful Day",
+    "tema": [
+      "ottimismo"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "U2"
   },
   {
     "id": "2017-05-11-011",
@@ -742,9 +745,12 @@
     "end": 2419.13,
     "speaker_raw": "SPEAKER_01",
     "testo": "Se ascoltate il discorso degli innamorati sono discorsi deliranti, senza di te mi crolla il mondo, crolla il mondo senza di te. Freud dice giustamente che l'innamoramento è un delirio che ha l'unico pregio di essere breve, perché non dura un'eternità nel delirio erotico. non do l'eternità perché non abbiamo la curiosità di andare in fondo alla nostra follia o non abbiamo il coraggio di andare in fondo alla nostra follia grazie all'aiuto dell'altro grazie all'aiuto dell'altro perché si potrebbe stare insieme tutta la vita se da un lato non ci si esponesse reciprocamente dicendosi sempre la verità. E qui non sto dicendo delle falsificazioni, che bisogna ingannare l'altro, ma c'è una dimensione monakos, segreta, unica dentro di noi, magari ignota noi stessi. Onde evitare quella situazione per cui uno dei due come apre bocca, l'altro sa già quello che deve dire. Lì è già tutto finito ormai, allora bisogna mantenere una certa segretezza, una certa riservatezza. Io penso che il pudore, dicevamo prima, non è una faccenda di vesti e sottovesti, ma è anche una faccenda di mantenere qualcosa di esclusivamente nostro che leghi l'altro a una ricerca continua. Cioè avere la sensazione di non esaurire mai l'altro.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "delirio erotico breve",
+    "tema": [
+      "innamoramento",
+      "follia"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

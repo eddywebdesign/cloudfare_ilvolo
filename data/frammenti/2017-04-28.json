@@ -170,10 +170,13 @@
     "end": 987.67,
     "speaker_raw": "SPEAKER_01",
     "testo": "7 che è anche nei vinili ancora il top. Vi ricordate quelle stelle sul soffitto che accendevi la luce e poi le spegnevi e rimaneva tutto stellato? Sì, naturalmente. cippettata di 5000 lire c'era anche la stella cometa Natale la mettevo sulla Natale mettevo lì in cuffia sdraiato e ascoltavo The Dark Side of the Moon che è un album strepitoso ma a un certo punto tra una canzone e l'altra arrivava questa senti E io che non mi drogavo e avevo 17-18 anni, non mi ricordo, da ignorante dicevo ma canta, ma canterà, ma adesso inizia a cantare e invece capisci che anche questa è stata condizionata nella stesura. A un certo punto c'è una che cammina, senti. Cioè se non sei in botta questa non la puoi apprezzare proprio bene, bene fino in fondo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "The Dark Side of the Moon",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Pink Floyd"
   },
   {
     "id": "2017-04-28-016",
@@ -192,9 +195,12 @@
     "end": 1036.62,
     "speaker_raw": "SPEAKER_01",
     "testo": "Io dicevo... Parte, ora parte, ora parte. Finché un mio amico più grande di me, dandomi una pacca sulla spalla, mi ha detto, ascolta Raff. Torna a ascoltare Raff. Ti droghi, no? Ascolta Raff. Senti. senti lì no ma in cuffia è una botta poi mi sono già comunque mi sono un po' organizzato dopo vabbè l'abbiamo sentita ok ora possiamo lord secondo te lord invece è da lanciare cosa vuol dire da lanciare così no perché io continuo a fare",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "amico consigliava musica",
+    "tema": [
+      "amicizia",
+      "consiglio"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -390,9 +396,12 @@
     "end": 2378.74,
     "speaker_raw": "SPEAKER_04",
     "testo": "No, no, stavo leggendo, un disturbo che va a colpire la vista, legato nella maggior parte dei casi all'emicrania. Ah, quindi è proprio una cosa fisiologica.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "disturbo visivo",
+    "tema": [
+      "medicina",
+      "percezione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

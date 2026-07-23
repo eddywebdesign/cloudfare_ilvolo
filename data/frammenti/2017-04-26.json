@@ -60,10 +60,14 @@
     "end": 788.6,
     "speaker_raw": "SPEAKER_01",
     "testo": "Va bene, ma oggi perché? Difatti la Stevi scrive con due mani, punto di domanda. Allora, Maurizio, oggi il primo disco lo annunci tu, perché è un disco importante, vogliamo ricordare il complanno di una persona che ha, come dire, fatto e... rivoluzionato e inventato un genere la musica fino a oggi praticamente perché da lì è partito un po' tutto Giorgio Moroder italiano che ha cantato ha prodotto con tutti i più grandi del mondo tra cui questa e anche l'inizio di American Gigolo con quel bel patatone di Richard Gere vestito tutto Armani ciao tuo compagno ciao Giorgio Call me! Ah... ve lo ricordate questo film tanto l'abbiamo messo per ricordare Moro ma vi ricordate American Gigolo che lui praticamente iniziava con questa Mercedes a tutta aperta in quadratura dell'elicottero non c'erano i droni ai tempi con questa musica lui arrivava tutto vestito armani quelli lì marroncini poi li buttava sul letto ti ricordi? lo sai che non ho mai visto American Gigolo? c'è una scena dove lui si vanta di essere riuscito a far raggiungere a una donna molto anziana sono i bambini come stai cambiando? è natura ci ho messo tre ore ma ce l'ho fatta era la sua sfida a chi? a una sua cliente di una certa età l'impianto elettrico era un po' bloccato l'impianto idraulico e noi gli ha riattivato l'impianto idraulico diciamo e ha fatto la come dire quando annaffia i fiori scrive tutto da solo ma vecchio vecchio automatizzato ma è abbastanza insomma ma cosa vuol dire ora vecchio eh non è più ah siamo arrivati a quel punto relativizzare la vecchiaia beh questo è un tema è il tema del libro che sto scrivendo non vorrei snotolare dei segreti ma quanti temi ha tema libero allora ascoltate a proposito dei libri parliamo di una cosa molto bella anzi di due cose poi dopo l'apovistante di una terza cosa tutta legata un po' ai libri allora sul Corriere di Oggi",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Giorgio Moroder rivoluziona musica",
+    "tema": [
+      "musica",
+      "rivoluzione"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Giorgio Moroder"
   },
   {
     "id": "2017-04-26-006",
@@ -71,9 +75,12 @@
     "end": 828.75,
     "speaker_raw": "SPEAKER_02",
     "testo": "hai preso questo ritmo della radio di questi giorni no è che non sono pronta comunque sul Corriere di Oggi a pagina 27 panettone o pandoro via le chiamate si parla di questi due ricercatori di un'università di Londra che hanno ricreato l'odore dei libri antichi chimicamente ok e facendo testare questo odore a persone vecchie che l'avevano sentito persone sia giovani che vecchie tutti dicono che l'odore è simile a quello del legno e del cioccolato e del cioccolato perché io quando me l'hai detto stamattina ho detto a me ricorda più la pipì",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "odore libri antichi ricreato chimicamente",
+    "tema": [
+      "olfatto",
+      "libri"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -104,9 +111,12 @@
     "end": 979.78,
     "speaker_raw": "SPEAKER_01",
     "testo": "No, sono difetti nella costruzione della mia persona, per esempio quando ero singolo arrivava una ragazza a casa mia, il venerdì io avevo bisogno di sapere quando ripartiva, se riparti sabato, riparti domenica o lunedì mattina, perché così distribuisco... Ma glielo chiedevi direttamente? Certo, subito. Non è vero. Sì, dicevo guarda Google Checkout e alle ultime... se poi ti tengo le valigie ma devi essere fuori di casa purtroppo sì perché anche quando compri libri ci sono dei periodi in cui compro magari un libro grande altri invece che ne compro cinque più piccoli dipende vado a un momento ma ho bisogno di sapere dove inizia una cosa e dove finisce ma vai a vedere all'ultima pagina come funziona frase subito subito e l'assassino è giusto perché finiscono così i libri dicono che c'è una pagina fondamentale nei libri mi sembra che sia la 95 su gli ascoltatori che bisogna sempre aprire quella pagina per capire se un libro è bello o brutto ora mi vado a cercare questa cosa però esiste un'altra cosa molto bella legata ai libri si possono appunto riattivare gli odori adesso grazie a questi scienziati che come direbbero i miei amici a Brescia te che tu un cazzo te fa di persone che vanno a casa di analfabeti di solito anziani in questo caso sempre riportato sulla stampa pagina 26 no 27 26",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "curiosità relazioni passate",
+    "tema": [
+      "relazioni",
+      "curiosità"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -148,10 +158,14 @@
     "end": 1323.72,
     "speaker_raw": "SPEAKER_01",
     "testo": "esatto poi volevo dirvi che siccome fra un po' vi vorrei parlare velocemente di un libro meraviglioso perché l'avete sentito anche prima del trio è morto è morto Piercy che ha scritto appunto lo zene l'alte della manutenzione motocicletta non so se l'avete mai letto va letto assolutamente è un libro formativo ma è un libro fighissimo uno proprio che ho a casa tutto sottolineato è molto bello e tra le varie cose che dice questo libro tra le cose molto belle che dice questo libro dice non c'è nulla di più rivoluzionario che far bene ciò che si fa se ci pensate ha senso cioè all'inizio sembra un problema insomma cioè se ognuno fa il meglio che può quello che sta facendo fa il meglio che può quindi non c'è niente di più rivoluzionario che far bene ciò che si fa il che significa che se non fai bene ciò che fai perché non hai voglia così vuol dire che non è il tuo mestiere quindi devi farne un altro perché serve che tu faccia una cosa fatta bene ma chi te lo dice se lo stai facendo bene? Lo capisci? Voi che siete andati a scuola un po' meno, perché voi avete sempre bisogno che uno vi dica 7, 8, 15, 22, perché voi non avete questa forma mentis del in base a quanto mi impegno, ma in base a quanto prendo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Lo Zene della Manutenzione Motocicletta",
+    "tema": [
+      "libri",
+      "consigli"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Piercy"
   },
   {
     "id": "2017-04-26-014",
@@ -324,10 +338,13 @@
     "end": 1775.23,
     "speaker_raw": "SPEAKER_03",
     "testo": "Il primo libro che ho letto, nel senso è iniziato due anni fa così, non sapevo cosa fare, ho detto proviamo, perché leggevo ad altavoce con i bambini e invece ho provato con gli anziani e il primo libro che gli ho letto è stato il libro Cuore.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Cuore",
+    "tema": [
+      "educazione"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Edmondo De Amicis"
   },
   {
     "id": "2017-04-26-030",

@@ -71,9 +71,12 @@
     "end": 212.64,
     "speaker_raw": "SPEAKER_06",
     "testo": "La pelaca è... no, ma non si può dire, esatto, va bene. Buongiorno ragazzi, buongiorno a tutti, benvenuti. Che dire, sta per cominciare una nuova settimana. Allora, per esperienza personale, un giorno durante un viaggio meraviglioso in, diciamo, nelle zone asiatiche, ok? Incontrai, non in un tempio come tutti, nei fin così, ma semplicemente in un bed and breakfast, ok? Un signore che aveva avuto una sessantina, ok? E sai quelle mattine che ti svegli e boom fai cadere il latte? Poi sai che ci sono dei giorni che tu un pane ti cadono le cose, dai la cipollata. Cos'è la cipollata? Cipollata è quando l'alluce è l'altro dito del piede, il secondo, non mi ricordo mai come si chiama, perché hanno i nomi. Sì, sì, sì, non mi ricordo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "viaggio asiatico bed and breakfast",
+    "tema": [
+      "viaggio",
+      "esperienza"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -148,9 +151,12 @@
     "end": 680.21,
     "speaker_raw": "SPEAKER_06",
     "testo": "Avevo trovato una mail o un messaggio di un ascoltatore che erano di quelli proprio che ho appena descritto, cioè gli si è rovesciato il latte, il caffè, si è rotta la tazza, disastro e quindi insomma a quella persona lì. Abbiamo un sacco di gente già che ci ha scritto che vuole realizzare dei sogni, ovviamente ragazzi dovete scriverci con sogni realizzabili al momento. ho capito però se io ho un sogno bello ciccioso cosa faccio adesso io alle 9 del lunedì mattina mi metto a far studiare uno l'astrofisica un punto di vista per esempio signore e signori abbiamo Luca da Milano buongiorno 30 anni corriere buongiorno buongiorno buongiorno Fabio allora leggo il tuo messaggio Luca posso? ah si leggilo leggilo ciao Fabio mi chiamo Luca ho 30 anni mi piacciono un sacco gli uomini soprattutto quelli con i peli sulla schiena mi piace far la treccia e mettere i corallini in fondo all'altezza dei lombari quindi il sogno è?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "gestire stress positivamente",
+    "tema": [
+      "stress",
+      "positività"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -764,9 +770,12 @@
     "end": 2606.89,
     "speaker_raw": "SPEAKER_06",
     "testo": "Ah, una vecchia, una vecchia. hai già ogni tanto le dita delle maniche che ti si incartano un po' a me succede con una piccola leggera artrosi un po' di artrosi quando scrivo il libro intanto il mignolo mi si incarta un po' e ti rimane su raffinato invece quando vado un po' in stress non so se ti succede Sara quando vado un po' in stress che sono sotto pressione così ho sotto l'occhio destro mi bolla la borsa la palpebra ma mi bala la palpebra allora cara Sara tu hai mandato un messaggio non per un tuo sogno ma per il sogno di tuo padre",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "dita che si incartano",
+    "tema": [
+      "stress",
+      "scrivere"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -786,10 +795,13 @@
     "end": 2630.44,
     "speaker_raw": "SPEAKER_06",
     "testo": "Ecco, qui siamo un po' Pina al venerdì e De Filippi, quando è che faccio il posto? Il sabato. Il sabato, sì. Qui siamo tra il venerdì della Pina e il sabato della De Filippi. Allora, a me piacerebbe realizzare un sogno, un'altra persona, cioè mio papà. Lui è un professore di italiano in pensione, ma è anche uno scrittore. Ha scritto un libro, secondo me, bellissimo. È un romanzo o un saggio o un autobiografico?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "in tre, storia di un numero quasi perfetto",
+    "tema": [
+      "scrittura"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "papà professore"
   },
   {
     "id": "2017-05-08-072",

@@ -170,10 +170,14 @@
     "end": 706.15,
     "speaker_raw": "SPEAKER_06",
     "testo": "Ma io la gestione del radio locale, di radio DJ, la provincia mi fa impazzire che noi abbiamo gli ascoltatori che riconosciamo. Scusami Sara, ieri il tuo papà ha detto che il suo sogno era che almeno 20 persone leggessero il suo libro. Scaricassero il suo libro. Ha venduto 80 copie. Bravissimo! abbiamo realizzato un sogno non abbiamo i mariachi qualcosa che ci fa un po' di allegria l'accentio abbiamo realizzato un sogno Sara te lo faccio dire a te vai a dire che hai realizzato un sogno grazie Fabio ho realizzato un sogno ciao belli e tuo papà era contento che abbiamo sì mio papà era emozionatissimo detto che ce la stava facendo addosso bello bello bello adesso domenica è da Fazio a presentare ascoltami voglio ringraziare di cuore tutti gli ascoltatori del volo del mattino questi 80 probabilmente 79 sono del volo del mattino che hanno preso il libro ha fatto 80 euro babbo ridendo e scherzando va bene ricordiamo il titolo dice la Stefi così arriviamo a 100 100 si intitola a 100 mio papà mi offre la pizza posso dire che siccome ti costa di più la pizza che metterci 20 euro per arrivare a 100 comprali tu ok si intitola il libro ok in tre storia di un numero quasi perfetto bravissimo grazie agli ascoltatori grazie Sara abbiamo realizzato un sogno sono contento e grazie a Franco Battiato che ha il cognome dell'ascoltatore Alessandro grazie a te senti che roba comunque dobbiamo parlare di Obama ma no ma il papà di Sara era più ma non diciamo le parolacce",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "sogno realizzato",
+    "tema": [
+      "successo",
+      "libri"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "papà di Sara"
   },
   {
     "id": "2017-05-09-016",
@@ -610,9 +614,11 @@
     "end": 2117.73,
     "speaker_raw": "SPEAKER_11",
     "testo": "I see the girls walk by dressed in their summer clothes I have to turn my head until my darkness goes I see a line of cars and they are painted black With flowers and my love hope never to come back I look inside myself and see my heart is black I see my red door, I must have it into black Maybe then I'll fade away and not have to face the facts It's not easy facing up when your whole world is black No more will my green seagull turn a deeper blue",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Painted Black",
+    "tema": [
+      "colore"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {

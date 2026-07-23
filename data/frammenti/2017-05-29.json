@@ -16,9 +16,11 @@
     "end": 249.45,
     "speaker_raw": "SPEAKER_10",
     "testo": "Vedere via Skype il sorriso di Viola quando canta Brunori, capito? Parigi val bene una messa. Sai che c'è questo detto che non ho mai indagato esattamente cosa volesse dire, ma mi è sempre piaciuto. Parigi val bene una messa. Siete gente che riesce a googlarlo velocemente. Certo, lo sto già googlando.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Parigi val bene una messa",
+    "tema": [
+      "viaggio"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -379,9 +381,11 @@
     "end": 1232.54,
     "speaker_raw": "SPEAKER_01",
     "testo": "va bene comunque abbiamo scoperto un altro metodo che si chiama il metodo 478 in realtà viene fuori ogni tanto sai quelle gallerie virali sulla colonnina destra dei giornali comunque vuoi provarlo adesso?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "metodo 478",
+    "tema": [
+      "sonno"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -577,10 +581,14 @@
     "end": 1956.93,
     "speaker_raw": "SPEAKER_09",
     "testo": "Will Smith, ma Will Smith è quello quello del principe di Bel Air bravo lui sentiamo è irrealistico pensare di entrare in una stanza premere un interruttore e avere la luce questo è irrealistico fortunatamente Edison la pensava diversamente è irrealistico pensare che puoi piegare un pezzo di metallo e far volare persone sopra l'oceano in quel pezzo di metallo questo è irrealistico è impossibile, non succederà mai non è fattibile Nell'istante in cui lo dichiari, ecco che l'hai appena reso possibile. I nostri pensieri, i nostri sentimenti, i nostri sogni, le nostre idee si materializzano nell'universo. L'universo non ci prende in giro. Se non lasciamo che il mondo, le persone, le situazioni, gli ostacoli non ci sottomettano, allora noi riusciremo a piegare l'universo, a domandare, comandare che l'universo diventi quel che vogliamo che sia. Ho studiato il modo in cui l'universo agisce. C'è una sorta di potere rededitore. intrinseco al prendere una decisione, invece di sentirti condizionato dalle circostanze che hai in tu. Prendi una decisione, semplicemente scegli quel che succederà, chi diventerai, come riuscirai a farcela. Prendi una decisione e da quel punto in poi l'universo si toglierà di mezzo. È come l'acqua, vuole muoversi e raggirare gli ostacoli, capisci? Esiste una sorta di corrente nell'universo che, in qualche modo, bisogna imparare a navigare.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Principe di Bel Air",
+    "tema": [
+      "realismo",
+      "sogni"
+    ],
+    "tipo": "riferimento_film",
+    "video_url": "",
+    "autore": "Will Smith"
   },
   {
     "id": "2017-05-29-053",
@@ -764,10 +772,13 @@
     "end": 2860.22,
     "speaker_raw": "SPEAKER_10",
     "testo": "cerca, scrivi Little Steven Bitter Fruit Bitter Fruit non vi ricordate questa canzone? po. Viola.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Bitter Fruit",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Little Steven"
   },
   {
     "id": "2017-05-29-070",

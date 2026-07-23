@@ -49,10 +49,13 @@
     "end": 307.68,
     "speaker_raw": "SPEAKER_04",
     "testo": "Voi ricordatevi Gomito? Non vi sbagliate. Elbow con Gentle Storm. Un disco bellissimo, tutto il disco. È molto bella anche. Ma fa delle date in Italia? Non lo so. È venuto Radio DJ a parlarne? Non credo. Non credo. Aspettiamo, aspettiamo che venga e ci racconta tutto quello che ha vissuto per poter poi... nella lista degli ospiti non c'è perché io vado sempre a scartavellare perché noi abbiamo sempre poca gente ma i nostri ospiti sono lo psicoterapeuta Sibaldi noi ci curiamo quando vengono gli attori o i cantanti la puntata si spegne un po' perché non li sappiamo gestire capito? va bene sei qui siamo qui oggi veramente lo dico lo so che lo dico sempre però oggi sentirete delle parole lo dico perché non le dico io per cui vi posso vantare delle parole dette da gente intelligente che vi faranno riflettere molto sulla vostra relazione con voi stessi con il mondo con il lavoro con la vostra compagna compagno che è il che lei sigla",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Gentle Storm",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Elbow"
   },
   {
     "id": "2017-05-03-005",
@@ -269,10 +272,13 @@
     "end": 1085.1,
     "speaker_raw": "SPEAKER_08",
     "testo": "I can hear it now like I heard it then I can hear it now like I heard it then",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "I Can Hear It Now",
+    "tema": [
+      "memoria"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Annie Lennox"
   },
   {
     "id": "2017-05-03-025",
@@ -456,10 +462,14 @@
     "end": 1618.72,
     "speaker_raw": "SPEAKER_00",
     "testo": "Nel 1990 ha tagliato a metà una mucca, l'ha messa in forma al veide e soprattutto ha messo uno squalo, quella è stata l'opera più famosa in assoluto, tu entravi nella galleria Sacci perché Sacci era stato il suo grande sponsor e vedi questo squalo a bocca aperta e rimanevi bloccato, un'operazione un po' concettuale. La mucca era vera? Era vero, tutto vero, tutto assolutamente vero, lui insomma in quegli anni era veramente forte, poi è stato un grandissimo perché ha giocato anche con il sistema dell'arte, a un certo punto ha preso un teschio, l'ha tempestato di diamanti, ne ha messi più di 8 mila, ma non li ha venduto, non li ha venduto.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "squalo a bocca aperta",
+    "tema": [
+      "arte",
+      "opera"
+    ],
+    "tipo": "riferimento_film",
+    "video_url": "",
+    "autore": "Damien Hirst"
   },
   {
     "id": "2017-05-03-042",
@@ -500,10 +510,14 @@
     "end": 1821.01,
     "speaker_raw": "SPEAKER_00",
     "testo": "Bravissimo, è un Luna Park del fake, tu entri lì dentro e non capisci più niente, ti trovi in mezzo a questi reperti e a un certo punto però qualcosa non funziona, perché c'è un orso gigantesco. Con su una guerriera, tutto ovviamente in bronzo con spugne, con coralli, come se fosse stato ritrovato dal mare. Però cammini, cammini e ancora lì ci sono statue greche, egizie, di oro. Tutte fatte da lui. Tutte fatte da lui e a un certo punto ti trovi il busto di un collezionista con... a per mano questo signore Mickey Mouse un topolino anche loro ritrovati dal mare inizia a capire che ci sono dei crash temporali strampalati e ovviamente capisci che sei dentro un mondo luna parte ma che bella idea che ha avuto sarà un lavoro di anni immagino 10 anni per fare questa mostra per ritornare alla grande con un occhio strizzato verso il mercato perché queste opere costeranno tantissimo ma anche una grande operazione concettuale in questo momento delle fake news è sempre anticipare tutte queste cose è molto molto divertente ovviamente sono quelle mostre che ad alcuni piacciono tantissimo ad altri un po' meno altri ci vedono solo un'operazione meramente commerciale però andate e lasciatevi prendere fino a quanto resta lo sai? Tutta l'estate Siamo avanti e quindi si continua.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Luna Park del fake",
+    "tema": [
+      "falso",
+      "confusione"
+    ],
+    "tipo": "riferimento_film",
+    "video_url": "",
+    "autore": "Damien Hirst"
   },
   {
     "id": "2017-05-03-046",
@@ -720,9 +734,11 @@
     "end": 2408.34,
     "speaker_raw": "SPEAKER_09",
     "testo": "This is a man's world This is a man's world But it wouldn't mean nothing You see, man made the cars to take us over the road Man made the train to carry the heavy load Man made the electrolyte to take us out of the dark ... ... ... ... ... Cos'è? not one little thing without a woman or a girl he's lost in the wilderness he's lost",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "This is a man's world",
+    "tema": [
+      "uguaglianza"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -786,10 +802,13 @@
     "end": 2590.49,
     "speaker_raw": "SPEAKER_05",
     "testo": "C'era un artista italiano che si chiamava Alberti, che ha definito la bellezza. Ha detto che è la somma di tutte le parti messe insieme in maniera tale che non è necessario aggiungere, né togliere niente, né alterare. Questo sì.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Definizione di bellezza",
+    "tema": [
+      "belleza"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Alberti"
   },
   {
     "id": "2017-05-03-072",

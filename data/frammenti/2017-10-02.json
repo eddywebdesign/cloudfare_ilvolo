@@ -148,10 +148,14 @@
     "end": 430.03,
     "speaker_raw": "SPEAKER_18",
     "testo": "Jack Lamotta era più di una leggenda della box, la sua vita da film è stata portata a Hollywood da Martin Scorsese.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Raging Bull",
+    "tema": [
+      "boxe",
+      "vita"
+    ],
+    "tipo": "riferimento_film",
+    "video_url": "",
+    "autore": "Martin Scorsese"
   },
   {
     "id": "2017-10-02-014",
@@ -302,9 +306,12 @@
     "end": 1266.61,
     "speaker_raw": "SPEAKER_02",
     "testo": "l'avete vista quella cosa che gira su inter di sto ragazzo che è a Parigi davanti alla Torre Eiffel e si inginocchia per allacciarsi la scarpa vabbè ma sono freddo cosa fa? lui si inginocchia per allacciarsi la scarpa e lei no mi fa piacere è tutta emozionata perché è convinta che lui l'abbia portata a Parigi per chiedergli di sposare",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "proposta di matrimonio a Parigi",
+    "tema": [
+      "matrimonio",
+      "viaggio"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -379,10 +386,11 @@
     "end": 1619.59,
     "speaker_raw": "SPEAKER_02",
     "testo": "Charlotte Gainsbourg, Deadly, Valentine, Radio DJ, questo è il volo del mattino, la prima puntata. di una lunga stagione, una grandissima stagione abbiamo sbagliato il primo disco ma non fa niente un ragazzo dice ciao sono Andrea bentornati mi spiace ho fatto tardi mi sono perso la prima mezz'ora Andrea io te lo dico non si ripeterà mai più una cosa così bella nel mondo ti sei perso il top c'è il reload bravo bravo bravo c'è il reload ma non è la stessa cosa come la diretta Quando tu ascolti le cose registrate è come quando scegli tra Netflix o dalla TV. Inconsciamente quando tu sei sul divano e guardi un programma per esempio su Rai 1, Canale 5, sai che in quel momento c'è altra gente che lo sta guardando e anche se non ci pensi inconsciamente sai che sei collegato. Invece quando tu ti guardi la tua cosina è la tua cosina. e non sei collegato agli altri è proprio il tuo momento c'è un rapporto più intimo dai sì però poi anche il giorno dopo al bar dici ieri sera capito perché dovresti avere uno che la sta guardando in quel momento come sei polemico ah avevo fatto un'analisi psicologica dei mezzi di comunicazione ma abbiamo Giovanni da Montpellier wow Maurizio questo è il tuo ascoltatore parla francese a Montpellier parli francese perfettamente Giovanni",
-    "titolo": "",
+    "titolo": "Charlotte Gainsbourg - Deadly Valentine",
     "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Charlotte Gainsbourg"
   },
   {
     "id": "2017-10-02-035",
@@ -390,9 +398,12 @@
     "end": 1629.86,
     "speaker_raw": "SPEAKER_18",
     "testo": "Eh beh ormai sì perché quando sono arrivato nel 2001 non parlavo una virgola di francese, pensavo di cavarmela con l'inglese ma qua non parla nessuno.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "primo giorno a Parigi",
+    "tema": [
+      "lingua",
+      "francia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

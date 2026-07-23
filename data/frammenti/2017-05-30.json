@@ -60,9 +60,9 @@
     "end": 292.35,
     "speaker_raw": "SPEAKER_13",
     "testo": "Buongiorno vita Buongiorno mondo Che la farai? Che la farai? Che te la fai?",
-    "titolo": "",
+    "titolo": "Buongiorno vita",
     "tema": [],
-    "tipo": "",
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -511,10 +511,13 @@
     "end": 1690.03,
     "speaker_raw": "SPEAKER_08",
     "testo": "esatto, una poesia contro l'ansia volevo capire se era un messaggio che dovevo capire in quanto vostro collega di lavoro o se invece era solo per sapere ma Viola ha trovato su l'internazionale della scorsa settimana una poesia che si chiama Poesia contro l'ansia di Ilma Racusa, hai mai sentito parlare di questa poetessa e scrittrice slovacca del 46?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Poesia contro l'ansia",
+    "tema": [
+      "ansia"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Ilma Racusa"
   },
   {
     "id": "2017-05-30-047",

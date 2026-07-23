@@ -16,10 +16,13 @@
     "end": 415.99,
     "speaker_raw": "SPEAKER_10",
     "testo": "buongiorno a tutti questa è Radio DJ sta per cominciare il volo del mattino mentre andava questa canzone Rovazzi Gianni Morandi volare è venuta la stellina e mi ha detto ricorda un po' il primo Bruce lei è una super fan di Bruce Springsteen dice che trova delle affinità sulle melodie i suoni ovviamente questi sono più moderni però le melodie la pasta del New Jersey si vorrebbe dire allora allora abbiamo un ascoltatore che scrive che è arrabbiato e che dice che dobbiamo pensarci noi noi abbiamo deciso nell'ultimo periodo che non possiamo andare lì a fare porta a porta toc toc a tutti gli ascoltatori abbiamo fatto una riunione questa mattina abbiamo abbiamo fatto una scaletta abbiamo impacchettato e confezionato un programma di 45-50 minuti che per noi è difficilissimo metterci dentro in 45 minuti e tenere lo standard io lo dico sempre, lo racconto perché sembra assurdo per chi non fa la radio è molto più difficile fare un programma di un'ora che fare un programma di due ore perché un programma di due ore ha il tempo di raccontare una storia di fare un approfondimento il programma di un'ora tu dici una cosa va a un disco pubblicità non riesci mai quindi noi siamo dei supereroi quel giorno che dovessimo mai fare due ore con la mano sinistra vendati con la mano sinistra allora adesso facciamo così mettiamo la sigla e poi andiamo a risolvere solo velocemente il problema a questa ascoltatrice o ascoltatore sono già tre incazzati dice la Stefi ma che ci avete ragazzi è martedì 23 maggio mica il 2 novembre e su Sono arrabbiato. Ma perché sono arrabbiato? Mi dispiace. Mi posso leggere? Senza fare della demagogia, senza fare la radio del dolore, senza fare dei piagnistei stupidi banalotti. Mi posso leggere un messaggio di Mirko? Perché Mirko io non lo conosco, ma so dal messaggio che mi permette di leggerlo. Che dice, ciao Fabio, parlo anche per quelli già incazzati, così strendiamo. Ce l'abbiamo Eleonora da Palermo? Ce l'abbiamo, aspetta. ciao Fabio mi fai gli auguri oggi compio tre anni come? aspetta esatto tre anni dalla donazione di Midollo auguri a chi è ancora in vita grazie a un dono di uno sconosciuto capito Mirko abbiamo un attimo abbassato la scala delle incazzature esatto ok quindi grande Mirko e bene ridimensioniamo adesso andiamo un attimo a Palermo con Eleonora Eleonora, adesso dopo che ti ho letto il messaggio di Mirko, che è contento e felice di esistere al mondo Adesso, sì, guarda, ti volevo il messaggio di Mirko, adesso cambiamento, forse Sono quelle situazioni, sai, quelle situazioni che proprio prima di te succede una cosa e dici, no vabbè, adesso che facciamo Come stai Eleonora?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Volare",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Gianni Morandi"
   },
   {
     "id": "2017-05-23-002",
@@ -126,9 +129,11 @@
     "end": 572.49,
     "speaker_raw": "SPEAKER_10",
     "testo": "se non vuoi farmi avere problemi in famiglia meglio che non ti racconti cosa sia successo questo mattino e ride è una bella risata probabilmente a lei andava qualcosa il marito era di fretta non gli andava poi anche a dieta non c'era le forze ha detto sentiamo docino docino docino nella doccia va bene Eleonora comunque metteremo un bel disco così ti cambiamo la giornata grazie Fabio un bacio ciao a tutti buongiorno Tassinaro da Roma buongiorno la lobby dei tassisti come stai Paolo? benissimo ok dice la Stefi che probabilmente ti conosce che tu sei molto contento e sei il re delle barzellette a posto sulle barzellette no non me conosce allora ah no facciamoci dire una barzelletta dice no sono felicissimo ho detto ah tu sei contento chiami perché sei contento io sì ma c'è un motivo c'è un motivo? no c'è il sole sto in mezzo al traffico in una bella città chiude così che vuoi fare no il traffico è il traffico così hai tempo per ascoltare la radio va bene comunque mettiamo una bella canzone e facciamo felici tutti va bene? perfetto ciao Paolo ciao ciao ciao ciao ciao chi se lo aspettava sono quelle radio locali no? radio babbaluba cos'è? non lo so quelle radio lì radio cioccolatino",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Problema mattutino",
+    "tema": [
+      "famiglia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -555,9 +560,12 @@
     "end": 2328.59,
     "speaker_raw": "SPEAKER_00",
     "testo": "Giovanni Falcone è un eroe, costretto a vivere 16 ore su 24 in un piccolo ufficio di acciaio e cemento per lottare contro la mafia, non può assaporare i piccoli piaceri della vita quotidiana. È vero quello che dicono?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Giovanni Falcone",
+    "tema": [
+      "eroismo",
+      "privacy"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -599,9 +607,12 @@
     "end": 2355.93,
     "speaker_raw": "SPEAKER_00",
     "testo": "Lei ha detto, il vigliaco muore più volte al giorno, il coraggioso una volta sola. Questo significa che non ha paura?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Vigliacco vs Coraggioso",
+    "tema": [
+      "coraggio",
+      "paura"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -764,10 +775,13 @@
     "end": 2815.56,
     "speaker_raw": "SPEAKER_08",
     "testo": "Però, ecco. Grazie a chi compra i libri di Fabio Polo. Non sono capace di venirne fuori, questa cosa. Che cazzo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "libri di Fabio Polo",
+    "tema": [
+      "letture"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Fabio Volo"
   },
   {
     "id": "2017-05-23-070",

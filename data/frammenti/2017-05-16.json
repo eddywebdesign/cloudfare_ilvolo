@@ -632,9 +632,12 @@
     "end": 1262.43,
     "speaker_raw": "SPEAKER_07",
     "testo": "lui mi ha riguardato poi io l'ho guardato di nuovo e lui si è avvicinato ha fatto finta di guardare il banco e poi si è allontanato mi ha toccato le tette e è scappato scusa, fermi un attimo Alice chiedo a Maurizio e a Viola che loro guardano sia Issa e Dani potrebbe essere il ragazzo della parrucchiera che poi con calma è andato a volare che lui va in giro a fissare le donne può essere lo stesso come era vestito?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "incidente in macelleria",
+    "tema": [
+      "sorprendente",
+      "incontro"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1028,10 +1031,14 @@
     "end": 2455.91,
     "speaker_raw": "SPEAKER_05",
     "testo": "cerco i miei sogni e non mi ritrovo più non apro gli occhi per chiamarti indietro e rivedere la mia fantasia ha finito il libero e sto contento quando mi parli dentro Sto contento Quando mi parli dentro Il mondo è storto Aspetta in coda Ho messo un semaforo Provo a montarlo con un sorriso E' solo ciò che so Il mondo è un cannibale Ho finito E spero Sto contento",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "cerco i miei sogni",
+    "tema": [
+      "sogni",
+      "riflessione"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Litfiba"
   },
   {
     "id": "2017-05-16-094",
@@ -1094,10 +1101,13 @@
     "end": 2626.09,
     "speaker_raw": "SPEAKER_07",
     "testo": "Che meraviglia, che meraviglia. Bene, bene, questi sono i Litfiba. Grazie a tutti voi. Arrivano anche messaggi bellissimi alla puntata sui libri. Sono contento perché comunque è un tema importante che ci tira anche un po' su. Avevo anche un foglio qui con una piccola poesia di sei righe che ho trovato ieri tra uno dei personaggi. Non ci interessa. Non ti interessa la poesia, Maurizio?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "poesia di sei righe",
+    "tema": [
+      "poesia"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Fabio Volo"
   },
   {
     "id": "2017-05-16-100",

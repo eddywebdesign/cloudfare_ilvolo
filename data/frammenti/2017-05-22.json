@@ -379,9 +379,11 @@
     "end": 1284.46,
     "speaker_raw": "SPEAKER_05",
     "testo": "La statua della mia libertà si muove. Una marea che non si ritirerà si muove. La statua della mia libertà si muove.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La statua della mia libertà",
+    "tema": [
+      "libertà"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {

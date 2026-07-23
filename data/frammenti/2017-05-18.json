@@ -5,10 +5,13 @@
     "end": 18.02,
     "speaker_raw": "SPEAKER_01",
     "testo": "Buongiorno a tutti, sta per cominciare il volo del mattino, questi sono Angus e Julia Stone con Big Jet Plane, un disco del 2010. Per iniziare bene, buona giornata.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Big Jet Plane",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Angus e Julia Stone"
   },
   {
     "id": "2017-05-18-001",
@@ -82,9 +85,11 @@
     "end": 282.98,
     "speaker_raw": "SPEAKER_01",
     "testo": "Perché tu mi conosci veramente, quindi sai quanto cazzaro sono nella vita. Ieri addirittura su Twitter o sulla mia pagina Instagram, che ora non ricordo, Volo Fabio, c'è un ragazzo, un ascoltatore che ha fatto una vignetta molto divertente e ha messo il volo del mattino e una radiolina sul lettino dello psicologo dicendo che ascoltare il volo del mattino per qualcuno è una seduta... è vero tra l'altro dura esattamente quanto una seduta d'analista me l'ha detto la mia ok ok allora Eleonora di Reggio Emilia non so se vuole venire in onda Eleonora ma tu te la senti di dircelo in onda?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "vignetta ascoltatore",
+    "tema": [
+      "psicologo"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -764,10 +769,14 @@
     "end": 2099.42,
     "speaker_raw": "SPEAKER_11",
     "testo": "Even when the dog is too old to bark And when you're sitting at the table trying not to stop A house is a home Even when we've up and gone Even when you're there alone house is a home even when there's ghosts even when you gotta run from the ones who love you most scream doors broken paints peeling from the wood locals whisper when they're gonna leave the neighborhood a house is a home even when we've up and gone even when you're there alone A house is a home where the chores are never done Where you spend your whole life running to and from And if the life that you live is not the life you choose Make your child a home and start anew",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Even When the Grass Is Overgrown",
+    "tema": [
+      "casa",
+      "solitudine"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Ben Harper"
   },
   {
     "id": "2017-05-18-070",
@@ -863,10 +872,14 @@
     "end": 2292.43,
     "speaker_raw": "SPEAKER_01",
     "testo": "Ce lo scrive la... Ah, scusate, è una brutta notizia, così finiamo proprio in bruttezza. È appena morto il cantante dei Soundgarden. C'hai un pezzo dei Soundgarden, Maurizio? Una morte improvvisa in attesa, a Detroit è morto Chris Nonner, voce dei Soundgarden. Non so. Aveva 52 anni. Cos'hai dei Soundgarden? Black Hole Sun. Va bene, Black Hole Sun, va bene, va bene, dai.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Black Hole Sun",
+    "tema": [
+      "morte",
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Soundgarden"
   },
   {
     "id": "2017-05-18-079",

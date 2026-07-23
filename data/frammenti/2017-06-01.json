@@ -159,10 +159,14 @@
     "end": 468.61,
     "speaker_raw": "SPEAKER_08",
     "testo": "ragazzi allora facciamo così mettiamo un disco di quelli che vi salutano belli cioè che iniziano a fare la giornata bene adesso ho buttato delle parole voi le mischiate e potete fare la versione cos'è cos'è grammaticale guarda cosa vi ho scelto ragazzi lacrime per la paura loro si chiamano tears for fear sono everybody wants to rule to rule the world the world Che meraviglia! Era il 1985.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Tears For Fear - Everybody Wants To Rule The World",
+    "tema": [
+      "musica",
+      "80s"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Tears For Fear"
   },
   {
     "id": "2017-06-01-015",
@@ -819,9 +823,12 @@
     "end": 2643.59,
     "speaker_raw": "SPEAKER_08",
     "testo": "C'è praticamente, c'è questa immagine stupenda, meravigliosa che avevo visto tanti anni fa, che a un certo punto c'era una ragazza che aveva un problema, aveva una stampella, aveva questa stampella e camminava con la stampella e a un certo punto ho incontrato uno, c'era la stampella anche lui, si sono guardati, si sono capiti subito, ha detto cazzo fessano tutta la vita con la stampella, a un certo punto si sono abbracciati e riuscivano ad andare più veloce, capito?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "incontro con la stampella",
+    "tema": [
+      "comprensione",
+      "solidarietà"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

@@ -38,10 +38,14 @@
     "end": 277.3,
     "speaker_raw": "SPEAKER_02",
     "testo": "Tutte le famiglie felici si assomigliano fra loro. Ogni famiglia è infelice e infelice a modo suo. Eh? Che mattone. Bello. Cos'è? È il mio collega Tolstoi. Ah. Anna Caret, l'incipio più famoso degli incipi del mondo. e tra l'altro è un incipit è esatto è considerato uno degli incipit più famosi insieme a quello di nel mezzo del cammin di nostra vita forse sono i due incipit più famosi altri incipit che ti ricordi? no questi due diciamo su quel ramo del lago no potrebbe essere bravo però questi sono quelli proprio più famosi sì A questo punto apriamo un dibattito, cioè apriamo una discussione con i nostri ascoltatori. Siete d'accordo con Tolstoi? Siete d'accordo con questo incipi di Anna Carina, cioè che tutte le famiglie felici si assomigliano, ma invece le famiglie infelici, ognuna infelice a modo suo?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Anna Karenina",
+    "tema": [
+      "famiglia",
+      "infelicità"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Leo Tolstoy"
   },
   {
     "id": "2017-05-24-004",
@@ -643,9 +647,11 @@
     "end": 2483.74,
     "speaker_raw": "SPEAKER_04",
     "testo": "Lay across my big grass bed Lay lady lay Lay across my big grass bed Whatever colors you have In your mind I'll show them to you And you'll see them shine Lay lady lay Lay across my big breast bed Stay lady stay Stay with your man a while ... ... ... ... ... ... ... ...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Lay lady lay",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {

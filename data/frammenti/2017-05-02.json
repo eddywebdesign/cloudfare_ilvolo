@@ -269,10 +269,13 @@
     "end": 851.16,
     "speaker_raw": "SPEAKER_07",
     "testo": "questo è David Bowie con Let's Spend the Night Together il periodo in cui si pasticciava con Mick Jagger",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Let's Spend the Night Together",
+    "tema": [
+      "relazione"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "David Bowie"
   },
   {
     "id": "2017-05-02-025",
@@ -280,9 +283,12 @@
     "end": 879.57,
     "speaker_raw": "SPEAKER_01",
     "testo": "la moglie entra in camera da letto e trova Mick Jagger e David Bowie a letto e non hanno mai capito si erano addormentati chiacchierando tutta notte probabilmente anche drogandosi un po' e non si è mai capito se avessero una relazione o se invece erano solo lì che si erano buttati sul letto",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Mick Jagger e David Bowie in camera",
+    "tema": [
+      "amore",
+      "droga"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -346,10 +352,14 @@
     "end": 1087.62,
     "speaker_raw": "SPEAKER_01",
     "testo": "girano voci giù al bar giù allo spaccio i ragazzi dicevano che era uno stronzo nei suoi temi nei suoi libri soprattutto nell'idiota c'è proprio una cosa dove lui dice che la pietà forse è l'unica legge sana diciamo che l'uomo a cui deve rispondere pietà inteso non mi fai pietà ma è sempre come compassione cioè riuscire a sentire il sentimento dell'altro venga sempre in mente i maestri di morale la pietà, la compassione",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "L'Idiot di Dostoevskij",
+    "tema": [
+      "morale",
+      "compassione"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Fyodor Dostoevsky"
   },
   {
     "id": "2017-05-02-032",
@@ -357,10 +367,14 @@
     "end": 1139.42,
     "speaker_raw": "SPEAKER_00",
     "testo": "Mi fa un po' impressione questa cosa. Ti fanno paura la compesce? Ma sì, perché penso che vogliono convincermi di entrare in qualche religione o qualcosa del genere. La compesce mi sembra qualcosa che fa sentire in colpa. Non è il vedere, è tutta una questione di bellezza. Dostoevsky c'era solo con la bellezza. Dice che l'unica cosa che può salvare il mondo è la bellezza. anche questa la prende la Kant però dice se tu vedi qualcosa di bello intorno sei sulla strada giusta devi esprimerlo e sentirlo e vedere la bellezza negli altri salva tutto non è tanto la compassione perché dice la bellezza quando comincia ti porta a un livello altissimo first things first I'ma say all the words inside my head I'm fired up",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Bellezza e salvezza",
+    "tema": [
+      "bellezza",
+      "salvezza"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Fyodor Dostoevsky"
   },
   {
     "id": "2017-05-02-033",
@@ -445,10 +459,13 @@
     "end": 1699.57,
     "speaker_raw": "SPEAKER_09",
     "testo": "La mezza mila. Come un video porno, la signorina Google mi dice dove andare, entrando a gamba tesa sulla voce di mia madre. La mezza a Milano è un viaggio pazzesco, da nonno a Michele. La differenza sociale. Bruno Rissas",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "La Mezza Mila",
+    "tema": [
+      "differenza sociale"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Bruno Rissas"
   },
   {
     "id": "2017-05-02-041",
@@ -709,9 +726,11 @@
     "end": 2857.1,
     "speaker_raw": "SPEAKER_02",
     "testo": "I said some awful things and I take them back",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "I said some awful things",
+    "tema": [
+      "pentimento"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -720,9 +739,11 @@
     "end": 2914.03,
     "speaker_raw": "SPEAKER_04",
     "testo": "Before we were lovers I swear we were friends So someone could see me now Let them see you Let them see you See you through All the hard things We've all gotta do Life is long, so you can be wrong.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Before we were lovers",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -775,9 +796,12 @@
     "end": 3115.47,
     "speaker_raw": "SPEAKER_01",
     "testo": "Maurizio stavi dicendo basta abbiamo chiuso grazie Igor Sibaldi vi ricordo il coraggio di essere idiota la felicità secondo Dostoievski un bellissimo libro grazie Igor grazie a tutte le persone che hanno partecipato a questo programma soprattutto gli ascoltatori va bene ma perché sono io gli ascoltatori io me li porto dentro uno a uno è mica ingrasso sono gli ascolti che crescono ciao ragazzi a domani",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "coraggio di essere idiota",
+    "tema": [
+      "felicità"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Dostoievski"
   }
 ]

@@ -27,9 +27,11 @@
     "end": 235.91,
     "speaker_raw": "SPEAKER_03",
     "testo": "Good morning life, good morning world, how are you? Happiness, all at once I know what living can be.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Good Morning Life",
+    "tema": [
+      "vita"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -38,9 +40,11 @@
     "end": 243.02,
     "speaker_raw": "SPEAKER_14",
     "testo": "Oh, it's life, it's free, it's someone waiting for me, who'll someday be my wife.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Someone Waiting For Me",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -71,9 +75,11 @@
     "end": 402.21,
     "speaker_raw": "SPEAKER_03",
     "testo": "There's a ghost that keeps talking and I know there's gotta be more for sure.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ghost Talking",
+    "tema": [
+      "spirito"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -82,9 +88,11 @@
     "end": 440.88,
     "speaker_raw": "SPEAKER_14",
     "testo": "I want to live my life again, but you won't. I'll never understand the winds, but you do. I didn't know I was afraid. I've been learning my thoughts for hours But I knew you were dead",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Live My Life Again",
+    "tema": [
+      "morte"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -478,9 +486,11 @@
     "end": 2408.85,
     "speaker_raw": "SPEAKER_07",
     "testo": "no ma ho letto ho letto da fonti autorevoli oggi professore è il nostro ultimo incontro poi ci sentiamo l'anno prossimo esattamente mi piace moltissimo per tutto volevo ringraziare gli ascoltatori e perché no anche voi anche voi della radio DJ con un consiglio consiglio estivo Prima di farlo devo parlarvi di un ragno molto particolare. Si chiama il ragno delle banane. Si chiama così per due motivi. Il primo è che vive sulle banane. In Brasile, nelle grandi coltivazioni e piantagioni di banane, c'è questo ragno, piuttosto grande in realtà. Grande diversi centimetri. E il secondo motivo è... Il ragno delle banane ha un veleno molto potente. Quando morde, quando punge, la persona si sente malissimo. Ha una febbre altissima, ha del vomito, ha una diarrea, ma è anche affetto da un dolorosissimo priapismo. Cioè?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "ragno delle banane",
+    "tema": [
+      "insetti"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -544,10 +554,13 @@
     "end": 2635.52,
     "speaker_raw": "SPEAKER_07",
     "testo": "mi diceva Viola lì a Milano che lei ha portato una poesia per ringraziarci certo volevo salutarvi con una poesia una poesia di Roberto Perciballi che è stato un grande punk di Roma era il cantante dei Bloody Riot lei professore mi stupisce in figaggine lei è proprio figo la settimana scorsa che viveva in California adesso è professore ma anche il punk conosce ho avuto un passato giovanile diciamo così un po' turbolento",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "poesia punk",
+    "tema": [
+      "punk"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Roberto Perciballi"
   },
   {
     "id": "2017-05-31-050",

@@ -71,9 +71,12 @@
     "end": 529.07,
     "speaker_raw": "SPEAKER_01",
     "testo": "E per essere felice fa quello che sentivo. Quando facevo queste escursioni trovo qualcuno, non andavo neanche in cima, mi fermavo a dargli una mano se aveva bisogno e stavo bene. Poi non è che le altre cose mi dispiacevano, però quello star bene era superiore e io a un certo punto ho detto io non voglio star bene una volta alla settimana, io voglio star bene tutti i giorni, vado a far quello che mi fa star bene. Il problema era riuscire a rendere… accettabile a chi ti stava intorno più che a te stesso i tuoi genitori come hanno preso questa scelta di andare a vivere in montagna come il nonno da solo all'inizio c'è stata anche in comprensione ma mi metto anche nei panni dei miei che appunto dicevano sì ma dacci delle garanzie come fai a mangiare a lavorare cosa mangi la luna cosa mangi le stelle",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "decidi felicità quotidiana",
+    "tema": [
+      "felicità",
+      "decisione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -104,10 +107,14 @@
     "end": 597.67,
     "speaker_raw": "SPEAKER_04",
     "testo": "e dovevo riuscire a mangiare perché non avevo via soldi zero io una volta un mio amico mi ha insegnato questa cosa un mio amico Silvano Agosti mi diceva sempre quando tu viaggi da solo e poi è una cosa che ho applicato ed è vero in qualsiasi parte del mondo ti troverai anche culture diverse C'è un'umanità dove si ha fratelli in un secondo, no?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "fratelli in un secondo",
+    "tema": [
+      "amicizia",
+      "viaggio"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Silvano Agosti"
   },
   {
     "id": "2017-05-25-010",

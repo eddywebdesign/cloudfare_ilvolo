@@ -247,10 +247,13 @@
     "end": 1552.25,
     "speaker_raw": "SPEAKER_08",
     "testo": "Non fa inserzionisti. Mentre ascolto questa canzone, stracciando a duemila sotto un lampione, vorrei che un funerale fosse soldato, mentre in chiesa risuona forte ancora. Grazie a tutti. canzone correndo al 2000 come un coglione vorrei che in paradiso fosse sold out mentre il cielo risuona forte ancora questa canzone ti lascio il mio inno in un silenzio profondo non ti viene sonno in una notte leggera ti lascio il mio inno dentro il mare profondo",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Stracciando a duemila",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Gianluca Grignani"
   },
   {
     "id": "2017-05-10-023",
@@ -445,9 +448,11 @@
     "end": 2548.24,
     "speaker_raw": "SPEAKER_05",
     "testo": "Sì, grazie. Sometimes I wake up in a different bedroom I whisper things the city sings them back to you Those rumors they have picked up Hope they bite you Thought you said that you would always be in love Ciao!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Sometimes I Wake Up",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {

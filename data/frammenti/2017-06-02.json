@@ -27,10 +27,13 @@
     "end": 264.93,
     "speaker_raw": "SPEAKER_01",
     "testo": "Certo, quando tuo papà è Bob Marley, no? Tu puoi dire faccio una versione un po' più dense di un disco di Bob Marley e nessuno ti dice niente perché è il tuo papà, no? Perché comunque sono cose delicate da toccare, no? Soprattutto questa canzone, Could You Be Love, è forse una dei... come si può dire? delle pietre emiliane questa forse è una delle pietre emiliane sai che c'è un film con Abbatantuono dove a un certo punto il suo amico lui finge di essere un po' ricco il suo amico dice questa è una pietra emiliana delle mie parti e lo sfodano Ricordiamo sempre gli strafalcioni, le mie preferite sono sempre quelle di una signora di Brescia, ma ero molto ragazzino, che diceva ai miei amici si vede che avete studiato perché avete il Samhain Fresh. Poi c'erano due mal di denti che cercavano di rubare la macchina. Ma è vero? Sì, e invece un mio amico che me l'ha detto di persona mi dice credimi l'ho visto con le mie mani. perché questo non c'è neanche la parola sbagliata è giusto in realtà, è la percezione buongiorno a tutti ragazzi, parliamo con un po' più di calma questa mattina perché molti di voi ci stanno ascoltando da casa, gente che di solito in macchina in ufficio ci ha già scritto addirittura qualcuno abbiamo messo la sveglia per sentire l'ultima puntata di questa stagione del volo del mattino non faresti mai, abbiamo una mosca in studio proprio un fastidio cane ti dà fastidio le mosche? non riesco a concentrarmi hai questa cosa per le mosche? no non riesco a concentrarmi ah ma perché pensi che ti spiano ti spino sono quelle finte della CIA allora ragazzi voi state con calma fate con calma state lì nelle vostre vite se siete in macchina perché state andando a fare la gitta fuori porto a trovare i nonni insomma quello che è noi questa mattina vi diamo anche delle piccole chicche ok se volete ogni tanto parlo così vi do anche delle piccole checche però diamo delle piccole chicche la mettiamo la sigla? sì per forza vai",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Could You Be Love",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Bob Marley"
   },
   {
     "id": "2017-06-02-003",
@@ -60,9 +63,12 @@
     "end": 367.33,
     "speaker_raw": "SPEAKER_05",
     "testo": "la spada nella roccia dovete sentire il testo esci dalla mediocrità non star solo ad aspettare ciò che per caso puoi trovare",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "spada nella roccia",
+    "tema": [
+      "mediocrità",
+      "perseveranza"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -577,10 +583,11 @@
     "end": 2377.74,
     "speaker_raw": "SPEAKER_09",
     "testo": "Ciao! I could be wrong about anybody else So don't kid yourself, kid yourself It's you right there, right there in the mirror You don't wanna hurt yourself, hurt yourself Looking too closely",
-    "titolo": "",
+    "titolo": "Hurt Yourself Again",
     "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Imagine Dragons"
   },
   {
     "id": "2017-06-02-053",
@@ -589,8 +596,11 @@
     "speaker_raw": "SPEAKER_01",
     "testo": "Innamorato di questa canzone, Fabio ti dirò che questa storia del fallimento mi hai fatto sentire sollevata, me la metto via che dovrò lottare sempre, vale 83, una ragazza dell'83. Perché dal momento in cui accetti che la vita è una malattia mortale e che non ne esci vivo, ma soprattutto che hai perso perché perdi, allora te la puoi godere. Quella è una vittoria, capisci? Ti faccio un esempio. Adesso domani c'è la finale della Champions. Se tu sei lì che guardi la partita, o di una qualsiasi partita, a un certo punto arriva uno e ti dice... ti va di fare 20 minuti in campo con sti giocatori e c'è Ronaldo di quelli della Juve però sappi che tu ti faccio giocare in una squadra quella che perde però ti fai 20 minuti in campo con loro immaginati per un tifoso del Milan della Juve dell'Inter che ti dicono dal pubblico quando ero ragazzino andavo allo stadio immaginavo sempre che si faceva male uno e chiamavano me io entravo in campo e segnavo ma quanti anni avevi quando sognavi questa roba no così 12 anni eri già grandino eh sì però dicevo mi chiamano vado giù segno perché è quel desiderio nella vita se ti dicessero scendi in campo fai 20 minuti con loro però ti lo dico già e perdi giochi lo stesso quindi se tu prendi la vita così cioè io scendo in campo ho già perso però finché sono qua questi 20 minuti me li voglio proprio goderci passo palla a Totti passo la palla del piega senti i giocatori i giocatori smesso tutte e due tu è incredibile se tu invece scendi nella vita e dici no adesso io vinco adesso io faccio il culo cioè arrivi magari per un periodo ti credi anche ma è un anno anzi sono anni hai 20-30 anni ce la fai così conquisti due dormi però dopo arriva di 50 arriva di 60 e ti devi solo ammazzare a sto punto prendetelo con calma l'abbiamo persa la vita godiamocela dai sono gli ultimi 10 minuti del volo del mattino sono discorsi troppo profondi da fare qua io sono troppo Questa Questa, le 9.50 Vabbè ragazzi, allora siete tutti dei vincenti Ok, mettiamo un disco L'unico fallito sono io, ok Cos'è, cos'è?",
     "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "tema": [
+      "vittoria",
+      "fallimento"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

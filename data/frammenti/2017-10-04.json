@@ -126,10 +126,13 @@
     "end": 568.13,
     "speaker_raw": "SPEAKER_09",
     "testo": "la sigla che avete messo quest'anno ecco spersonalizza non mi piace ok come come primo disco Al Green Let's Stay Together ti piace?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Let's Stay Together",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Al Green"
   },
   {
     "id": "2017-10-04-012",
@@ -610,10 +613,13 @@
     "end": 2008.19,
     "speaker_raw": "SPEAKER_12",
     "testo": "dottoressa professoressa ah scusi prof tanto a me prof e dot mi sembrate tutti sempre più intelligenti in generale senta lei ha scritto un libro insieme a Lara Albanese diciamo con l'intento credo che la spinta emotiva sia stata quella di spiegare la scienza diciamo ai bambini o a quelli come me che è un po' la stessa cosa cioè semplificare delle cose complesse",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "libro con Lara Albanese",
+    "tema": [
+      "scienza"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "professoressa Anna Pari dottoressa"
   },
   {
     "id": "2017-10-04-056",
@@ -753,9 +759,12 @@
     "end": 2480.97,
     "speaker_raw": "SPEAKER_06",
     "testo": "Ti proteggerò dalle paure delle ipocondrie dai turbamenti che da oggi incontrerai per la tua via Dalle ingiustizie e dagli inganni del tuo tempo, dai fallimenti che per tua natura normalmente attirerai, ti solleverò dai dolori, dai tuoi spazi d'umore, dalle ossessioni delle tue manie. supererò le correnti gravitazionali lo spazio e la luce per non farti invecchiare e guarirai da tutte le malattie perché sei un essere speciale ed io avrò cura di te Vagavo per i campi del Tennessee, come vi ero arrivato chissà, non hai fiori bianchi per me, più veloci di aquile i miei sogni attraversano il mare. Soprattutto il silenzio e la pazienza Percorreremo assieme le vie che portano all'essenza I profumi d'amore inebrieranno i nostri corpi La bonaccia d'agosto non calmerà i nostri sensi Tesserò i tuoi capelli come trame di un canto Conosco le leggi del mondo e te ne farò dono Supererò le correnti gravitazionali Lo spazio e la luce per non farti invecchiare Ti salverò da ogni malinconia, perché sei un essere speciale. E io avrò cura di te, io sì che avrò cura di te.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "protezione dalle paure",
+    "tema": [
+      "paure",
+      "salute"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -764,10 +773,13 @@
     "end": 2545.21,
     "speaker_raw": "SPEAKER_12",
     "testo": "Questa è Radio DJ, questo è il volo del mattino, la cura, Franco Battiato. Abbiamo ricevuto mail di persone, messaggi che hanno capito grazie alla professoressa Anna Parisi. Tanti che hanno detto da materasso morbido in poi. Uno ha scritto da materasso morbido in poi, ho perso il senso. Il libro lo compro per me che ho 39 anni, scrive un ascoltatore o ascoltatrice. Bene. Com'è bella. Ah, ma che ricordi. Bene ragazzi, sto leggendo ancora invece quelli che hanno vinto il Nobel l'altro giorno sull'orologio biologico.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "la cura",
+    "tema": [
+      "cura"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Franco Battiato"
   },
   {
     "id": "2017-10-04-070",

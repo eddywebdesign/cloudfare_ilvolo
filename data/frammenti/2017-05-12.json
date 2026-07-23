@@ -775,9 +775,11 @@
     "end": 2380.22,
     "speaker_raw": "SPEAKER_14",
     "testo": "If you're traveling to the North Country Fair Where the winds hit heavy on the borderline Remember me to one who lives there For she once was a true lover of mine",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "North Country Fair Bob Dylan",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -863,9 +865,13 @@
     "end": 2687.52,
     "speaker_raw": "SPEAKER_01",
     "testo": "il sito gliel'ha fatto un ragazzo di Como va bene ragazzi allora vi stavamo dicendo per cui per esempio Michael Jackson che è stato un grande innovatore allora l'avevamo detto a 54 porco Giuda senza Giuda Dio non avrebbe realizzato il suo disegno quindi Dio ha utilizzato sempre Savoiardi e Miami va bene parlate di calcio ciao",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Michael Jackson innovatore",
+    "tema": [
+      "musica",
+      "innovazione"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Michael Jackson"
   }
 ]

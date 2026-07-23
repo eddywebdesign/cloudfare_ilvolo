@@ -225,10 +225,14 @@
     "end": 834.13,
     "speaker_raw": "SPEAKER_01",
     "testo": "Ma io ho dei film in bianco e nero, ho, come si chiama lì, Nanook, Nanook Leschimese 1922. Ma cos'è, dai? La domanda è, cari ascoltatori, esisterà un posto dove io porto uno scattolone di VHS e loro mi fanno un hard disk? Ma buttami! Certamente! Maurizio sostiene, cari ascoltatori, sostiene che io adesso quella videocassetta lì, che non ho più il lettore del VHS, dice che si saranno smagnetizzati. Ma sì, non si vede più niente.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Nanook di Pelliccia",
+    "tema": [
+      "cinema",
+      "storia"
+    ],
+    "tipo": "riferimento_film",
+    "video_url": "",
+    "autore": "Robert Flaherty"
   },
   {
     "id": "2017-05-17-021",
@@ -456,9 +460,11 @@
     "end": 1245.46,
     "speaker_raw": "SPEAKER_09",
     "testo": "La teoria di mio padre era che la vita è una cosa semplice. Perché basta desiderare fortemente qualcosa o qualcuno per ottenerlo. E il non riuscirci era la prova che il desiderio non era intenso.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "teoria del desiderio",
+    "tema": [
+      "desiderio"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
