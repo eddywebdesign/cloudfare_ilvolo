@@ -833,9 +833,12 @@
     "end": 964.5,
     "speaker_raw": "SPEAKER_08",
     "testo": "Tutte le vocali le avete fatte, ma ti voglio fare Aiola, ma la domanda è questa, come si fa a fare, perché io penso subito alla praticità, come si fa a fare una valigia che si passa dall'Alaska alle Hawaii, cioè devi avere dei bagaglioni perché lì ci serve il cappottone e la magliettina.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Valigia per climi diversi",
+    "tema": [
+      "praticità",
+      "viaggio"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -844,9 +847,12 @@
     "end": 974.86,
     "speaker_raw": "SPEAKER_01",
     "testo": "Sì, infatti noi passiamo sempre di solito a prima parte al freddo e poi quando abbiamo finito l'Alaska l'ultimo giorno siamo andati all'ufficio postale. Spedisci le cose!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Spedizione postale",
+    "tema": [
+      "ritorno",
+      "gestione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

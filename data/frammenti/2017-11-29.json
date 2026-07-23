@@ -683,9 +683,12 @@
     "end": 967.51,
     "speaker_raw": "SPEAKER_01",
     "testo": "I psicologi hanno capito che la gente che sceglie il finestrino o il corridoio sull'aereo sono due tipologie di persone diverse. E io vorrei raccontare quando ho preso l'aereo con te.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Paura di volare con te",
+    "tema": [
+      "paura",
+      "volo"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1244,10 +1247,14 @@
     "end": 1427.78,
     "speaker_raw": "SPEAKER_01",
     "testo": "Aspetta un attimo, Tony, qua adesso devo mandare la pubblicità, è un disastro. Tony, stai leggendo un libro perché le donne non fanno più figli?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Perché le donne non fanno più figli",
+    "tema": [
+      "famiglia",
+      "società"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Tony"
   },
   {
     "id": "2017-11-29-111",

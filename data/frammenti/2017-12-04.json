@@ -1105,10 +1105,14 @@
     "end": 1157.0,
     "speaker_raw": "SPEAKER_10",
     "testo": "No, no, no. Per quello sei bellissimo, ma non mi interessa l'articolo. Però volevo farti Complimenti per una cosa, sono serio. Mi trovo a parlare con la mia fidanzata di questa cosa. Tu scherzando, negli anni mi hai fatto imparare, mi hai fatto conoscere un sacco di cose interessanti, senza fare paragoni pazzeschi. Ti associo per questa cosa a Camilleri. È partito il disco, è partito il disco. Guarda, soltanto una cosa, guarda, Cagliari in un libro dice il signore aveva l'impotenza Coendi, cioè vuol dire aveva minchia come ricotta. La cosa di unire l'alto al basso. Ah! E tu questa cosa la fai sempre ed è bellissima. Minchia come ricotta, cos'è?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "I racconti di Camilleri",
+    "tema": [
+      "conoscenza",
+      "apprendimento"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Andrea Camilleri"
   },
   {
     "id": "2017-12-04-101",

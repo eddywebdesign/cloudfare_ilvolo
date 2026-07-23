@@ -104,9 +104,12 @@
     "end": 330.29,
     "speaker_raw": "SPEAKER_06",
     "testo": "Io conosco, per esempio, ci sono donne, mi è capitato in passato così, che usano l'accappatoio. Cioè che vanno in giro con l'accappatoio. Sopra il pigiama. Fa niente. Ma Viola usa la cattolica! No, no, no. Ragazzi, c'è uno che possiamo chiamare... Quando ho fatto il film con Inetto Davoli, quelli più giovani, dico chi è Inetto Davoli. Inetto Davoli è un attore preso dalla strada, da Pasolini, diventato poi famoso perché fece molti film di Pasolini. Per noi, dalla mia generazione, era anche quello di Four Nations, che faceva il panettino e consegnava i cracker. Ricordi? Lui mi ha raccontato, questo è un aneddoto, ve lo racconto, di quando con Pasolini andarono a casa di Totò, perché loro fecero uccellacci uccellini. E lui che veniva dalla borgata romana, che diceva io mangiavo la carne una volta all'anno, prendevo con la forchetta, la tenevo ferma, la strappavo, siamo più ignorati, e... Totò si sa, comunque era un nobile, era il prince, era molto legato. Poi quando siamo arrivati, ascensore, due piani, c'è stata la poltroncina. Hai dico, mamma, per fare due piani devi sedere. Fa ridereissimo. Poi mi ha aperto questa porta con tutto questo mento storto, io ho guardato, vedi Totò con la vestaglia. E pare che, secondo Ninetto Davoli, la moglie di Totò confidò a Ninetto poi negli anni che dopo la cena... A casa di Totò, Totò se ne andò con Pasolini e Totò, scusami, Pasolini se ne andò con Ninetto Davoli e Totò ha preso il DDT che ai tempi era il disinfettante.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ninetto Davoli film",
+    "tema": [
+      "attori",
+      "strada"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -192,9 +195,12 @@
     "end": 474.26,
     "speaker_raw": "SPEAKER_06",
     "testo": "Apriteci questo mondo ragazzi della vestaglia. Allora, volevo ringraziare perché abbiamo detto che ci hanno rubato la macchinetta del caffè. Allora, Argenta, che si chiama? Ci ha mandato un'altra macchinetta al caffè per noi del volo del mattino, quindi poi dopo noi ci facciamo il caffè, siamo carichi e tutti ne godono, è giovane. Per paura che ce la rubino, io ho avuto l'ideona di montarla giù in portineria, perché alla portineria di Radio DJ 24 su 24 c'è uno. Devo dire che c'è Nicola e Antonio da due o tre giorni che entro. Buongiorno! Perché siccome si annoiano lì, continuano a farsi gli espressivi. Buongiorno Antonio, visto c'è il sole. Buongiorno un cazzo, ma come? Sono un po' nervosetti. Per cui insomma ringraziamo Christian che ci ha portato questa macchinetta e il suo capo. Chi c'è? Luca?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "macchinetta caffè rubata",
+    "tema": [
+      "regalo",
+      "gratitudine"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -1636,10 +1642,14 @@
     "end": 2442.99,
     "speaker_raw": "SPEAKER_06",
     "testo": "Credo di aver toccato un tema molto alto al Volo del Mattino questa mattina. Adesso per controbilanciare mettiamo 20 minuti di Carmelo Bene, per controbilanciare Gabriele Di Cecina. Buona giornata, dove sei? Non mi dire che sei nudo in bagno adesso. No, mi sono fermato, sono in auto, sono al lavoro e mi sono fermato solo per parlare con voi. Oh, bravissimo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Carmelo Bene recita",
+    "tema": [
+      "teatro",
+      "arte"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Gabriele Di Cecina"
   },
   {
     "id": "2017-11-27-148",

@@ -741,9 +741,12 @@
     "end": 1183.92,
     "speaker_raw": "SPEAKER_12",
     "testo": "Scrivo canzoni poco intelligenti, le capisci subito, non appena le senti. Canzoni buone per andarci la domenica al mare, canzoni buone da mangiare. Sono canzoni poco irriverenti, insomma canzoni come me, che ho perso tutti i denti. Canzoni per chi non ha voglia di abbaiare o di ringhiare, canzoni tanto per cantare. Volo, Maurizio, Viola. Le mie canzoni poco intelligenti, che ti ci svegli la mattina e ti ci lavi i denti. Canzoni per chi non ha voglia di pensare, di ascoltare, canzoni per dimenticare. Sono canzoni poco consistenti, insomma canzoni come me, che non faccio più ragionamenti, che voglio solo sensazioni, solo sentimenti e una tazzina di caffè. Canzoni che parlano d'amore, perché alla fine dai, di che altro vuoi parlare? Che se ti guardi intorno non c'è molto da cantare, solamente una tristezza che è difficile toccare. Perciò sarò superficiale, ma in mezzo a questo dolore, in tutto questo rumore, io canto un mondo che non c'è. Canzoni che ti accappano alla donna senza tanti complimenti. Canzoni come smerla in faccia per costringerti a pensare.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "canzoni semplici",
+    "tema": [
+      "musica",
+      "vita"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -763,9 +766,12 @@
     "end": 1228.55,
     "speaker_raw": "SPEAKER_12",
     "testo": "Canzoni che ti salvano la vita. Che ti danno la forza di ricominciare, che ti tendono in piedi quando senti ti collare, ma non ti sembra un miracolo che in mezzo a questo dolore e tutto questo rumore, a volte basta una canzone, che è una stupida canzone, solo una stupida canzone, a ricordarti chissà.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "canzoni salvano vita",
+    "tema": [
+      "musica",
+      "consolazione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -796,9 +802,12 @@
     "end": 1325.89,
     "speaker_raw": "SPEAKER_10",
     "testo": "E lunghi, lì fai un po' di... Faccia tutto un... Il capello è difficile da gestire. Un'ichepana. Comunque vabbè niente, mi faceva molto ridere questa cosa, bolle bellissime, sai che mentre parlavo con Cracco gli ho toccato il pettorale, ma anche a lui, ma perché quando parli con la gente tutti? Non col dito, proprio gli ho messo la mano, mi faceva un maglione morbido, è bello tutto vestito così, e gli ho detto ma va in palese comunque, c'è anche l'addominale. È un mestiere dello chef? No, non credo, non lo so. Va bene, allora ragazzi, a tutti quelli che ci stanno ascoltando dalla Sicilia, in particolare da Noto. Che bella. Noto è bellissimo, c'è quella, cos'è, una chiesa, una cattedra, adesso non mi ricordo, però c'è quella roba bellissima. È tutto rosa. Esatto. C'è una ragazza che si chiama Gisella, che è anche il nome di una fotomodella, Giselle. Gisella. Lei è Giselle che è brasiliana, lei invece è Gisella che è della zona, che dice sto andando a Noto, sono sola, vorrei pranzare con qualcuno, c'è un ascoltatore del Volo del Mattino che sta a Noto, vi stanno ascoltando? Non credo. Vogliamo chiamare un bar di Noto? Dai proviamo. No, non lo so. Proviamo. Allora io dico, cari ascoltatori, se ce n'è uno di voi che ha la fortuna di essere in Noto o in zona Noto, diciamo quasi famoso, cos'è il paese dopo?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "tocco pettorale Cracco",
+    "tema": [
+      "incontro",
+      "umorismo"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1801,10 +1810,13 @@
     "end": 2809.97,
     "speaker_raw": "SPEAKER_12",
     "testo": "Avevo la canzone di Antonella del DJ Angel.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Canzone Antonella",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "DJ Angel"
   },
   {
     "id": "2017-12-11-160",

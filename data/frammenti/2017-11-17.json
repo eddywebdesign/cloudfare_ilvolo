@@ -368,9 +368,12 @@
     "end": 738.54,
     "speaker_raw": "SPEAKER_11",
     "testo": "Questi sono gli Offenbach e questa è Radio DJ, il volo del mattino, nella seconda mezz'ora, siccome è uscito a mezzanotte l'album nuovo dei Negramaro, ci è questo aneddoto che vi avevo anche raccontato, che un giorno passeggiando, vi ricordate l'anno scorso quando ero là con Giuliano, passeggiando così, mi canticchiava sta canzone che gli era venuta e l'ha messa nell'album, quindi oggi la mettiamo, quella lì si chiama New York e Nocciola. Ah! io gli buttavo le mie paranoie sul libro e lui le sue paranoie sul disco e poi siamo finiti in un ristorante messicano e poi il giorno dopo dal bagno ci siamo telefonati tutti e due ma e volevo dirvi lo chiamiamo siccome un'ascoltatrice dice non so se ascoltare voi stamattina un nuovo album di Negramaro ascolta noi perché c'è Giuliano fra un po' lo svegliamo ma non Giuliano di Negramaro e questa è la grande sorpresa per far felice le gattare chiamiamo Giuliano di Chismilicia il gatto",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Aneddoto Negramaro",
+    "tema": [
+      "musica",
+      "amicizia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -489,9 +492,11 @@
     "end": 825.87,
     "speaker_raw": "SPEAKER_06",
     "testo": "Io conosco anche una sua amica. Avete un'amica in comune? Sì, sì. Vabbè, non so se posso dire il cognome, si chiama Francesca Pozzuto. Ma sì, quella stronza, chi non la conosce?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Amica in comune",
+    "tema": [
+      "amicizia"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -577,9 +582,12 @@
     "end": 917.18,
     "speaker_raw": "SPEAKER_11",
     "testo": "Maurizio invece si è svegliato a Torino questa mattina, è andato in cucina, ha aperto il frigorifero e dice ho solo pasta e formaggio. Beh, che dite, mi faccio una colazione con pasta e pecorino romano?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "colazione con pasta e pecorino",
+    "tema": [
+      "cibo",
+      "giorno"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

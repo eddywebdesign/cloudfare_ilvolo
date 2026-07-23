@@ -350,9 +350,12 @@
     "end": 1222.92,
     "speaker_raw": "SPEAKER_05",
     "testo": "Per fortuna è durato poco, è durato poco. Hai tenuto il numero? No, no, perché... No, no, no. Lui mi ha chiesto la targhetta e alla fine...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Olandese interrompe cena",
+    "tema": [
+      "interferenza",
+      "relazione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

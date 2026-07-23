@@ -1251,9 +1251,12 @@
     "end": 2329.57,
     "speaker_raw": "SPEAKER_01",
     "testo": "Ci sono dei corsi, adesso iniziano dei corsi. Io nel 1998, questo lo dico. Vabbè, vabbè. Forse era il 97, ma non importa. No, è che ero in America. Ok. In America c'era già l'entomologia forense e mi invitarono a un seminario. Ai seminari americani si mangia. Quando tu entri ti danno il caffè, i donuts. Io mangiavo e c'era questo entomologo, questo professore che mi faceva vedere delle immagini allucinanti. Gli omicidi, gli autopsie. E io avevo questo caffè, questo donut per poco. Bene, insomma, e quindi insomma esiste, anche in Italia esiste. Anche in Italia esiste, non è così famosa, importante come negli Stati Uniti, però esiste.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Seminario in America",
+    "tema": [
+      "università",
+      "scienza"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1416,9 +1419,12 @@
     "end": 2767.01,
     "speaker_raw": "SPEAKER_00",
     "testo": "Due. Due. Stai guardando Viola. Due. Tre. Ma pigia, pigia. Quattro. Cinque. Io neanche più di sei. Sei. Non riesco a arrivare a sei. Mai. Sei. Hai fatto una palla. Ho anche dimenticato di dire una cosa al prof. Sì. Che però magari è più questo uso di veterinaria. Una volta sono andato in un ristorante. Sì. E restate in interno. Era inverno, sono andato in un ristorante, era inverno. Aspetta che arriva anche il vento. Era inverno, abbiamo detto. Vado in un ristorante e mi portano un pollo. Sai proprio il pollo intero, come quello... Pollo arrosto. Pollo arrosto, intero. Però aveva, come fanno i cinesi, aveva ancora anche la testa attaccata. Eccola lì col becco così, forse non era un pollo, forse era un'anatra, ecco bravo, era un'anatra. Mi ha portato l'anatra, taglio un pezzettino e è tutta rosa. A me è una cosa che poi fa anche male, il pollo crudo non si mangia, sapete che il pollo anche in cucina se lo tagliate con un coltello o usate le mani, lo toccate per... Le cose sono separate, col pollo, se tocchi un pollo non puoi toccare nient'altro, neanche la maniglia.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "coltelli per pollo in cucina",
+    "tema": [
+      "igiene",
+      "ristorante"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

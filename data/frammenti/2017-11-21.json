@@ -757,9 +757,12 @@
     "end": 1363.72,
     "speaker_raw": "SPEAKER_01",
     "testo": "No, volevo dire una cosa. Ragazzi, io veramente l'affetto dimostrato è enorme. Non mi portate cose da mangiare quando venite alla presentazione del libro? Perché un po' voglio dimagrire. E un po' vado sempre via con questi sacchetti con i salami, le cacciotte, le cose. Poi magari non la mangio. La noce di prosciutto. La noce di prosciutto. La porta di qua, no? Sì, ma quando sono lontano, no? Poi se vado in macchina non conto mai in aereo. Poi mi aggano il vino, lo devo imbarcare. Diventa tutto... Io vi ringrazio. No, piuttosto la busta. Cioè, se mi volete fare un regalo, portatemi la busta. Con dentro, lo so, 100 euro. Qualcuno è mia zia. Fatemi la busta. La busta è sempre bello. Ok. Oh, ieri sera io a mezzanotte ero all'autogrill che firmavo. Ho detto un'idea geniale. Eh, tra Napoli e Roma, fermatevi, i libri sono lì. Ascoltatemi, mettiamo la cosa di Will Smith che dice al figlio non devi mai permettere a nessuno di parcheggiare al posto tuo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Presentazione del libro",
+    "tema": [
+      "affetto",
+      "libri"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

@@ -153,9 +153,12 @@
     "end": 496.15,
     "speaker_raw": "SPEAKER_04",
     "testo": "Sai, don vecio. Ci vediamo, vecchio. Va bene, insomma. Bene, abbiamo detto... No, mille cose. Mi sono cotto, si sente? No, niente. Mi sono fatto a casa alle una e mezza, alle due, disastro. Stamattina proprio niente. Volevo dire una cosa. Volevo dire una cosa, ho detto questa cosa stupida delle porte, guarda quanti messaggi, guarda quanta gente di notte che continua ad alzarsi per andare a vedere se la porta è chiusa. Bisognerebbe parlare con uno psicologo, perché sarà una forma di... no? Sarà un qualcosa lì dietro.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "messaggi notturni",
+    "tema": [
+      "abitudine",
+      "notte"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1390,9 +1393,12 @@
     "end": 1988.62,
     "speaker_raw": "SPEAKER_04",
     "testo": "Posso intenderci un po' solo una cosa che ti faccio un esempio? Michael Jackson, lui aveva nella sua camera da letto i lucchettini, sai quelli che si mettono proprio sulla porta, che tiri con la catenella e le cose? Perché lui una volta da bambino, suo padre, che è quello in qualche modo che gli ha sfondati tutti, è entrato dalla finestra facendo finta di essere un ladro. E gli ha fatto tipo così. E lui da allora, simpatico il babà, pensa che il padre gli diceva sempre quel nasone, c'hai quel nasone, quel nasone, e lui a forza di dirgli quel nasone si è fatto quel nasone che era con la puntina. Comunque, va bene, quindi nel nostro corpo Rimane una memoria.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "ladri a casa di Michael Jackson",
+    "tema": [
+      "paura",
+      "infanzia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1778,9 +1784,12 @@
     "end": 2672.7,
     "speaker_raw": "SPEAKER_04",
     "testo": "La dobbiamo togliere perché siamo molto andati lunghi. Sono sulla buona strada per essere una buona madre, dice un'ascoltatrice. Quando in paese gira la voce che ci sono dei ladri in azione, i miei figli mi chiedono se entrano da noi e io rispondo offritele il caffè.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "figli e ladri in paese",
+    "tema": [
+      "genitori",
+      "sicurezza"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1800,9 +1809,13 @@
     "end": 2694.54,
     "speaker_raw": "SPEAKER_04",
     "testo": "Tesoro, hai sbagliato, forse devi fare un altro mestiere. Un altro che mi fa ridere è Secondo la teoria di Hellinger. Dobbiamo chiudere, dobbiamo chiudere. Che va per gerarchia, aspetta, lui dice, ci scrive James dall'Irlanda, grandissimo, ma io che sono l'ultimo di nove figli, non conta niente. Ciao ragazzi, a domani.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Secondo la teoria di Hellinger",
+    "tema": [
+      "gerarchia",
+      "famiglia"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Hellinger"
   }
 ]

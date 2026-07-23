@@ -949,9 +949,12 @@
     "end": 1518.12,
     "speaker_raw": "SPEAKER_09",
     "testo": "Non sono mai riuscito, mannaia. Allora, professore, mandiamo velocemente la pubblicità. Aveva portato dei temi lei, però sentendo Sibaldi che parlava di cammelli dice, io sono preparato sui cammelli. Bene. Il cammello è quello con due gobbe. Esatto. E io vorrei andare alla camel e dire perché mettete il dromedario sul pacchetto di sigarette e le chiamate camel? Oh! Nel frattempo, durante la pubblicità, è passato Tony Dallara a portarmi il quadro. Un retouche. Un retouche. Un retouche. Ieri mi ha regalato un disco con la tua faccia, ma eri giovanissimo. Non t'ho neanche riconosciuto quasi. Eh! Oh! Te lo devo portare e me lo devi autografare. Parliamo di insetti col professore. È lì che legge il giornale. Sei venuto qua come al bar a leggerti il giornale, Tori.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Domanda sui cammelli",
+    "tema": [
+      "curiosità",
+      "critica"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -1389,9 +1392,12 @@
     "end": 2388.18,
     "speaker_raw": "SPEAKER_10",
     "testo": "Le formiche del deserto, che hanno una peluria, proprio un vello d'argento, che riflettono i raggi del sole e anche il calore che arriva dal terreno. A cosa serve questo? Serve perché queste vanno a cacciare nelle ore più calde del deserto, quando il sole terribile di queste zone ammazza tutti, uccide tutti gli altri insetti, questi vanno a prendere i maletti morte.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Formiche d'argento",
+    "tema": [
+      "natura",
+      "adattamento"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

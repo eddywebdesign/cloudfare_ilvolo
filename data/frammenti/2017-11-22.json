@@ -1031,9 +1031,12 @@
     "end": 2106.44,
     "speaker_raw": "SPEAKER_13",
     "testo": "Ciao, io e mio marito siamo stati in Thailandia in viaggio di nozze, ci siamo fatti fare anche un massaggio e la ragazza che mi massaggiava non si è fatta problemi a scoreggiare davanti a me.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Massaggio in Thailandia",
+    "tema": [
+      "viaggio",
+      "relazione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1141,10 +1144,13 @@
     "end": 2243.13,
     "speaker_raw": "SPEAKER_13",
     "testo": "Eh sì, tendenzialmente sì. Ah quindi non finisci mai, non finisci mai. È un gioco che non finisce mai. Ok, allora Maurizio ha trovato delle regole sulla felicità che poi lo dovremmo rifare domani perché non si è capito niente. Regole, la sua opinione. La sua opinione di Henry De Luca. L'ho incontrato l'altro giorno a Milano. Ho visto. Sì, e vi saluta tanto. Ma va. Ma ha detto, è arrivato lì e mi ha detto... Mi devi salutare Viola e mi devi salutare Maurizio. Stefio e la stellina, vabbò, vabbò, pure loro. Così ha detto, vabbò, vabbò. Non ci credo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Regole della felicità",
+    "tema": [
+      "felicità"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Henry De Luca"
   },
   {
     "id": "2017-11-22-103",

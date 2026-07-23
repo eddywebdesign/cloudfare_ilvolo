@@ -1076,10 +1076,14 @@
     "end": 1642.9,
     "speaker_raw": "SPEAKER_16",
     "testo": "Tre nomi, quattro nomi piccolini. Mario Biondi, Laura Pausini, Tiziano Ferro e Giorgia Giorgia. Giorgia non ha il cognome quando canta. Giorgia Giorgia. Giorgia Giorgia, la Giorgia Giorgia. Bellissima canzone, era il Natale del 2011. Allora ragazzi, vi devo dire due cose. Intanto, vabbè, in questo periodo sono un po' oberato di lavoro, come si dice, no? Però ogni sera con Novara, adesso fino al weekend sono libero. Vado sabato in Sicilia, quindi mi metto lì a scrivere. Ma siccome vi avevo detto che vi avrei fatto le playlist. Sì, è vero. Non ho tempo adesso di stamparla su vinile, ma con calma. Però ieri ho fatto la mia pagina Spotify, proprio Fabio Volo, e ho messo tre. Una del libro, una della serie TV e una che si chiama Johanna, con la faccia di Johanna. Wow! No, perché siccome non ho tempo di farle, ho messo quelle che avevo già fatto, quelle che sento io in casa.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Giorgia Giorgia",
+    "tema": [
+      "amore",
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Giorgia"
   },
   {
     "id": "2017-12-06-097",
@@ -1164,9 +1168,12 @@
     "end": 1723.89,
     "speaker_raw": "SPEAKER_16",
     "testo": "Io le voglio fare così. Quando ti sei rotto un piede, capito? E lì è, tipo, sono festemi. Vi ricordate, forse una delle Adriane più belle che abbiamo avuto nel nostro momento Adriano, la nostra ascoltatrice Bruduscia. Bruduscia. Bruduscia? Buongiorno! Ho detto bene, Bruduscia?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Bruduscia Momento Adriano",
+    "tema": [
+      "ricordo",
+      "ascoltatrice"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

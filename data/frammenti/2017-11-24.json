@@ -330,8 +330,11 @@
     "speaker_raw": "SPEAKER_05",
     "testo": "Un po' scorretta perché si fa una canna. Esatto, il giorno dopo il governo italiano si è fermato in Parlamento. Interrogazione. Quanto è stata? Io ho detto a Viola, costerà più o meno, ho fatto io abbraccio, un milione di euro. Sarà già pronto. Un milione di euro a puntata, io ho detto, esatto, tu hai esagerato, vai su Google, 7 puntate, 7 milioni e 3, perché questo è il mio mestiere, ovviamente me ne intendo un po' così. Quanto è costata tutta Untraditional, 8 puntate? 7-800 mila euro. La mazza? Ma non è così poco, dai, alla fine.",
     "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "tema": [
+      "lavoro",
+      "denaro"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
