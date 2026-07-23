@@ -753,10 +753,13 @@
     "end": 2553.2,
     "speaker_raw": "SPEAKER_04",
     "testo": "sta sfumando sta fumando, io sto fumando a sentirmi questa canzone lei era Etta James famosissima per tante canzoni qual'era quella più famosa? At Last quella che si mette ai matrimoni di solito questa è la canzone che si mette ai matrimoni come primo ballo perché è un capolavoro assoluto se non conoscete questa non conoscete Etta James nel senso un po' senti che roba sto facendo questo intervento ma un po' mi piange il cuore perché non ho potuto portare il mio figlio e si è messo a piangere quindi è lì al vetro che piange veramente non è al vetro sta proprio bene guardalo stanno giocando con le bolle si è già dimenticato di te Madonna ragazzi, posso dire che dovete andare a mettervi una compilation di Etta James appena avete un giorno libero Ma nel vinile c'è?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "At Last",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Etta James"
   },
   {
     "id": "2017-05-01-069",
@@ -808,9 +811,11 @@
     "end": 2607.54,
     "speaker_raw": "SPEAKER_07",
     "testo": "Bennato c'è. Erano questi. Bennato c'è. Quindi la quota... Ok, quota vecchi c'è. Quota vecchi. No, c'è Bombino. Bombino. Il Jimi Hendrix del deserto. Il Jimi Hendrix? Del deserto.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Jimi Hendrix del deserto",
+    "tema": [
+      "musicista"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {

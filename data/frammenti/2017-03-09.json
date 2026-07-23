@@ -592,9 +592,12 @@
     "end": 1903.71,
     "speaker_raw": "SPEAKER_00",
     "testo": "Ho fatto andare la lavatrice con i capiscuri, sono uscita per accompagnare i bambini a scuola, torno indietro e mi accorgo che un fazzoletto di carta ha lavato.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Fazzoletto Lavatrice",
+    "tema": [
+      "caso",
+      "errore"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

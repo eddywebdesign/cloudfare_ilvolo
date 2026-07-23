@@ -605,9 +605,12 @@
     "end": 2157.28,
     "speaker_raw": "SPEAKER_01",
     "testo": "A proposito del fatto di quel ragazzo che ha detto ma che vai a fare in giro tanto tutto uguale, sei mai stato in Giamaica? Sì, sono stato due volte. Non è stato Negril?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "viaggio in Giamaica",
+    "tema": [
+      "viaggi",
+      "esperienza"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -627,9 +630,12 @@
     "end": 2211.37,
     "speaker_raw": "SPEAKER_01",
     "testo": "che ci portava in giro gli odori sono molto buoni al di là degli odori di quello che si fuma però la natura è così forte è molto rigogliosa per esempio questa è una cosa rispetto ad altre isole dei Caraibi anche a Santo Domingo, a Cuba la natura ti salta addosso come Costa Rica che sono quei posti che ovviamente la Giamaica pensa che vai sempre per farti i cannoni invece c'ha dei posti meravigliosi, cascate, il mare, il cibo insomma noi siamo andati a questo Pelican Bar che è proprio una parafitta, hai fatto il tuffo da lì, che bello, al Pelican a un certo punto c'è un gazebino che è come in una baia al posto, il gazebino è in mezzo, tu cammini su una passerellina e sei in mezzo, io mi sono fatto un cannone storico e poi...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "esperienza giamaicana",
+    "tema": [
+      "natura",
+      "viaggi"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -638,9 +644,12 @@
     "end": 2240.53,
     "speaker_raw": "SPEAKER_05",
     "testo": "tuffo nell'acqua guarda sento ancora l'acqua addosso il problema di queste robe lì è che io mi ricordo che c'era sta barca da prendere e arrivavi su sta mettevi dovevi mettere cioè era un percorso complesso con tutti i miei amici tutti fuori metti i piedi lì no aspetta però mi sono salvato non ti puoi far aiutare allora sono entrate nella stanza ma tu te ne accorgi perché le donne cos'è che le donne occupano lo spazio con la loro energia con la loro energia virgola anche se non le vuoi no questa è la verità",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "tuffo in Giamaica",
+    "tema": [
+      "avventura",
+      "natura"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

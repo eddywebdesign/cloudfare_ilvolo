@@ -186,10 +186,13 @@
     "end": 1032.5,
     "speaker_raw": "SPEAKER_05",
     "testo": "mi ha sentito sono super contenta vuoi un bel pezzo di giovanotti romantico? va bene ci sta va bene ciao Valeria ciao Fabio grazie questo è Fink looking too closely ma no ma si scherzava noi scherziacoli siamo tra amici ci si prende in giro quando si va a mangiare la pizza insieme certo",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Fink looking too closely",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Fink"
   },
   {
     "id": "2017-03-20-017",
@@ -241,9 +244,11 @@
     "end": 1277.62,
     "speaker_raw": "SPEAKER_05",
     "testo": "Questa canzone ci piace molto, Think Looking For Closely. Questo è Radio DJ, questo è il volo del mattino, ci iscrivono molti ascoltatori. Fabio, cavolo, ti sei dimenticato di chiedere come si chiamava il cane della ragazza, il pelosetto, l'abbiamo chiamata, Stefina l'ha richiamata, il cane si chiama Fiocco. Fiocco come quello, Fiocco di neve, come quella di Heidi.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "nome del cane Fiocco",
+    "tema": [
+      "amicizia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -263,10 +268,13 @@
     "end": 1353.8,
     "speaker_raw": "SPEAKER_05",
     "testo": "Si chiamava anche Copo de Nieve, Copo de Nieve, voi sapete che quando io ho abitato... a Barcellona mi sono comprato il cofanetto di Heidi in spagnolo per imparare un po' la lingua prendete dei figli e mi sono preso il cofanetto e quindi mi ricordo tipo Copodenieve, Abuelo Abuelito è un po' strana Heidi che parla spagnolo un po' decontestualizzata è anche un po' più meno brava ragazza Allora qualcuno si è risentito perché ho detto c'è il fidanzato calabrese dicendo dei peli sul petto perché voi a Brescia non avete i peli sul petto io ne ho pochissimi amici molto pelosi col peso sul petto ma l'ho detto per un motivo vero perché stiamo introducendo uno dei temi della mattinata noi non abbiamo temi ne abbiamo 5 questa mattina beh stupendo quello che è successo alla Rai l'altro giorno sabato è andato in onda non parlando così una che ha detto una puttanata hanno proprio fatto il cartello scritto con la classifica il famoso blocco il famoso blocco sai quello che è? Pagnoncelli ci faccia vedere cartello 5 Pagnoncelli che non c'entra niente però il Pagnoncelli direi uno manda in onda questo cartello che solo in Italia può succedere soprattutto nella TV di Stato dove c'è la classifica? perché?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Heidi",
+    "tema": [
+      "infanzia"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Julia Struwa"
   },
   {
     "id": "2017-03-20-024",

@@ -234,9 +234,12 @@
     "end": 1636.44,
     "speaker_raw": "SPEAKER_00",
     "testo": "Scusate, scusate, no, ho stampato una mail che volevo leggere, dopo se no la perdevo, intanto che andavo da Gregorio me la sono stampata, adesso ho preso in mano il foglio, convinto di leggere quella là, quindi non l'ho letta in diretta, e ho stampato quella sbagliata dove diceva grazie di esserci e rallegrare tutte le mattine, in autobus rido da sola.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "errore con la stampa della mail",
+    "tema": [
+      "sbaglio",
+      "umore"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -536,10 +539,14 @@
     "end": 2223.51,
     "speaker_raw": "SPEAKER_01",
     "testo": "molta gente il magnesio i funghi il cordice insomma io mi vorrei prendere tutto adesso la mattina va bene allora scusate ragazzi volevo dirvi questa cosa l'ha già detto il trio è morto Piercy che è questo scrittore Lo zen è l'arte della manutenzione della motocicletta, un viaggio tra un padre e un figlio in moto che è anche una metafora di un viaggio alla ricerca di sé, quindi è un libro importante, come dire Onderode di Kerouac ha segnato una generazione, Fiesta di Hemingway ha segnato la generazione precedente per dire, questo è un libro che quando è uscito poi è entrato in un mondo perché era come dire la qualità della vita come tema centrale di questo viaggio che è la cosa importante ce lo chiediamo tutti noi che non è solo quanto guadagno cosa faccio dove vivo ma la qualità della vita a volte non è paragonabile a quanto uno guadagna non è detto che più guadagni e più la qualità della vita è alta mi segui?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Lo zen è l'arte della manutenzione",
+    "tema": [
+      "viaggio",
+      "riflessione"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Piercy"
   },
   {
     "id": "2017-04-26-047",

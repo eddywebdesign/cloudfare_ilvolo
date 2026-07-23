@@ -38,9 +38,12 @@
     "end": 210.14,
     "speaker_raw": "SPEAKER_11",
     "testo": "il linguaggio dei segni fra me e Maurizio sotto lo sguardo divertito di Viola ci capivamo dopo quanti anni che lavoravi insieme per la prima volta non ci siamo capiti che adesso dopo tanti anni noi non lo faccio neanche più i segni con la mano lui capisce dall'espressione dalla voce quando deve mettere il disco adesso era facevamo e non capivo se era un minuto no dieci e faceva col uno un minuto io insomma non ci si capiva buongiorno a tutti benvenuti questa è Radio DJ Già questo non siete contenti. Radio DJ e sei rimasto sospetto. Sì perché uno sale in macchina o è a casa così, spippotta l'autoradio e a un certo punto esiste un'entità che si chiama Radio DJ fatta da tante persone che lavora in un certo modo e c'è, capito? Poi magari uno non gli piace e cambia, però c'è il fatto che ci sia è bello, no? E fin lì ci si accontenta di pochissimo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Segni con Maurizio",
+    "tema": [
+      "comunicazione",
+      "amicizia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -170,9 +173,11 @@
     "end": 1068.18,
     "speaker_raw": "SPEAKER_11",
     "testo": "Una delle canzoni preferite da Viola, vedo, no? Perché non si muove mai, ma questa se l'è ballata tutta. Ma c'hai sotto ancora la barbechioa.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Canzone preferita Viola",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -192,9 +197,12 @@
     "end": 1123.31,
     "speaker_raw": "SPEAKER_11",
     "testo": "Scusate, stamattina ho imparato una cosa e Viola mi prende in giro. Io non sapevo che le donne del Madagascar si chiamano... Malgache. Malgache. Quando lei mi ha detto c'ha la mamma, stamattina mi ha detto lo sai che lei c'ha la mamma Malgache? Perché ti avevo fede. No! A me mi è venuta in mente la canzone e c'hai la mamma Malgache! Sai che c'è la canzone da stadio, vabbè tu non sei mai stato allo stadio. No, ma non vai neanche a Monza a vedere il papa? Eh no, non sono a Milano questo weekend. Ma andrà in inferno, lo sai che andrà in inferno. va bene ragazzi allora io ho proposto per la seconda mezz'ora un bel disco sudamericano non è così ma Maurizio me lo sta un po' se è despacito va bene no ma una cosina anche un pezzettino di tipo al bandido intanto che prepariamo due cocktail non lo sai vabbè comunque chiamateci come chiamate?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Mamma Malgache",
+    "tema": [
+      "umorismo",
+      "linguaggio"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -456,10 +464,14 @@
     "end": 2045.27,
     "speaker_raw": "SPEAKER_11",
     "testo": "bravi bravi siamo contenti dai passi io l'ho detto passa mi sembrava uno dietro dove vivete ragazzi? viviamo a Padova a Padova bella Padova città universitaria che cosa vuoi dire? sembravo quello di la morte a Venezia di Thomas Mann che guarda i giovani a Padova città universitaria lì ci sono tante ragazze che hanno la mamma malgrado La stupidella guarda la faccia. Se le va il caldo. Ok, volete dire qualcosa? Volete salutare a casa? Non lo so. Vuoi cantare? Tu sei cantante. Facci un pezzo e poi mettiamo un disco. Il venerdì è veramente cazzeggio. Io non so gestire i follow, ragazzi.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "La morte a Venezia",
+    "tema": [
+      "giovani",
+      "città universitaria"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "thomas mann"
   },
   {
     "id": "2017-03-24-042",
@@ -556,8 +568,10 @@
     "speaker_raw": "SPEAKER_01",
     "testo": "Scusa ma ogni volta che parlo d'amore in questo viaggio piango, non so perché, come uno strosso. Scusate, una grande cosa d'amore proprio tra loro e me. Danno questo amore che mi ammazza e così voglio morire, per quello che torno a Roma, a morire così. Ciao, scusate.",
     "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

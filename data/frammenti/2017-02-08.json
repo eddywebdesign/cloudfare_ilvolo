@@ -894,9 +894,12 @@
     "end": 2211.35,
     "speaker_raw": "SPEAKER_00",
     "testo": "Bruno Risas, La Verità, Radio DJ, la domenica prossima sfiderò mio figlio, 15enne, a una pista da cross, io ne ho 48. Poi sai che lì c'è il momento anche del tipo braccio di ferro, no?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Sfida con figlio in pista da cross",
+    "tema": [
+      "genitori",
+      "figli"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1040,9 +1043,12 @@
     "end": 2605.47,
     "speaker_raw": "SPEAKER_00",
     "testo": "X, X X, X Questo è Radio DJ, questo è il volo del mattino Ciao Fabio, io ho 35 anni e mi sono iscritta a Violoncello in Conservatorio, bello Conservatorio, quindi comunque con un progetto a lungo termine Il momento che battei mio nonno a braccio di ferro lo ricordo come uno dei momenti più brutti della mia vita Mi sento ancora una merda Perché devi fare come i bambini, devi far finta e farlo vincere però lo sai lo stesso mio nonno Ercole dice un ascoltatore è morto imbattuto a braccio di ferro e per forza Ercole omen omen ciao quasi 42 anni mi sto laureando in informatica musicale alla statale di Milano 42 non sono tanti dai sei un po' fuori corso ammazza ho capito e c'è gente che si laurea a 70 anni scusate io a 35 anni ho comprato la mia prima macchina e il primo servo sterzo sono emozionato come un bambino al primo giorno di scuola",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "braccio di ferro con nonno",
+    "tema": [
+      "vittoria",
+      "sconfitta"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

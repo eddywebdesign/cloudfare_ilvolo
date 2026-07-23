@@ -16,10 +16,13 @@
     "end": 301.89,
     "speaker_raw": "SPEAKER_01",
     "testo": "Non capisco cosa ci sia di sbagliato se lei lo considera una delle sue canzoni preferite. Dai, un po' di umiltà. Questa si chiama Lord, questa ragazza si chiama Lord, la canzone si chiama Green Light. L'altro giorno su Spotify ha fatto una playlist per indirizzare, perché poi adesso tutti possono accedere a tantissima musica rispetto ai nostri tempi, che si poteva solo se te la compravi in sostanza o se il tuo amico te la prestava. adesso ormai ogni persona può avere un ragazzino, può avere tutta la musica che vuole con questi social e bla bla bla, lei ha fatto una lista per dire ragazzi se vi piaccio io le mie canzoni preferite sono queste, come facciamo anche noi qui in radio, io dico metto questo, sto facendo le compilation, e Viola si è un po' indispettita, ma l'hai chiamata? sei un po' indispettita con Lorde perché nelle canzoni che lei ha messo nelle sue preferite ha messo anche una sua cioè dove canta lei dai non si fa perché no perché te di solito non so nella lista dei miei libri preferiti ci metti anche tu no non lo metterei mai ma io sono un ragazzo elegante sono un signore vengo solo al cielo ho il sangue blu che cazzo io sono Tolstoi che sono quel poraccio di Dostoievski capito parliamo così nell'oligarchia di noi signori allora ragazzi oggi a grande richiesta soprattutto di altre radio prendetevelo voi è tornato Igor Sibaldi quindi direi Siglam",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Green Light",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "SZA"
   },
   {
     "id": "2017-05-02-002",
@@ -38,9 +41,11 @@
     "end": 347.53,
     "speaker_raw": "SPEAKER_01",
     "testo": "Ma cosa ridi? Rido perché ogni tanto faccio questa cosa dello spaccone, no? Per ridere. A volte penso sempre che non tutti capiscono che sto scherzando, no? Cioè qualcuno si è risentito? No, no, però a proposito di poracci, no? Fammi aprire la mail subito. No, sto scherzando, volevo salutare Leonora che dice ciao oggi sono già al lavoro, sono in coma, sono tornata da New York dopo 28 ore di viaggio.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "ritorno da New York",
+    "tema": [
+      "viaggio"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

@@ -426,10 +426,14 @@
     "end": 1433.61,
     "speaker_raw": "SPEAKER_09",
     "testo": "Sì, sì, però in casa a volte mette anche quello della principessa di Frozen. Ma è giusto. Sì, sì. Tutti quelli, cioè lui gli piace un sacco Frozen. Frozen, ieri l'ho portato a vedere il piazza Duomo, gli ho portato a vedere il Duomo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Frozen",
+    "tema": [
+      "famiglia",
+      "divertimento"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Disney"
   },
   {
     "id": "2017-02-27-038",

@@ -564,10 +564,13 @@
     "end": 1444.86,
     "speaker_raw": "SPEAKER_05",
     "testo": "I wanna reach out and touch the flame where the streets have no name ... ... ... Ciao! Grazie a tutti",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "where the streets have no name",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "U2"
   },
   {
     "id": "2017-03-16-051",

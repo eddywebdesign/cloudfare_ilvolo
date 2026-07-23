@@ -61,8 +61,11 @@
     "speaker_raw": "SPEAKER_04",
     "testo": "non mi dire eh tra l'altro se non hai il biglietto sai che non entri più nelle stazioni certo c'è quello lì che controlla c'è il check in io tutte le volte faccio e dico non voglio andare da nessuna parte voglio dormire sul regionale che ce l'ha l'ultimo binario va bene ragazzi come state? siete in ufficio? siete soli? abbandonati? qualcuno di voi che di solito ha un bel gruppo di amici lì amici insomma colleghi questa mattina magari è lì poverino con la sua cuffietta tipo il matrimonio greco o qualcosa il grasso grosso che lei è seduta che ha quella cuffia con il microfonino davanti siete lì da sole disperate come in un call center chiamateci e vi facciamo compagnia noi ok? Sigla",
     "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "tema": [
+      "viaggio",
+      "biglietto"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -131,8 +134,11 @@
     "speaker_raw": "SPEAKER_01",
     "testo": "sono uscita e il controllo è valente ma il signore ha già la barba ho fatto i fatti tuoi con il mio accento sbagliato dai stiamo scherzando e la signora vestita da Fabio Volo la signora vestita da Fabio Volo faceva i selfie diceva non so io dai Fabio Volo non te la tirare",
     "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "tema": [
+      "stazione",
+      "controllo"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -142,8 +148,11 @@
     "speaker_raw": "SPEAKER_04",
     "testo": "e uno andando via ho sentito che diceva comunque Fabio Volo c'ha la flebite la signora c'aveva le caviglie c'aveva le caviglie così la signora ma Fabio Volo c'ha la flebite pensavo fosse solo calvo buongiorno ragazzi chiamateci dal vostro ufficio dalla vostra macchinetta da gente che sta andando a lavoro e non c'è traffico che meraviglia noi teoricamente tu no Maurizio in quanto cattolico oggi dovresti essere un po' triste oggi è venerdì santo Gesù diciamo risuscita domenica ma oggi è tutta quella roba lì la processione sei un po' giù? cioè è normale sai perché non sei tanto giù? perché noi lo sappiamo già come va a finire cioè che domenica dice col cacchio capito? grande grande sentite con cosa partiamo questa mattina abbiamo anche il nostro ospite misterioso di ciao fa ridere che poi non ne parliamo mai pensa che viene qua solo a dire ciao e poi va via",
     "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "tema": [
+      "stazione",
+      "celebrità"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -186,8 +195,11 @@
     "speaker_raw": "SPEAKER_04",
     "testo": "Vieni. Io per esempio, no, non devo iniziare a lavorare, quando passo, quando passo. Certo. Quando vengo con Sebastian a fargli vedere qui lavora papà, capito? Un giorno tutto questo. Un giorno anche tu, un giorno sarà tutto tuo. e stamattina volevo portarlo tra l'altro perché non è a scuola e ho detto vuoi venire in radio con me? mi ha detto vengo e canto Jingle Bells al microfono gli ho detto sì sei un po' fuori però Maurizio apprezzerebbe di sicuro ma a proposito di bambini che sono a casa molti così ci trasferiamo a Cuneo Perché c'è una ragazza argentina. Hola, hola. Hola, que tal? Que tal?",
     "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "tema": [
+      "radio",
+      "figlio"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

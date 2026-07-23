@@ -16,10 +16,13 @@
     "end": 187.4,
     "speaker_raw": "SPEAKER_07",
     "testo": "Ciao! Two hearts, new start, every card is wild They're in your arms The radio up and the windows down Use hands, slow dance under crooked stars we were clumsy at love it was a shaky two step in a parking lot and now tell us dear you better fear you better fear it all but you were my sunlight northern lights my southern cry Ciao! a presto Ciao!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Two Hearts",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "John Lennon"
   },
   {
     "id": "2017-03-08-002",
@@ -49,9 +52,11 @@
     "end": 435.28,
     "speaker_raw": "SPEAKER_05",
     "testo": "Io credo nel rosa. Io credo che ridere sia il modo migliore per bruciare calorie. Io credo nei baci, molti baci. Io credo nel divertare forte quando tutto sembra andare storto. Io credo che le ragazze felici siano le ragazze più belle. Io credo che domani sarà un altro giorno e io credo nei miracoli. È bella positiva. Sì. Ok. Facile. È facile.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Credo nel rosa",
+    "tema": [
+      "positività"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -174,9 +179,11 @@
     "end": 853.75,
     "speaker_raw": "SPEAKER_04",
     "testo": "pensa alla Johanna che la prendo così se l'avessi fatto ai tempi se l'avessi fatto una presa una presa così mmm non lo so vedi?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Presenza di Johanna",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

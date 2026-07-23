@@ -438,9 +438,12 @@
     "end": 2025.18,
     "speaker_raw": "SPEAKER_02",
     "testo": "ciao ciao ciao ciao ciao questa è la pancia del paese tu la devi comunque accogliere ma figurati questa è la pancia del paese io urlo e strepito urlo e strepito tu sei una hipster questa è il paese non è facile partire puoi morire Grazie a tutti. Grazie. e non puoi, non puoi, non puoi più rimandare",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Urlo e strepito",
+    "tema": [
+      "paese",
+      "vita"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -449,9 +452,12 @@
     "end": 2109.35,
     "speaker_raw": "SPEAKER_01",
     "testo": "Abbiamo creato anche ansia ad alcuni ascoltatori, diciamo io sono fidanzato con un uomo separato, non è che poi torna, ma non si sa, non sono cose, ogni storia è privata. Comunque niente, dopo questa telefonata con Diego si sono scatenati un po' di messaggi.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Storie private",
+    "tema": [
+      "relazione",
+      "privacy"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

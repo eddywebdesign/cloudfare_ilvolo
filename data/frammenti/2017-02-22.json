@@ -363,10 +363,13 @@
     "end": 966.01,
     "speaker_raw": "SPEAKER_02",
     "testo": "Sì, metti Maurizio, metti The Miracle, perché lui è veramente The Miracle che lei sta con lui. Ciao Rudy, grazie! Ciao ragazzi!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "The Miracle",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "U2"
   },
   {
     "id": "2017-02-22-033",
