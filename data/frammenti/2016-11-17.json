@@ -554,11 +554,14 @@
     "end": 2663.34,
     "speaker_raw": "SPEAKER_05",
     "testo": "Voglio salutare mio amico Monticelli, che tanti anni fa, quando, proprio tanti, tanti anni fa, ascoltammo questo album insieme in macchina e da allora non potevamo più farne a meno. Tu usi anche i verbi giusti quando faccio quello serio. Quando faccio finta di non sapere... L'autista di mio papà starnottiva talmente forte che un giorno ha buttato giù il vetro del camion con una testata. Ciò lì ha fatto... Con la testa, pum! e ragazzo invece Matteo dice una mia amica starnutendo si è rotta una costola un sacco di gente che si è rotta le costole ma come si fa a rompere la costola la Madonna o comunque gente un po' fragilina io potrei rompere la costola ecco io stavo dicendo un'altra cosa che io non so fare a parte questi starnuti perché veramente se sono a casa da solo e lo faccio è veramente rimbomba la casa non riesco a controllare cioè io ho ho paura che chiamano i carabinieri non lo so un'altra cosa che non so fare che mio padre era bravo invece a farlo quelli che riescono a fare tipo il suono della tromba quando si soffiano il naso avete pensato che quelli fanno se io mi soffio il naso si sente invece mio papà che alcune persone fanno proprio Maurizio tu lo fai per esempio strombettano come si fa?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "album in macchina insieme",
+    "tema": [
+      "amicizia",
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": ""
+    "autore": "Jeff Buckley"
   },
   {
     "id": "2016-11-17-047",
