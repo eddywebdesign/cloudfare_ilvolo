@@ -313,10 +313,13 @@
     "end": 461.63,
     "speaker_raw": "SPEAKER_11",
     "testo": "Scusi, la sicurezza prima di tutto. Allora, invece no, diamo una notizia che non è molto bella. Un grandissimo cantautore americano ha dichiarato ieri, smetto di suonare e cantare perché ho un brutto male. Parkinson. Al Parkinson e quindi noi questa mattina iniziamo con una sua bellissima canzone che annuncia Viola. Lui si chiama? Neil Diamond. Neil Diamond e la canzone è?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "I'm a Believer",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Neil Diamond"
   },
   {
     "id": "2018-01-24-029",
@@ -358,8 +361,10 @@
     "speaker_raw": "SPEAKER_11",
     "testo": "Ho trovato un altro gruppo di appartenenza, facendo il voto del mattino diciamo delle cose, c'è il gruppo di appartenenza, che in Italia va molto il gruppo di appartenenza, appartenere a qualcosa o a qualcuno, un'idea, una squadra, una religione. E poi con le varianti, un sacco di gente patatina e birra è un po' addicte, diciamo una droga, ma c'è anche la corrente prosecco e patatina.",
     "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "tema": [
+      "appartenenza"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

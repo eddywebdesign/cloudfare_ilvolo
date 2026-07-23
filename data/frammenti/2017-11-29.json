@@ -27,10 +27,13 @@
     "end": 191.89,
     "speaker_raw": "SPEAKER_01",
     "testo": "Voglio essere sincero, questa canzone dei The Killers non l'ho scelta io, anche se mi piace tanto. La scelta Mauro, cioè Mauro è un ragazzo che vive di là, nella stanza dove si scelgono le musiche, diciamo. Poi alcuni di noi hanno accesso a quella stanza e possono partecipare alla scelta delle canzoni. Io in questi anni mi sono guadagnato questa possibilità. Che è la cosa a cui tenevo di più, no? Io tutti gli anni, quando facciamo un incontro con Linus, vado su, Linus è lì col sigaro e mi dice, dimmi, dimmi. Col sigaro? È come il padrino, io entro e dico, Don Linus, mi serve un favore, mia figlia.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Human",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "The Killers"
   },
   {
     "id": "2017-11-29-003",
@@ -49,9 +52,11 @@
     "end": 225.57,
     "speaker_raw": "SPEAKER_01",
     "testo": "Mia figlia, sai quando lui va dal padrino e le dice mia figlia? Tu no. Non mi hai mai portato rispetto e adesso mi viene a chiedere un favore. E Linus mi dice così, sul tapirulante tra l'altro, col sigaro, col tapirulante, mi dice vuoi un po' mettere la tua musica? Va bene, quest'anno la puoi mettere. Con gli atto. Sì, e poi si toglie le barrette della zona dalla bocca, quindi non mette il cotone come Marlon Brando. Tra l'altro quella è una storia bellissima perché... Stai già deviando. Sto già deviando perché Marlon Brando si presenta sul set così. Si presenta sul set e si inventa sta roba del cotone in bocca. Cioè, capisci?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Linus e il padrino",
+    "tema": [
+      "famiglia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -71,9 +76,11 @@
     "end": 256.64,
     "speaker_raw": "SPEAKER_01",
     "testo": "Io ho il fruncolo sul naso in questi giorni per la presentazione del mio libro. È finto, è finto. È perché mi fa più vicino alla gente. Ma mi sa che non lo stai trattando bene. Ho avuto prima l'orzaiolo e ho fatto la prima settimana di promozione con l'orzaiolo. Quindi ha gente a foto con l'occhio rosso, poi ha gente a foto con il naso, con il fruncolo. Punto per la settimana prossima, adesso questo weekend Puglia, la settimana prossima Sicilia. Per la Sicilia punto all'herpes. Poi ha afta in bocca, va bene. Scusate, va bene.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Presentazione del libro",
+    "tema": [
+      "autore"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -93,10 +100,13 @@
     "end": 288.67,
     "speaker_raw": "SPEAKER_01",
     "testo": "Tra l'altro anche in Apocalypse Now lui arriva tutto rasato così. È tutta una storia stupenda. Se volete un giorno facciamo la rubrica cose che so. Cose che so a cose che so. Oggi ragazzi avete presente la sorpresa? Cioè quando uno tocchi c'è un pacco per lei. E tu dici, ma non è il mio compleanno. Fa niente. Abbiamo una gran sorpresa. Oggi qui con noi c'è la mia... Posso dire che sei mia amica? È al telefono, non mi caga. Ambra.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Apocalypse Now",
+    "tema": [
+      "guerra"
+    ],
+    "tipo": "riferimento_film",
+    "video_url": "",
+    "autore": "Francis Ford Coppola"
   },
   {
     "id": "2017-11-29-009",
@@ -115,9 +125,11 @@
     "end": 303.08,
     "speaker_raw": "SPEAKER_01",
     "testo": "Ho detto, vuoi un caffè Ambra? Sì. Deve andare giù però perché per la macchinetta se l'abbiamo giù dal portinaio. Antonio. Allora, Antonio, ieri sono venuti due ascoltatori. È già passato qualcuno?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ascoltatori",
+    "tema": [
+      "ascoltatori"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -863,10 +875,14 @@
     "end": 1218.66,
     "speaker_raw": "SPEAKER_01",
     "testo": "Una volta l'Alitalia organizzava, forse lo fa ancora se c'è qualche ascoltatore che lavora all'Italia, organizza dei corsi per persone che hanno paura di volare.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Volere Volare",
+    "tema": [
+      "voli",
+      "paura"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Alitalia"
   },
   {
     "id": "2017-11-29-079",
@@ -885,9 +901,12 @@
     "end": 1236.79,
     "speaker_raw": "SPEAKER_01",
     "testo": "Lì c'era marketing, ragazzi. Ah, questa roba tua, non lo so. No, perché sembra anche una canzone. Volere volare. Toni Dallara potrebbe cantarla. Chiamiamo? Ah! Mi ha chiamato Tony Dallara ieri sera alle nove, ma io stavo mettendo... Non l'hai richiamato?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Tony Dallara",
+    "tema": [
+      "telefono",
+      "bambini"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -929,9 +948,12 @@
     "end": 1263.66,
     "speaker_raw": "SPEAKER_01",
     "testo": "Niente, c'era il corso Volere Volare. Prima facevi la teoria, poi un giorno facevi il Milano-Roma in volo. Ma lei non si presentava mai a quel giorno lì.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "corso Volere Volare",
+    "tema": [
+      "voli",
+      "paura"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1446,10 +1468,14 @@
     "end": 1743.96,
     "speaker_raw": "SPEAKER_01",
     "testo": "No, la radio confusa. Allora, ti faccio una domanda veloce e poi ci racconti l'aneddoto. Dai, veloce, prova, prova. La domanda veloce è, il cinese che ha inventato... Ma cos'è, non è veloce? No, il cinese che ha inventato... L'Amazon cinese che si chiama Alibaba, se gli dai il giorno del Black Friday, gli davi tipo 2000 euro, potevi avere quello che volevi, distribuzione a vita.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Alibaba",
+    "tema": [
+      "economia",
+      "aziende"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Jack Ma"
   },
   {
     "id": "2017-11-29-132",
@@ -1490,9 +1516,12 @@
     "end": 1773.11,
     "speaker_raw": "SPEAKER_01",
     "testo": "Chi ha fatto la tua testa a trasformarla? Perché sono notizie che non me ne frego niente. Allora perché le devi condividere con me? Tu di cosa vorresti la fornitura a vita? A parte le borse, lui vi tocca dentro il cane.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Fornitura a vita di alcolici",
+    "tema": [
+      "alcol",
+      "fornitura"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1512,9 +1541,12 @@
     "end": 1804.89,
     "speaker_raw": "SPEAKER_01",
     "testo": "Tu e Roberto Ferrari ormai ce li avete. Di strapuntini. Delle hostess. Io ti dico, una volta in volo, quando facevamo la promozione del film, è partito l'aereo, tu eri seduto a fianco a me, mi hai dato la mano così, hai sganciato la cintura e sei corsa in cabina, ai tempi si poteva probabilmente, non so. Sì, ancora sì. E sei entrata in cabina dei piloti, perché lei, adesso ve lo racconterà, perché lei sa tutto quello che avviene lì, ha bisogno di vedere i numeri coi suoi occhi e poi si tranquillizza e si risiede, più o meno.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Promozione del film",
+    "tema": [
+      "film",
+      "promozione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1930,10 +1962,14 @@
     "end": 2342.71,
     "speaker_raw": "SPEAKER_01",
     "testo": "Scusami, mi fai un favore? Mi metti l'inizio di Alba Chiara? Perché così sembra veramente un vero concerto. Tu rimani fino ad Alba Chiara, io quando parto mi allontano un pochino. Dove vai? Una volta. Una volta quando partiva Alba Chiara mi allontanavo per schivare un po' tutta la fiumata di gente. Adesso invece, sai, essendo all'ambiente, vado in camerino, dico non sei stato madre. Mi sono messo dietro il naso nel frattempo. La domanda è sempre così. Adesso come la togliamo? E lui, la tolgo io, perché lui è un anafetivo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Alba Chiara",
+    "tema": [
+      "musica",
+      "concerti"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Vasco Rossi"
   },
   {
     "id": "2017-11-29-176",
@@ -1985,10 +2021,14 @@
     "end": 2374.17,
     "speaker_raw": "SPEAKER_01",
     "testo": "Canta con me, ti prego. Allora, Ambra, tu sei in tournée con La Guerra dei Guns N'Roses. La Guerra dei Guns N'Roses.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "La Guerra dei Guns N'Roses",
+    "tema": [
+      "musica",
+      "teatro"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Guns N' Roses"
   },
   {
     "id": "2017-11-29-181",
@@ -2161,9 +2201,12 @@
     "end": 2465.61,
     "speaker_raw": "SPEAKER_01",
     "testo": "Ambra e Fabio dovete fare un programma insieme. No, ma Ambra, alzate stare me. Possiamo fare che una mattina... Ma non essere modesti. Ascoltami. Io da sola non voglio fare niente.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "non fare niente da sola",
+    "tema": [
+      "solitudine",
+      "aiuto"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -2557,9 +2600,12 @@
     "end": 2710.71,
     "speaker_raw": "SPEAKER_04",
     "testo": "And here's a helpful tip to rain Administered in raindrops May help to hide the tears a little more Volo Volo Volo Volo",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Nuvole e lacrime",
+    "tema": [
+      "amore",
+      "paura"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -2579,10 +2625,14 @@
     "end": 2800.88,
     "speaker_raw": "SPEAKER_04",
     "testo": "Which is why a guy who never cries Stays up all night with hopeful eyes Hoping when it finally rains it pours I'm just a showboat Won't catch me crying no Won't catch me showing any hurt I'm just a showboat Pretending I can stay afloat Pretending I'm not sinking over",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Showboat",
+    "tema": [
+      "amore",
+      "paura"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "I'm just a showboat"
   },
   {
     "id": "2017-11-29-235",
@@ -2623,10 +2673,14 @@
     "end": 2853.68,
     "speaker_raw": "SPEAKER_03",
     "testo": "In quanto ha scritto un libro nuovo. Ascoltami, perché mi prendi?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Libro nuovo",
+    "tema": [
+      "libri",
+      "scrittura"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Ambra"
   },
   {
     "id": "2017-11-29-239",

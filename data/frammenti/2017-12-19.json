@@ -16,10 +16,14 @@
     "end": 60.89,
     "speaker_raw": "SPEAKER_01",
     "testo": "He's making a list, checking it twice He's gonna find out who's naughty at night Santa Claus is coming to town He sees you when you're sleeping He knows when you're awake He knows if you've been bad or good So be good for goodness sake Oh, you better watch out. You better not cry. You better not pout. I'm telling you why. Santa Claus is coming. It's your turn.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Santa Claus Is Coming to Town",
+    "tema": [
+      "natale",
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "J. Fred Coots e Haven Gillespie"
   },
   {
     "id": "2017-12-19-002",
@@ -544,10 +548,14 @@
     "end": 576.96,
     "speaker_raw": "SPEAKER_15",
     "testo": "Ma chi ne sa? Etta James, At Last.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "At Last di Etta James",
+    "tema": [
+      "musica",
+      "citazione"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Etta James"
   },
   {
     "id": "2017-12-19-050",
@@ -555,10 +563,13 @@
     "end": 625.72,
     "speaker_raw": "SPEAKER_05",
     "testo": "My lonely days are over And life is like a song Volo, Maurizio, Viola.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "My lonely days are over",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "The Bee Gees"
   },
   {
     "id": "2017-12-19-051",
@@ -588,9 +599,13 @@
     "end": 750.15,
     "speaker_raw": "SPEAKER_15",
     "testo": "Beh, insomma, dunque, mio padre ha vinto 300 milioni, cioè, siamo diventati gli straccioni dalle 9 alle 10 in un secondo. Un sacco di gente ha scritto mio padre, mio cugino, mio zio, mio nonno, 100 milioni di lire, 300 milioni, 9 miliardi. No, no, qua uno dice mio papà, però è abbastanza vicino il papà. Valentina! Sì, eccomi. Nel 1999, mi ricordo, uno dei compleanni più belli della mia vita, Savino, faceva i 45 anni nel 99, ti ricordi Savino? Sì.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La vincita milionaria del padre vigile",
+    "tema": [
+      "denaro",
+      "famiglia",
+      "sorpresa"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1160,9 +1175,13 @@
     "end": 1320.48,
     "speaker_raw": "SPEAKER_15",
     "testo": "No, ma io dico in generale, in generale. Eh, ma in generale perché tu ce li hai. No, ma anche non averli. Il concetto che tu affidi la tua, come dire, insoddisfazione, certo è una speranza, però ci sono persone, quelli lì, Gratta e Vinci, le cose che proprio sono ossessivi perché dicono quella è l'unica.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'illusione e la speranza nella lotteria",
+    "tema": [
+      "speranza",
+      "gioco d'azzardo",
+      "delusione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -1237,9 +1256,12 @@
     "end": 1384.41,
     "speaker_raw": "SPEAKER_11",
     "testo": "Non devo fare più niente. Che bello. Sai... Ho passato quasi ogni notte della mia vita a sognare di poter fare quello che voglio.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Non devo fare più niente",
+    "tema": [
+      "libertà",
+      "sogni"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -2161,10 +2183,14 @@
     "end": 2476.44,
     "speaker_raw": "SPEAKER_11",
     "testo": "Dicono che c'è un tempo per seminare e uno che hai voglia ad aspettare, un tempo sognato che viene di notte e un altro di giorno, teso, come un lino a sventolare. C'è un tempo negato e uno segreto, un tempo distante che è roba degli altri. Un momento che era meglio partire e quella volta che noi due era meglio parlarci.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "C'è tempo",
+    "tema": [
+      "tempo",
+      "vita"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Ivano Fossati"
   },
   {
     "id": "2017-12-19-197",
