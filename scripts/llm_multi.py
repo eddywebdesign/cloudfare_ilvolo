@@ -46,6 +46,21 @@ CEREBRAS_BASE_URL = "https://api.cerebras.ai/v1"
 GEMINI_MODEL = "gemini-flash-lite-latest"
 GEMINI_KEY_FILE = Path.home() / "API_google_AI.txt"
 GEMINI_BASE_URL = "https://generativelanguage.googleapis.com/v1beta"
+
+# Ollama locale (K16, RTX 5070) - installato 2026-07-23 come ripiego quando Groq/Cerebras/
+# Gemini sono esauriti, per smaltire l'arretrato di classificazione senza aspettare il
+# giorno dopo. Nessun tetto giornaliero (gira in locale), ma va usato con giudizio: la GPU
+# e' la stessa della trascrizione, quindi resta l'ULTIMA scelta, mai la prima.
+# NON passare "format": "json" all'API - testato empiricamente 2026-07-23: con quel vincolo
+# qwen2.5:14b collassa su un singolo oggetto invece dell'array richiesto dal prompt: senza,
+# segue correttamente lo schema (il prompt stesso chiede gia' un array JSON esplicito).
+# keep_alive breve: il modello (9GB) si scarica dalla VRAM poco dopo l'ultimo uso invece di
+# restare fisso, lasciando piu' margine alla trascrizione quando la coda di classificazione
+# e' ferma.
+OLLAMA_BASE_URL = "http://localhost:11434"
+OLLAMA_MODEL = "qwen2.5:14b-instruct-q4_K_M"
+OLLAMA_KEEP_ALIVE = "30s"
+OLLAMA_TIMEOUT_S = 120  # generoso: in coda dietro whisperx puo' volerci piu' di una chiamata cloud
 # Preferenza modelli Cerebras: il catalogo cambia nel tempo, si sceglie il primo
 # disponibile in questo ordine. I modelli "reasoning" (gpt-oss/glm) hanno bisogno di
 # reasoning_effort=low per non sprecare token in ragionamento nascosto (verificato).
@@ -84,11 +99,24 @@ def token_usati_oggi(provider: str) -> int:
 
 def provider_disponibile() -> str | None:
     """Alterna tra i provider in ORDINE_PROVIDER, scegliendo quello con meno token
-    usati oggi TRA quelli che hanno ancora budget. None se entrambi esauriti."""
+    usati oggi TRA quelli che hanno ancora budget. Se tutti e tre (cloud, gratuiti)
+    sono esauriti, ripiega su "ollama" (locale, RTX 5070, nessun tetto giornaliero) -
+    SOLO come ultima risorsa, per non contendere la GPU alla trascrizione piu' del
+    necessario. None solo se anche ollama non e' raggiungibile."""
     disponibili = [p for p in ORDINE_PROVIDER if budget_disponibile(p)]
-    if not disponibili:
-        return None
-    return min(disponibili, key=token_usati_oggi)
+    if disponibili:
+        return min(disponibili, key=token_usati_oggi)
+    if _ollama_raggiungibile():
+        return "ollama"
+    return None
+
+
+def _ollama_raggiungibile() -> bool:
+    try:
+        r = requests.get(f"{OLLAMA_BASE_URL}/api/tags", timeout=5)
+        return r.status_code == 200
+    except Exception:
+        return False
 
 
 def _load_key(env_var: str, file_path: Path, nome: str) -> str:
@@ -270,6 +298,54 @@ class GeminiClient:
         self.chat = _GeminiChat(api_key)
 
 
+class _OllamaResponse:
+    """Stessa forma di _CerebrasResponse/_GeminiResponse."""
+
+    class _Usage:
+        def __init__(self, total_tokens):
+            self.total_tokens = total_tokens
+
+    class _Message:
+        def __init__(self, content):
+            self.content = content
+
+    class _Choice:
+        def __init__(self, content):
+            self.message = _OllamaResponse._Message(content)
+
+    def __init__(self, data: dict):
+        content = data.get("message", {}).get("content") or "[]"
+        self.choices = [_OllamaResponse._Choice(content)]
+        tot = data.get("prompt_eval_count", 0) + data.get("eval_count", 0)
+        self.usage = _OllamaResponse._Usage(tot)
+
+
+class _OllamaCompletions:
+    def create(self, model: str, messages: list, max_tokens: int, temperature: float, response_format: dict):
+        # response_format ignorato di proposito: NON passare "format": "json" all'API
+        # ollama, vedi commento su OLLAMA_BASE_URL sopra per il motivo (testato empiricamente).
+        payload = {
+            "model": model, "messages": messages, "stream": False,
+            "keep_alive": OLLAMA_KEEP_ALIVE,
+            "options": {"temperature": temperature, "num_predict": max_tokens},
+        }
+        r = requests.post(f"{OLLAMA_BASE_URL}/api/chat", json=payload, timeout=OLLAMA_TIMEOUT_S)
+        r.raise_for_status()
+        return _OllamaResponse(r.json())
+
+
+class _OllamaChat:
+    def __init__(self):
+        self.completions = _OllamaCompletions()
+
+
+class OllamaClient:
+    """Client minimale, stessa forma degli altri: client.chat.completions.create(...)."""
+
+    def __init__(self):
+        self.chat = _OllamaChat()
+
+
 _client_cache: dict[str, object] = {}
 _model_cache: dict[str, str] = {}
 
@@ -291,6 +367,9 @@ def client_e_modello(provider: str):
             key = _load_key("GEMINI_API_KEY", GEMINI_KEY_FILE, "Gemini")
             _client_cache["gemini"] = GeminiClient(api_key=key)
             _model_cache["gemini"] = GEMINI_MODEL
+        elif provider == "ollama":
+            _client_cache["ollama"] = OllamaClient()
+            _model_cache["ollama"] = OLLAMA_MODEL
         else:
             raise ValueError(f"provider sconosciuto: {provider}")
     return _client_cache[provider], _model_cache[provider]
