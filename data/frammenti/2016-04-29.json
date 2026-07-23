@@ -104,9 +104,11 @@
     "end": 566.27,
     "speaker_raw": "SPEAKER_07",
     "testo": "walking on a plane as I hold my breath it's gonna be weeks till I breathe again no no no I know that you hate it and I hate it just as much as you but if you can brave it I can brave it brave it all for you Ciao!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "walking on a plane",
+    "tema": [
+      "respirare"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -274,9 +276,13 @@
     "end": 1200.24,
     "speaker_raw": "SPEAKER_00",
     "testo": "Per me la natura è, sai, non lo so, i ragni, i cimici, il pesce grosso che mangia il piccolo, le piante che mangiano altre piante, animali che mangiano... È un enorme ristorante, così la vedo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "natura come ristorante",
+    "tema": [
+      "natura",
+      "ciclo",
+      "vita"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -755,10 +761,13 @@
     "end": 2238.53,
     "speaker_raw": "SPEAKER_09",
     "testo": "idem esatto idem va bene quindi mettiamo questa canzone che è bella dai dai no ma seriously happy birthday let me go I don't wanna be your hero I don't wanna be a big man I just wanna fight with everyone else ... ... ... Grazie. Musica",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Let Me Go",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "P!nk"
   },
   {
     "id": "2016-04-29-065",

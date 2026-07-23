@@ -71,10 +71,13 @@
     "end": 402.03,
     "speaker_raw": "SPEAKER_01",
     "testo": "Stamattina mi sono svegliato e avevo il Whatsapp in fiamme. Perché? Perché c'era un mio amico da New York che è andato a vedere i Pink Floyd al Madison Square Garden. Non credo ci fosse Roger Waters, diciamo Gilmore, però mi ha fatto due o tre videini.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Pink Floyd al Madison Square Garden",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Gilmore"
   },
   {
     "id": "2016-04-13-007",
@@ -148,9 +151,11 @@
     "end": 971.37,
     "speaker_raw": "SPEAKER_01",
     "testo": "La super classifica show, ci sono i totu. Questa è una canzone che ascoltavo sempre in macchina con mio papà quando andavamo in vacanza, ho questo ricordo, avevo dieci anni, che bello. L'avevamo fatto una mattina, vi ricordate? Le canzoni che si ascoltavano da bambini in macchina quando si andava in vacanza. Se sei tu l'angelo azzurro, questo azzurro non mi piace. no mio papà te l'ho sempre detto purtroppo mio papà era avevo la mamma diciamo battisti quel mondo lì i dischi in casa mio padre era più su Fausto Papetti ma secondo me per le copertine dicevo sempre perché Fausto Papetti che suonava il sax aveva sempre le copertine con le donne nude no però c'era Fausto Papetti con la roba lì così doni e giangoli come si chiamavano gli altri allora mentre andava al disco ogni tanto con Maurizio lo lasciamo libero diciamo spontaneo a volte invece creiamo il personaggio quando rientriamo Maurizio tu di questa cosa che anche se non la pensi però fa ridere adesso io ho detto quando entriamo tu di che effettivamente Toto questa canzone Africa non mi piace no ma non devo far finta non mi piace veramente ma io posso lavorare qua degli ascoltatori che dicono ma come fai a valutare una canzone dalla durata si valuta si valuta perché guarda questo ascoltatore a tutti e due vi ha detto a voi due come fai a dire una canzone è bella o brutta si è bella ma è lunga Mungo e Gerry No, Bungo e Gerry. Non so, Rudy Zerbi mi scrive. No, no, si chiamavano... Madonna, sì, quelle chitarre lì... Eh, vabbè, niente, è andata così. Allora, siccome un ascoltatore questa mattina, ma anche alcuni la settimana scorsa, ogni tanto random ci scrivete, ma la zia Leti, che fine ha fatto la zia Leti, la tua zia Leti? la zia Leti va al non so se si chiama diurno cioè non sta più a casa da sola anziana la vanno a prendere la mattina la portano a questo centro tipo ricovero è un circolo stanno lì chiacchierano mangiano tutti insieme poi la sera la riportano a casa cioè non dorme lì ok allora se volete io mi sono fatto dare il numero del centro dalla figlia, dalla Fabrizia se vuoi lo chiami al centro di urno non so cosa salta fuori potrebbe anche dirmi che non me la passano piuttosto che dirci che non lo so che non vuole più parlare con me Santo e Johnny, grande Cinzia l'ascoltatrice Santo e Johnny si chiamavano occupato è il centro di un occupato ma cosa sapranno da dire il centro di uno degli anziani non lo so un sacco di cose vabbè Santo e Johnny gli ascoltatori la conoscono vai su Spotify mentre aspetti alle azieletti e mettimi un Santo e Johnny si intratieni però mentre cerco intratieni Santo Santo e Johnny Santo e Johnny questo è qua mio papà ascoltava questo Ah, rifatto da Santo e Giorno, perché loro non cantavano, suonano musica? Abbiamo fatto una provesta che non ha potuto rifiutare. Adesso Maurizio, prendi un telefono e chiama al centro di urno un zianide paratico del lago Teseo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "canzoni in vacanza",
+    "tema": [
+      "ricordi"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

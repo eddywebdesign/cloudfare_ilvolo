@@ -229,10 +229,13 @@
     "end": 612.92,
     "speaker_raw": "SPEAKER_06",
     "testo": "allora mettiamo una breve dai una breve mettiamo Hey You perché è bellissima",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Hey You",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Pink Floyd"
   },
   {
     "id": "2016-04-20-019",
@@ -335,10 +338,13 @@
     "end": 1078.62,
     "speaker_raw": "SPEAKER_01",
     "testo": "Ci credete che ho tenuto la pelle d'oca, credo, per tre minuti di fila? Perché questa è proprio la mia adolescente. The Wall è proprio la mia adolescente. Con la cameretta, con le cuffie, guardare il soffitto e dire ma che cacchio faccio della mia vita? Ma che ne so qua, è tutto storto. Guarda, mi sto, senti, sulle braccia perché voglio farmela andare via. Ah, non mi senti? Ah, perché Enzino devi schiacciare un pulsante.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "The Wall",
+    "tema": [
+      "adolescenza"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Pink Floyd"
   },
   {
     "id": "2016-04-20-028",
