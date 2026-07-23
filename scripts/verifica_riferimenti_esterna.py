@@ -22,6 +22,12 @@
 #
 # Uso: python scripts/verifica_riferimenti_esterna.py [data1 data2 ...]
 #      senza argomenti: controlla tutte le voci non ancora verificate in data/riferimenti/
+#      --dataset frammenti: stessa identica verifica ma su data/frammenti/*.json,
+#      esteso 2026-07-23 su richiesta esplicita dell'utente ("TUTTI i frammenti
+#      devono passare per questo database") - i riferimento_libro/film/musica dentro
+#      i frammenti (assegnati da classifica_frammenti(), ora anche via Ollama) avevano
+#      SOLO l'ancoraggio al testo come controllo, mai un riscontro con un database
+#      esterno reale come i riferimenti bibliografici/filmografici separati.
 
 import argparse
 import difflib
@@ -37,8 +43,21 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
 from dati_root import dati_root, logs_root  # noqa: E402
 
-RIF_DIR = dati_root(ROOT) / "riferimenti"
-REPORT_PATH = logs_root(ROOT) / "riferimenti_non_confermati.json"
+# Mappa (cartella dati, nome campo categoria, {valore campo -> categoria libro/film/musica}, nome report).
+# "riferimenti" ha gia' il campo "categoria" con i valori giusti; "frammenti" ha "tipo"
+# con prefisso "riferimento_" e altri tipi (aneddoto/riflessione/...) da ignorare.
+DATASET_CONFIG = {
+    "riferimenti": {
+        "dir": "riferimenti", "campo": "categoria",
+        "mappa": {"libro": "libro", "film": "film", "musica": "musica"},
+        "report": "riferimenti_non_confermati.json",
+    },
+    "frammenti": {
+        "dir": "frammenti", "campo": "tipo",
+        "mappa": {"riferimento_libro": "libro", "riferimento_film": "film", "riferimento_musica": "musica"},
+        "report": "frammenti_riferimenti_non_confermati.json",
+    },
+}
 
 TMDB_KEY_FILE = Path.home() / "TMDB API.txt"
 USER_AGENT = "IlVoloDelMattinoArchivio/1.0 (uso non commerciale, archivio fan Radio Deejay)"
@@ -155,11 +174,18 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("date", nargs="*", help="date YYYY-MM-DD da verificare (default: tutte)")
     parser.add_argument("--limit", type=int, default=0, help="numero massimo di voci da processare in questo run (0 = tutte)")
+    parser.add_argument("--dataset", choices=list(DATASET_CONFIG), default="riferimenti",
+                         help="quale cartella dati verificare (default: riferimenti)")
     args = parser.parse_args()
+
+    cfg = DATASET_CONFIG[args.dataset]
+    data_dir = dati_root(ROOT) / cfg["dir"]
+    report_path = logs_root(ROOT) / cfg["report"]
+    campo, mappa = cfg["campo"], cfg["mappa"]
 
     tmdb_key = _tmdb_key()
 
-    files = [RIF_DIR / f"{d}.json" for d in args.date] if args.date else sorted(RIF_DIR.glob("*.json"))
+    files = [data_dir / f"{d}.json" for d in args.date] if args.date else sorted(data_dir.glob("*.json"))
 
     tutte_le_voci = []
     for fp in files:
@@ -167,13 +193,13 @@ def main() -> None:
             continue
         dati = json.loads(fp.read_text(encoding="utf-8"))
         for r in dati:
-            if r.get("titolo") and r.get("categoria") in ("libro", "film", "musica") and "confermato_esterno" not in r:
+            if r.get("titolo") and r.get(campo) in mappa and "confermato_esterno" not in r:
                 tutte_le_voci.append((fp, r))
 
     if args.limit:
         tutte_le_voci = tutte_le_voci[:args.limit]
 
-    print(f"Verifico {len(tutte_le_voci)} voci contro database esterni reali (Open Library/TMDB/MusicBrainz)...")
+    print(f"Verifico {len(tutte_le_voci)} voci ({args.dataset}) contro database esterni reali (Open Library/TMDB/MusicBrainz)...")
 
     dubbi = []
     confermati = 0
@@ -181,7 +207,7 @@ def main() -> None:
     per_file: dict[Path, list[dict]] = {}
 
     for i, (fp, r) in enumerate(tutte_le_voci):
-        categoria = r["categoria"]
+        categoria = mappa[r[campo]]
         titolo = r["titolo"]
         autore = r.get("autore", "")
         try:
@@ -243,9 +269,9 @@ def main() -> None:
         fp.write_text(json.dumps(dati, ensure_ascii=False, indent=2), encoding="utf-8")
 
     esistenti = {}
-    if REPORT_PATH.exists():
+    if report_path.exists():
         try:
-            for v in json.loads(REPORT_PATH.read_text(encoding="utf-8")):
+            for v in json.loads(report_path.read_text(encoding="utf-8")):
                 esistenti[v["id"]] = v
         except (json.JSONDecodeError, OSError):
             pass
@@ -253,11 +279,11 @@ def main() -> None:
         esistenti[v["id"]] = v
     fuso = list(esistenti.values())
 
-    REPORT_PATH.parent.mkdir(parents=True, exist_ok=True)
-    REPORT_PATH.write_text(json.dumps(fuso, ensure_ascii=False, indent=2), encoding="utf-8")
+    report_path.parent.mkdir(parents=True, exist_ok=True)
+    report_path.write_text(json.dumps(fuso, ensure_ascii=False, indent=2), encoding="utf-8")
 
     print(f"\nFatto. {confermati} confermate automaticamente, {scartati} probabili falsi positivi, "
-          f"{len(dubbi) - scartati} dubbie — report completo in {REPORT_PATH} ({len(fuso)} voci totali). "
+          f"{len(dubbi) - scartati} dubbie — report completo in {report_path} ({len(fuso)} voci totali). "
           "NON cancellato nulla, solo segnalato/marcato.")
 
 
