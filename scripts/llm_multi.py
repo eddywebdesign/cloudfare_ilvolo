@@ -57,7 +57,9 @@ GEMINI_BASE_URL = "https://generativelanguage.googleapis.com/v1beta"
 # keep_alive breve: il modello (9GB) si scarica dalla VRAM poco dopo l'ultimo uso invece di
 # restare fisso, lasciando piu' margine alla trascrizione quando la coda di classificazione
 # e' ferma.
-OLLAMA_BASE_URL = "http://localhost:11434"
+OLLAMA_BASE_URL = "http://192.168.8.130:11434"  # K16 (GPU), non localhost -- la classificazione
+# gira su OMV via cron, "localhost" punterebbe a OMV stesso che non ha Ollama installato.
+# Ollama ascolta su 0.0.0.0:11434 (OLLAMA_HOST nel service override), raggiungibile in LAN.
 OLLAMA_MODEL = "qwen2.5:14b-instruct-q4_K_M"
 OLLAMA_KEEP_ALIVE = "30s"
 OLLAMA_TIMEOUT_S = 120  # generoso: in coda dietro whisperx puo' volerci piu' di una chiamata cloud
