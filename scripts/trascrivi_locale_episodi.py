@@ -400,12 +400,12 @@ def classifica_frammenti(frammenti: list[dict]) -> None:
                 raw = resp.choices[0].message.content.strip()
                 if raw.startswith("```"):
                     # Ollama (qwen2.5) a volte avvolge il JSON in un blocco markdown
-                    # nonostante il prompt chieda solo JSON puro - i provider cloud con
-                    # response_format=json_object non lo fanno mai, ma lo strip e' innocuo.
-                    raw = raw.strip("`")
-                    if raw.startswith("json"):
-                        raw = raw[4:]
-                    raw = raw.strip()
+                    # (a volte con prosa aggiuntiva DOPO il blocco chiuso) nonostante il
+                    # prompt chieda solo JSON puro - i provider cloud con
+                    # response_format=json_object non lo fanno mai. Estrae solo il
+                    # contenuto tra il primo ```[json] e il ``` di chiusura successivo.
+                    m = re.search(r"```(?:json)?\s*(.*?)```", raw, re.DOTALL)
+                    raw = m.group(1).strip() if m else raw.strip("`").strip()
                 parsed = json.loads(raw)
                 risultati = parsed if isinstance(parsed, list) else next(
                     (v for v in parsed.values() if isinstance(v, list)), []
