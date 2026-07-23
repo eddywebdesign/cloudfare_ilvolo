@@ -109,7 +109,8 @@
     "start": 1922.9,
     "end": 2563.86,
     "episodio_data": "2114-05-14",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/fe4f11b1-66e1-46ac-be2c-bd168a56dfb1/front-250"
   },
   {
     "id": "2114-05-14-libro-clip-0000",
@@ -137,6 +138,7 @@
     "start": 2563.86,
     "end": 2701.46,
     "episodio_data": "2114-05-14",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/611aa5f7-d5cc-41bf-8796-f766f9ebe0dd/front-250"
   }
 ]

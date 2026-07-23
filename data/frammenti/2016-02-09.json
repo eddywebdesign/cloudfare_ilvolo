@@ -459,11 +459,13 @@
     "end": 1181.5,
     "speaker_raw": "SPEAKER_00",
     "testo": "ecco perché anche ieri ci hai tanato va bene ti mettiamo un pezzo dei Beatles e poi la settimana prossima ti dovrai andare in bagno per parlare con noi eh non lo so oppure chiedi alla prof prof possiamo parlare con Fabio Volo Radio DJ che ci consiglia un bel libro lei dice sì mettevi la voce e io vi dico un titolo dei miei va bene va bene ciao Lorenzo ciao ciao ciao ciao Mi ha dato carica sto ragazzo, che bello che era. Era un bel giovanotto, come diceva mia nonna. E così un bel giovanotto.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "un titolo dei miei",
+    "tema": [
+      "libri"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": ""
+    "autore": "Fabio Volo"
   },
   {
     "id": "2016-02-09-037",
@@ -818,9 +820,11 @@
     "end": 2755.72,
     "speaker_raw": "SPEAKER_00",
     "testo": "ringrazio quelli che hanno detto vorrei una puntata così tutte le mattine una volta ogni tanto ci deve essere posto per tutti comunque molti ringraziano molti dicono sarai la causa di molti incidenti per colpi di sonno di gente che va al lavoro però qualcuno da oggi avrà sul cellulare della musica bella che si scarica stasera se la ascolta se la compra sono contento intanto devo fare qualcosa che mi piace ciao a domani",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Musica bella da scaricare",
+    "tema": [
+      "miglioramento"
+    ],
+    "tipo": "riflessione",
     "video_url": "",
     "autore": ""
   }

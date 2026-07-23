@@ -26,7 +26,8 @@
     "start": 561.84,
     "end": 1123.69,
     "episodio_data": "2017-03-17",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/551c167d-5869-409a-a561-945675300423/front-250"
   },
   {
     "id": "2017-03-17-film-clip-0001",
@@ -157,6 +158,7 @@
     "start": 2247.37,
     "end": 2750.51,
     "episodio_data": "2017-03-17",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/f17015ce-564a-42d2-a7bb-edc5200dc5c6/front-250"
   }
 ]

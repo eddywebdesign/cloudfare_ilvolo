@@ -41,7 +41,8 @@
     "start": 666.33,
     "end": 1332.67,
     "episodio_data": "2017-06-01",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/192d7618-c098-4efa-82d9-ad89cd2b7d8c/front-250"
   },
   {
     "id": "2017-06-01-musica-clip-0003",
@@ -55,7 +56,8 @@
     "start": 666.33,
     "end": 1332.67,
     "episodio_data": "2017-06-01",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/30f981cf-741d-4100-a1d9-446deab585de/front-250"
   },
   {
     "id": "2017-06-01-musica-clip-0006",

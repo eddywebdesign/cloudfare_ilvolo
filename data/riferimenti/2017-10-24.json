@@ -69,7 +69,8 @@
     "start": 1595.34,
     "end": 2393.01,
     "episodio_data": "2017-10-24",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/75febc88-3451-4d01-bd49-93638c825bf1/front-250"
   },
   {
     "id": "2017-10-24-musica-clip-0004",
@@ -83,7 +84,8 @@
     "start": 1595.34,
     "end": 2393.01,
     "episodio_data": "2017-10-24",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/2e8fee88-2162-4f0a-a32e-52197710ebc0/front-250"
   },
   {
     "id": "2017-10-24-musica-clip-0005",
@@ -97,6 +99,7 @@
     "start": 1595.34,
     "end": 2393.01,
     "episodio_data": "2017-10-24",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/89cfdce9-42cb-40dc-b9d0-c96959fa15ab/front-250"
   }
 ]

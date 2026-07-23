@@ -1281,9 +1281,12 @@
     "end": 2393.93,
     "speaker_raw": "SPEAKER_07",
     "testo": "20 lire, scusami, 20 lire, ma sei sicuro? Mi ha dato la scatola, cioè 100 pacchetti, quando ho visto la scatola ho capito la gravità, non avevo idea di quanto fosse 2000 lire, mi sono nascosto sotto il letto, le ho staccate e le ho attaccate tutte e poi sono andato a piangere da mia mamma che non dormivo, quella notte lì non ho dormito.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Rubai i soldi per figurine",
+    "tema": [
+      "colpa",
+      "pentimento"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1303,9 +1306,12 @@
     "end": 2411.15,
     "speaker_raw": "SPEAKER_07",
     "testo": "Qui di tutti voi, adesso Mauro mi ha appena raccontato che ha ordinato il porto della Lego a un negoziante, costava 50.000 lire e la mamma è dovuta andare a fare gli straordinari dei, per stirare in giro la casa, capito? Tutti noi abbiamo fatto quella roba lì.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ordinai Lego costosa",
+    "tema": [
+      "genitori",
+      "pentimento"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1413,10 +1419,14 @@
     "end": 2552.83,
     "speaker_raw": "SPEAKER_07",
     "testo": "È una bella poesia di Maya Angelou, l'abbiamo ricordato all'inizio, lo ricordiamo anche adesso e poi mettiamo una bella canzone. E questa è proprio bella per tutti, sia per gli uomini che per le donne. «Ho imparato che qualsiasi cosa accada, o per quanto l'oggi sembra insopportabile e brutto, la vita va sempre avanti e il domani sarà migliore. Ho imparato che si può capire molto di una persona dalla maniera in cui affronta queste tre cose». Una giornata piovosa, la perdita del bagaglio, l'intrico delle luci dell'albero di Natale. Ricondo sì, che non puoi bestemmiare ovviamente Natale. In tutte e tre le situazioni tra l'altro. Ho imparato, indipendentemente dal rapporto che abbiamo con i nostri genitori, che ci mancheranno quando saranno usciti dalla nostra vita. Ho imparato che il semplice sopravvivere è diverso da vivere. Ho imparato che la vita qualche volta consente una seconda chance. Ho imparato che non si può affrontare la vita con i guantoni da baseball su entrambe le mani. Si ha sempre bisogno di gettare qualcosa dietro le spalle. Ho imparato che ogni volta che prendo una decisione col cuore, generalmente faccio la scelta giusta. Ho imparato che anche quando ho delle sofferenze, non devo essere una sofferenza. Ho imparato che ogni giorno si dovrebbe uscire ed avere contatti con qualcuno.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Poesia di Maya Angelou",
+    "tema": [
+      "vita",
+      "speranza"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Maya Angelou"
   },
   {
     "id": "2018-04-04-129",
@@ -1468,9 +1478,12 @@
     "end": 2838.57,
     "speaker_raw": "SPEAKER_07",
     "testo": "Ci avevi detto che ci tiravi su? Ci hai dato la donna cannone, la mannoia, la poesia, io pianto tutta mattina, ma è questo il bello, perché dopo il pianto si sta meglio, la malinconia non è una tristezza, è un modo delicato di guardare le cose, con sensibilità. In che libro sta scritto? Ragazzi, non confondete la debolezza con la fragilità, la fragilità va protetta, perché quella che ci fa sentire... A me, di Maya Angelou, se io fossi donna, e un po' lo sono, capito, sono maschio per pochi centimetri, ok, sono maschio per pochi centimetri, io potrei godere per questa. Mi tieni questa base o me ne metti un'altra? Dimmelo tu, no, guardami negli occhi, io capisco.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Debolezza vs Fragilità",
+    "tema": [
+      "fragilità",
+      "verità"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

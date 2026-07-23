@@ -11,7 +11,8 @@
     "start": 0.0,
     "end": 834.75,
     "episodio_data": "2114-05-06",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/735d9efc-90e8-4f00-b145-677596b716f7/front-250"
   },
   {
     "id": "2114-05-06-film-clip-0000",
@@ -39,7 +40,8 @@
     "start": 0.0,
     "end": 834.75,
     "episodio_data": "2114-05-06",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/fe4f11b1-66e1-46ac-be2c-bd168a56dfb1/front-250"
   },
   {
     "id": "2114-05-06-musica-clip-0003",
@@ -151,6 +153,7 @@
     "start": 2504.26,
     "end": 2787.65,
     "episodio_data": "2114-05-06",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/36cf100b-99e8-46f6-b027-482814928a0d/front-250"
   }
 ]

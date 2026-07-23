@@ -49,10 +49,14 @@
     "end": 284.14,
     "speaker_raw": "SPEAKER_04",
     "testo": "Se io fossi rimasto con la mia ex, se io avessi accettato quella call. Ma c'è, scusami Maurizio, mentre la dico adesso, c'è quel pezzo bellissimo tratto dal film Novecento, cioè che in realtà il film si chiama La leggenda del pianista, dove lui dice quella là del pram. Se avessi preso quel treno... Non so se si può mettere prima della siga, mi sembra troppo come tema. Poi è quasi Pasquetta e Pasqua, lasciamo le persone serene nella vita reale. Però come ha scritto un grande, non intellettuale, ma un grande scrittore, conoscitore dello scibile umano, permettetemi questa parola, Chi? Lo scibile umano. Le vite che noi immaginiamo, cioè quelle su cui facciamo fantasia, sono vite che non esistono. E quindi le immaginiamo nella perfezione non sapendo invece che potrebbero essere anche peggio. Per cui esiste solo quella che vivi. È inutile agganciarsi emotivamente a vite che non esistono. E lui è? Perché sono fantasie. Un grande scrittore dello scibile umano. Dico solo le iniziali perché io non voglio promuoverlo, però è FV. Eh, lo so. Flavia Vente.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Novecento",
+    "tema": [
+      "scelte",
+      "regret"
+    ],
+    "tipo": "riferimento_film",
+    "video_url": "",
+    "autore": "Bernardo Bertolucci"
   },
   {
     "id": "2018-03-30-005",
@@ -159,10 +163,14 @@
     "end": 617.33,
     "speaker_raw": "SPEAKER_08",
     "testo": "Start spreading the news I'm leaving today I want to be a part of it New York, New York These vagabond shoes Are longing to stray Right through the very heart of it New York, New York I wanna wake up In a city that doesn't sleep And find I'm king of the hill Top of the heap I'll make a brand new start of it in old New York If I can make it there I'll make it anywhere it's up to I want to wake up in a city that never sleeps And find I'm A number one Top of the list, king of the hill A number one These little town blues New York",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "New York, New York",
+    "tema": [
+      "sogni",
+      "ambizione"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Frank Sinatra"
   },
   {
     "id": "2018-03-30-015",
@@ -500,9 +508,11 @@
     "end": 1406.58,
     "speaker_raw": "SPEAKER_04",
     "testo": "Sembravano che uno... Cioè, a volte nella vita succedono delle cose che se non fossi lì non ci crederesti, no? Allora tu devi... Rifacevamo il finale. Rifacevamo il finale finto per farlo sembrare vero. Perché quello lì vero sembrava finto. E una regola televisiva o comunque nella comunicazione è non è vero ciò che è vero, ma è vero ciò che sembra vero. Quindi, hai capito Maurizio?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "verità e apparenza",
+    "tema": [
+      "comunicazione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -522,9 +532,11 @@
     "end": 1431.72,
     "speaker_raw": "SPEAKER_04",
     "testo": "Costretti a volte a dire delle bugie perché sennò la gente non ci crede, capito? Invece alla bugia, buff, se sembra vera ci crede. Piccola lezione di, come si chiama, metacomunicazione, no, comunicazione di mezzi di informazione di massa della comunicazione.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "bugie per credibilità",
+    "tema": [
+      "giornalismo"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -720,10 +732,13 @@
     "end": 1763.87,
     "speaker_raw": "SPEAKER_04",
     "testo": "Perché io che ho avuto la fortuna anche di conoscerlo, già mi faceva ridere dal vivo quando ci parlavo. Ma le sue canzoni sono piene di ironia. La più famosa è Tutto il resto è noia. Sto parlando di Franco Califano. Lui dice, no, non ho detto gioia, ma noia, noia. Si capisce l'ironia, no? Ma questa canzone, che non è legata alla Pasqua, ma alla gita fuori porto o alla settimana bianca, cioè quando tutti partono, la famosa vacanza intelligente, di quando il marito ha lavorato tutta la settimana Arriva a casa e lui vuole solo stare sul divano, cosa che io faccio anche io adesso nel weekend, io vorrei stare sempre sul divano. E la moglie, che nel mio caso dice i bambini li dobbiamo portare fuori dalla città. Giusto. Ioanna vuole sempre andare, vuole sempre partire. Io starei lì sul divano con un libro, no? E allora, e lui è uguale, lavora tutto il giorno, lei non vede l'ora invece che è sempre stata a casa di poter andare e conoscere gente, quella roba lì così. Cioè socializzare, lui invece non socializzare. Sentite il testo di questa canzone, ce l'ascoltiamo insieme. L'hai messa dall'inizio? Sì. Ha un quarto d'ora di musica prima che inizi a cantare. Vabbè. No, ma senti, sai che bella questa.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Tutto il resto è noia",
+    "tema": [
+      "ironia"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Franco Califano"
   },
   {
     "id": "2018-03-30-066",
@@ -798,8 +813,11 @@
     "speaker_raw": "SPEAKER_04",
     "testo": "Ogni cosa che noi conosciamo, ogni cosa che ci viene raccontata può essere anche una simbologia per un secondo significato. Quindi oggi stiamo entrando nel periodo pasquale. Se non sbaglio è anche il momento in cui gli ebrei se ne vanno dall'Egitto. Se non sbaglio è quel momento lì di Mosè e poi ovviamente c'è la morte e la ressurrezione del nostro Signore Gesù, anzi oggi io mi ricordo da bambino si legano le campane si dice perché oggi è venerdì muore Gesù, non suonano le campane fino a quando non torna. Io sto imparando tutto da te. E poi la zia Leti, quando poi suonano le campane, ti devi bagnare gli occhi con l'acqua perché in quel momento lì l'acqua è benedetta. Tutta l'acqua del mondo è benedetta. Io così mi dicevo. Bella immagine. Sì, così come quando c'era la festa del papà, San Giuseppe dovevi mettere l'albume dell'uovo in una bottiglia di acqua e la mattina l'albume aveva una forma di veliero. Wow. Beh, queste sono le piccole ricordi. Un po' aruspici. Un po' aruspici. Cosa sono aruspici? Sono quei lobili che mangi con lardo, i rustici. No. Ma allora, per capire un secondo messaggio, abbiamo il sommo maestro Igor Sibaldi. Buongiorno.",
     "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "tema": [
+      "simbologia",
+      "liberazione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -896,10 +914,13 @@
     "end": 2441.79,
     "speaker_raw": "SPEAKER_01",
     "testo": "Tutti gli anni fa un romanzo. Perché tutti gli anni fa un romanzo Fabio Volo? Perché tutte le volte vuole andare verso qualcosa di nuovo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "romanzo annuale di Fabio Volo",
+    "tema": [
+      "nuovo"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Fabio Volo"
   },
   {
     "id": "2018-03-30-082",
@@ -918,9 +939,12 @@
     "end": 2490.78,
     "speaker_raw": "SPEAKER_01",
     "testo": "Quello è quello che interessa. Allora, c'è un punto nel cristianesimo che è la risurrezione, che tutti quanti ci credono, però tutti quanti la mettono alla fine. Alla fine risorgeremo, ok. Perché mentre la vita è eterna, mentre l'immortalità dell'anima fa comodo, perché vuol dire che non finisce tutto, dopo la pagano quelli che mi hanno fregato, dopo ho le ricompense, e nessuno può dimostrarmi il contrario, perché qualunque cosa racconti sull'immortalità dell'anima non c'è una persona al mondo che possa dire che ho torto.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "risurrezione e giustizia",
+    "tema": [
+      "cristianesimo",
+      "eternità"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -940,9 +964,12 @@
     "end": 2532.9,
     "speaker_raw": "SPEAKER_01",
     "testo": "Piace ai governi, piace ai governi l'immortalità dell'anima perché più una persona si occupa dell'aldilà e meno si occupa dell'aldiquà. Quindi per adesso paga le tasse, poi l'aldilà è gratis. E invece la Ressurrezione la prendono un po' così, come dire, vabbè, l'ha fatta lui perché era parente, no? Perché è parente di Dio, quindi risorse. Ma non è che capiti anche a noi, perché la Ressurrezione vorrebbe più problemi di quanti ne risolve. La Ressurrezione è una cosa estremamente sovversiva, perché vuol dire rientrare. Eh no.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "immortalità dell'anima e tasse",
+    "tema": [
+      "cristianesimo",
+      "tasse"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -1017,9 +1044,12 @@
     "end": 2613.35,
     "speaker_raw": "SPEAKER_01",
     "testo": "Quindi la resurrezione è lasciata un po' da parte. E' un peccato perché dal punto di vista psicologico la resurrezione è una chiave meravigliosa, meravigliosa. Perché vuol dire tornare indietro nel tempo, no? Cioè tu pensa se potessi tornare indietro, non so, hai preso 4 in matematica e in interrogazione. La resurrezione vuol dire che tu torni a prima dell'interrogazione, no?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "resurrezione come macchina del tempo",
+    "tema": [
+      "tempo",
+      "risalire"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

@@ -664,11 +664,14 @@
     "end": 1718.39,
     "speaker_raw": "SPEAKER_00",
     "testo": "C'è un altro caso di questo tipo che è interessante, che lo sanno solo quelli che si interessano di Kabbalah, queste cose qui. Ok. Lucio Dalla, la prima canzone importante, no? 4 marzo 1943, che è la sua data di nascita. Sì. No? e nella sua trinaccia in questa canzone lui racconta che gli manca il padre all'angelo del 4 marzo hanno tutti una storia per cui nella loro infanzia c'è qualcosa che gli è mancata allora devono ritrovarla praticamente quando Lucio Dalla dice il mio angelo è questo nella canzone di colpo ha successo il problema del successo di queste persone che hanno tanto successo è come se coincidessero con il loro angelo Garibaldi è successo quando comincia a liberare le persone Cecavara è successo quando fa la rivoluzione prima fa il medico poi si mette a fare il rivoluzionario prima fa l'obbediente non gli va a storti nell'Argentina si mette a fare il rivoluzionario e diventa eccezionale Fidel Castro mi sembra che sia 8 agosto 9 agosto il distruttore quello che distrugge distrugge Cuba riesce a distruggere un regime completamente il regime di Battista lo fa fuori di colpo ha successo è come se una persona come se ci fosse una ferrovia o un'autostrada esistenziale quando noi capitiamo sulla nostra non ci ferma più nessuno ciao io sono nato il 16 settembre guarda come mia mamma su wikipedia ho visto che sono nati tanti preti vescovi e sacerdoti ma a me piace la gnocca",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "canzone di Lucio Dalla",
+    "tema": [
+      "nascita",
+      "padre"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": ""
+    "autore": "Lucio Dalla"
   },
   {
     "id": "2016-02-18-052",

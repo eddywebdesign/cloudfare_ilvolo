@@ -56,7 +56,7 @@
     "start": 693.79,
     "end": 1387.57,
     "episodio_data": "2017-03-07",
-    "confermato_esterno": false
+    "confermato_esterno": true
   },
   {
     "id": "2017-03-07-libro-clip-0001",
@@ -84,7 +84,8 @@
     "start": 1387.57,
     "end": 2081.36,
     "episodio_data": "2017-03-07",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/a510bf08-f361-4b77-8502-6d2dc76bbbc5/front-250"
   },
   {
     "id": "2017-03-07-film-clip-0002",

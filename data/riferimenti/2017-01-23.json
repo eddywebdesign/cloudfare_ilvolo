@@ -11,7 +11,8 @@
     "start": 635.86,
     "end": 1271.73,
     "episodio_data": "2017-01-23",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/4ce520c8-1a87-4709-aee3-eabb5c4924c4/front-250"
   },
   {
     "id": "2017-01-23-libro-clip-0000",
@@ -39,7 +40,8 @@
     "start": 635.86,
     "end": 1271.73,
     "episodio_data": "2017-01-23",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/11177363-M.jpg"
   },
   {
     "id": "2017-01-23-libro-clip-0003",
@@ -53,7 +55,8 @@
     "start": 635.86,
     "end": 1271.73,
     "episodio_data": "2017-01-23",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/8705944-M.jpg"
   },
   {
     "id": "2017-01-23-libro-clip-0005",
@@ -67,7 +70,8 @@
     "start": 635.86,
     "end": 1271.73,
     "episodio_data": "2017-01-23",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/1121255-M.jpg"
   },
   {
     "id": "2017-01-23-libro-clip-0006",
@@ -95,6 +99,6 @@
     "start": 635.86,
     "end": 1271.73,
     "episodio_data": "2017-01-23",
-    "confermato_esterno": false
+    "confermato_esterno": true
   }
 ]

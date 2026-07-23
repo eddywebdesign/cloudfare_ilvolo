@@ -688,11 +688,14 @@
     "end": 2589.35,
     "speaker_raw": "SPEAKER_10",
     "testo": "When the violence causes silence We must be mistaken It's the same old team Since 1916 In your head in your head they're still fighting with their tanks and their bombs and their bombs and their guns in your head in your head they are dying in your head",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "In Your Head",
+    "tema": [
+      "guerra",
+      "silenzio"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": ""
+    "autore": "Imagine Dragons"
   },
   {
     "id": "2016-03-21-055",

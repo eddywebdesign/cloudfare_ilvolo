@@ -165,7 +165,8 @@
     "start": 2698.4,
     "end": 3166.57,
     "episodio_data": "2019-09-03",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/iDUNIKfQiYT3GJTexyQ2pdjYmAm.jpg"
   },
   {
     "id": "2019-09-03-musica-clip-0008",
@@ -179,7 +180,8 @@
     "start": 2698.4,
     "end": 3166.57,
     "episodio_data": "2019-09-03",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/8282f0b2-eb7f-4155-9971-a5d9bb1f0fc8/front-250"
   },
   {
     "id": "2019-09-03-musica-clip-0009",

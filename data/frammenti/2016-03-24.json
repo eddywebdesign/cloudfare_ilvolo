@@ -496,11 +496,14 @@
     "end": 1580.24,
     "speaker_raw": "SPEAKER_06",
     "testo": "questa è quell'evoluzione lì portata a c'è un regista c'è un regista che adesso ho un po' dimenticato ma è stato uno dei grandissimi degli anni 30 che si chiama Ernst Lubitsch Lubitsch tutte storie così tutte storie così c'è una che si chiama partita 4 che è bellissima bellissima che è la storia di uno che sta con una poi nel frattempo si accorge che il suo migliore amico sta con lei ok allora all'inizio vogliono litigare poi si accorgono che stanno benissimo in tre",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Partita 4",
+    "tema": [
+      "amore",
+      "amicizia"
+    ],
+    "tipo": "riferimento_film",
     "video_url": "",
-    "autore": ""
+    "autore": "Ernst Lubitsch"
   },
   {
     "id": "2016-03-24-039",

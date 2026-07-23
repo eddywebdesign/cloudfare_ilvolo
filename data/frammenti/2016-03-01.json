@@ -384,10 +384,13 @@
     "end": 1104.26,
     "speaker_raw": "SPEAKER_04",
     "testo": "Prova? Werther? Sì. Werther? Dimmi. Ecco. No, dicevo, ma c'è uno dei due che sembra più vecchio? O crescete sempre uguali?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Il diario di Werther",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Johann Wolfgang von Goethe"
   },
   {
     "id": "2016-03-01-030",

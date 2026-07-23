@@ -67,7 +67,8 @@
     "start": 2183.62,
     "end": 2765.43,
     "episodio_data": "2016-11-16",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/d66bf652-8ee6-4ea8-92c8-62997475309d/front-250"
   },
   {
     "id": "2016-11-16-musica-clip-0005",
@@ -81,7 +82,8 @@
     "start": 2183.62,
     "end": 2765.43,
     "episodio_data": "2016-11-16",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/c42cf763-1755-4830-8274-cb453a418caa/front-250"
   },
   {
     "id": "2016-11-16-musica-clip-0006",
@@ -95,7 +97,8 @@
     "start": 2183.62,
     "end": 2765.43,
     "episodio_data": "2016-11-16",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/b72adbb5-6a71-44cf-81eb-4f1344020635/front-250"
   },
   {
     "id": "2016-11-16-musica-clip-0007",
@@ -109,6 +112,7 @@
     "start": 2183.62,
     "end": 2765.43,
     "episodio_data": "2016-11-16",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/adf6dcd6-0e26-4c10-a9a7-c67378634824/front-250"
   }
 ]

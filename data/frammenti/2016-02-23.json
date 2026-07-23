@@ -262,11 +262,13 @@
     "end": 1056.72,
     "speaker_raw": "SPEAKER_10",
     "testo": "9 vite da donne vuoi che ti spiego che sono 9 cortometraggi è un film drammatico diretto da Rodrigo Garcia uscito il 2 settembre 2005 sono praticamente 9 cortometraggi ma sono 9 piani sequenza 9 piani sequenza di 9 donne di 9 vite",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "9 vite",
+    "tema": [
+      "dramma"
+    ],
+    "tipo": "riferimento_film",
     "video_url": "",
-    "autore": ""
+    "autore": "Rodrigo Garcia"
   },
   {
     "id": "2016-02-23-021",
@@ -664,9 +666,11 @@
     "end": 2242.5,
     "speaker_raw": "SPEAKER_10",
     "testo": "Cioè è una cosa che... Dovremmo chiamare Rovelli che è un fisico.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "chiamare Rovelli",
+    "tema": [
+      "fisica"
+    ],
+    "tipo": "citazione",
     "video_url": "",
     "autore": ""
   },

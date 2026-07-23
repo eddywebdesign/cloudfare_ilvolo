@@ -199,9 +199,11 @@
     "end": 564.26,
     "speaker_raw": "SPEAKER_04",
     "testo": "io sento le voci di quelli in macchina che lo mandano anche io la penso così oggi è il 7 aprile non c'è una canzone oggi è il compleanno di Buddha oggi è il compleanno di Buddha ma veramente auguri Buddha",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "compleanno di Buddha",
+    "tema": [
+      "religione"
+    ],
+    "tipo": "citazione",
     "video_url": "",
     "autore": ""
   },
@@ -396,10 +398,13 @@
     "end": 1319.06,
     "speaker_raw": "SPEAKER_04",
     "testo": "Sì esattamente, quella lì, comunque è un'analisi che consiglio a tutti. Oh ha detto Jung, Iaiaiel, io io io, oh qua.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Analisi di Jung",
+    "tema": [
+      "psicologia"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Carl Gustav Jung"
   },
   {
     "id": "2016-04-07-033",

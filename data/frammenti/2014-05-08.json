@@ -583,9 +583,12 @@
     "end": 2114.5,
     "speaker_raw": "SPEAKER_05",
     "testo": "Poco fa, parlando di Crizia e degli altri tiranni, hai adoperato la parola follia. Ma i nostri tiranni non sono dei folli, Socrate. Sono dei criminali.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Socrate e i tiranni",
+    "tema": [
+      "politica",
+      "etica"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -608,9 +611,12 @@
     "end": 2193.71,
     "speaker_raw": "SPEAKER_06",
     "testo": "come un uomo che cammina solo e nelle tenebre. Procedevo così, cauto, lentamente, ed usavo tanta circospezione in tutte le cose da avanzare ben poco. Ciò mi salvava almeno dal cadere nell'errore. Perciò presi la decisione di non accettare niente per vero che non apparisse tale alla mia conoscenza in modo evidente appena l'età mi permise di sottrarmi all'autorità dei miei maestri abbandonai lo studio delle lettere e decisi di non cercare altra scienza all'infuori di quella che si celava in me stesso e nel grande libro del mondo Nel corso dei miei viaggi mi resi conto senza traccia di falsa modestia che vi era più verità nei ragionamenti che fa la gente riguardo i propri affari che fra i pensieri di un uomo di lettere chiuso dentro il suo studio.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Procedo cauto nelle tenebre",
+    "tema": [
+      "filosofia",
+      "riflessione"
+    ],
+    "tipo": "citazione",
     "video_url": "",
     "autore": ""
   },

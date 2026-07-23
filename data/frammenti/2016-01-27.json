@@ -541,11 +541,14 @@
     "end": 1950.05,
     "speaker_raw": "SPEAKER_09",
     "testo": "Canzone pubblicata postuma perché avveniva la morte in un incidente aereo il 10 di dicembre del 1967 quando Otis Redding aveva solo 26 anni e stava rientrando da un tour con il suo gruppo I Barcase. Quindi questa canzone era stata scritta il 7 dicembre.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Sitting on the Dock of a Bay",
+    "tema": [
+      "morte",
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": ""
+    "autore": "Otis Redding"
   },
   {
     "id": "2016-01-27-043",
@@ -1090,9 +1093,12 @@
     "end": 2904.01,
     "speaker_raw": "SPEAKER_10",
     "testo": "Posso dire adesso, a parte gli scherzi, scrivere su un foglio i desideri o quello che si vuole o come c'è la famosa frase, come ti vedi tu fra dieci anni e capisci che ci sono delle persone che hanno la risposta, mi vedo, mi piacerebbe avere una famiglia, fare quel lavoro... Io per esempio come ti dico fra dieci anni non ho avuto risposta e quindi ho capito che non avevo un progetto diciamo reale su cui lavorare ma stavo navigando a vista come si dice però scrivere i desideri su un foglio o comunque le cose sere è veramente come dire è uno strumento di conoscenza di sé perché alcune cose sono dentro di te e tu non te ne rendi conto ma la cosa affascinante io l'ho fatto qualche anno fa una lista perché ero appunto entrato in questo tipo di gioco La cosa affascinante è vedere che dopo 4-5 anni leggi quella lista e alcuni desideri te li sei anche proprio dimenticati, non solo non li hai raggiunti, ma te li sei proprio dimenticati e dici ma come, ma desideravo quella cosa, non mi ricordo, una volta io ho visto 30 ore per la vita. è un programma di canale 5 era come il teletone di canale 5 e mi chiamarono da Brescia io facevo il cantante a Brescia cappello lungo, vestito tutto di bianco avevo 20 anni, giovanissimo e un giorno le ho mandato la replica in uno di questi programmi dove mi pigliano per il culo e c'era la domanda della Cuccarini cosa ti piacerebbe fare da grande? e io ho risposto lo scrittore ti giuro perché io da lì in avanti non ci ho mai più pensato e difatti non ce l'ho fatta va bene allora tanta gente ha scritto che praticamente mezza Italia sta andando alle Canarie da quello che ho capito insomma va bene alcuni in Svizzera vogliono andare che è qua vicino non la capisco questa ma vado a Como Maurizio vuol tornare a Pavia tu vuoi tornare a Pavia è nella lista dei desideri vado a lavorare in bicicletta dobbiamo chiudere ragazzi a domani venite con i compiti fatti mi raccomando",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "progetto per il futuro",
+    "tema": [
+      "futuro",
+      "progetti"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

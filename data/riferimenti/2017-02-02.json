@@ -67,7 +67,8 @@
     "start": 1464.28,
     "end": 2196.42,
     "episodio_data": "2017-02-02",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/3651990c-b257-4d25-a381-f39bd5f33878/front-250"
   },
   {
     "id": "2017-02-02-musica-clip-0003",
@@ -95,6 +96,7 @@
     "start": 2196.42,
     "end": 2928.56,
     "episodio_data": "2017-02-02",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/376454b2-8880-4b4d-8986-c44cc257f145/front-250"
   }
 ]

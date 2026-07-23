@@ -966,10 +966,13 @@
     "end": 2748.22,
     "speaker_raw": "SPEAKER_06",
     "testo": "Fallo. Fallo. Fallo. Fallo. Fallo. Fallo. Fallo. Fallo. Fallo. Fallo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Fallo Fallo",
+    "tema": [
+      "perseveranza"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Mario Biondi"
   },
   {
     "id": "2016-02-26-078",

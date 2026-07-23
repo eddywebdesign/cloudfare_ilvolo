@@ -1135,11 +1135,13 @@
     "end": 3030.54,
     "speaker_raw": "SPEAKER_11",
     "testo": "In realtà sì, è una conversazione con Andrea Tornielli della stampa. Benigni presenta il libro... Esatto, niente po' di meno che perché il Papa ha citato Benigni. Benigni, in un angelo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "libro del Papa",
+    "tema": [
+      "religione"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": ""
+    "autore": "Andrea Tornielli"
   },
   {
     "id": "2016-01-12-091",

@@ -715,11 +715,13 @@
     "end": 1987.47,
     "speaker_raw": "SPEAKER_01",
     "testo": "Ma certo che è una bella storia. A parte che è il primo terzo del romanzo Naccarenina, che è esattamente quello. Sì, no, ma difatti. Lei sta con Vronsky, però lei sta col marito.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Naccarenina",
+    "tema": [
+      "relazione"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": ""
+    "autore": "Giovanni Verga"
   },
   {
     "id": "2016-03-17-056",
@@ -987,11 +989,13 @@
     "end": 2700.33,
     "speaker_raw": "SPEAKER_03",
     "testo": "e i delfini chi se ne è accorto ci ha trovato dall'Anna Karenina alla Recherche dalla parte di Svan e anche un colore di delfino esatto Viola tu sei un delfino quindi quando vai a casa e il tuo compagno ti dice allora sono uscito con la tua migliore amica tu dici oh guarda quanta vita è tutta vita tutta vita va bene io sto cercando di immaginarmi Viola come un delfino sì sì no Viola dì che siamo domani mattina qua in delfinese non lo so dire non mi metti in difficoltà grazie Island",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Anna Karenina",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": ""
+    "autore": "Liev Tolstoj"
   },
   {
     "id": "2016-03-17-076",

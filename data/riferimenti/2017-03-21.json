@@ -26,7 +26,7 @@
     "start": 620.5,
     "end": 1241.0,
     "episodio_data": "2017-03-21",
-    "confermato_esterno": false
+    "confermato_esterno": true
   },
   {
     "id": "2017-03-21-musica-clip-0002",
@@ -40,7 +40,8 @@
     "start": 620.5,
     "end": 1241.0,
     "episodio_data": "2017-03-21",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/bb55792f-3d97-49cf-9db6-614415227e54/front-250"
   },
   {
     "id": "2017-03-21-musica-clip-0003",
@@ -54,7 +55,8 @@
     "start": 620.5,
     "end": 1241.0,
     "episodio_data": "2017-03-21",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/e32fc8f2-d9fd-4b80-9e27-df30c8ffecb4/front-250"
   },
   {
     "id": "2017-03-21-film-clip-0000",

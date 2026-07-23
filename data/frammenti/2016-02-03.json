@@ -104,11 +104,13 @@
     "end": 515.44,
     "speaker_raw": "SPEAKER_06",
     "testo": "Volevo dire una cosa da ieri, ho trovato Ian Solo. Oggi ragazzi vi volevamo dire delle cose molto belle. Ve le diciamo perché... parlo già da troppo tempo domani esce il film di Tarantino io ho avuto la fortuna di incontrarlo e intervistarlo qualche giorno fa vi mettiamo un pezzo che troverete nel film se lo andate a vedere un pezzo che hanno fatto già molte cover molti personaggi noi mettiamo la versione di Johnny Cash",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "film di Tarantino",
+    "tema": [
+      "intervista"
+    ],
+    "tipo": "riferimento_film",
     "video_url": "",
-    "autore": ""
+    "autore": "Quentin Tarantino"
   },
   {
     "id": "2016-02-03-009",

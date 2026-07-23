@@ -16,11 +16,13 @@
     "end": 268.79,
     "speaker_raw": "SPEAKER_04",
     "testo": "No Hero, Elisa, Radio DJ, un disco del 2016 che dà inizio al volo del mattino. Buongiorno a tutti, io guido questo programma dalla capitale, da Roma, sono tutto solo in una stanza perché non c'è neanche il trio in questi giorni, per cui sono proprio da solo in ufficio, posso fare quello che voglio e vedo che come in tutti i lavori, tutte le aziende, così come ti allontani un attimo...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "No Hero",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": ""
+    "autore": "Elisa"
   },
   {
     "id": "2016-03-10-002",
@@ -588,11 +590,14 @@
     "end": 1226.04,
     "speaker_raw": "SPEAKER_04",
     "testo": "Qualche ascoltatore, diciamo quelli un po' più attenti, staranno dicendo ma com'è questo disco che non ho mai sentito nelle radio italiane? Come mai è il primo disco del volo del mattino? Come mai? È la colonna sonora di Ave Cesare. Il nuovo film dei fratelli Coe che noi amiamo ovviamente. Sono dei grandissimi registi e soprattutto raccontatori di reale e surreale. Riescono a mischiare queste cose meravigliose. Ricordiamo alcuni titoli dei loro film. fratello dove sei?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ave Cesare",
+    "tema": [
+      "reale",
+      "surreale"
+    ],
+    "tipo": "riferimento_film",
     "video_url": "",
-    "autore": ""
+    "autore": "fratelli Coe"
   },
   {
     "id": "2016-03-10-049",

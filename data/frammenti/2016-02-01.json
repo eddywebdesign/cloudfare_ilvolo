@@ -1340,9 +1340,11 @@
     "end": 2784.13,
     "speaker_raw": "SPEAKER_11",
     "testo": "Questo è Gregory Alan Isaacov, o Isakov, no, Isaacov sarà. Sì, l'ho trovato qualche giorno fa. È parete di Johanna? Dal cognome? No, l'ho trovato qualche giorno fa. Se vi piace, non so, la musica in casa, quella che si riesce... che tu la ascolti ma riesci anche a fare altre cose invece la musica che va proprio ascoltata che ti devi mettere lì con le cuffie e sentire così no bello bello invece questa qui insomma è un po' da lunedì mattina no ho capito che non ti piace quando dici bello bello sette volte ho capito che non ti piace bello bello bello ti piace tutto il ti piace quella cacciara lì no non mi piace la cacciara boom boom boom si può anche parlare tra persone a un certo punto non è che è sempre intrattenimento ascoltate un attimo buongiorno Fabio quando torna il momento elettronico per rimanere in linea con le esigenze di Maurizio allora volevo dire che un'ascoltatrice dice che i medici faranno come fanno molti insegnanti cioè fumeranno lo stesso in classe o nella scuola ci sono insegnanti che fumano in classe?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "trovare nome straniero",
+    "tema": [
+      "nome"
+    ],
+    "tipo": "aneddoto",
     "video_url": "",
     "autore": ""
   },
@@ -1380,11 +1382,13 @@
     "end": 2894.41,
     "speaker_raw": "SPEAKER_12",
     "testo": "Allora, l'impronta musicale della radio era proprio basata su questa nuova onda di musica che arrivava dall'Inghilterra, questa New Wave, quindi c'era proprio questo suono inglese e, ad esempio, abbiamo in sottofondo Goody Two Shoes di Adam Antler. Questa era una delle canzoni che si sentiva proprio all'inizio su Radio Digenevo 82.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Goody Two Shoes di Adam Antler",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": ""
+    "autore": "Adam Antler"
   },
   {
     "id": "2016-02-01-110",

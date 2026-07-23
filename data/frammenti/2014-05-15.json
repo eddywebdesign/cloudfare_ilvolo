@@ -205,9 +205,11 @@
     "end": 853.27,
     "speaker_raw": "SPEAKER_08",
     "testo": "poi ce ne sono un po' Brianino Brianino, grande Brianino che adesso è il punto di domanda degli U2 lo sai no? sai che adesso gli U2 sono lì un po' incartati con l'album nuovo vedi che rimandano l'uscita e non sanno Brianino come vecchio, come nuovo ho capito il problema di essere numeri uno è che dopo c'è quella ansia lì una volta che esce un disco devi essere numero uno quindi adesso loro sono un po' lo so bene lo so bene poi Mike Oldfield cos'era? è quella lì? Gran pezzo Giorgio Mastrota di tutti quelli che hai nominato ho il cellulare di Brianino del fisico quello lì del radio e di Giorgio Mastrota quello lì del radio che non so neanche mi ricordo neanche più il nome il filosofo lo psicofisico quantistico poi ho Mastrotta e Brianino dimmi tu chi chiamo a me servirebbe Brianino vabbè lo chiamiamo Mastrotta cosa sta facendo Mastrotta adesso? lo chiamiamo Mastrotta non lo so cambiamo invece scusami Clementina ciao Fabio buongiorno scusami Clementina ma stavamo dicendo dalla settimana prossima andiamo lì a sentire come sono andate le storie d'amore e ora ha detto la Laura ma com'è finita con quella ragazza di Prato che si era incontrata con l'ascoltatore vi eravate anche piaciuti lì no? si vi state ancora vedendo? si ma vi siete fidanzati?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Brianino U2 album nuovo",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "aneddoto",
     "video_url": "",
     "autore": ""
   },
@@ -764,11 +766,13 @@
     "end": 2567.65,
     "speaker_raw": "SPEAKER_08",
     "testo": "No, ma non è che facciamo un serio cazzeggio, non è che funziona così, insomma. Le puntate è un po' come le torte, escono un po' così. Allora, Maurizio, l'hai visto quel film di Kubrick con Nicole Kidman e Tom Cruise? Andava avanti poi il discorso. Sai che se tu guardi Nicole Kidman in quel film e la guardi adesso sono due persone completamente diverse, altro che io con la barba o senza barba. che peccato che le donne si toccano la faccia senti eh sì loro due marito e moglie quel film ha messo in crisi loro due perché quel film andava proprio dentro pesante nelle relazioni di coppia e quindi sai è come la distanza la distanza è come il vento c'entra ancora l'asino Esatto, come il veto, spegne i fuochi piccoli, alimenta quelli grandi. Vabbè, vuoi sentire un altro pezzo di questa frase prima che puoi capire perché si è sfondata la famiglia? Per sempre. Vedi, stiamo svegli per sempre. Per sempre. Cioè, basta, non dobbiamo più mentire, mettere maschere.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "film Nicole Kidman Tom Cruise",
+    "tema": [
+      "cambiamento"
+    ],
+    "tipo": "riferimento_film",
     "video_url": "",
-    "autore": ""
+    "autore": "Stanley Kubrick"
   },
   {
     "id": "2014-05-15-059",

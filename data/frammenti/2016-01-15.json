@@ -441,11 +441,13 @@
     "end": 1838.34,
     "speaker_raw": "SPEAKER_00",
     "testo": "Jack Garrett Worry un disco del 2014 però suona ancora proprio fresco fresco fresco ciao ragazzi io sono stato scelto dal mago Zurli 10 anni, a 10 anni, tra tutti i bambini della scuola per fare il monologo davanti ai principi di Monte Carlo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Jack Garrett Worry",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": ""
+    "autore": "Jack Garrett"
   },
   {
     "id": "2016-01-15-036",

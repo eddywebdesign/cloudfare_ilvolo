@@ -691,11 +691,13 @@
     "end": 1902.07,
     "speaker_raw": "SPEAKER_01",
     "testo": "aspetta aspetta cioè ma scusami quello col nastrino che passano sui binari no meglio meglio senza proprio un tavolo sul binarietto passano due sushi al salmone e dietro una poesia di Neruda bravo però quella roba lì così con gli aiku ti piace? come marorio il ristorante è pienissimo va bene va bene va bene nel 2016 c'è ancora la poesia parole note questa roba dai, voltiamo pagina reinventarsi ma basta grazie ascoltatori sta per andare in onda la seconda parte del volo del mattino parleremo dei buoni propositi del 2016 avete fatto la lista con i vostri sogni da realizzare argomentone originalone",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "poesia di Neruda",
+    "tema": [
+      "poesia"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": ""
+    "autore": "Pablo Neruda"
   },
   {
     "id": "2016-01-07-057",
@@ -953,11 +955,13 @@
     "end": 2667.55,
     "speaker_raw": "SPEAKER_12",
     "testo": "un nostro amico che è anche venuto a trovarci al volo del mattino sta spopolando con il discorso di fine anno ed è Natalino Balasso Natalino Balasso tutti gli anni fa il discorso di Capodanno sul suo canale che è Telebalasso sul canale Youtube quest'anno al momento attuale è intorno agli 850.000 visualizzazioni quasi milione quindi insomma è una cosa è una cosa importante per lui sì perché sono diciamo le linee guida per il prossimo anno è una sua critica sull'anno prima e i suoi propositi per l'anno per l'anno dopo ma se non sbaglio a proposito di lista del 2016-2015 se non sbaglio sbrocca un po' cioè parla della Lega parla di Renzi parla della divisione cioè ha un po' sbroccato non ha più freni inibitori",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "discorso di Capodanno Natalino Balasso",
+    "tema": [
+      "comicità"
+    ],
+    "tipo": "riferimento_film",
     "video_url": "",
-    "autore": ""
+    "autore": "Natalino Balasso"
   },
   {
     "id": "2016-01-07-078",

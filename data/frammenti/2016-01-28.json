@@ -202,11 +202,13 @@
     "end": 886.14,
     "speaker_raw": "SPEAKER_10",
     "testo": "stavo dicendo mentre andava questa bellissima canzone di have a nice day cioè abbiate tutti una buona giornata ragazzi un po' un augurio qui dal volo del mattino degli stereofonics che il nonno di mio padre cioè mio bisnonno anch'esso anch'ello anch'egli il nonno di mio padre, panettiere non metteva la sveglia perché lui si doveva svegliare alle 2 e lo svegliava sempre il gatto ma non 2 e 5 l'1 e 58, alle 2 in pacca il gatto andava sulla testa e lo svegliava io sono cresciuto con questa questa immagine, mi sono sempre chiesto come è il gatto, perché ho cercato di darvi delle risposte il gatto vedeva la sveglia sul muro quando vedeva la lancetta così, vedeva un segno e quel segno gli ricordava no, no, no, no come no?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Have a Nice Day",
+    "tema": [
+      "auguri"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": ""
+    "autore": "Stereo MC's"
   },
   {
     "id": "2016-01-28-016",
@@ -440,9 +442,12 @@
     "end": 1949.74,
     "speaker_raw": "SPEAKER_10",
     "testo": "Giuliano Negramaro, il posto dei Santi, saranno presenti alla festa di Radio DJ? I Santi, vengono tutti i Santi. Io forse canto anche con loro, lo sai? Stiamo decidendo in questi giorni se fare una cantatina con Giuliano. Oppure io suono al pianoforte e canta lui. Decidereremo. Decidereremo. In caso dovessi suonare io al pianoforte, le canzoni sono solo due. anzi tre una la vecchia sigla della barilla la seconda è l'inizio di Per Elisa solo l'inizio la terza è Rocky Balboa perché io al pianoforte faccio i primi 15 secondi di Rocky Balboa e imparai all'oratorio Sant'Afra di Brescia quindi io vado al pianoforte senti una cosa mi suona il telefono perché quello della caldaia non posso non mettere giù perché se perdo il gancio non mi chiama più aspetta un secondo pronto pronto sono in diretta pronto ah ok ce ne sentiamo dopo no no niente è arrivata la ragazza per la caldaia si però devo spiegarle un paio di cose la ritiamo più tardi a me devi spiegarlo a lei a lei perché non parla italiano a te ah ti dava del lei ah lei a me ma no dammi del tu che se no non ci capiamo cosa mi devi dire cosa mi devi dire ok, senti, il programma finisce fra 20 minuti va bene, ci siamo tra 20 minuti sei in diretta, vuoi salutare qualcuno? ciao a tutti ciao, ciao, ciao, scusami ciao, ciao cioè, devono venire a riparare la caldaia a casa di amici, diciamo, no? ok, e questa mattina gestisco tutto io, perché non parlo in italiano neanche io, però insomma, meglio di loro ho detto, ciao, scusami e a un certo punto lui mi ha detto, ma mi ha riconosciuto e mi ha detto, mi dici amo il Kung Fu? io ho detto, va cazzo allora adesso devo rispondere perché se perdo il giro dell'assistenza vengono poi fra un mese scusate per questo utilizzo privato ti deve dare delle informazioni sulla legge della caldaia e l'acqua calda senti allora Igor adesso qua abbiamo fatto tanta confusione perché noi abbiamo scontato tante cose noi dobbiamo dire allora i desideri io voglio prestamene uno Maurizio io voglio entrare in pianoforte io voglio Sai che è una dei miei, posso dirti che io ho la lista dei fallimenti invece? Non so se si fa.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Giuliano Negramaro",
+    "tema": [
+      "festa",
+      "musica"
+    ],
+    "tipo": "citazione",
     "video_url": "",
     "autore": ""
   },

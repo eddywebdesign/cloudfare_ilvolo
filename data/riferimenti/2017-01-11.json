@@ -67,7 +67,8 @@
     "start": 696.6,
     "end": 1393.2,
     "episodio_data": "2017-01-11",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/20806d48-c8e1-497b-970f-048d8ebbfe47/front-250"
   },
   {
     "id": "2017-01-11-musica-clip-0003",
@@ -81,7 +82,8 @@
     "start": 696.6,
     "end": 1393.2,
     "episodio_data": "2017-01-11",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/91f7c203-6b53-436e-811c-ccdc38120f6a/front-250"
   },
   {
     "id": "2017-01-11-film-clip-0001",
@@ -179,7 +181,7 @@
     "start": 2786.4,
     "end": 3019.18,
     "episodio_data": "2017-01-11",
-    "confermato_esterno": false
+    "confermato_esterno": true
   },
   {
     "id": "2017-01-11-libro-clip-0012",
@@ -193,6 +195,7 @@
     "start": 2786.4,
     "end": 3019.18,
     "episodio_data": "2017-01-11",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/414595-M.jpg"
   }
 ]

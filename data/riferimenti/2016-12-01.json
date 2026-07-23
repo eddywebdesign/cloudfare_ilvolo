@@ -39,7 +39,8 @@
     "start": 0.0,
     "end": 757.39,
     "episodio_data": "2016-12-01",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/d8fc3f80-0d36-448a-a30f-10398a10cae9/front-250"
   },
   {
     "id": "2016-12-01-musica-clip-0003",
@@ -137,7 +138,8 @@
     "start": 2272.17,
     "end": 2820.14,
     "episodio_data": "2016-12-01",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/e5fa004d-b7d2-43a4-9e2b-e21c6a6fbd42/front-250"
   },
   {
     "id": "2016-12-01-musica-clip-0007",
@@ -151,7 +153,8 @@
     "start": 2272.17,
     "end": 2820.14,
     "episodio_data": "2016-12-01",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/3a28305f-cb79-467f-aa69-706deb00b932/front-250"
   },
   {
     "id": "2016-12-01-libro-clip-0001",
@@ -165,7 +168,8 @@
     "start": 2272.17,
     "end": 2820.14,
     "episodio_data": "2016-12-01",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/12964011-M.jpg"
   },
   {
     "id": "2016-12-01-libro-clip-0002",

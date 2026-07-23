@@ -11,7 +11,8 @@
     "start": 0.0,
     "end": 649.1,
     "episodio_data": "2017-10-19",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/09d4c89d-3d28-475d-9535-2b91d5b34c7b/front-250"
   },
   {
     "id": "2017-10-19-musica-clip-0001",
@@ -54,7 +55,7 @@
     "start": 0.0,
     "end": 649.1,
     "episodio_data": "2017-10-19",
-    "confermato_esterno": false
+    "confermato_esterno": true
   },
   {
     "id": "2017-10-19-musica-clip-0002",

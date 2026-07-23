@@ -38,10 +38,14 @@
     "end": 259.5,
     "speaker_raw": "SPEAKER_06",
     "testo": "Diciamo la mia generazione sente subito Prince sotto questo disco, l'avranno già detto tutti, noi non l'abbiamo mai detto, Make Me Feel ci piace tanto, possiamo dare inizio al Volo del Mattino. Ragazzi, ragazzi, è il programma giusto, il posto giusto dove essere nel momento giusto. Addirittura. Sì, perché ci sono quei programmi che tu giri e dici forse non mi piace magari tanto, però so che questo è il momento dove devo esserci. Quando vai alle feste che dici è questo il posto. Tu vieni da una città piccola, anche Maurizio. Però Maurizio non è mai uscito, non ha mai bevuto, non ha mai fumato una sigaretta. Maurizio è quello che ha il cellophane sul divano e quando compra la macchina nuova lascia il cellophane sui sedili i primi due mesi. Sta sbadigliando. Credo abbia tolto ieri Il pezzo di cellofan di plastica sopra lo schermo dell'iPhone dopo un mese che ce l'ha. Ce l'ha ancora lì la letta, c'è ancora la letta. C'è ancora il mio iPhone 6. Che ridere, comunque fa ridere questo. Io sai che ce l'avevo davvero, lo dico a un mio amico di Brescia, che di solito è più Puglia quelle cose lì. Io quando vado in Puglia ho trovato tanti di quei posti. Il mio amico pugliese mi dice tutte le mie zie ce l'hanno. Il divano con sopra ancora il cellofan. Che poi ti siedi e sappi... No, ma poi tutta la vita col cellofan per rovinare una cosa che poi dopo... Che senso ha che muori e hai il divano nuovo?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Make Me Feel",
+    "tema": [
+      "musica",
+      "piacere"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "H.E.R."
   },
   {
     "id": "2018-04-05-004",
@@ -577,9 +581,12 @@
     "end": 1342.75,
     "speaker_raw": "SPEAKER_17",
     "testo": "Sorridendo ti verrà da piangere, a pensare a quante volte nei momenti d'oro stavi pensando ad altro, in un altro luogo, con un altro tempo, proprio ora che ti sto guardando, dentro a questo angolo di questo mondo dove le canzoni sono spiriti, come da ragazzi siamo stupidi e ci piacciono le cose sbagliate. Le canzoni non devono essere belle, devono essere stelle, illuminare la notte, far ballare la gente. Ognuno come gli pare, ognuno dove gli pare, ognuno come si sente. Ognuno come gli pare, ognuno dove gli pare, ognuno come si sente. Come fosse per sempre, come fosse per sempre. La mia voce mi esce fuori da dentro, da una zona che è fuori controllo, gonfia i polmoni, passa dal collo e poi esce e non torna più indietro. Pensavamo bastasse rompere un vetro che ci divide dal resto del mondo per essere liberi in fondo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "canzoni come stelle",
+    "tema": [
+      "ricordi",
+      "musica"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -742,10 +749,13 @@
     "end": 1588.12,
     "speaker_raw": "SPEAKER_06",
     "testo": "Soprattutto in America. Le do il buono, le do il buono. Scusami, Maurizio ha preparato la frase del film di George Clooney che racconta dei punti, no? Però in realtà c'è un film di Alberto Sordi, scusami, di Verdone, dove lui va in farmacia, però ha comprato due volte le stesse cose e quindi va a farsi ridare i soldi. Ce l'hai? Sì.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "film di George Clooney",
+    "tema": [
+      "punti"
+    ],
+    "tipo": "riferimento_film",
+    "video_url": "",
+    "autore": "George Clooney"
   },
   {
     "id": "2018-04-05-068",
@@ -1149,9 +1159,11 @@
     "end": 2338.88,
     "speaker_raw": "SPEAKER_01",
     "testo": "E' una tale forza dentro che neanche te la sogni. C'è l'amore nella mia vita e questo mi rende così forte che nemmeno te lo immagini.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "forza dell'amore",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

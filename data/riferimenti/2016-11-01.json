@@ -39,7 +39,7 @@
     "start": 0.0,
     "end": 586.18,
     "episodio_data": "2016-11-01",
-    "confermato_esterno": false
+    "confermato_esterno": true
   },
   {
     "id": "2016-11-01-libro-clip-0001",
@@ -179,7 +179,8 @@
     "start": 1172.36,
     "end": 1758.53,
     "episodio_data": "2016-11-01",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/4f5c5a7f-1349-48cb-b848-ed2bdb599638/front-250"
   },
   {
     "id": "2016-11-01-film-clip-0002",

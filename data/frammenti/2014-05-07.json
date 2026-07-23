@@ -183,11 +183,13 @@
     "end": 600.1,
     "speaker_raw": "SPEAKER_11",
     "testo": "Leggevo ieri sera una cosa interessante su Chekhov, conosci Chekhov? Eh sì. L'hai letto qualcosa di Chekhov? Qualcosina. Chekhov va letto, cioè magari altri scrittori no, ma Chekhov va assolutamente letto, capito? Perché lui va letto.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "opere di Chekhov",
+    "tema": [
+      "lettura"
+    ],
+    "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": ""
+    "autore": "Anton Chéjov"
   },
   {
     "id": "2014-05-07-016",

@@ -240,11 +240,14 @@
     "end": 807.54,
     "speaker_raw": "SPEAKER_00",
     "testo": "L'Uomo delle Stelle è un brano musicale scritto da David Bowie e pubblicato nell'aprile del 1972. Considerata una delle canzoni più influenti dell'intero repertorio di Bowie, Starman rappresentò un punto di svolta nella carriera del cantante inglese. In particolare la performance a Top of the Pops che la BBC trasmise il 6 luglio del 1972 e che è stata citata come fonte di ispirazione di un'intera generazione. per questo abbiamo scelto questa canzone non è la mia preferita la mia preferita è sempre Space Oddity mi è rimasta lì nel cuore ti piace Space Oddity?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "L'Uomo delle Stelle",
+    "tema": [
+      "carriera",
+      "influenza"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": ""
+    "autore": "David Bowie"
   },
   {
     "id": "2016-01-11-020",
@@ -343,11 +346,13 @@
     "end": 994.49,
     "speaker_raw": "SPEAKER_00",
     "testo": "Il suo regista... Alejandro Gonzales Ignarrito Ignarrito, Ignarrito qui è un po' come Cesaria Evora, Cesaria Evora Winona Ryder, comunque Ignarrito o Inarrito, come molti lo chiamano che ha scritto praticamente ha fatto solo capolavori, ecco se vi piace il cinema e vi siete persi qualcosa lui ha fatto, vabbè, Babel che è 21 grammi, con Champagne che abbiamo citato prima ha fatto Beautiful, scritto proprio con la I Beautiful, con Javier Barden esatto ha fatto l'anno scorso Birdman e poi mi ricordo uno dei primi che era Mores Perros che era forse quello che l'ha lanciato proprio che l'ha reso popolare lo ricordi a Mores Perros?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Babel",
+    "tema": [
+      "cinema"
+    ],
+    "tipo": "riferimento_film",
     "video_url": "",
-    "autore": ""
+    "autore": "Alejandro González Iñárritu"
   },
   {
     "id": "2016-01-11-028",
@@ -417,11 +422,14 @@
     "end": 1053.98,
     "speaker_raw": "SPEAKER_00",
     "testo": "e Sylvester Stallone come attore grande non protagonista in Creed in Creed cioè non si chiama più Rocky ma si chiama Creed cioè il figlio di Apollo Creed quello lì esatto che diventa anche lui campione grazie ai consigli di Sylvester Stallone lo vedi",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Creed",
+    "tema": [
+      "amore",
+      "genitori"
+    ],
+    "tipo": "riferimento_film",
     "video_url": "",
-    "autore": ""
+    "autore": "Ryan Coogler"
   },
   {
     "id": "2016-01-11-034",
@@ -468,11 +476,14 @@
     "end": 1306.6,
     "speaker_raw": "SPEAKER_00",
     "testo": "Volevo dirti che il film di Tarantino è uscito anche a Londra, io l'ho visto, scrive un ascoltatore, è bellissimo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Diario di un assassino",
+    "tema": [
+      "vendetta",
+      "giustizia"
+    ],
+    "tipo": "riferimento_film",
     "video_url": "",
-    "autore": ""
+    "autore": "Quentin Tarantino"
   },
   {
     "id": "2016-01-11-038",

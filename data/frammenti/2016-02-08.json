@@ -258,9 +258,12 @@
     "end": 990.05,
     "speaker_raw": "SPEAKER_05",
     "testo": "Quasi corretto, come sempre noi siamo sempre precisi. Due volte l'anno questo succede, ma solo due volte, due giorni l'anno. Sono i famosi giorni degli equinozio, l'equinozio di primavera, l'equinozio d'autunno. Ecco, in quei due giorni il sole sorge esattamente a est e tramonta esattamente a ovest.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "equinozio di primavera e autunno",
+    "tema": [
+      "tempo",
+      "natura"
+    ],
+    "tipo": "riflessione",
     "video_url": "",
     "autore": ""
   },
@@ -523,11 +526,13 @@
     "end": 1673.91,
     "speaker_raw": "SPEAKER_00",
     "testo": "si può trovare su youtube sicuro no? va bene noi torniamo fra pochissimo e scusatemi che dopo gli U2 al ritorno cazzeggiamo un po' e vi spariamo lì in Floyd no no per carità poi dopo dite che i programmi sono tutti uguali col cazzo tutti uguali col cazzo",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Shock of course",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": ""
+    "autore": "U2"
   },
   {
     "id": "2016-02-08-042",
@@ -711,11 +716,13 @@
     "end": 2766.09,
     "speaker_raw": "SPEAKER_00",
     "testo": "io ascolto musica in cuffia la sera a casa tipo Rihanna però è un'altra cosa quello che volevo spiegare è questo tipo di musica che è all'interno di un album e l'album ai tempi miei aveva un senso la scaletta in cui il produttore e l'artista sceglievano le canzoni di quell'album perché era proprio un viaggio al di là dei concept album tipo The Wall ma in generale c'era tutto un sali e scendi questo è Alvaro Vitali questo è Alvanoto io consiglio Alvanoto ecco per esempio Alvanoto che rifà questo pezzo di Brianino ecco tu ti metti immaginatevi se avete le cuffie una bella poltrona, un divano quello che è la sera cuffia così va anche un po' di sincopatino lui Devo dire che è anche difficile forse vedere gli adolescenti che hanno questo trip anche con la letteratura. Cioè i pomeriggi magari che ci facevamo noi a leggerci il libro. Adesso diciamo la tecnologia ha accelerato così tanto che l'attenzione di 30 pagine di un libro importante sono difficili da sostenere.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "The Wall",
+    "tema": [
+      "album"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": ""
+    "autore": "Pink Floyd"
   },
   {
     "id": "2016-02-08-057",

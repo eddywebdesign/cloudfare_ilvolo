@@ -82,7 +82,8 @@
     "start": 2375.33,
     "end": 2806.66,
     "episodio_data": "2017-03-10",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/457f640c-13b7-4329-8973-79e183ca2ab6/front-250"
   },
   {
     "id": "2017-03-10-musica-clip-0005",
@@ -96,7 +97,8 @@
     "start": 2375.33,
     "end": 2806.66,
     "episodio_data": "2017-03-10",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/ab308d08-0dfd-44f5-aad1-cf31020359f0/front-250"
   },
   {
     "id": "2017-03-10-musica-clip-0006",
@@ -110,7 +112,8 @@
     "start": 2375.33,
     "end": 2806.66,
     "episodio_data": "2017-03-10",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/593a997c-e293-47c7-834a-f39e8b529b37/front-250"
   },
   {
     "id": "2017-03-10-musica-clip-0007",
@@ -124,7 +127,8 @@
     "start": 2375.33,
     "end": 2806.66,
     "episodio_data": "2017-03-10",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/d566dd3d-3c25-46f5-a439-11942e71202c/front-250"
   },
   {
     "id": "2017-03-10-musica-clip-0008",
@@ -138,6 +142,7 @@
     "start": 2375.33,
     "end": 2806.66,
     "episodio_data": "2017-03-10",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/ff73e591-bca4-45b8-88aa-041e5c246ce5/front-250"
   }
 ]

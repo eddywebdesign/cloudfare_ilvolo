@@ -710,11 +710,13 @@
     "end": 1245.55,
     "speaker_raw": "SPEAKER_11",
     "testo": "No, come facevi a sapere che ti chiamavamo? Comunque, vabbè, aspetta. Mettiamo un pezzettino e se vuoi stai qui. Mettiamo un pezzo e poi mettiamo il disco, dai. Mettiamo No Hero di Elisa, se vuoi.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "No Hero",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": ""
+    "autore": "Elisa"
   },
   {
     "id": "2016-04-06-058",

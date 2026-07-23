@@ -215,11 +215,13 @@
     "end": 1000.38,
     "speaker_raw": "SPEAKER_06",
     "testo": "Come si chiama quello che ha... Arthur Jeffs ascoltava il volo del mattino, probabilmente, e ha fatto questo pezzo che si chiama Black Hole 5.0. È bello.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Black Hole 5.0",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": ""
+    "autore": "Arthur Jeffs"
   },
   {
     "id": "2016-02-22-018",
@@ -291,9 +293,12 @@
     "end": 1159.07,
     "speaker_raw": "SPEAKER_06",
     "testo": "Poi veniamo al tema top... della giornata più top di gatto gatto leggi strane nel mondo sono uscite delle nuove leggi strane in tutto il mondo in tutti i paesi del mondo esistono delle leggi che sono leggi universali più o meno non uccidere poi ogni paese ha delle proprie leggi alcune sono veramente divertenti per esempio in Australia i bambini non possono acquistare le sigarette ma possono fumarle Cioè, vai con un genitore, te le compra lui, però poi tu li te la puoi fumare. Sì. Ok.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "leggi strane in giro",
+    "tema": [
+      "regole",
+      "umorismo"
+    ],
+    "tipo": "aneddoto",
     "video_url": "",
     "autore": ""
   },

@@ -53,7 +53,8 @@
     "start": 671.15,
     "end": 1342.31,
     "episodio_data": "2016-12-19",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/81f4eb9b-f025-4ea9-9a4e-f85cd5f64d07/front-250"
   },
   {
     "id": "2016-12-19-musica-clip-0006",
@@ -193,6 +194,7 @@
     "start": 2684.62,
     "end": 2954.2,
     "episodio_data": "2016-12-19",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/7eb0ea65-cfd3-4563-93e1-b45b6e3388f3/front-250"
   }
 ]

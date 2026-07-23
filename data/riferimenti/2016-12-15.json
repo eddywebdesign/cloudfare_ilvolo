@@ -11,7 +11,8 @@
     "start": 0.0,
     "end": 610.62,
     "episodio_data": "2016-12-15",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/7367737d-938d-413a-aad4-77b7b6badcaf/front-250"
   },
   {
     "id": "2016-12-15-musica-clip-0001",
@@ -39,7 +40,8 @@
     "start": 1221.25,
     "end": 1831.87,
     "episodio_data": "2016-12-15",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/1012730-M.jpg"
   },
   {
     "id": "2016-12-15-musica-clip-0002",
@@ -95,6 +97,7 @@
     "start": 2442.49,
     "end": 2758.08,
     "episodio_data": "2016-12-15",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/8cdce77c-a4a5-465b-a221-d7dc7e8c95b4/front-250"
   }
 ]

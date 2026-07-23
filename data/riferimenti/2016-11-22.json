@@ -53,7 +53,8 @@
     "start": 0.0,
     "end": 601.49,
     "episodio_data": "2016-11-22",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/c69114f3-72ea-4a66-9c12-516c3b12f97f/front-250"
   },
   {
     "id": "2016-11-22-libro-clip-0000",
@@ -95,7 +96,7 @@
     "start": 601.49,
     "end": 1202.97,
     "episodio_data": "2016-11-22",
-    "confermato_esterno": false
+    "confermato_esterno": true
   },
   {
     "id": "2016-11-22-libro-clip-0003",
@@ -151,7 +152,8 @@
     "start": 1804.46,
     "end": 2405.95,
     "episodio_data": "2016-11-22",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/5b764df3-babb-4f33-a0b2-c1a7dd225e95/front-250"
   },
   {
     "id": "2016-11-22-libro-clip-0006",
