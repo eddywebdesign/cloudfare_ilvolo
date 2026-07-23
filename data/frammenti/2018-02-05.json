@@ -335,10 +335,13 @@
     "end": 735.55,
     "speaker_raw": "SPEAKER_02",
     "testo": "Una volta e sola, nel Piccolo Principe ho fatto la volpe, nell'ultima versione.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Il Piccolo Principe",
+    "tema": [
+      "storia"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Antoine de Saint-Exupéry"
   },
   {
     "id": "2018-02-05-031",
@@ -379,9 +382,11 @@
     "end": 779.65,
     "speaker_raw": "SPEAKER_02",
     "testo": "Però a proposito di felicità, sai che ogni tanto con Bianca, mia moglie, ci diciamo ma come sarebbe bello adesso fare un volo di 12 ore? Perché è bello, cioè i film sono più belli, i sapori sono più saporiti, dormi meglio.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Felicità in volo",
+    "tema": [
+      "felicità"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -500,9 +505,12 @@
     "end": 1114.56,
     "speaker_raw": "SPEAKER_03",
     "testo": "L'ha portato fino alla fine. Questa è la bella storia sui cani. Tra l'altro ci sono delle storie bruttissime invece oggi sui giornali, sui cani, che noi non citiamo perché parliamo di felicità, però date un occhio perché è veramente una storia molto triste. Allora, se hai fatto pace con Giovanotti, noi mettiamo un disco di Lorena. Chi è Giovanotti? E chi diavolo è Giovanotti? Che in realtà, visto che hai fatto anche il film con Muccino, c'è un pezzo di Giovanotti nel film, che canticchiate, perché in questo film di Muccino, e adesso ne parliamo ovviamente, spesso con Gianmarco Tognazzi che suona al pianoforte, ci si trova intorno a questo pianoforte, in questa casa bellissima di Ischia, e si suonano le vecchie canzoni, accoccianti così, e c'è anche un pezzo di Giovanotti. Sentiamo l'ultima adesso, le canzoni. E questa è il tuo scherzo. Ciao Lorenzo!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "storia sui cani",
+    "tema": [
+      "felicità",
+      "cani"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -1017,10 +1025,13 @@
     "end": 2220.29,
     "speaker_raw": "SPEAKER_03",
     "testo": "Guarda che disco che ti abbiamo preelto. Ma io ti ammiro tantissimo. Senti, senti, senti che bello. Per te. Lucio Dalla, per te. Per te. Per te. Per te, per te.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Per te",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Lucio Dalla"
   },
   {
     "id": "2018-02-05-093",
@@ -1083,9 +1094,12 @@
     "end": 2447.38,
     "speaker_raw": "SPEAKER_04",
     "testo": "Ce n'è niente. Così ripensami, tra vent'anni ripensami Vestito da torero, una torta in mano L'orecchio puntato verso il cielo, verso quel suono Lontano, ma ecco che si avvicina, con un salto siamo nel 2000. Alle porte dell'universo, l'importante è non arrivarci in fila, ma tutti quanti in modo diverso, ognuno con i suoi mezzi, magari arriva. Su una vecchia bicicletta da corsa, con gli occhiali da solo, il cuore nella borsa, impara il numero a memoria. Corri, scrivilo sulla pelle, le sette reponi tra vent'anni, butta i numeri fra le stelle. Dalle porte dell'universo un telefono suona ogni sera sotto un cielo di tutte le stelle di un inquietante primavera.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "ricorda il passato",
+    "tema": [
+      "memoria",
+      "tempo"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -1094,9 +1108,12 @@
     "end": 2472.24,
     "speaker_raw": "SPEAKER_03",
     "testo": "Per esempio chiede un'ascoltatrice, io vi sto seguendo sia in radio che sulla diretta Facebook, ma perché le cose più interessanti le dite durante la diretta Facebook? Perché il microfono ti dà una sosta di responsabilità, quando lo molli è come se parlassi al bar.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "microfono e responsabilità",
+    "tema": [
+      "comunicazione",
+      "onestà"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -1138,9 +1155,12 @@
     "end": 2586.0,
     "speaker_raw": "SPEAKER_03",
     "testo": "Invece se tu stai sempre fuori dalla tua routine, dalle tue cose, sappiamo che gli oggetti e le relazioni ti danno un'idea di te, per quello che si dice quando uno si fissa sulla ricerca di sé, il viaggio accelera la consapevolezza, nel senso che se tu vai lontano e non c'è tua mamma che ti guarda, i tuoi amici che ti guardano, tu puoi veramente avere la possibilità di chiederti chi sei.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "viaggio per autoconoscenza",
+    "tema": [
+      "autoconoscenza",
+      "viaggio"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

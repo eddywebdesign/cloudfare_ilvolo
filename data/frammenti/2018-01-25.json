@@ -536,10 +536,13 @@
     "end": 733.12,
     "speaker_raw": "SPEAKER_10",
     "testo": "Jack White ha deciso che nei concerti della prossima tournée le persone non potranno portare il telefono, anzi lo possono portare ma lo devono mettere dentro una sacca che viene data all'ingresso che ha la chiusura come quella dell'antitaccheggio.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Jack White tournée",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Jack White"
   },
   {
     "id": "2018-01-25-049",
@@ -1338,10 +1341,13 @@
     "end": 1977.69,
     "speaker_raw": "SPEAKER_12",
     "testo": "No, però questa barba, questo occhiale un po' vudiale, stai prendendo quella deriva da uomo interessante che legge solo i meridiani della Mondadori, solo i grandi classici.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "meridiani della Mondadori",
+    "tema": [
+      "letteratura"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Mondadori"
   },
   {
     "id": "2018-01-25-121",

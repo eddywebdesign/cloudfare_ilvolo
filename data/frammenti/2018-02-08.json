@@ -775,9 +775,11 @@
     "end": 936.97,
     "speaker_raw": "SPEAKER_10",
     "testo": "E questo? Sì. Dove è il microfono? Allora ragazzi, in questo momento chi fosse... Scusa, ti ho dato una spinta. Allora, chi si fosse... Si fosse sintonizzato in questo momento siamo con Daniele Cassioli che mi ha bendato. Quindi sto facendo la radio come se fossi non vedente. Sono non vedente in questo momento. Tengo due mani qui sul pulsante del microfono perché non ti ho visto. Il microfono è qui. Eccolo qua. Ok, ok, ok. Beh, insomma, ci sono sicuramente dei lavori che non si possono fare da bendato. Tipo l'autista, mi viene subito a pensare chi guida. Ma in realtà anche Maurizio che sta... Eh, sarebbe un bel... No, quella con i computer. Quindi, cari ascoltatori, pensate, il vostro lavoro lo potreste fare da non vedente. E per esempio il mio, sì. Mezzo e mezzo. Perché non è un lavoro. Tanto perché non è un lavoro.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "radio come non vedente",
+    "tema": [
+      "disabilità"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -907,10 +909,14 @@
     "end": 1097.95,
     "speaker_raw": "SPEAKER_10",
     "testo": "Cioè la famosa, scusami, che è la cosa che mi aveva colpito me, il bambino che con la stampante, che stampava in braille, ha letto il mio libro, no? Ok. È arrivata la stampante? No. Non è arrivata la stampante? E i soldi sono arrivati meno o non sono proprio arrivati?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "il mio libro",
+    "tema": [
+      "bambini",
+      "accessibilità"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Fabio Volo"
   },
   {
     "id": "2018-02-08-083",
@@ -1017,9 +1023,12 @@
     "end": 1343.04,
     "speaker_raw": "SPEAKER_09",
     "testo": "Come le portassi nelle buste della spesa liper E dalla timidezza che non ti nasconde perché il velo cotto Da come diventi rosso e ti ripari dall'imbarazzo che sta piovendo addosso Con un sorriso che allarghi come un ombrello rotto Potessi abbattere lo schermo degli anni Ti donerei l'inconsistenza dello schermo degli altri So che siamo tanto presenti quanto distanti So bene come ti senti, so quando ti sbagli, credimi Volo, Maurizio, Viola. Volo, Maurizio, Viola. Volo, Maurizio, Viola. Volo, Maurizio, Viola.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "poesia di Maurizio",
+    "tema": [
+      "timidezza",
+      "intimità"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -1457,9 +1466,11 @@
     "end": 2176.85,
     "speaker_raw": "SCONOSCIUTO",
     "testo": "I don't wanna be your hero I don't wanna be a big man I just wanna fight with everyone else",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "I don't wanna be your hero",
+    "tema": [
+      "desiderio"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {

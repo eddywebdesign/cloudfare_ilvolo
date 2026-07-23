@@ -874,10 +874,14 @@
     "end": 1666.92,
     "speaker_raw": "SPEAKER_14",
     "testo": "Allora si potrebbe definire un topos, cioè un classico, insomma è questa storia. Allora il film di cui parlavo credo che fosse l'una di miele in tre, dopo adesso guarderò bene il titolo. Però insomma è Pozzetto che è innamorato, nella sua cameretta ha solo poster di donne di Playboy e vive in un paesino nella provincia di Milano. Adesso non mi ricordo i dettagli, però funziona così. E lui va al bar, dalla cassiera del bar, dalla tabaccheria, è molto carina e si vede che ha un debole perpozzetto, ma lui ormai pensa solo alle fotomodelle di Playboy americano.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Una di miele in tre",
+    "tema": [
+      "amore",
+      "paese"
+    ],
+    "tipo": "riferimento_film",
+    "video_url": "",
+    "autore": "Pozzetto"
   },
   {
     "id": "2018-02-09-080",

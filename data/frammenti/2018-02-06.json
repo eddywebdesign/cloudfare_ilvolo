@@ -280,10 +280,13 @@
     "end": 504.96,
     "speaker_raw": "SPEAKER_08",
     "testo": "Che disco di Bob Marley devo mettere? Allora, intanto metti un pezzettino dei gas così facciamo felici quelli che si sono offesi. Ok. Poi ti faccio vedere come lo mixavo io in discoteca. Con cosa? Sai che io non so mixare, no? Come non so fare tante altre cose, tra cui mixare. Senti, e poi mi metti... Could you be loved, I? Could you be loved, I? Doveva essere un bel inizio.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Could You Be Loved",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Bob Marley"
   },
   {
     "id": "2018-02-06-026",
@@ -544,9 +547,11 @@
     "end": 982.99,
     "speaker_raw": "SPEAKER_01",
     "testo": "Lockness, ok. E una. E mentre appunto stavano viaggiando, la signora McKay così getta lo sguardo sul lago e vede un pesce stranissimo, una balena, qualcosa di gigantesco, così uscire dai flutti e spruzzare e riemergere.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Mostro del Lago di Ness",
+    "tema": [
+      "mistero"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -610,9 +615,12 @@
     "end": 1132.81,
     "speaker_raw": "SPEAKER_01",
     "testo": "Guarda, è 36 chilometri in lunghezza, 2 chilometri in larghezza, ma molto profondo. Il punto più profondo è 227 metri. Ok, l'ho scritto, non lo so. Sì, sì, sì. E inizia appunto questa grande caccia al mostro, c'è, non c'è, fotografie, no, non sono vere, eccetera, finché arrivano gli americani. Gli americani nel 1986 aprono un McDonald's perché c'è un sacco di turismo che vale a vedere. Toglieranno tutta l'acqua, di solito fanno così. Più o meno una cosa del genere, cioè con 20 imbarcazioni si creano, si inventano l'Operational Deep Scan. Cioè praticamente sono 20 barche che scandagliano, perché hanno delle attrezzature super sofisticate, scandagliano tutto il lago e dichiarano che il mostro di Loch Ness non può esistere. Non può esistere per vari motivi. Poi è diventato Presidente degli Stati Uniti, ma al tempo scandagliava. Il primo motivo è che non hanno trovato resti, non hanno trovato ossa, non hanno trovato niente, non c'è questo fantomatico passaggio che collega il lago al mare, non esiste. Ma soprattutto non c'è una sufficiente biomassa per nutrire un mostro del genere. La biomassa è praticamente la somma di tutti gli organismi. Quindi non ci può essere. Ma allora cos'è questo mostro di Loch Ness?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "caccia al mostro lago Loch Ness",
+    "tema": [
+      "mostro",
+      "turismo"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -830,9 +838,12 @@
     "end": 1526.81,
     "speaker_raw": "SPEAKER_08",
     "testo": "Aspetta! L'hai messa giù così però, siccome io ricevo tante mail anche di ascoltatore, mi piacerebbe scrivere un libro, mi piacerebbe, non è che mi puoi dare dei consigli, però per esempio qui, ridica questa frase.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "consigli per scrivere un libro",
+    "tema": [
+      "scrittura",
+      "parole"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -1380,10 +1391,13 @@
     "end": 2424.07,
     "speaker_raw": "SPEAKER_06",
     "testo": "Grazie a tutti. It's been a long cold lonely winter Little darling It feels like years since it's been here Here comes the sun Here comes the sun And I say it's alright Little darling, the smile's returning to the faces. Little darling, it seems like years since it's been here. Here comes the sun, here comes the sun, I say it's alright. Volo Volo, Maurizio, Viola.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Here Comes The Sun",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "The Beatles"
   },
   {
     "id": "2018-02-06-126",
@@ -1589,9 +1603,12 @@
     "end": 2643.88,
     "speaker_raw": "SPEAKER_08",
     "testo": "Questa è la storia di mille matrimoni, cioè lui è convinto che lei sia quella cosa lì, invece lei ha fatto finta di essere un'altra persona per farsi prendere e poi lentamente ti divora. Dicesi matrimonio. No ma è incredibile che succeda questa cosa.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "predazione matrimoniale",
+    "tema": [
+      "matrimonio",
+      "inganno"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

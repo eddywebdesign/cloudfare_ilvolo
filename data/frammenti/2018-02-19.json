@@ -599,9 +599,12 @@
     "end": 1020.89,
     "speaker_raw": "SPEAKER_11",
     "testo": "Scegliete la vita. Scegliete la vita era un benintenzionato slogan di una campagna antidroga degli anni Ottanta. E noi ci aggiungevamo altre cose. Magari dicevo, per esempio, scegli... Biancheria intima firmata. Nella vana speranza di dare una botta di linfa vitale a una relazione defunta. Scegli le borse. Scegli le scarpe con i tacchi, il cashmere e la seta. Così sentirai quello che spacciano per felicità. Scegli un iPhone fatto in Cina da una donna che si è buttata dalla finestra. E mettilo nella tasca della giacca fresca di una fabbrica di schiavi del sud-est asiatico. Scegli Facebook, Twitter, Snapchat, Instagram e mille altri modi per vomitare la tua bile contro persone mai incontrate. Scegli di aggiornare il tuo profilo. Di al mondo cosa hai mangiato a colazione e spera che a qualcuno da qualche parte freghi qualcosa. Scegli di cercare vecchie fiamme, augurandoti caldamente di non essere inguardabile come loro. Scegli di scrivere un live blog dalla prima sega fino all'ultimo respiro. L'interazione umana ridotta a niente più che dati. Scegli dieci cose sconosciute sulle celebrità che hanno fatto la plastica. Scegli di strepitare sull'aborto. Scegli battute sullo stupro, di sputtanare. Il porno per vendette è un'ondata infinita di deprimente misoginia. Scegli che l'11 settembre non è mai successo e semmai sono stati gli ebrei. Scegli un contratto a zero ore, un viaggio casalavoro di due ore. E scegli lo stesso per i tuoi figli, ma peggio. E magari di a te stesso che era meglio se non nascevano. E poi sdraiati e soffoca il dolore con una dose sconosciuta di una droga sconosciuta fatta in una qualche fottuta cucina. Scegli le speranze non realizzate desiderando di aver agito diversamente. Scegli di non imparare mai dai tuoi errori. Scegli di osservare la storia che si ripete. Scegli di riconciliarti lentamente con quello che puoi ottenere invece di quello che hai sempre sperato. Accontentati di avere meno e fa buon viso a cattiva sorte. Scegli la delusione. Scegli di perdere le persone care e quando spariscono dalla vista un pezzo di te muore con loro. Finché non vedrai che un giorno nel futuro una per volta saranno sparite tutte di te e non rimarrà niente né di vivo né di morto. Scegli il futuro, Veronica. Scegli la vita.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "scegli la vita",
+    "tema": [
+      "vita",
+      "scelta"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -720,9 +723,12 @@
     "end": 1303.56,
     "speaker_raw": "SPEAKER_08",
     "testo": "Ma scusa, hai l'occasione per lanciare il tuo amico negli Stati Uniti. Guarda com'è finito il cinema italiano. Noi ci hanno abituato ad andare a vedere gli attori famosi invece che andare a vedere le storie. Guarda come è messo il cinema italiano. Non riesci a vedere una storia. Devi sempre andare a vedere i 4 o 5 bellocci. Distrutto dalle stars. Il cinema sono fatte di storie. È meglio anche un attore non famoso, bravo, che ti racconta una storia. Invece noi li abbiamo... No, vai a vedere il film D. Vai a vedere il film D. Vai a vedere il film D e poi escono dieci film in Italia, nove con gli stessi attori, uno ci prova ogni tanto e lo prendono in America.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "cinema italiano",
+    "tema": [
+      "storia",
+      "attori"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -1644,9 +1650,12 @@
     "end": 2664.05,
     "speaker_raw": "SPEAKER_02",
     "testo": "Tu di me. Dove sono i tuoi occhi e la tua bocca? Forse in Africa che importa? Tu dimmi quando, quando Dove sono le tue mani e il tuo naso Verso un giorno disperato Ed io sete O sete ancora O sete ancora Non guardarmi adesso, amore, sono stanco perché penso al futuro. Tu dimmi quando, quando siamo angeli che cercano un sorriso, non nascondere il tuo viso. Perché ho sete, ho sete ancora, ho sete ancora. Buongiorno per vederti andar via Fra i ricordi e questa strana pazzia E il paradiso che forse esiste Chi vuole un figlio non esiste Tu dimmi quando, quando Ho bisogno di te Volo, Maurizio, Viola. E' il paradiso che forse esiste, chi vuole un figlio? Sai che non ti avrò nessun tuo viso, sta per nascere un sorriso. Lo sete ancora, lo sete ancora.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Poesia di Pino Daniele",
+    "tema": [
+      "amore",
+      "sete"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -1655,9 +1664,11 @@
     "end": 2694.93,
     "speaker_raw": "SPEAKER_08",
     "testo": "Oh ragazzi, momento meraviglioso a Radio DJ, il Volo del Mattino, abbiamo ricordato Massimo Troisi e poi gli abbiamo picchiato dentro anche un Pino Daniele, cioè il Massimo. Tra l'altro, mentre andava Pino Daniele e Troisi, mi ha mandato un messaggio vocale a Vitiello, che si è un po' anche infastidito che abbiamo svelato questa cosa, che loro in realtà sono qua nella zona, ma mi ha mandato un messaggio vocale.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Messaggio vocale di Vitiello",
+    "tema": [
+      "messaggio"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

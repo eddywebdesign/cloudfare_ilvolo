@@ -313,10 +313,13 @@
     "end": 1089.42,
     "speaker_raw": "SPEAKER_10",
     "testo": "Cioè, non è l'amore che ti fa bene, ma è l'amore che in qualche modo ti fa star bene anche nello star male. Diciamo, però non è una cosa che ti fa bene. E' come la sigaretta. Sai che non ti fa bene, ma ti fa godere e in quel momento non riesci a smettere. Senta prof, c'è anche per esempio una citazione meravigliosa di On the Road di Jack Kerouac, un film che cambiò anche il modo della letteratura, la big generation e roba del genere, dove lui racconta di una cosa simile.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "On the Road",
+    "tema": [
+      "letteratura"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Jack Kerouac"
   },
   {
     "id": "2018-02-12-029",
@@ -1160,9 +1163,12 @@
     "end": 2434.17,
     "speaker_raw": "SPEAKER_02",
     "testo": "«Blessed are the arrogant, for there is the kingdom of their own company. Blessed are the superstars, for the magnificence in their light we understand better our own insignificance.» Blessed are the filthy rich, for you can only truly own what you give away.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "benedetti gli arroganti",
+    "tema": [
+      "egoismo",
+      "superstelle"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {

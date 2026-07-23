@@ -445,9 +445,12 @@
     "end": 922.29,
     "speaker_raw": "SPEAKER_01",
     "testo": "La menopausa. Scherzo. Senti, allora, Letizia, tu torni Io torno. Ho mollato tutto cinque anni fa e non son più tornata. Da due anni vivo felicemente in giro col camper, prima in barca a vela, poi in zaino in spalle. Posso garantire che si vive e si viaggia con pochissimi soldi. Ma ho la ricchezza del mio tempo. Io sostengo da tanti anni, ma siccome ho una posizione agiata, tutti mi mandano a quel paese. Però a me mi hanno insegnato questo da ragazzino e ha funzionato, perché io quando non avevo soldi viaggiavo molto di più, perché avevo il tempo, non avevo i soldi. Adesso è il contrario, ho più soldi ma non ho mai tempo. Che per viaggiare non ne servono tanti, se tu ti organizzi, se tu ti adatti, se tu... Vai anche a lavorare. Io in Giamaica vendevo i pantaloni per tornare a casa, per dire...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "vita con pochi soldi",
+    "tema": [
+      "tempo",
+      "ricchezza"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -841,10 +844,13 @@
     "end": 1196.06,
     "speaker_raw": "SPEAKER_03",
     "testo": "Oh mamma, è il porto di Letizia Lianza.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Il Porto",
+    "tema": [
+      "vela"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Letizia Lianza"
   },
   {
     "id": "2018-02-13-077",
@@ -896,9 +902,11 @@
     "end": 1215.41,
     "speaker_raw": "SPEAKER_00",
     "testo": "Ragazzi andate oggi a comprare Il Porto di Letizia Lianza. Un libro di panza, un libro di panza.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "libro di panza",
+    "tema": [
+      "lettura"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -1149,9 +1157,12 @@
     "end": 1892.33,
     "speaker_raw": "SPEAKER_01",
     "testo": "Non si poteva guardare, si guardavano i giornaletti, tutti i ragazzini, c'hai Leone, c'hai il fratello più grande dell'amico. C'era Blitz, che non era un porno, erano solo donne nude, con sto pescetto che era un piramide disegnato, e il papà del mio amico Alessandro aveva Blitz, ma sul comodino, cioè proprio neanche lo nascondeva. Dal barbiere. E noi andavamo lì e poi ai tempi, capito, ai tempi c'era ancora, cioè, il triangolo no, erano quegli anni in cui, capito, non solo l'uomo aveva la barba, ecco, mettiamola così. E al cinema porno, e tu puoi cambiare discorso, faceva molto ridere perché finivano la carriera le prostitute. Guarda che è tutta storia di un'Italia vera che nessuno parla perché adesso tutti... Invece è la vita di quelli...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Blitz sul comodino",
+    "tema": [
+      "privacy",
+      "adolescenza"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1633,9 +1644,12 @@
     "end": 2417.99,
     "speaker_raw": "SPEAKER_01",
     "testo": "Non mi dirà, no, ma io riesco a uscire con i miei amici. Ma io sono quello che stamattina non riusciva ad aprirti il laccetto della bicicletta e sperava della cacca del cane per rianimare il caldo delle mani. Va bene. Allora, ascoltatemi, qual è la cosa bella del viaggiare, non dell'andare in vacanza, del viaggiare soprattutto verso le che si incontrano altre persone, cioè si è aperti a nuove avventure, non andate nei villaggi che vi chiudete lì è come stare a Varese, cioè andate sempre nei posti sicuri, serve molto l'atteggiamento, io sono stato in posti anche meno sicuri in passato, ti dicono ma non è pericoloso, è l'atteggiamento, è come cammini, è come guardi, è come ti muovi, è come parli, quello fa tantissimo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "apertura a nuove avventure",
+    "tema": [
+      "viaggio",
+      "incontro"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -1666,10 +1680,14 @@
     "end": 2448.06,
     "speaker_raw": "SPEAKER_05",
     "testo": "Un giorno va a Londra. Come si chiama questo batterista? Il batterista dell'istoria si chiama Fabrizio Moretti.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "batterista degli Strokes",
+    "tema": [
+      "musicista",
+      "viaggio"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Fabrizio Moretti"
   },
   {
     "id": "2018-02-13-152",
@@ -1721,9 +1739,12 @@
     "end": 2713.41,
     "speaker_raw": "SPEAKER_01",
     "testo": "Si sente che andavano a bere a Little Joy? Binky Shapiro. Io l'anno scorso, dopo essermi separato, ho montato i bagagli sulla bicicletta e sono andato a farmi un giretto che è durato una settimana. Così? Oh, Maurizio, devo dire una cosa importante. Mi spiace. Ma...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "viaggio dopo separazione",
+    "tema": [
+      "separazione",
+      "viaggio"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   }
 ]

@@ -181,9 +181,11 @@
     "end": 367.17,
     "speaker_raw": "SPEAKER_06",
     "testo": "Eh questa qua è la versione karaoke. No, no, sto scherzando, adesso attacca, senti. L'ascoltatore a Roma soprattutto adesso va più a bomba, senti. Questa sera non chiamarmi Questa sera devo uscire, ma senti il testo, mi viene da piangere ancora. No, stasera devo uscire con lui Con lui? Lei ha detto non chiamarmi, devo uscire con lui.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Questa sera non chiamarmi",
+    "tema": [
+      "relazioni"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -398,9 +400,12 @@
     "end": 826.2,
     "speaker_raw": "SPEAKER_06",
     "testo": "Sentire questa voce per me è come sentire la voce di qualcuno che ti abbraccia, no? Capito? Siccome mi manca una voce, no? Oggi sarebbe stato il compleanno di mio papà, no? E quindi oggi mi sono un po' autopremiato. Voglio salutare anche mia mamma e mia sorella. Ciao papà! Ma stiamo allegri! Stiamo allegri! Come dire, lavoriamo sui lutti da soli nel privato, non pubblicamente. Rimaniamo allegri. È incredibile come un'assenza diventa presenza quasi più di quando era presenza.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "lutto e allegria",
+    "tema": [
+      "genitori",
+      "tristezza"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -464,9 +469,11 @@
     "end": 903.77,
     "speaker_raw": "SPEAKER_06",
     "testo": "Ah, è uno dei nomi più belli al mondo che è Francesca. Francesca, i tuoi martiri a lagrimarmi fanno tristo e pio.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "francesca martiri",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -574,9 +581,11 @@
     "end": 1049.41,
     "speaker_raw": "SPEAKER_06",
     "testo": "Però ti posso dire che tutte le volte io ho un amico Che si lascia e si prende, si lascia e si prende mediamente una volta al mese. Una vita difficilissima che ogni discussione... Sì, anch'io con Johanna, ti devo dire, ho avuto un periodo che ogni discussione ci faceva arrivare sul... Sul confine. Sul burrone, che è una roba bruttissima quando tu discuti e metti sul tavolo della discussione beh, allora lasciamoci, perché quella roba lì non bisognerebbe mai metterla lì sul tavolo. Bisognerebbe farlo solo quando si fa. Comunque, detto questo... Ogni volta che lui si lascia con sta ragazza mi dice, no ma stavolta è quella giusta. Allora noi cominciamo, forse non è quella giusta per te, ma anche quando cerchiamo di fargli capire che... E lui dice, no no ma l'ho capito. Poi tornano insieme e io e i miei amici diciamo, ascolta le dirà tutte le cose che abbiamo detto di lei quando... Quindi non si commentano mai le ex perché non si sa. Francesca, oggi è il giorno più triste dell'anno. Si chiama Blue Monday. Però cosa possiamo fare per tirarti su?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "discussione sul burrone",
+    "tema": [
+      "relazione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

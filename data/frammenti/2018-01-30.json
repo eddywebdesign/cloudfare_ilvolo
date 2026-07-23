@@ -1028,10 +1028,13 @@
     "end": 2149.27,
     "speaker_raw": "SPEAKER_16",
     "testo": "Grandissima canzone di Franco Battiato, bellissimo testo, ci vuole un'altra vita. Ci vuole un'altra vita. Allora, un ascoltatore maschio dice, la frase che hai messo però è perfetta per una donna, ma è perfetta anche per un uomo. Dici? E' più per le donne quella di voler sempre piacere a tutti, cioè l'uomo è un po' più egoista secondo me, tendenzialmente, non si può fare, non si può fare, no perché stavamo dicendo che eravamo un fascio ma si può dire, siamo in campagna elettorale, non si può fare di tutto l'erba un fascio, falso martello, falso Italia, 5 stelle, ok. Falce e martello non ci sono. Allora, caro ascoltatore, che anche tu sei in un vortice negativo. Sì. Per tirarti fuori non avevamo una frase di un film, ma un altro ascoltatore, Simone da Parma, che però non ci risponde al telefono. Ciao, sto andando a farmi tagliare il pisello, nel senso sto andando a fare la circoncisione.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Ci vuole un'altra vita",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Franco Battiato"
   },
   {
     "id": "2018-01-30-094",
@@ -1050,10 +1053,13 @@
     "end": 2181.94,
     "speaker_raw": "SPEAKER_16",
     "testo": "Ti ricordi Maurizio che c'era quella frase bellissima di quel film con Jack Black che a un certo punto loro escono tutti insieme con Mosè e bevono. E Mosè dice, sai che c'è domani? La trovo divertente. Sentite questa barzelletta, barzelletta che non fanno ridere, la scrivo all'ascoltatore. Mamma, dov'è la nonna? In cielo. Come mai? È caduta dal balcone. Uè, che rimbalzo! Cioè, ce l'abbiamo quella lì, senti?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Mosè e la bevuta",
+    "tema": [
+      "amicizia"
+    ],
+    "tipo": "riferimento_film",
+    "video_url": "",
+    "autore": "Jack Black"
   },
   {
     "id": "2018-01-30-096",
@@ -1380,10 +1386,13 @@
     "end": 2449.27,
     "speaker_raw": "SPEAKER_16",
     "testo": "Adesso tiro sul livello con una delle canzoni più belle che non conoscete, per cui prendetevela. Che meraviglia. Magnolia, Eric Clapton. Senti che meraviglia. Questa ve la godete tutta. Pura al posto dell'orologio mi starebbe bene un po'. Ma che schifo. Bracciale.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Magnolia",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Eric Clapton"
   },
   {
     "id": "2018-01-30-126",
@@ -1435,9 +1444,11 @@
     "end": 2672.02,
     "speaker_raw": "SPEAKER_19",
     "testo": "Una poesia a memoria. Una! Grazie a Fiorello.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "poesia a memoria",
+    "tema": [
+      "memoria"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -1578,10 +1589,13 @@
     "end": 3038.6,
     "speaker_raw": "SPEAKER_16",
     "testo": "Stavamo parlando di prepuzio, siamo finiti con una delle poesie più belle di Neruda, lette da Ferruccio Amendola. Molti ascoltatori chiedono come si intitola questa poesia. Maurizio sa tutto su questo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Poesie di Pablo Neruda",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Pablo Neruda"
   },
   {
     "id": "2018-01-30-144",
@@ -1688,9 +1702,11 @@
     "end": 3167.05,
     "speaker_raw": "SPEAKER_16",
     "testo": "No, fatemi dire una cosa, lui avendolo... Strac con la cerniera, ok? Ce l'ha zigrinato come i ravioli, sai quando fanno quei bei ravioli con la rotellina? Quindi lui, il suo pisello sembra Shakespeare, perché c'ha... C'ha sotto la capocchietta, c'ha tutta la pelle zigrinata così come un raviolo. E sembra Shakespeare. Tant'è che in doccia viene e dice che mi ha incantato con lo sguardo. E lui le donne le conquista così. Ma guarda, stento. Però mi fido. Sì, ogni tanto il poverino. Quando tira il collo a Shakespeare. Vabbè, comunque fai. Allora. Andiamo avanti. Aspetta, Maurizio durante il disco mi ha detto ho la registrazione dell'ascoltatore che sta facendo la circoncisione. Io ho detto non la voglio sentire. Aspetta, me l'ha fatta sentire. Non uscirà più dalla mia testa. Per cui, cari ascoltatori, vi ho appena salvato. Non la facciamo sentire, no?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ravioli e Shakespeare",
+    "tema": [
+      "amicizia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

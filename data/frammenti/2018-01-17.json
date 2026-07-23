@@ -1328,9 +1328,11 @@
     "end": 2584.19,
     "speaker_raw": "SPEAKER_06",
     "testo": "Siamo giovani. Ragazzi, it's gonna be alright!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "it's gonna be alright",
+    "tema": [
+      "speranza"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {

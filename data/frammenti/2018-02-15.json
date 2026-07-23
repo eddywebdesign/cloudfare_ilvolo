@@ -258,9 +258,11 @@
     "end": 325.95,
     "speaker_raw": "SPEAKER_01",
     "testo": "Avete notato che nel radio DJ facevo sempre ah ah ah ah, non lo faccio più perché un ascoltatore mi ha scritto che gli do così tanto i nervi che gli rovino la giornata, allora per rispetto a quel ragazzo non l'ho più fatto. Ma da quando in qua accontentiamo gli ascoltatori? Io mai, perché porta rispetto. Se portano rispetto, anche in casa, non avete notato? Anche tra parenti, amici. Cosa? Cioè se tu sei sempre condiscendente e sei sempre lì preoccupato del bene dell'altro, perdi rispetto. Invece no, no non mi va.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "rispetto agli ascoltatori",
+    "tema": [
+      "rispetto"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -368,9 +370,12 @@
     "end": 496.15,
     "speaker_raw": "SPEAKER_01",
     "testo": "Due o tre settimane. Io mi ricordo sempre questa cosa. Una mia amica e un mio amico, lei voleva andare in vacanza, tipo alle Maldive, una roba del genere, e voleva un cane. Ed era uno dei motivi di scuola. Lui diceva, sì ci andremo, sì il cane no. Lei a un certo punto lo molla. Lui si presenta sotto casa col cane e il biglietto per le Maldive. E io gli ho detto, fighissimo, hai solo sbagliato il tempo. Andava fatto prima. E lei? No, non l'ha più preso. Ha mandato il cane alle Maldive. E ancora l'altro l'altro. Abbiamo parlato tantissimo, siamo noiosi, facciamo sentire come può accadere che un uomo e una donna in coppia diventino singole e possano festeggiare oggi.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "amici e cani alle Maldive",
+    "tema": [
+      "amicizia",
+      "vacanza"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -489,10 +494,13 @@
     "end": 780.84,
     "speaker_raw": "SPEAKER_01",
     "testo": "Chiami, chiamami. Chiodi, allora aspettate perché mentre noi siamo un gruppo di tendenzialmente ignoranti, a parte Viola che ha studiato. Daniela è una psicologa. Esatto. Psicoterapeuta. Sì. Sì. E lei come la poetessa canadese di qualche settimana fa. Rupi Kaur. Rupi Kaur che ha fatto una lista di cose da fare e non fare quando si è lasciati.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "lista di Rupi Kaur",
+    "tema": [
+      "lasciati"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Rupi Kaur"
   },
   {
     "id": "2018-02-15-045",
@@ -522,10 +530,13 @@
     "end": 790.54,
     "speaker_raw": "SPEAKER_00",
     "testo": "Tra l'altro esce il nuovo libro tra poco.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "nuovo libro Rupi Kaur",
+    "tema": [
+      "lasciati"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Rupi Kaur"
   },
   {
     "id": "2018-02-15-048",
@@ -1567,9 +1578,12 @@
     "end": 1695.45,
     "speaker_raw": "SPEAKER_01",
     "testo": "No, vabbè, sono cose tue, Francesca, sono cose tue. Comunque lui ti ha lasciato su Baby Don't Hurt Me, tu sei andata a casa e hai fatto una cassettina. Esatto. Dove hai registrato undici volte Come mai degli 883. Esatto. E te la sei, cose da non fare quando si è stati lasciati, te la sei ascoltata All'infinito.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Francesca e la separazione",
+    "tema": [
+      "amore",
+      "separazione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -2106,9 +2120,11 @@
     "end": 2610.44,
     "speaker_raw": "SPEAKER_01",
     "testo": "E lui è tutto riservato perché lui sai quella provincia lì di Pavia, la nebbia fa crescere le persone in maniera riservata, sempre un po' avvolte in questa cosa. Dice sì, una volta da ragazzino avevo questa fidanzata, a un certo punto lei diventa maggiorenne e decide di andare all'estero. La sta dicendo giusto? Sì. Decide di andare all'estero a studiare e dice, Maurizio, vieni con me. E lui dice, ma che lavoro faccio? Troviamo un lavoro. No, vieni con me. Troviamo un lavoro, andiamo a vivere insieme. Cioè, lei gli propone una vita più ampia, una scatola più grande. Dai. Maurizio ovviamente non se la sente, aveva 18-19 anni, 19 anni avevi tu, 19 e te 18 lei, Maurizio dice no non me la sento, non me la sento, voglio stare qui per via, la cosa, la famiglia, il lavoro. Lei parte, si lasciano ovviamente, anche se si erano promessi di no, la sto dicendo giusta, un po' aggiungo delle cose perché è un romanzo. Tutto perfetto. Maurizio da quel giorno si chiude in cameretta e per giustificare il suo no, ascolta come la nostra ascoltatrice di 883 questa canzone.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "fidanzata all'estero",
+    "tema": [
+      "relazione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

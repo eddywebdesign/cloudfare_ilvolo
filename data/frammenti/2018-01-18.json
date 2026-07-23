@@ -1122,9 +1122,11 @@
     "end": 2189.74,
     "speaker_raw": "SPEAKER_02",
     "testo": "Senti questa frase bellissima che può cambiarti la vita, a me l'ha cambiata, no? Hai bisogno del beat? Senti, senti, senti. Né dolcezza di figlio, quindi né per l'amore che ho per mio figlio, né dolcezza di figlio, né la pietà del vecchio padre, né per pietà verso i miei genitori, né per l'amor che dovea Penelope far lieta, quindi né per l'amore di mia moglie, vincer poter dentro di me l'ardore che io ebbi a divenire del mondo esperto e degli vizi umani e del valore.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Né dolcezza di figlio",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -1320,10 +1322,14 @@
     "end": 2839.0,
     "speaker_raw": "SPEAKER_10",
     "testo": "C'era praticamente questa fiamma doppia che Dante vede e chiede a Virgilio perché quella fiamma è doppia. E in quel caso appunto c'è Ulisse, c'è Diomede che hanno peccato in vita insieme e quindi scontano",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Divina Commedia",
+    "tema": [
+      "peccato",
+      "amore"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Dante Alighieri"
   },
   {
     "id": "2018-01-18-119",

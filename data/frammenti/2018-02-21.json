@@ -390,9 +390,12 @@
     "end": 779.91,
     "speaker_raw": "SPEAKER_00",
     "testo": "Attenzione, perché la fede non è una sciocchezza, la suggestione non è una sciocchezza, suggerisce al tuo inconscio come deve diventare la tua vita. Quindi la suggestione è un suggerimento, la fede, anche le medicine funzionano se hai fede in quello che te le dà. hanno dimostrato per esempio che le medicine che non contengono il principio attivo hanno un effetto del 30% come se avesse il principio attivo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "la fede e la suggestione",
+    "tema": [
+      "fede",
+      "suggestione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -412,9 +415,12 @@
     "end": 800.27,
     "speaker_raw": "SPEAKER_00",
     "testo": "Superpotere ce l'hanno, noi l'abbiamo perso, i primitivi ce l'hanno ancora, quelli che vivono nelle tribù africane hanno delle capacità di vita e di intelligenza della vita che non procede per vie razionali come noi e quindi sono forti tutte quelle intuitive, quelle suggestive",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "superpotere primitivo",
+    "tema": [
+      "intuizione",
+      "vita"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -423,10 +429,13 @@
     "end": 842.03,
     "speaker_raw": "SPEAKER_01",
     "testo": "che sono delle capacità di stare al mondo anche se non hai le logiche razionali ma basta professore lei ha preso il nostro programma l'ha alzato a quel livello che a Radio 24 trema Radio Rai sembra M2O allora lei ha scritto questo libro Le parole ai giovani che in realtà sono delle lettere che lei ha ricevuto nella sua rubrica di Repubblica e risponde un po' a questi giovani io mi ricordo nel 2007 di aver letto il suo libro sul nichilismo Come sono questi giovani? Intanto quando si dice giovani io non riesco mai a capire bene esattamente cosa si intende per giovani, dai adolescenti fino ai 25.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "le parole ai giovani",
+    "tema": [
+      "giovinezza"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Fabio Volo"
   },
   {
     "id": "2018-02-21-039",
@@ -665,10 +674,14 @@
     "end": 1584.38,
     "speaker_raw": "SPEAKER_01",
     "testo": "Dal filosofo, non vanno più dallo psicologo, questo è molto interessante perché tra l'altro in questo libro che lei ha scritto riceve anche lettere di ragazzi che dicono per esempio io voglio studiare arte, voglio studiare filosofia e i genitori mi dicono no trovati un lavoro perché si ha la sensazione che conoscere queste cose non produca del danaro ecco.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Lettere di ragazzi",
+    "tema": [
+      "educazione",
+      "filosofia"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Volo"
   },
   {
     "id": "2018-02-21-061",
@@ -775,9 +788,12 @@
     "end": 1934.0,
     "speaker_raw": "SPEAKER_01",
     "testo": "Professor Galimberti l'ha cantata tutta questa canzone. Come fa a sapere il testo di questa canzone? Anche tenendo il beat con la mano destra. Allora, Professor Galimberti mi ha fatto piangere, dice un'ascoltatrice, Francesca. Volevo iscrivermi a filosofia, ma alla fine mi sono laureata in economia e marketing e comunque non capisco quale sia la mia professione a 27 anni. Il tema del talento è un tema che io utilizzo tanto sia nei miei libri che nella mia vita con gli amici quando incontro qualcuno di talento vero faccio sempre domande perché per me è un tema molto importante perché non sono mai riuscito a capire se il talento è una cosa che ti libera o che ti ingabbia perché è come quando vai a scuola e c'è tema libero o tema col titolo cioè il tema libero è una perdita perché uno dice oddio io ho sempre preferito tema libero perché ho sempre odiato anche nella vita la specializzazione, io trovo che la specializzazione Mi concentro su tutte le cose che perdo se io divento bravo in una cosa sola. Prefisco non essere il numero uno in una cosa ma fare più esperienze. Lei parla anche molto nei suoi discorsi, l'ho sentita più volte, di Diamond. Che sembra sempre una parola di un cartone giapponese, cioè il motivo per cui uno nasce, il senso diciamo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Canzone filosofica",
+    "tema": [
+      "vocazione",
+      "filosofia"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -830,9 +846,12 @@
     "end": 2113.61,
     "speaker_raw": "SPEAKER_00",
     "testo": "Non c'è dubbio. Volo, Maurizio, Viola. Vi comportate come quando ammirate una perla. Ma vi dimenticate che la perla è la malattia della conchiglia. Quindi quell'opera d'arte lì ha avuto bisogno della malattia dell'artista. Ci si ammala.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "malattia e arte",
+    "tema": [
+      "creatività",
+      "sofferenza"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -852,9 +871,12 @@
     "end": 2170.78,
     "speaker_raw": "SPEAKER_00",
     "testo": "Il dolore è sempre ambivalente. La depressione, per esempio, può portarti alla morte... Ma può portarti anche alla creatività. Non c'è nessun gesto letterario che non nasca da una dimensione depressa. Dalla condizione entusiasta vai in giostra, fai le cose, giri il mondo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "dolore e creatività",
+    "tema": [
+      "depressione",
+      "creatività"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -896,9 +918,12 @@
     "end": 2300.22,
     "speaker_raw": "SPEAKER_07",
     "testo": "Sentiamo il testo. Come stai? È un sacco che non te la prendi, è un sacco che non mi offendi e che non studia lo specchio per lavarti la faccia. È un sacco che non te la prendi e tanto che non mi offendi. E se ti parlo con la bocca chiusa. Sono tornato da New York e mi hai portato sopra le scale. Mi hai chiesto un orgasmo profondo, forse il più profondo del mondo, ma mi hai dato le spalle. E adesso tutte le strade mi portano ad altre campagne. Come stai? Un sacco che non te la prendi, un sacco che non mi offendi e che non studia lo sport. Non lo sai. Ecco, possiamo dire che i giovani sono descrittivi, no?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "testo letterario",
+    "tema": [
+      "malinconia",
+      "creatività"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {

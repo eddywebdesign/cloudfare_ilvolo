@@ -643,9 +643,12 @@
     "end": 1074.28,
     "speaker_raw": "SPEAKER_20",
     "testo": "Allora, la mia storia non è personale, è la storia che mi racconta sempre mia mamma quando vuole far ridere i nipoti su questo episodio. Aveva questa zia o nonna, non mi ricordo, penso fosse la zia, tipo Cattera, la zia Cattera, questa volta.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "zia Cattera e le mandorle",
+    "tema": [
+      "risparmio",
+      "inganno"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -720,9 +723,12 @@
     "end": 1126.66,
     "speaker_raw": "SPEAKER_17",
     "testo": "Cioè lei amava solo lo zucchero dei confetti. Esatto. Esatto. Si ciucciava tutta la parte bianca o rosa, ai tempi forse solo bianchi. E poi la mandorlina, dopo averla tenuta in bocca, così la metteva nel vasetto per voi nipotini.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "confetti succhiati",
+    "tema": [
+      "taccagneria",
+      "tradimento"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -808,9 +814,12 @@
     "end": 1358.82,
     "speaker_raw": "SPEAKER_06",
     "testo": "Dici che ho sempre voglia di scopare, servirebbe un secondo più all'anno per fare un respiro profondo, per rilassare le spalle. Tanto tutte le strade mi portano alle tue mutande, come stai? E' un sacco che non te la prendi, è un sacco che non mi offendi e che non sputi allo sbaglio. È un sacco che non te la prendi, è tanto che non mi offendi. E se ti parlo con la bocca chiusa, mi dici di non urlare. Sono tornato da New York e mi hai portato sopra le scale. Mi hai chiesto un orgasmo profondo, forse il più profondo del mondo, ma mi hai dato le spalle. E adesso tutte le strade mi portano ad altre campagne. E' un sacco che non mi offendi e che non studia lo specchio per lavarti la faccia. E' un sacco che non te la prendi e tanto che non mi offendi. In che punto finisce la nebbia in questa pianura? Ah, lo sai, che ieri ho comprato una maca. Ah, lo sai, non ci sono salito sopra. Ah, lo sai, che ieri ho incontrato un'amica. Ah, lo sai. E adesso tutte le strade mi portano ad altre campagne. Volo, Maurizio, Viola. Volo, Maurizio, Viola. Volo, Maurizio, Viola. Volo, Maurizio, Viola.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "poesia sessuale",
+    "tema": [
+      "desiderio",
+      "intimità"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -1633,10 +1642,13 @@
     "end": 3024.3,
     "speaker_raw": "SPEAKER_17",
     "testo": "Hai sentito la differenza delle due voci? Sembrava Giordano, davvero. Va bene, ringrazio gli ascoltatori che hanno scritto grazie per Tower of Song, la torre delle canzoni. Leonard Cohen, andate a sentirvelo oggi pomeriggio se avete tempo. Buongiorno a tutti, questa è Radio DJ. Qualcuno ci ricorda che sul linguaggio delle donne c'è anche la conoscenza del DJ Angelo. La regola dei cinque secondi. La regola dei cinque secondi, il DJ Angelo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Tower of Song",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Leonard Cohen"
   },
   {
     "id": "2018-02-02-149",

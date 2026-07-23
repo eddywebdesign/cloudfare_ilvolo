@@ -38,9 +38,11 @@
     "end": 160.1,
     "speaker_raw": "SPEAKER_03",
     "testo": "Grazie a tutti. Grazie a tutti. Ciao. Ciao. She said, boy, tell me honestly, was it real or just for show? Yeah. She said, save your apologies, baby, I just gotta know. How long has this been going on?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "She said, boy",
+    "tema": [
+      "relazioni"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -137,9 +139,11 @@
     "end": 367.77,
     "speaker_raw": "SPEAKER_09",
     "testo": "Accorsi è un po' uno di noi, però comunque sembra Accorsi. Un po' meno uno di noi. È come noi, ma un po' meno, perché comunque è Accorsi, cioè non potrebbe neanche esserlo. Capito? Ed è uno dei migliori. Quando ci sono alcuni attori proprio che hanno sto palo davanti, che loro vedono gli altri solo attraverso lo specchio dove vedono prima se stessi. Purtroppo alcuni di loro fanno anche i figli. Sì. E devo dire che questa nuova società che stiamo creando, dove l'amore per sé sta arrivando a dei livelli estetici soprattutto infiniti, quando tu ami più te stesso degli altri e il figlio non è un'occasione per imparare che puoi amare qualcos'altro da te, non fateli i figli. Perché poi dopo... Mettiamo la sigla, dai, mettiamo la sigla. Prima ci sono sempre i tuoi bisogni, i tuoi voleri e poi gli altri. Stai da solo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "attori e identità",
+    "tema": [
+      "identità"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -170,10 +174,13 @@
     "end": 494.71,
     "speaker_raw": "SPEAKER_06",
     "testo": "Va bene. Senti, sai che io sono sempre uno che vuole imparare cose nuove. Oh, è vero. Allora io mi sono messo lì a ascoltare un po' le canzoni di Bob Marley. Ti piace? Sì, ne ho selezionate tre. Senti quale ti piace di più. Allora. La prima è questa. Ok. La seconda è questa. La terza è questa. Dimmi tu.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "canzoni di Bob Marley",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Bob Marley"
   },
   {
     "id": "2018-02-07-016",
@@ -181,9 +188,11 @@
     "end": 521.4,
     "speaker_raw": "SPEAKER_09",
     "testo": "La seconda, devo dire, aveva qualcosa di più nostalgico. Ok, fammela risentire la seconda. Ecco, questa, questa, questa. Va bene, comunque ragazzi, oggi siamo solo noi, non abbiamo ospiti, ok? Siamo solo noi. Siamo solo noi, tra l'altro oggi è il compleanno di Vasco Rossi, quindi faremo anche un celebration, diciamo, celebriamo il compleanno di Vasco Rossi, che adesso Viola durante la canzone ci dice quanti anni compia.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "compleanno Vasco Rossi",
+    "tema": [
+      "celebrazione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -203,9 +212,11 @@
     "end": 547.29,
     "speaker_raw": "SPEAKER_09",
     "testo": "Ma soprattutto avremo il momento Adriana, avremo gli ascoltatori al telefono, siamo tornati a essere noi. Caro Fabio, sono un rappresentante, ascolto la radio tutto il giorno. Per me la radio sono le parole e non la musica, perché la musica mi piace meno. E posso dirti che il Volo del Mattino è l'unico programma che ascolterei senza interruzione musicale.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "parole piuttosto che musica",
+    "tema": [
+      "radio"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -456,10 +467,13 @@
     "end": 1070.02,
     "speaker_raw": "SPEAKER_09",
     "testo": "Che è vero, un bicchiere di vino col panino. Scusami, vuoi mettermi anche un pezzo dopo? Lasciala, di Totto Cotugno con il suono in italiano. Così facciamo il pezzo russo e... Manca Pupo. Felicità. Era da Fazio Domenica, Pupo. La bozza.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Lasciala",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Totto Cotugno"
   },
   {
     "id": "2018-02-07-042",
@@ -654,9 +668,12 @@
     "end": 1304.84,
     "speaker_raw": "SPEAKER_07",
     "testo": "La vita felice viene dal superamento dei problemi, dal risolvere le difficoltà, le sfide. Bisogna affrontare le sfide, fare del proprio meglio, sforzarsi. Si raggiunge la felicità quando ci si rende conto di riuscire a controllare le sfide poste dal fatto. Si tratta della gioia derivante dal superamento delle difficoltà, dalla lotta contro i problemi che vengono affrontati di petto e superati e invece ci si sente persi se aumentano le comodità. Abbiamo tutto quello che ci serve per evitare la fame, la miseria, la povertà. Una cosa che non abbiamo, una cosa che non ci può essere fornita dallo Stato, dai politici che stanno in alto, è lo stare insieme agli altri. Stare con altre persone, far parte di un gruppo. Le persone che sono abituate ad essere indipendenti stanno perdendo la capacità di accettare la convivenza con altra gente. Ci vogliono molti sforzi, molta attenzione, bisogna negoziare, rinegoziare, ridiscutere, concordare, ricreare. L'indipendenza non è la felicità. Alla fine l'indipendenza porta a una vita vuota, priva di senso e ad una completa, assoluta, inimmaginabile noia.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "superamento dei problemi",
+    "tema": [
+      "felicità",
+      "sfide"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -885,10 +902,14 @@
     "end": 1879.47,
     "speaker_raw": "SPEAKER_09",
     "testo": "De Piscopo, esatto. Quello di Toto Cotugno, esatto. Quello di Toto Cotugno, che è by R. E come Henry De Luca. È quello? R, senti. Che bomba. Ma è fighissimo. Sentite, eh. Guarda Lippi come era felice, ha detto, eh, roba mia è questa. Anche il video è un capolavoro.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "toto cotugno remix",
+    "tema": [
+      "musica",
+      "nostalgia"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "henry de luca"
   },
   {
     "id": "2018-02-07-081",

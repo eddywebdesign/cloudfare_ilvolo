@@ -665,10 +665,11 @@
     "end": 1110.07,
     "speaker_raw": "SPEAKER_02",
     "testo": "Oh my God, I feel it in the air, telephone wires above, all sizzling like a snail. Honey, I'm on fire, I feel it everywhere, nothing scares me anymore. Kiss me hard before you go, summertime sadness. I just wanted you to know that baby,",
-    "titolo": "",
+    "titolo": "Summertime Sadness",
     "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Lana Del Rey"
   },
   {
     "id": "2018-02-16-061",
@@ -687,10 +688,11 @@
     "end": 1210.01,
     "speaker_raw": "SPEAKER_02",
     "testo": "I'm feeling electric tonight Cruisin' down the coast, goin' about 99 Got my bad baby by my heavenly side I know if I go, I'll die happy tonight Oh my God, I feel it in the air Telephone wires above are sizzlin' like a snail Honey, I'm on fire, I feel it everywhere Sì. Sì.",
-    "titolo": "",
+    "titolo": "Electric Tonight",
     "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Queen"
   },
   {
     "id": "2018-02-16-063",
@@ -962,9 +964,12 @@
     "end": 1785.64,
     "speaker_raw": "SPEAKER_01",
     "testo": "Quando cominci a scoprire chi sei, allora capisci veramente quanto potere hai sulla tua vita. Ma lo puoi fare solo affrontando le difficoltà della vita. Quasi tutti evitano le difficoltà. Quasi tutti vivono la vita evitando il dolore. Quando coltivi un sogno, a un certo punto avviene un cambiamento. Impari a puntare più in alto. Cominci a sfidare te stesso, a scavare più a fondo. Dentro di te c'è qualcosa di subito, qualcosa che non hai mai attivato. Non cercare di prendere scorciatoie. Fa la cosa giusta. Siamo stati scelti per questa grande avventura.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "coltivare un sogno",
+    "tema": [
+      "cambiamento",
+      "sfida"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -1017,10 +1022,11 @@
     "end": 2040.16,
     "speaker_raw": "SPEAKER_06",
     "testo": "Grazie a tutti. Look around you, all you see are sympathetic eyes. Stroll around the grounds until you feel at home. And here's to you, Mrs. Robinson. Jesus loves you more than you will know. God bless you, Mrs. Robinson. Heaven knows a place for those you pray. Hey! Volo, Maurizio, Viola. Volo, Maurizio, Viola. Volo Volo",
-    "titolo": "",
+    "titolo": "Mrs. Robinson",
     "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Simon & Garfunkel"
   },
   {
     "id": "2018-02-16-093",

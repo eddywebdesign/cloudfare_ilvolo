@@ -60,9 +60,12 @@
     "end": 385.84,
     "speaker_raw": "SPEAKER_02",
     "testo": "Cioè, comunque, è la più bella. È la differenza fra... Attenzione. No, non lo posso dire. Allora... Mi è appena successa una cosa che mi fa molto ridere. Arrivo davanti all'asilo, scusate questa è vita di tutti i giorni, arrivo davanti all'asilo con Sebastian sul seggiorino dietro col casco e tutto, diciamo in versione islandese, casco, cintura e tutto così. Sto per tirarlo giù dalla bici, ovviamente di corsa, poi tra l'altro stasera sono da Gruber a Roma. Per cui parte adesso lo sbattimento per arrivare l'anno, quindi corro, sono in ritardo, devo prendere lo zaino.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "arrivo asilo con figlio",
+    "tema": [
+      "giornata",
+      "figli"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -104,10 +107,11 @@
     "end": 458.25,
     "speaker_raw": "SPEAKER_02",
     "testo": "Tra l'altro lo dico agli ascoltatori, dovevo andare perché mi ha invitato per parlare del libro, no? Ma mi aveva invitato prima di Natale, io ho detto guarda non posso, sono in giro, o avevo scelto gli autogrill al posto della Gruber, cioè ho scelto il popolo. Adesso basta, scusami. Io quindi pensavo di andare a parlare del libro e invece so che ci sono cose di politica di cui io non so niente. Puoi andare il 5 marzo? No, ma io andrò lì seduto e dirò io sono qua ad ascoltare, sono qui a vedervi da vicino. Ok, comunque detto questo, sono lì davanti all'asilo e sto per tirare giù Sebastian. Che ho lo sbattimento di chiudere la bici per quei 30 secondi. Si avvicina uno e mi dice, scusami, sei Fabio Volo? E io dico, sì, possiamo fare un selfie? Io con bambino mezzo su, mezzo giù, in ritardo, devo suonare il cittadino. Vi ho detto, guarda, fantastico, aspettami un secondo, mi guardi la bici così non la leggo e guadagno 10 secondi. Butto dentro il mio figlio, che io lo lancio con la fionda, con la catapulta. Butto dentro il mio figlio, bacio, esco, facciamo il selfie così. Tu hai il selfie, a me mai fatto qualcosa di così. Eh no, sono un po' di fretta. Gli ho detto, no, ma anch'io sono di fretta. Aiutiamoci. No, dai, sarà un'altra volta. Capito.",
-    "titolo": "",
+    "titolo": "libro di autore invitato",
     "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "nome_autore"
   },
   {
     "id": "2018-02-01-010",
@@ -423,10 +427,13 @@
     "end": 993.15,
     "speaker_raw": "SPEAKER_02",
     "testo": "Ragazzi, andiamo avanti. Non parliamo più di feromoni e idrocolon. Parliamo di cose alte. Parliamo di un poeta. Forse uno dei poeti più importanti della storia dei poeti. Una volta tanto... Garcia Lorca.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Garcia Lorca",
+    "tema": [
+      "poesia"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Lorca"
   },
   {
     "id": "2018-02-01-039",
@@ -522,9 +529,12 @@
     "end": 1060.67,
     "speaker_raw": "SPEAKER_05",
     "testo": "Hello. Hello. Hello. One, two. One, two. One, two, three.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "orca imita linguaggio umano",
+    "tema": [
+      "linguaggio",
+      "animali"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {

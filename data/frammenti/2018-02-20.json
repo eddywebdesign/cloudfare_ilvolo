@@ -478,10 +478,13 @@
     "end": 860.01,
     "speaker_raw": "SPEAKER_05",
     "testo": "Sì, però non potevi portare nessuno. C'era il famoso ciao, mi avevi già conquistato al ciao. Convinta, convinta. Convinta. Va bene, insomma, Toto, Africa, 1982, scritta da Mauro Porcini.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Toto Africa",
+    "tema": [
+      "ricordi"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Mauro Porcini"
   },
   {
     "id": "2018-02-20-044",

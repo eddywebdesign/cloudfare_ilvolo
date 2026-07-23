@@ -280,10 +280,14 @@
     "end": 962.79,
     "speaker_raw": "SPEAKER_07",
     "testo": "Ah no, lei. No, la segretaria ninfomane. Ma Ellie Macbill è la moglie di Robert Redford? Sì. Sì. Calista Floccarzi. Ok, un ascoltatore in gamba, grande Roberto, che dice se assumono in quell'azienda come raccoglitore di feromoni, io se assumono io mi... C'è una tecnica. C'è una tecnica. Sai quando compi la pappa reale, dentro c'è il cucchiaino di plastica a microscopio? Con quello lì si farà il lavoro. Piccolo pap test. Devi prendere la gente che fa i restauri, i restauratori. Un'ascoltatrice dice, se parlate di felicità, ve lo dico io, dice anche una parolaccia, lo posso dire?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Ellie Macbill",
+    "tema": [
+      "celebrità",
+      "parodia"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Calista Floccarzi"
   },
   {
     "id": "2018-01-31-026",
@@ -302,9 +306,12 @@
     "end": 979.78,
     "speaker_raw": "SPEAKER_07",
     "testo": "Ragazzi, dirò una parolaccia, perché lei dice... Pronto col bip? La felicità è prendere il bicchiere mezzo vuoto e versarlo, guarda che è fighissimo questa cosa, versarlo in un bicchiere più piccolo e non rompere i coglioni, ha scritto alla fine.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "felicità e aspettative",
+    "tema": [
+      "aspettative",
+      "felicità"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -764,9 +771,11 @@
     "end": 1868.16,
     "speaker_raw": "SPEAKER_07",
     "testo": "Empirico, scusate. La vita è empirica. Tu prova. Funziona sì, non funziona non funziona. E poi non è che le cose che funzionano per uno devono funzionare per tutti.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "la vita empirica",
+    "tema": [
+      "esperienza"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -775,9 +784,11 @@
     "end": 1874.18,
     "speaker_raw": "SPEAKER_10",
     "testo": "Provate, care donne, e poi domani ci sentiamo al volo del mattino. Provate diverse volte perché sennò non fa regola.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "prova diverse volte",
+    "tema": [
+      "tentativi"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -1204,10 +1215,13 @@
     "end": 2472.3,
     "speaker_raw": "SPEAKER_07",
     "testo": "Cioè tu fumi, pronto, chiamo da fuori, sono fuorissimo, c'è Radio Maria. Allora, un'ascoltatrice pone questa domanda, abbiamo Bauman sulla felicità, diciamo se qualche ascoltatore non dovesse sapere chi è Bauman, è questo signore che ci ha lasciato l'anno scorso, polacco, che è stato considerato nell'ultimo periodo il più grande sociologo, cioè quelli che ti dicono dove siamo e soprattutto dove stiamo andando secondo loro e ci ha quasi sempre azzeccato. Vi possiamo consigliare dei libri. Lui ha elaborato questa teoria che si chiama liquida, la società liquida, l'amore liquido, cioè che è tutto un po' così. Sono belli, anche facili da capire e sono libri molto interessanti. Detto questo, un'ascoltatrice, prima di parlare di felicità con Bauman, dice ma se io faccio questa operazione del feromone e un uomo lo attiro e facciamo l'amore e ci innamoriamo e ci sposiamo, non è che io l'ho ingannato? Dilemma. Lei dice, non è una forma di inganno? Credo di no, perché la seduzione è sempre una forma di inganno, no? Nessuno tiene lo standard della seduzione nella vita. In effetti se io mi faccio bella, per l'occasione, e con quell'obiettivo lì... È più un inganno la tetta finta e le cose... Però rimane. Sì. No, più che la tetta finta, quei reggiseni, quelli con dentro la roba. Quello è inganno. E poi, per esempio, mi fa ridere con le coppette, che però il seno non tocca la coppetta. Sono io. Quella di cui stai parlando, sono io. La seduzione, nel senso che tu lo puoi chiedere a qualsiasi donna, quando un uomo è molto interessato, è molto gentile, è molto chi apre la portiera, così.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "La felicità",
+    "tema": [
+      "felicità"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Zygmunt Bauman"
   },
   {
     "id": "2018-01-31-110",
@@ -1369,9 +1383,11 @@
     "end": 2824.3,
     "speaker_raw": "SPEAKER_10",
     "testo": "No, con un... no, non te lo dico. Con quello del Tampax? Sì. Eh! Guarda che ci sono arrivato. Perché è telescopico in modo tale che non sprechi tutto quel gesso. Poi cos'è successo?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Portagessetto Telescopico",
+    "tema": [
+      "invenzione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

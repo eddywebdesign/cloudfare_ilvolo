@@ -49,9 +49,12 @@
     "end": 245.19,
     "speaker_raw": "SPEAKER_02",
     "testo": "Quanto sai che vale oggi? Che cazzo c'è? Che vara diceva questo? No, veramente? Non sulla felicità ma sulle ingiustizie. No, sulle ingiustizie. Finché una persona non sarà libera, nessuno di noi è libero.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "libertà e ingiustizie",
+    "tema": [
+      "ingiustizia",
+      "libertà"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -60,10 +63,13 @@
     "end": 277.19,
     "speaker_raw": "SPEAKER_06",
     "testo": "Si sente libero, esatto. Invece a me una volta mi aveva detto Silvano Agosti quando ero un ragazzino, esattamente l'amore, lui diceva l'amore è come il sole, cade su tutto. Poi su alcune cose ha una risposta più, diciamo, che riflette, su altre invece cade e non succede niente. Ma tu non puoi amare la tua compagna e non amare quello che hai a fianco, capisci? Nel senso che tu, se ami una persona, devi amare un po' tutti, nel senso che non puoi essere stronzo con uno e amare l'altro. Sennò vuol dire che i due sentimenti non sono reali.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "l'amore è come il sole",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Silvano Agosti"
   },
   {
     "id": "2018-01-26-006",
@@ -878,9 +884,11 @@
     "end": 1416.69,
     "speaker_raw": "SPEAKER_06",
     "testo": "Non implorare ciò che non vuol restare. Questo è giusto. Cioè, non andare, ti prego, togliami insieme. Quello lì non funziona mai. Soprattutto l'uomo verso la donna. Cioè, quando tu non vuoi stare con la persona e quella ti implora. Cioè, la zerbinata non funziona mai. A un certo punto smettere di piangere. Ecco, ecco, così. Lei dice che lei è convinta che... Ma hai dato un foglio veramente? Ma che è? Il pulsante smetti di piangere, vabbè. 15. Concedersi di sentirsi scema per aver creduto di poter costruire il resto della propria vita nello stomaco di qualcun altro. Questo è, vabbè, ho sbagliato, è un coglione. Si può dire. Sedici, respirare.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "non implorare ciò che non vuole restare",
+    "tema": [
+      "relazione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -933,9 +941,11 @@
     "end": 1490.12,
     "speaker_raw": "SPEAKER_06",
     "testo": "Sono Antonio da Parma. Adesso Antonio da Parma mi va in competizione con la nostra poetessa indiana. Non andare, cose da non fare, non andare sotto casa sua perché poi la vedi andar via con un altro. Avanti veloce. È andato sotto casa della ex e lei è salita sulla macchina di un altro. Sì. L'avrà seguita quella macchina?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "ex e nuovo amante",
+    "tema": [
+      "tradimento"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1532,10 +1542,13 @@
     "end": 2576.28,
     "speaker_raw": "SPEAKER_03",
     "testo": "È dalla crona sonora del film di Guadagnino.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "croma sonora di Guadagnino",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_film",
+    "video_url": "",
+    "autore": "Luca Guadagnino"
   },
   {
     "id": "2018-01-26-138",

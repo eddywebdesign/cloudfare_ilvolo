@@ -929,9 +929,12 @@
     "end": 1932.68,
     "speaker_raw": "SPEAKER_07",
     "testo": "A un certo punto c'è stata una discussione a casa e Andrea ha detto, sapete che c'è? Io me ne vado nel mondo, voi mi soffocate, io scappi, faccio lo zaino, ha fatto lo zaino e sulla porta si è girato e ha detto, non cercatemi, comunque doveste mai mancare. Comunque in caso sono in Friuli, ok?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Andrea scappa di casa",
+    "tema": [
+      "fuga",
+      "indecisione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1391,9 +1394,12 @@
     "end": 2659.39,
     "speaker_raw": "SPEAKER_07",
     "testo": "Hai capito? Hai capito? No, tu devi pensare, capito? Che tu dici, ma ce n'è, ce n'è, non ce n'è. Quando te ne accorgi e cerchi di frenare, è troppo tardi, hai capito? E ti schianti, tu hai vent'anni, svegliati presto, leggi, viaggi, di a tua mamma, mamma te lo voglio bene, ci vediamo fra due anni, vai nel mondo, vai via, non dormire.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "svegliati presto",
+    "tema": [
+      "tempo",
+      "vita"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -1512,9 +1518,11 @@
     "end": 3139.69,
     "speaker_raw": "SPEAKER_00",
     "testo": "Questa è la storia di un uomo che cade da un palazzo di 50 piani. Mano a mano che cadendo passa da un piano all'altro il tizio per farsi coraggio si ripete. Fino a qui tutto bene. Fino a qui tutto bene. Fino a qui tutto bene. Il problema non è la caduta. Ma l'atterraggio.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "uomo che cade",
+    "tema": [
+      "paura"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
