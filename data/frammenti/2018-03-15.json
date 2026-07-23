@@ -445,10 +445,14 @@
     "end": 1071.38,
     "speaker_raw": "SPEAKER_00",
     "testo": "Ma certo, voglio vedere le scarpe piene di piedi quando scendo, voglio vedere i gonfi con la flebite. E devo dire, lo vedi? Quella flebite lì ti deve dare la forza di spingere, capito? Come disse Benigni quando ritirò l'Oscar, che è una frase stupenda, bellissimo, ringrazio i miei genitori per la povertà. Perché ho imparato tanto dalla povertà che è vero. Però dopo bisognerebbe uscirne. Perché dopo un po' l'ho imparata, ho capito, adesso ho capito. Mia mamma mi diceva sempre, un giorno mi cercherai e non mi troverai.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "La vita è bella",
+    "tema": [
+      "povertà",
+      "insegnamento"
+    ],
+    "tipo": "riferimento_film",
+    "video_url": "",
+    "autore": "Roberto Benigni"
   },
   {
     "id": "2018-03-15-041",

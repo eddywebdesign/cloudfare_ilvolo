@@ -269,9 +269,12 @@
     "end": 501.68,
     "speaker_raw": "SPEAKER_06",
     "testo": "La vengono a prendere, portalo a chi è sempre. Io una volta ho intervistato una signora anziana, aveva 70 anni, che stava accanto a Montbello, è la prigione di Brescia, stava qui a San Vittore. L'ho intervistata, mi ha detto io sono qui da 15 anni, adesso mi fanno uscire, ma quando io esco io voglio rientrare, perché io qua lavoro, perché lì lavorava, cucivano, facevano vestiti. Lavoro, amica, abbiamo anche il gatto, mi ha detto. Io esco di qua, sono sola come un cane, nessuno mi dà fiducia perché sono stata in carcere, non trovo lavoro, sono anche vecchia. E quindi lei voleva tornare dentro. Molti anziani lo fanno con l'ospedale. Si fingono malati, per andare a pronto soccorso, fare le analisi, almeno stanno due o tre giorni all'ospedale. Sì, hai anche un senso di cura. Alcuni anche per mangiare, che è ancora più triste. Immagino. Va bene, allora, partiamo con allegria, perché fino adesso abbiamo parlato solo di cose tristi. Wow, senti come i tappeti vengono liberati dagli acri. 3, 4, 3, 2, 1.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "intervista a una detenuta anziana",
+    "tema": [
+      "anziani",
+      "lavoro"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -819,9 +822,12 @@
     "end": 1734.9,
     "speaker_raw": "SPEAKER_00",
     "testo": "Senti, io ho una cliente che è anziana, ho 86 anni, la signora Maria, che... Mi chiama per dei piccoli interventi che dopo la prima, la seconda, la terza volta mi sono accorto che erano provocati da lei. E ho detto assieme a Maria. Qua è lei che fa il danno. E' fatto perché se il motivo fa, eh, sapessi, sono sempre con la sola, almeno ho qualcuno per una mezz'ora, un'oretta da scambiare quattro chiacchiere e lei mi prepara subito il caffè come arrivo, mi prepara i dolcetti e la cosa bella è che ti chiama sempre durante la pausa a pranzo per non disturbarti al lavoro.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "cliente anziana idraulico",
+    "tema": [
+      "solitudine",
+      "soccorso"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -885,9 +891,12 @@
     "end": 1794.83,
     "speaker_raw": "SPEAKER_00",
     "testo": "Sì, ma dopo la terza e quarta volta gli ho detto a Maria non c'è bisogno che rompi, vengo a bere il caffè senza che spacchi tutto. Esatto, esatto, ho detto ti chiamo io e qualche volta magari un intervallo la chiamo e dico Maria prepara il caffè che sto per arrivare. Ma che meraviglia! Lei è felicissima.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "interazione sociale",
+    "tema": [
+      "relazioni",
+      "aiuto"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

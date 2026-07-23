@@ -5,10 +5,11 @@
     "end": 14.93,
     "speaker_raw": "SPEAKER_01",
     "testo": "I'm a sinner, I won't consider, I am my father's son.",
-    "titolo": "",
+    "titolo": "I'm a sinner",
     "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "John Lennon"
   },
   {
     "id": "2018-03-02-001",
@@ -82,9 +83,12 @@
     "end": 328.64,
     "speaker_raw": "SPEAKER_15",
     "testo": "Volevo ringraziare, ma succederà tutto il giorno, tutte le persone che sono venute ieri sera a Bologna alla festa di Radio DJ perché i telegiornali terrorizzavano continuamente e quindi abbiamo pensato a un certo punto, io e Lino ci siamo seduti in una stanza da soli l'uno davanti all'altro e abbiamo detto cosa facciamo? Certo! Se non vi è nessuno è brutto l'immagine di un palazzetto vuoto, cosa facciamo? Io qualche ex qua a Bologna ce l'ho che posso chiamare all'ultimo e la curva sud la riempio. C'è un po' anche Modena, Reggio Emilia, poi se vuoi chiamo a Riccione, lì ho fatto le stagioni, allora forse dobbiamo spostarci allo stadio. Qualcuno dall'appennino. Esatto, io ho i miei amici comunque andiamo in bicicletta, insomma c'era tutta una serie di cose. Invece alla fine gli ascoltatori di Radio DJ sono arrivati con le cose, come si chiamano? Con le ciaspole. Con le ciaspole, gente con la slitta, con gli aschi. Sono arrivati ed è stata una grande festa. Per me è stato un sogno che si è realizzato. Adesso vi racconteremo due o tre cose e anche, se volete, alcune cose nel backstage. Tra l'altro non ne parlerà nessuno. No, difatti, ma non ne parliamo neanche noi.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Festa Bologna vuota",
+    "tema": [
+      "telegiornali",
+      "paura"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -225,9 +229,12 @@
     "end": 528.76,
     "speaker_raw": "SPEAKER_01",
     "testo": "Perché non ti rilassi e vai avanti nella vita. Non importa quello che è avvenuto in passato o quello che credi potrebbe avvenire in futuro, importa il tragitto, santo è Dio. Non c'è motivo di affrontare tutte le merdate se non ti godi il tragitto. E sai che ti dico? Quando meno te lo aspetti potrebbe capitare qualcosa di bello, ma più importante di quello che avevi programmato.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "goditi il tragitto",
+    "tema": [
+      "vita",
+      "felicità"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -346,9 +353,12 @@
     "end": 782.89,
     "speaker_raw": "SPEAKER_12",
     "testo": "Voglio che qualcuno ti travolga, voglio che tu leviti, voglio che tu canti con rapimento e danzi come un derviscio. Ah, tutto qua. Sì, abbia una felicità delirante, o almeno non respingerla.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "leviti e canti",
+    "tema": [
+      "amore",
+      "gioia"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -544,9 +554,12 @@
     "end": 1020.32,
     "speaker_raw": "SPEAKER_15",
     "testo": "Piccola. Sapete che sono incartato, scacco matto, cioè non riesco a venirne fuori, perché si dice che l'amore è come il vento. L'amore si dice che è come il vento, le distanze nell'amore sono come il vento, cioè spengono i fuochi piccoli e alimentano i fuochi grandi. Quindi se è vero amore questa distanza dovrebbe lui a un certo punto dire basta pane, molli il furgone in tangenziale e corri a Londra.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "amore e distanza",
+    "tema": [
+      "amore",
+      "distanza"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -929,10 +942,14 @@
     "end": 1624.06,
     "speaker_raw": "SPEAKER_06",
     "testo": "Broken dreams and broken chords Running on empty, losing sleep Oh, it's true I've earned these cracks upon my feet And I've seen people holding on to something Smiling with no place to call home And here I see something so familiar Oh, my dear friend, so nice to have you home",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Running on Empty",
+    "tema": [
+      "amore",
+      "disillusione"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Del Amitri"
   },
   {
     "id": "2018-03-02-085",
@@ -1204,10 +1221,13 @@
     "end": 2114.08,
     "speaker_raw": "SPEAKER_15",
     "testo": "Ma tu sei in diretta? Io sono in diretta, sei in diretta su Radio Unigene. Ciao Paoletta! Ciao! Ciao! Ma ascolta, mi raccogli. Abbiamo fatto una sequenza di musica italiana, ma meravigliosa, Renato Zero, così, che abbiamo fatto un po' tremare gli ascolti di Radio Italia.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "musica italiana Renato Zero",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Renato Zero"
   },
   {
     "id": "2018-03-02-110",
@@ -1380,9 +1400,11 @@
     "end": 2449.43,
     "speaker_raw": "SPEAKER_15",
     "testo": "Quindi il mio primo concerto è stato quello di Luca Carboni, mia sorella aveva il poster e quindi mi svegliavo tutte le mattine e vedevo la faccia di Luca Carboni, è stato il primo cantante italiano insieme a Vasco, mi piacevano un sacco, ieri alla festa di oggi ho cantato con lui, quindi un'emozione, volevo ringraziare Luca Carboni. volevo ringraziare il radio DJ e volevo ringraziare tutti voi che mi avete in qualche modo centrate anche voi perché anche grazie a voi che ho avuto la possibilità di fare una cosa non so se vi è mai capitato magari ne parliamo lunedì di vivere una situazione nella vita e dire chi l'avrebbe mai detto 15 anni fa No? Vent'anni fa. Cioè, è come quando io la provo ancora ogni tanto venendo qui in radio la mattina. Cioè, io ascoltavo Radio DJ e adesso ho il programma. Ci sono delle mattine che dicono, a me non mi sembra vero. Poi, ascoltando come lo facciamo, dico, è veramente incredibile che siamo ancora qua. Chi l'avrebbe mai detto? Ma chi l'avrebbe mai detto?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "primo concerto Luca Carboni",
+    "tema": [
+      "emozione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

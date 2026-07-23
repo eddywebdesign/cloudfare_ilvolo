@@ -786,9 +786,11 @@
     "end": 971.01,
     "speaker_raw": "SPEAKER_20",
     "testo": "Io lo so bene, ok, come si brucia sul robo, e so la croce che hai portato quest'anno, ma è giusto che tu sappia quanto sono banale. Io sono uguale a tutti gli altri, come gli ebrei, babilonesi in cattività, e le canzoni me le scrive il cane. Nel bene e nel male, ma adesso c'è Veronica. Grazie a tutti.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "bruciare sul robo",
+    "tema": [
+      "vita"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -808,9 +810,11 @@
     "end": 1044.91,
     "speaker_raw": "SPEAKER_20",
     "testo": "Non voglio piangere sul tuo passato Non ne so nulla degli affari tuoi Di chi è venuto, di chi se n'è andato Di chi ti ha toccato il culo, di chi ti ha detto di sì Di cosa pensa tua madre Ma se il dolore che si indossa d'inverno È l'unica certezza di ogni amante mortale Il fatto che mi manchi da star male È la mia unica nuovissima specialità E il sangue scorre ancora nelle vene",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "dolore indossato d'inverno",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -1402,9 +1406,12 @@
     "end": 1910.33,
     "speaker_raw": "SPEAKER_00",
     "testo": "Se ora pronunciassi il suo nome credo che mi sentirei molto combattuta. Magari è una bella sensazione a 21 anni, ma ora come ora. Lasciamo stare il passato, ok? Cinque minuti con te ed è come se tutta la mia vita fosse frutto della mia immaginazione. Non lo so. No, non lo sai. Ok. Tu sei solo quella fottuta cosa che continua a divorarmi dentro. Devo andare.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "frammento di dialogo",
+    "tema": [
+      "passato",
+      "relazioni"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -2051,9 +2058,12 @@
     "end": 2847.41,
     "speaker_raw": "SPEAKER_11",
     "testo": "Non ci arrivi, non ci arrivi. Va bene, io il camper. Ho dormito solo una volta a Torino nel camper. Cioè da Brescia con i miei amici a Torino al camper. Siamo andati a Torino in un parcheggio davanti alla discoteca. Siamo andati dentro. Abbiamo ballato e poi siamo usciti e abbiamo dormito lì nel parcheggio. Perfetto. Il ricordo che ho è che per far andare il riscaldamento andava qualcosa, sentivo una puzza di smò, proprio come se avesse una marmita. Sono stato malissimo, mi sono ammalato, ho vomitato.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "camper e discoteca a torino",
+    "tema": [
+      "viaggio",
+      "amicizia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -2096,8 +2106,11 @@
     "speaker_raw": "SPEAKER_11",
     "testo": "Allora, su internet, Facebook, Instagram, anche ieri, ci sono un sacco di frasi con sotto il mio nome, solo perché noi, a Radio DJ, negli anni passati abbiamo letto delle poesie. Qualcuno ha pensato che fossero mie, invece che di Neruda, e quindi sotto mette Fabio Volo. Ma io non le ho scritte, allora, quelle belle faccio finta di niente. Quelle brutte scrivo, guarda che non è mia questa frase, però ormai ho mollato.",
     "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "tema": [
+      "internet",
+      "poesia"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

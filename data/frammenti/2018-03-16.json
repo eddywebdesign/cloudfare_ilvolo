@@ -1303,9 +1303,11 @@
     "end": 2094.21,
     "speaker_raw": "SPEAKER_07",
     "testo": "Perciò, alzati. Vado ad affrontare la vita reale. E se il mondo è un bastardo, allora colpiscilo con tutta la forza che hai.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Colpire con forza",
+    "tema": [
+      "forza"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -1413,10 +1415,14 @@
     "end": 2290.92,
     "speaker_raw": "SPEAKER_02",
     "testo": "Alice e Battiato, nell'83 loro cantavano così. Sì.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Alice e Battiato",
+    "tema": [
+      "musica",
+      "anni '80"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Alice, Franco Battiato"
   },
   {
     "id": "2018-03-16-129",

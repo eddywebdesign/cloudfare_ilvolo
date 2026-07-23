@@ -115,10 +115,13 @@
     "end": 486.06,
     "speaker_raw": "SPEAKER_14",
     "testo": "Imagine me and you, I do I think about you day and night It's only right To think about the girl you love And hold her tight So happy together If I should call you up Invest a dime And you say you belong to me And ease my mind Imagine how the world would be So very fine So happy together Volo Volo, Maurizio, Viola.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Imagine Me And You",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "The Beatles"
   },
   {
     "id": "2018-03-07-011",
@@ -170,9 +173,11 @@
     "end": 605.73,
     "speaker_raw": "SPEAKER_07",
     "testo": "Noi ci conosciamo da parecchi anni ormai. Sì. Ci siamo conosciuti su un treno Roma Milano. Ma va. Sì. Io avevo un dizionario di francese perché volevo studiare il francese e lui aveva di fronte a me un dizionario di tedesco se non",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "incontro su treno",
+    "tema": [
+      "amicizia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -368,10 +373,13 @@
     "end": 1124.5,
     "speaker_raw": "SPEAKER_07",
     "testo": "No, stavo dicendo durante il disco che una volta da ragazzino Lessi, si dice Lessi? Rintintin, un libro, che diceva che c'era questa persona che aveva una disfunzione, un problema al cervello, Per cui, a causa di queste disfunzioni, per esempio, con una mano apriva il cassetto e l'altro la chiudeva, cioè i due emisferi non comunicavano tra di loro perché aveva un problema, come si chiama? Il corpo calloso. Era una bufala che si diceva a Brescia anche questo, è vero?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Rintintin",
+    "tema": [
+      "cervello"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Lessi"
   },
   {
     "id": "2018-03-07-034",
@@ -610,10 +618,13 @@
     "end": 1655.64,
     "speaker_raw": "SPEAKER_07",
     "testo": "Bene, che cervello? Cosa c'era scritto su quel cervello? ABA? Va bene, senti, allora, professore, lei ha scritto per la prima volta, dopo anni che scrive libri per un'oligarchia, diciamo, cioè per gente comunque di un certo livello, ha scritto un romanzo. Cioè è sceso sul terreno del romanzo. Ok, no, fantastico, io sono contento. Con Il segreto di Pietramara, edito la nave di Teseo. Il suo personaggio, che si chiama Elia, ha undici dita. Sì.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Il segreto di Pietramara",
+    "tema": [
+      "libro"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Fabio Volo"
   },
   {
     "id": "2018-03-07-056",
@@ -666,8 +677,11 @@
     "speaker_raw": "SPEAKER_06",
     "testo": "Eh, alcune tipo me. No, funziona così. Cioè, certe volte, quando le cose fanno paura, pensi di annientarle o di diminuirle correndo l'incontro. Sì, sì. Anche i bambini lo fanno, no? Quando dici c'è il mostro, invece che scappare, gli vanno addosso a prendere le braccia. E allora il mio protagonista ha paura delle cose che finiscono, allora dice, beh, tanto vale iniziare dalla fine, così mi abituo. Sì, come...",
     "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "tema": [
+      "paura",
+      "fine"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -753,10 +767,13 @@
     "end": 1850.78,
     "speaker_raw": "SPEAKER_07",
     "testo": "Siamo escatofobici. Ma si vede? Sì. Dedichiamo questa canzone a tutti gli escatofobici. Loredana Bertè. Paura della fine.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Paura della fine",
+    "tema": [
+      "paura"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Loredana Bertè"
   },
   {
     "id": "2018-03-07-069",
@@ -929,10 +946,14 @@
     "end": 2291.06,
     "speaker_raw": "SPEAKER_07",
     "testo": "Io, per esempio, utilizzo questo metodo. Io mi ripasso a memoria mentre cammino. Cosa? Quasi sempre la Divina Commedia, perché è la più complessa nelle parole, mi piace di più.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Divina Commedia",
+    "tema": [
+      "memoria",
+      "allenamento"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Dante Alighieri"
   },
   {
     "id": "2018-03-07-085",
@@ -962,10 +983,14 @@
     "end": 2334.41,
     "speaker_raw": "SPEAKER_06",
     "testo": "Ah, perché da ragazzino, a 14 anni, ho visto la versione di Streller a Milano, in prima fila. Eh, ti è rimasta... Sono caduto dentro con le onde magiche, l'aria, il calibano e...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "La Tempesta",
+    "tema": [
+      "teatro",
+      "infanzia"
+    ],
+    "tipo": "riferimento_film",
+    "video_url": "",
+    "autore": "Paolo Streller"
   },
   {
     "id": "2018-03-07-088",

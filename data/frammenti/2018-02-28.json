@@ -566,10 +566,13 @@
     "end": 587.89,
     "speaker_raw": "SPEAKER_09",
     "testo": "Adesso non si possono più fare tanto battute maschiliste così perché tutto deve essere politicamente corretto. Ma tu puoi anche appoggi... Tu puoi anche... Ok, ho capito. Lo dico a Federica, lo dico... Ragazzi, ciao Federica! Ciao! Ciao, ciao, ciao. Allora, questa mattina, scusatemi, è una giornata importante perché il 28 febbraio, record dei record, Michael Jackson con l'album Thriller vinse... 8 Grammy. 8 Grammy! 12 candidature e ne ha vinte 8, un record incredibile perché... Ha vinto tutto, ha spiazzato tutto per Thriller. Abbiamo scelto una canzone dall'album Thriller per cominciare la puntata, giusto? No, non è dall'album Thriller. E perché non l'abbiamo preso? La notizia è quella. L'hai scelta te. Ah, perché ho scelto la mia preferita. Ok, comunque siamo partiti con una confusione. Sì, sì. Bye.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Thriller",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Michael Jackson"
   },
   {
     "id": "2018-02-28-052",
@@ -1314,9 +1317,12 @@
     "end": 2090.39,
     "speaker_raw": "SPEAKER_09",
     "testo": "Non è il tema. Scusate ragazzi, dobbiamo ritirare su un po' il livello. Dai, dai, dai. Mettiamo una frase importante per un ascoltatore. Sì, sulla famiglia. C'è scritto Gaetano, dice che è un momento difficile della sua vita, che vorrebbe mollare tutto. Allora Gaetano, io ti ho preparato la frase giusta. E poi una bella canzone che per i fumatori, se ci fuma la sigaretta, chi mangia il ciungo, comunque chiudete gli uffici, staccate i telefoni, godetevi i prossimi tre minuti.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "priorità della famiglia",
+    "tema": [
+      "famiglia",
+      "decisioni"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -1325,10 +1331,14 @@
     "end": 2138.82,
     "speaker_raw": "SPEAKER_00",
     "testo": "Bene, finora io ho preso Una serie di pessime decisioni e non posso continuare così. Perché ha preso quelle decisioni? Per il bene della mia famiglia. Allora non erano cattive decisioni. Qual è il compito di un uomo, Walt? Provvedere al benessere della sua famiglia. Ho perso la mia famiglia per questo. Quando si hanno figli si ha sempre una famiglia. Sono loro la priorità, la responsabilità. E un uomo deve assolverla. E lo fa anche se non si apprezza il suo gesto, anche se non viene rispettato. E anche se non è amato. Semplicemente resiste e va avanti. È suo dovere. Perché è un uomo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "decisive",
+    "tema": [
+      "famiglia",
+      "responsabilità"
+    ],
+    "tipo": "riferimento_film",
+    "video_url": "",
+    "autore": "Walt"
   },
   {
     "id": "2018-02-28-121",
@@ -1567,10 +1577,13 @@
     "end": 2540.59,
     "speaker_raw": "SPEAKER_09",
     "testo": "A Radio Italia c'è Vasco Rossi con canzone. Un pezzettino, un pezzettino. Sì, sì. Non è ancora salito nessuno? No.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "canzone di vasco rossi",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Vasco Rossi"
   },
   {
     "id": "2018-02-28-143",

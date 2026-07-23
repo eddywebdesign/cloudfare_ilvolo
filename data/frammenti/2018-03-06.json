@@ -82,9 +82,12 @@
     "end": 177.41,
     "speaker_raw": "SPEAKER_11",
     "testo": "Per esempio, non lo dico più nessuno. Non esistono più le droghe in discoteca. Ormai l'ambiente discoteca è diventato un po' più pulito. E credo come pian pianino il mondo si ripulisce. C'è alcuni quartieri, quando eravamo piccoli, non si potevano frequentare. Adesso sono di me. Vedi che pian pianino il mondo lentamente è migliore.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "mondo lentamente migliore",
+    "tema": [
+      "miglioria",
+      "cambiamento"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -819,9 +822,12 @@
     "end": 1410.16,
     "speaker_raw": "SPEAKER_11",
     "testo": "Questa mattina mi sveglio, bello operativo, con in testa la voce di Pavarotti che canta All'alba vincerò. Mi avvicino a mia moglie con una cangurita enorme. Una cangurita, insomma, si capisce. Le accarezzo la schiena, le do un bacio e salta sul letto mio figlio di quattro anni, fine dei giochi. Dice papà, ma perché la tenda fa il circo? Perché l'entuolo sembra un piccolo circo? Sono architetto, mi sono vestita tutta in tiro per andare in studio, arrivo e mi ricordo di dover andare a fare un rilievo in mezzo agli escrementi delle colombe. Bello quello. Ho problemi di auto. Va bene, va bene. Mi ha chiamato mia madre che lavora a 50 chilometri da me e che si è portata via il mazzo di chiavi. No! Quello è brutto, bello quello. Poi, pensavo di avere una giornata di merda, ma dopo tutti questi messaggi che avete letto mi sembra una grandissima giornata. Dice Christian, ok? Ci ridimensioniamo sulle sforze. Il mio messaggio benvenuto è, ragazzi sono veterinario, se volete storie triste chiamatemi. No, non possiamo, non possiamo. Adesso, nella seconda mezz'ora, vi portiamo ai Caraibi. È vero. Quindi, allegria, colori, profumi. Io non ho capito che cos'è la cangorite. La cangorite è quando tu vedi una persona e vuoi boing, boing, boing. Domani abbiamo un intelligentone. Domani si imparano un sacco di cose. Meno male. Chi è? Chi è? Chi è? Ah, non ve lo posso dire. Ma viene... Domani carta e penna portatevi. È vero. DJ, avanti veloce. E tra poco l'Ur del Mattio, Garcia Marquez. Lui, proprio lui in persona, ce l'abbiamo solo noi.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Papà e la cangurita",
+    "tema": [
+      "famiglia",
+      "umorismo"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -918,10 +924,13 @@
     "end": 1701.36,
     "speaker_raw": "SPEAKER_11",
     "testo": "Ah, che bella. Va bene. Allora, ragazzi, è il compleanno di Garcia Marquez. Cosa vi ha insegnato Garcia Marquez? Possiamo dire che Cent'anni di Solitudine è uno dei capolavori della letteratura mondiale, ma vero, cioè a grande livello. Quando io ho intervistato Harold Bloom, che è stato considerato il più grande critico letterario del mondo, lui è americano, sono andato a casa sua, aveva già 82 anni, quindi sono riuscito a dire che era uno scrittore, lui ci ha creduto, perché è già perduto Sono andato lì a casa sua, non mi ricordo dove stava, lì appena fuori cinque ore di macchina da New York. Ok. Appena fuori un cazzo, cinque ore. Vabbè insomma, comunque sono andato a casa sua. Sì. E lui che è stato veramente il più grande critico letterale del mondo diceva, bisogna, le tre colonne portanti, c'è quello che tu devi veramente sapere, poi tutto il resto è goduria tua, però tu devi sapere Shakespeare, Dante e Cervantes. Cervantes. Ok. Cervantes. Ok. Quindi Don Quixote va studiato assolutamente, la Divina Commedia e l'altra che non mi ricordo mai come si chiama, La Vita...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Cent'anni di Solitudine",
+    "tema": [
+      "letteratura"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Gabriel Garcia Marquez"
   },
   {
     "id": "2018-03-06-084",
@@ -995,9 +1004,12 @@
     "end": 1811.38,
     "speaker_raw": "SPEAKER_12",
     "testo": "Dopo 53 anni, 7 mesi e 11 giorni e notti il mio cuore finalmente si è placato e io ho scoperto la mia grande gioia.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Placamento del cuore",
+    "tema": [
+      "tempo",
+      "riflessione"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -1006,9 +1018,12 @@
     "end": 1897.71,
     "speaker_raw": "SPEAKER_03",
     "testo": "Cada día, cada hora Pensando en ti Caminando Mi sesta llena de moras Son para ti Temprano Por la tarde y por la noche Il sogno di te. Comendo pera in Santa Maria della Feira. La gente è buona, solo gozza, nunca hay pena. Pa' che soffrir? Jugando en el mar, en la arena, viviendo así.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Cada día, cada hora",
+    "tema": [
+      "amore",
+      "attesa"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {

@@ -500,10 +500,14 @@
     "end": 651.19,
     "speaker_raw": "SPEAKER_01",
     "testo": "Va bene, ascoltami. Pensa che potremmo parlare di quella... Allora, questa mattina c'è la notizia che sta per uscire la biografia di Michelle Obama. Hai visto? 65 milioni di dollari di anticipo le hanno dato. Lei ha detto, siccome qualcuno accusa la famiglia Obama di aver fatto un periodo pubblico e adesso di incassare privato, lei di questi 65 anni sai cosa ha detto? Un milione di copie del mio libro le darò alle biblioteche. Io vengo da quella estrazione sociale e volevo dire a Michelle, a noi delle milioni di coppie non ci interessa, preferivamo il milione di dollari alle biblioteche. Detto questo, c'è un articolo che sostiene che la felicità economica si basa su 95.000 dollari, quindi 77.000 euro a persona l'anno. Da single. Quindi se siete in due dovete avere almeno 100... Non fare le cose in onda. Non farle molti film. Va bene. Ok, Alessandra, aspetta un attimo perché volevamo far sentire proprio una merda Cesare che già ha chiamato Zero. Non l'abbiamo più cagato. Va bene. Ciao Alessandra. Ciao Alessandra. Ciao, ciao, Cesare. No, grazie, la mia ragazza è a Bologna, non torna, io sono qua da solo. Quindi stamattina, stamattina, pugnetta triste da solo, quella lì anche un po' imbarzottale, che non è proprio neanche tutto convinto neanche lui. Che poi ti senti la merda. Sì, che dici lo potevo non farlo, come la sigaretta a volte, che dici questa la potevo anche non fumare. Non mandava, non mandava neanche. Io se fossimo tra amici al bar adesso avrei una battuta da farti, ma non la posso fare alle nove e un quarto in radio. Comunque bene, adesso vai al lavoro. Che lavoro fai?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Biografia Michelle Obama",
+    "tema": [
+      "fama",
+      "successo"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Michelle Obama"
   },
   {
     "id": "2018-02-27-046",
@@ -599,10 +603,14 @@
     "end": 953.78,
     "speaker_raw": "SPEAKER_01",
     "testo": "Ieri abbiamo messo Johnny Cash, abbiamo anche ricordato che come Jenny e Giobbe fanno parte di quelle persone che hanno sofferto nonostante diciamo il successo, vedete per esempio i soldi non fanno la felicità, sono due persone sicuramente che avevano, io per esempio quando penso a Michael Jackson non mi viene mai l'associazione con la felicità, quindi è vero che i soldi diciamo non fanno la felicità, cioè nel senso che non è, no non è, aspetta perché qua già arrivano i vaffancuri qua. No, nel senso che non è che i soldi di per sé rendono felici, però applicati in maniera corretta a certe persone, secondo me invece sì.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Jenny e Giobbe",
+    "tema": [
+      "successo",
+      "felicità"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Paolo Sorrentino"
   },
   {
     "id": "2018-02-27-055",
@@ -753,9 +761,12 @@
     "end": 1123.69,
     "speaker_raw": "SPEAKER_01",
     "testo": "Esatto, poverina. In più lui ha detto sì ti sposo, lei è tornata a casa dalla mamma, gli ha detto mamma mi sposo. La mamma che diceva avrei preferito non averti come figlia, quindi anche lì un altro mattone. E lei ha detto mamma mi sposo, finalmente mi sposo, finalmente mi sposo. Lei va a casa da sua mamma, fa i preparativi e lui non si presenta.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Sposa e mamma",
+    "tema": [
+      "matrimonio",
+      "famiglia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -775,10 +786,11 @@
     "end": 1133.2,
     "speaker_raw": "SPEAKER_01",
     "testo": "Guardi l'han trovata, la faccia schiacciata sul pavimento. Vogliamo sentire, quali sono le tue canzoni preferite di Janis Joplin?",
-    "titolo": "",
+    "titolo": "Canzoni preferite Janis Joplin",
     "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Janis Joplin"
   },
   {
     "id": "2018-02-27-071",
@@ -1446,9 +1458,12 @@
     "end": 2083.38,
     "speaker_raw": "SPEAKER_01",
     "testo": "Una volta andai in una televisione piccolissima, Match Music a Verona, e non avevo mai fatto la televisione, e lui mi dice, ti diamo tipo... Un milione di lire, non mi ricordo neanche le cifre, comunque roba poca, io ho detto no scusami io valgo molto di più, e lui mi ha detto ma questo non lo sappiamo, io ho detto beh non aspetta a me dimostrartelo sei tu un imprenditore, tu ti devi prendere il rischio, io non vengo per questa cifra, e lui mi ha detto mi piace così aggressivo, ma gli ha dati di più.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Colloquio televisivo rifiutato",
+    "tema": [
+      "lavoro",
+      "ambizione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1556,9 +1571,12 @@
     "end": 2306.73,
     "speaker_raw": "SPEAKER_11",
     "testo": "Mi sono informato c'è un treno che parte alle 7.40 Non hai molto tempo, il traffico è lento nell'ora di punta e via Ti bastano dieci minuti per giungere a casa la nostra La chiave ricorda che è sempre lì, lì sulla finestra E nel far le valigie ricordati di non scordare qualche cosa di tuo che a te poi mi faccia pensare. Ti rendi conto anche tu, che noi soffriamo di più, ogni istante che passa di più, no non piangere, presto presto, presto presto, presto presto vai. Da un minuto sei partita e sono solo te, Sono strano e non capisco cosa c'è. Sui miei occhi da un minuto è sceso un velo. Forse è solo suggestione o paura o chissà che. È possibile che abbia fin da ora già bisogno di te. Mi sono informato c'è un volo che parta alle 8.50 Non ho molto tempo, il traffico è lento nell'ora di punta Mi bastano dieci minuti per giungere a casa la nostra La chiave l'hai messa senz'altro lì, lì sulla finestra E nel far le valigie stavolta non devo scordare di mettere un fiore che adesso ti voglio comprare. Con l'aereo in un'ora son lì e fai di forza un cassino e sono certo così. Quando arrivi col treno mi vedi non piangere presto presto Presto, presto, vai.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Consigli prima partenza",
+    "tema": [
+      "viaggio",
+      "preparazione"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -1908,10 +1926,14 @@
     "end": 2749.71,
     "speaker_raw": "SPEAKER_01",
     "testo": "Abbiamo anche un bel messaggio. Oggi sono un otto e mezzo, come il film di Fellini. Quasi un anno fa ho lasciato un lavoro triste che ho praticato per 17 anni. Ora sono felice e prima o poi verrò a lavorare lì con voi. Attenzione qua, concorrezza che si fa sotto. Era uno speaker, uno speaker.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Otto e mezzo",
+    "tema": [
+      "lavoro",
+      "cambiamento"
+    ],
+    "tipo": "riferimento_film",
+    "video_url": "",
+    "autore": "Federico Fellini"
   },
   {
     "id": "2018-02-27-174",

@@ -11,7 +11,8 @@
     "start": 0.0,
     "end": 716.24,
     "episodio_data": "2016-05-24",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/wLkHUXUnxKxmJ9Lkd2Irsv0XZ3o.jpg"
   },
   {
     "id": "2016-05-24-musica-clip-0000",
@@ -123,7 +124,8 @@
     "start": 2864.95,
     "end": 2968.33,
     "episodio_data": "2016-05-24",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/4f5c5a7f-1349-48cb-b848-ed2bdb599638/front-250"
   },
   {
     "id": "2016-05-24-musica-clip-0008",

@@ -81,7 +81,8 @@
     "start": 720.76,
     "end": 1441.53,
     "episodio_data": "2016-02-09",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/45958c84-cf52-48af-9d4e-6d3d88e40140/front-250"
   },
   {
     "id": "2016-02-09-musica-clip-0006",
@@ -95,7 +96,8 @@
     "start": 720.76,
     "end": 1441.53,
     "episodio_data": "2016-02-09",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/8282f0b2-eb7f-4155-9971-a5d9bb1f0fc8/front-250"
   },
   {
     "id": "2016-02-09-musica-clip-0007",
@@ -137,6 +139,7 @@
     "start": 1441.53,
     "end": 2162.29,
     "episodio_data": "2016-02-09",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/acca2ed3-ff4a-4917-bb6e-98126a238c47/front-250"
   }
 ]

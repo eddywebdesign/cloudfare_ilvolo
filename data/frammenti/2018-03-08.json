@@ -159,10 +159,13 @@
     "end": 303.22,
     "speaker_raw": "SPEAKER_16",
     "testo": "So che questa mattina metterete No Woman, No Cry di Bob Marley e Donne di Zucchero. E invece no, e invece no. Ma quando mai? Perché di solito è la festa della donna, si mettono le canzoni dove c'è la parola donna. Le quote rosa, le quote rosa. Oggi devo dire, siccome manca la Stefi, che siamo due a due. Oggi siamo 50 e 50.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "No Woman No Cry",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Bob Marley"
   },
   {
     "id": "2018-03-08-015",
@@ -533,10 +536,13 @@
     "end": 864.41,
     "speaker_raw": "SPEAKER_05",
     "testo": "La Dama Bianca che è quella di Coppi. No, era quella che salì su, ti ricordi?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "La Dama Bianca",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Fausto Coppi"
   },
   {
     "id": "2018-03-08-049",
@@ -1116,10 +1122,13 @@
     "end": 1952.41,
     "speaker_raw": "SPEAKER_16",
     "testo": "Io l'ho letta perché me l'ha portata Maurizio e Viola. Voi ascoltatela. Ditemi se non è troppo basic. E se è basic per Fabio Volo, è basic, ragazzi, ve lo dico. Allora infamiamo Rubicauer. Infamiamola. L'abbiamo già infamata. Sentiamo, sentiamo. Voglio scusarmi con tutte le donne che ho definito belle, prima di definirle intelligenti o coraggiose. Scusate se ho fatto figurare le vostre semplicissime qualità innate come le prime di cui andare fiere, quando il vostro spirito ha sbriciolato montagne. D'ora in poi dirò cose come siete resilienti o siete straordinarie, non perché non vi ritenga belle, ma perché siete ben più di questo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Infamiamola",
+    "tema": [
+      "poesia"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Maurizio Viola"
   },
   {
     "id": "2018-03-08-102",
@@ -1127,9 +1136,12 @@
     "end": 1989.28,
     "speaker_raw": "SPEAKER_10",
     "testo": "E' scritto proprio nel Genesi Bereshit che Adam viene impastato con quella, è un semilavorato, viene impastato con della polvere del suolo e del fiato della divinità. Ma quando si tratta di prendere la donna, la estrae dal fianco e però è scritto e costruì Dio. La donna dal fianco, dunque fa proprio un'opera di perfezionamento, si mette a fabbricare, non la tira fuori bella e pronta dal fianco della dama, la lavora, quindi la porta a perfezione. È evidentemente un'opera successiva e migliorata rispetto alla materia prima da cui proviene.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Genesi Bereshit",
+    "tema": [
+      "creazione",
+      "donna"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {

@@ -852,10 +852,13 @@
     "end": 1621.09,
     "speaker_raw": "SPEAKER_12",
     "testo": "Comunque, nei primi giorni di novembre è uscito un libro dove c'è scritto in quarta di copertina, a volte non basta essere amati, vogliamo sentirci desiderati. Ma che libro è? Quando tutto inizia, di Fabio Volo. Molto bello, molto bello. Bene ragazzi, molti di voi ce l'ho scritto. Se volete tanare uno che ha un po' di problemi, chiamate me. Tutti inguaiati i nostri. Questo è il fascino della radio. Adesso vorrei fare un intervento parlando del fascino della radio. Avanti veloce. Che è di gran lunga meglio della tv e di tutto il resto. Sì eh. È in assoluto la cosa più bella al mondo. Dopo la pizza. Dopo la pizza. Dopo la pizza. Dopo la pizza. Dopo la pizza.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Quando tutto inizia",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Fabio Volo"
   },
   {
     "id": "2018-03-20-078",
@@ -1105,9 +1108,12 @@
     "end": 2540.03,
     "speaker_raw": "SPEAKER_09",
     "testo": "Quando è arrivato il momento per te di diventare un uomo, di affrontare il mondo, l'hai fatto. Ma qualcosa lungo il tragitto ti ha fatto cambiare. Non sei esistito più. Hai permesso al primo fesso che arrivava di farti dire che non eri bravo. Sono cresciute le difficoltà, ti sei messo alla ricerca del colpevole. E l'hai trovato in un'ombra. Ora ti dirò una cosa scontata. Guarda che il mondo non è tutto rose e fiori. È davvero un postaccio misero e sporco. E per quanto forte tu possa essere, se glielo permetti, ti mette in ginocchio e ti lascia senza niente per sempre. Né io, né tu, nessuno può colpire duro come fa la vita. Perciò, andando avanti, non è importante come colpisci. L'importante è come sai resistere ai colpi, come incasti. E se finisci al tappeto, hai la forza di rialzarti. Così sei un vincente. E se credi di essere forte, lo devi dimostrare che sei forte, perché un uomo vince solo se sa resistere. Non se ne va in giro a puntare il dito contro chi non c'entra, accusando prima questo, poi quell'altro di quanto sbaglia. I vigliacchi fanno così e tu non lo sei!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "coraggio e sfide",
+    "tema": [
+      "crescita",
+      "difficoltà"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

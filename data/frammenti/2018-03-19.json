@@ -82,10 +82,13 @@
     "end": 285.68,
     "speaker_raw": "SPEAKER_13",
     "testo": "Come molti anziani dicono, ma sai che c'è? Come ci disse Paolo Villaggio, voi non sapete, cari ascoltatori, che le ultime telefonate che facevamo con Paolo Villaggio non erano in diretta. E lo avevo promesso, perché siccome io non cerco lo scoop, ma mi affeziono alle persone, anche al figlio, dicendo stai tranquillo, perché il papà, ovviamente, Paolo Villaggio, ogni tanto, e io durante la telefonata registrata, dicevo, signor Villaggio, lei non può dire questa cosa. Io ho 84 anni e posso dire qualcosa. Sembravo più platinese che Paolo Villaccio. Comunque niente, e quindi ne si registrava.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "intervista a Paolo Villaggio",
+    "tema": [
+      "onestà"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Paolo Villaggio"
   },
   {
     "id": "2018-03-19-008",
@@ -159,9 +162,11 @@
     "end": 389.26,
     "speaker_raw": "SPEAKER_13",
     "testo": "Io sono tuo padre. Che scoop che sarebbe. Ciao, io sono affezionato a te Fabio perché in realtà io sono. Sarà ancora in gita. Sarà ancora in gita a mangiare il Barolo. Allora, questa settimana iniziamo una cosa importante. Cioè? Cioè lunedì vi diciamo di che cosa parleremo durante la settimana.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Tony Dallara scherza con Fabio",
+    "tema": [
+      "relazioni"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -247,10 +252,14 @@
     "end": 747.2,
     "speaker_raw": "SPEAKER_13",
     "testo": "No, perché c'è quella frase, a volte una canzone gli basta una frase, non perché quando tu ascolti Sally di Vasco Rossi, ci sono quattro, perché rendono quella canzone strepitosa, ma ci sono quattro o cinque frasi dentro che sono delle pietre emiliane. Un provo di Bologna. Mi ricordo i film di Abba Tantuone. Cioè, questa è una pietra emiliana. La vita è un brivido che vola via e tutto un equilibrio sopra la follia. È una frase semplicissima, proprio di capacità di Vasco Rossi, ma che sintetizza tantissimo, no? Poi ce ne sono tante. Dove stai andando Maurizio? La batteria non l'hai portata questa mattina? Mi ero spostato di là per stampare. No, no, no. Allora, Stefano dice, mi hai già fatto commuovere Stefano Daluca con questa canzone.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Pietra Emiliana",
+    "tema": [
+      "tradizione",
+      "città"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Abba Tantuane"
   },
   {
     "id": "2018-03-19-023",
@@ -885,9 +894,12 @@
     "end": 1821.7,
     "speaker_raw": "SPEAKER_13",
     "testo": "E lui è seduto così, sulla sdraio, parla e a un certo punto guarda giù. E fa capocetta, e c'è Kojak, e dice, voi ragazzi, di che state parlando? E c'è Kojak, e dice, ragazzi, scusate, di che state parlando? Fa un caldo qua sotto sto costume. Va bene, allora.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Kojak interrompe conversazione",
+    "tema": [
+      "interruzione",
+      "cani"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -929,9 +941,12 @@
     "end": 1849.53,
     "speaker_raw": "SPEAKER_13",
     "testo": "Allora, Maurizio sta piangendo. Quando c'hai 14, 15 anni, 13 anni, che ti svegli con una bella carica così, no? Tipo la domenica mattina, ti svegli, sono già le 11, i tuoi amici, vieni a pranzo. Tu non è che puoi andare a pranzo con l'antenna per prendere il capodista.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "gioventù e carica mattutina",
+    "tema": [
+      "gioventù",
+      "mattino"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -1161,8 +1176,12 @@
     "speaker_raw": "SPEAKER_01",
     "testo": "Sono sempre stato cattivo papà? No, sempre no. Quello che ricordo meglio della mia infanzia è quando ti tenevo per mano. La mia manina nella tua grande mano e l'odore del tabacco. Mi ricordo che odoravo il tabacco dal palmo della tua mano. Quando voglio sentirmi felice ripenso a quel profumo di tabacco.",
     "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "tema": [
+      "infanzia",
+      "amore",
+      "memoria"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -1172,8 +1191,12 @@
     "speaker_raw": "SPEAKER_12",
     "testo": "Quanto tempo è che non ti vedo, papà? Mi manchi tanto. Mi manchi così tanto. Non te lo puoi nemmeno immaginare, sai? La mia vita sarebbe stata vuota senza di te. Sappi che tua figlia è una donna felice, che ha trovato il suo mondo. Non ho capito come diavolo hai fatto, però... sei riuscito a trasmettermi per intero il tuo amore per la vita. In fin dei conti, tu e la mamma avete cresciuto due figli indistruttibili. E io penso che questo sia un miracolo. Sai, il primo uomo nella vita di ogni ragazza è il padre. È il padre.",
     "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "tema": [
+      "genitori",
+      "felicità",
+      "amore"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -1380,9 +1403,12 @@
     "end": 2618.57,
     "speaker_raw": "SPEAKER_13",
     "testo": "Qual è la grande differenza tra il Primo Testamento e il Secondo? Il primo è occhio per occhio, dente per dente. Il secondo invece è ingiusto. Gesù è ingiusto, nel senso che tu dici anche se tu mi odi, io ti amo. Quindi è una forma di ingiustizia. Non è paritetico come l'altro. C'è tu occhio per occhio, dente per dente. Invece tu dici ama il prossimo tuo, ama il tuo nemico, va bene.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "differenza tra testamenti",
+    "tema": [
+      "amore",
+      "giustizia"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

@@ -1424,9 +1424,12 @@
     "end": 2024.17,
     "speaker_raw": "SPEAKER_00",
     "testo": "Sviluppo e progresso. Tra le due parole c'è una differenza enorme e tutte le polemiche che sono nate in seguito a alcune cose che io ho scritto in realtà si basano proprio su questo equivoco, cioè confondere lo sviluppo con il progresso, che invece sono due cose non soltanto diverse, ma addirittura opposte e per quel che riguarda nella fattispecie questo concreto momento storico addirittura inconciliabili.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "sviluppo vs progresso",
+    "tema": [
+      "progresso",
+      "memoria"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -1435,9 +1438,12 @@
     "end": 2083.84,
     "speaker_raw": "SPEAKER_10",
     "testo": "Noi siamo un paese senza memoria, il che equivale a dire senza storia. L'Italia rimuove il suo passato prossimo, lo perde nell'oblio dell'etere televisivo. Netti le sono i ricordi, i frammenti che potrebbero farle comodo per le sue contorsioni, per le sue conversioni. Ma l'Italia è un paese circolare, gattopardesco, in cui tutto cambia per restare com'è, in cui tutto scorre per non passare davvero. Se l'Italia avesse cura della sua storia, della sua memoria, Si accorgerebbe che i regimi non nascono dal nulla, sono il portato di veleni antichi, di metastasi invincibili. Imparerebbe che questo paese è speciale nel vivere alla grande ma con le pezze al culo, che i suoi vizi sono ciclici, che si ripetono incarnati da uomini diversi con lo stesso cinismo, la medesima indifferenza per l'etica, con l'identica allergia alla coerenza e una tensione morale.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "paese senza memoria",
+    "tema": [
+      "storia",
+      "cambiamento"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

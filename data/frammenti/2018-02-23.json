@@ -522,9 +522,12 @@
     "end": 700.88,
     "speaker_raw": "SPEAKER_10",
     "testo": "Io divento matto, eh? Con il cocktail in mano e la cannuccia a guardarle dove... Basta, hai finito Raffaele, vai a casa, te la dovevi godere prima. Perché come dice Picasso, che è una delle frasi che dovremmo tatuarci tutti sul braccio, 40 anni, 40 e non 50, 40 anni è l'età in cui capisci che sei giovane, ma è troppo tardi.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Età della consapevolezza tarda",
+    "tema": [
+      "età",
+      "consapevolezza"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -1204,9 +1207,12 @@
     "end": 1852.26,
     "speaker_raw": "SPEAKER_10",
     "testo": "Sto sbroccando durante i dischi, mi sto sfocando come la risata di ieri. Ieri mi ha preso quell'attacco di risata ma ha cambiato la giornata, è stata veramente bella. Vogliamo provare a fare l'esperimento dopo di fingere di ridere, vediamo se ridiamo tutti.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Attacco di risata cambiante giornata",
+    "tema": [
+      "risate",
+      "giornata"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

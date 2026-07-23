@@ -159,9 +159,11 @@
     "end": 774.59,
     "speaker_raw": "SPEAKER_00",
     "testo": "Sono molto diverse, ad esempio con la scrittura si lascia allo scrittore, cioè al lettore piena libertà di inventarsi una scenografia dei fatti, un'ambientazione, le facce dei protagonisti, si lascia questa grande libertà, invece nel cinema è tutto inquadrato, tutto preciso, tutto dato. E quindi tu devi seguire quello che il regista ti ha preparato.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "libertà della scrittura",
+    "tema": [
+      "creatività"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -269,9 +271,12 @@
     "end": 948.94,
     "speaker_raw": "SPEAKER_00",
     "testo": "Ma ce ne sono state un paio, la prima è stata quando mio padre e mia madre un po' avventuratamente mi hanno portato A vedere l'amleto di Shakespeare a teatro e stavo su un palchetto, me lo ricordo, vicino al palcoscenico e in certo punto all'arrivo del fantasma del papà di amleto ho cominciato a star male, a vomitare, a strillare e mi hanno portato via.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "vomitando durante Amleto",
+    "tema": [
+      "teatro",
+      "infanzia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -292,8 +297,11 @@
     "speaker_raw": "SPEAKER_00",
     "testo": "Questa è stata crescendo perché ho cominciato da fatto giornalista, poi dopo giornalista ho fatto il critico. Poi ho fatto lo sceneggiatore, come sceneggiatore ho fatto un sacco di film di tutti i tipi, anche il film di Sergio Leone. Storie d'amore, già. Poi a un certo punto una sceneggiatura che ho scritto mi è sembrata più interessante delle altre e non mi andava che qualcun altro ci mettesse le mani e quindi l'ho presa io.",
     "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "tema": [
+      "carriera",
+      "creatività"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -379,10 +387,13 @@
     "end": 1396.88,
     "speaker_raw": "SPEAKER_01",
     "testo": "Spogano tutto. I film della paura, come diceva il figlio di una mia amica. Io ho visto un film della paura. Maurizio, tu guardi i film dell'orrore? Mi affascinano molto, sì. C'è un qualcosa che attrae, che uno chiude, però chiude la mano ma apre le dita, no? Fa quella cosa strana. Allora, torniamo tra poco per la prossima mezz'ora per parlare del libro di Dario Argento, Horror, storie di sangue, spiriti e segreti. Ecco. Io avevo proposto un libro di ricette di Dario Argento, guardi che non è una brutta idea. Vabbè, ci pensiamo. Sanguinaccio, sai quelle cose di... Io non so se lei, come Claudio Baglioni, che ha piccolo grande amore, ha quel tannannannanna che la perseguita, no? Quella canzone cos'è, Profondo Rosso, no? Ecco, lei la ama o la odia quella musica?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Horror, storie di sangue",
+    "tema": [
+      "orrore"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Dario Argento"
   },
   {
     "id": "2018-03-13-035",
@@ -434,9 +445,11 @@
     "end": 1675.87,
     "speaker_raw": "SPEAKER_00",
     "testo": "I film con gli zombie li ha inventati il mio amico Giorgio Romero che... È stato il precursore, ha fatto una lotta di morti viventi e così ha dato via tutta una trentennio, quarantennio di...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Giorgio Romero e i zombie",
+    "tema": [
+      "zombie"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -621,10 +634,13 @@
     "end": 1887.4,
     "speaker_raw": "SPEAKER_01",
     "testo": "Dopo, appena abbiamo finito di parlare di questo nuovo libro di Dario Algezzi, ci prendiamo tutti un bel ovetto qui, lo mettiamo lì per terra. E andiamo con la lingua. Madonna mia, io già a tirar le ossa a me facevano paura, ecco, se vedo una roba del genere, guai.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "nuovo libro di Dario Algezzi",
+    "tema": [
+      "libro"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Dario Algezzi"
   },
   {
     "id": "2018-03-13-057",
@@ -632,10 +648,13 @@
     "end": 1899.51,
     "speaker_raw": "SPEAKER_05",
     "testo": "To follow where you are I'm wishing on a dream To follow what it means I'm wishing on a star",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Wishing on a Star",
+    "tema": [
+      "sogni"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Ross Royce"
   },
   {
     "id": "2018-03-13-058",
@@ -709,10 +728,13 @@
     "end": 2159.98,
     "speaker_raw": "SPEAKER_01",
     "testo": "Sarà più dolce dirti ti amo, però uno si aspetta che a un certo punto... E poi ti lascio lì e torno da solo. Allora, è in tournée, diciamo, in giro un po' a parlarci di questo libro, di questi sei racconti dell'orrore, storie di sangue e spiriti segreti. Edito Mondadori, bravi i Mondadori, io ci lavoro da tanti anni, sono proprio bravi, approfitto per fare questa cosa. C'è stata anche una, diciamo, una botta di culo, nel senso che... Queste sono botte di culo un po', sì, perché essendo Dario Argento molto amico di Guillermo del Toro, c'è sulla quarta di copertina una frase che ha scritto... Quindi era già in stampa il libro, era già uscito e lui ha vinto l'Oscar.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "sei racconti dell'orrore",
+    "tema": [
+      "orrore"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Fabio Concato"
   },
   {
     "id": "2018-03-13-065",
@@ -731,9 +753,12 @@
     "end": 2218.47,
     "speaker_raw": "SPEAKER_01",
     "testo": "Dario Argento è il colosseo delle storie horror, un monumento, una pietra miliare. La sua capacità di fondere integrità artistica con un irriducibile senso del terrore reggerà la prova del tempo. Dario Argento è un dio, il mio. Ciao! Cioè, ma con il mio portinaio. Quando passo Nicola. È un dio. Non il mio. Va bene, insomma, quindi abbiamo visto un po' di interviste in giro, sono molto contento. Ne scriverà ancora, bello. Sì, sì, sì. Adesso io non ho mai fatto il regista, sono stato su dei set tante volte, è un lavoro molto impegnativo che occupa tanto tempo, bisogna interagire con troppe persone, è l'unica cosa del regista che tu sei a capo di mille gruppi e tutti ti chiedono e tu devi essere proprio uno che ama la gente per quelli due.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "capacità di Dario Argento",
+    "tema": [
+      "arte",
+      "terrore"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -863,10 +888,13 @@
     "end": 2592.33,
     "speaker_raw": "SPEAKER_01",
     "testo": "Ecco, infatti l'avevo letto in un'intervista bellissima, quella di Truffaut ad Alfred Hitchcock. Esatto.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "intervista Truffaut Hitchcock",
+    "tema": [
+      "cinema"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Truffaut"
   },
   {
     "id": "2018-03-13-079",

@@ -357,10 +357,13 @@
     "end": 690.7,
     "speaker_raw": "SPEAKER_08",
     "testo": "I wish I could swim Like dolphins Like dolphins can swim Nothing will keep us together We can beat them Forever and ever Or we can be heroes Just for one day",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Hero",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "David Bowie"
   },
   {
     "id": "2018-02-22-033",
@@ -445,9 +448,11 @@
     "end": 989.64,
     "speaker_raw": "SPEAKER_03",
     "testo": "Ma tu hai mai provato? Tu apri un bar. Sì. Tu apri un bar, quindi produci, lavoro per te. Lavoro per qualcuno che ti aiuterà al bar, un dipendente. Lavoro per chi ti porta le cose al bar, no? Le brioche, i panini. Il famoso indotto, no? Scusa, hai parlato piaggio, vuoi sfogarti su tu? No, no. Piaggio, sì. Ok, apri il bar. Tu come dici apri un bar, arrivano... Gli avvoltoi, la nonaria, l'ufficio di igiene, quello del cesso, quello del rubinetto, quello che ti fa spostare il rubinetto non deve essere a pedale, no?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "aprire un bar",
+    "tema": [
+      "lavoro"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -852,9 +857,11 @@
     "end": 1650.14,
     "speaker_raw": "SPEAKER_03",
     "testo": "San Paolo diceva, il nostro amico San Paolo, Maurizio ti ricordi? Non è amico mio. San Paolo, quello rappresentato molto bene da Caravaggio, adesso non voglio alzare troppo il livello del programma. Comunque San Paolo diceva che tu quando preghi non devi pregare per voler delle cose, per chiedere qualcosa. Ma dovresti pregare come se quelle cose le avessi già. Capito? Grazie perché ho questa... Come se tu ce l'avessi e teoricamente crei lo spazio perché poi questa cosa arrivi.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "san paolo su preghiere",
+    "tema": [
+      "preghiera"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -1259,9 +1266,11 @@
     "end": 2189.47,
     "speaker_raw": "SPEAKER_06",
     "testo": "Doveva sconfiggere i quattro flagelli. Oh la madonna. Ok, prego. Il primo dei fagelli era la passara mattugia, un cellino che mangiava i chicchi del riso. Nell'aprile del 1958 tutti i cinesi si riversarono nelle campagne con pentole, coperchi, strumenti di fortuna e hanno fatto un baccano pazzesco in modo tale che questa passara mattugia non si poteva posare sugli alberi e a fine giornata poveretta stramassava al suolo morta. Ah, vedi. Quel giorno sono state uccise 8 milioni di passere.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Sconfiggere i quattro flagelli",
+    "tema": [
+      "storia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

@@ -654,9 +654,12 @@
     "end": 1346.57,
     "speaker_raw": "SPEAKER_05",
     "testo": "Potete ridirla, sono entrato in galleria, allora ci sono questi due vescovi, la mattina si incrociano nel corridoio del convento, diciamo lì dove stanno loro e quello che è. A un certo punto uno silenziosamente dice, quando proprio gli passa davanti, dice Ave Maria e lui l'altro risponde Ciao Pazza. L'hai voluta anche ripetere. Sì, perché qua uno dice, allora, dite a Linus che mi serve una babysitter nel caso non avesse più lavoro. E un altro, vi volevo salutarvi, non ci sentiremo più, che peccato. No, ma su queste barzellette va bene così, va bene così. Allora, allora. Si senti un po' in colpa adesso? Hai un po' paura? No, no, no, che paura. Ma che niente, rega.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "vescovi in convento",
+    "tema": [
+      "religione",
+      "umorismo"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -786,9 +789,11 @@
     "end": 1502.49,
     "speaker_raw": "SPEAKER_05",
     "testo": "A tra poco, vi ricordo che... Quando lui ha stretto la mano a Marilyn Monroe, ha detto... Questa qui la lavi più. Esatto, ha detto go, go, good, good. Good. Allora, nella seconda mezz'ora abbiamo, uff, abbiamo anche un pezzo giapponese cantato da Tony Dallara che ha avuto un successo in Giappone strepitoso. Quanti anni fa?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "stretta di mano con Marilyn Monroe",
+    "tema": [
+      "celebrità"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -984,9 +989,11 @@
     "end": 1869.51,
     "speaker_raw": "SPEAKER_05",
     "testo": "Allora, ascoltiamo questa frase di Ugo Tognazzi che ci fa un po' ridere e poi mettiamo un bel pezzo di battiato così anche un po' di romanticismo e di poesia. La frase è Ugo Tognazzi innamorato delle donne ovviamente in questo film e vede questa donna forse nuda completamente sulla barca e fa questi commenti.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "frase di Ugo Tognazzi",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -1006,10 +1013,13 @@
     "end": 1906.59,
     "speaker_raw": "SPEAKER_05",
     "testo": "Il culo ci fa ridere. Ok, questo è Frango Battietto con La stagione dell'amore, un disco del 1992, un capolavoro sia nel testo che nella musica e nell'arrangiamento. Tanti auguri, Frango.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "La stagione dell'amore",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Frango Battietto"
   },
   {
     "id": "2018-03-23-092",
@@ -1270,10 +1280,13 @@
     "end": 2266.88,
     "speaker_raw": "SPEAKER_05",
     "testo": "Sembra un film di Tarantino. Oh, è vero. Questa se te la sente Tarantino te la prende. Grazie. Te l'ha fatto mettere negli avanti veloci domani. I love you darling. I want you.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "film di Tarantino",
+    "tema": [
+      "parodia"
+    ],
+    "tipo": "riferimento_film",
+    "video_url": "",
+    "autore": "Quentin Tarantino"
   },
   {
     "id": "2018-03-23-116",
@@ -1567,9 +1580,11 @@
     "end": 2677.67,
     "speaker_raw": "SPEAKER_06",
     "testo": "Perry Como era abruzzese, ma erano tutti lì, anche Dean Martin. Sono tutti italo-americani come Sinatra. Era simpatico Perry Como? Appena mi ha visto mi ha presentato e lui ha fatto, ehi, ma tu sei famoso. Ma ha detto, lui a me si è famoso. Lui che era strafamoso.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "incontro Perry Como",
+    "tema": [
+      "celebrità"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

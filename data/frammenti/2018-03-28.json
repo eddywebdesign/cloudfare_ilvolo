@@ -16,10 +16,14 @@
     "end": 231.51,
     "speaker_raw": "SPEAKER_16",
     "testo": "La differenza, no? Questo è Vans Joy con Saturday Sun 2018 e sentite come... Io, avendo il mio, diciamo, artista preferito, Nick Drake, quello a cui devo molto dal punto di vista emotivo, anche lui ha una canzone che si intitola così... Come suona? Lui era un ragazzo un po' depresso, era un ragazzo che non si capisce se si è sbagliato o se si è suicidato, insomma, con gli psicofarmaci, con i sonniferi, così. Questa è la sua Saturday Sun. Io potrei piangere in diretta, come quando ho letto la lettera la settimana scorsa, solo sentendo la sua voce. Senti.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Saturday Sun",
+    "tema": [
+      "amore",
+      "depressione"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Nick Drake"
   },
   {
     "id": "2018-03-28-002",
@@ -280,9 +284,11 @@
     "end": 853.63,
     "speaker_raw": "SPEAKER_16",
     "testo": "Un'ascoltatrice, non so se ti interessa Maurizio perché tu non hai nessun tipo di affetto verso gli ascoltatori. Comunque volevo dire, cari ascoltatori, che noi essendo dei narratori, degli scrittori, autori, televisivi, noi creiamo anche i personaggi qua dentro, noi non siamo sempre solo noi stessi. Questo Maurizio Smorsa Osei a cui ieri... Hanno detto Crisantemo, è un personaggio inventato, cioè noi diciamo, io dico una cosa, tu Maurizio mi dici di no, è fatto un po' a tavolino, non è così. Certo, sì. No, no. Ti interessa questa ascoltatrice? No. No, ma personalmente. Eh? No, che dice, se mettete il mondo rimango in macchina, se no scendo che devo andare a lavorare. Merda. Vuoi mettere un pezzettino del mondo? No. No, non la vuoi mettere? No. Ma questa non è una canzone che cambia la giornata.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "creiamo personaggi",
+    "tema": [
+      "narrativa"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -599,10 +605,13 @@
     "end": 1462.25,
     "speaker_raw": "SPEAKER_16",
     "testo": "Cioè tu sei preparatissima su questi argomenti. Io una cosa che ho letto in un tuo libro che mi è piaciuta tanto è che hai detto che to get, il verbo in inglese, è come puffare per i puffi. Cioè vale un po' per tutto. Ah, a proposito di puffare.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "libro di viaggi",
+    "tema": [
+      "viaggio"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Fabio Volo"
   },
   {
     "id": "2018-03-28-055",
@@ -643,10 +652,13 @@
     "end": 1744.07,
     "speaker_raw": "SPEAKER_16",
     "testo": "Speriamo che un giorno il nostro ascoltatore romano che ci ha appena scritto possa cantare questa canzone alla sua donna trovata alla fermata dell'auto. Qualcuno ricorda che uno dei miei libri più famosi era proprio di gente che si incontrava alla fermata. Sì, un posto in più nel mondo. Ma no, un posto nel mondo o il giorno in più? Quello è il giorno in più. Una parita che durante la pubblicità abbiamo fatto delle cose molto divertenti. Allora, fermi tutti. Giulia. Ciao. Ma Maurizio è in trip con la batteria in sto periodo. Scusate. No, Giulia, 52 anni di Roma, bella come il fuoco, lavora in un ufficio pubblico. Come bella come il fuoco? Non si dice bella come il fuoco? Ma no, come il sole. E allora il fuoco, no?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "un posto nel mondo",
+    "tema": [
+      "incontro"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Fabio Volo"
   },
   {
     "id": "2018-03-28-059",

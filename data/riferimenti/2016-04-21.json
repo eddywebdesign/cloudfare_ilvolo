@@ -25,7 +25,8 @@
     "start": 0.0,
     "end": 645.96,
     "episodio_data": "2016-04-21",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/84e70f8d-ca6e-4674-8e9f-6aa7d3f9b40d/front-250"
   },
   {
     "id": "2016-04-21-musica-clip-0002",
@@ -39,7 +40,8 @@
     "start": 0.0,
     "end": 645.96,
     "episodio_data": "2016-04-21",
-    "confermato_esterno": false
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/7367737d-938d-413a-aad4-77b7b6badcaf/front-250"
   },
   {
     "id": "2016-04-21-musica-clip-0003",
@@ -221,6 +223,6 @@
     "start": 1937.88,
     "end": 2583.83,
     "episodio_data": "2016-04-21",
-    "confermato_esterno": false
+    "confermato_esterno": true
   }
 ]

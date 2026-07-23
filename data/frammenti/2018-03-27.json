@@ -214,10 +214,11 @@
     "end": 715.7,
     "speaker_raw": "SPEAKER_07",
     "testo": "È un nome che ha, come dire, ispirato molti cantanti. Sono tante le canzoni Maria. Vedo gli ascoltatori che per questo 10.000 euro che ho offerto hanno tirato fuori delle canzoni Maria dei Green Day. C'è una canzone Maria dei Green Day, io non me la ricordavo. Pensa che a me Maria mi viene in mente... Articolo 31. No, a me, pensa come sono Tamarro, i Gypsy King. C'è una Maria, Maria...",
-    "titolo": "",
+    "titolo": "Maria",
     "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Green Day"
   },
   {
     "id": "2018-03-27-020",
@@ -225,10 +226,11 @@
     "end": 727.51,
     "speaker_raw": "SPEAKER_10",
     "testo": "Ti ricordi l'anno scorso facevamo il momento Gipsy King? Maurizio, facciamo un momento Gipsy King, a bomba. C'hai Maria dei Gipsy King? Maria Dolores, giusto.",
-    "titolo": "",
+    "titolo": "Maria Dolores",
     "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Gipsy Kings"
   },
   {
     "id": "2018-03-27-021",
@@ -940,10 +942,13 @@
     "end": 2358.38,
     "speaker_raw": "SPEAKER_07",
     "testo": "Sì, perché erano quelle feste lì e buttavano dentro un po' tutto. La gente si divertiva, la dolce vita. Parliamo di Tarantino il regista. Tarantino il regista ha fatto questa metafora bellissima dei supereroi, siccome oggi è il compleanno di Tarantino ed è un grandissimo conoscitore di musica, grande cultura musicale, noi mettiamo questa frase che ognuno di noi si deve in qualche modo ritrovare e poi una bella canzone e abbiamo fatto una super puntata.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Tarantino metafora supereroi",
+    "tema": [
+      "supereroi"
+    ],
+    "tipo": "riferimento_film",
+    "video_url": "",
+    "autore": "Quentin Tarantino"
   },
   {
     "id": "2018-03-27-086",
@@ -951,9 +956,12 @@
     "end": 2405.11,
     "speaker_raw": "SPEAKER_00",
     "testo": "L'elemento fondamentale della filosofia dei supereroi è che abbiamo un supereroe e il suo alter ego. Batman è di fatto Bruce Wayne, l'uomo ragno è di fatto Peter Parker. Quando quel personaggio si sveglia al mattino è Peter Parker. Deve mettersi un costume. Per diventare l'uomo ragno, Superman non diventa Superman. Superman è nato Superman. Quando Superman si sveglia al mattino, è Superman. Il suo alter ego è Clark Kent. Gli occhiali, l'abito da lavoro, quello è il suo costume. È il costume che Superman indossa per mimetizzarsi tra noi. Clark Kent è il modo in cui Superman ci vede. E quali sono le caratteristiche di Clark Kent? È debole, non crede in se stesso ed è un vigliacco.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "identità supereroi",
+    "tema": [
+      "identità",
+      "supereroi"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -1039,9 +1047,12 @@
     "end": 2654.34,
     "speaker_raw": "SPEAKER_07",
     "testo": "E io dico, Linus, io trovo che questo programma avrebbe bisogno... E lui dice, hai sempre ragione Fabio, però non lo dirà nessuno. E io dico, va bene, ok, non lo dico a nessuno. Poi mi dice, non dirlo soprattutto a Nicola. Comunque, un'altra ragazza, per esempio, stesso problema. Siete tanti Superman che dovete fingervi Clark Kent, perché è una bella metafora. C'è anche una sindrome. Abbiamo scoperto, perché Viola è una velocissima schesmanettona.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Superman e Clark Kent",
+    "tema": [
+      "identità",
+      "abilità"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

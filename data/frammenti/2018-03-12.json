@@ -1523,9 +1523,12 @@
     "end": 2203.68,
     "speaker_raw": "SPEAKER_02",
     "testo": "Ah, tipo quando Maurizio ti ricordi? Quando Maurizio ha fatto il weekend a Ibiza con Belen. Te lo ricordi Maurizio? Che mi hai detto, eh la Madonna, eh la Madonna, eh la Madonna. Forse si era appena lasciata, non lo so, ma è una roba, si è raccontato delle cose. Lì, eh, che siete andati a mangiare lì a Papaloma. Vinto. Ristorante La Paloma, Belen e Maurizio. Ci ha raccontato delle cose. Ha vinto, è arrivato secondo. Sì. Va bene. Senti. Dimmi. Magnifico rettore della... Non ce l'ho. Ci spiega come funziona? Ce l'abbiamo? Al telefono? Presente.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Maurizio a Ibiza con Belen",
+    "tema": [
+      "bugia",
+      "vittoria"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1677,9 +1680,12 @@
     "end": 2321.99,
     "speaker_raw": "SPEAKER_02",
     "testo": "Senta, magnifico! Lei ci deve mettere in contatto con questi bugiardi e noi in radio sentiamo uno che ha vinto, è arrivato secondo e ci racconta un pezzo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Bugiardo di Pistoia",
+    "tema": [
+      "umorismo",
+      "bugie"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

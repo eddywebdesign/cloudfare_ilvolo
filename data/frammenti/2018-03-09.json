@@ -412,9 +412,12 @@
     "end": 852.4,
     "speaker_raw": "SPEAKER_02",
     "testo": "La prima classe costa mille lire, la seconda cento, la terza dolore spavento, puzza di sudore dal bocca a porte, odore di mare morto. Sio capitano mi stia a sentire, ho belle e pronte le mille lire, in prima classe voglio viaggiare su questo splendido mare. Ci sta mia figlia che ha 15 anni ed a Parigi ha comprato un cappello. Se ci invitasse al suo tavolo a cena stasera come sarebbe bello. E con l'orchestra che ci accompagna con questi nuovi ritmi americani saluteremo la Gran Bretagna col bicchiere fra le mani. E con il ghiaccio dentro al bicchiere faremo un brindisi tintinnante a questo viaggio davvero mondiale e a questa luna gigante. Ma chi l'ha detto che in terza classe, che in terza classe si viaggia male? Questa cucetta sembra un letto a due piazze, ci si sta meglio che in ospedale. Ma noi cafoni ci hanno sempre chiamati, ma qui ci trattano da signori, che quando piove si può star dentro, ma col bel tempo veniamo fuori. Su questo mare nero come il petrolio, ad ammirare questa luna metallo, e quando suonano le sirene ci sembra quasi che canti il gallo. Ci sembra quasi che il ghiaccio che abbiamo nel cuore piano piano si vada a sfogliare in mezzo al fumo di questo vapore di questa vacanza in alto mare. E gira, gira, gira, gira l'elica e gira, gira che piove e nevica per noi ragazzi di terza classe che per non morire si va in America. Marconista sulla sua torre, le lunghe dita celesti nell'aria, trasmetteva saluti e speranze per questa crociera straordinaria e riceveva messaggi d'auguri in quasi tutte le lingue del mondo. Comunicava tra Vienna e Chicago in poco meno di un secondo. La ragazza di prima classe, innamorata del proprio cappello, quando la sera lo vide ballare lo trovo subito molto bello. Forse per via di quegli occhi di ghiaccio, così difficili da evitare, penso magari con un po' di coraggio, prima dell'arrivo mi farò baciare.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Titanic prima classe",
+    "tema": [
+      "ricchezza",
+      "viaggio"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -467,9 +470,12 @@
     "end": 969.71,
     "speaker_raw": "SPEAKER_08",
     "testo": "Allora ragazzi, seri, adesso seri 30 secondi, ok? Allora, seri 30 secondi, Viola, leggici questo articolo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "figli boomerang",
+    "tema": [
+      "trasferimento",
+      "genitori"
+    ],
+    "tipo": "lettura_volo",
     "video_url": ""
   },
   {

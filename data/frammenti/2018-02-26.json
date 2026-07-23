@@ -291,10 +291,13 @@
     "end": 419.31,
     "speaker_raw": "SPEAKER_09",
     "testo": "Mamma mia, ci vuole come diceva Charlie Chaplin, ci vuole una roba che Dalai Lama impazzisce dopo due giorni.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Città del silenzio",
+    "tema": [
+      "lavoro"
+    ],
+    "tipo": "riferimento_film",
+    "video_url": "",
+    "autore": "Charlie Chaplin"
   },
   {
     "id": "2018-02-26-027",
@@ -533,10 +536,13 @@
     "end": 890.78,
     "speaker_raw": "SPEAKER_09",
     "testo": "Proprio da saldatori. Fantastica. Questi sono i kiss con I was made for loving you. Sono stato creato per amarti. Che bello. Che dichiarazione. Io l'ho vista, lo dico sempre, all'arrivo. Uno spettacolo fantastico. Poi gli sale il sangue dalla bocca.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "I was made for loving you",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Kiss"
   },
   {
     "id": "2018-02-26-049",
@@ -841,9 +847,12 @@
     "end": 1467.43,
     "speaker_raw": "SPEAKER_09",
     "testo": "Una ragazza incinta ci scrive, ha avuto un momento di... Cosa mi è toccato vedere? Mi allungo. Viola ha cercato di chiudere la porta dello studio tenendo su le cuffie. Per cui ha tenuto il filo delle cuffie e si è stesa tenendo la testa in dietro. Il microfono si è mosso. Una ragazza incinta, forse per motivi ormonali, ha detto che suo marito gli taglia i capelli. Lei si è tagliato quasi a zero. Lui amava i suoi capelli lunghi. Si addormenta arrotolandogli le ciocche. Lui ha pianto. Non le ha più parlato e poi le ha pagato le extension. Che non sono la stessa cosa. No, che però lui gli dice, ti amo, però ti amo con i capelli lunghi, con i capelli corti mi stai anche un po' su. È quello, eh. Mi paghi le extension. A parte me le paghi sì. Scusa. Mi piace quando la donna è indipendente ma al tempo stesso.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Viola e le cuffie",
+    "tema": [
+      "incidente",
+      "studio"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1138,10 +1147,13 @@
     "end": 1917.92,
     "speaker_raw": "SPEAKER_11",
     "testo": "Ti ascolto da... Comunque io rivolgo il libro di Peter Gomez.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "libro di Peter Gomez",
+    "tema": [
+      "lettura"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Peter Gomez"
   },
   {
     "id": "2018-02-26-104",
@@ -1204,10 +1216,13 @@
     "end": 2155.18,
     "speaker_raw": "SPEAKER_07",
     "testo": "Love is a burning thing and it makes a fiery ring I fell into a burning ring of fire I went down, down, down and the flames went higher and it burns, burns, burns the ring of fire the ring of fire I fell into a burning ring of fire I went down, down, down And the flames went higher And it burns, burns, burns The ring of fire The ring of fire The taste of love is sweet When hearts like ours meet Volo, Maurizio, Viola. Volo, Maurizio, Viola. I fell into a burning ring of fire I went down, down, down and the flames went higher And it burns, burns, burns the ring of fire The ring of fire And it burns, burns, burns the ring of fire The ring of fire",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "The Ring of Fire",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Johnny Cash"
   },
   {
     "id": "2018-02-26-110",
@@ -1292,10 +1307,13 @@
     "end": 2407.98,
     "speaker_raw": "SPEAKER_09",
     "testo": "Questi invece sono gli U2. Anche lui c'ha una canzone su suo padre che spacca.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "One",
+    "tema": [
+      "genitori"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "U2"
   },
   {
     "id": "2018-02-26-118",
@@ -1446,9 +1464,11 @@
     "end": 2886.34,
     "speaker_raw": "SPEAKER_03",
     "testo": "Per carnevale suonavo sopra i carri in maschera, avevo già la luna e un rano nel leone. Il mare nel cassetto, le mille bolle blu, da quando sei andata via non esisto più. Che dal confine si spostarono nell'Iran Canta mio diva dei pelle rossa americani Le gesta erotiche di scuopelle di luna Le penne stilografiche con l'inchiostro blu La barba con rasoio elettrico non la faccio più Il mondo è grigio, il mondo è blu.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "frase genitori",
+    "tema": [
+      "salute"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
