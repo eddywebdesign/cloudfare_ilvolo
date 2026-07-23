@@ -112,6 +112,13 @@ def _tmdb_key() -> str:
 
 SOGLIA_TITOLO_CERTO = 0.85  # sopra: il titolo esiste davvero come opera reale
 SOGLIA_AUTORE_ESTRANEO = 0.25  # sotto: l'autore proposto non c'entra nulla col titolo trovato
+SOGLIA_TITOLO_SENZA_AUTORE = 0.90  # quando l'autore originale e' vuoto: sopra = titolo confermato
+# da solo, sotto = probabile rumore di chiacchiera (vedi analisi_categorie_duda.py,
+# categorie A/B: 1248/1743 casi "dubbio" del 2026-07-23 avevano l'autore originale
+# vuoto — la formula titolo*0.7+autore*0.3 non puo' MAI superare 0.7 con autore
+# vuoto, quindi finiva SEMPRE in "dubbio" anche quando il titolo era perfetto (caso
+# A) o quando era chiaramente rumore (caso B). L'autore vuoto non e' un errore -
+# semplicemente non e' mai stato tentato - quindi va giudicato SOLO sul titolo.
 
 
 def verifica_libro(titolo: str, autore: str) -> tuple[float, str, str]:
@@ -143,9 +150,11 @@ def verifica_libro(titolo: str, autore: str) -> tuple[float, str, str]:
         return -1.0, f"errore rete: {e}", ""
     migliore = (0.0, "", "")
     titolo_certo_ma_autore_estraneo = False
+    miglior_sim_titolo = 0.0
     for d in docs:
         titolo_trovato = d.get("title", "")
         sim_titolo = _similarita(titolo, titolo_trovato)
+        miglior_sim_titolo = max(miglior_sim_titolo, sim_titolo)
         autori_trovati = d.get("author_name", []) or []
         sim_autore = max((_similarita_autore(autore, a) for a in autori_trovati), default=0.0)
         if autore and sim_titolo >= SOGLIA_TITOLO_CERTO and sim_autore < SOGLIA_AUTORE_ESTRANEO:
@@ -164,6 +173,12 @@ def verifica_libro(titolo: str, autore: str) -> tuple[float, str, str]:
                           f"{autore!r}: attribuzione probabilmente sbagliata]",
             migliore[2],
         )
+    if not autore and docs:
+        # Autore mai estratto in origine (non sbagliato, solo assente): giudicare
+        # SOLO sul titolo, la formula 70/30 non puo' mai confermarlo altrimenti.
+        if miglior_sim_titolo >= SOGLIA_TITOLO_SENZA_AUTORE:
+            return (max(migliore[0], SOGLIA_ALTA + 0.01), migliore[1] + " [confermato solo per titolo, autore mai estratto]", migliore[2])
+        return (min(migliore[0], SOGLIA_BASSA - 0.01), migliore[1] + " [titolo non abbastanza simile, probabile rumore di chiacchiera]", migliore[2])
     return migliore
 
 
@@ -225,9 +240,11 @@ def verifica_musica(titolo: str, autore: str) -> tuple[float, str, str]:
         return -1.0, f"errore rete: {e}", ""
     migliore = (0.0, "", "")
     titolo_certo_ma_autore_estraneo = False
+    miglior_sim_titolo = 0.0
     for r in recordings:
         titolo_trovato = r.get("title", "")
         sim_titolo = _similarita(titolo, titolo_trovato)
+        miglior_sim_titolo = max(miglior_sim_titolo, sim_titolo)
         artisti = [ac.get("name", "") for ac in r.get("artist-credit", []) if isinstance(ac, dict)]
         sim_autore = max((_similarita_autore(autore, a) for a in artisti), default=0.0)
         if autore and sim_titolo >= SOGLIA_TITOLO_CERTO and sim_autore < SOGLIA_AUTORE_ESTRANEO:
@@ -245,6 +262,12 @@ def verifica_musica(titolo: str, autore: str) -> tuple[float, str, str]:
                           f"{autore!r}: attribuzione probabilmente sbagliata]",
             migliore[2],
         )
+    if not autore and recordings:
+        # Stesso principio di verifica_libro(): autore mai estratto, giudicare solo
+        # sul titolo (la formula 70/30 non puo' mai confermarlo altrimenti).
+        if miglior_sim_titolo >= SOGLIA_TITOLO_SENZA_AUTORE:
+            return (max(migliore[0], SOGLIA_ALTA + 0.01), migliore[1] + " [confermato solo per titolo, autore mai estratto]", migliore[2])
+        return (min(migliore[0], SOGLIA_BASSA - 0.01), migliore[1] + " [titolo non abbastanza simile, probabile rumore di chiacchiera]", migliore[2])
     return migliore
 
 
