@@ -100,16 +100,21 @@ def token_usati_oggi(provider: str) -> int:
 
 
 def provider_disponibile() -> str | None:
-    """Alterna tra i provider in ORDINE_PROVIDER, scegliendo quello con meno token
-    usati oggi TRA quelli che hanno ancora budget. Se tutti e tre (cloud, gratuiti)
-    sono esauriti, ripiega su "ollama" (locale, RTX 5070, nessun tetto giornaliero) -
-    SOLO come ultima risorsa, per non contendere la GPU alla trascrizione piu' del
-    necessario. None solo se anche ollama non e' raggiungibile."""
+    """PRIMARIO: "ollama" (locale, RTX 5070) se raggiungibile — cambiato il 2026-07-23
+    dopo aver misurato dal vivo che la GPU e' all'80% inattiva durante la trascrizione
+    (20% utilizzo, 2.4/12GB VRAM, `nvidia-smi` durante whisperx in produzione) e che il
+    modello locale (qwen2.5:14b) evita 2 dei 3 bug di qualita' reali trovati oggi
+    (titolo generato da un nome storpiato, messaggio social scambiato per un'opera) —
+    la vecchia scelta "ultima risorsa" era una precauzione mai verificata con un numero
+    reale. Ollama non ha limite giornaliero, quindi elimina anche i rallentamenti da
+    rate-limit (Gemini 429) e gli STOP per budget Groq/Cerebras esauriti visti oggi.
+    Ripiega sui provider cloud in ORDINE_PROVIDER SOLO se ollama non e' raggiungibile
+    (K16 spento/irraggiungibile in rete). None solo se anche nessun cloud ha budget."""
+    if _ollama_raggiungibile():
+        return "ollama"
     disponibili = [p for p in ORDINE_PROVIDER if budget_disponibile(p)]
     if disponibili:
         return min(disponibili, key=token_usati_oggi)
-    if _ollama_raggiungibile():
-        return "ollama"
     return None
 
 

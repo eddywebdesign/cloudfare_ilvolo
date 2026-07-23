@@ -167,8 +167,11 @@ CHUNK_SIZE = 6000  # caratteri per chunk (~1500 token input, lascia spazio al pr
 CHUNK_SLEEP = 13   # secondi tra chunk (max ~4-5 chunk/min entro 6000 TPM)
 
 
-def _groq_chunk(testo: str) -> list[dict]:
-    """Singola chiamata LLM (Groq o Cerebras, sceglie llm_multi) per un chunk di testo."""
+def _groq_chunk(testo: str) -> tuple[list[dict], str]:
+    """Singola chiamata LLM (Groq/Cerebras/Gemini/Ollama, sceglie llm_multi) per un
+    chunk di testo. Ritorna anche il provider usato: serve al chiamante per decidere
+    se applicare CHUNK_SLEEP (necessario solo per rispettare i TPM dei provider cloud,
+    inutile per Ollama locale che non ha alcun limite di frequenza)."""
     provider = llm_multi.provider_disponibile()
     if provider is None:
         raise RuntimeError("budget Groq E Cerebras esauriti per oggi")
@@ -191,9 +194,9 @@ def _groq_chunk(testo: str) -> list[dict]:
     if isinstance(parsed, dict):
         for v in parsed.values():
             if isinstance(v, list):
-                return v
-        return []
-    return parsed if isinstance(parsed, list) else []
+                return v, provider
+        return [], provider
+    return (parsed if isinstance(parsed, list) else []), provider
 
 
 def estrai_riferimenti(testo: str) -> list[dict]:
@@ -219,9 +222,10 @@ def estrai_riferimenti(testo: str) -> list[dict]:
                   f"{len(chunks) - idx} chunk rimasti verranno riprovati domani")
             break
         risultati = None
+        provider_usato = None
         for tentativo in range(2):
             try:
-                risultati = _groq_chunk(chunk)
+                risultati, provider_usato = _groq_chunk(chunk)
                 break
             except Exception as e:
                 if tentativo == 0:
@@ -244,7 +248,10 @@ def estrai_riferimenti(testo: str) -> list[dict]:
             print(f"      chunk {idx+1}/{len(chunks)}: {len(ancorati)} riferimenti "
                   f"({len(risultati) - len(ancorati)} scartati, non ancorati al testo)")
             tutti.extend(ancorati)
-        if idx < len(chunks) - 1:
+        # CHUNK_SLEEP serve solo a rispettare i TPM dei provider cloud (Groq/Cerebras/
+        # Gemini) — Ollama locale non ha alcun limite di frequenza, saltarla quando e'
+        # lui il provider usato accelera l'estrazione senza alcun rischio di rate-limit.
+        if idx < len(chunks) - 1 and provider_usato != "ollama":
             time.sleep(CHUNK_SLEEP)
     if scartati_non_ancorati:
         print(f"    Totale scartati per allucinazione probabile: {scartati_non_ancorati}")

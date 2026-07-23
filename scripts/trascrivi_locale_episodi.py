@@ -357,7 +357,10 @@ def classifica_frammenti(frammenti: list[dict]) -> None:
             dettagli.append(f"{troppo_corti} aneddoto/riflessione troppo corti scartati finora")
         print(f"      classificazione batch {i // CLASSIFY_BATCH + 1}: {taggati} frammenti taggati"
               + (f" ({', '.join(dettagli)})" if dettagli else ""))
-        if i + CLASSIFY_BATCH < len(da_classificare):
+        # CLASSIFY_SLEEP serve solo a rispettare i TPM dei provider cloud — Ollama
+        # locale non ha limite di frequenza, saltarla quando e' lui il provider usato
+        # (stesso principio applicato in trascrivi_e_estrai_clip.py::estrai_riferimenti).
+        if i + CLASSIFY_BATCH < len(da_classificare) and provider != "ollama":
             time.sleep(CLASSIFY_SLEEP)
 
 
