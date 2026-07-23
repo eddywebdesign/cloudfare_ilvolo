@@ -11,7 +11,8 @@
       "anniversario"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2014-05-05-001",
@@ -151,7 +152,8 @@
       "canzone"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2014-05-05-012",
@@ -237,7 +239,8 @@
       "infanzia"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2014-05-05-019",
@@ -276,7 +279,8 @@
       "libri"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2014-05-05-022",
@@ -371,7 +375,8 @@
       "amanti"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2014-05-05-029",
@@ -413,7 +418,8 @@
       "pace"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2014-05-05-032",
@@ -438,7 +444,8 @@
       "pace"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2014-05-05-034",
@@ -463,7 +470,8 @@
       "ricordi"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2014-05-05-036",
@@ -499,7 +507,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Aloe Blacc"
+    "autore": "Aloe Blacc",
+    "confermato_esterno": true
   },
   {
     "id": "2014-05-05-039",
