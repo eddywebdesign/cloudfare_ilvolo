@@ -162,9 +162,12 @@
     "end": 450.74,
     "speaker_raw": "SPEAKER_01",
     "testo": "Ecco, per esempio, Laura, la nostra ascoltatrice Laura dice, questa mattina ho letto questa frase postata da una mia cara amica. Sentiamo. Che dice, se la sofferenza vi ha reso cattivi, l'avete sprecata. È un po' questo il senso. Pensa che in alcune culture asiatiche, diciamo, considerano la malattia, alcune malattie, degli angeli. Vengono paragonate agli angeli.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Sofferenza e cattiveria",
+    "tema": [
+      "sofferenza",
+      "crescita"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {

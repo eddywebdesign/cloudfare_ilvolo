@@ -150,9 +150,12 @@
     "end": 429.38,
     "speaker_raw": "SPEAKER_04",
     "testo": "Mio padre... No, sullo sfumino non è che ce l'ho io. Ha fatto anche il dito tuo padre, no? No, mio padre quando mi ha insegnato a fare il pane, prima a mano e poi con le macchine. E io gli ho detto, che insomma ci sono le macchine? E lui mi ha detto, la mattina che si rompe, tu devi sapere andare avanti. Saggezza. Eh, saggezza. Sai come impastavano il pane tipo cent'anni fa, vogliamo dire così? Con i piedi, come si faceva con l'uva. C'era un cassone grande, un grande coso, si augurano piedi puliti. Va bene, poi il fuoco, il fuoco sterito. Il fuoco brucia tutto. Comunque c'era un cassetto grande, diciamo così, con acqua e farina. Due che, come Celentano nel film, e sotto uno che girava con le mani e impastavano con i piedi.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "saggezza del padre",
+    "tema": [
+      "padre",
+      "mestiere"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -700,9 +703,11 @@
     "end": 1724.08,
     "speaker_raw": "SPEAKER_04",
     "testo": "La mia preferita è, c'è una ragazza ovviamente minigonna, sovrappeso, non si può dire cicciona in radio. No. Sovrappeso e a fianco c'è una fighissima, sempre minigonna, con scritto prima mai. Me l'ha mandato mio amico su Whatsapp, mi fa molto ridere. Ma noi abbiamo Fabrizio di Pavia. Buongiorno Fabrizio.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "prima e dopo su Instagram",
+    "tema": [
+      "diete"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

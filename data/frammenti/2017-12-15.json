@@ -845,9 +845,12 @@
     "end": 1281.82,
     "speaker_raw": "SPEAKER_06",
     "testo": "Non si capisce poi perché Gesù glielo chiede altre due volte e poi si arrabbia e lo rimprovera molto, non si capisce. In greco è terribile quel punto lì, proprio triste e terribile perché Gesù chiede Pietro ma tu mi ami molto e usa il verbo agapan che vuol dire una passione dolcissima eccetera. E Pietro gli dice «Non tanto, ti sono molto amico, ci tengo un po' a te». E Gesù gli dice «Allora, guarda, ti dico una cosa, tu sei il tipo che può comandare le persone serve, le pecorelle piccole». E Pietro ci resta un po' male e dice «E quello là, che sarebbe il discepolo prediletto, quello che ama tanto, E Gesù gli dice, no, quello lì va bene, però non devi occuparti di lui. Quello lì è uno che le cose le vede, le sa. Quello lì ci sarà sempre. Tu pensa a fare il tuo mestiere di capo e dirigere i tuoi greggi, perché a te piace quello. Una persona che ha poco amore può fare il capo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Gesù e Pietro",
+    "tema": [
+      "amore",
+      "fede"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -1038,9 +1041,11 @@
     "end": 1784.8,
     "speaker_raw": "SPEAKER_10",
     "testo": "There's a party in Via Massena on the Christmas day. It will be the perfect ending, I'll be your DJ. Balleremo fino all'aurora, poi il gelato, il cappuccino. Ma corretto con lo spumante per far cin cin, cin cin cin. Ci sarà Pasquale in abito la sera. Volo, Maurizio, Viola. Volo, Maurizio, Viola.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "party in Via Massena",
+    "tema": [
+      "festeggiamento"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -1060,10 +1065,13 @@
     "end": 1877.42,
     "speaker_raw": "SPEAKER_01",
     "testo": "Tutte voci molto belle per questa canzone di Natale di qualche anno fa, della canzone di Natale di Radio DJ. Questa appunto è Radio DJ. Oggi abbiamo scoperto tante cose. Abbiamo scoperto anche che il nostro professore Accinelli, che tutte le settimane ci illumina e porta l'attenzione sul mondo insetti e animali, ha la pagina Wikipedia. Prof!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Radio DJ",
+    "tema": [
+      "informazione"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Prof. Accinelli"
   },
   {
     "id": "2017-12-15-095",

@@ -296,10 +296,13 @@
     "end": 627.73,
     "speaker_raw": "SPEAKER_17",
     "testo": "Quindi ha detto Fabio, ma in realtà voleva dire grazie a voi. Quindi sappiate, ascoltatori del Volo del Mattino, che avete fatto una grandissima cosa. Ok? Vai. Siamo fortissimi. Ok, questa l'abbiamo fatta. Adesso c'è un'altra cosa da fare. Io sento solo una cosa. Questi sono i Negromaro. Grazie a Regione Lombardia e grazie a Maroni. Chi lo avrebbe mai detto?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Negromaro",
+    "tema": [
+      "letteratura"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Fabio Volo"
   },
   {
     "id": "2017-12-01-027",
@@ -876,9 +879,11 @@
     "end": 1574.34,
     "speaker_raw": "SPEAKER_17",
     "testo": "Volevo salutare un ragazzo che se non sbaglio si chiama da si scrive da Berlino che dice questa musica fa cagare riferito ai Pink Floyd ma secondo me era ironico è uno scherzo DJ avanti veloce adesso scriverà non è uno scherzo ma sta anche a Berlino questo è il nostro amico Sai che il 13 che vado a Londra è Santa Lucia? Santa Lucia porta i regali e vado a trovarlo sto ragazzo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "ragazzo di Berlino",
+    "tema": [
+      "ironia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

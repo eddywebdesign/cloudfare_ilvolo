@@ -95,14 +95,11 @@
     "end": 316.37,
     "speaker_raw": "SPEAKER_01",
     "testo": "Eh, non era sua. Era probabilmente di Torn. Di Thorne anche se... Lui, lui, il cantante, Thorne.",
-    "titolo": "Riferimento a \"Torn\"",
-    "tema": [
-      "canzone",
-      "musica"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2017-01-17-009",
@@ -441,15 +438,11 @@
     "end": 1612.22,
     "speaker_raw": "SPEAKER_08",
     "testo": "How many nights should I lie awake on fire? Someone take me higher How many lives do I have to share? How many nights should I lie awake on fire? Someone take me higher I wanna live, I wanna die, on a silver lining",
-    "titolo": "Silver Lining",
-    "tema": [
-      "musica",
-      "emozioni"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "autore": "Hunter Hayes",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2017-01-17-039",

@@ -82,9 +82,12 @@
     "end": 281.84,
     "speaker_raw": "SPEAKER_04",
     "testo": "I programmi di sport sono abbastanza noiosi se non sei un appassionato. Invece questo appassiona tutti, no? E poi volevo dire un'altra cosa. Sapete che c'è gente che quando va in libreria e prende i libri, legge l'ultima riga. Ma tu sai quanti ne ho incontrati adesso che mi... Ah, io ho già letto l'ultima riga. Dico, no, ma... I miei non sono dei gialli, per carità. Però, perché c'è questa ansia di aver paura di morire prima di finirlo?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Leggere ultima riga libri",
+    "tema": [
+      "letture",
+      "ansia"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -1089,10 +1092,13 @@
     "end": 1613.58,
     "speaker_raw": "SPEAKER_04",
     "testo": "Sto leggendo la mia intervista su Vanity Fair, pensa che megalomane. Chissà cosa ho detto.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "intervista su Vanity Fair",
+    "tema": [
+      "fama"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Vanity Fair"
   },
   {
     "id": "2017-11-15-099",
@@ -1155,9 +1161,11 @@
     "end": 1734.76,
     "speaker_raw": "SPEAKER_01",
     "testo": "Volo, Maurizio, Viola. I'm not Godson, Nas, Rock, Kim, Pac, Big, James, Todd, Smith, and I'm not Prince. I walk on water, but I ain't no Jesus.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "I'm not Godson, Nas, Rock",
+    "tema": [
+      "identità"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -1491,9 +1499,12 @@
     "end": 2133.3,
     "speaker_raw": "SPEAKER_05",
     "testo": "Ti dico guarda, vai da uno bravo perché... No, certo, è sempre la reazione. È ovvio che sto scherzando. È la reazione alle cose. Però è come noi reagiamo alle cose. Quindi il costellatore ti aiuta a cambiare azione, che non diventa più una reazione, ma diventa un'azione costruttiva.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "reazione vs azione costruttiva",
+    "tema": [
+      "azioni",
+      "reazioni"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -1660,9 +1671,12 @@
     "end": 2515.33,
     "speaker_raw": "SPEAKER_04",
     "testo": "Io per esempio quando vengono le ragazze, le donne a firmare il libro, mi chiedono il nome. A volte mi dicono, mi aggiungi quello di mio figlio e di mia figlia. E poi gli dico, sei separato? No, proprio il marito non esiste in quel momento lì. Magari non compra i tuoi libri. No, però fai la firma con tutta la famiglia. Lui è proprio Giuseppe, possiamo dire che è proprio Giuseppe. Giuseppe a un certo punto non si capisce che fine ha fatto nel Vangelo. L'ha segarassi e fa sedie, l'altro piccolino va in giro e fa i miracoli, lei fa i miracoli, lui è l'unico che non fa miracoli. Stai nell'ombra. Immaginati la vita di Giuseppe, io ci penso, hai un figlio che fa miracoli. Una moglie vergine che ti dice guarda non sei stato tu ma fidati che fa miracoli, te ti entra una scheggia nel dito perché stai facendo un asce e non sei neanche capace a tirarla fuori dicendo esci scheggia e tu dici ma che video di merda, il paragone è troppo grosso, esci scheggia e passa uno prova con la cosa delle ciglia. Ma ragazzi ce l'abbiamo in legno la cosa delle ciglia, grosso. Vabbè, allora.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Firma con tutta la famiglia",
+    "tema": [
+      "famiglia",
+      "libri"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

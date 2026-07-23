@@ -564,9 +564,12 @@
     "end": 798.12,
     "speaker_raw": "SPEAKER_10",
     "testo": "Era davvero? Niente, così era. Ma tu lo sai che io avevo proposto un programma televisivo, no? Che però non avevo tempo da fare. Si chiamava La Prima Volta. La Prima Volta. E tra le varie cose della Prima Volta volevo prendere una signora anziana siciliana che non aveva mai visto la neve, farmela raccontare da una che non l'ha mai vista, quindi l'ha vista nei figli, l'ha raccontata come se la immagina così e poi alla fine la portavo dove c'è la neve. Scusate perché io... Scusate perché Viola ai tempi lavorava già con me a quel programma televisivo. Allora io arrivo sempre, posso dire una cosa, arrivo con la mia poetica. La mia poetica era, immaginavo questa nonnina tipo la mia che non ha mai visto la neve, la porti sulla neve, gliela fai toccare, però prima gliela fai descrivere e poi la inquadri mentre vede per la prima volta. Poi volevo portare la zia Leti in aereo, non aveva mai preso l'aereo. Ottimo format. Esatto, è l'emozione della prima volta. Certo. Ovviamente non è così facile da fare, soprattutto la Rai. Allora, arriviamo e racconto questa storia. Tutti, ah, bella, è commovente, così. E uno, eh, ma se la vecchia si fa male... Ha ragione. Eh, se ti cade la neve, bisogna assicurarla, perché dopo cade la neve e poi si diventa un infarto. E dico, oh, mia... E magari una che è un po' anziana, non ha mai lasciato la Sicilia, la metti su una... E dico, vabbè, ma guarda che c'è anche la neve, tra l'altro. Allora uno dice, possiamo... Allora, no, aspetta, io dico, portiamo noi la neve da lei, lei la racconta nella sua casetta e noi fuori col cannone spariamo la neve in cortile e la dobbiamo solo far uscire. Ancora più bello. Non c'è un cannone spara neve lì, c'è solo sul letto, ma costa un sacco, non abbiamo i soldi. Vi dico, la faccio breve per dirvi con che gente lavoro. La storia finiva con... La vecchia usciva da casa e noi la riempivamo di palle di neve. Ghiacciate. Così fa ridere la gente a bisogno di ridere. Giusto, giusto. Va bene. Stupendo, stupendo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "prima volta neve",
+    "tema": [
+      "neve",
+      "ricordi"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -655,9 +658,11 @@
     "end": 945.95,
     "speaker_raw": "SPEAKER_10",
     "testo": "No, no, c'è la sua cappellina, quella lì, sì, la sua cosa. Allora tutti che passano i bodyguard prima, via, via, via, via, noi stiamo dentro, io e lui nel mio camerino, io e Matteo mettiamo fuori la testina e quindi quando passa io dico The Edge... Neanche un contatto con gli occhi gli dico. No, I contact, don't worry. Lui si mette a ridere perché è simpatico e dà una pacca sulla spalla a Matteo. Che da quel momento si trasforma in un principe.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "The Edge nel camerino",
+    "tema": [
+      "incontro"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1103,10 +1108,13 @@
     "end": 1962.61,
     "speaker_raw": "SPEAKER_02",
     "testo": "C'è una richiesta di Tonino Guerra per Natale e per il nuovo anno che arriva.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "richiesta di Tonino Guerra",
+    "tema": [
+      "neve"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Tonino Guerra"
   },
   {
     "id": "2017-12-11-099",
@@ -1114,9 +1122,11 @@
     "end": 1983.05,
     "speaker_raw": "SPEAKER_07",
     "testo": "Chiedo se si possono colorare i treni locali, ridurle delle cose festose, gioiose. Rossi, aranci, verdi, caramella. Cambia, sembra una cosa da ridere. Un colore ti cambia la voglia di vivere.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "colore sui treni",
+    "tema": [
+      "voglia di vivere"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -1180,9 +1190,11 @@
     "end": 2305.48,
     "speaker_raw": "SPEAKER_10",
     "testo": "Sto invecchiando. Sai da cosa lo capisco anche? Quando faccio le presentazioni del libro faccio la pipì preventiva. Non mi scappa veramente di fare la pipì. Però so che se è un'ora di presentazione più un'ora e mezza, due di firme, tre ore non la reggo. Allora dico vado e vado in bagno. Magari non mi scappa il spingo di Reni. Dai!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "pipì preventiva",
+    "tema": [
+      "vecchiaia"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -1268,9 +1280,11 @@
     "end": 2344.75,
     "speaker_raw": "SPEAKER_10",
     "testo": "E fa parte della vecchiaia che ogni tanto c'hai degli attacchi di fame. No, quelli io ce li ho. No, ma quella proprio, quella che... Ha capito? Che appoggiano il cestino del pane prima che arriva il menù. Dammi il pane! E mi sfondo di pane.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "attacchi di fame pane",
+    "tema": [
+      "cibo"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1400,10 +1414,13 @@
     "end": 2482.71,
     "speaker_raw": "SPEAKER_06",
     "testo": "Under my thumb is a squirmy dog who's just had her day. Under my thumb a girl who has just changed her ways.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Under My Thumb",
+    "tema": [
+      "potere"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "The Rolling Stones"
   },
   {
     "id": "2017-12-11-126",
@@ -1422,10 +1439,13 @@
     "end": 2605.48,
     "speaker_raw": "SPEAKER_06",
     "testo": "Volo, Maurizio, Viola. Her eyes are just kept to herself Under my thumb Well, I, I can still look at someone else Just down to me Oh, that's what I feel The way she talks when she's spoken to Down to me, the change has come She's under my thumb Say something",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Down to Me",
+    "tema": [
+      "cambiamento"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "The Rolling Stones"
   },
   {
     "id": "2017-12-11-128",

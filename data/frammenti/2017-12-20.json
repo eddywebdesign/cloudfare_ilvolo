@@ -495,9 +495,12 @@
     "end": 1302.24,
     "speaker_raw": "SPEAKER_15",
     "testo": "Ragazzi, io dico sempre, lo sostengo e ve lo dico per esperienza, fidatevi perché sto studiando, l'ho chiesto anche a Bolle, l'ho detto l'altro giorno, lo chiedo a tutti quelli che hanno un vero talento, Uto Ugi, così. La passione non basta, serve l'ossessione, cioè la passione deve diventare ossessione. Quella roba lì, solo quella roba lì, no? Come Viola per pollo fritto.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "ossessione per talento",
+    "tema": [
+      "passione",
+      "lavoro"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -759,9 +762,11 @@
     "end": 1797.88,
     "speaker_raw": "SPEAKER_15",
     "testo": "Anche rumorista, Daniel. Estate 2001, Berkeley, California. Mi chiamano per il colloquio in una giovane azienda a Montview che doveva tradurre il suo software in tutte le lingue del mondo. Io penso, ma io ho il moroso a Milano, neanche ragazzi, il moroso a Milano. E rifiuto. L'azienda si chiamava Google. Boom. Quindi poi tu l'hai seguita questa crescita di Google ogni sei mesi e dici speriamo fallisca, speriamo fallisca.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Google e il moroso",
+    "tema": [
+      "lavoro"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1166,10 +1171,13 @@
     "end": 2408.4,
     "speaker_raw": "SPEAKER_15",
     "testo": "Allora abbiamo detto chi ha uno smartphone con Shazam l'ha già trovata, chi invece poraccio che non ce la fa, che niente. Chissà se la gente capisce la mia ironia, non tanto. Ma sì. No. Sì, no? No. Secondo me sì, te le perdonano tutte. No, Frida Sundemo si chiama comunque. Com'è Frida? Sundemo, questo è un demo, lei ha cantato Sundemo. Frida Sundemo. No, Sundemo. Sundemo? Si chiama Sundemo. Sundemo? No, guarda che c'ha anche la battuta. Allora ragazzi, fermi tutti, potremmo fare anche il tema normale, noi siamo un famiglione qua, tra l'altro stamattina siamo in mille in questo studio, fate entrare anche il ragazzo delle cialde del caffè, anche se non parla perché si capisce dalla faccia che non ha niente da dire, lo fate entrare. Come ti chiami? Grazie che ci hai portato le cialde. È vero che non hai niente da dire, giusto? È vero, guarda, lo capisci subito. Ha un bel fisico, ha un bel fisico, è un toy boy. Quante donne hai? Quante donne hai? C'avrai un sacco di donne, tu. Stai investendo male il tuo pettorale. Ti posso fare da manager? Cioè, tu focalizzati su una cosa. Hai una moglie? Niente! Gradisci? Hai degli uomini? Non hai detto no subito? Allora, fermi tutti. Potremmo anche cambiare il tema. No, per domani, un'altra volta. Domani è l'ultima puntata, poi torniamo così. Un'ascoltatrice mi è piaciuta molto, mi è piaciuta molto questo messaggio che dice Fabio è passato un treno, sopra ce l'ha scritto famiglia, marito, figli mutuo, io l'ho preso, posso scendere? Quindi il tema per quando torneremo a gennaio è Ah vabbè i treni persi, ma quelli presi che non si fermano più, che ci vuole un po' per saltar giù, no? Forse più drammatico del rimpianto. Del rimpianto, aver preso il treno sbagliato, che tra l'altro nella vita quando succede veramente fa molto ridere. Quando una volta io andavo a Venezia, sono andato a Milano, che lo prendo dalla parte sbagliata. La cosa più brutta è in autostrada, che sbagli e devi andare sempre nella parte sbagliata finché non trovi l'uscita e dici questa è tutta strada in più. Ma questo non è il tema di oggi, lo faremo a gennaio. Ci spostiamo alla Spezia come l'altro giorno. Ah, un altro spezzino. Oggi spezzini a manetta. Mirko. Buongiorno. Buongiorno. Te sembri veneto però della Spezia. Mi sono trasferito.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Frida Sundemo demo",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Frida Sundemo"
   },
   {
     "id": "2017-12-20-106",

@@ -1581,10 +1581,13 @@
     "end": 1909.77,
     "speaker_raw": "SPEAKER_07",
     "testo": "Ragazzi, se avete pensato fino ad oggi di aver avuto una brutta mattina. Poverino. Però posso dire che tutti Michele si chiamano. Che succede ora? È sempre lui. È sempre lui che da Catania si è spostato a Gallarate. Ciao Michele! Ciao, buongiorno a tutti! Quanti anni hai Michele? 43! Ah, quindi tu ce l'hai nel tuo immaginario, nella tua memoria, quel meraviglioso film Pappa e Ciccia con Paolo Villaggio e Lino Banfi, che va nel villaggio e lì c'è il buffet. E tutti ovviamente si scannano, si ammazzano per il buffet e lui a un certo punto dice sulla pianta c'è uno che non gli dava il prosciutto ed era uno stronzo di gallarate.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Pappa e Ciccia",
+    "tema": [
+      "memoria"
+    ],
+    "tipo": "riferimento_film",
+    "video_url": "",
+    "autore": "Paolo Villaggio"
   },
   {
     "id": "2017-12-07-144",

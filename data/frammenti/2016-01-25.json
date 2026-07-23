@@ -38,11 +38,11 @@
     "end": 147.51,
     "speaker_raw": "SPEAKER_02",
     "testo": "Con Deus mi dito, con Deus mi levanto, conmigo eu calo, conmigo eu canto, eu bato em um papo, eu bato em um ponto, eu tomo um drink e eu fico tonto.",
-    "titolo": "Con Deus mi dito",
+    "titolo": "",
     "tema": [],
-    "tipo": "riferimento_musica",
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-01-25-004",
@@ -149,11 +149,11 @@
     "end": 558.39,
     "speaker_raw": "SPEAKER_01",
     "testo": "No, no, nuove, sei nuove puntate Con gli stessi attori? Sì, su Fox No ragazzi, possiamo tornare un attimo?",
-    "titolo": "Nuove puntate su Fox",
+    "titolo": "",
     "tema": [],
-    "tipo": "riferimento_film",
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-01-25-013",
@@ -183,11 +183,11 @@
     "end": 603.33,
     "speaker_raw": "SPEAKER_08",
     "testo": "mi state prendendo in giro no no c'è anche il trailer ok aspettate un attimo sulle tematiche importanti un secondo c'è il trailer di X-Factor mi sembrava troppo bello in 2002 l'FBI ha chiuso gli X-Files e le nostre investigazioni hanno finito ma la mia ossessione personale non ha finito hanno un piccolo problema hanno riaperto gli X-Files",
-    "titolo": "X-Files riaperti",
+    "titolo": "",
     "tema": [],
-    "tipo": "riferimento_film",
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-01-25-016",
@@ -195,11 +195,11 @@
     "end": 618.39,
     "speaker_raw": "SPEAKER_03",
     "testo": "ma è fantastica vabbè sta cosa qua adesso Mancini sale Family Day la dico dopo dai mettiamo un disco dai va bene wow",
-    "titolo": "Mancini sale Family Day",
+    "titolo": "",
     "tema": [],
-    "tipo": "riferimento_film",
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-01-25-017",
@@ -230,11 +230,11 @@
     "end": 947.92,
     "speaker_raw": "SPEAKER_00",
     "testo": "Nella versione scapero. Eh, addio. Peggio dell'originale.",
-    "titolo": "Nella versione scapero",
+    "titolo": "",
     "tema": [],
-    "tipo": "riferimento_libro",
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-01-25-020",
@@ -298,11 +298,11 @@
     "end": 1099.07,
     "speaker_raw": "SPEAKER_03",
     "testo": "Sì, cioè nel senso gente proprio sepolta in casa, come si dice.",
-    "titolo": "sepolta in casa",
+    "titolo": "",
     "tema": [],
-    "tipo": "riferimento_libro",
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-01-25-025",
@@ -474,15 +474,11 @@
     "end": 1199.88,
     "speaker_raw": "SPEAKER_03",
     "testo": "Ecco, va bene. Senti Elena, ma c'è un sito, qualcosa...",
-    "titolo": "Rinchiudeteli",
-    "tema": [
-      "libro",
-      "sito"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "autore": "Elena",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-01-25-039",
@@ -490,11 +486,11 @@
     "end": 1210.4,
     "speaker_raw": "SPEAKER_00",
     "testo": "C'è un sito, c'è una pagina Facebook. Come si chiama? Si chiama Rinchiudeteli con la Y canale. Ok. Non poteva essere normale, giusto?",
-    "titolo": "Rinchiudeteli con la Y",
+    "titolo": "",
     "tema": [],
-    "tipo": "riferimento_libro",
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-01-25-040",
@@ -716,11 +712,11 @@
     "end": 2477.27,
     "speaker_raw": "SPEAKER_06",
     "testo": "Ora c'è Paolo Bucci Rosso Paolo Bucci Rosso?",
-    "titolo": "Paolo Bucci Rosso",
+    "titolo": "",
     "tema": [],
-    "tipo": "riferimento_musica",
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-01-25-058",
@@ -728,11 +724,11 @@
     "end": 2488.86,
     "speaker_raw": "SPEAKER_03",
     "testo": "Eh io quello c'ho il numero perché ho fatto un film con Paolo Bucci Rosso Ok questo è Pif ragazzi Vediamo se risponde Proprio abbiamo rotto il ritmo della puntata",
-    "titolo": "Film con Paolo Bucci Rosso",
+    "titolo": "",
     "tema": [],
-    "tipo": "riferimento_film",
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-01-25-059",

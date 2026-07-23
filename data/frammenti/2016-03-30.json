@@ -56,14 +56,11 @@
     "end": 298.11,
     "speaker_raw": "SPEAKER_01",
     "testo": "Vogliamo ridisannunciarlo, che non l'ho sentito bene. No, se l'hai cancellato è un casino allora. Comunque, Lucas Graham, con l'H, Graham.",
-    "titolo": "Lucas Graham menzionato",
-    "tema": [
-      "musica",
-      "artista"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-03-30-005",
@@ -126,14 +123,11 @@
     "end": 315.22,
     "speaker_raw": "SPEAKER_01",
     "testo": "Beh, Graham, vedi che si dice così? Cioè, la BBC stamattina, Radio, avrebbero detto Lucas Graham, seven years.",
-    "titolo": "Lucas Graham citato in BBC",
-    "tema": [
-      "musica",
-      "artista"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-03-30-011",
@@ -414,14 +408,11 @@
     "end": 726.21,
     "speaker_raw": "SPEAKER_07",
     "testo": "Sì, come no, va bene, presenterò. Anzi, se magari ti conosce che fanno, se mi fa un po' di schifo. Esatto. allora sono andata al cinema a vedere il tuo film è bellissimo grazie lo consiglio lo consiglio perché poi Silvio Orlando vabbè è un grande vabbè certo è certo mamma mia e poi complimenti a Maurizio ritorno su Maurizio grazie che a breve insomma prenderò parole note tre a breve brava brava a breve grazie dopo le prime dieci unghie va bene esatto sì perché prima non si può ma aspetta perché Maurizio sta dicendo una cosa importante vai Maurizio cosa devo",
-    "titolo": "Il tuo film",
-    "tema": [
-      "cinema",
-      "film"
-    ],
-    "tipo": "riferimento_film",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-03-30-035",
@@ -429,14 +420,11 @@
     "end": 794.93,
     "speaker_raw": "SPEAKER_01",
     "testo": "anni hai Chiara? 31 allora Chiara Maurizio una donna simpatica di 31 anni ascoltatrice del volo del mattino dice complimenti a Maurizio prossimamente prenderò il suo disco vai Maurizio grazie ma come ma te lo mando io ma non lo devi comprare Maurizio ma non te lo devi comprare te lo regalo io mamma mia con tutti i soldi che sta facendo c'ha le tasche a chiocciola sai le tasche come le scale a chiocciola per tirargli fuori un euro prima mi ha detto sono sveglio da tanto chiamiamo il bar ma mica perché vuoi condividere il colazione perché sai che quando arrivo al bar poi pago io ma guarda che è una roba dai di Chiara ti mando Chiara ti mando il cd anche se non lo farai dai vabbè vabbè scusaci Chiara scusaci ciao ciao buona giornata ciao ciao non ho le copie che tristezza non mi richiedo",
-    "titolo": "Disco di Maurizio",
-    "tema": [
-      "musica",
-      "disco"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-03-30-036",
@@ -513,13 +501,11 @@
     "end": 1237.73,
     "speaker_raw": "SPEAKER_01",
     "testo": "che secondo me lei è dell'est non lo so però è un po' da porno star mi fa un po' sesco lo dice tipo tu a destra lo dice sempre un po' che un po' mi imbarzottisco se me lo dice alle 3-4 del pomeriggio sono sensibile va bene il prossimo disco è molto bello non è mai stato suonato radio DJ ve l'abbiamo portato noi del volo pronti a sciazzamarlo se vi piace se no ve lo scrivete izibizu si chiama Itzibizu chissà come lo direbbe la signora di Google hai già rotto le scatole questa storia Itzibizu Itzibizu",
-    "titolo": "Itzib",
-    "tema": [
-      "musica"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-03-30-043",
@@ -620,13 +606,11 @@
     "end": 1902.01,
     "speaker_raw": "SPEAKER_01",
     "testo": "sì una volta avevo fatto questa cosa per il Parlamento Europeo bisognava fare delle foto per mettere sui pacchetti delle sigarette insomma va bene roba lunga quando facevo la tv allora fermi tutti questa sera su canale 5 comincia una fiction che si chiama fuoco amico tf45 eroi per amore dovete avere il televisione molto lungo perché tutta la frase ci possa stare allora Abbiamo cercato di capire cosa succede, no? Enea, figlio di... Sembra un po' una specie di Bibbia.",
-    "titolo": "fuoco amico tf45",
-    "tema": [
-      "cinema"
-    ],
-    "tipo": "riferimento_film",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-03-30-051",
@@ -669,13 +653,11 @@
     "end": 1957.61,
     "speaker_raw": "SPEAKER_01",
     "testo": "solo io riesco a racchiudere il pensiero la pancia del paese senti una cosa Raul questa sera inizia tu sei un capitano militare c'è scritto capace e carismatico che è bello da scrivere capace e carismatico dovresti metterlo sul biglietto da visita sul biglietto da visita ciao sono Raul Bova capace e carismatico è bellissimo comunque sono delle incursioni di staccamento incursione nono reggimento d'assalto paracadutisti giusto?",
-    "titolo": "Capitano militare",
-    "tema": [
-      "militare"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-03-30-055",
@@ -758,14 +740,11 @@
     "end": 2347.97,
     "speaker_raw": "SPEAKER_05",
     "testo": "Grazie. space with minimal waste maximum joy city lights business nights when you require street car desire for higher highs no press for beginners or sensitivites No need to ask, he's a swoon operator Swoon operator Swoon operator Swoon operator Costume Grazie. era il 1984 ragazzi",
-    "titolo": "Swoon Operator",
-    "tema": [
-      "musica",
-      "anni80"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-03-30-062",
@@ -913,14 +892,11 @@
     "end": 2597.22,
     "speaker_raw": "SPEAKER_09",
     "testo": "praticamente sì sono ancora innamorato di lei ma ci credo mi ha aiutato a smettere di fumare mi ha regalato un libro mi ha mandato un libro per smettermi di fumare mi ha mandato non sto scherzando come how to stop smoking in 5 days 5 or 10 days",
-    "titolo": "Libro per smettere di fumare",
-    "tema": [
-      "fumare",
-      "salute"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-03-30-074",
@@ -942,14 +918,11 @@
     "end": 2632.61,
     "speaker_raw": "SPEAKER_09",
     "testo": "Allora, here on live on Radio DJ, this is Mr. Ninefly on a flight from Spain to Milano. I'd like to say have a wonderful day. Passate una bellissima giornata con la voce e la sensualità di Sade, with my friend Fabio Volo.",
-    "titolo": "Sade nella trasmissione",
-    "tema": [
-      "musica",
-      "sade"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-03-30-076",
@@ -984,14 +957,11 @@
     "end": 2834.87,
     "speaker_raw": "SPEAKER_01",
     "testo": "Vi abbiamo presentato questo Mr. Johnson, Jain, che ci piace. Va bene Jain? Senza andare a smuovere quella di Google. Di dove è? Jain, Jain sarà Jain. Di dove sarà? Non lo so, di Bergamo, non lo so, di Salerno, Jain. Cosa dice Google? Vediamogli. però lei è Jain comunque va bene ho fatto saltare la scaletta con questa chiamata di Nick the Nightfly valeva la pena Shade mi ha fatto smettere di fumare a me Silvano Agosto Maurizio tu non hai mai cominciato Viola non si può toccare l'argomento stellin tu hai mai fumato?",
-    "titolo": "Riferimento all'artista Jain",
-    "tema": [
-      "musica",
-      "jain"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-03-30-079",
@@ -1038,14 +1008,11 @@
     "end": 3115.42,
     "speaker_raw": "SPEAKER_01",
     "testo": "Dobbiamo interrompere questa canzone perché abbiamo un dossier, subito, un dossier, le inchieste, dopo le inchieste delle Iene, le inchieste della Gabanelli, le inchieste di Striscia Notizia, le inchieste del Buon Mattino, due cose. Uno, sono la voce di Google, ma per contratto non posso dire di essere la voce di Google. Sì, anche io. È come Fight Club, non si può parlare di Fight Club. Cosa vuol dire sono la voce di Google, non posso per contratto dire? Perché è vietato dire sì, ho fatto la voce.",
-    "titolo": "Citazione di Fight Club",
-    "tema": [
-      "film",
-      "cultura"
-    ],
-    "tipo": "riferimento_film",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-03-30-083",
@@ -1081,14 +1048,11 @@
     "end": 3184.97,
     "speaker_raw": "SPEAKER_13",
     "testo": "vai tu ecco ma a proposito di voci belle ecco no ok no e appunto Carlo Conti mi sembra conduceva quel programma si scusò perché andò diciamo un millantatore dello spot che non era lui cioè andò un finto un fake un urra fake",
-    "titolo": "Finto urrà",
-    "tema": [
-      "film",
-      "identità"
-    ],
-    "tipo": "riferimento_film",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-03-30-086",

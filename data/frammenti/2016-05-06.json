@@ -20,14 +20,11 @@
     "end": 245.96,
     "speaker_raw": "SPEAKER_15",
     "testo": "Buongiorno a tutti ragazzi, oggi è venerdì, che giorno esattamente come numero? 6, perché ieri era il 5, famoso 5 maggio, Sibaldi ha detto che è una poesia orrenda, però è stato abbellito come giorno perché è uscito il libro di Eros Ramazzotti, Grazie di Cuore, si chiama? Buongiorno a tutti ragazzi. Buongiorno Eros Ramazzotti che ha deciso, basta cantarlo, faccio da troppi anni, scrivo un libro, chiudo quell'epoca e inizio a fare il volo del mattino con Fabio Volo, La Viola e Maurizio.",
-    "titolo": "Riferimento al libro Grazie di Cuore",
-    "tema": [
-      "libro",
-      "musica"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-05-06-002",
@@ -116,14 +113,11 @@
     "end": 478.81,
     "speaker_raw": "SPEAKER_04",
     "testo": "In verità sarebbero di più ma dalla vittoria di Sanremo nei bigli sono passati esattamente 30 anni.",
-    "titolo": "Vittoria di Sanremo",
-    "tema": [
-      "musica",
-      "Sanremo"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-05-06-010",
@@ -131,14 +125,11 @@
     "end": 511.82,
     "speaker_raw": "SPEAKER_15",
     "testo": "Prima di quel Sanremo lì c'è stato un momento dove tu hai capito che quella era la strada che dovevi battere? già anni prima era successo quando mi sono trasferito a Milano questo era la cosa che volevo fare dovevi andare avanti lì adesso è uscito questo libro appunto abbiamo detto grazie di cuore edito da Rizzoli abbiamo degli ascoltatori sicuramente no ormai è tutta una grande famiglia abbiamo inglobato tutto ok mettiamo dei dischi hai delle preferenze ti piacciono i ridocili peppe?",
-    "titolo": "Citazione del libro Grazie di Cuore",
-    "tema": [
-      "libro",
-      "musica"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-05-06-011",
@@ -562,14 +553,11 @@
     "end": 1397.39,
     "speaker_raw": "SPEAKER_14",
     "testo": "ma dove vai Eros? volo Eros senti ma c'è lì Vasco c'è lì qualcuno con te aspetta aspetta un attimo aspetta un attimo no siamo in diretta c'è volo c'è volos volos di Eros aspetta e ragazzi come stai? tutto bene? ti risplendi? sono sicuro che parlerete di un libro molto bello lo vorrei fare anch'io ma non so che faccio tutti i giorni",
-    "titolo": "Libro bello da leggere",
-    "tema": [
-      "libri",
-      "lettura"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-05-06-046",
@@ -697,14 +685,11 @@
     "end": 2053.0,
     "speaker_raw": "SPEAKER_15",
     "testo": "Oh là là! io amante dei Genesis loro facevano canzoni lunghe di 35 minuti un giorno hai detto perché è un rischio capisci che è bella ma deve essere un fan che l'ascolta perché appunto in radio è difficile che uno metta una canzone a 12 minuti come Shine or Crazy Diamond di Pink Floyd una delle più belle ma non si sente quasi mai in radio e io me la cantavo a casa ci sono degli ascoltatori che la sanno tutta adesso io gli ho detto di metterla perché io ne voglio cantare un pezzo siccome io ero cintura nera di karaoke tu mi devi dire se ti rappresentavo bene a Brescia vado? abbiamo tolto l'intro da 8 minuti anche in macchina musica guardare più lontano e perdersi in se stessi l'accento la luce che rinasce coglierne i riflessi su",
-    "titolo": "Genesis e canzoni lunghe",
-    "tema": [
-      "musica",
-      "Genesis"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-05-06-056",
@@ -861,13 +846,11 @@
     "end": 2165.84,
     "speaker_raw": "SPEAKER_15",
     "testo": "A lui gli piace Alba Chiara, dice che è la tua più bella. No, no, Alba Chiara no. Come hai fatto? Alba Chiara. A me mi piace tanto Vita Spericolata. Magari. Senti, Daniele. attacca tu e poi Eros ti fa un pezzettino con quale canzone? falla tu ti dico una cosa ma non è erotica tu attacca poi Eros ti viene dietro va bene vado eh",
-    "titolo": "canzone Alba Chiara e Vita Spericolata",
-    "tema": [
-      "musica"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-05-06-070",
@@ -1081,14 +1064,11 @@
     "end": 2426.09,
     "speaker_raw": "SPEAKER_15",
     "testo": "E gli metti i dischi di Eros per, diciamo, tirar su un po' l'ambiente. Ascoltami. Non ho capito. No, dico, metti la musica per tirar su un po' l'ambiente. Sì, è certo. Secondo me non ha capito. Hai già comprato il libro di Eros? Sì, l'ho comprato ieri, l'ho prenotato. Ah, l'ha prenotato.",
-    "titolo": "Il libro di Eros Ramazzotti",
-    "tema": [
-      "libro",
-      "Eros Ramazzotti"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-05-06-089",
@@ -1134,14 +1114,11 @@
     "end": 2580.85,
     "speaker_raw": "SPEAKER_08",
     "testo": "blackburn i'm so alone without you god today and now i'm here hanging out in the streets thinking about reactions over actions walking on the sky of my dreams gomma gomma baby gomma we show you the world Grazie a tutti. Ciao! no no no",
-    "titolo": "Blackburn - I'm So Alone Without You",
-    "tema": [
-      "musica",
-      "canzone"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-05-06-093",
@@ -1149,14 +1126,11 @@
     "end": 2648.78,
     "speaker_raw": "SPEAKER_15",
     "testo": "dobbiamo anche ricordare a parte appunto il libro di grazie di cuore grazie anche di essere venuto qui così diciamo in amicizia così ci sono tante date adesso tu riparti te ne vai in Brasile poi te ne vai madonna mia in Brasile te ne fai 4 o 5 4 date Quattro dati in Brasile, poi te ne vai in Argentina, poi Santiago del Cile, Lima, Connecticut te ne vai anche. New York, il 5 ottobre sei a New York. Il 5 ottobre no, mannaggia. Hollywood, Los Angeles. Il 9 però sì, sono vicino a Hollywood. Messico, ammazza, e quando torni?",
-    "titolo": "Il libro di grazie di cuore",
-    "tema": [
-      "libro",
-      "grazie di cuore"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-05-06-094",

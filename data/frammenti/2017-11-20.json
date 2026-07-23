@@ -285,9 +285,11 @@
     "end": 441.86,
     "speaker_raw": "SPEAKER_01",
     "testo": "Così, adesso pian pianino poi mi faccio tutta Padova, mi faccio tutta la A4, mi faccio tutta la A1, con calma. Cioè, tanto io mi sposto da una città all'altra. Infatti. Mi fermo, tra l'altro con la prostata mi devo quasi sempre fermare, caffettino. Ma voi vi ricordate quando si andava in vacanza con gli amici, i primi viaggi in macchina? Sì. O la cassettina facevi, non so, tipo lenti, misto vasto. Certo. O lenti Scorpio. Scusi, e poi ti fermavi e riempivi la macchina di biscotti, biscottini che si sporcava tutta. Sì. Che meraviglia. Si fanno ancora queste cose?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "viaggi in macchina",
+    "tema": [
+      "ricordi"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -387,9 +389,11 @@
     "end": 755.56,
     "speaker_raw": "SPEAKER_01",
     "testo": "La Rebecchina stava lì in braccio alla mamma con Maurizio dietro che lo vedevo che si innervosiva e mio figlio gli dava i baci sulla bocca. All'inizio lei ha fatto un po' come che sta succedendo e poi ha iniziato a ridere. Poi quando bacia mio figlio, non è come se basti, lui proprio pacca come dicono a Roma, cioè proprio ti prende e mi dà le testate. Gli ha dato un 7-8 baci. Rebecchina rideva e non voleva più andare via. E Maurizio mi ha detto io te domani dobbiamo parlare, quando vieni in rado ti devo aspettare tuo figlio, devi stare lontano. Almeno 5 kg. Pensa che oggi porto mio figlio di due anni a fare il primo tatuaggio. Il cuore che ho scritto Rebbe. La Rebecchina. Allora ragazzi, per gli amanti del Volo del mattino, oggi è il compleanno della zia Leti. Chiamiamola al centro anziani. Che non è più a casa. Pronto.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "baci di mio figlio",
+    "tema": [
+      "famiglia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -772,9 +776,12 @@
     "end": 1222.7,
     "speaker_raw": "SPEAKER_08",
     "testo": "Perché inizi a vedere tua figlia come una donna. Come una donna. E che viene trattata dagli uomini come tu hai trattato le altre donne.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "trattamento delle donne",
+    "tema": [
+      "genitori",
+      "figlie"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -897,9 +904,11 @@
     "end": 1416.9,
     "speaker_raw": "SPEAKER_15",
     "testo": "Volo, Maurizio, Viola. Volo, Maurizio, Viola. Once was a way to get back home. Once was a way to get back home. Sleep pretty darling, do not cry. And I will sing Volo, Maurizio, Viola",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "canto Volo Maurizio Viola",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {

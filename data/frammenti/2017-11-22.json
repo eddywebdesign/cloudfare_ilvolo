@@ -280,10 +280,13 @@
     "end": 652.5,
     "speaker_raw": "SPEAKER_13",
     "testo": "Mi diranno che cazzo è in diretta, ma chi sei? Allora io farei così, mettiamo un disco, nel frattempo gli ascoltatori cercano di capire se hanno Radio Capital memorizzata sulla loro autoradio o qualcosa del genere e poi rientro nel disco e io vado di là. Mi dovete chiamare sul telefono. Allora vogliamo fare una cantatina che ci sveglia un attimo, dieci secondi e poi il disco nuovo dei Green Day? Cos'è? Stasera sono a Genova, ragazzi. Sono in tour come i Rolling Stones.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "disco dei Green Day",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Green Day"
   },
   {
     "id": "2017-11-22-026",
@@ -302,9 +305,12 @@
     "end": 667.25,
     "speaker_raw": "SPEAKER_13",
     "testo": "Mi sono fermato davvero negli autogrill a firmare. L'abbiamo vista. Che meraviglia. Nella pancia del paese vado. Con la rustichella. Mixato con i Green Day sta da Dio.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "firmare in autogrill",
+    "tema": [
+      "firma",
+      "Green Day"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

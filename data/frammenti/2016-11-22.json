@@ -65,11 +65,11 @@
     "end": 195.33,
     "speaker_raw": "SPEAKER_07",
     "testo": "Tra l'altro chi parte sa... La strada è qualcosa. No! Ricomincio da tre. Ricomincio da tre. Sa da che cosa fugge, ma sa che cosa cerca.",
-    "titolo": "La strada è qualcosa",
+    "titolo": "",
     "tema": [],
-    "tipo": "riferimento_libro",
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-11-22-006",
@@ -124,11 +124,11 @@
     "end": 302.83,
     "speaker_raw": "SPEAKER_09",
     "testo": "Il titolo fa su Diego Della Pina.",
-    "titolo": "Il titolo fa su Diego Della Pina",
+    "titolo": "",
     "tema": [],
-    "tipo": "riferimento_libro",
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-11-22-011",
@@ -286,11 +286,11 @@
     "end": 1536.5,
     "speaker_raw": "SPEAKER_10",
     "testo": "Sì, ma il libro è il bacio che una madre dà a un figlio ormai adolescente, sai che a un certo punto tu non gli vuoi più i baci dei genitori. Sì, già a 10-11 anni. Quindi lei si avvicina invece nel sonno e gli dà un bacio in fronte ed è un racconto di una famiglia in crisi che passa un momento difficile dopo aver avuto anni invece molto solidi di grande affetto. E sappiamo che la famiglia è un po' una camera delle torture anche, però invece in questo libro ci sono tante attenzioni nascoste di cui non sapremo mai, non so, lo sguardo che ho dato a mia madre mentre era di spalla alla finestra, lei non saprà mai che io...",
-    "titolo": "Il bacio che una madre dà a un figlio",
+    "titolo": "",
     "tema": [],
-    "tipo": "riferimento_libro",
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-11-22-024",
@@ -309,11 +309,11 @@
     "end": 1632.5,
     "speaker_raw": "SPEAKER_10",
     "testo": "Perché lui sostanzialmente torna a casa una sera e senza motivo viene avvicinato a due persone che lo ammazzano di botte e lo condurrono in fin di vita. Lui da lì deriva una smemoratezza, diventa smemorato. ok non si ricorda delle cose della sua vita esatto ha tutti un po' i fatti davanti sparsi come c'è scritto nel libro come il carico di un camion appena rovesciato c'è tutto davanti sparpagliato senza un filo che li lega diciamo e quindi questa cosa fa sì oltre alla perde anche la madre rapidamente perché il libro in realtà è molto ironico ma qualche dramma come sai non saresti tu essendo la storia di una famiglia è inevitabile che ci sia dentro di tutto Quindi si trova ad avere in pezzi il suo passato, la sua vita, ma anche la sua famiglia deve essere ricostruita e toccherà a lui crescere e rimettere un po' assieme quello che rimane della sua famiglia, oltre al suo passato insomma.",
-    "titolo": "Trama del libro di Pacifico",
+    "titolo": "",
     "tema": [],
-    "tipo": "riferimento_libro",
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-11-22-026",
@@ -343,11 +343,11 @@
     "end": 1703.38,
     "speaker_raw": "SPEAKER_02",
     "testo": "Le tue braccia lunghe, spalancate all'aria. Solo nel vento sei sempre felice e butta via i ricordi, getta ogni cornice, lascia spazio alle cose a venire, fuori c'è una notte intera. E sciogli i nodi, le resistenze, le mie mani chiuse. Tu, che sei parte di me. E porti i sogni e mi fai sorprese. Tu, che sei parte di me. Soli.",
-    "titolo": "Testo del brano Soli di Pacifico",
+    "titolo": "",
     "tema": [],
-    "tipo": "riferimento_musica",
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-11-22-029",
@@ -377,11 +377,11 @@
     "end": 1823.11,
     "speaker_raw": "SPEAKER_09",
     "testo": "In questa canzone di Pacifico dove si sente anche Gianna Nannini, con cui hai lavorato tanto, ricordo, non so se ti fa piacere dirlo, però è una grandissima hit di Gianna Nannini tra le varie, insomma, è stata scritta da te, no? Sì. No, è una cosa che non vuoi dire. No, no. e sei nell'ani questo ragazzo qui l'ha scritta quella canzone lo vedete qua avendo lavorato tu con Gianna Nannini avete molte cose in comune anche lei è uscita adesso con un libro nuovo il tuo appunto si vede che vi siete contaminati perché il tuo si intitola ti ho dato un bacio mentre dormivi il suo cazzi miei il nuovo libro di Gianna Nannini ma siamo complementari ti ho dato un bacio ma tu dormivi cazzi miei il nuovo libro di Gianna Nannini senti questa persona diciamo con questo espediente diciamo che viene picchiato perde un po' la memoria che è sempre un po' un tema importante diciamo la memoria nel senso in molte storie è un tema centrale perché insomma la memoria è quello che fa anche la vita di una persona una persona Quindi cosa succede che questo uomo senza memoria come la ricostruisce?",
-    "titolo": "Collaborazione tra Pacifico e Gianna Nannini",
+    "titolo": "",
     "tema": [],
-    "tipo": "riferimento_musica",
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-11-22-032",
@@ -571,16 +571,11 @@
     "end": 2379.11,
     "speaker_raw": "SPEAKER_01",
     "testo": "ma sta andando benissimo proprio bene bene bene ogni sera viene sempre più gente vogliamo dare un po' di date? poi andiamo a Genova al Politeama dal 28 al 4 e poi Firenze e poi Roma al Sistina per un sacco di tempo però tutte le date sono su Evita Opera Rock hai fatto il finale proprio come da",
-    "titolo": "Evita Opera Rock a teatro",
-    "tema": [
-      "teatro",
-      "spettacolo",
-      "musica"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "autore": "Evita",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-11-22-048",
@@ -588,11 +583,11 @@
     "end": 2441.07,
     "speaker_raw": "SPEAKER_09",
     "testo": "ti ho voluto chiamare perché a parte appunto che tu e Pacifico siete molto amici ma tu hai fatto una cosa strepitosa tu sei venuta al programma di Fazio io non avevo capito avessi fatto tra l'altro sei lì seduta seduta al tavolo ok a tre quattro persone da me racconti tutta la tua cosa e vita così poi quando fazio viene alla fine per ringraziarti d'estate gli hai detto no però devo dire una cosa e tiri fuori il libro di pacifico e dice è uscito il libro di pacifico è un gesto di amicizia no ma è di una bellezza questa cosa io ho ricevuto un messaggio mi sono portato il libro da grazie magari gliel'ha dato collegato no no ma senti guarda hai fatto questo gesto che è veramente meraviglioso è per esprimere un po' anche l'amore che hai verso Pacifico immagino amore professionale io credo nella causa nel senso che Pacifico è proprio bravo Gino perché Pacifico si dice solo nelle interviste",
-    "titolo": "Il libro di Fabio Volo",
+    "titolo": "",
     "tema": [],
-    "tipo": "riferimento_libro",
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-11-22-049",

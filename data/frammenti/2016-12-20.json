@@ -402,14 +402,11 @@
     "end": 867.94,
     "speaker_raw": "SPEAKER_25",
     "testo": "Fantozzi audio libro inedito completamente e acquistabile su Autunz. L'amoroso.",
-    "titolo": "Fantozzi audiolibro inedito",
-    "tema": [
-      "audiolibro",
-      "letteratura"
-    ],
-    "tipo": "riferimento_libro",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-12-20-037",
@@ -699,15 +696,11 @@
     "end": 1357.07,
     "speaker_raw": "SPEAKER_20",
     "testo": "qual è la tua preferita dei film di Fantozzi? ma è quella del Titanic ah quella lì sei già grande a me piaceva quello che fa sorpassare il cane che era tipo Ivan terribile era Ivan il terribile erano delle polpette fuori fredde dentro qual è quella del Titanic?",
-    "titolo": "I film di Fantozzi e Titanic",
-    "tema": [
-      "cinema",
-      "comicità"
-    ],
-    "tipo": "riferimento_film",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "autore": "Paolo Villaggio",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-12-20-063",
@@ -1153,13 +1146,10 @@
     "end": 2931.12,
     "speaker_raw": "SPEAKER_25",
     "testo": "Fantozzi e Filini al ballo mascherato il capo ufficio Conte Cavazzini prima di estendere a Fantozzi e Filini l'invito al gran ballo in maschera della Contessa Serbelloni mazzanti lì nel mare mi fece soffrire dolorosamente fino all'ultima ora poi improvvisamente alle due di notte invitò entrambi il conte era un uomo maligno profumatissimo brutto con mani spugnate alito tipo fogna ricalcutta nella stagione monsonica nella stagione monsonica ciao ragazzi a domani",
-    "titolo": "Citazione Fantozzi",
-    "tema": [
-      "cinema",
-      "fantozzi"
-    ],
-    "tipo": "riferimento_film",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   }
 ]

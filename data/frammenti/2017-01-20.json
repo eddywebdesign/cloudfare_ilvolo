@@ -656,14 +656,11 @@
     "end": 1876.48,
     "speaker_raw": "SPEAKER_01",
     "testo": "Questa sera la guardate, io ho appena finito di guardare la nuova serie di Sarah Jessica Parker che si chiama Divorce, che è la storia di lei e del marito che divorzano. Bene, bene. Va bene, stasera è la sera del Coca Room, chi passa al McDonald's? Oggi, oggi. Chi passa al McDonald's? in che chilo va a prendere?",
-    "titolo": "nuova serie Divorce",
-    "tema": [
-      "serie",
-      "relazioni"
-    ],
-    "tipo": "riferimento_film",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2017-01-20-059",

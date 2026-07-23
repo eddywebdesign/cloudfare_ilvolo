@@ -1040,10 +1040,13 @@
     "end": 1284.14,
     "speaker_raw": "SPEAKER_15",
     "testo": "Don't say goodbye, let accusations fly like in that movie. You know the one where Martin Sheen waves his arm to the girl on the street. I once told a friend that nothing really ends, no one can prove it. So I'm asking you now, could it possibly be? Volo, Maurizio, Viola.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "accusa e risposta",
+    "tema": [
+      "relazione"
+    ],
+    "tipo": "riferimento_film",
+    "video_url": "",
+    "autore": "Martin Sheen"
   },
   {
     "id": "2017-11-28-095",
@@ -1095,9 +1098,11 @@
     "end": 1398.52,
     "speaker_raw": "SPEAKER_08",
     "testo": "Allora, io l'altro giorno ero già in macchina e sono tornato indietro per la borraccia con l'acqua. L'acqua magica. Che Ioanna mi dice, madonna. Acqua di Volo. Che mi dice come sei sfigato. È acqua, eh.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "tornare per acqua",
+    "tema": [
+      "ossessione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1472,9 +1477,11 @@
     "end": 2300.11,
     "speaker_raw": "SPEAKER_08",
     "testo": "Se non sei su quella roba lì. La macchina. Esatto. Vi ricordo sempre uno degli scherzi più belli da fare che si faceva a noi da ragazzini. Non lo fate però. Cos'è? Comincia a piedere a calci la macchina, la sfonda. È un gioco bellissimo. Poi arriva il vero proprietario e ci trova la macchina ammaccata. Io non lo posso più fare perché mi riconoscono. L'hai già fatto? Beh, quando non mi riconoscevano con i miei amici si faceva. Quando sentivamo una doppia fila era proprio... Perché è una specie di perla nel deserto. Madonna mia, te la spostiamo. Ma che cazzo, è un quarto... Sai che c'è? Un trasposto. Maffanculo. E vai via. È una roba meravigliosa. Scusate, abbiamo trovato due che si sono fatti offrire il caffeggio in portineria. Antonio?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "scherzo ragazzini",
+    "tema": [
+      "giochi"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

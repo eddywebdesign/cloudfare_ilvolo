@@ -523,9 +523,12 @@
     "end": 1882.62,
     "speaker_raw": "SPEAKER_01",
     "testo": "Music is the answer, poi è lunga. Infatti sono entrato, la musica è la risposta. Allora, alla fine chi se ne importa della mia storia del sonnifero? Piuttosto se volete vi racconto quella volta del cinese che si strappava la barba. Una volta, qualche anno fa, purtroppo era venuto a mancare un parente ed ero a New York e sono dovuto tornare tipo giorno dopo. Era estate o inverno? Era estate. Ma come era estate? Ah, avevamo deciso che dovevo dire inverno, scusa. Era inverno. La faccio veloce, velocissima, perché volevo dirvi questa cosa. Niente, per cui dovevo tornare, non c'erano posti sui vari aerei, così avevo trovato questo volo strano, che però c'erano tutti i cinesi che tornavano in gruppo, quindi c'era questo gruppo di cinesoni, cioè gruppone di cinesi, tra l'altro una che mi ha guardato e mi ha detto... C'era questo gruppone di cinesi e io c'erano due o tre posti e quindi ero seduto nel sedile quello a tre, uno, due, tre, e io ero nel corridoio, no, no, io ero nel corridoio, no, lì nel mezzo non ce la posso fare, succede a volte, però quello ti obbliga a non muovere i gomiti mai, cioè appena uno a fianco si distrae per prendere una cosa dalla borsa, così tu pum.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "cinese strappa barba",
+    "tema": [
+      "viaggio",
+      "paura"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -567,9 +570,12 @@
     "end": 1963.51,
     "speaker_raw": "SPEAKER_01",
     "testo": "No, la barba. Cioè lui, per tutto il viaggio, poi io mi sono addormentato, credo guardavo, mi finiva da vomitare, staccava un peletto della barba, si vede che non voleva più rasarsi, farsi la barba, staccava e poi delicatamente, con la pinzetta, la lasciava sul tovagliolino.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "barba sul tovagliolino",
+    "tema": [
+      "viaggio",
+      "igiene"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1007,9 +1013,11 @@
     "end": 2434.14,
     "speaker_raw": "SPEAKER_01",
     "testo": "No, capito, ma tre tecette, quando poi atteri i primi due giorni, dove siamo? Però meglio. È tosta, quella volta lì che la mia amica americana mi diede quella pastiglia, tra l'altro blu, è la pastiglia blu che non è il Viagra, una volta però l'ho confuso, sono rimasto sveglio tutto il viaggio. È importunato la gente. No, quello lì, io quando ho preso quella lì, lei mi ha detto puoi vendere anche mezza, così ho detto vabbè la prendo. Era piccolina, poi io faccio sto ragionamento subito.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "pastiglia blu confusa con viagra",
+    "tema": [
+      "viaggio"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

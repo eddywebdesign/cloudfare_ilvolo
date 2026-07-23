@@ -549,10 +549,13 @@
     "end": 837.27,
     "speaker_raw": "SPEAKER_01",
     "testo": "Ok, ragazzi, ragazzi, la Stefi scrive sul computer Bobby Solo. Io, se volete, chiamo anche Bobby Solo. Va bene. Ragazzi, 15 cose da fare per avere successo. Di chi? Chi è? Vuoi avere successo? Punto di domanda. Complicati la vita! Punto esclamativo. Questo è un insegnamento di Dan Walschmitz. Walschmitz, americano consulente per aziende di fama internazionali e blogger del businessinsider.com Beh.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "15 cose da fare per successo",
+    "tema": [
+      "successo"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Dan Walschmitz"
   },
   {
     "id": "2017-11-21-050",
@@ -706,9 +709,11 @@
     "end": 1122.27,
     "speaker_raw": "SPEAKER_01",
     "testo": "Che lavoro fai? Sei uno scrittore? Sì. Scrivi libri? No, un blog. È la stessa roba. Ciao, sei un pilota? Guidi aerei? No, uno scooter. È la stessa roba. Non avere paura di sbagliare. Questo è importante. Ultimo, fai le cose più difficili. Quelle che nessun altro farebbe. Quelle che ti spaventano. Mettere Jim Croce, per esempio. Quanto mi piace Jim Croce. Infatti è successo. Comunque non mi hanno cambiato la vita queste quindici regole. Zero. No, no.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "non avere paura di sbagliare",
+    "tema": [
+      "sbaglio"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -1554,9 +1559,12 @@
     "end": 2639.73,
     "speaker_raw": "SPEAKER_01",
     "testo": "Come mi disse un giorno la mia amica infermiera Monica, un giorno andammo al letto di un anziano che era lì ricoverato e c'era una supposta sul comodino, in piedi, con un missile che puntava in alto e abbiamo detto, ma le avevamo detto di mettere la supposta, perché è ancora lì? E lui aveva, c'era una specie di santino, grande come la supposta. Oh dai! Sì, di quelli, sai di quel colore che quando spegni la luce li vedi? Che c'è quel verde, bianco, così. E lui praticamente si era messo il santino.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "supposta e santino",
+    "tema": [
+      "umorismo",
+      "medicina"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

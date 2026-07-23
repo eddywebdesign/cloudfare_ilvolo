@@ -803,10 +803,13 @@
     "end": 1091.14,
     "speaker_raw": "SPEAKER_16",
     "testo": "Il disco di Ennio Morricone abbiamo messo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "disco di Ennio Morricone",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Ennio Morricone"
   },
   {
     "id": "2017-12-06-073",
@@ -825,9 +828,12 @@
     "end": 1296.83,
     "speaker_raw": "SPEAKER_14",
     "testo": "La famiglia Carraro di Milano villeggiava da anni a forte dei mammi. Il vecchio Carraro era uno dei più ricchi industriali della Lombardia e sua moglie una delle donne più insopportabili d'Italia. Il loro figlio minore, Luca, invece, era il più scatenato mascalzone di tutta la Versilia. Oh Luca, un falbischero, ti sei detto mille volte che un si entra con la Vespa in spiaggia. Senz'altro. Per quest'anno, per cambiare, vengo al mare per giullare.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "famiglia Carraro",
+    "tema": [
+      "famiglia",
+      "spiaggia"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {

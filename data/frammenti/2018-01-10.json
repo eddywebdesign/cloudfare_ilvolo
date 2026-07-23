@@ -264,10 +264,13 @@
     "end": 396.1,
     "speaker_raw": "SPEAKER_04",
     "testo": "Perché è vecchia per te, come il ritratto di Dorian Gray.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "ritratto di Dorian Gray",
+    "tema": [
+      "vecchiaia"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Oscar Wilde"
   },
   {
     "id": "2018-01-10-024",
@@ -363,9 +366,11 @@
     "end": 646.36,
     "speaker_raw": "SPEAKER_05",
     "testo": "Ma no. Chi se ne ricorda più il Putantur? C'erano addirittura le magliette a Brescia. C'erano le magliette col Putantur, cioè che ti diceva il tour da fare dove trovare le... Vabbè, ma quei bresciani, veramente, guarda. Ma io andavo con i miei amici. Poi arriva il momento della mandolosa.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "magliette Putantur Brescia",
+    "tema": [
+      "amicizia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -682,9 +687,12 @@
     "end": 1155.1,
     "speaker_raw": "SPEAKER_11",
     "testo": "Navigare nel buio, che tanto è facile abbandonarsi alle onde. Dimmi dove sei, vorrei parlarti di tutte quelle cose che ho mandato già in fumo. La colpa della solitudine non l'ho mai detto a nessuno, a nessuno. Se sai che non è finita, abbracciami. E anche quando poi saremo stanchi, troveremo il modo per navigare nel buio. Che tanto è facile abbandonare. Perché non parli? Grazie a tutti.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Navigare nel buio",
+    "tema": [
+      "solitudine",
+      "amore"
+    ],
+    "tipo": "lettura_volo",
     "video_url": ""
   },
   {
@@ -1533,10 +1541,14 @@
     "end": 2208.23,
     "speaker_raw": "SPEAKER_05",
     "testo": "Possiamo dire che è un po' come il re delle cover, lui, Rufus. Rufus fa sempre delle cover che... Farle cover è difficile su un pezzo bello, perché a volte è difficile farlo più bello, no? E invece lui riesce a interpretarlo sempre in un modo. Questo pezzo di Leonard Cohen è bellissimo, questa cover. Poi lui fu, diciamo, molto popolare, che la usavo anche come sigla di chiusura di un programma che facevo in televisione. Esatto, questa dei Beatles, no?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Hallelujah",
+    "tema": [
+      "cover",
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Leonard Cohen"
   },
   {
     "id": "2018-01-10-139",
@@ -1758,9 +1770,12 @@
     "end": 2693.01,
     "speaker_raw": "SPEAKER_10",
     "testo": "I can forget you and let you go. If I never met you I'd never know. If I can forget you I'd let you go. If I never met you I'd never know, never know. Volo, Maurizio, Viola.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "canzone dimentica",
+    "tema": [
+      "dolore",
+      "separazione"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {

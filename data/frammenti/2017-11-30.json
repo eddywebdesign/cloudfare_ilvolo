@@ -71,9 +71,11 @@
     "end": 204.43,
     "speaker_raw": "SPEAKER_05",
     "testo": "Io tra l'altro li odio, no? Questi giorni che sono lì, ogni tanto buttato lì il giorno di vacanza. Adesso noi la settimana prossima abbiamo quello di, essendo a Milano, c'è un giorno che ce l'abbiamo solo noi. Sant'Ambrogio. Esatto, esatto. Quindi sono riuscito finalmente a fissare un appuntamento con uno di Bergamo che viene a Milano a lavorare e siccome qua è tutta vacanza me lo son preso io. Va bene, buongiorno a tutti ragazzi, questo è il Volo del Mattino, sono le nove e sei minuti. Ridi quando faccio... Quando diventi serio. Io direi mettiamo subito la sigla perché oggi la giornata e la puntata è bella cicciotta. È bello cicciotta come parola. Come bocconcino.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "appuntamento con bergamasco",
+    "tema": [
+      "vacanza"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1430,9 +1432,12 @@
     "end": 2141.62,
     "speaker_raw": "SPEAKER_05",
     "testo": "Ma è stupenda questa storia. È la più bella finora. È la più bellissima, cioè la pianta rende dipendenti le formiche con il suo netter. È stupendo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Pianta e Formiche",
+    "tema": [
+      "dipendenza",
+      "relazione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -1522,10 +1527,14 @@
     "end": 2399.99,
     "speaker_raw": "SPEAKER_05",
     "testo": "Quanto mi piace questa canzone, la leva calcistica, Francesco De Gregori, ragazzi però scusatemi, a parte che tutti amano il professor perché è fantastico, un'ascoltatrice dice se fa un DVD lo compro e me lo ascolto in casa a voce pacata, perché lui è pieno di nozione, così però è ironico e simpatico, ha una bella voce ma fa anche le battute.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Leva Calcistica",
+    "tema": [
+      "musica",
+      "apprezzamento"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Francesco De Gregori"
   },
   {
     "id": "2017-11-30-138",

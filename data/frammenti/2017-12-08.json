@@ -673,9 +673,11 @@
     "end": 1548.11,
     "speaker_raw": "SPEAKER_01",
     "testo": "Il mimetismo aritmetico e sono le famosissime cicale dei numeri primi. Cioè? Cioè ci sono degli anni in cui queste cicali abbondano nelle foreste del nord degli Stati Uniti. Ok. E poi depongono le uova, dalle uova sguscia una neanide, cioè una forma giovanile, che rimane sottoterra un periodo pari a un numero primo, 7, 13, 15, eccetera, eccetera.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "cicale numeri primi",
+    "tema": [
+      "natura"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1088,9 +1090,12 @@
     "end": 2143.33,
     "speaker_raw": "SPEAKER_00",
     "testo": "Dove spiegavano che ormai adesso, quando si investiga su omicidi e roba del genere così, adesso sta prendendo molto piede il mondo degli insetti. L'entomologia forense. Si chiama entomologia forense.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Entomologia forense in indagini",
+    "tema": [
+      "scienza",
+      "indagine"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1143,9 +1148,12 @@
     "end": 2198.95,
     "speaker_raw": "SPEAKER_01",
     "testo": "Dove è stata scoperta una donna impiccata in una foresta al confine tra gli Stati Uniti e l'America. Ok. E l'hanno presa, era così morta a diversi mesi e avevano in qualche modo archiviato il caso. Questa donna si è suicidata. Ok. Passava di un entomologo. Ma, ma, ma.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Caso di entomologia forense",
+    "tema": [
+      "morte",
+      "scienza"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

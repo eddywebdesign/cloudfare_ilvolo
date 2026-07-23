@@ -182,14 +182,11 @@
     "end": 1009.57,
     "speaker_raw": "SPEAKER_10",
     "testo": "sei minuti quando le cose sono belle il tempo passa il tempo vola scusatemi ma lui è il ragazzo fantastico buongiorno buongiorno Teo, buongiorno Fabio, come stai? Molto bene, molto positivo. Ti volevo dire che questo weekend, sai che quelli che vivono a Milano se possono fanno il film Scappa dalla città il venerdì, via dalla città, sono venuto nelle tue zone sul lago di Como?",
-    "titolo": "Scappa dalla città",
-    "tema": [
-      "film",
-      "Milano"
-    ],
-    "tipo": "riferimento_film",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-10-24-016",
@@ -533,14 +530,11 @@
     "end": 2181.78,
     "speaker_raw": "SPEAKER_02",
     "testo": "How many lives do I have to wait? How many hearts does it take to break this fight? Do I feel like somebody? How many lives do I have to wait? How many hearts does it take to break this fight?",
-    "titolo": "How many lives do I have to wait",
-    "tema": [
-      "musica",
-      "attesa"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2016-10-24-045",

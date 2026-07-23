@@ -174,9 +174,11 @@
     "end": 394.84,
     "speaker_raw": "SPEAKER_04",
     "testo": "Ehi merda, solo dico, ehi merda. No, rispetto per gli anziani. Ma no, ma figurati. Ciao Tony, sono Fabio. Ah, ciao, come stai? T'ho svegliato.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "chiamata a Tony Dallara",
+    "tema": [
+      "amicizia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -804,10 +806,13 @@
     "end": 972.5,
     "speaker_raw": "SPEAKER_04",
     "testo": "In tutti i posti dove vado in questo periodo, lo dicevo l'altro giorno, ogni città dove vado a presentare il libro è una città che dici, ammazza quanto è bella, ammazza, dal nord al sud, dall'est all'ovre.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "il mio libro",
+    "tema": [
+      "viaggio"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Fabio Volo"
   },
   {
     "id": "2017-12-12-073",
@@ -903,9 +908,11 @@
     "end": 1138.75,
     "speaker_raw": "SPEAKER_08",
     "testo": "Volo, Maurizio, Viola. Volo, Maurizio, Viola. Tutti pieni di compassione Per gli errori dei potenti Fatti senza esitazione Senza lividi sui volti Con un taglio sopra il cuore Prendi un ago e siamo pronti Siamo pronti a ricucire Tornerai tu in mezzo agli altri E sarà come impazzire Tornerai chiaro davanti Spero solo di non svenire Mentre torni non voltarti Che non voglio più sbagliare Ne ricordo dei miei giorni Resta fino all'imbrune Tornerai più in mezzo agli altri e sarà come morire. Tornerai più loro davanti, spero solo di non smedire. Mentre torni non puntarti, che non voglio più sparire. Ne ricordo dei miei giorni, resta fino a me morire. Torneranno anche gli uccelli, ci diranno come volare.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "poesia di Maurizio",
+    "tema": [
+      "compassione"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -1343,9 +1350,11 @@
     "end": 2112.92,
     "speaker_raw": "SPEAKER_00",
     "testo": "When we're out together dancing cheek to cheek I'm in heaven and the cares that hung around me through the week seem to vanish like a gambler's lucky streak when we're out together dancing cheek to cheek. Oh, I love to climb a mountain and reach the highest peak, but it doesn't boot me half as much as dancing cheek to cheek. Oh, I love to go out fishing in a river or a creek, but I don't enjoy it half as much as dancing cheek to cheek. Dance with me, I want my arm about you That charm about you will carry me through To heaven, I'm in heaven And my heart beats so that I can hardly speak And I seem to find that happiness I seek When we're out together swinging cheek to cheek. Volo, Maurizio, Viola. Volo, Maurizio, Viola. Volo, Maurizio, Viola. Allora, ho un problema.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Dancing Cheek to Cheek",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -1435,10 +1444,13 @@
     "end": 2249.02,
     "speaker_raw": "SPEAKER_04",
     "testo": "Ha fatto anche un libro, è lei che parla all'università, fa un discorso ad Harvard. Si chiama Buona vita a tutti. Buona vita a tutti, compratelo, è un bellissimo libro, costa poco e anche piccolino. E poi invece ce n'è una che mi piace molto, che non è legata a quella roba del fallimento, però senti che bella. Quanto c'è di pianoforte secondo te in quella canzone che stiamo per mettere? Allora facciamo così, la leggo e poi la metti. Quando alzo il braccio la metti e poi al limite ci parlo sopra ancora.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Buona vita a tutti",
+    "tema": [
+      "vita"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Nome dell'autore"
   },
   {
     "id": "2017-12-12-130",
@@ -1457,9 +1469,12 @@
     "end": 2338.29,
     "speaker_raw": "SPEAKER_04",
     "testo": "Se sceglierete di usare il vostro prestigio e la vostra influenza per alzare la voce nell'interesse di chi non ha voce, Se sceglierete di identificarvi non soltanto con i potenti, ma anche con i deboli, se conserverete la capacità di immaginarvi nei primi... Ok, se conservate la capacità di immaginarvi nei panni di chi non gode degli stessi privilegi, allora non saranno solo i familiari orgogliosi a celebrare la vostra esistenza, bensì migliaia, milioni di persone la cui realtà avrete contribuito a modificare. Non occorre la magia per trasformare il mondo, dentro di noi abbiamo già tutto il potere che ci serve, il potere di immaginarlo migliore. Ha dato una ritmia al cuore. Buon viaggio.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Influenza per il bene",
+    "tema": [
+      "influenza",
+      "bene"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {

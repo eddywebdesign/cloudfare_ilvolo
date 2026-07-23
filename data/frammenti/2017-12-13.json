@@ -1016,9 +1016,11 @@
     "end": 1695.88,
     "speaker_raw": "SPEAKER_12",
     "testo": "Allora, ascoltate un attimo. Perché un ragazzo di Genova, che si chiama Fabio, scrive Donna col tacco in cerca del pacco.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Donna col tacco",
+    "tema": [
+      "letteratura"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {

@@ -1231,10 +1231,13 @@
     "end": 1764.29,
     "speaker_raw": "SPEAKER_11",
     "testo": "Stavo arrabbiando con Viola, no? Per dire, Viola, però quando lanci i dischi smetti di usare la carta. Sempre io. Che lo faccio già io questa cosa. Invece a un certo punto il disco ho sentito Maurizio e diceva, ma perché Eminem deve fare tutta la canzone che tocca la carta?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Eminem canzone",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Eminem"
   },
   {
     "id": "2017-11-17-112",
@@ -1253,9 +1256,11 @@
     "end": 1809.71,
     "speaker_raw": "SPEAKER_11",
     "testo": "Non ti è piaciuta tanto? Sai che non so se si può dire questa cosa, perché ci sono i discografici. No, ma io, sinceramente, Eminem è uno dei miei idoli. Ma ce l'hai tatuato come la Canalis? La Canalis aveva il tatuaggio Eminem, ai tempi, quando faceva l'Avelino, poco più. Non so, magari ce l'ha coperto con Jay-Z, non lo so, se lo copri con quelli che arrivano dopo, non lo so. Allora, scusate ragazzi, siamo arrivati finalmente dal lunedì mattina che lo diciamo. Siamo arrivati al momento delle 15 regole brevi, veloci, circoncise per avere successo nella vita. Da applicare già da domani che è sabato abbiamo tempo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "tatuaggio eminem",
+    "tema": [
+      "celebrità"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1641,10 +1646,13 @@
     "end": 2354.03,
     "speaker_raw": "SPEAKER_14",
     "testo": "Sì, si faceva, c'era il Siddhartha. Il Siddhartha. Sì.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Siddhartha",
+    "tema": [
+      "crescita_personale"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Hermann Hesse"
   },
   {
     "id": "2017-11-17-149",

@@ -16,15 +16,11 @@
     "end": 60.89,
     "speaker_raw": "SPEAKER_01",
     "testo": "He's making a list, checking it twice He's gonna find out who's naughty at night Santa Claus is coming to town He sees you when you're sleeping He knows when you're awake He knows if you've been bad or good So be good for goodness sake Oh, you better watch out. You better not cry. You better not pout. I'm telling you why. Santa Claus is coming. It's your turn.",
-    "titolo": "Santa Claus Is Coming to Town",
-    "tema": [
-      "natale",
-      "musica"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "autore": "J. Fred Coots e Haven Gillespie",
-    "confermato_esterno": false
+    "autore": ""
   },
   {
     "id": "2017-12-19-002",
@@ -43,9 +39,11 @@
     "end": 139.97,
     "speaker_raw": "SPEAKER_01",
     "testo": "Volo, Maurizio, Viola. Oh, you better watch out, you better not cry, you better not pout, I'm telling you why, Santa Claus is coming to town.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Santa Claus is coming to town",
+    "tema": [
+      "natalità"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -307,9 +305,12 @@
     "end": 419.74,
     "speaker_raw": "SPEAKER_15",
     "testo": "Tutta in falsetto l'hanno fatta, eh? Perché qui non c'era ancora Cristina D'Avena, quindi potevano cantarle anche altri. Poi è arrivata lei e ha detto, basta, ci sono solo io. Allora, ragazzi, questa mattina avevamo tante cose da dirvi. C'è un bellissimo articolo sul Corriere del nostro amico Padre Bianchi.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "intervista Padre Bianchi",
+    "tema": [
+      "religione",
+      "articolo"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -1249,9 +1250,11 @@
     "end": 1375.07,
     "speaker_raw": "SPEAKER_15",
     "testo": "Run away train. C'è una frase, me la sono ricordata stamattina e Maurizio l'ha cercata. Scusate.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "run away train",
+    "tema": [
+      "paura"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -2227,9 +2230,11 @@
     "end": 2715.04,
     "speaker_raw": "SPEAKER_15",
     "testo": "In questo momento in ufficio, in macchina e in altre location che non sono state ben segnalate nelle vostre mail ci sono persone che stanno piangendo, lo sapevo, questa canzone è veramente un balsamo di una meraviglia incredibile. Qualcuno scrive anche questa cosa che effettivamente ci stavo pensando, soprattutto ieri dopo che abbiamo detto la cosa della zia Leti, le persone che vengono a mancare proprio sotto le feste di Natale. E quindi si mischiano i due sentimenti poi, già non ci sono per Natale che già è triste, ma se la cosa è avvenuta proprio in quei giorni lì, cioè in questi ambienti con le lucine così, è una, come dire, due sentimenti opposti che si accavallano insomma. Ragazzi io ho vinto una BMX Mr. Day, Mr. Day era quella della barba latte. Ma non mi è mai stata consegnata, senti, maledetta Parmalat. Deve essere doloroso per un bambino vincere una cosa e non riceverla.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "canzone consolatrice",
+    "tema": [
+      "consolazione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
