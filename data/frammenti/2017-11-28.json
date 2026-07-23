@@ -500,10 +500,11 @@
     "end": 703.28,
     "speaker_raw": "SPEAKER_13",
     "testo": "Never know how much I love you, never know how much I care. When you put your arms around me, I get a fever that's so hard to bear. You give me fever when you kiss me, fever when you hold me tight. Fever in the morning, fever all through the night. Volo Volo Everybody's got the fever, that is something you all know. Fever is such a new thing, fever started long ago. Romeo loved Juliet, Juliet she felt the same. Volo, Maurizio, Viola. Captain Smith and Pocahontas had a very mad affair. When her daddy tried to kill him, she said, Daddy, oh, don't you dare give me fever. With his kisses, fever when he holds me tight.",
-    "titolo": "",
+    "titolo": "Fever",
     "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Little Willie John"
   },
   {
     "id": "2017-11-28-046",
@@ -1391,10 +1392,13 @@
     "end": 1908.68,
     "speaker_raw": "SPEAKER_09",
     "testo": "Ma allora io ho risentito, tra l'altro proprio ero colpita perché ti avevo sentito in... E innanzitutto non rendiamo questa cosa come se fosse una patologia. Ricordiamoci che Freud quando ci ha spiegato come si sviluppa la nostra sessualità attraverso lo sviluppo psicosociale dei bambini ci ha raccontato e ci ha spiegato che si passa da, prima di arrivare alla zona genitale, si passa da altre zone cosiddette erogene, quella orale e poi quella anale. Quindi lo spazio anale è uno spazio di piacere innanzitutto quindi spogliarsi se ci può sembrare normale quando ci esprimiamo in maniera genitale anche se magari qualcuno piace farlo vestito può accadere anche in maniera positiva che Spogliarsi mentre si fa la cacca o prima e durante è semplicemente un momento di piacere dove io mi libero tra l'altro dei contenuti che non mi servono più in libertà ed è un'esperienza piacevole. Tra l'altro se non sbaglio poi ti sono arrivati dei messaggi proprio dei genitori che ti hanno detto ma per i bambini è normale. Ed è arrivato un messaggio proprio di gioia. Poi noi adulti che in qualche modo ci impediamo di ricontattare quel bambino gioioso, pensiamo subito che sia una forma di patologia. Ok, invece no, è un senso di libertà. A meno che, come con la storia dei sogni che ti ho detto prima, si trovi disagio. Ti trovi disagio, bravissimo. Ma tu sei un collega, praticamente.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Teoria sessuale del bambino",
+    "tema": [
+      "sessualità"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Freud"
   },
   {
     "id": "2017-11-28-127",
@@ -1655,10 +1659,13 @@
     "end": 2552.12,
     "speaker_raw": "SPEAKER_08",
     "testo": "Puoi parlare tu? Allora, questa è una canzone che a noi ci piace la voce di Elbow, ma è una canzone dei Beatles, ovviamente. Vuoi venire più vicino? Puoi? Perché abbiamo un esperto musicale, ma nel vero senso della parola. Lui è il mio maestro che mi dice che le pubblicità si fanno con quel giro di note. Mi spiega l'emozione della musica, oltre a Abbey Road. L'ultimo loro disco. Prima di Yoko.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Abbey Road",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "The Beatles"
   },
   {
     "id": "2017-11-28-151",
@@ -1688,9 +1695,12 @@
     "end": 2582.37,
     "speaker_raw": "SPEAKER_00",
     "testo": "Sì, infatti questo la voce l'ha messa, John Lennon l'ha messa dopo, dopo qualche settimana che si era fatto male, aveva fatto un incidente stradale, si era rotto un braccio. Un braccio così? E ha aggiunto il pezzo dopo, la sua voce dopo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "John Lennon incidente stradale",
+    "tema": [
+      "incidente",
+      "beatles"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1809,9 +1819,12 @@
     "end": 3032.94,
     "speaker_raw": "SPEAKER_08",
     "testo": "No, no, non lo fate entrare. No, no, no, no, no. No, no, no, no. No, non hai sentito cosa ho detto. Ti ho citato, ti ho citato. Volevo dire, no, perché Bob Dylan in un concerto non ha fatto entrare Mick Jagger e Kate Richard a salutarlo. Ho detto, io da vecchio sarò così. C'è Nicola Savino fuori. No, no, no, non lo fate entrare. Volevo dire una cosa su Bob Dylan. Comunque tu mi tarpi le armi.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Bob Dylan concerto",
+    "tema": [
+      "rispetto"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Bob Dylan"
   }
 ]

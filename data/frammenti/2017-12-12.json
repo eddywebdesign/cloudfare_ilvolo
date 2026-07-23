@@ -16,10 +16,14 @@
     "end": 150.28,
     "speaker_raw": "SPEAKER_11",
     "testo": "I believe I can fly I believe I can touch the sky I think about it every night and day Spread my wings and fly Volo, Maurizio, Viola. Volo, Maurizio, Viola. I believe I can touch the sky I think about it every night and day Volo, Maurizio, Viola.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "I Believe I Can Fly",
+    "tema": [
+      "sogni",
+      "volontà"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "R. Kelly"
   },
   {
     "id": "2017-12-12-002",
@@ -390,10 +394,13 @@
     "end": 722.56,
     "speaker_raw": "SPEAKER_04",
     "testo": "Invece sì. Hai portato il vinile e l'ho passato da lì. Allora ragazzi, ieri sul giornale Libero è uscito un articolo che diciamo lo prenderei un po' come spunto oggi per il nostro... Abbiamo un tema? Abbiamo un tema oggi. Che non è un tema, è una cosa che è bello da dire. Allora, Libero, Vittorio Feltri, alla pagina 15 un articolo di Beatrice Corradi che dice... Hanno aperto a Modena una scuola per i fallimenti. Cioè quando qualcuno cerca di raggiungere un obiettivo e fallisce, che può essere anche personale, sai che molte persone si separano e dicono ho fallito con il mio matrimonio. Esiste una scuola che diciamo come se fosse di sostegno, cioè ti aiutano a uscire più velocemente dall'accettare la sconfitta, mettiamola così.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "articolo di Beatrice Corradi",
+    "tema": [
+      "relazioni"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Beatrice Corradi"
   },
   {
     "id": "2017-12-12-036",
@@ -1402,10 +1409,14 @@
     "end": 2221.39,
     "speaker_raw": "SPEAKER_04",
     "testo": "Scusa, non lo richiamiamo? Lo vuoi richiamare per la macchina? Quando usciamo dalla diretta lo chiamiamo. Avevo portato due cose scritte dalla scrittrice di Harry Potter che dice due cose molto belle. Una del suo periodo prima di diventare quello che è diventato, cioè che aveva fallito in tutto nella vita, praticamente l'università e alla fine poi invece è diventata la scrittrice che ha venduto più nel mondo e quindi racconta quella cosa.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Harry Potter",
+    "tema": [
+      "successo",
+      "fallimento"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "J.K. Rowling"
   },
   {
     "id": "2017-12-12-128",

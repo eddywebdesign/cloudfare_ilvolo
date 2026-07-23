@@ -214,9 +214,12 @@
     "end": 505.45,
     "speaker_raw": "SPEAKER_17",
     "testo": "No, però adesso voglio dire una cosa. Perché io mi posso permettere tutta questa attenzione? Perché ci siete voi in ascolto. Io sono la punta finale di una squadra, che la squadra non siano noi quattro, siamo tutti gli ascoltatori, sono tutti quelli che comprono i miei libri, quindi io sono la vostra voce in qualche modo, non di tutti.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "voce della squadra",
+    "tema": [
+      "ascoltatori",
+      "gratitudine"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -280,9 +283,11 @@
     "end": 595.55,
     "speaker_raw": "SPEAKER_14",
     "testo": "Grazie per tutto quello che hai fatto in pochi giorni, che era una cosa che noi aspettavamo da mesi. Un grazie da tutti i bambini in Braille e da tutti i genitori in Braille. A presto.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "ringraziamento braille",
+    "tema": [
+      "riconoscimento"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -588,9 +593,11 @@
     "end": 1111.51,
     "speaker_raw": "SPEAKER_07",
     "testo": "Come si chiama tuo marito? Uè, Carmine, si chiama Carmine. A me face... Proprio il classico nome napoletano, hai capito? E ti va a mangiare la pizza da Carminiello.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "nome marito napoletano",
+    "tema": [
+      "tradizioni"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -764,10 +771,14 @@
     "end": 1282.89,
     "speaker_raw": "SPEAKER_11",
     "testo": "Hey you, out there in the cold, getting lonely, getting old, can you feel me? Hey you, standing in the aisles, with itchy feet and fainting smiles, can you feel me? Hey you, don't help them to bury the lies, Volo, Maurizio, Viola. Open your heart, I'm coming home.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Hey You",
+    "tema": [
+      "isolamento",
+      "connessione"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Pink Floyd"
   },
   {
     "id": "2017-12-01-070",
@@ -797,9 +808,11 @@
     "end": 1519.02,
     "speaker_raw": "SPEAKER_17",
     "testo": "Qualcuno dice orgasmo puro, altri dicono acceso la radio ho capito che c'eri tu, altri che dicono dopo questa canzone chiudo tutto, torno a casa, la giornata è finita. Quindi ogni tanto queste checchine o chicchine andrebbero messe. Poi tra l'altro, come ricordo sempre, affascinante, lo dico per le nuove generazioni, perché a volte incontro i ragazzi e dicono ma tu lo conosci The Wormy Crew? No, io dico a che culo? Io sono contento quando incontro uno che mi dice che non ha letto, perché io dico che culo, adesso ti dico delle cose, ma non perché voglio fare il maestro, perché adesso ti faccio un regalo proprio per te. Che The Wall, essendo un concept album, cioè quindi è come un libro, ogni canzone è un capitolo di una storia bellissima, dell'uomo che si chiude dentro di sé e tira su un mattone per ogni cosa. Gli muore il papà in guerra e tira su un mattone, va a scuola e c'è il professore, hey teacher, li vecchizzalo, e tira su un altro mattone, la roba con la moglie, un mattone, la prostituta che scappa, un mattone, insomma... E alla fine lui si trova dentro un muro che dice, che è un classico, no? Non sento più, diciamo, la sofferenza che viene da fuori, però non senti più neanche l'amore. E quindi devi buttarlo giù questo muro a un certo punto, che è come Ulisse che torna a casa e deve... Dovresti andare a insegnare.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ragazzi e The Wormy Crew",
+    "tema": [
+      "generazioni"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1402,9 +1415,12 @@
     "end": 2076.87,
     "speaker_raw": "SPEAKER_01",
     "testo": "Aspetta, lo dico io! Fantastico. Paura di disgrazie terribili che potevano accadere oppure no. Per 50 anni ho vissuto nella paura, ritrovandomi sempre sveglio alle 3 del mattino. L'ora è diversa, l'ora è diversa. Mi sono reso conto che è la paura la peggiore delle disgrazie. È la paura il vero nemico. Perciò, alzati. Vado ad affrontare la vita reale. E se il mondo è un bastardo, allora colpiscilo con tutta la forza che hai.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "vita vissuta nella paura",
+    "tema": [
+      "paura",
+      "vita"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -1523,9 +1539,12 @@
     "end": 2297.14,
     "speaker_raw": "SPEAKER_13",
     "testo": "È un sentimento nuovo che mi tiene alta la vita, la passione nella colla, l'eros che si fa parola, le tue strane inibizioni. Voce come il coro delle sirene di Ulisse mi incatena ed è bellissimo perdersi in questo incantesimo. Tutti i muscoli del corpo pronti per l'accoppiamento. Nel Giappone delle Keishi si abbandonano all'amore. Le tre strane inibizioni che scatenano il piacere. La tua pelle come un'oasi nel deserto ancora mi cattura ed è bellissimo perdersi in questo incantesimo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "incantesimo erotico giapponese",
+    "tema": [
+      "amore",
+      "eros"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -1622,9 +1641,12 @@
     "end": 2580.65,
     "speaker_raw": "SPEAKER_02",
     "testo": "Volo, Maurizio, Viola. Grazie a tutti. Tell me what's been happening, what's been on your mind. Lately you've been searching for a darker place to hide. That's alright. But if you carry on abusing you'll be robbed for miles. I refuse to lose another friend to drugs. Just come home. Grazie a tutti.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "riflessioni sulla droga",
+    "tema": [
+      "droga",
+      "amici"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {

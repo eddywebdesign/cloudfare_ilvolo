@@ -49,10 +49,14 @@
     "end": 248.64,
     "speaker_raw": "SPEAKER_12",
     "testo": "In the country, country house, 1995 quando uscì questo singolo meraviglioso dei Blur, quando il mondo ancora si divideva in quella guerra fredda fra i Blur e gli Oasis e adesso invece è tutto a posto, anzi gli Oasis sono implosi diciamo da soli, un po' come la politica italiana che si muore sempre di fuoco amico, cioè non è mai l'avversario che ti schiaccia ma... Le correnti interne che si dilaniano. Buongiorno a tutti, questa è Radio DJ, questo è il Volo del Mattino. Buongiorno, volevo ridurre il nostro paese e anche tutti quelli che ci ascoltano dall'estero in piccole zone dell'Italia, cioè questo primo messaggio non è rivolto a tutti ma a quelle città dove oggi i bambini si svegliano e trovano i regali di Santa Lucia che è un po' il babbo natale di alcune città, se non sbaglio Parma, se non sbaglio Udine, Brescia sicuro, forse Bergamo anche. Insomma, quindi questa mattina è la mattina di Natale per qualcuno, insomma per i bambini.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "In the Country House",
+    "tema": [
+      "musica",
+      "storia"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Blur"
   },
   {
     "id": "2017-12-13-005",
@@ -93,9 +97,12 @@
     "end": 307.61,
     "speaker_raw": "SPEAKER_12",
     "testo": "Se era piccolo sì, poi sai ti portavano il vassoietto, portano ancora il vassoietto, proprio con le caramelle di Santa Lucia che escono proprio per quella cosa, zucchero, zucchero, zucchero, zucchero. Invece la mia nonna che veniva da una generazione ancora più povera, per lei la grande cosa mi dava i mandarini. Cioè, lei dava due caramelle e poi ti dava tipo i... Perché ai suoi tempi ricevere il mandarino era una cosa... Poi sbucciava, la metteva sul termosifone e tutta la casa sapeva di cipolla. Così volevo rovinare il finale.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Regali di Natale",
+    "tema": [
+      "tradizioni",
+      "crescita"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -181,10 +188,13 @@
     "end": 397.57,
     "speaker_raw": "SPEAKER_12",
     "testo": "Sì, posso dire, abbiamo anche un po' limonato qua sotto Radio DJ perché comunque ho messo su, sai cosa ho messo? Il pezzo di Max Pezzari.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "pezzo di Max Pezzari",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Max Pezzari"
   },
   {
     "id": "2017-12-13-017",

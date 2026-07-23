@@ -489,10 +489,13 @@
     "end": 871.0,
     "speaker_raw": "SPEAKER_16",
     "testo": "Lo sai che c'è uno dei miei film preferiti, forse il mio film preferito dal punto di vista diciamo romantico, così si chiama Harold e Mood, non so se tu l'hai mai visto. È una storia d'amore tra una signora anziana e un ragazzino di vent'anni. Un film vecchissimo degli anni settanta, era avantissimo. Però lei a un certo punto aveva, c'era questa macchinetta che aveva delle bottiglie con dentro dei profumi, che poi si faceva con degli aerosol e aveva tipo metropolitana di New York, giornata di neve in montagna, aveva tutta una serie di cose. Quanto stai? Vedo che hai preso l'accento inglese.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Harold e Maude",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "riferimento_film",
+    "video_url": "",
+    "autore": "Hal Ashby"
   },
   {
     "id": "2017-12-06-045",
@@ -588,9 +591,12 @@
     "end": 992.25,
     "speaker_raw": "SPEAKER_15",
     "testo": "No, abbiamo uno studio, però sono partito, questo è un aneddoto che... Ci tengo a dirlo perché bisogna sempre ricordare, la prima intervista che ho fatto a Ennio Morricone, tra l'altro, l'ho fatta dentro l'armadio di casa dell'IKEA, erano gli insonorizzatori di questa, con un mixer a due canali, cercando di fare un pochino anche due voci, e lui ci Gentilmente, lui ha ringraziato tutti e due, Maria Altero e io. Se ha l'ascolto il grande maestro mi scuserà. Però è un aneddoto che mi porto dietro con una tenerezza. Ora abbiamo uno studio, un piccolo studio, dove vengono tanti ospiti, vengono anche giovani talenti musicali italiani, francesi, spagnoli, per promuovere questi giovani e poi VIP.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "prima intervista armadio",
+    "tema": [
+      "iniziazione",
+      "rispetto"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1644,9 +1650,12 @@
     "end": 2174.25,
     "speaker_raw": "SPEAKER_17",
     "testo": "Tutta la vita. Paura di disgrazie terribili che potevano accadere oppure no. Per cinquante anni ho vissuto nella paura, ritrovandomi sempre sveglio alle tre del mattino. A ore diverse, a ore diverse, mi sono reso conto che è la paura la peggiore delle disgrazie, è la paura il vero nemico. Perciò, alzati. Vado ad affrontare la vita reale. E se il mondo è un bastardo, allora colpiscilo con tutta la forza che hai.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Paura e vita reale",
+    "tema": [
+      "paura",
+      "vita"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -1710,10 +1719,13 @@
     "end": 2226.2,
     "speaker_raw": "SPEAKER_18",
     "testo": "Eh, grazie. Mannaggia, io avevo le copie firmate, ho il tuo libro, me l'hanno portato.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "libro firmato",
+    "tema": [
+      "libro"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Fabio Volo"
   },
   {
     "id": "2017-12-06-156",

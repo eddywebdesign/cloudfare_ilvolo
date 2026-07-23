@@ -1314,10 +1314,13 @@
     "end": 1373.52,
     "speaker_raw": "SPEAKER_07",
     "testo": "Va bene, sto scherzando ovviamente. E a parte la giacca bianca da Rubia che comunque riduce. Allora, arriva un altro messaggio. Fabio, sono su una strada che sembra la copertina del tuo libro. Di quelle proprio che vai, vai, vai, vai, vai. Mi metti una canzone adatta? Siccome l'avevo preparata prima e non l'abbiamo messa. Tanto schiaccia play. Perché abbiamo messo Nina Simone con I put a spell on you. E anche lei, questa ragazza, dice la stessa cosa. Cosa vuol dire I put a spell on you? Un incantesimo. Voi a una donna gli dovete dire, ehi, io t'ho fatto un incantesimo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "libro di Fabio Volo",
+    "tema": [
+      "strada"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Fabio Volo"
   },
   {
     "id": "2017-12-07-120",
@@ -1611,9 +1614,11 @@
     "end": 1930.15,
     "speaker_raw": "SPEAKER_02",
     "testo": "Che mio nome è Roy. Eccolo qua. Come va, vecchio mio?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Roy vecchio mio",
+    "tema": [
+      "amicizia"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -2084,10 +2089,14 @@
     "end": 2858.01,
     "speaker_raw": "SPEAKER_07",
     "testo": "Beh, non ho detto tutto l'indirizzo. No, no, allora, ascoltami. Il tema questo qui della cacca, vedi che ci sono molti aneddoti in giro per il mondo. Io uno l'ho miso anche in un mio libro che era successo a un tecnico come Maurizio quando lavoravo a Radio Capital, che suonava il citofono. Aspettava una ragazza, lei stava scendendo le scale, lui si accorge di aver pestato una merda. Si gira, cioè tira su da dietro, immaginate di tirare su la scarpa da dietro per vedere se l'aveva pestata e nel tirarla su strisce la merda sulla manica della giacca, del giaccavento. Così aveva anche la merda lì, si è spogliato, ha buttato tutto nel baule, scarpa e l'ha aspettata in macchina a piedi nudi. Vabbè, sono cose che succedono.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "aneddoto tecnico radio",
+    "tema": [
+      "tecniche",
+      "imbarazzo"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Fabio Volo"
   },
   {
     "id": "2017-12-07-190",
@@ -2128,9 +2137,11 @@
     "end": 2913.33,
     "speaker_raw": "SPEAKER_07",
     "testo": "Mia mamma ha 75 anni, infatti è nonna. Per qualcun altro, per me è mamma. Sempre mamma, rimane. Allora, abbiamo messo della bella musica, ok. Abbiamo parlato di... Ah no, volevo leggere questo messaggio. Vai. Io una mattina, dice un'ascoltatrice, ho trovato... Non mi ricordo se è Sonia o Sofia, va bene, adesso guarderò. Ho trovato un piccione morto sul tetto della mia macchina. Sì. Ho chiesto a un passante di togliermelo. Ha ragione. E io ho detto, ma non serve. Tu sali, parti un po' a bomba. Se non si stacca subito quando parti, inchiodi. Tu inchiodi il piccione da sopra, pensa a quello che magari sta attraversando la strada e gli arriva un piccione morto in faccia, poi cade in terra morto e dici ammazza che testata che gli ho dato. E chiudiamo così. I piccioni fanno un po' schifo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "mamma e nonna",
+    "tema": [
+      "famiglia"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

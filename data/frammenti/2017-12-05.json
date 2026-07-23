@@ -38,10 +38,13 @@
     "end": 238.68,
     "speaker_raw": "SPEAKER_09",
     "testo": "She's in fashion, è bellissima no? She's in fashion. Radio DJ Suede, un disco del 1999, un anno prima di quelle ansie, un mese prima, quei mesi delle ansie, che nel 2000 si sarebbe cancellato tutto il comune. I computer, mille non più mille. Ti ricordi? L'abbiamo già fatto un inizio così, devo dire. Però insomma era quel mille non più mille. Quindi la domanda è, scusatemi non voglio essere blasfemo, mi nasce così spontanea nel mio cervello e la condivido con voi. Quindi Gesù aveva sbagliato? Mille, non più mille. Cioè, tu poi da lì dici, oh Gesù, sia 2017. Sai che hai sbagliato. Forse intendevo un altro. Sicuro, essendo lui... Essendo lui... Essendo lui... Aiutami, Maurizio. Estrappomela... Estrappomela... Estrappolamela... Melo... No, aspetta.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Radio DJ Suede",
+    "tema": [
+      "ansia"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Suede"
   },
   {
     "id": "2017-12-05-004",
@@ -126,9 +129,11 @@
     "end": 365.22,
     "speaker_raw": "SPEAKER_09",
     "testo": "Devo ringraziare una coppia di persone un po' strane, quando li ho visti strane. Ieri sera a Modena c'erano tantissime persone, un teatro, non so se mi seguite su Instagram, comunque è arrivata tanta gente, erano più di mille. Più di mille? No ragazzi, sono entrato dentro, ragazzi, mille, ma non più mille, perché devo tornare a casa. Sono arrivati due ragazzi, una coppia, e mi hanno dato, sai la roba della pizza, il cartone della pizza? Certo. Sopra avevano disegnato la banana con Velvet Underground, quella di Andy Warhol, del disco così, con Nico così. Però io non l'ho aperta, invece c'era troppa gente. L'ho aperta ieri sera a casa. Quando io arrivo a casa apro i regali, i pacchi, le cose così. E dentro c'era un vinile di Tony Dallara. Un vinile di Tony Dallara! Io non l'avevo mai visto così giovane, Tony Dallara.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Due ragazzi a Modena",
+    "tema": [
+      "gratitudine"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -544,10 +549,13 @@
     "end": 1028.0,
     "speaker_raw": "SPEAKER_09",
     "testo": "Allora, Simaldi, fa bene a ridere così, a sfregio. Lei la sa, professore, questa? Ma sì, ma questa la sanno tutti. Chi glielo dice a Battiato che ci ha fatto anche un album?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "album battito cammello",
+    "tema": [
+      "ricchezza"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Battiato"
   },
   {
     "id": "2017-12-05-050",
@@ -709,10 +717,13 @@
     "end": 1121.35,
     "speaker_raw": "SPEAKER_09",
     "testo": "7, 9, 20. Proviamo. Grazie Sibaldi. Grazie mille. Ci aspettiamo. Ti aspettiamo una mattina, ti aspettiamo una mattina. E la frase fino all'imbrunire dei Negramaro, cosa avrà voluto dire Giuliano? È un errore di traduzione.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "fino all'imbrunire",
+    "tema": [
+      "tempo"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Negramaro"
   },
   {
     "id": "2017-12-05-065",
@@ -764,9 +775,11 @@
     "end": 1377.51,
     "speaker_raw": "SPEAKER_09",
     "testo": "Che ha riso, ha fatto così, guarda... Ok, allora è arrivato il professore Acinelli. Buongiorno. Oggi, puntata da intelligentoni. Perché lui è arrivato da Bologna in treno e poi dalla stazione qui con la bicicletta.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "professore bicicletta",
+    "tema": [
+      "viaggio"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1567,9 +1580,11 @@
     "end": 2745.35,
     "speaker_raw": "SPEAKER_01",
     "testo": "Vieni via con me? Vieni via di qui. Niente più ti lega questi luoghi, neanche questi fiori azzurri. Via, via, neanche questo tempo grigio, pieno di musiche e di uomini che ti son piaciuti. It's wonderful, it's wonderful, it's wonderful, good luck my baby, it's wonderful, it's wonderful, it's wonderful, I dream of you, chips, chips. Vieni via con me, entra in questo amore buio, non perderti per niente al mondo. Via via, non perderti per niente al mondo, lo spettacolo d'arte varia di uno innamorato di te. It's wonderful, that's wonderful, that's wonderful, good luck my baby, it's wonderful, that's wonderful, it's wonderful, I dream. Vieni via con me, entra in questo amore buio, pieno di uomini, entra e fatti un bagno caldo, c'è un accapatoio azzurro, Fuori piove, un mondo freddo. It's wonderful, it's wonderful. It's wonderful, good like my baby.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "It's wonderful",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {

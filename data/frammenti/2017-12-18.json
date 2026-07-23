@@ -148,9 +148,11 @@
     "end": 312.11,
     "speaker_raw": "SPEAKER_10",
     "testo": "L'altro giorno mi ha scritto una persona privatamente su Instagram. Mi ha detto in radio continuate a parlare di questi passive aggressive. Ma cosa vuol dire passive aggressive? Giusto. E io ho risposto in passive aggressive. Allora sigla ragazzi. Questa mattina vorrei ridere. Anche se ho una brutta notizia da darvi.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "risposta passive aggressive",
+    "tema": [
+      "social media"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -808,9 +810,11 @@
     "end": 1136.22,
     "speaker_raw": "SPEAKER_10",
     "testo": "La devi pucciare in qualcosa. Ieri nel reparto trucco e parrucco, come si dice così dei truccatori di Fazio, una ragazza ha portato la sbrisolona. La sbrisolona è quella di Cremona con la farina, dentro c'è anche lo strutto tra l'altro. E io ho detto, si può mangiare anche così, va bene, ma la morte sua è, quando abitavo a Verona, bagnata nella grappa. Arcore. Per cui prova adesso, prima di andare a fare le tue sedute, Edoardo, da psicologo. Dacci una zuppatina nella grappa con la tua torta. Con l'anido.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "sbrisolona con grappa",
+    "tema": [
+      "cibo"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -885,9 +889,12 @@
     "end": 1369.83,
     "speaker_raw": "SPEAKER_10",
     "testo": "Ciao ragazzi, io vivo in Danimarca, vi ascolto da qui e volevo dirvi che qui Passive Aggressive è la cultura del paese, cioè il danese non te lo dice mai, te lo fa notare, te lo fa notare. Alcuni ascoltatori dicono io non ho parenti, amici, Passive Aggressive lo sono io, cioè il professore ha descritto me. Una chiede anche, io sono così, ci si può curare?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "cultura danese passive aggressive",
+    "tema": [
+      "comunicazione",
+      "relazioni"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -929,9 +936,12 @@
     "end": 1451.5,
     "speaker_raw": "SPEAKER_10",
     "testo": "Io che per te ti ho sempre difeso, io che per te ho sempre fatto tanto. Ma non importa. Però fa niente, se tu sei fatto così... Io ti accetto, lo sai, in ogni caso. La frase più bella è questa. Che cos'hai? Niente. L'opportunità è che non puoi non chiedere più. Quel niente lì richiede un'altra volta, dai dimmelo. E la frase è, se non ci arrivi da solo, è niente che te lo dico io. Cioè, poi non sei... Non sei tu, tu sei fatto così. Sono io che ho sbagliato. Lì proprio si vede il pisello, si stacca e rimane.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "accettare il niente",
+    "tema": [
+      "accettazione",
+      "relazioni"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -1875,10 +1885,14 @@
     "end": 2861.61,
     "speaker_raw": "SPEAKER_06",
     "testo": "Volo, Maurizio, Viola. You were handsome, you were pretty, queen of New York City. When the band finished playing, they howled out for more. Sinatra was swinging, all the drunks they were singing. We kissed by the corner, then danced through the night. And the boys in the NYPD choir were singing, go away babe. Volo, Volo, Volo, Volo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "New York, New York",
+    "tema": [
+      "amore",
+      "notte"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Frank Sinatra"
   },
   {
     "id": "2017-12-18-171",

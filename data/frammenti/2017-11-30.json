@@ -93,9 +93,11 @@
     "end": 294.89,
     "speaker_raw": "SPEAKER_05",
     "testo": "Allora, volevo scusarmi con i miei lettori, ascoltatori, quelli che sono venuti ieri alla presentazione del mio libro. Ho gestito male una situazione, quindi vi chiedo scusa. Voi siete un po' come la mia famiglia, io dovevo essere più all'altezza. Quindi vi chiedo veramente scusa e cercherò di riparare come posso. Detto questo, ci spostiamo subito a Loano, perché a me è un nome che mi fa ridere. Loano. No, perché è come se uno parlasse del culo con l'articolo sbagliato. Lo hanno, lo si dice, dice l'ano, L apostrofo. Andrea! Buongiornazzo! Dov'è? Ma come buongiornazzo? Piano coi sassi, piangono coi sassi. Come stai Andrea? Fa freddo. No, io questa mattina che non ho portato mio figlio a scuola in bicicletta perché non era il mio turno, ok? Ieri ho tirato fuori i guanti per la prima volta, che mi aveva comprato Johanna Natale, li ho tirati fuori. Io li perdo, come gli occhiali da sole, io perdo gli guanti d'inverno e gli occhiali da sole d'estate. E devo dire che anche solo a piedi, non in bicicletta, la mano fredda. Quando mi hai scritto che tu stai raccogliendo lo spinaccio e hai le mani viola e congelate, perché non si raccolgono quei guanti?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "scusa per gestito male situazione",
+    "tema": [
+      "rispetto"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -1413,10 +1415,14 @@
     "end": 2130.21,
     "speaker_raw": "SPEAKER_01",
     "testo": "Ma qualcosa di diabolico in realtà c'è davvero. Perché insieme al nettere sgorga anche una sostanza che rende le formiche completamente dipendenti. È simile all'oppio. Le formiche si fanno di nettere. E a questo punto vogliono, diciamo così, basta, mi sono scocciato, voglio tornare nella foresta equatoriale. Non possono perché hanno proprio delle crisi di astinenza. Sono tossiche.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "netter e formiche",
+    "tema": [
+      "dipendenza",
+      "natura"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Fabio Volo"
   },
   {
     "id": "2017-11-30-129",
@@ -1501,10 +1507,14 @@
     "end": 2362.62,
     "speaker_raw": "SPEAKER_11",
     "testo": "Sole sul tetto dei palazzi in costruzione, sole che batte sul campo di pallone, e terra e polvere che tira vento e poi magari piove. Mina o cammina che sembra un uomo, con le scarpette di gomma dura, dodici anni e il cuore pieno di paura. Mino non aver paura di sbagliare un calcio di rigore, non è mica da questi particolari che si giudica un giocatore. Un giocatore lo vedi dal coraggio, dall'altruismo e dalla fantasia. E chissà quanti ne hai visti e quanti ne vedrai, di giocatori tristi che non hanno vinto mai. Ed hanno appeso le scarpe a qualche tipo di muro e adesso ridono dentro al bar. E sono innamorati da dieci anni con una donna che non hanno amato mai. Chissà quanti ne hai veduti, chissà quanti ne vedrai. Vino capì fin dal primo momento, l'allenatore sembrava contento e allora mise il cuore dentro alle scarpe e corse più veloce del vento. Prese un pallone che sembrava stregato, accanto al piede rimaneva incollato. Entrò nell'area, vino senza guardare ed il portiere lo fece passare. Paura di tirare un calcio di rigore, non è mica da questi particolari che si giudica un giocatore. Un giocatore lo vedi dal coraggio, dall'altruismo e dalla fantasia. Il ragazzo si farà, anche se ha le spalle strette, quest'altro anno giocherà con la maglia numerosa a te.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Mino cammina",
+    "tema": [
+      "paura",
+      "coraggio"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Francesco De Gregori"
   },
   {
     "id": "2017-11-30-137",

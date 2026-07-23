@@ -258,9 +258,12 @@
     "end": 417.97,
     "speaker_raw": "SPEAKER_05",
     "testo": "Scusate, quando io volo in aereo per New York, in questa neanche super business, è proprio una roba che sto io, il capitano sia lì o il pilota, e c'è questa thailandese che fa i massaggi. Sì. E con la manina sale fino al ginocchio e io dico, ehi, non posso più. E lei, ah che peccato. E mi fa ridere che sono strozzata. Va bene.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Massaggio in aereo",
+    "tema": [
+      "viaggio",
+      "umorismo"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -280,9 +283,11 @@
     "end": 520.07,
     "speaker_raw": "SPEAKER_05",
     "testo": "Allora, Fabio, ma perché cerchi i soldi per la serie? No, allora, adesso a parte gli scherzi. Io posso dire solo una cosa, non l'ho mai detta sulla serie. Non tanto per la serie, quanto per... come esempio di lavoro. Sì. La serie televisiva che ho fatto si chiama Untraditional, no? Che mi hanno assacrato perché parlavo di me, ma non parlavo di me. Adesso tanto la fa anche Bisio e Matano, vedi? Nessuno ha scritto che sono egocentrici. Però fa niente... Io che sono sempre uno che anticipa i tempi, mi devo sempre prendere... Ti sei preso gli schiaffi. Mi sono preso gli schiaffi, poi dopo... Ah, ma aveva ragione. Vabbè, comunque, che non è neanche una cosa che ho inventato io. Stai in America dagli anni 90. Ah, Galileo. Aspetta. Io sono arrivato lì e mi hanno detto, ah, la terra... Vabbè, sentite questo. Non ci sono i fondi, perché è una serie, diciamo, che è politicamente scorretta. Cioè io, per esempio, il mio agente mi dice, abbiamo appena, ci hanno appena chiamato al centro, il centro non vede i ciechi, ci vogliono dare un premio, ma noi che cazzo ce ne frega del premio dei ciechi, per dire, no? Dice così. E ovviamente la RAI non può mandare in onda una cosa del genere. Raimondo, esatto. E poi ci sono tante altre scorrettezze. Quindi bisogna trovare dei fondi per fare questa cosa. Un po' c'è l'immedio, però è difficile. Qualcuno dice, ma si vede che c'è tanto la Citroen. Ma grazie che c'è la Citroen, che se no non si faceva. Una serie televisiva. Io voglio dire questa cosa ma non per me, per i ragazzi che io ho creato, un gruppo di ragazzi che vogliono, anzi se siete in ascolto e volete partecipare a una cosa che vi strappa il cuore dal petto, cioè il team che crede fortemente in una cosa, questa è... sto cercando di tirare su il dento, ancora sottopagata. No, sono tutti pagati in regola, diciamo, con i contributi e tutto. Però, insomma, è un tanto sacrificio, perché siamo una truppa ridotta.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Esempio di lavoro",
+    "tema": [
+      "lavoro"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -588,9 +593,12 @@
     "end": 991.64,
     "speaker_raw": "SPEAKER_05",
     "testo": "Comunque il punto è questo, pare che chi mette le lucine in casa prima, comunque con le lucine di Natale, che sia il presepe o che sia l'albero, portano allegria. Infatti nei paesi del nord Europa dove c'è buio, sapete che d'inverno è buio, d'estate è buio, loro lo lasciano praticamente per due mesi gli addobbi, li lasciano per due mesi perché portano allegria con le luci.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "lucine di natale portano allegria",
+    "tema": [
+      "allegria",
+      "natale"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -731,10 +739,13 @@
     "end": 1242.79,
     "speaker_raw": "SPEAKER_01",
     "testo": "Blue moon, you saw me standing alone Without a dream in my heart Without a love of my own Blue moon, you knew just what I was there for Blue Moon Now I'm no longer alone Without a dream in my heart Without a love of my own",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Blue Moon",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Richard Rodgers, Lorenz Hart"
   },
   {
     "id": "2017-11-24-067",
@@ -830,9 +841,11 @@
     "end": 1333.86,
     "speaker_raw": "SPEAKER_05",
     "testo": "Questa è un'idea però. Così lo disabobbi di sicuro. Allora ragazzi, dovevamo dire... Non è una storia. Una storia? Sì. Non è una storia. Di Natale. Di un bel Natale? Sì. Beh, tutti abbiamo il Natale più bello. Sentiamo. Era il Natale del 1996.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Natale del 1996",
+    "tema": [
+      "ricordi"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -907,9 +920,11 @@
     "end": 1529.98,
     "speaker_raw": "SPEAKER_03",
     "testo": "Once there was a way to get back home. To get back home Sleep pretty darling Do not cry Then I will sing a lullaby Golden slumbers fill your eyes Smiles are waking when Volo, Maurizio, Viola. Volo, Maurizio, Viola.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Once there was a way to get back home",
+    "tema": [
+      "nostalgia"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -918,9 +933,11 @@
     "end": 1641.47,
     "speaker_raw": "SPEAKER_05",
     "testo": "Che bella questa canzone di Elbo, sono troppo contento. Allora ragazzi, magari qualcuno di voi è in un momento che dice, boh, arrivo la sera, mi sembra di non aver concluso niente, che mi sembra che non ho fatto niente di utile, sai. Altri invece diranno, duro io, ho fatto tutto io. Però se avete quella sensazione lì di dire... Cioè che vai a cena e non hai una cosa bella da dire, oggi ho fatto sta cosa, succede. Allora adesso io vi do la possibilità, veloce, in 10 secondi, vi do la possibilità di fare una cosa fighissima in 30 secondi, fatelo per voi. Cioè proprio per fare i fighi voi così. Simone? Ciao Fabio. Ciao, come stai? Bene, e tu? Simone Garroni. Sì. Sì, sì. Mi aspettavo una conferma, esatto. Allora, Simone Garroni, tu sei stato qui da noi qualche settimana fa, anche un mese passa, forse due. Sì, mi ricordo. Ok, ok. E ci hai parlato del, insomma, voi vi occupate, dimmi tu come si chiama tutto. Siamo di azione contro la fame e ci occupiamo di salvare i bambini malnutriti. Ok, quindi questa mattina se prendete il telefono e fate 45546 e lo inviate, fatelo subito, cosa succede?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "sensazione di non aver concluso nulla",
+    "tema": [
+      "lavoro"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -1523,9 +1540,12 @@
     "end": 2469.78,
     "speaker_raw": "SPEAKER_10",
     "testo": "Paura di disgrazie terribili che potevano accadere oppure no. Per cinquante anni ho vissuto nella paura, ritrovandomi sempre sveglio alle tre del mattino. Ma ora è diverso, mi sono reso conto che è la paura la peggiore delle disgrazie, è la paura il vero nemico. Perciò, alzati. Vado ad affrontare la vita rete. Urli tu. E se il mondo è un bastardo, allora colpiscilo con tutta la forza di rete.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Paura e vita rete",
+    "tema": [
+      "paura",
+      "vita"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

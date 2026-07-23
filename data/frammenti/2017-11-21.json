@@ -16,10 +16,13 @@
     "end": 106.18,
     "speaker_raw": "SPEAKER_03",
     "testo": "Volo, Maurizio, Viola. Volo, Maurizio, Viola. Volo, Maurizio, Viola. Volo, Maurizio, Viola. Grazie a tutti. Oh, and now you've had your fun Under an air-conditioned sun It's burned into your eyes Leaves you plain and left behind I see them rise and fall Into the jars of a past and in love You wouldn't know what to say to yourself Love is a poverty you couldn't sell Misery waits in fake hotels",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Under an Air-conditioned Sun",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Beck"
   },
   {
     "id": "2017-11-21-002",
@@ -126,9 +129,11 @@
     "end": 310.78,
     "speaker_raw": "SPEAKER_01",
     "testo": "Io da ragazzina comprai un paio di pantaloni di Dolce & Gabbana, erano scozzesi pieni di zip, di lana. Due coiomi spungevano tutte le gambe, le avevo messe due volte, poi avevano il grosso qua diciamo sul pacco gonfio, poi la gambetta stretta, sembrava un cono, un arancino al contrario.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Pantaloni Dolce & Gabbana",
+    "tema": [
+      "moda"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -654,9 +659,12 @@
     "end": 1079.15,
     "speaker_raw": "SPEAKER_01",
     "testo": "Sì, sono bravo. Anche tu, anche tutti, ma anche gli ascoltatori. Segui sempre la tua strada senza aver paura di ciò che hai di fronte.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "seguire la propria strada",
+    "tema": [
+      "coraggio",
+      "paura"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -819,9 +827,12 @@
     "end": 1426.4,
     "speaker_raw": "SPEAKER_05",
     "testo": "Non permettere mai a nessuno di dirti che non sai fare qualcosa. Neanche a me. Ok? Ok. Se hai un sogno, tu lo devi proteggere. Quando le persone non sanno fare qualcosa, lo dicono a te, che non la sai fare. Se vuoi qualcosa, fai questo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "proteggere i sogni",
+    "tema": [
+      "sogni",
+      "perseveranza"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -830,9 +841,12 @@
     "end": 1433.54,
     "speaker_raw": "SPEAKER_01",
     "testo": "Mi commuove sempre, non so se per le parole, per il fatto che parla con un bambino o perché ci mettono queste musichette sotto.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "bambino e musichette",
+    "tema": [
+      "emozione",
+      "comunicazione"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -852,10 +866,13 @@
     "end": 1452.5,
     "speaker_raw": "SPEAKER_01",
     "testo": "Le basi, prima ha rovinato i quindici suggerimenti per il successo. E poi questa base che sentiamo adesso. Sì. Da dove viene? Cocchi e Renato. Cocchi e Renato. La canzone è Malpensa.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Malpensa",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Cocchi e Renato"
   },
   {
     "id": "2017-11-21-078",
@@ -1160,9 +1177,12 @@
     "end": 1941.27,
     "speaker_raw": "SPEAKER_00",
     "testo": "Oggi parliamo di un fatto avvenuto il 27 ottobre del 1954 a Firenze, in particolare nello stadio di Firenze, mentre si disputava la partita amichevole fiorentina-pistoiese. Durante un passaggio così particolarmente delicato, Sono iniziato a piovere dei capelli d'angelo. C'è dei lunghi filamenti dorati e d'argento. Sono caduti dal cielo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "pioggia di capelli d'angelo",
+    "tema": [
+      "storia",
+      "curiosità"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

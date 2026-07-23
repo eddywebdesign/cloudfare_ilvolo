@@ -380,8 +380,11 @@
     "speaker_raw": "SPEAKER_01",
     "testo": "Sono molti a sentirsi delle vittime nella vita, spesso collegandosi al loro passato. Chi può aver avuto genitori violenti, chi una famiglia che non funzionava. Vorrei aprire una parentesi per ricordarvi che molti psicologi sostengono che l'85% delle famiglie non funziona. I nostri non sono casi unici. I nostri non sono casi unici. È la storia di ognuno di noi, in una forma o nell'altra. Possiamo dire soltanto e allora? Quello che conta è che cosa avete intenzione di fare adesso. Potete restare focalizzati sul passato o focalizzarvi su cosa volete. E quando ci focalizziamo su quello che vogliamo, le cose che non vogliamo scompaiono. Quando ci focalizziamo su quello che vogliamo, le cose che non vogliamo scompaiono. C'è una parte di noi che si arricchisce e una parte di noi che svanisce. Tu l'hai fatta diventare la migliore.",
     "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "tema": [
+      "famiglia",
+      "passato"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -467,10 +470,13 @@
     "end": 1275.62,
     "speaker_raw": "SPEAKER_15",
     "testo": "Pare che ci siano ascoltatori che sul tema di questa bellissima canzone di Louis Armstrong e Ella Fitzgerald ci abbiano scritto che hanno praticamente l'abbonamento ai treni persi, cioè ci sono persone che hanno abbonamento al treno, altri invece che quando c'è un bel treno non salgono, sarebbe da chiamare psicologi per sapere. Autosabotaggio. Autosabotaggio, altro che treni, io ho perso aerei, astronavi e... E una si chiamava Claire. Vedi? Soprattutto nelle relazioni. Monclair, Monclair, cioè la mia Claire. Vai, fatto simpatico. La Monclair. Claire invece invece io ho pensato subito alla Sara Cinesca. Ah, la Claire. La Claire. Chissà se è perché l'ha inventata una che si chiama Claire, la Claire. Adesso c'è. No, sarà il marito che ha detto questa la dedico a mia moglie. Perché qua quando io dico una cosa non me le fa passare neanche una. Famuro, famuro. Famuro, chiamiamola Claire. Sto cercando. Sto cercando. Io penso sempre, ok, era la donna perfetta per me e sono riuscito a perderla. Posso dire una cosa che è anche un tema che c'è nel libro? Non si può sapere, cioè è la donna perfetta nella tua proiezione, ma poi quando sei lì, siccome quella vita non l'ha vissuta, magari era pure peggio, chi lo sa? Consoliamoci. Consoliamoci. Non hai la controprova. Non puoi avere la controprova. Guarda che sembra. Questa mattina sei arrivato presto. Guarda che tu metti proprio le punteggiature giuste. Hai visto? Io ho chiesto al mio psicologo e mi ha abbandonato pure lui. Oh no. Senti, ma com'è che io perdo i treni? Avanti un altro? Non mi caga mai nessuno, avanti un altro. Allora, qualcuno sostiene di aver perso un treno, tipo, quando ho letto quella lì di Modena, andrei a guardare, ti darei uno schiaffo. Sei di Bologna? Ti dico, l'allenatore ti dice che sei un ragazzino e il Modena vuole il cartellino, si dice. E lui dice, ma cosa vado a fare a Modena? Che so quanto, mezz'ora di macchina? E non è andato.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Dream a Little Dream of Me",
+    "tema": [
+      "sogni"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Louis Armstrong e Ella Fitzgerald"
   },
   {
     "id": "2017-12-20-043",
@@ -1204,9 +1210,12 @@
     "end": 2439.34,
     "speaker_raw": "SPEAKER_15",
     "testo": "Ah, come quando chiamiamo il telefono e gli dici subito il dialetto, la cadenza, pronto e sia vicino. Si chiami Mirko? Quando aveva 22 anni, adesso ne hai 48 diciamo, un po' più del doppio, comunque 22 anni, viveva in Mexico. Oh l'amico che ha, sei in Mexico. Cosa facevi in Mexico?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "amico mexico",
+    "tema": [
+      "amore",
+      "viaggio"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

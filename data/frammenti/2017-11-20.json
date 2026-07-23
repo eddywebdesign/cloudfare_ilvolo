@@ -27,10 +27,13 @@
     "end": 189.52,
     "speaker_raw": "SPEAKER_06",
     "testo": "Grazie a tutti. That you loved me Cause I'd already know What would you do If my heart was torn in two More than words to show you feel If I took those words away Then you couldn't make things new Just by saying I love you Volo, Maurizio, Viola. E siamo a Natale.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "That You Loved Me",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Luca Carboni e Giovanotti"
   },
   {
     "id": "2017-11-20-003",
@@ -159,9 +162,11 @@
     "end": 316.64,
     "speaker_raw": "SPEAKER_07",
     "testo": "Se Fabio Volo non c'è, non è mattina per me, è un abrioli senza cappuccino, perdere il volo del mattino, ora su radio DJ, Fabio ci fai o ci sei, thank you.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "senza Fabio non è mattina",
+    "tema": [
+      "lavoro"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -335,9 +340,12 @@
     "end": 577.6,
     "speaker_raw": "SPEAKER_11",
     "testo": "Volo, Maurizio, Viola. Tell me what's been happening, what's been on your mind. Lately you've been searching for a darker place to hide. That's alright. But if you can't be unabusing, you'll be robbed from us. I refuse to lose another friend to drugs, just come home. Grazie a tutti.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "discussione droghe",
+    "tema": [
+      "droga",
+      "amicizia"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -775,10 +783,14 @@
     "end": 1243.87,
     "speaker_raw": "SPEAKER_01",
     "testo": "Esatto. La cosa interessante è che quando feci il seminario con Jodorowsky, lui spiegò la gravità che ricade sulla figlia di un padre troppo geloso. Stiamo parlando del padre veramente geloso, tipo il Bagozzi. Il mio vicino di casa quando ero ragazzino. Il Bagozzi. C'è detto, è il suo cognome. Mi ricordo che quando la ragazza, io non ero un bambino.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "seminario con Jodorowsky",
+    "tema": [
+      "padre",
+      "gelosia"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Alejandro Jodorowsky"
   },
   {
     "id": "2017-11-20-071",

@@ -1274,9 +1274,12 @@
     "end": 1445.57,
     "speaker_raw": "SPEAKER_09",
     "testo": "Sognare? Sì. Stronzate. Non farai mai niente del genere. Te lo dico io cosa farai. Ti troverai un lavoro. Ecco cosa farai. Ti troverai un lavoro, uno di quei lavori che può trovare uno come noi. Passare le giornate a lavare le tazzine in un bar o pulire i cessi. E ti aggrapperai a quel lavoro come se fosse oro. Perché è oro? Questo devi imparare. Quello è oro. Oh, devi starmi a sentire. E quando il padrone entra alla fine della giornata e viene a vedere come hai lavorato, tu non lo guarderai negli occhi, guarderai per terra. Perché avrai una gran voglia di saltarti addosso, sbatterlo per terra e farlo urlare e farlo supplicare e piangere. E così guarderai per terra perché avrai paura di farlo. Questa è la vita che ti aspetta, stronzo. Lui si guarderà intorno per controllare quello che hai fatto e dirà, oh, c'è ancora una macchiolina laggiù. Cristo, è possibile che non l'hai vista? Prima di andare via, quella me la levi! Reprimerai la rabbia che ti sale al cervello e pulirai quella macchia, ecco. Pulirai quella macchia bene, finché non diventerà bello lui.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "lavoro come oro",
+    "tema": [
+      "lavoro",
+      "rispetto"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -1879,10 +1882,13 @@
     "end": 2088.33,
     "speaker_raw": "SPEAKER_08",
     "testo": "E adesso, ragazzi, vi facciamo un regalo bellissimo. La nuova canzone di Giovanotti, O Vita. Questo è un regalo che ci ha fatto per farci ricordare le cose belle e le cose piccole. Bravo, bravo, bravo!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "O Vita",
+    "tema": [
+      "ricordi"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Giovanotti"
   },
   {
     "id": "2017-12-19-169",
@@ -2110,10 +2116,11 @@
     "end": 2187.16,
     "speaker_raw": "SPEAKER_15",
     "testo": "Questo Elbow ci ha regalato una cosa bellissima, piccola, che si chiama Golden Slumber.",
-    "titolo": "",
+    "titolo": "Golden Slumber",
     "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Elbow"
   },
   {
     "id": "2017-12-19-190",
@@ -2177,8 +2184,10 @@
     "speaker_raw": "SPEAKER_15",
     "testo": "E poi vogliono cacciare me. No, ma adesso andiamo a vacanza. Pur di darmi contro. Comunque, stavo dicendo, torniamo l'otto e noi continuiamo tutto l'anno a esaudire i vostri desideri. Desideri. Ok, l'ho detto un po' alla Savino. Desideri, desideri. Va bene. Vi ho portato una canzone questa mattina, una vecchia canzone che ogni tanto mettiamo il volo del mattino, in italiano, così vi ascoltate bene il testo e vi emozionate perché è veramente una vera poesia di Ivano Fossati. Da pensare a tutti i bei Natali trascorsi con i vostri parenti e quelli che ancora devono arrivare.",
     "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "tema": [
+      "tempo"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -2204,9 +2213,12 @@
     "end": 2645.09,
     "speaker_raw": "SPEAKER_12",
     "testo": "C'è un tempo perfetto per fare silenzio, guardare il passaggio del sole d'estate e saper raccontare ai nostri bambini quando è l'ora muta delle fate. Buongiorno che ci siamo perduti come smarrire un anello in un prato e c'era tutto un programma futuro che non abbiamo avverato è tempo che sfugge niente paura che prima o poi ci riprende perché c'è tempo, c'è tempo, c'è tempo, c'è tempo per questo mare infinito di gente Dio è proprio tanto che piove e da un anno non torno. Da mezz'ora sono qui arruffato dentro una sala d'aspetto di un tram che non viene. Non essere gelosa di me, della mia vita. Non essere gelosa di me, non essere mai gelosa di me. C'è un tempo d'aspetto, come dicevo, qualcosa di buono che verrà, un attimo fotografato, dipinto, segnato e quello dopo perduto via, senza nemmeno voler sapere come sarebbe stata. C'è un tempo bellissimo, tutto sudato, una stagione ribelle. L'istante in cui scocca l'unica freccia che arriva alla volta celeste e trafigge le stelle. È un giorno che tutta la gente si tende la mano. È il medesimo istante per tutti che sarà benedetto, io credo, da molto lontano. È il tempo che è finalmente. Un tempo in cui mi vedrai accanto a te nuovamente, mano alla mano. Che buffi saremo se non ci avranno nemmeno avvisato. Dicono che c'è un tempo per seminare e uno più lungo per aspettare. Io dico che c'era un tempo sognato che bisognava sognare.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "C'è un tempo perfetto per fare silenzio",
+    "tema": [
+      "silenzio",
+      "tempo"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {

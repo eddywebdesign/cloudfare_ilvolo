@@ -566,10 +566,14 @@
     "end": 905.08,
     "speaker_raw": "SPEAKER_06",
     "testo": "Però la domanda non è la vestaglia tipo di raso, sono quelle un po' di pile. Ma non fa caldo? È proprio quello, come tenere il piumone addosso. Ah, che vai in giro. Devo dire che Brad Pitt in Fight Club gira con l'accappatoio e... Anche un po' cortino. È l'uomo più figo. Cioè lui, Brad Pitt, si può mettere anche quelle pantofole lì nel film, è l'accappatoio. Io ho visto il film e ho detto, sai che mi quasi comincio a girare anche io in casa, ma non funziona, funziona solo con Brad. Allora, qualcuno mi dice, hai altri aneddoti come questo di Tronon? Potremmo chiamarlo, l'ho detto che ce lo racconta, perché è una storia, ne ha mille ovviamente, di storie meravigliose. Posso dire... Posso dire che ieri ho incontrato per la prima volta, domani che faccio questo lavoro, Silvio Berlusconi. Mamma mia. Che era da Fazio.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Fight Club",
+    "tema": [
+      "stile",
+      "moda"
+    ],
+    "tipo": "riferimento_film",
+    "video_url": "",
+    "autore": "David Fincher"
   },
   {
     "id": "2017-11-27-052",
@@ -1380,10 +1384,13 @@
     "end": 2237.27,
     "speaker_raw": "SPEAKER_06",
     "testo": "Una poesia, una poesia, una poesia, una poesia. Lucio Dalla, La Sera dei Miracoli, la 1978, l'abbiamo riproposta questa mattina per voi perché vi vogliamo bene ed è un lunedì meraviglioso. Sarà una settimana stupenda e fatemelo dire che un po' che non lo dico, ma me lo ha ricordato un'ascoltatrice in questi giorni, andrà tutto bene. Oh, dice un po' che non lo dici. Allora, scusate ragazzi, chiedo a Francesca, l'ascoltatrice che ci sta ancora ascoltando, qua arrivano molti messaggi dicendo che gli ascoltatori hanno riconosciuto Francesca e Gabriele e Gianluca, secondo i nostri ascoltatori sono due persone che si sono conosciute e sposate in un programma televisivo su Sky. Un matrimonio a prima vista. Io non lo conosco, che cos'è esattamente?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "La Sera dei Miracoli",
+    "tema": [
+      "serenità"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Lucio Dalla"
   },
   {
     "id": "2017-11-27-126",

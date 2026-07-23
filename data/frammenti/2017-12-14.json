@@ -335,10 +335,13 @@
     "end": 666.77,
     "speaker_raw": "SPEAKER_10",
     "testo": "Da quanto non si sentiva questo pezzo di David Bowie?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "pezzo di David Bowie",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "David Bowie"
   },
   {
     "id": "2017-12-14-031",
@@ -357,10 +360,13 @@
     "end": 685.09,
     "speaker_raw": "SPEAKER_10",
     "testo": "Da quanto tempo non si sentiva questa canzone di David Bowie, Blue Jean, su Radio DJ? Sai quando è uscita questa canzone? Quando? Sai quanti anni avevi tu nel 1984? Io? Cinque. Viola? Zero.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Blue Jean",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "David Bowie"
   },
   {
     "id": "2017-12-14-033",
@@ -566,10 +572,13 @@
     "end": 848.91,
     "speaker_raw": "SPEAKER_13",
     "testo": "Sono sei regole dal film Una famiglia all'improvviso. Quella che hai spoilerato prima. No, quella è stata clamorosa. Quella è Famiglia all'improvviso. Ah, ok, ok.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Famiglia all'improvviso",
+    "tema": [
+      "famiglia"
+    ],
+    "tipo": "riferimento_film",
+    "video_url": "",
+    "autore": "Omar Sy"
   },
   {
     "id": "2017-12-14-052",
@@ -665,9 +674,12 @@
     "end": 940.26,
     "speaker_raw": "SPEAKER_01",
     "testo": "Significa che il risultato non conta. Quello che importa è che tu ci sia fino in fondo. Qualsiasi cosa sia, bella o brutta. Come adesso, fai conto. E infine, numero sei, la mia regola preferita. Non andare mai a letto con chi ha più problemi di te. Ehi! E io aggiungo anche, sappi che tua madre ascolta sempre.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "regole per la vita",
+    "tema": [
+      "vita",
+      "impegno"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

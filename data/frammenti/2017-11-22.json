@@ -335,9 +335,12 @@
     "end": 848.86,
     "speaker_raw": "SPEAKER_13",
     "testo": "Questa è Radio DJ, questi sono i Green Day. Volevo ringraziare Irene che dice che ha cambiato il turno di lavoro per venire stasera a vedere questo bel faccione. Il 13 dicembre, che è Santa Lucia, mi sveglio la mattina, faccio la Santa Lucia ai miei bambini. Sapete che essendo di Brescia portano i regali. E poi vado a presentare il libro a Londra. Io sono sempre contento quando vado a Londra perché vado in quel negozietto prima di Natale a comprarmi le candele, quelle che mi piacciono. Vado lì da antropologi. Siete mai stati ad Antropology? C'è a Londra e a New York, in Europa c'è solo a Londra. Allora, adesso voi chiamatemi sul cellulare. Ti stiamo chiamando. Allora, a me aspetta, forse mi squilla, però è un numero a noi. Senti, sono io questo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "santa lucia bambini londra",
+    "tema": [
+      "famiglia",
+      "lavoro"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -775,9 +778,12 @@
     "end": 1784.97,
     "speaker_raw": "SPEAKER_13",
     "testo": "Allora, io finisco il programma alle dieci. A piedi dalla Colombo in 40 minuti arrivo a Campo dei Fiori e mi faccio la focaccia con le spinaci e la mozzarella. Ieri alla presentazione del libro i librai sapendolo mi hanno fatto avere da quel panificio una fetta gigante, un vassoio gigante.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "focaccia con spinaci",
+    "tema": [
+      "cibo",
+      "libri"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

@@ -808,9 +808,12 @@
     "end": 1070.05,
     "speaker_raw": "SPEAKER_10",
     "testo": "Ad avere paura, paura di disgrazie terribili che potevano accadere oppure no. Per cinquante anni ho vissuto nella paura, ritrovandomi sempre sveglio alle tre del mattino. L'ora è diversa, l'ora è diversa. Mi sono reso conto che è la paura la peggiore delle disgrazie, è la paura il vero nemico. Perciò alzati, vada ad affrontare la vita reale. E se il mondo è un bastardo, allora colpisci con tutta la forza che hai. Cosa griderà Valentina? Mi fa male la schiena?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "vita vissuta nella paura",
+    "tema": [
+      "paura",
+      "disgrazie"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -1028,9 +1031,11 @@
     "end": 1406.77,
     "speaker_raw": "SPEAKER_11",
     "testo": "Un ascoltatore scrive, sono un uomo ma sto piangendo con questa canzone, come mai? E sei sensibile. Vi dico questa cosa ragazzi, il dolore e la gioia entrano dalla stessa porta, siamo d'accordo? Per cui se tu ti barrichi, va bene barrichi? Se tu ti barrichi per il dolore, cioè dici io adesso mi difendo, mi chiudo così almeno non sento il male, non senti neanche il bene, capito? Bisogna solo mettersi in testa la differenza sostanziale fra debolezza e fragilità. La debolezza e vanno combattute e vanno risolte. La fragilità va sostenuta e protetta.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "dolore e gioia",
+    "tema": [
+      "sentimenti"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -1534,10 +1539,13 @@
     "end": 2031.21,
     "speaker_raw": "SPEAKER_11",
     "testo": "Come dicevano in Pulp Fiction, quando avete finito di farvi i pompini andiamo avanti a lavorare. Va bene, va bene.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Pulp Fiction",
+    "tema": [
+      "lavoro"
+    ],
+    "tipo": "riferimento_film",
+    "video_url": "",
+    "autore": "Quentin Tarantino"
   },
   {
     "id": "2017-11-17-140",
@@ -1853,9 +1861,12 @@
     "end": 2677.5,
     "speaker_raw": "SPEAKER_11",
     "testo": "Io non parto mai da quella cosa. Allora io non ci sono. Oggi che butto le perle così. Se insegui soldi, i soldi scappano. Tu devi inseguire ciò che ti piace, aspetta, e i soldi arrivano. Quando ti svegli la mattina, ok? Sì. Ok, non ti devi chiedere cosa fai, ti devi chiedere perché lo fai.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "seguire il piacere",
+    "tema": [
+      "soldi",
+      "passione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

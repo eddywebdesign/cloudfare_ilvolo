@@ -170,9 +170,11 @@
     "end": 341.77,
     "speaker_raw": "SPEAKER_00",
     "testo": "A proposito di thank you, mi ha detto la Stellin che è venuto un ragazzo, perché oggi come succede che non lavorando sono arrivati tutti, che mi ha portato delle barrette.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "grazie la stellin",
+    "tema": [
+      "ringraziamento"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -313,9 +315,11 @@
     "end": 607.62,
     "speaker_raw": "SPEAKER_06",
     "testo": "It was a teenage wedding and the old folks wished him well. You can see that Pierre did truly love the mademoiselle. And now the young monsieur and madame have rung the chapel bell. C'est la vie, c'est les haubons, it goes a show you never can tell. They furnished off an apartment with a two-room robot cell. But when Pierre found work, the little money coming worked out well. C'est la vie, say the old folks, the culture show you never can tell. They had a high-five phone, oh boy, did they let it blast. Seven hundred little records, all rock, rhythm and jazz. But when the sun went down, the rapid tempo of the music fell. Volo, Maurizio, Viola. Volo, Maurizio, Viola. Volo Volo, Maurizio, Viola.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "It was a teenage wedding",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -588,10 +592,14 @@
     "end": 1455.27,
     "speaker_raw": "SPEAKER_00",
     "testo": "Nonostante sia una giornata un po' di festa, sono arrivati milioni e milioni di messaggi su cos'è la cicala dei numeri primi, ha a che fare con il libro La solitudine dei numeri primi? No, eccola qua, la sentite la cicala? Senti... Si scopre quando si è bambini, non fa un verso, ma si gratta la schiena.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "La solitudine dei numeri primi",
+    "tema": [
+      "numeri",
+      "relazione"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Paola Celanese, Alessandro Turchi"
   },
   {
     "id": "2017-12-08-054",
@@ -852,10 +860,11 @@
     "end": 1758.36,
     "speaker_raw": "SPEAKER_00",
     "testo": "Googola, Googola. Ma non è per il colore, è perché con le zampette fa. Come cucinella. Con il bastone. Va bene, mettiamo un disco. I found a love.",
-    "titolo": "",
+    "titolo": "I found a love",
     "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Kodaline"
   },
   {
     "id": "2017-12-08-078",
@@ -863,9 +872,11 @@
     "end": 1853.16,
     "speaker_raw": "SPEAKER_09",
     "testo": "I found a girl beautiful and sweet I never knew you were the someone waiting for me Cause we were just kids when we fell in love Volo, Maurizio, Viola. In the dark With you between my arms Barefoot on the grass Listening to our favorite song When you said you looked a mess I whispered underneath my breath But you heard it Darling you look perfect tonight",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "I found a girl beautiful and sweet",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -874,9 +885,11 @@
     "end": 1924.29,
     "speaker_raw": "SPEAKER_03",
     "testo": "Volo, Maurizio, Viola. To carry more than just my secrets To carry love To carry children of our own We are still kids but we're so in love Fighting against all odds I know we'll be alright This time Darling just hold my hand Volo, Maurizio, Viola. Volo, Maurizio, Viola.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "We are still kids but we're so in love",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -1050,10 +1063,13 @@
     "end": 2121.52,
     "speaker_raw": "SPEAKER_00",
     "testo": "Bene, quindi è chiara, non è la concepime, tutti gli anni non la sappiamo. Ma qui abbiamo il professore, che ne sa invece? No, perché Viola l'altro giorno mi ha fatto vedere un bellissimo articolo sul giornale. Libero.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "articolo sul giornale",
+    "tema": [
+      "entomologia forense"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Libero"
   },
   {
     "id": "2017-12-08-096",
@@ -1149,9 +1165,12 @@
     "end": 2226.78,
     "speaker_raw": "SPEAKER_01",
     "testo": "Stava di lì a far ridere. Andiamo a vedere questa cosa. E ha notato delle larve di un insetto che non erano di foresta, ma così in qualche modo si sviluppavano solo nelle città e nelle case. E quindi hanno indagato, gli investigatori avevano scoperto che il marito l'aveva uccisa, l'aveva strangolata, l'aveva tenuta in casa un paio di giorni e poi l'aveva caricata in macchina, aveva fatto più di mille chilometri e l'aveva impiccata appunto su un albero.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Entomologo scopre verità",
+    "tema": [
+      "morte",
+      "investigazione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1160,9 +1179,12 @@
     "end": 2237.24,
     "speaker_raw": "SPEAKER_00",
     "testo": "Ma l'entomologo dove li ha trovati? Sulla corda, sul corpo della donna? No, sul corpo della donna. Ah, quindi passava proprio di lì quel momento lì che l'entomologo girava. Fantastico.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Larve sul corpo",
+    "tema": [
+      "scoperta",
+      "verità"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1182,9 +1204,12 @@
     "end": 2260.11,
     "speaker_raw": "SPEAKER_00",
     "testo": "E sai la sfiga di questo che pensava di aver fatto il colpo perfetto e poi passa l'entomologo e gli dice ragazzi caffè, caffè. Guarda un attimo, quella larva non mi torna. Era passato per una pizzata con gli amici, pizza ragazzi. Cos'è quella là?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Entomologo interrompe cena",
+    "tema": [
+      "caso",
+      "investigazione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
