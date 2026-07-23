@@ -78,6 +78,31 @@ def _similarita(a: str, b: str) -> float:
     return difflib.SequenceMatcher(None, a, b).ratio()
 
 
+def _similarita_autore(a: str, b: str) -> float:
+    """Similarita' per NOMI DI PERSONA, per parole intere, non per carattere.
+
+    Trovato 2026-07-23 con un test reale contro l'API vera di Open Library (caso
+    "Ulisse"/"Dante Alighieri"): _similarita() carattere-per-carattere da'
+    "Dante Alighieri" vs "Antonino Pagliaro" (l'autore VERO di quella traduzione,
+    zero parole in comune) = 0.5 di similarita' — abbastanza da far CONFERMARE
+    automaticamente (punteggio finale 0.85, ben sopra SOGLIA_ALTA) un'attribuzione
+    completamente sbagliata, solo perche' due nomi italiani condividono lettere/
+    sillabe comuni per caso. La similarita' a caratteri e' giusta per i TITOLI
+    (tollera rumore di trascrizione, parole in piu' attaccate) ma sbagliata per i
+    NOMI DI PERSONA, dove quello che conta e' se condividono PAROLE intere (nome/
+    cognome), non lettere sparse. Qui il punteggio e' frazione di parole in comune
+    sul piu' lungo dei due insiemi (0.0 se nessuna parola condivisa, anche se le
+    lettere si somigliano)."""
+    a_norm, b_norm = _normalizza(a), _normalizza(b)
+    if not a_norm or not b_norm:
+        return 0.0
+    parole_a, parole_b = set(a_norm.split()), set(b_norm.split())
+    comuni = parole_a & parole_b
+    if not comuni:
+        return 0.0
+    return len(comuni) / max(len(parole_a), len(parole_b))
+
+
 def _tmdb_key() -> str:
     if not TMDB_KEY_FILE.exists():
         print(f"Errore: chiave TMDB non trovata in {TMDB_KEY_FILE}")
@@ -85,10 +110,26 @@ def _tmdb_key() -> str:
     return TMDB_KEY_FILE.read_text(encoding="utf-8").strip()
 
 
+SOGLIA_TITOLO_CERTO = 0.85  # sopra: il titolo esiste davvero come opera reale
+SOGLIA_AUTORE_ESTRANEO = 0.25  # sotto: l'autore proposto non c'entra nulla col titolo trovato
+
+
 def verifica_libro(titolo: str, autore: str) -> tuple[float, str, str]:
     """Cerca su Open Library, ritorna (similarita' massima, descrizione del match,
     URL copertina o '' se non disponibile). Nessuna chiave richiesta ne' per la
-    ricerca ne' per le copertine (covers.openlibrary.org e' pubblico)."""
+    ricerca ne' per le copertine (covers.openlibrary.org e' pubblico).
+
+    Aggiunto 2026-07-23 (caso reale trovato: "Ulisse" attribuito a "Dante Alighieri" —
+    Ulisse e' un personaggio DENTRO l'Inferno di Dante, non un'opera a se' stante):
+    prima il punteggio combinato (titolo 70% + autore 30%) per un titolo vero con
+    autore sbagliato finiva quasi sempre appena SOTTO la soglia di conferma (~0.7),
+    cadendo in "dubbio" e richiedendo sempre revisione umana anche quando l'errore
+    era in realta' certo. Ora, se il titolo esiste chiaramente (similarita' >= 0.85)
+    ma NESSUN autore trovato per quel titolo somiglia a quello proposto (< 0.25),
+    e' un'attribuzione sbagliata con alta confidenza, non un caso ambiguo: il
+    punteggio viene forzato sotto SOGLIA_BASSA per farlo cadere in
+    "probabile_falso_positivo" invece che in "dubbio" — riduce la coda di revisione
+    umana per questo specifico tipo di errore, gia' verificato non ambiguo."""
     try:
         resp = requests.get(
             "https://openlibrary.org/search.json",
@@ -101,11 +142,14 @@ def verifica_libro(titolo: str, autore: str) -> tuple[float, str, str]:
     except Exception as e:
         return -1.0, f"errore rete: {e}", ""
     migliore = (0.0, "", "")
+    titolo_certo_ma_autore_estraneo = False
     for d in docs:
         titolo_trovato = d.get("title", "")
         sim_titolo = _similarita(titolo, titolo_trovato)
         autori_trovati = d.get("author_name", []) or []
-        sim_autore = max((_similarita(autore, a) for a in autori_trovati), default=0.0)
+        sim_autore = max((_similarita_autore(autore, a) for a in autori_trovati), default=0.0)
+        if autore and sim_titolo >= SOGLIA_TITOLO_CERTO and sim_autore < SOGLIA_AUTORE_ESTRANEO:
+            titolo_certo_ma_autore_estraneo = True
         # Il titolo pesa piu' dell'autore: un titolo giusto con autore diverso e'
         # comunque un indizio forte di opera reale (es. traduzioni/edizioni diverse).
         punteggio = sim_titolo * 0.7 + sim_autore * 0.3
@@ -113,6 +157,13 @@ def verifica_libro(titolo: str, autore: str) -> tuple[float, str, str]:
             cover_id = d.get("cover_i")
             cover_url = f"https://covers.openlibrary.org/b/id/{cover_id}-M.jpg" if cover_id else ""
             migliore = (punteggio, f"{titolo_trovato} — {', '.join(autori_trovati[:2])}", cover_url)
+    if titolo_certo_ma_autore_estraneo and migliore[0] < SOGLIA_ALTA:
+        return (
+            min(migliore[0], SOGLIA_BASSA - 0.01),
+            migliore[1] + " [titolo reale ma nessun autore trovato somiglia a "
+                          f"{autore!r}: attribuzione probabilmente sbagliata]",
+            migliore[2],
+        )
     return migliore
 
 
@@ -173,17 +224,27 @@ def verifica_musica(titolo: str, autore: str) -> tuple[float, str, str]:
     except Exception as e:
         return -1.0, f"errore rete: {e}", ""
     migliore = (0.0, "", "")
+    titolo_certo_ma_autore_estraneo = False
     for r in recordings:
         titolo_trovato = r.get("title", "")
         sim_titolo = _similarita(titolo, titolo_trovato)
         artisti = [ac.get("name", "") for ac in r.get("artist-credit", []) if isinstance(ac, dict)]
-        sim_autore = max((_similarita(autore, a) for a in artisti), default=0.0)
+        sim_autore = max((_similarita_autore(autore, a) for a in artisti), default=0.0)
+        if autore and sim_titolo >= SOGLIA_TITOLO_CERTO and sim_autore < SOGLIA_AUTORE_ESTRANEO:
+            titolo_certo_ma_autore_estraneo = True
         punteggio = sim_titolo * 0.7 + sim_autore * 0.3
         if punteggio > migliore[0]:
             releases = r.get("releases") or []
             release_id = releases[0].get("id") if releases else None
             cover_url = f"https://coverartarchive.org/release/{release_id}/front-250" if release_id else ""
             migliore = (punteggio, f"{titolo_trovato} — {', '.join(artisti[:2])}", cover_url)
+    if titolo_certo_ma_autore_estraneo and migliore[0] < SOGLIA_ALTA:
+        return (
+            min(migliore[0], SOGLIA_BASSA - 0.01),
+            migliore[1] + " [titolo reale ma nessun artista trovato somiglia a "
+                          f"{autore!r}: attribuzione probabilmente sbagliata]",
+            migliore[2],
+        )
     return migliore
 
 
