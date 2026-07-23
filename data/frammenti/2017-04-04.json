@@ -93,10 +93,13 @@
     "end": 468.09,
     "speaker_raw": "SPEAKER_01",
     "testo": "Poi parte il pezzo di Little Walter, 1955, un capolavoro per farvi godere.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "capolavoro di Little Walter",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Little Walter"
   },
   {
     "id": "2017-04-04-009",
@@ -797,10 +800,14 @@
     "end": 2801.21,
     "speaker_raw": "SPEAKER_01",
     "testo": "Scusate, il rapporto spirituale con Dio, in quale sfera emozionale si colloca? Chiede Alessandra. Autorealizzazione. Nell'autorealizzazione, esatto. Infatti la cultura, diciamo, gli ebrei è molto chiara in quella religione questa risposta, per esempio. Però fai un esempio molto bello. Madre Teresa di Calcutta. Sì, non è mia, è di Stefano Benemeglio Comunale.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Madre Teresa di Calcutta",
+    "tema": [
+      "religione",
+      "carità"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Stefano Benemeglio Comunale"
   },
   {
     "id": "2017-04-04-073",

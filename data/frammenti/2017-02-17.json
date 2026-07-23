@@ -284,10 +284,13 @@
     "end": 1262.36,
     "speaker_raw": "SPEAKER_05",
     "testo": "puoi mettere un disco? sei stufato? fai finire il giro madonna ragazzi madonna ragazzi che fatica stare al mondo in questo mondo loro sono gli Offenbach Be Mine Radio DJ in volo del mattino 3, 2, 1",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Be Mine",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Offenbach"
   },
   {
     "id": "2017-02-17-026",

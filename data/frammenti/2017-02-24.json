@@ -148,10 +148,13 @@
     "end": 765.12,
     "speaker_raw": "SPEAKER_01",
     "testo": "Devo dire che l'ufficio stampa di Rizzoli ha fatto un lavoro eccezionale. È riuscito a convincere la NASA a fare un comunicato esattamente nel giorno dell'uscita del libro.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "libro di Guido Tonelli",
+    "tema": [
+      "scienza"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Guido Tonelli"
   },
   {
     "id": "2017-02-24-014",
@@ -563,9 +566,12 @@
     "end": 2232.02,
     "speaker_raw": "SPEAKER_06",
     "testo": "Ti è mai capitato? A me è capitato di incontrare una ragazza Martina Rabolini che è una nuotatrice paralimpica e mi ha detto ci troviamo ci vediamo. Ho detto sì ma non troviamoci in una piazza perché sennò ora che ci incontriamo moriamo di vecchiaia tutti e due.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "incontrare nuotatrice paralimpica",
+    "tema": [
+      "tempo",
+      "preparazione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -607,9 +613,12 @@
     "end": 2309.58,
     "speaker_raw": "SPEAKER_06",
     "testo": "Infatti il punto è proprio quello, avere un bimbo al giorno d'oggi, avere un figlio in generale non sei pronto, non studi per fare il genitore e quindi è una cosa complessa. Quando poi un bimbo, nel mio caso non vede, ma in generale ha una disabilità, una problematica, chiaramente il panico aumenta, cosa farà, ce la farà, avrà delle persone che gli vogliono bene, sarà felice.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "aver figlio disabilitato",
+    "tema": [
+      "genitori",
+      "panico"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

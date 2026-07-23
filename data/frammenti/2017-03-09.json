@@ -280,10 +280,13 @@
     "end": 917.95,
     "speaker_raw": "SPEAKER_08",
     "testo": "Vamos a hacer la historia! Vamos a hacer la historia! Capito che poi detto in spagnolo è proprio capito Che Guevara, vamos! E io me lo inizio a credere! E tu mi dici?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Che Guevara",
+    "tema": [
+      "rivoluzione"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Ernesto Che Guevara"
   },
   {
     "id": "2017-03-09-026",
@@ -313,9 +316,11 @@
     "end": 958.18,
     "speaker_raw": "SPEAKER_07",
     "testo": "Super seratona! Gol del Paris Saint Germain 3-1 a quel punto devono farli altri tre come abbiamo detto prima lui convince il suo amico Eric super tifoso del Barcellona di lasciare il bar di lasciare il bar e andarsene dico ascolta andiamo a casa due carri a casa e vaffanculo l'avresti fatto anche te signorino Fabio io l'avrei detto dai ma che sei qua ancora mezz'ora hai perso poi ti rimane quella tristezza addosso andiamo via prima che tutti piangono e lasciano il bar senti ma tu sei andato a casa non hai il televisore diciamo per vedere la partita perché non sarà stato in chiaro",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Gol del Paris Saint Germain",
+    "tema": [
+      "calcio"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -324,9 +329,11 @@
     "end": 975.62,
     "speaker_raw": "SPEAKER_10",
     "testo": "La cosa è andata così, noi torniamo a casa, cominciamo a camminare e di colpo sentiamo da una terrazza No! I francesi hanno vinto e di colpo ho detto no, non può essere. Iniziai a sentire gente urlando e ho guardato su Google 6 a 1.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Francesi vincono",
+    "tema": [
+      "calcio"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -456,9 +463,12 @@
     "end": 1411.4,
     "speaker_raw": "SPEAKER_07",
     "testo": "anch'io ho lasciato il mio lavoro certo per un mio sogno però non sta ancora ingranando ci sono giorni che dico ce la farò e giorni che dico ho fatto la più grande cazzata della mia vita sappi che farcela o non farcela conta sempre poco conta il fatto che ci hai provato capito? che la vita è l'esperienza è il fatto di dirti un giorno oh è andata male però io ci ho provato e quindi sarei contenta di guardarti allo specchio maestro scifo mollare o non mollare mollare o non mollare",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "importanza del tentativo",
+    "tema": [
+      "lavoro",
+      "sogni"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -467,9 +477,12 @@
     "end": 1583.65,
     "speaker_raw": "SPEAKER_15",
     "testo": "a preoccuparci della verità vedrai che poi il tempo non ci tradirà Sotto un vento di libeccio che dall'Africa soffia lieve su di noi la sua sabbia. Vedrai che riusciremo a dare ancora un nome a tutte le paure che ci fan tremare e troveremo il modo per dimenticare. nella delusione vedrai che desideri impareremo anche a comprendere che esiste un buon motivo per insistere sotto un vento di libeccio che dall'Africa soffia lieve su di noi la sua sabbia Tutte le paure che ci fan tremare",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "vento di libeccio",
+    "tema": [
+      "paure",
+      "delusione"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -621,9 +634,12 @@
     "end": 2043.55,
     "speaker_raw": "SPEAKER_12",
     "testo": "ad avere paura paura di disgrazie terribili che potevano accadere oppure no per 50 anni ho vissuto nella paura ritrovandomi sempre sveglio alle 3 del mattino ma ora è diverso mi sono reso conto che è la paura la peggiore delle disgrazie è la paura il vero nemico perciò alzati Vado ad affrontare la vita reale. E se il mondo è un bastardo, allora colpiscilo con tutta la forza che hai.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Paura come nemico",
+    "tema": [
+      "paura",
+      "vita"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

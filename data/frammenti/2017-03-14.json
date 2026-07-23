@@ -82,10 +82,13 @@
     "end": 472.59,
     "speaker_raw": "SPEAKER_01",
     "testo": "brutto nome va bene questa mattina parliamo di silenzio ragazzi perché mi è tornato alla mente una frase di frango battiato che da ragazzino ascoltandola casualmente perché era un album difficile non per teenager nel suo periodo polluscio faceva tutti gli suoi esperimenti così Però a un certo punto parte un waltzer e lui dice una frase e quella frase non dico che mi ha cambiato la vita ma mi ha segnato parecchio ed è legata un po' al silenzio e al ruolo delle persone, al pensiero. E poi Viola ci ha suggerito in questi giorni un articolo su un libro che parla del silenzio. Esatto. Noi sul silenzio siamo preparatissimi, abbiamo Ezio Bianchi, abbiamo tante cose, quindi questa mattina è più che una puntata da motivatori che vi gasiamo, vi facciamo riflettere che comunque è una proteina importante per il corpo, quella del silenzio.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "album di franco battiato",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "franco battiato"
   },
   {
     "id": "2017-03-14-008",
@@ -115,10 +118,13 @@
     "end": 508.69,
     "speaker_raw": "SPEAKER_08",
     "testo": "ti direi di sì e parla di un libro scritto da un esploratore norvegese ormai tutto viene dal nord Europa ci hanno cominciato anche a rompere le scatole esatto, comunque c'è questo libro si chiama Il Silenzio e esplora proprio tutte le caratteristiche e soprattutto i benefici che porta al silenzio ognuno di noi e tra l'altro cita una ricerca di Microsoft che dice che in media la mente umana comincia a divagare dopo 8 secondi di silenzio",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "il silenzio",
+    "tema": [
+      "silenzio"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "esploratore norvegese"
   },
   {
     "id": "2017-03-14-011",
@@ -577,9 +583,11 @@
     "end": 1560.3,
     "speaker_raw": "SPEAKER_12",
     "testo": "... ... ... ... ... To feel all the hard times To lay down the hard lines It's absolutely true",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Hard Times",
+    "tema": [
+      "dolore"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -599,10 +607,13 @@
     "end": 1957.0,
     "speaker_raw": "SPEAKER_01",
     "testo": "Absolute Beginners 1986 David Bowie allora tutti si sono innamorati di questo nostro ascoltatore Antonio che richiameremo perché noi quando li impeschiamo così insomma e mentre andava questa meravigliosa canzone che riporta Echi ma che aggancio qui si è parlato della famosa camera anecoica caro ascoltatore se sei ignorante come Fabio Volo oggi ti diciamo cos'è la stanza anecoica la stanza anecoica è dove si riesce a riprodurre il silenzio al 99,9% ci si mette in questa stanza c'è completamente silenzio il record di resistenza è di 45 minuti dopodiché si può impazzire 45 minuti di completo silenzio la mia domanda è se c'è un ascoltatore che lavora, perché ce n'è una in Italia più di una io 5 minuti la proverei 5-10, però ho sempre quell'ansia che quando chiudo la porta ci deve essere uno grosso mio amico che mi fa sempre paura che poi mi fa lo scherzo che tutte le volte che vado in sauna penso adesso arriva uno e chiudo la porta tutte le volte dove sono in un posto che soffro devo capire se ci sono delle cose che poi pensa anche che non hai più l'equilibrio non hai più l'equilibrio perché ovviamente le orecchie l'udito serve a dare anche equilibrio e quindi una specie di ti ve la labirintite probabilmente ragazzi a rientro una grandissima barzelletta sul silenzio e la dico io Ha visto? Mixiamo anche il rientro pubblicitario. Bene ragazzi, adesso parliamo, dopo questo meraviglioso disco, con un medico che è stato dentro la camera anecoica. Che sembra? Anecoica? Sì, senza eco. Senza eco. Anecoica. Giusto. Niente. Niente. voglio provarlo ma sono infisso ma non ho lo sfumino ah ecco con chi fai la radio tu che non dai lo sfumino al dj scusami alla litizia e lei non usa lo sfumino devo sempre spiegare agli ascoltatori cos'è lo sfumino cioè questa cosa che diciamo io sono padrone diciamo di aprire e chiudere il microfono e padrone di abbassare o alzare la base sotto alcuni dj non lo usano perché non sono in grado di parlare e muovere un dito nello stesso momento io non mi so neanche aprire il microfono per me è fondamentale perché questo qua hai capito? tu è come quando passeggi con una persona tu passeggi e guardi avanti e chiacchieri ma se devi dire una cosa importante ti fermi, ti volti verso la persona poi ci sono quegli antipatici che ti mettono la mano sul braccio io li odio e quella roba lì è questa no perché a un certo punto ieri sera è il silenzio la pausa è anche saper fare il proprio mestiere sto scherzando sto scherzando parliamo un attimo con Pasquale di Torino che arriva da Torino addio",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Absolute Beginners",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "David Bowie"
   },
   {
     "id": "2017-03-14-055",
@@ -665,9 +676,12 @@
     "end": 2088.72,
     "speaker_raw": "SPEAKER_11",
     "testo": "Sì, guarda, c'era un po' di tempo fa una manifestazione molto bella che facevano a Torino, quando io ancora abitavo a Torino ed ero studente in medicina, era talmente bella che adesso non la fanno più, dove mettevano a disposizione degli strumenti per far provare alle persone le situazioni che normalmente tu nella vita di relazione normale non vivi. Tra queste c'era anche la camera anecoica, quindi tu potevi provare la camera anecoica, potevi andare su un filo in bicicletta in altezza,",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Manifestazione Torino",
+    "tema": [
+      "sensazioni",
+      "esperienza"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -687,9 +701,12 @@
     "end": 2143.85,
     "speaker_raw": "SPEAKER_11",
     "testo": "il classico esercizio da circo dove c'è il bambino che va sulla bicicletta da un albero all'altro lì naturalmente era pirotato perché sotto c'erano dei pesi quindi sotto poi c'era ancora una rete però pedali tu? pedali tu in una situazione che sei tu realmente a pedalare però sei in condizioni di sicurezza perché sotto c'è un peso non si stacca mai la bici dal filo non si stacca mai quindi tu provi la sensazione di pedalare in altezza in sicurezza comunque tutto questo non c'è più perché",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Esercizio Circo",
+    "tema": [
+      "equilibrio",
+      "sicurezza"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -731,9 +748,12 @@
     "end": 2215.32,
     "speaker_raw": "SPEAKER_11",
     "testo": "Allora, io sono stato dentro penso tre minuti, dopodiché avevo le stesse sensazioni che provi tu quando ti metti i tappi. Sentivo il mio battito cardiaco, mi cominciava a venire l'affanno, mi cominciava a star male, allora sono dovuto uscire. Comunque è una sensazione che ho provato anche quando ho fatto... Il frejus, il tunnel, se tu fai il tunnel del frejus o comunque fai un percorso lungo all'interno dove c'è buio e inizi a concentrarti sul tuo respiro, incominci a sentire l'affanno, dopo un po' inizi ad affannarti veramente, induce all'affanno anche che ti sta vicino.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Sensazione Silenzio",
+    "tema": [
+      "silenzio",
+      "stress"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -819,10 +839,14 @@
     "end": 2386.98,
     "speaker_raw": "SPEAKER_06",
     "testo": "Nel modo in cui ti muovi in una tenda e in questa mia Sarà che piove da luglio, il mondo che esplode in pianto. Sarà che non esci da mesi, sei stanco, hai finito e sorrisi soltanto. Per pesare il cuore con entrambe le mani ci vuole coraggio. E occhi bellati su un cielo girato di spalle. La pazienza a casa nostra, il contatto e il tuo conforto. Ah, che fare buono.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Sarà che piove da luglio",
+    "tema": [
+      "pazienza",
+      "coraggio"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Tiziano Ferro"
   },
   {
     "id": "2017-03-14-075",

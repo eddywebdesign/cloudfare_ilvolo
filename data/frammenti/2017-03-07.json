@@ -104,9 +104,12 @@
     "end": 847.23,
     "speaker_raw": "SPEAKER_10",
     "testo": "È Queen. Open your eyes, look up to the skies and see I'm just a poor boy I need no sympathy Because I'm easy come, easy go Little high, little low Anywhere the wind blows Doesn't really matter to me To me just killed a man put a gun against his head pulled my trigger now he's dead mama life had just begun grazie a tutti a presto I see a little siluetto of a man Scaramouche, Scaramouche Will you do the pandango? Thunderbolt and lightning Very, very frightening me Galileo Galileo I'm just a poor boy and nobody loves me He's just a poor boy from a poor family Sparing his life from this monstrosity Easy come, easy go, will you Grazie. Nothing really matters Nothing really matters to me",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Queen - Bohemian Rhapsody",
+    "tema": [
+      "morte",
+      "vita"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -181,10 +184,14 @@
     "end": 1193.41,
     "speaker_raw": "SPEAKER_04",
     "testo": "Delle indicazioni, delle indicazioni. Un po' come a proposito di cinema, se avete mai visto Goodbye Lenin, di questa donna che esce dal coma, lei super comunista e convinta del comunismo, esce dal coma e dicono non deve avere dei grandi traumi. Siccome lei era molto comunista, il figlio è crollato nel frattempo in lei in coma, è crollato il comunismo, il figlio gli riproduce tutto con delle videocassette, dei finti telegiornali, gli va a trovare dei prodotti che non trova più, dei fagioli, dei cetri. erano i cetrioli sotto asciutto è un film molto interessante molto molto bello quindi insomma riproporre a questi anziani che hanno appunto problemi di memoria con problemi molto seri come l'alzheimer un percorso di vita che li riporta ai loro capito si possono fare anche dei piccoli accorgimenti anche con persone diciamo di una certa età le nostre mamme le nostre nonne che non hanno problemi di alzheimer cioè quando andate a cina da loro lasciate il telefono nel cappotto è vero perché è bello sedersi a tavola come una volta e chiacchierare non sempre con quello che con quel ditino lì ok?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Goodbye Lenin",
+    "tema": [
+      "memoria",
+      "comunismo"
+    ],
+    "tipo": "riferimento_film",
+    "video_url": "",
+    "autore": "Shinkai Makoto"
   },
   {
     "id": "2017-03-07-017",
@@ -192,9 +199,12 @@
     "end": 1217.56,
     "speaker_raw": "SPEAKER_05",
     "testo": "Ma lo sai che a Monza, questo era un articolo che avevo letto l'anno scorso sul Corriere, stanno lavorando la prima struttura per un mini paese. Si chiamerà il paese ritrovato e sarà proprio un villaggio con bar, piazza, farmacia, con gli operatori sociosanitari che sono vestiti.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "mini paese Monza",
+    "tema": [
+      "anziani",
+      "ricordi"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

@@ -258,10 +258,13 @@
     "end": 577.86,
     "speaker_raw": "SPEAKER_09",
     "testo": "Maurizio c'ha la casa a Mondovì ah sì? sì che via ce l'hai a Mondovì? via Verdi, piazza Roma lì dove c'è l'hotel Zodiaco c'è sempre un hotel Zodiaco non ce l'hai da Mondovì comunque è vero che tu volevi sentire Billy Idol per partire in forma? grazie mille salutaci le tue colleghe ciao sentite che inizio del 1982 Oh yeah! Dancing with myself. Io ballo da sola, capito? Avanti, rispetto a Bertolucci.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Dancing with myself",
+    "tema": [
+      "solitudine"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Billy Idol"
   },
   {
     "id": "2017-02-28-024",
@@ -830,9 +833,11 @@
     "end": 2006.48,
     "speaker_raw": "SPEAKER_09",
     "testo": "Venni con ansia timida, sommesso, una poesia. Bravo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Venni con ansia timida",
+    "tema": [
+      "poesia"
+    ],
+    "tipo": "lettura_volo",
     "video_url": ""
   },
   {
@@ -863,10 +868,13 @@
     "end": 2186.47,
     "speaker_raw": "SPEAKER_09",
     "testo": "Mi disannunci questo disco, Maurizio? Erano i Train, con Play the Song. Molti ascoltatori la associano a Brutta di Canino. È un po' ciò. Non la sentivo. Oggi veramente vi chiediamo scusa. Oggi ci ha preso proprio lo sbando il programma. Barzellette, parolacce, pipì delle docce. Però è sempre emozionante questa canzone.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Play the Song",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Train"
   },
   {
     "id": "2017-02-28-079",
@@ -918,9 +926,11 @@
     "end": 2503.22,
     "speaker_raw": "SPEAKER_00",
     "testo": "La caratteristica più notevole del futuro dell'uomo è la sua flessibilità. Essa è determinata più dal suo modo di pensare, dalle sue attitudini, che dalle sue azioni. La pietra angolare su cui si basano tutte le cose è l'idea che l'uomo ha di se stesso, il modo in cui egli si pensa. Egli agisce nel modo in cui agisce e ha le esperienze che ha, perché quello è il suo pensiero di se stesso, l'idea che ha di sé e per nessun altro motivo. Se avesse un diverso concetto di sé, agirebbe diversamente. Un cambiamento dell'idea di sé, perciò, altera automaticamente il suo futuro. Gli effetti del suo modo di pensare, che l'uomo considera in genere come insignificanti, sono invece considerevoli. Pertanto l'uomo deve rivedere la sua stima dei suoi modelli di pensiero e delle sue credenze e riconoscerne il potere creativo. Tutti i cambiamenti avvengono nella coscienza. Il futuro, anche se curato in ogni dettaglio in anticipo, contiene in sé diversi risultati, differenti possibili varianti, differenti possibili futuri. In ogni momento della nostra vita abbiamo davanti a noi la possibilità di decidere quale dei vari futuri scegliere.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "flessibilità del futuro",
+    "tema": [
+      "pensiero"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

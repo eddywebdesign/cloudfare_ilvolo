@@ -214,9 +214,11 @@
     "end": 926.04,
     "speaker_raw": "SPEAKER_04",
     "testo": "L'hanno sempre chiamato in due modi le sue ex. Coniglio, per la velocità dei suoi rapporti, e l'altro è l'anestesista, perché non sentivano niente. Dicevano, tu mi potresti anche togliere dei denti quando facciamo l'amore. Andiamo avanti, dai. Che bella immagine. Tu, mentre facciamo l'amore, mi puoi togliere un canino? Io non sento niente. Va bene. Gian Umberto Acinelli, professore a Bologna, in classe con i suoi alunni, prego.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Gian Umberto Acinelli",
+    "tema": [
+      "relazione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -225,10 +227,13 @@
     "end": 957.15,
     "speaker_raw": "SPEAKER_03",
     "testo": "Allora, oggi parliamo del coniglio, perché il coniglio è un simbolo della primavera, un simbolo della Pasqua. Perché i conigli appunto si risvegliano in primavera, escono nelle radure e fanno addirittura delle cose strane. Per esempio di notte si ritrovano quando c'è il pieni lune o c'è la luna piena, si ritrovano in alcune radune e niente, stanno a guardare la luna. Non sono i lupi quelli? Tipo i lupi. La cosa che fanno principalmente è quella di riprodursi.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "simboli primavera",
+    "tema": [
+      "primavera"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Fabio Fazio"
   },
   {
     "id": "2017-04-13-021",
@@ -412,10 +417,13 @@
     "end": 1684.7,
     "speaker_raw": "SPEAKER_08",
     "testo": "Rimanete qua Riprendermi i giorni miei È quello che ora devo fare Mentre te ne vai Sento il cuore naufragare Volevo solo te Tutto è a metà Chiunque incontrerò Io cercherò sempre un po' di te Seguo i pensieri che fai Dove andrai già lo sai Non negarti.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Rimanete qua",
+    "tema": [
+      "separazione"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Tiro Mancino"
   },
   {
     "id": "2017-04-13-038",
@@ -423,9 +431,11 @@
     "end": 1812.11,
     "speaker_raw": "SPEAKER_04",
     "testo": "Tiro Mancino Radio DJ il volo del mattino Maurizio Viola Stefania Stellina e voi qui in ascolto su Radio DJ oggi dopo tanto tempo rintroduciamo al volo del mattino una cosa a noi molto cara soprattutto a Maurizio poi insomma la poesia veramente Sì, sapete che noi tanti anni fa al volo del mattino abbiamo iniziato questa cosa e ci davano dei matti, ci dicevano ma come la poesia, poi invece, sai quando uno dice, gli imprenditori fanno così, io ho fatto così, mi davano del matto e poi... No, abbiamo introdotto la poesia, la poesia è una cosa... abbiamo introdotto la poesia a Radio DJ abbiamo introdotto Jeff Buckley la poesia Spank possiamo fare una lista infinita ma non è questo il tema rimaniamo sulla poesia la poesia che cos'è Maurizio l'hanno chiesto anche alla Zimbosca una volta cos'è la poesia è la perfezione io citandola a Merini direi è un petalo che cade nella bocca di un leone oh",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "poesia struttura perfetta",
+    "tema": [
+      "poesia"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -467,10 +477,13 @@
     "end": 1931.44,
     "speaker_raw": "SPEAKER_04",
     "testo": "sei bravissimo è uscito questo nuovo libro di chiare lettere cedi la strada agli alberi e tu ti definisci un poeta paesaggista paesologo paesaggista prego vedi che sei poeta come sei devo fartela giù proprio dritta la domanda nel senso come mai vieni definito così o ti definisci così?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Cedi la strada agli alberi",
+    "tema": [
+      "poesia"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Chiare Lettere"
   },
   {
     "id": "2017-04-13-043",
@@ -566,9 +579,12 @@
     "end": 2189.74,
     "speaker_raw": "SPEAKER_07",
     "testo": "It's a little after midnight, there's a couple in the corner And I wonder what he said because she's crying And I guess they won't remember when they wake up in the morning With a headache from the whiskey and the wine I know that I've said things I regret when I'm sober Cause we always hurt the ones we love the most I messed up and I know it, if I hurt you girl I'm sorry But it's good to see the girl I used to know We could dance, but I can't dance Maybe we could stick to holding hands Grazie. Ciao! Ciao Ciao",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Whiskey and the wine",
+    "tema": [
+      "amore",
+      "rimorso"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {

@@ -632,10 +632,13 @@
     "end": 2775.73,
     "speaker_raw": "SPEAKER_04",
     "testo": "Ciao a tutti. Sì. see how they run Lady Madonna lying on the bed listen to the music playing in your head Tuesday afternoon is never ending Wednesday morning Grazie.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Lady Madonna",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "The Beatles"
   },
   {
     "id": "2017-03-29-058",
@@ -665,9 +668,12 @@
     "end": 2864.22,
     "speaker_raw": "SPEAKER_07",
     "testo": "Hai capito? Avevo ragione. Va bene, allora ogni volta che faccio un viaggio, comunque alcuni di voi sono veramente ansiosi, ogni volta che faccio un viaggio lascio una lettera o un messaggio per mio figlio a casa mia per terra nell'ingresso nel caso non tornassi.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "lettere per figlio",
+    "tema": [
+      "amore",
+      "paura"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

@@ -16,10 +16,13 @@
     "end": 267.4,
     "speaker_raw": "SPEAKER_07",
     "testo": "Ogni tanto, guarda, questo programma ha un senso, ogni tanto, ogni tanto, anche solo per una canzone così, cioè no, trovare una canzone così è bella, mette allegria, cambia le giornate insomma, quindi facciamo i complimenti a Viola e Maurizio che hanno fatto questi mesi di ricerche e hanno trovato questa meravigliosa canzone di Louis Berry, Restless. buongiorno a tutti questa è Radio DJ una radio meravigliosa questo programma si chiama Il Volo del Mattino ormai insomma qui da tanti anni abbiamo Stellin la Stefi al centralino che vedo attraverso un vetro ciao ragazze poi abbiamo Maurizio, Viola al microfono e soprattutto abbiamo il pubblico meraviglioso di Radio DJ e anche del volo del mattino come sei ottimista, positivo è lunedì, dobbiamo spingere così io mi sono svegliato con bambini in lacrime per cui ho la testa rimbombata no, positivismo positivismo, lunedì 13 marzo positività",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Restless di Louis Berry",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Louis Berry"
   },
   {
     "id": "2017-03-13-002",
@@ -445,9 +448,12 @@
     "end": 1282.78,
     "speaker_raw": "SPEAKER_07",
     "testo": "Scrive un ascoltatore Simone da Grosseto. Da Grosseto. Una volta giocavo con una squadra di calcio amatoriale turca. Nella doccia c'era uno che fumava due sigarette contemporaneamente.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "fumatore turco doccia",
+    "tema": [
+      "vizio",
+      "turchia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -467,9 +473,12 @@
     "end": 1462.0,
     "speaker_raw": "SPEAKER_07",
     "testo": "Ma le avrà fumate una a fianco all'altra o i due angoli della bocca? sotto la doccia con l'ombrello io ho conosciuto ho conosciuto gente che si sveglia di notte per fumare esistono forse anche tra ascoltatori esistono persone che alle 3 o 4 del mattino si svegliano si fumano una paglietta e tornano a dormire se ti svegli proprio col mal di testa sei in astinenza io ho conosciuto uno che non è mai andato a Los Angeles perché non riesce a non fumare per 12-11 ore e diventa un'etica li vedi quelli che all'aeroporto ne fumano 5 poi vanno dentro, fanno il biglietto poi appena arrivano, prendi tu i bagagli insomma è una bella cosa Volevo dire un'altra cosa, aspettate un attimo perché ero preparatissimo, ero preparato su una cosa, ah ecco, essendo lunedì, tanto Viola ha detto che ha letto su Wikipedia che la storia del croissant e del panettiere non è vero. non ci sono basi non ci sono fondi però vogliamo dire che c'è sempre queste cospirazioni contro i panettieri che è fastidiosa li volete lasciare stare è brava gente la famosa cospirazione contro i panettieri è brava gente sempre colpa dei panettieri non c'è mai colpa dei panettieri sai mai è colpa dei panettieri poi viola va a scoparle tutte sì poi appena lei può parlare male dei panettieri lasciali stare questi panettieri cosa hanno di male cosa fanno di male i panettieri no nulla è brava gente è brava gente è tutta brava gente tant'è che si dice quello è buono come un panettiero non è vero sono stato cresciuto con questa frase scusate ragazzi qualcuno dice è vero la gente la mattina è triste è broncia così ma perché non ascolta il volo del mattino e su questo si è d'accordo dovrebbe essere messo in filo di infusione adesso io ragazzi questo si chiama sfumino avete sentito una base sotto io se lo tolgo la base va via molte radio amano molto questa cosa adesso io lo tolgo perché Rudy Zerbi di nuovo ha mandato una delle sue barzellette ma questa è bellissima vi volevo dire che io voglio dire prendo già le distanze io no me ne lavo le mani come Ponzio Pilato sentiamo e poi pubblicità che è una macchina blu una macchina rossa e una macchina gialla che arriva per prima quella gialla perché è gialla vi chiedo scusa se mi volete licenziare signor De Benedetti proprietario di Radio DJ se mi vuole mandare via io preparo la mia scatola è tre giorni che succhio ciupa ciups per smettere di fumare sono come la dinamite Ale da Genova sarà Alessandro o Alessandra? chiediamolo al ciupa ciup",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "svegliarsi notte fumo",
+    "tema": [
+      "abitudine",
+      "dipendenza"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

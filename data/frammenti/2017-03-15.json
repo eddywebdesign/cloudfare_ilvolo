@@ -368,9 +368,12 @@
     "end": 1529.32,
     "speaker_raw": "SPEAKER_13",
     "testo": "Lascia qualcosa tra le braccia E non questa distanza che mi sputa in faccia Se siamo ancora qui Ad imparare come illuderci A preoccuparci della verità Vedrai che poi il tempo non ci tradirà sotto un vento di libeccio che dall'Africa soffia lieve su di noi la sua sabbia Tutte le paure che ci fan tremare E troveremo il modo per dimenticare La noia, l'abitudine, la delusione Vedrai che i desideri si riaccenderanno impareremo anche a comprendere che esiste un buon motivo per insistere sotto un vento di libeccio che dall'Africa soffia lieve su di noi la sua sabbia vedrai che riusciremo a dare ancora un nome a tutte le paure che ci fan tremare Tutte le paure che ci fan tremare",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Lascia qualcosa tra le braccia",
+    "tema": [
+      "tempo",
+      "speranza"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -478,9 +481,11 @@
     "end": 2007.84,
     "speaker_raw": "SPEAKER_12",
     "testo": "Got a good woman by my side Got a good woman by my side Now this kind of day has no night Yeah, this kind of day has no night And I ain't got much on my mind And I ain't got much on my mind Cause I know something good this way comes watching the streets filling up watching the streets filling up in the shade of the summer sun in the shade of the summer sun got sweet apple pie on the stove got sweet apple pie on the stove the birds they're all flying low a presto Grazie a tutti Something good this way comes The troubled dog is not moving mountains But digging the ground that you're on If it's true that good fortune gives no change We got just what it takes Cosa mi dite ragazzi?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Something Good This Way Comes",
+    "tema": [
+      "ottimismo"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -544,9 +549,11 @@
     "end": 2302.25,
     "speaker_raw": "SPEAKER_03",
     "testo": "Let me show And brick by brick Stone by stone As long as we stick together There's a place to call home So if you need shelter You know the way to go As long as we stick together There's a place to call home No more demons, no more sirens Come let us make things right Let us just share some silence",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "There's a Place to Call Home",
+    "tema": [
+      "rifugio"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -622,8 +629,10 @@
     "speaker_raw": "SPEAKER_09",
     "testo": "Se hai un sogno, tu lo devi proteggere. Quando le persone non sanno fare qualcosa, lo dicono a te che non la sai fare. Se vuoi qualcosa, vai e inseguila.",
     "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "tema": [
+      "perseveranza"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -665,10 +674,14 @@
     "end": 2658.76,
     "speaker_raw": "SPEAKER_07",
     "testo": "even when we've up and gone even when you're there alone a house a house is a home a house is a home even when there's ghosts even when you gotta run from the ones who love you most scream doors broken paints peeling from the wood a presto A house is a home where the chores are never done Where you spend your whole life running to and from And if the life that you live is not the life you choose Make your child a home and start anew",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "A House Is A Home",
+    "tema": [
+      "casa",
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Jacob Dylan"
   },
   {
     "id": "2017-03-15-061",
@@ -676,9 +689,12 @@
     "end": 2744.66,
     "speaker_raw": "SPEAKER_01",
     "testo": "Secondo me Jacob Dylan ha detto a Bob Dylan, papà facciamo un disco insieme? non l'ha cagato ci sarà conflitto chi lo sa ascoltatori che dicono Giulio Iglesias e Enrico Iglesias non c'è conflitto ma che ne sappiamo noi che non siamo andati lì a cena di Natale a vedere ma infatti abbiamo tutti colpito io volevo ricordare due cose una che c'è Paul McCartney che è ovviamente la leggenda vivente della musica mondiale e la figlia che fa tutt'altro Stella McCartney che ha spopolato in un'altra cosa però è diventata anche lei un personaggio molto importante nel mondo della moda fa delle cose veramente belle ma resterà nella storia lei magari no le sue tute da ginnastica forse si un ascoltatore dice un altro bel esempio di un figlio che è diventato diciamo bravo nel suo settore non ha seguito le orme del padre dice Valentino Rossi che ha scelto di fare l'avete già capito l'ha scritto un ragazzo qua vediamo se si è firmato Valentino Rossi campione mondiale che ha deciso di non cantare come il padre Vasco o come il cugino giocatore di calcio",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Dylan e McCartney",
+    "tema": [
+      "musica",
+      "famiglia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

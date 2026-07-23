@@ -280,10 +280,13 @@
     "end": 1016.27,
     "speaker_raw": "SPEAKER_08",
     "testo": "ha educato ha educato generazioni all'amore quando ancora le case chiuse come voleva Fabio Teschi erano ancora aperte non entriamo è la Boldrini che va cancellata dobbiamo aprire le case chiuse uno sceglie, paga e si sfoga però non parla così il testo che ha detto poteva sfogarsi così bene, allora ragazzi se non avete mai letto libri di Eric Fromm ve li consiglio l'arte di amare, l'arte di vivere anche addirittura ha scritto ci sono due o tre frasette",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "L'arte di amare",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Eric Fromm"
   },
   {
     "id": "2017-03-23-026",
@@ -292,8 +295,11 @@
     "speaker_raw": "SPEAKER_09",
     "testo": "che ho preso stamattina per voi giusto per buttare lì poi dopo voi ci pensate quando andate dal vostro capo e gli dite io volevo un leader non un capo tipo l'amore infantile segue il principio amo perché sono amato quello lì è basico anche nelle coppie ci sono anche da adulti io amo perché sono amato tu mi ami allora ti amo anch'io l'amore maturo segue il principio sono amato perché ti amo sono amato perché ti amo che è anche un po' il passaggino della divina commedia l'amore immaturo che è quello un po' più diffuso dice ti amo perché ho bisogno di te ho bisogno di te l'amore maturo che dicono che sia il top è ho bisogno di te perché ti amo capisci? questo è quello che ha detto Rick Fromm è tutto stesso l'uomo crede di voler la libertà in realtà ne hanno gran paura perché? perché la libertà lo obbliga a prendere decisioni e le decisioni comportano rischi solo chi ha fede in se stesso può essere fede dagli altri ok è da rivedere è inutile cercare chi ti completa ecco la risposta alla cosa di ieri nessuno completa nessuno devi essere completo da solo per essere felice poi per i creativi come Maurizio che stamattina glielo ho dovuto dire due volte dunque l'uomo che non può creare vuole distruggere ma non c'entra lui questa è quella tipo anche sugli haters di internet cioè quelli che non riescono a fare cercano di distruggere quelli che fanno questa è la più importante La creatività richiede il coraggio di sbarazzarsi delle certezze. Scusa, non c'era anche Ugo Tognazzi? Oggi è il complanno anche di Ugo Tognazzi.",
     "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "tema": [
+      "relazioni",
+      "amore"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -423,10 +429,13 @@
     "end": 1905.7,
     "speaker_raw": "SPEAKER_09",
     "testo": "Esatto, il diritto d'autore dei professori, si chiama più il rutto del professore. comunque prof di che cosa ci parla oggi scusi una bella notizia molti ascoltatori non hanno trovato il suo libro nelle librerie è un'ottima notizia è ottima nel senso che dovete stampare stampa giù",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "libro del professore",
+    "tema": [
+      "libro"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "professore"
   },
   {
     "id": "2017-03-23-039",
@@ -698,9 +707,11 @@
     "end": 2680.74,
     "speaker_raw": "SPEAKER_09",
     "testo": "No! Comunque domani facciamo tutta la puntata così. ho sbagliato a dirlo domani ole domenica vado con tutti i miei amici a fare la grigliata questo dice la canzone quanto ci piace la salsiccia quanto ci piace il salame era meraviglioso bene ragazzi a domani mattina grazie di cuore vi vogliamo bene grazie a tutti voi ciao a domani",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "quanto ci piace la salsiccia",
+    "tema": [
+      "cibo"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   }
 ]

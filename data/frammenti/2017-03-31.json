@@ -280,10 +280,13 @@
     "end": 770.99,
     "speaker_raw": "SPEAKER_17",
     "testo": "Ciao. Oh, the passenger Oh, how he rides Oh, the passenger He rides and he rides He looks through his window What does he see? grazie a tutti la la la la oh il passaggio Grazie a tutti",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Oh, the passenger",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Iggy Pop"
   },
   {
     "id": "2017-03-31-026",
@@ -379,9 +382,12 @@
     "end": 1117.66,
     "speaker_raw": "SPEAKER_13",
     "testo": "Guarda, tornerai meraviglioso, io non vedo l'ora. prenditi il tuo tempo torna presto guarda ascoltatori io vorrei ma ho un po' paura ma ragazzi perché dobbiamo mettere il pezzo quello lì di Rocky con Breaking Bad è la paura della paura che blocca è l'ignoto allora adesso mettiamo una canzone di una cantanta che ha la mano non la possiamo lanciare così tutte le volte mi fa troppo ridere vai vai mettiamo questo bel disco oh oh yeah",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "viaggio e crescita personale",
+    "tema": [
+      "crescita",
+      "isolamento"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -445,10 +451,14 @@
     "end": 1387.0,
     "speaker_raw": "SPEAKER_13",
     "testo": "Ciao Fabio, scusami, la domanda sorge spontanea. Ma avevi tanti soldi per fare quei lunghi viaggi, Lori? No, i soldi no, non ne avevo per niente, perché i soldi servono per andare in vacanza, non per viaggiare. Per viaggiare i soldi ne servono pochissimi. Oggi ancora meno, tra l'altro.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "viaggiare senza soldi",
+    "tema": [
+      "soldi",
+      "viaggio"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Fabio Volo"
   },
   {
     "id": "2017-03-31-041",
@@ -566,10 +576,14 @@
     "end": 1699.83,
     "speaker_raw": "SPEAKER_00",
     "testo": "Il libro si chiama Come sopravvivere al cammino di Santiago.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Come sopravvivere al cammino di Santiago",
+    "tema": [
+      "cammino",
+      "consigli"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Fabrizio Ardito"
   },
   {
     "id": "2017-03-31-052",
@@ -830,9 +844,12 @@
     "end": 2283.5,
     "speaker_raw": "SPEAKER_19",
     "testo": "Vi leggo l'ultimissima poesia che ho scritto, l'ultima, che si chiama La bellezza esiste. Nel becco giallo arancio di un merlo, in un fiore qualunque, nell'orizzonte perduto e lontano del mare la bellezza esiste è un mistero svelato un segreto evidente la vita, la bellezza esiste e non ha paura di niente neanche di noi la gente dentro l'acqua di questo torrente così limpida e veloce scenderò",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "La bellezza esiste",
+    "tema": [
+      "bellezza",
+      "vita"
+    ],
+    "tipo": "lettura_volo",
     "video_url": ""
   },
   {
@@ -886,8 +903,11 @@
     "speaker_raw": "SPEAKER_18",
     "testo": "Ho passato tutta la vita ad avere paura. Paura di disgrazie terribili che potevano accadere oppure no. Per cinquante anni ho vissuto nella paura, ritrovandomi sempre sveglio alle tre del mattino. Paure diverse, paure diverse. Mi sono reso conto che è la paura la peggiore delle disgrazie, è la paura il vero nemico. Perciò alzati, vada ad affrontare la vita reale e se il mondo è un bastardo allora colpiscilo con tutta la forza che hai.",
     "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "tema": [
+      "paura",
+      "vita"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -973,9 +993,11 @@
     "end": 3046.94,
     "speaker_raw": "SPEAKER_13",
     "testo": "Una settimana da sola. Vai a Brescia, no? Una settimana da sola a Brescia, poi dopo ti sposti un po' più in là verso Verona. C'è una settimana. andare da Claudia ad Avellino per te che viaggio che sarebbe Avellino da Prato ma sto scherzando invece io apprezzo sempre gli atti come apprezzo sempre gli atti? sapete che mi piacerebbe tanto parlare di questo libricino che ho scritto qualche tempo fa che è stato molto criticato non è stato capito sono stato va bene non fa niente sono un imprenditore mettiamola così ogni tanto e non riesco a spiegare bene quello che voglio fare ma lì dentro c'è un messaggio molto importante non tanto sulla ricerca di sé quanto sul fatto che non importa fallire o non fallire conta provarci o non provarci in tanti ho ricevuto molte mail di persone che l'hanno apprezzato hanno trovato anche un aiuto in quelle poche pagine detto questo vedo Maurizio che come sempre mi boicotta perché tu devi sempre fare il leccaculo di Linus va bene, passagliela a Linus passagliela a Linus passagliela a Linus passagliela a Linus",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "viaggio da sola brescia",
+    "tema": [
+      "viaggio"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   }
 ]

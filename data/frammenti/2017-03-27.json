@@ -49,10 +49,13 @@
     "end": 313.88,
     "speaker_raw": "SPEAKER_01",
     "testo": "È veramente sexy questa canzone, no? Vabbè, lui è il re in questo momento, ma già un po', forse. Passion Fruit, Drake, questo nuovo disco, questa è Radio DJ, questo è Il Volo del Mattino. sì sono già successe quelle cose che potrei farmi infastidire diciamo tutto il giorno lascio stare infatti dico sarò di buon umore parliamo di cose belle abbiamo tantissime canzoni io direi possiamo entrare a bomba subito con la sigla sì sì sì vai vai good morning life good morning world how are you happiness all at once I know what living can be oh oh oh it's life it's green it's someone waiting for me Facciamo la domanda che si fanno tutti gli anni quando c'è il cambio dell'ora. La sentite? La sentite quest'oretta? Si sente? Ma no, è solo un'ora. Te la senti? È un'oretta. No, perché no. Però arrivo più tardi. per me questa è anche più bella come ora soffro di più l'altra quando torniamo indietro perché avendo i bambini che si alzano alle 6 e un quarto se vedi stamattina alle 7 ancora dormivano quindi io ho fatto in tempo anche a preparare le cose da solo e a vestirti molto male mamma mia Cari ascoltatori, avete un cassetto della vostra casa dove tenete, non so, le cose, la tuta, io immagino tipo la tuta, per quelli della mia età andavano in palestra a correre, invece adesso andare a correre in palestra la gente si veste come andare sulla luna, però esistono delle magliette quelle per andare a dormire, non so se ce le avete voi, quelli che vai a mangiare in un palazzo. porto a pizzeria ti regala la maglietta e dici questa me la tengo perché se devo pitturare casa non lo so quella roba lì ok vabbè comunque è sempre dignitosa questa mattina siccome appunto eravamo tutti nel letto tutta la famiglia nel letto ma per dire tutti intendo dire anche mia mamma mia sorella mia tia mia cucina cioè eravamo tutti in un madrasso io sono uscito per primo ho preparato un po' di cose ho detto che bello che dormono tutti fai tagli le tue cose così però avevo freddo e rottorso nudo ragazze ehi ragazze ho preso un cubetto di ghiaccio me lo sono passato sui capelli mentre preparavo il caffè no ero con la tuta e i pantaloni però ero a torso nudo avevo un po' freddo sono entrato in camera non volevo svegliare nessuno per cui ho fatto il cassetto ho messo dentro la mano e tutte le volte che faccio così tiro fuori la maglietta e non è mai quella giusta certo ok era una maglietta un po' vistosa allora guarda questa qua è una maglietta bianca con la lingua dei Rolling Stones del marchio dei Rolling Stones perché me l'hanno regalata qua in radio tra l'altro blu elettrico ma chi l'ha pensata?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Passion Fruit",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Drake"
   },
   {
     "id": "2017-03-27-005",
@@ -126,9 +129,11 @@
     "end": 423.75,
     "speaker_raw": "SPEAKER_01",
     "testo": "Quando ho fatto il cammino di Santiago, l'unico cd, perché c'era un altro cd, mi sono portato, è stato questo. Quindi il mio compagno nei momenti quelli più...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "cd Santiago",
+    "tema": [
+      "viaggio"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -467,10 +472,14 @@
     "end": 1550.91,
     "speaker_raw": "SPEAKER_04",
     "testo": "Oh, early in the morning At your door I bow down for the patience Don't forget I know you best Don't you know that I'm just restless baby Don't you know that I'm just restless baby Without you Oh tell me that you love me So I can find my place And let me smell your sweet sweet love Without awkwardness",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Restless Baby",
+    "tema": [
+      "amore",
+      "relazione"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "John Lennon"
   },
   {
     "id": "2017-03-27-043",
@@ -500,9 +509,12 @@
     "end": 1718.36,
     "speaker_raw": "SPEAKER_01",
     "testo": "Non so se è una questione di carattere o per il fatto di non essere laureato, però quando ci sono queste ricerche scientifiche fatte dall'università io mantengo sempre una specie di diffidenza, che è un po' anche ignoranza, ho detto serenamente. Quindi per esempio questa ricerca che è stata fatta sui picchi, ne avete già sentito parlare sicuramente, è interessante perché per esempio a 82 anni mette il benessere psicologico, a 82...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "diffidenza scientifica",
+    "tema": [
+      "scienza",
+      "ignoranza"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -599,9 +611,11 @@
     "end": 2332.01,
     "speaker_raw": "SPEAKER_12",
     "testo": "chissà chissà domani su che cosa metteremo le mani se si potrà contare ancora le onde del mare e alzare la testa non essere così seri rimani I russi, i russi, gli americani, no lacrime, non fermarti fino a domani. Sarà stato forse il tuo anno, non il meraviglio, è una notte di fuoco dove sono le tue mani. Nascerà e non avrà paura il nostro figlio. E chissà come sarà lui domani, su quali strade camminerà, cosa avrà nelle sue mani, nelle sue mani. Si muoverà e può travolare, nuoterà su una stella come se è bella. E se è una femmina si chiamerà futura. Il suo nome detto questa notte mette già paura. Sarà diversa, bella come una stella, sarai tu, mia tu. ma non fermarti voglio ancora baciarti chiudi i tuoi occhi non voltarti indietro qui tutto il mondo sembra fatto di vetro e sta cadendo a pezzi come un vecchio presepio di più muoviti più in fretta di più benedetta più su nel silenzio tra le nuvole più su che si arriva la luna si la luna",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "chissà domani",
+    "tema": [
+      "speranza"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -643,10 +657,13 @@
     "end": 2548.82,
     "speaker_raw": "SPEAKER_01",
     "testo": "Arrivano messaggi di persone che scrivono, mi ricordo quando ero bambina mio padre metteva il vinile di Lucio Dalla la domenica mattina, quindi bei ricordi, altre persone che stanno passeggiando in riva al mare, quei gabbiani sentono Lucio Dalla, altre persone che stanno lattando, sì sì sì, e una donna semplicemente che dice, credo una donna oppure un uomo, che dice metti futura, penso a mia figlia e piango in auto, potrebbe essersi un uomo o una donna, sarai tu in miniatura, una frase capologo, bellina bellina bellina. questa canzone, lui è il grande maestro Lucio Dalla, questo è il radio DJ e questo è il volo del mattino. Siamo puntatona bomba questa mattina, per gente che non sente l'ora legale o illegale o solare, noi siamo sempre qua così. Allora, sono tante le persone che non ricordano il nome quando si presentano, quindi non sono da solo, ok, buono. la mia teoria è che ti concentri di più nel presentarti che su quello che ti viene risposto poi anche quando vedi i volti c'è anche da dire una cosa quando per esempio uno fa un lavoro diciamo dove è un po' magari riconosciuto tu incontri anche gente che non conosce ti saluta che per uno diciamo che fa un lavoro normale non è così cioè tu vai per strada e lui ti dice ciao Fabio vuol dire che l'hai conosciuto invece io a volte sono dico ciao io guardo no tu non mi conosci io ti conosco capito c'è sempre... hai capito? Certo. Eh anche normale si mischia tutto a un certo punto.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "vinile lucio dalla",
+    "tema": [
+      "ricordi"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Lucio Dalla"
   },
   {
     "id": "2017-03-27-059",

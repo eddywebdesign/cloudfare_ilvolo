@@ -60,10 +60,13 @@
     "end": 584.2,
     "speaker_raw": "SPEAKER_05",
     "testo": "Suona bene? Sì Non tanto È come il reggae per te questa musica Ok, senti Invece questa mattina iniziamo con gli Oasis che ci mettono d'accordo tutti con una delle mie preferite che si chiama Sunday Morning Call Ok E questa è proprio da iniziare la settimana Here's another Sunday Morning Call",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Sunday Morning Call",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Oasis"
   },
   {
     "id": "2017-04-10-006",
@@ -93,9 +96,11 @@
     "end": 903.79,
     "speaker_raw": "SPEAKER_05",
     "testo": "Questa è in assoluto una delle mie canzoni preferite al mondo, non so perché ogni volta che la sente mi apre... Ma cosa fai? La camicia ti apre? Mi apre il petto, è proprio la cassa toracica, c'è sempre voglia di andare su una montagna e gridarla. No, a me viene, va bene. ciao ragazzi sono in Rajasthan in India vi sto ascoltando da lì l'autista ha appena fatto retromarcia in autostrada perché avevamo sbagliato uscita poi sottoscrive l'anno prossimo ci sarete ancora vero? ma adesso io mi chiederei se ci sei tu visto che stai andando in retro in autostrada Va bene, salutiamolo Andrea, nostro ascoltatore che in realtà è di Bologna. E sta in Rajasthan. Cos'è il favolo di Bologna? Per evitare il traffico che c'è, che ci sono lì, sai che a Bologna c'è sempre il traffico sulla...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Ragazzi in Rajasthan",
+    "tema": [
+      "viaggio"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -412,9 +417,11 @@
     "end": 2155.22,
     "speaker_raw": "SPEAKER_09",
     "testo": "Grazie a tutti But you're my sun, my northern lights, my southern cross And if we're gonna die, oh we're gonna die With a love song in our mouths Oh oh oh Oh oh oh Two hearts, new start, every card is white Radio up and the windows down, loose hands slow dance under crooked stars. We were clumsy at love, it was a shaky two step in a parking lot. Now tell us dear, you better fear, you better fear it all. ciao ciao ciao ciao ciao",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "love song in our mouths",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -434,9 +441,11 @@
     "end": 2366.01,
     "speaker_raw": "SPEAKER_08",
     "testo": "Diciamo che indicativamente in modo colloquiale sappiamo la pittima, è una persona un po' che ti sta addosso, una persona pedante, una che sfrange i maroni. Però ai tempi era un vero mestiere, cioè io creditore... assoldavo quindi pagavo una pittima per tutto il giorno inseguirmi esatto pedinarti urlando davanti a tutti questo deve dei soldi a uno e tra l'altro la pittima era vestita di rosso secondo me essendo di Genova così secondo me Ricci che è di lì il gabibbo l'ha fatto rosso per quello sarebbe chiedeglielo",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "pittima vestita di rosso",
+    "tema": [
+      "credito"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -478,10 +487,14 @@
     "end": 2577.74,
     "speaker_raw": "SPEAKER_04",
     "testo": "Maurizio non vedrà di leggere una poesia e poi mette il link si si è riduita è la tentazione di un'eterna novità e a lasciare che la cura sia la musica la vita è così lunga da passare ma troppo breve per disperderla E la sensazione di una nuova libertà E a pensare che il corpo guida l'anima La notte sta planando con dolcezza La cassa batte come il cuore L'espressione più spontanea di vitalità, dal cielo chissà come è arrivata fino a qua. In principio è stato il movimento, l'istinto che ci muove e che ci fa. ballare, ballare, ballare",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Poesia di Maurizio",
+    "tema": [
+      "libertà",
+      "vita"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Maurizio"
   },
   {
     "id": "2017-04-10-044",
@@ -511,10 +524,13 @@
     "end": 2708.43,
     "speaker_raw": "SPEAKER_05",
     "testo": "una volta ho conosciuto il ripieno lo sai? ho conosciuto il ripieno del gabib una volta sai come il prosciutto e i funghi nel sofficino deve essere molto magro molto basso tutti simpatici e belli vogliamo dire un'altra cosa gli nostri ascoltatori che sono sempre molto preparati dicono che c'è sia una canzone di De Andrè che parla delle pittime e che le signore ingaggiate nei funerali hanno un nome? si chiamano prefiche no prefiche",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Canzone di De Andrè",
+    "tema": [
+      "funerali"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Luigi Veronelli"
   },
   {
     "id": "2017-04-10-047",

@@ -159,10 +159,13 @@
     "end": 1203.55,
     "speaker_raw": "SPEAKER_03",
     "testo": "Grazie a tutti. your heroes for ghosts hot ashes for trees hot air for a cool breeze cold comes with the change did you exchange a walk on part in the war for a lead role how I wish you were here we're just two lost souls swimming in a fishbowl year after year running over the same old ground and have we found the same old fear",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Your Heroes Have Always Been Ghosts",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Radiohead"
   },
   {
     "id": "2017-03-06-015",
@@ -170,9 +173,11 @@
     "end": 1374.52,
     "speaker_raw": "SPEAKER_05",
     "testo": "finito devi sempre nominare tutto va bene allora salutiamo Ilaria l'infermiera che fa il turno di notte che anche lei oggi compie gli anni scritto dalla sorella il messaggio con questa canzone io sono ringiovanito 10 anni scrivo un ascoltatore altri suggeriscono tra i vari consigli degli svedesi tra l'altro una ragazza scrive dalla Svezia dice oh sui libri si ma poi qua è tutta un'altra cosa e molti scrivono i miei nonni mia zia mi diceva sempre che a farsi i fatti propri si campa di più non so se se sarà vero Ornella dice seguendo i dieci consigli che hai dato dovrei essere morta ieri io non dormo sono sedentario sono costantemente rancoroso e stressato a sentire voi mi sa che non arrivo stasera Di tutte queste cose, quelli che non dormono ma che non patiscono, cioè quelli tipo Rietta Berti, Rietta Berti hanno problemi di insonnia, io li invidio, è una cosa che mi piacerebbe. Ti rovina la vita, sei pazzo. Ho appena detto, se non soffri, cioè se non ti dà problemi all'organismo, come dicevano di Andreotti che dormiva tre ore a notte. cioè se mi dicessero che con 3-4 ore a notte campo come se dormissi 8 io trovo ma grazie se non ci sono controindicazioni è un peccato dormire è un peccato che c'è sempre qualcosa da fare per me è un godimento incredibile lo so lo so principio depressione comunque tra quelle eh? No, no, niente, niente. Comunque, cosa stavamo dicendo?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "messaggio di compleanno con canzone",
+    "tema": [
+      "compleanni"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -566,9 +571,11 @@
     "end": 2490.05,
     "speaker_raw": "SPEAKER_00",
     "testo": "Signor Marquez, lei un giorno ha detto, io non potrei mai scrivere un libro partendo da un'idea, parto sempre da un'immagine o da un sentimento.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "parola d'ordine per scrivere libri",
+    "tema": [
+      "creatività"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -599,9 +606,12 @@
     "end": 2540.15,
     "speaker_raw": "SPEAKER_01",
     "testo": "No, quello che non accetto è la definizione di realismo magico. Io sono un realista puro. Il fatto è che la realtà, credo in generale, è molto più magica di quanto possiamo immaginare. Ho l'impressione che dietro la realtà immediata, quella che vediamo... Esiste un'altra realtà che solo l'intuizione poetica riesce a captare ed è questo quindi che poi appare fantastico nel libro.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "realismo magico",
+    "tema": [
+      "realtà",
+      "poesia"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -632,10 +642,13 @@
     "end": 2692.91,
     "speaker_raw": "SPEAKER_09",
     "testo": "Por la tarde y por la noche El sueño de ti Comiendo pera La gente buona Solo gozza, nunca hay pena Pa' qué sufrir Jugando en el mar, en la arena Grazie a tutti. ventana blanca, che venga la mattina, che venga un'altra volta, aspettando, così è come io passo il mio tempo, Grazie a tutti.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Por la tarde y por la noche",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "El sueño de ti"
   },
   {
     "id": "2017-03-06-058",

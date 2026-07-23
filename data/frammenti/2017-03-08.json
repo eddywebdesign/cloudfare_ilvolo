@@ -159,9 +159,11 @@
     "end": 844.82,
     "speaker_raw": "SPEAKER_05",
     "testo": "quando ero piccolo c'erano due cose che mi facevano un po' ridere non capivo perché ero proprio piccolo ti dicevano che per prendere un uccellino un passerotto così bisognava mettergli il sale sulla coda non so se l'hai mai sentito l'ho sentito non solo a base scientifica la base è che se tu riesci a mettergli il sale sulla coda puoi anche prenderlo quindi è difficile capisci? quindi io da bambino dicevo se riuscii a mettergli il sale ovviamente è impossibile se no allunghi la mano e lo prendi l'altra cosa era mio nonno quando dicevo cerco qualcosa mi dice mettici sopra la mano a quello che stai cercando sono quelle cose senza senso ma perché l'hai detto ora? l'ho detto perché se uno riesce a mettere il sale sulla coda a un uccellino riesce a prenderlo e se uno riesce a convincere una donna a fare lei che corre, tu la alzi in alto e poi la devi tenere in alto e poi la devi far scendere proprio strusciata sul petto e dopo se riesci a fare quello fai l'amore come dice come c'è anche in un film Crazy Stupid Love lo consiglio che fa molto ridere lui dice se riesci a far fare una roba così a una donna dopo vogliono tutte far l'amore ma non è un po' ridicolo?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "uccellino con sale",
+    "tema": [
+      "infanzia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -511,10 +513,13 @@
     "end": 1532.54,
     "speaker_raw": "SPEAKER_05",
     "testo": "sulle t-shirt arriva uno la mattina e dice ma come cammini strano maculato lo so bene perché il maculato stringe capito? e la banana spinge bene ragazzi a tra poco con delle belle poesie finisce la diretta facebook no che tristezza pararapapà oh yeah Cosa mettiamo, cosa mettiamo adesso? Tiziano Ferro e Carmen Consoli. Veramente? Sì. Come si chiama la canzone? Il Conforto. E fa più o meno così.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Il Conforto",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Tiziano Ferro e Carmen Consoli"
   },
   {
     "id": "2017-03-08-047",
@@ -566,9 +571,11 @@
     "end": 1767.15,
     "speaker_raw": "SPEAKER_05",
     "testo": "Allora, un bel modo per festeggiare la festa della donna da parte di un'ascoltatrice che dice io me starò a casa tranquilla con le mie due bambine mentre mio marito esce a cena perché il suo capo l'ha invitato per la festa della donna con le 25-30 colleghe.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Festa della Donna",
+    "tema": [
+      "famiglia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

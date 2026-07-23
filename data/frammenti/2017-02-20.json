@@ -291,9 +291,12 @@
     "end": 1241.91,
     "speaker_raw": "SPEAKER_08",
     "testo": "Tutto. Ah io lì rinnego la famiglia. Rinnego la famiglia. Tenevo una scatola con dentro letterine d'amore con scritto non toccare e mia madre me l'ha buttata via lo stessa. Senza toccare gliel'ha buttata via. mia madre aveva dato via la mia villa di campagna di Barbie con tutti i mobili alla bambina dell'appartamento sotto la vedevo abbandonata lì sul balcone che fitta il cuore c'è neanche la soddisfazione di dire l'ho data a qualcuno che parti per scalare le montagne e poi ti fermi al primo ristorante e non ci pensi più",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "scatola lettere d'amore",
+    "tema": [
+      "ricordi",
+      "famiglia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -412,9 +415,12 @@
     "end": 1764.16,
     "speaker_raw": "SPEAKER_00",
     "testo": "So che i giovani non amano i consigli, anch'io era così. Io però, senza arroganza, stasera qualche consiglio lo vorrei dare. Vorrei invitare i giovani a riflettere su queste parole. La prima è passione. Non c'è vita senza passione e questa la potete cercare solo dentro di voi. Non date retta a chi vi vuole influenzare. La passione si può anche trasmettere. Guardatevi dentro e lì la troverete. La seconda è gioia. Quello che rende una vita riuscita è gioire di quello che si fa. Ricordo la gioia nel volto stanco di mio padre e nel sorriso di mia madre nel metterci tutti e dieci la sera intorno a una tavola apparecchiata. È proprio dalla gioia che nasce quella sensazione di completezza, di chi sta vivendo pienamente la propria vita. La terza è coraggio. È fondamentale essere coraggiosi e imparare a vivere credendo in voi stessi. Avere problemi o sbagliare è semplicemente una cosa naturale. È necessario non farsi sconfiggere. La cosa più importante è sentirsi soddisfatti, sapendo di aver dato tutto, di aver fatto del proprio meglio, a modo vostro e secondo le vostre capacità. Guardate al futuro e avanzate. La quarta è successo. Se seguite gioia e passione allora si può anche parlare del successo. Di questa parola che sembra essere rimasta l'unico valore nella nostra società. Ma cosa vuol dire avere successo? Per me vuol dire realizzare nella vita quello che si è, nel modo migliore. E questo vale sia per il calciatore, per il falegname, l'agricoltore o il fornaio. La quinta è sacrificio. Che vi assicuro non è una brutta parola. Il sacrificio è l'essenza della vita, la porta per capirne il significato. La giovinezza è il tempo della costruzione. Per questo dovete allenarvi bene adesso. Da ciò dipenderà il vostro futuro. Non credete a ciò che arriva senza sacrificio. Non fidatevi, è un'illusione. Lo sforzo e il duro lavoro costruiscono un ponte tra i sogni e la realtà. Coloro che fanno sforzi continui sono sempre pieni di speranza. Abbracciate i vostri sogni e seguiteli. Gli eroi quotidiani sono quelli che danno sempre il massimo nella vita.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Passione e consigli",
+    "tema": [
+      "consiglio",
+      "passione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
