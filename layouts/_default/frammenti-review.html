@@ -201,6 +201,7 @@ select.fr-admin-input option { background: #141824; color: var(--cream); }
 (function() {
   var RAW = {{ $.Site.Data.frammenti | jsonify | safeJS }};
   var DUBBI_RAW = {{ $.Site.Data.frammenti_dubbi | jsonify | safeJS }};
+  var VERIFICA_ESTERNA_RAW = {{ $.Site.Data.frammenti_riferimenti_non_confermati | jsonify | safeJS }};
   var episodiValidi = {{ (slice) | jsonify | safeJS }};
   {{ range where .Site.RegularPages "Section" "episodi" }}episodiValidi.push({{ .File.ContentBaseName | jsonify | safeJS }});{{ end }}
 
@@ -216,6 +217,20 @@ select.fr-admin-input option { background: #141824; color: var(--cream); }
      ancora rivisti/decisi da un umano — e' la "coda da rivedere" vera. */
   var DUBBI = {};
   (DUBBI_RAW || []).forEach(function(d) { DUBBI[d.id] = d.motivo || ''; });
+
+  /* Aggiunto 2026-07-23: verifica_riferimenti_esterna.py (Open Library/TMDB/
+     MusicBrainz) segnala qui i riferimento_libro/film/musica che NON matchano
+     bene un database esterno reale — caso tipico: titolo vero ma autore
+     sbagliato (es. "Ulisse" attribuito a Dante Alighieri, che in realta' e' un
+     personaggio DENTRO il suo Inferno, non un'opera a se' — l'ancoraggio al
+     testo da solo non lo distingue, serve il confronto esterno). Stessa coda
+     "da rivedere" di DUBBI, motivo diverso. */
+  (VERIFICA_ESTERNA_RAW || []).forEach(function(d) {
+    if (DUBBI[d.id] !== undefined) return; // gia' segnalato da verifica_frammenti.py, non sovrascrivere
+    var esitoLabel = d.esito === 'probabile_falso_positivo' ? 'probabile falso positivo' : 'dubbio';
+    DUBBI[d.id] = 'Verifica esterna (' + esitoLabel + ', punteggio ' + d.punteggio + '): ' +
+      (d.match_trovato ? 'match piu\' simile trovato — ' + d.match_trovato : 'nessun match trovato');
+  });
 
   /* Ordine episodi: quelli con almeno un frammento segnalato "da rivedere"
      vengono prima (e aperti di default) - e' cio' che serve controllare,

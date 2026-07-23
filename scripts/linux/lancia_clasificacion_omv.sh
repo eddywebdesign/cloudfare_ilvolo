@@ -49,6 +49,14 @@ python3 -u scripts/verifica_riferimenti_esterna.py --dataset frammenti >> "$LOG"
 rc1b=$?
 echo "$(ts) verifica_riferimenti_esterna.py (frammenti) terminato (exit $rc1b)." >> "$LOG"
 
+# Aggiunto 2026-07-23: stesso motivo/pattern di frammenti_dubbi.json sotto — Hugo legge
+# SOLO da data/, mai da logs/. Senza questa copia il report di verifica_riferimenti_esterna.py
+# (dove finiscono casi come "Ulisse"/Dante Alighieri, titolo vero ma autore sbagliato — il
+# punteggio esterno li marca "dubbio", ne' confermati ne' falsi positivi netti) non era mai
+# visibile nel pannello /frammenti-recenti/?admin=1, quindi nessuno li rivedeva mai davvero.
+cp "$(dirname "$ILVOLO_DATA_DIR")/logs/frammenti_riferimenti_non_confermati.json" data/frammenti_riferimenti_non_confermati.json 2>>"$LOG"
+echo "$(ts) data/frammenti_riferimenti_non_confermati.json aggiornato per Hugo." >> "$LOG"
+
 echo "$(ts) Avvio verifica_frammenti.py..." >> "$LOG"
 python3 -u scripts/verifica_frammenti.py >> "$LOG" 2>&1
 rc2=$?
