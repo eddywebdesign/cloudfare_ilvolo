@@ -60,10 +60,13 @@
     "end": 210.66,
     "speaker_raw": "SPEAKER_11",
     "testo": "No, c'è la canzone. Potato, potato, tomato, tomato. Sai no che... You say potato, I say potato. Ammazza, non l'hai mai sentita? Ti giuro. La canzone di Louis Armstrong, potato, potato, non l'hai mai sentita?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "You say potato, I say potato",
+    "tema": [
+      "linguaggio"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Louis Armstrong"
   },
   {
     "id": "2017-10-20-006",
@@ -212,9 +215,12 @@
     "end": 441.36,
     "speaker_raw": "SPEAKER_10",
     "testo": "Prima le scrive su Instagram, poi la casa editrice vede che sono divisioni, follower. Facciamo un bel libro.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "poeti Instagrammer diventano famosi",
+    "tema": [
+      "fama",
+      "social"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -501,9 +507,12 @@
     "end": 1621.75,
     "speaker_raw": "SPEAKER_04",
     "testo": "È un film stupendo, mamma lo guarda stasera.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Mamma guarda il film stasera",
+    "tema": [
+      "famiglia",
+      "divertimento"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {

@@ -82,9 +82,12 @@
     "end": 390.58,
     "speaker_raw": "SPEAKER_03",
     "testo": "Un'ascoltatrice dice, io il mio primo ricordo è il mio primo giorno d'asilo, non mi ricordo tutto il giorno, ma l'ingresso. Eh, che trauma! Mi ricordo che andai con mia nonna e davanti all'asilo, già dentro nel cortile, dissi, no, no, ma io qua non voglio stare. E lei mi dice, torniamo a casa. Non ha neanche insistito, ci siamo girati e siamo tornati a casa.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "primo giorno d'asilo",
+    "tema": [
+      "infanzia",
+      "ricordi"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -137,10 +140,13 @@
     "end": 658.82,
     "speaker_raw": "SPEAKER_11",
     "testo": "oh yeah she give me money when I'm in need yeah she's a kind of friend indeed I got a woman way over town that's good to me oh yeah she saves the loving early in the morning just for me Oh yeah, she saves the lovin' early in the mornin' just for me. Oh yeah, she saves the lovin' just for me. Oh, she loves me so tenderly. I got a woman way over time. ... ... ... ... Oh yeah! Say I got a woman way over town that's good to me. Oh yeah! Oh she's my baby, don't you understand? Yeah!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "she saves the lovin'",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Kanye West"
   },
   {
     "id": "2017-10-10-013",
@@ -159,10 +165,14 @@
     "end": 722.7,
     "speaker_raw": "SPEAKER_11",
     "testo": "Entra in doccia. Sentite qua. Sul volume. No, I ain't saying she a gold digger. But she ain't messing with no broke niggas.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "gold digger",
+    "tema": [
+      "amore",
+      "denaro"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Kanye West"
   },
   {
     "id": "2017-10-10-015",
@@ -192,10 +202,13 @@
     "end": 776.71,
     "speaker_raw": "SPEAKER_01",
     "testo": "Pelle d'oca. Pelle d'oca Kanye West. Io? Pelle d'oca. Che c'entra Jennifer Lopez? C'entra, c'entra. Lei c'entra sempre. chi riesce a toglierla?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "pelle d'oca",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Kanye West"
   },
   {
     "id": "2017-10-10-018",
@@ -533,9 +546,12 @@
     "end": 1895.5,
     "speaker_raw": "SPEAKER_04",
     "testo": "Allora, come dicevo prima al telefono lì, quando lo racconto mi sento sempre un po' una matta. No, ma noi con noi no, con noi no. Con voi no, con voi no, però in generale quando lo racconto dico sempre vabbè lo so che quello che sto per dire è fuori dai canoni. Comunque tutto questo, ho visto cose che voi umani, no veramente sono sensazioni incredibili.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "viaggio ipnosi regressiva",
+    "tema": [
+      "esperienza",
+      "sensazioni"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -599,9 +615,12 @@
     "end": 1959.28,
     "speaker_raw": "SPEAKER_04",
     "testo": "Allora, la prima volta in assoluto ho rivissuto la mia nascita. Come diceva, sì, che è incredibile. Senti un dolore alla testa e la terapeuta ti dice guarda, stai nascendo, quindi sicuramente il dolore che senti è perché stai passando per il canale uterino. E infatti io ho fatto un parto, cioè il mio era un parto naturale. E poi quella sensazione che diceva il ragazzo di prima di non sentirsi amato, in realtà l'ho vissuta pure io ed è stato... Voleva un maschio tua mamma? No, mia mamma non lo so se voleva o no. Voleva niente, tua mamma non voleva niente. Voleva, diciamo che sono capitata.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "rivivere nascita ipnosi",
+    "tema": [
+      "esperienza",
+      "memoria"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

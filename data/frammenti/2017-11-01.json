@@ -38,10 +38,14 @@
     "end": 312.11,
     "speaker_raw": "SPEAKER_06",
     "testo": "Mette sempre di buon umore, di serenità un po', i pezzi di Sade sono stati fatti proprio per calmarti, perché comunque sono belli, non è che sono solo lenti, hanno sempre un po' di beat, però questa voce meravigliosa, bella, è stata usata molto nella mia generazione per serate romantiche, diciamo, si metteva un pezzo di Sade, così come quelli prima mettevano Barry Wilde. un po' macchietta adesso adesso l'è un po' Barry White quando attacca c'ha sempre questa voce che sai che Barry White ha copiato da Mario Biondi però anche Mario Biondi c'ha la voce un po' alla Barry White solo che Mario Biondi è alto però è abbastanza diciamo in una misura abbastanza nella norma invece Barry White era proprio un omone come Pavarotti quelli che hanno tutto quel cassa toracica per esempio fai sentire un pezzettino di Barry White no? senti com'è sembra che fa la gag che timbro però se qualcuno di voi oggi non lavora ed è a casa e magari nel pomeriggio vi viene a trovare una donna la vostra ragazza o una con cui state uscendo ecco io vi consiglierei un pezzo di Barry White quando lei entra dalla porta perché tu apri la porta e lei entra e senti",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "pezzi di Sade",
+    "tema": [
+      "serenità",
+      "romantico"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Sade"
   },
   {
     "id": "2017-11-01-004",
@@ -84,9 +88,12 @@
     "end": 422.55,
     "speaker_raw": "SPEAKER_06",
     "testo": "Teniamo la voce un po' più calda un po' alla Barry White, devo dire che gli ascoltatori che lavorano anche oggi troveranno comunque le strade più libere, li vedi i tassisti, l'altro domenica per esempio ho preso un taxi e il tassista mi ha detto tu non sai quanto mi piace lavorare la domenica perché si... Tutto più tranquillo, uno dice magari c'è anche meno chiamate, però è anche vero che quando ci sono i grandi eventi, per esempio a Milano, non so, il salone del mobile, il design, la moda così, magari hai più chiamate ma fai meno corsi perché sei così imbottigliato nel traffico che va eh, eh, eh, ho capito.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "tassista domenica",
+    "tema": [
+      "lavoro",
+      "tranquillità"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -150,9 +157,12 @@
     "end": 629.17,
     "speaker_raw": "SPEAKER_06",
     "testo": "Il palazzo di fronte? Il palazzo di fronte è un giardinetto Dove ci vanno i drogati? No scherzo, scherzo Allora Francesca De Mestre, 49 anni, restauratrice di dipinti a freschi, che l'altro giorno dicevo ho avuto una fidanzata così avete una pazienza, vedervi lavorare è veramente affascinante, dove l'hai fatta la scuola Francesca? a Venezia a Venezia sai che c'è una a Brescia no lo dico perché se non sono 3-4 in Italia una sta a San Gallo esatto sei mai stata quella lì di Brescia a San Gallo lì in collina no no no ma la conosco bella bella sono bravi lì devo dire che sono molto bravi gli italiani sono dei bravi restauratori? abbiamo tanto materiale su cui esercitarsi allora restauratrice dipinti a freschi restaura il colore ai capelli in questo momento tinta in testa mi sto facendo la ricrescita no avevo capito scusami perché restaura il colore ai capelli avevo capito tipo un dipinto invece ti stai facendo la ricrescita ma senti ogni quanto la devi fare questa ricrescita",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "restauratrice di dipinti",
+    "tema": [
+      "lavoro",
+      "arte"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -663,9 +673,12 @@
     "end": 1856.55,
     "speaker_raw": "SPEAKER_01",
     "testo": "va bene la gente va in paranoia quando sbaglia si stressa appunto io una volta per esempio ho avuto ho fatto una stagione di free drink in discoteca perché stavo entrando in discoteca in Sardegna mi ricordo ancora e ero attaccato a un mio amico allora butta fuori un po' ah questo già sta fuori oppure è dell'altra spunta così e così sono cieco dalla nascita mi picchiamo prendi due drink quello che uno ha come viola per esempio i cinesi assomigliano ai giapponesi no",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Stagione di free drink in discoteca",
+    "tema": [
+      "errore",
+      "amicizia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

@@ -38,9 +38,12 @@
     "end": 194.49,
     "speaker_raw": "SPEAKER_05",
     "testo": "praticamente Jack Johnson ah no aspetta scusatemi eh scusate scusate sono le regole del nuovo anno che non ho ancora imparato alla fine della canzone c'è una roba che fa mi avvolgi e anche dopo la pubblicità aspetta scusate queste sono Carolinus in ascolto caro Linus faccio una dichiarazione d'amore al capo in diretta caro Linus ascolto queste cosine che metti dopo il dischino dopo la pubblicità sono le tue penne nelle scodelle che arriva il tuo ufficio cioè sono i tuoi compartimenti stagni sono matite cioè matite caro Linus non c'è niente di fluido attorno a te tutto è tutto qui quadratini adesso vengo giù via via questi intoppi capito quando si ciula si ciula capito",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Jack Johnson e la pubblicità",
+    "tema": [
+      "errore",
+      "pubblicità"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -142,9 +145,12 @@
     "end": 391.3,
     "speaker_raw": "SPEAKER_01",
     "testo": "da Roma e ho due minuti perché sto andando dalla psicologa quindi adesso ci spiega tutto tutto torna una che ti parla di mano invisibile di subcultura io pensavo all'esorcista un passo alla volta senti Simona ieri è andato un po' meglio? cosa?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Andare dalla psicologa",
+    "tema": [
+      "psicologia",
+      "giornata"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -310,10 +316,14 @@
     "end": 677.04,
     "speaker_raw": "SPEAKER_05",
     "testo": "Ciao Fabio, ho letto il tuo libro, non mi è piaciuto, preferivo l'altro, secondo me non sei bravo a scrivere. Ci sta. Ehi coglionazzo, tu devi morire, così via.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "libro di Fabio",
+    "tema": [
+      "critica",
+      "lettura"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Fabio"
   },
   {
     "id": "2017-10-05-028",

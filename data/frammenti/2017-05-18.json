@@ -374,9 +374,12 @@
     "end": 889.8,
     "speaker_raw": "SPEAKER_01",
     "testo": "Allora, allora, aspetta, aspetta, abbiamo delle cose importanti. Allora, abbiamo un ascoltatore che dice, io a 21 anni ho fatto piangere mia mamma, cioè la madre che ti ha portato. perché le ha detto che voleva andare in vacanza con i suoi amici e non con lei oh non vado a vivere in Kazakistan vado in vacanza due settimane ma poi ha 21 anni",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "vacanza senza mamma 21 anni",
+    "tema": [
+      "genitori",
+      "indipendenza"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -385,9 +388,12 @@
     "end": 898.5,
     "speaker_raw": "SPEAKER_05",
     "testo": "non ci vediamo mai è l'unico momento che possiamo spendere insieme ok allora io avevo due fidanzati in passato dice un'ascoltatrice uno andava a lezione di tango con sua madre e poi dalla parrucchiera ce l'abbiamo il telefono pronto?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "fidanzato tango parrucchiera",
+    "tema": [
+      "genitori",
+      "relazioni"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

@@ -393,8 +393,11 @@
     "speaker_raw": "SPEAKER_01",
     "testo": "sì perché questo ragazzo innanzitutto secondo il mio punto di vista c'era una reazione alla base di questa c'è la voglia di andare era per scappare da lui scappava dalla società dimenticando che la natura ha leggi ancora molto più severe della società e la società in base diciamo a un inconveniente ti siedi ne parli",
     "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "tema": [
+      "natura",
+      "società"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -404,8 +407,11 @@
     "speaker_raw": "SPEAKER_04",
     "testo": "chiami l'avvocato la natura, sbagli a tracciare, vengi alla slavina, paghi con tanti subito c'è un occhio per occhio, dente per dente per cui il primo errore non ti dà una possibilità o comunque ti segna, diciamo che ti segna è una cosa affascinante quando uno riesce a realizzare la propria cosa in qualche modo metti sempre in discussione quello che hai di fronte che magari voleva e non ce l'ha fatta e per istinto qualcuno ti dice non ho avuto il coraggio, non sono stato in gamba, non ho avuto paura, quelle persone sono oneste, altri invece dicono vabbè ma trovano sempre, ieri c'era un ragazzo non vedente qui da noi e ci ha detto che a un certo punto stava parcheggiando la macchina, lui ha una macchina cabrio, è ovviamente una persona che la guida perché è non vedente, c'era un ragazzo che stava parcheggiando e gli ha detto scusa quello è il posto delle persone con portatonia, ah vabbè non ci vedi però c'è la bella macchina comunque",
     "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "tema": [
+      "errore",
+      "conseguenza"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -459,8 +465,11 @@
     "speaker_raw": "SPEAKER_04",
     "testo": "Senti, allora, tu hai due frasi con cui io vorrei che tu salutassi noi del volo del mattino. Una che è scritta lì, è incisa sul legno?",
     "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "tema": [
+      "baita",
+      "benvenuto"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -492,8 +501,11 @@
     "speaker_raw": "SPEAKER_01",
     "testo": "mentre sulla tavola diciamo sul legno all'ingresso è scritto è un saluto per chi arriva chi si ferma e chi scende e c'è scritto qua su ora ti puoi fermare nella semplicità della vita in quota riposare rifocillarti lasciar liberi i pensieri di giocare a rincorrersi con le stelle Non dimenticare che quassù sei ospite del mio sogno, armonia di intense fatiche e sottili esigenze del cuore, ma soprattutto quando scenderai a valle tieni stretto per mano i tuoi sogni.",
     "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "tema": [
+      "sogno",
+      "armonia"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {

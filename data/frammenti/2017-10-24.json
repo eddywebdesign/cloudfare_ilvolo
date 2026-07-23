@@ -93,9 +93,12 @@
     "end": 469.92,
     "speaker_raw": "SPEAKER_10",
     "testo": "secondo me l'ascoltatore che ci ha regalato l'olio che io vi ho rubato adesso sentendo così ne manda ancora volevo dire all'ascoltatore aspetta che io sia tornato no no no invece approfitta e mandaci le tanichette di cui siamo stati depredati",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "olio rubato ascoltatori",
+    "tema": [
+      "umorismo",
+      "ascoltatori"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -126,9 +129,12 @@
     "end": 487.16,
     "speaker_raw": "SPEAKER_09",
     "testo": "Sì, sono andato alla Maison du Monde. Alla Maison du Monde? Sì, l'altro giorno. C'è già tutto il reparto di Natale con le renne in legno, gli alberi.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Maison du Monde Natale",
+    "tema": [
+      "Natale",
+      "commercio"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -531,9 +537,12 @@
     "end": 1200.77,
     "speaker_raw": "SPEAKER_08",
     "testo": "ciao Mattia un bel giorno senza dire niente a nessuno me ne andai a Genova e mi imbarcai su un cargo battente bandiera liberiana feci due volte il giro del mondo non riuscii mai a capire che cazzo trasportasse quella nave ma forse un giorno lo capì droga",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "viaggio su cargo liberiano",
+    "tema": [
+      "viaggio",
+      "mistero"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

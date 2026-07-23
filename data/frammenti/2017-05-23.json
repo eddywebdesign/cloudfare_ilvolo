@@ -144,10 +144,13 @@
     "end": 714.79,
     "speaker_raw": "SPEAKER_04",
     "testo": "Grazie a tutti pretty woman won't you pardon me pretty woman I couldn't help but see pretty woman Pretty woman, talk a while Pretty woman, give your smile to me Pretty woman, yeah, yeah, yeah Pretty woman, look my way Pretty woman, say you'll stay with me Cause I need you don't walk on by pretty woman don't make me cry pretty woman don't walk away hey ok if that's the way it must be ok I guess I'll go on home it's late there'll be tomorrow Oh yeah!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Pretty Woman",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Roy Orbison"
   },
   {
     "id": "2017-05-23-013",
@@ -155,9 +158,12 @@
     "end": 747.31,
     "speaker_raw": "SPEAKER_10",
     "testo": "Allora, un'ascoltatrice marica da Roma dice, ah Paolo, dice al tassista, so partita, tutto scritto in romanesco, io non lo so fare, so partita alle sette e venti, me fa dieci chilometri e sto ancora nel traffico, ma che bella città, la città è bella.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Tassista e traffico a Roma",
+    "tema": [
+      "viaggio",
+      "romanesco"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -188,9 +194,12 @@
     "end": 793.79,
     "speaker_raw": "SPEAKER_08",
     "testo": "faccio l'imitazione di Laura Antonini una mamma e sua bambina di due anni sono lì sul letto belli, buoni quel letto soffice e stanno ascoltando la radio e ti salutiamo tanto la persona più buona del mondo Laura Antonini su Radio DJ allora a proposito di montare abbiamo l'edicola?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Laura Antonini",
+    "tema": [
+      "mamma",
+      "bambina"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -199,9 +208,12 @@
     "end": 857.51,
     "speaker_raw": "SPEAKER_10",
     "testo": "comunque stamattina non ingrano le energie ragazzi perché siamo arrivati noi abbiamo litigato e abbiamo buttato una bomba nella stanza allora cambiamo il discorso io mi tiro fuori siamo arrivati c'era un po' di tensione ma non è vero c'era un po' di tensione abbiamo avuto una mezza discussione io sono stato un po' aggressivo perché è giusto che si facciano così come si fanno i cani wow quando il cane non capisce che sono il ruolo l'alfa sono dovuto entrare e vi ho dovuto dare città sei entrato e hai detto siete delle persone orrende siete delle brutte persone io sono sul tram che sudo con mio figlio in braccio che lo porto all'asilo in una babele che non capivo tutti al telefono con lingue diverse mi scompiamo la testa vi chiedo una cortesia col vocale perché non riesco a scrivere che ho il bambino in braccio siete delle brutte persone ma cosa? fa niente fa niente comunque i fan mi spostano ma c'è l'edicola?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "discussione aggressiva",
+    "tema": [
+      "amicizia",
+      "tensione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -276,9 +288,12 @@
     "end": 997.57,
     "speaker_raw": "SPEAKER_10",
     "testo": "Tu devi sapere, lo sai Marco, quando ho fatto un film, lo dico sempre, dove avevo un cane sul set e quindi sono andato a fare il corso di addestramento perché il cane deve sembrare il mio sul film, non può essere che scappa. E quindi vai al corso di addestramento. è la signora quella che ti ha dato l'euro è Cordusio alle 9.17 e mi hanno insegnato questa cosa che il cane ogni tanto mette alla prova il padrone aspetta per sapere chi è se è lui il capobranco e sai come fa? ti attraversa davanti ti taglia la strada se tu ti fermi e lo fai passare da quel momento lui è il capobranco tu devi andare dritto e col ginocchio gli fai sentire sul fianco che si deve fermare e lui quando poi lo accarezzi se lo accarezza il padrone dai come le donne sono più contenti se una donna lo accarezza è un mollaccione è un disastro invece se un uomo che sa fare l'uomo si prende cura della sua donna Ho peggiorato la situazione.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "corso di addestramento cane",
+    "tema": [
+      "addestramento",
+      "cane"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {

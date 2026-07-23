@@ -457,9 +457,12 @@
     "end": 2087.18,
     "speaker_raw": "SPEAKER_08",
     "testo": "Io col Piero ci siamo presentati. Lei col Piero, numero uno. Ci siamo presentati là, a questa spiaggia di San Nicola. E chi si è presentato? Eravamo io e lui con questa rosa rossa in mano. Ovviamente la spiaggia era murata di gente... Perché agosto ha scelto il mese sbagliato. Allora, il 5 d'agosto, diciamo che era abbastanza pieno. Benissimo, visto che non c'era neanche il nome scritto per la ragazza, dice, boh, come la troviamo? Siamo andati al primo bar e c'era la barista, dice, guardi, così, così, è molto interessante il discorso, ma chi è questa? Io non la conosco. Abbiamo fatto mezza spiazza. Avanti Andre con la rosa e alla fine? Alla fine siamo andati al secondo bar mentre stavamo parlando con gli altri baristi e cameriera a un certo momento si è presentata la ragazza. Sono io, sono io quella che ha scritto la messa. E vi siete sposati? No, non è che siamo sposati, uno perché...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Presentazione con rosa rossa",
+    "tema": [
+      "amore",
+      "amicizia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -468,10 +471,14 @@
     "end": 2131.41,
     "speaker_raw": "SPEAKER_09",
     "testo": "Aveva sei anni, no... lei ne aveva 17 e c'era pure l'accompagnato col padre e io sono 69 senta come la devo chiamare professore, dottore mi può chiamare Roberto Roberto che è l'amico del Piero tra l'altro noi adesso se lei è d'accordo tanto è pensionato ogni tanto noi la chiamiamo e lei ci legge un messaggio visto che ha pubblicato anche il libro o dal libro o dalla bottiglia direttamente come preferisce lei i messaggi d'amore sono bellissimi ecco allora io adesso nei prossimi giorni ci mettiamo d'accordo ogni tanto la mattina la chiamo lei ci legge questo messaggio Un messaggio alla volta. Va bene.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Messaggi dalla bottiglia",
+    "tema": [
+      "amore",
+      "speranza"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Roberto"
   },
   {
     "id": "2017-10-17-042",

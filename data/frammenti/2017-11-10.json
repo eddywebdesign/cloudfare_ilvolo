@@ -324,9 +324,12 @@
     "end": 505.57,
     "speaker_raw": "SPEAKER_07",
     "testo": "Sai che non riesco a... I tasti. Ti stavo dicendo, puoi fare una foto, ma no, non la puoi fare perché il telefono è lì. Esatto. E' come quando sei al telefono che stai uscendo di casa e giri per casa cercando il telefono. Non so se vi è mai capitato, è una roba che succede solo alla mia vecchiaia. Dicono, sono lì che parlo, ma dove cazzo è il telefono? Mia nonna faceva così con gli occhiali, li metteva in testa e poi diceva, non trovo gli occhiali. Ascoltami Andrea, ma sei in ufficio da solo?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "cerco il telefono in casa",
+    "tema": [
+      "perdita",
+      "vecchiaia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -390,9 +393,12 @@
     "end": 535.45,
     "speaker_raw": "SPEAKER_07",
     "testo": "Lo sai che sugli aerei, su alcuni aerei, l'ultimo che ho preso per andare a New York un mese fa, c'è il cartello che se ti cade il telefono tra il sedile e la cosa, di chiamare la host. Certo. È un cartello nuovo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "telefono tra i sedili aereo",
+    "tema": [
+      "viaggio",
+      "inconveniente"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -995,10 +1001,13 @@
     "end": 1789.02,
     "speaker_raw": "SPEAKER_07",
     "testo": "Galeotto fu quel libro che lo scrisse, malnaggia. A proposito di libri, cosa ti è successo oggi Francesca?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Galeotto fu quel libro che lo scrisse",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Dante Alighieri"
   },
   {
     "id": "2017-11-10-089",
@@ -1085,9 +1094,12 @@
     "end": 1874.71,
     "speaker_raw": "SPEAKER_08",
     "testo": "Ma no, perché lui ne capisce parecchio di motore, per cui si è messo in garage, l'ha smontato tutto, se l'è colorato... Insomma, per lui era un passatempo fantastico. Questo cretino, un giorno, con un suo amico, si trova in un parcheggio, insomma, senza patentino, Fabio.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Fabio e l'ape piaggio",
+    "tema": [
+      "multa",
+      "amici"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1107,9 +1119,12 @@
     "end": 1917.53,
     "speaker_raw": "SPEAKER_08",
     "testo": "Hai capito? Una stradina secondaria, arrivano i carabinieri. Multa, verdale, 4.600 euro. Aspetta, aspetta. Prendono l'arte e la portano via con i scaratrezzi, per cui a questo aggiungici anche il sequestro. Quattro ore in caserma, ma ti giuro neanche avessero ucciso qualcuno. Io veramente non so come sia possibile. Senti, tu... Ma qual è? Che noi siamo comunque delle brave persone, mi hanno sempre insegnato ai nostri figli a rispettare le regole. Quel giorno lì mi sono dovuta chiudere in bagno perché ero posseduta dal demonio.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Multa per Fabio",
+    "tema": [
+      "multa",
+      "carabinieri"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1151,9 +1166,12 @@
     "end": 1964.56,
     "speaker_raw": "SPEAKER_08",
     "testo": "Il problema è anche quello che mio figlio è un bravo ragazzo, per cui si sentì mortificatissimo. È un bravissimo sciatore e ha cominciato a dire ma non vi preoccupate, dai vendiamo gli sci, vendiamo gli scarponi. Una scena di una tristezza, di una roba. Ma ti giuro di una tristezza che ho detto guarda davvero vado sotto un lampione.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Tristezza del figlio",
+    "tema": [
+      "genitori",
+      "tristezza"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

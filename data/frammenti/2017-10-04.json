@@ -27,10 +27,13 @@
     "end": 326.25,
     "speaker_raw": "SPEAKER_12",
     "testo": "per fare le valigie hai una scelta da fare quando sono stato io a dover scegliere ho sbagliato perché questa canzone dei snow patrol l'ho accesa in cars e inseguendo le macchine ricorda sempre Grey's Anatomy e loro hanno questa storia d'amore poi sai che è ancora in onda ti dirò c'è sempre qualcuno che guarda io dico una cosa faccio un backstage cos'è successo dietro le quinte amici di amici avete amici in comune? no no no e mica è venuto in Italia a fare una cosa con camici di amici dicono che non so se sia vero Che lui a un certo punto ha tradito la moglie, nella vita vera, ha tradito la moglie, ma la moglie era amica, molto, diciamo, tipo migliore amica di quella che scriveva le puntate, cioè di quella che ha inventato Grace Armani, e lui l'è morto.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Chasing Cars - Snow Patrol",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Snow Patrol"
   },
   {
     "id": "2017-10-04-003",
@@ -641,10 +644,13 @@
     "end": 2046.9,
     "speaker_raw": "SPEAKER_12",
     "testo": "Quello che si dice a prova di dumplings, cioè di dumpling. Vediamo, sì. A prova di raviolo. Allora, il libro si chiama Dipende, Einstein e la teoria della relatività. Lei ha capito, professore, scusi, dottoressa, lei ha capito cosa hanno fatto questi vincitori del Nobel? eh spero di sì spero di aver capito qualcosa senta qua siamo su Radio DJ ed è il mio programma diciamo che ce la deve diciamo raccontare bene semplice semplice hanno scoperto che",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Dipende, Einstein e la teoria della relatività",
+    "tema": [
+      "scienza"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "dottoressa"
   },
   {
     "id": "2017-10-04-058",
@@ -663,9 +669,11 @@
     "end": 2077.6,
     "speaker_raw": "SPEAKER_12",
     "testo": "Lei qualcuno ha fumato, è un classico. Quando io mi facevo le canne, cadevano le cacchette e facevano i buchi. Va bene, l'avrò diventato tutto.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "fumando cadevano le cacchette",
+    "tema": [
+      "marijuana"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
