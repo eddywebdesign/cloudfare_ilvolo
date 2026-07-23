@@ -454,10 +454,14 @@
     "end": 1669.69,
     "speaker_raw": "SPEAKER_16",
     "testo": "è potente potente dai si sente si sente bravi ragazzi bene questo è il singolo nuovo di negra maro che sentiremo fino allo sfinimento ovviamente si chiama fino al limbronino fino allo sfinimento bravi ragazzi sono molto contento la rimettiamo ora subito a bomba rimetterei la nostra no per esempio resta nella testa delle persone questa canzone che è molto bella ci ha scritto un'amica di Simona dicendo io sono amica di Simona avete fatto barzellette avete parlato di bidet capisco che è venerdì però io voglio un po' di contenuti e noi eccoci qua contenuti dal punto di vista estetico dal punto di vista culturale dal punto di vista di Valentina eccomi qua buongiorno bentornata grazie tutto bene avete iniziato bene la stagione grandissimo si guarda ho quell'imbarazzo di ricevere messaggi è il programma più bello del mondo",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Fino al Limbronino",
+    "tema": [
+      "musica",
+      "nostalgia"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Negramaro"
   },
   {
     "id": "2017-10-06-041",
@@ -476,10 +480,14 @@
     "end": 1715.39,
     "speaker_raw": "SPEAKER_16",
     "testo": "Venite nel weekend se potete come noi andiamo a Venezia ogni tanto o a Firenze, voi venite a Milano perché ci sono delle mostre molto importanti, ti ho chiesto prima se c'è Nan Goldin che sono anni, ne parlo anche a voi nel mattino, una delle mie fotografie preferite, new yorkese degli anni diciamo 90, 80, 90 e porta il mondo. Gli anni in cui è arrivata la Yes, tutto un mondo molto interessante.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Nan Goldin Fotografie",
+    "tema": [
+      "fotografia",
+      "storia"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Nan Goldin"
   },
   {
     "id": "2017-10-06-043",
@@ -487,10 +495,14 @@
     "end": 1756.34,
     "speaker_raw": "SPEAKER_00",
     "testo": "Underground della notte, quando veramente ne succedevano a New York, ero un concentrato. Quando a New York di notte succedevano cose che neanche nei film si potevano immaginare. Esattamente, alla Trinale di Milano è stata inaugurata un paio di settimane fa, si chiama Ballad of Love. quindi è la storia un po' della sua vita di quegli anni tutta concentrata in una serie di fotografie che però vengono passate tu non vedi le immagini è come un video una slide che dura circa 45 minuti ti siedi proprio su un'arena su dei gradini e guardi in sequenza sono divisi per capitoli e teatro con una colonna sonora meravigliosa",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Ballad of Love",
+    "tema": [
+      "new york",
+      "cultura"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Nan Goldin"
   },
   {
     "id": "2017-10-06-044",

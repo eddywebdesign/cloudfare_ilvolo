@@ -144,8 +144,11 @@
     "speaker_raw": "SPEAKER_05",
     "testo": "Era il 1966, Viola nasceva in quell'anno e portava 66. Quando senti 66, è incredibile come la tua data di nascita crea veramente l'Avanti Cristo e il Dopo Cristo.",
     "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "tema": [
+      "nascita",
+      "tempo"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

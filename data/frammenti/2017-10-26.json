@@ -654,10 +654,14 @@
     "end": 2559.3,
     "speaker_raw": "SPEAKER_09",
     "testo": "Pensa che questa canzone meravigliosa che è stato anche il titolo di un film con Favino, grandissimo Favino, con Battistone, grandissimo Battistone. Poi? E ce l'ho anch'io, ovviamente ce l'ho anch'io.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "canzone titolo film",
+    "tema": [
+      "musica",
+      "film"
+    ],
+    "tipo": "riferimento_film",
+    "video_url": "",
+    "autore": "Favino, Battistone"
   },
   {
     "id": "2017-10-26-059",

@@ -28,8 +28,10 @@
     "speaker_raw": "SPEAKER_07",
     "testo": "Questa canzone devo dire che a parte che è bellissima, però è anche la canzone della mia famiglia, per cui quando la sento e sono lontano, senza famiglia, ormai da cinque giorni, mi viene il magone quando la sento. Sì? Non vi ho commosso, non vi ho commosso.",
     "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "tema": [
+      "famiglia"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -38,9 +40,12 @@
     "end": 253.83,
     "speaker_raw": "SPEAKER_08",
     "testo": "Ma in che senso è la canzone della sua famiglia? Cosa intende? questa qui è quella che cantiamo quando siamo in macchina e anche i due bambini che non è che la cantano però il pezzettino phone in love che tristezza quando andavo in macchina da piccino con la mia famiglia noi cantavamo Bella Ciao e Vittina Crozza chi è Vittina Crozza? è una canzone siciliana fantastica",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "canzoni in macchina",
+    "tema": [
+      "bambini",
+      "musica"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

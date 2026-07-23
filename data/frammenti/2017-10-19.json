@@ -286,9 +286,13 @@
     "end": 977.84,
     "speaker_raw": "SPEAKER_00",
     "testo": "No, ho detto che è molto intelligente, non ho fesso. Ha preso le zanzare, le ha portate a casa e le ha liberate nella stanza del figlio.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Entomologo e figlio malato",
+    "tema": [
+      "padre",
+      "figlio",
+      "malaria"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -309,8 +313,11 @@
     "speaker_raw": "SPEAKER_00",
     "testo": "No, ma c'è un letto finale. Ah, certo. Pensate alla gioia del padre quando ha visto il figlio in fin di vita moribondo perché sarà malato dalla malaria. Ha vinto anche il premio Nobel in 1902 se Ronald Ross è stato insignito col premio Nobel per la medicina.",
     "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "tema": [
+      "scienza",
+      "medicina"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -512,10 +519,13 @@
     "end": 1635.57,
     "speaker_raw": "SPEAKER_03",
     "testo": "qual è il potere del volo del mattino? vi ricordate la settimana scorsa ho letto, Cabrini, Antonio Cabrini ha letto una letterina nel programma di Fazio di una bambina che gli aveva scritto nel 79-80 ed era un'ascoltatrice del volo del mattino quindi io nel dire quella storia, boom, l'abbiamo trovata nel dire che stiamo cercando il testo di questa canzone per capire, non ci ha scritto chi l'ha scritta però ci ha scritto una ragazza che se l'è tatuata cioè lei sul suo corpo ha questo testo mi auguro che sappia cosa vuol dire Laura Laura D'Afano 28 anni ha interpretato la scimmia Rafiki nel 2015 e si è tatuata l'inizio del testo della canzone te lo ricordi Rafiki? Rafiki? te lo ricordi o no? è il vecchietto è quello che spacca la cosa che gli mette la crocetta sul pugno è tipo uno sciamano il prete, il sciamano lo sciamano scusami sciamana ciao Rafiki scusami allora intanto tu la sai cantare quindi",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "lettera di una bambina",
+    "tema": [
+      "ricordi"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Antonio Cabrini"
   },
   {
     "id": "2017-10-19-046",
@@ -721,10 +731,13 @@
     "end": 2162.31,
     "speaker_raw": "SPEAKER_03",
     "testo": "Nada, Amore Disperato, un disco del 1983. Ma non lo so, mi piaceva. C'entra sempre questa canzone. Allora ragazzi, oggi state andando in ufficio, questa sera qualcuno di voi uscirà, perché il giovedì è il New Friday. soprattutto per quelli che vivono in altre città di solito escono il giovedì sera con gli amici che poi il venerdì tornano nelle proprie città infatti gli studenti escono il giovedì la settimana corta i giovani, è sempre più corta la settimana è sempre più corta allora questa sera o anche oggi in ufficio così vi capiterà di dover chiacchierare con degli amici a parte le stupidate che diciamo sempre noi volete buttarli una cosa che fa colpo sai che mi sa che uno che ne sa è un intelligente Adesso noi chiamiamo uno intelligente. Ah, ecco. No, aspetta, sono io. Chiamiamo uno intelligente, che ogni tanto chiamiamo al volo del mattino, che ha scritto un libro, ma non è tanto per promuovere il libro, intanto perché quel libro è un libro interessante, che parla di una cosa fondamentale, cioè la comunicazione, il linguaggio e tutto questo mondo che ci appartiene. E siccome lui è proprio uno di quegli intelligentoni, ok, se lui ci spiega una cosa difficile e ce la rende facile, dopo noi la... quando andiamo lì a tagliare la pizza è di Pavia tra l'altro te, Gerry Scotti, De Filippi Max Pezzali è lui tutta una roba dov'è dov'è Signore e signori è qui con noi il professor Andrea Moro. Che bello il professor, ma quanto è bello essere chiamati professore nella vita?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Disperato",
+    "tema": [
+      "disperazione"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Nada"
   },
   {
     "id": "2017-10-19-065",

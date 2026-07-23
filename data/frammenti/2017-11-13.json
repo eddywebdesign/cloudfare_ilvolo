@@ -569,10 +569,13 @@
     "end": 1552.3,
     "speaker_raw": "SPEAKER_01",
     "testo": "Grazie a tutti Grazie a tutti. so listen girl when you can't even hide it and it didn't take forever to find it I was all on my own almost glad to be alone until love came in on time oh on time loving is easy you had me fucked up it used to be so hard to see a presto",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Love Me",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Dua Lipa"
   },
   {
     "id": "2017-11-13-052",
@@ -1097,9 +1100,11 @@
     "end": 2552.12,
     "speaker_raw": "SPEAKER_14",
     "testo": "pensando in ti camminando mi si sta llena di moras son parati temprano E il sogno di te Comendo pera che piacere la gente buona solo gozza, non c'è pena per che soffrire giocando nel mare, in arena Vivendo così. Ventana blanca.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "ventana blanca",
+    "tema": [
+      "poesia"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {

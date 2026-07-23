@@ -470,9 +470,11 @@
     "end": 1935.57,
     "speaker_raw": "SPEAKER_06",
     "testo": "Ah sei lì al rosetto col profumo di rosa ti piace proprio la rosa non c'è niente da fare. senti una cosa Orietta intanto che onore averti alla radio ti ho sempre lì a fianco quanti anni di carriera possiamo dire che hai 50 50 anni di carriera ce l'hai un rituale prima di salire sul palco una scaramanzia dunque io prima di cantare",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "rituale prima di cantare",
+    "tema": [
+      "performance"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -690,9 +692,12 @@
     "end": 2267.74,
     "speaker_raw": "SPEAKER_06",
     "testo": "dice un ascoltatore tutte le grandi menti dormono poco no? è vero no ci sono diverse uno ha scritto anche Mussolini beh se non lo vorrei paragonare però insomma le grandi menti ci diceva anche di Berlusconi di Andreotti diciamo anche molti politici forse anche per il senso di responsabilità anche Obama dice che dormiva molto meno perché Obama",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "grandi menti dormono poco",
+    "tema": [
+      "sonno",
+      "politica"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

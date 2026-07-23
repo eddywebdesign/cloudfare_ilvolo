@@ -16,10 +16,13 @@
     "end": 154.94,
     "speaker_raw": "SPEAKER_14",
     "testo": "se non riuscite a capire bene cosa dice questa canzone quando si sente dice Kelly watch the stars Kelly guarda le lune le stelle ok era il 1998 quando gli EI Quando gli Eire arrivarono...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Kelly watch the stars",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Kelly Price"
   },
   {
     "id": "2017-10-27-002",
@@ -63,10 +66,13 @@
     "end": 291.47,
     "speaker_raw": "SPEAKER_14",
     "testo": "Cherry Blossom Girl anche All I Need All I Need era una delle più belle dell'album Cherry Blossom Girl anche ma quella famosa che lanciò l'album era mannaggia a te perché non siete preparati ma non è che non siamo preparati cioè siete anche giovani è roba vostra questa che c'entro io io ero già grande quando sono usciti gli ere o l'auto no no niente niente niente sembra che avete avuto una salumeria fino a ieri ma che salumeria? e oggi vi mettete lì a fare i dj allora niente sexy boy oh sexy boy era quella scimmia? ok siamo partiti male ma no ci siamo arrivati piano piano si però non si fa così Cosa sta dicendo questa cosa? Niente, è gorgheggia. Allora ragazzi, bando alle ciance, non abbiamo molto tempo e abbiamo troppe cose da fare. Ci stanno quanti parcheggi in questo momento. abbiamo tante cose da dire dobbiamo intanto ringraziare tutti e tre noi dobbiamo ringraziare Lorenzo Farini Quartana finisce come l'olio finisce come l'olio cosa vuol dire finisce come l'olio? che ci ha regalato a tutti un pacco con dentro delle mutande e delle calze perché abbiamo detto che ci servivano abbiamo detto ma soprattutto è appena arrivato un ragazzo gigante è enorme quanto peserà? con la maglietta verde con scritto kiwi vieni qua guarda che c'è il microfono come ti chiami?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Cherry Blossom Girl",
+    "tema": [
+      "ricordi"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "All Saints"
   },
   {
     "id": "2017-10-27-006",
@@ -360,9 +366,12 @@
     "end": 912.66,
     "speaker_raw": "SPEAKER_15",
     "testo": "Anche perché poi un sacco di cose dice a proposito di New York e di grandi artisti, Sophia Loren, Marilyn, ma sai quante cose devo dire? Voglio dire solo a te. Hai incontrato Marilyn Morello? Eh scherzo, siccome l'ho incontrato, l'ho salutato, l'ho anche toccato la mano. Ma quando era viva? Nel... Nel 1962.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "incontro con Marilyn Morello",
+    "tema": [
+      "celebrità",
+      "storia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -618,10 +627,14 @@
     "end": 1861.79,
     "speaker_raw": "SPEAKER_14",
     "testo": "Potremmo chiedere una collaborazione, Toni Dallara, Fabi Fibra. Poi c'è stato il periodo in cui, diciamo, il mondo hip hop rep italiano prendeva poi i campioni delle canzoni, no? C'erano i gemelli diversi con i Pooh, la ricordi? C'è un libro...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Il mondo hip hop italiano",
+    "tema": [
+      "musica",
+      "storia"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Toni Dallara"
   },
   {
     "id": "2017-10-27-056",

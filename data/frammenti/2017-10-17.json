@@ -221,10 +221,13 @@
     "end": 1176.92,
     "speaker_raw": "SPEAKER_09",
     "testo": "questo proprio sposta i pianeti no gli facciamo paura poi io mi immagino un alieno che si chiama Johnny che trovano questa cosa e tu gli dici Johnny fai il bravo sapete che la lunghezza di questo brano di Beethoven è la lunghezza dei cd quando hanno inventato i cd negli anni 80-90 adesso non mi ricordo dovevano decidere quanto dovesse durare questo cd fatto con laser e hanno preso questa come misura e quant'è?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Beethoven's Symphony",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Ludwig van Beethoven"
   },
   {
     "id": "2017-10-17-020",
@@ -518,10 +521,13 @@
     "end": 2256.91,
     "speaker_raw": "SPEAKER_01",
     "testo": "Svalutation Svalutation Svalutation Svalutation Svalutation siamo in crisi ma senza andare in là l'America è qua in automobile a destra da trent'anni si va ora contro mano vanno in tanti si sa che scontresce che scontresce con la nuova banca dei sequestri che c'è ditemi il valore della vita quant'è svalutation Assassination Assassination",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Svalutation",
+    "tema": [
+      "crisi"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Celentano"
   },
   {
     "id": "2017-10-17-047",
@@ -566,9 +572,11 @@
     "end": 2647.68,
     "speaker_raw": "SPEAKER_09",
     "testo": "dovete immaginarvi in un bar in qualche paese diciamo magari o anche in montagna o qualche paese del nord Europa lui è svedese bevete questo caffè beve fuori c'è un po' di freddo perché ti ingobbi tutto quando dici caffè? io bevendo il caffè americano ho la tazza quindi io metto le mani attorno alla tazza la mattina e mi scalda anche le mani come fanno quelli che portano fuori il cane no? no sai che quando ti portano fuori il cane e poi col sacchetto di carta di plastica accolgono la cacca del cane e la tengono in mano un po' per gli scaldare la mano ma smetti ognuno sceglie quello che vuole allora questa canzone penetra nel cuore guarda i messaggi che arrivano il primo era già odio questa canzone questa voce mi sta sulle palle guarda Cristina è uno dei miei artisti preferiti dice Giuppi si chiamerà Giuppi di nome? immagino di sì si chiamerà Giuppi ammazza che pezzone comunque adesso io una volta a due settimane ve li metto questi pezzi lenti la musica voglio fare il dj di una volta il dj quello che propone della musica se tu la proponi e la spieghi pian pianino allora aspetta che mi devo segnare che voglio mettere il pezzetto sta fermo lì che te lo do io ciao ragazzi a domani",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "cafe' e mani calde",
+    "tema": [
+      "abitudini"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   }
 ]

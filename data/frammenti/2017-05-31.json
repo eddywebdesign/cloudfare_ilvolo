@@ -244,9 +244,11 @@
     "end": 1217.72,
     "speaker_raw": "SPEAKER_03",
     "testo": "Il giardino dei sogni profuma di fiori ed aspetta soltanto il mio arrivo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Il giardino dei sogni profuma di fiori",
+    "tema": [
+      "sogni"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -387,9 +389,12 @@
     "end": 1988.59,
     "speaker_raw": "SPEAKER_00",
     "testo": "come se fosse il primo giorno, come se fosse ancora l'alba. La verità, signore e signori segretari, è che ciò che è stato già distrutto, questa delusione che ci brucia, è la nostra libertà. Bisogna non avere più niente da perdere per amare davvero, per gettarsi anima e corpo. Bisogna aver superato ogni vertigine per rischiare quell'abisso. Bisogna aver conosciuto gli imperi che vacillano e le più grandi tempeste Per essere in questo istante qui con te Bisogna aver vissuto tanto Distrutto tanto Tante e tante volte Per non rovinare niente con te L'amore non è nulla quando è nuovo Pulito, puro L'amore prima della tempesta non è una scelta È una legge Quando si verifica l'evento L'incidente, l'occasione Bisogna essere lì, in piedi, trovare le parole, i gesti, gli sguardi. Sì, amore mio, in quell'istante conta su di me. Io non mancherò. In quel momento io sarò lì. E allora ve lo predico. Noi saremo i vincitori.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "relazioni sempre in movimento",
+    "tema": [
+      "amore",
+      "stabilità"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

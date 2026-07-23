@@ -456,9 +456,12 @@
     "end": 829.11,
     "speaker_raw": "SPEAKER_07",
     "testo": "C'è Alex da Roma che chiede, mi potete consigliare dei negozi di vinili a New York? Guarda che figata, che figata. Ce l'hai? Proprio il numero civico no, ti posso dire Alex, uno si chiama Carmine, Carmine Street, loro la pronunciano Carmine ma è Carmine, che è dove il post mafioso andava prima. Andava lì a fare colazione con la macchina e con la vestaglia. Ma sai la storia? Su Blic Street c'è una pasticceria vecchissima dove dentro c'è ancora un ragazzo che serve, che è un signorone con i baffoni bianchi, ed è calabrese lui, e parla italiano e fa il cameriere lì. Lì in quella pasticceria lì, che è di fronte alla chiesa praticamente, come proprio nei film, arrivava la macchina una lunga. Poi un'altra macchinona lunga, con tre macchinone lunghe. In una di queste tre scendeva il boss con la vestaglia. Entrava dentro la pasticceria, Roccos, che è il nome fighissimo. Si sedeva, faceva colazione e dava a prendere gli odi. Tu metti a posto lì, tu vai.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "negozi di vinili a New York",
+    "tema": [
+      "viaggio",
+      "musica"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -701,9 +704,12 @@
     "end": 1098.98,
     "speaker_raw": "SPEAKER_11",
     "testo": "Dieci anni fa tu hai raccontato un pezzo della tua vita, te la dico da doppiatore, tu hai raccontato che lavoravi al forno, non so se di famiglia, non ricordo bene, e dicevi che comunque volevi fare altro, ti stava un po' stretto e hai detto questa frase qua. Decidi un obiettivo, scegli una via da percorrere e ogni giorno in cui non fai qualcosa che ti porti almeno un passo avanti verso il tuo obiettivo è un giorno della vita buttato.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "decidi un obiettivo",
+    "tema": [
+      "obiettivi",
+      "progresso"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -1486,14 +1492,11 @@
     "end": 2590.84,
     "speaker_raw": "SPEAKER_09",
     "testo": "Listen, seeing you got ritualistic Cleansing my soul of addiction for now Cause I'm falling apart Volo, Maurizio, Viola. Ciao a tutti. I think we should rule out commitment for now cause we're falling apart. Leave it, you're just doing that to get even. Don't pick up the pieces, just leave it for now to keep falling apart. Grazie a tutti.",
-    "titolo": "Cleansing my soul",
-    "tema": [
-      "addizione",
-      "fallimento"
-    ],
-    "tipo": "riferimento_musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": "",
-    "autore": "Volo, Maurizio, Viola"
+    "autore": ""
   },
   {
     "id": "2017-11-10-134",
@@ -1501,9 +1504,11 @@
     "end": 2649.97,
     "speaker_raw": "SPEAKER_07",
     "testo": "La canzone mi piace tantissimo, sono contento, l'abbiamo scelta per chiudere il nostro Volo del Mattino. Chiudiamo la settimana, non solo il venerdì 10 novembre. Grazie a tutti. Volevo dire due cose. Molti ascoltatori hanno chiesto il momento Adriana per il venerdì perché piangono. Non so perché fa piangere ancora quel momento Adriana e lo teniamo. E molti hanno detto, Francesca che ci sta ancora ascoltando, mi hai svoltato la giornata. Quindi è vero che la tua felicità è contagiosa, Francesca. Com'era? La mia felicità è contagiosa, bastardi. Allora ci siamo chiesti, ma bastardi a chi era riferito in generale? Perché se no rischiamo la denuncia. Comunque, detto questo, quindi venerdì prossimo, ci dobbiamo ricordarlo, avevamo detto stasettimana, Tony Dallara non è tornato. Io la playlist l'ho fatta, l'avevo detto, l'ho fatta. Ok, no, ascoltatemi.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "momento adriana piange",
+    "tema": [
+      "emozione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

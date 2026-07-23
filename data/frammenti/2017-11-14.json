@@ -857,10 +857,13 @@
     "end": 2259.45,
     "speaker_raw": "SPEAKER_04",
     "testo": "Ho tutti i peri dritti ancora adesso, guarda, guarda, guarda. Beh, un testo di una bellezza, una melodia stupenda, grandissimo, Ivano Fossati. Inciampa piuttosto che tacere, stancami, stancami, capito? Che è un po' anche rivolta alla vita forse, non necessariamente a una donna o a una persona, no? Cioè non vuoi arrivare alla fine dei tuoi giorni che dici, sai che sono pronto per andare, ma ce la faccio io più, sono stanco.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "inciampa piuttosto che tacere",
+    "tema": [
+      "vita"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Ivano Fossati"
   },
   {
     "id": "2017-11-14-078",
@@ -879,9 +882,11 @@
     "end": 2331.11,
     "speaker_raw": "SPEAKER_04",
     "testo": "C'è quella famosa frase, ieri abbiamo parlato un po' delle frasi che cambiano, vivere come se morissi il giorno dopo, pensare come se non morissi mai. Io un po' ce l'ho questa, è ipercinetico, devo fare mille cose, finisco il libro, devo iniziare subito la serie, poi devo fare... Che ogni tanto Ioana mi dice, rilassati, dove andiamo? Andiamo lì, prendiamo la macchina, dove andiamo? Ok, rilassati. Però è bello che arrivi, che dici, oh, sono stanco, quello che dovevo fare l'ho fatto, forse anche qualcosina in più, altro non ce l'ho fatto, più di così non posso, più di così non posso. E un'altra bellissima canzone. Va bene, allora ragazzi, dopo questa meravigliosa canzone che scrive anche Baci Paola, ma è stupenda, grazie Fabio, Baci Paola, e poi mette un emotico e una bandierina. Tu sai di che nazione è questa bandierina? Non ho visto. Eh, non me la ricordo, è tutta rossa con la croce blu, come quella dell'Islanda per dire, ma hai capito, è... Dove è arrivata? Vieni qua, guarda, che tu sai che nazione è questa bandierina qua? Bergamo?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "rilassarsi e vivere",
+    "tema": [
+      "tempo"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

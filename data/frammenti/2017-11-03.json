@@ -253,10 +253,13 @@
     "end": 1063.26,
     "speaker_raw": "SPEAKER_04",
     "testo": "diciamo una delle sue più famose è quella buonasera signorina buonasera signorina poi Caterina e tante altre poi dopo di lui chi ha incontrato? la prima volta è venuto lì mi hanno detto questo qui è Tony Dallara lui mi ha messo una mano sulla spalla ma tu sei famosa lui voleva dirsi famoso a me lui che anche i vetri, i muri lo conosceva poi Dean Martin hai conosciuto Dean Martin anche lui carino tutti dei personaggi degli artisti umili come tutti i grandi subito amici poi Nat King Cole anche Nat King Cole mentre cantava al club Copacabana di New York mi ricordo con 5 dollari ti davano da bere la coca la coca del naso la coca della bocca parlavo un po' in inglese poi dovevo conoscere anche Fresenata ma c'avevi il traduttore quando loro mischiavano no, mischiavano io poi dicevo you are very famous grande bravo",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "buonasera signorina",
+    "tema": [
+      "incontro"
+    ],
+    "tipo": "riferimento_film",
+    "video_url": "",
+    "autore": "Dean Martin"
   },
   {
     "id": "2017-11-03-023",
@@ -468,9 +471,11 @@
     "end": 1834.96,
     "speaker_raw": "SPEAKER_06",
     "testo": "però era un bistecundo della madonna alta ho capito ma te in quei tempi ti uscivano i soldi dalle tasche e io però le prendevo e le rimettevo in tasca quando ti uscivano le tasche le rimettevi dentro allora quindi abbiamo scoperto che parli in giapponese cioè che canti in giapponese poi negli altri che vuol dire sì sì e poi mi hai detto durante il disco che comunque canti anche in turco canti in greco in coreano ho vinto festival in corea del sud allora adesso lo dobbiamo decidere siccome veramente tu ci hai troppe cose da raccontare gli ascoltatori sono curiosi oggi come la concludiamo questa puntata vuoi andare sulla direzione inter o vuoi andare su Marilyn Monroe",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "soldi che uscivano dalle tasche",
+    "tema": [
+      "ricchezza"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -680,10 +685,14 @@
     "end": 2754.92,
     "speaker_raw": "SPEAKER_04",
     "testo": "La prima mostra 1960 qui a Milano presentata da Dino Buzzati. otto colonne di cose cioè mi hanno accolto nel loro mondo nel mondo della pittura come sei stato accolto tu che venivi da eri diciamo un cantante commerciale se mi vendevi tanto no no no guarda mi hanno accolto in una maniera di grande affetto stavi sempre nello studio di Fontana andavo da lui da Creppa da Dova da tutti più grandi troppa roba tu praticamente tutti grandi poi mi spiace sei finito qua al volo del mattino però insomma adesso se ne racconterai tutti tu",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "prima mostra 1960",
+    "tema": [
+      "arte",
+      "pittura"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Dino Buzzati"
   },
   {
     "id": "2017-11-03-061",

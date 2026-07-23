@@ -174,10 +174,13 @@
     "end": 423.65,
     "speaker_raw": "SPEAKER_11",
     "testo": "Perché c'era un articolo su New York Times, di questa ragazzina che Maurizio conosce, perché Maurizio essendo un uomo che conosce la poesia e conosce le ragazzine, lo so. Che conosce la poesia, la conosceva già, è questa ragazza, se non sbaglio canadese, però di origine indiana, giusto? Cioè una famiglia indiana trasferita in Canada. Ha scritto un libro di poesie, quanti anni avrà sta ragazzina? 16, 15, 20, 21, ok, quindi insomma è una ragazza. Sì.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "ragazza canadese indiana",
+    "tema": [
+      "poesia"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Maurizio"
   },
   {
     "id": "2017-10-20-016",
@@ -277,10 +280,13 @@
     "end": 833.48,
     "speaker_raw": "SPEAKER_11",
     "testo": "Ma io di fatti adesso non vedo l'ora perché mi ha detto Maurizio che ti ha portato la poesia che devi leggere di questa ragazzina, di questa ragazza, Rupi Kaur. E quando Maurizio mi ha detto ho scelto questa, c'è una parola. alla fine credo sia le ultime due parole non lo dire io ho scritto Maurizio sul telefono vale solo a me basta sentirlo in quella parola ti rego l'ultima Allora, Nicola, qualche giorno fa sono venuto in radio e tu eri in portineria e non era ancora iniziato il volo del mattino e tu eri con una coppia e stavi leggendo una tua poesia alla fidanzata di questo ragazzo perché tu quando arrivano gli ascoltatori li fermi No, è stato lui il fidanzato, dice sai lui scrive le poesie Ah sì? Ce l'avevi lì in tasca",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "poesia di Rupi Kaur",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Rupi Kaur"
   },
   {
     "id": "2017-10-20-025",
@@ -313,9 +319,11 @@
     "end": 998.43,
     "speaker_raw": "SPEAKER_12",
     "testo": "Allora, mi chiede cosa faccio nella vita, gli dico che lavoro per una piccola azienda che produce confezioni di pantaloni, mi interrompe a metà frase, non so cosa fai di mestiere, che cosa ti fa impazzire, che cosa ti tiene sveglia di notte, gli dico, scrivo, mi chiede di mostrargli qualcosa. Prendo i polpastrelli e li poso sull'incavo dell'avambraccio e lo sfioro giù fino al polso. Affiorano i rilievi della pelle d'oca. Vedo la bocca serrarsi, i muscoli tendersi, gli occhi concentrarsi sui miei, come se fosse io a far battere le loro palpebre. Interrompo lo sguardo proprio mentre lui si avvicina piano e arretro. allora è questo che fai nella vita attiri l'attenzione le mie guance si imporporrano era questa le mie guance si imporporrano mentre sorrido timida confessando non lo faccio apposta ok è finita chi è? è l'ingegnere l'ingegnere",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "poesia incavo avambraccio",
+    "tema": [
+      "creativita"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {

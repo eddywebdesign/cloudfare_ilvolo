@@ -166,10 +166,14 @@
     "end": 694.43,
     "speaker_raw": "SPEAKER_01",
     "testo": "proprio dal 18 al 28 maggio del 97 due viaggi al giorno con 60 kg e ho portato 1300 kg di attrezzatura per iniziare i lavori perché era l'unico modo mi fa male il menisco il mio menisco si è stato operato una volta comunque è veramente simile alla storia di Paolo Cognetti si si si c'è questo libro che probabilmente vincerà lo strega racconta questo amore per la montagna adesso mettiamo un disco e poi torniamo",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "storia di Paolo Cognetti",
+    "tema": [
+      "montagna",
+      "amore"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Paolo Cognetti"
   },
   {
     "id": "2017-05-25-015",
@@ -507,9 +511,11 @@
     "end": 2644.98,
     "speaker_raw": "SPEAKER_01",
     "testo": "Tre tavolette. ah che stavi già sulla porta l'hai scritta sulla porta in minuscolo è importante è importante e comunque alla lunga la passione vince soprattutto in qualità di vita ah beh certo sicuramente va bene grazie ancora Giuseppe vuoi dire ancora qualcosa? no trattami bene Heidi mi raccomando adesso trattiamo bene Heidi grazie io vado a Franco",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Tavolette di legno scritte",
+    "tema": [
+      "passione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
