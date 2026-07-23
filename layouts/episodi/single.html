@@ -119,6 +119,9 @@
     <div class="ep-rif-list">
       {{ range $libriFilm }}
       <a class="ep-rif" href="/archivio/?q={{ .titolo | urlquery }}">
+        {{ if .copertina }}
+        <img class="ep-rif-cover" src="{{ .copertina }}" alt="" loading="lazy" onerror="this.remove()">
+        {{ end }}
         <span class="ep-rif-cat">{{ .categoria }}</span>
         <span class="ep-rif-titolo">{{ .titolo }}</span>
         {{ if or .autore .anno }}
@@ -308,6 +311,7 @@ header.header #menu a:hover, header.header #menu .active { color: #f5efdf !impor
 .ep-rif-list { display: flex; flex-direction: column; gap: 0.6rem; }
 .ep-rif { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px; background: var(--entry); border-radius: 8px; padding: 0.8rem 1.1rem; text-decoration: none; transition: background 0.2s; }
 .ep-rif:hover { background: var(--tertiary); }
+.ep-rif-cover { width: 40px; height: 40px; border-radius: 5px; object-fit: cover; flex-shrink: 0; background: var(--tertiary); }
 .ep-rif-cat { font-family: var(--font-mono); font-size: 0.62rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold); background: rgba(143,184,217,0.12); padding: 2px 9px; border-radius: 3px; flex-shrink: 0; }
 .ep-rif-titolo { font-family: var(--font-serif); font-weight: 400; font-size: 1rem; color: var(--primary); }
 .ep-rif-meta { font-family: var(--font-mono); font-size: 0.68rem; letter-spacing: 0.04em; color: var(--secondary); width: 100%; }

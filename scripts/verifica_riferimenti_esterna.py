@@ -85,8 +85,10 @@ def _tmdb_key() -> str:
     return TMDB_KEY_FILE.read_text(encoding="utf-8").strip()
 
 
-def verifica_libro(titolo: str, autore: str) -> tuple[float, str]:
-    """Cerca su Open Library, ritorna (similarita' massima, descrizione del match)."""
+def verifica_libro(titolo: str, autore: str) -> tuple[float, str, str]:
+    """Cerca su Open Library, ritorna (similarita' massima, descrizione del match,
+    URL copertina o '' se non disponibile). Nessuna chiave richiesta ne' per la
+    ricerca ne' per le copertine (covers.openlibrary.org e' pubblico)."""
     try:
         resp = requests.get(
             "https://openlibrary.org/search.json",
@@ -97,8 +99,8 @@ def verifica_libro(titolo: str, autore: str) -> tuple[float, str]:
         resp.raise_for_status()
         docs = resp.json().get("docs", [])
     except Exception as e:
-        return -1.0, f"errore rete: {e}"
-    migliore = (0.0, "")
+        return -1.0, f"errore rete: {e}", ""
+    migliore = (0.0, "", "")
     for d in docs:
         titolo_trovato = d.get("title", "")
         sim_titolo = _similarita(titolo, titolo_trovato)
@@ -108,12 +110,18 @@ def verifica_libro(titolo: str, autore: str) -> tuple[float, str]:
         # comunque un indizio forte di opera reale (es. traduzioni/edizioni diverse).
         punteggio = sim_titolo * 0.7 + sim_autore * 0.3
         if punteggio > migliore[0]:
-            migliore = (punteggio, f"{titolo_trovato} — {', '.join(autori_trovati[:2])}")
+            cover_id = d.get("cover_i")
+            cover_url = f"https://covers.openlibrary.org/b/id/{cover_id}-M.jpg" if cover_id else ""
+            migliore = (punteggio, f"{titolo_trovato} — {', '.join(autori_trovati[:2])}", cover_url)
     return migliore
 
 
-def verifica_film(titolo: str, autore: str, tmdb_key: str) -> tuple[float, str]:
-    """Cerca su TMDB, ritorna (similarita' massima, descrizione del match)."""
+TMDB_IMG_BASE = "https://image.tmdb.org/t/p/w200"
+
+
+def verifica_film(titolo: str, autore: str, tmdb_key: str) -> tuple[float, str, str]:
+    """Cerca su TMDB, ritorna (similarita' massima, descrizione del match,
+    URL locandina o '' se il match migliore non ne ha una)."""
     try:
         resp = requests.get(
             "https://api.themoviedb.org/3/search/movie",
@@ -123,19 +131,25 @@ def verifica_film(titolo: str, autore: str, tmdb_key: str) -> tuple[float, str]:
         resp.raise_for_status()
         risultati = resp.json().get("results", [])
     except Exception as e:
-        return -1.0, f"errore rete: {e}"
-    migliore = (0.0, "")
+        return -1.0, f"errore rete: {e}", ""
+    migliore = (0.0, "", "")
     for r in risultati[:5]:
         for campo in ("title", "original_title"):
             sim = _similarita(titolo, r.get(campo, ""))
             if sim > migliore[0]:
                 anno = (r.get("release_date") or "")[:4]
-                migliore = (sim, f"{r.get('title')} ({anno})")
+                poster = r.get("poster_path")
+                cover_url = f"{TMDB_IMG_BASE}{poster}" if poster else ""
+                migliore = (sim, f"{r.get('title')} ({anno})", cover_url)
     return migliore
 
 
-def verifica_musica(titolo: str, autore: str) -> tuple[float, str]:
-    """Cerca su MusicBrainz, ritorna (similarita' massima, descrizione del match).
+def verifica_musica(titolo: str, autore: str) -> tuple[float, str, str]:
+    """Cerca su MusicBrainz, ritorna (similarita' massima, descrizione del match,
+    URL copertina via Cover Art Archive o '' se la release migliore non ha copertina
+    caricata - non verificato con una richiesta separata, l'URL e' costruito
+    otticamente dall'MBID della prima release associata: il template deve gestire
+    un eventuale 404 lato client, non e' garantito che l'immagine esista davvero).
     Il chiamante deve rispettare MUSICBRAINZ_SLEEP tra una chiamata e l'altra.
 
     IMPORTANTE (trovato con un test reale il 2026-07-22): il titolo va passato SENZA
@@ -150,15 +164,15 @@ def verifica_musica(titolo: str, autore: str) -> tuple[float, str]:
         query = f'recording:({titolo_pulito})' + (f' AND artist:"{autore}"' if autore else "")
         resp = requests.get(
             "https://musicbrainz.org/ws/2/recording",
-            params={"query": query, "fmt": "json", "limit": 5},
+            params={"query": query, "fmt": "json", "limit": 5, "inc": "releases"},
             headers={"User-Agent": USER_AGENT},
             timeout=10,
         )
         resp.raise_for_status()
         recordings = resp.json().get("recordings", [])
     except Exception as e:
-        return -1.0, f"errore rete: {e}"
-    migliore = (0.0, "")
+        return -1.0, f"errore rete: {e}", ""
+    migliore = (0.0, "", "")
     for r in recordings:
         titolo_trovato = r.get("title", "")
         sim_titolo = _similarita(titolo, titolo_trovato)
@@ -166,7 +180,10 @@ def verifica_musica(titolo: str, autore: str) -> tuple[float, str]:
         sim_autore = max((_similarita(autore, a) for a in artisti), default=0.0)
         punteggio = sim_titolo * 0.7 + sim_autore * 0.3
         if punteggio > migliore[0]:
-            migliore = (punteggio, f"{titolo_trovato} — {', '.join(artisti[:2])}")
+            releases = r.get("releases") or []
+            release_id = releases[0].get("id") if releases else None
+            cover_url = f"https://coverartarchive.org/release/{release_id}/front-250" if release_id else ""
+            migliore = (punteggio, f"{titolo_trovato} — {', '.join(artisti[:2])}", cover_url)
     return migliore
 
 
@@ -212,13 +229,13 @@ def main() -> None:
         autore = r.get("autore", "")
         try:
             if categoria == "libro":
-                punteggio, match = verifica_libro(titolo, autore)
+                punteggio, match, copertina = verifica_libro(titolo, autore)
                 time.sleep(0.35)  # margine sotto ~3 richieste/secondo
             elif categoria == "film":
-                punteggio, match = verifica_film(titolo, autore, tmdb_key)
+                punteggio, match, copertina = verifica_film(titolo, autore, tmdb_key)
                 time.sleep(0.05)
             else:  # musica
-                punteggio, match = verifica_musica(titolo, autore)
+                punteggio, match, copertina = verifica_musica(titolo, autore)
                 time.sleep(MUSICBRAINZ_SLEEP)
         except Exception as e:
             print(f"  [{i+1}/{len(tutte_le_voci)}] ERRORE imprevisto su {titolo!r}: {e}, salto")
@@ -243,6 +260,10 @@ def main() -> None:
             punteggio = min(punteggio, SOGLIA_ALTA - 0.01)
 
         r["confermato_esterno"] = punteggio >= SOGLIA_ALTA
+        # Copertina salvata SOLO se il match e' confermato: un titolo dubbio/scartato
+        # non deve mostrare la copertina di un'opera probabilmente sbagliata.
+        if r["confermato_esterno"] and copertina:
+            r["copertina"] = copertina
         per_file.setdefault(fp, []).append(r)
 
         if punteggio >= SOGLIA_ALTA:
@@ -266,6 +287,8 @@ def main() -> None:
         for r in dati:
             if r.get("id") in by_id:
                 r["confermato_esterno"] = by_id[r["id"]]["confermato_esterno"]
+                if "copertina" in by_id[r["id"]]:
+                    r["copertina"] = by_id[r["id"]]["copertina"]
         fp.write_text(json.dumps(dati, ensure_ascii=False, indent=2), encoding="utf-8")
 
     esistenti = {}
