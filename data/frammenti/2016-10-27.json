@@ -558,9 +558,11 @@
     "end": 1868.85,
     "speaker_raw": "SPEAKER_08",
     "testo": "Frankie, io sto cercando di migliorare la mia vita tutto qui e non mi resta molto tempo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "frankie io sto cercando di migliorare",
+    "tema": [
+      "miglioramento"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -701,9 +703,11 @@
     "end": 2354.9,
     "speaker_raw": "SPEAKER_05",
     "testo": "Che pensi di fare, Ellie? Non lo so. Ma siamo sempre allo stesso punto. Ci risiamo, vero? E che significano questi due giorni? Li abbiamo vissuti, sai?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "pensieri ellie",
+    "tema": [
+      "riflessione"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {

@@ -522,10 +522,14 @@
     "end": 1768.88,
     "speaker_raw": "SPEAKER_01",
     "testo": "In maniera terapeutica con chi c'era già passato, Rushdi c'era passato e anzi quando siamo convocati all'Accademia Nobel lui in pubblico disse, io stavo sorridendo perché lui mi aveva fatto un saluto così, lui disse ridi ridi, tra poco ti diranno che non stai morendo e quindi come me...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Accademia Nobel",
+    "tema": [
+      "giudizio",
+      "vita"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Nobel Prize Committee"
   },
   {
     "id": "2017-01-12-047",
@@ -577,9 +581,12 @@
     "end": 1988.34,
     "speaker_raw": "SPEAKER_00",
     "testo": "Anche un po' di egocentrismo, narcisismo. Adesso parliamo solo di cose belle che non ti voglio fare, volevo solo scartare subito queste cose. C'è un bellissimo articolo di Arnaldo Greco sulle riviste studio, non so se tu l'hai letto. dove lui a un certo punto dice questa cosa perché parlando appunto anche della situazione di De Magistris parla anche di questa cosa il fatto che ti si dica che parli sempre male di Napoli che mi fa abbastanza ridere e la questione dei soldi cioè tu vendi dei libri quindi hai fatto i soldi quindi sei diventato ricco ma la sua analisi è molto interessante perché dice c'è anche una questione proprio antropologica di questo paese che se sei figlio di uno ricco va bene qualsiasi cosa fai perché lì sei nato lì sei fortunato o sei gratti al gratta e vinci e vinci un miliardo ok perché lì è il destino se sei diventato ricco c'è qualcosa di losco perché dice perché fa fatica a giustificare il fatto che lui non è diventato ricco e quindi se tu sei diventato ricco non è che sei più bravo di me è che tu hai le conoscenze hai fatto qualcosa di losco ti sembra un po' quest'idea?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "articolo di Arnaldo Greco",
+    "tema": [
+      "informazione",
+      "posizione"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {

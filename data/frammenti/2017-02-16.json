@@ -781,10 +781,13 @@
     "end": 2128.23,
     "speaker_raw": "SPEAKER_12",
     "testo": "Intoxicated I'm in rapture From the inside I can feel that you want to Wake up high on it Feeling suspended a presto",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Intoxicated",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Adele"
   },
   {
     "id": "2017-02-16-070",
@@ -837,8 +840,11 @@
     "speaker_raw": "SPEAKER_00",
     "testo": "sono d'accordo con lui abbastanza ormai sì perché sei invecchiato esatto e poi c'è invece il mio personaggio che è uno che cerca di avvicinarsi a loro e essere uno di loro praticamente si fa il selfie in classe usa whatsapp per comunicare ti rende più cool come dicono i giovani ti rende più cool non so quanto faccia bene l'educazione che poi la scuola dovrebbe insegnare anche a apprezzare no ma poi l'autorità le cose insomma le cose anche dall'alto esatto",
     "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "tema": [
+      "educazione",
+      "tecnologia"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -957,9 +963,11 @@
     "end": 2527.79,
     "speaker_raw": "SPEAKER_08",
     "testo": "Neanche con Kate Richards e Mick Jagger ho avuto questo atteggiamento.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "atteggiamento con Kate Richards e Mick Jagger",
+    "tema": [
+      "rispetto"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -990,9 +998,11 @@
     "end": 2591.57,
     "speaker_raw": "SPEAKER_01",
     "testo": "questo dovrebbe farci pensare il paese dice con chi stai siete il bene e il male in realtà siamo talmente tanti ce ne sono talmente tanti che non hanno idea non siamo stati in grado forse di prepararci a una a un'onda così diciamo che non ci hanno dato la possibilità secondo me troppo rapido è stato e soprattutto è un paese che stenta troppo spesso a ricordarsi come paese laico",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "paese laico e identità nazionale",
+    "tema": [
+      "laicità"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

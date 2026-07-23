@@ -27,10 +27,14 @@
     "end": 272.55,
     "speaker_raw": "SPEAKER_10",
     "testo": "Oddio mio! Buongiorno a tutti, benvenuti, questo è Radio DJ, questo è il volo del mattino, stiamo per cominciare, la sigla è già lì pronta alla partenza. Chi è che raccanta la nostra sigla? Eh, Dean Martin. Dean Martin, ok. Che io mi confondo sempre con Steve Martin, no? Perché quando dico, no, avevi visto il film con Dean Martin, invece è Steve Martin, so che sì. Belli, devo dire, quegli uomini lì, quell'uomo lì di una volta. Sì, bello. Ok, e soprattutto, io dico, già ai tempi di mio nonno, per dire, no? Quegli uomini che avevano, che li vedi quei film, sempre parlati di biciclette, quando vedi quei film, dove l'uomo ha il cappotto e il cappello. Sì, e il pantalone largo. E il pantalone largo, e la camicia, c'è anche il pantalone. diciamo il povero cioè quello che veniva dalla povertà aveva una sua eleganza un suo aplomb capito? se tu pensi che mio padre o mio nonno quando avevano la mia età vediamo i 40 anni 44 anni erano vestiti da uomini noi invece andiamo in giro con le snicker assissate al cappellino lo zaino capito?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "film con Dean Martin",
+    "tema": [
+      "uomo",
+      "eleganza"
+    ],
+    "tipo": "riferimento_film",
+    "video_url": "",
+    "autore": "Steve Martin"
   },
   {
     "id": "2016-11-11-003",

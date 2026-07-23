@@ -390,9 +390,11 @@
     "end": 1763.37,
     "speaker_raw": "SPEAKER_08",
     "testo": "da quattro anni abbiamo passato un momento veramente terrificante la colpa mia, la colpa sua ok, le colpe sono esatto scusa vi siete separati vi siete sempre frequentati perché avete un figlio mi sembra di aver capito eh all'inizio mica tanto all'inizio era un po' come dici te ah ok vi aspetti ma da ambo le parti poi lei non ha mai avuto nessuno è un'ex ballerina quindi è una gran bella ragazza",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Separazione e figlio",
+    "tema": [
+      "famiglia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -467,10 +469,13 @@
     "end": 2138.76,
     "speaker_raw": "SPEAKER_01",
     "testo": "Questo è Vasco Rossi, un mondo migliore. stavo spiegando durante questa canzone di Vasco Rossi che tu non hai il polso viola della pancia del paese non hai il polso ok non hai Mi piace un sacco quello che... Vai un po' più lontano al microfono. Cioè, tu non conosci la pancia del paese. C'è la pancia.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Un Mondo Migliore",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Vasco Rossi"
   },
   {
     "id": "2017-02-14-043",
@@ -511,9 +516,11 @@
     "end": 2578.51,
     "speaker_raw": "SPEAKER_01",
     "testo": "un ascoltatore dice mi hai descritto proprio diretto io sono la pancia ma adesso sono anche un po' l'intestino mi ha detto se interessa una ragazza Elisabetta se vi interessa vogliamo chiamarla comunque ragazzi vi dico queste cose il tema ormai per Viole non è più San Valentino non è più trovare dentro di te le risposte è non è mai stato caro Diego in ascolto l'ascoltatore Viola è ancora lì sul punto vorrebbe parlare con la tua ex moglie non si deve far convincere Diego Diego stacca la radio a casa parte la crociata contro Diego Diego ha questa idea ok te la dico io lui è a casa con la moglie bambino va a lavorare si spacca la schiena e porta a casa e porta a casa i soldi per la famiglia vediamo quanti tra l'altro questo sacrificio ok ogni tanto ogni tanto va in giro di qua e di là ti lancio dalla festa ma non sto parlando di me sto parlando di Diego aspetta ogni tanto e ogni tanto lo fa anche con lei tra l'altro grazie dei ritagli di tempo io non capisco cosa c'è di sbagliato in questo concetto e forza Juve ma che copriamo questa? anche c'è la Gazza no perché ma fai culo mentre il PD discute no no perché comunque il paese è fortuna che funziona perché vedi a destra si stanno scannando chi sarà il leader Salvini, Berlusconi a sinistra si scannano da vent'anni che Renzi si, Renzi no Bersani, D'Alema io sento ancora la parola D'Alema ti puoi calmare? fermi fermi perché comunque aspetta un attimo Gigio e Suso in salva Milan lo spagnolo vale oro fedelissimo di Montella è quasi sempre deciso fantastico ragazzi è stupendo è stupendo è stupendo abbiamo vinto abbiamo vinto abbiamo vinto mettiamo una bella frase forse abbiamo passato troppo tempo cercando di risolvere tutto",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Pancia e Intestino",
+    "tema": [
+      "ascoltatori"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

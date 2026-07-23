@@ -402,10 +402,13 @@
     "end": 1315.24,
     "speaker_raw": "SPEAKER_04",
     "testo": "Ciao Ciao Ciao Nothing's fine, I'm torn I'm all out of faith This is how I feel I'm cold and I'm shamed Lying naked on the floor Illusions never change Into something real I'm wide awake and I can see The perfect sky is torn You're a little late I'm already torn ... ... ... ... ... ... ... Sì. ciao ciao ciao",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Nothing's Fine",
+    "tema": [
+      "tristezza"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Linkin Park"
   },
   {
     "id": "2016-10-04-032",
@@ -481,9 +484,12 @@
     "end": 2063.27,
     "speaker_raw": "SPEAKER_06",
     "testo": "nessuno se la sarebbe aspettata questa canzone così un martedì mattina buttata lì così Gianni Bigan allora abbiamo detto ieri che lo avremmo chiamato e lo stiamo chiamando un ragazzo che va aiutato per costruire il presente 4 ottobre Viola che detesta praticamente il Natale Maurizio che lo ama e una via di mezzo e abbiamo il nostro ascoltatore Gianluca Ciao! Scusami, magari eri nella grotta, nella capanna, non ci hai sentito bene. Come stai Gianluca? Tutto bene, grazie Fabio. Scusami, è il primo anno che vuoi fare il presepe o lo fai tutti gli anni e ogni anno cambi qualcosa?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Gianni Bigan chiamato",
+    "tema": [
+      "aiuto",
+      "presente"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

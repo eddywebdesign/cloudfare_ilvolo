@@ -27,10 +27,13 @@
     "end": 218.09,
     "speaker_raw": "SPEAKER_06",
     "testo": "Bravi, continuate così. Last night. she said she loved me what a pity to part I slept waiting for that open waiting for today to start good morning life how are you happiness all at once I knew what living can be oh it's life it's free it's someone waiting for me who'll someday be my wife",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Parting Like a Russian",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Ravi Williams"
   },
   {
     "id": "2016-11-29-003",
@@ -138,8 +141,11 @@
     "speaker_raw": "SPEAKER_03",
     "testo": "Va bene, Anna Ferraris, va bene. No, senti, leggevo questa cosa, ci sono alcune attività che un bambino deve fare necessariamente per crescere bene. Stavamo anche raccontando del fatto che quando eravamo bambini noi... a guardare il confronto dei bambini di adesso sembriamo dei sopravvissuti sia dalle cose più pericolose tipo stare seduti in piedi tra i due sedili della macchina non so se tu lo facevi però si stava lì in piedi mi ricordo mio papà guidava mia mamma a destra io in piedi lì fai una frenata adesso non te lo fanno portare fuori neanche dall'ospedale un bambino se non c'hai l'ovetto che si incasta nella macchina e quindi bene però poi anche durante il gioco si è",
     "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "tema": [
+      "genitori",
+      "crescita"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

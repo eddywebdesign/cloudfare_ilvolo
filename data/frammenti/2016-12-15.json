@@ -568,9 +568,11 @@
     "end": 1962.6,
     "speaker_raw": "SPEAKER_08",
     "testo": "E poi leggenda vuole che tu con i tuoi primi soldi guadagnati così hai comprato un trattore. È vera questa cosa? Sì, sì, è la verità.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "primo soldo trattore",
+    "tema": [
+      "successo"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

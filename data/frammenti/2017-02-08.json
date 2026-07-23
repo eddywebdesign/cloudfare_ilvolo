@@ -499,10 +499,14 @@
     "end": 1325.05,
     "speaker_raw": "SPEAKER_00",
     "testo": "Scusate, vi ho portato un Battisti così perché secondo me ha, a parte a Maurizio, il potere di cambiare un po' l'umore. Insomma, Battisti ha questo capolavoro assoluto. Allora, abbiamo Alessia. Buongiorno Alessia.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Battisti capolavoro",
+    "tema": [
+      "musica",
+      "umore"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Pino Daniele"
   },
   {
     "id": "2017-02-08-045",
@@ -955,9 +959,12 @@
     "end": 2332.09,
     "speaker_raw": "SPEAKER_00",
     "testo": "non guida particolare no no no la patente B è vero è vero qui dice una ragazza dice io ho 62 anni e dice ho capito che quando si finisce di imparare si comincia a morire io sono in pensione da un anno e insomma si dà sempre da fare per imparare qualcosa bisogna continuare studiare leggere studiare leggere studiare leggere e allora sei ancora in tempo per il pianoforte per il pianoforte io so fare so fare rocky ta ta ta ta ta ta ta ta ta ta ta ta ta col pianoforte sì e tutti sanno fare per Elisa vabbè la barilla la sai fare sì vabbè è una scala però dico di solito con la chitarra tutti sanno fare wish you were here o le bionde tra gli occhi azzurri e col pianoforte di solito è per Elisa neanche quello va bene niente allora qua ci sono scusa un ascoltatore ha ripreso lo skate stamattina dopo 20 anni e ha appena inviato una foto di mano sanguinante con la ghiaia dentro le mani che male che male però insomma invece no c'è quel bellissimo film non so se lo avete mai visto se non lo avete visto magari potete approfittarne nei prossimi giorni con Freeman e Jack Nicholson dove loro sono pensionati e dicono guarda prima di morire facciamo qualcosa che non abbiamo mai fatto solo che Freeman è più diciamo poetico invece Jack Nicholson si scaraventa diciamo con cose più attive dovevamo scrivere una lista di tutte le cose che avremmo voluto fare prima di arrivare a Capolinea",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "imparare per vivere",
+    "tema": [
+      "apprendimento",
+      "vita"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

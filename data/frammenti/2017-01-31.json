@@ -586,10 +586,13 @@
     "end": 1831.99,
     "speaker_raw": "SPEAKER_01",
     "testo": "Ah, ok. Prima parlavamo di Papa Francesco. Ah, ecco, giusto, giusto. Il ricordo più bello per me... ma tu sei calabrese o sei romano? no no io sono proprio di Pavona era il prete che era calabrese e pavonese il ricordo più bello è Don Stefano quindi diciamo un calabrese trapiantato a Pavona che se non imparavamo l'inno del Catanzaro a catechismo non ci avrebbe fatto fare la cresima",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Cresima a Pavona",
+    "tema": [
+      "catechismo"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Don Stefano"
   },
   {
     "id": "2017-01-31-053",
@@ -845,9 +848,11 @@
     "end": 2601.16,
     "speaker_raw": "SPEAKER_07",
     "testo": "arrivano questi 12.000 gatti ma c'è un problema l'isola del Borneo è un'isola montosa impervia, siamo negli anni 50 non ci sono strade quindi è difficilissimo distribuire questi 12.000 gatti per tutta l'isola ma il governo britannico si inventa una cosa fenomenale le catapulte dei gatti lanciano di quei catapulte non con le cadute ma con i paracadute di nuovo la flotta britannica solca il cielo del Borneo apre i portoni e 12.000 gatti piovono sull'isola del Borneo col paracadute arrivano a terra e si mangiano tutti i topi e appunto il lieto finale fantastico ma senta non ci sono foto di questi gatti 12.000 gatti paracadute ma adesso vado a vedere ma però come si sono tolti il paracadute i gatti",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Gatti con paracadute",
+    "tema": [
+      "gatti"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

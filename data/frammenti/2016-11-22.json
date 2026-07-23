@@ -611,10 +611,13 @@
     "end": 2557.94,
     "speaker_raw": "SPEAKER_09",
     "testo": "siccome adesso esce anche il mio ho voluto dire una cosa quindi adesso tutto il virus per fare promozione al libro di Fabio Volo non ho parole stiamo qui a parlare di questo meraviglioso libro che tu hai già letto sicuramente Due volte. Due volte, esatto, che io inizio a leggere oggi e che spero molti ascoltatori in questo momento decideranno di andare a prendere perché ovviamente c'è sempre quella delicatezza e quella fragilità ma anche quella potenza, nel senso che quando si parla di vita si parla di potenza. Tant'è che i potenti sono persone che non hanno una vita per cui è la protesi della... capisci? L'avete capito? L'avete mai notata questa cosa? Cioè che chi vive la vita è potente, no? Cioè chi... i politici che non vivono la vita amano il potere che è la protesi degli impotenti vi torna questo discorso? è troppo per una che si sta mettendo il mascara va bene, va bene ok, grazie Malika grazie ragazzi, buona giornata ciao, ciao, ciao no, ma un gesto fantastico questa teoria della potenza è di Silvano Agosti, non è mia troppo profonda Che poi non è solo legata ai politici, ma in generale a chi non vive la vita ama il potere. Perché chi ama la vita ne sente la forza. Sta canzone dice che i soldi sono troppo pochi per essere menzionati.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Due volte",
+    "tema": [
+      "libro"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Fabio Volo"
   },
   {
     "id": "2016-11-22-051",
@@ -622,9 +625,11 @@
     "end": 2698.95,
     "speaker_raw": "SPEAKER_05",
     "testo": "I'm talking about running away I'm talking about running away I'm talking about running away Did the earth move for you, Nancy? Did the earth move for you, Nancy? Did the earth move for you, Nancy? Did the earth move for you, Nancy? Hey, I'm talking Nancy Hey, I'm talking Nancy Hey, I'm talking Nancy Hey, I'm talking Nancy Hey, I'm talking Nancy",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Did the earth move for you, Nancy?",
+    "tema": [
+      "canzone"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {

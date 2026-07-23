@@ -137,9 +137,12 @@
     "end": 783.46,
     "speaker_raw": "SPEAKER_04",
     "testo": "Ora sto ballando questa canzone, questo tango, con un sedano nella serra. C'è gente nella serra, gente che raccoglie i pomodori, gente che dice vi ascolto a casa con i miei bambini, io con i miei cani. Io sto guidando l'autobus dalle cinque e mezza, semideserto, sia la città che l'autobus.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Tango nella serra",
+    "tema": [
+      "lavoro",
+      "famiglia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

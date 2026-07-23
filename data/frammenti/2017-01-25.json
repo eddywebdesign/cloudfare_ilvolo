@@ -849,9 +849,11 @@
     "end": 2248.31,
     "speaker_raw": "SPEAKER_09",
     "testo": "What's this I see There's someone coming Walking right up to me She tells me I know your name And if it's all the same I'd like Grazie a tutti.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "What's This I See",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -860,9 +862,11 @@
     "end": 2293.8,
     "speaker_raw": "SCONOSCIUTO",
     "testo": "Midnight, midnight, midnight of the baby Midnight, midnight, midnight of the baby",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Midnight of the Baby",
+    "tema": [
+      "infanzia"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {

@@ -335,10 +335,11 @@
     "end": 593.13,
     "speaker_raw": "SPEAKER_14",
     "testo": "It's been so lonely without you here I'm like a bird without a song Nothing can stop this lonely rain Tell me baby, where did I go wrong?",
-    "titolo": "",
+    "titolo": "It's Been So Lonely Without You Here",
     "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Breathless"
   },
   {
     "id": "2016-12-20-031",
@@ -722,10 +723,13 @@
     "end": 1409.26,
     "speaker_raw": "SPEAKER_20",
     "testo": "nell'oceano dove furono finalmente tratti in salvo da un transatlantico che faceva la traversata inaugurale il titanic intanto Fantozzi ci ha insegnato che si dice titanic e non come ho sempre detto io il titanic il titanic cos'è il titanic? ognuno lo dice un po' come vuole c'è una bellissima canzone di Gregori Tra l'altro adesso, dopo questo disco, vi dirò una notizia che è stata scientificamente provata, cioè che molti problemi alla schiena degli uomini sono dovuti al portafoglio.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Canzone di Gregori",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Gregori"
   },
   {
     "id": "2016-12-20-065",

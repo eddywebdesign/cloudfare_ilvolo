@@ -148,9 +148,11 @@
     "end": 472.02,
     "speaker_raw": "SPEAKER_11",
     "testo": "Tornate! Anzi, io pensavo... Dire una cosa bella? Sì! Ma che stai in California? Sei di Prato? Eh, lo so, no, andiamo a Piombino. A Piombino speriamo che ci sia per tempo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Tornate! Anzi, io pensavo...",
+    "tema": [
+      "natale"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -159,9 +161,11 @@
     "end": 519.46,
     "speaker_raw": "SPEAKER_06",
     "testo": "Il Natale è neve, camino, piumone, quelle cose lì. Maurizio, dai, non vai a Piombino con Viola? E anche... è l'unico periodo dell'anno lo dico agli ascoltatori in cui quando i nostri amici meridionali tutti noi che ti dicono noi siamo già in spiaggia che cominciano già ad aprire quando ti dicono abbiamo fatto il bagno domenica e li invidi è l'unico periodo dell'anno in cui non li invidi è il Natale perché dici ma come spiaggia al caldo ma non si fa ormai sono 4-5 mesi che fa caldo basta non vi basta vi manderò le foto che inizio cattivo ti manderò le foto partiamo con un super classicone Franco Battiato per calmare Maurizio ok stai buono",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "unico periodo dell'anno",
+    "tema": [
+      "invidia"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -725,9 +729,11 @@
     "end": 2820.14,
     "speaker_raw": "SPEAKER_06",
     "testo": "l'altro giorno ho visto una scena di una serie televisiva da ridere così che a un certo punto lui va in sauna col suocero e col fratello della moglie che quindi è il cognato cognato praticamente lui è lì in sauna e a un certo punto il suocero davanti gli cade l'asciugamano lui è seduto alla sauna il suocero è davanti quindi lui inquadra dietro c'è il culetto molle di questo anziano e praticamente col pacco davanti vi ci vedo io e vecchioni ogni tanto andiamo in sauna come l'antica Grecia andiamo lì al bagno turco e nudi diciamo ma secondo te Socrate no? ma Aristotele con la toga la toga è un'amica nostra molto figa che toga ciao ragazzi a domani",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "scena serie televisiva",
+    "tema": [
+      "umore"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   }
 ]

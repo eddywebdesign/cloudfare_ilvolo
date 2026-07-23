@@ -280,9 +280,11 @@
     "end": 770.66,
     "speaker_raw": "SPEAKER_07",
     "testo": "In Inghilterra sì, hanno deciso di istituire nei parcheggi degli aeroporti una tariffa che si chiama kiss and drop Kiss and drop, cioè bacia e scarica Esatto, cioè se tu ti fermi con la macchina Ok e stai anche soltanto per due minuti, devi pagare 3 pound facendo un calcolino di 4-5 euro, non è poco penso, ora non so quanto costi qui a Malpensa allora cosa succede? e Viola dice però è un peccato perché lì, in quei momenti lì che succede tutto sicuramente devo anche pagare per vivere 5 minuti magari di difficoltà",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "tariffa kiss and drop aeroporto",
+    "tema": [
+      "viaggio"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -346,10 +348,14 @@
     "end": 845.29,
     "speaker_raw": "SPEAKER_07",
     "testo": "il profumo il treno partiva la sciarpa usciva dal finestrino e poi lei si annusava sta sciarpa ma anche la scena del ciclone non partire non partire i toscani lo sapranno perché noi la sappiamo a memoria ah non partire non partire è solo una scena in cui comunque c'è lui che corre per andare a riprendere la sua Lorena Fortessa come si chiamava la spagnola e chiaramente arriva lì in Santa Maria Novella alla stazione e cerca di convincerla a non partire adesso lo prendiamo insomma ragazzi",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "La sciarpa che si perde",
+    "tema": [
+      "amore",
+      "separazione"
+    ],
+    "tipo": "riferimento_film",
+    "video_url": "",
+    "autore": "Paolo Sorrentino"
   },
   {
     "id": "2017-01-27-032",
@@ -423,10 +429,14 @@
     "end": 1200.67,
     "speaker_raw": "SPEAKER_11",
     "testo": "quindi ho traccheggiato quei 15 minuti prima ciao non abbiamo ho fatto finta fino a 5 minuti del treno bello bello freschino era di quello che va a piovere dopo sarà vero Maurizio qualcuno ha chiesto mettetelo un pezzo di Pieraccioni che arriva alla stazione arriva alla stazione per dire a lei di non partire ma scende il fidanzato di lei dissimula continua e si ferma a parlare con un signore che stava su quegli interregionali e si mette a parlare con quel signore ma Maurizio non vuole metterla perché Maurizio ha un segreto per il successo del volo del mattino è che non ci sono i toscani",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Arrivo alla stazione",
+    "tema": [
+      "amore",
+      "separazione"
+    ],
+    "tipo": "riferimento_film",
+    "video_url": "",
+    "autore": "Pieraccioni"
   },
   {
     "id": "2017-01-27-039",

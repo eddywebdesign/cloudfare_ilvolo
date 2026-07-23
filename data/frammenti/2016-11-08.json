@@ -504,10 +504,14 @@
     "end": 1849.65,
     "speaker_raw": "SPEAKER_03",
     "testo": "potenzia moltissimo l'intento del maestro che era quello di raccontare attraverso questo libro il tema centrale che è qual è il topos diciamo qual è il dolore il dolore lì qual è proprio no qual è è proprio il dolore il dolore della perdita di un amore di un amore ma soprattutto c'è la menzogna dentro che è un'altra cosa c'è la menzogna indotta e autoindotta quindi quanto facciamo finta noi rispetto a delle cose che ci fanno male di non capire di non saperle e con questo quesito ci stava bene lo stacchetto però mi sembra che quello da stadio no sulla quale radio dj diciamo capito no niente non capisco va bene va bene",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Dolore della perdita",
+    "tema": [
+      "dolore",
+      "amore"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "maestro"
   },
   {
     "id": "2016-11-08-042",
@@ -515,9 +519,12 @@
     "end": 1862.18,
     "speaker_raw": "SPEAKER_02",
     "testo": "Allora, il fib che cos'è? Perché questo bambino pensa che la mamma sia morta per un tumore, un infarto, quello che è, e invece scopre... Comunque veramente, cioè, non è possibile trattare l'argomento con tale... No, invece scopre che si è suicidato.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Mistificazione bambino",
+    "tema": [
+      "menzogna",
+      "verità"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

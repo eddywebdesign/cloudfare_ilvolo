@@ -797,9 +797,12 @@
     "end": 2635.47,
     "speaker_raw": "SPEAKER_04",
     "testo": "Ma è un volo aplanare, dentro il peggiore motel, di questa carretera, di questa vita valera. E' un volo aplanare, per essere inchiodati qui, crocifissi al piede.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "volo aplanare peggiore motel",
+    "tema": [
+      "viaggio",
+      "disillusione"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {

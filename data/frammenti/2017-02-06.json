@@ -209,10 +209,11 @@
     "end": 1203.59,
     "speaker_raw": "SPEAKER_06",
     "testo": "Don't you cry, I'll be flying by you, I'll be riding the wings of fire.",
-    "titolo": "",
+    "titolo": "Don't You Cry",
     "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "The Eagles"
   },
   {
     "id": "2017-02-06-019",
@@ -462,9 +463,11 @@
     "end": 1992.81,
     "speaker_raw": "SPEAKER_09",
     "testo": "nove billi la libreria di Ikea ma perché le cose erotiche adesso? billi, tira fuori il billi no, otto billi scusa che è la libreria base è il modulo base della libreria di Ikea sono circa dovrebbero essere 920 libri in una vita intera non sono tantissimi no un libro al mese in realtà se ci pensi non è tanto no è poco però secondo me è anche tanto nel senso che cari ascoltatori leggete un libro al mese io ultimamente no mi vergogno perché ci si distrae io li ho lì sdraiati quelli da leggere e uno lo volevo leggere in contemporanea con te",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "quantità libri vita",
+    "tema": [
+      "tempo"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

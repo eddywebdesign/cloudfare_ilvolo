@@ -111,9 +111,12 @@
     "end": 558.91,
     "speaker_raw": "SPEAKER_00",
     "testo": "Per esempio, dice un ascoltatore, ho recuperato 30.000 euro per una causa lavorativa di mia moglie. Grande. Io non sono neanche avvocato o nessuno che mi abbia detto bravo. Hai fatto il tuo. Hai fatto il tuo. Questa è quella frase che, come la dici, come dice il nostro psicoterapeuta Andrea Cirelli, se hai dentro di te un senso. Ecco, io su quella roba lì mi accendo. Quando mi dice, io fanno una roba e ti dico, ma l'hai fatto solo perché era mio padre. La racconto sempre, no? Mamma. sono stati promossi, hanno comprato la bicicletta a me cosa mi compri? hai solo fatto il tuo dovere bravo bravo papà t'ha fatto il tuo t'ha fatto il tuo ma sei di Brescia t'ha fatto il tuo allora come dice la legge di Murphy ci consiglia e ci ricorda un nostro ascoltatore niente va mai così male che non possa andare peggio c'è una frase che dice non c'è mai fine al peggio? si si può solo scavare ok allora a proposito di come la fai la sbagli è quello che succede a noi allenatori di pallavolo non solo noi allenatori forse magari gli allenatori soprattutto dei bambini le squadre dei bambini qualunque decisione tu prenda comunque stai andando contro qualche famiglia se noi dovessimo dare voce agli allenatori dei bambini di qualsiasi sport dal ciclismo al calcio tu scopriresti una generazione di genitori da radere al suolo cioè tu o a questi corsi di miss e mist cioè dove prendono i bambini e spingono fashion ecco lì sono dei genitori che In un paese sano forse andrebbero quasi portati via perché è comunque un abuso, è un abuso infantile.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "fai il tuo",
+    "tema": [
+      "lavoro",
+      "impegno"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -162,10 +165,13 @@
     "end": 916.37,
     "speaker_raw": "SPEAKER_00",
     "testo": "ci piace, ci piace, ci piace questa canzone ha ragione il New York Times, devo dire il resto degli album è sempre più difficile perché il New York Times hanno sempre quella roba un po' eh, non devono essere scontate che non devono essere molto armoniche, diciamo e molto melodiche, ma tutto deve essere questa era quella più ascoltabile dei dieci album proposti dal New York Times Margaret Claxpy facci lo spelling G-L-A-S-P-Y Claxpy sarà Margaret Clasby allora ascoltatori che dicono sono usciti tutti gli allenatori in questo momento che ci ascoltano che dicono un mio amico allenatore mi ha detto la squadra migliore da allenare è la squadra degli orfani cioè andare all'orfanotrofio, quelli che non hanno i genitori così, gente che dice io, cos'era? ero in campo e un ragazzo mi insultava col figlio in braccio avrò avuto più o meno due anni e quello mi insultava col bambino in braccio testo di",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "canzone New York Times",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Margaret Claxpy"
   },
   {
     "id": "2016-12-09-014",
@@ -637,9 +643,12 @@
     "end": 2245.3,
     "speaker_raw": "SPEAKER_00",
     "testo": "Forse al di là del divertimento che lo sport offre, ovviamente perché è molto divertimento, è sempre un po' impregnato di metafore sulla vita. Quindi lo sport aiuta proprio anche a formare, non solo a farti vedere gli addominali o a divertirti, ma insegna anche a dare una forma mentis. A crescere, a diventare adulti, per esempio i giochi di squadra, il faticare magari puoi passare la palla, l'altro fa gol e prende i suoi meriti, insomma ci sono tante componenti, non è solo quella cosa lì di fare gol o di fare canestro o di vincere una meta. poi alcune hanno come dire delle metafore più esplicite però per esempio persino nella danza che uno dice nella danza non ci si aspetta la competitività ciao sono una maestra di danza ho una scuola e amo il mio lavoro ma oggi meno che mai i genitori aiutano i loro figli a diventare grandi poca determinazione e zero autocritica baci a tutti Valeria addirittura una mattina c'erano degli insegnanti che ci scrivevano che ormai non possono più riprendere",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "sport e crescita personale",
+    "tema": [
+      "metafore",
+      "vita"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
