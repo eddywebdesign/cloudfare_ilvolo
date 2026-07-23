@@ -112,6 +112,11 @@ Regole:
   Viola e' autrice del programma — un "libro" (sottocategoria "poesia" per Maurizio) con
   uno di questi tre come autore puo' essere legittimo, ma SOLO se il titolo e' plausibile
   come opera reale, non un nome generico o inventato
+- Se nello stesso passaggio si nominano SIA un personaggio/elemento (es. "Ulisse")
+  SIA l'opera piu' ampia a cui appartiene (es. "l'Inferno di Dante", "la Divina
+  Commedia") — entrambi presenti nel testo — estrai SEMPRE l'opera CONTENITORE
+  come riferimento, MAI il personaggio/elemento come opera a se stante: un
+  personaggio dentro un libro non e' un libro diverso scritto dallo stesso autore
 - Nel dubbio se qualcosa è un'opera reale o solo un nome/argomento menzionato,
   ESCLUDI — meglio pochi riferimenti sicuri che tanti falsi positivi
 
@@ -126,6 +131,10 @@ ESEMPI REALI (da errori già fatti in passato — studiali prima di rispondere):
 - CATTIVO (NON classificare così, trovato 2026-07-23): "sembra uno dei personaggi di
   Paolo Sorrentino, Gep Cabardella" -> è un paragone di passaggio, non si sta
   discutendo del film: ESCLUDI.
+- CATTIVO (NON classificare così, trovato 2026-07-23): "il viaggio di Ulisse
+  nell'Inferno di Dante" -> "Ulisse" è un personaggio DENTRO l'Inferno di Dante,
+  non un'opera separata scritta da lui: estrai SOLO "Inferno"/"Divina Commedia"
+  (autore Dante Alighieri), MAI "Ulisse" come titolo a sé stante.
 """
 
 

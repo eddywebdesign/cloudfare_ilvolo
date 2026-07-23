@@ -106,6 +106,11 @@ invece sono tutti e tre autori reali della redazione: Fabio Volo e' un romanzier
 Maurizio scrive poesie, Viola e' autrice del programma — riferimento_libro (tema "poesia" per \
 Maurizio) con uno di questi tre come autore puo' essere legittimo, ma SOLO se il titolo e' \
 plausibile come opera reale, non un nome generico o inventato.
+- Se nello stesso frammento si nominano SIA un personaggio/elemento (es. "Ulisse") \
+SIA l'opera piu' ampia a cui appartiene (es. "l'Inferno di Dante") — entrambi presenti nel \
+testo — classifica SEMPRE riferimento_libro/film/musica sull'opera CONTENITORE, MAI sul \
+personaggio/elemento come opera a se stante: un personaggio dentro un libro non e' un \
+libro diverso scritto dallo stesso autore.
 - Nel dubbio, ESCLUDI. Meglio pochi frammenti buoni che tanti irrilevanti.
 
 ESEMPI REALI (da errori gia' fatti in passato — studiali prima di rispondere):
@@ -130,6 +135,10 @@ e' un post di social media, non un libro/film/canzone: ESCLUDI (a meno che il me
 il titolo di un'opera reale).
 - CATTIVO (NON classificare cosi', trovato 2026-07-23): "sembra uno dei personaggi di Paolo \
 Sorrentino, Gep Cabardella" -> e' un paragone di passaggio, non si sta discutendo del film: ESCLUDI.
+- CATTIVO (NON classificare cosi', trovato 2026-07-23): "il viaggio di Ulisse nell'Inferno di \
+Dante" -> "Ulisse" e' un personaggio DENTRO l'Inferno di Dante, non un'opera separata scritta da \
+lui: classifica riferimento_libro SOLO su "Inferno"/"Divina Commedia" (autore Dante Alighieri), \
+MAI su "Ulisse" come titolo a se stante.
 
 FRAMMENTI:
 {lista}
