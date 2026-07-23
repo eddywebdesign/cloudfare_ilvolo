@@ -99,6 +99,11 @@ quell'opera specifica, non solo paragonando qualcuno/qualcosa ad essa.
 - Se un nome sembra una trascrizione fonetica imperfetta/deformata di un nome noto (errore di \
 riconoscimento vocale), NON generarlo come titolo di un'opera: un titolo deve essere plausibile \
 come opera reale, non un nome storpiato.
+- Fabio Volo, Maurizio e Viola sono i conduttori del programma: NON sono musicisti ne' registi. \
+Se pensi di attribuire loro l'autore di un riferimento_film o riferimento_musica, NON classificarlo \
+cosi' (quasi certamente stanno solo scherzando/citando/cantando per gioco). Fabio Volo E' un vero \
+scrittore pubblicato, quindi riferimento_libro con autore Fabio Volo puo' essere legittimo — ma \
+SOLO se il titolo e' plausibile come titolo reale di un suo libro, non un nome generico o inventato.
 - Nel dubbio, ESCLUDI. Meglio pochi frammenti buoni che tanti irrilevanti.
 
 ESEMPI REALI (da errori gia' fatti in passato — studiali prima di rispondere):
@@ -212,15 +217,28 @@ def _titolo_e_frase_di_conversazione(titolo: str) -> bool:
     return sum(1 for p in parole if p in VERBI_CONVERSAZIONE) >= 2
 
 
-def _riferimento_valido(titolo: str, autore: str, testo: str) -> bool:
+CONDUTTORI_PROGRAMMA = {"fabio volo", "fabio", "maurizio", "viola"}
+# Stessa lista/motivazione di trascrivi_e_estrai_clip.py::CONDUTTORI_PROGRAMMA (duplicata
+# qui per lo stesso motivo di TITOLO_SIMILARITY_SOGLIA sopra: evitare import circolare).
+
+
+def _riferimento_valido(titolo: str, autore: str, testo: str, tipo: str = "") -> bool:
     """Guardrail completo per riferimento_libro/film/musica: titolo e autore devono
     essere entrambi presenti, distinti l'uno dall'altro (altrimenti e' solo una persona
     citata, non un'opera+creatore), ancorati al testo, e il titolo non deve avere la
-    forma di una frase di conversazione."""
+    forma di una frase di conversazione.
+
+    Aggiunto 2026-07-23 (109/3544 riferimenti storici trovati con autore = un
+    conduttore del programma): riferimento_film/riferimento_musica con autore Fabio
+    Volo/Maurizio/Viola vengono scartati — nessuno dei tre e' un musicista o regista,
+    il loro nome compare in OGNI episodio quindi l'ancoraggio da solo non basta.
+    riferimento_libro NON viene toccato qui: Fabio Volo e' un autore pubblicato reale."""
     if not autore or not titolo:
         return False
     t_norm = _normalizza_per_ancoraggio(titolo)
     a_norm = _normalizza_per_ancoraggio(autore)
+    if tipo in ("riferimento_film", "riferimento_musica") and a_norm in CONDUTTORI_PROGRAMMA:
+        return False
     if any(s in a_norm for s in AUTORE_PLACEHOLDER_SOTTOSTRINGHE):
         return False
     if not t_norm or not a_norm:
@@ -330,7 +348,7 @@ def classifica_frammenti(frammenti: list[dict]) -> None:
                 continue
             titolo = r.get("titolo", "")[:120]
             autore = r.get("autore", "")[:120]
-            if tipo in RIF_TIPI and not _riferimento_valido(titolo, autore, f["testo"]):
+            if tipo in RIF_TIPI and not _riferimento_valido(titolo, autore, f["testo"], tipo):
                 non_ancorati += 1
                 continue
             if tipo in NARR_TIPI and len(f["testo"].split()) < MIN_PAROLE_NARRATIVO:

@@ -65,6 +65,18 @@ echo "$(ts) verifica_frammenti.py terminato (exit $rc2)." >> "$LOG"
 cp "$(dirname "$ILVOLO_DATA_DIR")/logs/frammenti_dubbi.json" data/frammenti_dubbi.json 2>>"$LOG"
 echo "$(ts) data/frammenti_dubbi.json aggiornato per Hugo." >> "$LOG"
 
+# Aggiunto 2026-07-23: verifica_riferimenti_esterna.py girava SOLO su --dataset
+# frammenti nel cron giornaliero (vedi sopra) — il dataset "riferimenti" (estratto da
+# estrai_riferimenti_nuovi.py/trascrivi_e_estrai_clip.py) non veniva MAI confrontato
+# con Open Library/TMDB/MusicBrainz, nonostante l'argomento --dataset riferimenti
+# esistesse gia' nello script. Trovato dopo aver scoperto 109/3544 riferimenti storici
+# con "autore" = un conduttore del programma (Fabio Volo/Maurizio) mai segnalati da
+# nessun controllo esistente. NON cancella nulla, solo marca confermato_esterno true/false.
+echo "$(ts) Avvio verifica_riferimenti_esterna.py --dataset riferimenti..." >> "$LOG"
+python3 -u scripts/verifica_riferimenti_esterna.py --dataset riferimenti >> "$LOG" 2>&1
+rc1c=$?
+echo "$(ts) verifica_riferimenti_esterna.py (riferimenti) terminato (exit $rc1c)." >> "$LOG"
+
 # Aggiunto 2026-07-18: verifica anche i riferimenti storici (libri/film/musica),
 # mai riprocessati dopo il fix di ancoraggio del 17/07. Solo segnalazione
 # (logs/riferimenti_dubbi.json), non cancella/modifica nulla da solo.
@@ -104,7 +116,7 @@ json.dump({
     'resultado': resultato,
     'archivos_clasificados': classificati,
     'ultima_ejecucion': '$(ts)',
-    'mensaje': 'estrai_riferimenti_nuovi=$rc0 riclassifica=$rc1 verifica_esterna_frammenti=$rc1b verifica_frammenti=$rc2 verifica_riferimenti=$rc3 reprocessa_riferimenti=$rc4',
+    'mensaje': 'estrai_riferimenti_nuovi=$rc0 riclassifica=$rc1 verifica_esterna_frammenti=$rc1b verifica_esterna_riferimenti=$rc1c verifica_frammenti=$rc2 verifica_riferimenti=$rc3 reprocessa_riferimenti=$rc4',
 }, open(logs_dir / 'estado_clasificacion.json', 'w', encoding='utf-8'))
 "
 echo "$(ts) estado_clasificacion.json aggiornato." >> "$LOG"

@@ -104,6 +104,12 @@ Regole:
 - Se un nome sembra una trascrizione fonetica imperfetta/deformata (es. errori di
   riconoscimento vocale su un nome noto), NON generarlo come titolo di un'opera:
   un titolo deve essere plausibile come opera reale, non un nome storpiato
+- Fabio Volo, Maurizio e Viola sono i conduttori del programma: NON sono musicisti ne'
+  registi. Se pensi di attribuire loro l'autore di un "film" o una "musica", NON
+  includere il riferimento (quasi certamente stanno solo scherzando/citando/cantando
+  per gioco, non e' un'opera loro reale). Fabio Volo E' un vero scrittore pubblicato,
+  quindi un "libro" con autore Fabio Volo puo' essere legittimo — ma SOLO se il titolo
+  e' plausibile come titolo reale di un suo libro, non un nome generico o inventato
 - Nel dubbio se qualcosa è un'opera reale o solo un nome/argomento menzionato,
   ESCLUDI — meglio pochi riferimenti sicuri che tanti falsi positivi
 
@@ -258,6 +264,10 @@ def estrai_riferimenti(testo: str) -> list[dict]:
     return tutti
 
 
+CONDUTTORI_PROGRAMMA = {"fabio volo", "fabio", "maurizio", "viola"}
+# Normalizzati (vedi _normalizza_titolo) — persone del programma stesso, mai autori
+# reali di musica/film. Usato in merge_riferimenti().
+
 TITOLO_SIMILARITY_SOGLIA = 0.85  # sopra questa soglia (difflib) un titolo e' considerato doppione,
 # stessa soglia/logica di trascrivi_locale_episodi.py::_titolo_e_doppione (duplicata qui invece di
 # importata per evitare un import circolare: trascrivi_locale_episodi.py importa gia' da qui)
@@ -379,6 +389,7 @@ def merge_riferimenti(data_str: str, nuovi: list[dict], testo: str, durata: floa
 
     aggiunti = 0
     doppioni_scartati = 0
+    conduttori_scartati = 0
     for ref in nuovi:
         cat = ref.get("categoria", "").lower()
         if cat not in ("film", "libro", "musica"):
@@ -386,6 +397,17 @@ def merge_riferimenti(data_str: str, nuovi: list[dict], testo: str, durata: floa
         titolo = ref.get("titolo", "").strip()
         if not titolo:
             continue  # nessun titolo reale identificato, scarta (evita voci vuote)
+        # Trovato 2026-07-23 su 109/3544 riferimenti storici: "autore" = un conduttore
+        # del programma (Fabio Volo, Maurizio, Viola) per categoria musica/film — nessuno
+        # dei tre e' un musicista o regista, e' quasi sempre il modello che confonde una
+        # persona citata/che canta a mo' di battuta con l'autore reale dell'opera. Il
+        # nome del conduttore compare in OGNI episodio, quindi l'ancoraggio al testo non
+        # basta a scartarlo. Per "libro" NON si scarta: Fabio Volo e' un autore pubblicato
+        # reale, li' serve la verifica esterna (Open Library) per distinguere i titoli
+        # veri da quelli inventati, non un'esclusione cieca.
+        if cat in ("musica", "film") and _normalizza_titolo(ref.get("autore", "")) in CONDUTTORI_PROGRAMMA:
+            conduttori_scartati += 1
+            continue
         if _titolo_e_doppione(titolo, titoli_per_categoria.get(cat, [])):
             doppioni_scartati += 1
             continue
@@ -428,6 +450,7 @@ def merge_riferimenti(data_str: str, nuovi: list[dict], testo: str, durata: floa
     RIF_DIR.mkdir(parents=True, exist_ok=True)
     dest.write_text(json.dumps(voci, ensure_ascii=False, indent=2), encoding="utf-8")
     dettaglio = f", {doppioni_scartati} doppioni scartati" if doppioni_scartati else ""
+    dettaglio += f", {conduttori_scartati} scartati (autore=conduttore)" if conduttori_scartati else ""
     print(f"    -> {dest} ({aggiunti} nuovi{dettaglio}, {len(voci)} totali)")
 
 
