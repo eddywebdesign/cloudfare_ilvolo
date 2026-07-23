@@ -511,10 +511,13 @@
     "end": 911.01,
     "speaker_raw": "SPEAKER_11",
     "testo": "Ma difficilmente, non so se guardi Il Segreto, diciamo che la cosa più... Il Segreto?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Il Segreto",
+    "tema": [
+      "segreto"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Raiù"
   },
   {
     "id": "2017-11-10-047",
@@ -720,10 +723,13 @@
     "end": 1102.57,
     "speaker_raw": "SPEAKER_07",
     "testo": "Sì, l'ho scritta in un libro.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "frase scritta in un libro",
+    "tema": [
+      "riflessione"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Fabio Volo"
   },
   {
     "id": "2017-11-10-066",
@@ -852,9 +858,11 @@
     "end": 1472.9,
     "speaker_raw": "SPEAKER_07",
     "testo": "No, però si vede che io ho sempre queste frasi bellissime che ricordano mio nonno, no? Famosissime, che abbiamo fatto anche una rubrica qualche anno fa. Ok, questo bambino passeggia con il nonno. È una frase belledoca. Sentiamo. E dice... Una volta passeggiando con mio nonno diedi un calcio a una moneta da un centesimo. Già che prenderlo un centesimo per te. Mio nonno mi disse raccoglila subito e ricordati. Chi non raccoglie un centesimo non vale un centesimo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "calcio a una moneta da centesimo",
+    "tema": [
+      "nonno"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -896,10 +904,13 @@
     "end": 1699.43,
     "speaker_raw": "SPEAKER_03",
     "testo": "Oh vita, qui non è il Mississippi e nemmeno Atlanta, ma non so che cosa c'è nella mia pelle bianca, che a 14 anni mi ha fatto sentire come nato a Hollins, Queens, ma sotto falso nome. Ho il passaporto italiano e un cuore mediterraneo, working class hero con un amore spontaneo, per la botte piena e per la moglie ubriaca, la base aero spaziale nel centro di Aracataca, Gabo Marquez, Valentino Rosso e Deppi Deis, Diego Velasquez, Sato Volo, Maurizio, Viola. Grazie a tutti. Volo, Maurizio, Viola. Oh vita, oh vita. Ho il flow di un jazzista e il mood di un barista, le ossa rotte riparate a forza di stare in pista. Con la pistola d'acqua rapino la banca, la mossa del cavallo aereo che la via mi spalanca. Verso lo scacco è re, verso la rivoluzione, un cantautore con la lingua come una percussione che batte dove vuole il dente, dove passa la gente. Sì, al gioco sento un calore, baby, è il sacro fuoco. Come posso io non celebrarti vita? Oh vita, oh vita. Come posso io non celebrarti vita? Oh vita, oh vita. Bon, bon, bon, bon. Volo, Maurizio, Viola. Oh, oh, oh, oh.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Cento anni di solitudine",
+    "tema": [
+      "identità"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Gabriel Garcia Marquez"
   },
   {
     "id": "2017-11-10-082",
@@ -951,9 +962,11 @@
     "end": 1774.5,
     "speaker_raw": "SPEAKER_07",
     "testo": "Senti, c'è addirittura Dante che lo sapeva che tu ti chiami Francesca, ci avresti avuto delle giornate difficili perché dice Francesca, i tuoi martiri a lagrimar mi fanno tristo e pio.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Francesca, i tuoi martiri",
+    "tema": [
+      "tristezza"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -995,9 +1008,11 @@
     "end": 1812.5,
     "speaker_raw": "SPEAKER_08",
     "testo": "Allora, cominciamo così. Mio figlio viene promosso all'esame di terza media, che insomma non è niente di che, però insomma decidiamo di fargli questo regalo. Gli prendiamo un Ape Piaggio 50, scazzatissima. Perché lui voleva l'ape piaggio, per cui... Fighissimo tuo figlio! Mio figlio era felicissimo!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Regalo Ape Piaggio",
+    "tema": [
+      "gioia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -1303,9 +1318,12 @@
     "end": 2088.65,
     "speaker_raw": "SPEAKER_10",
     "testo": "Paura di disgrazie terribili che potevano accadere oppure no. Per cinquante anni ho vissuto nella paura, ritrovandomi sempre sveglio alle tre del mattino. Ma ora è diverso, mi sono reso conto che è la paura la peggiore delle disgrazie e la paura il vero nemico. Perciò, alzati. Vado ad affrontare la vita reale. E se il mondo è un bastardo, allora colpiscilo con tutta la forza che hai.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Paura come nemico",
+    "tema": [
+      "paura",
+      "vita"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -1468,10 +1486,14 @@
     "end": 2590.84,
     "speaker_raw": "SPEAKER_09",
     "testo": "Listen, seeing you got ritualistic Cleansing my soul of addiction for now Cause I'm falling apart Volo, Maurizio, Viola. Ciao a tutti. I think we should rule out commitment for now cause we're falling apart. Leave it, you're just doing that to get even. Don't pick up the pieces, just leave it for now to keep falling apart. Grazie a tutti.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Cleansing my soul",
+    "tema": [
+      "addizione",
+      "fallimento"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Volo, Maurizio, Viola"
   },
   {
     "id": "2017-11-10-134",

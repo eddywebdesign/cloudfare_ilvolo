@@ -16,10 +16,13 @@
     "end": 198.21,
     "speaker_raw": "SPEAKER_13",
     "testo": "I'm by your side Oh, so what you do to me Grazie a tutti. my word is good hey there Delilah I've got so much left to say if every simple song I wrote to you would take your breath away I'd write it all even more in love with me you'd fall we'd have it all oh it's what you do to me ... ... Ciao. Hey there Delilah you'll be good and don't you miss me Two more years and you'll be done with school And I'll be making history like I do You'll know it's all because of you We can do whatever we want to Hey there Delilah here's to you This one's for you What you do to me, what you do to me.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Hey There Delilah",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "The Plain White T's"
   },
   {
     "id": "2017-10-13-002",
@@ -115,9 +118,11 @@
     "end": 527.77,
     "speaker_raw": "SPEAKER_08",
     "testo": "Un ragazzo che si firma o comunque la mail è Milcano, quindi sarà, non lo so, qualcosa legato al latte. Dice, mio figlio dice, aaaah, Sardegna! Quando sei sul traghetto l'istante che stai andando, capito, da Civitavecchia o dal Giro che si sta andando in Sardegna, quando la vedi come terra, terra, che disse Cristoforo... Sardegna perché comincia a vedere le labbra rifatte già dalla barca beh, se è la Costa Smeralda se è la Costa Smeralda esatto, esatto, e chi c'è in Costa Smeralda? chi c'è? eh? Piaccio non sono bello, ma Piaccio non so perché lo associo a lui, non lo so non so se è bello, Piaccio no, capito? capito, sì, lui è poco al mondo ma abbiamo Ottavio Daudine stamazzina cazzeggio, eh Ottavio buongiorno buongiorno il nostro camionista abbiamo sentito ieri che per quelli che sono poi scese dalla macchina non ho sentito diciamo il resto della puntata diceva insomma che viola era una donna di spessore così ed ero stato bravo a scegliere ma che avevo sbagliato su maurizio e invece poi oggi manda la mail qua il messaggio dice buongiorno maurizio ma è a udine o dove davio Ottavio trasporti grappa anche oggi?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Sardegna labbra rifatte",
+    "tema": [
+      "sardegna"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -181,10 +186,11 @@
     "end": 628.89,
     "speaker_raw": "SPEAKER_08",
     "testo": "io l'ho visto adesso posso comunque mettere una buona parola sei diventato l'osco Ottavio va bene buona giornata ciao guardate cosa vi ho messo questa mattina per svegliarvi questi sono i Jackson 5 I want you back",
-    "titolo": "",
+    "titolo": "I want you back",
     "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "The Jackson 5"
   },
   {
     "id": "2017-10-13-017",
@@ -225,9 +231,11 @@
     "end": 913.67,
     "speaker_raw": "SPEAKER_08",
     "testo": "Scusate, vedete qui lo zaino? Tirerò fuori la gommina Simmons, che è un gel meraviglioso, e insieme al Tenax fecero la storia dei capelli degli anni Ottanta. La gommina!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "gommina simmons",
+    "tema": [
+      "anni ottanta"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -830,10 +838,13 @@
     "end": 2343.66,
     "speaker_raw": "SPEAKER_08",
     "testo": "Questo è Franco Battiato, una bellissima canzone del 1980 e volevo dire, ieri abbiamo detto, ci sono due modi per noi che facciamo questo mestiere di parlare nella vita, uno tra amici, ci si può permettere anche di dire cose scorrette perché l'amico comprende che stai scherzando, quando invece hai la potenza di un microfono devi stare molto attento, per cui la mail che ha mandato Olivia non la posso leggere, sappi Olivia che noi abbiamo liso quasi le lacrime, detto questo e tutti gli ascoltatori la vogliamo sentire! non è che i bambini sono cattivi è partita con i bambini sono cattivi lei ne ha tre e poi ha raccontato due o tre cose che hanno fatto i suoi bambini perché i bambini sono senza filtro è vero, la domanda Maurizio non facciamo in tempo a mettere dieci secondi della canzone scelta da Viola? facciamo in tempo e poi mettiamo Aquilo in todo questa è la scelta viola per quelli un po' più piccoli di me capolavoro l'asciura dei datture in todos los hombres in todos los hombres in todos Ma abbiamo ascoltatori più giovani più che altro? Gente che la ricorda?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "canzone di Franco Battiato",
+    "tema": [
+      "comunicazione"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Franco Battiato"
   },
   {
     "id": "2017-10-13-076",

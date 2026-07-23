@@ -445,9 +445,12 @@
     "end": 1914.85,
     "speaker_raw": "SPEAKER_09",
     "testo": "Ah, beh, insomma, comunque è gente che ne sa. Lo sai che una volta, a proposito di suono e di animali, una volta mi è caduto un cassetto sull'alluce del piede. A un certo punto le mie grida non si sentivano più, sono arrivati 20 cani. Cosa vuol dire?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "grida e cani",
+    "tema": [
+      "animali",
+      "incidente"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -500,9 +503,12 @@
     "end": 2001.28,
     "speaker_raw": "SPEAKER_08",
     "testo": "Anche più grande dei dinosauri? È gigantesca, la balena è gigantesca. Infatti vive solo nell'acqua, perché il suo peso è talmente colossale che non potrebbe sopportare la gravità. Gli organi sono troppo pesanti, cadrebbero.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "gravità e balene",
+    "tema": [
+      "natura",
+      "scienza"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -599,10 +605,13 @@
     "end": 2306.83,
     "speaker_raw": "SPEAKER_09",
     "testo": "è un piccolo problema il giapponese questo sito i primi due anni per imparare il giapponese dove c'è scritto clicca qui e dopo il resto senta prof oggi anzi ieri credo è anche il compleanno di figli delle stelle la canzone meravigliosa di alan sorrenti che lei conoscerà a memoria ce ne accenni un no sto scherzando sto interrogando sto interrogando",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "figli delle stelle",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "alan sorrenti"
   },
   {
     "id": "2017-10-26-055",
@@ -632,9 +641,11 @@
     "end": 2537.56,
     "speaker_raw": "SPEAKER_04",
     "testo": "Grazie a tutti. Questa notte per finire le stelle Ci incontriamo per poi perderci nel tempo Come due stelle in lontano Riflessi sulle onde scivoliamo scorderò, dovunque tu sarai, dovunque io sarò. Noi siamo figli delle stelle, figli della notte che gira intorno, noi siamo figli delle stelle, non ci Per sempre figli delle stelle, non ci fermeremo mai, per niente al mondo. Per sempre figli delle stelle, senza storia e senza intanto, eroi di un sogno.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "riflessi sulle onde",
+    "tema": [
+      "tempo"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {

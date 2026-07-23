@@ -104,10 +104,14 @@
     "end": 360.2,
     "speaker_raw": "SPEAKER_05",
     "testo": "Avete mai visto? avete mai visto quel film meraviglioso di Woody Allen che lui è in coda al cinema e a un certo punto c'è uno che dice io questo regista sai quando si parla male degli altri io questo regista Sorrentino sai quelli che dicono quelle robe lì e a un certo punto Woody Allen si infastidisce a questa cosa va dietro un cartonato e viene il regista e gli dice faccia quello che gli devi dire e questo non riesce più a dire niente classico io uguale ho detto io vado dal sindaco faccio dico poi adesso il sindaco dice va bene ti aspetto dimmi vieni a dirmi io chi dico io al sindaco? sei un leone da tastiera no sei un leone da radio dici e poi sapete quelle immagini che girano su internet del gattino che si vede riflesso e vede un leone nello specchio o nell'acqua uguale Allora, ieri tra l'altro, a noi che ci piacciono più quelli che ci criticano che di quelli che ci amano, però qui c'era amore e critica, ieri Simona, un'ascoltatrice che mi ha mandato un tweet mentre cucinavo, ha detto, no perché la richiamo anche stamattina, perché voglio sapere... Lei non è l'onestadatta Spera. No, lei è lì, Simona ti porto dal sindaco di Milano con me, buongiorno Simona.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "film di Woody Allen",
+    "tema": [
+      "critica",
+      "regista"
+    ],
+    "tipo": "riferimento_film",
+    "video_url": "",
+    "autore": "Woody Allen"
   },
   {
     "id": "2017-10-05-010",
@@ -346,9 +350,11 @@
     "end": 780.84,
     "speaker_raw": "SPEAKER_05",
     "testo": "thank you il thank you è un po' come quando i sommeri diversi dicevano e quella bestia non è a mio papà Mary! Allora ragazzi, ieri Obama, che possiamo dire it's a parachute, è un po' parachute. Parachute. È un po' parachute, è un po' paraculo, nel senso che ci piace perché è figo, è rock, però è anche un po' parachute. Io sono andato qua a Milano l'anno scorso a sentirlo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "parachute rock",
+    "tema": [
+      "rock"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -665,9 +671,12 @@
     "end": 2176.1,
     "speaker_raw": "SPEAKER_00",
     "testo": "è vero però c'è anche un altro aspetto bello da dire che i nostri manager italiani secondo me sono i manager più qualificati più all'altezza che ci sono al mondo perché Con questa cultura italiana che in qualche modo il nostro governo fa 200.000 leggi, la nostra educazione di italiano è quella come fare per fottere la legge appena fatta. Quindi il manager italiano ha una scaltrezza, un'elasticità mentale che se c'è un problema trova sempre la soluzione.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "manager italiani qualificati",
+    "tema": [
+      "educazione",
+      "gestione"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

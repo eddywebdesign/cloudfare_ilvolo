@@ -38,10 +38,13 @@
     "end": 176.71,
     "speaker_raw": "SPEAKER_14",
     "testo": "Gli Eire. Gli Eire arrivarono sul panorama musicale mondiale, tra l'altro, così, boom, prodotti dai Daft Punk. Sono stilosi loro, eh? Eh, sono super stilosi, francesi... Com'era quella, la più famosa, com'era lì, King Kong? Degli Eire? Sì, quella lì... Era... aiuto. Era... quella lì, dai, quella lì, hai capito?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "King Kong",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Eire"
   },
   {
     "id": "2017-10-27-004",
@@ -555,10 +558,13 @@
     "end": 1594.23,
     "speaker_raw": "SPEAKER_14",
     "testo": "Gentilissimo. Niente, sta per uscire il libro nuovo di Fabio Bolle, io te lo dico e dovrebbe venire anche a presentarlo a Brindisi, ok?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "libro nuovo di Fabio Bolle",
+    "tema": [
+      "letteratura"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Fabio Bolle"
   },
   {
     "id": "2017-10-27-051",
@@ -588,9 +594,11 @@
     "end": 1814.81,
     "speaker_raw": "SPEAKER_16",
     "testo": "Per i pensieri Quando l'auto nemmeno partiva questo drink è già il secondo ripensa a quella sera senza condom prendo da bere ma non prendo sotto c'è questo pezzo in sottofondo lei che mi dice voglio darti il mondo ecco perché mi gira tutto intorno mentre si muove io ci vado sotto ma dalla francese Il profumo mi è rimasto addosso Mi guardo allo specchio e penso Forse dovrei dimagrire Il tempo che passa lento Anche se non siamo in Brasile Mi copro perché è già inverno E non mi va mai di partire In queste parole mi perdo Ti volevo soltanto dire",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "pezzo in sottofondo",
+    "tema": [
+      "relazioni"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -632,10 +640,13 @@
     "end": 2090.48,
     "speaker_raw": "SPEAKER_14",
     "testo": "non era quella la canzone però così allora Fabio puoi continuare il discorso del razzismo di prima stavo dicendo tendenzialmente non lo siamo però ognuno di noi c'è un momento in cui fa un pensiero in automatico e l'altra voce quella che governa diciamo dice no ma aspetta io per esempio all'aeroporto mi vengono ogni tanto dei pensieri capito perché sono come Air, sai Up in the Air il film di George Clooney io in base alla nazionalità mi metto in coda alla security lo faccio ma non è vero eh sì perché comunque se tu passa uno in calzoncini e a maglietta gli stai dietro e quello lo passa in un secondo quando sei dietro a un ebreo ortodosso che ha il cappotto il cappello e le trecine che vengono giù quello gli dice venga qui li squartano in due perché hanno troppe tasche troppe cose poi c'ha la corda legata quella lì alla vita vai con quello di calzoncini che beve la Budweiser è una forma di razzismo? non lo so è utilitarismo più che decidendo oggi chi chiamare siamo finiti e ho detto andiamo nella zona di brindisi che sono buoni è una forma di razzismo perché qua tutti compreso degli ascoltatori adesso ha scritto uno abbiamo detto tutti no Liguria no Toscana e l'abbiamo pensato tutti non chiamiamo Genova che ci mandano a cagare in un secondo un ascoltatore ha detto facile chiamare Brindisi provate a chiamare Genova quindi è abbastanza risaputa sfida accettata noi adesso lunedì o martedì chiamiamo Genova varisti genovesi ricordatevi sempre questa frase la dico sempre la continuerò a dire quando io ho girato un film a Genova andavi a fine ripresa al ristorante alve avete un tavolo per due no ma paghiamo cioè che era un po' tipo non ce l'ho un petico io a venire a mangiare al ristorante detto questo è arrivato il momento della sequenza musicale del venerdì io avevo capito dall'America che avremmo rifatto gli anni 90 come venerdì scorso perché l'hanno piaciuto molto invece no, abbiamo deciso insieme a Mauro avete deciso insieme a Mauro? no no no ha deciso Mauro ha fatto una sequenza anni 60 anni 60 prende un po' no va bene va bene perfetto però venerdì prossimo io rifarei i 90 che non mi appartengono tanto ma ho visto che abbiamo un pubblico giovane però diciamo parallelo a quel mondo della discoteca quindi andrei un po' più magari come abbiamo detto stamattina in Irvane però per oggi faccio godere a parte che mia mamma è pazza di questo pezzo di Fabi Fieber quindi l'ho già fatta contenta mia mamma impazzisce per questo pezzo anche mia sorella allora adesso io metterei questa sequenza anni 60 che comunque piace un po' a tutti in the road Jack a chi non piace Su le mani si diceva i tempi.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "up in the air",
+    "tema": [
+      "razzismo"
+    ],
+    "tipo": "riferimento_film",
+    "video_url": "",
+    "autore": "george clooney"
   },
   {
     "id": "2017-10-27-058",
@@ -665,10 +676,11 @@
     "end": 2096.27,
     "speaker_raw": "SCONOSCIUTO",
     "testo": "Something you call love but confess.",
-    "titolo": "",
+    "titolo": "Something You Call Love",
     "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Jones"
   },
   {
     "id": "2017-10-27-061",
@@ -698,10 +710,11 @@
     "end": 2345.84,
     "speaker_raw": "SPEAKER_09",
     "testo": "Whatever happens You know we're gonna repair No matter what happens You know we got something rare No matter what happens We got the heat Melt with me You know Man with me Whatever happens You know we got something real No matter what happens You know I'm gonna want you near So get over here No matter what happens No matter what happens We got the heat Melt with me come out with me come out come out come out come out come out come out come out come out come out come out you know we got the heat oh Sì.",
-    "titolo": "",
+    "titolo": "Melt",
     "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Jones"
   },
   {
     "id": "2017-10-27-064",

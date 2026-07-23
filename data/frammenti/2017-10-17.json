@@ -148,9 +148,12 @@
     "end": 758.22,
     "speaker_raw": "SPEAKER_13",
     "testo": "Ciao! ciao ciao ciao I hope that someone gets my I hope that someone gets my Message in a bottle Message in a bottle Message in a bottle Message in a bottle",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Message in a Bottle",
+    "tema": [
+      "messaggio",
+      "oceano"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -181,10 +184,14 @@
     "end": 1140.27,
     "speaker_raw": "SPEAKER_09",
     "testo": "L'hanno arrestato per inquinamento. il messaggio che conteneva invitava a lasciare a chi trovava la bottiglia al primo ufficio postale ragazzi ho trovato la bottiglia, non c'era facebook non c'era il telefono, immagino comunque non avevano il suo numero una delle bottiglie spedita nel 1914 è stata trovata nel 2012 98 anni dopo il vetro non si dissolverà mai niente oggi è il messaggio in bottiglia più antico del mondo ok guarda che interessante quella bottiglia sai cosa c'era scritto? sta fermo lì che te la do io tutto in vacca c'è un insegnante di scienza del nord carolina nord carolina da cinque anni durante la sua lezione sulla corrente del golfo invita i suoi studenti a infilare in una bottiglia una breve spiegazione di chi sono una cartolina e un indirizzo mail ok ne hanno buttate 53 di queste bottiglie ok dopo dieci anni ne hanno trovata una in normandia Cioè Maurizio che è successo? Ti è caduto? I maroni? Ti sono caduti i maroni? Un libro? Va bene insomma e questo qua l'hanno trovata dopo dieci anni la bottiglia dall'America per arrivare in Normandia ci ha messo dieci anni. Vabbè abbiamo provato che la corrente del golfo esiste. basta buttare bottiglie ragazzi ma la necessità dell'essere umano di comunicare è la stessa che ha spinto per esempio la NASA negli anni 70 a mandare nello spazio tutta una serie di memorie ci sono canzoni frasi, voci lingue posso dire stamattina sono arrivato e Maurizio mi ha detto si però conosci qualcuno alla NASA ma secondo te io conosco qualcuno alla NASA ma ha detto si perché glielo faccio io ma si sentono malissimo Scusate ragazzi, la NASA ha mandato, per esempio, una delle cose più romantiche, forse, il bacio della mamma a un bambino. Sentite com'è stata la registrazione che è nello spazio. tu immaginati l'alieno ah vediamo qua così ah quindi uccidono i bambini cioè questo è il bacio a schiocco che sembra una cortellata vabbè parla al 1977 cioè piangono così nel 77 sembra un gatto sotto una smart ok questi sono i saluti saluti sai cosa ha detto tra l'altro non lo posso dire ma veramente hanno mandato questo gli ha detto il Kashmir gli ha detto io c'ho sempre il Kashmir ho sentito ma scusami ma cosa gli frega l'alieno l'happy ending scusami ma no poi hanno messo delle canzoni però hanno messo questa penseranno che ci divertiamo un botto sul pianeta, no? Si chiama Johnny B. Goode, ok? Fai il bravo, Johnny.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Bottiglia Messaggio",
+    "tema": [
+      "storia",
+      "messaggio"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Breve storia di una bottiglia spedita nel 1914"
   },
   {
     "id": "2017-10-17-017",
@@ -544,10 +551,14 @@
     "end": 2561.34,
     "speaker_raw": "SPEAKER_06",
     "testo": "evil's in my pocket and your will is in my hand oh your will is in my hand now throw it in the current that I stand upon so still love is so from what I've heard but my heart's learned to kill oh mine has learned to kill Oh, I said I could rise from the harness of our goals Here come the tears, but like a waste I let them go Just let them go Now spikes will keep on falling from the heavens to the floor No, we don't dream anymore Like a house made from spider webs and clouds rolling in You bet this mighty river's both my savior and my sin Oh, my savior and my sin Grazie a tutti. I walk upon the river like it's easier than land Evil's in my pocket and your strength is in my hand Strength is in my hand And I've thrown you in the current that I stand upon so still Love is sold from what I've heard, but my heart's learned to kill, oh mine has learned to kill.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Evil's In My Pocket",
+    "tema": [
+      "amore",
+      "dolore"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Florence + The Machine"
   },
   {
     "id": "2017-10-17-050",

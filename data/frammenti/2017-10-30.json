@@ -203,10 +203,14 @@
     "end": 988.68,
     "speaker_raw": "SPEAKER_02",
     "testo": "Possiamo dire che la sua esperienza di vita sicuramente porta una visione originale. È uno che è stato manager, poi è diventato monaco, riesce a capire i due mondi. ora vende il problema è andare in farmacia il problema è andare in libreria e dire vorrai l'ultimo di Totsufa vai vai vai il primo consiglio che come si chiama? prima lava tutte le macchine quando vai a casa con il libro lo apri e leggi adesso vai fuori e lava la macchina prima lava tutte le macchine Ok, allora, sono cinque consigli per cui di lunedì si riesce ad assimilarli. Il primo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Consigli del Monaco Zen",
+    "tema": [
+      "lavoro",
+      "consigli"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Totsufa"
   },
   {
     "id": "2017-10-30-019",
@@ -324,10 +328,13 @@
     "end": 1101.24,
     "speaker_raw": "SPEAKER_02",
     "testo": "esatto di Marie Kondo il saper gettare via buttare via non aggrappatevi a quelle foto appiccicate di George Clooney lì sulla scrivania",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "La magia dell'ordine",
+    "tema": [
+      "minimalismo"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Marie Kondo"
   },
   {
     "id": "2017-10-30-030",
@@ -357,9 +364,12 @@
     "end": 1165.0,
     "speaker_raw": "SPEAKER_11",
     "testo": "e comunque si chiama il shikantaza e l'ultimo è il ryaku è il beneficio altrui quindi dare priorità alla crescita altrui invece che al proprio fantascienza sappiate adesso andate al lavoro cercate di aiutare il vostro collega prima di aiutare voi stessi esatto",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "priorità altrui",
+    "tema": [
+      "aiuto",
+      "collega"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -445,9 +455,12 @@
     "end": 1790.02,
     "speaker_raw": "SPEAKER_02",
     "testo": "ciao Fabio volevo raccontarti questa cosa che sabato sono entrata in un bar con il mio bambino e ho chiesto alla barista se poteva il mio figlio usare il bagno e la barista mi ha inseguito dicendo che il bagno era occupato che comunque era obbligatorio consumare annosa questione questa sapete che in realtà non è vero credo che per legge no credo che tu per legge non possa impedire a una persona di andare in bagno a fare la pipì se hai un esercizio pubblico soprattutto con un bambino che si sta facendo addosso dai sì è vero e c'è da dire che fa anche sempre molto ridere che i bar vicino alle stazioni sono sempre guasti un giorno in un posto dove insomma ho capito che funzionava così sono andato io tra l'altro ho preso il caffè ho preso l'acqua così poi ho detto prima di andare vado a fare la pipì c'era scritto guasto ho chiesto alla barista scusi posso chiedere una cosa? si venga Allora, io non mi faccio vedere da nessuno. Entro, la faccio, vado via, lascio pulito come trovo. Ah, ok. Mi ha dato le chiavi. No! Capisci? Capisci? Capisci? E non è vero che ho lasciato come ho trovato. Ho lasciato due virgole sul muro. Sai cosa sono le virgole sul muro? Sul muro, neanche dentro. Due virgole sul muro, è certo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "barista e bagno",
+    "tema": [
+      "diritto",
+      "bambino"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

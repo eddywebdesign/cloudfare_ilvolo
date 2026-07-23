@@ -5,10 +5,13 @@
     "end": 136.94,
     "speaker_raw": "SPEAKER_11",
     "testo": "Hello, it's me. I was wondering if after all these years you'd like to meet, to go over everything. They say the time's supposed to heal you, but I ain't done much here. hello can you hear me I'm in California dreaming about who we used to be when we were younger and free I've forgotten how it felt before the world fell at our feet there's such a difference between and a million miles how from the Hello, how are you? It's so typical of me to talk about myself I'm sorry, I hope that you will Grazie a tutti.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "California Dreamin'",
+    "tema": [
+      "nostalgia"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "The Mamas & the Papas"
   },
   {
     "id": "2017-10-23-001",
@@ -71,9 +74,11 @@
     "end": 468.74,
     "speaker_raw": "SPEAKER_06",
     "testo": "Ah ok, no perché io subito, già che l'altro giorno mi hai fatto il cazziatone che dice che io torno indietro in camera degli alberghi a spegnere la luce, mi hai detto dal taccaio, io ho pensato quanta roba da buttare, che peccato, che spreco. Vabbè insomma ragazzi, volevo dirvi che ho incontrato Patty Smith per strada l'altro giorno. Chi sarebbe? come chi sarebbe? era lì con un signore che parlava ho detto ah Pattismi ovviamente non gli ho detto niente però mi devo ricordare che devo dirlo ai ragazzi ma potevi chiedere una foto no? no a Pattismi non gli chiedi una foto ma sai cosa mi avrebbe hai presente Pattismi è come Bob Dylan c'è gente che gli dà fastidio tutto potremmo fare come fanno quando in Italia tu dici no dai non è il momento senti oh se ti dà fastidio che uno ti chieda la foto non dovevi fare sto lavoro sarei potuto andare da Patty Smith e dirle senta Patty se non vuol fare il selfie con me allora non doveva scrivere canzoni con Bob Dylan e tutte queste cose ok volevo dirvi che un signore a fianco ho detto ad alta voce devo ricordarmi di dire in radio che ho incontrato Patty Smith e sai cosa mi ha detto? sta fermo lì che te lo do io per memoria allora ragazzi per iniziare questo lunedì meraviglioso ok vi ho portato un disco che è bellissimo da ascoltare l'abbiamo già messo anche in passato è bellissimo da ascoltare in cuffia quando si passeggia per strada ma anche in macchina lunedì mattina per andare al lavoro perché entra e diventi subito sexy cioè qualsiasi persona in ascolto in questo momento viene invasa da una vibrazione di sexy saggine sexitudine sexitudine",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Incontro con Patty Smith",
+    "tema": [
+      "incontro"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -291,9 +296,12 @@
     "end": 1398.61,
     "speaker_raw": "SPEAKER_00",
     "testo": "io sono il talento certo che hai talento hai tutto il talento del mondo e potrei diventare un giocatore Puoi diventare tutto quello che vuoi. Ricordati, la cosa più triste nella vita è il talento sprecato. Puoi avere tutto il talento del mondo, ma se non fai la cosa giusta non succede niente. Invece se ti comporti bene, dai retta a me, succedono grandi cose. Hai capito?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "talento sprecato",
+    "tema": [
+      "talento",
+      "successo"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

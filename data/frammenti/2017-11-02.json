@@ -27,10 +27,14 @@
     "end": 228.37,
     "speaker_raw": "SPEAKER_01",
     "testo": "Stavo dicendo lunedì mattina, mannaggia, anche ieri continuavo a dire no perché domani che è lunedì... Sembra, eh? Sembra, sembra, perché mangiare da tua mamma, le cose, diventa subito domenica. Una giornata che inizia con i Blur, con Coffee and TV, un disco del 1999, era lì a un passo, vi ricordate l'ansia di quell'anno? Perché tutti dicevano che nel 2000 si sarebbero azzerati... ci sarebbero un mese Linus è in America sta dormendo a quest'ora mi fai un favore da domani non la metti più questo e poi se ti chiama gli dici scusami è colpa mia ti sacrifichi per questo programma volentieri vi ricordate che dicevano che si azzeravano i computer gente che faceva hard disk chiavete tutto quello che c'era ai tempi floppy il millennium bug invece poi non è successo niente niente di niente poi c'erano la frase di Gesù mille non più mille non lo ricordate quindi c'erano quelli che dicevano ci sarà la fine del mondo che non ci sarà un altro mille che Nostradamus Nostradamus ha detto che Di Pietro erano arrivati a dire che Di Pietro avrebbe fatto Tangentopoli guarda che meraviglioso saper leggere quelle cose buongiorno a tutti ragazzi abbiamo degli ospiti meravigliosi questa mattina ma sì che lo sai sorpresa e della musica stupenda io direi sigla",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Coffee and TV",
+    "tema": [
+      "musica",
+      "giovedi"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Blur"
   },
   {
     "id": "2017-11-02-003",
@@ -456,9 +460,12 @@
     "end": 1950.72,
     "speaker_raw": "SPEAKER_00",
     "testo": "è così, ci sono degli studi è chiaro che sono delle proiezioni sì, di tossici questo asteroide ha cambiato radicalmente il clima e ha in qualche modo decretato la fine di milioni di animali soprattutto dei dinosauri è stata la grande fine dei dinosauri che sono scomparsi sulla terra non tutti però, i dinosauri ci sono ancora vivono ancora tra di noi sono rimasti solo così piccoli li conosciamo perché sono gli uccelli gli uccelli sono dei veri dinosauri",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "capacità di comprendere",
+    "tema": [
+      "comprensione",
+      "studi"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

@@ -225,10 +225,13 @@
     "end": 836.01,
     "speaker_raw": "SPEAKER_03",
     "testo": "Sta molto bene. Intanto la ringrazio perché privatamente l'ho chiamata l'altro giorno per una consulenza sugli animali e lei prontamente era preparato. Esattamente, ho risposto benissimo. La ringrazio, la ringrazio. Mi mancherebbe. Stava andando il libro in stampa e qualcuno ha sollevato dei dubbi, ho detto ragazzi ho io l'espertone, quindi insomma anche la Mondadori la ringrazia perché non abbiamo ritardato. Bene, ottimo. Senta, qual è la prima storia che ci racconta oggi?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "il mio libro sugli animali",
+    "tema": [
+      "animali"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Fabio Volo"
   },
   {
     "id": "2017-10-19-021",
@@ -258,9 +261,12 @@
     "end": 965.72,
     "speaker_raw": "SPEAKER_00",
     "testo": "È stata una sorta di entomology spry, qualcosa del genere, sull'orgoglio entomologico. E vorrei parlarvi di Sir Ronald Ross, un entomologo inglese che viveva in India Ed è stato quello che è riuscito a scoprire il ruolo preciso della ganzara nel veicolare la malattia della malaria. Già si sapeva che la malaria in qualche modo era legata ad ambienti palustri, ad ambienti dove l'acqua era stantia, era in qualche modo appunto palustre. Però non c'era la prova provata del fatto che il colpevole fosse proprio la malaria. Ma Sir Ronald Rove l'ha scoperto attraverso una sperimentazione davvero geniale ha mandato i suoi assistenti nella giungla indiana e gli ha dato delle indicazioni precise rimanete per un mese nella giungla fatevi pungere quando tornate se siete ammalati bene ma scusi ma perché non ci è andato lui? lui è un professore ci manda gli assistenti questi farabutti vanno nella giungla e sono stati un mese rinchiusi nella tenda non si sono fatti pungere ma chi è che si faceva pungere se il dubbio era quello l'entomologo aveva detto questa cosa devi obbedire sono tornati in condizioni igieniche pessime ma sani ci siamo incavolatissimi Quindi ha detto adesso basta, ci penso io, chi fa da Sefa per tre, va lui nella giungla.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "scoperta malaria zanzare",
+    "tema": [
+      "medicina",
+      "storia"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -335,10 +341,14 @@
     "end": 1056.32,
     "speaker_raw": "SPEAKER_03",
     "testo": "Una volta avevo letto, scusi se cambio questo discorso, che anche Leonardo da Vinci, che ovviamente siamo tutti in ginocchio davanti a Leonardo da Vinci, faceva degli esperimenti con i suoi assistenti Per esempio quando provava, per esempio se si poteva volare così, cioè gli attaccava queste ali alle braccia e poi li buttava giù dai burroni, diceva no è morto, non funziona. Cioè che la storia comunque viene anche portata avanti sempre con questo abuso di potere dei forti sui deboli e poi il forte vince anche il premio, vince il Nobel, vince il secondo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Leonardo da Vinci",
+    "tema": [
+      "scienza",
+      "storia"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Paolo Sorrentino"
   },
   {
     "id": "2017-10-19-031",
@@ -390,9 +400,11 @@
     "end": 1222.82,
     "speaker_raw": "SPEAKER_09",
     "testo": "Start spreading the news. Ciao! grazie",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Start spreading the news",
+    "tema": [
+      "città"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -808,10 +820,14 @@
     "end": 2369.08,
     "speaker_raw": "SPEAKER_01",
     "testo": "Guarda, il libro in realtà affronta il tema proprio della natura del linguaggio e la tua domanda in realtà è molto importante, cioè capire se noi esseri umani abbiamo una lingua o tante lingue. È un po' come chiedersi se abbiamo un solo cuore o tanti cuori, un solo fegato o tanti fegati. diciamo quello che si è capito nel novecento è che gli esseri umani parlano fondamentalmente la stessa lingua con delle variazioni però che le fanno sembrare completamente diverse quello che ho detto io all'inizio scherzando esattamente vabbè ma tu scherzi ma in realtà sei molto linguista sono un dj linguista sulle pugnette però quindi esiste un ceppo si diciamo più che un ceppo esistono delle istruzioni biologiche e difatti il libro parla proprio di questo cioè Tu immaginati di essere uno scienziato di un altro dominio, cioè che studia le farfalle, i fiori. Tipicamente si pensa che gli scienziati confrontino cose che esistono, tipi di fiori, tipi di farfalle, tipi di nuvole, tipi di atomi. Poi arriva un certo punto in cui lo scienziato dice non limitiamoci a confrontare quello che c'è. ma chiediamoci perché non ci sono delle altre cose cioè come mai sono impossibili per esempio dei motori che funzionano eternamente con lo stesso carburante o perché non esistono animali che non muoiono quindi diventi un artista più che un scienziato cioè diventi un creativo cioè la fantasia entra nella ricerca scientifica e ti chiedi perché non esiste questo perché non esiste quell'altro e questo tipo di domande si apporta anche nel linguaggio anche se si è dovuto combattere contro l'idea che il linguaggio sia totalmente convenzionale e arbitraria. Invece per primo Chomsky ma poi questa cosa è continuata nel Novecento si è capito che tutte le lingue hanno fondamentalmente delle leggi comuni. Naturalmente la fantasia e la cultura influenzano il linguaggio in un modo sostanziale, su questo non c'è dubbio. Però la struttura, i gradi di libertà te li fornisce la natura.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Linguaggio e mente umana",
+    "tema": [
+      "linguaggio",
+      "mente"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Andrea Moro"
   },
   {
     "id": "2017-10-19-074",

@@ -324,10 +324,13 @@
     "end": 1124.99,
     "speaker_raw": "SPEAKER_02",
     "testo": "All the other kids with the pumped up kicks You better run, better run Outrun my gun All the other kids with the pumped up kicks You better run, better run Faster than my bullet All the other kids with the pumped up kicks You better run, better run Outrun my gun All the other kids with the pumped up kicks You better run, better run",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "All the Other Kids",
+    "tema": [
+      "paura"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "MGMT"
   },
   {
     "id": "2017-10-06-030",
@@ -390,9 +393,12 @@
     "end": 1308.16,
     "speaker_raw": "SPEAKER_10",
     "testo": "Mi muoio, devo raggiungere. Allora va per prendere l'aereo per raggiungere la moglie, mentre sta per salire sente una voce che dice non prendere quest'aereo, non partire, si gira e non c'era nessuno.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "voce misteriosa all'aeroporto",
+    "tema": [
+      "destino",
+      "premonizione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -412,9 +418,12 @@
     "end": 1353.28,
     "speaker_raw": "SPEAKER_10",
     "testo": "Se però raggiunge mia moglie, va a casa, viene a sapere che l'aereo è caduto e sono morti tutti. Che faccio? Prendo il treno, va all'attazione, sta per prendere il treno, stessa voce che dice non prendere questo treno, non partire, si aggira e non c'era nessuno. Memore di quello che gli era successo. Con l'aereo, dice, no, io il treno non ho più. Viene a sapere che il treno è deragliato e sono morti tutti. Dice, ma porca sosta, quella che ha sempre, io la devo raggiungere. Dice, vabbè, io la nave, prendere la nave, stessa voce, non prendere che se gira e fa, dice, guarda, io non te conosco, ma quando mi sono sposato, do cazzo stare qui.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "voce misteriosa al treno",
+    "tema": [
+      "destino",
+      "premonizione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -500,10 +509,13 @@
     "end": 1839.27,
     "speaker_raw": "SPEAKER_00",
     "testo": "Se invece siete amanti del classico, a Palazzo Reale c'è una mostra bellissima dedicata al più grande, a quello che fa veramente ogni volta che passa, lascia dei segni indelebili, Caravaggio. è stata inaugurata il 29 settembre il giorno in cui nacque Caravaggio che si chiama Michelangelo Merisi perché il 29 è il giorno della Cangelo Gabriele quindi si chiama Michelangelo Merisi per quello e Milano gli ha veramente dedicato questa mostra che è una mostra importante sono in realtà 20 capolavori sembrano pochi sono tantissimi riuscirà a spostare e far arrivare dall'estero da lontano da New York delle tavole dei dipinti così grandi Caravaggio non li lasciano così facilmente invece ed è bello vederli tutti assieme veramente un'ora un'ora e mezza nella quale ti puoi dedicare e vedi dall'inizio dagli anni giovanili alla maturità come questo genio veramente ha rivoluzionato la pittura ma c'è qualcosa in più perché andando dietro ai dipinti ai quadri ci sono delle dei video che mostrano delle degli esami delle radiografie delle tele che mostrano i vari strati della pittura e vedi i pentimenti che come lui ha deciso di spostare le figure, di sistemare, e sono saltate fuori tante cose anche nuove.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Caravaggio",
+    "tema": [
+      "arte"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Michelangelo Merisi"
   },
   {
     "id": "2017-10-06-046",
@@ -522,9 +534,11 @@
     "end": 1862.38,
     "speaker_raw": "SPEAKER_00",
     "testo": "Ha pitturato sopra, poi quando stava a Roma, soprattutto ed era giovane, aveva pochi soldi, aveva poche tele, quindi continuò a cambiarle e a riutilizzarle. E pensa un po' che c'è una, in particolare la fuga in Egitto, che si è scoperto che è stata pitturata su una tovaglia. Quindi lui ha preso una tovaglia, l'ha intelata, gli ha messo i chiodi ed è diventata una tela per dipingere. E comunque insomma è veramente una mostra bella e importante da vedere.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "tovaglia dipinta",
+    "tema": [
+      "creatività"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -830,10 +844,13 @@
     "end": 2416.82,
     "speaker_raw": "SPEAKER_16",
     "testo": "bravo bravissimo sono contento di questa hai altre malattie? non ho altre malattie no no no non ho altre malattie va bene senti Andrea ti mettiamo una bella canzone che non è mai passata su Radio DJ ma noi vogliamo coccolare i nostri ascoltatori ci chiama Let's Go Away andamosene come direbbero i romani cioè andiamo via te la dedichiamo per te e il tuo incontro di questa sera vi abbraccio forte e ci sentiamo presto ciao ascoltatore meraviglioso quanto amiamo i nostri ascoltatori ciao questa l'ho portata proprio per voi",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Let's Go Away",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "DJ Francesco"
   },
   {
     "id": "2017-10-06-076",
@@ -885,9 +902,12 @@
     "end": 2554.57,
     "speaker_raw": "SPEAKER_16",
     "testo": "Abbiamo pochissimi minuti, ma ci tengo a chiamare un altro ascoltatore, si chiama Matteo, anche lui ha il primo appuntamento questa sera, ma non lui, è il primo appuntamento della figlia, cioè questa sera la figlia esce per la prima volta con un coetaneo e in stampatello maiuscolo ha scritto non sono pronto, pronto! Fabio, buongiorno!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "primo appuntamento figlia",
+    "tema": [
+      "genitori",
+      "appuntamento"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

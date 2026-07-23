@@ -104,9 +104,11 @@
     "end": 362.64,
     "speaker_raw": "SPEAKER_04",
     "testo": "Non lo so, c'è gente che fa così. Poi c'è un numero di una pagina, non mi ricordo se è la 96. C'è una pagina, lo diciamo sempre, che va aperta. Quella pagina lì mi sembra sia la 96, se lo cerchiamo. 96 è anche l'autobus che fa... Va bene, che la apri per capire se un libro è bello o brutto. C'è una pagina che bisogna leggere. L'altra cosa, invece, ne parlavo ieri sera a Torino. Quanta gente nel letto, quanti di voi, ha letto che hanno l'ansia di non aver chiuso bene la porta? Tipo mia sorella mi ha detto che a volte si alza anche due volte di fila. Non avendola già controllata, si rialza di nuovo. La Steffi, eccola là. Cioè il portone di casa. No, no, la porta, proprio la porta, quella che poi vai fuori, c'è l'ascensore, le scale, quel che l'è. E tu sei nel letto e dici, no? L'avrò chiusa forse. Io quando sono lì dico, l'avrò chiusa, e dico, vabbè, ma chi viene di nord? Chi deve entrare? Però siccome la camera dei bambini, diciamo, dall'ingresso è più vicina, io dico, se entra qualcuno, non posso sacrificare i bambini. Allora ho proposto a Ioana di cambiare camera. Ho detto, sacrifichiamoci noi, facciamo noi la prima linea. Però uno va e continua a fare tititico la porta, e poi gli dai un'altra mandata. Perché abbiamo iniziato così? È sempre un programma confuso. Perché c'è un po' di pulizia in questo programma? Se pare buono non c'è.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Pagina 96 per capire un libro",
+    "tema": [
+      "lettura"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -709,10 +711,14 @@
     "end": 1319.44,
     "speaker_raw": "SPEAKER_11",
     "testo": "Facciamo una confusione della Madonna. What it is ain't exactly clear There's a man with a gun over there Telling me I've got to beware I think it's time we stop Children, what's that sound? Everybody look what's going on Grazie a tutti. What a field day for the heat A thousand people in the street Singing songs and carrying signs Mostly say hooray for our side It's time we stop, hey, what's that sound? Everybody look what's going down Volo, Maurizio, Viola. Sì, sì, sì, sì.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "What's Going On",
+    "tema": [
+      "pace",
+      "società"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Marvin Gaye"
   },
   {
     "id": "2017-11-15-065",
@@ -1281,10 +1287,13 @@
     "end": 1846.9,
     "speaker_raw": "SPEAKER_04",
     "testo": "Vieni a trovarmi quando vengo a presentare il libro? Il 5 dicembre sono lì, il 5 dicembre.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "il libro di Fabio Volo",
+    "tema": [
+      "libro"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Fabio Volo"
   },
   {
     "id": "2017-11-15-117",
@@ -1446,9 +1455,12 @@
     "end": 2102.68,
     "speaker_raw": "SPEAKER_05",
     "testo": "È in gruppo che è individuale. Ma è come noi rispondiamo agli eventi della vita che è importante. Non è importante chi c'è intorno, come si comportano le persone che sono intorno. È importante come noi rispondiamo a quello che accade. Quindi lo stesso evento, il ladro che entra in casa a me... Magari lo guardo negli occhi e dico tesoro, ma prova a trovarti un lavoro normale.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "reazione vs azione",
+    "tema": [
+      "risposta",
+      "destino"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -1578,10 +1590,14 @@
     "end": 2428.14,
     "speaker_raw": "SPEAKER_04",
     "testo": "Allora, abbiamo scoperto che secondo questa tecnica, questa teoria, questi studi di Bert Hellinger, che si scrive con l'H davanti, H-E-L-L-Inger, Hellinger, ok? E come ci ha detto la nostra ascoltatrice, c'è la classifica del volemose bene, diciamo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "ordine dell'amore",
+    "tema": [
+      "relazioni",
+      "amore"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Bert Hellinger"
   },
   {
     "id": "2017-11-15-144",

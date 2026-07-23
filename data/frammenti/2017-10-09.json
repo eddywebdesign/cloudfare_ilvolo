@@ -16,10 +16,13 @@
     "end": 7.43,
     "speaker_raw": "SCONOSCIUTO",
     "testo": "Scusate, è già un bellissimo lunedì. Questo è Bruce Blasting con I'm On Fire.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "I'm On Fire",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Bruce Springsteen"
   },
   {
     "id": "2017-10-09-002",
@@ -27,9 +30,11 @@
     "end": 11.73,
     "speaker_raw": "SPEAKER_14",
     "testo": "Hey little girl, is your daddy home? Did he go away?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Hey Little Girl",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -731,10 +736,13 @@
     "end": 2606.39,
     "speaker_raw": "SPEAKER_07",
     "testo": "Chiaramente per il compleanno di Jollet e il compleanno anche di Sean Lennon.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "compleanno Sean Lennon",
+    "tema": [
+      "famiglia"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Sean Lennon"
   },
   {
     "id": "2017-10-09-067",

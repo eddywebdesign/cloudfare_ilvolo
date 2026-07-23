@@ -764,9 +764,12 @@
     "end": 1881.15,
     "speaker_raw": "SPEAKER_04",
     "testo": "A fare una cosa alla grande. Una volta ho parlato con Renzo Piano e quando fecero il museo lì nel mezzo, che sembrava un'astronave, una fabbrica in mezzo al centro, uno dei posti più belli del mare, hanno detto che l'hanno boicottato per anni. Li volevano linciare e non li volevano più far lavorare e adesso anche quello è una delle mete più importanti di quando uno va a Parigi.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "boicottaggio diventa meta turistica",
+    "tema": [
+      "perseveranza",
+      "creativita"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -808,9 +811,11 @@
     "end": 2006.78,
     "speaker_raw": "SPEAKER_04",
     "testo": "Guarda che hai fatto un bel discorso, era grande. Adesso chiedo nove ore di diretta, voglio fare un programma enorme. Va bene, ciao, grazie. Ciao, ciao, ciao. Sentite che bella canzone che vi ho scelto questa mattina. Ascoltate bene le parole.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "discorso grande",
+    "tema": [
+      "ambizione"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
@@ -951,10 +956,13 @@
     "end": 2637.73,
     "speaker_raw": "SPEAKER_10",
     "testo": "I'm in heaven I'm in heaven And my heart beats so that I can hardly speak And I seem to find the happiness I seek When we're out together dancing cheek to cheek Heaven, I'm in heaven And the cares that hung around me through the week Seem to vanish like a gambler's lucky string When we're out together dancing cheek to cheek Oh, I love to climb a mountain And to reach the highest peak But it doesn't thrill me half as much As dancing cheek to cheek Oh, I love to go out fishing In a river or a creek But I don't enjoy it half as much As dancing cheek to cheek Dance with me I want my arm about you The charm about you Will carry me through I'm in heaven, I'm in heaven And my heart beats so bad I can hardly speak And I seem to find the happiness I seek When we're out together dancing cheek to cheek Come on and dance with me I want my arm about you The charm about you Will carry me through to heaven I'm in heaven And my heart beats so that I can hum E siamo a Natale.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Heaven I'm in Heaven",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Gershwin"
   },
   {
     "id": "2017-11-14-087",

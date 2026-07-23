@@ -203,9 +203,12 @@
     "end": 931.55,
     "speaker_raw": "SPEAKER_04",
     "testo": "Allora, quando vai a New York, per dire America, ti senti uno che fa parte del mondo. Del mondo? Torni qui e dici, ma chi è che è lì? Ciao, giuro.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "sensazione di appartenenza",
+    "tema": [
+      "mondo",
+      "identità"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -225,10 +228,13 @@
     "end": 962.5,
     "speaker_raw": "SPEAKER_04",
     "testo": "Tipo Frank Sinatra l'hai mai incontrato? No, lì è l'unico che mi ha sfuggito. Però il primo che mi hanno fatto conoscere era Perry Como. Oh, il grandissimo Perry Como! Allora tutti, uaglio, kumba. Ah, perché loro parlavano americano e meridionale. I call you domani.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Perry Como incontro",
+    "tema": [
+      "incontro"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Perry Como"
   },
   {
     "id": "2017-11-03-021",
@@ -313,10 +319,13 @@
     "end": 1134.02,
     "speaker_raw": "SPEAKER_04",
     "testo": "no Elvis no però anche lui cantava le canzoni che ho lanciato io la prima come prima esatto è stata la prima che è andata nel mondo e di fatto avevo preso allora il primo disco d'oro un milione di copie adesso il platino sono 25 milioni sì ma era anche finto il disco io credevo che è d'oro pensavi che sono andato a casa con un disco d'oro ma neanche il rame il rame è fatto color oro poi abbiamo l'aneddoti di Marilyn Monroe ma lo aspetta",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "I can't walk out because I love you too much",
+    "tema": [
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Elvis Presley"
   },
   {
     "id": "2017-11-03-029",
@@ -390,9 +399,12 @@
     "end": 1531.27,
     "speaker_raw": "SPEAKER_06",
     "testo": "Ho appena detto a Tony Dallara, Tony, passiamo l'inverno insieme. Sì. Almeno una volta a settimana. Perché tu sei anche un artista, tu fai quadri. Eh sì. Un ascoltatore dice, io ho un quadro di Tony Dallara. Portami. Faccia, abbiamo tutto. Bravo, ha fatto bene. Senti. DJ, avanti veloce.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Tony Dallara ospite radio",
+    "tema": [
+      "arte",
+      "popolarità"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -632,10 +644,13 @@
     "end": 2706.33,
     "speaker_raw": "SPEAKER_06",
     "testo": "Anche una grande selezione musicale questa mattina, questa è una canzone di Louise Armstrong, rifatta dai fan Loving Criminal, molto bella, We have all the time in the world, non abbiamo invece tutto il tempo nel mondo in questo programma, ma abbiamo già deciso che torni, l'abbiamo già detto, perché poi tu hai conosciuto anche gli italiani, Totò, Peppino, Peppino, tutta una roba del genere. Tutti più grandi. tutti gli attori ma ci arriviamo anche lì stiamo qua due o tre anni la cosa che voglio dire agli ascoltatori che tu oltre ad aver fatto questi successi planetari quindi viaggiavi anche negli anni belli l'abbiamo detto prima tu però sei un pittore quindi tu hai frequentato tutti i pittori e gli artisti da Andy Warhol a Fontana",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "We have all the time in the world",
+    "tema": [
+      "tempo"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Loving Criminal"
   },
   {
     "id": "2017-11-03-058",

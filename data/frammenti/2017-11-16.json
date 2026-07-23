@@ -159,10 +159,13 @@
     "end": 1084.32,
     "speaker_raw": "SPEAKER_08",
     "testo": "Comunque Gomito, c'ha una voce che mi... Elbow. Elbow, si chiama Elbow lui. Gombetto, se passate da Brescia, è il gombetto. Ah, il gombetto. È il gombetto, il gombetto. Allora, ragazzi, scusate, abbiamo due ascoltatori. Una che, diciamo, sta un po' soffrendo, uno. E una, invece, che pare che ne sia uscita. Lei è di Livorno e si chiama Linda, come la canzone meravigliosa di... Mai. Lucio Battisti. Sì. Ok, buongiorno Linda, sento dei rumori sotto, dove sei? Ciao.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Linda di Lucio Battisti",
+    "tema": [
+      "canzone"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "Lucio Battisti"
   },
   {
     "id": "2017-11-16-015",
@@ -401,9 +404,11 @@
     "end": 1289.11,
     "speaker_raw": "SPEAKER_08",
     "testo": "No, no, però vedo che vivo da sola, sto con te. Ecco, comincia a cercare i gatti in zona, gatti abbandonati a portare le scatolette. Dai, non mi piacciono i bambini, non mi piacciono. Ciao Linda! ciao ciao ciao abbiamo un ascoltatore che dice ieri ho beccato la mia ex con il suo nuovo fidanzato è stata una botta allora io per aiutarti ti do questa canzone e questa canzone ci rimette a bomba tutti stiamo male come dei cani porto io ti hanno abbandonato gattino poi ci vuoi peggio di me no ma è il salmone o il pollo e ogni volta che viene giorno",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "ex con nuovo fidanzato",
+    "tema": [
+      "relazione"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {

@@ -159,10 +159,13 @@
     "end": 571.38,
     "speaker_raw": "SPEAKER_06",
     "testo": "però senti qua cosa ti ho messo ciao Ernesto in bocca al lupo ciao Greti ciao ciao this is the top, La Grange people stop and stare",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "La Grange",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "ZZ Top"
   },
   {
     "id": "2017-10-25-015",
@@ -731,10 +734,14 @@
     "end": 2265.96,
     "speaker_raw": "SPEAKER_07",
     "testo": "In maniera lucida, senza fare ipnosi. Esatto, in maniera lucida, nel senso che i bambini da 4-6 anni, questo ti dico, c'è stato tra l'altro uno studio protratto per ben 30 anni da un mio carissimo collega importantissimo che è Jan Stevenson, quindi uno psichiatra canadese di origine svedese, il quale ha fatto appunto queste sperimentazioni, addirittura con i segni di nascita. Cosa sono i segni di nascita? Ci sono dei bambini che, ancora adesso, ci sono dei bambini che nascono con dei segni sul corpo, come se fossero delle cicatrici, però se noi chiediamo ai medici che li hanno aiutati a venire al mondo, alla mamma, loro ci dicono che non ha avuto nessun incidente, nessuna operazione chirurgica, niente di oggettivo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "studi di Stevenson",
+    "tema": [
+      "ricordi",
+      "vite precedenti"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Jan Stevenson"
   },
   {
     "id": "2017-10-25-067",

@@ -60,9 +60,11 @@
     "end": 270.48,
     "speaker_raw": "SPEAKER_04",
     "testo": "per tutti quelli che stanno cercando il parcheggio Laila che da noi a Milano sarebbe Ilaria Laila questo è napoletano è un mix di dialetti volevo parlare a tutti gli ascoltatori che pur diciamo amando o stando non è bello il gerundio non è bello il gerundio io quando scrivo i libri cerco di evitarlo sempre perché il gerundio appesantisce il periodare",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "gerundio appesantisce frase",
+    "tema": [
+      "scrittura"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -104,9 +106,11 @@
     "end": 531.72,
     "speaker_raw": "SPEAKER_04",
     "testo": "Dice un nostro ascoltatore o ascoltatrice, e ragazzi dai, firmatevi così dico il nome, vi piace un sacco, poi andate sul reload, chiamate gli amici, dice un quarto saluto a me, ok? Dice, il mio inquilino fa così, a volte di notte mi sveglio e vado in giro a spegnere le luci in casa. Potrei morire dal nervoso per una roba del genere, di notte. I lunghi silenzi del marito, è abbastanza un classico i lunghi silenzi del marito, ma vorrei anche difendere la categoria maschio. Sapete perché noi facciamo dei lunghi silenzi? Perché? Perché allora c'è una frase che chiarisce molto no? Quando una donna ha ragione ha ragione quando un uomo ha ragione è single. Sì sì. Perché è inutile c'è l'uomo a un certo punto dopo un po' di anni dice perché mi devo infilare in quella discussione dove tanto non la sentirai mai una donna che ti dice scusa. Scusami, hai ragione tu, ho sbagliato.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "inquilino spegne luci notte",
+    "tema": [
+      "relazioni"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -533,10 +537,14 @@
     "end": 2315.03,
     "speaker_raw": "SPEAKER_09",
     "testo": "Butterò questo enorme cuore tra le stelle un giorno Butterò questo mio enorme cuore tra le stelle un giorno Giuro che lo farò E oltre l'azzurro della tenda nell'azzurro io volerò Quando la donna cannone d'oro e d'argento diventerà senza passare per la stazione l'ultimo treno prenderà. In faccia ai maligni, ai superbi, il mio nome scintillerà, dalle porte della notte il giorno si bloccherà, un applauso del pubblico pagante lo sottolineerà e dalla bocca del cannone una canzone suonerà.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "Butterò questo enorme cuore tra le stelle un giorno",
+    "tema": [
+      "amore",
+      "volare"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": "",
+    "autore": "Paolo Sorrentino"
   },
   {
     "id": "2017-10-18-049",

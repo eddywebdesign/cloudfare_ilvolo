@@ -27,10 +27,13 @@
     "end": 202.8,
     "speaker_raw": "SPEAKER_06",
     "testo": "Era il 1982 quando i Clash uscirono con questo disco strepitoso Ma cos'è?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
+    "titolo": "disco del 1982 dei Clash",
+    "tema": [
+      "musica"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": "",
+    "autore": "The Clash"
   },
   {
     "id": "2017-10-12-003",
@@ -588,9 +591,12 @@
     "end": 1687.7,
     "speaker_raw": "SPEAKER_00",
     "testo": "Un numero bello che raccontiamo sempre ai nostri donatori, ai nostri sostenitori è che ogni tre minuti salviamo la vita di un bambino, quindi è qualcosa di importante. È una cifra che...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "salviamo vita bambini",
+    "tema": [
+      "bambini",
+      "aiuto"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {

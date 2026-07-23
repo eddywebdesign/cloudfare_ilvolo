@@ -60,9 +60,12 @@
     "end": 365.01,
     "speaker_raw": "SPEAKER_09",
     "testo": "Non è mattina per me È una brioche senza cappuccino Perdere il volo del mattino Ora su radio DJ Fabio ci fai o ci sei Thank you",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Brioche senza cappuccino",
+    "tema": [
+      "mattina",
+      "abitudini"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -71,9 +74,12 @@
     "end": 409.0,
     "speaker_raw": "SPEAKER_05",
     "testo": "Arrivano messaggi di ascoltatori che hanno, come dire, avuto problemi d'amore nel weekend. Sapete che il weekend è come le vacanze, no? Cioè, sono i momenti più pericolosi per una coppia, perché saltano le routine e soprattutto ci si sta insieme più tempo. È vero. Noi siamo sposati da 35 anni. Lui è sempre in giro per lavoro. Si vedono di tanto, si incontrano di tanto per casa. Funziona. Allora, qualcuno... usa diciamo il DJ della radio un po' anche appunto come come dire butto le mie cose lì come quelli che insultano o come quelli che chiedono consigli sulle",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Routine e amore",
+    "tema": [
+      "relazione",
+      "routine"
+    ],
+    "tipo": "riflessione",
     "video_url": ""
   },
   {
@@ -203,9 +209,12 @@
     "end": 974.76,
     "speaker_raw": "SPEAKER_05",
     "testo": "Brava ragazzi, allora c'è Biancaneve, i sette nani, lei lì nel letto, arriva il primo nano e dice c'è una donna nel letto e gli altri dicono c'è una donna nel letto, c'è una donna nel letto, c'è una donna nel letto, sta dormendo, sta dormendo, sta dormendo, ma è nuda, è nuda, è nuda, è nuda, si è svegliata, si è svegliata, si è svegliata, si alza, anche il mio, anche il mio, anche il mio.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "sette nani e biancaneve",
+    "tema": [
+      "eroine",
+      "cartoni"
+    ],
+    "tipo": "aneddoto",
     "video_url": ""
   },
   {
@@ -742,9 +751,12 @@
     "end": 2418.89,
     "speaker_raw": "SPEAKER_04",
     "testo": "Per il bene della mia famiglia Allora non erano cattive decisioni Qual è il compito di un uomo, Walt? Provvedere al benessere della sua famiglia Ho perso la mia famiglia per questo Quando si hanno figli si ha sempre una famiglia, sono loro la priorità, la responsabilità. E un uomo deve assolverle. E lo fa anche se non si apprezza il suo gesto, anche se non viene rispettato e anche se non è amato. Semplicemente resiste e va avanti, è suo dovere. Perché è un uomo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
+    "titolo": "Walt's Responsibility",
+    "tema": [
+      "famiglia",
+      "responsabilità"
+    ],
+    "tipo": "citazione",
     "video_url": ""
   },
   {
