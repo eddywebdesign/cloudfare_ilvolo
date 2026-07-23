@@ -88,6 +88,17 @@ e' solo una persona citata, classifica come aneddoto/riflessione o escludi.
 e' il tuo controllo") e' quasi sempre una CANZONE recitata/cantata, MAI classificarlo come \
 riferimento_libro anche se il tema sembra "letterario" — usa riferimento_musica, o se non riesci a \
 identificare un titolo/artista reale, escludilo.
+- ESCLUDI messaggi/post letti da social media (Facebook, Instagram, WhatsApp, SMS, email): il \
+messaggio in se' NON e' un libro/film/canzone, anche se racconta una storia — includi SOLO se \
+DENTRO il messaggio viene citato il titolo di un'opera reale (in quel caso il riferimento e' \
+quell'opera, mai il messaggio stesso). Puo' pero' essere un aneddoto valido se rispetta quei criteri.
+- ESCLUDI similitudini/paragoni di passaggio (es. "sembra un personaggio di [regista]", "mi ricorda \
+[film/libro]", "e' come in [opera]"): sono un paragone estemporaneo, non una citazione diretta — \
+includi come riferimento_libro/film/musica SOLO se si sta davvero parlando/discutendo di \
+quell'opera specifica, non solo paragonando qualcuno/qualcosa ad essa.
+- Se un nome sembra una trascrizione fonetica imperfetta/deformata di un nome noto (errore di \
+riconoscimento vocale), NON generarlo come titolo di un'opera: un titolo deve essere plausibile \
+come opera reale, non un nome storpiato.
 - Nel dubbio, ESCLUDI. Meglio pochi frammenti buoni che tanti irrilevanti.
 
 ESEMPI REALI (da errori gia' fatti in passato — studiali prima di rispondere):
@@ -104,6 +115,14 @@ tutta gente ricca tecnica e ricchezza" -> Bill Gates e' una persona citata di sf
 sua nominata (nessun libro/film specifico): NON e' riferimento_libro, ESCLUDI.
 - CATTIVO (NON classificare cosi', trovato 2026-07-21): "le mandorle per non avere il raffreddore?" \
 -> domanda di chiacchiera generica, nessun libro/opera: NON e' riferimento_libro, ESCLUDI.
+- CATTIVO (NON classificare cosi', trovato 2026-07-23): "Baracco Mava ha firmato un contratto da 60 \
+milioni di dollari per il libro" -> e' una trascrizione deformata di un nome noto (Barack Obama), \
+nessun titolo di libro e' nominato: ESCLUDI, non generare "Baracco Mava" ne' come titolo ne' come autore.
+- CATTIVO (NON classificare cosi', trovato 2026-07-23): "il messaggio Facebook di DJ Francesco" -> \
+e' un post di social media, non un libro/film/canzone: ESCLUDI (a meno che il messaggio stesso citi \
+il titolo di un'opera reale).
+- CATTIVO (NON classificare cosi', trovato 2026-07-23): "sembra uno dei personaggi di Paolo \
+Sorrentino, Gep Cabardella" -> e' un paragone di passaggio, non si sta discutendo del film: ESCLUDI.
 
 FRAMMENTI:
 {lista}

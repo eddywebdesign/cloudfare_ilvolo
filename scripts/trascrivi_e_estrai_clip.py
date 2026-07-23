@@ -79,7 +79,9 @@ Regole:
 - "libro" include poesie, saggi, romanzi (autore = poeta/scrittore)
 - Se un titolo è sia poesia sia film (es. Invictus), crea DUE entry separate
 - anno: anno di uscita/pubblicazione (stringa vuota se sconosciuto)
-- autore: regista / scrittore / artista (vuoto se sconosciuto)
+- autore: OBBLIGATORIO — regista/scrittore/artista che ha creato l'opera. Se non riesci
+  a identificare un autore/regista/artista specifico e reale, NON includere il
+  riferimento (meglio ometterlo che lasciare "autore" vuoto)
 - note: max 12 parole su perché Fabio lo cita/legge/suona
 - Non includere riferimenti vaghi o non identificabili
 - "titolo" deve essere il titolo VERO e specifico di un'opera (film/libro/canzone) —
@@ -91,8 +93,31 @@ Regole:
   non sono libri
 - ESCLUDI marchi, prodotti, aziende, tecnologie (Volvo, Atari, Google, ecc.)
 - ESCLUDI luoghi geografici (piazze, città, monumenti)
+- ESCLUDI messaggi/post letti da social media (Facebook, Instagram, WhatsApp, SMS,
+  email): il messaggio in sé NON è un libro/film/canzone, anche se racconta una
+  storia — includi SOLO se DENTRO il messaggio viene citato il titolo di un'opera
+  reale (in quel caso il riferimento è quell'opera, mai il messaggio stesso)
+- ESCLUDI similitudini/paragoni di passaggio (es. "sembra un personaggio di [regista]",
+  "mi ricorda [film/libro]", "è come in [opera]"): sono un paragone estemporaneo, non
+  una citazione diretta — includi SOLO se si sta davvero parlando/discutendo di
+  quell'opera specifica, non solo paragonando qualcuno/qualcosa ad essa
+- Se un nome sembra una trascrizione fonetica imperfetta/deformata (es. errori di
+  riconoscimento vocale su un nome noto), NON generarlo come titolo di un'opera:
+  un titolo deve essere plausibile come opera reale, non un nome storpiato
 - Nel dubbio se qualcosa è un'opera reale o solo un nome/argomento menzionato,
   ESCLUDI — meglio pochi riferimenti sicuri che tanti falsi positivi
+
+ESEMPI REALI (da errori già fatti in passato — studiali prima di rispondere):
+- CATTIVO (NON classificare così, trovato 2026-07-23): "Baracco Mava ha firmato un
+  contratto da 60 milioni di dollari per il libro" -> è una trascrizione deformata di
+  un nome noto (Barack Obama), nessun titolo di libro è nominato: ESCLUDI, non
+  generare "Baracco Mava" né come titolo né come autore.
+- CATTIVO (NON classificare così, trovato 2026-07-23): "il messaggio Facebook di DJ
+  Francesco" -> è un post di social media, non un libro/film/canzone: ESCLUDI (a
+  meno che il messaggio stesso citi il titolo di un'opera reale).
+- CATTIVO (NON classificare così, trovato 2026-07-23): "sembra uno dei personaggi di
+  Paolo Sorrentino, Gep Cabardella" -> è un paragone di passaggio, non si sta
+  discutendo del film: ESCLUDI.
 """
 
 
@@ -245,6 +270,26 @@ def _titolo_e_doppione(titolo: str, titoli_esistenti: list[str]) -> bool:
     return False
 
 
+VERBI_CONVERSAZIONE = {
+    "e", "sono", "ha", "hanno", "fa", "fanno", "dice", "dicono",
+    "vuole", "vogliono", "andiamo", "partite",
+}
+# Stessa lista/logica di trascrivi_locale_episodi.py::VERBI_CONVERSAZIONE (duplicata qui
+# per lo stesso motivo di TITOLO_SIMILARITY_SOGLIA sopra: evitare import circolare).
+
+
+def _titolo_e_frase_di_conversazione(titolo: str) -> bool:
+    """Stessa logica di trascrivi_locale_episodi.py::_titolo_e_frase_di_conversazione —
+    un titolo vero e' un nome/frase breve, non una domanda o una frase con verbi
+    coniugati: se lo sembra, e' quasi certamente chiacchiera trascritta, non un'opera."""
+    if "?" in titolo:
+        return True
+    parole = _normalizza_titolo(titolo).split()
+    if len(parole) > 10:
+        return True
+    return sum(1 for p in parole if p in VERBI_CONVERSAZIONE) >= 2
+
+
 def _titolo_e_ancorato_al_testo(titolo: str, autore: str, testo: str) -> bool:
     """Verifica che titolo o autore compaiano davvero nel testo di origine.
 
@@ -258,7 +303,17 @@ def _titolo_e_ancorato_al_testo(titolo: str, autore: str, testo: str) -> bool:
     con test reale che quel caso NON va scartato), il modello ha nominato SOLO una
     persona, non un'opera+creatore distinti (es. "Bill Gates"/"Bill Gates") -
     scartiamo anche se entrambi sono tecnicamente ancorati al testo, stesso bug
-    trovato in trascrivi_locale_episodi.py::_riferimento_valido lo stesso giorno."""
+    trovato in trascrivi_locale_episodi.py::_riferimento_valido lo stesso giorno.
+
+    Aggiunto 2026-07-23 (bug reale trovato: "Baracco Mava" - trascrizione deformata
+    di Barack Obama - salvato come "libro" con autore VUOTO, e un post Facebook
+    salvato come "libro" perche' titolo/autore comparivano nel testo circostante):
+    ora l'autore e' SEMPRE obbligatorio (mai un'opera senza creatore nominato, stesso
+    principio gia' validato in trascrivi_locale_episodi.py::_riferimento_valido) e un
+    titolo con la forma di una frase di conversazione (verbi coniugati, punto
+    interrogativo, troppo lungo) viene scartato anche se le sue parole compaiono
+    nel testo — l'ancoraggio da solo non basta a distinguere un titolo vero da
+    chiacchiera trascritta letteralmente."""
     t_norm = _normalizza_titolo(titolo)
     a_norm = _normalizza_titolo(autore)
     # Stesso placeholder trovato in trascrivi_locale_episodi.py::AUTORE_PLACEHOLDER_SOTTOSTRINGHE:
@@ -268,7 +323,11 @@ def _titolo_e_ancorato_al_testo(titolo: str, autore: str, testo: str) -> bool:
     if any(s in a_norm for s in ("unknown", "sconosciut", "ignot", "non specificat", "n a", "varie", "vario")):
         autore = ""
         a_norm = ""
+    if not a_norm:
+        return False
     if t_norm and a_norm and t_norm == a_norm:
+        return False
+    if _titolo_e_frase_di_conversazione(titolo):
         return False
     testo_norm = _normalizza_titolo(testo)
     for candidato in (titolo, autore):
