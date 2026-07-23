@@ -38,7 +38,10 @@ sys.path.insert(0, str(ROOT / "scripts"))
 from verifica_riferimenti_esterna import DATASET_CONFIG, _similarita, _similarita_autore  # noqa: E402
 from dati_root import logs_root  # noqa: E402
 
-AUTORI_NON_UMANI = {"dio", "dios", "god", "non specificato", "sconosciuto", "n a", "varie", "vario"}
+AUTORI_NON_UMANI = {
+    "dio", "dios", "god", "non specificato", "sconosciuto", "n a", "varie", "vario",
+    "autori vari", "aa vv", "aavv", "vari",  # trovato 2026-07-23: "Vangelo"/"Autori vari"
+}
 OPERE_TRADIZIONALI = {"bibbia", "la bibbia", "sacra bibbia", "corano", "il corano", "talmud", "torah"}
 
 SOGLIA_TITOLO_ALTA = 0.90   # categoria A: titolo praticamente identico
@@ -65,6 +68,13 @@ def categorizza(voce: dict) -> str:
     a_norm = autore.lower()
     if a_norm in AUTORI_NON_UMANI or t_norm in OPERE_TRADIZIONALI:
         return "D_opera_tradizionale_senza_autore_umano"
+
+    # Trovato 2026-07-23 (caso reale "Brad Pitt"/"Brad Pitt" come film): il modello
+    # ha nominato SOLO una persona, non un'opera+creatore distinti — gia' impedito
+    # dal confermarsi automaticamente (main() lo cappa sotto SOGLIA_ALTA), ma finiva
+    # mescolato in Z senza essere riconosciuto come il SUO proprio pattern.
+    if t_norm and a_norm and t_norm == a_norm:
+        return "F_persona_confusa_con_opera"
 
     sim_titolo = _similarita(titolo, titolo_trovato) if titolo_trovato else 0.0
     sim_autore = max((_similarita_autore(autore, a) for a in autori_trovati), default=0.0) if autore else 0.0
