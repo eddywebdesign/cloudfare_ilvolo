@@ -59,6 +59,18 @@ passaggio buttato li' in chiacchiera. Una battuta isolata ("mancano 339 giorni a
 - Per "riflessione": INCLUDI solo se esprime un INSEGNAMENTO ESPLICITO E AUTONOMO — una frase che ha senso \
 compiuto e resterebbe memorabile anche letta FUORI dal contesto della puntata. Un'osservazione generica \
 su lavoro/famiglia/tempo buttata li' senza svilupparla NON e' una riflessione, anche se il tema e' "giusto".
+- ATTENZIONE, errore concreto trovato 2026-07-23 (45% delle "riflessione" storiche finivano con un \
+punto interrogativo): una riflessione e' un'AFFERMAZIONE compiuta, MAI una domanda posta a qualcuno \
+in diretta (es. "conosci tu Maurizio la democrazia partecipativa?" e' l'INTRODUZIONE di un argomento, \
+non l'insegnamento stesso — NON e' una riflessione, ESCLUDI o aspetta che arrivi la risposta/conclusione \
+vera in un frammento successivo).
+- ATTENZIONE, altro errore concreto trovato 2026-07-23: una spiegazione/definizione generica di un \
+termine o argomento (es. "cos'e' un mezzadro", "qual e' la durata ottimale di un vinile", "come \
+dovrebbe essere la donna ideale") NON e' un aneddoto ne' una riflessione — non racconta un evento \
+ne' esprime un insegnamento, e' solo informazione/opinione generica: ESCLUDI.
+- ESCLUDI presentazioni/introduzioni/segmenti ricorrenti del programma stesso (sigla, benvenuto, \
+presentazione della squadra, "buongiorno a tutti benvenuti al Volo del Mattino") — sono il FORMATO \
+del programma, non un aneddoto vissuto da qualcuno.
 - Per entrambe: se il frammento e' sotto le ~25-30 parole E non contiene una frase autonoma e memorabile \
 (non solo un tema pertinente), ESCLUDI — la lunghezza da sola non basta, ma un frammento troppo corto \
 quasi mai contiene una svolta narrativa o un insegnamento completo.
@@ -139,6 +151,15 @@ Sorrentino, Gep Cabardella" -> e' un paragone di passaggio, non si sta discutend
 Dante" -> "Ulisse" e' un personaggio DENTRO l'Inferno di Dante, non un'opera separata scritta da \
 lui: classifica riferimento_libro SOLO su "Inferno"/"Divina Commedia" (autore Dante Alighieri), \
 MAI su "Ulisse" come titolo a se stante.
+- CATTIVO (NON classificare cosi', trovato 2026-07-23): "Mentre molti di noi sognano... conosci tu \
+Maurizio la democrazia partecipativa?" -> e' una domanda che introduce un argomento, non un \
+insegnamento compiuto: NON e' riflessione, ESCLUDI.
+- CATTIVO (NON classificare cosi', trovato 2026-07-23): "coincida col mezzadro cioe' con lui che \
+lavora sulla terra degli altri..." -> e' solo la spiegazione di cosa significa "mezzadro", nessun \
+evento vissuto: NON e' aneddoto, ESCLUDI.
+- CATTIVO (NON classificare cosi', trovato 2026-07-23): "Buongiorno a tutti, benvenuti al Volo del \
+Mattino, siamo sempre qui su Radio DJ..." -> e' la sigla/presentazione del programma stesso, non un \
+aneddoto vissuto da qualcuno: ESCLUDI.
 
 FRAMMENTI:
 {lista}
@@ -318,6 +339,7 @@ def classifica_frammenti(frammenti: list[dict]) -> None:
     tipi_fuori_schema = 0
     non_ancorati = 0
     troppo_corti = 0
+    riflessioni_domanda = 0
 
     for i in range(0, len(da_classificare), CLASSIFY_BATCH):
         provider = llm_multi.provider_disponibile()
@@ -378,6 +400,16 @@ def classifica_frammenti(frammenti: list[dict]) -> None:
             if tipo in NARR_TIPI and len(f["testo"].split()) < MIN_PAROLE_NARRATIVO:
                 troppo_corti += 1
                 continue
+            # Aggiunto 2026-07-23 (analisi reale: 45,1% delle "riflessione" storiche
+            # contenevano un punto interrogativo): una riflessione VERA e' un'affermazione/
+            # insegnamento compiuto, non una domanda posta a qualcuno in diretta — se il
+            # frammento finisce con "?" e' quasi sempre l'introduzione di un argomento
+            # ("conosci tu Maurizio la democrazia partecipativa?"), non l'insegnamento
+            # stesso. Non tocca "aneddoto"/"citazione": li' una domanda finale puo' far
+            # parte legittima del racconto.
+            if tipo == "riflessione" and f["testo"].rstrip().rstrip('"\'').endswith("?"):
+                riflessioni_domanda += 1
+                continue
             if _titolo_e_doppione(titolo, titoli_episodio):
                 doppioni_scartati += 1
                 continue
@@ -397,6 +429,8 @@ def classifica_frammenti(frammenti: list[dict]) -> None:
             dettagli.append(f"{non_ancorati} riferimenti non ancorati scartati finora")
         if troppo_corti:
             dettagli.append(f"{troppo_corti} aneddoto/riflessione troppo corti scartati finora")
+        if riflessioni_domanda:
+            dettagli.append(f"{riflessioni_domanda} riflessioni-domanda scartate finora")
         print(f"      classificazione batch {i // CLASSIFY_BATCH + 1}: {taggati} frammenti taggati"
               + (f" ({', '.join(dettagli)})" if dettagli else ""))
         # CLASSIFY_SLEEP serve solo a rispettare i TPM dei provider cloud — Ollama
