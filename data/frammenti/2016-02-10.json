@@ -295,7 +295,8 @@
     ],
     "tipo": "riferimento_film",
     "video_url": "",
-    "confermato_esterno": true
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/A0Uq6fZG9UVbaFZmwF593ESz8LE.jpg"
   },
   {
     "id": "2016-02-10-025",
@@ -845,7 +846,8 @@
     "tipo": "riferimento_musica",
     "video_url": "",
     "autore": "Sam Hunt",
-    "confermato_esterno": true
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/2f92719c-39a2-47aa-b4be-ffa4312e286e/front-250"
   },
   {
     "id": "2016-02-10-068",

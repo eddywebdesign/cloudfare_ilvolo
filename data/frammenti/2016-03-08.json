@@ -184,7 +184,8 @@
     ],
     "tipo": "riferimento_film",
     "video_url": "",
-    "confermato_esterno": true
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/crSb9SDQv7V3kkDg2IBw0L6pncJ.jpg"
   },
   {
     "id": "2016-03-08-016",
@@ -698,7 +699,8 @@
     "tipo": "riferimento_libro",
     "video_url": "",
     "autore": "Fabio Volo",
-    "confermato_esterno": true
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/10800166-M.jpg"
   },
   {
     "id": "2016-03-08-057",

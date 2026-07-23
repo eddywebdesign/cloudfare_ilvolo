@@ -367,7 +367,8 @@
     "tipo": "riferimento_libro",
     "video_url": "",
     "autore": "Goethe",
-    "confermato_esterno": true
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/6619866-M.jpg"
   },
   {
     "id": "2016-03-01-028",
@@ -823,7 +824,8 @@
     ],
     "tipo": "riferimento_film",
     "video_url": "",
-    "confermato_esterno": true
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/eaGy8h9Vt1da2QjJPIYeNawhgsD.jpg"
   },
   {
     "id": "2016-03-01-064",

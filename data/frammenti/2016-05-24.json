@@ -141,7 +141,8 @@
     ],
     "tipo": "riferimento_film",
     "video_url": "",
-    "confermato_esterno": true
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/1j9LhWwdxlDRFzppMgMGJb1k0aa.jpg"
   },
   {
     "id": "2016-05-24-011",
@@ -1178,6 +1179,7 @@
     ],
     "tipo": "riferimento_film",
     "video_url": "",
-    "confermato_esterno": true
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/w5GWaQ9t2bJElJxZCjoDjH6WeR3.jpg"
   }
 ]

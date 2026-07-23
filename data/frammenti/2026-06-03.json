@@ -353,7 +353,8 @@
     ],
     "tipo": "riferimento_film",
     "video_url": "",
-    "confermato_esterno": true
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/lP5RCnonnc7jq7bq6NHRSfBgSvB.jpg"
   },
   {
     "id": "2026-06-03-027",
@@ -992,7 +993,8 @@
     ],
     "tipo": "riferimento_film",
     "video_url": "",
-    "confermato_esterno": true
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/rtNLQ8HbPElzEfrHjrzSr07prKT.jpg"
   },
   {
     "id": "2026-06-03-076",

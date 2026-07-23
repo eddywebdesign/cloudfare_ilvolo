@@ -90,7 +90,8 @@
     "tipo": "riferimento_musica",
     "video_url": "",
     "autore": "Chris Rea",
-    "confermato_esterno": true
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/06dbaea3-68dd-47f4-ab15-be9dd37aafbc/front-250"
   },
   {
     "id": "2017-02-06-008",
@@ -249,7 +250,8 @@
     "tipo": "riferimento_film",
     "video_url": "",
     "autore": "Damien Chazelle",
-    "confermato_esterno": true
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/cWYy1YTVaZRAuxLtX1tYNvtzAt1.jpg"
   },
   {
     "id": "2017-02-06-022",
@@ -319,7 +321,8 @@
     "tipo": "riferimento_musica",
     "video_url": "",
     "autore": "Bruno Mars",
-    "confermato_esterno": true
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/6ffa2264-2730-4e01-994b-2860319cef62/front-250"
   },
   {
     "id": "2017-02-06-028",
@@ -522,7 +525,8 @@
     "tipo": "riferimento_libro",
     "video_url": "",
     "autore": "Paolo Cognetti",
-    "confermato_esterno": true
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/15128804-M.jpg"
   },
   {
     "id": "2017-02-06-046",

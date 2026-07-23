@@ -208,7 +208,8 @@
     "tipo": "riferimento_libro",
     "video_url": "",
     "autore": "William Makepeace Thackeray",
-    "confermato_esterno": true
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/417329-M.jpg"
   },
   {
     "id": "2016-11-22-017",
@@ -561,7 +562,8 @@
     "tema": [],
     "tipo": "riferimento_film",
     "video_url": "",
-    "confermato_esterno": true
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/mVdQatilUGMtB6sV4FXA7O473UD.jpg"
   },
   {
     "id": "2016-11-22-047",

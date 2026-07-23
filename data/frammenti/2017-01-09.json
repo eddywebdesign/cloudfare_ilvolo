@@ -566,7 +566,8 @@
     ],
     "tipo": "riferimento_film",
     "video_url": "",
-    "confermato_esterno": true
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/kUbM6rcIP3E6kx7oMS6PirpvOH8.jpg"
   },
   {
     "id": "2017-01-09-046",
@@ -833,7 +834,8 @@
     ],
     "tipo": "riferimento_film",
     "video_url": "",
-    "confermato_esterno": true
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/7BTgaIFEodYnOjPk8QZGiJEcugJ.jpg"
   },
   {
     "id": "2017-01-09-065",

@@ -190,7 +190,8 @@
     ],
     "tipo": "riferimento_film",
     "video_url": "",
-    "confermato_esterno": true
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/4jpkjeGbZYcuE07cQqpjTSxjZFL.jpg"
   },
   {
     "id": "2017-01-10-015",
@@ -648,7 +649,8 @@
     ],
     "tipo": "riferimento_film",
     "video_url": "",
-    "confermato_esterno": true
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/i87I2HPumcMkX5Vl48n2XkS5Os7.jpg"
   },
   {
     "id": "2017-01-10-050",

@@ -597,7 +597,8 @@
     "tipo": "riferimento_libro",
     "video_url": "",
     "autore": "F. Kafka",
-    "confermato_esterno": true
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/12998012-M.jpg"
   },
   {
     "id": "2016-05-09-051",

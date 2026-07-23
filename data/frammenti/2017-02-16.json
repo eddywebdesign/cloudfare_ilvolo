@@ -145,7 +145,8 @@
     "tipo": "riferimento_film",
     "video_url": "",
     "autore": "Matt Ross",
-    "confermato_esterno": true
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/23sOxnbvzyuQCX7eyJMQz1OWAGh.jpg"
   },
   {
     "id": "2017-02-16-012",
@@ -1007,7 +1008,8 @@
     "tipo": "riferimento_film",
     "video_url": "",
     "autore": "Massimiliano Bruno",
-    "confermato_esterno": true
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/2Jgy8eXQOPhi2Mhah0up56izZLa.jpg"
   },
   {
     "id": "2017-02-16-090",

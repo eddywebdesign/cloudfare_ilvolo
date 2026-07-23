@@ -34,7 +34,8 @@
     "tipo": "riferimento_musica",
     "video_url": "",
     "autore": "The Killers",
-    "confermato_esterno": true
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/4469c136-6dea-4384-96a2-e99ac6185703/front-250"
   },
   {
     "id": "2017-11-29-003",
@@ -108,7 +109,8 @@
     "tipo": "riferimento_film",
     "video_url": "",
     "autore": "Francis Ford Coppola",
-    "confermato_esterno": true
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/eFnwzNCqNNRdIjDC034MERLp9qu.jpg"
   },
   {
     "id": "2017-11-29-009",
@@ -1479,7 +1481,8 @@
     "tipo": "riferimento_libro",
     "video_url": "",
     "autore": "Jack Ma",
-    "confermato_esterno": true
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/9242590-M.jpg"
   },
   {
     "id": "2017-11-29-132",

@@ -285,7 +285,8 @@
     "tema": [],
     "tipo": "riferimento_film",
     "video_url": "",
-    "confermato_esterno": true
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/2tToC7gAF5auaPm47w48pMNF9LS.jpg"
   },
   {
     "id": "2016-03-09-024",
@@ -578,7 +579,8 @@
     ],
     "tipo": "riferimento_film",
     "video_url": "",
-    "confermato_esterno": true
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/fWbCM5Ka8nre7hALmXFANXvzBHf.jpg"
   },
   {
     "id": "2016-03-09-047",
