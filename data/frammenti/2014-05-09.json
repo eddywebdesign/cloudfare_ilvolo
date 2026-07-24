@@ -4,7 +4,7 @@
     "start": 92.19,
     "end": 92.28,
     "speaker_raw": "SCONOSCIUTO",
-    "testo": "Ciao!",
+    "testo": "Ciao.",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -13,69 +13,19 @@
   {
     "id": "2014-05-09-001",
     "start": 155.79,
-    "end": 198.74,
-    "speaker_raw": "SPEAKER_14",
-    "testo": "A volte Maurizio quando sta per iniziare il volo del mattino ti guardo in faccia e penso chissà com'è essere il tecnico del programma di punta di Radio DJ. La senti questa responsabilità? Ciao carini, dice un ascoltatore, oggi è la mia ultima puntata del volo del mattino perché da domani parto per Cuba. hai capito? cioè noi qua noi partiamo per Torino al massimo e loro vanno a Cuba gli altri vanno in Messico adesso vediamo Torino se vengono allora adesso Maurizio prendi la stampa prendi il giornale della stampa ciao Nicola Savino ciao Fabio Volo come stai?",
-    "titolo": "ascoltatore parte per Cuba",
-    "tema": [
-      "viaggio"
-    ],
-    "tipo": "aneddoto",
+    "end": 250.94,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "A volte Maurizio quando sta per iniziare il volo del mattino ti guardo in faccia e penso chissà com'è essere il tecnico del programma di punta di Radio DJ. La senti questa responsabilità? Ciao carini, dice un ascoltatore, oggi è la mia ultima puntata del volo del mattino perché da domani parto per Cuba. hai capito? cioè noi qua noi partiamo per Torino al massimo e loro vanno a Cuba gli altri vanno in Messico adesso vediamo Torino se vengono allora adesso Maurizio prendi la stampa prendi il giornale della stampa ciao Nicola Savino ciao Fabio Volo come stai? bene bene l'altro giorno ci siamo salutati da un balcone a un balcone ah che bel momento è romantico come mai con la giacca di pelle vieni in moto? sì sì vengo in moto davvero? hai lo scooter? beh sì sì da sempre ma ti facevo che venivi a piedi ma hai detto no ho fatto anche che venivo a piedi è un po' che non vengo a piedi sai perché vengo in moto? perché così mi posso mettere i mocassini ah perché a piedi ti fa male il piede a piedi ti fa male il piede ma non c'è il fantasmino dentro quello no no non c'è il fantasmino no no le calze perché ho 47 anni no li porti benissimo ti ringrazio come direbbero a Brescia si vede che non hai mai lavorato questo Senti, abbiamo degli ascoltatori che vanno a Cuba, scusa me lo faccio fare a Nicola, Nicola mi apri la stampa, ecco lì, Salone del Libro, ecco lì quella pagina lì, al Salone del Libro di Torino. Ah, Salone del Libro di Torino? Mi puoi leggere sotto la luce?",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
     "id": "2014-05-09-002",
-    "start": 198.85,
-    "end": 207.22,
-    "speaker_raw": "SPEAKER_15",
-    "testo": "bene bene l'altro giorno ci siamo salutati da un balcone a un balcone ah che bel momento è romantico è romantico come mai con la giacca di pelle vieni in moto? si si vengo in moto",
-    "titolo": "Saluto da balcone",
-    "tema": [
-      "amore",
-      "relazione"
-    ],
-    "tipo": "aneddoto",
-    "video_url": ""
-  },
-  {
-    "id": "2014-05-09-003",
-    "start": 207.74,
-    "end": 209.2,
-    "speaker_raw": "SPEAKER_14",
-    "testo": "davvero? hai lo scooter?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2014-05-09-004",
-    "start": 209.22,
-    "end": 232.9,
-    "speaker_raw": "SPEAKER_15",
-    "testo": "beh sì sì da sempre ma ti facevo che venivi a piedi ma hai detto no ho fatto anche che venivo a piedi è un po' che non vengo a piedi sai perché vengo in moto? perché così mi posso mettere i mocassini ah perché a piedi ti fa male il piede a piedi ti fa male il piede ma non c'è il fantasmino dentro quello no no non c'è il fantasmino no no le calze perché ho 47 anni no li porti benissimo ti ringrazio come direbbero a Brescia si vede che non hai mai lavorato questo",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2014-05-09-005",
-    "start": 235.05,
-    "end": 250.94,
-    "speaker_raw": "SPEAKER_14",
-    "testo": "Senti, abbiamo degli ascoltatori che vanno a Cuba, scusa me lo faccio fare a Nicola, Nicola mi apri la stampa, ecco lì, Salone del Libro, ecco lì quella pagina lì, al Salone del Libro di Torino. Ah, Salone del Libro di Torino? Mi puoi leggere sotto la luce?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": "",
-    "autore": ""
-  },
-  {
-    "id": "2014-05-09-006",
     "start": 251.0,
     "end": 260.68,
-    "speaker_raw": "SPEAKER_15",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Aspetta, Fabio Volo, la strada verso casa, auditorium, ore 13.30, supporto musicale.",
     "titolo": "Strada verso casa",
     "tema": [
@@ -86,10 +36,10 @@
     "video_url": ""
   },
   {
-    "id": "2014-05-09-007",
+    "id": "2014-05-09-003",
     "start": 263.62,
     "end": 280.26,
-    "speaker_raw": "SPEAKER_14",
+    "speaker_raw": "SPEAKER_05",
     "testo": "il maestro Maurizio Rossato che oggi mi dice dopo che l'ho fatto mettere sul giornale forse oggi ho deciso che non vengo più non si può più guarda l'evento dopo cosa c'entra Maurizio l'evento dopo?",
     "titolo": "Maurizio Rossato e l'evento dopo",
     "tema": [
@@ -100,10 +50,10 @@
     "video_url": ""
   },
   {
-    "id": "2014-05-09-008",
+    "id": "2014-05-09-004",
     "start": 280.28,
     "end": 281.1,
-    "speaker_raw": "SPEAKER_12",
+    "speaker_raw": "SPEAKER_04",
     "testo": "quello segnato ah",
     "titolo": "",
     "tema": [],
@@ -111,36 +61,11 @@
     "video_url": ""
   },
   {
-    "id": "2014-05-09-009",
+    "id": "2014-05-09-005",
     "start": 281.91,
-    "end": 283.89,
-    "speaker_raw": "SPEAKER_14",
-    "testo": "Devi andare alla finestra per la luce.",
-    "titolo": "Luce e oscurità",
-    "tema": [
-      "luce",
-      "oscurità"
-    ],
-    "tipo": "riflessione",
-    "video_url": ""
-  },
-  {
-    "id": "2014-05-09-010",
-    "start": 283.93,
-    "end": 286.06,
-    "speaker_raw": "SPEAKER_15",
-    "testo": "Renato Brunetta, la mia utopia.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2014-05-09-011",
-    "start": 286.24,
     "end": 322.4,
-    "speaker_raw": "SPEAKER_14",
-    "testo": "Scusami, Maurizio non vuole più venire perché nella sala a fianco c'è Brunetta. Ma perché vuole andare a fare la musica a Brunetta? Perché Brunetta insieme a Cazzullo, insomma tutta gente che noi conosciamo, ha chiesto a Maurizio vieni a metterci la bagno. Sai che Brunetta a differenza... A differenza mia che entro sul palco da star perché sono un megalomane, lui sta sulla porta. Ah sì? Brunetta, man mano entrano, lui li ferma tutti e gli dice benvenuto, perché lui poi è un politico e bravo, e fa questa domanda a tutti. Quanto guadagni? Quanto guadagni? Quanto guadagni? In base a quanto guadagni ti do il posto a sedere. Quanto guadagni? Va bene, cosa fai?",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Devi andare alla finestra per la luce. Renato Brunetta, la mia utopia. Scusami, Maurizio non vuole più venire perché nella sala a fianco c'è Brunetta. Ma perché vuole andare a fare la musica a Brunetta? Perché Brunetta insieme a Cazzullo, insomma tutta gente che noi conosciamo, ha chiesto a Maurizio vieni a metterci la bagno. Sai che Brunetta a differenza... A differenza mia che entro sul palco da star perché sono un megalomane, lui sta sulla porta. Ah sì? Brunetta, man mano entrano, lui li ferma tutti e gli dice benvenuto, perché lui poi è un politico e bravo, e fa questa domanda a tutti. Quanto guadagni? Quanto guadagni? Quanto guadagni? In base a quanto guadagni ti do il posto a sedere. Quanto guadagni? Va bene, cosa fai?",
     "titolo": "Brunetta e Maurizio",
     "tema": [
       "umorismo",
@@ -150,85 +75,77 @@
     "video_url": ""
   },
   {
-    "id": "2014-05-09-012",
+    "id": "2014-05-09-006",
     "start": 322.42,
+    "end": 326.9,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Fai che non ti becchi mai Brunetta, sennò ti fa un mazzo tanto. Mi danno una testata sul ginocchio. Eh, certo!",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2014-05-09-007",
+    "start": 328.07,
+    "end": 340.69,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Io non so tu, ma dialetticamente io se fa quello che ha fatto a Fazio mi metto a piangere. Dai, in tv? Non lo so, non lo so. Tu eri uno che a Brescia faceva botte.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2014-05-09-008",
+    "start": 340.71,
+    "end": 341.71,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "No, no, no.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2014-05-09-009",
+    "start": 341.73,
     "end": 345.19,
-    "speaker_raw": "SPEAKER_15",
-    "testo": "Fai che non ti becchi mai Brunetta, sennò ti fa un mazzo tanto. Mi danno una testata sul ginocchio. Eh, certo! Io non so tu, ma dialetticamente io se fa quello che ha fatto a Fazio mi metto a piangere. Dai, in tv? Non lo so, non lo so. Ma tu eri uno che a Brescia faceva botte. No, no, no. Dì la verità, adesso puoi dirlo. Un po' avrai fatto botte.",
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Dì la verità, adesso puoi dirlo. Un po' avrai fatto botte.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2014-05-09-013",
+    "id": "2014-05-09-010",
     "start": 345.21,
-    "end": 350.72,
-    "speaker_raw": "SPEAKER_14",
-    "testo": "Beh, ma se no non sopravvivi a Brescia. Però dopo sei diventato famoso e non lo puoi più fare.",
-    "titolo": "Fama e comportamento",
-    "tema": [
-      "fama",
-      "comportamento"
-    ],
-    "tipo": "riflessione",
-    "video_url": ""
-  },
-  {
-    "id": "2014-05-09-014",
-    "start": 351.46,
-    "end": 367.75,
-    "speaker_raw": "SPEAKER_15",
-    "testo": "quindi c'ho dentro quel nervoso a 50 anni farò appugni con tutti va bene, iniziamo il programma ci sono dei cantanti che fanno ancora bocca si, i rapper no no no no pop se bastasse soltanto che ci ascolta ciao",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": "",
-    "autore": ""
-  },
-  {
-    "id": "2014-05-09-015",
-    "start": 369.39,
-    "end": 415.83,
-    "speaker_raw": "SPEAKER_13",
-    "testo": "e il cuore va risposto questo è mal d'amore per guarirci sono al mente un modo vuoi sapere vuoi sapere come si fa si fa spesso chiodo scaccia chiodo e riprovi la felicità Quanto vuoi dare? Quanto vuoi dare? Quanto vuoi dare? Quanto vuoi dare? Quanto vuoi dare? E' svegliato! Qualcuno scrive, Nicola rimani qui! E se ancora ci vai? E se quasi, quasi!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": "",
-    "autore": ""
-  },
-  {
-    "id": "2014-05-09-016",
-    "start": 429.13,
-    "end": 438.94,
-    "speaker_raw": "SPEAKER_15",
-    "testo": "stai risulta la puntata la puntata va perché devo andare a preparare no perché a Maurizio da fastidio te lo dico è vero",
+    "end": 466.21,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Beh, ma se no non sopravvivi a Brescia. Però dopo sei diventato famoso e non lo puoi più fare. quindi c'ho dentro quel nervoso a 50 anni farò appugni con tutti va bene, iniziamo il programma ci sono dei cantanti che fanno ancora bocca si, i rapper no no no no pop se bastasse soltanto che ci ascolta ciao Il cuore va risposto, questo è mal d'amore, per guarirci è solamente un modo, vuoi sapere, vuoi sapere come si fa, si fa spesso chiodo, scaccia chiodo e riprovi la felicità. Quanto vuoi dare? Quanto vuoi dare? Quanto vuoi dare? Quanto vuoi dare? Qualcuno scrive, Nicola rimani qui. Io sono quasi qua. stai su tutta la puntata la puntata va perché devo andare a preparare no perché a Maurizio a Maurizio da fastidio te lo dico è vero ieri, l'altro ieri, scusami, quando sei venuto io ho detto, a me mi ha fastidio la gente più in regia perché poi tu cosa fai, cari ascoltatori cosa fa Nicola Savino? Entra e accende tutte le luci, invece a Maurizio al maestro, come tutti i maestri, ama un po' anche l'oscurità, perché gli accendi tutte le luci? Perché le tenebre? Perché? Perché? Ma chiunque sta ascoltando, è meglio le tenebre o la luce? Sarà meglio la luce?",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2014-05-09-017",
-    "start": 441.49,
+    "id": "2014-05-09-011",
+    "start": 466.63,
     "end": 467.21,
-    "speaker_raw": "SPEAKER_14",
-    "testo": "ieri l'altro ieri mi ha fastidio la gente perché poi tu cosa fai cari ascoltatori cosa fa Nicola Savino entra e accende tutte le luci invece al maestro come tutti i maestri ama un po' anche l'oscurità perché gli accendi tutte le luci perché le tenebre ma chiunque sta ascoltando è meglio le tenebre o la luce sarà meglio la luce hai ragione",
-    "titolo": "la luce o le tenebre",
-    "tema": [
-      "luce",
-      "tenebre"
-    ],
-    "tipo": "riflessione",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Hai ragione",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2014-05-09-018",
+    "id": "2014-05-09-012",
     "start": 467.98,
-    "end": 494.68,
-    "speaker_raw": "SPEAKER_15",
-    "testo": "perché lui è introspettivo è il suo bello ma il suo bello sarà il suo bello ma me mi fa cagare allora qui ci salta tutta la scaletta con la presenza di Nicola no no nel senso io sono ma stai di lì? no non lo so me ne vado allora vado che momento di radio allora va vado",
+    "end": 515.97,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "perché lui è introspettivo ha bisogno è il suo bello ma il suo bello sarà il suo bello ma me mi fa cagare allora qui ci salta tutta la scaletta con la presenza di Riccardo no no nel senso io sono ma stai di lì no spazzesco va bene no non lo so me ne vado allora vado che momento di radio allora va vado va Ciao Ciao Ma l'hai mandato via davvero? Sono più tranquillo, qua mi dà fastidio Eccolo, è sulla porta Lo vedo che è sulla porta Va bene, allora Ma dà fastidio, non si fa niente E' qua come un...",
     "titolo": "Introversione",
     "tema": [
       "psicologia",
@@ -238,77 +155,32 @@
     "video_url": ""
   },
   {
-    "id": "2014-05-09-019",
-    "start": 498.44,
-    "end": 500.1,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "Ciao! Ciao!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2014-05-09-020",
-    "start": 500.62,
-    "end": 501.8,
-    "speaker_raw": "SPEAKER_14",
-    "testo": "Ma l'hai mandato via davvero?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2014-05-09-021",
-    "start": 502.1,
-    "end": 508.68,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "Eh beh, sono più tranquillo, qua mi dà fastidio. Eccola lì sulla porta. Che sto muovendo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2014-05-09-022",
-    "start": 509.1,
-    "end": 513.66,
-    "speaker_raw": "SPEAKER_14",
-    "testo": "Lo vedo che è sulla porta. Va bene. Allora Maurizio...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2014-05-09-023",
-    "start": 513.68,
+    "id": "2014-05-09-013",
+    "start": 520.64,
     "end": 528.05,
-    "speaker_raw": "SPEAKER_15",
-    "testo": "Ma dà fastidio, non ti faccio niente! E' qua come un... facevo il tuo mestiere quando tu eri l'elementare hai ragione ma no non devi scusare è andato via ok",
+    "speaker_raw": "SPEAKER_03",
+    "testo": "un cosa facevo il tuo mestiere quando tu eri l'elementare hai ragione ma no non devi scusare è tutto via ok",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2014-05-09-024",
+    "id": "2014-05-09-014",
     "start": 536.71,
     "end": 571.11,
-    "speaker_raw": "SPEAKER_14",
-    "testo": "Va bene, cari ascoltatori, avevamo tutta una cosa bella da fare su questo argomento. Sentite un po' questo argomento. Non avete mai avuto la sensazione che i vostri nonni o magari i vostri genitori, se hanno una certa età, non abbiano proprio scelto di sposarsi, di fare i figli o qualcosa così? Se ve lo chiedete, spesso i nonni vi dicono che ai nostri tempi si faceva così, no? un po' sui binari allora se avete dei bambini in ascolto siccome ci sono un paio di parolacce magari cambiate stazione per un secondo abbassate perché ieri abbiamo trovato proprio la frase che racconta bene con la generazione come è che tu e mamma vi siete sposati?",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Va bene, allora cari ascoltatori, avevamo tutta una cosa bella da fare su questo argomento, sentite un po' questo argomento, non avete mai avuto la sensazione che i vostri nonni o magari i vostri genitori, se hanno una certa età, non abbiano proprio scelto di sposarsi, di fare i figli o qualcosa così, hanno un po', se ve lo chiedete, spesso i nonni vi dicono, ai nostri tempi si faceva così, no? un po' sui binari allora se avete dei bambini in ascolto siccome ci sono un paio di parolacce magari cambiate stazione per un secondo abbassate perché ieri abbiamo trovato proprio la frase che racconta bene con la generazione come è che tu e mamma vi siete sposati?",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
-    "id": "2014-05-09-025",
+    "id": "2014-05-09-015",
     "start": 572.07,
     "end": 607.74,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_04",
     "testo": "lei voleva tanto tu no? io pensai ma si e ti penti di averlo fatto? ogni giorno poteva andare peggio ma sarai stato innamorato? all'inizio almeno non ci ho mai pensato Avete mai parlato di avere dei figli? Quanti ne volevate? Ne avete parlato? No. E perché ci avete fatti? Perché a me piace scopare. E tua madre è cattolica. Fai un po' tu la somma. Quindi tu e mamma non vi siete mai detti se volevate figli o no? Io sapevo che se continuavamo a scopare alla fine un paio li facevamo.",
     "titolo": "la decisione di avere un figlio",
     "tema": [
@@ -320,11 +192,11 @@
     "video_url": ""
   },
   {
-    "id": "2014-05-09-026",
+    "id": "2014-05-09-016",
     "start": 607.96,
-    "end": 614.83,
-    "speaker_raw": "SPEAKER_14",
-    "testo": "Hai capito? Tu Maurizio sai di che ti chiedi? Ma lo facciamo un figlio? No, adesso poi con il lavoro, la crisi e cose. Si faceva...",
+    "end": 617.65,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Hai capito? Tu Maurizio sai di che ti chiedi? Ma lo facciamo un figlio? No, adesso poi col lavoro, la crisi e cose. Si faceva... grazie a tutti",
     "titolo": "Lavoro e figli",
     "tema": [
       "lavoro",
@@ -334,21 +206,10 @@
     "video_url": ""
   },
   {
-    "id": "2014-05-09-027",
-    "start": 617.37,
-    "end": 617.67,
-    "speaker_raw": "SPEAKER_15",
-    "testo": "Grazie a tutti.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2014-05-09-028",
+    "id": "2014-05-09-017",
     "start": 676.03,
     "end": 676.26,
-    "speaker_raw": "SPEAKER_07",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Ciao!",
     "titolo": "",
     "tema": [],
@@ -356,22 +217,21 @@
     "video_url": ""
   },
   {
-    "id": "2014-05-09-029",
+    "id": "2014-05-09-018",
     "start": 738.8,
     "end": 796.75,
-    "speaker_raw": "SPEAKER_14",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Allora, a ah beh ah beh ti ho visto ieri sera che commentavi Vasco Rossi ah ieri c'era uno speciale Vasco Rossi su Rai 2 eh non me lo ricordavo non me lo so ricordato ho fatto ho fatto dei commenti come quelli americani che poi uno commenta commenta salutiamo Vasco salutiamo buon compleanno Nadia allora come mai Fabio Volo ridi per ogni cazzata La risposta sarebbe perché sono felice di esistere al mondo, però in realtà è perché sono un coglione, cioè perché io rido sempre, come i coglioni, come i deficienti in sostanza. Dimmi una cosa che fa un po' ridere.",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
-    "id": "2014-05-09-030",
+    "id": "2014-05-09-019",
     "start": 796.99,
     "end": 797.85,
-    "speaker_raw": "SPEAKER_12",
+    "speaker_raw": "SPEAKER_01",
     "testo": "Eh, non lo so.",
     "titolo": "",
     "tema": [],
@@ -379,10 +239,10 @@
     "video_url": ""
   },
   {
-    "id": "2014-05-09-031",
+    "id": "2014-05-09-020",
     "start": 798.01,
     "end": 802.22,
-    "speaker_raw": "SPEAKER_14",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Ma sai quante volte durante il giorno rido e mi accorgo proprio che faccio la figura del coglione, perché rido.",
     "titolo": "felicità",
     "tema": [
@@ -393,10 +253,10 @@
     "video_url": ""
   },
   {
-    "id": "2014-05-09-032",
+    "id": "2014-05-09-021",
     "start": 802.44,
     "end": 803.16,
-    "speaker_raw": "SPEAKER_12",
+    "speaker_raw": "SPEAKER_01",
     "testo": "Tu ridi, sì, sì.",
     "titolo": "",
     "tema": [],
@@ -404,11 +264,11 @@
     "video_url": ""
   },
   {
-    "id": "2014-05-09-033",
+    "id": "2014-05-09-022",
     "start": 803.3,
     "end": 888.47,
-    "speaker_raw": "SPEAKER_14",
-    "testo": "Ma perché a piangere si è sempre a te, cioè arrivi all'improvviso, no? A piangere non te lo aspetti, per quello che piangi... no però dico piangere anche un po' come ridere a volte non te lo aspetti però insomma due giorni ti succede una roba e dici capito e piangi non te lo aspetti va bene ieri Maurizio come sempre ho fatto la mia passeggiata nel parco qui in Sempione a vedere il castello così a un certo punto esci dal parco Sempione e ti sembra di essere vicino al Louvre ci sono le piramidi adesso lo sai in piazza Castello ci sono le piramidi ho detto ma che cazzo c'è tutto il movimento dell'Expo oggi sui giornali dell'Expo si parla solo di quello hai visto il video di quello che gli dà 15.000 euro da una tasca posso dire una cosa a quelli che danno le mazzette ma voi siete dei coglioni veri però io sì perché rido ogni giorno ne cuccano uno ma devi andare in via Corso Sempione si sono trovati in mezzo alla strada ma sei anche scemo sarà un modo per darvi si vede che non si facevano le cane da ragazzini che non sanno come uno appoggia poi dopo un'ora passa là ma parliamo invece delle cose belle dell'expo ok? perché sul giornale si parla solo delle robe orrende parliamo delle cose belle queste due piramidi io voglio capire cosa sono Buongiorno Carolina e Corbetta, buongiorno. Ciao Fabio, ciao a tutti. Curatrice dell'Expo Gate, voglio che, scusami, ma quelle due piramidi lì che ci sono davanti al castello?",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Ma perché a piangere si è sempre a te, cioè arrivi all'improvviso, no? A piangere non te lo aspetti, per quello che piangi... No, però dico piangere, anche un po' come ridere, a volte non te lo aspetti, però insomma tu esci lì, ti succede una roba e dici, capito, piangi e non te lo aspetti, va bene. Ieri Maurizio, come sempre, ho fatto la mia passeggiata nel parco qui in Sempione a vedere il castello, così a un certo punto esci dal parco Sempione e ti sembra di essere vicino al Louvre, ci sono le piramidi adesso, lo sai, in piazza Castello, ci sono le piramidi, ho detto ma che cazzo è questo? C'è tutto il movimento dell'Expo. Oggi sui giornali dell'Expo si parla solo di quello... Hai visto il video di quello che gli dà 15.000 euro da una tasca? Posso dire una cosa a quelli che danno le mazzette? Ma voi siete dei coglioni veri però. Io sì, io perché rido. Ogni giorno ne cuccano uno, ma devi andare in via Corso Sempione, si sono trovati in mezzo alla strada. Ma sei anche scevo. Sarà un modo per darvi... si vede che non si facevano le cane da ragazzini che non sanno come uno appoggia poi dopo un'ora passa la cioè vabbè ma parliamo invece delle cose belle dell'expo ok perché sul giornale si parla solo delle robe orrende parliamo delle cose belle queste due piramidi io voglio capire cosa sono Buongiorno Carolina e Corbetta, buongiorno. Ciao Fabio, ciao a tutti. Curatrice dell'Expo Gate, voglio che, scusami, ma quelle due piramidi lì che ci sono davanti al castello?",
     "titolo": "paura e felicità",
     "tema": [
       "paura",
@@ -418,10 +278,10 @@
     "video_url": ""
   },
   {
-    "id": "2014-05-09-034",
+    "id": "2014-05-09-023",
     "start": 889.91,
     "end": 890.09,
-    "speaker_raw": "SPEAKER_09",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Sì.",
     "titolo": "",
     "tema": [],
@@ -429,10 +289,10 @@
     "video_url": ""
   },
   {
-    "id": "2014-05-09-035",
+    "id": "2014-05-09-024",
     "start": 890.29,
     "end": 891.49,
-    "speaker_raw": "SPEAKER_14",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Tu hai capito cosa sono?",
     "titolo": "",
     "tema": [],
@@ -440,10 +300,10 @@
     "video_url": ""
   },
   {
-    "id": "2014-05-09-036",
+    "id": "2014-05-09-025",
     "start": 892.03,
     "end": 896.38,
-    "speaker_raw": "SPEAKER_09",
+    "speaker_raw": "SPEAKER_03",
     "testo": "E beh certo, ci starò dentro per i prossimi 18 mesi, quindi un'idea me la sto facendo.",
     "titolo": "Inaugurazione apertura",
     "tema": [
@@ -454,10 +314,10 @@
     "video_url": ""
   },
   {
-    "id": "2014-05-09-037",
+    "id": "2014-05-09-026",
     "start": 896.39,
     "end": 899.26,
-    "speaker_raw": "SPEAKER_14",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Cos'è che succede? Intanto quando è che si inaugura l'apertura?",
     "titolo": "",
     "tema": [],
@@ -465,10 +325,10 @@
     "video_url": ""
   },
   {
-    "id": "2014-05-09-038",
+    "id": "2014-05-09-027",
     "start": 899.9,
     "end": 909.82,
-    "speaker_raw": "SPEAKER_09",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Allora, apriamo domani con una grande festa a cui sono tutti invitati, non servono inviti, non ci sono VIP lounge, non ci sono separene, niente.",
     "titolo": "",
     "tema": [],
@@ -476,96 +336,90 @@
     "video_url": ""
   },
   {
-    "id": "2014-05-09-039",
+    "id": "2014-05-09-028",
     "start": 909.9,
     "end": 914.54,
-    "speaker_raw": "SPEAKER_14",
-    "testo": "Niente! A morte la casta, tutti invitati domani a che ora, scusami?",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Niente! A morte la casta, tutti invitati, domani a che ora, scusami?",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2014-05-09-040",
+    "id": "2014-05-09-029",
     "start": 914.74,
     "end": 965.21,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "Allora, si parte, attenzione, perché bisogna un attimo concentrarsi, alle 17.30 da Piazza San Babila con una parata, con due fantastiche marching bands, si arriva alle 6.30 in via Beltrami, dove c'è Expo Gate, di fronte al castello, non vederli come dicevi tu prima e da lì si inizia con musica e cibo la musica tra l'altro ci saranno dei DJ set di radio DJ by Farolfi e Shorty attenzione ma guarda cosa abbiamo scoperto allora Farolfi che adesso sale a prendere la pubblicità un secondo adesso lo vedrà quindi mette i dischi Farolfi e scusami dicevi Shorty ah ok Poi ci saranno dei live show del mitologico Nanni Svampa e poi di questo gruppo di ragazzi brasiliani, Selton, che rifanno canzoni di Cocchi e Renato e di Iannacci in versione brasilea.",
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Allora, si parte, attenzione, perché bisogna un attimo concentrarsi, alle 17.30 da Piazza San Babila con una parata, con due fantastiche marching bands, si arriva alle 6.30 in via Beltrami, dove c'è Expo Gate, di fronte al castello, non vederli come dicevi tu prima e da lì si inizia con musica e cibo la musica tra l'altro ci saranno dei DJ set di radio DJ by Farolfi e Shorty attenzione ma guarda cosa abbiamo scoperto allora Farolfi che adesso sale a prendere la pubblicità un secondo adesso lo vedrà quindi mette i dischi Farolfi e scusami dicevi Shorty ah ok Poi ci saranno dei live show del mitologico Nanni Svampa e poi di questo gruppo di ragazzi brasiliani, Selton, che rifanno canzoni di Cocchi e Renato e di Yannacci in versione brasilea.",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
-    "id": "2014-05-09-041",
+    "id": "2014-05-09-030",
     "start": 965.35,
     "end": 991.11,
-    "speaker_raw": "SPEAKER_14",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Sai che questi Selton tutti dicono che li ho scoperti io. Anche loro? No, perché io quando facevo un programma a Barcellona li avevamo trovati, in realtà è stato K, li abbiamo portati nel mio programma. Da Barcellona e poi loro da loro, da quel programma lì, si sono trasferiti in Italia. Sono bravissimi. Senti, a noi ci interessa che la festa è gratis e possono entrare tutti.",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
-    "id": "2014-05-09-042",
+    "id": "2014-05-09-031",
     "start": 991.69,
     "end": 1012.22,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "c'è un'altra cosa a cui ci tengo a dire ci saranno anche i tre super chef Andrea Bertone, Carlo Cracco e Davide Oldani che per l'occasione hanno fatto a titolo gratuito a scopo di beneficenza un piatto che si chiama risata colorata ed è il classico riso giallo ave milanese però con dei sapori da Icon al Carri",
+    "speaker_raw": "SPEAKER_03",
+    "testo": "c'è un'altra cosa a cui ci tengo a dire ci saranno anche i tre super chef Andrea Bertone, Carlo Cracco e Davide Oldani che per l'occasione hanno fatto a titolo gratuito a scopo di beneficenza un piatto che si chiama risata colorata ed è il classico riso giallo avemilanese però con dei sapori da Icon al Carri",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
-    "id": "2014-05-09-043",
+    "id": "2014-05-09-032",
     "start": 1013.06,
     "end": 1037.91,
-    "speaker_raw": "SPEAKER_14",
-    "testo": "ragazzi io lo dico per tutte le donne intanto c'è Cracco e Oldani poi per i ragazzi che amano la musica e per donne ma scusami Maurizio vai domani se non c'è la lavanda non vai mi fai un favore mi metti giù due fogliettine di lavanda così viene anche il maestro Maurizio qua davanti a me che lui va solo dove c'è la lavanda metteremo un po' di piantina di lavanda senti, dimmi la festa quella lì al di là della parata la festa lì a che ora possiamo venire?",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "ragazzi io lo dico per tutte le donne intanto c'è Cracco e Oldani poi per i ragazzi che amano la musica e per donne ma scusami Maurizio vai domani se non c'è la lavanda mi fai un favore mi metti giù due fogliettine di lavanda così viene anche il maestro Maurizio qua davanti a me che lui va solo dove c'è la lavanda metteremo un po' di piantina di lavanda dimmi la festa quella lì al di là della parata la festa lì a che ora possiamo venire?",
     "titolo": "Lavanda",
     "tema": [
       "musica",
       "relax"
     ],
     "tipo": "riferimento_musica",
-    "video_url": "",
-    "confermato_esterno": true,
-    "copertina": "https://coverartarchive.org/release/fd2b0161-79dd-489f-81f9-d53034603439/front-250"
+    "video_url": ""
   },
   {
-    "id": "2014-05-09-044",
+    "id": "2014-05-09-033",
     "start": 1039.05,
     "end": 1074.53,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "in Expo Gate di fronte al Castello Scorsese via Beltrami dalle 18.30, non serve invito e poi aggiungo che dall'indomani noi siamo aperti tutti i giorni dalle 10 alle 20 con eventi gratuiti tutti i giorni però mangiare si mangia domani mangiare si mangia domani si mangia domani Fabio, si pagano 5 euro, vanno totalmente a scopo di beneficenza, comunità nuova, di Don Gino Rigoldi e Ollus via Libra. Quindi voglio ringraziare gli chef per essersi anche prestati a titolo gratuito e a scopo di beneficenza.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": "",
-    "autore": ""
-  },
-  {
-    "id": "2014-05-09-045",
-    "start": 1074.75,
-    "end": 1101.63,
-    "speaker_raw": "SPEAKER_14",
-    "testo": "Ci vediamo lì, grazie Carolina. Grazie Fabio, ciao. Hai capito che ho anche il faroffio a mettere lì? Vai domani? Eh no, non riesco Eh ma perché? Io non ci sono, però ci andrò lunedì, martedì quando torno Domani sono a Reggio Emilia tutto il giorno, vuoi venire? No, no Eh ma non vuoi mai venire da nessuna parte? Poi io rido sempre Ma qua mi fanno le pulce anche perché rido, ma che due cose",
+    "speaker_raw": "SPEAKER_03",
+    "testo": "in Expo Gate di fronte al Castello Scortesco via Beltrami dalle 18.30 non serve invito e poi aggiungo che dall'indomani noi siamo aperti tutti i giorni dalle 10 alle 20 con eventi gratuiti tutti i giorni però mangiare si mangia domani mangiare si mangia domani si mangia domani Fabio, si pagano 5 euro, vanno totalmente a scopo di beneficenza, comunità nuova, di Don Gino Rigoldi e Ollus via Libra. Quindi voglio ringraziare gli chef per essersi anche prestati a titolo gratuito e a scopo di beneficenza.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2014-05-09-046",
+    "id": "2014-05-09-034",
+    "start": 1074.75,
+    "end": 1101.85,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Ci vediamo lì, grazie Carolina. Grazie Fabio. Ciao, ciao, ciao. Hai capito che ho anche il faroffi a mettere lì? Vai domani? Eh no, non riesco Eh ma perché? Io non ci sono, però ci andrò lunedì, martedì quando torno Domani sono a Reggio Emilia tutto il giorno, vuoi venire? No, no Eh ma non vuoi mai venire da nessuna parte? Poi io rido sempre Ma qua mi fanno le pulce anche perché rido, ma che due coglioni",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2014-05-09-035",
     "start": 1118.78,
     "end": 1145.82,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Ciao! ciao ciao",
     "titolo": "",
     "tema": [],
@@ -573,22 +427,11 @@
     "video_url": ""
   },
   {
-    "id": "2014-05-09-047",
+    "id": "2014-05-09-036",
     "start": 1209.41,
-    "end": 1209.53,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "Ciao!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2014-05-09-048",
-    "start": 1319.71,
-    "end": 1383.61,
-    "speaker_raw": "SPEAKER_14",
-    "testo": "c'è così empatia tra noi del volo del mattino e i nostri ascoltatori nel nostro rapporto con le persone perché manifesta diciamo la nostra relazione con il mondo noi richiamiamo sentiamo come è andata a finire ci prendiamo proprio cura di quelli che ci chiamano sono proprio persone noi siamo quelli che salutiamo con il nome ciao Paolo ciao ma capito a parte che quando ti presenti non te lo ricordi mai dopo ogni tanto passa del tempo e dici se è troppo tardi di chiedere se gli richiedo il nome allora devi andare da uno come è che smetto che si che sono dei momenti di imbarazzo ma noi c'è così empatia che potremmo fare il programma e dire siamo qua e senza parlare lasciando il silenzio le persone capirebbero quello che vogliamo dire perché tanto non capiscono anche quando parliamo mettiamola così quindi il livello sarebbe comunque uguale se tu adesso io voglio dire una cosa senti Beh, non faceva ridere? Molto. Eh, non faceva ridere. Perché c'è questa magia, sì.",
+    "end": 1386.76,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "ciao ciao c'è così empatia tra noi del volo del mattino e i nostri ascoltatori nel nostro rapporto con le persone perché manifesta diciamo la nostra relazione con il mondo noi richiamiamo sentiamo come è andata a finire ci prendiamo proprio cura di quelli che ci chiamano sono proprio persone noi siamo quelli che salutiamo con il nome ciao Paolo ciao ma capito a parte che quando ti presenti non te lo ricordi mai dopo ogni tanto passa del tempo e dici se è troppo tardi di chiedere se gli richiedo il nome allora devi andare da uno come è che smetto che si che sono dei momenti di imbarazzo ma noi c'è così empatia che potremmo fare il programma e dire siamo qua e senza parlare lasciando il silenzio le persone capirebbero quello che vogliamo dire perché tanto non capiscono anche quando parliamo quindi il livello sarebbe comunque uguale adesso io voglio dire una cosa senti Beh, non faceva ridere? Molto. Eh, non faceva ridere. Perché c'è questa magia, sì. C'è gente che non ha bisogno di parlare per capirsi.",
     "titolo": "Empatia e relazione",
     "tema": [
       "empatia",
@@ -598,11 +441,11 @@
     "video_url": ""
   },
   {
-    "id": "2014-05-09-049",
-    "start": 1383.67,
+    "id": "2014-05-09-037",
+    "start": 1387.13,
     "end": 1397.24,
-    "speaker_raw": "SPEAKER_08",
-    "testo": "C'è gente che non ha bisogno di parlare per capirsi. Le parole a volte sono inutili. Si può parlare anche stando zitti. È perché mi rompi i coglioni. Ma allora, vabbè.",
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Le parole a volte sono inutili. Si può parlare anche stando zitti. È perché mi rompi i coglioni. Ma allora, vabbè.",
     "titolo": "Le parole inutili",
     "tema": [
       "parole",
@@ -612,7 +455,7 @@
     "video_url": ""
   },
   {
-    "id": "2014-05-09-050",
+    "id": "2014-05-09-038",
     "start": 1397.52,
     "end": 1399.72,
     "speaker_raw": "SCONOSCIUTO",
@@ -623,11 +466,11 @@
     "video_url": ""
   },
   {
-    "id": "2014-05-09-051",
+    "id": "2014-05-09-039",
     "start": 1401.6,
-    "end": 1414.66,
-    "speaker_raw": "SPEAKER_14",
-    "testo": "Qui c'è un sacco di gente che viene domenica a vederti, Maurizio. Io posso anche non venire più ormai. Lo faccio io. Oh! Comunque noi avremmo potuto fare anche quelli che inventano le pubblicità alla radio.",
+    "end": 1415.12,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Qui c'è un sacco di gente che viene domenica a vederti, Maurizio. Io posso anche non venire più ormai. Faccio io. Oh! Comunque noi avremmo potuto fare anche quelli che inventano le pubblicità alla radio. No.",
     "titolo": "pulce e pubblicità",
     "tema": [
       "radio",
@@ -637,11 +480,11 @@
     "video_url": ""
   },
   {
-    "id": "2014-05-09-052",
+    "id": "2014-05-09-040",
     "start": 1438.8,
-    "end": 1587.61,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "la voce trema e poi tu sei qui di fronte a me immobile canto leggero e se soffio d'anima e aria nessuno può vederti a parte me ma so che Non ci fa. Se ti penso sbaglio e mi perdo sempre qui, sempre qui, sempre qui. Ti vedo adesso, nel nero scivoli, non andar via, resta qui. fosse ancora qui ad occhi chiusi puoi trasformarti in tutto quello che non sono stato mai sembro uguale a me se ripenso a te non ho più bocca e poi",
+    "end": 1487.21,
+    "speaker_raw": "SPEAKER_01",
+    "testo": "la voce trema e poi tu sei qui di fronte a me immobile canto leggero e se soffio d'anima e aria nessuno può vederti a parte me ma so che Non ci fa.",
     "titolo": "Poema di amore e presenza",
     "tema": [
       "amore",
@@ -651,11 +494,11 @@
     "video_url": ""
   },
   {
-    "id": "2014-05-09-053",
-    "start": 1619.8,
+    "id": "2014-05-09-041",
+    "start": 1537.04,
     "end": 1774.85,
-    "speaker_raw": "SPEAKER_14",
-    "testo": "Grazie Alibonzi, ringrazio anche la mamma. Cosa è nostra dei messaggi Maurizio? pensa a proposito della frase che avete messo questa mattina ci sono due messaggi una che dice proprio sulla frase più bella dialogo padre figlio una collega ma disturbato e quindi adesso non ho sentito ma la potete rimettere no no potevo non leggere però no dire un po così anche se ecco no comunque no la possiamo mettere a proposito di padri figli e cose tu pensi io sto con una ragazza cattolica da due mesi e ci baciamo e basta neanche ci tocchiamo io ho 42 anni lei 33 io prima di lei sono stato con molte donne lei ha 4 anni che non fa l'amore insomma però però non è un sacrificio perché sono innamorato pazzo ecco sì è perché mi rompi i coglioni allora ma non ce la rompi i coglioni ma ce la sono scritta ci voleva far cogliere diventato spietato, comunque il successo ti ha cambiato non sei più un ragazzo della porta accanto come prima, come una volta senti questo intervento qua te lo sei preparato questo adesso, che faccio adesso? certo, fammi anche un canziatore adesso, allora ragazzi ieri abbiamo chiuso il programma dicendo la festa Allora cari ascoltatori, noi abbiamo chiuso il programma che cercavamo di capire come mai la festa della mamma è passata dall'otto al dieci all'undici, la seconda domenica di maggio è la festa della mamma, adesso è così, cioè domenica prossima, fra due giorni, sabato e domenica è la festa della mamma, noi siamo nel mezzo, ovviamente noi sono cose che, festa del papà, della mamma, la Pasqua... ma lo so ormai niente allora quello che volevo dirvi siccome noi domenica mattina non ci siamo cioè il volo del mattino si ascolta dalle 9 alle 10 non ci sono repliche non c'è il meglio di niente noi siamo sempre in castigo allora ci dovete ascoltare per forza in questa versione ecco allora vi volevo dire che vorremmo fare un pensiero nei prossimi minuti per tutte le mamme che ci ascoltano e anche per le vostre che magari non ci ascoltano ma ci ascoltate voi non è una buona presentazione Henry De Luca dice delle cose belle di sua mamma l'abbiamo preso lui in te sono stato albume, uovo, pesce le ere sconfinate della terra ho attraversato nella tua placenta fuori di te sono contato a giorni",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Se ti penso sbaglio e mi perdo sempre qui, sempre qui, sempre qui. Ti vedo adesso, nel nero scivoli, non andar via, resta qui. fosse ancora qui ad occhi chiusi puoi trasformarti in tutto quello che non sono stato mai sembro uguale a me se ripenso a te non ho più bocca e poi Grazie Alibonzi, ringrazio anche la mamma. Cosa è nostra dei messaggi Maurizio? pensa a proposito della frase che avete messo questa mattina ci sono due messaggi una che dice proprio sulla frase più bella dialogo padre figlio una collega ma disturbato e quindi adesso non ho sentito ma la potete rimettere no no potevo non leggerla però no dire un po così anche se ecco no comunque no la possiamo mettere a proposito di padri figli e cose tu pensi io sto con una ragazza cattolica da due mesi e ci baciamo e basta Neanche ci tocchiamo, io ho 42 anni, lei 33, io prima di lei sono stato con molte donne, lei ha 4 anni che non fa l'amore, però non è un sacrificio perché sono innamorato pazzo. Ecco, sì. È perché mi rompi i coglioni allora. Ma ce l'ho scritto, ci voleva far coglioni. è diventato spietato, comunque il successo ti ha cambiato non sei più un ragazzo della porta accanto come prima, come una volta senti questo intervento qua te lo sei preparato questo adesso, che faccio adesso? certo, fammi anche un canziatore adesso, allora ragazzi ieri abbiamo chiuso il programma dicendo la festa Allora, cari ascoltatori, abbiamo chiuso il programma che cercavamo di capire come mai la festa della mamma è passata dall'otto al dieci all'undici, la seconda domenica di maggio è la festa della mamma, adesso è così, cioè domenica prossima, fra due giorni, sabato e domenica è la festa della mamma, noi siamo nel mezzo, ovviamente noi sono cose che, festa del papà, della mamma, la Pasqua... ma lo so ormai niente allora quello che volevo dirvi siccome noi domenica mattina non ci siamo cioè il volo del mattino si ascolta dalle 9 alle 10 non ci sono repliche non c'è il meglio di niente noi siamo sempre in castigo allora ci dovete ascoltare per forza in questa versione ecco allora vi volevo dire che vorremmo fare un pensiero nei prossimi minuti per tutte le mamme che ci ascoltano e anche per le vostre che magari non ci ascoltano ma ci ascoltate voi non è una buona presentazione Henry De Luca dice delle cose belle di sua mamma l'abbiamo preso lui in te sono stato albume, uovo, pesce le ere sconfinate della terra ho attraversato nella tua placenta fuori di te sono contato a giorni",
     "titolo": "frase più bella",
     "tema": [
       "dialogo",
@@ -665,7 +508,7 @@
     "video_url": ""
   },
   {
-    "id": "2014-05-09-054",
+    "id": "2014-05-09-042",
     "start": 1776.03,
     "end": 1870.2,
     "speaker_raw": "SPEAKER_00",
@@ -680,122 +523,77 @@
     "video_url": ""
   },
   {
-    "id": "2014-05-09-055",
+    "id": "2014-05-09-043",
     "start": 1878.86,
-    "end": 1914.45,
-    "speaker_raw": "SPEAKER_02",
-    "testo": "Ciao mamma. And you come to me on a summer breeze keep me warm in your love and then softly leave Grazie a tutti.",
-    "titolo": "Ciao mamma e brezza estiva",
-    "tema": [
-      "amore",
-      "famiglia"
-    ],
-    "tipo": "lettura_volo",
-    "video_url": ""
-  },
-  {
-    "id": "2014-05-09-056",
-    "start": 1940.42,
-    "end": 1940.52,
-    "speaker_raw": "SCONOSCIUTO",
-    "testo": "Ciao!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2014-05-09-057",
-    "start": 1969.66,
-    "end": 2015.46,
-    "speaker_raw": "SPEAKER_02",
-    "testo": "ciao ciao ciao ciao ciao",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2014-05-09-058",
-    "start": 2055.46,
-    "end": 2193.75,
-    "speaker_raw": "SPEAKER_14",
-    "testo": "Sono arrivati come sempre, è la nostra soddisfazione, no? Quando ci scrivono che piangono, si commuovono. Dov'è un programma del mattino, la radio, che ogni tanto buttiamo lì... Adesso eravamo indecisi, 9.44, se fare un'altra telefonata o se fare il momento elettronico, siccome qualcuno ci ha scritto che ultimamente non lo fate più, abbiamo fatto questo momento poesia Henry De Luca con una canzone How Deep Is Your Love dei Bee Gees, ma in questa versione di The Bird and the Bee, ce l'avevamo lì nella nostra cartella dalla prima puntata, non l'abbiamo mai messa, questa era l'occasione buona. Allora, ringraziamo e salutiamo tanto tutti gli ascoltatori che ci hanno mandato messaggi di sono commossa, ho pianto e bla bla bla bla bla. È il momento elettronico? Abbiamo una bella sequenza? Allora, fermi tutti. O se siete in macchina, telefono, per adesso non rispondete. In ufficio, se avete la fortuna di avere il vostro ufficio, solo vostro, chiudetevi dentro. Ok? È il momento di saltare sulle sedie. Non hai mai letto tu un racconto, Maurizio? Vabbè. Allora, inizio e fai quella faccia come dire cosa c'entra. La cariola di Pirandello l'hai mai letta? Sì. Vabbè, ma che c***o. Tu l'hai letto? Vabbè, niente. Tu l'hai letto? Sì, l'ho letto. Perché mi rompi i coglioni allora. Era per dirti, vabbè. Momento elettronico, stiamo zitti. Vai, pompa, pompa, pompa. Alzo le cuffie, dove sono? Quanto guadagni? C'è anche lui. Sul cubo? C'è Brunetta sul cubo che bada? Quanto guadagni? Me lo vedo con un bollerino, gilet bollerino, torso nudo, che tira su le braccia e poi punta col dito e... Quanto guadagni?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": "",
-    "autore": ""
-  },
-  {
-    "id": "2014-05-09-059",
-    "start": 2194.09,
-    "end": 2195.55,
-    "speaker_raw": "SPEAKER_01",
-    "testo": "Con gli occhiali da minatore.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2014-05-09-060",
-    "start": 2278.98,
-    "end": 2287.03,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "è così è così protestate pure ma è così è così va bene ultimo pezzo",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": "",
-    "autore": ""
-  },
-  {
-    "id": "2014-05-09-061",
-    "start": 2305.37,
-    "end": 2349.94,
-    "speaker_raw": "SPEAKER_14",
-    "testo": "Io ballo mentre mi pettino, beata te che hai i capelli. Volume, volume, volume. Morning flight, morning flight. Cioè dobbiamo chiudere perché siamo lunghi? Dura troppo poco questo programma ragazzi, io non so cosa dire.",
-    "titolo": "Morning flight",
-    "tema": [
-      "musica"
-    ],
-    "tipo": "riferimento_musica",
-    "video_url": "",
-    "confermato_esterno": true,
-    "copertina": "https://coverartarchive.org/release/2750d449-99a2-472e-932a-a8d377cefaf8/front-250"
-  },
-  {
-    "id": "2014-05-09-062",
-    "start": 2351.42,
-    "end": 2359.26,
-    "speaker_raw": "SCONOSCIUTO",
-    "testo": "Senti come suona questo programma. Mi sono in lontano.",
-    "titolo": "Sensazione del programma",
-    "tema": [
-      "programma",
-      "radio"
-    ],
-    "tipo": "aneddoto",
-    "video_url": ""
-  },
-  {
-    "id": "2014-05-09-063",
-    "start": 2396.87,
-    "end": 2530.49,
+    "end": 1880.68,
     "speaker_raw": "SPEAKER_05",
-    "testo": "a presto no no",
+    "testo": "Ciao mamma.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2014-05-09-064",
+    "id": "2014-05-09-044",
+    "start": 1880.98,
+    "end": 1882.04,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "And then softly leave.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2014-05-09-045",
+    "start": 1913.91,
+    "end": 1913.97,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Sì.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2014-05-09-046",
+    "start": 1940.42,
+    "end": 1940.56,
+    "speaker_raw": "SCONOSCIUTO",
+    "testo": "Grazie.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2014-05-09-047",
+    "start": 1969.66,
+    "end": 2362.53,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Sì. ciao ciao ciao Sono arrivati come sempre, è la nostra soddisfazione, no? Quando ci scrivono che piangono, si commuovono. Dov'è un programma del mattino, la radio, che ogni tanto buttiamo lì... Adesso eravamo indecisi, 9.44, se fare un'altra telefonata o se fare il momento elettronico, siccome qualcuno ci ha scritto che ultimamente non lo fate più, abbiamo fatto questo momento poesia Henry De Luca con una canzone How Deep Is Your Love dei Bee Gees, ma in questa versione di The Bird and the Bee, ce l'avevamo lì nella nostra cartella dalla prima puntata, non l'abbiamo mai messa, questa era l'occasione buona. Allora, ringraziamo e salutiamo tanto tutti gli ascoltatori che ci hanno mandato messaggi di sono commossa, ho pianto e bla bla bla bla bla. È il momento elettronico? Abbiamo una bella sequenza? Allora, fermi tutti. O se siete in macchina, telefono, per adesso non rispondete. In ufficio, se avete la fortuna di avere il vostro ufficio, solo vostro, chiudetevi dentro. Ok? È il momento di saltare sulle sedie. Non hai mai letto tutto un racconto, Maurizio? Vabbè. Allora, inizio e fai quella faccia come dire cosa c'entra. Dimmi. La cariola di Pirandello l'hai mai letta? Sì. Vabbè, ma che c***o. Tu l'hai letto? Vabbè, niente. Tu l'hai letto? Sì, l'ho letto. Perché mi rompi i coglioni allora. Era per dirti, vabbè. Momento elettronico, stiamo zitti. Vai, pompa, pompa, pompa. Alzo le cuffie, dove sono? Quanto guadagni? C'è anche lui. Sul cubo? C'è Brunetta sul cubo che bada? Quanto guadagni? Me lo vedo con un bollerino, gilet bollerino, torso nudo, che tira su le braccia e poi punta col dito e... Quanto guadagni? Con gli occhiali da minatore. Ecco lo Piavra, sì. è così è così è così protestate pure ma è così va bene è così va bene ultimo pezzo Io ballo mentre mi pettino, beata te che hai i capelli. Volume, volume, volume. Morning flight, morning flight. Cioè dobbiamo chiudere perché siamo lunghi? Ma dura troppo poco questo programma ragazzi, io non so cosa dire Senti come suona sto programma Mi suona lontano",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2014-05-09-048",
+    "start": 2396.87,
+    "end": 2530.65,
+    "speaker_raw": "SPEAKER_01",
+    "testo": "a presto grazie",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2014-05-09-049",
     "start": 2557.85,
-    "end": 2608.25,
-    "speaker_raw": "SPEAKER_14",
-    "testo": "poesia momento elettronico i due sto piangendo di gioia grazie di nuovo Manuel Camionista salutiamo anche i DJ Follo ciao ragazzi com'è stato vedere il programma da lì? bello? siete venuti coi... siete venuti coi... volete andare giù da lì? eh? ah dice la Laura che non possono è per quello che li mando sempre giù sai che li porto sempre giù adesso vi porto giù dopo lui si incazza ma adesso vi porto giù guarda giù Laura, ma senza gli ascoltatori noi non saremmo un cazzo, lo vuoi capire? Non ti scordare di me. Cioè, hai capito? Togli i piloni al ponte e il ponte non è niente. Mi porto giù io? Sto scherzando, non si incazzano.",
+    "end": 2608.35,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "poesia momento elettronico i due sto piangendo di gioia grazie di nuovo Manuel Camionista salutiamo anche i DJ Follo ciao ragazzi com'è stato vedere il programma da lì? bello? volete andare giù da lì? dice la Laura che non possono è per quello che li mando sempre giù sai che li porto sempre giù adesso vi porto giù dopo lui si incazza ma adesso vi porto giù guarda giù Laura, ma senza gli ascoltatori noi non saremmo un cazzo, lo vuoi capire? Non ti scordare di me. Cioè, hai capito? Togli i piloni al ponte e il ponte non è niente. Mi porto giù io? Sto scherzando, non sei cazzato.",
     "titolo": "Manuel Camionista",
     "tema": [
       "viaggio",
