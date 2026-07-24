@@ -601,7 +601,32 @@ def main() -> None:
             return False
         return (TRASCRIZIONI_DIR / f"{data_str}.json").exists() or (FRAMMENTI_DIR / f"{data_str}.json").exists()
 
-    if not args.forza:
+    marcatore_attuale = f'"_config_versione": "{CONFIG_VERSIONE}"'.encode("utf-8")
+
+    def _gia_rifatto_con_config_attuale(mp3: Path) -> bool:
+        # --forza rilancia da capo ogni volta (nessuna memoria tra un lancio e
+        # l'altro) - senza questo controllo, ogni riavvio del batch (es. per
+        # applicare un fix) rifà tutti gli episodi gia' rifatti nei run
+        # precedenti della STESSA campagna, invece di riprendere da dove era
+        # rimasto (scoperto in produzione 2026-07-24: 6+ riavvii la stessa
+        # notte avevano tenuto il batch fermo sul 2013 per un'ora).
+        data_str = parse_data(mp3.name)
+        if not data_str:
+            return False
+        dest = TRASCRIZIONI_DIR / f"{data_str}.json"
+        if not dest.exists():
+            return False
+        try:
+            with open(dest, "rb") as fh:
+                inizio = fh.read(200)
+        except OSError:
+            return False
+        return marcatore_attuale in inizio
+
+    if args.forza:
+        if args.gpu:
+            mp3s = [p for p in mp3s if not _gia_rifatto_con_config_attuale(p)]
+    else:
         mp3s = [p for p in mp3s if not _gia_fatto(p)]
 
     if args.limit:
