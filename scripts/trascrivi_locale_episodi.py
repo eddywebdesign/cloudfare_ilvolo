@@ -538,7 +538,16 @@ def main() -> None:
 
     if args.gpu:
         device, compute_type, batch_size, threads, cpu_affinity = "cuda", "float16", 16, None, None
-        beam_size, best_of, initial_prompt = 5, 5, PROMPT_DOMINIO
+        # initial_prompt=PROMPT_DOMINIO RIMOSSO 2026-07-24: test dal vivo (stesso episodio,
+        # con/senza prompt) ha mostrato che whisperx lo re-inietta ad ogni finestra, non solo
+        # alla prima - causa un'allucinazione a loop del testo del prompt durante i passaggi
+        # musicali (confermate 1420 occorrenze in 200 episodi recenti). Senza prompt: stesso
+        # parlato reale identico parola per parola, PIU' parole totali (4414 vs 4235 su un
+        # episodio di test) perche' il tempo prima "sprecato" nell'eco viene invece usato per
+        # tentare la trascrizione vera del contenuto. Il presunto guadagno (recupero nome
+        # programma/sigle) non si e' confermato: "Fabio Volo"/nome show riconosciuti identici
+        # in entrambe le versioni. Vedi [[project_ilvolodelmattino_pipeline_infra]].
+        beam_size, best_of, initial_prompt = 5, 5, None
     else:
         beam_size, best_of, initial_prompt = None, None, None
         device, compute_type, batch_size, threads = "cpu", "int8", 8, args.threads
