@@ -3,7 +3,7 @@
     "id": "2016-02-11-000",
     "start": 0.05,
     "end": 0.5,
-    "speaker_raw": "SPEAKER_02",
+    "speaker_raw": "SPEAKER_01",
     "testo": "It's ready to jam!",
     "titolo": "",
     "tema": [],
@@ -13,9 +13,9 @@
   {
     "id": "2016-02-11-001",
     "start": 34.51,
-    "end": 163.51,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "Ciao! no no no a presto ciao ciao",
+    "end": 34.61,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Ciao!",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -23,10 +23,10 @@
   },
   {
     "id": "2016-02-11-002",
-    "start": 187.81,
-    "end": 241.55,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "come lo trovi il microfono qua? dimmi se ti trovi bene come posizione ti trovi bene? aspetta che regolo anche il volume ti parli qua ti trovi bene? siamo già in onda lo sai che ci stiamo ascoltando non ti vedevo che eri rilassato tanto tu parolacce non ne dici per cui sono stato sereno io ho degli amici che anche magari cantanti così che chiamiamo prima altri che chiamo colosquillo in onda ecco quelli colosquillo in onda è perché mi fido altri che magari mi chiamano dicono quelle cose che privatamente vanno bene ma pubblicamente invece sono politicamente scorrette siccome l'Italia è un paese di gente che si scandalizza si scandalizzano tutti Senza poi praticare un reale cambiamento, però si offendono in qualsiasi categoria. Sono un paio di conservatori.",
+    "start": 83.46,
+    "end": 83.62,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "da da da",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -34,24 +34,21 @@
   },
   {
     "id": "2016-02-11-003",
-    "start": 241.65,
-    "end": 247.93,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "E' come Nerone, quando c'era Nerone più o meno così. Quando c'era Nerone era così? Eh sì, infatti ha bruciato Roma perché potevano farlo.",
-    "titolo": "Nerone e la distruzione di Roma",
-    "tema": [
-      "amore",
-      "potere"
-    ],
-    "tipo": "aneddoto",
+    "start": 133.01,
+    "end": 163.51,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Ciao! Ciao Ciao",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
     "id": "2016-02-11-004",
-    "start": 248.01,
+    "start": 187.81,
     "end": 276.31,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Perché potevano farlo, tanto lui. hanno detto no ma questo qui però è un po' antipatico poi fine non è che nessuno si è ribellato allora noi adesso mettiamo la sigla perché oggi essendo giovedì ma siamo in onda davvero? si però ti piace questa conduzione così quasi familiare e allora adesso noi siamo in onda oggi è giovedì 11 febbraio ok va la sigla rientriamo e parliamo d'amore in tutte le sue sfaccettature tranne in quella troppo romantica che mi viene il mal di pancia no ma è bella quella quella romantica ti piace vabbè allora prima la sigla vai",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "come lo trovi il microfono qua? dimmi se ti trovi bene come posizione ti trovi bene? aspetta che regolo anche il volume come ti trovi? si parla qui normale ti trovi bene? siamo già in onda lo sai che ci stiamo ascoltando non ti vedevo che eri rilassato tanto tu parolacce non ne dici per cui sono stato sereno io ho degli amici che anche magari cantanti così che chiamiamo prima altri che chiamo colosquillo in onda ecco quelli colosquillo in onda è perché mi fido altri che magari mi chiamano dicono quelle cose che privatamente vanno bene ma pubblicamente invece sono politicamente scorrette siccome l'Italia è un paese di gente che si scandalizza si scandalizzano tutti Senza poi praticare un reale cambiamento, però si offendono in qualsiasi categoria. Sono un paio di conservatori. E' come Nerone, quando c'era Nerone più o meno così. Quando c'era Nerone era così? Eh sì, infatti ha bruciato Roma perché potevano farlo. Perché potevano farlo, tanto lui. hanno detto no ma questo qui però è un po' antipatico poi fine non è che nessuno si è ribellato allora noi adesso mettiamo la sigla perché oggi essendo giovedì ma siamo in onda davvero? si però ti piace questa conduzione così quasi familiare e allora adesso noi siamo in onda oggi è giovedì 11 febbraio ok va la sigla rientriamo e parliamo d'amore in tutte le sue sfaccettature tranne in quella troppo romantica che mi viene il mal di pancia no ma è bella quella quella romantica ti piace vabbè allora prima la sigla vai",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -60,25 +57,20 @@
   {
     "id": "2016-02-11-005",
     "start": 282.13,
-    "end": 329.27,
-    "speaker_raw": "SPEAKER_22",
-    "testo": "buonanotte Grazie a tutti. Grazie a tutti. oh it's life it's free it's someone waiting for me who'll someday be my",
-    "titolo": "It's Life",
-    "tema": [
-      "amore",
-      "musica"
-    ],
-    "tipo": "riferimento_musica",
-    "video_url": "",
-    "confermato_esterno": true,
-    "copertina": "https://coverartarchive.org/release/254f9a9b-e0fd-47f2-91fa-1919eb023411/front-250"
+    "end": 282.61,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Grazie a tutti.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
   },
   {
     "id": "2016-02-11-006",
-    "start": 337.04,
-    "end": 357.69,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "è arrivato un messaggio di un ascoltatore e c'è una parolaccia nel messaggio e lui mi ha guardato e ha detto si può dire la parolaccia allora se ci sono dei bambini in ascolto allora diciamo così la parolaccia è quella lì che potrebbe sembrare diga quella che fa rima quella con diga si lavora e si fatica si fatica per il pane esatto parliamo d'amore di musica di cinema e di",
+    "start": 292.01,
+    "end": 293.19,
+    "speaker_raw": "SPEAKER_01",
+    "testo": "Grazie a tutti.",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -86,80 +78,65 @@
   },
   {
     "id": "2016-02-11-007",
-    "start": 359.17,
-    "end": 384.16,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "dice questo ragazzo ha ragione i proverbi sono sempre utili quasi tutti per esempio acqua passata non macina più acqua passata non macina più cosa vuol dire? vuol dire che è inutile che sforzarsi di tenere in mente come determinante delle proprie azioni qualcosa di passato è finto non farlo oppure né di venere né di Marte non si arriva e non si parte perché questa cosa?",
-    "titolo": "Acqua passata non macina più",
-    "tema": [
-      "passato",
-      "azioni"
-    ],
-    "tipo": "riflessione",
+    "start": 322.86,
+    "end": 329.27,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "oh it's life it's free it's someone waiting for me who'll someday be my",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
     "id": "2016-02-11-008",
-    "start": 384.28,
-    "end": 386.88,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "né si sposa né si parte è uguale e perché?",
+    "start": 337.04,
+    "end": 830.59,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "È arrivato un messaggio di un ascoltatore, c'è una parolaccia nel messaggio, no? E lui mi ha guardato e ha detto, si può dire la parolaccia? Allora, se ci sono dei bambini in ascolto, allora diciamo così, la parolaccia è quella lì che potrebbe sembrare diga. Quella che fa rima con... Quella con diga. Si lavora e si fatica. Si fatica per il pane... Esatto. Parliamo d'amore, di musica, di cinema e di... Dice questo ragazzo. Ha ragione. I proverbi sono sempre utili, quasi tutti. Per esempio, acqua passata non macina più. Acqua passata non macina più. Cosa vuol dire? Vuol dire che sforzarsi di tenere in mente come determinante delle proprie azioni qualcosa di passato è finto, non farlo. oppure né di venere né di Marte non si arriva e non si parte perché questa cosa? né si sposa né si parte è uguale e tutti pensano che sia venerdì e martedì ma non è mica vero vuol dire né sul principio della passione per qualcuno né sul principio dell'odio per qualcuno bisogna fondare le proprie decisioni cioè decidi quando non è per amore e non è per odio scusami amore e venere è abbastanza così perché Marte e odio? è la guerra Marte è guerra non lo sapevo io questo là quindi né di venere né di Marte non si arriva non si parte vuol dire devi prendere una decisione aspetta quando non c'è di mezzo il sesso e quando non c'è di mezzo l'aggressività l'aggressività pensa che questa cosa che tu mi hai appena detto che non ce l'ho sempre preparata perché volevo andare da un'altra parte però sai che io ti cito sempre la Divina Commedia perché è la mia passione in radio lo dico ogni tanto in realtà ne parlerei tutti i giorni c'è un momento in cui Dante dice che lume non è se non viene dal sereno che non si turba mai o anzi è tenebra o ombra della carne o suo veleno detto semplicemente di venere di Marte pensa te che coincidenza sappiamo che Dante era un illuminato se tu non sei un sereno che non si trova mai quindi ti fai prendere le passioni spesso le decisioni tu pensi che siano razionali invece sono spinte dalla carne o dal suo veleno cioè dalle passioni dall'odio da tutto quello che è interessante ma oggi noi parliamo d'amore si lavora e si fatica e la dica non so come bisogna inventare la parte femminile ma questo no però ah tu dici che mi lavora mi strappazzo mi sto mi lavora e mi strapazzo è per il pazzo è per il pazzo che c'è in me ma è vero oggi Igor è impazzito questo è il proverbio più marxista che ci sia è verissimo adesso non ho mai modo di dire Marx però è simpatico Marx ha svegliato quasi tutto le strutture le ha prese buone uno lavora e fatica perché? perché deve per la carriera, perché la mamma dice no, no, se per lavorare e faticare bene devi pensare a una soddisfazione tua personale autentica di nutrimento quindi la pancia diciamo e l'amore diventare come dire fascinosi sugli altri o avere delle possibilità questo è più da politico invece la cosa migliore è tu lavorando hai la coscienza abbastanza a posto sei abbastanza libero per innamorarti per innamorarti perché chi ha il senso di colpa fa fatica a innamorarsi e sposa quello che gli dice sua mamma rispondo Ok, allora, si parla d'amore, da dove vuoi partire? Perché questo ovviamente è un tema, come dici, si parla di Dio, che è un po' la stessa cosa e potremmo stare qui delle ore infinite. E bisogna stare attenti perché ce ne sono tantissimi di amore, una parola trappola. Allora, dobbiamo distinguere sempre, l'abbiamo già detto tante volte, da amore e innamoramento. Tu hai una risposta corta a questi due elementi, diciamo? Sì, l'amoramento è gratis, l'amore si paga. L'innamoramento è gratis, e Viola con la testa fa sì sì, sembra il gattino dei cinesi che muove il braccio, tu da quando è entrato Sibaldi fai così con la testa, come i cagnolini sulle macchine. Allora, l'amore si paga, in che senso? L'innamoramento, adesso arrivo a primavera, è facilissimo innamorarsi, cioè tu passi in bicicletta è chiaro che ti innamori. Vedi quella lì in bicicletta con quel vestito tutta bella che è passata così. Ma anche se passi tu in bicicletta e arriva a e lei va a piedi la vedi con quel vestito questo seno che esce tutto sboccia sboccia anche l'innamoramento oppure il sorriso lo sguardo e tutto ecco e lì può succedere è un bonus di errore che tu hai non puoi anche sbagliare cosa vuol dire un bonus di errore? che sbagli gratis però cioè sbagli nel senso che ti innamori ma non è vero ok anzi è meglio cioè innamorarsi più volte Poi il punto interessante è quando c'è la decisione se passare dall'innamoramento all'amore o restare lì o andare via. Ok, c'è un momento dove è razionalmente decisivo? Io mi ricordo che c'è. Cioè non è una cosa che tu dici è stato più forte di me? Sì, è più forte di me perché ho deciso di lasciarmi andare. Però come è quando uno si ammala? C'è un momento, un istante, un secondo in cui uno può scegliere se ammalarsi o no. Quella febbre, quell'incendio? quella roba lì che tu dici no io per esempio quando lavoro tanto non mi ammalo praticamente mai come mi rilascio un attimo che me lo posso permettere mi ammalo il 3 di agosto non pensare al termometro al cuscino di giorno vado a casa non vado in ufficio sto lì e boom si riporta l'amore è un po' più lungo perché ci puoi ripensare sono diversi attimi però c'è un momento in cui decidi no questa l'amo o questo lo amo ok che diventa razionale domanda perché dici che paghi? e perché va tutto bene tra due fino a quando uno dice ti amo perché a quel punto è il problema dice oh che misera sono incastrato cioè amiamoci ma non diciamocela nel momento in cui dici ti amo andiamo a vivere insieme lì uno quello dopo insomma quindi uno paga va bene tu faresti una distinzione tra amore per esempio io l'amore che ho per i miei figli per la mia compagna per il mio lavoro o esiste un amore solo è una parola debolissima in italiano cioè le parole sono deboli quando indicano tante cose per esempio una parola forte è caffè uno entra in un bar e dice vorrei un caffè subito come se fosse una parola magica il barman si muove, scatta e va a farti il caffè questa è una parola potente uno dice polso polso è già una parola che vuol dire due cose perché significa il polso e avere polso occhio anche quello vuol dire occhio, attenzione, occhio non puoi andare da un oculista amore vuol dire C'è gente per esempio che è gelosa e dice che è amore, sai quando dici io sono lei perché è amore, invece no, sotto quel nome dici buttano dentro anche cose che non c'entrano. Amore è la stessa parola che serve per indicare il rapporto con la mamma, il rapporto con la fidanzata, il rapporto con l'amante e il rapporto con Dio. Però con queste persone fai cose diverse l'una dall'altra. Ma scusami, in tutto il mondo è così? O l'Europa è divisa in due? Oh, che bello. L'Europa è divisa in due, dal punto di vista etimologico. E' anche umano, però. E poi è fattorialmente inspiegabile. Perché in una parte d'Europa nord-est, Inghilterra, Germania, Russia, l'amore si dice love, libe, lubov, queste cose qui in russo. nell'altra parte su dove si dice amor amor gli spagnoli e sono due parole diverse anche l'origine è diversa e le parole hanno un potere hanno un potere subliminale cioè quando uno usa la parola e la parola vuol dire anche altre cose la mente reagisce male non se ne accorge ma reagisce male allora la differenza è enorme perché il loro amore dei nord orientali è migliore del nostro perché la loro è libertà ti amo e ti rendo libero Love, è una parola antica, come tutte, che viene dall'idea, è la stessa radice di libertà. Quindi love, per esempio, vuol dire tu per me sei così importante che io ti lascio libero di fare tutto quello che vuoi a casa mia. Che è il top della categoria. L'altro? quindi si può dire per esempio alla mamma I love you l'altro invece è amore è una parola questa qui la stessa di kamasutra che vuol dire desiderio esclusivo sessuale cioè tu lo fai solo con me io ti amo e tu sei mia e io sono tuo io ti amo è un marchio mettiamo un zisco e torniamo Io preferisco Love di Kamal.",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
     "id": "2016-02-11-009",
-    "start": 387.38,
-    "end": 405.0,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "e tutti pensano che sia venerdì e martedì ma non è mica vero no, invece è vuol dire né sul principio della passione per qualcuno né sul principio dell'odio per qualcuno bisogna fondare le proprie decisioni cioè decidi quando non è per amore e non è per odio scusami, amore, venere è abbastanza così perché Marte è odio? è la guerra",
-    "titolo": "Né di Venere né di Marte",
-    "tema": [
-      "amore",
-      "odio"
-    ],
-    "tipo": "riflessione",
+    "start": 831.81,
+    "end": 842.79,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "L is for the way you look at me O is for the only one I see V",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
     "id": "2016-02-11-010",
-    "start": 405.72,
-    "end": 468.46,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Marte è guerra non lo sapevo io questo là quindi né di venere né di Marte non si arriva non si parte vuol dire devi prendere una decisione aspetta quando non c'è di mezzo il sesso e quando non c'è di mezzo l'aggressività l'aggressività pensa che questa cosa che tu mi hai appena detto che non ce l'ho sempre preparata perché volevo andare da un'altra parte però sai che io ti cito sempre la Divina Commedia perché è la mia passione in radio lo dico ogni tanto in realtà ne parlerei tutti i giorni c'è un momento in cui Dante dice che lume non è se non viene dal sereno che non si turba mai o anzi è tenebra o ombra della carne o suo veleno detto semplicemente di venere di Marte pensa te che coincidenza sappiamo che Dante era un illuminato se tu non sei un sereno che non si trova mai quindi ti fai prendere le passioni spesso le decisioni tu pensi che siano razionali invece sono spinte dalla carne o dal suo veleno cioè dalle passioni dall'odio da tutto quello che è interessante ma oggi noi parliamo d'amore si lavora e si fatica e la dica non so come bisogna inventare la parte femminile ma questo no però ah tu dici che il lavoro mi sta pazzo mi sto",
-    "titolo": "La Divina Commedia",
-    "tema": [
-      "amore",
-      "passione"
-    ],
-    "tipo": "riferimento_libro",
-    "video_url": "",
-    "confermato_esterno": true,
-    "copertina": "https://covers.openlibrary.org/b/id/11621024-M.jpg"
+    "start": 845.38,
+    "end": 859.72,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "is very very extraordinary is even more than anyone that you adore can love is all that I can give",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
   },
   {
     "id": "2016-02-11-011",
-    "start": 471.44,
-    "end": 530.19,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "mi lavora e mi strapazzo è per il pazzo è per il pazzo che c'è in me ma è vero oggi Igor è impazzito questo è il proverbio più marxista che ci sia perché è verissimo adesso non ho mai modo di dire Marx però è simpatico Marx ha svegliato quasi tutto le strutture le ha prese buone uno lavora e fatica perché? perché deve per la carriera, perché la mamma dice no, no, se per lavorare e faticare bene devi pensare a una soddisfazione tua personale autentica di nutrimento quindi la pancia diciamo e l'amore l'amore cioè comunque diventare come dire fascinosi sugli altri o avere delle possibilità questo è più da politico invece la cosa migliore è tu lavorando hai la coscienza abbastanza a posto sei abbastanza libero per innamorarti per innamorarti perché chi ha il senso di colpa fa fatica a innamorarsi e sposa quello che gli dice sua mamma sposa",
-    "titolo": "Marx e la fatica",
-    "tema": [
-      "lavoro",
-      "fatica"
-    ],
-    "tipo": "aneddoto",
+    "start": 860.97,
+    "end": 922.48,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "a presto L is for the way you look at me O is for the only one I see V is very, very extraordinary E is even more than anyone that you adore Can love is all that I can give you",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
     "id": "2016-02-11-012",
-    "start": 532.43,
-    "end": 542.0,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Ok, allora, si parla d'amore, da dove vuoi partire? Perché questo ovviamente è un tema, come dici, si parla di Dio, che è un po' la stessa cosa e potremmo stare qui delle ore infinite.",
+    "start": 935.21,
+    "end": 935.45,
+    "speaker_raw": "SPEAKER_01",
+    "testo": "a presto",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -167,539 +144,21 @@
   },
   {
     "id": "2016-02-11-013",
-    "start": 542.24,
-    "end": 545.44,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "E bisogna stare attenti perché ce ne sono tantissimi di amore, una parola trappola.",
-    "titolo": "La parola amore è trappola",
-    "tema": [
-      "amore",
-      "trappola"
-    ],
-    "tipo": "riflessione",
+    "start": 958.53,
+    "end": 1453.88,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "L'amore, ecco, per esempio, lui dice, love was made for me and you, è stato creato per me e per te, in qualche modo, no? Allora, abbiamo detto, ci sono due parole, perché, per esempio, io mi accorgo questa cosa, però, per esempio, gli inglesi non hanno ti voglio bene, che è una roba che io faccio fatica a spiegare. Perché ti erano già nel love. Love e ti voglio bene. Ah, ecco, perché quando io dico, no, io non... Non dico mia mamma ti amo, poi glielo posso anche dire, ma è una roba forte, noi diciamo ti voglio bene. L'inglese è non ti voglio bene, noi non abbiamo... Perché loro ce l'hanno dentro il love. Non hanno il ti amo. Perché loro, forse non lo sanno, perché anche loro ovviamente avranno i possessivi nelle relazioni, però loro appunto hanno questa etimologia love che viene da ti libero, cioè ti lascio libero, ti fai quello che vuoi. io per esempio una volta a Verona c'era il balconcino vicino a Romeo e Giulietta dovevano rifare la terrazza vendevano dei quadratini dove potevi scrivere quello che volevi sull'amore e la mia frase è stata se mi ami veramente lasciami in pace bello if you love me Cioè io per esempio la mia compagna la prendo per tutta, ha delle cose che mi danno anche fastidio, però non insisto mai per farla mia, nel senso non la voglio fare mia, cioè non la voglio a mia immagine e somiglianza, la voglio così, prendo un po' il tutto. Forse nel love c'è questo, invece l'amore nostro, ti amo così o l'amore spagnolo così, è più ti rubo al mondo, sei mia e adesso diciamo... Ecco, quando uno dice ti rubo al mondo, ti sto facendo un favore o lo stai facendo tu a me che vieni nel mio... Come la canzone, ha ragione quella vecchia canzone, amore vuol dir gelosia. Amore vuol dir gelosia. È vero, love no. No. E tu sia quella parte d'Europa, sia questa devono esprimere una cosa che non ci sta dentro intera, né in love né in... Quando una parola, mi dici tu, significa più cose, perde la sua potenza. Sì. però scusami anche la parola Dio a questo punto è una parola che contiene tante cose quella è una parola bloccante perché Dio da noi in Italia è per forza maschile singolare quindi già è un marchio inizio fin da quando sei piccolo tu devi immaginare Dio come maschio con la barba, il triangolo, l'occhio il papà di Gesù non c'è mai la mamma di Gesù però lui è anche il padre non c'è la foto di Dio da bambino come era da bambino nessuno riesce a immaginare Dio da bambino il papà di Gesù diciamo il nonno da piccolo il nonno perché Dio è sempre stato e lo chiamano signore deve essere una certa età però lui è nato già vecchio come Linus purtroppo E questo blocca il pensiero, perché uno può pensare anche a Dio femmina a un certo punto, può pensare a un Dio bambino. Però quando c'è stato un Papa che ha detto Dio è anche donna, gli hanno dato da bere il caffè dopo una settimana, ha detto due cose, tocchiamolo Ior e Dio è anche donna, vuole un caffè. È avuto un malore. È avuto un malore, forse Dio non era d'accordo, qualcuno dice che l'hanno avvelenato, magari non c'è stato Dio. In questi casi sembra che Dio sia in ostaggio, però non so se si può dire questo. no no si può dire che Dio è un ostaggio assolutamente cioè chiunque in una discussione ti mette davanti la croce con Gesù dice sei contro di lui è chiaro che lui lo sta usando è sotto ricatto Gesù no? è il ostaggio dalla chiesa questo è evidente un po' in ostaggio il fatto però si possono dire queste cose ci può dire tutto perché io lui si chiama Igor Sibaldi lo dico per chi lo deve querelare Igor Sibaldi io sono Fabio Ore sono un altro io ho già le mie battaglie con quelli del latte comunque tu dici tu dici ok io come tu mi insegni di questa frase all'inizio siamo a posto come tu ridete spesso il crocifisso uno è incastrato la figura sul crocifisso certo è inchiodato cioè il simbolo non è Gesù che fa il miracolo no Gesù che ride non c'è una foto di Gesù che ride non c'è una foto di Gesù che lavora e non ride mai che Dio sei nel Vangelo non c'è un punto dove c'è Gesù che lavora interessante io non lavoravo lavora mai e quando vedeva qualcuno che lavorava glielo faceva smettere cosa fai tu il pescatore? ma vieni qua che ti faccio Matteo che lavora in banca Matteo cosa fai? tutti i giorni in ufficio vieni fuori perché Dio porta fuori la gente dal lavoro? per amore e tutte le foto di Gesù nel Vangelo sono a tavola non lavora, mangia gli lavano i piedi lui lava i piedi degli altri ma non c'era la maddalena che piange sui piedi quella è bellissima quella è una grande storia e senti come siamo arrivati qua stavamo dicendo è inchiodato sulla croce si famoso amore di Dio che non è quello della fidanzata perché con la fidanzata fai delle cose che Dio con te non fa certo l'amore di Dio naturalmente dovrebbe scattare a questo punto come dice tiralo giù da quella croce lì perché lo vedete fammi vedere quando moltiplicava i panni e i pesci sarebbe bella una religione come simbolo uno sorridente che fa miracoli non c'è questa cosa è sempre un po' cupa la visione di Dio è sempre un po' giudicante ci vorrebbe un mangelo o due perché i mangeli purtroppo qual è il tuo preferito Giovanni? Alla fine lui muore, e poi c'è quel sequel che lui torna, che però è brevissimo. Sarebbe bello un Vangelo 2 come ce ne sono stati? C'è questa storia, scusami se ti trovo, perché tu la sai benissimo, che quando Gesù dice a Pietro che lui diventerà il fondatore della Chiesa, cioè tu farai le mie pecorelle, quelle lì un po' più stupide, però quelle un po' più semplici. Quando lui nella barca non lo riconosce, lui dice, ma tu mi vuoi veramente? Oh, ma io ti riconosco, ti voglio bene. No, ma tu sei pazzo di me, gli dice Gesù. E Pietro dice, sì, insomma, ho capito, sei te, ti voglio bene. Complimenti, bravo. Tu la sai bene questa, dirla bene. È l'ultimo capitolo di Giovanni. Allora, Gesù dopo che è risorto, arriva e parla con Pietro. prima era sulla barca c'è una storia lunga sulla barca e dice Pietro tu mi ami nella traduzione normale Pietro tu mi ami e Pietro dice sì signore tu lo sai che ti amo poi lo dice ancora Pietro ma tu mi ami poi lo chiede una terza volta che sembra che Gesù è un po' rintronato oh me l'hai già chiesto due volte posso dirti come le donne che tu sei nel letto sei stanco morto hai spento la luce ti giri e lei ti dice ma tu mi ami ancora e tu dici 4 ore no adesso che ho soldo no no questi discorsi che non finiscono mai quindi Gesù chiede 3 volte a Pietro mi ami no? la traduzione è sbagliata è uno dei grandi errori della traduzione perché la prima volta Gesù chiede a Pietro Pietro tu mi ami tantissimo appassionatamente e Pietro in greco risponde io ti sono amico ok Poi allora Gesù gli dice, ma allora veramente non mi ami? Dice, no, e ti sono amico. E la terza volta dice, ma Pietro mi sei solo amico? E Pietro dice, eh, sono solo amico. E Gesù si risente un po', lo tratta male e gli dice, guarda, allora a questo punto tu occupati proprio delle pecorelle, cioè del greggio. Invece è bravo lui, che sarebbe il discepolo prediletto, quello lì mi ama tantissimo. Che qualcuno dice che si ama a Dalena. Io. C'è uno di quelli che sostiene che Maddalena era, perché si capisce da come scrive che è una donna, non ci vuole un genio. Comunque va bene, quindi diciamo Pietro si occupa di quello, cioè Vaticano, la chiesa e così, di quelli dovete vivere con una gamba alzata e tutti dobbiamo vivere con una gamba alzata, i timorati di Dio io li chiamo, che adesso ci manderanno delle mail dicendo voi andrete all'infanzia. Quelli lì, insomma, quelli no matrimonio, tutto quello. Comunque, amore e timore sono due cose, religione e amore, religione e timore. Religione e amore è bellissima, sarebbe crescete e moltiplicatevi, l'unico comandamento, bellissimo. Una religione che dicesse crescete e moltiplicatevi e basta sarebbe meravigliosa, già dice tutto. poi sono quella invece del timore fai questo, fai questo, fai questo se no guarda come va a finire e purtroppo ne siamo abituati alla seconda per il senso di colpa togliendo il senso di colpa una persona si ritrova in un mondo totalmente diverso totalmente suo anche per il senso di colpa tu marci come un motorino fai tutte le direzioni ti senti sempre che non hai fatto abbastanza eccetera eccetera se trovassero l'antidoto al senso di colpa che non è ancora stato trovato se lo trovassero nel giro di un secondo la vita di una persona cambierebbe e uno si accorgerebbe di aver sempre vissuto in un mondo che non era quello che credeva love is feeling",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
     "id": "2016-02-11-014",
-    "start": 545.78,
-    "end": 571.39,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Allora, dobbiamo distinguere sempre, l'abbiamo già detto tante volte, da amore e innamoramento. Tu hai una risposta corta a questi due elementi, diciamo? Sì, l'amoramento è gratis, l'amore si paga. L'innamoramento è gratis, e Viola con la testa fa sì sì, sembra il gattino dei cinesi che muove il braccio, tu da quando è entrato Sibaldi fai così con la testa, come i cagnolini sulle macchine. Allora, l'amore si paga, in che senso?",
-    "titolo": "L'amoramento è gratis",
-    "tema": [
-      "amore",
-      "innamoramento"
-    ],
-    "tipo": "aneddoto",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-11-015",
-    "start": 571.59,
-    "end": 576.63,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "L'innamoramento, adesso arrivo a primavera, è facilissimo innamorarsi, cioè tu passi in bicicletta è chiaro che ti innamori.",
-    "titolo": "Innamorarsi è facile",
-    "tema": [
-      "amore",
-      "innamoramento"
-    ],
-    "tipo": "aneddoto",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-11-016",
-    "start": 576.65,
-    "end": 579.97,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Vedi quella lì in bicicletta con quel vestito tutta bella che è passata così.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-11-017",
-    "start": 579.99,
-    "end": 581.01,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "Ma anche se passi tu in bicicletta e l'hai fatto.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-11-018",
-    "start": 581.71,
-    "end": 594.87,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "e lei va a piedi la vedi con quel vestito questo seno che esce tutto sboccia sboccia anche l'innamoramento oppure il sorriso lo sguardo e tutto ecco e lì può succedere è un bonus di errore che tu hai non puoi anche sbagliare cosa vuol dire un bonus di errore?",
-    "titolo": "Il sorriso e lo sguardo",
-    "tema": [
-      "amore",
-      "innamoramento"
-    ],
-    "tipo": "aneddoto",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-11-019",
-    "start": 594.91,
-    "end": 608.92,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "che sbagli gratis però cioè sbagli nel senso che ti innamori ma non è vero ok anzi è meglio cioè innamorarsi più volte Poi il punto interessante è quando c'è la decisione se passare dall'innamoramento all'amore o restare lì o andare via.",
-    "titolo": "Innamorarsi più volte",
-    "tema": [
-      "amore",
-      "innamoramento"
-    ],
-    "tipo": "riflessione",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-11-020",
-    "start": 609.04,
-    "end": 615.76,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Ok, c'è un momento dove è razionalmente decisivo? Io mi ricordo che c'è. Cioè non è una cosa che tu dici è stato più forte di me?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-11-021",
-    "start": 616.47,
-    "end": 625.03,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "No, è più forte di me perché ho deciso di lasciarmi andare. Però com'è quando uno si ammala? C'è un momento, un istante, un secondo in cui uno può scegliere se ammalarsi o no.",
-    "titolo": "La scelta di ammalarsi",
-    "tema": [
-      "amore",
-      "malattia"
-    ],
-    "tipo": "riflessione",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-11-022",
-    "start": 625.05,
-    "end": 625.69,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Quella febbre, quell'incendio?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-11-023",
-    "start": 626.09,
-    "end": 650.82,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "quella roba lì che tu dici no io per esempio quando lavoro tanto non mi ammalo praticamente mai come mi rilascio un attimo che me lo posso permettere mi ammalo il 3 di agosto perché non pensi al termometro nel cuscino di giorno vado a casa le due e non vado in ufficio sto lì e boom si riporta l'amore è un po' più lungo perché ci puoi ripensare sono diversi attimi però c'è un momento in cui decidi no questa l'amo o questo lo amo ok che diventa razionale domanda perché dici che paghi?",
-    "titolo": "Il momento della scelta",
-    "tema": [
-      "amore",
-      "decisione"
-    ],
-    "tipo": "aneddoto",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-11-024",
-    "start": 652.02,
-    "end": 681.26,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "e perché va tutto bene tra due fino a quando uno dice ti amo perché a quel punto è il problema dice oh che misera sono incastrato cioè amiamoci ma non diciamoci nel momento in cui dici ti amo andiamo a vivere insieme lì uno quello dopo insomma quindi uno paga va bene tu faresti una distinzione tra amore per esempio io l'amore che ho per i miei figli per la mia compagna per il mio lavoro o esiste un amore solo è una parola debolissima in italiano",
-    "titolo": "Il problema del vivere insieme",
-    "tema": [
-      "amore",
-      "relazione"
-    ],
-    "tipo": "riflessione",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-11-025",
-    "start": 682.06,
-    "end": 709.91,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "cioè le parole sono deboli quando indicano tante cose per esempio una parola forte è caffè uno entra in un bar e dice vorrei un caffè subito come se fosse una parola magica il barman si muove, scatta e va a farti il caffè questa è una parola potente uno dice polso polso è già una parola che vuol dire due cose perché significa il polso e avere polso occhio anche quello vuol dire occhio, attenzione, occhio non puoi andare da un oculista amore vuol dire",
-    "titolo": "Le parole deboli",
-    "tema": [
-      "parole",
-      "potenza"
-    ],
-    "tipo": "riflessione",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-11-026",
-    "start": 710.47,
-    "end": 718.42,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "C'è gente per esempio che è gelosa e dice che è amore, sai quando dici io sono lei perché è amore, invece no, sotto quel nome dici buttano dentro anche cose che non c'entrano.",
-    "titolo": "Amore e gelosia",
-    "tema": [
-      "amore",
-      "gelosia"
-    ],
-    "tipo": "riflessione",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-11-027",
-    "start": 718.46,
-    "end": 727.0,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "Amore è la stessa parola che serve per indicare il rapporto con la mamma, il rapporto con la fidanzata, il rapporto con l'amante e il rapporto con Dio, però con queste persone fai cose diverse l'una dall'altra.",
-    "titolo": "Amore e relazioni",
-    "tema": [
-      "amore",
-      "relazioni"
-    ],
-    "tipo": "riflessione",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-11-028",
-    "start": 727.18,
-    "end": 740.06,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Ma scusami, in tutto il mondo è così? O l'Europa è divisa in due? Oh, che bello. L'Europa è divisa in due dal punto di vista etimologico.",
-    "titolo": "Europa divisa",
-    "tema": [
-      "europa",
-      "lingua"
-    ],
-    "tipo": "aneddoto",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-11-029",
-    "start": 740.66,
-    "end": 826.78,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "E' anche umano. E poi è fattorialmente inspiegabile. Perché in una parte d'Europa nord-est, Inghilterra, Germania, Russia, l'amore si dice love, libe, lubov, queste cose qui in russo. nell'altra parte su dove si dice amor amor gli spagnoli e sono due parole diverse anche l'origine è diversa e le parole hanno un potere hanno un potere subliminale cioè quando uno usa la parola e la parola vuol dire anche altre cose la mente reagisce male non se ne accorge ma reagisce male allora la differenza è enorme perché il loro amore dei nord orientali è migliore del nostro perché la loro è libertà ti amo e ti rendo libero è una parola antica come tutte che viene dall'idea la stessa radice di libertà quindi love per esempio vuol dire tu per me sei così importante che io ti lascio libero di fare tutto quello che vuoi a casa mia che è il top della categoria l'altro quindi si può dire per esempio alla mamma I love you l'altro invece è amore è una parola questa qui la stessa di kamasutra che vuol dire desiderio esclusivo sessuale cioè tu lo fai solo con me quindi io ti amo e tu sei mia e io sono tuo io ti amo è un marchio ok mettiamo un zisco e torniamo",
-    "titolo": "Parole diverse per amore",
-    "tema": [
-      "amore",
-      "lingua"
-    ],
-    "tipo": "aneddoto",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-11-030",
-    "start": 828.58,
-    "end": 830.52,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Io preferisco Love di Kamal.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-11-031",
-    "start": 845.38,
-    "end": 935.45,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "is very very extraordinary is even more than anyone that you adore can love is all that I can give a presto is for the way you look at me oh is for the only one I see V is very very extraordinary E is even more than anyone that you adore can love is all that I can give you a presto",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": "",
-    "autore": ""
-  },
-  {
-    "id": "2016-02-11-032",
-    "start": 958.53,
-    "end": 983.28,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "l'amore ecco per esempio lui dice love was made for me in a new way è stato creato per me per te in qualche modo allora abbiamo detto ci sono due parole perché per esempio io mi accorgo questa cosa però per esempio gli inglesi non hanno ti voglio bene che è una roba che io faccio fatica a spiegare perché i miei amici erano già nel love love è ti voglio bene ah ecco perché quando io dico no io non Non dico mia mamma ti amo, poi glielo posso anche dire, ma è una roba forte. Noi diciamo ti voglio bene.",
-    "titolo": "Love was made for me",
-    "tema": [
-      "amore"
-    ],
-    "tipo": "riferimento_musica",
-    "video_url": "",
-    "confermato_esterno": true,
-    "copertina": "https://coverartarchive.org/release/09e8b341-3d39-4cd4-a25d-1dc04d0a7833/front-250"
-  },
-  {
-    "id": "2016-02-11-033",
-    "start": 983.3,
-    "end": 985.57,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "In inglese non ti voglio bene, noi non abbiamo...",
-    "titolo": "Ti voglio bene",
-    "tema": [
-      "amore"
-    ],
-    "tipo": "riferimento_musica",
-    "video_url": "",
-    "confermato_esterno": true,
-    "copertina": "https://coverartarchive.org/release/ea174475-255b-48b2-9c8e-92d795a7472c/front-250"
-  },
-  {
-    "id": "2016-02-11-034",
-    "start": 986.05,
-    "end": 1050.14,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Perché loro ce l'hanno dentro il love. Perché loro, forse non lo sanno, perché anche loro ovviamente ci avranno i possessivi nelle relazioni, però loro appunto hanno questa etimologia love che viene dati libero, cioè ti lascio libero, ti fai quello che vuoi... io per esempio una volta a Verona c'era il balconcino vicino a Romeo e Giulietta dovevano rifare la terrazza vendevano dei quadratini dove potevi scrivere quello che volevi sull'amore e la mia frase è stata se mi ami veramente lasciami in pace bello if you love me Cioè io per esempio la mia compagna la prendo per tutta, ha delle cose che mi danno anche fastidio, però non insisto mai per farla mia, nel senso non la voglio fare mia, cioè non la voglio a mia immagine e somiglianza, la voglio così, prendo un po' il tutto. Forse nel love c'è questo, invece l'amore nostro, ti amo così o l'amore spagnolo così, è più ti rubo al mondo, sei mia e adesso diciamo... Ecco, quando uno dice ti rubo al mondo, ti sto facendo un favore o lo stai facendo tu a me che vieni nel mio... Come la canzone, ha ragione quella vecchia canzone, amore vuol dir gelosia.",
-    "titolo": "Balconcino di Verona e i quadratini",
-    "tema": [
-      "amore",
-      "verona"
-    ],
-    "tipo": "aneddoto",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-11-035",
-    "start": 1050.22,
-    "end": 1061.6,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "Amore vuol dir gelosia. È vero, love no. No. E tu sia quella parte d'Europa, sia questa devono esprimere una cosa che non ci sta dentro intera, né in love né in...",
-    "titolo": "Amore vuol dire gelosia",
-    "tema": [
-      "amore",
-      "gelosia"
-    ],
-    "tipo": "riflessione",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-11-036",
-    "start": 1061.68,
-    "end": 1066.28,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Quando una parola, mi dici tu, significa più cose, perde la sua potenza. Sì.",
-    "titolo": "Potenza delle parole",
-    "tema": [
-      "parole",
-      "potenza"
-    ],
-    "tipo": "riflessione",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-11-037",
-    "start": 1066.64,
-    "end": 1115.52,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "però scusami anche la parola Dio a questo punto è una parola che contiene tante cose quella è una parola bloccante perché Dio da noi in Italia è per forza maschile singolare quindi già è un marchio inizio fin da quando sei piccolo tu devi immaginare Dio come maschio con la barba, il triangolo, l'occhio il papà di Gesù non c'è mai la mamma di Gesù però lui è anche il padre non c'è la foto di Dio da bambino come era da bambino nessuno riesce a immaginare Dio da bambino il papà di Gesù diciamo il nonno da piccolo il nonno perché Dio è sempre stato e lo chiamano signore deve essere una certa età però lui è nato già vecchio come Linus purtroppo E questo blocca il pensiero, perché uno può pensare anche a Dio femmina a un certo punto, può pensare a un Dio bambino.",
-    "titolo": "Dio come maschio con la barba",
-    "tema": [
-      "religione",
-      "Dio"
-    ],
-    "tipo": "aneddoto",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-11-038",
-    "start": 1115.54,
-    "end": 1125.42,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Però quando c'è stato un Papa che ha detto Dio è anche donna, gli hanno dato da bere il caffè dopo una settimana, ha detto due cose, tocchiamolo Ior e Dio è anche donna, vuole un caffè.",
-    "titolo": "Il Papa che dice Dio è donna",
-    "tema": [
-      "religione",
-      "dio"
-    ],
-    "tipo": "aneddoto",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-11-039",
-    "start": 1125.46,
-    "end": 1126.5,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "È avuto un malore.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-11-040",
-    "start": 1126.52,
-    "end": 1131.18,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "È avuto un malore, forse Dio non era d'accordo, qualcuno dice che l'hanno avvelenato, magari non c'è stato Dio.",
-    "titolo": "Dio non era d'accordo",
-    "tema": [
-      "religione",
-      "Dio"
-    ],
-    "tipo": "aneddoto",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-11-041",
-    "start": 1131.2,
-    "end": 1134.54,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "In questi casi sembra che Dio sia in ostaggio, però non so se si può dire questo.",
-    "titolo": "Dio in ostaggio",
-    "tema": [
-      "religione",
-      "Dio"
-    ],
-    "tipo": "riflessione",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-11-042",
-    "start": 1134.76,
-    "end": 1159.86,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "no no si può dire che Dio è un ostaggio assolutamente cioè chiunque in una discussione ti mette davanti la croce con Gesù dice sei contro di lui è chiaro che lui lo sta usando è sotto ricatto Gesù no? è l'ostaggio dalla chiesa questo è evidente un po' in ostaggio il fatto però si possono dire queste cose ci può dire tutto perché io lui si chiama Igor Sibaldi lo dico per chi lo deve querelare Igor Sibaldi io sono Fabio Ore sono un altro io ho già le mie battaglie con quelli del latte comunque tu dici tu dici",
-    "titolo": "Dio come ostaggio",
-    "tema": [
-      "religione",
-      "potere"
-    ],
-    "tipo": "riflessione",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-11-043",
-    "start": 1161.42,
-    "end": 1186.58,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "ok io come tu mi insegni di questa frase all'inizio siamo a posto come tu ridete spesso il crocifisso uno è incastrato la figura sul crocifisso certo è inchiodato cioè il simbolo non è Gesù che fa il miracolo no Gesù che ride non c'è una foto di Gesù che ride non c'è una foto di Gesù che lavora e non ride mai che Dio sei nel Vangelo non c'è un punto dove c'è Gesù che lavora interessante io non lavoravo lavora mai e quando vedeva qualcuno che lavorava glielo faceva smettere",
-    "titolo": "Gesù che lavora",
-    "tema": [
-      "religione",
-      "Gesù"
-    ],
-    "tipo": "aneddoto",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-11-044",
-    "start": 1187.32,
-    "end": 1200.78,
-    "speaker_raw": "SPEAKER_05",
-    "testo": "cosa fai tu il pescatore? ma vieni qua che ti faccio Matteo che lavora in banca Matteo cosa fai? tutti i giorni in ufficio vieni fuori perché Dio porta fuori la gente dal lavoro? per amore",
-    "titolo": "Matteo il pescatore",
-    "tema": [
-      "religione",
-      "Gesù"
-    ],
-    "tipo": "aneddoto",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-11-045",
-    "start": 1204.36,
-    "end": 1232.37,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "e tutte le foto di Gesù nel Vangelo sono a tavola non lavora, mangia gli lavano i piedi lui lava i piedi degli altri ma non c'era la maddalena che piange sui piedi quella è bellissima quella è una grande storia e senti come siamo arrivati qua stavamo dicendo è inchiodato sulla croce si famoso amore di Dio che non è quello della fidanzata perché con la fidanzata fai delle cose che Dio con te non fa certo",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": "",
-    "autore": ""
-  },
-  {
-    "id": "2016-02-11-046",
-    "start": 1233.99,
-    "end": 1271.92,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "l'amore di Dio naturalmente dovrebbe scattare a questo punto tiralo giù da quella croce lì fammi vedere quando moltiplicava i panni e i pesci sarebbe bella una religione come simbolo uno sorridente che fa miracoli non c'è questa cosa è sempre un po' cupa la visione di Dio è sempre un po' giudicante ci vorrebbe un mangelo o due perché i mangeli purtroppo qual è il tuo preferito Giovanni? Alla fine lui muore, e poi c'è quel sequel che lui torna, che però è brevissimo. Sarebbe bello un Vangelo 2 come ce ne sono stati?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": "",
-    "autore": ""
-  },
-  {
-    "id": "2016-02-11-047",
-    "start": 1272.18,
-    "end": 1300.51,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "C'è questa storia, scusami se ti trovo, perché tu la sai benissimo, che quando Gesù dice a Pietro che lui diventerà il fondatore della Chiesa, cioè tu farai le mie pecorelle, quelle lì un po' più stupide, però quelle un po' più semplici. Quando lui nella barca non lo riconosce, lui dice, ma tu mi vuoi veramente? Oh, ma io ti riconosco, ti voglio bene. No, ma tu sei pazzo di me, gli dice Gesù. E Pietro dice, sì, insomma, ho capito, sei te, ti voglio bene. Complimenti, bravo.",
-    "titolo": "Gesù e Pietro sulla barca",
-    "tema": [
-      "amore",
-      "fede"
-    ],
-    "tipo": "aneddoto",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-11-048",
-    "start": 1300.53,
-    "end": 1374.93,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "Tu la sai bene questa, dirla bene. È l'ultimo capitolo di Giovanni. Allora, Gesù dopo che è risorto, arriva e parla con Pietro. prima era sulla barca c'è una storia lunga sulla barca e dice Pietro tu mi ami nella traduzione normale Pietro tu mi ami e Pietro dice sì signore tu lo sai che ti amo poi lo dice ancora Pietro ma tu mi ami poi lo chiede una terza volta che sembra che Gesù è un po' rintronato oh me l'hai già chiesto due volte posso dirti come le donne che tu sei nel letto sei stanco morto hai spento la luce ti giri e lei ti dice ma tu mi ami ancora e tu dici no adesso che ho soldo questi discorsi che non finiscono mai quindi Gesù chiede tre volte a Pietro mi ami la traduzione è sbagliata è uno dei grandi errori della traduzione perché la prima volta Gesù chiede a Pietro Pietro tu mi ami tantissimo appassionatamente e Pietro in greco risponde io ti sono amico ok Poi allora Gesù gli dice, ma allora veramente non mi ami? Dice, no, e ti sono amico. E la terza volta dice, ma Pietro mi sei solo amico? E Pietro dice, eh, sono solo amico. Ok. E Gesù si risente un po', lo tratta male e gli dice, guarda, allora a questo punto tu occupati proprio delle pecorelle, cioè del greggio, no? Del greggio. Invece è bravo lui, che sarebbe il discepolo di letto, quello lì mi ama tantissimo.",
-    "titolo": "Gesù e Pietro",
-    "tema": [
-      "amore",
-      "fede"
-    ],
-    "tipo": "citazione",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-11-049",
-    "start": 1374.95,
-    "end": 1376.55,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Che qualcuno dice che sia Maddalena.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-11-050",
-    "start": 1376.73,
-    "end": 1376.83,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "Io.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-11-051",
-    "start": 1377.67,
-    "end": 1397.55,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "c'è uno di quelli che sostiene che Maddalena era perché si capisce da come scrive che è una donna, non ci vuole un genio comunque va bene, quindi diciamo Pietro si occupa di quello cioè Vaticano, la chiesa così di quelli dovete vivere con una gamba alzata e tutti dovevamo vivere con la gamba alzata i timorati di Dio io li chiamo che adesso ci manderanno delle mail dicendo voi andrete all'infanzia",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-11-052",
-    "start": 1398.03,
-    "end": 1453.88,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "Quelli lì sono matrimoni. Amore e timore sono due cose. Religione e amore e religione e timore. Religione e amore è bellissima. Sarebbe crescete e moltiplicatevi. L'unico comandamento. Una religione che dicesse crescete e moltiplicatevi e basta sarebbe meravigliosa. Già dice tutto. poi sono quella invece del timore fai questo, fai questo, fai questo se no guarda come va a finire e purtroppo ne siamo abituati alla seconda per il senso di colpa togliendo il senso di colpa una persona si ritrova in un mondo totalmente diverso totalmente suo anche per il senso di colpa tu marci come un motorino fai tutte le direzioni ti senti sempre che non hai fatto abbastanza eccetera eccetera se trovassero l'antidoto al senso di colpa che non è ancora stato trovato se lo trovassero nel giro di un secondo la vita di una persona cambierebbe e uno si accorgerebbe di aver sempre vissuto in un mondo che non era quello che credeva love is feeling",
-    "titolo": "Religione e amore",
-    "tema": [
-      "amore",
-      "religione"
-    ],
-    "tipo": "riflessione",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-11-053",
     "start": 1483.01,
     "end": 1571.29,
-    "speaker_raw": "SPEAKER_24",
-    "testo": "love is wanting to be loved love is touch Love is asking to be loved Love is you You and me ... ... ... ... ... Vivi in là",
+    "speaker_raw": "SPEAKER_02",
+    "testo": "love is wanting to be loved love is touch Love is asking to be loved Love is you You and me ... ... ... Vivi in là",
     "titolo": "Citazione sul significato dell'amore",
     "tema": [
       "amore"
@@ -708,47 +167,32 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-11-054",
+    "id": "2016-02-11-015",
     "start": 1585.72,
     "end": 1628.82,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_05",
     "testo": "che il nostro obiettivo era anche far addormentare i nostri ascoltatori quindi non solo parliamo tanto ma ho anche scelto delle canzoni ma sono canzoni magiche queste sono canzoni che hanno dentro una spiritualità molto forte un ascoltatore si è molto risentito dice ma come avete detto che Gesù è morto io non avevo ancora finito di leggere il Vangelo vi avete spoilerato il Vangelo va bene Nella seconda mezz'ora ci sarà un po' più di allegria, state tranquilli, sono temi importanti Un cattolico di quelli lì che ti dicevo ha scritto, ha detto che sei un po' un idiota Radio, DJ, One Nation, One Station",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
-    "id": "2016-02-11-055",
+    "id": "2016-02-11-016",
     "start": 1631.08,
-    "end": 1656.7,
-    "speaker_raw": "SPEAKER_20",
-    "testo": "Pronti per scendere a Bari? Dopo il grande successo della prima edizione, la DJ Ten torna in Puglia, domenica 13 di marzo. Le distanze, come sempre, 10 chilometri per i più allenati e 5 per chi vuole provarci. Linus e il trio Medusa vi aspettano domenica 13 marzo per correre insieme, per iscrivervi a dj.it. DJ Ten, run like a DJ. Ma che non sei di Bari tu?",
+    "end": 1665.01,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Pronti per scendere a Bari? Dopo il grande successo della prima edizione, la DJ Ten torna in Puglia, domenica 13 di marzo. Le distanze, come sempre, 10 chilometri per i più allenati e 5 per chi vuole provarci. Linus e il trio Medusa vi aspettano domenica 13 marzo per correre insieme, per iscrivervi a dj.it. DJ Ten, run like a DJ. Ma che non sei di Bari tu? Chiudete gli occhi e pensate a qualcosa di buono. Intensamente, intensamente cosa vedete?",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-02-11-056",
-    "start": 1657.63,
-    "end": 1665.01,
-    "speaker_raw": "SPEAKER_18",
-    "testo": "Chiudete gli occhi e pensate a qualcosa di buono. Intensamente, intensamente cosa vedete?",
-    "titolo": "Pensate a qualcosa di buono",
-    "tema": [
-      "buono",
-      "pensiero"
-    ],
-    "tipo": "citazione",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-11-057",
+    "id": "2016-02-11-017",
     "start": 1665.13,
     "end": 1666.45,
-    "speaker_raw": "SPEAKER_02",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Kinder Bueno Dark!",
     "titolo": "",
     "tema": [],
@@ -756,10 +200,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-11-058",
+    "id": "2016-02-11-018",
     "start": 1666.97,
     "end": 1677.44,
-    "speaker_raw": "SPEAKER_18",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Bueno Dark è tornato in edizione limitata. Fatti tentare dal gusto intenso della sua copertura di cioccolato fondente. Kinder Bueno Dark. Intensamente bueno.",
     "titolo": "",
     "tema": [],
@@ -767,7 +211,7 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-11-059",
+    "id": "2016-02-11-019",
     "start": 1678.9,
     "end": 1692.31,
     "speaker_raw": "SPEAKER_01",
@@ -778,10 +222,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-11-060",
+    "id": "2016-02-11-020",
     "start": 1693.47,
     "end": 1705.9,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_03",
     "testo": "A volte ci sono ottimi motivi per non stare a casa. Vole in Asia da 509 euro o in Nord America da 449 euro con Lufthansa. Scopri di più su LH.com o nella tua agenzia viaggi. Non stop you.",
     "titolo": "",
     "tema": [],
@@ -789,32 +233,32 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-11-061",
+    "id": "2016-02-11-021",
     "start": 1708.71,
-    "end": 1730.3,
-    "speaker_raw": "SPEAKER_14",
-    "testo": "La sua linea sportiva S-Line exterior è innovazione da guidare. I fari posteriori a LED sono innovazione da ammirare. Le tecnologie intelligenti del pacchetto Connectivity sono innovazione da vivere. Audi A1 Admired è innovazione in ogni dettaglio. Da 189 euro al mese con Audi Extended Warranty. Leasing di 48 mesi, TAN 397, TAIG 614. Anticipo 8.472 euro, riscatto 5.295 fino al 31 marzo. Info su Audi.it",
+    "end": 1724.06,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "La sua linea sportiva S-Line exterior è innovazione da guidare. I fari posteriori a LED sono innovazione da ammirare. Le tecnologie intelligenti del pacchetto Connectivity sono innovazione da vivere. Audi A1 Admired è innovazione in ogni dettaglio.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-02-11-062",
-    "start": 1739.61,
+    "id": "2016-02-11-022",
+    "start": 1724.14,
     "end": 1740.67,
-    "speaker_raw": "SPEAKER_10",
-    "testo": "Unieuro.",
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Da 189 euro al mese con Audi Extended Warranty. Leasing di 48 mesi, TAN 397, TAIG 614. Anticipo 8.472 euro, riscatto 5.295 fino al 31 marzo. Info su Audi.it Unieuro.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-02-11-063",
+    "id": "2016-02-11-023",
     "start": 1740.71,
     "end": 1751.91,
-    "speaker_raw": "SPEAKER_16",
+    "speaker_raw": "SPEAKER_00",
     "testo": "Qui fino al 28 febbraio è amore al primo acquisto. Cioè? Ogni 100 euro di spesa ci regalano 20 euro in buoni sconto da spendere dall'1 al 24 marzo. Ti amo. Cupidino.",
     "titolo": "",
     "tema": [],
@@ -822,11 +266,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-11-064",
+    "id": "2016-02-11-024",
     "start": 1751.95,
-    "end": 1768.67,
-    "speaker_raw": "SPEAKER_10",
-    "testo": "Dettagli esclusioni e negozi aderenti su unieuro.it Unieuro. Batte. Forte. Sempre. È adesso che stai scrivendo la storia della tua vita. E quando avrai finito dovrai chiederti. Qualcuno avrà voglia di leggerla.",
+    "end": 1770.52,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Dettagli, esclusioni e negozi aderenti su unieuro.it Unieuro. Batte. Forte. Sempre. È adesso che stai scrivendo la storia della tua vita. E quando avrai finito dovrai chiederti. Qualcuno avrà voglia di leggerla. La vita è un'avventura.",
     "titolo": "La tua storia",
     "tema": [
       "vita",
@@ -836,11 +280,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-11-065",
-    "start": 1769.39,
+    "id": "2016-02-11-025",
+    "start": 1770.82,
     "end": 1789.02,
-    "speaker_raw": "SPEAKER_13",
-    "testo": "La vita è un'avventura. Vivila con Jeep. Oggi con Belize. Nuova Jeep Renegade è tua a 219 euro al mese. Con 4 anni di assicurazione RCA e manutenzione inclusi nella rata. Tantri 95 e Tiger 581. Ti aspettiamo anche sabato e domenica. Offerta valida solo a febbraio salvo approvazione FCA Bank. Info e condizioni su Jeep Official.",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Vivila con Jeep. Oggi con Belize. Nuova Jeep Renegade è tua a 219 euro al mese. Con 4 anni di assicurazione RCA e manutenzione inclusi nella rata. Tantri 95 e Tiger 581. Ti aspettiamo anche sabato e domenica. Offerta valida solo a febbraio salvo approvazione FCA Bank. Info e condizioni su Jeep Official.",
     "titolo": "Vivere l'avventura",
     "tema": [
       "avventura",
@@ -850,10 +294,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-11-066",
+    "id": "2016-02-11-026",
     "start": 1790.36,
     "end": 1819.26,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_03",
     "testo": "qui in zona sono uno dei meccanici più esperti ecco perché consiglio ai miei clienti di usare regolarmente esso supreme diesel perché aiuta a fare più chilometri con un litro rispetto al gasolio standard esso contribuendo a pulire il motore e a mantenerlo in ottime condizioni così qui nella spa ho tempo per un massaggio alla schiena ecco ecco esso supreme diesel te lo consiglia Francesco provalo subito nelle stazioni esso aderenti scopri di più su esso.com",
     "titolo": "Il meccanico e il motore",
     "tema": [
@@ -864,22 +308,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-11-067",
+    "id": "2016-02-11-027",
     "start": 1821.44,
-    "end": 1848.62,
-    "speaker_raw": "SPEAKER_19",
-    "testo": "da Penny Market nuove imperdibili offerte fino al 21 febbraio piadina fresca IGP cuor di terra 600 grammi a 99 centesimi latte steril garda parzialmente scremato un litro e mezzo a 99 centesimi e in più scopri la collezione di coltelli affilatissimi raccogli i bollini ogni 15 euro di spesa con Penny Card e ricevi gratis senza contributo il coltello che preferisci scopri di più su pennymarket.it",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-11-068",
-    "start": 1851.19,
     "end": 1880.65,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "signor Rossi deve scendere la prego ancora 5 minuti signor Rossi ci sono altre persone dopo di lei ok allora scendo signor Rossi apra il test drive è finito ma io la voglio subito certo ma non questa ora scenda riscopri la passione per la guida love the road again Ford Kuga EcoBoost a 19.250 euro più un extra bonus di 250 euro se fai un test drive signor Rossi scenda dall'auto",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "da Penny Market nuove imperdibili offerte fino al 21 febbraio piadina fresca IGP cuor di terra 600 grammi a 99 centesimi latte steril garda parzialmente scremato un litro e mezzo a 99 centesimi e in più scopri la collezione di coltelli affilatissimi raccogli i bollini ogni 15 euro di spesa con Penny Card e ricevi gratis senza contributo il coltello che preferisci scopri di più su pennymarket.it signor Rossi deve scendere la prego ancora 5 minuti signor Rossi ci sono altre persone dopo di lei ok allora scendo signor Rossi apra il test drive è finito ma io la voglio subito certo ma non questa ora scenda riscopri la passione per la guida love the road again Ford Kuga EcoBoost a 19.250 euro più un extra bonus di 250 euro se fai un test drive signor Rossi scenda dall'auto",
     "titolo": "Il test drive",
     "tema": [
       "guida",
@@ -889,57 +322,77 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-11-069",
+    "id": "2016-02-11-028",
     "start": 1882.51,
     "end": 1910.47,
-    "speaker_raw": "SPEAKER_17",
+    "speaker_raw": "SPEAKER_05",
     "testo": "buon compleanno dj buonissimo compleanno oro saiva per i suoi 60 anni di bontà oro saiva ti regala la festa di radio dj partecipa al quiz su dj.it in palio 60 biglietti e un soggiorno per due a roma che cosa vi regala oro saiva per i suoi 60 anni se lo sai cosa aspetti rispondi e vieni alla festa dj con oro saiva regolamento su dj.it montepremi 1400 euro scade il 14 febbraio",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
-    "id": "2016-02-11-070",
+    "id": "2016-02-11-029",
     "start": 1911.59,
     "end": 1938.6,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_04",
     "testo": "mio figlio le adora le trova comode e veloci da padre consiglio la scarpa sobria ma attualissima con i suoi colori accesi e fluo le ho acquistate per il mio piccolo terremoto di sette anni da subito si è trovato molto bene parola di sportivo da Decathlon ogni recensione è un gesto sportivo scopri su Decathlon.it i commenti di chi ha già provato i nostri prodotti come le scarpe Acti Reo New Feel ideali per i bambini che amano correre disponibili a soli 19,99 euro solo da Decathlon",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
-    "id": "2016-02-11-071",
-    "start": 1945.85,
-    "end": 1962.14,
-    "speaker_raw": "SPEAKER_17",
-    "testo": "L'appuntamento è per il 25 febbraio al Palalottomatica di Roma. Festeggiate con noi! Sono spaventato.",
+    "id": "2016-02-11-030",
+    "start": 1945.93,
+    "end": 1952.44,
+    "speaker_raw": "SPEAKER_01",
+    "testo": "Festa di compleanno di Radio DJ, 25 febbraio, Palalottomatica, Roma, con J-Ax.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-02-11-072",
-    "start": 1970.98,
+    "id": "2016-02-11-031",
+    "start": 1961.38,
     "end": 1997.86,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "si stava discutendo non volevamo offendere nessuno un ascoltatore ha scritto non dovete offendere gratuitamente i cattolici e io mi sono un po' spaventato perché ho detto come gratuitamente non mi pagano a me mi pagano oggi ho paura oh yeah la pioggia se ne fredda su di te",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "L'appuntamento è per il 25 febbraio al Palalottomatica di Roma. Festeggiate con noi! Sono spaventato. si stava discutendo non volevamo offendere nessuno un ascoltatore ha scritto non dovete offendere gratuitamente i cattolici e io mi sono un po' spaventato perché ho detto come gratuitamente? non mi pagano? a me mi pagano oggi ho paura oh yeah la pioggia se ne fredda su di te",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-02-11-073",
+    "id": "2016-02-11-032",
     "start": 2001.07,
+    "end": 2029.65,
+    "speaker_raw": "SPEAKER_01",
+    "testo": "Pesaro una donna intelligente, forse al vero ti hai fatto trasparente, ma non ci cascherai mai. E non mi importa se non mi ami più, e non mi importa se non mi vuoi bene, dovrò soltanto rimparare a camminare, dovrò soltanto rimparare a camminare se non ci sei più.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-02-11-033",
+    "start": 2033.91,
+    "end": 2048.28,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Raggiungermi un orgasmo da provare Ricordami le olive sono buone Mi prenderò un gelato con il tuo sapore Ti spaccherò la faccia se non mi raccuori",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-02-11-034",
+    "start": 2062.9,
     "end": 2120.31,
-    "speaker_raw": "SPEAKER_23",
-    "testo": "Pesaro, una donna intelligente, forse al vero ti hai fatto trasparente, ma non ci cascherai mai. E non mi importa se non mi ami più, e non mi importa se non mi vuoi bene, dovrò soltanto rimparare a camminare, dovrò soltanto rimparare a camminare se non ci sei più. Raggiungermi un orgasmo da provare Ricordami le olive sono buone Mi prenderò un gelato con il tuo sapore Ti spaccherò la faccia se non mi raccuori Tanto ne imparare a camminare Se non ci sei tu Allora dimmi che cosa mi manchi a fare Ti prego dimmi che cosa mi manchi a fare Tanto mi mancheresti lo stesso che cosa mi manchi a fare Ti prego dimmi Ma non ti dichiaro dentro una tv Che io da te non ho voluto amore Volevo solo scomparire in un abbraccio Volevo solo scomparire in un abbraccio Confondermi con...",
+    "speaker_raw": "SPEAKER_01",
+    "testo": "Tanto ne imparare a camminare Se non ci sei tu Allora dimmi che cosa mi manchi a fare Ti prego dimmi che cosa mi manchi a fare Tanto mi mancheresti lo stesso che cosa mi manchi a fare Ti prego dimmi Ma non ti dichiaro dentro una tv Che io da te non ho voluto amore Volevo solo scomparire in un abbraccio Volevo solo scomparire in un abbraccio Confondermi con...",
     "titolo": "La donna intelligente di Pesaro",
     "tema": [
       "amore",
@@ -949,224 +402,29 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-11-074",
+    "id": "2016-02-11-035",
     "start": 2121.62,
-    "end": 2181.2,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "usciamo dal discorso diciamo Dio, Gesù, religioni, spiritualità e ci spostiamo invece sull'argomento quello più amore quello che interessa forse anche di più gli ascoltatori quello l'amore delle relazioni è lo stesso discorso sì no però per semplificare diciamo entriamo più in quello delle relazioni io sostengo sempre questa cosa l'ho anche scritta nell'ultimo libro io posso fare un elenco di motivi per cui mi piace la donna con cui sto o anche perché la amo nel senso per una serie di qualità o comunque cose che piacciono a me ma il motivo per cui amo quelle cose e amo lei con quelle cose è una risposta insondabile tu entri in una stanza, conosci uno, lo conosci, ami lei ti è chiaro che non potevi amare in quel modo un'altra persona che quello è legato a quella persona Quindi l'amore in realtà è insondabile il motivo reale? Se è amore è inspiegabile. È come Dio forse alla fine, poi non voglio tornare in quell'argomento, però Dio è difficile da raccontare con le parole, da definire con le parole.",
-    "titolo": "La dinamica delle relazioni amorose",
-    "tema": [
-      "amore",
-      "relazioni"
-    ],
-    "tipo": "riflessione",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-11-075",
-    "start": 2181.22,
-    "end": 2227.94,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "In un ambiente religioso sì è molto difficile. Comunque, se è amore è inspiegabile, però spiega un sacco di cose. Per esempio, i rapporti umani sono difficilissimi, i rapporti di coppia sono difficilissimi e spesso tormentosi, perché si vede dall'esperienza anche personale, oltre agli immensi studi fatti sul argomento, che in ciascuna coppia, diciamo nella stragrande maggioranza delle coppie, c'è un'alta energia e un'alta energia, uno dei due di alta energia e l'altro di bassa energia. Cosa vuol dire alta energia? Alta energia è una persona che dà tanto e chiede tanto. La persona di bassa energia è uno che dà poco e chiede poco. In una coppia si dà subito che uno che l'altro. Se uno guarda come sono le due e mezza di notte, si vede che uno dorme tranquillo e l'altro è sveglio e è insoddisfatto.",
-    "titolo": "L'amore è inspiegabile",
-    "tema": [
-      "amore",
-      "relazioni"
-    ],
-    "tipo": "riflessione",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-11-076",
-    "start": 2228.3,
-    "end": 2235.68,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "La domanda è, è più facile che quello lo sia il leader? Cioè quello con bassa energia diventa più capo di quello con...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": "",
-    "autore": ""
-  },
-  {
-    "id": "2016-02-11-077",
-    "start": 2236.02,
-    "end": 2244.39,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "Quello con l'alta energia di solito è il leader e quello con bassa energia è il giuda. È il giuda. Cioè che lo abbassa in continuazione, lo abbassa in continuazione.",
-    "titolo": "Il giuda nella coppia",
-    "tema": [
-      "coppie",
-      "relazioni"
-    ],
-    "tipo": "aneddoto",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-11-078",
-    "start": 2244.41,
-    "end": 2250.93,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Cioè è più difficile, diciamo, sollevare, metaforicamente, alzare l'energia o quindi anche, diciamo...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": "",
-    "autore": ""
-  },
-  {
-    "id": "2016-02-11-079",
-    "start": 2251.71,
-    "end": 2285.91,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "come dire passare entusiasmo a uno di bassa energia è quasi impossibile è come se quel vaso lì fosse già pieno ed è un vaso piccolo perché la cosa si stabilisce non è che sono persone di bassa energia è all'interno di ogni rapporto cioè da come comincia il rapporto all'inizio si definisce chi è bassa energia e chi è alta energia e poi non si può più cambiare quindi quello di quello per dire quello di bassa energia in un altro rapporto può essere alta energia se si lascia un'alta energia può essere lui l'alta energia cioè quello che dà tanto quello L'altro è quello, non è che prende tanto, l'altro prende poco, questo è il guaio, l'altro prende poco.",
-    "titolo": "L'energia nella coppia",
-    "tema": [
-      "coppie",
-      "energia"
-    ],
-    "tipo": "riflessione",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-11-080",
-    "start": 2286.13,
-    "end": 2291.83,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Non è che dà poco e chiede tanto, no, dà poco e chiede poco, quindi troppe attenzioni lo infastidiscono.",
-    "titolo": "La persona di bassa energia",
-    "tema": [
-      "coppie",
-      "relazioni"
-    ],
-    "tipo": "aneddoto",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-11-081",
-    "start": 2292.29,
-    "end": 2302.64,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "Quindi alla fine rimane vedo, perché... Perché l'altro rimane, cioè quello di alta energia, dà tantissimo e l'altro non prende e chiede tantissimo e l'altro non dà.",
-    "titolo": "La coppia disarmonica",
-    "tema": [
-      "coppie",
-      "relazioni"
-    ],
-    "tipo": "aneddoto",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-11-082",
-    "start": 2303.14,
-    "end": 2310.81,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Senti, può essere che uno che tradisce può usare questa come scusa per la moglie. È l'unica. Io ti volevo dare tanto, non lo volevi e a un certo punto l'ho dato a qualcun altro.",
-    "titolo": "La tradizione come scusa",
-    "tema": [
-      "coppie",
-      "relazioni"
-    ],
-    "tipo": "aneddoto",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-11-083",
-    "start": 2310.85,
-    "end": 2315.93,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "Ma è quello che consiglio sempre, cioè le persone che tradiscono in realtà in una coppia, la persona che tradisce è quella che ama di più.",
-    "titolo": "La persona che tradisce ama di più",
-    "tema": [
-      "amore",
-      "tradimento"
-    ],
-    "tipo": "riflessione",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-11-084",
-    "start": 2317.64,
-    "end": 2332.16,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "qua adesso posso dirti se abbiamo ricevuto 5-6 mail di vaffanculo per dio ti posso dire che adesso con questo che hai appena detto c'è quello che te lo dici e quello che ama di più io mi associo a lui ma mi dissocio sulle mail adesso vedrai cosa ti arriva",
-    "titolo": "Mail di vaffanculo per Dio",
-    "tema": [
-      "mail",
-      "Dio"
-    ],
-    "tipo": "aneddoto",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-11-085",
-    "start": 2332.7,
-    "end": 2376.89,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "Comunque, quello che ti dice, quello che ama di più, perché? Perché tradire vuol dire io ho una storia complessa, fuori, che mi costringe a essere autore teatrale, attore, tecnico luci, regista, avere una memoria pazzesca, ricordarmi tutto, perché se sbaglio il nome... La sono andato, ti avevo detto che andavo lì... Come dice mia nonna, se uno dice la verità non ha bisogno di ricordarsi quello che dice. Quindi tradire è una fatica terrificante. Perché una persona si assume... la faccia di Viola già un vaffan guarda un vaffan te lo sta dando Viola con questa espressione perché ama la persona ama tantissimo la persona con cui sta però non gli basta non gli basta l'altra persona questa è una teoria mi fai fare scusami un click e via ricevi alle mail eh",
-    "titolo": "La memoria pazzesca dell'autore teatrale",
-    "tema": [
-      "memoria",
-      "tradimento"
-    ],
-    "tipo": "aneddoto",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-11-086",
-    "start": 2377.95,
-    "end": 2395.26,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "questa è una teoria che potete usare benissimo ogni volta che vi beccano quando uno vi becca che avete tradito ok togliete il vino a questo qui Luca da San Benedetto del Tronto levategli il vino stasera devo far ascoltare una puntata a mia moglie dove la trovo ok",
-    "titolo": "Togliere il vino a Luca",
-    "tema": [
-      "vino",
-      "Luca"
-    ],
-    "tipo": "aneddoto",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-11-087",
-    "start": 2398.24,
-    "end": 2420.05,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "Senti, uno che ama tanto non ha necessità di tradire, uno che ama tanto, uno che ama la donna conquistata... No, è un'altra questione, io non ho parlato d'amore, non è che l'amore è questa cosa qui, all'interno della coppia quello che dà tanto è quello che a un certo punto si trova a tradire, e al di fuori di questo cosa succede?",
-    "titolo": "L'amore non è tradimento",
-    "tema": [
-      "amore",
-      "tradimento"
-    ],
-    "tipo": "riflessione",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-11-088",
-    "start": 2420.07,
     "end": 2467.0,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Mettiamo così, devo fare un esempio se non capisco, metti che io sono una donna... e ho mio marito a casa e voglio fare delle cose e mio marito non le vuole fare e voglio fare, metti tanto l'amore e mio marito non la voglia di fare e voglio progettare dei futuri, voglio cambiare delle cose, voglio fare delle cose e mio marito è uno che si mette sul divano, guarda la partita a un certo punto io non è che lo tradisco perché non lo amo più ma queste energie le devo scaricare su qualcosa certo, due scelte, o lo pianto o lo pianto o lo tradisco perché non riesci a spegnere la sua energia e il suo entusiasmo se lo tradisco è perché voglio restare con lui è ovvio, se no lo pianto questa potrebbe essere interessante sentiamo cosa succede andiamo a leggere l'email che mi diverto molto",
-    "titolo": "La donna che vuole cambiare",
-    "tema": [
-      "amore",
-      "cambiamento"
-    ],
-    "tipo": "aneddoto",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-11-089",
-    "start": 2494.34,
-    "end": 2494.74,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "a presto",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "usciamo dal discorso diciamo Dio, Gesù, religioni, spiritualità e ci spostiamo invece sull'argomento quello più amore quello che interessa forse anche di più gli ascoltatori quello l'amore delle relazioni è lo stesso discorso sì no però per semplificare diciamo entriamo più in quello delle relazioni io sostengo sempre questa cosa l'ho anche scritta nell'ultimo libro io posso fare un elenco di motivi per cui mi piace la donna con cui sto o anche perché la amo nel senso per una serie di qualità o comunque cose che piacciono a me Ma il motivo per cui amo quelle cose e amo lei con quelle cose è, dico sempre, una risposta insondabile, no? Perché tu entri in una stanza, conosci uno, lo conosci, ami lei, ti è chiaro che non potevi amare in quel modo un'altra persona, no? Cioè... Quindi l'amore in realtà è insondabile il motivo reale? Se è amore è inspiegabile. È come Dio forse alla fine, poi non voglio tornare in quell'argomento, però Dio è difficile da raccontare con le parole, da definire con le parole. In un ambiente religioso sì è molto difficile. Comunque, se è amore è inspiegabile, però spiega un sacco di cose. Per esempio, i rapporti umani sono difficilissimi, i rapporti di coppia sono difficilissimi e spesso tormentosi, perché si vede dall'esperienza anche personale, oltre agli immensi studi fatti sul argomento, che in ciascuna coppia, diciamo nella stragrande maggioranza delle coppie, c'è un'alta energia e un'alta energia, uno dei due di alta energia e l'altro di bassa energia. Cosa vuol dire alta energia? Alta energia è una persona che dà tanto e chiede tanto. La persona di bassa energia è uno che dà poco e chiede poco. In una coppia si dà subito che uno che l'altro. Se uno guarda come sono le due e mezza di notte, si vede che uno dorme tranquillo e l'altro è sveglio e è insoddisfatto. La domanda è, è più facile che quello low sia il leader? Cioè quello con bassa energia diventa più capo di quello con... Quello con l'alta energia di solito è il leader e quello con bassa energia è il giuda. È il giuda. Cioè che lo abbassa in continuazione, lo abbassa in continuazione. Cioè è più difficile, diciamo, sollevare, metaforicamente, alzare l'energia o quindi anche, diciamo... come dire passare entusiasmo a uno di bassa energia è quasi impossibile come se quel vaso lì fosse già pieno ed è un vaso piccolo perché la cosa si stabilisce non è che sono persone di bassa energia è all'interno di ogni rapporto cioè da come comincia il rapporto all'inizio si definisce chi è bassa energia e chi è alta energia e poi non si può più cambiare quindi quello di quello per dire quello di bassa energia in un altro rapporto può essere alta energia se si lascia un'alta energia può essere lui l'alta energia cioè quello che dà tanto quello L'altro è quello, non è che prende tanto, l'altro prende poco, questo è il guaio, l'altro prende poco. Non è che dà poco e chiede tanto, no, dà poco e chiede poco, quindi troppe attenzioni lo infastidiscono. Quindi alla fine rimane vedo, perché... Perché l'altro rimane, cioè quello di alta energia, dà tantissimo e l'altro non prende e chiede tantissimo e l'altro non dà. Senti, può essere che uno che tradisce può usare questa come scusa per la moglie. È l'unica. Io ti volevo dare tanto, non lo volevi e a un certo punto l'ho dato a qualcun altro. Ma è quello che consiglio sempre, cioè le persone che tradiscono in realtà in una coppia, la persona che tradisce è quella che ama di più. qua adesso posso dirti se abbiamo ricevuto 5-6 mail di vaffanculo per dio ti posso dire che adesso con questo che hai appena detto c'è quello che te lo dici e quello che ama di più io mi associo a lui ma mi dissocio sulle mail adesso vedrai cosa ti arriva Comunque, quello che ti dice, quello che ama di più, perché? Perché tradire vuol dire io ho una storia complessa, fuori, che mi costringe a essere autore teatrale, attore, tecnico luci, regista, avere una memoria pazzesca, ricordarmi tutto, perché se sbaglio il nome... La sono andato, ti avevo detto che andavo lì... Come dice mia nonna, se uno dice la verità non ha bisogno di ricordarsi quello che dice. Quindi tradire è una fatica terrificante. Perché una persona si assume... la faccia di Viola già un vaffan guarda un vaffan te lo sta dando Viola con questa espressione perché ama la persona ama tantissimo la persona con cui sta però non gli basta non gli basta l'altra persona questa è una teoria mi fai fare scusami un click e via ricevi alle mail eh questa è una teoria che potete usare benissimo ogni volta che vi beccano quando uno vi becca che avete tradito ok togliete il vino a questo qui Luca da San Benedetto del Tronto levategli il vino stasera devo far ascoltare una puntata a mia moglie dove la trovo ok Senti, uno che ama tanto non ha necessità di tradire, uno che ama tanto, uno che ama la donna conquistata... No, è un'altra questione, io non ho parlato d'amore, non è che l'amore è questa cosa qui, all'interno della coppia quello che dà tanto è quello che a un certo punto si trova a tradire, e al di fuori di questo cosa succede? Mettiamo così, devo fare un esempio se non capisco, metti che io sono una donna... e ho mio marito a casa e voglio fare delle cose e mio marito non le vuole fare e voglio fare, metti tanto l'amore e mio marito non la voglia di fare e voglio progettare dei futuri, voglio cambiare delle cose, voglio fare delle cose e mio marito è uno che si mette sul divano, guarda la partita a un certo punto io non è che lo tradisco perché non lo amo più ma queste energie le devo scaricare su qualcosa certo, due scelte, o lo pianto o lo pianto o lo tradisco perché non riesci a spegnere la sua energia e il suo entusiasmo se lo tradisco è perché voglio restare con lui è ovvio, se no lo pianto questa potrebbe essere interessante sentiamo cosa succede andiamo a leggere le mail che mi diverto molto",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-02-11-090",
+    "id": "2016-02-11-036",
+    "start": 2493.94,
+    "end": 2494.22,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Ciao!",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-02-11-037",
     "start": 2523.55,
     "end": 2523.75,
     "speaker_raw": "SCONOSCIUTO",
@@ -1177,29 +435,29 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-11-091",
+    "id": "2016-02-11-038",
     "start": 2549.95,
-    "end": 2550.05,
-    "speaker_raw": "SPEAKER_21",
-    "testo": "Ciao!",
+    "end": 2550.11,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "con me",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-02-11-092",
+    "id": "2016-02-11-039",
     "start": 2591.63,
-    "end": 2591.75,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "no no",
+    "end": 2600.39,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "con Deus mi dito, con Deus mi levanto, conmigo eu calo, conmigo eu canto, eu bato em um papo, eu bato em um ponto, eu tomo um drink e eu fico tonto tu con Deus mi dito, con Deus mi levanto tu con Deus mi dito, con Deus mi levanto tu",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-02-11-093",
+    "id": "2016-02-11-040",
     "start": 2624.63,
     "end": 2624.75,
     "speaker_raw": "SCONOSCIUTO",
@@ -1210,73 +468,14 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-11-094",
+    "id": "2016-02-11-041",
     "start": 2650.26,
-    "end": 2687.52,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Scrive un'ascoltatrice, è paradossale ma è così come dici tu Sibaldi, un'altra ascoltatrice che dice io ho tradito perché davo tanto e ricevevo poco e dopo mesi ho capito che era la cosa giusta da fare, il mio ex che poi probabilmente l'ha anche lasciato. Mi buttava giù, la buttava giù. Ora c'è da dire una cosa, spesso gli uomini quando scoprono un tradimento o comunque una donna che dice, no scusami, quando una donna ti lascia l'uomo quasi sempre dice c'è un altro, invece non necessariamente i problemi vengono da fuori, a volte bisogna prendere coscienza dei problemi. di essere responsabile di ciò che ti accade nella vita, non è sempre un altro, il capo, lo stato, il padrone.",
-    "titolo": "La donna che tradisce per amore",
-    "tema": [
-      "amore",
-      "tradimento"
-    ],
-    "tipo": "aneddoto",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-11-095",
-    "start": 2688.04,
-    "end": 2722.61,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "Lì si vede esattamente cos'è questa roba che si chiama amore, perché veramente sono tantissime le coppie, o i rapporti anche di lavoro, in cui c'è low energy, cioè il bassa energia, si chiama low energy in assoluta americana, e l'alta energia. Queste qui sono robe di sociologia pesanti, di sociologia dura degli anni novanta. con statistiche a milioni di statistiche se una coppia si forma è chiaro che uno dei due soffre terribilmente perché è bloccato e di solito è quello di alta energia però il problema è che di solito le persone di alta energia hanno paura della loro energia",
+    "end": 2996.93,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Scrive un'ascoltatrice, è paradossale ma è così come dici tu Sibaldi, un'altra ascoltatrice che dice io ho tradito perché davo tanto e ricevevo poco e dopo mesi ho capito che era la cosa giusta da fare, il mio ex che poi probabilmente l'ha anche lasciato. Mi buttava giù, la buttava giù. Ora c'è da dire una cosa, spesso gli uomini quando scoprono un tradimento o comunque una donna che dice, no scusami, quando una donna ti lascia l'uomo quasi sempre dice c'è un altro, invece non necessariamente i problemi vengono da fuori, a volte bisogna prendere coscienza dei problemi. di essere responsabile di ciò che ti accade nella vita, non è sempre un altro, il capo, lo stato, il padrone. Lì si vede esattamente cos'è questa roba che si chiama amore, perché veramente sono tantissime le coppie, o i rapporti anche di lavoro, in cui c'è low energy, cioè il bassa energia, si chiama low energy in assoluta americana, e l'alta energia. Queste qui sono robe di sociologia pesanti, di sociologia dura degli anni novanta. con statistiche a milioni di statistiche se una coppia si forma è chiaro che uno dei due soffre terribilmente perché è bloccato e di solito è quello di alta energia però il problema è che di solito le persone di alta energia hanno paura della loro energia per cui si fanno scegliere dal bassa energia per frenarsi ok è paura del successo paura della riuscita paura della felicità diciamo che aborre come senti che parola aborre il concetto di vincitore che sono quelli magari che ti dicono io li incontro anche tanti mi piacerebbe scrivere un libro non è che deve vendere cioè quelli che ti dicono subito che deve andare male una cosa ma scusami ma quando uno fa un lavoro vuole che vada bene ma sono persone molto nobili perché gli sembra che la vittoria sia una banalità Ma secondo te perché vengono magari da una famiglia dove diciamo il contesto in cui sono nati si sentiva che quella libertà, se una volta ho raccontato una metafora del maratoneta che avevo messo una volta in un libro, cioè tu vai a correre con un gruppo di persone e poi a tutto punto ti accorgi che hai una gamba più forte delle altre e cominci e vai e diciamo ti pieghi al tuo talento no? a un certo punto tu però stai correndo da solo ti giri, vedi tutto il gruppetto che ride tutti insieme, allora tu fingi in qualche modo di non avere quel talento per rinfilarti nel gruppo perché altrimenti devi accettare la solitudine quello che si dice la solitudine dei numeri primi quindi può anche essere che una persona non voglia esprimere la grandezza che ha dentro che ne ha presa magari coscienza perché ha paura della solitudine ha paura della morte, ha paura che dopo non ci sia più niente sembra di essere ancora sempre molto molto giovane se non ancora vinto piglia questo, piglia questo piglia lo energy, si innamora dello energy ama lo energy, lo energy è contento perché vive di rendita prima o poi io farò quella cosa quindi ha ancora diciamo lo sbocciare come proiezione del futuro e quindi pensa che la vita sia ancora lunga mentre se è già sbocciato dice vabbè quello che devo fare l'ho fatto e adesso cosa succede mi aspetta solo quando parlo di queste cose lo energy la gente dice qual è la soluzione allora se uno è così e l'altro è così nella maggior parte dei casi qual è la soluzione e la soluzione non c'è, la soluzione paradossale è che è l'amore che giustifica tutto l'amore giustifica qualsiasi cosa cioè tu stai con un criminale ma lo ami e va bene così, tu stai con uno stupido e lo ami, va benissimo così perché lo ami e questo non è che l'amore ha una spiegazione è l'amore che spiega le cose la stessa cosa per quello che riguarda in grande stile l'amore di Dio cioè Dio fa sto uomo e dai primi cinque pochi minuti questo subito gli fa dei dispetti grazie però Dio non è che lo elimina dal pianeta terra lo ama la follia lo ama proprio perché l'uomo è lo energy e Dio è bassa energia e l'uomo alta energia come nelle coppie nostre e come nelle coppie che lo energy abbassa Dio perché spesso nella spiegazione di Dio è continuamente una ridimensione di una cosa gigantesca poi Dio arriva sulla terra e l'uomo lo fa fuori perché non ne vuole sapere di quella cosa però l'amore continua e solo l'amore può spiegare questa cosa l'amore tra l'altro esce da ogni dimensione spazio-tempo perché tu puoi amare una persona che sta dall'altra parte del mondo e puoi amare una persona anche che è morta per dire e l'ami per altri vent'anni, trent'anni per uscire dalla dimensione spazio-tempo basta un bacio cioè tu dai un bacio a una persona che ami già sei fuori dal tempo non sai quanti sono sai quando di ragazzino che ti baciavi sulle panchine sui motorini passavi 6 ore il pomeriggio pensavi che fossero 10 minuti e andavi a casa che ti facevamo la mattina ma che ore sono? sono già le 7 mia mamma ha già messo giù la cena è quella roba lì senti giovedì prossimo per la gioia di molti a me piace molto il talk radio parliamo di angeli perché tu nella tua follia credi negli angeli credo l'iconstato l'iconstato angeli arcangeli tutte queste cose ma non gli angeli quei dei film non quelli con le ali con le antenne tutti tedeschi gli angeli tedeschi tutti biondi non c'è mai un angelo marocchino la settimana prossima parliamo di angeli quindi di energia e di incontri diciamo perché l'angelo che cos'è se non uno specchio l'angelo è la parte soluzione dei problemi diciamo perché per gli antichi eh l'angelo è quello che sei davvero quando si parla di angelo dice ho visto l'angelo il problema è il verbo essere tu che angelo sei? tu sei un angelo, cioè tu sei quello che sei quindi è il tuo divenire è la terra promessa è il grado evolutivo superiore giovedì prossimo grazie ancora a Igor Sibaldi tra l'altro un po' di angeli se vi volete preparare per giovedì prossimo c'è un libro che si chiama proprio Libro degli Angeli di Igor Sibaldi grazie a tutti Grazie Igor, ciao ciao a tutti",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
-  },
-  {
-    "id": "2016-02-11-096",
-    "start": 2723.45,
-    "end": 2804.68,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "per cui si fanno scegliere dal bassa energia per frenarsi ok è paura del successo paura della riuscita paura della felicità diciamo che aborre come senti che parola aborre il concetto di vincitore che sono quelli magari che ti dicono io li incontro anche tanti mi piacerebbe scrivere un libro non è che deve vendere cioè quelli che ti dicono subito che deve andare male una cosa ma scusami ma quando uno fa un lavoro vuole che vada bene ma sono persone molto nobili perché gli sembra che la vittoria sia una banalità Ma secondo te perché vengono magari da una famiglia dove diciamo il contesto in cui sono nati si sentiva che quella libertà, se una volta ho raccontato una metafora del maratoneta che avevo messo una volta in un libro, cioè tu vai a correre con un gruppo di persone e poi a tutto punto ti accorgi che hai una gamba più forte delle altre e cominci e vai e ti pieghi al tuo talento. a un certo punto tu però stai correndo da solo ti giri, vedi tutto il gruppetto che ride tutti insieme, allora tu fingi in qualche modo di non avere quel talento per rinfilarti nel gruppo perché altrimenti devi accettare la solitudine quello che si dice la solitudine dei numeri primi quindi può anche essere che una persona non voglia esprimere la grandezza che ha dentro che ne ha presa magari coscienza perché ha paura della solitudine ha paura della morte, ha paura che dopo non ci sia più niente sembra di essere ancora sempre molto molto giovane se non ancora vinto",
-    "titolo": "Paura del successo e della felicità",
-    "tema": [
-      "paura",
-      "successo",
-      "felicità"
-    ],
-    "tipo": "riflessione",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-11-097",
-    "start": 2806.08,
-    "end": 2860.59,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "piglia questo, piglia questo piglia lo energy, si innamora dello energy ama lo energy, lo energy è contento perché vive di rendita prima o poi io farò quella cosa quindi ha ancora diciamo lo sbocciare come proiezione del futuro e quindi pensa che la vita sia ancora lunga mentre se è già sbocciato dice vabbè quello che devo fare l'ho fatto e adesso cosa succede mi aspetta solo quando parlo di queste cose lo energy la gente dice qual è la soluzione allora se uno è così e l'altro è così nella maggior parte dei casi qual è la soluzione e la soluzione non c'è, la soluzione paradossale è che è l'amore che giustifica tutto l'amore giustifica qualsiasi cosa cioè tu stai con un criminale ma lo ami e va bene così, tu stai con uno stupido e lo ami, va benissimo così perché lo ami e questo non è che l'amore ha una spiegazione è l'amore che spiega le cose la stessa cosa per quello che riguarda in grande stile l'amore di Dio cioè Dio fa sto uomo e dai primi cinque pochi minuti questo subito gli fa dei dispetti grazie",
-    "titolo": "Lo sbocciare come proiezione del futuro",
-    "tema": [
-      "futuro",
-      "proiezione"
-    ],
-    "tipo": "aneddoto",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-11-098",
-    "start": 2863.18,
-    "end": 2996.95,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "però Dio non è che lo elimina dal pianeta terra lo ama la follia lo ama proprio perché l'uomo è lo energy e Dio è bassa energia e l'uomo alta energia come nelle coppie nostre e come nelle coppie che lo energy abbassa Dio perché spesso nella spiegazione di Dio è continuamente una ridimensione di una cosa gigantesca poi Dio arriva sulla terra e l'uomo lo fa fuori perché non ne vuole sapere di quella cosa però l'amore continua e solo l'amore può spiegare questa cosa l'amore tra l'altro esce da ogni dimensione spazio-tempo perché tu puoi amare una persona che sta dall'altra parte del mondo e puoi amare una persona anche che è morta per dire e l'ami per altri vent'anni, trent'anni per uscire dalla dimensione spazio-tempo basta un bacio cioè tu dai un bacio a una persona che ami già sei fuori dal tempo non sai quanti sono sai quando di ragazzino che ti baciavi sulle panchine sui motorini passavi 6 ore il pomeriggio pensavi che fossero 10 minuti e andavi a casa che ti facevamo la mattina ma che ore sono? sono già le 7 mia mamma ha già messo giù la cena è quella roba lì senti giovedì prossimo per la gioia di molti a me piace molto il talk radio parliamo di angeli perché tu nella tua follia credi negli angeli credo è l'iconstato l'iconstato angeli arcangeli tutte queste cose ma non gli angeli quei dei film non quelli con le ali con le antenne tutti tedeschi gli angeli tedeschi tutti biondi non c'è mai un angelo marocchino la settimana prossima parliamo di angeli quindi di energia e di incontri diciamo perché l'angelo che cos'è se non uno specchio l'angelo è la parte soluzione dei problemi diciamo perché per gli antichi eh l'angelo è quello che sei davvero quando si parla di angelo dice ho visto l'angelo il problema è il verbo essere tu che angelo sei tu sei un angelo tu sei quello che sei è il tuo divenire è la terra promessa è il grado evolutivo superiore giovedì prossimo grazie ancora a Igor Sibaldi se vi volete preparare per giovedì prossimo c'è un libro che si chiama proprio Libro degli Angeli grazie a tutti Grazie Igor, ciao a tutti!",
-    "titolo": "Dio e l'uomo come coppie",
-    "tema": [
-      "Dio",
-      "uomo",
-      "coppie"
-    ],
-    "tipo": "riflessione",
     "video_url": ""
   }
 ]

@@ -2,23 +2,21 @@
   {
     "id": "2016-02-05-000",
     "start": 0.72,
-    "end": 68.37,
-    "speaker_raw": "SPEAKER_05",
-    "testo": "Radio DJ One Nation One Station One Don't you shut your eyes and hide your heart behind the shadow Cause you can count on me as long as I can breathe You should know I'll carry you through the night, through the storm, give you love, only love in return. I can jump over buildings, I'm no hero, love can do miracles. I cannot run a bullet, I'm no hero, but I will take one for you, for sure. ... ... ...",
+    "end": 68.55,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Radio DJ One Nation One Station One Don't you shut your eyes and hide your heart behind the shadow Cause you can count on me as long as I can breathe You should know Grazie a tutti. grazie a tutti",
     "titolo": "One Don't You Shut Your Eyes",
     "tema": [
       "amore"
     ],
     "tipo": "riferimento_musica",
-    "video_url": "",
-    "autore": "Radio DJ",
-    "confermato_esterno": false
+    "video_url": ""
   },
   {
     "id": "2016-02-05-001",
     "start": 212.7,
     "end": 228.19,
-    "speaker_raw": "SPEAKER_09",
+    "speaker_raw": "SPEAKER_02",
     "testo": "ragazzi che ci scrivono che diciamo hanno come dire tolto una morsa alla loro vita attraverso i vizi capitali raccontatici da Igor Sibaldi ieri mi ha sbloccato come va con l'ira oggi Viola?",
     "titolo": "I vizi capitali",
     "tema": [
@@ -26,14 +24,13 @@
       "vizi"
     ],
     "tipo": "riferimento_libro",
-    "video_url": "",
-    "confermato_esterno": true
+    "video_url": ""
   },
   {
     "id": "2016-02-05-002",
     "start": 228.59,
     "end": 229.79,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Sto tentando di controllarla, ragazzi.",
     "titolo": "",
     "tema": [],
@@ -44,7 +41,7 @@
     "id": "2016-02-05-003",
     "start": 230.05,
     "end": 239.15,
-    "speaker_raw": "SPEAKER_09",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Allora, è successo questa cosa, l'altro giorno Viola parlava con Maurizio e Maurizio stava registrando, poi dopo Maurizio ha fatto sentire a Viola la registrazione.",
     "titolo": "Viola e Maurizio registrano",
     "tema": [
@@ -58,7 +55,7 @@
     "id": "2016-02-05-004",
     "start": 239.19,
     "end": 244.88,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_04",
     "testo": "No, ma la cosa assurda è che io sapevo di essere registrata, quindi non è una cosa che ha fatto tra di me.",
     "titolo": "",
     "tema": [],
@@ -68,9 +65,9 @@
   {
     "id": "2016-02-05-005",
     "start": 244.9,
-    "end": 286.77,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "Quindi poi si è risentita e sentendocela fuori, sapete che quando sentite la voce registrata di solito non vi piace, ma potete anche vedere tante cose di voi, no? E una volta una mia amica mi ha detto ma io parlo così tanto, ho detto no, tu non stai mai zitta, no mi sono accorta, ok ecco, si è accorta che hai un po' di aggressività, un po', a parte lì stavamo proprio fingendo di litigare quindi ho anche calcato un pochino, però non mi ero mai sentita veramente ma un po' anche la lingua secondo me il toscano è comunque bello è carnivoro Maurizio dice abbiamo la registrazione facciamola sentire a tutto il mondo ho preso anche la sigletta finale del albero della vita non me l'avevi segnata ma era bella",
+    "end": 269.94,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Quindi poi si è risentita e sentendocela fuori, sapete che quando sentite la voce registrata di solito non vi piace, ma potete anche vedere tante cose di voi, no? E una volta una mia amica mi ha detto ma io parlo così tanto, ho detto no, tu non stai mai zitta, no mi sono accorta, ok ecco, si è accorta che hai un po' di aggressività, un po', a parte lì stavamo proprio fingendo di litigare quindi ho anche calcato un pochino, però non mi ero mai sentita veramente",
     "titolo": "Finta lite",
     "tema": [
       "litigi"
@@ -80,10 +77,10 @@
   },
   {
     "id": "2016-02-05-006",
-    "start": 288.39,
-    "end": 292.61,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "T'avevo detto di metterci anche la sigla finale?",
+    "start": 271.14,
+    "end": 287.51,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "ma un po' anche la lingua secondo me l'accento il toscano è comunque bello è carnivoro però è spiacevole Maurizio dice abbiamo la registrazione certo che ce l'abbiamo facciamola sentire a tutto il mondo ho preso anche la sigletta finale almeno della vita non me l'avevi segnata ma era bella magari",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -91,26 +88,35 @@
   },
   {
     "id": "2016-02-05-007",
+    "start": 288.39,
+    "end": 292.61,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "ti avevo detto di metterci anche la sigla finale?",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-02-05-008",
     "start": 292.63,
     "end": 312.36,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "Mi sembra Ma se non te l'avevo messa c'era un motivo Spaventi, spaventi Il tuo fidanzato santo subito Mi dispiace tanto Registratevi e ascoltatevi Good morning sun How are you?",
+    "speaker_raw": "SPEAKER_02",
+    "testo": "mi sembra ma se non te l'avevo messa c'era un motivo spaventi spaventi il tuo fidanzato santo subito mi dispiace tanto registratevi e ascoltatevi good morning sun how are you?",
     "titolo": "Spaventi",
     "tema": [
       "musica",
       "paura"
     ],
     "tipo": "riferimento_musica",
-    "video_url": "",
-    "confermato_esterno": true,
-    "copertina": "https://coverartarchive.org/release/69d33bee-7b25-4d76-8e35-7fe848731f3a/front-250"
+    "video_url": ""
   },
   {
-    "id": "2016-02-05-008",
+    "id": "2016-02-05-009",
     "start": 312.42,
     "end": 355.44,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "It's great to be alive and in love Grazie a tutti Last night she said she loved me What a pity to part I slept with both eyes open Waiting for today to start Good morning life Good morning world How are you? All at once I knew what living can be Oh it's life It's free It's someone waiting for me Who'll someday be my wife Good morning life",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "it's great to be alive and in love Good morning life, good morning bird, sing out your happiness, feel so good cause I'll be seeing you soon. Last night she said she loved me What a pity to part I slept with both eyes open Waiting for today to start Good morning life Good morning world How are you? All at once I knew what living can be Oh it's life It's free It's someone waiting for me Who'll someday be my wife Good morning life",
     "titolo": "Good morning life",
     "tema": [
       "amore",
@@ -120,11 +126,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-05-009",
+    "id": "2016-02-05-010",
     "start": 359.5,
     "end": 449.62,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "Scusate, tutto questo perché questa mattina abbiamo avuto una mezza discussione con Viola su delle domande, quelle lì stupide che non si danno a risposta, tipo la domanda di questa mattina era, che è una domanda che si pongono in tanti da tanto tempo, se piove uno cammina per strada, si bagna di più se cammina o se corre? e la cosa affascinante è che la risposta a tutto questo non viene come sempre si sente nei programmi dall'università del Massachusetts ma è uno di Brescia quindi adesso lo stiamo cercando sto professore si chiama Franco Bocci è un professore di fisica della facoltà di ingegneria dell'università di Brescia io sono rimasta sconvolta già lei però Fenni e tu Cioè avete l'università a Brescia? Ma come ti permetti? Questo professore, già il fatto che l'abbia scoperto, diciamo, zona Brescia, è più, diciamo, credibile che il Wisconsin, che non sappiamo mai come è questo Wisconsin. Dov'è questo Wisconsin? Ok, detto questo, quindi lo cerchiamo. Però io faccio un ragionamento logico, no? Diciamo che tu devi fare... 500 metri sotto la pioggia da qui all'altra parte della strada 500 metri se tu corri fai questo tragitto in 10 secondi se cammini in 20 secondi quindi se cammini ti bagni di più perché stai più tempo sotto la pioggia questo mi sembra una cosa logica invece tu sostieni che correndo uno prende anche quella davanti ma non prende quella dietro secondo me dipende dal vento e poi che cosa si intende?",
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Scusate, tutto questo perché questa mattina abbiamo avuto una mezza discussione con Viola su delle domande, quelle lì stupide che non si danno a risposta, tipo la domanda di questa mattina era, che è una domanda che si pongono in tanti da tanto tempo, se piove uno cammina per strada, si bagna di più se cammina o se corre? e la cosa affascinante è che la risposta a tutto questo non viene come sempre si sente nei programmi dall'università del Massachusetts ma è uno di Brescia quindi adesso lo stiamo cercando sto professore si chiama Franco Bocci è un professore di fisica della facoltà di ingegneria dell'università di Brescia io sono rimasta sconvolta già lei però Fenni e tu Cioè avete l'università a Brescia? Ma come ti permetti? Questo professore, già il fatto che l'abbia scoperto, diciamo, zona Brescia, è più, diciamo, credibile che il Wisconsin, che non sappiamo mai come è questo Wisconsin. Dov'è questo Wisconsin? Detto questo, quindi lo cerchiamo. Però io faccio un ragionamento logico, no? Diciamo che tu devi fare... 500 metri sotto la pioggia da qui all'altra parte della strada 500 metri se tu corri fai questo tragitto in 10 secondi se cammini in 20 secondi quindi se cammini ti bagni di più perché stai più tempo sotto la pioggia questo mi sembra una cosa logica invece tu sostieni che correndo uno prende anche quella davanti ma non prende quella dietro secondo me dipende dal vento e poi che cosa si intende?",
     "titolo": "La risposta alle domande",
     "tema": [
       "pensiero",
@@ -134,10 +140,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-05-010",
+    "id": "2016-02-05-011",
     "start": 449.72,
     "end": 456.99,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_04",
     "testo": "è la quantità di acqua o la sensazione di bagnato? questa è un'altra domanda che cosa conviene fare?",
     "titolo": "",
     "tema": [],
@@ -145,11 +151,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-05-011",
+    "id": "2016-02-05-012",
     "start": 457.01,
     "end": 511.73,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "prendersela tutta camminando? allora fermi tutti chiamiamo questo professore che ce la spiega perché poi Viola ha detto ci sarebbe anche un'altra domanda se due gemelli si ammettessero dove era la sua testa? Due gemelli siamesi, cioè i gemelli attaccati, no? Ok. Se uno commette un crimine, l'altro va in galera con lui. Ma scusami, ma come fa a commettere il crimine uno e l'altro? Perché dice... Un crimine... No, però dico, quello ruba la banca e quello... Cosa stai facendo? guarda di là è la pistola no è un gioco ma scusa siamo attaccati a un'anca vabbè fortuna che poi con la mia barzelletta perché i gemelli sia mesi la dico sempre una volta l'anno vanno a Londra così guida un po' anche l'altro detto questo ascoltiamo le risposte dei nostri ascoltatori I know I can count on you",
+    "speaker_raw": "SPEAKER_02",
+    "testo": "prendersela tutta camminando? allora fermi tutti chiamiamo questo professore che ce la spiega perché poi Viola ha detto ci sarebbe anche un'altra domanda se due gemelli si ammettessero dove era la sua testa? Due gemelli siamesi, cioè i gemelli attaccati, no? Ok. Se uno commette un crimine, l'altro va in galera con lui. Ma scusami, ma come fa a commettere il crimine uno e l'altro? Perché dice... Un crimine... No, però dico, quello ruba la banca e quello... Cosa stai facendo? guarda di là è la pistola no è un gioco ma tu fatti i cazzi ma scusa siamo attaccati a un'anca vabbè fortuna che poi con la mia barzelletta è bella perché i gemelli sia mesi la dico sempre una volta l'anno vanno a Londra così guida un po' anche l'altro detto questo ascoltiamo le risposte dei nostri ascoltatori I know I can count on you",
     "titolo": "Gemelli siamesi e crimine",
     "tema": [
       "gemelli",
@@ -159,35 +165,22 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-05-012",
-    "start": 513.44,
-    "end": 604.53,
-    "speaker_raw": "SPEAKER_14",
-    "testo": "Sometimes I feel like saying Lord I just don't care But you've got the love I need to see me through time after time I say oh lord what's the use time after time I say this just won't do but sooner or later in life the things you love you'll lose just like before I know I call on you",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": "",
-    "autore": ""
-  },
-  {
     "id": "2016-02-05-013",
-    "start": 652.86,
-    "end": 684.12,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "You've got the love Da quanti anni vive a Brescia?",
+    "start": 513.44,
+    "end": 590.28,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Sometimes I feel like saying Lord I just don't care But you've got the love I need to see me through Grazie a tutti.",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
     "id": "2016-02-05-014",
-    "start": 685.0,
-    "end": 686.24,
-    "speaker_raw": "SPEAKER_10",
-    "testo": "Da 76.",
+    "start": 652.86,
+    "end": 684.12,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "You've Got The Love Da quanti anni vive a Brescia?",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -195,9 +188,20 @@
   },
   {
     "id": "2016-02-05-015",
+    "start": 685.0,
+    "end": 686.24,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Da 76.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-02-05-016",
     "start": 686.26,
     "end": 735.08,
-    "speaker_raw": "SPEAKER_09",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Ok, quindi diciamo è molto bresciano. Siccome io sono bresciano... Sì, lo so. Ecco, allora ho pensato che queste illuminazioni le siano venute per l'aria che respira, che tra l'altro non è proprio delle migliori. Senta, dottor Franco Bocci, lei si è posto la domanda, ci si bagna di più camminando o correndo? Era questa la domanda che si è posto, perché si parte sempre da una domanda. io ho dato una risposta io non sono laureato per questo mi considero un po' più intelligente di tutti quelli laureati lei professore avrà sott'occhio il fatto che quando un ragazzo si laurea comincia a non capire più niente della vita comunque io ho pensato se uno sta più tempo sotto la pioggia quindi cammina si bagna di più che se sta meno tempo sotto la pioggia e invece è sbagliata questa riflessione",
     "titolo": "L'aria di Brescia",
     "tema": [
@@ -208,10 +212,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-05-016",
+    "id": "2016-02-05-017",
     "start": 735.27,
     "end": 743.12,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_03",
     "testo": "No, non è sbagliata. Il concetto è che bisogna confrontare la parità di percorso da compiere.",
     "titolo": "",
     "tema": [],
@@ -219,10 +223,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-05-017",
+    "id": "2016-02-05-018",
     "start": 743.16,
     "end": 752.69,
-    "speaker_raw": "SPEAKER_09",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Cioè, se io faccio 500 metri correndo o 500 metri a piedi, quello che cammina si bagna di più di quello che corre?",
     "titolo": "La discussione su piovere",
     "tema": [
@@ -233,10 +237,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-05-018",
+    "id": "2016-02-05-019",
     "start": 752.73,
     "end": 755.63,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Normalmente sì, diciamo. Non è sicurissimo, non è una...",
     "titolo": "",
     "tema": [],
@@ -244,10 +248,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-05-019",
+    "id": "2016-02-05-020",
     "start": 756.57,
     "end": 770.63,
-    "speaker_raw": "SPEAKER_09",
+    "speaker_raw": "SPEAKER_02",
     "testo": "soluzione esatta del problema però con ogni probabilità ci si bagna di più e qual è allora qual è il cavillo diciamo la cosa che vi mette lì e dire no adesso noi dobbiamo perché bisogna scientificamente provarlo quindi bisogna fare almeno 500 camminate 1000 camminate non lo so",
     "titolo": "Prova scientifica",
     "tema": [
@@ -257,10 +261,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-05-020",
+    "id": "2016-02-05-021",
     "start": 772.77,
-    "end": 787.14,
-    "speaker_raw": "SPEAKER_10",
+    "end": 786.68,
+    "speaker_raw": "SPEAKER_03",
     "testo": "bisogna provare certo io non ho la possibilità se voi avete un team di gente disposta a fare la prova io adesso mando mille ascoltatori del programma radiofonico senta scusi ma quali sono le varianti?",
     "titolo": "",
     "tema": [],
@@ -268,22 +272,22 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-05-021",
-    "start": 787.18,
+    "id": "2016-02-05-022",
+    "start": 787.04,
     "end": 788.88,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "perché non è sempre come dico io?",
+    "speaker_raw": "SPEAKER_02",
+    "testo": "cioè perché non è sempre come dico io?",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-02-05-022",
+    "id": "2016-02-05-023",
     "start": 789.64,
-    "end": 816.9,
-    "speaker_raw": "SPEAKER_10",
-    "testo": "perché dipende un pochino anche dalla forma del corpo sostanzialmente perché è un problema troppo difficile da studiare esattamente quindi in qualche modo si cerca di modellizzarlo e però poi non si è sicuri che il modello semplificato che uno adotta sia uno non ha la certezza assoluta che il modello che uno ha usato sia assolutamente valido anche per la situazione Conta anche il vento?",
+    "end": 815.64,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "perché dipende un pochino anche dalla forma del corpo sostanzialmente perché è un problema troppo difficile da studiare esattamente, quindi in qualche modo si cerca di modellizzarlo e però poi non si è sicuri che il modello semplificato che uno adotta sia valido, uno non ha la certezza assoluta che il modello che uno ha usato sia assolutamente valido anche per la situazione.",
     "titolo": "Modello scientifico",
     "tema": [
       "scienza"
@@ -292,22 +296,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-05-023",
-    "start": 817.09,
-    "end": 818.13,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "Il tipo di pioggia?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
     "id": "2016-02-05-024",
-    "start": 818.17,
-    "end": 822.89,
-    "speaker_raw": "SPEAKER_10",
-    "testo": "Conta anche il vento certo quanta pioggia viene contano un sacco di cose",
+    "start": 815.68,
+    "end": 818.13,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Conta anche il vento, il tipo di pioggia?",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -315,10 +308,21 @@
   },
   {
     "id": "2016-02-05-025",
+    "start": 818.17,
+    "end": 822.91,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Conta anche il vento certo, quanta pioggia viene, contano un sacco di cose.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-02-05-026",
     "start": 823.1,
-    "end": 846.39,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "cioè se piove poco quando inizia la grande pioggia inizia sempre con quei puff ecco lì se uno va piano le puoi schivare come dei raggi laser comunque si invece se corri non fai in tempo le prendi tutte probabilmente questa potrebbe essere la variante adesso cosa state studiando professore Franco Bocci perché io l'ho vista alla BBC lei",
+    "end": 833.39,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Cioè se piove poco, quando inizia la grande pioggia, inizia sempre con quei puff, puff, puff. Ecco lì, se uno va piano le può schivare, come dei raggi laser.",
     "titolo": "BBC e articolo sulla fisica",
     "tema": [
       "fisica",
@@ -328,11 +332,33 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-05-026",
-    "start": 846.92,
+    "id": "2016-02-05-027",
+    "start": 833.41,
+    "end": 835.23,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Passare tra una goccia e l'altra.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-02-05-028",
+    "start": 835.25,
+    "end": 846.53,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Comunque sì, invece se corri non fai in tempo e le prendi tutte, capito? Probabilmente questa potrebbe essere la variante. Adesso cosa state studiando, professore Franco Bocci? Perché io l'ho vista alla BBC lei, eh?",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-02-05-029",
+    "start": 847.34,
     "end": 862.58,
-    "speaker_raw": "SPEAKER_10",
-    "testo": "Eh sì, ma è stata una cosa stranissima questa cosa qui perché io ho pubblicato questo articolo qui sull'European Journal of Physics e questa cosa ha incuriosito un giornalista della BBC e allora dopo, siccome la BBC la vedono tutti...",
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Sì, è stata una cosa stranissima questa cosa qui perché io ho pubblicato questo articolo qui sull'European Journal of Physics e questa cosa ha incuriosito un giornalista della BBC e allora dopo, siccome la BBC la vedono tutti...",
     "titolo": "L'articolo pubblicato su European Journal of Physics",
     "tema": [
       "scienza",
@@ -342,51 +368,22 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-05-027",
+    "id": "2016-02-05-030",
     "start": 863.24,
-    "end": 878.33,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "è diventata popolare si è accorto che molte più donne la guardano con occhi con occhi languidi niente niente niente va bene insomma la risposta qual è professor Bocci? perché sennò qua non ne veniamo fuori",
+    "end": 927.96,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "è diventata popolare si è accorto che molte più donne la guardano con occhi con occhi languidi niente niente niente va bene insomma la risposta qual è professor Bocci perché sennò qua non ne veniamo fuori Con ogni probabilità ci si bagna di più camminando. Io volevo dei dati scientifici, niente. Professore, sta studiando qualcosa adesso? Altre domande? Per esempio il cotone nell'ombelico degli uomini? È una cosa che mi manda giù di testa, perché a volte non è neanche del colore della maglietta. però è un mistero che trascende la fisica purtroppo è una risposta grazie mille professore, buona giornata grazie a voi, buona giornata a voi gli ascoltatori capisci che io non ho studiato che ho una praticità a me questa risposta mi manca un pezzo c'è la menate con ste lauree ma non capite un c***o ma andate a lavorare non capite niente",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
-  },
-  {
-    "id": "2016-02-05-028",
-    "start": 880.73,
-    "end": 885.95,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Con ogni probabilità ci si bagna di più camminando.",
-    "titolo": "camminare si bagna di più",
-    "tema": [
-      "fisica",
-      "umidità"
-    ],
-    "tipo": "riflessione",
     "video_url": ""
   },
   {
-    "id": "2016-02-05-029",
-    "start": 885.97,
-    "end": 924.74,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "Io volevo dei dati scientifici, niente. Professore, sta studiando qualcosa adesso? Altre domande? Per esempio il cottone nell'ombelico degli uomini? È una cosa che mi manda giù di testa, perché a volte non è neanche del colore della maglietta, per cui... grazie mille professore buona giornata grazie a voi buona giornata a voi gli ascoltatori capisci che io non ho studiato che ho una praticità a me questa risposta mi manca un pezzo ma non capite un c***o ma andate a lavorare non capite niente",
-    "titolo": "Il cottone nell'ombelico degli uomini",
-    "tema": [
-      "uomo",
-      "curiosità"
-    ],
-    "tipo": "aneddoto",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-05-030",
+    "id": "2016-02-05-031",
     "start": 968.66,
     "end": 1048.48,
-    "speaker_raw": "SPEAKER_13",
-    "testo": "Ti scorderò, ti scriverò, ti perderò ancora mille volte ancora. Ti scorderò, ti rivedrò, ti abbraccerò di nuovo per ricominciare. si attraggono e si uniscono. Ti aspetterò, scriverò, ti perderò ancora mille volte,",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Ti scorderò, ti scriverò, ti perderò ancora mille volte ancora. Ti scorderò, ti rivedrò, ti abbraccerò di nuovo per ricominciare. si attraggono e si uniscono. Ti aspetterò, ti scriverò, ti perderò ancora mille volte,",
     "titolo": "Citazione da una canzone",
     "tema": [
       "amore",
@@ -396,52 +393,21 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-05-031",
-    "start": 1099.62,
-    "end": 1125.25,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "ragazzi stop agli insulti dei laureati che mi stanno insultando ma come ti permetti giustamente qualcuno si è offeso va bene insomma comunque Posso dire che... Posso dire... Io lo capisco il prof, lo capisco. No, no, il prof ti dice molto probabilmente. Tra l'altro il prof si è dimenticato di dire una cosa importante, cioè che secondo la sua teoria, diciamo così, ci si bagna meno se si corre.",
-    "titolo": "La teoria del prof",
-    "tema": [
-      "scienza",
-      "umano"
-    ],
-    "tipo": "aneddoto",
-    "video_url": ""
-  },
-  {
     "id": "2016-02-05-032",
-    "start": 1125.63,
-    "end": 1127.91,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "A favore di vento, quindi col vento a favore.",
-    "titolo": "Vento a favore",
-    "tema": [
-      "scienza",
-      "umano"
-    ],
-    "tipo": "aneddoto",
+    "start": 1099.62,
+    "end": 1130.47,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "ragazzi stop agli insulti dei laureati che mi stanno insultando ma come ti permetti giustamente qualcuno si è offeso va bene insomma comunque Posso dire che... Posso dire... Io lo capisco il prof. No, no, il prof ti dice molto probabilmente. Tra l'altro il prof si è dimenticato di dire una cosa importante, cioè che secondo la sua teoria, diciamo così, ci si bagna meno se si corre... A favore di vento, quindi col vento a favore. E mettiamo che la pioggia scenda da sinistra verso destra.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
     "id": "2016-02-05-033",
-    "start": 1127.93,
-    "end": 1130.47,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "E mettiamo che la pioggia scenda da sinistra verso destra.",
-    "titolo": "La pioggia scende",
-    "tema": [
-      "scienza",
-      "umano"
-    ],
-    "tipo": "aneddoto",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-05-034",
     "start": 1130.79,
     "end": 1132.93,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Cos'è sinistra-destra?",
     "titolo": "",
     "tema": [],
@@ -449,11 +415,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-05-035",
+    "id": "2016-02-05-034",
     "start": 1133.09,
     "end": 1226.75,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "Sì, perché il vento arriva di lì e la pioggia va così. Ok, ok. La pioggia non scende dritta, scende... Certo. Per esempio in Islanda è tutta in faccia, perché è un'isola, non piove mai dall'alto al basso, ma sempre boom, dritto così, orizzontale, esatto. Allora, mettiamo che la pioggia scende da sinistra a destra, perché c'è il vento che tira da sinistra a destra. Tu dovresti correre da sinistra a destra, quindi a favore vento, così. alla stessa velocità del vento quindi tu hai le stesse voci che ti inseguono alla stessa distanza ma non ti toccano mai ma è bellissimo ma quello che ti voglio dire io che mi fa ridere adesso è il mondo dei laureati perché io lo dico sempre a questo mio amico scienziato con cui io esco a bere delle birre lui è biologo e io faccio delle discussioni con lui ma ridendo e scherzando perché lui non sono intelligenti come lui però mi dice però tu fai domande intelligenti e questo è stimolante e dopo di che io mi dà le risposte e gli dico ma che cazzo io proprio faccio quelli ignoranti ma che cazzo di capito sai come mio papà quando ero piccolo a lavorare hanno trovato hanno trovato i resti di un corpo di duemila anni fa mio papà a tavola ma allora che cazzo io ho detto a loro che era duemila anni fa mio papà ci sono degli strumenti ma crede che a mia lui non teneva mai a niente il carbonio 14 esatto io sono cresciuto così ma che gliel'hanno detto a lui che era felice era molto felice l'uomo di natura l'ha chiamato vedi però mettere in discussione va bene no però questa mentalità un po' quadra io ce l'ho Però vedi, Maurizio, sei laureato? No. Ok, ti faccio la domanda, stai a vedere. Questo è quello che io intendo. Ok. Ci si bagna di meno, Maurizio, se si cammina o si corre sotto la pioggia?",
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Sì, perché il vento arriva di lì e la pioggia va così. Ok, ok. La pioggia non scende dritta, scende... Certo. Per esempio in Islanda è tutta in faccia, perché è un'isola, non piove mai dall'alto al basso, ma sempre boom, dritto così, orizzontale, esatto. Allora, mettiamo che la pioggia scende da sinistra a destra, perché c'è il vento che tira da sinistra a destra. Tu dovresti correre da sinistra a destra, quindi a favore vento, così. alla stessa velocità del vento quindi tu hai le stesse voci che ti inseguono alla stessa distanza ma non ti toccano mai bellissimo ma quello che ti voglio dire io che mi fa ridere adesso è il mondo dei laureati perché io lo dico sempre a questo mio amico scienziato con cui io esco a bere delle birre lui è biologo e io faccio delle discussioni con lui ma ridendo e scherzando perché lui non sono intelligenti come lui però mi dice però tu fai domande intelligenti e questo è stimolante e dopo di che io mi dà le risposte e gli dico ma che cazzo io proprio faccio quelli ignoranti ma che cazzo di capito sai come mio papà quando ero piccolo a lavorare hanno trovato hanno trovato i resti di un corpo di 2000 anni fa mio papà a tavola ma allora che cazzo io ho detto a loro che era 2000 anni fa mio papà ci sono degli strumenti ma crede che a mia lui non teneva mai a niente il carbonio 14 esatto io sono cresciuto così ma che gliel'hanno detto a lui che era felice era molto felice l'uomo di natura l'ha chiamato vedi però mettere in discussione va bene no però questa mentalità un po' quadra io ce l'ho Però vedi, Maurizio, sei laureato? No. Ok, ti faccio la domanda, stai a vedere. Questo è quello che io intendo. Ok. Ci si bagna di meno, Maurizio, se si cammina o si corre sotto la pioggia?",
     "titolo": "L'isola di Islanda",
     "tema": [
       "scienza",
@@ -463,10 +429,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-05-036",
+    "id": "2016-02-05-035",
     "start": 1227.31,
     "end": 1228.41,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Basta mettere il QA.",
     "titolo": "",
     "tema": [],
@@ -474,11 +440,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-05-037",
+    "id": "2016-02-05-036",
     "start": 1229.1,
-    "end": 1236.18,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "E ci si bagna di meno, capisci? C'è la praticità. Ragazzi, il metodo sperimentale Galileo, buttato tutto all'ottimo.",
+    "end": 1240.69,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "E ci si bagna di meno, capisci? C'è la praticità. Ragazzi, il metodo sperimentale Galileo, buttato tutto all'ottimo. Noi, speculazioni filosofiche, noi diamo la risposta reale e concreta.",
     "titolo": "Il metodo scientifico applicato alla vita quotidiana",
     "tema": [
       "scienza",
@@ -489,18 +455,7 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-05-038",
-    "start": 1236.2,
-    "end": 1240.69,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "Noi, speculazioni filosofiche, noi diamo la risposta reale e concreta.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-05-039",
+    "id": "2016-02-05-037",
     "start": 1243.03,
     "end": 1285.61,
     "speaker_raw": "SPEAKER_01",
@@ -515,11 +470,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-05-040",
+    "id": "2016-02-05-038",
     "start": 1286.09,
-    "end": 1321.66,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "e allora ci chiediamo quante altre cose ci siano proprio di fronte a noi segni, suoni, profumi che non riusciamo a sentire solo perché non ci stiamo abituati dobbiamo chiamare Monolis e ci mettiamo laureati e non laureati ciao Darwin ovviamente noi stiamo scherzando Io per esempio soffro che non ho un metodo di studio, questo è vero, è una cosa che mi manca perché non essere andato a scuola, cioè faccio più fatica.",
+    "end": 1321.7,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "e allora ci chiediamo quante altre cose ci siano proprio di fronte a noi segni, suoni, profumi che non riusciamo a sentire solo perché non ci stiamo abituati dobbiamo chiamare Bonolis e ci mettiamo laureati e non laureati ciao Darwin ovviamente noi stiamo scherzando Io per esempio soffro che non ho un metodo di studio, questo è vero, è una cosa che mi manca perché non essere andato a scuola, cioè faccio più fatica.",
     "titolo": "La mancanza di un metodo di studio",
     "tema": [
       "formazione",
@@ -529,21 +484,21 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-05-041",
-    "start": 1321.68,
+    "id": "2016-02-05-039",
+    "start": 1321.76,
     "end": 1322.66,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Ma si vede dagli appunti.",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Si vede dagli appunti.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-02-05-042",
+    "id": "2016-02-05-040",
     "start": 1322.68,
     "end": 1323.54,
-    "speaker_raw": "SPEAKER_09",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Si vede dai miei appunti.",
     "titolo": "",
     "tema": [],
@@ -551,11 +506,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-05-043",
+    "id": "2016-02-05-041",
     "start": 1324.08,
-    "end": 1441.19,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "It's not lonely, it's a necessary thing. a presto no no no a presto",
+    "end": 1440.51,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "It's not lonely, it's a necessary thing. Ciao! no no no Sì.",
     "titolo": "Non è solitudine",
     "tema": [
       "solitudine"
@@ -564,26 +519,44 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-05-044",
+    "id": "2016-02-05-042",
     "start": 1471.85,
+    "end": 1480.35,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Matt Simmons. Questo è un deep end remix di Catch and Release.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-02-05-043",
+    "start": 1480.99,
+    "end": 1483.41,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Cosa stai dicendo? Ma tutti i nomi che si sono scritti qua.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-02-05-044",
+    "start": 1483.45,
     "end": 1565.67,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "Matt Simmons questo è un deep end remix di Catch and Release cosa stai dicendo? ma tutti i nomi che si sono scritti qua senti che bella la musica di Gigrobo da Charlie ah ah molto Tarantino Tarantino se la sente ci fa nascere allora l'anno scorso sentivamo sempre il nostro amico Silvio Orlando e l'abbiamo un po' mollato l'altro giorno invece l'ho sentito al telefono che sta per uscire il nostro film l'ho sentito, ci ha comandato, c'è stata una proiezione l'hanno visto per gli addetti ai lavori io non sono l'unico che non l'ha visto purtroppo mi è anche dispiaciuto ma andavo io e col telefono, con FaceTime mi fai vedere il film Purtroppo lavoravo e quindi non sono andato. Ci siamo sentiti, ho detto, allora come sta? Bene, bene. Ho detto, ma se non ti disturbiamo, noi ti richiamiamo una mattina. Certo. Ho detto, va bene, va bene, va bene. Quindi... Si prova? Se volete... No, si prova, glielo ho detto che lo avremmo chiamato. Allora... Pronto? Mi viene da piangere risentire la tua voce in onda. Pronto? Come stai? Sei stanco? Stanco mai Mai stanco Grande Sei contento?",
-    "titolo": "Deep End Remix",
-    "tema": [
-      "musica"
-    ],
-    "tipo": "riferimento_musica",
-    "video_url": "",
-    "confermato_esterno": true,
-    "copertina": "https://coverartarchive.org/release/e861b82c-e35d-46e4-b758-324bf8da42c2/front-250"
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Senti che bella la musica di Gigrobo da Charlie. Ah ah. molto Tarantino eh sì Tarantino se la sente ci fa ci fa nascere allora l'anno scorso sentivamo sempre il nostro amico Silvio Orlando e l'abbiamo un po' mollato l'altro giorno invece l'ho sentito al telefono che sta per uscire il nostro film così l'ho sentito ci ha comandato c'è stata una proiezione l'hanno visto per diciamo gli addetti ai lavori io sono l'unico che non l'ha visto dai purtroppo mi è anche dispiaciuto ma andavo io lavoravo vai e col telefono con FaceTime mi fai vedere il film Purtroppo lavoravo e quindi non sono andato. Ci siamo sentiti e ho detto, allora come sta? Bene, bene. Ho detto, ma se non ti disturbiamo noi ti richiamiamo una mattina. Certo. Ho detto, va bene, va bene, va bene. Quindi... Si prova? Se volete... No, si prova, glielo ho detto che lo avremmo chiamato. Allora... Pronto? Mi viene da piangere a risentire la tua voce in onda. Pronto? Come stai? Sei stanco? Stanco mai Mai stanco Grande Sei contento?",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
   },
   {
     "id": "2016-02-05-045",
     "start": 1566.01,
-    "end": 1599.07,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "Ma sì, molto No Molto, molto È un periodo Fantastico mamma mia ma non ti siamo mancati non dico io ma gli ascoltatori non lo so questa entità un po' misteriosa radiofonica che sono gli ascoltatori spero che ci siano sempre mi sono mancati molto scusami ma scusami qualcuno te lo dice per strada Maria Laura no",
+    "end": 1599.47,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Ma sì, molto No Molto, molto È un periodo Fantastico mamma mia ma non ti siamo mancati non dico io ma gli ascoltatori non lo so questa entità un po' misteriosa radiofonica che sono gli ascoltatori spero che ci siano sempre e mi sono mancati molto scusami ma scusami qualcuno te lo dice per strada Maria Laura e bisogna un",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -593,8 +566,8 @@
     "id": "2016-02-05-046",
     "start": 1602.6,
     "end": 1631.68,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "rinfrescare rinfrescare allora allora hai toccato hai toccato dei punti diciamo della carriera di un attore commoventi no? hai fatto un film con me hai fatto punti di arrivo hai fatto dei film registri importanti adesso stai facendo con Sorrentino stai girando con Giudlo stai girando con Diane Keaton insomma esatto insomma è una cosa a Toroni ti sei trovato bene immagino io",
+    "speaker_raw": "SPEAKER_02",
+    "testo": "rinfrescare rinfrescare allora allora hai toccato hai toccato dei punti di diciamo della carriera di un attore commoventi no? hai fatto un film con me hai fatto punti di arrivo hai fatto dei film registri importanti adesso stai facendo con Sorrentino stai girando con Giudlo stai girando con Dai Anchito insomma esatto insomma è una cosa a Toroni ti sei trovato bene immagino io",
     "titolo": "Carriera di un attore",
     "tema": [
       "carriera",
@@ -607,8 +580,8 @@
     "id": "2016-02-05-047",
     "start": 1632.38,
     "end": 1674.91,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "se non fosse stato per l'inglese quello è stato un po' un problemino perché giravo tutta la mia parte tutta in inglese con dei inserti di italiano però insomma il grosso era in inglese ma noi col permesso della HBO e di Sorrentino possiamo rubarti una line una battuta in inglese per sentirti o non si può? io in realtà l'ho finito il film da un paio di settimane però certo è ancora caldo ti svegli ancora di notte con yes I do sai quelle cose io so solo che quando ho finito il film che è stato un venerdì ho dormito 14 ore",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "se non fosse stato per l'inglese ecco quello è stato un po' un problemino giravo tutta la mia parte tutta in inglese con dei inserti di italiano però insomma il grosso era in inglese ma noi col permesso della HBO e di Sorrentino possiamo rubarti una line diciamo come dicono una battuta in inglese per sentirti o non si può? io in realtà l'ho finito il film da un paio di settimane però certo è ancora caldo ti svegli ancora di notte con yes yes I do io so solo che quando ho finito il film che è stato un venerdì ho dormito 14 ore",
     "titolo": "Problemi con l'inglese",
     "tema": [
       "inglese",
@@ -620,9 +593,9 @@
   {
     "id": "2016-02-05-048",
     "start": 1676.55,
-    "end": 1713.14,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "è come l'esame all'università perché comunque a parte gli scherzi adesso tu sei un grande professionista lo sappiamo sei bravo ah già che quando dico in radio scusa dico in radio che quando intervistano due attori e uno dell'altro dice un grande professionista vuol dire che non si sono piaciuti sul set di solito no però tu sei un grande attore però devo dire recitare al di là del fatto che reciti con grandi attori internazionali però anche proprio il fatto che non hai la forza della tua lingua immagino che un po' di agitazione ti sarà venuta i primi giorni guarda dipendeva un po' dal clima che avevo intorno perché un attore è ascoltato da un set è ascoltato da un",
+    "end": 1706.6,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "è come l'esame all'università perché comunque a parte gli scherzi adesso tu sei un grande professionista lo sappiamo sei bravo ah già che quando dico in radio scusa dico in radio che quando intervistano due attori e uno dell'altro dice un grande professionista vuol dire che non si sono piaciuti sul set di solito No, però tu sei un grande attore, però devo dire, al di là del fatto che reciti con grandi attori internazionali, però anche proprio il fatto che non hai la forza della tua lingua, immagino che un po' di agitazione ti sarà venuta i primi giorni.",
     "titolo": "Recitare al di là",
     "tema": [
       "recitazione",
@@ -633,10 +606,10 @@
   },
   {
     "id": "2016-02-05-049",
-    "start": 1713.51,
-    "end": 1732.37,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "un certo numero di persone di cui non si rende neanche conto però in questo caso qua appunto siccome avevo questo complesso della lingua vedevo solo gente che intorno mi ascoltava e che mi faceva l'esame che è stato bello io avevo più o meno crolli psicologici però insomma con la mia preparazione ho cercato di",
+    "start": 1706.68,
+    "end": 1737.73,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Guarda, dipendeva un po' dal clima che avevo intorno, perché un attore è ascoltato, un set è ascoltato da un... un certo numero di persone di cui non si rende neanche conto però in questo caso qua appunto siccome avevo questo complesso della lingua vedevo solo gente che intorno mi ascoltava e che mi faceva l'esame che è stato loro vedano le loro facce io avevo più o meno crolli psicologici però insomma con la mia preparazione ho cercato di",
     "titolo": "Complesso della lingua",
     "tema": [
       "lingua",
@@ -649,7 +622,7 @@
     "id": "2016-02-05-050",
     "start": 1739.42,
     "end": 1754.62,
-    "speaker_raw": "SPEAKER_09",
+    "speaker_raw": "SPEAKER_02",
     "testo": "il senso del giudizio poi scusami ma la cosa bella è che poi il regista essendo napoletano ogni tanto andavi a sfogarti con lui e lui diceva Paolo buttavi fuori un po' diciamo che l'inglese di Paolo è un pochino superiore al mio ma non di tanto",
     "titolo": "Sfogarsi con il regista",
     "tema": [
@@ -663,8 +636,8 @@
     "id": "2016-02-05-051",
     "start": 1757.22,
     "end": 1777.92,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "avevamo un secondo, un terzo, un quarto grado di giudizio che erano tutti questi dialogue coach e addirittura Jude aveva un dialogue coach su internet questa poi è una parte dell'aneddotica che è inglese insomma perché se voleva fare un papa americano aveva un papa americano un uomo che è diventato milionario si chiama Tim che è",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "avevamo un secondo un terzo un quarto grado di giudizio che erano tutti questi dialogue coach e addirittura Jude aveva un dialogue coach questo è poi una parte dell'aneddotica dell'inglese insomma perché se voleva fare un papa americano aveva un papa americano un uomo che è diventato milionario si chiama Tim che è",
     "titolo": "Dialogue coach",
     "tema": [
       "dialogue",
@@ -677,8 +650,8 @@
     "id": "2016-02-05-052",
     "start": 1781.11,
     "end": 1788.95,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "Ma è lo stesso uomo che può fare dall'italiano all'inglese e dall'inglese all'americano? È lo stesso coach o ognuno c'ha il proprio?",
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Ma è lo stesso uomo che può fare dall'italiano all'inglese e dall'inglese all'americano, è lo stesso coach o ognuno c'ha il proprio?",
     "titolo": "Coach per l'inglese",
     "tema": [
       "inglese",
@@ -691,7 +664,7 @@
     "id": "2016-02-05-053",
     "start": 1789.68,
     "end": 1792.4,
-    "speaker_raw": "SPEAKER_07",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Ognuno c'ha il proprio, quello non parla una parola di italiano.",
     "titolo": "Coach non parla italiano",
     "tema": [
@@ -705,7 +678,7 @@
     "id": "2016-02-05-054",
     "start": 1792.78,
     "end": 1794.64,
-    "speaker_raw": "SPEAKER_09",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Ma il tuo sei diventato amico?",
     "titolo": "Amicizia con il coach",
     "tema": [
@@ -719,7 +692,7 @@
     "id": "2016-02-05-055",
     "start": 1795.24,
     "end": 1819.08,
-    "speaker_raw": "SPEAKER_07",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Io ne ho sterminati una mezza settimana. a un certo punto del percorso crollavano dicevano bravo però tu comunque il Vaticano è l'unico luogo al mondo dove per fare cadere devi sapere l'italiano devi sapere l'italiano però tu sei un prete italiano che parla inglese io non sono un prete cosa sei?",
     "titolo": "Il Vaticano e l'italiano",
     "tema": [
@@ -733,19 +706,18 @@
     "id": "2016-02-05-056",
     "start": 1819.75,
     "end": 1853.0,
-    "speaker_raw": "SPEAKER_09",
+    "speaker_raw": "SPEAKER_02",
     "testo": "io sono il segretario di Stato tappati la bocca del cardinale Moiello Moiello fantastico senti Silvio in tutto questo in un momento così molto bello ci sta anche uscendo il film quello è il momento da Giudolo a Fabio Volo ti chiedo scusa per questo abbassamento di pressione andrà in depressione però insomma ricomincia anche la tua turnetta teatrale quello si è il mio la tua passione quella vera il tuo gioco tipo per esempio la settimana prossima dove sei?",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
     "id": "2016-02-05-057",
     "start": 1853.72,
     "end": 1872.03,
-    "speaker_raw": "SPEAKER_07",
+    "speaker_raw": "SPEAKER_04",
     "testo": "ho sotto mano la tournée perché se no comincio a dire Maria Laura c'ho tutto sotto mano quindi c'ho tutto l'appunto che mi sono preso stiamo a Padova tutta la settimana prossima E poi facciamo tanto Friuli, Venezia, Giulia, Tolmezzo, Gorizia, Bonfalcone, Bordenone.",
     "titolo": "",
     "tema": [],
@@ -756,7 +728,7 @@
     "id": "2016-02-05-058",
     "start": 1872.33,
     "end": 1874.69,
-    "speaker_raw": "SPEAKER_09",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Ah, vai su nel nord-est estremo.",
     "titolo": "",
     "tema": [],
@@ -767,68 +739,63 @@
     "id": "2016-02-05-059",
     "start": 1875.13,
     "end": 1883.78,
-    "speaker_raw": "SPEAKER_07",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Sì, per poi arrivare. Questa è una cosa che ci preme molto perché ovviamente là ci andiamo a fare il risultato, a cercare di fare il risultato a Roma.",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
     "id": "2016-02-05-060",
     "start": 1883.84,
     "end": 1889.24,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "A Roma. Dopo Pasqua sei a Roma? Ah, stavolta vengo, sì.",
+    "speaker_raw": "SPEAKER_02",
+    "testo": "A Roma. Dopo Pasqua sei a Roma. Ah, stavolta vengo, sì.",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
     "id": "2016-02-05-061",
     "start": 1889.3,
     "end": 1891.54,
-    "speaker_raw": "SPEAKER_07",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Teatro Quirino, Teatro Quirino di Roma.",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
     "id": "2016-02-05-062",
     "start": 1891.8,
     "end": 1899.55,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "Stavolta vengo. Stavolta vengo. Perché comunque, oh, segretario di Stato, uno se lo va a vedere.",
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Stavolta vengo. Siete tutti invitati. Eh, no. Stavolta vengo. Perché comunque, oh, segretario di Stato, uno se lo va a vedere.",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
     "id": "2016-02-05-063",
     "start": 1899.59,
     "end": 1924.14,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "Comunque stavo finendo di quest'uomo, questo team che faceva il Delo Cruz, che ha fatti milioni interpretando tutti i dialetti americani. capisci ah già certo del sud del nord la tua particolarità è stata quella che lui è capace di rifare tutti gli allenamenti loro lo chiamano Scorsese Per insegnare agli attori come parla un californiano, come parla un new yorkese, come parla uno di Boston.",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Comunque stavo finendo di quest'uomo, questo team che faceva il Delo Cruz, che ha fatti milioni interpretando tutti i dialetti americani. ah già certo del sud del nord la sua particolarità è stata quella che lui è capace di rifare tutti gli allenamenti loro lo chiamano Scorsese tutto se spinge le cose Per insegnare agli attori come parla un californiano, come parla un new yorkese, come parla uno di Boston.",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
     "id": "2016-02-05-064",
     "start": 1924.16,
     "end": 1962.85,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "Beh è un talento vero perché deve avere un orecchio strepitoso per poter fare questo. Io per esempio quando guardo i film, se sono di New York li capisco subito, se sono del Texas o del South, tipo True Detective, ci vogliono i sottotitoli perché... Io niente capisco. è finita la tournée in vacanza in America che adesso padroneggi la lingua vai lì e vai io posso parlare solo con le parole del copione del copione vai al bar e dici il papa oggi non si sente bene ma che cazzo va bene ciao Silvio un grande affetto un abbraccio ciao ciao ciao ciao",
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Beh è un talento vero perché deve avere un orecchio strepitoso per poter fare questo. Io per esempio quando guardo i film, se sono di New York li capisco subito, se sono del Texas o del South, tipo True Detective, ci vogliono i sottotitoli perché you know what I was saying? Io niente capisco, vabbò. è finita la tournée in vacanza in America che adesso padroneggi la lingua vai lì e vai io posso parlare solo con le parole del copione del copione vai al bar e dici il papa oggi non si sente bene ma che cazzo va bene ciao Silvio un grande affetto un abbraccio ciao ciao ciao ciao",
     "titolo": "Orecchio strepitoso",
     "tema": [
       "lingua",
@@ -840,44 +807,16 @@
   {
     "id": "2016-02-05-065",
     "start": 1973.6,
-    "end": 2000.51,
-    "speaker_raw": "SPEAKER_15",
-    "testo": "When my eyes are closed I can start to feel you staring at me The right side of my bed has always left me feeling stuck in between Everything I know and all the lies I tell myself so I can sleep",
-    "titolo": "When my eyes are closed",
-    "tema": [
-      "amore",
-      "relazione"
-    ],
-    "tipo": "citazione",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-05-066",
-    "start": 2029.47,
-    "end": 2078.63,
-    "speaker_raw": "SPEAKER_16",
-    "testo": "You came around to say that you'd been away like I hadn't known As if I don't wake up every single day not seeing you go As if this moon of ours only shines a half to make me feel whole as if I haven't felt your breath in every step I take when the wind blows pick apart the pieces you left and don't you worry about it don't you worry about it try and give yourself some rest and let me worry about it",
-    "titolo": "You came around",
-    "tema": [
-      "amore",
-      "relazione"
-    ],
-    "tipo": "citazione",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-05-067",
-    "start": 2093.83,
     "end": 2093.95,
-    "speaker_raw": "SPEAKER_02",
-    "testo": "Musica",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "When my eyes are closed I can start to feel you staring at me The right side of my bed has always left me feeling stuck in between Everything I know and all the lies I tell myself so I can sleep You came around to say that you'd been away like I hadn't known As if I don't wake up every single day not seeing you go As if this moon of ours only shines a half to make me feel whole As if I haven't felt your breath in every step I take when the wind blows Pick apart the pieces you left Don't you worry about it Don't you worry about it Try and give yourself some rest And let me worry about it Musica",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-02-05-068",
+    "id": "2016-02-05-066",
     "start": 2124.43,
     "end": 2124.57,
     "speaker_raw": "SCONOSCIUTO",
@@ -888,10 +827,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-05-069",
+    "id": "2016-02-05-067",
     "start": 2157.97,
     "end": 2158.07,
-    "speaker_raw": "SPEAKER_02",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Ciao!",
     "titolo": "",
     "tema": [],
@@ -899,10 +838,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-05-070",
+    "id": "2016-02-05-068",
     "start": 2194.31,
     "end": 2229.55,
-    "speaker_raw": "SPEAKER_09",
+    "speaker_raw": "SPEAKER_02",
     "testo": "ovviamente anche i nostri ascoltatori stanno giocando con noi quelli che diciamo dicono la smetti con tutta la fatica che ho fatto a laurearmi poi c'è qualche laureato che dice hai ragione io me ne sono accorto che non serve a niente e altri invece come me che non sono laureati che a me piacerebbe per esempio essere laureato in filosofia o se finora avete spalato l'esame su di noi non per la laurea e il foglio di carta perché fortunatamente non ne ho avuto bisogno però è stato fortunato per carità Però tu in che cosa vorresti essere laureato? Io vorrei essere laureato in lettere e filosofia. Ma puoi farlo. Ma secondo te?",
     "titolo": "Laureati e non laureati",
     "tema": [
@@ -913,10 +852,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-05-071",
+    "id": "2016-02-05-069",
     "start": 2229.65,
     "end": 2230.93,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_04",
     "testo": "No, da non frequentante.",
     "titolo": "",
     "tema": [],
@@ -924,11 +863,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-05-072",
+    "id": "2016-02-05-070",
     "start": 2231.82,
     "end": 2238.38,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "No, lo so, ma dovrei trovare, secondo me nella terza, io mi laureo nella terza età, diciamo, perché adesso sto lavorando troppo. Ah, l'università della terza età.",
+    "speaker_raw": "SPEAKER_02",
+    "testo": "No, lo so, ma devo trovare, secondo me nella terza, io mi laureo nella terza età, diciamo, perché adesso sto lavorando troppo. Ah, l'università della terza età.",
     "titolo": "L'università della terza età",
     "tema": [
       "lavoro",
@@ -938,22 +877,22 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-05-073",
-    "start": 2238.44,
+    "id": "2016-02-05-071",
+    "start": 2238.4,
     "end": 2239.88,
-    "speaker_raw": "SPEAKER_08",
-    "testo": "A me anche ingegneria.",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Ma è anche ingegneria.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-02-05-074",
+    "id": "2016-02-05-072",
     "start": 2240.14,
     "end": 2320.98,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "Ingegneria, beh tu sì, col lavoro che fai sarebbe fighissimo. Io ti dirò che se dovessi andare a vivere negli Stati Uniti, lì mi piacerebbe andare all'università, lì, cioè lavorare un po'. lì devo spendere qualche parte eppure secondo me come metodo ti piacerebbe più quello italiano che quello americano quello americano è molto concreto ero andato a volte a sentire delle lezioni in passato senza mai dargli esami però poi ovviamente faccio un'altra vita e so che non ho tempo poi ti dici che non frequento poi mi sento in colpa non torniamo a scuola se no diventa intelligente ma non si impegna intelligente ma non si impegna allora esatto parliamo di una cosa importante scusate vi vogliamo lasciare in questo weekend con una bella canzone allegra adesso mettiamo una bella però prima di mettere questa canzone bella allegra vogliamo lasciarvi con un punto di vista di una persona che è un professore universitario tra l'altro Galimberti che dice sempre delle cose molto interessanti i suoi libri sono affascinanti insomma io li leggo molto visto che si parla nel nostro paese di questa legge Cirinna quindi è giusto che anche coppie omosessuali si possano sposare è giusto che possano adottare dei figli insomma ognuno ha la propria visione c'è stato sia il Family Day che le altre manifestazioni sì noi adesso sentiamo invece le parole perché ci sono piaciute tante e poi ci mettiamo we are family che va bene per tutti siamo una famiglia",
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Ingegneria, beh tu sì, con il lavoro che fai sarebbe fighissimo. Io ti dirò che se dovessi andare a vivere negli Stati Uniti, lì mi piacerebbe andare all'università, lì, cioè lavorare un po'. lì devo spendere qualche parte eppure secondo me come metodo ti piacerebbe più quello italiano che quello americano quello americano è molto concreto ero andato a volte a sentire delle lezioni in passato senza mai dargli esami però poi ovviamente faccio un'altra vita e so che non ho tempo poi ti dici che non frequento poi mi sento in colpa non torniamo a scuola se no diventa intelligente ma non si impegna intelligente ma non si impegna allora esatto parliamo di una cosa importante scusate vi vogliamo lasciare in questo weekend con una bella canzone allegra adesso mettiamo una bella però prima di mettere questa canzone bella allegra vogliamo lasciarvi con un punto di vista di una persona che è un professore universitario tra l'altro Galimberti che dice sempre delle cose molto interessanti i suoi libri sono affascinanti insomma io li leggo molto visto che si parla nel nostro paese di questa legge Cirinna quindi è giusto che anche coppie omosessuali si possano sposare è giusto che possano adottare dei figli insomma ognuno ha la propria visione c'è stato sia il Family Day che le altre manifestazioni sì noi adesso sentiamo invece le parole perché ci sono piaciute tante e poi ci mettiamo We Are Family che va bene per tutti siamo una famiglia",
     "titolo": "Metodo di studio americano",
     "tema": [
       "studio",
@@ -963,7 +902,7 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-05-075",
+    "id": "2016-02-05-073",
     "start": 2324.16,
     "end": 2391.02,
     "speaker_raw": "SPEAKER_00",
@@ -977,11 +916,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-05-076",
+    "id": "2016-02-05-074",
     "start": 2394.53,
     "end": 2407.16,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "adesso tirerei giù il finestrino un po' di tacco, un po' di trucco un po' di rimmel musica a palla questo mi cambia il weekend ragazzi tornate lunedì qua al volo siete ancora contenti col sorriso ci so",
+    "speaker_raw": "SPEAKER_02",
+    "testo": "adesso tirerei giù il finestrino un po' di tacco, un po' di trucco un po' di Rimmel musica a palla questo mi cambia il weekend ragazzi tornate lunedì qua al volo siete ancora contenti col sorriso ci so",
     "titolo": "Il weekend con musica e trucco",
     "tema": [
       "musica",
@@ -991,70 +930,24 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-05-077",
+    "id": "2016-02-05-075",
     "start": 2470.68,
-    "end": 2471.72,
+    "end": 2604.84,
     "speaker_raw": "SPEAKER_04",
-    "testo": "Grazie a tutti.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-05-078",
-    "start": 2506.9,
-    "end": 2522.05,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "we are family get up everybody and sing living life is fun and we've just begun to get our share of this world's delight",
+    "testo": "Grazie a tutti. We are family Get up everybody and sing Living life is fun and we've just begun To get our share of this world's delight Ciao! grazie a tutti Ciao!",
     "titolo": "We Are Family",
     "tema": [
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": "",
-    "confermato_esterno": true,
-    "copertina": "https://coverartarchive.org/release/feca5350-71d1-444a-91fd-b938c0ef4e90/front-250"
-  },
-  {
-    "id": "2016-02-05-079",
-    "start": 2538.18,
-    "end": 2538.28,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "Ciao!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-02-05-080",
-    "start": 2581.19,
-    "end": 2584.11,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "grazie a tutti",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-05-081",
-    "start": 2604.72,
-    "end": 2604.84,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "Ciao!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-05-082",
+    "id": "2016-02-05-076",
     "start": 2642.87,
     "end": 2701.54,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "Cioè, la Maurizio ci guardava, no? Però ci aveva tolto la musica dalle cuffie. Quindi ci guardava e io pensavo che stesse montando una roba e mi ha tolto la musica. Vedi, guardavo e direi, ma allora non entri. E la Viola, ma noi non sentiamo niente. Ci avevi tolto. Era bella questa canzone del finale, l'abbiamo sentito. Ok. Allora ragazzi vediamo i compiti per il weekend, lunedì mattina, no ma non tutti, a me piacciono i precisetti, quelli che Freud direbbe che sono rimasti in fase anale Allora i precisetti per lunedì, le domande tipo ci si bagna di più se si corre e noi da lunedì prendiamo le vostre domande e chiamiamo gli scienziati, posso dire anche un paio di muratori infatti secondo me conviene stare sul concreto se noi lo chiediamo a un postino ci si bagna di più correndo, camminando il postino lo sa mentre lo scienziato ti dice molto probabilmente il postino ti dice guarda ti assicuro che se vai in bici e te lo spiega facciamo una roba così",
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Cioè, la Maurizio ci guardava, no? Però ci aveva tolto la musica dalle cuffie. Quindi ci guardava e io pensavo che stesse montando una roba e mi ha tolto la musica. Vedi, guardavo e direi, ma allora non entri. E la Viola, ma noi non sentiamo niente. Ci avevi tolto. Era bella questa canzone del finale, l'abbiamo sentito. Sì, sfuma. Ok. Allora ragazzi vediamo i compiti per il weekend, lunedì mattina, no ma non tutti, a me piacciono i precisetti, quelli che Freud direbbe che sono rimasti in fase anale Allora i precisetti per lunedì, le domande tipo ci si bagna di più se si corre e noi da lunedì prendiamo le vostre domande e chiamiamo gli scienziati, posso dire anche un paio di muratori infatti secondo me conviene stare sul concreto se noi lo chiediamo a un postino ci si bagna di più correndo, camminando il postino lo sa mentre lo scienziato ti dice molto probabilmente il postino ti dice guarda ti assicuro che se vai in bici e te lo spiega facciamo una roba così",
     "titolo": "La canzone del finale",
     "tema": [
       "musica",
@@ -1064,11 +957,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-05-083",
+    "id": "2016-02-05-077",
     "start": 2702.2,
     "end": 2727.85,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "altre domande per esempio avevi fatto quella dei gemelli siamesi esatto ci avevano chiesto se appunto gemelli siamesi uno di loro fa un reato l'altro viene punito comunque facciamo un reato tipo al computer entra in banca e l'altro fa non sono d'accordo non ero d'accordo oppure urlare in faccia a un moribondo c'è uno che sta morendo come nei film non lasciarmi stai con me ha un beneficio medico",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "altre domande per esempio avevi fatto quella dei gemelli siamesi esatto ci avevano chiesto se appunto gemelli siamesi uno di loro fa un reato l'altro viene punito comunque facciamo un reato tipo al computer entra in banca e l'altro fa non sono d'accordo non ero d'accordo oppure urlare in faccia a un moribondo cioè uno che sta morendo come nei film non lasciarmi stai con me ha un beneficio medico",
     "titolo": "La storia dei gemelli siamesi",
     "tema": [
       "gemelli",
@@ -1078,11 +971,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-05-084",
+    "id": "2016-02-05-078",
     "start": 2728.45,
     "end": 2802.12,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "questo ce lo può dire un dottore magari moralmente gli dai forza o forza lo stremi e basta a me io dei film mi ricordo sempre possiamo vederlo si ma non parlate di che è molto affaticato io mi ricordo i parenti vogliono entrare dico si potete salutare un minuto è molto affaticato padre deve riposare e va dentro in mille allora diciamo soprattutto se io entro non ti faccio stancare cari ascoltatori la settimana prossima dobbiamo risolvere a parte che tornerà Sibaldi con un tema bellissimo quale? sull'amore e sul principio di scopo è uno spettacolo però a parte quello forse porta il gatto Wellington a parte quello la settimana prossima dobbiamo risolvere il problema quale? quello della lana dell'ombelico l'abbiamo già affrontato in altri anni non abbiamo mai risposto ok il gemello siamese se quello fa la rapina non li beccano però non è d'accordo poi quando quell'altro va in Carabia a spendere i soldi l'altro non può andare in acqua non lo so, dobbiamo capire anche queste cose sono d'accordo, non ero d'accordo e tutte le varie domande che preparerete a cui non trovate risposta per esempio perché le donne vanno sempre in bagno in coppia e questa è una domanda che poneva Platone ciao ragazzi, buon weekend ciao",
+    "speaker_raw": "SPEAKER_02",
+    "testo": "questo ce lo può dire un dottore magari moralmente gli dai forza o forza lo stremi e basta a me io dei film mi ricordo sempre possiamo vederlo si ma non parlate di che è molto affaticato io mi ricordo sai quando i parenti vogliono entrare dico si potete salutare un minuto è molto affaticato padre deve riposare e va dentro in mille allora diciamo soprattutto se io entro non ti faccio stancare cari ascoltatori la settimana prossima dobbiamo risolvere a parte che tornerà Sibaldi con un tema bellissimo quale? sull'amore e sul principio di scopo è uno spettacolo però a parte quello forse porta il gatto Wellington a parte quello la settimana prossima dobbiamo risolvere il problema quale? quello della lana dell'ombelico l'abbiamo già affrontato in altri anni non abbiamo mai risposto ok il gemello siamese se quello fa la rapina non li beccano però non è d'accordo poi quando quell'altro va in Carabia a spendere i soldi l'altro non può andare in acqua non lo so, dobbiamo capire anche queste cose sono d'accordo, non ero d'accordo e tutte le varie domande che preparerete a cui non trovate risposta per esempio perché le donne vanno sempre in bagno in coppia e questa è una domanda che poneva Platone ciao ragazzi, buon weekend ciao",
     "titolo": "Aiuto per il padre",
     "tema": [
       "aiuto",
