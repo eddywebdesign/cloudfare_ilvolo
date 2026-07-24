@@ -34,6 +34,32 @@ def formatear_fecha(iso_str) -> str:
         return str(iso_str)
 
 
+def contar_rifatti_config_attuale(trascrizioni_dir: Path) -> int:
+    """Conta quanti data/trascrizioni/<data>.json portano il marcatore
+    _config_versione == CONFIG_VERSIONE ATTUALE (transcribe_utils.py) - lettura
+    DIRETTA del dato scritto dalla pipeline, non un'euristica su timestamp/nomi
+    file. Usare questo, non contar_progreso_total(), per sapere "quanti gia'
+    rifatti con la config finale" durante una campagna di ritrascrizione."""
+    try:
+        import sys
+        sys.path.insert(0, str(Path(__file__).resolve().parent))
+        from transcribe_utils import CONFIG_VERSIONE
+    except ImportError:
+        return 0
+    n = 0
+    for f in trascrizioni_dir.glob("*.json"):
+        try:
+            testo = f.read_text(encoding="utf-8")
+        except OSError:
+            continue
+        # controllo a stringa prima del parse JSON completo (piu' veloce su
+        # migliaia di file, i trascrizioni sono grandi ma il marcatore e' un
+        # campo semplice sempre presente uguale se il file ce l'ha)
+        if f'"_config_versione": "{CONFIG_VERSIONE}"' in testo:
+            n += 1
+    return n
+
+
 def contar_progreso_total(frammenti_dir: Path, audio_root: Path):
     """Devuelve (transcritos, total_audio) contando frammenti_dir/*.json
     contra todos los .mp3 de audio_root, o (transcritos, None)

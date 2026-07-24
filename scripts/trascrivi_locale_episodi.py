@@ -30,7 +30,7 @@ sys.path.insert(0, str(ROOT / "scripts"))
 
 from transcribe_utils import (  # noqa: E402
     transcribe, load_lines, HF_TOKEN_FILE,
-    MIN_SPEAKERS_DEFAULT, MAX_SPEAKERS_DEFAULT,
+    MIN_SPEAKERS_DEFAULT, MAX_SPEAKERS_DEFAULT, CONFIG_VERSIONE,
 )
 import genera_frammenti  # noqa: E402
 from trascrivi_e_estrai_clip import estrai_riferimenti, merge_riferimenti  # noqa: E402
@@ -631,7 +631,16 @@ def main() -> None:
             print(f"  ERRORE trascrizione: {e}")
             continue
         TRASCRIZIONI_DIR.mkdir(parents=True, exist_ok=True)
-        dest_trascr.write_bytes(json_path.read_bytes())
+        if args.gpu:
+            # Marcatore diretto (non un timestamp/euristica) per contare nel
+            # pannello "quanti fatti con la config attuale" - vedi CONFIG_VERSIONE
+            # in transcribe_utils.py. Solo per il ramo GPU: la config CPU non
+            # applica min/max_speakers, non e' la stessa configurazione.
+            dati_grezzi = json.loads(json_path.read_text(encoding="utf-8"))
+            dati_grezzi["_config_versione"] = CONFIG_VERSIONE
+            dest_trascr.write_text(json.dumps(dati_grezzi, ensure_ascii=False), encoding="utf-8")
+        else:
+            dest_trascr.write_bytes(json_path.read_bytes())
 
         # 2. frammenti (turni di parola)
         genera_frammenti.genera(data_str)

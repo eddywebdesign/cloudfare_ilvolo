@@ -31,7 +31,7 @@ from panel_comun import (  # noqa: E402
     COLOR_AZUL, COLOR_FONDO, COLOR_NARANJA, COLOR_ROJO, COLOR_TARJETA, COLOR_TEXTO,
     COLOR_TEXTO_SUAVE, COLOR_VERDE, contar_estado_classificazione,
     contar_estado_classificazione_episodio, contar_progreso_total,
-    formatear_fecha, leer_json_estado,
+    contar_rifatti_config_attuale, formatear_fecha, leer_json_estado,
 )
 
 ESTADO_PATH = logs_root(REPO) / "estado_clasificacion.json"
@@ -50,6 +50,7 @@ ESTADO_PATH_FALLBACK = Path(r"\\192.168.8.80\Media\ilvolodellasera\logs\estado_c
 # dalla migrazione dati del 17/07), ora vive sotto Media\ilvolodellasera\.
 ESTADO_PUSH_PATH = Path(r"\\192.168.8.80\Media\ilvolodellasera\logs\estado_push.json")
 FRAMMENTI_DIR_UNC = Path(r"\\192.168.8.80\Media\ilvolodellasera\data\frammenti")
+TRASCRIZIONI_DIR_UNC = Path(r"\\192.168.8.80\Media\ilvolodellasera\data\trascrizioni")
 AUDIO_ROOT_UNC = Path(r"\\192.168.8.80\Media\ilvolodellasera\ilvolo-audio-backup")
 # Persistido en disco local del HP14 (no en el share): mismo motivo que en
 # panel_control.py (K16) - si este panel se cierra/crashea con una parada
@@ -488,6 +489,10 @@ class PanelEstado:
         except Exception:
             transcritos, total_audio = None, None
         try:
+            rifatti = contar_rifatti_config_attuale(TRASCRIZIONI_DIR_UNC)
+        except Exception:
+            rifatti = None
+        try:
             stats = contar_estado_classificazione(FRAMMENTI_DIR_UNC)
         except Exception:
             stats = None
@@ -495,20 +500,21 @@ class PanelEstado:
             stats_ep = contar_estado_classificazione_episodio(FRAMMENTI_DIR_UNC, self.episodio_actual or "")
         except Exception:
             stats_ep = None
-        self.root.after(0, lambda: self._aplicar_progreso(transcritos, total_audio, stats, stats_ep))
+        self.root.after(0, lambda: self._aplicar_progreso(transcritos, total_audio, rifatti, stats, stats_ep))
 
-    def _aplicar_progreso(self, transcritos, total_audio, stats, stats_ep):
+    def _aplicar_progreso(self, transcritos, total_audio, rifatti, stats, stats_ep):
         self._consultando_progreso = False
+        rifatti_txt = f" (rifatti con config attuale: {rifatti})" if rifatti is not None else ""
         if transcritos is None:
             self.lbl_progreso_total.config(text="")
         elif total_audio:
             self.lbl_progreso_total.config(
-                text=f"Progreso total: {transcritos} de {total_audio} episodios transcritos",
+                text=f"Progreso total: {transcritos} de {total_audio} episodios transcritos{rifatti_txt}",
                 foreground=COLOR_TEXTO_SUAVE,
             )
         else:
             self.lbl_progreso_total.config(
-                text=f"Progreso total: {transcritos} episodios transcritos (share no accesible, sin total)",
+                text=f"Progreso total: {transcritos} episodios transcritos (share no accesible, sin total){rifatti_txt}",
                 foreground=COLOR_TEXTO_SUAVE,
             )
 

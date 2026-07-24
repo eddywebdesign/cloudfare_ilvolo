@@ -41,8 +41,8 @@ from dati_root import dati_root, logs_root  # noqa: E402
 from panel_comun import (  # noqa: E402
     COLOR_AZUL, COLOR_FONDO, COLOR_NARANJA, COLOR_ROJO, COLOR_TARJETA,
     COLOR_TEXTO, COLOR_TEXTO_SUAVE, COLOR_VERDE, contar_estado_classificazione,
-    contar_estado_classificazione_episodio, contar_progreso_total, formatear_fecha,
-    leer_json_estado,
+    contar_estado_classificazione_episodio, contar_progreso_total,
+    contar_rifatti_config_attuale, formatear_fecha, leer_json_estado,
 )
 sys.path.insert(0, str(REPO / "scripts" / "linux"))
 from kill_coordinado import matar_trascrizione  # noqa: E402
@@ -54,6 +54,7 @@ ESTADO_CLASIFICACION = logs_root(REPO) / "estado_clasificacion.json"
 # condiviso — stesso pattern gia' usato per la classificazione.
 ESTADO_PUSH = logs_root(REPO) / "estado_push.json"
 FRAMMENTI_DIR = dati_root(REPO) / "frammenti"
+TRASCRIZIONI_DIR = dati_root(REPO) / "trascrizioni"
 # Stesso mount point di default usato da avvia_trascrizione_sicura.sh/watchdog_nas.sh,
 # ma rispettando ILVOLO_AUDIO_ROOT se impostata: prima era hardcoded qui soltanto,
 # quindi un cambio di mount point rompeva in silenzio solo il progresso nel pannello.
@@ -487,13 +488,16 @@ class Panel:
         if transcritos is None:
             self.lbl_progreso_total.config(text="")
             return
+        rifatti = contar_rifatti_config_attuale(TRASCRIZIONI_DIR)
         if total_audio:
             self.lbl_progreso_total.config(
-                text=f"Progreso total: {transcritos} de {total_audio} episodios transcritos"
+                text=f"Progreso total: {transcritos} de {total_audio} episodios transcritos "
+                     f"(rifatti con config attuale: {rifatti}/{total_audio})"
             )
         else:
             self.lbl_progreso_total.config(
-                text=f"Progreso total: {transcritos} episodios transcritos (NAS no montado, sin total)"
+                text=f"Progreso total: {transcritos} episodios transcritos (NAS no montado, sin total) "
+                     f"(rifatti con config attuale: {rifatti})"
             )
 
         stats_ep = contar_estado_classificazione_episodio(FRAMMENTI_DIR, self.episodio_actual or "")

@@ -32,6 +32,13 @@ PROMPT_DOMINIO = "Fabio Volo, Maurizio, Viola."
 MIN_SPEAKERS_DEFAULT = 2
 MAX_SPEAKERS_DEFAULT = 6
 
+# Marcatore scritto DENTRO ogni data/trascrizioni/<data>.json dalla config GPU
+# corrente - permette di contare direttamente "quanti fatti con la config
+# attuale" (panel_comun.py) invece di dedurlo da timestamp/euristiche (vietato
+# da CLAUDE.md). Incrementare SOLO se si cambia di nuovo la config di
+# trascrizione in modo che il conteggio "rifatti" debba ripartire da zero.
+CONFIG_VERSIONE = "2026-07-24-no-prompt-minmax-speakers"
+
 
 def transcribe(audio_path, hf_token, device="cpu", compute_type="int8", batch_size=8, threads=None,
                 cpu_affinity=None, beam_size=None, best_of=None, initial_prompt=None,
