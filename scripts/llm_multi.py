@@ -99,6 +99,24 @@ def token_usati_oggi(provider: str) -> int:
     return _leggi_stato()["provider"].get(provider, 0)
 
 
+# Cooldown in memoria (per l'intera esecuzione dello script, non persistito su disco
+# come il budget giornaliero) per i limiti PER MINUTO (429) — trovato il 2026-07-24 che
+# mancava del tutto: un 429 veniva assorbito dal retry interno del client e poi
+# dimenticato, cosi' il chunk successivo tornava a scegliere lo stesso provider saturo,
+# ripetendo l'attesa da capo per centinaia di chunk di fila (5335 occorrenze di "429" in
+# un solo run reale). 65s: leggermente sopra la finestra tipica di rate-limit di 60s.
+COOLDOWN_429_S = 65
+_cooldown_hasta: dict[str, float] = {}
+
+
+def _marca_cooldown(provider: str, secondi: float = COOLDOWN_429_S) -> None:
+    _cooldown_hasta[provider] = time.time() + secondi
+
+
+def _in_cooldown(provider: str) -> bool:
+    return time.time() < _cooldown_hasta.get(provider, 0)
+
+
 def provider_disponibile() -> str | None:
     """PRIMARIO: "ollama" (locale, RTX 5070) se raggiungibile — cambiato il 2026-07-23
     dopo aver misurato dal vivo che la GPU e' all'80% inattiva durante la trascrizione
@@ -109,10 +127,12 @@ def provider_disponibile() -> str | None:
     reale. Ollama non ha limite giornaliero, quindi elimina anche i rallentamenti da
     rate-limit (Gemini 429) e gli STOP per budget Groq/Cerebras esauriti visti oggi.
     Ripiega sui provider cloud in ORDINE_PROVIDER SOLO se ollama non e' raggiungibile
-    (K16 spento/irraggiungibile in rete). None solo se anche nessun cloud ha budget."""
+    (K16 spento/irraggiungibile in rete). None solo se anche nessun cloud ha budget.
+    Esclude anche i provider ancora in COOLDOWN dopo un 429 recente (vedi _in_cooldown) —
+    non ha senso ritentare lo stesso provider saturo, si passa al successivo."""
     if _ollama_raggiungibile():
         return "ollama"
-    disponibili = [p for p in ORDINE_PROVIDER if budget_disponibile(p)]
+    disponibili = [p for p in ORDINE_PROVIDER if budget_disponibile(p) and not _in_cooldown(p)]
     if disponibili:
         return min(disponibili, key=token_usati_oggi)
     return None
@@ -159,11 +179,6 @@ class _CerebrasResponse:
         self.usage = _CerebrasResponse._Usage(data.get("usage", {}).get("total_tokens", 0))
 
 
-CEREBRAS_RETRY_429 = (5, 10, 20)  # secondi di attesa crescente, solo su 429 (limite reale ~5-6 RPM,
-# verificato con test empirico il 2026-07-12 — il ritmo dello script ci sta sotto ma senza margine,
-# un burst occasionale non deve far perdere l'intero batch)
-
-
 class _CerebrasCompletions:
     def __init__(self, api_key: str):
         self._api_key = api_key
@@ -176,21 +191,20 @@ class _CerebrasCompletions:
         if model in CEREBRAS_MODELLI_REASONING:
             payload["reasoning_effort"] = "low"
 
-        tentativi = (0,) + CEREBRAS_RETRY_429
-        for i, attesa in enumerate(tentativi):
-            if attesa:
-                print(f"      Cerebras 429 (troppe richieste/minuto), riprovo tra {attesa}s "
-                      f"(tentativo {i+1}/{len(tentativi)})...")
-                time.sleep(attesa)
-            r = requests.post(
-                f"{CEREBRAS_BASE_URL}/chat/completions",
-                headers={"Authorization": f"Bearer {self._api_key}", "Content-Type": "application/json"},
-                json=payload, timeout=60,
-            )
-            if r.status_code != 429:
-                r.raise_for_status()
-                return _CerebrasResponse(r.json())
-        r.raise_for_status()  # esauriti i tentativi, propaga il 429 come errore normale
+        r = requests.post(
+            f"{CEREBRAS_BASE_URL}/chat/completions",
+            headers={"Authorization": f"Bearer {self._api_key}", "Content-Type": "application/json"},
+            json=payload, timeout=60,
+        )
+        # Niente piu' retry-con-attesa-crescente sullo stesso provider (rimosso il
+        # 2026-07-24, vedi COOLDOWN_429_S): un 429 e' un limite per minuto che non cede
+        # in pochi secondi, insistere sprecava tempo. Si marca il cooldown e si fallisce
+        # subito, il chiamante (classifica_frammenti) passera' al prossimo chunk, che
+        # scegliera' un altro provider tramite provider_disponibile().
+        if r.status_code == 429:
+            _marca_cooldown("cerebras")
+        r.raise_for_status()
+        return _CerebrasResponse(r.json())
 
 
 class _CerebrasChat:
@@ -254,11 +268,6 @@ class _GeminiResponse:
         self.usage = _GeminiResponse._Usage(tot)
 
 
-GEMINI_RETRY_429 = (5, 10, 20)  # stesso principio di CEREBRAS_RETRY_429: limite reale
-# ~15 richieste/minuto misurato empiricamente il 2026-07-18 (burst di chiamate vere fino
-# al primo 429, quotaId GenerateRequestsPerMinutePerProjectPerModel-FreeTier).
-
-
 class _GeminiCompletions:
     def __init__(self, api_key: str):
         self._api_key = api_key
@@ -277,20 +286,19 @@ class _GeminiCompletions:
         if response_format.get("type") == "json_object":
             payload["generationConfig"]["responseMimeType"] = "application/json"
 
-        tentativi = (0,) + GEMINI_RETRY_429
-        for i, attesa in enumerate(tentativi):
-            if attesa:
-                print(f"      Gemini 429 (troppe richieste/minuto), riprovo tra {attesa}s "
-                      f"(tentativo {i+1}/{len(tentativi)})...")
-                time.sleep(attesa)
-            r = requests.post(
-                f"{GEMINI_BASE_URL}/models/{model}:generateContent?key={self._api_key}",
-                headers={"Content-Type": "application/json"}, json=payload, timeout=60,
-            )
-            if r.status_code != 429:
-                r.raise_for_status()
-                return _GeminiResponse(r.json())
-        r.raise_for_status()  # esauriti i tentativi, propaga il 429 come errore normale
+        r = requests.post(
+            f"{GEMINI_BASE_URL}/models/{model}:generateContent?key={self._api_key}",
+            headers={"Content-Type": "application/json"}, json=payload, timeout=60,
+        )
+        # Niente piu' retry-con-attesa-crescente sullo stesso provider (rimosso il
+        # 2026-07-24, vedi COOLDOWN_429_S): misurato dal vivo 5335 occorrenze di 429 in
+        # un solo run perche' il chunk successivo tornava a scegliere Gemini appena
+        # saturo. Si marca il cooldown e si fallisce subito, il prossimo chunk passera'
+        # a Groq/Cerebras tramite provider_disponibile().
+        if r.status_code == 429:
+            _marca_cooldown("gemini")
+        r.raise_for_status()
+        return _GeminiResponse(r.json())
 
 
 class _GeminiChat:

@@ -419,8 +419,22 @@ def classifica_frammenti(frammenti: list[dict]) -> None:
                 break
             except Exception as e:
                 if tentativo == 0:
-                    print(f"      classificazione batch {i}: ERRORE ({e}), riprovo una volta...")
-                    time.sleep(5)
+                    # Non ha senso ritentare sullo STESSO provider appena fallito (es. 429):
+                    # llm_multi.py mette gia' il provider in cooldown internamente, quindi
+                    # ri-chiedendo provider_disponibile() ora si ottiene automaticamente un
+                    # provider diverso (o None se tutti saturi/esauriti) - fix 2026-07-24,
+                    # prima qui si riprovava alla cieca sullo stesso client dopo 5s di attesa,
+                    # inutile contro un limite per minuto che non cede in 5s.
+                    provider_nuovo = llm_multi.provider_disponibile()
+                    if provider_nuovo is None:
+                        print(f"      classificazione batch {i}: ERRORE ({e}), nessun provider disponibile ora, salto")
+                        break
+                    if provider_nuovo != provider:
+                        print(f"      classificazione batch {i}: ERRORE ({e}) su {provider}, passo a {provider_nuovo}")
+                        provider = provider_nuovo
+                        client, model = llm_multi.client_e_modello(provider)
+                    else:
+                        print(f"      classificazione batch {i}: ERRORE ({e}), riprovo una volta...")
                 else:
                     print(f"      classificazione batch {i}: ERRORE anche al secondo tentativo: {e}")
         if risultati is None:
