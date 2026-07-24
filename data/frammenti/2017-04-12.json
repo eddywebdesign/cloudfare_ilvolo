@@ -3,7 +3,7 @@
     "id": "2017-04-12-000",
     "start": 12.72,
     "end": 162.93,
-    "speaker_raw": "SPEAKER_15",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Grazie a tutti ciao ciao ciao grazie Ciao! Ciao Ciao ciao ciao",
     "titolo": "",
     "tema": [],
@@ -13,9 +13,9 @@
   {
     "id": "2017-04-12-001",
     "start": 234.98,
-    "end": 243.63,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "Buongiorno a tutti ragazzi, buonvenuti, buonvenuti, bonjour, bonjour, ça va? Ça va, ça va, ça va, ça va, ça va, ça va, de che ça va de là?",
+    "end": 266.28,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Buongiorno a tutti ragazzi, buonvenuti, buonvenuti, bonjour, bonjour, ça va? Ça va, ça va, ça va, ça va, ça va, ça va, de che ça va de là? Come state ragazzi? Mannaggia voi, che non vi vedo bene in faccia, guarda che è strano parlare, immaginate che lavoro strano che è, noi parliamo a della gente e non li vediamo mai in faccia Io ho la fortuna quando scrivo i libri e le presentazioni che vado anche tanto in giro anche per capire ma chi sono questi? Io ascolto il programma e mi faccio un po' un'idea.",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -23,20 +23,9 @@
   },
   {
     "id": "2017-04-12-002",
-    "start": 243.73,
-    "end": 266.28,
-    "speaker_raw": "SPEAKER_05",
-    "testo": "Come state ragazzi? Mannaggia voi, che non vi vedo bene in faccia, guarda che è strano parlare, immaginate che lavoro strano che è, noi parliamo a della gente e non li vediamo mai in faccia Io ho la fortuna quando scrivo i libri e le presentazioni che vado anche tanto in giro anche per capire ma chi sono questi? Io ascolto il programma e mi faccio un po' un'idea.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-04-12-003",
     "start": 266.32,
     "end": 267.7,
-    "speaker_raw": "SPEAKER_09",
+    "speaker_raw": "SPEAKER_03",
     "testo": "E come sono gli ascoltatori?",
     "titolo": "",
     "tema": [],
@@ -44,7 +33,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-12-004",
+    "id": "2017-04-12-003",
     "start": 267.73,
     "end": 339.06,
     "speaker_raw": "SPEAKER_05",
@@ -55,10 +44,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-12-005",
+    "id": "2017-04-12-004",
     "start": 341.02,
     "end": 341.82,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Cosa cazzo?",
     "titolo": "",
     "tema": [],
@@ -66,11 +55,22 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-12-006",
+    "id": "2017-04-12-005",
     "start": 360.26,
-    "end": 389.65,
+    "end": 391.98,
     "speaker_raw": "SPEAKER_05",
-    "testo": "che simpatici i nostri ascoltatori simpatici io ascolto Radio DJ e Radio 24 a me non mi beccheresti mai e invece no non sono così lontane e invece non sono così lontani dipende che programmi ascolti a Radio DJ capito? perché per esempio un'ascoltatrice dice lo posso dire? si si si posso leggere? Posso leggere in amici? Non c'è nessuna polemica con nessun collega. Non dite che quelli che ascoltano Ciao Belli o Ivitiello sono come noi.",
+    "testo": "che simpatici i nostri ascoltatori simpatici io ascolto Radio DJ e Radio 24 a me non mi beccheresti mai e invece no non sono così lontane e invece non sono così lontani dipende che programmi ascolti a Radio DJ capito? perché per esempio un'ascoltatrice dice lo posso dire? si si si posso leggere? Posso leggere in amici? Non c'è nessuna polemica con nessun collega. Non dite che quelli che ascoltano Ciao Belli o Ivitiello sono come noi. Perché Ciao Belli e Ivitiello è un pubblico diverso?",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2017-04-12-006",
+    "start": 392.95,
+    "end": 397.96,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Non mi buttare in mezzo a questa discussione. Io poi Ivitiello li ascolto sempre.",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -78,28 +78,6 @@
   },
   {
     "id": "2017-04-12-007",
-    "start": 389.85,
-    "end": 395.24,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Perché Ciao Belli e Ivitiello è un pubblico diverso? Non mi buttare in mezzo a questa discussione.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-04-12-008",
-    "start": 395.28,
-    "end": 397.96,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "Io poi Ivitiello li ascolto sempre.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-04-12-009",
     "start": 397.98,
     "end": 576.51,
     "speaker_raw": "SPEAKER_05",
@@ -110,18 +88,29 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-12-010",
+    "id": "2017-04-12-008",
     "start": 577.49,
-    "end": 583.9,
-    "speaker_raw": "SPEAKER_10",
-    "testo": "Sì, perché insomma, 24 anni, un po' di cernita la pasta. Ma prima usciamo, sì.",
+    "end": 580.67,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Sì, perché insomma, 24 anni, un po' di cernita la pasta.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-04-12-011",
+    "id": "2017-04-12-009",
+    "start": 580.7,
+    "end": 583.9,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Ma prima usciamo, sì.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2017-04-12-010",
     "start": 584.0,
     "end": 601.23,
     "speaker_raw": "SPEAKER_05",
@@ -132,10 +121,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-12-012",
+    "id": "2017-04-12-011",
     "start": 602.17,
     "end": 605.79,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_03",
     "testo": "No, l'altro è quello che mi piace tantissimo e poi non vuole mai uscire.",
     "titolo": "",
     "tema": [],
@@ -143,7 +132,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-12-013",
+    "id": "2017-04-12-012",
     "start": 607.72,
     "end": 612.37,
     "speaker_raw": "SPEAKER_05",
@@ -154,10 +143,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-12-014",
+    "id": "2017-04-12-013",
     "start": 612.91,
     "end": 617.67,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Eh, il terzo è tutto bacini, bacetti, non è molto, posso dire, stronzo.",
     "titolo": "",
     "tema": [],
@@ -165,32 +154,21 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-12-015",
+    "id": "2017-04-12-014",
     "start": 618.48,
-    "end": 623.56,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Parcheggerei anche questo, c'era il senso, capisci che se io fossi una donna sarei in disastro. Problema risolto.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-04-12-016",
-    "start": 623.58,
     "end": 625.0,
     "speaker_raw": "SPEAKER_05",
-    "testo": "Li parcheggerei tutti e tre.",
+    "testo": "Parcheggerei anche questo, c'era il senso, capisci che se io fossi una donna sarei in disastro. Problema risolto. Li parcheggerei tutti e tre.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-04-12-017",
+    "id": "2017-04-12-015",
     "start": 625.14,
     "end": 626.98,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_03",
     "testo": "E cerco un altro.",
     "titolo": "",
     "tema": [],
@@ -198,7 +176,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-12-018",
+    "id": "2017-04-12-016",
     "start": 627.16,
     "end": 637.58,
     "speaker_raw": "SPEAKER_05",
@@ -209,10 +187,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-12-019",
+    "id": "2017-04-12-017",
     "start": 637.6,
     "end": 641.04,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_03",
     "testo": "No, famiglia no, però qualcosa di serio. Ok, allora. Non è un punto fondamentale.",
     "titolo": "",
     "tema": [],
@@ -220,43 +198,21 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-12-020",
+    "id": "2017-04-12-018",
     "start": 642.29,
-    "end": 993.97,
-    "speaker_raw": "SPEAKER_05",
-    "testo": "Quando è che vorresti mettere su famiglia? Perché è tutta questione di matematica. Più o meno? A 28, 30? Sì, entro i 30. Ok, entro i 30, ne hai 24. Adesso fatti ancora due giri di giostra, un paio d'anni. Poi ti devi trovare uno stronzissimo. Quelli lì proprio che ti fanno, come dicono a Roma, ti fanno sentire la calcia, il muro sulla guancia. Cioè quelli proprio, capito, quelli lì super passionati, che però ne ha anche altre e tu dici, ah, fai così con tutti? No, scusa, che consiglio fai da me? Aspetta, fatemi finire. quando lui ti dice una cosa tu dici ma scusa ma questa cosa me l'ha detta a me o è una cosa che dice a tutte e lui no l'ha detta a te ma non so non ti credo e poi pam pam pam sesso sesso sesso sesso a un certo punto ne vieni fuori distrutta dilaniata passa uno di quelli un po' sfigatini con la borsetta 24 tutti ciao ciao ti dice ma sei bella ti vorrò bene tutta la vita e dici fai un figlio con questo fai due figli con questo dopo un po' vai dalla tua amica e dici ah è una brava persona è un bravissimo papà però sembra mio fratello richiami quello là di prima ribotti giù il sesso però c'hai i figli la cosa non ti sembra di aver buttato via la vita andrà così e andrà benissimo quanti ci sono ritrovati in questo sulla mano ciao Silvia togli con questa mano no io no è bello ma non balla che bella canzone cosa vi ho portato ma chi cosa vi ho portato sono arrivati quanti messaggi saranno arrivati un sacco di uomini e di donne che scrivono la storia della mia vita la storia della mia vita vabbè perché è un classico ho toccato diciamo un topos quando dici queste cose mi resto sempre Io ti vorrei ricordare che sono uno scrittore, che quando finisco Radio DJ, e ricordi sempre, ricordi sempre che io per fare Radio DJ mi devo fare piccirillo e piccirillo, mi faccio piccolo piccolo, poi dopo quando esco da Radio DJ io divento grande grande, capito? Piccirillo e piccirillo, sto qua, sto buono, stipendio, le cose, poi io esco... divento una persona internazionale libri, film, programmi tv produzione, roba grossa poi quando torno qua faccio vicinille vicinille perché non posso diventare quindi sto qua a posta e va bene un ragazzo scrive hai toccato un top no un ragazzo scrive io sono lo stronzo che hai appena descritto dopo di me le mie ex si sono o sposate o fidanzate conviventi fatto i figli è un passaggio è un classico diciamo no è un classico esatto poi se siete fortunate e trovate uno come me cioè che stamano può essere più ma può essere fermo siamo veramente in pochi",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-04-12-021",
-    "start": 993.99,
-    "end": 1017.25,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "siamo qui in fila a aspettare stavo scherzando, scusatemi chi si loda si imbroda addirittura frasi a caso fermi tutti rosso di sera siamo tutti allenati due settimane fa da Fazio è venuto il ragazzo che presenta furore",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-04-12-022",
-    "start": 1018.3,
     "end": 1039.92,
     "speaker_raw": "SPEAKER_05",
-    "testo": "si chiama Alessandro Greco il ragazzo che presenta furore lui è un pilastro è un pilastro e anche altro e faceva negli studi così col pubblico in diretta faceva non restare chiuso qui e tutti pensiero poi a me mi hanno chiesto di dire anche io una canzone così sai cosa ho detto io? ho fatto grazie graziella",
+    "testo": "Quando è che vorresti mettere su famiglia? Perché è tutta questione di matematica. Più o meno? A 28, 30? Sì, entro i 30. Ok, entro i 30, ne hai 24. Adesso fatti ancora due giri di giostra, un paio d'anni. Poi ti devi trovare uno stronzissimo. Quelli lì proprio che ti fanno, come dicono a Roma, ti fanno sentire la calcia, il muro sulla guancia. Cioè quelli proprio, capito, quelli lì super passionati, che però ne ha anche altre e tu dici, ah, fai così con tutti? No, scusa, che consiglio fai da me? Aspetta, fatemi finire. quando lui ti dice una cosa tu dici ma scusa ma questa cosa me l'ha detta a me o è una cosa che dice a tutte e lui no l'ha detta a te ma non so non ti credo e poi pam pam pam sesso sesso sesso sesso a un certo punto ne vieni fuori distrutta dilaniata passa uno di quelli un po' sfigatini con la borsetta 24 tutti ciao ciao ti dice ma sei bella ti vorrò bene tutta la vita e dici fai un figlio con questo fai due figli con questo dopo un po' vai dalla tua amica e dici ah è una brava persona è un bravissimo papà però sembra mio fratello richiami quello là di prima ribotti giù il sesso però c'hai i figli la cosa non ti sembra di aver buttato via la vita andrà così e andrà benissimo quanti ci sono ritrovati in questo sulla mano ciao Silvia togli con questa mano no io no è bello ma non balla che bella canzone cosa vi ho portato ma chi cosa vi ho portato sono arrivati quanti messaggi saranno arrivati un sacco di uomini e di donne che scrivono la storia della mia vita la storia della mia vita vabbè perché è un classico ho toccato diciamo un topos quando dici queste cose mi resto sempre Io ti vorrei ricordare che sono uno scrittore, che quando finisco Radio DJ, e ricordi sempre, ricordi sempre che io per fare Radio DJ mi devo fare piccirillo e piccirillo, mi faccio piccolo piccolo, poi dopo quando esco da Radio DJ io divento grande grande, capito? Piccirillo e piccirillo, sto qua, sto buono, stipendio, le cose, poi io esco... divento una persona internazionale libri, film, programmi tv produzione, roba grossa poi quando torno qua faccio vicinille vicinille perché non posso diventare quindi sto qua a posta e va bene un ragazzo scrive hai toccato un top no un ragazzo scrive io sono lo stronzo che hai appena descritto dopo di me le mie ex si sono o sposate o fidanzate conviventi fatto i figli è un passaggio è un classico diciamo no è un classico esatto poi se siete fortunate e trovate uno come me cioè che stamano può essere più ma può essere fermo siamo veramente in pochi siamo qui in fila a aspettare stavo scherzando, scusatemi chi si loda si imbroda addirittura frasi a caso fermi tutti rosso di sera siamo tutti allenati due settimane fa da Fazio è venuto il ragazzo che presenta furore si chiama Alessandro Greco il ragazzo che presenta furore lui è un pilastro è un pilastro e anche altro e faceva negli studi così col pubblico in diretta faceva non restare chiuso qui e tutti pensiero poi a me mi hanno chiesto di dire anche io una canzone così sai cosa ho detto io? ho fatto grazie graziella",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-04-12-023",
+    "id": "2017-04-12-019",
     "start": 1040.14,
     "end": 1042.34,
-    "speaker_raw": "SPEAKER_09",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Ma perché ci fai fare ste figure?",
     "titolo": "",
     "tema": [],
@@ -264,32 +220,21 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-12-024",
+    "id": "2017-04-12-020",
     "start": 1042.64,
-    "end": 1061.26,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Poi hai detto che qui ti fai piccirillo piccirillo Poi esci e fai queste figure Mi faccio anche lì piccirillo piccirillo Mi faccio piccirillo piccirillo Se non mi faccio piccirillo Non lavoro, mi devo fare piccirillo Sembra il bigliello E il DJ Angela Allora sentite qua, stamattina c'è una stupidiera Se già sentite",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-04-12-025",
-    "start": 1061.74,
     "end": 1075.68,
     "speaker_raw": "SPEAKER_05",
-    "testo": "Sentite qua, questa mattina abbiamo deciso di fare la radio come fa la radio un po' tutti, cioè prendendo i giornali e le notizie simpatiche. Tra le notizie simpatiche questa mattina c'è quella di proposta indecente.",
+    "testo": "Poi hai detto che qui ti fai piccirillo piccirillo Poi esci e fai queste figure Mi faccio anche lì piccirillo piccirillo Mi faccio piccirillo piccirillo Se non mi faccio piccirillo Non lavoro, mi devo fare piccirillo Sembra il bigliello E il DJ Angela Allora sentite qua, stamattina c'è una stupidiera Se già sentite Sentite qua, questa mattina abbiamo deciso di fare la radio come fa la radio un po' tutti, cioè prendendo i giornali e le notizie simpatiche. Tra le notizie simpatiche questa mattina c'è quella di proposta indecente.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-04-12-026",
+    "id": "2017-04-12-021",
     "start": 1075.76,
     "end": 1076.66,
-    "speaker_raw": "SPEAKER_09",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Eh sì.",
     "titolo": "",
     "tema": [],
@@ -297,7 +242,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-12-027",
+    "id": "2017-04-12-022",
     "start": 1076.68,
     "end": 1079.74,
     "speaker_raw": "SPEAKER_05",
@@ -308,10 +253,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-12-028",
+    "id": "2017-04-12-023",
     "start": 1079.76,
     "end": 1113.65,
-    "speaker_raw": "SPEAKER_09",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Srotolo. Allora c'è un certo miliardario canadese, si chiama Daryl Katz. però si dice Katz mi sa che ti ricordi c'è anche un tipo un fast food si Katz questo è Danny Katz che è un proprietario della squadra di hockey su ghiaccio che si chiama Edmonton Oilers lui praticamente ha perso la testa per questa attrice che si chiama Grace Santo che è un'attrice di una serie tipo Jane the Virgin ok",
     "titolo": "",
     "tema": [],
@@ -319,7 +264,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-12-029",
+    "id": "2017-04-12-024",
     "start": 1114.43,
     "end": 1131.5,
     "speaker_raw": "SPEAKER_05",
@@ -330,10 +275,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-12-030",
+    "id": "2017-04-12-025",
     "start": 1132.56,
     "end": 1134.12,
-    "speaker_raw": "SPEAKER_09",
+    "speaker_raw": "SPEAKER_03",
     "testo": "le presento la dottoressa Colca",
     "titolo": "",
     "tema": [],
@@ -341,7 +286,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-12-031",
+    "id": "2017-04-12-026",
     "start": 1137.81,
     "end": 1167.32,
     "speaker_raw": "SPEAKER_05",
@@ -352,10 +297,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-12-032",
+    "id": "2017-04-12-027",
     "start": 1167.7,
     "end": 1178.83,
-    "speaker_raw": "SPEAKER_09",
+    "speaker_raw": "SPEAKER_03",
     "testo": "certo che sono pochi sei rapporti a settimana per un anno e ogni volta ti da 20.000 in sostanza è questo andate a letto con cazzi",
     "titolo": "",
     "tema": [],
@@ -363,7 +308,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-12-033",
+    "id": "2017-04-12-028",
     "start": 1183.08,
     "end": 1253.93,
     "speaker_raw": "SPEAKER_05",
@@ -374,7 +319,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-12-034",
+    "id": "2017-04-12-029",
     "start": 1254.51,
     "end": 1255.71,
     "speaker_raw": "SPEAKER_00",
@@ -385,7 +330,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-12-035",
+    "id": "2017-04-12-030",
     "start": 1256.6,
     "end": 1258.98,
     "speaker_raw": "SPEAKER_01",
@@ -396,7 +341,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-12-036",
+    "id": "2017-04-12-031",
     "start": 1259.3,
     "end": 1262.62,
     "speaker_raw": "SPEAKER_00",
@@ -407,7 +352,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-12-037",
+    "id": "2017-04-12-032",
     "start": 1262.64,
     "end": 1265.8,
     "speaker_raw": "SPEAKER_01",
@@ -418,7 +363,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-12-038",
+    "id": "2017-04-12-033",
     "start": 1266.24,
     "end": 1268.12,
     "speaker_raw": "SPEAKER_00",
@@ -429,7 +374,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-12-039",
+    "id": "2017-04-12-034",
     "start": 1268.14,
     "end": 1281.99,
     "speaker_raw": "SPEAKER_01",
@@ -440,7 +385,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-12-040",
+    "id": "2017-04-12-035",
     "start": 1282.07,
     "end": 1284.07,
     "speaker_raw": "SPEAKER_00",
@@ -451,7 +396,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-12-041",
+    "id": "2017-04-12-036",
     "start": 1284.19,
     "end": 1284.91,
     "speaker_raw": "SPEAKER_01",
@@ -462,33 +407,11 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-12-042",
+    "id": "2017-04-12-037",
     "start": 1290.41,
-    "end": 1297.7,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "Grazie a tutti per aver guardato il video.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-04-12-043",
-    "start": 1318.9,
-    "end": 1319.98,
+    "end": 1420.92,
     "speaker_raw": "SPEAKER_03",
-    "testo": "a romantic for solo",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-04-12-044",
-    "start": 1382.6,
-    "end": 1388.24,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "I've been a romantic for so long All I've ever heard are love songs Singing oh how I'm gonna dare you",
+    "testo": "Grazie a tutti per aver guardato il video. a romantic for solo I've been a romantic for so long All I've ever heard are love songs Singing oh how I'm gonna dare you I can hear it now like I heard it then I can hear it now like I heard it then",
     "titolo": "romantico per tanto tempo",
     "tema": [
       "amore"
@@ -497,54 +420,21 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-12-045",
-    "start": 1417.5,
-    "end": 1420.92,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "I can hear it now like I heard it then I can hear it now like I heard it then",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-04-12-046",
+    "id": "2017-04-12-038",
     "start": 1499.59,
-    "end": 1516.42,
-    "speaker_raw": "SPEAKER_05",
-    "testo": "Ti ricordi quando si metteva la base degli XX, la base intro, come li avevamo scoperti vent'anni prima, diciamoci queste cose, lo dico a quelli delle cuffie d'oro che si stanno ascoltando, monitorando, ve lo ricordate quell'intro meraviglioso, faceva così?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-04-12-047",
-    "start": 1516.64,
-    "end": 1517.4,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "Lo devo cercare.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-04-12-048",
-    "start": 1520.03,
     "end": 1564.17,
     "speaker_raw": "SPEAKER_05",
-    "testo": "le cose vecchie posso dire che non lo potremmo mai vincere di prima siamo degli scappati di casa sentiamolo se me lo dicevi prima no ma cosa c'entra dicevo prima erano capaci tutti allora allora vi volevo dire una cosa ci sarebbe una mia amica dice un ascoltatore che anch'io vorrei provare a fare una proposta indecente posso arrivare al massimo a 200 euro però no ragazzi io posso dirvi una cosa non c'è nessuna donna al mondo che possa dire di no se viene chiesto non l'apporto sessuale ma se gli viene chiesto di uscire nel modo giusto ma figurati non esiste non mettere in giro queste teorie è vero ma va non esiste una donna che dice no questa ho trovato l'intro ve lo ricordate qua c'è da leggere qualcosa aspetta c'è il corriere vai vai vai Qua c'è da leggere una poesia.",
+    "testo": "Ti ricordi quando si metteva la base degli XX, la base intro, come li avevamo scoperti vent'anni prima, diciamoci queste cose, lo dico a quelli delle cuffie d'oro che si stanno ascoltando, monitorando, ve lo ricordate quell'intro meraviglioso, faceva così? Lo devo cercare. le cose vecchie posso dire che non lo potremmo mai vincere di prima siamo degli scappati di casa sentiamolo se me lo dicevi prima no ma cosa c'entra dicevo prima erano capaci tutti allora allora vi volevo dire una cosa ci sarebbe una mia amica dice un ascoltatore che anch'io vorrei provare a fare una proposta indecente posso arrivare al massimo a 200 euro però no ragazzi io posso dirvi una cosa non c'è nessuna donna al mondo che possa dire di no se viene chiesto non l'apporto sessuale ma se gli viene chiesto di uscire nel modo giusto ma figurati non esiste non mettere in giro queste teorie è vero ma va non esiste una donna che dice no questa ho trovato l'intro ve lo ricordate qua c'è da leggere qualcosa aspetta c'è il corriere vai vai vai Qua c'è da leggere una poesia.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-04-12-049",
+    "id": "2017-04-12-039",
     "start": 1564.19,
     "end": 1565.82,
-    "speaker_raw": "SPEAKER_09",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Consip, Consip.",
     "titolo": "",
     "tema": [],
@@ -552,7 +442,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-12-050",
+    "id": "2017-04-12-040",
     "start": 1565.86,
     "end": 1634.49,
     "speaker_raw": "SPEAKER_05",
@@ -563,40 +453,18 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-12-051",
+    "id": "2017-04-12-041",
     "start": 1637.83,
-    "end": 1763.53,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "Senza pensare a qualcuno Quello che potremmo fare io e te Non lo puoi neanche credere Quello che potremmo fare io e te Senza pensare a niente Senza pensare sempre Quello che potremmo fare io e te Grazie a tutti. Io e te, io e te, a crescere bambini, avere dei vicini. Io e te, io e te, seduti sul divano, parlare del più e del meno. Io e te, io e te. Quello che potremmo fare, io e te. Non l'ho mai detto a nessuno, però ne sono sicuro. Quello che potremmo fare, io e te. Non si può neanche immaginare. Io e te. Io e te. Dentro un bar a bere a ridere. Io e te.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-04-12-052",
-    "start": 1769.65,
-    "end": 1770.93,
-    "speaker_raw": "SPEAKER_15",
-    "testo": "a crescere famiglie, avere le visite.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-04-12-053",
-    "start": 1819.74,
     "end": 1820.57,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "Grazie a tutti.",
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Senza pensare a qualcuno Quello che potremmo fare io e te Non lo puoi neanche credere Quello che potremmo fare io e te Senza pensare a niente Senza pensare sempre Quello che potremmo fare io e te Grazie a tutti. Io e te, io e te, a crescere bambini, avere dei vicini. Io e te, io e te, seduti sul divano, parlare del più e del meno. Io e te, io e te. Quello che potremmo fare, io e te. Non l'ho mai detto a nessuno, però ne sono sicuro. Quello che potremmo fare, io e te. Non si può neanche immaginare. Io e te. Io e te. Dentro un bar a bere a ridere. Io e te. a crescere famiglie, avere le visite. Grazie a tutti.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-04-12-054",
+    "id": "2017-04-12-042",
     "start": 1846.93,
     "end": 1954.09,
     "speaker_raw": "SPEAKER_05",
@@ -607,7 +475,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-12-055",
+    "id": "2017-04-12-043",
     "start": 1954.39,
     "end": 1971.74,
     "speaker_raw": "SPEAKER_04",
@@ -618,51 +486,29 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-12-056",
+    "id": "2017-04-12-044",
     "start": 1974.16,
-    "end": 2005.37,
+    "end": 2061.05,
     "speaker_raw": "SPEAKER_05",
-    "testo": "io prima ho detto io butto lì delle frasi così no a caso poi quelli veramente che le colgono tipo nei rapporti di coppia si perde la spontaneità ed è uno dei problemi delle coppie ma è vero adesso è una roba seria io la butto sempre di sorridere è quella roba lì no che si perde una specie di perché tutto deve essere un po' programmato per far funzionare la macchina famiglia roba del genere poi ho anche detto se un uomo chiede a una donna di uscire e lo chiede in maniera non esiste una donna che dice di no no Tu non sai, Viola, cosa mi ha detto durante il disco.",
+    "testo": "io prima ho detto io butto lì delle frasi così no a caso poi quelli veramente che le colgono tipo nei rapporti di coppia si perde la spontaneità ed è uno dei problemi delle coppie ma è vero adesso è una roba seria io la butto sempre di sorridere è quella roba lì no che si perde una specie di perché tutto deve essere un po' programmato per far funzionare la macchina famiglia roba del genere poi ho anche detto se un uomo chiede a una donna di uscire e lo chiede in maniera non esiste una donna che dice di no no Tu non sai, Viola, cosa mi ha detto durante il disco. E non puoi mettere in testa alla gente queste cose. E poi uno oggi... Aspettila! Ok. Antonella! scusami Antonella provincia di Brindisi risponde quindi capito risponde è vero mio marito che adesso stanno insieme da 7 anni mio compagno vabbè adesso non mi piaceva addirittura non mi piaceva tanto il suo profumo in realtà l'odore volevi dire l'odore l'odore eppure lui me l'ha chiesto in un modo così carino che alla fine adesso siamo insieme da sette anni e non mi piaceva magari è lei che ha grosso spirito di sacrificio scusami no ma no assolutamente tra l'altro adesso guai che me lo tocca eh sicuro esatto ma questa cosa è sbocciata quando tu gli hai detto Cioè, nel senso, dopo una doccia? No, no, no.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-04-12-057",
-    "start": 2005.65,
-    "end": 2011.68,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "E non puoi mettere in testa alla gente queste cose. E poi uno oggi... Aspettila! Ok. Antonella!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-04-12-058",
-    "start": 2018.57,
-    "end": 2059.97,
-    "speaker_raw": "SPEAKER_05",
-    "testo": "scusami Antonella provincia di Brindisi risponde quindi capito risponde è vero mio marito che adesso stanno insieme da 7 anni mio compagno vabbè adesso non mi piaceva addirittura non mi piaceva tanto il suo profumo in realtà l'odore volevi dire l'odore l'odore eppure lui me l'ha chiesto in un modo così carino che alla fine adesso siamo insieme da sette anni e non mi piaceva magari è lei che ha grosso spirito di sacrificio scusami no ma no assolutamente tra l'altro adesso guai che me lo tocca eh sicuro esatto ma questa cosa è sbocciata quando tu gli hai detto Cioè, nel senso, dopo una doccia?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-04-12-059",
-    "start": 2060.57,
+    "id": "2017-04-12-045",
+    "start": 2061.07,
     "end": 2072.51,
     "speaker_raw": "SPEAKER_04",
-    "testo": "No, no, no. Cioè, tu hai detto, vieni qua un attimo, va bene insaponata, come Rambo, dietro le orecchie col... No, no, no, no, noi in realtà ci vedevamo perché lui è amico di alcuni miei amici. Ok.",
+    "testo": "Cioè, tu hai detto, vieni qua un attimo, va bene insaponata, come Rambo, dietro le orecchie col... No, no, no, no, noi in realtà ci vedevamo perché lui è amico di alcuni miei amici. Ok.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-04-12-060",
+    "id": "2017-04-12-046",
     "start": 2073.09,
     "end": 2076.69,
     "speaker_raw": "SPEAKER_05",
@@ -673,7 +519,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-12-061",
+    "id": "2017-04-12-047",
     "start": 2077.17,
     "end": 2140.78,
     "speaker_raw": "SPEAKER_04",
@@ -684,7 +530,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-12-062",
+    "id": "2017-04-12-048",
     "start": 2142.78,
     "end": 2204.14,
     "speaker_raw": "SPEAKER_05",
@@ -695,10 +541,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-12-063",
+    "id": "2017-04-12-049",
     "start": 2211.33,
     "end": 2330.95,
-    "speaker_raw": "SPEAKER_15",
+    "speaker_raw": "SPEAKER_03",
     "testo": "grazie a tutti Losing you in my life you see Cause you mean that much to me You could have told me yourself That you love someone else instead Grazie.",
     "titolo": "Losing you in my life",
     "tema": [
@@ -708,7 +554,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-12-064",
+    "id": "2017-04-12-050",
     "start": 2347.7,
     "end": 2371.27,
     "speaker_raw": "SPEAKER_05",
@@ -721,10 +567,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-12-065",
+    "id": "2017-04-12-051",
     "start": 2371.27,
     "end": 2373.05,
-    "speaker_raw": "SPEAKER_09",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Ma va, non ci porti mai da nessuno avanti.",
     "titolo": "",
     "tema": [],
@@ -732,7 +578,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-12-066",
+    "id": "2017-04-12-052",
     "start": 2373.09,
     "end": 2392.85,
     "speaker_raw": "SPEAKER_05",
@@ -743,10 +589,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-12-067",
+    "id": "2017-04-12-053",
     "start": 2392.87,
     "end": 2400.83,
-    "speaker_raw": "SPEAKER_09",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Sì, non mi hai neanche invitato al compleanno di tuo figlio. Ma eri lì con il gin tonico, la sigaretta, su Instagram. No, hai detto che sono bad influence.",
     "titolo": "",
     "tema": [],
@@ -754,7 +600,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-12-068",
+    "id": "2017-04-12-054",
     "start": 2400.85,
     "end": 2531.77,
     "speaker_raw": "SPEAKER_05",
@@ -765,42 +611,18 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-12-069",
+    "id": "2017-04-12-055",
     "start": 2542.45,
-    "end": 2544.47,
-    "speaker_raw": "SPEAKER_14",
-    "testo": "makes my body dance for you",
-    "titolo": "makes my body dance for you",
-    "tema": [
-      "amore"
-    ],
-    "tipo": "citazione",
-    "video_url": ""
-  },
-  {
-    "id": "2017-04-12-070",
-    "start": 2573.34,
-    "end": 2604.97,
-    "speaker_raw": "SPEAKER_13",
-    "testo": "Grazie a tutti. a presto",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-04-12-071",
-    "start": 2639.33,
     "end": 2641.71,
-    "speaker_raw": "SPEAKER_14",
-    "testo": "Ma che pa' Ma che pa' Ma che pa'",
+    "speaker_raw": "SPEAKER_03",
+    "testo": "makes my body dance for you Grazie a tutti. a presto Ma che pa' Ma che pa' Ma che pa'",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-04-12-072",
+    "id": "2017-04-12-056",
     "start": 2644.11,
     "end": 2719.95,
     "speaker_raw": "SPEAKER_05",

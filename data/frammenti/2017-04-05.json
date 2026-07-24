@@ -3,7 +3,7 @@
     "id": "2017-04-05-000",
     "start": 0.94,
     "end": 1.44,
-    "speaker_raw": "SPEAKER_07",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Bellissimo. Thank you.",
     "titolo": "",
     "tema": [],
@@ -13,9 +13,9 @@
   {
     "id": "2017-04-05-001",
     "start": 25.83,
-    "end": 47.04,
-    "speaker_raw": "SPEAKER_10",
-    "testo": "Buonasera a tutti. no no no",
+    "end": 190.17,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Buonasera a tutti. no no no Ciao. Tell me all the things that you couldn't before If this love is pain then darling let's hurt tonight So you get the lights and I'll lock the doors Ma lo posso dire in diretta?",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -23,50 +23,6 @@
   },
   {
     "id": "2017-04-05-002",
-    "start": 82.01,
-    "end": 82.11,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "Ciao.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-04-05-003",
-    "start": 114.01,
-    "end": 114.97,
-    "speaker_raw": "SPEAKER_10",
-    "testo": "Tell me all the things that you couldn't before",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-04-05-004",
-    "start": 151.21,
-    "end": 170.96,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "If this love is pain then darling let's hurt tonight So you get the lights and I'll lock the doors",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-04-05-005",
-    "start": 178.87,
-    "end": 190.17,
-    "speaker_raw": "SPEAKER_10",
-    "testo": "Ma lo posso dire in diretta?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-04-05-006",
     "start": 190.21,
     "end": 191.31,
     "speaker_raw": "SPEAKER_01",
@@ -77,10 +33,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-05-007",
+    "id": "2017-04-05-003",
     "start": 191.39,
     "end": 194.13,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_05",
     "testo": "No, ok. Assolutamente no.",
     "titolo": "",
     "tema": [],
@@ -88,7 +44,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-05-008",
+    "id": "2017-04-05-004",
     "start": 194.25,
     "end": 278.19,
     "speaker_raw": "SPEAKER_01",
@@ -99,10 +55,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-05-009",
+    "id": "2017-04-05-005",
     "start": 280.51,
     "end": 298.51,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Good morning life, good morning world, how are you happiness, I once I knew what living can be, oh it's life, it's free, it's someone waiting for me, who'll someday be my wife, good morning life.",
     "titolo": "",
     "tema": [],
@@ -110,7 +66,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-05-010",
+    "id": "2017-04-05-006",
     "start": 301.69,
     "end": 357.83,
     "speaker_raw": "SPEAKER_01",
@@ -121,10 +77,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-05-011",
+    "id": "2017-04-05-007",
     "start": 359.22,
     "end": 368.93,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_05",
     "testo": "ti amo ma dipende se lo colleghi a un'esperienza positiva e poi ora è periodo lo sai allora lui adesso compie la canzone compie degli anni no?",
     "titolo": "",
     "tema": [],
@@ -132,7 +88,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-05-012",
+    "id": "2017-04-05-008",
     "start": 369.08,
     "end": 454.55,
     "speaker_raw": "SPEAKER_01",
@@ -142,16 +98,13 @@
       "amore"
     ],
     "tipo": "riferimento_musica",
-    "video_url": "",
-    "autore": "Umberto Tozzi",
-    "confermato_esterno": true,
-    "copertina": "https://coverartarchive.org/release/e4ac2e7b-a333-4e40-8e6b-58ceffb27d2a/front-250"
+    "video_url": ""
   },
   {
-    "id": "2017-04-05-013",
+    "id": "2017-04-05-009",
     "start": 610.42,
     "end": 611.14,
-    "speaker_raw": "SPEAKER_09",
+    "speaker_raw": "SPEAKER_05",
     "testo": "E io too, baby",
     "titolo": "",
     "tema": [],
@@ -159,7 +112,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-05-014",
+    "id": "2017-04-05-010",
     "start": 643.46,
     "end": 660.22,
     "speaker_raw": "SPEAKER_01",
@@ -169,16 +122,13 @@
       "amore"
     ],
     "tipo": "riferimento_musica",
-    "video_url": "",
-    "autore": "Bon Jovi",
-    "confermato_esterno": true,
-    "copertina": "https://coverartarchive.org/release/46d34681-ba9d-47c1-9370-7279d2fe107d/front-250"
+    "video_url": ""
   },
   {
-    "id": "2017-04-05-015",
+    "id": "2017-04-05-011",
     "start": 660.3,
     "end": 661.48,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Ma perché Nicoletta?",
     "titolo": "",
     "tema": [],
@@ -186,7 +136,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-05-016",
+    "id": "2017-04-05-012",
     "start": 661.52,
     "end": 800.03,
     "speaker_raw": "SPEAKER_01",
@@ -197,40 +147,51 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-05-017",
+    "id": "2017-04-05-013",
     "start": 800.55,
+    "end": 816.05,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "no diciamo che io mi gestisco adesso esci col telefono fai pausa facebook non lo so instagram io lavoro diciamo alla porta al chiuso quindi sono da sola posso fare quello che voglio quante ne fumavi alla mattina?",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2017-04-05-014",
+    "start": 816.89,
     "end": 827.98,
-    "speaker_raw": "SPEAKER_02",
-    "testo": "no diciamo che io mi gestisco adesso esci col telefono fai pausa facebook non lo so instagram io lavoro diciamo alla porta al chiuso quindi sono da sola posso fare quello che voglio quante ne fumavi alla mattina? Diciamo che comunque mi ero imposta di non fumare finché non avessi finito di lavorare, quindi io finisco intorno alle 11, mezzogiorno, quella era una buona cosa.",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Diciamo che comunque mi ero imposta di non fumare finché non avessi finito di lavorare, quindi io finisco intorno alle 11, mezzogiorno, quella era una buona cosa.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-04-05-018",
+    "id": "2017-04-05-015",
     "start": 828.16,
-    "end": 839.33,
+    "end": 843.31,
     "speaker_raw": "SPEAKER_01",
-    "testo": "Come gli alcolisti che dicono inizio a bere nel pomeriggio. C'era un classico, come Gianluca. Scusami Giorgia, quante ne fumavi alla mattina più o meno?",
+    "testo": "Come gli alcolisti che dicono inizio a bere nel pomeriggio. C'era un classico, come Gianluca. Scusami Giorgia, quante ne fumavi alla mattina più o meno? Ma no, due. Ah vabbè, sappi che adesso quelli che fumano...",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-04-05-019",
-    "start": 839.99,
+    "id": "2017-04-05-016",
+    "start": 843.33,
     "end": 845.79,
-    "speaker_raw": "SPEAKER_02",
-    "testo": "Ma no, due. Ah vabbè, sappi che adesso quelli che fumano... Ero già brava, ero già brava. Quelli che fumano...",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Ero già brava, ero già brava. Quelli che fumano...",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-04-05-020",
+    "id": "2017-04-05-017",
     "start": 849.25,
     "end": 866.96,
     "speaker_raw": "SPEAKER_01",
@@ -241,10 +202,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-05-021",
+    "id": "2017-04-05-018",
     "start": 867.68,
     "end": 892.81,
-    "speaker_raw": "SPEAKER_02",
+    "speaker_raw": "SPEAKER_04",
     "testo": "allora sì perché il piccolo soprattutto ci teneva tantissimo che io smettessi di fumare ti posso dire che è brutto vedere quando vedi un genitore con un bambino guarda è una cosa che hai detto tu tempo fa il fatto di andare a salutare la sera prima di andare a dormire e che mi dica mamma fai di fumo oh no no ma io li vedo anche qua è stato terribile li vedo anche qua al parco spingono i bambini sull'altalena girati di profilo non cagano il bambino pfff",
     "titolo": "",
     "tema": [],
@@ -252,43 +213,21 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-05-022",
+    "id": "2017-04-05-019",
     "start": 893.63,
-    "end": 905.12,
-    "speaker_raw": "SPEAKER_01",
-    "testo": "E io dico, è possibile che per me quella mezzo... c'è anche scritto vietato fumare intanto, che non si potrebbe fumare, ma quello è il cartello in Italia, chi riguarda. Però è anche brutto che un figlio guarda un genitore a fare quel genio.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-04-05-023",
-    "start": 905.16,
-    "end": 907.4,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Però vedi che i figli invece hanno senso critico adesso.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-04-05-024",
-    "start": 907.42,
     "end": 918.11,
     "speaker_raw": "SPEAKER_01",
-    "testo": "Mio cugino ha fatto smettere mio zio di fumare, per esempio. Scusami, scusami Giorgia, adesso però noi non dobbiamo cambiare discorso, sennò a te ti viene voglia, soprattutto dopo il caffè. Esci la sera, bevi alcolici?",
+    "testo": "E io dico, è possibile che per me quella mezzo... c'è anche scritto vietato fumare intanto, che non si potrebbe fumare, ma quello è il cartello in Italia, chi riguarda. Però è anche brutto che un figlio guarda un genitore a fare quel genio. Però vedi che i figli invece hanno senso critico adesso. Mio cugino ha fatto smettere mio zio di fumare, per esempio. Scusami, scusami Giorgia, adesso però noi non dobbiamo cambiare discorso, sennò a te ti viene voglia, soprattutto dopo il caffè. Esci la sera, bevi alcolici?",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-04-05-025",
+    "id": "2017-04-05-020",
     "start": 919.06,
     "end": 929.29,
-    "speaker_raw": "SPEAKER_02",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Beh, adesso loro si sono in compagnia e non parlano per venerdì, altrimenti niente. Lì è tosta, niente. Eh, capito, se fai la serata la sigaretta accompagna.",
     "titolo": "",
     "tema": [],
@@ -296,48 +235,21 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-05-026",
+    "id": "2017-04-05-021",
     "start": 929.33,
-    "end": 954.24,
-    "speaker_raw": "SPEAKER_01",
-    "testo": "No, devi stare a casa e mangiare il tofu, quello che non sa di niente. non stimolare niente quello lì che ha lo stesso sapore delle custodie del guscio dell'iPhone sai questi qua nuovi di bomba ma mi hai fatto venire una voglia esatto ma allora tu come possiamo aiutare perché ci sono allora a me hanno fatto smettere di fumare facendomi l'esempio della pietà di Michelangelo e io ho smesso così",
-    "titolo": "La Pietà di Michelangelo",
-    "tema": [
-      "esempio",
-      "arte"
-    ],
-    "tipo": "riferimento_libro",
-    "video_url": "",
-    "autore": "Michelangelo Buonarroti",
-    "confermato_esterno": false
-  },
-  {
-    "id": "2017-04-05-027",
-    "start": 954.52,
-    "end": 956.2,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Non mi ricordo, forse ce l'hai già fatta.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-04-05-028",
-    "start": 956.22,
     "end": 1110.34,
     "speaker_raw": "SPEAKER_01",
-    "testo": "Cioè praticamente tu vai a San Pietro, guardi La Pietà di Michelangelo, quest'opera meravigliosa, no? Perché la domanda è qual è la tua opera preferita? Io avevo detto quello. Vai lì, la guardi, a fianco a te c'è uno che la guarda e tu ti emozioni, no? Vedi il Cristo, la Madonna, le cose così. A un certo punto uno a fianco a te prende un chiodo e comincia a grattare, no? Tipo il ginocchio della Madonna. E tu dici, ma che cazzo stai facendo? E lui dice, no, mica la rompo. Faccio dei graffietti due o tre volte al giorno quando sono un po' nervoso. Dopo il caffè mi da soddisfazione grattare questo. E tu dici, scusami, non solo non ti emozioni più, ma addirittura davanti a questo capolavoro la tua testa produce questa azione. Vuol dire che c'è un qualcosa di profondo da sistemare. E quindi io me l'ha raccontata così e sono andato a cercare il vero motivo. Perché poi la sigaretta è un riempitivo di un qualcosa. Cosa stai facendo? ma che ti frega tu sei una che se dovessi mai fumare un giorno prenderesti la pietà scusami tu sei un tu Giorgia quello che voglio dire se tu sei quella che si dà il graffietto sul ginocchio e dici tanto mica muoio mi sono dato dei graffietti però se tu hai questo rapporto con te stessa è una cosa che non faresti mai con tuo figlio non gli fumaresti mai in faccia no assolutamente ok quell'amore che hai per tuo figlio te lo dà la natura mentre l'amore per se stesso ce lo dobbiamo tutti guadagnare ma la cosa interessante è che non è che tu ti comporti così con la sigaretta e poi il resto della tua vita invece ha dei grandi valori cioè tutto poi si ridimensiona col rapporto che hai con te quindi tu se hai un uomo che non ti ama va bene lo stai cioè capisci cosa voglio dire tutte le tue relazioni professionali e intime si relazionano sul fatto che tu non riesci a capire quanto sei fighissima Giorgia nonostante sia una stracciona ahahah quindi se tu decidi io quel giorno ho detto sai che c'è ho deciso che mi tratto da capolavoro esatto e quindi dal capolavoro tutto è cambiato le relazioni le persone gli amici tutto cambia la vita perché tu ti metti a un livello più alto invece ti piace però posso dire che al ristorante quelli che escono a fumare sono sempre più simpatici però sono i più disastrati però quando rientrano portano un alone un alone di felicità va bene Giorgia tieni duro non mollare e nei momenti di crisi chiamaci non mollare non mollare mollare o non mollare ciao Giorgia ciao ciao ciao ciao un bacio Silvano Agosti invece che è quello che mi ha raccontato la storia sosteneva anche che il numero di sigarette è il numero di rapporti sessuali che una persona deve avere in quel giorno di lei 12 al giorno say goodbye to all and everything you own California",
+    "testo": "No, devi stare a casa e mangiare il tofu, quello che non sa di niente. non stimolare niente quello lì che ha lo stesso sapore delle custodie del guscio dell'iPhone sai questi qua nuovi di bomba ma mi hai fatto venire una voglia esatto ma allora tu come possiamo aiutare perché ci sono allora a me hanno fatto smettere di fumare facendomi l'esempio della pietà di Michelangelo e io ho smesso così Non mi ricordo, forse ce l'hai già fatta. Cioè praticamente tu vai a San Pietro, guardi La Pietà di Michelangelo, quest'opera meravigliosa, no? Perché la domanda è qual è la tua opera preferita? Io avevo detto quello. Vai lì, la guardi, a fianco a te c'è uno che la guarda e tu ti emozioni, no? Vedi il Cristo, la Madonna, le cose così. A un certo punto uno a fianco a te prende un chiodo e comincia a grattare, no? Tipo il ginocchio della Madonna. E tu dici, ma che cazzo stai facendo? E lui dice, no, mica la rompo. Faccio dei graffietti due o tre volte al giorno quando sono un po' nervoso. Dopo il caffè mi da soddisfazione grattare questo. E tu dici, scusami, non solo non ti emozioni più, ma addirittura davanti a questo capolavoro la tua testa produce questa azione. Vuol dire che c'è un qualcosa di profondo da sistemare. E quindi io me l'ha raccontata così e sono andato a cercare il vero motivo. Perché poi la sigaretta è un riempitivo di un qualcosa. Cosa stai facendo? ma che ti frega tu sei una che se dovessi mai fumare un giorno prenderesti la pietà scusami tu sei un tu Giorgia quello che voglio dire se tu sei quella che si dà il graffietto sul ginocchio e dici tanto mica muoio mi sono dato dei graffietti però se tu hai questo rapporto con te stessa è una cosa che non faresti mai con tuo figlio non gli fumaresti mai in faccia no assolutamente ok quell'amore che hai per tuo figlio te lo dà la natura mentre l'amore per se stesso ce lo dobbiamo tutti guadagnare ma la cosa interessante è che non è che tu ti comporti così con la sigaretta e poi il resto della tua vita invece ha dei grandi valori cioè tutto poi si ridimensiona col rapporto che hai con te quindi tu se hai un uomo che non ti ama va bene lo stai cioè capisci cosa voglio dire tutte le tue relazioni professionali e intime si relazionano sul fatto che tu non riesci a capire quanto sei fighissima Giorgia nonostante sia una stracciona ahahah quindi se tu decidi io quel giorno ho detto sai che c'è ho deciso che mi tratto da capolavoro esatto e quindi dal capolavoro tutto è cambiato le relazioni le persone gli amici tutto cambia la vita perché tu ti metti a un livello più alto invece ti piace però posso dire che al ristorante quelli che escono a fumare sono sempre più simpatici però sono i più disastrati però quando rientrano portano un alone un alone di felicità va bene Giorgia tieni duro non mollare e nei momenti di crisi chiamaci non mollare non mollare mollare o non mollare ciao Giorgia ciao ciao ciao ciao un bacio Silvano Agosti invece che è quello che mi ha raccontato la storia sosteneva anche che il numero di sigarette è il numero di rapporti sessuali che una persona deve avere in quel giorno di lei 12 al giorno say goodbye to all and everything you own California",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-04-05-029",
+    "id": "2017-04-05-022",
     "start": 1112.01,
     "end": 1224.62,
-    "speaker_raw": "SPEAKER_09",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Grazie a tutti Sticky move, you're living in a quick world. Got a heavy life for such a tiny girl. Born into it, that's for sure. Rivers get connected so much stronger than expected. Well, sick love come to wash us away. Superhero Superhero A fame is just a trick, you see an empty glass Leave you feeling thirsty and so very fast Just to tell my baby it'll be your last I don't know what it's been said Your heart is stronger than your head This location is my heart grazie a tutti",
     "titolo": "",
     "tema": [],
@@ -345,7 +257,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-05-030",
+    "id": "2017-04-05-023",
     "start": 1259.8,
     "end": 1260.16,
     "speaker_raw": "SCONOSCIUTO",
@@ -356,7 +268,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-05-031",
+    "id": "2017-04-05-024",
     "start": 1296.12,
     "end": 1312.94,
     "speaker_raw": "SPEAKER_01",
@@ -367,10 +279,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-05-032",
+    "id": "2017-04-05-025",
     "start": 1313.18,
     "end": 1314.98,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Però la metafora dell'opera d'arte non era male.",
     "titolo": "",
     "tema": [],
@@ -378,7 +290,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-05-033",
+    "id": "2017-04-05-026",
     "start": 1315.04,
     "end": 1335.12,
     "speaker_raw": "SPEAKER_01",
@@ -389,10 +301,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-05-034",
+    "id": "2017-04-05-027",
     "start": 1335.13,
     "end": 1342.82,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_05",
     "testo": "si puoi dirlo ma è dipendenza pura è dipendenza Cioè una dipendenza diciamo che non ti rende socialmente inaccettabile.",
     "titolo": "",
     "tema": [],
@@ -400,7 +312,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-05-035",
+    "id": "2017-04-05-028",
     "start": 1342.84,
     "end": 1415.82,
     "speaker_raw": "SPEAKER_01",
@@ -411,10 +323,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-05-036",
+    "id": "2017-04-05-029",
     "start": 1422.22,
     "end": 1586.19,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Sì, sono stato condannato. Lui bianco, lui nero, difficile da sognare. Famiglie divise, ma almeno le sere che contavano. La mamma plege e si chiama per non allertarci. Per fermarmi in un mondo senza poter s'aerare. Ho preso le mie valise, sì, mi dispiace. Oggi tutto ciò che ho, non l'ho volato. e il tempo passa, niente si effaccia tu hai la tua posizione, vicino a me davanti a questa glacia, mi lascio senza il tuo visaggio, tu non sei più là volevo solo avanzare ritrovarmi, poter ricominciare senza tornare più in amore ti ho lasciato, ti ho ferito ma sai cosa, non mi rimetterò ti ho lasciato, ti ho ferito ti pensi sempre, ma non lo so Grazie a tutti e il tempo passa, niente si effaccia, tu hai la tua posta, dietro di me, davanti a questa glacia, mi abbraccio, senza il tuo visaggio, tu non sei più là, volevo solo avanzare, ritrovarmi, poter cominciare, senza tornare, e poi ti dico, ti ho lasciato, ti ho abbracciato, ma sai che non mi voglio più, ti grazie a tutti Grazie.",
     "titolo": "",
     "tema": [],
@@ -422,7 +334,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-05-037",
+    "id": "2017-04-05-030",
     "start": 1619.66,
     "end": 1624.46,
     "speaker_raw": "SPEAKER_01",
@@ -433,10 +345,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-05-038",
+    "id": "2017-04-05-031",
     "start": 1624.82,
     "end": 1630.51,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Buongiorno, buongiorno. Come un'apparizione in teatro, veramente, è miracolosa.",
     "titolo": "",
     "tema": [],
@@ -444,7 +356,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-05-039",
+    "id": "2017-04-05-032",
     "start": 1630.53,
     "end": 1637.09,
     "speaker_raw": "SPEAKER_01",
@@ -455,10 +367,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-05-040",
+    "id": "2017-04-05-033",
     "start": 1637.15,
     "end": 1638.12,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Si preoccupano che torno.",
     "titolo": "",
     "tema": [],
@@ -466,7 +378,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-05-041",
+    "id": "2017-04-05-034",
     "start": 1638.15,
     "end": 1666.82,
     "speaker_raw": "SPEAKER_01",
@@ -477,10 +389,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-05-042",
+    "id": "2017-04-05-035",
     "start": 1667.76,
     "end": 1670.64,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Politeama Genovesi.",
     "titolo": "",
     "tema": [],
@@ -488,7 +400,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-05-043",
+    "id": "2017-04-05-036",
     "start": 1671.12,
     "end": 1674.0,
     "speaker_raw": "SPEAKER_01",
@@ -499,10 +411,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-05-044",
+    "id": "2017-04-05-037",
     "start": 1675.5,
     "end": 1680.78,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_02",
     "testo": "No, non tanti, tre giorni diciamo, ci va a divertire sabato.",
     "titolo": "",
     "tema": [],
@@ -510,7 +422,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-05-045",
+    "id": "2017-04-05-038",
     "start": 1680.8,
     "end": 1710.54,
     "speaker_raw": "SPEAKER_01",
@@ -521,10 +433,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-05-046",
+    "id": "2017-04-05-039",
     "start": 1711.04,
     "end": 1719.91,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_02",
     "testo": "eh sì quello è ormai morirò con la scuola insomma sono come Montalbano no la replica della replica senti quando finisce la tournée?",
     "titolo": "",
     "tema": [],
@@ -532,7 +444,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-05-047",
+    "id": "2017-04-05-040",
     "start": 1719.95,
     "end": 1732.42,
     "speaker_raw": "SPEAKER_01",
@@ -543,10 +455,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-05-048",
+    "id": "2017-04-05-041",
     "start": 1733.38,
     "end": 1746.05,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_02",
     "testo": "La promessa era di, appunto, di andare in America, insomma, che iniziamo una grande carriera internazionale. Per il momento sono andato solo a Mondragone, fino a Catetta, al ritiro del Napoli mi hanno portato.",
     "titolo": "",
     "tema": [],
@@ -554,7 +466,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-05-049",
+    "id": "2017-04-05-042",
     "start": 1746.11,
     "end": 1750.57,
     "speaker_raw": "SPEAKER_01",
@@ -565,10 +477,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-05-050",
+    "id": "2017-04-05-043",
     "start": 1751.01,
     "end": 1783.46,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_02",
     "testo": "i nomi anche degli altri attori che sono con te ma io non solo dico i nomi posso fare una grande sorpresa c'è in persona in voce chi c'è? un altro esponente di spicco di quest'anno un acquisto straordinario che si è costato un sacrificio economico notevolissimo che è l'attrice protagonista dello spettacolo che è niente poco di meno che Vittoria Belvedere oh ma ce l'hai lì? ma perché siete tutti svegliati?",
     "titolo": "",
     "tema": [],
@@ -576,7 +488,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-05-051",
+    "id": "2017-04-05-044",
     "start": 1783.58,
     "end": 1803.59,
     "speaker_raw": "SPEAKER_01",
@@ -587,10 +499,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-05-052",
+    "id": "2017-04-05-045",
     "start": 1804.47,
     "end": 1822.33,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Sì, per quelli che sono in ansia per la serie possiamo dire, perché in settimana verrà dato l'annuncio ufficiale di quando uscirà The Young Pop 2. Sì, quando uscirà e tutto l'impegno.",
     "titolo": "",
     "tema": [],
@@ -598,7 +510,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-05-053",
+    "id": "2017-04-05-046",
     "start": 1822.62,
     "end": 1884.39,
     "speaker_raw": "SPEAKER_01",
@@ -609,10 +521,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-05-054",
+    "id": "2017-04-05-047",
     "start": 1884.45,
     "end": 1921.08,
-    "speaker_raw": "SPEAKER_05",
+    "speaker_raw": "SPEAKER_04",
     "testo": "perché avevano capito che prima che io arrivassi non è che avesse molto successo ecco adesso hanno capito che prendendomi lo spettacolo proprio esplodeva ok quindi sono stati investiti bene benissimo proprio benissimo con la B maiuscola mi dice Silvio che hai una notizia bomba la notizia bomba era questo che ha iniziato a pagare molto per avermi va bene va bene va bene allora ragazzi io vi auguro grazie ti ripasso saluta a tutti ciao ciao ciao",
     "titolo": "",
     "tema": [],
@@ -620,7 +532,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-05-055",
+    "id": "2017-04-05-048",
     "start": 1924.78,
     "end": 1951.06,
     "speaker_raw": "SPEAKER_01",
@@ -631,10 +543,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-05-056",
+    "id": "2017-04-05-049",
     "start": 1951.1,
     "end": 1952.2,
-    "speaker_raw": "SPEAKER_09",
+    "speaker_raw": "SPEAKER_05",
     "testo": "No, in Italia non si può.",
     "titolo": "",
     "tema": [],
@@ -642,7 +554,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-05-057",
+    "id": "2017-04-05-050",
     "start": 1952.22,
     "end": 1970.85,
     "speaker_raw": "SPEAKER_01",
@@ -653,10 +565,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-05-058",
+    "id": "2017-04-05-051",
     "start": 1973.86,
     "end": 2078.18,
-    "speaker_raw": "SPEAKER_09",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Mentre ascolto questa canzone, stracciando a duemila sotto un lampione, vorrei che il funerale fosse sold out, mentre in chiesa risuona forte ancora. una notte leggera ti lascio il mio inno dentro il mare profondo Mentre il cielo risuona forte ancora questa canzone Ti lascio il mio inno in un silenzio profondo Per quando non ti viene sonno in una notte leggere Ti lascio il mio inno dentro il mare profondo",
     "titolo": "",
     "tema": [],
@@ -664,7 +576,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-05-059",
+    "id": "2017-04-05-052",
     "start": 2153.72,
     "end": 2226.91,
     "speaker_raw": "SPEAKER_01",
@@ -675,7 +587,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-05-060",
+    "id": "2017-04-05-053",
     "start": 2227.37,
     "end": 2229.35,
     "speaker_raw": "SPEAKER_00",
@@ -686,7 +598,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-05-061",
+    "id": "2017-04-05-054",
     "start": 2229.39,
     "end": 2233.82,
     "speaker_raw": "SPEAKER_01",
@@ -697,7 +609,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-05-062",
+    "id": "2017-04-05-055",
     "start": 2234.99,
     "end": 2267.76,
     "speaker_raw": "SPEAKER_00",
@@ -708,7 +620,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-05-063",
+    "id": "2017-04-05-056",
     "start": 2268.3,
     "end": 2293.65,
     "speaker_raw": "SPEAKER_01",
@@ -719,7 +631,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-05-064",
+    "id": "2017-04-05-057",
     "start": 2299.5,
     "end": 2359.8,
     "speaker_raw": "SPEAKER_00",
@@ -730,7 +642,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-05-065",
+    "id": "2017-04-05-058",
     "start": 2360.16,
     "end": 2363.71,
     "speaker_raw": "SPEAKER_01",
@@ -741,7 +653,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-05-066",
+    "id": "2017-04-05-059",
     "start": 2364.07,
     "end": 2444.44,
     "speaker_raw": "SPEAKER_00",
@@ -752,7 +664,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-05-067",
+    "id": "2017-04-05-060",
     "start": 2445.33,
     "end": 2459.76,
     "speaker_raw": "SPEAKER_01",
@@ -763,18 +675,62 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-05-068",
+    "id": "2017-04-05-061",
     "start": 2485.65,
-    "end": 2695.27,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "sono per te temprano per la sera e per la notte il sogno di te la gente buona solo gozza, nunca hay pena pa' que sufrir Stando in il mare in arena, vivendo così. Stando in il mare in arena, vivendo così. Ventana blanca, che venga la mattina, che venga un'altra volta, aspettando, così è come io passo il mio tempo. Sperando a Inañez Y rezando Por su calor, por su aliento Sobre mi pie Te digo todo aquí va bien conmigo de no dormir Amigo te suplico te lo pido que me ayudes a mi anir Buscando con mi ancla la magia, nadando in ti. Oye me te estoy amando, te amo a ti, por el valle me encantas. e mi ricordo Oh! faceva calore ma aveva freddo Oh! oh oh oh",
+    "end": 2487.45,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "sono per te temprano per la sera e per la notte il sogno di te",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-04-05-069",
+    "id": "2017-04-05-062",
+    "start": 2516.94,
+    "end": 2519.4,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "la gente buona solo gozza, nunca hay pena pa' que sufrir",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2017-04-05-063",
+    "start": 2544.44,
+    "end": 2600.47,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Stando in il mare in arena, vivendo così. Stando in il mare in arena, vivendo così. Ventana blanca, che venga la mattina, che venga un'altra volta, aspettando, così è come io passo il mio tempo. Sperando a Inañez Y rezando Por su calor, por su aliento Sobre mi pie Te digo todo aquí va bien conmigo de no dormir Amigo te suplico te lo pido que me ayudes a mi anir",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2017-04-05-064",
+    "start": 2623.27,
+    "end": 2667.14,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Buscando con mi ancla la magia, nadando in ti. Oye me te estoy amando, te amo a ti, por el valle me encantas. e mi ricordo Oh! faceva calore ma aveva freddo Oh!",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2017-04-05-065",
+    "start": 2694.61,
+    "end": 2695.27,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "oh oh oh",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2017-04-05-066",
     "start": 2725.01,
     "end": 2843.41,
     "speaker_raw": "SPEAKER_01",
@@ -785,10 +741,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-05-070",
+    "id": "2017-04-05-067",
     "start": 2843.49,
     "end": 2845.61,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_05",
     "testo": "sei riuscito a diventare amico di Devendra?",
     "titolo": "",
     "tema": [],
@@ -796,7 +752,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-05-071",
+    "id": "2017-04-05-068",
     "start": 2845.67,
     "end": 2900.26,
     "speaker_raw": "SPEAKER_01",

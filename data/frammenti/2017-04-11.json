@@ -3,7 +3,7 @@
     "id": "2017-04-11-000",
     "start": 31.21,
     "end": 194.4,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Ciao! ciao ciao ciao Ciao! Ciao! Ciao!",
     "titolo": "",
     "tema": [],
@@ -25,7 +25,7 @@
     "id": "2017-04-11-002",
     "start": 256.11,
     "end": 258.05,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_03",
     "testo": "ma per la consistenza o il sapore?",
     "titolo": "",
     "tema": [],
@@ -223,7 +223,7 @@
     "id": "2017-04-11-020",
     "start": 703.48,
     "end": 703.62,
-    "speaker_raw": "SPEAKER_02",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Grazie.",
     "titolo": "",
     "tema": [],
@@ -242,9 +242,7 @@
       "televisiva"
     ],
     "tipo": "riferimento_film",
-    "video_url": "",
-    "autore": "Nicole Kidman",
-    "confermato_esterno": false
+    "video_url": ""
   },
   {
     "id": "2017-04-11-022",
@@ -261,7 +259,7 @@
     "id": "2017-04-11-023",
     "start": 905.64,
     "end": 911.88,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_03",
     "testo": "E quindi alla fine ti sei laureato con? Con? Punti? Con punti?",
     "titolo": "",
     "tema": [],
@@ -283,7 +281,7 @@
     "id": "2017-04-11-025",
     "start": 915.32,
     "end": 917.56,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Su centodieci. Complimenti.",
     "titolo": "",
     "tema": [],
@@ -302,16 +300,13 @@
       "generazionale"
     ],
     "tipo": "riferimento_musica",
-    "video_url": "",
-    "autore": "Queen",
-    "confermato_esterno": true,
-    "copertina": "https://coverartarchive.org/release/bbb459c3-f053-456c-aced-972652d4f46c/front-250"
+    "video_url": ""
   },
   {
     "id": "2017-04-11-027",
     "start": 984.12,
     "end": 986.5,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_03",
     "testo": "che brutto quando leggi dovrei fare abbraccio?",
     "titolo": "",
     "tema": [],
@@ -333,7 +328,7 @@
     "id": "2017-04-11-029",
     "start": 1018.75,
     "end": 1026.82,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Certo. Qua. È come la barbacoa su una salsiccia.",
     "titolo": "",
     "tema": [],
@@ -355,7 +350,7 @@
     "id": "2017-04-11-031",
     "start": 1039.97,
     "end": 1057.53,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_02",
     "testo": "è molto l'altro è invece che è tre piccoli uccellini di Bob forse anche perché gli uccellini no?",
     "titolo": "",
     "tema": [],
@@ -377,17 +372,14 @@
     "id": "2017-04-11-033",
     "start": 1148.81,
     "end": 1251.74,
-    "speaker_raw": "SPEAKER_05",
+    "speaker_raw": "SPEAKER_04",
     "testo": "All in all it's just another brick We don't need no education We don't need no school control Grazie",
     "titolo": "Another Brick in the Wall",
     "tema": [
       "educazione"
     ],
     "tipo": "riferimento_musica",
-    "video_url": "",
-    "autore": "Pink Floyd",
-    "confermato_esterno": true,
-    "copertina": "https://coverartarchive.org/release/2c422296-0296-4085-91a6-8a0babe6dae2/front-250"
+    "video_url": ""
   },
   {
     "id": "2017-04-11-034",
@@ -404,7 +396,7 @@
     "id": "2017-04-11-035",
     "start": 1417.86,
     "end": 1419.32,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Vedi, 110 cellode.",
     "titolo": "",
     "tema": [],
@@ -414,46 +406,21 @@
   {
     "id": "2017-04-11-036",
     "start": 1419.36,
-    "end": 1450.49,
+    "end": 1492.61,
     "speaker_raw": "SPEAKER_00",
-    "testo": "Questo io lo potrei fare 5 minuti così. Certo. Perché ridi così tanto? anche la barbacoa anche la barbacoa io però domenica sono andato con gli amici a fare la grigliata e abbiamo sentito la barbacoa perché so che ce la chiedete comunque ascoltatevelo e studiatevi The Wall è come fare una seduta di psicanalisi domingo sono andato di domenica per stare in tema col testo io odio questa canzone una bella grigliatona",
+    "testo": "Questo io lo potrei fare 5 minuti così. Certo. Perché ridi così tanto? anche la barbacoa anche la barbacoa io però domenica sono andato con gli amici a fare la grigliata e abbiamo sentito la barbacoa perché so che ce la chiedete comunque ascoltatevelo e studiatevi The Wall è come fare una seduta di psicanalisi domingo sono andato di domenica per stare in tema col testo io odio questa canzone una bella grigliatona Si sta meglio con questa che con i pinflat. Pronti ragazzi, pronti? La barbacoa. Questa se la sente Arbor, ce la porta via. Al barbecue. La barbacoa. Oh yeah! Senti, lista della carne! Assusta, l'ascoltiamo!",
     "titolo": "The Wall",
     "tema": [
       "salute_mentale"
     ],
     "tipo": "riferimento_musica",
-    "video_url": "",
-    "autore": "Pink Floyd",
-    "confermato_esterno": true,
-    "copertina": "https://coverartarchive.org/release/72747c3c-345c-4b44-84e9-4496a72f75df/front-250"
+    "video_url": ""
   },
   {
     "id": "2017-04-11-037",
-    "start": 1463.18,
-    "end": 1468.46,
-    "speaker_raw": "SPEAKER_01",
-    "testo": "Si sta meglio con questa che con i pinflat.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-04-11-038",
-    "start": 1469.71,
-    "end": 1492.61,
-    "speaker_raw": "SPEAKER_00",
-    "testo": "Pronti ragazzi, pronti? La barbacoa. Questa se la sente Arbor, ce la porta via. Al barbecue. La barbacoa. Oh yeah! Senti, lista della carne! Assusta, l'ascoltiamo!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-04-11-039",
     "start": 1492.75,
     "end": 1496.41,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Oh no!",
     "titolo": "",
     "tema": [],
@@ -461,7 +428,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-11-040",
+    "id": "2017-04-11-038",
     "start": 1497.23,
     "end": 1498.51,
     "speaker_raw": "SPEAKER_00",
@@ -472,10 +439,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-11-041",
+    "id": "2017-04-11-039",
     "start": 1498.79,
     "end": 1502.77,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_05",
     "testo": "La salsiccia alla brasa! Altro che Queen! Oh no!",
     "titolo": "",
     "tema": [],
@@ -483,7 +450,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-11-042",
+    "id": "2017-04-11-040",
     "start": 1510.75,
     "end": 1560.72,
     "speaker_raw": "SPEAKER_00",
@@ -494,10 +461,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-11-043",
+    "id": "2017-04-11-041",
     "start": 1568.43,
     "end": 1733.67,
-    "speaker_raw": "SPEAKER_07",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Se siamo ancora qui ad imparare come illuderci a preoccuparci della verità vedrai che poi il tempo non ci tradirà Sotto un vento di libeccio che dall'Africa soffia lieve su di noi la sua sabbia Vedrai che riusciremo a dare ancora un nome a tutte le paure che ci fan tremare La noia, l'abitudine, la delusione, vedrai che i desideri si raggiungono. impareremo anche a comprendere che esiste un buon motivo per insistere sotto un vento di libeccio che dall'Africa soffia lieve su di noi la sua sabbia L'unica tragedia, l'unica ambizione. Dovremmo solo ricominciare a respirare, a navigare. Dovrai soltanto dimenticare la noia, il vuoto, la perfezione. A tutte le paure che ci fan tremare",
     "titolo": "illuderci sulla verità",
     "tema": [
@@ -508,7 +475,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-11-044",
+    "id": "2017-04-11-042",
     "start": 1759.18,
     "end": 1763.98,
     "speaker_raw": "SPEAKER_00",
@@ -519,10 +486,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-11-045",
+    "id": "2017-04-11-043",
     "start": 1764.02,
     "end": 1766.37,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Le slide. Faccio una presentazione.",
     "titolo": "",
     "tema": [],
@@ -530,7 +497,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-11-046",
+    "id": "2017-04-11-044",
     "start": 1767.27,
     "end": 1770.91,
     "speaker_raw": "SPEAKER_00",
@@ -541,10 +508,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-11-047",
+    "id": "2017-04-11-045",
     "start": 1771.01,
     "end": 1772.37,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_03",
     "testo": "No, ma mi piace questa modalità.",
     "titolo": "",
     "tema": [],
@@ -552,7 +519,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-11-048",
+    "id": "2017-04-11-046",
     "start": 1772.55,
     "end": 1782.19,
     "speaker_raw": "SPEAKER_00",
@@ -563,10 +530,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-11-049",
+    "id": "2017-04-11-047",
     "start": 1782.21,
     "end": 1783.78,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Sì, sì.",
     "titolo": "",
     "tema": [],
@@ -574,7 +541,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-11-050",
+    "id": "2017-04-11-048",
     "start": 1783.8,
     "end": 1843.47,
     "speaker_raw": "SPEAKER_00",
@@ -585,10 +552,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-11-051",
+    "id": "2017-04-11-049",
     "start": 1843.57,
     "end": 1849.08,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_03",
     "testo": "andiamo avanti senti lì mi ho fumato",
     "titolo": "",
     "tema": [],
@@ -596,7 +563,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-11-052",
+    "id": "2017-04-11-050",
     "start": 1850.88,
     "end": 1852.52,
     "speaker_raw": "SPEAKER_00",
@@ -607,10 +574,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-11-053",
+    "id": "2017-04-11-051",
     "start": 1852.58,
     "end": 1853.98,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Come l'altra sera hai fumato?",
     "titolo": "",
     "tema": [],
@@ -618,7 +585,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-11-054",
+    "id": "2017-04-11-052",
     "start": 1854.01,
     "end": 1855.77,
     "speaker_raw": "SPEAKER_00",
@@ -629,10 +596,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-11-055",
+    "id": "2017-04-11-053",
     "start": 1855.81,
     "end": 1857.53,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Ma che dici?",
     "titolo": "",
     "tema": [],
@@ -640,7 +607,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-11-056",
+    "id": "2017-04-11-054",
     "start": 1857.59,
     "end": 1858.59,
     "speaker_raw": "SPEAKER_00",
@@ -651,10 +618,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-11-057",
+    "id": "2017-04-11-055",
     "start": 1858.63,
     "end": 1859.79,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Ma infatti!",
     "titolo": "",
     "tema": [],
@@ -662,7 +629,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-11-058",
+    "id": "2017-04-11-056",
     "start": 1859.93,
     "end": 1861.67,
     "speaker_raw": "SPEAKER_00",
@@ -673,10 +640,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-11-059",
+    "id": "2017-04-11-057",
     "start": 1861.69,
     "end": 1862.42,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Ma dove?",
     "titolo": "",
     "tema": [],
@@ -684,7 +651,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-11-060",
+    "id": "2017-04-11-058",
     "start": 1862.6,
     "end": 1906.99,
     "speaker_raw": "SPEAKER_00",
@@ -695,10 +662,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-11-061",
+    "id": "2017-04-11-059",
     "start": 1907.01,
     "end": 1907.17,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_03",
     "testo": "certo",
     "titolo": "",
     "tema": [],
@@ -706,7 +673,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-11-062",
+    "id": "2017-04-11-060",
     "start": 1908.89,
     "end": 1936.43,
     "speaker_raw": "SPEAKER_00",
@@ -717,10 +684,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-11-063",
+    "id": "2017-04-11-061",
     "start": 1936.81,
     "end": 1964.8,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_03",
     "testo": "io ero pronta, se te che divaghi dai parla comunque sulla stampa oggi a pagina 28 si parla di Gordon Ramsay del fatto che ha deciso di non lasciare neanche un cent un cent ai suoi quattro figli lui ha quattro figli Megan, Jack e Holly che sono due gemelli e Matilda Megan 18 anni, Jack e Holly 17 e Matilda 15 i gemelli lo stesso anno?",
     "titolo": "",
     "tema": [],
@@ -728,7 +695,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-11-064",
+    "id": "2017-04-11-062",
     "start": 1964.82,
     "end": 1973.76,
     "speaker_raw": "SPEAKER_00",
@@ -739,10 +706,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-11-065",
+    "id": "2017-04-11-063",
     "start": 1974.06,
     "end": 1977.94,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Sì, c'è Bill Gates che ha deciso, anche lui ha deciso di non lasciare niente ai figli.",
     "titolo": "",
     "tema": [],
@@ -750,7 +717,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-11-066",
+    "id": "2017-04-11-064",
     "start": 1978.16,
     "end": 1978.56,
     "speaker_raw": "SPEAKER_00",
@@ -761,10 +728,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-11-067",
+    "id": "2017-04-11-065",
     "start": 1978.7,
     "end": 1980.0,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Che poi non lasciare niente...",
     "titolo": "",
     "tema": [],
@@ -772,7 +739,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-11-068",
+    "id": "2017-04-11-066",
     "start": 1980.08,
     "end": 1982.91,
     "speaker_raw": "SPEAKER_00",
@@ -783,10 +750,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-11-069",
+    "id": "2017-04-11-067",
     "start": 1983.15,
     "end": 2018.14,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_03",
     "testo": "No, Bill Gates dice, farei un torto ai ragazzi se gli lasciassi tutto. Non potrebbero mai dimostrare quanto valgono davvero. Ecco, io dico, papà fammelo sto torto. Papà ti perdono. Eh. ma anche gene simmons esatto dei kiss ha detto i figli sanno che bisogna darsi da fare e che non diventeranno mai ricchi grazie a me bene bene e poi c'è il nostro amico warren buffett a warren buffett che idea geniale va bene vero smetti ragazzi warren buffett si scrive buffett lei dice buffett che fa la figata buffett è l'uomo che ha detto basta andare alle cene dove tutti si siede mettiamo un bel tavolo con la roba da mangiare e noi si prende quello che",
     "titolo": "Non lasciare tutto ai figli",
     "tema": [
@@ -794,12 +761,10 @@
       "figli"
     ],
     "tipo": "riferimento_libro",
-    "video_url": "",
-    "autore": "Bill Gates",
-    "confermato_esterno": false
+    "video_url": ""
   },
   {
-    "id": "2017-04-11-070",
+    "id": "2017-04-11-068",
     "start": 2018.72,
     "end": 2036.21,
     "speaker_raw": "SPEAKER_00",
@@ -810,10 +775,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-11-071",
+    "id": "2017-04-11-069",
     "start": 2037.05,
     "end": 2042.37,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Gordon Ramsay, quando va in aereo, dice io ho il diritto di girare a sinistra.",
     "titolo": "",
     "tema": [],
@@ -821,7 +786,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-11-072",
+    "id": "2017-04-11-070",
     "start": 2042.41,
     "end": 2045.49,
     "speaker_raw": "SPEAKER_00",
@@ -832,10 +797,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-11-073",
+    "id": "2017-04-11-071",
     "start": 2045.63,
     "end": 2053.18,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_03",
     "testo": "E invece i figli vanno in seconda classe. È giusto. Perché, e non solo, dice alla hostess di non permettere ai figli di avvicinarsi.",
     "titolo": "",
     "tema": [],
@@ -843,7 +808,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-11-074",
+    "id": "2017-04-11-072",
     "start": 2053.64,
     "end": 2061.94,
     "speaker_raw": "SPEAKER_00",
@@ -854,10 +819,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-11-075",
+    "id": "2017-04-11-073",
     "start": 2061.96,
     "end": 2093.76,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_03",
     "testo": "con le loro vaschette secondo me non saranno trattati male però in ogni caso lui dà una paghetta settimanale a questi quattro ragazzi ai più piccoli di 15 e 17 anni dà 50 sterline a settimana e a Megan la 18enne che studia a Oxford dà 100 sterline a settimana giusto per esempio mio padre che aveva problemi economici non ha mai preso un aereo e io invece sì è giusto che le vite siano diverse Ma quanto prendevi di paghetta?",
     "titolo": "",
     "tema": [],
@@ -865,7 +830,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-11-076",
+    "id": "2017-04-11-074",
     "start": 2094.42,
     "end": 2109.53,
     "speaker_raw": "SPEAKER_00",
@@ -876,10 +841,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-11-077",
+    "id": "2017-04-11-075",
     "start": 2109.57,
     "end": 2110.87,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Ah, ma non è paghetta?",
     "titolo": "",
     "tema": [],
@@ -887,7 +852,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-11-078",
+    "id": "2017-04-11-076",
     "start": 2111.17,
     "end": 2127.08,
     "speaker_raw": "SPEAKER_00",
@@ -898,10 +863,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-11-079",
+    "id": "2017-04-11-077",
     "start": 2140.22,
     "end": 2282.98,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Ho riportato le strade senza sapere dove andare, non avevo una tuella, in realtà ero condannato. Lui bianco e lui nero, difficile da sognare, famiglie divise ma di me, sire, che contava. Mio mamma pleurava e si scase per non allertarci, mi fermavano in un mondo senza poter rinforzare. Ho preso le mie valise, sì, mi dispiace, oggi tutto ciò che ho, no, non l'ho volato. E il tempo passa, niente si effaccia, tu hai la tua posta, vicino a me, davanti a questa glacia, mi abbraccio, senza il tuo visaggio, tu non sei più là. Volevo solo avanzare, ritrovarmi. Grazie a tutti. Grazie. e il tempo passa, niente si effaccia, tu hai la tua posta, vicino a me, davanti a questa glacia, mi lascio, senza il tuo visaggio, tu non sei più là, volevo solo avanzare, ritrovarmi, poter cominciare, senza ritornarmi, e poi ti dico, ti ho lasciato, ti ho ferito, ma sai cosa, non mi voglio più, non mi voglio più, Tu pensi a tutti i giorni e non mi dici niente. Io penso a voi, non sono lontano. Nel vostro cuore ho lasciato dei bordi di noi e dei saggi, qualche lacrime versate e lasciate i fili.",
     "titolo": "",
     "tema": [],
@@ -909,7 +874,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-11-080",
+    "id": "2017-04-11-078",
     "start": 2288.33,
     "end": 2327.47,
     "speaker_raw": "SPEAKER_00",
@@ -920,10 +885,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-11-081",
+    "id": "2017-04-11-079",
     "start": 2327.49,
     "end": 2328.03,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Ma ci credo.",
     "titolo": "",
     "tema": [],
@@ -931,7 +896,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-11-082",
+    "id": "2017-04-11-080",
     "start": 2328.35,
     "end": 2340.54,
     "speaker_raw": "SPEAKER_00",
@@ -942,10 +907,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-11-083",
+    "id": "2017-04-11-081",
     "start": 2340.66,
     "end": 2343.3,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Ma a te tieni il telefono acceso la notte?",
     "titolo": "",
     "tema": [],
@@ -953,7 +918,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-11-084",
+    "id": "2017-04-11-082",
     "start": 2343.34,
     "end": 2432.43,
     "speaker_raw": "SPEAKER_00",
@@ -964,34 +929,20 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-11-085",
+    "id": "2017-04-11-083",
     "start": 2450.59,
-    "end": 2490.5,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "All so younger than the sun The bonnie boat was one As we sailed into the mystic I can now hear the sailors cry Smell the sea and feel the sky Let your soul and spirit fly into the misty And where that foghorn blows I will be coming home And where the foghorn blows I wanna hear",
+    "end": 2520.23,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "All so younger than the sun The bonnie boat was one As we sailed into the mystic I can now hear the sailors cry Smell the sea and feel the sky Let your soul and spirit fly into the misty And where that foghorn blows I will be coming home And where the foghorn blows I wanna hear I don't have to fear and I wanna rock your chips and so Just like way back in the days of old And magnificently we will fall into the misty",
     "titolo": "Into the Mystic",
     "tema": [
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": "",
-    "autore": "Van Morrison",
-    "confermato_esterno": true,
-    "copertina": "https://coverartarchive.org/release/9b2fb6b7-5571-4ec1-86f4-f885071b0156/front-250"
-  },
-  {
-    "id": "2017-04-11-086",
-    "start": 2508.4,
-    "end": 2520.23,
-    "speaker_raw": "SPEAKER_08",
-    "testo": "I don't have to fear and I wanna rock your chips and so Just like way back in the days of old And magnificently we will fall into the misty",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-04-11-087",
+    "id": "2017-04-11-084",
     "start": 2531.74,
     "end": 2532.06,
     "speaker_raw": "SCONOSCIUTO",
@@ -1002,29 +953,18 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-11-088",
+    "id": "2017-04-11-085",
     "start": 2561.95,
-    "end": 2561.99,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "No",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-04-11-089",
-    "start": 2580.55,
     "end": 2581.28,
-    "speaker_raw": "SPEAKER_08",
-    "testo": "Musica Musica",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "No Musica Musica",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-04-11-090",
+    "id": "2017-04-11-086",
     "start": 2611.51,
     "end": 2698.06,
     "speaker_raw": "SPEAKER_00",
@@ -1034,16 +974,13 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": "",
-    "autore": "Michael Kiwanuka",
-    "confermato_esterno": true,
-    "copertina": "https://coverartarchive.org/release/dba9da94-c71f-4152-ab2d-a713a7afdd2f/front-250"
+    "video_url": ""
   },
   {
-    "id": "2017-04-11-091",
+    "id": "2017-04-11-087",
     "start": 2698.48,
     "end": 2701.27,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_03",
     "testo": "ha intenzione di seguire il consiglio?",
     "titolo": "",
     "tema": [],
@@ -1051,7 +988,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-11-092",
+    "id": "2017-04-11-088",
     "start": 2701.43,
     "end": 2719.62,
     "speaker_raw": "SPEAKER_00",

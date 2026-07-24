@@ -2,9 +2,9 @@
   {
     "id": "2017-04-04-000",
     "start": 50.98,
-    "end": 51.06,
-    "speaker_raw": "SPEAKER_13",
-    "testo": "Ciao",
+    "end": 136.46,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Ciao Grazie. ciao ciao Ciao!",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -12,39 +12,6 @@
   },
   {
     "id": "2017-04-04-001",
-    "start": 89.71,
-    "end": 89.93,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "Grazie.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-04-04-002",
-    "start": 105.5,
-    "end": 105.82,
-    "speaker_raw": "SPEAKER_13",
-    "testo": "ciao ciao",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-04-04-003",
-    "start": 136.24,
-    "end": 136.46,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "Ciao!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-04-04-004",
     "start": 168.18,
     "end": 222.61,
     "speaker_raw": "SPEAKER_01",
@@ -55,10 +22,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-04-005",
+    "id": "2017-04-04-002",
     "start": 224.71,
     "end": 242.66,
-    "speaker_raw": "SPEAKER_07",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Good morning life, good morning world, how are you happiness? All at once I knew what living had been. Oh, it's life, it's free, it's someone waiting for me, who'll someday be my wife. Good morning life.",
     "titolo": "",
     "tema": [],
@@ -66,7 +33,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-04-006",
+    "id": "2017-04-04-003",
     "start": 245.78,
     "end": 402.14,
     "speaker_raw": "SPEAKER_01",
@@ -77,7 +44,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-04-007",
+    "id": "2017-04-04-004",
     "start": 402.78,
     "end": 465.13,
     "speaker_raw": "SPEAKER_00",
@@ -88,7 +55,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-04-008",
+    "id": "2017-04-04-005",
     "start": 465.17,
     "end": 468.09,
     "speaker_raw": "SPEAKER_01",
@@ -98,12 +65,10 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": "",
-    "autore": "Little Walter",
-    "confermato_esterno": false
+    "video_url": ""
   },
   {
-    "id": "2017-04-04-009",
+    "id": "2017-04-04-006",
     "start": 470.87,
     "end": 606.09,
     "speaker_raw": "SPEAKER_00",
@@ -114,12 +79,10 @@
       "azione"
     ],
     "tipo": "riferimento_libro",
-    "video_url": "",
-    "autore": "Alejandro Jodorowsky",
-    "confermato_esterno": false
+    "video_url": ""
   },
   {
-    "id": "2017-04-04-010",
+    "id": "2017-04-04-007",
     "start": 607.58,
     "end": 615.69,
     "speaker_raw": "SPEAKER_01",
@@ -130,10 +93,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-04-011",
+    "id": "2017-04-04-008",
     "start": 629.23,
     "end": 687.0,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_04",
     "testo": "No, she's mine as I No, she's mine as I No, she's mine as I No, she's mine as I No, she's mine as I Came home this morning About half past four Found that no line on my floor Go away and leave you You just don't know Something did you say? Something did you say? no no no",
     "titolo": "",
     "tema": [],
@@ -141,7 +104,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-04-012",
+    "id": "2017-04-04-009",
     "start": 712.89,
     "end": 764.69,
     "speaker_raw": "SPEAKER_01",
@@ -152,7 +115,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-04-013",
+    "id": "2017-04-04-010",
     "start": 764.71,
     "end": 782.93,
     "speaker_raw": "SPEAKER_00",
@@ -166,7 +129,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-04-014",
+    "id": "2017-04-04-011",
     "start": 783.34,
     "end": 804.75,
     "speaker_raw": "SPEAKER_01",
@@ -180,7 +143,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-04-015",
+    "id": "2017-04-04-012",
     "start": 805.45,
     "end": 828.84,
     "speaker_raw": "SPEAKER_00",
@@ -191,7 +154,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-04-016",
+    "id": "2017-04-04-013",
     "start": 829.04,
     "end": 839.69,
     "speaker_raw": "SPEAKER_01",
@@ -202,10 +165,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-04-017",
+    "id": "2017-04-04-014",
     "start": 842.86,
     "end": 845.66,
-    "speaker_raw": "SPEAKER_02",
+    "speaker_raw": "SPEAKER_03",
     "testo": "oi oi eh beh pronto?",
     "titolo": "",
     "tema": [],
@@ -213,7 +176,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-04-018",
+    "id": "2017-04-04-015",
     "start": 845.8,
     "end": 907.65,
     "speaker_raw": "SPEAKER_01",
@@ -224,10 +187,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-04-019",
+    "id": "2017-04-04-016",
     "start": 908.88,
     "end": 910.32,
-    "speaker_raw": "SPEAKER_02",
+    "speaker_raw": "SPEAKER_03",
     "testo": "4 e 7 anni.",
     "titolo": "",
     "tema": [],
@@ -235,7 +198,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-04-020",
+    "id": "2017-04-04-017",
     "start": 910.34,
     "end": 919.16,
     "speaker_raw": "SPEAKER_01",
@@ -246,10 +209,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-04-021",
+    "id": "2017-04-04-018",
     "start": 919.62,
     "end": 920.78,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Massa, ti ricordi tutto.",
     "titolo": "",
     "tema": [],
@@ -257,7 +220,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-04-022",
+    "id": "2017-04-04-019",
     "start": 920.8,
     "end": 962.25,
     "speaker_raw": "SPEAKER_01",
@@ -268,7 +231,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-04-023",
+    "id": "2017-04-04-020",
     "start": 962.29,
     "end": 996.46,
     "speaker_raw": "SPEAKER_00",
@@ -279,7 +242,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-04-024",
+    "id": "2017-04-04-021",
     "start": 996.9,
     "end": 1000.31,
     "speaker_raw": "SPEAKER_01",
@@ -290,7 +253,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-04-025",
+    "id": "2017-04-04-022",
     "start": 1000.35,
     "end": 1006.77,
     "speaker_raw": "SPEAKER_00",
@@ -301,7 +264,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-04-026",
+    "id": "2017-04-04-023",
     "start": 1007.65,
     "end": 1045.11,
     "speaker_raw": "SPEAKER_01",
@@ -312,10 +275,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-04-027",
+    "id": "2017-04-04-024",
     "start": 1045.98,
     "end": 1049.6,
-    "speaker_raw": "SPEAKER_02",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Sì, sì, assolutamente. Trovo frustrazione. Esatto.",
     "titolo": "",
     "tema": [],
@@ -323,7 +286,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-04-028",
+    "id": "2017-04-04-025",
     "start": 1049.68,
     "end": 1052.84,
     "speaker_raw": "SPEAKER_01",
@@ -334,10 +297,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-04-029",
+    "id": "2017-04-04-026",
     "start": 1054.12,
     "end": 1059.5,
-    "speaker_raw": "SPEAKER_02",
+    "speaker_raw": "SPEAKER_03",
     "testo": "No, lo sai cosa di più? La cultura che ho intorno. Non ne posso più di tutto questo.",
     "titolo": "",
     "tema": [],
@@ -345,7 +308,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-04-030",
+    "id": "2017-04-04-027",
     "start": 1059.6,
     "end": 1061.82,
     "speaker_raw": "SPEAKER_00",
@@ -356,7 +319,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-04-031",
+    "id": "2017-04-04-028",
     "start": 1061.84,
     "end": 1062.96,
     "speaker_raw": "SPEAKER_01",
@@ -367,7 +330,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-04-032",
+    "id": "2017-04-04-029",
     "start": 1064.8,
     "end": 1075.43,
     "speaker_raw": "SPEAKER_00",
@@ -378,10 +341,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-04-033",
+    "id": "2017-04-04-030",
     "start": 1075.61,
     "end": 1079.22,
-    "speaker_raw": "SPEAKER_02",
+    "speaker_raw": "SPEAKER_03",
     "testo": "le responsabilità perché ho due figli e non ho un lavoro in Italia",
     "titolo": "",
     "tema": [],
@@ -389,7 +352,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-04-034",
+    "id": "2017-04-04-031",
     "start": 1079.84,
     "end": 1095.61,
     "speaker_raw": "SPEAKER_00",
@@ -400,10 +363,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-04-035",
+    "id": "2017-04-04-032",
     "start": 1096.57,
     "end": 1097.31,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Sì, sono in piedi.",
     "titolo": "",
     "tema": [],
@@ -411,7 +374,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-04-036",
+    "id": "2017-04-04-033",
     "start": 1097.35,
     "end": 1104.36,
     "speaker_raw": "SPEAKER_00",
@@ -422,7 +385,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-04-037",
+    "id": "2017-04-04-034",
     "start": 1104.4,
     "end": 1108.72,
     "speaker_raw": "SPEAKER_01",
@@ -433,7 +396,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-04-038",
+    "id": "2017-04-04-035",
     "start": 1108.78,
     "end": 1153.92,
     "speaker_raw": "SPEAKER_00",
@@ -444,7 +407,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-04-039",
+    "id": "2017-04-04-036",
     "start": 1153.94,
     "end": 1158.94,
     "speaker_raw": "SPEAKER_01",
@@ -455,7 +418,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-04-040",
+    "id": "2017-04-04-037",
     "start": 1159.0,
     "end": 1196.32,
     "speaker_raw": "SPEAKER_00",
@@ -466,7 +429,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-04-041",
+    "id": "2017-04-04-038",
     "start": 1196.86,
     "end": 1221.82,
     "speaker_raw": "SPEAKER_01",
@@ -477,10 +440,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-04-042",
+    "id": "2017-04-04-039",
     "start": 1222.22,
     "end": 1231.16,
-    "speaker_raw": "SPEAKER_02",
+    "speaker_raw": "SPEAKER_03",
     "testo": "esattamente mentre voi state parlando l'ho fatto e il mio corpo va in avanti su che domanda? sul tornare vado o non vado?",
     "titolo": "",
     "tema": [],
@@ -488,7 +451,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-04-043",
+    "id": "2017-04-04-040",
     "start": 1231.28,
     "end": 1290.83,
     "speaker_raw": "SPEAKER_01",
@@ -499,7 +462,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-04-044",
+    "id": "2017-04-04-041",
     "start": 1291.27,
     "end": 1318.77,
     "speaker_raw": "SPEAKER_00",
@@ -510,10 +473,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-04-045",
+    "id": "2017-04-04-042",
     "start": 1320.82,
     "end": 1475.15,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_04",
     "testo": "che poi torna e mi chiede un bonifico a fine mese I will fly swift and true straight to you like an arrow just to be where you lie meet my quest do my shambling best to be near you Grazie a tutti. do we start a new life yours and my speech on restless hearts they were meant to beat one time share one fate from this day Sto",
     "titolo": "",
     "tema": [],
@@ -521,7 +484,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-04-046",
+    "id": "2017-04-04-043",
     "start": 1512.26,
     "end": 1577.87,
     "speaker_raw": "SPEAKER_01",
@@ -532,10 +495,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-04-047",
+    "id": "2017-04-04-044",
     "start": 1584.24,
     "end": 1676.95,
-    "speaker_raw": "SPEAKER_09",
+    "speaker_raw": "SPEAKER_04",
     "testo": "e la tentazione di un'eterna novità e lasciare che la cura sia la musica la vita è così lunga da passare ma troppo breve per disordine e la sensazione di una nuova libertà e a pensare che il corpo guida l'anima la notte sta planando con dolcezza la cassa batte come il cuore L'istinto che ci muove, che ci fa",
     "titolo": "",
     "tema": [],
@@ -543,7 +506,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-04-048",
+    "id": "2017-04-04-045",
     "start": 1749.08,
     "end": 1830.85,
     "speaker_raw": "SPEAKER_01",
@@ -554,10 +517,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-04-049",
+    "id": "2017-04-04-046",
     "start": 1831.81,
     "end": 1861.8,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_02",
     "testo": "buongiorno Walter 45 anni buongiorno noi oggi si gioca si scherza ma insomma chi vuole può cogliere anche ad altri livelli ci dica la sua storia signor Walter ci dica addirittura niente no io sono un imprenditore mi sono diciamo professionalmente realizzato da quello che volevo nella vita non ho sempre cercato di essere spinto anche mia madre a cercare di realizzarmi qualcosa di più di quello che avevano fatto loro, della vita che avevano fatto loro.",
     "titolo": "",
     "tema": [],
@@ -565,7 +528,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-04-050",
+    "id": "2017-04-04-047",
     "start": 1862.0,
     "end": 1865.7,
     "speaker_raw": "SPEAKER_01",
@@ -576,10 +539,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-04-051",
+    "id": "2017-04-04-048",
     "start": 1866.33,
     "end": 1902.51,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Sì, io credevo fosse quello che mi avrebbe dato la felicità, che mi avrebbe dato la soddisfazione. Invece mi trovo adesso a 45 anni ad avere molti più soldi ovviamente di quanti ne avevo quando avevo 20 anni, però mi sono accorto. Mi sono accorto adesso che probabilmente non era la cosa che volevi fare. Il problema è che adesso prendere, tagliare tutto, mollare tutto, è difficile, ho una moglie ovviamente, quindi non è che posso buttare tutto quello che ho fatto per andarmi a aprire un chiosco ai craidi.",
     "titolo": "",
     "tema": [],
@@ -587,7 +550,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-04-052",
+    "id": "2017-04-04-049",
     "start": 1902.91,
     "end": 1938.6,
     "speaker_raw": "SPEAKER_01",
@@ -598,7 +561,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-04-053",
+    "id": "2017-04-04-050",
     "start": 1939.26,
     "end": 2005.76,
     "speaker_raw": "SPEAKER_00",
@@ -609,7 +572,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-04-054",
+    "id": "2017-04-04-051",
     "start": 2005.78,
     "end": 2026.25,
     "speaker_raw": "SPEAKER_01",
@@ -620,10 +583,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-04-055",
+    "id": "2017-04-04-052",
     "start": 2026.27,
     "end": 2054.87,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Guarda, ne ho cercate tante, ho provato in tante maniere a chiarirmi qualcosa di alternativo anche alla mia. Sai cos'è? Che io mi sono... la mia burra più grande è che io di non essere più in grado di farlo mi sono talmente concentrato in questa cosa in questi anni abituato a fare solo ed esclusivamente pensare solo ed esclusivamente a questo in ogni lavoro pensavo prima di andare a letto quando mi alzavo da letto mentre dormivo posso andare giù forte un attimo Walter vado sei forte ti sento ora ci sono un imprenditore allora",
     "titolo": "",
     "tema": [],
@@ -631,7 +594,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-04-056",
+    "id": "2017-04-04-053",
     "start": 2056.91,
     "end": 2104.89,
     "speaker_raw": "SPEAKER_00",
@@ -642,7 +605,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-04-057",
+    "id": "2017-04-04-054",
     "start": 2105.75,
     "end": 2111.65,
     "speaker_raw": "SPEAKER_01",
@@ -653,7 +616,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-04-058",
+    "id": "2017-04-04-055",
     "start": 2112.25,
     "end": 2123.99,
     "speaker_raw": "SPEAKER_00",
@@ -664,7 +627,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-04-059",
+    "id": "2017-04-04-056",
     "start": 2124.21,
     "end": 2164.81,
     "speaker_raw": "SPEAKER_01",
@@ -675,10 +638,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-04-060",
+    "id": "2017-04-04-057",
     "start": 2169.7,
     "end": 2291.8,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_04",
     "testo": "It's a little after midnight, there's a couple in the corner And I wonder what he said because she's crying And I guess they won't remember when they wake up in the morning With a headache from the whiskey and the wine I know that I've said things I regret when I'm sober Cause we always hurt the ones we love the most I messed up and I know it, if I hurt you girl I'm sorry But it's good to see the girl I used to know We could dance, but I can't dance Maybe we could stick to holding hands o dovremmo rinforzare il passato? se continuiamo a bevere non torneremo più in amore quindi sentite ciao ciao ciao ciao",
     "titolo": "",
     "tema": [],
@@ -686,7 +649,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-04-061",
+    "id": "2017-04-04-058",
     "start": 2345.21,
     "end": 2422.09,
     "speaker_raw": "SPEAKER_01",
@@ -697,7 +660,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-04-062",
+    "id": "2017-04-04-059",
     "start": 2422.61,
     "end": 2469.67,
     "speaker_raw": "SPEAKER_00",
@@ -708,7 +671,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-04-063",
+    "id": "2017-04-04-060",
     "start": 2469.79,
     "end": 2531.98,
     "speaker_raw": "SPEAKER_01",
@@ -719,7 +682,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-04-064",
+    "id": "2017-04-04-061",
     "start": 2532.08,
     "end": 2540.81,
     "speaker_raw": "SPEAKER_00",
@@ -730,7 +693,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-04-065",
+    "id": "2017-04-04-062",
     "start": 2541.61,
     "end": 2554.04,
     "speaker_raw": "SPEAKER_01",
@@ -744,7 +707,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-04-066",
+    "id": "2017-04-04-063",
     "start": 2554.06,
     "end": 2557.28,
     "speaker_raw": "SPEAKER_00",
@@ -755,7 +718,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-04-067",
+    "id": "2017-04-04-064",
     "start": 2557.3,
     "end": 2560.22,
     "speaker_raw": "SPEAKER_01",
@@ -766,7 +729,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-04-068",
+    "id": "2017-04-04-065",
     "start": 2561.09,
     "end": 2579.94,
     "speaker_raw": "SPEAKER_00",
@@ -777,7 +740,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-04-069",
+    "id": "2017-04-04-066",
     "start": 2580.92,
     "end": 2613.53,
     "speaker_raw": "SPEAKER_01",
@@ -788,29 +751,18 @@
     "video_url": ""
   },
   {
-    "id": "2017-04-04-070",
+    "id": "2017-04-04-067",
     "start": 2614.91,
-    "end": 2722.34,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "Down, down, down. Musica Musica You know we could put them all to shame Now isn't the time to play it safe Isn't this the reason why you came So baby don't you let it go to waste Are you down, down, down, down, down, down, down Down, down, down, down, down, down, down Every single thing is feeling right Started as a quiet Friday night Ciao Ciao Ciao",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-04-04-071",
-    "start": 2769.15,
     "end": 2769.25,
     "speaker_raw": "SPEAKER_05",
-    "testo": "Ciao!",
+    "testo": "Down, down, down. Musica Musica You know we could put them all to shame Now isn't the time to play it safe Isn't this the reason why you came So baby don't you let it go to waste Are you down, down, down, down, down, down, down Down, down, down, down, down, down, down Every single thing is feeling right Started as a quiet Friday night Ciao Ciao Ciao Ciao!",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-04-04-072",
+    "id": "2017-04-04-068",
     "start": 2781.07,
     "end": 2801.21,
     "speaker_raw": "SPEAKER_01",
@@ -821,12 +773,10 @@
       "carità"
     ],
     "tipo": "riferimento_libro",
-    "video_url": "",
-    "autore": "Stefano Benemeglio Comunale",
-    "confermato_esterno": false
+    "video_url": ""
   },
   {
-    "id": "2017-04-04-073",
+    "id": "2017-04-04-069",
     "start": 2801.23,
     "end": 2828.45,
     "speaker_raw": "SPEAKER_00",
@@ -836,12 +786,10 @@
       "emozioni"
     ],
     "tipo": "riferimento_libro",
-    "video_url": "",
-    "autore": "sua Teresa di Calcutta",
-    "confermato_esterno": false
+    "video_url": ""
   },
   {
-    "id": "2017-04-04-074",
+    "id": "2017-04-04-070",
     "start": 2831.94,
     "end": 2832.09,
     "speaker_raw": "SCONOSCIUTO",
