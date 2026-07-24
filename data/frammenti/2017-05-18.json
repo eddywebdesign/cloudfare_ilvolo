@@ -10,16 +10,14 @@
       "amore"
     ],
     "tipo": "riferimento_musica",
-    "video_url": "",
-    "autore": "Angus e Julia Stone",
-    "confermato_esterno": false
+    "video_url": ""
   },
   {
     "id": "2017-05-18-001",
     "start": 18.21,
-    "end": 84.64,
-    "speaker_raw": "SPEAKER_02",
-    "testo": "Eh? I wanna hold her, I wanna kiss her grazie a tutti Ciao!",
+    "end": 206.63,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Eh? I wanna hold her, I wanna kiss her grazie a tutti Ciao! Ciao! Gonna hold you, gonna kiss you in my arms Gonna take you away from home Gonna hold you, gonna kiss you in my arms Oh yeah!",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -27,39 +25,6 @@
   },
   {
     "id": "2017-05-18-002",
-    "start": 112.76,
-    "end": 112.86,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "Ciao!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-05-18-003",
-    "start": 153.97,
-    "end": 161.83,
-    "speaker_raw": "SPEAKER_02",
-    "testo": "Gonna hold you, gonna kiss you in my arms Gonna take you away from home Gonna hold you, gonna kiss you in my arms",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-05-18-004",
-    "start": 206.35,
-    "end": 206.63,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "Oh yeah!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-05-18-005",
     "start": 224.09,
     "end": 234.78,
     "speaker_raw": "SPEAKER_01",
@@ -70,10 +35,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-18-006",
+    "id": "2017-05-18-003",
     "start": 235.04,
     "end": 239.17,
-    "speaker_raw": "SPEAKER_05",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Ma perché ti scrivono se hanno dei problemi? Sei l'ultima persona che chiama.",
     "titolo": "",
     "tema": [],
@@ -81,7 +46,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-18-007",
+    "id": "2017-05-18-004",
     "start": 240.58,
     "end": 282.98,
     "speaker_raw": "SPEAKER_01",
@@ -94,10 +59,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-18-008",
+    "id": "2017-05-18-005",
     "start": 284.18,
     "end": 298.2,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_04",
     "testo": "non ti creerà dei problemi all'interno ma perché tanto sua madre vive in America lui anche quindi non sente niente ma è americano o italiano? No, lui è italiano, però vive in America ormai da 5-6 anni.",
     "titolo": "",
     "tema": [],
@@ -105,7 +70,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-18-009",
+    "id": "2017-05-18-006",
     "start": 298.22,
     "end": 300.28,
     "speaker_raw": "SPEAKER_01",
@@ -116,10 +81,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-18-010",
+    "id": "2017-05-18-007",
     "start": 300.62,
     "end": 303.5,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Sta a Newport, che è a un'ora da New York City.",
     "titolo": "",
     "tema": [],
@@ -127,7 +92,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-18-011",
+    "id": "2017-05-18-008",
     "start": 303.66,
     "end": 308.79,
     "speaker_raw": "SPEAKER_01",
@@ -138,10 +103,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-18-012",
+    "id": "2017-05-18-009",
     "start": 308.81,
     "end": 309.99,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Vai tranquillo. Vai tranquillo.",
     "titolo": "",
     "tema": [],
@@ -149,7 +114,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-18-013",
+    "id": "2017-05-18-010",
     "start": 310.07,
     "end": 318.73,
     "speaker_raw": "SPEAKER_01",
@@ -160,29 +125,18 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-18-014",
+    "id": "2017-05-18-011",
     "start": 318.75,
-    "end": 319.71,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Va bene, perfetto.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-05-18-015",
-    "start": 320.79,
     "end": 323.68,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "Che la farai? Che la farai? Una e...",
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Va bene, perfetto. Che la farai? Che la farai? Una e...",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-05-18-016",
+    "id": "2017-05-18-012",
     "start": 339.81,
     "end": 501.63,
     "speaker_raw": "SPEAKER_01",
@@ -193,10 +147,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-18-017",
+    "id": "2017-05-18-013",
     "start": 502.13,
     "end": 504.21,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Esatto, diglielo, diglielo allora.",
     "titolo": "",
     "tema": [],
@@ -204,7 +158,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-18-018",
+    "id": "2017-05-18-014",
     "start": 504.27,
     "end": 531.34,
     "speaker_raw": "SPEAKER_01",
@@ -215,10 +169,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-18-019",
+    "id": "2017-05-18-015",
     "start": 531.38,
     "end": 533.64,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_04",
     "testo": "abbiamo tutti e due 23 anni cioè a 23 anni gli devi dire mamma",
     "titolo": "",
     "tema": [],
@@ -226,7 +180,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-18-020",
+    "id": "2017-05-18-016",
     "start": 535.8,
     "end": 607.33,
     "speaker_raw": "SPEAKER_01",
@@ -237,10 +191,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-18-021",
+    "id": "2017-05-18-017",
     "start": 607.85,
     "end": 611.45,
-    "speaker_raw": "SPEAKER_05",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Fabio, ma che consiglio è? Vai dalla mamma, non c'è andare.",
     "titolo": "",
     "tema": [],
@@ -248,7 +202,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-18-022",
+    "id": "2017-05-18-018",
     "start": 611.49,
     "end": 613.23,
     "speaker_raw": "SPEAKER_01",
@@ -259,10 +213,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-18-023",
+    "id": "2017-05-18-019",
     "start": 613.25,
     "end": 622.34,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Ma Fabio, ma in realtà noi vogliamo sposarci il prossimo anno. Sì, vabbè, oh ragazzi, oh vabbè ragazzi, però... A distanza, c'erano grandi progetti.",
     "titolo": "",
     "tema": [],
@@ -270,7 +224,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-18-024",
+    "id": "2017-05-18-020",
     "start": 622.5,
     "end": 660.57,
     "speaker_raw": "SPEAKER_01",
@@ -281,51 +235,18 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-18-025",
+    "id": "2017-05-18-021",
     "start": 661.99,
-    "end": 662.15,
-    "speaker_raw": "SPEAKER_08",
-    "testo": "a presto",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-05-18-026",
-    "start": 696.88,
-    "end": 697.08,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "Ciao!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-05-18-027",
-    "start": 728.74,
-    "end": 729.58,
-    "speaker_raw": "SPEAKER_08",
-    "testo": "... ... ... ... ... ... ... ... ... ...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-05-18-028",
-    "start": 763.07,
     "end": 763.25,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "Grazie.",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "a presto Ciao! ... ... ... ... ... ... ... ... ... ... Grazie.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-05-18-029",
+    "id": "2017-05-18-022",
     "start": 793.05,
     "end": 793.25,
     "speaker_raw": "SPEAKER_00",
@@ -336,7 +257,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-18-030",
+    "id": "2017-05-18-023",
     "start": 804.83,
     "end": 805.01,
     "speaker_raw": "SCONOSCIUTO",
@@ -347,7 +268,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-18-031",
+    "id": "2017-05-18-024",
     "start": 834.55,
     "end": 834.67,
     "speaker_raw": "SPEAKER_00",
@@ -358,22 +279,11 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-18-032",
+    "id": "2017-05-18-025",
     "start": 851.79,
-    "end": 867.12,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "E Leonora, tutti gli ascoltatori del Volo del Mattino consigliano la tua singlitudine, cioè non si può infilarsi dentro in un ginepraio così.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-05-18-033",
-    "start": 869.2,
     "end": 889.8,
     "speaker_raw": "SPEAKER_01",
-    "testo": "Allora, allora, aspetta, aspetta, abbiamo delle cose importanti. Allora, abbiamo un ascoltatore che dice, io a 21 anni ho fatto piangere mia mamma, cioè la madre che ti ha portato. perché le ha detto che voleva andare in vacanza con i suoi amici e non con lei oh non vado a vivere in Kazakistan vado in vacanza due settimane ma poi ha 21 anni",
+    "testo": "E Leonora, tutti gli ascoltatori del Volo del Mattino consigliano la tua singlitudine, cioè non si può infilarsi dentro in un ginepraio così. Allora, allora, aspetta, aspetta, abbiamo delle cose importanti. Allora, abbiamo un ascoltatore che dice, io a 21 anni ho fatto piangere mia mamma, cioè la madre che ti ha portato. perché le ha detto che voleva andare in vacanza con i suoi amici e non con lei oh non vado a vivere in Kazakistan vado in vacanza due settimane ma poi ha 21 anni",
     "titolo": "vacanza senza mamma 21 anni",
     "tema": [
       "genitori",
@@ -383,10 +293,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-18-034",
+    "id": "2017-05-18-026",
     "start": 892.45,
     "end": 898.5,
-    "speaker_raw": "SPEAKER_05",
+    "speaker_raw": "SPEAKER_03",
     "testo": "non ci vediamo mai è l'unico momento che possiamo spendere insieme ok allora io avevo due fidanzati in passato dice un'ascoltatrice uno andava a lezione di tango con sua madre e poi dalla parrucchiera ce l'abbiamo il telefono pronto?",
     "titolo": "fidanzato tango parrucchiera",
     "tema": [
@@ -397,7 +307,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-18-035",
+    "id": "2017-05-18-027",
     "start": 898.52,
     "end": 923.76,
     "speaker_raw": "SPEAKER_01",
@@ -408,10 +318,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-18-036",
+    "id": "2017-05-18-028",
     "start": 924.36,
     "end": 925.1,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Sì, un po'.",
     "titolo": "",
     "tema": [],
@@ -419,7 +329,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-18-037",
+    "id": "2017-05-18-029",
     "start": 925.12,
     "end": 927.48,
     "speaker_raw": "SPEAKER_01",
@@ -430,10 +340,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-18-038",
+    "id": "2017-05-18-030",
     "start": 927.5,
     "end": 931.92,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Sì, e andava a lezione di tango con la mamma.",
     "titolo": "",
     "tema": [],
@@ -441,7 +351,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-18-039",
+    "id": "2017-05-18-031",
     "start": 931.96,
     "end": 934.82,
     "speaker_raw": "SPEAKER_01",
@@ -452,10 +362,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-18-040",
+    "id": "2017-05-18-032",
     "start": 936.14,
     "end": 938.36,
-    "speaker_raw": "SPEAKER_05",
+    "speaker_raw": "SPEAKER_03",
     "testo": "A lezione di tango, quindi facevano coppia.",
     "titolo": "",
     "tema": [],
@@ -463,7 +373,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-18-041",
+    "id": "2017-05-18-033",
     "start": 938.38,
     "end": 943.06,
     "speaker_raw": "SPEAKER_01",
@@ -474,10 +384,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-18-042",
+    "id": "2017-05-18-034",
     "start": 943.12,
     "end": 944.73,
-    "speaker_raw": "SPEAKER_05",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Ma poi il tango.",
     "titolo": "",
     "tema": [],
@@ -485,7 +395,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-18-043",
+    "id": "2017-05-18-035",
     "start": 944.95,
     "end": 952.87,
     "speaker_raw": "SPEAKER_01",
@@ -496,10 +406,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-18-044",
+    "id": "2017-05-18-036",
     "start": 952.95,
     "end": 955.35,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Il bucato tutte le settimane dalla mamma.",
     "titolo": "",
     "tema": [],
@@ -507,7 +417,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-18-045",
+    "id": "2017-05-18-037",
     "start": 955.77,
     "end": 957.25,
     "speaker_raw": "SPEAKER_01",
@@ -518,10 +428,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-18-046",
+    "id": "2017-05-18-038",
     "start": 958.39,
     "end": 962.35,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_04",
     "testo": "No. Con la trasferta? A qualche chilometro.",
     "titolo": "",
     "tema": [],
@@ -529,7 +439,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-18-047",
+    "id": "2017-05-18-039",
     "start": 963.3,
     "end": 970.46,
     "speaker_raw": "SPEAKER_01",
@@ -540,10 +450,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-18-048",
+    "id": "2017-05-18-040",
     "start": 972.1,
     "end": 972.74,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_04",
     "testo": "42, 43.",
     "titolo": "",
     "tema": [],
@@ -551,7 +461,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-18-049",
+    "id": "2017-05-18-041",
     "start": 973.0,
     "end": 1082.77,
     "speaker_raw": "SPEAKER_01",
@@ -562,10 +472,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-18-050",
+    "id": "2017-05-18-042",
     "start": 1082.93,
     "end": 1092.67,
-    "speaker_raw": "SPEAKER_05",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Giuseppe come persona? ma cazzo sono tutti degli dei lui va a segare le assi appunto lo prefai comunque c'è la Caterina mi sa che vabbè Caterina mo sei single?",
     "titolo": "",
     "tema": [],
@@ -573,7 +483,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-18-051",
+    "id": "2017-05-18-043",
     "start": 1093.39,
     "end": 1125.48,
     "speaker_raw": "SPEAKER_01",
@@ -584,10 +494,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-18-052",
+    "id": "2017-05-18-044",
     "start": 1135.61,
     "end": 1210.22,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_05",
     "testo": "No, mia. ciao ciao 15 minuti",
     "titolo": "",
     "tema": [],
@@ -595,7 +505,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-18-053",
+    "id": "2017-05-18-045",
     "start": 1252.6,
     "end": 1338.04,
     "speaker_raw": "SPEAKER_01",
@@ -606,10 +516,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-18-054",
+    "id": "2017-05-18-046",
     "start": 1338.54,
     "end": 1342.94,
-    "speaker_raw": "SPEAKER_07",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Ma è una santa donna la ragazza che sta con me perché mi supporta un po'.",
     "titolo": "",
     "tema": [],
@@ -617,7 +527,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-18-055",
+    "id": "2017-05-18-047",
     "start": 1344.5,
     "end": 1348.57,
     "speaker_raw": "SPEAKER_01",
@@ -628,10 +538,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-18-056",
+    "id": "2017-05-18-048",
     "start": 1349.81,
     "end": 1361.89,
-    "speaker_raw": "SPEAKER_07",
+    "speaker_raw": "SPEAKER_05",
     "testo": "I motivi sono perché io abito in un posto molto particolare, non patisco abitare in paese e allora rimango con i miei e poi il mio lavoro, anche un lavoro un po' particolare.",
     "titolo": "",
     "tema": [],
@@ -639,7 +549,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-18-057",
+    "id": "2017-05-18-049",
     "start": 1363.88,
     "end": 1410.84,
     "speaker_raw": "SPEAKER_01",
@@ -650,29 +560,18 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-18-058",
+    "id": "2017-05-18-050",
     "start": 1413.32,
-    "end": 1444.21,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "no ma ragazzi se vi leggessi i messaggi che sono arrivati oh oh yeah just stop your crying it's a sign of the times welcome to the final show I hope you're wearing your best clothes you can't bribe the door on your way to the sky ... ...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-05-18-059",
-    "start": 1476.58,
     "end": 1537.41,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "Grazie. Sì. Ciao!",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "no ma ragazzi se vi leggessi i messaggi che sono arrivati oh oh yeah just stop your crying it's a sign of the times welcome to the final show I hope you're wearing your best clothes you can't bribe the door on your way to the sky ... ... Grazie. Sì. Ciao!",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-05-18-060",
+    "id": "2017-05-18-051",
     "start": 1610.7,
     "end": 1722.33,
     "speaker_raw": "SPEAKER_01",
@@ -683,10 +582,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-18-061",
+    "id": "2017-05-18-052",
     "start": 1722.37,
     "end": 1755.91,
-    "speaker_raw": "SPEAKER_07",
+    "speaker_raw": "SPEAKER_05",
     "testo": "No, il convivere è veramente, hai ragione, non ti do torto, il problema è che è una situazione particolare noi vogliamo sapere cos'è sto particolare siamo curiosi come delle scimmie no che ho proprio un lavoro veramente che mi porta via 24 ore su 24 l'accomodità della casa e che arrivo a casa ma perché scusami la tua fidanzata vive in tenda? no però io certe volte finisco di lavorare a luna anche di notte prendi vieni giù vai giù nel paese quanto dista?",
     "titolo": "",
     "tema": [],
@@ -694,7 +593,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-18-062",
+    "id": "2017-05-18-053",
     "start": 1755.93,
     "end": 1805.53,
     "speaker_raw": "SPEAKER_01",
@@ -705,10 +604,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-18-063",
+    "id": "2017-05-18-054",
     "start": 1805.71,
     "end": 1816.98,
-    "speaker_raw": "SPEAKER_07",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Sì, ma di solito io sono anche da solo a casa mia, nel senso che i miei... Sì, non essere troppo rock, non essere troppo punk, che adesso fai colazione da solo, troppo rock and roll.",
     "titolo": "",
     "tema": [],
@@ -716,7 +615,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-18-064",
+    "id": "2017-05-18-055",
     "start": 1817.06,
     "end": 1853.88,
     "speaker_raw": "SPEAKER_01",
@@ -727,10 +626,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-18-065",
+    "id": "2017-05-18-056",
     "start": 1854.75,
     "end": 1878.51,
-    "speaker_raw": "SPEAKER_07",
+    "speaker_raw": "SPEAKER_05",
     "testo": "non lo so ti senti che hai paura di fare il salto no ma no c'hai i poster di Samantha Fox in cameretta e non la vuoi lasciare l'assurdo non sono la persona non sono mammone, non sono tutto questo il problema è che è proprio una comodità di... Fabio è andato via ciao Fabrizio",
     "titolo": "",
     "tema": [],
@@ -738,7 +637,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-18-066",
+    "id": "2017-05-18-057",
     "start": 1879.65,
     "end": 1939.7,
     "speaker_raw": "SPEAKER_01",
@@ -749,10 +648,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-18-067",
+    "id": "2017-05-18-058",
     "start": 1940.4,
     "end": 1953.67,
-    "speaker_raw": "SPEAKER_07",
+    "speaker_raw": "SPEAKER_05",
     "testo": "no i miei mi vogliono sbattere fuori ma hai pure quella sbattitura lì sono i miei che non mi vogliono più mi dicono vai via non ti hanno detto oh qual Nesquik con l'altra la mattina è finita anzi",
     "titolo": "",
     "tema": [],
@@ -760,7 +659,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-18-068",
+    "id": "2017-05-18-059",
     "start": 1953.99,
     "end": 1979.45,
     "speaker_raw": "SPEAKER_01",
@@ -771,10 +670,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-18-069",
+    "id": "2017-05-18-060",
     "start": 1981.29,
     "end": 2099.42,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Even when the dog is too old to bark And when you're sitting at the table trying not to stop A house is a home Even when we've up and gone Even when you're there alone house is a home even when there's ghosts even when you gotta run from the ones who love you most scream doors broken paints peeling from the wood locals whisper when they're gonna leave the neighborhood a house is a home even when we've up and gone even when you're there alone A house is a home where the chores are never done Where you spend your whole life running to and from And if the life that you live is not the life you choose Make your child a home and start anew",
     "titolo": "Even When the Grass Is Overgrown",
     "tema": [
@@ -782,12 +681,10 @@
       "solitudine"
     ],
     "tipo": "riferimento_musica",
-    "video_url": "",
-    "autore": "Ben Harper",
-    "confermato_esterno": false
+    "video_url": ""
   },
   {
-    "id": "2017-05-18-070",
+    "id": "2017-05-18-061",
     "start": 2100.68,
     "end": 2188.77,
     "speaker_raw": "SPEAKER_01",
@@ -798,10 +695,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-18-071",
+    "id": "2017-05-18-062",
     "start": 2188.79,
     "end": 2193.94,
-    "speaker_raw": "SPEAKER_05",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Quante ce ne saranno mai? Rovineranno una società intera come invece sta succedendo?",
     "titolo": "",
     "tema": [],
@@ -809,7 +706,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-18-072",
+    "id": "2017-05-18-063",
     "start": 2194.2,
     "end": 2208.25,
     "speaker_raw": "SPEAKER_01",
@@ -820,10 +717,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-18-073",
+    "id": "2017-05-18-064",
     "start": 2208.59,
     "end": 2208.87,
-    "speaker_raw": "SPEAKER_05",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Sì?",
     "titolo": "",
     "tema": [],
@@ -831,7 +728,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-18-074",
+    "id": "2017-05-18-065",
     "start": 2208.89,
     "end": 2210.9,
     "speaker_raw": "SPEAKER_01",
@@ -842,10 +739,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-18-075",
+    "id": "2017-05-18-066",
     "start": 2211.2,
     "end": 2213.82,
-    "speaker_raw": "SPEAKER_05",
+    "speaker_raw": "SPEAKER_03",
     "testo": "No, ma come si chiamava il ragazzo? Abrizio. Abrizio era contento.",
     "titolo": "",
     "tema": [],
@@ -853,7 +750,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-18-076",
+    "id": "2017-05-18-067",
     "start": 2213.84,
     "end": 2243.18,
     "speaker_raw": "SPEAKER_01",
@@ -864,10 +761,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-18-077",
+    "id": "2017-05-18-068",
     "start": 2243.2,
     "end": 2264.72,
-    "speaker_raw": "SPEAKER_05",
+    "speaker_raw": "SPEAKER_03",
     "testo": "quel rapporto che io ho con mia mamma è unico, è irripetibile e tutti lo sappiamo dopodiché uno si deve anche misurare su altre cose trovare la propria strada che poi mi immagino quest'orda di ragazzi anzi di uomini che partono col sacco blu dell'Ikea sulla spalla e escono da casa propria per arrivare a casa della mamma ok, ok",
     "titolo": "",
     "tema": [],
@@ -875,7 +772,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-18-078",
+    "id": "2017-05-18-069",
     "start": 2266.92,
     "end": 2292.43,
     "speaker_raw": "SPEAKER_01",
@@ -886,16 +783,13 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": "",
-    "autore": "Soundgarden",
-    "confermato_esterno": true,
-    "copertina": "https://coverartarchive.org/release/91edb199-b6e6-430d-87b7-6f85fd794939/front-250"
+    "video_url": ""
   },
   {
-    "id": "2017-05-18-079",
+    "id": "2017-05-18-070",
     "start": 2294.17,
     "end": 2298.36,
-    "speaker_raw": "SPEAKER_05",
+    "speaker_raw": "SPEAKER_03",
     "testo": "così abbiamo proprio chiuso no guarda ho lo stomaco stretto",
     "titolo": "",
     "tema": [],
@@ -903,10 +797,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-18-080",
+    "id": "2017-05-18-071",
     "start": 2309.91,
     "end": 2455.75,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Grazie a tutti. a presto Sì. no one seems like you anymore black hole sun won't you come wash away the rain black hole sun won't you come won't you come black hole sun won't you come I won't you come? I won't you come?",
     "titolo": "",
     "tema": [],
@@ -914,7 +808,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-18-081",
+    "id": "2017-05-18-072",
     "start": 2457.27,
     "end": 2458.27,
     "speaker_raw": "SCONOSCIUTO",
@@ -925,7 +819,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-18-082",
+    "id": "2017-05-18-073",
     "start": 2478.53,
     "end": 2568.68,
     "speaker_raw": "SPEAKER_01",

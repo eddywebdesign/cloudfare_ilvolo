@@ -2,9 +2,9 @@
   {
     "id": "2017-05-15-000",
     "start": 48.88,
-    "end": 143.19,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "grazie a tutti Ciao! Grazie a tutti. Grazie.",
+    "end": 49.38,
+    "speaker_raw": "SPEAKER_00",
+    "testo": "grazie a tutti",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -12,10 +12,10 @@
   },
   {
     "id": "2017-05-15-001",
-    "start": 188.94,
-    "end": 195.57,
-    "speaker_raw": "SPEAKER_08",
-    "testo": "Mi è entrato un incastro perfetto per la settimana prossima in questo momento. La vita è fatta di piccole cose.",
+    "start": 76.29,
+    "end": 143.19,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Ciao! Grazie a tutti. Grazie.",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -23,10 +23,10 @@
   },
   {
     "id": "2017-05-15-002",
-    "start": 195.87,
-    "end": 201.61,
-    "speaker_raw": "SPEAKER_10",
-    "testo": "L'esultanza che hai fatto. Ho fatto un yeah!",
+    "start": 188.94,
+    "end": 195.57,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Mi è entrato un incastro perfetto per la settimana prossima in questo momento. La vita è fatta di piccole cose.",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -34,10 +34,10 @@
   },
   {
     "id": "2017-05-15-003",
-    "start": 201.65,
-    "end": 223.32,
-    "speaker_raw": "SPEAKER_08",
-    "testo": "Come l'ha spiegato? No, no, sapete quelle cose tipo, lo so, ricevi un messaggio che poi ci vediamo martedì, no io non posso, prova mercoledì cerchi di spostare tutte le cose. Poi per una magia strana, frup, saltano fuori tutte e sei le facce del cubo di... Chi? Dettato. Di Kubrick, no? Del cubo di Rubik. Del cubo di Rubik. E dici, ma non me l'aspettavo. Quante facce facevi del cubo di Rubik?",
+    "start": 195.87,
+    "end": 201.61,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "L'esultanza che hai fatto. Ho fatto un yeah!",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -45,10 +45,10 @@
   },
   {
     "id": "2017-05-15-004",
-    "start": 223.38,
-    "end": 225.46,
-    "speaker_raw": "SPEAKER_10",
-    "testo": "Mai, niente, zero. Vabbè, una? No.",
+    "start": 201.65,
+    "end": 223.32,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Come l'ha spiegato? No, no, sapete quelle cose tipo, lo so, ricevi un messaggio che poi ci vediamo martedì, no io non posso, prova mercoledì cerchi di spostare tutte le cose. Poi per una magia strana, frup, saltano fuori tutte e sei le facce del cubo di... Chi? Dettato. Di Kubrick, no? Del cubo di Rubik. Del cubo di Rubik. E dici, ma non me l'aspettavo. Quante facce facevi del cubo di Rubik?",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -56,10 +56,10 @@
   },
   {
     "id": "2017-05-15-005",
-    "start": 225.48,
-    "end": 226.98,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "No, io neanche io, zero.",
+    "start": 223.38,
+    "end": 224.3,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Mai, niente, zero.",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -67,10 +67,10 @@
   },
   {
     "id": "2017-05-15-006",
-    "start": 227.32,
-    "end": 228.54,
-    "speaker_raw": "SPEAKER_10",
-    "testo": "Zero, zero. Ma neanche una?",
+    "start": 224.4,
+    "end": 225.02,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Vabbè, una?",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -78,10 +78,10 @@
   },
   {
     "id": "2017-05-15-007",
-    "start": 228.58,
+    "start": 225.12,
     "end": 231.1,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "No, no, mai riuscito a farne una. Io due.",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "No. No, io neanche io, zero. Zero, zero. Ma neanche una? No, no, mai riuscito a farne una. Io due.",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -90,9 +90,9 @@
   {
     "id": "2017-05-15-008",
     "start": 231.66,
-    "end": 233.05,
-    "speaker_raw": "SPEAKER_08",
-    "testo": "Però... No, però è un disastro.",
+    "end": 240.99,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Però... No, però è un disastro. Un cuore in mezzo. È una frustrazione due. Perché tu dici, ne ho fatte due, bene. Quando tu vai a costruire la terza, chi li la seconda o la prima, così...",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -100,31 +100,9 @@
   },
   {
     "id": "2017-05-15-009",
-    "start": 233.07,
-    "end": 233.67,
-    "speaker_raw": "SPEAKER_10",
-    "testo": "Un cuore in mezzo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-05-15-010",
-    "start": 233.69,
-    "end": 240.99,
-    "speaker_raw": "SPEAKER_08",
-    "testo": "È una frustrazione due. Perché tu dici, ne ho fatte due, bene. Quando tu vai a costruire la terza, chi li la seconda o la prima, così...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-05-15-011",
     "start": 241.17,
     "end": 243.75,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_05",
     "testo": "No, non ti devi affezionare alla facciata che hai appena completato.",
     "titolo": "",
     "tema": [],
@@ -132,10 +110,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-15-012",
+    "id": "2017-05-15-010",
     "start": 243.77,
     "end": 281.14,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_02",
     "testo": "No, guarda, non vorrei che fosse questo il tema. Volevo solo dirti una cosa, che ovviamente l'aveva comprata, era di mia sorella, non era mio. Dopo un po', non lo vedrai mai più rifatto, tranne se stacchi gli adesivi. L'abbiamo fatto a un certo punto. sì però quello è proprio da Bari no ma non dicendo l'abbiamo fatto l'abbiamo fatto per dire Arimus ripartiamo da zero e se ti ricordi i movimenti di quando lo disfi devi poi fargli al contrario un disastro vabbè non è questo il tema ragazzi poi fecero la piramide però fecero anche una piramide sempre con quel tema lì è di questo che vogliamo parlare oggi esatto",
     "titolo": "",
     "tema": [],
@@ -143,10 +121,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-15-013",
+    "id": "2017-05-15-011",
     "start": 282.24,
     "end": 287.96,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_05",
     "testo": "tutti pronti eh sulla piramide ce la farai ce la farai vedrai che ce la fai",
     "titolo": "",
     "tema": [],
@@ -154,32 +132,32 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-15-014",
+    "id": "2017-05-15-012",
     "start": 304.65,
-    "end": 321.1,
-    "speaker_raw": "SPEAKER_08",
-    "testo": "Saluto a Rudy Zerbi che ieri mentre faceva la radio io da casa gli mandavo i messaggi e lo disturbavo. Adesso ho iniziato la radio e lui mi manda i messaggi come vendetta. E l'ha scritto uno anche a me ieri, molto bello. Rudy Zerbi? Sì. Rudy Zerbi a che ora te l'ha mandato? Al pomeriggio. Ah ok.",
+    "end": 320.58,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Saluto a Rudy Zerbi che ieri mentre faceva la radio io da casa gli mandavo i messaggi e lo disturbavo. Adesso ho iniziato la radio e lui mi manda i messaggi come vendetta. E l'ha scritto uno anche a me ieri, molto bello. Rudy Zerbi? Sì. Rudy Zerbi a che ora te l'ha mandato? Al pomeriggio.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-05-15-015",
-    "start": 321.12,
+    "id": "2017-05-15-013",
+    "start": 320.66,
     "end": 325.3,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "Mi ha scritto sai cosa fa un'arancia quando non ha voglia di fare la spesa? Eh... Cosa?",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Ah ok. Mi ha scritto sai cosa fa un'arancia quando non ha voglia di fare la spesa? Eh... Cosa?",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-05-15-016",
+    "id": "2017-05-15-014",
     "start": 325.62,
     "end": 350.14,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Mandarino Ci potevamo arrivare Ci potevamo arrivare Bene ragazzi, allora Dopo aver detto la settimana scorsa Che l'Italia, abbiamo scoperto È il paese più vecchio d'Europa È il secondo più vecchio Nel mondo Ok? Il Giappone credo sia il primo posto Però loro Perché mangiano bene",
     "titolo": "",
     "tema": [],
@@ -187,10 +165,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-15-017",
+    "id": "2017-05-15-015",
     "start": 351.3,
     "end": 369.2,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_05",
     "testo": "La Nadia Toffa aveva fatto una bella inchiesta, era andata a Okinawa e aveva visto come mangiavano e che tipo di... Sushi sashimi, il segreto dell'eterna giovinezza, i sushi sashimi. In realtà sarebbe una dieta a base proprio di verdure, in particolare di verdure.",
     "titolo": "",
     "tema": [],
@@ -198,10 +176,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-15-018",
+    "id": "2017-05-15-016",
     "start": 369.2,
     "end": 432.13,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_02",
     "testo": "di verdure un po' di pesce come vanno le tue cose che non so come si chiamano gli onighiri dell'essie lunga l'essie lunga aspetta di dire dell'essie lunga che non si può no perché sono proprio quelli confezionati da loro perché ci sono solo lì no non credo però loro sono buoni l'alghetta fuori è quel triangolo immaginatevi una super vulva di riso dai è una vulva di riso è un triangolo È un triangolo. A cosa pensiamo noi? Secondo te alla precedenza? Scusate, attenzione, massi che cadono. È un triangolo con una striscetta nera. È vero, c'è la presina da sotto. C'è la presina di alga nera, quindi diciamo è una vulvetta di fine anni 90. In realtà quello dell'S lunga è tutto nero, cioè tutta nera. Anni settanta allora, è una vulbetta anni novanta perché a un certo punto le donne negli anni novanta quando hanno detto basta ragazzi via Branduardi da qua, via Cocciante, via quella roba lì così, le donne avendo a che fare con gli uomini che siamo dei rincogliorini così hanno detto",
     "titolo": "",
     "tema": [],
@@ -209,10 +187,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-15-019",
+    "id": "2017-05-15-017",
     "start": 432.77,
     "end": 453.27,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_05",
     "testo": "lasciamogli una pistina da terraggio perché sennò lui non capisce capito io ho conosciuto uomini che hanno fatto però posso dire non era questo il tema a questo punto se vogliamo può diventare questo parlavo nel weekend con un'amica e che mi diceva che in realtà adesso va di moda Harry no no",
     "titolo": "",
     "tema": [],
@@ -220,10 +198,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-15-020",
+    "id": "2017-05-15-018",
     "start": 454.01,
     "end": 504.45,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_02",
     "testo": "totalmente beh adesso no ho capito però io il landing strip no scusate ragazzi non ho sempre pensato che avesse ma come adesso sarà la quindiciata no ma nel Veneto già negli anni novanta ma la maggior parte delle donne sì ma stavamo parlando di alimentazione giapponese hai ragione hai ragione torniamo torniamo nei vino allora aspetta un attimo non si può iniziare un programma così no dai cosa vuoi mettere un altro pezzo ancora di Avener e ricominciare a capo no no no dopo l'ascoltatore ci dice sono già tre puntate che è iniziata e dite che non inizia bene andiamo avanti sugli onigiri onigiri è una poesia giapponese onigiri vabbè iniziamo con i dors che mettono d'accordo tutti scusate ho divagato sono rimasta sconvolta ma è madamo",
     "titolo": "",
     "tema": [],
@@ -231,21 +209,32 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-15-021",
+    "id": "2017-05-15-019",
     "start": 512.36,
-    "end": 575.82,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "Ciao, ciao. Grazie. Ciao!",
+    "end": 514.1,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Ciao, ciao.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-05-15-022",
+    "id": "2017-05-15-020",
+    "start": 547.37,
+    "end": 575.82,
+    "speaker_raw": "SPEAKER_00",
+    "testo": "Grazie. Ciao!",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2017-05-15-021",
     "start": 598.78,
     "end": 643.22,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_02",
     "testo": "siamo partiti un po' cattivi siamo partiti un po' così bellissimo 1968 vabbè non era questo il tema e non vogliamo buttarlo giù così abbiamo delle poesie e vogliamo anche fare una retrospettiva di Chekhov perché volevo spiegarvi l'importanza che hanno gli scrittori russi nella letteratura mondiale quando arrivano due grandi personalità era quello tre grandi personalità russe diciamo poi ce ne sono tantissime nel cinema arriva Majakowski nel senso che lui è un poeta però fa della critica al mondo del cinema molto importante poi abbiamo Chekhov che è molto importante Tolstoy e Dostoevsky ma potremmo andare avanti perché nella musica classica ovviamente porta Ma torniamo al discorso di prima. No, perché, scusami Viola, sei stata aggredita da tutti gli ascoltatori.",
     "titolo": "",
     "tema": [],
@@ -253,10 +242,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-15-023",
+    "id": "2017-05-15-022",
     "start": 643.24,
     "end": 644.66,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Quattro, l'ho letto adesso.",
     "titolo": "",
     "tema": [],
@@ -264,10 +253,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-15-024",
+    "id": "2017-05-15-023",
     "start": 644.74,
     "end": 650.81,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Sì, ma tu devi, è come l'auditel della TV. Quattro messaggi vuol dire che sono almeno duemila persone.",
     "titolo": "",
     "tema": [],
@@ -275,10 +264,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-15-025",
+    "id": "2017-05-15-024",
     "start": 650.83,
     "end": 665.02,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Ah, dici quelli che non hanno scritto ma che pensano la stessa cosa. No, perché è un sondaggio, il quattro. No, io sono rimasta sconvolta del fatto che la maggior parte delle donne... Ma no, perché io e le mie amiche trentenni siamo rimaste un po' così? Non possiamo fare questo tema. Ma totalmente...",
     "titolo": "",
     "tema": [],
@@ -286,10 +275,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-15-026",
+    "id": "2017-05-15-025",
     "start": 666.6,
     "end": 726.36,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_02",
     "testo": "ma c'è qualcosa di strano non lo so non può essere questo il tema cambiamo assolutamente discorso ok e cambiamo l'ascoltatrice che venerdì andava dal ginecologo giusto io avevo un tema bello ero preparata infatti fa schifo questo tema siamo finiti lì non so perché siamo finiti lì per gli onigiri sempre ma come fai tu Maurizio scusami dagli onigiri a passare alla vita sessuale è la primavera la primavera bussa la mattina Arimus fermi tutti tutto questo era iniziato per dire l'Italia è il paese più vecchio d'Europa e il secondo più vecchio al mondo il primo se non sbaglio sono i giapponesi a proposito Come mai? Quest'oggi c'è un bellissimo articolo sul Corriere della Sera che parla soprattutto di Siena, se non ho capito male.",
     "titolo": "",
     "tema": [],
@@ -297,10 +286,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-15-027",
+    "id": "2017-05-15-026",
     "start": 726.52,
     "end": 731.94,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Esatto, intanto si parla dei grandi anziani, che è una nuova categoria. Sono gli ultra novantenni.",
     "titolo": "",
     "tema": [],
@@ -308,10 +297,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-15-028",
+    "id": "2017-05-15-027",
     "start": 731.96,
     "end": 765.61,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Siccome in Italia siamo molto vecchi, adesso ci sono gli anziani e i grandi anziani. sapete che per esempio Rai 1 se non sbaglio la media del telespettatore di Rai 1 si aggira intorno ai 60 anni quindi vuol dire che se due di 30 anni per sbaglio mettono su Rai 1 un pomeriggio vuol dire che ne servono altri 5 da 90 comunque lì è stato fatto l'ultimo censimento nel 2011 e già da lì si vedeva che la città con il maggior numero di ultra novantenni era Siena",
     "titolo": "",
     "tema": [],
@@ -319,10 +308,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-15-029",
+    "id": "2017-05-15-028",
     "start": 766.35,
     "end": 794.76,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_05",
     "testo": "quindi sono andati quelli del Corriere a fare un'inchiesta lì proprio per capire quali sono le caratteristiche di questi grandi anziani senesi capito? e ci sono due cose in particolare uno è l'alto livello di istruzione perché pare che chi ha conseguito la laurea ha tre volte più possibilità di sopravvivere rispetto a chi ha la licenza elementare non solo, pensa che se tu vieni colpito da un problema diciamo al cervello che perdi la memoria",
     "titolo": "",
     "tema": [],
@@ -330,10 +319,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-15-030",
+    "id": "2017-05-15-029",
     "start": 795.44,
     "end": 822.79,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Se sei una persona colta, rallenta questo processo. Se sei una persona invece che ha pochi vocaboli e soprattutto con poche relazioni, che è questo uno dei temi, poche relazioni la memoria svanisce molto più velocemente. Tra l'altro, nelle varie ricerche anche mondiali che non c'entrano con quello, dicono che uno dei fattori della longevità, quella giapponese, no, della longevità, sono le relazioni. Cioè, ha lo stesso valore dell'alimentazione, ovviamente, delle...",
     "titolo": "",
     "tema": [],
@@ -341,10 +330,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-15-031",
+    "id": "2017-05-15-030",
     "start": 823.77,
     "end": 843.23,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_05",
     "testo": "in particolare su Siena la seconda caratteristica dei grandi anziani senesi è il fatto che hanno queste reti di reazioni molto strette non soltanto in famiglia non soltanto in città ma proprio a livello di contrade quindi insomma chiudersi dentro il contrario di quello che abbiamo sempre detto per anni apriamoci al mondo no chiudetevi nel vostro palazzo",
     "titolo": "",
     "tema": [],
@@ -352,10 +341,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-15-032",
+    "id": "2017-05-15-031",
     "start": 843.33,
     "end": 877.37,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_02",
     "testo": "non è chiudersi, è sostenersi a vicenda in modo molto intenso probabilmente è anche una cosa di identità sentirci parte di un gruppo però capisci che questo tema da portare avanti fino alle 10 è molto meno interessante dei nigiri e dei amisaki qua continuano ad arrivare mail non è vero sto continuando a fare refresh e non ci sono attacchi lavoro in sala parto non hai idea di quello che vedo per esempio dice un ascoltatrice ma non possiamo parlare di questo adesso mettiamo un bel disco loro sono bravissimi e dopo finalmente abbiamo finito di scherzare e parliamo della cosa di cui dobbiamo parlare oggi giusto",
     "titolo": "",
     "tema": [],
@@ -363,11 +352,22 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-15-033",
+    "id": "2017-05-15-032",
     "start": 885.06,
-    "end": 1020.65,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "... ... ... ... no no no the legends and the myths the testaments they told the moon and its eclipse and superman arose the suit before he lived but I'm not the kind of person that it fits she said where'd you wanna go ciao ciao Grazie a tutti",
+    "end": 906.62,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "... ... ... ... no no no",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2017-05-15-033",
+    "start": 961.76,
+    "end": 1034.9,
+    "speaker_raw": "SPEAKER_00",
+    "testo": "the legends and the myths the testaments they told the moon and its eclipse and superman arose the suit before he lived but I'm not the kind of person that it fits she said where'd you wanna go ciao ciao Grazie a tutti Ciao!",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -375,20 +375,9 @@
   },
   {
     "id": "2017-05-15-034",
-    "start": 1034.6,
-    "end": 1034.9,
-    "speaker_raw": "SPEAKER_05",
-    "testo": "Ciao!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-05-15-035",
     "start": 1093.31,
     "end": 1107.09,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Adesso, ovviamente, alcuni ascoltatori ci scrivono anche inutile che cercate di fare quelli intellettuali. Alla fine ci piacete così, sono le 9.20, stiamo andando al lavoro. Comunque voi ogni tanto delle perle le buttate lì, ma non deve essere la linea centrale del programma.",
     "titolo": "",
     "tema": [],
@@ -396,10 +385,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-15-036",
+    "id": "2017-05-15-035",
     "start": 1107.11,
     "end": 1108.29,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_05",
     "testo": "No, è alto e basso.",
     "titolo": "",
     "tema": [],
@@ -407,10 +396,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-15-037",
+    "id": "2017-05-15-036",
     "start": 1108.39,
     "end": 1237.56,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Ragazzi, alto e basso è la nostra strategia da tanti anni. Voglio dire una cosa semiseria, adesso noi ovviamente scherziamo, depilati, depilati è un tema così, lunedì mattina io di tutto vorrei parlare, meno ovviamente di questo, però si può fare un'analisi sociologica, attenzione, perché da queste cose, cioè dall'interno della vita così profonda, dove un intellettuale non ci arriverebbe mai, si possono fare degli esami profondi sul sociale perché raccontano i temi quando voi guardate per esempio i playboy è da quel punto di vista lì ma si raccontano tante cose ma la rivista dici? la rivista di playboy se tu la guardi da anni 70 raccontano il paese da un certo punto di vista raccontano la parte sociale sì allora questa cosa per esempio fa parte dell'emancipazione della donna adesso ovviamente è una piccola parte e non si può parlare di questo ma fa parte di un'emancipazione della donna tant'è che vi faccio fare un altro esempio quando si parla di sesso orale poi la butto lì così mettiamo una barzelletta in pubblicità aspetta non sto parlando di cose volgari se io ti dico il sesso orale della donna applicato all'uomo ci sono almeno 100 nomi in ogni città, in ogni paese, in ogni compagnia c'è un nome non te li sto a elencare perché non è carino se io ti dico di fare il contrario quello del maschio applicato alla femmina c'è solo quello latino sì, è vero perché siamo sofisticate perché siamo erudite no, perché quello lì era una sottomissione guarda che io ho letto in America un grandissimo testo di sociologia applicata alla sessualità e spiegava queste cose ok stai continuando a cercare di nobilitare è così tra l'altro adesso siccome dobbiamo nobilitare infatti leggeremo un sonetto di Shakespeare dopo volevo dirvi come lo chiamate nelle vostre città? no è finita prima di Shakespeare la vuoi la barzelletta? dai vecchietti questa è la scritta Shakespeare è stata tradotta in italiano mannaggia costumità mi fanno male tutte le ciotte siamo vecchi",
     "titolo": "",
     "tema": [],
@@ -418,10 +407,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-15-038",
+    "id": "2017-05-15-037",
     "start": 1238.39,
     "end": 1248.08,
-    "speaker_raw": "SPEAKER_09",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Siamo vecchi e così non si può vivere né con i figli né con la nuora. Aspettano solo che tu muoia e così mi son messo con una vedova.",
     "titolo": "sposarsi con una vedova",
     "tema": [
@@ -432,7 +421,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-15-039",
+    "id": "2017-05-15-038",
     "start": 1248.24,
     "end": 1250.35,
     "speaker_raw": "SPEAKER_01",
@@ -443,10 +432,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-15-040",
+    "id": "2017-05-15-039",
     "start": 1250.37,
     "end": 1250.85,
-    "speaker_raw": "SPEAKER_09",
+    "speaker_raw": "SPEAKER_03",
     "testo": "L'amore.",
     "titolo": "",
     "tema": [],
@@ -454,7 +443,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-15-041",
+    "id": "2017-05-15-040",
     "start": 1252.05,
     "end": 1290.04,
     "speaker_raw": "SPEAKER_01",
@@ -465,10 +454,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-15-042",
+    "id": "2017-05-15-041",
     "start": 1305.86,
     "end": 1309.52,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Quando mi dipartì da Circe e soffrasse me...",
     "titolo": "",
     "tema": [],
@@ -476,10 +465,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-15-043",
+    "id": "2017-05-15-042",
     "start": 1309.54,
     "end": 1311.34,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Troppo tardi, ormai hai aperto le labbra.",
     "titolo": "",
     "tema": [],
@@ -487,10 +476,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-15-044",
+    "id": "2017-05-15-043",
     "start": 1311.36,
     "end": 1319.2,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Ragazzi, ci state mandando dei messaggi che non vi possiamo chiamare e noi invece vorremmo parlare con degli ascoltatori stavattina. Ma mai vi siete infissati con questa cosa?",
     "titolo": "",
     "tema": [],
@@ -498,10 +487,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-15-045",
+    "id": "2017-05-15-044",
     "start": 1319.22,
     "end": 1320.66,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Ma è colpa tua.",
     "titolo": "",
     "tema": [],
@@ -509,10 +498,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-15-046",
+    "id": "2017-05-15-045",
     "start": 1320.7,
     "end": 1330.4,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Allora, parliamo di sushi e sashimi. Torniamo indietro. Vi piace il sushi? Non lo so. Sushi e sashimi. Però ormai uno pensa sempre a quella cosa e fa ancora più schifo. Mannaggia.",
     "titolo": "",
     "tema": [],
@@ -520,10 +509,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-15-047",
+    "id": "2017-05-15-046",
     "start": 1343.23,
     "end": 1510.95,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_05",
     "testo": "che ora devo fare mentre te ne vai, sento il cuore naufragare, volevo solo te. a metà chiunque incontrerò io cercherò sempre un po' di te seguo i pensieri che fai dove andrai già lo sai metà",
     "titolo": "",
     "tema": [],
@@ -531,10 +520,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-15-048",
+    "id": "2017-05-15-047",
     "start": 1519.5,
     "end": 1525.16,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_02",
     "testo": "un ragazzo che ha un estro si chiama Tiro Mancino dove tutto è a metà perché?",
     "titolo": "",
     "tema": [],
@@ -542,10 +531,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-15-049",
+    "id": "2017-05-15-048",
     "start": 1525.5,
     "end": 1526.12,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_05",
     "testo": "un estro?",
     "titolo": "",
     "tema": [],
@@ -553,10 +542,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-15-050",
+    "id": "2017-05-15-049",
     "start": 1526.24,
     "end": 1657.47,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_02",
     "testo": "estro Mancino scusate ma c'è Rudy Zerbi che ancora mi manda i messaggi al disturbatore mi fa il disturbatore con queste barzellette qua io ovviamente oggi con le barzellette non siamo tanto no non dobbiamo raccontare le barzellette scusami un ricordo ce l'hai già Corrado un attimo? Corrado? Corrado? no c'è Cristina Corrado si capisce ma è niente però quando si sente la parola scusa l'indisponenza Corrado ok scusami aspetta un secondo Maurizio quando uno dice Corrado mi metti mi metti coso lì al pranzo è servito che mi piace come musica secondo me lui non è nel mood Corrado quanti anni hai? un centinaio oggi sei giù? no perché? come mai c'è sto ritardo? da dove chiami con sto ritardo? un tabù sorfizio quindi è nella tua testa questo ritardo allora aspetta abbiamo abbiamo Corrado grazie Quanto era bello il pollo che usciva, madonna, ho capito Corrado che mi piaceva il pollo da bambino perché io speravo che uscisse sempre il pollo, lo spaghetto, il formaggio non mi dava la soddisfazione della frutta, ma quando usciva il pollo, ok, ma guarda un pollo. ha buttato giù Corrado ha buttato giù perché Corrado ha scritto scusate ma l'ultima barzelletta messa da Maurizio non mi ha fatto ridere forse è iniziato Mario la settimana allora l'abbiamo chiamato per capire che cosa aveva e abbiamo cazzeggiato adesso e ci ha buttato giù era un po' passive aggressive Corrado fa niente abbiamo Cristina buongiorno Cristina buongiorno buongiorno vedi una invece coinvolta lo diciamo per gli ascoltatori Cristina è la ragazza che venerdì aveva un problema ha detto il mio vicino di casa che lei invece ha sì cioè un vecchietto col cane fa la pipì fa fare la pipì sulle serranze",
     "titolo": "",
     "tema": [],
@@ -564,10 +553,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-15-051",
+    "id": "2017-05-15-050",
     "start": 1658.47,
     "end": 1662.27,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_05",
     "testo": "dei garage la soluzione ti ricordi qual era?",
     "titolo": "",
     "tema": [],
@@ -575,10 +564,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-15-052",
+    "id": "2017-05-15-051",
     "start": 1662.71,
     "end": 1743.12,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_02",
     "testo": "con le bottiglie di plastica Cristina abbiamo la soluzione grazie agli ascoltatori del volo del mattino allora se tu metti una bottiglia di plastica con dentro l'acqua fai così, comprati una bottiglia di plastica beviti quella lì e metti dentro quella del rubinetto e la metti lì dove è il tuo garage per qualche strano motivo pare che i cani non facciano la pipì prova ti dico che qua dove c'è il fiorista qua in via Melzi de Rille c'è il fiorista, sai quei baracchini di tipo l'edicola così lei ha tutte delle bottiglie di acqua io pensavo che fossero sempre per i fiori invece pare che dove c'è la bottiglia di acqua il cane non fa la pipì magari la fa il vecchietto a questo punto quando vede l'acqua gli viene e gli dice oh l'acqua e la fa lui lo sai che una volta l'avevamo anche detto una volta in radio quando quando ero giovane che viaggiavo da solo in giro per il mondo un poraccio così una volta in Messico mi ricordo che c'erano dei sacchetti di plastica con dentro l'acqua appesi sulle piante come delle mele però erano fatti così e mi diceva il messicano che tengono lontano le zanzare quindi anche i cani quelli alti l'acqua stagnante tiene lontano le zanzare allora io ho chiesto perché sai che io non mi come i bambini perché? perché? perché?",
     "titolo": "",
     "tema": [],
@@ -586,7 +575,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-15-053",
+    "id": "2017-05-15-052",
     "start": 1743.2,
     "end": 1743.38,
     "speaker_raw": "SCONOSCIUTO",
@@ -597,10 +586,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-15-054",
+    "id": "2017-05-15-053",
     "start": 1744.1,
     "end": 1802.45,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Ha cercato di dirmi che è il moschito, ok, secondo la teoria di questo ragazzo messicano, allora, a parte i cani, lui diceva, perché la zanzara, ho riso che è dovuto per un anno, la zanzara quando si avvicina al sacchetto, l'acqua, come dire, dilata l'immagine, allarga l'immagine, lui vede gli occhioni giganti di se stesso. Va! ma chiediamo al prof giovedì Cristina quindi la zanzara vede sto sacchetto e dice vado a bere quando sta vicino va perché vede il suo riflesso con gli occhioni giganteschi e torna indietro però lei aveva un altro contenuto ah tra l'altro scusami esatto tu avevi scritto sto messaggio il mio vicino di casa fa il cane punto, oggi vado al ginecologo che non avevamo capito non avevamo capito l'associazione sei andata al ginecologo? sono andata questo è il tema che mi può interessare ti ricordi che aveva l'effetto sorpresa era un uomo o una donna Cristina?",
     "titolo": "",
     "tema": [],
@@ -608,10 +597,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-15-055",
+    "id": "2017-05-15-054",
     "start": 1802.95,
     "end": 1810.93,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_05",
     "testo": "era un uomo peloso bello ma peloso ovunque praticamente le vestiti che ci vanno sul tetto le malte vabbè",
     "titolo": "",
     "tema": [],
@@ -619,10 +608,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-15-056",
+    "id": "2017-05-15-055",
     "start": 1812.71,
     "end": 1835.07,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_02",
     "testo": "magari ti ascolta in questo momento sono quelli che sono quelli che hanno dal petto alla barba è un pezzo unico e quindi quando si fa la barba tirano dritto qua sopra cioè fanno la riga all'altezza delle spalle sotto i plaid ma lo sai che io Cristina ho avuto un ginecologo che",
     "titolo": "",
     "tema": [],
@@ -630,10 +619,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-15-057",
+    "id": "2017-05-15-056",
     "start": 1836.47,
     "end": 1843.08,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Era super peloso, il petto super peloso e teneva il camice direttamente sul torso nudo.",
     "titolo": "",
     "tema": [],
@@ -641,10 +630,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-15-058",
+    "id": "2017-05-15-057",
     "start": 1843.1,
     "end": 1872.62,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Guarda che lui l'ha fatto. Cioè non aveva la maglietta. Madonna. Ci sono donne che impazziscono per l'uomo rasato a zero, scoperto, quello proprio con la lametta, tipo Mauro così, e per gli uomini pelosi sul petto così. Sì, ho capito. ma un medico con il camice chiuso direttamente sul pelo ma ti denuncio dai no perché lo agevola nel suo lavoro cioè riesce a muoversi in maniera più scusami Cristina quindi con queste ditone con sopra dei tappetini della Fiat Uno sulle falangi tutto a posto comunque lì?",
     "titolo": "",
     "tema": [],
@@ -652,10 +641,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-15-059",
+    "id": "2017-05-15-058",
     "start": 1872.72,
     "end": 1895.45,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_05",
     "testo": "no grazie tutto a posto perché sì sì sì ha fatto anche un fermo immagine che mi ha fatto vedere la tua parte come si è arredata dentro esatto ma la cosa carina che mi fa è un'immagine bellissima che di solito si vede soltanto sui libri di scuola hai un bel monolocale un bella stanzetta",
     "titolo": "",
     "tema": [],
@@ -663,10 +652,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-15-060",
+    "id": "2017-05-15-059",
     "start": 1896.44,
     "end": 1910.71,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_02",
     "testo": "ho fatto morire va dentro con la telecamerina certo non è che per caso hai ritrovato uno swatch scuba che lo sto cercando ragazzi l'ho cercato ovunque non lo trovo adesso tutte le volte io chiedo in giro",
     "titolo": "",
     "tema": [],
@@ -674,10 +663,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-15-061",
+    "id": "2017-05-15-060",
     "start": 1911.35,
     "end": 1925.68,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_05",
     "testo": "era uno scuba la cosa sciccosissima è che praticamente le staffe dove appoggi le gambe non sono più di ferro quindi gelate ma sono in plastica quindi non c'è più l'effetto freddo capito?",
     "titolo": "",
     "tema": [],
@@ -685,10 +674,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-15-062",
+    "id": "2017-05-15-061",
     "start": 1925.86,
     "end": 1943.03,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_02",
     "testo": "in peluche come le manette quelle di Rosa in velluto Va bene, abbiamo parlato di cose importanti. Comunque, Cristina, quando rivai con la telecamerina così, se trovi uno swatch scuba rosso, è mio. Mia mamma dice che non lo trova. Ok? Va bene. Lo cerco ovunque. Ciao, ciao, ciao, ciao.",
     "titolo": "",
     "tema": [],
@@ -696,10 +685,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-15-063",
+    "id": "2017-05-15-062",
     "start": 1943.07,
     "end": 1944.87,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Ciao, ciao, ciao.",
     "titolo": "",
     "tema": [],
@@ -707,10 +696,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-15-064",
+    "id": "2017-05-15-063",
     "start": 1944.91,
     "end": 1946.39,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Girava anche la ghiera.",
     "titolo": "",
     "tema": [],
@@ -718,10 +707,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-15-065",
+    "id": "2017-05-15-064",
     "start": 1946.49,
     "end": 1948.13,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Sì, è vero. Ah, bello.",
     "titolo": "",
     "tema": [],
@@ -729,10 +718,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-15-066",
+    "id": "2017-05-15-065",
     "start": 1948.17,
     "end": 1951.64,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Te lo ricordi? L'ho perso. Non so dov'è.",
     "titolo": "",
     "tema": [],
@@ -740,10 +729,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-15-067",
+    "id": "2017-05-15-066",
     "start": 1951.68,
     "end": 1952.96,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Ma waterproof, quindi.",
     "titolo": "",
     "tema": [],
@@ -751,10 +740,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-15-068",
+    "id": "2017-05-15-067",
     "start": 1953.08,
     "end": 1955.74,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Eh sì, certo. Annaggia. No, Cristina se ne sarebbe ancora.",
     "titolo": "",
     "tema": [],
@@ -762,10 +751,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-15-069",
+    "id": "2017-05-15-068",
     "start": 1955.76,
     "end": 1956.38,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_05",
     "testo": "No, smettilo.",
     "titolo": "",
     "tema": [],
@@ -773,32 +762,21 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-15-070",
+    "id": "2017-05-15-069",
     "start": 1992.55,
-    "end": 1992.69,
-    "speaker_raw": "SPEAKER_00",
-    "testo": "Ciao!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-05-15-071",
-    "start": 2066.48,
     "end": 2067.22,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "Grazie a tutti.",
+    "speaker_raw": "SPEAKER_00",
+    "testo": "Ciao! Grazie a tutti.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-05-15-072",
+    "id": "2017-05-15-070",
     "start": 2111.36,
     "end": 2113.1,
-    "speaker_raw": "SPEAKER_02",
+    "speaker_raw": "SPEAKER_05",
     "testo": "grazie a tutti",
     "titolo": "",
     "tema": [],
@@ -806,10 +784,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-15-073",
+    "id": "2017-05-15-071",
     "start": 2118.95,
     "end": 2246.7,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Secondo i nostri ascoltatori, che non manchiamo mai l'occasione di ricordare che sono più preparati di noi, dicono che la cosa che mi aveva detto questo messicano, questo ragazzino di questo bar, dove appunto erano appesi a delle piante, dei sacchettini di acqua, sacchettini trasparenti, tipo quelli del frigorifero, del freezer per tenere gli alimenti così, pare che sia vero perché pare che anche il cane non faccia la pipì perché si vede riflesso ma a me sembra strano che il cane ha paura del suo riflesso e non fa la pipì comunque ascoltatori dicono che è l'effetto riflesso specchio riflesso la bottiglia fa specchio riflesso come fanno le zanzare messicane quando arrivano è più fastidioso del trappolo del dentista il suono della zanzara per ora non se ne sono viste io Anna mi sfotte perché quando una zanzara è nella stanza io se la sento che mi rischiano ancora sveglio io non mi addormento finché non ho acceso la luce e l'ho distrutta non riesco a quindi io sono di quelli lì che a fine agosto hanno il muro pieno di sangue con qualsiasi cosa c'è no però per adesso siamo coperti una volta avevo Sebastian in mano l'ho lanciato contro il muro l'ho preso per le gambe qui sul petto così a catapulta e col culo ho fatto tenendolo per le gambe va bene pare che anche le mosche non solo le zanzare la mosca quando le vedi da vicino nei documentari così c'ha quegli occhioni con la grata lei si dovrebbe spaventare comunque io per sicurezza chiederei a Cinelli chiediamo al professore lo sa professore lo sa sono cose che sa? no non lo so il professore sa tutto c'è un'ascoltatrice che anche scrive che oggi è una brutta giornata però scrive una cosa molto pesante che noi ovviamente non leggeremo quindi tu hai tutto il nostro affetto ovviamente l'affetto dei nostri ascoltatori ci fa una richiesta questa ascoltatrice noi a questa ascoltatrice rompiamo le regole se poi dopo devo andare giù a litigare col capo non c'è problema per te io mi immolo cosa stai per fare? Ha chiesto di mettere una canzone almeno 20 secondi, noi siccome dura poco te la mettiamo tutta, ok?",
     "titolo": "",
     "tema": [],
@@ -817,11 +795,33 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-15-074",
+    "id": "2017-05-15-072",
     "start": 2246.88,
+    "end": 2252.81,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "E tanto fa piacere a tutti questo.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2017-05-15-073",
+    "start": 2260.3,
+    "end": 2277.21,
+    "speaker_raw": "SPEAKER_00",
+    "testo": "So please, please, please Let me, let me, let me Let me get what I want this time Haven't had a dream in a long time See the life I've had",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2017-05-15-074",
+    "start": 2289.56,
     "end": 2289.78,
-    "speaker_raw": "SPEAKER_14",
-    "testo": "E tanto fa piacere a tutti questo. So please, please, please Let me, let me, let me Let me get what I want this time Haven't had a dream in a long time See the life I've had ... ... ...",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "... ... ...",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -842,7 +842,7 @@
     "id": "2017-05-15-076",
     "start": 2347.89,
     "end": 2395.06,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_02",
     "testo": "grazie all'ascoltatrice ma che problema aveva? non si può dire non è che te lo sei inventato per mettere questa canzone ho fatto tutto questo giro adesso mi trovo delle scuse per mettere dei dischi Alessandra un'ascoltatrice dice io pensavo che le bottiglie fossero proprio perché fanno la pipì cani e quindi è già lì la bottiglia per pulire Guarda che è intelligente come pensiero Ha ragione Tu dici siccome so che farai la pipì Io già ti lascio il bidet Diciamo portatile Un altro ascoltatore Dice Non accendere Non accendere la luce Per uccidere la zanzara Basta che spippotti sul cellulare E lei viene attratta lì Proprio è lei che viene sul tuo telefono Ok",
     "titolo": "",
     "tema": [],
@@ -853,7 +853,7 @@
     "id": "2017-05-15-077",
     "start": 2395.54,
     "end": 2411.71,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_05",
     "testo": "a quel punto c'è un'app che rilascia delle scariche elettriche c'è un'app che fa l'ultrasuono però non dormi te perché c'hai quel fischio ma non si sente l'ultrasuono per alcuni è impercettibile tu lo senti come i cani?",
     "titolo": "",
     "tema": [],
@@ -864,7 +864,7 @@
     "id": "2017-05-15-078",
     "start": 2412.77,
     "end": 2458.01,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_02",
     "testo": "io una volta mi è caduto un mattone ero a piedi nudi in Puglia quindi mi è caduto un mattone sull'alluce del piede ho fatto un grido tipo ahhh sono andato su così tanto a un certo punto non si sentiva come i bambini che sembra che stanno morendo non si sentiva nessun suono c'era solo la mia faccia 5 minuti sono arrivati i 25 del quartiere lo sapevo che stavi andando a fare tutti i cani del quartiere sono venuti lì ragazzi un'ascoltatrice dice anche non ho capito il tema del giorno ora dopo questa canzone sexy questa è proprio sexy questa è proprio da tira dentro la pancia e passa la mano tra la cintura senti che pezzo tira dentro",
     "titolo": "",
     "tema": [],
@@ -875,7 +875,7 @@
     "id": "2017-05-15-079",
     "start": 2466.84,
     "end": 2582.5,
-    "speaker_raw": "SPEAKER_15",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Plans in my soul of addiction for now cause I'm falling apart Tension between us just like big defenses You got issues that I won't mention for now cause we're falling apart no no no no no Ciao Ciao Ciao Ciao",
     "titolo": "",
     "tema": [],
@@ -886,7 +886,7 @@
     "id": "2017-05-15-080",
     "start": 2595.4,
     "end": 2671.2,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_02",
     "testo": "io mi vedo sempre lì al boom boom che ballo questa canzone al boom boom si chiama boom boom è un locale molto bello è un locale molto bello su un grattacielo di New York dove è tutto vetro e quindi quando tu balli e bevi con le altre persone attorno a te a 360 quanti gradi sono? ma stai continuando a menarti no con questi vedi tutta manatta l'illuminata vabbè è una cosa che fanno entrare solo me basta andare lì no no te la stai menando un cup di champagne un cup un cup sto scherzando scusate ragazzi la volta nella vita vi sarà successo anche voi di aver fatto dei periodi dobbiamo chiudere vabbè ma fammi dire una cosa aspetta la dico velocissima non c'è come la pubblicità avete fatto delle cose magari per un periodo per una settimana o per un giorno non avete capito esattamente qual era il senso di quella cosa poi dopo con il tempo girandosi oggi per esempio noi abbiamo fatto questa puntata che sembrerebbe che non avrebbe capito? sembrerebbe sembrerebbe sembrerebbe senza senso e invece poi un'ascoltatrice un ascoltatore manda un messaggio e tu capisci subito quello che dice ok alla pagina ok e dice dopo la puntata di oggi le cuffie d'oro sono già appese nella cameretta di Sebastian giusto yeah golden cuffia ciao a domani",
     "titolo": "",
     "tema": [],
