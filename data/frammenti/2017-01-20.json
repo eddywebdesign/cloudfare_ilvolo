@@ -3,7 +3,7 @@
     "id": "2017-01-20-000",
     "start": 10.02,
     "end": 10.18,
-    "speaker_raw": "SPEAKER_09",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Grazie.",
     "titolo": "",
     "tema": [],
@@ -13,9 +13,9 @@
   {
     "id": "2017-01-20-001",
     "start": 61.79,
-    "end": 155.75,
-    "speaker_raw": "SPEAKER_10",
-    "testo": "where the moon glows in your hair and the rain falls down on a ground that's cold and bare dripping from the clouds where I sing because I care till my lungs fall out I'm asleep but well aware Word is out, there's a love, there's a sense of direction in the matter that keeps us apart. There's a light coming out. Ciao! Buon venerdì a tutti.",
+    "end": 88.23,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Where the moon glows in your hair And the rain falls down On a ground that's cold and bare Dripping from the clouds Where I sing because I care So my lungs fall out I'm asleep but well aware",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -23,10 +23,10 @@
   },
   {
     "id": "2017-01-20-002",
-    "start": 177.24,
-    "end": 292.49,
-    "speaker_raw": "SPEAKER_01",
-    "testo": "è bello questo scricchiolamento delle pagine dei giornali buongiorno a tutti sono le 9.05 sta per cominciare il volo del mattino la squadra è già tutta pronta al centralino c'è la Stefi con Andrea e Michele una scatola di cioccolatini quindi li abbiamo persi poi abbiamo Maurizio, Viola e Giulia perché qui qualcuno non si ricordava neanche il nome di sta povera ragazza solo perché è appena arrivata Poi non è appena arrivata, sono mesi, è mesi. No, è appena arrivata qui con noi al mattino, di solito fa il weekend, vedi che non sai niente. Allora, tu devi fare come faccio io, quando viene uno a lavorare, ti prendi il curriculum, te lo studi, cerchi di capire che musica ascolta, cosa ti piace, poi porti un mazzo di felice, benvenuta nella grande famiglia di radio DJ, so che preferisci il fondente, ti ho portato una tavoletta di fondente. come hai fatto a me quando sono arrivata anche a me vedi e infatti tu sai che vai in giro a dire che bella persona che è esatto Allora... Volevo, e poi non voglio ammorbar nessuno, però voglio fare un saluto indirizzato, non un articolo indeterminativo, ma determinativo, una cosa indirizzato. A tutte quelle persone, a quei genitori, che la notte non hanno, come la maggior parte delle persone, un periodo di silenzio dove tutti dormono, ma ci sono delle famiglie dove la notte comunque di movimento c'è, un bambino viene nel letto, l'altro vomita, uno va via. Ecco, quelle situazioni lì dove la notte non è più un momento di la pace dopo la tempesta.",
+    "start": 90.18,
+    "end": 103.56,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Word is out, there's a love, there's a sense of direction in the matter that keeps us apart. There's a light coming out. Ciao.",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -34,10 +34,10 @@
   },
   {
     "id": "2017-01-20-003",
-    "start": 293.03,
-    "end": 294.35,
-    "speaker_raw": "SPEAKER_05",
-    "testo": "Ok, saranno tanti, penso.",
+    "start": 154.71,
+    "end": 155.75,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Buon venerdì a tutti.",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -45,8 +45,74 @@
   },
   {
     "id": "2017-01-20-004",
+    "start": 177.24,
+    "end": 228.92,
+    "speaker_raw": "SPEAKER_01",
+    "testo": "è bello questo scricchiolamento delle pagine dei giornali buongiorno a tutti sono le 9.05 sta per cominciare il volo del mattino la squadra è già tutta pronta al centralino c'è la Stefi con Andrea e Michele una scatola di cioccolatini quindi li abbiamo persi poi abbiamo Maurizio, Viola e Giulia perché qui qualcuno non si ricordava neanche il nome di sta povera ragazza solo perché è appena arrivata Poi non è appena arrivata, sono mesi, è mesi. No, è appena arrivata qui con noi al mattino, di solito fa il weekend, vedi che non sai niente. Allora, tu devi fare come faccio io, quando viene uno a lavorare, ti prendi il curriculum, te lo studi, cerchi di capire che musica ascolta, cosa le piace, poi porti un mazzo di felice, benvenuta nella grande famiglia di radio DJ, so che preferisci il fondente, ti ho portato una tavoletta di fondente.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2017-01-20-005",
+    "start": 229.04,
+    "end": 233.58,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Come hai fatto a me quando sono arrivata. Eh? Anche a me come hai fatto quando sono arrivata.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2017-01-20-006",
+    "start": 233.82,
+    "end": 237.56,
+    "speaker_raw": "SPEAKER_01",
+    "testo": "Vedi? E infatti tu sai che vai in giro a dire che bella persona che è.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2017-01-20-007",
+    "start": 237.91,
+    "end": 240.12,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Esatto. Esatto.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2017-01-20-008",
+    "start": 261.41,
+    "end": 292.49,
+    "speaker_raw": "SPEAKER_01",
+    "testo": "Allora... Volevo, e poi non voglio ammorbar nessuno, però voglio fare un saluto indirizzato, non articolo indeterminativo, ma determinativo, una cosa indirizzato. A tutte quelle persone, a quei genitori, che la notte non hanno, come la maggior parte delle persone, un periodo di silenzio dove tutti dormono, ma ci sono delle famiglie dove la notte comunque di movimento c'è, un bambino viene nel letto, l'altro vomita, uno va via. Ecco, quelle situazioni lì dove la notte non è più un momento di la pace dopo la tempesta.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2017-01-20-009",
+    "start": 293.03,
+    "end": 294.35,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Ok, saranno tanti, penso.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2017-01-20-010",
     "start": 294.37,
-    "end": 301.34,
+    "end": 299.74,
     "speaker_raw": "SPEAKER_01",
     "testo": "Saranno tanti, lo so, sì, perché poi durante il giorno, quando sei lì così, su una scrivania, no?",
     "titolo": "",
@@ -55,32 +121,32 @@
     "video_url": ""
   },
   {
-    "id": "2017-01-20-005",
-    "start": 301.4,
+    "id": "2017-01-20-011",
+    "start": 300.72,
     "end": 304.8,
-    "speaker_raw": "SPEAKER_05",
-    "testo": "Qual è l'ultima notte che hai dormito di fila?",
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Quando è l'ultima, qual è l'ultima notte che hai dormito di fila?",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-01-20-006",
+    "id": "2017-01-20-012",
     "start": 304.82,
     "end": 424.79,
     "speaker_raw": "SPEAKER_01",
-    "testo": "No, se riesco ad andare via, no, a volte dormo anche di fila, dipende dalle notti, non sono tutte uguali, però certo che quando devo andare via per lavoro stappo delle bottiglie. C'è un bellissimo film dove lui esce di casa di notte per andare a prendere i pannolini e lo arrestano perché al supermercato fa delle cose strane, perché è il suo momento, dieci minuti di libertà, fa delle cose strane e poi con la macchina mi sembra tipo passa col rosso, non mi ricordo, ma lo fermano e lo arrestano e lui chiama a casa e dice alla moglie che è a casa col bambino che piange. scusa amore mi hanno arrestato e lei guarda pur di avere una notte da solo e dormire e lei dice no ma mi hanno arrestato c'è gli occhi sono in manette sei la solita meraviglia io da quant'è che non vado via a dormire cioè lei preferiva la galera in silenzio faceva molto ridere allora ragazzi oggi si insedia lo so che non ci interessa molto perché non è la nostra storia ma è la storia di tutti oggi si insedia Trump stanno parlando tutti alle 6 ora italiana quindi diciamo quando c'è Pinocchio credo che abbia fatto proprio per quello apposta credo abbia detto ragazzi io voglio la Pina e Diego e la Vale che commentano no ma oggi mi sa che oggi è venerdì hanno la puntata del che glielo diciamo noi glielo diciamo noi quindi cari ascoltatori se volete dire qualcosa a Trump chiamate oggi chiamate oggi la pina vi racconteremo quella cosa lì abbiamo ringraziato la casa editrice che ci ha dato oggi abbiamo un foglio di quello stesso scrittore perché sono delle belle frasi ieri si parlava vogliamo dirci le frasi che rimangono incastrate nel nostro cervello perché alcuni genitori ne hanno due o tre che vanno a tormentone no? Se vogliamo parlare di quello. Oppure, magari la facciamo lunedì. Senti questa, mi è venuta adesso nel parlare così della notte. Qual è quella routine, quel momento della giornata che ce l'avete lì come la vostra mini vacanza? Che può essere la sigaretta sul balcone qua dietro, per quelli che fumano qua in radice. Oppure, non so, io però a pranzo mi faccio il budino. No, io una volta facevo il budino quello col riso. Mi piaceva tanto.",
+    "testo": "No, se riesco ad andare via, no, a volte dormo anche di fila, dipende dalle notti, non sono tutte uguali, però insomma, certo che quando devo andare via per lavoro stappo delle bottiglie. C'è un bellissimo film dove lui esce di casa di notte per andare a prendere i pannolini e lo arrestano perché al supermercato fa delle cose strane, perché è il suo momento, dieci minuti di libertà, fa delle cose strane e poi con la macchina mi sembra tipo passa col rosso, non mi ricordo, ma lo fermano e lo arrestano e lui chiama a casa e dice alla moglie che è a casa col bambino che piange. scusa amore mi hanno arrestato e lei guarda pur di avere una notte da solo e dormire e lei dice no ma mi hanno arrestato c'è gli occhi sono in manette sei la solita merda io da quant'è che non vado via a dormire cioè lei preferiva la galera in silenzio faceva molto ridere allora ragazzi oggi si insedia lo so che non ci interessa molto perché non è la nostra storia ma è la storia di tutti oggi si insedia Trump stanno parlando tutti alle 6 ora italiana quindi diciamo quando c'è Pinocchio credo che abbia fatto proprio per quello apposta credo abbia detto ragazzi io voglio la Pina e Diego e la Vale che commentano no ma oggi mi sa che oggi è venerdì hanno la puntata del che glielo diciamo noi glielo diciamo noi quindi cari ascoltatori se volete dire qualcosa a Trump chiamate oggi chiamate oggi la pina vi racconteremo quella cosa lì abbiamo ringraziato la casa editrice che ci ha dato oggi abbiamo un foglio di quello stesso scrittore perché sono delle belle frasi ieri si parlava vogliamo dirci le frasi che rimangono incastrate nel nostro cervello perché alcuni genitori ne hanno due o tre che vanno a tormentone no? Se vogliamo parlare di quello. Oppure, magari la facciamo lunedì. Senti questa, mi è venuta adesso nel parlare così della notte. Qual è quella routine, quel momento della giornata che ce l'avete lì come la vostra mini vacanza? Che può essere la sigaretta sul balcone qua dietro, per quelli che fumano qua. Oppure, non so, io però a pranzo mi faccio il budino. No, io una volta facevo il budino quello col riso. Mi piaceva tanto.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-01-20-007",
+    "id": "2017-01-20-013",
     "start": 425.95,
     "end": 428.78,
-    "speaker_raw": "SPEAKER_05",
+    "speaker_raw": "SPEAKER_03",
     "testo": "te lo facevi te o lo compravi?",
     "titolo": "",
     "tema": [],
@@ -88,33 +154,33 @@
     "video_url": ""
   },
   {
-    "id": "2017-01-20-008",
+    "id": "2017-01-20-014",
     "start": 429.04,
     "end": 458.54,
     "speaker_raw": "SPEAKER_01",
-    "testo": "riso latte c'è stato un momento che io mi sparavo in vena il riso latte perché non è chimico e hai i chicchi morbidi capito che ti fai il tuo momento che dici guarda a me oggi potete stracassare ma io alle 4 mi faccio capito il mio orzo quelli che si fanno il caffè quello lì quello che ti dà la botta Guaranà, ginseng va bene insomma decidete voi ragazzi a venerdì ora libera",
+    "testo": "riso latte c'è stato un momento che io mi sparavo in vena il riso latte perché non è chimico e ha i chicchi morbidi capito che ti fai il tuo momento che dici guarda a me oggi potete stracassare ma io alle 4 mi faccio capito il mio orzo quelli che si fanno il caffè quello lì quello che ti dà la botta Guaranà, Ginseng va bene insomma decidete voi ragazzi a venerdì ora libera",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-01-20-009",
-    "start": 473.86,
-    "end": 643.85,
-    "speaker_raw": "SPEAKER_08",
-    "testo": "... ... ... ... Such a tiny girl, born into it, that's for sure. Rivers that connect, it's so much stronger than expected. Well, six love come to wash us away. Seven love perspective, higher vision gets the rest. people talk and tell you what you wanna hear do you really need another souvenir superheroes tend to disappear fame is just a trick you see in empty glass leave you feeling thirsty and so very fast chance to tell my baby it'll be your last I don't know what it's been said Grazie a tutti a presto",
+    "id": "2017-01-20-015",
+    "start": 473.89,
+    "end": 643.73,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Salute a tutti. Such a tiny girl, born into it, that's for sure. Rivers that connect, it's so much stronger than expected. Well, sick love come to wash us away. Seven of perspective, higher vision gets correct. I don't know what it's been said Grazie a tutti. Ciao!",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-01-20-010",
+    "id": "2017-01-20-016",
     "start": 664.61,
     "end": 699.75,
     "speaker_raw": "SPEAKER_01",
-    "testo": "vedi che non la sapevo questa cosa vedi cosa si impara c'è molte persone la sera soprattutto quelli con i bambini appunto quindi che hanno una diciamo il tempo per sé rimane sempre un po' più risicato c'è la sigarettina sul balcone hanno scritto in un sacco io tipo io metto tutti a letto sigaretta sul balcone a meno 5 dopodiché ha avuto un problema allo stomaco quindi si è inchiodato tutta la cena sullo stomaco E invece abbiamo Valentina! Buongiorno Valentina! Ciao! Buongiorno, come stai?",
+    "testo": "vedi che non la sapevo questa cosa vedi cosa si impara c'è molte persone la sera soprattutto quelli con i bambini appunto quindi che hanno una diciamo il tempo per sé rimane sempre un po' più risicato risicato risicato c'è la sigarettina sul balcone hanno scritto in un sacco io tipo io metto tutti a letto sigaretta sul balcone a meno 5 dopodiché ha avuto un problema allo stomaco quindi si è inchiodato tutta la cena sullo stomaco E invece abbiamo Valentina! Buongiorno Valentina! Ciao! Buongiorno, come stai?",
     "titolo": "sigaretta sul balcone",
     "tema": [
       "fumo",
@@ -124,10 +190,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-01-20-011",
+    "id": "2017-01-20-017",
     "start": 700.51,
     "end": 702.08,
-    "speaker_raw": "SPEAKER_02",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Molto bene, molto bene.",
     "titolo": "",
     "tema": [],
@@ -135,11 +201,11 @@
     "video_url": ""
   },
   {
-    "id": "2017-01-20-012",
+    "id": "2017-01-20-018",
     "start": 702.38,
     "end": 748.49,
     "speaker_raw": "SPEAKER_01",
-    "testo": "Vuoi un'immagine di un uomo molle, flaccido, senza forza? Te la do io. La vuoi? Quando io vado a letto a mettere a letto i miei figli mi addormento prima di loro no io vado nel letto con loro dai dormiamo ragazzi io mi addormento poi io mi sveglio tipo le dieci e mezza così con la tachicardia devo andare a dormire è mattina devo andare in radio sicurati che io vado al letto con il più piccolo che dorme in un letto mini e sei tutta accovacciata con lui così poi io mi faccio una tavoletta diffondente davanti alla televisione così uguale senti ma tu sei di quelle che va sul balcone a fumare?",
+    "testo": "Vuoi un'immagine di un uomo molle, flaccido, senza forza? Te la do io. La vuoi? Quando io vado a letto a mettere a letto i miei figli... mi addormento prima di loro no io vado nel letto con loro dai dormiamo ragazzi io mi addormento poi io mi sveglio tipo le dieci e mezza così con la tachicardia devo andare a dormire è mattina devo andare in radio sicurati che io vado al letto con il più piccolo che dorme in un letto mini e sei tutta accovacciata con lui così poi io mi faccio una tavoletta diffondente davanti alla televisione così uguale senti ma tu sei di quelle che va sul balcone a fumare?",
     "titolo": "addormentarsi con i figli",
     "tema": [
       "famiglia",
@@ -149,10 +215,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-01-20-013",
+    "id": "2017-01-20-019",
     "start": 749.73,
     "end": 753.64,
-    "speaker_raw": "SPEAKER_02",
+    "speaker_raw": "SPEAKER_04",
     "testo": "si la sera quando tutti sono a dormire compreso il marito?",
     "titolo": "",
     "tema": [],
@@ -160,77 +226,11 @@
     "video_url": ""
   },
   {
-    "id": "2017-01-20-014",
-    "start": 755.36,
-    "end": 770.67,
-    "speaker_raw": "SPEAKER_01",
-    "testo": "non penso più a niente mi fumo due o tre sigarette di seguito la madonna cerchi di annientarti scusami ma te la accendi con la sigaretta quella che fumi dopo? certo",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-01-20-015",
-    "start": 774.24,
-    "end": 778.3,
-    "speaker_raw": "SPEAKER_02",
-    "testo": "vado con la vestaglia, i calzinoni ma non c'hai il cappotto?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-01-20-016",
-    "start": 778.36,
-    "end": 787.96,
-    "speaker_raw": "SPEAKER_01",
-    "testo": "a Firenze fa freddo a Firenze fa freddissimo esatto, ma in generale scusami tu sei lì sul balcone e c'hai il cappotto con sotto il pigiama, no? come sei messa?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-01-20-017",
-    "start": 788.0,
-    "end": 812.38,
-    "speaker_raw": "SPEAKER_02",
-    "testo": "certo, certo pigiama, cappotto pantofole calzettoni con gli antiscivolo come bambini che bella immagine mi va di darti due colpi tenuta sulla cesta delle mollette è un'immagine stupenda scusami sei separata Valentina?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-01-20-018",
-    "start": 812.96,
-    "end": 821.7,
-    "speaker_raw": "SPEAKER_01",
-    "testo": "no no no tuo marito quando ti vede lì così che ti vede sulla cesta delle mollette così che ti fumi a lui viene voglia di venire lì a fare qualcosa di erotico",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-01-20-019",
-    "start": 822.96,
-    "end": 829.7,
-    "speaker_raw": "SPEAKER_02",
-    "testo": "No, gli verrebbe voglia di portarmi da qualcuno probabilmente. Ma ormai ha deciso di assicondare questa sigaretta.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
     "id": "2017-01-20-020",
-    "start": 829.96,
-    "end": 833.52,
+    "start": 755.36,
+    "end": 770.87,
     "speaker_raw": "SPEAKER_01",
-    "testo": "Qual è la sua sigaretta? Lui non fuma? Fuma?",
+    "testo": "non penso più a niente mi fumo due o tre sigarette di seguito la madonna cerchi di annientarti scusami ma te la accendi con la sigaretta quella che fumi dopo? certo poi",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -238,10 +238,10 @@
   },
   {
     "id": "2017-01-20-021",
-    "start": 833.58,
-    "end": 838.76,
-    "speaker_raw": "SPEAKER_02",
-    "testo": "Ma lui è furbo. Lui si chiude in salotto subito dopo cena.",
+    "start": 774.24,
+    "end": 778.3,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Vado con la vestaglia, i calzinoni Ma non c'hai il cappotto?",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -249,10 +249,10 @@
   },
   {
     "id": "2017-01-20-022",
-    "start": 839.3,
-    "end": 863.83,
+    "start": 778.36,
+    "end": 787.96,
     "speaker_raw": "SPEAKER_01",
-    "testo": "Quando tu fai dormire i bambini. E sta su Instagram, Facebook e quella roba lì. no lui gioca a FIFA 2010 meglio Facebook veramente meglio Facebook scusate ma visti dall'alto è una meraviglia cioè tu con i due bambini così poi lui che gioca con la Playstation quello che è tu sul balcone dopo c'è un momento in cui vi vedete o è la mattina dopo colazione?",
+    "testo": "A Firenze fa freddo A Firenze fa freddissimo Esatto, ma in generale, scusami Tu sei lì sul balcone e c'hai il cappotto con sotto il pigiama No, come sei messa?",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -260,10 +260,10 @@
   },
   {
     "id": "2017-01-20-023",
-    "start": 864.88,
-    "end": 875.51,
-    "speaker_raw": "SPEAKER_02",
-    "testo": "di solito l'incontro è molto notturno o molto presto la mattina questi sono gli orari comodi vi lavate i denti insieme quando andate a dormire?",
+    "start": 788.0,
+    "end": 812.38,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Certo, certo Pigiama Pigiama, cappotto Pantofole Calzettoni con gli antiscivolo come i bambini che bella immagine mi va di darti due colpi tenuta sulla scesta delle mollette è un'immagine stupenda scusami sei separata Valentina?",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -271,6 +271,72 @@
   },
   {
     "id": "2017-01-20-024",
+    "start": 812.96,
+    "end": 821.7,
+    "speaker_raw": "SPEAKER_01",
+    "testo": "no no no tuo marito quando ti vede lì così che ti vede sulla scesta delle mollette così che ti fumi a lui viene voglia di venire lì a fare qualcosa di erotico",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2017-01-20-025",
+    "start": 822.96,
+    "end": 829.42,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "No, gli verrebbe voglia di portarmi da qualcuno probabilmente, ma ormai ha deciso di assicondare questa situazione.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2017-01-20-026",
+    "start": 829.46,
+    "end": 833.3,
+    "speaker_raw": "SPEAKER_01",
+    "testo": "Lui qual è la sua, diciamo, la sua sigaretta? Lui non fuma, fuma?",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2017-01-20-027",
+    "start": 833.36,
+    "end": 838.76,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Eh, ma lui è furbo, lui si chiude in salotto subito dopo cena.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2017-01-20-028",
+    "start": 839.3,
+    "end": 863.83,
+    "speaker_raw": "SPEAKER_01",
+    "testo": "Quando tu fai dormire i bambini, ok, e sta su Instagram, Facebook e quella roba lì? No, lui gioca a FIFA 2010 Meglio Facebook Scusate ma visti dall'alto è una meraviglia Cioè tu con i due bambini così Poi lui che gioca con la Playstation Tu sul balcone Dopo c'è un momento in cui vi vedete O è la mattina dopo colazione?",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2017-01-20-029",
+    "start": 864.88,
+    "end": 875.51,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "di solito l'incontro è molto notturno o molto presto la mattina questi sono gli orari comodi vi lavate i denti insieme quando andate a dormire?",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2017-01-20-030",
     "start": 875.67,
     "end": 879.55,
     "speaker_raw": "SPEAKER_01",
@@ -281,10 +347,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-01-20-025",
+    "id": "2017-01-20-031",
     "start": 879.61,
     "end": 886.92,
-    "speaker_raw": "SPEAKER_02",
+    "speaker_raw": "SPEAKER_04",
     "testo": "secondo me più che il bagno a questo punto la mattina presto intorno alle 5 è un orario un po' anomalo probabilmente",
     "titolo": "",
     "tema": [],
@@ -292,18 +358,18 @@
     "video_url": ""
   },
   {
-    "id": "2017-01-20-026",
+    "id": "2017-01-20-032",
     "start": 889.61,
     "end": 956.0,
     "speaker_raw": "SPEAKER_01",
-    "testo": "va bene senti Valentina vai al lavoro durante il giorno? si io faccio l'ostetrica che bello c'è un momento sigaretta anche lì tra un bambino e l'altro no in sala guarda non si può certo non avevamo questa immagine con te con la sigaretta all'angolo della bocca spingi spingi spingi ok dai che c'ho le mani lì ok Valentina buona giornata buona giornata a voi mi ringrazio tanto per la compagnia scusami ho bisogno di un altro dettaglio dell'immagine voglio sapere se l'accendino e il posacenere lo usi e se rimane lì sul balcone naturalmente il posacenere ce n'è uno di quelli alti ok si è l'accendino perché se uno se lo dimentica è lì vari accendini sulla persiana va bene, ciao Valentina grazie mille ciao ragazzi, buon lavoro ciao vi è voglia di sposarsi e fare i figli, no?",
+    "testo": "va bene senti Valentina vai al lavoro durante il giorno? sì io faccio l'ostetrica che bello c'è un momento sigaretta anche lì tra un bambino e l'altro no in sala verde non si può certo non avevamo questa immagine con te con la sigaretta all'angolo della bocca spingi spingi spingi ok dai che c'ho le mani lì ok Valentina buona giornata buona giornata a voi mi ringrazio tanto per la compagnia scusami ho bisogno di un altro dettaglio dell'immagine voglio sapere se l'accendino e il posacenere lo usi e se rimane lì sul balcone naturalmente il posacenere ce n'è uno di quelli alti ok si è l'accendino perché se uno se lo dimentica è lì vari accendini sulla persiana ok va bene, ciao Valentina grazie mille ciao ragazzi, buon lavoro ciao vi è voglia di sposarsi e fare i figli, no?",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-01-20-027",
+    "id": "2017-01-20-033",
     "start": 956.2,
     "end": 961.24,
     "speaker_raw": "SCONOSCIUTO",
@@ -314,31 +380,40 @@
     "video_url": ""
   },
   {
-    "id": "2017-01-20-028",
+    "id": "2017-01-20-034",
     "start": 987.15,
-    "end": 1021.94,
-    "speaker_raw": "SPEAKER_08",
-    "testo": "Ciao Ciao Ciao I thought we would last Now that you're through I can feel your soul Where there was love lies an empty hole",
+    "end": 1039.09,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Grazie a tutti You played your game, used me like a pawn Checkmate your gun and then you were gone Did I move too fast? I thought we would last Now that you're through I can feel your soul Where there was love lies an empty hole",
     "titolo": "I thought we would last",
     "tema": [],
     "tipo": "riferimento_musica",
-    "video_url": "",
-    "autore": "The Smiths",
-    "confermato_esterno": false
+    "video_url": ""
   },
   {
-    "id": "2017-01-20-029",
+    "id": "2017-01-20-035",
     "start": 1069.86,
-    "end": 1134.18,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "... ... ... Cos'era? Cos'era?",
+    "end": 1070.22,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "... ... ...",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-01-20-030",
+    "id": "2017-01-20-036",
+    "start": 1133.24,
+    "end": 1133.98,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Cos'è? Cos'è? Cos'è?",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2017-01-20-037",
     "start": 1142.47,
     "end": 1152.98,
     "speaker_raw": "SPEAKER_01",
@@ -349,10 +424,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-01-20-031",
+    "id": "2017-01-20-038",
     "start": 1153.36,
     "end": 1154.82,
-    "speaker_raw": "SPEAKER_05",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Mi sembra, ora mi sta venendo il dubbio.",
     "titolo": "",
     "tema": [],
@@ -360,51 +435,51 @@
     "video_url": ""
   },
   {
-    "id": "2017-01-20-032",
+    "id": "2017-01-20-039",
     "start": 1154.86,
-    "end": 1180.83,
+    "end": 1192.13,
     "speaker_raw": "SPEAKER_01",
-    "testo": "Ci sono dei prodotti che ti danno una dipendenza, che non sono legato alla bontà della cosa, ma è veramente, diventa come la sigaretta, simbolo di un momento di libertà, no? Cioè, non mi rompete le barbe, mi fumo la sigaretta per capito. La sigaretta, oltre alla sua forza diciamo nicotina, ha anche tutta una serie di cose psicologiche. C'è il tuo momento di... sarebbe come dire il tuo momento d'aria, però è un'aria tra l'altro. È strana questa cosa.",
+    "testo": "Ci sono dei prodotti che ti danno una dipendenza, che non sono legato alla bontà della cosa, ma è veramente, diventa come la sigaretta, simbolo di un momento di libertà, no? Cioè non mi rompete le barbe, mi fumo la sigaretta, capito? La sigaretta oltre alla sua forza diciamo nicotina e tutto questo ha anche tutta una serie di cose psicologiche Certo Cioè il tuo momento di, sarebbe come dire il tuo momento d'aria però è un'aria tra l'altro, è strana questa cosa Comunque a proposito di brand, no brand ora non brand, però di quelle marche che ti coccolano Io ieri dopo un mese, dopo la palestra, sono andata a cena",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-01-20-033",
-    "start": 1180.93,
+    "id": "2017-01-20-040",
+    "start": 1195.83,
     "end": 1221.04,
-    "speaker_raw": "SPEAKER_05",
-    "testo": "Comunque a proposito di brand, no brand ora non brand, però di quelle marche che ti coccolano. Io ieri, dopo un mese, dopo la palestra, sono andata a cena... l'ha detto lontano sono andato a cena da McDonald's no ma menù grande e milkshake alla fragola ah cavolo si è andato da McDonald's scusami ma hai digerito tutto a posto? certo ecco io se mi faccio quella cena lì ok esagerato però mi ha dato proprio la sensazione di dire ok ti sei fatta una coccola ti sei fatta una coccola 7,30 euro",
+    "speaker_raw": "SPEAKER_03",
+    "testo": "l'ha detto lontano sono andato a cena da McDonald's no ma menù grande milkshake alla fragola ah cavolo si è andato da McDonald's scusami ma hai digerito tutto a posto? certo ecco io se mi faccio quella cena lì ok esagerato però mi ha dato proprio la sensazione di dire ok ti sei fatta una coccola ti sei fatta una coccola 7,30 euro",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-01-20-034",
+    "id": "2017-01-20-041",
     "start": 1225.72,
-    "end": 1255.02,
+    "end": 1255.82,
     "speaker_raw": "SPEAKER_01",
-    "testo": "a me sembra più un caccio dei maroni guarda la faccia Maurizio tu ti fai mica la brioscina no la focaccia ah si la focaccia almeno bianca si vabbè sono buone va bene va bene ok facciamola pubblici ok il prezzo è giusto lunedì una puntata solo sui brand ottimo va bene marchi pubblicità Per esempio, quando Joanna si veste con questa marca, i vestiti si chiamano Forte Forte, a me piace un sacco perché mi sembra proprio che ha tutti quei fiori e cose.",
+    "testo": "a me sembra più un caccio dei maroni guarda la faccia Maurizio tu ti fai mica la brioscina no la focaccia ah si la focaccia almeno bianca si vabbè sono buone va bene va bene ok va bene facciamola pubblici ok il prezzo è giusto lunedì una puntata solo sui brand ottimo va bene marchi pubblicità Per esempio, quando Joanna si veste con questa marca, i vestiti si chiamano Forte Forte. A me piace un sacco perché mi sembra proprio che ha tutti quei fiori e le cose.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-01-20-035",
-    "start": 1255.24,
+    "id": "2017-01-20-042",
+    "start": 1255.94,
     "end": 1257.98,
-    "speaker_raw": "SPEAKER_05",
-    "testo": "Perché questa era la marchetta, si vedeva lontano meglio.",
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Questa era la marchetta, si vedeva lontano meglio.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-01-20-036",
+    "id": "2017-01-20-043",
     "start": 1260.88,
     "end": 1277.06,
     "speaker_raw": "SPEAKER_01",
@@ -415,10 +490,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-01-20-037",
+    "id": "2017-01-20-044",
     "start": 1278.12,
     "end": 1278.68,
-    "speaker_raw": "SPEAKER_05",
+    "speaker_raw": "SPEAKER_03",
     "testo": "perché? ok",
     "titolo": "",
     "tema": [],
@@ -426,27 +501,24 @@
     "video_url": ""
   },
   {
-    "id": "2017-01-20-038",
+    "id": "2017-01-20-045",
     "start": 1301.66,
     "end": 1347.4,
     "speaker_raw": "SPEAKER_00",
-    "testo": "Ogni volta che viene giorno Ogni volta che ritorno Ogni volta che cammino e Mi sembra di averti vicino Ogni volta che mi guardo intorno Ogni volta che non me ne accorgo Ogni volta che viene giorno Ogni volta che mi sveglio Ogni volta che mi sbaglio, ogni volta che sono sicuro, ogni volta che mi sembra solo, ogni volta che mi viene in mente qualche cosa che non cerca niente, ogni volta.",
+    "testo": "Ogni volta che viene il giorno Ogni volta che ritorno Ogni volta che cammino e Mi sembra di averti vicino Ogni volta che mi guardo intorno Ogni volta che non me ne accorgo Ogni volta che viene il giorno Ogni volta che mi sveglio Ogni volta che mi sbaglio, ogni volta che sono sicuro, ogni volta che mi sembra solo, ogni volta che mi viene in mente qualcosa che non cerca niente, ogni volta.",
     "titolo": "Ogni volta",
     "tema": [
       "ricordi",
       "vita"
     ],
     "tipo": "riferimento_musica",
-    "video_url": "",
-    "autore": "Vasco Rossi",
-    "confermato_esterno": true,
-    "copertina": "https://coverartarchive.org/release/539780a0-706c-4e34-b0da-3edb0a5811b0/front-250"
+    "video_url": ""
   },
   {
-    "id": "2017-01-20-039",
+    "id": "2017-01-20-046",
     "start": 1370.78,
     "end": 1373.03,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Proprio quando la stavo cercando Ogni volta",
     "titolo": "",
     "tema": [],
@@ -454,22 +526,22 @@
     "video_url": ""
   },
   {
-    "id": "2017-01-20-040",
+    "id": "2017-01-20-047",
     "start": 1434.05,
     "end": 1445.38,
     "speaker_raw": "SPEAKER_00",
-    "testo": "Ogni volta che non sento, ogni volta che non sono stato, ogni volta che non guardo in faccia niente, ogni volta che dopo piango.",
+    "testo": "Ogni volta che non c'è, ogni volta che non sono stato, ogni volta che non guardo in faccia niente, ogni volta che dopo piango.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-01-20-041",
+    "id": "2017-01-20-048",
     "start": 1517.91,
     "end": 1569.84,
     "speaker_raw": "SPEAKER_01",
-    "testo": "Vorrei udlare il nome di Tiziana, la mia amica in cielo. Arriva questo messaggio, momento molto bello e anche momento molto triste. Ciao Tiziana. Allora, pensavo che ridere, pensavo di essere l'unica a intossicarmi di notte al balcone quando la prole dorme. Il posacenere non esiste a casa nostra. Io rigorosamente bicchiere di plastica pieno d'acqua. posso dire, mi interrompo subito io anche quando ero fumatore è una delle cose che mi fa vomitare quando la vedo nel vero senso della parola mi tocca, quando vedo le sigarette che galleggiano e dopo un po' cominciano, si sfaldano la carta galleggia a parte che una volta l'ho bevuta da una lattina non è vero comunque bicchiere di plastica pieno d'acqua che viene buttato dopo la terza sigaretta ok, così mia figlia più grande non mi sgama perché poi c'hai anche i figli che ffff ffff basta quando mangi biscotti biscotti hai mangiato biscotti?",
+    "testo": "Vorrei urlare il nome di Tiziana, la mia amica in cielo. Arriva questo messaggio, momento molto bello e anche momento molto triste. Ciao Tiziana. Allora, pensavo che ridere, pensavo di essere l'unica a intossicarmi di notte al balcone quando la prole dorme. Il posacenere non esiste a casa nostra. Io rigorosamente bicchiere di plastica pieno d'acqua. posso dire, mi interrompo subito io anche quando ero fumatore è una delle cose che mi fa vomitare quando la vedo nel vero senso della parola mi tocca, quando vedo le sigarette che galleggiano e dopo un po' cominciano, si sfaldano la carta galleggia a parte che una volta l'ho bevuta da una lattina non è vero comunque bicchiere di plastica pieno d'acqua che viene buttato dopo la terza sigaretta ok, così mia figlia più grande non mi sgama perché poi c'hai anche i figli che ffff ffff basta quando mangi biscotti biscotti hai mangiato biscotti?",
     "titolo": "posacenere di plastica",
     "tema": [
       "amicizia",
@@ -479,10 +551,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-01-20-042",
+    "id": "2017-01-20-049",
     "start": 1570.02,
     "end": 1573.8,
-    "speaker_raw": "SPEAKER_05",
+    "speaker_raw": "SPEAKER_03",
     "testo": "no no ti immagini dovessi iniziare a fumare?",
     "titolo": "",
     "tema": [],
@@ -490,21 +562,21 @@
     "video_url": ""
   },
   {
-    "id": "2017-01-20-043",
+    "id": "2017-01-20-050",
     "start": 1574.9,
     "end": 1631.13,
     "speaker_raw": "SPEAKER_01",
-    "testo": "a ricominciare a fumare? no io però ho un amico per esempio che lui ce la fa anche quando anche la moglie ha letto i figli sono a letto che si rida solo con la televisione bassa che ti illumina la faccia così lui si fa una cannettina quant'anni ha? la mia età più o meno lui dice io mi sono tenuto quella roba lì nella vita cioè la sigarettina però un po' farcita un po' alle grotte leggera probabilmente lo aiuta per andare a dormire non lo so ognuno c'ha le sue abitudini io non giudico non sono io chi sono io per giudicare Stefano di Busto Arsizio Artigiano buongiorno buongiorno ragazzi buongiorno allora il tuo messaggio che di solito non li leggiamo mai più lunghi di tre righe però questo l'abbiamo letto venerdì sera con la mia compagna questo è il vostro momento cena in casa take away dal mcdonald rigorosamente in casa mcdonald io al mcdonald non ci vado da 20 anni cosa mangia al mcdonald?",
+    "testo": "a ricominciare a fumare? no io però ho un amico per esempio che lui ce la fa anche di quando anche la moglie ha letto i figli sono a letto che si rida solo con la televisione bassa che ti illumina la faccia così lui si fa una cannettina quant'anni ha? la mia età più o meno lui dice io mi son tenuto a quella roba lì nella vita cioè la sigarettina però un po' farcita un po' alle grotte, leggera probabilmente lo aiuta per andare a dormire non lo so, ognuno c'ha le sue abitudini io non giudico, non sono io chi sono io per giudicare Stefano di Busto Arsizio Artigiano, buongiorno buongiorno ragazzi buongiorno allora il tuo messaggio che di solito non li leggiamo mai più lunghi di tre righe però questo l'abbiamo letto venerdì sera con la mia compagna questo è il vostro momento cena in casa take away dal mcdonald rigorosamente in casa mcdonald io al mcdonald non ci vado da 20 anni cosa mangia al mcdonald?",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-01-20-044",
+    "id": "2017-01-20-051",
     "start": 1631.15,
     "end": 1650.3,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_04",
     "testo": "ma al solito un menu un crispy un crispy mcbeacon più un altro panino più un cheeseburger un po' più leggera ma regular o grande? no no grande mi impegno tanto scusami Stefano ogni tanto prendi il cheeseburger per stare più leggero hai detto? No, lei.",
     "titolo": "",
     "tema": [],
@@ -512,7 +584,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-01-20-045",
+    "id": "2017-01-20-052",
     "start": 1650.32,
     "end": 1652.6,
     "speaker_raw": "SPEAKER_01",
@@ -523,10 +595,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-01-20-046",
+    "id": "2017-01-20-053",
     "start": 1652.62,
     "end": 1655.18,
-    "speaker_raw": "SPEAKER_05",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Sì, il cheeseburger c'ha solo una fetta di pane.",
     "titolo": "",
     "tema": [],
@@ -534,7 +606,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-01-20-047",
+    "id": "2017-01-20-054",
     "start": 1655.4,
     "end": 1659.61,
     "speaker_raw": "SPEAKER_01",
@@ -545,10 +617,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-01-20-048",
+    "id": "2017-01-20-055",
     "start": 1660.31,
     "end": 1661.59,
-    "speaker_raw": "SPEAKER_05",
+    "speaker_raw": "SPEAKER_03",
     "testo": "No, fatelo dire a lui.",
     "titolo": "",
     "tema": [],
@@ -556,7 +628,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-01-20-049",
+    "id": "2017-01-20-056",
     "start": 1661.61,
     "end": 1662.41,
     "speaker_raw": "SPEAKER_01",
@@ -567,10 +639,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-01-20-050",
+    "id": "2017-01-20-057",
     "start": 1662.43,
     "end": 1667.53,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Il bacon fritto? Sì, sì, c'è dentro il bacon, pancetta e quant'altro. Non mi fido.",
     "titolo": "",
     "tema": [],
@@ -578,7 +650,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-01-20-051",
+    "id": "2017-01-20-058",
     "start": 1672.41,
     "end": 1696.53,
     "speaker_raw": "SPEAKER_01",
@@ -589,21 +661,43 @@
     "video_url": ""
   },
   {
-    "id": "2017-01-20-052",
+    "id": "2017-01-20-059",
     "start": 1696.55,
-    "end": 1744.54,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "Sì, sì. E lei Gin Lemon. E lei Gin Lemon. Siamo di due filosofie diverse, ma... Va bene. dopodiché possibilmente riuscite a vedervi una serie dove non si capisce un cazzo il problema è che il non capire un cazzo è dovuto al fatto che mentre si passeggia si continua a bere una giornata piena non è che seguite una serie tv noi seguiamo una serie ma spesso capita che a venerdì sera fanno delle serie un po' complicate magari da capire sai quelle serie che al quinto episodio si inizia a capire qualche cosa e diventa un casino capire tutto però voi la guardate lo stesso noi la guardiamo lo stesso e alla fine siamo contenti andando a letto dicendo cazzo è successo non ho capito niente dovrò riguardarla almeno due volte",
+    "end": 1702.45,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Sì, sì. E lei Gin Lemon. E lei Gin Lemon. Siamo di due filosofie diverse, ma...",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-01-20-053",
+    "id": "2017-01-20-060",
+    "start": 1703.23,
+    "end": 1703.53,
+    "speaker_raw": "SPEAKER_01",
+    "testo": "Va bene.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2017-01-20-061",
+    "start": 1705.02,
+    "end": 1744.54,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "dopodiché possibilmente riuscite a vedervi una serie dove non si capisce un cazzo il problema è che il non capire un cazzo è dovuto al fatto che mentre si passeggia si continua a bere una giornata piena non è che seguite una serie tv noi seguiamo una serie ma spesso capita che a venerdì sera fanno delle serie un po' complicate magari da capire sai quelle serie che al quinto episodio si inizia a capire qualche cosa e diventa un casino però voi la guardate lo stesso noi la guardiamo lo stesso e alla fine siamo contenti andando a letto dicendo cazzo è successo non ho capito niente dovrò riguardarla almeno due volte",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2017-01-20-062",
     "start": 1745.48,
     "end": 1755.21,
-    "speaker_raw": "SPEAKER_05",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Posso fare una domanda? Il Cuba Libre te lo fai nel bicchiere del McDonald quello da mezzo litro? No, no, no. Ci poteva stare.",
     "titolo": "",
     "tema": [],
@@ -611,7 +705,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-01-20-054",
+    "id": "2017-01-20-063",
     "start": 1755.31,
     "end": 1759.71,
     "speaker_raw": "SPEAKER_01",
@@ -622,10 +716,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-01-20-055",
+    "id": "2017-01-20-064",
     "start": 1759.73,
     "end": 1764.22,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_04",
     "testo": "No, perché noi siamo un po' appassionati quindi siamo fatti proprio il nostro bar e abbiamo il Twitter.",
     "titolo": "",
     "tema": [],
@@ -633,21 +727,21 @@
     "video_url": ""
   },
   {
-    "id": "2017-01-20-056",
+    "id": "2017-01-20-065",
     "start": 1765.0,
     "end": 1845.61,
     "speaker_raw": "SPEAKER_01",
-    "testo": "scusa aspetta aspetta no aspetta un attimo scusami nel senso che tu a casa come quando c'era Dallas che ero piccolo che loro entri in casa a qualsiasi ora del giorno vuoi un whisky? scoccio scoccio cioè tu hai il tuo angolino ho progettato un bar e ho dentro tutto l'essenziale al momento è pronto per scusami room di qualità o fai in base a quello che puoi? ma dipende mi piace cambiare per esempio a me hanno regalato io non sono uno tanto da superalcoce però mi hanno regalato un rum molto buono e la mia abitudine brutta diciamo quello che è io la cioccolata la sera noi mangiamo la cioccolata a me piace la fondente 75-80 non arrivo a 100 perché mi si attacca al palato con il rum è l'ideale esatto adesso mi ha regalato sto rum buono devo dire che ogni tanto lì ogni tanto butto giù o bicchiere di vino o rum cioè il cioccolato mi piace accompagnarlo con un po' di sei un lord inglese no sto diventando vecchio sono cose che si manifestano come i peli sulle orecchie cioè a una certa età capito ok lei Gin Lemon guardate la serie poi guardate ma tu hai capito no vabbè andiamo a dormire ma hai scritto andiamo a dormire contenti perché non abbiamo capito cioè praticamente vi siete annebbiati per un po' sì un po' dai giusto per che serie state guardando un po' di respiro stasera cosa guardate per esempio",
+    "testo": "scusa aspetta aspetta no aspetta un attimo scusami nel senso che tu a casa come quando c'era Dallas che ero piccolo che loro entri in casa a qualsiasi ora del giorno vuoi un whisky? scoccio scoccio cioè tu hai il tuo angolino ho progettato un bar e ho dentro tutto l'essenziale a momento è pronto per scusami room di qualità o fai in base a quello che puoi? ma dipende, mi piace cambiare per esempio a me hanno regalato un rum molto buono e la mia abitudine brutta io ho la cioccolata la sera a me piace la fondente 75-80 non arrivo a 100 perché mi si attacca al palato con il rum è l'ideale adesso mi ha regalato questo rum buono devo dire che ogni tanto butto giù o bicchiere di vino o rum cioè il cioccolato mi piace accompagnarlo con un po' di sei un lord inglese no sto diventando vecchio sono cose che si manifestano come i peli sulle orecchie cioè a una certa età capito ok lei Gin Lemon guardate la serie poi guardate ma tu hai capito no vabbè andiamo a dormire ma hai scritto andiamo a dormire contenti perché non abbiamo capito cioè praticamente vi siete annebbiati per un po' sì un po' dai giusto per che serie state guardando un po' di respiro stasera cosa guardate per esempio",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-01-20-057",
+    "id": "2017-01-20-066",
     "start": 1846.71,
     "end": 1854.06,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Stasera è iniziata con la nuova Hooter and the Lady, roba del genere, è molto più leggera, però è carina, è iniziata la settimana scorsa.",
     "titolo": "",
     "tema": [],
@@ -655,22 +749,21 @@
     "video_url": ""
   },
   {
-    "id": "2017-01-20-058",
+    "id": "2017-01-20-067",
     "start": 1854.24,
     "end": 1876.48,
     "speaker_raw": "SPEAKER_01",
-    "testo": "Questa sera la guardate, io ho appena finito di guardare la nuova serie di Sarah Jessica Parker che si chiama Divorce, che è la storia di lei e del marito che divorzano. Bene, bene. Va bene, stasera è la sera del Coca Room, chi passa al McDonald's? Oggi, oggi. Chi passa al McDonald's? in che chilo va a prendere?",
+    "testo": "Questa sera la guardate, io ho appena finito di guardare la nuova serie di Sarah Jessica Parker che si chiama Divorce, che è la storia di lei e del marito che divorzano. Bene, bene. Va bene, stasera è la sera del Coca Room, chi passa al McDonald's? in che chi lo va a prendere?",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
-    "id": "2017-01-20-059",
+    "id": "2017-01-20-068",
     "start": 1876.5,
     "end": 1884.86,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_04",
     "testo": "insieme sempre di solito se ne torna prima torna prima poi prendiamo insieme questo rito andiamo ma vi vestite bene?",
     "titolo": "",
     "tema": [],
@@ -678,10 +771,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-01-20-060",
+    "id": "2017-01-20-069",
     "start": 1885.3,
     "end": 1887.38,
-    "speaker_raw": "SPEAKER_05",
+    "speaker_raw": "SPEAKER_03",
     "testo": "no no no sei pronto?",
     "titolo": "",
     "tema": [],
@@ -689,10 +782,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-01-20-061",
+    "id": "2017-01-20-070",
     "start": 1887.4,
     "end": 1903.03,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_04",
     "testo": "va bene Stefano ci sentiamo lunedì che ci spieghi fatemi salutare la mia compagna certo dai allora la saluto la penso sempre ce l'ho sempre nel cuore lei lo sa salutatela anche voi artigiano cosa fai artigiano?",
     "titolo": "",
     "tema": [],
@@ -700,7 +793,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-01-20-062",
+    "id": "2017-01-20-071",
     "start": 1903.69,
     "end": 1905.93,
     "speaker_raw": "SPEAKER_01",
@@ -711,54 +804,65 @@
     "video_url": ""
   },
   {
-    "id": "2017-01-20-063",
+    "id": "2017-01-20-072",
     "start": 1907.67,
     "end": 1914.98,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "abbiamo una tenda da 40 anni quelli che sono vabbè però si va avanti cos'è cos'è?",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "abbiamo una tienda da 40 anni quelli che sono vabbè però si va avanti cos'è cos'è?",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-01-20-064",
+    "id": "2017-01-20-073",
     "start": 1915.26,
     "end": 1952.61,
     "speaker_raw": "SPEAKER_01",
-    "testo": "che gonfia la mutanda la gente si domanda che cosa mai sa Stefano lunedì mattina ti chiamiamo ci fai la recensione del venerdì sera ma soprattutto della serie che hai visto cioè ci spieghi la puntata Va bene Ciao ciao ciao Ciao ragazzi buon lavoro Che bravo ragazzo Fa le mutande Si mangia il suo bel hamburger con la pancetta fritta Coccarum Diciamo la mappa che abbiamo un po' segnato Di queste sere Cranciulate non è vero in giro Ma dopo il McDonald's Si può",
+    "testo": "che gonfia la mutanda la gente si domanda che cosa mai sa Stefano lunedì mattina ti chiamiamo ci fai la recensione del venerdì sera ma soprattutto della serie che hai visto cioè ci spieghi la puntata va bene va bene ciao ciao ciao ciao ciao ragazzi buon lavoro ciao ciao ciao che bravo ragazzo fa le mutande fa le mutande si mangia il suo bel hamburger con la pancetta fritta coca rum diciamo la mappa che abbiamo un po' segnato di queste sere... cranciulate non è vero in giro beh ma dopo il mcdonald's si può",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-01-20-065",
-    "start": 1989.76,
-    "end": 2032.61,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Ciao! Ciao!",
+    "id": "2017-01-20-074",
+    "start": 1989.84,
+    "end": 1990.22,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Grazie.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-01-20-066",
+    "id": "2017-01-20-075",
+    "start": 2032.51,
+    "end": 2032.69,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Ciao Ciao",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2017-01-20-076",
     "start": 2093.13,
     "end": 2132.99,
     "speaker_raw": "SPEAKER_01",
-    "testo": "cioè fare l'amore dopo il McDonald's o comunque dopo una bella mangiata è quella roba lì che devi fare il ruttino del professore quello con lo sfiato sull'angolo dai che sono cose brutte eh lo so sono cose brutte sono cose brutte che schifo no guarda veramente ma io sto a parlare siete voi che mangiate capito vabbè vabbè comunque poi come posso dire la loro vita suona e saranno anche cavoli loro no? cioè perché tu devi sempre tirare fuori questo tema il mio momento relax con due bambini di 5-3 anni è portare fuori il cane a temperature proibite Andrea da Prato Prato fa freddo?",
+    "testo": "cioè fare l'amore dopo il McDonald's o comunque dopo una bella mangiata è quella roba lì che devi fare il ruttino del professore quello con lo sfiato sull'angolo dai che sono cose brutte eh lo so sono cose brutte sono cose brutte che schifo no guarda veramente ma io sto parlando siete voi che mangiate capito vabbè vabbè comunque poi come posso dire la loro vita sociale saranno anche cavoli loro no? cioè perché tu devi sempre tirare fuori questo tema ma allora il mio momento relax con due bambini di 5-3 anni è portare fuori il cane a temperature proibite Andrea da Prato Prato fa freddo?",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-01-20-067",
+    "id": "2017-01-20-077",
     "start": 2133.55,
     "end": 2139.72,
-    "speaker_raw": "SPEAKER_05",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Come Firenze? Sì, mi sembra che ci sono posti in cui fa più freddo in questo momento, però sì.",
     "titolo": "",
     "tema": [],
@@ -766,7 +870,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-01-20-068",
+    "id": "2017-01-20-078",
     "start": 2139.8,
     "end": 2143.1,
     "speaker_raw": "SPEAKER_01",
@@ -777,10 +881,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-01-20-069",
+    "id": "2017-01-20-079",
     "start": 2143.7,
     "end": 2148.99,
-    "speaker_raw": "SPEAKER_05",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Sì, è continentale, è continentale, freddo d'inverno e caldo d'estate.",
     "titolo": "",
     "tema": [],
@@ -788,7 +892,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-01-20-070",
+    "id": "2017-01-20-080",
     "start": 2149.01,
     "end": 2153.59,
     "speaker_raw": "SPEAKER_01",
@@ -799,18 +903,18 @@
     "video_url": ""
   },
   {
-    "id": "2017-01-20-071",
+    "id": "2017-01-20-081",
     "start": 2153.63,
     "end": 2158.53,
-    "speaker_raw": "SPEAKER_05",
-    "testo": "Clima continentale, ma mi stai prendendo? No, no, no, dimmelo. No, clima continentale è lontano dalla costa.",
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Clima continentale, ma mi stai prendendo? No, no, no, dimmelo. No, il clima continentale è lontano dalla costa.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-01-20-072",
+    "id": "2017-01-20-082",
     "start": 2159.37,
     "end": 2160.55,
     "speaker_raw": "SPEAKER_01",
@@ -821,54 +925,54 @@
     "video_url": ""
   },
   {
-    "id": "2017-01-20-073",
+    "id": "2017-01-20-083",
     "start": 2162.76,
     "end": 2185.81,
-    "speaker_raw": "SPEAKER_05",
-    "testo": "no no guardavo se c'era un'etimologia no continentale nel senso che sei nel continente per cui quel clima lì è caratterizzato da estati calde e inverni freddi che bravo che sei ma no è all'elementare è una lezione sul clima Maurizio alla lavagna Laura da Roma Laura da Roma",
+    "speaker_raw": "SPEAKER_03",
+    "testo": "no no guardavo se c'era un'etimologia no continentale nel senso che sei nel continente per cui quel clima lì è caratterizzato da estati calde e inverni freddi che bravo che sei ma no è all'elementaria la lezione sul clima Maurizio alla lavagna Laura da Roma Laura da Roma",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-01-20-074",
+    "id": "2017-01-20-084",
     "start": 2186.71,
     "end": 2234.57,
     "speaker_raw": "SPEAKER_01",
-    "testo": "eccola arriva? Laura da Roma buongiorno Laura buongiorno grazie che sei qui a giocare con noi come tutte le mattine a cazzeggiare sulle vostre sulle nostre le nostre video mentre vado al lavoro tu vai al lavoro voi venerdì sera tu e tuo marito swing che è un modo per dire eh o veramente andate a ballare no andiamo a ballare swing ma scusami idea di chi? mia ovviamente sai che ci avrai scommesso i 100 euro scusami hai detto amò però a me piace giocare a swing andiamo a ballare a swing e lui ti ha detto si vengo da quanti venerdì andate? abbiamo iniziato a ottobre quindi siamo dei beginners ah i beginners ok scusami lui viene di malavoglia o si è gasato?",
+    "testo": "eccola arriva laura da roma buongiorno laura buongiorno grazie che sei qui a giocare con noi come tutte le mattine a cazzeggiare sulle vostre sulle nostre le nostre vite mentre vado al lavoro tu vai al lavoro voi venerdì sera tu e tuo marito swing che è un modo per dire eh o veramente andate a ballare no andiamo a ballare swing ma scusami idea di chi mia ovviamente sai che ci avrai scommesso i 100 euro scusami hai detto amò però a me piace giocare a swing andiamo a ballare a swing e lui ti ha detto si vengo da quanti venerdì andate? abbiamo iniziato a ottobre quindi siamo dei beginners ah i beginners ok scusami lui viene di malavoglia o si è gasato?",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-01-20-075",
+    "id": "2017-01-20-085",
     "start": 2234.69,
     "end": 2262.76,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "no si è gasato perché in realtà non gli riesce e quindi la prende capito di pezzo e deve riuscire a fare tutte le cose quindi comunque alla fine gli piace bene come ci si veste quando si bala lo swing? un po' anni quaranta bello quindi con il ginocchio scarpetta col tacco 5-6 amicetta oppure vestitini carini lui guarda le altre guarda le altre lui i suoi amici dirà tu balla sto swing però c'è sta c'è sta",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "no si è gasato perché in realtà non gli riesce e quindi la prende capito di pezzo e deve riuscire a fare tutte le cose quindi comunque alla fine gli piace bene come ci si veste quando si bala lo swing? un po' anni 40 bello quindi con il ginocchio scarpetta col tacco 5-6 ah amicetta oppure vestitini carini lui guarda le altre guarda le altre lui i suoi amici dirà tu balla sto swing però c'è sta c'è sta",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-01-20-076",
+    "id": "2017-01-20-086",
     "start": 2264.69,
     "end": 2289.24,
     "speaker_raw": "SPEAKER_01",
-    "testo": "No, scherzo, però c'è scritto stasera si prospetta litigata, a me piace quando c'è il nero sulla coppia, le nuvole nere, è roba di ore o di giorni, ma lì c'è da tirar giù la pioggia. Si prospetta litigata perché mio marito è partito questa mattina sboffonchiando che era stanco. Amore io ammazzo me so stanco. Esatto.",
+    "testo": "No, scherzo, però c'è scritto stasera si prospetta litigata, a me piace quando c'è il nero sulla coppia, le nuvole nere, è roba di ore o di giorni, ma lì c'è da tirar giù la pioggia. Si prospetta litigata perché mio marito è partito questa mattina sbofonchiando che era stanco. Amor, io ammazzo me so stanco. Esatto.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-01-20-077",
+    "id": "2017-01-20-087",
     "start": 2291.3,
     "end": 2296.78,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Stanco oggi, vado più tardi al lavoro perché sono un po' stanco, puntini puntini.",
     "titolo": "",
     "tema": [],
@@ -876,7 +980,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-01-20-078",
+    "id": "2017-01-20-088",
     "start": 2297.2,
     "end": 2299.7,
     "speaker_raw": "SPEAKER_01",
@@ -887,10 +991,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-01-20-079",
+    "id": "2017-01-20-089",
     "start": 2299.78,
     "end": 2301.79,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Ci penso da mercoledì.",
     "titolo": "",
     "tema": [],
@@ -898,48 +1002,46 @@
     "video_url": ""
   },
   {
-    "id": "2017-01-20-080",
+    "id": "2017-01-20-090",
     "start": 2301.81,
     "end": 2360.26,
     "speaker_raw": "SPEAKER_01",
-    "testo": "Da mercoledì che non sa come dirti. Ma tu potresti andare senza tuo marito? No, scherzo. cioè se tu vai senza marito c'è uno là per esempio no no ci sono ti invitano a ballare tranquillamente è molto tranquillo come ambiente vai vai non abbiamo una musica swing Maurizio per Laura no ce l'abbiamo hai un nome di una canzone è questa no anche quella di Nina Simone anche sono swing si cosa vuoi di Nina Simone baby just care for me ah ma baby Jess scusami come te la balli come te la balli quella lì ma baby Jess eh ci sono dei passi secondo me non così Fabio possiamo lasciarla a questo punto dai lasciamola grazie Laura grazie ciao ciao ciao ciao ciao ciao",
+    "testo": "Da mercoledì che non sa come dirti. Ma tu potresti andare senza tuo marito? No, scherzo. cioè se tu vai senza marito c'è uno là per esempio no no ci sono ti invitano a ballare tranquillamente è molto tranquillo come ambiente vai vai non abbiamo una musica swing Maurizio per Laura no ce l'abbiamo hai un nome di una canzone è questa no anche quella di Nina Simone anche sono swing si cosa vuoi di Nina Simone baby just care for me ah ma baby just scusami come te la balli come te la balli quella lì ma baby just eh ci sono dei passi secondo me non così Fabio possiamo lasciarla a questo punto dai sì dai lasciamola grazie Laura grazie ciao ciao ciao ciao ciao ciao",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-01-20-081",
-    "start": 2377.7,
+    "id": "2017-01-20-091",
+    "start": 2378.06,
     "end": 2509.0,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "I don't please baby my baby don't care for shorts and he don't even care for clothes he cares for me my baby don't care grazie a tutti",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Grazie a tutti. baby my baby don't care for shorts and he don't even care for clothes he cares for me my baby don't care grazie a tutti",
     "titolo": "My Baby Just Cares for Me di Nina Simone",
     "tema": [
       "musica",
       "swing"
     ],
     "tipo": "riferimento_musica",
-    "video_url": "",
-    "confermato_esterno": true,
-    "copertina": "https://coverartarchive.org/release/3c9330ae-d075-45c6-842e-adf3095786ac/front-250"
+    "video_url": ""
   },
   {
-    "id": "2017-01-20-082",
+    "id": "2017-01-20-092",
     "start": 2559.0,
     "end": 2576.95,
     "speaker_raw": "SPEAKER_01",
-    "testo": "Qualcome faranno, ci mettono giù e scivolano. Non lo so, non sono esperta di swing. Per la prima volta ho ascoltato questa canzone immaginando il bambino che balla. Devo dire che per quelli come della mia età non devi fare dei grandi movimenti perché è una musica cool questa, non è una musica di acrobazia.",
+    "testo": "Qualcome faranno, ci mettono giù e scivolano. Non lo so, non sono esperta di swing. Per la prima volta ho ascoltato questa canzone immaginando il bianco che balla. Devo dire che per quelli come della mia età non devi fare dei grandi movimenti perché è una musica cool questa, non è una musica di acrobazia.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-01-20-083",
+    "id": "2017-01-20-093",
     "start": 2576.97,
     "end": 2578.01,
-    "speaker_raw": "SPEAKER_05",
+    "speaker_raw": "SPEAKER_03",
     "testo": "No, infatti ora va di moda.",
     "titolo": "",
     "tema": [],
@@ -947,29 +1049,29 @@
     "video_url": ""
   },
   {
-    "id": "2017-01-20-084",
+    "id": "2017-01-20-094",
     "start": 2578.17,
     "end": 2637.69,
     "speaker_raw": "SPEAKER_01",
-    "testo": "Ovviamente meno ti muovi più sei cool, secondo me devi far scrocchiare le dita, non lo so, con delle scarpette, ecco cioè... Mi ha appena scritto Benny Benassi dicendo si svuota la pista però con questa musica. A New York ascolto questa musica però te la balli così. Vieni spesso qui? Io sì, sono la barista. Vi seguo dalla Cecchia. Repubblica Cecchia. Ok. fumandomi una sigaretta a meno 9 sul terrazzo con felpa e ho appena visto due volpi in giardino ogni tanto anche fumare fa bene vedi che bella immagine gli ha regalato la sigaretta una ragazza ha scritto ehi Fabietto ma ha sbagliato il telefono ha scritto ehi Gabinetto che gli sia direzione adesso è il mio soprannome Gabinetto puoi chiedere alla ragazza di prima vuoi chiedere alla ragazza di prima dove è la scuola di ballo swing?",
+    "testo": "Ovviamente meno ti muovi più sei cool, secondo me devi far scrocchiare le dita, non lo so, con delle scarpette, ecco cioè... Mi ha appena scritto Benny Benassi dicendo si svuota la pista però con questa musica. A New York ascolto questa musica però te la balli così. Vieni spesso qui? Io sì, sono la barista. Vi seguo dalla Cecchia. Repubblica Cecchia. Ok. fumandomi una sigaretta a meno 9 sul terrazzo con felpa e ho appena visto due volpi in giardino ogni tanto anche fumare fa bene vedi che bella immagine gli ha regalato la sigaretta ok una ragazza ha scritto ehi Fabietto ma ha sbagliato il telefono ha scritto ehi Gabinetto bene che gli sia direzione no che adesso è il mio soprannome Gabinetto puoi chiedere alla ragazza di prima vuoi chiedere alla ragazza di prima dove è la scuola di ballo swing?",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-01-20-085",
+    "id": "2017-01-20-095",
     "start": 2639.15,
     "end": 2660.02,
-    "speaker_raw": "SPEAKER_05",
-    "testo": "ma era di Roma, di dove era la ragazza? di Roma, questa ragazza che mi ha chiamato Gabinetto non lo so, quella di prima era di Roma comunque c'è un'altra ragazza che scrive dice io ballo swing da un anno perché ultimamente sta andando per lo maggiore ma il mio compagno regbista mica ci vuole venire Però dice anche Renzo Arbore, la musica di Renzo Arbore spesso e volentieri viene usata.",
+    "speaker_raw": "SPEAKER_03",
+    "testo": "ma era di Roma di dove era la ragazza? di Roma questa ragazza che mi ha chiamato gabinetto non lo so quella di prima era di Roma comunque c'è un'altra ragazza che scrive dice io ballo swing da un anno vedi che ultimamente sta andando per lo maggiore ma il mio compagno regbista mica ci vuole venire Però dice anche Renzo Arbore, la musica di Renzo Arbore spesso e volentieri viene usata.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-01-20-086",
+    "id": "2017-01-20-096",
     "start": 2660.14,
     "end": 2665.41,
     "speaker_raw": "SPEAKER_01",
@@ -980,10 +1082,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-01-20-087",
+    "id": "2017-01-20-097",
     "start": 2665.45,
     "end": 2668.87,
-    "speaker_raw": "SPEAKER_05",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Ma esistono anche i regbisti coordinati.",
     "titolo": "",
     "tema": [],
@@ -991,7 +1093,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-01-20-088",
+    "id": "2017-01-20-098",
     "start": 2669.35,
     "end": 2770.36,
     "speaker_raw": "SPEAKER_01",
