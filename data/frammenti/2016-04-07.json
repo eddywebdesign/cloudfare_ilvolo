@@ -3,7 +3,7 @@
     "id": "2016-04-07-000",
     "start": 0.8,
     "end": 11.82,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_01",
     "testo": "Radio DJ, One Nation, One Station, One Love I see the moon, I see the moon, I see the moon Oh when you're looking at the sun",
     "titolo": "",
     "tema": [],
@@ -13,9 +13,9 @@
   {
     "id": "2016-04-07-001",
     "start": 24.43,
-    "end": 24.69,
+    "end": 24.75,
     "speaker_raw": "SCONOSCIUTO",
-    "testo": "no no no",
+    "testo": "Grazie a tutti",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -25,7 +25,7 @@
     "id": "2016-04-07-002",
     "start": 95.46,
     "end": 172.48,
-    "speaker_raw": "SPEAKER_07",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Ciao! Ciao!",
     "titolo": "",
     "tema": [],
@@ -36,22 +36,21 @@
     "id": "2016-04-07-003",
     "start": 202.53,
     "end": 237.26,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "Volevo dire a un'ascoltatrice, Alice, che mi scuso, perché Alice dice, ciao Fabio, qualche giorno fa ti sei dimenticato del compleanno di Eric Clapton, ho imparato ad amarlo grazie a te, no? Questo è un compito della Viola, e quindi Alice, io ti chiedo scusa perché, a differenza di Igor Sibaldi che è già qui in postazione... Igor Simaldi, qualsiasi giorno dell'anno... Qualsiasi giorno era? No, non lo so questo, però... Igor Simaldi, che ricordiamo che la settimana scorsa è finita dicendo Maurizio, quando è che compi gli anni? 28 ottobre. Per forza fai il tecnico, hai detto, e abbiamo riso.",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Volevo dire a un'ascoltatrice, Alice, che mi scuso, perché Alice dice, ciao Fabio, qualche giorno fa ti sei dimenticato del compleanno di Eric Clapton, ho imparato ad amarlo grazie a te, no? Questo è un compito della Viola, e quindi Alice, io ti chiedo scusa perché, a differenza di Igor Sibaldi che è già qui in postazione... Igor Simaldi, qualsiasi giorno dell'anno... Che giorno era? No, non lo so questo, però... Igor Simaldi, che ricordiamo che la settimana scorsa è finita dicendo Maurizio, quando è che compi gli anni? 28 ottobre. E per forza fai il tecnico, hai detto, e abbiamo riso.",
     "titolo": "Eric Clapton",
     "tema": [
       "musica",
       "compleanni"
     ],
     "tipo": "riferimento_musica",
-    "video_url": "",
-    "confermato_esterno": false
+    "video_url": ""
   },
   {
     "id": "2016-04-07-004",
     "start": 237.28,
     "end": 238.57,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Ma si può riprendere perché è importante.",
     "titolo": "",
     "tema": [],
@@ -62,8 +61,8 @@
     "id": "2016-04-07-005",
     "start": 238.65,
     "end": 291.21,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "Esatto, e tu hai detto, poi uscendo hai detto, no perché quel giorno lì sono nati questo e questo e questo. Quando io ti ho detto la mia data, ma hai detto, quel giorno lì sono nati questo e questo. Quindi tu, di ogni giorno dell'anno, tu sai, tipo se io ti dico il primo gennaio, due giorni tu di quei giorni sai almeno uno o due per forza, 15 anni di lavoro su sta roba 15 anni di lavoro ma posso provare? sì sì sì Viola, quando è il tuo compleanno? 3 di ottobre John Lennon è morto è nato John Lennon lo controlliamo non lo sai abbiamo paura che in quella finestra lì in quella finestra lì ok quanti giorni si intende la finestra 5 giorni ok vediamo se lo sappiamo comunque insomma è questa roba qua ecco 9 ottobre ci siamo 9 ottobre John Lennon anche parolotti giovanotti giovanotti è nato in quel periodo lì Scusami, ma la mia domanda è questa. Perché ti è sfuggito Eric Clapton?",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Esatto, e tu hai detto, poi uscendo hai detto, no perché quel giorno lì sono nati questo e questo e questo. Quando io ti ho detto la mia data, ma hai detto, quel giorno lì sono nati questo e questo. Quindi tu, di ogni giorno dell'anno, tu sai, tipo se io ti dico il primo gennaio, due giorni tu di quei giorni sai almeno uno o due per forza, 15 anni di lavoro su sta roba 15 anni di lavoro ma posso provare? sì sì sì Viola, quando è il tuo compleanno? 3 di ottobre John Lennon è morto è nato John Lennon lo controlliamo non lo sai abbiamo paura che in quella finestra lì in quella finestra lì ok quanti giorni si intende la finestra 5 giorni ok vediamo se lo sappiamo comunque insomma è questa roba qua 9 ottobre ci siamo 9 ottobre John Lennon 13 ottobre io giovanotti giovanotti è nato in quel periodo lì Scusami, ma la mia domanda è questa. Perché ti è sfuggito Eric Clapton?",
     "titolo": "data di nascita",
     "tema": [
       "data",
@@ -75,9 +74,9 @@
   {
     "id": "2016-04-07-006",
     "start": 291.23,
-    "end": 293.75,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "Non mi è sfuggito, l'ho visto. E non me l'hai detto?",
+    "end": 301.29,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Non mi è sfuggito, l'ho visto. E non me l'hai detto? Non te l'ho detto. Ma no, ma come? Sono l'unico radio DJ che mette Eric Clapton. Hai ragione. Non so cosa è successo quel giorno lì.",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -85,31 +84,9 @@
   },
   {
     "id": "2016-04-07-007",
-    "start": 293.89,
-    "end": 298.29,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "Non te l'ho detto. Ma no, ma come? Sono l'unico radio DJ che mette Eric Clapton.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-04-07-008",
-    "start": 298.31,
-    "end": 301.29,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "Hai ragione. Non so cosa è successo quel giorno lì.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-04-07-009",
     "start": 301.87,
     "end": 343.15,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Questa mattina mettiamo Eric Clapton. No, sto scherzando. Questa mattina già vi devo... Voglio mettere un qualche secondo di un cantante country, che in Italia non è famoso perché... il country è una specie di un gruppo di persone in Italia che si muovono dal Veneto, Roma però insomma questi cantanti country che in America sono delle star che hanno molto più successo dei Rolling Stones per esempio o di altri gruppi famosi tant'è che i biglietti più venduti ai concerti al primo posto c'è un cantante country perché è proprio una realtà molto grande è morto questa leggenda che si chiama Merle Haggard che nessuno ricorda, nessuno conosce invece io questa mattina un pezzettino ve la bico perché voglio raccontarvi un pezzo di storia che è molto interessante e che a me piacciono le storie",
     "titolo": "",
     "tema": [],
@@ -117,10 +94,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-07-010",
+    "id": "2016-04-07-008",
     "start": 343.15,
     "end": 344.99,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_02",
     "testo": "vuoi sentirla adesso?",
     "titolo": "",
     "tema": [],
@@ -128,36 +105,32 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-07-011",
+    "id": "2016-04-07-009",
     "start": 345.01,
-    "end": 381.69,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "no, adesso ne mettiamo la sigla volevo dire, non abbiamo un tema specifico con Igor di Sibaldi perché ci piace molto voi scrivete le domande e Igor risponde ma il tema sono sempre i delfini questa cosa qui si il desiderio è disobbedienza seguire i propri sogni i desideri come dice quella signora lì che dice una domanda a Igor ma non pensa che le cose che insegna nei suoi libri o conferenze siano troppo lontane dalla vita di tutti i giorni cioè certamente dice Alessio è questo il bello certo certo è questo il bello il fatto che la vita di tutti i giorni è troppo poco per tutti è troppo poco per tutti che bello",
+    "end": 385.54,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "no, adesso ne mettiamo la sigla volevo dire, non abbiamo un tema specifico con Igor di Sibaldi perché ci piace molto voi scrivete le domande e Igor risponde ma il tema sono sempre i delfini questa cosa qui si il desiderio è disobbedienza seguire i propri sogni i desideri come dice quella signora lì che dice una domanda a Igor ma non pensa che le cose che insegna nei suoi libri o conferenze siano troppo lontane dalla vita di tutti i giorni cioè certamente dice Alessio è questo il bello certo certo è questo il bello il fatto che la vita di tutti i giorni è troppo poco per tutti è troppo poco per tutti che bello voglio di più, non mi basta mai voglio di più",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
-  },
-  {
-    "id": "2016-04-07-012",
-    "start": 383.0,
-    "end": 433.58,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "voglio di più, non mi basta mai voglio di più Last night she said she loved me What a pity to part I slept with both eyes open Waiting for it to start Good morning life Good morning world How are you? Happiness All at once I knew what living can be Oh it's life It's free It's someone waiting for me Who someday will be",
-    "titolo": "Testo canzone Good Morning",
-    "tema": [
-      "vita",
-      "felicità"
-    ],
-    "tipo": "citazione",
     "video_url": ""
   },
   {
-    "id": "2016-04-07-013",
+    "id": "2016-04-07-010",
+    "start": 406.84,
+    "end": 409.96,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Buongiorno. Buongiorno. Buongiorno. Buongiorno.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-04-07-011",
     "start": 441.13,
     "end": 476.77,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_05",
     "testo": "ovviamente adesso tutti gli ascoltatori scrivono oh ma puoi chiedere della mia data ovviamente ciao Igor io sono un altro mi fanno ridere quelli che dico tipo il 5 settembre siamo io Freddy Mercoli e Enrico Beruschi non solo c'è Ivan il Terribile no però è tipo da da Margarita Orologiava, cosa unisce? Margarita Orologiava, ascoltami, nel senso che ci sono delle energie di quel giorno?",
     "titolo": "Freddy Mercoli e Enrico Beruschi",
     "tema": [
@@ -168,11 +141,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-07-014",
+    "id": "2016-04-07-012",
     "start": 476.97,
-    "end": 502.08,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "Sì, è una cosa che a me ha stupito tantissimo, ogni tanto noi parliamo, ma veramente sono ancora due volte che ci penso, ma come hanno fatto questi egiziani? Perché hanno praticamente suddiviso tutto il tempo umano, che sono 360 giorni secondo loro, in fasi energetiche. Per cui una persona che è nata in un certo giorno ha quella particolare fase lì, come un vento che lo porta. Se segue questo vento gli va tutto bene, se esce da questo vento comincia ad avere mal di pancia, mal di stomaco, mal di schiena, le cose gli vanno stupide.",
+    "end": 507.7,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Sì, è una cosa che a me ha stupito tantissimo, ogni tanto noi parliamo, ma veramente sono ancora due volte che ci penso, ma come hanno fatto questi egiziani? Perché hanno praticamente suddiviso tutto il tempo umano, che sono 360 giorni secondo loro, in fasi energetiche. Per cui una persona che è nata in un certo giorno ha quella particolare fase lì, come un vento che lo porta. Se segue questo vento gli va tutto bene, se esce da questo vento comincia ad avere mal di pancia, mal di stomaco, mal di schiena, le cose gli vanno storte. Le correnti, vedi Maurizio dice già, tu hai notato che eravamo tupali, Maurizio dice sì, noi ce li abbiamo quasi paralleli.",
     "titolo": "Le fasi energetiche degli egiziani",
     "tema": [
       "tempo",
@@ -183,11 +156,33 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-07-015",
-    "start": 502.12,
-    "end": 555.19,
+    "id": "2016-04-07-013",
+    "start": 508.1,
+    "end": 528.39,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "E dietro Viola che dice no. Che sono, diciamo, raccontano i nostri ascoltatori. Ah, io non seguo il vento, ha ragione. Se stacca il computer. Aspetta un attimo, ok, si è staccato. Ripartito.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-04-07-014",
+    "start": 529.29,
+    "end": 550.95,
     "speaker_raw": "SPEAKER_03",
-    "testo": "Le correnti, vedi, Maurizio dice già, tu hai notato, Maurizio dice sì, noi ce le abbiamo quasi paralleli, e dietro Viola che dice no. che sono, diciamo, raccontano raccontano i nostri ascoltatori no, i nostri ascoltatori ah, io non seguo il vento, ha ragione bello il vento si è staccato il computer aspetta un attimo, ok, si è staccato ripartito niente, finita la puntata perché era tutta sui messaggi e le mail che arrivavano ma che due no no aspetta adesso riparte comunque tranquillo perché Fabio a volte inventa i messaggi quindi inventagli un messaggio caro Simaldi 5 settembre 5 settembre non c'è una poesia? non c'è una canzone? è il giorno dei pirati cioè chi nasce il 5 settembre",
+    "testo": "Niente, finita la puntata perché era tutta sui messaggi e le mail che arrivavano lì. Ma che due... no no aspetta adesso riparte comunque tranquillo perché Fabio a volte inventa i messaggi quindi inventagli un messaggio caro Simaldi 5 settembre 5 settembre non c'è una poesia?",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-04-07-015",
+    "start": 551.15,
+    "end": 555.19,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "non c'è una canzone? è il giorno dei pirati cioè chi nasce il 5 settembre",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -196,35 +191,55 @@
   {
     "id": "2016-04-07-016",
     "start": 557.85,
-    "end": 564.26,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "io sento le voci di quelli in macchina che lo mandano anche io la penso così oggi è il 7 aprile non c'è una canzone oggi è il compleanno di Buddha oggi è il compleanno di Buddha ma veramente auguri Buddha",
+    "end": 563.28,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "io sento le voci di quelli in macchina anche io la penso così oggi è il 7 aprile non c'è una canzone non c'è una poesia oggi è il compleanno di Buddha ma veramente auguri Buddha",
     "titolo": "compleanno di Buddha",
     "tema": [
       "religione"
     ],
     "tipo": "citazione",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
     "id": "2016-04-07-017",
     "start": 577.73,
     "end": 597.61,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_05",
     "testo": "è pure buddista Viola cioè non sai che il tuo capo compie gli anni oggi quindi è Natale tipo ma noi cattolici lo sappiamo quando nasce Gesù perché voi buddisti perché poi sono tanti Buddha in realtà non è uno solo il tuo Buddha quando compie gli anni il mio Buddha sono io quindi il 13 ottobre",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
     "id": "2016-04-07-018",
     "start": 599.05,
+    "end": 601.59,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Però va bene il 7 di aprile per Buddha.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-04-07-019",
+    "start": 601.77,
+    "end": 604.89,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Sì, perché oggi che giornata è per tutti noi diciamo.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-04-07-020",
+    "start": 605.11,
     "end": 664.42,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "però va bene il 7 di aprile per Buddha oggi che giornata è per tutti noi dunque sono quelli dotati di una dote naturale ripeto, io queste cose qui mi sembravano del tutto assurde finché non le ho verificate sono quelli dotati di poteri di conoscenza straordinari che se però si vantano li perdono ecco hai capito? quindi praticamente Buddha andrebbe benissimo quello che dice no io non ci sono io sono al di fuori io devo sparire esattamente questa cosa c'era un mio amico per esempio simpaticissimo che è nato questo giorno lo saluto se che lavorava alle poste ed era un genio è un genio allora gli ho detto perché non fai queste cose qui sei così bravo fai un corso questo fa un corso un seminario a Torino torna a casa la sera felice perché non stava tanto bene economicamente torna a casa la sera felice con questi soldi che aveva fatto con il corso e il giorno dopo mi racconta mi sono fermato a fare benzina lungo la via e dopo 50 km mi sono accorto che ho lasciato la busta dei soldi sul distributore perché? Perché non li vuole?",
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Dunque sono quelli dotati di una dote naturale, ripeto, io queste cose qui mi sembravano del tutto assurde finché non le ho verificate. Sono quelli dotati di poteri di conoscenza straordinari che se però si vantano li perdono. ecco hai capito? quindi praticamente Buddha andrebbe benissimo quello che dice no io non ci sono io sono al di fuori io devo sparire esattamente questa cosa c'era un mio amico per esempio simpaticissimo che è nato questo giorno lo saluto se che lavorava le poste ed era un genio è un genio allora gli ho detto perché non fai queste cose qui sei così bravo fai un corso questo fa un corso un seminario a Torino torna a casa la sera felice perché non stava tanto bene economicamente torna a casa la sera felice con questi soldi che aveva fatto con il corso e già dopo mi racconta mi sono fermato a fare benzina lungo la via e dopo 50 km mi sono accorto che ho lasciato la busta dei soldi sul distributore perché? Perché non li vuole?",
     "titolo": "La vanità e la perdita",
     "tema": [
       "vanità",
@@ -234,11 +249,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-07-019",
+    "id": "2016-04-07-021",
     "start": 664.44,
     "end": 724.81,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "Perché non li voleva lui. Maurizio, sì, sì, è viola. Ragazzi, il computer è tornato, ci potete mandare le vostre cose. Allora, ti volevo dire, la nostra ascoltatrice, quella della settimana scorsa, che c'è il figlio, diciamo, un po' ribelle, che si chiama Schiavi Genitori, ha fatto, l'abbiamo sentita poi lunedì o martedì, ha fatto quella cosa di dire al figlio adolescente, in un periodo un po' così, 19 anni, anzi, insomma, comunque... diventa tu il capofamiglia per un po' e noi ti seguiamo il figlio ha detto no lascio è bravo ha detto no col cavolo è bella lezione bellissima lezione bellissima lezione come si può fare con sto ragazzo che non vuol fare niente siccome poi da quella telefonata sono arrivati molti messaggi di ascoltatori che hanno figli che appunto adolescenti gli sfuggono un po' sfuggono sfuggono sti ragazzi come è giusto come è giusto però sfuggono come è sempre stato Però non è che sfuggono perché inseguono un sogno o qualcosa, sfuggono perché non hanno voglia di fare niente. Qualcuno ha persino detto che è questa generazione, ha questa malattia, gli adolescenti di oggi non hanno passione, non hanno sogni da realizzare, non hanno motivazione.",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Perché non li voleva lui. Maurizio, sì, sì, è viola, ma che cazzo dici? Ragazzi, il computer è tornato, ci potete mandare le vostre cose. Allora, ti volevo dire, la nostra ascoltatrice, quella della settimana scorsa, che c'è il figlio, diciamo, un po' ribelle, che si chiama Schiavi Genitori, ha fatto, l'abbiamo sentita poi lunedì o martedì, ha fatto quella cosa di dire al figlio adolescente, in un periodo un po' così, 19 anni, anzi, insomma, comunque... diventa tu il capofamiglia per un po' e noi ti seguiamo il figlio ha detto no lascio è bravo ha detto no col cavo è bella lezione bellissima lezione bellissima lezione come si può fare con sto ragazzo che non vuol fare niente siccome poi da quella telefonata sono arrivati molti messaggi di ascoltatori che hanno figli che appunto adolescenti gli sfuggono un po' sfuggono sfuggono sti ragazzi come è giusto come è giusto però sfuggono come è sempre stato Però non è che sfuggono perché inseguono un sogno o qualcosa, sfuggono perché non hanno voglia di fare niente. Qualcuno ha persino detto che è questa generazione, ha questa malattia, gli adolescenti di oggi non hanno passione, non hanno sogni da realizzare, non hanno motivazione.",
     "titolo": "La storia di Schiavi Genitori",
     "tema": [
       "genitori",
@@ -248,11 +263,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-07-020",
+    "id": "2016-04-07-022",
     "start": 725.39,
     "end": 804.1,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "Gli adolescenti di oggi hanno un perché gigantesco, enorme, grande come tutto il mondo, ed esigono delle risposte e nessuno gliele sa dare. E qual è questo perché? Non ce ne sono tante. Perché le cose vanno così? Che cos'è questo? E tra l'altro è una bella tecnica di disobbedienza questa, è bellissima. Intanto parliamo della disobbedienza che è una serie di tecniche psicologiche per allargare la mente. C'è una tecnica bellissima che è farsi domande, che è la cosa più semplice che ci sia. Uno va in giro, nota qualcosa, per esempio, a me è capitato l'altro giorno, guardo il cartello di divieto di sosta. Perché? Lo vedo da quando sono nato e ho sempre pensato il cartello è lì, è così e basta. È così. A un certo punto l'ho visto davvero e dico ma perché è fatto blu e rosso? Perché? Perché è indaco e bordeaux tra l'altro. Cosa vuol dire indaco e bordeaux? Non c'è nessun senso. E perché per esempio in Irlanda invece è bianco? ecco questa cosa io non la so non la so ma nessuno lo sa no sicuramente qualcuno lo sa ci sarà un signore che si è svegliato la mattina e ha detto ragazzi facciamo così allora rossofermi ma perché rosso e blu ci sarà un senso per esempio quando c'è il senso unico si vede tu non fai questi concorsi a Brescia perché se tu fai questi concorsi a Brescia io so già cosa ti rispondono",
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Gli adolescenti di oggi hanno un perché gigantesco, enorme, grande come tutto il mondo, ed esigono delle risposte e nessuno gliele sa dare. E qual è questo perché? Non ce ne sono tante. Perché le cose vanno così? Che cos'è questo? E tra l'altro è una bella tecnica di disobbedienza questa, è bellissima. Intanto parliamo della disobbedienza che è una serie di tecniche psicologiche per allargare la mente. C'è una tecnica bellissima che è farsi domande, che è la cosa più semplice che ci sia. Uno va in giro, nota qualcosa, per esempio, a me è capitato l'altro giorno, guardo il cartello di divieto di sosta. Perché? Lo vedo da quando sono nato e ho sempre pensato che il cartello è lì, è così e basta. A un certo punto l'ho visto davvero e dico ma perché è fatto blu e rosso? Perché? Perché è indaco e bordeaux tra l'altro. Cosa vuol dire indaco e bordeaux? Non c'è nessun senso. E perché per esempio in Irlanda invece è bianco? ecco questa cosa qui io non la so non la so ma nessuno lo sa no sicuramente qualcuno lo sa ci sarà un signore che si è svegliato la mattina e ha detto ragazzi facciamo così allora rossofermi ma perché il rosso e il blu ci sarà un senso per esempio quando c'è il senso unico si vede tu non fai questi concorsi a Brescia sì perché se tu fai questi concorsi a Brescia io so già cosa ti rispondono",
     "titolo": "La disobbedienza e la ricerca di risposte",
     "tema": [
       "disobbedienza",
@@ -262,10 +277,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-07-021",
+    "id": "2016-04-07-023",
     "start": 805.54,
     "end": 836.08,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_05",
     "testo": "si vede che hai proprio un cazzo di faccia nel senso si vede che non c'è niente da fare il discorso di prima, la vita di tutti i giorni è lontana la vita di tutti i giorni è lontana perché è troppo poca adesso noi mettiamo un disco, non ci scrivete tutti il 7 giugno perché non possiamo dare 365 risposte il 7 giugno è bello cosa fanno il 7 giugno? sono i super lavoratori il 7 giugno è super... Livia! come Goghen Stevenson Pietro Primo devi lavorare molto mettiamo un disco e poi rispondiamo con un ascoltatore",
     "titolo": "vita di tutti i giorni lontana",
     "tema": [
@@ -275,49 +290,65 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-07-022",
+    "id": "2016-04-07-024",
     "start": 847.48,
     "end": 990.11,
-    "speaker_raw": "SPEAKER_05",
-    "testo": "Oh Mr. Johnson must get out, Mr. Johnson must be free, Mr. Johnson must get white before the night. Oh Mr. Johnson must get out, Mr. Johnson must be free, Mr. Johnson must get white before the night. He dreams for more, he dreams for a change to come It's hard to find a way in the middle of a crowd And it's always hard to say if our doubts are wrong or right Oh, Mr. Johnson must get out Mr. Johnson must be free Mr. Johnson must get white before the night Oh, Mr. Johnson must get out Il nostro corso gratuito è www.mesmerism.info Musica Mr. Johnson must get out Mr. Johnson must be free Mr. Johnson must get white before the night Mr. Johnson must get out Mr. Johnson must be free Mr. Johnson must get white before the night Mr. Johnson must get out Mr. Johnson must be free Mr. Johnson must get white before the night Mr. Johnson must get out Ciao!",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Oh, Mr. Johnson must get out, Mr. Johnson must be free, Mr. Johnson must get white before the night. Oh, Mr. Johnson must get out, Mr. Johnson must be free, Mr. Johnson must get white before the night. He dreams for more, he dreams for a change to come It's hard to find a way in the middle of a crowd And it's always hard to say if our doubts are wrong or right Oh, Mr. Johnson must get out, Mr. Johnson must be free Mr. Johnson must get white before the night Oh, Mr. Johnson must get out Grazie a tutti. Musica Mr. Johnson must get out Mr. Johnson must be free Mr. Johnson must get white Before the night Mr. Johnson must get out Mr. Johnson must be free Mr. Johnson must get white Before the night Mr. Johnson must get out Mr. Johnson must be free Mr. Johnson must get white Before the night Mr. Johnson must get out Ciao!",
     "titolo": "Mr. Johnson",
     "tema": [
       "musica",
       "canzone"
     ],
     "tipo": "riferimento_musica",
-    "video_url": "",
-    "confermato_esterno": true,
-    "copertina": "https://coverartarchive.org/release/1a7ba68c-c3cc-4183-a258-fd9a9b7f4120/front-250"
-  },
-  {
-    "id": "2016-04-07-023",
-    "start": 999.49,
-    "end": 1044.26,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "Per fortuna Jain stava cantando e gli ascoltatori non hanno sentito il fatto che il 29 settembre che è nato sia Berlusconi che Bersani e anche Francesco D'Assisi, a un certo punto Igor Viola tu non l'hai sentito, ha detto ma perché Berlusconi e Francesco D'Assisi sono la stessa cosa dal punto di vista della personalità. fortuna non hanno sentito gli ascoltatori perché uno più attratto dalle forze non del bene ma della condivisione l'altro più da un ego non è astrologia come concili questi due personaggi prima di sentire Bettina che ci sta chiamando da Bruxelles no",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": "",
-    "autore": ""
-  },
-  {
-    "id": "2016-04-07-024",
-    "start": 1045.4,
-    "end": 1171.03,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "Milano vive a Parigi vive a Parigi ok ok va bene va bene stai lì Bettina un secondo esatto allora Francesco D'Assisi e Berlusconi dunque ognuno ha la sua funzione energetica poi la usa come vuole ok cioè uno può essere un pazzo giocatore d'azzardo contrabbandiere e l'altro lato allo stesso giorno può essere un francescano generosissimo ok però è interessante l'atteggiamento che è l'orientamento della personalità generale e hanno in comune sia Berlusconi sia Francesco Assisi una cosa interessantissima che è io devo piacere a tutti io devo piacere a tutti attenzione, Viola dice sì come Maurizio con la testa Francesco aveva questa caratteristica che è un personaggio straordinario è piaciuto sia al sultano che a quel tempo era in guerra, faceva le crociate sia al Papa sia a tutti quanti salvo che al suo paese ecco lì a Sisi non è piaciuto assolutamente poi per il resto dovunque andava il suo bisogno principale era piacere io devo piacere a tutti devo far vedere a tutti che si può splendere per me tutti sono principeschi lo stesso atteggiamento c'è anche in quello statista italiano che c'era prima che Berlusconi ok però la domanda è questa cosa che li unisce e che quindi quando la luce non è su di loro cioè l'attenzione non è su di loro pericolo terribile pericolo pericolo terribile è perché è quella roba lì dove quindi soffre uno invecchiando così infatti Francesco Assisi ha fatto una fine tremenda perché il poveraccio aveva un erettico grandioso un filosofo uno dei più grandi filosofi italiani ma penso europei per la profondità del pensiero e per l'intelligenza e il coraggio a un certo punto quando è tornato dall'Egitto lo hanno totalmente emarginato i suoi tanto che lui se n'è andato dicendo adesso io me ne vado sul laverno voglio vedere se vieni a chiamarmi e nessuno è andato a chiamarlo da lì è cominciato un problema fisico tremendo e poi ha fatto una fine orribile tristissimo abbandonato solo grande poeta tra l'altro il primo che ha scritto tutte le cose teologiche in italiano pensa un po' ok abbiamo Bettina buongiorno Bettina ciao come stai Bettina?",
-    "titolo": "La funzione energetica e la personalità",
-    "tema": [
-      "energia",
-      "personalità"
-    ],
-    "tipo": "riflessione",
     "video_url": ""
   },
   {
     "id": "2016-04-07-025",
+    "start": 999.49,
+    "end": 1044.26,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Per fortuna Jain stava cantando e gli ascoltatori non hanno sentito il fatto che il 29 settembre che è nato sia Berlusconi che Bersani e anche Francesco D'Assisi, a un certo punto Igor Viola tu non l'hai sentito, ha detto ma perché Berlusconi e Francesco D'Assisi sono la stessa cosa dal punto di vista della personalità. fortuna non hanno sentito gli ascoltatori uno più attratto dalle forze non del bene ma della condivisione l'altro più da un ego non è astrologia come concili questi due personaggi prima di sentire Bettina che ci sta chiamando da Bruxelles no",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-04-07-026",
+    "start": 1045.4,
+    "end": 1080.25,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Milano vive a Parigi vive a Parigi ok ok va bene va bene stai lì Bettina un secondo esatto allora Francesco D'Assisi e Berlusconi dunque ognuno ha la sua funzione energetica poi la usa come vuole ok cioè uno può essere un pazzo giocatore d'azzardo contrabbandiere e l'altro lato allo stesso giorno può essere un francescano generosissimo ok Però è interessante l'atteggiamento, l'orientamento della personalità generale. E hanno in comune, sia Berlusconi sia Francesco Assisi, una cosa interessantissima che è io devo piacere a tutti. Io devo piacere a tutti.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-04-07-027",
+    "start": 1080.51,
+    "end": 1083.49,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Attenzione, Viola dice sì come Maurizio con la testa.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-04-07-028",
+    "start": 1084.35,
+    "end": 1171.03,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Francesco aveva questa caratteristica, che è un personaggio straordinario, è piaciuto sia al sultano, che a quel tempo era in guerra faceva le crociate sia al papa sia a tutti quanti salvo che al suo paese ecco lì a Sisi non è piaciuto assolutamente poi per il resto dovunque andava il suo bisogno principale era piacere io devo piacere a tutti devo far vedere a tutti che si può splendere per me tutti sono principeschi lo stesso atteggiamento c'è anche in quello statista italiano che c'era prima che Berlusconi ok però la domanda è questa cosa che li unisce e che quindi quando la luce non è su di loro cioè l'attenzione non è su di loro pericolo terribile pericolo pericolo terribile è perché è quella roba lì dove quindi soffre uno invecchiando così infatti Francesco Assisi ha fatto una fine tremenda perché il poveraccio aveva un erettico grandioso un filosofo uno dei più grandi filosofi italiani ma penso europei per la profondità del pensiero e per l'intelligenza e il coraggio a un certo punto quando è tornato dall'Egitto lo hanno totalmente emarginato i suoi tanto che lui se n'è andato dicendo adesso io me ne vado sul laverno voglio vedere se vieni a chiamarmi e nessuno è andato a chiamarlo da lì è cominciato un crollo fisico tremendo e poi ha fatto una fine orribile tristissimo abbandonato solo grande poeta tra l'altro il primo che ha scritto tutte le cose teologiche in italiano pensa un po' ok abbiamo Bettina buongiorno Bettina ciao come stai Bettina?",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-04-07-029",
     "start": 1171.65,
     "end": 1178.61,
     "speaker_raw": "SPEAKER_00",
@@ -328,10 +359,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-07-026",
+    "id": "2016-04-07-030",
     "start": 1181.52,
     "end": 1197.05,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Senti Bettina, se tu avessi adesso la possibilità di parlare con Igor Simaldi. Senti come ride, guardalo. Cosa ti piacerebbe chiedere a Igor Bettina?",
     "titolo": "",
     "tema": [],
@@ -339,29 +370,29 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-07-027",
+    "id": "2016-04-07-031",
     "start": 1197.11,
     "end": 1229.54,
     "speaker_raw": "SPEAKER_00",
-    "testo": "Io l'ho sentito una volta, penso che fosse sui Peccati Capitali, adesso Cassio. ciascuna mia mente adesso ho preso i confini del mondo me lo leggo sulla metro però ho già capito che mi sa che non c'è la soluzione alla fine non è un manuale proprio cioè all'inizio qual è il tuo io per esempio ho un problema che sono super attiva quindi anche quando parlavate delle coppie cioè io sono quella super high energy non ho ancora tradito per carità sei gruppo sanguigno zero tu sai che gruppo sanguigno sei?",
+    "testo": "Io l'ho sentito una volta, penso che fosse sui Peccati Capitali, ho detto Cassi. ciascuna mia mente adesso ho preso i confini del mondo bello quello sulla metro però ho già capito che mi sa che non c'è la soluzione alla fine non è un manuale proprio cioè all'inizio qual è il tuo io per esempio ho un problema che sono super attiva quindi anche quando parlavate delle coppie cioè io sono quella super high energy non ho ancora tradito per carità sei gruppo sanguigno zero tu sai che gruppo sanguigno sei?",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-04-07-028",
+    "id": "2016-04-07-032",
     "start": 1232.04,
-    "end": 1262.99,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "a più a più 9 luglio e so anche che sono l'angelo della celebrità 9 luglio 9 luglio no non è la sua verità attenzione abbiamo sbagliato l'angelo ragazzi non è quello di Proust senti tu sei high energy quindi dai tanto vuoi tanto non stai mai ferma e gli uomini dopo un po' dicono",
+    "end": 1263.11,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "ma non dipende da quello 9 luglio e so anche che sono l'angelo della celebrità 9 luglio 9 luglio no non è la sua verità attenzione abbiamo sbagliato l'angelo ragazzi non è quello di Proust senti tu sei high energy quindi dai tanto vuoi tanto non stai mai ferma e gli uomini dopo un po' dicono oh",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-04-07-029",
+    "id": "2016-04-07-033",
     "start": 1264.15,
     "end": 1269.32,
     "speaker_raw": "SPEAKER_00",
@@ -372,75 +403,25 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-07-030",
+    "id": "2016-04-07-034",
     "start": 1269.88,
-    "end": 1305.61,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "No, scherzo, no, assolutamente, cioè la energy è quel destino lì, deve per forza fare tantissimo, sono quelli che fanno, non so, dei registi che fanno un film ogni cinque anni, sono dei registi che fanno uno all'anno, non possono farne a meno, no? cioè c'è Kubrick e c'è come si chiama Woody Allen che devono per forza stralaborare c'è Fabio Volo per esempio io sono un high energy io faccio la serie, la radio, due figli, i libri tutto male però faccio tutto c'è una cosa che uno può vedere tranquillamente se è high energy o se è estroverso o introverso che questa qui è la parte principale high energy vuol dire estroverso",
+    "end": 1291.0,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "No, scherzo, no, assolutamente, cioè la energy è quel destino lì, deve per forza fare tantissimo, ci sono quelli che fanno, non so, dei registi che fanno un film ogni cinque anni, ci sono dei registi che fanno uno all'anno, non possono farne a meno, no? C'è Kubrick e c'è Woody Allen che devono per forza stralaborare, c'è Fabio Volo per esempio.",
     "titolo": "film di Kubrick e Woody Allen",
     "tema": [
       "lavoro",
       "creatività"
     ],
     "tipo": "riferimento_libro",
-    "video_url": "",
-    "autore": "Kubrick, Woody Allen",
-    "confermato_esterno": false
-  },
-  {
-    "id": "2016-04-07-031",
-    "start": 1306.64,
-    "end": 1310.87,
-    "speaker_raw": "SPEAKER_00",
-    "testo": "Ma io sono introversa in verità, sai tutti gli analisi di Jung?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-04-07-032",
-    "start": 1311.77,
-    "end": 1319.06,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "Sì esattamente, quella lì, comunque è un'analisi che consiglio a tutti. Oh ha detto Jung, Iaiaiel, io io io, oh qua.",
-    "titolo": "Analisi di Jung",
-    "tema": [
-      "psicologia"
-    ],
-    "tipo": "riferimento_libro",
-    "video_url": "",
-    "autore": "Carl Gustav Jung",
-    "confermato_esterno": false
-  },
-  {
-    "id": "2016-04-07-033",
-    "start": 1319.12,
-    "end": 1340.8,
-    "speaker_raw": "SPEAKER_00",
-    "testo": "Iaiaiel conoscete? Quello che applica molto al lavoro, no perché quando sei al lavoro... hanno un po' per vedere se puoi fare il manager io sono l'opposto del manager sono una persona introversa dicono lo stesso carattere di Giovanna d'Arco che è tutto un altro giorno che è 14 gennaio tutto un altro giorno",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-04-07-034",
-    "start": 1341.34,
-    "end": 1364.7,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "quanto mi piace molestare gli ascoltatori che stanno andando al lavoro che sono lì e dicono ma la smettete di dire puttanate e la diranno invece noi no noi ci diciamo delle cose giuste certo per gli energy guarda che comunque è un problema ma non prenderlo come un problema prenderlo come una soluzione problema è chiaro che una persona che ha un'alta energia è nei guai",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
     "video_url": ""
   },
   {
     "id": "2016-04-07-035",
-    "start": 1365.32,
-    "end": 1371.46,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "Perché non può star fermo e perché se la vita, diciamo, di tutti i giorni non basta a tutti, per le persone di alta energia la vita di tutti i giorni è una scarpa estrema.",
+    "start": 1291.18,
+    "end": 1296.85,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Io sono un high energy, io faccio la serie, la radio, due figli, i libri, tutto male, però faccio tutto.",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -448,10 +429,10 @@
   },
   {
     "id": "2016-04-07-036",
-    "start": 1371.48,
-    "end": 1378.74,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "Cioè tu quando hai fatto otto ore di lavoro, dove lavori? Tu che non sei manager, ma avrai sicuramente un ruolo abbastanza importante, immagino, no?",
+    "start": 1297.09,
+    "end": 1319.16,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "C'è una cosa che uno può vedere tranquillamente se è high energy o se è estroverso o introverso, che questa qui è la parte principale. High energy vuol dire estroverso. ma io sono introversa in verità cioè fare tutti gli analisi di Jung sì esattamente esattamente quella lì comunque è un'analisi che consiglio a tutti oh ha detto Jung, Yaya Yaya Yaya Yaya Yaya Yaya Yaya Yaya",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -459,6 +440,50 @@
   },
   {
     "id": "2016-04-07-037",
+    "start": 1325.37,
+    "end": 1340.8,
+    "speaker_raw": "SPEAKER_00",
+    "testo": "hanno un po' per vedere se puoi fare il manager io sono l'opposto del manager sono una persona introversa dicono lo stesso carattere di Giovanna d'Arco che è tutto un altro giorno che è 14 gennaio tutto un altro giorno",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-04-07-038",
+    "start": 1341.34,
+    "end": 1364.7,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "quanto mi piace molestare gli ascoltatori che stanno andando al lavoro che sono lì che dicono ma la smettete di dire puttanate e la diranno invece noi no noi ci diciamo delle cose giuste certo per gli energy guarda che comunque è un problema ma non prenderlo come un problema prenderlo come una soluzione problema è chiaro che una persona che ha un'alta energia è nei guai",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-04-07-039",
+    "start": 1365.32,
+    "end": 1371.46,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Perché non può star fermo e perché se la vita, diciamo, di tutti i giorni non basta a tutti, per le persone di alta energia la vita di tutti i giorni è una scarpa estrema.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-04-07-040",
+    "start": 1371.48,
+    "end": 1378.74,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Cioè, tu quando hai fatto otto ore di lavoro, dove lavori? Tu che non sei manager, ma avrai sicuramente un ruolo abbastanza importante, immagino, no?",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-04-07-041",
     "start": 1378.78,
     "end": 1387.4,
     "speaker_raw": "SPEAKER_00",
@@ -469,10 +494,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-07-038",
+    "id": "2016-04-07-042",
     "start": 1387.42,
     "end": 1393.57,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Ecco, però tu quando finisci le tue otto ore di lavoro, cosa fai? Ti metti sul divano, ti leggi un libro o vai a fare spinning e poi dopo spinning vai, cioè...",
     "titolo": "",
     "tema": [],
@@ -480,7 +505,7 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-07-039",
+    "id": "2016-04-07-043",
     "start": 1395.84,
     "end": 1412.23,
     "speaker_raw": "SPEAKER_00",
@@ -491,55 +516,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-07-040",
+    "id": "2016-04-07-044",
     "start": 1413.01,
     "end": 1490.37,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "è un angelo perché è una persona molto calma e quindi mi pacifica diciamo mi dice va tutto bene secondo Igor Sibaldi tu lo tradirai un giorno no no no no come no hai detto tu una volta che gli hai energy danno tanto vogliono tanto e quindi tradiscono perché amano troppo quando la coppia è in crisi quando la coppia è in crisi non sono in crisi no ma lei mi sento sta scrivendo una forma di felicità praticamente ma scusa di che cosa ti lamenti Bettina? ci stai chiamando? sei contenta? perché si vive con l'ansia poi dopo uno ha sempre questa chiamata dall'altro mondo è più bello di così più bello di così Giovanna d'Arco è stata in luglio ma scusami una cosa ma quest'ansia qua vuol dire che basta che trovi una cosa che ti piace falla te la sfoghi lì tanto ce ne sono tantissime magari se gareassi non è la tua cosa magari devi fare del male devi fare delle cose, organizza dei matrimoni che viene l'infarto va bene, mi ringrazio un sacco figurati va bene, ciao ciao è una forma di modestia uno dice sono così triste perché mi va tutto bene o non sono mai contenti",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-04-07-041",
-    "start": 1511.13,
-    "end": 1637.46,
-    "speaker_raw": "SPEAKER_10",
-    "testo": "a presto no no a presto Ciao!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-04-07-042",
-    "start": 1654.13,
-    "end": 1772.82,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "Comunque Igor, c'è la tua visione del mondo che mi diverte molto, mi piace, e poi c'è la visione degli ascoltatori che sempre mi diverte, poi io sono diviso sempre in questi due mondi, il mondo mio della mia provenienza, quindi diciamo famiglia, lavoratori, normale, la provincia, mio papà stanco la sera, quindi quel mondo delle nonne, delle zie, gli odori delle case, i broccoli nelle scale, quindi ho questa provincia che mantengo dentro nonostante vada... a New York c'è la fidanzata islandese c'è tutto un mondo ampissimo diciamo non ho fatto di piccole cose di ricordi anche invece di proiezioni e desideri da raggiungere e quindi sono sempre quando faccio un'analisi su un qualcosa ho sempre queste due visioni quella diciamo semplice normale anche più diretta a volte anche un po' più violenta perché comunque non include una diversità e altre invece un po' più aperta Quindi la tua risposta a questa ragazza iperattiva è molto affascinante, mi piace e mi trova d'accordo. Poi dopo c'è la risposta invece di quello che ti dicevo io che è di Boostersizio che è come se fosse di Brescia. Ciao sono Alessandra, Alessandro faccio il corriere, volevo dire alla tua amica che ci sta ancora ascoltando, Frankie hai energie, l'ha chiamata così. hai energy di fare 8 ore sul furgone a trasportare pacchi poi vediamo se la sera quando va a casa voglia di fare spinning o di stare sul divano vedi com'è molto la bomba probabilmente voglia di fare spinning esatto quindi era per ridere Ci sono altre domande ragazzi I vostri figli adolescenti fate fatica a tenerli Eccoci qua Non riuscite a trovare parcheggio Eccoci qua Non sapete come smettere di mettere zucchero al caffè Eccoci qua Oh Ah Il prossimo collegamento è una bomba Oh oh oh oh oh oh oh oh Tararatarà",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-04-07-043",
-    "start": 1777.51,
-    "end": 1799.3,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "c'è chi sostiene che spinning e tutte queste cose le fanno le persone che non si stancano durante il lavoro cioè uffici e roba del genere just like an old man I play my lonely song just like an old man I play to get along I got my own style you got your own style I got my own style you got your own style",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-04-07-044",
-    "start": 1806.63,
-    "end": 1806.81,
-    "speaker_raw": "SPEAKER_02",
-    "testo": "Grazie.",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "è un angelo perché è una persona molto calma e quindi mi pacifica diciamo mi dice va tutto bene secondo Igor Sibaldi tu lo tradirai un giorno no no no no come no hai detto tu una volta che gli hai energy danno tanto vogliono tanto e quindi tradiscono perché amano troppo quando la coppia è in crisi quando la coppia è in crisi non sono in crisi no ma lei mi sento sta scrivendo una forma di felicità praticamente ma scusa di che cosa ti lamenti Bettina? ci stai chiamando? sei contenta? perché si vive con l'ansia poi dopo uno ha sempre questa chiamata dall'altro mondo è più bello di così più bello di così Giovanna d'Arco spostata in luglio ma scusami una cosa ma quest'ansia qua vuol dire che basta che trovi una cosa che ti piace falla te la sfoghi lì tanto ce ne sono tantissime magari se gareassi non è la tua cosa magari devi fare delle devi fare delle cose, organizza dei matrimoni che viene l'infarto va bene, mi ringrazio un sacco figurati va bene, ciao ciao è una forma di modestia uno dice sono così triste perché mi va tutto bene o non sono mai contenti",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -547,10 +528,10 @@
   },
   {
     "id": "2016-04-07-045",
-    "start": 1852.91,
-    "end": 1853.17,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "Grazie.",
+    "start": 1511.13,
+    "end": 1637.46,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "a presto da da da Ciao! Ciao!",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -558,9 +539,31 @@
   },
   {
     "id": "2016-04-07-046",
+    "start": 1654.13,
+    "end": 1784.69,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Comunque Igor, c'è la tua visione del mondo che mi diverte molto, mi piace, e poi c'è la visione degli ascoltatori che sempre mi diverte, poi io sono diviso sempre in questi due mondi, il mondo mio della mia provenienza, quindi diciamo famiglia, lavoratori, normale, la provincia, mio papà stanco la sera, quindi quel mondo delle nonne, delle zie, gli odori delle case, i broccoli nelle scale, quindi ho questa provincia che mantengo dentro nonostante vada... a New York c'è la fidanzata islandese c'è tutto un mondo ampissimo diciamo non ho fatto di piccole cose di ricordi anche invece di proiezioni e desideri da raggiungere e quindi sono sempre quando faccio un'analisi su un qualcosa ho sempre queste due visioni quella diciamo semplice normale anche più diretta a volte anche un po' più violenta perché comunque non include una diversità e altre invece un po' più aperta Quindi la tua risposta a questa ragazza iperattiva è molto affascinante, mi piace e mi trova d'accordo. Poi dopo c'è la risposta invece di quello che ti dicevo io che è di Buster Sizzo che è come se fosse di Brescia. Ciao sono Alessandra, Alessandro faccio il corriere, volevo dire alla tua amica che ci sta ancora ascoltando, Frankie hai energie, l'ha chiamata così. hai energy di fare 8 ore sul furgone a trasportare pacchi poi vediamo se la sera quando va a casa voglia di fare spinning o di stare sul divano vedi com'è molto la bomba probabilmente voglia di fare spinning esatto quindi era per ridere ci sono altre domande ragazzi i vostri figli adolescenti fate fatica a tenerli eccoci qua non riuscite a trovare parcheggio eccoci qua non sapete come smettere di mettere zucchero al caffè eccoci qua oh il prossimo collegamento è una bomba oh oh oh oh oh oh oh oh oh tararatarà C'è chi sostiene che spinning e tutte queste cose le fanno le persone che non si stancano durante il lavoro, cioè uffici e roba del genere.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-04-07-047",
+    "start": 1784.77,
+    "end": 1853.47,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "I got my own style, you got your own style. Grazie. Grazie a tutti",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-04-07-048",
     "start": 1932.67,
     "end": 1969.34,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Buongiorno a tutti, avrei preferito una pugnalata piuttosto che sentire mio figlio di sei anni in crisi per la scuola perché non gli piace e nonostante tutto prende dei bei voti. Mi ha detto, allora la mia vita è finita, nessuno mi vuole. Stai imitando la mamma? Alessandra! ma che meraviglia un bambino di 6 anni sentire un bambino di 6 anni che dice la mia vita è finita se tu mi manchi ancora a scuola la mia vita è finita la mia vita è finita che giorno è nato? che giorno è nato tuo figlio Alessandra?",
     "titolo": "Il figlio di sei anni in crisi scolastica",
     "tema": [
@@ -572,10 +575,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-07-047",
+    "id": "2016-04-07-049",
     "start": 1969.47,
     "end": 1977.1,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_02",
     "testo": "19 luglio ah ma è il giorno dei criminali non vuole andare a scuola che vuole fare le rapine",
     "titolo": "",
     "tema": [],
@@ -583,33 +586,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-07-048",
+    "id": "2016-04-07-050",
     "start": 1978.52,
     "end": 2023.53,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "vuole organizzare qualcosa di serio no, senti è andato a scuola con un petardo mamma, io voglio fare le rapine no Alessandra è il tuo primo e unico figlio? no, è un altro di dieci anni quello cosa dice della scuola, va bene? sì, va bene i primi sono sempre i più bravi sono quelli più cioè i rock and roll sono quasi sempre i secondi dicono, tendenzialmente secondo i secondi è di quanto tendente Perché poi io me ne accorgo, guarda io ne ho due sono piccolissime, però il primo ti ricordi cade il ciuccio, lo prendi, lo sterilizzi dai fuochi, il secondo cade il ciuccio, lo metti in bocca e dici boh è andata, perché il primo si becca tutte le ansie di due genitori che imparano a farlo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-04-07-049",
-    "start": 2023.65,
-    "end": 2025.05,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "Interessante il testo che ha mandato lei.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-04-07-050",
-    "start": 2025.35,
-    "end": 2062.41,
-    "speaker_raw": "SPEAKER_01",
-    "testo": "avrebbe preferito una pugna a latta piuttosto che sentire in questa mattina sto facendo un po' piange un po' disperato ma senti lui adesso tipo stamattina l'hai portato a scuola stamattina l'ho portato poi in prima elementare cosa ci sale così in prima elementare mica si scrive non si fa niente no è che di base secondo me lui soffre un po' di autostima quindi nel momento in cui si deve confrontare qualcosa qualcuno in una cosa in cui lui sa di essere un po' debole ma se mi hai detto che è bravo che prende anche dei bei voti no allora dal punto di vista didattico è bravo è un po' indietro dal punto di vista del disegno non sa ancora disegnare bene quindi se confronta magari col bambino gli esce la parte delinquente non so disegnare io ti brucio lo zaino",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "vuole organizzare qualcosa di serio no, senti è andato a scuola con un petardo mamma, io voglio fare le rapine senti una cosa no Alessandra, è il tuo primo e unico figlio? no, è un altro di dieci anni quello cosa dice della scuola, va bene? sì, va bene i primi sono sempre i più bravi dai, sono quelli più cioè i rock and roll sono quasi sempre i secondi dicono, tendenzialmente secondo i soldati, quanto tendenti Perché poi io me ne accorgo, guarda io ne ho due sono piccolissime, però il primo ti ricordi cade il ciuccio, lo prendi, lo sterilizzi dai fuochi, il secondo cade il ciuccio, lo metti in bocca e dici boh è andata, perché il primo si becca tutte le ansie di due genitori che imparano a farlo.",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -617,10 +598,10 @@
   },
   {
     "id": "2016-04-07-051",
-    "start": 2063.45,
-    "end": 2174.51,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "io troppo il foglio, non so disegnare troppo il foglio grande, un buon segno, mi piace questo bambino Igor Igor i messaggi sono sempre una cosa interessante perché ti costringono ad essere molto concisa e quando una persona è concisa dice le cose profonde tu dici avrei preferito una pugnalata cos'è una pugnalata? è qualcosa che ti entra dentro quindi praticamente vuol dire il tradotto in italiano spiegato psicologico il tuo messaggio vuol dire mio figlio è entrato dentro di me con questa cosa e mi sta dicendo delle cose che ho sempre pensato io e in qualche modo se lui dice la mia vita è finita, nessuno mi vuole sta imitando qualcuno in casa e sta dando voce a qualcuno in casa o come il sospetto che sia tu per il fatto che sia parcheggia Alessandra per ascoltare il resto da te non guidare mentre io ok ok per il fatto naturalmente non il tuo estroverso non il tuo che tutti quanti conoscono però dentro qualcosa di te c'è qualcosa che dice nessuno mi vuole la vita è finita e così via e lui dice lo sente la mamma oppure il papà che lo sente per il fatto che non gli piace la scuola è un bambino del 19 luglio quindi intelligentissimo per sua natura e ha perfettamente ragione testo consigliato Pinocchio al quale la scuola non piaceva assolutamente e che poi fa un miracolo fa una storia di incarnazione infatti l'ho scritto credo che da questa cosa ne uscirò forte nel senso che comunque lui ne uscirò testare quasi sicura ti sta raccontando di te secondo me ma quello che riguarda la scuola c'ha perfettamente ragione c'è questa strage degli innocenti che si chiama scuola tutti i bambini entrano tutti i giorni il bambino entra a scuola non uscirà più bambino perché gli fanno smettere di essere bambino lì diventa pian pianino un adulto chi lo vuol fare? specialmente quando vede gli adulti come si comportano intorno Non ha tutti i torti, eh?",
+    "start": 2023.65,
+    "end": 2025.05,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Interessante il testo che ha mandato lei.",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -628,10 +609,10 @@
   },
   {
     "id": "2016-04-07-052",
-    "start": 2174.59,
-    "end": 2180.73,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "No, però volevo capire... Alessandra, sai cosa posso fare adesso? Posso chiamare il mio amico Silvano Agosti?",
+    "start": 2025.35,
+    "end": 2031.96,
+    "speaker_raw": "SPEAKER_01",
+    "testo": "avrebbe preferito una pugna a latta piuttosto che sentire... Sì, questa mattina sto facendo un po' piange, un po' disperata.",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -639,10 +620,10 @@
   },
   {
     "id": "2016-04-07-053",
-    "start": 2180.75,
-    "end": 2182.31,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "Sì, sì, volentieri, perché lo conosco.",
+    "start": 2031.98,
+    "end": 2039.44,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Ma senti, lui adesso tipo stamattina l'hai portato a scuola, poi in prima elementare, cosa ci sale così di... in prima elementare mica si scrive, non si fa niente.",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -650,10 +631,10 @@
   },
   {
     "id": "2016-04-07-054",
-    "start": 2182.65,
-    "end": 2220.25,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "Aspetta, Stellina, così facciamo il bottolino, si dà fuoco giù sotto, mi chiami? non mettiamo neanche un disco chiamiamo Silvano Agosti vediamo se ci risponde sul cellulare perché dice la stessa cosa che hai detto tu adesso un bambino entra a scuola e esce un cittadino e poi le maestre ci scrivono i messaggi che si incazzano giustamente non suona neanche non ha pagato eccolo qua, impossibile aspetta sentiamo Vediamo se ci chiama. Si è già dato fuoco l'inus? No, aspetta, aspetta.",
+    "start": 2039.46,
+    "end": 2065.92,
+    "speaker_raw": "SPEAKER_01",
+    "testo": "No, è che di base secondo me lui soffre un po' di autostima, quindi nel momento in cui si deve confrontare qualcosa... qualcuno in una cosa in cui lui sa di essere un po' debole ma se mi hai detto che è bravo che prende anche dei bei voti no allora dal punto di vista didattico è bravo è un po' indietro dal punto di vista del disegno non sa ancora disegnare bene quindi se confronto magari col bambino gli esce la parte delinquente non so disegnare io ti brucio lo zaino Io troppo il foglio, non so disegnare troppo il foglio.",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -661,26 +642,21 @@
   },
   {
     "id": "2016-04-07-055",
-    "start": 2220.27,
-    "end": 2229.45,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "Ma è presto, stamattina è presto. Sì, no, ma lui si sveglia presto, Silvano. Ogni tanto lo sento alle sette, alle sei. Intanto comunque se leggi a tuo figlio Pinocchio non è mica male, eh?",
-    "titolo": "Pinocchio",
-    "tema": [
-      "infanzia",
-      "educazione"
-    ],
-    "tipo": "riferimento_libro",
-    "video_url": "",
-    "autore": "Collodi",
-    "confermato_esterno": true
+    "start": 2066.0,
+    "end": 2069.42,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Grande, è un buon segno, mi piace questo bambino.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
   },
   {
     "id": "2016-04-07-056",
-    "start": 2229.89,
-    "end": 2305.64,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "perché vedrai che trova subito un amico secondo me anche Pinocchio era di 19 luglio probabilmente quindi adesso lui questa mattina è andato a scuola e cosa ti ha detto quando l'hai tirato giù dalla macchina e lui non ha fatto una piega però no perché in questi giorni sto facendo un po' bastone un po' carota nel senso che un giorno lo mando e lo vado a prendere a luna il giorno dopo fa tutto il giorno e ieri l'ho portato a fare un giretto sulle giostre e oggi fa tutto il giorno a scuola insomma praticamente ti stai godendo anche tu un po' di tempo con lui perché a causa di questa cosa ti fai un giro al parchetto al pomeriggio guarda si sta immolando per te questo bambino va bene vi spiace se il padre non ci risponde questo bambino si è immolato per lei sta facendo accorgere la mamma che esiste un altro mondo che esiste un altro mondo oltre il lavoro adesso quello più grande vede che vai ai giardini con quello più piccolo e ti dice ma non vado ancora manco io cioè la famiglia si sfalda adesso Senti, ti faccio solo una domanda, in questa frase di tuo figlio ti ci vedi tu o tuo marito? La vita è finita, nessuno mi vuole, potevo far di più, voglio far di più. Il mio marito è più tragico. Il tuo marito è il tragico, esatto, va bene.",
+    "start": 2069.58,
+    "end": 2174.51,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Igor, Igor. I messaggi sono sempre una cosa interessante perché ti costringono ad essere molto concisa e quando una persona è concisa dice le cose profonde. Tu dici avrei preferito una pugnalata, cos'è una pugnalata? È qualcosa che ti entra dentro, no? E quindi praticamente vuol dire, il tradotto in italiano, cioè in italiano spiegato psicologico, il tuo messaggio vuol dire mio figlio è entrato dentro di me con questa cosa e mi sta dicendo delle cose che ho sempre pensato io. E in qualche modo se lui dice la mia vita è finita, nessuno mi vuole, sta imitando qualcuno in casa e sta dando voce a qualcuno in casa o come il sospetto che sia tu. per il fatto che sia parcheggia Alessandra per ascoltare il resto non guidare mentre io ok ok per il fatto naturalmente non il tuo estroverso e non il tu che tutti quanti conoscono però dentro qualcosa di te c'è qualcosa che dice nessuno mi vuole la vita è finita e così via e lui dice lo sente la mamma oppure il papà che lo sente Per il fatto che non gli piace la scuola, è un bambino del 19 luglio, quindi intelligentissimo per sua natura, e ha perfettamente ragione. Testo consigliato Pinocchio, al quale la scuola non piaceva assolutamente e che poi fa un miracolo, fa una storia di incarnazione. infatti l'ho scritto, credo che da questa cosa ne uscirò forte nel senso che comunque lui ne uscirò testare, quasi sicura ti sta raccontando di te secondo me ma quello che riguarda la scuola c'ha perfettamente ragione c'è questa strage degli innocenti che si chiama scuola tutti i bambini entrano tutti i giorni il bambino entra a scuola e non uscirà più bambino perché gli fanno smettere di essere bambino lui diventa pian pianino un adulto chi lo vuol fare? specialmente quando vede gli adulti come si comportano intorno Non ha tutti i torti, eh?",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -688,25 +664,21 @@
   },
   {
     "id": "2016-04-07-057",
-    "start": 2305.66,
-    "end": 2321.29,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "E i bambini di solito dicono quello che vedono i genitori, è un loro modo. Essendo molto superiori ai genitori, se ne prendono cura cercando di aiutarli, di fargli parlare. Poi purtroppo si accorga che i genitori non capiscono e allora pensano di essere sbagliati loro.",
-    "titolo": "Genitori e figli",
-    "tema": [
-      "genitori",
-      "figli",
-      "educazione"
-    ],
-    "tipo": "riflessione",
+    "start": 2174.59,
+    "end": 2180.73,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "No, però volevo capire... Alessandra, sai cosa posso fare adesso? Posso chiamare il mio amico Silvano Agosti?",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
     "id": "2016-04-07-058",
-    "start": 2321.49,
-    "end": 2334.74,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "Senti Alessandra, a che ora vai a prenderlo oggi? Oggi 5. Stasera ti dà fuoco le lenzuola. Mancano solo due mesi per tenere duro.",
+    "start": 2180.75,
+    "end": 2182.31,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Sì, sì, volentieri, perché io conosco.",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -714,6 +686,64 @@
   },
   {
     "id": "2016-04-07-059",
+    "start": 2182.65,
+    "end": 2220.25,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Aspetta, Stellina, così facciamo il bottolino, si dà fuoco giù sotto, mi chiami? non mettiamo neanche un disco chiamiamo Silvano Agosti un secondo vediamo se ci risponde sul cellulare perché dice la stessa cosa che hai detto tu adesso meno male che c'è qualcuno un bambino entra a scuola e esce un cittadino dice e poi le maestre ci scrivono i messaggi che si incazzano giustamente non suona neanche non suona il telefono di Silvano non ha pagato eccolo qua impossibile aspetta sentiamo Vediamo se ci chiama. Si è già dato fuoco l'inus? No, aspetta, aspetta.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-04-07-060",
+    "start": 2220.27,
+    "end": 2228.8,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Ma è presto, stamattina è presto. No, ma lui si sveglia presto, Silvano. Ogni tanto lo sento alle sette, alle sei. Intanto comunque se leggi a tuo figlio Pinocchio non è mica male?",
+    "titolo": "Pinocchio",
+    "tema": [
+      "infanzia",
+      "educazione"
+    ],
+    "tipo": "riferimento_libro",
+    "video_url": ""
+  },
+  {
+    "id": "2016-04-07-061",
+    "start": 2229.89,
+    "end": 2305.64,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "perché vedrai che trova subito un amico secondo me anche Pinocchio era di 19 luglio probabilmente quindi adesso lui questa mattina è andato a scuola e cosa ti ha detto quando l'hai tirato giù dalla macchina e lui non ha fatto una piega però no perché in questi giorni sto facendo un po' bastone un po' carota nel senso che un giorno lo mando e lo vado a prendere a luna il giorno dopo fa tutto il giorno e ieri l'ho portato a fare un giretto sulle giostre e oggi fa tutto il giorno a scuola insomma praticamente ti stai godendo anche tu un po' di tempo con lui perché a causa di questa cosa ti fai un giro al parchetto al pomeriggio guarda si sta immolando per te questo bambino va bene vi spiace se il padre non ci risponde questo bambino si è immolato per lei sta facendo accorgere la mamma che esiste un altro mondo che esiste un altro mondo oltre il lavoro adesso quello più grande vede che vai ai giardini con quello più piccolo e ti dice ma non vado ancora manco io cioè la famiglia si sfalda adesso Senti ti faccio solo una domanda, in questa frase di tuo figlio ti ci vedi tu o tuo marito? La vita è finita, nessuno mi vuole, potevo far di più, voglio far di più. Il mio marito è più tragico. Il tuo marito è il tragico, esatto, va bene.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-04-07-062",
+    "start": 2305.66,
+    "end": 2321.29,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "E i bambini di solito dicono quello che vedono i genitori, è un loro modo, essendo molto superiori ai genitori se ne prendono cura cercando di aiutarli, di farli parlare. Poi purtroppo si accorgono che i genitori non capiscono e loro pensano di essere sbagliati loro.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-04-07-063",
+    "start": 2321.49,
+    "end": 2334.74,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Senti Alessandra, a che ora vai a prenderlo oggi? Oggi 5. Stasera ti dà fuoco le lenzuola. Mancano solo due mesi, però devi tenere duro.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-04-07-064",
     "start": 2334.92,
     "end": 2339.28,
     "speaker_raw": "SPEAKER_01",
@@ -724,11 +754,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-07-060",
+    "id": "2016-04-07-065",
     "start": 2357.27,
     "end": 2531.44,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "Visto dall'oblò di questo aereo il mondo sembra bene organizzato dell'uomo cogli l'operato serio il tratto netto, duro ed ordinato reticoli di campi cesellati di cui non percepisci mai l'arsura e specchi d'acqua poi come diamanti quell'uomo regalato alla natura forse per darle una struttura per darle una struttura E strade che si inseguono impossibili Dei popoli raccontano il cammino Aggirano i più straordinari ostacoli Ma basta non guardarli da vicino E noi che siamo in mezzo a queste ali impavide Non siamo niente o siamo tutto Lasciarci trasportare è stato facile Ma adesso ritornare giù Non sembrerebbe giusto Dovremmo resistere Dovremmo insistere E starcene ancora su Se fosse possibile Toccando le nuvole O vivere altissimi Non guardare giù, non so se c'è la rete, il mondo da quassù, sembra lontano invece, invece un attimo lo sai, rifinirci dentro e devo stare attento, a non sbagliare a polvere lento, a non sbagliarsi di me lato. è già una strada sottilissima che non riesco più a vedere se continui ad aggrapparti rischiamo di cadere di cadere oppure fingere un'altra acrobazia è una questione di equilibrio e l'equilibrio è una filosofia dovremmo resistere dovremmo insistere e starcene ancora su Se fosse possibile, toccando le nuvole, vivere altissimi.",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Visto dall'oblò di questo aereo Il mondo sembra bene organizzato Dell'uomo cogli l'operato serio Il tratto netto, duro ed ordinato Reticoli di campi cesellati Di cui non percepisci mai l'arsura E specchi d'acqua poi come diamanti Quell'uomo regalato alla natura forse per darle una struttura per darle una struttura E strade che si inseguono impossibili Dei popoli raccontano il cammino Aggirano i più straordinari ostacoli Ma basta non guardarli da vicino E noi che siamo in mezzo a queste ali impavide Non siamo niente o siamo tutto Lasciarci trasportare è stato facile Ma adesso ritornare giù Non sembrerebbe giusto Dovremmo resistere Dovremmo insistere E starcene ancora su Se fosse possibile Toccando le nuvole O vivere altissimi Non guardare giù, non so se c'è la rete, il mondo da quassù, sembra lontano invece, invece un attimo lo sai, rifinirci dentro e devo stare attento, a non sbagliare a polvere lento, a non sbagliarsi di me lato. è già una strada sottilissima che non riesco più a vedere se continuo ad aggrapparti rischiamo di cadere di cadere oppure fingere un'altra acrobazia è una questione di equilibrio e l'equilibrio è una filosofia dovremmo resistere dovremmo insistere e starcene ancora su Se fosse possibile, toccando le nuvole, vivere altissimi.",
     "titolo": "Visto dall'oblò",
     "tema": [
       "natura",
@@ -739,23 +769,22 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-07-061",
+    "id": "2016-04-07-066",
     "start": 2542.18,
     "end": 2621.19,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "Acrobati è anche il titolo della canzone Daniele Silvestri mia figlia a tre anni e mezzo mi ha detto prima di andare a dormire mamma vai a letto questa sera la favola me la leggo da solo e poi vado a dormire non servi e così non servi tre anni e poi lei è andata nel letto così dice la mamma sono andato a vedere poi se si era addormentato ho aperto la porta per vedere se stava leggendo e mia figlia mi ha detto devi dirmi qualcosa scusa, devi dirmi qualcosa? no, sono venuto a dormire vai a dormire tre anni, va bene mio figlio, scusami, mio nipote il primo giorno alle elementari mi ha detto ma che ci vado a fare a scuola che non sono capace né di leggere né di scrivere va bene insomma c'è questa altri ascoltatori adesso qui dovrei trovarla quella di prima che dice e io l'anno prossimo devo mandare mio figlio a scuola e non so come cioè come convincerlo come dire come rendegli dolce questa pillola che perché c'è tutto un mondo qua leggiamo anche di persone che ci scrivono molto bella dice come faccio a convincerlo senza fargli capire che mento che mento cioè quindi ci sono dei genitori che adesso qualcuno si arrabbia i maestri anche qualcos'altro che convinti che quando mandano un figlio a scuola in qualche modo in qualche modo glielo rovinano mettiamola così io sono di queste idee lo sfregiano sono di queste idee perché sperimentalmente ma non solo io anche Sant'Agostino eh",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Acrobati è anche il titolo della canzone Daniele Silvestri mia figlia a tre anni e mezzo mi ha detto prima di andare a dormire mamma vai a letto questa sera la favola me la leggo da solo e poi vado a dormire non servi e così non servi tre anni e poi lei è andata nel letto così dice la mamma sono andato a vedere poi se si era addormentato ho aperto la porta per vedere se stava leggendo e mia figlia mi ha detto devi dirmi qualcosa scusa, devi dirmi qualcosa? no, sono venuto a dormire vai a dormire tre anni, va bene mio figlio, scusami, mio nipote il primo giorno alle elementari mi ha detto ma che ci vado a fare a scuola che non sono capace né di leggere né di scrivere c'è questa altri ascoltatori adesso qui dovrei trovarla quella di prima che dice e io l'anno prossimo devo mandare mio figlio a scuola e non so come cioè come convincerlo come dire come rendegli dolce questa pillola che perché c'è tutto un mondo qua leggiamo anche di persone che ci scrivono molto bella dice come faccio a convincerlo senza fargli capire che mento che mento cioè quindi ci sono dei genitori che adesso qualcuno si arrabbia i maestri anche qualcos'altro che convinti che quando mandano un figlio a scuola in qualche modo in qualche modo glielo rovinano mettiamola così io sono di queste idee lo sfregiano sono di queste idee perché sperimentalmente ma non solo io anche Sant'Agostino eh",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
-    "id": "2016-04-07-062",
+    "id": "2016-04-07-067",
     "start": 2621.29,
-    "end": 2650.64,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "Sant'Agostino nelle confessioni a un certo punto dice i miei genitori sono andati a scuola allora hanno visto com'è e perché mi ci hanno mandato anche me non capisco però l'avevano visto com'era Sant'Agostino però uno come può fare a non mandare i figli a scuola io ci ho pensato per diversi anni perché non riuscivo a trovare la soluzione poi una cosa l'ho trovata mi sembra abbastanza buona allora si prende il ragazzino e la ragazzina e gli spiega che l'insegnante bisogna dargli ragione perché è una persona in difficoltà è una persona che non ha fatto nessun altro lavoro",
+    "end": 2650.56,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Sant'Agostino nelle confessioni a un certo punto dice i miei genitori sono andati a scuola allora hanno visto com'è e perché mi ci hanno mandato anche me non capisco però l'avevano visto com'era Sant'Agostino però uno come può fare a non mandare i figli a scuola io ci ho pensato per diversi anni perché non riuscivo a trovare la soluzione poi una cosa l'ho trovata mi sembra abbastanza buona allora si prende il ragazzino e la ragazzina e gli spiega che l'insegnante bisogna dargli ragione perché è una persona in difficoltà è una persona che non ha fatto nessun altro lavoro allora",
     "titolo": "Sant'Agostino e la scuola",
     "tema": [
       "educazione",
@@ -766,33 +795,33 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-07-063",
+    "id": "2016-04-07-068",
     "start": 2651.56,
     "end": 2701.41,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "tocca Bertone tocca Di Rolfi tocca Gasparri Viola tu hai motivo di sentirti così coinvolta in questa storia hai parenti maestre robe la mia mamma è un'ex insegnante no no no però non è per quello che dico no no però sto dicendo adesso tu dicendo questa cosa che le maestre sono persone di difficoltà il programma è finito poi dopo giovedì ne riparliamo aspetta che lo spiego allora sono persone di difficoltà perché sono persone troppo poetiche sono persone con alti ideali quindi non si sono integrati per niente nella realtà bella questa spiega bella quello che stava mandando l'insegnante già al messaggio di insulto lo cancelli no è vero sconfitti dalla realtà sono entrati a scuola in un mondo che potevano frequentare che è il mondo dei bambini",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "tocca Bertone tocca Di Rolfi tocca Gasparri guarda tu hai motivo di sentirti così coinvolta in questa storia hai parenti maestre robe la mia mamma è un'ex insegnante no no no però non è per quello che dico no no però sto dicendo adesso tu dicendo questa cosa che le maestre sono persone di difficoltà il programma è finito poi dopo giovedì ne riparliamo aspetta che lo spiego allora sono persone di difficoltà perché sono persone troppo poetiche sono persone con alti ideali quindi non si sono integrati per niente nella realtà bella questa spiega bella quello che stava mandando l'insegnante già al messaggio di insulto lo cancelli no è vero sconfitti dalla realtà sono entrati a scuola in un mondo che potevano frequentare che è il mondo dei bambini",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-04-07-064",
+    "id": "2016-04-07-069",
     "start": 2701.65,
     "end": 2739.09,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "cioè tu dici che gli adulti non li volevano o comunque facevano fatica a lavorare questi chi si ripigliava a lavorare se non c'era la scuola al bambino bisogna dire tu devi capire che sono persone in grave difficoltà queste qui col mondo perché sono come te tu devi dargli ragione all'inizio loro penseranno che tu riprendi in giro perché devi dire sempre sì però poi saranno contenti ecco qualcuno che mi capisce fai una buona azione a scuola e poi tu a casa fai quello che ti pare ma almeno hai fatto del bene a scuola si impara a fare del bene all'insegnante e meno male ha spiegato ok ok ok va bene che ore sono Maurizio?",
+    "speaker_raw": "SPEAKER_02",
+    "testo": "cioè tu dici che gli adulti non li volevano o comunque facevano fatica a lavorare questi si ripigliavano a lavorare se non c'era la scuola al bambino bisogna dire tu devi capire che sono persone in grave difficoltà queste qui col mondo perché sono come te tu devi dargli ragione all'inizio loro penseranno che tu riprendi in giro perché devi dire sempre sì però poi saranno contenti ecco qualcuno che mi capisce fai una buona azione a scuola e poi tu a casa fai quello che ti pare ma almeno hai fatto del bene a scuola si impara a fare del bene all'insegnante e meno male ha spiegato ok ok ok va bene che ore sono Maurizio?",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-04-07-065",
+    "id": "2016-04-07-070",
     "start": 2739.11,
-    "end": 2794.52,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "c'è ancora c'è ancora dal minutaggio sono un insegnante ha scritto solo così ha scritto solo sono un insegnante puntini puntini ok mio marito da piccolo piangendo ha chiesto ma come ho fatto a trovarmi se sono sempre stato a casa con te? mi hanno fatto a trovarmi se sono sempre stato... non ho capito questa forse volevo dire un'altra cosa ah qua qualcuno ti dice ecco per esempio qui una Mara, Mara Cirillo dice che i ragazzi non hanno passione perché quelli come noi comunque in questo momento stanno facendo un po' qualunquismo totale negativi no, io non sono qualunquista sono negativista non è qualunquismo proprio no nientellismo Antonella dice ok che parlate di figli ma c'è gente anche che è singola e non ha figli e basta faremo una puntata sono loro i figli, sono loro i genitori",
+    "end": 2757.59,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "c'è ancora c'è ancora dal minutaggio sono un insegnante ha scritto solo così ha scritto solo sono un insegnante puntini puntini ok mio marito da piccolo piangendo ha chiesto ma come ho fatto a trovarmi se sono sempre stato a casa con te? Hanno fatto a trovarmi se sono sempre stato...",
     "titolo": "Il marito da piccolo",
     "tema": [
       "famiglia",
@@ -802,21 +831,43 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-07-066",
-    "start": 2796.02,
-    "end": 2798.75,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "Vabbè ma cosa vuol dire? Non possiamo parlare di figli perché non hanno i figli.",
+    "id": "2016-04-07-071",
+    "start": 2757.61,
+    "end": 2762.2,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Non ho capito questa. Forse volevo dire un'altra cosa.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-04-07-067",
+    "id": "2016-04-07-072",
+    "start": 2762.32,
+    "end": 2794.52,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Ah, qua qualcuno ti dice, ecco, per esempio qui una Mara, Mara Cirillo, dice che i ragazzi non hanno passione perché quelli come noi, comunque in questo momento, stanno facendo un po'... qualunquismo totale negativi no, io non sono qualunquista sono negativista non è qualunquismo proprio no nientellismo Antonella dice ok che parlate di figli ma c'è gente anche che è singola e non ha figli e basta faremo una puntata sono loro i figli, sono loro i genitori",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-04-07-073",
+    "start": 2796.32,
+    "end": 2798.75,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Cosa vuol dire? Non possiamo parlare di figli perché non hanno i figli?",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-04-07-074",
     "start": 2798.79,
     "end": 2805.37,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Io non ho la macchina, vedo pubblicità delle macchine ovunque, le macchine parcheggiate ovunque, il traffico ovunque, non ho la macchina.",
     "titolo": "",
     "tema": [],
@@ -824,10 +875,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-07-068",
+    "id": "2016-04-07-075",
     "start": 2805.49,
     "end": 2807.61,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_02",
     "testo": "C'è una cosa bellissima nei messaggi però.",
     "titolo": "Messaggi belli",
     "tema": [
@@ -838,10 +889,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-07-069",
+    "id": "2016-04-07-076",
     "start": 2807.63,
     "end": 2814.68,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Devi ascoltare sempre quello che riguarda te, se no scusa vai a vivere con Corona su nei boschi. Che cazzo di messaggio è questo?",
     "titolo": "",
     "tema": [],
@@ -849,10 +900,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-07-070",
+    "id": "2016-04-07-077",
     "start": 2815.04,
     "end": 2868.04,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_02",
     "testo": "c'è una cosa bellissima in questi messaggi una bella cosa per psicologica di autoterapia è raccontare agli altri i propri problemi insegnandolo nei dettagli cioè se uno ha un problema per esempio arriva in ritardo Viola scusa guarda che ti stiamo parlando l'importante è se io questo problema lo sento veramente è cominciare a raccontare a qualcuno come fai tu ad arrivare in ritardo nei minimi dettagli come se glielo insegnassi ma io sono una ritardataria? non dire così perché non è vero va bene va bene a insegnare i propri problemi è una cosa magnifica invece di vantarti di come va bene tu spiega alla gente perché una cosa non ti va tanto bene una volta due ti sparisce va bene ci sentiamo giovedì prossimo con Igor Sibaldi e noi domani mattina con il volo del mattino ciao ragazzi",
     "titolo": "Raccontare i propri problemi",
     "tema": [

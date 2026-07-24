@@ -2,9 +2,9 @@
   {
     "id": "2016-03-17-000",
     "start": 4.49,
-    "end": 9.12,
-    "speaker_raw": "SPEAKER_10",
-    "testo": "Radio DJ. One nation, one station. One love.",
+    "end": 135.56,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Radio DJ. One nation, one station. One love. Ciao! ciao ciao Ciao!",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -12,10 +12,10 @@
   },
   {
     "id": "2016-03-17-001",
-    "start": 35.11,
-    "end": 136.02,
-    "speaker_raw": "SPEAKER_08",
-    "testo": "Ciao! no no no a presto",
+    "start": 165.99,
+    "end": 216.15,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "devo dire che le canzoni quelle che hanno il tararattattallallalla cioè che non hanno la parola alleggeriscono molto, non sei d'accordo Ivo? Sì, specialmente al mattino Sì, quando nelle canzoni c'è il nanananananatattarattattata no? Cioè, non lo so Ricorda Mozart? Ti alleggerisce molto la canzone, magari un bel testo e poi alla fine... Come nei film, le scene mute sono quelle principali. Probabilmente è quello, devo dire anche... Non lo so, anche le canzoni che hanno un testo, in realtà se tutte le cantichi con nanananana, c'è solo la melodia, alleggeriscono del peso della parola. Buongiorno Igo Sibanti.",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -23,18 +23,28 @@
   },
   {
     "id": "2016-03-17-002",
-    "start": 165.99,
-    "end": 225.88,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "devo dire che le canzoni quelle che hanno il tararattattallallalla cioè che non hanno la parola alleggeriscono molto, non sei d'accordo Ivo? Sì, specialmente al mattino Sì, quando nelle canzoni c'è il nanananananatattarattattata no? Cioè, non lo so Ricorda Mozart? ti alleggerisce molto la canzone magari un bel testo e poi alla fine come nei film le scene mute probabilmente è quello devo dire anche non lo so anche le canzoni che hanno un testo in realtà se tutte le cantichi con c'è solo la melodia alleggeriscono del peso della parola buongiorno Igor Sibanti Sai che abbiamo spezzato il cuore agli ascoltatori giovedì scorso che stavo a Roma e ci siamo potuti vedere. Che hai fatto giovedì mattina della settimana scorsa? Che hai fatto?",
+    "start": 216.17,
+    "end": 216.99,
+    "speaker_raw": "SPEAKER_01",
+    "testo": "Buongiorno, buongiorno.",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
     "id": "2016-03-17-003",
+    "start": 217.23,
+    "end": 225.88,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Sai che abbiamo spezzato il cuore agli ascoltatori giovedì scorso che stavo a Roma e non ci siamo potuti vedere. Che hai fatto giovedì mattina della settimana scorsa? Che hai fatto?",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-03-17-004",
     "start": 226.16,
     "end": 227.16,
     "speaker_raw": "SPEAKER_01",
@@ -45,22 +55,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-17-004",
+    "id": "2016-03-17-005",
     "start": 227.36,
     "end": 235.76,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "Ah, comunque ti sei piazzato subito una cosa. Vabbè, anche oggi hai delle conferenze, due. Sì, due. Dove ce le hai? A Bustarsizio. Bustarsizio.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-03-17-005",
-    "start": 235.84,
-    "end": 236.6,
-    "speaker_raw": "SPEAKER_01",
-    "testo": "Una è noiosa, eh.",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Ah, comunque ti sei piazzato subito una cosa. Anche oggi hai delle conferenze, due. Sì, due. Dove ce le hai? A Bustarsizio. Bustarsizio.",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -68,10 +67,10 @@
   },
   {
     "id": "2016-03-17-006",
-    "start": 236.72,
-    "end": 239.06,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "Una è un po' noiosa. Da venire ad ascoltare o da fare?",
+    "start": 235.84,
+    "end": 236.58,
+    "speaker_raw": "SPEAKER_01",
+    "testo": "Una è noiosa.",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -79,6 +78,17 @@
   },
   {
     "id": "2016-03-17-007",
+    "start": 236.72,
+    "end": 239.06,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Una è un po' noiosa. Da venire ad ascoltare o da fare?",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-03-17-008",
     "start": 239.32,
     "end": 242.01,
     "speaker_raw": "SPEAKER_01",
@@ -89,10 +99,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-17-008",
+    "id": "2016-03-17-009",
     "start": 242.05,
     "end": 244.59,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Ah, ok. Su che cos'è il tema? Aspetta, eh.",
     "titolo": "",
     "tema": [],
@@ -100,11 +110,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-17-009",
+    "id": "2016-03-17-010",
     "start": 246.25,
     "end": 289.84,
     "speaker_raw": "SPEAKER_01",
-    "testo": "ah si sui programmi aperti come costruire i programmi aperti per la mente ah ok ok senti perché qui arrivano ovviamente mi diceva anche la strina interessante la cosa dei programmi aperti sono i tipi occhi e i tipi unghia nel mondo aspetta aspetta aspettate ragazzi fermi tutti 9.08 programmi aperti per la mente programmi aperti cioè dunque esiste il tipo umano che si chiama unghia unghia l'unghia non sa fare niente sa solo crescere in avanti ok lei cresce in avanti non gliene frega niente di niente cresce e sa fare solamente quello ok è talmente specializzata nel fare quello che certe volte il proprietario normalmente muore ok e le unghie continuano a crescere per un po' finché l'avvertono e dice guarda guarda che qui è finito tutto no no no",
+    "testo": "ah si sui programmi aperti come costruire i programmi aperti per la mente ah ok ok senti perché qui arrivano ovviamente mi diceva anche la strina interessante la cosa dei programmi aperti qui sono i tipi occhi e i tipi unghia nel mondo aspetta aspetta aspettate ragazzi fermi tutti 9.08 programmi aperti per la mente programmi aperti cioè dunque esiste il tipo umano che si chiama unghia unghia l'unghia non sa fare niente sa solo crescere in avanti ok lei cresce in avanti non gliene frega niente di niente cresce e sa fare solamente quello ok è talmente specializzata nel fare quello che a certe volte il proprietario normalmente muore ok e le unghie continuano a crescere per un po' finché l'avvertono dice guarda guarda che qui è finito tutto no no no",
     "titolo": "programmi aperti per la mente",
     "tema": [
       "mente",
@@ -114,35 +124,54 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-17-010",
+    "id": "2016-03-17-011",
     "start": 291.54,
-    "end": 292.98,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "e chi sono quelli testardi?",
+    "end": 296.11,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "E chi sono quelli testardi? Non lo so, ma che non sanno fare niente.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-03-17-011",
-    "start": 293.87,
-    "end": 333.63,
+    "id": "2016-03-17-012",
+    "start": 296.14,
+    "end": 308.11,
     "speaker_raw": "SPEAKER_01",
-    "testo": "ma che non sanno fare niente no, fanno solo una cosa sono dei soldati i kamikaze servono ammazza se serve certo che fare un viaggio in treno con un unghia è terribile perché non sai parlare di niente poi ci sono gli esseri umani gli occhi i tipi occhi i tipi occhi sono imprevedibili si guardano dappertutto intorno hanno sempre la mente aperta e per passare da un programma all'altro perché tutti hanno la fase unghia nella vita ok ci sono queste tecniche interessantissime ah di annientamento tu dicevi ovviamente come tutti gli ascoltatori chi sono io tu lo chiedi subito chi sono io sono tipo un sacco di tempo",
-    "titolo": "tipi occhi e unghia",
-    "tema": [
-      "mente",
-      "apertura"
-    ],
-    "tipo": "aneddoto",
+    "testo": "No, fanno solo una cosa, sono dei soldati. I kamikaze. Servono, perché l'unghia serve. Ammazza se serve. Certo che fare un viaggio in treno con un unghia è terribile, perché non sai parlare di niente.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-03-17-012",
+    "id": "2016-03-17-013",
+    "start": 308.13,
+    "end": 311.61,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Niente, niente. Poi ci sono gli esseri umani. Gli occhi.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-03-17-014",
+    "start": 311.87,
+    "end": 333.63,
+    "speaker_raw": "SPEAKER_01",
+    "testo": "gli occhi i tipi occhi i tipi occhi sono imprevedibili si guardano dappertutto intorno hanno sempre la mente aperta e per passare da un programma all'altro perché tutti hanno la fase unghia nella vita ok ci sono queste tecniche interessantissime ah di annientamento tu dicevi ovviamente come tutti gli ascoltatori chi sono io tu lo chiedi subito chi sono io sono tipo un sacco di tempo",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-03-17-015",
     "start": 333.93,
     "end": 341.19,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Io mi sono visto per esempio un occhio che invece delle ciglia c'ha le unghie, perché rischia di essere un occhio di mezzo e chiudo gli occhi e clic, clic, clic.",
     "titolo": "occhio con unghie",
     "tema": [
@@ -153,7 +182,7 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-17-013",
+    "id": "2016-03-17-016",
     "start": 341.23,
     "end": 345.19,
     "speaker_raw": "SPEAKER_01",
@@ -167,47 +196,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-17-014",
-    "start": 345.95,
-    "end": 349.88,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "Lo slavista, cioè uno che sciacqua le cose, che slava, cos'è lo slavista?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": "",
-    "autore": ""
-  },
-  {
-    "id": "2016-03-17-015",
-    "start": 350.6,
-    "end": 355.94,
-    "speaker_raw": "SPEAKER_01",
-    "testo": "quello che studia la letteratura russa si chiama slavista?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": "",
-    "autore": ""
-  },
-  {
-    "id": "2016-03-17-016",
-    "start": 356.2,
-    "end": 399.54,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "lo slavista è colui che studia le lingue slave, polacco, russo, bulgaro si assomigliano molto io sono solo una parola che in molte lingue c'è che è una parolaccia perché in italiano è curva però invece in molte lingue dell'est vuol dire una brutta parola donna di facce di costume in polacco vogliamo saltare la sigla Maurizio o la vogliamo mettere? vogliamo metterla perché qui arrivano guarda la posta è già piena di domande buongiorno vita buongiorno sole come si sta là in cima dice?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": "",
-    "autore": ""
-  },
-  {
     "id": "2016-03-17-017",
-    "start": 400.4,
-    "end": 406.94,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "buongiorno uccelli che state canticchiando come state?",
+    "start": 345.95,
+    "end": 399.54,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Lo slavista, cioè uno che sciacqua le cose, che slava, cos'è lo slavista? quello che studia la letteratura russa si chiama slavista lo slavista è colui che studia le lingue slave, polacco, russo, bulgaro si assomigliano molto io sono solo una parola che in molte lingue c'è che è una parolaccia perché in italiano è curva cioè che tu giri però invece in molte lingue dell'est vuol dire una brutta parola donna di facce di costume in polacco vogliamo saltare la sigla Maurizio o la vogliamo mettere? vogliamo metterla perché qui arrivano guarda la posta è già piena di domande buongiorno vita buongiorno sole come si sta là in cima dice?",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -215,24 +208,76 @@
   },
   {
     "id": "2016-03-17-018",
-    "start": 407.34,
-    "end": 426.14,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "non abbiamo bisogno del traduttore ah beh niente, giusto per saperlo ieri notte mi ha detto che mi ama Giardo era un vero messaggio ho dormito con gli occhi aperti per questa cosa come va la vostra felicità?",
-    "titolo": "messaggio di Giardo",
-    "tema": [
-      "amore",
-      "relazioni"
-    ],
-    "tipo": "aneddoto",
+    "start": 400.4,
+    "end": 406.94,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "buongiorno uccelli che state canticchiando come state?",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
     "id": "2016-03-17-019",
+    "start": 407.34,
+    "end": 412.63,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Non abbiamo bisogno del traduttore. Ah beh, niente, giusto per saperlo. Ieri notte mi ha detto che mi ama.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-03-17-020",
+    "start": 414.05,
+    "end": 417.47,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Giardo, era un vero messaggio?",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-03-17-021",
+    "start": 418.15,
+    "end": 420.91,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Ho dormito con gli occhi aperti per questa cosa.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-03-17-022",
+    "start": 424.57,
+    "end": 426.14,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Come va la vostra felicità?",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-03-17-023",
     "start": 426.4,
+    "end": 427.46,
+    "speaker_raw": "SPEAKER_01",
+    "testo": "Era meglio non metterla.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-03-17-024",
+    "start": 428.1,
     "end": 432.96,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "era meglio non metterla oh it's life, it's free it's someone waiting for me",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Oh, it's life, it's free, it's someone waiting for me.",
     "titolo": "it's life, it's free",
     "tema": [
       "amore",
@@ -242,11 +287,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-17-020",
+    "id": "2016-03-17-025",
     "start": 433.48,
     "end": 566.77,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "Buongiorno vita, quale moto migliore per iniziare il mattino dicendo buongiorno vita, ciao sole, uccellini che buon ottimismo arrivano molte mail già durante il programma del trio si stavano mettendo in coda sai come quelli che vanno davanti ai negozi prima che aprono uguale, metaforicamente così con domande anche molto importanti questa è bellissima però questa domanda esatto che ci fa un ascoltatore di cui non diremo il cognome ma solo il nome anzi neanche quello diciamo perché è molto privata secondo me magari non è proprio così la propria storia però qualcuno ci si può trovare più o meno gli dice ieri sera sono andato dalla mia psicoterapeuta o dal mio psicoterapeuta lo psicoterapeuta vai lì e ti dice tutti i fatti tuoi come dice Igor Sibaldi quando tu vedi lo psicoterapeuta o dall'analista affitti un orecchio lui deve stare zitto tu gli dai 70 euro allora lui sta zitto noi siamo l'unica civiltà che affitta le orecchie praticamente la detta come direbbe un ragazzino su una panchina di un parco è cagatemi per un'oretta ti do dei soldi ascoltami come gli anziani che vanno in farmacia o fan finta di star male giusto per avere qualcuno con cui parlare ok caro Igor ieri sera la mia psicoterapeuta o psicoterapeuta mi ha detto che è ora che io dia un taglio al mio matrimonio porca miseria e tu hai detto non si fa siamo in teoria separati ma continuiamo a vivere insieme per motivi lavorativi di lei e la cosa resta sempre un po' così insospesa questo non è vero lui dice che lei loro hanno un bambino di circa due anni abbiamo un bambino dice come è il tuo lei esce già con un altro ma comunque si appoggia molto a me è una storia bellissima ma no è bella sono due persone che si amano sul serio pensa come sono diventato io che ero proprio un'altra persona cioè io l'associazione di una donna che ha un bambino di due anni che ha un compagno in casa ma esce già con un altro mi è venuta una tristezza ma non è vero eh lo so ti chiedo scusa per questo ho fatto il catechista scusami il chirichetto fino a 15 anni quindi è rimasta questa cosa non lo so ma mi dispiace mi dico poveri sono già Comunque niente.",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Buongiorno vita, quale moto migliore per iniziare il mattino dicendo buongiorno vita, ciao sole, uccellini che buon ottimismo arrivano molte mail già durante il programma del trio si stavano mettendo in coda sai come quelli che vanno davanti ai negozi prima che aprono uguale, metaforicamente così con domande anche molto importanti questa è bellissima però questa domanda esatto che ci fa un ascoltatore di cui non diremo il cognome ma solo il nome anzi neanche quello diciamo perché è molto privata secondo me magari non è proprio così la propria storia però qualcuno ci si può trovare più o meno gli dice ieri sera sono andato dalla mia psicoterapeuta o dal mio psicoterapeuta lo psicoterapeuta vai lì e ti dice tutti i fatti tuoi come dice Igor Sibaldi quando tu vedi lo psicoterapeuta o dall'analista affitti un orecchio lui deve stare zitto tu gli dai 70 euro allora lui sta zitto lui sta zitto noi siamo l'unica civiltà che affitta le orecchie che affitta le orecchie cioè praticamente la detta come direbbe un ragazzino su una panchina di un parco è cagatemi per un'oretta ti do dei soldi ascoltami come gli anziani che vanno ma è bello se tu vai sette anni gli anziani che vanno in farmacia o fan finta di star male giusto per avere qualcuno con cui parlare esatto ok caro Igor ok ieri sera la mia psicoterapeuta o psicoterapeuta mi ha detto che è ora che io dia un taglio al mio matrimonio porca miseria e tu hai detto non si fa siamo in teoria separati ma continuiamo a vivere insieme per motivi lavorativi di lei e la cosa resta sempre un po' così insospesa questo non è vero lui dice che lei loro hanno un bambino di circa due anni abbiamo un bambino dice come è il tuo lei esce già con un altro ma comunque si appoggia molto a me è una storia bellissima ma no è bella sono due persone che si amano sul serio pensa come sono diventato io che ero proprio un'altra persona cioè io l'associazione di una donna che ha un bambino di due anni che ha un compagno in casa ma esce già con un altro mi è venuta una tristezza ma non è vero eh lo so ti chiedo scusa per questo ho fatto il catechista scusami il chirichetto fino a 15 anni quindi c'è che è rimasta questa cosa non lo so ma mi dispiace mi dico poveri sono già Comunque niente.",
     "titolo": "buongiorno vita",
     "tema": [
       "ottimismo",
@@ -256,7 +301,7 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-17-021",
+    "id": "2016-03-17-026",
     "start": 567.53,
     "end": 571.73,
     "speaker_raw": "SPEAKER_01",
@@ -270,10 +315,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-17-022",
+    "id": "2016-03-17-027",
     "start": 571.99,
     "end": 604.47,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_05",
     "testo": "No loro dicono che lui dice è anche per questo bambino che facciamo fatica a lasciarsi però in realtà poi dice che lei esce con un'altra ma si appoggia a lui quindi lui è diventato il fratello. la parola si appoggia è bellissimo si appoggia si appoggia vuol dire che non le dà fastidio toccarlo che non le dà fastidio stargli vicino sentire il rumore di quando mastica però diciamo facciamo così lei si è aperto un hard disk c'è una cosa esterna che è la sua vita diciamo passionale e sessuale probabilmente immagino e poi c'è questo compagno con cui hanno un figlio e torna a casa la sera cenano pranzano e questi ruoli qua chiusi però il terapeuta che dice bisogna lasciarlo",
     "titolo": "si appoggia",
     "tema": [
@@ -284,7 +329,7 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-17-023",
+    "id": "2016-03-17-028",
     "start": 605.57,
     "end": 613.62,
     "speaker_raw": "SPEAKER_01",
@@ -298,10 +343,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-17-024",
+    "id": "2016-03-17-029",
     "start": 613.65,
     "end": 619.4,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Come i tavolini, ce ne sono alcuni che stanno su con una gamba sola centrale, altri che hanno bisogno di tre gambe.",
     "titolo": "Tavolini con gambe",
     "tema": [
@@ -312,7 +357,7 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-17-025",
+    "id": "2016-03-17-030",
     "start": 619.46,
     "end": 634.6,
     "speaker_raw": "SPEAKER_01",
@@ -326,11 +371,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-17-026",
+    "id": "2016-03-17-031",
     "start": 634.9,
-    "end": 650.18,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "a meno che non sia una sua terapia d'urto però quindi lei ha affittato questo ragazzo ha affittato un orecchio ma ha affittato anche una bocca perché quello gli dice cosa fare gli ha scattato la bocca all'orecchio gli ha scattato la bocca all'orecchio come l'unghia con l'occhio però eccolo non si può intervenire subito",
+    "end": 658.97,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "a meno che non sia una sua terapia d'urto però quindi lei ha affittato questo ragazzo ha affittato un orecchio ma ha affittato anche una bocca perché quello gli dice cosa fare gli ha scattato la bocca all'orecchio gli ha scattato la bocca all'orecchio come l'unghia con l'occhio però eccolo non si può intervenire subito Nel senso però lui sostiene che loro stanno insieme per motivi di lavoro e anche perché hanno un bambino.",
     "titolo": "Terapia d'urto",
     "tema": [
       "terapia",
@@ -340,24 +385,21 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-17-027",
-    "start": 651.32,
+    "id": "2016-03-17-032",
+    "start": 659.05,
     "end": 675.4,
     "speaker_raw": "SPEAKER_01",
-    "testo": "nel senso però lui sostiene che loro stanno insieme per motivi di lavoro e anche perché hanno un bambino il fatto stesso che scriva una lettera così vuol dire che Enzio tu vuole farlo sapere poi ci tiene mette dappertutto i puntini sospensione praticamente vuol dire guarda scrive sospeso e poi puntini sospeso vuol dire aggiungete voi sono delle cose che voglio dire ma non le voglio dire",
-    "titolo": "Lettera sospesa",
-    "tema": [
-      "lettera",
-      "relazioni"
-    ],
-    "tipo": "aneddoto",
+    "testo": "Il fatto stesso che scriva una lettera così vuol dire che Enzio tu vuole farlo sapere, poi ci tiene, mette dappertutto i puntini sospensione, praticamente vuol dire, guarda scrive sospeso e poi puntini sospeso, vuol dire aggiungete voi, sono delle cose che voglio dire ma non le voglio dire.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-03-17-028",
+    "id": "2016-03-17-033",
     "start": 675.94,
     "end": 730.34,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_05",
     "testo": "ok pieno di puntini di sospensione anche io c'ho sta fobia sta mania prima di sospeso poi puntini di sospensione lei esce con un altro ma comunque mi cerca e si appoggia a me secondo me mi cerca anche un po' sessualmente la posso dire perché in italiano si dice lei mi cerca chi ti cerca poi si appoggia è un verbo forte si appoggia questi qua tra un anno staranno insieme saranno felicissimi senza questo terzo uomo magari viene a trovare ogni tanto senti stamattina quando sono arrivato il nostro portinare Nicola mi ha detto allora questa mattina viene il professore che sa tutto ma come fa a sapere tutto adesso noi mettiamo un disco poi abbiamo tante altre domande di ascoltatori per esempio qui un ascoltatore dice per i desideri non materiali la famosa lista di desideri per esempio voglio diventare questo tipo di persona come si fa poi a verificare se si realizzano veramente dice Giulia di",
     "titolo": "Appoggio emotivo",
     "tema": [
@@ -368,7 +410,7 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-17-029",
+    "id": "2016-03-17-034",
     "start": 731.12,
     "end": 744.65,
     "speaker_raw": "SPEAKER_01",
@@ -383,10 +425,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-17-030",
+    "id": "2016-03-17-035",
     "start": 744.75,
     "end": 749.65,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Perché dai potenza a quel desiderio nel senso che lo togli da ogni cosa che lo tiene legato.",
     "titolo": "Togliere legami al desiderio",
     "tema": [
@@ -398,11 +440,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-17-031",
+    "id": "2016-03-17-036",
     "start": 749.71,
     "end": 782.95,
     "speaker_raw": "SPEAKER_01",
-    "testo": "Perché più pensi, più anticipi il futuro, più pensi a quello che vuoi davvero, più ti conosci, più aumentano. e più scopri tutta una serie di problemi che pensavi di non avere e che ti facevano rassegnare la vita e tutto un tanto te ne liberi proprio precisando se non se la cava dicendo voglio essere più simpatico, voglio essere più ricco e non precisa niente fate voi il fate voi da evitare io voglio essere più simpatico cioè è stata di immaginare esattamente una scena in cui qualcuno gli dice ah porca come sei simpatico sai che sei simpatico, paga te la cena no, una roba così",
+    "testo": "Perché più pensi, più anticipi il futuro, più pensi a quello che vuoi davvero, più ti conosci, più aumentano. e più scopri tutta una serie di problemi che pensavi di non avere e che ti facevano rassegnare la vita e tutto un tanto te ne liberi proprio precisando se non se la cava dicendo voglio essere più simpatico, voglio essere più ricco e non precisa niente fate voi il fate voi da evitare io voglio essere più simpatico cioè si tratta di immaginare esattamente una scena in cui qualcuno gli dice ah porca come sei simpatico sai che sei simpatico, paga te la cena una roba così",
     "titolo": "Conoscenza di sé e problemi",
     "tema": [
       "amore",
@@ -413,22 +455,22 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-17-032",
+    "id": "2016-03-17-037",
     "start": 800.97,
     "end": 941.47,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "no no no no a presto Ciao! Ciao! Ciao!",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Grazie a tutti. grazie a tutti Ciao Ciao no no Ciao!",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-03-17-033",
+    "id": "2016-03-17-038",
     "start": 975.51,
     "end": 1040.39,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "Allora visto che stavamo parlando di questo ascoltatore così dice per la cronaca giusto per massacrarmi del tutto dice no lei sessualmente non mi cerca nell'ultimo anno a me sono aspettate solo le rotture di scatole lo psicoterapeuta non mi ha dato un ordine cosa fare chiarisco ma essendo io uno che tende sempre a fare di testa sua il immagino testa mia insomma così mi ha dato un'indicazione dato che ora sto davvero male insomma quindi questo ragazzo sta con una donna che ha già un altro hanno un bambino di due anni non riesce a lasciarla lei in qualche modo magari si confida con lui comunque lo tiene ancora un po' come dire gli dà ancora un ruolo non passionale sessuale ma magari di come dire di sicurezza sai che spesso nelle relazioni si diventa fratelli se non si sta attento infatti stavo pensando io ciulare non ne posso più dire però sono anche affezionato perché se tu ci pensi come diceva il mio collega Bukowski queste sono cose che dico per fastidio come diceva Bukowski come sono strane le relazioni per anni stai con una persona condividi tutto letto, amore, sessualità poi a un certo punto uno ti dice basta e quella persona nella tua vita non c'è più è strana",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Allora, visto che stavamo parlando di questo ascoltatore, per la cronaca, giusto per massacrarmi del tutto, dice che lei sessualmente non mi cerca, nell'ultimo anno a me sono aspettate solo le rotture di scatole, lo psicoterapeuta non mi ha dato un ordine cosa fare, chiarisco, ma essendo io uno che tende sempre a fare di testa sua... immagino testa mia insomma così mi ha dato un'indicazione dato che ora sto davvero male insomma quindi questo ragazzo sta con una donna che ha già un altro hanno un bambino di due anni non riesce a lasciarla lei in qualche modo magari si confida con lui comunque lo tiene ancora un po' come dire gli dà ancora un ruolo non passionale sessuale ma magari di come dire di sicurezza sai che spesso nelle relazioni si diventa fratelli se non si sta attento infatti stavo pensando guarda io ciulare non ne posso più dire però sono anche affezionato perché se tu ci pensi come diceva il mio collega Bukowski come diceva Bukowski come sono strane le relazioni per anni stai con una persona condividi tutto letto, amore, sessualità poi a un certo punto uno ti dice basta e quella persona nella tua vita non c'è più è strana",
     "titolo": "La rottura di scatole",
     "tema": [
       "psicoterapia",
@@ -438,7 +480,7 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-17-034",
+    "id": "2016-03-17-039",
     "start": 1041.22,
     "end": 1063.22,
     "speaker_raw": "SPEAKER_01",
@@ -452,11 +494,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-17-035",
+    "id": "2016-03-17-040",
     "start": 1064.0,
     "end": 1113.65,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "cioè non ci vedo un uomo nel senso di virile del maschio cioè che va dalla donna e dici punto queste sono le carte in tavola ti piace quello lì non ti piace un momento così il bambino ci ha devastato la vita hai bisogno di sentirsi desiderata non ti guardo più come ti guardavo prima quindi tu non esci con lui perché è bello lui ma sei bella tu nei suoi occhi quindi è colpa mia che non ti capisci eh o sì o no ma a un certo punto secondo me l'uomo deve essere maschio da questo punto di vista non sono sicuro sono uomini femmine aspetticissimi molto teneri sì sono quelli che le donne non li lasciano perché sono dei bravi papà adesso nel frattempo gli darei due consigli a queste persone innanzitutto fare un desiderio ben preciso proprio chiarirsi bene cosa vuole lui vuole sta donna o non la vuole io voglio da una storia d'amore questo è stato io voglio seconda cosa scrivere un romanzo",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Cioè non ci vedo un uomo nel senso di virile, del maschio, cioè che va dalla donna e gli dici punto, queste sono le carte in tavola, ti piace quello lì, non ti piace, un momento così il bambino ci ha devastato la vita, hai bisogno di sentirsi desiderata, non ti guardo più come ti guardavo prima, quindi tu non esci con lui perché è bello lui, ma sei bella tu nei suoi occhi, quindi è colpa mia che non ti... capisci eh? o sì o no ma a un certo punto secondo me l'uomo deve essere maschio da questo punto di vista sono sicuro sono uomini femmine aspetticissimi molto teneri sì sono quelli che le donne non li lasciano perché sono dei bravi papà adesso nel frattempo gli darei due consigli a queste persone innanzitutto fare un desiderio ben preciso proprio chiarirsi bene cosa vuole lui vuole sta donna o non la vuole io voglio da una storia d'amore questo è stato io voglio seconda cosa scrivere un romanzo",
     "titolo": "La bellezza e la desiderabilità",
     "tema": [
       "amore",
@@ -466,7 +508,7 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-17-036",
+    "id": "2016-03-17-041",
     "start": 1114.49,
     "end": 1119.39,
     "speaker_raw": "SPEAKER_01",
@@ -474,49 +516,46 @@
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
-    "id": "2016-03-17-037",
+    "id": "2016-03-17-042",
     "start": 1119.41,
     "end": 1150.39,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "mi stampo la membra ma scusa Nicola non è in linea chiamiamo un secondo Nicola questo è Proust è Proust che non riesce a staccarsi dalla ragazza Radio DJ sono Fabio Volo Fabio Volo ciao abbassa un secondo la radio Nicola ho spento senti allora qui c'è il professore che sa tutto mi hai detto stamattina come fa a sapere tutto Nicola?",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "mi stampo la membra ma scusa Nicola non è in linea chiamiamo un secondo Nicola questo è Proust è Proust che non riesce a staccarsi dalla ragazza sono Fabio Volo Fabio Volo ciao abbassa un secondo la radio Nicola ho spento senti allora qui c'è il professore che sa tutto mi hai detto stamattina come fa a sapere tutto Nicola?",
     "titolo": "In Search of Lost Time",
     "tema": [
       "ricerca",
       "tempo"
     ],
     "tipo": "riferimento_libro",
-    "video_url": "",
-    "autore": "Marcel Proust",
-    "confermato_esterno": true
+    "video_url": ""
   },
   {
-    "id": "2016-03-17-038",
+    "id": "2016-03-17-043",
     "start": 1152.13,
     "end": 1176.62,
     "speaker_raw": "SPEAKER_00",
-    "testo": "ma io non figurati ma secondo te Igor pensa di sé che sa tutto ma no ma no è impossibile hai una domanda a cui non trovi risposta secondo me l'unica domanda è quella se uno chiede qualcosa anche su papà su quello come fa a rispondermi può rispondere solo chi è",
+    "testo": "ma io non figurati ma secondo te Igor pensa di sé che sa tutto ma no ma no è impossibile hai una domanda a cui non trovi risposta secondo me l'unica domanda è quella per esempio se uno chiede qualcosa anche su papà su quello come fa a rispondermi può rispondere solo chi è",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-03-17-039",
+    "id": "2016-03-17-044",
     "start": 1177.55,
     "end": 1218.58,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "che è un papà o che fa quella professione diciamo, chiamiamolo professione Nicola sei troppo criptico, sei troppo intelligente per noi stai parlando detta come ci parliamo io e te quando siamo fuori onda, non sei capito niente allora dimmi la domanda che vuoi fare cioè che ti piacerebbe fare a cui non trovi una risposta ma chi è che sta entrando? qualcuno che è contento di venire al lavoro è Linus è già arrivato allora domanda a Igor Sibaldi da parte di Nicola",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "che è un papà o che fa quella professione diciamo, chiamiamo professione Nicola sei troppo criptico, sei troppo intelligente per noi stai parlando detta come ci parliamo io e te quando siamo fuori onda, non sei capito niente allora dimmi la domanda che vuoi fare cioè che ti piacerebbe fare a cui non trovi una risposta ma chi è che sta entrando? qualcuno che è contento di venire al lavoro è Linus è già arrivato allora domanda a Igor Sibaldi da parte di Nicola",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-03-17-040",
+    "id": "2016-03-17-045",
     "start": 1220.17,
     "end": 1237.59,
     "speaker_raw": "SPEAKER_00",
@@ -527,10 +566,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-17-041",
+    "id": "2016-03-17-046",
     "start": 1237.85,
     "end": 1238.63,
-    "speaker_raw": "SPEAKER_05",
+    "speaker_raw": "SPEAKER_03",
     "testo": "E infatti non lo so.",
     "titolo": "",
     "tema": [],
@@ -538,10 +577,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-17-042",
+    "id": "2016-03-17-047",
     "start": 1241.08,
     "end": 1245.93,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Io penso sia come fai a dare consigli alle persone senza sapere esattamente com'è la loro vita.",
     "titolo": "Il limite dei consigli personali",
     "tema": [
@@ -552,21 +591,21 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-17-043",
+    "id": "2016-03-17-048",
     "start": 1246.73,
     "end": 1252.21,
-    "speaker_raw": "SPEAKER_00",
-    "testo": "Ecco, bravo, bravo Nicola!",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Ecco, bravo Nicola!",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-03-17-044",
+    "id": "2016-03-17-049",
     "start": 1252.55,
     "end": 1262.7,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Cioè, Nicola, tu dici, se ti chiamo un contabile, no? E ti dice la roba sul suo lavoro, tu dovresti essere contabile per poter dare una risposta.",
     "titolo": "",
     "tema": [],
@@ -574,7 +613,7 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-17-045",
+    "id": "2016-03-17-050",
     "start": 1262.76,
     "end": 1263.14,
     "speaker_raw": "SPEAKER_00",
@@ -585,11 +624,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-17-046",
-    "start": 1264.14,
-    "end": 1383.2,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "il direttore di Contabili fai una domanda sul portinaio tu che sei lì alla reception hai una domanda che lui dovrebbe fare il portinaio come deve essere un portinaio come deve essere un portinaio Igor Sibaldi dice come te vai benissimo va bene va bene ciao Nicola ciao sai che l'avevo persa prima l'aveva detto papà poi l'aveva detto un contabile però ho capito cosa intendi puoi dare un consiglio solo se hai vissuto quell'esperienza o comunque se conosci quella persona oppure se lo senti proprio dal cuore è vero si possono dare dei consigli agli sconosciuti io si se lo senti proprio dal cuore c'è quella roba che la senti come si dice di pancia poi lo sconosciuto può dire mi interessa o non mi interessa ma intanto è un punto di vista nuovo allora adesso io per esempio la cosa che vorrei fare distinto è lasciarti qui andare giù per strada con un microfono fermare il primo e dire ti posso risolvere un problema lo possiamo fare con un ascoltatore allora cari ascoltatori avete un problema che dite ma perché è successo così tra me e mio marito ma perché mi è successo così con mio padre con il mio compagno con il mio lavoro e noi da sconosciuti proviamo a dare è un esercizio anche per gli altri ascoltatori mi date un consiglio storie particolari quella che vivo io eccolo qua un gran feeling una grande passione una grande sintonia con un uomo che è impegnato ho fatto la stupidata di dirlo all'altra e ora ci vediamo nel suo garage per chiarire abbracciarci e baciarci lui chiede tempo lui chiede tempo tu l'avete capito? scappo o resto scappo o resto scappo o resto avete capito? non è che l'ha scritta Nicola? un contabile chiuso dal garage non ha capito cosa dice cioè aspetta un attimo lei è una donna lei sta con uno impegnato però lei l'ha detto alla fidanzata di lui cosa gli ha detto?",
+    "id": "2016-03-17-051",
+    "start": 1264.24,
+    "end": 1370.28,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "che è il direttore di Contabili esatto, cioè fai una domanda sul portinaio cioè tu che sei lì alla reception hai una domanda che dici ecco lui dovrebbe fare il portinaio come deve essere un portinaio come deve essere un portinaio Igor Sibaldi dice come te vai benissimo va bene va bene ciao Nicola ciao sai che l'avevo persa prima l'aveva detto papà poi l'aveva detto un contabile però ho capito cosa intendi puoi dare un consiglio solo se hai vissuto quell'esperienza o comunque se conosci quella persona oppure se lo senti proprio dal cuore è vero si possono dare dei consigli agli sconosciuti io si se lo senti proprio dal cuore c'è quella roba che la senti come si dice di pancia poi lo sconosciuto può dire mi interessa o non mi interessa ma intanto è un punto di vista nuovo allora adesso io per esempio la cosa che vorrei fare distinto è lasciarti qui andare giù per strada con un microfono fermare il primo e dire ti posso risolvere un problema lo possiamo fare con un ascoltatore allora cari ascoltatori avete un problema che dite ma perché è successo così tra me e mio marito ma perché mi è successo così con mio padre con il mio compagno con il mio lavoro e noi da sconosciuti proviamo a dare è un esercizio anche per gli altri ascoltatori mi date un consiglio storie particolari quella che vivo io eccolo qua un gran feeling una grande passione una grande sintonia con un uomo che è impegnato ho fatto la stupidata di dirlo all'altra e ora ci vediamo nel suo garage per chiarire abbracciarci e baciarci lui chiede tempo lui chiede tempo tu l'avete capito? scappo o resto scappo o resto scappo o resto avete capito? non è che l'ha scritta Nicola?",
     "titolo": "come deve essere un portinaio",
     "tema": [
       "lavoro",
@@ -599,11 +638,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-17-047",
-    "start": 1383.28,
+    "id": "2016-03-17-052",
+    "start": 1371.71,
     "end": 1391.66,
     "speaker_raw": "SPEAKER_01",
-    "testo": "gli ha detto io sto con tuo compagno e ora si vedono nel garage per chiarire per abbracciarci e baciarci lui chiede tempo ma Igor e Fabio scappo o resto?",
+    "testo": "un contabile chiuso dal garage non ha capito cosa dice cioè aspetta un attimo lei è una donna lei sta con uno impegnato però lei l'ha detto alla fidanzata di lui cosa gli ha detto? gli ha detto io sto con tuo compagno e ora si vedono nel garage per chiarire per abbracciarci e baciarci lui chiede tempo ma Igor e Fabio scappo o resto?",
     "titolo": "si vedono nel garage",
     "tema": [
       "amore",
@@ -613,11 +652,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-17-048",
+    "id": "2016-03-17-053",
     "start": 1391.72,
     "end": 1468.99,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "ma la domanda è ma perché gliel'ha detto scusami l'amante l'ha detto alla moglie in sostanza stai dicendo sono fidanzati insomma l'amante che brutta questa storia dei ruoli però che ho detto io adesso quando una persona è infilata in un ruolo preciso io sono la fidanzata io sono la moglie io sono la mamma quando c'è quel verbo essere lì tremendo che ti vincono il ruolo c'è la vita bloccata sempre è interessante io faccio se tu a uno non gli dici tu sei l'amante quella poi vuole vederti a Natale vuole vederti in vacanza vuole vederti la domenica invece tu quando dici tu sei l'amante lei sa già che non deve chiedere delle cose per questo servono i ruoli no? tu sei operaio, tu sei prete, tu sei avvocato, tu sei professore cioè il ruolo serve a dire ti mettiamo nella società e non devi scassare perché ti abbiamo detto cosa non puoi e cosa non puoi fare e questo è brutto è certo che è brutto però è certo questo è bruttissimo però all'oligarchia non ci sarebbe senza le persone schiacciate da queste paure infatti e se una persona ha il suo ruolo è chiaro che i 110 cioè i 101 desideri non riesce a farlo perché è bloccato sai che sono arrivato quasi a 200 dei fallimenti invece io ho fatto la lista dei miei fallimenti sono quasi a 200 e la mano ancora scrive e la mano ancora scrive vabbè sono un fallito la mia compagna mi dice che non devo smettere di dire che sono un fallito è un modo si chiama un modo apotropaico apotropaico",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "ma la domanda è ma perché gliel'ha detto scusami l'amante l'ha detto alla moglie in sostanza sono fidanzati insomma l'amante che brutta questa storia dei ruoli però che ho detto io adesso quando una persona è infilata in un ruolo preciso io sono la fidanzata io sono la moglie io sono la mamma quando c'è quel verbo essere lì tremendo che ti vincono il ruolo c'è la vita bloccata sempre è interessante io faccio se tu a uno non gli dici tu sei l'amante quella poi vuole vederti a Natale vuole vederti in vacanza vuole vederti la domenica invece tu quando dici tu sei l'amante lei sa già che non deve chiedere delle cose per questo servono i ruoli no? tu sei operaio tu sei prete tu sei avvocato tu sei professore cioè il ruolo serve a dire ti mettiamo nella società e non devi scassare perché ti abbiamo detto cosa non puoi e cosa non puoi fare e questo è brutto è certo che è brutto però è certo questo è bruttissimo però l'oligarchia non ci sarebbe senza le persone schiacciate da queste paure infatti e se una persona ha il suo ruolo è chiaro che i 110 cioè i 110 non riesce a farlo perché è bloccato sai che sono arrivato quasi a 200 dei fallimenti invece io ho fatto la lista dei miei fallimenti sono quasi a 200 e la mano ancora scrive e la mano ancora scrive sono un fallito la mia compagna mi dice che non devo smettere di dire che sono un fallito è un modo si chiama un modo apotropaico apotropaico",
     "titolo": "Il limite dei ruoli definiti",
     "tema": [
       "identità",
@@ -627,34 +666,32 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-17-049",
+    "id": "2016-03-17-054",
     "start": 1477.17,
     "end": 1612.38,
-    "speaker_raw": "SPEAKER_05",
-    "testo": "... ... ... ... Grazie a tutti. Ciao!",
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Musica ... ... ... Grazie a tutti. Ciao!",
     "titolo": "",
     "tema": [],
-    "tipo": "citazione",
+    "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-03-17-050",
+    "id": "2016-03-17-055",
     "start": 1655.67,
     "end": 1674.8,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "Purtroppo l'ultimo giovedì che sei in quelli qua abbiamo parlato di miti cose del genere poi abbiamo parlato di angeli abbiamo parlato di sogni così oggi con quella mail che abbiamo letto all'inizio si è trasformato un po' nella posta del cuore arrivano solo messaggi di gente io l'amo ante io amo mia moglie ma non mi vuole più",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Purtroppo l'ultimo giovedì che sei in query qua abbiamo parlato di miti cose del genere poi abbiamo parlato di angeli abbiamo parlato di sogni così oggi con quella mail che abbiamo letto all'inizio si è trasformato un po' nella posta del cuore arrivano solo messaggi di gente io l'amo ante io amo mia moglie ma non mi vuole più",
     "titolo": "La posta del cuore",
     "tema": [
       "amore",
       "relazioni"
     ],
     "tipo": "riferimento_libro",
-    "video_url": "",
-    "confermato_esterno": true,
-    "copertina": "https://covers.openlibrary.org/b/id/11664855-M.jpg"
+    "video_url": ""
   },
   {
-    "id": "2016-03-17-051",
+    "id": "2016-03-17-056",
     "start": 1675.52,
     "end": 1687.01,
     "speaker_raw": "SPEAKER_01",
@@ -665,29 +702,25 @@
       "relazioni"
     ],
     "tipo": "aneddoto",
-    "video_url": "",
-    "autore": ""
-  },
-  {
-    "id": "2016-03-17-052",
-    "start": 1690.47,
-    "end": 1708.55,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "Ragazzi, con tutto l'affetto che ho per voi, quanto mi spiace che vi state perdendo una discussione fra Igor e Viola, Laura e Maurizio. Appena torniamo in onda, la voglio in onda sta discussione. Il commento di Viola è stato, oh Igor, oh Igor, eh no, eh così è troppo.",
-    "titolo": "Discussione in redazione",
-    "tema": [
-      "relazioni",
-      "lavoro"
-    ],
-    "tipo": "aneddoto",
     "video_url": ""
   },
   {
-    "id": "2016-03-17-053",
+    "id": "2016-03-17-057",
+    "start": 1690.47,
+    "end": 1716.13,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "ragazzi con tutto l'affetto che ho per voi quanto mi spiace che vi state perdendo una discussione fra igor e viola laura e maurizio appena torniamo in onda la voglio in onda sta discussione il commento di viola è stato o igor o igor e no e così è troppo con le religioni e la playstation 2 sillogismi e imperativi hanno fallito",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-03-17-058",
     "start": 1717.45,
-    "end": 1878.12,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Come il sol dell'avvenire così sia Continuiamo ad inventare dimensioni Dopo il cubo, l'ipercubo e così via Solo il senso che la storia sta finendo Quando stai sicura non finirà mai Perché non finirà, non finirà mai Perché non finirà, non finirà Perché non finirà, non finirà mai. Perché non finirà, non finirà. Produciamo nuove contaminazioni. Fukushima, Nagasaki e Muro. E vaccini e olocausti e paradossi. Tartaruga e ragione. Grazie a tutti. non finirà mai perché non finirà non finirà mai Perché non finirà, non finirà mai.",
+    "end": 1877.78,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Come il sol dell'avvenire così sia Continuiamo ad inventare dimensioni Dopo il cubo, l'ipercubo e così via Solo il senso che la storia sta finendo Quando stai sicura non finirà mai Perché non finirà, non finirà mai Perché non finirà, non finirà Perché non finirà, non finirà mai. Perché non finirà, non finirà. Produciamo nuove contaminazioni. Fukushima, Nagasaki e Mururo. E vaccini e olocausti e paradossi. Tartaruga e ragion. non finirà mai perché non finirà non finirà mai perché non finirà non finirà mai perché non finirà non finirà mai non finirà mai perché non finirà non finirà mai perché non finirà non finirà mai Perché non finirà, non finirà mai.",
     "titolo": "Testo poetico sulla fine della storia",
     "tema": [
       "storia",
@@ -698,54 +731,68 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-17-054",
-    "start": 1878.13,
-    "end": 1978.44,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "Perché non finirà, non finirà mai. o le cose concrete ma non solo qui di ascoltatori qui anche in redazione cioè durante la pubblicità di cose c'è stato un o Igor è così è troppo o Maurizio perché Maurizio ti dava ragione sì Maurizio ti dava ragione allora aspettiamo un attimo dobbiamo coinvolgere gli ascoltatori quanto manca giovedì prossimo allora aspetta un secondo intanto scrivono ragazzi tipo io amo una ragazza da sei anni ma lei è lesbica sta arrivando un po' di tutti io voglio disconoscere mio figlio delle cose un po' diciamo trasversali ma ne arriva uno che dice è successo che come l'ha commentato alla fine Viola la storia più vecchia del mondo questo ragazzo trova parte una simpatia con la moglie del suo miglior amico ok stai seguendo perché tu sei serio invece qua loro tiravano già delle penne no io sono già pronta sono già pronta allora con la simpatia alla fine si innamorano cominciano a vedersi di nascosto lui dice adesso noi siamo innamorati io però non tollero più che lei poi torni a casa dal marito cioè lui è diventata di suo proprietario prima gliela usavo presa poi adesso lui vorrebbe proprio che fosse solo sua mettiamola così parlando di proprietà e dice insomma quindi io adesso gli ho detto o me o lui o me o lui e lei dice che mi ama ma non riesce a fare questa scelta e la Viola ha detto la storia più vecchia del mondo e io ho detto Viola se tu dovessi scoprire che il tuo fidanzato fa l'amore con la tua migliore amica mi butto dalla finestra Insomma, invece Igor sostiene che è una bella storia. Sì, sì.",
-    "titolo": "Non finirà mai",
-    "tema": [
-      "relazioni",
-      "amore"
-    ],
-    "tipo": "riflessione",
+    "id": "2016-03-17-059",
+    "start": 1877.8,
+    "end": 1899.03,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Perché non finirà, non finirà mai. Arrivano messaggi di ogni tipo, Igor, abbiamo capito che cosa dobbiamo fare qui a Radio DJ, basta parlare di angeli, suoni, qui la gente vuole cose concrete. Ho le cose concrete, ma non solo qui di ascoltatori, qui anche in redazione, cioè durante la pubblicità di cose c'è stato un, oh Igor, è così, è troppo, o Maurizio, perché Maurizio ti dava ragione.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-03-17-055",
-    "start": 1978.48,
-    "end": 1987.47,
+    "id": "2016-03-17-060",
+    "start": 1899.05,
+    "end": 1899.79,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Sì, Maurizio ti dava ragione.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-03-17-061",
+    "start": 1899.81,
+    "end": 1978.0,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Allora, aspettiamo un attimo, dobbiamo coinvolgere gli ascoltatori, quanto manca a giovedì prossimo? allora aspetta un secondo intanto scrivono ragazzi tipo io amo una ragazza da sei anni ma lei è lesbica sta arrivando un po' di tutti io voglio disconoscere mio figlio delle cose un po' diciamo trasversali ma ne arriva uno che dice è successo che come l'ha commentato alla fine Viola la storia più vecchia del mondo questo ragazzo trova parte una simpatia con la moglie del suo miglior amico ok stai seguendo perché tu sei serio invece qua loro tiravano già delle penne no io sono già pronta sono già pronta allora con la simpatia alla fine si innamorano cominciano a vedersi di nascosto lui dice adesso noi siamo innamorati io però non tollero più che lei poi torni a casa dal marito cioè è diventata di sua proprietà prima gliela usavo presa poi adesso lui vorrebbe proprio che fosse solo sua mettiamola così parlando di proprietà e dice insomma quindi io adesso gli ho detto o me o lui o me o lui e lei dice che mi ama ma non riesce a fare questa scelta e la Viola ha detto la storia più vecchia del mondo e io ho detto Viola se tu dovessi scoprire che il tuo fidanzato fa l'amore con la tua migliore amica mi butto dalla finestra Insomma, invece Igor sostiene che è una bella storia.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-03-17-062",
+    "start": 1978.1,
+    "end": 1987.75,
     "speaker_raw": "SPEAKER_01",
-    "testo": "Ma certo che è una bella storia. A parte che è il primo terzo del romanzo Naccarenina, che è esattamente quello. Sì, no, ma difatti. Lei sta con Vronsky, però lei sta col marito.",
+    "testo": "Certo che è una bella storia. A parte che è il primo terzo del romanzo Naccarenina, che è esattamente quello. Lei sta con Vronsky, però lei sta col marito.",
     "titolo": "Naccarenina",
     "tema": [
       "relazione"
     ],
     "tipo": "riferimento_libro",
-    "video_url": "",
-    "autore": "Giovanni Verga",
-    "confermato_esterno": false
-  },
-  {
-    "id": "2016-03-17-056",
-    "start": 1987.63,
-    "end": 2028.08,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "Eh, certo, certo. Adesso. Però è una storia abbastanza, ha ragione Viola, è abbastanza diffusa. Io credo che ci si innamori anche della donna, del proprio amico, dell'uomo del proprio amico, per due motivi. Uno perché ci si frequenta magari. Un po' anche perché se si è amico di una persona e si è innamorato di una persona vuol dire che ci sono delle cose in comune, no? Cioè è più facile. Io non mi innamorerai mai, non so, per dire, dalla moglie di, non so, Gasparri. Perché è chiaro che... Lo sapevo. Di Gasparri. Sì, faccio un esempio. Zitti, zitti, ragazzi. Perché Gasparri non può essere il mio miglior amico e soprattutto a una donna che gli piace Gasparri non si può innamorare di me. Faccio un esempio pratico. Chi? Lei. Ragazzi, usciamo, per favore. Ho fatto un esempio adesso.",
-    "titolo": "Innamorarsi del proprio amico",
-    "tema": [
-      "amore",
-      "amicizia"
-    ],
-    "tipo": "riflessione",
     "video_url": ""
   },
   {
-    "id": "2016-03-17-057",
+    "id": "2016-03-17-063",
+    "start": 1987.81,
+    "end": 2028.08,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Però è una storia abbastanza diffusa. Io credo che ci si innamori anche della donna, del proprio amico, per due motivi. Uno perché ci si frequenta magari. Un po' anche perché se si è amico di una persona e si è innamorato di una persona vuol dire che ci sono delle cose in comune, no? Cioè è più facile. Io non mi innamorerai mai, non so, per dire, dalla moglie di, non so, Gasparri. Perché è chiaro che... Lo sapevo. Sì, faccio un esempio. Gasparri non può essere il mio miglior amico e soprattutto a una donna che gli piace Gasparri non si può innamorare di me. Faccio un esempio pratico. Chi? Lei. Ragazzi, usciamo, per favore. Ho fatto un esempio adesso.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-03-17-064",
     "start": 2028.24,
     "end": 2095.84,
     "speaker_raw": "SPEAKER_01",
-    "testo": "andiamo avanti posso dire allora però è una bella storia tu dici a me piace perché ogni storia tu dici ah è bella no no questa è tragedia lasciamo parlare la storia bruttina è quello che sta lì fermo e dice io sono il marito lei è la moglie andiamo avanti così per altri 60 anni non cambierà mai niente anche se non siamo felici non provo più niente per lei però io sono questa questa è la più brutta del mondo ok però sono normale perché ho spento il cuore quando ci sono storie così incasinate non è un consiglio, è una mia opinione bisogna immaginarle secondo me, di vederle come le vedrebbe un delfino o come le vedrebbe un gatto senti l'affanculo in macchina degli ascoltatori le ho sentite? siamo delfini Cosa vede un delfino? Un delfino vede un essere umano intenerito, con il cuore che batte forte, con la vita che ha un progetto da realizzare e dice come è contento questa persona, che meraviglia. Per esempio, io ho tre gatti a casa e quando litigavo con mia moglie, i tre gatti si mettevano lì a sentire e dicevano guarda come sono belli quando litigano.",
+    "testo": "andiamo avanti posso dire allora però è una bella storia tu dici a me piace perché ogni storia tu dici ah è bella no no questa è tragedia lasciamo parlare la storia bruttina è quello che sta lì fermo e dice io sono il marito lei è la moglie andiamo avanti così per altri 60 anni non cambierà mai niente anche se non siamo felici non provo più niente per lei però io sono questa questa è la più brutta del mondo ok però sono normale perché ho spento il cuore quando ci sono storie così incasinate non è un consiglio, è una mia opinione bisogna immaginarle secondo me, di vederle come le vedrebbe un delfino o come le vedrebbe un gatto senti l'affanculo in macchina degli ascoltatori le ho sentite? siamo delfini Cosa vede un delfino? Un delfino vede un essere umano intenerito, con il cuore che batte forte, con la vita che ha un progetto da realizzare e dice come è contento questa persona, che meraviglia. Per esempio, io ho tre gatti a casa e quando litigavo con mia moglie i tre gatti si mettevano lì a sentire e dicevano guarda come sono belli quando litigano.",
     "titolo": "Storia di un matrimonio infelice",
     "tema": [
       "amore",
@@ -755,10 +802,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-17-058",
+    "id": "2016-03-17-065",
     "start": 2096.16,
     "end": 2098.16,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Dal loro punto di vista è uno spettacolo.",
     "titolo": "Spettacolo di un matrimonio",
     "tema": [
@@ -769,11 +816,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-17-059",
-    "start": 2100.77,
+    "id": "2016-03-17-066",
+    "start": 2098.2,
     "end": 2126.64,
     "speaker_raw": "SPEAKER_01",
-    "testo": "guarda come sono finalmente spontanei, sinceri non se la raccontano, non si addormentano altrimenti l'uomo è così noioso ma così noioso quando è normale che non è sopportabile io non sono un delfino non è detto non lo so, te lo garantisco aspetta un secondo cerchiamo sempre di capire il noccio della questione il noccio della questione è che spesso in una litigata, in una usì",
+    "testo": "esattamente, come se fossero al cinema guarda come sono finalmente spontanei sinceri, non se la raccontano non si addormentano, altrimenti l'uomo è così noioso, ma così noioso quando è normale, che non è sopportabile ok, vedi che Maurizio fa sì con la testa non sono un delfino non è detto non lo so, te lo garantisco aspetta un secondo, cerchiamo di capire il noccio della questione il noccio della questione è che spesso in una litigata in una usì",
     "titolo": "Capire il noccio della questione",
     "tema": [
       "comunicazione",
@@ -783,35 +830,18 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-17-060",
+    "id": "2016-03-17-067",
     "start": 2127.62,
-    "end": 2188.18,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "vanno giù le macce esce quella cosa lì tant'è che quando uno dice scusami ti ho detto quella cosa perché eravamo arrabbiati però quella è quella che veramente pensa è quello che non ti dice quando non è arrabbiato che è tutto un po' più finto infatti per cui vedere queste storie qui quello che ho detto fino adesso è bellissimo perché sono persone che sono sveglie mentre la maggior parte delle persone che io vedo che conosco per strada faccio una domanda che è un po' birichina no ti faccio una domanda A 101 avrebbero detto birichina, no? Birichina, anche a Radio Montecare un po' birichina. Ti faccio una domanda, anche a Radio Italia. Ti faccio una domanda un po' birichina, Igor. Quando tu sei lì e ti mezzo innamori dalla moglie del tuo miglior amico, non c'hai un pensiero che dice dentro di te il dolore che io posso creare al mio amico è superiore alla quantità d'amore che io posso ricevere e dare? Cioè nel senso che ti fai un riguardo, quello che mia nonna diceva è un riguardo. io rispondo ma poi qualcuno si arrabbia di sicuro io sono già pronta come dice Roberto Facchinetti il cantante, il leader dei Pooh",
-    "titolo": "Storie di persone sveglie",
-    "tema": [
-      "comunicazione",
-      "relazioni"
-    ],
-    "tipo": "aneddoto",
+    "end": 2215.44,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "vanno giù le macce esce quella cosa lì tant'è che quando uno dice scusami ti ho detto quella cosa perché eravamo arrabbiati però quella è quella che veramente pensa è quello che non ti dice quando non è arrabbiato che è tutto un po' più finto infatti per cui vedere queste storie qui quello che ho detto fino adesso è bellissimo perché sono persone che sono sveglie mentre la maggior parte delle persone che io vedo che conosco per strada faccio una domanda che è un po' birichina no ti faccio una domanda A 101 avrebbero detto birichina, no? Birichina, anche a Radio Montecare un po' birichina. Ti faccio una domanda, anche a Radio Italia. Ti faccio una domanda un po' birichina, Igor. Quando tu sei lì e ti mezzo innamori dalla moglie del tuo miglior amico, non c'hai un pensiero che dice dentro di te il dolore che io posso creare al mio amico è superiore alla quantità d'amore che io posso ricevere e dare? Cioè nel senso che ti fai un riguardo, quello che mia nonna diceva è un riguardo. io rispondo ma poi qualcuno si arrabbia di sicuro io sono già pronta come dice Roberto Facchinetti il cantante, il leader dei puh che a qualunque costo non possiamo fargli questo non sarà più giusto quindi tu sei a favore di Roberto Facchini finalmente un uomo è protagonista perché altrimenti sul lavoro non si può però la domanda è rispondi rispondi tu ti innamori della moglie del tuo miglior amico non te la fai cioè",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-03-17-061",
-    "start": 2193.05,
-    "end": 2203.15,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "e a qualunque costo non possiamo fargli questo non sarà più giusto",
-    "titolo": "Non essere più giusto",
-    "tema": [
-      "giustizia",
-      "etica"
-    ],
-    "tipo": "riflessione",
-    "video_url": ""
-  },
-  {
-    "id": "2016-03-17-062",
+    "id": "2016-03-17-068",
     "start": 2216.98,
     "end": 2220.33,
     "speaker_raw": "SPEAKER_01",
@@ -825,10 +855,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-17-063",
+    "id": "2016-03-17-069",
     "start": 2220.37,
     "end": 2221.23,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Certo, certo.",
     "titolo": "",
     "tema": [],
@@ -836,7 +866,7 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-17-064",
+    "id": "2016-03-17-070",
     "start": 2221.51,
     "end": 2246.44,
     "speaker_raw": "SPEAKER_01",
@@ -850,10 +880,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-17-065",
+    "id": "2016-03-17-071",
     "start": 2246.46,
     "end": 2279.45,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Quindi tu dici che l'uomo o la donna che è tradita, non vuole accettare una realtà, quindi inconsciamente lo sa. Le donne, questo posso giurarlo su quello che volete. le donne alcune fanno proprio finta di credere a delle scuse che tu dici ma questo non è un succhiotto questo mi ha dato un gatto ah ok ho partecipato a delle scene e se non fa niente e se una persona non fa niente è una delle tante complicazioni del rapporto d'amore che non è solamente A B il rapporto d'amore c'è tutto nel sabato del mondo",
     "titolo": "La negazione del tradimento",
     "tema": [
@@ -865,7 +895,7 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-17-066",
+    "id": "2016-03-17-072",
     "start": 2279.59,
     "end": 2291.93,
     "speaker_raw": "SPEAKER_01",
@@ -879,11 +909,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-17-067",
+    "id": "2016-03-17-073",
     "start": 2291.99,
     "end": 2294.71,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "Si sente vivo nel dolore, quello sì, siamo d'accordo.",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Si sente vivo nel dolore, quello sì siamo d'accordo.",
     "titolo": "Dolore e passione",
     "tema": [
       "amore",
@@ -893,7 +923,7 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-17-068",
+    "id": "2016-03-17-074",
     "start": 2294.91,
     "end": 2321.9,
     "speaker_raw": "SPEAKER_01",
@@ -907,11 +937,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-17-069",
+    "id": "2016-03-17-075",
     "start": 2322.52,
     "end": 2353.61,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "supera la fase di rendimento e diventa un'unione fortissima può capitare questo Viola, in questo momento sei la pancia del paese non vi conviene allora te con quella barba non ti sopporto più Igor, non si va più d'accordo sai che io all'inizio stavo dalla tua e invece lui l'ha argomentata bene ma sulla carta, sono d'accordo anch'io ah ok, sulla carta non fa una piega ma le tempeste fanno sentire vivi, è importante oh Igor",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "supera la fase di rendimento e diventa un'unione fortissima può capitare questo Viola in questo momento sei la pancia del paese non vi conviene allora te con quella barba non ti sopporto più Igor non si va più d'accordo sai che io all'inizio stavo dalla tua e invece lui l'ha argomentata bene ma sulla carta sono d'accordo anch'io ah ok sulla carta non fa una piega ma le tempeste fanno sentire vivi è importante oh Igor",
     "titolo": "Unione fortissima",
     "tema": [
       "amore",
@@ -921,11 +951,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-17-070",
+    "id": "2016-03-17-076",
     "start": 2356.71,
     "end": 2384.01,
     "speaker_raw": "SPEAKER_01",
-    "testo": "pensa a una persona che si fa il traffico alla mattina il traffico la sera che torna in ufficio è tutto uguale di notte si addormenta subito perché è stanco e tutto un tratto gli arriva a casa una storia di autentica passione e dolore in cui si accorge di essere vivo e di aver sempre amato la sua compagna straordinariamente praticamente tu fai il traffico andare il traffico a tornare è brutto al lavoro tu di casa sei stanco il tuo amore ti mette pure le corna e quella lì dici oh finalmente qualcosa di bello mi sento vivo",
+    "testo": "pensa a una persona che si fa il traffico alla mattina, il traffico la sera che torna, in ufficio è tutto uguale di notte si addormenta subito perché è stanco e tutto un tratto gli arriva a casa una storia di autentica passione e dolore in cui si accorge di essere vivo e di aver sempre amato la sua compagna straordinariamente praticamente tu fai il traffico andare, il traffico tornare è brutto al lavoro, torni a casa sei stanco il tuo amore ti mette pure le corna e quella lì dici oh finalmente qualcosa di bello mi sento vivo",
     "titolo": "Storia di passione e dolore",
     "tema": [
       "amore",
@@ -936,38 +966,33 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-17-071",
-    "start": 2387.37,
+    "id": "2016-03-17-077",
+    "start": 2385.39,
     "end": 2393.69,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "c'è una barzelletta così adesso te la racconto no you're not fooling anyone",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "grande Igor c'è una barzelletta così adesso te la racconto no you're not fooling anyone",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-03-17-072",
-    "start": 2486.69,
-    "end": 2488.16,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "Oh cause you got inside my head",
-    "titolo": "Inside My Head",
-    "tema": [
-      "musica",
-      "canzone"
-    ],
-    "tipo": "riferimento_musica",
-    "video_url": "",
-    "confermato_esterno": true,
-    "copertina": "https://coverartarchive.org/release/e5e7fcd9-facf-43c5-8d90-13ab40dec20c/front-250"
+    "id": "2016-03-17-078",
+    "start": 2485.7,
+    "end": 2486.93,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Grazie a tutti.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
   },
   {
-    "id": "2016-03-17-073",
+    "id": "2016-03-17-079",
     "start": 2529.23,
     "end": 2659.08,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "Igor, come fai ad andartene che si è riempita la casella di cose importanti? E' male che nessuno si è arrabbiato sul serio per quella cosa lì. No, no, perché l'hai argomentata bene. Adesso noi, io, aspettavo fino a giovedì prossimo, bisognava che lo facciamo due volte a settimana questo incontro. Nel frattempo è arrivato il nostro amico Ale Cattelan. Ciao, buongiorno. Lo conoscevi già, lo conoscevi già. Questa sera io sono ospite nel suo programma a Sky, che non ha cambiato l'orario. Ha capito l'ora, arrivai in onda prima, così non c'è più la scusa, domani mi alzo presto, 22.10. Lui ha capito, adesso, gli ha detto, vieni che io dico sempre, ma è tardi, io ce lo so. Allora adesso siamo andati, mi sono divertito tantissimo, ok? E io adesso volevo dire ad Ale Cattelan che appunto questa sera ci vediamo su Sky 22.10. Ok, 22.10. Ma l'altra cosa è che tu non ascoltavi perché eri di là sul divano. Ti volevo dire che Igor, appena detto, in sostanza, come io e te siamo amici, no? Che se io... in sostanza ti ciulo la moglie o tu mi ciuli la mia è brutto? no è bello lui ha portato avanti questa tesi io non ho detto che è bello basta mettersi d'accordo prima ha portato avanti sta tesi cioè che porta un po' di movimento va bene Tu entri a casa, io sto uscendo da casa tua, dico ciao Ale, sono a tuo posto. Ma che sono questi peli di barbaniera che c'hai in foglia? Eh no, sono stato in foglia. No, ti ho portato la brocca, sai, dell'altra volta che hai lasciato la casa mia, ciao a tutti i tuoi posti. Dici, ma sai che... Allora ok. Io vengo a casa, dici ciao Johanna, la bacio, dico ciao Ale, tu dici no, ti ho lasciato giù il libro d'autore. va bene allora ricordiamo con Ale Cattela questa sera 22.10 ospiti fantastico tra l'altro una canzone bellissima abbiamo scritto la hit dell'estate 2016 ho scritto una canzone con i titoli dei miei libri tu hai scritto una canzone no io ho scritto i titoli dei libri loro hanno fatto una roba bellissima e mi è rimasta in testa due giorni che me la canto anche io è vero funziona Igor, torni giovedì? Volentieri. È chiaro che dobbiamo continuare questo discorso giovedì, io ti farei già tornare domani, però diamo pausa agli ascoltatori. Bello però, l'intensità del dolore fa la differenza. Oggi possiamo dire che dal punto di vista metaforico abbiamo incrociato Tolstoi e Proust.",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Igor, come fai a andartene che si è riempita la casella di cose importanti? E' male che nessuno si è arrabbiato sul serio per quella cosa lì. No, no, perché l'hai argomentata bene. Adesso noi, io, aspettavo fino a giovedì prossimo, bisognava che lo facciamo due volte a settimana questo incontro. Nel frattempo è arrivato il nostro amico Ale Cattelan. Ciao, buongiorno. Lo conoscevi già, lo conoscevi già. Questa sera io sono ospite nel suo programma a Sky, che non ha cambiato l'orario. Ha capito l'ora, arrivai in onda prima, così non c'è più la scusa, no? Domani mi alzo presto, 22.10. Lui ha capito, adesso... Dico il professore come sento. Ha detto, vieni che... Io dico sempre, ma è tardi, io ce lo so. Allora adesso non potevo, siamo andati, mi sono divertito tantissimo, ok? E io adesso volevo dire ad Ale Cattelan che appunto questa sera ci vediamo su Sky 22.10. Ok, 22.10. Ma l'altra cosa è che tu non ascoltavi perché eri di là sul divano. Ti volevo dire che Igor, appena detto, in sostanza, come io e te siamo amici, no? Che se io... in sostanza ti ciulo la moglie o tu mi ciuli la mia è brutto no è bello lui ha portato avanti questa tesi io non ho detto che è bello basta mettersi d'accordo prima ha portato avanti sta tesi cioè che porta un po' di movimento va bene Tu entri a casa, io sto uscendo da casa tua, dico ciao Ale, sono a tuo posto. Ma che sono questi peli di barbaniera che hai in faccia? No, ti ho portato la brocca dell'altra volta che hai lasciato la casa mia, ciao a tutti i tuoi posti. Ma sai che? Allora ok. Io vengo a casa, dici ciao Johanna, la bacio, dico ciao Ale, tu dici no, ti ho lasciato giù il libro d'autore. va bene allora ricordiamo con Alecatela questa sera 22.10 ospiti fantastico tra l'altro una canzone bellissima abbiamo scritto la hit dell'estate 2016 ho scritto una canzone con i titoli dei miei libri tu hai scritto una canzone no io ho scritto i titoli dei libri loro hanno fatto una roba bellissima e mi è rimasta in testa due giorni che me la canto anche io è vero funziona Igor, torni giovedì, è chiaro che dobbiamo continuare questo discorso giovedì, io ti farei già tornare domani, però diamo pausa agli ascoltatori. Bello però, l'intensità del dolore fa la differenza. Oggi possiamo dire che dal punto di vista metaforico abbiamo incrociato Tolstoi e Proust.",
     "titolo": "incontro due volte a settimana",
     "tema": [
       "lavoro",
@@ -977,7 +1002,7 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-17-074",
+    "id": "2016-03-17-080",
     "start": 2659.18,
     "end": 2659.7,
     "speaker_raw": "SPEAKER_01",
@@ -988,42 +1013,60 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-17-075",
+    "id": "2016-03-17-081",
     "start": 2659.9,
-    "end": 2700.33,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "e i delfini chi se ne è accorto ci ha trovato dall'Anna Karenina alla Recherche dalla parte di Svan e anche un colore di delfino esatto Viola tu sei un delfino quindi quando vai a casa e il tuo compagno ti dice allora sono uscito con la tua migliore amica tu dici oh guarda quanta vita è tutta vita tutta vita va bene io sto cercando di immaginarmi Viola come un delfino sì sì no Viola dì che siamo domani mattina qua in delfinese non lo so dire non mi metti in difficoltà grazie Island",
+    "end": 2677.71,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "E i delfini, chi se ne è accorto ci ha trovato dall'Anna Karenina alla Recherche, dalla parte di Svan e questa roba qui è anche un colore di delfino. Bello per Radio Festival. Esatto. Viola, tu sei un delfino, quindi quando vai a casa e il tuo compagno ti dice allora sono uscito con la tua migliore amica, tu dici oh!",
     "titolo": "Anna Karenina",
     "tema": [
       "amore"
     ],
     "tipo": "riferimento_libro",
-    "video_url": "",
-    "autore": "Liev Tolstoj",
-    "confermato_esterno": false
+    "video_url": ""
   },
   {
-    "id": "2016-03-17-076",
+    "id": "2016-03-17-082",
+    "start": 2677.83,
+    "end": 2680.62,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Guarda quanta vita! Quanta vita c'è! È tutta vita! Tutta vita!",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-03-17-083",
+    "start": 2681.1,
+    "end": 2700.33,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "va bene Katia vuol dire qualcosa? no niente basta io stavo cercando di immaginarmi Viola come un delfino sì sì sì no Viola dì che siamo domani mattina qua in delfinese no non lo so dire non mi metti in difficoltà grazie Island",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-03-17-084",
     "start": 2702.41,
     "end": 2716.25,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Ale questa sera 10 e 10 e 10 sto postando la canzone scritta da Fabio e musicata dagli street clerks la sto postando sul nostro facebook va bene dove vai adesso Igor?",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
-    "id": "2016-03-17-077",
+    "id": "2016-03-17-085",
     "start": 2716.53,
-    "end": 2736.91,
+    "end": 2737.59,
     "speaker_raw": "SPEAKER_01",
-    "testo": "vado da casa sto lavorando tantissimo a due conferenze questo è un libro che sto facendo ho fatto i desideri a questo tempo 10 anni fa voglio scrivere libri per una grossa collana di filosofia finalmente dopo dieci anni stanno grossa collana di filosofia ha chiesto anche a me ma sono preso ciao ragazzi noi a domani",
+    "testo": "vado da casa sto lavorando tantissimo a due conferenze questo c'è un libro che sto facendo ho fatto i desideri a questo tempo 10 anni fa voglio scrivere libri per una grossa collana di filosofia finalmente dopo dieci anni stanno grossa collana di filosofia ha chiesto anche a me ma sono preso ciao ragazzi noi a domani ciao Ale",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   }
 ]

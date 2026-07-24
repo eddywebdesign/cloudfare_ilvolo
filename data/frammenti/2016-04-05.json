@@ -2,9 +2,9 @@
   {
     "id": "2016-04-05-000",
     "start": 0.11,
-    "end": 0.55,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "No, no, no",
+    "end": 94.88,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "No, no, no. Grazie a tutti. Sì.",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -12,20 +12,9 @@
   },
   {
     "id": "2016-04-05-001",
-    "start": 29.92,
-    "end": 95.1,
-    "speaker_raw": "SPEAKER_08",
-    "testo": "Grazie a tutti. Ciao Ciao Ciao",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-04-05-002",
     "start": 156.01,
     "end": 159.45,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_05",
     "testo": "sono il più forte sono il più forte sono il più forte",
     "titolo": "",
     "tema": [],
@@ -33,21 +22,21 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-05-003",
+    "id": "2016-04-05-002",
     "start": 193.79,
-    "end": 193.93,
-    "speaker_raw": "SPEAKER_08",
-    "testo": "oh yeah",
+    "end": 193.95,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Oh yeah!",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-04-05-004",
+    "id": "2016-04-05-003",
     "start": 206.45,
     "end": 223.18,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Buongiorno a tutti. Ciao. Aspetta che mi suona... Ok, non avevo l'Orban Rec, avevo Air. L'ascoltatore dice, cosa stai dicendo? No, perché tu in cuffia puoi sentire PGM, Air, Orban Rec, capito? E Orban Rec è quello giusto perché c'ha l'Orban Rec.",
     "titolo": "",
     "tema": [],
@@ -55,7 +44,7 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-05-005",
+    "id": "2016-04-05-004",
     "start": 223.22,
     "end": 224.76,
     "speaker_raw": "SPEAKER_00",
@@ -66,10 +55,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-05-006",
+    "id": "2016-04-05-005",
     "start": 224.78,
     "end": 242.45,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_05",
     "testo": "L'Orban Rec è quello con l'Orban, cioè con il compressore, cioè che senti la voce più calda, capito? Senti come sente l'ascoltatore l'Orban Rec, giusto? Sì. Ok, noi non potremmo mai far sentire all'ascoltatore una roba, un disco, una mia voce senza l'Urban Rec, cioè tu lo puoi togliere dalla diretta l'Urban Rec?",
     "titolo": "",
     "tema": [],
@@ -77,10 +66,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-05-007",
+    "id": "2016-04-05-006",
     "start": 242.73,
     "end": 242.87,
-    "speaker_raw": "SPEAKER_09",
+    "speaker_raw": "SPEAKER_04",
     "testo": "No.",
     "titolo": "",
     "tema": [],
@@ -88,18 +77,18 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-05-008",
+    "id": "2016-04-05-007",
     "start": 243.19,
     "end": 295.45,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "No, no, non lo so, va bene, comunque c'è questa cosa che si chiama il compressore, le radio belle hanno il compressore, ogni tanto le radio locali suonano in maniera diversa perché magari non hanno un buon compressore. Scusate ragazzi alle 8 e 53 cioè 7 minuti fa praticamente poco 17 perché ormai sono le 9 odd sono sceso dal tram perché ho perso il tram e ho fatto un calco no ma gli argomenti ce li ho stati calmi però ho fatto un pensavo no quando ho lanciato mio figlio all'asilo praticamente dal finestrino Tenendo la giacca in mano, quindi fu, l'ho lanciato, poi io ho preso i piedi e gli ho sfilato le scarpe, stavo pensando, perché come mi è passato davanti il tram, come è proprio relativo il tempo, cioè se tu perdi una cosa per un minuto, perché è proprio un minuto, anche forse meno, poi non è che tutta la giornata è in ritardo di un minuto, si aggancia con tutto quando arriva il tram dopo.",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "No, no, non lo so, va bene, comunque c'è questa cosa che si chiama il compressore, le radio belle hanno il compressore, ogni tanto le radio locali suonano in maniera diversa perché magari non hanno un buon compressore. Scusate ragazzi alle 8 e 53 cioè 7 minuti fa praticamente poco 17 perché ormai sono le 9 odd sono sceso dal tram perché ho perso il tram e ho fatto un calco no ma gli argomenti ce li ho stati calmi però ho fatto un pensavo no quando ho lanciato mio figlio all'asilo praticamente dal finestrino Tenendo la giacca in mano, quindi fu, l'ho lanciato, poi io ho preso i piedi e gli ho sfilato le scarpe, stavo pensando, perché come mi è passato davanti il tram, come è proprio relativo il tempo, cioè se tu perdi una cosa per un minuto, perché proprio un minuto, anche forse meno, poi non è che tutta la giornata è in ritardo di un minuto, si aggancia con tutto quando arriva il tram dopo.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-04-05-009",
+    "id": "2016-04-05-008",
     "start": 295.53,
     "end": 299.2,
     "speaker_raw": "SPEAKER_01",
@@ -110,18 +99,18 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-05-010",
+    "id": "2016-04-05-009",
     "start": 300.04,
     "end": 334.93,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "perché sulle locandine c'è scritto che passa ogni 7 minuti in realtà passa esattamente ogni 14 ho notato cioè praticamente è il doppio di quello che c'è scritto quindi è la metà del servizio e quindi va tutto così però bene, noi siamo qua dobbiamo ringraziare Andrea iniziamo ringraziando un ascoltatore che ci ha mandato dalla Puglia delle orecchiette e dice delle orecchiette orecchiette delle orecchiette che dice per te Maurizio e Viola ok Maurizio dove sono queste orecchiette? nel freezer di Viola tutte!",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "perché sulle locandine c'è scritto che passa ogni sette minuti in realtà passa esattamente ogni quattordici ho notato cioè praticamente è il doppio di quello che c'è scritto quindi è la metà del servizio e quindi va tutto così però bene, noi siamo qua dobbiamo ringraziare Andrea iniziamo ringraziando un ascoltatore che ci ha mandato dalla Puglia delle orecchiette e dice delle orecchiette orecchiette delle orecchiette che dice per te Maurizio e Viola ok Maurizio dove sono queste orecchiette? nel freezer di Viola tutte!",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-04-05-011",
+    "id": "2016-04-05-010",
     "start": 335.07,
     "end": 340.23,
     "speaker_raw": "SPEAKER_01",
@@ -132,10 +121,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-05-012",
+    "id": "2016-04-05-011",
     "start": 340.31,
     "end": 351.3,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_05",
     "testo": "cioè le mie le tue le sue c'ha un freezer pieno di orecchiette è un chilo di orecchiette è un gay pride di orecchiette va bene eh io ho detto esatto ma io non sono politicamente scorretta",
     "titolo": "",
     "tema": [],
@@ -143,11 +132,22 @@
     "video_url": ""
   },
   {
+    "id": "2016-04-05-012",
+    "start": 356.31,
+    "end": 373.66,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Oh oh! Good morning life, good morning sun, how are you, how do you do? It's great to be alive and in love. Good morning life, good morning birds, sing out your happy tune, feel so good cause I'll be singing soon.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
     "id": "2016-04-05-013",
-    "start": 356.19,
-    "end": 383.34,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "... ... ... ... ... ... ... ... ... ... ... ... ... ... ... ...",
+    "start": 379.6,
+    "end": 392.69,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Last night she said she loved me What a pity to part I slept with both eyes open Waiting for the day to come in life Good morning world, how are you, happiness?",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -155,10 +155,10 @@
   },
   {
     "id": "2016-04-05-014",
-    "start": 413.72,
-    "end": 525.66,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "Ieri avevamo detto, intanto abbiamo ringraziato Andrea, il nostro ascoltatore, per le orecchiette, che se le mangerà Viola, meno che ce le riporta. Poi oggi vogliamo parlare anche di sogni che si realizzano, che a noi ci piace sempre buttargli anche un po' di positività, no? Soprattutto questi sono anche sogni di ragazzini, di bambini, molto facili da realizzare, è una cosa molto interessante. Poi abbiamo bella musica, come sempre, ovviamente, e ricorderemo anche Kirk Bane, dei... per come è in dei Nirvana ok quindi mettiamo anche un bel disco così ieri si parlava di Ross e Rachel di Friends ok del momento in cui loro erano in pausa no quando loro a un certo punto hanno detto siamo in pausa una settimana e lui è uscito con un'altra in quella settimana è uscito è uscito esatto è andato con un'altra così è andato a casa con un'altra insomma e sono arrivati dei messaggi anch'io sono in pausa e dico ma si fa ancora questa cosa evidentemente perché sentire queste cose sono in pausa mi sembra un po' come quando mi dice mi hanno rubato l'autoradio che non si sentono più queste frasi adesso rubano i navigatori dalle macchine ma ormai fai con il telefono quindi anche il navigatore è una cosa io sono di quelli che scusate quella generazione lì la radio non si toglieva dalla macchina te la rubavano un giorno uno ha detto no ragazzi le facciamo estraibili andavi con questa borsetta di ferro con la bacia poi uno ha detto è un po' scomoda vi faccio il frontalino poi uno ha detto c'è il mini frontalino te lo ricordi? si metteva sotto il sedile della macchina il ladro chissà dove sarà l'autoradio ok adesso gente che dice io sto in pausa una settimana così per esempio non so se la vogliamo chiamare ma è arrivato un altro messaggio di un'ascoltatrice che sono al centro del nostro programma che dice sto andando a prendere il test di gravidanza e a noi ci piace sempre che loro fanno la pipì in diretta per noi non lo so ci risponderà la ragazza della gravidanza? è qua? pronto?",
+    "start": 392.71,
+    "end": 398.74,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "All at once I learned what living can be Oh, oh, oh, it's life, it's freedom It's traveling to be",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -166,10 +166,10 @@
   },
   {
     "id": "2016-04-05-015",
-    "start": 526.44,
-    "end": 529.78,
-    "speaker_raw": "SPEAKER_10",
-    "testo": "no sta facendo la pipì?",
+    "start": 413.72,
+    "end": 525.66,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Ieri avevamo detto, intanto abbiamo ringraziato Andrea, il nostro ascoltatore, per le orecchiette, che se le mangerà Viola, meno che ce le riporta. Poi oggi vogliamo parlare anche di sogni che si realizzano, che a noi ci piace sempre buttargli anche un po' di positività, no? Soprattutto questi sono anche sogni di ragazzini, di bambini, molto facili da realizzare, è una cosa molto interessante. Poi abbiamo bella musica, come sempre, ovviamente, e ricorderemo anche Kirk Bane, dei... per come è in day nirvana ok quindi mettiamo anche un bel disco così ieri si parlava di ross e rachel di friends di friends ok del momento in cui loro erano in pausa no quando loro a un certo punto hanno detto siamo in pausa una settimana e lui è uscito con un'altra in quella settimana è uscito è uscito esatto è andato con un'altra così è andato a casa con un'altra insomma e sono arrivati dei messaggi anch'io sono in pausa e dico ma si fa ancora questa cosa evidentemente perché sentire queste cose sono in pausa mi sembra un po' come quando mi dice mi hanno rubato l'autoradio che non si sentono più queste frasi adesso rubano i navigatori no dalle macchine ma ormai fai con il telefono quindi anche il navigatore è una cosa io sono di quelli che scusate quella generazione lì la radio non si toglieva dalla macchina te la rubavano poi un giorno uno ha detto no ragazzi le facciamo estraibili andavi con questa borsetta di ferro con la bacia poi uno ha detto è un po' scomoda vi faccio il frontalino poi uno ha detto c'è il mini frontalino te lo ricordi? si metteva sotto il sedile della macchina il ladro chissà dove sarà l'autoradio ok adesso gente che dice io sto in pausa una settimana così per esempio non so se la vogliamo chiamare ma è arrivato un altro messaggio di un'ascoltatrice che sono al centro del nostro programma che dice sto andando a prendere il test di gravidanza e a noi ci piace sempre che loro fanno la pipì in diretta per noi non lo so ci risponderà la ragazza della gravidanza è qua? pronto?",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -177,10 +177,10 @@
   },
   {
     "id": "2016-04-05-016",
-    "start": 529.8,
-    "end": 576.46,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "dice domani se vuoi lo compro oggi e fa la pipì domani scusami cara ascoltatrice non è molto in ansia la ragazza come fai a stare 24 ore chi è questa? la pipì o quella in pausa? non capisco più pronto? pronto? no forse sta chiamando pronto? no no un po' giapponese stamattina vabbè insomma comunque quindi se lo compra oggi e fa la pipì domani secondo me non è così in ansia ah va fatta la mattina presto ma non è vero va fatta la mattina appena svegli ma non sono mica analisi del sangue la Steffi dice che è meglio perché alla mattina c'è più roba C'è più roba nella pipì, più sostanze.",
+    "start": 526.44,
+    "end": 529.78,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "no sta facendo la pipì?",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -188,6 +188,17 @@
   },
   {
     "id": "2016-04-05-017",
+    "start": 529.8,
+    "end": 576.46,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "dice domani se vuole ah domani ma come lo compra oggi e fa la pipì domani scusami cara ascoltatrice non è molto in ansia la ragazza come fai a stare 24 ore chi è questa che ha la pipì o quella in pausa? non capisco più pronto? pronto? no forse sta chiamando pronto? no no un po' giapponese stamattina vabbè insomma comunque quindi se lo compra oggi e fa la pipì domani secondo me non è così in ansia ah va fatta la mattina presto ma non è vero va fatta la mattina appena svegli ma non sono mica analisi del sangue la Steffi dice che è meglio perché alla mattina c'è più roba C'è più roba nella pipì, più sostanze.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-04-05-018",
     "start": 576.48,
     "end": 585.8,
     "speaker_raw": "SPEAKER_01",
@@ -201,10 +212,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-05-018",
+    "id": "2016-04-05-019",
     "start": 585.82,
     "end": 590.21,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Ma questa cosa qui come la sai tu? Quando vai a fare gli esami ti dicono la prima non farla.",
     "titolo": "",
     "tema": [],
@@ -212,7 +223,7 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-05-019",
+    "id": "2016-04-05-020",
     "start": 590.23,
     "end": 591.68,
     "speaker_raw": "SPEAKER_01",
@@ -223,10 +234,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-05-020",
+    "id": "2016-04-05-021",
     "start": 591.76,
     "end": 629.67,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Vabbè, saggezza popolare, ok. ok ok ok confermo è vero qua conferma la dottoressa Steffi dice è vero il primo goccino va buttato ma dopo l'altro è difficile da stoppare riattaccati finisce sulle dita vabbè comunque abbiamo ascoltatori che sono in pausa con uomini e donne con i propri fidanzati così altri ascoltatori mi fai gli auguri insomma ragazzi siete in troppi basta scriverci siamo caotici oggi facciamo quel contrario ragazzi non telefonate al 347 non ci mandate i vostri messaggi guidate con calma sentite con cosa iniziamo tears for fears lacrime per la paura",
     "titolo": "",
     "tema": [],
@@ -234,10 +245,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-05-021",
+    "id": "2016-04-05-022",
     "start": 727.8,
     "end": 728.26,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Grazie.",
     "titolo": "",
     "tema": [],
@@ -245,23 +256,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-05-022",
+    "id": "2016-04-05-023",
     "start": 817.1,
     "end": 883.89,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "scusate ragazzi sono un tecnico di laboratorio guarda che noi ci ascoltano in tutti i settori il primo goccino diciamo di pipì si butta solo se si deve fare l'urinocoltura per test di gravidanza e urine serve il primo mito cosa? mito aspetta perché qua c'è un'ascoltatrice un ascoltatore vabbè qua uno dice come la moca del caffè il primo goccio si butta il primo goccio di caffè della moca questo non lo sapevo io lo sapevo che si teneva perché con lo zucchero fai la schiumetta quando ero bambino ok si chiama minto intermedio attenzione ragazzi voi ragazzi state andando al lavoro state entrando nelle vostre vite siete già dentro e sappiate che da oggi molti di voi come me hanno imparato una parola nuova questa sera cena con vostra moglie amore lo sai che ieri io Domani mattina farò la pipì e devo dirti il primo goccio che si chiama Minto Intermedio. Se dovessi fare un test di urinocultura... Mito. Mito. Ok. Mito. No, qua uno ha scritto Minto. Il suo sa un po' di menta. Qui dice mito intermedio, mirino coltura. Ok, va bene, abbiamo saputo tante cose. Scusami Lucia.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": "",
-    "autore": ""
-  },
-  {
-    "id": "2016-04-05-023",
-    "start": 884.71,
-    "end": 885.57,
-    "speaker_raw": "SPEAKER_10",
-    "testo": "Ciao Fabio.",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "scusate ragazzi sono un tecnico di laboratorio guarda che noi ci ascoltano in tutti i settori il primo goccino diciamo di pipì si butta solo se si deve fare l'urinocoltura per test di gravidanza e urine serve il primo mito cosa? mito aspetta perché qua c'è un'ascoltatrice un ascoltatore vabbè qua uno dice come la moca del caffè il primo goccio si butta il primo goccio di caffè della moca questo non lo sapevo io non sapevo che si teneva perché con lo zucchero fai la schiumetta quando ero bambino ok si chiama minto intermedio attenzione ragazzi voi ragazzi state andando al lavoro state entrando nelle vostre vite siete già dentro e sappiate che da oggi molti di voi come me hanno imparato una parola nuova questa sera a cena con vostra moglie amore lo sai che ieri io Domani mattina farò la pipì e devo dirti il primo goccio che si chiama Minto Intermedio. Se dovessi fare un test di urinocultura... Mito. Mito. Ok. Mito. No, qua uno ha scritto Minto. Il suo sa un po' di menta. Qui dice mito intermedio, mirino coltura. Ok, va bene, abbiamo saputo tante cose. Scusami Lucia.",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -269,9 +268,20 @@
   },
   {
     "id": "2016-04-05-024",
+    "start": 884.71,
+    "end": 885.57,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Ciao Fabio.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-04-05-025",
     "start": 885.59,
     "end": 894.42,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Ciao, qui c'è un'ascoltatrice che dice che lei l'ha fatto la sera il test e si è acceso come un albero di Natale, cioè non c'è bisogno che aspetti domani.",
     "titolo": "Test di gravidanza",
     "tema": [
@@ -282,11 +292,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-05-025",
+    "id": "2016-04-05-026",
     "start": 894.46,
-    "end": 904.96,
-    "speaker_raw": "SPEAKER_02",
-    "testo": "No, allora, diciamo che io sono scaramagica, faccio le cose sempre nella stessa maniera, quindi per la prima l'ho fatto la mattina e quindi oggi contro il mio test lo metto nella mia borsa.",
+    "end": 905.0,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "No, allora, diciamo che io sono scaramatica, faccio le cose sempre nella stessa maniera, quindi per la prima l'ho fatto la mattina e quindi oggi contro il mio test lo metto nella mia borsa",
     "titolo": "prima prova esame",
     "tema": [
       "esami",
@@ -296,10 +306,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-05-026",
+    "id": "2016-04-05-027",
     "start": 906.08,
     "end": 918.33,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_05",
     "testo": "domani mattino ma a che ora scusaci perché finisce che lo fai durante il trio mi incazzo no non lo faccio durante il trio mi sveglio domani mattino e lo faccio a che ora ti svegli?",
     "titolo": "",
     "tema": [],
@@ -307,10 +317,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-05-027",
+    "id": "2016-04-05-028",
     "start": 919.15,
     "end": 923.67,
-    "speaker_raw": "SPEAKER_02",
+    "speaker_raw": "SPEAKER_04",
     "testo": "con Andrea Michele buongiornazzo Andrea Michele mi sveglio",
     "titolo": "Ora di sveglia",
     "tema": [
@@ -321,11 +331,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-05-028",
+    "id": "2016-04-05-029",
     "start": 924.19,
     "end": 974.36,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "no allora aspetta dai aspetta le nove cinque che sei in onda ma devo portare la bambina all'asilo come faccio portila ma intanto in che città vivi allora io vivo a Beninzago che è un paesino in provincia di Novara tra l'altro vuol dire che in 40 minuti sei a Milano si è velocissimo vieni a far la pipì nei bagni di Allora, domani mattina porti la bambina all'asilo, poi prendi la macchina, ti bevi una bottiglietta d'acqua da mezzo litro e vieni qua. Ti faccio parcheggiare dentro così non spendi il tempo a cercare parcheggio. Vieni su, ci saluti in diretta, pubblicità, vai di là nel bagno, fai la pipì e poi vieni di qua.",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "no allora aspetta dai aspetta le 9 5 che sei in onda aspetta le 9 5 allora ma devo portare la bambina all'asilo come faccio portila ma intanto in che città vivi allora io vivo a Beninzago che è un paesino in provincia di Novara tra l'altro vuol dire che in 40 minuti sei a Milano si è nocissimo vieni a far la pipì nei bagni di un igiene si Allora, domani mattina porti la bambina all'asilo, poi prendi la macchina, ti bevi una bottiglietta d'acqua da mezzo litro e vieni qua. Ti faccio parcheggiare dentro così non spendi il tempo a cercare parcheggio. Vieni su, ci saluti in diretta, pubblicità, vai di là nel bagno, fai la pipì e poi vieni di qua.",
     "titolo": "Vita quotidiana",
     "tema": [
       "famiglia",
@@ -335,10 +345,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-05-029",
+    "id": "2016-04-05-030",
     "start": 974.88,
     "end": 976.76,
-    "speaker_raw": "SPEAKER_02",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Sì, ma se poi non sono riuscita mi prendo male.",
     "titolo": "Prendersi male",
     "tema": [
@@ -349,72 +359,22 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-05-030",
-    "start": 977.26,
-    "end": 985.65,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "Posso dirti una cosa, qui a Radio DJ lavoreremo in 40 persone e 20 sono incinte anche in questo momento. Qui c'è un'aria, come vieni qua fai due boccate d'aria e sei al terzo mese.",
-    "titolo": "incidenza gravidanza in azienda",
-    "tema": [
-      "lavoro",
-      "gravidanza"
-    ],
-    "tipo": "riflessione",
-    "video_url": ""
-  },
-  {
     "id": "2016-04-05-031",
-    "start": 986.13,
-    "end": 990.61,
-    "speaker_raw": "SPEAKER_02",
-    "testo": "Ah dici tu, a parte che non c'è da mettere, sono rimasta incinta in flotta.",
-    "titolo": "incinta in flotta",
-    "tema": [
-      "gravidanza",
-      "lavoro"
-    ],
-    "tipo": "aneddoto",
+    "start": 977.26,
+    "end": 999.02,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "posso dirti una cosa, qui a Radio DJ lavoreremo in 40 persone 20 sono incinte anche in questo momento qui c'è un'aria, come vieni qua fai due boccate d'aria e sei al terzo mese ah dici tu, a parte che mi sei da mettere sono rimasta incinta in flotta eh vedi, dai allora ti aspettiamo domani mattina no come faccio domani mattina, è un casino devo andare a lavorare, è un macello che lavoro fai Lucia?",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
     "id": "2016-04-05-032",
-    "start": 990.63,
-    "end": 993.06,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "Eh, vedi, allora ti aspettiamo domani mattina.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-04-05-033",
-    "start": 993.58,
-    "end": 997.12,
-    "speaker_raw": "SPEAKER_02",
-    "testo": "No, come faccio domani mattina, è un casino, devo andare a lavorare, è un macello.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-04-05-034",
-    "start": 997.46,
-    "end": 999.02,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "Che lavoro fai Lucia?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-04-05-035",
     "start": 999.18,
-    "end": 1004.06,
-    "speaker_raw": "SPEAKER_02",
-    "testo": "Io faccio la visual, faccio gli allestimenti per una catena di appigliamenti femminili.",
+    "end": 1010.81,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "io faccio la visual, faccio gli allestimenti per una catena di appigliamento femminile hai un capo o sei tu il capo? No, non sono io il capo. Dammi il numero del capo e dico... No, ti prego.",
     "titolo": "Il lavoro",
     "tema": [
       "lavoro",
@@ -424,11 +384,44 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-05-036",
-    "start": 1004.08,
-    "end": 1005.57,
+    "id": "2016-04-05-033",
+    "start": 1010.83,
+    "end": 1018.14,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Mi serve mezza giornata che deve venire a fare la pipì da noi. Dopo noi facciamo la pubblicità all'azienda dei visual per una settimana in cambio.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-04-05-034",
+    "start": 1018.94,
+    "end": 1024.41,
     "speaker_raw": "SPEAKER_04",
-    "testo": "Hai un capo o sei tu il capo?",
+    "testo": "No, ti prego. Guarda, se vuoi mi chiami e te lo dico, ma non riesco a dire, te lo giuro. Domani sono operata.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-04-05-035",
+    "start": 1025.82,
+    "end": 1079.05,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "ha detto oberata domani ti oberano ti oberano mi spiace che ti oberano scatti una cosa devi fare il controllo delle feci nei prossimi giorni no allora per ora no dai ma vieni a farti una cagattina a Radio DJ ti costa vabbè niente Lucia allora stai lì fatela da sola nella tua tristezza nel tuo bagno triste no vabbè dove tristezza va bene buongiorno a tutti va bene va bene ok 9 5 va bene ciao lucia ciao ciao ciao ciao ciao non si riesce a convincere l'ascoltatore a venire a fare la pipì a radio 16 sa perché vediamo il bagno quello bello giù sotto",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-04-05-036",
+    "start": 1086.2,
+    "end": 1240.22,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Climb on board, we'll go slow and high tempo, light and dark Hold me hard and mellow, I'm seeing the pain, seeing the pleasure Nobody but you, nobody but me, nobody but us, bodies together I love to hold you close tonight and always I love to wake up next to you I love to hold you close tonight and always I love to wake up next to you So if there's something nameless In a place that feels the tears The place you lose your fears, yeah Reckless behavior A place that is so blessed No, it's a paradise and it's our zone, it's a paradise and it's our zone. Pillow talk, our enemy, my ally, prisoners, then we're free, it's a thin line. I'm seeing the pain, seeing the pleasure Nobody but you, nobody but me Nobody but us, bodies together I'd love to hold you close Tonight and always I'd love to wake up next to you So if we stop the neighbors In a place to feel the tears The place to lose your fears Yeah, reckless behavior A place that is so pure ciao ciao Musica",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -436,10 +429,10 @@
   },
   {
     "id": "2016-04-05-037",
-    "start": 1006.23,
-    "end": 1024.41,
-    "speaker_raw": "SPEAKER_02",
-    "testo": "no non sono io il capo dammi il numero del capo mi serve mezza giornata che deve venire a fare la pipì da noi dopo noi facciamo la pubblicità all'azienda dei visual per una settimana in cambio guarda se vuoi mi chiami e te lo dico ma non riesco a dire te lo giuro domani sono operata",
+    "start": 1274.03,
+    "end": 1290.23,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "come se non ci fosse mi piace questo la base è così bella che la mia voce la rovina Allora, abbiamo due ascoltatori da chiamare immediatamente, poi abbiamo anche questa cosa dei sogni che ci piace tanto. Dobbiamo andare in pubblicità o...?",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -447,48 +440,9 @@
   },
   {
     "id": "2016-04-05-038",
-    "start": 1025.82,
-    "end": 1079.05,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "ha detto oberata domani ti oberano mi spiace che ti oberano scatti una cosa devi fare il controllo delle feci nei prossimi giorni per ora no dai ma vieni a farti una cagattina a Radio DJ ti costa vabbè niente Lucia allora stai lì fatela da sola nella tua tristezza nel tuo bagno triste no vabbè va bene buongiorno a tutti va bene va bene ok 9 5 va bene ciao lucia ciao ciao ciao ciao ciao non si riesce a convincere l'ascoltatore a venire a fare la pipì a radio 16 sa perché vediamo il bagno quello bello giù sotto",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": "",
-    "autore": ""
-  },
-  {
-    "id": "2016-04-05-039",
-    "start": 1086.2,
-    "end": 1240.22,
-    "speaker_raw": "SPEAKER_10",
-    "testo": "Climb on board We'll go slow and high tempo Light and dark Hold me high and mellow I'm seeing the pain, seeing the pleasure Nobody but you, nobody but me, nobody but us, bodies together I love to hold you close tonight and always I love to wake up next to you I love to hold you close tonight and always I love to wake up next to you So we'll put something nameless In a place that feels the tears The place you lose your fears, yeah Reckless behavior A place that is so pure No, it's a paradise and it's our zone. It's a paradise and it's our zone. Pillow talk, our enemy, my ally. Prisoners, then we're free. It's a thin line. I'm seeing the pain, seeing the pleasure Nobody but you, nobody but me Nobody but us, bodies together I'd love to hold you close Tonight and always I'd love to wake up next to you So we'll kiss off the neighbors In a place to feel the tears The place to lose your fears Yeah, reckless behavior A place that is so pure ciao ciao Musica",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": "",
-    "autore": ""
-  },
-  {
-    "id": "2016-04-05-040",
-    "start": 1274.03,
-    "end": 1290.23,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "Come se non ci fosse, mi piace questo. La base è così bella che la mia voce la rovina. Allora, abbiamo due ascoltatori da chiamare immediatamente, poi abbiamo anche questa cosa dei sogni che ci piace tanto. Dobbiamo andare in pubblicità o...?",
-    "titolo": "Come se non ci fosse",
-    "tema": [
-      "amore",
-      "relazione"
-    ],
-    "tipo": "riferimento_libro",
-    "video_url": "",
-    "confermato_esterno": true
-  },
-  {
-    "id": "2016-04-05-041",
     "start": 1290.31,
     "end": 1291.65,
-    "speaker_raw": "SPEAKER_00",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Sì, dobbiamo andare in pubblicità.",
     "titolo": "",
     "tema": [],
@@ -496,110 +450,68 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-05-042",
+    "id": "2016-04-05-039",
     "start": 1291.83,
     "end": 1303.52,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Vogliamo ricordare il momento quello lì di Friends, ce l'hai, di Ross and Rachel? In che lingua ce l'hai? In italiano. Alcuni ascoltatori dicono che va sentito in tedesco. Ah, vedete. Giusto. Mettiamolo in italiano.",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
-    "id": "2016-04-05-043",
+    "id": "2016-04-05-040",
     "start": 1304.65,
-    "end": 1308.68,
+    "end": 1325.17,
     "speaker_raw": "SPEAKER_00",
-    "testo": "Tu mi rendi la vita impossibile! Io ti rendo la vita impossibile? Che cosa dovrei fare?",
-    "titolo": "vita impossibile",
-    "tema": [
-      "relazioni",
-      "stress"
-    ],
-    "tipo": "riflessione",
-    "video_url": ""
-  },
-  {
-    "id": "2016-04-05-044",
-    "start": 1308.88,
-    "end": 1312.48,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "Non lo so, non lo so! Forse dovremmo prenderci una pausa!",
+    "testo": "Tu mi rendi la vita impossibile Io ti rendo la vita impossibile Che cosa dovrei fare? Non lo so, non lo so Forse dovremmo prenderci una pausa D'accordo, va bene, hai ragione Facciamo una pausa, calmiamoci Andiamo a prendere un gelato, uno yogurt o quello che vuoi tu No Una pausa fra noi due",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-04-05-045",
-    "start": 1312.66,
-    "end": 1321.65,
-    "speaker_raw": "SPEAKER_00",
-    "testo": "D'accordo, va bene, hai ragione! Facciamo una pausa, calmiamoci! Andiamo a prendere un gelato, uno yogurt o quello che vuoi tu!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-04-05-046",
-    "start": 1321.67,
-    "end": 1325.19,
-    "speaker_raw": "SPEAKER_02",
-    "testo": "No! Una pausa fra noi due!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-04-05-047",
+    "id": "2016-04-05-041",
     "start": 1335.31,
     "end": 1381.74,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "invece qualcuno ascolta e sta dicendo ma magari ma magari ma magari Sì, sì. cinghiali incazzati si chiama questa canzone",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "invece qualcuno ascolta e sta dicendo ma magari ma magari ma magari Sì. cinghiali incazzati si chiama questa canzone",
     "titolo": "Cinghiali incazzati",
     "tema": [
       "musica",
       "canzone"
     ],
     "tipo": "riferimento_musica",
-    "video_url": "",
-    "confermato_esterno": true,
-    "copertina": "https://coverartarchive.org/release/1de6a087-8c54-42eb-b476-1a2d7c2fb364/front-250"
-  },
-  {
-    "id": "2016-04-05-048",
-    "start": 1410.13,
-    "end": 1497.1,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "sono l'ultimo ballo prima dell'addio sono come sono un po' cambiato ehi tu come ti senti che cosa sei non ne sono sicuro sono una foto ricordo che non ho vissuto una storia allegra con un finale aperto sono un binario acquato un mattino scosto sono un sonno io non l'ho mai capito sono un binocchio aperto",
-    "titolo": "Ultimo ballo prima dell'addio",
-    "tema": [
-      "amore",
-      "relazione"
-    ],
-    "tipo": "aneddoto",
     "video_url": ""
   },
   {
-    "id": "2016-04-05-049",
-    "start": 1564.8,
-    "end": 1605.58,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "cinghiali incazzati ex otago come siamo indi ultimamente come siamo bravi come andiamo a cercare perché vogliamo il futuro vogliamo il futuro e ci dobbiamo girare indietro perché almeno io sono vecchio per cui guardo attorno ciao ragazzi volevo dirvi che semplicemente che si chiama pausa perché dire periodo di prova con l'amante pare brutto che cinese Non lo so se è così, un ascoltatore dice così, cinismo, magari c'ha ragione pure lui, non lo so, magari invece non c'entrano gli altri, gli amanti, magari proprio un attimo che dire facciamo un attimo il punto, no? Non lo so, per esempio Marco, voglio capire. Buongiorno. Buongiorno Marco, tu sei in pausa con la tua fidanzata da quanti giorni?",
+    "id": "2016-04-05-042",
+    "start": 1410.13,
+    "end": 1497.28,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "sono un bambino all'acquario visto dallo squalo sono l'ultimo ballo prima dell'addio sono come sono un po' cambiato ehi tu come ti senti che cosa sei Non ne sono sicuro. Sono una foto ricordo che non ho vissuto. Una storia allegra con un finale aperto. Sono un vinane acquato, un mattino scosto. Sono un sonno, io non l'ho mai capito. Sono un pinocchio aperto.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-04-05-050",
+    "id": "2016-04-05-043",
+    "start": 1564.8,
+    "end": 1605.58,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "cinghiali incazzati ex otago come siamo indie ultimamente come siamo bravi come andiamo a cercare perché vogliamo il futuro vogliamo il futuro e ci dobbiamo girare indietro perché almeno io sono vecchio per cui guardo attorno ciao ragazzi volevo dirvi che semplicemente che si chiama pausa perché dire periodo di prova con l'amante pare brutto che cinese Non lo so se è così, un ascoltatore dice così, cinismo, magari c'ha ragione pure lui, non lo so, magari invece non c'entrano gli altri, gli amanti, magari proprio un attimo che dire facciamo un attimo il punto, no, non lo so, per esempio Marco, voglio capire. Buongiorno. Buongiorno Marco, tu sei in pausa con la tua fidanzata da quanti giorni?",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-04-05-044",
     "start": 1607.08,
     "end": 1608.28,
-    "speaker_raw": "SPEAKER_05",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Sono quasi due settimane.",
     "titolo": "",
     "tema": [],
@@ -607,10 +519,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-05-051",
+    "id": "2016-04-05-045",
     "start": 1608.3,
     "end": 1613.59,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Ma la domanda è questa, pausa senza neanche messaggi e telefonate o pausa a vedersi però...",
     "titolo": "Pausa senza vedersi",
     "tema": [
@@ -621,10 +533,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-05-052",
+    "id": "2016-04-05-046",
     "start": 1614.72,
     "end": 1624.49,
-    "speaker_raw": "SPEAKER_05",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Allora, ti spiego, no, senza vedersi perché, ahimè, siamo un po' distanti. Ah, ok. Mi soggio che è in mio favore questa cosa qui, perché la pausa l'ho decisa io.",
     "titolo": "",
     "tema": [],
@@ -632,10 +544,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-05-053",
+    "id": "2016-04-05-047",
     "start": 1624.51,
     "end": 1628.63,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_05",
     "testo": "L'hai decisa tu, però comunque non vi sareste visti se state lontani.",
     "titolo": "",
     "tema": [],
@@ -643,10 +555,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-05-054",
+    "id": "2016-04-05-048",
     "start": 1628.65,
-    "end": 1635.38,
-    "speaker_raw": "SPEAKER_05",
+    "end": 1635.1,
+    "speaker_raw": "SPEAKER_02",
     "testo": "No, assolutamente, anche perché lei fa un lavoro dove magari viaggia sempre, quindi io sono un po' più...",
     "titolo": "",
     "tema": [],
@@ -654,21 +566,21 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-05-055",
-    "start": 1635.56,
+    "id": "2016-04-05-049",
+    "start": 1635.2,
     "end": 1641.71,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "Ma perché ti sei venuto a esporre con questa storia della pausa? Tanto c'era già la pausa che... Ma vi sentite al telefono?",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "E perché ti sei venuto a esporre con questa storia della pausa? Tanto c'era già la pausa che... Ma vi sentite al telefono?",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-04-05-056",
+    "id": "2016-04-05-050",
     "start": 1642.61,
     "end": 1652.64,
-    "speaker_raw": "SPEAKER_05",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Lei mi manda ogni tanto dei messaggi, io sono lì che gli dico, no, lascialo stare, lo scrivi, perché sto bene così, ho ripreso te, mi giri le mie amicizie, mi sento un po' soffocato proprio.",
     "titolo": "",
     "tema": [],
@@ -676,11 +588,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-05-057",
+    "id": "2016-04-05-051",
     "start": 1654.49,
-    "end": 1789.76,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "senti una volta mio padre che era un ossessionato dal lavoro e a cui io devo praticamente tutto perché non avendo un gran talento io diciamo ce l'ho fatta realizzare i miei sogni solo perché ho lavorato più degli altri che mi stavano a fianco e mi diceva sempre su un posto di lavoro ricordati che quel giorno che stai a casa una cosa brutta che può succedere è che si accorgano che tu non servi quindi stai attento quando si fa una pausa una cosa brutta che può succedere è che ti accorgi di stare bene bravo ok quindi se tu adesso ti accogli di stare bene sta pausa è un po' una fregatura perché non è una pausa che ti serve per caricarti e ritornare dentro la battaglia quotidiana con lei tu dici ma a me chi me lo fa fa torno a casa dal lavoro vado a bermi una birra esco con gli amici torno a casa esatto sono bello tranquillo Mangiare in giro ce n'è ormai perché siamo una generazione che esci e fai fatica a trovare altre compagne per il momento. anche se le amicizie ho degli amici che sono un po' pazzerelli bisogna fare attenzione perché basta un attimo e tac sono già con un'altra persona no no no non cambiare asino allora aspetta cosa vogliamo fare Marco dopo una settimana due settimane che sei un po' così stai cercando vediamo se ho capito dal tono di voce stai cercando di racimolare la forza per dire guarda mi sa che qua non ce n'è più e ti stai chiedendo la devo incontrare fisicamente per dirglielo o è inutile che la faccio venire fino qui che questa è una roba da maschio la faccio venire fino qui per poi dirle basta tanto vale che glielo dica senza farla venire qui e lei dirà alle sue amiche quella merda ma il telefono mi ha lasciato invece io ti dico Marco hai già deciso? sai cosa devi fare? devi andare tu cioè no tu non ti devi chiedere la faccio venire lo dico al telefono tu vai cioè tu devi fare questo sforzo questa fatica mettiamola così vai io non sono d'accordo no? no cosa fai un sms?",
+    "end": 1715.26,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "senti una volta mio padre che era un ossessionato dal lavoro e a cui io devo praticamente tutto perché non avendo un gran talento io diciamo ce l'ho fatta realizzare i miei sogni solo perché ho lavorato più degli altri che mi stavano a fianco e mi diceva sempre su un posto di lavoro ricordati che quel giorno che stai a casa una cosa brutta che può succedere è che si accorgano che tu non servi quindi stai attento quando si fa una pausa una cosa brutta che può succedere è che ti accorgi di stare bene bravo ok quindi se tu adesso ti accogli di stare bene sta pausa è un po' una fregatura perché non è una pausa che ti serve per caricarti e ritornare dentro la battaglia quotidiana con lei tu dici ma a me chi me lo fa fa torno a casa dal lavoro vado a bermi una birra esco con gli amici torno a casa esatto sono bello tranquillo Mangiare in giro ce n'è ormai perché siamo una generazione che esci e fai fatica a trovare altre compagne per il momento.",
     "titolo": "Il padre ossessionato dal lavoro",
     "tema": [
       "lavoro",
@@ -690,11 +602,33 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-05-058",
+    "id": "2016-04-05-052",
+    "start": 1717.36,
+    "end": 1726.61,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Anche se le amicizie, ho degli amici che sono un po' pazzerelli, quindi bisogna fare attenzione perché basta un attimo e tac, sono già con un'altra persona.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-04-05-053",
+    "start": 1726.81,
+    "end": 1789.76,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "No, no, no, non cambiare asino. Allora, aspetta, cosa vogliamo fare? Marco, dopo una settimana, due settimane che sei un po' così, stai cercando, vediamo se ho capito dal tono di voce, stai cercando di racimolare la forza per dire guarda mi sa che qua non ce n'è più e ti stai chiedendo la devo incontrare fisicamente per dirglielo o è inutile che la faccio venire fino qui che questa è una roba da maschio la faccio venire fino qui per poi dirle basta tanto vale che glielo dica senza farla venire qui e lei dirà alle sue amiche quella merda ma il telefono mi ha lasciato invece io ti dico Marco hai già deciso? sai cosa devi fare? devi andare tu cioè no tu non ti devi chiedere la faccio venire lo dico al telefono tu vai cioè tu devi fare questo sforzo questa fatica mettiamola così vai io non sono d'accordo no? no cosa fai un sms?",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-04-05-054",
     "start": 1789.9,
     "end": 1802.09,
     "speaker_raw": "SPEAKER_01",
-    "testo": "non sms chiama risparmiamo soldi tempo tutti e due dopo quanto tempo stavate insieme Marco? sono sei mesi sei mesi sono pochi si può lasciare al telefono",
+    "testo": "non sms chiama risparmiamo soldi tempo tutti e due dopo quanto tempo state insieme Marco? sono sei mesi sei mesi sono pochi si può lasciare al telefono",
     "titolo": "La relazione a sei mesi",
     "tema": [
       "amore",
@@ -704,11 +638,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-05-059",
+    "id": "2016-04-05-055",
     "start": 1802.69,
     "end": 1863.45,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "A sei mesi? Allora aspetta facciamo il tabellario. No secondo me sei mesi sai. Massi posso dirti Marco che tanto ti avranno già riconosciuto anche amici di lei e quindi adesso metà del lavoro te l'abbiamo fatto noi. va bene va bene senti bocca al lupo però ti posso dire dopo fra 4-5 giorni una settimana un mese quando hai finito di uscire con gli amici di bere le birre di ciulare in giro a caso poi ci sarà una domenica pomeriggio che ti senti vuoto come un vaso di nutella dopo che ci hai infilato anche lì non gli rompere le palle richiamandola dicendo ho sbagliato tutto mi manchi scusa solo perché ti sei sfogato basta poi lasciala in pace va bene va bene ciao Marco un abbraccio di solito gli uomini aspettano di vederla e lei con un altro che si rialza e il dottore dice no ma com'è con quello lì ti sei rattristata Viola?",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "A sei mesi? Aspetta facciamo il tabellario. No secondo me sei mesi sai. Ma sì posso dirti Marco che tanto ti avranno già riconosciuto anche amici di lei e quindi adesso metà del lavoro te l'abbiamo fatto noi. va bene va bene senti bocca al lupo però ti posso dire dopo fra 4-5 giorni una settimana un mese quando hai finito di uscire con gli amici di bere le birre di ciulare in giro a caso poi ci sarà una domenica pomeriggio che ti senti vuoto come un vaso di nutella dopo che ci hai infilato anche lì non gli rompere le palle richiamandola dicendo ho sbagliato tutto mi manchi scusa solo perché ti sei sfogato basta poi lasciala in pace va bene va bene ciao Marco un abbraccio di solito gli uomini aspettano di vederla e lei con un altro che si rialza e il dottore dice no ma com'è con quello lì ti sei rattristata Viola?",
     "titolo": "Il padre orgoglioso del figlio",
     "tema": [
       "genitori",
@@ -718,7 +652,7 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-05-060",
+    "id": "2016-04-05-056",
     "start": 1863.47,
     "end": 1865.36,
     "speaker_raw": "SPEAKER_01",
@@ -729,22 +663,22 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-05-061",
+    "id": "2016-04-05-057",
     "start": 1889.86,
-    "end": 1919.3,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "a presto ... ... ... ... ... ... ... ...",
+    "end": 1918.88,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Grazie. Grazie a tutti.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-04-05-062",
+    "id": "2016-04-05-058",
     "start": 2029.66,
-    "end": 2152.93,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "Ci sono due scuole di pensiero che stanno movimentando le dita dei nostri ascoltatori sui loro smartphone e sui loro computer. Una dice brava Viola, ma sì per sei mesi, altri dicono che c'entrano i sei mesi, che c'entra il tempo. Ti lasci con una persona e glielo devi dire in faccia. io dico questo non farmi perdere tempo io non so qual è la distanza se è una roba che fa via Milano io mi immaginavo lui Andrea lei Bergamo magari sta a Londra io andrei andresti perché sei un paraculo no perché io ci metto la faccia sì e sto espiando no espiando ho avuto che fare con te intanto vado lì perché voglio spiegare anche perché no ecco mi è arrivato un'altra dalla Johanna ti aspetto stronzo no no scusami intanto vado perché voglio anche spiegare perché poi ci sono delle cose che sono sotto come dire il controllo dell'essere umano e delle persone altre cose soprattutto in amore nelle relazioni in amicizia così che non sono sotto controllo capisci? non è che tutto è gestibile io mi metto nei panni di chi viene lasciato e dico però ragazzi la vita è così ti potrei risparmiare la strada io da lasciata lo dico magari io andrei a lasciare ma non è vero però da lasciata non importa che tu venga fin qua a dimostrare chissà cosa va bene va bene caro ascoltatore fidanzato di Viola il giorno che la vuoi lasciare una chat esatto collettiva con gli amici con le famiglie ciao stronza è tutto finito esatto ma ad ora parliamo di cose belle parliamo di sogni con la occhiusa buongiorno Marco ciao Fabio l'altro giorno l'altro giorno Viola mi parla di questo articolo di questa edicola etica un posto bellissimo così dico vabbè la facciamo nei prossimi giorni dopodiché vado per fare il passaporto di Portusio e uno dall'altra parte una strada un edicolo Fabio Fabio vieni qua e dico ma dai abbiamo parlato di te stamattina ti chiamerò la settimana prossima eccoci qua",
+    "end": 2159.24,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Ci sono due scuole di pensiero che stanno movimentando le dita dei nostri ascoltatori sui loro smartphone e sui loro computer, una dice brava Viola, ma sì per sei mesi, altri dicono che c'entrano i sei mesi, c'entra il tempo, ti lasci con una persona e glielo devi dire in faccia. io dico questo non farmi perdere tempo io non so qual è la distanza se è una roba che fa via Milano io mi immaginavo lui Andrea lei Bergamo magari sta a Londra io andrei andresti perché sei un paraculo no perché io ci metto la faccia sì e sto espiando no espiando ho avuto che fare con te intanto vado lì perché voglio spiegare anche perché no ecco mi è arrivato un'altra dalla Johanna ti aspetto stronzo no no scusami intanto vado perché voglio anche spiegare perché poi ci sono delle cose che sono sotto come dire il controllo dell'essere umano e delle persone altre cose soprattutto in amore nelle relazioni in amicizia che non sono sotto controllo capisci? non è che tutto è gestibile io mi metto nei panni di chi viene lasciato e dico però ragazzi la vita la vita è così ti potevi risparmiare la strada io da lasciata lo dico magari io andrei a lasciare ma non è vero però da lasciata non importa che tu venga fin qua a dimostrare chissà cosa va bene va bene caro ascoltatore fidanzato di Viola il giorno che la vuoi lasciare una chat esatto collettiva con gli amici collettiva le famiglie ciao stronza è tutto finito esatto ma ad ora parliamo di cose belle parliamo di sogni con la occhiusa buongiorno Marco ciao Fabio l'altro giorno l'altro giorno Viola mi parla di questo articolo di questa edicola etica un posto belli così dico vabbè la facciamo i prossimi giorni dopodiché vado per fare il passaporto di Portusio e uno dall'altra parte una strada un edicolo Fabio Fabio vieni qua e dico ma dai abbiamo parlato di te stamattina ti chiamerò la settimana prossima eccoci qua hai visto i casi della vita allora in piazza Cordusio c'è un'edicola etica",
     "titolo": "La gestione del tempo nelle relazioni",
     "tema": [
       "relazioni",
@@ -755,50 +689,21 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-05-063",
-    "start": 2153.51,
-    "end": 2154.71,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Hai visto i casi della vita?",
+    "id": "2016-04-05-059",
+    "start": 2160.72,
+    "end": 2189.95,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "esatto, siamo qua da un anno è un progetto di comunità nuova cooperativa nasce per dare aspetta un secondo che c'è il tram che a Milano sono tanto belli da vedere ma dal punto di vista delle orecchie è un po' di olio nasce per dare un'occasione, un posto di lavoro a persone in difficoltà per motivi vari e niente, oltre a questo oltre a questo del progetto principale abbiamo anche",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
-  },
-  {
-    "id": "2016-04-05-064",
-    "start": 2154.75,
-    "end": 2159.26,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "I casi della vita. Allora, in piazza Cordusio c'è un'edicola etica.",
-    "titolo": "L'edicola etica di Piazza Cordusio",
-    "tema": [
-      "solidarietà",
-      "progetti sociali"
-    ],
-    "tipo": "aneddoto",
     "video_url": ""
   },
   {
-    "id": "2016-04-05-065",
-    "start": 2160.72,
-    "end": 2175.28,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Esatto, siamo qua da un anno, è un progetto di comunità nuova cooperativa, nasce per dare un'occasione a persone in difficoltà per motivi vari e niente, oltre a questo del progetto principale abbiamo anche",
-    "titolo": "Progetto di comunità",
-    "tema": [
-      "comunità",
-      "progetto"
-    ],
-    "tipo": "aneddoto",
-    "video_url": ""
-  },
-  {
-    "id": "2016-04-05-066",
+    "id": "2016-04-05-060",
     "start": 2190.74,
     "end": 2219.04,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_05",
     "testo": "dei piccoli progetti che sono dei piccoli sogni di bambini praticamente voi mettete un cartello e ogni diciamo un sogno al mese più o meno dipende da quanto ci si mette a realizzarlo per esempio una bambina vuole fare un giro in bicicletta sono bambini che vengono da famiglie diciamo un po' faticose in difficoltà in situazioni molto faticose adesso guarda il sogno di adesso è di Giuseppe che ha 12 anni e vuole fare atletica ok e deve cercare di comprargli un paio di scarpe",
     "titolo": "Il progetto dei sogni per i bambini",
     "tema": [
@@ -809,22 +714,21 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-05-067",
+    "id": "2016-04-05-061",
     "start": 2219.88,
     "end": 2269.14,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "abbiamo il dispenser dei sogni c'è una boccia sotto un rubinetto da cui chiaramente i soldi non escono ed è lì praticamente allora adesso uno viene compra il giornale e mette non so un altro euro due euro quello che vuole fa un'offerta c'è chi lascia il resto c'è chi porta fuori il portafoglio e mette anche la banconota per esempio in questo caso le scarpette stiamo parlando di 60 euro 70 euro 30 euro non lo so è una difra del genere chiaramente i sogni devono essere a misura di edicola a misura di ok ok non riusciremo mai a raccogliere 10.000 euro in una boccia perché a misura di edicola è anche sensato essere il Se il bambino, con tutto rispetto, chiede un pallo all'ultimo modello della Nike, non è che sia proprio un sogno... No, ma adesso quelli della Nike ci stanno ascoltando e ce lo manderanno sicuramente.",
+    "speaker_raw": "SPEAKER_02",
+    "testo": "abbiamo il dispenser dei sogni c'è una boccia sotto un rubinetto da cui chiaramente i soldi non escono ed è lì praticamente allora adesso uno viene compra il giornale e mette non so un altro euro due euro quello che vuole fa un'offerta c'è chi lascia il resto c'è chi porta fuori il portafoglio e mette anche la banconota per esempio in questo caso le scarpette stiamo parlando di 60 euro 70 euro 30 euro non lo so è una difra del genere chiaramente i sogni devono essere a misura di edicola a misura di ok ok non riusciremo mai a raccogliere 10.000 euro in una boccia perché a misura di edicola è anche sensato essere il Se il bambino, con tutto rispetto, chiede un pallo all'ultimo modello della Nike, non è che sia proprio un sogno... No, ma adesso quelli della Nike ci stanno ascoltando, ce lo manderanno sicuramente.",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
-    "id": "2016-04-05-068",
+    "id": "2016-04-05-062",
     "start": 2269.26,
     "end": 2276.4,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Allora, scusami Marco, non ti voglio rubare la roba del sogno. Che numero ha sto bambino, lo sai? O lo deciderete dopo?",
     "titolo": "",
     "tema": [],
@@ -832,88 +736,65 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-05-069",
+    "id": "2016-04-05-063",
     "start": 2276.42,
     "end": 2301.73,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Che numero ha sto bambino? No, guarda, non lo so, perché lo decidiamo quando andiamo a comprarlo. I sogni li... Ok. C'è il segretariato sociale in via Bellini, al Giambellino, dove... dove si presenta la gente, comunque la cooperativa è legata all'associazione Comunità Nuova di Don Gino Rigoldi e qui comunque i vari servizi di Comunità Nuova ci vivono in contatto con noi.",
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Che numero ha sto bambino? No, guarda, non lo so, perché lo decidiamo quando andiamo a comprarlo. I sogni di... Ok. C'è il segretariato sociale in via Bellini, al Giambellino, dove... dove si presenta la gente, comunque la cooperativa è legata all'associazione Comunità Nuova di Don Gino Rigoldi e qui comunque i vari servizi di Comunità Nuova ci viene in contatto con noi.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-04-05-070",
+    "id": "2016-04-05-064",
     "start": 2301.79,
     "end": 2334.77,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "Da quanti giorni è iniziato questo sogno delle scarpette? quanto mancherà per avere queste scarpette? fammi guardare la boccia adesso tutte le settimane ti chiamiamo per sapere qual è il sogno perfetto vedo un paio 3,20 un 5 un bel po' di moneta ok ci siamo quasi ci siamo quasi siamo a metà dell'opera senti adesso io devo tornare lì in Cordugio per il passaporto? perfetto ok passo e metto il resto da domani inizia il sogno nuovo perfetto",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Da quanti giorni è iniziato questo sogno delle scarpette? quanto mancherà per avere queste scarpette fammi guardare la boccia adesso tutte le settimane ti chiamiamo per sapere qual è il sogno perfetto vedo un paio 3,20 un 5 un bel po' di moneta ok ci siamo quasi ci siamo quasi siamo a metà dell'opera senti adesso io devo tornare lì in Cordugio per il passaporto perfetto ok passo e metto il resto da domani inizia il sogno nuovo perfetto",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-04-05-071",
+    "id": "2016-04-05-065",
     "start": 2336.5,
-    "end": 2351.93,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Faccio due cose sole, voglio salutare Giulio e Ciala che non sono qua adesso, che lavorano qui all'edicola. Fare un appello a chiunque a venire qui, fare un appello anche agli uffici della zona. Noi facciamo anche consegna dei quotidiani.",
+    "end": 2366.31,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Faccio due cose sole, voglio salutare Giulio e Ciala che non sono qua adesso, che lavorano qui all'edicola. fare un appello a chiunque a venire qui fare un appello anche agli uffici della zona noi facciamo anche consegna dei quotidiani che è una cosa fondamentale per la sopravvivenza dell'edicola sono quegli incassi sicuri su cui puoi contare ogni giorno come fossero i nostri abbonati e facciarti Carlo lo ricordi Carlo?",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-04-05-072",
-    "start": 2352.17,
-    "end": 2352.53,
-    "speaker_raw": "SPEAKER_10",
-    "testo": "Ok.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-04-05-073",
-    "start": 2352.85,
-    "end": 2366.83,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Che è una cosa fondamentale per la sopravvivenza dell'edicola. Sono quegli incassi sicuri su cui puoi contare ogni giorno, no? Ok. Come fossero i nostri abbonati. Sì, sì, sì. E facciarti Carlo. Ok. Lo ricordi Carlo? Certo, certo. Lo ricordi, dai che ti saluto. Va bene.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-04-05-074",
-    "start": 2366.87,
+    "id": "2016-04-05-066",
+    "start": 2366.37,
     "end": 2380.22,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "Ciao Fabio. Ciao a te. Ciao Marco. le scarpette, la bicicletta, ma più piccoli, belli i sogni piccoli che li vedi che si realizzano in pochi giorni.",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "certo certo va bene ciao Fabio ciao a te ciao Marco le scarpette, la bicicletta, ma più piccoli, belli i sogni piccoli che li vedi che si realizzano in pochi giorni.",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
-    "id": "2016-04-05-075",
+    "id": "2016-04-05-067",
     "start": 2397.28,
     "end": 2496.62,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "Ciao! Ciao! Ciao!",
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Ciao Ciao Ciao Ciao! Ciao!",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-04-05-076",
+    "id": "2016-04-05-068",
     "start": 2547.13,
     "end": 2616.55,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Facendo vedere ancora la lista dei nomi di questo Panama Papers, devo dire che la cosa che mi fa più ridere è l'intervista all'islandese, con la Johanna ne ridiamo, perché lui durante l'intervista gliel'hanno chiesto, l'avete visto? Lui si è alzato e se n'è andato. continuava a parlare no perché è uscito dall'inquadratura scusate l'intervista è andato ma è stupendo perché c'ha una faccia da culo è un insospettabile tra l'altro no perché ti spiego in realtà non è che ho fatto i corti corretti ed è uscito e è andato ammazzo va bene scusate un attimo allora uno dice io sono andato per lasciarla e poi alla fine l'ho sposata abbiamo due figli siamo felici vedi che ci sono anche storie belle uno va per lasciarla la vede e capisce invece che sta sbagliando un altro invece Zaira o Zaira Zaira Zaira che dice che dice col cavolo che ha ragione viola aspetta ha ragione viola col cavolo che vieni qui a toglierti i sensi di colpa se mi telefonate vomito tutto l'odio che ho dentro Zaira da dove chiami?",
     "titolo": "intervista all'islandese",
     "tema": [
@@ -924,21 +805,21 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-05-077",
+    "id": "2016-04-05-069",
     "start": 2617.65,
     "end": 2623.85,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "Dalla provincia di Siracusa. O meglio, mi sono trasferita a Torino, ma chiamo da Siracusa, sono siciliana.",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Dalla provincia di Siracusa, o meglio mi sono trasferita a Torino ma chiamo da Siracusa, sono siciliana.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-04-05-078",
+    "id": "2016-04-05-070",
     "start": 2623.87,
     "end": 2626.61,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Senti Zaire, che c'hai? Perché c'hai l'odio dentro?",
     "titolo": "odio dentro",
     "tema": [
@@ -949,10 +830,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-05-079",
+    "id": "2016-04-05-071",
     "start": 2627.07,
     "end": 2634.79,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Che c'hai? Cosa non ho? A parte che sto trovando, non ti credo che sto parlando con te.",
     "titolo": "",
     "tema": [],
@@ -960,10 +841,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-05-080",
+    "id": "2016-04-05-072",
     "start": 2634.81,
     "end": 2637.22,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Ascoltami, stavate insieme da quanto tempo?",
     "titolo": "stato di relazione",
     "tema": [
@@ -974,10 +855,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-05-081",
+    "id": "2016-04-05-073",
     "start": 2637.6,
     "end": 2638.14,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Due anni.",
     "titolo": "",
     "tema": [],
@@ -985,11 +866,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-05-082",
+    "id": "2016-04-05-074",
     "start": 2638.16,
     "end": 2641.96,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "Da due anni. Lui è da dove? Cioè, ditemi delle due città.",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Da due anni, lui è da dove? Cioè ditemi delle due città.",
     "titolo": "due anni di relazione",
     "tema": [
       "amore",
@@ -999,10 +880,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-05-083",
+    "id": "2016-04-05-075",
     "start": 2643.22,
     "end": 2647.13,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_04",
     "testo": "si possono dire le parole tipo stronzo?",
     "titolo": "",
     "tema": [],
@@ -1010,21 +891,21 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-05-084",
+    "id": "2016-04-05-076",
     "start": 2648.09,
-    "end": 2649.21,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "la mamma? vuoi toccare la mamma?",
+    "end": 2649.65,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "la mamma? vuoi toccare la mamma? la mamma?",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-04-05-085",
+    "id": "2016-04-05-077",
     "start": 2651.09,
     "end": 2652.53,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Di più, di più, di più.",
     "titolo": "Di più, di più, di più",
     "tema": [
@@ -1035,10 +916,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-05-086",
+    "id": "2016-04-05-078",
     "start": 2652.55,
     "end": 2654.49,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Vabbè, insomma, quello lì, dai, quello lì.",
     "titolo": "",
     "tema": [],
@@ -1046,10 +927,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-05-087",
+    "id": "2016-04-05-079",
     "start": 2654.53,
     "end": 2666.26,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Ok, che cosa, due anni, due anni che stavamo insieme, sì, è venuto, cioè praticamente io mi sono trasferita a Torino da pochissimi mesi e è salito su qua, mi ha lasciato.",
     "titolo": "Lui è salito a Torino per lasciarmi",
     "tema": [
@@ -1060,10 +941,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-05-088",
+    "id": "2016-04-05-080",
     "start": 2666.46,
     "end": 2669.06,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Ma lui, scusami, da Siracusa è salito?",
     "titolo": "",
     "tema": [],
@@ -1071,11 +952,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-05-089",
+    "id": "2016-04-05-081",
     "start": 2669.2,
     "end": 2692.87,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "Ma quale Siracusa? Allora, io sono in Siracusa, ok, mi sono trasferita a Torino da Puglia. ok questo l'abbiamo capito e lui era in giro per il mondo cioè nel senso non ha un lavoro ben fisso cioè nel senso gira sempre ok era in Puglia esattamente beh però ti posso dire che dalla Puglia è venuto fino a Torino per lasciarti merita ma merita che?",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Ma quale Siracusa? Allora, io sono in Siracusa, ok, mi sono trasferita a Torino da Puglia. ok questo l'abbiamo capito ok e lui era in giro per il mondo cioè nel senso non ha un lavoro ben fisso cioè nel senso gira sempre ok era in Puglia esattamente beh però ti posso dire che dalla Puglia è venuto fino a Torino per lasciarti merita ma merita che?",
     "titolo": "Il viaggio dalla Puglia a Torino per lasciarsi",
     "tema": [
       "relazioni",
@@ -1086,10 +967,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-05-090",
+    "id": "2016-04-05-082",
     "start": 2693.84,
     "end": 2699.08,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Ma cazzo, ma uno che è dalla Puglia va a Torino per lasciarla? Ti do le mille miglia, ciao.",
     "titolo": "",
     "tema": [],
@@ -1097,11 +978,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-05-091",
+    "id": "2016-04-05-083",
     "start": 2699.1,
     "end": 2705.8,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "Ma che stai facendo? No, non è stato proprio così. Diciamo che sono i sensi di colpa che l'hanno portato. È il minimo che poteva fare.",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Ma che stai facendo? No, non è andata proprio così, diciamo sono i sensi di colpa che l'hanno portato, è il minimo che poteva fare.",
     "titolo": "Sensi di colpa possono portare a scelte",
     "tema": [
       "amore",
@@ -1111,33 +992,55 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-05-092",
+    "id": "2016-04-05-084",
     "start": 2706.04,
     "end": 2711.5,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "Però, scusami, hai apprezzato che non ti ha lasciato al telefono? Saresti ancora più arrabbiata?",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Però hai apprezzato che non ti ha lasciato al telefono, saresti ancora più arrabbiata.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-04-05-093",
+    "id": "2016-04-05-085",
     "start": 2711.88,
     "end": 2722.36,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "No, no, no, no, perché non doveva fare così, no. anche perché non sapevo che stava venendo per lasciarmi ma avete fatto l'amore prima?",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "No, no, no, no, perché non doveva fare così, no. Anche perché non sapevo che stava venendo per lasciarmi. Ma avete fatto l'amore prima?",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-04-05-094",
-    "start": 2723.14,
-    "end": 2786.53,
+    "id": "2016-04-05-086",
+    "start": 2722.92,
+    "end": 2740.16,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Eh, almeno quello. Ah, vedi? Ha capito lui, è andato. Ha fatto i suoi parci comodi, poi mentre lì di schiena ti ha picchiato sulla spalla, tu ti sei girata e lui davanti.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-04-05-087",
+    "start": 2740.26,
+    "end": 2743.22,
     "speaker_raw": "SPEAKER_04",
-    "testo": "almeno quello ah vedi? ha capito lui è andato ha fatto i suoi i suoi porci comodi poi mentre lì di schiena ti ha picchiato sulla spalla e tu ti sei girata e lui davanti ma quasi quasi adesso posso lasciarti dopo che ha fatto Lui era dietro ha fatto to to sulla spalla Lei si è già detto dimmi amore E lui sai che è finita Sì hai capito perché non lo sapevo E tu vieni fai quello che devi fare Dopo mi lasci Sei quello che sei Mannaggia E adesso non lo senti più? ci sentiamo ogni tanto però posso dirti Zaira a te ti piace ancora il tuo odio in realtà è amore a te ti piace ancora ma certo adesso tu che lui venga e ti faccia i suoi sporci comodi poi se ne vada via ti fa anche bene intanto che ci pensa no non è che sono così ma così davvero perché la tua amica come si chiama la tua amica quella con cui ti confessi?",
+    "testo": "Ma quasi quasi adesso posso lasciarti dopo che...",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-04-05-088",
+    "start": 2744.37,
+    "end": 2786.53,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Lui era dietro ha fatto to to sulla spalla Lei si è già detto dimmi amore E lui sai che è finita Sì hai capito perché non lo sapevo E tu vieni fai quello che devi fare Dopo mi lasci Sei quello che sei Mannaggia E adesso non lo senti più? ci sentiamo ogni tanto però posso dirti Zaira a te ti piace ancora il tuo odio in realtà è amore a te ti piace ancora ma certo adesso tu che lui venga e ti faccia i suoi sporci comodi poi se ne vada via ti fa anche bene intanto che ci pensa no non è che sono così ma così davvero perché la tua amica come si chiama la tua amica quella con cui ti confessi?",
     "titolo": "la storia di un amore finito",
     "tema": [
       "amore",
@@ -1148,10 +1051,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-05-095",
+    "id": "2016-04-05-089",
     "start": 2787.13,
     "end": 2788.38,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Licia Licia",
     "titolo": "",
     "tema": [],
@@ -1159,11 +1062,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-04-05-096",
+    "id": "2016-04-05-090",
     "start": 2789.42,
     "end": 2850.24,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "come fa a chiamare in un posto così che sembra di essere un cartone animato giapponese comunque senti una cosa no perché lì ti spiego io me lo metto in testa tutto il discorso da fargli quando arrivano poi come lo vedo mi dimentico tutto e alla fine c'ha ragione lui così dice la tua amica ma allora è giusto che vi diano due copie e vanno via questa proprio col cuore la dico ciao Zaira buona giornata ciao ciao abbiamo finito? eh sì c'era uno che doveva venire a fare gli esami delle feci glielo diamo a Linus? glielo diamo a Linus all'orario di Linus e Nicola? eh sì sì ok allora quello che deve venire a fare che deve venire a fare può chiamare e dice chiama Italia ci sentiamo domani mattina? un po' più puntuale io sono arrivato puntuale ragazzi buongiornazzo va bene ci sentiamo domani dalle 9 alle 10 ciao",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "sì però anche te Zahira come fa a chiamare in un posto così che sembra di essere un cartone animato giapponese comunque senti una cosa no perché lì ti spiego io me lo metto in testa tutto il discorso da fargli quando arrivano poi come lo vedo mi dimentico tutto e alla fine c'ha ragione lui così dice la tua amica eh vabbè ma allora è giusto che vi diano due copie e vanno via questa proprio col cuore la dico Ciao Zaira, buona giornata. Ciao, ciao. Abbiamo finito? Eh sì. C'era uno che doveva venire a fare gli esami delle feci. Glielo diamo a Linus? Glielo diamo a Linus? All'orario di Linus e Nicola? Sì, sì. Ok, allora quello che deve venire a fare... Che deve venire a fare? Che gara la dirige? Può chiamare e dice chiama Italia. ci sentiamo domani mattina? un po' più puntuale io sono arrivato puntuale ragazzi buongiornazzo va bene ci sentiamo domani dalle 9 alle 10 ciao",
     "titolo": "la preparazione per un discorso",
     "tema": [
       "comunicazione",
