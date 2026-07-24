@@ -579,10 +579,12 @@ def main() -> None:
 
     cartella = Path(args.cartella)
     if args.forza:
-        # ricorsivo: include anche <cartella>/gia_trascritti/*.mp3, altrimenti
-        # gli episodi gia' completati (spostati li' da _completa_episodio) sono
-        # invisibili al glob normale e --forza non troverebbe nulla da rifare.
-        mp3s = sorted(cartella.rglob("*.mp3"))
+        # SOLO <cartella>/*.mp3 + <cartella>/gia_trascritti/*.mp3 - NON un rglob
+        # generico: la cartella anno puo' contenere altre sottocartelle con
+        # contenuto diverso (es. "frammenti_corti/", clip brevi con nomi/date
+        # che NON sono episodi interi - trovato in produzione il 2026-07-24,
+        # rglob le prendeva tutte e generava frammenti spuri per quelle date).
+        mp3s = sorted(set(cartella.glob("*.mp3")) | set(cartella.glob("gia_trascritti/*.mp3")))
     else:
         mp3s = sorted(cartella.glob("*.mp3"))
     if args.da:
