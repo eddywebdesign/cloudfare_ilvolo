@@ -3,8 +3,8 @@
     "id": "2016-03-09-000",
     "start": 13.62,
     "end": 166.84,
-    "speaker_raw": "SPEAKER_02",
-    "testo": "Ciao! a presto no no a presto Buongiorno a tutti, sta per cominciare il volo del mattino.",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Ciao! a presto no no no a presto Buongiorno a tutti, sta per cominciare il volo del mattino.",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -13,9 +13,9 @@
   {
     "id": "2016-03-09-001",
     "start": 167.24,
-    "end": 201.39,
-    "speaker_raw": "SPEAKER_01",
-    "testo": "Come state ragazzi? Bene. Bene, bene. La stellina al centralino. La Steffi non è al centralino, è qui con noi nella stanzetta. Come mai sei qua Steffi? Non ti sente. Ah, non ha le cuffie. Come mai? Vuoi salutare al microfono visto che sei qua? Vuoi dire ciao? ciao a tutti sono la Stefi tra poco avrò il mio booster ah finalmente hai trovato il booster vi ricordo che ai tempi storici del volo del mattino c'era anche la rubrica dedicata alla Stefi ti ricordi cosa fa la Stefi con la bocca? bene bene cosa sa fare la Stefi con la bocca? cosa sa fare la Stefi con la bocca? cosa sapevi fare? fammi una cosa che sapevi fare con la bocca",
+    "end": 264.52,
+    "speaker_raw": "SPEAKER_00",
+    "testo": "Come state ragazzi? Bene. Bene, bene. La stellina al centralino. La Steffi non è al centralino, è qui con noi nella stanzetta. Come mai sei qua Steffi? Non ti sente. Ah, non ha le cuffie. Come mai? Vuoi salutare al microfono visto che sei qua? Vuoi dire ciao? ciao a tutti sono la Stefi tra poco avrò il mio booster ah finalmente hai trovato il booster vi ricordo che ai tempi storici del volo del mattino c'era anche la rubrica dedicata alla Stefi ti ricordi cosa fa la Stefi con la bocca? bene bene cosa sa fare la Stefi con la bocca? cosa sa fare la Stefi con la bocca? cosa sapevi fare? fammi una cosa che sapevi fare con la bocca diciamo che sono molto migliorata in tante cose in tante cose puoi fare fischi più prolungati poi adesso hai una bambina per cui è però facevi una roba tipo una roba strana cosa facevi con la bocca? facevi delle cose strane? fischietti particolari dai fanne uno come vediamo ma come non mi viene più dopo l'allattamento va bene allora ciao ragazzi benvenuti c'è viola sai fare qualcosa tu di particolare senza fare battute doppio senso ma sai fare qualcosa con la bocca ma anche sai quelle persone che riescono a tirarsi il dito tutto indietro sul polso io so parlare con l'acqua in bocca perché mi faccio due sacche come i cricetti con le gocciole esatto ma scusami mi metto scusami aspetta un secondo le guance di acqua aspetta un secondo Steffi mi metti? no ce l'ho ah ok va bene puoi dire sì benvenuti al volo del mattino e sigla ok sta bevendo ragazzi benvenuti al volo del mattino sigla ma come ma come no ti devi fare una foto e metterla su facebook non posso semplici peciocchi oh dio",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -23,79 +23,10 @@
   },
   {
     "id": "2016-03-09-002",
-    "start": 201.67,
-    "end": 204.18,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "Diciamo che sono molto migliorata in tante cose.",
-    "titolo": "Migliorata in tante cose",
-    "tema": [
-      "autostima",
-      "sviluppo"
-    ],
-    "tipo": "riflessione",
-    "video_url": ""
-  },
-  {
-    "id": "2016-03-09-003",
-    "start": 204.7,
-    "end": 205.28,
-    "speaker_raw": "SPEAKER_01",
-    "testo": "In tante cose.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-03-09-004",
-    "start": 205.38,
-    "end": 206.7,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "So fare fischi più prolungati.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-03-09-005",
-    "start": 206.74,
-    "end": 213.57,
-    "speaker_raw": "SPEAKER_01",
-    "testo": "Poi adesso hai una bambina per cui è... Però facevi una roba strana. Cosa facevi con la bocca? Facevi delle cose strane?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-03-09-006",
-    "start": 213.59,
-    "end": 214.67,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "Fischietti particolari.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-03-09-007",
-    "start": 214.71,
-    "end": 264.52,
-    "speaker_raw": "SPEAKER_01",
-    "testo": "Dai, fanne uno come... Vediamo. ma come non mi viene più dopo l'allattamento va bene allora ciao ragazzi benvenuti c'è viola sai fare qualcosa tu di particolare senza fare battute doppio senso ma sai fare qualcosa con la bocca ma anche sai quelle persone che riescono a tirarsi il dito tutto indietro sul polso io so parlare con l'acqua in bocca perché mi faccio due sacche come i cricetti con le gocciole esatto ma scusami mi metto scusami aspetta un secondo le guance di acqua aspetta un secondo Steffi mi metti? no ce l'ho qua è qua ah ok va bene puoi dire sì benvenuti al volo del mattino e sigla ok sta bevendo ragazzi benvenuti al volo del mattino sigla ma come ma come no ti devi fare una foto e metterla su facebook non posso semplici peciocchi oh dio",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-03-09-008",
     "start": 274.29,
     "end": 320.88,
-    "speaker_raw": "SPEAKER_14",
-    "testo": "Good morning life Good morning bird Sing out your happy tune Feels so good cause I'll be seeing her soon Last night she said she loved me What a pity to part I slept with both eyes open Waiting for today to start Good morning life Good morning world How are you happiness All at once I knew what living can be Allora, mi spiace che siamo alla radio e vi siete persi la faccia di Viola con le guanciotte piene d'acqua.",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Good morning life, good morning bird, sing out your happy tune, feel so good cause I'll be seeing her soon. Last night she said she loved me, what a pity to part, I slept with both eyes open, waiting for today to start. Good morning life, good morning world, how are you, happiness, all at once I knew what living can be. Allora, mi spiace che siamo alla radio e vi siete persi la faccia di Viola con le guanciotte piene d'acqua.",
     "titolo": "Good Morning Life",
     "tema": [
       "amore",
@@ -105,10 +36,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-09-009",
+    "id": "2016-03-09-003",
     "start": 320.9,
     "end": 323.22,
-    "speaker_raw": "SPEAKER_01",
+    "speaker_raw": "SPEAKER_00",
     "testo": "Come fai a non andarti giù a uscire?",
     "titolo": "",
     "tema": [],
@@ -116,10 +47,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-09-010",
+    "id": "2016-03-09-004",
     "start": 323.26,
     "end": 331.02,
-    "speaker_raw": "SPEAKER_13",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Perché riesco a ricavare due sacche isolate nella parte superiore delle guance. Farò un tutorial.",
     "titolo": "Sacche isolate nella guancia",
     "tema": [
@@ -130,11 +61,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-09-011",
+    "id": "2016-03-09-005",
     "start": 331.12,
-    "end": 393.51,
-    "speaker_raw": "SPEAKER_01",
-    "testo": "Farai un tutorial? Io chiedo di cambiare programma. Sì, ma la mia domanda è, serve a qualcosa? Sì, perché se tu stai bevendo e uno ti fa la domanda, tu non devi deglutire come noi, che dice aspetta un attimo con la mano. Tu vai, sì certo le calze sono nel secondo cassetto. Il mio ex fidanzato riusciva a buttare fuori gli occhi dalla testa. ma cosa dici? sai che una volta ho conosciuto anche uno di Roma che lo sapeva fare cioè non è che uscivano completamente cioè che poi rimane attaccato coi figli hanno visto lo show dei record schiacciano un po' gli occhi e diventano come i Simpson come uno che ha un problema grosso alla tiroide vengono fuori quasi la semisfera ma allora quello è impressionante avevo visto una donna forse io so piegare il pollice così io mio papà, mia mamma e mia sorella no riesco a piegarlo quasi e tutto indietro vabbè insomma non è che una cosa importante grandi talenti c'è chi riesce a scricchiolare il collo io non sono capace a fare il rumore con le dita lo sai fare? mi viene da vomitare fallo",
+    "end": 371.44,
+    "speaker_raw": "SPEAKER_00",
+    "testo": "Farai un tutorial? Io chiedo di cambiare programma. Sì, ma la mia domanda è, serve a qualcosa? Sì, perché se tu stai bevendo e uno ti fa la domanda, tu non devi deglutire come noi, che dice aspetta un attimo con la mano. Tu vai, sì certo le calze sono nel secondo cassetto. Il mio ex fidanzato riusciva a buttare fuori gli occhi dalla testa. ma cosa dici? sai che una volta ho conosciuto anche uno di Roma che lo sapeva fare cioè non è che uscivano completamente cioè che poi rimane attaccato coi fili hanno visto lo show dei record schiacciano un po' gli occhi e diventano come i Simpson come uno che ha un problema grosso alla tiroide vengono fuori quasi la semisfera Ma allora, quello è proprio impressionante.",
     "titolo": "Ex fidanzato con gli occhi fuori",
     "tema": [
       "fidanzato",
@@ -144,22 +75,33 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-09-012",
-    "start": 398.7,
-    "end": 405.24,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "io lo so fare col collo veramente?",
+    "id": "2016-03-09-006",
+    "start": 371.45,
+    "end": 373.3,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Sì, avevo visto una donna, forse.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-03-09-013",
-    "start": 405.72,
-    "end": 434.04,
+    "id": "2016-03-09-007",
+    "start": 373.6,
+    "end": 395.37,
     "speaker_raw": "SPEAKER_00",
-    "testo": "che impressione no basta scusate ragazzi perché anche se è finto da che va a vedere ha fatto così con la testa ci ha messo una frazione di seconda a capire che era registrato scusate immaginatevi Maurizio che piega il collo ah ah ah Troppo, troppo, ci vedo vomitare. Fermi tutti, va bene, buongiorno. Abbiamo iniziato con un grande livello, eh? Grande livello, insomma.",
+    "testo": "Sì, io so piegare il pollice così. Io mio papà, mia mamma e mia sorella no. Insomma, riesco a piegarlo quasi e tutto indietro. Sì, vabbè, insomma, non è che una cosa importante. Grandi talenti. C'è chi riesce a scricchiolare, scricchiare, scricchiare il collo. Ecco, io cosa voglio dire? Io non sono capace a fare il rumore con le dita. Lo sai fare? Mi viene da vomitare. Ah no, allora non lo faccio. Fallo. No, non lo faccio. Fallo.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-03-09-008",
+    "start": 398.7,
+    "end": 425.19,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "io lo so fare col collo veramente? che impressione no basta scusate ragazzi perché anche se è finto da che va a vedere ha fatto così con la testa ci ha messo una frazione di seconda a capire che era registrato scusate immaginatevi Maurizio che piega il collo ah ah ah",
     "titolo": "Maurizio piega il collo",
     "tema": [
       "umorismo",
@@ -169,11 +111,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-09-014",
-    "start": 434.06,
+    "id": "2016-03-09-009",
+    "start": 427.25,
     "end": 515.72,
-    "speaker_raw": "SPEAKER_01",
-    "testo": "Gli intellettuali del nostro paese sono qui, in questo programma. Ascoltatemi, scrivono, no? Già ieri avevano scritto, no? Che pare che questa barista del bar che abbiamo cambiato ieri il parbleu di Bari... molti hanno scritto io ci vado anch'io è molto bella qualcuno ha scritto ma anche la benzinaia era dalla provincia di Brescia che chiamavi da New York quindi insomma le belle donne sono a Brescia lo sappiamo tra l'altro vi faccio la confidenza che poi le Bresciane si offendono sempre quando lo dico è anche abbastanza facile da portare via si dice che le Bresciane io non lo so perché essendo di Brescia posso dire delle padovane sai poi i padovani lo dico delle Bresciane sai i ragazzi che vanno in vacanza si inzoccono poi a settembre tornano no la prima sera no neanche la seconda ma baffa allora fermi tutti chiamiamo di nuovo la barista la Monica e chiediamo intanto se è vero che è bella e se il ragazzo è andato quello dei fiori chi non capisce perché ha perso la puntata di ieri è peggio per voi date sul reload vi dico una barzelletta in dialetto bresciano sul parbleu c'è lui che praticamente va a Parigi un bresciano e fa la pipì dietro un cespuglio a un certo punto arriva un francese e dice parbleu e lui dice no me la me parzalda pronto? è pronto sono sempre Fabio Volo radio dj scusa se ti disturbo oggi posso parlare con Monica?",
+    "speaker_raw": "SPEAKER_00",
+    "testo": "troppo troppo ci vedo vomitare fermi tutti va bene buongiorno abbiamo iniziato con un grande livello eh grande livello insomma gli intellettuali del nostro paese sono qui in questo programma ascoltatemi eh scrivono no? Hanno già ieri avevano scritto no? Che pare che questa barista del bar che abbiamo cambiato ieri il parbleu molti hanno scritto io ci vado anch'io è molto bella qualcuno ha scritto ma anche la benzinaia era dalla provincia di Brescia che chiamavi da New York quindi insomma le belle donne sono a Brescia lo sappiamo tra l'altro vi faccio la confidenza che poi le Bresciane si offendono sempre quando lo dico è anche abbastanza facile da portare via si dice che le Bresciane io non lo so perché essendo di Brescia posso dire delle padovane sai poi i padovani lo dico delle Bresciane sai i ragazzi che vanno in vacanza si inzoccono poi a settembre tornano no la prima sera no neanche la seconda ma baffa allora fermi tutti chiamiamo di nuovo la barista la Monica e chiediamo intanto se è vero che è bella e se il ragazzo è andato quello dei fiori chi non capisce perché ha perso la puntata di ieri è peggio per voi andate sul reload vi dico una barzelletta in dialetto bresciano sul parbleu c'è lui che praticamente va a Parigi un bresciano e fa la pipì dietro un cespuglio a un certo punto arriva un francese e dice parbleu e lui dice no me la me parzalda pronto? è pronto sono sempre Fabio Volo radio dj scusa se ti disturbo oggi posso parlare con Monica?",
     "titolo": "Belle donne a Brescia",
     "tema": [
       "donne",
@@ -183,10 +125,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-09-015",
+    "id": "2016-03-09-010",
     "start": 516.22,
     "end": 519.38,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Sì, ma è un attimo che forse è impegnato il secondo, aspetta.",
     "titolo": "",
     "tema": [],
@@ -194,22 +136,21 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-09-016",
+    "id": "2016-03-09-011",
     "start": 519.54,
     "end": 551.96,
-    "speaker_raw": "SPEAKER_01",
-    "testo": "Ah, ok. Beh, sono anche gentili. Poi dicono dei bresciardi, che gentilezza. Ciao Monica, sono sempre Fabio Volo, scusami se ti disturbo. Sì. Allora, intanto volevo dire, sono arrivati molti messaggi dicendo che sei molto bella. sei bionda? sei mora? sono mora ti volevo chiedere degli ascoltatori maschi che stanno andando al lavoro anche per la tua timidezza si sono come un po' innamorati volevano sapere se possiamo avere un cognome per trovarti su facebook mi puoi dire come ti chiami? di cognome?",
+    "speaker_raw": "SPEAKER_00",
+    "testo": "Ah, ok. Beh, sono anche gentili. Poi dicono dei bresciano, che gentilezza. Ciao Monica, sono sempre Fabio Volo, scusami se ti disturbo. Sì. Allora, intanto volevo dire, sono arrivati molti messaggi dicendo che sei molto bella. sei bionda? sei mora? sono mora ti volevo chiedere degli ascoltatori maschi che stanno andando al lavoro anche per la tua timidezza si sono come un po' innamorati volevano sapere se possiamo avere un cognome per trovarti su facebook mi puoi dire come ti chiami? di cognome?",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
-    "id": "2016-03-09-017",
+    "id": "2016-03-09-012",
     "start": 552.48,
     "end": 552.84,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Lebani",
     "titolo": "",
     "tema": [],
@@ -217,11 +158,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-09-018",
+    "id": "2016-03-09-013",
     "start": 553.26,
     "end": 574.06,
-    "speaker_raw": "SPEAKER_01",
-    "testo": "plebani ma forse siamo anche mezzi parenti perché io ho dei parenti plebani davvero secondo me sì senti e poi è venuto il ragazzo quello dei fiori piccoli sì ma è arrivato prima che arrivassero ah esatto ma poi non è venuto a dire sono stato io sono stato io no no no ci vuoi uscire con sto ragazzo? no oh non ti trovo",
+    "speaker_raw": "SPEAKER_00",
+    "testo": "plebani ma forse siamo anche mezzi parenti perché io ho dei parenti plebani davvero secondo me sì senti e poi è venuto il ragazzo quello dei fiori piccoli sì ma è arrivato prima che arrivassero ah esatto ma poi non è venuto a dire sono stato io sono stato io no no no ci vuoi uscire con sto ragazzo oh non ti trovo",
     "titolo": "Ragazzo dei fiori piccoli",
     "tema": [
       "amore",
@@ -231,10 +172,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-09-019",
+    "id": "2016-03-09-014",
     "start": 574.61,
     "end": 575.79,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Cambiamo domanda, dai.",
     "titolo": "",
     "tema": [],
@@ -242,70 +183,87 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-09-020",
+    "id": "2016-03-09-015",
     "start": 575.81,
     "end": 590.7,
-    "speaker_raw": "SPEAKER_01",
+    "speaker_raw": "SPEAKER_00",
     "testo": "Cambiamo domanda. Va bene. Senti, allora ogni tanto la mattina ti chiamiamo per dirti che sei bella. Va bene. Monica. Foto della Plebani. Ah, ma sei carina, cavolo. Secondo me con questa faccia c'hai anche un bel culo.",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
-    "id": "2016-03-09-021",
+    "id": "2016-03-09-016",
     "start": 591.53,
     "end": 594.32,
-    "speaker_raw": "SPEAKER_08",
-    "testo": "Ehi, là. Monica.",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Ehi, là. Monica. Ho il fidanzino, sì?",
     "titolo": "",
     "tema": [],
     "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-03-09-017",
+    "start": 594.34,
+    "end": 595.5,
+    "speaker_raw": "SPEAKER_00",
+    "testo": "Hai un bel sedere, giusto?",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-03-09-018",
+    "start": 595.66,
+    "end": 595.84,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Sì.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-03-09-019",
+    "start": 596.86,
+    "end": 606.77,
+    "speaker_raw": "SPEAKER_00",
+    "testo": "lo farò giudicare agli altri purtroppo sulle pagine facebook non l'hai messo adesso ti guardo è un bel gruppetto di amiche siete tutte un po' più belle ciao Monica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-03-09-020",
+    "start": 636.19,
+    "end": 788.95,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "E la chiamano così Capital ben vestita E la chiamano così Capital ben vestita Qualcuno vuol farsi vedere Qualcuno vuol farsi vedere in questa grande città che tutto il mondo conosce qualcuno cerca l'amore qualcuno si fa male in questa grande città in questa grande città Si lavora di notte e ci si consola E la chiamano così Capital ben vestida Si la chiamano così Capital ben vestida E la chiamano così Capital ben vestida Si la chiamano così Capital ben vestida Su Corso Buenos Aires di una ragazza mi innamorai Aveva la pelle nera e gli occhi di una sfinge Su Corso Buenos Aires di una morena mi innamorai così capitata investita se la chiamano così capitata investita se la chiamano così In questa grande città",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-03-09-021",
+    "start": 810.79,
+    "end": 878.24,
+    "speaker_raw": "SPEAKER_00",
+    "testo": "Tre allegri ragazzi morti, Futurings. Futurings. Futurings. Futurings in questa grande città. Lorenzo Giovanotti, buongiorno a tutti. Bene, bene. Sono arrivati i messaggi con altri numeri di bar, parrucchieri e dove ci sono le belle ragazze. Vogliamo fare una rubrica belle ragazze d'Italia e facciamo una specie di Miss Italia del volo del mattino? Sì, perché no? A me! Mamma mia! Però quando uno esce di casa, soprattutto se sei sposato, se sei fidanzato, esci di casa e hai la tua barista, la tua parrucchia, persone con cui non hai una relazione intima, però che diventano paese, è bello. Lo dico anche, vai al bar, c'è quella lì carina, fai il caffè, fai due chiacchiere, fai il lavoro più contento. Anche le donne sicuramente avranno magari il barista quello figo. Sì, stavo pensando. Ce l'hai tu, te lo so, quello che guida il trama la mattina che ti porta qua? No. E ti dice, eh, Viola, come va oggi? Hai già timbrato? No, l'abbonamento! Ma, ma, fa così, ma, ma. Va bene. Allora, l'altro giorno, vi devo portare questa esperienza, l'altro giorno sono andato alla sede del Touring Club.",
+    "titolo": "Tre allegri ragazzi morti",
+    "tema": [],
+    "tipo": "riferimento_musica",
     "video_url": ""
   },
   {
     "id": "2016-03-09-022",
-    "start": 594.34,
-    "end": 606.77,
-    "speaker_raw": "SPEAKER_01",
-    "testo": "Hai un bel sedere, giusto? lo farò giudicare agli altri purtroppo sulle pagine facebook non l'hai messo adesso ti guardo è un bel gruppetto di amiche siete tutte un po' più belle ciao Monica",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-03-09-023",
-    "start": 636.17,
-    "end": 788.95,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "Qualcuno vuol farsi vedere qualcuno si nasconde e la chiamano così capital ben vestita e la chiamano così capital ben vestita Qualcuno vuol farsi vedere qualcuno si nasconde in questa grande città che tutto il mondo conosce qualcuno cerca l'amore qualcuno si fa male in questa grande città in questa grande città si lavora di notte e ci si consola e la chiamano così capital ben vestida si la chiamano così capital ben vestida e la chiamano così capital ben vestida si la chiamano così capital ben vestida Su Corso Buenos Aires di una ragazza mi innamorai Aveva la pelle nera e gli occhi di una sfinge Su Corso Buenos Aires di una morena mi innamorai Capitata investita, se la chiamano così. Capitata investita, se la chiamano così. In questa grande città",
-    "titolo": "Capital",
-    "tema": [],
-    "tipo": "riferimento_film",
-    "video_url": "",
-    "confermato_esterno": true,
-    "copertina": "https://image.tmdb.org/t/p/w200/2tToC7gAF5auaPm47w48pMNF9LS.jpg"
-  },
-  {
-    "id": "2016-03-09-024",
-    "start": 810.79,
-    "end": 878.24,
-    "speaker_raw": "SPEAKER_01",
-    "testo": "Tre allegri ragazzi morti, Futurings. Futurings. Futurings. Futurings in questa grande città. Lorenzo Giovanotti, buongiorno a tutti. Bene, bene. Sono arrivati i messaggi con altri numeri di bar, parrucchieri e dove ci sono le belle ragazze. Vogliamo fare una rubrica belle ragazze d'Italia e facciamo una specie di Miss Italia del volo del mattino? Sì, perché no? A me! Mamma mia! Però quando uno esce di casa, soprattutto se sei sposato, se sei fidanzato così, esci di casa e hai la tua barista, la tua parrucchia, persone con cui non hai una relazione intima, però che diventano paese, è bello. Lo dico anche, vai al bar, c'è quella lì carina, fai il caffè, fai due chiacchiere, fai il lavoro più contento. Anche le donne sicuramente avranno magari il barista quello figo. Sì, stavo pensando. Ce l'hai tu, te lo so, quello che guida il trama la mattina che ti porta qua? No. E ti dice, viola come va oggi? Hai già timbrato? No, l'abbonamento! Ma, ma, fa così, ma, ma. Va bene. Allora, l'altro giorno, vi devo portare questa esperienza, l'altro giorno sono andato alla sede del Touring Club.",
-    "titolo": "Tre allegri ragazzi morti",
-    "tema": [],
-    "tipo": "riferimento_musica",
-    "video_url": "",
-    "confermato_esterno": true,
-    "copertina": "https://coverartarchive.org/release/6041a234-54fb-4021-8bb6-ecf5c2f40149/front-250"
-  },
-  {
-    "id": "2016-03-09-025",
     "start": 878.66,
     "end": 879.36,
-    "speaker_raw": "SPEAKER_13",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Mmm, bello.",
     "titolo": "",
     "tema": [],
@@ -313,22 +271,21 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-09-026",
+    "id": "2016-03-09-023",
     "start": 879.38,
     "end": 911.36,
-    "speaker_raw": "SPEAKER_01",
+    "speaker_raw": "SPEAKER_00",
     "testo": "Touring Club che è nel nostro immaginario da sempre, da quando siamo bambini, però magari non sappiamo esattamente... le iniziative che fanno però lo conosciamo tutti io sono entrato perché dovevo andare lì per lavoro a parte un palazzo bellissimo ma poi fanno un sacco di cose molto belle guardami là il numero che ti chiamo una mattina in radio ne parliamo magari degli ascoltatori che vogliono anche partecipare perché fanno anche cose molto belle con dei volontari e roba del genere quindi signore e signori non so che carica ricopri però so che ti chiami Erika",
     "titolo": "Touring Club",
     "tema": [],
     "tipo": "riferimento_libro",
-    "video_url": "",
-    "confermato_esterno": true
+    "video_url": ""
   },
   {
-    "id": "2016-03-09-027",
+    "id": "2016-03-09-024",
     "start": 911.96,
     "end": 914.26,
-    "speaker_raw": "SPEAKER_09",
+    "speaker_raw": "SPEAKER_01",
     "testo": "esatto esatto sei il capo?",
     "titolo": "",
     "tema": [],
@@ -336,11 +293,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-09-028",
+    "id": "2016-03-09-025",
     "start": 914.96,
     "end": 949.42,
-    "speaker_raw": "SPEAKER_01",
-    "testo": "no purtroppo ancora no brava purtroppo ancora brava brava senti sei il vice capo? neanche neanche va bene insomma chiudila la portineria ho avuto una bella esperienza quando sono venuto lì perché fate un sacco di cose fighissime in realtà un po' il nostro DNA cose fighissime perché il touring club intanto è un club ovviamente privato è un'associazione che sta in piedi con gli abbonati",
+    "speaker_raw": "SPEAKER_00",
+    "testo": "no purtroppo ancora no brava purtroppo ancora brava brava senti sei il vice capo? neanche va bene insomma chiudila la portineria no però senti no ho avuto una bella esperienza quando sono venuto lì sì perché fate un sacco di cose fighissime in realtà esatto un po' il nostro dna quello di fare un sacco di cose fighissime perché il touring club intanto è una diciamo è un club ovviamente privato è un'associazione che sta in piedi con gli abbonati",
     "titolo": "esperienza al Touring Club",
     "tema": [
       "viaggio",
@@ -350,35 +307,33 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-09-029",
+    "id": "2016-03-09-026",
     "start": 950.29,
     "end": 1005.86,
-    "speaker_raw": "SPEAKER_09",
+    "speaker_raw": "SPEAKER_01",
     "testo": "allora le quote associative sono proprio abbonati sono soci e quindi attraverso quelle che sono le quote associative per cui capisci insomma l'importanza che rivesta per noi il fatto che tante persone condividano quelli che sono i nostri valori anche associandosi ovviamente ok senti io la cosa che ho letto a parte che so che a maggio venite qui al castello con prodotti tipici dei vari paesini state organizzando una cosa molto bella un'iniziativa con bandiere arancioni esatto quella che poi si terrà il castello bandiera arancione insomma sicuramente te ne avranno già parlato, te ne anticipo un po' io, è un'iniziativa appunto di Touring Club Italiano che si propone di promuovere quantomeno di garantire quello che è un turismo ovviamente di qualità attraverso quelli che sono poi appunto questi borghi, quindi i borghi dell'entroterra e lo fa attraverso dei criteri che potremmo definire rigidi ma sicuramente molto rigorosi per cui questa è un po' la sua caratteristica principale.",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
-    "id": "2016-03-09-030",
+    "id": "2016-03-09-027",
     "start": 1006.16,
     "end": 1050.41,
-    "speaker_raw": "SPEAKER_01",
-    "testo": "andare nei borghi è una delle cose più belle dell'universo esatto esatto quando te ne vai giù lì Toscana Umbria così che vai in quei borghetti meravigliosi che c'è sempre il formaggio la carne le spezie le nocciole i biscotti ma non è che monta senti invece l'altra cosa in realtà appunto come hai detto Toscana piuttosto che Umbria in realtà sono poi un po' no no lo so io perché sono andato in quelli ma ti volevo dire una cosa invece che mi interessa che sappiano gli ascoltatori del volo del mattino è che voi grazie a dei volontari riuscite in tutta Italia a tenere aperto dei posti che altrimenti i comuni non avrebbero magari soldi per sostenerli e quindi viene abbandonato mi puoi fare degli esempi?",
+    "speaker_raw": "SPEAKER_00",
+    "testo": "Andar nei borghi è una delle cose più belle dell'universo, quando te ne vai giù lì, Toscana, Umbria, che vai in quei borghetti meravigliosi che c'è sempre il formaggio, la carne, le spezie, le nocciole, i biscotti, ma non è che monta. invece l'altra cosa in realtà appunto come hai detto Toscana piuttosto che Umbria in realtà sono poi un po' no no lo so io perché sono andato in quelli ma ti volevo dire una cosa invece che mi interessa che sappiano gli ascoltatori del volo del mattino è che voi grazie a dei volontari riuscite in tutta Italia a tenere aperto dei posti che altrimenti i comuni non avrebbero magari soldi per sostenerli e quindi viene abbandonato mi puoi fare degli esempi?",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
-    "id": "2016-03-09-031",
+    "id": "2016-03-09-028",
     "start": 1050.69,
-    "end": 1077.87,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "come no? Allora innanzitutto visto che prima mi chiedevi di cosa mi occupavo nello specifico ecco io sono una delle referenti proprio di Aperti per Voi quindi di questo programma di volontariato culturale che permette proprio grazie a quelli che sono i volontari touring quindi tra altri i volontari touring piccola parentesi sono quasi 3000 per cui insomma piuttosto numerosi riescono proprio a tenere aperto in modo costante e continuativo quelli che sono luoghi d'arte e di cultura in diverse città fai conto che sono 65 luoghi in 25 città",
+    "end": 1077.99,
+    "speaker_raw": "SPEAKER_01",
+    "testo": "Come no? Allora, innanzitutto, visto che prima mi chiedevi di cosa mi occupavo nello specifico, ecco, io sono una delle referenti proprio di Aperti per Voi, quindi di questo programma di volontariato culturale che permette proprio, grazie a quelli che sono i volontari touring, quindi tra altri volontari touring, piccola parentesi, sono quasi 3.000, per cui, insomma, piuttosto numerosi, riescono proprio a tenere aperto in modo costante e continuativo quelli che sono luoghi d'arte e di cultura in diverse città. Fai conto che sono 65 luoghi in 25 città.",
     "titolo": "volontariato culturale",
     "tema": [
       "volontariato",
@@ -388,10 +343,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-09-032",
+    "id": "2016-03-09-029",
     "start": 1080.55,
     "end": 1083.34,
-    "speaker_raw": "SPEAKER_01",
+    "speaker_raw": "SPEAKER_00",
     "testo": "Se ne viene in mente qualcuno?",
     "titolo": "",
     "tema": [],
@@ -399,64 +354,57 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-09-033",
+    "id": "2016-03-09-030",
     "start": 1083.58,
     "end": 1109.9,
-    "speaker_raw": "SPEAKER_09",
+    "speaker_raw": "SPEAKER_01",
     "testo": "Ma come no? A Milano, visto che qui è un po' la nostra sede, San Maurizio Buonasero Maggiore, che è uno dei luoghi più visitati, più amati. Poi, diciamo, un esempio per eccellenza, anche se è una nostra apertura un pochino più recente, è il Palazzo del Quirinale a Roma, quindi puoi immaginare quanto sia simbolico. O ancora a Siena, quindi siamo presenti anche a Rimini con la Domus del Chirurgo, siamo presenti a Brindisi, a Napoli con la Basilica del Gesù Nuovo, quindi anche luoghi simbolici e importanti.",
     "titolo": "Palazzo del Quirinale",
     "tema": [],
     "tipo": "riferimento_libro",
-    "video_url": "",
-    "confermato_esterno": true
+    "video_url": ""
   },
   {
-    "id": "2016-03-09-034",
+    "id": "2016-03-09-031",
     "start": 1110.22,
-    "end": 1140.77,
-    "speaker_raw": "SPEAKER_01",
-    "testo": "bene grazie mille allora senti appena hai altre iniziative noi siamo qua a parlarle perché sono molto belle volentieri ma le trovate tutte comunque sul nostro sito così almeno anche per chi fosse interessato ecco è tutto su www.touringclub.it lì si parla di bandiere arancioni di aperti per voi insomma di tutte le nostre iniziative e ovviamente anche su tutti i social grandissima bravissima grazie Erika grazie a voi ciao ciao ciao ciao ciao ciao ciao Io voglio far tenere aperto un mio garage. Dai.",
+    "end": 1139.75,
+    "speaker_raw": "SPEAKER_00",
+    "testo": "bene grazie mille allora senti appena hai altre iniziative noi siamo qua a parlarle perché sono molto belle volentieri ma le trovate tutte comunque sul nostro sito così almeno anche per chi fosse interessato ecco è tutto su www.touringclub.it lì si parla di bandiere arancioni di aperti per voi insomma di tutte le nostre iniziative e ovviamente anche su tutti i social grandissima bravissima grazie Erika grazie a voi ciao ciao ciao ciao ciao ciao ciao Io voglio far tenere aperto un mio garage.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-03-09-035",
-    "start": 1142.59,
-    "end": 1293.55,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "Pretending I'm doing well My need is such I pretend too much I'm lonely but no one can tell Oh yes, I'm the great pretender Drifting a world of my own I play the game, but to my real shame You've left me to dream all alone ... ... ... ... ... ... ... ... ... ... Grazie I'm the great pretender Just like a girl Like a clown I seem to be What I'm not used to I'm wearing my heart Like a crown Pretending Grazie.",
-    "titolo": "Pretending I'm doing well",
-    "tema": [
-      "solitudine",
-      "falsità"
-    ],
-    "tipo": "lettura_volo",
+    "id": "2016-03-09-032",
+    "start": 1139.87,
+    "end": 1294.41,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Oh yes, I'm the great meat tender Pretending I'm doing well My need is such I pretend too much I'm lonely but no one can tell Oh yes, I'm the great pretender Drifting a world of my own I play the game, but to my real shame You've left me to dream all alone can't conceal oh yes I'm the great pretender just laughing and gay like a clown I seem to be what I'm not you see I'm wearing my heart like a grazie I'm the great pretender Just like a girl Like a clown I seem to be What I'm not used to I'm wearing my heart Like a crown Pretending Grazie a tutti",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-03-09-036",
+    "id": "2016-03-09-033",
     "start": 1311.83,
     "end": 1413.35,
-    "speaker_raw": "SPEAKER_01",
-    "testo": "Se a qualcuno di voi interessa, era un disco del 1987, Freddie Mercury, The Great Pretender, che da ragazzino pensavo che la parola pretender volesse dire pretendere, e invece è fingere, dico bene? Sì, proprio così. Don't pretend, non far finta. Bene, allora ragazzi, la rubrichetta. la rubrichetta donne belle sparse per il paese è già cambiato il nome l'abbiamo registrato questo marchio donne belle sparse nei locali vado subito alla CIA stanno arrivando molte donne in vari posti io c'ho la mia barista io c'ho la ragazza dove vado a fare le lampadi c'ho l'estetista addirittura c'è una feramenta che la feramenta di solito uno si immagina il mondo degli uomini e invece c'è una bella feramenta come si chiama la ferramenta? cioè la ferramenta è il negozio ma lei che lavora dentro? la ferramentista la ferramentaia ma è perché il? il ferramenta non si dice sono nato lì dal ferramenta secondo me ferramenta è il negozio chiamiamo una ferramenta e gli chiediamo come si chiama il lavoro di chi ha il ferramenta si va bene che robe inutili stamattina Stiamo per risolvere un grande enigma. Adesso chiamiamo una ferramenta e chiediamo come si chiama il lavoro di chi lavora in una ferramenta. Qua ascoltatori dicono ferramentaio. Ma che?",
+    "speaker_raw": "SPEAKER_00",
+    "testo": "Se a qualcuno di voi interessa, era un disco del 1987, Freddie Mercury, The Great Pretender, che da ragazzino pensavo che la parola pretender volesse dire pretendere, e invece è fingere, dico bene? Sì, proprio così. Don't pretend, non far finta. Bene, allora ragazzi, la rubrichetta. la rubrichetta donne belle sparse per il paese è già cambiato il nome l'abbiamo registrato questo marchio donne belle sparse nei locali vado subito alla CIA ok insomma va bene stanno arrivando molte donne in vari posti io c'ho la mia barista io c'ho la ragazza dove vado a fare le lampadi c'ho l'estetista addirittura c'è una feramenta che la feramenta di solito uno si immagina il mondo degli uomini e invece c'è una bella feramenta come si chiama la ferramenta? cioè la ferramenta è il negozio ma lei che lavora dentro? la ferramentista la ferramentaia ma è perché il? il ferramenta non si dice sono nato lì dal ferramenta secondo me ferramenta è il negozio chiamiamo una ferramenta e gli chiediamo come si chiama il lavoro di chi ha il ferramenta si va bene che robe inutili stamattina Stiamo per risolvere un grande enigma. Adesso chiamiamo una ferramenta e chiediamo come si chiama il lavoro di chi lavora in una ferramenta. Qua ascoltatori dicono ferramentaio. Ma che?",
     "titolo": "The Great Pretender",
     "tema": [
       "memoria"
     ],
     "tipo": "riferimento_musica",
-    "video_url": "",
-    "autore": "Freddie Mercury",
-    "confermato_esterno": true,
-    "copertina": "https://coverartarchive.org/release/93502c31-702f-4eb1-ab86-e34eb39bd123/front-250"
+    "video_url": ""
   },
   {
-    "id": "2016-03-09-037",
+    "id": "2016-03-09-034",
     "start": 1416.3,
     "end": 1636.65,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "Ferramentista, tappeziere Ferramente, ferramente Negli occhi di un bambino, uno sguardo da gigante Nei sogni di una donna, la bellezza irriverente Un vecchio che rincorre, quell'attimo fuggente L'avesse preso prima, non ne avrebbe fatto niente Un tetto che si apre dalla casa, piove il cielo qualcuno lo raccoglie per poi farne del veleno, da bere a sorsi lenti come gocce di cristallo, c'è una ragazza sola che da sempre aspetta il ballo. L'amore qui non passa mai, Nel bacio degli amanti che si scambiano i silenzi, c'è una storia da buttare, un'altra tutta da rifare. E sotto scalabui di questi anni ridispersi, c'è un cumulo di polvere e desideri da mischiare. Un cane si accontenta di pisciare contro i muri, nessuna terra nuova per cui vada. tanto resta fermo a fissarlo sopra i tetti. Quella ragazza ha perso anche tutti quei denti, l'amore che non passa. Nell'ombra dei ricordi di chi non ha mai vissuto c'è uno che somiglia a te e non l'hai riconosciuto. Nei soldi che contiamo c'è una smania devastante di ripicciolire il tempo, di accorgiare le distanze, dei segni che conservo sulla bellezza e cicatrice se bruci forte ancora. Non è vero quel che si dice, da qui è passato amore e se n'è andato smetto, ma sei rimasta mia, sei intrappolata adesso. L'amore qui non passa e bruci forte ancora.",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "ferramentista, tappeziere ferramente ferramente negli occhi di un bambino uno sguardo da gigante nei sogni di una donna la bellezza irriverente un vecchio che rincorre quell'attimo fuggente l'avesse preso prima non ne avrebbe fatto niente un tetto che si apre dalla casa piove il cielo qualcuno lo raccoglie per poi farne del veleno, da bere a sorsi lenti come gocce di cristallo, c'è una ragazza sola che da sempre aspetta il ballo. L'amore qui non passa mai, Nel bacio degli amanti che si scambiano i silenzi, c'è una storia da buttare, un'altra tutta da rifare. E sotto scalabuie di questi anni ridispersi, c'è un cumulo di polvere e desideri da mischiare. Un cane si accontenta di pisciare contro i muri, nessuna terra nuova per cui valga. tanto resta fermo a fissarlo sopra i fetti. Quella ragazza ha perso anche l'ultimo dei denti, l'amore che non passa. Nell'ombra dei ricordi di chi non ha mai vissuto c'è uno che somiglia a te e non l'hai riconosciuto. Nei soldi che contiamo c'è una smania devastante di ripicciolire il tempo, di accorgiare le distanze, dei segni che conservo sulla bellezza e cicatrice se bruci forte ancora. Non è vero quel che si dice, da qui è passato amore e se n'è andato smetto, ma sei rimasta mia, sei intrappolata adesso. L'amore qui non passa e bruci forte ancora.",
     "titolo": "Negli occhi di un bambino",
     "tema": [
       "bambino",
@@ -466,22 +414,21 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-09-038",
+    "id": "2016-03-09-035",
     "start": 1636.67,
     "end": 1684.29,
-    "speaker_raw": "SPEAKER_01",
+    "speaker_raw": "SPEAKER_00",
     "testo": "L'amore qui non passa mai, mai. nuovo nuovo nuovo è fresco è fresco è il nuovo single è fresco è fresco io sono felicissima di quello dei tre allegri che abbiamo messo prima è molto bello i tre allegri ragazzi morti in questa grande città bene bene bene allora abbiamo prima di andare avanti con il nostro programma perché abbiamo cose più importanti da fare che risolvere sempre gli enigmi gli enigmi gli enigmi gli enigmi Buongiorno Ferramenta, le chiedo scusa, lavoro per un programma radiofonico a Radio DJ e io mi chiamo Fabio Volo, non so se conosci Radio DJ, se ne hai mai sentito parlare.",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
-    "id": "2016-03-09-039",
+    "id": "2016-03-09-036",
     "start": 1684.71,
     "end": 1686.39,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Sì, ho sentito qualcosa.",
     "titolo": "",
     "tema": [],
@@ -489,10 +436,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-09-040",
+    "id": "2016-03-09-037",
     "start": 1686.41,
-    "end": 1702.19,
-    "speaker_raw": "SPEAKER_01",
+    "end": 1702.23,
+    "speaker_raw": "SPEAKER_00",
     "testo": "Va bene, senta, le volevo chiedere, gli ascoltatori ci stavamo chiedendo, come si chiama il lavoro di chi lavora in una ferramenta? Cioè, si dice il ferramenta, la ferramenta, il ferramentaio, ha un nome? Come c'è il panettiere, per esempio?",
     "titolo": "Il ferramentaio",
     "tema": [
@@ -503,21 +450,21 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-09-041",
-    "start": 1702.21,
+    "id": "2016-03-09-038",
+    "start": 1702.25,
     "end": 1707.72,
-    "speaker_raw": "SPEAKER_08",
-    "testo": "Di solito quando si legge, si guarda, si legge il ferramentaio, però...",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Sì, di solito quando si legge, si guarda, si legge il ferramentaio, però...",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-03-09-042",
+    "id": "2016-03-09-039",
     "start": 1707.92,
     "end": 1711.34,
-    "speaker_raw": "SPEAKER_01",
+    "speaker_raw": "SPEAKER_00",
     "testo": "se lei dice che lavoro fa la ferramentaia dice io dico sono Tiziana Ferra ma non c'è un nome quindi specifico",
     "titolo": "",
     "tema": [],
@@ -525,11 +472,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-09-043",
+    "id": "2016-03-09-040",
     "start": 1719.38,
     "end": 1744.6,
-    "speaker_raw": "SPEAKER_08",
-    "testo": "no che aveva sentito no no ok quindi lei lavora col marito con il compagno e lei dice lui lo chiamano il ferramenta ok va bene quindi non c'è lo possiamo inventare noi ma non esiste diciamo sul dizionario alcuni ho sentito che ci dicono siete i ferramentai così ferramentai ferramentai alcuni dicono siete quelli della ferramenta ma non c'è un nome non lo so io forse ma non sono sicura quali",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "no che l'abbia sentito no no ok quindi lei lavora col marito con il compagno lo so e lei dice lui lo chiamano il ferramenta sì ok va bene quindi non c'è lo possiamo inventare noi ma non esiste diciamo sul dizionario alcuni ho sentito che ci dicono ah siete i ferramentai così ferramentai ferramentai alcuni dicono ah siete quelli della ferramenta ma non c'è un nome non lo so io forse ci sia ma non sono sicura quali",
     "titolo": "La ferramentaia e il marito",
     "tema": [
       "lavoro",
@@ -539,11 +486,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-09-044",
+    "id": "2016-03-09-041",
     "start": 1746.18,
     "end": 1788.25,
-    "speaker_raw": "SPEAKER_01",
-    "testo": "la ringrazio gentilissima signora grazie buongiorno buongiorno sei soddisfatto? non tanto non tanto perché sono delle cose perché poi sarebbe da fare una domanda più filosofica cioè uno è dottore è macellaio è meccanico o fa il medico capisci? questo a Sibaldi lo puoi chiedere secondo me cioè a Sibaldi vorrei chiedere è l'attore che genera l'azione o è l'azione che genera l'attore? questa è anche molto Gigi Marzullo mo sabato da fazio glielo chiedo esatto ce l'hai capita quella dell'attore? sì cioè dal momento in cui reciti diventi attore o essendo attore che generi l'azione? e la la la quanta bella la questa mattina è una noia mortale",
+    "speaker_raw": "SPEAKER_00",
+    "testo": "la ringrazio gentilissima signora grazie buongiorno buongiorno sei soddisfatto? non tanto non tanto perché sono delle cose perché poi sarebbe da fare una domanda più filosofica cioè uno è dottore è macellaio è meccanico o fa il medico capisci? questo a Sibaldi lo puoi chiedere secondo me cioè a Sibaldi vorrei chiedere è l'attore che genera l'azione o è l'azione che genera l'attore? questa è anche molto Gigi Marzullo mo sabato da fazio glielo chiedo esatto ce l'hai capita quella dell'attore? sì cioè dal momento in cui reciti diventi attore o essendo attore che generi l'azione? e la la la quant'è bella la questa mattina è una noia mortale",
     "titolo": "Attore o azione che genera?",
     "tema": [
       "identità",
@@ -553,22 +500,22 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-09-045",
+    "id": "2016-03-09-042",
     "start": 1793.96,
-    "end": 1917.35,
-    "speaker_raw": "SPEAKER_05",
-    "testo": "no no no ciao ciao ciao Ciao! Ciao!",
+    "end": 1943.16,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "no no no ciao ciao ciao so if you're hurting baby stay your heart be free you got a friend in me i'll be your shoulder anytime you need baby i believe so if you're hurting baby stay your heart be free you got a friend in me i'll be your shoulder anytime you",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-03-09-046",
+    "id": "2016-03-09-043",
     "start": 1953.0,
-    "end": 2036.5,
-    "speaker_raw": "SPEAKER_01",
-    "testo": "volevo chiedere agli ascoltatori del volo del mattino se per cortesia quelli di Roma mi possono dire che tempo c'è che devo venire a Roma oggi c'è la conferenza stampa del Kung Fu Panda la domanda è quando mi fanno le interviste devo rispondere così o devo rispondere così è così si io credo che il film come ha detto il maestro Shifu comunque è molto bello tanto io ho fatto la voce per carità però devo dire che è molto bello insomma mi spiace che c'ho i bambini troppo piccoli mannaggia che hanno un'attenzione più da da youtubers andiamo a vederlo Maurizio si andiamo tra l'altro ti posso dire questa cosa se basta infissa con la canzone di Natale di Radio Vigene ancora? non sai che i bambini infissano io tutte le mattine praticamente c'è la discussione se mettere o non mettere eccolo qua il Natale che tra l'altro è una bella canzone io la metterei adesso va bene allora abbiamo un ascoltatore che senza aerei e senza mani senza senza aerei sta girando il mondo ok adesso si trova in Cile buongiorno ciao Fabio buongiorno come va? molto bene allora intanto dobbiamo sempre ricordare com'è che si chiama?",
+    "end": 2031.52,
+    "speaker_raw": "SPEAKER_00",
+    "testo": "volevo chiedere agli ascoltatori del volo del mattino se per cortesia quelli di Roma mi possono dire che tempo c'è che devo venire a Roma oggi c'è la conferenza stampa del Kung Fu Panda la domanda è quando mi fanno le interviste devo rispondere così o devo rispondere così è così si io credo che il film come ha detto il maestro Shifu comunque è molto bello tanto io ho fatto la voce per carità però devo dire che è molto bello insomma mi spiace che c'ho i bambini troppo piccoli mannaggia che hanno un'attenzione più da da youtubers andiamo a vederlo Maurizio si andiamo tra l'altro ti posso dire questa cosa se basta infissa con la canzone di Natale di Radio Vigene ancora? non sai che i bambini infissano io tutte le mattine praticamente c'è la discussione se mettere o non mettere eccolo qua il Natale che tra l'altro è una bella canzone io la metterei adesso va bene allora abbiamo un ascoltatore che senza aerei e senza mani senza senza aerei sta girando il mondo ok adesso si trova in Cile Buongiorno! Ciao Fabio! Buongiorno, come va?",
     "titolo": "Kung Fu Panda",
     "tema": [
       "cinema",
@@ -576,16 +523,58 @@
       "doppiaggio"
     ],
     "tipo": "riferimento_film",
-    "video_url": "",
-    "confermato_esterno": true,
-    "copertina": "https://image.tmdb.org/t/p/w200/fWbCM5Ka8nre7hALmXFANXvzBHf.jpg"
+    "video_url": ""
+  },
+  {
+    "id": "2016-03-09-044",
+    "start": 2032.04,
+    "end": 2033.0,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Molto bene, molto bene.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-03-09-045",
+    "start": 2033.02,
+    "end": 2039.58,
+    "speaker_raw": "SPEAKER_00",
+    "testo": "Bene, allora, intanto dobbiamo sempre ricordare, com'è che si chiama? Terapy, Trip Therapy, no?",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-03-09-046",
+    "start": 2039.64,
+    "end": 2041.24,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Trip Therapy, sì, la terapia del viaggio.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
   },
   {
     "id": "2016-03-09-047",
-    "start": 2036.58,
-    "end": 2070.46,
-    "speaker_raw": "SPEAKER_10",
-    "testo": "Trip Therapy Trip Therapy la terapia del viaggio spiegacela ancora una volta io sono partito due anni fa ormai dall'Italia lasciando il mio lavoro, lavoravo in banca con questo mio compagno di viaggio che ha il diabete e voglio testimoniare che è possibile fare un viaggio intorno al mondo senza aerei di 1000 giorni convivendo con il diabete e convivendo con un budget basso perché non si pensa che sia preso con milioni di euro perché non è così, anzi sta cercando di spendere 15 euro al giorno",
+    "start": 2041.32,
+    "end": 2043.96,
+    "speaker_raw": "SPEAKER_00",
+    "testo": "La terapia del viaggio, spiegacela ancora una volta.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-03-09-048",
+    "start": 2044.61,
+    "end": 2070.54,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Io sono partito due anni fa ormai dall'Italia, lasciando il mio lavoro, lavoravo in banca con questo mio compagno di viaggio che ha il diabete. Voglio testimoniare che è possibile fare un viaggio intorno al mondo senza aerei di 1000 giorni convivendo con il diabete e convivendo con un budget basso perché non si pensa che sia preso con milioni di euro perché non è così, anzi sta cercando di spendere 15 euro al giorno.",
     "titolo": "Viaggio intorno al mondo",
     "tema": [
       "viaggio",
@@ -595,11 +584,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-09-048",
+    "id": "2016-03-09-049",
     "start": 2070.66,
     "end": 2088.19,
-    "speaker_raw": "SPEAKER_01",
-    "testo": "15 euro al giorno, ammazza se ce la fai poi c'è quel giorno che spendi 20 e il giorno dopo ne hai solo 10 e vai tu a pensare c'è il giorno che spendi anche 100 purtroppo quindi dopo per giorni interi sei sotto senti, cosa stai facendo in Cile in questo momento? dove stai andando più che altro?",
+    "speaker_raw": "SPEAKER_00",
+    "testo": "15 euro al giorno ammazza se ce la fai poi c'è quel giorno e spendi 20 e il giorno dopo ne hai solo 10 e vai tu a pensare c'è il giorno che spendi anche 100 purtroppo quindi dopo per giorni interi sei sotto senti cosa stai facendo in Cile in questo momento dove stai andando più che altro?",
     "titolo": "Budget viaggio",
     "tema": [
       "viaggio",
@@ -609,11 +598,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-09-049",
+    "id": "2016-03-09-050",
     "start": 2089.02,
     "end": 2117.62,
-    "speaker_raw": "SPEAKER_10",
-    "testo": "in questo momento ho messo il mirino alla Patagonia quindi voglio andare alla fine del mondo a Ushuaia vai a vedere i pinguini? magari sì adesso vedo di riuscire a coniugare tutto col budget con l'opportunità ma adesso col blog riesco a offrirmi alle agenzie a quelli che fanno i tour magari ti faccio il video mi fanno fare le cose gratis è bellissimo ma poi da lì visto che tu non prendi aeree hai arrivato giù in fondo cosa fai?",
+    "speaker_raw": "SPEAKER_02",
+    "testo": "in questo momento ho messo il mirino alla Patagonia quindi voglio andare alla fine del mondo a Ushuaia bello vai a vedere i pinguini eh magari sì magari sì adesso vedo di riuscire a coniugare tutto col budget con l'opportunità ma adesso col blog riesco a offrirmi alle agenzie a quelli che fanno i tour dicendo dai magari ti faccio il video ti fanno il mio blog e mi fanno fare le cose gratis è bellissimo bello senti ma poi da lì visto che tu non prendi aeree è arrivato giù in fondo cosa fai?",
     "titolo": "Patagonia e Ushuaia",
     "tema": [
       "viaggio",
@@ -623,10 +612,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-09-050",
+    "id": "2016-03-09-051",
     "start": 2117.68,
     "end": 2118.42,
-    "speaker_raw": "SPEAKER_01",
+    "speaker_raw": "SPEAKER_00",
     "testo": "torni indietro?",
     "titolo": "",
     "tema": [],
@@ -634,10 +623,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-09-051",
+    "id": "2016-03-09-052",
     "start": 2119.19,
     "end": 2128.44,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Sì, vado dalla parte argentina per poi fare Uruguay, Brasile e poi prendere un'ennesima nave cargo per andare in Africa e tornare poi in Italia a febbraio.",
     "titolo": "Itinerario viaggio",
     "tema": [
@@ -648,10 +637,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-09-052",
+    "id": "2016-03-09-053",
     "start": 2128.78,
     "end": 2132.92,
-    "speaker_raw": "SPEAKER_01",
+    "speaker_raw": "SPEAKER_00",
     "testo": "Ok, ammazzo. Comunque sei contento? È una bella esperienza?",
     "titolo": "Esperienza",
     "tema": [
@@ -662,10 +651,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-09-053",
+    "id": "2016-03-09-054",
     "start": 2133.26,
     "end": 2135.27,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_02",
     "testo": "È la cosa più bella che mi sia mai capitata nella vita.",
     "titolo": "Esperienza di vita",
     "tema": [
@@ -676,10 +665,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-09-054",
+    "id": "2016-03-09-055",
     "start": 2135.29,
     "end": 2143.61,
-    "speaker_raw": "SPEAKER_01",
+    "speaker_raw": "SPEAKER_00",
     "testo": "Nella vita. Ti posso chiedere, secondo te quel ragazzo che è partito un paio d'anni fa più o meno, che cos'ha di diverso da te?",
     "titolo": "Ragazzo che ha lasciato tutto",
     "tema": [
@@ -690,11 +679,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-09-055",
+    "id": "2016-03-09-056",
     "start": 2143.85,
-    "end": 2162.09,
-    "speaker_raw": "SPEAKER_10",
-    "testo": "no no guarda di diverso nulla nello specifico sono la stessa persona la figata adesso è che con i blog e con la mia storia quello che dico la gente che mi ascolta guarda anche te che mi hai chiamato non sarebbe mai successo due anni fa la gente due anni fa quando davanti alla via era un bicchiere di vino dicevo le cose che dicevo adesso nei blog mi davano lo scemo",
+    "end": 2162.11,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "No, no, guarda, di diverso nulla nello specifico, sono la stessa persona, la figata adesso è che con i blog e con la mia storia, quello che dico la gente che mi ascolta, guarda anche te che mi hai chiamato, non sarebbe mai successo due anni fa, la gente due anni fa quando davanti alla via era un bicchiere di vino, dicevo le cose che dicevo, adesso nei blog mi davano lo scemo.",
     "titolo": "Cambiamento nella vita",
     "tema": [
       "vita",
@@ -704,11 +693,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-09-056",
+    "id": "2016-03-09-057",
     "start": 2162.33,
-    "end": 2187.72,
-    "speaker_raw": "SPEAKER_01",
-    "testo": "no perché vabbè poi lavoravi in banca ma se mi chiama la banca non sono mai contento comunque non è mai una bella notizia ok allora in bocca al lupo per il tuo proseguo hai fatto l'amore? puoi chiedere questo il giorno dopo la festa della donna no però dico hai fatto nel tuo viaggio al di là di tutto hai fatto anche l'amore?",
+    "end": 2177.12,
+    "speaker_raw": "SPEAKER_00",
+    "testo": "no perché vabbè poi lavoravi in banca ma se mi chiama la banca non sono mai contento comunque non è mai una bella notizia ok allora in bocca al lupo per il tuo proseguo hai fatto l'amore?",
     "titolo": "Amore nel viaggio",
     "tema": [
       "amore",
@@ -718,50 +707,36 @@
     "video_url": ""
   },
   {
-    "id": "2016-03-09-057",
-    "start": 2188.62,
+    "id": "2016-03-09-058",
+    "start": 2177.22,
     "end": 2190.02,
-    "speaker_raw": "SPEAKER_10",
-    "testo": "siete rimasti in contatto?",
+    "speaker_raw": "SPEAKER_02",
+    "testo": "non mi puoi chiedere questo il giorno dopo la festa della donna no però dico hai fatto nel tuo viaggio al di là di tutto hai fatto anche l'amore? siete rimasti in contatto?",
+    "titolo": "Amore nel viaggio",
+    "tema": [
+      "amore",
+      "viaggio"
+    ],
+    "tipo": "aneddoto",
+    "video_url": ""
+  },
+  {
+    "id": "2016-03-09-059",
+    "start": 2190.56,
+    "end": 2221.16,
+    "speaker_raw": "SPEAKER_00",
+    "testo": "eh no la prima regola del viaggiatore è non innamorarsi assolutamente ok bravo bravo grande regola va bene chi si ferma è perduto buon proseguimento buon proseguimento ciao Claudio sentite che ha detto chi si ferma è perduto è perduto Però sta viaggiando senza aerei da due anni. Io fossi qualcuno di voi in ascolto, settimana prossima partirei.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-03-09-058",
-    "start": 2190.56,
-    "end": 2212.03,
-    "speaker_raw": "SPEAKER_00",
-    "testo": "eh no la prima regola del viaggiatore è non innamorarsi assolutamente ok bravo bravo grande regola va bene chi si ferma è perduto buon proseguimento buon proseguimento ciao Claudio sentite che ha detto chi si ferma è perduto",
-    "titolo": "Regola del viaggiatore",
-    "tema": [
-      "viaggio",
-      "consiglio"
-    ],
-    "tipo": "riflessione",
-    "video_url": ""
-  },
-  {
-    "id": "2016-03-09-059",
-    "start": 2213.7,
-    "end": 2221.16,
-    "speaker_raw": "SPEAKER_01",
-    "testo": "Però sta viaggiando senza aerei da due anni. Io fossi qualcuno di voi in ascolto, settimana prossima partirei.",
-    "titolo": "Viaggio senza aerei",
-    "tema": [
-      "viaggio",
-      "libertà"
-    ],
-    "tipo": "aneddoto",
-    "video_url": ""
-  },
-  {
     "id": "2016-03-09-060",
-    "start": 2241.66,
+    "start": 2241.1,
     "end": 2313.41,
-    "speaker_raw": "SPEAKER_16",
-    "testo": "SIGLA a presto",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Grazie a tutti. a presto",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -769,10 +744,10 @@
   },
   {
     "id": "2016-03-09-061",
-    "start": 2440.36,
+    "start": 2439.84,
     "end": 2555.13,
-    "speaker_raw": "SPEAKER_01",
-    "testo": "Ciao Fabio, so che non leggerai mai questo messaggio, ma volevo dirti che questa mattina siete un po' noiosi. Noi siamo esseri umani, siamo qua tutte le mattine, tutte le mattine dobbiamo essere allegri. Tenete presente sempre una cosa che non ci stiamo lamentando assolutamente. ma noi abbiamo una vita più o meno come voi nel senso che anche noi abbiamo famiglia lavoro sogni rotture di palle cose che non vanno bene e quindi ci sono delle mattine dove uno è delle mattine però non veniamo mai depressi insomma veniamo sempre ad un livello questa mattina è uscita la puntata un po' noiosa? sì ma a parte te, scusami Maurizio sulla battuta della feramenta sono Tiziana Ferri hai riso solo tu sono come quelle di Rudy Zerbi era pancia all'aria bellissimo ma a parte quello sì questa mattina magari siamo un po' noiosi vabbè pace insomma vi chiediamo scusa però siamo esseri umani a me piace essere sono delle mattine che siamo irresistibili delle mattine un po' meno ieri eri sul di ieri cattivo cattivo no è una cosa che non si può più dire niente tenete presente che io dico un terzo delle cose che vorrei veramente dire facciamo una cantatina stai presto facciamo una cantatina abbiamo detto del karaoke così adesso con una cantatina tiriamo su un po' l'umore poi ve ne andate a fare e poi dopo questa è bella quando dice non sarà giù i finestrini ragazzi e dalle macchine fatevi sentire ma fa freddo ma fa niente non sarà questa è leggera un'avventura è dopo che attacca non può essere soltanto una primavera rispetto al messaggio ma sono canzoni per vecchi sono senza tempo se lo dico io non sarà un'avventura",
+    "speaker_raw": "SPEAKER_00",
+    "testo": "call play ciao Fabio so che non leggerai mai questo messaggio ma volevo dirti che questa mattina siete un po' noiosi e invece noi lo leggiamo perché scusami noi siamo esseri umani ha ragione che siamo noiosi però noi siamo esseri umani siamo qua tutte le mattine tutte le mattine dobbiamo essere allegri tenete presente sempre una cosa che non ci stiamo lamentando assolutamente ma noi abbiamo una vita più o meno come vuoi nel senso che anche noi abbiamo famiglia, lavoro, sogni, rotture di palle cose che non vanno bene e quindi ci sono delle mattine dove uno è delle mattine però non veniamo mai depressi insomma veniamo sempre ad un livello questa mattina è uscita la puntata un po' noiosa? sì ma a parte te scusami Maurizio sulla battuta della feramenta sono Tiziana Ferri bellissimo hai riso solo tu sono come quelle di Rudy Zerbi ragazzi era pancia all'aria e la faceva mamma mia ma bellissimo ma a parte quello sì questa mattina magari siamo un po' noiosi vabbè pace insomma vi chiediamo scusa però siamo esseri umani a me piace essere sono delle mattine che siamo irresistibili delle mattine un po' meno ieri eri sul di ieri cattivo cattivo la cosa che non si può più dire niente tenete presente che io dico un terzo delle cose che vorrei veramente dire facciamo una cantatina stai presto facciamo una cantatina abbiamo detto del karaoke così adesso con una cantatina tiriamo su un po' l'umore poi ve ne andate a fare e poi dopo questa è bella quando dice non sarà giù i finestrini ragazzi e dalle macchine fatevi sentire ma fa freddo ma fa niente non sarà questa è leggera un'avventura è dopo che attacca non può essere soltanto una primavera rispetto al messaggio ma sono canzoni per vecchi sono senza tempo se lo dico io non sarà un'avventura",
     "titolo": "La positività è fondamentale",
     "tema": [
       "positività",
@@ -784,9 +759,9 @@
   {
     "id": "2016-03-09-062",
     "start": 2572.42,
-    "end": 2600.14,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "questo amore fatto solo di poesia tu sei mia tu sei mia fino a quando gli occhi miei avranno luce per guardare gli occhi tuoi momento karaoke 3, 2, 1 innamorato sempre di più",
+    "end": 2594.28,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "questo amore fatto solo di poesia tu sei mia tu sei mia fino a quando gli occhi miei avranno luce per guardare gli occhi tuoi innamorato sempre di più",
     "titolo": "Amore fatto di poesia",
     "tema": [
       "amore",
@@ -799,12 +774,11 @@
     "id": "2016-03-09-063",
     "start": 2625.98,
     "end": 2659.99,
-    "speaker_raw": "SPEAKER_01",
-    "testo": "va bene prometto che domani vediamo belli carichi ora domani per tutti i fan di Igor Sibaldi non c'è con questo preambolo perché sono a Roma io sono a Roma domani no uffa dobbiamo fare la diretta ma vai via così ma perché per Sibaldi allora l'idea era di farlo tornare il venerdì poi il venerdì gli ascoltatori vogliono invece merenda torna la settimana prossima era dispiaciuto ma in questo studio nuovo non ti vediamo ciao ragazzi a domani",
+    "speaker_raw": "SPEAKER_00",
+    "testo": "va bene prometto che domani veniamo belli carichi ora domani per tutti i fan di Igor Sibaldi non c'è con questo preambolo perché sono a Roma io sono a Roma domani no uffa dobbiamo fare la diretta ma vai via così ma perché per Sibaldi allora l'idea era di farlo tornare il venerdì poi il venerdì gli ascoltatori vogliono invece merenda torna la settimana prossima era dispiaciuto ma in questo studio nuovo non ti vediamo ciao ragazzi a domani",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   }
 ]

@@ -2,9 +2,9 @@
   {
     "id": "2016-02-29-000",
     "start": 0.77,
-    "end": 3.62,
-    "speaker_raw": "SPEAKER_05",
-    "testo": "Radio DJ. One Nation. One Station. One.",
+    "end": 15.6,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Radio DJ One Nation One Station One I see the moon I see the moon I see the moon Oh when you're looking at the sun",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -24,20 +24,9 @@
   {
     "id": "2016-02-29-002",
     "start": 96.2,
-    "end": 96.68,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "Ciao!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-29-003",
-    "start": 205.68,
     "end": 237.05,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "oggi è il 29 di febbraio dico bene giusto? va che fa strano a me mi fa sempre un po' strano no perché penso sempre a quelli che sono nati oggi che festeggiano in realtà il vero giorno ogni 4 anni Savino sei ah non sei come stai? vuoi venire dentro? vieni dentro vieni dentro conosci qualcuno che è nato il 29 di febbraio? eh no, non ce ne sono tantissimi festeggiano ogni 4 e quindi festeggeranno il 28",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Ciao! oggi è il 29 di febbraio dico bene giusto? va che fa strano a me mi fa sempre un po' strano no perché penso sempre a quelli che sono nati oggi che festeggiano in realtà il vero giorno ogni quattro anni Savino sei non sei come stai? vuoi venire dentro? vieni dentro vieni dentro conosci qualcuno che è nato il 29 di febbraio? eh no, non ce ne sono tantissimi festeggiano ogni 4 e quindi festeggeranno il 28",
     "titolo": "Festeggiamenti ogni 4 anni",
     "tema": [
       "festa",
@@ -47,11 +36,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-29-004",
+    "id": "2016-02-29-003",
     "start": 238.62,
-    "end": 312.7,
-    "speaker_raw": "SPEAKER_14",
-    "testo": "festeggiano il 28 però non è bello devo dirti la verità mi vedi con la faccia che mi sono subito un po' incupito perché è un mio caro caro amico che ha perso il babbo il 29 febbraio vabbè ma ci devi rovinare scusami ma la verità io non ti dico lo so però adesso a noi ci dispiace no no per carità sono le 9.06 di domenica mattina tu sei il conosciuto per essere il più simpatico però io il più simpatico di tutti i DJ ma è il bello ma non sono bidimensionali sono tridimensionali adesso io alle 10 quando iniziate vengo giù e dico quella volta che mi hanno tolto un calcolo prima di iniziare solo una cosa ieri sera è stato strepitoso rivedervi ieri sera c'è stata la riunione con Pizzari e Simona Vittura vi volevo dire che mancava un piccolo ragazzotto con un copione nella tasca che ero io è vero è vero è vero tempo scrivevi scrivevi tu fino alle quattro di notte fino alle quattro di notte e poi dormivamo insieme nel lettone nel lettone che bei momenti non pensate male con chi dormi adesso nel lettone con Manuela ah no Manuela no quelle seratacce quelle seratacce non le faccio più caro Fabio da quando non ti frequento più",
+    "end": 290.02,
+    "speaker_raw": "SPEAKER_00",
+    "testo": "festeggiare il 28 però non è bello devo dirti la verità mi vedi con la faccia che mi sono subito un po' incupito perché è un mio caro caro amico che ha perso il babbo il 29 febbraio vabbè ma ci devi rovinare scusami ma la verità io non ti dico lo so però adesso a noi ci dispiace no no per carità sono le 9.06 di lunedì mattina no no tu sei il conosciuto per essere il più simpatico però io il più simpatico di tutti i DJ ma è il bello ma non sono bidimensionali sono tridimensionali adesso io alle 10 quando iniziate vengo giù e dico quella volta che mi hanno tolto un calcolo prima di iniziare solo una cosa ieri sera è stato strepitoso rivedervi ieri c'è stata la riunione con Pizzari e Simona Vittura vi volevo dire che mancava un piccolo ragazzotto con un copione nella tasca che ero io",
     "titolo": "Amico perde il babbo il 29 febbraio",
     "tema": [
       "famiglia",
@@ -62,11 +51,22 @@
     "video_url": ""
   },
   {
+    "id": "2016-02-29-004",
+    "start": 290.62,
+    "end": 312.7,
+    "speaker_raw": "SPEAKER_01",
+    "testo": "è vero è vero è vero tempo scrivevi scrivevi tu fino alle quattro di notte fino alle quattro di notte e poi dormivamo insieme nel lettone nel lettone che bei momenti non pensate male con chi dormi adesso nel lettone con Manuela ah no Manuela no quelle seratacce quelle seratacce non le faccio più caro Fabio ma lì a quelli che il calcio da quando non ti frequento più",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
     "id": "2016-02-29-005",
     "start": 313.46,
-    "end": 323.21,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "No, non dormite insieme voi a quelli del calcio. No, no, no. No, nessuno dorme insieme. No, no, no, siamo grandi adesso. Mettiamo la sigla. Ciao Riccardo. Ciao. Ciao, ciao.",
+    "end": 323.43,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "No, non dormite insieme voi a quelli del calcio No, no, no No, nessuno dorme insieme No, no, no Siamo grandi adesso Va bene, mettiamo la sigla Ciao Riccardo Ciao Ciao, ciao Ciao, ciao",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -74,21 +74,10 @@
   },
   {
     "id": "2016-02-29-006",
-    "start": 323.25,
-    "end": 323.47,
-    "speaker_raw": "SCONOSCIUTO",
-    "testo": "Ciao.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-29-007",
     "start": 336.92,
-    "end": 374.62,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "Ciao! last night she said she loved me what a pity to part I slept with both eyes open with both lips tied good morning world how are you happy new all at once I knew what living can be oh oh oh oh oh it's life it's free it's someone waiting for me good morning my life good morning life",
+    "end": 365.15,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Ciao. Last night she said she loved me What a pity to part I slept with both eyes open With both lips tied Good morning world How are you, happy new All at once I knew what living can be Oh, it's life, it's free It's someone waiting for me Good morning, be my life Good morning, life",
     "titolo": "Good Morning Life",
     "tema": [
       "amore",
@@ -98,110 +87,33 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-29-008",
+    "id": "2016-02-29-007",
     "start": 378.13,
-    "end": 463.53,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "Gaetano il mio collega Giovanni è nato il 29 gennaio 1977 non so perché me l'ha scritto forse ha sbagliato per dire febbraio non lo so, va bene mia madre fa il compleanno oggi, 76 anni Cristian da Gallipoli ciao io sono nata il 29 febbraio del 92 oggi festeggio il mio sesto compleanno vabbè per favore potresti fargli auguri alla mia meravigliosa amica Jasmine che compie oggi gli anni sembrava non ci fosse nessuno ce ne sono un sacco gli ascoltatori del volo del mattino sono pieni di questi ragazzi e ragazze che compiono gli anni il 29 di febbraio bene ti piace questo finale un po' rai ma voltiamo pagina la dicono ancora in televisione voltiamo pagina voltiamo l'iPad ma ora ci spostiamo ma ora cambiamo argomento ok allora ragazzi abbiamo tante cose da raccontarvi oggi dedicheremo la puntata a Juve Inter giusto no scherzo oggi parleremo un po' di televisione ovviamente di cinema finalmente quando succedono la notte degli Oscar iniziano nuove serie tv escono album nuovi di cantanti diciamo di un certo spessore il volo del mattino si sente diciamo partecipato è tutto materiale nostro no? anche se devo dire che ieri Juventus Inter è stata importante per la diciamo il corso della stagione lo sai com'è finita? 2 a 0 per la Juventus.",
-    "titolo": "Festa di compleanno",
-    "tema": [
-      "famiglia",
-      "amici"
-    ],
-    "tipo": "aneddoto",
+    "end": 612.37,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Gaetano il mio collega Giovanni è nato il 29 gennaio 1977 non so perché me l'ha scritto forse ha sbagliato per dire febbraio non lo so, va bene mia madre fa il complanno oggi, 76 anni Cristian da Gallipoli ciao io sono nata il 29 febbraio del 92 oggi festeggio il mio sesto compleanno vabbè per favore potresti fargli auguri alla mia meravigliosa amica Jasmine che compie oggi gli anni sembrava non ci fosse nessuno ce ne sono un sacco gli ascoltatori del volo del mattino sono pieni di questi ragazzi e ragazze che compiono gli anni il 29 di febbraio bene ti piace questo finale un po' rai ma voltiamo pagina la dicono ancora in televisione voltiamo pagina voltiamo l'iPad ma ora ci spostiamo ma ora cambiamo argomento ok allora ragazzi abbiamo tante cose da raccontarvi oggi dedicheremo la puntata a Juve Inter giusto no scherzo oggi parleremo un po' di televisione ovviamente di cinema finalmente quando succedono la notte degli Oscar iniziano nuove serie tv escono album nuovi di cantanti diciamo di un certo spessore il volo del mattino si sente diciamo partecipato è tutto materiale nostro no anche se devo dire che ieri Juventus Inter è stata importante per la diciamo il corso della stagione lo sai com'è finita? 2 a 0 per la Juventus, lo so perché io adesso che sto facendo questa serie televisiva e lavoro a stretto contatto con un napoletano super tifoso del Napoli che addirittura mi regalò a inizio stagione la sciarpa del Napoli dicendo mi so che hai due bambini piccoli era sciarpa del Napoli poi ho fatto molto ridere perché secondo me a casa mia il calcio diciamo appunto non è molto come non lo era per mio padre sono andato al supermercato un giorno tipo un mesetto fa con Sebastian e il cassiere ha detto guarda lì ci sono i cappellini avanzati di Natale con le squadre Juve, Inter e Milan solo tre e io ho detto ma lui non ti frega dai l'ha fatto diventare milanista quindi adesso Sebastian teoricamente c'ha il cappello del Milan noi siamo Napoli sì Però c'è anche la sciarpa del Napoli, in realtà io ce l'ho lì diciamo nel cielo fan, come dire, come si chiama il vostro, il gonzo, gonzo? Gonzo. Come il gonzo del Nagnore in Ghecchio. Ma non è nella flasca. No, però c'ho lì la sciarpa del Brescia, la ce l'ho lì così perché comunque un po' sarà anche quello, tra l'altro lui è nato lì. No, ma ragazzi dobbiamo parlare di tantissime cose, del fatto che Dio si è dimenticato il rubinetto aperto dell'acqua che piove continuamente. Mi ci piace. la notte degli Oscar finalmente Leonardo DiCaprio ma soprattutto Morricone all'età veneranda età di 87 anni 87 anni ieri proprio c'è stata una stand di questo gli hanno fatto mettere le manine qualche giorno fa nel cemento che brutta immagine le manine nel cemento come qui a Milano Tu lo so se Viola lo sai che qui a Milano, vicino a Piazza Duomo, via le Corse Europa, via l'Europa, non mi ricordo così, dove c'era la sede di TV Sorrisi e Canzoni, lì ci sono tutte le manine di quelli che vincevano i telegatti. Ma non lo sai? Ma io ogni tanto quando vado in centro mi fa dire perché c'è quella di Stallone anche che sono piccoline. Ok. poi ci sono quelle grandi di Schwarzenegger insomma così comunque ci sono giù le manine lì così sono rimaste abbiamo della bellissima musica parleremo di serie tv sentiremo il discorso meraviglioso di DiCaprio ma soprattutto Viola è guarita Maurizio ha fatto la maratona notturna il dritto ha parlato degli Oscar con Bagatta fino a che ora? fino alle 6 fino alle 6 prima di Andrea Michele sei stanco? no no sai che ti trovo invece informissima hai visto bravissimo bravissimo vai col primo disco capito questo è per te Maurizio grazie grazie",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-02-29-008",
+    "start": 635.63,
+    "end": 635.83,
+    "speaker_raw": "SPEAKER_01",
+    "testo": "Ciao!",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
     "id": "2016-02-29-009",
-    "start": 463.55,
-    "end": 465.07,
-    "speaker_raw": "SPEAKER_13",
-    "testo": "Pensavo di coglierti in castello.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-29-010",
-    "start": 465.15,
-    "end": 522.62,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "No, no, no, ma che siamo avanti. Lo so perché io, adesso che sto facendo questa serie televisiva e lavoro, ho stretto contatto con un napoletano, super tifoso del Napoli, che addirittura mi regalò a inizio stagione la sciarpa del Napoli dicendo mi so che hai due bambini piccoli. la sciarpa del Napoli poi ho fatto molto ridere perché secondo me a casa mia il calcio non è molto come non lo era per mio padre sono andato al supermercato un giorno tipo un mesetto fa con Sebastian e il cassiere ha detto guarda lì ci sono i cappellini avanzati di Natale con le squadre Juve, Inter e Milan solo tre e io ho detto ma lui non ti frega dai l'ha fatto diventare milanista quindi adesso Sebastian teoricamente c'ha il cappello del Milan noi siamo Napoli Però c'è anche la sciarpa del Napoli, in realtà io ce l'ho lì diciamo nel cielo fan, come dire, come si chiama il vostro, il gonzo? Gonzo. Come il gonzo del Nagnore in Ghecchio.",
-    "titolo": "Regalo della sciarpa del Napoli",
-    "tema": [
-      "calcio",
-      "regalo",
-      "bambini"
-    ],
-    "tipo": "aneddoto",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-29-011",
-    "start": 522.64,
-    "end": 523.62,
-    "speaker_raw": "SPEAKER_13",
-    "testo": "Ma non è nella flasca.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-29-012",
-    "start": 523.68,
-    "end": 596.52,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "No, però c'ho lì la sciarpa del Brescia, la ce l'ho lì così perché comunque un po' sarà anche quello, tra l'altro lui è nato lì. No, ma ragazzi dobbiamo parlare di tantissime cose, del fatto che Dio si è dimenticato il rubinetto aperto dell'acqua che piove continuamente. Mi ci piace. la notte degli Oscar finalmente Leonardo DiCaprio ma soprattutto Morricone all'età veneranda età di 87 anni 87 anni ieri proprio c'è stata una stand di questo gli hanno fatto mettere le manine qualche giorno fa nel cemento che brutta immagine le manine nel cemento come qui a Milano tu lo so se Viola lo sai che qui a Milano a Milano vicino a Piazza Duomo via le Corse Europa via l'Europa non mi ricordo così dove c'era la sede di TV Sorrisi e Canzoni lì ci sono tutte le manine di quelli che vincevano i telegatti ma non lo sai? ma io ogni tanto quando vado in centro mi fa dire perché c'è tipo quella di Stallone anche che sono piccoline poi ci sono quelle grandi di Schwarzenegger insomma così comunque ci sono giù le manine lì così sono rimaste abbiamo della bellissima musica parleremo di serie tv sentiremo il discorso meraviglioso di Di Caprio ma soprattutto Viola è guarita Maurizio ha fatto la maratona notturna il dritto ha parlato degli Oscar con Bagatta fino a che ora?",
-    "titolo": "Oscar: Leonardo DiCaprio",
-    "tema": [
-      "cinema",
-      "premi"
-    ],
-    "tipo": "riferimento_film",
-    "video_url": "",
-    "confermato_esterno": false
-  },
-  {
-    "id": "2016-02-29-013",
-    "start": 596.66,
-    "end": 600.61,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "fino alle 6 fino alle 6 prima di Andrea Michele sei stanco?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-29-014",
-    "start": 600.87,
-    "end": 612.37,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "no no sai che ti trovo invece informissima hai visto bravissimo bravissimo vai col primo disco capito questo è per te Maurizio grazie grazie",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-29-015",
-    "start": 635.63,
-    "end": 784.26,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Ciao! You gotta not talk dirty baby If you wanna impress me You can't be too flirty mama I know how to undress me Let me be your fantasy And maybe you could be mine You just leave it all up to me we can have a good time you don't have to be rich to be my girl you don't have to be good to rule my world ain't no particular sign I'm more compatible with I just want your extra time and your I think I better dance now Grazie. ciao ciao",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-29-016",
-    "start": 808.28,
-    "end": 918.56,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "Questa è una bella dichiarazione da fare a una donna o a un uomo con cui mi piacerebbe uscire. Non devi essere bella per essere la mia ragazza. Quello che voglio da te è il tuo extra time. Tutta la volta che c'è un po' di tempo libero lo dovresti dedicare a me. Allora... Da che argomento partiamo? Mentre andava questa canzone ci stavamo chiedendo, parliamo di Morricone, facciamo sentire un po' le canzoni? No, mettiamo il discorso di Di Caprio, bellissimo, che poi lui è sempre impegnato, diciamo, sul... Che bravo ragazzo. Beh, un impegnato, io lo seguo su Twitter e così, devo dire che lui fa anche delle, diciamo, delle dichiarazioni molto importanti. soprattutto sul riscaldamento globale lui è molto fissato sul pianeta poi ha fatto quel bellissimo film sui diamanti quanto costa un diamante prima che arrivi sul dito di una donna però per esempio Milano non so il resto dell'Italia ma Milano è tempestata di pubblicità di Mr. Robot la nuova serie televisiva che andrà in onda fra pochissimo fra qualche giorno il 3 su premium su premium su premium ok allora adesso io tutte le volte che noi parliamo di una serie televisiva voi vi rompete un po' i maroni perché non c'è dopo quando arriva vi dimenticate che noi ve l'avevamo già detto ok è successo con The Vinyl è successo con Breaking Bad è successo con True Detective è successo con Fargo io vorrei ricordare, solo qua, la butto lì così la prima puntata del volo del mattino di quest'anno cioè era settembre 28 settembre 2015 pensiamo di 6-7 mesi fa più o meno settembre, ottobre, novembre, dicembre, gennaio, febbraio 5 dai, 5-6 mesi fa come abbiamo iniziato il volo del mattino, la prima puntata io direi iniziamo già con la sigla?",
+    "start": 665.3,
+    "end": 934.46,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "You gotta not talk dirty, baby If you wanna impress me You can't be too flirty, mama I know how to undress me Let me be your fantasy And maybe you could be mine You just leave it all up to me we can have a good time you don't have to be rich to be my girl you don't have to be good to rule my world ain't no particular sign I'm more compatible with I just want your extra time and your I think I better dance now Grazie. ciao ciao Questa è una bella dichiarazione da fare a una donna o a un uomo con cui mi piacerebbe uscire. Non devi essere bella per essere la mia ragazza. Quello che voglio da te è il tuo extra time. Tutta la volta che c'è un po' di tempo libero lo dovresti dedicare a me. Allora... Da che argomento partiamo? Mentre andava questa canzone ci stavamo chiedendo, parliamo di Morricone, facciamo sentire un po' le canzoni? No, mettiamo il discorso di Di Caprio, bellissimo, che poi lui è sempre impegnato, diciamo, sul... Che bravo ragazzo. Beh, un impegnato, io lo seguo su Twitter e così, devo dire che lui fa anche delle, diciamo, delle dichiarazioni molto importanti. soprattutto sul riscaldamento globale lui è molto fissato sul pianeta poi ha fatto quel bellissimo film sui diamanti quanto costa un diamante prima che arrivi sul dito di una donna però per esempio Milano non so il resto dell'Italia ma Milano è tempestata di pubblicità di Mr. Robot la nuova serie televisiva che andrà in onda fra pochissimo fra qualche giorno il 3 su premium su premium su premium ok allora adesso io tutte le volte che noi parliamo di una serie televisiva voi vi rompete un po' i maroni perché non c'è dopo quando arriva vi dimenticate che noi ve l'avamo già detto ok è successo con The Vinyl è successo con Breaking Bad è successo con True Detective è successo con Fargo io vorrei ricordare, solo qua, la butto lì così la prima puntata del volo del mattino di quest'anno cioè era settembre 28 settembre 2015 pensiamo di 6-7 mesi fa più o meno settembre, ottobre, novembre, dicembre, gennaio, febbraio 5 dai, 5-6 mesi fa come abbiamo iniziato il volo del mattino, la prima puntata io direi iniziamo già con la sigla? Hello friend Hello friend That's lame Maybe I should give you a name But that's a slippery slope You're only in my head We have to remember that Shit What's actually happened?",
     "titolo": "Extra time",
     "tema": [
       "amore",
@@ -211,75 +123,85 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-29-017",
-    "start": 919.37,
-    "end": 993.16,
-    "speaker_raw": "SPEAKER_15",
-    "testo": "Hello friend Hello friend That's lame Maybe I should give you a name But that's a slippery slope You're only in my head We have to remember that Shit What's actually happened? I'm talking to an imaginary person What I'm about to tell you is top secret A conspiracy bigger than all of us C'è un gruppo di persone potenti che corrispondono il mondo. Sto parlando dei ragazzi che nessuno conosce, dei ragazzi invisibili. Il top 1% dei top 1%, i ragazzi che giocano a Dio senza permesso. Ciò che vi dico è top secret. Una consapevolezza più grande di tutti noi. C'è un gruppo di persone potenti lì che stanno segretamente guidando il mondo. Sto parlando dei ragazzi che nessuno sa, dei ragazzi che sono invisibili. Il top 1% dei ragazzi che giocano a Dio senza permesso. E ora penso che mi stanno seguendo. Grazie.",
+    "id": "2016-02-29-010",
+    "start": 934.5,
+    "end": 947.02,
+    "speaker_raw": "SPEAKER_00",
+    "testo": "I'm talking to an imaginary person What I'm about to tell you is top secret A conspiracy bigger than all of us",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-02-29-018",
+    "id": "2016-02-29-011",
+    "start": 948.39,
+    "end": 955.19,
+    "speaker_raw": "SPEAKER_01",
+    "testo": "C'è un gruppo di persone potenti che stanno correndo il mondo. Sto parlando dei ragazzi che nessuno conosce, dei ragazzi invisibili.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-02-29-012",
+    "start": 955.23,
+    "end": 959.93,
+    "speaker_raw": "SPEAKER_00",
+    "testo": "Il top 1% dei top 1%, i ragazzi che giocano a Dio senza permesso. Ciò che vi dirò è top secret.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-02-29-013",
+    "start": 969.13,
+    "end": 977.0,
+    "speaker_raw": "SPEAKER_01",
+    "testo": "Una consapevolezza più grande di noi tutti. C'è un gruppo di persone potenti lì dietro che stanno segretamente guidando il mondo. Sto parlando dei ragazzi che nessuno sa, dei ragazzi che sono invisibili. Il top 1% dei ragazzi che giocano a Dio senza permesso.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-02-29-014",
+    "start": 977.02,
+    "end": 993.28,
+    "speaker_raw": "SPEAKER_00",
+    "testo": "E ora penso che mi stanno seguendo. Grazie a tutti",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-02-29-015",
     "start": 1096.32,
-    "end": 1161.41,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "Ciao! ... ...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-29-019",
-    "start": 1221.77,
-    "end": 1234.88,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "Allora in realtà non ci siamo capiti bene, cioè andava messo un pezzettino dell'inizio del volo del mattino in inglese, poi il trailer in italiano, ma dovete capire che Maurizio non è andato a dormire. Adesso quando sono arrivato eri tutto pimpante, adesso ti stai un po' spegnendo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-29-020",
-    "start": 1235.04,
-    "end": 1236.58,
-    "speaker_raw": "SPEAKER_13",
-    "testo": "Eh, l'adrenalina.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-29-021",
-    "start": 1236.96,
     "end": 1328.74,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "Sta andando giù, ti sei fatto, tu non bevi neanche il caffè, sì ti sei fatto un caffè. Sì. Va bene, comunque qual è stato il momento più bello della notte degli Oscar che tu hai vissuto in diretta con Bagatta? quando ha vinto Di Caprio e su Morricone vi siete emozionati un po' sì sì le ragazze si sono emozionate la Valentina le bagatte sai che ci sono io purtroppo non vedevo le immagini ti ricordi che c'erano gli Amanda Boy poi c'erano i Carra Boy poi ci sono le bagatte dovrebbe fare un programma bagatta con le bagasce anche sì e allora facciamo entrare le bagasce ciao Bagatta Guido Bagatta ok allora beh lui stava dormendo Bagatta stava dormendo tu invece sei sveglio va bene ora vi chiediamo scusa per il misunderstanding about Mr. Robot torniamo tra pochissimo con una bellissima canzone di Morricone anzi ne sentiamo un pochino soprattutto il bel discorso di DiCaprio e poi abbiamo un tema a sorpresa che vi cambierà la giornata Dobbiamo parlare anche dei premi, i peggiori, cioè la medaglia più brutta.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": "",
-    "autore": ""
-  },
-  {
-    "id": "2016-02-29-022",
-    "start": 1454.45,
-    "end": 1454.75,
-    "speaker_raw": "SPEAKER_16",
-    "testo": "Grazie a tutti.",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Ciao Ciao Ciao Musica Allora in realtà non ci siamo capiti bene, cioè andava messo un pezzettino dell'inizio del volo del mattino in inglese, poi il trailer in italiano, ma dovete capire che Maurizio non è andato a dormire. Adesso quando sono arrivato eri tutto pimpante, adesso ti stai un po' spegnendo. Eh, l'adrenalina. Sta andando giù, ti sei fatto, tu non bevi neanche il caffè, sì ti sei fatto un caffè. Sì. Va bene, comunque qual è stato il momento più bello della notte degli Oscar che tu hai vissuto in diretta con Bagatta? quando ha vinto Di Caprio e su Morricone vi siete emozionati un po' sì sì le ragazze si sono emozionate la Valentina le bagatte sai che ci sono io purtroppo non vedevo le immagini ti ricordi che c'erano gli Amanda Boy poi c'erano i Carra Boy poi ci sono le bagatte dovrebbe fare un programma bagatta con le bagasce anche sì e allora facciamo entrare le bagasce ciao Bagatta Guido Bagatta ok allora beh lui stava dormendo Bagatta stava dormendo tu invece sei sveglio va bene ora vi chiediamo scusa per il misunderstanding about Mr. Robot torniamo tra pochissimo con una bellissima canzone di Morricone anzi ne sentiamo un pochino soprattutto il bel discorso di DiCaprio e poi abbiamo un tema a sorpresa che vi cambierà la giornata Dobbiamo parlare anche dei premi, i peggiori, cioè la medaglia più brutta.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-02-29-023",
-    "start": 1504.28,
+    "id": "2016-02-29-016",
+    "start": 1454.45,
+    "end": 1454.73,
+    "speaker_raw": "SPEAKER_00",
+    "testo": "grazie a tutti",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-02-29-017",
+    "start": 1504.23,
     "end": 1504.38,
     "speaker_raw": "SCONOSCIUTO",
     "testo": "Ciao!",
@@ -289,45 +211,21 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-29-024",
+    "id": "2016-02-29-018",
     "start": 1540.06,
-    "end": 1710.31,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "se fate sentire Morricone potete fare presto che devo scendere sono nel parcheggio sto aspettando quel momento perché effettivamente le canzoni di Morricone magari è difficile ricordarsi il titolo come la musica classica uno conosce un pezzo però poi non si ricorda che è under 2, 9 maggiore però ecco questo è Tarantino questo è quella che ha vinto diciamo Poi è successa una cosa strana negli Oscar, diciamo, di ieri sera, insomma, o di questa mattina, dipende, insomma. Che, per esempio, DiCaprio, io l'ho visto l'ultimo, questo che ha vinto, no? Devo dire che doveva vincerlo per altri film. Poi a forza di aspettare, di aspettare, bisognava proprio darglielo, come si dice. Ma non è sicuramente la sua performance migliore dal mio punto di vista. E così Morricone. Devo dire che molte di queste... music Morricone li aveva lì nel cassetto poi se non sbaglio adesso non c'è anche una non vorrei dire una cazzata ma in realtà loro hanno chiarito cioè loro hanno detto che lui aveva diciamo preso una loro canzone mentre lui ha detto ma io questa l'avevo scritta nel 70 quindi l'avete presa voi quindi lui adesso ha querelato loro nessuno ha querelato nessuno in realtà sono i media che hanno fatto sono tutti amici ma ti pare comunque per esempio di Morricone ricordiamo sicuramente c'era una volta in America quella che noi abbiamo usato tantissimo al volo del mattino perché io ve la consiglio anche da mettervela in casa nei momenti vostri di solitudine questo è un capolavoro Poi alcune invece ti martellano la testa, non so se ce l'hai quella del un cittadino bellissimo film, questo, cittadino al di sopra di ogni sospetto. In questo momento su Sky sta facendo un discorso moricone. quale consiglieresti adesso Maurizio? io Mission a me piace Mission ti piace Mission Mission fa sempre la differenza questa Mission secondo me questa qui c'era una volta in America e Mission era quella questa c'era una volta in America e questa Mission però è lunga",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": "",
-    "autore": ""
-  },
-  {
-    "id": "2016-02-29-025",
-    "start": 1715.64,
-    "end": 1716.56,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "No, basta.",
+    "end": 1729.45,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "se fate sentire Morricone potete fare presto che devo scendere sono nel parcheggio sto aspettando quel momento perché effettivamente le canzoni di Morricone magari è difficile ricordarsi il titolo come la musica classica uno conosce un pezzo però poi non si ricorda che è under 2, 9 maggiore però ecco questo è Tarantino questo è quella che ha vinto diciamo Poi è successa una cosa strana negli Oscar, diciamo, di ieri sera, insomma, o di questa mattina, dipende, insomma. Che, per esempio, DiCaprio, io l'ho visto l'ultimo, questo che ha vinto, no? Devo dire che doveva vincerlo per altri film. Poi a forza di aspettare, di aspettare, bisognava proprio darglielo, come si dice. Ma non è sicuramente la sua performance migliore dal mio punto di vista. E così Morricone. Devo dire che molte di queste... music Morricone li aveva lì nel cassetto poi se non sbaglio adesso non c'è anche una non vorrei dire una cazzata ma in realtà loro hanno chiarito cioè loro hanno detto che lui aveva diciamo preso una loro canzone mentre lui ha detto ma io questa l'avevo scritta nel 70 quindi l'avete presa voi quindi lui adesso ha querelato loro nessuno ha querelato nessuno in realtà sono i media che hanno fatto sono tutti amici ma ti pare comunque per esempio di Morricone ricordiamo sicuramente c'era una volta in America quella che noi abbiamo usato tantissimo al volo del mattino perché io ve la consiglio anche da mettervela in casa nei momenti vostri di solitudine questo è un capolavoro Poi alcune invece ti martellano la testa, non so se ce l'hai quella del un cittadino bellissimo film, questo, cittadino al di sopra di ogni sospetto. In questo momento su Sky sta facendo un discorso moricone. quale consiglieresti adesso Maurizio? io Mission a me piace Mission ti piace Mission Mission fa sempre la differenza questa Mission secondo me questa qui c'era una volta in America e Mission era quella questa c'era una volta in America è questa Mission però è lunga No, basta. Allora, peggior film, peggior attore, peggior attrice, ha fatto diciamo man bassa come si dice, tutto, 50 sfumature di grigio, ha vinto tutti i premi della peggior categoria.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-02-29-026",
-    "start": 1716.6,
-    "end": 1729.45,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "Allora, peggior film, peggior film, peggior attore, peggior attrice, ha fatto, diciamo, man bassa, come si dice, tutto, 50 sfumature di grigio, ha vinto tutti i premi della peggior categoria.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": "",
-    "autore": ""
-  },
-  {
-    "id": "2016-02-29-027",
+    "id": "2016-02-29-019",
     "start": 1730.05,
     "end": 1731.27,
-    "speaker_raw": "SPEAKER_13",
+    "speaker_raw": "SPEAKER_01",
     "testo": "I razzi si chiamano.",
     "titolo": "",
     "tema": [],
@@ -335,72 +233,76 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-29-028",
+    "id": "2016-02-29-020",
     "start": 1731.33,
-    "end": 1771.57,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "I razzi, cioè le pernache. Peggior attore, peggior attrice, peggior colonna sola, peggior film, peggior copia. tutto diciamo poi non credo ci sia un palco dove si vada a ritirare però qualche giorno prima degli Oscar fanno queste cose hanno vinto tutto miglior film invece il caso spotlight cioè la storia di preti pedofili che devo dire in Italia stavamo dicendo stamattina mentre si chiacchieravano quando si parla di preti pedofili Noi è una notizia che conosciamo da tanti anni ovviamente, è sempre un po' lì, invece in altri paesi restano ancora scovolti, hanno anche cercato in Belgio, in tanti paesi del mondo di fare la guerra alla chiesa e insomma hanno sempre cercato un po' di coprire.",
+    "end": 1762.48,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "I razzi, cioè le pernache, peggior attore, peggior attrice, peggior colonna sola, peggior coppia, peggior coppia. Tutto diciamo, poi non credo ci sia un palco dove si vada a ritirare, però qualche giorno prima degli Oscar fanno queste cose e hanno vinto tutto. Miglior film invece è il caso Spotlight, cioè la storia di preti pedofili che devo dire in Italia stavamo dicendo stamattina mentre si chiacchieravano, quando si parla di preti pedofili... Noi è una notizia che conosciamo da tanti anni, ovviamente, no? È sempre un po' lì. Invece in altri paesi...",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
-  },
-  {
-    "id": "2016-02-29-029",
-    "start": 1771.59,
-    "end": 1773.59,
-    "speaker_raw": "SPEAKER_13",
-    "testo": "Alla guerra alla chiesa in realtà è cercare chiarezza.",
-    "titolo": "Cercare chiarezza",
-    "tema": [
-      "verità",
-      "giustizia"
-    ],
-    "tipo": "riflessione",
     "video_url": ""
   },
   {
-    "id": "2016-02-29-030",
-    "start": 1773.73,
+    "id": "2016-02-29-021",
+    "start": 1762.9,
+    "end": 1764.02,
+    "speaker_raw": "SPEAKER_01",
+    "testo": "Restano ancora sconvolti.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-02-29-022",
+    "start": 1764.22,
     "end": 1839.69,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "No, cercare chiarezza, però la chiesa diciamo non è mai proprio una cosa che dice ah sì li abbiamo presi, no ma cercano sempre di coprire, no non si sa, non è vero, io dico sempre se invece di essere i preti fossero dei rumeni o degli albanesi la gente sarebbe in piazza a dar fuoco alle case ma non c'entra perché la chiesa è fatta di uomini io gli dico sempre quando si parla di pedofili la parola ma voi dovete immaginare quella scena per capire la gravità perché a forza di sentirlo le parole perdono il peso c'è la suefazione invece il film ha vinto ma voi dovete immaginarvi la scena di un uomo che prende un bambino lo porta in un angolo capito si abbassa la zip dei pantaloni cioè voi lo dovete immaginare per incazzarvi dopodiché se quando la chiesa difende o protegge i pedofili non vi incazzate siete veramente delle merde delle merde vere detto questo possiamo sentire un pezzo del trailer e poi finalmente il discorso meraviglioso di DiCaprio so che ci sono cose che non può dirmi ma so anche che c'è una storia che tutti vorrebbero conoscere",
-    "titolo": "La chiesa e la verità",
-    "tema": [
-      "chiesa",
-      "verità"
-    ],
-    "tipo": "riflessione",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-29-031",
-    "start": 1841.62,
-    "end": 1858.65,
-    "speaker_raw": "SPEAKER_10",
-    "testo": "Pensa che il suo giornale abbia la forza per affrontarla. Io sì. Lei ce l'ha? Un parroco di Boston è stato accusato di molestie in sei parrocchie diverse. La Chiesa lo sa, ma non ha fatto nulla. Dimostratemi che in alto sapevano.",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Restano ancora sconvolti. Hanno anche cercato in Belgio, in tanti paesi del mondo, di fare, diciamo, la guerra alla Chiesa. Insomma, hanno sempre cercato un po' di coprire... Alla guerra alla Chiesa, in realtà, e cercare chiarezza. No, cercare chiarezza. Però la Chiesa, diciamo, non è mai proprio una cosa che dice Ah, sì, li abbiamo presi! No, ma cercano sempre di coprire. No, non si sa, non è vero. Io dico sempre, se invece di essere i preti fossero... dei rumeni o degli albanesi la gente sarebbe in piazza a dar fuoco alle case ma non c'entra perché la chiesa è fatta di uomini io gli dico sempre quando si parla di pedofili la parola ma voi dovete immaginare quella scena per capire la gravità perché a forza di sentirlo le parole perdono il peso c'è la suefazione invece il film ha vinto ma voi dovete immaginarvi la scena di un uomo che prende un bambino lo porta in un angolo capito si abbassa la zip dei pantaloni cioè voi la dovete immaginare per incazzarvi dopodiché se quando la chiesa difende o protegge i pedofili non vi incazzate siete veramente delle merde delle merde vere detto questo possiamo sentire un pezzo del trailer e poi finalmente il discorso meraviglioso di DiCaprio so che ci sono cose che non può dirmi ma so anche che c'è una storia che tutti vorrebbero conoscere",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-02-29-032",
+    "id": "2016-02-29-023",
+    "start": 1841.62,
+    "end": 1853.45,
+    "speaker_raw": "SPEAKER_00",
+    "testo": "Pensa che il suo giornale abbia la forza per affrontarla. Io sì. Lei ce l'ha? Un parroco di Boston è stato accusato di molestia in sei parrocchie diverse.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-02-29-024",
+    "start": 1854.49,
+    "end": 1858.65,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "La Chiesa lo sa, ma non ha fatto nulla. Dimostratemi che in alto sapevano.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-02-29-025",
     "start": 1868.36,
     "end": 1868.64,
     "speaker_raw": "SPEAKER_03",
-    "testo": "grazie a tutti",
+    "testo": "ciao ciao ciao",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-02-29-033",
+    "id": "2016-02-29-026",
     "start": 2013.27,
     "end": 2098.36,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Grazie ragazzi, bellissimo, solo da voi si possono sentire le canzoni di Ennio Morricone, grazie mille, poche note possono toccare il cuore. Volevo anche dire che io ho visto il film, dice Egan da Bologna, il caso Spotlight, le cose sconvolgenti, portate la luce dall'inchiesta, sono due. Gli 87 preti pedofili presenti a Boston e il fatto che ci fosse un meccanismo della chiesa atto ad insabbiare la cosa. Vabbè, insomma... posso dire che ci sono anche dico questa cosa poi dopo probabilmente domani non ci sarà il burro del mattino dai però posso dire questa cosa ci sono anche delle inchieste che sostengono che Papa Wittil sapesse queste cose che addirittura cercasse di coprirle perché erano anni insomma che tutto doveva rimanere un po' nascosto e ora ci sono delle inchieste che sostengono che lui sapeva ma è sempre questo il tema è il coprire è il coprire va bene insomma la chiesa cosa ha fatto? l'ha fatto santo ma al di là di questo che Papa Wittil non si può toccare perché è il papa di tutti va benissimo ci sarebbero altre cose da dire ma vorrei essere qui domani mattina dalle 9 alle 10 di Leonardo DiCaprio molto impegnato anche per diciamo la salvaguardia del pianeta ha finalmente vinto questo bellissimo film di Iñárritu che l'anno scorso ha vinto con Burning Man esatto dove l'attore è quello di Spotify ha fatto un bellissimo discorso lui bello con il suo solito ciuffo laterale da uomo anni 50 stupendo lo ascoltiamo",
     "titolo": "Spotlight",
     "tema": [
@@ -409,12 +311,10 @@
       "chiesa"
     ],
     "tipo": "riferimento_libro",
-    "video_url": "",
-    "confermato_esterno": true,
-    "copertina": "https://covers.openlibrary.org/b/id/201269-M.jpg"
+    "video_url": ""
   },
   {
-    "id": "2016-02-29-034",
+    "id": "2016-02-29-027",
     "start": 2103.51,
     "end": 2109.87,
     "speaker_raw": "SPEAKER_03",
@@ -425,16 +325,14 @@
       "natura"
     ],
     "tipo": "riferimento_film",
-    "video_url": "",
-    "confermato_esterno": true,
-    "copertina": "https://image.tmdb.org/t/p/w200/cw8HPomOzNql3l4xdaJJ8HGIZds.jpg"
+    "video_url": ""
   },
   {
-    "id": "2016-02-29-035",
+    "id": "2016-02-29-028",
     "start": 2109.89,
     "end": 2152.5,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "Il 2015 è stato l'anno più caldo della storia e la produzione del Finch ha dovuto portare al Polo Sud solo per riuscire a trovare la neve. Il surriscaldamento globale è realtà. Il cambiamento climatico sta avvenendo proprio adesso e la minaccia più urgente che la nostra specie deve affrontare. Abbiamo bisogno che il mondo agisca in modo collettivo e che smetta di rimandare. Dobbiamo sostenere i leader del mondo che non fanno gli interessi dei grandi inquinatori e delle grandi aziende, ma di tutta l'umanità, delle popolazioni indigene, dei miliardi di persone senza privilegi che pagano il prezzo più alto, dei figli dei nostri figli e delle persone là fuori la cui voce è stata soffocata da una politica di avidità. Grazie a tutti per questo premio meraviglioso. Non diamo per scontato il nostro pianeta. Io non do per scontata questa serata.",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Il 2015 è stato l'anno più caldo della storia e la produzione del Finch ha dovuto portare al Polo Sud solo per riuscire a trovare la neve. Il surriscaldamento globale è realtà, il cambiamento climatico sta avvenendo proprio adesso e la minaccia più urgente che la nostra specie deve affrontare. Abbiamo bisogno che il mondo agisca in modo collettivo e che smetta di rimandare. Dobbiamo sostenere i leader del mondo che non fanno gli interessi dei grandi inquinatori e delle grandi aziende, ma di tutta l'umanità, delle popolazioni indigene, dei miliardi di persone senza privilegi che pagano il prezzo più alto, dei figli dei nostri figli e delle persone là fuori la cui voce è stata soffocata da una politica di avidità. Grazie a tutti per questo premio meraviglioso. Non diamo per scontato il nostro pianeta. Io non do per scontata questa serata.",
     "titolo": "Cambiamento climatico",
     "tema": [
       "clima",
@@ -444,49 +342,33 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-29-036",
+    "id": "2016-02-29-029",
     "start": 2166.7,
-    "end": 2278.0,
+    "end": 2215.36,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Sì. He's on top Don't feel no more You can't see past my blinders",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-02-29-030",
+    "start": 2220.48,
+    "end": 2225.6,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Oh, oh, Filii, you've been on my mind, girl, since the flood.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-02-29-031",
+    "start": 2225.72,
+    "end": 2463.06,
     "speaker_raw": "SPEAKER_04",
-    "testo": "Sì. He's on top And I don't feel no more You can't see past my blindness Oh, Ophelia, you've been on my mind, girl, since the flood Oh, Ophelia, heaven help you, falls in love I, I, got a little paycheck You got a big plan and you gotta move ... ... ... ... ... ... ... ... ... ... ... ... grazie a tutti",
-    "titolo": "Ophelia",
-    "tema": [
-      "amore",
-      "perdita"
-    ],
-    "tipo": "riferimento_musica",
-    "video_url": "",
-    "confermato_esterno": true,
-    "copertina": "https://coverartarchive.org/release/012a888d-2929-4c2d-870e-f0ac56097602/front-250"
-  },
-  {
-    "id": "2016-02-29-037",
-    "start": 2309.39,
-    "end": 2316.86,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "Qualcuno degli ascoltatori si è un po' infastidito perché dice se domani non ci sei più, ma mi dispiace perché mi fai di tanta compagnia quando ci andiamo alla borsa.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-29-038",
-    "start": 2317.36,
-    "end": 2318.86,
-    "speaker_raw": "SPEAKER_13",
-    "testo": "L'invettiva anticlericale della settimana.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-29-039",
-    "start": 2318.88,
-    "end": 2422.52,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "Beh, io avrei il tempo di recuperare un po' di più. Così puoi dormire. Oggi vai a dormire. A che ora vai a dormire? Guarda che oggi è una giornata perfetta per dormire. Eh, ma devo lavorare. Io tutta notte ho sentito... La pioggia, la pioggia, stamattina mi sono svegliato, il tram non arrivava, poi il tram quando piove è tutto appannato i vetri perché la gente sale con i cappottoni, con i piumoni così che trasudano calore. Un bagno turco è così che ci siamo. Posso fare solo un appunto sulla gente che vedo sul tram la mattina? soprattutto a lunedì mi diverto quando mi guardano che magari mi hanno visto le iene la sera e ovviamente io non sono quelli super famosi tipo Fiorello quindi mi guardo e mi dico è lui o non è lui ma sarà lui ma no figurati se è lui mi piace che mi sento questi sguardi e mi immagino i pensieri però posso dire che a lunedì mattina sul tram sale della gente che ha già i capelli sporchi non so se tu l'hai notato certo che ho notato cioè c'è della gente che sale il lunedì mattina lo dico il lunedì mattina la mattina dovremmo essere tutti un po' puliti però per me il lunedì è proprio l'inizio della settimana li vedo che salgono che hanno ancora un po' l'appiccicaticcio del venerdì sera addosso non fosse solo i capelli non sono solo i capelli sai non lo so fa un po' fa un po' quando sono lì seduto tutti schiacciati io dico uno sciampetto, perché non è una questione di soldi forse si appoggiano al finestrino che lasciano quello io in metropolitana quando avevo i capelli lunghi mi appoggiavo poi quando mi tiravo su mi rimanevano incastrati nei quadrattini della pubblicità sai che c'è? le finestrelle, tanto tempo fa quando avevo i capelli più che quando avevo i capelli lunghi va bene, allora siccome si parla sempre male del nostro paese insomma cerchiamo di trovare sempre, siamo autocritici troviamo anche dei momenti meravigliosi dimmi Maurizio",
+    "testo": "Oh, oh, Filii, heaven help you, falls in love. I, I, got a little paycheck. You got a big plan and you gotta move. I don't feel nothing at all And you can't feel nothing small Honey I love you That's all she wrote Oh Ophelia You've been on my mind Grazie a tutti. Qualcuno degli ascoltatori si è un po' infastidito perché dice se domani non ci sei più, ma mi dispiace perché mi fai di tanta compagnia quando ci andiamo alla borsa. L'invettiva anticlericale della settimana. Beh, io avrei il tempo di recuperare un po' di più. Così poi dormi. Oggi vai a dormire. A che ora vai a dormire? Guarda che oggi è una giornata perfetta per dormire. Eh, ma devo lavorare. Io tutta notte ho sentito... La pioggia, la pioggia, stamattina mi sono svegliato, il tram non arrivava, poi il tram quando piove è tutto appannato i vetri, perché la gente sale con i cappottoni, con i piumoni, così che trasudano calore. Un bagno turco, è così che ci siamo. Posso fare solo un appunto sulla gente che vedo sul tram alla mattina? soprattutto a lunedì mi diverto quando mi guardano che magari mi hanno visto le iene la sera e ovviamente io non sono quelli super famosi tipo Fiorello quindi mi guardo e mi dico è lui o non è lui ma sarà lui ma no figurati se è lui mi piace che mi sento questi sguardi e mi immagino i pensieri però posso dire che a lunedì mattina sul tram sale della gente che ha già i capelli sporchi non so se tu l'hai notato certo che ho notato cioè c'è della gente che sale il lunedì mattina lo dico il lunedì mattina la mattina dovremmo essere tutti un po' puliti però per me il lunedì è proprio l'inizio della settimana li vedo che salgono che hanno ancora un po' l'appiccicaticcio del venerdì sera addosso non fosse solo i capelli non sono solo i capelli sai non lo so fa un po' fa un po' quando sono lì seduto tutti schiacciati io dico uno sciampetto, perché non è una questione di soldi forse si appoggiano al finestrino che lasciano quello io in metropolitana quando avevo i capelli lunghi mi appoggiavo poi quando mi tiravo su mi rimanevano incastrati nei quadrattini della pubblicità sai che c'è? le finestrelle, tanto tempo fa quando avevo i capelli più che quando avevo i capelli lunghi va bene, allora siccome si parla sempre male del nostro paese insomma cerchiamo di trovare sempre, siamo autocritici troviamo anche dei momenti meravigliosi dimmi Maurizio no no volevo dirti che questa notte mentre facevo regia a Bagata mi è venuto in mente appunto di tutti i grandi registi attori italiani che hanno vinto l'Oscar italiani esatto e quindi oggi Morricone ho fatto il montaggio esatto oggi Morricone credo un paio d'anni fa un paio d'anni fa Sorrentino sì o l'anno scorso l'anno scorso scusatemi no aspetta l'anno scorso due anni fa aiuto ma sì due anni fa secondo me era due anni fa poi dopo ci sono stati soprattutto in passato l'Italia ha sempre fatto bella figura per cui godiamoci questo momento in cui il mondo ci riconosce un grande talento e poi ci lasciamo con la canzone di Morricone e ciao ci sentiamo domani",
     "titolo": "La giornata perfetta per dormire",
     "tema": [
       "lavoro",
@@ -496,78 +378,22 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-29-040",
-    "start": 2422.96,
-    "end": 2448.63,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "no no volevo dirti che questa notte mentre facevo regia a Bagata mi è venuto in mente appunto di tutti i grandi registi attori italiani che hanno vinto l'Oscar italiani esatto e quindi oggi Morricone ho fatto il montaggio esatto oggi Morricone credo un paio d'anni fa un paio d'anni fa Sorrentino sì o l'anno scorso l'anno scorso scusatemi no aspetta l'anno scorso due anni fa aiuto ma sì due anni fa secondo me era due anni fa",
-    "titolo": "Ennio Morricone e l'Oscar",
-    "tema": [
-      "Oscar",
-      "Ennio Morricone"
-    ],
-    "tipo": "aneddoto",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-29-041",
-    "start": 2449.13,
-    "end": 2463.06,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "poi dopo ci sono stati soprattutto in passato l'Italia ha sempre fatto bella figura per cui godiamoci questo momento in cui il mondo ci riconosce un grande talento e poi ci lasciamo con la canzone di Morricone e ciao ci sentiamo domani",
-    "titolo": "il talento italiano",
-    "tema": [
-      "talento",
-      "Italia"
-    ],
-    "tipo": "riflessione",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-29-042",
-    "start": 2475.02,
-    "end": 2481.9,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "Let me make only one name of an actress who is also my wife.",
-    "titolo": "Nome di un'attrice",
-    "tema": [
-      "film",
-      "attori"
-    ],
-    "tipo": "citazione",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-29-043",
-    "start": 2482.0,
-    "end": 2482.28,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "Thank you",
+    "id": "2016-02-29-032",
+    "start": 2475.24,
+    "end": 2515.57,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Roberto! Io vivo qui per l'Oscar, ma voglio che tu... Voglio essere roccato dalle luci della tua bellezza. Signore e signori, Federico Calin. Lasciami fare solo un nome di un attore che è anche mia moglie. più, dearest Giulietta. And please, stop crying. Ladies and gentlemen, Ennio Morricone. Thank you.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-02-29-044",
-    "start": 2502.32,
-    "end": 2510.83,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "Più, dear Giulietta. And please, stop crying. Ladies and gentlemen, Ennio Morricone.",
-    "titolo": "Ennio Morricone",
-    "tema": [
-      "amore",
-      "grazie"
-    ],
-    "tipo": "citazione",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-29-045",
-    "start": 2513.49,
-    "end": 2546.57,
-    "speaker_raw": "SPEAKER_08",
-    "testo": "Thank you. Voglio ringraziare l'Accademia per questo onore che mi ha fatto, dandovi questo ambito premio. Credo che questo premio sia per me Non un punto di arrivo, ma un punto di partenza per migliorarvi. Dedico questo Oscar a mia moglie Maria, che mi ama moltissimo, che è stata vicina tutti questi anni. E io la amo alla stessa maniera. Questo premio è anche per lei. E l'Oscar va a... La grande bellezza.",
+    "id": "2016-02-29-033",
+    "start": 2515.61,
+    "end": 2546.55,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Voglio ringraziare l'Accademia per questo onore che mi ha fatto, dandovi questo ambito premio. Credo che questo premio sia per me Non un punto di arrivo, ma un punto di partenza per migliorarvi. Dedico questo Oscar a mia moglie Maria, che mi ama moltissimo, che è stata vicina tutti questi anni. E io la amo alla stessa maniera. Questo premio è anche per lei. E l'Oscar va a... La grande bellezza.",
     "titolo": "Parodia discorso Oscar",
     "tema": [
       "cinema",
@@ -578,33 +404,21 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-29-046",
-    "start": 2546.61,
-    "end": 2552.09,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "E' un po' di fortuna.",
+    "id": "2016-02-29-034",
+    "start": 2546.57,
+    "end": 2586.26,
+    "speaker_raw": "SPEAKER_01",
+    "testo": "Grazie mille. Ok, grazie all'Accademia, grazie a Tony e Nicola e a tutti gli attori, i produttori e il crew. Grazie a tutti i miei sforzi di ispirazione, Federico Fellini, Tolkien X, Marti Scorsese e Diego Armando Maradona. Grazie a Roma e a Napoli e a mia persona di grande bellezza, Daniela, Anna e Carlo. Grazie a mio fratello Marco, mia sestra Daniela e a tutti i miei parenti di Salentina. Grazie mille. Grazie.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-02-29-047",
-    "start": 2553.46,
-    "end": 2586.26,
-    "speaker_raw": "SPEAKER_01",
-    "testo": "Ok, grazie all'Accademia, grazie a Tony e Nicola e a tutti gli attori, i produttori e il crew. Grazie a tutti i miei sforzi di ispirazione, Federico Fellini, Tolkien X, Marti Scorsese e Diego Armando Maradona. Grazie a Roma e a Napoli e a mia persona di grande bellezza, Daniela, Anna e Carlo. Grazie a mio fratello Marco e a mia sestra Daniela. Questo è per i miei parenti in Salentina. Grazie mille. Grazie.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": "",
-    "autore": ""
-  },
-  {
-    "id": "2016-02-29-048",
+    "id": "2016-02-29-035",
     "start": 2591.3,
     "end": 2592.7,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_04",
     "testo": "E adesso godetevi questo momento.",
     "titolo": "",
     "tema": [],
@@ -612,21 +426,29 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-29-049",
+    "id": "2016-02-29-036",
     "start": 2631.27,
-    "end": 2691.58,
-    "speaker_raw": "SPEAKER_05",
-    "testo": "mi sa Beside me as before My heart left to find you near To feel you close once more",
-    "titolo": "Beside me as before",
-    "tema": [
-      "amore",
-      "speranza"
-    ],
-    "tipo": "citazione",
+    "end": 2631.43,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "mi sa",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-02-29-050",
+    "id": "2016-02-29-037",
+    "start": 2679.84,
+    "end": 2691.58,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Beside me as before My heart left to find you near To feel you close once more",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-02-29-038",
     "start": 2732.2,
     "end": 2732.84,
     "speaker_raw": "SCONOSCIUTO",
@@ -640,22 +462,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-29-051",
-    "start": 2773.95,
-    "end": 2795.92,
-    "speaker_raw": "SPEAKER_05",
-    "testo": "E' lunedì mattina, sono le 9.50, leggo una serie di messaggi che...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-29-052",
-    "start": 2800.94,
-    "end": 2861.38,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "Mi porterò con me durante il giorno, Fabio Pelle d'Oca, non puoi farmi piangere, devo vedere i clienti, Luciano scrive così, poi mamma mia che musica breve di Mauro, ma sei proprio stronzo, mi fai piangere, Luigi D'Asti, non riesco a guidare, le mie lacrime, un abbraccio, fantastica, Cristiana vado avanti, le lacrime, grazie per avermi zuccherato lunedì mattina, questa è una sonora che mi ricordo della mia infanzia quando mio papà guardava sempre i film. perché il ringraziamento a Diego Maradona nella premiazione degli Oscar di Paolo Sorrentino perché Paolo Sorrentino ovviamente se seguite c'è Fellini che si vede un po' in qualche modo che lo ispira i Tocchinez perché addirittura ci sono il cos'è Must Be The Place tra l'altro con un'inquadratura bellissima dall'alto col palco che viene avanti non so se ve lo ricordate E Diego Armando Maradona anche nell'ultimo The Youth c'è questo momento in cui c'è il sosia di Maradona che sta in questa spa per rifarsi, comunque lui è napoletano.",
+    "id": "2016-02-29-039",
+    "start": 2773.93,
+    "end": 2868.23,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "È lunedì mattina, sono le 9.50, leggo una serie di messaggi che... Mi porterò con me durante il giorno, Fabio Pelle d'Oca, non puoi farmi piangere, devo vedere i clienti, Luciano scrive così, poi mamma mia che musica breve di Mauro, ma sei proprio stronzo, mi fai piangere, Luigi D'Asti, non riesco a guidare, le mie lacrime, un abbraccio, fantastica, Cristiana vado avanti, le lacrime, grazie per avermi zuccherato lunedì mattina, questa è una sonora che mi ricordo della mia infanzia quando mio papà guardava sempre i film. perché il ringraziamento a Diego Maradona nella premiazione degli Oscar di Paolo Sorrentino perché Paolo Sorrentino ovviamente se seguite c'è Fellini che si vede un po' in qualche modo che lo ispira i Tocchinez perché addirittura ci sono cos'è Must Be The Place tra l'altro con un'inquadratura bellissima dall'alto col palco che viene avanti non so se ve lo ricordate E Diego Armando Maradona anche nell'ultimo The Youth c'è questo momento in cui c'è il sosia di Maradona che sta in questa spa per rifarsi, comunque lui è napoletano. Comunque ovviamente era 2014, io pensavo fosse l'anno scorso. No, no, la vita va velocissima.",
     "titolo": "Messaggi lunedì mattina",
     "tema": [
       "amicizia",
@@ -665,47 +476,21 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-29-053",
-    "start": 2862.2,
-    "end": 2866.74,
-    "speaker_raw": "SPEAKER_13",
-    "testo": "Comunque ovviamente era 2014, io pensavo fosse l'anno scorso.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": "",
-    "autore": ""
-  },
-  {
-    "id": "2016-02-29-054",
-    "start": 2866.78,
-    "end": 2868.23,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "No, no, la vita va velocissima.",
-    "titolo": "La vita va velocissima",
-    "tema": [
-      "tempo",
-      "vita"
-    ],
-    "tipo": "riflessione",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-29-055",
-    "start": 2868.31,
+    "id": "2016-02-29-040",
+    "start": 2868.25,
     "end": 2869.89,
-    "speaker_raw": "SPEAKER_13",
-    "testo": "Eh sì, quando ci si diverte.",
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Sì, quando ci si diverte.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-02-29-056",
+    "id": "2016-02-29-041",
     "start": 2870.29,
     "end": 2897.35,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_04",
     "testo": "un ascoltatore o ascoltatrice che non firmate dice mi ricorda i miei nonni ok grazie per aver messo Ennio questa è bella mi fate piangere di gioia la vita è meravigliosa senti qua scusate non vale mi fai piangere di gioia perché la vita è meravigliosa non ti asmetti che sia una donna a scrivere un messaggio così invece no è Stefano che cucciolotto che è Stefano i nostri ascoltatori comunque i discorsi di accettazione dei premi sono sempre commoventi sì",
     "titolo": "La vita è meravigliosa",
     "tema": [
@@ -716,10 +501,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-29-057",
+    "id": "2016-02-29-042",
     "start": 2897.47,
     "end": 2899.41,
-    "speaker_raw": "SPEAKER_13",
+    "speaker_raw": "SPEAKER_01",
     "testo": "A parte quelli italiani?",
     "titolo": "",
     "tema": [],
@@ -727,38 +512,58 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-29-058",
+    "id": "2016-02-29-043",
     "start": 2899.49,
-    "end": 2935.8,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "Allora, questa mattina Johanna quando ha sentito quello di Caprio ha pianto. Io mi sono commosso perché è stato figo sul finale quando ha detto don't take a grunt. E molti scrivono appunto che hanno pianto e soprattutto di quello che abbiamo fatto sentire, il discorso di Morricone che si mette a piangere lui ringraziando l'amore. Lì proprio ti si squaglia. Anche stanotte si era messo a piangere. al cuore, non hai fatto in tempo a montare quello di stanotte mentre Bagatta parlava ho montato questo Bagatta piange in via Massena no, Bagatta parla in via Massena mentre Morricone piange a Los Angeles i due mondi che si bilanciano",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": "",
-    "autore": ""
-  },
-  {
-    "id": "2016-02-29-059",
-    "start": 2950.41,
-    "end": 3108.39,
-    "speaker_raw": "SPEAKER_02",
-    "testo": "Grazie a tutti ... ... ... ... ... ... Ciao! we'll be 30 years old Grazie a tutti. grazie",
+    "end": 2919.11,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Allora, questa mattina Johanna quando ha sentito quello di Caprio ha pianto. Io mi sono commosso perché è stato figo sul finale quando ha detto don't take a grunt. E molti scrivono appunto che hanno pianto e soprattutto di quello che abbiamo fatto sentire il discorso di Morricone che si mette a piangere lui ringraziando l'amore. Lì proprio ti si squaglia. Anche stanotte si era messo a piangere.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-02-29-060",
-    "start": 3142.64,
-    "end": 3207.51,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "qualcuno dice che nel montaggio avevo dimenticato ovviamente altri italiani che hanno vinto gli Oscar tra cui Salvatores con Mediterraneo possono farlo loro anche Tornatore se non sbaglio no si ti sei dimenticato che è tornato ora insomma adesso Maurizio non ha dormito ha fatto quello che poteva allora quelli che abbiamo dimenticato ve li montate voi domani e Maurizio lo mette va bene allora ciao ragazzi oggi è il primo giorno di apertura della mia autoscuola ho bisogno di un grande in bocca al lupo Luca autoscuola Luca via Roma facciamo un po' di pubblicità incisa valdarno figline figline e incisa figline e incisa valdarno autoscuola Luca via Roma 8a incisa ciao ragazzi a domani",
+    "id": "2016-02-29-044",
+    "start": 2919.12,
+    "end": 2919.53,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Ti si squaglia.",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
+  },
+  {
+    "id": "2016-02-29-045",
+    "start": 2920.51,
+    "end": 2935.8,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "al cuore, non hai fatto in tempo a montare quello di stanotte mentre Bagatta parlava ho montato questo Bagatta piange in via Massena no, Bagatta parla in via Massena mentre Morricone piange a Los Angeles i due mondi che si bilanciano",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-02-29-046",
+    "start": 2950.47,
+    "end": 2967.25,
+    "speaker_raw": "SPEAKER_01",
+    "testo": "once I was seven years old my mama told me go make yourself some friends or you'll be lonely once I was seven years old Musica Musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-02-29-047",
+    "start": 2998.63,
+    "end": 3207.51,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Ciao Ciao Ciao Ciao! we'll be 30 years old grazie a tutti no Qualcuno dice che nel montaggio avevo dimenticato ovviamente altri italiani che hanno vinto gli Oscar, tra cui Salvatores con Mediterraneo. Possono farlo loro. Passiva aggressive. Anche Tornatore se non sbaglio. no si ti sei dimenticato che è tornato ora insomma adesso Maurizio non ha dormito ha fatto quello che poteva allora quelli che abbiamo dimenticato ve li montate voi domani mandate il file Maurizio e Maurizio lo mette va bene allora ciao ragazzi oggi è il primo giorno di apertura della mia autoscuola ho bisogno di un grande in bocca al lupo Luca autoscuola Luca via Roma facciamo un po' di pubblicità incisa valdarno figline figline e incisa figline e incisa valdarno autoscuola Luca via Roma 8a incisa ciao ragazzi a domani",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
   }
 ]
