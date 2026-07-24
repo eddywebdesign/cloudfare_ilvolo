@@ -13,9 +13,9 @@
   {
     "id": "2016-10-27-001",
     "start": 32.13,
-    "end": 97.56,
-    "speaker_raw": "SPEAKER_15",
-    "testo": "ciao ciao ciao Grazie.",
+    "end": 32.43,
+    "speaker_raw": "SPEAKER_01",
+    "testo": "ciao ciao",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -23,10 +23,10 @@
   },
   {
     "id": "2016-10-27-002",
-    "start": 139.16,
-    "end": 140.07,
-    "speaker_raw": "SPEAKER_01",
-    "testo": "Ciao Ciao Ciao",
+    "start": 97.18,
+    "end": 97.56,
+    "speaker_raw": "SPEAKER_00",
+    "testo": "Grazie.",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -34,10 +34,10 @@
   },
   {
     "id": "2016-10-27-003",
-    "start": 203.8,
-    "end": 207.09,
-    "speaker_raw": "SPEAKER_15",
-    "testo": "Oh yeah!",
+    "start": 139.16,
+    "end": 457.33,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Ciao Ciao Ciao Oh yeah! Bellissima ragazza, bravissima ragazza, meravigliosa persona, almeno da quello che siamo riusciti a capire quando è venuta anche qui a Radio DJ, Alicia Keys, featuring Azzap, Rocky, Blended, Family, What You Do. Quanti sono? Non lo so, abbiamo il foglio A4, quello classico di quando si stampano le cose, però... l'inizio qui è una specie di di T per riuscire a farci stare tutto diciamo il il gruppo e il titolo e l'anno. Buongiorno a tutti, questa è Radio DJ, questo è il volo del mattino, sono le nove e otto minuti, io direi di mettere subito la sigla. Good morning life, good morning bird, sing out your happy tune, feel so good cause I'll be seeing her soon. Good morning life She says she loves me What a pity to part I slept with both eyes open Waiting for today to start Good morning life A good morning world How are you? Happiness All at once I knew what living can be Oh, it's life It's free It's someone waiting for me Who told me my life Good morning life eccoci qua allora abbiamo questa puntata del volo del mattino oggi insomma sapete insomma belle notizie e brutte notizie la notizia del terremoto la bella notizia tra virgolette insomma se si può dire così all'interno di una brutta notizia è quella che nonostante la scossa sia stata molto forte non ci sono state vittime insomma solo una persona che se non ho capito male è morta di infarto cioè dalla paura insomma quindi è abbastanza una bella notizia nella come dire in proporzione a quello che è capitato Non c'è Viola questa mattina. Maurizio, quando questa mattina abbiamo scoperto che... Ma sei sicuro che non viene dopo? Lo dico a tutti i ragazzi in ascolto, quelli che amano la voce di Viola, quelli che decidono di rimanere a letto fino a 9 e un quarto sotto le coperte per sentire la voce. Allora... Mi spiace ragazzi, questa mattina... questa mattina non c'è però abbiamo tantissime altre persone che hanno preso il posto voi sapete sui posti di lavoro ci sentiamo tutti indispensabili poi stai a casa e torni e non c'è più neanche la scrivania succede, succede Con la mattina che ho chiesto, ma ci si fanno i dispetti fra colleghi, no? E Viola mi ha detto assolutamente sì. Tu però, posso dirti Maurizio, per tua esperienza personale, tra tecnici, diciamo, cioè tra persone che fanno il tuo lavoro a Radio DJ, vi fate i dispetti? No. No. I dispetti? Proprio che uno che ti cambia il mix e che ti cambia... No, assolutamente. Io devo dire... Franco ogni tanto. Franco ogni tanto. No, tra noi DJ, mettiamola così, tra noi speaker non ci si fa i dispetti, però magari ci si rubano gli ospiti, no? Cioè tu chiami uno che lo ha già chiamato apposta, capito? Poi vabbè, se uno è il capo fa quello che vuole, però dico in generale tra di noi magari è solo quella roba lì. Noi non abbiamo tanti ospiti. No. Va bene, comunque noi non ci interessa, questo non è un bel tema. Senti, sei sicuro che non arriva? Non viene, te lo assicuro, te lo assicuro. Non viene, me l'ha promesso Mi ha detto prometti ma non viene Non viene, ok Iniziamo con un disco tranquillo, calmo E poi parliamo di occasioni Oggi Abbiamo delle grandi occasioni Cancella le mie stesse ossa Rinfrescati se vuoi questa mia stessa pioggia sporca",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -45,50 +45,46 @@
   },
   {
     "id": "2016-10-27-004",
-    "start": 207.11,
-    "end": 241.72,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "Bellissima ragazza, bravissima ragazza, meravigliosa persona, almeno da quello che siamo riusciti a capire quando è venuta anche qui a Radio DJ, Alicia Keys, featuring Azzap, Rocky, Blended, Family, What You Do. Quanti sono? Non lo so, abbiamo il foglio A4, quello classico di quando si stampano le cose, però... l'inizio qui è una specie di di T per riuscire a farci stare tutto diciamo il il gruppo e il titolo e l'anno. Buongiorno a tutti, questa è Radio DJ, questo è il volo del mattino, sono le nove e otto minuti, io direi di mettere subito la sigla.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "start": 479.5,
+    "end": 623.84,
+    "speaker_raw": "SPEAKER_01",
+    "testo": "Dimmi a che serve restare lontano in silenzio a guardare la nostra passione che muore in un angolo e non sa di noi. Lo vedi, sento anch'io la pace. C'è aria fredda intorno a noi. Abbracciami se vuoi, questa mia stessa pioggia smorca. Dimmi a che serve restare lontano e in silenzio a guardare che muore che cambia il colore che cambia l'odore tu dimmi poi che senso ha ora piangere piangere addosso a me che non so difendere questa mia brutta pelle così sporca tanto sporca come sporca questa pioggia sporca sì ma tu non difendermi adesso tu non difendermi adesso tu non difendermi piuttosto torna fango sì ma torna e dimmi che serve restare in silenzio guardare la nostra passione non muore ma cambia colore tu fammi sperare",
+    "titolo": "Pioggia Sporca",
+    "tema": [
+      "musica",
+      "amore"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": ""
   },
   {
     "id": "2016-10-27-005",
-    "start": 257.66,
-    "end": 296.98,
-    "speaker_raw": "SPEAKER_14",
-    "testo": "Good morning life, good morning bird, sing out your happy tune, feel so good cause I'll be seeing her soon. Good morning life She says she loves me What a pity to part I slept with both eyes open Waiting for today to start Good morning life A good morning world How are you? Happiness All at once I knew what living can be Oh, it's life It's free It's someone waiting for me Who told me my life Good morning life",
-    "titolo": "Good Morning Life",
-    "tema": [
-      "amore",
-      "felicità"
-    ],
-    "tipo": "citazione",
+    "start": 645.28,
+    "end": 1070.27,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "la mia bella carta bianca per il tuo racconto, scrivi tu la fine, io sono pronto, non voglio stare sulla soglia della nostra vita, guardare che è finita, nuvole che passano e scaricano pioggia come sassi, e ad ogni passo noi dimentichiamo i nostri passi, la strada che noi abbiamo fatto insieme, gettando sulla pietra il nostro seme, a uccidersi ogni notte Pensa che arriva questo messaggio Maurizio Ciao Fabio, te conosci tanta gente famosa fai così perché parlava ancora non posso parlare sul rappato ciao Fabio, te conosci tanta gente famosa e importante ma che figata che sei amico di uno come Giuliano ciao Fabio Giuliano Giuliano è appena cantato Stamattina siamo più tranquilli, dobbiamo essere un po' più rispettosi alla situazione, non dico sotto tono ma più rilassati, tra l'altro c'è una bellissima fotografia, io e Giuliano siamo sul divano e mi fa sentire in cuffia il suo album prima di uscire, quindi sono andato a casa sua a pranzo la domenica e mi ha fatto sentire l'album bellissimo, poi l'album è uscito così bello l'altro ieri sono andato a casa sua a fargli vedere la prima puntata della serie dove lui fa l'attore quindi gli ho tornato il favore e vederlo ridere devo dire che ha fatto una grande soddisfazione è anche un bravo attore più deltato? più del tabello il tatto è Tatuzzo che è un tecnico ha fatto una bella parte allora ragazzi è il momento delle grandi occasioni nel senso che non so se ce li avete anche voi personaggi così nelle vostre aziende nei vostri uffici dove lavorate ma quelli un po' a benessere si chiamano i traffichini cioè quelli che ti dicono vuoi un phone vuoi una tastiera di un computer cioè quelli che hanno sempre come Mauro con le gomme Mauro Vicrina ha bisogno di una gomma, lui c'è adesso nel baule della macchina, c'ha dentro sicuramente 5 o 6 gomme di qualsiasi macchina, anche della Vespa. Allora noi abbiamo Franco Russo, che ha due prodotti che sta cercando di piazzare la DJ da mesi e nessuno compra, quindi ho detto... Ma perché voglio aiutare i colleghi. Non solo non si fanno i dispetti fra colleghi, ma ci si aiuta. Scusami che un ascoltatore scrive che a proposito dei dispetti fra colleghi, ed è uno scherzo molto molto bello da fare lo dico perché è bello al ritorno dalle vacanze di Natale avevo la tastiera in fiore cioè uno o una che non si sa chi ha messo le lenticchie sulla tastiera dentro tra i tastini e poi un po' di acqua poi sono andato in vacanza e è tornato e tutti i germogli sono... guarda che è un bello scherzo da fare prima delle vacanze uno sceglie che cosa i piselli, i pisellini Mario Fargetta è specializzato in scherzi quindi il famoso la famosa appostarsi sotto sotto la console quando un DJ parla me lo ricordo e ci strizza i maroni e tu salti come un però insomma ragazzi ricordiamoci questo scherzo da fare che è Natale vicino prima di andare via dagli uffici che si sta via una settimana magari due un po' di germogli un po' di cotone soprattutto l'acqua fa bene la tastiera comunque dicevo abbiamo due prodotti che non riusciamo a piazzare qui a Radio DJ ho detto allora apriamo il mercato anche agli ascoltatori ecco qua con la musichetta così entro allora nel clima i due prodotti questi qua sì allora un set partiamo allora chi è il venditore il tato il tato tattuzzo tecnico esatto insomma famoso ormai insomma ok ok ok anche per aver avuto un flirt come la platino si sta riconosciuto insomma così ha comprato delle mazze da golf quindi mai usate Ma spieghiamo chi era il destinatario. Attacchiamoci la storia. Un giorno ha avuto la brillante idea di regalare a sua moglie un set di macchie da golf. Un giorno la moglie del tato ha detto, sai che mi piacerebbe una volta giocare a golf? Come dire? Provare. Lui ha registrato, sai come quando passeggi in centro con la moglie, che lei prima del compleanno e del Natale ti porta a fare un giro in centro. Comincia a dirti, ma che bello questo anello, ma che bello. E tu fai finta di non capire e poi dici, ok. e avrà detto ciao va che adesso la stupisco quindi lei ha bisogno di una cosa e ti porta in centro tu di non pensare a cosa comprare perfetto è un segreto tra coppie lei dice così ma a cazzeggio mi piacerebbe lui registra questa informazione e il giorno del suo compleanno si presenta con un bel sacco di matte da golf e lei gliela ha detto io adesso te le spacco in testa una per una e quindi mazze da golf mai usate ci hanno il peluche sopra il cappuccino sono anni che tentiamo di avere una documentazione fotografica del prodotto ma niente si vergogna troppo comunque se qualcuno di voi abbiamo un prezzo lui pur di sbarazzarsene offerta libera mazze da golf mai usate tutti ferri credo proprio il set completo con borsa in pelle esatto poi un ragazzo qui a Radio DJ diciamo uno dei primi che si è rasato a zero con la lametta quando ancora non era di moda no? proprio rasato a zero a un certo punto incontra Cesare Ragazzi e decidono ah vuoi raccontarla tutta? beh insomma decidono di fare un business ok gli dice senti tu che sei rasato a zero io ti do questa cosa no? sapete che Cesare Ragazzi era una specie di diciamo di parrucca che si attaccava alla testa però ok io te la do e tu mi giri nel corridoio di Radio DJ esatto qualcun altro lo vede o ne parla la radio o te lo mette o chiudono se lo mette lui per un po' l'ha fatto però diciamo è andato via il venerdì che era pelato è arrivato lunedì con un sacco di capelli quindi per noi era sempre lui che aveva messo tanto c'è anche una foto su internet c'è anche una foto se cercate bene quindi cari cari ascoltatori possiamo dare gli elementi di ricerca i tag abbiamo qui Questo famoso, diciamo, quasi parrucchino, che non si chiamerebbe, insomma, questa parrucca adattabile e tutto, anche quella va via a poco ormai. Sì, sì, sì, anche qua offerta libera. Quando vai in Germania so che la mette un po' più appena fuori dall'elastico dei boxer, per fare un po', diciamo, un po' volume. Insomma, quindi abbiamo due grandi occasioni. No, ma ci tengo a far sapere di chi è il prodotto, non l'hai detto? Enzo Fargetta Enzo Fargetta digitata su internet Enzo Fargetta MySpace lui con i capelli lui con i capelli ok se avete anche voi adesso in ufficio a casa cose di cui sbarazzarsi e far due soldi che serve poi a comprare qualcosa natale di originale certo noi siamo qua mandateci mail e messaggi io ho altri prodotti li vuoi sentire? cos'hai?",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
     "id": "2016-10-27-006",
-    "start": 303.08,
-    "end": 393.0,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "eccoci qua allora abbiamo questa puntata del volo del mattino oggi insomma sapete insomma belle notizie e brutte notizie la notizia del terremoto la bella notizia tra virgolette insomma se si può dire così all'interno di una brutta notizia è quella che nonostante la scossa sia stata molto forte non ci sono state vittime insomma solo una persona che se non ho capito male è morta di infarto cioè dalla paura insomma quindi è abbastanza una bella notizia nella come dire in proporzione a quello che è capitato Non c'è Viola questa mattina. Maurizio, quando questa mattina abbiamo scoperto che... Ma sei sicuro che non viene dopo? Lo dico a tutti i ragazzi in ascolto, quelli che amano la voce di Viola, quelli che decidono di rimanere a letto fino a 9 e un quarto sotto le coperte per sentire la voce... Allora... Mi spiace ragazzi, questa mattina... questa mattina non c'è però abbiamo tantissime altre persone che hanno preso il posto voi sapete sul posto di lavoro ci sentiamo tutti indispensabili poi stai a casa attorno e non c'è più neanche la scrivania succede, succede Con la mattina che ho chiesto, ma ci si fanno i dispetti fra colleghi, no? E Viola mi ha detto assolutamente sì. Tu però, posso dirti Maurizio, per tua esperienza personale, tra tecnici, cioè tra persone che fanno il tuo lavoro a Radio DJ, vi fate i dispetti? No. No. I dispetti? Proprio che uno che ti cambia il mix e che ti cambia... No, assolutamente. Io devo dire... Franco ogni tanto.",
-    "titolo": "Terremoto senza vittime",
-    "tema": [
-      "disasteri",
-      "notizie"
-    ],
-    "tipo": "aneddoto",
+    "start": 1071.91,
+    "end": 1075.86,
+    "speaker_raw": "SPEAKER_00",
+    "testo": "pesciera con coperchio e griglia che bella voce 140 120 quanto hanno ancora?",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
     "id": "2016-10-27-007",
-    "start": 393.04,
-    "end": 394.04,
-    "speaker_raw": "SPEAKER_10",
-    "testo": "Franco ogni tanto.",
+    "start": 1092.75,
+    "end": 1126.29,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "110 se le mazze sono da donne offro 20 euro un po' pochino 20 euro ma sono da donne sono quelle da donne chi ha mai giocato a gol? Where could you be on such a lonely winter's night?",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -96,10 +92,10 @@
   },
   {
     "id": "2016-10-27-008",
-    "start": 396.78,
-    "end": 452.15,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "No, tra noi DJ, mettiamola così, tra noi speaker non ci si fa i dispetti, però magari ci si rubano gli ospiti, no? Cioè tu chiami uno che lo ha già chiamato apposta, capito? Poi vabbè, se uno è il capo fa quello che vuole, però dico in generale tra di noi magari è solo quella roba lì. Noi non abbiamo tanti ospiti. No. Va bene, comunque noi non ci interessa, questo non è un bel tema. Senti, sei sicuro che non arriva? Non viene, te lo assicuro, te lo assicuro. non viene, me l'ha promesso mi ha detto prometti ma non viene non viene, ok iniziamo con un disco tranquillo, calmo e poi parliamo di occasioni oggi abbiamo delle grandi occasioni cade la piozza e tutto lava cancella le mie stesse ossa",
+    "start": 1215.74,
+    "end": 1244.83,
+    "speaker_raw": "SPEAKER_01",
+    "testo": "Sì Grazie.",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -107,226 +103,21 @@
   },
   {
     "id": "2016-10-27-009",
-    "start": 454.37,
-    "end": 623.84,
-    "speaker_raw": "SPEAKER_02",
-    "testo": "Rinfrescati se vuoi questa mia stessa pioggia sporca Dimmi a che serve restare lontano in silenzio a guardare la nostra passione che muore in un angolo e non sa di noi. Lo vedi, sento anch'io la pace. C'è aria fredda intorno a noi. Abbracciami se vuoi, questa mia stessa pioggia sporca. Dimmi a che serve restare, lontano e in silenzio a guardare. che muore che cambia il colore che cambia l'odore tu dimmi poi che senso ha ora piangere piangere addosso a me che non so difendere questa mia brutta pelle così sporca tanto sporca come sporca questa pioggia sporca sì ma tu non difendermi adesso tu non difendermi adesso tu non difendermi piuttosto torna fango sì ma torna e dimmi che serve restare in silenzio guardare la nostra passione non muore ma cambia colore tu fammi sperare",
-    "titolo": "Pioggia Sporca",
-    "tema": [
-      "musica",
-      "amore"
-    ],
-    "tipo": "riferimento_musica",
-    "video_url": "",
-    "confermato_esterno": true,
-    "copertina": "https://coverartarchive.org/release/d4d9cf86-d35e-4390-8eb8-d2e7598d2a6a/front-250"
+    "start": 1282.22,
+    "end": 1379.82,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Vaporiera elettrica, girmi tre cestelli, nuova, regalo sbagliato, Claudio da Palermo. Questa la potresti prendere, la vaporiera. Ho tre porte in abete da vendere con vetri. Ognuno ha qualcosa in casa che è lì per qualcosa. Io vorrei sbarazzarmi di mio marito. Allora, qualcuno chiede, ma basta che Viola non si sia sentita. Tranquilli, non sta male. Che cos'ha? Ma secondo me è quella roba lì delle donne. Sai che ogni tanto le donne non stanno bene. Cioè, ogni tanto ci sono dei giorni difficili. Posso dire che è proprio più facile essere maschio in generale, no? Anche proprio fisicamente. Cioè, comunque le donne devono subire una serie di fastidi. No... stasera usciamo boom iniziano alle 7 prepararsi per uscire alle 9 quando escono dal bagno a 5 alle 9 tu entri in bagno a 5 alle 9 alle 9 sei pronto poi cammini con le scarpe comode pantalone un maglioncino e via cammini con le scarpe comode, loro devono camminare con quei piedi vai a una festa, a un matrimonio, hanno tutti questi piedi incastrati dentro una scarpa ieri all'aeroporto di Parigi c'era quella di Zijet c'era una di Zijet sai quelli che ti devono vedere se la valigia va dentro che si era tolta le scarpe aveva le scarpe a fianco e rapidino non ce la faceva più probabilmente adesso magari mi sente qualcuno di Zijet vanno a vedere chi è per un secondo solo l'hanno fatta Va bene, comunque ragazzi, sarà quella roba lì, delle donne. Sì. Come dice South Park... Beh, le vostre mamme sono solo agitate, forse hanno le mestruazioni tutto qui.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
   },
   {
     "id": "2016-10-27-010",
-    "start": 645.28,
-    "end": 672.97,
-    "speaker_raw": "SPEAKER_10",
-    "testo": "la mia bella carta bianca per il tuo racconto, scrivi tu la fine, io sono pronto, non voglio stare sulla soglia della nostra vita, guardare che è finita, nuvole che passano e scaricano pioggia come sassi, e ad ogni passo noi dimentichiamo i nostri passi, la strada che noi abbiamo fatto insieme, gettando sulla pietra il nostro seme, a uccidersi ogni notte Pensa che arriva questo messaggio Maurizio Ciao Fabio, te conosci tanta gente famosa",
-    "titolo": "La fine della vita",
-    "tema": [
-      "amore",
-      "fine"
-    ],
-    "tipo": "riflessione",
-    "video_url": ""
-  },
-  {
-    "id": "2016-10-27-011",
-    "start": 696.01,
-    "end": 799.65,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "fai così perché parlava ancora non posso parlare sul rappato ciao Fabio, te conosci tanta gente famosa e importante ma che figata che sei amico di uno come Giuliano ciao Fabio Giuliano Giuliano è appena cantato Stamattina siamo più tranquilli, dobbiamo essere un po' più rispettosi alla situazione, non dico sotto tono ma più rilassati, tra l'altro c'è una bellissima fotografia, io e Giuliano siamo sul divano e mi fa sentire in cuffia il suo album prima di uscire, quindi sono andato a casa sua a pranzo la domenica e mi ha fatto sentire l'album bellissimo, poi è l'album uscito così bello. l'altro ieri sono andato a casa sua a fargli vedere la prima puntata della serie dove lui fa l'attore quindi gli ho tornato il favore e vederlo ridere devo dire che ha fatto una grande soddisfazione è anche un bravo attore più deltato? più del tabello il tatto è Tatuzzo che è un tecnico ha fatto una bella parte allora ragazzi è il momento delle grandi occasioni nel senso che non so se ce li avete anche voi personaggi così nelle vostre aziende nei vostri uffici dove lavorate ma quelli un po' a benessere si chiamano i traffichini cioè quelli che ti dicono oh vuoi un phone vuoi una tastiera di un computer cioè quelli che hanno sempre come Mauro con le gomme Mauro Vicrina ha bisogno di una gomma, lui ce l'ha adesso nel baule della macchina, ce l'ha dentro, tipo sicuramente 5 o 6 gomme di qualsiasi macchina, anche della Vespa. Allora noi abbiamo Franco Russo, che ha due prodotti che sta cercando di piazzare la DJ da mesi e nessuno compra, quindi ho detto...",
-    "titolo": "Giuliano in studio",
-    "tema": [
-      "amici",
-      "musica"
-    ],
-    "tipo": "aneddoto",
-    "video_url": ""
-  },
-  {
-    "id": "2016-10-27-012",
-    "start": 799.67,
-    "end": 801.75,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Ma perché voglio aiutare i colleghi.",
-    "titolo": "Aiutare i colleghi",
-    "tema": [
-      "lavoro",
-      "aiuto"
-    ],
-    "tipo": "riflessione",
-    "video_url": ""
-  },
-  {
-    "id": "2016-10-27-013",
-    "start": 801.97,
-    "end": 837.16,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "Non solo non si fanno i dispetti fra colleghi, ma ci si aiuta. Scusami che un ascoltatore scrive che a proposito dei dispetti fra colleghi, ed è uno scherzo molto molto bello da fare lo dico perché è bello al ritorno dalle vacanze di Natale avevo la tastiera in fiore cioè uno o una che non si sa chi ha messo le lenticchie sulla tastiera dentro tra i tastini e poi un po' di acqua poi sono andato in vacanza e è tornato e tutti i germogli sono... Guarda che è un bello scherzo da fare prima delle vacanze, uno sceglie che cosa, i piselli, i pisellini, le picchie.",
-    "titolo": "Scherzi tra colleghi",
-    "tema": [
-      "lavoro",
-      "scherzi"
-    ],
-    "tipo": "aneddoto",
-    "video_url": ""
-  },
-  {
-    "id": "2016-10-27-014",
-    "start": 837.18,
-    "end": 850.51,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Beh Mario Fargetta è specializzato in scherzi, quindi il famoso, la famosa appostarsi sotto la console quando un DJ balla, me lo ricordo, e ci strizza i maroni e tu salti come un...",
-    "titolo": "Scherzi di Mario Fargetta",
-    "tema": [
-      "scherzi",
-      "lavoro"
-    ],
-    "tipo": "aneddoto",
-    "video_url": ""
-  },
-  {
-    "id": "2016-10-27-015",
-    "start": 850.95,
-    "end": 1029.54,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "però insomma ragazzi ricordiamoci questo scherzo da fare che è Natale vicino prima di andare via dagli uffici che si sta via una settimana magari due un po' di germogli un po' di cotone soprattutto l'acqua fa bene la tastiera comunque dicevo abbiamo due prodotti che non riusciamo a piazzare qui a Radio DJ ho detto allora apriamo il mercato anche agli ascoltatori ecco qua con la musichetta così entro allora nel clima i due prodotti questi qua sì allora un set partiamo allora chi è il venditore il tato il tato tatuzzo tecnico esatto insomma famoso ormai insomma ok ok ok anche per aver avuto un flirt come la platino si sta riconosciuto insomma così ha comprato delle mazze da golf quindi mai usate ma spieghiamo chi era il destinatario attacchiamoci la storia ha avuto la brillante idea di regalare a sua moglie un set di macchie da golf un giorno la moglie del tato ha detto sai che mi piacerebbe una volta giocare a golf come dire provare lui ha registrato sai come quando passeggi in centro con la moglie che lei prima del compleanno e del Natale ti porta a fare un giro in centro e comincia a dirti ma che bello questo anello e tu fai finta di non capire e poi dici ok e aveva detto ciao va che adesso la stupisco quindi lei ha bisogno di una cosa e ti porta in centro tu di non pensare a cosa comprare perfetto è un segreto tra coppie lei dice così ma a cazzeggio mi piacerebbe lui registra questa informazione e il giorno del suo compleanno si presenta con un bel sacco di matte da golf e lei gliela ha detto io adesso te le spacco in testa una per una e quindi mazze da golf mai usate ci hanno il peluche sopra il cappuccino sono anni che tentiamo di avere una documentazione fotografica del prodotto ma niente si vergogna troppo comunque se qualcuno di voi abbiamo un prezzo lui pur di sbarazzarsene offerta libera mazze da golf mai usate tutti ferri credo proprio il set completo con borsa in pelle esatto poi un ragazzo qui a Radio DJ diciamo uno dei primi che si è rasato a zero con la lametta quando ancora non era di moda no? proprio rasato a zero a un certo punto incontra Cesare Ragazzi e decidono ah vuoi raccontarla tutta? beh insomma decidono di fare un business ok gli dice senti tu che sei rasato a zero io ti do questa cosa no? sapete che Cesare Ragazzi era una specie di diciamo di parrucca che si attaccava alla testa però ok io te la do e tu mi giri nel corridoio di Radio DJ esatto qualcun altro lo vede o ne parla la radio o te lo mette lui per un po' l'ha fatto però è andato via il venerdì che era pelato è arrivato lunedì con un sacco di cabello quindi per noi era sempre lui c'è anche una foto su internet se cercate bene possiamo dare gli elementi di ricerca i tag Questo famoso, diciamo, quasi parrucchino, che non si chiamerebbe, insomma, questa parrucca adattabile e tutto, anche quella va via a poco ormai.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-10-27-016",
-    "start": 1029.72,
-    "end": 1031.14,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Sì, sì, sì, anche qua offerta libera.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-10-27-017",
-    "start": 1031.38,
-    "end": 1039.93,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "Quando vai in Germania so che la mette un po' più appena fuori dall'elastico dei boxer, per fare un po', diciamo, un po' volume. Insomma, quindi abbiamo due grandi occasioni.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-10-27-018",
-    "start": 1040.07,
-    "end": 1044.61,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "No, ma ci tengo a far sapere di chi è il prodotto, non l'hai detto?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-10-27-019",
-    "start": 1046.55,
-    "end": 1070.27,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "Enzo Fargetta Enzo Fargetta MySpace Lui con i capelli MySpace Se avete anche voi adesso in ufficio a casa cose di cui sbarazzarsi e far due soldi che serve poi a comprare qualcosa natale di originale noi siamo qua, mandateci mail e messaggi Io ho altri prodotti, li vuoi sentire? Cos'hai?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-10-27-020",
-    "start": 1071.91,
-    "end": 1075.86,
-    "speaker_raw": "SPEAKER_13",
-    "testo": "Teixeira con coperchio e griglia che bella voce 140 120 quanto hanno ancora?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-10-27-021",
-    "start": 1092.75,
-    "end": 1103.22,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "110 se le mazze sono da donne offro 20 euro un po' pochino 20 euro ma sono da donne sono quelle da donne chi ha mai giocato a gol?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-10-27-022",
-    "start": 1121.95,
-    "end": 1244.83,
-    "speaker_raw": "SPEAKER_02",
-    "testo": "Where could you be on such a lonely winter's night? no Grazie.",
-    "titolo": "Inverno solitario",
-    "tema": [
-      "solitudine",
-      "inverno"
-    ],
-    "tipo": "citazione",
-    "video_url": ""
-  },
-  {
-    "id": "2016-10-27-023",
-    "start": 1282.22,
-    "end": 1308.1,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "Vaporiera elettrica, girmi, tre cestelli, nuova, regalo sbagliato, Claudio da Palermo. Questa la potresti prendere, la vaporiera. Ho tre porte in abete da vendere con vetri. Ognuno ha qualcosa in casa che è lì per qualcosa. Io vorrei sbarazzarmi di mio marito. Allora, qualcuno chiede, ma basta che Viola non si sia sentita. Tranquilli, non sta male.",
-    "titolo": "Vaporiera elettrica",
-    "tema": [
-      "vaporiera",
-      "regalo"
-    ],
-    "tipo": "aneddoto",
-    "video_url": ""
-  },
-  {
-    "id": "2016-10-27-024",
-    "start": 1308.16,
-    "end": 1308.5,
-    "speaker_raw": "SPEAKER_05",
-    "testo": "Che cos'ha?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-10-27-025",
-    "start": 1309.0,
-    "end": 1375.6,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "Ma secondo me è quella roba lì delle donne. Sai che ogni tanto le donne non stanno bene. Cioè, ogni tanto ci sono dei giorni difficili. Posso dire che è proprio più facile essere maschio in generale, no? Anche proprio fisicamente. Cioè, comunque le donne devono subire una serie di fastidi. No... stasera usciamo boom iniziano alle 7 prepararsi per uscire alle 9 quando escono dal bagno a 5 alle 9 tu entri in bagno a 5 alle 9 alle 9 sei pronto poi cammini con le scarpe comode pantalone un maglioncino e via cammini con le scarpe comode e loro devono camminare con quei piedi vai a una festa, a un matrimonio c'hanno tutti questi piedi incastrati dentro una scarpa così ieri all'aeroporto di Parigi c'era quella di Zijet c'era una di Zijet sai quelli che ti devono vedere se la valigia va dentro che si era tolta le scarpe aveva le scarpe a fianco e rapidino non ce la faceva più probabilmente adesso magari mi sente qualcuno di Zijet vanno a vedere chi è per un secondo solo l'hanno fatta Va bene, comunque ragazzi, sarà quella roba lì, delle donne? Sì. Come dice South Park?",
-    "titolo": "Difficoltà femminili",
-    "tema": [
-      "femminilità",
-      "difficoltà"
-    ],
-    "tipo": "riflessione",
-    "video_url": ""
-  },
-  {
-    "id": "2016-10-27-026",
-    "start": 1376.24,
+    "start": 1379.84,
     "end": 1388.18,
-    "speaker_raw": "SPEAKER_00",
-    "testo": "Beh, le vostre mamme sono solo agitate, forse hanno le mestruazioni tutto qui. È offensivo! Signor Garrison, Wendy e io la riteniamo una battuta sessista. Beh, mi dispiace Wendy, ma io non mi fido di una cosa che sanguina per cinque giorni e che non muore.",
+    "speaker_raw": "SPEAKER_01",
+    "testo": "È offensivo! Signor Garrison, Wendy e io la riteniamo una battuta sessista. Beh, mi dispiace Wendy, ma io non mi fido di una cosa che sanguina per cinque giorni e che non muore.",
     "titolo": "Battuta sessista",
     "tema": [
       "sessismo",
@@ -336,22 +127,21 @@
     "video_url": ""
   },
   {
-    "id": "2016-10-27-027",
+    "id": "2016-10-27-011",
     "start": 1388.76,
     "end": 1409.66,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "Ragazzi, cominciamo con alcuni... È forse una delle battute più belle di South Park. Ma tu sai imitare la viola? No.",
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Ragazzi, cominciamo con alcuni... È forse una delle battute più belle di South Park... Ma tu sai imitare la viola? No.",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
-    "id": "2016-10-27-028",
+    "id": "2016-10-27-012",
     "start": 1410.42,
     "end": 1414.11,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_01",
     "testo": "La viola la so imitare abbastanza bene. Adesso devo perfezionarla comunque.",
     "titolo": "",
     "tema": [],
@@ -359,77 +149,43 @@
     "video_url": ""
   },
   {
-    "id": "2016-10-27-029",
+    "id": "2016-10-27-013",
     "start": 1415.46,
-    "end": 1438.96,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "lo devi fare più o meno non è male Savino sei pessimo ci ha scritto non dite cazzate non ho le mie cose e vi ascolto si gioca un po' così allora abbiamo un sacco di cose che gli ascoltatori diciamo se ne vogliono liberare certo ho messo giù con un italiano sbagliato delle quali però il senso era Indy per cui",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-10-27-030",
-    "start": 1443.06,
-    "end": 1454.42,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "È un altro uomo che è impazzito per te Ma non penso che possa dirti Tutto quello che ti dico io",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-10-27-031",
-    "start": 1577.04,
-    "end": 1578.17,
-    "speaker_raw": "SPEAKER_02",
-    "testo": "Grazie a tutti.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-10-27-032",
-    "start": 1626.49,
     "end": 1675.67,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "buongiorno buongiorno ciao ricorda Savino che sei venuto a trovarci qua a passeggiare poi dopo io vengo giù un po' per corrompere per corromperti mischiamoci un po' allora aspetta un attimo perché qui abbiamo tanti prodotti che vogliamo vedere ma non è la puntata non è su quello mi interessa invece questa mail senti perché così ho tutto un discorso da fare arriva una mail di un ragazzo che dice Fabio vi ascolto da tanti anni ah anche la mia ragazza vi ascolta ci siamo non riesco a convincerla a venire a vivere con me a convivere, a fare il passo io voglio fare il passo dopo la famiglia, i figli, quello che sarà stiamo sempre in questa situazione siamo fidanzati da otto anni, non succede niente non riesco a convincerla ha paura, ha paura, ha paura come posso fare? se ce l'hai fatta anche tu certo",
+    "speaker_raw": "SPEAKER_03",
+    "testo": "lo devi fare più o meno non è male Savino sei pessimo ci ha scritto non dite cazzate non ho le mie cose e vi ascolto si gioca un po' così allora abbiamo un sacco di cose che gli ascoltatori diciamo se ne vogliono liberare certo ho messo giù con un italiano sbagliato delle quali però il senso era Indy per cui È un altro uomo che è impazzito per te Ma non penso che possa dirti Tutto quello che ti dico io Pace, certo che il cuore buongiorno buongiorno ciao ricorda Savino che sei venuto a trovarci qua a passeggiare poi dopo io vengo giù un po' per corrompere per corromperti mischiamoci un po' allora aspetta un attimo perché qui abbiamo tanti prodotti che vogliamo vedere ma non è la puntata non è su quello mi interessa invece questa mail senti perché così ho tutto un discorso da fare arriva una mail di un ragazzo che dice Fabio vi ascolto da tanti anni ah anche la mia ragazza vi ascolta ci siamo non riesco a convincerla a venire a vivere con me a convivere, a fare il passo io voglio fare il passo dopo la famiglia, i figli, quello che sarà stiamo sempre in questa situazione siamo fidanzati da otto anni, non succede niente non riesco a convincerla ha paura, ha paura, ha paura come posso fare? se ce l'hai fatta anche tu certo",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-10-27-033",
+    "id": "2016-10-27-014",
     "start": 1677.87,
     "end": 1699.52,
-    "speaker_raw": "SPEAKER_12",
+    "speaker_raw": "SPEAKER_01",
     "testo": "io ho detto adesso ci pensa Nicola ma io cosa ci devo fare poi è difficile giudicare innanzitutto bisogna vedere se lei ha portato lo spazzolino da lui perché lo spazzolino è il primo poi il cassetto con le prime cose lì c'è da fare come c'è nel film anche Franck e Sarah Jane Franck e Johnny con Al Pacino",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
-    "id": "2016-10-27-034",
-    "start": 1702.4,
+    "id": "2016-10-27-015",
+    "start": 1702.96,
     "end": 1729.5,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "no il discorso della comfort zone seguimi Nicola dimmi se sei d'accordo ognuno di noi soprattutto sei da solo stai a un certo punto soprattutto invecchiando le tue mille abitudini e quella lì è quella che si chiama la comfort zone cioè la zona confortevole è difficile che succeda qualcosa qualche imprevisto però tendenzialmente mangi quando mangi ho le birkestock che non sono proprio sotto il letto perché tirano su un po' di odore le tengo un po' lontano",
+    "speaker_raw": "SPEAKER_03",
+    "testo": "il discorso della comfort zone seguimi Nicola dimmi se sei d'accordo ognuno di noi soprattutto stai da solo stai a un certo punto soprattutto invecchiando le tue mille abitudini e quella lì è quella che si chiama la comfort zone cioè la zona confortevo è difficile che succeda qualcosa qualche imprevisto però tendenzialmente mangi quando mangi ho le birkestock che non sono proprio sotto il letto perché tirano su un po' di odore le tengo un po' lontano",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-10-27-035",
+    "id": "2016-10-27-016",
     "start": 1729.86,
     "end": 1757.53,
-    "speaker_raw": "SPEAKER_12",
+    "speaker_raw": "SPEAKER_01",
     "testo": "poi le prendo vado vado al zerbino c'è il corriere della sera che deve essere quello lì e devo essere il primo io ad aprirlo guai apri il giornale faccio il caffè ci metto dentro un po' di acqua così me lo guardo poi una volta bevuto il primo caffè vado in bagno vado in bagno poi sveglio il resto della famiglia se qualcosa si frappone tra me e queste abitudini è una catastrofe lo capisci? lo capisco quindi questo ragazzo qua che stia singolo che stia singolo ah ok al contrario",
     "titolo": "",
     "tema": [],
@@ -437,11 +193,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-10-27-036",
+    "id": "2016-10-27-017",
     "start": 1758.43,
     "end": 1824.77,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "sei nella tua comfort zone però adesso dico una di quelle frasi che io potrei scriverci otto libri su sta frase le cose magiche succedono fuori dalla comfort zone cioè la magia vera quella di stupire te stesso farti stupire da qualcun altro provare delle emozioni per la prima volta in vita mia mi tocca darti ragione io per esempio ieri potevo, ero a Parigi ho detto dormo in albergo da solo poi ho detto no perché se riesco a prendere l'aereo delle 5 riesco a mettere a letto Sebastian e su quel pensiero sono andato di corsa all'aeroporto e un mio amico di Brescia mi ha scritto una volta capito non l'avresti mai fatto e invece è proprio perché mi scopro una cosa che io non avrei mai pensato di poter fare una cazzata così beh cazzate però una notte cosa cambia quindi diciamo le cose magiche non è solo per riguardo ai figli in generale le cose magiche succedono anche nella vita nel lavoro così quando uno esce dalla comfort zone perché le navi Al porto sono più sicure, ma non sono state create per stare al porto, ma per navigare.",
+    "speaker_raw": "SPEAKER_03",
+    "testo": "sei nella tua comfort zone però adesso dico una di quelle frasi che io potrei scriverci otto libri su sta frase le cose magiche succedono fuori dalla comfort zone cioè la magia vera quella di stupire te stesso farti stupire da qualcun altro provare delle emozioni per la prima volta in vita mia mi tocca darti ragione io per esempio ieri potevo, ero a Parigi ho detto dormo in albergo da solo poi ho detto no perché se riesco a prendere l'aereo delle 5 riesco a mettere a letto Sebastian e su quel pensiero sono andato di corsa all'aeroporto e un mio amico di Brescia mi ha scritto una volta capito non l'avresti mai fatto e invece è proprio perché mi scopro una cosa che io non avrei mai pensato di poter fare una cazzata così beh Cazzate, però una notte cosa cambia? Quindi diciamo le cose magiche, non è solo per il riguardo ai figli in generale, le cose magiche succedono anche nella vita, nel lavoro, così quando uno esce dalla comfort zone, perché le navi Al porto sono più sicure, ma non sono state create per stare al porto, ma per navigare.",
     "titolo": "La magia fuori dalla comfort zone",
     "tema": [
       "crescita",
@@ -451,55 +207,33 @@
     "video_url": ""
   },
   {
-    "id": "2016-10-27-037",
+    "id": "2016-10-27-018",
     "start": 1824.83,
-    "end": 1828.49,
-    "speaker_raw": "SPEAKER_00",
-    "testo": "È giusto. Ok?",
+    "end": 1830.45,
+    "speaker_raw": "SPEAKER_01",
+    "testo": "È giusto. Ok? Sì. Ok.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-10-27-038",
-    "start": 1828.51,
-    "end": 1833.75,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "Sì. Ok. Metti una frase del film di Frank e Sarah Jane.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-10-27-039",
-    "start": 1833.77,
-    "end": 1835.31,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "No, non è Frank e Sarah Jane.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-10-27-040",
-    "start": 1835.67,
+    "id": "2016-10-27-019",
+    "start": 1830.73,
     "end": 1842.81,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "È Frank e Johnny. Ma è la stessa cosa. Va bene, la metto, eh. Al Pacino e Frank e Sarah Jane non sono più o meno la stessa cosa. Vai, vai.",
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Metti una frase del film di Frank e Sarah Jane. No, non è Frank e Sarah Jane. È Frank e Johnny. Ma è la stessa cosa. Va bene, la metto. Al Pacino e Frank e Sarah Jane non sono più o meno la stessa cosa. Vai, vai.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-10-27-041",
-    "start": 1845.52,
+    "id": "2016-10-27-020",
+    "start": 1845.28,
     "end": 1857.51,
-    "speaker_raw": "SPEAKER_08",
-    "testo": "Ti fa comodo crederlo, lo capisci? Perché così puoi continuare a scappare all'infinito. Tu non mi conosci, io non ti conosco. Sì che ti conosco. Che cosa vuoi, Frankie? Che cosa vuoi? Che cosa vuoi da un uomo?",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Mi fa comodo crederlo, lo capisci? Perché così puoi continuare a scappare all'infinito. Tu non mi conosci, io non ti conosco. Sì che ti conosco. Che cosa vuoi, Frankie? Che cosa vuoi? Che cosa vuoi da un uomo?",
     "titolo": "Dialogo tratto dal film Paura d'amare",
     "tema": [
       "amore",
@@ -509,10 +243,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-10-27-042",
+    "id": "2016-10-27-021",
     "start": 1857.99,
     "end": 1860.37,
-    "speaker_raw": "SPEAKER_09",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Io voglio un uomo che mi ami per sempre e malgrado tutto.",
     "titolo": "Citazione dal film Paura d'amare",
     "tema": [
@@ -523,10 +257,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-10-27-043",
+    "id": "2016-10-27-022",
     "start": 1860.49,
     "end": 1862.29,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Allora ce l'hai, eccolo, presente.",
     "titolo": "",
     "tema": [],
@@ -534,10 +268,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-10-27-044",
+    "id": "2016-10-27-023",
     "start": 1862.33,
     "end": 1863.89,
-    "speaker_raw": "SPEAKER_09",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Questa storia sta diventando un vero incubo.",
     "titolo": "",
     "tema": [],
@@ -545,10 +279,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-10-27-045",
+    "id": "2016-10-27-024",
     "start": 1864.77,
     "end": 1868.85,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Frankie, io sto cercando di migliorare la mia vita tutto qui e non mi resta molto tempo.",
     "titolo": "frankie io sto cercando di migliorare",
     "tema": [
@@ -558,10 +292,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-10-27-046",
+    "id": "2016-10-27-025",
     "start": 1869.35,
     "end": 1878.59,
-    "speaker_raw": "SPEAKER_09",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Probabilmente dovresti trovartene un'altra che ha i minuti contati come te. Ma può anche succedere, sai, potrei incontrare una donna domani, andarci a letto e credermi innamorato di te. Bravo, non sarò certo io quella che ti chiedo.",
     "titolo": "",
     "tema": [],
@@ -569,47 +303,98 @@
     "video_url": ""
   },
   {
-    "id": "2016-10-27-047",
+    "id": "2016-10-27-026",
     "start": 1878.61,
     "end": 1890.1,
-    "speaker_raw": "SPEAKER_08",
-    "testo": "No, non sarai tu a fermarmi, sono io che mi fermo, io amo te. Ma ho tanta paura, Frankie, ho tanta paura che alla fine ti tirerei indietro, che tornerai in quel posto dove ti senti tanto protetta. E così è...",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "No, non sarai tu a fermarmi, sono io che mi fermo, io amo te. Ma ho tanta paura, Frankie, ho tanta paura che alla fine ti tirerai indietro, che tornerai in quel posto dove ti senti tanto protetta. E così è...",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-10-27-048",
+    "id": "2016-10-27-027",
     "start": 1918.23,
-    "end": 2161.43,
-    "speaker_raw": "SPEAKER_17",
-    "testo": "just like you said it would be life goes easy on me most of the time and so it is No love, no glory No hero in her sky I can't take my eyes off you No love, no glory I can take my eyes off you I can take my eyes off you I can take my eyes off you I can take my eyes off you can't take my eyes and so it is just like you said it should be we'll both forget the breeze most often Grazie. ... ... ... ... ... ... ... ... ... ... no no I can't take my mind off of you I can't take my mind off of you",
-    "titolo": "I Can't Take My Eyes Off You",
-    "tema": [
-      "amore"
-    ],
-    "tipo": "riferimento_musica",
-    "video_url": "",
-    "autore": "Bob Crewe & Bob Gaudio",
-    "confermato_esterno": false
+    "end": 1956.05,
+    "speaker_raw": "SPEAKER_00",
+    "testo": "life goes easy on me most of the time and so it is I can't take my eyes off of you I can't take my eyes off of you",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
   },
   {
-    "id": "2016-10-27-049",
+    "id": "2016-10-27-028",
+    "start": 1978.88,
+    "end": 1995.4,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "I can't take my eyes off you I can't take my eyes off you I can't take my eyes off you",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-10-27-029",
+    "start": 2007.14,
+    "end": 2036.7,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "can't take my eyes and so it is just like you said it should be we'll both forget the breeze most often of the time",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-10-27-030",
+    "start": 2081.77,
+    "end": 2104.19,
+    "speaker_raw": "SPEAKER_00",
+    "testo": "I can't take my eyes off of you I can't take my eyes off of you I can't take my eyes off of you I can't take my eyes off of you",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-10-27-031",
+    "start": 2108.29,
+    "end": 2109.43,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "can't take my eye",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-10-27-032",
+    "start": 2152.78,
+    "end": 2161.43,
+    "speaker_raw": "SPEAKER_00",
+    "testo": "I can't take my mind off of you I can't take my mind off of you",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-10-27-033",
     "start": 2165.31,
     "end": 2214.88,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "tanto che non sentivamo sta canzone si vede che non c'è viola perché non c'è viola possiamo mettere frasi di film romantiche possiamo mettere romantici possiamo mettere canzoni lei app app lei vorrebbe parlare solo di app c'è l'app che fa questo app app app ma non sarà mica un mondo di app adesso mi scrive sicuro ma non ho il telefono lo sto usando Ho tutto lo staff di Radio DJ che sta cercando di connettere le mie foto di Instagram direttamente sulla mia fanpage di Facebook. O gli ho dato il telefono e le password e sono due ore che stanno spipottando. Ragazzi, avete bisogno di un qualcosa che durante il giorno vi dica che bella la vita? Seguitemi su Instagram. Pronto, pronto, chi c'è? Ciao, come ti chiami?",
+    "speaker_raw": "SPEAKER_03",
+    "testo": "tanto che non sentivamo sta canzone si vede che non c'è viola perché non c'è viola possiamo mettere frasi di film romantiche possiamo mettere romantici possiamo mettere canzoni lei app app lei vorrebbe parlare solo di app c'è l'app che fa questo app app app ma non sarà mica un mondo di app adesso mi scrive sicuro ma non ho il telefono lo sto usando Ho tutto lo staff di Radio DJ che sta cercando di connettere le mie foto di Instagram direttamente sulla mia fan page di Facebook. Sai queste cose che io...ogli ho dato il telefono e le password e sono due ore che stanno spipottando. Ragazzi, avete bisogno di un qualcosa che durante il giorno vi dica, ah, che bella la vita? Seguitemi su Instagram. Sì, va bene. Pronto, pronto, chi c'è? Ciao. Ciao, come ti chiami?",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-10-27-050",
+    "id": "2016-10-27-034",
     "start": 2216.39,
     "end": 2218.53,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_01",
     "testo": "Stefano, è un nome di fantasia.",
     "titolo": "",
     "tema": [],
@@ -617,65 +402,21 @@
     "video_url": ""
   },
   {
-    "id": "2016-10-27-051",
+    "id": "2016-10-27-035",
     "start": 2218.67,
-    "end": 2223.32,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "Ma ok, perché tu sei in ufficio e piangi dopo aver sentito la frase di questo film.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-10-27-052",
-    "start": 2223.34,
-    "end": 2225.3,
-    "speaker_raw": "SPEAKER_14",
-    "testo": "No, sono in macchina. Sei in macchina?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-10-27-053",
-    "start": 2225.38,
-    "end": 2228.28,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "Ti sei messo un po' a piangere per questa frase di questo film?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-10-27-054",
-    "start": 2228.74,
-    "end": 2231.02,
-    "speaker_raw": "SPEAKER_14",
-    "testo": "Eh, abbastanza. Ma come mai?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-10-27-055",
-    "start": 2231.08,
     "end": 2282.12,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "Ma tu come sei messo sentimentalmente? no io sono sposato con due bambine ok tutto a posto allora si si tutto a posto le bambine ti hanno reso più morbido? molto molto quanto anni hanno le tue figlie? sei e uno bravo bravo te ti sei mai accorto che quando hai figli poi tutti gli altri bambini sono i tuoi figli cioè che quando tu sei lontano da casa e vedi un altro bambino lo guardi prima neanche lo vedevi lo guardi e pensi subito a tuo figlio a casa e poi magari lo mettono a tavola al ristorante e lui piange guardi i genitori e dice io ce l'ho quel codice lì per capire quella situazione chi abbiamo qui con noi anche una ragazza che ha pianto pronto perché piangi? come sei messa?",
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Ma ok, perché tu sei in ufficio e piangi dopo aver sentito la frase di questo film. No, sono in macchina. Sei in macchina? Ti sei messo un po' a piangere per questa frase di questo film? Eh, abbastanza. Ma come mai? Ma tu come sei messo sentimentalmente? no io sono sposato con due bambine ok tutto a posto allora si si tutto a posto le bambine ti hanno reso più morbido? molto molto quanto anni hanno le tue figlie? 6 e 1 ma tu ti sei 1 bravo bravo te ti sei mai accorto che quando hai figli poi tutti gli altri bambini sono i tuoi figli cioè che quando tu sei lontano da casa e vedi un altro bambino lo guardi prima neanche lo vedevi lo guardi e pensi subito a tuo figlio a casa e poi magari lo mettono a tavola al ristorante e lui piange guardi i genitori e dice io ce l'ho quel codice lì per capire quella situazione chi abbiamo qui con noi anche una ragazza che ha pianto pronto perché piangi? come sei messa?",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-10-27-056",
+    "id": "2016-10-27-036",
     "start": 2283.44,
     "end": 2287.13,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_02",
     "testo": "un po' così sei fidanzata?",
     "titolo": "",
     "tema": [],
@@ -683,34 +424,21 @@
     "video_url": ""
   },
   {
-    "id": "2016-10-27-057",
+    "id": "2016-10-27-037",
     "start": 2287.17,
-    "end": 2340.59,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "sei single? sei sposata? no sono sposata con Giorgini bene ragazzi vi siete commossi Guarda che bello a metà mattina così e ti dà la carica. Va bene. Poi la canzone dopo di David Rice, proprio ammorbati. Va bene, vuol dire ragazzi che siete vivi. E la cosa bella è quella sensazione lì. Adesso mettiamo un'altra frase di un film. Ancora? Eh, perché non c'è viola, lo possiamo fare solo oggi. È vero. Ok? che era un po' super adesso ci penso io guarda Stefano lo salutiamo che mi sembra quello più resistente tu invece che stai ancora un po' la voce che trema va bene che andiamo avanti a piangere come ti chiami scusami tu che la ragazza io? inventatelo inventatelo Angelica tu invece stai lì ti facciamo sentire questa poi dimmi se ti è piaciuta ok",
+    "end": 2354.9,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "sei single? sei sposata? no sono sposata con Giorgini bene ragazzi vi siete commossi Guarda che bello a metà mattina così e ti dà la carica. Va bene. Poi la canzone dopo di David Rice. Ammorbati. Va bene, vuol dire ragazzi che siete vivi. E la cosa bella è quella sensazione lì. Adesso mettiamo un'altra frase di un film. Ancora? Eh perché non c'è viola, lo possiamo fare solo oggi. È vero. Ok? che era un po' super adesso ci penso io guarda Stefano lo salutiamo che mi sembra quello più resistente tu invece che stai ancora un po' la voce che trema va bene che andiamo avanti a piangere come ti chiami scusami tu che la ragazza io? inventatelo inventatelo Angelica tu invece stai lì ti facciamo sentire questa poi dimmi se ti è piaciuta ok Che pensi di fare, Ellie? Non lo so. Ma siamo sempre allo stesso punto. Ci risiamo, vero? E che significano questi due giorni? Li abbiamo vissuti, sai?",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-10-27-058",
-    "start": 2343.74,
-    "end": 2354.9,
-    "speaker_raw": "SPEAKER_05",
-    "testo": "Che pensi di fare, Ellie? Non lo so. Ma siamo sempre allo stesso punto. Ci risiamo, vero? E che significano questi due giorni? Li abbiamo vissuti, sai?",
-    "titolo": "pensieri ellie",
-    "tema": [
-      "riflessione"
-    ],
-    "tipo": "citazione",
-    "video_url": ""
-  },
-  {
-    "id": "2016-10-27-059",
+    "id": "2016-10-27-038",
     "start": 2354.92,
     "end": 2363.59,
-    "speaker_raw": "SPEAKER_13",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Lo so che li abbiamo vissuti e sono stati meravigliosi, ma li abbiamo vissuti davvero inconscienti. Io ho un fidanzato che mi aspetta in un albergo e che sarà distrutto quando scoprirà...",
     "titolo": "Inconscienza dei momenti felici",
     "tema": [
@@ -721,10 +449,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-10-27-060",
+    "id": "2016-10-27-039",
     "start": 2363.61,
     "end": 2367.59,
-    "speaker_raw": "SPEAKER_05",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Quindi tu fai l'amore con me e poi torni da tuo marito? E questo è il tuo progetto?",
     "titolo": "",
     "tema": [],
@@ -732,7 +460,7 @@
     "video_url": ""
   },
   {
-    "id": "2016-10-27-061",
+    "id": "2016-10-27-040",
     "start": 2367.63,
     "end": 2367.99,
     "speaker_raw": "SCONOSCIUTO",
@@ -743,10 +471,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-10-27-062",
+    "id": "2016-10-27-041",
     "start": 2368.39,
     "end": 2370.87,
-    "speaker_raw": "SPEAKER_13",
+    "speaker_raw": "SPEAKER_00",
     "testo": "Tu non hai capito niente allora di quello che è successo tra noi.",
     "titolo": "",
     "tema": [],
@@ -754,11 +482,33 @@
     "video_url": ""
   },
   {
-    "id": "2016-10-27-063",
+    "id": "2016-10-27-042",
     "start": 2370.89,
-    "end": 2437.28,
+    "end": 2373.71,
+    "speaker_raw": "SPEAKER_01",
+    "testo": "Avevo capito che eri tornata a vivere qui, invece no, devo aver fregato i segnali.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-10-27-043",
+    "start": 2374.17,
+    "end": 2381.1,
     "speaker_raw": "SPEAKER_05",
-    "testo": "Avevo capito che eri tornata a vivere qui, invece no, devo aver fregato i segnali. Non vuoi restare con me? Restare con te? E perché? Guarda, stiamo già litigando. Sì, noi siamo così. Noi litighiamo. Tu dici a me che sono un arrogante figlio di puttana e io ti dico quando sei una rompicoglioni. E lo sei, il 99% del tempo. E non ho paura di offenderti. Tanto ti bastano due secondi di recupero per passare alla rottura di coglioni successiva. E allora? Allora non sarà facile, anzi sarà molto difficile. E dovremo lavorarci ogni giorno, ma io voglio farlo perché io voglio te. Io voglio tutto di te, per sempre. Io e te, ogni giorno della nostra vita. Vuoi fare una cosa per me? Per favore. Prova a immaginare la tua vita. Tra 30 anni, fra 40 anni. Come sarà? Se la vedi con lui, vai! Vai! Te ne sei andato una volta. Sopravviverò anche alla seconda. Se è quello che realmente vuoi. Ma non scegliere la strada più facile. Quale strada facile? Non esiste una strada facile. Comunque finisco per ferire qualcuno. Smettila di pensare a quello che vogliono gli altri. Non pensare a quello che voglio io, a quello che vuole lui o a quello che vogliono i tuoi. Tu che cosa vuoi? Non è così semplice. Tu che cosa vuoi?",
+    "testo": "Non vuoi restare con me? Restare con te? E perché? Guarda, stiamo già litigando. Sì, noi siamo così. Noi litighiamo.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-10-27-044",
+    "start": 2381.78,
+    "end": 2407.49,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Tu dici a me che sono un arrogante figlio di puttana e io ti dico quando sei una rompicoglioni. E lo sei, il 99% del tempo. E non ho paura di offenderti. Tanto ti bastano due secondi di recupero per passare alla rottura di coglioni successiva. E allora? Allora non sarà facile, anzi sarà molto difficile. E dovremo lavorarci ogni giorno, ma io voglio farlo perché io voglio te. Io voglio tutto di te, per sempre. Io e te, ogni giorno della nostra vita.",
     "titolo": "Litigi e recupero",
     "tema": [
       "amore",
@@ -768,11 +518,66 @@
     "video_url": ""
   },
   {
-    "id": "2016-10-27-064",
+    "id": "2016-10-27-045",
+    "start": 2407.76,
+    "end": 2412.48,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Vuoi fare una cosa per me? Per favore. Prova a immaginare la tua vita.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-10-27-046",
+    "start": 2412.5,
+    "end": 2415.42,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Tra trent'anni, fra quarant'anni. Come sarà?",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-10-27-047",
+    "start": 2415.46,
+    "end": 2423.82,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Se la vedi con lui, vai! Vai! Te ne sei andato una volta. Sopravviverò anche alla seconda. Se è quello che realmente vuoi. Ma non scegliere la strada più facile.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-10-27-048",
+    "start": 2423.86,
+    "end": 2435.36,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Quale strada facile? Non esiste una strada facile. Comunque finisco per ferire qualcuno. Smettila di pensare a quello che vogliono gli altri. Non pensare a quello che voglio io, a quello che vuole lui o a quello che vogliono i tuoi. Tu che cosa vuoi?",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-10-27-049",
+    "start": 2436.04,
+    "end": 2437.28,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Non è così semplice. Tu che cosa vuoi?",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-10-27-050",
     "start": 2441.0,
-    "end": 2491.96,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "come siamo messi? meglio questa perché non ti rappresenta questa ok ok a posto adesso vediamo se ci sarà qualcun altro capiando comunque domani mattina torna Viola avremo anche un ospite domani parliamo delle nuove app delle nuove borracce che filtrano Io non vengo domani, mi dispiace, non vengo. Va bene, allora tu hai qualcosa da dar via a casa? Sì, un paio di state con il numero sbagliato. Ok, che modello sono? tacco 12 vernice nera vernice nera numero 36 va bene quella te la piazziamo noi Enzino ti dai la parrucca e si prende perché poi tra l'altro la parrucca non serviva solo perché era pelato ok grazie ciao ciao ciao ciao ciao",
+    "end": 2470.87,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "come siamo messi? meglio questa perché non ti rappresenta questa ok ok a posto adesso vediamo se ci sarà qualcun altro capiando comunque domani mattina torna Viola avremo anche un ospite domani parliamo delle nuove app delle nuove borracce che filtrano Io non vengo domani, mi dispiace non vengo. Va bene, allora tu hai qualcosa da dar via a casa?",
     "titolo": "Disaccordo e ospite",
     "tema": [
       "amore",
@@ -782,22 +587,44 @@
     "video_url": ""
   },
   {
-    "id": "2016-10-27-065",
-    "start": 2508.89,
-    "end": 2625.78,
+    "id": "2016-10-27-051",
+    "start": 2472.79,
+    "end": 2476.87,
     "speaker_raw": "SPEAKER_02",
-    "testo": "Ciao Ciao Ciao Ciao! Ciao! Ciao!",
+    "testo": "Sì, un paio di state con il numero sbagliato. Ok, che modello sono?",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-10-27-066",
+    "id": "2016-10-27-052",
+    "start": 2478.76,
+    "end": 2491.96,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "tacco 12 vernice nera vernice nera numero 36 va bene quella te la piazziamo noi Enzino ti dai la parrucca e si prende perché poi tra l'altro la parrucca non serviva solo perché era pelato ok grazie ciao ciao ciao ciao ciao",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-10-27-053",
+    "start": 2508.89,
+    "end": 2625.78,
+    "speaker_raw": "SPEAKER_01",
+    "testo": "Ciao Ciao Ciao Ciao! Ciao Ciao Ciao Ciao!",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-10-27-054",
     "start": 2676.26,
     "end": 2752.79,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "un'ascoltatrice scrive a me comunque nella vita non me l'ha mai detto nessuno che mi prende con tutti i miei difetti cioè che sono un rompigoglionissimo una rompigoglionissima che ci si adatta ci si raddrizza un po' insomma ci si incastra come si può oh un ragazzo scrive c'è Viola domani perché a me la puntata di oggi mi ha fatto proprio schifo domani c'è ma non ci sarò io a prescindere, intanto Viola ci sta continuando a scrivere, quindi è anche sveglia è tutta, è attiva si scrive su Whatsapp, vi sto ascoltando non dite che sono io che voglio parlare di app quello è Fabio, è Fabio che porta le borrace domani ci sarà Viola parleremo di di una nuova tendenza americana dei giovani di tagliarsi l'unghia sinistra sai quelle cose lì un po' notizie strane però domani parliamo invece di tecniche tecniche da adattare a se stessi da praticare su se stessi per riuscire a capire una serie di cose vi ascolterò allora ma non vieni davvero? ma perché ci viola? oggi è stata una puntata bellissima sabato non vengo io ve lo dico già adesso ma sabato non siamo io noi invece la settimana prossima ci siamo non facciamo il ponte ciao ragazzi a domani",
+    "speaker_raw": "SPEAKER_03",
+    "testo": "un'ascoltatrice scrive a me comunque nella vita non me l'ha mai detto nessuno che mi prende con tutti i miei difetti cioè che sono un rompigoglionissimo una rompigoglionissima che ci si adatta ci si raddrizza un po' insomma ci si incastra come si può oh un ragazzo scrive c'è viola domani perché a me la puntata di oggi mi ha fatto proprio schifo domani c'è ma non ci sarò io a prescindere, intanto Viola ci sta continuando a scrivere, quindi è anche sveglia è tutta, è attiva si scrive su Whatsapp, vi sto ascoltando non dite che sono io che voglio parlare di acqua quello è Fabio, è Fabio che porta le borrace domani ci sarà Viola parleremo di di una nuova tendenza americana dei giovani di tagliarsi l'unghia sinistra sai quelle cose lì un po' notizie strane però domani parliamo invece di tecniche tecniche da adattare a se stessi da praticare su se stessi per riuscire a capire una serie di cose vi ascolterò allora ma non vieni davvero? ma perché si viola? oggi è stata una puntata bellissima sabato non vengo io ve lo dico già adesso ma sabato non siamo io noi invece la settimana prossima ci siamo non facciamo il ponte ciao ragazzi a domani",
     "titolo": "Accettazione dei difetti",
     "tema": [
       "amore",
