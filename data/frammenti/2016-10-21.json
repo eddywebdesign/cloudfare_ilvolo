@@ -1,10 +1,10 @@
 [
   {
     "id": "2016-10-21-000",
-    "start": 4.58,
-    "end": 4.68,
-    "speaker_raw": "SPEAKER_02",
-    "testo": "Ciao!",
+    "start": 4.6,
+    "end": 4.66,
+    "speaker_raw": "SPEAKER_00",
+    "testo": "Ok.",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -14,7 +14,7 @@
     "id": "2016-10-21-001",
     "start": 65.2,
     "end": 65.34,
-    "speaker_raw": "SPEAKER_12",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Grazie.",
     "titolo": "",
     "tema": [],
@@ -24,9 +24,9 @@
   {
     "id": "2016-10-21-002",
     "start": 115.05,
-    "end": 115.21,
+    "end": 115.19,
     "speaker_raw": "SCONOSCIUTO",
-    "testo": "Grazie.",
+    "testo": "no no",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -36,8 +36,8 @@
     "id": "2016-10-21-003",
     "start": 198.82,
     "end": 288.82,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "Buongiorno a tutti, buongiorno. stavo guardando le ultime cose stavo rispondendo al mio amico Matteo sul cellulare e sentivo Maurizio gridare è finito è finito è finito il disco è finito il disco questo diciamo peculiarità di questo lavoro che non si può mai essere in ritardo nemmeno di un minuto no? cioè quando uno ha un negozio una cosa ovviamente tende a non arrivare in ritardo però può anche aprire il negozio a 8 e 0 1 invece qui devi sempre essere al chiodo capito? bel mestiere però bel lavoro un bel lavoro Buongiorno ragazzi, si scrive un ascoltatore o un'ascoltatrice? Scusami che ci hai parlato, Mattia, Antia, Raccatia, Andrea, Andrea un ascoltatore. alle 9.07 di venerdì che devo dire è abbastanza chiaro però non c'è una gran luce a Milano stamattina sta arrivando l'inverno sta arrivando il Natale L'altro giorno, due sere fa, ho mandato video Whatsapp a Viola e Maurizio dicendo aiutatemi, sono già in questa condizione. Cioè a casa mia, due giorni fa, usciti dall'influenza, sopravvissuti al virus, c'erano già le canzoni. E io ho detto no, io ho detto Giovanna aspetta, mancano 60-70 giorni. Io e mia figlia sto solo cantando We wish you a Merry Christmas e tutto il resto. Gli esce il sangue dal nasino.",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Buongiorno a tutti, buongiorno stavo guardando le ultime cose stavo rispondendo al mio amico Matteo sul cellulare e sentivo Maurizio gridare è finito è finito è finito il disco è finito il disco questo diciamo peculiarità di questo lavoro che non si può mai essere in ritardo nemmeno di un minuto no? cioè quando uno ha un negozio una cosa ovviamente tende a non arrivare in ritardo però può anche aprire il negozio a 8 e 0 1 invece qui devi sempre essere al chiodo capito? bel mestiere però bel lavoro un bel lavoro Buongiorno ragazzi, si scrive un ascoltatore o un'ascoltatrice? Scusami che ci hai parlato, Mattia, Antia, Raccatia, Andrea, Andrea un ascoltatore alle 9.07 di venerdì che devo dire è abbastanza chiaro però non c'è una gran luce a Milano stamattina sta arrivando l'inverno sta arrivando il Natale L'altro giorno, due sere fa, ho mandato video Whatsapp a Viola e Maurizio dicendo aiutatemi, sono già in questa condizione. Cioè a casa mia, due giorni fa, usciti dall'influenza, sopravvissuti al virus, c'erano già le canzoni. Beh certo. E io ho detto no, io ho detto Giovanna aspetta, mancano 60-70 giorni. Io e mia figlia sto solo cantando We Wish You a Merry Christmas e tutto il resto. Gli esce il sangue dal nasino.",
     "titolo": "Il disco finito in anticipo",
     "tema": [
       "lavoro",
@@ -50,7 +50,7 @@
     "id": "2016-10-21-004",
     "start": 289.28,
     "end": 290.26,
-    "speaker_raw": "SPEAKER_07",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Come cresce.",
     "titolo": "",
     "tema": [],
@@ -60,23 +60,20 @@
   {
     "id": "2016-10-21-005",
     "start": 292.2,
-    "end": 377.65,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "tra l'altro qualche giorno fa ci aveva scritto un'ascoltatrice che diceva che sua mamma è così ossessionata dal Natale poi cambiamo discorso che lo addobba così tanto la casa che ha addirittura delle piccole renne che fanno la cacca di cioccolatini ma chi li produce? c'è la renna non so se muove la gambetta o la testa però butta fuori delle perline di cioccolato guarda che meraviglia aggiungi l'aspetto ludico invece metto lì per terra, prendo la renna e me la scarico tutta in bocca così va bene stavamo dicendo, ecco Andrea un ascoltatore dice ragazzi stamattina avrei proprio bisogno di un brano di Nick Cave potete mi dice Fabio io vi ho coinvolto ma l'ha chiesto solo a me adesso l'abbiamo chiamato per vedere cos'è successo io sfondi una porta aperta ovviamente però la serata cambia tutta la giornata fino a stasera mi parto con un Nick Cave come primo disco possiamo chiedere agli ascoltatori facciamo così siccome andrei al lavoro se ci ascolti riesci ad andare un attimo in bagno ti chiamiamo se no ti ne faccio sentire un pezzettino della più famosa adesso? no adesso sigla No, partire di venerdì con Nick Cave. Bisogna togliersi le cinture dopo. Ci vuole la marrone, la marrone. Non basta la bianca. Buongiorno mezzasegna.",
-    "titolo": "Ascoltatrice e le renne di Natale",
-    "tema": [
-      "natalità",
-      "tradizione"
-    ],
-    "tipo": "citazione",
+    "end": 369.65,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "tra l'altro qualche giorno fa ci aveva scritto un'ascoltatrice che diceva che sua mamma è così ossessionata dal Natale poi cambiamo discorso che lo addobba così tanto la casa che ha addirittura delle piccole renne che fanno la cacca di cioccolatini ma chi li produce? vedi Maurizio lo vorrebbe non so se muove la gambetta o la testa però butta fuori delle perline di cioccolato guarda che meraviglia aggiungi l'aspetto ludico e invece metto lì per terra, prendo la renna e me la scarico tutta in bocca così che bello il magico stavamo dicendo, ecco Andrea un ascoltatore dice ragazzi stamattina avrei proprio bisogno di un brano di Nick Cave potete mi dice Fabio io vi ho coinvolto ma l'ha chiesto solo a me adesso l'abbiamo chiamato per vedere cos'è successo io sfondi una porta aperta ovviamente però la serata cambia tutta la giornata fino a stasera mi parto con un Nick Cave come primo disco possiamo chiedere agli ascoltatori facciamo così siccome andrei al lavoro se ci ascolti riesci ad andare un attimo in bagno ti chiamiamo se no ti ne faccio sentire un pezzettino della più famosa adesso? no adesso sigla No, partire di venerdì con Nick Cave. Bisogna togliersi le cinture dopo.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
     "id": "2016-10-21-006",
-    "start": 377.98,
+    "start": 370.23,
     "end": 415.28,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Buongiorno a te. last night she said she loved me what a pity to part I slept with both eyes open waiting for too late to start good morning life good morning world how are you happiness all at once I knew what living can be oh it's life it's free did someone win for me good morning life",
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Ci vuole la marrone, la marrone. Non basta la bianca. Buongiorno Mezzasegna. Buongiorno a te. Oh, oh, oh. last night she said she loved me what a pity to part I slept with both eyes open waiting for too late to start good morning life good morning world how are you happiness all at once I knew what living can be oh it's life it's free did someone win for me good morning life",
     "titolo": "good morning life",
     "tema": [
       "allegria"
@@ -87,9 +84,31 @@
   {
     "id": "2016-10-21-007",
     "start": 426.62,
-    "end": 516.39,
+    "end": 447.47,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Perché non sta al suo posto? Stava sfogliando dei giornali, stamattina stavamo parlando un po' di questa butade, di questa frase che ha detto Madonna a un concerto negli Stati Uniti, l'avete sentita, praticamente lei ha detto se votate i rally Clinton io vi farò del sesso orale, lei ha proprio detto la parola con la P, cioè in inglese il lavoro di soffio.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-10-21-008",
+    "start": 447.55,
+    "end": 451.99,
     "speaker_raw": "SPEAKER_04",
-    "testo": "perché non sta al suo posto? stavamo sfogliando dei giornali stamattina stavamo parlando un po' di questa butade di questa frase che ha detto Madonna un concerto negli Stati Uniti l'avete sentita praticamente lei ha detto se votate i rally Clinton io vi farò del sesso orale lei ha proprio detto la parola con la P cioè in inglese il lavoro di soffio io non parlo perché poi vengo campionata e tutto ciò verrà riusato contro me noi siamo eleganti però insomma quindi oggi ci sono tante accuse già ieri però insomma i giornali oggi tante accuse a Madonna che dice scusami critichi Trump e poi usi come diciamo per ammiccare agganciare persone la sessualità il corpo della donna quindi sei un po' come lui però abbiamo l'audio per quelli che capiscono inglese bene gli altri non possiamo tradurre perché è un po' spinto dai senti se voti per Hillary Clinton ti darò un po' di challenge Sai che io ho già chiesto la cittadinanza, la residenza e tutto. Oh! praticamente ha detto farò quella roba lì e sono molto brava sono molto brava a farlo tra l'altro terrò il contatto visivo cioè vi guarderò negli occhi mentre lo farò e alla fine non si può dire cosa si fa ma comunque basta un poco di zucchero",
+    "testo": "Io non parlo perché poi vengo campionata e tutto ciò verrà riusato contro me.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-10-21-009",
+    "start": 452.69,
+    "end": 516.39,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "noi siamo eleganti quindi oggi ci sono tante accuse già ieri però ci sono i giornali oggi tante accuse a Madonna che dice scusami critichi Trump e poi usi per ammiccare, agganciare persone la sessualità, il corpo della donna quindi sei un po' come lui abbiamo l'audio per quelli che capiscono inglese bene, gli altri non possiamo tradurre perché è un po' spinto se voti per Hillary Clinton ti darò un po' di challenge Sai che io ho già chiesto la cittadinanza, la residenza e tutto. Oh! praticamente ha detto farò quella roba lì e sono molto brava sono molto brava a farlo tra l'altro terrò il contatto visivo cioè vi guarderò negli occhi mentre lo farò e alla fine non si può dire cosa si fa ma comunque basta un poco di zucchero",
     "titolo": "Madonna e il sesso orale",
     "tema": [
       "politica",
@@ -99,10 +118,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-10-21-008",
+    "id": "2016-10-21-010",
     "start": 516.58,
     "end": 531.52,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Però se ci pensi, una donna di 50 anni, vestita super sexy che dice queste cose, è come se da noi non le possiamo neanche dire.",
     "titolo": "",
     "tema": [],
@@ -110,11 +129,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-10-21-009",
+    "id": "2016-10-21-011",
     "start": 531.6,
     "end": 563.86,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "Questa mattina con Viola e Maurizio stiamo leggeri, poi ieri la puntata con Mozzi, quindi oggi è venerdì, stiamo allegria, allegria, allegria, bei dischi. e mi ha detto ma di che cosa vogliamo parlare questa mattina partendo anche magari da questa cosa e la mia risposta è stata poi mettiamo il disco parliamo della cattiveria delle donne se non sono criticato in questo niente confronto a mozzi di ieri no ma tra le donne cioè la cattiveria delle donne Un uomo può essere così cattivo come uno sguardo di una donna a una donna.",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Questa mattina con Viola e Maurizio stiamo leggeri, poi ieri la puntata con Mozzi, quindi oggi è venerdì, stiamo allegria, allegria, allegria, bei dischi. E mi ha detto, ma di che cosa vogliamo parlare questa mattina, partendo anche magari da questa cosa? E la mia risposta è stata, poi mettiamo il disco, parliamo della cattiveria delle donne. Se non sono criticato in questo, niente confronto a Mozzi di ieri. No, ma tra le donne, cioè la cattiveria delle donne. Un uomo può essere così cattivo come uno sguardo di una donna a una donna.",
     "titolo": "Cattiveria delle donne",
     "tema": [
       "relazioni",
@@ -124,33 +143,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-10-21-010",
-    "start": 627.93,
-    "end": 651.23,
-    "speaker_raw": "SPEAKER_01",
-    "testo": "Ciao! Ciao!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-10-21-011",
-    "start": 696.68,
-    "end": 843.88,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "Adesso devo fare un po' l'antipatico che comunque mi viene da Dio, lo sapete, lo sapete. Allora, diciamo che non c'è un tema, però insomma è una confidenza che ho fatto a Viola, ho detto diciamola in onda, tanto se qualcuno si offende o quello che è o se non siamo d'accordo, a me piace anche il dialogo, il confronto e non lo scontro, ok? ho portato questo esempio è vero che noi viviamo in una società in Italia diciamo maschilista quello l'abbiamo detto anche tante volte ed è vero che l'uomo è anche un po' prepotente però è anche vero che non c'è una grandissima solidarietà tra donne tu alla fine mi puoi dire Ascoltatemi bene perché sennò vengo frainteso. Vi faccio questo esempio. Mi spiace che devo portare ad esempio l'Islanda, che adesso sembra che là è tutto perfetto. No, però l'Islanda è considerato al mondo il paese numero uno dell'uguaglianza tra uomo e donna. Quindi ho la fortuna di vedere queste due cose, avere anche una compagna islandese e riesco a fare un paragone abbastanza chiaro. Lì c'è la solidarietà fra donne, cioè le donne si sostengono tra di loro. vogliamo dire o possiamo dire una domanda non un'affermazione che in Italia si è anche molto diciamo difficile per le donne arrivare ai livelli degli uomini anche perché le donne un po' si fanno lo sgambetto se possono o comunque ci sono delle donne io lo vedo anche nella mia relazione ci sono delle donne mi vedono magari con la Johanna con i bambini poi lei si gira bambino si gira che mi guardano per vedere non se ce n'è non so se riesco a capire non si riesce a spiegare ripetimi questa cosa loro ti guardano un po' come dire ce n'è possiamo avere una complicità più forte di te che hai figli con quella donna ma sei sicuro che non sia nei tuoi occhi può darsi l'ho messa lì come domanda ti faccio un altro esempio sto parlando con una ragazza arriva Johanna Madonna, come sei bella! Quando una donna dice a un'altra donna come sei bella, l'hai già definita a un livello più basso, no? Cioè, non è mai come sei bella per alzarti, ma è sempre come dire, ok, sei bella, sei una bambolina, sei bella e giovane, stai con uno che è famoso, ti ho già definita, però adesso fammi parlare al livello tra me, capito? Non la considerano una donna paritetica, no? Ma è sempre un... un po' un oggetto, capito? E comunque, le donne, se possono... Come dire, molte, ma anche tra amiche. Sì, sì, a voglia.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
     "id": "2016-10-21-012",
-    "start": 844.3,
-    "end": 846.92,
-    "speaker_raw": "SPEAKER_08",
-    "testo": "A voglia, ma io la riconosco questa cosa.",
+    "start": 627.93,
+    "end": 651.19,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Ciao! Ciao Ciao",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -158,10 +155,32 @@
   },
   {
     "id": "2016-10-21-013",
+    "start": 696.68,
+    "end": 843.88,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Adesso devo fare un po' l'antipatico che comunque mi viene da Dio, lo sapete, lo sapete. Allora, diciamo che non c'è un tema, però insomma è una confidenza che ho fatto a Viola, ho detto diciamola in onda, tanto se qualcuno si offende o quello che è o se non siamo d'accordo, a me piace anche il dialogo, il confronto e non lo scontro, ok? ho portato questo esempio è vero che noi viviamo in una società in Italia diciamo maschilista quello l'abbiamo detto anche tante volte ed è vero che l'uomo è anche un po' prepotente però è anche vero che non c'è una grandissima solidarietà tra donne tu alla fine mi puoi dire Ascoltatemi bene perché sennò vengo frainteso. Vi faccio questo esempio. Mi spiace che devo portare ad esempio l'Islanda, che adesso sembra che là è tutto perfetto. No, però l'Islanda è considerato al mondo il paese numero uno dell'uguaglianza tra uomo e donna. Quindi ho la fortuna di vedere queste due cose, avere anche una compagna islandese e riesco a fare un paragone abbastanza chiaro. Lì c'è la solidarietà fra donne, cioè le donne si sostengono tra di loro. Vogliamo dire o possiamo dire una domanda, non un'affermazione, che in Italia si è anche molto difficile per le donne arrivare ai livelli degli uomini anche perché le donne un po' si fanno lo sgambetto se possono. O comunque ci sono delle donne, io lo vedo anche nella mia relazione, ci sono delle donne, mi vedono magari con la Johanna, con i bambini, poi lei si gira, il bambino si gira, che mi guardano... per vedere non se ce n'è non so se riesco a capire non si riesce a spiegare ripetimi questa cosa loro ti guardano un po' come dire ce n'è possiamo avere una complicità più forte di te che hai figli con quella donna ma sei sicuro che non sia nei tuoi occhi può darsi l'ho messa lì come domanda ti faccio un altro esempio sto parlando con una ragazza arriva Johanna Madonna, come sei bella! Quando una donna dice a un'altra donna come sei bella, l'hai già definita a un livello più basso, no? Cioè, non è mai come sei bella per alzarti, ma è sempre come dire, ok, sei bella, sei una bambolina, sei bella e giovane, stai con uno che è famoso, ti ho già definita, però adesso fammi parlare al livello tra me, capito? Non la considerano una donna paritetica, no? Ma è sempre un... un po' un oggetto, capito? E comunque, le donne, se possono... Come dire, molte, ma anche tra amiche. Sì, sì, a voglia.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-10-21-014",
+    "start": 844.3,
+    "end": 846.92,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "A voglia, ma io la riconosco questa cosa.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-10-21-015",
     "start": 846.99,
     "end": 875.14,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "Noi maschi, da questo punto di vista, secondo me, noi ci mandiamo a fanculo. Invece voi vi mangiate da dentro, capito? Vi consumate da dentro. A voglia. Io vado a un compleanno, l'ho scritto anche in un libro, lo dico sempre, vado a un compleanno di un mio amico. Mazza, ma sei invecchiato, sei pelato, non ti tira più, sei un cesso. Una o due donne che si incontrano a una festa. Ma sei di maglia, ma sei bellino, ma che bel vestito. Poi si girano, ma... Cioè si può dire che non c'è una grande solidarietà tra donne?",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Noi maschi, da questo punto di vista, secondo me, noi ci mandiamo a fanculo. Invece voi vi mangiate da dentro, capito? Vi consumate da dentro. A voglia. Io vado a un compleanno, l'ho scritto anche in un libro, lo dico sempre, vado a un compleanno di un mio amico. Mazza, ma sei invecchiato, sei pelato, non ti tira più, sei un cesso. Due donne che si incontrano a una festa. Ma sei di maglia, ma sei bellino, ma che bel vestito. Poi si girano, ma... Cioè si può dire che non c'è una grande solidarietà tra donne?",
     "titolo": "Compleanno amico invecchiato",
     "tema": [
       "invecchiamento",
@@ -171,10 +190,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-10-21-014",
+    "id": "2016-10-21-016",
     "start": 875.18,
     "end": 881.27,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Allora non so se è una questione culturale, nel senso che l'Islanda io non la conosco.",
     "titolo": "",
     "tema": [],
@@ -182,10 +201,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-10-21-015",
+    "id": "2016-10-21-017",
     "start": 881.45,
     "end": 888.37,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Allora sono più amiche e più compatte contro i fidanzati, i mariti, le cose, invece qui è sempre un po'...",
     "titolo": "",
     "tema": [],
@@ -193,22 +212,44 @@
     "video_url": ""
   },
   {
-    "id": "2016-10-21-016",
-    "start": 890.37,
-    "end": 910.3,
-    "speaker_raw": "SPEAKER_08",
-    "testo": "io riconosco ad esempio che il complimento spesso serve a neutralizzare io diffido dal complimento che arriva da una donna, dipende devo vedere della vera, proprio della sincerità negli occhi, altrimenti è veramente un modo per neutralizzarti ti dice ok sei quella roba lì anzi per disinnescarti",
+    "id": "2016-10-21-018",
+    "start": 890.15,
+    "end": 905.82,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "No, io riconosco ad esempio che il complimento spesso serve a neutralizzare. Io diffido dal complimento che arriva da una donna. Dipende, devo vedere proprio della sincerità negli occhi, altrimenti è veramente un modo per neutralizzarti.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-10-21-017",
+    "id": "2016-10-21-019",
+    "start": 905.92,
+    "end": 908.84,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Ti definisce, ti dice ok, sei quella roba lì.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-10-21-020",
+    "start": 909.0,
+    "end": 910.32,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Anzi, per disinnescarti.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-10-21-021",
     "start": 910.6,
     "end": 954.41,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "io incontro molte persone sai sei molto bravo non ho complimenti sei molto bravo e io dico ma scusami ci siamo appena incontrati ma perché mi devi dare un giudizio subito ma che cazzo sei tu ma sai che mi hai pure detto che sono bravo però il meccanismo è così malato che no ma sei bravo ho visto una volta mi hai fatto ridere oppure fai una battuta fai ridere ma ridi no ma sei scemo ma scusami ma tradire fai ridere e ridi ma perché scegli di definire una cosa invece che goderti è per neutralizzarti you're funny va bene quindi donne in ascolto siate sincere avete delle amiche del cuore che se potessero quella borsetta ve la porterebbero via diretti la frase posso farti una domanda",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "io incontro molte persone sai sei molto bravo non ho complimenti sei molto bravo e io dico ma scusami ci siamo appena incontrati ma perché mi devi dare un giudizio subito ma che cazzo sei tu ma sai che mi hai pure detto che sono bravo però il meccanismo è così malato che no ma sei bravo ho visto una volta mi hai fatto ridere oppure fai una battuta fai ridere ma ridi no ma sei scemo ma scusami ma tradire fai ridere e ridi ma perché scegli di definire una cosa invece che goderti la cosa è per neutralizzarti you're funny you're funny sei bene funny va bene quindi donne in ascolto siate sincere avete delle amiche del cuore che se potessero quella borsetta me la porterebbero via diretti la frase posso farti una domanda",
     "titolo": "Giudizio immediato",
     "tema": [
       "giudizio",
@@ -218,11 +259,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-10-21-018",
+    "id": "2016-10-21-022",
     "start": 955.29,
-    "end": 976.62,
-    "speaker_raw": "SPEAKER_00",
-    "testo": "Che cosa vogliono le donne? A chi interessa? Vedi, io sono molto a mio agio con la mia mente Pensieri puliti e sporchi, d'amore e del suo contrario Ma non sono una donna Per questo ogni uomo preferisce scaricare i problemi delle donne nelle mani di un estraneo Vuoi sapere davvero che vogliono? Tutto Soprattutto se lo hanno le altre",
+    "end": 976.94,
+    "speaker_raw": "SPEAKER_01",
+    "testo": "Che cosa vogliono le donne? A chi interessa? Vedi, io sono molto a mio agio con la mia mente. Pensieri puliti e sporchi, d'amore e del suo contrario. Ma non sono una donna. Per questo ogni uomo preferisce scaricare i problemi delle donne nelle mani di un estraneo. Vuoi sapere davvero che vogliono tutto? Soprattutto se lo hanno le altre.",
     "titolo": "Voglie delle donne",
     "tema": [
       "amore",
@@ -232,56 +273,48 @@
     "video_url": ""
   },
   {
-    "id": "2016-10-21-019",
+    "id": "2016-10-21-023",
     "start": 1170.14,
     "end": 1187.55,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "Ci stava uno Smashing Pumpkins, no? Andrea, che voleva Nick Cave, ci ha detto no, scusate, non mi chiamate che sto lavorando. Allora, ciao. Cioè, ci chiede una cosa, ti chiamiamo per... Guarda, sono andato di là a coltellate per poter mettere Nick Cave, niente. Mi girano perché lo volevo sentire, ma hai fatto venire voglia.",
-    "titolo": "Smashing Pumpkins Nick Cave",
-    "tema": [
-      "musica",
-      "desiderio"
-    ],
-    "tipo": "citazione",
-    "video_url": "",
-    "autore": ""
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Ci stava uno Smashing Pumpkins, no? Andrea che voleva Nick Cave ci ha detto no scusate non mi chiamate che sto lavorando. Allora, ciao. Cioè ci chiede una cosa, ti chiamiamo per... guarda sono andato di là a coltellate per poter mettere Nick Cave, niente. Mi girano perché lo volevo sentire ma hai fatto venire voglia.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
   },
   {
-    "id": "2016-10-21-020",
+    "id": "2016-10-21-024",
     "start": 1187.61,
     "end": 1191.81,
-    "speaker_raw": "SPEAKER_08",
-    "testo": "Vabbè, la quota di pressa con i Smashing Pumpkins, se l'abbiamo coperta. Ci sta, ci sta. Bello comunque.",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Vabbè la quota di pressa con i Smashing Pumpkins l'abbiamo coperta. Ci sta, ci sta. Bello comunque.",
     "titolo": "Smashing Pumpkins",
     "tema": [
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": "",
-    "confermato_esterno": true,
-    "copertina": "https://coverartarchive.org/release/8c305bde-5562-4149-8a43-931446e7e4cf/front-250"
+    "video_url": ""
   },
   {
-    "id": "2016-10-21-021",
+    "id": "2016-10-21-025",
     "start": 1192.45,
     "end": 1246.91,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "La parte un po' novembre, diciamo, il novembre sta arrivando. Allora stiamo parlando ovviamente, ironicamente, senza così in generale, stiamo cazzeggiando, è venerdì, è come se fosse l'ora di Pongo, come se fosse l'ora di Pongo. Però vi siete scatenati, donne e uomini mi fa molto ridere, mi fa molto ridere. Allora, abbiamo anche il messaggio... Aspetta, vediamo, non credo che risponda perché... Non credo che... no ma lo sapevo ho detto a Stevi guarda prova a chiamarlo ma non risponde di solito quelli che insultano poi quando li chiami non rispondono quando ero ragazzino in provincia ogni tanto succedeva magari che andavi al bar e ci succedevano dei piccoli tafferugli alla provincia un po' così ti devi fare un po' le ossa così c'erano sempre quelli che stavano un po' in disparte poi magari quando uno cadeva per terra andavano lì davano un cazzo e scappavano questi qua sono quelli che mandano i messaggi che poi li richiami e non ti rispondono i famosi codardi allora",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "la parte un po' novembre diciamo il novembre sta arrivando allora stiamo parlando ovviamente ironicamente senza così in generale stiamo cazzeggiando è venerdì è come se fosse l'ora di pongo come se fosse l'ora di pongo però vi siete scatenati donne e uomini mi fa molto ridere mi fa molto ridere allora abbiamo anche il messaggio aspetta vediamo non credo che risponda perché non credo che no ma lo sapevo ho detto a Stevi guarda prova a chiamarlo ma non risponde di solito quelli che insultano poi quando li chiami non rispondono quando ero ragazzino in provincia ogni tanto succedeva magari che andavi al bar e ci succedevano dei piccoli tafferugli alla provincia un po' così ti devi fare un po' le ossa così c'erano sempre quelli che stavano un po' in disparte poi magari quando uno cadeva per terra andavano lì davano un caccio e scappavano questi qua sono quelli che mandano i messaggi che poi li richiami e non ti rispondono i famosi codardi allora",
     "titolo": "Pongo",
     "tema": [
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": "",
-    "confermato_esterno": true,
-    "copertina": "https://coverartarchive.org/release/0e76eaa9-60f8-4ab3-bf54-2a9e95577d55/front-250"
+    "video_url": ""
   },
   {
-    "id": "2016-10-21-022",
+    "id": "2016-10-21-026",
     "start": 1247.53,
     "end": 1286.07,
-    "speaker_raw": "SPEAKER_08",
-    "testo": "parliamo di una cosa, leggi quel messaggio di quella donna che si è scatenata ci avete fatto diventare voi così la competizione è così alta che bisogna uscire con il coltello tra i denti tutti i nemici e siccome i posti per noi sono pochissimi meglio eliminare subito le concorrenti, triste ma vero io non so sinceramente però a livello conscio io non esco col coltello tra i denti poi però divento una iena e ciò che accetto da un uomo lo stesso atteggiamento da una donna fai più fatica mi vergogno a dirlo forse a scuola",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "parliamo di una cosa, leggi quel messaggio di quella donna che si è scatenata dice ci avete fatto diventare voi così la competizione è così alta che bisogna uscire con il coltello tra i denti tutti i nemici e siccome i posti per noi sono pochissimi meglio eliminare subito le concorrenti, triste ma vero io non so sinceramente però a livello conscio io non esco col coltello tra i denti poi però divento una iena e ciò che accetto da un uomo lo stesso atteggiamento da una donna fai più fatica mi vergogno a dirlo forse a scuola",
     "titolo": "Competizione alta",
     "tema": [
       "competizione",
@@ -291,22 +324,43 @@
     "video_url": ""
   },
   {
-    "id": "2016-10-21-023",
+    "id": "2016-10-21-027",
     "start": 1286.63,
-    "end": 1406.88,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "non vi mettono in banchi insieme no ci mettono ci si aspetta che le femmine vogliono stare in banco insieme ma anche gli uomini un ragazzo scrive voi donne non capirete mai quanto è bella quanto si sta bene tra uomini io vorrei provare infatti ci provo tutti i giorni c'era quel famoso film con Ugo Tognazzi quando ancora si poteva dire la parola froci che diceva ma perché non siamo tutti froci come dire ma perché non ci togliamo le donne so se te lo ricordi era un film molto divertente allora sono così brutta che posso elencare un difetto partendo dai piedi fino ai capelli ma se pubblico una foto su facebook mi scrivono che bella cioè ci si sostiene tra donne però lei vedi che è esagerato dall'altro punto di vista sono così brutta le donne hanno questo atteggiamento Giuliana le donne hanno un po' questo atteggiamento cioè che è quello che ho sempre fatto anch'io anche in questo lavoro cioè che tu ti butti tanto giù in modo che gli altri non possano fare la battuta su di te perché te la sei già fatta da solo un po' come quando trovi ho un mio amico sulla sedia a rotelle che fa solo battute sulla sua sedia per paura che qualcuno da lontano possa ironizzare su di lui, quindi lui arriva e ti fa sono in gamba, continua quella roba tu fai uguale, arrivi dalle tue amiche oggi vuoi mangiare su un gomma non è vero, non è così Fabio è un dato oggettivo che ti scrivono sei bella ma scusami, ma può quindi è appurato che sei cessa stiamo dicendo questa cosa c'ho centomila difetti non so magari foto di profilo tremendo bellissima 100.000 like come quando non dormi Giuliano come quando non dormi arriva il lavoro distrutto oggi sei bellissimo esatto senti ma tu ce l'hai questo atteggiamento con le tue amiche ti è mai capitato di fare un complimento e di pensare il contrario no",
+    "end": 1384.49,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "non vi mettono in banchi insieme no ci mettono ci si aspetta che le femmine vogliono stare in banco insieme ma anche gli uomini un ragazzo scrive voi donne non capirete mai quanto è bella quanto si sta bene tra uomini io vorrei provare infatti ci provo tutti i giorni c'era quel famoso film con Ugo Tognazzi quando ancora si poteva dire la parola froci che diceva ma perché non siamo tutti froci come dire ma perché non ci togliamo le donne so se te lo ricordi era un film molto divertente allora sono così brutta che posso elencare un difetto partendo dai piedi fino ai capelli ma se pubblico una foto su facebook mi scrivono che bella cioè ci si sostiene tra donne però lei vedi che è esagerato dall'altro punto di vista sono così brutta le donne hanno questo atteggiamento Giuliana le donne hanno un po' questo atteggiamento cioè che è quello che ho sempre fatto anch'io anche in questo lavoro cioè che tu ti butti tanto giù in modo che gli altri non possano fare la battuta su di te perché te la sei già fatta da solo un po' come quando trovi ho un mio amico sulla sedia a rotelle che fa solo battute sulla sua sedia per paura che qualcuno da lontano possa ironizzare su di lui, quindi lui arriva e ti fa sono in gamba, continua quella roba tu fai uguale, arrivi dalle tue amiche oggi vuoi mangiare su un gomma non è vero, non è così Fabio è un dato oggettivo che ti scrivono sei bella ma scusami, ma po' quindi è appurato che sei cessa stiamo dicendo questa cosa c'ho centomila difetti",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
-    "id": "2016-10-21-024",
+    "id": "2016-10-21-028",
+    "start": 1384.97,
+    "end": 1393.04,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Non so, magari foto di profilo tremendo, bellissima, centomila like, ma dai, di onesto.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-10-21-029",
+    "start": 1393.06,
+    "end": 1406.88,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Giuliano, come quando non dormi, arriva il lavoro distrutto, oggi sei bellissimo, senti, senti, ma tu ce l'hai questo atteggiamento con le tue amiche? Ti è mai capitato di fare un complimento e di pensare il contrario? No.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-10-21-030",
     "start": 1407.0,
     "end": 1414.99,
-    "speaker_raw": "SPEAKER_07",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Allora, no, non dico sei brutta, cioè se penso che sia un cesso sto zitta, se è bella lo dico, ho questo atteggiamento.",
     "titolo": "",
     "tema": [],
@@ -314,10 +368,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-10-21-025",
+    "id": "2016-10-21-031",
     "start": 1415.17,
     "end": 1419.02,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Bravo, bravo, cioè se è positivo, propositivo sì, se è negativo taccio.",
     "titolo": "",
     "tema": [],
@@ -325,21 +379,21 @@
     "video_url": ""
   },
   {
-    "id": "2016-10-21-026",
+    "id": "2016-10-21-032",
     "start": 1419.38,
     "end": 1424.46,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "Esatto, esatto, però è vero che se il complimento è fatto da",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Esatto, esatto. E però è vero che se il complimento è fatto da",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-10-21-027",
+    "id": "2016-10-21-033",
     "start": 1425.02,
     "end": 1459.25,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_05",
     "testo": "un uomo tendenzialmente lo penso come vero invece se è fatto da una donna brava cioè una tua amica ti dice sei bella vestita così oggi sei in forma vado a casa e mi cambio esatto se te lo dice un uomo in ufficio dice oh ma sei vestita bene sei molto bella ah ok diventa l'outfit della vita quello è il tuo vestito porta fortuna senti invece ti volevo dire al di là di questa cosa che dici di essere un po' cessa ma noto che ti chiami apostolo di cognome minchia com'è andata a scuola e alla catechismo bruttissimo",
     "titolo": "Complimenti e autostima",
     "tema": [
@@ -350,11 +404,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-10-21-028",
+    "id": "2016-10-21-034",
     "start": 1460.19,
     "end": 1467.95,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "Cioè, ha posto il cognome, nata il primo novembre, giorno dei Santi, Atea Amanetta, per reazione.",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Cioè, ha posto il cognome, nata il primo novembre, giorno dei Santi, Atea Amanetta, però per reazione.",
     "titolo": "Cognome e nome",
     "tema": [
       "identità",
@@ -364,59 +418,35 @@
     "video_url": ""
   },
   {
-    "id": "2016-10-21-029",
+    "id": "2016-10-21-035",
     "start": 1467.99,
-    "end": 1478.5,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "Qual è la battuta dalle medie, diciamo? Ma sì, è arrivata il tredicesimo, il tredicesimo, sai, queste robe qui. Giuda, Giuda, va bene. Giuliana, sei già al lavoro?",
+    "end": 1487.96,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Qual è la battuta dalle medie, diciamo? Ma sì, è arrivata il tredicesimo, il tredicesimo, sai, queste robe qui. Giuda, Giuda, va bene. Giuliana, sei già al lavoro? No, ci sto andando, due minuti e ti arrivo. Come sei vestita, come sei vestita? Ti sei messa giù da gara o sei andata via tranquilla?",
     "titolo": "Giuda",
     "tema": [
       "bibbia"
     ],
     "tipo": "riferimento_libro",
-    "video_url": "",
-    "confermato_esterno": true,
-    "copertina": "https://covers.openlibrary.org/b/id/11192338-M.jpg"
-  },
-  {
-    "id": "2016-10-21-030",
-    "start": 1479.28,
-    "end": 1481.26,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "No, ci sto andando, due minuti e ti arrivo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-10-21-031",
-    "start": 1481.28,
-    "end": 1487.96,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "Come sei vestita, come sei vestita? Ti sei messa giù da gara o sei andata via tranquilla?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-10-21-032",
+    "id": "2016-10-21-036",
     "start": 1487.98,
-    "end": 1490.59,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "Cioè, parto dai piedi, ti ho detto che partendo dai piedi...",
+    "end": 1490.49,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Cioè, parto dai piedi, ti ho detto che partendo dai piedi.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-10-21-033",
-    "start": 1490.61,
-    "end": 1504.29,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "Ma non è vero, guarda, la Stefania ha stampato la tua foto, sei tu, mi sembra, su un sentiero, cioè dietro si vedo dalla campagna, un sentiero, tipo in montagna alta, hai i capelli un po' spettinati, hai la bocca quella un po' broncina...",
+    "id": "2016-10-21-037",
+    "start": 1490.53,
+    "end": 1503.97,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Ma non è vero, guarda, la Stefania ha stampato la tua foto, sei tu, mi sembra, su un sentiero. Cioè, dietro si vedo dalla campagna, un sentiero, tipo in montagna alta. Ah, può essere. Hai i capelli un po' spettinati, hai la bocca quella un po' broncino.",
     "titolo": "Foto in montagna",
     "tema": [
       "foto",
@@ -426,55 +456,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-10-21-034",
-    "start": 1504.89,
-    "end": 1508.36,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "Sì, sì, faccio il broncio. Ma sei carina qua. Sono in Salento lì.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-10-21-035",
-    "start": 1508.52,
-    "end": 1512.8,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "Guarda che sei super fuckable qua. Cioè, guarda che come direbbe il mio...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-10-21-036",
-    "start": 1512.84,
-    "end": 1514.6,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "Allora, ascolta, se lo dici tu, così.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-10-21-037",
-    "start": 1514.86,
-    "end": 1519.53,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "Vedi, aspetta. Se lo dice la Viola... Viola dice che sei bella e quindi non è vero.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
     "id": "2016-10-21-038",
-    "start": 1519.63,
-    "end": 1528.17,
-    "speaker_raw": "SPEAKER_08",
-    "testo": "Fammi vedere. Sicuramente non sei così brutta come dici di essere. Esatto, vedi. Ma no, ma ascolta, sai cos'è? Proprio quello che ti ho detto.",
+    "start": 1503.99,
+    "end": 1508.36,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Ah, sì, sì, no, no, sì, sì. Sì, sì, faccio il broncio. Ma sei carina qua. Sono in Salento lì.",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -482,10 +468,10 @@
   },
   {
     "id": "2016-10-21-039",
-    "start": 1528.21,
-    "end": 1531.76,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "Però Giuliana si vede solo la faccia e magari vai giù a pera secca poi...",
+    "start": 1508.52,
+    "end": 1512.8,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Guarda che sei super fuckable qua. Cioè, guarda che come direbbe il mio...",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -493,10 +479,10 @@
   },
   {
     "id": "2016-10-21-040",
-    "start": 1532.71,
-    "end": 1538.83,
-    "speaker_raw": "SPEAKER_08",
-    "testo": "già i peli incarniti sui occhiappi ho capito ma da dire 8000 difetti come era?",
+    "start": 1512.84,
+    "end": 1515.46,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Allora, ascolta, se lo dici tu, così. Vedi, aspetta.",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -504,10 +490,10 @@
   },
   {
     "id": "2016-10-21-041",
-    "start": 1538.93,
-    "end": 1557.57,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "sai cos'è? senti questa il problema è ognuno di noi ha una cosa bella cioè tipo belli occhi, bei capelli, bel culo eccetera io non ho magari nell'insieme va lì va là esatto invece tu hai tutti i difetti ma messi insieme vieni fuori una roba carina",
+    "start": 1515.52,
+    "end": 1519.53,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Se lo dice la Viola... Viola dice che sei bella e quindi non è vero.",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -515,10 +501,10 @@
   },
   {
     "id": "2016-10-21-042",
-    "start": 1558.97,
-    "end": 1596.09,
+    "start": 1519.63,
+    "end": 1528.17,
     "speaker_raw": "SPEAKER_04",
-    "testo": "Mi chiamo un mio amico di Brescia e mi chiede come sei. Scusa un secondo che rispondo. No, scopabilissima. Sì, tipo domenica pomeriggio vieni a casa, due botte, prova via alle sei. Sì, sì. No, no, alle otto. Sì, sì, sì. Fabio ti ho perso. No, no, no, scusa, rispondevo a un mio amico. Aspetta, metto giù, metto giù. No, non serve il cuscino. Ciao. Ciao, Giuliana, in bocca al lupo, sei molto bella e oggi sei anche vestita bene, lo sento.",
+    "testo": "Fammi vedere. Sicuramente non sei così brutta come dici di essere. Esatto, vedi. Ma no, ma ascolta, sai cos'è? Proprio quello che ti ho detto.",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -526,10 +512,10 @@
   },
   {
     "id": "2016-10-21-043",
-    "start": 1596.27,
-    "end": 1599.21,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "Partendo dalle scarpe antinfortunistiche, sicuramente.",
+    "start": 1528.21,
+    "end": 1531.76,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Però Giuliana si vede solo la faccia e magari vai giù a pera secca poi...",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -537,10 +523,10 @@
   },
   {
     "id": "2016-10-21-044",
-    "start": 1599.28,
-    "end": 1615.71,
+    "start": 1532.71,
+    "end": 1557.57,
     "speaker_raw": "SPEAKER_04",
-    "testo": "Quelle fa sangue, nuda con quelle senti proprio il ground. Ciao, Giuliana. Ciao, ciao, ciao. Voglio anch'io due ballerine nude sul tavolo come da Albertino ieri.",
+    "testo": "già i peli incarniti sui occhiappi ho capito ma da dire 8000 difetti come era? sai cos'è? senti questa il problema è ognuno di noi ha una cosa bella tipo begli occhi, bei capelli, bel culo eccetera io non ho magari nell'insieme va lì va là esatto invece tu hai tutti i difetti ma messi insieme viene fuori una roba carina",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -548,10 +534,10 @@
   },
   {
     "id": "2016-10-21-045",
-    "start": 1615.75,
-    "end": 1616.23,
-    "speaker_raw": "SPEAKER_10",
-    "testo": "Hai visto?",
+    "start": 1558.97,
+    "end": 1615.71,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Va bene, scusami, mi chiama un mio amico di Brescia e mi chiede come sei, scusa un secondo che rispondo. No, scopabilissima. Sì, tipo domenica pomeriggio vieni a casa, due botte, prova via alle sei. Sì, sì, no, no, alle otto, no, no, no, se arriva alle otto, alle sei, alle sei. Ok, sì, no, scopabilissima. Sì, sì, sì, sì, magari. Fabio ti ho perso. No, no, no, scusa, rispondevo a un mio amico. Aspetta, metto giù, metto giù. No, non serve il cuscino. Ciao. Ciao, Giuliana, in bocca al lupo, sei molto bella e oggi sei anche vestita bene, lo sento. Partendo dalle scarpe antinfortunistiche, sicuramente. Quelle fa sangue, nuda con quelle senti proprio il ground. Ciao, Giuliana. Ciao, ciao, ciao. Voglio anch'io due ballerine nude sul tavolo come da Albertino ieri.",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -559,9 +545,20 @@
   },
   {
     "id": "2016-10-21-046",
+    "start": 1615.75,
+    "end": 1616.23,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Hai visto?",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-10-21-047",
     "start": 1742.18,
     "end": 1751.59,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Una volta una mia amica mi disse questa cosa, hai notato che le donne dicono di un'altra donna, sei un pochino più grassa di lei che è una cicciona, sei più magra che è anoressica.",
     "titolo": "Il giudizio femminile sul peso",
     "tema": [
@@ -573,10 +570,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-10-21-047",
+    "id": "2016-10-21-048",
     "start": 1751.65,
     "end": 1759.16,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Ma io sulla questione di peso sono molto politica lì per lei. Ok, ok, va bene, va bene.",
     "titolo": "",
     "tema": [],
@@ -584,10 +581,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-10-21-048",
+    "id": "2016-10-21-049",
     "start": 1762.86,
     "end": 1785.42,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Mi piace questo cazzeggio del venerdì perché si è scatenato... Si è scattinata una bella diatriba, tanti messaggi. Una ragazza scrive, Giuliana è veramente simpatica, non può essere bella. Vedi? È tutto ironico, ragazzi. Qua noi siamo qui con l'ironia da quasi vent'anni. Non ci prendete sul serio. Soprattutto me.",
     "titolo": "Giuliana e la bellezza",
     "tema": [
@@ -599,10 +596,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-10-21-049",
+    "id": "2016-10-21-050",
     "start": 1785.5,
-    "end": 1788.92,
-    "speaker_raw": "SPEAKER_03",
+    "end": 1788.46,
+    "speaker_raw": "SPEAKER_02",
     "testo": "Non è facile pensare di andar via.",
     "titolo": "",
     "tema": [],
@@ -610,22 +607,22 @@
     "video_url": ""
   },
   {
-    "id": "2016-10-21-050",
-    "start": 1788.94,
+    "id": "2016-10-21-051",
+    "start": 1788.84,
     "end": 1789.74,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "Non è facile.",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Eh, non è facile.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-10-21-051",
+    "id": "2016-10-21-052",
     "start": 1790.14,
     "end": 1935.2,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "E portarsi dietro la malinconia. Non è facile partire e poi morire Per rinascere in un'altra situazione Un mondo migliore Non è facile pensare di cambiare Le abitudini di tutta una stagione una vita che è passata come un lampo e che fila dritta verso la stazione di un mondo migliore quando passa la necessità di andare quando è ora è ora è ora di partire e non puoi non puoi non puoi più rimandare",
+    "speaker_raw": "SPEAKER_02",
+    "testo": "E portarsi dietro la malinconia. Non è facile partire, puoi morire Per rinascere in un'altra situazione Un mondo migliore Non è facile pensare di cambiare Le abitudini di tutta una stagione una vita che è passata come un lampo e che fila dritta verso la stazione di un mondo migliore quando passa la necessità di andare quando è ora è ora è ora di partire e non puoi non puoi non puoi più rimandare",
     "titolo": "Non è facile cambiare",
     "tema": [
       "cambiamento",
@@ -636,22 +633,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-10-21-052",
+    "id": "2016-10-21-053",
     "start": 1986.83,
     "end": 2013.97,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "C'è anche qualcuno che dice, anche se Viola non è d'accordo, se tu vai in vacanza, due o tre coppie, i momenti di tensione, perché in vacanza è diverso che vedersi la sera, quando si vive insieme, magari si affitta la stessa casa, le dinamiche cambiano, a volte scopri anche un amico che non pensavi di avere, uno che rompe le scatole. Quando vai alle vacanze, tre o quattro coppie di amici, quando succedono un po' di tensione, partono sempre...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-10-21-053",
-    "start": 2015.57,
-    "end": 2017.79,
-    "speaker_raw": "SPEAKER_08",
-    "testo": "dalle donne perché hai detto non sono d'accordo?",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "C'è anche qualcuno che dice, anche se Viola non è d'accordo, se tu vai in vacanza, due o tre coppie, i momenti di tensione, perché in vacanza è diverso che vedersi la sera, quando si vive insieme, magari si affitta la stessa casa, le dinamiche cambiano, a volte scopri anche un amico che non pensavi di avere, uno che rompe le scatole. Quando vai in vacanza, tre o quattro coppie di amici, quando succedono un po' di tensione, partono sempre...",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -659,10 +645,21 @@
   },
   {
     "id": "2016-10-21-054",
-    "start": 2017.81,
-    "end": 2101.33,
+    "start": 2015.57,
+    "end": 2017.79,
     "speaker_raw": "SPEAKER_04",
-    "testo": "non sei d'accordo perché questo è un po' è un po' troppo no no io ti dico empiricamente empiricamente io sottoscrivo durante le vacanze perché quando poi si va a letto l'uomo si gira con la schiena che c'è no perché comunque quando lei ha detto poi vuole sempre andare a mangiare e io dico ma perché dobbiamo sempre andare a mangiare lì solo perché lei vuole andare a mangiare lì ma dormi? ma dormi? sì sono stanco, c'è il sole, il sale sono cotto ecco a te non te ne frega mai niente poi anche tu voglio dire c'è un po' più uomo è la domanda sto improvvisando ma la mia domanda è tutte le donne si lamentano che il proprio uomo non è un vero uomo o no? la maggior parte a un certo punto l'uomo si spegne un pochino perde un po' di nervo di fronte alla propria compagna Massimo Coppola nel traffico di Roma buongiorno ciao Fabio come stai? bene mi hai mandato un messaggio adesso in diretta mi sono autoproposto sono candidato no ma io ti ho chiamato da quando mi è arrivato il secondo messaggio dicendo dai che sono nel traffico pieno di donne che guidano la smart e non sono capace no ironicamente quello era per adescarsi io in realtà non voglio dire delle cose noiosiste L'hai notato che nel traffico quando sorpassi una Smart o una Mini Cooper butti sempre l'occhio perché di solito dentro c'è una bella ragazza.",
+    "testo": "dalle donne perché hai detto non sono d'accordo?",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-10-21-055",
+    "start": 2017.81,
+    "end": 2101.77,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "non sei d'accordo perché questo è un po' troppo classico io ti dico empiricamente io sottoscrivo durante le vacanze perché quando poi si va a letto l'uomo si gira con la schiena che c'è No, perché comunque quando lei ha detto, poi vuole sempre andare a mangiare lì, no? E io dico, ma perché dobbiamo sempre andare a mangiare lì? Solo perché lei vuole andare a mangiare lì. Ma dormi? Ma dormi? Sì, sono stanco, c'è il sole, il sale, sono cotto. Ecco, te non te ne frega mai niente. Poi anche tu, voglio dire, c'è un po' più uomo, no? Sembra un film di Mucci. È la domanda, sto improvvisando, no? Sto improvvisando. Ma la mia domanda è, tutte le donne si lamentano che il proprio uomo non è un vero uomo o no? la maggior parte a un certo punto l'uomo si spegne un pochino perde un po' di nervo di fronte alla propria compagna Massimo Coppola nel traffico di Roma buongiorno ciao Fabio come stai? bene mi hai mandato un messaggio adesso in diretta mi sono autoproposto sono candidato no ma io ti ho chiamato da quando mi è arrivato il secondo messaggio dicendo dai che sono nel traffico pieno di donne che guidano la smart e non sono capace no ironicamente quello era per adescarsi io in realtà non voglio dire cose noiosiste L'hai notato che nel traffico quando sorpassi una Smart o una Mini Cooper butti sempre l'occhio perché di solito dentro c'è una bella ragazza. E con i soldi?",
     "titolo": "La discussione in vacanza",
     "tema": [
       "vacanza",
@@ -673,11 +670,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-10-21-055",
-    "start": 2101.69,
+    "id": "2016-10-21-056",
+    "start": 2101.83,
     "end": 2111.98,
-    "speaker_raw": "SPEAKER_05",
-    "testo": "Di solito sì, però io adesso non vorrei giocare. Quando si giocava a calcio nello spogliatoio tu avevi le mutandine quando ti facevi la doccia, vero?",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Di solito sì, però io adesso non vorrei giocare. Non puoi più. Però tu eri quello quando si giocava a calcio nello spogliatoio. Tu avevi le mutandine quando ti facevi la doccia, vero?",
     "titolo": "La doccia nello spogliatoio",
     "tema": [
       "calcio",
@@ -688,22 +685,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-10-21-056",
-    "start": 2112.14,
-    "end": 2113.44,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "Sì, io certo, certo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
     "id": "2016-10-21-057",
-    "start": 2113.48,
-    "end": 2115.62,
+    "start": 2112.14,
+    "end": 2118.61,
     "speaker_raw": "SPEAKER_05",
-    "testo": "Non la facevi nudo?",
+    "testo": "Sì, io certo, certo. Non la facevi nudo? No! Avevi paura? No, certo, non volevo umiliare tutti gli altri con sto braccio.",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -711,20 +697,9 @@
   },
   {
     "id": "2016-10-21-058",
-    "start": 2115.76,
-    "end": 2118.61,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "No, certo, non volevo umiliare tutti gli altri con sto braccio.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-10-21-059",
     "start": 2118.66,
     "end": 2121.21,
-    "speaker_raw": "SPEAKER_05",
+    "speaker_raw": "SPEAKER_04",
     "testo": "E quindi sei una donna.",
     "titolo": "",
     "tema": [],
@@ -732,10 +707,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-10-21-060",
+    "id": "2016-10-21-059",
     "start": 2121.25,
     "end": 2123.19,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_05",
     "testo": "E quindi sei donna, sei donna.",
     "titolo": "",
     "tema": [],
@@ -743,11 +718,22 @@
     "video_url": ""
   },
   {
-    "id": "2016-10-21-061",
+    "id": "2016-10-21-060",
     "start": 2124.64,
     "end": 2149.83,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "vieni da tutte queste frustrazioni le donne sono la cosa posso essere paraculo sono più intelligenti di noi e noi siamo costretti all'ironia però Il tema quello lì, perché quando tu sei in giro con la tua donna, arriva un'altra e vuole smarcarsi da lei, chiarire una differenza, è una roba seria, è biologica, cioè quando tu nasci dalla mamma, c'hai il pistolino, giusto? Ce l'avevi, no, quando sei nato?",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-10-21-061",
+    "start": 2149.85,
+    "end": 2152.47,
     "speaker_raw": "SPEAKER_05",
-    "testo": "vieni da tutte queste frustrazioni le donne sono la cosa posso essere paraculo sono più intelligenti di noi e noi siamo costretti all'ironia però Il tema quello lì perché quando tu sei in giro con la tua donna, arriva un'altra e vuole smarcarsi da lei, ti arriva una differenza, è una roba seria, è biologica, cioè quando tu nasci dalla mamma, c'hai il pistolino, giusto? Ce l'avevi, no, quando sei nato?",
+    "testo": "Sì, dopo l'ho perso.",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -755,21 +741,10 @@
   },
   {
     "id": "2016-10-21-062",
-    "start": 2149.85,
-    "end": 2152.47,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "Sì, dopo l'ho perso. Poi l'hai perso. Esatto.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-10-21-063",
     "start": 2152.53,
     "end": 2170.0,
-    "speaker_raw": "SPEAKER_05",
-    "testo": "Però il pistolino, e quindi ti veniva abbastanza chiaro, anche da molto piccolo che eri diverso dalla mamma, no? Sì. Perché con il pistolino lei no. Allora, le donne invece questa diversità non la vedono, quindi passano la vita... a lottare con questo desiderio fortissimo di affermazione della propria unicità e diversità dalle altre donne.",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Però il pistolino, e quindi ti veniva abbastanza chiaro, anche da molto piccolo che eri diverso dalla mamma, no? Perché con il pistolino lei no. Allora, le donne invece questa diversità non la vedono, quindi passano la vita... a lottare con questo desiderio fortissimo di affermazione della propria unicità e diversità dalle altre donne.",
     "titolo": "La ricerca di unicità femminile",
     "tema": [
       "donne",
@@ -780,22 +755,21 @@
     "video_url": ""
   },
   {
-    "id": "2016-10-21-064",
+    "id": "2016-10-21-063",
     "start": 2171.24,
     "end": 2173.49,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Che ti sei magnato? Un libro di Paolo Coelho?",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
-    "id": "2016-10-21-065",
+    "id": "2016-10-21-064",
     "start": 2174.17,
     "end": 2175.81,
-    "speaker_raw": "SPEAKER_05",
+    "speaker_raw": "SPEAKER_04",
     "testo": "No, ma va!",
     "titolo": "",
     "tema": [],
@@ -803,21 +777,21 @@
     "video_url": ""
   },
   {
-    "id": "2016-10-21-066",
+    "id": "2016-10-21-065",
     "start": 2175.85,
     "end": 2187.31,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "No, no, no, l'ho capito. Quindi, diciamo, è quella roba lì. Ma scusami, l'affermazione della donna è sempre portata dal fatto che viene scelta da un uomo?",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "No, no, no, l'ho capito, quindi diciamo, è quella roba lì, cioè la donna deve essere, ma scusami, l'affermazione della donna è sempre portata dal fatto che viene scelta da un uomo?",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-10-21-067",
+    "id": "2016-10-21-066",
     "start": 2187.75,
     "end": 2194.02,
-    "speaker_raw": "SPEAKER_05",
+    "speaker_raw": "SPEAKER_04",
     "testo": "No, deve semplicemente riconfermarsi che è diversa dalle altre, che non è uguale a mamma, capito? Perché lei ha già la patatina.",
     "titolo": "",
     "tema": [],
@@ -825,11 +799,22 @@
     "video_url": ""
   },
   {
-    "id": "2016-10-21-068",
+    "id": "2016-10-21-067",
     "start": 2195.1,
     "end": 2221.76,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "quindi lei dice ok tu ti sei sposato per dire una viene da te ti dice ok ti sei sposato c'hai figli e tutti però io posso essere il tuo più bel weekend della tua vita senza cuscino anche solo per tre ore ok ci piace questa analisi con grande rispetto si certo certo ma poi noi si cazzeggia venerdì siamo un radio di gesto Fabio Volo che vuoi che faccio un ossaggio infatti mi faccio molto ridere anche perché",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-10-21-068",
+    "start": 2222.38,
+    "end": 2227.8,
     "speaker_raw": "SPEAKER_04",
-    "testo": "quindi lei dice ok tu ti sei sposato per dire una viene da te ti dice ok sei sposato c'hai figli e tutti però io posso essere il tuo più bel weekend della tua vita senza cuscino anche solo per tre ore ok ci piace questa analisi con grande rispetto si certo certo ma poi noi si cazzeggia venerdì siamo un radio di gesto Fabio Volo che vuoi che faccio un ossaggio infatti mi faccio molto ridere anche perché",
+    "testo": "Sono io sulla Smart, ho preso una car to go, sono vestito molto male e mi sento uno sfigato totale.",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -837,10 +822,10 @@
   },
   {
     "id": "2016-10-21-069",
-    "start": 2222.38,
+    "start": 2227.82,
     "end": 2229.46,
     "speaker_raw": "SPEAKER_05",
-    "testo": "sono io sulla smart ho preso una car to go sono vestito molto male e mi sento uno sfigato totale che tempo c'è a Roma oggi?",
+    "testo": "Che tempo c'è a Roma oggi?",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -849,9 +834,9 @@
   {
     "id": "2016-10-21-070",
     "start": 2229.5,
-    "end": 2277.18,
+    "end": 2234.02,
     "speaker_raw": "SPEAKER_04",
-    "testo": "allora variabile ma in Viale Mazzini c'è la nuvolona sopra ah ok sempre lì sulla Rai grandi decisioni oggi senti Massimo grazie quindi l'invidia del pene in sostanza che è una cosa che io sempre no non hai capito un cazzo non c'entra niente l'invidia del pene no l'autoaffermazione che sono diverse l'ha detto la mia analista l'ho colto io ce l'ho l'invito del pene l'ho sempre avuta l'invito del pene più grande del terzino dentro ciao Massimo ciao ciao vedi si ride si scherza e poi arriva boom stagistica intanto c'ho il nuvolone sulla rai invece qua la radio dj brilla",
+    "testo": "Allora, variabile, ma in Viale Mazzini c'è la nuvolona sopra.",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -859,10 +844,10 @@
   },
   {
     "id": "2016-10-21-071",
-    "start": 2278.8,
-    "end": 2325.4,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "Ciao Ciao ciao ciao ciao So I guess the fortune teller's right",
+    "start": 2234.08,
+    "end": 2277.18,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Ah ok, sempre lì sulla Rai, grandi decisioni oggi. Senti Massimo, grazie, quindi l'invidia del pene in sostanza... No, non hai capito un cazzo, non c'entra niente l'invidia del pene. No, l'autoaffermazione. che sono diverse l'ha detto la mia analista l'ho colto io ce l'ho l'invito del pene l'ho sempre avuta l'invito del pene più grande del terzino dentro ciao Massimo ciao ciao vedi si ride si scherza poi arriva boom stagistica intanto c'ho il nuvolone sulla rai invece qua la radio dj brilla",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -870,6 +855,17 @@
   },
   {
     "id": "2016-10-21-072",
+    "start": 2278.82,
+    "end": 2325.4,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "I don't seem to know, seem to care what your heart is for Ciao Ciao So I guess the fortune teller's right",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-10-21-073",
     "start": 2353.82,
     "end": 2353.96,
     "speaker_raw": "SCONOSCIUTO",
@@ -880,22 +876,22 @@
     "video_url": ""
   },
   {
-    "id": "2016-10-21-073",
-    "start": 2381.47,
+    "id": "2016-10-21-074",
+    "start": 2381.45,
     "end": 2412.57,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "Grazie a tutti. è molto bello",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Ciao Ciao Ciao è molto bello",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-10-21-074",
+    "id": "2016-10-21-075",
     "start": 2433.94,
     "end": 2590.86,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "è molto più bella la discussione che c'è fra me e Viola durante i dischi di quello che riusciamo a portare in onda che Maurizio non partecipa che cosa stavate parlando? del fatto che comunque esistono anche uomini che sono in competizione con altri uomini cioè se entri in una stanza un uomo alfa e c'è un altro uomo alfa c'è anche c'è anche quella cosa lì no che della competizione e poi proprio i vigliacchi si fanno le cose alle spalle ci si affronta più magari capito non dico alle mani però lo so verbalmente ma si va gonfiato il petto con i tacchini io devo dire una cosa sono abbastanza un uomo alfa ma sento in una stanza c'è un altro uomo alfa io non vado in competizione io non sono in competizione col maschio per una questione dopo se vuoi quando arriva Andrea Cirelli spieghiamo però io non sono mai tanto competitivo con il maschio perché non ho avuto un padre diciamo vuol dire fai così fai così avevo un padre compagno per cui quindi non sento quella rivalità quindi senti più rivalità con le donne? Da quel punto di vista sì, però non mi piace entrare in una stanza, non mi piace anche al lavoro, non mi piace essere in una stanza e essere il più bravo. perché io non guardo quei programmi televisivi dove c'è l'umiliazione dell'essere umano a me non piace guardare uno stupido e sentirmi intelligente da casa a me piace guardare un intelligente e sentirmi stupido in modo che mi scateni la voglia di imparare, di crescere, di fare quindi non mi piace essere al lavoro in una stanza e essere il più bravo poi purtroppo mi capita sempre ma questo è un altro discorso però ci sono persone che guardano in basso per sentirsi alti invece a me piace sempre guardare in alto che è comunque più comodo il tuo atteggiamento è più comodo sei giustificato a essere a guardare in alto no giustificato o a non pavimentare la nostra strada no però io per esempio sono totalmente a borro il capo inteso come capo e adoro il leader capito? però non è che vado in competizione con l'idea adesso io ti dimostro che sono più bravo di te io ti dico adesso io porto quello che posso e prendo da te quello che posso quanto sei saggio mamma mia due coglioni? no no no saggio ragazzi la vita è empirica è fare esperienza cioè è quella lì no quella lì cioè non è Marvin Gaye questo no? ok Ok.",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "è molto più bella la discussione che c'è fra me e Viola durante i dischi di quello che riusciamo a portare in onda che Maurizio non partecipa e che cosa stavate parlando? del fatto che comunque esistono anche uomini che sono in competizione con altri uomini cioè se entri in una stanza un uomo alfa e c'è un altro uomo alfa c'è anche c'è anche quella cosa lì no che della competizione e poi proprio i vigliacchi si fanno le cose alle spalle ci si affronta più magari capito non dico alle mani però lo so verbalmente ma gonfiato il petto come i tacchini io devo dire una cosa sono abbastanza un uomo alfa ma sento in una stanza c'è un altro uomo alfa io non vado in competizione io non sono in competizione col maschio per una questione dopo se vuoi quando arriva Andrea Cirelli spieghiamo però io non sono mai tanto competitivo con il maschio perché non ho avuto un padre diciamo vuol dire fai così fai così avevo un padre compagno per cui quindi non sento quella rivalità quindi senti più rivalità con le donne? Da quel punto di vista sì, però non mi piace entrare in una stanza, non mi piace anche al lavoro, non mi piace essere in una stanza e essere il più bravo. non mi piace guardare uno perché io non guardo quei programmi televisivi dove c'è l'umiliazione dell'essere umano survival a me non piace guardare uno stupido e sentirmi intelligente da casa a me piace guardare un intelligente e sentirmi stupido in modo che mi scateni la voglia di imparare di crescere di fare quindi non mi piace essere al lavoro in una stanza essere il più bravo poi purtroppo mi capita sempre ma questo è un altro discorso ma va va va va però ci sono persone che guardano in basso per sentirsi alti invece a me piace sempre guardare in alto che è comunque più comodo il tuo atteggiamento è più comodo sei giustificato a essere a guardare in alto no giustificato o a non pavimentare la nostra strada no però io per esempio sono totalmente a borro il capo inteso come capo e adoro il leader capito? però non è che vado in competizione con l'idea adesso io ti dimostro che sono più bravo di te io ti dico adesso io porto quello che posso e prendo da te quello che posso quanto sei saggio mamma mia due coglioni? no no no saggio ragazzi la vita è empirica è fare esperienza oh mercy mercy è quella lì? no quella lì cioè non è Marvin Gaye questo? no? ok Ok.",
     "titolo": "Competizione tra uomini",
     "tema": [
       "uomo",
@@ -905,11 +901,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-10-21-075",
+    "id": "2016-10-21-076",
     "start": 2618.49,
-    "end": 2619.91,
-    "speaker_raw": "SPEAKER_02",
-    "testo": "I wanna live, wanna die on a silver line",
+    "end": 2649.68,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "I wanna live, wanna die on a silver line Grazie.",
     "titolo": "I wanna live, wanna die",
     "tema": [
       "musica",
@@ -919,22 +915,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-10-21-076",
-    "start": 2649.54,
-    "end": 2649.66,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "no no",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
     "id": "2016-10-21-077",
     "start": 2680.86,
     "end": 2681.06,
     "speaker_raw": "SCONOSCIUTO",
-    "testo": "Ciao!",
+    "testo": "Ciao.",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -943,9 +928,31 @@
   {
     "id": "2016-10-21-078",
     "start": 2715.14,
-    "end": 2751.48,
+    "end": 2719.39,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Mia moglie è andata in vacanza in camper con quattro amiche, solo donne, non si parlano più da due anni.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-10-21-079",
+    "start": 2719.69,
+    "end": 2721.59,
     "speaker_raw": "SPEAKER_04",
-    "testo": "mia moglie è andata in vacanza in camper con quattro amiche solo donne non si parlano più da due anni ma poi il camper al coro ma il camper devi essere quasi quasi capace a limonare con tutti perché devi avere un'intimità per stare su quel camper lì no eh eh sì sì è proprio vero un anno di lavoro in un'officina meccanica con solo uomini è stata una meraviglia adesso lavoro in un ufficio solo donne è un incubo senza fine perché anche sul lavoro si fanno queste non solo tra vita sociale certo proprio sul lavoro non solo al bar quando entra una che la guardano come vestita anche ma sul lavoro odiamo il meglio di noi ok scusami Maurizio mi dice una cosa dimmi Maurizio abbiamo sforato? ancora?",
+    "testo": "Ma poi il camper...",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-10-21-080",
+    "start": 2721.63,
+    "end": 2751.48,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Ma il camper devi essere quasi capace a limonare con tutti, perché devi avere un'intimità per stare su quel camper lì. Eh, sì, sì. è proprio vero un anno di lavoro in un'officina meccanica con solo uomini è stata una meraviglia adesso lavoro in un ufficio solo donne è un incubo senza fine perché anche sul lavoro si fanno queste non solo tra vita sociale certo proprio sul lavoro non solo al bar quando entra una che la guardano come vestita anche ma sul lavoro diamo il meglio di noi ok scusami Maurizio mi dice una cosa dimmi Maurizio abbiamo sforato? ancora?",
     "titolo": "Vita in un camper",
     "tema": [
       "vacanza",
@@ -955,10 +962,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-10-21-079",
+    "id": "2016-10-21-081",
     "start": 2752.09,
     "end": 2755.95,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_02",
     "testo": "no no vabbè ragazzi ciao ragazzi a lunedì",
     "titolo": "",
     "tema": [],
