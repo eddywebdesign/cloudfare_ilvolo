@@ -637,7 +637,10 @@ def main() -> None:
             # in transcribe_utils.py. Solo per il ramo GPU: la config CPU non
             # applica min/max_speakers, non e' la stessa configurazione.
             dati_grezzi = json.loads(json_path.read_text(encoding="utf-8"))
-            dati_grezzi["_config_versione"] = CONFIG_VERSIONE
+            # _config_versione PRIMA di tutto il resto (non aggiunta in coda):
+            # il pannello legge solo i primi byte del file per contare velocemente
+            # su migliaia di episodi, deve trovarla vicino all'inizio.
+            dati_grezzi = {"_config_versione": CONFIG_VERSIONE, **dati_grezzi}
             dest_trascr.write_text(json.dumps(dati_grezzi, ensure_ascii=False), encoding="utf-8")
         else:
             dest_trascr.write_bytes(json_path.read_bytes())

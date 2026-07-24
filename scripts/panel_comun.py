@@ -46,16 +46,20 @@ def contar_rifatti_config_attuale(trascrizioni_dir: Path) -> int:
         from transcribe_utils import CONFIG_VERSIONE
     except ImportError:
         return 0
+    marcatore = f'"_config_versione": "{CONFIG_VERSIONE}"'.encode("utf-8")
     n = 0
     for f in trascrizioni_dir.glob("*.json"):
         try:
-            testo = f.read_text(encoding="utf-8")
+            # legge solo l'inizio del file (il marcatore e' scritto per PRIMO
+            # nel dict da trascrivi_locale_episodi.py apposta per questo) -
+            # su migliaia di trascrizioni (ognuna anche centinaia di KB per i
+            # segmenti) leggere il file intero e' troppo lento per un pannello
+            # che si aggiorna periodicamente.
+            with open(f, "rb") as fh:
+                inizio = fh.read(200)
         except OSError:
             continue
-        # controllo a stringa prima del parse JSON completo (piu' veloce su
-        # migliaia di file, i trascrizioni sono grandi ma il marcatore e' un
-        # campo semplice sempre presente uguale se il file ce l'ha)
-        if f'"_config_versione": "{CONFIG_VERSIONE}"' in testo:
+        if marcatore in inizio:
             n += 1
     return n
 
