@@ -14,6 +14,7 @@
 
 import datetime
 import json
+import subprocess
 import sys
 import time
 from pathlib import Path
@@ -33,6 +34,10 @@ STOP_FLAG = REPO / "data" / "panel_stop_pendiente.flag"  # stesso file di FLAG_S
 CSV_TERMICO = LOGS_DIR / "trascrizioni_log_termico.csv"
 SOGLIA_TEMP_C = 90.0
 SOGLIA_TEMP_GPU_C = 88.0  # coerente con SOGLIA_EMERGENZA_GPU in avvia_trascrizione_sicura.sh
+# Stessi parametri esatti con cui avvia_trascrizione_sicura.sh lancia il logger -
+# se mai cambiano li', cambiarli anche qui.
+SOGLIA_EMERGENZA_CPU = 93
+SOGLIA_EMERGENZA_GPU = 88
 
 
 def trova_processo(match_in_cmdline: str):
@@ -57,8 +62,32 @@ def main() -> None:
 
     if not batch:
         anomalie.append("batch trascrivi_locale_episodi.py NON in esecuzione")
+
+    logger_riavviato = False
     if not logger:
-        anomalie.append("logger sensori_temp.py NON in esecuzione")
+        if batch:
+            # Il batch e' vivo ma il logger termico e' morto: senza di lui NESSUNA
+            # soglia di emergenza puo' scattare (ne' il kill diretto di sensori_temp.py
+            # ne' questo stesso check, che legge il CSV che lui scrive). Prima si
+            # segnalava solo via email - un umano doveva accorgersene e riavviarlo a
+            # mano. Riavviarlo qui, subito, senza aspettare un intervento esterno:
+            # l'utente ha chiesto esplicitamente una garanzia "senza se e senza ma"
+            # per tutta la durata del processo, non solo quando qualcuno controlla.
+            subprocess.Popen(
+                [sys.executable, str(Path(__file__).resolve().parent / "sensori_temp.py"),
+                 "--loop", "60", str(CSV_TERMICO),
+                 "--kill-cpu", str(SOGLIA_EMERGENZA_CPU), "--kill-gpu", str(SOGLIA_EMERGENZA_GPU)],
+                cwd=str(REPO), stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL,
+                start_new_session=True,
+            )
+            time.sleep(2)
+            logger_riavviato = trova_processo("sensori_temp") is not None
+            if logger_riavviato:
+                anomalie.append("logger sensori_temp.py era MORTO — riavviato automaticamente ORA")
+            else:
+                anomalie.append("logger sensori_temp.py MORTO e il riavvio automatico e' FALLITO — nessuna protezione termica attiva")
+        else:
+            anomalie.append("logger sensori_temp.py NON in esecuzione")
 
     if whisperx:
         try:
