@@ -19,6 +19,12 @@
     <select id="fr-anno" class="fr-filtro fr-filtro--anno">
       <option value="tutti">Tutti gli anni</option>
     </select>
+    <select id="fr-mese" class="fr-filtro">
+      <option value="tutti">Tutti i mesi</option>
+    </select>
+    <select id="fr-tipo" class="fr-filtro">
+      <option value="tutti">Tutte le categorie</option>
+    </select>
     <select id="fr-filtro" class="fr-filtro">
       <option value="tutti">Tutti</option>
       <option value="classificati">✓ Classificati (tutti)</option>
@@ -119,6 +125,11 @@ details[open] > .fr-group__summary::before { transform: rotate(90deg); }
 .fr-group__ep-link { color: var(--gold); text-decoration: none; }
 .fr-group__ep-link:hover { text-decoration: underline; }
 .fr-group__count { color: rgba(245,239,223,0.35); }
+.fr-group__riepilogo { display: inline-flex; gap: 0.3rem; margin-left: 0.4rem; flex-wrap: wrap; }
+.fr-badge--riepilogo {
+  font-family: var(--font-mono); font-size: 0.6rem; padding: 1px 7px; border-radius: 999px;
+  border: 1px solid rgba(245,239,223,0.15); color: rgba(245,239,223,0.55); text-transform: none; letter-spacing: 0;
+}
 
 .fr-rows { display: flex; flex-direction: column; gap: 0.6rem; margin-bottom: 2rem; }
 .fr-row {
@@ -210,7 +221,15 @@ select.fr-admin-input option { background: #141824; color: var(--cream); }
   var qInput = document.getElementById('fr-q');
   var filtroSel = document.getElementById('fr-filtro');
   var annoSel = document.getElementById('fr-anno');
+  var meseSel = document.getElementById('fr-mese');
+  var tipoSel = document.getElementById('fr-tipo');
   var legendaEl = document.getElementById('fr-legenda');
+  var MESI = ['Gennaio','Febbraio','Marzo','Aprile','Maggio','Giugno',
+    'Luglio','Agosto','Settembre','Ottobre','Novembre','Dicembre'];
+  var TIPO_ICONE = {
+    aneddoto: '💭', riflessione: '💡', citazione: '❝', lettura_volo: '📻',
+    riferimento_libro: '📖', riferimento_musica: '🎵', riferimento_film: '🎬'
+  };
 
   /* Mappa id -> motivo, dai frammenti segnalati da verifica_frammenti.py
      (logs/frammenti_dubbi.json sullo share, sincronizzato in data/). Non
@@ -253,6 +272,40 @@ select.fr-admin-input option { background: #141824; color: var(--cream); }
   annoSel.innerHTML = '<option value="tutti">Tutti gli anni</option>' +
     anni.map(function(a) { return '<option value="' + a + '">' + a + '</option>'; }).join('');
 
+  /* Filtro mese: si ricalcola in base all'anno selezionato (mostra solo i mesi
+     realmente presenti in quell'anno, o in tutto il dataset se 'tutti') - stesso
+     principio di anni, mai hardcoded a 12 mesi fissi se i dati non li coprono. */
+  function popolaMesi() {
+    var annoCorrente = annoSel.value;
+    var dateFiltrate = annoCorrente === 'tutti' ? tuttiDate :
+      tuttiDate.filter(function(d) { return d.slice(0, 4) === annoCorrente; });
+    var mesiPresenti = Array.from(new Set(dateFiltrate.map(function(d) { return d.slice(5, 7); }))).sort();
+    var meseSelezionatoPrima = meseSel.value;
+    meseSel.innerHTML = '<option value="tutti">Tutti i mesi</option>' +
+      mesiPresenti.map(function(m) {
+        var nome = MESI[parseInt(m, 10) - 1] || m;
+        return '<option value="' + m + '">' + nome + '</option>';
+      }).join('');
+    // Mantiene la selezione precedente se ancora valida per il nuovo anno, altrimenti torna a 'tutti'
+    meseSel.value = mesiPresenti.indexOf(meseSelezionatoPrima) !== -1 ? meseSelezionatoPrima : 'tutti';
+  }
+  popolaMesi();
+
+  /* Filtro tipo: popolato dai valori REALMENTE presenti nei frammenti, non dalla
+     lista TIPI del pannello admin (quella puo' contenere valori legacy che il
+     classificatore non produce piu' - vedi TIPI_VALIDI in trascrivi_locale_episodi.py). */
+  var tipiPresenti = Array.from(new Set(
+    tuttiDate.reduce(function(acc, d) {
+      (RAW[d] || []).forEach(function(f) { if (f.tipo) acc.push(f.tipo); });
+      return acc;
+    }, [])
+  )).sort();
+  tipoSel.innerHTML = '<option value="tutti">Tutte le categorie</option>' +
+    tipiPresenti.map(function(t) {
+      var icona = TIPO_ICONE[t] ? TIPO_ICONE[t] + ' ' : '';
+      return '<option value="' + t + '">' + icona + t + '</option>';
+    }).join('');
+
   function esc(s) {
     return String(s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
   }
@@ -269,9 +322,12 @@ select.fr-admin-input option { background: #141824; color: var(--cream); }
   /* ── Modalita' admin (?admin=1), stesso pattern di /da-ricostruire/ ── */
   var isAdmin = new URLSearchParams(location.search).get('admin') === '1';
   var MODIFICA_PATH = {{ $.Site.Data.admin.frammenti_script_path | jsonify | safeJS }};
-  var TIPI = ['aneddoto','riflessione','citazione','monologo','lettura_volo',
-    'riferimento_libro','riferimento_musica','riferimento_film','riferimento_cultura',
-    'riferimento_articolo','riferimento_legge','riferimento_mito','riferimento_tecnica'];
+  /* Allineato a TIPI_VALIDI in scripts/trascrivi_locale_episodi.py (2026-07-25) -
+     prima conteneva 6 valori legacy (monologo, riferimento_cultura, riferimento_articolo,
+     riferimento_legge, riferimento_mito, riferimento_tecnica) che il classificatore
+     non produce piu' da tempo, rischiando di far scrivere a mano un tipo "orfano". */
+  var TIPI = ['aneddoto','riflessione','citazione','lettura_volo',
+    'riferimento_libro','riferimento_musica','riferimento_film'];
 
   function isAdmDone(id) {
     try { return !!sessionStorage.getItem('fr_adm_done_' + id); } catch(ex) { return false; }
@@ -401,15 +457,34 @@ select.fr-admin-input option { background: #141824; color: var(--cream); }
     return 'vuoti';
   }
 
+  /* Mini-riepilogo per categoria da mostrare nel summary chiuso, cosi' si vede
+     cosa contiene la puntata senza doverla aprire (2026-07-25, vedi richiesta
+     "identificabili a colpo d'occhio" - prima l'unico modo era aprire la scheda). */
+  function riepilogoCategorie(frammenti) {
+    var conteggi = {};
+    frammenti.forEach(function(f) {
+      if (!f.tipo) return;
+      conteggi[f.tipo] = (conteggi[f.tipo] || 0) + 1;
+    });
+    return Object.keys(conteggi).sort().map(function(t) {
+      var icona = TIPO_ICONE[t] || '•';
+      return '<span class="fr-badge fr-badge--riepilogo">' + icona + ' ' + conteggi[t] + '</span>';
+    }).join('');
+  }
+
   function render() {
     var q = (qInput.value || '').toLowerCase().trim();
     var filtro = filtroSel.value;
     var anno = annoSel.value;
+    var mese = meseSel.value;
+    var tipo = tipoSel.value;
     var totCount = 0, visCount = 0;
     var globalCounts = { dubbi: 0, ok: 0, vuoti: 0 };
 
     var html = date.filter(function(d) {
-      return anno === 'tutti' || d.slice(0, 4) === anno;
+      if (anno !== 'tutti' && d.slice(0, 4) !== anno) return false;
+      if (mese !== 'tutti' && d.slice(5, 7) !== mese) return false;
+      return true;
     }).map(function(d) {
       var frammenti = RAW[d] || [];
       var visibili = frammenti.filter(function(f) {
@@ -421,6 +496,7 @@ select.fr-admin-input option { background: #141824; color: var(--cream); }
         } else if (filtro !== 'tutti' && cat !== filtro) {
           return false;
         }
+        if (tipo !== 'tutti' && f.tipo !== tipo) return false;
         if (q) {
           var hay = (f.testo + ' ' + f.tipo + ' ' + f.titolo + ' ' + (f.tema || []).join(' ')).toLowerCase();
           if (hay.indexOf(q) === -1) return false;
@@ -437,10 +513,15 @@ select.fr-admin-input option { background: #141824; color: var(--cream); }
       var contatore = dubbiInEp
         ? '⚠ ' + dubbiInEp + ' da rivedere · ' + classificatiInEp + '/' + frammenti.length + ' classificati, ' + visibili.length + ' mostrati'
         : classificatiInEp + '/' + frammenti.length + ' classificati, ' + visibili.length + ' mostrati';
-      var openAttr = dubbiInEp ? ' open' : '';
-      return '<details class="fr-group"' + openAttr + '>' +
+      var riepilogo = riepilogoCategorie(frammenti);
+      // Schede sempre chiuse di default (prima: aperte se avevano dubbi - con la
+      // quantita' di frammenti da rivedere accumulati, quasi tutto risultava
+      // spoilerato). Il riepilogo per categoria nel summary compensa la perdita
+      // di colpo d'occhio senza dover aprire la scheda.
+      return '<details class="fr-group">' +
         '<summary class="fr-group__summary">' + epLink +
           ' <span class="fr-group__count">(' + contatore + ')</span>' +
+          (riepilogo ? '<span class="fr-group__riepilogo">' + riepilogo + '</span>' : '') +
         '</summary>' +
         '<div class="fr-rows">' + visibili.map(renderRow).join('') + '</div>' +
       '</details>';
@@ -456,7 +537,9 @@ select.fr-admin-input option { background: #141824; color: var(--cream); }
 
   qInput.addEventListener('input', render);
   filtroSel.addEventListener('change', render);
-  annoSel.addEventListener('change', render);
+  annoSel.addEventListener('change', function() { popolaMesi(); render(); });
+  meseSel.addEventListener('change', render);
+  tipoSel.addEventListener('change', render);
   renderStats();
   render();
 })();
