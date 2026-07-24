@@ -63,6 +63,8 @@ LOG_ERRORES = REPO / "logs" / "panel_estado_hp14_errores.log"
 INTERVALO_MS = 15000
 
 K16_HOST = "eddy@192.168.8.130"  # 2026-07-22: K16 spostato fisicamente vicino alla TV, IP cambiato da .132 a .130 (stessa Ethernet, DHCP diverso da quella posizione) -- riverificare se torna alla postazione originale
+OMV_HOST = "eddynas@192.168.8.80"
+OMV_SSH_KEY = Path.home() / ".ssh" / "omv_key"
 SSH_TIMEOUT_S = 8
 DURACION_MEDIA_MIN_CPU = 55  # misma media usada en scripts/linux/panel_control.py
 DURACION_MEDIA_MIN_GPU = 1.7  # RTX 5070 via OCuLink, misurato 2026-07-22: ~1m35-40s/episodio reali
@@ -113,6 +115,28 @@ def ssh_run_script(script_bash, timeout=SSH_TIMEOUT_S):
     anidadas se rompian al pasar por list2cmdline de Windows."""
     encoded = base64.b64encode(script_bash.encode("utf-8")).decode("ascii")
     return ssh_run(f"echo {encoded} | base64 -d | bash", timeout=timeout)
+
+
+def ssh_run_script_omv(script_bash, timeout=SSH_TIMEOUT_S):
+    """Como ssh_run_script, pero hacia OMV en vez de K16 -- clave dedicada
+    (~/.ssh/omv_key, distinta de la usada para K16), mismo encoding base64
+    para evitar corrupcion de comillas anidadas."""
+    encoded = base64.b64encode(script_bash.encode("utf-8")).decode("ascii")
+    try:
+        r = subprocess.run(
+            [
+                "ssh", "-o", "BatchMode=yes", "-o", "ConnectTimeout=5",
+                "-o", "StrictHostKeyChecking=accept-new", "-i", str(OMV_SSH_KEY),
+                OMV_HOST, f"echo {encoded} | base64 -d | bash",
+            ],
+            capture_output=True, text=True, timeout=timeout, check=False,
+            creationflags=_NO_WINDOW,
+        )
+        if r.returncode != 0:
+            return False, r.stderr.strip()
+        return True, r.stdout.strip()
+    except (subprocess.TimeoutExpired, OSError) as exc:
+        return False, str(exc)
 
 
 def leer_estado_k16():
@@ -183,6 +207,41 @@ echo "${PID}|${EP}|${ETIME}|${TERM_LINE}|${WD}|${IDX}|${TOTAL}|${GPU}"
     }, None
 
 
+def leer_estado_identificacion_omv():
+    """Interroga el PROCESO real en OMV (pgrep), no un log ni un archivo de
+    estado -- misma filosofia que leer_estado_k16() para whisperx. El wrapper
+    lancia_clasificacion_omv.sh encadena 10 pasos (estrai_riferimenti_nuovi.py,
+    riclassifica_frammenti.py, verifica_frammenti.py, etc.) -- se detecta el
+    wrapper para saber SI esta corriendo (y desde cuando), y por separado cual
+    paso hijo esta activo ahora mismo, para mostrar el detalle.
+
+    Devuelve (dict, error). dict={"corriendo": bool, "paso": str|None,
+    "etime_s": int|None} si la consulta SSH funciono (aunque nada este
+    corriendo); (None, mensaje) si OMV no fue alcanzable."""
+    script = r"""
+PID_WRAPPER=$(pgrep -f '[l]ancia_clasificacion_omv.sh' | head -1)
+PASO=""
+ETIME=""
+if [ -n "$PID_WRAPPER" ]; then
+  ETIME=$(ps -p "$PID_WRAPPER" -o etimes= | tr -d ' ')
+  PASO=$(pgrep -af '[e]strai_riferimenti_nuovi\.py|[r]iclassifica_frammenti\.py|[v]erifica_frammenti\.py|[v]erifica_riferimenti_esterna\.py|[v]erifica_riferimenti\.py|[r]eprocessa_riferimenti_dubbi\.py' | head -1 | sed -E 's#.*/([a-zA-Z_]+\.py).*#\1#')
+fi
+echo "${PID_WRAPPER}|${PASO}|${ETIME}"
+"""
+    ok, salida = ssh_run_script_omv(script)
+    if not ok:
+        return None, salida
+    campos = salida.split("|")
+    pid = campos[0].strip() if campos else ""
+    paso = campos[1].strip() if len(campos) > 1 else ""
+    etime_s = campos[2].strip() if len(campos) > 2 else ""
+    return {
+        "corriendo": bool(pid),
+        "paso": paso or None,
+        "etime_s": int(etime_s) if etime_s.isdigit() else None,
+    }, None
+
+
 def k16_detener_ahora():
     # Antes: pkill/tmux kill-session escritos a mano aqui, un cuarto mecanismo
     # de kill independiente del panel local (panel_control.py), sensori_temp.py
@@ -242,6 +301,7 @@ class PanelEstado:
         self.detener_al_finalizar = FLAG_STOP_PENDIENTE.exists()
         self._consultando_k16 = False
         self._consultando_progreso = False
+        self._consultando_omv = False
         self.reanudar_unidad = None  # nombre de la unidad systemd-run pendiente, si hay una
 
         self._estilo()
@@ -349,6 +409,12 @@ class PanelEstado:
         self.lbl_reloj.pack(anchor="w", pady=(8, 0))
 
         t2 = self._tarjeta(cont, "2. Identificación (OMV, Groq/Cerebras/Gemini)")
+        # Estado del PROCESO en vivo (pgrep real en OMV via SSH), mismo patron
+        # que lbl_k16_estado en la tarjeta 1 -- antes esta tarjeta solo mostraba
+        # el snapshot del ultimo ciclo completo (lbl_clas abajo), sin forma de
+        # saber si algo esta corriendo AHORA MISMO entre una ejecucion y otra.
+        self.lbl_omv_estado = ttk.Label(t2, text="Consultando OMV...", style="Estado.TLabel")
+        self.lbl_omv_estado.pack(anchor="w", pady=(6, 0))
         self.lbl_clas = ttk.Label(t2, text="Cargando...", style="Info.TLabel")
         self.lbl_clas.pack(anchor="w", pady=(6, 0))
         # Frammenti (2026-07-21): estadisticas de CLASIFICACION, no de
@@ -478,6 +544,12 @@ class PanelEstado:
                 threading.Thread(target=self._consultar_progreso_en_hilo, daemon=True).start()
         except Exception:
             self._log_error()
+        try:
+            if not self._consultando_omv:
+                self._consultando_omv = True
+                threading.Thread(target=self._consultar_omv_en_hilo, daemon=True).start()
+        except Exception:
+            self._log_error()
         self._actualizar_link_errores()
         self.root.after(INTERVALO_MS, self.actualizar)
 
@@ -573,6 +645,29 @@ class PanelEstado:
                 traceback.print_exc(file=f)
         except OSError:
             pass
+
+    def _consultar_omv_en_hilo(self):
+        estado, error = leer_estado_identificacion_omv()
+        self.root.after(0, lambda: self._aplicar_estado_omv(estado, error))
+
+    def _aplicar_estado_omv(self, estado, error):
+        self._consultando_omv = False
+        if estado is None:
+            self.lbl_omv_estado.config(text="⚠ OMV no accesible", foreground=COLOR_NARANJA)
+            return
+        if estado["corriendo"]:
+            paso = estado["paso"] or "?"
+            etime_s = estado.get("etime_s")
+            if etime_s is not None:
+                m, s = divmod(etime_s, 60)
+                duracion = f" (desde hace {m}m{s:02d}s)"
+            else:
+                duracion = ""
+            self.lbl_omv_estado.config(
+                text=f"● Identificando — paso actual: {paso}{duracion}", foreground=COLOR_VERDE,
+            )
+        else:
+            self.lbl_omv_estado.config(text="○ Sin proceso de identificación activo", foreground=COLOR_TEXTO_SUAVE)
 
     def _consultar_k16_en_hilo(self):
         estado, error = leer_estado_k16()

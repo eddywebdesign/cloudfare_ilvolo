@@ -10,6 +10,7 @@
 
 import argparse
 import json
+import os
 import sys
 from pathlib import Path
 
@@ -48,7 +49,12 @@ def main() -> None:
         print(f"[{path.stem}] {non_titolati_prima} frammenti da classificare...")
         classifica_frammenti(frammenti)
         titolati_dopo = sum(1 for f in frammenti if f["titolo"])
-        path.write_text(json.dumps(frammenti, ensure_ascii=False, indent=2), encoding="utf-8")
+        # Scrittura atomica: tmp + rename, cosi' un pannello che legge lo stesso
+        # file in concomitanza non trova mai un JSON a meta' (write_text diretto
+        # non e' atomico, un lettore concorrente puo' vedere un file troncato).
+        tmp_path = path.with_suffix(path.suffix + ".tmp")
+        tmp_path.write_text(json.dumps(frammenti, ensure_ascii=False, indent=2), encoding="utf-8")
+        os.replace(tmp_path, path)
         print(f"  -> {titolati_dopo}/{len(frammenti)} titolati in totale ora\n")
 
     print("Fatto.")

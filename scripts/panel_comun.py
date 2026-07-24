@@ -101,7 +101,7 @@ def contar_estado_classificazione(frammenti_dir: Path):
                     classificati += 1
                 elif len((x.get("testo") or "").split()) < 6:
                     brevi += 1
-    except OSError:
+    except (OSError, json.JSONDecodeError):
         return None
     return {"tot": tot, "classificati": classificati, "brevi": brevi, "da_fare": tot - classificati - brevi}
 
