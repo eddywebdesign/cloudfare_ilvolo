@@ -2,20 +2,9 @@
   {
     "id": "2016-01-18-000",
     "start": 4.57,
-    "end": 16.81,
-    "speaker_raw": "SPEAKER_14",
-    "testo": "Radio DJ, one nation, one station. One love, one life.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-01-18-001",
-    "start": 16.85,
     "end": 74.95,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "Don't you shut your eyes and hide your heart behind the shadow. Cause you can count on me as long as I can breathe, you should know. Grazie a tutti. Grazie a tutti.",
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Radio DJ, one nation, one station. One love, one life. Don't you shut your eyes and hide your heart behind the shadow. Cause you can count on me as long as I can breathe, you should know. through the night through the storm give your love only love in return I can jump over buildings I'm no hero love comes with miracles I cannot run a bullet I'm no hero but I would take one for you be sure I know Grazie a tutti.",
     "titolo": "Non nascondere il tuo cuore",
     "tema": [
       "amore",
@@ -25,35 +14,32 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-18-002",
+    "id": "2016-01-18-001",
     "start": 217.65,
     "end": 262.83,
     "speaker_raw": "SPEAKER_01",
-    "testo": "quando uscì questa canzone di Elisa era il 2016 è uscita da qualche giorno no hero radio dj questo è il volo del mattino solo le 9 e 7 minuti di lunedì 18 gennaio del 2016 Hai visto che ho beccato nel finire? Ok, ragazzi, mestiere, mestiere, mestiere. Buongiorno. La prima mail che arriva questa mattina dice bravi ragazzi, c'è scritto bravo Fabio, ma bravi ragazzi, me la cambio così. Bravi ragazzi, muovete i governi. Avete parlato di fannulloni, di quelli che non fanno niente? Pronta una legge, nada. Che è successo?",
+    "testo": "quando uscì questa canzone di Elisa era il 2016 è uscito da qualche giorno No Hero Radio DJ questo è il volo del mattino sono le 9 e 7 minuti di lunedì 18 gennaio del 2016 Hai visto che ho beccato nel finire? Ok, ragazzi, mestiere, mestiere, mestiere. Buongiorno. La prima mail che arriva questa mattina dice, bravi ragazzi, ho scritto bravo Fabio, ma insomma, bravi ragazzi, me la cambio così. Bravi ragazzi, muovete i governi. Avete parlato di fannulloni, di quelli che non fanno niente? Pronta una legge, nada. Che è successo?",
     "titolo": "No Hero",
     "tema": [
       "musica",
       "Elisa"
     ],
     "tipo": "riferimento_musica",
-    "video_url": "",
-    "confermato_esterno": true,
-    "copertina": "https://coverartarchive.org/release/859abc91-0fe9-410c-a603-42ab33f60b07/front-250"
+    "video_url": ""
   },
   {
-    "id": "2016-01-18-003",
+    "id": "2016-01-18-002",
     "start": 263.09,
     "end": 265.19,
-    "speaker_raw": "SPEAKER_05",
-    "testo": "Hai scritto te alla Madia, al Ministro Madia?",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Hai scritto te al ministro Madia?",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
-    "id": "2016-01-18-004",
+    "id": "2016-01-18-003",
     "start": 265.21,
     "end": 266.62,
     "speaker_raw": "SPEAKER_01",
@@ -64,11 +50,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-18-005",
+    "id": "2016-01-18-004",
     "start": 267.44,
     "end": 282.91,
-    "speaker_raw": "SPEAKER_05",
-    "testo": "Che nel 2016, pare, ora bisogna capire se sarà attuato veramente o se è uno slogan elettorale. Uno slogan, così! Comunque nel giro di 48 ore, dipendenti assenteisti o comunque fannulloni potranno essere licenziati.",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Che nel 2016, pare ora che bisogna capire se sarà attuato veramente o se è uno slogan elettorale. Uno slogan, così! Comunque nel giro di 48 ore dipendenti assenteisti o comunque fannulloni potranno essere licenziati.",
     "titolo": "Licenziamenti e assenteismo nel pubblico impiego",
     "tema": [
       "lavoro",
@@ -78,7 +64,7 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-18-006",
+    "id": "2016-01-18-005",
     "start": 283.55,
     "end": 295.94,
     "speaker_raw": "SPEAKER_01",
@@ -92,11 +78,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-18-007",
+    "id": "2016-01-18-006",
     "start": 296.94,
     "end": 304.79,
-    "speaker_raw": "SPEAKER_05",
-    "testo": "Non lo so adesso. A me sì, a me sì. Cavolo ma 48 ore sono poche. Non sono perché non fai... Rovini una famiglia a 48 ore non c'è più uno stipendio.",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Non lo so adesso. A me sì, a me sì. Cavolo, ma 48 ore sono poche. Non sono perché non fai... Rovini una famiglia a 48 ore, non c'è più uno stipendio.",
     "titolo": "Critica alla rapidità dei licenziamenti",
     "tema": [
       "lavoro",
@@ -106,11 +92,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-18-008",
+    "id": "2016-01-18-007",
     "start": 305.23,
     "end": 347.06,
     "speaker_raw": "SPEAKER_01",
-    "testo": "Oh aspetta, aspetta no, a me piace se è fatto nel modo... il problema è sempre come è applicata, cioè se fosse vero che tu che sei uno di quelli che timbra e poi vai a casa oppure che vai in ufficio e fai un cazzo così e ti cacciano, alzo la mano. se invece è una scusa per andare lì a fare un po' di ripulisti e dire te lo fai un cadolo ma non è vero ma si ti butta nel calderone ovviamente quella è un'ingiustizia ma applicata giusta io si perché non solo non fai un cadolo ma porti via pure il lavoro a uno magari che ha voglia di fare qualcosa e soprattutto ti pago io questo è il problema tu viola proprio proprio io proprio io va bene siamo partiti un po' centrodestra andiamo avanti uscirà adesso un tweet del giornale di Libero viva il volo del mattino",
+    "testo": "Oh, aspetta, aspetta, no, a me piace se è fatto nel modo... il problema è sempre come è applicata, cioè se fosse vero che tu che sei uno di quelli che timbra e poi vai a casa oppure che vai in ufficio e fai un cazzo così e ti cacciano, alzo la mano. se invece è una scusa per andare lì a fare un po' di ripulisti e dire te lo fai un cadolo ma non è vero ma si ti butta nel calderone ovviamente quella è un'ingiustizia ma applicata giusta io si perché non solo non fai un cadolo ma porti via pure il lavoro a uno magari che ha voglia di fare qualcosa e soprattutto ti pago io questo è il problema tu viola proprio proprio io proprio io va bene siamo partiti un po' centrodestra andiamo avanti uscirà adesso un tweet del giornale di libero viva il volo del mattino",
     "titolo": "La legge e la sua applicazione",
     "tema": [
       "giustizia",
@@ -120,11 +106,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-18-009",
+    "id": "2016-01-18-008",
     "start": 356.63,
-    "end": 387.7,
-    "speaker_raw": "SPEAKER_08",
-    "testo": "Good morning world, how are you happiness? All at once I knew what living can be la stai sgrozzando",
+    "end": 387.8,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Good morning world, how are you happiness? All at once I knew what living can be Ah, sta sgrozzando!",
     "titolo": "La felicità è un momento",
     "tema": [
       "felicità",
@@ -134,11 +120,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-18-010",
+    "id": "2016-01-18-009",
     "start": 397.92,
     "end": 420.93,
     "speaker_raw": "SPEAKER_01",
-    "testo": "l'hai sgozzata sta gallina va bene il nostro ascoltatore Chris dirà che questa legge verrà approvata da un Parlamento vuoto perché lì è un altro comodo e assenteistico quelli che li vedi così chiamano il pianoforte quelli che sono i pianisti che infilano quattro mani in quattro banchi va bene insomma uno cerca sempre di arrangiarsi è un po' così",
+    "testo": "l'hai sgozzata sta gallina va bene il nostro ascoltatore Chris dirà che questa legge verrà approvata da un Parlamento vuoto perché lì è un altro comodo assenteistino quelli che li vedi così chiamano il pianoforte quelli che sono i pianisti che infilano quattro mani in quattro banchi va bene insomma uno cerca sempre di arrangiarsi è un po' così",
     "titolo": "La gallina sgozzata",
     "tema": [
       "politica",
@@ -148,11 +134,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-18-011",
+    "id": "2016-01-18-010",
     "start": 421.55,
     "end": 434.96,
-    "speaker_raw": "SPEAKER_05",
-    "testo": "Ascolta, arrivano un sacco di mail sulla scia di venerdì. Casting, casting. Ah, gente che vuole fare i provini. Vedi? Ma vanno scritto su Facebook.",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Ascolta, arrivano un sacco di mail sulla scia di venerdì. Ah, gente che vuole fare i provini. Vedi? Ma l'hanno scritto su Facebook.",
     "titolo": "Casting per la vita",
     "tema": [
       "vita",
@@ -162,11 +148,22 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-18-012",
+    "id": "2016-01-18-011",
     "start": 435.22,
     "end": 469.61,
     "speaker_raw": "SPEAKER_01",
-    "testo": "Noi non è che possiamo provinarli al volo del mattino per una cosa che non è di radio DJ. Non possiamo, l'abbiamo buttata lì per dire nella vostra vita. cioè qual è il ruolo che sentite di non so e adesso cosa gli dico? a chi? a quelli che mi hanno chiesto devi darla a me della viola che lei fa in casa va bene va bene non tazzardare sì sì sì giro tu no girameli te allora mi raccomando ragazzi meno attori siete meglio è per noi io voglio lavorare con la gente a proposito chi ha voglia di lavorare esatto io voglio sentire non uno che dice oh però sono il solito di andare a casa io voglio sempre gente che ci mette la pancia ma li paghiamo?",
+    "testo": "Noi non è che possiamo provinarli al volo del mattino per una cosa che non è di radio DJ. Non possiamo, l'abbiamo buttata lì per dire nella vostra vita... cioè qual è il ruolo che sentite di non so e adesso cosa gli dico? a chi? a quelli che mi hanno chiesto devi darla a me della viola che lei fa in casa va bene va bene non tazzardare sì sì sì giro tu no girameli te allora mi raccomando ragazzi meno attori siete meglio è per noi io voglio lavorare con la gente a proposito chi ha voglia di lavorare esatto io voglio sentire non uno che dice oh però sono le solite di andare a casa io voglio sempre gente che ci mette la pancia ma li paghiamo?",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-01-18-012",
+    "start": 469.95,
+    "end": 471.65,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "ma no ma cosa c'è dentro quello?",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -174,21 +171,10 @@
   },
   {
     "id": "2016-01-18-013",
-    "start": 469.95,
-    "end": 471.11,
-    "speaker_raw": "SPEAKER_05",
-    "testo": "ma no ma cosa c'è tranquillo",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-01-18-014",
     "start": 473.31,
-    "end": 589.69,
+    "end": 593.71,
     "speaker_raw": "SPEAKER_01",
-    "testo": "Ma cosa c'è? Parliamo di una cosa seria invece. Questa mattina vorremmo giocare, scherzare con voi parlando di questa cosa, di quando da bambini o da adolescenti avete cominciato a uscire di casa, quindi magari andando a scuola, e avete capito che il mondo fuori era un po' diverso dal mondo dentro. Io per esempio quando ho cominciato a uscire di casa mi sono accorto che eravamo poveri. cioè economicamente non è che eravamo dei morti di fame perché avevamo il panificio però mi sono accorto della condizione perché se non hai il confronto pensi che tutti sono così allora mi ricordo io avevo degli amici anche loro poveri per esempio che a scuola non si facevano accompagnare dal papà con quella macchina orrenda ma si facevano lasciaggi un po' prima e poi arrivavano a piedi prima parlando anche Mauro ha detto siccome io abitavo nelle case popolari mi piaceva una sull'autobus scendevo sempre due fermate dopo dove c'erano le case un po' più belle e poi me la facevo a piedi magari anche guardando con faccia schipata quando passa davanti a casa sua sti straccioni guarda quello sembra mia mamma quella stracciona Quindi ci sono quelli per esempio quando tu eri povero, non so se adesso è ancora così, però ammaccavi la portiera della macchina, la macchina era bianca, poi non è che tu andavi in concessionario, andavi da quello, la bristica marrottamata, quello lì che ha tutte le marrottamazioni, e lui ti dice se ce l'hai una portiera da 126, ma è marrone, quindi... quindi c'hai la macchina bianca la portiera o il cofano verde la macchina blu sai quelle cose lì e quindi poi il bambino un po' si vergogna non lo so magari dall'aspetto fisico dei genitori non lo so dalla povertà io penso oppure anche quelli eccentrici magari arriva il papà con il cappello e la pelliccia uno dice papà non mi accompagnare va bene diteci le cose di cui vi siete un po' vergognati 347 347 342 5220 oppure diretta chioccioladj.it ma per darvi una svegliata sentite qua cosa ho scelto stamattina Nadine chi sarebbe?",
+    "testo": "Ma cosa c'è? Parliamo di una cosa seria invece. Questa mattina vorremmo giocare, scherzare con voi parlando di questa cosa, di quando da bambini o da adolescenti avete avuto, avete cominciato diciamo a uscire di casa, no? Quindi magari andando a scuola o così, e avete capito che il mondo fuori era un po' diverso dal mondo dentro. Cioè io per esempio quando ho cominciato a uscire di casa mi sono accorto che eravamo poveri. cioè economicamente non è che eravamo dei morti di fame perché avevamo il panificio però mi sono accorto della condizione perché se non hai il confronto pensi che tutti sono così allora mi ricordo io avevo degli amici anche loro poveri per esempio che a scuola non si facevano accompagnare dal papà con quella macchina orrenda ma si facevano lasciaggi un po' prima e poi arrivavano a piedi prima parlando anche Mauro ha detto siccome io abitavo nelle case popolari mi piaceva una sull'autobus scendevo sempre due fermate dopo dove c'erano le case un po' più belle e poi me la facevo a piedi magari anche guardando con faccia schipata quando passa davanti a casa sua sti straccioni guarda quello sembra mia mamma quella stracciona Quindi ci sono quelli per esempio quando tu eri povero, non so se adesso è ancora così, però ammaccavi la portiera della macchina, la macchina era bianca, poi non è che tu andavi in concessionario, andavi da quello, la bristica marrottamata, quello lì che ha tutte le marrottamazioni. E lui ti dice, se ce l'ho io una portiera da 126, ma è marrone, quindi... quindi hai la macchina bianca o il cofano verde la macchina blu, sai quelle cose lì e quindi poi il bambino un po' si vergogna non lo so, magari dall'aspetto fisico dei genitori non lo so, dalla povertà oppure anche quelli eccentrici magari arriva il papà con il cappello e la pelliccia e uno dice papà, non mi accompagnare va bene diteci le cose di cui vi siete un po' vergognati 347 342 5220 oppure direttachioccioladj.it ma per darvi una svegliata sentite qua cosa ho scelto stamattina Nadine chi sarebbe? I thought I saw my future bride walking up the street I shouted to the driver, head conductor",
     "titolo": "Infanzia e mondo esterno",
     "tema": [
       "infanzia",
@@ -198,11 +184,22 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-18-015",
+    "id": "2016-01-18-014",
     "start": 664.94,
-    "end": 665.04,
-    "speaker_raw": "SPEAKER_10",
-    "testo": "Ciao!",
+    "end": 665.06,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "grazie",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-01-18-015",
+    "start": 719.09,
+    "end": 748.89,
+    "speaker_raw": "SPEAKER_01",
+    "testo": "cioè se Chuck Berry non vi ha cambiato un po' l'umore da quando vi siete alzati questa mattina ad adesso eravamo indecisi questa è una delle mie preferite ovviamente la più famosa è Johnny Big però c'è anche quella famosa che è questa no No Particoli Place to Go si chiama. Non c'è un posto in particolare dove andare. E sa come si divertivano con questa musica.",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -210,34 +207,20 @@
   },
   {
     "id": "2016-01-18-016",
-    "start": 719.09,
-    "end": 748.89,
-    "speaker_raw": "SPEAKER_01",
-    "testo": "cioè se Chuck Berry non vi ha cambiato un po' l'umore da quando vi siete alzati questa mattina ad adesso eravamo indecisi questa è una delle mie preferite ovviamente la più famosa è Johnny Big però c'è anche quella famosa che è questa no no no no no No Particoli Place to Go si chiama. Non c'è un posto in particolare dove andare. E sa come si divertivano con questa musica.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": "",
-    "autore": ""
-  },
-  {
-    "id": "2016-01-18-017",
     "start": 752.1,
-    "end": 775.98,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "no particular place to go 3, 2, 1, 2, 3 riding along in my automobile sempre water to tell her the way I feel so I told her softly and sincerely and she leaned and whispered in my ear cuddling more and driving slow with no particular place to go",
+    "end": 776.28,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "No particular place to go 3, 4, 3, 2, 1 Riding along in my automobile Sempre water Tell her the way I feel So I told her softly and sincerely And she leaned and whispered in my ear Cuddling more and driving slow With no particular place to go Thank you",
     "titolo": "No Particular Place to Go",
     "tema": [
       "musica",
       "Chuck Berry"
     ],
     "tipo": "riferimento_musica",
-    "video_url": "",
-    "confermato_esterno": true,
-    "copertina": "https://coverartarchive.org/release/9b73ad9c-4a05-45a2-9351-1c2190ea5992/front-250"
+    "video_url": ""
   },
   {
-    "id": "2016-01-18-018",
+    "id": "2016-01-18-017",
     "start": 784.32,
     "end": 821.33,
     "speaker_raw": "SPEAKER_01",
@@ -251,10 +234,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-18-019",
+    "id": "2016-01-18-018",
     "start": 822.51,
     "end": 828.21,
-    "speaker_raw": "SPEAKER_05",
+    "speaker_raw": "SPEAKER_04",
     "testo": "secondo te i tuoi figli di cosa si vergogneranno rispetto a i miei figli?",
     "titolo": "I figli e la vergogna",
     "tema": [
@@ -265,7 +248,7 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-18-020",
+    "id": "2016-01-18-019",
     "start": 828.41,
     "end": 880.22,
     "speaker_raw": "SPEAKER_01",
@@ -279,10 +262,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-18-021",
+    "id": "2016-01-18-020",
     "start": 880.26,
     "end": 884.02,
-    "speaker_raw": "SPEAKER_05",
+    "speaker_raw": "SPEAKER_04",
     "testo": "I bambetti che conoscevi una ragazza e tornavi a casa.",
     "titolo": "Ricordi d'infanzia",
     "tema": [
@@ -293,11 +276,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-18-022",
+    "id": "2016-01-18-021",
     "start": 884.32,
     "end": 933.57,
     "speaker_raw": "SPEAKER_01",
-    "testo": "Troviamoci direttamente là, perché... non guardarti intorno mentre va allora ciao a tutti mio padre veniva a prendermi a scuola pensa come siamo invecchiati perché lei dice in macchina ascoltava ciao belli con le mie amiche a tutto volume io mi vergognavo le mie amiche ridevano invece vedi era tutte robe un po' magari volgari ma la cosa interessante intanto i miei figli si chiamano Bonetti e sono salvi comunque poi li porterò all'estero a un certo punto per evitare ma c'è un articolo oggi per l'uscita di questa serie tv di cui vi abbiamo già parlato qualche mese fa che si chiama Vinyl una serie sul mondo della discografia ambientata a New York prodotta da Scorsese e Mick Jagger all'interno della serie c'è una band rock e il cantante leader è il figlio di Mick Jagger esatto e nell'intervista oggi su",
+    "testo": "Troviamoci direttamente là, perché... non guardarti intorno mentre va allora ciao a tutti mio padre veniva a prendermi a scuola pensa come siamo invecchiati perché lei dice in macchina ascoltava ciao belli con le mie amiche a tutto volume io mi vergognavo le mie amiche ridevano invece vedi era tutte robe un po' magari volgari ma la cosa interessante intanto i miei figli si chiamano Bonetti di cognome sono salvi comunque poi li porterò all'estero a un certo punto per evitare ma c'è un articolo oggi per l'uscita di questa serie tv di cui vi abbiamo già parlato qualche mese fa che si chiama Vinyl una serie sul mondo della discografia ambientata a New York prodotta da Scorsese e Mick Jagger all'interno della serie c'è una band rock e il cantante leader è il figlio di Mick Jagger esatto e nell'intervista oggi su",
     "titolo": "infanzia del conduttore",
     "tema": [
       "infanzia",
@@ -307,11 +290,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-18-023",
+    "id": "2016-01-18-022",
     "start": 934.16,
-    "end": 971.77,
-    "speaker_raw": "SPEAKER_05",
-    "testo": "sia la stampa che la Repubblica James Jagger dice che in passato è stato messo in imbarazzo dall'avere un padre così ingombrante cioè tu ti vergogni che tuo padre sia Mick Jagger non che ti vergogni ci sono dei momenti in cui lui dice testò le parole quando sei adolescente un padre come il mio può essere ingombrante e farti sentire in imbarazzo ingombrante sicuro in imbarazzo perché comunque avere un padre che va con i pantaloni super attillati che si butta sulla gente però è Mick Jagger cioè non è quello che volesse Mick Jagger della periferia di Brescia ma poi immagina tutte le donne che si strappano ai reggiseni per tuo padre non ce la faccio no?",
+    "end": 975.53,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "sia la stampa che la Repubblica James Jagger dice che in passato è stato messo in imbarazzo dall'avere un padre così ingombrante cioè tu ti vergogni che tuo padre sia Mick Jagger non che ti vergogni ci sono dei momenti in cui lui dice testuali parole quando sei adolescente un padre come il mio può essere ingombrante e farti sentire in imbarazzo ingombrante sicuro in imbarazzo perché comunque avere un padre che va con i pantaloni super attillati che si butta sulla gente però è Mick Jagger cioè non è quello che volesse Mick Jagger della periferia di Brescia ma poi immagina tutte le donne che si strappano ai reggiseni per tuo padre Non ce la faccio, non ce la posso fare, no no no no no, le folle.",
     "titolo": "Mick Jagger e figli",
     "tema": [
       "genitori",
@@ -321,25 +304,24 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-18-024",
-    "start": 971.79,
+    "id": "2016-01-18-023",
+    "start": 975.89,
     "end": 1019.04,
     "speaker_raw": "SPEAKER_01",
-    "testo": "non ce la posso fare no no no no no no non lo so le folle io ho visto gente strapparsi la camicia per mio padre sì sì erano i direttori di banca andavano a discutere però voglio dire la diciamo sempre perché è una bella storia perché immaginate l'intervista alla figlia di di Coso di Calvin Klein che diceva che lei negli anni 90 era nel pieno della sua vita sessuale diceva tutte le volte che spogliavo un uomo leggevo il nome di mio padre sulla mutanda che deve essere veramente difficile dai vieni qua, in ginocchio Calvin Klein e mia sorella si dice ah Bonetti Giovanni ti guardo come il mio amico gay che ha la croce tatuata sulla schiena e io gli dico ma perché ti sei fatto una croce così gli do il senso di colpa",
+    "testo": "Io ho visto gente strapparsi la camicia per mio padre, erano i direttori di banca, andavano a discutere, però voglio dire che la diciamo sempre perché è una bella storia, perché immaginate, l'intervista alla figlia di Coso, di Calvin Klein che diceva che lei negli anni 90 era nel pieno della sua vita sessuale diceva tutte le volte che spogliavo un uomo leggevo il nome di mio padre sulla mutanda che deve essere veramente difficile dai vieni qua, in ginocchio Calvin Klein e mia sorella si dice ah Bonetti Giovanni ti guardo come il mio amico gay che ha la croce tatuata sulla schiena e io gli dico ma perché ti sei fatto una croce così gli do il senso di colpa",
     "titolo": "intervista figlia Calvin Klein",
     "tema": [
       "storia"
     ],
     "tipo": "aneddoto",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
-    "id": "2016-01-18-025",
+    "id": "2016-01-18-024",
     "start": 1030.77,
-    "end": 1218.07,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "Se non fai l'amore subito non sei davvero sicuro di te E c'è una favola per cui chi mangia una mela fa il peccato più grande e più brutto che c'è quando guardo le stelle è così normale pensare che questa vita è bellissima anche se a volte ci tira giù qualcosa ci tira giù Non ho capito come si fa, come si fa Non ho capito come si fa, come si fa C'è una regola per cui serve andare a Berlino Per sentirsi un po' meno normali E c'è una favola per cui solo i soldi davvero ti fanno stare bene quando sto per gridare mi fermo a pensare che questa vita è bellissima anche se a volte ci tira giù ci tira su come si fa sì questa vita è bellissima anche se a volte mi tira giù qualcosa mi tira giù forse Bologna è una regola che sapevi soltanto vuoto non ti dimentico più io non sono partito e non ti ho mai detto se mi hai sbagliato Come si fa? Come si fa? Come si fa? Come si fa? Non ho capito. Come si fa? Come si fa? Come si fa? Come si fa? Non ho capito.",
+    "end": 1225.64,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Se non fai l'amore subito non sei davvero sicuro di te E c'è una favola per cui chi mangia una mela fa il peccato più grande e più brutto che c'è quando guardo le stelle è così normale pensare che questa vita è bellissima anche se a volte ci tira giù qualcosa ci tira giù Non ho capito come si fa, come si fa Non ho capito come si fa, come si fa C'è una regola per cui serve andare a Berlino Per sentirsi un po' meno normali E c'è una favola per cui solo i soldi davvero ti fanno stare bene quando sto per gridare mi fermo a pensare che questa vita è bellissima anche se a volte ci tira giù ci tira su come si fa sì questa vita è bellissima anche se a volte mi tira giù qualcosa mi tira giù forse Bologna è una regola che sapevi soltanto vuoto non ti dimentico più io non sono partito e non ti ho mai detto se mi hai salvato come si fa come si fa come si fa come si fa non ho capito come si fa come si fa come si fa non ho capito mia madre mi mandò un compleanno di un mio amico tutti portavano regali bellissimi mia mamma mi mandò con un paio di calzini tanti auguri",
     "titolo": "La vita è bella",
     "tema": [
       "vita",
@@ -349,11 +331,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-18-026",
-    "start": 1218.11,
+    "id": "2016-01-18-025",
+    "start": 1227.92,
     "end": 1341.72,
     "speaker_raw": "SPEAKER_01",
-    "testo": "Mia madre mi mandò un compleanno di un mio amico, tutti portavano regali bellissimi, mia mamma mi mandò con un paio di calzini. Tanti auguri! Questo è il nuovo Atari, tu cosa mi hai portato? Un paio di calzini di spugna. Beh, utile però. Certo, perché la mamma ragiona così, avrà bisogno delle calze, avrà bisogno delle calze. A scuola mi sono vantato per settimane che mio padre stava per comprare una Volvo, in realtà poi ha comprato una Duna. tranquilli ragazzi c'ha anche i sedili quelli che si scaldano la Volvo, sai i sedili che si scaldano ci sono ancora le macchine con i sedili che si scaldano, ma non è lì come lo accendeva sempre con i sedili della Volvo fa caldo se hai le morroidi ragazzi dovete prendere i sedili e buttarli fuori dal finestrino fantastico allora i miei per non consumare la suola delle scarpe mettevano dei ferretti come i cavalli un rumore che mi vergogno ancora adesso ma scusami il ferretto in che senso per non consumare la suola della scarpa gli mettevano sotto dei ferretti tip tap clic clic clic clic clic clic clic clic clic clic clic clic clic clic clic clic clic clic clic clic clic clic clic clic clic clic clic clic mia mamma mi portava a scuola in pigiama no cioè la mamma rimaneva in pigiama ah ok no quello è imbarazzante quello è imbarazzante no qualcuno dice io mi vergognavo della permanente di mia mamma c'erano quegli anni lì che si avevano tutte delle piante no mio padre metteva Nino D'Angelo a tutto volume eravamo qui a Milano e tutti ridevano mi vergognavo dei vestiti di seconda mano che arrivavano dal cugino svizzero e ora invece vintage adesso è figo va bene va bene pensavo al problema del figlio di Mick Jagger che magari tu esci con una che c'è già ciulato tuo papà quella sì che può essere",
+    "testo": "Questo è il nuovo Atari, tu cosa mi hai portato? Un paio di calzini di spugna. Beh, utile però. Certo, perché la mamma ragiona così, avrà bisogno delle calze, avrà bisogno delle calze. A scuola mi sono vantato per settimane che mio padre stava per comprare una Volvo, in realtà poi ha comprato una Duna. tranquilli ragazzi c'ha anche i sedili quelli che si scaldano la Volvo, sai i sedili che si scaldano ci sono ancora le macchine con i sedili che si scaldano, ma non è lì come lo accendeva sempre con i sedili della Volvo fa caldo se hai le morroidi ragazzi dovete prendere i sedili e buttarli fuori dal finestrino fantastico allora i miei per non consumare la suola delle scarpe mettevano dei ferretti come i cavalli un rumore che mi vergogno ancora adesso ma scusami il ferretto in che senso per non consumare la suola della scarpa gli mettevano sotto dei ferretti tip tap clic clic clic clic clic clic clic clic clic clic clic clic clic clic clic clic clic clic clic clic clic clic clic clic clic clic clic clic clic mia mamma mi portava a scuola in pigiama no cioè la mamma rimaneva in pigiama ah ok no quello è imbarazzante quello è imbarazzante no qualcuno dice io mi vergognavo della permanente di mia mamma c'erano quegli anni lì che si avevano tutte delle piante no mio padre metteva Nino D'Angelo a tutto volume eravamo qui a Milano e tutti ridevano mi vergognavo dei vestiti di seconda mano che arrivavano dal cugino svizzero e ora invece vintage adesso è figo va bene va bene pensavo al problema del figlio di Mick Jagger che magari tu esci con una che c'è già ciulato tuo papà quella sì che può essere",
     "titolo": "La mamma e i calzini",
     "tema": [
       "genitori",
@@ -363,30 +345,29 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-18-027",
+    "id": "2016-01-18-026",
     "start": 1351.47,
     "end": 1363.97,
-    "speaker_raw": "SPEAKER_07",
+    "speaker_raw": "SPEAKER_02",
     "testo": "dimmi dimmi piacere di stare insieme solo per criticare questi sono i blur poi vi spiego cosa è successo",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": "",
-    "autore": ""
-  },
-  {
-    "id": "2016-01-18-028",
-    "start": 1374.04,
-    "end": 1419.75,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "Sì. Ciao! Grazie.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-01-18-029",
+    "id": "2016-01-18-027",
+    "start": 1373.78,
+    "end": 1419.75,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Grazie a tutti. Ciao! Grazie.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-01-18-028",
     "start": 1458.59,
     "end": 1458.73,
     "speaker_raw": "SCONOSCIUTO",
@@ -397,11 +378,22 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-18-030",
+    "id": "2016-01-18-029",
     "start": 1503.36,
-    "end": 1503.65,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "Sì.",
+    "end": 1532.03,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Sì, sì, sì. ... ... ... ...",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-01-18-030",
+    "start": 1564.24,
+    "end": 1758.63,
+    "speaker_raw": "SPEAKER_01",
+    "testo": "questi sono i blur del 1995 praticamente l'anno in cui io questa fa parte delle canzoni che mi ricordo come diciamo le canzoni che andavano quando ho iniziato più o meno a fare la radio ho iniziato nel 94, 95 dovevate farmi fuori cent'anni fa se volevate la tranquillità invece sono qui vivo ancora parlante è un pazzo giovanotti di qua giovanotti di qua giovanotti di là Ma chi è questo? Non me lo ricordate questo pezzo? No, avevo nove anni Chiamiamolo Lorenzo Chissà se Lorenzo se ne ricorda tutte a memoria le sue canzoni Immagino di sì Ma non lo so, sono tante Tu le sai tutte, tu le sai quelle che ti piacciono Lui deve fare tutto l'album Giovanotti di qua, giovanotti Io ho iniziato così praticamente A Brescia in discoteca quando c'era la canzone Cantavo col microfono nella console Coprivi la canzone Coprivo la canzone che fastidio ma se volevo venire a sentire allora mia madre non io Fabio dice un'ascoltatrice mia madre mi comprava sempre le giacche di due taglie più grandi e da maschio così poi le potevo passare a mio fratello più piccolo che vita io però quando andavo a scuola la dimenticavo appositamente e lei mi faceva tornare indietro a prenderla hai dimenticato la giacca e mi sorprende no ma non fai niente non ho freddo e mi sorprende no calma ti leggo i finestrini mamma ti leggo i finestrini allora qui ce n'è una anche un po' seria la vogliamo dire? sì dai sì mi vergognavo un po' della malattia di mia madre aspetta no gli diceva soffriva e soffre di disturbo bipolare sapete i bipolari c'è questo film con infatti Mark Raffalo che è un bel patatone a me piace lui ho visto questo film che in italiano credo che si intende teneramente folli esatto lui è bipolare ha due figlie sono un po' poveri vivono a Boston la mamma decide di tornare diciamo all'università per poter poi fare un lavoro dove guadagna più soldi per dare un futuro migliore ai figli quindi lui si ritrova a Boston da solo con le due bambine Però è bipolare, quindi ha dei momenti di depressione, ha momenti di super euforia e deve gestire questa vita. Fa abbastanza ridere il film perché lui è proprio fuori di testa. Insomma questa ragazza dice io soffrivo appunto di mia mamma bipolare che parlava quando aveva i momenti maniacali, parlava come uno scaricatore, si metteva il rossetto fin sotto il naso. e correva in macchina, ma la cosa che è divertente in questa mail è quello che leggo adesso, era la rappresentante di classe quindi la proprietà di Nicola si diceva un'ansia che tu non puoi capire l'assemblea perché c'era stata un'assemblea che era no ragazzi, merda l'assemblea dopo è cazzo siamo i più forti di tutti ma perché gli altri genitori hanno eletto questa signora rappresentante di classe non lo so, si vede che lo faceva bene salutiamo l'ascoltatrice Silvia e passiamo a Prato attenzione ragazzi Francesco Pronto? Come stai Francesco? Bene so. Stai bene? Ciao Fabio, ciao a tutti. Conosci Viola? Di sei di Prato?",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -409,32 +401,9 @@
   },
   {
     "id": "2016-01-18-031",
-    "start": 1531.61,
-    "end": 1531.93,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "... ... ...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-01-18-032",
-    "start": 1564.24,
-    "end": 1758.63,
-    "speaker_raw": "SPEAKER_01",
-    "testo": "questi sono i blur del 1995 praticamente l'anno in cui io questa fa parte delle canzoni che mi ricordo come diciamo le canzoni che andavano quando ho iniziato più o meno a fare la radio ho iniziato nel 94, 95 dovevate farmi fuori cent'anni fa se volevate la tranquillità invece sono qui vivo ancora parlante è un pazzo giovanotti di qua giovanotti di qua giovanotti di là Ma chi è questo? Non me lo ricordate questo pezzo? No, avevo nove anni Chiamiamolo Lorenzo Chissà se Lorenzo se ne ricorda tutte a memoria le sue canzoni Immagino di sì Ma non lo so, sono tante Tu le sai tutte, tu le sai quelle che ti piacciono Lui deve fare tutto l'album Giovanotti di qua, giovanotti Io ho iniziato così praticamente A Brescia in discoteca quando c'era la canzone Cantavo col microfono nella console E coprivi la canzone Coprivo la canzone che fastidio ma se volevo venire a sentire allora mia madre non io Fabio dice un'ascoltatrice mia madre mi comprava sempre le giacche di due taglie più grandi e da maschio così poi le potevo passare a mio fratello più piccolo ma che vita io però quando andavo a scuola la dimenticavo appositamente e lei mi faceva tornare indietro a prenderla ah ha dimenticato la giacca e mi sorprende no ma non fai niente non ho freddo e mi sorprende no calma ti reggio i finestrini mamma ti reggio i finestrini allora qui ce n'è una anche un po' seria la vogliamo dire? sì dai sì mi vergognavo un po' della malattia di mia madre aspetta no gli diceva soffriva e soffre di disturbo bipolare sapete i bipolari c'è questo film con infatti Mark Raffalo che è un bel patatone a me piace lui ho visto questo film che in italiano credo che si intende teneramente folli esatto lui è bipolare ha due figlie sono un po' poveri vivono a Boston la mamma decide di tornare diciamo all'università per poter poi fare un lavoro dove guadagna più soldi per dare un futuro migliore ai figli quindi lui si ritrova a Boston da solo con le due bambine Però è bipolare, quindi ha dei momenti di depressione, ha momenti di super euforia e deve gestire questa vita. Fa abbastanza ridere il film perché lui è proprio fuori di testa. Insomma questa ragazza dice io soffrivo appunto di mia mamma bipolare che parlava quando aveva i momenti maniacali, parlava come uno scaricatore, si metteva il rossetto fin sotto il naso. E correva in macchina, ma la cosa che è divertente in questa mail è quello che leggo adesso, era la rappresentante di classe. quindi la proprietà di Nicola si diceva un'ansia che tu non puoi capire l'assemblea perché c'era stata un'assemblea che era no ragazzi merda l'assemblea dopo è cazzo siamo i più forti di tutti ma perché gli altri genitori hanno eletto questa signora rappresentante di classe non lo so si vede che lo faceva bene va bene salutiamo l'ascoltatrice Silvia e passiamo a Prato attenzione ragazzi Francesco Pronto? Come stai Francesco? Bene sto. Stai bene? Ciao Fabio, ciao a tutti. Conosci Viola? Di sei di Prato?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": "",
-    "autore": ""
-  },
-  {
-    "id": "2016-01-18-033",
     "start": 1759.1,
     "end": 1764.9,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_05",
     "testo": "No, non credo di averla vista, però ci sto magari di sì da Ozzar, da Ozzner o da altri vari.",
     "titolo": "",
     "tema": [],
@@ -442,7 +411,7 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-18-034",
+    "id": "2016-01-18-032",
     "start": 1764.94,
     "end": 1768.45,
     "speaker_raw": "SPEAKER_01",
@@ -453,10 +422,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-18-035",
+    "id": "2016-01-18-033",
     "start": 1768.71,
     "end": 1769.13,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_05",
     "testo": "32.",
     "titolo": "",
     "tema": [],
@@ -464,7 +433,7 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-18-036",
+    "id": "2016-01-18-034",
     "start": 1769.49,
     "end": 1770.55,
     "speaker_raw": "SPEAKER_01",
@@ -475,10 +444,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-18-037",
+    "id": "2016-01-18-035",
     "start": 1770.57,
     "end": 1771.13,
-    "speaker_raw": "SPEAKER_05",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Sì, un anno in più.",
     "titolo": "",
     "tema": [],
@@ -486,7 +455,7 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-18-038",
+    "id": "2016-01-18-036",
     "start": 1771.51,
     "end": 1803.25,
     "speaker_raw": "SPEAKER_01",
@@ -500,11 +469,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-18-039",
+    "id": "2016-01-18-037",
     "start": 1804.37,
-    "end": 1863.26,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "da bambino quando si suonava in campanella ehi ragazzi giochiamo tutti con giochi d'acqua e si andava tutti sotto casa ci si ritrovava tanti bambini il super liquidator arrivavo giù io con lo spruzzino della mamma per pulire i vetri è riempito con l'acqua dentro rimaneva un po' di vetrille quindi quando li beccavi in faccia i bambini a terra tutti rossi non ci vedo più grazie per considerare potevo fare l'affetto ruboloso perché se giri la rotellina potresti anche fare effetto ruboloso quelli che caricavano il super liquide e tu era tutte le volte una vergogna alla lavanda che fai Francesco? ora lavoro in un bar sono barista sei aperto a quest'ora?",
+    "end": 1854.69,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "da bambino quando si suonava in campanella ragazzi giochiamo tutti con giochi d'acqua e si andava tutti sotto casa ci si ritrovava tanti bambini il super liquidator arrivavo giù io con lo spruzzino della mamma per pulire i vetri è riempito con l'acqua e ero lì dentro rimaneva un po' di vetrille quindi quando li beccavi in faccia i bambini a terra tutti rossi non ci vedo più grazie per considerare potevo fare l'affetto ruboloso perché se giri la rotellina potresti anche fare effetto ruboloso quelli che caricavano il super liquide e tu e io ero Era tutte le volte una vergogna.",
     "titolo": "Il super liquidator",
     "tema": [
       "infanzia",
@@ -514,11 +483,33 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-18-040",
-    "start": 1863.63,
-    "end": 1876.08,
+    "id": "2016-01-18-038",
+    "start": 1854.77,
+    "end": 1859.09,
     "speaker_raw": "SPEAKER_01",
-    "testo": "no oggi siamo in giorno di chiusura ma siete bar quelli della sera o i bar delle colazioni? no bar colazione pranzo e merenda però lunedì siete chiusi e gli uffici lì intorno i negozi lì intorno cosa fanno lunedì?",
+    "testo": "Alla lavanda, alla lavanda. Che fai Francesco?",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-01-18-039",
+    "start": 1859.71,
+    "end": 1861.39,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Ora lavoro in un bar, sono barista.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-01-18-040",
+    "start": 1861.65,
+    "end": 1863.26,
+    "speaker_raw": "SPEAKER_01",
+    "testo": "Sei aperto a quest'ora?",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -526,10 +517,10 @@
   },
   {
     "id": "2016-01-18-041",
-    "start": 1876.82,
-    "end": 1879.26,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Vanno degli altri bar distrutti intorno.",
+    "start": 1863.63,
+    "end": 1864.96,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "No, oggi siamo in giorno di chiusura.",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -537,6 +528,50 @@
   },
   {
     "id": "2016-01-18-042",
+    "start": 1865.02,
+    "end": 1867.38,
+    "speaker_raw": "SPEAKER_01",
+    "testo": "Ma siete bar quelli della sera o i bar delle colazioni?",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-01-18-043",
+    "start": 1867.72,
+    "end": 1870.74,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "No, bar colazione, pranzo e merenda.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-01-18-044",
+    "start": 1870.92,
+    "end": 1876.08,
+    "speaker_raw": "SPEAKER_01",
+    "testo": "Però lunedì siete chiusi. Sì. E gli uffici dintorno, i negozi dintorno cosa fanno lunedì?",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-01-18-045",
+    "start": 1876.82,
+    "end": 1879.26,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Vanno degli altri bar distribuiti intorno.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-01-18-046",
     "start": 1879.3,
     "end": 1882.12,
     "speaker_raw": "SPEAKER_01",
@@ -547,10 +582,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-18-043",
+    "id": "2016-01-18-047",
     "start": 1882.14,
     "end": 1884.72,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Un giorno di riposo ci vuole, solo un giorno.",
     "titolo": "Un giorno di riposo",
     "tema": [
@@ -561,7 +596,7 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-18-044",
+    "id": "2016-01-18-048",
     "start": 1884.76,
     "end": 1886.08,
     "speaker_raw": "SPEAKER_01",
@@ -572,10 +607,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-18-045",
+    "id": "2016-01-18-049",
     "start": 1887.4,
     "end": 1889.82,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Perché sabato e la domenica lavori di più.",
     "titolo": "",
     "tema": [],
@@ -583,7 +618,7 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-18-046",
+    "id": "2016-01-18-050",
     "start": 1889.88,
     "end": 1891.34,
     "speaker_raw": "SPEAKER_01",
@@ -594,56 +629,44 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-18-047",
+    "id": "2016-01-18-051",
     "start": 1891.8,
     "end": 1895.74,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "No, a Mezzano, in un paesino.",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "No, a Mezzane, in un paesino.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-01-18-048",
+    "id": "2016-01-18-052",
     "start": 1895.83,
     "end": 1966.24,
     "speaker_raw": "SPEAKER_01",
-    "testo": "Ah, ok. E c'è Via Vai? cos'è che va la domenica la cioccolata calda d'inverno perché quando si era bambini io mi ricordo che la domenica si prendeva l'autobus il 3 quando eravamo più piccoli andavamo in città il sabato e per convincerci probabilmente io e mia sorella ci rompiamo anche i marroni la cioccolata calda che ovviamente noi prima di mangiare erano due bustine di zucchero sopra che non sprofondavano neanche beh insomma ecco il risultato sono io Francesco buon riposo sei a casa da solo? no con la ragazza allora per quello che hai detto che niente con viola cioè non puoi dirlo ma che scena vabbè ciao Francesco grazie ciao a tutti ciao ciao ciao ciao ciao abbiamo una risposta dalla madre bipolare eletta a capogruppo diciamo non veniva eletta era l'unica che non lavorava per questo faceva lei la rappresentante ottimo ok",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": "",
-    "autore": ""
-  },
-  {
-    "id": "2016-01-18-049",
-    "start": 1987.78,
-    "end": 2069.32,
-    "speaker_raw": "SPEAKER_02",
-    "testo": "... ... ... ... ... ... Grazie. Sì. Sì.",
+    "testo": "Ah, ok. E c'è Via Vai? Cos'è che va la domenica? La cioccolata calda d'inverno? Io ho fatto un monte di cioccolata calda. Perché quando si era bambini, io mi ricordo che la domenica si prendeva l'autobus, il 3, quando eravamo più piccoli, andavamo in città il sabato e per convincerci, probabilmente io e mia sorella ci rompiamo anche i marroni, la cioccolata calda. che ovviamente noi prima di mangiare erano due bustine di zucchero sopra che non sprofondavano neanche beh insomma ecco il risultato sono io Francesco buon riposo sei a casa da solo? no con la ragazza allora per quello che hai detto che niente con viola cioè non puoi dirlo ma che scena vabbè ciao Francesco grazie ciao a tutti ciao ciao ciao ciao ciao abbiamo una risposta dalla madre bipolare eletta a capogruppo diciamo non veniva eletta era l'unica che non lavorava per questo faceva lei la rappresentante ottimo ok",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-01-18-050",
-    "start": 2155.64,
+    "id": "2016-01-18-053",
+    "start": 1987.74,
     "end": 2155.95,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "Oh oh oh oh oh",
+    "speaker_raw": "SPEAKER_03",
+    "testo": "You make me feel Like I'm alive again Alive again You make me feel Like I'm alive again Instead of taking one grazie a tutti Sì Sì Sì Sì Oh oh oh oh oh",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-01-18-051",
+    "id": "2016-01-18-054",
     "start": 2165.45,
     "end": 2304.98,
     "speaker_raw": "SPEAKER_01",
-    "testo": "mia madre mi affidava il compito di gettare il piccolo sacchetto della monnezza ma io ero sempre distratto e me lo portavo fino nel cortile della scuola con lo sguardo del custode basito e divertito e mia madre che guardava da lontano ciao Reste da Napoli mia figlia di tre anni non vuole che le dia il bacino di saluto all'asilo già a tre anni però anch'io da bambino ero così è più una cosa da film secondo me nei film sottolinano sempre questa scena più quando ero piccolo cominciavano ad andare di moda le Nike tutti i miei compagni le avevano mia madre mi comprò un paio di Puma dal mercato delusato gli dipinsi sul baffo Nike col bianchetto della scuola tra l'altro Puma non era caduto neanche tanto male no però sai che è peggio Mike sono cose di va bene Mike va bene le cose allora mi vergognavo degli orrendi sandaletti con gli occhi ve li ricordate quelli blu bianchi io ce li avevo blu che avevano i due buchini davanti Maurizio non te ne ricordi erano blu avevano due buchini davanti che erano quasi all'inizio delle dita dei piedi diciamo ah ho capito e me li mettevano quelli lì con la calza bianca tipo fatta a uncinetto passi se li mettevi senza calza ti rimaneva il piede bianco con i due pallini abbronzati li fanno anche per adulti guarda che sono belli tu hai detto di no, erano belli erano brutti, non lo so allora li vendono ancora tra l'altro mi dice la Stefi, a me piacciono ora li ricompro a... allora abbiamo trovato quella canzone che vi dicevo di Giovanotti che diceva dovevate farmi fuori lui racconta il suo vero nome è Lorenzo Cherubini ma si fa chiamare Giovanotti ma senti che tiro che aveva lui racconta sono io tutti mi criticate ma io sono ancora qua e guardate dove è arrivato prezioso Saturnino al basso Io me la ricordo tutta a memoria. DJ. DJ. DJ. Se ci sta ascoltando si mette a piangere per un pezzo così. Sì. No, nel senso...",
+    "testo": "mia madre mi affidava il compito di gettare il piccolo sacchetto della monnezza ma io ero sempre distratto e me lo portavo fino nel cortile della scuola con lo sguardo del custode basito e divertito e mia madre che guardava da lontano ciao Reste da Napoli mia figlia di tre anni non vuole che le dia il bacino di saluto all'asilo già a tre anni però anch'io da bambino ero così è più una cosa da film secondo me nei film sottolinano sempre questa scena più quando ero piccolo cominciavano ad andare di moda le Nike tutti i miei compagni le avevano mia madre mi comprò un paio di Puma dal mercato delusato gli dipinsi sul baffo Nike col bianchetto della scuola tra l'altro Puma non era caduto neanche tanto male no però sai che è peggio Mike sono cose di va bene Mike va bene le cose allora mi vergognavo degli orrendi sandaletti con gli occhi ve li ricordate quelli blu bianchi io ce li avevo blu che avevano i due buchini davanti Maurizio non te ne ricordi erano blu avevano due buchini davanti che erano quasi all'inizio delle dita dei piedi diciamo ah ho capito avevano quelli lì belli e poi me li mettevano quelli lì con la calza bianca tipo fatta a uncinetto passi perché se li mettevi senza calza ti rimaneva il piede bianco con i due pallini abbronzati abbiamo trovato guarda che sono belli tu hai detto di no, erano belli erano brutti, non lo so allora li vendono ancora tra l'altro mi dice la Stefi, a me piacciono ora li ricompro a 6 allora abbiamo trovato quella canzone che vi dicevo di Giovanotti che diceva dovevate farmi fuori lui racconta il suo vero nome è Lorenzo Cherubini ma si fa chiamare Giovanotti ma senti che tiro che aveva lui racconta sono io tutti mi criticate ma io sono ancora qua e guardate dove è arrivato prezioso Saturnino al basso Io me la ricordo tutta a memoria. DJ. DJ. DJ. Se ci sta ascoltando si mette a piangere per un pezzo così. Sì. No, nel senso...",
     "titolo": "Mia madre e il sacchetto della monnezza",
     "tema": [
       "famiglia",
@@ -653,58 +676,22 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-18-052",
+    "id": "2016-01-18-055",
     "start": 2305.48,
     "end": 2320.15,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "La critica ha parlato. Ho avuto qua per fine tre settimanali. Tutto questo era lo sì, la mia vita speciale. E certo non è stato del tutto normale. Si muore di casa. Oggi qui ti ritorno. Ho avuto fortuna. Puoi dirlo in coro, amico mio, che stai aspettando. Che ormai da cinque anni ti sta scoppiando. Giove notte di quattro.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": "",
-    "autore": ""
-  },
-  {
-    "id": "2016-01-18-053",
-    "start": 2326.44,
-    "end": 2330.16,
-    "speaker_raw": "SPEAKER_01",
-    "testo": "adesso non direbbe mai cazzo in una canzone è vero no è come come",
+    "speaker_raw": "SPEAKER_02",
+    "testo": "La critica ha parlato. Ho avuto copertine da settimanali. Tutto questo ha reso sì la mia vita speciale. E certo non è stato del tutto normale. Si muore di casa. Oggi qui disidoro. Ho avuto fortuna. Puoi dirlo in coro, amico mio, che stai aspettando. Che ormai da cinque anni ti sta scoppiando. Giove notte di quattro.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-01-18-054",
-    "start": 2336.61,
-    "end": 2362.45,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "carica, l'adrenalina a me mi dà la scarica, e credimi fratello, io sono onesto, non è mai tardi e non è mai presto, per cominciare, per l'emozione, basta rimettere in discussione i nostri punti di riferimento, chi ha avuto niente, chi ha avuto cento, niente per sempre, solo la morte, e le bugie hanno le gambe corte, domani cambia giro e sei per terra, oggi la pace e domani la guerra, oggi ha le stelle numero uno, dopo domani non ti caga nessuno, oggi sei solo se ti ... ... ... ... ... ... ...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": "",
-    "autore": ""
-  },
-  {
-    "id": "2016-01-18-055",
-    "start": 2391.49,
-    "end": 2396.57,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "All you got, give to me",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": "",
-    "autore": ""
-  },
-  {
     "id": "2016-01-18-056",
-    "start": 2419.71,
-    "end": 2420.71,
-    "speaker_raw": "SPEAKER_13",
-    "testo": "I don't wanna fall asleep",
+    "start": 2326.44,
+    "end": 2329.43,
+    "speaker_raw": "SPEAKER_01",
+    "testo": "Adesso non direbbe mai cazzo in una canzone. È vero.",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -712,10 +699,10 @@
   },
   {
     "id": "2016-01-18-057",
-    "start": 2453.1,
-    "end": 2453.52,
-    "speaker_raw": "SPEAKER_14",
-    "testo": "a te che",
+    "start": 2337.15,
+    "end": 2362.45,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "l'adrenalina a me mi dà la scarica e credimi fratello, io sono onesto, non è mai tardi e non è mai presto, per cominciare, per l'emozione, basta rimettere in discussione i nostri punti di riferimento, chi ha avuto niente, chi ha avuto cento, niente per sempre, solo la morte, e le bugie hanno le gambe corte, domani cambia giro e sei per terra, oggi la pace e domani la guerra, oggi alle stelle numero uno, dopo domani non ti caga nessuno, oggi sei solo se il ... ... ... ... ... ... ...",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -723,10 +710,10 @@
   },
   {
     "id": "2016-01-18-058",
-    "start": 2479.1,
-    "end": 2479.3,
-    "speaker_raw": "SPEAKER_13",
-    "testo": "no no",
+    "start": 2396.49,
+    "end": 2569.9,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "people take what they want but you don't give it all they say give to me all you got give to me I don't wanna fall asleep ok ok Musica Grazie a tutti. Musica Musica Sì",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -734,43 +721,10 @@
   },
   {
     "id": "2016-01-18-059",
-    "start": 2503.69,
-    "end": 2504.73,
-    "speaker_raw": "SPEAKER_14",
-    "testo": "Grazie a tutti.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-01-18-060",
-    "start": 2536.09,
-    "end": 2536.39,
-    "speaker_raw": "SPEAKER_13",
-    "testo": "Ciao Ciao Ciao",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-01-18-061",
-    "start": 2569.86,
-    "end": 2569.92,
-    "speaker_raw": "SPEAKER_14",
-    "testo": "Sì.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-01-18-062",
     "start": 2586.12,
     "end": 2643.05,
     "speaker_raw": "SPEAKER_01",
-    "testo": "allora non sono stato l'unico insieme a questa ascoltatrice a portare i sandaletti blu con gli occhietti era proprio ma non solo un ascoltatore dice io vendo scarpe e vi dico che questi sandaletti blu con i buchi io mi ricordo prima c'erano anche bianchi però a casa noi bianchi le calze avevamo un ascoltatore dice che è una combo dice maledetta nel senso che erano anche dure le calze erano delle calze di pizzo in ferro battuto praticamente comunque io vendo scarpe e vi dico che soprattutto in maggio giugno quando ancora non fa troppo caldo vanno tantissimo naturalmente si portano quei calzini guarda che sono belle sono imbarazzanti per i bambini secondo me non lo so parliamo di una vergogna una vergogna bella perché Vanessa 30 anni di Lucca si vergognava ma in senso quasi buono perché aveva la mamma buona",
+    "testo": "allora non sono stato l'unico insieme a questa ascoltatrice a portare i sandaletti blu con gli occhietti ma non solo un ascoltatore dice io vendo scarpe e vi dico che questi sandaletti blu con i buchi io mi ricordo prima c'erano anche bianchi però a casa noi bianchi le calze avevamo un ascoltatore dice che è una combo dice maledetta nel senso che erano anche dure le calze erano delle calze di pizzo in ferro battuto praticamente comunque io vendo scarpe e vi dico che soprattutto in maggio giugno quando ancora non fa troppo caldo vanno tantissimo naturalmente si portano quei calzini guarda che sono belle sono imbarazzanti per i bambini secondo me non lo so parliamo di una vergogna una vergogna bella perché Vanessa 30 anni di Lucca si vergognava ma in senso quasi buono perché aveva la mamma buona",
     "titolo": "sandaletti blu con occhietti",
     "tema": [
       "infanzia",
@@ -780,18 +734,18 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-18-063",
+    "id": "2016-01-18-060",
     "start": 2644.57,
     "end": 2682.21,
     "speaker_raw": "SPEAKER_00",
-    "testo": "è vergogna no nel senso che scusami Vanessa che tipo di imbarazzo ti poteva creare i compagni che si esatto bisogna fare una piccola premessa io con la mia mamma ho sempre avuto un rapporto bellissimo e sono sempre stata contenta che lei fosse effettivamente così bella Diciamo che era un po' il contesto che era particolare perché appunto... Ma ti ha avuto molto giovane quindi diciamo... Sì, aveva 24 anni quando mi ha avuto quindi insomma quando io avevo tipo 15-16 anni... Era una quarantenne, un po' più alta, bella, ben fatta, bionda.",
+    "testo": "è vergogna no nel senso che scusami vanessa che tipo di imbarazzo ti poteva creare i compagni che si no esatto cioè bisogna fare una piccola premessa cioè io per mia mamma ho sempre avuto un rapporto bellissimo e sono sempre stata contenta che lei fosse effettivamente così bella Diciamo che era un po' il contesto che era particolare perché appunto... Ma ti ha avuto molto giovane quindi diciamo... Sì, aveva 24 anni quando mi ha avuto quindi insomma quando io avevo tipo 15-16 anni... Era una quarantenne, un po' più alta, bella, ben fatta, bionda.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-01-18-064",
+    "id": "2016-01-18-061",
     "start": 2682.63,
     "end": 2684.03,
     "speaker_raw": "SPEAKER_01",
@@ -802,7 +756,7 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-18-065",
+    "id": "2016-01-18-062",
     "start": 2684.55,
     "end": 2690.69,
     "speaker_raw": "SPEAKER_00",
@@ -813,7 +767,7 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-18-066",
+    "id": "2016-01-18-063",
     "start": 2690.75,
     "end": 2694.01,
     "speaker_raw": "SPEAKER_01",
@@ -824,7 +778,7 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-18-067",
+    "id": "2016-01-18-064",
     "start": 2694.37,
     "end": 2700.17,
     "speaker_raw": "SPEAKER_00",
@@ -835,11 +789,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-18-068",
+    "id": "2016-01-18-065",
     "start": 2700.68,
-    "end": 2716.92,
+    "end": 2710.46,
     "speaker_raw": "SPEAKER_01",
-    "testo": "io ti posso dire anche se sono di un'altra città di un'altra generazione che i tuoi compagni quei programmi radiofonici dedicato a te lì qualche dedica l'han fatta a tua mamma ma ci sta la cosa fantastica era che quando veniva a scuola a parlare",
+    "testo": "Io ti posso dire, anche se sono di un'altra città, di un'altra generazione, che i tuoi compagni, quei programmi radiofonici dedicati a te, lì qualche dedica l'hanno fatta a tua mamma.",
     "titolo": "Vanessa e i professori",
     "tema": [
       "genitori",
@@ -849,19 +803,40 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-18-069",
-    "start": 2717.31,
-    "end": 2772.38,
+    "id": "2016-01-18-066",
+    "start": 2710.52,
+    "end": 2736.93,
     "speaker_raw": "SPEAKER_00",
-    "testo": "con i professori dicevi i menti quelli sai della mattina per sentire come va quando la vedevano nell'accio anche i professori c'era quello che guardava me lo ricordo proprio questa scena di un professore che dà la gomitata all'altro e gli fa da mani tocca a me ah che bello facciamola così a scuola Vanessa domani devi venire accompagnata da tua madre questa cosa non va bene sto calcolo sbagliato mi ha fatto infuriare erano tutti maschi a scuola mia avendo fatto geometria erano tutti maschi quindi tipo quando passava nel corridoio c'erano veramente due o tre che me lo ricordo anche qui me lo ricordo come posti ad essere si facevano il segno della croce e dicevano Dio esiste ma che bello senti ma tu avevi amici maschi anche che venivano a fare i compiti a casa tua Sì, però la mia mamma lavorava.",
+    "testo": "Ma ci sta. La cosa fantastica era che quando venivo a scuola a parlare... con i professori i ricevimenti quelli sai della mattina per sentire come va quando la vedevano nell'accio anche i professori c'era quello che guardava me lo ricordo proprio questa scena di un professore che dà la gomitata all'altro e gli fa, domani tocca a me. Ah, che bello.",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
-    "id": "2016-01-18-070",
+    "id": "2016-01-18-067",
+    "start": 2736.95,
+    "end": 2747.83,
+    "speaker_raw": "SPEAKER_01",
+    "testo": "Tocca a me. Facciamola così a scuola, Vanessa, domani devi venire accompagnata da tua madre, perché questa cosa non va bene, questo calcolo sbagliato mi ha fatto infuriare.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-01-18-068",
+    "start": 2748.09,
+    "end": 2772.38,
+    "speaker_raw": "SPEAKER_00",
+    "testo": "Sì, ma poi erano tutti maschi a scuola mia, perché avendo fatto geometria erano tutti maschi, quindi tipo quando passava nel corridoio... c'erano veramente due o tre che me lo ricordo anche qui me lo ricordo come fosse adesso si facevano il segno della croce e dicevano Dio esiste ma che bello senti ma tu avevi amici maschi anche che venivano non so a fare i compiti a casa tua Sì, però la mia mamma lavorava.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-01-18-069",
     "start": 2772.74,
     "end": 2780.32,
     "speaker_raw": "SPEAKER_01",
@@ -872,7 +847,7 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-18-071",
+    "id": "2016-01-18-070",
     "start": 2780.34,
     "end": 2781.82,
     "speaker_raw": "SPEAKER_00",
@@ -883,7 +858,7 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-18-072",
+    "id": "2016-01-18-071",
     "start": 2781.92,
     "end": 2786.04,
     "speaker_raw": "SPEAKER_01",
@@ -894,7 +869,7 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-18-073",
+    "id": "2016-01-18-072",
     "start": 2786.18,
     "end": 2789.08,
     "speaker_raw": "SPEAKER_00",
@@ -905,11 +880,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-18-074",
+    "id": "2016-01-18-073",
     "start": 2789.26,
     "end": 2792.38,
     "speaker_raw": "SPEAKER_01",
-    "testo": "Ma a 15 anni siamo come dei cagli da tartufo.",
+    "testo": "Ma a 15 anni siamo come dei cai da tartufo.",
     "titolo": "I cagnolini da tartufo",
     "tema": [
       "adolescenza",
@@ -919,74 +894,18 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-18-075",
+    "id": "2016-01-18-074",
     "start": 2792.66,
-    "end": 2797.82,
+    "end": 2832.84,
     "speaker_raw": "SPEAKER_00",
-    "testo": "Allora, un mio compagno le telefonò una sera e mi ha invitato a cena.",
-    "titolo": "Cena con un compagno",
-    "tema": [
-      "amici",
-      "cena"
-    ],
-    "tipo": "aneddoto",
-    "video_url": ""
-  },
-  {
-    "id": "2016-01-18-076",
-    "start": 2798.44,
-    "end": 2798.78,
-    "speaker_raw": "SPEAKER_01",
-    "testo": "cosa?",
+    "testo": "Allora, un mio compagno le telefonò una sera e mi ha invitato a cena. Salve lo so che lei mi vede come uno piccolo Ma lui scusami a quanti anni 16 15 16 chiamò tua madre diciamo intorno ai 40 e ti ricordi quali furono le parole Mi ricordo che si presentò, le disse appunto chi era, se si ricordava, che l'aveva incontrata a scuola, sono compagna di Vanessa e mi farebbe piacere portarla fuori. Scusami.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-01-18-077",
-    "start": 2799.12,
-    "end": 2813.14,
-    "speaker_raw": "SPEAKER_00",
-    "testo": "stupendo salve lo so che lei mi vede come uno piccolo sono il compagno di fece una telefonata poi me l'ha raccontato dopo ci abbiamo scherzato per anni ma lui scusami a quanti anni?",
-    "titolo": "La telefonata di un compagno",
-    "tema": [
-      "amici",
-      "infanzia"
-    ],
-    "tipo": "aneddoto",
-    "video_url": ""
-  },
-  {
-    "id": "2016-01-18-078",
-    "start": 2813.3,
-    "end": 2820.62,
-    "speaker_raw": "SPEAKER_01",
-    "testo": "16, 15, 16? chiamò tua madre diciamo intorno ai 40 e ti ricordi quali furono le parole?",
-    "titolo": "Chiamata a casa",
-    "tema": [
-      "genitori",
-      "amici"
-    ],
-    "tipo": "aneddoto",
-    "video_url": ""
-  },
-  {
-    "id": "2016-01-18-079",
-    "start": 2821.89,
-    "end": 2832.84,
-    "speaker_raw": "SPEAKER_00",
-    "testo": "Mi ricordo che si presentò, le disse appunto chi era, se si ricordava, che l'aveva incontrata a scuola, sono compagna di Vanessa e mi farebbe piacere portarla fuori. Scusami.",
-    "titolo": "La presentazione di un compagno",
-    "tema": [
-      "amici",
-      "infanzia"
-    ],
-    "tipo": "aneddoto",
-    "video_url": ""
-  },
-  {
-    "id": "2016-01-18-080",
+    "id": "2016-01-18-075",
     "start": 2839.01,
     "end": 2889.88,
     "speaker_raw": "SPEAKER_01",
@@ -994,7 +913,6 @@
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   }
 ]

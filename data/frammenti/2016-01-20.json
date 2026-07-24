@@ -2,9 +2,9 @@
   {
     "id": "2016-01-20-000",
     "start": 0.78,
-    "end": 5.38,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "Radio DJ One Nation One Station One",
+    "end": 151.95,
+    "speaker_raw": "SPEAKER_00",
+    "testo": "Radio DJ. One Nation. One Station. One. Grazie a tutti. Anche in un dormito eterno. ... ... ... ... Grazie. Anche in un dormito eterno. Ti sento amato, ma ho visto l'inversa. Ho inclinato gli occhi, non sei più la mia. Amo te? Non so se ti amo. Amo te? Non so se ti amo. Ti sento amato, ma ho visto l'inversa. Ho inclinato gli occhi, non sei più la mia. Grazie a tutti.",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -12,51 +12,59 @@
   },
   {
     "id": "2016-01-20-001",
-    "start": 26.29,
+    "start": 172.16,
     "end": 172.74,
-    "speaker_raw": "SPEAKER_08",
-    "testo": "Grazie a tutti. Grazie per aver guardato il video! Grazie a tutti Grazie. Anche in un dormito eterno. Ti sento amato, ma ho visto l'inversa. Ho inclinato gli occhi, tu non sei più l'inversa. Amo te? Non so se ti amo. Amo te? Non so se ti amo. Ti sento amato, ma ho visto l'inversa. Ho inclinato gli occhi, tu non sei più l'inversa. Grazie a tutti. ... ... ... ... ... ... ...",
-    "titolo": "poesia d'amore",
-    "tema": [
-      "amore",
-      "relazioni"
-    ],
-    "tipo": "citazione",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "... ... ... ... ... ... ...",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
     "id": "2016-01-20-002",
     "start": 208.36,
-    "end": 244.07,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Ogni volta che sento questa canzone invidio dal profondo del mio animo Maurizio che capisce tutto il testo, che padroneggi il francese come... Come l'italienne, come l'italienne. Les italiens, les pauvres. Come va ragazzi? Bene, bene. Bene, bene, bene.",
+    "end": 229.11,
+    "speaker_raw": "SPEAKER_00",
+    "testo": "Ogni volta che sento questa canzone invidio dal profondo del mio animo Maurizio che capisce tutto il testo.",
     "titolo": "canzone francese",
     "tema": [
       "musica",
       "lingua"
     ],
     "tipo": "riferimento_musica",
-    "video_url": "",
-    "confermato_esterno": true,
-    "copertina": "https://coverartarchive.org/release/bbe3657f-0d14-4313-906e-86c726009cb5/front-250"
+    "video_url": ""
   },
   {
     "id": "2016-01-20-003",
+    "start": 229.39,
+    "end": 244.07,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Tu che padroneggi il francese come... Come l'italienne, come l'italienne. Les italiens, les pauvres. Come va ragazzi? Bene, bene. Bene, bene, bene.",
+    "titolo": "canzone francese",
+    "tema": [
+      "musica",
+      "lingua"
+    ],
+    "tipo": "riferimento_musica",
+    "video_url": ""
+  },
+  {
+    "id": "2016-01-20-004",
     "start": 244.25,
     "end": 247.71,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Ah, les italiens. Non mi ricordavo quell'aneddoto.",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
-    "id": "2016-01-20-004",
+    "id": "2016-01-20-005",
     "start": 247.77,
     "end": 326.26,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Les italiens, les pauvres. Oh, bien sûr, nous sommes... Bloccato. sono le 9 e 7 minuti ragazzi guarda che è una roba incredibile guardate che è una roba pazzesca sono le 9 e 7 minuti del 20 di gennaio è già il 20 di gennaio voi ve lo ricordate il vostro capodanno? cioè non sembrava ieri che avete vomitato no non sembrava giusto ieri meno 5 4 siamo già al 20 mannaggia quest'anno febbraio quanti giorni ha 29 quest'anno 29 un giorno in più per arrivare all'estate siamo anche in onda il 29 quel giorno lì a me affascinano quelli che nascono il 29 quelli che dopo devono decidere se festeggiarlo il 28 o l'1 e poi ogni 4 anni come le olimpiadi tra l'altro insieme alle olimpiadi bene ragazzi iniziamo perché come sempre c'è troppa carne al fuoco",
     "titolo": "Capodanno e tempo che passa",
     "tema": [
@@ -67,22 +75,55 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-20-005",
+    "id": "2016-01-20-006",
     "start": 330.44,
-    "end": 376.15,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "bravi continuate così bravi Buongiorno! Grazie.",
+    "end": 336.35,
+    "speaker_raw": "SPEAKER_01",
+    "testo": "bravi continuate così bravi bravi",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-01-20-006",
+    "id": "2016-01-20-007",
+    "start": 352.98,
+    "end": 376.15,
+    "speaker_raw": "SPEAKER_00",
+    "testo": "Buongiorno! Grazie.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-01-20-008",
     "start": 386.01,
+    "end": 406.19,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Ciao Fabio, oggi la mia giornata è partita con una litigata con la mia ragazza. Mi dispiace. Ok, sempre per il solito motivo, l'umore a pezzi, tirami tu sei. Ho una riunione, tirami tu su, tirami su tu. Tirami su tu perché ho anche una riunione importante e sono proprio, diciamo, qua dice umore a pezzi. Tirami tu sei.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-01-20-009",
+    "start": 406.27,
+    "end": 408.44,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "A parte che non ci ha detto qual è sempre il solito motivo.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-01-20-010",
+    "start": 408.6,
     "end": 543.19,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Ciao Fabio, oggi la mia giornata è partita con una litigata con la mia ragazza. Mi dispiace. Ok, sempre per il solito motivo, l'umore a pezzi, tirami tu sei. Ho una riunione, tirami tu su, tirami su tu. Tirami su tu perché ho anche una riunione importante e sono proprio, diciamo qua dice umore a pezzi. a te che non ci ha detto qual è sempre il solito motivo posso dire però credo in generale che ogni coppia non è che litiga per motivi diversi è sempre uno barra due il tema si porta avanti tutta la vita come i grandi registi Fellini ha fatto sempre lo stesso film nel senso ha raccontato più o meno sempre la stessa storia la provincia la noia insomma Hai capito Maurizio? E quindi ogni coppia è sempre la stessa storia. Quando siamo lì, lo che lo dico anche con la Johanna ogni tanto nella nostra discussione di coppia, ogni tanto diciamo ancora qua siamo, pensavo che... l'avremmo superato sto momento invece è come un cerchietto a un certo punto ti bussano le spalle ti giri è il problema di prima che ha fatto il giro a proposito di Fellini oggi abbiamo una notizia diciamo triste nel senso che è morto Ettore Scola fin capolavori se non li avete visti ovviamente ogni tanto noi al volo del mattino abbiamo messo parti dei suoi film perché sono pezzi dei suoi film perché sono ovviamente bellissimi il mio preferito mi dichiaro subito e ci eravamo tanto amati vi ho stressato così tanto negli anni passati con sto film che credo che lo abbiate visto tutti per esempio adesso Viola ci fa una sinossi perché me l'hai raccontato prima bellissimo una giornata particolare insomma ce ne sono tantissimi oggi voglio anche sul suggerimento degli ascoltatori per chi ci segue proprio che è fedele nostro dobbiamo chiamare quel ragazzo che al liceo chiamò la madre bella gnocca della sua compagna di classe lo dobbiamo chiamare oggi Stefi l'hai avvisato? non l'hai avvisato quindi se ci stai ascoltando ti chiamiamo se non vuoi parlare con noi staccalo no non staccare però se stacchi se ti cade il pisello a mezzogiorno è 05 fai come vuoi sai cosa ha detto la compagna di classe? eh io sentite questo pezzo che mi ha portato stamattina l'ho trovato ieri pomeriggio passeggiando per Milano si chiamano anzi no il gruppo me li ha insegnati Giuliano De Negramaro questo singolo mi piace bello bello divine fits ain't the way non è la via non è la strada non è il modo",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Posso dire però, credo in generale, che ogni coppia non è che litiga per motivi diversi, è sempre uno barra due. Il tema si porta avanti tutta la vita, come i grandi registi, Fellini ha fatto sempre lo stesso film, ha raccontato più o meno sempre la stessa storia, la provincia, la noia, insomma. Hai capito Maurizio? E quindi ogni coppia è sempre la stessa storia. Quando siamo lì, lo dico anche con la Johanna ogni tanto nella nostra discussione di coppia, ogni tanto diciamo ancora qua siamo, pensavo che... l'avremmo superato sto momento invece è come un cerchietto a un certo punto ti bussano le spalle ti giri è il problema di prima che ha fatto il giro a proposito di Fellini oggi abbiamo una notizia diciamo triste nel senso che è morto Ettore Scola fin capolavori se non li avete visti ovviamente ogni tanto noi al volo del mattino abbiamo messo parti dei suoi film perché sono pezzi dei suoi film perché sono ovviamente bellissimi il mio preferito mi dichiaro subito e ci eravamo tanto amati vi ho stressato così tanto negli anni passati con sto film che credo che lo abbiate visto tutti per esempio adesso Viola ci fa una sinossi perché me l'hai raccontato prima bellissimo una giornata particolare insomma ce ne sono tantissimi oggi voglio anche sul suggerimento degli ascoltatori per chi ci segue proprio che è fedele nostro dobbiamo chiamare quel ragazzo che al liceo chiamò la madre della sua compagna di classe lo dobbiamo chiamare oggi Stefi l'hai avvisato? non l'hai avvisato quindi se ci stai ascoltando ti chiamiamo se non vuoi parlare con noi staccalo no non staccare però se stacchi ti cade il pisello a mezzogiorno e 05 sai cosa ha detto la compagna di classe? io sentite questo pezzo che mi ha portato stamattina l'ho trovato ieri pomeriggio passeggiando per Milano si chiamano anzi no il gruppo me li ha insegnati Giuliano De Negramaro questo singolo mi piace bello bello divine fits ain't the way non è la via non è la strada non è il modo",
     "titolo": "litigata e umore",
     "tema": [
       "relazioni",
@@ -92,44 +133,22 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-20-007",
+    "id": "2016-01-20-011",
     "start": 556.62,
-    "end": 638.85,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "Ciao Ciao Grazie a tutti no no",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-01-20-008",
-    "start": 694.77,
-    "end": 694.89,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "Ciao.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-01-20-009",
-    "start": 738.36,
     "end": 738.68,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "Grazie a tutti",
+    "speaker_raw": "SPEAKER_00",
+    "testo": "Ciao Ciao Sì. ... ... ... Ciao. Grazie a tutti",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-01-20-010",
+    "id": "2016-01-20-012",
     "start": 766.7,
     "end": 930.52,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "bello bello sto pezzo no è bello è bello no me lo stai dicendo con il tuo solito modo a me ma parla che ti piace beh bene ragazzi scusate una cosa un giorno ero con un mio amico che fa gli anni il 29 di febbraio ci fermarono i carabinieri e il maresciallo pensava che i documenti fossero falsi certo perché il 29 non esiste non ci credo è una barzelletta è una barzelletta è una barzelletta ok allora dobbiamo parlare appunto diciamo dicendo dobbiamo parlare di tante cose no? avremo il momento Ettore Scola ovviamente perché insomma è una cosa importante ma ieri c'è stato in streaming c'è stata la riunione di redazione del nuovo direttore del giornale La Repubblica che è Mario Calabresi che con noi insomma adesso non ci cagherà più ovviamente però insomma non è che la stampa era il giornale capito del quartiere ci ha sempre considerato anche quando era direttore della stampa adesso è il direttore della Repubblica e noi dobbiamo assolutamente chiamarlo no lui risponde risponde vi ho detto che l'avrei chiamato un po' per ora è occupato è occupato non c'è e con chi sarà il telefono chi c'ha in onda a quest'ora e in onda con l'altra radio cosa ci avrà mai da fare il direttore di review oggi è occupato va bene va bene va bene allora aspetta fermi ragazzi la gente in macchina dice che bella la diretta che inciampano anche loro mica doveva tenere il telefono libero per me è diventato cosa ha detto durante lo studio intanto vogliamo capire quali saranno i cambiamenti del giornale esatto ma ce lo facciamo da lui ieri allo streaming io l'unica cosa diciamo stamattina parlando con Linus l'unica cosa che ci siamo ricordati è che ha detto che il capo redattore deve essere in ufficio alle 7 e comunque se ci pensi è già tardi ecco tu adesso devi fare secondo me un'altra riunione che hai tipo il vice allora ieri ha detto che dovete essere qua alle 7 per me è già tardi ma perché i giornali di notte sono vuoti no sicuramente qualcuno c'è a fare dei turni soprattutto Repubblica cioè se uno succede che una roba importante una bomba una cosa così alle 6 del mattino non c'è nessuno lì ma c'è quelli che li mettono online sono svegli tutta notte come il portinaio ci avranno dei turni e poi dopo vanno a letto durante il giorno Scusatemi Voglio sapere una cosa Metti che io adesso decido di fare questo lavoro Vado in una redazione Lo chiedo anche agli ascoltatori Quando scoppia una bomba Cioè lui, quello lì Come fa a saperlo? Va sulla CNN.",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "bello bello sto pezzo no è bello è bello no me lo stai dicendo con il tuo solito modo a me ma parla che ti piace beh bene ragazzi scusate una cosa un giorno ero con un mio amico che fa gli anni il 29 di febbraio ci fermarono i carabinieri e il maresciallo pensava che i documenti fossero falsi certo perché il 29 non esiste non ci credo è una barzelletta è una barzelletta è una barzelletta ok allora dobbiamo parlare appunto diciamo dicendo dobbiamo parlare di tante cose no avremo il momento vettore scola ovviamente perché insomma è una cosa importante ma ieri c'è stato in streaming c'è stata la riunione di redazione del nuovo direttore del giornale la repubblica che è mario calabresi che con noi insomma adesso non ci cagherà più ovviamente però insomma non è che la stampa era il giornale capito del quartiere ci ha sempre considerato anche quando era direttore della stampa adesso è il direttore della Repubblica e noi dobbiamo assolutamente chiamarlo no lui risponde risponde vi ho detto che l'avrei chiamato un po' per ora è occupato è occupato non c'è e con chi sarà il telefono? chi c'ha in onda a quest'ora? e in onda con l'altra radio ma poi cosa ci avrà mai da fare il direttore di review oggi è occupato va bene va bene va bene allora aspetta fermi ragazzi la gente in macchina dice che bella la diretta che inciampano anche loro mica dovrà tenere il telefono libero per me è diventato cosa ha detto durante lo stri... intanto vogliamo capire quali saranno i cambiamenti del giornale esatto ma ce lo facciamo da lui ieri allo streaming io l'unica cosa diciamo stamattina parlando con Linus l'unica cosa che ci siamo ricordati proprio che ci hai segnato è che ha detto che il capo redattore deve essere in ufficio alle 7 e comunque se ci pensi è già tardi ecco tu adesso devi fare secondo me un'altra riunione che sei tipo il vice allora ieri ha detto che dovete essere qua alle 7 per me è già tardi ma perché i giornali di notte sono vuoti no sicuramente qualcuno c'è a fare dei turni soprattutto Repubblica cioè se uno succede che una roba importante una bomba una cosa così alle 6 del mattino non c'è nessuno lì ma c'è quelli che li mettono online sono svegli tutta notte come il portinaio ci avranno dei turni e poi dopo vanno a letto durante il giorno Scusatemi Voglio sapere una cosa Metti che io adesso decido di fare questo lavoro Vado in una redazione Lo chiedo anche agli ascoltatori Quando scoppia una bomba Cioè lui, quello lì Come fa a saperlo? Va sulla CNN.",
     "titolo": "Fermati dai carabinieri",
     "tema": [
       "amici",
@@ -140,10 +159,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-20-011",
+    "id": "2016-01-20-013",
     "start": 930.62,
     "end": 933.34,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Ci sono le agenzie. No, ci sono le agenzie.",
     "titolo": "",
     "tema": [],
@@ -151,10 +170,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-20-012",
+    "id": "2016-01-20-014",
     "start": 934.22,
     "end": 936.28,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Solo per loro? Solo per i giornalisti?",
     "titolo": "",
     "tema": [],
@@ -162,11 +181,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-20-013",
+    "id": "2016-01-20-015",
     "start": 936.3,
     "end": 942.39,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "Eh sì, ovviamente. Se no, se potessimo avere tutti accesso alle agenzie. Però in linea di massima ormai...",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Eh sì, ovviamente. Se no, se potessimo avere tutti accessi alle agenzie. Però in linea di massima ormai...",
     "titolo": "Accesso alle agenzie",
     "tema": [
       "informazione",
@@ -176,35 +195,33 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-20-014",
+    "id": "2016-01-20-016",
     "start": 942.43,
-    "end": 947.36,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Cioè pagano un abbonamento a un'agenzia che li tiene aggiornati. Ma quello lì...",
+    "end": 947.32,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Cioè pagano un abbonamento a un'agenzia che li tiene aggiornati. Ma quello lì?",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
-    "id": "2016-01-20-015",
+    "id": "2016-01-20-017",
     "start": 947.95,
     "end": 963.86,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_05",
     "testo": "il primo ancora il primo ancora devi avere uno sul posto sì infatti non tutti i giornali riescono a avere direttamente qualcuno sul posto e quindi si fanno l'abbonamento all'agenzia alle agenzie che hanno gente sparsa in tutto il mondo tu che lavoro fai?",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
-    "id": "2016-01-20-016",
+    "id": "2016-01-20-018",
     "start": 963.88,
     "end": 1038.65,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "sto aspettando che succeda qualcosa perché poi lo devo dire un po' in giro va bene Calabresi è occupato? va bene se è occupato partiamo o andiamo su scuola? ragazzi lo chiamiamo Calabresi dopo anche perché poi di Scola ne parlerà anche Linus così c'è un po' di tempo di distacco ma guarda che oggi non ci sono le competizioni lui è il capo ma noi siamo più bravi la polizia rimane male allora facciamolo subito Ettore Scola mettiamo un bel pezzo e una bella canzone mettiamo un pezzo allora i film quello diciamo di cui si parlava sempre c'è anche un bellissimo film con Mastroianni e Troisi che ora è credo che si intitoli se non sbaglio dove Troisi è tutto un po' diciamo chiuso riservato invece Mastroianni che ha il senso di colpa di avere un po' trascurato il figlio gli compra la lancia tema se non sbaglio poi gli dice devi andare in America e Troisi un po' dice lasciami in pace nel mio mondo non tutti vogliamo fare soldi e carriera e successo Invece mettiamo un pezzo di Mastroianni nel famoso film scritto tra l'altro insieme a Maurizio Costanzo, perché dobbiamo anche ricordare questa fenomenologia di Maurizio Costanzo che ha scritto una canzone bellissima, se telefonando, un film stupendo e 40 anni di carriera, quindi complimenti anche a Maurizio Costanzo. Mettiamo un pezzo di questo film, una giornata particolare e poi una bella canzone.",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "sto aspettando che succeda qualcosa perché poi lo devo dire un po' in giro va bene Calabrese è occupato? va bene se è occupato partiamo o andiamo su scuola? ragazzi lo chiamiamo Calabresi dopo anche perché poi di Scola ne parlerà anche Linus così c'è un po' di tempo di distacco ma guarda che oggi non ci sono le competizioni lui è il capo ma noi siamo più bravi la polizia rimane male allora facciamolo subito Ettore Scola mettiamo un bel pezzo e una bella canzone mettiamo un pezzo allora i film Quello diciamo di cui si parlava sempre c'è anche un bellissimo film con Mastroianni e Troisi, che ora è credo che si intitoli se non sbaglio, dove Troisi è tutto un po' chiuso, riservato, invece Mastroianni che ha il senso di colpa di aver un po' trascurato il figlio gli compra la lancia tema se non sbaglio, poi gli dice devi andare in America e Troisi un po' dice lasciami in pace nel mio mondo, non tutti vogliamo fare soldi e carriera e successo. Invece mettiamo un pezzo di Mastroianni nel famoso film scritto tra l'altro insieme a Maurizio Costanzo, perché dobbiamo anche ricordare questa fenomenologia di Maurizio Costanzo che ha scritto una canzone bellissima, se telefonando, un film stupendo e 40 anni di carriera, quindi complimenti anche a Maurizio Costanzo. Mettiamo un pezzo di questo film, una giornata particolare e poi una bella canzone.",
     "titolo": "Aspettando Calabresi",
     "tema": [
       "tempo",
@@ -214,11 +231,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-20-017",
+    "id": "2016-01-20-019",
     "start": 1044.94,
     "end": 1117.83,
-    "speaker_raw": "SPEAKER_00",
-    "testo": "Ma certo che conti, solo che è tutto così assurdo. Oggi stavo, come si dice, stavo per commettere una sciocchezza. Mi ha salvato l'arrivo di una che abita qui di fuori. La vita qualunque sia vale la pena di essere vissuta, non si dice così. Solo che oggi per me è una giornata particolare, lo sai. È come in un sogno, quando vuoi gridare, non... E non ci riesci perché ti manchi il respiro. Poi ho voglia di parlare, parlare, parlare. Te ne accorgi, vero? Oppure che ti devo dire? Scendere nella strada, fermare il primo sconosciuto per raccontargli tutti i fatti miei. Ma fino a spaventarlo, a scandalizzarlo, a menargli anche, guardasi, fargli del male. Qualunque cosa. Posto che stare solo in questa casa che odio. Non dice niente. Pronto? Marco, e farla, cazzo, ma di qualcosa. Ma quello che vuoi, non lo so, parla del tempo, di sport, di un libro che stai leggendo. Ma scusami, senti, quando si è scoraggiati bisogna trovare la forza di reagire e subito, se no non c'è niente da fare. Sei fregato, capisci? Senti, perché non ci ridiamo sopra, eh? Piangere si può farlo anche da soli, ma ridere bisogna essere in due.",
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Ma certo che conti, solo che è tutto così assurdo. Oggi stavo, come si dice, stavo per commettere una sciocchezza. Mi ha salvato l'arrivo di una che abita qui di fuori. La vita qualunque sia vale la pena di essere vissuta, non si dice così. Solo che oggi per me è una giornata particolare, lo sai. È come in un sogno, quando vuoi gridare, non... E non ci riesci perché ti manchi il respiro. Poi ho voglia di parlare, parlare, parlare. Te ne accorgi, vero? Oppure che ti devo dire? Scendere nella strada, fermare il primo sconosciuto per raccontargli tutti i fatti miei. Ma fino a spaventarlo, a scandalizzarlo, a menargli anche, guardasi, fargli del male. Qualunque cosa. Posto che stare solo in questa casa che odio. Non dice niente. Pronto? Marco, è farla, cazzo, ma di qualcosa. Ma quello che vuoi, non lo so, parla del tempo, di sport, di un libro che stai leggendo. Ma scusami, senti, quando si è scoraggiati bisogna trovare la forza di reagire e subito, se no non c'è niente da fare. Sei fregato, capisci? Senti, perché non ci ridiamo sopra, eh? Piangere si può farlo anche da soli, ma ridere bisogna essere in due.",
     "titolo": "Vita vale la pena",
     "tema": [
       "vita",
@@ -228,10 +245,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-20-018",
+    "id": "2016-01-20-020",
     "start": 1121.24,
     "end": 1141.67,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Tra l'altro la donna che gli salva la vita è Sofia Lorenzo. Comunque col film dietro le scuole non sbagliate. Come non sbagliate con questa canzone? Staccate il telefono, accendetevi una sigaretta. Questo è The Grigic in the Sky, il grande concerto nel cielo, da Ipin Floyd, dall'album The Dark Side of the Moon.",
     "titolo": "The Dark Side of the Moon",
     "tema": [
@@ -239,16 +256,14 @@
       "Pink Floyd"
     ],
     "tipo": "riferimento_musica",
-    "video_url": "",
-    "confermato_esterno": true,
-    "copertina": "https://coverartarchive.org/release/96e127b3-ad41-4b47-bf6b-e26c3d3188c5/front-250"
+    "video_url": ""
   },
   {
-    "id": "2016-01-20-019",
+    "id": "2016-01-20-021",
     "start": 1166.36,
-    "end": 1170.16,
-    "speaker_raw": "SPEAKER_05",
-    "testo": "Perché dovrei farlo? Non c'è ragione per farlo. Non c'è ragione.",
+    "end": 1169.35,
+    "speaker_raw": "SPEAKER_01",
+    "testo": "Perché dovrei farlo? Non c'è ragione per farlo.",
     "titolo": "Ragioni per fare qualcosa",
     "tema": [
       "ragione",
@@ -258,7 +273,7 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-20-020",
+    "id": "2016-01-20-022",
     "start": 1332.97,
     "end": 1333.13,
     "speaker_raw": "SCONOSCIUTO",
@@ -269,10 +284,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-20-021",
+    "id": "2016-01-20-023",
     "start": 1380.33,
     "end": 1422.91,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Stamattina. abbiamo fatto durante la colazione in casa un discorso su dove ci piacerebbe andare a vivere dove far crescere i figli sai quei discorsi che si fanno magari non vanno da nessuna parte però insomma il tema lo mette lì e io dico no resto andiamo facciamo poi parte questo disco questa canzone The Great Gig in the Sky dei Pink Floyd e dico anche bello così tolgo le cuffie non me la ascolto per organizzare la seconda mezz'ora del programma e la Viola dice però che due palle Mentre tu hai detto questa canzone però che due palle, io mi sono visto fare la valigia. Ho detto, è il segno che me ne devo andare. È colpa mia. Dimmi Maurizio.",
     "titolo": "Discorso sulla vita",
     "tema": [
@@ -283,11 +298,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-20-022",
+    "id": "2016-01-20-024",
     "start": 1422.93,
-    "end": 1427.66,
-    "speaker_raw": "SPEAKER_05",
-    "testo": "Secondo me siamo stati troppo alti, dobbiamo riabbassare un po'. Il livello? Altica!",
+    "end": 1426.66,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Secondo me siamo stati troppo alti, dobbiamo riabbassare un po'.",
     "titolo": "Riabbassare il livello",
     "tema": [
       "livello",
@@ -297,22 +312,21 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-20-023",
+    "id": "2016-01-20-025",
     "start": 1431.57,
     "end": 1466.06,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_04",
     "testo": "era una bellissima canzone volevo dire è arrivato un messaggio del ragazzo che si firma ha poi messo diciamo BS come dire che scrive da Brescia ma non c'era bisogno perché il messaggio era quattro frecce paina allora ho detto qualcuno di voi capisce questo messaggio cosa vuol dire secondo voi quattro frecce paina Vuol dire quattro frecce della macchina e sigaretta. Cioè lui ha parcheggiato, ha messo le quattro frecce e si è ascoltato sta canzone. Mentre la viola mi diceva... Però sta canzone è che tu le parli.",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
-    "id": "2016-01-20-024",
+    "id": "2016-01-20-026",
     "start": 1466.08,
     "end": 1468.27,
-    "speaker_raw": "SPEAKER_05",
+    "speaker_raw": "SPEAKER_01",
     "testo": "Tara, Tara, avevo una cosa importante da dire.",
     "titolo": "",
     "tema": [],
@@ -320,26 +334,24 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-20-025",
+    "id": "2016-01-20-027",
     "start": 1468.91,
     "end": 1471.41,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Su Ettore Scola o su Pink Floyd? No, in generale.",
     "titolo": "Pink Floyd",
     "tema": [
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": "",
-    "confermato_esterno": true,
-    "copertina": "https://coverartarchive.org/release/bdbdbbf9-a8f0-423d-ae7a-deb3381c9274/front-250"
+    "video_url": ""
   },
   {
-    "id": "2016-01-20-026",
+    "id": "2016-01-20-028",
     "start": 1471.43,
-    "end": 1472.37,
-    "speaker_raw": "SPEAKER_05",
-    "testo": "Mancano 339 giorni al Natale. Senza esatto.",
+    "end": 1472.47,
+    "speaker_raw": "SPEAKER_01",
+    "testo": "Mancano 339 giorni al Natale. Ma cosa fai?",
     "titolo": "Mancano 339 giorni al Natale",
     "tema": [
       "tempo",
@@ -349,11 +361,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-20-027",
+    "id": "2016-01-20-029",
     "start": 1482.87,
-    "end": 1499.28,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "giornata è iniziata benissimo ragazzi sveglia con la mia coinquilina andiamo a vedere l'esame di clinica medica ma prima al bar a fare colazione e qui ascoltano il volo del mattino da Perugia state lì bravi continuate così il programma più ascoltato nei bar il programma più ascoltato nei bar",
+    "end": 1636.97,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "giornata è iniziata benissimo ragazzi sveglia con la mia coinquilina andiamo a vedere l'esame di clinica medica ma prima al bar a fare colazione e qui ascoltano il volo del mattino da Perugia state lì bravi continuate così il programma più ascoltato nei bar Ciao! Grazie a tutti. Ciao Ciao Ciao Musica I know when that hotline bling That can only mean one thing No.",
     "titolo": "colazione e ascolto del volo",
     "tema": [
       "famiglia",
@@ -363,25 +375,22 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-20-028",
-    "start": 1506.24,
-    "end": 1652.61,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "Ciao! Musica Musica Ciao Ciao Ciao Ciao Musica I know when the hotline bling That can only mean one thing I know when the hotline bling That can only mean one thing No. fantastico bene ragazzi allora",
-    "titolo": "Citazione di Hotline Bling",
-    "tema": [
-      "musica"
-    ],
-    "tipo": "riferimento_musica",
-    "video_url": "",
-    "confermato_esterno": false
+    "id": "2016-01-20-030",
+    "start": 1652.01,
+    "end": 1652.87,
+    "speaker_raw": "SPEAKER_00",
+    "testo": "... ... ... ... ... ... ... ... ... ... ...",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
   },
   {
-    "id": "2016-01-20-029",
+    "id": "2016-01-20-031",
     "start": 1679.59,
     "end": 1742.61,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "ce l'abbiamo già anche Mario Calabresi buongiorno mi scusi che l'abbiamo chiamata ed era occupata mi scusi lei Senta Mario, ieri abbiamo visto... Senti, ti do del tu lo stesso, dai, posso? Me l'hai sempre dato. Sì, appunto, no, però adesso magari sai... Vuol dire, anche la stampa era molto dignitosa, però sai, è un passo là, quindi io continuo a darti del tu. Tu al limite fammelo sapere se sbaglio. Per messaggino. Ok, ieri abbiamo visto un pezzo dello streaming. Ok, intanto voglio chiederti se quando hai scritto i tuoi punti ti sei posto il problema... vado in antipatia vado in simpatia perché sai quando arrivi in un posto e dici da domani si fa così quello lì che per esempio si è sempre fatto un po' ha padroneggiato il suo tempo diciamo adesso è arrivato questo romperi capito e ti prendi in antipatia magari ti fai dispetti vabbè ma le persone che pensano che non vai bene ci sono sempre Non fa più niente, la carovana continua e i cani abbaiano, dicono. Allora, senti qua un pezzo del tuo stream e ne parliamo insieme.",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "ce l'abbiamo già anche Mario Calabresi buongiorno mi scusi che l'abbiamo chiamata ed era occupata mi scusi lei Senta Mario, ieri abbiamo visto... Senti, ti do del tu lo stesso, dai, posso? Me l'hai sempre dato. Sì, appunto, no, però adesso magari sai... Vuol dire, anche la stampa era molto dignitosa, però sai, è un passo là, quindi io continuo a darti del tu. Tu al limite fammelo sapere se sbaglio. Per messaggino. Ok, ieri abbiamo visto un pezzo dello streaming. Ok, intanto voglio chiederti se quando hai scritto i tuoi punti ti sei posto il problema... vado in antipatia, vado in simpatia perché sai quando arrivi in un posto e dici da domani si fa così quello lì che per esempio si è sempre fatto un po' ha padroneggiato il suo tempo diciamo adesso è arrivato questo e ti prendi in antipatia e magari ti fai dispetti vabbè ma le persone che pensano che non vai bene ci sono sempre Non fa più niente, la carovana continua e i cani abbaiano, dicono. Allora, senti qua un pezzo del tuo stream e ne parliamo insieme.",
     "titolo": "Mario Calabresi e la stampa",
     "tema": [
       "stampa",
@@ -391,10 +400,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-20-030",
+    "id": "2016-01-20-032",
     "start": 1743.13,
     "end": 1783.67,
-    "speaker_raw": "SPEAKER_01",
+    "speaker_raw": "SPEAKER_03",
     "testo": "In questa squadra si combatte per un centimetro. In questa squadra massacriamo di fatica noi stessi e tutti quelli intorno a noi per un centimetro. ci difendiamo con le unghie e con i denti per un centimetro perché sappiamo che quando andremo a sommare tutti quei centimetri il totale allora farà la differenza tra la vittoria e la sconfitta beh sei arrivato con tanto entusiasmo che abbiamo preso al paecino a centimetro devi sostituire lettore un lettore alla volta che a fine anno sommando i lettori esatto noi che compriamo però la voce sembrava un po' la voce",
     "titolo": "importanza del centimetro",
     "tema": [
@@ -405,37 +414,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-20-031",
-    "start": 1783.67,
-    "end": 1805.76,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "voce di Zucconi era Zucconi che ha fatto l'hai scritto tu il testo ma poi Zucconi ha fatto il discorso da Washington senti noi che abbiamo i giornali qui la mattina quando arriviamo no abbiamo un po' diciamo quella che si chiama la mazzetta e con un po' di giornali Troveremo già dei cambiamenti qui o è tutto un cambiamento interno vostro?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": "",
-    "autore": ""
-  },
-  {
-    "id": "2016-01-20-032",
-    "start": 1806.12,
-    "end": 1819.45,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "No, no, ma guarda ti dico una cosa fondamentale, non bisogna più ragionare sul fatto che Repubblica è un giornale, poi c'è un'altra cosa che è Repubblica.it, quello che penso io è che oggi se tu guardi come ti comporti tu, tu cosa fai e tu ti...",
-    "titolo": "Non bisogna più ragionare",
-    "tema": [
-      "media",
-      "informazione"
-    ],
-    "tipo": "riflessione",
-    "video_url": ""
-  },
-  {
     "id": "2016-01-20-033",
-    "start": 1820.77,
-    "end": 1823.63,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Io mi sveglio la mattina, telefono, quello che è, esatto.",
+    "start": 1783.67,
+    "end": 2069.5,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "voce di Zucconi era Zucconi che ha fatto l'hai scritto tu il testo ma poi Zucconi ha fatto il discorso da Washington senti noi che abbiamo i giornali qui la mattina quando arriviamo no abbiamo un po' diciamo quella che si chiama la mazzetta e con un po' di giornali Troveremo già dei cambiamenti qui o è tutto un cambiamento interno vostro? No, no, ma guarda ti dico una cosa fondamentale, non bisogna più ragionare sul fatto che Repubblica è un giornale, poi c'è un'altra cosa che è Repubblica.it, quello che penso io è che oggi se tu guardi che comporti tu, tu cosa fai? Io mi sveglio la mattina, telefono, quello che è, esatto. E guardi il telefono, guardi le notizie sul telefono. Un tempo nei giornali, per anni, la battaglia era la battaglia della sera. Chi riusciva a chiudere più velocemente più tardi per avere l'ultima notizia. Oggi la battaglia è la battaglia del mattino. Quel famoso centimetro si deve conquistare alle sette del mattino, il lettore. Alle sette e mezza, alle otto, non si conquista più. a mezzanotte e allora il fatto è cambiare il modo di lavorare e gli orari per essere presente con del buon giornalismo di qualità delle cose le ultime notizie di approfondimenti già sul tuo telefono alle sette del mattino allora di fatti tu per esempio hai scritto no riunioni dopo mi sembra le tre dopo l'una e mezza non mi ricordo ma no la riunione ha senso fare la riunione ahimè questa è la vera novità la riunione alle otto del mattino la riunione alle 8 del mattino però ti serve perché il grande numero dei lettori tu ce l'hai tra le 7 e mezza e le 9 e mezza del mattino ma quello lì che portava prima i bambini a scuola ti faccio un esempio pratico quello si svegliava prendeva i bambini li portava a scuola poi veniva in redazione adesso che deve essere lì presto gli salta al matrimonio perché deve mandare a moglie però li va a prendere lui a scuola al pomeriggio esatto Adesso chi fa il turno la mattina al pomeriggio va a prendere i figli a scuola poi va in piscina in palestra legge un libro magari ogni tanto scopre che esiste la possibilità di andare al cinema al primo spettacolo beh insomma comunque diciamo si può godere la famiglia al pomeriggio l'altra appunto questo caporedattore tu lo vuoi lì alle 7 che sei stato buono se ci pensi perché forse doveva essere lì alle 6 per essere in bomba alle 7 vabbè facciamo le 7 quello lì quando l'hai detto era lì quello lì? erano lì molti hai sentito un... comunque la gente ha la... i colleghi tutti hanno la consapevolezza questa stessa cosa la sta facendo anche il Corriere della Sera la sta facendo anche la stampa cioè non ti hanno preso per un folle no non mi hanno preso per un folle Quindi è una grande sfida, sei contento immagino? Sì sono contento, è bello faticoso Non è faticoso come avere un figlio di due anni e uno di tre No però ho letto che tu per esempio dici ragazzi rileggiamo l'articolo perché sono un sacco di refugi Cioè hai fatto anche delle piccole note dal punto di vista pratico Il figlio è sempre di quella cultura per cui si fa tutto di corsa tra le 8 e le 8 di sera se invece uno fa un lavoro un po' più disteso e parte prima secondo me fa meno refusi qual è quella cosa che diciamo che ti piacerebbe cambiare che fa il segno al di là di questa organizzazione interna però per esempio non so più attenzione sulla musica più attenzione su va bene Hai detto una cosa che è più attenzione alla cultura, agli spettacoli, più attenzione alle fotografie, a me piace molto curare le immagini e poi fare denuncia ma anche offrire soluzioni, raccontare che ci sono cose negative ma anche… forza positive che ci sono anche di fronte a gli impiegati che rubano un comune disastroso esiste anche un comune in cui si fa le cose bene sai che ti dico per dirti che io sai sono il lettore ignorante sai che a volte prendo il new york times per le fotografie per dirti che hai appena detto perché sa delle fotografie e me la prendo me la ritaglio anche magari senti allora in bocca al lupo e al prossimo streaming ti mettiamo in onda un centimetro alla volta adesso lo devi rifare dicendo un lettore però identico lo fai una mattina in bocca al lupo ciao ciao ciao il mondo cambia ragazzi domani vi voglio qui alle 5 voi io vi voglio alle 8 ma voi alle 5 voglio i pancake dice la Stefi che è già qua alle 5 braccio braccio",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -443,140 +426,32 @@
   },
   {
     "id": "2016-01-20-034",
-    "start": 1823.65,
-    "end": 1872.37,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "E guardi il telefono, guardi le notizie sul telefono. Un tempo nei giornali, per anni, la battaglia era la battaglia della sera. Chi riusciva a chiudere più velocemente, più tardi, per avere l'ultima notizia. Oggi la battaglia è la battaglia del mattino. Quel famoso centimetro si deve conquistare alle sette del mattino, il lettore. Alle sette e mezza, alle otto, non si conquista più. a mezzanotte e allora il fatto è cambiare il modo di lavorare e gli orari per essere presente con del buon giornalismo di qualità delle cose le ultime notizie gli approfondimenti già sul tuo telefono alle 7 del mattino allora di fatti tu per esempio hai scritto no riunioni dopo mi sembra le 3 dopo l'una e mezza non mi ricordo ma no la riunione ha senso fare la riunione ahimè questa è la vera novità la riunione alle 8 del mattino",
-    "titolo": "battaglia del mattino",
-    "tema": [
-      "informazione",
-      "tempo"
-    ],
-    "tipo": "riflessione",
+    "start": 2100.83,
+    "end": 2101.13,
+    "speaker_raw": "SPEAKER_00",
+    "testo": "Grazie.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
     "id": "2016-01-20-035",
-    "start": 1873.94,
-    "end": 1899.28,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "la riunione alle 8 del mattino però ti serve perché il grande numero dei lettori tu ce l'hai tra le 7 e mezza e le 9 e mezza del mattino ma quello lì che portava prima i bambini a scuola ti faccio un esempio pratico quello si svegliava prendeva i bambini li portava a scuola poi veniva in redazione adesso che deve essere lì presto gli salta al matrimonio perché deve mandare a moglie non sono sicuro però li va a prendere lui a scuola al pomeriggio esatto",
-    "titolo": "Il caporedattore e la sua famiglia",
-    "tema": [
-      "famiglia",
-      "lavoro"
-    ],
-    "tipo": "aneddoto",
+    "start": 2204.41,
+    "end": 2205.03,
+    "speaker_raw": "SCONOSCIUTO",
+    "testo": "Ciao Ciao",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
     "id": "2016-01-20-036",
-    "start": 1903.58,
-    "end": 1914.66,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "Adesso chi fa il turno la mattina al pomeriggio va a prendere i figli a scuola, poi va in piscina, in palestra, legge un libro, magari ogni tanto scopre che esiste la possibilità di andare al cinema al primo spettacolo.",
-    "titolo": "La vita moderna e la famiglia",
-    "tema": [
-      "famiglia",
-      "tempo"
-    ],
-    "tipo": "riflessione",
-    "video_url": ""
-  },
-  {
-    "id": "2016-01-20-037",
-    "start": 1915.02,
-    "end": 1933.45,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "beh insomma comunque diciamo si può godere la famiglia al pomeriggio l'altra appunto questo caporedattore tu lo vuoi lì alle 7 che sei stato buono se ci pensi perché forse doveva essere lì alle 6 per essere in bomba alle 7 vabbè facciamo le 7 quello lì quando l'hai detto era lì quello lì?",
-    "titolo": "caporedattore e sveglia",
-    "tema": [
-      "lavoro",
-      "sveglia"
-    ],
-    "tipo": "aneddoto",
-    "video_url": ""
-  },
-  {
-    "id": "2016-01-20-038",
-    "start": 1933.57,
-    "end": 1952.96,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "erano lì molti hai sentito un... comunque la gente ha la... i colleghi tutti hanno la consapevolezza questa stessa cosa la sta facendo anche il Corriere della Sera la sta facendo anche la stampa cioè non ti hanno preso per un folle no non mi hanno preso per un folle",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": "",
-    "autore": ""
-  },
-  {
-    "id": "2016-01-20-039",
-    "start": 1956.22,
-    "end": 2000.99,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Quindi è una grande sfida, sei contento immagino? Sì sono contento, è bello faticoso Non è faticoso come avere un figlio di due anni e uno di tre No però ho letto che tu per esempio dici ragazzi rileggiamo l'articolo perché sono un sacco di refugi Cioè hai fatto anche delle piccole note dal punto di vista pratico Il figlio è sempre di quella cultura per cui si fa tutto di corsa la notte esatto se invece uno fa un lavoro un po' più disteso e parte prima secondo me fa meno refusi qual è quella cosa che diciamo che ti piacerebbe cambiare che fa il segno al di là di questa organizzazione interna però per esempio non so più attenzione sulla musica più attenzione su va bene",
-    "titolo": "sfida e fatica",
-    "tema": [
-      "lavoro",
-      "famiglia"
-    ],
-    "tipo": "riflessione",
-    "video_url": ""
-  },
-  {
-    "id": "2016-01-20-040",
-    "start": 2002.09,
-    "end": 2018.88,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "hai detto una cosa che è più attenzione alla cultura, agli spettacoli più attenzione alle fotografie a me piace molto curare le immagini e poi fare denuncia ma anche offrire soluzioni raccontare che ci sono non sempre cose negative ma anche",
-    "titolo": "cultura e denuncia",
-    "tema": [
-      "cultura",
-      "denuncia"
-    ],
-    "tipo": "riflessione",
-    "video_url": ""
-  },
-  {
-    "id": "2016-01-20-041",
-    "start": 2019.9,
-    "end": 2069.5,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "forza positive che ci sono anche di fronte a gli impiegati che rubano un comune disastroso esiste anche un comune in cui si fa le cose bene sai che ti dico per dirti che io sai sono il lettore ignorante sai che a volte prendo il new york times per le fotografie per dirti che hai appena detto perché sa delle fotografie e me la prendo me la ritaglio anche magari senti allora in bocca al lupo e al prossimo streaming ti mettiamo in onda un centimetro alla volta adesso lo devi rifare dicendo un lettore però identico lo fai una mattina in bocca al lupo ciao ciao ciao il mondo cambia ragazzi domani vi voglio qui alle 5 a voi io vi voglio alle 8 ma voi alle 5 voglio i pancake dice la Stefi che è già qua alle 5 braccio braccio",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": "",
-    "autore": ""
-  },
-  {
-    "id": "2016-01-20-042",
-    "start": 2100.53,
-    "end": 2100.81,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "Ciao!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-01-20-043",
-    "start": 2204.41,
-    "end": 2205.01,
-    "speaker_raw": "SCONOSCIUTO",
-    "testo": "Grazie a tutti.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-01-20-044",
     "start": 2245.64,
     "end": 2368.39,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Diceva anche, perché alcuni punti di questa redazione sono anche punti che possono andare bene nella vita, diciamo, c'è un punto che propone Calabrese che dice, proponete, io vi ascolto, se non lo fate si noterà di più. Ci sono persone sul posto di lavoro, no, per esempio, che dicono, non dico niente perché poi magari si incazza, mi prende l'antipatia, faccio il mio, devo fare 2 più 2, 4, io faccio 2 più 4, niente propositivi, no. io per esempio un lavoro così muoio dopo tre giorni ho iniziato mio papà però non è che mi doveva dire prendi la scopa pulisci per terra a me piace che vedo le cose e le faccio però dopo sbagli chi ti ha detto di farlo? tu non devi pensare non sei pagato per pensare non sei pagato per fare quello che ti dico di fare ecco io con un datore di lavoro così mi giro un pugno in faccia e vado via subito sono tipo un robottino quelli che... oppure quelli che sul lavoro proprio che sono io me li ricordo alcuni quando venivano mi era capitato di avere delle commesse in negozio anche gente che faceva il panegone che devi dirgli tutto perché per non sbagliare spengono il cervello per non sbagliare non fanno scusami hai visto quella roba lì scusami ma che non la prendi ah no non so se potevo farlo chiedi chiedi va bene allora il ragazzo che ha detto ho un'importante riunione che con cui abbiamo diciamo iniziato butto un po la grammatica a caso questi giorni si vede che sono stanco ma va bene ti si capisce come il ragazzo che ci ha scritto ho iniziato la giornata litigando con la mia fidanzata aveva una riunione importante litighiamo sempre per lo stesso motivo ci ha dato l'idea venerdì perché domani c'è Igor Sibaldi venerdì facciamo ragazzi ci scrivete quali sono i motivi diciamo che l'eterno ritorno di Nietzsche qual è il motivo per cui litigate con la vostra compagna? che è sempre quello lo facciamo bello bella cagata ma chiamiamo un attimo questo Jacopo buongiorno Jacopo intanto che riunione importante hai?",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Diceva anche, perché alcuni punti di questa redazione sono anche punti che possono andare bene nella vita, diciamo, c'è un punto che propone Calabrese che dice, proponete, io vi ascolto, se non lo fate si noterà di più. Ci sono persone sul posto di lavoro, no, per esempio, che dicono, non dico niente perché poi magari si incazza, mi prende l'antipatia, faccio il mio, devo fare 2 più 2, 4, io faccio 2 più 4, niente propositivi, no. io per esempio un lavoro così muoio dopo tre giorni ho iniziato mio papà però non è che mi doveva dire prendi la scopa pulisci per terra a me piace che vedo le cose e le faccio però dopo sbagli chi ti ha detto di farlo? tu non devi pensare non sei pagato per pensare non sei pagato per fare quello che ti dico di fare ecco io con un datore di lavoro così mi giro un pugno in faccia e vado via subito sono tipo un robottino quelli che... oppure quelli che sul lavoro proprio che sono io me li ricordo alcuni quando venivano mi era capitato di avere delle commesse in negozio anche gente che faceva il panegone che devi dirgli tutto perché per non sbagliare spengono il cervello per non sbagliare non fanno scusami hai visto quella roba lì scusami ma che non la prendi ah no non so se potevo farlo chiedi chiedi va bene allora il ragazzo che ha detto ho un'importante riunione che con cui abbiamo diciamo iniziato butto un po la grammatica a capo questi giorni si vede che sono stanco ma va bene ti si capisce come il ragazzo che ci ha scritto ho iniziato la giornata litigando con la mia fidanzata che ho una riunione importante litighiamo sempre per lo stesso motivo ci ha dato l'idea venerdì perché domani c'è Igor Sibaldi venerdì facciamo ragazzi ci scrivete quali sono i motivi diciamo che l'eterno ritorno di Nietzsche qual è il motivo per cui litigate con la vostra compagna? che è sempre quello bello bello bella cagata ma chiamiamo un attimo questo Jacopo buongiorno Jacopo intanto che riunione importante hai?",
     "titolo": "proponete io ascolto",
     "tema": [
       "lavoro",
@@ -586,10 +461,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-20-045",
+    "id": "2016-01-20-037",
     "start": 2368.47,
     "end": 2397.29,
-    "speaker_raw": "SPEAKER_02",
+    "speaker_raw": "SPEAKER_03",
     "testo": "diciamo che io lavoro per una piccola media impresa che è un po' il classico è una parola che ho imparato a Ballarò esatto esatto con le piccole e medie imprese esatto che è però della mia famiglia e quindi delle responsabilità dobbiamo cercare di definire un po' il futuro e vedere come andare verso il futuro prima che il futuro venga addosso a noi e ci travolga tutti ma ci sono i punti di Calabresi ci sono i punti di Calabresi allora",
     "titolo": "Il futuro e le piccole imprese",
     "tema": [
@@ -600,11 +475,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-20-046",
+    "id": "2016-01-20-038",
     "start": 2403.19,
     "end": 2413.17,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "ce n'è uno che dice lavoro, fatica, impegno, volontà, parentesi e basta refusi bello tu dovresti dirlo oggi ragazzi però cosa fate in questa azienda piccolamente impresa?",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "ce n'è uno che dice lavoro, fatica, impegno, volontà, parentesi e basta, rifusi bello, tu dovresti dirlo oggi ragazzi, cosa fate in questa azienda piccolamente impresa?",
     "titolo": "lavoro e impegno",
     "tema": [
       "lavoro",
@@ -614,22 +489,22 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-20-047",
+    "id": "2016-01-20-039",
     "start": 2413.73,
     "end": 2418.91,
-    "speaker_raw": "SPEAKER_02",
-    "testo": "noi facciamo sospensioni sospensioni per i camion, per i bus ma andiamo avanti",
+    "speaker_raw": "SPEAKER_03",
+    "testo": "noi facciamo sospensioni per i camion, per i bus ma andiamo avanti",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-01-20-048",
-    "start": 2419.21,
+    "id": "2016-01-20-040",
+    "start": 2420.28,
     "end": 2468.68,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "il paese ragazzi allora mi ha chiamato ieri un camionista è pieno di refusi ma cosa ma cosa stai dicendo Jacopo ragazzi basta refusi ok perché la guerra dell'informazione Jacopo senti la discussione con la tua compagna senza entrare nei particolari che sono cose private il tema è sempre quello qual è tu sai che è una parola che inizia per e e finisce per vediamo emorroidi quelle di solito cerco di tenermi e aspetta fermi un attimo e allora vuoi mettere a posto e la devi smettere ma è una cosa fisica? aspetta una cosa seconda parola",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "ragazzi allora mi ha chiamato ieri un camionista è pieno di refusi ma cosa? ma cosa stai dicendo Jacopo? ragazzi basta refusi ok? perché è la guerra dell'informazione Jacopo senti la discussione con la tua compagna senza entrare nei particolari che sono cose private il tema è sempre quello qual è? tu sai che è una parola che inizia per e e finisce per vediamo emorroidi quelle di solito cerco di tenermi e aspetta fermi un attimo e allora vuoi mettere a posto e la devi smettere e ma è una cosa fisica seconda aspetta una cosa seconda parola",
     "titolo": "camionista e refusi",
     "tema": [
       "camion",
@@ -639,36 +514,54 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-20-049",
+    "id": "2016-01-20-041",
     "start": 2469.81,
-    "end": 2491.45,
-    "speaker_raw": "SPEAKER_02",
-    "testo": "La seconda lettera è semplicemente LAX, quindi... Ed io ritornerò, la E che ritorna. Perché alla fine doveva essere solo l'ex che ritornano o gli ex che ritornano.",
+    "end": 2494.0,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "La seconda lettera è semplicemente LAX, quindi... Ed io ritornerò, la E che ritorna. Perché alla fine doveva essere solo l'ex che ritornano o gli ex che ritornano. Il bello è che ritornano sempre da entrambe le parti.",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
-  },
-  {
-    "id": "2016-01-20-050",
-    "start": 2492.03,
-    "end": 2542.88,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "il bello è che ritornano sempre da entrambe le parti allora il punto è quello posso farti una frase scusami è lei che torna l'ex o è te che torna l'ex? no no ma non è un discorso il fatto che ritornino è la presenza la presenza dentro di te dentro di te quelli che hanno anche quelli che hanno anche l'ex proprio fisicamente magari sei nei paesi scusami amore posso fare questo? scusa amore è stata una persona importante nella mia vita non c'è sempre questa frase non è che adesso siamo stati insieme 5 anni adesso non la saluto posso dire anche tu non fai bella figura sembra che me lo dici tu di non salutarla e dico ciao e finita lì ma ti ho visto che ti manda i messaggi ma voleva solo sapere come stavo non vorrei mai che suonassi in maniera diversa",
-    "titolo": "La presenza dell'ex",
-    "tema": [
-      "amore",
-      "relazioni"
-    ],
-    "tipo": "riflessione",
     "video_url": ""
   },
   {
-    "id": "2016-01-20-051",
+    "id": "2016-01-20-042",
+    "start": 2494.42,
+    "end": 2501.5,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Sì, allora il punto è quello. Senti, posso farti una frase? Ma scusami, è lei che torna l'ex o è te che torna l'ex?",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-01-20-043",
+    "start": 2502.26,
+    "end": 2509.27,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "No, no, ma non è un discorso... Il fatto che ritornino è la presenza...",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-01-20-044",
+    "start": 2509.31,
+    "end": 2543.04,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "La presenza dentro di te, dentro di te. Quelli che hanno anche le ex, proprio fisicamente, magari sei nei paesi che... Scusami, scusami amore, posso fare questa... scusa amore è stata una persona importante nella mia vita non c'è sempre sta frase qua cioè non è che adesso sono stati insieme 5 anni adesso non la faccio non la saluto posso dire anche tu non fai bella figura sembra che me lo dici tu di non salutarla e fare la figura difficile e dico ciao e finita lì ma ti ho visto che ti manda i messaggi ma voleva solo sapere come stavo mai non vorrei mai che suonassi in maniera diversa cioè",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-01-20-045",
     "start": 2543.44,
     "end": 2553.21,
-    "speaker_raw": "SPEAKER_02",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Ti spiego velocemente, è semplicemente legato a un fatto che gli strascichi delle storie precedenti sono sempre un po' difficili da spolverare via.",
     "titolo": "strascichi delle storie",
     "tema": [
@@ -679,11 +572,55 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-20-052",
+    "id": "2016-01-20-046",
     "start": 2553.35,
-    "end": 2632.06,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Il fidanzato attuale paga sempre le colpe dell'ex. Esatto, esatto. se quello di prima tradiva lei è super gelosa su questo se quello di prima è ingiustamente ma ti posso dire il fidanzato di prima pagava il padre il padre era fidanzato guarda comunque la giornata è iniziata male voi mi avete ma lei è una persona magnifica ma poi adesso si sta confessando tu con noi, lei col suo ex o lei con Capitan lei poverina lavora 14 ore al giorno senti, è tranquillo va bene, lo spettro comunque ricordati sempre la differenza fondamentale non so se tu hai letto il mio ultimo libro ahahah la cosa è molto semplice allora un ragazzino in una relazione rende la propria compagna gelosa delle altre donne un uomo rende le altre donne gelosa della propria compagna ricordi la differenza è questa sono completamente d'accordo lei deve stare lì al centro tutto il resto ciao Jacopo, ci sentiamo domani dopo la riunione ciao ciao ciao ciao ciao",
+    "end": 2558.13,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Il fidanzato attuale paga sempre le colpe dell'ex. Esatto, esatto.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-01-20-047",
+    "start": 2559.78,
+    "end": 2560.4,
+    "speaker_raw": "SPEAKER_00",
+    "testo": "Capito?",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-01-20-048",
+    "start": 2560.42,
+    "end": 2574.18,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Cioè, se quello di prima tradiva, lei ti rompe i goli, è super gelosa su questo. Se quello di prima, giusta me, è un po'... è ingiustamente, ma ti posso dire, il fidanzato di prima pagava il padre. Guarda... Il padre era fidanzata.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-01-20-049",
+    "start": 2574.22,
+    "end": 2581.65,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Guarda, comunque, la giornata è iniziata male. Voi mi avete... No, ma... Ma lei è una persona magnifica e sono contentissima.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-01-20-050",
+    "start": 2583.21,
+    "end": 2632.72,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "ma poi adesso si sta confessando tu con noi, lei col suo ex o lei con Capital lei poverina lavora 14 ore al giorno senti è tranquillo va bene lo spettro comunque ricordati sempre la differenza fondamentale non so se tu hai letto il mio ultimo libro ahahah La cosa è molto semplice. Un ragazzino in una relazione rende la propria compagna gelosa delle altre donne. Un uomo rende le altre donne gelosa della propria compagna. Ricordi, la differenza è questa. Sono completamente d'accordo. Lei deve stare lì al centro, tutto il resto... Ciao Jacopo, ci sentiamo domani dopo la riunione. Ciao, ciao, ciao. Ciao, ciao, ciao. Ciao, ciao.",
     "titolo": "colpe dell'ex",
     "tema": [
       "relazioni",
@@ -693,22 +630,22 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-20-053",
+    "id": "2016-01-20-051",
     "start": 2722.54,
-    "end": 2780.87,
-    "speaker_raw": "SPEAKER_10",
-    "testo": "Grazie. Ciao!",
+    "end": 2780.83,
+    "speaker_raw": "SPEAKER_00",
+    "testo": "Grazie. Ciao",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-01-20-054",
+    "id": "2016-01-20-052",
     "start": 2836.06,
     "end": 2898.4,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "allora ragazzi mi state scrivendo ci state scrivendo tutti i motivi per cui litigate è la puntata di venerdì mi raccomando tenetevi lì venerdì a bomba il ragazzo che aveva chiamato la mamma della compagna del liceo ha staccato noi avevamo detto all'inizio se non vuoi parlare con noi stacca o ha staccato sì ma io effettivamente mi vergognerei ma no vi vergognerei non è vero secondo me hai fatto una roba da adolescente devi anche capire che adolescente l'ormone ne fa da padrone come si dice esplodi ti scoppiano i fruncoli il corpo è tutto in esplosione fruncoli pisello gonfio la madonna lo butti giù e si tira su sembra Rocky 2 lo butti giù si tira su e non crolla mai capito che schifo che bei momenti poi si arriva alla mia età e dice se stasera forse faccio il ciulino sai che faccio oggi pomeriggio? una penica di mezz'ora che mi aiuta mi sostiene cosa mangio a cena che mi può dare una mano",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "allora ragazzi mi state scrivendo ci state scrivendo tutti i motivi per cui litigate è la puntata di venerdì mi raccomando tenetevi lì venerdì a bomba il ragazzo che aveva chiamato la mamma della compagna del liceo ha staccato noi avevamo detto all'inizio se non vuoi parlare con noi stacca o ha staccato sì ma io effettivamente mi vergognerei ma no vi vergognerei non è vero secondo me hai fatto una roba da adolescente devi anche capire che adolescente l'ormone ne fa da padrone come si dice esplodi ti scoppiano i fruncoli il corpo è tutto in esplosione poi gli uomini fruncoli pisello gonfio la madonna lo butti giù e si tira su sembra Rocky 2 lo butti giù si tira su e non crolla mai capito che schifo che bei momenti poi si arriva alla mia età e dice se stasera forse faccio il ciulino sai che faccio oggi pomeriggio? una penica di mezz'ora che mi aiuta mi sostiene cosa mangio a cena che mi può dare una mano",
     "titolo": "Il ragazzo che aveva chiamato la mamma",
     "tema": [
       "relazione",
