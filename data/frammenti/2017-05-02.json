@@ -3,7 +3,7 @@
     "id": "2017-05-02-000",
     "start": 0.45,
     "end": 123.55,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_05",
     "testo": "I do my makeup in somebody else's car We order different drinks at the same bars I know about what you did and I wanna scream the truth She thinks you love the beach, you're such a damn liar those great whites they have big teeth hope they bite you thought you said that you would always be in love but you're not in love no more did it frighten you how we kissed when we danced on the light of floor on the light of floor but I hear a sound ciao ciao Well, those rumors, they have big teeth. Hope they bite you. Thought you said that you would always be in love. But you're not in love. No more. Did it frighten you? How we kissed when we danced on the light of fall. On the light of fall.",
     "titolo": "",
     "tema": [],
@@ -13,48 +13,21 @@
   {
     "id": "2017-05-02-001",
     "start": 206.01,
-    "end": 301.89,
+    "end": 347.53,
     "speaker_raw": "SPEAKER_01",
-    "testo": "Non capisco cosa ci sia di sbagliato se lei lo considera una delle sue canzoni preferite. Dai, un po' di umiltà. Questa si chiama Lord, questa ragazza si chiama Lord, la canzone si chiama Green Light. L'altro giorno su Spotify ha fatto una playlist per indirizzare, perché poi adesso tutti possono accedere a tantissima musica rispetto ai nostri tempi, che si poteva solo se te la compravi in sostanza o se il tuo amico te la prestava. adesso ormai ogni persona può avere un ragazzino, può avere tutta la musica che vuole con questi social e bla bla bla, lei ha fatto una lista per dire ragazzi se vi piaccio io le mie canzoni preferite sono queste, come facciamo anche noi qui in radio, io dico metto questo, sto facendo le compilation, e Viola si è un po' indispettita, ma l'hai chiamata? sei un po' indispettita con Lorde perché nelle canzoni che lei ha messo nelle sue preferite ha messo anche una sua cioè dove canta lei dai non si fa perché no perché te di solito non so nella lista dei miei libri preferiti ci metti anche tu no non lo metterei mai ma io sono un ragazzo elegante sono un signore vengo solo al cielo ho il sangue blu che cazzo io sono Tolstoi che sono quel poraccio di Dostoievski capito parliamo così nell'oligarchia di noi signori allora ragazzi oggi a grande richiesta soprattutto di altre radio prendetevelo voi è tornato Igor Sibaldi quindi direi Siglam",
+    "testo": "Non capisco cosa ci sia di sbagliato se lei lo considera una delle sue canzoni preferite. Dai, un po' di umiltà. Questa si chiama Lord, questa ragazza si chiama Lord, la canzone si chiama Green Light. L'altro giorno su Spotify ha fatto una playlist per indirizzare, perché poi adesso tutti possono accedere a tantissima musica rispetto ai nostri tempi, che si poteva solo se te la compravi in sostanza o se il tuo amico te la prestava. adesso ormai ogni persona può avere un ragazzino, può avere tutta la musica che vuole con questi social e bla bla bla, lei ha fatto una lista per dire ragazzi se vi piaccio io le mie canzoni preferite sono queste, come facciamo anche noi qui in radio, io dico metto questo, sto facendo le compilation, e Viola si è un po' indispettita, ma l'hai chiamata? sei un po' indispettita con Lorde perché nelle canzoni che lei ha messo nelle sue preferite ha messo anche una sua cioè dove canta lei dai non si fa perché no perché te di solito non so nella lista dei miei libri preferiti ci metti anche tu no non lo metterei mai ma io sono un ragazzo elegante sono un signore vengo solo al cielo ho il sangue blu che cazzo io sono Tolstoi che sono quel poraccio di Dostoievski capito parliamo così nell'oligarchia di noi signori allora ragazzi oggi a grande richiesta soprattutto di altre radio prendetevelo voi è tornato Igor Sibaldi quindi direi Siglam Grazie a tutti. Ma cosa ridi? Rido perché ogni tanto faccio questa cosa dello spaccone, no? Per ridere. A volte penso sempre che non tutti capiscono che sto scherzando, no? Cioè qualcuno si è risentito? No, no, però a proposito di poracci, no? Fammi aprire la mail subito. No, sto scherzando, volevo salutare Leonora che dice ciao oggi sono già al lavoro, sono in coma, sono tornata da New York dopo 28 ore di viaggio.",
     "titolo": "Green Light",
     "tema": [
       "amore"
     ],
     "tipo": "riferimento_musica",
-    "video_url": "",
-    "autore": "SZA",
-    "confermato_esterno": true,
-    "copertina": "https://coverartarchive.org/release/053a8b1b-f85f-485c-8103-14c16a244bfb/front-250"
+    "video_url": ""
   },
   {
     "id": "2017-05-02-002",
-    "start": 304.07,
-    "end": 304.53,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "Grazie a tutti.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-05-02-003",
-    "start": 323.44,
-    "end": 347.53,
-    "speaker_raw": "SPEAKER_01",
-    "testo": "Ma cosa ridi? Rido perché ogni tanto faccio questa cosa dello spaccone, no? Per ridere. A volte penso sempre che non tutti capiscono che sto scherzando, no? Cioè qualcuno si è risentito? No, no, però a proposito di poracci, no? Fammi aprire la mail subito. No, sto scherzando, volevo salutare Leonora che dice ciao oggi sono già al lavoro, sono in coma, sono tornata da New York dopo 28 ore di viaggio.",
-    "titolo": "ritorno da New York",
-    "tema": [
-      "viaggio"
-    ],
-    "tipo": "aneddoto",
-    "video_url": ""
-  },
-  {
-    "id": "2017-05-02-004",
     "start": 347.93,
     "end": 348.39,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Come 28 ore?",
     "titolo": "",
     "tema": [],
@@ -62,7 +35,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-02-005",
+    "id": "2017-05-02-003",
     "start": 348.65,
     "end": 383.83,
     "speaker_raw": "SPEAKER_01",
@@ -73,7 +46,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-02-006",
+    "id": "2017-05-02-004",
     "start": 383.89,
     "end": 385.73,
     "speaker_raw": "SPEAKER_00",
@@ -84,7 +57,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-02-007",
+    "id": "2017-05-02-005",
     "start": 386.15,
     "end": 413.18,
     "speaker_raw": "SPEAKER_01",
@@ -95,10 +68,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-02-008",
+    "id": "2017-05-02-006",
     "start": 413.36,
     "end": 416.53,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Igor, anche quella camera lì. Anche questa telecamera, vedi?",
     "titolo": "",
     "tema": [],
@@ -106,7 +79,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-02-009",
+    "id": "2017-05-02-007",
     "start": 418.01,
     "end": 451.73,
     "speaker_raw": "SPEAKER_01",
@@ -117,7 +90,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-02-010",
+    "id": "2017-05-02-008",
     "start": 452.09,
     "end": 490.56,
     "speaker_raw": "SPEAKER_00",
@@ -128,7 +101,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-02-011",
+    "id": "2017-05-02-009",
     "start": 490.58,
     "end": 514.27,
     "speaker_raw": "SPEAKER_01",
@@ -139,7 +112,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-02-012",
+    "id": "2017-05-02-010",
     "start": 514.31,
     "end": 560.01,
     "speaker_raw": "SPEAKER_00",
@@ -150,7 +123,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-02-013",
+    "id": "2017-05-02-011",
     "start": 560.51,
     "end": 581.97,
     "speaker_raw": "SPEAKER_01",
@@ -161,7 +134,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-02-014",
+    "id": "2017-05-02-012",
     "start": 584.05,
     "end": 586.65,
     "speaker_raw": "SPEAKER_00",
@@ -172,7 +145,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-02-015",
+    "id": "2017-05-02-013",
     "start": 587.27,
     "end": 588.53,
     "speaker_raw": "SPEAKER_01",
@@ -183,7 +156,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-02-016",
+    "id": "2017-05-02-014",
     "start": 588.79,
     "end": 590.19,
     "speaker_raw": "SPEAKER_00",
@@ -194,7 +167,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-02-017",
+    "id": "2017-05-02-015",
     "start": 590.21,
     "end": 591.23,
     "speaker_raw": "SPEAKER_01",
@@ -205,7 +178,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-02-018",
+    "id": "2017-05-02-016",
     "start": 591.41,
     "end": 591.91,
     "speaker_raw": "SPEAKER_00",
@@ -216,7 +189,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-02-019",
+    "id": "2017-05-02-017",
     "start": 591.93,
     "end": 607.3,
     "speaker_raw": "SPEAKER_01",
@@ -227,12 +200,10 @@
       "compassione"
     ],
     "tipo": "riferimento_libro",
-    "video_url": "",
-    "autore": "Fyodor Dostoevsky",
-    "confermato_esterno": false
+    "video_url": ""
   },
   {
-    "id": "2017-05-02-020",
+    "id": "2017-05-02-018",
     "start": 607.58,
     "end": 611.98,
     "speaker_raw": "SPEAKER_00",
@@ -243,7 +214,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-02-021",
+    "id": "2017-05-02-019",
     "start": 612.76,
     "end": 634.24,
     "speaker_raw": "SPEAKER_01",
@@ -254,7 +225,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-02-022",
+    "id": "2017-05-02-020",
     "start": 634.62,
     "end": 691.71,
     "speaker_raw": "SPEAKER_00",
@@ -265,34 +236,20 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-02-023",
+    "id": "2017-05-02-021",
     "start": 733.3,
-    "end": 784.92,
-    "speaker_raw": "SPEAKER_02",
-    "testo": "Ciao! Grazie a tutti",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-05-02-024",
-    "start": 842.57,
     "end": 851.16,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "questo è David Bowie con Let's Spend the Night Together il periodo in cui si pasticciava con Mick Jagger",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Ciao! Grazie a tutti questo è David Bowie con Let's Spend the Night Together il periodo in cui si pasticciava con Mick Jagger",
     "titolo": "Let's Spend the Night Together",
     "tema": [
       "relazione"
     ],
     "tipo": "riferimento_musica",
-    "video_url": "",
-    "autore": "David Bowie",
-    "confermato_esterno": true,
-    "copertina": "https://coverartarchive.org/release/931cbf86-ca91-4e6d-bc60-23e92cab65c8/front-250"
+    "video_url": ""
   },
   {
-    "id": "2017-05-02-025",
+    "id": "2017-05-02-022",
     "start": 864.41,
     "end": 879.57,
     "speaker_raw": "SPEAKER_01",
@@ -306,10 +263,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-02-026",
+    "id": "2017-05-02-023",
     "start": 880.21,
     "end": 882.62,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_05",
     "testo": "No invece sarebbe una bella teoria.",
     "titolo": "",
     "tema": [],
@@ -317,7 +274,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-02-027",
+    "id": "2017-05-02-024",
     "start": 882.67,
     "end": 927.04,
     "speaker_raw": "SPEAKER_01",
@@ -328,7 +285,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-02-028",
+    "id": "2017-05-02-025",
     "start": 927.74,
     "end": 1049.92,
     "speaker_raw": "SPEAKER_00",
@@ -339,7 +296,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-02-029",
+    "id": "2017-05-02-026",
     "start": 1049.96,
     "end": 1055.93,
     "speaker_raw": "SPEAKER_01",
@@ -350,7 +307,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-02-030",
+    "id": "2017-05-02-027",
     "start": 1056.47,
     "end": 1058.09,
     "speaker_raw": "SPEAKER_00",
@@ -361,7 +318,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-02-031",
+    "id": "2017-05-02-028",
     "start": 1059.78,
     "end": 1087.62,
     "speaker_raw": "SPEAKER_01",
@@ -372,12 +329,10 @@
       "compassione"
     ],
     "tipo": "riferimento_libro",
-    "video_url": "",
-    "autore": "Fyodor Dostoevsky",
-    "confermato_esterno": false
+    "video_url": ""
   },
   {
-    "id": "2017-05-02-032",
+    "id": "2017-05-02-029",
     "start": 1089.04,
     "end": 1139.42,
     "speaker_raw": "SPEAKER_00",
@@ -388,15 +343,13 @@
       "salvezza"
     ],
     "tipo": "riferimento_libro",
-    "video_url": "",
-    "autore": "Fyodor Dostoevsky",
-    "confermato_esterno": false
+    "video_url": ""
   },
   {
-    "id": "2017-05-02-033",
+    "id": "2017-05-02-030",
     "start": 1149.59,
     "end": 1229.77,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Second thing, second, don't you tell me what you think that I can be. I'm the one at the sale, I'm the master of my CEO. The master of my CEO. Ciao! Grazie a tutti ciao ciao ciao",
     "titolo": "",
     "tema": [],
@@ -404,7 +357,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-02-034",
+    "id": "2017-05-02-031",
     "start": 1264.8,
     "end": 1265.1,
     "speaker_raw": "SCONOSCIUTO",
@@ -415,7 +368,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-02-035",
+    "id": "2017-05-02-032",
     "start": 1306.99,
     "end": 1366.52,
     "speaker_raw": "SPEAKER_01",
@@ -426,7 +379,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-02-036",
+    "id": "2017-05-02-033",
     "start": 1366.58,
     "end": 1438.15,
     "speaker_raw": "SPEAKER_00",
@@ -437,7 +390,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-02-037",
+    "id": "2017-05-02-034",
     "start": 1438.37,
     "end": 1464.13,
     "speaker_raw": "SPEAKER_01",
@@ -448,7 +401,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-02-038",
+    "id": "2017-05-02-035",
     "start": 1464.39,
     "end": 1490.39,
     "speaker_raw": "SPEAKER_00",
@@ -459,7 +412,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-02-039",
+    "id": "2017-05-02-036",
     "start": 1504.75,
     "end": 1514.01,
     "speaker_raw": "SPEAKER_01",
@@ -470,22 +423,20 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-02-040",
+    "id": "2017-05-02-037",
     "start": 1533.92,
     "end": 1699.57,
-    "speaker_raw": "SPEAKER_09",
+    "speaker_raw": "SPEAKER_05",
     "testo": "La mezza mila. Come un video porno, la signorina Google mi dice dove andare, entrando a gamba tesa sulla voce di mia madre. La mezza a Milano è un viaggio pazzesco, da nonno a Michele. La differenza sociale. Bruno Rissas",
     "titolo": "La Mezza Mila",
     "tema": [
       "differenza sociale"
     ],
     "tipo": "riferimento_libro",
-    "video_url": "",
-    "autore": "Bruno Rissas",
-    "confermato_esterno": false
+    "video_url": ""
   },
   {
-    "id": "2017-05-02-041",
+    "id": "2017-05-02-038",
     "start": 1726.7,
     "end": 1844.69,
     "speaker_raw": "SPEAKER_01",
@@ -496,7 +447,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-02-042",
+    "id": "2017-05-02-039",
     "start": 1844.81,
     "end": 1895.04,
     "speaker_raw": "SPEAKER_00",
@@ -507,7 +458,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-02-043",
+    "id": "2017-05-02-040",
     "start": 1896.38,
     "end": 1912.46,
     "speaker_raw": "SPEAKER_01",
@@ -518,10 +469,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-02-044",
+    "id": "2017-05-02-041",
     "start": 1913.32,
     "end": 1920.4,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_02",
     "testo": "no Fabio il pasticciotto purtroppo non lo posso mangiare perché la crema mi fa male ah sei di quelli il pasticciotto cagotto esatto esatto",
     "titolo": "",
     "tema": [],
@@ -529,7 +480,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-02-045",
+    "id": "2017-05-02-042",
     "start": 1921.82,
     "end": 1968.6,
     "speaker_raw": "SPEAKER_01",
@@ -540,10 +491,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-02-046",
+    "id": "2017-05-02-043",
     "start": 1969.95,
     "end": 1990.67,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Io ho fatto una tesi su un modello per la felicità, cioè che porta al benessere più che alla felicità e contempla la felicità in quanto emozioni positive oppure l'engagement, ora non so se ne avete mai sentito parlare. L'impegno, sì esattamente, il coinvolgimento in un'attività.",
     "titolo": "",
     "tema": [],
@@ -551,7 +502,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-02-047",
+    "id": "2017-05-02-044",
     "start": 1990.89,
     "end": 1996.41,
     "speaker_raw": "SPEAKER_01",
@@ -562,10 +513,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-02-048",
+    "id": "2017-05-02-045",
     "start": 1996.43,
     "end": 2006.09,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_02",
     "testo": "No, assolutamente no, è psicologia pura, è un modello ispirato dal presidente dell'associazione psichiatrica americana, il dottor Seligman.",
     "titolo": "",
     "tema": [],
@@ -573,7 +524,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-02-049",
+    "id": "2017-05-02-046",
     "start": 2006.73,
     "end": 2013.19,
     "speaker_raw": "SPEAKER_01",
@@ -584,10 +535,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-02-050",
+    "id": "2017-05-02-047",
     "start": 2013.25,
     "end": 2023.83,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Si basa su cinque punti, in pratica c'è l'emozione positiva, quindi positive emotion, l'engagement, quindi il coinvolgimento in qualcosa che ti appassiona, che ti piace.",
     "titolo": "",
     "tema": [],
@@ -595,7 +546,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-02-051",
+    "id": "2017-05-02-048",
     "start": 2024.03,
     "end": 2029.78,
     "speaker_raw": "SPEAKER_01",
@@ -606,32 +557,32 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-02-052",
+    "id": "2017-05-02-049",
     "start": 2031.5,
-    "end": 2078.21,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "è più sul lavoro sulla passione quindi pensa positivo fai un lavoro che ti piace adesso l'ha tradotto un po' così poi relazioni positive quindi bisogna avere molti amici visto che chi ha molti amici è felice ok il meaning vale a dire trovare un significato alla propria vita sia religioso ma anche ateo un senso alle cose che fa un obiettivo forse un significato poi il quinto è l'accomplishment vale a dire o meglio che cosa vuol dire?",
+    "end": 2074.49,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "è più sul lavoro sulla passione quindi pensa positivo fai un lavoro che ti piace adesso l'ha tradotto un po' così poi relazioni positive quindi bisogna avere molti amici visto che chi ha molti amici è felice ok il meaning vale a dire trovare un significato alla propria vita sia religioso ma anche ateo un senso alle cose che fa un obiettivo forse un significato poi il quinto è l'accomplishment vale a dire o meglio",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-05-02-053",
-    "start": 2078.25,
+    "id": "2017-05-02-050",
+    "start": 2076.07,
     "end": 2194.62,
     "speaker_raw": "SPEAKER_01",
-    "testo": "che non capisco più niente cos'è l'ultimo? sono gli achievement però in americano li chiamano gli obiettivi da raggiungere gli obiettivi da raggiungere esattamente questi sono 5 sono giusti ce n'è un altro sicuramente che è essere americano? quello aiuta tanto tu lì nella provincia di Lecce a mattino quando vai lì al bar dici io oggi ho il meaning l'accomplishment mi manca il cagotto sono loro che non ti danno il pasticciotto ma scusami tu ce l'hai ancora la nonna una hai parlato di queste cose gli ho parlato del meaning del meaning non ce l'hai il meaning non lo so guarda nella credenza che ne so lei ce l'ha lei ce l'ha il meaning cerca di convincermi senti insomma ti consideri un uomo mediamente felice? assolutamente no la teoria non funziona ieri abbiamo sentito un medico che aveva fatto 7 milioni di ore di turno e ha detto dai prenditi qualche medicinale perché nessuno le mette no ma non prendi medicinali ed era un medico oggi 5 punti per essere felice sai mi dice no è stupendo però ti posso dire Dario che in qualche modo lo sei perché tu hai fatto questa telefonata e noi stiamo ridendo quindi insomma sei portatore come diceva prima Igor portatore di luce sei una persona entusiasta sì mi piace quello che fai esatto esatto va bene grazie Dario salutaci Lecce un bacio ciao ciao ciao ciao ciao",
+    "testo": "che cosa vuol dire? che non capisco più niente cos'è l'ultimo? sono gli achievement però in americano li chiamano gli obiettivi da raggiungere gli obiettivi da raggiungere esattamente questi sono 5 sono giusti ce n'è un altro sicuramente che è essere americano? quello aiuta tanto tu lì nella provincia di Lecce a mattino quando vai lì al bar dici io oggi ho il meaning l'accomplishment mi manca il cagotto sono loro che non ti danno il pasticciotto ma scusami tu ce l'hai ancora la nonna una hai parlato di queste cose gli ho parlato del meaning del meaning non ce l'hai il meaning non lo so guarda nella credenza che ne so lei ce l'ha lei ce l'ha il meaning cerca di convincermi senti insomma ti consideri un uomo mediamente felice? assolutamente no la teoria non funziona ieri abbiamo sentito un medico che aveva fatto 7 milioni di ore di turno e ha detto dai prenditi qualche medicinale perché nessuno le mette no ma non prendi medicinali ed era un medico oggi 5 punti per essere felice sai mi dice no è stupendo però ti posso dire Dario che in qualche modo lo sei perché tu hai fatto questa telefonata e noi stiamo ridendo quindi insomma sei portatore come diceva prima Igor portatore di luce sei una persona entusiasta sì mi piace quello che fai esatto esatto va bene grazie Dario salutaci Lecce un bacio ciao ciao ciao ciao ciao",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-05-02-054",
+    "id": "2017-05-02-051",
     "start": 2202.25,
     "end": 2245.07,
-    "speaker_raw": "SPEAKER_05",
+    "speaker_raw": "SPEAKER_04",
     "testo": "sì sì sì grazie a tutti",
     "titolo": "",
     "tema": [],
@@ -639,18 +590,40 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-02-055",
+    "id": "2017-05-02-052",
     "start": 2268.47,
-    "end": 2327.05,
-    "speaker_raw": "SPEAKER_02",
-    "testo": "grazie grazie a tutti grazie a tutti",
+    "end": 2268.59,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "grazie",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-05-02-056",
+    "id": "2017-05-02-053",
+    "start": 2291.23,
+    "end": 2292.64,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "grazie a tutti",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2017-05-02-054",
+    "start": 2326.67,
+    "end": 2327.05,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "grazie a tutti",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2017-05-02-055",
     "start": 2339.47,
     "end": 2347.64,
     "speaker_raw": "SPEAKER_01",
@@ -661,10 +634,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-02-057",
+    "id": "2017-05-02-056",
     "start": 2347.68,
     "end": 2349.05,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Quindi niente accomplishments.",
     "titolo": "",
     "tema": [],
@@ -672,7 +645,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-02-058",
+    "id": "2017-05-02-057",
     "start": 2349.07,
     "end": 2455.91,
     "speaker_raw": "SPEAKER_01",
@@ -683,7 +656,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-02-059",
+    "id": "2017-05-02-058",
     "start": 2456.57,
     "end": 2533.16,
     "speaker_raw": "SPEAKER_00",
@@ -694,7 +667,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-02-060",
+    "id": "2017-05-02-059",
     "start": 2535.76,
     "end": 2578.93,
     "speaker_raw": "SPEAKER_01",
@@ -705,7 +678,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-02-061",
+    "id": "2017-05-02-060",
     "start": 2579.45,
     "end": 2693.05,
     "speaker_raw": "SPEAKER_00",
@@ -719,7 +692,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-02-062",
+    "id": "2017-05-02-061",
     "start": 2694.66,
     "end": 2717.78,
     "speaker_raw": "SPEAKER_01",
@@ -730,10 +703,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-02-063",
+    "id": "2017-05-02-062",
     "start": 2732.2,
     "end": 2806.22,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_03",
     "testo": "musica Grazie a tutti. grazie a tutti",
     "titolo": "",
     "tema": [],
@@ -741,10 +714,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-02-064",
+    "id": "2017-05-02-063",
     "start": 2849.38,
     "end": 2857.1,
-    "speaker_raw": "SPEAKER_02",
+    "speaker_raw": "SPEAKER_05",
     "testo": "I said some awful things and I take them back",
     "titolo": "I said some awful things",
     "tema": [
@@ -754,10 +727,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-02-065",
+    "id": "2017-05-02-064",
     "start": 2883.95,
     "end": 2914.03,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Before we were lovers I swear we were friends So someone could see me now Let them see you Let them see you See you through All the hard things We've all gotta do Life is long, so you can be wrong.",
     "titolo": "Before we were lovers",
     "tema": [
@@ -767,7 +740,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-02-066",
+    "id": "2017-05-02-065",
     "start": 2917.4,
     "end": 2993.73,
     "speaker_raw": "SPEAKER_01",
@@ -778,7 +751,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-02-067",
+    "id": "2017-05-02-066",
     "start": 2994.67,
     "end": 2998.6,
     "speaker_raw": "SPEAKER_00",
@@ -789,7 +762,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-02-068",
+    "id": "2017-05-02-067",
     "start": 2999.14,
     "end": 3020.58,
     "speaker_raw": "SPEAKER_01",
@@ -803,7 +776,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-02-069",
+    "id": "2017-05-02-068",
     "start": 3020.96,
     "end": 3089.9,
     "speaker_raw": "SPEAKER_00",
@@ -814,7 +787,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-02-070",
+    "id": "2017-05-02-069",
     "start": 3090.6,
     "end": 3115.47,
     "speaker_raw": "SPEAKER_01",
@@ -824,8 +797,6 @@
       "felicità"
     ],
     "tipo": "riferimento_libro",
-    "video_url": "",
-    "autore": "Dostoievski",
-    "confermato_esterno": false
+    "video_url": ""
   }
 ]
