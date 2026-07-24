@@ -495,15 +495,19 @@ class Panel:
             # non un'altra stima indipendente, cosi' i due numeri restano coerenti.
             ore_stimate = mancanti * DURACION_MEDIA_MIN_GPU / 60
             giorni_stimati = ore_stimate / 24
+            # Il dato che conta ORA (campagna --forza in corso) viene PRIMO:
+            # quanti fatti con la config attuale + stima fine. Il vecchio
+            # conteggio grezzo (transcritos/total_audio, include anche la
+            # vecchia config in attesa di turno) resta ma in coda, tra parentesi.
             self.lbl_progreso_total.config(
-                text=f"Progreso total: {transcritos} de {total_audio} episodios transcritos "
-                     f"(rifatti con config attuale: {rifatti}/{total_audio}, mancano {mancanti}, "
-                     f"stima ~{ore_stimate:.0f}h / ~{giorni_stimati:.1f}gg a {DURACION_MEDIA_MIN_GPU:.1f}min/ep)"
+                text=f"Rifatti con config attuale: {rifatti}/{total_audio} — mancano {mancanti}, "
+                     f"stima ~{ore_stimate:.0f}h / ~{giorni_stimati:.1f}gg a {DURACION_MEDIA_MIN_GPU:.1f}min/ep "
+                     f"(totale grezzo: {transcritos} de {total_audio} episodios transcritos)"
             )
         else:
             self.lbl_progreso_total.config(
-                text=f"Progreso total: {transcritos} episodios transcritos (NAS no montado, sin total) "
-                     f"(rifatti con config attuale: {rifatti})"
+                text=f"Rifatti con config attuale: {rifatti} "
+                     f"(totale grezzo: {transcritos} episodios transcritos, NAS no montado, sin total)"
             )
 
         stats_ep = contar_estado_classificazione_episodio(FRAMMENTI_DIR, self.episodio_actual or "")

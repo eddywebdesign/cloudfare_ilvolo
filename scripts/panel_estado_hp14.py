@@ -504,28 +504,32 @@ class PanelEstado:
 
     def _aplicar_progreso(self, transcritos, total_audio, rifatti, stats, stats_ep):
         self._consultando_progreso = False
+        # Il dato che conta ORA (campagna --forza) viene PRIMO, il vecchio
+        # conteggio grezzo in coda tra parentesi - stessa inversione fatta in
+        # panel_control.py (K16), stesso ordine in entrambi i pannelli.
+        if transcritos is None:
+            grezzo_txt = ""
+        elif total_audio:
+            grezzo_txt = f" (totale grezzo: {transcritos} de {total_audio} episodios transcritos)"
+        else:
+            grezzo_txt = f" (totale grezzo: {transcritos} episodios transcritos, share no accesible, sin total)"
         if rifatti is not None and total_audio:
             mancanti = max(0, total_audio - rifatti)
             ore_stimate = mancanti * DURACION_MEDIA_MIN_GPU / 60
             giorni_stimati = ore_stimate / 24
-            rifatti_txt = (f" (rifatti con config attuale: {rifatti}/{total_audio}, mancano {mancanti}, "
-                           f"stima ~{ore_stimate:.0f}h / ~{giorni_stimati:.1f}gg a {DURACION_MEDIA_MIN_GPU:.1f}min/ep)")
+            self.lbl_progreso_total.config(
+                text=(f"Rifatti con config attuale: {rifatti}/{total_audio} — mancano {mancanti}, "
+                      f"stima ~{ore_stimate:.0f}h / ~{giorni_stimati:.1f}gg a {DURACION_MEDIA_MIN_GPU:.1f}min/ep"
+                      f"{grezzo_txt}"),
+                foreground=COLOR_TEXTO_SUAVE,
+            )
         elif rifatti is not None:
-            rifatti_txt = f" (rifatti con config attuale: {rifatti})"
-        else:
-            rifatti_txt = ""
-        if transcritos is None:
-            self.lbl_progreso_total.config(text="")
-        elif total_audio:
             self.lbl_progreso_total.config(
-                text=f"Progreso total: {transcritos} de {total_audio} episodios transcritos{rifatti_txt}",
+                text=f"Rifatti con config attuale: {rifatti}{grezzo_txt}",
                 foreground=COLOR_TEXTO_SUAVE,
             )
         else:
-            self.lbl_progreso_total.config(
-                text=f"Progreso total: {transcritos} episodios transcritos (share no accesible, sin total){rifatti_txt}",
-                foreground=COLOR_TEXTO_SUAVE,
-            )
+            self.lbl_progreso_total.config(text=grezzo_txt.strip(" ()") or "", foreground=COLOR_TEXTO_SUAVE)
 
         if stats_ep:
             self.lbl_frammenti_episodio.config(
