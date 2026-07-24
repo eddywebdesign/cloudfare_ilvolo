@@ -33,6 +33,8 @@ from transcribe_utils import (  # noqa: E402
     transcribe, load_lines, HF_TOKEN_FILE,
     MIN_SPEAKERS_DEFAULT, MAX_SPEAKERS_DEFAULT, CONFIG_VERSIONE,
 )
+sys.path.insert(0, str(ROOT / "scripts" / "linux"))
+import verifica_qualita_ritrascrizione as verifica_qualita  # noqa: E402
 import genera_frammenti  # noqa: E402
 from trascrivi_e_estrai_clip import estrai_riferimenti, merge_riferimenti  # noqa: E402
 import llm_multi  # noqa: E402
@@ -512,6 +514,7 @@ def _archivia_mp3(mp3: Path) -> None:
 
 
 CHECKPOINT_RITRASCRIZIONE = ROOT / "logs" / "checkpoint_ritrascrizione.log"
+MILESTONE_FISSE = (30, 90)  # soglie una tantum, oltre si verifica solo a fine cartella
 
 
 def _scrivi_checkpoint(data_str: str) -> None:
@@ -524,6 +527,28 @@ def _scrivi_checkpoint(data_str: str) -> None:
     riga = f"{datetime.now().isoformat(timespec='seconds')} {data_str}\n"
     with open(CHECKPOINT_RITRASCRIZIONE, "a", encoding="utf-8") as f:
         f.write(riga)
+
+
+def _verifica_milestone_fissa_se_serve() -> None:
+    """Controlla se il conteggio TOTALE nel checkpoint ha appena superato una
+    soglia fissa (30, 90) MAI raggiunta prima (marcatore persistente su disco,
+    sopravvive ai riavvii del processo) e se si' esegue la verifica REALE dei
+    dati (non solo lettura di log) - gira DENTRO il processo stesso, quindi
+    indipendente da qualunque sessione esterna che lo osservi (a differenza di
+    un Monitor lanciato da una sessione Claude, che muore se la sessione si
+    riavvia - causa diretta di un richiamo esplicito dell'utente il 2026-07-24)."""
+    try:
+        n = len(CHECKPOINT_RITRASCRIZIONE.read_text(encoding="utf-8").strip().splitlines())
+    except OSError:
+        return
+    for soglia in MILESTONE_FISSE:
+        flag = ROOT / "logs" / f"milestone_{soglia}_fatta.flag"
+        if n >= soglia and not flag.exists():
+            print(f"  [MILESTONE {soglia} episodi raggiunta: verifica reale in corso...]")
+            ok = verifica_qualita.esegui_e_registra(f"soglia fissa {soglia} episodi")
+            print(f"  [verifica milestone {soglia}: {'OK' if ok else 'PROBLEMI TROVATI'} — vedi logs/verifica_qualita_ritrascrizione.log]")
+            flag.parent.mkdir(parents=True, exist_ok=True)
+            flag.touch()
 
 
 def parse_data(filename: str) -> str | None:
@@ -696,6 +721,7 @@ def main() -> None:
             print(f"  [{data_str}] completato.\n")
             if args.forza:
                 _scrivi_checkpoint(data_str)
+                _verifica_milestone_fissa_se_serve()
             continue
 
         # 3. classificazione automatica frammenti rilevanti
@@ -742,6 +768,14 @@ def main() -> None:
         if args.pausa > 0 and idx < len(mp3s) - 1:
             print(f"  raffreddamento CPU: pausa di {args.pausa}s prima del prossimo episodio...\n")
             time.sleep(args.pausa)
+
+    if args.forza and CHECKPOINT_RITRASCRIZIONE.exists():
+        # Fine di QUESTA cartella-anno (avvia_trascrizione_sicura.sh chiama questo
+        # script una volta per anno): verifica reale sempre, non solo alle soglie
+        # fisse - "ogni fine cartella" richiesto esplicitamente dall'utente.
+        print(f"  [Fine cartella {cartella.name}: verifica reale in corso...]")
+        ok = verifica_qualita.esegui_e_registra(f"fine cartella {cartella.name}")
+        print(f"  [verifica fine cartella: {'OK' if ok else 'PROBLEMI TROVATI'} — vedi logs/verifica_qualita_ritrascrizione.log]")
 
     print("Fatto.")
 
