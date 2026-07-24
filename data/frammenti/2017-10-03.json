@@ -3,17 +3,14 @@
     "id": "2017-10-03-000",
     "start": 0.51,
     "end": 155.41,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_04",
     "testo": "DJ, riavvolgi! Did I disappoint you Or leave a bad taste in your mouth You act like you never had them And you want me to go without Well it's too late tonight To drag the past out into the light Grazie a tutti Grazie a tutti One But we're not the same Well we hurt each other And we're doing it again You say Love is a temple Love a higher love Love is a temple Love a higher love You ask me to enter Well then you make me crawl",
     "titolo": "One",
     "tema": [
       "amore"
     ],
     "tipo": "riferimento_musica",
-    "video_url": "",
-    "autore": "U2",
-    "confermato_esterno": true,
-    "copertina": "https://coverartarchive.org/release/ede9e0f4-c4d4-400e-af42-bb09b57b61e4/front-250"
+    "video_url": ""
   },
   {
     "id": "2017-10-03-001",
@@ -30,7 +27,7 @@
     "id": "2017-10-03-002",
     "start": 277.88,
     "end": 281.08,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Sto facendo terapia, non posso rispondere.",
     "titolo": "",
     "tema": [],
@@ -52,7 +49,7 @@
     "id": "2017-10-03-004",
     "start": 285.67,
     "end": 295.01,
-    "speaker_raw": "SPEAKER_07",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Sì, ho fatto un intervento al legamento crociato anteriore. Fa male? Sì, un po' sì.",
     "titolo": "",
     "tema": [],
@@ -74,7 +71,7 @@
     "id": "2017-10-03-006",
     "start": 297.18,
     "end": 297.48,
-    "speaker_raw": "SPEAKER_07",
+    "speaker_raw": "SPEAKER_03",
     "testo": "43.",
     "titolo": "",
     "tema": [],
@@ -96,7 +93,7 @@
     "id": "2017-10-03-008",
     "start": 366.3,
     "end": 366.88,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Ci fa, ci fa.",
     "titolo": "",
     "tema": [],
@@ -183,9 +180,9 @@
   {
     "id": "2017-10-03-016",
     "start": 610.6,
-    "end": 610.78,
+    "end": 777.61,
     "speaker_raw": "SPEAKER_04",
-    "testo": "Ciao Ciao",
+    "testo": "Ciao Ciao Musica a presto Ad ascoltatori diciamo più attenti...",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -193,28 +190,6 @@
   },
   {
     "id": "2017-10-03-017",
-    "start": 645.68,
-    "end": 646.04,
-    "speaker_raw": "SPEAKER_13",
-    "testo": "Musica",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-10-03-018",
-    "start": 674.7,
-    "end": 777.61,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "a presto Ad ascoltatori diciamo più attenti...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-10-03-019",
     "start": 799.3,
     "end": 878.92,
     "speaker_raw": "SPEAKER_01",
@@ -225,7 +200,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-03-020",
+    "id": "2017-10-03-018",
     "start": 879.12,
     "end": 892.42,
     "speaker_raw": "SPEAKER_05",
@@ -236,7 +211,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-03-021",
+    "id": "2017-10-03-019",
     "start": 892.5,
     "end": 974.08,
     "speaker_raw": "SPEAKER_01",
@@ -247,10 +222,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-03-022",
+    "id": "2017-10-03-020",
     "start": 975.18,
     "end": 979.75,
-    "speaker_raw": "SPEAKER_07",
+    "speaker_raw": "SPEAKER_03",
     "testo": "io vado un po' più tardi perché ho due bimbi e devo accompagnarli a scuola a che ora ti alzi?",
     "titolo": "",
     "tema": [],
@@ -258,7 +233,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-03-023",
+    "id": "2017-10-03-021",
     "start": 979.85,
     "end": 981.11,
     "speaker_raw": "SPEAKER_01",
@@ -269,10 +244,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-03-024",
+    "id": "2017-10-03-022",
     "start": 981.75,
     "end": 996.21,
-    "speaker_raw": "SPEAKER_07",
+    "speaker_raw": "SPEAKER_03",
     "testo": "alle sette meno un quarto e non mangi niente? No, bevo un bicchiere d'acqua. Con limone? Sì, bravo. Ok. Con un limone spremuto e poi sveglio i bambini, preparo la colazione per loro.",
     "titolo": "",
     "tema": [],
@@ -280,7 +255,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-03-025",
+    "id": "2017-10-03-023",
     "start": 996.55,
     "end": 1010.15,
     "speaker_raw": "SPEAKER_01",
@@ -291,10 +266,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-03-026",
+    "id": "2017-10-03-024",
     "start": 1010.19,
     "end": 1030.04,
-    "speaker_raw": "SPEAKER_07",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Sì, ma mi prendo in capo. no comunque io ho iniziato questa specie di dieta l'anno scorso perché non mi sentivo bene nel senso che avevo sempre anche mal di testa eccetera e ho letto di questa dieta del guerriero Nazzo!",
     "titolo": "",
     "tema": [],
@@ -302,7 +277,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-03-027",
+    "id": "2017-10-03-025",
     "start": 1030.08,
     "end": 1066.91,
     "speaker_raw": "SPEAKER_01",
@@ -313,10 +288,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-03-028",
+    "id": "2017-10-03-026",
     "start": 1066.95,
     "end": 1101.25,
-    "speaker_raw": "SPEAKER_07",
+    "speaker_raw": "SPEAKER_03",
     "testo": "No, a pranzo no, ma un frutto è consentito. volendo è consentito bevi molta acqua anche siccome io faccio estratti centrifugati quelli si possono bere ok per mantenere così però diciamo quando è che rosicchi cioè quando è che mastichi la mandibola quando è che mastichi la sera la sera perché comunque la sera è il momento in cui io mi rilascio ok posso mangiare tranquillamente con calma seduta E lì un bel cracker, non te lo toglie nessuno. E lì mangio di tutto.",
     "titolo": "",
     "tema": [],
@@ -324,7 +299,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-03-029",
+    "id": "2017-10-03-027",
     "start": 1101.81,
     "end": 1116.29,
     "speaker_raw": "SPEAKER_01",
@@ -335,10 +310,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-03-030",
+    "id": "2017-10-03-028",
     "start": 1116.9,
     "end": 1156.83,
-    "speaker_raw": "SPEAKER_07",
+    "speaker_raw": "SPEAKER_03",
     "testo": "ma però non so se ti è mai capitato quando mangi ti viene un po' di sonno, lenta tu approfitti siccome c'è la digestione lenta che ti viene la biocco la mattina sono super attiva ma hai perso dei chili o hai anche guadagnato energia? vabbè ho perso dei chili perché con le gravidanze ne avevo accumulate però però sì ho perso 14 chili sono quasi tornata come ero ecco io sono alto 1 metro e 70 peso adesso 61 chili quindi non è che sei tornata trombabile dai comunque il marito frutta e verdura si sveglia presto scherzo senti allora Bona",
     "titolo": "",
     "tema": [],
@@ -346,7 +321,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-03-031",
+    "id": "2017-10-03-029",
     "start": 1161.89,
     "end": 1190.66,
     "speaker_raw": "SPEAKER_01",
@@ -357,10 +332,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-03-032",
+    "id": "2017-10-03-030",
     "start": 1193.83,
     "end": 1377.12,
-    "speaker_raw": "SPEAKER_12",
+    "speaker_raw": "SPEAKER_04",
     "testo": "non fai colazione la mattina però no io sì oggi no apposta per l'argomento ti ricordi eravamo rimasti d'accordo così era il metodo Stanislavski wow solo la sera same lips red same eyes blue same white shirt couple more tattoos it's not you Grazie. No No No No Grazie a tutti a presto Grazie a tutti. ciao ciao",
     "titolo": "",
     "tema": [],
@@ -368,7 +343,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-03-033",
+    "id": "2017-10-03-031",
     "start": 1399.46,
     "end": 1482.94,
     "speaker_raw": "SPEAKER_01",
@@ -378,16 +353,13 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": "",
-    "autore": "Harry Styles",
-    "confermato_esterno": true,
-    "copertina": "https://coverartarchive.org/release/caf55527-80ee-4220-bcc6-f07f7bdd2c58/front-250"
+    "video_url": ""
   },
   {
-    "id": "2017-10-03-034",
+    "id": "2017-10-03-032",
     "start": 1484.68,
     "end": 1597.04,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_02",
     "testo": "allora permesso che io mangio 5 volte al giorno quindi esatto come la dieta zona esatto in tutte le stanze della casa però mangio soprattutto vegetariano quindi è integro ma scusami quello che fa la dieta pranica che prana viene dall'indiano energia esatto cosa mangiano loro? mangiano l'energia del sole Cristina io sono di Brescia la fetta me la devi tagliare giù un po' più grossa del salame ma devi uscire da questi sentimenti ma io dico masticano delle cose o è tipo una meditazione no è tipo una meditazione io ho visto questo servizio in televisione mi ha veramente aperto e un po' sconvolto rispetto a quello che ho testato quello del guru che non mangiava per mesi per anni, 70 anni ma non solo non mangiano ma non bevono anche non beve e non mangia esatto, come dicevi tu all'inizio cagano delle capsule, quelle delle pastiglie a quel punto non lo fai ma le fatti con delle visce niente escono i fumetti come quelli dei topolì con le parole scritte no perché non introducono tossine nel corpo e di conseguenza non ne devono espellere sono proprio troppo pragmatico lui non mangia mai la cosa incredibile è che sono bellissimi sono delle persone che hanno un'energia pazzesca ma non persone che tu dici vabbè ti immagini magari tutti un po' magrini un po' bianchi come me sono saranno energia grassa allora gente che faceva istruttori di fitness ma",
     "titolo": "",
     "tema": [],
@@ -395,7 +367,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-03-035",
+    "id": "2017-10-03-033",
     "start": 1598.06,
     "end": 1599.54,
     "speaker_raw": "SPEAKER_01",
@@ -406,10 +378,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-03-036",
+    "id": "2017-10-03-034",
     "start": 1599.9,
     "end": 1611.02,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Sì, allora in Italia sono i respiriani, esatto, quest'estate c'è stato un raduno internazionale a Fabriano, per questo che mi sono chiesto questa cosa.",
     "titolo": "",
     "tema": [],
@@ -417,7 +389,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-03-037",
+    "id": "2017-10-03-035",
     "start": 1611.12,
     "end": 1619.77,
     "speaker_raw": "SPEAKER_01",
@@ -428,10 +400,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-03-038",
+    "id": "2017-10-03-036",
     "start": 1621.93,
     "end": 1648.85,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_02",
     "testo": "no ma poi la cosa incredibile è che loro dicono appunto che poi possono mangiare cioè se mangi una volta alla settimana non intacchi la cosa perché c'è anche tutta la parte di convivialità che va rispettata adesso noi il mio progetto è quello del volo del mattino stagione di parlare al telefono con un vegetariano vegano crudisti e il respiriano cioè quello che mangia solo l'aria",
     "titolo": "",
     "tema": [],
@@ -439,7 +411,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-03-039",
+    "id": "2017-10-03-037",
     "start": 1649.07,
     "end": 1712.09,
     "speaker_raw": "SPEAKER_01",
@@ -450,10 +422,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-03-040",
+    "id": "2017-10-03-038",
     "start": 1790.29,
     "end": 1790.41,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Ciao!",
     "titolo": "",
     "tema": [],
@@ -461,7 +433,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-03-041",
+    "id": "2017-10-03-039",
     "start": 1969.55,
     "end": 2002.92,
     "speaker_raw": "SPEAKER_01",
@@ -471,13 +443,10 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": "",
-    "autore": "The War on Drugs",
-    "confermato_esterno": true,
-    "copertina": "https://coverartarchive.org/release/eb7ef6ee-1108-4e62-b740-e0e2c3d1d7b0/front-250"
+    "video_url": ""
   },
   {
-    "id": "2017-10-03-042",
+    "id": "2017-10-03-040",
     "start": 2002.94,
     "end": 2005.14,
     "speaker_raw": "SPEAKER_05",
@@ -488,7 +457,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-03-043",
+    "id": "2017-10-03-041",
     "start": 2005.18,
     "end": 2089.07,
     "speaker_raw": "SPEAKER_01",
@@ -499,7 +468,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-03-044",
+    "id": "2017-10-03-042",
     "start": 2089.12,
     "end": 2091.85,
     "speaker_raw": "SPEAKER_00",
@@ -510,7 +479,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-03-045",
+    "id": "2017-10-03-043",
     "start": 2092.21,
     "end": 2096.87,
     "speaker_raw": "SPEAKER_01",
@@ -521,7 +490,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-03-046",
+    "id": "2017-10-03-044",
     "start": 2097.75,
     "end": 2104.19,
     "speaker_raw": "SPEAKER_00",
@@ -532,7 +501,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-03-047",
+    "id": "2017-10-03-045",
     "start": 2107.25,
     "end": 2108.69,
     "speaker_raw": "SPEAKER_01",
@@ -543,7 +512,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-03-048",
+    "id": "2017-10-03-046",
     "start": 2109.11,
     "end": 2153.64,
     "speaker_raw": "SPEAKER_00",
@@ -554,7 +523,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-03-049",
+    "id": "2017-10-03-047",
     "start": 2153.84,
     "end": 2155.84,
     "speaker_raw": "SPEAKER_01",
@@ -565,7 +534,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-03-050",
+    "id": "2017-10-03-048",
     "start": 2156.61,
     "end": 2164.37,
     "speaker_raw": "SPEAKER_00",
@@ -576,7 +545,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-03-051",
+    "id": "2017-10-03-049",
     "start": 2164.41,
     "end": 2165.05,
     "speaker_raw": "SPEAKER_01",
@@ -587,7 +556,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-03-052",
+    "id": "2017-10-03-050",
     "start": 2165.11,
     "end": 2166.29,
     "speaker_raw": "SPEAKER_00",
@@ -598,7 +567,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-03-053",
+    "id": "2017-10-03-051",
     "start": 2166.31,
     "end": 2172.84,
     "speaker_raw": "SPEAKER_01",
@@ -609,7 +578,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-03-054",
+    "id": "2017-10-03-052",
     "start": 2173.26,
     "end": 2242.06,
     "speaker_raw": "SPEAKER_00",
@@ -620,7 +589,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-03-055",
+    "id": "2017-10-03-053",
     "start": 2242.36,
     "end": 2244.82,
     "speaker_raw": "SPEAKER_01",
@@ -631,7 +600,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-03-056",
+    "id": "2017-10-03-054",
     "start": 2245.84,
     "end": 2282.9,
     "speaker_raw": "SPEAKER_00",
@@ -642,7 +611,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-03-057",
+    "id": "2017-10-03-055",
     "start": 2282.98,
     "end": 2330.25,
     "speaker_raw": "SPEAKER_01",
@@ -656,40 +625,18 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-03-058",
+    "id": "2017-10-03-056",
     "start": 2330.71,
-    "end": 2459.2,
-    "speaker_raw": "SPEAKER_08",
-    "testo": "Chissà, chissà domani su che cosa metteremo le mani. se si potrà contare ancora le onde del mare e alzare la testa, non essere così serio, rimane. I russi, gli americani, no lacrime, non fermarti fino a domani, Sarà stato forse il tuo nome meraviglioso E una notte di fuoco dove sono le tue mani Nascerà e non avrà paura il nostro figlio E chissà come sarà lui domani Su quali strade camminerà, cosa avrà nelle sue mani, nelle sue mani. Si muoverà e potrà volare, nuoterà su una stella, come sei bella. E se è una femmina si chiamerà futura. Il suo nome detto questa notte mette già paura. Sarà diversa, bella come una stella, sarai tu in miniatura Ma non fermarti, voglio ancora baciarti, chiudi i tuoi occhi, non voltarti indietro Quei tutto il mondo sembra fatto di vetro e sta cadendo a pezzi come un vecchio presepio Di più, muoviti più in fretta, di più, benedetto",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-10-03-059",
-    "start": 2461.54,
-    "end": 2497.59,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "più su, nel silenzio tra le nuvole, più su, che si arriva la luna, sì la luna. Ma non è bella come te questa luna, è una sottana americana l'ora su. Mettendoci di fianco più su, guida tu che sono stanco più su. In mezzo ai razzi un batticuore più su, son sicuro che c'è il sole. Ma che sole, è un cappello di ghiaccio questo sole, è una catena di ferro senza moto.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-10-03-060",
-    "start": 2551.08,
     "end": 2572.85,
-    "speaker_raw": "SPEAKER_08",
-    "testo": "Lento, lento, adesso batte più lento Ciao, come sta? Il tuo cuore lo sento I tuoi occhi così belli Non li ho visti mai Ma adesso non voltarti Voglio ancora guardarti Non girare la testa Dove sono le tue mani",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Chissà, chissà domani su che cosa metteremo le mani. se si potrà contare ancora le onde del mare e alzare la testa, non essere così serio, rimane. I russi, gli americani, no lacrime, non fermarti fino a domani, Sarà stato forse il tuo nome meraviglioso E una notte di fuoco dove sono le tue mani Nascerà e non avrà paura il nostro figlio E chissà come sarà lui domani Su quali strade camminerà, cosa avrà nelle sue mani, nelle sue mani. Si muoverà e potrà volare, nuoterà su una stella, come sei bella. E se è una femmina si chiamerà futura. Il suo nome detto questa notte mette già paura. Sarà diversa, bella come una stella, sarai tu in miniatura Ma non fermarti, voglio ancora baciarti, chiudi i tuoi occhi, non voltarti indietro Quei tutto il mondo sembra fatto di vetro e sta cadendo a pezzi come un vecchio presepio Di più, muoviti più in fretta, di più, benedetto più su, nel silenzio tra le nuvole, più su, che si arriva la luna, sì la luna. Ma non è bella come te questa luna, è una sottana americana l'ora su. Mettendoci di fianco più su, guida tu che sono stanco più su. In mezzo ai razzi un batticuore più su, son sicuro che c'è il sole. Ma che sole, è un cappello di ghiaccio questo sole, è una catena di ferro senza moto. Lento, lento, adesso batte più lento Ciao, come sta? Il tuo cuore lo sento I tuoi occhi così belli Non li ho visti mai Ma adesso non voltarti Voglio ancora guardarti Non girare la testa Dove sono le tue mani",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-10-03-061",
+    "id": "2017-10-03-057",
     "start": 2576.49,
     "end": 2721.18,
     "speaker_raw": "SPEAKER_01",
@@ -700,7 +647,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-03-062",
+    "id": "2017-10-03-058",
     "start": 2723.11,
     "end": 2724.67,
     "speaker_raw": "SPEAKER_05",
@@ -711,7 +658,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-03-063",
+    "id": "2017-10-03-059",
     "start": 2725.05,
     "end": 2762.51,
     "speaker_raw": "SPEAKER_01",

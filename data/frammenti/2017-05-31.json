@@ -3,7 +3,7 @@
     "id": "2017-05-31-000",
     "start": 47.8,
     "end": 133.45,
-    "speaker_raw": "SPEAKER_02",
+    "speaker_raw": "SPEAKER_05",
     "testo": "So much proud a tutti",
     "titolo": "",
     "tema": [],
@@ -14,7 +14,7 @@
     "id": "2017-05-31-001",
     "start": 198.84,
     "end": 225.12,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_03",
     "testo": "sa sa mi sentite mi sentite armadio armadio di new york chiama studio radio dj a milano sa sa sembro quello di nano nano no che si chiudeva nell'armadio mor che chiama orson rispondi orson va bene ragazzi scusate ma è il mio ultimo giorno qui a new york ho tante cose da fare la valigia le cose per cui bando alle ciance mettiamo la sigla che oggi c'è tanta roba da dire vai",
     "titolo": "",
     "tema": [],
@@ -24,9 +24,9 @@
   {
     "id": "2017-05-31-002",
     "start": 226.62,
-    "end": 235.91,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "Good morning life, good morning world, how are you? Happiness, all at once I know what living can be.",
+    "end": 243.02,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Good morning life, good morning world, how are you? Happiness, all at once I know what living can be. Oh, it's life, it's free, it's someone waiting for me, who'll someday be my wife.",
     "titolo": "Good Morning Life",
     "tema": [
       "vita"
@@ -36,22 +36,9 @@
   },
   {
     "id": "2017-05-31-003",
-    "start": 236.03,
-    "end": 243.02,
-    "speaker_raw": "SPEAKER_14",
-    "testo": "Oh, it's life, it's free, it's someone waiting for me, who'll someday be my wife.",
-    "titolo": "Someone Waiting For Me",
-    "tema": [
-      "amore"
-    ],
-    "tipo": "citazione",
-    "video_url": ""
-  },
-  {
-    "id": "2017-05-31-004",
     "start": 250.89,
     "end": 305.44,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_03",
     "testo": "allora ragazzi c'è aspettativa adesso ho bevuto un sacco di caffè sto con la tachicardia non vi è mai capitato di bere troppi caffè che dovete mangiare dei cracker o qualcosa per darvi una calmata che ti si digrignano quasi i denti oggi ragazzi veramente abbiamo tante cose da fare io avrei non vorrei quasi dire niente mi sembra un'ottima soluzione e ho pensato perché non facciamo una bella puntata dove diciamo cose intelligenti e quindi automaticamente mi sono tirato fuori dai giochi ma non siete contenti che torno domani? sì sì sì questa radio aspetta a te c'è il comitato di benvenuto c'è la banda ragazzi mettiamo il primo disco non perdiamoci in chance mettiamo il primo disco Sono pronto, sono pronto, sono pronto!",
     "titolo": "",
     "tema": [],
@@ -59,47 +46,21 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-31-005",
+    "id": "2017-05-31-004",
     "start": 340.99,
-    "end": 341.47,
-    "speaker_raw": "SPEAKER_14",
-    "testo": "ciao ciao",
+    "end": 440.88,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "ciao ciao There's a ghost that keeps talking and I know there's gotta be more for sure. I want to live my life again, but you won't. I'll never understand the winds, but you do. I didn't know I was afraid. I've been learning my thoughts for hours But I knew you were dead",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-05-31-006",
-    "start": 398.19,
-    "end": 402.21,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "There's a ghost that keeps talking and I know there's gotta be more for sure.",
-    "titolo": "Ghost Talking",
-    "tema": [
-      "spirito"
-    ],
-    "tipo": "citazione",
-    "video_url": ""
-  },
-  {
-    "id": "2017-05-31-007",
-    "start": 402.39,
-    "end": 440.88,
-    "speaker_raw": "SPEAKER_14",
-    "testo": "I want to live my life again, but you won't. I'll never understand the winds, but you do. I didn't know I was afraid. I've been learning my thoughts for hours But I knew you were dead",
-    "titolo": "Live My Life Again",
-    "tema": [
-      "morte"
-    ],
-    "tipo": "citazione",
-    "video_url": ""
-  },
-  {
-    "id": "2017-05-31-008",
+    "id": "2017-05-31-005",
     "start": 525.53,
     "end": 587.03,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Comunque a proposito di solo cose belle, questa mattina non so se vi capita anche a voi di avere dei periodi che vi danno fastidio un po' tutti, no? Cioè accendete la radio, vi dà fastidio il DJ, vi dà fastidio la musica, vi dà fastidio la vostra famiglia, i colleghi, il traffico, sono quei momenti lì in cui c'è qualcosa dentro di noi perché si sa che il mondo non si vede per ciò che è ma per ciò che siamo, per cui se uno dentro ha dei fastidi vede tutto fastidioso. Che cazzo! per dire che siccome sto scrivendo di questa cosa e quindi in qualche modo mi sono fatto emotivamente coinvolgere questa mattina ricordando anche che è il compleanno di Paolo Sorrentino un grandissimo regista vogliamo dire ma anche scrittore ma anche possiamo dire che come i registi di una volta è un intellettuale questo fa la grande differenza del cinema di una volta e del cinema di adesso perché non ti fa fare un film? Ma cosa c'entra adesso questo? Ma scusami, ma perché Jamiroquai non ti chiama a fare il disco nuovo? Ma cosa vuol dire? Ma senti che fastidio aggressive!",
     "titolo": "",
     "tema": [],
@@ -107,10 +68,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-31-009",
+    "id": "2017-05-31-006",
     "start": 587.41,
     "end": 588.97,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Ma siete amici, dai!",
     "titolo": "",
     "tema": [],
@@ -118,10 +79,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-31-010",
+    "id": "2017-05-31-007",
     "start": 589.03,
     "end": 702.47,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Ma se sono qui a New York, dove c'è la sede della HBO, ci sarà un motivo per cui sono qua, no? Non fai capito! Giudol l'abbiamo eliminato per The Young Pop numero 2 perché proprio abbiamo avuto io e Paolo un'idea diversa invece che fare The Young Pop 2 di fare The New Pop una cosa che io gli ho detto così una sera bevendo un caffè e sorseggiando uno scotch quello per attaccare i pacchi però comunque oggi è il compagno di Paolo Sorrentino stavo dicendo una volta c'era che non so di Norisi, Fellini, Monicelli e tanti altri che cosa avevano loro? erano degli intellettuali cioè persone che ne sapevano un po' di tutto ne sapevano di fotografia, di cinema sociale, di musica e riuscivano anche a trasmettere questo nei loro film Paolo Sorrentino è sicuramente uno di questi insieme a Garrone per esempio un altro grande regista italiano c'è una prefazione di un suo libro dove... ma Gattone non ti ha mai chiamato per fare un film? ma scusami ma te i Daft Punk ti hanno mai chiamato per fare un film? ma è un altro livello ma cosa c'entra? tanto sono amici per cui non mischio mai il lavoro quindi è una scelta tua quando loro mi dicono dai vieni a fare un film io dico ma no che poi roviniamo l'amicizia lascia stare Paul comunque mi avete interrotto così tante volte mi sono perso adesso siccome Paolo Sorrentino oltre ad essere un bravo regista è un bravo scrittore leggiamo la prefazione di un suo libro che parla proprio di questo quando ti dà fastidio tutto ora o la leggo io o la possiamo far leggere a chi? a Tony Servillo però Tony Servillo rispetto a me secondo me ha una pronuncia che non si capisce secondo me va benissimo",
     "titolo": "",
     "tema": [],
@@ -129,10 +90,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-31-011",
+    "id": "2017-05-31-008",
     "start": 705.17,
     "end": 707.51,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Non fare arrabbiare se non ti conviene.",
     "titolo": "",
     "tema": [],
@@ -140,7 +101,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-31-012",
+    "id": "2017-05-31-009",
     "start": 707.55,
     "end": 849.35,
     "speaker_raw": "SPEAKER_01",
@@ -151,10 +112,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-31-013",
+    "id": "2017-05-31-010",
     "start": 850.35,
     "end": 867.23,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_03",
     "testo": "solo una cosa sopporto la sfumatura la sfumatura non l'avrei detto bene anch'io solo una cosa non sopporto la sfumatura questo è steven wonder un grandissimo ciao ciao",
     "titolo": "",
     "tema": [],
@@ -162,10 +123,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-31-014",
+    "id": "2017-05-31-011",
     "start": 879.93,
     "end": 1008.08,
-    "speaker_raw": "SPEAKER_14",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Keep on learning Soldiers Keep on warring Keep on turning Ciao Ciao Ciao ... ... ... Preachers Keep on preachin' Word Keep on turnin' Doesn't bother me too long Lovers Keep on lovin' ... ... ...",
     "titolo": "",
     "tema": [],
@@ -173,10 +134,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-31-015",
+    "id": "2017-05-31-012",
     "start": 1059.29,
     "end": 1077.95,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Come scrive Susanna, questa l'hai messa anche ieri nella story del tuo Instagram, sì Susanna, sai che sono molto attivo nei social in questo... Anche troppo. Sai che noi giovani con i social non possiamo farne a meno. Io apro Instagram e c'è sempre un'altra storia.",
     "titolo": "",
     "tema": [],
@@ -184,10 +145,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-31-016",
+    "id": "2017-05-31-013",
     "start": 1078.63,
     "end": 1081.21,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Fai una media di 20 storie al giorno, secondo me è troppo.",
     "titolo": "",
     "tema": [],
@@ -195,10 +156,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-31-017",
+    "id": "2017-05-31-014",
     "start": 1081.73,
     "end": 1089.58,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Ah, devo farne meno? Su Instagram sembro disperato, sembro... cosa succede? Devo farne quante? Ditemi voi per la media giusta.",
     "titolo": "",
     "tema": [],
@@ -206,10 +167,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-31-018",
+    "id": "2017-05-31-015",
     "start": 1089.6,
     "end": 1095.06,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Secondo me massimo 5 al giorno. Massimo 5 al giorno. E se ci sono cose da far vedere, non a caso.",
     "titolo": "",
     "tema": [],
@@ -217,10 +178,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-31-019",
+    "id": "2017-05-31-016",
     "start": 1096.83,
     "end": 1159.32,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_03",
     "testo": "la mattina quando mi svegliavo qua facevo sempre un 2-3 dischi io faccio per condividere dei contenuti penso ai giovani d'oggi mangiano male, bevono male si drogano male, ciulano male ascoltano musica brutta cioè in qualcosa li posso aiutare siccome non spaccio, spaccio musica senti che acclaim come ha detto prima Servillo odio i vecchi che odiano le nuove generazioni Scusate ragazzi, ma da qua a New York non riesco a capire se votate o no in autunno. Sì, sì, certo. Votate voi. Cioè lì in Italia, votate in autunno o no? Sì, sì. Ok, ok.",
     "titolo": "",
     "tema": [],
@@ -228,67 +189,21 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-31-020",
+    "id": "2017-05-31-017",
     "start": 1160.48,
-    "end": 1171.52,
-    "speaker_raw": "SPEAKER_05",
-    "testo": "La statua della mia libertà si muove Una marea che non si ritirerà Si muove La statua della mia libertà",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-05-31-021",
-    "start": 1213.11,
-    "end": 1217.72,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "Il giardino dei sogni profuma di fiori ed aspetta soltanto il mio arrivo.",
-    "titolo": "Il giardino dei sogni profuma di fiori",
-    "tema": [
-      "sogni"
-    ],
-    "tipo": "citazione",
-    "video_url": ""
-  },
-  {
-    "id": "2017-05-31-022",
-    "start": 1218.1,
-    "end": 1234.03,
-    "speaker_raw": "SPEAKER_05",
-    "testo": "La statua della mia libertà si muove. Una marea che non si ritirerà si muove. La statua della mia libertà si muove. Non sto legato a un'orbita.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-05-31-023",
-    "start": 1237.13,
-    "end": 1263.94,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "Qui nessuno ti spiega la strada per scegliere il lato migliore. storie dell'apocalisse si mutano a volte",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-05-31-024",
-    "start": 1303.08,
     "end": 1303.96,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "Allora muoio",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "La statua della mia libertà si muove Una marea che non si ritirerà Si muove La statua della mia libertà Il giardino dei sogni profuma di fiori ed aspetta soltanto il mio arrivo. La statua della mia libertà si muove. Una marea che non si ritirerà si muove. La statua della mia libertà si muove. Non sto legato a un'orbita. Qui nessuno ti spiega la strada per scegliere il lato migliore. storie dell'apocalisse si mutano a volte Allora muoio",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-05-31-025",
+    "id": "2017-05-31-018",
     "start": 1339.05,
     "end": 1371.53,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_03",
     "testo": "sono andato a guardarla di nuovo anche ieri e lì proprio fissa è fissa capito perché quando vado a correre passo di e vedo la statua della libertà ma stai continuando ad andare a correre due volte due volte sono andato due volte per me è quasi amatoriale due volte per me comunque ragazzi bene non possiamo andare avanti a ridere e scherzare quando un nostro ascoltatore ha un problema per cui chiamiamo e cerchiamo di risolverne uno alla volta Signore e signori è qui con noi al volo del mattino Anonimo, buongiorno Anonimo.",
     "titolo": "",
     "tema": [],
@@ -296,10 +211,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-31-026",
+    "id": "2017-05-31-019",
     "start": 1372.55,
     "end": 1374.79,
-    "speaker_raw": "SPEAKER_09",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Buongiorno Fabio, buongiorno.",
     "titolo": "",
     "tema": [],
@@ -307,10 +222,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-31-027",
+    "id": "2017-05-31-020",
     "start": 1374.83,
     "end": 1455.73,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Tu sei quello che chiama un sacco di gente, quelli che durante il giorno arrivano a chiamarti, ho scritto Anonimo, sei sempre tu. Sono sempre io. Finalmente abbiamo una voce, diamo una voce a questo Anonimo. Come stai Anonimo? direi bene vuoi che ti diamo un nome? vuoi un nome orrendo che non sa di niente? già lo so allora Maurizio da dove chiami? Maurizio da dove chiami? da Novara chiamo spero tu abbia detto un'altra città va bene comunque hai un problema siccome sai che noi anche se io sono molto lontano ci prendiamo a cuore i nostri ascoltatori perché noi del Vole Mattino siamo una family siamo una famiglia che problema hai Maurizio? il problema è fondamentalmente che mi piace una ragazza che ha 15 anni meno di me ma tu ne hai 22 e lei ne ha 7 appena di più io ne ho 50 50 intanto c'hai una voce molto più giovane comunque ne hai 50 e lei quindi ne ha 35 35 E dov'è il problema? Mica ne hai 20 e lei 5, scusami, 35.",
     "titolo": "",
     "tema": [],
@@ -318,10 +233,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-31-028",
+    "id": "2017-05-31-021",
     "start": 1455.77,
     "end": 1460.99,
-    "speaker_raw": "SPEAKER_09",
+    "speaker_raw": "SPEAKER_04",
     "testo": "No, però la diversità d'età è comunque importante.",
     "titolo": "",
     "tema": [],
@@ -329,10 +244,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-31-029",
+    "id": "2017-05-31-022",
     "start": 1461.93,
     "end": 1566.5,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Ah, e tu hai paura che poi tu fra 10 anni lei ne ha 45 e tu 60. su quelle cose che lei ti dice la smetti di andare a fare la pipì di notte in bagno facciamo un patto che l'acqua di notte non si tira lo sciacquone lo tiriamo la mattina quando andiamo quando siamo tutti svegli vabbè basta fare dei piccoli accorgimenti vabbè però senti Maurizio 50-35 non è un problema Viola è un problema? non mi tirare in ballo io sono proprio nazi sull'età sono nazi allora ti dico due cose Maurizio dal mio punto di vista che ovviamente sono suggerimenti e non sono consigli uno a 35 anni una donna come un uomo di 50 siete comunque già dentro nell'ultimo cerchio che non è l'ultimo cerchio nel senso che si muore ma è il cerchio in cui si capisce se ce l'hai fatta o non ce l'hai fatta nella vita perché uno di venti non è tanto che vanno a ballare e hanno energia ma che hanno ancora l'idea che siccome non sanno se ce la faranno dicono magari divento qualcosa qualcuno mi realizzo bla bla bla a 35 anni come dice un grandissimo libro un uomo ha già quell'età in cui deve accettare che la vita è una sconfitta da accettare ti piace come concetto? le memorie di Adriano insomma c'era il sesso a 35 anni ha già capito dove deve parcheggiare la macchina l'altra cosa che tutte le volte in una relazione che uno fa i pro e i contro si perde la parte migliore perché la parte migliore è proprio quella che non sta nella lista dei pro e dei contro questo è il mio parere Avete già fatto l'amore? Hai fatto l'amore?",
     "titolo": "",
     "tema": [],
@@ -340,10 +255,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-31-030",
+    "id": "2017-05-31-023",
     "start": 1568.16,
     "end": 1577.4,
-    "speaker_raw": "SPEAKER_09",
+    "speaker_raw": "SPEAKER_04",
     "testo": "No, perché sono in una fase che adesso lì mi daranno un po'... Non voglio fare sesso, voglio fare l'amore.",
     "titolo": "",
     "tema": [],
@@ -351,10 +266,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-31-031",
+    "id": "2017-05-31-024",
     "start": 1580.68,
     "end": 1626.73,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_03",
     "testo": "dobbiamo chiamare lei al telefono e dirle di mollarti subito mi è già venuta l'orchite che due coglioni ma tu non ti preoccupare degli altri se ti piace fai l'amore allora ci farò sesso ma divertitevi bisogna sempre portarsi dietro il treno di responsabilità vi date quel piacere a vicenda basta che sia chiaro per tutti e due ma qua è notte per me io sono dentro in un armadio che cavolo posso dire di intelligente oh Maurizio in bocca al lupo ecco dai ciao eh mi spiace più per il nome ciao ciao ciao ciao ciao ciao",
     "titolo": "",
     "tema": [],
@@ -362,10 +277,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-31-032",
+    "id": "2017-05-31-025",
     "start": 1641.19,
     "end": 1744.59,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Grazie. Grazie. Grazie a tutti. Ciao!",
     "titolo": "",
     "tema": [],
@@ -373,10 +288,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-31-033",
+    "id": "2017-05-31-026",
     "start": 1812.27,
     "end": 1903.32,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Mi fa piacere Fabio vedere che dice ancora un sacco di cazzate. Bene, insomma, sono contento che i miei consigli vengano presi e diciamo come dire, vengano compresi nella loro profondità. Ma per aiutare il nostro ascoltatore, ma non solo lui, ma tutti, no? Cioè tutti noi che siamo in una relazione, non siamo mai proprio stabili, stabili, perché la relazione è sempre in movimento, chiede confronto, contrasto, contraddizioni, compromessi, insomma, quindi è sempre un treno in movimento, no? è venuto un film in soccorso che ha trovato Maurizio un film francese che si chiama Mon Roi Mon Roi il mio re il mio re ok il mio re un film che io non l'ho visto Convinced Cassella Convinced Cassella ma che vedrò ma non hai mai fatto un film Convinced Cassella non l'ho mai allora ma scusami ma te ti chiama Moby per fare il disco nuovo ma che vuol dire comunque no volevo dire questo film non l'ho ancora visto ho visto che ha tre palline tra l'altro di merda no scherzo a tre palline non vuol dire niente dipende chi l'ha visto anche su Netflix a volte a me piacciono quelli con due stelline non mi piacciono quelli con cinque dipende chi l'ha guardato prima purtroppo questa cosa del popolare sta rovinando tutto tutti che parlano di tutto non si capisce più niente comunque ha una bellissima frase che Maurizio ha montato giusto per noi sentiamo si deve distruggere tutto come se fosse un mondo nuovo",
     "titolo": "",
     "tema": [],
@@ -384,7 +299,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-31-034",
+    "id": "2017-05-31-027",
     "start": 1904.57,
     "end": 1988.59,
     "speaker_raw": "SPEAKER_00",
@@ -398,10 +313,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-31-035",
+    "id": "2017-05-31-028",
     "start": 1989.09,
     "end": 1990.67,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Hai capito perché ha tre palline, no?",
     "titolo": "",
     "tema": [],
@@ -409,7 +324,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-31-036",
+    "id": "2017-05-31-029",
     "start": 1991.07,
     "end": 1991.31,
     "speaker_raw": "SPEAKER_00",
@@ -420,10 +335,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-31-037",
+    "id": "2017-05-31-030",
     "start": 1993.21,
     "end": 2002.18,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Allora, questa canzone la mettiamo sempre quando sono a New York perché è come dire, è un'abitudine che abbiamo. Citizen Co. C'è da godere.",
     "titolo": "",
     "tema": [],
@@ -431,10 +346,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-31-038",
+    "id": "2017-05-31-031",
     "start": 2002.5,
     "end": 2175.69,
-    "speaker_raw": "SPEAKER_13",
+    "speaker_raw": "SPEAKER_05",
     "testo": "You know it ain't easy For these stars to leave me There are no words to describe a presto verrà che mi Ciao. no no",
     "titolo": "",
     "tema": [],
@@ -442,7 +357,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-31-039",
+    "id": "2017-05-31-032",
     "start": 2211.25,
     "end": 2211.29,
     "speaker_raw": "SCONOSCIUTO",
@@ -453,10 +368,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-31-040",
+    "id": "2017-05-31-033",
     "start": 2251.27,
     "end": 2296.14,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Che meraviglia, che meraviglia. Va bene, va bene, va bene. Ho goduto molto, ma adesso sono tutto in fibrillazione perché abbiamo anticipato la telefonata di domani a oggi, così ci facilita un po' il collegamento, con il prof Acinelli, a cui potrò finalmente fare una domanda e togliermi un grande dubbio che ho quando sono a New York. Vai di prof! buongiorno buongiorno professore buongiorno le faccio una domanda da questo armadio dove mi trovo e dove trasmetto il mio programma radiofonico non riesco a capire a volte se sono leggende metropolitane o sono solo semplicemente cose di cui io non ho informazioni cioè questi coccodrilli a New York escono dal water li devo mettere nelle leggende metropolitane o sono vere?",
     "titolo": "",
     "tema": [],
@@ -464,10 +379,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-31-041",
+    "id": "2017-05-31-034",
     "start": 2296.72,
     "end": 2318.8,
-    "speaker_raw": "SPEAKER_07",
+    "speaker_raw": "SPEAKER_02",
     "testo": "sono vere sono vere effettivamente le fogne di New York hanno permesso a questi coccodrilli di sopravvivere. Sono diventati veramente albini, sono diventati chiari, non ci dovrebbero più essere, però si nutrivono davvero dei topi.",
     "titolo": "",
     "tema": [],
@@ -475,10 +390,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-31-042",
+    "id": "2017-05-31-035",
     "start": 2319.69,
     "end": 2346.05,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Ma scusi professore, lei sta dicendo veramente che nelle fogne di New York a un certo punto nella storia ci sono stati dei coccodrilli albini? esattamente è scientificamente provato lo sa che una mia amica che faceva l'infermiera una volta sono arrivate due persone una coppia incastrate sono quelle cose lì sono quelle cose lei l'ha visto il coccodrillo albino?",
     "titolo": "",
     "tema": [],
@@ -486,10 +401,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-31-043",
+    "id": "2017-05-31-036",
     "start": 2346.21,
     "end": 2408.85,
-    "speaker_raw": "SPEAKER_07",
+    "speaker_raw": "SPEAKER_02",
     "testo": "no ma ho letto ho letto da fonti autorevoli oggi professore è il nostro ultimo incontro poi ci sentiamo l'anno prossimo esattamente mi piace moltissimo per tutto volevo ringraziare gli ascoltatori e perché no anche voi anche voi della radio DJ con un consiglio consiglio estivo Prima di farlo devo parlarvi di un ragno molto particolare. Si chiama il ragno delle banane. Si chiama così per due motivi. Il primo è che vive sulle banane. In Brasile, nelle grandi coltivazioni e piantagioni di banane, c'è questo ragno, piuttosto grande in realtà. Grande diversi centimetri. E il secondo motivo è... Il ragno delle banane ha un veleno molto potente. Quando morde, quando punge, la persona si sente malissimo. Ha una febbre altissima, ha del vomito, ha una diarrea, ma è anche affetto da un dolorosissimo priapismo. Cioè?",
     "titolo": "ragno delle banane",
     "tema": [
@@ -499,10 +414,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-31-044",
+    "id": "2017-05-31-037",
     "start": 2416.27,
     "end": 2436.2,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_03",
     "testo": "molto grande sempre in erezione scusi io le ricordo un'altra cosa è che la gente viene sempre ricordata per l'ultima cosa che ha fatto oggi è l'ultima puntata ci ha raccontato delle storie di guerra di robe bellissime lei vuole finire proprio col priapismo cioè",
     "titolo": "",
     "tema": [],
@@ -510,10 +425,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-31-045",
+    "id": "2017-05-31-038",
     "start": 2438.22,
     "end": 2578.84,
-    "speaker_raw": "SPEAKER_07",
+    "speaker_raw": "SPEAKER_02",
     "testo": "ricordiamoci che Priapo è stato adorato anche da un nostro presidente del consiglio aveva la statuetta in studio non diciamo chi Monti con la faccia lì Monti amava Priapo professore non c'entra niente col fatto che vive sulle banane è una cosa bizzarra comunque lui morde ti viene la febbre, il cagotto e tutto però ti cresce le misure è un creatismo molto doloroso quindi non puoi neanche usare non è che puoi dire lo sfrutto eh no, devi andare in banca addirittura andare in bagno e vomiti per sei ore ce l'ho così vogliamo organizzare una festa devo andare in bagno ma non finisce qua perché l'esito diciamo così di questa fase acuta può essere duplice può essere di due tipi il primo che purtroppo non è del tutto raro è la morte le persone muoiono dopo così una settimana infernale purtroppo si passa a miglior vita non ride alcuni invece alcuni invece sopravvivono no aspetta prof qui c'è una crisi aspetta c'è un po' più piacere aspetta sono contento finalmente ce l'ho grosso ce l'ho grosso morto morto ma quelli che sopravvivono invece hanno una vita meravigliosa perché questi effetti rimane in qualche modo permangono è stata addirittura una ricerca degli entomologi che hanno questi entomologi hanno fatto delle interviste alle mogli delle persone che sono state morte però che era un po' triste erano un po' triste perché il marito sopravvissuto che se ne voleva tutto però però vabbè no perché io vedo dimensioni molto piccole me lo prendo il rischio mi sa mi sa che mi prendo il rischio questo è il consiglio agli ascoltatori ok andate in Brasile fatemi pungere per il bene vostro e delle vostre mogli per il bene vostro c'è un margine in qualche modo di rischio perché si muore ma è la candela è come il sushi quello lì il pesce palla del sushi se sbagli muori subito ma quali sono le percentuali però? E allora si muore il 10%, il 10%.",
     "titolo": "",
     "tema": [],
@@ -521,10 +436,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-31-046",
+    "id": "2017-05-31-039",
     "start": 2579.18,
     "end": 2581.06,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Io il rischio me lo prendo ragazzi.",
     "titolo": "",
     "tema": [],
@@ -532,10 +447,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-31-047",
+    "id": "2017-05-31-040",
     "start": 2581.14,
     "end": 2590.34,
-    "speaker_raw": "SPEAKER_07",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Tra l'altro la cosa incredibile è che questo priapismo perdura, perdura, non finisce mai, quindi ci sono degli anziani ancora decisamente arzilli.",
     "titolo": "",
     "tema": [],
@@ -543,10 +458,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-31-048",
+    "id": "2017-05-31-041",
     "start": 2593.49,
     "end": 2606.58,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_03",
     "testo": "si saranno tatuati un ragno sul braccio che gli ha cambiato la vita peraltro diventa l'uomo ragno e si deve andare in giro a salvare il mondo questa invece è la versione Rocco Siffredi dell'uomo ragno senta professore",
     "titolo": "",
     "tema": [],
@@ -554,25 +469,23 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-31-049",
+    "id": "2017-05-31-042",
     "start": 2606.78,
     "end": 2635.52,
-    "speaker_raw": "SPEAKER_07",
+    "speaker_raw": "SPEAKER_02",
     "testo": "mi diceva Viola lì a Milano che lei ha portato una poesia per ringraziarci certo volevo salutarvi con una poesia una poesia di Roberto Perciballi che è stato un grande punk di Roma era il cantante dei Bloody Riot lei professore mi stupisce in figaggine lei è proprio figo la settimana scorsa che viveva in California adesso è professore ma anche il punk conosce ho avuto un passato giovanile diciamo così un po' turbolento",
     "titolo": "poesia punk",
     "tema": [
       "punk"
     ],
     "tipo": "riferimento_libro",
-    "video_url": "",
-    "autore": "Roberto Perciballi",
-    "confermato_esterno": false
+    "video_url": ""
   },
   {
-    "id": "2017-05-31-050",
+    "id": "2017-05-31-043",
     "start": 2635.58,
     "end": 2637.84,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_03",
     "testo": "si può mettere a Radio DJ una poesia punk?",
     "titolo": "",
     "tema": [],
@@ -580,25 +493,23 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-31-051",
+    "id": "2017-05-31-044",
     "start": 2638.4,
     "end": 2684.06,
-    "speaker_raw": "SPEAKER_07",
+    "speaker_raw": "SPEAKER_02",
     "testo": "si può mettere perché c'è qualche parolaccio esatto, allora diciamo ai tassisti abbassate il volume e roba del genere Maurizio che di poesia se ne intende mette una base, lei ci legge la poesia e poi ci risentiamo l'anno prossimo però scusate, devo prima scusarmi con i romani perché è in romanesco e io sono bolognese e il romanesco lascia qua per liberare Amantide di Roberto Percivalli ma che cazzo di religiosa sei se prima teoscopi e poi teomagni e lo fai in tanti pezzettini come fossero lenticchie cotechini amantide ma vattene affanculo così?",
     "titolo": "Amantide",
     "tema": [
       "poesia"
     ],
     "tipo": "riferimento_libro",
-    "video_url": "",
-    "autore": "Roberto Percivalli",
-    "confermato_esterno": false
+    "video_url": ""
   },
   {
-    "id": "2017-05-31-052",
+    "id": "2017-05-31-045",
     "start": 2684.14,
     "end": 2686.35,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_05",
     "testo": "così impunito? ma è finito così? ma è punk eh",
     "titolo": "",
     "tema": [],
@@ -606,10 +517,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-31-053",
+    "id": "2017-05-31-046",
     "start": 2688.64,
     "end": 2692.24,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Ma scusi, ma è finita o sta andando avanti? No, è finita, è finita.",
     "titolo": "",
     "tema": [],
@@ -617,10 +528,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-31-054",
+    "id": "2017-05-31-047",
     "start": 2692.26,
     "end": 2694.22,
-    "speaker_raw": "SPEAKER_07",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Non avete capito, c'è un finale anche.",
     "titolo": "",
     "tema": [],
@@ -628,10 +539,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-31-055",
+    "id": "2017-05-31-048",
     "start": 2694.24,
     "end": 2700.79,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_03",
     "testo": "No, scusi, allora è anche mezza giapponese. È una iku, è una iku. Beh, ma è stupenda.",
     "titolo": "",
     "tema": [],
@@ -639,10 +550,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-31-056",
+    "id": "2017-05-31-049",
     "start": 2701.11,
     "end": 2702.93,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_05",
     "testo": "E ha finito col priapismo e malattena.",
     "titolo": "",
     "tema": [],
@@ -650,10 +561,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-31-057",
+    "id": "2017-05-31-050",
     "start": 2704.89,
     "end": 2719.77,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_03",
     "testo": "io professore non ho ancora firmato per l'anno prossimo però lei ci sarà comunque un piacere grazie prof grazie veramente salve salve ciao ciao ciao",
     "titolo": "",
     "tema": [],
@@ -661,10 +572,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-31-058",
+    "id": "2017-05-31-051",
     "start": 2735.18,
     "end": 2821.53,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_05",
     "testo": "no no no no ... ... ... bobbette si corre po allegri a macarena gatta ponte meta flow week at the heat we and tapasso blu leggo jenny mf di no mucho dura non per la sentita attrazione ... ... ... ... ...",
     "titolo": "",
     "tema": [],
@@ -672,10 +583,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-05-31-059",
+    "id": "2017-05-31-052",
     "start": 2866.84,
     "end": 2882.49,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Bene ragazzi, allora io vi saluto velocemente perché devo fare la valigia, devo mettere dentro un sacco di cose e regali per voi soprattutto. Viola, Maurizio, la stessa. Lascio qua il computer per far spazio ai vostri regali. Ciao, a domani!",
     "titolo": "",
     "tema": [],
