@@ -495,6 +495,11 @@ def _archivia_mp3(mp3: Path) -> None:
     senza dover controllare data/frammenti/ o chiedere. Se la cartella di destinazione
     ha gia' un file con lo stesso nome (es. doppio lancio), non sovrascrive: lascia
     l'mp3 dov'e'."""
+    if mp3.parent.name == "gia_trascritti":
+        # --forza puo' ripassare su un mp3 gia' archiviato (ritrascrizione con
+        # nuova config) - senza questo controllo finirebbe spostato in un
+        # gia_trascritti/gia_trascritti/ annidato invece di restare dov'e'.
+        return
     dest_dir = mp3.parent / "gia_trascritti"
     dest_dir.mkdir(exist_ok=True)
     dest = dest_dir / mp3.name
@@ -537,6 +542,13 @@ def main() -> None:
                               "parallelo al mini PC: il budget LLM e' condiviso per account, non per macchina, quindi "
                               "solo UNA macchina deve classificare (vedi riclassifica_frammenti.py per farlo centralmente "
                               "sui frammenti sincronizzati da piu' fonti)")
+    parser.add_argument("--forza", action="store_true",
+                         help="RITRASCRIVE anche gli episodi gia' fatti (incluso dentro gia_trascritti/), "
+                              "ignorando il filtro _gia_fatto - usare SOLO per applicare una nuova config "
+                              "whisperx al backlog storico. genera_frammenti.py fa il merge per sovrapposizione "
+                              "temporale (non indice), quindi le classificazioni gia' assegnate sono protette, "
+                              "ma verificare comunque un campione dopo il primo giro su dati reali (2026-07-24: "
+                              "5 classificazioni surviste correttamente su un test isolato).")
     args = parser.parse_args()
 
     if args.gpu:
@@ -566,7 +578,13 @@ def main() -> None:
         cpu_affinity = [i * 2 for i in range(args.threads)]
 
     cartella = Path(args.cartella)
-    mp3s = sorted(cartella.glob("*.mp3"))
+    if args.forza:
+        # ricorsivo: include anche <cartella>/gia_trascritti/*.mp3, altrimenti
+        # gli episodi gia' completati (spostati li' da _completa_episodio) sono
+        # invisibili al glob normale e --forza non troverebbe nulla da rifare.
+        mp3s = sorted(cartella.rglob("*.mp3"))
+    else:
+        mp3s = sorted(cartella.glob("*.mp3"))
     if args.da:
         mp3s = [p for p in mp3s if (parse_data(p.name) or "").replace("-", "") >= args.da]
     if args.a:
@@ -581,7 +599,8 @@ def main() -> None:
             return False
         return (TRASCRIZIONI_DIR / f"{data_str}.json").exists() or (FRAMMENTI_DIR / f"{data_str}.json").exists()
 
-    mp3s = [p for p in mp3s if not _gia_fatto(p)]
+    if not args.forza:
+        mp3s = [p for p in mp3s if not _gia_fatto(p)]
 
     if args.limit:
         mp3s = mp3s[:args.limit]

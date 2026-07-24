@@ -49,6 +49,7 @@ DA="20160101"
 LIMIT=0
 SKIP_CLASSIFY=0
 USE_GPU=0
+FORZA=0
 
 shift || true
 while [[ $# -gt 0 ]]; do
@@ -57,6 +58,7 @@ while [[ $# -gt 0 ]]; do
     --limit) LIMIT="$2"; shift 2 ;;
     --skip-classify) SKIP_CLASSIFY=1; shift ;;
     --gpu) USE_GPU=1; shift ;;
+    --forza) FORZA=1; shift ;;
     *) shift ;;
   esac
 done
@@ -67,6 +69,9 @@ if [[ "$SKIP_CLASSIFY" -eq 1 ]]; then
 fi
 if [[ "$USE_GPU" -eq 1 ]]; then
   EXTRA_ARGS+=(--gpu)
+fi
+if [[ "$FORZA" -eq 1 ]]; then
+  EXTRA_ARGS+=(--forza)
 fi
 
 echo "Controllo sensori disponibili..."
