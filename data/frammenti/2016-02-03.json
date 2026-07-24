@@ -2,9 +2,9 @@
   {
     "id": "2016-02-03-000",
     "start": 0.79,
-    "end": 7.36,
-    "speaker_raw": "SPEAKER_15",
-    "testo": "Radio DJ. One nation, one station. One love.",
+    "end": 52.16,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Radio DJ. One nation, one station. One love. no più",
     "titolo": "One nation, one station",
     "tema": [
       "unità",
@@ -15,10 +15,10 @@
   },
   {
     "id": "2016-02-03-001",
-    "start": 51.9,
-    "end": 52.16,
-    "speaker_raw": "SPEAKER_13",
-    "testo": "no più",
+    "start": 195.88,
+    "end": 234.31,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Like an animal, un bellissimo disco che dà praticamente il benvenuto al volo del mattino e quindi a tutti voi ascoltatori di questo programma che ormai va in onda da tanti anni con vari cambiamenti, abbiamo avuto molti personaggi, per anni l'ho fatto da solo, poi per anni l'ho fatto con Heidi, poi con Spank, poi con E.T., con Rambo e adesso ho buttato via, diciamo, quei personaggi. Fanno il film di Heidi. Sì, sì. Veramente? Sì. Ma in che lingua? Cioè nel senso chi lo produce? I giapponesi, i tedeschi, i svizzeri? Ma la fanno digitale o la fanno con la bambina?",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -26,21 +26,9 @@
   },
   {
     "id": "2016-02-03-002",
-    "start": 195.88,
-    "end": 234.31,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Like an animal un bellissimo disco che dà praticamente il benvenuto al volo del mattino e quindi a tutti voi ascoltatori di questo programma che ormai va in onda da tanti anni con vari cambiamenti abbiamo avuto molti personaggi per anni l'ho fatto da solo poi per anni l'ho fatto con Heidi poi con Spank poi con E.T. con Rambo e adesso ho buttato via diciamo quei personaggi fanno il film di Heidi veramente Ma in che lingua? Cioè nel senso chi lo produce? I giapponesi, i tedeschi, gli svizzeri? Ma la fanno digitale o la fanno con la bambina?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": "",
-    "autore": ""
-  },
-  {
-    "id": "2016-02-03-003",
     "start": 234.73,
     "end": 236.69,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_02",
     "testo": "La digitale fa schifo. No, no, no.",
     "titolo": "",
     "tema": [],
@@ -48,11 +36,22 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-03-004",
+    "id": "2016-02-03-003",
     "start": 237.9,
     "end": 279.36,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "ho visto un film con Heidi però era rossa non mi era piaciuto perché era rossa riccia non mi ci ritrovavo nel personaggio comunque via E.T. via Rambo via Spenca abbiamo Viola e Maurizio ecco ragazzi quindi continua diciamo la versione cartunesca della vita poi abbiamo la Stellina e la Steffi al centralino 347 342 5220 oppure diretta chioccioladj.it come siamo istituzionali stamattina mi sta tornando anche un po' di voce per cui ragazzi I'm back sto tornando ho scelto due canzoni che vale la pena di sentire con antipatia la mia voce quelli che non mi sopportano perché ci sono due canzoni che meritano pian piano la voce se ne sta andando sigla",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "ho visto un film con Heidi però era rossa non mi era piaciuto perché era rossa riccia non mi ci ritrovavo nel personaggio comunque via E.T. via Rambo via Spenca abbiamo Viola e Maurizio ecco ragazzi quindi continua diciamo la versione cartunesca della vita poi abbiamo la Stellina e la Steffi al centralino 347 342 5220 oppure diretta chioccioladj.it come siamo istituzionali stamattina mi sta tornando anche un po' di voce per cui ragazzi I'm back sto tornando ho scelto due canzoni che vale la pena di sentire con antipatia la mia voce quelli che non mi sopportano perché ci sono due canzoni che meritano pian piano la voce sta restando sigla",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-02-03-004",
+    "start": 284.65,
+    "end": 288.48,
+    "speaker_raw": "SPEAKER_01",
+    "testo": "bravi continuate così sei svegliato",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -60,24 +59,21 @@
   },
   {
     "id": "2016-02-03-005",
-    "start": 284.65,
-    "end": 329.96,
-    "speaker_raw": "SPEAKER_10",
-    "testo": "bravi continuate così sei svegliato Last night she said she loved me. What a pity to part. I slept waiting for that open. Waiting for the day to start. Good morning life. Good morning world. How are you? Happiness? I knew what living can be. Oh it's life. It's free. It's someone waiting for me. Who'll someday be my wife. Good morning life.",
-    "titolo": "Buongiorno vita",
-    "tema": [
-      "amore",
-      "vita"
-    ],
-    "tipo": "citazione",
+    "start": 305.14,
+    "end": 333.3,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Last night she said she loved me What a pity to part I slept with both eyes open Waiting for the day to start Good morning life, good morning world How are you, happiness? I knew what living can be Oh, it's life, it's free It's someone waiting for me Who'll someday be my wife Good morning life",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
     "id": "2016-02-03-006",
     "start": 337.62,
     "end": 486.02,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "posso dire una cosa privata? assolutamente cari ascoltatori perché ho capito che quando dico delle cose che mi succedono in casa in famiglia così poi trovo molte mail e messaggi quindi diciamo una vita che in qualche modo anche se abbiamo vite diverse si assomigliano io per esempio in questi giorni lavoro abbastanza tutto il giorno però diciamo fra due settimane iniziamo le produzioni della serie le cose per cui sette giorni su sette dalla mattina alla sera non avrò tempo quindi questo sabato non vado da fazio ok? ero con la famiglia organizzato oggi loro sarebbero partiti Airbnb, coso, aereo, macchina con i seggiolini, perché adesso per andare via dai che ti ami il taxi, la Johanna è islandese il bambino se non è legato nel seggiolino non si va da nessuna parte due bambini, quindi uno deve stare nel seggiolino grande, l'altro nell'ovetto noi partiamo che sembriamo capito, comunque il nord Europa è così la Johanna si mette anche sul taxi, se si siede dietro mette la cintura io non riesco è stata educata così, lei dice dietro se fai un incidente sei quello che vuoi fare ha ragione l'hanno educati diciamo giusti detto questo il bambino piccolo non sta bene quindi no macchina con i seggiolini no aereo, no taxi, no airbnb tutto pagato così non si parte succede nella vita va bene Io li avrei raggiunti nel weekend e quindi era l'ultimo weekend diciamo un po' libero e poi dopo partivo a lavorare, si andava a trovare i zii, le cose, era una cosa rilassante, allora ho pensato, anche tutte le volte che nella vita magari ero in vacanza in un posto, a volte addirittura ti muore qualcuno che non è molto leggo da dire. e lì devi valutare ovviamente se nel cerchio genitori nonni zii si torna la zia che vedi poco che stai in un'altra città quindi lì lo spazio tempo conta perché poi se sei in vacanza in Liguria e muore qualcuno a Milano vai e torni ma se sei a Bali deve essere nel cerchio magico il parente assolutamente deve avere tantissimo valore per chi è dentro il tuo cerchio io conosco per esempio e lo dico sicuramente molti ascoltatori ho amici che non vanno in vacanza da tre anni perché hanno il cane malato quindi dicono non riusciamo a mettere il cane in macchina con noi alcuni considerano il cane come un bambino perché diventa un po' tuo figlio il cane quindi mi faceva ridere quando tu organizzi tutto e ecco almeno male ridi Io sono anche fortunato, però c'è qualcuno che magari ci ha investito molti stipendi e si è visto svanire perché succede la cosa sbagliata nel momento sbagliato. Detto questo, Maurizio.",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "posso dire una cosa privata? assolutamente cari ascoltatori perché ho capito che quando dico delle cose che mi succedono in casa in famiglia così poi trovo molte mail e messaggi quindi diciamo una vita che in qualche modo anche se abbiamo vite diverse si assomigliano io per esempio in questi giorni lavoro abbastanza tutto il giorno così però diciamo fra due settimane iniziamo le produzioni della serie le cose per cui sette giorni su sette dalla mattina alla sera non avrò tempo quindi questo sabato non vado da fazio ok? ero con la famiglia organizzato, oggi loro sarebbero partiti, Airbnb, aereo, macchina con i seggiolini, perché adesso per andare via dai che ti ami il taxi, la Johanna è islandese, il bambino se non è legato nel seggiolino non si va da nessuna parte, due bambini, quindi uno deve stare nel seggiolino grande, l'altro nell'ovetto, noi partiamo che sembriamo, comunque il nord Europa è così, la Johanna si mette anche sul taxi, se si siede dietro mette la cintura, brava, io non riesco è stata educata così, lei dice dietro se fai un incidente sei quello che vuoi fare ha ragione l'hanno educati diciamo giusti detto questo il bambino piccolo non sta bene quindi no macchina con i seggiolini no aereo, no taxi, no airbnb tutto pagato così non si parte succede nella vita va bene io li avrei raggiunti nel weekend quindi era l'ultimo weekend diciamo un po' libero e poi dopo partivo a lavorare si andava a trovare i zii le cose era una cosa rilassante allora ho pensato anche tutte le volte che nella vita magari ero in vacanza in un posto a volte addirittura ti muore qualcuno che non è molto leggo da dire e lì devi valutare ovviamente se nel cerchio genitori nonni zii si torna la zia che vedi poco che sta in un'altra città quindi lì lo spazio tempo conta perché poi se sei in vacanza in Liguria e muore qualcuno a Milano vai e torni ma se sei a Bali deve essere nel cerchio magico il parente assolutamente deve avere tantissimo valore per chi è dentro il tuo cerchio io conosco per esempio e lo dico sicuramente molti ascoltatori ho amici che non vanno in vacanza da tre anni perché hanno il cane malato quindi dicono non riusciamo a mettere il cane in macchina con noi alcuni considerano il cane come un bambino perché diventa un po' tuo figlio il cane quindi mi faceva ridere quando tu organizzi tutto e ecco almeno male ridi Io sono anche fortunato, però c'è qualcuno che magari ci ha investito molti stipendi e si è visto svanire perché succede la cosa sbagliata nel momento sbagliato. Detto questo, Maurizio.",
     "titolo": "La vita in famiglia e il lavoro",
     "tema": [
       "famiglia",
@@ -90,50 +86,45 @@
     "id": "2016-02-03-007",
     "start": 486.66,
     "end": 490.94,
-    "speaker_raw": "SPEAKER_05",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Io ho trovato i Rollins di Ian Solo. Ancora lì sei tu, da ieri.",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
     "id": "2016-02-03-008",
     "start": 490.96,
     "end": 515.44,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Volevo dire una cosa da ieri, ho trovato Ian Solo. Oggi ragazzi vi volevamo dire delle cose molto belle. Ve le diciamo perché... parlo già da troppo tempo domani esce il film di Tarantino io ho avuto la fortuna di incontrarlo e intervistarlo qualche giorno fa vi mettiamo un pezzo che troverete nel film se lo andate a vedere un pezzo che hanno fatto già molte cover molti personaggi noi mettiamo la versione di Johnny Cash",
     "titolo": "film di Tarantino",
     "tema": [
       "intervista"
     ],
     "tipo": "riferimento_film",
-    "video_url": "",
-    "autore": "Quentin Tarantino",
-    "confermato_esterno": false
+    "video_url": ""
   },
   {
     "id": "2016-02-03-009",
     "start": 526.34,
-    "end": 620.23,
+    "end": 620.21,
     "speaker_raw": "SPEAKER_01",
-    "testo": "you can run on for a long time run on for a long time run on for a long time sooner or later gotta cut you down sooner or later gotta cut you down Grazie a tutti. ... ... ... ... a presto a presto",
+    "testo": "you can run on for a long time run on for a long time run on for a long time sooner or later gotta cut you down sooner or later gotta cut you down Grazie a tutti. ... ... ... ... Ciao. Grazie.",
     "titolo": "You Can Run",
     "tema": [
       "musica",
       "canzone"
     ],
     "tipo": "riferimento_musica",
-    "video_url": "",
-    "confermato_esterno": true,
-    "copertina": "https://coverartarchive.org/release/0a055d6b-ae99-4199-a8f0-7dc15ecbdcc1/front-250"
+    "video_url": ""
   },
   {
     "id": "2016-02-03-010",
     "start": 661.34,
     "end": 671.96,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_04",
     "testo": "a proposito di persone diciamo famiglie che hanno relazioni diciamo con i cani no relazioni molto intime siamo così noi non riusciamo a passare neanche una notte fuori perché ho tre argentini recuperati da un canile e",
     "titolo": "Relazioni con i cani",
     "tema": [
@@ -147,7 +138,7 @@
     "id": "2016-02-03-011",
     "start": 673.85,
     "end": 675.57,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_02",
     "testo": "tre argentini?",
     "titolo": "",
     "tema": [],
@@ -157,9 +148,9 @@
   {
     "id": "2016-02-03-012",
     "start": 675.59,
-    "end": 764.94,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Dogo argentini si chiama, è una razza quindi saranno anche delle bestie giganti delle bestie che gli sfondano la casa oppure magari non stanno molto bene noi siamo dovuti tornare dal viaggio di nozze quello è un danno, era reale lì adesso Valentina non ci ha detto il motivo ma gli sarà venuto a mancare qualcuno di importante non torni per una zia di terzo grado diciamo per la sorella della nonna non torni per la sorella di tua nonna torni dal viaggio di nozze non torno mi spiace tanto nonna ma non torno no poi io per esempio anche quella roba lì si torna per esempio quando io stavo a New York è morto il fratello di mio padre io torno per mio padre certo cioè mi spiace per mio zio e tutto però torno per star vicino a mio papà si fa anche per quello immagino quindi magari ti muore uno zio torni appunto per però la sorella della nonna la nonna è anziana si suppone che la sorella a un certo punto Maurizio e Pavia che vivono tutti in un metro quadrato in un chilometro quadrato ci sono sette generazioni magari la sorella della nonna è una che vedi tutti i giorni non lo so ha sorelle tua nonna? le vedi? torneresti dal viaggio di nozze? vedi che bravo che è bravo è bugia allora volevo dire cari ascoltatori mi dice mandano una mail dovete dire che anche in Italia è obbligatorio mettere la cintura in macchina seduti dietro lo so però vedi noi come siamo è obbligatorio da oggi no da ieri è obbligatorio non fumare negli ospedali ci siamo accorti che è cambiato qualcosa",
+    "end": 765.88,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Dogo argentini si chiama è una razza quindi saranno anche delle bestie giganti delle bestie che gli sfondano la casa oppure magari non stanno molto bene noi siamo dovuti tornare dal viaggio di nozze scrive Valentina quello è un danno era reale lì adesso Valentina non ci ha detto il motivo ma gli sarà venuto a mancare qualcuno di importante cioè non poi non torni per una zia di terzo grado diciamo per la sorella della nonna non torni per la sorella di tua nonna torni dal viaggio di nozze non torno mi spiace tanto nonna ma non torno no poi io per esempio anche quella roba lì si torna per esempio quando io stavo a New York è morto il fratello di mio padre io torno per mio padre certo cioè mi spiace per mio zio e tutto però torno per star vicino a mio papà si fa anche per quello immagino quindi magari ti muore uno zio torni appunto per però la sorella della nonna la nonna è anziana si suppone che la sorella a un certo punto Maurizio e Pavia che vivono tutti in un metro quadrato in un chilometro quadrato ci sono sette generazioni magari la sorella della nonna è una che vedi tutti i giorni non lo so ha sorelle tua nonna? le vedi? torneresti dal viaggio di nozze? vedi che bravo che è bravo bugiardo è bugia allora volevo dire cari ascoltatori mi dice mandano una mail dovete dire che anche in Italia è obbligatorio mettere la cintura in macchina seduti dietro lo so però vedi noi come siamo è obbligatorio da oggi no da ieri è obbligatorio non fumare negli ospedali tutta la roba che abbiamo detto ma ci siamo accorti che è cambiato qualcosa",
     "titolo": "Dogo argentino",
     "tema": [
       "animali",
@@ -172,19 +163,18 @@
     "id": "2016-02-03-013",
     "start": 766.38,
     "end": 772.49,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Tra l'altro c'è la polemica perché ci sono le sanzioni per chi butta i mozziconi, però non ci sono i contenitori.",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
     "id": "2016-02-03-014",
     "start": 772.67,
     "end": 776.49,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Non ci sono i contenitori, uno se lo dovrebbe tenere in... no, si mette nel pacchetto.",
     "titolo": "",
     "tema": [],
@@ -195,8 +185,8 @@
     "id": "2016-02-03-015",
     "start": 776.55,
     "end": 782.29,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "Esistono delle scatoline a tenuta ermetica perché se no puoi buttare...",
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Esistono delle scatoline a tenuta ermetica perché se no puoi buttare.",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -206,8 +196,8 @@
     "id": "2016-02-03-016",
     "start": 783.17,
     "end": 875.58,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "La domanda che faceva un ascoltatore, abbiamo detto che se tu fumi in macchina con una donna incinta prendi una multa, ma se è la donna incinta che fuma... si prende la multa dilemma effettivamente c'è nella legge questa roba? non lo so me la devo spulciare arriva il vigile e ti dai la sigaretta in mano a lei di che fumavi tu fagli vedere come fumo mentre ci scrivete le vostre vacanze rovinate i vostri momenti così sono arrivati i nomi delle grandi star che andranno a Sanremo hai visto? Oggi, allora, la notizia di oggi è che ci sarà anche Roberto Bolle Roberto Bolle E Nicole Kidman Nicole Kidman Che era già venuta in Italia quando hanno aperto Agon Channel Esatto, per cui non so quanto porti bene No, però lei fa così, lei arriva, super aereo privato Lei super aereo, arriva, va in albergo Possiamo fare un inter... no, possiamo... no, possiamo... no Scende, la portano a Sanremo, sale, fa... scusi visto che qua le possiamo chiedere no torri d'albergo aereo Los Angeles un milione essendo Rai si può chiedere quando è una roba pubblica si può chiedere quanto costerà almeno 500 per meno di 500 non viene non scende dal letto pronto Nicole vuoi venire a Sanremo 500 ti passa Giardiniere e ti dice guarda che roba per te è per il tuo letale non lo so, chiediamo chi è che ne sa i prezzi? c'è un listino prezzi?",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "La domanda che faceva un ascoltatore, abbiamo detto che se tu fumi in macchina con una donna incinta prendi una multa, ma se è la donna incinta che fuma... si prende la multa dilemma effettivamente c'è nella legge questa roba? non lo so me la devo spulciare arriva il vigile e ti dai la sigaretta in mano a lei di che fumavi tu fagli vedere come fumi mentre ci scrivete le vostre vacanze rovinate i vostri momenti così sono arrivati i nomi delle grandi star che andranno a Sanremo hai visto? Oggi, allora, la notizia di oggi è che ci sarà anche Roberto Bolle Roberto Bolle E Nicole Kidman Nicole Kidman Che era già venuta in Italia quando hanno aperto Agon Channel Esatto, per cui non so quanto porti bene No, però lei fa così, lei arriva, super aereo privato Già ce l'aveva raccontato Lei super aereo, arriva, va in albergo Possiamo fare un inter... no, possiamo... no, possiamo... no Scende, la portano a Sanremo, sale, fa... scusi visto che qua le possiamo chiedere no torri d'albergo, aereo, Los Angeles un milione essendo Rai si può chiedere quando è una roba pubblica si può chiedere quanto costerà almeno 500 per meno di 500 non viene non scende dal letto pronto Nicole vuoi venire a Sanremo 500 ti passa giardiniere e ti dice guarda che roba per te è per il tuo letale non lo so, chiediamo chi è che ne sa i prezzi? c'è un listino prezzi?",
     "titolo": "Dilemma fumatori e gravidanza",
     "tema": [
       "fumo",
@@ -220,19 +210,18 @@
     "id": "2016-02-03-017",
     "start": 875.7,
     "end": 882.87,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_02",
     "testo": "non lo so, però possiamo andare a vedere i casce vecchi che hanno fatto sempre creare grosse polemiche servizio pubblico",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
     "id": "2016-02-03-018",
     "start": 883.43,
     "end": 884.11,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Abbiamo Heidi?",
     "titolo": "",
     "tema": [],
@@ -243,7 +232,7 @@
     "id": "2016-02-03-019",
     "start": 884.55,
     "end": 885.41,
-    "speaker_raw": "SPEAKER_05",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Sì, ho trovato...",
     "titolo": "",
     "tema": [],
@@ -254,13 +243,12 @@
     "id": "2016-02-03-020",
     "start": 885.43,
     "end": 895.98,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Aspetta, ragazzi, esce il film di Heidi e pensavamo fosse una cosa così. C'è persino Ganz che fa il nonno di Heidi. C'è un film d'autore serio. Fantastico.",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
     "id": "2016-02-03-021",
@@ -280,7 +268,7 @@
     "id": "2016-02-03-022",
     "start": 918.54,
     "end": 920.64,
-    "speaker_raw": "SPEAKER_07",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Ciao, io mi chiamo Heidi.",
     "titolo": "",
     "tema": [],
@@ -302,7 +290,7 @@
     "id": "2016-02-03-024",
     "start": 924.96,
     "end": 931.45,
-    "speaker_raw": "SPEAKER_07",
+    "speaker_raw": "SPEAKER_05",
     "testo": "E tu come ti chiami? Pedro. Poi insegni anche a me come si fa. Che bello.",
     "titolo": "",
     "tema": [],
@@ -324,7 +312,7 @@
     "id": "2016-02-03-026",
     "start": 933.79,
     "end": 935.09,
-    "speaker_raw": "SPEAKER_07",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Buongiorno, capretta.",
     "titolo": "",
     "tema": [],
@@ -343,14 +331,13 @@
       "animazione"
     ],
     "tipo": "riferimento_film",
-    "video_url": "",
-    "confermato_esterno": false
+    "video_url": ""
   },
   {
     "id": "2016-02-03-028",
     "start": 941.37,
     "end": 942.13,
-    "speaker_raw": "SPEAKER_07",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Buonanotte, caro nonno.",
     "titolo": "",
     "tema": [],
@@ -361,7 +348,7 @@
     "id": "2016-02-03-029",
     "start": 945.1,
     "end": 949.88,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Figo, io vado a vederlo, sicuro. Dai. Ma che scherzi. Certo, certo.",
     "titolo": "",
     "tema": [],
@@ -371,9 +358,9 @@
   {
     "id": "2016-02-03-030",
     "start": 982.64,
-    "end": 1088.67,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "Sì. Ciao!",
+    "end": 1088.69,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Musica Musica Musica grazie",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -383,8 +370,8 @@
     "id": "2016-02-03-031",
     "start": 1140.84,
     "end": 1184.13,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "gente che dice se Nicole Kidman non vuol venire a 500 vengo io 500 euro tra l'altro vengo io a 500 euro scusate oggi il budget quest'anno era un po' abbiamo qui Luciana Luciana da Parma buongiorno sono Luciana come va? va bene due domande secondo me le domande che si fanno i personaggi ma anche quando mi fanno le interviste secondo me possono rispondere tutti cioè tipo fammi la domanda tua com'è stata questa esperienza nel doppiare il Kung Fu Panda tu lo chiedi a un barista lui ti dice ma è divertente io non è che dico una cosa diversa vuoi che sia mai successo il doppiare Come è stato lavorare con Silvio Orlando?",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "gente che dice se Nicole Kidman non vuol venire a 500 vengo io 500 euro tra l'altro vengo io a 500 euro scusate oggi il budget quest'anno era un po' abbiamo qui Luciana tipo non so Luciana da Parma buongiorno sono Luciana come va? va bene due domande secondo me le domande che si fanno i personaggi ma anche quando mi fanno le interviste secondo me possono rispondere tutti cioè tipo fammi la domanda tua com'è stata questa esperienza nel doppiare il Kung Fu Panda tu lo chiedi a un barista lui ti dice ma è divertente io non è che dico una cosa diversa vuoi che sia mai successo il doppiare Come è stato lavorare con Silvio Orlando?",
     "titolo": "domande interviste",
     "tema": [
       "comunicazione"
@@ -396,7 +383,7 @@
     "id": "2016-02-03-032",
     "start": 1184.51,
     "end": 1189.46,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Ho imparato un sacco, perché comunque... Sì, ma se glielo chiedo una persona... Maurizio, scusami, ma...",
     "titolo": "Domande e risposte",
     "tema": [
@@ -410,19 +397,18 @@
     "id": "2016-02-03-033",
     "start": 1189.9,
     "end": 1200.08,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Oh, lo dobbiamo sentire, Silvio Orlando, lo ho anche sentito l'altro giorno. Sì, perché adesso sta per uscire il nostro film, bisogna che lo sentiamo. Scusami, Maurizio, scusami, guarda qua. Maurizio, com'è stato lavorare con Silvio Orlando?",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
     "id": "2016-02-03-034",
     "start": 1200.28,
     "end": 1206.75,
-    "speaker_raw": "SPEAKER_05",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Beh, bellissimo, lui è un grande attore, quindi è molto bello lavorare con uno così bravo, impegnato anche nel sociale.",
     "titolo": "",
     "tema": [],
@@ -433,7 +419,7 @@
     "id": "2016-02-03-035",
     "start": 1206.79,
     "end": 1214.43,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Senti, senti, ti ha insegnato qualcosa lavorandoci insieme?",
     "titolo": "insegnamento lavoro",
     "tema": [
@@ -446,7 +432,7 @@
     "id": "2016-02-03-036",
     "start": 1214.95,
     "end": 1216.2,
-    "speaker_raw": "SPEAKER_05",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Sì, sì, sì, parecchie cose.",
     "titolo": "",
     "tema": [],
@@ -456,9 +442,31 @@
   {
     "id": "2016-02-03-037",
     "start": 1216.62,
+    "end": 1219.42,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Cioè lo capite che è tutta fuffa quello che legge sui giornali?",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-02-03-038",
+    "start": 1219.44,
+    "end": 1224.2,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Ma soprattutto sul set, cioè è proprio un professionista, lo vedi? Lui si chiude in se stesso.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-02-03-039",
+    "start": 1224.22,
     "end": 1262.18,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "cioè lo capite che è tutta fuffa quello che legge sui giornali ma soprattutto sul set cioè è proprio un professionista lo vedi lui si chiude in se stesso quando tra persone che non vanno d'accordo perché a volte succede che nei film anche nei programmi televisivi voi dovete sapere che addirittura ci sono programmi televisivi tipo non so la conduzione del TG con due persone che loro si odiano in onda ridono no? perché poi sai si rubano la battuta si odiano ok però tu quando ti raccogli vedi com'è lavorare È un grande professionista. Lì vuol dire che umanamente non si sono presi. Comunque, adesso chiamiamo un ascoltatore e gli chiediamo. Caro ascoltatore, com'è stata l'esperienza di girare con Silvestre Stallone? Cioè, tu apri i giornali, ma non c'è niente che tu non sai già, capisci?",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Quando tra persone che non vanno d'accordo, perché a volte succede che nei film, anche nei programmi televisivi, voi dovete sapere che addirittura ci sono programmi televisivi tipo, non so, la conduzione del TG con due persone, che loro si odiano, in onda ridono, no? Perché poi sai, si rubano la battuta, insomma, si odiano, ok. Però tu, quando te ne accorgi, vedi, com'è lavorare... È un grande professionista. Lì vuol dire che umanamente non si sono presi. Comunque, adesso chiamiamo un ascoltatore e gli chiediamo. Caro ascoltatore, com'è stata l'esperienza di girare con Silvestre Stallone? Cioè, tu apri i giornali, ma non c'è niente che tu non sai già, capisci?",
     "titolo": "professionismo di un attore",
     "tema": [
       "attore",
@@ -468,10 +476,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-03-038",
+    "id": "2016-02-03-040",
     "start": 1262.44,
     "end": 1264.21,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Cosa ti porti dietro da questa esperienza?",
     "titolo": "crescita personale",
     "tema": [
@@ -482,11 +490,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-03-039",
+    "id": "2016-02-03-041",
     "start": 1264.33,
     "end": 1272.59,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Beh, sono cresciuto, mi sembra bella. Insomma, non me la immaginavo diversa. Però la rifaresti, sì. Che dici? No, mi sta sul cazzo. Oh, vai là! Grazie a tutti.",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Beh, sono cresciuto, mi sembra bella. Insomma, non me la immaginavo diversa. Però rifaresti, sì. Che dici? No, mi sta sul cazzo. Oh, vai là! Grazie a tutti.",
     "titolo": "rifare la montagna",
     "tema": [
       "montagna"
@@ -495,36 +503,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-03-040",
-    "start": 1308.06,
-    "end": 1336.21,
-    "speaker_raw": "SPEAKER_02",
-    "testo": "come un contagio passa già da te a chi ti guarderà libertà è un concetto semplice se non rinuncia al complicato che sia per sempre un giorno solo un attimo",
-    "titolo": "libertà è un concetto",
-    "tema": [
-      "libertà",
-      "tempo"
-    ],
-    "tipo": "riflessione",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-03-041",
-    "start": 1343.7,
-    "end": 1344.12,
-    "speaker_raw": "SPEAKER_15",
-    "testo": "Grazie a tutti",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
     "id": "2016-02-03-042",
-    "start": 1372.14,
+    "start": 1308.06,
     "end": 1460.82,
     "speaker_raw": "SPEAKER_02",
-    "testo": "e poi non lo so non è così difficile resta l'incognita però di quanto poi sai perdere libertà sembra Grazie a tutti. libertà è un concetto semplice se non ne sai il significato che sia per sempre un giorno solo",
+    "testo": "come un contagio passa già da te a chi ti guarderà libertà è un concetto semplice se non rinuncia al complicato che sia per sempre un giorno solo un attimo Grazie a tutti. e poi non lo so non è così difficile resta l'incognita però di quanto poi sai perdere libertà sembra Grazie a tutti. libertà è un concetto semplice se non ne sai il significato che sia per sempre un giorno solo",
     "titolo": "La libertà è un concetto semplice",
     "tema": [
       "libertà"
@@ -536,47 +519,44 @@
     "id": "2016-02-03-043",
     "start": 1478.85,
     "end": 1553.52,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Tempesta, Malika Yen. Allora, un ascoltatore dice, vi siete dimenticati di dire che a Sanremo c'è anche Metre Games. Però noi lo troviamo per scontato perché ormai Metre Games, non so se avete notato, è un po' dappertutto. Un giorno c'è l'intervista, alla festa di Radio DJ c'è Metre Games, a Sanremo c'è Metre Games. Adesso io voglio dire una cosa, ma anche questa è una roba privata. Ieri ero qui al Carrefour. vado lì questo qui in piazza diamonti vabbè insomma entro al Carrefour c'è un ragazzotto di schiena lì dove hai i salumi un mio amico mi ha chiesto se gli prendevo due etti di cotto si è girato ma a che ora? verso le sei io l'avevo visto all'esse lunga alle quattro è in tournée si è girato e ha cantato anche un pezzo ma deve sfruttare questa onda a radio DJ canta e poi dopo sta lì comunque al bar fa delle robe mi stanno venendo in mente mille cose cattive allora mi stanno venendo mille cose cattive sui nostri ascoltatori che hanno lavorato con molti attori perché non mi chiamate vi racconto quella volta che ho girato con Tom Cruise qui abbiamo Alessandro D'Alba buongiorno Alessandro a che ora ti svegli la mattina Alessandro?",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Tempesta, Malika Yen. Allora, un ascoltatore dice, vi siete dimenticati di dire che a Sanremo c'è anche Metre Games. Però noi lo troviamo per scontato perché ormai Metre Games, non so se avete notato, è un po' dappertutto. Un giorno c'è l'intervista, alla festa di Radio DJ c'è Metre Games, a Sanremo c'è Metre Games. Adesso io voglio dire una cosa ma anche questa è una roba privata. Ieri ero qui al Carrefour. vado lì questo qui in piazza Diamonti vabbè insomma entro al Carrefour c'è un ragazzotto di schiena lì dove ha i salumi un mio amico mi ha chiesto se gli prendevo due etti di cotto si è girato ma a che ora? verso le sei io l'avevo visto all'esse lunga alle quattro è in tournée si è girato e ha cantato anche un pezzo ma deve sfruttare questa onda pensa che a radio DJ canta e poi dopo sta lì comunque al bar fa delle robe mi stanno venendo in mente mille cose cattive allora mi stanno venendo mille cose cattive sui nostri ascoltatori che hanno lavorato con molti attori perché non mi chiamate vi racconto quella volta che ho girato con Tom Cruise qui abbiamo Alessandro D'Alba buongiorno Alessandro a che ora ti svegli la mattina Alessandro?",
     "titolo": "presenza di Metre Games",
     "tema": [
       "Sanremo",
       "pubblicità"
     ],
     "tipo": "aneddoto",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
     "id": "2016-02-03-044",
     "start": 1554.78,
     "end": 1563.11,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_02",
     "testo": "ma allora posso dirti che io ho lavorato con grandi attori no no aspetta aspetta in quanto informatico proprio tu vero",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
     "id": "2016-02-03-045",
     "start": 1564.06,
     "end": 1608.63,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "assolutamente sì a che ora ti svegli? mi sveglio alle 7 e mezza del mattino e vai nella tua azienda di informatica? sì o lavori da casa? no magari il lavoro da casa non è proprio equivale a non lavorare ecco quindi è come la cicletta che equivale a non fare sport allora va bene vai al lavoro però ti è capitato di lavorare con grandi attori assolutamente sì qual è quello con cui ti sei trovato meglio? ma posso dirti con Fabio Volo no no no mi devi dire quella volta hai fatto solo la comparsa con me con chi ti sei trovato Alessandro? per esempio con Silvio Orlando hai fatto un film?",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "assolutamente sì a che ora ti svegli? mi sveglio alle sette e mezza del mattino e vai nella tua azienda di informatica? sì o lavori da casa? no magari il lavoro da casa non è proprio equivale a non lavorare ecco quindi è come la cicletta che equivale a non fare sport allora va bene vai al lavoro però ti è capitato di lavorare con grandi attori assolutamente sì qual è quello con cui ti sei trovato meglio? ma posso dirti con Fabio Volo no no no mi devi dire quella volta hai fatto solo la comparsa con me con chi ti sei trovato Alessandro? per esempio con Silvio Orlando hai fatto un film?",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
     "id": "2016-02-03-046",
     "start": 1609.47,
     "end": 1645.0,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "assolutamente sì posso dirti che lui è un grandissimo professionista sul set e di una bontà veramente incredibile è sempre pronto a correggerti laddove sbagli posso confermarti che da lui ho imparato veramente molto ti ha mai messo in difficoltà? no no mai mai anzi appunto come dicevo prima nei momenti dove non ero magari dove non davo il meglio lui ha saputo tirar fuori da me tutto quando reciti con quelli bravi senti hai progetti per il futuro Alessandro? ma adesso come adesso spero di continuare su questa linea del cinema",
+    "speaker_raw": "SPEAKER_02",
+    "testo": "assolutamente sì posso dirti che lui è un grandissimo professionista sul set e di una bontà veramente incredibile sempre pronto a correggerti laddove sbagli posso confermarti che da lui ho imparato veramente molto ti ha mai messo in difficoltà? no no mai mai anzi appunto come dicevo prima nei momenti dove non ero magari dove non davo il meglio lui ha saputo tirar fuori da me tutto quando reciti con quelli bravi senti hai progetti per il futuro Alessandro? ma adesso come adesso spero di continuare su questa linea del cinema",
     "titolo": "L'esperienza con il grande attore",
     "tema": [
       "lavoro",
@@ -587,10 +567,10 @@
   },
   {
     "id": "2016-02-03-047",
-    "start": 1645.45,
+    "start": 1645.55,
     "end": 1650.59,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Ok, hai paura di essere sovraesposto? Hai deciso magari di andare via qualche mese e poi ritorni?",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Hai paura di essere sovraesposto? Hai deciso magari di andare via qualche mese e poi ritorni?",
     "titolo": "Sovraesposizione e fuga",
     "tema": [
       "paura",
@@ -603,7 +583,7 @@
     "id": "2016-02-03-048",
     "start": 1652.85,
     "end": 1653.99,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_02",
     "testo": "A dire il vero non ancora.",
     "titolo": "Non ho ancora deciso",
     "tema": [
@@ -616,7 +596,7 @@
     "id": "2016-02-03-049",
     "start": 1654.15,
     "end": 1655.89,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Vuoi battere il ferro finché è caldo?",
     "titolo": "Battere il ferro finché è caldo",
     "tema": [
@@ -629,7 +609,7 @@
     "id": "2016-02-03-050",
     "start": 1656.79,
     "end": 1661.79,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Esatto, esatto. Non posso lasciarlo che pare così.",
     "titolo": "polemiche risposte",
     "tema": [
@@ -642,8 +622,8 @@
     "id": "2016-02-03-051",
     "start": 1661.83,
     "end": 1701.82,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Ok, va bene. Ti ringraziamo Alessandro, in bocca al lupo. Grazie mille. Ciao, ciao, ciao. Era uguale un'intervista di uno che... Vedi, quello che volevamo smascherare in questo momento è la fuffa di tutto quello che succede intorno a noi. Cosa c'è Maurizio? No, mi sembravano fossero le domande che... Che fanno... Sì, sono le stesse, ma anche le risposte sono le stesse. Non cambia niente. Tu prendi un'intervista di tre anni fa, la pubblichi oggi, non è che è cambiato qualcosa. Se non gli è cambiato a lui... Tipo, io sono cambiato che non avevo i figli, cioè i figli, ma poi... Eh sì... Attore, scrittore, DJ, qual è la cosa che ti senti meglio? La radio. Ok, ma i tuoi libri sono autobiografici? E' sempre quella roba lì.",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Ok, va bene. Ti ringraziamo Alessandro, in bocca al lupo. Grazie mille. Ciao, ciao, ciao, ciao, ciao. Era uguale un'intervista di uno che... Vedi, quello che volevamo, diciamo, smascherare in questo momento è la fuffa di tutto quello che succede intorno a noi. Cosa c'è, Maurizio? No, mi sembravano fossero le domande che... Che fanno... Eh sì, sono le stesse, ma anche le risposte sono le stesse. Non cambia niente. Tu prendi un'intervista di tre anni fa, la pubblichi oggi, non è che è cambiato qualcosa. Se non gli è cambiato a lui... Tipo, io sono cambiato che non avevo i figli, cioè i figli, ma poi... Eh sì... Attore, scrittore, DJ, qual è la cosa che ti senti meglio? La radio. Ok, ma i tuoi libri sono autobiografici? E' sempre quella roba lì.",
     "titolo": "La fuffa delle polemiche",
     "tema": [
       "polemiche",
@@ -656,7 +636,7 @@
     "id": "2016-02-03-052",
     "start": 1702.02,
     "end": 1705.53,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Ma chi ti dice, anzi, alle polemiche come rispondi? Esatto.",
     "titolo": "",
     "tema": [],
@@ -667,8 +647,8 @@
     "id": "2016-02-03-053",
     "start": 1707.11,
     "end": 1764.56,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "sono sempre le stesse domande più o meno le stesse risposte poi con internet ci sono tanti altri mille giornalini giornaletti che vanno riempiti tutti i giorni e quindi per esempio una volta uno mi ha chiesto in un'intervista sul foglio il rapporto, il fuoco sacro io ho detto guarda sinceramente ho visto mio padre umiliato dalle banche e a casa mia c'erano problemi economici quindi io sono uscito di casa non col fuoco sacro ma per ridare un senso di giustizia e una rivalsa sociale questo è stato il mio fuoco Fabio Volo si sfoga hanno umiliato Poverino non sanno più come riempire le notizie ho visto il trailer di Heidi dice un'ascoltatrice e ho pianto è emozionante anch'io è un film serio allora è un film fatto bene dopo Belle e Sebastian fantastico va bene, tu avevi portato tante altre notizie però parliamo già da quasi 5 minuti perché mi boicotti sempre?",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "sono sempre le stesse domande più o meno le stesse risposte poi con internet ci sono tanti altri mille giornalini giornaletti che vanno riempiti tutti i giorni e quindi per esempio una volta uno mi ha chiesto in un'intervista sul foglio il rapporto, il fuoco sacro io ho detto guarda sinceramente ho visto mio padre umiliato dalle banche e a casa mia c'erano problemi economici quindi io sono uscito di casa non col fuoco sacro ma per ridare un senso di giustizia e una rivalsa sociale questo è stato il mio fuoco il giorno dopo su internet Fabio Volo si sfoga hanno umiliato Poverino, non sanno più come riempire le notizie Ho visto il trailer di Heidi, dice un'ascoltatrice e ho pianto E' emozionante, anch'io sì Ma è un film serio allora, è un film fatto bene O c'è Bruno Ganz Dopo Belle e Sebastian Fantastico, fantastico va bene, tu avevi portato tante altre notizie però parliamo già da quasi 5 minuti perché mi boicotti sempre?",
     "titolo": "Il rapporto con il padre",
     "tema": [
       "famiglia",
@@ -680,21 +660,9 @@
   {
     "id": "2016-02-03-054",
     "start": 1764.58,
-    "end": 1788.0,
-    "speaker_raw": "SPEAKER_14",
-    "testo": "perché è la tua notizia I don't know if you were looking at me or not you probably smile like that all the time I don't mean to bother you but I couldn't just walk by and not say hi no no no",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": "",
-    "autore": ""
-  },
-  {
-    "id": "2016-02-03-055",
-    "start": 1808.58,
-    "end": 1837.43,
-    "speaker_raw": "SPEAKER_13",
-    "testo": "I don't know you, but I want to I don't wanna steal your freedom I don't wanna change your mind I don't have to make you love me I just wanna take your time I don't wanna wreck your Friday I ain't gonna waste my life I don't have to take your heart I just wanna take your time",
+    "end": 1942.91,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "perché è la tua notizia I don't know if you were looking at me or not you probably smile like that all the time I don't mean to bother you but I couldn't just walk by and not say hi Ciao! I don't know you, but I want to I don't wanna steal your freedom I don't wanna change your mind I don't have to make you love me I just wanna take your time I don't wanna wreck your Friday I ain't gonna waste my life I don't have to take your heart I just wanna take your time Ciao! Ciao Ciao Grazie a tutti I don't wanna steal your freedom I don't wanna change your mind I don't have to make you love me I just wanna take your time I don't wanna blow your phone up I just wanna blow your mind I don't have to take your heart I just wanna take your time",
     "titolo": "Non voglio rubarti la libertà",
     "tema": [
       "amore",
@@ -704,38 +672,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-03-056",
-    "start": 1839.32,
-    "end": 1873.45,
-    "speaker_raw": "SPEAKER_14",
-    "testo": "Ciao! Ciao Ciao Grazie a tutti",
-    "titolo": "saluto a tutti gli ascoltatori",
-    "tema": [
-      "gratitudine"
-    ],
-    "tipo": "citazione",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-03-057",
-    "start": 1919.63,
-    "end": 1942.91,
-    "speaker_raw": "SPEAKER_13",
-    "testo": "I don't wanna steal your freedom I don't wanna change your mind I don't have to make you love me I just wanna take your time I don't wanna blow your phone up I just wanna blow your mind I don't have to take your heart I just wanna take your time",
-    "titolo": "Non voglio cambiarti la mente",
-    "tema": [
-      "amore",
-      "libertà"
-    ],
-    "tipo": "citazione",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-03-058",
+    "id": "2016-02-03-055",
     "start": 1970.71,
     "end": 2004.09,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "ciao Fabio io ho lavorato con grandi professionisti in particolare con Rocco Siffredi e devo dire che è veramente un attore che mi ha messo a mio agio mi brucia dirlo E non solo dirlo, è stupendo. Com'è stato lavorare con Rocco Cifredi? Mi brucia dirlo, ma è stato molto divertente. Va bene, qua sono impazziti tu. Sono tutti impazziti, scusami, stamattina passo con la sciarpa e il cappello che cerco di recuperare questa influenza e Nicola mi dice, hai mangiato il panettone? Dico, Nicola, ma cosa stai dicendo? È il 3 di febbraio.",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "ciao Fabio io ho lavorato con grandi professionisti in particolare con Rocco Siffredi e devo dire che è veramente un attore che mi ha messo a mio agio mi brucia dirlo E non solo dirlo, è stupendo. Com'è stato lavorare con Rocco Cifredi? Mi brucia dirlo, ma è stato molto divertente. Va bene, qua sono impazziti tu. Sono tutti impazziti, scusami, stamattina passo con la sciarpa e il cappello che cerco di recuperare questa influenza e Nicola mi dice, hai mangiato il panettone? Dico Nicola, ma cosa stai dicendo? È il 3 di febbraio.",
     "titolo": "Lavorato con Rocco Siffredi",
     "tema": [
       "lavoro",
@@ -745,10 +686,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-03-059",
+    "id": "2016-02-03-056",
     "start": 2005.02,
     "end": 2006.46,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Ma chi è che lo sta mangiando in giro?",
     "titolo": "Il panettone di Natale",
     "tema": [
@@ -759,10 +700,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-03-060",
+    "id": "2016-02-03-057",
     "start": 2006.8,
     "end": 2011.67,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Non lo so, dice che oggi si mangia il panettone Io non conosco questa tradizione È una tradizione di oggi?",
     "titolo": "panettone a San Biagio",
     "tema": [
@@ -773,10 +714,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-03-061",
+    "id": "2016-02-03-058",
     "start": 2011.69,
     "end": 2020.19,
-    "speaker_raw": "SPEAKER_05",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Scusami Maurizio Ma allora non sono ferrato nel giro Perché è San Biagio Il panettone che si è avanzato a Natale Adesso?",
     "titolo": "",
     "tema": [],
@@ -784,11 +725,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-03-062",
+    "id": "2016-02-03-059",
     "start": 2020.39,
     "end": 2125.98,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Ecco io che c'ho problemi Infatti lui mi ha detto la gola, hai mangiato il panettone Io l'ho guardato strano e sono andato via Però scusatemi, San Biagio San Biagio si mangia il panettone l'ha scritto adesso? l'hanno scritto ma dove lo trovi il panettone adesso? è quello che dovresti aver avanzato ma lo tiro in faccia va conservato lo devi conservare a posto evidentemente io quando avevo il negozio poi avevamo i panettoni 2x1, 5x1 più andavi avanti i primi di aprile pagavi un panettone ti veniva a casa il signor Baulo e ti si sceglieva in braccio si si si andava in braccio e con un panettone ti baciava grazie grazie che hai comprato il panettone ad aprile comunque incredibile chiamiamo Nicola un secondo chiamiamo Nicola un secondo ah ma Nicola giù chiamiamo Nicola Savino infatti ho detto no per noi Nicola al 2 del mattino è Nicola Portinà è occupato fantastico va bene lo sentiamo dopo aspetta abbiamo in quel momento di dedica richieste sapete che sto portando avanti questa scuola questa mia cosa voglio fare un programma di dedica richiesta e questa mattina ho portato una bella canzone per una persona che mi ha scritto sul mio twitter personale ah si può? un ragazzo che ha scritto veramente non mi ha scritto su twitter mi ha scritto su instagram fa niente comunque mi ha scritto sono anni che sto con sta ragazza non ho mai avuto il coraggio di fare il passo serio ok adesso invece dopo che è successa una cosa mi è tutto molto chiaro e voglio stare con lei per sempre vorrei dedicare una canzone e io sto lì e cerco di capire la canzone mi è venuta in mente quella che si chiama I can see clear now te la ricordi? posso vederci chiaramente adesso e quindi dedica richiesta una scusa per poter mettere sta canzone senti che bella che è",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Ecco io che ho problemi Infatti lui mi ha detto la gola, hai mangiato il panettone Io l'ho guardato strano e sono andato via Però scusatemi, San Biagio San Biagio si mangia il panettone l'ha scritto adesso? l'hanno scritto ma dove lo trovi il panettone adesso? è quello che dovresti aver avanzato ma lo tiro in faccia va conservato lo devi conservare apposta io quando avevo il negozio poi avevamo i panettoni 2x1 5x1 più andavi avanti i primi di aprile pagavi un panettone ti veniva a casa il signor Baulo e ti si sedeva in braccio si si si andava in braccio e con un panettone ti baciava grazie grazie che hai comprato il panettone ad aprile comunque incredibile chiamiamo Nicola un secondo chiamiamo Nicola un secondo ah ma Nicola giù chissavi Nicola Savino infatti ho detto no per noi Nicola al 2 del mattino è Nicola Portinà è occupato fantastico va bene lo sentiamo dopo aspetta abbiamo in quel momento di dedica richieste sapete che sto portando avanti questa scuola questa mia cosa voglio fare un programma di dedica richiesta e questa mattina ho portato una bella canzone per una persona che mi ha scritto sul mio twitter personale ah si può? un ragazzo che ha scritto veramente non mi ha scritto su twitter mi ha scritto su instagram fa niente comunque mi ha scritto sono anni che sto con sta ragazza non ho mai avuto il coraggio di fare il passo serio ok adesso invece dopo che è successa una cosa mi è tutto molto chiaro e voglio stare con lei per sempre vorrei dedicare una canzone e io sto lì e cerco di capire la canzone mi è venuta in mente quella che si chiama I can see clear now te la ricordi? posso vederci chiaramente adesso e quindi dedica richiesta una scusa per poter mettere sta canzone senti che bella che è",
     "titolo": "Il panettone avanzato",
     "tema": [
       "Natale",
@@ -798,32 +739,21 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-03-063",
+    "id": "2016-02-03-060",
     "start": 2149.03,
-    "end": 2151.05,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "It's gonna be a bright",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-03-064",
-    "start": 2259.05,
     "end": 2259.23,
-    "speaker_raw": "SPEAKER_15",
-    "testo": "Allora...",
+    "speaker_raw": "SPEAKER_02",
+    "testo": "It's gonna be a bright Allora...",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-02-03-065",
+    "id": "2016-02-03-061",
     "start": 2284.94,
     "end": 2304.2,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Vedi che siamo tre ignoranti così. A Natale si taglia una fetta, si mette in un sacchetto e si mette via apposta per il 3 febbraio che è San Biagio. Il panettone deve diventare un po' duro in modo che ti gratti la gola andando giù che come degli operai ti fa lo stucco. Non sembro piacevole però. Non deve essere piacevole. Nicola!",
     "titolo": "tradizione del panettone a San Biagio",
     "tema": [
@@ -831,14 +761,13 @@
       "cibo"
     ],
     "tipo": "aneddoto",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
-    "id": "2016-02-03-066",
+    "id": "2016-02-03-062",
     "start": 2304.54,
     "end": 2305.7,
-    "speaker_raw": "SPEAKER_12",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Sì, ciao!",
     "titolo": "",
     "tema": [],
@@ -846,10 +775,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-03-067",
+    "id": "2016-02-03-063",
     "start": 2305.72,
     "end": 2309.5,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Ciao, scusami, ma è una cosa pugliese, una cosa milanese o di tutta Italia?",
     "titolo": "",
     "tema": [],
@@ -857,10 +786,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-03-068",
+    "id": "2016-02-03-064",
     "start": 2309.94,
     "end": 2315.85,
-    "speaker_raw": "SPEAKER_12",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Mi sa molto milanese, pugliese, non esisteva neanche il panettone da noi.",
     "titolo": "",
     "tema": [],
@@ -868,10 +797,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-03-069",
+    "id": "2016-02-03-065",
     "start": 2315.87,
     "end": 2321.95,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Cioè fate solo la gola infiammata e basta. Scusami, che l'hai mangiato tu stamattina?",
     "titolo": "",
     "tema": [],
@@ -879,85 +808,32 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-03-070",
+    "id": "2016-02-03-066",
     "start": 2321.97,
-    "end": 2327.61,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "Non ancora, anche perché chi è che porta il panettone è stato anche benedetto in chiesa, se no è...",
-    "titolo": "panettone benedetto in chiesa",
-    "tema": [
-      "famiglia",
-      "natale"
-    ],
-    "tipo": "aneddoto",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-03-071",
-    "start": 2327.64,
-    "end": 2332.92,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Ah, ma c'è tutto un'operazione. Scusami, cioè va tagliata la fetta e portata in chiesa a farla benedire?",
-    "titolo": "operazione panettone benedetto",
-    "tema": [
-      "famiglia",
-      "natale"
-    ],
-    "tipo": "aneddoto",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-03-072",
-    "start": 2332.98,
     "end": 2335.48,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "Eh sì, ho il panettone intero.",
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Non ancora, anche perché chi è che porta il panettone è stato anche benedetto in chiesa, se no è... Scusami, cioè va tagliata la fetta e portata in chiesa a farla benedire? Eh sì, ho il panettone intero.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-02-03-073",
+    "id": "2016-02-03-067",
     "start": 2335.74,
-    "end": 2344.82,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Vale anche il pandoro, chiedo? Ma oggi come... Non è che Dio dice a me piace solo il panettone?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-03-074",
-    "start": 2345.2,
-    "end": 2347.22,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "No, a me piace tutti e due.",
-    "titolo": "La ricerca della soluzione",
-    "tema": [
-      "soluzione",
-      "problema"
-    ],
-    "tipo": "aneddoto",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-03-075",
-    "start": 2347.26,
     "end": 2355.22,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Ok, ok, va bene. Quindi per la mia gola la soluzione sarebbe trovare... Eh sì, eh sì. Solo che lo devo trovare duro perché non è che lo posso andare a comprare adesso.",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Vale anche il pandoro, chiedo? Ma oggi come... Non è che Dio dice a me piace solo il panettone? No, a me piace tutti e due. Ok, ok, va bene. Quindi per la mia gola la soluzione sarebbe trovare... Eh sì, eh sì. Solo che lo devo trovare duro perché non è che lo posso andare a comprare adesso.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-02-03-076",
+    "id": "2016-02-03-068",
     "start": 2355.57,
     "end": 2358.89,
-    "speaker_raw": "SPEAKER_12",
+    "speaker_raw": "SPEAKER_02",
     "testo": "No, che compri adesso? Eh, che compri?",
     "titolo": "La risposta di Fabio",
     "tema": [
@@ -968,10 +844,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-03-077",
+    "id": "2016-02-03-069",
     "start": 2360.28,
     "end": 2393.68,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_04",
     "testo": "allora se qualcuno per esempio un'ascoltatrice dice io questa mattina l'ho fatto e mia mamma quando lo senti dal telefono come tutti i giorni la prima cosa che mi ha chiesto è hai mangiato il panettone noi casco dalle nuvole allora se qualche ascoltatore entro le 24 cioè entro mezzanotte mi può portare un pezzettino di panettone quello lì con il cioccolato uno semplice lo aspetto che ho anche il mal di gola l'accetto anche io va bene grazie una fetta divisa in due tra me e Nicola ciao Nicola grazie ciao ciao ciao ciao ciao ciao",
     "titolo": "La richiesta di panettone",
     "tema": [
@@ -982,11 +858,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-03-078",
+    "id": "2016-02-03-070",
     "start": 2420.75,
     "end": 2532.75,
-    "speaker_raw": "SPEAKER_08",
-    "testo": "Ciao Ciao Ciao Sì Oh yeah Oh yeah Oh I ask myself what am I doing here Ciao Ciao Ciao",
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Ciao Ciao Ciao Ciao Ciao Oh yeah Oh yeah Oh I ask myself what am I doing here Ciao Ciao Ciao",
     "titolo": "Ciao Ciao Ciao",
     "tema": [
       "musica",
@@ -996,11 +872,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-03-079",
+    "id": "2016-02-03-071",
     "start": 2568.44,
     "end": 2730.14,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "volevo dire alla nostra ascoltatrice Ele che ci fa il resoconto della puntata come un tweet cioè veri corto ok che mi ha fatto un ha mandato un messaggio della mezza puntata però erano già quattro righe allora cara Ele aspetta il finale di puntata però deve essere come l'hai fatto ieri si stava già un po' allargando so che ce la puoi fare ok allora mi si sono cancellate tutte le mail ma non è vero mi dice abbandona questa pagina abbandona l'edificio è bruttissimo c'è scritto cartella vuota non so perché qualcuno ha mandato un virus aspetta aspetta vediamo un attimo se tornano le cose ok ah ok sono tornate vediamo qua Greta Cosentino se non ricordo male ma continua ad arrivare la pioggia di critiche al nostro ascoltatore allora ecco è successa questa cosa così capite anche cosa vuol dire essere un po' popolare è successa questa cosa il nostro ascoltatore Alessandro Informatico ha telefonato si è finto come avevamo detto ci ha dato le risposte come un attore ho lavorato con Silvio Orlando sono arrivate mail di critiche ce l'hanno già massacrato allora intanto perché lui diceva assolutamente sì per esempio la gente ha dato fastidio a questa frase ci sono delle persone, un po' anche l'emozione lo dico sempre, ci sono delle persone che per un periodo della propria vita va in fissa con una parola assolutamente sì a Milano si dice molto guarda non so come dire come non so come dire? non so come dire detto come va detto è un'altra di quelle frasi nel senso che e però non finisce la fa un po' l'accelentano sai questa cosa qui un po' nel senso che nel senso che no nel senso che rimane un po' in sospeso Maurizio un po' offeso aveva portato dei temi assolutamente sì assolutamente sì dai Scusami, ma detto come va detto, sono le 9.52, domani viene Igor Sibaldi, domani si parla di Topos, si parla di Eros, Logos, domani si impara, forse viene direttamente col gatto. Wellington. Wellington, ok, quindi non le possiamo fare domani, la possiamo fare venerdì Maurizio se vuoi, so che hai dei temi importanti, uno te l'ho cassato, io ho detto scusami. scusate quelli in ascolto che tema hai portato? vorrei parlare della festa del compleanno di Radio DJ scusami era tre giorni fa no vabbè ma io sono preparato quando le facciamo le facciamo venerdì i temi domani ricordatevi con Igor Sibaldi e se avete una fetta di panettone che vi avanza noi siamo qua ancora un'oretta va bene?",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "volevo dire alla nostra ascoltatrice Ele che ci fa il resoconto della puntata come un tweet cioè veri corto ok che mi ha fatto un ha mandato un messaggio della mezza puntata però erano già quattro righe allora cara Ele aspetta il finale di puntata però deve essere come l'hai fatto ieri si stava già un po' allargando so che ce la puoi fare ok allora mi si sono cancellate tutte le mail ma non è vero mi dice abbandona questa pagina abbandona l'edificio è bruttissimo c'è scritto cartella vuota non so perché qualcuno ha mandato un virus adesso la riscrivo ma che virus aspetta vediamo un attimo se tornano le cose ok ah ok sono tornate vediamo qua Greta Cosentino se non ricordo male ma continua ad arrivare la pioggia di critiche al nostro ascoltatore allora ecco è successa questa cosa così capite anche cosa vuol dire essere un po' popolare è successa questa cosa il nostro ascoltatore Alessandro Informatico ha telefonato si è finto come avevamo detto ci ha dato le risposte come un attore ho lavorato con Silvio Orlando sono arrivate mail di critiche ce l'hanno già massacrato perché lui diceva assolutamente sì per esempio la gente ha dato fastidio a questa frase ci sono delle persone, un po' anche l'emozione lo dico sempre, ci sono delle persone che per un periodo della propria vita va in fissa con una parola assolutamente sì a Milano si dice molto guarda non so come dire come non so come dire? non so come dire detto come va detto è un'altra di quelle frasi nel senso che e però non finisce la fa un po' l'accelentano sai questa cosa qui un po' nel senso che nel senso che no nel senso che rimane un po' in sospeso Maurizio un po' offeso aveva portato dei temi assolutamente sì assolutamente sì dai Scusami, ma detto come va detto, sono le 9.52, domani viene Igor Sibaldi, domani si parla di Topos, si parla di Eros, Logos, domani si impara, forse viene direttamente col gatto. Wellington. Wellington, ok, quindi non le possiamo fare domani, la possiamo fare venerdì Maurizio se vuoi, so che hai dei temi importanti, uno te l'ho cassato, io ho detto scusami. scusate quelli in ascolto che tema hai portato? vorrei parlare della festa del compleanno di Radio DJ scusami era tre giorni fa no vabbè ma io sono preparato quando le facciamo le facciamo venerdì i temi domani ricordatevi con Igor Sibaldi e se avete una fetta di panettone che vi avanza noi siamo qua ancora un'oretta va bene?",
     "titolo": "La mail cancellata",
     "tema": [
       "mail",
@@ -1010,44 +886,22 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-03-080",
+    "id": "2016-02-03-072",
     "start": 2740.63,
-    "end": 2802.79,
-    "speaker_raw": "SPEAKER_15",
-    "testo": "... ... ... Musica",
+    "end": 2862.64,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "ciao ciao no ciao ciao ciao no no",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-02-03-081",
-    "start": 2833.75,
-    "end": 2833.85,
-    "speaker_raw": "SCONOSCIUTO",
-    "testo": "Ciao.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-03-082",
-    "start": 2862.54,
-    "end": 2862.72,
-    "speaker_raw": "SPEAKER_15",
-    "testo": "Ciao Ciao",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-03-083",
+    "id": "2016-02-03-073",
     "start": 2923.81,
     "end": 2960.26,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "scusate prima avete detto che c'è gente che non va in vacanza perché il cane è malato io avevo un fidanzato che non andavamo mai in vacanza perché non voleva mettere il cane in pensione quindi io i quattro anni con lui non sono mai andato in vacanza tutto girava intorno al cane e gira tutto intorno al cane proprio no un ragazzo dice scusate domani con Sibaldi parlate di topo se porta il gatto no? No, in realtà non parliamo di Topos, parliamo di Logos. Logos e Eros. Logos e Eros, domani è bello, domani erotismo, la parola, il senso delle cose, domani è molto interessante.",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "scusate prima avete detto che c'è gente che non va in vacanza perché il cane è malato io avevo un fidanzato che non andavamo mai in vacanza perché non voleva mettere il cane diciamo in pensione quindi io i quattro anni con lui non sono mai andata in vacanza tutto girava intorno al cane e gira tutto intorno al cane proprio no un ragazzo dice scusate domani si baldi parlate di topo se porta il gatto no? No, in realtà non parliamo di Topos, parliamo di Logos. Logos e Eros. Logos e Eros, domani è bello, domani erotismo, la parola, il senso delle cose, domani è molto interessante.",
     "titolo": "Il cane che impedisce le vacanze",
     "tema": [
       "famiglia",
@@ -1058,10 +912,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-03-084",
+    "id": "2016-02-03-074",
     "start": 2960.28,
     "end": 2965.01,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Poi io torno nel mio angolino lì, ti guardo. Ciao ragazzi, a domani!",
     "titolo": "La riflessione finale",
     "tema": [

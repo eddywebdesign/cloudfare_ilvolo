@@ -3,7 +3,7 @@
     "id": "2016-01-25-000",
     "start": 0.37,
     "end": 3.55,
-    "speaker_raw": "SPEAKER_07",
+    "speaker_raw": "SPEAKER_05",
     "testo": "sta per cominciare il volo del mattino buongiorno a tutti",
     "titolo": "",
     "tema": [],
@@ -14,7 +14,7 @@
     "id": "2016-01-25-001",
     "start": 40.67,
     "end": 41.11,
-    "speaker_raw": "SPEAKER_02",
+    "speaker_raw": "SPEAKER_01",
     "testo": "ciao ciao",
     "titolo": "",
     "tema": [],
@@ -24,9 +24,9 @@
   {
     "id": "2016-01-25-002",
     "start": 97.45,
-    "end": 97.63,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "Grazie.",
+    "end": 147.39,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Grazie. con Deus mi dito, con Deus mi levanto, conmigo eu calo, conmigo eu canto, eu bato em um papo, eu bato em um ponto, eu tomo um drink e eu fico tonto",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -34,22 +34,21 @@
   },
   {
     "id": "2016-01-25-003",
-    "start": 139.13,
-    "end": 147.51,
-    "speaker_raw": "SPEAKER_02",
-    "testo": "Con Deus mi dito, con Deus mi levanto, conmigo eu calo, conmigo eu canto, eu bato em um papo, eu bato em um ponto, eu tomo um drink e eu fico tonto.",
+    "start": 174.15,
+    "end": 174.25,
+    "speaker_raw": "SCONOSCIUTO",
+    "testo": "Ciao!",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
     "id": "2016-01-25-004",
-    "start": 174.15,
-    "end": 174.31,
-    "speaker_raw": "SCONOSCIUTO",
-    "testo": "Grazie.",
+    "start": 193.56,
+    "end": 203.46,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Non ci fai un pezzo di remix, Maurizio, stamattina? Trick and track, trick and track, trick and track. Ci piace, ci piace questo trick and track. Buongiorno a tutti, buongiorno Viola.",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -57,21 +56,9 @@
   },
   {
     "id": "2016-01-25-005",
-    "start": 193.56,
-    "end": 203.46,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "Non ci fai un pezzo di remix, Maurizio, stamattina? Trick and track, trick and track, trick and track. Ci piace, ci piace questo trick and track. Buongiorno a tutti, buongiorno Viola.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": "",
-    "autore": ""
-  },
-  {
-    "id": "2016-01-25-006",
     "start": 203.5,
     "end": 204.16,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Ma che caldo fa?",
     "titolo": "",
     "tema": [],
@@ -79,11 +66,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-25-007",
+    "id": "2016-01-25-006",
     "start": 204.52,
     "end": 326.65,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "Aiuto. Fa caldo, qualcuno ha toccato il riscaldamento di questo studio, tu? Sto spogliando. A un certo punto mi è arrivato un phon in faccia di aria calda, sembrava di essere il deserto. Adesso l'hai spento? Sì. Ok, di solito qui fa molto freddo, diciamo. No, infatti. Buongiorno Maurizio, buongiorno Stefania ed è tornata anche la stellina che ormai dobbiamo chiamarla signora gamba si chiama, gamba. Gambi il marito si chiama Gambi perché la Stellini questa settimana che non c'era è andata via un attimo a sposarsi e poi è tornata tra l'altro è riuscita a tornare è riuscita a tornare esatto perché non hai beccato la super bufera è proprio sei partita e dietro di te è arrivata la bufera uno si gira e dice ma è successo la vedo tutto bianco insomma New York parleremo anche di New York ovviamente la nostra seconda casa no? Ci piacerebbe fosse la nostra. Tutti noi in questo momento siamo interessati a cosa succede a New York, non lo so. Però insomma lo avete visto sui giornali, i telegiornali, Instagram, ma anche i social network, proprio la città, immaginate una città caotica, cioè immaginatevi Milano a centomila, capito, che a un certo punto è costretta a fermarsi, no macchine, no autobus, e quindi loro poverini non sanno neanche cosa dirsi a un certo punto, secondo me, perché è una città talmente... come ti chiami tu? sono tua moglie da 10 anni ah scusami è che non possiamo uscire oggi però devo dire una città affascinante perché in quella bellezza lì c'è immaginatevi la neve quindi il silenzio insomma la gente che cammina vanno fuori a giocare per strada insomma è abbastanza una sorpresa ecco questi sono i passi nella neve registrati io vorrei fare una domanda agli ascoltatori dopo tanti anni del volo del mattino quindi diciamo avete una cultura musicale più alta diciamo del resto della radiofonia ecco allora perché volevo sapere ecco immaginatevi una passeggiata nella neve in silenzio nelle cuffie che canzone vi piacerebbe ascoltare così poi la mettiamo dateci delle cose emozionanti ma io direi che possiamo mettere la sigla",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Aiuto. Fa caldo, qualcuno ha toccato il riscaldamento di questo studio. Io sto spogliando. A un certo punto mi è arrivato un phon in faccia di aria calda, sembrava di essere il deserto. Adesso l'hai spento? Sì. Ok, di solito qui fa molto freddo, diciamo. No, infatti. Buongiorno Maurizio, buongiorno Stefania ed è tornata anche la stellina che ormai dobbiamo chiamarla signora gamba si chiama? Gamba? Gambi il marito si chiama Gambi perché la Stellini questa settimana che non c'era è andata via un attimo a sposarsi e poi è tornata tra l'altro è riuscita a tornare è riuscita a tornare esatto perché non hai beccato la super bufera è proprio sei partita e dietro di te è arrivata la bufera uno si gira e dice ma è successo la vedo tutto bianco insomma New York parleremo anche di New York ovviamente la nostra seconda casa no? Ci piacerebbe fosse la nostra. Tutti noi in questo momento siamo interessati a cosa succede a New York, non lo so. Però insomma lo avete visto sui giornali, i telegiornali, Instagram, ma anche i social network, proprio la città, immaginate una città caotica, cioè immaginatevi Milano a centomila, capito, che a un certo punto è costretta a fermarsi, no macchine, no autobus, e quindi loro poverini non sanno neanche cosa dirsi a un certo punto, secondo me, perché è una città talmente... come ti chiami tu? sono tua moglie da 10 anni ah scusami è che non possiamo uscire oggi però devo dire una città affascinante perché in quella bellezza lì c'è immaginatevi la neve quindi il silenzio insomma la gente che cammina vanno fuori a giocare per strada insomma è abbastanza una sorpresa ecco questi sono i passi nella neve registrati io vorrei fare una domanda agli ascoltatori dopo tanti anni del volo del mattino quindi diciamo avete una cultura musicale più alta diciamo del resto della radiofonia ecco allora perché volevo sapere ecco immaginatevi una passeggiata nella neve in silenzio nelle cuffie che canzone vi piacerebbe ascoltare così poi la mettiamo dateci delle cose emozionanti ma io direi che possiamo mettere la sigla",
     "titolo": "Il phon in faccia",
     "tema": [
       "caldo",
@@ -93,11 +80,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-25-008",
+    "id": "2016-01-25-007",
     "start": 334.7,
     "end": 368.09,
-    "speaker_raw": "SPEAKER_10",
-    "testo": "Good morning sun, how are you? It's great to be alive and involved Grazie a tutti. Buonasera.",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Good morning sun, how are you? Sky's above, it's great to be alive and involved Grazie a tutti. Buonasera.",
     "titolo": "Buon giorno sole",
     "tema": [
       "amore",
@@ -107,23 +94,21 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-25-009",
+    "id": "2016-01-25-008",
     "start": 385.37,
     "end": 471.82,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "Prima lista di canzoni, il tempo di una sigla, già arrivano le canzoni degli ascoltatori, dalle versioni italiane, per esempio io metterai Sally di Vasco Rossi a Mi piacerebbe sentire Lady Snow, che è un po' natalizia però, Lady Snow, Lady Snow, vabbè insomma. Non ci siamo. Qualcuno dice i Radiohead, ok, e qualcuno invece dice i Sigur Ros. Però stai proprio riseduto sulla panchina dell'autobus che non passa più e... con la saliva che ti esce con la saliva che ti esce da un lato va bene insomma scusate sono un po' mezzo influenzato ho fatto tutto l'omicando ho lavorato sempre con ti abbiamo visto ovunque ero da faccio con gli occhi rossi da influenza ieri sera le iene la stessa cosa a ogni servizio dovevo soffiarmi il naso ma ti pare che devi venire in radio in tuta? in questa mattina sono venuto in tuta no questa mattina mi sono messo la tuta in casa per far colazione sono uscito così eh no poi è un disastro, siamo tutti malati a casa, se basta c'è anche un'infiammazione o un occhio, io c'avevo un occhio che sembrava Rocky stamattina stavo dormendo e io dicevo di Adriana di Adriana con un occhio mezzo brutto ma gli hai messo anche l'asciugamano bianco intorno al collo c'aveva un occhio che non riusciva ad aprirlo poverino, no perché c'era questa infezione gli hai messo l'accappatoio costruito se passi Allora in cucina gli dicevo, Sebastian, con un occhio poverino ti fai una tenerezza, no? Con il pigiamino e l'orsacchiotto in mano, proprio da film. E io ho detto, di Adriana, di Adriana. Non mi dice le cose che gli chiedo, no? Come quando gli insegno le canzoni.",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Prima lista di canzoni, il tempo di una sigla, già arrivano le canzoni degli ascoltatori, dalle versioni italiane, per esempio io metterai Sally di Vasco Rossi a Mi piacerebbe sentire Lady Snow, che è un po' natalizia però, Lady Snow, Lady Snow, vabbè insomma. Non ci siamo. Qualcuno dice i Radiohead, ok, e qualcuno invece dice i Sigur Ros. Però stai proprio riseduto sulla panchina dell'autobus che non passa più e... con la saliva che ti esce con la saliva che ti esce da un lato va bene insomma scusate sono un po' mezzo influenzato ho fatto tutto il weekend ho lavorato sempre con ti abbiamo visto ovunque ero da faccio con gli occhi rossi da influenza ieri sera le iene la stessa cosa a ogni servizio dovevo soffiarmi il naso ma ti pare che devi venire in radio in tuta? in questa mattina sono venuto in tuta no questa mattina mi sono messo la tuta in casa per far colazione sono uscito così eh no poi è un disastro, siamo tutti malati a casa, se basta c'è anche un'infiammazione o un occhio, io c'avevo un occhio che sembrava Rocky stamattina stavo dormendo e io dicevo di Adriana di Adriana con un occhio mezzo proficio ma gli hai messo anche l'asciugamannino bianco intorno al collo c'aveva un occhio che non riusciva ad aprirlo poverino, no perché c'era questa infezione gli hai messo l'accappatoio costritto se passi Allora in cucina gli dicevo, Sebastian, con un occhio poverino ti fai una tenerezza, no? Con il pigiamino e l'orsacchiotto in mano, proprio da film, e io ho detto, di Adriana, di Adriana. Non mi dice le cose che gli chiedo, no? Come quando gli insegno le canzoni.",
     "titolo": "Canzoni",
     "tema": [],
     "tipo": "riferimento_musica",
-    "video_url": "",
-    "confermato_esterno": true,
-    "copertina": "https://coverartarchive.org/release/a781a29d-cef4-4174-a87a-89a2ebd43c71/front-250"
+    "video_url": ""
   },
   {
-    "id": "2016-01-25-010",
+    "id": "2016-01-25-009",
     "start": 473.56,
     "end": 474.51,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Beh, sì.",
     "titolo": "",
     "tema": [],
@@ -131,10 +116,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-25-011",
+    "id": "2016-01-25-010",
     "start": 475.19,
     "end": 552.55,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Gli insegno le canzoni con l'idronatorio, no? No, davvero. Vabbè, vabbè, dai, insomma, l'avevo già detta questa cosa. Ma cambiamo discorso, parliamo di cose serie. non c'abbia niente da dire no io guarda oggi ti vengo dietro perché so che sei un po' stanco il weekend è stato un po' turbolento no noi siamo contenti abbiamo delle bellissime canzoni poi ho deciso che quest'anno e ho deciso adesso con l'1 di 25 gennaio cari ascoltatori che basta che stiamo attenti a quello che diciamo perché magari prendiamo le denunce a parte che noi l'abbiamo in qualche modo sempre sgarrata la regola la legge oggi voglio dire proprio in prima persona cosa penso delle tematiche che muovono questo paese C'è il tema adesso, c'è stato in questi giorni il Family Day, piuttosto che Mancini che ha litigato con l'attore del Napoli, quello gli ha detto una brutta parola, ecco, a parte che se uno dice, proprio dire che è omofoba, per esempio, mi sembra eccessivo, no? Cioè, nel senso... una parola è sbagliata, un momento è sbagliato è sbagliato dirla ma che il giorno dopo diventa uno che è l'uomo più brutto dell'universo mi sembra eccessivo quindi voglio dire per esempio la mia su questo tema io invece volevo dirti un'altra cosa sono iniziate le nuove puntate di X-Files X-Files? ma rifanno le vecchie o nuove?",
     "titolo": "Il weekend turbolento",
     "tema": [
@@ -145,23 +130,33 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-25-012",
+    "id": "2016-01-25-011",
     "start": 552.83,
-    "end": 558.39,
-    "speaker_raw": "SPEAKER_01",
-    "testo": "No, no, nuove, sei nuove puntate Con gli stessi attori? Sì, su Fox No ragazzi, possiamo tornare un attimo?",
+    "end": 556.43,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "No, no, nuove, sei nuove puntate. Con gli stessi attori? Sì, su Fox.",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
+  },
+  {
+    "id": "2016-01-25-012",
+    "start": 556.57,
+    "end": 561.91,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "No, ragazzi, possiamo tornare un attimo? Io ero contenta, ero contenta di questa presa di posizione, Fabio.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
   },
   {
     "id": "2016-01-25-013",
-    "start": 558.57,
-    "end": 568.3,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "Io ero contenta, ero contenta di questa presa di posizione No ma aspetta un attimo, ci sono delle priorità Ma scusami, vanno su Fox? Quante sono? Per ora sei Ma l'hai già vista?",
+    "start": 561.93,
+    "end": 566.32,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "No, ma aspetta un attimo, ci sono delle priorità. Ma scusami, vanno su Fox? Quante sono?",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -169,10 +164,10 @@
   },
   {
     "id": "2016-01-25-014",
-    "start": 568.54,
-    "end": 573.24,
-    "speaker_raw": "SPEAKER_01",
-    "testo": "No, no, mi pare che siano iniziate il 21 gennaio No ma è fighissima sta storia",
+    "start": 566.4,
+    "end": 566.98,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Per ora sei.",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -180,34 +175,32 @@
   },
   {
     "id": "2016-01-25-015",
-    "start": 574.14,
-    "end": 603.33,
-    "speaker_raw": "SPEAKER_08",
-    "testo": "mi state prendendo in giro no no c'è anche il trailer ok aspettate un attimo sulle tematiche importanti un secondo c'è il trailer di X-Factor mi sembrava troppo bello in 2002 l'FBI ha chiuso gli X-Files e le nostre investigazioni hanno finito ma la mia ossessione personale non ha finito hanno un piccolo problema hanno riaperto gli X-Files",
+    "start": 567.44,
+    "end": 568.3,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Ma l'hai già vista?",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
     "id": "2016-01-25-016",
-    "start": 609.92,
-    "end": 618.39,
+    "start": 568.54,
+    "end": 573.48,
     "speaker_raw": "SPEAKER_03",
-    "testo": "ma è fantastica vabbè sta cosa qua adesso Mancini sale Family Day la dico dopo dai mettiamo un disco dai va bene wow",
+    "testo": "No, no, mi pare che siano iniziate il 21 gennaio. No, ma è fighissima sta storia. Sì.",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
     "id": "2016-01-25-017",
-    "start": 636.63,
-    "end": 790.65,
-    "speaker_raw": "SPEAKER_08",
-    "testo": "a presto Grazie a tutti. Ciao! musica musica Ciao! Grazie a tutti.",
+    "start": 574.14,
+    "end": 579.47,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "mi state prendendo in giro no, no c'è anche il trailer?",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -215,34 +208,64 @@
   },
   {
     "id": "2016-01-25-018",
-    "start": 816.67,
-    "end": 942.9,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "Questi sono i Counting Crows con Big Yellow Taxi, un disco del 2003. Continuano ad arrivare anche proposte dai nostri ascoltatori di canzoni, diciamo, proposte musicali per la camminata della neve. Che non deve essere proprio forza New York, che va bene anche in qualsiasi altra parte. Quando siete proprio lì da soli, cuffia... è un peccato devo dire la cuffia perché devo dire che la passeggia come si dice scrocchia la neve non lo so comunque quel rumore dei passi nella neve è molto bello quel silenzio che la neve crea perché attutisce tutti i suoni ecco questa qua è molto bella ciao quindi metti le cuffie però il paesaggio è affascinante qualcuno sceglie anche canzoni allegre, non tutte tristi qualcuno dice per esempio anche Viva la Vida qualcuno dice i Coldplay i Coldplay io pensate cosa ho scelto stamattina poi non so se la mettiamo perché è un po' troppo lenta però io ho anche pensato il lunedì cari ascoltatori ci sono è un po' un sabato nel senso che c'è gente che non lavora lunedì mattina i parrucchieri alcuni negozianti quindi magari sono lì ancora a casa col caffè il pigiama così una canzone non dico un po' lenta ci può stare solo che quando mettiamo le canzoni lenta ci massacrano invece per esempio chi ci massacra? gli ascoltatori mi devo svegliare sentite la bellezza di questa canzone scusate poi la tolgo quindi ragazzi ma ci sta il lunedì iniziare così così ci sta perché dici così ok adesso la toglie un secondo magari la seconda mezz'ora se ci scrivete no non la mettiamo se no comunque lui dice quando mi sveglio io voglio essere la persona che si sveglia a fianco a te no vabbè ma ragazzi pelle d'occa ma adesso passiamo un attimo A Elena di Monza, scusami Elena. Eccomi. Ti piaceva questo pezzo che abbiamo messo, un po' lento? A me sì, molto. Lo metteresti nella seconda mezz'ora se tu fossi Linus?",
-    "titolo": "Counting Crows",
+    "start": 579.49,
+    "end": 603.33,
+    "speaker_raw": "SPEAKER_00",
+    "testo": "ok aspettate un attimo sulle tematiche importanti un secondo, c'è il trailer di X-Factor mi sembrava troppo bello in 2002 la FBI chiudeva gli X-Files e la nostra investigazione si è finita ma la mia ossessione personale non si è finita abbiamo un piccolo problema hanno riaperto gli X-Files",
+    "titolo": "",
     "tema": [],
-    "tipo": "riferimento_musica",
-    "video_url": "",
-    "confermato_esterno": true,
-    "copertina": "https://coverartarchive.org/release/0941abec-9a73-4792-966c-30ae71c900f1/front-250"
+    "tipo": "",
+    "video_url": ""
   },
   {
     "id": "2016-01-25-019",
+    "start": 609.92,
+    "end": 623.59,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "ma è fantastica vabbè sta cosa qua adesso Mancini sale Family Day la dico dopo dai mettiamo un disco dai va bene ammazzo wow they paved paradise and put up a parking lot",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-01-25-020",
+    "start": 636.61,
+    "end": 790.65,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "vedo che incontrano tutti che ne svegliano ha scoperto che c'è calcio Grazie a tutti. Ciao! Grazie a tutti. Ciao! Grazie a tutti.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-01-25-021",
+    "start": 816.67,
+    "end": 942.9,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Questi sono i Counting Crows con Big Yellow Taxi, un disco del 2003, continuano ad arrivare anche proposte dai nostri ascoltatori di canzoni, diciamo, proposte musicali per la camminata della neve, che non deve essere proprio forza New York, che va bene anche in qualsiasi altra parte, quando siete proprio lì da soli, cuffia... è un peccato devo dire la cuffia perché devo dire che la passeggia come si dice scrocchia la neve non lo so comunque quel rumore dei passi nella neve è molto bello quel silenzio che la neve crea perché attutisce tutti i suoni ecco questa qua è molto bella ciao quindi metti le cuffie però il paesaggio affascinante qualcuno sceglie anche canzoni allegre non tutte tristi qualcuno dice per esempio anche viva la vita qualcuno dice i call play i call play io ho pensato che sono scelto stamattina poi non so se la mettiamo perché è un po' troppo lenta però io ho anche pensato il lunedì cari ascoltatori ci sono è un po' un sabato nel senso che c'è gente che non lavora lunedì mattina i parrucchieri alcuni negozianti quindi magari sono lì ancora a casa col caffè il pigiama così una canzone non dico un po' lenta ci può stare solo che quando mettiamo le canzoni lenta ci massacrano invece per esempio chi ci massacra? gli ascoltatori mi devo svegliare sentite la bellezza di questa canzone scusate poi la tolgo quindi ragazzi ma ci sta il lunedì iniziare così così ci sta perché dici così ok adesso la toglie un secondo magari nella seconda mezz'ora se ci scrivete no non la mettiamo se no comunque lui dice quando mi sveglio io voglio essere la persona che si sveglia a fianco a te no vabbè ma ragazzi pelle d'occa ma adesso passiamo un attimo A Elena di Monza, scusami Elena. Eccomi. Ti piaceva questo pezzo che abbiamo messo, un po' lento? A me sì, molto. Lo metteresti nella seconda mezz'ora se tu fossi Linus?",
+    "titolo": "Counting Crows",
+    "tema": [],
+    "tipo": "riferimento_musica",
+    "video_url": ""
+  },
+  {
+    "id": "2016-01-25-022",
     "start": 943.56,
     "end": 947.92,
-    "speaker_raw": "SPEAKER_00",
+    "speaker_raw": "SPEAKER_01",
     "testo": "Nella versione scapero. Eh, addio. Peggio dell'originale.",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
-    "id": "2016-01-25-020",
+    "id": "2016-01-25-023",
     "start": 948.4,
     "end": 1012.48,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Non ti piaceva questa versione così lenta, un po' orchite, si chiama? la mattina fino alle nove e mezza poi basta però vedi che è incredibile la gente si sveglia io per esempio mi sveglio meglio se metto una canzone lenta vedi come ognuno è diverso cioè se io ho uno scivolo per entrare nella giornata però giustamente due ore fa cioè se io mi sveglio mi metti gli ACDC che mi piacciono non mi sveglio mi danno fastidio perché io invece se mi metti un pezzo così bevo il caffè pian pianino sono come il computer com'è che fa il suono del computer quando lo accendi esatto senti una cosa Elena tu di lavoro fai la organizer venerdì abbiamo parlato di ordine e disordine in casa qualcuno ci ha chiamato che era ossessivo quasi nel mettere a posto altri invece proprio disordinatissimi e tu nella vita ti sei inventata questo lavoro cioè tu vai a casa della gente e gli organizzi l'armadio, la scarpiera, la cucina sì esatto perché qualcuno è compulsivo nell'ordine qualcuno è compulsivo nel disordine e in quel disordine non trova nulla",
     "titolo": "Svegliarsi con la musica",
     "tema": [
@@ -253,10 +276,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-25-021",
+    "id": "2016-01-25-024",
     "start": 1013.21,
     "end": 1041.66,
-    "speaker_raw": "SPEAKER_00",
+    "speaker_raw": "SPEAKER_01",
     "testo": "e quindi perde un po' il senso delle cose e crea molto stress il fatto di avere disordini in casa di non trovare quello che cerchi e alcune persone hanno beneficio nel fatto che io vada a casa ad aiutarli ad organizzare il loro spazio è una cosa che ti sei inventata in un novembre pomeriggio annoiata o hai fatto un corso di formazione per dire no in realtà è molta attitudine nel senso che è molta follia come penserei di dire",
     "titolo": "Ordine e stress",
     "tema": [
@@ -267,10 +290,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-25-022",
+    "id": "2016-01-25-025",
     "start": 1041.93,
     "end": 1089.01,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_04",
     "testo": "tu sei ordinata in casa io sono molto organizzata no c'è una cosa che io controllo nelle case delle persone e che faccio fatica anche nella mia i libri cioè tu i libri li metti per colore, per altezza per pubblicazione per gusti, per case editrici quella roba lì io penso che non ci sia una regola precisa penso che ci sia una regola in base a quello che è comodo per te nel senso che se tu hai piacere di ordinarli semplicemente per colore perché sei un tipo che dal visivo trova piacere o sei una persona più pratica che invece preferisce l'autore a me da fastidio se il quarto libro è più alto del primo o del secondo quello lì che vedo la libreria così e poi dice pum c'è una roba mi dai proprio i nervi lo devo mettere per primo da quanti anni fai questo lavoro?",
     "titolo": "Ordine dei libri",
     "tema": [
@@ -281,10 +304,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-25-023",
+    "id": "2016-01-25-026",
     "start": 1089.41,
     "end": 1095.41,
-    "speaker_raw": "SPEAKER_00",
+    "speaker_raw": "SPEAKER_01",
     "testo": "sono circa un paio d'anni cosa hai trovato nella tua esperienza? Come persone?",
     "titolo": "Gente sepolta in casa",
     "tema": [
@@ -295,22 +318,21 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-25-024",
+    "id": "2016-01-25-027",
     "start": 1095.47,
     "end": 1099.07,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Sì, cioè nel senso gente proprio sepolta in casa, come si dice.",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
-    "id": "2016-01-25-025",
+    "id": "2016-01-25-028",
     "start": 1099.63,
-    "end": 1124.67,
-    "speaker_raw": "SPEAKER_00",
+    "end": 1124.89,
+    "speaker_raw": "SPEAKER_01",
     "testo": "Allora, i sepolti in casa, grazie a Dio, non sono ancora stati dei miei clienti tipo. Sono persone in realtà che hanno semplicemente perso un pochino la bustola degli spazi nella loro casa, magari convinti di avere troppo poco spazio rispetto alle cose che hanno. O persone che, come tanti di noi, fanno fatica ad allontanarsi, a buttare quello che magari non gli serve più, che è rotto, che non va più bene.",
     "titolo": "Perdita di controllo",
     "tema": [
@@ -321,35 +343,32 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-25-026",
-    "start": 1124.77,
+    "id": "2016-01-25-029",
+    "start": 1125.01,
     "end": 1125.57,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "Allora glielo butti via tu.",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Lo butti via tu.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-01-25-027",
-    "start": 1127.18,
+    "id": "2016-01-25-030",
+    "start": 1126.53,
     "end": 1150.66,
-    "speaker_raw": "SPEAKER_00",
-    "testo": "tante volte serve semplicemente una persona che gli aiuti guarda che sembra assurdo questa tazza fa cagare è rotta ma la uso come portapenne fa cagare se è rotta vuol dire che non serve se non si può aggiustare vuol dire che non serve se hai sbagliato a comprarla o magari ti hanno regalato una cosa che però non ti piace che non ti va bene serve tenerla.",
-    "titolo": "Attaccamento alle cose",
-    "tema": [
-      "consumismo",
-      "minimalismo"
-    ],
-    "tipo": "riflessione",
+    "speaker_raw": "SPEAKER_01",
+    "testo": "Beh, tante volte serve semplicemente una persona che gli aiuti. Guarda che sembra assurdo, ma guarda... Questa tazza fa cagare, non capisci? È rotta, fa cagare, ma la uso come portapenne, fa cagare! Se è rotta vuol dire che non serve, se non si può aggiustare vuol dire che non serve, se hai sbagliato a comprarla o magari ti hanno regalato una cosa che però non ti piace, che non ti va bene, che non è giusta, in realtà non serve. serve tenerla.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-01-25-028",
+    "id": "2016-01-25-031",
     "start": 1150.7,
     "end": 1157.85,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Non si dicono i prezzi, però quanto stai a casa di una persona mediamente? Una mattina basta o ci devi andare due o tre giorni?",
     "titolo": "Prezzi di affitto",
     "tema": [
@@ -360,10 +379,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-25-029",
+    "id": "2016-01-25-032",
     "start": 1158.55,
     "end": 1169.74,
-    "speaker_raw": "SPEAKER_00",
+    "speaker_raw": "SPEAKER_01",
     "testo": "Anche qua non c'è una regola, dipende un pochino da quella che è l'esigenza, per cui in alcuni casi possono abbassare qualche ora perché magari sono solo piccole cose da fare, piccoli interventi, in altri casi invece...",
     "titolo": "Regole per gli interventi",
     "tema": [
@@ -374,7 +393,7 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-25-030",
+    "id": "2016-01-25-033",
     "start": 1169.82,
     "end": 1172.06,
     "speaker_raw": "SPEAKER_05",
@@ -385,10 +404,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-25-031",
+    "id": "2016-01-25-034",
     "start": 1173.27,
     "end": 1176.71,
-    "speaker_raw": "SPEAKER_00",
+    "speaker_raw": "SPEAKER_01",
     "testo": "Può volere due, tre giorni, dipende, davvero non c'è una regola.",
     "titolo": "non c'è una regola",
     "tema": [
@@ -399,10 +418,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-25-032",
+    "id": "2016-01-25-035",
     "start": 1176.75,
     "end": 1178.93,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Sei sposata tu? Convivi?",
     "titolo": "",
     "tema": [],
@@ -410,10 +429,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-25-033",
+    "id": "2016-01-25-036",
     "start": 1179.25,
-    "end": 1179.83,
-    "speaker_raw": "SPEAKER_00",
+    "end": 1180.15,
+    "speaker_raw": "SPEAKER_01",
     "testo": "Io convivo.",
     "titolo": "",
     "tema": [],
@@ -421,21 +440,21 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-25-034",
-    "start": 1179.85,
+    "id": "2016-01-25-037",
+    "start": 1180.27,
     "end": 1182.07,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "Convivi. Senti, lui è ordinato?",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Senti, lui è ordinato?",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-01-25-035",
+    "id": "2016-01-25-038",
     "start": 1182.13,
-    "end": 1188.55,
-    "speaker_raw": "SPEAKER_00",
+    "end": 1189.39,
+    "speaker_raw": "SPEAKER_01",
     "testo": "Lui, diciamo che è ordinato per quello che gli interessa, box super ordinato, in casa piace meno.",
     "titolo": "lui è ordinato solo per quello che gli interessa",
     "tema": [
@@ -446,11 +465,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-25-036",
-    "start": 1188.87,
+    "id": "2016-01-25-039",
+    "start": 1189.49,
     "end": 1193.64,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "Ok, no, io se avessi una compagna potrei lasciare tutto in giro, anche per tenerti allenata sul lavoro, no?",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Ok, io se avessi una compagna potrei lasciare tutto in giro, anche per tenerti allenata sul lavoro.",
     "titolo": "Compagna e lavoro",
     "tema": [
       "lavoro",
@@ -460,10 +479,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-25-037",
+    "id": "2016-01-25-040",
     "start": 1193.78,
     "end": 1195.94,
-    "speaker_raw": "SPEAKER_00",
+    "speaker_raw": "SPEAKER_01",
     "testo": "Esatto, è la stessa scusa che io.",
     "titolo": "",
     "tema": [],
@@ -471,46 +490,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-25-038",
+    "id": "2016-01-25-041",
     "start": 1195.96,
     "end": 1199.88,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Ecco, va bene. Senti Elena, ma c'è un sito, qualcosa...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": "",
-    "autore": ""
-  },
-  {
-    "id": "2016-01-25-039",
-    "start": 1200.57,
-    "end": 1210.4,
-    "speaker_raw": "SPEAKER_00",
-    "testo": "C'è un sito, c'è una pagina Facebook. Come si chiama? Si chiama Rinchiudeteli con la Y canale. Ok. Non poteva essere normale, giusto?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": "",
-    "autore": ""
-  },
-  {
-    "id": "2016-01-25-040",
-    "start": 1210.44,
-    "end": 1215.56,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "Ok, Rinchiudeteli, ecco, se avete bisogno, lei viene e vi mette a posto, vi spiccia a casa.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-01-25-041",
-    "start": 1215.62,
-    "end": 1217.54,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Rinchiudeteli con la Y in fondo?",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -518,10 +502,10 @@
   },
   {
     "id": "2016-01-25-042",
-    "start": 1218.0,
-    "end": 1223.79,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "Sì, esatto. Ok, Rinchiudeteli live, sarebbe. Rinchiudeteli live, esatto. Ok, ciao Elena.",
+    "start": 1200.65,
+    "end": 1210.4,
+    "speaker_raw": "SPEAKER_01",
+    "testo": "è un sito c'è una pagina facebook come si chiama? si chiama rinchiudeteli con la y canale ok non poteva essere normale giusto?",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -529,21 +513,10 @@
   },
   {
     "id": "2016-01-25-043",
-    "start": 1223.83,
-    "end": 1226.37,
-    "speaker_raw": "SPEAKER_00",
-    "testo": "Grazie, un bacio, grazie. Ciao, ciao, ciao. Ciao, ciao, ciao.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-01-25-044",
-    "start": 1229.22,
+    "start": 1210.44,
     "end": 1243.01,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "è la mia sfiga io invece nel disordine le cose le trovo è nell'ordine che non le trovo la scusa più vecchia del mondo ti dico cosa fa la Johanna che lascia le cose lì per vedere quanti giorni restano lì",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "ok rinchiudeteli ecco se avete bisogno lei viene e vi mette a posto vi spiccia a casa rinchiudeteli con la y in fondo si esatto ok rinchiudeteli live sarebbe ok ok ciao Elena grazie un bacio grazie ciao ciao ciao ciao ciao ciao è la mia sfiga io invece nel disordine le cose le trovo è nell'ordine che non le trovo la scusa più vecchia del mondo ti dico cosa fa la Johanna che lascia le cose lì per vedere quanti giorni restano lì",
     "titolo": "La sfiga di Johanna",
     "tema": [
       "disordine",
@@ -553,11 +526,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-25-045",
+    "id": "2016-01-25-044",
     "start": 1274.73,
     "end": 1361.16,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "Ti aspetterò, ti scriverò, ti perderò ancora mille volte ancora. Ti scorderò, ti rivedrò, ti abbraccerò di nuovo per ripetere. attraccono e si uniscono ti aspetterò ti scriverò, ti perderò ancora mille volte",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Ti aspetterò, ti scriverò, ti perderò ancora mille volte ancora. Ti scorderò, ti rivedrò, ti abbraccerò di nuovo per ripetere. attraggono e si uniscono ti aspetterò ti scriverò, ti perderò ancora mille volte",
     "titolo": "Ti aspetterò, ti scriverò",
     "tema": [
       "amore",
@@ -567,25 +540,33 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-25-046",
+    "id": "2016-01-25-045",
     "start": 1443.27,
-    "end": 1543.31,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "oh oh oh oh per traslocare ho deciso che man mano che mettevo le cose nelle scatole le avrei scritto su un quadernetto in modo che poi per trovarle il quaderno ho capito attraverso il quaderno ritrovavo senza riaprire tutti gli scatoloni ha perso il quaderno ti sta bene Giulia di Vicenza perché è troppo precisetta va bene scusate sono in macchina bloccata nel traffico rido molto mi piace molto Fabio quando fai l'imitazione della viola il mio babbo la mia mamma ma la cosa che mi fa ridere dice io ogni tanto durante il giorno me la faccio da sola e rido cioè lei da sola fa l'imitazione di te che imita me il mio babbo è il mio babbo la mia mamma mio marito non sopporta nessun suono per i primi dieci minuti ecco io sono fatto così infatti se mi sveglio per esempio se magari c'è la mattina e Sebastian piange subito la soffro molto quando lo tieni lì in braccio e nell'orecchio tipo ahhh aspetta un attimo io però ascolto il trio immaginati lui appena svegli io ho bisogno di nessun dj non è una roba contro il trio io ho bisogno di quella roba un sacco di ascoltatori hanno detto la vogliamo sentire quella canzone quanti esattamente? due due però due e nessuno ha detto non mettetela ok silenzio assenza se adesso ne arrivano tre che dicono non mettetela no io mi autovoto e fa tre pari va bene comunque per la neve camminare nella neve sarebbe molto bello sentire la sigla di Quark dice un ascoltatore non lo so va bene la mia compagna ha una libreria e c'è un metodo per mettere via i libri eh esatto sarebbe bello imparare come mettere i libri ma non ce lo dice il metodo? no dice solo così cioè lui ce l'ha io",
-    "titolo": "Trasloco e quadernetto",
-    "tema": [
-      "organizzazione",
-      "memoria"
-    ],
-    "tipo": "aneddoto",
+    "end": 1472.41,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "oh oh oh oh per traslocare ho deciso che man mano che mettevo le cose nelle scatole le avrei scritte su un quadernetto in modo che poi per trovarle il quaderno ho capito attraverso il quaderno ritrovavo senza riaprire tutti gli scatoloni ha perso il quaderno ti sta bene Giulia di Vicenza perché è troppo precisetta va bene scusate sono in macchina bloccata nel traffico rido molto mi piace molto Fabio quando fai l'imitazione della viola il mio babbo la mia mamma ma la cosa che mi fa ridere dice io ogni tanto durante il giorno me la faccio da sola e rido",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-01-25-046",
+    "start": 1472.83,
+    "end": 1475.25,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Cioè lei da sola fa l'imitazione di te che imita me.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
     "id": "2016-01-25-047",
-    "start": 1544.45,
-    "end": 1555.29,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "come quell'altro che aveva risolto l'enigma ma solo per voi va bene non vedo l'ora di sentire quanto manca oh",
+    "start": 1475.41,
+    "end": 1543.31,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Il mio babbo, è il mio babbo, la mia mamma. Mio marito non sopporta nessun suono per i primi dieci minuti. Ecco io sono fatto così. Infatti se mi sveglio, per esempio se magari c'è la mattina e Sebastian piange subito la soffro molto quando lo tieni lì in braccio e nell'orecchio. io dico aspetta un attimo io però ascolto il trio quindi immaginati lui il trio è hardcore la mattina appena svegli io ho bisogno di nessun dj non è una roba contro il trio io ho bisogno di quella roba là che dopo la mettiamo un sacco di ascoltatori hanno detto la vogliamo sentire quella canzone quanti esattamente? due due però due nessuno ha detto non mettetela ok silenzio assenza se adesso ne arrivano tre che dicono non mettetela no io mi autovoto e fa tre pari va bene comunque per la neve camminare nella neve sarebbe molto bello sentire la sigla di Quark dice un ascoltatore non lo so va bene la mia compagna ha una libreria e c'è un metodo per mettere via i libri eh esatto sarebbe bello imparare come mettere i libri ma non ce lo dice il metodo? no dice solo così cioè lui ce l'ha io",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -593,10 +574,10 @@
   },
   {
     "id": "2016-01-25-048",
-    "start": 1568.56,
-    "end": 1789.78,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "mi hanno scritto due dj di altre radio che vorrebbero venire alla festa di radio dj la domanda è possono venire? se io li invito? non è che vengono a darvi gli adesivi dell'altra radio stiamo per mettere la canzone quella lì abbiamo vinto Allora, volevo dire a un ascoltatore o ascoltatrice che dice Fabio, metti questa canzone lenta che vuoi rimetterla perché io sono ancora a letto e me la godo. Allora gli ho detto chiamiamola così ho la scusa. Ci butta giù il telefono. Adesso per colpa di questa persona.",
+    "start": 1544.45,
+    "end": 1555.29,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "come quell'altro che aveva risolto l'enigma ma solo per voi va bene non vedo l'ora di sentire quanto manca oh",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -604,9 +585,20 @@
   },
   {
     "id": "2016-01-25-049",
+    "start": 1568.56,
+    "end": 1789.78,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "mi hanno scritto due dj di altre radio che vorrebbero venire alla festa di radio dj la domanda è possono venire? se io li invito? non è che vengono a darvi gli adesivi dell'altra radio stiamo per mettere la canzone quella lì abbiamo vinto Allora, volevo dire a un ascoltatore o ascoltatrice che dice Fabio, metti questa canzone lenta che vuoi rimetterla perché io sono ancora a letto e me la godo. Allora gli ho detto, chiamiamola così ho la scusa. Ci butta giù il telefono. Adesso per colpa di questa persona.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-01-25-050",
     "start": 1789.8,
     "end": 1792.58,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Ma no, perché c'ha la voce ancora impastata e si vergogna.",
     "titolo": "La voce impastata",
     "tema": [
@@ -617,11 +609,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-25-050",
+    "id": "2016-01-25-051",
     "start": 1792.6,
-    "end": 1947.05,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "Dai, sei lì nel letto, chiami il radio DJ e mi mettete una canzone. Cioè, dedica e richiesta. Io sai che sono anni che porto avanti queste due battaglie. Uno, fare la radio al pomeriggio, anche se è declassante e siamo arrivati ad una certa età che comunque, insomma... se dalla serie A si passa alla serie B fa niente però almeno abbiamo una vita più bella poi ho letto il blog di Linus che dice che nessun DJ vuole cambiare l'oraio sono 5 anni che gli dico di cambiarmi l'oraio secondo mi fa una paura forse quello con la voce impastata quello che nel letto mi sta chiamando che cazzo avrai da fare nel letto che non rispondi subito Vodafone tutto questo per fare pubblicità alla Vodafone vergogna l'altra cosa cos'era? una era che dovremmo fare la roba al pomeriggio l'altra dedica io voglio fare le dediche richieste come una volta o durante il giorno cioè tipo la sera o la mattina oppure la domenica come faceva Panicucci con le telefonate io voglio andare, voglio venire qua la domenica quando votate voi, due ore ciao mi chiamo Lucia, vorrei dedicare questa canzone di Ramazzotti di Negramaro, di Duran Duran a... c'è un problema nel palinsesto perché l'orario di domenica dedica Dear DJ è dalle 10 alle 12 attualmente occupato dal programma DJ Chiama Italia non so se il tuo potere riesce a scavallare va bene qualsiasi orario qualsiasi orario cioè andare lì e fare non sarebbe bello una volta a settimana che gli ascoltatori si dedicano delle canzoni quindi la come dire la colonna sonora la fanno loro ma è un'idea geniale rivoluzionaria è avantissimo è avantissimo va bene dedica richiesta allora adesso io vi voglio dire una cosa vi dovete immaginare dove vi piacerebbe stare Nella neve a New York o su una spiaggia alle Maldive dove vi pare. Oppure anche solo davanti al letto e guardare la vostra donna o il vostro uomo che dorme. Quei momenti lì, quei momenti in cui tu sai chi sei e sai dove sei, che durano 30 secondi perché io sono confusissimo. il vero amore è confusione e tu sei lì e a un certo punto passa alla radio una bella canzone gli ignoranti dicono vaffanculo allora basta la bruttezza al posto della bellezza perché vi annoiate vaffanculo credo sia il lancio più romantico che ci sia mai stato fatto sentite la bellezza di questa melodia",
+    "end": 1855.72,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Dai, sei lì nel letto, chiami il radio DJ e mi mettete una canzone. Cioè, dedica richiesta. Io sai che sono anni che porto avanti queste due battaglie. Uno, fare la radio al pomeriggio, anche se è declassante e siamo arrivati ad una certa età che comunque, insomma... se dalla serie A si passa alla serie B fa niente però almeno abbiamo una vita più bella poi ho letto il blog di Linus che dice che nessun DJ vuole cambiare l'oraio sono 5 anni che gli dico di cambiarmi l'oraio secondo mi fa una paura forse quello con la voce impastata quello che nel letto mi sta chiamando che cazzo avrai da fare nel letto che non rispondi subito Vodafone tutto questo per fare pubblicità alla Vodafone vergogna era la Vodafone l'altra cosa cos'era? una era che dovevamo fare la roba al pomeriggio e poi l'altra dedica canzoni io voglio fare le dediche richieste come una volta o durante il giorno cioè tipo la sera così o la mattina così oppure la domenica come faceva la Panicucci ma con le telefonate?",
     "titolo": "Radio e vita",
     "tema": [
       "radio",
@@ -631,7 +623,29 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-25-051",
+    "id": "2016-01-25-052",
+    "start": 1855.88,
+    "end": 1855.94,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "sì",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-01-25-053",
+    "start": 1857.14,
+    "end": 1947.05,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "io voglio andare, voglio venire qua la domenica quando votate voi, due ore ciao mi chiamo Lucia vorrei dedicare questa canzone di Ramazzotti di Negramaro, di Duran Duran a dimmi Mauro c'è un problema nel palinsesto perché l'orario di domenica dedica Dear DJ è dalle 10 alle 12 attualmente occupato dal programma DJ Chiama Italia quindi non so se il tuo potere riesce a scavallare va bene qualsiasi orario qualsiasi orario cioè andare lì e fare non sarebbe bello una volta a settimana che gli ascoltatori si dedicano delle canzoni quindi la come dire la colonna sonora la fanno loro ma è un'idea geniale rivoluzionaria è avantissimo è avantissimo va bene dedica richiesta allora adesso io vi voglio dire una cosa vi dovete immaginare dove vi piacerebbe stare Nella neve a New York o su una spiaggia alle Maldive dove vi pare. Oppure anche solo davanti al letto e guardare la vostra donna o il vostro uomo che dorme. Quei momenti lì, quei momenti in cui tu sai chi sei e sai dove sei, che durano 30 secondi perché io sono confusissimo. il vero amore è confusione e tu sei lì e a un certo punto passa alla radio una bella canzone gli ignoranti dicono vaffanculo allora basta la bruttezza al posto della bellezza perché vi annoiate vaffanculo credo sia il lancio più romantico che ci sia mai stato fatto sentite la bellezza di questa melodia",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-01-25-054",
     "start": 1956.39,
     "end": 1956.91,
     "speaker_raw": "SCONOSCIUTO",
@@ -642,11 +656,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-25-052",
+    "id": "2016-01-25-055",
     "start": 1985.38,
     "end": 2144.93,
     "speaker_raw": "SPEAKER_05",
-    "testo": "who's coming home to you Grazie a tutti. Yeah I know I'm gonna be I'm gonna be the man Who's working hard for you And when the money Comes in for the work I do I'll pass along every cent of it to you And when I'm lonely Well I know I'm gonna be I'm gonna be the man Who's lonely without you And if I go I'm gonna be the man who's growing old with you But I would walk 500 miles And I would walk 500 more Just to be the man who walked a thousand miles To fall down at your door But I would walk 500 miles Ciao Ciao sognerò il tempo che ho passato con te dai ragazzi adesso a parte gli scherzi stiamo scherzando allora un ascoltatore ha messo solo nei commenti",
+    "testo": "who's coming home to you Well I know I'm gonna dream I'm gonna dream about the time when I'm with you But I would walk 500 miles And I would walk 500 more Just to be the man who walked a thousand miles To fall down at your door When I'm working Yeah I know I'm gonna be I'm gonna be the man Who's working hard for you And when the money Comes in for the work I do I'll pass along every cent of it to you And when I'm lonely Well I know I'm gonna be I'm gonna be the man Who's lonely without you And if I go I'm gonna be the man who's growing old with you But I would walk 500 miles And I would walk 500 more Just to be the man who walked a thousand miles To fall down at your door But I would walk 500 Ciao Ciao sognerò il tempo che ho passato con te dai ragazzi adesso a parte gli scherzi stiamo scherzando allora un ascoltatore ha messo solo nei commenti",
     "titolo": "Canzone",
     "tema": [
       "amore",
@@ -656,10 +670,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-25-053",
+    "id": "2016-01-25-056",
     "start": 2148.36,
     "end": 2212.7,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_04",
     "testo": "un ascoltatore ha messo solo la z ha schiacciato il pulsante della z a ripetizione è lui è questo è questo messaggio vocale va bene ragazzi va bene posso dire una cosa non sono più adatto a questo sono vecchio va bene io l'accetto non è che devo sempre essere contemporaneo sono uscito sono vecchio andrò a casa a bere dei tè alla cannella a ascoltare queste canzoni cosa vi devo dire cosa vi devo dire mi sono arrivate tante che hanno detto grazie era bellissima si si ma anche sui social hai una base un po' allegra Maurizio da mettermi perché è arrivata la prima dedica richiesta ma guarda che se dai il via a questo filone è finita non so se te lo daranno questo programma caro Fabio ma in caso vorrei essere la prima mi chiamo Mary e vorrei dedicare una canzone di Negro Amaro a mio fidanzato Roberto mi metti quella che guidava il camion lì come si chiama in bilico questa canzone è dedicata come voi sentite Dalla nostra ascoltatrice Mary al fidanzato Roberto. Questi sono i Negramaro.",
     "titolo": "Vecchiaia e accettazione",
     "tema": [
@@ -670,7 +684,7 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-25-054",
+    "id": "2016-01-25-057",
     "start": 2212.76,
     "end": 2213.34,
     "speaker_raw": "SCONOSCIUTO",
@@ -681,11 +695,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-25-055",
+    "id": "2016-01-25-058",
     "start": 2232.6,
     "end": 2354.63,
-    "speaker_raw": "SPEAKER_08",
-    "testo": "Sul filo di un rasoio, ad asciugar parole che oggi ho spesso e mai dirò. Non senti che, tremo mentre canto, nascondo questa stupida albedria. Quando mi guardi, non senti che, tremo mentre canto, è il segno di un tutti i miei vorrei non sento più quell'insensata voglia di equilibrio che mi lascia qui sul filo di un rasoio a disegnare capriole che a mezz'aria mai farò non senti che tremo mentre canto nascondo questa storia mentre canto è il segno di un'estate che vorrei potesse non finire mai in bilico tra santi che non pagano e tanto il tempo passa e passerai come sai tu in bilico e intanto il tempo passa e tu non passi mai Nascondo questa stupida allegria quando mi guardi. Non senti che tremo mentre canto, è il segno di un'estate che vorrei poter seguire.",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Sul filo di un rasoio, ad asciugar parole che oggi ho spesso e mai dirò. Non senti che, tremo mentre canto, nascondo questa stupida albedria. Quando mi guardi, non senti che, tremo mentre canto, è il segno di un tutti i miei vorrei non sento più quell'insensata voglia di equilibrio che mi lascia qui sul filo di un rasoio a disegnare capriole che a mezz'aria mai farò non senti che tremo mentre canto nascondo questa storia mentre canto è il segno di un'estate che vorrei potesse non finire mai. Invilico tra santi che non pagano e tanto il tempo passa e passerai come sai tu. Invilico e intanto il tempo passa e tu non passi mai. Nascondo questa stupida alegria quando mi guardi. Non senti che tremo mentre canto, è il segno di un'estate che vorrei poter sentire.",
     "titolo": "Tremo mentre canto",
     "tema": [
       "paura",
@@ -695,11 +709,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-25-056",
+    "id": "2016-01-25-059",
     "start": 2365.33,
-    "end": 2474.12,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "Should I? Sai che Viola mi ha fatto notare durante questa canzone che non ho mai chiesto a Giuliano. Cosa dice esattamente qua? Should I? Should I? Tipo dovrei forse. Should I? Sarà così? Sarà andata anche a cercarlo Allora, ieri era il compleanno di Giuliano Adesso io ho scritto mentre andava al disco Ti chiamerò in diretta, puoi anche non rispondere Oh, non mi ha risposto manco il messaggio Agli altri fai gli agguati A lui invece, mandi il messaggio Ma no, ha fatto il compleanno, sarà magari a casa Io ho detto, ti chiamo in diretta, puoi anche non rispondere Non mi ha risposto manco al messaggio poi Rino sono le 9.47 ci sta ma ragazzi ma quelli hanno scelto un altro mestiere cioè che poi finché non c'è i figli dormi lo chiamo in diretta può anche non rispondere secondo me non mi risponde però ieri mi ha risposto paude e ne grita possiamo chiamare se non ha visto il messaggio vuoi che veda la telefonata però nella stanza buia si illumina se non lo metti a faccia in giù Che il telefono a faccia in giù si mette A. Quando uno vuole essere svegliato neanche dalla luce B. Quando c'hai l'amante Mi si fa capire se il tuo uomo c'ha un'altra Al tavola mette il telefono e guarda in giù E certo Segreteria? Spediamo la segreteria? Gli facciamo tutti tanti auguri va adesso niente allora la pubblicità la va tutto questo ascolti adesso chiamiamo Piff dai gli facciamo dire Tim perché sennò sembra chiamiamo Piff in diretta perché sennò sembra che l'abbiamo fatto apposta allora però Piff dorme a quest'ora sicuro vediamo Piff Piff vabbè perché sennò sembra veramente poi richiamo poi chiamo Cosu Bruce Willis gli faccio dire cosa poi Panariello abbiamo il numero di Panariello Ah già che è la Wind La 3 chi lo fa? La 3 chi lo fa?",
+    "end": 2470.58,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Should I? Sai che Viola mi ha fatto notare durante questa canzone che non ho mai chiesto a Giuliano. Cosa dice esattamente qua? Should I? Should I? Tipo dovrei forse. Should I? Sarà così? Sarà andata anche a cercarlo Allora, ieri era il compleanno di Giuliano Ok, adesso io ho scritto mentre andava al disco Ti chiamerò in diretta, puoi anche non rispondere Oh, non mi ha risposto manco il messaggio Agli altri fai gli agguati A lui invece, mandi il messaggio Ma no, ha fatto il compleanno, sarà magari a casa Io ho detto, ti chiamo in diretta, puoi anche non rispondere Non mi ha risposto manco al messaggio poi Rino sono le 9.47 ci sta ma ragazzi ma quelli hanno scelto un altro mestiere cioè che poi finché non c'è i figli dormi lo chiamo in diretta può anche non rispondere secondo me non mi risponde però ieri mi ha risposto paude e ne grita possiamo chiamare se non ha visto il messaggio vuoi che veda la telefonata però nella stanza buia si illumina se non lo metti a faccia in giù Che il telefono a faccia in giù si mette A. Quando uno vuole essere svegliato neanche dalla luce B. Quando c'hai l'amante Mi si fa capire se il tuo uomo c'ha un'altra Al tavola mette il telefono e guarda in giù E certo Che flop Segreteria? Spediamo la segreteria? Gli facciamo tutti tanti auguri vada assolutamente allora la pubblicità la va tutto questo ascolti adesso chiamiamo Piff dai gli facciamo dire Tim perché sennò sembra chiamiamo Piff in diretta perché sennò sembra che l'abbiamo fatto apposta allora però Piff dorme a quest'ora sicuro vediamo Piff Piff vabbè perché sennò sembra veramente poi chiamo Cosu Bruce Willis gli faccio dire cosa giusto Pannariello, abbiamo il numero di Pannariello?",
     "titolo": "Giuliano e il compleanno",
     "tema": [
       "amici",
@@ -709,34 +723,54 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-25-057",
-    "start": 2474.2,
+    "id": "2016-01-25-060",
+    "start": 2470.88,
+    "end": 2472.8,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Ah già che è la Wind, la 3 chi lo fa?",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-01-25-061",
+    "start": 2473.16,
+    "end": 2473.88,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "La 3 chi lo fa?",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-01-25-062",
+    "start": 2473.9,
     "end": 2477.27,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Ora c'è Paolo Bucci Rosso Paolo Bucci Rosso?",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Ah già, ora c'è Paolo Bucci Rosso Paolo Bucci Rosso?",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
-    "id": "2016-01-25-058",
+    "id": "2016-01-25-063",
     "start": 2477.43,
-    "end": 2488.86,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "Eh io quello c'ho il numero perché ho fatto un film con Paolo Bucci Rosso Ok questo è Pif ragazzi Vediamo se risponde Proprio abbiamo rotto il ritmo della puntata",
+    "end": 2489.64,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Eh io quello c'ho il numero perché ho fatto un film con Paolo Bucci Rosso Ok, questo è Pif ragazzi, vediamo se risponde Proprio abbiamo rotto il ritmo della puntata, questo è pittarato qua, vabbè",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
-    "id": "2016-01-25-059",
+    "id": "2016-01-25-064",
     "start": 2494.29,
     "end": 2494.79,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Niente. Niente.",
     "titolo": "",
     "tema": [],
@@ -744,11 +778,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-25-060",
+    "id": "2016-01-25-065",
     "start": 2494.83,
     "end": 2602.74,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "Non ti risponde nessuno. Non ho fatto la doccia in questi ultimi giorni. Vedi che... Questo è il risultato. E uno pensa... Ehi! Piff, sei in diretta su Radio DJ? Ecco. Ecco. Non lo sapevo. No, scusami. No, ma per una stronzata. Siccome ho chiamato Giuliano Negramaro, poi ho chiamato un'ascoltatrice e non mi hanno risposto, è entrata la segheria e diceva Vodafone. Sembrava che l'avessi fatto apposta. allora adesso chiamo Piff di Tim tre volte due volte siamo pari dai Tim il numero è spesso vabbè scusami che t'ho svegliato ti chiamo dopo ho usato il tuo camerino delle iene ieri t'ho lasciato lì della roba ma bello caldo sì non ho tirato l'acqua ti chiamo dopo ciao ciao ciao ciao ok adesso siamo pari dobbiamo chiamare Fazio Fazio adesso di Tim vabbè ragazzi non li possiamo chiamare tutti si è rimasto indietro si è rimasto indietro con una delle tue canzoni preferite Jeff Buckley The Last Goodbye wow comunque arrivo sempre un pezzetto prima portatemi una cosa vi è piaciuta questa canzone che vi ho messo a lenta questa conduzione così familiare sembra che siamo quattro amici guardate che bella versione che ha portato il nostro esperto musicale sulla passeggiata con la neve ha detto ti ho portato gli aglio è troppo allegra no una versione molto bella che è già stata usata per un sacco di situazioni pubblicitarie e noi questa mattina ci camminiamo sopra la neve va bene, anche per quelli di Wind e la 3 così abbiamo fatto tutto bella questa canzone I don't know what I have to say I'll say it anyway",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Non ti risponde nessuno. Non ho fatto la doccia in questi ultimi giorni. Vedi che... Questo è il risultato. E uno pensa... Ehi! Piff, sei in diretta su Radio DJ? Ecco. Ecco. Non lo sapevo. No, scusami. No, ma per una stronzata. Siccome ho chiamato Giuliano Negramaro, poi ho chiamato un'ascoltatrice e non mi hanno risposto, è entrata la segheria e diceva Vodafone. Sembrava che l'avessi fatto apposta. allora adesso chiamo Piff di Tim tre volte due volte siamo pari dai Tim il numero è spesso vabbè scusami che t'ho svegliato ti chiamo dopo ho usato il tuo camerino delle iene ieri t'ho lasciato lì della roba ma bello caldo sì non ho tirato l'acqua ti chiamo dopo ciao ciao ciao ciao ok adesso siamo pari dobbiamo chiamare Fazio Fazio adesso di Tim vabbè ragazzi non li possiamo chiamare tutti si è rimasto indietro con una delle tue canzoni preferite Jeff Buckley The Last Goodbye wow comunque arrivo sempre un pezzetto prima portatemi una cosa vi è piaciuta questa canzone che vi ho messo a lenta questa conduzione così familiare sembra che siamo quattro amici guardate che bella versione che ha portato il nostro esperto musicale sulla passeggiata con la neve ha detto ti ho portato gli aglio è troppo allegra no una versione molto bella che è già stata usata per un sacco di situazioni pubblicitarie e noi questa mattina ci camminiamo sopra la neve va bene, anche per quelli di Wind la 3 così abbiamo fatto tutto bella questa canzone I don't know what I have to say I'll say it anyway",
     "titolo": "Chiamata a Giuliano Negramaro",
     "tema": [
       "comunicazione",
@@ -758,45 +792,43 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-25-061",
-    "start": 2620.7,
+    "id": "2016-01-25-066",
+    "start": 2620.84,
     "end": 2685.35,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "Ciao Ciao Ciao Un giorno o due Un giorno o due Un giorno o due Grazie a tutti",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Today's another day to find you. Shine away. I'll be coming for your love again. So needless to say I'm what's in this book That's me stumbling away Grazie a tutti",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-01-25-062",
+    "id": "2016-01-25-067",
     "start": 2733.31,
-    "end": 2733.65,
+    "end": 2733.47,
     "speaker_raw": "SCONOSCIUTO",
-    "testo": "Grazie!",
+    "testo": "Ciao!",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-01-25-063",
+    "id": "2016-01-25-068",
     "start": 2779.99,
     "end": 2851.82,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "scusate non mi sono accorto abbiamo chiamato Bucci Rosso Paolo ok Carlo Carlo è anche uno dei miei attori preferiti scusa Carlo io l'ho detto no però io non mi sono accorto ho fatto anche il film con lui io l'ho sentito che avevi detto così allora invece di ascoltatore non ho apprezzato le due canzoni che voi qua ehi la io l'avevo apprezzata si è riempita la mail di dedica e richiesta bravo allora se io fossi il direttore artistico prenderai in considerazione questa cosa l'idea di cambiare indirizzo mail perché adesso la vita è finita ragazzi un programma di radio dj facciamo il venerdì che li facciamo venire qua siamo amici poi non ce ne frega niente l'ascoltatore gli fa piacere la domenica il sabato che dice ciao io sono qua vorrei dedicare ma non sempre al tuo compagno a una mia amica vorrei dedicarlo a quei ragazzi che gli erano manifestati in piazza cioè gesti d'amore servono in questo momento posso dire a me ma la rassunta Va bene, va bene. Cosa succede adesso?",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "scusate non mi sono accorto abbiamo chiamato Bucci Rosso Paolo ok Carlo Carlo è anche uno dei miei attori preferiti scusa Carlo io l'ho detto no però io non mi sono accorto ho fatto anche il film con lui perché il film questo qui con Silvio Guando c'è anche lui io l'ho sentito che avevi detto così allora invece di ascoltatore non ho apprezzato le due canzoni che voi qua ehi la io l'avevo apprezzata si è riempita la mail di dedica e richiesta bravo allora se io fossi il direttore artistico prenderai in considerazione questa cosa l'idea di cambiare indirizzo mail perché adesso la vita è finita ragazzi un programma di radio dj facciamo il venerdì che li facciamo venire qua siamo amici poi non ce ne frega niente l'ascoltatore gli fa piacere la domenica il sabato che dice ciao io sono qua vorrei dedicare ma non sempre al tuo compagno a una mia amica vorrei dedicarlo a quei ragazzi che gli erano manifestati in piacere gesti d'amore servono in questo momento posso dire a me ma la rastruzione Va bene, va bene. Cosa succede adesso?",
     "titolo": "Carlo",
     "tema": [],
     "tipo": "riferimento_film",
-    "video_url": "",
-    "confermato_esterno": true,
-    "copertina": "https://image.tmdb.org/t/p/w200/afsIieTY6zfNMjXxNOHCT83nLPq.jpg"
+    "video_url": ""
   },
   {
-    "id": "2016-01-25-064",
+    "id": "2016-01-25-069",
     "start": 2851.86,
     "end": 2855.83,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Io volevo sapere la tua presa di posizione, me l'hai promesso prima.",
     "titolo": "La presa di posizione",
     "tema": [
@@ -807,10 +839,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-25-065",
+    "id": "2016-01-25-070",
     "start": 2855.91,
     "end": 2893.11,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_04",
     "testo": "La presa di posizione su cosa? Sul Family Day. Mi dico solo che il Family Day è la cosa più bella. Una volta negli anni passati al Family Day prendevano per il culo tipo Casini che ha sette famiglie o Berlusconi che aveva le palazzine piene di donne. per me quest'anno hanno superato se stessi perché quest'anno ci va la Mussolini col marito e lui è stato condannato per aver avuto pluri rapporti con una prostituta sedicenne però sarà lì in prima fila fantastico viva la vita tutti fermi oh la metti sta cazzo di sigla finale che paura ciao ragazzi a domani ciao",
     "titolo": "Family Day",
     "tema": [

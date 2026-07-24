@@ -2,9 +2,9 @@
   {
     "id": "2016-01-26-000",
     "start": 3.72,
-    "end": 10.09,
-    "speaker_raw": "SPEAKER_08",
-    "testo": "DJ One Nation One Station One Love",
+    "end": 54.44,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "DJ One Nation, One Station, One Love Ciao!",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -12,17 +12,6 @@
   },
   {
     "id": "2016-01-26-001",
-    "start": 54.3,
-    "end": 54.44,
-    "speaker_raw": "SPEAKER_10",
-    "testo": "Ciao!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-01-26-002",
     "start": 188.58,
     "end": 210.19,
     "speaker_raw": "SPEAKER_00",
@@ -33,10 +22,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-26-003",
+    "id": "2016-01-26-002",
     "start": 210.43,
     "end": 212.13,
-    "speaker_raw": "SPEAKER_02",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Rufus, vieni qua.",
     "titolo": "",
     "tema": [],
@@ -44,7 +33,7 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-26-004",
+    "id": "2016-01-26-003",
     "start": 212.59,
     "end": 227.16,
     "speaker_raw": "SPEAKER_00",
@@ -58,22 +47,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-26-005",
+    "id": "2016-01-26-004",
     "start": 228.15,
-    "end": 229.95,
-    "speaker_raw": "SPEAKER_05",
-    "testo": "Ti dispiace?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-01-26-006",
-    "start": 247.11,
     "end": 276.35,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Last night she said she loved me, what a pity to part I slept with for that lover, it's hard to let this die Good morning life, good morning world, how are you? Happiness, but don't sign up, what living can be? Oh, oh, oh Oh, it's life, it's free It's someone waiting for me It's only in my life, good morning love",
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Ti dispiace? Last night she said she loved me, what a pity to part, I slept with for that lover, it's hard to let this die. Good morning life, good morning world, how are you happiness, but once I knew what living can be. Oh, oh, oh Oh, it's life, it's free It's someone waiting for me It's only in my life, good morning love",
     "titolo": "La vita è libera",
     "tema": [
       "amore",
@@ -83,21 +61,21 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-26-007",
+    "id": "2016-01-26-005",
     "start": 281.65,
     "end": 318.21,
     "speaker_raw": "SPEAKER_00",
-    "testo": "Leggo il primo messaggio che dice Ciao Viola, stavo giocando ad Akinator Ah sì, sì, sì Lo conosci Akinator? No È un giochino, tra l'altro è vecchio Quello dove devi trovare i personaggi e riconoscere No, no, perché scrive No, no, l'ho intuito perché dice Volevo vedere se indovinava il tuo personaggio Scusa, ma devo rispondere alla domanda se hai mai fatto scene di nudo no, mai fatto un film neanche che dici? no, Mari no, devi rispondere no non credo proprio di essere su Akinato ma tu cos'è?",
+    "testo": "Leggo il primo messaggio che dice Ciao Viola, stavo giocando ad Akinator Ah sì, sì, sì Lo conosci Akinator? No È un giochino, tra l'altro è vecchio Quello dove devi trovare i personaggi e riconoscere No, no, perché scrive No, no, l'ho intuito perché dice Volevo vedere se indovinava il tuo personaggio Scusa, ma devo rispondere alla domanda se hai mai fatto scene di nudo no, mai fatto un film neanche che dici? no, Mari devi rispondere no non credo proprio di essere su Akinata ma tu cos'è?",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-01-26-008",
+    "id": "2016-01-26-006",
     "start": 318.45,
     "end": 319.71,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_05",
     "testo": "è tipo indovina chi?",
     "titolo": "",
     "tema": [],
@@ -105,10 +83,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-26-009",
+    "id": "2016-01-26-007",
     "start": 319.77,
     "end": 335.92,
-    "speaker_raw": "SPEAKER_02",
+    "speaker_raw": "SPEAKER_04",
     "testo": "è tipo indovina il personaggio lo fai con il telefono o con il computer c'è una specie di genietto virtuale che ti fa delle domande tu devi rispondere sì o no e in pochissime domande devi capire di chi sta parlando indovina la persona che hai in testa",
     "titolo": "",
     "tema": [],
@@ -116,7 +94,7 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-26-010",
+    "id": "2016-01-26-008",
     "start": 337.62,
     "end": 341.48,
     "speaker_raw": "SPEAKER_00",
@@ -127,10 +105,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-26-011",
+    "id": "2016-01-26-009",
     "start": 341.72,
     "end": 344.48,
-    "speaker_raw": "SPEAKER_02",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Potrebbe essere, potrebbe essere.",
     "titolo": "",
     "tema": [],
@@ -138,7 +116,7 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-26-012",
+    "id": "2016-01-26-010",
     "start": 344.52,
     "end": 346.82,
     "speaker_raw": "SPEAKER_00",
@@ -149,10 +127,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-26-013",
+    "id": "2016-01-26-011",
     "start": 347.22,
     "end": 352.76,
-    "speaker_raw": "SPEAKER_02",
+    "speaker_raw": "SPEAKER_04",
     "testo": "No, è lui che ti fa le domande, te pensi un personaggio, Akinator ti fa le domande e tu clicchi sì, no, sì.",
     "titolo": "",
     "tema": [],
@@ -160,11 +138,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-26-014",
+    "id": "2016-01-26-012",
     "start": 352.86,
     "end": 357.16,
     "speaker_raw": "SPEAKER_00",
-    "testo": "E lui capisce, è lui che capisce. Ah questo è il dramma. Oddio che ansia, oddio che ansia.",
+    "testo": "E lui capisce, è lui che capisce, oddio che ansia, oddio che ansia.",
     "titolo": "Ansia",
     "tema": [
       "ansia"
@@ -173,10 +151,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-26-015",
+    "id": "2016-01-26-013",
     "start": 357.2,
     "end": 360.82,
-    "speaker_raw": "SPEAKER_02",
+    "speaker_raw": "SPEAKER_04",
     "testo": "No, io ho trovato della gente che, io non sono famosa ma, quindi ancora meno...",
     "titolo": "Fama e anonimato",
     "tema": [
@@ -187,11 +165,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-26-016",
+    "id": "2016-01-26-014",
     "start": 361.98,
     "end": 464.2,
     "speaker_raw": "SPEAKER_00",
-    "testo": "ti giuro allora ciao Fabio ma tu litighi mai con la Johanna ma che domanda è Alessio si si si non litighiamo mai tipo ma che cioè non alziamo mai la voce però è certo non è che litighiamo abbiamo idee diverse su tante cose quindi ogni tanto c'è il momento in cui Diciamo, io penso di aver capito una cosa lentamente in questi anni di convivenza, se io non ho mai avuto esperienze di coppia così, che esiste una parte che è amore, che è quella incondizionata, come ho scritto nel mio ultimo libro. Tu puoi dire perché ti piace una persona, amo questo di lei, amo questo di lei, amo come ride, perché è intelligente, ma tu non potrai mai trovare la risposta perché ami queste cose. adesso mi tolgo dal mio libro parlo in generale lì l'ho messo in un capitolo cioè la risposta perché amo questa persona e non un'altra al di là dell'elenco delle cose che ti piacciono è una risposta insondabile per questo che l'amore spaventa perché tu sai che o lui o te diciamo ci si mette su una piattaforma dove una mattina uno dei due si potrebbe svegliare e dire quella cosa lì che non so da dove viene se n'è andata per questo cerchi di trovare anche cose razionali perché non è razionale tu razionalmente dici perché mi è simpatica perché mi è intelligente perché mi capisce ma quelle robe lì sono puttanate che poi passa una con una minigonna e dici vabbè ciao la minigonna no per dire come sono vecchio ma chi le mette più le minigonne la minigonna ma la registrazione di quando litighi con Johan si? sono io che lancio il divano No, io dico sempre, io non l'ho scelta, l'ho scelta dopo, dopo la scegli, cioè nel percorso di vita che si sta insieme tu decidi se vuoi quella persona razionalmente, ma prima l'input è una roba insondabile, ci sei?",
+    "testo": "ti giuro allora ciao Fabio ma tu litighi mai con la Johanna ma che domanda è Alessio si si si non litighiamo mai tipo cioè non alziamo mai la voce però è certo non è che litighiamo abbiamo idee diverse su tante cose quindi ogni tanto c'è il momento in cui Diciamo, io penso di aver capito una cosa lentamente in questi anni di convivenza, se io non ho mai avuto esperienze di coppia così, che esiste una parte che è amore, che è quella incondizionata, come ho scritto nel mio ultimo libro. Tu puoi dire perché ti piace una persona, amo questo di lei, amo questo di lei, amo come ride, perché è intelligente, ma tu non potrai mai trovare la risposta perché ami queste cose. adesso mi tolgo dal mio libro parlo in generale lì l'ho messo in un capitolo cioè la risposta perché amo questa persona e non un'altra al di là dell'elenco delle cose che ti piacciono è una risposta insondabile per questo che l'amore spaventa perché tu sai che o lui o te diciamo ci si mette su una piattaforma dove una mattina uno dei due si potrebbe svegliare e dire quella cosa lì che non so da dove viene se n'è andata per questo cerchi di trovare anche cose razionali perché non è razionale, tu razionalmente dici perché mi è simpatica, perché mi è intelligente perché mi capisce, ma quelle robe lì sono puttanate, poi passa una con una minigonna e dici vabbè ciao la minigonna ma chi le mette lì le minigonne ma la registrazione di quando litighi con Johan sì? sarò io che lancio il divano No, io dico sempre, io non l'ho scelta, l'ho scelta dopo, dopo la scegli, cioè nel percorso di vita che si sta insieme tu decidi se vuoi quella persona razionalmente, ma prima l'input è una roba insondabile, ci sei?",
     "titolo": "La convivenza e la confusione",
     "tema": [
       "amore",
@@ -201,10 +179,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-26-017",
+    "id": "2016-01-26-015",
     "start": 464.44,
     "end": 466.7,
-    "speaker_raw": "SPEAKER_02",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Ma insondabile cosa vuol dire?",
     "titolo": "",
     "tema": [],
@@ -212,11 +190,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-26-018",
+    "id": "2016-01-26-016",
     "start": 466.74,
     "end": 528.84,
     "speaker_raw": "SPEAKER_00",
-    "testo": "Che non c'è una risposta, tu entri in una stanza, ce ne sono cinque, non è che è figo quello là e tu dici ma mi piace quello lì è insondabile il motivo siamo d'accordo su questo cari ascoltatori comunque no non litighiamo nel senso di gridare però ogni tanto dicevo una parte è amore il resto è confusione cioè noi ci guardiamo io lo vedo che ogni tanto siamo confusi che c'è nella testa abbiamo fatto le scelte giuste stiamo facendo quelle giuste le faremo giuste saremmo bravi con i figli saremmo bravi tra noi due è una domanda che poneva Platone l'amore secondo me è confusione e tutto il resto è noia è noia va bene detta questa cosa che ero un po' alberoni sono partito un po' alberoni questa mattina abbiamo una canzone proprio bella per voi per ricordare anche un personaggio che ci piace così ma perché dice delle belle frasi abbiamo delle belle notizie però io direi mettiamo un disco che ho parlato tanto l'amore e confusione su radio dj Anche la voce è sexy, mi trovi sexy con questa voce?",
+    "testo": "Che non c'è una risposta, tu entri in una stanza, ce ne sono cinque, non è che è figo quello là e tu dici ma mi piace quello lì è insondabile il motivo siamo d'accordo su questo cari ascoltatori comunque no non litighiamo nel senso di gridare però ogni tanto dicevo una parte è amore il resto è confusione cioè noi ci guardiamo io lo vedo che ogni tanto siamo confusi che c'è nella testa abbiamo fatto le scelte giuste stiamo facendo quelle giuste le faremo giuste saremmo bravi con i figli saremmo bravi tra noi due e questa è una domanda che poneva Platone l'amore secondo me è confusione e tutto il resto è noia è noia va bene detta questa cosa che ero un po' alberoni sono partito un po' alberoni questa mattina abbiamo una canzone proprio bella per voi per ricordare anche un personaggio che ci piace così ma perché dice delle belle frasi abbiamo delle belle notizie però io direi mettiamo un disco che ho parlato tanto l'amore e confusione su radio dj Anche la voce è sexy, mi trovi sexy con questa voce?",
     "titolo": "La confusione nella relazione",
     "tema": [
       "amore",
@@ -226,18 +204,18 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-26-019",
+    "id": "2016-01-26-017",
     "start": 528.86,
-    "end": 529.92,
-    "speaker_raw": "SPEAKER_10",
-    "testo": "No, è la voce nasale.",
+    "end": 529.8,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "No, è la voce nasale",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-01-26-020",
+    "id": "2016-01-26-018",
     "start": 620.07,
     "end": 620.19,
     "speaker_raw": "SCONOSCIUTO",
@@ -248,10 +226,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-26-021",
+    "id": "2016-01-26-019",
     "start": 693.22,
     "end": 693.36,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Grazie.",
     "titolo": "",
     "tema": [],
@@ -259,11 +237,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-26-022",
+    "id": "2016-01-26-020",
     "start": 736.88,
     "end": 818.9,
     "speaker_raw": "SPEAKER_00",
-    "testo": "Un'ascoltatrice manda questo messaggio, chiaro, e dice, e nella confusione, abbiamo adesso appena letto una, e nella confusione mi dice sei bellissima. Che uno quando sta, ad esempio, tanto con una donna, a volte si dimentica di queste... facciamo finta che non sono in radio sono solo con Maurizio queste puttanate qua voi vi veritate di stare da soli uno perde le piccole attenzioni ricordiamo sempre l'abbiamo sempre detto da anni grazie a Silvano Agosti che ci illuminò negli anni 90 nel 2000 amore, sesso e tenerezza tre colonne per tenere in piedi un rapporto magari la sessualità vi non può mancare ma c'è tanto amore però devono esserci tutte e tre se ne levi una zoppica tutto che diventa un misticismo diventa una roba infantile o diventa una pornografia quindi amore, sesso ma la tenerezza che invece non viene mai considerata che è appunto la mano sulla mano a cena sai che le donne guardano queste stronzate no tipo tu sali in macchina dopo una cena e se il tuo amico gli attoccava i capelli mentre lei parlava gli teneva la mano la donna copia con l'immagine di quel frame e poi in macchina dice ma hai visto come lui è ancora innamorato gli toccava la mano e tu dici lui chi?",
+    "testo": "Un'ascoltatrice manda questo messaggio, chiaro, e dice, e nella confusione, abbiamo adesso appena letto una, e nella confusione mi dice sei bellissima. Che uno quando sta, ad esempio, tanto con una donna, a volte si dimentica di queste... facciamo finta che non sono in radio sono solo con Maurizio queste puttanate qua voi vi meritate di stare da soli uno perde le piccole attenzioni ricordiamo sempre l'abbiamo sempre detto da anni grazie a Silvano Agosti che ci illuminò negli anni 90 nel 2000 amore, sesso e tenerezza Tre regole, diciamo tre, come dire, colonne per tenere in piedi un rapporto, no? Magari la sessualità vi non può mancare, ma c'è tanto amore, però devono esserci tutte e tre. Se ne levi una, zoppica tutto, perché diventa un misticismo, diventa una roba infantile o diventa una pornografia, no? quindi amore, sesso ma la tenerezza che invece non viene mai considerata che è appunto la mano sulla mano a cena sai che le donne guardano queste stronzate qua no tipo tu sali in macchina dopo una cena e se il tuo amico gli attoccava i capelli mentre lei parlava gli teneva la mano la donna copia con l'immagine di quel frame e poi in macchina dice ma hai visto come lui è ancora innamorato gli toccava la mano e tu dici lui chi?",
     "titolo": "La confusione e le attenzioni",
     "tema": [
       "amore",
@@ -273,10 +251,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-26-023",
+    "id": "2016-01-26-021",
     "start": 818.92,
     "end": 820.14,
-    "speaker_raw": "SPEAKER_02",
+    "speaker_raw": "SPEAKER_04",
     "testo": "lasciateci stare",
     "titolo": "",
     "tema": [],
@@ -284,7 +262,7 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-26-024",
+    "id": "2016-01-26-022",
     "start": 820.99,
     "end": 848.32,
     "speaker_raw": "SPEAKER_00",
@@ -298,10 +276,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-26-025",
+    "id": "2016-01-26-023",
     "start": 849.04,
     "end": 853.26,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Allora, come vestita potrebbe anche andare bene, ma la faccia gli scipa tutto.",
     "titolo": "Fisico e faccia",
     "tema": [
@@ -311,11 +289,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-26-026",
+    "id": "2016-01-26-024",
     "start": 853.8,
     "end": 858.73,
     "speaker_raw": "SPEAKER_00",
-    "testo": "Però, diciamo, fisicamente se la puoi permettere la minigonna?",
+    "testo": "Però diciamo, fisicamente se la puoi permettere la minigonna?",
     "titolo": "Minigonna",
     "tema": [
       "abbigliamento"
@@ -324,11 +302,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-26-027",
+    "id": "2016-01-26-025",
     "start": 859.25,
-    "end": 862.33,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "Vestita, non so com'è sotto, quindi vestita forse sì.",
+    "end": 867.55,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Vestita, non so come sotto, quindi vestita forse sì. In senso, come è molto bassa.",
     "titolo": "Vestito e bassa",
     "tema": [
       "aspetto"
@@ -337,33 +315,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-26-028",
-    "start": 862.85,
-    "end": 863.55,
-    "speaker_raw": "SPEAKER_00",
-    "testo": "Cioè, mini...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-01-26-029",
-    "start": 863.75,
-    "end": 867.55,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "In senso, in senso, c'ha... come è molto bassa.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-01-26-030",
+    "id": "2016-01-26-026",
     "start": 868.49,
-    "end": 886.48,
+    "end": 890.32,
     "speaker_raw": "SPEAKER_00",
-    "testo": "già qua, perché 50 anni è giovane scusami, 50 anni è giovane nel senso che 50 anni non è che stiamo dicendo ora non so se c'ha 50 anni sono me ce l'ha e forse anche un pochino di più pensa se magari in questo momento lei a casa ha detto speriamo di no non riconosca la voce dimmi una radio una radio famosa a Firenze",
+    "testo": "già qua perché 50 anni è giovane scusami 50 anni è giovane nel senso che 50 anni non è che stiamo dicendo ora non so se c'ha 50 anni in senso sono me ce l'ha e forse anche un pochino di più pensa se magari in questo momento lei a casa ha detto speriamo di no dice dimmi una radio non riconosca la voce perché tanto non si sa da dove chiama dimmi una radio una radio famosa a Firenze",
     "titolo": "La signora e la radio",
     "tema": [
       "età",
@@ -373,18 +329,18 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-26-031",
+    "id": "2016-01-26-027",
     "start": 891.41,
     "end": 894.99,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "Radio Famosa Firenze? No, RDF, Lady Radio.",
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Radio famosa a Firenze? No, RDF, Lady Radio.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-01-26-032",
+    "id": "2016-01-26-028",
     "start": 895.65,
     "end": 900.53,
     "speaker_raw": "SPEAKER_00",
@@ -395,18 +351,18 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-26-033",
+    "id": "2016-01-26-029",
     "start": 900.63,
     "end": 902.05,
-    "speaker_raw": "SPEAKER_02",
-    "testo": "Radio Diffusione, penso.",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Radiodiffusione, penso.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-01-26-034",
+    "id": "2016-01-26-030",
     "start": 902.25,
     "end": 906.67,
     "speaker_raw": "SPEAKER_00",
@@ -417,24 +373,22 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-26-035",
+    "id": "2016-01-26-031",
     "start": 907.01,
     "end": 910.77,
-    "speaker_raw": "SPEAKER_02",
+    "speaker_raw": "SPEAKER_04",
     "testo": "No, cos'è? Non lo so, non sono capace. Mettiamo su Radio DJ.",
     "titolo": "Radio DJ",
     "tema": [],
     "tipo": "riferimento_libro",
-    "video_url": "",
-    "confermato_esterno": true,
-    "copertina": "https://covers.openlibrary.org/b/id/10800166-M.jpg"
+    "video_url": ""
   },
   {
-    "id": "2016-01-26-036",
+    "id": "2016-01-26-032",
     "start": 910.81,
     "end": 931.77,
     "speaker_raw": "SPEAKER_00",
-    "testo": "Perché magari c'è Federico Russo. Mette e dice... Come si dice? L'elmi vicino? Non lo so. Vabbè, insomma... ma lei è bassa con la minigonna sopra i 50 perché io dal tuo messaggio mi ero già immaginato un'altra roba ma bassa quanto? tipo bassina o bassa?",
+    "testo": "Perché magari c'è Federico Russo. Mette e dice... Come si dice? L'elmi vicino? Non lo so. Vabbè, insomma... ma lei è bassa con la minigonna sopra i 50 no insomma perché io dal tuo messaggio mi ero già immaginato un'altra roba ma bassa quanto tipo bassina o bassa?",
     "titolo": "La signora con la minigonna",
     "tema": [
       "età",
@@ -444,11 +398,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-26-037",
+    "id": "2016-01-26-033",
     "start": 932.27,
     "end": 960.51,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "bassa forse 1,50 come diceva mio amico è così basta che si inciampa nel filo del Tampax ma ti dico un'altra ha dei tacchi che hanno 15 e perché porta i tacchi? quando tu la guardi, gli guardi le gambe ha dei polpacci sviluppati che bella immagine Fabio ti hai rimaginato un'altra roba la panterona, single, cinquantenne da lontano è un bel effetto Avvicino, aiuto.",
+    "speaker_raw": "SPEAKER_03",
+    "testo": "bassa bassa forse 1,50 come diceva mio amico è così basta che si inciampa nel filo del Tampax ma ti dico un'altra ha dei tacchi che saranno 15 e perché porta i tacchi? quando tu la guardi, gli guardi le gambe ha dei polpacci sviluppati che bella immagine Fabio ti hai rimaginato un'altra roba la panterona, single, cinquantenne da lontano è un bel effetto Avvicino, aiuto.",
     "titolo": "La panterona",
     "tema": [
       "età",
@@ -458,10 +412,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-26-038",
+    "id": "2016-01-26-034",
     "start": 960.67,
     "end": 963.05,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Ma dai, ma da lontano sei già bassa, da lontano che dici?",
     "titolo": "",
     "tema": [],
@@ -469,10 +423,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-26-039",
+    "id": "2016-01-26-035",
     "start": 963.07,
     "end": 971.39,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Perché questo non è solo tutto quello che ha, eh. Quando esce porta cappelli o porta un bel fiore sulla testa. Guardatemi.",
     "titolo": "La signora e i tacchi",
     "tema": [
@@ -483,11 +437,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-26-040",
+    "id": "2016-01-26-036",
     "start": 971.87,
     "end": 981.66,
     "speaker_raw": "SPEAKER_00",
-    "testo": "Eh beh, certo, perché dalla sera... No, no, ma famiglia, marito, figli, non è che... Madonna, io ho paura che te... Abbiamo sbagliato di reale, dovevamo cambiare nome, ho paura che ti riconoscano.",
+    "testo": "Eh beh, certo, perché dalla sera... No, no, ma famiglia, marito, figli, non è che... Madonna, io ho paura che te... Abbiamo sbagliato di reale, dovevamo cambiare nome, ho paura che te li conoscano.",
     "titolo": "Paura di essere riconosciuto",
     "tema": [
       "paura",
@@ -497,11 +451,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-26-041",
+    "id": "2016-01-26-037",
     "start": 981.68,
     "end": 1015.86,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "No, no, vabbè, io spero... Guarda, da una parte spero anche che mi senta, perché forse tacchi dalla mattina alla sera, che qualche volta andrei su, eh... ti viene il pensiero nervoso tipo ma con questi tacchi in casa perché lei li tiene anche in casa dalla mattina alla sera non dalla mattina all'otto la mattina si parla delle sei perché questa fa i mercati aiuto ma aspetta un attimo non hai pensieri erotici quando senti il tacco anche se ti giuro basta perché come sta di sopra se va a fare la lavatrice e tu guardi per aria",
+    "speaker_raw": "SPEAKER_03",
+    "testo": "No, no, vabbè, io spero... Guarda, da una parte spero anche che mi senta, perché forse tacchi dalla mattina alla sera, che qualche volta andrei su, eh... ah ma scusami ma tu ti posso dire una cosa ti viene il pensiero nervoso tipo ma con questi tacchi in casa perché lei li tiene anche in casa dalla mattina alla sera oppure non dalla mattina no no dalla mattina all'otto la mattina si parla delle sei perché questa fa i mercati ah fa i mercati aiuto ma scusa ma aspetta un attimo non hai pensieri erotici quando senti il tacco no no no per un caldo anche se ti giuro basta perché come sta di sopra se va a fare la lavatrice e tu guardi per aria",
     "titolo": "I tacchi in casa",
     "tema": [
       "età",
@@ -511,11 +465,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-26-042",
+    "id": "2016-01-26-038",
     "start": 1016.82,
-    "end": 1046.9,
+    "end": 1048.84,
     "speaker_raw": "SPEAKER_00",
-    "testo": "insomma quindi ti svegli quindi c'è la vicina che ti sveglia va bene va bene comunque c'è allora basta coi tacchi 15 al cappello allora siccome Siccome la radio è come la letteratura, quando leggi o quando senti la voce uno si immagina le cose, non è la televisione che ti porta al prodotto computer. Sai quando mi diceva Basso col cappello, sai cosa mi è venuto in mente?",
+    "testo": "insomma quindi ti svegli quindi c'è la vicina che ti sveglia va bene va bene allora basta coi tacchi 15 al cappello portali al cielo allora siccome Siccome la radio è come la letteratura, quando leggi o quando senti la voce uno si immagina le cose, non è la televisione che ti porta al prodotto computer. Sai quando mi diceva Basso col cappello, sai cosa mi è venuto in mente? Cosa? Quando vestono E.T. a carnevale.",
     "titolo": "La radio e la letteratura",
     "tema": [
       "letteratura",
@@ -525,33 +479,32 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-26-043",
-    "start": 1047.14,
+    "id": "2016-01-26-039",
+    "start": 1050.84,
     "end": 1053.52,
-    "speaker_raw": "SPEAKER_10",
-    "testo": "Quando vestono E.T. a carnevale.",
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Ha vestito da carnevale a carnevale, bravo!",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-01-26-044",
+    "id": "2016-01-26-040",
     "start": 1053.54,
-    "end": 1060.96,
+    "end": 1061.02,
     "speaker_raw": "SPEAKER_00",
-    "testo": "C'è una scena in cui E.T. si veste da donna, non so se te lo ricordi, prima di vestirlo da fantasma, hai vestito da donna in una scena. Va bene, Angelo, buon lavoro. Grazie.",
+    "testo": "C'è una scena in cui E.T. si veste da donna, non so se te lo ricordi, prima di vestirlo da fantasma, hai vestito da donna in una scena. Va bene, Angelo, buon lavoro e... Grazie.",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
-    "id": "2016-01-26-045",
+    "id": "2016-01-26-041",
     "start": 1063.29,
     "end": 1072.05,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_03",
     "testo": "volevo dire una cosa a Viola dimmi Viola si chiama anche mia figlia vedi? a Firenze si chiamano tutte Viola io non lo sapevo ciao Angelo ciao",
     "titolo": "Nome comune",
     "tema": [
@@ -562,11 +515,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-26-046",
+    "id": "2016-01-26-042",
     "start": 1091.81,
     "end": 1220.39,
-    "speaker_raw": "SPEAKER_08",
-    "testo": "Ciao. so tell my friends that I'll be over here oh yeah oh yeah I ask myself what am I doing here ... ... ... Ciao Ciao Ciao Ciao Ciao Ciao",
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Ciao so tell my friends that I'll be over here oh yeah oh yeah I ask myself what am I doing here ... ... ... Ciao Ciao Ciao Ciao",
     "titolo": "canzone sconosciuta",
     "tema": [
       "amore",
@@ -576,11 +529,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-26-047",
+    "id": "2016-01-26-043",
     "start": 1240.69,
     "end": 1318.96,
     "speaker_raw": "SPEAKER_00",
-    "testo": "Io e mio marito quando ci incontriamo per casa Io e mio marito quando ci incontriamo camminando per casa ci diamo sempre un bacio e siamo sposati da vent'anni. bravi ci siamo guardati con tristezza no io ogni tanto durante il giorno sicuramente quando esco la mattina quando vengo in casa bisogna vedere esatto il bacio da buonanotte seguire la bellissima di dormire però che tutte le volte che ci incrociamo non ci arrivo lì non ci arrivo non nei vent'anni non ci arrivo neanche no non ci arrivo devo dire che non ci arrivo nel senso che vi si gioca a volte un bacio a volte un pugno no senti che bello questo messaggio ricordati Fabio che un ragazzo apre la porta dell'auto a una donna in due casi o è nuova la ragazza o è nuova la macchina guarda che macchina che la fai vedere la macchina sentite osti c'era una roba che volevo dire è andata via così no che aveva mandato un messaggio alla ragazza per sapere se avevi visto 50 secondi Ma ecco, scusami, è arrivato un messaggio di una ragazza, non lo trovo adesso perché ne sono arrivati tanti dopo, aspetta, l'avevo già letto. Comunque, avete già parlato di 50 sfumature di grigio, credo che probabilmente stamattina la radio ne parleranno tutti perché è stato un caso.",
+    "testo": "Io e mio marito quando ci incontriamo per casa Io e mio marito quando ci incontriamo camminando per casa ci diamo sempre un bacio e siamo sposati da vent'anni bravi bravi ci siamo guardati con tristezza ci siamo guardati come no io ogni tanto durante il giorno sicuramente quando esco la mattina no vent'anni è quello bisogna vedere esatto il bacio da buonanotte seguire la bellissima di dormire però che tutte le volte che ci incrociamo non ci arrivo lì non ci arrivo non nei vent'anni non ci arrivo neanche no non ci arrivo devo dire che no non ci arrivo non ci arrivo nel senso che io ci trovo a volte un bacio a volte un pugno no senti che bello questo messaggio ricordati Fabio che un ragazzo apre la porta dell'auto a una donna in due casi o è nuova la ragazza o è nuova la macchina guarda che macchina che la fai vedere la macchina sentite osti c'era una roba che volevo dire è andata via così no che aveva mandato un messaggio alla ragazza per sapere se avevi visto 50 secondi Ma ecco, scusami, è arrivato un messaggio di una ragazza, non lo trovo adesso perché ne sono arrivati tanti dopo, aspetta, l'avevo già letto. Comunque, avete già parlato di 50 sfumature di grigio, credo che probabilmente stamattina la radio ne parleranno tutti perché è stato un caso.",
     "titolo": "Bacio di buonanotte",
     "tema": [
       "amore",
@@ -590,11 +543,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-26-048",
+    "id": "2016-01-26-044",
     "start": 1319.2,
     "end": 1324.33,
-    "speaker_raw": "SPEAKER_02",
-    "testo": "Sì, no, è stato un caso il fatto che ieri Mediaset l'abbiamo mandato in onda in prima serata.",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Sì, è stato un caso il fatto che ieri Mediaset l'abbiamo mandato in onda in prima serata.",
     "titolo": "Mediaset in onda in prima serata",
     "tema": [
       "tv",
@@ -604,7 +557,7 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-26-049",
+    "id": "2016-01-26-045",
     "start": 1324.49,
     "end": 1360.96,
     "speaker_raw": "SPEAKER_00",
@@ -612,15 +565,14 @@
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
-    "id": "2016-01-26-050",
+    "id": "2016-01-26-046",
     "start": 1363.62,
-    "end": 1378.34,
-    "speaker_raw": "SPEAKER_02",
-    "testo": "ok e a un certo punto durante l'intervista mi sono messo la pallina rossa in bocca sai quando i film erotici ball gag si chiama ball gag te l'ha insegnato lei io ho scritto i sottotitoli del tuo servizio quindi ho imparato ball gag no vabbè ragazzi no vabbè tu sai il nome ho tolto ho tolto",
+    "end": 1378.24,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "ok e a un certo punto durante l'intervista mi sono messo la pallina rossa in bocca sai quando i film erotici ball gag si chiama ball gag te l'ha insegnato lei io ho scritto i sottotitoli del tuo servizio quindi ho imparato ball gag no vabbè ragazzi no vabbè tu sai il nome ho tolto ogni",
     "titolo": "Intervista con la pallina rossa",
     "tema": [
       "intervista",
@@ -630,32 +582,29 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-26-051",
-    "start": 1380.2,
+    "id": "2016-01-26-047",
+    "start": 1378.7,
     "end": 1390.79,
     "speaker_raw": "SPEAKER_00",
-    "testo": "tu sai il nome della pallina rossa? qui sono ignorante la pallina rossa di Pulp Fiction Pulp Fiction c'è una scena come si chiama?",
+    "testo": "se tu sai il nome della pallina rossa qui sono ignorante io la pallina rossa di Pulp Fiction avrei detto Pulp Fiction c'è una scena dove come si chiama?",
     "titolo": "Pulp Fiction",
     "tema": [],
     "tipo": "riferimento_film",
-    "video_url": "",
-    "confermato_esterno": true,
-    "copertina": "https://image.tmdb.org/t/p/w200/hOpN58hkQGZph5LHhyRrryy1hzF.jpg"
+    "video_url": ""
   },
   {
-    "id": "2016-01-26-052",
+    "id": "2016-01-26-048",
     "start": 1391.49,
     "end": 1397.37,
-    "speaker_raw": "SPEAKER_02",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Ball Gag Gag, scritto gag come la gag Ball Gag e ti è piaciuto il film?",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
-    "id": "2016-01-26-053",
+    "id": "2016-01-26-049",
     "start": 1398.21,
     "end": 1400.76,
     "speaker_raw": "SPEAKER_00",
@@ -666,10 +615,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-26-054",
+    "id": "2016-01-26-050",
     "start": 1400.78,
     "end": 1412.18,
-    "speaker_raw": "SPEAKER_02",
+    "speaker_raw": "SPEAKER_04",
     "testo": "poi lo sai la mia conoscenza la mia esperienza cinematografica dal punto di vista di fruittore evidentemente è pari a uno però è sufficiente per dire che fa schifo non vi è piaciuto?",
     "titolo": "",
     "tema": [],
@@ -677,7 +626,7 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-26-055",
+    "id": "2016-01-26-051",
     "start": 1412.34,
     "end": 1451.03,
     "speaker_raw": "SPEAKER_00",
@@ -691,10 +640,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-26-056",
+    "id": "2016-01-26-052",
     "start": 1451.11,
     "end": 1452.53,
-    "speaker_raw": "SPEAKER_02",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Tanto puzzo per niente.",
     "titolo": "",
     "tema": [],
@@ -702,7 +651,7 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-26-057",
+    "id": "2016-01-26-053",
     "start": 1452.57,
     "end": 1457.38,
     "speaker_raw": "SPEAKER_00",
@@ -710,15 +659,14 @@
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
-    "id": "2016-01-26-058",
+    "id": "2016-01-26-054",
     "start": 1466.04,
     "end": 1506.3,
     "speaker_raw": "SPEAKER_01",
-    "testo": "Alice guarda i gatti e i gatti guardano nel sole Mentre il mondo sta girando senza fretta Viene al quarto piano e lì tranquilla Che si guarda nello specchio e accende un'altra sigaretta Vieni lì Marlene Bella più che mai Sorride e non ti dice la sua età Ma tutto questo Alice non lo sa",
+    "testo": "Alice guarda i gatti e i gatti guardano nel sole Mentre il mondo sta girando senza fretta Viene al quarto piano e lì tranquilla Che si guarda nello specchio E accende un'altra sigaretta Vieni lì Marlene Bella più che mai Sorride e non ti dice la sua età Ma tutto questo Alice non lo sa",
     "titolo": "Alice e la sua vita",
     "tema": [
       "amore",
@@ -728,11 +676,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-26-059",
+    "id": "2016-01-26-055",
     "start": 1511.2,
     "end": 1585.21,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "Alice guarda i gatti e i gatti muoiono nel sole mentre il sole poco a poco si avvicina e Cesare perduto nella pioggia sta aspettando da sei ore il suo amore ballerina e rimane lì a bagnarsi ancora un po' il tram di mezzanotte se ne va ma tutto questo Alice non lo sa ma io non ci sto più gli do lo sposo e poi Tutti pensarono dietro ai cappelli, lo sposo è impazzito oppure ha bevuto, ma la sposa aspetta un figlio e lui lo sa, non è così e se ne andrà.",
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Alice guarda i gatti e i gatti muoiono nel sole mentre il sole poco a poco si avvicina e Cesare perduto nella pioggia sta aspettando da sei ore il suo amore ballerina e rimane lì A bagnarsi ancora un po' Il tram di mezzanotte se ne va Ma tutto questo Alice non lo sa Ma io non ci sto più Rido lo sposo e poi Tutti pensarono dietro ai cappelli, lo sposo è impazzito oppure ha bevuto, ma la sposa aspetta un figlio e lui lo sa, non è così e se ne andrà.",
     "titolo": "Alice e i gatti nel sole",
     "tema": [
       "amore",
@@ -742,7 +690,7 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-26-060",
+    "id": "2016-01-26-056",
     "start": 1603.91,
     "end": 1654.18,
     "speaker_raw": "SPEAKER_01",
@@ -756,11 +704,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-26-061",
+    "id": "2016-01-26-057",
     "start": 1656.83,
-    "end": 1688.08,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "tutti pensarono dietro ai capelli lo sposo è impazzito oppure ha bevuto ma la sposa aspetta un figlio e lui lo sa non è così che se ne andrà che se ne andrà Che se ne andrà, che se ne andrà.",
+    "end": 1678.48,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "tutti pensarono dietro ai capelli lo sposo è impazzito oppure ha bevuto ma la sposa aspetta un figlio e lui lo sa non è così che se ne andrà che se ne andrà",
     "titolo": "Che se ne andrà",
     "tema": [
       "amore",
@@ -770,11 +718,22 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-26-062",
+    "id": "2016-01-26-058",
+    "start": 1686.67,
+    "end": 1688.08,
+    "speaker_raw": "SPEAKER_01",
+    "testo": "Che se ne andrà, che se ne andrà.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-01-26-059",
     "start": 1692.14,
     "end": 1730.65,
     "speaker_raw": "SPEAKER_00",
-    "testo": "addirittura mi schiarisco la voce in onda stamattina la prima immagine di Viola arrivando era ciao Viola e lei si stava soffiando il naso per un quarto d'ora perché io vengo da lontano e prendo freddo la mattina sentite qua un ascoltatore di Bergamo dice io ho preso il giorno libero dal lavoro perché oggi sono in giro le donne calde dopo il film di ieri 50 sfumature di grigio un altro dice sono più erotici i film di Alvaro Vitali che il film di ieri Un'altra ascoltatrice, ha ha ha ha, dice mi sono svegliata con in testa la canzone che avete messo ieri, sai il mio progetto di dedica e richiesta, no?",
+    "testo": "addirittura mi schiarisco la voce in onda stamattina anche se la prima immagine di Viola arrivando era ciao Viola e lei si stava soffiando il naso per un quarto d'ora perché io vengo da lontano e prendo freddo la mattina sentite qua un ascoltatore di Bergamo dice io ho preso il giorno libero dal lavoro perché oggi sono in giro le donne calde dopo il film di ieri 50 sfumature di grigio un altro dice sono più erotici i film di Alvaro Vitali che il film di ieri Un'altra ascoltatrice, ha ha ha ha, dice mi sono svegliata con in testa la canzone che avete messo ieri, sai il mio progetto di dedica e richiesta, no?",
     "titolo": "Ascoltatori in giro",
     "tema": [
       "sessualità",
@@ -784,10 +743,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-26-063",
+    "id": "2016-01-26-060",
     "start": 1730.69,
     "end": 1732.45,
-    "speaker_raw": "SPEAKER_02",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Mi dispiace, che attecchisce.",
     "titolo": "",
     "tema": [],
@@ -795,7 +754,7 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-26-064",
+    "id": "2016-01-26-061",
     "start": 1732.49,
     "end": 1740.1,
     "speaker_raw": "SPEAKER_00",
@@ -803,14 +762,13 @@
     "titolo": "500 Miles",
     "tema": [],
     "tipo": "riferimento_musica",
-    "video_url": "",
-    "confermato_esterno": false
+    "video_url": ""
   },
   {
-    "id": "2016-01-26-065",
+    "id": "2016-01-26-062",
     "start": 1740.16,
     "end": 1743.68,
-    "speaker_raw": "SPEAKER_02",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Ah sì, beh quella è facile, ti resta in testa per forza.",
     "titolo": "",
     "tema": [],
@@ -818,11 +776,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-26-066",
+    "id": "2016-01-26-063",
     "start": 1743.86,
     "end": 1833.91,
     "speaker_raw": "SPEAKER_00",
-    "testo": "Io dico una cosa ragazzi, la mia idea di dedica e richiesta... E poi dopo chiudiamo il discorso, non è che mi chiami tu, mi telefoni, mi dici ciao voglio dedicare Giovanotti al mio fidanzato, no, mi parli un po' del tuo fidanzato, come quando vai dal dottore e dici i sintomi, e io ti dico che cosa piace al tuo fidanzato, allora forse gli può piacere questa canzone, la propongo io la canzone, o gli altri ascoltatori che dicono... capito? che c'è gente che ci ascolta che ha cultura musicale molto più alta della nostra quindi noi non siamo in cattedra è una social condivision 2.0 rock cosa hai appena detto? 2.0 rock sono giovane allora possiamo dire una cosa importante oggi ricordiamo Paul Newman che Paul Newman è un uomo fighissimo a parte bello, bravo e poi ha fatto queste salse in America con la faccia di Paul Newman c'è un Rolex che si chiama Paul Newman ma lui queste salse le ha date in beneficenza è un uomo fantastico, un uomo che disse anche la famosa frase ma lei è uno degli uomini più belli e desiderati del mondo però come mai è sposato? lui diceva perché dovrei andare in giro a mangiare degli hamburger quando a casa ho l'ambistecca migliore del mondo fece questo paragone con la carne e con la donna però insomma la disse anche un po' meglio di come l'ho detta io Adesso mettiamo un pezzo dello spaccone, ma perché è bella la frase, la dovete godere tutta così, e poi una bella canzone, e poi se volete dedica richiesta, non illudere.",
+    "testo": "Io dico una cosa ragazzi, la mia idea di dedica e richiesta... E poi dopo chiudiamo il discorso, non è che mi chiami tu, mi telefoni, mi dici ciao voglio dedicare Giovanotti al mio fidanzato, no, mi parli un po' del tuo fidanzato, come quando vai dal dottore e dici i sintomi, e io ti dico che cosa piace al tuo fidanzato, allora forse gli può piacere questa canzone, la propongo io la canzone, o gli altri ascoltatori che dicono... capito? che c'è gente che ci ascolta che ha cultura musicale molto più alta della nostra quindi noi non siamo in cattedra è una social condivision 2.0 rock cosa hai appena detto? 2.0 rock sono giovane allora possiamo dire una cosa importante oggi ricordiamo Paul Newman che Paul Newman è un uomo fighissimo a parte bello, bravo e poi ha fatto queste salse in America con la faccia di Paul Newman c'è un Rolex che si chiama Paul Newman ma lui queste salse le ha date in beneficenza è un uomo fantastico, un uomo che disse anche la famosa frase ma lei è uno degli uomini più belli e desiderati del mondo però come mai è sposato? lui dice ma perché dovrei andare in giro a mangiare degli hamburger quando a casa ho l'ambistecca migliore del mondo fece questo paragone con la carne e con la donna però insomma la disse anche un po' meglio di come l'ho detta io Adesso mettiamo un pezzo dello spaccone, ma perché è bella la frase, la dovete godere tutta così, e poi una bella canzone, e poi se volete dedica richiesta, non illudere.",
     "titolo": "La dedica della canzone",
     "tema": [
       "musica",
@@ -832,10 +790,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-26-067",
+    "id": "2016-01-26-064",
     "start": 1833.95,
     "end": 1879.52,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Ma dovevo farglielo vedere, a quei cialtroni, a quei delinquenti, com'è una partita quando è giocata, quando è bella davvero, come può essere bella qualunque cosa, qualunque cosa può essere bella, qualunque cosa può essere bella. Nessuna esclusa, spaccar pietre può essere bello se è ben fatto, quando sai quello che fai e perché e viene come vuoi tu. E quando succede a me è una cosa fantastica, mi sento come può sentirsi un fantino sul suo cavallo con quella carica di energia stretta fra le ginocchia. Entra sull'addirittura, lo stringono tutti e lui sa, lo sente, lo sente, lo sente. Quando lasciarlo andare è quanto? Ragazzi, è una cosa fantastica. È qualcosa di grande quando sei bravo e lo sai che sei bravo.",
     "titolo": "La bellezza è soggettiva",
     "tema": [
@@ -846,11 +804,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-26-068",
-    "start": 1901.98,
+    "id": "2016-01-26-065",
+    "start": 1901.62,
     "end": 2020.44,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "a presto Ciao! If you come along with us, the doors are never ending. If you want to rule the world, you've got to stop pretending. If you want to rule the world, you've got to stop pretending. You see, we've got a rough around.",
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Ciao Ciao Ciao Ciao! If you come along with us, the doors are never ending. If you wanna rule the world, you've got to stop pretending. If you wanna rule the world, you've got to stop pretending. You see, we've got a rough around.",
     "titolo": "Regole per il successo",
     "tema": [
       "successo",
@@ -860,34 +818,55 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-26-069",
+    "id": "2016-01-26-066",
     "start": 2039.31,
-    "end": 2264.76,
+    "end": 2119.07,
     "speaker_raw": "SPEAKER_00",
-    "testo": "lo so ragazzi siamo musicalmente i più bravi c'è niente da fare dobbiamo dircelo ogni tanto ma non te lo dici mai allora devo dire ragazze che allora arrivano vi do il polso del paese vi do il polso del paese c'è la condizione molte donne scrivono l'ho visto è bello lui molte dicono è bello lui comunque con lui va bene però è neanche tanto comunque qualcuno fa sangue altre donne che dicono ma sì neanche io come dice Viola non l'ho trovato particolarmente ma i messaggi degli uomini più divertenti sono quelli fantastici che è il pensiero che abbiamo fatto un po' tutti cioè fate tutte no ti tiro fuori però insomma le donne fanno tutte quelle 50 sfumature le fruste così poi dici una donna a letto gli chiedi fa una roba appena sopra la regola ma scusami hai rotto i maroni con la trilogia 200 pagine a libro 600 pagine ma tu amore non sei così le battute magari ci sono i bambini la più bella è quella che gira su twitter facebook fanno tutte le ganasse così su 50 sfumature poi sei a letto e gli dici girati e lei perché chi c'è? è fantastica amore chi c'è è entrato qualcuno guarda che è stupendo capito ma perché deve restare nell'immaginazione non lo devo fare io guarda molte donne dicono sempre questa frase io ho una fantasia e magari un giorno un uomo in una confidenza bevendo il vino sai delle fantasie quando entri in confidenza e ti dice lo so trisa ma adesso dico delle robe a caso magari con una donna una roba così legata poi dici allora magari no ma a me piace che sia una fantasia che resti lì Ma scusa, secondo me è anche molto giudizio perché la donna a differenza dell'uomo ogni volta che fa qualcosa ha sempre anche la sensazione che poi quell'uomo lo dica ad altri uomini e poi alla cena dopo tu dici gliel'avrà detto gliel'avrà detto che mi piace che resti una volta sì no perché se tu fai una roba erotica pesante poi hai la paranoia alla tavola mentre tagli la pizza e vedi gli altri uomini che ti guardano in grifo e dico scusa ma gliel'ha detto quello che ho fatto con la bottiglia delle robe strane va bene ieri sentite questo fa fantastico ieri camminavo Ieri camminando per il mio paese, io ragazzi non posso più vivere senza questo programma, mi fate così ridere. Ieri camminando per il mio paese ho notato in lontananza di schiena una bella sagoma femminile con minigonna ai tacchi. Allungo il passo per scrutarla meglio da uomo in cerca di carne. Quando di colpo si gira e scopro che era il calzolaio del mio paese. che ama vestirsi quotidianamente da donna e mantenere un bel fisico anche se è sposato con figli vedi però ma perché il calzolaio si veste da donna anche se è sposato con figli non è sintomo di essere omosessuale e comunque vabbè a lungo il passo vedo che il calzolaio che si veste da donna e poi in maiuscolo non ha dormito tutta la notte nel letto così mi piace il calzolaio mi piace il calzolaio comunque ha visto la sagoma da lontano e ha allungato il passo è lui quello che ha dei problemi gli uomini lo fanno così sai che si dice anche dietro tenta davanti spaventa che quando si gira era meglio se non l'ha se non l'ha avessi guardata giusto va bene allora fra poco dedica richiesta ragazzi sono già arrivati che bugie ci vuole fantastico",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": "",
-    "autore": ""
-  },
-  {
-    "id": "2016-01-26-070",
-    "start": 2269.18,
-    "end": 2412.28,
-    "speaker_raw": "SPEAKER_08",
-    "testo": "Ciao! Ciao! a presto Ciao!",
+    "testo": "lo so ragazzi siamo musicalmente i più bravi c'è niente da fare dobbiamo dircelo ogni tanto ma non te lo dici mai allora devo dire ragazze che allora arrivano vi do il polso del paese vi do il polso del paese c'è la condizione molte donne scrivono l'ho visto è bello lui molte dicono è bello lui cioè comunque con lui va bene però è neanche tanto comunque qualcuno fa sangue altre donne che dicono ma sì anch'io come dice Viola non l'ho trovato particolarmente ma i messaggi degli uomini più divertenti sono quelli fantastici che è il pensiero che abbiamo fatto un po' tutti cioè fate tutte no ti tiro fuori però insomma le donne fanno tutte quelle 50 sfumature le fruste così poi dici una donna a letto gli chiedi fa una roba appena sopra la regola ma scusami hai rotto i maroni con la trilogia 200 pagine a libro 600 pagine ma tu amore non sei così adesso io le battute magari ci sono i bambini la più bella è quella che gira su twitter facebook fanno tutte le ganasse così su 50 sfumature poi sei a letto e gli dici girati e lei perché chi c'è? è fantastica amore, chi c'è? è entrato qualcuno?",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-01-26-071",
-    "start": 2428.61,
-    "end": 2629.98,
+    "id": "2016-01-26-067",
+    "start": 2119.09,
+    "end": 2124.76,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "guarda che è stupendo ma perché deve restare nell'immaginazione non lo devo fare io",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-01-26-068",
+    "start": 2126.26,
+    "end": 2264.76,
     "speaker_raw": "SPEAKER_00",
-    "testo": "Grande tiro questa canzone, ciao ragazzi, voi lo so che avete da fare, io adesso devo uscire a fare una corsetta che il programma sta finendo, volevo solo dire che però domani mattina quando torniamo, cioè lei dalla corsetta e noi al volo del mattino, vorrei approfondire questo discorso del calzolaio che si veste da donna. il ragazzo che ci ha scritto il nome e ci ha scritto Brescia però qualcuno che ci ha ascoltato lì ha detto esattamente è il calzolaio di Gussago che è un paesino no aspetta perché posso dire una cosa io vorrei parlare col calzolaio di Gussago che si veste da donna perché è sposato con figli attenzione perché non vogliamo fare l'errore sbagliato non è travestito nel senso che è l'uomo che vorrebbe essere donna non fa l'operazione no si chiama crossdressing cioè sono uomini che amano vestiti guarda per esempio mi viene in mente gli Africa Unite per esempio gli Africa Unite lui andava al liceo con la gonna ma non è una questione per esempio ci sono delle gonne che io me le metterei fuori in tv però quello non è cross-dressing no sto scherzando però comunque il mio pensiero è quello il mio primo pensiero è stato questo sono molto sincero il mio pensiero è stato pensa i figli che vanno a scuola e c'è il papà e poi ho pensato pensa lui quanto è figo che se ne sbatte le palle e dice raga a me mi piace mettermi là che non vuol dire niente non è legato alla sessualità ma ha un gusto suo lo troveremo prima o poi perché calzolare e gussare quanti ce ne saranno domani magari lo troviamo se ha voglia ci spiega perché secondo me lui è un figo pazzesco posso dire questa cosa a meno che l'incontro io apprezzo chi se ne sbatte del giudizio degli altri che ha quella forza lì detto questo siamo arrivati a una bella canzone che le abbiamo messe tutte belle stamattina ho portato la mia da dedica richiesta per chi? non so, agli ascoltatori parto dalla canzone finché non entrano al meccanismo finché non convinco Linus a fare che mi dia un programma di dedica richieste ok, questa è una demo attenzione, abbiamo un ragazzo che lavora per lui ragazza ragazzo o ragazza? chiuso ah, Samuela samuele lavora per lui forse la troviamo perché anche questo io avevo letto ragazzo perché ho detto ha sbagliato a scrivere il nome sarà samuele ha buttato giudici no no no no ma figurati ma non è un figo pazzesco calzolaio furbacchione che fa i tacchi di cartone la signora non si bada per dei tacchi per la strada quando giocavi con la palla contro il muro da bambino mai sentito no alla pallina no no no 10 fratelli tutti i gemelli meno uno di nome Bruno ma che bella infanzia che hai avuto non giocavate a queste cose per strada ma non con le canzoni 10 calzolaio furbacchione che fai i tacchi devi toccare il tacco ma non mi guardare in quella parte allora era palla contro il muro calzo l'aio butti la palla contro il muro furbacchione con una mano fai il dito sulla tempia per far furbacchione che fai tacchi e tocchi il tacco così di cartone la signora fai un inchino non ci bada per dei tacchi per la strada la palla rimbalza per terra niente, niente comunque questa l'ho portata per voi ragazzi Shazamato scrivetela, Fade Into You un pezzo della Madonna di Mazzi Star la sua versione stupenda questo è il volo del mattino, vi vogliamo bene dal... stavo dicendo dal bucio da dentro grazie",
+    "testo": "guarda molte donne dicono sempre questa frase io ho una fantasia e magari un giorno un uomo in una confidenza bevendo il vino sai delle fantasie quando entri in confidenza e ti dice lo so trisa ma adesso dico delle robe a caso magari con una donna una roba così legata poi dici allora magari no ma a me piace che sia una fantasia che resti lì Ma scusa, secondo me è anche molto giudizio perché la donna a differenza dell'uomo ogni volta che fa qualcosa ha sempre anche la sensazione che poi quell'uomo lo dica ad altri uomini e poi alla cena dopo tu dici gliel'avrà detto che gliel'avrà detto che mi piace che resti una volta sì no perché se tu fai una roba erotica pesante poi hai la paranoia alla tavola mentre tagli la pizza e vedi gli altri uomini che ti guardano in grifo e dico scusa ma gliel'ha detto quello che ho fatto con la bottiglia delle robe strane va bene ieri sentite questo fa fantastico ieri il cammino Ieri camminando per il mio paese, io ragazzi non posso più vivere senza questo programma, mi fate così ridere. Ieri camminando per il mio paese ho notato in lontananza di schiena una bella sagoma femminile con minigonna ai tacchi. Allungo il passo per scrutarla meglio da uomo in cerca di carne. Quando di colpo si gira e scopro che era il calzolaio del mio paese. che ama vestirsi quotidianamente da donna e mantenere un bel fisico anche se è sposato con figli vedi però ma perché il calzolaio si veste da donna anche se è sposato con figli non è sintomo di essere omosessuale e comunque vabbè a lungo passo vedo che il calzolaio che si veste da donna e poi in maiuscolo non ha dormito tutta la notte nel letto così mi piace il calzolaio mi piace il calzolaio comunque ha visto la sagoma da lontano e ha allungato il passo è lui quello che ha dei problemi gli uomini lo fanno così sai che si dice anche dietro tenta davanti spaventa che quando si gira era meglio se non l'ha se non l'ha avessi guardata giusto va bene allora fra poco dedica richiesta ragazzi sono già arrivati che bugie ci vuole fantastico",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-01-26-069",
+    "start": 2268.93,
+    "end": 2412.28,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "ciao ciao Ciao! Ciao! Ciao!",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-01-26-070",
+    "start": 2428.61,
+    "end": 2637.12,
+    "speaker_raw": "SPEAKER_00",
+    "testo": "Grande tiro questa canzone, ciao ragazzi, voi lo so che avete da fare, io adesso devo uscire a fare una corsetta che il programma sta finendo, volevo solo dire che però domani mattina quando torniamo, cioè lei dalla corsetta e noi al volo del mattino vorrei approfondire questo discorso del calzolaio che si veste da donna. Ok. il ragazzo che ci ha scritto il nome e ci ha scritto Brescia però qualcuno che ci ascolta da lì ha detto esattamente è il calzolaio di Gussago che è un paesino no aspetta perché posso dire una cosa io vorrei parlare col calzolaio di Gussago che si veste da donna perché è sposato con figli attenzione perché non vogliamo fare l'errore sbagliato non è travestito nel senso che è l'uomo che vorrebbe essere donna non fa l'operazione no Crossdressing Cioè sono uomini che amano Per esempio Mi viene in mente Gli Africa Unite Per esempio Lui Lui andava al liceo con la gonna ma non è una questione per esempio ci sono delle gonne che io me le metterei fuori in tv però quello non è cross-dressing no sto scherzando però comunque il mio pensiero è stato questo sono molto sincero il mio pensiero è stato pensa i figli che vanno a scuola e poi ho pensato pensa lui quanto è figo che se ne sbatte le palle e dice raga a me mi piace mettermi là che non vuol dire niente non è legato alla sessualità ma ha un gusto suo lo troveremo prima o poi perché calzolare e gussare quanti ce ne saranno domani magari lo troviamo se ha voglia ci spiega perché secondo me lui è un figo pazzesco posso dire questa cosa a meno che l'incontro io apprezzo chi se ne sbatte del giudizio degli altri che ha quella forza lì detto questo siamo arrivati a una bella canzone che le abbiamo messe tutte belle stamattina ho portato la mia da dedica richiesta per chi? non so, agli ascoltatori parto dalla canzone finché non entrano al meccanismo finché non convinco Linus a fare che mi dia un programma di dedica richieste ok, questa è una demo attenzione, abbiamo un ragazzo che lavora per lui ragazza ragazzo o ragazza? chiuso ah, Samuela samuela lavora per lui forse la troviamo perché anche questo io avevo letto ragazzo perché ha sbagliato a scrivere il nome sarà samuele ha buttato giudici no no no no ma figurati ma non è un figo pazzesco calzolaio furbacchione che fa i tacchi di cartone la signora non si bada per dei tacchi per la strada quando giocavi con la palla contro il muro da bambino mai sentito no alla pallina no no 10 fratelli tutti i gemelli meno uno di nome Bruno ma che bella infanzia che hai avuto non giocavate a queste cose per strada ma non con le canzoni 10 calzolaio furbacchione che fai i tacchi devi toccare il tacco ma non mi guardare in quella parte allora era palla contro il muro calzo l'aio butti la palla contro il muro furbacchione con una mano fai il dito sulla tempia per far furbacchione che fai tacchi e tocchi il tacco così di cartone la signora fai un inchino non ci bada per dei tacchi per la strada la palla rimbalza per terra niente comunque questa l'ho portata per voi ragazzi Shazamato scrivetela Fade Into You un pezzo della Madonna di Mazzi Star la sua versione stupenda questo è il volo del mattino vi vogliamo bene dal... stavo dicendo dal bucio cioè da dentro grazie tieni",
     "titolo": "Il calzolaio che si veste da donna",
     "tema": [
       "identità",
@@ -897,51 +876,18 @@
     "video_url": ""
   },
   {
-    "id": "2016-01-26-072",
+    "id": "2016-01-26-071",
     "start": 2643.5,
-    "end": 2644.08,
-    "speaker_raw": "SPEAKER_10",
-    "testo": "ciao ciao ciao",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-01-26-073",
-    "start": 2670.94,
-    "end": 2671.42,
-    "speaker_raw": "SPEAKER_08",
-    "testo": "Grazie a tutti.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-01-26-074",
-    "start": 2698.45,
-    "end": 2735.47,
-    "speaker_raw": "SPEAKER_10",
-    "testo": "Ciao! Grazie a tutti.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-01-26-075",
-    "start": 2780.91,
     "end": 2781.25,
-    "speaker_raw": "SPEAKER_08",
-    "testo": "Grazie a tutti.",
+    "speaker_raw": "SPEAKER_02",
+    "testo": "ciao ciao ciao Sì. Ciao! Grazie a tutti. Grazie a tutti.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-01-26-076",
+    "id": "2016-01-26-072",
     "start": 2804.86,
     "end": 2832.32,
     "speaker_raw": "SPEAKER_00",
@@ -949,7 +895,6 @@
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   }
 ]

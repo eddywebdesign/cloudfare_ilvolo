@@ -3,8 +3,8 @@
     "id": "2016-02-01-000",
     "start": 4.51,
     "end": 11.0,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "Radio DJ, one nation, one station. One love, one life.",
+    "speaker_raw": "SPEAKER_01",
+    "testo": "Radio DJ. One nation, one station. One love, one life.",
     "titolo": "One love, one life",
     "tema": [
       "amore",
@@ -16,9 +16,9 @@
   {
     "id": "2016-02-01-001",
     "start": 11.02,
-    "end": 48.79,
+    "end": 104.82,
     "speaker_raw": "SPEAKER_00",
-    "testo": "My nights are broken up by the sounds of women I'll never meet. And when my eyes are closed I can start to feel you staring. The right side of my bed has always left me feeling stuck in between Everything I know and all the lies I tell myself so I can sleep",
+    "testo": "My nights are broken up by the sounds of women I'll never meet. And when my eyes are closed I can start to feel you staring. The right side of my bed has always left me feeling stuck in between Everything I know and all the lies I tell myself so I can sleep You came around to say that you'd been away like I hadn't known As if I don't wake up every single day not seeing you go As if this moon of ours only shines a half to make me feel whole",
     "titolo": "The right side of my bed",
     "tema": [
       "solitudine",
@@ -29,24 +29,21 @@
   },
   {
     "id": "2016-02-01-002",
-    "start": 78.22,
-    "end": 126.66,
-    "speaker_raw": "SPEAKER_18",
-    "testo": "You came around to say that you'd been away like I hadn't known As if I don't wake up every single day not seeing you go As if this moon of ours only shines a half to make me feel whole As if I haven't felt your breath in every step I take when the wind blows Take apart the pieces you left and don't you worry about it Don't you worry about it Try and give yourself some rest and let it",
-    "titolo": "Amore e assenza",
-    "tema": [
-      "amore",
-      "assenza"
-    ],
-    "tipo": "citazione",
+    "start": 109.67,
+    "end": 140.62,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "as if I haven't felt your breath in every step I take when the wind blows pick apart the pieces you left and don't you worry about it don't you worry about it try and give yourself some rest and let it Ciao!",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
     "id": "2016-02-01-003",
-    "start": 140.51,
-    "end": 140.62,
-    "speaker_raw": "SPEAKER_20",
-    "testo": "Ciao!",
+    "start": 165.46,
+    "end": 186.95,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Buongiorno a tutti. Ridi, ridi. Volevo dire che ogni ora, ogni due ore c'è un programma diverso Radio DJ, tendenzialmente ogni due ore, un'ora e mezzo, ma sono pochi i programmi di un'ora perché anche sono difficili da, come dire, da sviluppare, no? Perché c'è poco tempo per delle cose e troppo tempo per altre. Sentite la mia voce che è fantastica.",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -54,21 +51,9 @@
   },
   {
     "id": "2016-02-01-004",
-    "start": 165.46,
-    "end": 186.95,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "Buongiorno a tutti. Ridi, ridi. Volevo dire che ogni ora, ogni due ore c'è un programma diverso Radio DJ, tendenzialmente ogni due ore, un'ora e mezzo, ma sono pochi i programmi di un'ora perché anche sono difficili da, come dire, da sviluppare, no? Perché c'è poco tempo per delle cose e troppo tempo per altre. Sentite la mia voce che è fantastica.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": "",
-    "autore": ""
-  },
-  {
-    "id": "2016-02-01-005",
     "start": 186.99,
     "end": 187.43,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_04",
     "testo": "No, oggi sei Galeazzi.",
     "titolo": "",
     "tema": [],
@@ -76,11 +61,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-01-006",
+    "id": "2016-02-01-005",
     "start": 187.75,
     "end": 242.91,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "no aspetta però ogni programma che va in onda diciamo intercetta un numero infinito di persone e ogni persona ha un carattere diverso ha una giornata diversa un modo diverso di svegliarsi quindi bisogna intercettare come si dice nelle grandi aziende dobbiamo intercettare quel pubblico ok ecco questa mattina al volo del mattino noi intercettiamo quelli che vanno piano infatti cioè io ho sentito gli ultimi minuti del trio loro hanno intercettato quelli che sono già a bomba e va ecco noi gli altri quelli che oggi dobbiamo fare così per forza perché non capite dalla voce dalla voce e dal pigiama non è un pigiama è una tuta è un po' pigiamato anche lunedì scorso sono venuto in tuta infatti è un nuovo trend questo sì perché finisco troppo tardi con le iene quindi fai la mattina mi metto questa per far colazione e alla fine poi capito perché non c'ho la doccia mi metto la tuta faccio colazione poi mi spoglio invece con tempo camicia camicia",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "no aspetta però ogni programma che va in onda diciamo intercetta un numero infinito di persone e ogni persona ha un carattere diverso ha una giornata diversa un modo diverso di svegliarsi quindi bisogna intercettare come si dice nelle grandi aziende dobbiamo intercettare quel pubblico ok ecco questa mattina al volo del mattino noi intercettiamo quelli che vanno piano infatti cioè io ho sentito gli ultimi minuti del trio loro hanno intercettato quelli che sono già a bomba wow ecco noi gli altri quelli che oggi dobbiamo fare così per forza perché ho capito dalla voce dalla voce e dal pigiama non è un pigiama è una tuta è un po' pigiamato anche lunedì scorso sono venuto in tuta infatti è un nuovo trend questo sì perché finisco troppo tardi con le iene quindi fai la mattina mi metto questa per far colazione e alla fine poi capito perché non c'ho mai di fare c'ho la doccia mi metto la tuta faccio colazione poi mi spoglio invece con tempo camicia camicia",
     "titolo": "Interceptare il pubblico",
     "tema": [
       "comunicazione",
@@ -90,10 +75,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-01-007",
+    "id": "2016-02-01-006",
     "start": 243.19,
     "end": 244.49,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_04",
     "testo": "No, non fa niente.",
     "titolo": "",
     "tema": [],
@@ -101,11 +86,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-01-008",
+    "id": "2016-02-01-007",
     "start": 244.55,
-    "end": 304.78,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "Allora, vi spiego. Ho fatto due puntate di ieri, domenica scorsa e ieri, tutte e due con l'influenza. Ieri a un certo punto a metà avevo la febbre, per dire, no? Ok. Sono tornato a casa, abbiamo finito tardi. Sono tornato a casa, era quasi l'una. Quindi mi sono addormentato verso le due. Alle cinque, Sebastiano ha cominciato a tossire in faccia e mi ha svegliato. Quindi ho tornato a dormire alle due, influenzato, e mi sono svegliato. Dovrei spiegare che una volta un mio amico con un rutto ha quasi ucciso un asino. perché se uno ti rutta o ti fa la tosse forte nell'orecchio ti può spaccare un timpano e quindi insomma ho dormito due ore influenzato sono influenzato da giorni perché non riesco a recuperare ma infatti stai là ma ti stai lamentando no no ma che si matta io non mi sto lamentando sto spiegando la mia condizione quindi vi chiedo scusa non riesco a gridare questa mattina vorrei sentire solo notizie belle da voi io nel frattempo ho scelto della bella musica in modo che quelli che non lavorano stamattina i soliti parrucchieri negoziani e quelli che senti lì",
+    "end": 311.42,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Allora, vi spiego. Ho fatto due puntate di ieri, domenica scorsa e ieri, tutte e due con l'influenza. Ieri a un certo punto a metà avevo la febbre, per dire, no? Ok. Sono tornato a casa, abbiamo finito tardi. Sono tornato a casa, era quasi l'una. Quindi mi sono addormentato verso le due. Alle cinque, Sebastiano ha cominciato a tossire in faccia e mi ha svegliato. Quindi ho tornato a dormire alle due, influenzato, e mi sono svegliato. Dovrei spiegare che una volta un mio amico con un rutto ha quasi ucciso un asino. perché se uno ti rutta o ti fa la tosse forte nell'orecchio ti può spaccare un timpano e quindi insomma ho dormito due ore influenzato sono influenzato da giorni perché non riesco a recuperare ma infatti stai là ma ti stai lamentando no no ma che si matta io non mi sto lamentando sto spiegando la mia condizione quindi vi chiedo scusa non riesco a gridare questa mattina vorrei sentire solo notizie belle da voi io nel frattempo ho scelto della bella musica in modo che quelli che non lavorano stamattina i soliti parrucchieri negoziani e quelli che senti lì Nel live, senti qua.",
     "titolo": "Influenza e famiglia",
     "tema": [
       "famiglia",
@@ -115,11 +100,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-01-009",
-    "start": 311.02,
+    "id": "2016-02-01-008",
+    "start": 321.24,
     "end": 351.5,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "Nel live, senti qua. Good morning life, good morning world, sing out, you're happy too, feel so good cause I'll be seeing her soon. Last night she said she loved me, what a pity to part, I slept with both eyes open, waiting for today to start. Good morning life, good morning world, how are you, happiness, not once I knew what living can be. Sì!",
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Good morning life, good morning world, sing out, you're happy too, feel so good cause I'll be seeing her soon. Last night she said she loved me, what a pity to part, I slept with both eyes open, waiting for today to start. Good morning life, good morning world, how are you, happiness, but once I knew what living can be. Sì!",
     "titolo": "Buongiorno vita",
     "tema": [
       "amore",
@@ -129,10 +114,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-01-010",
+    "id": "2016-02-01-009",
     "start": 365.21,
     "end": 372.1,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Mi chiamo Vittorio da Firenze e vorrei sapere una cosa. Mi spiegate perché la vostra sigla a metà cambia tonalità.",
     "titolo": "",
     "tema": [],
@@ -140,10 +125,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-01-011",
+    "id": "2016-02-01-010",
     "start": 372.13,
     "end": 372.42,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Vero?",
     "titolo": "",
     "tema": [],
@@ -151,10 +136,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-01-012",
+    "id": "2016-02-01-011",
     "start": 372.69,
     "end": 375.82,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Maurizio, perché era molto lunga, l'abbiamo accorciata.",
     "titolo": "",
     "tema": [],
@@ -162,10 +147,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-01-013",
+    "id": "2016-02-01-012",
     "start": 375.88,
     "end": 377.58,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Te lo sei inventato questo messaggio, vero?",
     "titolo": "",
     "tema": [],
@@ -173,23 +158,33 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-01-014",
+    "id": "2016-02-01-013",
     "start": 377.78,
-    "end": 383.04,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "No, Vittorio. No, ormai non ti crediamo più. Ma mi spieghi perché la sigla inizia...",
+    "end": 379.44,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "No, Vittorio.",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
+  },
+  {
+    "id": "2016-02-01-014",
+    "start": 379.48,
+    "end": 380.78,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "No, ormai non ti crediamo più.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
   },
   {
     "id": "2016-02-01-015",
-    "start": 383.06,
-    "end": 384.08,
-    "speaker_raw": "SPEAKER_10",
-    "testo": "Aspetta, vengo lì a vedere.",
+    "start": 380.88,
+    "end": 383.04,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "No, come no? Ma mi spieghi perché la sigla inizia...",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -197,10 +192,21 @@
   },
   {
     "id": "2016-02-01-016",
+    "start": 383.06,
+    "end": 384.08,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Aspetta, vengo lì a vedere.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-02-01-017",
     "start": 384.1,
     "end": 422.6,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "Vieni a vedere. Ma guarda che sei un personaggio, vieni. Guarda. ma mi spiegate perché la sigla iniziale è il volo del mattino a metà cambiato la vita è vero ma adesso lo chiamiamo sto Vittorio mi chiami sto Vittorio da Firenze va bene è troppo lunga l'avevo notato anch'io perché era lunga e l'abbiamo editata l'abbiamo editata vi mandava i video quest'estate su whatsapp quel pezzettino di canzone perché Maurizio l'ha presa è andato in studio ha fatto il remix capito mica roba mica banale Vittorio Aspetta, Vittorio! Vittorio? Vittorio? Pronto? Ehi Vittorio da Firenze, ma sei musicista?",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Vieni a vedere. Ma guarda che sei un personaggio, vieni. Guarda. ma mi spiegate perché la sigla iniziale è il volo del mattino a metà cambiato la vita è vero ma adesso lo chiamiamo sto Vittorio mi chiami sto Vittorio da Firenze va bene era troppo lunga l'avevo notato anch'io perché era lunga e l'abbiamo editata l'abbiamo editata vi mandava i video quest'estate su whatsapp quel pezzettino di canzone perché Maurizio l'ha presa è andato in studio ha fatto il remix capito mica roba mica banale Vittorio Aspetta, Vittorio? Vittorio? Vittorio? Pronto? Ehi Vittorio da Firenze, ma sei musicista?",
     "titolo": "La sigla del programma",
     "tema": [
       "programma",
@@ -210,22 +216,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-01-017",
+    "id": "2016-02-01-018",
     "start": 422.68,
     "end": 423.52,
-    "speaker_raw": "SPEAKER_15",
-    "testo": "Eh no, buongiorno!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-01-018",
-    "start": 423.56,
-    "end": 424.6,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "Ma sei musicista?",
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Eh no, buongiorno.",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -233,9 +228,20 @@
   },
   {
     "id": "2016-02-01-019",
+    "start": 423.56,
+    "end": 424.6,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Ma sei musicista?",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-02-01-020",
     "start": 425.06,
     "end": 430.66,
-    "speaker_raw": "SPEAKER_15",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Sì, no vabbè, suonavo il pianoforte quando ero ancora abbastanza piccolo.",
     "titolo": "suonavo il pianoforte",
     "tema": [
@@ -246,10 +252,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-01-020",
+    "id": "2016-02-01-021",
     "start": 430.68,
     "end": 433.56,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Ma ce l'hai a casa una tastiera, un pianoforte, qualcosa?",
     "titolo": "",
     "tema": [],
@@ -257,23 +263,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-01-021",
+    "id": "2016-02-01-022",
     "start": 433.58,
     "end": 438.92,
-    "speaker_raw": "SPEAKER_15",
-    "testo": "Sì, sì, ho un verticale su Zeppolman, ma insomma, molto antico come...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": "",
-    "autore": ""
-  },
-  {
-    "id": "2016-02-01-022",
-    "start": 441.45,
-    "end": 444.68,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "beh insomma bello però c'è i bassi belli forti no?",
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Sì, sì, sì, ho un verticale su Zeppolman, ma insomma, molto antico come...",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -281,9 +275,20 @@
   },
   {
     "id": "2016-02-01-023",
+    "start": 441.45,
+    "end": 444.68,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "beh insomma bello però c'è i bassi belli forti no?",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-02-01-024",
     "start": 445.06,
     "end": 459.92,
-    "speaker_raw": "SPEAKER_15",
+    "speaker_raw": "SPEAKER_03",
     "testo": "si si si oh ragazzi ma io so tutto è impressionante no scusami Vittorio e chiedi pure a Maurizio che è qui no ma era così una curiosità mi ascolto la mattina quando sono in auto ovviamente perché poi metto un problema però non so perché",
     "titolo": "Ascoltare musica in auto",
     "tema": [
@@ -294,22 +299,21 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-01-024",
+    "id": "2016-02-01-025",
     "start": 464.1,
     "end": 483.63,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Allora, io sono un grande fan di Frank Zappa e quindi ho voluto una sigla che avesse anche dei cambi di tonalità e di melodia forti, un po' così anche sperimentali. No, in realtà la canzone la cambiava la tonalità, ma era molto lunga, noi lo dovevamo fare corta, per cui si è inventato quella curva lì.",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
-    "id": "2016-02-01-025",
+    "id": "2016-02-01-026",
     "start": 483.69,
     "end": 487.01,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Ma io pensavo fosse un vezzo.",
     "titolo": "pensavo fosse un vezzo",
     "tema": [
@@ -319,10 +323,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-01-026",
+    "id": "2016-02-01-027",
     "start": 487.05,
     "end": 492.39,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Sì, male, male. male male dove stai andando Vittorio?",
     "titolo": "",
     "tema": [],
@@ -330,11 +334,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-01-027",
+    "id": "2016-02-01-028",
     "start": 493.13,
     "end": 544.37,
-    "speaker_raw": "SPEAKER_15",
-    "testo": "sto andando a visitare un cliente giù a Montevarchi insomma in Toscana bello cosa gli devi vendere? no niente l'ho già venduto nel senso io lavoro in banca faccio i fidi per le aziende quindi poi alla fine vai giù a incassare? no no no no assolutamente no vediamo di darti una mano com'è la situazione nelle banche? a livello di come si dice soldi bisogna stare un po' attenti insomma ce n'è il giusto e bisogna avere un po' di pazienza a livello di importanza non andiamo molto no no no no non se ne parla bene va bene senti ti saluto buona giornata grazie buon programma a te vuoi fare la sigla del prossimo anno?",
+    "speaker_raw": "SPEAKER_03",
+    "testo": "sto andando a visitare un cliente giù a Montevarchi insomma in Toscana bello cosa gli devi vendere? no niente l'ho già venduto nel senso io lavoro in banca faccio i fidi per le aziende quindi poi alla fine vai giù a incassare? no no no no assolutamente no vediamo di darti una mano com'è la situazione nelle banche? a livello di come si dice soldi bisogna stare un po' attenti insomma ce n'è il giusto e bisogna avere un po' di pazienza a livello di importanza non andiamo molto no no no no non se ne parla bene va bene senti ti saluto buona giornata grazie vuoi fare la sigla del prossimo anno?",
     "titolo": "banca e fidi",
     "tema": [
       "banca",
@@ -344,10 +348,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-01-028",
+    "id": "2016-02-01-029",
     "start": 547.03,
     "end": 560.02,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_05",
     "testo": "dai ci possiamo anche pensare ok grazie grazie Vittorio grazie a te ciao ciao ciao ciao ciao iniziamo il programma così per tirarci un po' su magari ci sta anche un fido Vittorio che ha la sigla fido",
     "titolo": "",
     "tema": [],
@@ -355,35 +359,22 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-01-029",
-    "start": 563.59,
-    "end": 564.15,
-    "speaker_raw": "SPEAKER_05",
-    "testo": "No. No.",
+    "id": "2016-02-01-030",
+    "start": 563.51,
+    "end": 706.93,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "I don't want you to be no slave I don't want you to work all day But I want you to be true And I just wanna make love to you Love All I want to do is wash your clothes I don't want to keep you indoors There is nothing for you to do But keep me making love to you ... ... ... Grazie a tutti. And I can tell by the way you walk that walk And I can hear by the way you talk that talk And I can know by the way you treat your girl That I can give you all the love in this whole wide world All I wanna do, all I wanna do is cook your bread Just to make sure you're well fed",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-02-01-030",
-    "start": 590.26,
-    "end": 603.95,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "All I want to do is wash your clothes I don't want to keep you indoors There is nothing for you to do But keep me making love to you",
-    "titolo": "canzone di Frank Zappa",
-    "tema": [
-      "amore"
-    ],
-    "tipo": "citazione",
-    "video_url": ""
-  },
-  {
     "id": "2016-02-01-031",
-    "start": 619.99,
-    "end": 620.21,
-    "speaker_raw": "SPEAKER_08",
-    "testo": "... ... ...",
+    "start": 719.04,
+    "end": 751.97,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "abbiamo fatto di peggio ho la ridolera ragazzi vi chiedo scusa bravi continuate così I want just what make love to you questa è Etta James è un disco del 1961 e oggi vi ricordiamo anche che è la festa di Radio DJ nel senso che oggi non c'è la festa ma è il compleanno succede a volte che uno dice oggi compio gli anni ma la festa la faccio sabato ecco noi la faremo a febbraio inoltrato diciamo 25 però oggi sarebbe proprio il giorno esatto Allora, abbiamo solo belle notizie, perché questa mattina siamo un po' così, abbiamo bisogno di carica. Abbiamo Jacopo!",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -391,45 +382,9 @@
   },
   {
     "id": "2016-02-01-032",
-    "start": 647.14,
-    "end": 647.42,
-    "speaker_raw": "SCONOSCIUTO",
-    "testo": "Grazie a tutti",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-01-033",
-    "start": 684.29,
-    "end": 706.97,
-    "speaker_raw": "SPEAKER_08",
-    "testo": "And I can tell by the way you walk that walk. And I can hear by the way you talk that talk. And I can know by the way you treat your girl. That I can give you all the love in this whole wide world. All I wanna do, all I wanna do is cook your bread. Just to make sure you're well fed.",
-    "titolo": "canzone di Frank Zappa",
-    "tema": [
-      "amore"
-    ],
-    "tipo": "citazione",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-01-034",
-    "start": 719.04,
-    "end": 751.97,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "abbiamo fatto di peggio ho la ridolera ragazzi vi chiedo scusa bravi continuate così I want just what make love to you questa è Etta James è un disco del 1961 e oggi vi ricordiamo anche che è la festa di Radio DJ nel senso che oggi non c'è la festa ma è il compleanno succede a volte che uno dice oggi compio gli anni ma la festa la faccio sabato ecco noi la faremo a febbraio inoltrato diciamo 25 però oggi sarebbe proprio il giorno esatto Allora, abbiamo solo belle notizie, perché questa mattina siamo un po' così, abbiamo bisogno di carica. Abbiamo Jacopo!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": "",
-    "autore": ""
-  },
-  {
-    "id": "2016-02-01-035",
     "start": 752.65,
     "end": 753.73,
-    "speaker_raw": "SPEAKER_14",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Fermi tutti!",
     "titolo": "",
     "tema": [],
@@ -437,49 +392,21 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-01-036",
+    "id": "2016-02-01-033",
     "start": 753.75,
-    "end": 770.16,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "Buongiorno! Buongiorno Jacopo, come va? Tutto il Beh, io sto a una favola. Leggo anche questo messaggio. Ciao, sono Francesca, estetista. Mi sono svegliata alle 5 perché mia figlia piangeva. Sono rimasta sveglia, l'ho portata al nido, ho fatto la spesa e adesso sto tornando a casa a dormire.",
-    "titolo": "Sveglia alle 5 per la figlia",
-    "tema": [
-      "genitori",
-      "famiglia"
-    ],
-    "tipo": "aneddoto",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-01-037",
-    "start": 770.76,
-    "end": 772.52,
-    "speaker_raw": "SPEAKER_10",
-    "testo": "Che bello.",
+    "end": 781.08,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Buongiorno! Buongiorno Jacopo, come va? Tutto il Beh, io sto a una favola. Leggo anche questo messaggio. Ciao, sono Francesca, estetista. Mi sono svegliata alle 5 perché mia figlia piangeva. Sono rimasta sveglia, l'ho portata al nido, ho fatto la spesa e adesso sto tornando a casa a dormire. Oh, bello. Sì, ma non dormirà. Quanto daresti, Viola, adesso o tu, Jacopo, per tornare nel letto a cadere? Oggi rinuncio a 30 euro e vado.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-02-01-038",
-    "start": 772.58,
-    "end": 781.08,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "Sì, ma non dormirà. Quanto daresti, Viola, adesso o tu, Jacopo, per tornare nel letto a cadere? Oggi rinuncio a 30 euro e vado.",
-    "titolo": "Rinunciare a 30 euro",
-    "tema": [
-      "sonno",
-      "denaro"
-    ],
-    "tipo": "aneddoto",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-01-039",
+    "id": "2016-02-01-034",
     "start": 781.24,
     "end": 783.2,
-    "speaker_raw": "SPEAKER_02",
+    "speaker_raw": "SPEAKER_03",
     "testo": "No, ormai sono sveglia.",
     "titolo": "",
     "tema": [],
@@ -487,10 +414,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-01-040",
+    "id": "2016-02-01-035",
     "start": 783.22,
     "end": 785.82,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_04",
     "testo": "No, io ormai sono sveglia. Quindi niente.",
     "titolo": "Non dormirà",
     "tema": [
@@ -501,22 +428,43 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-01-041",
+    "id": "2016-02-01-036",
     "start": 785.84,
-    "end": 842.28,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "Ma se potessi fare tutto quello che vuoi. Sì. ok quindi non andare a casa a dormire ma ok tutto anche prendere un aereo e andare a Dubai per dire cosa faresti in questo momento? mi prendi alla nostra lista la nostra lista Igor Sibaldi 10 deri non siete pronti io non sono pronti per niente Jacopo veloce puoi fare tutto quello che vuoi adesso 9-16 minuti vai allora no io ho scritto perché idealmente si guida un cerchio perché ho iniziato ad ascoltarvi l'anno scorso in un periodaccio e quindi mi piaceva condividere questa cosa che vi ho scritto poi nella mail con voi cioè che dopo un anno e mezzo hai fatto l'amore hai fatto l'amore Jacopo intanto voglio sapere prima di questa domanda c'è diciamo il prequel come si dice nei film perché non lo hai fatto per un anno e mezzo",
+    "end": 818.6,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Ma se potessi fare tutto quello che vuoi. Sì. ok quindi non andare a casa a dormire ma ok tutto anche prendere un aereo e andare a Dubai per dire cosa faresti in questo momento? mi prendi alla nostra lista la nostra lista Igor Sibaldi 10 deri non siete pronti io non sono pronti per niente Jacopo veloce puoi fare tutto quello che vuoi adesso 9-16 minuti vai allora no io ho scritto perché idealmente si guida un cerchio perché ho iniziato ad ascoltarvi l'anno scorso in un periodaccio",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
-    "id": "2016-02-01-042",
+    "id": "2016-02-01-037",
+    "start": 819.16,
+    "end": 833.68,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "e quindi mi piaceva condividere questa cosa che vi ho scritto poi nella mail con voi cioè che dopo un anno e mezzo hai fatto l'amore hai fatto l'amore?",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-02-01-038",
+    "start": 833.74,
+    "end": 842.44,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Jacopo intanto voglio sapere prima di questa domanda c'è diciamo il prequel come si dice nei film perché non lo hai fatto per un anno e mezzo?",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-02-01-039",
     "start": 842.94,
     "end": 848.37,
-    "speaker_raw": "SPEAKER_14",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Perché ho preso un paio di scelte sbagliate, ho cambiato città, sono rimasto un po' isolato.",
     "titolo": "Scegliere la strada giusta",
     "tema": [
@@ -527,10 +475,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-01-043",
+    "id": "2016-02-01-040",
     "start": 848.49,
     "end": 853.77,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Sei uscito con degli uomini, in amicizia. Sei rimasto un po' isolato.",
     "titolo": "Uscire con gli uomini",
     "tema": [
@@ -541,11 +489,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-01-044",
+    "id": "2016-02-01-041",
     "start": 854.53,
     "end": 859.99,
-    "speaker_raw": "SPEAKER_14",
-    "testo": "Sì, sono rimasto un po' isolato. Non ho avuto molte occasioni per conoscere delle ragazze, quelle che ho conosciuto.",
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Sì, sono rimasto un po' isolato, non ho avuto molte occasioni per conoscere delle ragazze, quelle che ho conosciuto.",
     "titolo": "Non conoscere ragazze",
     "tema": [
       "amicizia",
@@ -555,10 +503,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-01-045",
+    "id": "2016-02-01-042",
     "start": 860.11,
     "end": 861.53,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Sul lavoro, sul posto di lavoro?",
     "titolo": "sul posto di lavoro",
     "tema": [
@@ -568,10 +516,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-01-046",
+    "id": "2016-02-01-043",
     "start": 862.37,
     "end": 864.33,
-    "speaker_raw": "SPEAKER_14",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Sul posto di lavoro non lavoravo in quel momento.",
     "titolo": "",
     "tema": [],
@@ -579,10 +527,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-01-047",
+    "id": "2016-02-01-044",
     "start": 864.35,
     "end": 865.05,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Ok, palestra?",
     "titolo": "",
     "tema": [],
@@ -590,10 +538,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-01-048",
+    "id": "2016-02-01-045",
     "start": 865.67,
     "end": 868.84,
-    "speaker_raw": "SPEAKER_14",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Palestra non ci andavo, spassovo un po' in casa.",
     "titolo": "palestra in casa",
     "tema": [
@@ -603,10 +551,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-01-049",
+    "id": "2016-02-01-046",
     "start": 869.42,
     "end": 871.4,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_05",
     "testo": "E beh, ma cos'è di aspetti che ti cadono dentro?",
     "titolo": "aspetti che ti cadono dentro",
     "tema": [
@@ -616,10 +564,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-01-050",
+    "id": "2016-02-01-047",
     "start": 871.44,
     "end": 872.06,
-    "speaker_raw": "SPEAKER_14",
+    "speaker_raw": "SPEAKER_03",
     "testo": "No, no, ma non...",
     "titolo": "",
     "tema": [],
@@ -627,10 +575,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-01-051",
+    "id": "2016-02-01-048",
     "start": 874.1,
     "end": 876.18,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Ah, un po' depresso, un po' depresso.",
     "titolo": "depressione",
     "tema": [
@@ -640,10 +588,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-01-052",
+    "id": "2016-02-01-049",
     "start": 876.2,
     "end": 878.34,
-    "speaker_raw": "SPEAKER_14",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Sì, ero un po' giù di corda.",
     "titolo": "",
     "tema": [],
@@ -651,10 +599,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-01-053",
+    "id": "2016-02-01-050",
     "start": 878.84,
     "end": 879.92,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Avevi internet in casa?",
     "titolo": "",
     "tema": [],
@@ -662,10 +610,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-01-054",
+    "id": "2016-02-01-051",
     "start": 880.26,
     "end": 889.51,
-    "speaker_raw": "SPEAKER_14",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Avevo internet in casa. Hai sfogato un po'... Sì, sì, sì, ho imparato un po' le categorie nuove, ho un po' filtrato anche i gusti, ho un po' rinnovato anche i gusti.",
     "titolo": "Sfogato su Youporn",
     "tema": [
@@ -676,11 +624,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-01-055",
+    "id": "2016-02-01-052",
     "start": 889.53,
-    "end": 900.84,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "Senti, ti faccio fare una cosa, quando apri Youporn che ti esce dietro automaticamente la pagina che ti dice che il tuo computer deve essere pulito con Mac qualcosa di così... Con Megafi... Tu lo accetti? O no? O cancelli? No, a me...",
+    "end": 909.16,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Senti, ti faccio fare una cosa, quando apri Youporn che ti esce dietro automaticamente la pagina che ti dice che il tuo computer deve essere pulito con Mac qualcosa di così... Con Megafit. Con Megafit. Tu lo accetti? O no? O cancelli? No, a me... Quello lo fanno in base alla tua storia, alla tua cronologia.",
     "titolo": "Youporn",
     "tema": [
       "internet"
@@ -689,24 +637,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-01-056",
-    "start": 905.76,
-    "end": 909.16,
-    "speaker_raw": "SPEAKER_13",
-    "testo": "Quello lo fanno in base alla tua storia, alla tua cronologia.",
-    "titolo": "Speranza e cronologia",
-    "tema": [
-      "speranza",
-      "cronologia"
-    ],
-    "tipo": "riflessione",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-01-057",
+    "id": "2016-02-01-053",
     "start": 909.18,
     "end": 914.36,
-    "speaker_raw": "SPEAKER_14",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Alla mia cronologia, però capisco che non c'è speranza.",
     "titolo": "speranza",
     "tema": [
@@ -716,10 +650,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-01-058",
+    "id": "2016-02-01-054",
     "start": 914.42,
     "end": 916.71,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Niente, senti, dove hai conosciuto questa donna?",
     "titolo": "donna",
     "tema": [
@@ -729,11 +663,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-01-059",
+    "id": "2016-02-01-055",
     "start": 917.38,
     "end": 924.29,
-    "speaker_raw": "SPEAKER_14",
-    "testo": "Questa donna l'ho conosciuta ad un concerto insieme a... perché è amica di altri amici.",
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Questa donna l'ho conosciuta ad un concerto insieme a... perché amica di altri amici.",
     "titolo": "Concerto",
     "tema": [
       "amici",
@@ -743,10 +677,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-01-060",
+    "id": "2016-02-01-056",
     "start": 924.31,
     "end": 925.15,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Ok, concerto di?",
     "titolo": "",
     "tema": [],
@@ -754,21 +688,21 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-01-061",
+    "id": "2016-02-01-057",
     "start": 926.01,
     "end": 928.61,
-    "speaker_raw": "SPEAKER_14",
-    "testo": "Concerto... minchia, mi sgamano subito se lo dico...",
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Concerto di... minchia, mi sgamano subito se lo dico...",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-02-01-062",
+    "id": "2016-02-01-058",
     "start": 930.8,
     "end": 957.65,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Già col nome Jacopo non è che siete tantissimi Ma è un nome finto Perché non voglio farlo Ma non dovevi dirlo io lo sapevo Tu dovevi sostenere Dimmi le iniziali del cantante o del gruppo C C Cremonini Il Chiur Carboni È italiano Carmen Consoli",
     "titolo": "",
     "tema": [],
@@ -776,22 +710,21 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-01-063",
+    "id": "2016-02-01-059",
     "start": 958.19,
     "end": 985.43,
-    "speaker_raw": "SPEAKER_14",
+    "speaker_raw": "SPEAKER_03",
     "testo": "no neanche non ci arriverei mai Fabio non credo che tu lo conosca scusami faccio un po' l'alternativone non penso che tu lo conosca Ciro Ricci Ciro Ricci no ma adesso è partito il toto scusa adesso tutti gli ascoltatori ha detto alternativone allora definiamo è un artista rap Clementino lì come si chiama?",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
-    "id": "2016-02-01-064",
+    "id": "2016-02-01-060",
     "start": 985.45,
     "end": 986.29,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_05",
     "testo": "no non è Clementino",
     "titolo": "",
     "tema": [],
@@ -799,10 +732,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-01-065",
+    "id": "2016-02-01-061",
     "start": 990.6,
     "end": 1007.41,
-    "speaker_raw": "SPEAKER_14",
+    "speaker_raw": "SPEAKER_03",
     "testo": "si chiama Coez brava Viola ci ho preso la giovane del gruppo al concetto Coez ok va bene Ho dato un nome che non è quello reale, perché non volevo fare la parte dello sborone, non volevo parlare.",
     "titolo": "Evito di parlare dello sborone",
     "tema": [
@@ -810,43 +743,25 @@
       "musica"
     ],
     "tipo": "aneddoto",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
-    "id": "2016-02-01-066",
+    "id": "2016-02-01-062",
     "start": 1007.43,
-    "end": 1025.3,
-    "speaker_raw": "SPEAKER_13",
-    "testo": "Posso dirti, Jacopo, stai facendo tutte le parti italiane dello sborone. A noi ci sembri più un segaiolo, ma è un amicizio. Tranquillo, tranquillo. Senti, puoi buttarci una maschera, stai tranquillo. Magno tranquillo. Senti, va bene, insomma, quindi hai riconosciuto il concerto.",
-    "titolo": "Sborone e segaiolo",
-    "tema": [
-      "amicizia",
-      "umorismo"
-    ],
-    "tipo": "aneddoto",
-    "video_url": ""
-  },
-  {
-    "id": "2016-02-01-067",
-    "start": 1025.46,
     "end": 1033.11,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "No, io voglio solo chiederti, dal punto di vista proprio fisico, cioè la risposta dal punto di vista biologico, com'è fare l'amore dopo un anno e mezzo?",
-    "titolo": "Fare l'amore dopo un anno",
-    "tema": [
-      "amore",
-      "relazioni"
-    ],
-    "tipo": "riflessione",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Posso dirti, Jacopo, stai facendo tutte le parti italiane dello sborone. A noi ci sembri più un segaiolo, ma è un amicino. Tranquillo, tranquillo. Senti, puoi buttarci una maschera, stai tranquillo. Magno tranquillo, senti va bene insomma, quindi hai riconosciuto il concerto, no io voglio solo chiederti dal punto di vista proprio fisico, cioè la risposta dal punto di vista biologico, com'è fare l'amore dopo un anno e mezzo?",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-02-01-068",
+    "id": "2016-02-01-063",
     "start": 1033.75,
     "end": 1042.57,
-    "speaker_raw": "SPEAKER_14",
-    "testo": "Ma in realtà, ti dirò, dopo ero ovviamente molto contento, anche perché poi, aggiungo anche questa cosa, con questa persona comunque sto molto bene. Eh. Ci vediamo.",
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Ma in realtà ti dirò, dopo ero ovviamente molto contento, anche perché poi aggiungo anche questa cosa, con questa persona comunque sto molto bene, ci vediamo, continuiamo.",
     "titolo": "Prima volta dopo un anno",
     "tema": [
       "amore",
@@ -856,11 +771,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-01-069",
+    "id": "2016-02-01-064",
     "start": 1042.59,
     "end": 1044.77,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "Mezz'oretta. Quanto è durato la prima volta?",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Mezz'oretta, quanto è durato la prima volta?",
     "titolo": "Prima volta con la donna",
     "tema": [
       "amore",
@@ -870,33 +785,33 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-01-070",
+    "id": "2016-02-01-065",
     "start": 1044.79,
-    "end": 1046.83,
-    "speaker_raw": "SPEAKER_14",
-    "testo": "Sto molto molto bene. No, non tantissimo. Eh.",
+    "end": 1046.73,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Sto molto molto, no non tantissimo, non sono contento.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-02-01-071",
-    "start": 1048.47,
+    "id": "2016-02-01-066",
+    "start": 1048.07,
     "end": 1060.5,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "certo lei ti ha detto vuoi salire un attimo tu io la prima l'avrei fatta scusami l'acqua la vuoi frizzante o naturale?",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "beh certo, lei ti ha detto vuoi salire un attimo e tu io la prima l'avrei fatta senti scusami l'acqua la vuoi frizzante o naturale?",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-02-01-072",
-    "start": 1060.52,
+    "id": "2016-02-01-067",
+    "start": 1061.54,
     "end": 1076.31,
-    "speaker_raw": "SPEAKER_14",
-    "testo": "è stato nella norma mi aspettavo di meglio e poi alla fine ho pensato però un anno e mezzo non è stato neanche così devastante no no",
+    "speaker_raw": "SPEAKER_03",
+    "testo": "le bolle è stato nella norma mi aspettavo di meglio e poi alla fine ho pensato però un anno e mezzo non è stato neanche così devastante no no",
     "titolo": "Un anno e mezzo",
     "tema": [
       "tempo",
@@ -906,11 +821,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-01-073",
+    "id": "2016-02-01-068",
     "start": 1079.24,
-    "end": 1112.2,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "sai che da ragazzini, non so se lo facevi anche tu da ragazzini quando c'è il momento in cui l'ormone esplode quindi tutti i giorni ti devi dedicare un attimo alla professoressa ci sono dei giorni che dici per 3-4 giorni non lo faccio così il quinto senti di più c'è più trasporto un anno e mezzo ti ricordavi anche tutto mi ricordavo un po' tutto quanto non ho avuto grossi problemi bene bravo bravo Sono contento, state bene insieme, l'hai rifatto, questo weekend è stato una bomba.",
+    "end": 1099.64,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Sai che da ragazzini, non so se lo facevi anche tu, lo dico da ragazzini, quando c'è il momento in cui l'ormone esplode, quindi tutti i giorni ti devi dedicare un attimo alla professoressa. Ci sono dei giorni che dici, adesso per 3-4 giorni non lo faccio, così il quinto senti di più, c'è più trasporto. Bravo, un anno e mezzo, bravo. Ti ricordavi anche tutto, no?",
     "titolo": "L'ormone dell'adolescenza",
     "tema": [
       "adolescenza",
@@ -921,11 +836,33 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-01-074",
+    "id": "2016-02-01-069",
+    "start": 1100.34,
+    "end": 1105.27,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Mi ricordavo un po' tutto quanto, sì, sì, non ho avuto grossi problemi. Bene, bravo, bravo.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-02-01-070",
+    "start": 1106.86,
+    "end": 1112.2,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Sono contento, state bene insieme, l'hai rifatto, questo weekend è stato una bomba.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-02-01-071",
     "start": 1112.72,
     "end": 1122.87,
-    "speaker_raw": "SPEAKER_14",
-    "testo": "Sì, molto. Ok, fantastico. Bravi, continuate così. Sì, sì, l'idea è quella, e poi ti ripeto, è una persona con cui sto molto bene.",
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Sì, molto. Ok, fantastico. Bravi, continuate così. Sì, sì, l'idea è quella. Poi ti ripeto, è una persona con cui sto molto bene.",
     "titolo": "Persona speciale",
     "tema": [
       "amore",
@@ -935,22 +872,33 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-01-075",
+    "id": "2016-02-01-072",
     "start": 1122.89,
     "end": 1128.23,
-    "speaker_raw": "SPEAKER_13",
-    "testo": "Sì, no, ma non ci devi, adesso, cioè, sei dall'analista, Jacopo, era così per cazzeggiare un attimo.",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Sì, no, ma non ci devi, adesso sei dall'analista, Jacopo, era così per cazzeggiare un attimo.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-02-01-076",
+    "id": "2016-02-01-073",
     "start": 1129.83,
-    "end": 1153.17,
-    "speaker_raw": "SPEAKER_14",
-    "testo": "ma ti dirò sai perché ho letto un anno e mezzo senza sesso? perché ad un certo punto ho letto tutta vita di Fabio Volo porta sfiga senti una cosa Jacopo ti volevo dire hai trovato anche lavoro? no non ancora ma tra un po' ho appuntamento in comune perché mi è venuta un'idea e quindi voglio andare in comune vedrai che adesso si muove tutto adesso ti arriva tutto",
+    "end": 1132.39,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Ma ti dirò, sai perché ho letto Un anno e mezzo senza sesso?",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-02-01-074",
+    "start": 1132.41,
+    "end": 1143.48,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Perché ad un certo punto ho letto Tutta vita di Fabio Volo Porta sfiga, porta sfiga Senti una cosa Jacopo Ti volevo dire, hai trovato anche lavoro?",
     "titolo": "La lettura come fuga",
     "tema": [
       "lettura",
@@ -961,11 +909,26 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-01-077",
+    "id": "2016-02-01-075",
+    "start": 1143.54,
+    "end": 1153.17,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "No, non ancora Ma tra un po' ho appuntamento in comune Perché mi è venuta un'idea E quindi voglio andare in comune Vedrai che adesso si muove tutto Adesso ti arriva tutto",
+    "titolo": "La lettura come fuga",
+    "tema": [
+      "lettura",
+      "fuga",
+      "solitudine"
+    ],
+    "tipo": "riflessione",
+    "video_url": ""
+  },
+  {
+    "id": "2016-02-01-076",
     "start": 1154.08,
     "end": 1171.38,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "sono andato un sacco di cose insieme dopo un anno e mezzo di nulla bene bene bravo Jacopo grazie chissà come si chiama veramente comunque va bene te lo dico io il suo nome e cognome no no no ciao grazie ragazzi ciao ciao ciao ciao",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "sono andato un sacco di cose insieme dopo un anno e mezzo di nulla bene bene bravo Jacopo grazie chissà come si chiama veramente comunque va bene te lo dico io il suo nome e cognome no no lo possiamo no no no ciao grazie ragazzi ciao ciao ciao ciao",
     "titolo": "L'analista e il suo cliente",
     "tema": [
       "relazione",
@@ -976,34 +939,22 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-01-078",
+    "id": "2016-02-01-077",
     "start": 1176.35,
-    "end": 1295.39,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "But I don't mind Ciao! Now she dances to the song on the minute All the time All the time And make her weep when she hear it And it got her on her knees like religion She was young and she was forced to be a woman grazie",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": "",
-    "autore": ""
-  },
-  {
-    "id": "2016-02-01-079",
-    "start": 1345.36,
     "end": 1345.68,
-    "speaker_raw": "SPEAKER_02",
-    "testo": "Oh baby",
+    "speaker_raw": "SPEAKER_03",
+    "testo": "But I don't mind Ciao! Now she dances to the song on the minute All the time, all the time And make her weep when she hear it And it got her on her knees like religion She was young and she was forced to be a woman grazie Oh baby",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-02-01-080",
+    "id": "2016-02-01-078",
     "start": 1397.1,
     "end": 1530.76,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "allora guarda che è finito qua eh sì sì con tutta la calma guardano e la Stefi mi ha detto non entrare vediamo se sono capaci da soli ad andare in pubblicità io avevo già pronto il disannuncio erano the weekend in the night ma non si fa più questa cosa anni 80 io l'ho sentita in radio ogni tanto chi è che fa così Bene allora continuiamo Non si fa più Sono le 9.26 Senza di me Non sono in grado neanche di dire Ma io ero già pronto con una poesia Va bene va bene Comunque arrivano molti messaggi di ascoltatori Che dicono per esempio Jacopo il principiante Io sono 5 anni che non faccio l'amore Altro dice io ho 2 anni a me io dopo 4 anni un ragazzo io ho 30 anni non l'ho mai fatto wow non so se avete visto ieri un servizio del family day dove a un certo punto una ragazza intervistata al family day hanno detto ti sei contrario ai matrimoni gay e poi a un certo punto dice però se dovesse passare la legge che anche gli omosessuali si possono sposare Dopo, quando ci sono i terremoti e le catastrofi, non pensate che siano cose casuali, ma è la natura che si ribella. Quindi, ragazzi, se da domani anche in Italia, come in molti paesi del mondo, l'omosessualità otterrà gli stessi delitti degli etero, sappiate che si rischiano i terremoti. non volevo scendere dalla macchina perché vi stavo ascoltando poi dovevo per forza sono scesa sono entrata al bar e vi ascoltavano anche al bar allora perfetto stai al bar Steffi da Bologna ciao Steffi da Bologna senti qua oh yeah quale alibi",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "allora guarda che è finito qua eh sì sì con tutta la calma guardano e la Steffi mi ha detto non entrare vediamo se sono capaci da soli ad andare in pubblicità io avevo già pronto il disannuncio erano the weekend in the night ma non si fa più questa cosa anni 80 io l'ho sentita in radio ogni tanto chi è che fa così bene allora continuiamo non si fa più sono le 9.26 senza di me ho capito non sono in grado neanche di dire ma io ero già pronto con una poesia va bene va bene comunque arrivano molti messaggi di ascoltatori che dicono per esempio Jacopo il principiante io sono 5 anni che non faccio l'amore altro dice io ho 2 anni a me io dopo quattro anni un ragazzo io ho trent'anni non l'ho mai fatto wow questo è interessante non so se avete visto ieri un servizio del family day dove a un certo punto una ragazza intervistata al family day hanno detto insomma quindi ti sei contrario ai matrimoni gay e poi a un certo punto dice però se dovesse passare la legge che anche gli omosessuali si possono sposare Dopo quando ci sono i terremoti e le catastrofi, non pensate che siano cose casuali, ma è la natura che si ribella. Quindi ragazzi, se da domani anche in Italia, come in molti paesi del mondo, l'omosessualità otterrà gli stessi delitti degli etero, sappiate che si rischiano i terremoti. non volevo scendere dalla macchina perché vi stavo ascoltando poi dovevo per forza sono scesa sono entrata al bar e vi ascoltavano anche al bar allora perfetto stai al bar Stefi da Bologna ciao Stefi da Bologna senti qua oh yeah quale alibi",
     "titolo": "Stefi mi dice di non entrare",
     "tema": [
       "amicizia",
@@ -1013,11 +964,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-01-081",
+    "id": "2016-02-01-079",
     "start": 1549.08,
-    "end": 1734.97,
-    "speaker_raw": "SPEAKER_17",
-    "testo": "Scusa ma mi era sembrato di vedere qualcosa di strano tipo un esercito nemico in uno stato sovrano tipo un'aperta violazione degli accordi che abbiamo io te lo dico e tu mi dici di parlare piano mi era sembrato di non un fatto poco chiaro come una specie di governo ma di terza mano con un programma mai provato che però seguiamo e neanche posso non votare perché non votiamo zitto zitto fa finita di niente e tanto il mondo gira ancora come sempre finché c'è vita bene c'è la corrente meno problemi a bracchi meno si sente che per esempio ho conosciuto questo parlamentare no dice a me che me ne frega finché è legale passare ad una nuova appartenenza e restare senza neanche andare che c'ho l'influenza e mi sale su quali alibi calibri la validità quali alibi colibri libri nella ... ... ... passa la cresta e smetti di chiedere la busta l'hai vista non farmi ricredere poi pacco il tabacco ma soprattutto venere vedrai che conviene che smetti di chiedere non basta la busta per farmi recedere l'ho vista ma adesso ne resterà ce n'è ma intanto che aspetti che ridi l'accelere c'è giusto lo spazio per potermi rispondere su quali alibi calibri la validità quali alibi colibri libri nell'aria di quali macabri crimini tragici o comici mi dici che c'è di dire criminerà zitto zitto fa finta di niente che tanto il mondo gira ancora come sempre finché c'è vita beh c'è la corrente meno problemi avrà chi meno si sente se la vicina cina ci nasconde cose cose meglio dire Grazie a tutti. Credi di avere qualche qualità, ci ti tratti, ci leggi, ti evi tu di dire che c'è chi dire, chi minerà. Su quali alibi?",
+    "end": 1735.45,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Scusa ma mi era sembrato di vedere qualcosa di strano tipo un esercito nemico in uno stato sovrano tipo un'aperta violazione degli accordi che abbiamo io te lo dico e tu mi dici di parlare piano mi era sembrato di non un fatto poco chiaro come una specie di governo ma di terza mano con un programma mai provato che però seguiamo e neanche posso non votare perché non votiamo zitto zitto fa finita di niente e tanto il mondo gira ancora come sempre finché c'è vita bene c'è la corrente meno problemi avrà chi meno si sente che per esempio ho conosciuto questo parlamentare no dice a me che me ne frega finché è legale passare ad una nuova appartenenza e restare senza neanche andare che c'ho l'influenza e mi sale su quali alibi calibri la validità quali alibi colibri libri nella Grazie. passa la cresta e smetti di chiedere la busta l'hai vista non farmi ricredere poi pacco il tabacco ma soprattutto venere vedrai che conviene che smetti di chiedere non basta la busta per farmi recedere l'ho vista ma adesso ne resterà ce n'è ma intanto che aspetti che ridi l'accelere c'è giusto lo spazio per potermi rispondere su quali alibi calibri la validità quali alibi colibri libri nell'aria di quali macabri crimini tragici o comici mi dici che c'è di dire criminerà zitto zitto fa finta di niente che tanto il mondo gira ancora come sempre finché c'è vita beh c'è la corrente meno problemi avrà chi meno si sente se la vicina cina ci nasconde cose cose meglio dire dire grazie a tutti Credi di avere qualche qualità, ci ti tratti, ci leggi, ti evi tu di dire che c'è chi dire discriminerà. Su quali alibi?",
     "titolo": "La politica e la verità",
     "tema": [
       "politica",
@@ -1027,9 +978,9 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-01-082",
-    "start": 1735.01,
-    "end": 1736.07,
+    "id": "2016-02-01-080",
+    "start": 1735.51,
+    "end": 1736.45,
     "speaker_raw": "SCONOSCIUTO",
     "testo": "Quali alibi colibri?",
     "titolo": "",
@@ -1038,11 +989,33 @@
     "video_url": ""
   },
   {
+    "id": "2016-02-01-081",
+    "start": 1736.47,
+    "end": 1739.41,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Zitta, zitta, palpita di niente.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-02-01-082",
+    "start": 1739.43,
+    "end": 1741.45,
+    "speaker_raw": "SCONOSCIUTO",
+    "testo": "Zitta, zitta, palpita di niente.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
     "id": "2016-02-01-083",
-    "start": 1736.17,
-    "end": 1741.07,
-    "speaker_raw": "SPEAKER_17",
-    "testo": "Zitta, zitta, zitta di niente, zitta, zitta di niente.",
+    "start": 1752.79,
+    "end": 1839.87,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "questo è Daniele Silvestri con quali alibi? bene bene allora c'è addirittura un ragazzo che scrive questo messaggio lo leggo perché so che alle donne fa piacere sentire questa cosa dice ciao ragazzi sono Joe dalla provincia di Como Joe come il profumo di Armani sono Joe sono Joe dalla provincia di Como non faccio l'amore da due anni però diciamo sesso da un paio di giorni nel senso lui dice mi manca proprio fare l'amore sono stufo di lui usa la parola quella lì con la S no? ecco sono stufre che io vorrei proprio fare l'amore in giro ci sono troppe ragazze e poche donne poi le donne dicono in giro ci sono pochi ragazzi e pochi uomini insomma ragazzi non c'è una chat uomini e donne facciamo un programma e chiamiamolo uomini e donne secondo me ah dove uno magari va lì e dice venite a corteggiarmi voglio trovare l'uomo della mia vita La mia domanda, io non credo di aver mai visto la puntata Uomini e Donne della De Filippi, però so di cosa si tratta, semplicemente perché è il pomeriggio, quindi io il pomeriggio non sono a casa, è per un pubblico di persone che sta a casa. La mia domanda di quelle poche cose che ho visto... Comunque ci sono mille repliche, sono cinque... Io la sera torno a casa e dico, Johanna, guardiamoci uomini e donne. No, nel senso che il pomeriggio, così come mi perdo la vita in diretta, così come mi perdo la d'urso, sono programmi per chi sta a casa immagino. Comunque la domanda è, è mai entrato un uomo a uomini e donne con i peli sul petto? Perché vedendoli mi sembrano tutti depilati.",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -1050,22 +1023,10 @@
   },
   {
     "id": "2016-02-01-084",
-    "start": 1752.79,
-    "end": 1839.87,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "questo è Daniele Silvestri con quali alibi? bene bene allora c'è addirittura un ragazzo che scrive questo messaggio lo leggo perché so che alle donne fa piacere sentire questa cosa dice ciao ragazzi sono Gio dalla provincia di Como Gio come il profumo di ormai sono Gio sono Gio dalla provincia di Como non faccio l'amore da due anni però diciamo sesso da un paio di giorni nel senso lui dice mi manca proprio fare l'amore sono stufo di lui usa la parola quella lì con la S no? sono stufre che io vorrei proprio fare l'amore in giro ci sono troppe ragazze e poche donne poi le donne dicono in giro ci sono pochi ragazzi e pochi uomini insomma ragazzi non c'è una chat uomini e donne facciamo un programma e chiamiamolo uomini e donne secondo me ah dove uno magari va lì e dice venite a corteggiarmi voglio trovare l'uomo della mia vita La mia domanda, io non credo di aver mai visto la puntata Uomini e Donne della De Filippi, però so di cosa si tratta, semplicemente perché è il pomeriggio, quindi io il pomeriggio non sono a casa, è per un pubblico di persone che sta a casa. La mia domanda di quelle poche cose che ho visto... Comunque ci sono mille repliche, sono cinque... Io la sera torno a casa e dico, Johanna, guardiamoci uomini e donne. No, nel senso che il pomeriggio, così come mi perdo la vita in diretta, così come mi perdo la d'urso, sono programmi per chi sta a casa immagino. Comunque la domanda è, è mai entrato un uomo a uomini e donne con i peli sul petto? Perché vedendoli mi sembrano tutti depilati.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": "",
-    "autore": ""
-  },
-  {
-    "id": "2016-02-01-085",
     "start": 1840.19,
     "end": 1860.42,
-    "speaker_raw": "SPEAKER_10",
-    "testo": "Secondo me nel trono over, perché sai che c'è un trono normale. Tu sai queste cose. Ma io uomini e donne lo vedevo da praticamente i primi anni dell'università. C'è un trono over? C'è un trono tradizionale o come si chiama il trono, non mi ricordo, dove ci sono i ragazzi, i tipici tronisti. E invece fuori, over? Over invece sono più grandi, quindi trovi anche gente di 80 anni.",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Secondo me nel trono over, perché sai che c'è un trono normale. Ma io uomini e donne lo vedevo da praticamente i primi anni dell'università. C'è un trono over? C'è un trono tradizionale, o come si chiama? Non mi ricordo, dove ci sono i ragazzi, i tipici tronisti. E invece fuori, over? Over invece sono più grandi, quindi trovi anche gente di 80 anni.",
     "titolo": "Il trono over",
     "tema": [
       "società",
@@ -1075,48 +1036,43 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-01-086",
+    "id": "2016-02-01-085",
     "start": 1860.86,
     "end": 1954.4,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "con i peli, quelli si, non si depilano quelli di 80 anni magari i cascano ogni volta che si mette la calza va via un po' di peli trovi anche i cinquantenni, i sessantenni con gran peli hai visto gli anziani che hanno magari un po' di peli fino alle ginocchia poi dalle ginocchia sono depilati per le calze va bene Viola, voi prima di introdurre il prossimo argomento scusami, spiegare agli ascoltatori la differenza fra fare sesso e fare l'amore aiuto, lascio le cuffie e corro via Maurizio usa una citazione una poesia Woody Allen diceva fare l'amore no il sesso penetri diciamo per qualche centimetro secondo me lo diceva esattamente l'amore diciamo il sesso diciamo vai solo dentro per qualche centimetro invece l'amore ci vai dentro fino nel profondo è una questione di quanto deep vai quanto profondo vai un ascoltatore scrive ma la canzone sigaretta stamattina non la mettete e noi a parte che te l'ho portata caro ascoltatore mi trovi preparato bella mai passata sulla dirigente la mettiamo dopo ma a proposito di sigarette volevo dire a tutti gli ascoltatori che attenzione perché oggi è l'ultimo giorno che si possono fare delle cose da domani entra in vigore una legge nuova ebbene sì allora intanto i pacchetti Come in Brasile, quelli che hanno viaggiato li hanno già visti in Brasile, Canada, in tanti paesi del mondo, verranno alcuni pacchetti, diciamo, usciranno con la fotografia abbastanza scioccanti, quindi c'è gente intubata, gente aperta col petto fuori.",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "con i peli, quelli si, non si depilano quelli di 80 anni magari i cascano ogni volta che si mette la calza va via un po' di peli trovi anche i 50 anni, i 60 anni con gran peli hai visto gli anziani che hanno magari un po' di peli fino alle ginocchia poi dalle ginocchia sono depilati per le calze va bene Viola, voi prima di introdurre il prossimo argomento scusami, spiegare agli ascoltatori la differenza fra fare sesso e fare l'amore aiuto, lascio le cuffie e corro via Maurizio usa una citazione una poesia Woody Allen diceva fare l'amore no il sesso penetri diciamo per qualche centimetro secondo me non lo diceva esattamente adesso sto usando il mio l'amore diciamo il sesso diciamo vai solo dentro per qualche centimetro invece l'amore ci vai dentro fino nel profondo è una questione di quanto deep vai quanto profondo vai un ascoltatore scrive ma la canzone sigaretta stamattina non la mettete e noi a parte che te l'ho portata caro ascoltatore mi trovi preparato bella mai passata sulla dirigente la mettiamo dopo ma a proposito di sigarette volevo dire a tutti gli ascoltatori che attenzione perché oggi è l'ultimo giorno che si possono fare delle cose da domani entra in vigore una legge nuova ebbene sì allora intanto i pacchetti Come in Brasile, quelli che hanno viaggiato li hanno già visti in Brasile, Canada, in tanti paesi del mondo, verranno alcuni pacchetti, diciamo, usciranno con la fotografia abbastanza scioccante, quindi c'è gente intubata, gente aperta col petto fuori.",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
-  },
-  {
-    "id": "2016-02-01-087",
-    "start": 1954.44,
-    "end": 1977.75,
-    "speaker_raw": "SPEAKER_10",
-    "testo": "Soprattutto queste immaginette, quindi dovranno prendere il 65% del pacchetto. pacchetto quindi voi comprate adesso le sigarette dove c'è scritto la marca li vedrete uno intubato in un ospedale con i dottori a fianco se va bene perché ci sono cose molto belle tolgono i pacchetti da 10 esatto perché comunque invogliano e soprattutto minimizzano il danno sembra come il cucchiaio della Nutella o della cosa che dici ne do un cucchiaio poi la metto via poi vedi un altro mezzo cucchiaio esatto",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": "",
-    "autore": ""
-  },
-  {
-    "id": "2016-02-01-088",
-    "start": 1978.53,
-    "end": 1997.54,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "Mi ricordo quando lavoravo lavapiatti a Londra che prendevo le sigarette e le dicevo che costavano l'olio di Dio. Quando uno ti diceva mi offri una sigaretta, io dicevo mi dai una pugnalata qua nella schiena, mi dai meno fastidio. Via le sigarette, ma le abitudini, diciamo che chi ha avuto i genitori fumatori, il papà o la mamma che fumavano in macchina.",
-    "titolo": "Lavoro come lavapiatti",
-    "tema": [
-      "fumo",
-      "abitudini"
-    ],
-    "tipo": "aneddoto",
     "video_url": ""
   },
   {
-    "id": "2016-02-01-089",
+    "id": "2016-02-01-086",
+    "start": 1954.44,
+    "end": 1957.36,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Soprattutto queste immaginette, quindi dovranno prendere il 65% del pacchetto.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-02-01-087",
+    "start": 1958.7,
+    "end": 1997.54,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "pacchetto quindi voi comprate adesso le sigarette dove c'è scritto la marca li vedrete uno intubato in un ospedale con i dottori a fianco se va bene perché ci sono cose molto pesanti tolgono i pacchetti da 10 esatto perché comunque invogliano e soprattutto minimizzano il danno sembra come il cucchiaio della Nutella o della cosa che dici ne do un cucchiaio poi la metto via poi vai lì un altro mezzo cucchiaio esatto Mi ricordo quando lavoravo lavapiatti a Londra che prendevo le sigarette e le dicevo che costavano l'olio di Dio. Quando uno ti diceva mi offri una sigaretta, io dicevo mi dai una pugnalata qua nella schiena e mi dai meno fastidio. Via le sigarette, ma le abitudini, diciamo che chi ha avuto i genitori fumatori, il papà o la mamma che fumavano in macchina.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-02-01-088",
     "start": 1997.56,
     "end": 2006.7,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Allora, non si potrà più fumare in macchina in presenza di bambini o donne incinte. Poi non si potrà fumare nelle aree ospedaliere, neanche fuori.",
     "titolo": "Proibizione fumare in macchina",
     "tema": [
@@ -1127,10 +1083,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-01-090",
+    "id": "2016-02-01-089",
     "start": 2006.72,
     "end": 2015.11,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Neanche fuori ragazzi, quindi i medici o i pazienti dove vanno a fumare? Smetteranno di fumare. Il paziente che è lì va sempre sul balconcino con la flebo.",
     "titolo": "Fumare in ospedale",
     "tema": [
@@ -1142,10 +1098,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-01-091",
+    "id": "2016-02-01-090",
     "start": 2015.39,
     "end": 2037.35,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Sì, ma non dovrebbe esistere più questa cosa. e poi tipo quando si buttano i mozziconi in terra si rischia una multa dai 60 ai 300 questo da domani quindi oggi potete andare in ospedale e farvi un pacchetto e buttare le sigarette per terra così e fumare con i vostri bambini in macchina",
     "titolo": "mozziconi in terra",
     "tema": [
@@ -1156,23 +1112,33 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-01-092",
+    "id": "2016-02-01-091",
     "start": 2038.31,
-    "end": 2069.54,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "la donna incinta voglio dire una cosa mi è capitato anche di vedere donne incinte fumare in quel caso lì io devo tenere la Johanna perché la Johanna che ha un'altra mentalità guarda che in Italia non andiamo mai a farci i fatti degli altri lei va e ci litiga quando vede una donna incinta che fuma la sigaretta no fa bene comunque sta diventando sempre meno di moda fumare come negli Stati Uniti negli Stati Uniti non sei visto come cool No, negli Stati Uniti ti vedono come uno sfigato, diciamo. Non si può fumare al parco, non si può fumare in spiaggia.",
+    "end": 2042.19,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "La donna incinta, voglio dire una cosa, mi è capitato anche di vedere donne incinte fumare.",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
+  },
+  {
+    "id": "2016-02-01-092",
+    "start": 2042.31,
+    "end": 2043.09,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Sì, a voglia ci sono.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
   },
   {
     "id": "2016-02-01-093",
-    "start": 2069.58,
-    "end": 2070.64,
-    "speaker_raw": "SPEAKER_10",
-    "testo": "Piano piano magari anche qui.",
+    "start": 2043.11,
+    "end": 2055.24,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Ecco, in quel caso lì io devo tenere la Johanna, perché la Johanna che ha un'altra mentalità. Ha ragione. Guarda che in Italia non andiamo mai a farci i fatti degli altri. Lei va e ci litiga, no? Quando vede una donna incinta che fuma la sigaretta.",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -1180,10 +1146,21 @@
   },
   {
     "id": "2016-02-01-094",
-    "start": 2070.66,
+    "start": 2055.28,
+    "end": 2063.38,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "No, fa bene. Comunque sta diventando sempre meno di moda fumare. Fumare. Come negli Stati Uniti. Negli Stati Uniti non sei visto come cool.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-02-01-095",
+    "start": 2063.62,
     "end": 2076.97,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "Devo dire che nelle spiagge quando vedi mozziconi è proprio brutto. Sì, è vero. È brutto quando la gente spigna come se fosse un gigantesco posacenere.",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "No, negli Stati Uniti ti vedono come uno sfigato, diciamo. Non si può fumare al parco, non si può fumare in spiaggia. Piano piano magari anche qui. Devo dire che nelle spiagge quando vedi mozziconi è proprio brutto. Sì, è vero. È brutto quando la gente spigna come se fosse un gigantesco posacenere.",
     "titolo": "Mozziconi in spiaggia",
     "tema": [
       "ambiente",
@@ -1193,35 +1170,22 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-01-095",
+    "id": "2016-02-01-096",
     "start": 2077.39,
     "end": 2080.09,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_04",
     "testo": "E' chiaro, è un messaggio da Leo Di Caprio.",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
-  },
-  {
-    "id": "2016-02-01-096",
-    "start": 2080.11,
-    "end": 2088.77,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "Va bene, insomma, quindi, Leo Di Caprio, mettiamo questo disco e poi invece ci ascoltiamo delle belle parole e un disco o sigaretta che è l'ultima che mi fate in macchina.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
     "id": "2016-02-01-097",
-    "start": 2116.07,
-    "end": 2116.15,
-    "speaker_raw": "SCONOSCIUTO",
-    "testo": "Ciao",
+    "start": 2080.11,
+    "end": 2088.77,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Va bene, insomma, quindi, Leo Di Caprio, mettiamo questo disco e poi invece ci ascoltiamo delle belle parole e un disco o sigaretta che è l'ultima che mi fate in macchina.",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -1229,10 +1193,10 @@
   },
   {
     "id": "2016-02-01-098",
-    "start": 2264.71,
-    "end": 2267.89,
-    "speaker_raw": "SPEAKER_19",
-    "testo": "Buongiorno a tutti. Buongiorno a tutti.",
+    "start": 2116.07,
+    "end": 2116.25,
+    "speaker_raw": "SPEAKER_00",
+    "testo": "Ciao!",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -1240,10 +1204,21 @@
   },
   {
     "id": "2016-02-01-099",
+    "start": 2264.73,
+    "end": 2268.09,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "On count of the days you used to say goodbye to the men",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-02-01-100",
     "start": 2316.9,
     "end": 2402.7,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "Sto dicendo io sono un ex fumatore non di quelli che io dico sempre se fumate metto sta canzone non dico mai a un fumatore non fumare se me lo chiede io dico che è una delle cose più belle che ho fatto nella mia vita insomma mi è proprio cambiata la vita ma l'ho già detto più volte. posso dire quando però mi dà fastidio senza che non vado a dire che quando scendi dal treno che io scendo dal treno magari che fa freddo sono stanco tutto il giorno ho mangiato male scendo dal treno c'è quel freddo della stazione di Milano sono in culonia perché magari sono al vagone là dietro e quando scendono davanti a me c'ho mille persone di cui 600 accendono la sigaretta mi devo fare tutto il binario dietro mi viene da vomitare c'è gente che era un'ora che aspettava Sì, oppure tre, perché adesso c'è il diretto Roma-Milano, per cui li vedi proprio che come, anche se si apre la porta, hanno già la sigaretta e l'accendino in mano, come si apre la porta e tu vai dentro questa macchina del fumo, mi viene il vomito nel vero senso della parola, però insomma. che ti devo dire posso dire come sull'alimentazione il futuro va in quella direzione cioè non ci saranno più fumatori o più gente che mangia carne e formaggi ma ci sarà gente che starà attenta a quello che mangia e gente che fumerà se guardate Mad Men quando arriva la notizia che il fumo fa male loro non lo sapevano tutta la serie fumano come dei matti e dicono ma figurati se il fumo fa male e poi dopo uno prende coscienza ci si mette un po' ma che il fumo faccia male lo sanno tutti quello è un altro discorso chi se ne importa?",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Sto dicendo io sono un ex fumatore non di quelli che io dico sempre se fumate metto sta canzone non dico mai a un fumatore non fumare se me lo chiede io dico che è una delle cose più belle che ho fatto nella mia vita insomma mi è proprio cambiata la vita ma l'ho già detto più volte. posso dire quando però mi dà fastidio senza che non vado a dire che quando scendi dal treno che io scendo dal treno magari che fa freddo sono stanco tutto il giorno ho mangiato male scendo dal treno c'è quel freddo della stazione di Milano sono in culonia perché magari sono al vagone là dietro e quando scendono davanti a me c'ho mille persone di cui 600 accendono la sigaretta mi devo fare tutto il binario dietro mi viene da vomitare c'è gente che era un'ora che aspettava Sì, no, pure tre, perché adesso c'è il diretto Roma-Milano, per cui li vedi proprio che come, anche se si apre la porta, hanno già la sigaretta e l'accendino in mano, come si apre la porta e tu vai dentro questa macchina del fumo, mi viene il vomito nel vero senso della parola, però insomma. che ti devo dire posso dire come sull'alimentazione il futuro va in quella direzione cioè non ci saranno più fumatori o più gente che mangia carne e formaggi ma ci sarà gente che starà attenta a quello che mangia e gente che fumerà se guardate Mad Men quando arriva la notizia che il fumo fa male loro non lo sapevano tutta la serie fumano come dei matti e dicono ma figurati se il fumo fa male e poi dopo uno prende coscienza ci si mette un po' ma che il fumo faccia male lo sanno tutti quello è un altro discorso chi se ne importa?",
     "titolo": "La pausa sigaretta",
     "tema": [
       "fumo",
@@ -1253,10 +1228,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-01-100",
+    "id": "2016-02-01-101",
     "start": 2402.8,
     "end": 2404.12,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_04",
     "testo": "no no invece se ne importa e come?",
     "titolo": "",
     "tema": [],
@@ -1264,11 +1239,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-01-101",
+    "id": "2016-02-01-102",
     "start": 2405.04,
     "end": 2445.4,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "chi se ne importa parliamo invece a proposito di fumo non fumo e questa legge che entrerà diciamo in vigore da domani quindi state molto attenti qualcuno dice i medici fumano molti medici fumano E voglio dire, il medico conosce il corpo umano, lo sa, non è come un meccanico conosce la macchina. Però dove andranno se adesso non si può fumare neanche nell'area dell'ospedale? Cioè un medico, tu sei in coda per essere visitato, deve farsi la sigaretta e dici aspetta, esce, esce dall'ospedale, attraversa la strada, va di là. Si fuma la sigaretta e torna indietro.",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "chi se ne importa parliamo invece a proposito di fumo non fumo e questa legge che entrerà diciamo in vigore da domani quindi state molto attenti qualcuno dice i medici fumano molti medici fumano E voglio dire, il medico conosce il corpo umano, lo sa, non è come un meccanico che conosce la macchina. Però dove andranno se adesso non si può fumare neanche nell'area dell'ospedale? Cioè un medico, tu sei in coda per essere visitato, deve farsi la sigaretta e dici aspetta, esce, esce dall'ospedale, attraversa la strada, va di là. Si fuma la sigaretta e torna indietro.",
     "titolo": "I medici e il fumo",
     "tema": [
       "fumo",
@@ -1278,10 +1253,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-01-102",
+    "id": "2016-02-01-103",
     "start": 2445.52,
     "end": 2448.93,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Io spero che sia un buon motivo per iniziare a pensare almeno a dismetterci.",
     "titolo": "",
     "tema": [],
@@ -1289,11 +1264,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-01-103",
+    "id": "2016-02-01-104",
     "start": 2448.99,
     "end": 2472.59,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "Una volta si diceva anche che i fumatori alla fine della giornata con questa cosa della pausa sigaretta hanno un sacco di tempo libero. perché la sigaretta non è che timbri per riuscire a fumare la sigaretta quindi uno smette di lavorare io per esempio ogni tanto facevo pausa telefonata mi dicevano io non fumo la mia pausa me la faccio così si infatti è legittimo parliamo di natura parliamo belle parole e bella canzone ok",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Una volta si diceva anche che i fumatori alla fine della giornata con questa cosa della pausa sigaretta hanno un sacco di tempo libero. perché la sigaretta non è che timbri per riuscire a fumare la sigaretta quindi uno smette di lavorare io per esempio ogni tanto facevo pausa telefonata mi dicevano io non fumo la mia pausa ma la faccio così si infatti è legittimo parliamo di natura parliamo belle parole e bella canzone ok",
     "titolo": "La gestione del tempo e le pause lavorative",
     "tema": [
       "lavoro",
@@ -1304,11 +1279,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-01-104",
+    "id": "2016-02-01-105",
     "start": 2480.74,
     "end": 2567.62,
     "speaker_raw": "SPEAKER_01",
-    "testo": "E questo mio nonno, col quale siamo cresciuti perché eravamo da soli, diceva sono solo due cose che mi fanno inginocchiare, che mi hanno fatto inginocchiare Dio e la terra. Perché per coltivare i campi mettevano fagiolo dopo fagiolo, la patata, era proprio una carezza la terra. Ora non si potrebbe fare così, i boscaioli battastavano la pianta, questa sì, questa no, ci parlavano. Ma anche un bosco, cioè le parole non sono solo le nostre. Crediamo noi che siamo un po' vanitosi, spocchiosi, arroganti, egocentrici, intrattabili, invidiosi, tifoni e chi ne abbia una metta. Diceva Cioran, cos'è di più bello che camminare in un bosco d'autunno, che si sentono le voci. A cosa valgono le lodi e le ovazioni a confronto? Ma guardate due alberi che si muovono, no? Si stanno parlando e cercano di toccarsi. E che bisogna porre attenzione a queste cose. Nelle scuole io vorrei trovare una scuola nella quale il bambino impara, anche la tecnologia soprattutto. ma una scuola dove il bambino deve dire alla mamma sbrigati che devo andare a scuola e quindi mandare contadini, boscaioli, artigiani, le guide alpine non ci sappiamo più muovere, i nostri bambini non sanno più fare nulla con le mani nulla, nemmeno più carezze musica",
+    "testo": "E questo mio nonno, col quale siamo cresciuti perché eravamo da soli, diceva sono solo due cose che mi fanno inginocchiare, che mi hanno fatto inginocchiare Dio e la terra. Perché per coltivare i campi mettevano fagiolo dopo fagiolo, la patata, era proprio una carezza la terra. Ora non si potrebbe fare così, i boscaioli battastavano la pianta, questa sì, questa no, ci parlavano. Ma anche un bosco, cioè le parole non sono solo le nostre. Crediamo noi che siamo un po' vanitosi, spocchiosi, arroganti, egocentrici, intrattabili, invidiosi, tifoni e chi ne abbia una metta. Diceva Cioran, cos'è di più bello che camminare in un bosco d'autunno, che si sentono le voci. A cosa valgono le lodi e le ovazioni a confronto? Ma guardate due alberi che si muovono, no? Si stanno parlando e cercano di toccarsi. E che bisogna porre attenzione a queste cose. Nelle scuole io vorrei trovare una scuola nella quale il bambino impara anche la tecnologia, soprattutto. ma una scuola dove il bambino deve dire alla mamma sbrigati che devo andare a scuola e quindi mandare contadini, boscaioli, artigiani, le guide alpine non ci sappiamo più muovere, i nostri bambini non sanno più fare nulla con le mani nulla, nemmeno più carezze musica",
     "titolo": "Il nonno e la terra",
     "tema": [
       "terra",
@@ -1318,11 +1293,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-01-105",
+    "id": "2016-02-01-106",
     "start": 2568.14,
     "end": 2681.12,
-    "speaker_raw": "SPEAKER_16",
-    "testo": "Grazie a tutti. world time has a way of throwing it all in your face the past she has haunted the future is laced heartbreak you know drives a big black car I swear I was in the backseat just minding my own own grazie a tutti Grazie. We watched them go round and round All we knew of home was just a sunset and some clouds musica",
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Grazie a tutti. world time has a way of throwing it all in your face the past she has haunted the future is laced heartbreak you know drives a big black car i swear i was in the backseat just minding my own home grazie a tutti Ciao! We watched them go round and round All we knew of home was just a sunset and some clouds musica",
     "titolo": "Gregory Alan Isakov",
     "tema": [
       "musica"
@@ -1331,25 +1306,24 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-01-106",
+    "id": "2016-02-01-107",
     "start": 2719.81,
     "end": 2784.13,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Questo è Gregory Alan Isaacov, o Isakov, no, Isaacov sarà. Sì, l'ho trovato qualche giorno fa. È parete di Johanna? Dal cognome? No, l'ho trovato qualche giorno fa. Se vi piace, non so, la musica in casa, quella che si riesce... che tu la ascolti ma riesci anche a fare altre cose invece la musica che va proprio ascoltata che ti devi mettere lì con le cuffie e sentire così no bello bello invece questa qui insomma è un po' da lunedì mattina no ho capito che non ti piace quando dici bello bello sette volte ho capito che non ti piace bello bello bello ti piace tutto il ti piace quella cacciara lì no non mi piace la cacciara boom boom boom si può anche parlare tra persone a un certo punto non è che è sempre intrattenimento ascoltate un attimo buongiorno Fabio quando torna il momento elettronico per rimanere in linea con le esigenze di Maurizio allora volevo dire che un'ascoltatrice dice che i medici faranno come fanno molti insegnanti cioè fumeranno lo stesso in classe o nella scuola ci sono insegnanti che fumano in classe?",
     "titolo": "trovare nome straniero",
     "tema": [
       "nome"
     ],
     "tipo": "aneddoto",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
-    "id": "2016-02-01-107",
+    "id": "2016-02-01-108",
     "start": 2784.17,
-    "end": 2789.31,
-    "speaker_raw": "SPEAKER_10",
-    "testo": "io mi ricordo ai nostri tempi i tuoi non sono i miei",
+    "end": 2789.74,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "io mi ricordo ai nostri tempi i tuoi non sono i miei e io...",
     "titolo": "non sono i miei",
     "tema": [
       "famiglia",
@@ -1359,11 +1333,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-01-108",
+    "id": "2016-02-01-109",
     "start": 2790.51,
     "end": 2870.72,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "ma io mi ricordo cioè ma noi era tutto diverso cioè noi stavamo seduti in piedi fra i due sedili della macchina seduti dietro una frenata e tu e la roba più esatto adesso invece non esci dall'ospedale col neonato se non c'è l'ovetto una volta ti riprendevano in braccio cioè è un'altra generazione noi siamo i sopravvissuti i genitori fumavano in macchina con i finestrini su ma ancora c'è gente che fuma fa il chiusino in macchina no no è impossibile è impossibile a me ogni tanto posso dire si entra anche in alcuni taxi si sente che il tassista fuma ho visto Maurizio fumare in uno studio due sigarette non ho mai fumato una sigaretta in tutta la sua vita quando deve montare alcuni programmi che non gli piacciono si accende due svaporelle e secondo me il taglio fuori tonalità della sigla è stato fatto quel giorno esatto io ho lavorato alla Jensen farmaceutica americana del gruppo J&J e dal 2007 sono state riminate le aree fumo e chi voleva fumare timbrava usciva e andava nel parco un sacco di gente ha smesso anche perché nel parco non si può più fumare tu esci vai ma la fumo dopo non vengono pagati per la pausa allora oggi è la festa di Radio DJ quindi oggi compie 34 anni 34 anni 1982-2016 quando Radio DJ ha aperto i battenti che musica c'era?",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "ma io mi ricordo cioè ma noi era tutto diverso cioè noi stavamo seduti in piedi fra i due sedili della macchina seduti dietro che lì una frenata e tu e la roba più esatto adesso invece non so non esci dall'ospedale col neonato se non ce lo vetto una volta ce li prendevano in braccio cioè è un'altra generazione noi siamo i sopravvissuti i genitori fumavano in macchina con i finestrini su ma ancora c'è gente che fuma fa il chiusino in macchina no no è impossibile è impossibile a me ogni tanto posso dire si entra anche in alcuni taxi si sente che il tassista fuma ho visto Maurizio fumare in uno studio due sigarette non ho mai fumato una sigaretta in tutta la sua vita quando deve montare alcuni programmi che non gli piacciono si accende due svaporelle e secondo me il taglio fuori tonalità della sigla è stato fatto quel giorno esatto io ho lavorato alla Jensen farmaceutica americana del gruppo J&J e dal 2007 sono state eliminate le aree fumo e chi voleva fumare timbrava usciva e andava nel parco un sacco di gente ha smesso anche perché nel parco non si può più fumare tu esci vai ma la fumo dopo non vengono pagati per la pausa allora oggi è la festa di Radio DJ quindi oggi compie 34 anni 34 anni 1982-2016 quando Radio DJ ha aperto i battenti che musica c'era?",
     "titolo": "Generazioni diverse",
     "tema": [
       "genitori",
@@ -1373,25 +1347,23 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-01-109",
+    "id": "2016-02-01-110",
     "start": 2877.09,
     "end": 2894.41,
-    "speaker_raw": "SPEAKER_12",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Allora, l'impronta musicale della radio era proprio basata su questa nuova onda di musica che arrivava dall'Inghilterra, questa New Wave, quindi c'era proprio questo suono inglese e, ad esempio, abbiamo in sottofondo Goody Two Shoes di Adam Antler. Questa era una delle canzoni che si sentiva proprio all'inizio su Radio Digenevo 82.",
     "titolo": "Goody Two Shoes di Adam Antler",
     "tema": [
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": "",
-    "autore": "Adam Antler",
-    "confermato_esterno": false
+    "video_url": ""
   },
   {
-    "id": "2016-02-01-110",
+    "id": "2016-02-01-111",
     "start": 2894.45,
     "end": 2896.01,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Perché non son di questi anni, oh?",
     "titolo": "non sono di questi anni",
     "tema": [
@@ -1402,22 +1374,21 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-01-111",
+    "id": "2016-02-01-112",
     "start": 2905.52,
     "end": 2912.99,
-    "speaker_raw": "SPEAKER_12",
+    "speaker_raw": "SPEAKER_02",
     "testo": "non gli piace non gli piace oppure c'era anche questo suono un po' alla Culture Club do you really want to hurt me?",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
-    "id": "2016-02-01-112",
+    "id": "2016-02-01-113",
     "start": 2913.03,
     "end": 2937.69,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_05",
     "testo": "vuoi veramente ferirmi? farmi male? vuoi veramente farmi piangere? Scusami, scusami, scusami, aneddoto, l'ho conosciuto l'anno scorso. Davvero? Sì. Perché? L'ho conosciuto a una festa, lì faceva DJ. Ah, già. L'ho conosciuto.",
     "titolo": "Conoscenza a una festa",
     "tema": [
@@ -1427,23 +1398,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-02-01-113",
+    "id": "2016-02-01-114",
     "start": 2937.79,
     "end": 2943.51,
-    "speaker_raw": "SPEAKER_12",
+    "speaker_raw": "SPEAKER_02",
     "testo": "E a proposito di DJ, era molto caratteristico il suono dance, come in questa canzone di Yasu.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": "",
-    "autore": ""
-  },
-  {
-    "id": "2016-02-01-114",
-    "start": 2943.57,
-    "end": 2946.63,
-    "speaker_raw": "SPEAKER_13",
-    "testo": "Yasu! Senti la. Fantastico.",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -1451,10 +1410,10 @@
   },
   {
     "id": "2016-02-01-115",
-    "start": 2948.8,
+    "start": 2943.57,
     "end": 2954.82,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "Bella. 3, 2, 1. Chi c'era in onda DJ? Jerry Scotti?",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Yasu! Senti la. Fantastico. Bella. 3, 2, 1. Chi c'era in onda DJ? Jerry Scotti?",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -1464,26 +1423,33 @@
     "id": "2016-02-01-116",
     "start": 2954.84,
     "end": 2998.01,
-    "speaker_raw": "SPEAKER_12",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Jerry Scotti è arrivato nella seconda fase, all'inizio c'erano solamente dei jingle musicali e tra l'altro molto bello era il teaser che lanciava la campagna dell'inizio della radio perché quando è stata acquistata Radio Music 100, prima che partisse Radio DJ c'erano un sacco di jingle dove c'era semplicemente questo jingle che diceva dal primo febbraio a Milano un nuovo DJ, la radio. questo era proprio il clan che ha lanciato la radio io lo so perché ascoltavo all'epoca Radio Music Center tra l'altro mi piaceva moltissimo il programma che faceva il sabato sera Albertino che era una classifica rock dei 200 brani più suonati dalle radio americane e tra i brani rock suonati dalle radio americane c'era questo molto bello Fabio questo ha un sacco di ricordi per te",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
     "id": "2016-02-01-117",
     "start": 3014.68,
-    "end": 3035.3,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "scusate non mi avete sentito per qualche seconda perché stavo facendo le flessioni ora ho smesso saluto questo ragazzo che dice con le parole di corona mi avete commosso grazie per questa puntata ma grazie a voi ci sentiamo domani mattina dalle 9 alle 10 con il volo del mattino perfetto senza pigiama domani senza pigiama",
-    "titolo": "Flessioni in diretta",
-    "tema": [
-      "fitness",
-      "umorismo"
-    ],
-    "tipo": "aneddoto",
+    "end": 3032.43,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Scusate, non mi avete sentito per qualche seconda perché stavo facendo le flessioni. Ora ho smesso. Saluto questo ragazzo che dice con le parole di Corona mi avete commosso. Grazie per questa puntata, ma grazie a voi. Ci sentiamo domani mattina dalle nove alle dieci con il volo del mattino.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-02-01-118",
+    "start": 3032.98,
+    "end": 3035.86,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Perfetto, senza pigiama domani. Senza pigiama. Restiamoci.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   }
 ]
