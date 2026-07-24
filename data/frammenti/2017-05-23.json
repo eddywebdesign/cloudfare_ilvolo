@@ -150,7 +150,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Roy Orbison"
+    "autore": "Roy Orbison",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/9aa3e51a-3fb3-46e5-bcdc-8c06a26b2376/front-250"
   },
   {
     "id": "2017-05-23-013",

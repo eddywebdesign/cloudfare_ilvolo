@@ -759,7 +759,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Etta James"
+    "autore": "Etta James",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/b020ccca-3c11-42e6-aa6c-bb84bfc9b9a4/front-250"
   },
   {
     "id": "2017-05-01-069",

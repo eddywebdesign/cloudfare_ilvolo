@@ -369,7 +369,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "U2"
+    "autore": "U2",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/4eebaebb-19fc-40aa-bfd9-4a9c3a2b545f/front-250"
   },
   {
     "id": "2017-02-22-033",

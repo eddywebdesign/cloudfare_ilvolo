@@ -887,7 +887,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Soundgarden"
+    "autore": "Soundgarden",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/91edb199-b6e6-430d-87b7-6f85fd794939/front-250"
   },
   {
     "id": "2017-05-18-079",

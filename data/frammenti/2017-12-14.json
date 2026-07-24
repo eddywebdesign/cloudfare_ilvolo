@@ -367,7 +367,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "David Bowie"
+    "autore": "David Bowie",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/209329ed-56b5-42ff-89c0-0f302f984e92/front-250"
   },
   {
     "id": "2017-12-14-033",

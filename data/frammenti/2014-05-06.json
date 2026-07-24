@@ -410,7 +410,8 @@
       "avventura"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true
   },
   {
     "id": "2014-05-06-033",
@@ -460,7 +461,9 @@
       "Messico"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/2771961-M.jpg"
   },
   {
     "id": "2014-05-06-037",
@@ -510,7 +513,9 @@
       "spagnolo"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/4850e4b3-855d-4e85-8a5d-c0a88f57e70f/front-250"
   },
   {
     "id": "2014-05-06-041",

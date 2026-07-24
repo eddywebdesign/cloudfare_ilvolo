@@ -475,7 +475,8 @@
     "tema": [],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Ray Charles"
+    "autore": "Ray Charles",
+    "confermato_esterno": false
   },
   {
     "id": "2016-11-29-041",
@@ -542,7 +543,9 @@
     "tema": [],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Jacob Bellens"
+    "autore": "Jacob Bellens",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/f34fbd37-3990-4468-8c74-e4ef673f345f/front-250"
   },
   {
     "id": "2016-11-29-047",

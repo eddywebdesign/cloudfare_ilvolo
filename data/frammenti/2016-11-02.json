@@ -487,7 +487,9 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Alessandro Manzoni"
+    "autore": "Alessandro Manzoni",
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/298095-M.jpg"
   },
   {
     "id": "2016-11-02-042",
@@ -530,7 +532,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Omero"
+    "autore": "Omero",
+    "confermato_esterno": true
   },
   {
     "id": "2016-11-02-045",

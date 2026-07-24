@@ -172,7 +172,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Frank Sinatra"
+    "autore": "Frank Sinatra",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/44aa7551-0af0-4478-9d1f-641d8f7a1ea1/front-250"
   },
   {
     "id": "2018-03-30-015",

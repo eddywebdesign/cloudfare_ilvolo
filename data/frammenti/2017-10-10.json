@@ -146,7 +146,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Kanye West"
+    "autore": "Kanye West",
+    "confermato_esterno": false
   },
   {
     "id": "2017-10-10-013",
@@ -172,7 +173,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Kanye West"
+    "autore": "Kanye West",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/f3bb4341-335d-4f36-a6f5-6a920ed18fef/front-250"
   },
   {
     "id": "2017-10-10-015",
@@ -208,7 +211,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Kanye West"
+    "autore": "Kanye West",
+    "confermato_esterno": false
   },
   {
     "id": "2017-10-10-018",

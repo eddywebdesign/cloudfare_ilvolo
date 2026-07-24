@@ -115,7 +115,9 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/27ed5e57-9d40-4836-8c42-4fbe432154b6/front-250"
   },
   {
     "id": "2014-05-15-010",
@@ -482,7 +484,8 @@
       "fotografia"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2014-05-15-040",
@@ -545,7 +548,8 @@
       "letteratura"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true
   },
   {
     "id": "2014-05-15-045",
@@ -698,7 +702,8 @@
       "cambiamento"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2014-05-15-058",

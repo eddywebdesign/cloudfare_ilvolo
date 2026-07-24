@@ -471,7 +471,9 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "thomas mann"
+    "autore": "thomas mann",
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/7090554-M.jpg"
   },
   {
     "id": "2017-03-24-042",

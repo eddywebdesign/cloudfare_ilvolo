@@ -33,7 +33,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Snow Patrol"
+    "autore": "Snow Patrol",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/9eb01e08-290d-483e-9b20-3fe662632cdb/front-250"
   },
   {
     "id": "2017-10-04-003",
@@ -650,7 +652,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "dottoressa"
+    "autore": "dottoressa",
+    "confermato_esterno": false
   },
   {
     "id": "2017-10-04-058",

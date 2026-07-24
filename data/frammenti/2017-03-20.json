@@ -192,7 +192,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Fink"
+    "autore": "Fink",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/6acc7fca-61e0-4b32-ae83-7bbe637e8634/front-250"
   },
   {
     "id": "2017-03-20-017",
@@ -274,7 +276,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Julia Struwa"
+    "autore": "Julia Struwa",
+    "confermato_esterno": false
   },
   {
     "id": "2017-03-20-024",

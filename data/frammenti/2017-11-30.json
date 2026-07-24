@@ -1358,7 +1358,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Dario Fo"
+    "autore": "Dario Fo",
+    "confermato_esterno": false
   },
   {
     "id": "2017-11-30-123",
@@ -1568,7 +1569,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "DJ Francesco"
+    "autore": "DJ Francesco",
+    "confermato_esterno": false
   },
   {
     "id": "2017-11-30-140",

@@ -597,7 +597,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Harry Nilsson"
+    "autore": "Harry Nilsson",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/217e5c99-1d9c-40fc-a3f9-5242e6c5f2d1/front-250"
   },
   {
     "id": "2017-12-11-053",
@@ -1816,7 +1818,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "DJ Angel"
+    "autore": "DJ Angel",
+    "confermato_esterno": false
   },
   {
     "id": "2017-12-11-160",

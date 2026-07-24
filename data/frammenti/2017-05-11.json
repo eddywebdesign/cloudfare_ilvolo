@@ -782,7 +782,9 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Winston Groom"
+    "autore": "Winston Groom",
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/981738-M.jpg"
   },
   {
     "id": "2017-05-11-070",

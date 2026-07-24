@@ -431,7 +431,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Picasso"
+    "autore": "Picasso",
+    "confermato_esterno": false
   },
   {
     "id": "2017-04-28-037",

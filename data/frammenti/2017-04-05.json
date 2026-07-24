@@ -143,7 +143,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Umberto Tozzi"
+    "autore": "Umberto Tozzi",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/e4ac2e7b-a333-4e40-8e6b-58ceffb27d2a/front-250"
   },
   {
     "id": "2017-04-05-013",
@@ -168,7 +170,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Bon Jovi"
+    "autore": "Bon Jovi",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/46d34681-ba9d-47c1-9370-7279d2fe107d/front-250"
   },
   {
     "id": "2017-04-05-015",

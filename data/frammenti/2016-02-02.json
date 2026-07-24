@@ -33,7 +33,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Dua Lipa"
+    "autore": "Dua Lipa",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/e5baa0a2-fc8b-4240-823f-dc80a8f89664/front-250"
   },
   {
     "id": "2016-02-02-003",
@@ -131,7 +133,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Maurizio"
+    "autore": "Maurizio",
+    "confermato_esterno": false
   },
   {
     "id": "2016-02-02-011",
@@ -703,7 +706,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Jim Croce"
+    "autore": "Jim Croce",
+    "confermato_esterno": false
   },
   {
     "id": "2016-02-02-058",

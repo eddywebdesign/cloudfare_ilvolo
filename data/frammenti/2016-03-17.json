@@ -490,7 +490,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Marcel Proust"
+    "autore": "Marcel Proust",
+    "confermato_esterno": true
   },
   {
     "id": "2016-03-17-038",

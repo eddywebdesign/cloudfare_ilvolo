@@ -254,7 +254,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Passengers"
+    "autore": "Passengers",
+    "confermato_esterno": false
   },
   {
     "id": "2016-09-27-020",
@@ -707,7 +708,8 @@
     ],
     "tipo": "riferimento_film",
     "video_url": "",
-    "autore": "Kevin Spacey"
+    "autore": "Kevin Spacey",
+    "confermato_esterno": false
   },
   {
     "id": "2016-09-27-057",

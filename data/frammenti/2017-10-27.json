@@ -700,7 +700,9 @@
     "tema": [],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Jones"
+    "autore": "Jones",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/c52803a0-c7ef-419c-8c71-6656d0725064/front-250"
   },
   {
     "id": "2017-10-27-061",

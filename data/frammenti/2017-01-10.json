@@ -248,7 +248,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Eric Gandini"
+    "autore": "Eric Gandini",
+    "confermato_esterno": false
   },
   {
     "id": "2017-01-10-020",
@@ -454,7 +455,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "E.L. James"
+    "autore": "E.L. James",
+    "confermato_esterno": false
   },
   {
     "id": "2017-01-10-036",

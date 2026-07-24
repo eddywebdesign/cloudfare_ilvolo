@@ -129,7 +129,8 @@
       "lettura"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2014-05-07-011",
@@ -541,7 +542,9 @@
       "dolcezza"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/9ede9440-d062-4639-be30-3a293f92f1f6/front-250"
   },
   {
     "id": "2014-05-07-047",

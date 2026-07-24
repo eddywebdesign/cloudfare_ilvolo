@@ -658,7 +658,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Leonardo da Vinci"
+    "autore": "Leonardo da Vinci",
+    "confermato_esterno": false
   },
   {
     "id": "2017-02-01-057",

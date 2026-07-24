@@ -478,7 +478,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Roberto"
+    "autore": "Roberto",
+    "confermato_esterno": false
   },
   {
     "id": "2017-10-17-042",

@@ -25,7 +25,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "James Bay"
+    "autore": "James Bay",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/d5c448fb-1941-4632-9330-24d23a295ee9/front-250"
   },
   {
     "id": "2016-03-22-002",
@@ -271,7 +273,8 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "The Killers"
+    "autore": "The Killers",
+    "confermato_esterno": false
   },
   {
     "id": "2016-03-22-022",
@@ -296,7 +299,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Dire Straits"
+    "autore": "Dire Straits",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/9ae02b02-e0f2-40ec-9cf9-e20a0f7c7fc5/front-250"
   },
   {
     "id": "2016-03-22-024",

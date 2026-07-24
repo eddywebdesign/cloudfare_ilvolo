@@ -75,7 +75,9 @@
       "Carla Bruni"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/24223102-8fef-45b7-a141-3c4e1a6f7835/front-250"
   },
   {
     "id": "2014-05-13-006",
@@ -175,7 +177,9 @@
       "Beppe Grillo"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/lHv9OiDnq8EAgY0nh0iaDVZCVPO.jpg"
   },
   {
     "id": "2014-05-13-014",
@@ -567,7 +571,9 @@
       "amore"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/67d21f9d-46d9-4fd1-8e0d-1f1a0cf25606/front-250"
   },
   {
     "id": "2014-05-13-047",
@@ -749,7 +755,9 @@
       "canzone"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/2b2c892d-012c-40e0-8238-52a59b0510c1/front-250"
   },
   {
     "id": "2014-05-13-063",

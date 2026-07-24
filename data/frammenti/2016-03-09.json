@@ -447,7 +447,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Freddie Mercury"
+    "autore": "Freddie Mercury",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/93502c31-702f-4eb1-ab86-e34eb39bd123/front-250"
   },
   {
     "id": "2016-03-09-037",

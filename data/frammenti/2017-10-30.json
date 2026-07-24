@@ -56,7 +56,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Earth, Wind & Fire"
+    "autore": "Earth, Wind & Fire",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/7193d19c-d9f2-41b8-be63-ca03a180a51b/front-250"
   },
   {
     "id": "2017-10-30-005",

@@ -710,7 +710,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "Pink Floyd"
+    "autore": "Pink Floyd",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/ad5d27b8-2b87-4ce3-bfff-bd478da6ab34/front-250"
   },
   {
     "id": "2016-10-12-059",

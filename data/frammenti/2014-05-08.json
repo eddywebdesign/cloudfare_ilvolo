@@ -261,7 +261,9 @@
       "Roma"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/eszm6c7GxD0ztbRQpqkG04P8iui.jpg"
   },
   {
     "id": "2014-05-08-022",

@@ -456,7 +456,9 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Roberto Vecchioni"
+    "autore": "Roberto Vecchioni",
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/12805152-M.jpg"
   },
   {
     "id": "2016-12-01-039",

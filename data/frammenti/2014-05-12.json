@@ -627,7 +627,9 @@
       "cultura"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/13460302-M.jpg"
   },
   {
     "id": "2014-05-12-051",

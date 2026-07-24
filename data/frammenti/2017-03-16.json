@@ -570,7 +570,9 @@
     ],
     "tipo": "riferimento_musica",
     "video_url": "",
-    "autore": "U2"
+    "autore": "U2",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/dea8640e-74be-44e9-8165-ecde08778ae9/front-250"
   },
   {
     "id": "2017-03-16-051",

@@ -384,7 +384,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Kubrick, Woody Allen"
+    "autore": "Kubrick, Woody Allen",
+    "confermato_esterno": false
   },
   {
     "id": "2016-04-07-031",
@@ -409,7 +410,8 @@
     ],
     "tipo": "riferimento_libro",
     "video_url": "",
-    "autore": "Carl Gustav Jung"
+    "autore": "Carl Gustav Jung",
+    "confermato_esterno": false
   },
   {
     "id": "2016-04-07-033",
