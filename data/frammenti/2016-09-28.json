@@ -2,9 +2,9 @@
   {
     "id": "2016-09-28-000",
     "start": 20.51,
-    "end": 20.67,
-    "speaker_raw": "SPEAKER_05",
-    "testo": "a presto",
+    "end": 55.38,
+    "speaker_raw": "SPEAKER_00",
+    "testo": "a presto Musica Musica",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -12,10 +12,10 @@
   },
   {
     "id": "2016-09-28-001",
-    "start": 54.98,
-    "end": 55.06,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "Sì.",
+    "start": 86.57,
+    "end": 86.79,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Grazie.",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -23,10 +23,10 @@
   },
   {
     "id": "2016-09-28-002",
-    "start": 86.57,
-    "end": 87.07,
-    "speaker_raw": "SPEAKER_05",
-    "testo": "grazie",
+    "start": 120.92,
+    "end": 121.32,
+    "speaker_raw": "SPEAKER_00",
+    "testo": "Musica Musica",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -34,17 +34,6 @@
   },
   {
     "id": "2016-09-28-003",
-    "start": 121.14,
-    "end": 121.34,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "Ciao!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-09-28-004",
     "start": 145.85,
     "end": 163.42,
     "speaker_raw": "SCONOSCIUTO",
@@ -55,10 +44,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-09-28-005",
+    "id": "2016-09-28-004",
     "start": 193.91,
     "end": 210.61,
-    "speaker_raw": "SPEAKER_04",
+    "speaker_raw": "SPEAKER_00",
     "testo": "Musica Ciao!",
     "titolo": "",
     "tema": [],
@@ -66,11 +55,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-09-28-006",
+    "id": "2016-09-28-005",
     "start": 226.56,
     "end": 234.82,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "Mi metto sempre di buon umore questa canzone, anche se sono passati tanti anni, anche se ci capita di sentirla spesso. Buongiorno a tutti, benvenuti, questo è il volo del mattino.",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Mi mette sempre di buon umore questa canzone, anche se sono passati tanti anni, anche se ci capita di sentirla spesso. Buongiorno a tutti, benvenuti, questo è il volo del mattino.",
     "titolo": "Benvenuti al volo del mattino",
     "tema": [
       "benvenuti",
@@ -80,10 +69,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-09-28-007",
+    "id": "2016-09-28-006",
     "start": 235.2,
     "end": 236.44,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Senti che voce!",
     "titolo": "",
     "tema": [],
@@ -91,11 +80,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-09-28-008",
+    "id": "2016-09-28-007",
     "start": 236.6,
     "end": 264.42,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "No, aspettate un attimo, aspettate un attimo. Mi sono accorto di avere questo raspino qua, così diciamo, no? Che devo andare a prendere un bicchiere d'acqua, ma mentre quando sono a Milano e lì fuori il boccione... Qui ho due fermate di autobus per andare a prenderlo perché è in fondo al palazzo. Allora, adesso dobbiamo mettere un disco un po' lungo e io nel frattempo corro e vado a prendermi un bicchiere d'acqua perché mi è rimasto il caffè qua. Ecco. E che disco vogliamo mettere? Ho dormito in albergo ragazzi, ok? Ma come mai?",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "No, aspettate un attimo, aspettate un attimo. Mi sono accorto di avere questo raspino qua, così diciamo, no? Che devo andare a prendere un bicchiere d'acqua, ma mentre quando sono a Milano e lì fuori il boccione... Qui ho due fermate di autobus per andare a prenderlo perché è in fondo al palazzo. Allora, adesso dobbiamo mettere un disco un po' lungo e io nel frattempo corro e vado a prendermi un bicchiere d'acqua perché mi è rimasto caffè qua. Ecco. E che disco vogliamo mettere? Ho dormito in albergo ragazzi, ok? Ma come mai?",
     "titolo": "Il raspino e il bicchiere d'acqua",
     "tema": [
       "raspino",
@@ -105,34 +94,32 @@
     "video_url": ""
   },
   {
-    "id": "2016-09-28-009",
+    "id": "2016-09-28-008",
     "start": 264.44,
     "end": 269.05,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_01",
     "testo": "Tutte le volte che vai a Roma, poi io ho la voce da sonno sempre e no.",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
-    "id": "2016-09-28-010",
+    "id": "2016-09-28-009",
     "start": 270.69,
     "end": 339.08,
-    "speaker_raw": "SPEAKER_12",
+    "speaker_raw": "SPEAKER_05",
     "testo": "quando stai a Roma invece hai la voce il carboidrato il glutine free il glutine il glutine avete notato che adesso dopo che vi rompiamo l'anno scorso vi abbiamo rotonescato questa roba del glutine avete notato che su tutti i pacchetti adesso è una roba di super moda scrivere glutine free cioè senza glutine senza glutine senza glutine adesso l'altra cosa è no olio di palma no olio di palma no olio di palma è vero tranne alcune aziende che si basano praticamente sull'olio di palma alcune aziende che fanno cioccolata buongiorno a tutti buongiorno allora ragazzi ho visto la scaletta delle canzoni che mettiamo questa mattina ho visto i temi ho visto voi nella webcam che siete lì a Milano mentre io sono qui a Roma devo dire che è veramente una bella mattina ho una bella mattinata il primo messaggio è non siete il mio programma preferito ma mi siete simpatici ok va bene ok fa niente a noi non ci piace a noi essere primi a noi ci piace essere secondi perché ci piace sempre inseguire qualcosa che ci capito perché poi il primo c'ha la pancia gonfia c'ha sempre l'ansia di essere superato invece il secondo è di questo ce la farò ce la farò chi è? Chi è? Chi è che mi avete chiamato? Non lo so, scusami perché sono a Roma. Chi mi avete chiamato? Chi è?",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
-    "id": "2016-09-28-011",
+    "id": "2016-09-28-010",
     "start": 339.36,
     "end": 342.96,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_01",
     "testo": "È quello che dice che non siamo il suo programma preferito.",
     "titolo": "",
     "tema": [],
@@ -140,107 +127,32 @@
     "video_url": ""
   },
   {
-    "id": "2016-09-28-012",
+    "id": "2016-09-28-011",
     "start": 343.28,
-    "end": 373.04,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "Pronto, come ti chiami? Ciao, sono Gianni. Gianni, da dove chiami? Da Bologna. Da Bologna? Sì. Sei sui colli, ti sento male. No, sono in balestra. C'hai l'accento bolognese a bomba proprio. Tipico, tipico. Senti, in balestra dove sei? Ma di dove sei Gianni? Sono di Salerno. E che fai a Bologna? Faccio il tranviere. Il tranviere? La mattina a quest'ora vai in palestra?",
-    "titolo": "Il tranviere di Salerno",
-    "tema": [
-      "tranviere",
-      "Salerno"
-    ],
-    "tipo": "aneddoto",
+    "end": 444.88,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Pronto, come ti chiami? Ciao, sono Gianni. Gianni, da dove chiami? Da Bologna. Da Bologna? Sì. Sei sui colli, ti sento male. No, sono in balestra. C'hai l'accento bolognese a bomba proprio. Tipico, tipico. Senti, in balestra dove sei... Ma di dove sei Gianni? Sono di Salerno. E che fai a Bologna? Faccio il tranviere. Il tranviere? La mattina a quest'ora vai in palestra? Sì perché guido solo di notte io. Beh fantastico, avrai delle storie bellissime da raccontare. Senti una cosa, qual è il tuo programma preferito? Di notte, di notte. perché è in target ma perché lavori perché lavori no no no perché sono anche simpatici no lo so però dico perché quello che ascolti proprio in diretta o sei sempre sveglio anche al mattino no io io allora io ascolto solo radio DJ ok però allora io ascolto la mattina e soprattutto la sera ok il tuo programma è di notte chi ti piace chi ti piace chi è che ti che ha negozi ok, Nicola che non credo sia sveglio a quest'ora sarà sveglio? Nicola è sveglio a che lo sai? è un tuo amico? come fai a saperlo? no lo so perché ho già pubblicato qualcosa su facebook ma no no non c'è più nessuno scusami Maurizio il vero numero di Nicola Vittiello finisce con 6 8 o si è 6 8 dai sarà questo non lo so ne ha 5 io non lo seguo più ormai senti Gianni che esercizi stai facendo in palestra? ma niente",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-09-28-012",
+    "start": 446.05,
+    "end": 452.19,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "grassi allora cerco di dare un attimino si è un po' grasso vediamo ok Nicola oh",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
     "id": "2016-09-28-013",
-    "start": 373.06,
-    "end": 375.14,
-    "speaker_raw": "SPEAKER_10",
-    "testo": "Sì perché guido solo di notte io.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-09-28-014",
-    "start": 375.32,
-    "end": 386.15,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "Beh fantastico, avrai delle storie bellissime da raccontare. Senti una cosa, qual è il tuo programma preferito? Di notte, di notte.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-09-28-015",
-    "start": 388.22,
-    "end": 412.2,
-    "speaker_raw": "SPEAKER_10",
-    "testo": "perché è in target ma perché lavori perché lavori no no no perché sono anche simpatici no lo so però dico perché quello che ascolti proprio in diretta o sei sempre sveglio anche al mattino no io io allora io ascolto solo Radio DJ ok però allora io ascolto la mattina e soprattutto la sera ok il tuo programma è di notte chi ti piace chi ti piace chi è che ti che ha negozi",
-    "titolo": "Il programma di notte",
-    "tema": [
-      "programma di notte",
-      "ascoltatori"
-    ],
-    "tipo": "aneddoto",
-    "video_url": ""
-  },
-  {
-    "id": "2016-09-28-016",
-    "start": 413.94,
-    "end": 418.01,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "ok, Nicola non credo sia sveglio a quest'ora sarà sveglio?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-09-28-017",
-    "start": 418.19,
-    "end": 421.07,
-    "speaker_raw": "SPEAKER_10",
-    "testo": "Nicola è sveglio a che lo sai?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-09-28-018",
-    "start": 422.8,
-    "end": 442.92,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "è un tuo amico come fai a saperlo? lo so perché ho già pubblicato qualcosa su facebook ma no no non c'è più nessuno scusami Maurizio il vero numero di Nicola Vittiello finisce con 6 8 o si è 6 8 non lo so ne ha 5 io non lo seguo più ormai senti Gianni che esercizi stai facendo in palestra?",
-    "titolo": "Il numero di Nicola",
-    "tema": [
-      "numero di Nicola",
-      "facebook"
-    ],
-    "tipo": "aneddoto",
-    "video_url": ""
-  },
-  {
-    "id": "2016-09-28-019",
-    "start": 443.76,
-    "end": 452.21,
-    "speaker_raw": "SPEAKER_10",
-    "testo": "ma niente grassi, allora cerco di dare un attimino si è un po' grasso vediamo ok Nicola",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-09-28-020",
     "start": 458.95,
     "end": 538.74,
-    "speaker_raw": "SPEAKER_12",
+    "speaker_raw": "SPEAKER_05",
     "testo": "sei in diretta su Radio DJ ciao scusami sei col viva voce del telefono un ascoltatore ha detto il volo del mattino non siete il mio programma preferito ma mi siete simpatici allora l'ho chiamato Gianni di Salerno che in questo momento fa il tranviere e in palestra a Bologna e il suo programma preferito è di notte è al telefono si si si buon gustaio buon gustaio lo so lo so Però posso dire una cosa, siccome Nicola inizia a lavorare molto tardi Gianni, se fosse veramente la persona di cuore che dice di essere, adesso lui prenderebbe un treno, che ormai con l'alta velocità è un'ora, e si farebbe un bel pranzetto con Gianni a Bologna. Magari, magari, io lo posso imitare a Milano, ma in questo momento sono a Roma e sto andando a Napoli. Ah, sta andando a Napoli, per cui scende secondo me, passa da Bologna, passa da Bologna Gianni. ci vuole anche Gianluca dovremmo chiamare tutti noi iniziamo il programma ciao ciao ciao ciao Gianni Abbiamo fatto un inizio un po' di merda, cioè se non si avverte un po' confuso. Ma cavolo, già il terzo giorno siamo messi così, confusi.",
     "titolo": "",
     "tema": [],
@@ -248,81 +160,32 @@
     "video_url": ""
   },
   {
-    "id": "2016-09-28-021",
+    "id": "2016-09-28-014",
     "start": 541.8,
-    "end": 548.92,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Lo vuoi il mantra dei Vitiello? Butta fortuna, butta fortuna, butta fortuna.",
-    "titolo": "Mantra dei Vitiello",
-    "tema": [
-      "fortuna"
-    ],
-    "tipo": "citazione",
-    "video_url": ""
-  },
-  {
-    "id": "2016-09-28-022",
-    "start": 552.49,
-    "end": 567.54,
-    "speaker_raw": "SPEAKER_14",
-    "testo": "Oh, last night she said she loved me. What a pity to part. I slept with both eyes open waiting for today to start. Good morning life. Good morning world.",
-    "titolo": "Buon giorno vita buon giorno mondo",
-    "tema": [
-      "amore",
-      "partenza"
-    ],
-    "tipo": "citazione",
-    "video_url": ""
-  },
-  {
-    "id": "2016-09-28-023",
-    "start": 567.64,
-    "end": 575.98,
-    "speaker_raw": "SPEAKER_13",
-    "testo": "How are you? Happiness. All at once I knew what living can be. Oh, last night it's free.",
+    "end": 580.62,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Lo vuoi il mantra dei Vitiello? Butta fortuna, butta fortuna, butta fortuna. Oh, last night she said she loved me What a pity to part I slept with both eyes open Waiting for today to start Good morning life, good morning world How are you, happiness? All at once I knew what living can be Oh, last night it's free Butta fortuna, butta fortuna, butta fortuna Won't someday be my wife",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-09-28-024",
-    "start": 576.24,
-    "end": 579.0,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "Butta fortuna, butta fortuna, butta fortuna.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-09-28-025",
-    "start": 579.06,
-    "end": 580.64,
-    "speaker_raw": "SPEAKER_14",
-    "testo": "Won't someday be my wife?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-09-28-026",
+    "id": "2016-09-28-015",
     "start": 587.31,
-    "end": 659.48,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "un ascoltatore dice siete il mio programma preferito ma mi siete antipatici lo vogliamo chiamare comunque? no ragazzi abbiamo delle cose belle allora intanto in edicola siamo andati in edicola questa mattina salutiamo tutti gli edicolanti che ci ascoltano se non siete ancora andati ci sono due giornali diciamo che spiccano su tutti due magazine si dice magazine? uno è chi con Berlusconi e tutti i nipotini davanti anche per i suoi 80 anni e di là c'è il boss Bruce Springsteen che è sempre bello da vedere su Vanity quindi diciamo sono le due copertine quando sono passato davanti all'edicola ma oggi noi parliamo di una cosa importante si è trovata, sapete che ognuno di noi cerca diciamo la felicità comunque la serenità basterebbe quella riuscire a stare tranquilli con le proprie cose la famiglia, il lavoro, la salute insomma queste colonne portanti della vita e uno dice la religione per esempio la meditazione ognuno cerca la propria strada per raggiungere questa serenità, questa felicità ma adesso è scientificamente provato un metodo e questo quando uno ti dice scientificamente provato è un'altra cosa perché non è solo credere ma è proprio poter palpare con le mani in maniera concreta",
+    "end": 659.5,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "un ascoltatore dice siete il mio programma preferito ma mi siete antipatici lo vogliamo chiamare comunque? no ragazzi abbiamo delle cose belle allora intanto in edicola siamo andati in edicola questa mattina salutiamo tutti gli edicolanti che ci ascoltano se non siete ancora andati ci sono due giornali diciamo che spiccano su tutti due magazine si dice magazine? uno è chi con Berlusconi e tutti i nipotini davanti anche per i suoi 80 anni e di là c'è il boss Bruce Prinstein che è sempre bello da vedere su Vanity quindi diciamo sono le due copertine quando sono passato davanti all'edicola ma oggi noi parliamo di una cosa importante si è trovata sapete che ognuno di noi cerca diciamo la felicità comunque la serenità basterebbe quella riuscire a stare tranquilli con le proprie cose la famiglia, il lavoro, la salute insomma queste colonne portanti della vita e uno dice la religione per esempio la meditazione Ognuno cerca la propria strada per raggiungere questa serenità, questa felicità. Ma adesso è scientificamente provato un metodo e questo quando uno ti dice scientificamente provato è un'altra cosa perché non è solo credere ma è proprio poter palpare con le mani in maniera concreta.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-09-28-027",
+    "id": "2016-09-28-016",
     "start": 659.82,
     "end": 661.9,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_01",
     "testo": "In realtà potremmo fare l'esperimento anche.",
     "titolo": "",
     "tema": [],
@@ -330,11 +193,132 @@
     "video_url": ""
   },
   {
-    "id": "2016-09-28-028",
+    "id": "2016-09-28-017",
     "start": 662.1,
-    "end": 664.4,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "Sì, certo. Vai Viola.",
+    "end": 663.08,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Sì, certo.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-09-28-018",
+    "start": 663.1,
+    "end": 717.63,
+    "speaker_raw": "SPEAKER_01",
+    "testo": "Vai Viola. Allora, è uscito sul Time, altro giornale che noi abbiamo nella mazzetta dei giornali. Certo. È uscito sul Time questa ricerca appunto di questo ricercatore di Harvard e quindi è abbastanza attendibile. che dà un'indicazione su come raggiungere la felicità cioè mandando una mail tutte le mattine in cui si ringrazia qualcuno 21 giorni a 21 persone diverse e non un sms non whatsapp ma una mail quindi vogliamo dire un minimo di tre righe No, ma non necessariamente, però è proprio il mezzo, non siamo abituati ad aprire la mail, solitamente temiamo la casella delle mail, invece immagino ricevere ogni giorno... Io ho la mia mail, la mia casella, come si dice, la mia posta mail è veramente nazionale.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-09-28-019",
+    "start": 718.86,
+    "end": 747.5,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "no ma è nazista ha una gestione nazista va tutto in posta indesiderata sempre ti ho mandato la mail poi vado a vedere insieme a quella roba lì offerta per l'albergo massaggi con seguino ci trovo dentro un documento importante del commercialista quindi ragazzi questa mattina Te l'avevo mandata io, ma perché me l'hai cestinata? Come ti sei trovato? Come ti sei trovato?",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-09-28-020",
+    "start": 747.82,
+    "end": 750.7,
+    "speaker_raw": "SPEAKER_01",
+    "testo": "Eh no, però mi sono trovato, io le faccio.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-09-28-021",
+    "start": 751.88,
+    "end": 772.2,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Scusa, mi piace molto, tu mi senti? Sì, sì, baciato. Questo programma perché è tutto un po' così. Ti volevo dire agli ascoltatori che non sapevo, ma ieri mentre giravo una scena con Neck per la mia serie televisiva, esatto, ci stavamo quasi per baciare, io e Neck, sei passato come un mister, cioè tu corri veloce. Ma quando mai, corro pianissimo. Ma quanto hai fatto? Un chilometro? Venti chilometri? Non lo so. No, no, no. Andavi.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-09-28-022",
+    "start": 772.22,
+    "end": 774.0,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Ho fatto sempre 40 minuti.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-09-28-023",
+    "start": 774.66,
+    "end": 781.81,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Beh, però andavi sparato, col cappellino, la maglietta, perché ti stai preparando per la DJ Ten. No, no, no. Così, per passione.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-09-28-024",
+    "start": 781.83,
+    "end": 786.61,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "No, no, io voglio perdere peso, diciamo. Questo proprio lo faccio solo per la bellezza.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-09-28-025",
+    "start": 786.69,
+    "end": 817.0,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Ok, mio papà mi diceva sempre se vuoi perdere peso... mai ademeno però insomma è una cosa bravo bravo senti di che stavamo parlando? di poste desiderate delle mail del partito nazista vorrei che i nostri ascoltatori ci mandassero adesso un messaggio con scritto delle parole di ringraziamento a qualcuno non a noi ovviamente va bene Viola? vediamo se poi il programma parte a un certo punto non lo so mettiamo un disco vediamo cosa succede",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-09-28-026",
+    "start": 819.94,
+    "end": 820.12,
+    "speaker_raw": "SCONOSCIUTO",
+    "testo": "ciao ciao",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-09-28-027",
+    "start": 905.58,
+    "end": 905.72,
+    "speaker_raw": "SPEAKER_00",
+    "testo": "Grazie.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-09-28-028",
+    "start": 953.06,
+    "end": 953.1,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Sì",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -342,22 +326,21 @@
   },
   {
     "id": "2016-09-28-029",
-    "start": 664.72,
-    "end": 717.62,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Allora, è uscito sul Time, altro giornale che noi abbiamo nella mazzetta dei giornali. Certo. È uscito sul Time questa ricerca appunto di questo ricercatore di Harvard e quindi è abbastanza attendibile. che dà un'indicazione su come raggiungere la felicità cioè mandando una mail tutte le mattine in cui si ringrazia qualcuno 21 giorni a 21 persone diverse e non un sms non whatsapp ma una mail quindi vogliamo dire un minimo di tre righe no ma non necessariamente però è proprio il mezzo non siamo abituati ad aprire la mail solitamente temiamo la casella delle mail invece immagino ricevere ogni giorno io ho la mia mail la mia casella come si dice la mia posta mail è veramente nazionale",
+    "start": 995.05,
+    "end": 1134.56,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Federica che ci ascolta da Londra dice che siamo sempre sul programma preferito che addirittura a lei ancora manca un sacco Heidi pensa dove è rimasta Federica vivi pure a Londra guarda avanti guarda avanti di solito quelli che rimpiangono Heidi sono quelli che non mi vogliono dicono preferivo Heidi per non dire odio la viola perché tu hai sostituito Heidi come Maurizio ha sostituito Spenca a un certo punto va bene allora scusate perché abbiamo avuto un po' di sporcatura all'inizio del programma vogliamo chiamare poi anche Federica da Londra non riusciamo a fare un programma noi vogliamo chiamare tutti diamo un attimo di pulizia e di ordine fatemi essere Linus un secondo ok che scemo guardalo rientra in webcam e non ti vediamo sono il più bello allora volevo dire fermila un po' di pulizia allora sono il più bravo di tutti allora aspettate un attimo fermi tutti fermi tutti Questa cosa che hanno scoperto quelli che hanno studiato Harvard è molto semplice, la diceva già Gesù, la diceva un sacco di pensatori. Gesù per esempio diceva, non è ciò che entra nella bocca che contamina l'uomo ma è ciò che esce. su questo concetto del goes around comes around cioè quello che tu dici ok lo abbiamo sempre detto tu stamattina sei arrivata in radio eri già nervosa per esempio hai litigato praticamente con tutti non mi ha neanche salutato ho litigato nella mia testa con un pezzo grosso della radio con un pezzo grosso della radio poi sei arrivata in radio hai detto così quella roba lì che tu butti fuori c'è quel veleno lì che tu butti fuori apparentemente tu pensi che cada sugli altri Ma in realtà fa un giro talmente lungo che poi ti arriva nella schiena a forma di cetriolo che tu neanche te ne accorgi. Se invece uno si sveglia la mattina e dice ok basta, ho tutta una serie di rotture di palle, di scatole così, lavoro, le robe, i soldi, la famiglia, quello che è, via tutto, mi concentro sulle cose belle, cioè dovrò dire grazie a qualcuno, grazie ai miei genitori, grazie che ho la salute, una serie di cose. Se tu cominci a spingere su quella direzione...",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
     "id": "2016-09-28-030",
-    "start": 718.86,
-    "end": 739.04,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "no ma è nazista ha una gestione nazista va tutto in posta indesiderata ti ho mandato la mail poi vado a vedere insieme a quella roba lì offerta per l'albergo massaggi con seguino ci trovo dentro un documento importante del commercialista quindi ragazzi questa mattina",
+    "start": 1135.98,
+    "end": 1155.92,
+    "speaker_raw": "SPEAKER_01",
+    "testo": "cambi quello che ti arriva, dicono così o l'hanno detto pure quelli di Harvard se non credete a Gesù credete a quelli di Harvard così vi devo dire comunque nello specifico il suggerimento che danno loro è mandare 21 mail per 21 giorni, quindi no scusa 1 mail al giorno per 21 giorni in cui si ringrazia qualcuno",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -365,120 +348,9 @@
   },
   {
     "id": "2016-09-28-031",
-    "start": 742.94,
-    "end": 746.34,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "Te l'avevo mandata io, ma perché me l'hai cestinata?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-09-28-032",
-    "start": 746.36,
-    "end": 747.5,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "Come ti sei trovato?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-09-28-033",
-    "start": 747.82,
-    "end": 750.7,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "Eh no, io le faccio.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-09-28-034",
-    "start": 751.88,
-    "end": 768.6,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "Scusa, mi piace molto, tu mi senti? Sì, sì, baciato. Questo programma perché è tutto un po' così. Ti volevo dire agli ascoltatori che non sapevo, ma ieri mentre giravo una scena con Neck per la mia serie televisiva, esatto, ci stavamo quasi per baciare, io e Neck, sei passato come un mister, cioè tu corri veloce. Ma quando mai, corro pianissimo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-09-28-035",
-    "start": 768.66,
-    "end": 772.7,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "ma quanto hai fatto? un chilometro? 20 chilometri?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-09-28-036",
-    "start": 772.82,
-    "end": 817.0,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "andavi andavi sparato col cappellino, la maglietta ti stai preparando per la DJ no no no io voglio perdere peso lo faccio solo per la bellezza mio papà mi diceva sempre se vuoi perdere peso mai ademeno però insomma è una cosa bravo bravo senti di che stavamo parlando di poste desiderate delle mail del partito nazista vorrei che i nostri ascoltatori ci mandassero adesso un messaggio con scritto delle parole di ringraziamento a qualcuno non a noi ovviamente va bene Viola? vediamo se poi il programma parte a un certo punto non lo so mettiamo un disco vediamo cosa succede",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-09-28-037",
-    "start": 819.94,
-    "end": 820.04,
-    "speaker_raw": "SCONOSCIUTO",
-    "testo": "Ciao!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-09-28-038",
-    "start": 905.58,
-    "end": 953.1,
-    "speaker_raw": "SPEAKER_14",
-    "testo": "Grazie. Sì",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-09-28-039",
-    "start": 995.05,
-    "end": 1134.56,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "Federica che ci ascolta da Londra dice che siamo sempre sul programma preferito che addirittura a lei ancora manca un sacco Heidi pensa dove è rimasta Federica vivi pure a Londra guarda avanti di solito quelli che rimpiangono Heidi sono quelli che non mi vogliono dicono preferivo Heidi per non dire odio la viola perché tu hai sostituito Heidi come Maurizio ha sostituito Spenca a un certo punto va bene allora scusate perché abbiamo avuto un po' di sporcatura all'inizio del programma vogliamo chiamare poi anche Federica da Londra non riusciamo a fare un programma noi vogliamo chiamare tutti diamo un attimo di pulizia e di ordine fatemi essere Linus un secondo ok che scemo guardalo rientra in webcam e non ti vediamo sono il più bello allora volevo dire fermila un po' di pulizia allora sono il più bravo di tutti allora aspettate un attimo fermi tutti Questa cosa che hanno scoperto quelli che hanno studiato Harvard è molto semplice, la diceva già Gesù, la diceva un sacco di pensatori. Gesù per esempio diceva, non è ciò che entra nella bocca che contamina l'uomo ma è ciò che esce. su questo concetto del goes around comes around cioè quello che tu dici ok lo abbiamo sempre detto tu stamattina sei arrivata in radio eri già nervosa per esempio hai litigato praticamente con tutti non mi ha neanche salutato ho litigato nella mia testa con un pezzo grosso della radio con un pezzo grosso della radio poi sei arrivata in radio quella roba lì che tu butti fuori c'è quel veleno lì che tu butti fuori apparentemente tu pensi che cada sugli altri Ma in realtà fa un giro talmente lungo che poi ti arriva nella schiena a forma di cetriolo che tu neanche te ne accorgi. Se invece uno si sveglia la mattina e dice ok basta, ho tutta una serie di rotture di palle, di scatole così, lavoro, le robe, i soldi, la famiglia, quello che è, via tutto, mi concentro sulle cose belle, cioè dovrò dire grazie a qualcuno, grazie ai miei genitori, grazie che ho la salute, non lo so, una serie di cose. Se tu cominci a spingere su quella direzione...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-09-28-040",
-    "start": 1135.98,
-    "end": 1155.92,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "cambi quello che ti arriva, dicono così o l'hanno detto pure quelli di Harvard se non credete a Gesù credete a quelli di Harvard così vi devo dire comunque nello specifico il suggerimento che danno loro è mandare 21 mail per 21 giorni, quindi no scusa 1 mail al giorno per 21 giorni in cui si ringrazia qualcuno",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": "",
-    "autore": ""
-  },
-  {
-    "id": "2016-09-28-041",
     "start": 1156.78,
     "end": 1180.51,
-    "speaker_raw": "SPEAKER_12",
+    "speaker_raw": "SPEAKER_05",
     "testo": "vediamo adesso dai vostri messaggi la vostra prima mail mandatela a noi, non per ringraziare noi ma che vogliamo sapere chi avete da ringraziare va bene basta dire grazie che in inglese è thank you la radio degli anni 80 e a proposito di thank you vado via anche io",
     "titolo": "grazie in inglese",
     "tema": [
@@ -489,11 +361,22 @@
     "video_url": ""
   },
   {
-    "id": "2016-09-28-042",
+    "id": "2016-09-28-032",
     "start": 1182.29,
-    "end": 1378.98,
-    "speaker_raw": "SPEAKER_14",
-    "testo": "How about getting off of these antibiotics? How about stopping eating when I'm full up? thank you terror thank you disillusionment thank you frailty thank you consequence thank you thank you silence how about me not blaming you for everything Grazie a tutti. grazie a tutti How about un unabashedly bawling your eyes out? How about not equating death with stopping? Thank you, India. Thank you, Providence. Thank you, this illusion made. grazie a tutti",
+    "end": 1187.83,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "How about getting off of these antibiotics?",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-09-28-033",
+    "start": 1187.97,
+    "end": 1357.08,
+    "speaker_raw": "SPEAKER_00",
+    "testo": "How about stopping eating when I'm full of... Thank you terror Thank you disillusionment Thank you frailty Thank you consequence Thank you, thank you silence How about me not blaming you for everything How about me enjoying the moment for once How about how good it feels to finally forgive you grazie a tutti How about un unabashedly bawling your eyes out? How about not equating death with stopping?",
     "titolo": "Ringraziamenti e autocritica",
     "tema": [
       "amore",
@@ -503,10 +386,32 @@
     "video_url": ""
   },
   {
-    "id": "2016-09-28-043",
+    "id": "2016-09-28-034",
+    "start": 1357.18,
+    "end": 1362.74,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Thank you, India. Thank you, Providence. Thank you, this illusion made.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-09-28-035",
+    "start": 1378.7,
+    "end": 1379.0,
+    "speaker_raw": "SPEAKER_00",
+    "testo": "Grazie a tutti.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-09-28-036",
     "start": 1393.87,
     "end": 1422.68,
-    "speaker_raw": "SPEAKER_12",
+    "speaker_raw": "SPEAKER_05",
     "testo": "direttamente dal Canada alla Miss Morissette allora ragazzi qualche ascoltatore giustamente ci fa notare che comunque 21 persone da ringraziare non sono poche cioè nella vita normale di una persona che ha diciamo una come dire anche una routine no? quindi magari non anche viaggia tanto cioè ti svegli la mattina la tua famiglia vai giù c'è il portinaio se c'è il portinaio se no quel che l'è vai a fare la spesa vai in ufficio torni a casa forse sono 21 le persone che incontri diciamo anche proprio tutte",
     "titolo": "21 persone da ringraziare",
     "tema": [
@@ -517,10 +422,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-09-28-044",
+    "id": "2016-09-28-037",
     "start": 1422.88,
     "end": 1427.68,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_01",
     "testo": "Sì, ma non è che devono essere tutti ringraziamenti perché mi hai dato la vita, può essere anche per una piccola cosa.",
     "titolo": "piccole cose da ringraziare",
     "tema": [
@@ -531,69 +436,65 @@
     "video_url": ""
   },
   {
-    "id": "2016-09-28-045",
+    "id": "2016-09-28-038",
     "start": 1427.7,
-    "end": 1497.1,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "Sai cosa stavo pensando mentre andava questa canzone di Alanis Morisette? Cari ascoltatori, ditemi se sbaglio, c'è questa nuova versione un po' più rai, ditemi se sbaglio. Uno può anche, ho pensato, io ho più di 21 a cui ringraziare, però se non li avesse potrei anche ringraziare qualcuno che ha fatto qualcosa a qualcun altro. di bello se lo senti veramente però non è che deve arrivare al 21 è come i desideri di Sibaldi non è che li inventi puoi anche dire grazie a un tuo cantante uno ha scritto una canzone per esempio se Nick Drake che adesso è morto che è il mio cantatore preferito fosse vivo mi ha dato così mi ha dato così tanti bei momenti diciamo mi ha regalato no no è una furbata ma una cosa che mi sono perso forse perché 21? perché è il numero perché probabilmente non so sarà nella cabala che so chi lo sa Però, allora, a proposito del ringraziamento, mentre io vi parlo, cari ascoltatori, nella webcam vedo Maurizio e Viola che tutti e due si girano di schiena.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": "",
-    "autore": ""
-  },
-  {
-    "id": "2016-09-28-046",
-    "start": 1497.12,
-    "end": 1502.35,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Non mi dicono neanche cosa è successo. No, leggevamo i messaggi.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-09-28-047",
-    "start": 1502.41,
     "end": 1508.55,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "Io invece volevo ringraziare Cristian, te lo ricordi? Cristian è quello che si è messo in fila per conquistare Viola.",
-    "titolo": "Cristian e Viola",
-    "tema": [
-      "amore",
-      "storia"
-    ],
-    "tipo": "aneddoto",
-    "video_url": ""
-  },
-  {
-    "id": "2016-09-28-048",
-    "start": 1508.57,
-    "end": 1513.59,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Secondo me è il numero uno tra tutti. Ancora, non c'è stato nessuno che ha battuto Cristian. Ma qual era? Qual era?",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Sai cosa stavo pensando mentre andava questa canzone di Alanis Morisette? Cari ascoltatori, ditemi se sbaglio, c'è questa nuova versione un po' più rai, ditemi se sbaglio. Uno può anche, ho pensato, io ho più di 21 a cui ringraziare, però se non li avesse potrei anche ringraziare qualcuno che ha fatto qualcosa a qualcun altro. di bello se lo senti veramente però non è che deve arrivare al 21 è come i desideri di Sibaldi non è che li inventi puoi anche dire grazie a un tuo cantante non lo so uno ha scritto una canzone per esempio se Nick Drake che adesso è morto che è il mio diciamo cantautore preferito fosse vivo mi ha dato così mi ha dato così tanti bei momenti diciamo mi ha regalato no no è una furbata ma una cosa che mi sono perso forse perché 21? perché è il numero perché probabilmente non lo so sarà nella cabala che so chi lo sa Però, allora, a proposito del ringraziamento, mentre io vi parlo, cari ascoltatori, nella webcam vedo Maurizio e Viola che tutti e due si girano di schiena. Non mi dicono neanche cosa è successo. No, leggevamo i messaggi. Io invece volevo ringraziare Christian, te lo ricordi? Christian è quello che si è messo in fila per conquistare Viola.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-09-28-049",
+    "id": "2016-09-28-039",
+    "start": 1508.57,
+    "end": 1510.19,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Secondo me è il numero uno tra tutti.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-09-28-040",
+    "start": 1510.21,
+    "end": 1512.55,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Ancora, non c'è stato nessuno che ha battuto Christian.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-09-28-041",
+    "start": 1512.57,
+    "end": 1513.59,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Ma qual era? Qual era?",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-09-28-042",
     "start": 1514.15,
     "end": 1514.41,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "Nome?",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Nome.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-09-28-050",
+    "id": "2016-09-28-043",
     "start": 1514.81,
     "end": 1515.67,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Cristiano.",
     "titolo": "",
     "tema": [],
@@ -601,10 +502,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-09-28-051",
+    "id": "2016-09-28-044",
     "start": 1515.71,
     "end": 1517.85,
-    "speaker_raw": "SPEAKER_09",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Quanto è importante l'amore nella tua vita?",
     "titolo": "Importanza dell'amore",
     "tema": [
@@ -614,21 +515,21 @@
     "video_url": ""
   },
   {
-    "id": "2016-09-28-052",
+    "id": "2016-09-28-045",
     "start": 1517.87,
     "end": 1521.29,
-    "speaker_raw": "SPEAKER_08",
-    "testo": "È molto importante l'amore, secondo me. È importante stare bene.",
+    "speaker_raw": "SPEAKER_03",
+    "testo": "È molto importante l'amore secondo me, è importante stare bene.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-09-28-053",
+    "id": "2016-09-28-046",
     "start": 1521.79,
     "end": 1523.69,
-    "speaker_raw": "SPEAKER_09",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Come deve essere la tua donna ideale?",
     "titolo": "donna ideale di Cristian",
     "tema": [
@@ -639,63 +540,33 @@
     "video_url": ""
   },
   {
-    "id": "2016-09-28-054",
+    "id": "2016-09-28-047",
     "start": 1523.71,
     "end": 1529.52,
-    "speaker_raw": "SPEAKER_08",
-    "testo": "Come me? Scazzata, non gliene deve fregare di niente e fa quello che gli capita alla giornata.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-09-28-055",
-    "start": 1531.17,
-    "end": 1583.57,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "però ti posso dire che guardandovi ora nella webcam quindi osservando il linguaggio del corpo secondo me Cristian ha delle potenzialità si è leccata il labretto un paio di volte anche secondo me il labbro superiore nome Cristian volevo dire che siccome sono a Roma perché devo girare una scena oggi mentre va la pubblicità una ragazza mi trucca mi ha guardato le borse sotto gli occhi è uscita e è tornata con un trolli molto più grande forse nemmeno lo so quello che sei per me quello che mi togli quello che mi dai talmente tanto che semplicemente non lo so vedere per te come lui",
-    "titolo": "potenzialità di Cristian",
-    "tema": [
-      "Cristian",
-      "potenzialità"
-    ],
-    "tipo": "aneddoto",
-    "video_url": ""
-  },
-  {
-    "id": "2016-09-28-056",
-    "start": 1584.61,
-    "end": 1605.29,
     "speaker_raw": "SPEAKER_03",
-    "testo": "l'universo lo stato di euforia di confusione sì di confusione quando trovi tutto quello che avevi perso e bruciare per te",
-    "titolo": "Testo di Bruciare per te",
-    "tema": [
-      "musica",
-      "emozioni"
-    ],
-    "tipo": "riferimento_musica",
-    "video_url": "",
-    "confermato_esterno": false
-  },
-  {
-    "id": "2016-09-28-057",
-    "start": 1613.68,
-    "end": 1616.57,
-    "speaker_raw": "SPEAKER_02",
-    "testo": "E bruciare per te, bruciare per te",
+    "testo": "Come me, scazzata, non gliene deve fregare di niente e far quello che gli capita alla giornata.",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
-    "id": "2016-09-28-058",
+    "id": "2016-09-28-048",
+    "start": 1531.17,
+    "end": 1616.57,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "però ti posso dire che guardandovi ora nella webcam quindi osservando il linguaggio del corpo secondo me Cristian ha delle potenzialità si è leccata il labretto un paio di volte anche secondo me il labbro superiore nome Cristian volevo dire che siccome sono a Roma perché devo girare una scena oggi mentre va la pubblicità una ragazza mi trucca mi ha guardato le borse sotto gli occhi è uscita e è tornata con un trolli molto più grande forse nemmeno lo so quello che sei per me quello che mi togli quello che mi dai talmente tanto che semplicemente non lo so vedere per te come lui l'universo lo stato di euforia di confusione sì di confusione quando trovi tutto quello che avevi perso e bruciare per te E bruciare per te, bruciare per te",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-09-28-049",
     "start": 1647.99,
     "end": 1652.11,
-    "speaker_raw": "SPEAKER_14",
-    "testo": "da resistere io insieme a te scrivere le pagine.",
+    "speaker_raw": "SPEAKER_02",
+    "testo": "da resistere, io insieme a te scrivere le pagine.",
     "titolo": "scrivere pagine insieme",
     "tema": [
       "amore",
@@ -705,11 +576,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-09-28-059",
+    "id": "2016-09-28-050",
     "start": 1665.08,
     "end": 1696.84,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "Immagina che buffo se lo capirò così tutto d'un tratto poi guardandoti che mi è cambiata per sempre. non vedo quel bagno che avevi sul viso lì sospeso sulla curva del tuo sorriso e bruciare per te e bruciare per te e bruciare per te e bruciare per te",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Immagina che buffo se lo capirò così tutto d'un tratto, poi guardandoti che mi è cambiata per sempre. non vedo quel bagno che avevi sul viso lì sospeso sulla curva del tuo sorriso e bruciare per te e bruciare per te e bruciare per te e bruciare per te",
     "titolo": "bruciare per qualcuno",
     "tema": [
       "amore",
@@ -719,10 +590,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-09-28-060",
+    "id": "2016-09-28-051",
     "start": 1736.03,
     "end": 1736.25,
-    "speaker_raw": "SPEAKER_14",
+    "speaker_raw": "SPEAKER_01",
     "testo": "Le bruciore",
     "titolo": "",
     "tema": [],
@@ -730,10 +601,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-09-28-061",
+    "id": "2016-09-28-052",
     "start": 1761.74,
     "end": 1764.59,
-    "speaker_raw": "SPEAKER_02",
+    "speaker_raw": "SPEAKER_05",
     "testo": "E bruciare per te, bruciare per te.",
     "titolo": "Bruciare per te",
     "tema": [
@@ -741,14 +612,13 @@
       "amore"
     ],
     "tipo": "riferimento_musica",
-    "video_url": "",
-    "confermato_esterno": false
+    "video_url": ""
   },
   {
-    "id": "2016-09-28-062",
+    "id": "2016-09-28-053",
     "start": 1797.5,
     "end": 1799.49,
-    "speaker_raw": "SPEAKER_14",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Che tu non avessi già dentro di te",
     "titolo": "",
     "tema": [],
@@ -756,11 +626,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-09-28-063",
+    "id": "2016-09-28-054",
     "start": 1805.41,
     "end": 1920.71,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "sono molti i messaggi che ci scrivete di ringraziamento siete partiti a bomba già nel senso ringrazio questo ringrazio quello però insomma 21 è un bel esercizio un po' come quando c'era la famosa lista di Igor Sibaldi che tornerà ragazzi ieri ci siamo sentiti mi ha scritto un messaggio era fantastico bello sempre anche quello legato molto alla felicità però posso dire a Vincenzo che ha scritto un bel messaggio che dice sarebbe ora di ringraziare mio padre che nonostante gli orari diversi tutte le mattine mi fa trovare il caffè in tavola piccolo grande gesto non so dire però un grazie se lo merita ciao ragazzi Vincenzo mi sono anche un po' commosso all'idea di questo padre che è tec tec che dovrei fare anche te per tutte e due io penso che ho un ricordo che a un certo punto quando ero bambino con mia sorella mia mamma andò all'ospedale tipo una settimana o due e mio padre si svegliava di notte però alla mattina c'era il budino alla vaniglia che mio padre la notte faceva per me e mia sorella per alleviare il dolore di non avere la madre in casa sembra un libro sembra un libro il budino alla vaniglia il mio prossimo libro si chiamerà così il budino alla vaniglia il nuovo romanzo ma siamo a Roma siamo a Milano ci ascoltano da Londra così ma è arrivato il momento di introdurre la città più bella d'Italia dove tutti vogliono andare a vivere perché è un capolavoro signore e signori Arianna da Brescia buongiorno Arianna buongiorno Fabio come stai? beh com'è vivere nella città più bella del mondo? lo chiedi a me tu lo sai è tanti anni però che tu non ci sei ormai Arianna vengo giovedì in realtà davvero domani vengo ottimo senti una cosa Arianna abbiamo chiesto e alcuni ascoltatori hanno chiesto perché 21 mail cioè perché bisogna mandarne proprio 21 e tu che sei istruttrice di spinni e venditrice di prodotti annessi esatto ok hai la risposta",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "sono molti i messaggi che ci scrivete di ringraziamento siete partiti a bomba già nel senso ringrazio questo ringrazio quello però insomma 21 è un bel esercizio un po' come quando c'era la famosa lista di Igor Sibaldi che tornerà ragazzi ieri ci siamo sentiti mi ha scritto un messaggio era fantastico bello sempre anche quello legato molto alla felicità però posso dire a Vincenzo che ha scritto un bel messaggio che dice sarebbe ora di ringraziare mio padre che nonostante gli orari diversi tutte le mattine mi fa trovare il caffè in tavola piccolo grande gesto non so dire però un grazie se lo merita ciao ragazzi Vincenzo mi sono anche un po' commosso all'idea di questo padre che è tec tec che dovrei fare anche te per tutte e due io penso che ho un ricordo che a un certo punto quando ero bambino con mia sorella mia mamma andò all'ospedale tipo una settimana o due e mio padre si svegliava di notte però alla mattina c'era il budino alla vaniglia che mio padre la notte faceva per me e mia sorella per alleviare il dolore di non avere la madre in casa sembra un libro sembra un libro il budino alla vaniglia il mio prossimo libro si chiamerà così il budino alla vaniglia il nuovo romanzo ma siamo a Roma siamo a Milano ci ascoltano da Londra così ma è arrivato il momento di introdurre la città più bella d'Italia dove tutti vogliono andare a vivere perché è un capolavoro signore e signori Arianna da Brescia buongiorno Arianna buongiorno Fabio come stai? beh com'è vivere nella città più bella del mondo? lo chiedi a me tu lo sai è tanti anni però che tu non ci sei ormai Arianna vengo giovedì in realtà domani vengo senti una cosa Arianna abbiamo chiesto e alcuni ascoltatori hanno chiesto perché 21 mail cioè perché bisogna mandarne proprio 21 e tu che sei istruttrice di spinni e venditrice di prodotti annessi esatto ok hai la risposta",
     "titolo": "Esercizio di gratitudine",
     "tema": [
       "gratitudine",
@@ -770,11 +640,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-09-28-064",
+    "id": "2016-09-28-055",
     "start": 1921.97,
     "end": 1955.6,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "Guarda, seguendo vari corsi, specialmente un corso di PNL, mi è stato insegnato che la testa per far sì che un atteggiamento inusuale diventi... naturale o comunque anche un'azione, una qualunque cosa che è inusuale per un essere umano se viene ripetuto per 21 giorni consecutivi diventa una cosa normalissima, è un meccanismo mentale proprio, questa cosa mi ha sempre interessato tantissimo.",
+    "speaker_raw": "SPEAKER_01",
+    "testo": "Guarda, seguendo vari corsi, specialmente un corso di PNL, mi è stato appunto insegnato che la testa per far sì che un atteggiamento inusuale diventi... naturale o comunque anche un'azione, una qualunque cosa che è inusuale per un essere umano se viene ripetuto per 21 giorni consecutivi diventa una cosa normalissima, è un meccanismo mentale proprio, questa cosa mi ha sempre interessato tantissimo.",
     "titolo": "L'abitudine in 21 giorni",
     "tema": [
       "abitudine",
@@ -784,10 +654,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-09-28-065",
+    "id": "2016-09-28-056",
     "start": 1955.82,
     "end": 1983.98,
-    "speaker_raw": "SPEAKER_12",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Diciamo se io bacio per 21 giorni di fila la mia compagna al ventiduesimo giorno quella è un'abitudine? però non ti dovresti annoiare osti osti mi sono un po' preoccupato devo spargere questi 21 giorni in 20-30 anni cioè un bacio all'anno vabbè ma quel bacio dai è una cosa naturale adesso quando noi ci saluteremo Arianna mi arriveranno altri messaggi con gente che scrive ma cos'è il PNL?",
     "titolo": "",
     "tema": [],
@@ -795,10 +665,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-09-28-066",
+    "id": "2016-09-28-057",
     "start": 1984.0,
     "end": 2090.5,
-    "speaker_raw": "SPEAKER_07",
+    "speaker_raw": "SPEAKER_01",
     "testo": "è programmazione neurolinguistica ok ce la puoi spiegare velocemente? È una scienza che dimostra come gli atteggiamenti, i movimenti del corpo, l'utilizzo delle parole in certi momenti e in certe situazioni possano essere più efficaci rispetto a... alle abitudini solite che abbiamo quindi c'è un tutto un lavoro molto profondo molto lungo anche devo dirti la verità la PNL è un lavoro costante da fare su come utilizzare al meglio le nostre potenzialità fisiche fisiologiche e verbali e verbali quindi tu scusami l'hai fatto però poi tu fai di istruttrice di spinning ti serve a caricare i tuoi allievi diciamo i tuoi assolutamente sì impariamo anche a utilizzare non solo le parole ma anche accompagnare con immagini tecniche di visualizzazione dialoghi tu sulla bicicletta ogni tanto dici chiudete gli occhi immaginatevi di essere allora effettivamente per gli estranei per chi viene a vedere una lezione di indoor cycling devo dirti la verità sembriamo tutti dei pazzi scatenati in primis l'istruttore perché deve convincere varie persone di varie anche categorie di varie mentalità a fare uno sforzo che va oltre le loro possibilità quindi noi dobbiamo imparare a utilizzare tutti i mezzi Sì, bravissimo, a utilizzare tutti i mezzi per poter convincere queste persone. Effettivamente se uno non viene a provare ci guarda e ci prende per pazzi e ci fa rinchiudere tutti e butta via la chiave anche.",
     "titolo": "PNL - Programmazione Neurolinguistica",
     "tema": [
@@ -806,14 +676,13 @@
       "mente"
     ],
     "tipo": "riferimento_libro",
-    "video_url": "",
-    "confermato_esterno": true
+    "video_url": ""
   },
   {
-    "id": "2016-09-28-067",
+    "id": "2016-09-28-058",
     "start": 2090.52,
     "end": 2108.18,
-    "speaker_raw": "SPEAKER_12",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Una mattina, siccome io sto allo sport, diciamo come Maurizio sta a YouPorn, cioè proprio zero. Una mattina vieni in radio e fai una lezioncina, mi porto a bicicletta se vuoi da casa, c'è una parola che tu usi come mantra per fargli pedalare di più?",
     "titolo": "",
     "tema": [],
@@ -821,11 +690,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-09-28-068",
+    "id": "2016-09-28-059",
     "start": 2108.86,
     "end": 2130.12,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "Ce ne sono tante, ce ne sono tante, poi dipende dal momento, dipende. anche dalle sensazioni nostre noi dobbiamo essere molto percettivi anche su quello che è la classe quindi dobbiamo riuscire a sentire a percepire quello che dicono le empatie esatto dobbiamo essere empati",
+    "speaker_raw": "SPEAKER_01",
+    "testo": "Ce ne sono tante, poi dipende dal momento, dipende. anche dalle sensazioni nostre noi dobbiamo essere molto percettivi anche su quello che è la classe quindi dobbiamo riuscire a sentire a percepire quello che dicono le empatie esatto dobbiamo essere empati",
     "titolo": "Essere percettivi",
     "tema": [
       "empatia",
@@ -835,10 +704,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-09-28-069",
+    "id": "2016-09-28-060",
     "start": 2130.24,
     "end": 2151.37,
-    "speaker_raw": "SPEAKER_12",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Arianna ti richiamiamo, sei una bella ragazza immagino, con un bel corpo ti metterai davanti a uno come Medici, se fai altri 20 chilometri queste le puoi toccare. Cioè quello per esempio potrebbe essere un buon modo. Fantastico, va bene Fabio, ciao buona giornata a tutti, buon lavoro. Dobbiamo fare una cosa per 21 giorni, ragazzi, in questo programma.",
     "titolo": "",
     "tema": [],
@@ -846,10 +715,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-09-28-070",
+    "id": "2016-09-28-061",
     "start": 2152.05,
     "end": 2153.22,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_01",
     "testo": "Una cosa inusuale.",
     "titolo": "",
     "tema": [],
@@ -857,10 +726,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-09-28-071",
+    "id": "2016-09-28-062",
     "start": 2153.34,
     "end": 2156.06,
-    "speaker_raw": "SPEAKER_12",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Cosa vogliamo fare? La nostra preghiera? Il ringraziamento?",
     "titolo": "",
     "tema": [],
@@ -868,10 +737,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-09-28-072",
+    "id": "2016-09-28-063",
     "start": 2156.56,
     "end": 2158.34,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_01",
     "testo": "Io non riesco a ricordarmela mai.",
     "titolo": "",
     "tema": [],
@@ -879,10 +748,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-09-28-073",
+    "id": "2016-09-28-064",
     "start": 2158.44,
     "end": 2164.33,
-    "speaker_raw": "SPEAKER_12",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Perché tu sei vuota dentro. Tu sei quell'ultima arachide sbagliata che rovina il cestello.",
     "titolo": "",
     "tema": [],
@@ -890,21 +759,51 @@
     "video_url": ""
   },
   {
-    "id": "2016-09-28-074",
+    "id": "2016-09-28-065",
     "start": 2188.45,
-    "end": 2284.58,
-    "speaker_raw": "SPEAKER_14",
-    "testo": "I need something Give me something wonderful I believe She won't take me somewhere I'm not supposed to be You can't steal the things that God has given you No more pain You can't take me down You can't break me down You can't take me down Love and hate How much more are we supposed ... ... ... ... ... ... ... You can't take me down You can't take me down You can't break me down",
-    "titolo": "Canzone - I need something",
-    "tema": [
-      "amore",
-      "speranza"
-    ],
-    "tipo": "citazione",
+    "end": 2202.72,
+    "speaker_raw": "SPEAKER_00",
+    "testo": "I need something Give me something wonderful I believe She won't take me somewhere I'm not supposed to be You can't steal the things that God has given you No more pain",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-09-28-075",
+    "id": "2016-09-28-066",
+    "start": 2220.7,
+    "end": 2233.02,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "You can't take me down, you can't break me down, you can't take me down. Love and hate, how much more are we supposed?",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-09-28-067",
+    "start": 2242.04,
+    "end": 2269.2,
+    "speaker_raw": "SPEAKER_00",
+    "testo": "can you see there's more to me than my mistake sometimes I get this feeling makes me hesitate I believe she won't take me somewhere I'm not supposed to be you can't steal the things that God has given you",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-09-28-068",
+    "start": 2278.94,
+    "end": 2284.58,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "You can't take me down You can't take me down You can't break me down",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-09-28-069",
     "start": 2307.35,
     "end": 2307.39,
     "speaker_raw": "SCONOSCIUTO",
@@ -915,11 +814,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-09-28-076",
+    "id": "2016-09-28-070",
     "start": 2332.52,
-    "end": 2361.2,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "Questo mondo che va tutto al contrario, cioè voi che ci ascoltate ne sapete di più di noi che parliamo, invece in un mondo giusto dovreste, molti di voi, venire qua a parlare e noi stare lì ad ascoltare. Non avete questa sensazione quando leggete i messaggi degli ascoltatori del volo del mattino, non so, degli altri programmi. comunque Dedo da Torino per esempio dice se ci fai caso se ci fate caso molti numeri che ritornano come il 3 e il 21 fanno parte della serie di Fibonacci e qui adesso la Viola ci spiega i numeri di Fibonacci perché mi devi tirare in mezzo?",
+    "end": 2373.51,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Questo mondo che va tutto al contrario, cioè voi che ci ascoltate ne sapete di più di noi che parliamo, invece in un mondo giusto dovreste, molti di voi, venire qua a parlare e noi stare lì ad ascoltare. Non avete questa sensazione quando leggete i messaggi degli ascoltatori del volo del mattino, non so, degli altri programmi. comunque Dedo da Torino per esempio dice se ci fai caso se ci fate caso molti numeri che ritornano come il 3 e il 21 fanno parte della serie di Fibonacci e qui adesso la Viola ci spiega i numeri di Fibonacci perché mi devi tirare in mezzo? perché sei l'unica di noi che ha studiato ma non Fibonacci dicesi Fibonacci Io me lo ricordo per il codice da Vinci. Certo, Leonardo da Vinci utilizzava la numerologia di Fibonacci.",
     "titolo": "Il mondo al contrario",
     "tema": [
       "mondo",
@@ -929,33 +828,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-09-28-077",
-    "start": 2361.22,
-    "end": 2365.64,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "perché sei l'unica di noi che ha studiato ma non Fibonacci dicesi Fibonacci",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-09-28-078",
-    "start": 2366.58,
-    "end": 2373.51,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "Io me lo ricordo per il codice da Vinci. Certo, Leonardo da Vinci utilizzava la numerologia di Fibonacci.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": "",
-    "autore": ""
-  },
-  {
-    "id": "2016-09-28-079",
+    "id": "2016-09-28-071",
     "start": 2373.75,
     "end": 2375.61,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_01",
     "testo": "Sì, però qual è il criterio?",
     "titolo": "",
     "tema": [],
@@ -963,11 +839,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-09-28-080",
+    "id": "2016-09-28-072",
     "start": 2375.69,
-    "end": 2512.55,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "Guarda la conchiglia, cioè il vortice della conchiglia. hai presente? ah ecco sono dei numeri domani chiamiamo Dedo da Torino che spiega esattamente cosa sono i numeri di Fibonacci è interessante Fibonacci, Tartaglia è una cosa fighissima poi quando si scopre perché viene applicata alla musica viene applicata all'arte, alla vita sono dei numeri magici come il 314 il pi greco ma questo lo sappiamo perché gli elementari l'abbiamo fatto tutti sono numeri magici che aprono le porte come il codice di una di una porta che ha il codice un altro ascoltatore guarda qua che ce n'è aspetta dov'è che ne ha mandati 7 mila eccolo qua un altro ascoltatore Sandro Daffè che non so se è la città cioè se si chiama Daffè o se è Daffè il cognome comunque fa niente psicocibernetica di Maxwell Maltz spiega molto chiaramente il concetto dei 21 giorni e porta ad esempio come esempio un uomo seguito da un'amputazione sente per 21 giorni successivi che vuol dire un uomo seguito da un'amputazione? cioè un uomo che è stato amputato a una gamba per esempio a seguito di un'amputazione a seguito di un'amputazione A seguito di un'amputazione sente per 21 giorni ancora la presenza di quell'arto amputato. Lui fa tutta la spiega. La psicocibernetica che è un tema che... Maurizio, sai di chi era amico Maxwell Maltz? Sì, certo. Nome? Christian! di Cristian di Parma no potrebbe per esempio essere un tema che domani non so chiamiamo Sandri ci spiega esattamente la psicocibernetica di Maxwell Maltz perché sono tutte cose poi arrivano anche altri messaggi che sono lì a portata di tutti e magari non lo sappiamo invece un ascoltatore l'ha letto lo condivide ok e tutti noi in questo anno che sta avvenendo 2016-2017 impariamo delle cose importanti sì Cioè Fibonacci, Malz, quell'altro dei 21 giorni, sono cose importanti. Cristian, una cosa Maurizio, e poi dopo mettiamo un disco ragazzi che è quello che vi mette in armonia col giorno, ok? Come la vuole sta ragazza Cristian, tu lo sai? Sì, sì, sì. Come la vuole? Nome?",
+    "end": 2451.9,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Guarda la conchiglia, cioè il vortice della conchiglia. hai presente? ah ecco sono su wikipedia va bene allora domani chiamiamo Dedo da Torino che spiega esattamente cosa sono i numeri di Fibonacci è interessante guarda Fibonacci, Tartaglia è una cosa fighissima poi quando si scopre perché viene applicata alla musica, viene applicata all'arte alla vita insomma sono dei numeri magici possiamo dire così come il 314 il pi greco ma questo lo sappiamo perché gli elementari l'abbiamo fatto tutti sono numeri magici che aprono le porte come il codice di una di una porta che ha il codice un altro ascoltatore guarda qua che ce n'è aspetta dov'è che ne ha mandati 7 mila eccolo qua un altro ascoltatore Sandro Daffè che non so se è la città cioè se si chiama Daffè o se è Daffè il cognome comunque fa niente psicocibernetica di Maxwell Maltz spiega molto chiaramente il concetto dei 21 giorni e porta ad esempio come esempio un uomo seguito da un'amputazione sente per 21 giorni successivi che vuol dire un uomo seguito da un'amputazione? cioè un uomo che è stato amputato a una gamba per esempio ha seguito di un'amputazione?",
     "titolo": "La magia dei numeri di Fibonacci",
     "tema": [
       "matematica",
@@ -978,10 +854,36 @@
     "video_url": ""
   },
   {
-    "id": "2016-09-28-081",
+    "id": "2016-09-28-073",
+    "start": 2451.94,
+    "end": 2452.36,
+    "speaker_raw": "SPEAKER_01",
+    "testo": "ha seguito",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-09-28-074",
+    "start": 2454.46,
+    "end": 2512.55,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "A seguito di un'amputazione sente per 21 giorni ancora la presenza di quell'arto amputato. Lui fa tutta la spiega. La psicocibernetica, che è un tema che... Maurizio, sai di chi era amico Maxwell Maltz? Sì, certo. Nome? Christian. di Cristian di Parma no potrebbe per esempio essere un tema che domani non so chiamiamo Sandri ci spiega esattamente la psicocibernetica di Maxwell Maltz perché sono tutte cose poi arrivano anche altri messaggi che sono lì a portata di tutti e magari non lo sappiamo invece un ascoltatore l'ha letto lo condivide ok e tutti noi in questo anno che sta avvenendo 2016-2017 impariamo delle cose importanti sì Cioè Fibonacci, Malz, quell'altro dei 21 giorni, sono cose importanti. Cristian, una cosa Maurizio, e poi dopo mettiamo un disco ragazzi che è quello che vi mette in armonia col giorno, ok? Come la vuole sta ragazza Cristian, tu lo sai? Sì, sì, sì. Come la vuole? Nome?",
+    "titolo": "La magia dei numeri di Fibonacci",
+    "tema": [
+      "matematica",
+      "arte",
+      "natura"
+    ],
+    "tipo": "riflessione",
+    "video_url": ""
+  },
+  {
+    "id": "2016-09-28-075",
     "start": 2512.95,
     "end": 2513.79,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Cristian.",
     "titolo": "",
     "tema": [],
@@ -989,10 +891,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-09-28-082",
+    "id": "2016-09-28-076",
     "start": 2513.83,
     "end": 2515.73,
-    "speaker_raw": "SPEAKER_09",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Quanto è importante l'amore nella tua vita?",
     "titolo": "",
     "tema": [],
@@ -1000,10 +902,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-09-28-083",
+    "id": "2016-09-28-077",
     "start": 2515.99,
     "end": 2519.43,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_03",
     "testo": "È molto importante l'amore secondo me, è importante stare bene.",
     "titolo": "",
     "tema": [],
@@ -1011,10 +913,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-09-28-084",
+    "id": "2016-09-28-078",
     "start": 2519.97,
     "end": 2521.85,
-    "speaker_raw": "SPEAKER_09",
+    "speaker_raw": "SPEAKER_04",
     "testo": "come deve essere la tua donna ideale?",
     "titolo": "",
     "tema": [],
@@ -1022,10 +924,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-09-28-085",
+    "id": "2016-09-28-079",
     "start": 2521.87,
     "end": 2540.74,
-    "speaker_raw": "SPEAKER_12",
+    "speaker_raw": "SPEAKER_05",
     "testo": "come me, scazzata, non gliene deve fregare di niente e fa quello che gli capita alla giornata è Viola, è proprio la descrizione di Viola e poi dopo Cristian cosa possiamo mettere? sentite questa, ma questa mi cambia sempre la giornata do you feel the same?",
     "titolo": "",
     "tema": [],
@@ -1033,22 +935,66 @@
     "video_url": ""
   },
   {
-    "id": "2016-09-28-086",
+    "id": "2016-09-28-080",
     "start": 2555.55,
-    "end": 2734.1,
-    "speaker_raw": "SPEAKER_14",
-    "testo": "Got someone to blame, yes I am One love, one life When it's one need in the night One love, we get to share it Leaves you baby if you don't care did I disappoint you or leave a bad taste in your mouth you act like you never had love and you want me to go without well it's too late tonight to drag the past out into the light Grazie. Grazie. no no When all you got is hope One love One love One life You're about to do what you should One life With each other Sisters grazie",
+    "end": 2576.12,
+    "speaker_raw": "SPEAKER_01",
+    "testo": "Got someone to blame, yes I am One love, one life When it's one need in the night One love, we get to share it Leaves you baby if you don't care",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-09-28-087",
+    "id": "2016-09-28-081",
+    "start": 2592.95,
+    "end": 2607.85,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Did I disappoint you? Or leave a bad taste in your mouth? You act like you never had love And you want me to go without Well it's too late tonight To drag the past out into the light",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-09-28-082",
+    "start": 2623.46,
+    "end": 2623.62,
+    "speaker_raw": "SPEAKER_00",
+    "testo": "Grazie.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-09-28-083",
+    "start": 2652.59,
+    "end": 2652.73,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Grazie.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-09-28-084",
+    "start": 2676.52,
+    "end": 2734.32,
+    "speaker_raw": "SPEAKER_00",
+    "testo": "Grazie. When all you guys hurt One love One blood One life You're about to do what you should One life With each other Sisters Grazie.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-09-28-085",
     "start": 2793.27,
     "end": 2813.24,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "volevo leggere una mail l'ho persa mannaggia eccola qua aspettate un attimo finestrini abbassati 19 gradi solo in faccia gli U2 statale in mezzo ai campi di Valpellice cosa vuoi più della vita Erven Bassino dov'è la Valpellice? dov'è Erven Bassino? Valpellice no?",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "volevo reggere una mail l'ho persa mannaggia eccola qua aspettate un attimo finestrini abbassati 19 gradi solo in faccia gli U2 statale in mezzo ai campi di Valpellice cosa vuoi più della vita Erven Bassino dov'è la Valpellice? dov'è Erven Bassino? Valpellice no?",
     "titolo": "Mail di un ascoltatore",
     "tema": [
       "viaggio",
@@ -1058,10 +1004,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-09-28-088",
+    "id": "2016-09-28-086",
     "start": 2814.31,
     "end": 2840.79,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_01",
     "testo": "ah sì eh non lo sappiamo dove lo va il pellice faccio l'imitazione di Linus ascolta più che altro prima avevi lanciato lì una roba che poi è passata un po' in sordina pellice mi dice la Laura ah pellice certo no ma io avevo capito forse pellice sono due eh cioè sono tutte e due comunque prima hai buttato lì una roba poi è entrato Nicola ed è caduta un po' in sordina e cioè che ti sei baciato con Neck ahahah",
     "titolo": "",
     "tema": [],
@@ -1069,11 +1015,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-09-28-089",
+    "id": "2016-09-28-087",
     "start": 2841.57,
-    "end": 2955.85,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "ah che ieri mi sono proprio baciato un pochino è un bel ragazzo quando tu lo baci lo dico per esperienza quando apri gli occhi se lui li apre c'ha sti occhioni blu e devo dire che è stato un bel bacio quando guarderai la serie lo vedrai è stato molto emozionante ma quando parte la serie? ma che ne so è un disastro ma volevo dire che invece un ascoltatore dice qualche anno fa ha fatto una tesina all'università e ho scoperto che molti animali usano i numeri di Fibonacci ah già me l'ero tenuto da parte quindi domani spieghiamo bene viola fai proprio come Fantozzi dicesi faccio la brezza ora teniamoci un contenuto per domani le 55 oggi abbiamo imparato una cosa secondo me almeno io l'ho imparata che una cosa ripetuta per 21 giorni crea diciamo normalità abitudine cioè entra nella norma una cosa eccezionale quindi probabilmente vale anche per le cose negative cioè una situazione per dire chiusi in una stanza probabilmente un carcere probabilmente dopo 21 giorni uno riesce a trovare una specie di come dire di sopravvivere non lo so secondo me deve essere un'azione un'azione cioè una cosa fatta va bene va bene adesso devo pensare facciamo la nostra io da domani la mando la mail ve lo dico io lo provo questo esperimento ok ok ora vedo se mi arriva qualcosa in casella di posta no tu che ti ha trovato per strada che non parlavi neanche italiano ti ho insegnato il gerundio così riesci a dire le cose che stanno accadendo e non mi hai mai mandato una mail domani te la mando devo dire che mi faccio i complimenti devo dire che la battuta è il gerundio così spieghi le cose che stanno accadendo vado via mi piace Ciao! Ciao! Ciao ragazzi!",
+    "end": 2919.15,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Ah che ieri mi sono, no ma proprio baciato, hai detto prima mi stavo per baciare con Nek, un pochino, è un bel ragazzo, è un bel ragazzo, cioè quando tu lo baci, lo dico per esperienza adesso, ne parlo per esperienza, quando apri gli occhi, se lui li apre c'ha sti occhioni blu e devo dire che è stato un bel bacio, è stato un bel bacio quando guarderai la serie lo vedrai è stato molto emozionante ma quando parte la serie? ma che ne so doveva partire già da sei mesi è un disastro ma volevo dire che invece un ascoltatore dice qualche anno fa ha fatto una tesina all'università e ho scoperto che molti animali usano i numeri di Fibonacci ah già me l'ero tenuto da parte quindi domani spieghiamo bene viola fai proprio come Fantozzi dicesi faccio la brezza ora teniamoci un contenuto per domani le 55 oggi abbiamo imparato una cosa secondo me almeno io l'ho imparata che una cosa ripetuta per 21 giorni crea diciamo normalità abitudine cioè entra nella norma una cosa eccezionale quindi probabilmente vale anche per le cose negative Cioè una situazione per dire chiusi in una stanza, probabilmente un carcere, probabilmente dopo 21 giorni uno riesce a trovare una specie di sopravvivenza.",
     "titolo": "Un bacio emozionante",
     "tema": [
       "amore",
@@ -1083,23 +1029,44 @@
     "video_url": ""
   },
   {
+    "id": "2016-09-28-088",
+    "start": 2919.17,
+    "end": 2921.41,
+    "speaker_raw": "SPEAKER_01",
+    "testo": "Non lo so, secondo me deve essere un'azione.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-09-28-089",
+    "start": 2921.91,
+    "end": 2955.85,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Un'azione, cioè una cosa fatta... va bene va bene adesso devo pensare facciamo la nostra io da domani la mando la mail ve lo dico io lo provo questo esperimento ok ok ora vedo se mi arriva qualcosa in casella di posta no tu che ti ha trovato per strada che non parlavi neanche italiano ti ho insegnato il gerundio così riesci a dire le cose che stanno accadendo e non mi hai mai mandato una mail domani te la mando devo dire che mi faccio i complimenti devo dire che la battuta è il gerundio così spieghi le cose che stanno accadendo vado via mi piace Ciao. Ciao. Ciao ragazzi.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
     "id": "2016-09-28-090",
     "start": 2956.49,
     "end": 2958.34,
-    "speaker_raw": "SPEAKER_09",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Come deve essere la tua donna ideale?",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
     "id": "2016-09-28-091",
     "start": 2958.4,
     "end": 2964.15,
-    "speaker_raw": "SPEAKER_08",
-    "testo": "Come me? Scazzata, non gliene deve fregare di niente e fa quello che gli capita alla giornata.",
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Come me, scazzata, non gliene deve fregare di niente e fa quello che gli capita alla giornata.",
     "titolo": "",
     "tema": [],
     "tipo": "",

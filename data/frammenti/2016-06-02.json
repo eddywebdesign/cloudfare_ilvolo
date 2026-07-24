@@ -3,7 +3,7 @@
     "id": "2016-06-02-000",
     "start": 4.74,
     "end": 4.9,
-    "speaker_raw": "SPEAKER_02",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Pronto?",
     "titolo": "",
     "tema": [],
@@ -13,9 +13,9 @@
   {
     "id": "2016-06-02-001",
     "start": 16.57,
-    "end": 49.54,
-    "speaker_raw": "SPEAKER_10",
-    "testo": "... ... I wanna make you sweat",
+    "end": 118.98,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Ciao Ciao Ciao I wanna make you sweat ... ... ... ... ... I wanna make you sweat your brown eyes. I wanna make you sweat your brown eyes. I wanna make you sweat your brown eyes. I wanna make you sweat. I wanna make you sweat.",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -23,10 +23,10 @@
   },
   {
     "id": "2016-06-02-002",
-    "start": 67.55,
-    "end": 68.45,
-    "speaker_raw": "SPEAKER_02",
-    "testo": "... ... ... ... ...",
+    "start": 140.5,
+    "end": 144.06,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "I want to make you sweat.",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -34,28 +34,6 @@
   },
   {
     "id": "2016-06-02-003",
-    "start": 100.22,
-    "end": 100.52,
-    "speaker_raw": "SPEAKER_10",
-    "testo": "... ... ... ...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-06-02-004",
-    "start": 140.36,
-    "end": 140.84,
-    "speaker_raw": "SPEAKER_02",
-    "testo": "... ... ...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-06-02-005",
     "start": 166.26,
     "end": 183.95,
     "speaker_raw": "SPEAKER_00",
@@ -66,11 +44,33 @@
     "video_url": ""
   },
   {
+    "id": "2016-06-02-004",
+    "start": 190.19,
+    "end": 237.77,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Good morning life, good morning sun, how are your skies above? Gee, it's great to be alive and in love. Buongiorno Oh, it's light, it's free, the summer wind to me. Oh, someday be my wife, good morning.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-06-02-005",
+    "start": 245.47,
+    "end": 429.44,
+    "speaker_raw": "SPEAKER_00",
+    "testo": "allora mentre vi aspettavo siccome per me è una pausa infinita interminabile mentre aspetto aspetto aspetto poi c'ho sonno voglio andare a dormire così intanto volevo dire agli ascoltatori che la settimana scorsa Maurizio ha fatto un super marchettone dei biscotti Milka dicendo gratuitamente che ama ieri pomeriggio mi dicono che davanti a Radio DJ c'era la mucca Milka con i biscottini il cioccolato un sacco di cose e tu ti sei preso un po' ma secondo te l'hanno mandato apposta perché hai fatto il Marchettone non lo so sei diventato un professionista del Marchettone ma hai detto che c'era anche il cartello al collo con scritto la mucca Mirka ama il volo del mattino allora vi ho mai raccontato cari ascoltatori la mia passione per la Range Rover l'Audi, la BMW e la Mercedes o Mercedes vediamo oggi se arriva una macchina in via Massena avete tempo solo oggi cioè adesso o domani mattina poi niente adesso la mia scorta di XL Cookies ancora l'hai ridetto smarchettamento allora mentre vi aspettavo ho fatto come fanno molti DJ quelli bravi diciamo cioè scrivono come scrivono quello che devono dire cioè preparano il programma con tutti degli appunti non vanno a braccio come faccio io come facciamo noi ma infatti sono emozionata ma lì la penultima puntata mi mandi una scaletta fatta come si deve mentre guardavo fuori dalla finestra con le candele accese vi aspettavo ho scritto delle cose Maurizio tu appena senti la parola Rino Gaetano metti il disco da qui in avanti sentite cosa ho scritto come va spontaneo infatti non si può io mi domando come fanno alcuni a scrivere come va sto vivendo questa doppia emozione che da una parte mi spiace sempre quando finisce una stagione perché venire qui tutte le mattine fa parte della mia routine ed è un appuntamento bello della mia giornata e della mia vita parlare con gli ascoltatori leggere i loro messaggi e parlare con voi due maurizio e viola un Una gioia che mi riempie il cuore. Le mie due creature che adesso camminano con le loro gambe anche senza di me. Non è mai una volta un gesto di gratitudine. Ma non importa. Il bene non si fa per ottenere qualcosa indietro, ma si fa perché è l'unica via per la forza e la felicità. la cattiveria in fondo si sa è sempre un frutto di debolezza sono anche contento però dall'altra parte che questo programma finisca perché così mi posso dedicare dormendo come le persone sane al mio progetto della serie tv detto questo oggi iniziamo con un bel disco anche per ricordare un grande artista che noi del volo del mattino amiamo da sempre Rino Gaetano vi è piaciuto un programma radiofonico così? maledetto ha il suo ritmo come leggo male mai un gesto di gratitudine ma non importa",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
     "id": "2016-06-02-006",
-    "start": 189.65,
-    "end": 230.92,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "Buongiorno vita, buongiorno sole, come stai? E' bello essere vivo e coinvolto Buongiorno Ciao! Ciao!",
+    "start": 453.12,
+    "end": 453.69,
+    "speaker_raw": "SCONOSCIUTO",
+    "testo": "chi mira al verso",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -78,10 +78,10 @@
   },
   {
     "id": "2016-06-02-007",
-    "start": 245.47,
-    "end": 429.44,
-    "speaker_raw": "SPEAKER_00",
-    "testo": "allora mentre vi aspettavo siccome per me è una pausa infinita interminabile mentre aspetto aspetto aspetto poi c'ho sonno voglio andare a dormire così intanto volevo dire agli ascoltatori che la settimana scorsa Maurizio ha fatto un super marchettone dei biscotti Milka dicendo gratuitamente che ama ieri pomeriggio mi dicono che davanti a Radio DJ c'era la mucca Milka con i biscottini il cioccolato un sacco di cose e tu ti sei preso un po' ma secondo te l'hanno mandato apposta perché hai fatto il Marchettone non lo so sei diventato un professionista del Marchettone ma hai detto che c'era anche il cartello al collo con scritto la mucca Mirka ama il volo del mattino allora vi ho mai raccontato cari ascoltatori la mia passione per la Range Rover l'Audi, la BMW e la Mercedes o Mercedes vediamo oggi se arriva una macchina in via Massena avete tempo solo oggi cioè adesso o domani mattina poi niente adesso la mia scorta di XL Cookies ancora l'hai ridetto smarchettamento allora mentre vi aspettavo ho fatto come fanno molti DJ quelli bravi diciamo cioè scrivono come scrivono quello che devono dire cioè preparano il programma con tutti degli appunti non vanno a braccio come faccio io come facciamo noi ma infatti sono emozionata ma lei la penultima puntata mi mandi una scaletta fatta come si deve mentre guardavo fuori dalla finestra con le candele accese vi aspettavo ho scritto delle cose Maurizio tu appena senti la parola Rino Gaetano metti il disco da qui in avanti sentite cosa ho scritto come va spontaneo infatti non si può io mi domando come fanno alcuni a scrivere come va sto vivendo questa doppia emozione che da una parte mi spiace sempre quando finisce una stagione perché venire qui tutte le mattine fa parte della mia routine ed è un appuntamento bello della mia giornata e della mia vita parlare con gli ascoltatori leggere i loro messaggi e parlare con voi due maurizio e viola Una gioia che mi riempie il cuore. Le mie due creature che adesso camminano con le loro gambe anche senza di me. Non è mai una volta un gesto di gratitudine. Ma non importa. Il bene non si fa per ottenere qualcosa indietro, ma si fa perché è l'unica via per la forza e la felicità. la cattiveria in fondo si sa è sempre un frutto di debolezza sono anche contento però dall'altra parte che questo programma finisca perché così mi posso dedicare dormendo come le persone sane al mio progetto della serie tv detto questo oggi iniziamo con un bel disco anche per ricordare un grande artista che noi del volo del mattino amiamo da sempre Rino Gaetano vi è piaciuto un programma radiofonico così? maledetto ha il suo ritmo come leggo male mai un gesto di gratitudine ma non importa",
+    "start": 516.59,
+    "end": 620.38,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Chi sguarza i cortili? Grazie a tutti. Grazie a tutti. Grazie a tutti.",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -89,32 +89,6 @@
   },
   {
     "id": "2016-06-02-008",
-    "start": 453.12,
-    "end": 453.95,
-    "speaker_raw": "SCONOSCIUTO",
-    "testo": "Grazie a tutti.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-06-02-009",
-    "start": 516.59,
-    "end": 628.03,
-    "speaker_raw": "SPEAKER_14",
-    "testo": "Chi sguarza i cortili? Grazie a tutti. Chi ha l'antifurto? Chi ha fatto un bel quadro? Chi scrive sui muri? Chi regisce d'istinto? Chi ha perso? Chi ha vinto?",
-    "titolo": "Domande sull'istinto e la vita",
-    "tema": [
-      "istinto",
-      "vittoria",
-      "sconfitta"
-    ],
-    "tipo": "riflessione",
-    "video_url": ""
-  },
-  {
-    "id": "2016-06-02-010",
     "start": 659.78,
     "end": 731.75,
     "speaker_raw": "SPEAKER_00",
@@ -125,10 +99,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-06-02-011",
+    "id": "2016-06-02-009",
     "start": 732.13,
     "end": 738.06,
-    "speaker_raw": "SPEAKER_05",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Madonna, ma io mi alzo le... Madonna, ma sei te sul serio? Sto pulendo l'aglio adesso. Stai pulendo l'aglio?",
     "titolo": "",
     "tema": [],
@@ -136,7 +110,7 @@
     "video_url": ""
   },
   {
-    "id": "2016-06-02-012",
+    "id": "2016-06-02-010",
     "start": 740.58,
     "end": 747.24,
     "speaker_raw": "SPEAKER_00",
@@ -147,10 +121,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-06-02-013",
+    "id": "2016-06-02-011",
     "start": 747.78,
     "end": 749.66,
-    "speaker_raw": "SPEAKER_05",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Sì, sì, anche quando lo puoi un disastro.",
     "titolo": "",
     "tema": [],
@@ -158,7 +132,7 @@
     "video_url": ""
   },
   {
-    "id": "2016-06-02-014",
+    "id": "2016-06-02-012",
     "start": 750.04,
     "end": 752.48,
     "speaker_raw": "SPEAKER_00",
@@ -169,10 +143,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-06-02-015",
+    "id": "2016-06-02-013",
     "start": 752.68,
     "end": 755.31,
-    "speaker_raw": "SPEAKER_05",
+    "speaker_raw": "SPEAKER_04",
     "testo": "No, non posso neanche fare la pipì, se no ti brucia poi tutto.",
     "titolo": "",
     "tema": [],
@@ -180,7 +154,7 @@
     "video_url": ""
   },
   {
-    "id": "2016-06-02-016",
+    "id": "2016-06-02-014",
     "start": 755.53,
     "end": 764.07,
     "speaker_raw": "SPEAKER_00",
@@ -194,56 +168,32 @@
     "video_url": ""
   },
   {
-    "id": "2016-06-02-017",
+    "id": "2016-06-02-015",
     "start": 764.29,
     "end": 771.34,
-    "speaker_raw": "SPEAKER_05",
-    "testo": "Papà, sai con chi sono? e sono con Fabio Volo che mi ha chiamato ti saluto mio papà Luciano cosa fa tuo papà Luciano?",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Papà, sai con chi sono? e sono con Fabio Volo che mi ha chiamato ti saluto mio papà Luciano cosa fa tu papà Luciano?",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-06-02-018",
+    "id": "2016-06-02-016",
     "start": 771.54,
-    "end": 777.66,
-    "speaker_raw": "SPEAKER_00",
-    "testo": "sta facendo l'erba nelle fragole adesso sta facendo vuoi passarmi un secondo?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-06-02-019",
-    "start": 777.8,
-    "end": 788.75,
-    "speaker_raw": "SPEAKER_05",
-    "testo": "si si che te lo passo vieni adesso puoi anche chiedere se posso venire una volta su a Milano a trovarvi almeno lo vedi subito chi ha lo schiavista tra i due si si si",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-06-02-020",
-    "start": 791.33,
     "end": 795.46,
     "speaker_raw": "SPEAKER_00",
-    "testo": "Pronti? Pronti, come va? Sono sempre Fabio, ormai sono di casa.",
-    "titolo": "Pronti? Pronti, come va?",
-    "tema": [
-      "benvenuto"
-    ],
-    "tipo": "citazione",
+    "testo": "sta facendo l'erba nelle fragole adesso sta facendo vuoi passarmelo un secondo? si che te lo passo passamelo un secondo puoi anche chiedervi se posso venire una volta su a Milano a trovarvi almeno lo vedi subito chi ha lo schiavista tra i due si si si Pronti? Pronti, come va? Sono sempre Fabio, ormai sono di casa.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-06-02-021",
+    "id": "2016-06-02-017",
     "start": 796.32,
     "end": 798.14,
-    "speaker_raw": "SPEAKER_07",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Mi fa piacere.",
     "titolo": "",
     "tema": [],
@@ -251,7 +201,7 @@
     "video_url": ""
   },
   {
-    "id": "2016-06-02-022",
+    "id": "2016-06-02-018",
     "start": 798.56,
     "end": 803.76,
     "speaker_raw": "SPEAKER_00",
@@ -265,10 +215,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-06-02-023",
+    "id": "2016-06-02-019",
     "start": 803.9,
     "end": 806.22,
-    "speaker_raw": "SPEAKER_07",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Ma diamoci da tu che non...",
     "titolo": "",
     "tema": [],
@@ -276,7 +226,7 @@
     "video_url": ""
   },
   {
-    "id": "2016-06-02-024",
+    "id": "2016-06-02-020",
     "start": 806.24,
     "end": 814.91,
     "speaker_raw": "SPEAKER_00",
@@ -290,10 +240,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-06-02-025",
+    "id": "2016-06-02-021",
     "start": 815.13,
     "end": 816.59,
-    "speaker_raw": "SPEAKER_07",
+    "speaker_raw": "SPEAKER_04",
     "testo": "È peggiorato, è...",
     "titolo": "",
     "tema": [],
@@ -301,7 +251,7 @@
     "video_url": ""
   },
   {
-    "id": "2016-06-02-026",
+    "id": "2016-06-02-022",
     "start": 818.79,
     "end": 854.5,
     "speaker_raw": "SPEAKER_00",
@@ -315,10 +265,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-06-02-027",
+    "id": "2016-06-02-023",
     "start": 854.52,
     "end": 857.02,
-    "speaker_raw": "SPEAKER_07",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Ma guarda che è più simpatico fare l'aglio che le fragoline, eh!",
     "titolo": "Fare l'aglio è più simpatico",
     "tema": [
@@ -329,53 +279,22 @@
     "video_url": ""
   },
   {
-    "id": "2016-06-02-028",
+    "id": "2016-06-02-024",
     "start": 857.67,
-    "end": 859.87,
+    "end": 873.78,
     "speaker_raw": "SPEAKER_00",
-    "testo": "Perché? Perché le fragole ti devi abbassare, no?",
-    "titolo": "Il figlio e le fragole",
-    "tema": [
-      "famiglia",
-      "genitori"
-    ],
-    "tipo": "aneddoto",
+    "testo": "perché? perché le fragole ti devi abbassare no? eh beh anche l'aglio ma comunque diciamo che oggi mi ha un po' agevolato dai ok ok va bene dopo lui va in bicicletta con le maniche che puzzano di aglio e resta sul manubrio della bici capito? ma vuoi dire?",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-06-02-029",
-    "start": 860.11,
-    "end": 866.24,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "Eh, beh, anche l'aglio, ma comunque... Sì, vabbè, diciamo... Diciamo che oggi mi ha un po' agevolato, dai.",
-    "titolo": "Il figlio e l'aglio",
-    "tema": [
-      "famiglia",
-      "genitori"
-    ],
-    "tipo": "aneddoto",
-    "video_url": ""
-  },
-  {
-    "id": "2016-06-02-030",
-    "start": 866.29,
-    "end": 875.74,
-    "speaker_raw": "SPEAKER_00",
-    "testo": "Ah, dai, ok, ok. Va bene, dopo lui va in bicicletta con le mani che puzzano di aglio, il resto è sul manubrio della bici, capito? La vuoi dire? Eh, non lo so, adesso glielo chiedo.",
-    "titolo": "Il figlio e la bicicletta",
-    "tema": [
-      "famiglia",
-      "genitori"
-    ],
-    "tipo": "aneddoto",
-    "video_url": ""
-  },
-  {
-    "id": "2016-06-02-031",
-    "start": 875.78,
-    "end": 886.97,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "Ma io pensavo che quando fa le gare, se lui si corpargesse bene di aglio che fa il vuoto intorno, e invece di arrivare sempre ultimo, potrebbe fare anche tenutimo.",
+    "id": "2016-06-02-025",
+    "start": 873.84,
+    "end": 886.9,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "eh non lo so adesso glielo chiedo io pensavo che quando fa le gare se lui si corpargesse bene di aglio che fa il vuoto intorno e invece di arrivare sempre ultimo potrebbe fare anche tenutimo",
     "titolo": "Aglio per vincere le gare",
     "tema": [
       "sport",
@@ -385,57 +304,33 @@
     "video_url": ""
   },
   {
-    "id": "2016-06-02-032",
+    "id": "2016-06-02-026",
     "start": 887.47,
-    "end": 904.5,
-    "speaker_raw": "SPEAKER_00",
-    "testo": "Fa la volata, fa la volata. Va bene, senti, buona stagione, ci sentiamo a settembre. Va bene. Ok. Buona giornata, ciao. Ciao, ciao, ciao. Ce lo passo, ciao, ciao, ciao. Sì, sì, sì. Ciao Fabio. No, ti dicevo, non ti restano il manubrio della bici, non ti puzza di aglio dopo se vai.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-06-02-033",
-    "start": 904.52,
-    "end": 905.38,
-    "speaker_raw": "SPEAKER_05",
-    "testo": "Sembro, sembro un",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-06-02-034",
-    "start": 906.12,
     "end": 941.91,
     "speaker_raw": "SPEAKER_00",
-    "testo": "eh devi stare attento va bene ragazzi in bocca al lupo sono contento che ti sei fatto il panino col pomodoro mentre ci ascoltavi va bene va bene fantastico va bene la prima canzone è stata favolosa ti è piaciuta la prima canzone? sì fantastica ok grazie ci sentiamo l'anno prossimo grazie va bene grazie mille io aspetto sempre ciao ciao ciao ciao ciao ciao ciao ciao Vi mancheranno di più le nostre parole, le nostre telefonate con gli ascoltatori o la nostra musica?",
+    "testo": "fa la volata fa la volata va bene senti buona stagione ci sentiamo a settembre va bene ok buona giornata ciao ciao ciao ciao sì sì sì no ti dicevo non ti restano il manubrio della bici non ti puzza di aglio dopo se vai sembro sembro un devi stare attento va bene ragazzi in bocca al lupo sono contento che ti sei fatto il panino col pomodoro mentre ci ascoltavi va bene fantastico la prima canzone è stata favolosa ti è piaciuta la prima canzone? sì fantastica grazie ci sentiamo l'anno prossimo grazie io aspetto sempre ciao ciao ciao ciao ciao Vi mancheranno di più le nostre parole, le nostre telefonate con gli ascoltatori o la nostra musica?",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
-    "id": "2016-06-02-035",
+    "id": "2016-06-02-027",
     "start": 942.15,
     "end": 1087.16,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "I found me a better lover in the UK ... Ciao! Ciao! grazie",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "I found me a better lover in the UK ... ... ciao ciao Ciao! grazie",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
-    "id": "2016-06-02-036",
+    "id": "2016-06-02-028",
     "start": 1127.46,
     "end": 1227.68,
     "speaker_raw": "SPEAKER_00",
-    "testo": "mentre andava questo disco meraviglioso riflettevo sul fatto che a 44 anni non ho ancora imparato a tagliarmi bene le unghie della mano destra usando la sinistra mentre mi taglio con la destra mi taglio le unghie della mano sinistra con l'altra faccio fatica e l'indice me lo sono tagliato troppo tutte le mangi viola per cui non puoi capire assolutamente no sono dieci anni che non mi mangio un'unghia per quelli che non si mangiano per quelli che non si mangiano le unghie delle mani è fastidioso tagliarle troppo capito? tu Maurizio non te le mangi più no no no non te le sei mai mangiate no no no era tuo fratello che proprio non le aveva cioè tuo fratello fino alle nocchie se le mangiava mi ricordo vabbè comunque con questa bella immagine della pulizia del corpo ci sentiamo tra pochissimo c'è anche Igor Sibaldi oggi lui le unghie se le mangia ho visto si ha le mani no no quelle dei piedi qualcuno ci dice che già mancheremo ma c'è ancora domani ragazzi c'è ancora domani e poi è la solita storia che si ripete tutti gli anni un po' ci manchiamo poi a ottobre torniamo i primi giorni ci dite che eravamo più bravi l'anno prima e dopo alla fine ci dite ah che bella questa stagione questa è stata una bella stagione sia per Radio DJ che per il volo del mattino grazie a voi di cuore cari ascoltatori noi vi vogliamo bene",
+    "testo": "mentre andava questo disco meraviglioso riflettevo sul fatto che a 44 anni non ho ancora imparato a tagliarmi bene le unghie della mano destra usando la sinistra mentre mi taglio con la destra mi taglio le unghie della mano sinistra con l'altra faccio fatica e l'indice me lo sono tagliato troppo tutte le mangi viola per cui non puoi capire assolutamente no la manicure perfetta sono dieci anni che non mi mangio un'unghia per quelli che non si mangiano per quelli che non si mangiano le unghie delle mani è fastidioso tagliarle troppo capito? tu Maurizio non te le mangi più no no no non te le sei mai mangiate no no no era tuo fratello che proprio non le aveva cioè tuo fratello fino alle nocche se le mangiava mi ricordo vabbè comunque con questa bella immagine della pulizia del corpo ci sentiamo tra pochissimo c'è anche Igor Sibaldi oggi lui le unghie se le mangia ho visto si ha le mani no no quelle dei piedi qualcuno ci dice che già mancheremo ma c'è ancora domani ragazzi c'è ancora domani e poi è la solita storia che si ripete tutti gli anni un po' ci manchiamo poi a ottobre torniamo i primi giorni ci dite che eravamo più bravi l'anno prima e dopo alla fine ci dite oh che bella questa stagione questa è stata una bella stagione sia per Radio DJ che per il volo del mattino grazie a voi di cuore cari ascoltatori noi vi vogliamo bene",
     "titolo": "La difficoltà di tagliarsi le unghie",
     "tema": [
       "autostima",
@@ -445,10 +340,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-06-02-037",
+    "id": "2016-06-02-029",
     "start": 1234.85,
     "end": 1388.64,
-    "speaker_raw": "SPEAKER_16",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Non sono ricco, ho perso tutto ma io sono happy, io ci ho provato sai, non amo il lusso io. passa l'estate tramonta il sole ma Perché ci si innamora sacralità odio davvero anche i regali",
     "titolo": "Non amo il lusso",
     "tema": [
@@ -459,23 +354,22 @@
     "video_url": ""
   },
   {
-    "id": "2016-06-02-038",
+    "id": "2016-06-02-030",
     "start": 1425.69,
     "end": 1459.07,
     "speaker_raw": "SPEAKER_00",
-    "testo": "Luca Carboni Radio DJ questo è il volo del mattino stanno arrivando le vacanze manca ancora poco e quindi i maestri e i professori ci devono dare i compiti a casa Buongiorno a tutti, è qui con noi per l'ultima volta di questa stagione il maestro professor Igor Sibaldi, buongiorno maestro Buongiorno maestro, fa mio volo, professore di tantissime cose Senti no Igor, allora andiamo in vacanza, vuoi darci dei compiti per le vacanze come tutti i maestri e i professori?",
+    "testo": "Luca Carboni Radio DJ questo è il volo del mattino stanno arrivando le vacanze manca ancora poco e quindi i maestri e i professori ci devono dare i compiti a casa Buongiorno a tutti, è qui con noi per l'ultima volta di questa stagione il maestro professor Igor Sibaldi, buongiorno maestro! Buongiorno maestro Fabio Volo, professore di tantissime cose Senti Igor, andiamo in vacanza, vuoi darci dei compiti per le vacanze come tutti i maestri e i professori?",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
-    "id": "2016-06-02-039",
+    "id": "2016-06-02-031",
     "start": 1459.09,
     "end": 1567.93,
-    "speaker_raw": "SPEAKER_08",
-    "testo": "Sì, ma le vacanze bisogna pigliarsele, non è che le vacanze uno aspetta che gliele danno, perché è brutto no? Sai che c'è questo modo di dire amo al prossimo tuo, vero? e noi abbiamo tantissimo il prossimo nostro perché gli lasciamo decidere tutto della nostra vita praticamente ti dice vai in vacanza dal giorno tale al giorno tale e tu obbedisci come se fosse la tua più grande amante e obbedire a queste cose qua non è giusto che è una delle parole più tremende della nostra civiltà il tempo libero che uno fa pensare che il resto del tempo sia schiavo per qualcuno insomma ci sono tante cose da fare prima e poi dopo finalmente quando ha finito di fare tutto quello che deve fare ha il suo tempo libero finalmente il tempo libero tra l'altro a prenderlo come tempo libero proprio sul serio diventa una delle cose più serie della vita perché se è tempo libero devo usarlo sotto forma di libertà io avevo trovato una volta in una teoria della creatività posso raccontartelo? avevo trovato in una teoria della creatività che sono importanti dove sei tu il modo per capire come una persona può essere creativa non a caso cioè può farcela in qualsiasi momento sentiamo le campane sei innamorato quando uno sente le campane dice che è innamorato allora dicevi la creatività allora nella teoria della creatività il tempo libero è importante perché è una cosa che serve a connetterti insieme a tante altre a cui non fa caso un consiglio per usare bene il tempo libero era bellissimo Fatevi dei regali, ma dei regali segreti che nessuno sappia, preparati con estrema precisione, con grande anticipo. Ti prepari un regalo, per il mio tempo libero mi faccio questo regalo qua, nessuno lo saprà mai.",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Sì, ma le vacanze bisogna pigliarsele, non è che le vacanze uno aspetta che gliele danno, perché è brutto no? Sai che c'è questo modo di dire amo al prossimo tuo, vero? e noi abbiamo tantissimo il prossimo nostro perché gli lasciamo decidere tutto della nostra vita praticamente ti dice vai in vacanza dal giorno tale al giorno tale e tu obbedisci come se fosse la tua più grande amante e obbedire a queste cose qua non è giusto che è una delle parole più tremende della nostra civiltà il tempo libero che uno fa pensare che il resto del tempo sia schiavo per qualcuno insomma ci sono tante cose da fare prima e poi dopo finalmente quando ha finito di far tutto quello che deve fare ha il suo tempo libero finalmente il tempo libero tra l'altro a prenderlo come tempo libero proprio sul serio diventa una delle cose più serie della vita perché se è tempo libero devo usarlo sotto forma di libertà io avevo trovato una volta in una teoria della creatività posso raccontartelo? avevo trovato in una teoria della creatività dove sei tu il modo per capire come una persona può essere creativa non a caso cioè può farcela in qualsiasi momento sentiamo le campane sei innamorato quando uno sente le campane dice che è innamorato allora dicevi la creatività allora nella teoria della creatività il tempo libero è importante perché è una cosa che serve a connetterti insieme a tante altre a cui non fa caso un consiglio per usare bene il tempo libero era bellissimo Fatevi dei regali, ma dei regali segreti che nessuno sappia, preparati con estrema precisione, con grande anticipo. Ti prepari un regalo, per il mio tempo libero mi faccio questo regalo qua, nessuno lo saprà mai.",
     "titolo": "Non aspettare le vacanze",
     "tema": [
       "vacanze",
@@ -485,7 +379,7 @@
     "video_url": ""
   },
   {
-    "id": "2016-06-02-040",
+    "id": "2016-06-02-032",
     "start": 1568.58,
     "end": 1570.88,
     "speaker_raw": "SPEAKER_00",
@@ -499,10 +393,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-06-02-041",
+    "id": "2016-06-02-033",
     "start": 1571.04,
     "end": 1577.28,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Il regalo che ti dia una gioia straordinaria e che sia una delle cose più preziose che ti possano capitare nell'arco di mezzo, penso.",
     "titolo": "Il regalo della libertà",
     "tema": [
@@ -513,7 +407,7 @@
     "video_url": ""
   },
   {
-    "id": "2016-06-02-042",
+    "id": "2016-06-02-034",
     "start": 1578.25,
     "end": 1581.25,
     "speaker_raw": "SPEAKER_00",
@@ -527,11 +421,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-06-02-043",
+    "id": "2016-06-02-035",
     "start": 1581.27,
     "end": 1637.44,
-    "speaker_raw": "SPEAKER_08",
-    "testo": "Sì, perché se lo dici a qualcuno non sei libero di scegliere, perché scegli anche con la testa dell'altra persona. È un regalo, un esempio di regalo di questo tipo. Senti che bello. Una persona ci pensa a questo regalo e dice, bene, allora io mi prendo un mio tempo libero una mattina libera dal lavoro. Esco di Roma, esco di casa alle 8, vado a Ostia tutto il giorno, la mattina dalle 9 fino a mezzogiorno. Io non ho mai visto il mare in un giorno feriale. in primavera, è aprile mi ha raccontato, non ho mai visto il mare in un giorno feriare e so che non lo vedrò mai se non lo decido, il giorno decido di fare questo regalo qua, quindi va a Ostia si fa la sua passeggiata si arriva al mare, vede com'è bello essere perfettamente liberi, totalmente liberi si fa una magnata romana e alle tre di nuovo in ufficio lavorare bellissimo come regalo questo bello, bello, va bene, ragazzi domani tutti a Ostia, nove nove un quarto ci si trova lì, va bene",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Sì, perché se lo dici a qualcuno non sei libero di scegliere, perché scegli anche con la testa dell'altra persona. È un regalo, un esempio di regalo di questo tipo, senti che bello. Una persona ci pensa a questo regalo e dice, bene, allora io mi prendo un mio tempo libero una mattina libera dal lavoro. esco di Roma esco di casa alle 8 vado a Ostia tutto il giorno la mattina dalle 9 fino a mezzogiorno io non ho mai visto il mare in un giorno feriale in primavera, è aprile mi ha raccontato, non ho mai visto il mare in un giorno feriare e so che non lo vedrò mai se non lo decido, il giorno che lo decido gli faccio questo regalo qua, quindi va a Ostia si fa la sua passeggiata si arriva al mare, vede com'è bello essere perfettamente liberi, totalmente liberi si fa una magnata romana e alle tre di nuovo in ufficio lavorare bellissimo come regalo questo bello, bello, va bene, ragazzi domani tutti a Ostia, 9 e 9 e un quarto ci si trova lì, va bene",
     "titolo": "Il regalo della scelta",
     "tema": [
       "regalo",
@@ -541,7 +435,7 @@
     "video_url": ""
   },
   {
-    "id": "2016-06-02-044",
+    "id": "2016-06-02-036",
     "start": 1638.84,
     "end": 1666.63,
     "speaker_raw": "SPEAKER_00",
@@ -552,37 +446,35 @@
     "video_url": ""
   },
   {
-    "id": "2016-06-02-045",
+    "id": "2016-06-02-037",
     "start": 1670.9,
     "end": 1671.48,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "Tutto volume!",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Tutto volume.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-06-02-046",
+    "id": "2016-06-02-038",
     "start": 1848.45,
     "end": 1902.58,
     "speaker_raw": "SPEAKER_00",
-    "testo": "come me la sono goduta questa canzone inaspettata così dei dubbi brothers dei dubbi brothers allora ragazzi vi do io anche un compito per le vacanze prima di chiudere questa stagione voglio riproporvi il famoso discorso che fece che è sempre difficile da dire il nome di sta ragazza eh vista signora Meryl Meryl Streep mh Sì Perché c'è chi la chiama Marilyn Strip Mary Strip Invece lei è Meryl Strip Esatto M-A-R-Y-L Sì Meryl Strip Ok Meryl Strip Amica di Wynonna Ryder Can you schweiz Uma turma Wynonna Ryder Kevin Schweiz Patrick Schweiz Patrick Schweiz Kevin McConnery Can you McConnery Can you McConnery Va bene, sentiamo questa che se avesse avuto un nome più facile avrebbe avuto più successo.",
+    "testo": "come me la sono goduta questa canzone inaspettata così dei dubi brothers dei dubi brothers allora ragazzi vi do io anche un compito per le vacanze prima di chiudere questa stagione voglio riproporvi il famoso discorso che fece che è sempre difficile da dire il nome di sta ragazza eh vista signora Meryl Meryl Streep mh Sì Perché c'è chi la chiama Marilyn Strip Mary Strip Invece lei è Meryl Strip Esatto M-A-R-Y-L Sì Meryl Strip Ok Meryl Strip Amica di Wynonna Ryder Can you schweiz Uma turma Wynonna Ryder Kevin Schweiz Patrick Schweiz Patrick Schweiz Kevin McConnery Can you McConnery Perché Va bene, sentiamo questa che se avesse avuto un nome più facile avrebbe avuto più successo.",
     "titolo": "discorso di Meryl Streep",
     "tema": [
       "nome",
       "pronuncia"
     ],
     "tipo": "riferimento_libro",
-    "video_url": "",
-    "autore": "Meryl Streep",
-    "confermato_esterno": false
+    "video_url": ""
   },
   {
-    "id": "2016-06-02-047",
+    "id": "2016-06-02-039",
     "start": 1903.6,
     "end": 1906.46,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_01",
     "testo": "Power of Empathy",
     "titolo": "",
     "tema": [],
@@ -590,7 +482,7 @@
     "video_url": ""
   },
   {
-    "id": "2016-06-02-048",
+    "id": "2016-06-02-040",
     "start": 1908.14,
     "end": 1987.17,
     "speaker_raw": "SPEAKER_00",
@@ -605,11 +497,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-06-02-049",
+    "id": "2016-06-02-041",
     "start": 2022.94,
-    "end": 2101.87,
-    "speaker_raw": "SPEAKER_13",
-    "testo": "Ciao! we don't love you anymore so walk your farts out the door no",
+    "end": 2101.97,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Ciao Ciao So you don't love you anymore So walk your farts out the door Grazie.",
     "titolo": "Citazione di una canzone",
     "tema": [
       "amore",
@@ -619,144 +511,65 @@
     "video_url": ""
   },
   {
-    "id": "2016-06-02-050",
+    "id": "2016-06-02-042",
     "start": 2136.8,
     "end": 2172.13,
     "speaker_raw": "SPEAKER_00",
-    "testo": "chissà se anche Lizzo come Rizzo ha la pagnotta nel forno questa l'ho capita solo io no l'abbiamo capita tutti l'hai capita anche te Rizzo ha la pagnotta nel forno ma è incredibile allora ciao Fabio tu mi hai aiutato da bambino a trovare una colonna sonora di un film pazzesco ancora oggi parte fondamentale della mia vita meravigliosa Matteo Davigevano allora io posso passare adesso tutte le estate con questa cosa che mi attanaglia che cosa gli avrò consigliato che disco gli avrò consigliato colonne sonore belle diciamo dei cd, dei dischi, degli album colonne sonore belle quali sono?",
+    "testo": "chissà se anche Lizzo come Rizzo ha la pagnotta nel forno questa l'ho capita solo io no l'abbiamo capita tutti l'hai capita anche te Rizzo ha la pagnotta nel forno ma è incredibile allora ciao Fabio tu mi hai aiutato da bambino a trovare una colonna sonora di un film pazzesco ancora oggi parte fondamentale della mia vita meravigliosa Matteo Davigevano allora io posso passare adesso tutte le estate con questa cosa che mi attanaglia che cosa gli avrò consigliato che disco gli avrò consigliato Colonne sonore belle, diciamo, dei cd, dei dischi, degli album, colonne sonore belle quali sono?",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
-    "id": "2016-06-02-051",
+    "id": "2016-06-02-043",
     "start": 2173.65,
     "end": 2182.24,
     "speaker_raw": "SPEAKER_01",
-    "testo": "Big Lebowski è una bellissima colonna sonora io ti devo tutti gli Oceans 11, 12 a me piace molto un grande colonna sonora",
+    "testo": "Big Lebowski è una bellissima colonna sonora Io ti devo tutti gli Oceans, Eleven, Twelve A me piace molto Un grande colonna sonora",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
-    "id": "2016-06-02-052",
+    "id": "2016-06-02-044",
     "start": 2183.0,
     "end": 2216.87,
     "speaker_raw": "SPEAKER_00",
-    "testo": "fratello dove sei grandissima colonna sonora in questo momento non mi viene in mente niente tutti quelli di Tarantino grandissima colonna sonora ce ne sono tanti vediamo quale un attimo Pronto? Scusa Matteo, sono Fabio Volo. Ciao Fabio! Ciao, sono curioso come una scimmia. Ma che... cos'è successo? Che disco? Che colonna sonora? Che bambino? No, ma ascoltami, è successa una vita di anni fa. Quanti anni hai tu?",
+    "testo": "fratello dove sei grandissima colonna sonora in questo momento non mi viene in mente niente tutti quelli di Tarantino grandissima colonna sonora ce ne sono tanti vediamo quale un attimo Pronto? Scusa Matteo, sono Fabio Volo. Ciao Fabio! Ciao, sono curioso come una scimmia. Ma cos'è successo? Che disco? Che colonna sonora? Che bambino? No, ma ascoltami, è successa una vita di anni fa. Quanti anni hai tu?",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
-    "id": "2016-06-02-053",
+    "id": "2016-06-02-045",
     "start": 2217.21,
-    "end": 2229.82,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Ne faccio 36 ed è successo almeno 24 anni fa. Ma sono così vecchio io! Ammazza! Vedi tu, vedi tu, no, sul serio. Sai dove?",
-    "titolo": "Ammazza, sono vecchio!",
-    "tema": [
-      "età",
-      "vecchiaia"
-    ],
-    "tipo": "aneddoto",
-    "video_url": ""
-  },
-  {
-    "id": "2016-06-02-054",
-    "start": 2229.98,
-    "end": 2231.0,
-    "speaker_raw": "SPEAKER_00",
-    "testo": "Eh?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-06-02-055",
-    "start": 2231.06,
-    "end": 2231.9,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "All'Ibraccio.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-06-02-056",
-    "start": 2232.4,
-    "end": 2235.3,
-    "speaker_raw": "SPEAKER_00",
-    "testo": "All'Ibraccio. Ah, ok, ok.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-06-02-057",
-    "start": 2235.32,
-    "end": 2244.09,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Allora, io ero con mio padre e siamo entrati dentro. Non so se ti ricordi, tu al secondo piano vendevano i cd e i dischi usati.",
-    "titolo": "Entrati in un negozio di dischi",
-    "tema": [
-      "negozio",
-      "dischi"
-    ],
-    "tipo": "aneddoto",
-    "video_url": ""
-  },
-  {
-    "id": "2016-06-02-058",
-    "start": 2244.55,
-    "end": 2246.73,
-    "speaker_raw": "SPEAKER_00",
-    "testo": "Sì, sì, sì, sì, certo che me lo ricordo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-06-02-059",
-    "start": 2247.01,
     "end": 2292.37,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Ok, noi abbiamo chiesto al commesso un... dal titolo di un film o un cavolo di cd per riuscire a recuperarlo e non sapevamo il titolo di niente eccetera abbiamo detto il titolo del film tu eri dietro di noi e mi sono fatto i fatti vostri come sapete mi sono impicciato bravo Fabio ti sei girato e hai dato il titolo del film che poi era il grande fratello no no no il grande freddo lo sai che io qua c'ho il vinile qua a New York di quel disco scusami ma che canzone vuoi di quel che canzone hai usato poi Beh, la scena più bella di tutte, che poi ho adoperato anche, è quella della cucina quando loro fanno da mangiare.",
-    "titolo": "Fabio Volo aiuta un fan a trovare la colonna sonora de Il grande freddo",
-    "tema": [
-      "musica",
-      "ricordi",
-      "fan"
-    ],
-    "tipo": "aneddoto",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Ne faccio 36 ed è successo almeno 24 anni fa. ma sono così vecchio io ammazza vedi tu vedi tu no sul serio sai dove? eh all'ibraccio all'ibraccio ah ok ok allora io ero con mio padre e siamo entrati dentro non so se ti ricordi tu al secondo piano vendevano i cd e i dischi usati sì sì sì sì certo che me lo ricordo ok noi abbiamo chiesto al commesso un dal titolo di un film o un cavolo di cd per riuscire a recuperarlo e non sapevamo il titolo di niente eccetera abbiamo detto il titolo del film tu eri dietro di noi e mi sono fatto i fatti vostri come sapete mi sono impicciato bravo Fabio ti sei girato e hai dato il titolo del film che poi era il grande fratello no no no il grande freddo lo sai che io qua c'ho il vinile qua a New York di quel disco scusami ma che canzone vuoi di quel che canzone hai usato poi Beh la scena più bella di tutte che poi ho adoperato anche è quella della cucina quando loro fanno da mangiare.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-06-02-060",
+    "id": "2016-06-02-046",
     "start": 2292.91,
     "end": 2298.85,
     "speaker_raw": "SPEAKER_00",
-    "testo": "Ah, ma scusami, ma tu cosa dovevi fare con quel disco? Dovevi fare la colonna sonora di qualcosa o la colonna sonora della tua vita, intendevi?",
+    "testo": "Ah ma scusami ma tu cosa dovevi fare con quel disco? Dovevi fare la colonna sonora di qualcosa o la colonna sonora della tua vita intendevi?",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-06-02-061",
+    "id": "2016-06-02-047",
     "start": 2298.91,
     "end": 2305.39,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Nel senso che poi si è ripetuta negli anni perché l'ho adoperata per più e per più cose perché mi è sempre piaciuta.",
     "titolo": "",
     "tema": [],
@@ -764,21 +577,21 @@
     "video_url": ""
   },
   {
-    "id": "2016-06-02-062",
+    "id": "2016-06-02-048",
     "start": 2305.66,
     "end": 2327.17,
     "speaker_raw": "SPEAKER_00",
-    "testo": "Scusami, ma quando sei lì da solo con una ragazza, la tua fidanzata o una con cui volevi fare bel colpo e ti svegli la mattina, vai per fare il caffè e gli metti la colonna sonora del grande freddo, cioè non ti ha cambiato la vita? Sì, tutta la vita. Mi devi, cosa potrei fare? Potrei svegliarmi io con tua moglie per una volta e siamo pari.",
+    "testo": "Scusami, ma quando sei lì da solo con una ragazza, la tua fidanzata o una con cui volevi fare bel colpo, è tua moglie, ti svegli la mattina, vai per fare il caffè e gli metti la colonna sonora del grande freddo, cioè non ti ha cambiato la vita? Sì, tutta la vita. Mi devi, cosa potrei fare? Potrei svegliarmi io con tua moglie per una volta e siamo pari.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-06-02-063",
+    "id": "2016-06-02-049",
     "start": 2329.56,
     "end": 2331.72,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Non è male per andare a fare i passi, non è male.",
     "titolo": "",
     "tema": [],
@@ -786,7 +599,7 @@
     "video_url": ""
   },
   {
-    "id": "2016-06-02-064",
+    "id": "2016-06-02-050",
     "start": 2331.74,
     "end": 2334.8,
     "speaker_raw": "SPEAKER_00",
@@ -797,10 +610,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-06-02-065",
+    "id": "2016-06-02-051",
     "start": 2335.08,
     "end": 2337.01,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Sto rientrando da Varese.",
     "titolo": "",
     "tema": [],
@@ -808,7 +621,7 @@
     "video_url": ""
   },
   {
-    "id": "2016-06-02-066",
+    "id": "2016-06-02-052",
     "start": 2337.3,
     "end": 2341.85,
     "speaker_raw": "SPEAKER_00",
@@ -819,10 +632,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-06-02-067",
+    "id": "2016-06-02-053",
     "start": 2342.21,
     "end": 2348.37,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_04",
     "testo": "No, ma figurati, tutte le mattine ti ascolto sempre, quindi per me è la normalità, è come se fossi un amico, guarda.",
     "titolo": "",
     "tema": [],
@@ -830,7 +643,7 @@
     "video_url": ""
   },
   {
-    "id": "2016-06-02-068",
+    "id": "2016-06-02-054",
     "start": 2348.39,
     "end": 2354.52,
     "speaker_raw": "SPEAKER_00",
@@ -841,10 +654,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-06-02-069",
+    "id": "2016-06-02-055",
     "start": 2354.54,
     "end": 2357.52,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Va bene, non so gli esiti poi finali quali potrebbero essere,",
     "titolo": "",
     "tema": [],
@@ -852,7 +665,7 @@
     "video_url": ""
   },
   {
-    "id": "2016-06-02-070",
+    "id": "2016-06-02-056",
     "start": 2359.22,
     "end": 2370.43,
     "speaker_raw": "SPEAKER_00",
@@ -863,19 +676,51 @@
     "video_url": ""
   },
   {
-    "id": "2016-06-02-071",
-    "start": 2385.18,
-    "end": 2528.15,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "Buonasera a tutti. Ciao Ciao Ciao we were just passing the time we were young and we ain't had no vows no no no maybe later on i'll text you and maybe you'll reply we both know we had no patience together day and night you deny on our supply and we ain't satisfied i could love you all occasions we got way too much in common no no no Musica",
+    "id": "2016-06-02-057",
+    "start": 2385.26,
+    "end": 2385.8,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Grazie a tutti.",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
-    "id": "2016-06-02-072",
+    "id": "2016-06-02-058",
+    "start": 2423.8,
+    "end": 2424.18,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "grazie a tutti",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-06-02-059",
+    "start": 2449.33,
+    "end": 2450.25,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "No, no, no, no.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-06-02-060",
+    "start": 2487.09,
+    "end": 2528.15,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Musica Musica",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-06-02-061",
     "start": 2561.16,
     "end": 2568.7,
     "speaker_raw": "SPEAKER_00",
@@ -889,7 +734,7 @@
     "video_url": ""
   },
   {
-    "id": "2016-06-02-073",
+    "id": "2016-06-02-062",
     "start": 2568.72,
     "end": 2571.5,
     "speaker_raw": "SPEAKER_01",
@@ -900,24 +745,21 @@
     "video_url": ""
   },
   {
-    "id": "2016-06-02-074",
+    "id": "2016-06-02-063",
     "start": 2571.52,
     "end": 2637.83,
     "speaker_raw": "SPEAKER_00",
-    "testo": "Non si truccherà mai più ed è sempre bella, è sempre bella. Va bene ragazzi, allora vi volevo lasciare con una canzone che ha un bel tiro, che ho trovato l'altro giorno e che secondo me se andate a correre, per esempio scusami, leggevo questo messaggio, fammi tornare. Io questa mattina vado per la seconda settimana di fila a correre, cuffie nelle orecchie e ci provo, ma siccome qui in campagna sono tutti più sportivi di me, vado nei campi da sola così non mi faccio superare continuamente. Buona giornata a tutti. allora io penso come si fa ad andare a correre e ascoltare la radio uno quando corre non ha bisogno di sentire musica che gli pompa come quando fa gli esercizi ma io mi annoio terribilmente quando corro comunque niente può aiutare allora io ho trovato una canzone che è perfetta per quando andate a correre per esempio questa ascoltatrice ascolta la radio ma adesso ascolterà una canzone che la pompa Beh, l'inizio non è composo. Ma senti, state calmi. Senti che roba. Sto piccando. Vado anch'io a correre adesso durante questa canzone.",
-    "titolo": "Canzone per correre",
-    "tema": [
-      "musica",
-      "sport"
-    ],
-    "tipo": "citazione",
+    "testo": "Non si truccherà mai più ed è sempre bella, è sempre bella. bene ragazzi allora vi volevo lasciare con una canzone che ha un bel tiro che ho trovato l'altro giorno e che secondo me se andate a correre per esempio scusami leggevo questo messaggio fammi tornare io questa mattina vado per la seconda settimana di fila a correre cuffie nelle orecchie ci provo ma siccome qui in campagna sono tutti più sportivi di me vado nei campi da sola così non mi faccio superare continuamente buona giornata a tutti allora io penso come si fa ad andare a correre e ascoltare la radio uno quando corre non ha bisogno di sentire musica che gli pompa come quando fa gli esercizi ma io mi annoio terribilmente quando corro comunque niente può aiutare allora io ho trovato una canzone che è perfetta per quando andate a correre per esempio questa ascoltatrice ascolta la radio ma adesso ascolterà una canzone che la pompa Beh, l'inizio non è pomposo. Ma senti, state calmi. Senti che roba. Sto piccando. Vado anch'io a correre adesso durante questa canzone.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-06-02-075",
+    "id": "2016-06-02-064",
     "start": 2694.58,
     "end": 2694.68,
-    "speaker_raw": "SPEAKER_15",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Ciao!",
     "titolo": "",
     "tema": [],
@@ -925,11 +767,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-06-02-076",
+    "id": "2016-06-02-065",
     "start": 2739.88,
     "end": 2807.89,
     "speaker_raw": "SPEAKER_00",
-    "testo": "sono andato a correre e devo dire che qui mi hanno scritto che se corri con sta musica rischi di romperti una caviglia perché è un po' da zoppo come ritmo, ti diventa a battere sempre con un piede, comunque sono appena rientrato da casa Lo sapete che qua i campanelli delle porte, queste porte qua vecchie dove sono io adesso, non sono come da noi, ma tu schiacci un pulsante sulla porta e dentro c'è come una molla che fa ten ten ten ten, capito? Voi che te lo faccio sentire? Sì, sì. Se ci arriva la cuffia, aspetta, se ci arriva la cuffia, aspetta. è proprio una roba artigianale è una roba che arriva alle pecore è una pentola va bene bene ragazzi allora domani chiedono gli ascoltatori c'è Tirelli o non c'è Tirelli? io non l'ho convocato io l'ho convocato perché non si può trattarmare la gente come fate voi finché vi serviva andava bene poi non vi serviva più l'avete buttato via come un fazzoletto usato il rispetto ragazzi cavolo ciao ragazzi a domani",
+    "testo": "Sono andato a correre e devo dire che qui mi hanno scritto che se corri con sta musica rischi di romperti una caviglia perché è un po' da zoppo come ritmo, ti diventa a battere sempre con un piede. Va bene, comunque sono appena rientrato da casa. Lo sapete che qua i campanelli delle porte, queste porte qua vecchie dove sono io adesso, non sono come da noi, ma tu schiacci un pulsante sulla porta e dentro c'è come una molla che fa ten ten ten ten, capito? Voi che te lo faccio sentire? Se ci arriva la cuffia, aspetta, se ci arriva la cuffia, aspetta. è proprio una roba artigianale è una roba che arriva alle pecore con una pentola è una pentola va bene bene ragazzi allora domani chiedono gli ascoltatori c'è Tirelli o non c'è Tirelli? io non l'ho convocato io l'ho convocato perché non si può trattarmare la gente come fate voi finché vi serviva andava bene poi non vi serviva più l'avete buttato via come un fazzoletto usato il rispetto ragazzi cavolo ciao ragazzi a domani",
     "titolo": "Campanelli delle porte",
     "tema": [
       "casa",
