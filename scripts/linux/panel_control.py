@@ -490,9 +490,15 @@ class Panel:
             return
         rifatti = contar_rifatti_config_attuale(TRASCRIZIONI_DIR)
         if total_audio:
+            mancanti = max(0, total_audio - rifatti)
+            # DURACION_MEDIA_MIN_GPU: stessa media usata per l'episodio singolo -
+            # non un'altra stima indipendente, cosi' i due numeri restano coerenti.
+            ore_stimate = mancanti * DURACION_MEDIA_MIN_GPU / 60
+            giorni_stimati = ore_stimate / 24
             self.lbl_progreso_total.config(
                 text=f"Progreso total: {transcritos} de {total_audio} episodios transcritos "
-                     f"(rifatti con config attuale: {rifatti}/{total_audio})"
+                     f"(rifatti con config attuale: {rifatti}/{total_audio}, mancano {mancanti}, "
+                     f"stima ~{ore_stimate:.0f}h / ~{giorni_stimati:.1f}gg a {DURACION_MEDIA_MIN_GPU:.1f}min/ep)"
             )
         else:
             self.lbl_progreso_total.config(

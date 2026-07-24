@@ -504,7 +504,16 @@ class PanelEstado:
 
     def _aplicar_progreso(self, transcritos, total_audio, rifatti, stats, stats_ep):
         self._consultando_progreso = False
-        rifatti_txt = f" (rifatti con config attuale: {rifatti})" if rifatti is not None else ""
+        if rifatti is not None and total_audio:
+            mancanti = max(0, total_audio - rifatti)
+            ore_stimate = mancanti * DURACION_MEDIA_MIN_GPU / 60
+            giorni_stimati = ore_stimate / 24
+            rifatti_txt = (f" (rifatti con config attuale: {rifatti}/{total_audio}, mancano {mancanti}, "
+                           f"stima ~{ore_stimate:.0f}h / ~{giorni_stimati:.1f}gg a {DURACION_MEDIA_MIN_GPU:.1f}min/ep)")
+        elif rifatti is not None:
+            rifatti_txt = f" (rifatti con config attuale: {rifatti})"
+        else:
+            rifatti_txt = ""
         if transcritos is None:
             self.lbl_progreso_total.config(text="")
         elif total_audio:
