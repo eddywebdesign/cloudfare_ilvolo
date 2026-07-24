@@ -3,7 +3,7 @@
     "id": "2017-10-20-000",
     "start": 0.51,
     "end": 1.07,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_05",
     "testo": "DJ!",
     "titolo": "",
     "tema": [],
@@ -25,7 +25,7 @@
     "id": "2017-10-20-002",
     "start": 44.0,
     "end": 97.57,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_05",
     "testo": "a presto Ciao!",
     "titolo": "",
     "tema": [],
@@ -36,7 +36,7 @@
     "id": "2017-10-20-003",
     "start": 171.19,
     "end": 195.58,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Lenny Kravitz, New York City, un disco del 2014. Buongiorno a tutti, questo è il volo del mattino. Come state ragazzi? Benissimo. Sana patata, come si canta qua sana patata? Sana, health, patata, potato. Vedi che non suona bene in inglese. Healthy potato, healthy potato, healthy potato. Potato o potato? Come dice? Potato.",
     "titolo": "",
     "tema": [],
@@ -47,7 +47,7 @@
     "id": "2017-10-20-004",
     "start": 195.6,
     "end": 196.54,
-    "speaker_raw": "SPEAKER_13",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Cos'è potato?",
     "titolo": "",
     "tema": [],
@@ -58,22 +58,20 @@
     "id": "2017-10-20-005",
     "start": 196.56,
     "end": 210.66,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_03",
     "testo": "No, c'è la canzone. Potato, potato, tomato, tomato. Sai no che... You say potato, I say potato. Ammazza, non l'hai mai sentita? Ti giuro. La canzone di Louis Armstrong, potato, potato, non l'hai mai sentita?",
     "titolo": "You say potato, I say potato",
     "tema": [
       "linguaggio"
     ],
     "tipo": "riferimento_musica",
-    "video_url": "",
-    "autore": "Louis Armstrong",
-    "confermato_esterno": false
+    "video_url": ""
   },
   {
     "id": "2017-10-20-006",
     "start": 210.84,
     "end": 212.0,
-    "speaker_raw": "SPEAKER_13",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Ah sì, sì.",
     "titolo": "",
     "tema": [],
@@ -84,7 +82,7 @@
     "id": "2017-10-20-007",
     "start": 212.04,
     "end": 214.04,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Vabbè, adesso Maurizio te ne mette un pezzo.",
     "titolo": "",
     "tema": [],
@@ -95,7 +93,7 @@
     "id": "2017-10-20-008",
     "start": 214.06,
     "end": 216.7,
-    "speaker_raw": "SPEAKER_13",
+    "speaker_raw": "SPEAKER_05",
     "testo": "No, sì, non me la ricordavo. Aspetta, vado un attimo. No.",
     "titolo": "",
     "tema": [],
@@ -106,7 +104,7 @@
     "id": "2017-10-20-009",
     "start": 217.5,
     "end": 221.83,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_03",
     "testo": "no lo so lo so lo so però adesso Maurizio l'ha già trovata lo sai che come si chiama quella canzone?",
     "titolo": "",
     "tema": [],
@@ -117,7 +115,7 @@
     "id": "2017-10-20-010",
     "start": 221.91,
     "end": 246.59,
-    "speaker_raw": "SPEAKER_09",
+    "speaker_raw": "SPEAKER_02",
     "testo": "è già un titolo stranissimo in realtà non c'entra niente con poteto o potato you say either I say either you say neither and I say neither either neither neither neither let's call the whole thing off ah you like potato and I like potato you like tomato",
     "titolo": "You Say Potato",
     "tema": [
@@ -125,15 +123,13 @@
       "differenze"
     ],
     "tipo": "riferimento_musica",
-    "video_url": "",
-    "autore": "Louis Armstrong",
-    "confermato_esterno": false
+    "video_url": ""
   },
   {
     "id": "2017-10-20-011",
     "start": 251.86,
     "end": 274.79,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_03",
     "testo": "questo è il titolo ok bene abbiamo fatto un bel inizio abbiamo messo la sigla sigla facciamo tutta la puntata così è il volo del mattino o il volo del mattaino",
     "titolo": "",
     "tema": [],
@@ -144,7 +140,7 @@
     "id": "2017-10-20-012",
     "start": 278.81,
     "end": 291.8,
-    "speaker_raw": "SPEAKER_15",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Se Fabio Volo non c'è, non è mattina per me, è una brioche senza cappuccino, perdere il volo del mattino, ora su radio e dj, Fabio ci fai o ci sei te?",
     "titolo": "",
     "tema": [],
@@ -155,7 +151,7 @@
     "id": "2017-10-20-013",
     "start": 302.19,
     "end": 386.67,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_03",
     "testo": "oggi è venerdì ragazzi vi ricordate che così era lunedì o martedì che avevo detto sì martedì che avevo detto oggi si parla di romanticismo aveva chiamato delle bottiglie oggi invece siamo più erotici oggi è più erotismo sono prof linguista e copulo buongiorno ragazzi oggi si parla un po' più di erotismo dobbiamo distinguere queste due cose nonostante si parli dell'uguaglianza tra uomo e donna così però in realtà quando si parla del piacere fisico dell'uomo e della donna ci sono ancora delle grandi separazioni giusto? voglio dire che mentre per il piacere dell'uomo si è preparati ormai così quando si parla di piacere della donna è sempre un po' più delicato il terreno perché se un uomo dice a me piace godere c'è niente da fare e tu dici sarà uno che ha un sacco di donne se una donna dice ragazzi io lo dico mi piace godere mi piace proprio far l'amore tu dentro di te c'è una vocina che dice non è ancora ben accettata questa cosa Abbiamo fatto, quest'anno siamo molto femministi, perché abbiamo fatto campagna, smettete di rompere le scatole agli uomini e alle donne che non hanno figli. Basta questa cosa quando li fai. Qualcuno può anche decidere di non farli e posso dire meglio così. L'altra cosa è sul piacere femminile. La donna deve essere libera di godere e di poterlo dire. Ok?",
     "titolo": "",
     "tema": [],
@@ -166,7 +162,7 @@
     "id": "2017-10-20-014",
     "start": 386.71,
     "end": 392.49,
-    "speaker_raw": "SPEAKER_13",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Sono d'accordo, io so, non ho questo tipo di tabù. Ok, perché sto introducendo questo tema?",
     "titolo": "",
     "tema": [],
@@ -176,24 +172,20 @@
   {
     "id": "2017-10-20-015",
     "start": 392.75,
-    "end": 423.65,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "Perché c'era un articolo su New York Times, di questa ragazzina che Maurizio conosce, perché Maurizio essendo un uomo che conosce la poesia e conosce le ragazzine, lo so. Che conosce la poesia, la conosceva già, è questa ragazza, se non sbaglio canadese, però di origine indiana, giusto? Cioè una famiglia indiana trasferita in Canada. Ha scritto un libro di poesie, quanti anni avrà sta ragazzina? 16, 15, 20, 21, ok, quindi insomma è una ragazza. Sì.",
-    "titolo": "ragazza canadese indiana",
-    "tema": [
-      "poesia"
-    ],
-    "tipo": "riferimento_libro",
-    "video_url": "",
-    "autore": "Maurizio",
-    "confermato_esterno": false
+    "end": 562.13,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Perché c'era un articolo su New York Times, di questa ragazzina che Maurizio conosce, perché Maurizio essendo un uomo che conosce la poesia e conosce le ragazzine, lo so. Che conosce la poesia, la conosceva già, è questa ragazza, se non sbaglio canadese, però di origine indiana, giusto? Cioè una famiglia indiana trasferita in Canada. Ha scritto un libro di poesie, quanti anni avrà sta ragazzina? 16, 15, 20, 21, ok, quindi insomma è una ragazza. Sì. Ha iniziato a scrivere quelle che Maurizio chiama le... No, loro sono gli Instagrammer, i poeti Instagrammer. I poeti Instagrammer, cioè gente che diventa famoso scrivendo poesie su Instagram. Prima le scrive su Instagram, poi la casa editrice vede che sono divisioni, follower. Facciamo un bel libro. Fate conto che qui negli Stati Uniti un libro di poesie vende mediamente, quando vende tanto, 70.000 coppie. Lei ha fatto il libro di poesie, ha venduto 700.000 coppie. Cioè lei ha venduto di più dei primi, se non sbaglio, 5-6 libri messi insieme, una roba del genere. Insomma, quindi, allora... Questa ragazza cosa fa semplicemente? Dice le sue cose, normalmente, parla di mestruazioni, parla di piacere fisico, parla di godure così e quindi la gente... E lo fa in modo semplice soprattutto. Lo fa in modo semplice, va via proprio pulita, non ha pregiudizi, non ha tabù e questa cosa ha ovviamente rotto, diciamo, non mi viene la parola, cosa ha rotto? ha rotto le acque no ha rotto dei no ha rotto cosa vuoi dire degli schemi degli schemi buttiamola sugli schemi ma l'abbiamo detto il nome e cognome di questa ragazza questa ragazza si chiama Rupi Kaur Kaur Kaur potenito potato abbiamo detto quindi può essere pure Kaur comunque noi cosa abbiamo fatto adesso mettiamo un disco abbiamo preso una di queste poesie un po' così, un po' libere e le facciamo leggere all'uomo che legge solo poesie romantiche cioè Nicola al Portinario pensavo Giannini, Gassman dopo Gassman legge Shakespeare noi abbiamo Nicola che legge Rupicaur tra l'altro lei usa un sacco di parole con la R quindi adesso mettiamo questo disco molto bello e poi Nicola ci introdurrà la poetica di Rupi Kaur Rupi Kaur gli Instagrammer si chiamano poeti Instagrammer fino a liembrunire bellissimo anche il video tra l'altro bravi ragazzi questa è Radio DJ che meraviglia questa radio",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
   },
   {
     "id": "2017-10-20-016",
-    "start": 424.39,
-    "end": 431.42,
-    "speaker_raw": "SPEAKER_10",
-    "testo": "Ha iniziato a scrivere quelle che Maurizio chiama le... No, loro sono gli Instagrammer, i poeti Instagrammer.",
+    "start": 580.21,
+    "end": 754.45,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "con le loro camice fiammanti sfideranno le correnti fino a perdere il nome dei giorni spesi male per contare solo quelli finiti bene per non avere da pensare a nient'altro se non al mare torneranno tutte le genti che non hanno voluto parlare scenderanno giù dai monti ed allora staremo a sentire quelle storie da cortile che facevano annoiare ma che adesso sono aria buona pure da mangiare Anche tu tra gli altri e mi sento impazzire, tornerai e ti avrò davanti, spero solo di non svegliare. Mentre torno e non voltarti, che non voglio più sparire, ne ricordo nei miei giorni, resta fino all'imbrunire. tutti pieni di compassione per gli errori dei potenti fatti senza esitazione senza lividi sui volti con un taglio sopra il cuore prendi un ago e siamo pronti siamo pronti a ricucire tornerai tu in mezzo agli altri e sarà come impazzire tornerai te oro davanti spero solo di non svenire mentre torni non voltarti che non voglio più sbagliare nel ricordo dei miei giorni resta fino agli embruni tornerai più in mezzo agli altri e sarà come morire tornerai più velo davanti spero solo di non smedire mentre torni non buttarti che non voglio più sparire nel ricordo dei miei giorni resta fino a me unire torneranno anche gli uccelli ci diranno come volare per raggiungere orizzonti più lontani Radio DJ!",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -201,10 +193,10 @@
   },
   {
     "id": "2017-10-20-017",
-    "start": 431.58,
-    "end": 435.44,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "I poeti Instagrammer, cioè gente che diventa famoso scrivendo poesie su Instagram.",
+    "start": 756.75,
+    "end": 768.56,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Ma ti riesce bene Radio DJ con la tua R? Perché ce n'è solo una davanti! Faresti più fatica a fare la portineria RTL per esempio? Portineria RTL?",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -212,98 +204,33 @@
   },
   {
     "id": "2017-10-20-018",
-    "start": 435.46,
-    "end": 441.36,
-    "speaker_raw": "SPEAKER_10",
-    "testo": "Prima le scrive su Instagram, poi la casa editrice vede che sono divisioni, follower. Facciamo un bel libro.",
-    "titolo": "poeti Instagrammer diventano famosi",
-    "tema": [
-      "fama",
-      "social"
-    ],
-    "tipo": "citazione",
+    "start": 768.62,
+    "end": 774.1,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "No! È difficile quando c'è un'altra sillaba davanti.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
     "video_url": ""
   },
   {
     "id": "2017-10-20-019",
-    "start": 441.82,
-    "end": 562.13,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "Fate conto che qui negli Stati Uniti un libro di poesie vende mediamente, quando vende tanto, 70.000 coppie. Lei ha fatto il libro di poesie, ha venduto 700.000 coppie. Cioè lei ha venduto di più dei primi, se non sbaglio, 5-6 libri messi insieme, una roba del genere. Insomma, quindi, allora... Questa ragazza cosa fa semplicemente? Dice le sue cose, normalmente, parla di mestruazioni, parla di piacere fisico, parla di godure così e quindi la gente... E lo fa in modo semplice soprattutto. Lo fa in modo semplice, va via proprio pulita, non ha pregiudizi, non ha tabù e questa cosa ha ovviamente rotto, diciamo, non mi viene la parola, cosa ha rotto? ha rotto le acque no ha rotto dei no ha rotto cosa vuoi dire degli schemi degli schemi buttiamola sugli schemi ma l'abbiamo detto il nome e cognome di questa ragazza questa ragazza si chiama Rupi Kaur Kaur Kaur potenito potato abbiamo detto quindi può essere pure Kaur comunque noi cosa abbiamo fatto adesso mettiamo un disco abbiamo preso una di queste poesie un po' così, un po' libere e le facciamo leggere all'uomo che legge solo poesie romantiche cioè Nicola al Portinario pensavo Giannini, Gassman dopo Gassman legge Shakespeare noi abbiamo Nicola che legge Rupicaur tra l'altro lei usa un sacco di parole con la R quindi adesso mettiamo questo disco molto bello e poi Nicola ci introdurrà la poetica di Rupi Kaur Rupi Kaur gli Instagrammer si chiamano poeti Instagrammer fino a liembrunire bellissimo anche il video tra l'altro bravi ragazzi questa è Radio DJ che meraviglia questa radio",
-    "titolo": "libro di poesie",
-    "tema": [
-      "poesia",
-      "popolare"
-    ],
-    "tipo": "riferimento_libro",
-    "video_url": "",
-    "autore": "Rupi Kaur",
-    "confermato_esterno": false
-  },
-  {
-    "id": "2017-10-20-020",
-    "start": 580.21,
-    "end": 692.54,
-    "speaker_raw": "SPEAKER_02",
-    "testo": "con le loro camice fiammanti sfideranno le correnti fino a perdere il nome dei giorni spesi male per contare solo quelli finiti bene per non avere da pensare a nient'altro se non al mare torneranno tutte le genti che non hanno voluto parlare scenderanno giù dai monti ed allora staremo a sentire quelle storie da cortile che facevano annoiare ma che adesso sono aria buona pure da mangiare Anche tu tra gli altri e mi sento impazzire, tornerai e ti avrò davanti, spero solo di non svegliare. Mentre torno e non voltarti, che non voglio più sparire, ne ricordo nei miei giorni, resta fino all'imbrunire. tutti pieni di compassione per gli errori dei potenti fatti senza esitazione senza lividi sui volti con un taglio sopra il cuore prendi un ago e siamo pronti siamo pronti a ricucire tornerai tu in mezzo agli altri e sarà come impazzire tornerai te oro davanti spero solo di non svenire mentre torni non voltarti che non voglio più sbagliare nel ricordo dei miei giorni resta fino agli embruni tornerai più in mezzo agli altri e sarà come morire tornerai più velo davanti spero solo di non smedire mentre torni non buttarti che non voglio più sparire nel ricordo dei miei giorni resta fino a me unire torneranno anche gli uccelli ci diranno come volare per raggiungere orizzonti più lontani",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-10-20-021",
-    "start": 751.74,
-    "end": 754.45,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "Radio DJ!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-10-20-022",
-    "start": 756.75,
-    "end": 766.92,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "Ma ti riesce bene Radio DJ con la tua R? Perché ce n'è solo una davanti! Faresti più fatica a fare la portineria RTL per esempio?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-10-20-023",
-    "start": 767.4,
-    "end": 774.1,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "Portineria RTL? No! È difficile quando c'è un'altra sillaba davanti.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-10-20-024",
     "start": 775.26,
     "end": 833.48,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Ma io di fatti adesso non vedo l'ora perché mi ha detto Maurizio che ti ha portato la poesia che devi leggere di questa ragazzina, di questa ragazza, Rupi Kaur. E quando Maurizio mi ha detto ho scelto questa, c'è una parola. alla fine credo sia le ultime due parole non lo dire io ho scritto Maurizio sul telefono vale solo a me basta sentirlo in quella parola ti rego l'ultima Allora, Nicola, qualche giorno fa sono venuto in radio e tu eri in portineria e non era ancora iniziato il volo del mattino e tu eri con una coppia e stavi leggendo una tua poesia alla fidanzata di questo ragazzo perché tu quando arrivano gli ascoltatori li fermi No, è stato lui il fidanzato, dice sai lui scrive le poesie Ah sì? Ce l'avevi lì in tasca",
     "titolo": "poesia di Rupi Kaur",
     "tema": [
       "amore"
     ],
     "tipo": "riferimento_libro",
-    "video_url": "",
-    "autore": "Rupi Kaur",
-    "confermato_esterno": false
+    "video_url": ""
   },
   {
-    "id": "2017-10-20-025",
+    "id": "2017-10-20-020",
     "start": 833.9,
     "end": 838.2,
-    "speaker_raw": "SPEAKER_12",
+    "speaker_raw": "SPEAKER_04",
     "testo": "No, questo è un po' particolare, va giusto per delle donne...",
     "titolo": "",
     "tema": [],
@@ -311,10 +238,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-20-026",
+    "id": "2017-10-20-021",
     "start": 838.7,
     "end": 920.44,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Ma ce l'hai lì in tasca? È quella che c'hai sempre in tasca? Sì, solo che adesso devo... Come mio nonno, scusami Nicola, come mio nonno che a un certo punto aveva sempre dei pezzi di carta in tasca, pensieri, articoli di giornali, di magazine, com'è che a una certa età ritagliate e mettete le cose in tasca? Eh, non lo so, ci ricordano qualcosa, i vecchi tempi, non lo so. Quando mio nonno trovava un articolo che piaceva, tri tri tri tri, e detto... Sì, sì, eh. Ok. la stessa cosa che faccio io allora tu in tasca ne hai una che hai scritto tu sì ma l'avevamo già letta ah cos'è sulle donne o sulla mamma? no quella della mamma ce l'ho ma è che non l'abbiamo letta ma poi c'ho quella delle donne che l'avevamo letta quella lì in tasca è quella delle donne sì e tu sei quello romantico adesso io volevo applicare questi due mondi diciamo lontani un po' come un quadro di Magritte cioè volevo mettere questo lo sai chi è di Magritte? chi è? è di Magritte va bene come si può dire una poesia no si chiama Magritte lui è un pittore diciamo quello che per esempio è famoso c'è un sasso nel cielo per esempio va bene insomma ascoltami mettiamo questi due elementi tu che sei un romantico le donne così con questa ragazza che è un po' più punk diciamo ti mettiamo una base e leggici la poesia ok",
     "titolo": "pezzi di carta in tasca",
     "tema": [
@@ -325,10 +252,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-20-027",
+    "id": "2017-10-20-022",
     "start": 922.7,
     "end": 998.43,
-    "speaker_raw": "SPEAKER_12",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Allora, mi chiede cosa faccio nella vita, gli dico che lavoro per una piccola azienda che produce confezioni di pantaloni, mi interrompe a metà frase, non so cosa fai di mestiere, che cosa ti fa impazzire, che cosa ti tiene sveglia di notte, gli dico, scrivo, mi chiede di mostrargli qualcosa. Prendo i polpastrelli e li poso sull'incavo dell'avambraccio e lo sfioro giù fino al polso. Affiorano i rilievi della pelle d'oca. Vedo la bocca serrarsi, i muscoli tendersi, gli occhi concentrarsi sui miei, come se fosse io a far battere le loro palpebre. Interrompo lo sguardo proprio mentre lui si avvicina piano e arretro. allora è questo che fai nella vita attiri l'attenzione le mie guance si imporporrano era questa le mie guance si imporporrano mentre sorrido timida confessando non lo faccio apposta ok è finita chi è? è l'ingegnere l'ingegnere",
     "titolo": "poesia incavo avambraccio",
     "tema": [
@@ -338,10 +265,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-20-028",
+    "id": "2017-10-20-023",
     "start": 1000.02,
     "end": 1004.57,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Nicola, ti è piaciuta questa poesia? Cioè, abbiamo scelto una un po' soft.",
     "titolo": "",
     "tema": [],
@@ -349,10 +276,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-20-029",
+    "id": "2017-10-20-024",
     "start": 1004.59,
     "end": 1011.38,
-    "speaker_raw": "SPEAKER_12",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Sì, insomma, è un po', come voglio dirti, bella, ma allo stesso tempo un po' confusa.",
     "titolo": "",
     "tema": [],
@@ -360,10 +287,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-20-030",
+    "id": "2017-10-20-025",
     "start": 1011.42,
     "end": 1028.3,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_03",
     "testo": "C'ha ragione. Va bene, insomma, lei, insomma, va bene, va bene. Ti sento che stai lavorando, non ti voglio disturbare. No, io? L'ingegnere è passato? Sì, sì. Va bene, grazie Nicola.",
     "titolo": "",
     "tema": [],
@@ -371,32 +298,21 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-20-031",
+    "id": "2017-10-20-026",
     "start": 1028.38,
-    "end": 1036.79,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "Niente, alla prossima. Chi è? L'assistente della Pina.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-10-20-032",
-    "start": 1036.87,
     "end": 1039.67,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "Ciao Nicola, grazie. Ciao a tutti.",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Niente, alla prossima. Chi è? L'assistente della Pina. Ciao Nicola, grazie. Ciao a tutti.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-10-20-033",
+    "id": "2017-10-20-027",
     "start": 1065.23,
     "end": 1122.41,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_05",
     "testo": "It's growing in the street Right up through the concrete But soft and sweet with eyes as black as gold that looks down in my soul and starts a fire there and then I lose control I have to beg your pardon I'm going to pick the rose and watch her as she grows",
     "titolo": "",
     "tema": [],
@@ -404,7 +320,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-20-034",
+    "id": "2017-10-20-028",
     "start": 1170.42,
     "end": 1170.72,
     "speaker_raw": "SCONOSCIUTO",
@@ -415,10 +331,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-20-035",
+    "id": "2017-10-20-029",
     "start": 1203.36,
     "end": 1302.78,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Volevo anche dirvi, cari ascoltatori, che dopo la pubblicità tra pochissimo, come abbiamo promesso, perché noi siamo gente che promette e mantiene quello che promette, oggi i miei ragazzi qui, cioè la parte più giovane del volo del mattino, Maurizio e Viola e anche la Stefi, dai ci metto dentro tutto, praticamente c'è un vecchio solo nel programma e sono io. hanno organizzato la sequenza musicale anni 90 per cui con della musica che io ricordo già da adulto diciamo c'è già la maglietta della Onyx ce l'abbiamo a molti ascoltatori soprattutto donne dicono che è vero che il piacere femminile è ancora tabù in tante situazioni cioè che una donna deve sempre un po' fingere finché non è proprio lì faccia a faccia è vero sembriamo sempre vecchi e lussuriosi a me mi piace proprio perché l'uomo dice sai a me cosa mi piace e tutti e lei dice sai a me cosa mi piace e tutti e tutti Niente, volevo ricordarvi, ok, che per esempio quando si fa le battute, no? Cosa fa un uomo quando parla con una donna e ci litiga? E lei comincia, no, ma che tu, magari anche nel traffico, hai bisogno di scoppare, capito? Cioè hai bisogno, capito? Oppure hai il ciclo. Hai il ciclo, così. Allora, sono vere tutte e due. Nel senso che con il ciclo la donna è più irritabile, mettiamola così, ok, più irritabile, tant'è che io dico sempre ai miei amici, se devi chiedere qualcosa alla tua compagna, tipo vado via questo weekend con i miei amici, glielo devi dire subito dopo che l'ha finito il ciclo, non, capito, cioè oggi finisce il ciclo, aspetti un giorno e gli dici, oh, è lì.",
     "titolo": "",
     "tema": [],
@@ -426,10 +342,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-20-036",
+    "id": "2017-10-20-030",
     "start": 1302.92,
     "end": 1307.14,
-    "speaker_raw": "SPEAKER_13",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Ma non solo durante il ciclo, anche prima, due giorni almeno.",
     "titolo": "",
     "tema": [],
@@ -437,10 +353,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-20-037",
+    "id": "2017-10-20-031",
     "start": 1307.26,
     "end": 1378.32,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Esatto, esatto, quindi l'altra cosa è, quando si dice una donna isterica allora ho portato questa notizia ok guarda come sono preparato oggi ho portato questa notizia l'isteria nell'ottocento veniva curata con dei diciamo attrezzi dei vibratori diciamo così in legno attraverso questo perché l'isteria è un blocco energetico ok quindi veniva considerata un blocco energetico ah scusami ok vabbè va bene ragazzi sono un po' isterico che farò durante sta pubblicità sono anche a casa sto guardando le canzoni della sequenza musicale anni 90 che avete scelto è veramente meravigliosa comunque un ascoltatore ci scrive dicendo che la notizia che ho detto che nell'ottocento curavano l'isteria con diciamo orgasmi ci hanno fatto un film è vero 2011 si chiama Hysteria adesso andiamo a sentircelo avanti veloce qualcuno l'ha visto questo film? per quello che si ha nervoso",
     "titolo": "",
     "tema": [],
@@ -448,10 +364,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-20-038",
+    "id": "2017-10-20-032",
     "start": 1402.46,
     "end": 1532.38,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Di dove sei uscito? Non ti avevo visto mai, mai, mai qui. Un rayo di luce trepando nel mio desiderio. Credo che ti desideri da quando ti ho visto. Non ti fai il tonto e ascolti ciò che ora ti voglio dire. Sei un ragazzo di luce che crea il mio desiderio. Credo che ti desideri da quando ti ho visto. Sette giorni insieme in una festa di disfrazio. Tu volevi divertirti e io... Però sono passati gli anni, fino a che ieri, passeando per la mia strada, ti ho incontrato. E ricordai quel raiolo di luce che creava nel mio desiderio. E qualcosa di simile ho sentito al tornarti a vedere. Sono stati sette giorni insieme, in una festa di disfrazio.",
     "titolo": "",
     "tema": [],
@@ -459,10 +375,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-20-039",
+    "id": "2017-10-20-033",
     "start": 1546.29,
     "end": 1570.48,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_03",
     "testo": "durante questo disco siamo andati a vederci su internet, su youtube si dice ancora internet, è proprio da vecchie quando uno dice internet è proprio da vecchie comunque siamo andati su youtube a vedere una clip di questo film che ci ha consigliato un ascoltatore praticamente c'è questa cantante lirica che aveva dei momenti di isteria e la curano attraverso gli orgasmi, no? sì",
     "titolo": "",
     "tema": [],
@@ -470,10 +386,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-20-040",
+    "id": "2017-10-20-034",
     "start": 1571.85,
     "end": 1598.37,
-    "speaker_raw": "SPEAKER_14",
+    "speaker_raw": "SPEAKER_05",
     "testo": "tra l'altro sapete come si dice vibratore in spagnolo che mi fa sempre molto ridere consolador che racchiude molto bene il consolador e praticamente in questa clip c'è lei che canta mentre raggiunge degli orgasmi uno massaggio elettrico ecco un massaggio ho piena fiducia che la macchina eguaglierà se non addirittura supererà tutti i trattamenti che lei ha mai ricevuto e visto che lei era rimasta così insoddisfatta l'ultima volta le offro questo trattamento gratis",
     "titolo": "",
     "tema": [],
@@ -481,7 +397,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-20-041",
+    "id": "2017-10-20-035",
     "start": 1598.76,
     "end": 1601.02,
     "speaker_raw": "SPEAKER_01",
@@ -492,46 +408,21 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-20-042",
+    "id": "2017-10-20-036",
     "start": 1601.06,
-    "end": 1608.44,
-    "speaker_raw": "SPEAKER_14",
-    "testo": "Lui è il signor Edmund... Lui è il mio assistente elettrico. Sarà presente anche lui se a lei sta bene. Va tutto bene, signora Castagliari?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-10-20-043",
-    "start": 1609.0,
-    "end": 1621.75,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "È un film stupendo, mamma lo guarda stasera.",
-    "titolo": "Mamma guarda il film stasera",
-    "tema": [
-      "famiglia",
-      "divertimento"
-    ],
-    "tipo": "citazione",
-    "video_url": ""
-  },
-  {
-    "id": "2017-10-20-044",
-    "start": 1624.4,
     "end": 1627.3,
     "speaker_raw": "SPEAKER_05",
-    "testo": "Sempre libera da Dio, bolleggiare di gioia, gioia, buttascora il viverminio dei sentieri del piacere. Ah, ah.",
+    "testo": "Lui è il signor Edmund... Lui è il mio assistente elettrico. Sarà presente anche lui se a lei sta bene. Va tutto bene, signora Castagliari? È un film stupendo, mamma lo guarda stasera. Sempre libera da Dio, bolleggiare di gioia, gioia, buttascora il viverminio dei sentieri del piacere. Ah, ah.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-10-20-045",
+    "id": "2017-10-20-037",
     "start": 1650.74,
     "end": 1678.88,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_03",
     "testo": "insomma questa sarà una storia vera credo che sia nata sia la storia di come sono nati i vibratori è vero ok sì sì sì allora siamo arrivati alla sequenza che voi ovviamente lì a quest'ora del mattino vi godete anche venerdì io me la sono fatta una mia qua da solo nell'angolo con Billie Holiday ma smetti va bene no allora signore e signori rientriamo in discoteca negli anni diciamo 90 ho messo le fornarina oggi Cosa sono le fornerie?",
     "titolo": "storia dei vibratori",
     "tema": [
@@ -542,10 +433,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-20-046",
+    "id": "2017-10-20-038",
     "start": 1678.96,
     "end": 1687.57,
-    "speaker_raw": "SPEAKER_13",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Erano delle scarpe con nella suola diciamo avevano un po' d'aria. No un po' d'aria nel senso. Aria profumata. Era trasparente.",
     "titolo": "",
     "tema": [],
@@ -553,10 +444,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-20-047",
+    "id": "2017-10-20-039",
     "start": 1687.67,
     "end": 1693.35,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Ok. Allora vai di sequenza musicale. Cos'è? Vegan Boys?",
     "titolo": "",
     "tema": [],
@@ -564,10 +455,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-20-048",
+    "id": "2017-10-20-040",
     "start": 1693.95,
     "end": 1694.9,
-    "speaker_raw": "SPEAKER_13",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Venga. Venga.",
     "titolo": "",
     "tema": [],
@@ -575,10 +466,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-20-049",
+    "id": "2017-10-20-041",
     "start": 1695.08,
     "end": 1779.13,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Venga venga. che annita Mario venerdì prossimo rimettiamo gli 80 un po' per uno Vedo un Gigi D'Agostino avvicinarsi alla porta dello studio di Radio DJ. Vieni Gigi!",
     "titolo": "",
     "tema": [],
@@ -586,7 +477,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-20-050",
+    "id": "2017-10-20-042",
     "start": 1793.41,
     "end": 1796.57,
     "speaker_raw": "SPEAKER_00",
@@ -597,10 +488,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-20-051",
+    "id": "2017-10-20-043",
     "start": 1833.87,
     "end": 1839.8,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Ora capisco tante cose dei miei collaboratori. Cioè siete cresciuti così voi? Ah ma è certo, è certo.",
     "titolo": "",
     "tema": [],
@@ -608,10 +499,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-20-052",
+    "id": "2017-10-20-044",
     "start": 1840.13,
     "end": 1841.24,
-    "speaker_raw": "SPEAKER_13",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Sul tagadà.",
     "titolo": "",
     "tema": [],
@@ -619,10 +510,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-20-053",
+    "id": "2017-10-20-045",
     "start": 1841.26,
     "end": 1842.88,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Ora si spiegano tante cose.",
     "titolo": "",
     "tema": [],
@@ -630,10 +521,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-20-054",
+    "id": "2017-10-20-046",
     "start": 1842.96,
     "end": 1850.02,
-    "speaker_raw": "SPEAKER_13",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Il sole, la luna, le estrellas.",
     "titolo": "",
     "tema": [],
@@ -641,10 +532,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-20-055",
+    "id": "2017-10-20-047",
     "start": 1850.06,
     "end": 1851.08,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Le estrellas.",
     "titolo": "",
     "tema": [],
@@ -652,32 +543,21 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-20-056",
+    "id": "2017-10-20-048",
     "start": 1866.1,
-    "end": 1868.68,
-    "speaker_raw": "SPEAKER_05",
-    "testo": "questa me la ricordo bene anche Gigi D'Agostino",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-10-20-057",
-    "start": 1885.2,
     "end": 1972.08,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "Mixata da Mauro Miclini Ma a noi non ci interessa No, no ciao ciao Musica",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "questa me la ricordo bene anche Gigi D'Agostino Mixata da Mauro Miclini Ma a noi non ci interessa No, no ciao ciao Musica",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-10-20-058",
+    "id": "2017-10-20-049",
     "start": 2051.89,
     "end": 2076.56,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_03",
     "testo": "è la Voss il titolo è come milione ma non c'è l'uno davanti lei non voleva dire un milione lei voleva dire milione quindi l'ha intitolato così mettendoci solo gli zeri oppure l'abbiamo preso male non lo so ma comunque noi ce l'abbiamo questo disco ci piace tanto ma guarda te chi ci ha scritto chi ci ha chiamato buongiorno Enrico o Elena?",
     "titolo": "",
     "tema": [],
@@ -685,7 +565,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-20-059",
+    "id": "2017-10-20-050",
     "start": 2077.52,
     "end": 2077.94,
     "speaker_raw": "SPEAKER_01",
@@ -696,10 +576,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-20-060",
+    "id": "2017-10-20-051",
     "start": 2077.96,
     "end": 2084.5,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Enrico, scusami perché qua vedo Enrico e Elena e allora ho detto chi dei due, chi dei due. Come stai Enrico?",
     "titolo": "",
     "tema": [],
@@ -707,7 +587,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-20-061",
+    "id": "2017-10-20-052",
     "start": 2085.44,
     "end": 2090.79,
     "speaker_raw": "SPEAKER_01",
@@ -718,10 +598,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-20-062",
+    "id": "2017-10-20-053",
     "start": 2090.95,
     "end": 2093.71,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Ma di dove sei con questo accento?",
     "titolo": "",
     "tema": [],
@@ -729,7 +609,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-20-063",
+    "id": "2017-10-20-054",
     "start": 2093.77,
     "end": 2095.03,
     "speaker_raw": "SPEAKER_01",
@@ -740,10 +620,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-20-064",
+    "id": "2017-10-20-055",
     "start": 2095.19,
     "end": 2099.53,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Di Modena, di Modena, di Modena. Mi sembrava quasi di Bologna che è un po' la stessa cosa.",
     "titolo": "",
     "tema": [],
@@ -751,7 +631,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-20-065",
+    "id": "2017-10-20-056",
     "start": 2100.05,
     "end": 2101.11,
     "speaker_raw": "SPEAKER_01",
@@ -762,10 +642,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-20-066",
+    "id": "2017-10-20-057",
     "start": 2101.73,
     "end": 2112.05,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Non so che molti hanno fatto... Allora, senti una cosa, Enrico, tua moglie si chiama Elena, eravate tutti e due, diciamo, lavoravate tutti e due in una banca, se non sbaglio?",
     "titolo": "",
     "tema": [],
@@ -773,7 +653,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-20-067",
+    "id": "2017-10-20-058",
     "start": 2112.43,
     "end": 2112.97,
     "speaker_raw": "SPEAKER_01",
@@ -784,10 +664,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-20-068",
+    "id": "2017-10-20-059",
     "start": 2113.15,
     "end": 2116.01,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Lei ancora, ok, ma stessa banca lavoravate insieme?",
     "titolo": "",
     "tema": [],
@@ -795,7 +675,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-20-069",
+    "id": "2017-10-20-060",
     "start": 2116.51,
     "end": 2117.24,
     "speaker_raw": "SPEAKER_01",
@@ -806,10 +686,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-20-070",
+    "id": "2017-10-20-061",
     "start": 2117.32,
     "end": 2132.84,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Ok, quindi diciamo una collega che è diventata moglie, un classico come a Radio DJ, a Mediaset, dove tu sei stato a lavorare. Allora, tu a un certo punto hai detto, sai che mi sono stufato di lavorare in banca e cosa hai fatto? Hai messo su un'azienda, una società, un gruppo?",
     "titolo": "",
     "tema": [],
@@ -817,7 +697,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-20-071",
+    "id": "2017-10-20-062",
     "start": 2134.08,
     "end": 2140.4,
     "speaker_raw": "SPEAKER_01",
@@ -828,10 +708,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-20-072",
+    "id": "2017-10-20-063",
     "start": 2140.56,
     "end": 2146.07,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Un sexy shop online che tra l'altro è www.oh.it con tre O. O-H-H-H.it Con tre H. Con tre H. O è più O.",
     "titolo": "",
     "tema": [],
@@ -839,7 +719,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-20-073",
+    "id": "2017-10-20-064",
     "start": 2154.47,
     "end": 2230.26,
     "speaker_raw": "SPEAKER_01",
@@ -850,10 +730,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-20-074",
+    "id": "2017-10-20-065",
     "start": 2233.2,
     "end": 2292.59,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_03",
     "testo": "e qualche dubbio mi è venuto sul perché fossimo andati a Berlino e in realtà Rocco era lì a presentare un nuovo giocattolo in anteprima mondiale per uomini ma cosa allora io so che diciamo per quanto io mi possa quanto possa essere aggiornato niente rispetto a te che l'ultima cosa che noi stiamo parlando molto anche del piacere delle donne l'ultima cosa che fa veramente impazzire le donne è questa specie di cosino che è un po' una mini espirapolvere che succhia ce l'hai già tu ce l'hai già tu su online ce l'abbiamo quello è il prodotto che ha spaccato il mercato io quello lì quando l'ho visto quello che ho visto io era a forma di rossetto cioè che tu lo puoi fingere come se fosse un grande rossetto per le donne tecnicamente si potrebbero chiamare dei succhi a clitoride ecco io l'ho detto mini aspirapone perché poi dopo io so che c'è gente che lo prende per le briciole del pane no insomma pare che le donne vadano giù di testa questa cosa",
     "titolo": "",
     "tema": [],
@@ -861,7 +741,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-20-075",
+    "id": "2017-10-20-066",
     "start": 2292.85,
     "end": 2301.96,
     "speaker_raw": "SPEAKER_01",
@@ -872,10 +752,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-20-076",
+    "id": "2017-10-20-067",
     "start": 2301.98,
     "end": 2306.37,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Quindi ti sembrava più sorridente, era più sorridente, va bene.",
     "titolo": "",
     "tema": [],
@@ -883,7 +763,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-20-077",
+    "id": "2017-10-20-068",
     "start": 2306.45,
     "end": 2307.95,
     "speaker_raw": "SPEAKER_01",
@@ -894,10 +774,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-20-078",
+    "id": "2017-10-20-069",
     "start": 2309.15,
     "end": 2389.18,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_03",
     "testo": "oltre all'aspirapolvere ne sta uscendo uno che è a onde soniche quindi c'è una grande innovazione siamo sul sex toys 4.0 guarda Viola ha appena detto questo quindi probabilmente sul sito subito ma ne avevo già sentito parlare proprio ora venerdì scorso ok ok poi io so che ce n'è uno a infrarossi per trovare delle cose dentro capito allora senti una cosa senti una cosa Enrico è stata una scelta coraggiosa immagino perché comunque come si dice da noi quando sei piccolo dicono sempre un bel posto in banca o alle poste cioè quella roba lì si cura tu hai mollato quella cosa sicura per una cosa che è comunque sempre anche un po' borderline quando lo dici in certi ambienti soprattutto da noi soprattutto in Italia perché effettivamente già andando all'estero c'è tutto un approccio estremamente più normale quello che stiamo cercando di dire questa mattina insomma cioè che è nella natura dell'essere umano e che non è quindi non può essere schiacciato anche perché quando la cultura in qualche modo blocca la natura dell'essere umano nascono poi anche delle patologie non solo dei disturbi cioè molte delle patologie nascono dal fatto che l'essere umano non è libero noi oggi abbiamo dei problemi soprattutto in Italia nei confronti di questo settore argomento e di questi prodotti quando",
     "titolo": "",
     "tema": [],
@@ -905,7 +785,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-20-079",
+    "id": "2017-10-20-070",
     "start": 2390.27,
     "end": 2400.58,
     "speaker_raw": "SPEAKER_01",
@@ -916,10 +796,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-20-080",
+    "id": "2017-10-20-071",
     "start": 2401.95,
     "end": 2422.54,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_03",
     "testo": "ed è datato 6.000 anni quindi è da un po' di tempo che ci troviamo sopra ci arriviamo allora grazie Enrico per la tua testimonianza www.ohhh.it io dico ragazzi quella spirita per la polvere lì piccolino io butterei l'occhio ok grazie Enrico grazie buona giornata ciao ciao ciao ciao ciao",
     "titolo": "",
     "tema": [],
@@ -927,7 +807,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-20-081",
+    "id": "2017-10-20-072",
     "start": 2431.74,
     "end": 2575.02,
     "speaker_raw": "SPEAKER_05",
@@ -938,10 +818,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-20-082",
+    "id": "2017-10-20-073",
     "start": 2595.19,
     "end": 2605.93,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Bene ragazzi, sono molto soddisfatto, arrivano molto i passaggi di donne, addirittura c'è chi ha dei toys legati al sound, cioè cambia la vibrazione in base al rhythm and blues.",
     "titolo": "",
     "tema": [],
@@ -949,10 +829,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-20-083",
+    "id": "2017-10-20-074",
     "start": 2605.95,
     "end": 2608.7,
-    "speaker_raw": "SPEAKER_13",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Certo, lui, il nostro ascoltatore, ce l'ha nel sito.",
     "titolo": "",
     "tema": [],
@@ -960,10 +840,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-20-084",
+    "id": "2017-10-20-075",
     "start": 2608.9,
     "end": 2618.1,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Ce l'ha nel sito, salutiamo anche quelli che ci hanno scritto e andiamo avanti con queste nostre battaglie.",
     "titolo": "",
     "tema": [],
@@ -971,21 +851,43 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-20-085",
+    "id": "2017-10-20-076",
     "start": 2618.14,
-    "end": 2622.76,
-    "speaker_raw": "SPEAKER_13",
-    "testo": "Quali battaglie? Ma che battaglia? La liberazione dell'orgasma femminile.",
+    "end": 2619.1,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Quali battaglie?",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-10-20-086",
+    "id": "2017-10-20-077",
+    "start": 2619.26,
+    "end": 2620.06,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Ma che battaglia?",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2017-10-20-078",
+    "start": 2620.5,
+    "end": 2622.76,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "La liberazione dell'orgasma femminile.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2017-10-20-079",
     "start": 2622.8,
     "end": 2635.98,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_03",
     "testo": "Girl power, ma poi basta, basta. E poi da qui in avanti ci impegneremo anche sull'educazione civica, ok? Tipo? Cioè meno ore di religione più ore di educazione civica, cioè imparare a convivere in un contesto sociale.",
     "titolo": "",
     "tema": [],
@@ -993,10 +895,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-20-087",
+    "id": "2017-10-20-080",
     "start": 2636.08,
     "end": 2638.36,
-    "speaker_raw": "SPEAKER_13",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Ma c'è ancora la scuola di educazione civica, io lo faccio.",
     "titolo": "",
     "tema": [],
@@ -1004,10 +906,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-10-20-088",
+    "id": "2017-10-20-081",
     "start": 2638.56,
     "end": 2650.57,
-    "speaker_raw": "SPEAKER_11",
+    "speaker_raw": "SPEAKER_03",
     "testo": "l'hanno tolta perché non è così importante come l'ora di religione ma noi adesso ne parleremo o ragazzi buon weekend divertitevi godetevela e in tutti i modi uomini donne come vi piace ok? ciao",
     "titolo": "",
     "tema": [],
