@@ -36,7 +36,7 @@ def formatear_fecha(iso_str) -> str:
 
 def contar_progreso_total(frammenti_dir: Path, audio_root: Path):
     """Devuelve (transcritos, total_audio) contando frammenti_dir/*.json
-    contra todos los .mp3 de audio_root (recursivo), o (transcritos, None)
+    contra todos los .mp3 de audio_root, o (transcritos, None)
     si audio_root no existe/no es alcanzable en este momento."""
     try:
         transcritos = sum(1 for _ in frammenti_dir.glob("*.json"))
@@ -45,7 +45,14 @@ def contar_progreso_total(frammenti_dir: Path, audio_root: Path):
     if not audio_root.exists():
         return transcritos, None
     try:
-        total_audio = sum(1 for _ in audio_root.rglob("*.mp3"))
+        # SOLO <anno>/*.mp3 + <anno>/gia_trascritti/*.mp3 - NON rglob generico:
+        # le cartelle anno contengono anche "frammenti_corti/" (clip brevi, non
+        # episodi interi) che rglob includerebbe per errore, gonfiando il totale
+        # (stesso bug trovato e corretto in trascrivi_locale_episodi.py il 2026-07-24).
+        total_audio = sum(
+            1 for anno_dir in audio_root.glob("*/") if anno_dir.name.isdigit()
+            for _ in list(anno_dir.glob("*.mp3")) + list(anno_dir.glob("gia_trascritti/*.mp3"))
+        )
     except OSError:
         total_audio = None
     return transcritos, total_audio
