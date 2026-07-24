@@ -23,6 +23,7 @@ import json
 import re
 import sys
 import time
+from datetime import datetime
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -510,6 +511,21 @@ def _archivia_mp3(mp3: Path) -> None:
     print(f"  mp3 spostato in gia_trascritti/{mp3.name}")
 
 
+CHECKPOINT_RITRASCRIZIONE = ROOT / "logs" / "checkpoint_ritrascrizione.log"
+
+
+def _scrivi_checkpoint(data_str: str) -> None:
+    """Log append-only, un episodio per riga, per un punto della situazione
+    verificabile nel tempo (timestamp + data) senza dover interrogare processi
+    live o fidarsi solo dello stato del pannello - richiesto esplicitamente
+    dall'utente dopo una notte di riavvii senza un registro persistente
+    dell'avanzamento reale della campagna --forza."""
+    CHECKPOINT_RITRASCRIZIONE.parent.mkdir(parents=True, exist_ok=True)
+    riga = f"{datetime.now().isoformat(timespec='seconds')} {data_str}\n"
+    with open(CHECKPOINT_RITRASCRIZIONE, "a", encoding="utf-8") as f:
+        f.write(riga)
+
+
 def parse_data(filename: str) -> str | None:
     # Priorita' al formato YYYY-MM-DD (sempre a inizio nome file, affidabile) —
     # alcuni filename hanno un secondo blocco di 8 cifre embedded piu' avanti
@@ -678,6 +694,8 @@ def main() -> None:
                   "non per macchina). Frammenti grezzi pronti per riclassifica_frammenti.py centrale.")
             _archivia_mp3(mp3)
             print(f"  [{data_str}] completato.\n")
+            if args.forza:
+                _scrivi_checkpoint(data_str)
             continue
 
         # 3. classificazione automatica frammenti rilevanti

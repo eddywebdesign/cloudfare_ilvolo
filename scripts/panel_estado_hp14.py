@@ -397,8 +397,8 @@ class PanelEstado:
         ttk.Label(
             cont,
             text=(
-                "Tarjetas 2-3: solo lectura. Tarjeta 1 y control remoto: en vivo vía SSH "
-                "al K16 (eddy@192.168.8.132). Sin conexión al K16, lo indican."
+                f"Tarjetas 2-3: solo lectura. Tarjeta 1 y control remoto: en vivo vía SSH "
+                f"al K16 ({K16_HOST}). Sin conexión al K16, lo indican."
             ),
             style="Nota.TLabel",
         ).pack(pady=(4, 0))
