@@ -2,9 +2,9 @@
   {
     "id": "2016-05-25-000",
     "start": 4.75,
-    "end": 65.3,
-    "speaker_raw": "SPEAKER_18",
-    "testo": "Radio DJ, one nation, one station. One love, one life. Don't stop, stop, stop, keep on driving. Don't stop, stop, stop, keep on driving. Don't stop, stop, I'll keep on riding with you, you. Taxi driver, so you add a light. Ciao Ciao Ciao Ciao! ... ... ... ...",
+    "end": 11.56,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Radio DJ, one nation, one station. One love, one life.",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -12,10 +12,10 @@
   },
   {
     "id": "2016-05-25-001",
-    "start": 93.28,
-    "end": 93.46,
+    "start": 11.6,
+    "end": 93.5,
     "speaker_raw": "SPEAKER_00",
-    "testo": "ciao ciao",
+    "testo": "Don't stop, stop, stop, keep on driving. Don't stop, stop, stop, keep on driving. Don't stop, stop, I'll keep on riding with you, you. Taxi driver, so you add a light. ciao ciao ciao Ciao Ciao Stop, stop, stop, keep on driving Don't stop, stop, stop, keep on driving Don't stop, stop, I'll keep on running with you You, that's the driver The nameless man behind the wheel A human heart, let's be real Ride all night now, tell me how to stay no no",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -23,10 +23,10 @@
   },
   {
     "id": "2016-05-25-002",
-    "start": 122.82,
-    "end": 123.28,
-    "speaker_raw": "SPEAKER_18",
-    "testo": "a presto",
+    "start": 122.68,
+    "end": 122.92,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Ciao!",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -36,8 +36,8 @@
     "id": "2016-05-25-003",
     "start": 137.51,
     "end": 190.93,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "Dai. Ma allora, devi smetterla di me. Allora è successa questa cosa, cari ascoltatori, è successa questa cosa. Qualche giorno fa Viola mangiava delle patatine davanti al microfono e Maurizio l'ha registrata. Ma vanno, no, no, è che continuo a mangiare patatine. Ma non è vero. Mi manda questo suono anche su WhatsApp, cro cro cro cro cro di lei che... ma lasciala stare va bene anche te che ti mangi le patatine così presto ha fatto bene io direi ragazzi che siccome abbiamo tante cose anche oggi è inutile perderci in parole inutili che sarà un po' il tema centrale di tutta la puntata come sempre io direi cambiamo l'umore alla nostra giornata con la sigla che fastidio che fa",
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Dai. Ma allora, devi smetterla di me. Allora, è successa questa cosa. Cari ascoltatori, è successa questa cosa. Qualche giorno fa Viola mangiava delle patatine davanti al microfono e Maurizio l'ha registrata. Ma vanno, no, no, è che continuo a mangiare patatine. Ma non è vero. Mi manda questo suono anche su WhatsApp. Cro cro cro cro cro di lei che... ma lasciala stare va bene anche te che ti mangi le patatine così presto ha fatto bene io direi ragazzi che siccome abbiamo tante cose anche oggi è inutile perderci in parole inutili che sarà un po' il tema centrale di tutta la puntata come sempre io direi cambiamo l'umore alla nostra giornata con la sigla che fastidio che fa",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -47,8 +47,8 @@
     "id": "2016-05-25-004",
     "start": 192.49,
     "end": 235.14,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "Mi dispiace. Have a good day, sir. bravi continuate così allora spero devo star nutire ragazzi vai vai vai",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Mi dispiace. Buongiorno vita, buongiorno mondo, com'è la tua felicità? Una volta sapevo cosa può essere vivere. Buongiorno. bravi continuate così allora spero devo star nutire ragazzi vai vai vai",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -58,7 +58,7 @@
     "id": "2016-05-25-005",
     "start": 257.3,
     "end": 305.58,
-    "speaker_raw": "SPEAKER_12",
+    "speaker_raw": "SPEAKER_02",
     "testo": "tutti che ridono quando faccio gli starnuti da quando sono bambino perché ne faccio tipo 7-8 di fila siamo in pochissimi al mondo che riescono a farne 9 di fila tra l'altro un po' interrotti speriamo che questa sigla non solo cambi l'umore a qualcuno di noi ma che mi tolga nella testa le canzoncine che mi martellano per tutto il giorno e io faccio parte di questa categoria dei genitori con bambini piccoli che entrano in loop queste canzoncine di bambini che sono fatte come dei lavaggi del cervello ti restano in testa continuamente tipo passeggiando in questa notte di New York continuavo a ripetermi Si arrabbia ma non strilla, sorseggia camomilla e mezzo addormentato se ne va. E il coccodrillo come fa?",
     "titolo": "Gli starnuti dei bambini",
     "tema": [
@@ -71,9 +71,9 @@
   {
     "id": "2016-05-25-006",
     "start": 306.1,
-    "end": 307.42,
-    "speaker_raw": "SPEAKER_15",
-    "testo": "E il coccodrillo?",
+    "end": 309.26,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "E il coccodrillo? No! E il coccodrillo?",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -81,9 +81,9 @@
   },
   {
     "id": "2016-05-25-007",
-    "start": 307.46,
-    "end": 308.14,
-    "speaker_raw": "SPEAKER_12",
+    "start": 309.36,
+    "end": 309.58,
+    "speaker_raw": "SPEAKER_02",
     "testo": "No!",
     "titolo": "",
     "tema": [],
@@ -92,31 +92,9 @@
   },
   {
     "id": "2016-05-25-008",
-    "start": 308.26,
-    "end": 309.26,
-    "speaker_raw": "SPEAKER_15",
-    "testo": "E il coccodrillo?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-05-25-009",
-    "start": 309.36,
-    "end": 309.58,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "No!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-05-25-010",
     "start": 309.66,
     "end": 320.93,
-    "speaker_raw": "SPEAKER_15",
+    "speaker_raw": "SPEAKER_00",
     "testo": "Il coccodrillo come fa? Non c'è nessuno che lo sa. Si dice mangi troppo, non metta mangiato.",
     "titolo": "",
     "tema": [],
@@ -124,11 +102,33 @@
     "video_url": ""
   },
   {
-    "id": "2016-05-25-011",
+    "id": "2016-05-25-009",
     "start": 322.85,
-    "end": 392.01,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "i denti funga che molto spesso pianga però quando è tranquillo come fa sto coccodrillo il coccodrillo come fa va beh insomma niente quindi adesso mi è rimasta in testa questa adesso è il periodo di questa hit in casa che gironzola questa va bene allora ragazzi un ascoltatore ci dice che si capisce che sono invecchiato ma forse tutti noi anche voi Perché ultimamente parliamo solo di cose, solo di mangiare, solo di cibo, parliamo di cibo, come si mangia, cerchiamo di capire cosa è sano, cosa non è sano, che è tipico dell'anziano perché il giovane mangia qualsiasi cosa. L'anziano come me dice come faccio a cercare di rallentare l'invecchiamento da qui avanti? Sono quelli che diventano maratoneti, che vanno a correre, quelli che vanno in palestra, quelli che si fanno le lampade, quelli che comprano il cabrio. insomma la crisi la crisi la crisi e chi comincia a mangiare verdure come ho fatto io ieri quelle lì tutte centrifugate allora un'ascoltatrice dice legandosi alla puntata di qualche giorno fa dice ma perché invece di chiamare dottori che dite vegani non vegani che non si capisce niente",
+    "end": 399.92,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "i denti funga che molto spesso pianga però quando è tranquillo come fa sto coccodrillo il coccodrillo come fa va beh insomma niente quindi adesso mi è rimasta in testa questa adesso è il periodo di questa hit in casa che gironzola questa va bene allora ragazzi un ascoltatore ci dice che si capisce che sono invecchiato ma forse tutti noi anche voi Perché ultimamente parliamo solo di cose, solo di mangiare, solo di cibo, parliamo di cibo, come si mangia, cerchiamo di capire cosa è sano, cosa non è sano, che è tipico dell'anziano perché il giovane mangia qualsiasi cosa. L'anziano come me dice come faccio a cercare di rallentare l'invecchiamento da qui avanti? Sono quelli che diventano maratoneti, che vanno a correre, quelli che vanno in palestra, quelli che si fanno le lampade, quelli che comprano il cabrio. insomma la crisi la crisi la crisi e chi comincia a mangiare verdure come ho fatto io ieri quelle lì tutte centrifugate allora un'ascoltatrice dice legandosi alla puntata di qualche giorno fa dice ma perché invece di chiamare dottori che dite vegani non vegani che non si capisce niente Non chiedete ai centenari, agli anziani che cosa non... vabbè ma quello perché dipende anche dalla persona, non è che siamo tutti uguali.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-05-25-010",
+    "start": 400.18,
+    "end": 409.6,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Comunque c'era su Sette di venerdì, c'era un pezzo che parlava proprio della dieta della regina Elisabetta che è 90enne fresca fresca.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-05-25-011",
+    "start": 409.62,
+    "end": 411.0,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Ma quello con il ring in copertina?",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -136,10 +136,10 @@
   },
   {
     "id": "2016-05-25-012",
-    "start": 393.25,
-    "end": 410.2,
-    "speaker_raw": "SPEAKER_13",
-    "testo": "non chiedete ai centenari, agli anziani va bene ma quello perché dipende anche dalla persona non è che siamo tutti uguali comunque c'era su 7 di venerdì c'era un pezzo che parlava proprio della dieta della regina Elisabetta che è 90enne fresca fresca proprio quello",
+    "start": 411.14,
+    "end": 411.82,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Proprio quello.",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -149,20 +149,19 @@
     "id": "2016-05-25-013",
     "start": 412.5,
     "end": 429.62,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "scusatemi c'è Renga e la regina Elisabetta insieme esatto ma veramente lei è di Brescia il tema era l'eleganza l'eleganza da Renga cosa dice Renga scusatemi",
+    "speaker_raw": "SPEAKER_02",
+    "testo": "scusatemi c'è Renga e la regina Elisabetta insieme di copertina che mangiano lei è di Brescia il tema era l'eleganza l'eleganza da Renga cosa dice Renga scusatemi",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
     "id": "2016-05-25-014",
-    "start": 431.96,
+    "start": 429.9,
     "end": 445.65,
-    "speaker_raw": "SPEAKER_14",
-    "testo": "sociale, sesso, religione solo l'amore comprende tutto Francesco Renga riflette sui suoi 30 anni di carriera ho capito che ce l'avevo fatta quando sono riuscito a raccontare in pubblico le mie sofferenze tre pagine di sofferenze",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "aspetta vediamo allora sociale, sesso, religione solo l'amore comprende tutto Francesco Renga riflette sui suoi 30 anni di carriera ho capito che ce l'avevo fatta quando sono riuscito a raccontare in pubblico le mie sofferenze tre pagine di sofferenze",
     "titolo": "Riflessione su 30 anni di carriera",
     "tema": [
       "carriera",
@@ -176,68 +175,32 @@
     "id": "2016-05-25-015",
     "start": 446.31,
     "end": 471.54,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "invece la regina ha tre pagine di menù ok la regina ha tre pagine di menù c'è il menù della regina? si allora aspetta una cosa siccome Maurizio abbiamo scoperto ieri che sei molto bravo a leggere grazie grazie allora mettiamo un disco e poi rientro i segreti della regina perché lei adesso ha un novantino no? si infatti ha un novantino",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": "",
-    "autore": ""
-  },
-  {
-    "id": "2016-05-25-016",
-    "start": 472.4,
-    "end": 476.18,
-    "speaker_raw": "SPEAKER_08",
-    "testo": "piccolo spazio pubblicità piccolo spazio pubblicità piccolo spazio",
+    "speaker_raw": "SPEAKER_02",
+    "testo": "invece la regina ha tre pagine di menù ok la regina ha tre pagine di menù c'è il menù della regina? sì allora aspetta una cosa siccome Maurizio abbiamo scoperto ieri che sei molto bravo a leggere grazie grazie allora mettiamo un disco e poi rientro i segreti della regina perché lei adesso ha un novantino no? eh sì infatti ha un novantino",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-05-25-017",
-    "start": 510.01,
-    "end": 610.31,
+    "id": "2016-05-25-016",
+    "start": 472.4,
+    "end": 719.86,
     "speaker_raw": "SPEAKER_05",
-    "testo": "Grazie. bevi la coca cola che ti fa bene bevi la coca cola che ti fa diselire con tutte quelle, tutte quelle bollicine cola sì, coca cola a me mi fa morire Coca-Cola sì, Coca-Cola me mi fa impazzire spazio pubblicità l'angolo e la posta spazio pubblicità",
+    "testo": "piccolo spazio pubblicità piccolo spazio pubblicità piccolo spazio Grazie a tutti. Bevi la Coca-Cola che ti fa bene Bevi la Coca-Cola che ti fa diselire Con tutte quelle, tutte quelle bollicine Coca-Cola sì, Coca-Cola a me mi fa morire Coca-Cola sì, Coca-Cola a me mi fa impazzire spazio pubblicità l'angolo e la posta spazio pubblicità Ciao! Coca-Cola chi, Coca-Cola chi vespa mangia le vere. Coca-Cola chi, Coca-Cola chi non vespa più e mangia le vere. Tutte quelle, tutte quelle medicine. Io la Coca-Cola me la porto Coca-Cola, e sei protagonista.",
     "titolo": "Coca-Cola",
     "tema": [
       "Coca-Cola",
       "pubblicità"
     ],
     "tipo": "riferimento_musica",
-    "video_url": "",
-    "confermato_esterno": true,
-    "copertina": "https://coverartarchive.org/release/ba16f03f-f45b-4078-a1d7-f84b73e05a9c/front-250"
-  },
-  {
-    "id": "2016-05-25-018",
-    "start": 635.49,
-    "end": 635.73,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "Ciao!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-05-25-019",
-    "start": 666.08,
-    "end": 719.86,
-    "speaker_raw": "SPEAKER_05",
-    "testo": "Coca-Cola chi, Coca-Cola chi vespa mangia le vere. Coca-Cola chi, Coca-Cola chi non vespa più e mangia le vere. Tutte quelle, tutte quelle medicine. Io la Coca-Cola me la porto Coca-Cola e sei protagonista.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-05-25-020",
+    "id": "2016-05-25-017",
     "start": 739.55,
     "end": 764.17,
-    "speaker_raw": "SPEAKER_12",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Attenzione ragazzi che basta parlare con medici, esperti, alimentaristi, dottori vegani, vegetariani, crudisti, niente, niente. Andiamo sul concreto. C'è una donna, una signora, una donna che è ancora in forma, sulla novantina. Vediamo cosa mangia. Legge Maurizio il menù della regina. Mi si è messa anche la base.",
     "titolo": "La dieta della regina",
     "tema": [
@@ -248,10 +211,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-05-25-021",
+    "id": "2016-05-25-018",
     "start": 766.95,
     "end": 823.97,
-    "speaker_raw": "SPEAKER_14",
+    "speaker_raw": "SPEAKER_04",
     "testo": "dunque posso posso ok let's yeah yeah eh thank you thank you la colazione avviene tassativamente alle ore nove da sola il marito infatti preferisce farla alle otto e trenta prevede cornflakes o special cake insieme a frutta tipo albicocche prugne e nocciole ah vedi sempre che la prugna will really help quando è nella sua residenza di campagna la regina gradisce le fragole di bosco yeah possibilmente che il cane ci ha fatto la pipì ogni tanto accetta anche un uovo assieme a un toast con la marmellata però il tutto innaffiato da un bel tè del Darjeeling Darjeeling insomma posso dirti che è una gran colazione conflex, fetta, biscottate l'uovo le prugne non dimenticare vado avanti aspettando il tè",
     "titolo": "",
     "tema": [],
@@ -259,33 +222,32 @@
     "video_url": ""
   },
   {
-    "id": "2016-05-25-022",
+    "id": "2016-05-25-019",
     "start": 824.57,
     "end": 859.56,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "a pranzo Elisabetta scusami dopo colazione lei essendo regina andrà al bagno? beh immagino se è come me va subito al momento no perché a parte che mangia più però dico lei cosa penserà quando è lì seduta che è la regina ed è lì secondo me hanno un apparato diverso dal nostro sai quei deodoranti che ci sono nei bagni che si autospruzzano da soli ogni 3 minuti 5 minuti secondo me lei è così fa delle robe profumate a pranzo cosa mangia?",
+    "speaker_raw": "SPEAKER_02",
+    "testo": "a pranzo Elisabetta scusami dopo colazione lei essendo regina andrà al bagno? beh immagino se è come me va subito al momento no a parte che mangia più però dico lei cosa penserà quando è lì seduta che è la regina ed è lì secondo me hanno un apparato diverso dal nostro sai quei deodoranti che ci sono nei bagni che si autospruzzano da soli ogni 3 minuti 5 minuti secondo me lei è così fa delle robe profumate a pranzo cosa mangia?",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-05-25-023",
+    "id": "2016-05-25-020",
     "start": 859.62,
     "end": 944.36,
-    "speaker_raw": "SPEAKER_14",
-    "testo": "a pranzo Elisabetta II si concede del pesce servito su un letto di lattuga o di zucchine ed è importante che non ci siano le patate e neppure l'aglio che non gradisce mentre è molto gradito il mango è molto gradito il mango capito dopo il pranzo si rilassa in attesa del momento del tè accompagnato da torte e dolciumi e altri toast con salmone affumicato maionese all'uovo prosciutto e mostarda secondo la tradizione inglese ammazza che buona merenda che si fa tra le torte la preferita è quello allo zenzero e alla frutta oltre alla torta di biscotti al cioccolato che il principe William ha servito persino al suo ricevimento torta di biscotti dopo questi tre pasti morigerati segue un gin serale un terzo di gin e due terzi di Dubonnet si fa anche l'alcolico certo non ho capito niente la vita si fa quel cicchettino cena cena infine la sera arriva la cena composta da selvaggina o pesce o entrambi seguiti da pudding, frutta fresca in particolare le pesche che crescono a Windsor il cibo che resta nei piatti lo lascia ai cani che quindi seguono lo stesso regime alimentare anche loro camperanno un sacco comunque posso dirti una cosa?",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "a pranzo Elisabetta II si concede del pesce servito su un letto di lattuga o di zucchine ed è importante che non ci siano le patate e neppure l'aglio che non gradisce mentre è molto gradito il mango è molto gradito il mango capito dopo il pranzo si rilassa in attesa del momento del tè accompagnato da torte e dolciumi e altri toast con salmone affumicato maionese all'uovo prosciutto e mostarda secondo la tradizione inglese ammazza che buona merenda che si fa tra le torte la preferita è quello allo zenzero e alla frutta oltre alla torta di biscotti al cioccolato che il principe William ha servito persino al suo ricevimento torta di biscotti dopo questi tre pasti morigerati segue un gin serale un terzo di gin e due terzi di Dubonnet si fa anche l'alcolico certo non ho capito niente nella vita si fa quel cicchettino cena cena infine la sera arriva la cena composta da selvaggina o pesce o entrambi seguiti da pudding, frutta fresca in particolare le pesche che crescono a Windsor il cibo che resta nei piatti lo lascia ai cani che quindi seguono lo stesso regime alimentare anche loro camperanno un sacco comunque posso dirti una cosa?",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
-    "id": "2016-05-25-024",
+    "id": "2016-05-25-021",
     "start": 945.4,
     "end": 947.62,
-    "speaker_raw": "SPEAKER_12",
+    "speaker_raw": "SPEAKER_02",
     "testo": "selvaggina è anche il mio soprannome è il mio nickname",
     "titolo": "",
     "tema": [],
@@ -293,33 +255,44 @@
     "video_url": ""
   },
   {
+    "id": "2016-05-25-022",
+    "start": 966.48,
+    "end": 966.9,
+    "speaker_raw": "SCONOSCIUTO",
+    "testo": "Ciao.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-05-25-023",
+    "start": 1000.97,
+    "end": 1092.69,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "no no Grazie.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-05-25-024",
+    "start": 1137.19,
+    "end": 1137.65,
+    "speaker_raw": "SCONOSCIUTO",
+    "testo": "Grazie a tutti.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
     "id": "2016-05-25-025",
-    "start": 966.72,
-    "end": 1001.11,
-    "speaker_raw": "SPEAKER_02",
-    "testo": "no no no no no",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-05-25-026",
-    "start": 1092.49,
-    "end": 1092.67,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "grazie",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-05-25-027",
-    "start": 1137.25,
+    "start": 1155.35,
     "end": 1200.04,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "a parlare di cose da mangiare la dieta della regina Viola è partito di nuovo l'appetito basta con questo riesce a ridere mentre mangia sono tre giorni che mi mandi questo suono di Viola che mangia le patatine ti volevo dire caro Fabio che la regina si fa spedire da Roma capito? Scrive un ascoltatore romano si fa spedire da Roma la millefoglie della pasticceria Cavalletti si chiama? Chirometro zero eh? Sì, Cavalletti chissà se è vero, ci siamo chiesti mentre andava questo disco l'unica cosa che possiamo fare è chiamare Pronto? Pasticceria Cavalletti? Sì Senta, mi chiamo Fabio Volo, faccio un programma in una radio, si chiama Radio DJ e volevo chiedere, ci sono stati degli ascoltatori che hanno detto che voi fate una torta che mandate alla regina d'Inghilterra è vera sta notizia? Così dicono La famosa millefoglie? Sì Ma non è mai venuta lì di persona la regina? Penso di no No, ma lei non lo sa? No Ma è vero che se la fa spedire o no?",
+    "speaker_raw": "SPEAKER_02",
+    "testo": "capito? Scrive un ascoltatore romano si fa spedire da Roma la millefoglie della pasticceria Cavalletti si chiama? A chilometro zero eh? Sì, Cavalletti chissà se è vero, ci siamo chiesti mentre andava questo disco l'unica cosa che possiamo fare è chiamare Pronto? è pasticceria Cavalletti? sì mi chiamo Fabio Volo faccio un programma in una radio si chiama Radio DJ volevo chiedere ci sono stati degli ascoltatori che hanno detto che voi fate una torta che mandate alla regina d'Inghilterra è vera sta notizia? così dicono la famosa millefoglie ma non è mai venuta lì di persona la regina? penso di no ma lei non lo sa? ma è vero che se la fa spedire o no?",
     "titolo": "La millefoglie della regina",
     "tema": [
       "cibo",
@@ -329,11 +302,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-05-25-028",
+    "id": "2016-05-25-026",
     "start": 1201.49,
     "end": 1205.87,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "È una leggenda metropolitana, metà tra realtà e finzione.",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "È una leggenda metropolitana, a metà tra realtà e finzione.",
     "titolo": "La leggenda metropolitana",
     "tema": [
       "verità",
@@ -343,10 +316,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-05-25-029",
+    "id": "2016-05-25-027",
     "start": 1206.21,
     "end": 1215.1,
-    "speaker_raw": "SPEAKER_12",
+    "speaker_raw": "SPEAKER_02",
     "testo": "No, perché io l'ho assaggiata e è molto buona, devo dire. Però volevo sapere se era vero che una volta a settimana spedite la torta... Che la spediamo noi?",
     "titolo": "",
     "tema": [],
@@ -354,10 +327,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-05-25-030",
+    "id": "2016-05-25-028",
     "start": 1215.18,
     "end": 1219.31,
-    "speaker_raw": "SPEAKER_09",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Per certo no. Se qualcuno gliela manda, questa è un'altra cosa.",
     "titolo": "La verità sulla millefoglie",
     "tema": [
@@ -368,10 +341,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-05-25-031",
+    "id": "2016-05-25-029",
     "start": 1219.51,
     "end": 1222.47,
-    "speaker_raw": "SPEAKER_12",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Va bene, va bene. A lei piace quella millefoglie?",
     "titolo": "Il dolce preferito",
     "tema": [
@@ -382,10 +355,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-05-25-032",
+    "id": "2016-05-25-030",
     "start": 1223.37,
     "end": 1224.95,
-    "speaker_raw": "SPEAKER_09",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Vuole che sia sincera? No.",
     "titolo": "",
     "tema": [],
@@ -393,10 +366,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-05-25-033",
+    "id": "2016-05-25-031",
     "start": 1225.01,
     "end": 1225.53,
-    "speaker_raw": "SPEAKER_12",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Come no?",
     "titolo": "",
     "tema": [],
@@ -404,10 +377,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-05-25-034",
+    "id": "2016-05-25-032",
     "start": 1225.93,
     "end": 1227.57,
-    "speaker_raw": "SPEAKER_09",
+    "speaker_raw": "SPEAKER_05",
     "testo": "No. Non è il mio dolce preferito.",
     "titolo": "",
     "tema": [],
@@ -415,10 +388,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-05-25-035",
+    "id": "2016-05-25-033",
     "start": 1227.73,
     "end": 1239.34,
-    "speaker_raw": "SPEAKER_12",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Ah, ok, però è buona, però è buona. È buona, sì. Ah, ok, ok. No, no, perché guarda che poi qua l'ascoltano gli ascoltatori, dopo, capito, magari poi il titolare dice, ma come, dice che non è buona, capito?",
     "titolo": "",
     "tema": [],
@@ -426,10 +399,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-05-25-036",
+    "id": "2016-05-25-034",
     "start": 1239.44,
     "end": 1243.58,
-    "speaker_raw": "SPEAKER_09",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Io ho detto se potevo essere sincera e lo sono stato. Sì, sì, sì, sì, no.",
     "titolo": "",
     "tema": [],
@@ -437,10 +410,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-05-25-037",
+    "id": "2016-05-25-035",
     "start": 1243.92,
     "end": 1287.35,
-    "speaker_raw": "SPEAKER_12",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Sì, sì, sì, va bene, va bene, ok. Comunque è buonissima. Grazie mille, scusa il disturbo. Grazie a lei, arrivederci. Salve, salve, salve. se siete ascoltatori del volo del mattino e andate alla pasticceria Cavalletti mi raccomando non dite al titolare che la ragazza ha detto però non ha detto che non è buona ha detto non è la mia preferita esatto esatto noi Linus avrebbe già cazziato uno pensa di avere degli amici e si fida ciecamente invece poi viene ricattato cioè praticamente abbiamo appena scoperto io e Viola che Maurizio questa mattina mentre preparavamo il programma ci ha registrato e adesso ci ricatta",
     "titolo": "",
     "tema": [],
@@ -448,62 +421,29 @@
     "video_url": ""
   },
   {
-    "id": "2016-05-25-038",
+    "id": "2016-05-25-036",
     "start": 1303.23,
-    "end": 1321.19,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "Un po' di slempito, buon buon. Black cat, ma bello. Le sighe pullulano, ben ben. E così, e così. Un mondo libero, un sogno libero.",
+    "end": 1398.1,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Un po' di slempito, buon buon Black Cat, ma bello Le sighe pullulano, ben ben E così, e così Un mondo libero, un sogno libero Un canto libero, come un partigiano reggiano Un canto libero, un amore libero Un cuore unico, come un partigiano reggiano Blackhead, sta buon, un codice neppito, buon buon. Red Dance, va bene, in sella al diavolo, ben ben. E così... Un cuore unico.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-05-25-039",
-    "start": 1321.29,
-    "end": 1328.57,
-    "speaker_raw": "SCONOSCIUTO",
-    "testo": "Un canto libero, come un partigiano reggiano. Un canto libero, un amore libero.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-05-25-040",
-    "start": 1328.67,
-    "end": 1331.93,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "Un cuore unico, come un partigiano reggiano.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-05-25-041",
-    "start": 1366.64,
-    "end": 1398.08,
-    "speaker_raw": "SPEAKER_04",
-    "testo": "Grazie a tutti. Grazie a tutti. Grazie a tutti. un cuore unico",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-05-25-042",
-    "start": 1420.57,
+    "id": "2016-05-25-037",
+    "start": 1420.53,
     "end": 1478.6,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "abbiamo un attimo discorso e non parliamo della regina non parliamo di cibo non parliamo del fatto che maurizio ci ha registrati quindi siamo sottoricati qual è la tua richiesta per non mandare in onda i commenti cioè quello che uno fa quando si ritrova tra gli amici che è differente tra te e viola ovviamente la richiesta è certo è certo perché io con i miei amici quando parlo con i miei amici parlo con un altro linguaggio perché sai loro lo sanno che io scherzo invece quando parlo pubblicamente devo stare attento siamo stati intercettati siamo stati la famosa intercettazione macchina del fango già pronta è la macchina del fango prima di affrontare questo argomento invece diamo spazio come stiamo facendo ultimamente a delle belle storie chiamiamo Andrea Dell'Unicef Signore e signori, è qui con noi anche questa settimana Andrea. Buongiorno Andrea. Buongiorno Fabio, come va? Tutto bene, tu come stai? Bene, bene, sono a Terni oggi. Dove sei?",
+    "speaker_raw": "SPEAKER_02",
+    "testo": "cambiamo un attimo discorso e non parliamo della regina non parliamo di cibo non parliamo del fatto che Maurizio ci ha registrati quindi siamo sotto ricatto e qual è la tua richiesta per non mandare in onda i commenti cioè quello che uno fa quando si ritrova tra gli amici che è differente tra te e Viola ovviamente la richiesta è certo perché io con i miei amici quando parlo con i miei amici parlo con un altro linguaggio perché sai loro lo sanno che io scherzo invece quando parlo pubblicamente devo stare attento siamo stati intercettati siamo stati la famosa intercettazione macchina del fango già pronta è la macchina del fango prima di affrontare questo argomento invece diamo spazio come stiamo facendo ultimamente a delle belle storie chiamiamo Andrea Dell'Unicef Signore e signori, è qui con noi anche questa settimana Andrea. Buongiorno Andrea. Buongiorno Fabio, come va? Tutto bene, tu come stai? Bene, bene, sono a Terni oggi. Dove sei?",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-05-25-043",
+    "id": "2016-05-25-038",
     "start": 1478.96,
     "end": 1479.98,
     "speaker_raw": "SPEAKER_01",
@@ -514,10 +454,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-05-25-044",
+    "id": "2016-05-25-039",
     "start": 1480.12,
     "end": 1484.26,
-    "speaker_raw": "SPEAKER_12",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Ah, ok, ok, va bene, va bene. Dacci qualche notizia.",
     "titolo": "",
     "tema": [],
@@ -525,11 +465,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-05-25-045",
+    "id": "2016-05-25-040",
     "start": 1484.62,
-    "end": 1578.44,
+    "end": 1578.42,
     "speaker_raw": "SPEAKER_01",
-    "testo": "Ho una bella storia, Fabio, oggi. Una storia di una lettera che mi è arrivata da un ragazzo che abbiamo aiutato. in uno dei nostri centri di accoglienza, il Blue Dot, in giro per l'Europa, per questi ragazzi migranti, si chiama Assad, è un ragazzo di 17 anni, lui è afghano, Fabio, e il papà faceva il tassista, e praticamente una notte i talibani lo hanno attaccato, la sorella ha perso una gamba, pensa, e il taxi di suo padre è saltato in aria. Lui è stato addirittura ferito anche da una scheggia all'occhio. Mi ha raccontato, si è raccontato dell'Unicef che è fuggito in Europa per cercare naturalmente un punto più tranquillo dove studiare, naturalmente per lavorare. Pensa, ha attraversato il Pakistan, l'Iran, la Turchia e quando camminava per strada ci scrive nei sentieri di montagna, la gente gli diceva, quelli che stavano con lui, se vedi qualcuno cadere nel burrone non tentare di aiutarlo o morirai anche tu. Ecco, lui praticamente vedeva la gente cadere giù e andava avanti. poi ci ha scritto sempre in questa lettera che quando li hanno fatti salire sul gommone poi per arrivare in Grecia gli dicevano se vedete un'imbarcazione rivoltarsi non tentate di aiutarli o affogherete anche voi tu pensa Fabio che cosa dovete sentirti dire e lui dice vabbè vedevamo un altro gommone a fondare davanti a noi e siamo andati oltre beh insomma per fartela breve ora lui è riuscito dopo tutto questo cammino ad arrivare a Berlino è ospite di un ristoratore si chiama Thorsten questo ristoratore Va a scuola, noi siamo riusciti ad accompagnarlo in questo percorso, ha imparato la lingua, quindi il tedesco, e la sera cucinano anche dei piatti afiani in questo ristorante. Naturalmente lui sente la mancanza della sua famiglia, ma la cosa bella che scrive alla fine di questa lettera...",
+    "testo": "Ho una bella storia, Fabio, oggi. Una storia di una lettera che mi è arrivata da un ragazzo che abbiamo aiutato in uno dei nostri centri di accoglienza, il Blue Dot, in giro per l'Europa, per questi ragazzi migranti, si chiama Assad, è un ragazzo di 17 anni, lui è afghano, Fabio, e il papà faceva il tassista, e praticamente una notte i talibani lo hanno attaccato, la sorella ha perso una gamba, pensa, e il taxi di suo padre è saltato in aria. Lui è stato addirittura ferito anche da una scheggia all'occhio. Mi ha raccontato, si è raccontato dell'Unicef che è fuggito in Europa per cercare naturalmente un punto più tranquillo dove studiare, naturalmente per lavorare. Pensa, ha attraversato il Pakistan, l'Iran, la Turchia e quando camminava per strada ci scrive nei sentieri di montagna, la gente gli diceva, quelli che stavano con lui, se vedi qualcuno cadere nel burrone non tentare di aiutarlo o morirai anche tu. Ecco, lui praticamente vedeva la gente cadere giù e andava avanti. Poi c'è scritto sempre in questa lettera che quando li hanno fatti salire sul gommone, poi per arrivare in Grecia, gli dicevano se vedete un'imbarcazione rivoltarsi non tentate di aiutarli o affogherete anche voi. Tu pensa Fabio che cosa dovrebbe sentirsi dire. E lui dice vabbè, vedevamo un altro gommone a fondare davanti a noi e siamo andati oltre. Beh, insomma, per fartela breve, ora lui è riuscito dopo tutto questo cammino ad arrivare a Berlino, è ospite di un ristoratore, si chiama Thorsten questo ristoratore, Va a scuola, noi siamo riusciti ad accompagnarlo in questo percorso, ha imparato la lingua, quindi il tedesco, e la sera cucinano anche dei piatti afiani in questo ristorante. Naturalmente lui sente la mancanza della sua famiglia, ma la cosa bella che scrive alla fine di questa lettera",
     "titolo": "Storia di una lettera da Assad",
     "tema": [
       "speranza",
@@ -540,10 +480,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-05-25-046",
+    "id": "2016-05-25-041",
     "start": 1578.84,
     "end": 1627.61,
-    "speaker_raw": "SPEAKER_12",
+    "speaker_raw": "SPEAKER_02",
     "testo": "e che se dovesse cadere sicuramente persone come Thorsten lo aiuterebbero ecco questa è una storia che ti volevo raccontare perché è una bellissima storia di speranza grazie Andrea mi piace il fatto che portando una storia dando un nome raccontando un po' tutto il percorso uno come dire non veda solo queste persone sui gommoni come ultimi come ultimo processo e quindi come dei numeri poi extracomunitari poi qualcuno li chiamerà in un altro modo insomma il fatto che abbia un nome che abbia una storia che abbia come dire che quando arrivano sono partiti da molto molto lontano rende secondo me più un pochino un po' più di giustizia dal punto di vista della percezione poi per il resto insomma sono discorsi troppo seri però insomma la percezione che si ha è completamente diversa insomma",
     "titolo": "Racconto di speranza e aiuto",
     "tema": [
@@ -555,11 +495,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-05-25-047",
+    "id": "2016-05-25-042",
     "start": 1628.37,
     "end": 1662.99,
     "speaker_raw": "SPEAKER_01",
-    "testo": "Sì, perché Fabio questa gente non affronta un viaggio, questa è una fuga e il racconto di queste fughe così lunghe danno proprio la dimensione di che cosa vuol dire affrontare montagne e stare su un gommone, non si fugge da qualcosa quando non si ha una speranza, quindi si fugge perché si ha una paura. e queste persone lasciano dietro di sé delle cose tremende e quindi ecco è bello quello che hai detto diciamo veramente ti ringrazio ci sono delle storie e la storia di Assad questa storia proprio vuole indicare questo quindi grazie ancora Fabio veramente ok grazie Andrea ci sentiamo la settimana prossima assolutamente sì grazie ciao ciao ciao grazie ciao ciao",
+    "testo": "Sì, perché Fabio questa gente non affronta un viaggio, questa è una fuga e il racconto di queste fughe così lunghe danno proprio la dimensione di che cosa vuol dire affrontare montagne e stare su un gommone, non si fugge da qualcosa quando non si ha una speranza, quindi si fugge perché si ha una paura. e queste persone lasciano dietro di sé delle cose tremende e quindi ecco è bello quello che hai detto diciamo veramente ti ringrazio ci sono delle storie e la storia di Assad questa storia proprio vuole indicare questo quindi grazie ancora Fabio veramente ok grazie Andrea ci sentiamo la settimana prossima assolutamente sì grazie ciao ciao ciao grazie",
     "titolo": "Fuga, paura e speranza",
     "tema": [
       "paura",
@@ -570,44 +510,33 @@
     "video_url": ""
   },
   {
-    "id": "2016-05-25-048",
+    "id": "2016-05-25-043",
     "start": 1681.21,
-    "end": 1681.67,
-    "speaker_raw": "SPEAKER_16",
-    "testo": "Ciao Ciao Ciao Ciao",
+    "end": 1711.67,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Ciao Ciao Ciao Ciao Sì",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-05-25-049",
-    "start": 1711.63,
-    "end": 1711.77,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "no no",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2016-05-25-050",
+    "id": "2016-05-25-044",
     "start": 1744.86,
-    "end": 1744.95,
+    "end": 1745.08,
     "speaker_raw": "SCONOSCIUTO",
-    "testo": "Ciao!",
+    "testo": "ciao ciao",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-05-25-051",
+    "id": "2016-05-25-045",
     "start": 1837.15,
     "end": 1878.27,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "bene devo dire però che sono più preoccupato per Viola che riascoltando durante questo disco l'intercettazione a me non interessa no ti posso dire che va bene Maurizio cercava di tirarci fuori il peggio di noi che io il peggio di me l'ho già messo diciamo alla luce secondo me che si sa che sono un mezzo deficiente invece secondo me Viola stupisce un po' ma non ho detto niente di offensivo no di offensivo no però si parlava della regina questa mattina e tu hai fatto vabbè comunque sentiamo l'intercettazione alla viola piace molto la mia versione io perché me la immagino lì in posizioni",
+    "speaker_raw": "SPEAKER_02",
+    "testo": "bene devo dire però che sono più preoccupato per Viola che riascoltando durante questo disco l'intercettazione a me non interessa no ti posso dire che va bene Maurizio cercava di tirarci fuori il peggio di noi però devo dire che io il peggio di me l'ho già messo diciamo alla luce secondo me che si sa che sono un mezzo deficiente invece secondo me Viola stupisce un po' ma non ho detto niente di offensivo no di offensivo no però si parlava della regina questa mattina e tu hai fatto vabbè comunque sentiamo l'intercettazione alla viola piace molto la mia versione io perché me la immagino lì in posizioni",
     "titolo": "il peggio di noi",
     "tema": [
       "autocritica",
@@ -617,36 +546,33 @@
     "video_url": ""
   },
   {
-    "id": "2016-05-25-052",
+    "id": "2016-05-25-046",
     "start": 1881.33,
     "end": 1903.79,
-    "speaker_raw": "SPEAKER_13",
-    "testo": "Tutta nuda me la immagino Che poi la regina si depilerà Secondo voi Parli che da vecchi si perdono i peli Si perdono, si si perdono Lei più che altro è sul cesso Qualcuno aveva fatto delle statue Sono la regina Sul cesso tutte le mattine Dopo le prugne di colazione Prugne",
-    "titolo": "la regina nuda",
-    "tema": [
-      "regina",
-      "umorismo"
-    ],
-    "tipo": "aneddoto",
-    "video_url": ""
-  },
-  {
-    "id": "2016-05-25-053",
-    "start": 1908.11,
-    "end": 1950.73,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "cioè vedi comunque l'argomento l'argomento regina è nuda l'ha introdotto maurizio riascoltando l'intercettazione quindi c'è c'è istigazione c'è istigazione no ma io taglierò tutto poi ah ok ok tu togli e poi no è solo la domanda di viola la regina si depilerà che è la cosa che stupisce perché il resto va bene ma stupisce ma mica ho detto cose sconce guarda non ce l'aspettavamo no è che tu ti chieda se la regina si depile fa effetto fa effetto ma parlavo delle gambe comunque noi adesso abbiamo sempre quando abbiamo dei dubbi ci sono sempre degli ascoltatori che ci chiariscono secondo me un flirt dalla regina in ascolto c'è che ci può dire come è messa che ci può dire come è messa",
+    "speaker_raw": "SPEAKER_03",
+    "testo": "tutta nuda me la immagino che poi la regina si depilerà secondo voi si perdono i peli lei più che altro è sul cesso qualcuno aveva fatto delle statue sono la regina sul cesso tutte le mattine dopo le prugne di colazione prugne",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-05-25-054",
+    "id": "2016-05-25-047",
+    "start": 1908.11,
+    "end": 1950.73,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "cioè vedi comunque l'argomento regina nuda l'ha introdotto Maurizio riascoltando l'intercettazione quindi c'è istigazione io taglierò tutto poi e poi no è solo la domanda di Viola la regina si depilerà che è la cosa che stupisce ma stupisce ma mica ho detto cose sconce guarda non ce l'aspettavamo no è che tu ti chieda se la regina si depile fa effetto ma parlavo delle gambe comunque noi adesso quando abbiamo dei dubbi ci sono sempre degli ascoltatori che ci chiariscono secondo me un flirt dalla regina in ascolto c'è che ci può dire come è messa che ci può dire come è messa",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-05-25-048",
     "start": 1961.85,
     "end": 2129.63,
-    "speaker_raw": "SPEAKER_19",
-    "testo": "down upon the canvas working in a mill waiting for a chance to pick up Irish field up and up up and up see a bird form a diamond in a rough see a bird soaring high but the flood is in your blood it's in your blood underneath the storm an umbrella is saying sitting with the boys it takes away the pain up and up no no Ciao! Grazie a tutti Grazie a tutti.",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "down upon the canvas working in a mill waiting for a chance to pick up Irish field up and up up and up see a bird form a diamond in a rough see a bird soaring high but the flood is in your blood it's in your blood underneath the storm an umbrella is saying sitting with the boys it takes away the pain up and up no no Ciao! no no Grazie a tutti.",
     "titolo": "Canzone di speranza",
     "tema": [
       "speranza",
@@ -656,10 +582,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-05-25-055",
+    "id": "2016-05-25-049",
     "start": 2151.7,
     "end": 2176.9,
-    "speaker_raw": "SPEAKER_12",
+    "speaker_raw": "SPEAKER_02",
     "testo": "abbiamo appena detto che Maurizio ci ha registrato mentre facevamo i commenti capito? io la prima cosa che ho fatto me lo sono messo nella testa ho detto ok non devo più commentare in presenza di Maurizio ma sono buona fede io allora abbiamo sentito il nostro fuori onda è andato un disco e su quel disco tu hai ricommentato con Maurizio che ti rinfottava e ti sei riabboccato di nuovo cioè io incredulo incredulo",
     "titolo": "La registrazione",
     "tema": [
@@ -670,42 +596,39 @@
     "video_url": ""
   },
   {
-    "id": "2016-05-25-056",
+    "id": "2016-05-25-050",
     "start": 2179.1,
     "end": 2198.11,
-    "speaker_raw": "SPEAKER_13",
-    "testo": "la seconda intercettazione è tra l'altro peggio della prima questa è bellissima dice che c'è un full bush full bush oppure tipo brasiliana se conosce Brandoardi oppure c'è tipo una piccola landing strip come si dice",
+    "speaker_raw": "SPEAKER_03",
+    "testo": "la seconda intercettazione è tra l'altro peggio della prima questa è bellissima dice che c'è un full bush full bush oppure tipo brasiliana secondo me c'è Brandoardi oppure c'è tipo una piccola landing strip come si dice",
     "titolo": "Full bush",
     "tema": [
       "sessualità",
       "relazioni"
     ],
     "tipo": "riferimento_libro",
-    "video_url": "",
-    "confermato_esterno": true
+    "video_url": ""
   },
   {
-    "id": "2016-05-25-057",
+    "id": "2016-05-25-051",
     "start": 2198.95,
-    "end": 2254.31,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "è una piccola pista d'atterraggio cioè capito ma è incredibile comunque era una citazione da Sex and the City non è roba mia da Sex and the City la pista di atterraggio io posso dire una cosa sono nato nel 1972 e ho la fortuna a differenza dei giovani d'oggi di aver attraversato tutte le fasi da quello che si chiama il full bush cioè da come diceva Costanzo la camicia con i baffi ho visto anche le mutande con le basette e poi da lì siamo arrivati diciamo così io ho avuto la fortuna di passare dal diciamo dal disboscamento quindi ho varie versioni varie versioni va bene comunque allora questa mattina sempre perché vi voglio bene vi ho portato questa canzone che non si sente mai ma che mi è capitata ieri random in cuffia e che ho detto domani la porto al volo del mattino sentite qua ma che meraviglia",
+    "end": 2257.14,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "è una piccola pista d'atterraggio cioè hai capito non hai registrato questo che ho detto no no comunque era una citazione da Sex and the City non è roba mia da Sex and the City la pista di atterraggio io posso dire una cosa sono nato nel 1972 e ho la fortuna a differenza dei giovani d'oggi di aver attraversato tutte le fasi da quello che si chiama il full bush cioè da come diceva Costanzo la camicia con i baffi io ho visto anche le mutande con le basette e poi da lì siamo arrivati diciamo così io ho avuto la fortuna di passare dal diciamo dal disboscamento quindi ho varie versioni varie versioni va bene comunque allora questa mattina sempre perché vi voglio bene vi ho portato questa canzone che non si sente mai ma che mi è capitata ieri random in cuffia e che ho detto domani la porto al volo del mattino sentite qua ma che meraviglia ... ... ... ... ...",
     "titolo": "Sex and the City",
     "tema": [
       "relazioni",
       "amore"
     ],
     "tipo": "riferimento_film",
-    "video_url": "",
-    "confermato_esterno": true,
-    "copertina": "https://image.tmdb.org/t/p/w200/u5ahabgPxtLhxSv46458vPn0uSv.jpg"
+    "video_url": ""
   },
   {
-    "id": "2016-05-25-058",
-    "start": 2256.6,
-    "end": 2387.49,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "... ... ... ... ... Scarlet billows Start to spread Fancy gloves, though Where's old Maggie Heath, babe? So there's never Never a trace of red Now on the sidewalk, uh-huh Oh, it's Sunday morning, uh-huh Lies a body Just stews in life And someone's Sì. Oh, that cement is just, it's there for the weight of death. Five will get you ten, old Mackey's back in town. Don't you hear about Joey Miller? He disappeared, babe, after drawing out all his modern cash. And now Mackey, he's been just lying. Grazie a tutti.",
+    "id": "2016-05-25-052",
+    "start": 2285.12,
+    "end": 2414.18,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Scarlet billows Start to spread Fancy gloves, oh Where's old Maggie Heath, babe So there's never Never a trace of red Now on the sidewalk, uh-huh Oh, it's Sunday morning, uh-huh Lies about it Just stews in life Get some one's Sì. Oh, that cement is just, it's there for the weight of death. Five will get you ten, old Mackey's back in town. Don't you hear about Joey Miller? He disappeared, babe, after drawing out all his modern cash. And now Mackey, he's been just lying. On the right babe Not that Maggie Back in town I said Jenny Diver Whoa Sookie Tardy Look out to Miss Lottie Lenya And old Lucy Brown Yes that line boys On the right babe Not that Maggie",
     "titolo": "Canzone di morte",
     "tema": [
       "morte",
@@ -715,10 +638,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-05-25-059",
+    "id": "2016-05-25-053",
     "start": 2436.7,
     "end": 2444.29,
-    "speaker_raw": "SPEAKER_12",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Tronto? Sonia? Sì? Ciao, sono Fabio Volo, ma perché te ne vai? No... Ma dove vai?",
     "titolo": "",
     "tema": [],
@@ -726,10 +649,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-05-25-060",
+    "id": "2016-05-25-054",
     "start": 2444.69,
     "end": 2446.91,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_05",
     "testo": "No, non ci credo, ma non è possibile.",
     "titolo": "",
     "tema": [],
@@ -737,10 +660,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-05-25-061",
+    "id": "2016-05-25-055",
     "start": 2447.3,
     "end": 2448.4,
-    "speaker_raw": "SPEAKER_12",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Ma dove vai?",
     "titolo": "",
     "tema": [],
@@ -748,22 +671,21 @@
     "video_url": ""
   },
   {
-    "id": "2016-05-25-062",
+    "id": "2016-05-25-056",
     "start": 2449.02,
     "end": 2451.54,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Vado, vado, parto, vado in Costa Rica.",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
-    "id": "2016-05-25-063",
+    "id": "2016-05-25-057",
     "start": 2452.14,
     "end": 2457.58,
-    "speaker_raw": "SPEAKER_12",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Ma in che zona? Io la conosco bene Costa Rica, dove vai in Costa Rica? Tamarindo, che zona vai?",
     "titolo": "",
     "tema": [],
@@ -771,10 +693,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-05-25-064",
+    "id": "2016-05-25-058",
     "start": 2458.03,
     "end": 2461.73,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Allora, Puntarena Puntarena?",
     "titolo": "",
     "tema": [],
@@ -782,22 +704,21 @@
     "video_url": ""
   },
   {
-    "id": "2016-05-25-065",
+    "id": "2016-05-25-059",
     "start": 2462.23,
     "end": 2468.65,
-    "speaker_raw": "SPEAKER_12",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Ma di dove siete in Italia? Milano Ma scusami, ma andate in vacanza o andate proprio ve ne andate?",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
-    "id": "2016-05-25-066",
+    "id": "2016-05-25-060",
     "start": 2468.73,
     "end": 2476.98,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_05",
     "testo": "No, andiamo proprio Ma avete dei figli? Non abbiamo dei figli, abbiamo due gazze che ci seguiranno.",
     "titolo": "gazze come figli",
     "tema": [
@@ -808,27 +729,25 @@
     "video_url": ""
   },
   {
-    "id": "2016-05-25-067",
+    "id": "2016-05-25-061",
     "start": 2477.18,
-    "end": 2479.72,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "Ma scusami, ma che lavoro fa? Ma spiega un attimo.",
+    "end": 2480.08,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Ma scusami, ma che lavoro fa? Ma spiega un attimo che quale...",
     "titolo": "Il lavoro",
     "tema": [
       "lavoro",
       "impegno"
     ],
     "tipo": "riferimento_libro",
-    "video_url": "",
-    "autore": "Alessandro Manzoni",
-    "confermato_esterno": true
+    "video_url": ""
   },
   {
-    "id": "2016-05-25-068",
-    "start": 2481.44,
+    "id": "2016-05-25-062",
+    "start": 2480.12,
     "end": 2485.9,
-    "speaker_raw": "SPEAKER_10",
-    "testo": "Ma io sto mangiando un'amichetta col pane, burro e zucchero.",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Ma io faccio un sacco di mangiando un'amichetta col pane, burro e zucchero.",
     "titolo": "L'amichetta col pane",
     "tema": [
       "cibo",
@@ -838,34 +757,32 @@
     "video_url": ""
   },
   {
-    "id": "2016-05-25-069",
+    "id": "2016-05-25-063",
     "start": 2486.14,
-    "end": 2490.92,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "Buono, buono. Quando è che partite?",
+    "end": 2491.6,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Buono, buono. Dimmi, quando è che partite? Quando è che partite?",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
-    "id": "2016-05-25-070",
-    "start": 2491.12,
+    "id": "2016-05-25-064",
+    "start": 2491.64,
     "end": 2495.86,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Partiamo entro fine anno, probabilmente sarà ottobre, novembre.",
     "titolo": "",
     "tema": [],
     "tipo": "",
-    "video_url": "",
-    "autore": ""
+    "video_url": ""
   },
   {
-    "id": "2016-05-25-071",
+    "id": "2016-05-25-065",
     "start": 2496.3,
     "end": 2497.7,
-    "speaker_raw": "SPEAKER_12",
+    "speaker_raw": "SPEAKER_02",
     "testo": "ma che lavoro fate in Italia?",
     "titolo": "Il lavoro in Italia",
     "tema": [
@@ -873,15 +790,13 @@
       "Italia"
     ],
     "tipo": "riferimento_libro",
-    "video_url": "",
-    "autore": "Alessandro Manzoni",
-    "confermato_esterno": true
+    "video_url": ""
   },
   {
-    "id": "2016-05-25-072",
+    "id": "2016-05-25-066",
     "start": 2497.76,
     "end": 2510.49,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_05",
     "testo": "io voglio saperle queste cose facciamo allora praticamente io lavoro in un supermercato e Alessandro lavora in un albergo ok mollate tutto e che fatela? andiamo a coltivare caffè",
     "titolo": "Il lavoro in supermercato",
     "tema": [
@@ -892,11 +807,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-05-25-073",
+    "id": "2016-05-25-067",
     "start": 2511.08,
     "end": 2514.64,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "ma veramente? andate in una piantagione di caffè?",
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Ma veramente? Andate in una piantagione di caffè?",
     "titolo": "La piantagione di caffè",
     "tema": [
       "caffè",
@@ -906,11 +821,11 @@
     "video_url": ""
   },
   {
-    "id": "2016-05-25-074",
+    "id": "2016-05-25-068",
     "start": 2515.26,
-    "end": 2526.85,
-    "speaker_raw": "SPEAKER_10",
-    "testo": "sì abbiamo degli amici lì che già hanno questa terra dove coltivano il loro caffè biologico e noi andiamo così cioè andate ad aiutare loro a raccogliere il caffè e vivete lì?",
+    "end": 2522.83,
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Sì, abbiamo degli amici lì che già hanno questa terra dove coltivano il loro caffè biologico e noi andiamo così.",
     "titolo": "La terra dei caffè biologici",
     "tema": [
       "caffè",
@@ -920,11 +835,33 @@
     "video_url": ""
   },
   {
-    "id": "2016-05-25-075",
-    "start": 2527.07,
+    "id": "2016-05-25-069",
+    "start": 2522.85,
+    "end": 2526.07,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Cioè andate ad aiutare loro a raccogliere il caffè e vivete lì?",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-05-25-070",
+    "start": 2526.35,
+    "end": 2527.57,
+    "speaker_raw": "SPEAKER_01",
+    "testo": "Esatto, esatto.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2016-05-25-071",
+    "start": 2527.79,
     "end": 2530.14,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "esatto con la casetta di legno vicino al mare?",
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Con la casetta di legno vicino al mare?",
     "titolo": "La casetta di legno vicino al mare",
     "tema": [
       "casetta",
@@ -934,22 +871,22 @@
     "video_url": ""
   },
   {
-    "id": "2016-05-25-076",
-    "start": 2530.4,
+    "id": "2016-05-25-072",
+    "start": 2530.38,
     "end": 2530.44,
-    "speaker_raw": "SPEAKER_10",
-    "testo": "no",
+    "speaker_raw": "SPEAKER_01",
+    "testo": "Sì.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-05-25-077",
+    "id": "2016-05-25-073",
     "start": 2530.86,
-    "end": 2557.98,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "la baracca di legno la baracca di legno vicino al mare esatto non è proprio vicino al mare che ci vogliono un due ore e mezzo per arrivare a uno dei due mari vabbè però una volta vai di là ci sono i caraibi con i rasta che parlano inglese una volta vai di qua che meraviglia posso chiedervi come mai questa scelta questa scelta vi siete stufati vi fa sta vita qua Fabio l'Italia è bellissima",
+    "end": 2556.56,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "la baracca di legno la baracca di legno vicino al mare esatto non è proprio vicino al mare che si vogliono un due ore e mezzo per arrivare a uno dei due mari vabbè però una volta vai di là ci sono i caraibi con i rastra che parlano inglese una volta vai di qua che meraviglia posso chiedervi come mai questa scelta questa scelta vi siete stufati vi fa sta vita qua l'Italia è bellissima",
     "titolo": "La scelta di vita: coltivare caffè",
     "tema": [
       "cambiamento",
@@ -959,7 +896,7 @@
     "video_url": ""
   },
   {
-    "id": "2016-05-25-078",
+    "id": "2016-05-25-074",
     "start": 2559.18,
     "end": 2561.02,
     "speaker_raw": "SPEAKER_01",
@@ -970,10 +907,10 @@
     "video_url": ""
   },
   {
-    "id": "2016-05-25-079",
+    "id": "2016-05-25-075",
     "start": 2561.06,
     "end": 2590.83,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Però gli italiani fanno schifo. No, diciamo che siamo in una situazione complicata, un po' lavorativa, abbiamo preso una grossa fregatura qua in Italia, ci hanno venduto la nostra casa dove adesso comunque attualmente abitiamo. quindi questa bastonata vi ha dato la forza quanti anni avete?",
     "titolo": "La nostra casa",
     "tema": [
@@ -981,14 +918,13 @@
       "famiglia"
     ],
     "tipo": "riferimento_libro",
-    "video_url": "",
-    "confermato_esterno": true
+    "video_url": ""
   },
   {
-    "id": "2016-05-25-080",
+    "id": "2016-05-25-076",
     "start": 2590.89,
     "end": 2627.53,
-    "speaker_raw": "SPEAKER_12",
+    "speaker_raw": "SPEAKER_02",
     "testo": "io ho 30 e lui lui va quasi per i 50 bello bello ragazzi guarda in bocca al lupo tenete questo numero che noi ogni tanto vi chiamiamo a parte che ci dovete andare a fine anno per cui a settembre magari siete ancora qua però appena andate la dopo noi vi chiamiamo quando siete la ci mandate un po' di caffè certo che si va bene in bocca al lupo e ascoltateci lo stesso sul reload ok ciao ciao ciao ciao ciao ciao",
     "titolo": "Bocca al lupo",
     "tema": [
@@ -999,21 +935,21 @@
     "video_url": ""
   },
   {
-    "id": "2016-05-25-081",
+    "id": "2016-05-25-077",
     "start": 2684.25,
     "end": 2726.5,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Ciao! no no",
+    "speaker_raw": "SPEAKER_05",
+    "testo": "Ciao! no no no",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2016-05-25-082",
+    "id": "2016-05-25-078",
     "start": 2801.03,
     "end": 2844.54,
-    "speaker_raw": "SPEAKER_12",
+    "speaker_raw": "SPEAKER_02",
     "testo": "ovviamente noi non essendo in regia viola non possiamo mandare in onda i fuori onda dove maurizio dice anch'io me ne voglio andare da questo paese perché adesso adesso stai diventando papà e pensi di andare da un'altra parte ma dove vai comunque faceva molto ridere che lui diceva l'italia un bel paese ma gli italiani fai cagare lei non dire queste cose se ve l'hanno appena preso una fregatura ci avranno il dente avvelenato vabbè vabbè vabbè allora ragazzi in bocca al lupo per tutti i vostri sogni per tutti i vostri progetti io vi voglio molto bene ma adesso vi saluto ancora più volentieri buonanotte ciao ascoltatori mi raccomando scriveteci scriveteci scriveteci diciamo stop alle telefonate a domani",
     "titolo": "Maurizio e l'Italia",
     "tema": [
