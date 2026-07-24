@@ -28,7 +28,10 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
 
-from transcribe_utils import transcribe, load_lines, HF_TOKEN_FILE, PROMPT_DOMINIO  # noqa: E402
+from transcribe_utils import (  # noqa: E402
+    transcribe, load_lines, HF_TOKEN_FILE,
+    MIN_SPEAKERS_DEFAULT, MAX_SPEAKERS_DEFAULT,
+)
 import genera_frammenti  # noqa: E402
 from trascrivi_e_estrai_clip import estrai_riferimenti, merge_riferimenti  # noqa: E402
 import llm_multi  # noqa: E402
@@ -548,8 +551,12 @@ def main() -> None:
         # programma/sigle) non si e' confermato: "Fabio Volo"/nome show riconosciuti identici
         # in entrambe le versioni. Vedi [[project_ilvolodelmattino_pipeline_infra]].
         beam_size, best_of, initial_prompt = 5, 5, None
+        # min/max_speakers: testato su campione 2026-07-24 (harness test_qualita_trascrizione.py),
+        # riduce la sovra-segmentazione degli speaker senza toccare il testo trascritto.
+        min_speakers, max_speakers = MIN_SPEAKERS_DEFAULT, MAX_SPEAKERS_DEFAULT
     else:
         beam_size, best_of, initial_prompt = None, None, None
+        min_speakers, max_speakers = None, None
         device, compute_type, batch_size, threads = "cpu", "int8", 8, args.threads
         # garanzia a livello di sistema operativo: --threads da solo non basta
         # (CTranslate2/OpenMP possono comunque usare piu' core durante l'ASR)
@@ -598,7 +605,7 @@ def main() -> None:
 
         print("  trascrivo con WhisperX (puo' richiedere piu' di un'ora su CPU)...")
         try:
-            json_path = transcribe(mp3, hf_token, device=device, compute_type=compute_type, batch_size=batch_size, threads=threads, cpu_affinity=cpu_affinity, beam_size=beam_size, best_of=best_of, initial_prompt=initial_prompt)
+            json_path = transcribe(mp3, hf_token, device=device, compute_type=compute_type, batch_size=batch_size, threads=threads, cpu_affinity=cpu_affinity, beam_size=beam_size, best_of=best_of, initial_prompt=initial_prompt, min_speakers=min_speakers, max_speakers=max_speakers)
         except Exception as e:
             print(f"  ERRORE trascrizione: {e}")
             continue

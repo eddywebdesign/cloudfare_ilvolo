@@ -18,20 +18,24 @@ def load_lines(path, count=1):
 
 
 PROMPT_DOMINIO = "Fabio Volo, Maurizio, Viola."
-# Testato 2026-07-22 su GPU (RTX 5070) contro il default puro: beam_size/best_of
-# da soli non cambiano la qualita' in modo percepibile (confidenza pressoche'
-# identica al default) - il guadagno reale viene dal prompt di dominio, che
-# recupera contenuto (sigle/nome del programma) che il default perde del tutto
-# e migliora la punteggiatura nel parlato sostanziale. Costo: ~20s/episodio in
-# piu', e un rischio residuo di eco del prompt SOLO nei passaggi musicali/jingle
-# ambigui (non nel parlato vero) - confermato che quell'eco esiste anche senza
-# prompt in quello stesso punto, quindi e' ambiguita' audio intrinseca, non
-# un artefatto puro del prompt. Prompt tenuto corto apposta (senza il nome del
-# programma) per non "auto-innescare" l'eco sulla propria stessa sigla.
+# RIMOSSO dall'uso 2026-07-24 (vedi trascrivi_locale_episodi.py): whisperx re-inietta
+# initial_prompt ad ogni finestra di decodifica, non solo alla prima - causava
+# un'allucinazione a loop del prompt durante i passaggi musicali (confermate 1420
+# occorrenze in 200 episodi, poi 0/6 in un campione dedicato senza prompt contro
+# 17 occorrenze totali con prompt). La costante resta qui solo per compatibilita'
+# con chiamate storiche, MAI passarla di default a initial_prompt.
+# MIN/MAX_SPEAKERS_DEFAULT: testato 2026-07-24 su campione (harness
+# scripts/linux/test_qualita_trascrizione.py) - riduce drasticamente la
+# sovra-segmentazione degli speaker (es. 18->5, 16->6 speaker unici) senza
+# alcun effetto su segmenti/parole/testo trascritto (solo raggruppamento
+# diarizzazione). Il programma ha 3 conduttori fissi + rari ospiti/chiamate.
+MIN_SPEAKERS_DEFAULT = 2
+MAX_SPEAKERS_DEFAULT = 6
 
 
 def transcribe(audio_path, hf_token, device="cpu", compute_type="int8", batch_size=8, threads=None,
-                cpu_affinity=None, beam_size=None, best_of=None, initial_prompt=None):
+                cpu_affinity=None, beam_size=None, best_of=None, initial_prompt=None,
+                min_speakers=None, max_speakers=None):
     """cpu_affinity: lista di indici di core logici a cui vincolare il processo
     (garanzia a livello di sistema operativo — --threads di whisperx da solo
     non basta, CTranslate2/OpenMP possono comunque usare piu' core di quelli
@@ -51,6 +55,10 @@ def transcribe(audio_path, hf_token, device="cpu", compute_type="int8", batch_si
         cmd += ["--best_of", str(best_of)]
     if initial_prompt:
         cmd += ["--initial_prompt", initial_prompt]
+    if min_speakers:
+        cmd += ["--min_speakers", str(min_speakers)]
+    if max_speakers:
+        cmd += ["--max_speakers", str(max_speakers)]
 
     proc = subprocess.Popen(cmd)
     if cpu_affinity:
