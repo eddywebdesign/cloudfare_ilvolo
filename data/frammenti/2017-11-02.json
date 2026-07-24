@@ -13,9 +13,9 @@
   {
     "id": "2017-11-02-001",
     "start": 47.35,
-    "end": 110.12,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "Ciao! there's people there who will hurt you because of who you are your ears are full of their language there's wisdom there you're sure till the words start stirring and you can't find the door so give me confidence",
+    "end": 47.45,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Ciao!",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -23,6 +23,17 @@
   },
   {
     "id": "2017-11-02-002",
+    "start": 98.38,
+    "end": 110.12,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "there's people there who will hurt you because of who you are your ears are full of their language there's wisdom there you're sure till the words start stirring and you can't find the door so give me confidence",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2017-11-02-003",
     "start": 135.31,
     "end": 228.37,
     "speaker_raw": "SPEAKER_01",
@@ -33,16 +44,13 @@
       "giovedi"
     ],
     "tipo": "riferimento_musica",
-    "video_url": "",
-    "autore": "Blur",
-    "confermato_esterno": true,
-    "copertina": "https://coverartarchive.org/release/20ab41d3-ce12-4b0f-8a85-fe2763d6f91b/front-250"
+    "video_url": ""
   },
   {
-    "id": "2017-11-02-003",
+    "id": "2017-11-02-004",
     "start": 245.21,
     "end": 266.28,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Se il proprio volo non c'è Non è mattina per me ora su radio e dj Fabio ci fai o ci sei thank you ma perché ti ringraziano?",
     "titolo": "",
     "tema": [],
@@ -50,7 +58,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-02-004",
+    "id": "2017-11-02-005",
     "start": 266.32,
     "end": 394.26,
     "speaker_raw": "SPEAKER_01",
@@ -61,7 +69,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-02-005",
+    "id": "2017-11-02-006",
     "start": 395.14,
     "end": 399.43,
     "speaker_raw": "SPEAKER_04",
@@ -72,7 +80,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-02-006",
+    "id": "2017-11-02-007",
     "start": 399.45,
     "end": 401.11,
     "speaker_raw": "SPEAKER_01",
@@ -83,7 +91,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-02-007",
+    "id": "2017-11-02-008",
     "start": 401.17,
     "end": 403.73,
     "speaker_raw": "SPEAKER_04",
@@ -94,7 +102,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-02-008",
+    "id": "2017-11-02-009",
     "start": 403.75,
     "end": 450.89,
     "speaker_raw": "SPEAKER_01",
@@ -105,7 +113,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-02-009",
+    "id": "2017-11-02-010",
     "start": 452.01,
     "end": 481.73,
     "speaker_raw": "SPEAKER_04",
@@ -116,7 +124,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-02-010",
+    "id": "2017-11-02-011",
     "start": 481.73,
     "end": 521.49,
     "speaker_raw": "SPEAKER_01",
@@ -127,10 +135,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-02-011",
+    "id": "2017-11-02-012",
     "start": 546.53,
     "end": 631.55,
-    "speaker_raw": "SPEAKER_09",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Sì Ciao Ciao Ciao ciao ciao",
     "titolo": "",
     "tema": [],
@@ -138,7 +146,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-02-012",
+    "id": "2017-11-02-013",
     "start": 687.35,
     "end": 709.34,
     "speaker_raw": "SPEAKER_01",
@@ -149,7 +157,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-02-013",
+    "id": "2017-11-02-014",
     "start": 709.36,
     "end": 712.86,
     "speaker_raw": "SPEAKER_04",
@@ -160,7 +168,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-02-014",
+    "id": "2017-11-02-015",
     "start": 713.68,
     "end": 783.24,
     "speaker_raw": "SPEAKER_01",
@@ -171,7 +179,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-02-015",
+    "id": "2017-11-02-016",
     "start": 783.28,
     "end": 785.4,
     "speaker_raw": "SPEAKER_04",
@@ -182,7 +190,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-02-016",
+    "id": "2017-11-02-017",
     "start": 786.27,
     "end": 946.27,
     "speaker_raw": "SPEAKER_01",
@@ -193,10 +201,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-02-017",
+    "id": "2017-11-02-018",
     "start": 951.42,
     "end": 1021.06,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Fanno tutti il check-in e si avviano verso l'aereo. A un certo punto, quando stanno quasi tutti seduti, entrano due piloti, tutti con la divisa che strisce dopo, però con il bastone da cieco, tutti e due. Perché agente si comincia a guardare. Questi vieno e entrano in un cabinato di pilotaggio. A un certo punto si avvicinano e uno dei passeggeri fa scusi. Ma chi sono quei due? E quelli sono i piloti. Ma come i piloti? Sono ciechi. Stia tranquilla signora, quelli sono due dei piloti più valorosi che abbiamo tutta la battaglia della vita. Io lo so, ho capito, ma sono ciechi. Stia tranquilla, hanno vinto tutto e hanno migliaia e migliaia di orderoni. Insomma questa è un po' un panicata, riesce a mettere a serie. L'aereo comincia a rollare, però che succede? Che si sparge la voce per tutta l'aereo, questa cosa, e la gente comincia a mormorare. L'aereo comincia a rollare... cominciano a dare la manetta alla manetta e cominciano a camminare tutti impanicati cominciano ad accelerare a 100, 200, 300 all'ora, 300 all'ora la pista sta quasi per finire tutti che si guardano impanicati quando proprio la pista sta per finire tutto l'aereo si mette a fare e l'aereo in quel momento e accende proprio un prezzo al panico, capito? tornavamo in cabina di pilotaggio i due ciechi così, sai guarda il giorno che non sfidano sono cazzi nostri",
     "titolo": "",
     "tema": [],
@@ -204,22 +212,11 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-02-018",
-    "start": 1024.52,
-    "end": 1025.04,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "Grazie a tutti.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
     "id": "2017-11-02-019",
-    "start": 1062.27,
+    "start": 1024.52,
     "end": 1168.52,
-    "speaker_raw": "SPEAKER_10",
-    "testo": "Grazie a tutti. Tornerai anche tu tra gli altri e mi sentirò impazzire, tornerai e ti avrò davanti, spero solo di non svegliare, mentre torno e non voltarti, che non voglio più sparire, nel ricordo e nei miei giorni, resta fino all'imbrunire. Torneranno gli innocenti, tutti pieni di compassione, per gli errori dei potenti, fatti senza esitazione, senza lividi sui volti, con un taglio sopra il cuore, prendi un ago e siamo pronti, siamo pronti a ricucire, tornerai tu in mezzo agli altri. e sarà come impazzire tornerai più avanti spero solo di non svenire mentre torni non voltarti che non voglio più sparire nel ricordo dei miei giorni resta fino all'imbrunire tornerai più in mezzo agli altri e sarà come morire tornerai più avanti spero solo di non svenire mentre torni non voltarti che non voglio più sparire nel ricordo dei miei giorni resta fino all'imbrunire",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Grazie a tutti. Grazie a tutti. Tornerai anche tu tra gli altri e mi sentirò impazzire, tornerai e ti avrò davanti, spero solo di non svegliare, mentre torno e non voltarti, che non voglio più sparire, nel ricordo e nei miei giorni, resta fino all'imbrunire. Torneranno gli innocenti, tutti pieni di compassione, per gli errori dei potenti, fatti senza esitazione, senza lividi sui volti, con un taglio sopra il cuore, prendi un ago e siamo pronti, siamo pronti a ricucire, tornerai tu in mezzo agli altri. e sarà come impazzire tornerai più avanti spero solo di non svenire mentre torni non voltarti che non voglio più sparire nel ricordo dei miei giorni resta fino all'imbrunire tornerai più in mezzo agli altri e sarà come morire tornerai più avanti spero solo di non svenire mentre torni non voltarti che non voglio più sparire nel ricordo dei miei giorni resta fino all'imbrunire",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -250,9 +247,9 @@
   {
     "id": "2017-11-02-022",
     "start": 1442.9,
-    "end": 1590.4,
-    "speaker_raw": "SPEAKER_02",
-    "testo": "I feel like I'm out of my mind It feel like my life ain't mine I don't wanna be alive I don't wanna be alive I just wanna die today I just wanna die Musica Ciao Ciao Ciao Ciao! Who can relate? I don't wanna die. I finally wanna be alive.",
+    "end": 1536.6,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "I feel like I'm out of my mind It feel like my life ain't mine I don't wanna be alive I don't wanna be alive I just wanna die today I just wanna die Musica Ciao Ciao Ciao Ciao!",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -260,6 +257,28 @@
   },
   {
     "id": "2017-11-02-023",
+    "start": 1560.58,
+    "end": 1561.0,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "Who can relate?",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2017-11-02-024",
+    "start": 1588.12,
+    "end": 1590.4,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "I don't wanna die. I finally wanna be alive.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2017-11-02-025",
     "start": 1637.33,
     "end": 1719.7,
     "speaker_raw": "SPEAKER_01",
@@ -270,7 +289,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-02-024",
+    "id": "2017-11-02-026",
     "start": 1719.78,
     "end": 1722.6,
     "speaker_raw": "SPEAKER_04",
@@ -281,7 +300,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-02-025",
+    "id": "2017-11-02-027",
     "start": 1722.62,
     "end": 1728.77,
     "speaker_raw": "SPEAKER_01",
@@ -292,7 +311,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-02-026",
+    "id": "2017-11-02-028",
     "start": 1729.03,
     "end": 1730.05,
     "speaker_raw": "SPEAKER_04",
@@ -303,7 +322,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-02-027",
+    "id": "2017-11-02-029",
     "start": 1730.07,
     "end": 1745.1,
     "speaker_raw": "SPEAKER_01",
@@ -314,7 +333,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-02-028",
+    "id": "2017-11-02-030",
     "start": 1745.12,
     "end": 1752.95,
     "speaker_raw": "SPEAKER_00",
@@ -325,7 +344,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-02-029",
+    "id": "2017-11-02-031",
     "start": 1753.01,
     "end": 1757.97,
     "speaker_raw": "SPEAKER_01",
@@ -336,7 +355,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-02-030",
+    "id": "2017-11-02-032",
     "start": 1758.73,
     "end": 1765.19,
     "speaker_raw": "SPEAKER_00",
@@ -347,7 +366,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-02-031",
+    "id": "2017-11-02-033",
     "start": 1765.73,
     "end": 1792.99,
     "speaker_raw": "SPEAKER_01",
@@ -358,7 +377,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-02-032",
+    "id": "2017-11-02-034",
     "start": 1793.43,
     "end": 1811.0,
     "speaker_raw": "SPEAKER_00",
@@ -369,7 +388,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-02-033",
+    "id": "2017-11-02-035",
     "start": 1811.02,
     "end": 1816.6,
     "speaker_raw": "SPEAKER_01",
@@ -380,7 +399,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-02-034",
+    "id": "2017-11-02-036",
     "start": 1816.72,
     "end": 1832.17,
     "speaker_raw": "SPEAKER_00",
@@ -391,7 +410,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-02-035",
+    "id": "2017-11-02-037",
     "start": 1832.35,
     "end": 1851.13,
     "speaker_raw": "SPEAKER_01",
@@ -402,7 +421,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-02-036",
+    "id": "2017-11-02-038",
     "start": 1852.03,
     "end": 1869.7,
     "speaker_raw": "SPEAKER_00",
@@ -413,7 +432,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-02-037",
+    "id": "2017-11-02-039",
     "start": 1870.2,
     "end": 1873.16,
     "speaker_raw": "SPEAKER_01",
@@ -424,7 +443,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-02-038",
+    "id": "2017-11-02-040",
     "start": 1873.2,
     "end": 1903.8,
     "speaker_raw": "SPEAKER_00",
@@ -435,10 +454,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-02-039",
+    "id": "2017-11-02-041",
     "start": 1903.86,
     "end": 1911.15,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Io vado giù di testa quando sento queste cose. Ma chi ve l'ha detto che non siamo capaci di capire chi ha tirato giù?",
     "titolo": "",
     "tema": [],
@@ -446,7 +465,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-02-040",
+    "id": "2017-11-02-042",
     "start": 1912.93,
     "end": 1915.03,
     "speaker_raw": "SPEAKER_01",
@@ -457,7 +476,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-02-041",
+    "id": "2017-11-02-043",
     "start": 1915.21,
     "end": 1950.72,
     "speaker_raw": "SPEAKER_00",
@@ -471,7 +490,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-02-042",
+    "id": "2017-11-02-044",
     "start": 1951.32,
     "end": 1961.37,
     "speaker_raw": "SPEAKER_01",
@@ -482,7 +501,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-02-043",
+    "id": "2017-11-02-045",
     "start": 1961.89,
     "end": 2024.51,
     "speaker_raw": "SPEAKER_00",
@@ -493,7 +512,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-02-044",
+    "id": "2017-11-02-046",
     "start": 2026.37,
     "end": 2027.65,
     "speaker_raw": "SCONOSCIUTO",
@@ -504,29 +523,29 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-02-045",
+    "id": "2017-11-02-047",
     "start": 2027.67,
-    "end": 2030.51,
+    "end": 2034.67,
     "speaker_raw": "SPEAKER_04",
-    "testo": "Perché è in vacanza, c'è il posto.",
+    "testo": "Perché è in vacanza, c'è il posto. Si vede che non è in casa, professore, non ce l'aspettavamo da lei.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-11-02-046",
-    "start": 2030.55,
+    "id": "2017-11-02-048",
+    "start": 2034.91,
     "end": 2045.76,
     "speaker_raw": "SPEAKER_01",
-    "testo": "Si vede che non è in casa, professore, non ce l'aspettavamo da lei. Appatosauro, te lo posso dire? Appatosauro, te lo posso dire? allora cosa ha fatto l'apatosauro?",
+    "testo": "Appatosauro, te lo posso dire? Appatosauro, te lo posso dire? allora cosa ha fatto l'apatosauro?",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-11-02-047",
+    "id": "2017-11-02-049",
     "start": 2045.8,
     "end": 2089.66,
     "speaker_raw": "SPEAKER_00",
@@ -537,7 +556,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-02-048",
+    "id": "2017-11-02-050",
     "start": 2091.71,
     "end": 2095.88,
     "speaker_raw": "SPEAKER_01",
@@ -548,7 +567,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-02-049",
+    "id": "2017-11-02-051",
     "start": 2096.52,
     "end": 2103.19,
     "speaker_raw": "SPEAKER_00",
@@ -559,7 +578,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-02-050",
+    "id": "2017-11-02-052",
     "start": 2104.15,
     "end": 2230.66,
     "speaker_raw": "SPEAKER_01",
@@ -570,10 +589,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-02-051",
+    "id": "2017-11-02-053",
     "start": 2261.9,
     "end": 2366.57,
-    "speaker_raw": "SPEAKER_13",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Ma è un volo aplanare, dentro il peggiore motel di questa carretera, di questa vita balera. E' un volo aplanare, per essere inchiodati qui, crocifissi al No, no, no, no, no, no, no, no, no, no. Vorrebbe seguire il vento No, no, no, no, no, no, no, no, no.",
     "titolo": "",
     "tema": [],
@@ -581,7 +600,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-02-052",
+    "id": "2017-11-02-054",
     "start": 2415.23,
     "end": 2525.51,
     "speaker_raw": "SPEAKER_01",
@@ -592,7 +611,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-02-053",
+    "id": "2017-11-02-055",
     "start": 2525.53,
     "end": 2526.73,
     "speaker_raw": "SPEAKER_04",
@@ -603,7 +622,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-02-054",
+    "id": "2017-11-02-056",
     "start": 2526.85,
     "end": 2655.26,
     "speaker_raw": "SPEAKER_01",
@@ -614,10 +633,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-02-055",
+    "id": "2017-11-02-057",
     "start": 2669.08,
     "end": 2715.39,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Ciao Ciao Ciao Sì.",
     "titolo": "",
     "tema": [],
@@ -625,7 +644,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-02-056",
+    "id": "2017-11-02-058",
     "start": 2767.95,
     "end": 2794.25,
     "speaker_raw": "SPEAKER_01",
@@ -636,10 +655,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-02-057",
+    "id": "2017-11-02-059",
     "start": 2794.29,
     "end": 2795.05,
-    "speaker_raw": "SPEAKER_12",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Non lo prende.",
     "titolo": "",
     "tema": [],
@@ -647,7 +666,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-02-058",
+    "id": "2017-11-02-060",
     "start": 2795.53,
     "end": 2802.94,
     "speaker_raw": "SPEAKER_01",

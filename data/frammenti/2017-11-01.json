@@ -2,9 +2,9 @@
   {
     "id": "2017-11-01-000",
     "start": 0.58,
-    "end": 9.1,
-    "speaker_raw": "SPEAKER_13",
-    "testo": "DJ! Riavvolgi!",
+    "end": 1.1,
+    "speaker_raw": "SPEAKER_03",
+    "testo": "DJ!",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -12,6 +12,17 @@
   },
   {
     "id": "2017-11-01-001",
+    "start": 2.7,
+    "end": 9.1,
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Riavvolgi!",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2017-11-01-002",
     "start": 11.14,
     "end": 14.07,
     "speaker_raw": "SCONOSCIUTO",
@@ -22,10 +33,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-01-002",
+    "id": "2017-11-01-003",
     "start": 46.4,
     "end": 174.97,
-    "speaker_raw": "SPEAKER_03",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Grazie. Ciao Ciao Ciao Salvatore Dream, this is love",
     "titolo": "",
     "tema": [],
@@ -33,50 +44,24 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-01-003",
+    "id": "2017-11-01-004",
     "start": 226.44,
-    "end": 312.11,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Mette sempre di buon umore, di serenità un po', i pezzi di Sade sono stati fatti proprio per calmarti, perché comunque sono belli, non è che sono solo lenti, hanno sempre un po' di beat, però questa voce meravigliosa, bella, è stata usata molto nella mia generazione per serate romantiche, diciamo, si metteva un pezzo di Sade, così come quelli prima mettevano Barry Wilde. un po' macchietta adesso adesso l'è un po' Barry White quando attacca c'ha sempre questa voce che sai che Barry White ha copiato da Mario Biondi però anche Mario Biondi c'ha la voce un po' alla Barry White solo che Mario Biondi è alto però è abbastanza diciamo in una misura abbastanza nella norma invece Barry White era proprio un omone come Pavarotti quelli che hanno tutto quel cassa toracica per esempio fai sentire un pezzettino di Barry White no? senti com'è sembra che fa la gag che timbro però se qualcuno di voi oggi non lavora ed è a casa e magari nel pomeriggio vi viene a trovare una donna la vostra ragazza o una con cui state uscendo ecco io vi consiglierei un pezzo di Barry White quando lei entra dalla porta perché tu apri la porta e lei entra e senti",
+    "end": 353.8,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Mette sempre di buon umore, di serenità un po', i pezzi di Sade sono stati fatti proprio per calmarti, perché comunque sono belli, non è che sono solo lenti, hanno sempre un po' di beat, però questa voce meravigliosa, bella, è stata usata molto nella mia generazione per serate romantiche, diciamo, si metteva un pezzo di Sade, così come quelli prima mettevano Barry Wilde. un po' macchietta adesso adesso l'è un po' Barry White quando attacca c'ha sempre questa voce che sai che Barry White ha copiato da Mario Biondi però anche Mario Biondi c'ha la voce un po' alla Barry White solo che Mario Biondi è alto però è abbastanza diciamo in una misura abbastanza nella norma invece Barry White era proprio un omone come Pavarotti quelli che hanno tutto quel cassa toracica per esempio fai sentire un pezzettino di Barry White no? senti com'è sembra che fa la gag che timbro però se qualcuno di voi oggi non lavora ed è a casa e magari nel pomeriggio vi viene a trovare una donna la vostra ragazza o una con cui state uscendo ecco io vi consiglierei un pezzo di Barry White quando lei entra dalla porta perché tu apri la porta e lei entra e senti è già una dichiarazione di intenti sì ma hai già capito? pensa che quando metti questa musica così e tu non sei in camera da letto perché non devi essere lì a guardare i materiali i cuscini e le coperte ballano come le scodelle e le tazze nella bella la bestia cioè quando sentono Barry White i cuscini fanno yeah yeah con gli angolini no? meraviglioso questo è Barry White e questo è Radio DJ oggi nella puntata del primo novembre e possiamo dare inizio al volo del mattino se Fabio Volo non c'è non è mattina per me",
     "titolo": "pezzi di Sade",
     "tema": [
       "serenità",
       "romantico"
     ],
     "tipo": "riferimento_musica",
-    "video_url": "",
-    "autore": "Sade",
-    "confermato_esterno": false
-  },
-  {
-    "id": "2017-11-01-004",
-    "start": 312.87,
-    "end": 316.29,
-    "speaker_raw": "SPEAKER_10",
-    "testo": "è già una dichiarazione di intenti sì ma hai già capito?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
     "video_url": ""
   },
   {
     "id": "2017-11-01-005",
-    "start": 319.43,
-    "end": 353.8,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "pensa che quando metti questa musica così e tu non sei in camera da letto perché non devi essere lì a guardare i materiali i cuscini e le coperte ballano come le scodelle e le tazze nella bella la bestia cioè quando sentono Barry White i cuscini fanno yeah yeah con gli angolini no? meraviglioso questo è Barry White e questo è Radio DJ oggi nella puntata del primo novembre e possiamo dare inizio al volo del mattino se Fabio Volo non c'è non è mattina per me",
-    "titolo": "cuscini che ballano",
-    "tema": [
-      "romantico"
-    ],
-    "tipo": "aneddoto",
-    "video_url": ""
-  },
-  {
-    "id": "2017-11-01-006",
     "start": 374.54,
     "end": 376.4,
-    "speaker_raw": "SPEAKER_08",
+    "speaker_raw": "SPEAKER_03",
     "testo": "del mattino ora su radio e dj Fabio ci fai, io ci sei thank you",
     "titolo": "",
     "tema": [],
@@ -84,10 +69,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-01-007",
+    "id": "2017-11-01-006",
     "start": 388.78,
     "end": 422.55,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Teniamo la voce un po' più calda un po' alla Barry White, devo dire che gli ascoltatori che lavorano anche oggi troveranno comunque le strade più libere, li vedi i tassisti, l'altro domenica per esempio ho preso un taxi e il tassista mi ha detto tu non sai quanto mi piace lavorare la domenica perché si... Tutto più tranquillo, uno dice magari c'è anche meno chiamate, però è anche vero che quando ci sono i grandi eventi, per esempio a Milano, non so, il salone del mobile, il design, la moda così, magari hai più chiamate ma fai meno corsi perché sei così imbottigliato nel traffico che va eh, eh, eh, ho capito.",
     "titolo": "tassista domenica",
     "tema": [
@@ -98,10 +83,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-01-008",
+    "id": "2017-11-01-007",
     "start": 422.93,
     "end": 426.47,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_04",
     "testo": "corse di lunga durata, quindi comunque ci guadagni.",
     "titolo": "",
     "tema": [],
@@ -109,10 +94,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-01-009",
+    "id": "2017-11-01-008",
     "start": 426.61,
     "end": 433.74,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Sì, però sai che è anche legato al chilometro. Non so niente. Noi non sappiamo niente. Basta che non dici lobby come dici sempre tu, la lobby dei tassisti.",
     "titolo": "",
     "tema": [],
@@ -120,10 +105,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-01-010",
+    "id": "2017-11-01-009",
     "start": 433.75,
     "end": 436.2,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Non lo dico mai, è l'unica cosa che non dico mai.",
     "titolo": "",
     "tema": [],
@@ -131,10 +116,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-01-011",
+    "id": "2017-11-01-010",
     "start": 436.22,
     "end": 542.95,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Io dico sempre ai tassisti, ma voi lobby dei tassisti, perché qualche anno fa uscì l'articolo della lobby dei tassisti, quindi tutte le volte mi piace scherzare. Salutiamo tutti i tassisti del mondo, buongiorno a tutti, come va? rimettiamoci in carreggiata qualcuno di voi ci sta ascoltando da casa oggi e quindi non dire parolacce oggi ci sono i bambini ma non le dico mai è Maurizio che le mette quelle lì già registrate io non le metto mai e non la mettere no ti ho visto col dito che la vorrei mettere non la mettere dai oggi non la mettiamo No, non la mettiamo. Che cazzo! No, allora! Basta, non la mettiamo. A tradimento. Avevo fatto solo questa volta e poi basta. Se no poi metto il bip. Allora, ieri si parlava un po' di coppie, di cose, è uscito il discorso dei motel a un certo punto così e abbiamo scoperto che, si sapeva che a volte le coppie quando stanno insieme da tanti anni hanno bisogno di inserire degli elementi per tenere la coppia diciamo ancora... attiva, un po' di spicy, cose piccanti. E di solito nei film viene sempre raccontata con lei che va al bar e lo aspetta, lui arriva, si cambiano i nomi e poi vanno su in albergo. Abbiamo chiesto, qualcuno di voi la fa questa cosa? Adesso noi non sappiamo se lo facciamo, però noi abbiamo un'ascoltatrice che ci chiama da una delle città più brutte ma no è ripartito bene oggi ci sono delle città che oggettivamente sono brutte questa forse è la più brutta ci chiama da Venezia buongiorno Francesca come stai? buongiorno bene bene penso che tu apri le finestre e vedi questi palazzi meravigliosi di Venezia cosa state facendo lì? avevo letto qualche mese fa quest'estate che volevate fare numero chiuso adesso perché c'è troppa gente",
     "titolo": "",
     "tema": [],
@@ -142,7 +127,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-01-012",
+    "id": "2017-11-01-011",
     "start": 543.76,
     "end": 559.35,
     "speaker_raw": "SPEAKER_05",
@@ -153,10 +138,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-01-013",
+    "id": "2017-11-01-012",
     "start": 559.39,
     "end": 629.17,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Il palazzo di fronte? Il palazzo di fronte è un giardinetto Dove ci vanno i drogati? No scherzo, scherzo Allora Francesca De Mestre, 49 anni, restauratrice di dipinti a freschi, che l'altro giorno dicevo ho avuto una fidanzata così avete una pazienza, vedervi lavorare è veramente affascinante, dove l'hai fatta la scuola Francesca? a Venezia a Venezia sai che c'è una a Brescia no lo dico perché se non sono 3-4 in Italia una sta a San Gallo esatto sei mai stata quella lì di Brescia a San Gallo lì in collina no no no ma la conosco bella bella sono bravi lì devo dire che sono molto bravi gli italiani sono dei bravi restauratori? abbiamo tanto materiale su cui esercitarsi allora restauratrice dipinti a freschi restaura il colore ai capelli in questo momento tinta in testa mi sto facendo la ricrescita no avevo capito scusami perché restaura il colore ai capelli avevo capito tipo un dipinto invece ti stai facendo la ricrescita ma senti ogni quanto la devi fare questa ricrescita",
     "titolo": "restauratrice di dipinti",
     "tema": [
@@ -167,7 +152,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-01-014",
+    "id": "2017-11-01-013",
     "start": 629.79,
     "end": 636.37,
     "speaker_raw": "SPEAKER_05",
@@ -178,10 +163,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-01-015",
+    "id": "2017-11-01-014",
     "start": 636.41,
     "end": 679.26,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Devo dire, e non voglio offendere nessuno, che io non sono mai stato uno che è stato lì a guardare tante cose. Per esempio a me non mi dà fastidio la cellulite, le smagliature, non mi dà un fastidio così. Però quella base bianca della ricrescita, soprattutto se hai come una specie di riga in mezzo che si apre proprio... È proprio un po' bruttina da vedere, perché dà l'idea del trasandato, mentre invece magari non lo sei, però quella roba lì... No, un po' hippie. No, magari non hai tempo per andare, sai, c'è la vita, i figli, le cose, non hai tempo, però mentre, per dirti la sbagliatura, è una roba della vita che ti viene, punto, quella lì ti dà sempre un po' l'idea, come le unghie sporche, no? Che magari, vabbè, ma non hai chiamato per questo. No. No oggi è festa possiamo fare telefonate lunghe, sei sposata da 25 anni?",
     "titolo": "",
     "tema": [],
@@ -189,10 +174,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-01-016",
+    "id": "2017-11-01-015",
     "start": 679.28,
     "end": 680.14,
-    "speaker_raw": "SPEAKER_02",
+    "speaker_raw": "SPEAKER_05",
     "testo": "Sì.",
     "titolo": "",
     "tema": [],
@@ -200,10 +185,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-01-017",
+    "id": "2017-11-01-016",
     "start": 680.18,
     "end": 688.86,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Ammazzane hai 50, sei sposata giovanissima, siete insieme da 33, hai due figli? Sì. Di quanti anni?",
     "titolo": "",
     "tema": [],
@@ -211,7 +196,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-01-018",
+    "id": "2017-11-01-017",
     "start": 689.02,
     "end": 690.22,
     "speaker_raw": "SPEAKER_05",
@@ -222,10 +207,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-01-019",
+    "id": "2017-11-01-018",
     "start": 690.38,
     "end": 725.95,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Bello ok ok e tu però con tuo marito dici è l'unico uomo che ho avuto in vita mia? Io sai come lo invidio lui, io lo invidio perché non c'è paragone, lui potrebbe essere anche il rapporto sessuale più triste dell'universo, ma per te dici sarà questa, sarà questa, funziona così, magari tu vuoi parlare con le colleghe ma... se lui durante mentre fa l'amore si addormenta è normale no? allora dimmi come fai a tenere vivo questo rapporto di coppia con dei figli e dopo 33 anni",
     "titolo": "",
     "tema": [],
@@ -233,7 +218,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-01-020",
+    "id": "2017-11-01-019",
     "start": 727.73,
     "end": 781.74,
     "speaker_raw": "SPEAKER_05",
@@ -244,10 +229,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-01-021",
+    "id": "2017-11-01-020",
     "start": 783.49,
     "end": 803.87,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_02",
     "testo": "sotto una gondola sott'acqua sai per fare le cose strane a tutti i costi no no no però così ce la metti giù in un modo che non c'è nessuno come dire nessuno sforzo è proprio che vi siete trovati che eravate giusti l'uno per l'altra quante donne ha avuto tuo marito?",
     "titolo": "",
     "tema": [],
@@ -255,7 +240,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-01-022",
+    "id": "2017-11-01-021",
     "start": 804.77,
     "end": 833.38,
     "speaker_raw": "SPEAKER_05",
@@ -266,10 +251,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-01-023",
+    "id": "2017-11-01-022",
     "start": 834.7,
     "end": 837.89,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Va bene, ciao Francesca! Ciao, ciao, ciao!",
     "titolo": "",
     "tema": [],
@@ -277,10 +262,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-01-024",
+    "id": "2017-11-01-023",
     "start": 896.94,
     "end": 944.82,
-    "speaker_raw": "SPEAKER_02",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Grazie a tutti. Ciao!",
     "titolo": "",
     "tema": [],
@@ -288,109 +273,21 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-01-025",
+    "id": "2017-11-01-024",
     "start": 1062.16,
-    "end": 1066.44,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Com'è sfumato? Maurizio non ti sei arrabbiato? Tu ti arrabbi sempre quando sfumano i dischi.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-11-01-026",
-    "start": 1066.76,
-    "end": 1067.0,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "Sì.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-11-01-027",
-    "start": 1067.92,
-    "end": 1069.94,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Perché ti arrabbi quando sfumano i dischi?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-11-01-028",
-    "start": 1069.96,
-    "end": 1075.94,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "Perché è sbagliato. Sfumarli? Ma sì, secondo me. Devono finire tutti patapam. Bravo, sì.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-11-01-029",
-    "start": 1076.05,
-    "end": 1079.41,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Di solito lo sfumi tu quando sei in macchina e ti piace una canzone.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-11-01-030",
-    "start": 1079.43,
-    "end": 1082.97,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "Poi anche per il mio lavoro, tagliare il disco. Tagliare il disco sullo sfumato.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-11-01-031",
-    "start": 1083.03,
-    "end": 1116.8,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "È brutto. Una volta sfumavano tutti negli anni 60-70, si sfumava, si fumava e si sfumava. Allora un ascoltatore ci ha scritto una cosa che ha imparato e che vuole che tutti gli ascoltatori sappiano, cioè ascoltando la puntata di ieri di questi incontri clandestini negli alberghi, nei motel, comunque sappiate che una bella prestazione dal punto di vista dell'incontro passionale dovete eliminare i cereali. Ma come? Non lo so perché mi ha scritto questa cosa, mi ha detto Fabio comunque sappi che finché mangi i cereali quella roba lì non la puoi ottenere.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-11-01-032",
-    "start": 1116.82,
-    "end": 1118.3,
-    "speaker_raw": "SPEAKER_07",
-    "testo": "Io sapevo sì di questa cosa.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-11-01-033",
-    "start": 1118.32,
     "end": 1126.64,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Allora Maurizio ha detto, ma sì è come la storia di Conflex, i famosi Kelloggs, vi ricordate i Kelloggs? Sì. Non so se ci sono anche in Italia, no? Quelli con la K.",
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Com'è sfumato? Maurizio non ti sei arrabbiato? Tu ti arrabbi sempre quando sfumano i dischi. Sì. Perché ti arrabbi quando sfumano i dischi? Perché è sbagliato. Sfumarli? Ma sì, secondo me. Devono finire tutti patapam. Bravo, sì. Di solito lo sfumi tu quando sei in macchina e ti piace una canzone. Poi anche per il mio lavoro, tagliare il disco. Tagliare il disco sullo sfumato. È brutto. Una volta sfumavano tutti negli anni 60-70, si sfumava, si fumava e si sfumava. Allora un ascoltatore ci ha scritto una cosa che ha imparato e che vuole che tutti gli ascoltatori sappiano, cioè ascoltando la puntata di ieri di questi incontri clandestini negli alberghi, nei motel, comunque sappiate che una bella prestazione dal punto di vista dell'incontro passionale dovete eliminare i cereali. Ma come? Non lo so perché mi ha scritto questa cosa, mi ha detto Fabio comunque sappi che finché mangi i cereali quella roba lì non la puoi ottenere. Io sapevo sì di questa cosa. Allora Maurizio ha detto, ma sì è come la storia di Conflex, i famosi Kelloggs, vi ricordate i Kelloggs? Sì. Non so se ci sono anche in Italia, no? Quelli con la K.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-11-01-034",
+    "id": "2017-11-01-025",
     "start": 1126.68,
     "end": 1129.12,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Certo, stai facendo pubblicità.",
     "titolo": "",
     "tema": [],
@@ -398,10 +295,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-01-035",
+    "id": "2017-11-01-026",
     "start": 1129.14,
     "end": 1281.23,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Kelloggs, Kelloggs Conflex, va bene, va bene. Finché continuerai a introdurre cereali sotto qualsiasi forma, gli incontri, come dici tu, saranno sempre più difficili. Informati da Adriano Panzironi. Sarà un dottore, immagino. Allora, quello lì che ha inventato i Kellogg's, il signor che si chiama Kellogg's di cognome, poi Kellogg's con la S perché sono suoi, il signor Kellogg's è uno che... Odiava qualsiasi tipo di rapporto intimo Cioè il rapporto sessuale Tant'è che con la moglie dormivano in camere separate E non hanno mai consumato il matrimonio E hanno adottato i figli Perché a lui gli faceva schifo l'idea Di dover avere un rapporto sessuale Perché diceva è una roba ci si passa delle malattie Ti cambia il modo di pensare Una psicosi Lui cosa ha fatto? Però ha scoperto che c'era gente Che praticamente si dava piacere da solo soprattutto all'età adolescenziale senti oggi come parlo si dava piacere si dava autopiacere ok il famoso nanismo Onanismo Onanismo Capito? Il famoso onanismo Lui ha detto Sapete perché la gente fa così? Perché la mattina mangiano la pancetta, le uova, la carne Tutte cose Tu riusciresti a mangiare la pancetta? A voglia Io sì Ma io la pancetta te la mangio a qualunque ora Anch'io Il bacon, la pancetta Messa nella padella che diventa croccante A voglia Alla mattina Ma certo Con le scramble eggs Tutto, tutto Ma che meraviglia mezzo pianeta lo fa io devo dire che mi sveglio dalle mattine che mi va il salato ma la pancetta fritta croccantina deve essere vabbè insomma comunque il signor Kellogg's furono inventati cioè lui li ha inventati pensate che poi è messo su questa azienda per sconfiggere l'onanismo la masturbazione perché lui diceva quei cereali che sono meno saporiti di una bella bisteccona non sono afrodisiaci per niente ma soprattutto intervengono sull'organismo dando un po' di fiacca grazie Allora mi dice, sapete che c'è? Voi vi fate le pugnette, io vi do il colfax alla mattina a colazione e vi stermino, capito? No, sai cosa ha detto? Sta fermo lì, che te lo do io per memoria. Poi noi non sappiamo se sia vero o non è vero quello in cui credeva il signor Kellogg. Però quello che sappiamo è che in internet ci è scritto che sono nati così. Sono nati per sconfiggere il desiderio sessuale.",
     "titolo": "",
     "tema": [],
@@ -409,10 +306,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-01-036",
+    "id": "2017-11-01-027",
     "start": 1282.21,
     "end": 1284.93,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Non so se è una buona pubblicità per i cereali.",
     "titolo": "",
     "tema": [],
@@ -420,10 +317,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-01-037",
+    "id": "2017-11-01-028",
     "start": 1284.95,
     "end": 1289.37,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Non lo so, io l'ho letto, infatti sto dicendo non so se è fondata.",
     "titolo": "",
     "tema": [],
@@ -431,10 +328,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-01-038",
+    "id": "2017-11-01-029",
     "start": 1289.45,
     "end": 1294.67,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_04",
     "testo": "La fonte è Huffington Post, tra l'altro un articolo di due anni fa.",
     "titolo": "",
     "tema": [],
@@ -442,32 +339,32 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-01-039",
+    "id": "2017-11-01-030",
     "start": 1295.89,
-    "end": 1299.43,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "E poi al limite lo possiamo sempre chiedere a Adriano Panzironi.",
+    "end": 1300.56,
+    "speaker_raw": "SPEAKER_02",
+    "testo": "E poi al limite lo possiamo sempre chiedere a Adriano Panzironi. Tra l'altro c'è...",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-11-01-040",
-    "start": 1299.58,
+    "id": "2017-11-01-031",
+    "start": 1301.71,
     "end": 1308.36,
-    "speaker_raw": "SPEAKER_10",
-    "testo": "Tra l'altro c'è... C'è un libro, io l'ho googolato, che si chiama Vivere 120 anni, la verità che nessuno vuole raccontargli.",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "C'è un libro, io l'ho googolato, che si chiama Vivere 120 anni, la verità che nessuno vuole raccontargli.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-11-01-041",
+    "id": "2017-11-01-032",
     "start": 1308.38,
     "end": 1313.74,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Che è una specie di China Star, questi libri che ti dicono così. Ma io comunque non voglio vivere 120 anni.",
     "titolo": "",
     "tema": [],
@@ -475,10 +372,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-01-042",
+    "id": "2017-11-01-033",
     "start": 1313.76,
     "end": 1317.5,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Ma infatti ti immagini. No, dai! Vuol dire quanti più di adesso?",
     "titolo": "",
     "tema": [],
@@ -486,10 +383,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-01-043",
+    "id": "2017-11-01-034",
     "start": 1317.54,
     "end": 1319.52,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Quanti anni hai?",
     "titolo": "",
     "tema": [],
@@ -497,10 +394,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-01-044",
+    "id": "2017-11-01-035",
     "start": 1319.54,
     "end": 1319.78,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Io? 35?",
     "titolo": "",
     "tema": [],
@@ -508,40 +405,18 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-01-045",
+    "id": "2017-11-01-036",
     "start": 1319.86,
-    "end": 1334.23,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Sto già stanco a pensare, ci sono altri 80. C'è come se nascessi adesso... No, bisogna vivere finché è giusto. Cioè, finché uno è indipendente, autosufficiente. Dopodiché, ciao ragazzi, è stato bello.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-11-01-046",
-    "start": 1334.25,
-    "end": 1335.85,
-    "speaker_raw": "SPEAKER_00",
-    "testo": "Ma no, c'è Sebastian, c'è Gabriel.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-11-01-047",
-    "start": 1336.05,
     "end": 1338.45,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Ciao, io poi lo saluto.",
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Sto già stanco a pensare, ci sono altri 80. C'è come se nascessi adesso... No, bisogna vivere finché è giusto. Cioè, finché uno è indipendente, autosufficiente. Dopodiché, ciao ragazzi, è stato bello. Ma no, c'è Sebastian, c'è Gabriel. Ciao, io poi lo saluto.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-11-01-048",
+    "id": "2017-11-01-037",
     "start": 1339.03,
     "end": 1449.65,
     "speaker_raw": "SPEAKER_00",
@@ -551,16 +426,13 @@
       "amore"
     ],
     "tipo": "riferimento_musica",
-    "video_url": "",
-    "autore": "Bill Evans",
-    "confermato_esterno": true,
-    "copertina": "https://coverartarchive.org/release/7720f8f5-efeb-4307-846c-eaf41cccfbea/front-250"
+    "video_url": ""
   },
   {
-    "id": "2017-11-01-049",
+    "id": "2017-11-01-038",
     "start": 1458.7,
     "end": 1463.68,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Maurizio mi chiedeva di rientrare, ma stavo mandando un messaggio. È poco professionale portare il telefono in studio.",
     "titolo": "",
     "tema": [],
@@ -568,10 +440,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-01-050",
+    "id": "2017-11-01-039",
     "start": 1463.7,
     "end": 1465.09,
-    "speaker_raw": "SPEAKER_07",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Hai perso il momento giusto per rientrare.",
     "titolo": "",
     "tema": [],
@@ -579,10 +451,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-01-051",
+    "id": "2017-11-01-040",
     "start": 1465.13,
     "end": 1483.64,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_02",
     "testo": "No, sono rientrato giusto, stavo mandando un messaggio. Scusate ragazzi, volete sapere a chi, che cosa? Siccome adesso sta per uscire il libro, quindi mi sono tolto questo pensiero della scrittura del libro, ho iniziato la seconda stagione di Untraditional. È un lavoro complesso, è un lavoro complesso. È un lavoro complesso.",
     "titolo": "",
     "tema": [],
@@ -590,10 +462,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-01-052",
+    "id": "2017-11-01-041",
     "start": 1483.66,
     "end": 1487.38,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_04",
     "testo": "O almeno una settimana di stacco.",
     "titolo": "",
     "tema": [],
@@ -601,10 +473,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-01-053",
+    "id": "2017-11-01-042",
     "start": 1487.44,
     "end": 1565.07,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Quando si lavora, si lavora. Io, per esempio, giornate come oggi, che è il primo di novembre, il 25 aprile, capisco l'importanza del celebrare delle cose importanti, ma io non farei mai vacanza da settembre a maggio. Solo a Natale, una settimana e poi basta. Quando si lavora, si lavora. Mesti i ponti, mezzi i ponti, i bambini non vanno a scuola. Sì, hai ragione. Tu lavori, però l'asilo è chiuso, ti devo chiamare, no, ma domani non c'è. chiamami giovedì perché c'è il ponte vado via non si riesce a lavorare allora o stiamo a casa tutti o andiamo a lavorare tutti ma è sta roba che tu vai chiamami in ufficio domani ma io non ci sono perché venerdì vado dai ma tutti i santi ogni santi è in tutto il mondo si festeggia ti svegli la mattina e dici viva tutti i santi basta no è come domenica vai sai cosa ti leggo già i messaggi che stanno per arrivare facile per te che non fai niente prova a lavorare nulla Dai ragazzi, dovete tutti andare a Brescia da dieci anni a vivere per imparare Sono arrivati i messaggi che avevo anticipato Sai che io ormai dopo tanti anni che faccio questo lavoro so in base a quello che dico che messaggi riceverò Vuoi far arrabbiare gli ascoltatori? Con quel lavoro che faccio è veramente faticoso DJ Avanti veloce!",
     "titolo": "lavoro e vacanze",
     "tema": [
@@ -614,32 +486,21 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-01-054",
+    "id": "2017-11-01-043",
     "start": 1565.41,
-    "end": 1662.46,
-    "speaker_raw": "SPEAKER_09",
-    "testo": "Keep a hold if you look into the distance there's a house upon the hill guiding like a lighthouse it's a place where you'll be safe to feel our grace cause we've all made mistakes if you've lost your way I'll leave the light on Don't let go Sì",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-11-01-055",
-    "start": 1713.64,
     "end": 1713.7,
-    "speaker_raw": "SPEAKER_13",
-    "testo": "Sì.",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Keep a hold if you look into the distance there's a house upon the hill guiding like a lighthouse it's a place where you'll be safe to feel our grace cause we've all made mistakes if you've lost your way I'll leave the light on Don't let go Sì Sì.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-11-01-056",
+    "id": "2017-11-01-044",
     "start": 1725.39,
     "end": 1734.96,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Se vuoi veramente far arrabbiare qualcuno, diciamo gli ascoltatori, vi ricordate che l'anno scorso avevamo chiamato, che avevamo chiamato l'anno scorso?",
     "titolo": "",
     "tema": [],
@@ -647,10 +508,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-01-057",
+    "id": "2017-11-01-045",
     "start": 1735.0,
     "end": 1737.72,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Non so dove stai andando a parlare.",
     "titolo": "",
     "tema": [],
@@ -658,10 +519,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-01-058",
+    "id": "2017-11-01-046",
     "start": 1737.76,
     "end": 1825.71,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Non mi ricordo che avevamo chiamato, che però in onda ci disse che per far arrabbiare il pubblico bisognava dire che guadagni un sacco di soldi e lavori pochissimo. Lui ci disse questa cosa, non te la ricordi? Era un bip? Sì, la zanzara, scusami, Cruciani, quando dicevo Cruciani ma te che ti insultano, fai quel programma aggressivo, lui dice sì sì sai come li devi fare? lo disse in onda sai come devi farli proprio incazzare gli devi dire che lavori poco e ti pagano tantissimo io invece ho notato negli anni avendo fatto diciamo prima un lavoro manuale vengo da una famiglia di gente che lavorava con le mani facendo questo lavoro che faccio adesso che sono lavori invisibili in sostanza così la parola stress stressa quelli che fanno lavori fisici cioè se tu a un muratore gli dici si è vero è faticoso fare il muratore ma lo stress che ho io quando tipo esce il mio libro no Lì, proprio perché lo stress è una specie di roba da fighetti, non viene intesa... Un privilegio del lusso. È un privilegio, ok. Tu sei stressato? parli con me scusate ragazzi sapete che tutte le volte che in un programma televisivo arriva una persona che non ci vede il presentatore gli dà sempre la mano l'ha fatto anche Luciana con Bocelli parli con la mano che piacere lui non alza la mano adesso io con noi ho detto tu sei stressato ma non ti dovevo mettere una mano sulla spalla anch'io non stavo guardando te",
     "titolo": "",
     "tema": [],
@@ -669,7 +530,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-01-059",
+    "id": "2017-11-01-047",
     "start": 1827.21,
     "end": 1856.55,
     "speaker_raw": "SPEAKER_01",
@@ -683,10 +544,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-01-060",
+    "id": "2017-11-01-048",
     "start": 1863.31,
     "end": 1866.86,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_04",
     "testo": "No, ecco, io su quello sono sensibile.",
     "titolo": "",
     "tema": [],
@@ -694,10 +555,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-01-061",
+    "id": "2017-11-01-049",
     "start": 1867.14,
     "end": 1869.48,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Ma sì, ma io non ho mica offeso una categoria.",
     "titolo": "",
     "tema": [],
@@ -705,10 +566,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-01-062",
+    "id": "2017-11-01-050",
     "start": 1869.7,
     "end": 1871.04,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_04",
     "testo": "Eh, ma lo fai apposta.",
     "titolo": "",
     "tema": [],
@@ -716,10 +577,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-01-063",
+    "id": "2017-11-01-051",
     "start": 1871.18,
     "end": 1903.08,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Possiamo dire, fai apposta. Uno di Brescia, uno di Bergamo, si assomiglia, non so come si incazzano adesso. Vabbè, ma non parliamo di questi. Grazie che sei venuto a trovarci, Daniele. Grazie a voi. E qua con noi, oggi è giorno di festa, ma lui non fa abbastanza un... No, no. No, poi oggi c'è casino in strada Ho guidato io Ho guidato io in strada Sai che c'è questo programma dove fanno il karaoke in macchina, famosissimo negli Stati Uniti L'inizio con Stevie Wonder era che stava lui al volante No, fermati!",
     "titolo": "",
     "tema": [],
@@ -727,7 +588,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-01-064",
+    "id": "2017-11-01-052",
     "start": 1903.14,
     "end": 1931.23,
     "speaker_raw": "SPEAKER_01",
@@ -738,10 +599,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-01-065",
+    "id": "2017-11-01-053",
     "start": 1932.21,
     "end": 1938.28,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Ma tu scusami, lui che era in macchina con te, tu appunto non vedete, guidavi, aveva i suoi pedalini? Sì, sì, sì, lui lo aveva.",
     "titolo": "",
     "tema": [],
@@ -749,7 +610,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-01-066",
+    "id": "2017-11-01-054",
     "start": 1938.3,
     "end": 1950.87,
     "speaker_raw": "SPEAKER_01",
@@ -760,10 +621,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-01-067",
+    "id": "2017-11-01-055",
     "start": 1951.29,
     "end": 1989.19,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Però 140 per te non è una grazia, è per quello che hai seduto a piedi. Esatto, esatto. No, noi siamo qua anche per dire, scusami che sei passato, andiamo a bere un caffè, finisce il programma, oggi vedi com'è il programma, cazzeggio, sembra che è festa, così, perché noi, quando è che lo facciamo? Lunedì? Martedì? Sai che non mi ricordo. Ma cosa fate? Credo che sia martedì. Mercoledì forse. Mercoledì. hai un po' di precisione ragazzi come non sono preparato aspetta aspetta aspetta no no eccolo qua eccolo qua sì mercoledì alle 18.30 io sono all'auditorium a Brescia a presentare il mio libro però prima vengo con te dove?",
     "titolo": "",
     "tema": [],
@@ -771,7 +632,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-01-068",
+    "id": "2017-11-01-056",
     "start": 1989.21,
     "end": 2011.13,
     "speaker_raw": "SPEAKER_01",
@@ -782,10 +643,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-01-069",
+    "id": "2017-11-01-057",
     "start": 2011.17,
     "end": 2012.91,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Che la regione ha fatto dei tagli?",
     "titolo": "",
     "tema": [],
@@ -793,7 +654,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-01-070",
+    "id": "2017-11-01-058",
     "start": 2013.09,
     "end": 2021.5,
     "speaker_raw": "SPEAKER_01",
@@ -804,10 +665,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-01-071",
+    "id": "2017-11-01-059",
     "start": 2021.52,
     "end": 2023.94,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Quindi diciamo i bambini non venivano a fare la breve in un anno i libri?",
     "titolo": "",
     "tema": [],
@@ -815,29 +676,29 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-01-072",
+    "id": "2017-11-01-060",
     "start": 2024.4,
-    "end": 2070.02,
+    "end": 2076.01,
     "speaker_raw": "SPEAKER_01",
-    "testo": "rischiano di non avere i libri perché adesso fino a dicembre sono coperti c'è stato diciamo così mi hanno messo una pezza però da gennaio non si sa oltretutto questi sono mi permetto di dire sono lavori in cui un assistente alla comunicazione un tifologo deve essere motivato deve essere tranquillo tu pensa andare da un bambino che non ci vede di 7-8 anni a scuola e magari a gennaio non c'hai più lavoro non è che ci vai proprio con l'entusiasmo non ci vedi ma c'è una cosa in più non hai neanche i libri da quest'anno sei contento? esatto tanto non li avevi visti Io che ho fatto anni a non avere i libri in braille, averli da gennaio e quindi so bene di cosa si parla, se vogliamo delle persone più sveglie, più smart che non vedono dobbiamo aiutarle da quando sono piccolo. Posso farti una cosa?",
+    "testo": "rischiano di non avere i libri perché adesso fino a dicembre sono coperti c'è stato diciamo così mi hanno messo una pezza però da gennaio non si sa oltretutto questi sono mi permetto di dire sono lavori in cui un assistente alla comunicazione un tifologo deve essere motivato deve essere tranquillo tu pensa andare da un bambino che non ci vede di 7-8 anni a scuola e magari a gennaio non c'hai più lavoro non è che ci vai proprio con l'entusiasmo non ci vedi ma c'è una cosa in più non hai neanche i libri da quest'anno sei contento? esatto tanto non li avevi visti Io che ho fatto anni a non avere i libri in braille, averli da gennaio e quindi so bene di cosa si parla, se vogliamo delle persone più sveglie, più smart che non vedono dobbiamo aiutarle da quando sono piccolo. Posso farti una cosa? Sai che c'è quella barzelletta che dicono che il cieco tocca la grattugia del formaggio e dice che ha scritto queste cazzate?",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-11-01-073",
-    "start": 2070.04,
+    "id": "2017-11-01-061",
+    "start": 2076.45,
     "end": 2088.79,
-    "speaker_raw": "SPEAKER_06",
-    "testo": "Sai che c'è quella barzelletta che dicono che il cieco tocca la grattugia del formaggio e dice che ha scritto queste cazzate? Tu ci leggi qualcosa sulla grattugia? Non dice niente la grattugia? Non ha un segreto come i dischi dei Beatles al contrario? Che tu tocchi la grattugia e c'è scritto che io esiste e sta in via canonica?",
+    "speaker_raw": "SPEAKER_02",
+    "testo": "Tu ci leggi qualcosa sulla grattugia? Non dice niente la grattugia? Non ha un segreto come i dischi dei Beatles al contrario? Che tu tocchi la grattugia e c'è scritto che io esiste e sta in via canonica?",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-11-01-074",
+    "id": "2017-11-01-062",
     "start": 2089.65,
     "end": 2096.15,
     "speaker_raw": "SPEAKER_01",
@@ -848,10 +709,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-01-075",
+    "id": "2017-11-01-063",
     "start": 2098.07,
     "end": 2108.38,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_02",
     "testo": "va bene, allora ci vediamo mercoledì al centro di Brescia molto bene, sarà un onore averti con noi grazie, grazie, grazie a voi un abbraccio a tutti grazie, ciao",
     "titolo": "",
     "tema": [],
@@ -859,43 +720,21 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-01-076",
+    "id": "2017-11-01-064",
     "start": 2121.62,
-    "end": 2241.43,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "Sono canzoni poco irriverenti, insomma canzoni come me, che ho perso tutti i denti, canzoni per chi non ha voglia da bagliare o di ringhiare, canzoni tanto per cantare. canzoni che parlano d'amore perché alla fine dai di che altro vuoi parlare che se ti guardi intorno non c'è niente da cantare solamente un grande vuoto che a guardarlo ti fa male perciò sarò superficiale ma in mezzo a questo dolore in tutto questo rancore io canto solo per Le mie canzoni poco intelligenti, che ti ci svegli la mattina e ti ci lavi i denti, canzoni per chi non ha voglia di pensare, di ascoltare, canzoni per dimenticare. Sono canzoni poco consistenti, insomma canzoni come me, che non faccio più ragionamenti, che voglio solo sensazioni, solo sentimenti e una tazzina di caffè. Canzoni che parlano d'amore, perché alla fine dai, di che altro vuoi parlare? Che se ti guardi intorno non c'è molto da cantare, solamente una tristezza che è difficile a toccare. Perciò sarò superficiale, ma in mezzo a questo dolore, in tutto questo rumore, io canto un mondo che non c'è. Tu, tu, tu, e tu, tu, tu. Due canzoni emozionanti, che ti accappano alla donna, senza tanti complimenti, canzoni come sberla in faccia, per costringerti a pensare, canzoni per non restarci male.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-11-01-077",
-    "start": 2241.53,
-    "end": 2251.4,
-    "speaker_raw": "SPEAKER_11",
-    "testo": "Alle canzoni da cantare a spargiatura, come se cinquemila voci diventassero una sola, canzoni che ti amano ancora, a casa triste, a casa dura, canzoni che non trovo ancora.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2017-11-01-078",
-    "start": 2255.12,
     "end": 2305.8,
-    "speaker_raw": "SPEAKER_12",
-    "testo": "Canzoni che ti salvano la vita, che ti fanno dire no, cazzo non è ancora di vita Che ti danno la forza di ricominciare, che ti tendono in piedi quando senti di crollare Ma non ti sembra un miracolo che in mezzo a questo dolore, tutto questo rumore A volte basta una canzone, che è una stupida canzone, solo una stupida canzone A ricordarti che sai Ma non ti sembra un miracolo che in mezzo a questo dolore, in tutto questo rumore, a volte basta una canzone, anche una stupida canzone, solo una stupida canzone.",
+    "speaker_raw": "SPEAKER_04",
+    "testo": "Sono canzoni poco irriverenti, insomma canzoni come me, che ho perso tutti i denti, canzoni per chi non ha voglia da bagliare o di ringhiare, canzoni tanto per cantare. canzoni che parlano d'amore perché alla fine dai di che altro vuoi parlare che se ti guardi intorno non c'è niente da cantare solamente un grande vuoto che a guardarlo ti fa male perciò sarò superficiale ma in mezzo a questo dolore in tutto questo rancore io canto solo per Le mie canzoni poco intelligenti, che ti ci svegli la mattina e ti ci lavi i denti, canzoni per chi non ha voglia di pensare, di ascoltare, canzoni per dimenticare. Sono canzoni poco consistenti, insomma canzoni come me, che non faccio più ragionamenti, che voglio solo sensazioni, solo sentimenti e una tazzina di caffè. Canzoni che parlano d'amore, perché alla fine dai, di che altro vuoi parlare? Che se ti guardi intorno non c'è molto da cantare, solamente una tristezza che è difficile a toccare. Perciò sarò superficiale, ma in mezzo a questo dolore, in tutto questo rumore, io canto un mondo che non c'è. Tu, tu, tu, e tu, tu, tu. Due canzoni emozionanti, che ti accappano alla donna, senza tanti complimenti, canzoni come sberla in faccia, per costringerti a pensare, canzoni per non restarci male. Alle canzoni da cantare a spargiatura, come se cinquemila voci diventassero una sola, canzoni che ti amano ancora, a casa triste, a casa dura, canzoni che non trovo ancora. Canzoni che ti salvano la vita, che ti fanno dire no, cazzo non è ancora di vita Che ti danno la forza di ricominciare, che ti tendono in piedi quando senti di crollare Ma non ti sembra un miracolo che in mezzo a questo dolore, tutto questo rumore A volte basta una canzone, che è una stupida canzone, solo una stupida canzone A ricordarti che sai Ma non ti sembra un miracolo che in mezzo a questo dolore, in tutto questo rumore, a volte basta una canzone, anche una stupida canzone, solo una stupida canzone.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2017-11-01-079",
+    "id": "2017-11-01-065",
     "start": 2306.73,
     "end": 2344.43,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_02",
     "testo": "a ricordarti chissà prima abbiamo messo inizio programma Noel Gallagher che possiamo dire è un po' insieme al fratello quando c'erano gli oesi un po' i figli dei Beatles possiamo dirlo quello ovviamente ecco diciamo che questo pezzo di Bruno Rissas sta lì tra De Gregorio e Lucio Dalla no? e Rino Gaetano insomma comunque quegli anni lì bravissimo Brunori Sasse lo salutiamo ciao Brunori ci vediamo al solito posto come sempre io non l'ho mai incontrato Brunori Sasse però viene a Rai DJ si si si è venuto più volte tra l'altro mi sa che farà un programma in Rai si? come presentatore? si",
     "titolo": "",
     "tema": [],
@@ -903,10 +742,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-01-080",
+    "id": "2017-11-01-066",
     "start": 2345.05,
     "end": 2349.88,
-    "speaker_raw": "SPEAKER_10",
+    "speaker_raw": "SPEAKER_04",
     "testo": "tipo che va in giro per l'Italia a intervistare la gente ma che bello lo dovevo fare anch'io quello lì lo sai?",
     "titolo": "",
     "tema": [],
@@ -914,10 +753,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-01-081",
+    "id": "2017-11-01-067",
     "start": 2350.32,
     "end": 2585.16,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_02",
     "testo": "oh no eh ma non c'ho tempo non è che devo fare quel programma l'idea di un programma dove salivo anche sugli interregionali andavo nelle piazze così a parlare con le persone ma prima non c'ho tempo si fa il prossimo anno e poi secondo me le persone mi piacciono poi sei stressato questo contatto diretto con la gente dopo mi stressa che noi solo nel privè viviamo che roba hanno innovato che a casa mia attorno a casa mia c'è il cordoncino quello lì rosso dei privè c'è tutto il palazzo di privè e c'è di uno grosso che prego prego e di consumazione e omaggio c'è la fontanella nel cortiletto interno va bene abbiamo detto delle cose inutili anche oggi volevo dire invece no una cosa gli ascoltatori che sono più attenti dicono tu o voi in realtà è tu continuate sempre a dire che fate delle cose e poi non le fate mai tipo? tipo la cosa di Tony Dall'Ara altro giorno un ascoltatore mi ha scritto su Twitter maledetto tutto il giorno mi canto Eli quindi rimane in testa per chi si fosse perso delle telefonate passate una mattina mi ha chiamato sul cellulare Tony Dallara mi voleva parlare gli ascoltatori hanno detto ma cosa ti deve dire Tony Dallara l'abbiamo richiamato il giorno dopo e lui ci ha detto ho scritto la nuova canzone dell'Inter volevo dei suggerimenti e se mi aiuti un po' a capire come no suggerimenti lui l'ha già incisa no lui ha detto volevo il tuo parere ha detto voleva il mio parere si è capito io lo voglio invitare lo voglio invitare qua allora dobbiamo fare così chiamarlo in diretta adesso così poi è come un documento non possiamo più tornare indietro lo sto chiamando dal mio telefono sto appoggiando il telefono al microfono col viva voce lui risponde all'interno Basta che non bestemmia. Oggi non è il giorno che si va nei cimiteri, è domani. No, domani, domani. Oggi i santi. Sì. Domani i fanti. Ciao, ciao. Tony, sono Fabio, come stai? Bene, tu? Bene, senti, sei al bar, sento che sei al bar. Sì. Sì, ok. Senti, vuoi venire venerdì al volo del mattino così ci porti la canzone e ne parliamo? Sì, puoi. vuoi venire giovedì? giovedì sì ok allora facciamo così più tardi mi dici se venerdì ci sei se non ci sei vieni giovedì Va bene, il programma è dalle 9 alle 10? Va bene, ti aspettiamo, dopo ci sentiamo. Ma scusami, ma sei in un bar o in una discoteca? Torni da là, due cose ha fatto che è familiare a quella generazione Una, mia nonna, treno alle 8, in stazione alle 5 Perché non c'è il treno, alle 10, 8 e mezza siamo lì L'altra cosa che mi sta succedendo con mia madre, tu c'è la mamma più giovane Che io telefono a mia mamma, ciao mamma che sei in ascolto, ci vediamo più tardi e lei praticamente ha un'altra conversazione con un'altra persona cioè lei parla io le faccio una domanda lei come se non avesse detto una domanda mi dice una cosa che mi vuol dire lei io gli rifaccio la domanda di prima lei mi ridice siamo su due telefoni diversi deve approfittare di quella rara telefonata noi ci sentiamo quasi tutti i giorni però la cosa affascinante è che magari io dico certo ma tra l'altro cioè lei dice ciao e mette giù e per lei la conversazione è finita Giusto. Va che è incredibile. Per me è tutto. Domani, allora forse Tony domani. Wow. O forse venerdì. Stello portata per voi.",
     "titolo": "",
     "tema": [],
@@ -925,7 +764,7 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-01-082",
+    "id": "2017-11-01-068",
     "start": 2613.7,
     "end": 2779.33,
     "speaker_raw": "SPEAKER_04",
@@ -935,15 +774,13 @@
       "amore"
     ],
     "tipo": "riferimento_musica",
-    "video_url": "",
-    "autore": "Christina Aguilera",
-    "confermato_esterno": false
+    "video_url": ""
   },
   {
-    "id": "2017-11-01-083",
+    "id": "2017-11-01-069",
     "start": 2805.2,
     "end": 2881.42,
-    "speaker_raw": "SPEAKER_06",
+    "speaker_raw": "SPEAKER_02",
     "testo": "Better Way, Andrew Combs, l'ho portato perché ho pensato che fosse perfetta questa canzone per una giornata come oggi che tutto un po' scorre, Viola ha fatto un autogol in diretta dicendo quella rara chiamata, io ti ho detto quasi tutti i giorni e tu hai incassato perché tu non la chiami tutti i giorni la tua mamma, quante volte la chiami a settimana la tua mamma? Tre, non si può andare sotto i tre a settimana due giorni sì giorno no Maurizio eh no io poco ma no ma c'è Whatsapp ci sentiamo su Whatsapp messaggi ma secondo te mia mamma c'è Whatsapp no ti dico come supplisco io mia mamma c'ha un Nokia più piccolo del Nokia che non è neanche un Nokia è ancora più piccolo sembra un pacchetto di fiammiferi e lei lì non sa andare in meno un walkie talkie no lei schiaccia il ripito quindi o chiama me o mia sorella dipende chi ha chiamato per ultimo va bene allora ragazzi domani prendetevi il giorno di vacanza che forse c'è Tony Dallara se no c'è venerdì se no pace va bene ciao ragazzi quindi domani sapremo finalmente qual è l'inno dell'Inter e poi Tony Dallara per chi non l'avesse ascoltato ha detto che ci vuole raccontare quando stavano io negli anni 60-70 che ha incontrato sia Sofia Loren ma che ha toccato la mano a Marilyn Monroe Marilyn Monroe ciao ragazzi a domani",
     "titolo": "Viola fa autogol in diretta",
     "tema": [
@@ -953,10 +790,10 @@
     "video_url": ""
   },
   {
-    "id": "2017-11-01-084",
+    "id": "2017-11-01-070",
     "start": 2883.66,
     "end": 2883.88,
-    "speaker_raw": "SPEAKER_02",
+    "speaker_raw": "SPEAKER_00",
     "testo": "... ...",
     "titolo": "",
     "tema": [],
