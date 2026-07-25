@@ -39,6 +39,46 @@ SOGLIA_TEMP_GPU_C = 88.0  # coerente con SOGLIA_EMERGENZA_GPU in avvia_trascrizi
 SOGLIA_EMERGENZA_CPU = 93
 SOGLIA_EMERGENZA_GPU = 88
 
+# Crash-loop CUDA del 2026-07-25 (driver NVIDIA aggiornato da unattended-upgrade
+# senza reboot): whisperx falliva l'init CUDA in <1s, il watchdog ne rilanciava
+# subito un altro -- "processo vivo, CPU che si muove" era vero ad ogni singolo
+# check per 7 ore filate, "anomalie=0" scritto ogni 15 min, zero episodi
+# completati per davvero. Il controllo sopra (processo+CPU) misura "vivo", non
+# "sta producendo qualcosa" -- serve un segnale di PROGRESSO REALE, non di vita.
+CHECKPOINT_RITRASCRIZIONE = LOGS_DIR / "checkpoint_ritrascrizione.log"  # scritto SOLO al
+# completamento riuscito di un episodio (non ad ogni tentativo) -- segnale diretto.
+CONSOLA_BATCH = LOGS_DIR / "consola_batch.log"  # troncato ad ogni relancio di
+# avvia_trascrizione_sicura.sh (">" non ">>"), quindi contarne gli errori dentro
+# equivale a "errori dall'ultimo lancio", non serve filtrare per timestamp.
+SOGLIA_PROGRESSO_MIN = 12  # margine ampio sopra i ~2 min/episodio reali su GPU,
+# ma abbastanza stretto da scattare al PRIMO giro di check dopo uno stallo (il
+# timer gira ogni 15 min) invece che dopo ore.
+SOGLIA_ERRORI_CRASH_LOOP = 2  # occorrenze minime di errore fatale per parlare di
+# crash-loop confermato (causa nota) invece di un generico "nessun progresso"
+# (causa da indagare, es. episodio lunghissimo o rete NAS lenta).
+
+
+def ultimo_progresso_reale():
+    """Timestamp dell'ultimo episodio DAVVERO completato (ultima riga del
+    checkpoint), o None se il file non esiste/e' vuoto/illeggibile."""
+    if not CHECKPOINT_RITRASCRIZIONE.exists():
+        return None
+    try:
+        ultima = CHECKPOINT_RITRASCRIZIONE.read_text(encoding="utf-8").strip().splitlines()[-1]
+        return datetime.datetime.fromisoformat(ultima.split()[0])
+    except (IndexError, ValueError, OSError):
+        return None
+
+
+def conta_errori_fatali_recenti() -> int:
+    if not CONSOLA_BATCH.exists():
+        return 0
+    try:
+        testo = CONSOLA_BATCH.read_text(encoding="utf-8", errors="ignore")
+    except OSError:
+        return 0
+    return testo.count("CUDA failed") + testo.count("ERRORE trascrizione")
+
 
 def trova_processo(match_in_cmdline: str):
     for p in psutil.process_iter(["pid", "cmdline"]):
@@ -106,6 +146,58 @@ def main() -> None:
                 anomalie.append(f"whisperx PID {whisperx.pid} sparito durante il check, nessun nuovo whisperx trovato")
     elif batch:
         anomalie.append("batch vivo ma nessun sottoprocesso whisperx trovato (tra un episodio e l'altro puo' essere normale per pochi secondi)")
+
+    # Progresso REALE (non solo "vivo") -- fix 2026-07-25 dopo il crash-loop CUDA
+    # di 7 ore che questo check non aveva mai rilevato (vedi commento su
+    # SOGLIA_PROGRESSO_MIN sopra).
+    crash_loop_confermato = False
+    if batch:
+        progresso_ts = ultimo_progresso_reale()
+        if progresso_ts:
+            minuti_da_ultimo = (datetime.datetime.now() - progresso_ts).total_seconds() / 60
+            if minuti_da_ultimo > SOGLIA_PROGRESSO_MIN:
+                n_errori = conta_errori_fatali_recenti()
+                if n_errori >= SOGLIA_ERRORI_CRASH_LOOP:
+                    crash_loop_confermato = True
+                    anomalie.append(
+                        f"CRASH-LOOP CONFERMATO: nessun episodio completato da {minuti_da_ultimo:.0f} min, "
+                        f"{n_errori} errori CUDA/traceback in consola_batch.log dall'ultimo lancio"
+                    )
+                else:
+                    anomalie.append(
+                        f"batch vivo ma nessun episodio completato da {minuti_da_ultimo:.0f} min "
+                        f"(nessun errore CUDA rilevato -- causa da verificare, non necessariamente un crash-loop)"
+                    )
+
+    # Primo livello di auto-correzione (richiesto esplicitamente dall'utente
+    # 2026-07-25): su un crash-loop CONFERMATO (causa nota, non solo "lento"),
+    # fermare il batch E il watchdog -- altrimenti il watchdog lo rilancerebbe
+    # da solo entro pochi minuti, ricreando lo stesso crash-loop. Non si tenta
+    # di indovinare/riparare la causa reale (oggi era il driver, potrebbe non
+    # esserlo la prossima volta) -- solo fermare lo spreco, poi notificare e
+    # aspettare una decisione umana.
+    auto_correzione_esito = None
+    if crash_loop_confermato:
+        detenuto, riga_kill = matar_trascrizione(
+            origine="check_batch_health.py",
+            motivo="crash-loop CUDA/traceback confermato (auto-correzione di primo livello)",
+            aggressivo=True,  # ferma anche tmux + ilvolo-watchdog-nas.timer
+        )
+        if detenuto:
+            auto_correzione_esito = (
+                "AUTO-CORREZIONE ESEGUITA: batch e watchdog fermati. Dopo aver risolto la causa "
+                "reale, riprendere con: systemctl --user start ilvolo-watchdog-nas.timer"
+            )
+        else:
+            # Verifica reale del risultato, non assunto: se matar_trascrizione()
+            # non conferma la morte dei processi, dirlo esplicitamente.
+            auto_correzione_esito = f"AUTO-CORREZIONE FALLITA (vedi {riga_kill}) -- il batch potrebbe essere ancora in crash-loop, serve intervento manuale ORA"
+        anomalie.append(auto_correzione_esito)
+        # Ri-verifica reale (non le variabili catturate prima del kill) cosi' la riga
+        # di heartbeat sotto riflette lo stato VERO dopo l'auto-correzione, non quello
+        # di qualche istante prima.
+        batch = trova_processo("trascrivi_locale_episodi")
+        whisperx = trova_processo("whisperx")
 
     trascrizioni_dir = REPO / "data" / "trascrizioni"
     json_recenti = sorted(trascrizioni_dir.glob("*.json"), key=lambda p: p.stat().st_mtime, reverse=True)
