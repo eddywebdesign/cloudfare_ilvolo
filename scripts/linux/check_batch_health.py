@@ -14,6 +14,7 @@
 
 import datetime
 import json
+import re
 import subprocess
 import sys
 import time
@@ -68,6 +69,28 @@ def ultimo_progresso_reale():
         return datetime.datetime.fromisoformat(ultima.split()[0])
     except (IndexError, ValueError, OSError):
         return None
+
+
+def driver_nvidia_mismatch_rilevato() -> bool:
+    """Stesso controllo fattuale fatto a mano il 2026-07-25 per diagnosticare il
+    crash-loop causato da unattended-upgrade che aggiorna il driver NVIDIA senza
+    riavviare: confronta la versione del modulo kernel gia' caricato con quella
+    delle librerie userspace (nvidia-smi) -- se diverse, e' il mismatch noto,
+    risolvibile SOLO con un riavvio."""
+    try:
+        testo_versione = Path("/proc/driver/nvidia/version").read_text(encoding="utf-8")
+        m = re.search(r"NVRM version:.*?(\d+\.\d+(?:\.\d+)?)", testo_versione)
+        v_kernel = m.group(1) if m else None
+    except OSError:
+        return False
+    try:
+        v_smi = subprocess.run(
+            ["nvidia-smi", "--query-gpu=driver_version", "--format=csv,noheader"],
+            capture_output=True, text=True, timeout=5,
+        ).stdout.strip()
+    except (subprocess.SubprocessError, OSError):
+        v_smi = ""
+    return bool(v_kernel and v_smi and v_kernel != v_smi)
 
 
 def conta_errori_fatali_recenti() -> int:
@@ -183,15 +206,36 @@ def main() -> None:
             motivo="crash-loop CUDA/traceback confermato (auto-correzione di primo livello)",
             aggressivo=True,  # ferma anche tmux + ilvolo-watchdog-nas.timer
         )
-        if detenuto:
-            auto_correzione_esito = (
-                "AUTO-CORREZIONE ESEGUITA: batch e watchdog fermati. Dopo aver risolto la causa "
-                "reale, riprendere con: systemctl --user start ilvolo-watchdog-nas.timer"
-            )
-        else:
+        if not detenuto:
             # Verifica reale del risultato, non assunto: se matar_trascrizione()
             # non conferma la morte dei processi, dirlo esplicitamente.
             auto_correzione_esito = f"AUTO-CORREZIONE FALLITA (vedi {riga_kill}) -- il batch potrebbe essere ancora in crash-loop, serve intervento manuale ORA"
+        elif driver_nvidia_mismatch_rilevato():
+            # Causa diagnosticata (stesso pattern del 2026-07-25, driver aggiornato
+            # da unattended-upgrade senza riavvio): l'UNICA correzione reale e' un
+            # riavvio -- il watchdog (OnBootSec=10min) rilancia tutto da solo dopo,
+            # coi flag persistiti in logs/batch_flags_attuali.txt. Richiede il sudoers
+            # esteso (NOPASSWD su /usr/sbin/reboot) concesso il 2026-07-25 -- se non
+            # presente, il comando fallisce e lo diciamo esplicitamente, non assunto.
+            r = subprocess.run(["sudo", "-n", "reboot"], capture_output=True, text=True, timeout=10)
+            if r.returncode == 0:
+                auto_correzione_esito = (
+                    "AUTO-CORREZIONE: mismatch driver NVIDIA kernel/userspace rilevato (causa nota, "
+                    "stesso pattern del 2026-07-25) -- riavvio K16 in corso. Il watchdog rilancera' "
+                    "tutto da solo dopo il boot, nessun intervento necessario."
+                )
+            else:
+                auto_correzione_esito = (
+                    f"AUTO-CORREZIONE PARZIALE: batch fermato, mismatch driver diagnosticato ma il "
+                    f"riavvio automatico e' fallito ({r.stderr.strip() or 'sudo senza permesso passwordless'}) "
+                    f"-- serve 'sudo reboot' manuale su K16."
+                )
+        else:
+            auto_correzione_esito = (
+                "AUTO-CORREZIONE ESEGUITA: batch e watchdog fermati. Causa non riconosciuta tra i "
+                "pattern noti (non e' un mismatch driver) -- serve diagnosi umana. Dopo aver risolto, "
+                "riprendere con: systemctl --user start ilvolo-watchdog-nas.timer"
+            )
         anomalie.append(auto_correzione_esito)
         # Ri-verifica reale (non le variabili catturate prima del kill) cosi' la riga
         # di heartbeat sotto riflette lo stato VERO dopo l'auto-correzione, non quello
