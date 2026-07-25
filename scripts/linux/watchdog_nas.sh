@@ -46,7 +46,19 @@ fi
 # termico e' rimasto vivo ma fermo per quasi 3 ore, scatenando false alarme
 # "log termico fermo" via email ogni 15 min senza che nulla si fosse rotto
 # davvero - solo bloccato su una print() sul pty pieno.
-COMANDO_BATCH="cd '$REPO' && source ~/ilvolo-env/bin/activate && export ILVOLO_AUDIO_ROOT='$ROOT' && bash scripts/linux/avvia_trascrizione_sicura.sh '' --skip-classify --gpu > logs/consola_batch.log 2>&1"
+# Flag della campagna in corso: letti da logs/batch_flags_attuali.txt (scritto
+# da avvia_trascrizione_sicura.sh ad ogni lancio manuale, vedi commento li') se
+# presente, altrimenti fallback al default storico. Fix 2026-07-25: prima erano
+# hardcodati qui sempre uguali, quindi un riavvio automatico del watchdog (per
+# QUALSIASI causa, es. il crash-loop del driver NVIDIA aggiornato senza reboot)
+# abbandonava silenziosamente --forza/--da di una campagna in corso.
+FLAGS_FILE="logs/batch_flags_attuali.txt"
+if [[ -f "$FLAGS_FILE" ]]; then
+  FLAGS_BATCH="$(cat "$FLAGS_FILE")"
+else
+  FLAGS_BATCH="--skip-classify --gpu"
+fi
+COMANDO_BATCH="cd '$REPO' && source ~/ilvolo-env/bin/activate && export ILVOLO_AUDIO_ROOT='$ROOT' && bash scripts/linux/avvia_trascrizione_sicura.sh '' $FLAGS_BATCH > logs/consola_batch.log 2>&1"
 
 if ! tmux has-session -t trascrizione 2>/dev/null; then
   echo "$(ts) Sessione tmux 'trascrizione' assente, la ricreo e rilancio il batch." | tee -a "$LOG"

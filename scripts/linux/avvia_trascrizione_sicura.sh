@@ -74,6 +74,16 @@ if [[ "$FORZA" -eq 1 ]]; then
   EXTRA_ARGS+=(--forza)
 fi
 
+# Persiste i flag EFFETTIVI di questo lancio (2026-07-25): watchdog_nas.sh li
+# legge da qui per rilanciare il batch con GLI STESSI parametri dopo un crash,
+# invece di un comando hardcodato che dimenticava sempre --forza/--da custom —
+# durante il crash-loop CUDA di oggi, ogni riavvio automatico del watchdog ha
+# silenziosamente abbandonato la campagna --forza in corso, facendo ripartire
+# lo script dal comportamento di default (salta gli episodi gia' fatti).
+# NOTA: non include la cartella radice (primo argomento posizionale) - il
+# watchdog la lancia sempre con '' (usa $ILVOLO_AUDIO_ROOT), stesso pattern qui.
+printf -- '--da %s --limit %s %s\n' "$DA" "$LIMIT" "${EXTRA_ARGS[*]}" > logs/batch_flags_attuali.txt
+
 echo "Controllo sensori disponibili..."
 if ! python3 scripts/linux/sensori_temp.py > /dev/null 2>&1; then
   echo "ERRORE: sensori non disponibili (lm-sensors non installato o 'sudo sensors-detect --auto' mai eseguito)." | tee -a logs/ultima_esecuzione.log
