@@ -24,9 +24,9 @@
   {
     "id": "2019-11-22-002",
     "start": 16.88,
-    "end": 96.56,
+    "end": 140.22,
     "speaker_raw": "SPEAKER_02",
-    "testo": "Giuseppe, panettiere di Catania, poeta. Quest'anno non ti avevamo ancora chiamato. Però oggi mi hai fatto venire il cuore piccolo come una Big Bubble. Immaginatevi la Big Bubble, quella di rosa. Ecco, il mio cuore è così perché mi hai detto domani vieni a Catania per il tuo libro ma non posso venire perché sto facendo il pane, perché la faccio in mattinata che poi alla sera sono a Palermo. Domani è una giornata, ragazzi, che... si può prendere la droga? è lecito? a un certo punto ieri sera alle 11.40 non ce la facevo più io adesso vado in bagno e mi tiro una riga di bamba e non ce l'ho neanche sai cosa mi faccio? i sali minerali ragazzi scusate un attimo ho preso in farmacia i sali minerali che dentro c'è chettarina, caterina, pittirina ma non servono a niente pensavo i sali da mettere sotto il naso Come le cartone animali. Allora Giuseppe, io ti ho detto, vengo io in panetteria da te, ma tu mi hai detto, ma io ho sempre detto che sono di Catania, ma sono un po' fuori Catania. Ma non è molto distante, sono 20 chilometri. Eh, ma io vengo da Reggio Calabria la mattina. Salgo sul traghetto, da Reggio Calabria vado a Catania, faccio la presentazione, poi tre ore di macchina vado a Palermo, faccio la presentazione, poi vado in albergo, doccia, pugnetta e non ce n'è più per nessuno.",
+    "testo": "Giuseppe panettiere di Catania poeta quest'anno non ti avevamo ancora chiamato però oggi mi hai fatto venire il cuore piccolo come una big bubble immaginatevi la big bubble quella di rosa ecco il mio cuore così perché mi hai detto domani vieni a Catania per il tuo libro ma non posso venire perché sto facendo il pane perché la faccio in mattinata che poi la sera sono a Palermo domani una giornata ragazzi che... si può prendere la droga? è lecito? a un certo punto ieri sera alle 11.40 non ce la facevo più io adesso vado in bagno e mi tiro una riga di bamba e non ce l'ho neanche sai cosa mi faccio? i sali minerali ragazzi scusate un attimo ho preso in farmacia i sali minerali che dentro c'è chettarina, caterina, pittirina ma non servono a niente pensavo i sali da mettere sotto il naso come le cartone animali allora Giuseppe io ti ho detto vengo io in panetteria da te ma tu mi hai detto ma io ho sempre detto che sono di Catania ma sono un po' fuori Catania ma non è molto distante sono 20 km ma io vengo da Reggio Calabria la mattina salgo sul traghetto da Reggio Calabria vado a Catania faccio la presentazione poi tre ore di macchina vado a Palermo faccio la presentazione poi vado in albergo doccia pugnetta e non ce n'è più per nessuno non ce la fai neanche a farla no poi di solito faccio pugnetta e doccia perché poi sono pulito ascolta no no faccio la presentazione vado ma tu non c'hai uno lì che inforna al posto tuo e tu vieni è impossibile io alle 3 posso essere a Catania eh alle 3 noi alle 3 saremo già già in macchina ma ritarda un po' aspettalo ascolta tutti quelli di Palermo in ascolto arriverò tardi per colpa Giuseppe hai una bella poesia? sì è una cosa uno stato d'animo diciamo di qualche tempo fa ok l'hai scritta? sì sulla sabbia sulla farina o l'hai scritta su carta? su carta ok ce l'hai lì? sì ma in questo momento non c'è il pane nel forno per esempio? no",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -34,50 +34,6 @@
   },
   {
     "id": "2019-11-22-003",
-    "start": 96.62,
-    "end": 98.07,
-    "speaker_raw": "SPEAKER_03",
-    "testo": "Non ce la fai neanche a farla.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2019-11-22-004",
-    "start": 98.49,
-    "end": 108.92,
-    "speaker_raw": "SPEAKER_02",
-    "testo": "No, poi di solito faccio pugnetta e doccia perché poi sono pulito. No, no, faccio la presentazione e vado, ma tu non c'hai uno lì che inforna al posto tuo e tu vieni?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2019-11-22-005",
-    "start": 110.78,
-    "end": 113.74,
-    "speaker_raw": "SPEAKER_01",
-    "testo": "È impossibile, io alle tre posso essere a Catania.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2019-11-22-006",
-    "start": 114.18,
-    "end": 140.18,
-    "speaker_raw": "SPEAKER_02",
-    "testo": "Noi alle tre saremo già in macchina. Ritarda un po', aspettalo. Ascolta, tutti quelli di Palermo in ascolto arriverò tardi. Giuseppe, hai una bella poesia? Sì, è uno stato d'animo, diciamo, di qualche tempo fa. Ok, l'hai scritta? Sì. Sulla sabbia, sulla farina o l'hai scritta su carta? Su carta. Ok, ce l'hai lì? Sì. Ma in questo momento non c'è il pane nel forno, per esempio? No.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2019-11-22-007",
     "start": 140.97,
     "end": 143.45,
     "speaker_raw": "SPEAKER_01",
@@ -88,7 +44,7 @@
     "video_url": ""
   },
   {
-    "id": "2019-11-22-008",
+    "id": "2019-11-22-004",
     "start": 143.51,
     "end": 149.34,
     "speaker_raw": "SPEAKER_02",
@@ -99,18 +55,18 @@
     "video_url": ""
   },
   {
-    "id": "2019-11-22-009",
+    "id": "2019-11-22-005",
     "start": 149.84,
     "end": 157.22,
     "speaker_raw": "SPEAKER_01",
-    "testo": "Questo. È questo, esatto. Ve lo dico alla fine, sennò parte la prima risata. Ah, ok.",
+    "testo": "Questo. È questo, esatto. Mi sono, ve lo dico alla fine, sennò parte la prima risata. Ah, ok.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2019-11-22-010",
+    "id": "2019-11-22-006",
     "start": 157.31,
     "end": 159.27,
     "speaker_raw": "SPEAKER_02",
@@ -121,40 +77,40 @@
     "video_url": ""
   },
   {
-    "id": "2019-11-22-011",
+    "id": "2019-11-22-007",
     "start": 159.35,
-    "end": 167.01,
+    "end": 160.79,
     "speaker_raw": "SPEAKER_01",
-    "testo": "Vai, Giuseppe. Vai. Precipito in terra, Viola in terra.",
+    "testo": "Vai, Giuseppe. Vai.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2019-11-22-012",
-    "start": 167.03,
-    "end": 186.41,
+    "id": "2019-11-22-008",
+    "start": 163.6,
+    "end": 185.51,
     "speaker_raw": "SPEAKER_03",
-    "testo": "Scusami, Giuseppe. Maurizio, chiudi i microfoni. No, scusami, ci spegniamo i microfoni perché... Cavolo, dal primo... Precipito in terra, schiacciato da una macchina. Ok, aspetta Giuseppe, non ridiamo più, non ridiamo più. Vai, vai, scusaci, scusaci, scusaci. Vai, vai, vai, vai, vai.",
+    "testo": "precipito in terra violenta scusami scusami scusami scusami ci spegniamo i microfoni perché cavolo dal primo precipito in terra schiacciato da una macchina ok aspetta Giuseppe non ridiamo più vai vai scusaci vai vai vai inizio precipito in terra violenta violenta come meteora",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2019-11-22-013",
-    "start": 186.47,
-    "end": 222.12,
+    "id": "2019-11-22-009",
+    "start": 193.52,
+    "end": 222.07,
     "speaker_raw": "SPEAKER_01",
-    "testo": "Inizio? Sì, sì, sì. Precipito in terra, Violento come meteora. Inghie di sangue, frantumate le braccia, striscio, fragile, arreso, privo di forze, con il cuore graffiato. Gli occhi alzo al cielo e dove ero io rivedo, grande, bellissimo bagliore, sogno acerbo che non oso più toccare. Gelido è il mare della salvezza, naviga, incosciente, il battello carico di pianto, leggero verso la vita. Finita.",
+    "testo": "unghie di sangue frantumate le braccia striscio fragile arreso privo di forze con il cuore graffiato gli occhi alzo al cielo e dove ero io rivedo grande bellissimo bagliore sogno acerbo che non oso più toccare gelido è il mare della salvezza naviga incosciente il battello carico di pianto leggero verso la vita finita",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2019-11-22-014",
+    "id": "2019-11-22-010",
     "start": 224.44,
     "end": 231.84,
     "speaker_raw": "SPEAKER_03",
@@ -165,7 +121,7 @@
     "video_url": ""
   },
   {
-    "id": "2019-11-22-015",
+    "id": "2019-11-22-011",
     "start": 232.76,
     "end": 237.77,
     "speaker_raw": "SPEAKER_00",
@@ -176,40 +132,18 @@
     "video_url": ""
   },
   {
-    "id": "2019-11-22-016",
+    "id": "2019-11-22-012",
     "start": 237.93,
-    "end": 266.51,
-    "speaker_raw": "SPEAKER_02",
-    "testo": "Iniziamo sempre che ridiamo e poi alla terza parola ci becchi nel posto più tenero del cuore. Hai queste visioni meravigliose, sei proprio panettiere, si vede che stai sveglio la notte, no? Che quindi c'è meno gente in giro, come diceva Troisi, lo diceva veramente. Siccome tu sei sveglio di notte, la gente dorme, tutto ciò che c'è nell'aria, hai più roba da captare, no? Perché sto battello di lacrime che parte per la vita... Mi titola il battello del pianto. Il battello del pianto!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2019-11-22-017",
-    "start": 266.55,
-    "end": 267.15,
-    "speaker_raw": "SPEAKER_01",
-    "testo": "Mamma mia!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2019-11-22-018",
-    "start": 267.19,
     "end": 272.97,
     "speaker_raw": "SPEAKER_02",
-    "testo": "Va bene, ma tu sei sposato, Giuseppe? Sì, sì. Lei, quando gliele leggi, cosa dice lei?",
+    "testo": "Iniziamo sempre che ridiamo e poi alla terza parola ci becchi nel posto più tenero del cuore. hai queste visioni meravigliose, sei proprio panettiere si vede che stai sveglio la notte che quindi c'è meno gente in giro come diceva Troisi, lo diceva veramente siccome tu sei sveglio di notte, la gente dorme tutto ciò che c'è nell'aria hai più roba da captare perché sto battello di lacrime che parte per la vita il battello del pianto il battello del pianto ma tu sei sposato Giuseppe? sì, sì lei quando gliele leggi cosa dice lei?",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2019-11-22-019",
+    "id": "2019-11-22-013",
     "start": 274.56,
     "end": 276.8,
     "speaker_raw": "SPEAKER_01",
@@ -220,7 +154,7 @@
     "video_url": ""
   },
   {
-    "id": "2019-11-22-020",
+    "id": "2019-11-22-014",
     "start": 277.06,
     "end": 279.48,
     "speaker_raw": "SPEAKER_02",
@@ -231,66 +165,44 @@
     "video_url": ""
   },
   {
-    "id": "2019-11-22-021",
+    "id": "2019-11-22-015",
     "start": 280.88,
     "end": 283.68,
     "speaker_raw": "SPEAKER_01",
-    "testo": "Al primo appuntamento, ieri ho iniziato tra l'altro il tuo libro.",
+    "testo": "Al primo appuntamento? Ieri ho iniziato, tra l'altro, il tuo libro.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2019-11-22-022",
+    "id": "2019-11-22-016",
     "start": 283.84,
     "end": 300.33,
     "speaker_raw": "SPEAKER_02",
-    "testo": "Ah, però posso dirti, Robetta, rispetto a quello che scrivi tu è troppo pop, capito? Leggerissimo. Capito, tu sei a livelli di Nick Cave a sto punto, eh? Tu sei il Nick Cave dei panettieri. Eh beh, ma si capisce che sei un Nick Cave.",
+    "testo": "Ah! Però posso dirti, Robetta, rispetto a quello che scrivi tu è troppo pop, capito? Leggerissimo! Capito? Tu sei a livelli di Nick Cave a sto punto, eh? Tu sei il Nick Cave dei panettiere. Eh beh, ma si capisce che sei un Nick Cave.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2019-11-22-023",
+    "id": "2019-11-22-017",
     "start": 300.81,
-    "end": 320.67,
+    "end": 311.45,
     "speaker_raw": "SPEAKER_01",
-    "testo": "Righe di sangue nelle unghie. Comunque. La prima volta che ci siamo incontrati con mia moglie e gli ho spiegato in qualche modo il significato di Hotel California. Ok, wow, è conquistata così. Un po' è rimasta così e poi ci siamo sentiti e da lì è iniziato il rapporto.",
+    "testo": "Righe di sangue nelle unghie. Comunque. Senti Giuseppe, la prima volta che ci siamo innotati con mia moglie, io ho spiegato in qualche modo il significato di Hotel California.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2019-11-22-024",
-    "start": 320.71,
-    "end": 333.61,
+    "id": "2019-11-22-018",
+    "start": 312.35,
+    "end": 359.43,
     "speaker_raw": "SPEAKER_02",
-    "testo": "Un giorno chiamiamo tua moglie, la settimana prossima ci dai il numero della moglie e la chiamiamo per sapere com'è la poesia dal suo punto di vista, come ti vede. Comunque Giuseppe io cercherò di venire, mandami l'indirizzo, la vedo dura, voglio essere sincero.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2019-11-22-025",
-    "start": 334.07,
-    "end": 338.48,
-    "speaker_raw": "SPEAKER_01",
-    "testo": "Su Google la trovi, ti fa portare Panificio Sauta, S-A-U-T-A.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2019-11-22-026",
-    "start": 338.68,
-    "end": 361.92,
-    "speaker_raw": "SPEAKER_02",
-    "testo": "Ok, se no segui le tracce di sangue. Seguo il battello di lacrime. Quando arrivo da Reggio Calabria seguo il battello di lacrime. Ciao Giuseppe, ti mettiamo diamante perché zucchero dice pace per chi ci sarà e per i fornai. Pessa tutta sta roba per quella parola lì. Le braccia frantumate. Le braccia frantumate. Grazie, buona giornata.",
+    "testo": "ok, wow, è conquistata così un po' è rimasta così e poi ci siamo sentiti e da lì è iniziato il rapporto un giorno chiamiamo tua moglie, la settimana prossima ci dai il numero della moglie e la chiamiamo per sapere com'è la poesia dal suo punto di vista, come ti vede comunque Giuseppe io cercherò di venire mandami l'indirizzo, la vedo dura, voglio essere sincero su Google lo trovi ci fa portare panificio sauta, S-A-U-T-A ok, se no segui le tracce di sangue seguo il battello di lacrime quando arrivo da Reggio Calabria seguo il battello di lacrime ciao Giuseppe ti mettiamo diamante perché zucchero dice pace per chi ci sarà e per i fornai pesa tutta sta roba per quella parola lì le braccia frantumate grazie buona giornata",
     "titolo": "",
     "tema": [],
     "tipo": "",
