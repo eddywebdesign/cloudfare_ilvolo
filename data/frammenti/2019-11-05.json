@@ -37,7 +37,7 @@
     "start": 5.28,
     "end": 28.5,
     "speaker_raw": "SPEAKER_01",
-    "testo": "Sì. Sì? Sì. Mi posso chiedere solo un favore? Eh. Di già? Io sono al telefono con Radio DJ. Ma è partita buona così. Volevo abbiacciarvi perché oggi è la giornata dell'abbraccio. Loro chiedono di fermare chiunque per questo gesto d'amore. Volevo abbracciare un carabiniere. No, no, ma è per telefono. Carabiniere? Sì.",
+    "testo": "Sì. Sì? Sì. Mi posso chiedere solo un favore? Eh, di già. Io sono al telefono con Radio DJ. Ma è partita buona così? Volevo abbiacciarvi perché oggi è la giornata dell'abbraccio. Loro chiedono di fermare chiunque per questo gesto d'amore. Volevo abbracciare un carabiniere. No, no, ma è per telefono. Carabiniere? Sì.",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -57,9 +57,9 @@
   {
     "id": "2019-11-05-005",
     "start": 29.52,
-    "end": 52.02,
+    "end": 82.62,
     "speaker_raw": "SPEAKER_01",
-    "testo": "Perché è un gesto d'affetto nei confronti di una persona. Ma non è in video, è al telefono con Fabio Volo. Assolutamente no. Fabio, buongiorno, io sono col maresciallo vicino all'aeroporto di Ciampino e ci siamo dati un abbraccio. Ma sei matta! Mi ha rintroverato, mi ha detto che non dovevo lasciare la macchina dove l'ho lasciata.",
+    "testo": "Perché è un gesto d'affetto nei confronti di una persona. Ma non è in video, è al telefono con Fabio Volpi. assolutamente no Fabio buongiorno io sono col maresciallo col maresciallo vicino all'aeroporto di Ciampino ci siamo dati un abbraccio tu sei matta mi ha rintroverato mi ha detto che non dovevo lasciare la macchina dove l'ho lasciata ma alla fine l'amore vince sul modo dell'invidia Claudia lui ti ha detto non puoi parcheggiare lì e tu gli hai detto ti abbraccio mi ha fatto fare questa fantastica figurazza in diretta però poi ho detto solo ciao Claudia sei partita a bomba anche un signore che ci stava ascoltando che conferma che sta ascoltando diamogli un programma Linus diamogli un programma ho bruciato l'aeroporto di San Pino",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -67,10 +67,10 @@
   },
   {
     "id": "2019-11-05-006",
-    "start": 52.04,
-    "end": 60.92,
-    "speaker_raw": "SPEAKER_02",
-    "testo": "Ma alla fine l'amore vince sul modo dell'invidia. Claudia, lui ti ha detto che non puoi parcheggiare lì e tu gli hai detto ti abbraccio perché sono il primo.",
+    "start": 86.92,
+    "end": 89.26,
+    "speaker_raw": "SPEAKER_00",
+    "testo": "Interruzione di pubblico. Claudia!",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -78,10 +78,10 @@
   },
   {
     "id": "2019-11-05-007",
-    "start": 60.96,
-    "end": 64.86,
+    "start": 89.3,
+    "end": 92.07,
     "speaker_raw": "SPEAKER_01",
-    "testo": "Mi ha fatto fare questa fantastica figurazza in diretta, però poi...",
+    "testo": "Ma chi è il presidente? Ma chi è sto passando?",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -89,10 +89,10 @@
   },
   {
     "id": "2019-11-05-008",
-    "start": 65.62,
-    "end": 70.43,
+    "start": 92.09,
+    "end": 144.6,
     "speaker_raw": "SPEAKER_02",
-    "testo": "Ma Claudia, non ho neanche detto, ho detto solo ciao Claudia, sei partita a bomba, hai fatto tutto.",
+    "testo": "Ma Claudia! Scusami Claudia, posso parlarti un secondo? Oggi sono così. tra la mattina Claudia sì buongiorno ok buongiorno ma sei partita o boh ma si è fermato uno che ha detto il carabiniere è vero sto ascoltando la radio sì sì per differenza ma cosa fai a Ciampino ma che ridi e niente io faccio il percorso che dura praticamente due ore che da casa mia mi porta a lavorare alle ore no ma Claudio siccome noi abbiamo detto ciao Claudia sei partita o boh sei data pure dall'arma quindi niente tu ormai sei fissa sì sì ti spiego ero in ritardissimo per la diretta ah sì per la diretta ok Ma sei la prima che lavora con noi? Scusate, ero in ritardo con la diretta. Claudia, sei già stata assunta al volo del mattino. Vai. Sei stata presa. Dove? Al volo del mattino.",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -100,10 +100,10 @@
   },
   {
     "id": "2019-11-05-009",
-    "start": 70.51,
-    "end": 78.17,
+    "start": 144.9,
+    "end": 146.04,
     "speaker_raw": "SPEAKER_01",
-    "testo": "Ma che fermatecola, è fermato anche un signore che ci stava ascoltando, che conferma che ci stava ascoltando.",
+    "testo": "Perfetto, arrivo.",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -111,10 +111,10 @@
   },
   {
     "id": "2019-11-05-010",
-    "start": 78.29,
-    "end": 81.18,
+    "start": 146.3,
+    "end": 156.15,
     "speaker_raw": "SPEAKER_02",
-    "testo": "Diamogli un programma, Linus, diamogli un programma.",
+    "testo": "Ma no, stai lì. Ogni tanto ti chiamiamo e tu fai questa cosa qua perché l'hai fatto... Sì, sì, io ce la faccio proprio tosta. Tu vivi a Roma, ma di dove sei?",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -122,160 +122,6 @@
   },
   {
     "id": "2019-11-05-011",
-    "start": 81.46,
-    "end": 82.24,
-    "speaker_raw": "SPEAKER_00",
-    "testo": "Ha tutto da sola.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2019-11-05-012",
-    "start": 82.4,
-    "end": 84.34,
-    "speaker_raw": "SPEAKER_01",
-    "testo": "Sì, è fermato. Ho bruciato l'aeroporto di San Pino.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2019-11-05-013",
-    "start": 86.92,
-    "end": 89.38,
-    "speaker_raw": "SPEAKER_00",
-    "testo": "Interruzione di pubblico servizio.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2019-11-05-014",
-    "start": 89.4,
-    "end": 91.41,
-    "speaker_raw": "SPEAKER_01",
-    "testo": "Sono anche il presidente, quindi mi do...",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2019-11-05-015",
-    "start": 91.5,
-    "end": 99.95,
-    "speaker_raw": "SPEAKER_02",
-    "testo": "Ma chi è il presidente? Ma chi è sto passando? Ma Claudia, sembra una gag di DJ Angelo. Scusami Claudia, posso parlarti un secondo?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2019-11-05-016",
-    "start": 100.01,
-    "end": 100.78,
-    "speaker_raw": "SPEAKER_01",
-    "testo": "Lascia ancora.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2019-11-05-017",
-    "start": 100.89,
-    "end": 101.36,
-    "speaker_raw": "SCONOSCIUTO",
-    "testo": "Oggi sono così.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2019-11-05-018",
-    "start": 104.61,
-    "end": 117.94,
-    "speaker_raw": "SPEAKER_02",
-    "testo": "Tra la mattina. Claudia. Sì. Buongiorno. Ok. Buongiorno. Ma sei partita o buona? Ma si è fermato uno che ha detto il Carabiniere è vero, sto ascoltando la radio. Sì, sì. Per differenza. Ma cosa fai a Ciampino?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2019-11-05-019",
-    "start": 118.3,
-    "end": 123.8,
-    "speaker_raw": "SPEAKER_01",
-    "testo": "E niente, io faccio il percorso che dura praticamente due ore, che da casa mia mi porta a lavorare alle ore.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2019-11-05-020",
-    "start": 123.82,
-    "end": 128.85,
-    "speaker_raw": "SPEAKER_02",
-    "testo": "No, ma Claudio, siccome noi abbiamo detto ciao Claudia, sei partita buona, sei andata pure dall'arma. Sì, sì.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2019-11-05-021",
-    "start": 128.89,
-    "end": 132.87,
-    "speaker_raw": "SPEAKER_01",
-    "testo": "Ormai sei fissa. Ti spiego, ero in ritardissimo per la diretta.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2019-11-05-022",
-    "start": 132.89,
-    "end": 144.6,
-    "speaker_raw": "SPEAKER_02",
-    "testo": "Per la diretta, ok. Ma sei la prima che lavora con noi? Scusate, ero in ritardo con la diretta. Claudia, sei già stata assunta al Volo del Mattino? Vai! Sei stata presa? Dove? Al Volo del Mattino!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2019-11-05-023",
-    "start": 144.9,
-    "end": 146.04,
-    "speaker_raw": "SPEAKER_01",
-    "testo": "Perfetto, arrivo!",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2019-11-05-024",
-    "start": 146.3,
-    "end": 156.15,
-    "speaker_raw": "SPEAKER_02",
-    "testo": "Ma no, stai lì! Ogni tanto ti chiamiamo e tu fai questa cosa qua perché l'hai fatto... Sì, sì, io ce la faccio proprio tosta. Ma tu vivi a Roma, ma di dove sei?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2019-11-05-025",
     "start": 156.19,
     "end": 156.75,
     "speaker_raw": "SPEAKER_01",
@@ -286,18 +132,18 @@
     "video_url": ""
   },
   {
-    "id": "2019-11-05-026",
+    "id": "2019-11-05-012",
     "start": 156.77,
     "end": 163.15,
     "speaker_raw": "SPEAKER_02",
-    "testo": "Di Lecce, perfetto! Perfetto. O una mattina potresti fare tipo delle pittule e poi fermi la gente e dici le ho fatte io con le mie mani. Vediamo se accettano del cibo.",
+    "testo": "Di Lecce, perfetto. Perfetto. O una mattina potresti fare tipo delle pittule e poi fermi la gente e dici le ho fatte io con le mie mani. Vediamo se accettano del cibo.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2019-11-05-027",
+    "id": "2019-11-05-013",
     "start": 163.17,
     "end": 165.35,
     "speaker_raw": "SPEAKER_01",
@@ -308,7 +154,7 @@
     "video_url": ""
   },
   {
-    "id": "2019-11-05-028",
+    "id": "2019-11-05-014",
     "start": 165.53,
     "end": 167.89,
     "speaker_raw": "SPEAKER_02",
@@ -319,7 +165,7 @@
     "video_url": ""
   },
   {
-    "id": "2019-11-05-029",
+    "id": "2019-11-05-015",
     "start": 167.91,
     "end": 169.28,
     "speaker_raw": "SPEAKER_01",
@@ -330,7 +176,7 @@
     "video_url": ""
   },
   {
-    "id": "2019-11-05-030",
+    "id": "2019-11-05-016",
     "start": 169.44,
     "end": 172.98,
     "speaker_raw": "SPEAKER_02",
@@ -341,18 +187,18 @@
     "video_url": ""
   },
   {
-    "id": "2019-11-05-031",
+    "id": "2019-11-05-017",
     "start": 173.36,
     "end": 178.02,
     "speaker_raw": "SPEAKER_01",
-    "testo": "Sono davanti al maresciallo che mi sta chiamando per qualcosa.",
+    "testo": "Sono davanti al maresciallo che mi sta chiamando per fare qualcosa.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2019-11-05-032",
+    "id": "2019-11-05-018",
     "start": 178.04,
     "end": 178.32,
     "speaker_raw": "SPEAKER_02",
@@ -363,7 +209,7 @@
     "video_url": ""
   },
   {
-    "id": "2019-11-05-033",
+    "id": "2019-11-05-019",
     "start": 181.45,
     "end": 183.29,
     "speaker_raw": "SPEAKER_01",
@@ -374,7 +220,7 @@
     "video_url": ""
   },
   {
-    "id": "2019-11-05-034",
+    "id": "2019-11-05-020",
     "start": 183.49,
     "end": 184.21,
     "speaker_raw": "SPEAKER_02",
@@ -385,7 +231,7 @@
     "video_url": ""
   },
   {
-    "id": "2019-11-05-035",
+    "id": "2019-11-05-021",
     "start": 184.25,
     "end": 188.91,
     "speaker_raw": "SPEAKER_01",
@@ -396,7 +242,7 @@
     "video_url": ""
   },
   {
-    "id": "2019-11-05-036",
+    "id": "2019-11-05-022",
     "start": 188.97,
     "end": 191.74,
     "speaker_raw": "SPEAKER_02",
@@ -407,62 +253,40 @@
     "video_url": ""
   },
   {
-    "id": "2019-11-05-037",
+    "id": "2019-11-05-023",
     "start": 191.78,
-    "end": 194.62,
+    "end": 205.37,
     "speaker_raw": "SPEAKER_00",
-    "testo": "Sì, posso... ...me lo dici e poi noi continuiamo...",
+    "testo": "Sì, posso... ...me lo dici e poi noi continuiamo a parlare. grazie maresciallo devo dare il documento guarda oggi come va a finire no perché hanno paura ma noi dobbiamo dire vuoi passarmelo al telefono?",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2019-11-05-038",
-    "start": 201.32,
-    "end": 215.19,
+    "id": "2019-11-05-024",
+    "start": 205.71,
+    "end": 211.79,
     "speaker_raw": "SPEAKER_01",
-    "testo": "Grazie, Maurizio. Devo dare il documento. Guarda oggi come va a finire.",
+    "testo": "vuole parlare con Fabio Volo dice? ecco",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2019-11-05-039",
-    "start": 215.23,
-    "end": 219.9,
-    "speaker_raw": "SPEAKER_02",
-    "testo": "No, perché hanno paura. No, ma noi dobbiamo dire... Vuoi passarmelo al telefono?",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2019-11-05-040",
-    "start": 220.6,
-    "end": 224.2,
-    "speaker_raw": "SPEAKER_01",
-    "testo": "Vuole parlare con Fabio Volo, dice? Ecco.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2019-11-05-041",
+    "id": "2019-11-05-025",
     "start": 225.72,
     "end": 238.26,
     "speaker_raw": "SPEAKER_02",
-    "testo": "Buongiorno maresciallo, non è niente di brutto, noi siamo Radio DJ, non so se ci conosce Radio DJ. No, l'importante è che non succede niente con questa cosa, come funziona da noi. No, ma di farsi sto dicendo, lei conosce Radio DJ, non so se conosce me, mi chiamo Fabio Volo.",
+    "testo": "Buongiorno maresciallo, non è niente di brutto, noi siamo Radio DJ, non so se ci conosce Radio DJ. No, l'importante è che non succede niente con questa cosa, come funziona da noi. No, ma di farsi sto dicendo, lei conosce Radio DJ, non so se conosce me, mi chiamo Fabio Borghi.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2019-11-05-042",
+    "id": "2019-11-05-026",
     "start": 238.28,
     "end": 241.03,
     "speaker_raw": "SPEAKER_01",
@@ -473,22 +297,11 @@
     "video_url": ""
   },
   {
-    "id": "2019-11-05-043",
+    "id": "2019-11-05-027",
     "start": 241.06,
-    "end": 285.81,
+    "end": 280.35,
     "speaker_raw": "SPEAKER_02",
-    "testo": "Esatto, senta, noi mandiamo ogni tanto degli ascoltatori a fare un gesto d'amore verso degli sconosciuti, lei ha scelto proprio lei. No, va benissimo. Ho detto che voi purtroppo siete anche sempre in una condizione dove siete molto controllati. Magari lei fa una roba così e viene fuori un casino. Invece lei volevo dire che è tutto pulito, non succede niente. Poi non sappiamo il nome, non sappiamo niente. È tutto pulito, è tutto pulito. Comunque lei la perquisisca lo stesso. Noi non la conosciamo questa Claudia. Tranquillo, tranquillo, va benissimo così. Se trovate qualcosa noi non l'abbiamo mai vista. Assolutamente no. Buongiorno, Maurizio. Buongiorno, buongiorno. Ciao, ciao, ciao. Ciao, ciao, ciao. Claudia. Oh. Claudia, ho sudato. Comunque ci sentiamo nei prossimi giorni. Oh, ma ferma uno di quelli dei bagagli che più fa. Un turista.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2019-11-05-044",
-    "start": 285.85,
-    "end": 293.22,
-    "speaker_raw": "SPEAKER_01",
-    "testo": "No, al momento sta passando solo una cosa. No, no, basta, basta. Va bene, basta. Ciao, Claudia, buona giornata. Teniamo il numero. A presto. Ciao, ciao, ciao.",
+    "testo": "Esatto, senta, noi mandiamo ogni tanto degli ascoltatori a fare un gesto d'amore verso degli sconosciuti, lei ha scelto proprio lei. No, va benissimo. però io ho detto che voi purtroppo siete anche sempre in una condizione dove siete molto controllati magari lei fa una roba così e viene fuori un casino invece lei volevo dire che è tutto pulito poi non sappiamo il nome è tutto pulito comunque lei la perquisisca lo stesso noi non la conosciamo tranquillo va benissimo così se trovate qualcosa noi non l'abbiamo mai vista assolutamente no buongiorno maresciallo buongiorno ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao ciao",
     "titolo": "",
     "tema": [],
     "tipo": "",

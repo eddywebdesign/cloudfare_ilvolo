@@ -4,7 +4,7 @@
     "start": 0.13,
     "end": 16.7,
     "speaker_raw": "SPEAKER_00",
-    "testo": "Non scendete dalla macchina se siete arrivati, non spegnete la radio perché questa è una cosa meravigliosa. Antonella di Novara, 54 anni, una donna che vuol fare la giornalista quindi andare a scovare la verità contro i farabutti. Cosa ha fatto una volta a Londra?",
+    "testo": "Non scendete dalla macchina se siete arrivati, non spegnete la radio perché questa è una cosa meravigliosa. Antonella di Novara, 54 anni, una donna che vuol fare la giornalista e quindi andare a scovare la verità contro i farabutti. Cosa ha fatto una volta a Londra?",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -13,9 +13,9 @@
   {
     "id": "2019-10-15-001",
     "start": 17.5,
-    "end": 39.33,
+    "end": 72.03,
     "speaker_raw": "SPEAKER_01",
-    "testo": "Mi vergogno moltissimo. Ero a Manchester. Ero in un negozio dove ho comprato delle cose, dei regalini da portare a casa. Ti ripresenta che io lavoro... E avrò avuto 21 anni, più o meno. Avevo iniziato a lavorare da poco.",
+    "testo": "Mi vergogno moltissimo. ero a Manchester ero in un negozio dove ho comprato delle cose, dei regalini da portare a casa tieni presente che io lavoro e avrò avuto 21 anni più o meno avevo iniziato a lavorare da poco hai il coraggio di dire il rimorso io non ti giudico per quello perché tu hai avuto il coraggio di dire sai quanta gente ha fatto queste cose e non chiama brava, allora vai Vabbè, ma comunque perché adesso quando la racconto con i miei amici e le mie amiche che lo sanno, ridiamo moltissimo. Comunque, ero in questo negozio e avevo comprato un profumo da portare a casa, da regalare, non mi ricordo più. E volevo portarli, regalarli anche un altro, ma non avevo più soldi. E quindi ho detto, mi sono guardata in giro, non c'era praticamente nessuno nel negozio, ho preso questo profumo e lo sono messo nella borsa.",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -23,28 +23,6 @@
   },
   {
     "id": "2019-10-15-002",
-    "start": 39.43,
-    "end": 47.51,
-    "speaker_raw": "SPEAKER_00",
-    "testo": "Hai il coraggio di dire il rimorso. Io non ti giudico per quello, perché tu hai avuto il coraggio di dire... Sai quanta gente ha fatto queste cose e non chiama. Brava. Allora, vai.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2019-10-15-003",
-    "start": 47.65,
-    "end": 72.03,
-    "speaker_raw": "SPEAKER_01",
-    "testo": "Vabbè, ma comunque perché adesso quando la racconto con i miei amici, le mie amiche che lo sanno, ridiamo moltissimo. Comunque, ero in questo negozio e avevo comprato un profumo da portare a casa, da regalare, non mi ricordo più. E volevo portarli, regalarli anche un altro, ma non avevo più soldi. E quindi ho detto, mi sono guardata in giro, non c'era praticamente nessuno nel negozio, ho preso questo profumo e lo sono messo nella borsa.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2019-10-15-004",
     "start": 72.05,
     "end": 85.58,
     "speaker_raw": "SPEAKER_00",
@@ -55,18 +33,18 @@
     "video_url": ""
   },
   {
-    "id": "2019-10-15-005",
+    "id": "2019-10-15-003",
     "start": 85.84,
-    "end": 153.24,
+    "end": 153.2,
     "speaker_raw": "SPEAKER_01",
-    "testo": "L'impulso che mi ha spinto a farlo. Comunque hai quell'adrenalina che dice rubate un profumo. Stavo uscendo dopo aver pagato l'altro profumo perché l'altro l'ho pagato. Stavo uscendo dalla porta e suona l'allarme. Fuori c'era... Fuori che mi aspettava, c'era la mia amica che non sospettava assolutamente nulla. Quindi io quando suona l'allarme, questi mi fermano, venga signora, faccia vedere. Insomma, nella borsa trovano questo profumo. Quando lo tirano fuori e mi dicono, ma signora, signorina, ma che cosa? E io mi giro, vedo una specchietta nel negozio e dico, ma scusi, ma non vede che l'ho pagato l'altro? Questo mica me lo sono messo io nella borsa, sarà stata quella signora? Per farne uno scherzo. Per fare uno scherzo. Loro, vabbè, loro ovviamente non ci hanno creduto. Mi hanno solo detto la classica frase. Concilia e paga o dobbiamo chiamare qualcuno. Ah, perché non basta restituire, devi pagare. E io ho dovuto chiedere i soldi alla tua amica.",
+    "testo": "L'impulso che mi ha spinto a farlo. Comunque, hai quell'adrenalina che dice rubate un profumo. Stavo uscendo, dopo aver pagato l'altro profumo perché l'altro l'ho pagato, stavo uscendo dalla porta e suona l'allarme. Fuori c'era... fuori che mi aspettava c'era la mia amica che non sospettava assolutamente nulla quindi io quando suona l'allarme questi mi fermano venga signora faccia vedere e insomma nella borsa trovano questo profumo quando lo tirano fuori e mi dicono ma signora signorina ma che cosa e io mi giro vedo una specchietta nel negozio e dico ma scusi ma non vede che l'ho pagato l'altro questo mica me lo sono messo io nella borsa sarà stata quella signora per farmi uno scherzo per fare uno scherzo loro vabbè loro ovviamente non ci hanno creduto mi hanno solo detto la classica frase consiglia e paga o dobbiamo chiamare qualcuno ah perché non basta restituire devi pagare e io ho dovuto chiedere i soldi alla tua amica",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2019-10-15-006",
+    "id": "2019-10-15-004",
     "start": 154.86,
     "end": 160.98,
     "speaker_raw": "SPEAKER_00",
@@ -77,18 +55,18 @@
     "video_url": ""
   },
   {
-    "id": "2019-10-15-007",
+    "id": "2019-10-15-005",
     "start": 161.34,
     "end": 173.4,
     "speaker_raw": "SPEAKER_01",
-    "testo": "Ti vergognavi che con la tua amica, ma la vedi questa vecchia? Te lo giuro, quando sono uscita dal negozio, ho passato ore con questa roba nello stomaco.",
+    "testo": "Ti vergognavi che con la tua amica, ma la vedi questa vecchia? Te lo giuro, quando sono uscita dal negozio ho passato ore con questa roba nello stomaco.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2019-10-15-008",
+    "id": "2019-10-15-006",
     "start": 173.56,
     "end": 178.49,
     "speaker_raw": "SPEAKER_00",
@@ -99,18 +77,18 @@
     "video_url": ""
   },
   {
-    "id": "2019-10-15-009",
-    "start": 178.91,
-    "end": 206.75,
+    "id": "2019-10-15-007",
+    "start": 179.63,
+    "end": 206.73,
     "speaker_raw": "SPEAKER_01",
-    "testo": "Sì, mi è stato addosso per un bel po', continuavo a pensarci, però devo dire che è stata la svolta, perché qualche piccolo furtarello da ragazzina nei negozi l'avevo fatto. E quello lì è stato l'ultimo? Non solo è stato l'ultimo, se per caso trovo 100 euro per te, le restituisco anche se non so chi è. Ma come trovo? È giusto! Ormai sono diventata così.",
+    "testo": "mi è stato addosso per un bel po' continuavo a pensarci però devo dire che è stata la svolta perché qualche piccolo furtarello da ragazzina nei negozi l'avevo fatto e quello lì è stato l'ultimo non solo è stato l'ultimo se per caso trovo 100 euro per te le restituisco ma come trovo? è giusto ormai sono diventata così",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2019-10-15-010",
+    "id": "2019-10-15-008",
     "start": 207.15,
     "end": 210.55,
     "speaker_raw": "SPEAKER_00",
@@ -121,7 +99,7 @@
     "video_url": ""
   },
   {
-    "id": "2019-10-15-011",
+    "id": "2019-10-15-009",
     "start": 211.45,
     "end": 217.56,
     "speaker_raw": "SPEAKER_01",
@@ -132,22 +110,11 @@
     "video_url": ""
   },
   {
-    "id": "2019-10-15-012",
+    "id": "2019-10-15-010",
     "start": 218.2,
-    "end": 238.83,
+    "end": 238.39,
     "speaker_raw": "SPEAKER_00",
-    "testo": "Perché vedo qua sul The Sun, signora anziana suicida per essere stata... L'ha accusata giustamente di un profumo che lei dice quote, faceva pure schifo sto profumo. Grandissima Antonella, ti aspetto col tuo libro al Broletto, ciao.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2019-10-15-013",
-    "start": 238.87,
-    "end": 239.95,
-    "speaker_raw": "SPEAKER_01",
-    "testo": "Va bene, verrò a sentirti.",
+    "testo": "Perché vedo qua sul The Sun, signora anziana suicida per essere stata... accusata giustamente di un profumo che lei dice quote faceva pure schifo grandissima Antonella ti aspetto col tuo libro al broletto ciao",
     "titolo": "",
     "tema": [],
     "tipo": "",

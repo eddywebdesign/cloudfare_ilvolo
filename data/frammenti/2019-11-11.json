@@ -123,9 +123,9 @@
   {
     "id": "2019-11-11-011",
     "start": 37.22,
-    "end": 43.06,
+    "end": 56.7,
     "speaker_raw": "SPEAKER_01",
-    "testo": "È Fabio Volo. Come mia mamma, che tu fai il telefono e lei fa un'altra conversa.",
+    "testo": "È Fabio Volo Come mia mamma, che tu fai il telefono e lei fa un altro concetto Con chi stai parlando Dada? Con mio amico Andy Ma tuo amico o amico con quello che è stato il weekend che ti ha piegato come un asdraio? Andy ti butta giù, dai, di la verità, Dada.",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -133,28 +133,6 @@
   },
   {
     "id": "2019-11-11-012",
-    "start": 43.28,
-    "end": 47.56,
-    "speaker_raw": "SPEAKER_00",
-    "testo": "Con chi stai parlando Dada? Con mio amico Andy.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2019-11-11-013",
-    "start": 47.92,
-    "end": 56.7,
-    "speaker_raw": "SPEAKER_01",
-    "testo": "Ma tuo amico o amico con quello che è stato il weekend che ti ha piegato come un asdraio? Andy ti butta giù, dai, di la verità, Dada.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2019-11-11-014",
     "start": 57.06,
     "end": 58.22,
     "speaker_raw": "SPEAKER_00",
@@ -165,73 +143,29 @@
     "video_url": ""
   },
   {
-    "id": "2019-11-11-015",
+    "id": "2019-11-11-013",
     "start": 58.48,
-    "end": 105.06,
-    "speaker_raw": "SPEAKER_01",
-    "testo": "Ti viene da piangere? Esagerato. Ma Dada, passami Andy, passami Andy, dai, passami Andy. Sì, te l'ho fatto. Dai, perché ho capito che, ok. Pronto? Ah, sei italiano, Andy? Io sono italiano. Ma sei andato a viveri da quando sei uscito dai Blu Vertigo? Esatto. Ascoltami, Andy. Ciao, Andy, come stai? Bene, bene, e tu? Bene, bene, ti volevo salutare. Tu sei lì per il compleanno di Dada? Sì, sì. Cioè in un appartamento a Bordeaux esistono due individui che si chiamano Dada e Andy? Esistono, esattamente. Sembra una serie televisiva. L'hai visto ieri l'ultima di Andy e Dada? Andy e Dada? Siamo già alla seconda stagione. Norma e Greg e Will e Grace. Siete già alla seconda stagione. Va bene, senti, ti volevo salutare Andy. È stata una bella festa. E ti ripasso Daniela così la saluti.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2019-11-11-016",
-    "start": 105.2,
-    "end": 106.78,
-    "speaker_raw": "SPEAKER_00",
-    "testo": "Daniela, ecco perché è Dada.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2019-11-11-017",
-    "start": 106.8,
-    "end": 121.12,
-    "speaker_raw": "SPEAKER_01",
-    "testo": "Ah, Dada, Daniela. E Andy, quindi sei Andrea. Siete Andrea. Daniela e Andrea, normale. Oh, qui siamo Fab, Mau e Vi. Ciao Andy. Ciao, ciao Ello.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2019-11-11-018",
-    "start": 121.66,
-    "end": 123.46,
-    "speaker_raw": "SPEAKER_00",
-    "testo": "E' vero, è vero. Dada, Dada.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2019-11-11-019",
-    "start": 125.39,
     "end": 135.57,
     "speaker_raw": "SPEAKER_01",
-    "testo": "Ho capito che non è il tuo ragazzo, Andy. No, no, no, non è il mio ragazzo. No, dalla voce ho capito che non ti butta giù. No, no, niente, niente. Non l'ha buttato giù nessuno. No, no, almeno no.",
+    "testo": "Ti viene da piangere? Esagerato. Ma Dada, passami Andy, passami Andy, dai, passami Andy. Sì, te l'ho fatto. Dai, perché ho capito che, ok. Pronto? Ah, sei italiano, Andy? Io sono italiano. Ma sei andato a viveri da quando sei uscito dai Blu Vertigo? Esatto. Ascoltami, Andy. Ciao, Andy, come stai? Bene, bene, e tu? Bene, bene, ti volevo salutare. Tu sei lì per il compleanno di Dada? in un appartamento a Bordeaux esistono due individui che si chiamano Dada e Andy esistono esattamente sembra una serie televisiva l'hai visto ieri l'ultima di Andy e Dada siamo già la seconda stagione e Will e Grace siete già la seconda stagione va bene senti ti volevo salutare Andy è stata una bella festa e ti ripasso Daniela così la saluti Daniela ecco perché è Dada Daniela e Andy quindi sei Andrea cioè vabbè siete Andrea Daniela e Andrea normale oh qui siamo Fab Mau e Vi ciao Andy ciao ciao bello è vero è vero Dada Dada Ho capito che non è il tuo ragazzo, Andy. No, no, no, non è il mio ragazzo. No, dalla voce ho capito che non ti butta giù. No, no, niente, niente. Non l'ha buttato giù nessuno. No, no, almeno no.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2019-11-11-020",
+    "id": "2019-11-11-014",
     "start": 135.59,
     "end": 145.4,
     "speaker_raw": "SPEAKER_00",
-    "testo": "L'ha buttato su tutti. Eh, esatto. Lui li tira su, non li butta giù. No, è un weekend proprio bellissimo, più bello weekend della mia vita. Grazie, buon... È stato stupendo.",
+    "testo": "L'ha buttato su tutti. Eh, esatto. Lui li tira su, non li butta giù. Un weekend pieno d'amore. No, un weekend proprio bellissimo, più bello weekend della mia vita. Grazie, buon... È stato stupendo.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2019-11-11-021",
+    "id": "2019-11-11-015",
     "start": 145.42,
     "end": 150.99,
     "speaker_raw": "SPEAKER_01",
@@ -242,18 +176,18 @@
     "video_url": ""
   },
   {
-    "id": "2019-11-11-022",
+    "id": "2019-11-11-016",
     "start": 152.4,
     "end": 164.78,
     "speaker_raw": "SPEAKER_00",
-    "testo": "Ricorda, era quello il regalo, non si è chiamato per questo. L'hanno regalato, sai cosa mi ha regalato? Un volo per il volo. Capito? Cioè? Che torna apposta sabato per te. Ah, qui a Book City.",
+    "testo": "Ricorda, era quello il regalo, non c'è chiamato per questo. L'hanno regalato, sai cosa mi ha regalato? Un volo per il volo. Capito? Cioè? Che torna apposta sabato per te. Ah, qui a Book City.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2019-11-11-023",
+    "id": "2019-11-11-017",
     "start": 164.89,
     "end": 173.37,
     "speaker_raw": "SPEAKER_01",
@@ -264,7 +198,7 @@
     "video_url": ""
   },
   {
-    "id": "2019-11-11-024",
+    "id": "2019-11-11-018",
     "start": 173.39,
     "end": 179.98,
     "speaker_raw": "SPEAKER_00",

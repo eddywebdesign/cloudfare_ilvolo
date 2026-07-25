@@ -46,9 +46,9 @@
   {
     "id": "2019-11-18-004",
     "start": 28.73,
-    "end": 31.71,
+    "end": 40.2,
     "speaker_raw": "SPEAKER_01",
-    "testo": "Intanto, lei l'hanno avvisata o stava ascoltando il programma?",
+    "testo": "Intanto, lei l'hanno avvisata o stava ascoltando il programma? No, mi hanno avvisata perché sono a lavoro adesso, a Roma Termini Ah, ok, ok Lei oggi doveva andare a ritirare i libri firmati",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -56,10 +56,10 @@
   },
   {
     "id": "2019-11-18-005",
-    "start": 32.49,
-    "end": 35.51,
+    "start": 40.95,
+    "end": 46.88,
     "speaker_raw": "SPEAKER_00",
-    "testo": "No, mi hanno avvisata perché sono a lavoro adesso, a Roma Termini.",
+    "testo": "Esatto, poi mio marito mi ha mandato quest'audio che aveva registrato perché lui era in macchina a sentire il volo.",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -67,28 +67,6 @@
   },
   {
     "id": "2019-11-18-006",
-    "start": 35.8,
-    "end": 40.22,
-    "speaker_raw": "SPEAKER_01",
-    "testo": "Ah, ok, ok. Lei oggi doveva andare a ritirare i libri firmati.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2019-11-18-007",
-    "start": 40.95,
-    "end": 46.88,
-    "speaker_raw": "SPEAKER_00",
-    "testo": "Esatto, poi mio marito mi ha mandato quest'audio che aveva registrato perché lui era in macchina a sentire il Volo.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2019-11-18-008",
     "start": 46.9,
     "end": 48.68,
     "speaker_raw": "SPEAKER_01",
@@ -99,7 +77,7 @@
     "video_url": ""
   },
   {
-    "id": "2019-11-18-009",
+    "id": "2019-11-18-007",
     "start": 48.84,
     "end": 49.48,
     "speaker_raw": "SPEAKER_00",
@@ -110,7 +88,7 @@
     "video_url": ""
   },
   {
-    "id": "2019-11-18-010",
+    "id": "2019-11-18-008",
     "start": 49.54,
     "end": 55.74,
     "speaker_raw": "SPEAKER_01",
@@ -121,7 +99,7 @@
     "video_url": ""
   },
   {
-    "id": "2019-11-18-011",
+    "id": "2019-11-18-009",
     "start": 56.22,
     "end": 62.63,
     "speaker_raw": "SPEAKER_00",
@@ -132,29 +110,29 @@
     "video_url": ""
   },
   {
-    "id": "2019-11-18-012",
+    "id": "2019-11-18-010",
     "start": 65.77,
     "end": 75.04,
     "speaker_raw": "SPEAKER_01",
-    "testo": "Amò, sai che ha detto Fabio Volo? Che sei scopabilissimo. Lì tutto contento. Ha avuto l'approvazione. Ascoltami, Micaela, quando sei andata? Sei andata stamattina o ieri sera?",
+    "testo": "Amò, sai che ha detto Fabio Volo? Che sei scopabilissimo, lì tutto contento, ha avuto l'approvazione. Ascoltami Micaela, quando sei andata? Sei andata stamattina o ieri sera?",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2019-11-18-013",
+    "id": "2019-11-18-011",
     "start": 76.14,
     "end": 79.52,
     "speaker_raw": "SPEAKER_00",
-    "testo": "No, no, stamattina. Ieri sera, scusami.",
+    "testo": "No, no, stamattina, ieri sera, scusami.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2019-11-18-014",
+    "id": "2019-11-18-012",
     "start": 79.54,
     "end": 81.41,
     "speaker_raw": "SPEAKER_01",
@@ -165,11 +143,33 @@
     "video_url": ""
   },
   {
-    "id": "2019-11-18-015",
+    "id": "2019-11-18-013",
     "start": 82.07,
     "end": 84.29,
     "speaker_raw": "SPEAKER_00",
-    "testo": "Che per la polizia non potevano...",
+    "testo": "che per la politica non potevano...",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2019-11-18-014",
+    "start": 84.73,
+    "end": 88.1,
+    "speaker_raw": "SPEAKER_01",
+    "testo": "Però ti hanno detto che sono passato. Però che sono passato te l'hanno detto.",
+    "titolo": "",
+    "tema": [],
+    "tipo": "",
+    "video_url": ""
+  },
+  {
+    "id": "2019-11-18-015",
+    "start": 88.3,
+    "end": 94.99,
+    "speaker_raw": "SPEAKER_00",
+    "testo": "Sì, sì, me l'hanno detto. In realtà ho pensato, mentre andavo dal treno, ma che cazzo che vado a fare? Figura di sequestro.",
     "titolo": "",
     "tema": [],
     "tipo": "",
@@ -177,28 +177,6 @@
   },
   {
     "id": "2019-11-18-016",
-    "start": 84.73,
-    "end": 88.1,
-    "speaker_raw": "SPEAKER_01",
-    "testo": "Però ti hanno detto che sono passato. Però che sono passato te l'han detto.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2019-11-18-017",
-    "start": 88.3,
-    "end": 99.77,
-    "speaker_raw": "SPEAKER_00",
-    "testo": "Sì, sì, me l'hanno detto. In realtà ho pensato, mentre andavo dal treno, ma che cazzo che vado a fare. Figura di sequestro. Allora ho pensato a queste tre forate, invece no.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2019-11-18-018",
     "start": 99.79,
     "end": 124.98,
     "speaker_raw": "SPEAKER_01",
@@ -209,51 +187,29 @@
     "video_url": ""
   },
   {
-    "id": "2019-11-18-019",
+    "id": "2019-11-18-017",
     "start": 125.46,
-    "end": 129.07,
+    "end": 131.21,
     "speaker_raw": "SPEAKER_00",
-    "testo": "Mio marito è al lavoro, ha portato i quattro figli a scuola e al lavoro.",
+    "testo": "Mio marito è al lavoro Ha portato i quattro figli a scuola e al lavoro Quattro figli?",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2019-11-18-020",
-    "start": 129.13,
-    "end": 133.81,
-    "speaker_raw": "SPEAKER_01",
-    "testo": "Quattro figli? Quindi ho ragione a dire che sei trombabilissima.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2019-11-18-021",
-    "start": 133.95,
-    "end": 136.19,
-    "speaker_raw": "SPEAKER_00",
-    "testo": "Io direi anche fertilissima.",
-    "titolo": "",
-    "tema": [],
-    "tipo": "",
-    "video_url": ""
-  },
-  {
-    "id": "2019-11-18-022",
-    "start": 136.51,
+    "id": "2019-11-18-018",
+    "start": 131.27,
     "end": 145.68,
     "speaker_raw": "SPEAKER_01",
-    "testo": "Allora, come facciamo a sapere se sei veramente tu? Ti faccio delle domande. Quando mi hai visto, hai pensato... Cavolo, è più alto di me?",
+    "testo": "Quindi ho ragione a dire che sei trombabilissima Io direi anche fertilissima Allora come facciamo a sapere se sei veramente tu? Ti faccio delle domande Quando mi hai visto, hai pensato... Cavolo, è più alto di me?",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2019-11-18-023",
+    "id": "2019-11-18-019",
     "start": 145.74,
     "end": 148.86,
     "speaker_raw": "SPEAKER_00",
@@ -264,41 +220,41 @@
     "video_url": ""
   },
   {
-    "id": "2019-11-18-024",
+    "id": "2019-11-18-020",
     "start": 148.98,
     "end": 174.84,
     "speaker_raw": "SPEAKER_01",
-    "testo": "Potresti essere tu. Poi hai pensato, ma è più bello dal vivo. Sì, è vero, più magro. Terza domanda. Dove pensate? Ci stanno pensando. Terza domanda. Ok, ce l'ho, ce l'ho, ce l'ho. Terza domanda. È un po' politicamente scorretta, si può dire. Solo al volo si può dire. Se non fossi sposata...",
+    "testo": "Potresti essere tu. Poi hai pensato, ma è più bello dal vivo. Sì, è vero, più magro. Terza domanda, terza domanda. Dove pensate? Terza domanda. Ok, ce l'ho, ce l'ho, ce l'ho. Terza domanda. È un po' politicamente scorretta, si può dire. Solo al volo si può dire. Se non fossi sposata...",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2019-11-18-025",
+    "id": "2019-11-18-021",
     "start": 174.86,
-    "end": 180.92,
+    "end": 180.72,
     "speaker_raw": "SPEAKER_00",
-    "testo": "Me lo farei affatto al bagno della hot. No! È lei! È lei!",
+    "testo": "Me lo farei affatto al bagno della ossa. No! È lei! È lei!",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2019-11-18-026",
-    "start": 181.06,
-    "end": 181.36,
+    "id": "2019-11-18-022",
+    "start": 180.8,
+    "end": 181.26,
     "speaker_raw": "SCONOSCIUTO",
-    "testo": "David!",
+    "testo": "È lei, è lei.",
     "titolo": "",
     "tema": [],
     "tipo": "",
     "video_url": ""
   },
   {
-    "id": "2019-11-18-027",
-    "start": 181.38,
+    "id": "2019-11-18-023",
+    "start": 181.28,
     "end": 182.58,
     "speaker_raw": "SPEAKER_00",
     "testo": "Il train manager.",
@@ -308,7 +264,7 @@
     "video_url": ""
   },
   {
-    "id": "2019-11-18-028",
+    "id": "2019-11-18-024",
     "start": 186.76,
     "end": 215.37,
     "speaker_raw": "SPEAKER_01",
@@ -319,7 +275,7 @@
     "video_url": ""
   },
   {
-    "id": "2019-11-18-029",
+    "id": "2019-11-18-025",
     "start": 215.88,
     "end": 217.9,
     "speaker_raw": "SPEAKER_00",
@@ -330,7 +286,7 @@
     "video_url": ""
   },
   {
-    "id": "2019-11-18-030",
+    "id": "2019-11-18-026",
     "start": 218.2,
     "end": 222.04,
     "speaker_raw": "SPEAKER_01",
@@ -341,7 +297,7 @@
     "video_url": ""
   },
   {
-    "id": "2019-11-18-031",
+    "id": "2019-11-18-027",
     "start": 222.38,
     "end": 226.07,
     "speaker_raw": "SPEAKER_00",
