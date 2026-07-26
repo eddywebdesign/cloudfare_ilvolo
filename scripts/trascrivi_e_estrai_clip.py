@@ -200,7 +200,14 @@ def _groq_chunk(testo: str) -> tuple[list[dict], str]:
             {"role": "system", "content": SYSTEM},
             {"role": "user", "content": prompt},
         ],
-        max_tokens=600,
+        # Era 600 fino al 2026-07-26: troppo poco, e in modo insidioso. Un chunk
+        # denso produce un JSON piu' lungo del tetto, la risposta viene troncata a
+        # meta' stringa, json.loads fallisce e l'INTERO chunk viene perso — quindi
+        # il parametro penalizza proprio gli episodi piu' ricchi di riferimenti e i
+        # modelli piu' bravi a trovarli. Misurato: 3 chunk persi su 245 con
+        # llama-3.1-8b-instant, di piu' con gpt-oss-120b (che ne trova di piu').
+        # Alzare non costa: si pagano i token realmente generati, non il tetto.
+        max_tokens=2000,
         temperature=0.1,
         response_format={"type": "json_object"},
     )
