@@ -40,6 +40,10 @@ SOGLIA_PROGRESSO_MIN = 15  # margine ampio: alcuni step (verifica_riferimenti_es
 
 # Nomi dei processi della pipeline di identificazione (wrapper + tutti gli step
 # che lancia_clasificacion_omv.sh invoca in sequenza) -- SOLO questi, mai altro.
+# riclassifica_frammenti.py resta in elenco pur essendo uscito dal cron il
+# 2026-07-26: se qualcuno lo lancia a mano su singole date deve comunque essere
+# sorvegliato/fermabile da qui. La sua assenza NON e' un'anomalia (questa lista
+# serve a RILEVARE processi vivi, non a pretendere che ci siano).
 PATTERN_PROCESSI = (
     "lancia_clasificacion_omv.sh",
     "estrai_riferimenti_nuovi.py",

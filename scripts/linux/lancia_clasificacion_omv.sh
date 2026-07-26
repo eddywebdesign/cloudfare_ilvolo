@@ -26,17 +26,30 @@ ts() { date --iso-8601=seconds; }
 # Aggiunto 2026-07-18: K16 gira con --skip-classify, quindi NON estrae mai i
 # riferimenti (libri/film/musica) dei nuovi episodi trascritti. Senza questo
 # passo il buco cresce di un episodio ogni volta che K16 ne finisce uno.
-# Va PRIMA di riclassifica_frammenti.py cosi' i riferimenti nuovi entrano
-# subito anche nel giro di verifica_riferimenti.py dello stesso run.
+# Dal 2026-07-26 e' il passo PRINCIPALE della pipeline: e' l'unica fonte dei
+# riferimenti culturali (libri/film/musica), e i suoi risultati entrano subito
+# nel giro di verifica esterna/verifica_riferimenti.py dello stesso run.
 echo "$(ts) Avvio estrai_riferimenti_nuovi.py..." >> "$LOG"
 python3 -u scripts/estrai_riferimenti_nuovi.py >> "$LOG" 2>&1
 rc0=$?
 echo "$(ts) estrai_riferimenti_nuovi.py terminato (exit $rc0)." >> "$LOG"
 
-echo "$(ts) Avvio riclassifica_frammenti.py..." >> "$LOG"
-python3 -u scripts/riclassifica_frammenti.py >> "$LOG" 2>&1
-rc1=$?
-echo "$(ts) riclassifica_frammenti.py terminato (exit $rc1)." >> "$LOG"
+# RIMOSSO dal giro automatico 2026-07-26 (analisi qualita' identificazione).
+# riclassifica_frammenti.py decideva cosa processare con
+# `sum(1 for f in frammenti if not f["titolo"])`: non esiste un marcatore di
+# "gia' valutato e scartato", ma lo scarto e' il comportamento NORMALE (96,4%
+# dei frammenti). Quindi ogni episodio aveva sempre frammenti senza titolo e
+# l'intero corpus rifiutato rientrava in coda ad ogni giro - misurato nel log:
+# 1794 esecuzioni su 992 date distinte, [2016-12-05] ripetuto 4 volte (34, 29,
+# 24, 24 frammenti). La coda non poteva svuotarsi per costruzione, ed era la
+# causa reale del consumo GPU continuo di Ollama.
+# Peggio: ogni ri-passaggio e' un nuovo tiro di dado sullo stesso frammento e,
+# appena il modello mette un'etichetta, `if not f["titolo"]` la rende permanente
+# - un cricchetto verso i falsi positivi (precisione misurata su campione
+# casuale: ~15-20%). I riferimenti culturali vengono ora SOLO da
+# estrai_riferimenti_nuovi.py (sopra), che lavora sulla trascrizione intera a
+# chunk e ha l'idempotenza giusta (esistenza del file), quindi converge.
+# Lo script resta nel repo per usi manuali mirati su singole date.
 
 # Aggiunto 2026-07-23 su richiesta esplicita dell'utente: OGNI riferimento_libro/
 # film/musica dentro i frammenti (appena classificato sopra, da Groq/Cerebras/Gemini/
@@ -119,12 +132,15 @@ classificati = sum(
     for x in json.loads(f.read_text(encoding='utf-8'))
     if x.get('tipo')
 )
-resultato = 'ok' if $rc1 == 0 and $rc2 == 0 else 'error'
+# Dal 2026-07-26 il segnale critico e' estrai_riferimenti_nuovi (rc0): e' il passo
+# che produce davvero i riferimenti culturali, ora che riclassifica_frammenti.py
+# e' fuori dal giro automatico. Prima si guardava rc1 (riclassifica), che non esiste piu'.
+resultato = 'ok' if $rc0 == 0 and $rc2 == 0 else 'error'
 json.dump({
     'resultado': resultato,
     'archivos_clasificados': classificati,
     'ultima_ejecucion': '$(ts)',
-    'mensaje': 'estrai_riferimenti_nuovi=$rc0 riclassifica=$rc1 verifica_esterna_frammenti=$rc1b verifica_esterna_riferimenti=$rc1c verifica_frammenti=$rc2 verifica_riferimenti=$rc3 reprocessa_riferimenti=$rc4',
+    'mensaje': 'estrai_riferimenti_nuovi=$rc0 verifica_esterna_frammenti=$rc1b verifica_esterna_riferimenti=$rc1c verifica_frammenti=$rc2 verifica_riferimenti=$rc3 reprocessa_riferimenti=$rc4 (riclassifica_frammenti: fuori dal giro dal 26/07)',
 }, open(logs_dir / 'estado_clasificacion.json', 'w', encoding='utf-8'))
 "
 echo "$(ts) estado_clasificacion.json aggiornato." >> "$LOG"
