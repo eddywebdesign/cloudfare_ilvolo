@@ -120,8 +120,14 @@ def metriche(riferimenti_dir: Path) -> dict:
 def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__,
                                      formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument("--provider", choices=["auto", "ollama", "cloud"], default="auto",
-                        help="auto = come in produzione; ollama/cloud = forza il provider per un A/B pulito")
+    parser.add_argument("--provider",
+                        choices=["auto", "ollama", "cloud", "groq", "cerebras", "gemini"],
+                        default="auto",
+                        help="auto = come in produzione; ollama/cloud = forza la famiglia; "
+                             "groq/cerebras/gemini = fissa UN solo provider (indispensabile per "
+                             "confrontare due modelli: in 'cloud' le chiamate ruotano sui tre e "
+                             "il risultato sarebbe una media, non la misura di un modello). "
+                             "Con groq si puo' scegliere il modello via ILVOLO_GROQ_MODEL.")
     parser.add_argument("--episodi", type=int, default=14, help="dimensione del campione")
     parser.add_argument("--seed", type=int, default=2026,
                         help="stesso seed = stesso campione, indispensabile per confrontare due provider")
@@ -168,6 +174,14 @@ def main() -> None:
             sys.exit("ERRORE: Ollama non raggiungibile su "
                      f"{llm_multi.OLLAMA_BASE_URL} — avvialo prima (systemctl start ollama sul K16).")
         llm_multi.provider_disponibile = lambda: "ollama"
+    elif args.provider in ("groq", "cerebras", "gemini"):
+        # Un solo provider fisso: serve a misurare UN modello, non la media di tre.
+        # Si controlla comunque il budget reale, cosi' il test si ferma da solo invece
+        # di sbattere contro una raffica di 429 (e di rubare quota al batch in corso).
+        scelto = args.provider
+        if not llm_multi.budget_disponibile(scelto):
+            sys.exit(f"ERRORE: budget {scelto} gia' esaurito per oggi, test non avviato.")
+        llm_multi.provider_disponibile = lambda: scelto
 
     provider_reale = llm_multi.provider_disponibile()
     print(f"Provider in uso: {provider_reale}", flush=True)

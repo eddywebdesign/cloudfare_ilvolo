@@ -40,7 +40,16 @@ PROVIDER_CONFIG = {
 }
 ORDINE_PROVIDER = ["groq", "cerebras", "gemini"]  # alternati per bilanciare il carico
 
-GROQ_MODEL = "llama-3.1-8b-instant"
+# Modello Groq: sovrascrivibile con ILVOLO_GROQ_MODEL per confrontare modelli
+# diversi col banco di prova (scripts/linux/test_qualita_identificazione.py) senza
+# toccare il codice. I limiti Groq sono PER MODELLO, non per account (verificato
+# nella console il 2026-07-26): llama-3.1-8b-instant 500K token/giorno,
+# openai/gpt-oss-120b 200K, qwen/qwen3.6-27b 200K, openai/gpt-oss-20b 200K —
+# usarne piu' d'uno somma le quote invece di dividerle.
+GROQ_MODEL = os.environ.get("ILVOLO_GROQ_MODEL", "llama-3.1-8b-instant")
+# I modelli "reasoning" sprecano token in ragionamento nascosto senza questo
+# vincolo (gia' verificato su Cerebras, vedi CEREBRAS_MODELLI_REASONING).
+GROQ_MODELLI_REASONING = {"openai/gpt-oss-120b", "openai/gpt-oss-20b", "openai/gpt-oss-safeguard-20b"}
 GROQ_KEY_FILE = Path.home() / "API GROQ IA.txt"
 CEREBRAS_KEY_FILE = Path.home() / "API Cerebras.txt"
 CEREBRAS_BASE_URL = "https://api.cerebras.ai/v1"
@@ -385,14 +394,44 @@ _client_cache: dict[str, object] = {}
 _model_cache: dict[str, str] = {}
 
 
+class _GroqCompletions:
+    """Involucro sottile sul client Groq ufficiale: inoltra tutto tale e quale,
+    aggiungendo `reasoning_effort="low"` per i modelli gpt-oss. Senza quel
+    parametro il modello consuma gran parte di max_tokens in ragionamento
+    nascosto e la risposta JSON arriva troncata (stesso comportamento gia'
+    verificato su Cerebras, vedi CEREBRAS_MODELLI_REASONING)."""
+
+    def __init__(self, reale):
+        self._reale = reale
+
+    def create(self, model: str, **kwargs):
+        if model in GROQ_MODELLI_REASONING:
+            kwargs["reasoning_effort"] = "low"
+        return self._reale.chat.completions.create(model=model, **kwargs)
+
+
+class _GroqChat:
+    def __init__(self, reale):
+        self.completions = _GroqCompletions(reale)
+
+
+class GroqClient:
+    """Stessa forma degli altri client (client.chat.completions.create(...))."""
+
+    def __init__(self, api_key: str):
+        self.chat = _GroqChat(Groq(api_key=api_key))
+
+
 def client_e_modello(provider: str):
     """Ritorna (client, model) per il provider richiesto, con caching (un solo
     client/una sola chiamata a /models per provider per l'intera esecuzione)."""
     if provider not in _client_cache:
         if provider == "groq":
             key = _load_key("GROQ_API_KEY", GROQ_KEY_FILE, "Groq")
-            _client_cache["groq"] = Groq(api_key=key)
+            _client_cache["groq"] = GroqClient(api_key=key)
             _model_cache["groq"] = GROQ_MODEL
+            if GROQ_MODEL != "llama-3.1-8b-instant":
+                print(f"  Groq: modello sovrascritto da ILVOLO_GROQ_MODEL -> '{GROQ_MODEL}'")
         elif provider == "cerebras":
             key = _load_key("CEREBRAS_API_KEY", CEREBRAS_KEY_FILE, "Cerebras")
             _client_cache["cerebras"] = CerebrasClient(api_key=key)
