@@ -207,7 +207,9 @@ def _groq_chunk(testo: str) -> tuple[list[dict], str]:
     if resp.usage:
         llm_multi.registra_uso(provider, resp.usage.total_tokens)
     raw = resp.choices[0].message.content.strip()
-    parsed = json.loads(raw)
+    # estrai_json (non json.loads diretto): Ollama ignora response_format=json_object
+    # e avvolge il JSON in un fence markdown in modo intermittente -- vedi llm_multi.
+    parsed = llm_multi.estrai_json(raw)
     if isinstance(parsed, dict):
         for v in parsed.values():
             if isinstance(v, list):

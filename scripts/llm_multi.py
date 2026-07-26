@@ -14,6 +14,7 @@
 
 import json
 import os
+import re
 import sys
 import time
 from datetime import date
@@ -388,3 +389,31 @@ def client_e_modello(provider: str):
         else:
             raise ValueError(f"provider sconosciuto: {provider}")
     return _client_cache[provider], _model_cache[provider]
+
+
+def estrai_json(raw: str):
+    """Parsa la risposta di un LLM che dovrebbe contenere SOLO JSON, tollerando
+    l'incapsulamento in un blocco markdown.
+
+    Serve perche' Ollama IGNORA `response_format={"type": "json_object"}` (i
+    provider cloud lo rispettano server-side, lui no): qwen2.5:14b avvolge il
+    JSON in ```json ... ``` in modo intermittente, e quando l'array risultato e'
+    vuoto aggiunge anche prosa esplicativa DOPO il fence chiuso. Un json.loads()
+    diretto fallisce con "Expecting value: line 1 column 1" e il chunk viene perso
+    in silenzio -- successo davvero il 2026-07-23, 784+ fallimenti consecutivi,
+    un batch girato a vuoto per 2h45m prima che qualcuno se ne accorgesse.
+
+    Il fix era stato applicato solo a classifica_frammenti() e MAI a
+    _groq_chunk() di trascrivi_e_estrai_clip.py: vive qui, in un posto solo,
+    perche' entrambe le pipeline lo importano gia' (la logica duplicata a mano
+    tra due file e' una causa nota di disallineamento in questo progetto).
+
+    Ritorna l'oggetto Python parsato. Solleva json.JSONDecodeError se il
+    contenuto non e' JSON nemmeno dopo l'estrazione dal fence -- il chiamante
+    gestisce gia' l'eccezione con il suo retry.
+    """
+    raw = (raw or "").strip()
+    if raw.startswith("```"):
+        m = re.search(r"```(?:json)?\s*(.*?)```", raw, re.DOTALL)
+        raw = m.group(1).strip() if m else raw.strip("`").strip()
+    return json.loads(raw)

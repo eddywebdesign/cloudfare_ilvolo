@@ -79,7 +79,9 @@ def valuta_batch(voci: list[dict]) -> list[dict]:
     if resp.usage:
         llm_multi.registra_uso(provider, resp.usage.total_tokens)
     raw = resp.choices[0].message.content.strip()
-    parsed = json.loads(raw)
+    # estrai_json, non json.loads: Ollama ignora response_format=json_object e
+    # puo' avvolgere il JSON in un fence markdown (vedi llm_multi.estrai_json).
+    parsed = llm_multi.estrai_json(raw)
     return parsed if isinstance(parsed, list) else next(
         (v for v in parsed.values() if isinstance(v, list)), []
     )
