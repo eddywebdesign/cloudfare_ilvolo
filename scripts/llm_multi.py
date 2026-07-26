@@ -407,6 +407,15 @@ class _GroqCompletions:
     def create(self, model: str, **kwargs):
         if model in GROQ_MODELLI_REASONING:
             kwargs["reasoning_effort"] = "low"
+            # Niente response_format per questa famiglia: la modalita' json_object di
+            # Groq pretende un OGGETTO al primo livello, mentre i nostri prompt
+            # chiedono un ARRAY. llama-3.1-8b-instant se la cava, gpt-oss-120b
+            # obbedisce al prompt e restituisce '[]' — che Groq respinge con
+            # 400 json_validate_failed, perdendo il chunk (verificato dal vivo il
+            # 2026-07-26). Cambiare il prompt renderebbe i risultati non piu'
+            # confrontabili con le misure gia' fatte, quindi si toglie il vincolo:
+            # llm_multi.estrai_json() gestisce gia' array, oggetti e fence markdown.
+            kwargs.pop("response_format", None)
         return self._reale.chat.completions.create(model=model, **kwargs)
 
 
