@@ -133,6 +133,11 @@ def main() -> None:
                         help="stesso seed = stesso campione, indispensabile per confrontare due provider")
     parser.add_argument("--out", default="/tmp/eval_identificazione",
                         help="cartella isolata di lavoro (MAI lo share di produzione)")
+    parser.add_argument("--pausa-chunk", type=int, default=None,
+                        help="secondi tra un chunk e l'altro (default: quello di produzione, 13s). "
+                             "Va alzato quando si fissa un modello con TPM basso: un chunk pesa "
+                             "~2700 token, quindi 13s = ~12.400 token/minuto, sopra il limite di "
+                             "8K TPM di gpt-oss-120b/qwen3.6-27b. Con 25s si scende a ~6.500/min.")
     parser.add_argument("--salta-verifica-esterna", action="store_true",
                         help="salta la verifica su Open Library/TMDB/MusicBrainz (piu' veloce, ma perdi la metrica principale)")
     args = parser.parse_args()
@@ -162,7 +167,12 @@ def main() -> None:
 
     sys.path.insert(0, str(ROOT / "scripts"))
     import llm_multi  # noqa: E402
+    import trascrivi_e_estrai_clip as tec  # noqa: E402
     from trascrivi_e_estrai_clip import estrai_riferimenti, merge_riferimenti  # noqa: E402
+
+    if args.pausa_chunk is not None:
+        tec.CHUNK_SLEEP = args.pausa_chunk
+        print(f"Pausa tra chunk: {tec.CHUNK_SLEEP}s (default produzione: 13s)", flush=True)
 
     # Forzare il provider serve a rendere il confronto un vero A/B. Si agisce sul
     # rilevamento di raggiungibilita' di Ollama, cioe' esattamente la leva che
