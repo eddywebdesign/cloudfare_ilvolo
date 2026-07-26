@@ -70,10 +70,15 @@ echo "$(ts) verifica_riferimenti_esterna.py (frammenti) terminato (exit $rc1b)."
 cp "$(dirname "$ILVOLO_DATA_DIR")/logs/frammenti_riferimenti_non_confermati.json" data/frammenti_riferimenti_non_confermati.json 2>>"$LOG"
 echo "$(ts) data/frammenti_riferimenti_non_confermati.json aggiornato per Hugo." >> "$LOG"
 
-echo "$(ts) Avvio verifica_frammenti.py..." >> "$LOG"
-python3 -u scripts/verifica_frammenti.py >> "$LOG" 2>&1
-rc2=$?
-echo "$(ts) verifica_frammenti.py terminato (exit $rc2)." >> "$LOG"
+# RIMOSSO dal giro automatico 2026-07-26, insieme a riclassifica_frammenti.py:
+# verifica_frammenti.py fa controllo qualita' LLM sul dataset data/frammenti, cioe'
+# proprio quello che abbiamo smesso di alimentare. Ogni token speso qui e' un token
+# tolto a estrai_riferimenti_nuovi.py, che ha 1103 episodi di arretrato da smaltire
+# dentro un margine giornaliero finito. In piu' era gia' noto inaffidabile: un LLM
+# debole che giudica un altro LLM debole (0 segnalazioni mentre 152 voci erano
+# rotte, vedi commento in trascrivi_locale_episodi.py).
+# La copia di frammenti_dubbi.json resta qui sotto: il report esistente va comunque
+# mostrato dal sito finche' non si decide cosa fare dello storico.
 
 # Aggiunto 2026-07-21: Hugo legge il badge "da rivedere" SOLO da
 # data/frammenti_dubbi.json (.Site.Data.frammenti_dubbi), mai da
@@ -135,12 +140,12 @@ classificati = sum(
 # Dal 2026-07-26 il segnale critico e' estrai_riferimenti_nuovi (rc0): e' il passo
 # che produce davvero i riferimenti culturali, ora che riclassifica_frammenti.py
 # e' fuori dal giro automatico. Prima si guardava rc1 (riclassifica), che non esiste piu'.
-resultato = 'ok' if $rc0 == 0 and $rc2 == 0 else 'error'
+resultato = 'ok' if $rc0 == 0 else 'error'
 json.dump({
     'resultado': resultato,
     'archivos_clasificados': classificati,
     'ultima_ejecucion': '$(ts)',
-    'mensaje': 'estrai_riferimenti_nuovi=$rc0 verifica_esterna_frammenti=$rc1b verifica_esterna_riferimenti=$rc1c verifica_frammenti=$rc2 verifica_riferimenti=$rc3 reprocessa_riferimenti=$rc4 (riclassifica_frammenti: fuori dal giro dal 26/07)',
+    'mensaje': 'estrai_riferimenti_nuovi=$rc0 verifica_esterna_frammenti=$rc1b verifica_esterna_riferimenti=$rc1c verifica_riferimenti=$rc3 reprocessa_riferimenti=$rc4 (riclassifica_frammenti e verifica_frammenti: fuori dal giro dal 26/07)',
 }, open(logs_dir / 'estado_clasificacion.json', 'w', encoding='utf-8'))
 "
 echo "$(ts) estado_clasificacion.json aggiornato." >> "$LOG"
