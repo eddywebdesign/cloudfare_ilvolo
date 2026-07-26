@@ -45,21 +45,39 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent.parent
 
+# Campione di riferimento fissato il 2026-07-26: e' quello su cui sono state fatte
+# le misure storiche (Ollama qwen2.5:14b recall 35%, cloud misto recall 88%) e su
+# cui va confrontato QUALUNQUE nuovo modello/provider, altrimenti si confrontano
+# numeri ottenuti su episodi diversi — cioe' niente.
+# Per due di questi episodi esiste un insieme di riferimento costruito a mano
+# leggendo la puntata intera: 2024-11-04 (17 opere) e 2017-11-09 (7 opere).
+CAMPIONE_STORICO = [
+    "2014-05-08", "2014-12-24", "2015-04-30", "2015-10-26", "2017-03-22",
+    "2017-11-09", "2021-05-06", "2021-05-13", "2022-01-10", "2022-11-30",
+    "2023-11-17", "2024-11-04", "2025-09-16", "2026-04-27",
+]
+
 
 def scegli_campione(trascrizioni_dir: Path, riferimenti_dir: Path,
                     n: int, seed: int) -> list[str]:
-    """Sceglie n episodi stratificati per anno tra quelli REALMENTE nel backlog:
-    trascritti ma senza riferimenti estratti. Stratificare evita di misurare la
-    qualita' su un solo periodo (il programma cambia formato negli anni) e il
-    seed fisso rende il campione ripetibile tra provider diversi."""
-    trascritti = {p.stem for p in trascrizioni_dir.glob("*.json")}
-    gia_fatti = {p.stem for p in riferimenti_dir.glob("*.json")}
-    backlog = sorted(trascritti - gia_fatti)
-    if not backlog:
+    """Sceglie n episodi stratificati per anno tra TUTTI quelli trascritti.
+
+    ⚠️ Pescava dal solo backlog (trascritti senza riferimenti) fino al 2026-07-26:
+    sbagliato, perche' il backlog si svuota mentre il recupero gira, quindi lo
+    stesso seed produceva campioni DIVERSI a poche ore di distanza. Successo
+    davvero: un confronto tra modelli e' partito su 14 episodi di cui solo 2 in
+    comune con le misure precedenti — un A/B che non misurava niente, e se ne
+    accorge solo chi guarda l'elenco stampato. Pescare da tutti i trascritti
+    rende il campione stabile nel tempo; non c'e' controindicazione perche' il
+    banco di prova lavora in una cartella isolata, dove ri-estrarre un episodio
+    che la produzione ha gia' fatto e' innocuo.
+    Per un confronto con le misure storiche usare comunque --campione storico."""
+    trascritti = sorted(p.stem for p in trascrizioni_dir.glob("*.json"))
+    if not trascritti:
         return []
 
     per_anno: dict[str, list[str]] = collections.defaultdict(list)
-    for d in backlog:
+    for d in trascritti:
         per_anno[d[:4]].append(d)
 
     rnd = random.Random(seed)
@@ -129,6 +147,10 @@ def main() -> None:
                              "il risultato sarebbe una media, non la misura di un modello). "
                              "Con groq si puo' scegliere il modello via ILVOLO_GROQ_MODEL.")
     parser.add_argument("--episodi", type=int, default=14, help="dimensione del campione")
+    parser.add_argument("--campione", default=None,
+                        help="'storico' per usare i 14 episodi su cui sono state fatte tutte le "
+                             "misure del 2026-07-26 (unico modo di confrontarsi con quei numeri), "
+                             "oppure un elenco di date separate da virgola.")
     parser.add_argument("--seed", type=int, default=2026,
                         help="stesso seed = stesso campione, indispensabile per confrontare due provider")
     parser.add_argument("--out", default="/tmp/eval_identificazione",
@@ -149,9 +171,17 @@ def main() -> None:
     trascrizioni_reali = Path(data_reale) / "trascrizioni"
     riferimenti_reali = Path(data_reale) / "riferimenti"
 
-    campione = scegli_campione(trascrizioni_reali, riferimenti_reali, args.episodi, args.seed)
+    if args.campione == "storico":
+        campione = list(CAMPIONE_STORICO)
+    elif args.campione:
+        campione = [d.strip() for d in args.campione.split(",") if d.strip()]
+    else:
+        campione = scegli_campione(trascrizioni_reali, riferimenti_reali, args.episodi, args.seed)
+    mancanti = [d for d in campione if not (trascrizioni_reali / f"{d}.json").exists()]
+    if mancanti:
+        sys.exit(f"ERRORE: trascrizioni mancanti per {mancanti} — campione non utilizzabile.")
     if not campione:
-        sys.exit("Nessun episodio nel backlog (tutti i trascritti hanno gia' i riferimenti).")
+        sys.exit("Nessun episodio trascritto disponibile.")
     print(f"Campione ({len(campione)} episodi, seed {args.seed}): {', '.join(campione)}", flush=True)
 
     out_dir = Path(args.out)
