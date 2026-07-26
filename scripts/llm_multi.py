@@ -37,7 +37,19 @@ PROVIDER_CONFIG = {
     "groq": {"tpd": 500_000, "margine": 450_000},
     "cerebras": {"tpd": 1_000_000, "margine": 900_000},
     "gemini": {"tpd": 2_000_000, "margine": 1_800_000},
+    # Mistral: il tier gratuito "Experiment" darebbe ~1 miliardo di token/mese
+    # (~33M/giorno) secondo fonti terze, ma Mistral NON pubblica i limiti esatti.
+    # Margine volutamente prudente finche' non si legge il numero vero nella
+    # console: meglio lasciare capacita' inutilizzata che sbattere sui 429.
+    "mistral": {"tpd": 2_500_000, "margine": 2_000_000},
 }
+# ⚠️ "mistral" NON e' in questa lista di proposito (2026-07-26): il codice c'e' ed e'
+# pronto, ma un provider entra nella rotazione di produzione SOLO dopo aver superato
+# il banco di prova sui 14 episodi di riferimento
+# (scripts/linux/test_qualita_identificazione.py --provider mistral --campione storico).
+# Motivo: un modello scadente non fallisce in modo visibile — nessun errore nei log, il
+# processo gira, i file si scrivono — semplicemente trova meno opere e inventa gli autori.
+# Misurato il 26/07 con Ollama: recall 35% contro 88%, e nessun log lo segnalava.
 ORDINE_PROVIDER = ["groq", "cerebras", "gemini"]  # alternati per bilanciare il carico
 
 # Modello Groq: sovrascrivibile con ILVOLO_GROQ_MODEL per confrontare modelli
@@ -56,6 +68,14 @@ CEREBRAS_BASE_URL = "https://api.cerebras.ai/v1"
 GEMINI_MODEL = "gemini-flash-lite-latest"
 GEMINI_KEY_FILE = Path.home() / "API_google_AI.txt"
 GEMINI_BASE_URL = "https://generativelanguage.googleapis.com/v1beta"
+
+# Mistral (chiave recuperata dall'utente il 2026-07-26). Modelli europei,
+# storicamente piu' solidi sull'italiano — che qui conta, il corpus e' tutto in
+# italiano e qwen sbagliava proprio sui nomi italiani. Sovrascrivibile per
+# confrontare mistral-small e mistral-large col banco di prova.
+MISTRAL_MODEL = os.environ.get("ILVOLO_MISTRAL_MODEL", "mistral-small-latest")
+MISTRAL_KEY_FILE = Path.home() / "API_Mistral.txt"
+MISTRAL_BASE_URL = "https://api.mistral.ai/v1"
 
 # Ollama locale (K16, RTX 5070) - installato 2026-07-23 come ripiego quando Groq/Cerebras/
 # Gemini sono esauriti, per smaltire l'arretrato di classificazione senza aspettare il
@@ -234,6 +254,43 @@ class _CerebrasCompletions:
             _marca_cooldown("cerebras")
         r.raise_for_status()
         return _CerebrasResponse(r.json())
+
+
+# Mistral, Cerebras e Groq parlano tutti lo schema OpenAI: la risposta ha la stessa
+# identica forma, quindi si riusa l'adattatore invece di scriverne un terzo uguale
+# (la logica duplicata a mano tra file/classi e' una causa nota di disallineamento
+# in questo progetto). Alias con un nome onesto su cosa rappresenta davvero.
+_RispostaOpenAICompat = _CerebrasResponse
+
+
+class _MistralCompletions:
+    """Client Mistral. API compatibile OpenAI, quindi stessa forma degli altri:
+    client.chat.completions.create(...)."""
+
+    def __init__(self, api_key: str):
+        self._api_key = api_key
+
+    def create(self, model: str, **kwargs):
+        payload = {"model": model, **kwargs}
+        r = requests.post(
+            f"{MISTRAL_BASE_URL}/chat/completions",
+            headers={"Authorization": f"Bearer {self._api_key}", "Content-Type": "application/json"},
+            json=payload, timeout=60,
+        )
+        if r.status_code == 429:
+            _marca_cooldown("mistral")
+        r.raise_for_status()
+        return _RispostaOpenAICompat(r.json())
+
+
+class _MistralChat:
+    def __init__(self, api_key: str):
+        self.completions = _MistralCompletions(api_key)
+
+
+class MistralClient:
+    def __init__(self, api_key: str):
+        self.chat = _MistralChat(api_key)
 
 
 class _CerebrasChat:
@@ -446,6 +503,10 @@ def client_e_modello(provider: str):
             _client_cache["cerebras"] = CerebrasClient(api_key=key)
             _model_cache["cerebras"] = modello_cerebras_migliore(key)
             print(f"  Cerebras: modello selezionato '{_model_cache['cerebras']}'")
+        elif provider == "mistral":
+            key = _load_key("MISTRAL_API_KEY", MISTRAL_KEY_FILE, "Mistral")
+            _client_cache["mistral"] = MistralClient(api_key=key)
+            _model_cache["mistral"] = MISTRAL_MODEL
         elif provider == "gemini":
             key = _load_key("GEMINI_API_KEY", GEMINI_KEY_FILE, "Gemini")
             _client_cache["gemini"] = GeminiClient(api_key=key)

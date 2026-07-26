@@ -139,7 +139,7 @@ def main() -> None:
     parser = argparse.ArgumentParser(description=__doc__,
                                      formatter_class=argparse.RawDescriptionHelpFormatter)
     parser.add_argument("--provider",
-                        choices=["auto", "ollama", "cloud", "groq", "cerebras", "gemini"],
+                        choices=["auto", "ollama", "cloud", "groq", "cerebras", "gemini", "mistral"],
                         default="auto",
                         help="auto = come in produzione; ollama/cloud = forza la famiglia; "
                              "groq/cerebras/gemini = fissa UN solo provider (indispensabile per "
@@ -214,7 +214,7 @@ def main() -> None:
             sys.exit("ERRORE: Ollama non raggiungibile su "
                      f"{llm_multi.OLLAMA_BASE_URL} — avvialo prima (systemctl start ollama sul K16).")
         llm_multi.provider_disponibile = lambda: "ollama"
-    elif args.provider in ("groq", "cerebras", "gemini"):
+    elif args.provider in ("groq", "cerebras", "gemini", "mistral"):
         # Un solo provider fisso: serve a misurare UN modello, non la media di tre.
         # Si controlla comunque il budget reale, cosi' il test si ferma da solo invece
         # di sbattere contro una raffica di 429 (e di rubare quota al batch in corso).
