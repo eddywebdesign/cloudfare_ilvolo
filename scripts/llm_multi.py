@@ -119,23 +119,42 @@ def _in_cooldown(provider: str) -> bool:
 
 
 def provider_disponibile() -> str | None:
-    """PRIMARIO: "ollama" (locale, RTX 5070) se raggiungibile — cambiato il 2026-07-23
-    dopo aver misurato dal vivo che la GPU e' all'80% inattiva durante la trascrizione
-    (20% utilizzo, 2.4/12GB VRAM, `nvidia-smi` durante whisperx in produzione) e che il
-    modello locale (qwen2.5:14b) evita 2 dei 3 bug di qualita' reali trovati oggi
-    (titolo generato da un nome storpiato, messaggio social scambiato per un'opera) —
-    la vecchia scelta "ultima risorsa" era una precauzione mai verificata con un numero
-    reale. Ollama non ha limite giornaliero, quindi elimina anche i rallentamenti da
-    rate-limit (Gemini 429) e gli STOP per budget Groq/Cerebras esauriti visti oggi.
-    Ripiega sui provider cloud in ORDINE_PROVIDER SOLO se ollama non e' raggiungibile
-    (K16 spento/irraggiungibile in rete). None solo se anche nessun cloud ha budget.
-    Esclude anche i provider ancora in COOLDOWN dopo un 429 recente (vedi _in_cooldown) —
-    non ha senso ritentare lo stesso provider saturo, si passa al successivo."""
-    if _ollama_raggiungibile():
-        return "ollama"
+    """PRIMARIO: i provider cloud (Groq/Cerebras/Gemini), quello meno usato oggi.
+
+    ⚠️ Ollama NON e' piu' il primario dal 2026-07-26, ed e' opt-in esplicito
+    (ILVOLO_USA_OLLAMA=1). La promozione del 23/07 si basava su un confronto di
+    qualita' mai fatto davvero: era stata misurata la VRAM libera, non la bonta'
+    dei risultati. Misurata il 26/07 con un A/B vero (stessi 14 episodi, stesso
+    prompt, stesso seed, harness scripts/linux/test_qualita_identificazione.py)
+    contro un insieme di riferimento costruito a mano leggendo le puntate intere:
+
+        recall Ollama (qwen2.5:14b)  35%  — autori corretti 2 su 6
+        recall cloud (groq)          88%  — autori corretti 13 su 15
+
+    Esempi reali del divario sullo stesso testo: "Smoke" -> Harvey Keitel (attore)
+    invece di Wayne Wang; "I marciapiedi di New York" -> Woody Allen invece di
+    Scorsese; "La meravigliosa vita delle api" -> "Maurizio" invece di Acinelli;
+    un verso dei The Smiths ("good times for a change") trasformato in "Good
+    Times" dei Chic. Il cloud, con lo STESSO prompt, produce Rob Reiner, Peter
+    Chelsom, Garry Marshall, Claude Debussy e Ornella Vanoni corretti.
+
+    Nessun fallback automatico su Ollama a budget cloud esaurito: e' una scelta
+    deliberata di qualita' sopra throughput. Meglio fermarsi e riprendere domani
+    (gli script gia' lo fanno, stampano "riprendera' domani") che riempire
+    l'archivio di voci con l'autore sbagliato, che poi nessuno rivede piu'.
+    Il backlog di 1103 episodi sta nel margine gratuito in ~5,3 giorni (misurato:
+    15.025 token/episodio, margine combinato 3,15M/giorno = 210 episodi/giorno).
+
+    Esclude i provider in COOLDOWN dopo un 429 recente (vedi _in_cooldown).
+    Ritorna None se nessun provider e' utilizzabile ora."""
     disponibili = [p for p in ORDINE_PROVIDER if budget_disponibile(p) and not _in_cooldown(p)]
     if disponibili:
         return min(disponibili, key=token_usati_oggi)
+    # Ultima risorsa SOLO se richiesto esplicitamente: qualita' nettamente
+    # inferiore (vedi sopra), accettabile solo per esperimenti o per compiti
+    # dove il divario non conta, mai per popolare l'archivio.
+    if os.environ.get("ILVOLO_USA_OLLAMA") == "1" and _ollama_raggiungibile():
+        return "ollama"
     return None
 
 

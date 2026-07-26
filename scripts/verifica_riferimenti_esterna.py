@@ -185,9 +185,42 @@ def verifica_libro(titolo: str, autore: str) -> tuple[float, str, str]:
 TMDB_IMG_BASE = "https://image.tmdb.org/t/p/w200"
 
 
+def _tmdb_registi(movie_id: int, tmdb_key: str) -> list[str]:
+    """Registi di un film TMDB. Serve una chiamata separata a /credits: l'endpoint
+    di ricerca non restituisce i crediti, ed e' esattamente il motivo per cui fino
+    al 2026-07-26 verifica_film() non poteva controllare l'autore (vedi sotto)."""
+    try:
+        resp = requests.get(
+            f"https://api.themoviedb.org/3/movie/{movie_id}/credits",
+            params={"api_key": tmdb_key},
+            timeout=10,
+        )
+        resp.raise_for_status()
+        crew = resp.json().get("crew", [])
+    except Exception:
+        return []
+    return [c.get("name", "") for c in crew if c.get("job") == "Director"]
+
+
 def verifica_film(titolo: str, autore: str, tmdb_key: str) -> tuple[float, str, str]:
-    """Cerca su TMDB, ritorna (similarita' massima, descrizione del match,
-    URL locandina o '' se il match migliore non ne ha una)."""
+    """Cerca su TMDB, ritorna (punteggio, descrizione del match, URL locandina).
+
+    ⚠️ BUG CORRETTO 2026-07-26: questa funzione riceveva `autore` e NON LO USAVA MAI
+    — confrontava solo il titolo. Era l'unica delle tre (libro/film/musica) a farlo,
+    quindi qualunque regista inventato dal modello veniva promosso a "confermato"
+    purche' il titolo esistesse su TMDB. Casi reali trovati nel campione del 26/07:
+    "Smoke" -> Harvey Keitel (e' l'ATTORE, il regista e' Wayne Wang), "I marciapiedi
+    di New York" -> Woody Allen (e' Scorsese), "Mamma ho perso l'aereo" -> Robert
+    Zemeckis e poi Mamoru Hosoda (e' Chris Columbus), "Una poltrona per due" ->
+    Jerry Lewis (e' John Landis): tutti e cinque "confermati".
+    Conseguenza grave: il 94% di conferma della categoria film era una misura vuota
+    (diceva solo "il titolo esiste"), e su quella misura si stavano prendendo
+    decisioni sulla qualita' dell'intera pipeline.
+
+    Ora applica la STESSA logica gia' collaudata in verifica_libro/verifica_musica:
+    punteggio combinato titolo 70% + autore 30%, declassamento esplicito quando il
+    titolo e' certo ma nessun regista somiglia a quello proposto, e giudizio sul
+    solo titolo quando l'autore non e' mai stato estratto."""
     try:
         resp = requests.get(
             "https://api.themoviedb.org/3/search/movie",
@@ -198,15 +231,50 @@ def verifica_film(titolo: str, autore: str, tmdb_key: str) -> tuple[float, str, 
         risultati = resp.json().get("results", [])
     except Exception as e:
         return -1.0, f"errore rete: {e}", ""
-    migliore = (0.0, "", "")
+
+    # Prima passata sui soli titoli: identifica i candidati migliori senza spendere
+    # una chiamata /credits per ognuno (TMDB non ha un limite stretto, ma cinque
+    # chiamate extra per voce su migliaia di voci sono tempo reale sprecato).
+    candidati = []
     for r in risultati[:5]:
-        for campo in ("title", "original_title"):
-            sim = _similarita(titolo, r.get(campo, ""))
-            if sim > migliore[0]:
-                anno = (r.get("release_date") or "")[:4]
-                poster = r.get("poster_path")
-                cover_url = f"{TMDB_IMG_BASE}{poster}" if poster else ""
-                migliore = (sim, f"{r.get('title')} ({anno})", cover_url)
+        sim_titolo = max(_similarita(titolo, r.get(campo, "")) for campo in ("title", "original_title"))
+        candidati.append((sim_titolo, r))
+    candidati.sort(key=lambda c: c[0], reverse=True)
+
+    migliore = (0.0, "", "")
+    titolo_certo_ma_autore_estraneo = False
+    miglior_sim_titolo = candidati[0][0] if candidati else 0.0
+
+    for sim_titolo, r in candidati[:3]:
+        registi = _tmdb_registi(r.get("id"), tmdb_key) if autore else []
+        sim_autore = max((_similarita_autore(autore, d) for d in registi), default=0.0)
+        if autore and sim_titolo >= SOGLIA_TITOLO_CERTO and sim_autore < SOGLIA_AUTORE_ESTRANEO:
+            titolo_certo_ma_autore_estraneo = True
+        punteggio = sim_titolo * 0.7 + sim_autore * 0.3 if autore else sim_titolo
+        if punteggio > migliore[0]:
+            anno = (r.get("release_date") or "")[:4]
+            poster = r.get("poster_path")
+            cover_url = f"{TMDB_IMG_BASE}{poster}" if poster else ""
+            desc = f"{r.get('title')} ({anno})"
+            if registi:
+                desc += f" — regia: {', '.join(registi[:2])}"
+            migliore = (punteggio, desc, cover_url)
+
+    if titolo_certo_ma_autore_estraneo and migliore[0] < SOGLIA_ALTA:
+        return (
+            min(migliore[0], SOGLIA_BASSA - 0.01),
+            migliore[1] + f" [titolo reale ma nessun regista somiglia a {autore!r}: "
+                          "attribuzione probabilmente sbagliata]",
+            migliore[2],
+        )
+    if not autore and risultati:
+        # Autore mai estratto (non sbagliato, assente): giudicare solo sul titolo,
+        # stesso principio di verifica_libro/verifica_musica.
+        if miglior_sim_titolo >= SOGLIA_TITOLO_SENZA_AUTORE:
+            return (max(migliore[0], SOGLIA_ALTA + 0.01),
+                    migliore[1] + " [confermato solo per titolo, autore mai estratto]", migliore[2])
+        return (min(migliore[0], SOGLIA_BASSA - 0.01),
+                migliore[1] + " [titolo non abbastanza simile, probabile rumore di chiacchiera]", migliore[2])
     return migliore
 
 
