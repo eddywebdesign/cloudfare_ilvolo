@@ -307,7 +307,16 @@ class CerebrasClient:
 
 def modello_cerebras_migliore(api_key: str) -> str:
     """Interroga il catalogo modelli Cerebras e sceglie il primo disponibile in
-    ordine di preferenza. Il catalogo cambia nel tempo, non va hardcodato un solo nome."""
+    ordine di preferenza. Il catalogo cambia nel tempo, non va hardcodato un solo nome.
+
+    ILVOLO_CEREBRAS_MODEL forza un modello preciso, come gia' fanno ILVOLO_GROQ_MODEL
+    e ILVOLO_MISTRAL_MODEL: senza questa leva il banco di prova non puo' misurare un
+    modello Cerebras specifico (la scelta automatica renderebbe il confronto una
+    lotteria del catalogo). Il nome forzato NON viene validato contro il catalogo:
+    un nome sbagliato si manifesta come errore alla prima chiamata, non qui."""
+    forzato = os.environ.get("ILVOLO_CEREBRAS_MODEL")
+    if forzato:
+        return forzato
     try:
         r = requests.get(f"{CEREBRAS_BASE_URL}/models",
                           headers={"Authorization": f"Bearer {api_key}"}, timeout=15)

@@ -1,0 +1,56 @@
+{
+  "_documentazione": {
+    "cos_e": "Configurazione che esiste SOLO per la fase di test dei modelli (2026-07-27). Viene letta unicamente da scripts/linux/test_qualita_identificazione.py: nessuno script di produzione la importa, quindi a fine campagna non c'e' niente da ricordarsi di rimuovere. Se questo file sparisce, il banco funziona lo stesso, semplicemente senza tetto.",
+    "perche_non_dentro_llm_multi": "Un 'margine_test' dentro PROVIDER_CONFIG avrebbe richiesto di ricordarsi di toglierlo prima di tornare in produzione — esattamente il tipo di residuo che in questo progetto ha gia' causato danni (flag --forza rimasto nei parametri salvati del watchdog). Il tetto vive fuori dalla produzione, per costruzione.",
+    "tetto_token_per_run": "Tetto per SINGOLA esecuzione del banco. 150.000 = circa 1,5 volte il costo del campione da 8 episodi (~100.000 token): lascia margine per qualche chunk ritentato, non per una campagna intera. Se un run lo supera, si ferma in modo ordinato dichiarando quanti episodi ha completato, invece di sbattere sui 429.",
+    "pausa_chunk": "Secondi tra un chunk e l'altro. CHUNK_SLEEP di produzione e' 13s: con chunk da ~2.700 token sono ~12.400 token/minuto, sopra il limite di 8K TPM dei modelli gpt-oss. Per quelli serve 25s (~6.500/minuto). Non e' una variabile di qualita': serve solo a non farsi rifiutare le chiamate.",
+    "regola_della_campagna": "Si muove SOLO il modello. Prompt, CHUNK_SIZE, max_tokens, soglie di conferma e guardrail restano identici per tutti i run, altrimenti il confronto non misura piu' il modello ma la somma dei cambiamenti."
+  },
+
+  "tetto_token_per_run": 150000,
+
+  "modelli": [
+    {
+      "provider": "groq",
+      "modello": "llama-3.1-8b-instant",
+      "quota_giorno": 500000,
+      "pausa_chunk": 13,
+      "nota": "Il modello attualmente in produzione: e' il termine di paragone, non un candidato qualsiasi."
+    },
+    {
+      "provider": "groq",
+      "modello": "openai/gpt-oss-120b",
+      "quota_giorno": 200000,
+      "pausa_chunk": 25,
+      "nota": "Il 26/07 e' stato l'unico ad attribuire 'I've Got You Under My Skin' a Cole Porter (il compositore reale) dove gli altri dicevano Bono. Mai riprovato dopo il fix di max_tokens 600->2000, che penalizzava proprio i modelli migliori troncandone le risposte piu' lunghe."
+    },
+    {
+      "provider": "cerebras",
+      "modello": "llama-3.3-70b",
+      "quota_giorno": 1000000,
+      "pausa_chunk": 13,
+      "nota": "Primo della lista CEREBRAS_MODELLI_PREFERITI, quindi quello che la produzione sceglie oggi da sola."
+    },
+    {
+      "provider": "cerebras",
+      "modello": "gpt-oss-120b",
+      "quota_giorno": 1000000,
+      "pausa_chunk": 25,
+      "nota": "Stesso modello del secondo in lista ma su Cerebras, dove la quota e' 5 volte piu' alta che su Groq: se vince, e' anche sostenibile per il batch."
+    },
+    {
+      "provider": "gemini",
+      "modello": "gemini-flash-lite-latest",
+      "quota_giorno": 2000000,
+      "pausa_chunk": 13,
+      "nota": "Quota piu' alta tra i provider gia' in produzione."
+    },
+    {
+      "provider": "mistral",
+      "modello": "mistral-small-latest",
+      "quota_giorno": 2500000,
+      "pausa_chunk": 13,
+      "nota": "Mai misurato su questo compito. Modello europeo, storicamente piu' solido sull'italiano — che qui conta: il corpus e' tutto in italiano e qwen sbagliava proprio sui nomi italiani."
+    }
+  ]
+}

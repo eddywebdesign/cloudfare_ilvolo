@@ -41,6 +41,7 @@ import shutil
 import subprocess
 import sys
 import time
+from datetime import date
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent.parent
@@ -55,6 +56,27 @@ CAMPIONE_STORICO = [
     "2014-05-08", "2014-12-24", "2015-04-30", "2015-10-26", "2017-03-22",
     "2017-11-09", "2021-05-06", "2021-05-13", "2022-01-10", "2022-11-30",
     "2023-11-17", "2024-11-04", "2025-09-16", "2026-04-27",
+]
+
+# Campione per il CONFRONTO TRA MODELLI (2026-07-27). Piu' piccolo dello storico per
+# una ragione precisa: un episodio (~25.000 caratteri) costa 5 chunk da CHUNK_SIZE=6000,
+# cioe' ~15.000 token. I 14 storici costano ~210.000 token a giro, SOPRA la quota
+# giornaliera dei modelli Groq da 200K (gpt-oss-120b, qwen3.6-27b): con quel campione
+# quei modelli non arriverebbero in fondo, e un confronto interrotto a meta' non e' un
+# confronto. Questi 8 costano ~100.000 token, sotto la quota di OGNI modello in gara.
+#
+# La composizione non e' casuale: 5 episodi su 8 hanno un ground truth letto a mano
+# (vedi insieme_riferimento.json), cosi' la recall e' misurabile su 37 opere reali
+# invece che sulle 24 di prima.
+CAMPIONE_MODELLI = [
+    "2014-12-24",  # ground truth 10 opere, puntata densa (6 chunk)
+    "2015-04-30",  # epoca 2015, gia' estratto in produzione (8 voci): confronto diretto
+    "2015-10-06",  # ground truth 7 opere, ma in produzione e' a ZERO voci: prova del recupero
+    "2017-11-09",  # ground truth 7 opere, in produzione a ZERO voci
+    "2021-05-13",  # ground truth 1 opera sola: misura i FALSI POSITIVI, non la recall
+    "2021-10-04",  # riferimenti noti come persi: Miami Vice, Dirty Dancing
+    "2021-10-11",  # riferimento noto come perso: Flaubert
+    "2024-11-04",  # ground truth 17 opere, il piu' ricco che abbiamo
 ]
 
 
@@ -138,6 +160,26 @@ def metriche(riferimenti_dir: Path, solo: set | None = None) -> dict:
 
 
 INSIEME_RIFERIMENTO = Path(__file__).resolve().parent / "insieme_riferimento.json"
+CONFIG_BANCO = Path(__file__).resolve().parent / "config_banco_prova.json"
+
+
+def carica_config_banco() -> dict:
+    """Configurazione che esiste SOLO per la fase di test (tetto di budget, elenco
+    modelli, pausa per modello). Nessuno script di produzione la legge: se il file
+    manca, il banco funziona senza tetto e non c'e' niente da rimuovere a fine
+    campagna. E' la ragione per cui il tetto NON e' stato messo dentro
+    PROVIDER_CONFIG di llm_multi.py."""
+    if not CONFIG_BANCO.exists():
+        return {}
+    return json.loads(CONFIG_BANCO.read_text(encoding="utf-8"))
+
+
+def config_modello(config: dict, provider: str, modello: str) -> dict:
+    """Voce di configurazione per la coppia provider+modello in uso, se elencata."""
+    for m in config.get("modelli", []):
+        if m.get("provider") == provider and m.get("modello") == modello:
+            return m
+    return {}
 
 
 def carica_insieme_riferimento() -> dict:
@@ -246,6 +288,105 @@ def misura_ancoraggio(riferimenti_dir: Path, trascrizioni_dir: Path,
             "quota": (ancorate / tot) if tot else None}
 
 
+def nome_modello_in_uso(llm_multi, provider: str) -> str:
+    """Nome del modello che il provider usera' davvero in questo run.
+
+    Serve perche' i risultati vanno archiviati per MODELLO, non per provider: su Groq
+    i limiti sono per modello, e due modelli dello stesso provider danno risultati
+    molto diversi sullo stesso campione — che e' precisamente cio' che si vuole
+    misurare. Per Cerebras il modello non e' una costante: viene scelto interrogando
+    il catalogo, quindi si chiede a lui."""
+    if provider == "groq":
+        return llm_multi.GROQ_MODEL
+    if provider == "mistral":
+        return llm_multi.MISTRAL_MODEL
+    if provider == "gemini":
+        return llm_multi.GEMINI_MODEL
+    if provider == "ollama":
+        return llm_multi.OLLAMA_MODEL
+    if provider == "cerebras":
+        try:
+            return llm_multi.modello_cerebras_migliore(
+                llm_multi._load_key("CEREBRAS_API_KEY", llm_multi.CEREBRAS_KEY_FILE, "Cerebras"))
+        except Exception:
+            return "cerebras-sconosciuto"
+    return "?"
+
+
+def salva_risultato(cartella: Path, provider: str, modello: str, campione: list[str],
+                    misure: dict, durata: float, falliti: list, fermato: tuple | None) -> Path:
+    """Archivia il risultato di UN run in un file per provider+modello.
+
+    Prima di questo il banco stampava e basta: due run erano confrontabili solo a
+    memoria, e con sei modelli in gara non e' praticabile. Il nome del file contiene
+    modello e data, cosi' rilanciare lo stesso modello un altro giorno non sovrascrive
+    la misura precedente."""
+    cartella.mkdir(parents=True, exist_ok=True)
+    m, rec, anc = misure["metriche"], misure["recall"], misure["ancoraggio"]
+    nome = f"{date.today()}_{provider}_{modello.replace('/', '-')}.json"
+    dati = {
+        "provider": provider, "modello": modello, "data": str(date.today()),
+        "campione": campione,
+        "recall": rec["recall"], "recall_trovate": rec["trovate"], "recall_attese": rec["attese"],
+        "recall_per_episodio": rec["per_episodio"],
+        "opere_mancate": [o["titolo"] for o, _ in rec["mancate"]],
+        "ancoraggio": anc["quota"], "voci_non_ancorate": len(anc["non_ancorate"]),
+        "voci_totali": m["tot"], "confermate_db": m["conf"],
+        "per_categoria": {k: v for k, v in m["per_cat"].items()},
+        "secondi_totali": round(durata, 1),
+        "episodi_falliti": falliti,
+        "fermato_dal_tetto": fermato,
+        "voci": [{"episodio": v[0], "categoria": v[1], "titolo": v[2],
+                  "autore": v[3], "confermata": v[4]} for v in m["voci"]],
+    }
+    fp = cartella / nome
+    fp.write_text(json.dumps(dati, ensure_ascii=False, indent=1), encoding="utf-8")
+    return fp
+
+
+def stampa_confronto(cartella: Path) -> None:
+    """Tabella comparativa di tutti i run archiviati. Il numero dice quale modello
+    vince; NON dice se le voci hanno senso — per quello va letto l'elenco voci dei
+    primi classificati, che e' salvato dentro ogni file."""
+    files = sorted(cartella.glob("*.json")) if cartella.exists() else []
+    if not files:
+        print(f"Nessun risultato in {cartella}. Lancia prima almeno un run del banco.")
+        return
+    righe = []
+    for fp in files:
+        d = json.loads(fp.read_text(encoding="utf-8"))
+        n_ep = len(d.get("campione") or []) or 1
+        righe.append(d)
+    # Ordinamento per recall: e' la misura che il progetto non ha mai avuto e la sola
+    # che dice quante opere reali sfuggono. A parita', vince chi ancora meglio al testo.
+    righe.sort(key=lambda d: (d.get("recall") or 0, d.get("ancoraggio") or 0), reverse=True)
+
+    print("=" * 100)
+    print(f"{'provider':10s} {'modello':26s} {'recall':>12s} {'ancor.':>7s} {'conf.DB':>8s} "
+          f"{'voci/ep':>8s} {'s/ep':>6s}  data")
+    print("=" * 100)
+    for d in righe:
+        n_ep = len(d.get("campione") or []) or 1
+        rec = d.get("recall")
+        rec_txt = f"{100*rec:.0f}% ({d['recall_trovate']}/{d['recall_attese']})" if rec is not None else "n/d"
+        anc = d.get("ancoraggio")
+        anc_txt = f"{100*anc:.0f}%" if anc is not None else "n/d"
+        conf = d.get("confermate_db", 0)
+        tot = d.get("voci_totali", 0)
+        conf_txt = f"{100*conf/tot:.0f}%" if tot else "n/d"
+        print(f"{d['provider']:10s} {d['modello'][:26]:26s} {rec_txt:>12s} {anc_txt:>7s} "
+              f"{conf_txt:>8s} {tot/n_ep:>8.1f} {d.get('secondi_totali',0)/n_ep:>6.0f}  {d['data']}")
+        if d.get("fermato_dal_tetto"):
+            print(f"           ^ run INCOMPLETO: fermato dal tetto dopo "
+                  f"{d['fermato_dal_tetto'][0]} episodi — non confrontabile alla pari")
+        if d.get("episodi_falliti"):
+            print(f"           ^ {len(d['episodi_falliti'])} episodi falliti/incompleti, esclusi dalla misura")
+    print("=" * 100)
+    print("recall = quante opere reali ritrovate (ground truth letto a mano)")
+    print("ancor. = quante voci prodotte sono davvero citate nel testo dell'episodio")
+    print("conf.DB = quante esistono come opera nei database esterni (NON dice che siano pertinenti)")
+
+
 def stampa_misure(riferimenti_dir: Path, trascrizioni_dir: Path, campione: list[str],
                   ground_truth: dict, seed: int, etichetta: str) -> dict:
     """Stampa le TRE misure che insieme descrivono la qualita', e le ritorna.
@@ -323,9 +464,11 @@ def main() -> None:
                              "Con groq si puo' scegliere il modello via ILVOLO_GROQ_MODEL.")
     parser.add_argument("--episodi", type=int, default=14, help="dimensione del campione")
     parser.add_argument("--campione", default=None,
-                        help="'storico' per usare i 14 episodi su cui sono state fatte tutte le "
-                             "misure del 2026-07-26 (unico modo di confrontarsi con quei numeri), "
-                             "oppure un elenco di date separate da virgola.")
+                        help="'modelli' per gli 8 episodi del confronto tra modelli (~100K token, "
+                             "sotto la quota di ogni modello, 5 con ground truth); 'storico' per i "
+                             "14 su cui sono state fatte le misure del 2026-07-26 (~210K token, "
+                             "unico modo di confrontarsi con quei numeri); oppure un elenco di "
+                             "date separate da virgola.")
     parser.add_argument("--seed", type=int, default=2026,
                         help="stesso seed = stesso campione, indispensabile per confrontare due provider")
     parser.add_argument("--out", default="/tmp/eval_identificazione",
@@ -337,6 +480,13 @@ def main() -> None:
                              "8K TPM di gpt-oss-120b/qwen3.6-27b. Con 25s si scende a ~6.500/min.")
     parser.add_argument("--salta-verifica-esterna", action="store_true",
                         help="salta la verifica su Open Library/TMDB/MusicBrainz (piu' veloce, ma perdi la metrica principale)")
+    parser.add_argument("--tetto", type=int, default=None,
+                        help="sovrascrive tetto_token_per_run della configurazione. Serve anche a "
+                             "verificare il meccanismo senza spendere: con un valore molto basso "
+                             "il run si ferma prima del primo episodio, a consumo zero.")
+    parser.add_argument("--confronta", action="store_true",
+                        help="non esegue nulla: legge i risultati gia' archiviati in "
+                             "logs/banco_prova/ e stampa la tabella comparativa dei modelli.")
     parser.add_argument("--solo-misura", action="store_true",
                         help="NON estrae nulla: misura i riferimenti gia' presenti in PRODUZIONE "
                              "per gli episodi del campione. Costo zero (nessuna chiamata LLM, "
@@ -345,6 +495,14 @@ def main() -> None:
                              "riconfrontarlo dopo.")
     args = parser.parse_args()
 
+    config_banco = carica_config_banco()
+    cartella_risultati = Path(os.environ.get(
+        "ILVOLO_LOGS_DIR", str(ROOT / "logs"))) / "banco_prova"
+
+    if args.confronta:
+        stampa_confronto(cartella_risultati)
+        return
+
     data_reale = os.environ.get("ILVOLO_DATA_DIR")
     if not data_reale:
         sys.exit("ERRORE: ILVOLO_DATA_DIR non impostata. Esportala come fa il cron "
@@ -352,7 +510,9 @@ def main() -> None:
     trascrizioni_reali = Path(data_reale) / "trascrizioni"
     riferimenti_reali = Path(data_reale) / "riferimenti"
 
-    if args.campione == "storico":
+    if args.campione == "modelli":
+        campione = list(CAMPIONE_MODELLI)
+    elif args.campione == "storico":
         campione = list(CAMPIONE_STORICO)
     elif args.campione:
         campione = [d.strip() for d in args.campione.split(",") if d.strip()]
@@ -423,13 +583,47 @@ def main() -> None:
         llm_multi.provider_disponibile = lambda: scelto
 
     provider_reale = llm_multi.provider_disponibile()
-    print(f"Provider in uso: {provider_reale}", flush=True)
     if provider_reale is None:
         sys.exit("ERRORE: nessun provider disponibile (budget cloud esaurito e Ollama spento).")
 
+    # Quale MODELLO sta davvero girando: senza questo, due run dello stesso provider
+    # con modelli diversi sarebbero indistinguibili nei risultati salvati — ed e'
+    # esattamente il confronto che questa campagna deve fare.
+    modello_reale = nome_modello_in_uso(llm_multi, provider_reale)
+    print(f"Provider in uso: {provider_reale} — modello: {modello_reale}", flush=True)
+
+    # La pausa tra chunk dipende dal MODELLO (i TPM sono per modello, non per account):
+    # 13s vanno bene per llama-3.1-8b, sono troppo pochi per gpt-oss-120b (8K TPM).
+    # L'opzione da riga di comando, se passata, vince sulla configurazione.
+    cfg_mod = config_modello(config_banco, provider_reale, modello_reale)
+    if args.pausa_chunk is None and cfg_mod.get("pausa_chunk"):
+        tec.CHUNK_SLEEP = cfg_mod["pausa_chunk"]
+        print(f"Pausa tra chunk: {tec.CHUNK_SLEEP}s (da {CONFIG_BANCO.name}, "
+              f"limite TPM di questo modello)", flush=True)
+
+    # Tetto di budget della fase di test: si misura il consumo REALE dall'inizio del
+    # run (delta sul contatore di llm_multi, non una stima) e ci si ferma prima di
+    # sforare, invece di scoprirlo con una raffica di 429. Vive qui e non in
+    # llm_multi.py di proposito: la produzione non deve nemmeno sapere che esiste.
+    tetto = args.tetto if args.tetto is not None else config_banco.get("tetto_token_per_run")
+    token_iniziali = llm_multi.token_usati_oggi(provider_reale) if tetto else 0
+    if tetto:
+        print(f"Tetto di questo run: {tetto:,} token (da {CONFIG_BANCO.name})", flush=True)
+
     t0 = time.time()
     falliti = []
+    fermato_dal_tetto = None
     for i, data_str in enumerate(campione, 1):
+        if tetto:
+            consumati = llm_multi.token_usati_oggi(provider_reale) - token_iniziali
+            # Costo tipico di un episodio, misurato in produzione il 26/07 su 1124
+            # episodi reali: si usa per decidere se il PROSSIMO episodio ci sta,
+            # non per stimare quello gia' fatto (quello e' letto dal contatore vero).
+            if consumati + 15_000 > tetto:
+                fermato_dal_tetto = (i - 1, consumati)
+                print(f"\nTETTO RAGGIUNTO: {consumati:,} token consumati, il prossimo episodio "
+                      f"sforerebbe {tetto:,}. Mi fermo dopo {i-1}/{len(campione)} episodi.", flush=True)
+                break
         d = json.loads((data_iso / "trascrizioni" / f"{data_str}.json").read_text(encoding="utf-8"))
         segs = d.get("segments", [])
         if not segs:
@@ -465,13 +659,28 @@ def main() -> None:
         )
 
     n_ep = len(campione)
-    stampa_misure(data_iso / "riferimenti", data_iso / "trascrizioni", campione,
-                  ground_truth, args.seed,
-                  etichetta=f"provider={provider_reale}, seed={args.seed}")
+    misure = stampa_misure(data_iso / "riferimenti", data_iso / "trascrizioni", campione,
+                           ground_truth, args.seed,
+                           etichetta=f"{provider_reale} / {modello_reale}")
     print(f"\n  tempo estrazione       : {durata_estrazione:.0f}s  "
           f"({durata_estrazione/max(n_ep,1):.0f}s per episodio)", flush=True)
     if falliti:
         print(f"  EPISODI FALLITI        : {len(falliti)} -> {falliti}", flush=True)
+
+    # Un run che non ha elaborato nemmeno un episodio (tetto scattato subito, budget
+    # gia' esaurito, provider irraggiungibile) NON va archiviato: finirebbe nella
+    # tabella comparativa come un modello con recall 0%, cioe' una calunnia verso un
+    # modello che non ha mai avuto la possibilita' di rispondere. Trovato provando il
+    # tetto dal vivo, non ipotizzato.
+    if fermato_dal_tetto and fermato_dal_tetto[0] == 0:
+        print("\n  RUN NON ARCHIVIATO: zero episodi elaborati, non e' una misura del modello.",
+              flush=True)
+    else:
+        fp = salva_risultato(cartella_risultati, provider_reale, modello_reale, campione,
+                             misure, durata_estrazione, falliti, fermato_dal_tetto)
+        print(f"\n  risultato archiviato in: {fp}", flush=True)
+        print("  confronto con gli altri modelli: "
+              "python3 scripts/linux/test_qualita_identificazione.py --confronta", flush=True)
 
     print("\nBaseline storico (cloud, 982 episodi): 5,0 voci/episodio, 49% confermate.", flush=True)
     print("Confrontare SEMPRE con il baseline preso prima della modifica:", flush=True)

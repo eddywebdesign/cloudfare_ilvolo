@@ -4,7 +4,8 @@
     "come_e_stato_costruito": "2026-07-26: lettura integrale della trascrizione di ogni episodio elencato, annotando ogni opera (libro/film/musica) realmente citata o trasmessa. 2026-07-27: aggiunti i 3 riferimenti persi trovati rileggendo per intero 2021-10-04 e 2021-10-11.",
     "regola_per_estenderlo": "Un episodio entra qui SOLO dopo essere stato letto per intero da un umano. Mai popolare questo file con l'output della pipeline: diventerebbe un test che misura se stesso, lo stesso errore circolare della '% confermate su database' (vedi project_classificazione_qualita in memoria).",
     "campo_autore": "Vuoto quando l'autore non e' verificato con certezza. Un autore sbagliato qui e' peggio che nessun autore: renderebbe 'giusta' un'identificazione sbagliata.",
-    "errore_gia_commesso": "Nel primo giro 'I marciapiedi di New York' era stato attribuito a Scorsese: e' il titolo italiano di Sidewalks of New York di Edward Burns. Anche il ground truth va verificato, non e' infallibile per il fatto di essere umano."
+    "errore_gia_commesso": "Nel primo giro 'I marciapiedi di New York' era stato attribuito a Scorsese: e' il titolo italiano di Sidewalks of New York di Edward Burns. Anche il ground truth va verificato, non e' infallibile per il fatto di essere umano.",
+    "campo_marginali": "Opere sfiorate ma NON conteggiate nel denominatore: nomi di autore/regista senza un'opera precisa (\"i film di Hitchcock\"), programmi TV che non sono opere catalogabili, brani trasmessi che non sono identificabili con certezza dal solo testo trascritto. Sono elencate per documentare cosa e' stato visto e scartato, cosi' una loro comparsa nell'output non viene giudicata errore, ma nemmeno pretesa."
   },
   "episodi": {
     "2024-11-04": {
@@ -56,6 +57,59 @@
       "_nota": "Come sopra: solo il riferimento perso e verificato a mano.",
       "opere": [
         {"categoria": "libro", "titolo": "Flaubert", "autore": "Gustave Flaubert"}
+      ]
+    },
+    "2015-10-06": {
+      "letto_per_intero_il": "2026-07-27",
+      "_nota": "Episodio finito a ZERO voci in produzione pur avendo 25.419 caratteri di trascrizione (vedi project_episodi_zero_voci). Letto integralmente: contiene 7 opere certe. Serve sia da ground truth sia da prova che il recupero funziona davvero.",
+      "opere": [
+        {"categoria": "libro", "titolo": "Cinquanta sfumature di grigio", "autore": "E. L. James"},
+        {"categoria": "libro", "titolo": "Anna", "autore": "Niccolo' Ammaniti"},
+        {"categoria": "film", "titolo": "Due uomini e mezzo", "autore": ""},
+        {"categoria": "film", "titolo": "Grey's Anatomy", "autore": ""},
+        {"categoria": "film", "titolo": "Mamma ho perso l'aereo", "autore": "Chris Columbus"},
+        {"categoria": "musica", "titolo": "Locked Away", "autore": "R. City"},
+        {"categoria": "musica", "titolo": "Chasing Cars", "autore": "Snow Patrol"}
+      ],
+      "marginali": [
+        "Rambo 1 / Rambo 2 (nominati solo come esempio di come si chiamano i sequel)",
+        "brano brasiliano trasmesso, testo in portoghese non identificabile con certezza",
+        "canzone italiana trasmessa ('stai attenta... questa stanza'), non identificata con certezza",
+        "Michael Jackson, Drew Barrymore, Macaulay Culkin, Charlie Sheen: persone, non opere"
+      ]
+    },
+    "2014-12-24": {
+      "letto_per_intero_il": "2026-07-27",
+      "_nota": "Puntata della vigilia, 31.231 caratteri, molto densa di riferimenti: buon banco per la recall. In produzione ne risultano 7, di cui 2 confermate.",
+      "opere": [
+        {"categoria": "film", "titolo": "Mamma ho perso l'aereo", "autore": "Chris Columbus"},
+        {"categoria": "film", "titolo": "Una poltrona per due", "autore": "John Landis"},
+        {"categoria": "film", "titolo": "SOS Fantasmi", "autore": "Richard Donner"},
+        {"categoria": "film", "titolo": "Breaking Bad", "autore": "Vince Gilligan"},
+        {"categoria": "film", "titolo": "Ai confini della realta'", "autore": "Rod Serling"},
+        {"categoria": "film", "titolo": "Don Camillo", "autore": ""},
+        {"categoria": "libro", "titolo": "In nome della madre", "autore": "Erri De Luca"},
+        {"categoria": "musica", "titolo": "Come Rain or Come Shine", "autore": "Ray Charles"},
+        {"categoria": "musica", "titolo": "29 settembre", "autore": "Lucio Battisti"},
+        {"categoria": "musica", "titolo": "Chiodo scaccia chiodo", "autore": ""}
+      ],
+      "marginali": [
+        "In nome della madre: l'AUTORE e' nominato in chiaro ('Henry De Luca', trascrizione deformata di Erri De Luca) ma il TITOLO non viene mai pronunciato — il brano e' letto ad alta voce. Caso limite utile: senza il titolo nel testo, il guardrail di ancoraggio non puo' confermarlo.",
+        "i film di Hitchcock, il film di Nanni Moretti: registi senza un'opera precisa",
+        "Le Iene, Smetto quando voglio, On the Road: programmi TV/radio, non opere",
+        "canzone finale in inglese ('this is your travelling song') non identificata con certezza",
+        "parodia natalizia sullo zenzero trasmessa in apertura, non identificata con certezza"
+      ]
+    },
+    "2021-05-13": {
+      "letto_per_intero_il": "2026-07-27",
+      "_nota": "Episodio POVERO di proposito nel campione (7.009 caratteri, intervista sulle reti fantasma): una sola opera certa. Serve a misurare i FALSI POSITIVI piu' che la recall — in produzione ne risultano 3, cioe' due voci di troppo ('Nice grazie Marco', rumore di trascrizione, ed 'Euridice'/'Orfeo', un mito citato di passaggio, non un'opera).",
+      "opere": [
+        {"categoria": "libro", "titolo": "Divina Commedia", "autore": "Dante Alighieri"}
+      ],
+      "marginali": [
+        "Orfeo ed Euridice: mito citato come metafora, non un'opera con autore",
+        "Giancarlo Giannini: persona, non opera"
       ]
     }
   }
