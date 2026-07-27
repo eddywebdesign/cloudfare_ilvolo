@@ -80,13 +80,13 @@ def main() -> None:
             titolo, autore = r["titolo"], r.get("autore", "")
             try:
                 if categoria == "libro":
-                    punteggio, match, copertina = verifica_libro(titolo, autore)
+                    punteggio, match, copertina, _sub = verifica_libro(titolo, autore)
                     time.sleep(0.35)
                 elif categoria == "film":
-                    punteggio, match, copertina = verifica_film(titolo, autore, tmdb_key)
+                    punteggio, match, copertina, _sub = verifica_film(titolo, autore, tmdb_key)
                     time.sleep(0.05)
                 else:
-                    punteggio, match, copertina = verifica_musica(titolo, autore)
+                    punteggio, match, copertina, _sub = verifica_musica(titolo, autore)
                     time.sleep(MUSICBRAINZ_SLEEP)
             except Exception as e:
                 print(f"  ERRORE su {titolo!r}: {e}, salto")

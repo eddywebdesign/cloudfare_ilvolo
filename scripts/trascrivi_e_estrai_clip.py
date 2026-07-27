@@ -105,9 +105,15 @@ Regole:
 - "libro" include poesie, saggi, romanzi, testi teatrali (autore = poeta/scrittore/drammaturgo)
 - Se un titolo è sia poesia sia film (es. Invictus), crea DUE entry separate
 - anno: anno di uscita/pubblicazione (stringa vuota se sconosciuto)
-- autore: OBBLIGATORIO — regista/scrittore/artista che ha creato l'opera. Se non riesci
-  a identificare un autore/regista/artista specifico e reale, NON includere il
-  riferimento (meglio ometterlo che lasciare "autore" vuoto)
+- autore: regista/scrittore/artista che ha creato l'opera. NON inventarlo mai: se il
+  testo non lo dice e tu non lo sai con certezza, lascialo VUOTO — ci penserà il
+  database a completarlo partendo dal titolo. Un autore vuoto è un dato mancante che
+  sappiamo recuperare; un autore sbagliato è un errore che si propaga nell'archivio
+- Se viene nominato un AUTORE ma nessun titolo (es. "adesso vi leggo una cosa di Erri
+  De Luca", "una poesia di Leopardi", senza dire quale), NON inventare un titolo:
+  produci una voce con "titolo" vuoto e solo l'autore. Vale come riferimento a
+  quell'autore, e verrà collegata alle sue opere. Serve però che sia un autore vero e
+  identificabile, non un nome qualsiasi sentito di passaggio
 - note: max 12 parole su perché Fabio lo cita/legge/suona
 - Non includere riferimenti vaghi o non identificabili
 - "titolo" deve essere il titolo VERO e specifico di un'opera (film/libro/canzone) —
@@ -523,8 +529,17 @@ def merge_riferimenti(data_str: str, nuovi: list[dict], testo: str, durata: floa
         if cat not in ("film", "libro", "musica"):
             continue
         titolo = (ref.get("titolo") or "").strip()
+        autore_ref = (ref.get("autore") or "").strip()
+        # Voce di SOLO AUTORE (deciso con l'utente il 2026-07-27): in onda capita spesso
+        # che venga nominato l'autore senza il titolo ("adesso vi leggo una cosa di Erri
+        # De Luca"). Prima si buttava via tutto; ora si conserva cio' che e' certo e si
+        # rimanda alle sue opere. Non e' un titolo mancante da indovinare: e' un tipo di
+        # voce diverso, che la verifica esterna promuove solo se quel nome risulta
+        # davvero un autore reale della categoria (verifica_autore su Wikidata).
+        if not titolo and not autore_ref:
+            continue  # ne' titolo ne' autore: non resta niente di verificabile
         if not titolo:
-            continue  # nessun titolo reale identificato, scarta (evita voci vuote)
+            titolo = ""  # esplicito: la voce vive sull'autore, non sul titolo
         # Trovato 2026-07-23 su 109/3544 riferimenti storici: "autore" = un conduttore
         # del programma (Fabio Volo, Maurizio, Viola) per categoria musica/film — nessuno
         # dei tre e' un musicista o regista, e' quasi sempre il modello che confonde una
@@ -645,7 +660,12 @@ def main() -> None:
         seen_keys: set[tuple] = set()
         refs_uniq = []
         for r in refs:
-            key = ((r.get("categoria") or "").lower(), (r.get("titolo") or "").lower().strip())
+            # La chiave cade sull'AUTORE quando il titolo manca: dal 2026-07-27 esistono
+            # voci di solo autore (nominato in onda senza titolo), e con la chiave sul
+            # solo titolo sarebbero state scartate tutte proprio qui, in silenzio.
+            titolo_key = (r.get("titolo") or "").lower().strip()
+            key = ((r.get("categoria") or "").lower(),
+                   titolo_key or (r.get("autore") or "").lower().strip())
             if key not in seen_keys and key[1]:
                 seen_keys.add(key)
                 refs_uniq.append(r)

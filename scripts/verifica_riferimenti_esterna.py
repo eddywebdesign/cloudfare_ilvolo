@@ -167,7 +167,7 @@ def cerca_google_books(titolo: str, autore: str) -> tuple[float, str, str]:
     frequenti e intermittenti, quindi si riprova con attesa crescente."""
     key = _google_books_key()
     if not key:
-        return -1.0, "chiave Google Books assente", ""
+        return -1.0, "chiave Google Books assente", "", ""
     query = f'intitle:"{titolo}"' + (f' inauthor:"{autore}"' if autore else "")
     risposta = None
     for tentativo in range(GOOGLE_BOOKS_TENTATIVI):
@@ -175,17 +175,17 @@ def cerca_google_books(titolo: str, autore: str) -> tuple[float, str, str]:
             risposta = requests.get(GOOGLE_BOOKS_API, timeout=20,
                                     params={"q": query, "maxResults": 5, "key": key})
         except Exception as e:
-            return -1.0, f"errore rete Google Books: {e}", ""
+            return -1.0, f"errore rete Google Books: {e}", "", ""
         if risposta.status_code == 200:
             break
         time.sleep(1.5 * (tentativo + 1))
     else:
-        return -1.0, f"Google Books non raggiungibile (HTTP {risposta.status_code})", ""
+        return -1.0, f"Google Books non raggiungibile (HTTP {risposta.status_code})", "", ""
 
     items = risposta.json().get("items", [])
     if not items:
-        return 0.0, "nessun risultato Google Books", ""
-    migliore = (0.0, "", "")
+        return 0.0, "nessun risultato Google Books", "", ""
+    migliore = (0.0, "", "", "")
     for it in items:
         vi = it.get("volumeInfo", {})
         sim_titolo = _similarita(titolo, vi.get("title", ""))
@@ -196,7 +196,8 @@ def cerca_google_books(titolo: str, autore: str) -> tuple[float, str, str]:
         punteggio = sim_titolo * 0.7 + sim_autore * 0.3 if autore else sim_titolo
         if punteggio > migliore[0]:
             img = (vi.get("imageLinks") or {}).get("thumbnail", "")
-            migliore = (punteggio, f"{vi.get('title','')} - {', '.join(autori[:2])}", img)
+            migliore = (punteggio, f"{vi.get('title','')} - {', '.join(autori[:2])}",
+                        img, ", ".join(autori[:2]))
     return migliore
 
 
@@ -228,7 +229,7 @@ def cerca_wikidata(titolo: str, autore: str, categoria: str) -> tuple[float, str
         except Exception as e:
             # Wikidata risponde con HTML (non JSON) quando limita le richieste: va
             # trattato come "non ho potuto chiedere", non come "non esiste".
-            return -1.0, f"errore Wikidata: {e}", ""
+            return -1.0, f"errore Wikidata: {e}", "", ""
         time.sleep(WIKIDATA_SLEEP)
 
         for it in risultati:
@@ -249,8 +250,118 @@ def cerca_wikidata(titolo: str, autore: str, categoria: str) -> tuple[float, str
             if punteggio > 0:
                 return (punteggio,
                         f"{it.get('label','')} - {it.get('description','')} [wikidata:{it.get('id')}]",
-                        "")
-    return 0.0, "nessun match Wikidata della categoria attesa", ""
+                        "", "")
+    return 0.0, "nessun match Wikidata della categoria attesa", "", ""
+
+
+# Mestieri che rendono una persona un "autore" credibile per ciascuna categoria, come
+# li scrive Wikidata nella descrizione italiana.
+PROFESSIONI_AUTORE = {
+    "libro": ("scrittore", "scrittrice", "poeta", "poetessa", "romanziere", "romanziera",
+              "saggista", "drammaturgo", "drammaturga", "autore", "autrice", "filosofo",
+              "filosofa", "giornalista", "divulgatore", "divulgatrice", "traduttore"),
+    "film": ("regista", "sceneggiatore", "sceneggiatrice", "attore", "attrice",
+             "produttore", "produttrice", "cineasta"),
+    "musica": ("cantante", "cantautore", "cantautrice", "musicista", "compositore",
+               "compositrice", "gruppo musicale", "band", "rapper", "dj", "direttore d'orchestra"),
+}
+
+
+def verifica_autore(nome: str, categoria: str) -> tuple[float, str, str]:
+    """Verifica che un NOME sia davvero un autore reale della categoria, senza avere
+    un titolo. Ritorna (punteggio, descrizione, url alla pagina Wikipedia italiana).
+
+    Serve al caso deciso con l'utente il 2026-07-27: quando in onda viene nominato
+    l'autore ma NON il titolo (succede spesso — un brano letto ad alta voce, "adesso
+    vi leggo una cosa di Erri De Luca"), invece di buttare via tutto si conserva cio'
+    che e' certo, l'autore, e si rimanda alle sue opere. E' l'opposto di far indovinare
+    un titolo al modello: si registra solo il fatto verificato.
+
+    Due controlli, entrambi necessari (misurati il 2026-07-27):
+    - il mestiere dev'essere pertinente alla categoria, altrimenti qualunque nome
+      proprio passerebbe;
+    - il nome trovato deve somigliare a quello cercato PER PAROLE, altrimenti
+      "Enrico" viene risolto in "Heinrich Heine" (Wikidata traduce i prenomi) e un
+      saluto qualunque diventa un poeta tedesco."""
+    professioni = PROFESSIONI_AUTORE.get(categoria, ())
+    if not nome or not professioni:
+        return 0.0, "", ""
+    try:
+        r = requests.get(WIKIDATA_API, headers={"User-Agent": USER_AGENT}, timeout=15,
+                         params={"action": "wbsearchentities", "search": nome,
+                                 "language": "it", "uselang": "it", "format": "json",
+                                 "limit": 5, "type": "item"})
+        r.raise_for_status()
+        risultati = r.json().get("search", [])
+    except Exception as e:
+        return -1.0, f"errore Wikidata: {e}", ""
+    time.sleep(WIKIDATA_SLEEP)
+
+    for it in risultati:
+        descrizione = (it.get("description") or "").lower()
+        if not any(p in descrizione for p in professioni):
+            continue
+        etichetta = it.get("label", "")
+        # Il nome trovato deve condividere parole con quello cercato: vedi il caso
+        # "Enrico" -> "Heinrich Heine" nel docstring.
+        if _similarita_autore(nome, etichetta) < 0.5:
+            continue
+        url = f"https://it.wikipedia.org/wiki/{etichetta.replace(' ', '_')}"
+        return 1.0, f"{etichetta} - {it.get('description','')}", url
+    return 0.0, "nessun autore reale con questo nome per la categoria", ""
+
+
+def completa_autore_dal_db(titolo: str, categoria: str, tmdb_key: str = "") -> str:
+    """Dato un titolo GIA' confermato ma senza autore, chiede al database chi sia
+    l'autore. Ritorna il nome trovato, o "" se il database non lo espone.
+
+    Deciso con l'utente il 2026-07-27: se abbiamo il titolo e non l'autore, il caso
+    si risolve col database invece di scartare la voce — se il titolo esiste, si
+    completa l'associazione e si considera la voce chiusa. Viene chiamata solo per
+    le voci confermate con autore vuoto (~13% delle confermate), quindi il costo in
+    chiamate extra e' limitato a quelle.
+
+    Non inventa nulla: se il database non restituisce un autore, resta vuoto."""
+    try:
+        if categoria == "libro":
+            r = requests.get("https://openlibrary.org/search.json", timeout=15,
+                             headers={"User-Agent": USER_AGENT},
+                             params={"q": titolo, "limit": 5, "fields": "title,author_name"})
+            r.raise_for_status()
+            for d in r.json().get("docs", []):
+                if _similarita(titolo, d.get("title", "")) >= SOGLIA_TITOLO_CERTO:
+                    autori = d.get("author_name") or []
+                    if autori:
+                        return autori[0]
+            # Open Library e' debole sull'editoria italiana: si riprova con Google Books,
+            # che per "Anna" di Ammaniti da' l'autore giusto dove OL da' un omonimo.
+            p, _desc, _cop, autore_gb = cerca_google_books(titolo, "")
+            if p >= SOGLIA_TITOLO_CERTO and autore_gb:
+                return autore_gb
+        elif categoria == "film":
+            risultati = _tmdb_cerca("movie", titolo, tmdb_key)
+            for res in risultati[:3]:
+                if _similarita(titolo, res.get("title", "") or "") >= SOGLIA_TITOLO_CERTO:
+                    registi = _tmdb_registi(res.get("id"), tmdb_key)
+                    if registi:
+                        return registi[0]
+        else:
+            # ⚠️ MUSICA: completamento automatico NON fatto, deliberatamente.
+            # Provate dal vivo due strategie il 2026-07-27, entrambe sbagliate in modo
+            # opposto: prendendo il primo risultato per rilevanza si ottengono le COVER
+            # ("Chasing Cars" -> Vitamin String Quartet, "Sapore di sale" -> Dik Dik);
+            # ordinando per data di prima pubblicazione si ottengono gli OMONIMI piu'
+            # antichi ("Locked Away" -> Keith Richards, che ha una canzone omonima del
+            # 1988; "Come Rain or Come Shine" -> Scott Hamilton). Su un titolo musicale
+            # generico MusicBrainz non permette di distinguere l'incisione originale
+            # senza altre informazioni.
+            # Un autore sbagliato e' peggio di nessun autore: si propaga nell'archivio
+            # come se fosse verificato. Queste voci restano con l'autore vuoto e vanno
+            # alla revisione manuale, dove un occhio umano decide in due secondi.
+            return ""
+    except Exception as e:
+        print(f"      (autore non recuperabile dal database: {e})")
+    return ""
 
 
 def verifica_con_fallback(titolo: str, autore: str, categoria: str,
@@ -636,7 +747,10 @@ def main() -> None:
             continue
         dati = json.loads(fp.read_text(encoding="utf-8"))
         for r in dati:
-            if r.get("titolo") and r.get(campo) in mappa and "confermato_esterno" not in r:
+            # Basta titolo O autore: dal 2026-07-27 esistono voci di solo autore
+            # (nominato in onda senza titolo), che vanno verificate come tali.
+            ha_qualcosa = (r.get("titolo") or "").strip() or (r.get("autore") or "").strip()
+            if ha_qualcosa and r.get(campo) in mappa and "confermato_esterno" not in r:
                 tutte_le_voci.append((fp, r))
 
     if args.limit:
@@ -647,14 +761,25 @@ def main() -> None:
     dubbi = []
     confermati = 0
     scartati = 0
+    completati_autore = 0  # titoli confermati il cui autore e' stato messo dal database
     per_file: dict[Path, list[dict]] = {}
 
     for i, (fp, r) in enumerate(tutte_le_voci):
         categoria = mappa[r[campo]]
-        titolo = r["titolo"]
+        titolo = (r.get("titolo") or "").strip()
         autore = r.get("autore", "")
         try:
-            if categoria == "libro":
+            if not titolo:
+                # Voce di SOLO AUTORE: non c'e' un'opera da cercare, si verifica che il
+                # nome sia davvero un autore reale della categoria e si conserva il
+                # collegamento alle sue opere. Se il nome non regge, la voce viene
+                # scartata come qualunque altra non confermata.
+                punteggio, match, url = verifica_autore(autore, categoria)
+                copertina, sub_suggerita = "", ""
+                if punteggio >= SOGLIA_ALTA and url:
+                    r["link_autore"] = url
+                    r["solo_autore"] = True
+            elif categoria == "libro":
                 primo = verifica_libro(titolo, autore)
                 time.sleep(0.35)  # margine sotto ~3 richieste/secondo
             elif categoria == "film":
@@ -663,9 +788,10 @@ def main() -> None:
             else:  # musica
                 primo = verifica_musica(titolo, autore)
                 time.sleep(MUSICBRAINZ_SLEEP)
-            # Il database principale non basta da solo: vedi verifica_con_fallback().
-            punteggio, match, copertina, sub_suggerita = verifica_con_fallback(
-                titolo, autore, categoria, primo)
+            if titolo:
+                # Il database principale non basta da solo: vedi verifica_con_fallback().
+                punteggio, match, copertina, sub_suggerita = verifica_con_fallback(
+                    titolo, autore, categoria, primo)
         except Exception as e:
             print(f"  [{i+1}/{len(tutte_le_voci)}] ERRORE imprevisto su {titolo!r}: {e}, salto")
             continue
@@ -698,6 +824,15 @@ def main() -> None:
         # (dato dal modello in estrazione, o da una revisione umana precedente).
         if r["confermato_esterno"] and sub_suggerita and not (r.get("sottocategoria") or "").strip():
             r["sottocategoria"] = sub_suggerita
+        # Titolo confermato ma autore mai estratto: lo completa il database, e la voce
+        # e' chiusa (deciso con l'utente il 2026-07-27). Prima restava a meta': un
+        # titolo verificato con un campo autore vuoto, indistinguibile da un errore.
+        if r["confermato_esterno"] and not (r.get("autore") or "").strip():
+            trovato = completa_autore_dal_db(titolo, categoria, tmdb_key)
+            if trovato:
+                r["autore"] = trovato
+                r["autore_dal_database"] = True
+                completati_autore += 1
         per_file.setdefault(fp, []).append(r)
 
         if punteggio >= SOGLIA_ALTA:
@@ -739,9 +874,10 @@ def main() -> None:
     report_path.parent.mkdir(parents=True, exist_ok=True)
     report_path.write_text(json.dumps(fuso, ensure_ascii=False, indent=2), encoding="utf-8")
 
+    autori = f", {completati_autore} autori completati dal database" if completati_autore else ""
     print(f"\nFatto. {confermati} confermate automaticamente, {scartati} probabili falsi positivi, "
-          f"{len(dubbi) - scartati} dubbie — report completo in {report_path} ({len(fuso)} voci totali). "
-          "NON cancellato nulla, solo segnalato/marcato.")
+          f"{len(dubbi) - scartati} dubbie{autori} — report completo in {report_path} "
+          f"({len(fuso)} voci totali). NON cancellato nulla, solo segnalato/marcato.")
 
 
 if __name__ == "__main__":
