@@ -10,7 +10,9 @@
       "amore"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/6af36c85-1e42-44fb-956b-0d1143d75fd4/front-250"
   },
   {
     "id": "2017-10-13-001",
@@ -687,7 +689,8 @@
       "comunicazione"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-10-13-062",

@@ -149,7 +149,9 @@
       "comparazione"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/1387887-M.jpg"
   },
   {
     "id": "2016-01-15-013",
@@ -240,7 +242,9 @@
       "attori"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/6GDBcpQNtRAKHajRoeBj10pMNIX.jpg"
   },
   {
     "id": "2016-01-15-021",
@@ -403,7 +407,8 @@
       "celebrità"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-15-035",
@@ -450,7 +455,8 @@
       "genere"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-15-039",
@@ -475,7 +481,9 @@
       "orrore"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/10488888-M.jpg"
   },
   {
     "id": "2016-01-15-041",
@@ -524,7 +532,8 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-15-045",
@@ -912,7 +921,9 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/fdcac4c4-4d54-40e2-b467-f2a1e5fd8316/front-250"
   },
   {
     "id": "2016-01-15-076",
@@ -974,6 +985,7 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   }
 ]

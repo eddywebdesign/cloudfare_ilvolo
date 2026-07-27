@@ -806,7 +806,9 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/32bfd673-233b-4d68-a18a-7e105da6f0f7/front-250"
   },
   {
     "id": "2016-02-26-067",
@@ -916,7 +918,8 @@
       "azione"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true
   },
   {
     "id": "2016-02-26-076",
@@ -940,7 +943,8 @@
       "perseveranza"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-02-26-078",

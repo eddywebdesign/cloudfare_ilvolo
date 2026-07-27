@@ -10,7 +10,8 @@
       "amore"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-05-18-001",
@@ -681,7 +682,8 @@
       "solitudine"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-05-18-061",
@@ -783,7 +785,9 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/f31e83a4-bd31-449d-ae6a-1cf1321ba524/front-250"
   },
   {
     "id": "2017-05-18-070",

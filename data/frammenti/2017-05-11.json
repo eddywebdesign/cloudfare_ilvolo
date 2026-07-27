@@ -120,7 +120,9 @@
       "ottimismo"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/c3d5bb66-5418-4e83-9b68-314e3e962666/front-250"
   },
   {
     "id": "2017-05-11-011",
@@ -456,6 +458,8 @@
       "storia"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/981738-M.jpg"
   }
 ]

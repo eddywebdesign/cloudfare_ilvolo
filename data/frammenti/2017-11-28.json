@@ -722,7 +722,9 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/d4f63a52-d605-434a-8993-fb1584528222/front-250"
   },
   {
     "id": "2017-11-28-065",
@@ -837,6 +839,7 @@
       "rispetto"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   }
 ]

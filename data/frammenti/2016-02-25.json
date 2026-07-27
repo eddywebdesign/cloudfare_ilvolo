@@ -278,7 +278,9 @@
       "fiabe"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/12503367-M.jpg"
   },
   {
     "id": "2016-02-25-023",
@@ -662,7 +664,9 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/982b6679-33e2-43ca-8d59-3cf784a29a8f/front-250"
   },
   {
     "id": "2016-02-25-055",

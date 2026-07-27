@@ -315,7 +315,8 @@
       "poesia"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-13-026",
@@ -652,7 +653,9 @@
       "canzone"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/010a6908-1af4-467e-88da-8dd730969fd3/front-250"
   },
   {
     "id": "2016-05-13-055",
@@ -787,7 +790,9 @@
       "famosi"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/6af2f5ec-0311-4bce-b640-02a7f54b768d/front-250"
   },
   {
     "id": "2016-05-13-066",

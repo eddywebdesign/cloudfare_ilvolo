@@ -642,7 +642,8 @@
       "elogio"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true
   },
   {
     "id": "2016-06-01-054",
@@ -689,7 +690,9 @@
       "pop"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/f638ea1d-dd0a-452c-9657-32cc3cac91c0/front-250"
   },
   {
     "id": "2016-06-01-058",
@@ -748,7 +751,9 @@
       "canzone"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/527750e1-ebd1-48b5-ac1d-022b02656359/front-250"
   },
   {
     "id": "2016-06-01-063",
@@ -789,7 +794,8 @@
       "commedia"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-06-01-066",
@@ -892,6 +898,8 @@
       "piacere"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/3d32dbf3-cb75-49ad-adce-e63d581137ab/front-250"
   }
 ]

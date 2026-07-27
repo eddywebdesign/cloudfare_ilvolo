@@ -159,7 +159,8 @@
       "amore"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-10-10-014",
@@ -184,7 +185,9 @@
       "denaro"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/e86617a4-3872-464c-911b-e8adedfd715b/front-250"
   },
   {
     "id": "2017-10-10-016",
@@ -198,7 +201,9 @@
       "denaro"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/e86617a4-3872-464c-911b-e8adedfd715b/front-250"
   },
   {
     "id": "2017-10-10-017",
@@ -222,7 +227,8 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-10-10-019",

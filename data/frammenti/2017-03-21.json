@@ -816,6 +816,8 @@
       "cinema"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/f79iGPjXyYks6Comz4c2nSMgnSA.jpg"
   }
 ]

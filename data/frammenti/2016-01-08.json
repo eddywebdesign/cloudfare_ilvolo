@@ -10,7 +10,9 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/ec290ed7-c3a0-44e2-9c22-f56d7826d7e1/front-250"
   },
   {
     "id": "2016-01-08-001",
@@ -81,7 +83,8 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-08-007",

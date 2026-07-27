@@ -388,7 +388,8 @@
     "titolo": "I thought we would last",
     "tema": [],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-01-20-035",
@@ -512,7 +513,9 @@
       "vita"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/86271951-b823-41fe-b154-d707705bdcd0/front-250"
   },
   {
     "id": "2017-01-20-046",
@@ -1024,7 +1027,9 @@
       "swing"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/3c9330ae-d075-45c6-842e-adf3095786ac/front-250"
   },
   {
     "id": "2017-01-20-092",

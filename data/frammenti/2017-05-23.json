@@ -10,7 +10,9 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/39ebe521-e5b1-4cbb-a354-a43bcf6d8e0e/front-250"
   },
   {
     "id": "2017-05-23-001",
@@ -555,7 +557,8 @@
       "coraggio"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-05-23-049",

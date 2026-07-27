@@ -588,7 +588,9 @@
       "informazione"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/10800166-M.jpg"
   },
   {
     "id": "2017-12-15-053",

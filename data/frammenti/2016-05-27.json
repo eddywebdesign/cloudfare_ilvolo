@@ -44,7 +44,9 @@
       "umorismo"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/tffQ4pjXQWSunECfzbGSFyCKQUH.jpg"
   },
   {
     "id": "2016-05-27-004",
@@ -776,7 +778,9 @@
       "magia"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/pV9ziTxVGDFRgVqiWkxJnKjzaxM.jpg"
   },
   {
     "id": "2016-05-27-066",

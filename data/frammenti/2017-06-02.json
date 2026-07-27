@@ -32,7 +32,9 @@
       "amore"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/eed765a0-8462-43b6-83d7-74f7fbb422e6/front-250"
   },
   {
     "id": "2017-06-02-003",
@@ -541,7 +543,9 @@
     "titolo": "Hurt Yourself Again",
     "tema": [],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/09c646a3-376e-42dc-896c-e4751ea461ad/front-250"
   },
   {
     "id": "2017-06-02-049",

@@ -98,7 +98,8 @@
       "amore"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-04-05-009",
@@ -122,7 +123,9 @@
       "amore"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/fb587dc0-aca9-465f-9376-a9c72f089873/front-250"
   },
   {
     "id": "2017-04-05-011",

@@ -138,7 +138,8 @@
       "consigli"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-04-26-012",
@@ -305,7 +306,9 @@
       "educazione"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/8242318-M.jpg"
   },
   {
     "id": "2017-04-26-027",
@@ -473,7 +476,8 @@
       "riflessione"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-04-26-042",
@@ -520,7 +524,8 @@
       "vittoria"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-04-26-046",

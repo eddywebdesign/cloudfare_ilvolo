@@ -670,7 +670,8 @@
       "arte"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-02-23-061",
@@ -739,6 +740,8 @@
       "amore"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/ea6e704d-07a4-46cf-a462-85a3a2de1011/front-250"
   }
 ]

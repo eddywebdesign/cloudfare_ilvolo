@@ -844,7 +844,9 @@
       "amore"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/fbbd357c-01f8-493f-9a43-6bcfc08e9b1f/front-250"
   },
   {
     "id": "2016-05-23-070",

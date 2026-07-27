@@ -227,7 +227,8 @@
       "auguri"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-28-018",
@@ -648,7 +649,8 @@
       "gatto"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true
   },
   {
     "id": "2016-01-28-050",
@@ -672,7 +674,9 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/d1870855-5b3c-4abf-86e3-eeefe92ff5ed/front-250"
   },
   {
     "id": "2016-01-28-052",

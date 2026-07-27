@@ -54,7 +54,9 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/dc7934e4-0a37-479d-bb9b-37c2115e9912/front-250"
   },
   {
     "id": "2017-05-03-005",
@@ -216,7 +218,9 @@
       "memoria"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/a8cf8c41-6a18-4471-bbb1-676ba70a8723/front-250"
   },
   {
     "id": "2017-05-03-019",
@@ -251,7 +255,8 @@
       "relazione"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-05-03-022",
@@ -715,7 +720,8 @@
       "belleza"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-05-03-063",

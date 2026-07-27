@@ -248,7 +248,9 @@
     "titolo": "Counting Crows",
     "tema": [],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/39c0ef27-1257-4dd6-9ff0-a1425d7dd09b/front-250"
   },
   {
     "id": "2016-01-25-022",
@@ -822,7 +824,9 @@
     "titolo": "Carlo",
     "tema": [],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/afsIieTY6zfNMjXxNOHCT83nLPq.jpg"
   },
   {
     "id": "2016-01-25-069",

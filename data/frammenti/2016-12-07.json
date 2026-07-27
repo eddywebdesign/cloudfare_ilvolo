@@ -558,7 +558,9 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/dea8640e-74be-44e9-8165-ecde08778ae9/front-250"
   },
   {
     "id": "2016-12-07-049",
@@ -604,7 +606,9 @@
       "opera"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/a5bc7674-7f63-4014-b7e5-77e1cf78528d/front-250"
   },
   {
     "id": "2016-12-07-053",

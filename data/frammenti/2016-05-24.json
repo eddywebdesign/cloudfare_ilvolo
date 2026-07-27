@@ -111,7 +111,9 @@
       "infanzia"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/1j9LhWwdxlDRFzppMgMGJb1k0aa.jpg"
   },
   {
     "id": "2016-05-24-009",
@@ -1025,7 +1027,8 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-24-084",
@@ -1072,6 +1075,8 @@
       "umoristico"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/tQPDl1S1pRg2jzCQWtVUuauZSqa.jpg"
   }
 ]

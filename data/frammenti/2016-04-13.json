@@ -54,7 +54,8 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-04-13-005",
@@ -568,7 +569,9 @@
       "amore"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/f71d19ed-2681-4648-9a2e-d74ccaddd510/front-250"
   },
   {
     "id": "2016-04-13-050",

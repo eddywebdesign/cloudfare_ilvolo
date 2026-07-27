@@ -72,7 +72,9 @@
       "luna"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/944675-M.jpg"
   },
   {
     "id": "2016-02-08-006",
@@ -318,7 +320,8 @@
       "gravità"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true
   },
   {
     "id": "2016-02-08-026",
@@ -514,7 +517,8 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-02-08-041",
@@ -729,7 +733,9 @@
       "album"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/2f4c91fa-a287-458c-b57c-9f5236911f12/front-250"
   },
   {
     "id": "2016-02-08-059",
@@ -753,7 +759,9 @@
       "album"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/2f4c91fa-a287-458c-b57c-9f5236911f12/front-250"
   },
   {
     "id": "2016-02-08-061",

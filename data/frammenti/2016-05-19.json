@@ -144,7 +144,9 @@
       "satira"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/4828877-M.jpg"
   },
   {
     "id": "2016-05-19-011",
@@ -439,7 +441,9 @@
       "cultura"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/71e160ad-2ac2-420f-a9c9-f4284bcfc668/front-250"
   },
   {
     "id": "2016-05-19-037",
@@ -453,7 +457,9 @@
       "cultura"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/64e557d2-d5a1-4dc9-96b0-0dbc5b40642e/front-250"
   },
   {
     "id": "2016-05-19-038",
@@ -624,7 +630,9 @@
       "rivoluzione"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/17416cfd-3a84-4cc4-96f9-4768eac2ce23/front-250"
   },
   {
     "id": "2016-05-19-052",
@@ -715,7 +723,9 @@
       "canzone"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/23eeb925-4903-4afd-b4b5-51c782629c28/front-250"
   },
   {
     "id": "2016-05-19-060",
@@ -772,7 +782,9 @@
       "supereroi"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/paKWqpEGiHilKfpFKuHXXkFpYNn.jpg"
   },
   {
     "id": "2016-05-19-065",

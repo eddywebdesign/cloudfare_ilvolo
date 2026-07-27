@@ -142,7 +142,9 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/bece3365-f2db-43db-901e-07c36342a044/front-250"
   },
   {
     "id": "2017-10-25-013",
@@ -731,7 +733,8 @@
       "vite precedenti"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-10-25-066",

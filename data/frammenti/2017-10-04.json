@@ -43,7 +43,9 @@
       "amore"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/61113229-b95d-41c6-8adc-3e37df063264/front-250"
   },
   {
     "id": "2017-10-04-004",
@@ -122,7 +124,9 @@
       "amore"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/046dedcc-f8bc-48f4-9139-30b5f3587798/front-250"
   },
   {
     "id": "2017-10-04-011",
@@ -410,7 +414,8 @@
       "scienza"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-10-04-037",
@@ -560,7 +565,9 @@
       "cura"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/32dc8d7c-23cb-4715-92f1-5e5a48c71e34/front-250"
   },
   {
     "id": "2017-10-04-050",

@@ -257,7 +257,9 @@
     "titolo": "Tre allegri ragazzi morti",
     "tema": [],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/6041a234-54fb-4021-8bb6-ecf5c2f40149/front-250"
   },
   {
     "id": "2016-03-09-022",
@@ -279,7 +281,8 @@
     "titolo": "Touring Club",
     "tema": [],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true
   },
   {
     "id": "2016-03-09-024",
@@ -362,7 +365,8 @@
     "titolo": "Palazzo del Quirinale",
     "tema": [],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true
   },
   {
     "id": "2016-03-09-031",
@@ -397,7 +401,8 @@
       "memoria"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-03-09-034",
@@ -523,7 +528,9 @@
       "doppiaggio"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/fWbCM5Ka8nre7hALmXFANXvzBHf.jpg"
   },
   {
     "id": "2016-03-09-044",

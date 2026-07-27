@@ -141,7 +141,9 @@
       "cinema"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/lP5RCnonnc7jq7bq6NHRSfBgSvB.jpg"
   },
   {
     "id": "2026-06-03-012",
@@ -213,7 +215,9 @@
       "amore"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/10322868-M.jpg"
   },
   {
     "id": "2026-06-03-018",
@@ -603,7 +607,9 @@
       "identità"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/rtNLQ8HbPElzEfrHjrzSr07prKT.jpg"
   },
   {
     "id": "2026-06-03-050",

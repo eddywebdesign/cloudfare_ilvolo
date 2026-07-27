@@ -320,7 +320,9 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/d6dcd665-6e58-4c57-87bd-5cc031af56db/front-250"
   },
   {
     "id": "2016-03-11-027",

@@ -10,7 +10,9 @@
       "amore"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/25d9df33-88b4-4206-a519-524577772e02/front-250"
   },
   {
     "id": "2017-10-27-001",
@@ -34,7 +36,9 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/54269a7a-4e72-4d95-b980-e17902f260e8/front-250"
   },
   {
     "id": "2017-10-27-003",
@@ -58,7 +62,9 @@
       "ricordi"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/25392e8e-b325-4889-a0e3-8e856f3f96a4/front-250"
   },
   {
     "id": "2017-10-27-005",
@@ -478,7 +484,8 @@
       "letteratura"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-10-27-043",
@@ -569,7 +576,8 @@
       "storia"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-10-27-051",
@@ -593,7 +601,9 @@
       "razzismo"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/jwM6AsjfHo3A9GZZWOcxlfXzayj.jpg"
   },
   {
     "id": "2017-10-27-053",
@@ -626,7 +636,9 @@
     "titolo": "Something You Call Love",
     "tema": [],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/19dc0f49-a707-478b-808a-a597f2e83b13/front-250"
   },
   {
     "id": "2017-10-27-056",
@@ -659,7 +671,9 @@
     "titolo": "Melt",
     "tema": [],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/b3a2748f-7d01-4f5a-820e-b11d4003a54f/front-250"
   },
   {
     "id": "2017-10-27-059",

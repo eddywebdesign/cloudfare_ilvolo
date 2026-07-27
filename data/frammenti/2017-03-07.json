@@ -236,7 +236,9 @@
       "comunismo"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/baQOpPSVKP6aJBHEeM8F7cT9C0u.jpg"
   },
   {
     "id": "2017-03-07-021",
@@ -626,7 +628,9 @@
       "cinema"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/hcgRYuAWQbKHpPF8nsvjtRtx260.jpg"
   },
   {
     "id": "2017-03-07-056",

@@ -55,7 +55,9 @@
       "buongiorno"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/c69114f3-72ea-4a66-9c12-516c3b12f97f/front-250"
   },
   {
     "id": "2016-11-07-005",
@@ -153,7 +155,9 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/c8695651-84ad-4d94-9370-1418dc61451f/front-250"
   },
   {
     "id": "2016-11-07-013",
@@ -393,7 +397,9 @@
       "famiglia"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/7016548-M.jpg"
   },
   {
     "id": "2016-11-07-034",
@@ -731,7 +737,9 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/6a2c7c99-d0cf-430e-af8d-f17fd7c39a06/front-250"
   },
   {
     "id": "2016-11-07-063",

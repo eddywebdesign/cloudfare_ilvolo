@@ -21,7 +21,9 @@
       "amore"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/fdb904a7-6024-417a-8e8e-3690abc0977d/front-250"
   },
   {
     "id": "2018-01-10-002",
@@ -662,7 +664,8 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2018-01-10-060",

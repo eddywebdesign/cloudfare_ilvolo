@@ -132,7 +132,9 @@
       "80s"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/83ac2bfe-f143-41a1-a372-59740aadc037/front-250"
   },
   {
     "id": "2017-06-01-012",
@@ -442,7 +444,9 @@
       "amore"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/23f7a997-e88d-4675-bea2-10176e42c830/front-250"
   },
   {
     "id": "2017-06-01-040",

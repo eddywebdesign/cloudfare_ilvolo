@@ -133,7 +133,9 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/19bb52ab-7e6a-41af-831b-ec7902b41f6c/front-250"
   },
   {
     "id": "2016-04-29-012",
@@ -664,7 +666,9 @@
       "amore"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/d3d63a7e-a8df-4308-8534-bb9f2b50394d/front-250"
   },
   {
     "id": "2016-04-29-057",

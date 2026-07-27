@@ -25,7 +25,9 @@
       "Elisa"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/859abc91-0fe9-410c-a603-42ab33f60b07/front-250"
   },
   {
     "id": "2016-01-18-002",
@@ -217,7 +219,9 @@
       "Chuck Berry"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/9b73ad9c-4a05-45a2-9351-1c2190ea5992/front-250"
   },
   {
     "id": "2016-01-18-017",

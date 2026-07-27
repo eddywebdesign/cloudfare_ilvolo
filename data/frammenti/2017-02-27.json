@@ -121,7 +121,9 @@
       "fantascienza"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/4TKdguyacjYrC1Hnbi3PjSP8r3M.jpg"
   },
   {
     "id": "2017-02-27-011",
@@ -146,7 +148,9 @@
       "rock"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/b57145fd-f3ce-492b-89b9-eec57c3396c0/front-250"
   },
   {
     "id": "2017-02-27-013",
@@ -328,7 +332,9 @@
       "divertimento"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/7333917-M.jpg"
   },
   {
     "id": "2017-02-27-029",

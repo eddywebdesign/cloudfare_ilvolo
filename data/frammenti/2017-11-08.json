@@ -153,7 +153,9 @@
       "amore"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/ce47e56a-a3c4-4c38-b512-0b31c23ce1e4/front-250"
   },
   {
     "id": "2017-11-08-014",
@@ -202,7 +204,8 @@
       "crescita"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-11-08-018",

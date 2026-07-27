@@ -294,7 +294,9 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/a223b070-73aa-422b-90c1-ef2d836e2ca2/front-250"
   },
   {
     "id": "2016-10-21-025",
@@ -307,7 +309,9 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/e46b4a03-5699-4684-b6f9-f39fa295cd81/front-250"
   },
   {
     "id": "2016-10-21-026",
@@ -428,7 +432,9 @@
       "bibbia"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/11192338-M.jpg"
   },
   {
     "id": "2016-10-21-036",

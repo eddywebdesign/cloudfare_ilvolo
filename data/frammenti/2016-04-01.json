@@ -600,7 +600,9 @@
       "identità"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/9n0u3Ee7OUjgeyF5kIwahxkf4xm.jpg"
   },
   {
     "id": "2016-04-01-051",
@@ -741,7 +743,9 @@
       "spiritualità"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/12574314-M.jpg"
   },
   {
     "id": "2016-04-01-063",

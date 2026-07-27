@@ -459,7 +459,9 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/a203e54a-a4b0-43c2-be7a-7ab9976b9cb9/front-250"
   },
   {
     "id": "2016-05-02-041",

@@ -202,7 +202,9 @@
       "politica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/a6d5fe48-dd5e-4fb5-ab9d-ae29ca6de2d0/front-250"
   },
   {
     "id": "2016-11-08-018",
@@ -348,7 +350,9 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/233e89ed-18af-4e49-b09b-9fe845980e5a/front-250"
   },
   {
     "id": "2016-11-08-030",
@@ -454,7 +458,8 @@
       "mutazione"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true
   },
   {
     "id": "2016-11-08-039",
@@ -468,7 +473,8 @@
       "amore"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-11-08-040",

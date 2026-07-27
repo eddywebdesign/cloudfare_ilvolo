@@ -11,7 +11,9 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/53731785-fd40-47b6-a724-1e50e88524d8/front-250"
   },
   {
     "id": "2016-04-08-001",
@@ -204,7 +206,9 @@
       "amore"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/ee5fe473-2b5e-4608-a552-ca6b36bad62c/front-250"
   },
   {
     "id": "2016-04-08-018",
@@ -273,7 +277,8 @@
       "relazioni"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-04-08-024",
@@ -567,7 +572,8 @@
       "maestri"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true
   },
   {
     "id": "2016-04-08-049",
@@ -696,7 +702,8 @@
       "ringraziamento"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-04-08-059",

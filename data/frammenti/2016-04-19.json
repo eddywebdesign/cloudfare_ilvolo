@@ -55,7 +55,9 @@
       "ottimismo"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/c69114f3-72ea-4a66-9c12-516c3b12f97f/front-250"
   },
   {
     "id": "2016-04-19-005",
@@ -747,7 +749,9 @@
       "natura"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/3c38452d-978e-4d44-b9be-85dabaf666f9/front-250"
   },
   {
     "id": "2016-04-19-066",
@@ -772,7 +776,8 @@
       "apprezzamento"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-04-19-068",

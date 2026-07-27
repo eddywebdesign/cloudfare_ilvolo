@@ -612,7 +612,9 @@
       "amore"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/ac4fb470-ee6a-4835-a23f-6f9f6eab0b3a/front-250"
   },
   {
     "id": "2016-09-28-053",
@@ -676,7 +678,8 @@
       "mente"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true
   },
   {
     "id": "2016-09-28-058",

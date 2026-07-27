@@ -153,7 +153,8 @@
       "energia"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-03-20-014",
@@ -199,7 +200,8 @@
       "amore"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-03-20-018",
@@ -302,7 +304,9 @@
       "infanzia"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/2668686-M.jpg"
   },
   {
     "id": "2017-03-20-027",
@@ -579,7 +583,9 @@
       "innovazione"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/12374726-M.jpg"
   },
   {
     "id": "2017-03-20-052",

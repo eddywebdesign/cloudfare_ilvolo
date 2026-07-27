@@ -230,7 +230,8 @@
       "origini"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true
   },
   {
     "id": "2016-01-14-019",
@@ -417,7 +418,9 @@
       "memoria"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/da83837b-ff56-4bbe-a42f-cca2ce4efc80/front-250"
   },
   {
     "id": "2016-01-14-033",
@@ -484,7 +487,8 @@
       "stress"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-14-038",
@@ -678,6 +682,8 @@
       "Ben Stiller"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/wTw3HznV8omuc2WyB9PZBLxAXPw.jpg"
   }
 ]

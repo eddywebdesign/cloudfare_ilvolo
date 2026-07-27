@@ -43,7 +43,9 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/d96c2567-a1c9-4aa6-9034-c86b0ac22424/front-250"
   },
   {
     "id": "2017-12-21-004",

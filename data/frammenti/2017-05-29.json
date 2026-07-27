@@ -532,7 +532,9 @@
       "sogni"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/sY1ugG5EL6Bbem7hPVqNqRowwVx.jpg"
   },
   {
     "id": "2017-05-29-048",
@@ -699,7 +701,9 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/594cd375-55a0-4919-bd48-777be7c5d9e5/front-250"
   },
   {
     "id": "2017-05-29-063",

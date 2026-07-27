@@ -131,7 +131,9 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/705391f5-d06d-434a-849a-d7bb2580a89d/front-250"
   },
   {
     "id": "2016-03-02-012",
@@ -445,7 +447,9 @@
       "natura"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/36879bed-4db8-4d1b-8fd3-8d24d924f63a/front-250"
   },
   {
     "id": "2016-03-02-040",
@@ -607,7 +611,8 @@
       "futuro"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true
   },
   {
     "id": "2016-03-02-054",

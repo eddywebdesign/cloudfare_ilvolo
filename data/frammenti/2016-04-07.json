@@ -44,7 +44,9 @@
       "compleanni"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/de1e64b6-6451-44bf-9a89-f2e83734b7fb/front-250"
   },
   {
     "id": "2016-04-07-004",
@@ -301,7 +303,9 @@
       "canzone"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/19a328c3-3aa4-492b-980a-fbc82a6d3f1f/front-250"
   },
   {
     "id": "2016-04-07-025",
@@ -414,7 +418,8 @@
       "creatività"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-04-07-035",
@@ -707,7 +712,8 @@
       "educazione"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true
   },
   {
     "id": "2016-04-07-061",

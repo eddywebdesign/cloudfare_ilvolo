@@ -379,7 +379,9 @@
       "film"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/cjoguUFeoyPSYpxBzNyoWY6CRuZ.jpg"
   },
   {
     "id": "2016-12-01-033",
@@ -404,7 +406,9 @@
       "arte"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/12805152-M.jpg"
   },
   {
     "id": "2016-12-01-035",
@@ -608,7 +612,9 @@
       "michael jackson"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/ced6c709-8452-44e9-a51f-4e45a9e34913/front-250"
   },
   {
     "id": "2016-12-01-053",
@@ -633,7 +639,9 @@
       "michael jackson"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/ced6c709-8452-44e9-a51f-4e45a9e34913/front-250"
   },
   {
     "id": "2016-12-01-055",

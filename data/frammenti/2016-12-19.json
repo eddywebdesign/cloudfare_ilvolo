@@ -187,7 +187,9 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/fb3fbbd2-62e5-4ed5-9b83-787a67cbb26b/front-250"
   },
   {
     "id": "2016-12-19-017",

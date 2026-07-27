@@ -155,7 +155,9 @@
       "nuova stagione"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/99b78506-4d2c-471e-8c5c-786590623631/front-250"
   },
   {
     "id": "2016-01-07-013",
@@ -216,7 +218,8 @@
       "attore"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-07-018",
@@ -578,7 +581,8 @@
       "poesia"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-07-049",
@@ -850,7 +854,9 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/b8de90ad-dbe7-4968-9778-b28998f89d3f/front-250"
   },
   {
     "id": "2016-01-07-072",

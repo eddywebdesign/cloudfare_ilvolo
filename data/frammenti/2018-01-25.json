@@ -417,7 +417,8 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2018-01-25-038",
@@ -563,7 +564,9 @@
       "cultura"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/962a5661-37c0-4676-8df1-676826b98e0b/front-250"
   },
   {
     "id": "2018-01-25-051",

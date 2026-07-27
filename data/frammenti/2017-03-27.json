@@ -54,7 +54,9 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/8e0c79c8-a645-4e08-9a4c-75e0750da64b/front-250"
   },
   {
     "id": "2017-03-27-005",
@@ -444,7 +446,9 @@
       "relazione"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/939248cd-c832-4492-87c8-5fd7206408db/front-250"
   },
   {
     "id": "2017-03-27-040",
@@ -627,7 +631,8 @@
       "ricordi"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-03-27-056",
@@ -695,7 +700,8 @@
       "memoria"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true
   },
   {
     "id": "2017-03-27-062",

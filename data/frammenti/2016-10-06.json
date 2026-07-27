@@ -183,7 +183,9 @@
       "viaggio"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/5c1d011e-16d7-4c34-a5d9-a3c3413c4fc8/front-250"
   },
   {
     "id": "2016-10-06-016",
@@ -280,7 +282,8 @@
       "amore"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-10-06-024",
@@ -330,7 +333,9 @@
       "amore"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/7dd6981b-2c68-4aa7-908d-85c425e4928a/front-250"
   },
   {
     "id": "2016-10-06-028",
@@ -402,7 +407,9 @@
       "europea"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/10124876-M.jpg"
   },
   {
     "id": "2016-10-06-034",
@@ -768,7 +775,8 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-10-06-065",
@@ -782,7 +790,9 @@
       "cultura"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/483d4d97-d5a7-4c4a-974d-4c68e4ce6381/front-250"
   },
   {
     "id": "2016-10-06-066",
@@ -844,6 +854,8 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/74d785f1-e337-4304-9edb-885494153dd0/front-250"
   }
 ]

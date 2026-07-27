@@ -190,7 +190,8 @@
       "messaggio"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-10-17-017",
@@ -225,7 +226,9 @@
       "musica"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/12771352-M.jpg"
   },
   {
     "id": "2017-10-17-020",
@@ -462,7 +465,8 @@
       "speranza"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-10-17-041",
@@ -519,7 +523,9 @@
       "crisi"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/859050f3-4ba2-4c4b-8e5f-294f615c31ec/front-250"
   },
   {
     "id": "2017-10-17-046",
@@ -544,7 +550,8 @@
       "dolore"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-10-17-048",

@@ -209,7 +209,9 @@
       "attori"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/crSb9SDQv7V3kkDg2IBw0L6pncJ.jpg"
   },
   {
     "id": "2016-03-08-019",
@@ -322,7 +324,8 @@
       "astronomia"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true
   },
   {
     "id": "2016-03-08-029",
@@ -704,7 +707,9 @@
       "radio"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/10800166-M.jpg"
   },
   {
     "id": "2016-03-08-061",
@@ -779,7 +784,9 @@
       "canzone"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/d1870855-5b3c-4abf-86e3-eeefe92ff5ed/front-250"
   },
   {
     "id": "2016-03-08-067",
@@ -793,7 +800,9 @@
       "India"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/569100-M.jpg"
   },
   {
     "id": "2016-03-08-068",

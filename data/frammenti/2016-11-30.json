@@ -81,7 +81,9 @@
       "vita"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/c69114f3-72ea-4a66-9c12-516c3b12f97f/front-250"
   },
   {
     "id": "2016-11-30-007",
@@ -645,7 +647,9 @@
       "televisione"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/16c1bc1f-ddd9-4d04-a04b-76128b257aec/front-250"
   },
   {
     "id": "2016-11-30-055",

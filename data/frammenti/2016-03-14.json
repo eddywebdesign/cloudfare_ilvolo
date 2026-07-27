@@ -207,7 +207,9 @@
       "cantante"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/cc144679-0377-4dad-9b40-51f61bfbccc8/front-250"
   },
   {
     "id": "2016-03-14-018",

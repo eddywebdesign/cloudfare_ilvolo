@@ -386,7 +386,8 @@
       "libri"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-02-09-033",
@@ -600,7 +601,9 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/0d2695a6-de2b-4807-b694-9a30cec6f16d/front-250"
   },
   {
     "id": "2016-02-09-051",

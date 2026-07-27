@@ -223,7 +223,8 @@
       "logos"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true
   },
   {
     "id": "2016-02-04-018",
@@ -337,7 +338,9 @@
       "morale"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/13262863-M.jpg"
   },
   {
     "id": "2016-02-04-027",
@@ -398,7 +401,8 @@
       "spiritualità"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true
   },
   {
     "id": "2016-02-04-032",
@@ -791,7 +795,9 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/da6f5a60-8c9b-48d5-a91a-4cc60fa1d3a0/front-250"
   },
   {
     "id": "2016-02-04-064",

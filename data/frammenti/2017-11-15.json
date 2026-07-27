@@ -209,7 +209,9 @@
       "società"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/4c8603c3-d9b1-48f8-bfc5-be66af098d1a/front-250"
   },
   {
     "id": "2017-11-15-019",
@@ -488,7 +490,8 @@
       "libro"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-11-15-044",
@@ -656,7 +659,8 @@
       "amore"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-11-15-059",

@@ -241,7 +241,9 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/0e16786a-c0f2-49e4-9bdf-961acfde9ebe/front-250"
   },
   {
     "id": "2017-02-13-022",
@@ -632,7 +634,9 @@
       "amore"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/09cbd637-815e-40cc-984d-6084930d7e75/front-250"
   },
   {
     "id": "2017-02-13-057",

@@ -232,7 +232,8 @@
       "primavera"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-04-13-021",
@@ -413,7 +414,8 @@
       "separazione"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-04-13-037",
@@ -427,7 +429,8 @@
       "linguaggio"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-04-13-038",
@@ -451,7 +454,9 @@
       "poesia"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/11384545-M.jpg"
   },
   {
     "id": "2017-04-13-040",

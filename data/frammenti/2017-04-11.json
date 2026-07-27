@@ -242,7 +242,9 @@
       "televisiva"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/yCDMwrEfJRLpPKJ4Ey4SKfDmzaz.jpg"
   },
   {
     "id": "2017-04-11-022",
@@ -300,7 +302,9 @@
       "generazionale"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/a781f9fa-9a42-4954-969b-ba9c50b7d168/front-250"
   },
   {
     "id": "2017-04-11-027",
@@ -379,7 +383,8 @@
       "educazione"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-04-11-034",
@@ -414,7 +419,9 @@
       "salute_mentale"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/f0f3734f-c9e4-4fed-8063-05825070eafe/front-250"
   },
   {
     "id": "2017-04-11-037",
@@ -761,7 +768,8 @@
       "figli"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-04-11-068",
@@ -939,7 +947,9 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/3333f10a-192b-4494-8349-e68f3b31db4b/front-250"
   },
   {
     "id": "2017-04-11-084",
@@ -974,7 +984,8 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-04-11-087",

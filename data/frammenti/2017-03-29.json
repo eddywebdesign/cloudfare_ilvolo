@@ -509,7 +509,8 @@
       "meraviglia"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true
   },
   {
     "id": "2017-03-29-046",
@@ -555,7 +556,9 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/4b31545e-1c9b-4f1a-b47d-46754583d9d9/front-250"
   },
   {
     "id": "2017-03-29-050",

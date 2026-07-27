@@ -229,7 +229,9 @@
       "canzoni"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/1033a3e8-5cfa-438b-b2bd-5d18517d77e7/front-250"
   },
   {
     "id": "2016-02-23-020",
@@ -243,7 +245,9 @@
       "rock"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/de071e7b-a909-4b7f-ad9d-c15bd814895a/front-250"
   },
   {
     "id": "2016-02-23-021",
@@ -270,7 +274,8 @@
       "dramma"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-02-23-023",
@@ -481,7 +486,9 @@
       "speranza"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/w2lokEW7oWbpZjuG1LmtjLYIBM8.jpg"
   },
   {
     "id": "2016-02-23-040",
@@ -570,7 +577,9 @@
       "fantascienza"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/fVqKwpvobwWy0P1UImZWIDuw4RI.jpg"
   },
   {
     "id": "2016-02-23-047",

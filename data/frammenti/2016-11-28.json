@@ -555,7 +555,9 @@
       "emozioni"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/cabfd30c-e3ef-44ac-bac8-2c795bf07140/front-250"
   },
   {
     "id": "2016-11-28-048",
@@ -673,7 +675,9 @@
       "cambiamento"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/bbb11508-af71-412a-aef5-015410f118d7/front-250"
   },
   {
     "id": "2016-11-28-058",
@@ -736,7 +740,8 @@
       "famiglia"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-11-28-063",

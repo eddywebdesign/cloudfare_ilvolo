@@ -98,7 +98,8 @@
       "tranquillità"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-04-28-009",
@@ -111,7 +112,8 @@
       "droga"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-04-28-010",
@@ -179,7 +181,9 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/54f15c45-99c2-4f7b-af49-e95e1ed0a9a1/front-250"
   },
   {
     "id": "2017-04-28-016",
@@ -377,7 +381,8 @@
       "pittura"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-04-28-033",

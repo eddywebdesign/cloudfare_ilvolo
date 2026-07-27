@@ -496,7 +496,9 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/0b6169bf-01b9-4db4-81d1-7f047d341960/front-250"
   },
   {
     "id": "2016-10-24-042",
@@ -509,6 +511,8 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/5c1d011e-16d7-4c34-a5d9-a3c3413c4fc8/front-250"
   }
 ]

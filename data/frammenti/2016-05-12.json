@@ -636,7 +636,8 @@
     "titolo": "L'iniziazione",
     "tema": [],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true
   },
   {
     "id": "2016-05-12-054",
@@ -711,7 +712,9 @@
     "titolo": "Stupid Love",
     "tema": [],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/db5e2d30-e0ba-4105-a14d-d8c3495c8a0a/front-250"
   },
   {
     "id": "2016-05-12-060",
@@ -747,7 +750,8 @@
     "titolo": "I delfini",
     "tema": [],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true
   },
   {
     "id": "2016-05-12-063",
@@ -760,7 +764,8 @@
       "amore"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-05-12-064",
@@ -773,7 +778,8 @@
       "letteratura"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true
   },
   {
     "id": "2016-05-12-065",

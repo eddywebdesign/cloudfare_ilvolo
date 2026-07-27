@@ -55,7 +55,9 @@
       "vita"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/e9e7bea1-24f3-4b7e-969f-05b79180da6a/front-250"
   },
   {
     "id": "2017-10-30-005",
@@ -196,7 +198,8 @@
       "consigli"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-10-30-017",
@@ -319,7 +322,8 @@
       "minimalismo"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-10-30-028",

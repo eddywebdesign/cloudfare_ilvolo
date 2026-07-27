@@ -531,7 +531,9 @@
       "amore"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/ba2c71c6-6379-4c73-bfe1-02b5ae815c82/front-250"
   },
   {
     "id": "2018-03-23-048",

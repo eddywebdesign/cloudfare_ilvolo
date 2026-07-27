@@ -33,7 +33,9 @@
       "felicità"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/98591db1-d94e-4197-98dc-3154609e728d/front-250"
   },
   {
     "id": "2016-03-16-003",
@@ -121,7 +123,8 @@
       "immaginazione"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-03-16-010",
@@ -260,7 +263,9 @@
       "amore"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/5991052c-afea-4604-8b14-8acd957bb7ee/front-250"
   },
   {
     "id": "2016-03-16-021",
@@ -666,7 +671,9 @@
       "amore"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/c36e74e5-8d4d-4a83-b236-2ac3727d49f3/front-250"
   },
   {
     "id": "2016-03-16-054",

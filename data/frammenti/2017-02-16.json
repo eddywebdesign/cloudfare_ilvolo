@@ -132,7 +132,9 @@
       "famiglia"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/23sOxnbvzyuQCX7eyJMQz1OWAGh.jpg"
   },
   {
     "id": "2017-02-16-012",
@@ -728,7 +730,9 @@
       "amore"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/92b34756-5e31-4378-8597-99f07c625ba4/front-250"
   },
   {
     "id": "2017-02-16-066",
@@ -935,6 +939,8 @@
       "cinema"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/2Jgy8eXQOPhi2Mhah0up56izZLa.jpg"
   }
 ]

@@ -144,7 +144,9 @@
       "documentario"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/4jpkjeGbZYcuE07cQqpjTSxjZFL.jpg"
   },
   {
     "id": "2017-01-10-012",
@@ -231,7 +233,8 @@
       "cultura"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true
   },
   {
     "id": "2017-01-10-019",
@@ -389,7 +392,9 @@
       "canzone"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/3abdc928-302b-4617-86d8-1003df7f261f/front-250"
   },
   {
     "id": "2017-01-10-032",
@@ -428,7 +433,8 @@
       "desiderio"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-01-10-035",
@@ -641,7 +647,9 @@
       "perdita"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/i87I2HPumcMkX5Vl48n2XkS5Os7.jpg"
   },
   {
     "id": "2017-01-10-053",

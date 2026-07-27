@@ -77,7 +77,9 @@
       "felicita"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/c69114f3-72ea-4a66-9c12-516c3b12f97f/front-250"
   },
   {
     "id": "2016-04-21-007",
@@ -259,7 +261,9 @@
       "giustizia"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/13dkX39c1jqdBROnziXVwUALrsu.jpg"
   },
   {
     "id": "2016-04-21-023",
@@ -317,7 +321,8 @@
       "censura"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-04-21-028",
@@ -331,7 +336,8 @@
       "attaccamento"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-04-21-029",
@@ -853,7 +859,9 @@
       "paura"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/676bffc9-2abe-4513-8dd1-5f4a3a027eb6/front-250"
   },
   {
     "id": "2016-04-21-075",

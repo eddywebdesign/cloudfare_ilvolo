@@ -217,7 +217,9 @@
     "titolo": "Tell Me That You Love Me",
     "tema": [],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/9aecd1fb-0254-4448-aab8-12f0e76d1e64/front-250"
   },
   {
     "id": "2017-02-21-020",
@@ -319,7 +321,9 @@
     "titolo": "Il conforto",
     "tema": [],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/f3e63f92-fa0f-41b7-94cb-cbf43c3223d7/front-250"
   },
   {
     "id": "2017-02-21-029",
@@ -413,7 +417,8 @@
       "consigli"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-02-21-037",

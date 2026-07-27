@@ -25,7 +25,8 @@
       "relazioni"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-02-22-002",
@@ -237,7 +238,8 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-02-22-020",
@@ -529,7 +531,9 @@
       "viaggio"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/f4764572-4b00-4f24-9181-a0b327f14ee0/front-250"
   },
   {
     "id": "2016-02-22-043",
@@ -648,7 +652,9 @@
       "ascolto"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/d1870855-5b3c-4abf-86e3-eeefe92ff5ed/front-250"
   },
   {
     "id": "2016-02-22-053",

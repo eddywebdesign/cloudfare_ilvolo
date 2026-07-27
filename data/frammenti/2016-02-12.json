@@ -99,7 +99,9 @@
       "fisica"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/372715-M.jpg"
   },
   {
     "id": "2016-02-12-009",
@@ -205,7 +207,8 @@
       "scienza"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true
   },
   {
     "id": "2016-02-12-017",
@@ -703,7 +706,8 @@
       "immagine"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-02-12-058",

@@ -389,7 +389,9 @@
       "sport"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/A0Uq6fZG9UVbaFZmwF593ESz8LE.jpg"
   },
   {
     "id": "2016-02-10-034",
@@ -609,7 +611,9 @@
       "amore"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/f6c357d3-28da-49a1-aaca-96d693dcb9f0/front-250"
   },
   {
     "id": "2016-02-10-051",
@@ -903,7 +907,9 @@
       "relazioni"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/4a097ff5-de62-4636-837d-e4754d6548b8/front-250"
   },
   {
     "id": "2016-02-10-075",

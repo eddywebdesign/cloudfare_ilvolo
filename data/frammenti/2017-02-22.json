@@ -341,7 +341,8 @@
       "scelta"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-02-22-031",
@@ -365,7 +366,9 @@
       "amore"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/54fada37-97c0-4174-ac43-8642222d98b3/front-250"
   },
   {
     "id": "2017-02-22-033",

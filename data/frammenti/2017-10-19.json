@@ -175,7 +175,8 @@
       "animali"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-10-19-016",
@@ -295,7 +296,9 @@
       "storia"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/8087691-M.jpg"
   },
   {
     "id": "2017-10-19-026",
@@ -431,7 +434,8 @@
       "ricordi"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-10-19-038",
@@ -598,7 +602,9 @@
       "disperazione"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/3dbcf2c0-5cc7-4d41-8050-16c72940fc33/front-250"
   },
   {
     "id": "2017-10-19-053",
@@ -678,7 +684,8 @@
       "mente"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-10-19-060",

@@ -32,7 +32,9 @@
       "amore"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/c5a3cf85-85f0-4608-b3be-a4fcc4ff313a/front-250"
   },
   {
     "id": "2016-11-29-003",
@@ -458,7 +460,9 @@
     "titolo": "Volcanic Action of my soul",
     "tema": [],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/d7c0152b-04ae-448c-b81a-e4e5dbcd804f/front-250"
   },
   {
     "id": "2016-11-29-040",

@@ -164,7 +164,8 @@
       "amore"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-03-02-015",
@@ -535,7 +536,9 @@
       "amore"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/a5d104ff-2388-490d-8e21-b1b359aa266b/front-250"
   },
   {
     "id": "2017-03-02-048",
@@ -560,7 +563,8 @@
       "libertà"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true
   },
   {
     "id": "2017-03-02-050",

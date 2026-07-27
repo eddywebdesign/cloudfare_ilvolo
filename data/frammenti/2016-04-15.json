@@ -262,7 +262,9 @@
       "tom jones"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/830c0142-05d6-44f0-b517-8ba2bbd741be/front-250"
   },
   {
     "id": "2016-04-15-023",
@@ -441,7 +443,9 @@
       "amore"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/4wj0T7FSD2FohE1IHAXU3brpL4U.jpg"
   },
   {
     "id": "2016-04-15-038",
@@ -656,7 +660,9 @@
       "solitudine"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/676bffc9-2abe-4513-8dd1-5f4a3a027eb6/front-250"
   },
   {
     "id": "2016-04-15-057",

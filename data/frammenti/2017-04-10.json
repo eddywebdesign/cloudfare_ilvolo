@@ -87,7 +87,9 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/4f091b7d-e92c-4657-ade9-db0b0f668483/front-250"
   },
   {
     "id": "2017-04-10-008",
@@ -428,7 +430,8 @@
       "vita"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-04-10-038",

@@ -194,7 +194,9 @@
       "pubblicità"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/9077ccf3-bdca-4a27-bfce-8f5fba4885cd/front-250"
   },
   {
     "id": "2016-05-25-017",
@@ -607,7 +609,8 @@
       "relazioni"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true
   },
   {
     "id": "2016-05-25-051",
@@ -621,7 +624,9 @@
       "amore"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/u5ahabgPxtLhxSv46458vPn0uSv.jpg"
   },
   {
     "id": "2016-05-25-052",
@@ -740,7 +745,8 @@
       "impegno"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true
   },
   {
     "id": "2016-05-25-062",
@@ -790,7 +796,8 @@
       "Italia"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true
   },
   {
     "id": "2016-05-25-066",
@@ -918,7 +925,8 @@
       "famiglia"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true
   },
   {
     "id": "2016-05-25-076",

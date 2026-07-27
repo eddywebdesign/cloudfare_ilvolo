@@ -359,7 +359,9 @@
       "rolling stones"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/ff7e3f24-2c93-41ed-9101-a19f549c526c/front-250"
   },
   {
     "id": "2016-12-06-032",
@@ -384,7 +386,8 @@
       "educazione"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-12-06-034",

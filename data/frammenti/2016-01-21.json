@@ -22,7 +22,9 @@
     "titolo": "Adventure of a lifetime",
     "tema": [],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/394062f2-389f-49b0-ab69-8d1ce03d1fe4/front-250"
   },
   {
     "id": "2016-01-21-002",
@@ -47,7 +49,8 @@
     "titolo": "101 desideri",
     "tema": [],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true
   },
   {
     "id": "2016-01-21-004",
@@ -125,7 +128,9 @@
     "titolo": "Il marito della parrucchiera",
     "tema": [],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/lLUdQbjvrGFBl4kO18TjemUYxep.jpg"
   },
   {
     "id": "2016-01-21-010",
@@ -370,7 +375,9 @@
     "titolo": "Hello di Adele",
     "tema": [],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/f174f17a-d6f0-4976-a05d-8a82b506483a/front-250"
   },
   {
     "id": "2016-01-21-029",
@@ -439,7 +446,9 @@
     "titolo": "Comfort zone",
     "tema": [],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/13905211-M.jpg"
   },
   {
     "id": "2016-01-21-035",
@@ -453,7 +462,8 @@
       "salvataggio"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true
   },
   {
     "id": "2016-01-21-036",

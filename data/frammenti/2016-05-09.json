@@ -313,7 +313,9 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/d5f0dc5a-e1f2-49e5-ae37-b9c1cc29778b/front-250"
   },
   {
     "id": "2016-05-09-028",
@@ -567,7 +569,9 @@
       "psicologia"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/12998012-M.jpg"
   },
   {
     "id": "2016-05-09-050",

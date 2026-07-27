@@ -702,7 +702,8 @@
       "programmi"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true
   },
   {
     "id": "2016-05-03-059",
@@ -869,7 +870,9 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/660edeb3-6e93-4fd6-a784-20f56dc49e39/front-250"
   },
   {
     "id": "2016-05-03-074",

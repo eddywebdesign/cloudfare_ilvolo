@@ -396,7 +396,9 @@
       "amore"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/a45ad736-a0de-4cfe-9947-7ebe62bb899b/front-250"
   },
   {
     "id": "2016-11-02-035",
@@ -449,7 +451,9 @@
       "storia"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/298095-M.jpg"
   },
   {
     "id": "2016-11-02-039",
@@ -491,7 +495,8 @@
       "avventura"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true
   },
   {
     "id": "2016-11-02-042",
@@ -638,7 +643,9 @@
       "greco"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/36037100-1fab-45fe-a65a-d6dc5ded4421/front-250"
   },
   {
     "id": "2016-11-02-054",

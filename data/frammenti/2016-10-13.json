@@ -149,7 +149,9 @@
       "amore"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/db20d3d2-017d-410b-a768-4099bec012b4/front-250"
   },
   {
     "id": "2016-10-13-013",

@@ -154,7 +154,9 @@
       "vita"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/ier8B7zChS9iX5ODtx996OFfuBM.jpg"
   },
   {
     "id": "2017-10-02-014",
@@ -286,7 +288,8 @@
     "titolo": "Charlotte Gainsbourg - Deadly Valentine",
     "tema": [],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-10-02-026",

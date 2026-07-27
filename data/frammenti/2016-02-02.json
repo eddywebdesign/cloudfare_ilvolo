@@ -32,7 +32,9 @@
       "amore"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/cd9daa8c-9eba-4233-a974-681a19ff68a4/front-250"
   },
   {
     "id": "2016-02-02-003",
@@ -185,7 +187,9 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/e7e8d0d2-3430-47af-9bd4-29b30f969fc8/front-250"
   },
   {
     "id": "2016-02-02-016",
@@ -317,7 +321,9 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/8510506b-f42c-4f60-ab0e-54317e32e3ca/front-250"
   },
   {
     "id": "2016-02-02-027",
@@ -579,7 +585,8 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-02-02-049",

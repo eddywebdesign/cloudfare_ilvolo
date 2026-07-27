@@ -21,7 +21,9 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/f2f8c5eb-e5b1-476a-a686-9dda72962d12/front-250"
   },
   {
     "id": "2016-01-13-002",
@@ -409,7 +411,8 @@
       "comunismo"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true
   },
   {
     "id": "2016-01-13-036",
@@ -550,7 +553,9 @@
       "viaggi"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/10059272-M.jpg"
   },
   {
     "id": "2016-01-13-048",

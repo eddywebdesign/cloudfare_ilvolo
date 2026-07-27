@@ -398,7 +398,8 @@
       "natura"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-03-16-036",
@@ -545,7 +546,9 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/766877a9-a6b4-4c43-b719-0a819fa2942c/front-250"
   },
   {
     "id": "2017-03-16-049",
@@ -580,7 +583,9 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/41975c20-bc6b-4a03-b50e-27b8496b4b75/front-250"
   },
   {
     "id": "2017-03-16-052",

@@ -32,7 +32,8 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-11-29-003",
@@ -984,7 +985,9 @@
       "aziende"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/9242590-M.jpg"
   },
   {
     "id": "2017-11-29-089",

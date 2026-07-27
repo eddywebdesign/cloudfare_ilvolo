@@ -11,7 +11,8 @@
       "testi"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-10-07-001",
@@ -302,7 +303,9 @@
       "nozze"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/us8wVBaCZbY6JEcR6EooHyuf1s7.jpg"
   },
   {
     "id": "2016-10-07-026",
@@ -941,7 +944,9 @@
       "canto"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/6bff58b9-ec07-4409-8c2e-70f85e92a77d/front-250"
   },
   {
     "id": "2016-10-07-079",

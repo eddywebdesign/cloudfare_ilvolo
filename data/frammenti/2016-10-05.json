@@ -22,7 +22,9 @@
       "latino"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/8036187-M.jpg"
   },
   {
     "id": "2016-10-05-002",
@@ -133,7 +135,9 @@
       "canzone"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/df663f24-a676-401f-b7f3-0b95d1e45fb7/front-250"
   },
   {
     "id": "2016-10-05-011",

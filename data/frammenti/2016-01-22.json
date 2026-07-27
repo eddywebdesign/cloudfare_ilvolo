@@ -158,7 +158,8 @@
       "essere mamma"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true
   },
   {
     "id": "2016-01-22-013",
@@ -244,7 +245,9 @@
       "relazioni"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/d7d89272-cbd8-4358-ae85-36ce2ff024e9/front-250"
   },
   {
     "id": "2016-01-22-020",
@@ -882,7 +885,9 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/007ae9c6-f3ec-4e1c-96f4-2035da3ec553/front-250"
   },
   {
     "id": "2016-01-22-071",

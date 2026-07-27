@@ -311,7 +311,9 @@
       "chiesa"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/201269-M.jpg"
   },
   {
     "id": "2016-02-29-027",
@@ -325,7 +327,9 @@
       "natura"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/cw8HPomOzNql3l4xdaJJ8HGIZds.jpg"
   },
   {
     "id": "2016-02-29-028",

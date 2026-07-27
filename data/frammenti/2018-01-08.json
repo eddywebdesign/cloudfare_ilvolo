@@ -135,7 +135,8 @@
       "sostanze"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true
   },
   {
     "id": "2018-01-08-012",
@@ -400,7 +401,9 @@
       "beatles"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/9358e91e-6ab3-4aea-bd27-aedd5a822074/front-250"
   },
   {
     "id": "2018-01-08-034",
@@ -763,7 +766,9 @@
       "natura"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/75b1a33d-41bb-40c9-8ba8-adf652eb5cb5/front-250"
   },
   {
     "id": "2018-01-08-064",

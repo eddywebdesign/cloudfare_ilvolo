@@ -213,7 +213,9 @@
       "influenza"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/2ab2f658-1b09-48c3-bbdc-345cec1aaa3a/front-250"
   },
   {
     "id": "2016-01-11-018",
@@ -293,7 +295,8 @@
       "premio"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-01-11-024",
@@ -339,7 +342,9 @@
       "cinema"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/oKMTFRO9bCOC7FpYy3zstmBel8J.jpg"
   },
   {
     "id": "2016-01-11-028",
@@ -364,7 +369,9 @@
       "regista"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/tpL0BzK2ZrxIqYQbAyjuWYfVvsI.jpg"
   },
   {
     "id": "2016-01-11-030",
@@ -411,7 +418,9 @@
       "genitori"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/mhqVOe6yxBpVQBIdMjDnGDSMTXB.jpg"
   },
   {
     "id": "2016-01-11-034",
@@ -475,7 +484,9 @@
       "giustizia"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/q97e00kaVT4aVDZenZK3ebV6u9t.jpg"
   },
   {
     "id": "2016-01-11-039",
@@ -1120,6 +1131,7 @@
       "politica"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   }
 ]

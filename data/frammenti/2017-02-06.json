@@ -176,7 +176,8 @@
       "nostalgia"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-02-06-016",
@@ -281,7 +282,9 @@
       "recensione"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/cWYy1YTVaZRAuxLtX1tYNvtzAt1.jpg"
   },
   {
     "id": "2017-02-06-025",
@@ -358,7 +361,9 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/b9d4c414-f90e-4fef-a9e4-65acf6fd4692/front-250"
   },
   {
     "id": "2017-02-06-031",
@@ -583,7 +588,9 @@
       "lettura"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/15128804-M.jpg"
   },
   {
     "id": "2017-02-06-051",

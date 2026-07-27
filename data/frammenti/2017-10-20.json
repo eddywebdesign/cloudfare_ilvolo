@@ -65,7 +65,9 @@
       "linguaggio"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/a6df4993-1a5d-420b-83dd-80a1c713c8bb/front-250"
   },
   {
     "id": "2017-10-20-006",
@@ -123,7 +125,9 @@
       "differenze"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/1125ac52-8073-48ea-933d-ed253870cbd9/front-250"
   },
   {
     "id": "2017-10-20-011",
@@ -224,7 +228,8 @@
       "amore"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-10-20-020",

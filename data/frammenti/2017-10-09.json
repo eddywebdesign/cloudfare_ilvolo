@@ -21,7 +21,9 @@
       "amore"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/ff040118-df83-4c52-b595-bffbe72c2268/front-250"
   },
   {
     "id": "2017-10-09-002",
@@ -520,7 +522,8 @@
       "famiglia"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-10-09-047",

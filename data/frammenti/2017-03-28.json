@@ -54,7 +54,8 @@
       "aspettativa"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-03-28-005",
@@ -111,7 +112,8 @@
       "ottimismo"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-03-28-010",
@@ -137,7 +139,9 @@
       "amore"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/007ae9c6-f3ec-4e1c-96f4-2035da3ec553/front-250"
   },
   {
     "id": "2017-03-28-012",

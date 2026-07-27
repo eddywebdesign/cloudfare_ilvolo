@@ -43,7 +43,8 @@
       "musica"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-03-14-004",
@@ -78,7 +79,8 @@
       "silenzio"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-03-14-007",
@@ -549,7 +551,9 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/f6e292ce-c9d8-4ef2-8266-1860011ff77a/front-250"
   },
   {
     "id": "2017-03-14-049",

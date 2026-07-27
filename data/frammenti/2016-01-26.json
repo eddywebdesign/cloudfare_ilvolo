@@ -381,7 +381,9 @@
     "titolo": "Radio DJ",
     "tema": [],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/10800166-M.jpg"
   },
   {
     "id": "2016-01-26-032",
@@ -590,7 +592,9 @@
     "titolo": "Pulp Fiction",
     "tema": [],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://image.tmdb.org/t/p/w200/hOpN58hkQGZph5LHhyRrryy1hzF.jpg"
   },
   {
     "id": "2016-01-26-048",
@@ -762,7 +766,9 @@
     "titolo": "500 Miles",
     "tema": [],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/4b552871-5f1d-4e74-889c-498d8855ed19/front-250"
   },
   {
     "id": "2016-01-26-062",

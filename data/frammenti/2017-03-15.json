@@ -639,7 +639,9 @@
       "amore"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/a10bd49c-052d-4e76-b207-7c2064dcbbd6/front-250"
   },
   {
     "id": "2017-03-15-057",

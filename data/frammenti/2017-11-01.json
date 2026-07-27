@@ -55,7 +55,8 @@
       "romantico"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-11-01-005",
@@ -426,7 +427,9 @@
       "amore"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/c90cb9f0-111f-44ab-a26c-929be3ad0177/front-250"
   },
   {
     "id": "2017-11-01-038",
@@ -774,7 +777,8 @@
       "amore"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-11-01-069",

@@ -375,7 +375,9 @@
       "musica"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/21f630f9-1fbc-42eb-b1b9-f1e6b1455893/front-250"
   },
   {
     "id": "2016-11-11-032",

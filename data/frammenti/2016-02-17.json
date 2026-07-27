@@ -119,7 +119,8 @@
       "esempio"
     ],
     "tipo": "riferimento_film",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true
   },
   {
     "id": "2016-02-17-010",
@@ -351,7 +352,9 @@
       "sviluppo"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/13463103-M.jpg"
   },
   {
     "id": "2016-02-17-030",
@@ -660,7 +663,8 @@
       "cibo"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true
   },
   {
     "id": "2016-02-17-055",

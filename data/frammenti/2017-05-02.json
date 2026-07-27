@@ -21,7 +21,9 @@
       "amore"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/b15698a8-f76a-4a80-9950-74d23b4e0457/front-250"
   },
   {
     "id": "2017-05-02-002",
@@ -200,7 +202,9 @@
       "compassione"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/14830202-M.jpg"
   },
   {
     "id": "2017-05-02-018",
@@ -246,7 +250,9 @@
       "relazione"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/aa9448da-4333-42f6-a37d-022abecbcef3/front-250"
   },
   {
     "id": "2017-05-02-022",
@@ -329,7 +335,8 @@
       "compassione"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-05-02-029",
@@ -343,7 +350,8 @@
       "salvezza"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-05-02-030",
@@ -433,7 +441,8 @@
       "differenza sociale"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2017-05-02-038",
@@ -797,6 +806,7 @@
       "felicità"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true
   }
 ]

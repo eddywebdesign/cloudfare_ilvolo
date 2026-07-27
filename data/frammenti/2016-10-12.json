@@ -651,7 +651,8 @@
       "cultura"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": false
   },
   {
     "id": "2016-10-12-056",
@@ -704,7 +705,9 @@
       "cultura"
     ],
     "tipo": "riferimento_musica",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://coverartarchive.org/release/96e127b3-ad41-4b47-bf6b-e26c3d3188c5/front-250"
   },
   {
     "id": "2016-10-12-060",
@@ -792,7 +795,9 @@
       "giornale"
     ],
     "tipo": "riferimento_libro",
-    "video_url": ""
+    "video_url": "",
+    "confermato_esterno": true,
+    "copertina": "https://covers.openlibrary.org/b/id/1754537-M.jpg"
   },
   {
     "id": "2016-10-12-067",
