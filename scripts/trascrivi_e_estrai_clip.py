@@ -279,7 +279,7 @@ def estrai_riferimenti(testo: str) -> tuple[list[dict], bool]:
     lasciando che l'idempotenza esistente ritenti l'episodio al giro successivo."""
     chunks = [testo[i:i + CHUNK_SIZE] for i in range(0, len(testo), CHUNK_SIZE)]
     n_char = max(len(testo), 1)
-    print(f"    Invio {len(chunks)} chunk (Groq+Cerebras+Gemini)…")
+    print(f"    Invio {len(chunks)} chunk (Groq+Cerebras+Gemini)...")
     tutti: list[dict] = []
     scartati_non_ancorati = 0
     chunk_falliti = 0
@@ -326,7 +326,11 @@ def estrai_riferimenti(testo: str) -> tuple[list[dict], bool]:
     if scartati_non_ancorati:
         print(f"    Totale scartati per allucinazione probabile: {scartati_non_ancorati}")
     if chunk_falliti:
-        print(f"    ⚠️ {chunk_falliti}/{len(chunks)} chunk NON elaborati (budget/errore) — "
+        # Niente caratteri fuori ASCII in questo messaggio: la console Windows (cp1252)
+        # non li sa codificare e il print stesso solleva UnicodeEncodeError, facendo
+        # cadere l'INTERO run proprio mentre segnalava un problema. Successo davvero il
+        # 2026-07-27 durante il banco di prova, su un episodio con chunk falliti.
+        print(f"    [!] {chunk_falliti}/{len(chunks)} chunk NON elaborati (budget/errore) - "
               f"episodio INCOMPLETO, non verra' finalizzato")
     return tutti, chunk_falliti == 0
 

@@ -26,17 +26,17 @@
     },
     {
       "provider": "cerebras",
-      "modello": "llama-3.3-70b",
-      "quota_giorno": 1000000,
-      "pausa_chunk": 13,
-      "nota": "Primo della lista CEREBRAS_MODELLI_PREFERITI, quindi quello che la produzione sceglie oggi da sola."
-    },
-    {
-      "provider": "cerebras",
       "modello": "gpt-oss-120b",
       "quota_giorno": 1000000,
       "pausa_chunk": 25,
-      "nota": "Stesso modello del secondo in lista ma su Cerebras, dove la quota e' 5 volte piu' alta che su Groq: se vince, e' anche sostenibile per il batch."
+      "nota": "E' il modello che la produzione usa GIA' oggi su Cerebras, anche se la lista CEREBRAS_MODELLI_PREFERITI comincia con llama-3.3-70b e llama3.1-70b: verificato il 2026-07-27 interrogando il catalogo reale, quei due nomi NON esistono piu' (il catalogo ha solo gemma-4-31b, gpt-oss-120b, zai-glm-4.7) e la scelta automatica cade sul terzo. Su Cerebras la quota e' 5 volte quella di Groq per lo stesso modello: se vince, e' anche sostenibile per il batch."
+    },
+    {
+      "provider": "cerebras",
+      "modello": "zai-glm-4.7",
+      "quota_giorno": 1000000,
+      "pausa_chunk": 25,
+      "nota": "Altro modello grande realmente presente nel catalogo Cerebras. Come gpt-oss e' un modello 'reasoning', quindi gira con reasoning_effort=low per non sprecare token in ragionamento nascosto."
     },
     {
       "provider": "gemini",
