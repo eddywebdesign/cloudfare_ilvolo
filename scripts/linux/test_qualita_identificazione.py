@@ -215,6 +215,19 @@ def _stesso_titolo(a: str, b: str) -> bool:
     return difflib.SequenceMatcher(None, na, nb).ratio() >= 0.85
 
 
+def opera_riconosciuta(titolo_prodotto: str, opera: dict) -> bool:
+    """Il titolo prodotto identifica QUESTA opera del ground truth?
+
+    Confronta anche i titoli alternativi (titolo originale vs italiano, numeri in
+    cifre vs a lettere). Senza questo, la recall premia i modelli che scrivono i
+    titoli nella stessa lingua del ground truth invece di quelli che identificano
+    meglio: misurato il 2026-07-27, quattro opere realmente trovate da
+    cerebras/gpt-oss-120b ("When Harry Met Sally...", "Two and a Half Men",
+    "Frankie and Johnny", "50 sfumature di grigio") risultavano mancate."""
+    nomi = [opera["titolo"], *opera.get("titoli_alternativi", [])]
+    return any(_stesso_titolo(titolo_prodotto, n) for n in nomi)
+
+
 def misura_recall(riferimenti_dir: Path, ground_truth: dict, campione: list[str]) -> dict:
     """RECALL: quante delle opere realmente presenti nell'episodio sono state
     ritrovate. E' la meta' della qualita' che nessuna metrica basata sui database
@@ -240,7 +253,7 @@ def misura_recall(riferimenti_dir: Path, ground_truth: dict, campione: list[str]
         prodotte = json.loads(fp.read_text(encoding="utf-8"))
         ok_ep, ko_ep = [], []
         for opera in gt["opere"]:
-            match = next((p for p in prodotte if _stesso_titolo(p.get("titolo", ""), opera["titolo"])), None)
+            match = next((p for p in prodotte if opera_riconosciuta(p.get("titolo", ""), opera)), None)
             (ok_ep if match else ko_ep).append((opera, match))
         trovate += ok_ep
         mancate += ko_ep
@@ -344,6 +357,32 @@ def salva_risultato(cartella: Path, provider: str, modello: str, campione: list[
     return fp
 
 
+def ricalcola_recall(dati_run: dict, ground_truth: dict) -> tuple | None:
+    """Ricalcola (recall, trovate, attese) di un run archiviato col ground truth di
+    ADESSO, partendo dalle voci che il run ha salvato.
+
+    Gli episodi falliti/incompleti restano fuori dal denominatore: un chunk perso per
+    rate-limit non e' un'opera che il modello non ha saputo riconoscere."""
+    voci_per_ep: dict[str, list[str]] = {}
+    for v in dati_run.get("voci", []):
+        voci_per_ep.setdefault(v["episodio"], []).append(v.get("titolo", ""))
+    falliti = {f[0] if isinstance(f, (list, tuple)) else f
+               for f in dati_run.get("episodi_falliti", [])}
+    trovate = attese = 0
+    for data_str in dati_run.get("campione", []):
+        gt_ep = ground_truth.get(data_str)
+        if not gt_ep or data_str in falliti:
+            continue
+        prodotti = voci_per_ep.get(data_str, [])
+        for opera in gt_ep["opere"]:
+            attese += 1
+            if any(opera_riconosciuta(t, opera) for t in prodotti):
+                trovate += 1
+    if not attese:
+        return None
+    return trovate / attese, trovate, attese
+
+
 def stampa_confronto(cartella: Path) -> None:
     """Tabella comparativa di tutti i run archiviati. Il numero dice quale modello
     vince; NON dice se le voci hanno senso — per quello va letto l'elenco voci dei
@@ -352,10 +391,18 @@ def stampa_confronto(cartella: Path) -> None:
     if not files:
         print(f"Nessun risultato in {cartella}. Lancia prima almeno un run del banco.")
         return
+    # La recall viene RICALCOLATA dalle voci archiviate usando il ground truth
+    # ATTUALE, non riletta dal numero salvato al momento del run: il ground truth
+    # migliora (nuovi episodi letti, titoli alternativi aggiunti) e i run vecchi
+    # devono restare confrontabili senza doverli rifare — sarebbero ore di budget
+    # buttate per una correzione che non riguarda il modello.
+    gt = carica_insieme_riferimento()
     righe = []
     for fp in files:
         d = json.loads(fp.read_text(encoding="utf-8"))
-        n_ep = len(d.get("campione") or []) or 1
+        ricalcolata = ricalcola_recall(d, gt)
+        if ricalcolata:
+            d["recall"], d["recall_trovate"], d["recall_attese"] = ricalcolata
         righe.append(d)
     # Ordinamento per recall: e' la misura che il progetto non ha mai avuto e la sola
     # che dice quante opere reali sfuggono. A parita', vince chi ancora meglio al testo.

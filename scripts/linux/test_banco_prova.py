@@ -59,6 +59,34 @@ def _scrivi(dir_rif: Path, dir_tra: Path, data: str, voci: list, testo: str | No
             encoding="utf-8")
 
 
+def test_titoli_alternativi() -> None:
+    """Stessa opera con nome diverso. Senza questo la recall misura la lingua del
+    titolo invece della qualita' dell'identificazione: quattro opere trovate da
+    cerebras/gpt-oss-120b risultavano mancate solo perche' scritte in inglese."""
+    print("\nopera_riconosciuta (titoli alternativi)")
+    opera = {"categoria": "film", "titolo": "Harry ti presento Sally",
+             "titoli_alternativi": ["When Harry Met Sally", "When Harry Met Sally..."]}
+    verifica("riconosce il titolo principale", banco.opera_riconosciuta("Harry ti presento Sally", opera))
+    verifica("riconosce il titolo originale", banco.opera_riconosciuta("When Harry Met Sally...", opera))
+    verifica("NON riconosce un film diverso", not banco.opera_riconosciuta("Serendipity", opera))
+    senza_alt = {"categoria": "film", "titolo": "Smoke"}
+    verifica("funziona anche senza alternativi", banco.opera_riconosciuta("Smoke", senza_alt))
+
+    print("\nricalcola_recall (run archiviati rimisurati col ground truth di adesso)")
+    gt = {"EP-1": {"opere": [
+        {"titolo": "Harry ti presento Sally", "titoli_alternativi": ["When Harry Met Sally..."]},
+        {"titolo": "Manhattan"}]}}
+    run = {"campione": ["EP-1"], "episodi_falliti": [],
+           "voci": [{"episodio": "EP-1", "titolo": "When Harry Met Sally..."}]}
+    r = banco.ricalcola_recall(run, gt)
+    verifica("ricalcola contando il titolo alternativo", r == (0.5, 1, 2))
+    run_fallito = dict(run, episodi_falliti=[["EP-1", "incompleto"]])
+    verifica("un episodio fallito esce dal denominatore",
+             banco.ricalcola_recall(run_fallito, gt) is None)
+    verifica("run senza ground truth nel campione -> nessun ricalcolo",
+             banco.ricalcola_recall({"campione": ["EP-IGNOTO"], "voci": []}, gt) is None)
+
+
 def test_recall() -> None:
     """La distinzione che mancava e che ha prodotto la prima misura falsa:
     'mai estratto' non e' 'estratto e vuoto'."""
@@ -180,6 +208,7 @@ def test_archivio_risultati() -> None:
 def main() -> int:
     print("Autotest del banco di prova (nessuna chiamata di rete, nessun LLM)")
     test_stesso_titolo()
+    test_titoli_alternativi()
     test_recall()
     test_ancoraggio()
     test_config_e_tetto()
