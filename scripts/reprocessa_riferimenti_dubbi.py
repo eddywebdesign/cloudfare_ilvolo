@@ -74,7 +74,10 @@ def main() -> None:
             continue
         testo, durata = td
 
-        refs = estrai_riferimenti(testo)
+        refs, completo = estrai_riferimenti(testo)
+        if not completo:
+            print(f"    SALTATO (incompleto, budget/errore): riprovera' al prossimo giro")
+            continue
         print(f"    {len(refs)} riferimenti ri-estratti (ancorati)")
         merge_riferimenti(data_str, refs, testo, durata)
 

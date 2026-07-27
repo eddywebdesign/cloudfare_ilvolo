@@ -240,7 +240,16 @@ def main() -> None:
         durata = segs[-1].get("end", 0.0)
         te = time.time()
         try:
-            refs = estrai_riferimenti(testo)
+            refs, completo = estrai_riferimenti(testo)
+            if not completo:
+                # Un episodio incompleto (chunk falliti per budget/rate-limit) NON va
+                # contato nella misura di qualita': altrimenti un 429 di Groq durante
+                # il test farebbe sembrare il PROVIDER scarso, quando il problema era
+                # solo "non ho potuto controllare", non "ho controllato e non c'era
+                # nulla". Vedi il bug gemello corretto in produzione lo stesso giorno.
+                falliti.append((data_str, "incompleto: chunk falliti per budget/errore"))
+                print(f"[{i}/{len(campione)}] {data_str}: INCOMPLETO, escluso dalla misura", flush=True)
+                continue
             merge_riferimenti(data_str, refs, testo, durata)
             print(f"[{i}/{len(campione)}] {data_str}: {len(refs)} voci in {time.time()-te:.0f}s", flush=True)
         except Exception as e:  # un episodio rotto non deve far perdere tutto il giro

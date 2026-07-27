@@ -21,7 +21,7 @@ from datetime import date
 from pathlib import Path
 
 import requests
-from groq import Groq
+from groq import Groq, RateLimitError as GroqRateLimitError
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from dati_root import logs_root  # noqa: E402
@@ -473,7 +473,37 @@ class _GroqCompletions:
             # confrontabili con le misure gia' fatte, quindi si toglie il vincolo:
             # llm_multi.estrai_json() gestisce gia' array, oggetti e fence markdown.
             kwargs.pop("response_format", None)
-        return self._reale.chat.completions.create(model=model, **kwargs)
+        try:
+            return self._reale.chat.completions.create(model=model, **kwargs)
+        except GroqRateLimitError as e:
+            # ⚠️ BUG CORRETTO 2026-07-27: a differenza di Cerebras/Gemini/Mistral,
+            # questo wrapper non chiamava MAI _marca_cooldown su un 429 — l'eccezione
+            # del client ufficiale Groq passava attraverso senza lasciare alcun
+            # segnale. Risultato osservato dal vivo: provider_disponibile() rivota
+            # Groq identico al chunk successivo (il tracker locale di budget non era
+            # ancora aggiornato/sincronizzato con l'uso reale), producendo 151 errori
+            # 429 consecutivi in un log reale prima che qualcuno se ne accorgesse.
+            # Struttura dell'eccezione verificata leggendo il sorgente installato
+            # (groq/_exceptions.py): .status_code e .response (httpx.Response) sono
+            # attributi reali, non assunti.
+            msg = str(e)
+            # Un limite "per day" (TPD/RPD) non si libera in pochi secondi: usare il
+            # cooldown breve pensato per RPM/TPM (COOLDOWN_429_S=65) qui sarebbe
+            # inutile quanto non avere alcun cooldown. Formato osservato due volte
+            # dal vivo nei log di stanotte: "Please try again in 10m23.6352s" /
+            # "5m28.4928s" — sempre almeno minuti+secondi, mai solo secondi bruti.
+            m = re.search(r"try again in (?:(\d+)h)?(?:(\d+)m)?(\d+(?:\.\d+)?)s", msg)
+            if m:
+                h, mnt, s = m.groups()
+                secondi = int(h or 0) * 3600 + int(mnt or 0) * 60 + float(s)
+                secondi = min(secondi + 5, 3600)  # +5s di margine, tetto 1h di buon senso
+            elif "per day" in msg.lower():
+                secondi = 1800  # limite giornaliero ma tempo non parsabile: prudente
+            else:
+                secondi = COOLDOWN_429_S  # RPM/TPM breve, comportamento gia' noto
+            _marca_cooldown("groq", secondi)
+            print(f"  Groq: 429 ricevuto, cooldown {secondi:.0f}s (era senza cooldown prima del 2026-07-27)")
+            raise
 
 
 class _GroqChat:

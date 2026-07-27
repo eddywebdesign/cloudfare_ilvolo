@@ -756,8 +756,11 @@ def main() -> None:
                     print("  SALTO riferimenti culturali: budget Groq E Cerebras esauriti per oggi.")
                 elif testo_intero.strip():
                     print("  estraggo riferimenti culturali (Groq+Cerebras+Gemini)...")
-                    refs = estrai_riferimenti(testo_intero)
-                    merge_riferimenti(data_str, refs, testo_intero[:2000], durata)
+                    refs, completo = estrai_riferimenti(testo_intero)
+                    if completo:
+                        merge_riferimenti(data_str, refs, testo_intero[:2000], durata)
+                    else:
+                        print("  SALTATO (incompleto, budget/errore): riprovera' al prossimo giro")
             except Exception as e:
                 print(f"  ERRORE estrazione riferimenti: {e} (continuo con il prossimo episodio)")
 

@@ -50,7 +50,14 @@ def main() -> None:
         durata = segs[-1].get("end", 0.0)
 
         print(f"[{data_str}] estraggo riferimenti da {len(testo)} caratteri...")
-        refs = estrai_riferimenti(testo)
+        refs, completo = estrai_riferimenti(testo)
+        if not completo:
+            # Non scrivere il file: l'episodio resta in "da_fare" (l'idempotenza sopra
+            # controlla solo l'esistenza del file) e verra' ritentato al prossimo giro,
+            # quando il budget/provider si sara' liberato. Vedi commento in
+            # estrai_riferimenti() per il bug che questo previene.
+            print(f"[{data_str}] SALTATO (incompleto): riprovera' al prossimo giro")
+            continue
         merge_riferimenti(data_str, refs, testo, durata)
 
     print("Fatto.")

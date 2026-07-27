@@ -251,7 +251,7 @@ def _groq_chunk(testo: str) -> tuple[list[dict], str]:
     return (parsed if isinstance(parsed, list) else []), provider
 
 
-def estrai_riferimenti(testo: str) -> list[dict]:
+def estrai_riferimenti(testo: str) -> tuple[list[dict], bool]:
     """Divide il testo in chunk e aggrega i riferimenti trovati (Groq+Cerebras).
     Un chunk fallito (JSON malformato dal modello, errore di rete, ecc.) viene
     riprovato UNA volta prima di essere scartato, per non perdere dati per un
@@ -262,16 +262,32 @@ def estrai_riferimenti(testo: str) -> list[dict]:
     proviene (_chunk_testo, _start_frac, _end_frac) cosi' merge_riferimenti puo'
     salvare il contesto reale invece di un blob condiviso identico per tutte le
     voci dell'episodio. Le voci il cui titolo/autore non compare nel testo del
-    chunk (probabile allucinazione del modello) vengono scartate qui."""
+    chunk (probabile allucinazione del modello) vengono scartate qui.
+
+    ⚠️ BUG CORRETTO 2026-07-27: ritornava SOLO la lista di riferimenti, senza dire
+    al chiamante se l'estrazione fosse completa. merge_riferimenti() scrive SEMPRE
+    il file anche con lista vuota, e l'idempotenza a valle (esistenza del file =
+    "fatto") non distingueva "ho cercato e non c'era nulla" da "ogni chunk e'
+    fallito per esaurimento budget/rate-limit" — un episodio con TUTTI i chunk
+    falliti per un 429 (visto dal vivo: 151 errori consecutivi in una notte, causati
+    da un buco separato nel cooldown Groq) veniva marcato "fatto" per SEMPRE con
+    zero contenuto reale, verificato su 10/11 episodi scritti in un run reale.
+    Ora ritorna anche `completo: bool` — True solo se OGNI chunk e' stato elaborato
+    con successo da almeno un provider (non necessariamente con risultati: un chunk
+    che risponde con zero riferimenti va bene, e' un chunk FALLITO quello che conta).
+    Il chiamante deve evitare di finalizzare/scrivere il risultato se completo=False,
+    lasciando che l'idempotenza esistente ritenti l'episodio al giro successivo."""
     chunks = [testo[i:i + CHUNK_SIZE] for i in range(0, len(testo), CHUNK_SIZE)]
     n_char = max(len(testo), 1)
     print(f"    Invio {len(chunks)} chunk (Groq+Cerebras+Gemini)…")
     tutti: list[dict] = []
     scartati_non_ancorati = 0
+    chunk_falliti = 0
     for idx, chunk in enumerate(chunks):
         if llm_multi.provider_disponibile() is None:
             print(f"      STOP: budget Groq E Cerebras esauriti per oggi, "
                   f"{len(chunks) - idx} chunk rimasti verranno riprovati domani")
+            chunk_falliti += len(chunks) - idx
             break
         risultati = None
         provider_usato = None
@@ -285,6 +301,8 @@ def estrai_riferimenti(testo: str) -> list[dict]:
                     time.sleep(5)
                 else:
                     print(f"      chunk {idx+1}/{len(chunks)} ERRORE anche al secondo tentativo: {e}")
+        if risultati is None:
+            chunk_falliti += 1
         if risultati is not None:
             char_start = idx * CHUNK_SIZE
             char_end = min(len(testo), char_start + len(chunk))
@@ -307,7 +325,10 @@ def estrai_riferimenti(testo: str) -> list[dict]:
             time.sleep(CHUNK_SLEEP)
     if scartati_non_ancorati:
         print(f"    Totale scartati per allucinazione probabile: {scartati_non_ancorati}")
-    return tutti
+    if chunk_falliti:
+        print(f"    ⚠️ {chunk_falliti}/{len(chunks)} chunk NON elaborati (budget/errore) — "
+              f"episodio INCOMPLETO, non verra' finalizzato")
+    return tutti, chunk_falliti == 0
 
 
 CONDUTTORI_PROGRAMMA = {"fabio volo", "fabio", "volo", "maurizio", "viola"}
@@ -555,7 +576,10 @@ def main() -> None:
             continue
 
         # Estrazione riferimenti
-        refs = estrai_riferimenti(testo)
+        refs, completo = estrai_riferimenti(testo)
+        if not completo:
+            print(f"    SALTATO (incompleto, budget/errore): riprovera' al prossimo giro")
+            continue
         print(f"    {len(refs)} riferimenti trovati")
         for r in refs:
             print(f"      [{r.get('categoria','?')}] {r.get('titolo','?')} ({r.get('autore','?')} {r.get('anno','')})")
