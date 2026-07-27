@@ -372,9 +372,17 @@ class _GeminiCompletions:
         if response_format.get("type") == "json_object":
             payload["generationConfig"]["responseMimeType"] = "application/json"
 
+        # ⚠️ La chiave va nell'HEADER, mai nella query string (corretto 2026-07-27):
+        # con `?key=...` nell'URL, ogni errore HTTP finiva nei log in chiaro, perche'
+        # raise_for_status() include l'URL completo nel messaggio dell'eccezione —
+        # misurate 1295 occorrenze della chiave reale in logs/clasificacion_omv.log.
+        # 'x-goog-api-key' e' la forma supportata da Google; provata dal vivo contro
+        # l'API reale (200 OK) e verificato che il messaggio d'errore non contenga
+        # piu' alcuna chiave.
         r = requests.post(
-            f"{GEMINI_BASE_URL}/models/{model}:generateContent?key={self._api_key}",
-            headers={"Content-Type": "application/json"}, json=payload, timeout=60,
+            f"{GEMINI_BASE_URL}/models/{model}:generateContent",
+            headers={"Content-Type": "application/json", "x-goog-api-key": self._api_key},
+            json=payload, timeout=60,
         )
         # Niente piu' retry-con-attesa-crescente sullo stesso provider (rimosso il
         # 2026-07-24, vedi COOLDOWN_429_S): misurato dal vivo 5335 occorrenze di 429 in

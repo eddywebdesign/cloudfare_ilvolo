@@ -1,0 +1,62 @@
+{
+  "_documentazione": {
+    "cos_e": "Insieme di riferimento (ground truth) costruito A MANO leggendo le puntate INTERE, non a campione. E' l'unico denominatore che permette di misurare la RECALL dell'identificazione: senza di esso si puo' solo contare quante voci escono, mai quante ne mancano.",
+    "come_e_stato_costruito": "2026-07-26: lettura integrale della trascrizione di ogni episodio elencato, annotando ogni opera (libro/film/musica) realmente citata o trasmessa. 2026-07-27: aggiunti i 3 riferimenti persi trovati rileggendo per intero 2021-10-04 e 2021-10-11.",
+    "regola_per_estenderlo": "Un episodio entra qui SOLO dopo essere stato letto per intero da un umano. Mai popolare questo file con l'output della pipeline: diventerebbe un test che misura se stesso, lo stesso errore circolare della '% confermate su database' (vedi project_classificazione_qualita in memoria).",
+    "campo_autore": "Vuoto quando l'autore non e' verificato con certezza. Un autore sbagliato qui e' peggio che nessun autore: renderebbe 'giusta' un'identificazione sbagliata.",
+    "errore_gia_commesso": "Nel primo giro 'I marciapiedi di New York' era stato attribuito a Scorsese: e' il titolo italiano di Sidewalks of New York di Edward Burns. Anche il ground truth va verificato, non e' infallibile per il fatto di essere umano."
+  },
+  "episodi": {
+    "2024-11-04": {
+      "letto_per_intero_il": "2026-07-26",
+      "opere": [
+        {"categoria": "film", "titolo": "Smoke", "autore": "Wayne Wang"},
+        {"categoria": "film", "titolo": "Innamorarsi", "autore": ""},
+        {"categoria": "film", "titolo": "Harry ti presento Sally", "autore": "Rob Reiner"},
+        {"categoria": "film", "titolo": "Serendipity", "autore": "Peter Chelsom"},
+        {"categoria": "film", "titolo": "Ghostbusters", "autore": "Ivan Reitman"},
+        {"categoria": "film", "titolo": "Manhattan", "autore": "Woody Allen"},
+        {"categoria": "film", "titolo": "Paura d'amare", "autore": "Garry Marshall"},
+        {"categoria": "film", "titolo": "C'era una volta in America", "autore": "Sergio Leone"},
+        {"categoria": "film", "titolo": "Mamma ho perso l'aereo", "autore": "Chris Columbus"},
+        {"categoria": "film", "titolo": "Una poltrona per due", "autore": "John Landis"},
+        {"categoria": "film", "titolo": "I marciapiedi di New York", "autore": "Edward Burns"},
+        {"categoria": "musica", "titolo": "I've Got You Under My Skin", "autore": "Cole Porter"},
+        {"categoria": "musica", "titolo": "Innamorarsi", "autore": "Ornella Vanoni"},
+        {"categoria": "musica", "titolo": "Clair de Lune", "autore": "Claude Debussy"},
+        {"categoria": "musica", "titolo": "The Greatest", "autore": "Cat Power"},
+        {"categoria": "musica", "titolo": "New York New York", "autore": ""},
+        {"categoria": "musica", "titolo": "Sapore di sale", "autore": "Gino Paoli"}
+      ]
+    },
+    "2017-11-09": {
+      "letto_per_intero_il": "2026-07-26",
+      "opere": [
+        {"categoria": "libro", "titolo": "La fattoria degli animali", "autore": "George Orwell"},
+        {"categoria": "libro", "titolo": "Il libro della giungla", "autore": "Rudyard Kipling"},
+        {"categoria": "libro", "titolo": "I fili invisibili della natura", "autore": ""},
+        {"categoria": "libro", "titolo": "La meravigliosa vita delle api", "autore": ""},
+        {"categoria": "musica", "titolo": "Loving is Easy", "autore": ""},
+        {"categoria": "musica", "titolo": "Poetica", "autore": "Cesare Cremonini"},
+        {"categoria": "musica", "titolo": "Please Please Please", "autore": ""}
+      ]
+    },
+    "2021-10-04": {
+      "letto_per_intero_il": "2026-07-27",
+      "parziale": true,
+      "_nota": "Registrati solo i riferimenti PERSI dalla pipeline, trovati rileggendo la puntata. Le voci gia' estratte correttamente non sono state ritrascritte qui: questo episodio serve come prova di non-regressione su casi noti come mancanti, non come denominatore completo.",
+      "opere": [
+        {"categoria": "film", "titolo": "Miami Vice", "autore": ""},
+        {"categoria": "film", "titolo": "Dirty Dancing", "autore": "Emile Ardolino"}
+      ]
+    },
+    "2021-10-11": {
+      "letto_per_intero_il": "2026-07-27",
+      "parziale": true,
+      "_nota": "Come sopra: solo il riferimento perso e verificato a mano.",
+      "opere": [
+        {"categoria": "libro", "titolo": "Flaubert", "autore": "Gustave Flaubert"}
+      ]
+    }
+  }
+}
