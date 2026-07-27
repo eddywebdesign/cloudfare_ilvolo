@@ -143,6 +143,24 @@ Regole:
   Commedia") — entrambi presenti nel testo — estrai SEMPRE l'opera CONTENITORE
   come riferimento, MAI il personaggio/elemento come opera a se stante: un
   personaggio dentro un libro non e' un libro diverso scritto dallo stesso autore
+- BRANI TRASMESSI SENZA TITOLO ANNUNCIATO: nel programma la musica viene suonata, e la
+  trascrizione contiene il TESTO CANTATO mentre il titolo non viene mai pronunciato.
+  Se riconosci con certezza il testo di una canzone nota, estraila con il suo titolo e
+  artista VERI anche se non compaiono nel testo (es. versi "if I got locked away and we
+  lost it all today" -> titolo "Locked Away", artista "R. City"; "if I lay here, if I
+  just lay here, would you lie with me" -> "Chasing Cars", "Snow Patrol"). Vale anche per
+  un brano LETTO ad alta voce di cui si nomina solo l'autore. Devi riconoscerlo con
+  certezza: se i versi non ti bastano a identificare l'opera, ESCLUDI — non tirare a
+  indovinare un titolo plausibile. Per queste voci, e SOLO per queste, aggiungi il campo
+  "da_versi": true, così che chi le riceve sappia che il titolo non è nel testo e debba
+  farlo confermare da un database esterno prima di pubblicarlo
+- "titolo" deve essere il TITOLO dell'opera, MAI una descrizione o una perifrasi che la
+  indica: "Il nuovo libro di Fabio Volo", "l'ultimo romanzo di X", "pezzi di Pink Floyd",
+  "la canzone di Battisti" NON sono titoli. Se nel testo l'opera è solo descritta e il
+  titolo non è né pronunciato né da te riconoscibile con certezza, ESCLUDI
+- ESCLUDI i saluti, le frasi di conversazione e i nomi di persona presi come titoli
+  ("Buongiorno direttore", "Grazie Marco", "Stefanino"): un titolo non è una battuta
+  della chiacchiera, anche se compare nel testo
 - Nel dubbio se qualcosa è un'opera reale o solo un nome/argomento menzionato,
   ESCLUDI — meglio pochi riferimenti sicuri che tanti falsi positivi
 
@@ -308,7 +326,20 @@ def estrai_riferimenti(testo: str) -> tuple[list[dict], bool]:
             char_end = min(len(testo), char_start + len(chunk))
             ancorati = []
             for r in risultati:
-                if not _titolo_e_ancorato_al_testo(r.get("titolo", ""), r.get("autore", ""), chunk):
+                # ⚠️ Eccezione all'ancoraggio, aggiunta 2026-07-27: nel programma la
+                # musica viene SUONATA, quindi la trascrizione contiene i versi cantati
+                # mentre il titolo non viene mai pronunciato. Misurato sul campione: meta'
+                # delle opere che nessun modello ritrovava ("Chasing Cars", "Chiodo scaccia
+                # chiodo", "Sapore di sale", "In nome della madre") sono di questo tipo —
+                # per costruzione l'ancoraggio al testo non puo' funzionarci, perche' il
+                # titolo NEL TESTO NON C'E'. Per queste voci il modello dichiara
+                # "da_versi": true e l'ancoraggio viene sostituito da un vincolo piu'
+                # severo, non piu' debole: devono essere confermate da un database esterno
+                # (verifica_riferimenti_esterna) per finire sul sito, mentre una voce
+                # ancorata al testo puo' sopravvivere anche senza conferma.
+                if r.get("da_versi") is True:
+                    r["_richiede_conferma_esterna"] = True
+                elif not _titolo_e_ancorato_al_testo(r.get("titolo", ""), r.get("autore", ""), chunk):
                     scartati_non_ancorati += 1
                     continue
                 r["_chunk_testo"] = chunk
@@ -516,10 +547,17 @@ def merge_riferimenti(data_str: str, nuovi: list[dict], testo: str, durata: floa
         if rid in esistenti:
             continue  # già presente, rispetta il merge
 
+        # ⚠️ Questa lista va tenuta allineata al prompt: la tassonomia approvata il
+        # 2026-07-27 ha aggiunto "teatro" ai libri, "film"/"serie" ai film e le quattro
+        # sottocategorie musicali, ma QUI erano rimaste le vecchie — quindi ogni
+        # sottocategoria nuova veniva silenziosamente azzerata al salvataggio, per
+        # qualunque modello. Ecco perche' nel corpus i film hanno solo "" o
+        # "documentario" e la musica solo "": non era (solo) la verifica esterna che
+        # non era passata, era questo filtro che le buttava via.
         sottocat_valide = {
-            "libro": {"romanzo", "poesia", "saggio", "citazione", "lettura_volo", ""},
-            "film":  {"documentario", ""},
-            "musica": {""},
+            "libro": {"romanzo", "poesia", "saggio", "teatro", "citazione", "lettura_volo", ""},
+            "film":  {"film", "serie", "documentario", ""},
+            "musica": {"canzone", "classica", "opera", "colonna_sonora", ""},
         }
         sottocat = (ref.get("sottocategoria") or "").lower().strip()
         if sottocat not in sottocat_valide.get(cat, {""}):
@@ -540,6 +578,12 @@ def merge_riferimenti(data_str: str, nuovi: list[dict], testo: str, durata: floa
             "end": ref_end,
             "episodio_data": data_str,
         }
+        # Voce riconosciuta dai versi cantati: il titolo NON e' nel testo, quindi non ha
+        # superato l'ancoraggio ma un vincolo diverso — deve essere confermata da un
+        # database esterno per poter essere pubblicata. Il campo va conservato nel file,
+        # altrimenti a valle nessuno sa che quella voce ha bisogno di piu' prove.
+        if ref.get("_richiede_conferma_esterna"):
+            esistenti[rid]["da_versi"] = True
         titoli_per_categoria.setdefault(cat, []).append(titolo)
         aggiunti += 1
 
