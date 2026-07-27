@@ -60,7 +60,29 @@ DATASET_CONFIG = {
 }
 
 TMDB_KEY_FILE = Path.home() / "TMDB API.txt"
+GOOGLE_BOOKS_KEY_FILE = Path.home() / "API_Google_Books.txt"
 USER_AGENT = "IlVoloDelMattinoArchivio/1.0 (uso non commerciale, archivio fan Radio Deejay)"
+
+WIKIDATA_API = "https://www.wikidata.org/w/api.php"
+GOOGLE_BOOKS_API = "https://www.googleapis.com/books/v1/volumes"
+WIKIDATA_SLEEP = 0.35   # Wikidata rifiuta le richieste troppo ravvicinate rispondendo
+# con contenuto non-JSON (misurato il 2026-07-27): mai chiamare .json() senza rete.
+GOOGLE_BOOKS_TENTATIVI = 3  # i 503 sono frequenti e intermittenti, non definitivi
+
+# Parole spia nella descrizione italiana di Wikidata, per categoria attesa. Servono
+# perche' la ricerca grezza restituisce l'entita' piu' POPOLARE col quel nome, non
+# quella del tipo giusto: misurato il 2026-07-27, "Fantozzi" restituiva la persona
+# Paolo Villaggio, "Aida" restituiva "prenome", "Il libro della giungla" il film del
+# 2016 invece del libro. Con questo filtro tornano tutti corretti.
+WIKIDATA_SPIE = {
+    "libro": ("libro", "romanzo", "poesia", "poema", "saggio", "racconto", "raccolta",
+              "opera letteraria", "testo", "commedia", "tragedia", "fumetto", "romanzo grafico",
+              "book", "novel", "poem", "essay", "short story"),
+    "film": ("film", "serie televisiva", "cortometraggio", "documentario", "miniserie",
+             "programma televisivo", "sitcom", "movie", "television series", "tv series"),
+    "musica": ("canzone", "brano", "opera lirica", "composizione", "album", "singolo",
+               "sinfonia", "aria", "musica", "song", "album", "opera", "composition"),
+}
 
 SOGLIA_ALTA = 0.72   # sopra: confermato automaticamente
 SOGLIA_BASSA = 0.45  # sotto: quasi certamente falso positivo, segnalato come tale
@@ -119,6 +141,155 @@ SOGLIA_TITOLO_SENZA_AUTORE = 0.90  # quando l'autore originale e' vuoto: sopra =
 # vuoto, quindi finiva SEMPRE in "dubbio" anche quando il titolo era perfetto (caso
 # A) o quando era chiaramente rumore (caso B). L'autore vuoto non e' un errore -
 # semplicemente non e' mai stato tentato - quindi va giudicato SOLO sul titolo.
+
+
+def _google_books_key() -> str:
+    """Chiave Google Books, opzionale: se manca, quel database viene semplicemente
+    saltato invece di far fallire tutta la verifica."""
+    if not GOOGLE_BOOKS_KEY_FILE.exists():
+        return ""
+    return GOOGLE_BOOKS_KEY_FILE.read_text(encoding="utf-8").strip()
+
+
+def cerca_google_books(titolo: str, autore: str) -> tuple[float, str, str]:
+    """Cerca un libro su Google Books. Ritorna (punteggio, descrizione, copertina).
+
+    Perche' serve accanto a Open Library (misurato il 2026-07-27 sui casi reali che
+    la pipeline scartava): Open Library e' debole sull'editoria italiana e dava ZERO
+    risultati per "Cinquanta sfumature di grigio" e "I fili invisibili della natura",
+    e per "Anna" di Ammaniti restituiva un libro sudafricano omonimo. Google Books
+    trova correttamente tutti e tre.
+
+    ⚠️ Punteggio -1.0 = NON HO POTUTO CHIEDERE (rete, 503, chiave assente), che NON
+    e' "il libro non esiste": il chiamante non deve mai scartare una voce per questo.
+    E' la stessa distinzione che mancava nel bug Groq del 27/07, dove "chunk fallito"
+    veniva scritto come "nessun riferimento trovato". I 503 di Google Books sono
+    frequenti e intermittenti, quindi si riprova con attesa crescente."""
+    key = _google_books_key()
+    if not key:
+        return -1.0, "chiave Google Books assente", ""
+    query = f'intitle:"{titolo}"' + (f' inauthor:"{autore}"' if autore else "")
+    risposta = None
+    for tentativo in range(GOOGLE_BOOKS_TENTATIVI):
+        try:
+            risposta = requests.get(GOOGLE_BOOKS_API, timeout=20,
+                                    params={"q": query, "maxResults": 5, "key": key})
+        except Exception as e:
+            return -1.0, f"errore rete Google Books: {e}", ""
+        if risposta.status_code == 200:
+            break
+        time.sleep(1.5 * (tentativo + 1))
+    else:
+        return -1.0, f"Google Books non raggiungibile (HTTP {risposta.status_code})", ""
+
+    items = risposta.json().get("items", [])
+    if not items:
+        return 0.0, "nessun risultato Google Books", ""
+    migliore = (0.0, "", "")
+    for it in items:
+        vi = it.get("volumeInfo", {})
+        sim_titolo = _similarita(titolo, vi.get("title", ""))
+        autori = vi.get("authors", []) or []
+        sim_autore = max((_similarita_autore(autore, a) for a in autori), default=0.0)
+        # Stessa formula di verifica_libro: il titolo pesa 70%, l'autore 30%. Con
+        # autore mai estratto si giudica sul solo titolo, come gia' fa Open Library.
+        punteggio = sim_titolo * 0.7 + sim_autore * 0.3 if autore else sim_titolo
+        if punteggio > migliore[0]:
+            img = (vi.get("imageLinks") or {}).get("thumbnail", "")
+            migliore = (punteggio, f"{vi.get('title','')} - {', '.join(autori[:2])}", img)
+    return migliore
+
+
+def cerca_wikidata(titolo: str, autore: str, categoria: str) -> tuple[float, str, str]:
+    """Cerca un'opera su Wikidata, filtrando per la categoria attesa.
+
+    E' l'unico database provato che copre con lo stesso endpoint libri, film, serie,
+    opere liriche e canzoni, gratis e senza chiave — e copre proprio i buchi degli
+    altri tre (misurato il 2026-07-27): l'opera lirica (MusicBrainz rispondeva con
+    una singola aria per "Aida" e col Rigoletto per "La traviata"), le poesie dentro
+    una raccolta ("Il sabato del villaggio"), le serie TV (TMDB non espone i
+    creatori, quindi "Miami Vice" veniva sempre declassato).
+
+    Il filtro per categoria NON e' un dettaglio: senza, la ricerca restituisce
+    l'entita' piu' popolare con quel nome — "Fantozzi" da' la PERSONA Paolo
+    Villaggio, "Aida" da' "prenome". Si cerca prima in italiano (il corpus e'
+    italiano) e si ripiega sull'inglese, che copre i titoli originali stranieri.
+
+    Punteggio -1.0 = non ho potuto chiedere, vedi cerca_google_books()."""
+    spie = WIKIDATA_SPIE.get(categoria, ())
+    for lingua in ("it", "en"):
+        try:
+            r = requests.get(WIKIDATA_API, headers={"User-Agent": USER_AGENT}, timeout=15,
+                             params={"action": "wbsearchentities", "search": titolo,
+                                     "language": lingua, "uselang": lingua,
+                                     "format": "json", "limit": 10, "type": "item"})
+            r.raise_for_status()
+            risultati = r.json().get("search", [])
+        except Exception as e:
+            # Wikidata risponde con HTML (non JSON) quando limita le richieste: va
+            # trattato come "non ho potuto chiedere", non come "non esiste".
+            return -1.0, f"errore Wikidata: {e}", ""
+        time.sleep(WIKIDATA_SLEEP)
+
+        for it in risultati:
+            descrizione = (it.get("description") or "").lower()
+            if not any(s in descrizione for s in spie):
+                continue
+            sim_titolo = _similarita(titolo, it.get("label", ""))
+            # L'autore non e' un campo strutturato qui: la descrizione italiana di
+            # Wikidata lo contiene quasi sempre in chiaro ("romanzo scritto da E. L.
+            # James", "opera lirica di Giuseppe Verdi"), quindi lo si cerca li'.
+            sim_autore = _similarita_autore(autore, descrizione) if autore else 0.0
+            if autore and sim_autore == 0.0:
+                # Autore proposto assente dalla descrizione: non basta a scartare
+                # (la descrizione puo' non nominarlo), ma non merita il bonus.
+                punteggio = sim_titolo * 0.8
+            else:
+                punteggio = sim_titolo * 0.7 + (sim_autore * 0.3 if autore else sim_titolo * 0.3)
+            if punteggio > 0:
+                return (punteggio,
+                        f"{it.get('label','')} - {it.get('description','')} [wikidata:{it.get('id')}]",
+                        "")
+    return 0.0, "nessun match Wikidata della categoria attesa", ""
+
+
+def verifica_con_fallback(titolo: str, autore: str, categoria: str,
+                          primo: tuple[float, str, str, str]) -> tuple[float, str, str, str]:
+    """Se il database principale non ha confermato, interroga gli altri prima di
+    condannare la voce.
+
+    Il principio, deciso con l'utente il 2026-07-27: "la verita' la dicono i
+    database, un'opera esiste SOLO se e' li' dentro" — ma allora quei database vanno
+    interrogati tutti, e nel modo che ciascuno si aspetta. Misurato quel giorno: 9
+    opere reali su 9 (Don Camillo, Fantozzi, Miami Vice, La traviata, Aida, Il sabato
+    del villaggio, Cinquanta sfumature di grigio, Il libro della giungla, Anna)
+    venivano scartate da un solo database interrogato male, non perche' non esistano.
+
+    ⚠️ Un punteggio negativo che arriva da qui significa "non ho potuto chiedere":
+    in quel caso si restituisce il risultato del database principale, MAI uno scarto
+    - una voce non deve morire per un 503.
+    """
+    punteggio, descrizione, copertina, sottocat = primo
+    if punteggio >= SOGLIA_ALTA:
+        return primo
+
+    tentativi = []
+    if categoria == "libro":
+        tentativi.append(("google books", lambda: cerca_google_books(titolo, autore)))
+    tentativi.append(("wikidata", lambda: cerca_wikidata(titolo, autore, categoria)))
+
+    for nome, cerca in tentativi:
+        try:
+            p, d, c = cerca()
+        except Exception as e:
+            print(f"      ({nome} non interrogabile: {e})")
+            continue
+        if p < 0:
+            # Non raggiungibile: non e' una prova di inesistenza, si prosegue.
+            continue
+        if p > punteggio:
+            punteggio, descrizione, copertina = p, f"{d} [via {nome}]", (copertina or c)
+    return punteggio, descrizione, copertina, sottocat
 
 
 def verifica_libro(titolo: str, autore: str) -> tuple[float, str, str, str]:
@@ -484,14 +655,17 @@ def main() -> None:
         autore = r.get("autore", "")
         try:
             if categoria == "libro":
-                punteggio, match, copertina, sub_suggerita = verifica_libro(titolo, autore)
+                primo = verifica_libro(titolo, autore)
                 time.sleep(0.35)  # margine sotto ~3 richieste/secondo
             elif categoria == "film":
-                punteggio, match, copertina, sub_suggerita = verifica_film(titolo, autore, tmdb_key)
+                primo = verifica_film(titolo, autore, tmdb_key)
                 time.sleep(0.05)
             else:  # musica
-                punteggio, match, copertina, sub_suggerita = verifica_musica(titolo, autore)
+                primo = verifica_musica(titolo, autore)
                 time.sleep(MUSICBRAINZ_SLEEP)
+            # Il database principale non basta da solo: vedi verifica_con_fallback().
+            punteggio, match, copertina, sub_suggerita = verifica_con_fallback(
+                titolo, autore, categoria, primo)
         except Exception as e:
             print(f"  [{i+1}/{len(tutte_le_voci)}] ERRORE imprevisto su {titolo!r}: {e}, salto")
             continue
