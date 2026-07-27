@@ -67,16 +67,42 @@ Restituisci un array JSON (vuoto [] se non ci sono riferimenti chiari):
 ]
 
 Regole:
-- categoria: solo "film", "libro" o "musica"
-- sottocategoria per "libro": "romanzo" | "poesia" | "saggio" | "citazione" | "lettura_volo" | "" (vuoto se generico)
+- categoria: solo "film", "libro" o "musica" (tassonomia approvata 2026-07-27: il primo
+  livello resta questo perché è ciò che i database esterni di verifica sanno confermare —
+  Open Library per i libri, TMDB per film/serie, MusicBrainz per la musica. Il teatro NON è
+  una categoria a sé: va sotto "libro"/"teatro", perché non esiste un database pubblico
+  altrettanto solido per verificarlo — come categoria propria sarebbe l'unica priva di
+  verifica automatica)
+- sottocategoria per "libro": "romanzo" | "poesia" | "saggio" | "teatro" | "citazione" | \
+"lettura_volo" | "" (vuoto se generico)
   - "poesia": testi poetici, liriche, componimenti (es. Invictus, Divina Commedia)
-  - "citazione": frasi o brani letti/citati da Fabio in trasmissione
-  - "lettura_volo": Fabio legge ad alta voce un brano durante la puntata
+  - "teatro": testi teatrali, opere drammaturgiche (es. Amleto, Sei personaggi in cerca
+    d'autore) — non film/adattamenti cinematografici di un'opera teatrale, quelli restano
+    "film"
+  - "citazione": una frase o un brano citato DI PASSAGGIO nella conversazione, senza che
+    sia stato scelto in anticipo come lettura
+  - "lettura_volo": Fabio Volo SCEGLIE un testo e lo legge ad alta voce come momento
+    dedicato della puntata — è il gesto editoriale che conta, non solo il contenuto letto.
+    ⚠️ Distinzione importante e spesso confusa: "citazione" è portata nel discorso,
+    "lettura_volo" è un momento di lettura scelto e annunciato come tale (es. "adesso vi
+    leggo una cosa", "ho scelto questo testo per voi") — se il testo indica che Fabio lo
+    sta leggendo come lettura preparata, usa SEMPRE "lettura_volo", non "citazione"
   - "saggio": saggistica, filosofia, spiritualità, self-help
   - "romanzo": narrativa fiction o non-fiction
-- sottocategoria per "film": "documentario" | "" (vuoto se fiction/generico)
-- sottocategoria per "musica": sempre "" (vuoto)
-- "libro" include poesie, saggi, romanzi (autore = poeta/scrittore)
+- sottocategoria per "film": "film" | "serie" | "documentario"
+  - "serie": serie TV, miniserie, produzioni a stagioni/episodi (es. Breaking Bad,
+    Stranger Things, Gomorra la serie) — MAI "film" per queste
+  - "documentario": film/serie documentaristici
+  - "film": lungometraggio di finzione, il caso di default
+- sottocategoria per "musica": "canzone" | "classica" | "opera" | "colonna_sonora" | "" (vuoto
+  se non distinguibile)
+  - "classica": composizioni di musica classica/orchestrale (es. una sinfonia di Beethoven,
+    un notturno di Chopin) — se l'autore è un compositore classico noto e non un artista
+    pop/rock, quasi certamente è "classica"
+  - "opera": opera lirica (es. La Traviata, Rigoletto, Tosca)
+  - "colonna_sonora": musica composta specificamente per un film/serie, nominata come tale
+  - "canzone": musica pop/rock/cantautorale, il caso di default
+- "libro" include poesie, saggi, romanzi, testi teatrali (autore = poeta/scrittore/drammaturgo)
 - Se un titolo è sia poesia sia film (es. Invictus), crea DUE entry separate
 - anno: anno di uscita/pubblicazione (stringa vuota se sconosciuto)
 - autore: OBBLIGATORIO — regista/scrittore/artista che ha creato l'opera. Se non riesci

@@ -121,10 +121,15 @@ SOGLIA_TITOLO_SENZA_AUTORE = 0.90  # quando l'autore originale e' vuoto: sopra =
 # semplicemente non e' mai stato tentato - quindi va giudicato SOLO sul titolo.
 
 
-def verifica_libro(titolo: str, autore: str) -> tuple[float, str, str]:
-    """Cerca su Open Library, ritorna (similarita' massima, descrizione del match,
-    URL copertina o '' se non disponibile). Nessuna chiave richiesta ne' per la
-    ricerca ne' per le copertine (covers.openlibrary.org e' pubblico).
+def verifica_libro(titolo: str, autore: str) -> tuple[float, str, str, str]:
+    """Cerca su Open Library, ritorna (punteggio, descrizione del match, URL
+    copertina, sottocategoria — sempre '' qui: a differenza di film/serie (TMDB) e
+    classica/opera (tag MusicBrainz), Open Library non ha un segnale abbastanza
+    affidabile per distinguere 'teatro' dalle altre sottocategorie di libro, quindi
+    quella resta a carico del prompt/modello, non del database. Il quarto valore
+    esiste solo per uniformita' di firma con verifica_film/verifica_musica).
+    Nessuna chiave richiesta ne' per la ricerca ne' per le copertine
+    (covers.openlibrary.org e' pubblico).
 
     Aggiunto 2026-07-23 (caso reale trovato: "Ulisse" attribuito a "Dante Alighieri" —
     Ulisse e' un personaggio DENTRO l'Inferno di Dante, non un'opera a se' stante):
@@ -147,7 +152,7 @@ def verifica_libro(titolo: str, autore: str) -> tuple[float, str, str]:
         resp.raise_for_status()
         docs = resp.json().get("docs", [])
     except Exception as e:
-        return -1.0, f"errore rete: {e}", ""
+        return -1.0, f"errore rete: {e}", "", ""
     migliore = (0.0, "", "")
     titolo_certo_ma_autore_estraneo = False
     miglior_sim_titolo = 0.0
@@ -171,15 +176,19 @@ def verifica_libro(titolo: str, autore: str) -> tuple[float, str, str]:
             min(migliore[0], SOGLIA_BASSA - 0.01),
             migliore[1] + " [titolo reale ma nessun autore trovato somiglia a "
                           f"{autore!r}: attribuzione probabilmente sbagliata]",
-            migliore[2],
+            migliore[2], "",
         )
     if not autore and docs:
         # Autore mai estratto in origine (non sbagliato, solo assente): giudicare
         # SOLO sul titolo, la formula 70/30 non puo' mai confermarlo altrimenti.
         if miglior_sim_titolo >= SOGLIA_TITOLO_SENZA_AUTORE:
-            return (max(migliore[0], SOGLIA_ALTA + 0.01), migliore[1] + " [confermato solo per titolo, autore mai estratto]", migliore[2])
-        return (min(migliore[0], SOGLIA_BASSA - 0.01), migliore[1] + " [titolo non abbastanza simile, probabile rumore di chiacchiera]", migliore[2])
-    return migliore
+            return (max(migliore[0], SOGLIA_ALTA + 0.01),
+                    migliore[1] + " [confermato solo per titolo, autore mai estratto]",
+                    migliore[2], "")
+        return (min(migliore[0], SOGLIA_BASSA - 0.01),
+                migliore[1] + " [titolo non abbastanza simile, probabile rumore di chiacchiera]",
+                migliore[2], "")
+    return (*migliore, "")
 
 
 TMDB_IMG_BASE = "https://image.tmdb.org/t/p/w200"
@@ -202,7 +211,21 @@ def _tmdb_registi(movie_id: int, tmdb_key: str) -> list[str]:
     return [c.get("name", "") for c in crew if c.get("job") == "Director"]
 
 
-def verifica_film(titolo: str, autore: str, tmdb_key: str) -> tuple[float, str, str]:
+def _tmdb_cerca(endpoint: str, titolo: str, tmdb_key: str) -> list[dict]:
+    """endpoint: 'movie' o 'tv'. Wrapper minimale per non duplicare i parametri."""
+    try:
+        resp = requests.get(
+            f"https://api.themoviedb.org/3/search/{endpoint}",
+            params={"api_key": tmdb_key, "query": titolo, "language": "it-IT"},
+            timeout=10,
+        )
+        resp.raise_for_status()
+        return resp.json().get("results", [])
+    except Exception:
+        return []
+
+
+def verifica_film(titolo: str, autore: str, tmdb_key: str) -> tuple[float, str, str, str]:
     """Cerca su TMDB, ritorna (punteggio, descrizione del match, URL locandina).
 
     ⚠️ BUG CORRETTO 2026-07-26: questa funzione riceveva `autore` e NON LO USAVA MAI
@@ -220,66 +243,137 @@ def verifica_film(titolo: str, autore: str, tmdb_key: str) -> tuple[float, str, 
     Ora applica la STESSA logica gia' collaudata in verifica_libro/verifica_musica:
     punteggio combinato titolo 70% + autore 30%, declassamento esplicito quando il
     titolo e' certo ma nessun regista somiglia a quello proposto, e giudizio sul
-    solo titolo quando l'autore non e' mai stato estratto."""
-    try:
-        resp = requests.get(
-            "https://api.themoviedb.org/3/search/movie",
-            params={"api_key": tmdb_key, "query": titolo, "language": "it-IT"},
-            timeout=10,
-        )
-        resp.raise_for_status()
-        risultati = resp.json().get("results", [])
-    except Exception as e:
-        return -1.0, f"errore rete: {e}", ""
+    solo titolo quando l'autore non e' mai stato estratto.
 
-    # Prima passata sui soli titoli: identifica i candidati migliori senza spendere
-    # una chiamata /credits per ognuno (TMDB non ha un limite stretto, ma cinque
-    # chiamate extra per voce su migliaia di voci sono tempo reale sprecato).
+    ⚠️ AGGIORNATO 2026-07-27 (tassonomia): cerca ANCHE su /search/tv, non solo
+    /search/movie — TMDB tiene film e serie in archivi separati, motivo per cui
+    prima Breaking Bad/Stranger Things/Gomorra risultavano tutte "film". La
+    sottocategoria (film/serie/documentario) viene DERIVATA da quale endpoint ha
+    dato il match migliore, non fatta indovinare al modello nel prompt: il database
+    lo sa gia' con certezza, farlo dire al modello sarebbe un'altra fonte di errore
+    come quella appena corretta sugli autori. Il quarto elemento ritornato e' la
+    sottocategoria suggerita ('' se il match non e' abbastanza forte da fidarsene)."""
+    risultati_movie = _tmdb_cerca("movie", titolo, tmdb_key)
+    risultati_tv = _tmdb_cerca("tv", titolo, tmdb_key)
+    if not risultati_movie and not risultati_tv:
+        return -1.0, "nessun risultato TMDB (movie/tv)", "", ""
+
+    # Prima passata sui soli titoli, su ENTRAMBI gli endpoint insieme: identifica i
+    # candidati migliori senza spendere una chiamata /credits per ognuno (TMDB non ha
+    # un limite stretto, ma chiamate extra per ogni voce su migliaia sono tempo sprecato).
     candidati = []
-    for r in risultati[:5]:
-        sim_titolo = max(_similarita(titolo, r.get(campo, "")) for campo in ("title", "original_title"))
-        candidati.append((sim_titolo, r))
+    for tipo, risultati, campi_titolo in (
+        ("film", risultati_movie, ("title", "original_title")),
+        ("serie", risultati_tv, ("name", "original_name")),
+    ):
+        for r in risultati[:5]:
+            sim_titolo = max(_similarita(titolo, r.get(c, "") or "") for c in campi_titolo)
+            candidati.append((sim_titolo, tipo, r))
     candidati.sort(key=lambda c: c[0], reverse=True)
 
-    migliore = (0.0, "", "")
+    migliore = (0.0, "", "", "")
+    migliore_autore_verificato = False  # True solo se il VINCITORE ATTUALE ha
+    # davvero superato il controllo regista (tipo=="film" e sim_autore alta) — non
+    # basta che qualche candidato l'abbia superato, deve averlo fatto proprio quello
+    # che vince, altrimenti un remake con lo stesso titolo ma regista diverso
+    # protegge indebitamente un match non verificato (vedi bug sotto).
     titolo_certo_ma_autore_estraneo = False
     miglior_sim_titolo = candidati[0][0] if candidati else 0.0
+    SOGLIA_AUTORE_VERIFICATO = 0.5  # sim_autore sopra questa soglia = il regista
+    # trovato somiglia abbastanza a quello proposto da considerarlo lo stesso film,
+    # non solo "non palesemente estraneo" (SOGLIA_AUTORE_ESTRANEO=0.25 e' troppo
+    # permissiva per questo scopo specifico).
 
-    for sim_titolo, r in candidati[:3]:
-        registi = _tmdb_registi(r.get("id"), tmdb_key) if autore else []
+    for sim_titolo, tipo, r in candidati[:3]:
+        registi = (_tmdb_registi(r.get("id"), tmdb_key) if (autore and tipo == "film") else [])
+        # Le serie TV non hanno un "regista" unico in TMDB (created_by e' piu' vicino
+        # a "ideatore", spesso vuoto o multiplo per produzioni corali) — per le serie
+        # ci si affida al solo titolo, come gia' fatto per la musica senza autore.
         sim_autore = max((_similarita_autore(autore, d) for d in registi), default=0.0)
-        if autore and sim_titolo >= SOGLIA_TITOLO_CERTO and sim_autore < SOGLIA_AUTORE_ESTRANEO:
+        if autore and tipo == "film" and sim_titolo >= SOGLIA_TITOLO_CERTO and sim_autore < SOGLIA_AUTORE_ESTRANEO:
             titolo_certo_ma_autore_estraneo = True
-        punteggio = sim_titolo * 0.7 + sim_autore * 0.3 if autore else sim_titolo
+        punteggio = sim_titolo * 0.7 + sim_autore * 0.3 if (autore and tipo == "film") else sim_titolo
         if punteggio > migliore[0]:
-            anno = (r.get("release_date") or "")[:4]
+            nome = r.get("title") if tipo == "film" else r.get("name")
+            data_campo = "release_date" if tipo == "film" else "first_air_date"
+            anno = (r.get(data_campo) or "")[:4]
             poster = r.get("poster_path")
             cover_url = f"{TMDB_IMG_BASE}{poster}" if poster else ""
-            desc = f"{r.get('title')} ({anno})"
+            desc = f"{nome} ({anno})"
             if registi:
                 desc += f" — regia: {', '.join(registi[:2])}"
-            migliore = (punteggio, desc, cover_url)
+            sub = tipo if sim_titolo >= SOGLIA_TITOLO_CERTO else ""
+            migliore = (punteggio, desc, cover_url, sub)
+            migliore_autore_verificato = bool(autore) and tipo == "film" and sim_autore >= SOGLIA_AUTORE_VERIFICATO
 
-    if titolo_certo_ma_autore_estraneo and migliore[0] < SOGLIA_ALTA:
+    # ⚠️ BUG CORRETTO 2026-07-27, due giri nella stessa notte:
+    # (1) la ricerca ANCHE su /search/tv permette a una serie omonima non
+    #     verificata (le serie non passano MAI dal controllo regista) di vincere
+    #     con punteggio 1.0 sul solo titolo, scavalcando un film con l'autore
+    #     sbagliato PRIMA che il declassamento sotto scattasse (la condizione
+    #     originale guardava "migliore[0] < SOGLIA_ALTA", che con la serie vincente
+    #     non era piu' vera). Corretto rendendo il declassamento incondizionato.
+    # (2) MA cosi' facendo si rompe il caso legittimo di un remake (es. Ghostbusters
+    #     2016/Feig vs 1984/Reitman): il declassamento scattava SEMPRE se un
+    #     QUALSIASI candidato nel pool aveva l'autore sbagliato, anche quando il
+    #     vincitore vero era un ALTRO candidato con l'autore giusto (il film 1984
+    #     con Reitman, che vinceva onestamente col punteggio combinato). Provato dal
+    #     vivo: Ghostbusters/Ivan Reitman e Serendipity/Peter Chelsom, entrambi
+    #     corretti, finivano scartati per colpa di un candidato estraneo nel pool.
+    # Fix: si declassa solo se il VINCITORE ATTUALE non ha superato il controllo
+    # regista lui stesso — un film diverso con autore sbagliato nello stesso pool
+    # non deve piu' contaminare un match che ha vinto onestamente.
+    #
+    # LIMITE NOTO (non risolto stanotte, scelta deliberata): se una serie autentica
+    # (es. Stranger Things, creatori Duffer Brothers) condivide il titolo con un
+    # film INDIPENDENTE e non correlato (es. un film indie del 2013 chiamato anch'esso
+    # "Stranger Things"), quel film irrilevante fa scattare comunque il declassamento,
+    # perche' per le serie non esiste un controllo regista/creatori (TMDB lo espone
+    # solo su /tv/{id}, non implementato). Risultato: la serie corretta finisce in
+    # coda di revisione umana invece che confermata subito. Si accetta questo falso
+    # negativo (nella direzione sicura: chiede revisione, non conferma alla cieca)
+    # piuttosto che tentare un'euristica affrettata che rischi di riaprire la falla
+    # vera (autore inventato confermato) risolta sopra. Da migliorare in futuro
+    # aggiungendo _tmdb_creatori_serie() analoga a _tmdb_registi().
+    if titolo_certo_ma_autore_estraneo and not migliore_autore_verificato:
         return (
             min(migliore[0], SOGLIA_BASSA - 0.01),
             migliore[1] + f" [titolo reale ma nessun regista somiglia a {autore!r}: "
                           "attribuzione probabilmente sbagliata]",
-            migliore[2],
+            migliore[2], "",
         )
-    if not autore and risultati:
+    if not autore and (risultati_movie or risultati_tv):
         # Autore mai estratto (non sbagliato, assente): giudicare solo sul titolo,
         # stesso principio di verifica_libro/verifica_musica.
         if miglior_sim_titolo >= SOGLIA_TITOLO_SENZA_AUTORE:
             return (max(migliore[0], SOGLIA_ALTA + 0.01),
-                    migliore[1] + " [confermato solo per titolo, autore mai estratto]", migliore[2])
+                    migliore[1] + " [confermato solo per titolo, autore mai estratto]",
+                    migliore[2], migliore[3])
         return (min(migliore[0], SOGLIA_BASSA - 0.01),
-                migliore[1] + " [titolo non abbastanza simile, probabile rumore di chiacchiera]", migliore[2])
+                migliore[1] + " [titolo non abbastanza simile, probabile rumore di chiacchiera]",
+                migliore[2], "")
     return migliore
 
 
-def verifica_musica(titolo: str, autore: str) -> tuple[float, str, str]:
-    """Cerca su MusicBrainz, ritorna (similarita' massima, descrizione del match,
+GENERI_CLASSICA = {"classical", "opera", "orchestral", "chamber music", "baroque"}
+
+
+def _sottocategoria_da_tag(tags: list[dict]) -> str:
+    """Deriva classica/opera dai tag di genere che MusicBrainz gia' restituisce nella
+    stessa risposta (inc=tags, nessuna chiamata aggiuntiva). Se il tag 'opera' e'
+    presente vince su 'classical' generico. Nessun tag riconosciuto -> stringa vuota,
+    NON si inventa nulla: la sottocategoria resta indeterminata piuttosto che sbagliata."""
+    nomi = {(t.get("name") or "").lower() for t in (tags or [])}
+    if "opera" in nomi:
+        return "opera"
+    if nomi & GENERI_CLASSICA:
+        return "classica"
+    return ""
+
+
+def verifica_musica(titolo: str, autore: str) -> tuple[float, str, str, str]:
+    """Cerca su MusicBrainz, ritorna (punteggio, descrizione del match, URL copertina,
+    sottocategoria suggerita: 'classica'/'opera'/'' se non distinguibile).
     URL copertina via Cover Art Archive o '' se la release migliore non ha copertina
     caricata - non verificato con una richiesta separata, l'URL e' costruito
     otticamente dall'MBID della prima release associata: il template deve gestire
@@ -292,21 +386,25 @@ def verifica_musica(titolo: str, autore: str) -> tuple[float, str, str]:
     virgolette dava 0 risultati, azzerando il punteggio anche se la canzone reale
     esiste. Senza virgolette Lucene usa la sua relevance ranking sui singoli token e
     trova comunque il titolo giusto tra i primi risultati. L'autore invece resta tra
-    virgolette (nome proprio, meno soggetto a rumore di trascrizione)."""
+    virgolette (nome proprio, meno soggetto a rumore di trascrizione).
+
+    ⚠️ AGGIORNATO 2026-07-27 (tassonomia): 'classica'/'opera' derivate dai tag di
+    genere che la risposta gia' contiene (inc=tags aggiunto), non fatte indovinare
+    al modello — stesso principio di verifica_film per film/serie via TMDB."""
     try:
         titolo_pulito = re.sub(r'["\']', "", titolo)
         query = f'recording:({titolo_pulito})' + (f' AND artist:"{autore}"' if autore else "")
         resp = requests.get(
             "https://musicbrainz.org/ws/2/recording",
-            params={"query": query, "fmt": "json", "limit": 5, "inc": "releases"},
+            params={"query": query, "fmt": "json", "limit": 5, "inc": "releases+tags"},
             headers={"User-Agent": USER_AGENT},
             timeout=10,
         )
         resp.raise_for_status()
         recordings = resp.json().get("recordings", [])
     except Exception as e:
-        return -1.0, f"errore rete: {e}", ""
-    migliore = (0.0, "", "")
+        return -1.0, f"errore rete: {e}", "", ""
+    migliore = (0.0, "", "", "")
     titolo_certo_ma_autore_estraneo = False
     miglior_sim_titolo = 0.0
     for r in recordings:
@@ -322,20 +420,25 @@ def verifica_musica(titolo: str, autore: str) -> tuple[float, str, str]:
             releases = r.get("releases") or []
             release_id = releases[0].get("id") if releases else None
             cover_url = f"https://coverartarchive.org/release/{release_id}/front-250" if release_id else ""
-            migliore = (punteggio, f"{titolo_trovato} — {', '.join(artisti[:2])}", cover_url)
+            sub = _sottocategoria_da_tag(r.get("tags"))
+            migliore = (punteggio, f"{titolo_trovato} — {', '.join(artisti[:2])}", cover_url, sub)
     if titolo_certo_ma_autore_estraneo and migliore[0] < SOGLIA_ALTA:
         return (
             min(migliore[0], SOGLIA_BASSA - 0.01),
             migliore[1] + " [titolo reale ma nessun artista trovato somiglia a "
                           f"{autore!r}: attribuzione probabilmente sbagliata]",
-            migliore[2],
+            migliore[2], "",
         )
     if not autore and recordings:
         # Stesso principio di verifica_libro(): autore mai estratto, giudicare solo
         # sul titolo (la formula 70/30 non puo' mai confermarlo altrimenti).
         if miglior_sim_titolo >= SOGLIA_TITOLO_SENZA_AUTORE:
-            return (max(migliore[0], SOGLIA_ALTA + 0.01), migliore[1] + " [confermato solo per titolo, autore mai estratto]", migliore[2])
-        return (min(migliore[0], SOGLIA_BASSA - 0.01), migliore[1] + " [titolo non abbastanza simile, probabile rumore di chiacchiera]", migliore[2])
+            return (max(migliore[0], SOGLIA_ALTA + 0.01),
+                    migliore[1] + " [confermato solo per titolo, autore mai estratto]",
+                    migliore[2], migliore[3])
+        return (min(migliore[0], SOGLIA_BASSA - 0.01),
+                migliore[1] + " [titolo non abbastanza simile, probabile rumore di chiacchiera]",
+                migliore[2], "")
     return migliore
 
 
@@ -381,13 +484,13 @@ def main() -> None:
         autore = r.get("autore", "")
         try:
             if categoria == "libro":
-                punteggio, match, copertina = verifica_libro(titolo, autore)
+                punteggio, match, copertina, sub_suggerita = verifica_libro(titolo, autore)
                 time.sleep(0.35)  # margine sotto ~3 richieste/secondo
             elif categoria == "film":
-                punteggio, match, copertina = verifica_film(titolo, autore, tmdb_key)
+                punteggio, match, copertina, sub_suggerita = verifica_film(titolo, autore, tmdb_key)
                 time.sleep(0.05)
             else:  # musica
-                punteggio, match, copertina = verifica_musica(titolo, autore)
+                punteggio, match, copertina, sub_suggerita = verifica_musica(titolo, autore)
                 time.sleep(MUSICBRAINZ_SLEEP)
         except Exception as e:
             print(f"  [{i+1}/{len(tutte_le_voci)}] ERRORE imprevisto su {titolo!r}: {e}, salto")
@@ -416,6 +519,11 @@ def main() -> None:
         # non deve mostrare la copertina di un'opera probabilmente sbagliata.
         if r["confermato_esterno"] and copertina:
             r["copertina"] = copertina
+        # Sottocategoria (tassonomia 2026-07-27): scritta SOLO se confermato e SOLO
+        # se il campo e' ancora vuoto — non sovrascrive mai un giudizio gia' presente
+        # (dato dal modello in estrazione, o da una revisione umana precedente).
+        if r["confermato_esterno"] and sub_suggerita and not (r.get("sottocategoria") or "").strip():
+            r["sottocategoria"] = sub_suggerita
         per_file.setdefault(fp, []).append(r)
 
         if punteggio >= SOGLIA_ALTA:
