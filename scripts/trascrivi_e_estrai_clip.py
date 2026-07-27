@@ -358,7 +358,10 @@ TITOLO_SIMILARITY_SOGLIA = 0.85  # sopra questa soglia (difflib) un titolo e' co
 
 
 def _normalizza_titolo(titolo: str) -> str:
-    return re.sub(r"[^\w\s]", "", titolo.lower()).strip()
+    # `or ""`: un modello puo' rispondere con null al posto di una stringa, e in quel
+    # caso .get("campo", "") NON protegge — il default scatta solo se la chiave manca,
+    # non se c'e' con valore None. Vedi la nota in merge_riferimenti().
+    return re.sub(r"[^\w\s]", "", (titolo or "").lower()).strip()
 
 
 def _titolo_e_doppione(titolo: str, titoli_esistenti: list[str]) -> bool:
@@ -475,10 +478,16 @@ def merge_riferimenti(data_str: str, nuovi: list[dict], testo: str, durata: floa
     doppioni_scartati = 0
     conduttori_scartati = 0
     for ref in nuovi:
-        cat = ref.get("categoria", "").lower()
+        # ⚠️ `or ""` invece del default di .get() (corretto 2026-07-27): se il modello
+        # risponde {"categoria": null}, la chiave ESISTE e il default non viene usato,
+        # quindi .get("categoria", "") ritorna None e .lower() esplode. Trovato dal
+        # banco di prova con mistral-small, che emette null dove Groq/Gemini mettono
+        # una stringa vuota: un episodio intero andava perso per un AttributeError,
+        # e il modello ne usciva penalizzato per un difetto nostro, non suo.
+        cat = (ref.get("categoria") or "").lower()
         if cat not in ("film", "libro", "musica"):
             continue
-        titolo = ref.get("titolo", "").strip()
+        titolo = (ref.get("titolo") or "").strip()
         if not titolo:
             continue  # nessun titolo reale identificato, scarta (evita voci vuote)
         # Trovato 2026-07-23 su 109/3544 riferimenti storici: "autore" = un conduttore
@@ -508,7 +517,7 @@ def merge_riferimenti(data_str: str, nuovi: list[dict], testo: str, durata: floa
             "film":  {"documentario", ""},
             "musica": {""},
         }
-        sottocat = ref.get("sottocategoria", "").lower().strip()
+        sottocat = (ref.get("sottocategoria") or "").lower().strip()
         if sottocat not in sottocat_valide.get(cat, {""}):
             sottocat = ""
         ref_testo = ref.get("_chunk_testo") or testo
@@ -588,7 +597,7 @@ def main() -> None:
         seen_keys: set[tuple] = set()
         refs_uniq = []
         for r in refs:
-            key = (r.get("categoria", "").lower(), r.get("titolo", "").lower().strip())
+            key = ((r.get("categoria") or "").lower(), (r.get("titolo") or "").lower().strip())
             if key not in seen_keys and key[1]:
                 seen_keys.add(key)
                 refs_uniq.append(r)
