@@ -94,7 +94,17 @@
      "fonte": "NEGATIVO, guasto reale del 2026-07-28: voce musica senza autore appena declassata a revisione, la verifica incrociata la ritrovava come LIBRO (esistono biografie omonime) e la riconfermava con la categoria sbagliata"},
     {"titolo": "Solare", "autore": "", "categoria_estratta": "musica",
      "attesa_anche": "",
-     "fonte": "NEGATIVO, stesso guasto: titolo generico che esiste come libro"}
+     "fonte": "NEGATIVO, stesso guasto: titolo generico che esiste come libro"},
+
+    {"titolo": "Yesterday", "autore": "The Beatles", "categoria_estratta": "musica",
+     "attesa_anche": "",
+     "fonte": "NEGATIVO, guasto reale su 2014-03-25: diventava un LIBRO. I libri SU un artista sono accreditati all'artista, quindi il controllo dell'autore corrobora sempre ed e' cieco"},
+    {"titolo": "Thriller", "autore": "Michael Jackson", "categoria_estratta": "musica",
+     "attesa_anche": "",
+     "fonte": "NEGATIVO, guasto reale su 2018-02-28: stesso motivo"},
+    {"titolo": "True Colors", "autore": "Cyndi Lauper", "categoria_estratta": "musica",
+     "attesa_anche": "",
+     "fonte": "NEGATIVO, guasto reale su 2015-01-26: stesso motivo"}
   ],
 
   "autori": [

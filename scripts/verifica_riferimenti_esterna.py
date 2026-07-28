@@ -60,6 +60,13 @@ DATASET_CONFIG = {
 }
 
 TMDB_KEY_FILE = Path.home() / "TMDB API.txt"
+CREDITS_FM_KEY_FILE = Path.home() / "API_Credits_fm.txt"
+CREDITS_FM_API = "https://api.credits.fm/v1"
+# Senza chiave l'API concede 30 lookup/min, con chiave gratuita 300 (documentazione
+# ufficiale letta il 2026-07-28). La pausa si adatta da sola: senza chiave il ritmo e'
+# comunque il doppio di MusicBrainz, con chiave e' cinque volte tanto.
+CREDITS_FM_SLEEP_SENZA_CHIAVE = 2.1
+CREDITS_FM_SLEEP_CON_CHIAVE = 0.25
 GOOGLE_BOOKS_KEY_FILE = Path.home() / "API_Google_Books.txt"
 USER_AGENT = "IlVoloDelMattinoArchivio/1.0 (uso non commerciale, archivio fan Radio Deejay)"
 
@@ -374,6 +381,95 @@ def _e_personaggio_non_autore(nome: str) -> bool:
     return False
 
 
+def _credits_fm_key() -> str:
+    """Chiave opzionale. Assente: si lavora lo stesso, piu' piano. Deve stare anche su
+    OMV (~/API_Credits_fm.txt, 600) perche' la pipeline gira li', non sull'HP14 —
+    stesso passo gia' necessario per TMDB e Google Books."""
+    if not CREDITS_FM_KEY_FILE.exists():
+        return ""
+    return CREDITS_FM_KEY_FILE.read_text(encoding="utf-8").strip()
+
+
+def _credits_fm_risolvi(titolo: str, autore: str = "") -> dict | None:
+    """Interroga /resolve/track. Ritorna il JSON, {} se non trova, None se non ho
+    potuto chiedere (rete, 429, 503) — la solita distinzione, che qui e' importante
+    perche' il chiamante non deve mai scartare una voce per un problema di rete."""
+    key = _credits_fm_key()
+    corpo = {"name": titolo}
+    if autore:
+        corpo["artist"] = autore
+    try:
+        intestazioni = {"User-Agent": USER_AGENT, "Content-Type": "application/json"}
+        if key:
+            # Nell'header, MAI in query string: un errore HTTP scriverebbe la chiave
+            # nei log in chiaro, com'e' gia' successo con Gemini (1.295 occorrenze).
+            intestazioni["x-api-key"] = key
+        r = requests.post(f"{CREDITS_FM_API}/resolve/track", timeout=25,
+                          headers=intestazioni, json=corpo)
+    except Exception:
+        return None
+    finally:
+        time.sleep(CREDITS_FM_SLEEP_CON_CHIAVE if key else CREDITS_FM_SLEEP_SENZA_CHIAVE)
+    if r.status_code == 404:
+        return {}
+    if r.status_code != 200:
+        return None
+    try:
+        return r.json()
+    except Exception:
+        return None
+
+
+def _credits_fm_titolo_e_artista(titolo: str) -> bool | None:
+    """Il presunto titolo e' in realta' il nome dell'artista?
+
+    Segnale trovato il 2026-07-28 provando l'API sui casi reali: quando si cerca un
+    nome d'artista, Credits.fm risponde con quell'artista in `artist_names` (Vangelis
+    -> Vangelis, Barry White -> Barry White, Little Tony -> Little Tony), mentre per un
+    titolo vero l'artista e' un altro (Yesterday -> Matt Monro, Superheroes -> Living
+    in a Box). Misurato: 5 artisti su 7 riconosciuti e **zero falsi allarmi** su 7
+    titoli veri, con UNA chiamata invece delle due che serve a MusicBrainz.
+
+    Non basta da solo - non prende "Bob Dylan" (esiste una canzone omonima di Fallulah)
+    ne' "Velvet Underground" (di Jonathan Richman) - quindi resta il primo gradino, non
+    l'unico. None = non ho potuto chiedere."""
+    d = _credits_fm_risolvi(titolo)
+    if d is None:
+        return None
+    return any(_similarita_autore(titolo, a) >= 0.9 for a in (d.get("artist_names") or []))
+
+
+def cerca_credits_fm(titolo: str, autore: str) -> tuple[float, str, str, str]:
+    """Cerca un brano su Credits.fm, archivio aperto di crediti musicali che incrocia
+    MLC, CISAC, ISNI, MusicBrainz, Spotify e Apple Music.
+
+    Affiancato a MusicBrainz, non al suo posto: misurato il 2026-07-28 che su "La
+    traviata"/Verdi risponde `unmatched`, perche' e' un archivio di registrazioni
+    pop/rock e non copre la lirica, dove invece MusicBrainz e Wikidata reggono.
+
+    ⚠️ `match_status: matched` NON e' una conferma: risponde "matched" anche per "Pink
+    Floyd", "Metallica" e "Cordyceps". Come per MusicBrainz, l'esistenza di QUALCOSA
+    con quel nome non dice nulla; conta la corrispondenza con l'artista proposto."""
+    if not titolo:
+        return 0.0, "", "", ""
+    d = _credits_fm_risolvi(titolo, autore)
+    if d is None:
+        return -1.0, "Credits.fm non raggiungibile", "", ""
+    if not d or d.get("match_status") != "matched":
+        return 0.0, "nessun brano su Credits.fm", "", ""
+
+    titolo_trovato = d.get("recording_title") or d.get("song_title") or ""
+    artisti = d.get("artist_names") or []
+    sim_titolo = _similarita(titolo, titolo_trovato)
+    sim_autore = max((_similarita_autore(autore, a) for a in artisti), default=0.0)
+    if not autore:
+        # Stessa regola del resto della musica: senza autore nessun archivio puo' dire
+        # che sia l'opera citata, quindi non si conferma. Vedi verifica_musica().
+        return 0.0, f"{titolo_trovato} - {', '.join(artisti[:2])} [senza autore, non confermabile]", "", ""
+    punteggio = sim_titolo * 0.7 + sim_autore * 0.3
+    return punteggio, f"{titolo_trovato} - {', '.join(artisti[:2])}", "", ""
+
+
 def cerca_wikidata(titolo: str, autore: str, categoria: str) -> tuple[float, str, str, str]:
     """Cerca un'opera su Wikidata, filtrando per la categoria attesa.
 
@@ -579,6 +675,11 @@ def verifica_con_fallback(titolo: str, autore: str, categoria: str,
     tentativi = []
     if categoria == "libro":
         tentativi.append(("google books", lambda: cerca_google_books(titolo, autore)))
+    if categoria == "musica":
+        # Credits.fm prima di Wikidata: e' specifico della musica, molto piu' veloce
+        # (300 lookup/min con chiave, contro 1/s di MusicBrainz) e copre proprio dove
+        # MusicBrainz sbaglia, cioe' quando restituisce una cover invece dell'incisione.
+        tentativi.append(("credits.fm", lambda: cerca_credits_fm(titolo, autore)))
     tentativi.append(("wikidata", lambda: cerca_wikidata(titolo, autore, categoria)))
 
     for nome, cerca in tentativi:
@@ -732,10 +833,21 @@ def verifica_categorie_incrociate(titolo: str, autore: str, categoria_estratta: 
     da solo combacia in troppi archivi: e' la corrispondenza autore-titolo a rendere
     certa l'identificazione, ed e' esattamente cio' che la regola dell'utente chiede.
     Conseguenza accettata: senza un autore estratto non nasce nessuna gemella, per
-    quanto il titolo esista altrove."""
+    quanto il titolo esista altrove.
+
+    ⚠️ SOLO libro <-> film. La musica e' esclusa in ENTRAMBE le direzioni, misurato
+    sull'archivio vero (seconda fetta di 12 episodi): "Yesterday"/The Beatles,
+    "Thriller"/Michael Jackson e "True Colors"/Cyndi Lauper diventavano LIBRI. Non e'
+    un difetto di soglia e non si aggiusta stringendo: dei libri SU un artista esistono
+    davvero e sono accreditati all'artista, quindi il controllo dell'autore - che
+    protegge le altre direzioni - qui corrobora sempre ed e' cieco. Fra libro e film
+    invece l'adattamento e' un fatto che gli archivi registrano (Don Camillo, Il
+    padrino)."""
     if not titolo or not autore.strip():
         return []
-    altre = [c for c in ("libro", "film", "musica") if c != categoria_estratta]
+    if categoria_estratta == "musica":
+        return []
+    altre = [c for c in ("libro", "film") if c != categoria_estratta]
     trovate = []
     for cat in altre:
         try:
@@ -1024,6 +1136,13 @@ def _musicbrainz_e_nome_artista(nome: str) -> bool:
     e' stato estratto, cio' che e' stato nominato in onda e' quasi sempre l'artista."""
     if not nome.strip():
         return False
+    # Primo gradino, una chiamata sola e cinque volte piu' veloce: se Credits.fm
+    # risponde con quell'artista, e' deciso e si risparmiano le due chiamate a
+    # MusicBrainz. Zero falsi allarmi misurati su 7 titoli veri. Se non lo riconosce
+    # (non prende "Bob Dylan" ne' "Velvet Underground") si prosegue col controllo
+    # completo: e' un acceleratore, non una scorciatoia sulla qualita'.
+    if _credits_fm_titolo_e_artista(nome) is True:
+        return True
     try:
         r = requests.get("https://musicbrainz.org/ws/2/artist", timeout=20,
                          headers={"User-Agent": USER_AGENT},
