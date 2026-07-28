@@ -67,13 +67,41 @@ def normalizza(s: str) -> str:
     return " ".join(re.sub(r"[^\w\s]", " ", s.lower()).split())
 
 
-def categoria_di(nome_categoria: str) -> str:
+# Le categorie INGLESI mettono l'anno davanti ("1984 films", "1965 songs", "1949
+# British novels"), quindi il match per prefisso che funziona sull'italiano li' non
+# serve a niente: si cerca la parola chiave ovunque nel nome.
+PAROLE_EN = {
+    "film": ("films", "television series", "tv series", "miniseries", "sitcoms"),
+    "libro": ("novels", "books", "short story collections", "plays", "poems",
+              "poetry collections", "essays", "comics", "graphic novels"),
+    "musica": ("songs", "singles", "albums", "operas", "symphonies", "compositions",
+               "soundtracks", "eps"),
+}
+
+# Rifiuti in inglese: le stesse categorie di persone e insiemi, che in inglese
+# contengono comunque la parola chiave ("American film directors" contiene "film",
+# "Songwriters" contiene "song"). Senza questi, meta' dell'indice inglese sarebbero
+# persone.
+RIFIUTA_EN = ("directors", "actors", "actresses", "writers", "novelists", "musicians",
+              "singers", "songwriters", "composers", "producers", "screenwriters",
+              "characters", "awards", "festivals", "publishers", "record labels",
+              "studios", "bands", "musical groups", "critics", "editors", "artists")
+
+
+def categoria_di(nome_categoria: str, lingua: str = "it") -> str:
     """A quale delle nostre tre categorie appartiene questa categoria di Wikipedia?"""
     n = nome_categoria.replace("_", " ").lower()
-    if any(r in n for r in RIFIUTA):
+    if lingua == "it":
+        if any(r in n for r in RIFIUTA):
+            return ""
+        for cat, prefissi in PREFISSI.items():
+            if n.startswith(prefissi):
+                return cat
         return ""
-    for cat, prefissi in PREFISSI.items():
-        if n.startswith(prefissi):
+    if any(r in n for r in RIFIUTA_EN):
+        return ""
+    for cat, parole in PAROLE_EN.items():
+        if any(p in n for p in parole):
             return cat
     return ""
 
@@ -128,67 +156,52 @@ def pulisci(valore: str) -> str:
     return v.replace("\\'", "'").replace('\\"', '"').replace("\\\\", "\\")
 
 
-def main() -> None:
-    parser = argparse.ArgumentParser()
-    parser.add_argument("--dump", default=str(Path.home() / "dump_wikipedia"))
-    parser.add_argument("--uscita", default=str(Path.home() / "dump_wikipedia" / "indice_opere.json"))
-    args = parser.parse_args()
-
-    cartella = Path(args.dump)
-    fp_page = cartella / "itwiki-latest-page.sql.gz"
-    fp_cat = cartella / "itwiki-latest-categorylinks.sql.gz"
-    fp_lt = cartella / "itwiki-latest-linktarget.sql.gz"
+def costruisci(cartella: Path, lingua: str, indice: dict) -> None:
+    """Aggiunge al dizionario le opere di una Wikipedia. L'italiano si carica per
+    primo e vince sulle chiavi in comune: il corpus e' italiano, quindi quando lo
+    stesso titolo esiste in entrambe le lingue quella giusta e' l'italiana."""
+    sigla = "itwiki" if lingua == "it" else "enwiki"
+    fp_page = cartella / f"{sigla}-latest-page.sql.gz"
+    fp_cat = cartella / f"{sigla}-latest-categorylinks.sql.gz"
+    fp_lt = cartella / f"{sigla}-latest-linktarget.sql.gz"
     for fp in (fp_page, fp_cat, fp_lt):
         if not fp.exists():
-            sys.exit(f"ERRORE: manca {fp}")
+            print(f"  ({lingua}: manca {fp.name}, salto questa lingua)", flush=True)
+            return
 
-    inizio = time.time()
-    print("leggo le pagine (namespace 0, cioe' le voci vere)...", flush=True)
+    t0 = time.time()
+    print("", flush=True)
+    print(f"[{lingua}] leggo le pagine...", flush=True)
     titolo_di = {}
-    for n, campi in enumerate(leggi_tuple(fp_page)):
-        # page: id, namespace, title, ...
+    for campi in leggi_tuple(fp_page):
         if len(campi) < 3 or campi[1].strip() != "0":
             continue
         try:
             titolo_di[int(campi[0])] = pulisci(campi[2]).replace("_", " ")
         except ValueError:
             continue
-        if len(titolo_di) % 500000 == 0:
-            print(f"  {len(titolo_di):,} voci...", flush=True)
-    print(f"  voci trovate: {len(titolo_di):,}  ({time.time()-inizio:.0f}s)", flush=True)
+    print(f"  voci: {len(titolo_di):,}  ({time.time()-t0:.0f}s)", flush=True)
 
-    # ⚠️ Lo schema di MediaWiki e' cambiato: categorylinks non ha piu' la colonna
-    # cl_to col nome della categoria, ma cl_target_id, un riferimento numerico alla
-    # tabella linktarget. Scoperto il 2026-07-28 leggendo il CREATE TABLE del dump
-    # dopo che l'indice era uscito con ZERO opere: un fallimento totale e uniforme,
-    # che in questo progetto significa sempre un'assunzione sbagliata mia e mai un
-    # dato reale. Il primo lettore prendeva cl_sortkey credendo fosse il nome.
-    print("leggo i nomi delle categorie (linktarget, namespace 14)...", flush=True)
+    print(f"[{lingua}] leggo i nomi delle categorie...", flush=True)
     nome_categoria = {}
     for campi in leggi_tuple(fp_lt):
-        # linktarget: lt_id, lt_namespace, lt_title
         if len(campi) < 3 or campi[1].strip() != "14":
             continue
         try:
             nome_categoria[int(campi[0])] = pulisci(campi[2])
         except ValueError:
             continue
-    print(f"  categorie trovate: {len(nome_categoria):,}", flush=True)
+    print(f"  categorie: {len(nome_categoria):,}", flush=True)
     if not nome_categoria:
-        sys.exit("ERRORE: nessuna categoria letta da linktarget: schema cambiato di nuovo?")
+        sys.exit(f"ERRORE: nessuna categoria letta da {fp_lt.name}: schema cambiato?")
 
-    print("leggo i collegamenti alle categorie...", flush=True)
-    indice = {}
-    esaminate = 0
+    print(f"[{lingua}] leggo i collegamenti...", flush=True)
+    prima = len(indice)
     for campi in leggi_tuple(fp_cat):
-        # categorylinks: cl_from, cl_sortkey, cl_timestamp, cl_sortkey_prefix,
-        #                cl_type, cl_collation_id, cl_target_id
         if len(campi) < 7:
             continue
-        esaminate += 1
         try:
-            pid = int(campi[0])
-            target = int(campi[6])
+            pid, target = int(campi[0]), int(campi[6])
         except ValueError:
             continue
         titolo = titolo_di.get(pid)
@@ -197,35 +210,46 @@ def main() -> None:
         nome_cat = nome_categoria.get(target)
         if not nome_cat:
             continue
-        cat = categoria_di(nome_cat)
+        cat = categoria_di(nome_cat, lingua)
         if not cat:
             continue
-        # ⚠️ Si indicizza ANCHE il titolo senza la disambiguazione fra parentesi.
-        # Wikipedia italiana chiama le pagine "Manhattan (film 1979)", "Smoke (film)",
-        # "Serendipity (film)": indicizzando solo il titolo completo, misurato il
-        # 2026-07-28, film notissimi come Ghostbusters, Manhattan e Smoke risultavano
-        # ASSENTI da un indice che ne conteneva 97.017. In onda nessuno pronuncia la
-        # parentesi, quindi la forma che ci serve e' proprio quella nuda.
-        voce = [titolo, cat, nome_cat.replace("_", " ")]
+        voce = [titolo, cat, nome_cat.replace("_", " "), lingua]
         chiavi = [normalizza(titolo)]
         if "(" in titolo:
             chiavi.append(normalizza(titolo.split("(")[0]))
         for chiave in chiavi:
             if chiave and chiave not in indice:
                 indice[chiave] = voce
-        if esaminate % 5000000 == 0:
-            print(f"  {esaminate:,} collegamenti, {len(indice):,} opere...", flush=True)
+    print(f"  opere aggiunte: {len(indice)-prima:,}  ({time.time()-t0:.0f}s)", flush=True)
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--dump", default=str(Path.home() / "dump_wikipedia"))
+    parser.add_argument("--lingue", default="it,en",
+                        help="lingue da includere, in ordine di precedenza")
+    parser.add_argument("--uscita", default=str(Path.home() / "dump_wikipedia" / "indice_opere.json"))
+    args = parser.parse_args()
+
+    inizio = time.time()
+    indice = {}
+    for lingua in args.lingue.split(","):
+        costruisci(Path(args.dump), lingua.strip(), indice)
 
     uscita = Path(args.uscita)
     uscita.write_text(json.dumps(indice, ensure_ascii=False), encoding="utf-8")
-    per_cat = {}
-    for _, (_, cat, _) in indice.items():
-        per_cat[cat] = per_cat.get(cat, 0) + 1
+    per_cat, per_lingua = {}, {}
+    for voce in indice.values():
+        per_cat[voce[1]] = per_cat.get(voce[1], 0) + 1
+        per_lingua[voce[3]] = per_lingua.get(voce[3], 0) + 1
 
-    print("\n" + "=" * 60, flush=True)
+    print("", flush=True)
+    print("=" * 60, flush=True)
     print(f"  opere indicizzate : {len(indice):,}", flush=True)
     for cat, n in sorted(per_cat.items(), key=lambda x: -x[1]):
         print(f"    {cat:8} {n:>9,}", flush=True)
+    for lg, n in sorted(per_lingua.items()):
+        print(f"    lingua {lg:3} {n:>9,}", flush=True)
     print(f"  file              : {uscita}  ({uscita.stat().st_size/1e6:.0f} MB)", flush=True)
     print(f"  tempo             : {time.time()-inizio:.0f}s", flush=True)
 
