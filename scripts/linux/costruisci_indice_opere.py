@@ -59,7 +59,12 @@ def normalizza(s: str) -> str:
     cose che la verifica poi non riconosce."""
     s = unicodedata.normalize("NFKD", s or "")
     s = "".join(c for c in s if not unicodedata.combining(c))
-    return re.sub(r"[^\w\s]", " ", s.lower()).strip()
+    # La punteggiatura diventa spazio (non sparisce): cosi' "l'aereo" e "l ' aereo" -
+    # la seconda e' come il riconoscitore restituisce le entita' - finiscono nella
+    # stessa forma. Poi gli spazi si comprimono, altrimenti "Mamma, ho perso l'aereo"
+    # produce due spazi dopo la virgola e non combacia con niente: e' il motivo per cui
+    # meta' dei titoli noti risultava assente dall'indice il 2026-07-28.
+    return " ".join(re.sub(r"[^\w\s]", " ", s.lower()).split())
 
 
 def categoria_di(nome_categoria: str) -> str:
