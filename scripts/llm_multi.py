@@ -90,7 +90,11 @@ MISTRAL_BASE_URL = "https://api.mistral.ai/v1"
 OLLAMA_BASE_URL = "http://192.168.8.130:11434"  # K16 (GPU), non localhost -- la classificazione
 # gira su OMV via cron, "localhost" punterebbe a OMV stesso che non ha Ollama installato.
 # Ollama ascolta su 0.0.0.0:11434 (OLLAMA_HOST nel service override), raggiungibile in LAN.
-OLLAMA_MODEL = "qwen2.5:14b-instruct-q4_K_M"
+# Modello locale, scegliibile da ambiente come gia' si fa per Groq, Cerebras e Mistral.
+# Serviva per confrontare piu' modelli locali sul banco: senza, ogni prova avrebbe
+# richiesto di modificare il codice, e una campagna di confronto che passa da una
+# modifica al codice per ogni giro non e' riproducibile.
+OLLAMA_MODEL = os.environ.get("ILVOLO_OLLAMA_MODEL", "qwen2.5:14b-instruct-q4_K_M")
 OLLAMA_KEEP_ALIVE = "30s"
 # Finestra di contesto. Deve contenere prompt + testo + risposta: misurati 15.480
 # caratteri di prompt (~4.000 token) piu' 2.000 di risposta, quindi 8192 lascia
