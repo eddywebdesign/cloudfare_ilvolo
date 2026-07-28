@@ -688,22 +688,23 @@ def deve_incrociare(titolo: str, autore: str, confermato: bool, match: str) -> b
     STESSA condizione che gira in produzione: e' una guardia che protegge da un
     guasto reale, quindi va provata, non ricopiata.
 
-    Due casi soltanto:
-    - confermata nella sua categoria MA con l'autore non corroborato -> lo stesso nome
-      puo' appartenere a un altro archivio (Don Camillo film / libro);
-    - non confermata, ma con un autore proposto -> la categoria puo' essere sbagliata,
-      e l'autore e' cio' che rende la ricerca altrove non un tiro a indovinare.
+    Serve la coppia COMPLETA titolo + autore, e basta quella. Due usi:
+    - voce confermata -> lo stesso nome puo' appartenere anche a un altro archivio, e
+      allora nasce la gemella (Don Camillo film E libro);
+    - voce non confermata -> la categoria estratta puo' essere sbagliata, e viene
+      corretta invece di buttare la voce.
 
-    L'autore e' obbligatorio nel secondo caso: senza, "Pink Floyd" e "Solare" (voci
-    musica senza autore, inverificabili per definizione) venivano ritrovate come LIBRO
-    e riconfermate con la categoria sbagliata. Misurato il 2026-07-28."""
-    if not titolo:
-        return False
-    autore_incerto = (MARCA_AUTORE_NON_CORROBORATO in match
-                      or "autore mai estratto" in match)
-    if confermato:
-        return autore_incerto
-    return bool(autore.strip())
+    L'autore e' obbligatorio in entrambi i casi, ed e' la parte che protegge: senza,
+    "Pink Floyd" e "Solare" (voci musica senza autore, inverificabili per definizione)
+    venivano ritrovate come LIBRO - esistono biografie omonime - e riconfermate con la
+    categoria sbagliata. Misurato il 2026-07-28 sull'archivio vero.
+
+    Il parametro `match` non serve piu' alla decisione ma resta nella firma perche' il
+    chiamante lo ha e una guardia che un domani volesse guardarlo non debba cambiare
+    di nuovo l'interfaccia: e' proprio un cambio d'arita' non propagato che il 27/07
+    ha spento in silenzio l'intero fallback multi-database."""
+    del confermato, match  # la decisione oggi non li usa, vedi docstring
+    return bool(titolo) and bool(autore.strip())
 
 
 def verifica_categorie_incrociate(titolo: str, autore: str, categoria_estratta: str,
@@ -721,8 +722,18 @@ def verifica_categorie_incrociate(titolo: str, autore: str, categoria_estratta: 
 
     Ritorna una lista di (categoria, punteggio, match, copertina, sottocategoria) per
     OGNI categoria diversa da quella estratta che conferma sopra SOGLIA_ALTA. Lista
-    vuota se nessuna: e' il caso normale e non costa nulla al chiamante."""
-    if not titolo:
+    vuota se nessuna: e' il caso normale e non costa nulla al chiamante.
+
+    ⚠️ L'altra categoria vale SOLO se conferma anche l'AUTORE. Senza questo vincolo,
+    provata sull'archivio vero su 12 episodi, la regola produceva accostamenti falsi:
+    "Kansas City"/Mario Monicelli finiva in musica (la canzone esiste davvero, il
+    regista non c'entra), "House of Cards"/Beau Willimon veniva spostato a libro (il
+    romanzo e' di Michael Dobbs), "Flipper" e "The Flintstones" lo stesso. Il titolo
+    da solo combacia in troppi archivi: e' la corrispondenza autore-titolo a rendere
+    certa l'identificazione, ed e' esattamente cio' che la regola dell'utente chiede.
+    Conseguenza accettata: senza un autore estratto non nasce nessuna gemella, per
+    quanto il titolo esista altrove."""
+    if not titolo or not autore.strip():
         return []
     altre = [c for c in ("libro", "film", "musica") if c != categoria_estratta]
     trovate = []
@@ -732,7 +743,9 @@ def verifica_categorie_incrociate(titolo: str, autore: str, categoria_estratta: 
         except Exception as e:
             print(f"      (categoria {cat} non interrogabile: {e})")
             continue
-        if punteggio >= SOGLIA_ALTA:
+        autore_confermato = (MARCA_AUTORE_NON_CORROBORATO not in match
+                             and "autore mai estratto" not in match)
+        if punteggio >= SOGLIA_ALTA and autore_confermato:
             trovate.append((cat, punteggio, match, copertina, sub))
     return trovate
 
@@ -810,10 +823,21 @@ def verifica_libro(titolo: str, autore: str) -> tuple[float, str, str, str]:
 TMDB_IMG_BASE = "https://image.tmdb.org/t/p/w200"
 
 
+# Mestieri che rendono una persona un "autore" credibile di un film. Non solo il
+# regista: in un programma che parla di libri, il nome citato accanto a un film e'
+# spessissimo lo SCRITTORE del romanzo da cui e' tratto. Misurato il 2026-07-28 sul
+# banco: con i soli registi, "Il padrino"/Mario Puzo e "Don Camillo"/Guareschi non
+# potevano essere confermati come film - Puzo firma la sceneggiatura, Guareschi il
+# romanzo - ed e' proprio la coppia titolo/autore che il programma pronuncia in onda.
+CREDITI_AUTORE_FILM = ("Director", "Screenplay", "Writer", "Novel", "Author",
+                       "Story", "Original Story", "Book")
+
+
 def _tmdb_registi(movie_id: int, tmdb_key: str) -> list[str]:
-    """Registi di un film TMDB. Serve una chiamata separata a /credits: l'endpoint
-    di ricerca non restituisce i crediti, ed e' esattamente il motivo per cui fino
-    al 2026-07-26 verifica_film() non poteva controllare l'autore (vedi sotto)."""
+    """Chi ha fatto un film, secondo TMDB: regista, sceneggiatore, autore del romanzo.
+    Serve una chiamata separata a /credits: l'endpoint di ricerca non restituisce i
+    crediti, ed e' esattamente il motivo per cui fino al 2026-07-26 verifica_film()
+    non poteva controllare l'autore (vedi sotto)."""
     try:
         resp = requests.get(
             f"https://api.themoviedb.org/3/movie/{movie_id}/credits",
@@ -824,7 +848,7 @@ def _tmdb_registi(movie_id: int, tmdb_key: str) -> list[str]:
         crew = resp.json().get("crew", [])
     except Exception:
         return []
-    return [c.get("name", "") for c in crew if c.get("job") == "Director"]
+    return [c.get("name", "") for c in crew if c.get("job") in CREDITI_AUTORE_FILM]
 
 
 def _tmdb_cerca(endpoint: str, titolo: str, tmdb_key: str) -> list[dict]:
@@ -1138,6 +1162,12 @@ def main() -> None:
     parser.add_argument("--limit", type=int, default=0, help="numero massimo di voci da processare in questo run (0 = tutte)")
     parser.add_argument("--dataset", choices=list(DATASET_CONFIG), default="riferimenti",
                          help="quale cartella dati verificare (default: riferimenti)")
+    parser.add_argument("--rifai", action="store_true",
+                        help="rigiudica anche le voci gia' marcate. Serve dopo un "
+                             "rinforzo della verifica: normalmente lo script salta chi "
+                             "ha gia' 'confermato_esterno', quindi un miglioramento "
+                             "vale solo per le estrazioni future e l'archivio resta "
+                             "fermo al giudizio del giorno in cui fu scritto.")
     args = parser.parse_args()
 
     cfg = DATASET_CONFIG[args.dataset]
@@ -1158,7 +1188,13 @@ def main() -> None:
             # Basta titolo O autore: dal 2026-07-27 esistono voci di solo autore
             # (nominato in onda senza titolo), che vanno verificate come tali.
             ha_qualcosa = (r.get("titolo") or "").strip() or (r.get("autore") or "").strip()
-            if ha_qualcosa and r.get(campo) in mappa and "confermato_esterno" not in r:
+            gia_giudicata = "confermato_esterno" in r
+            # Le voci gemelle nate dalla verifica incrociata non si rigiudicano: sono
+            # gia' il RISULTATO di una verifica, e rimetterle in coda le farebbe
+            # moltiplicare a ogni passata.
+            if r.get("da_categoria_incrociata"):
+                continue
+            if ha_qualcosa and r.get(campo) in mappa and (args.rifai or not gia_giudicata):
                 tutte_le_voci.append((fp, r))
 
     if args.limit:

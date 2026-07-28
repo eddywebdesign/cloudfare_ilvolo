@@ -157,7 +157,16 @@ def prova_multicategoria(casi: list, tmdb_key: str) -> list[dict]:
             continue
         categorie = [t[0] for t in trovate]
         ok = (attesa in categorie) if attesa else (categorie == [])
-        print(ascii_sicuro(f"  [{'ok ' if ok else 'NO '}] {titolo!r} (estratta: {estratta}) "
+        if not ok and attesa:
+            # Prima di dichiarare una regressione: la categoria attesa non e' stata
+            # trovata perche' non c'e', o perche' in quel momento un archivio non ha
+            # risposto? Senza questa distinzione un 503 di Google Books somiglia a un
+            # peggioramento e fa fallire il gate per niente.
+            p_att, _m, _c, _s, _u = giudica_voce(titolo, autore, attesa, tmdb_key)
+            if p_att < 0:
+                ok = None
+        segno = "?? " if ok is None else ("ok " if ok else "NO ")
+        print(ascii_sicuro(f"  [{segno}] {titolo!r} (estratta: {estratta}) "
                            f"-> trovata anche in: {categorie or 'nessun altro archivio'} "
                            f"(attesa: {attesa})"))
         risultati.append({"titolo": titolo, "autore": autore, "categoria": estratta,
@@ -233,7 +242,8 @@ def confronta_col_precedente(cartella: Path, adesso: dict) -> list[str]:
 
 def main() -> None:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--gruppo", choices=["vere", "rumore", "autori", "tutti"],
+    parser.add_argument("--gruppo",
+                        choices=["vere", "rumore", "autori", "multicategoria", "tutti"],
                         default="tutti")
     parser.add_argument("--confronta", action="store_true",
                         help="non interroga nulla: mostra solo la storia dei run archiviati")
@@ -277,12 +287,13 @@ def main() -> None:
     autori_ok = sum(1 for r in risultati["autori"] if r["ok"])
     compl_ok = sum(1 for r in risultati["completamento_autore"] if r["ok"])
     multi_ok = sum(1 for r in risultati["multicategoria"] if r["ok"])
+    multi_tot = sum(1 for r in risultati["multicategoria"] if r["ok"] is not None)
     sommario = {
         "vere_ok": vere_ok, "vere_tot": len(risultati["vere"]),
         "rumore_ammesso": rumore_ammesso, "rumore_tot": len(risultati["rumore"]),
         "autori_ok": autori_ok, "autori_tot": len(risultati["autori"]),
         "completamento_ok": compl_ok, "completamento_tot": len(risultati["completamento_autore"]),
-        "multicategoria_ok": multi_ok, "multicategoria_tot": len(risultati["multicategoria"]),
+        "multicategoria_ok": multi_ok, "multicategoria_tot": multi_tot,
     }
 
     print("\n" + "=" * 72)
@@ -293,7 +304,7 @@ def main() -> None:
           f"   (deve restare 0: una voce sbagliata entra nell'archivio come 'verificata')")
     print(f"  solo autore            : {autori_ok}/{len(risultati['autori'])}")
     print(f"  autore completato dal DB: {compl_ok}/{len(risultati['completamento_autore'])}")
-    print(f"  multicategoria         : {multi_ok}/{len(risultati['multicategoria'])}"
+    print(f"  multicategoria         : {multi_ok}/{multi_tot}"
           f"   (lo stesso nome riportato in entrambi gli archivi)")
     print(f"  tempo                  : {time.time() - inizio:.0f}s")
 
