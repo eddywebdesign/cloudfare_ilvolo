@@ -1503,10 +1503,6 @@ def main() -> None:
           f"({len(fuso)} voci totali). NON cancellato nulla, solo segnalato/marcato.")
 
 
-if __name__ == "__main__":
-    main()
-
-
 def verifica_libro(titolo: str, autore: str):
     with cronometra('open library'):
         return _cron_verifica_libro(titolo, autore)
@@ -1550,3 +1546,6 @@ def completa_autore_dal_db(titolo: str, categoria: str, tmdb_key: str = ""):
 def _musicbrainz_e_nome_artista(nome: str):
     with cronometra('veto artista'):
         return _cron__musicbrainz_e_nome_artista(nome)
+
+if __name__ == "__main__":
+    main()
