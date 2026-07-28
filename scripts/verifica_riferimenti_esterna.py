@@ -76,9 +76,17 @@ GOOGLE_BOOKS_API = "https://www.googleapis.com/books/v1/volumes"
 WIKIDATA_SLEEP = 0.35   # Wikidata rifiuta le richieste troppo ravvicinate rispondendo
 # con contenuto non-JSON (misurato il 2026-07-27): mai chiamare .json() senza rete.
 # I 503 di Google Books sono frequenti e intermittenti, non definitivi: misurata il
-# 2026-07-28 una richiesta fallita su 6 in una raffica, con chiave valida. Ogni
-# tentativo in meno e' una voce che resta in sospeso e va rifatta al run successivo.
-GOOGLE_BOOKS_TENTATIVI = 5
+# 2026-07-28 una richiesta fallita su 6 in una raffica, con chiave valida.
+#
+# ⚠️ Il numero di tentativi e' stato ALZATO a 5 e poi riportato a 3 lo stesso giorno,
+# dopo aver cronometrato dove va il tempo: Google Books da solo mangiava il 36,5% di
+# una passata (224s su 615, 10,69s per chiamata contro 1,5s di Open Library), tutto in
+# attese crescenti. Con 3 tentativi e l'attesa limitata, il caso peggiore passa da 15s
+# a 3,5s, e la probabilita' che tutti e tre falliscano e' sotto l'1%. Il rischio
+# residuo e' coperto: se l'archivio non risponde il verdetto viene SOSPESO, non emesso,
+# e la voce torna in coda per il run successivo.
+GOOGLE_BOOKS_TENTATIVI = 3
+GOOGLE_BOOKS_ATTESA_MAX = 2.0
 WIKIDATA_TENTATIVI = 4
 
 # Parole spia nella descrizione italiana di Wikidata, per categoria attesa. Servono
@@ -237,7 +245,7 @@ def _cron_cerca_google_books(titolo: str, autore: str) -> tuple[float, str, str,
             return -1.0, f"errore rete Google Books: {e}", "", ""
         if risposta.status_code == 200:
             break
-        time.sleep(1.5 * (tentativo + 1))
+        time.sleep(min(1.5 * (tentativo + 1), GOOGLE_BOOKS_ATTESA_MAX))
     else:
         return -1.0, f"Google Books non raggiungibile (HTTP {risposta.status_code})", "", ""
 
