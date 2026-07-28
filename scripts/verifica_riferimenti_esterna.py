@@ -31,6 +31,7 @@
 
 import argparse
 import difflib
+from contextlib import contextmanager
 import json
 import re
 import sys
@@ -117,6 +118,35 @@ CAMPI_PERSISTITI = ("confermato_esterno", "copertina", "sottocategoria",
 MARCA_AUTORE_NON_CORROBORATO = " [autore non corroborato]"
 
 
+# Tempo speso per archivio, in secondi, e numero di chiamate. Serve a sapere DOVE va
+# il tempo prima di ottimizzare: misurato il 2026-07-28 un ritmo di ~45 s/voce, ma le
+# attese di MusicBrainz spiegano in tutto ~78 minuti su 5.868 voci. Ottimizzare
+# l'archivio sbagliato e' il modo piu' rapido di perdere una giornata.
+TEMPI: dict[str, list] = {}
+
+
+@contextmanager
+def cronometra(archivio: str):
+    inizio = time.time()
+    try:
+        yield
+    finally:
+        voce = TEMPI.setdefault(archivio, [0.0, 0])
+        voce[0] += time.time() - inizio
+        voce[1] += 1
+
+
+def stampa_tempi() -> None:
+    if not TEMPI:
+        return
+    totale = sum(v[0] for v in TEMPI.values())
+    print("\n  dove e' andato il tempo (attese incluse):")
+    for archivio, (secondi, chiamate) in sorted(TEMPI.items(), key=lambda x: -x[1][0]):
+        print(f"    {archivio:16} {secondi:8.0f}s  ({100*secondi/max(totale,1):4.1f}%)  "
+              f"{chiamate:5} chiamate, {secondi/max(chiamate,1):5.2f}s l'una")
+    print(f"    {'TOTALE':16} {totale:8.0f}s")
+
+
 def _normalizza(s: str) -> str:
     return re.sub(r"[^\w\s]", "", (s or "").lower()).strip()
 
@@ -179,7 +209,7 @@ def _google_books_key() -> str:
     return GOOGLE_BOOKS_KEY_FILE.read_text(encoding="utf-8").strip()
 
 
-def cerca_google_books(titolo: str, autore: str) -> tuple[float, str, str, str]:
+def _cron_cerca_google_books(titolo: str, autore: str) -> tuple[float, str, str, str]:
     """Cerca un libro su Google Books.
     Ritorna (punteggio, descrizione, copertina, autori trovati).
 
@@ -439,7 +469,7 @@ def _credits_fm_titolo_e_artista(titolo: str) -> bool | None:
     return any(_similarita_autore(titolo, a) >= 0.9 for a in (d.get("artist_names") or []))
 
 
-def cerca_credits_fm(titolo: str, autore: str) -> tuple[float, str, str, str]:
+def _cron_cerca_credits_fm(titolo: str, autore: str) -> tuple[float, str, str, str]:
     """Cerca un brano su Credits.fm, archivio aperto di crediti musicali che incrocia
     MLC, CISAC, ISNI, MusicBrainz, Spotify e Apple Music.
 
@@ -470,7 +500,7 @@ def cerca_credits_fm(titolo: str, autore: str) -> tuple[float, str, str, str]:
     return punteggio, f"{titolo_trovato} - {', '.join(artisti[:2])}", "", ""
 
 
-def cerca_wikidata(titolo: str, autore: str, categoria: str) -> tuple[float, str, str, str]:
+def _cron_cerca_wikidata(titolo: str, autore: str, categoria: str) -> tuple[float, str, str, str]:
     """Cerca un'opera su Wikidata, filtrando per la categoria attesa.
 
     E' l'unico database provato che copre con lo stesso endpoint libri, film, serie,
@@ -543,7 +573,7 @@ PROFESSIONI_AUTORE = {
 }
 
 
-def verifica_autore(nome: str, categoria: str) -> tuple[float, str, str]:
+def _cron_verifica_autore(nome: str, categoria: str) -> tuple[float, str, str]:
     """Verifica che un NOME sia davvero un autore reale della categoria, senza avere
     un titolo. Ritorna (punteggio, descrizione, url alla pagina Wikipedia italiana).
 
@@ -581,7 +611,7 @@ def verifica_autore(nome: str, categoria: str) -> tuple[float, str, str]:
     return 0.0, "nessun autore reale con questo nome per la categoria", ""
 
 
-def completa_autore_dal_db(titolo: str, categoria: str, tmdb_key: str = "") -> str:
+def _cron_completa_autore_dal_db(titolo: str, categoria: str, tmdb_key: str = "") -> str:
     """Dato un titolo GIA' confermato ma senza autore, chiede al database chi sia
     l'autore. Ritorna il nome trovato, o "" se il database non lo espone.
 
@@ -862,7 +892,7 @@ def verifica_categorie_incrociate(titolo: str, autore: str, categoria_estratta: 
     return trovate
 
 
-def verifica_libro(titolo: str, autore: str) -> tuple[float, str, str, str]:
+def _cron_verifica_libro(titolo: str, autore: str) -> tuple[float, str, str, str]:
     """Cerca su Open Library, ritorna (punteggio, descrizione del match, URL
     copertina, sottocategoria — sempre '' qui: a differenza di film/serie (TMDB) e
     classica/opera (tag MusicBrainz), Open Library non ha un segnale abbastanza
@@ -977,7 +1007,7 @@ def _tmdb_cerca(endpoint: str, titolo: str, tmdb_key: str) -> list[dict]:
         return []
 
 
-def verifica_film(titolo: str, autore: str, tmdb_key: str) -> tuple[float, str, str, str]:
+def _cron_verifica_film(titolo: str, autore: str, tmdb_key: str) -> tuple[float, str, str, str]:
     """Cerca su TMDB, ritorna (punteggio, descrizione del match, URL locandina).
 
     ⚠️ BUG CORRETTO 2026-07-26: questa funzione riceveva `autore` e NON LO USAVA MAI
@@ -1119,7 +1149,7 @@ GENERI_CLASSICA = {"classical", "opera", "orchestral", "chamber music", "baroque
 SOGLIA_ARTISTA_NOTO = 20
 
 
-def _musicbrainz_e_nome_artista(nome: str) -> bool:
+def _cron__musicbrainz_e_nome_artista(nome: str) -> bool:
     """Il presunto titolo e' in realta' il nome di un artista NOTO?
 
     Interroga l'entita' /artist, che verifica_musica non ha mai usato (usa solo
@@ -1183,7 +1213,7 @@ def _sottocategoria_da_tag(tags: list[dict]) -> str:
     return ""
 
 
-def verifica_musica(titolo: str, autore: str) -> tuple[float, str, str, str]:
+def _cron_verifica_musica(titolo: str, autore: str) -> tuple[float, str, str, str]:
     """Cerca su MusicBrainz, ritorna (punteggio, descrizione del match, URL copertina,
     sottocategoria suggerita: 'classica'/'opera'/'' se non distinguibile).
     URL copertina via Cover Art Archive o '' se la release migliore non ha copertina
@@ -1463,6 +1493,8 @@ def main() -> None:
     report_path.parent.mkdir(parents=True, exist_ok=True)
     report_path.write_text(json.dumps(fuso, ensure_ascii=False, indent=2), encoding="utf-8")
 
+    stampa_tempi()
+
     autori = f", {completati_autore} autori completati dal database" if completati_autore else ""
     extra = f", {incrociate} voci gemelle in un'altra categoria" if incrociate else ""
     extra += f", {corrette_categoria} categorie corrette dal database" if corrette_categoria else ""
@@ -1473,3 +1505,48 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
+
+def verifica_libro(titolo: str, autore: str):
+    with cronometra('open library'):
+        return _cron_verifica_libro(titolo, autore)
+
+
+def cerca_google_books(titolo: str, autore: str):
+    with cronometra('google books'):
+        return _cron_cerca_google_books(titolo, autore)
+
+
+def verifica_film(titolo: str, autore: str, tmdb_key: str):
+    with cronometra('tmdb'):
+        return _cron_verifica_film(titolo, autore, tmdb_key)
+
+
+def verifica_musica(titolo: str, autore: str):
+    with cronometra('musicbrainz'):
+        return _cron_verifica_musica(titolo, autore)
+
+
+def cerca_wikidata(titolo: str, autore: str, categoria: str):
+    with cronometra('wikidata'):
+        return _cron_cerca_wikidata(titolo, autore, categoria)
+
+
+def cerca_credits_fm(titolo: str, autore: str):
+    with cronometra('credits.fm'):
+        return _cron_cerca_credits_fm(titolo, autore)
+
+
+def verifica_autore(nome: str, categoria: str):
+    with cronometra('wikidata autore'):
+        return _cron_verifica_autore(nome, categoria)
+
+
+def completa_autore_dal_db(titolo: str, categoria: str, tmdb_key: str = ""):
+    with cronometra('completa autore'):
+        return _cron_completa_autore_dal_db(titolo, categoria, tmdb_key)
+
+
+def _musicbrainz_e_nome_artista(nome: str):
+    with cronometra('veto artista'):
+        return _cron__musicbrainz_e_nome_artista(nome)
