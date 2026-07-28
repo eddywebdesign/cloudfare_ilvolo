@@ -1,0 +1,71 @@
+{
+  "_documentazione": {
+    "cos_e": "Insieme di riferimento per la VERIFICA su database esterni, distinto dal ground truth dell'estrazione (insieme_riferimento.json). Qui non si misura quali opere un modello sa trovare in una puntata, ma se la catena di database sa dire 'questa opera esiste' senza far passare rumore.",
+    "perche_esiste": "Il 2026-07-27 questi stessi 17 casi furono usati per validare il fallback multi-database, ma esistevano SOLO dentro il messaggio del commit 71e96779: non versionati, non rieseguibili. Il giorno dopo un cambio d'arita' ha disattivato in silenzio l'intero fallback e nessuna misura poteva accorgersene. Un insieme di prova che non si puo' rilanciare non e' una prova, e' un ricordo.",
+    "regola_dei_due_gruppi": "I due gruppi si leggono SEMPRE insieme. Alzare la conferma e' facile (basta allentare le soglie), alzarla senza far entrare rumore no. Un rinforzo che recupera opere vere ma ammette anche un solo caso del gruppo 'rumore' NON e' un miglioramento: un autore o un'opera sbagliata entra nell'archivio col bollo di 'verificato'.",
+    "saturazione": "Ci si ferma quando un giro di rinforzo guadagna meno di 1 caso su 20 nel gruppo 'vere' senza far entrare rumore. Solo allora il non filtrato passa alla revisione manuale, che e' l'ultima spiaggia e non un piano di lavoro.",
+    "come_si_aggiunge_un_caso": "Un caso entra solo se e' stato osservato DAVVERO in un run reale (campo 'fonte'), mai inventato per far quadrare una misura. I casi di rumore valgono quanto quelli veri: senza di loro si ottimizza verso il 'conferma tutto'.",
+    "aggiornato": "2026-07-28"
+  },
+
+  "vere": [
+    {"titolo": "Don Camillo", "autore": "Giovannino Guareschi", "categoria": "film",
+     "fonte": "scartata dai run reali: TMDB trova il film ma cerca solo il regista, e Guareschi e' lo scrittore"},
+    {"titolo": "Fantozzi", "autore": "Paolo Villaggio", "categoria": "film",
+     "fonte": "scartata dai run reali: Villaggio e' attore e autore, il regista e' Salce -> declassata"},
+    {"titolo": "Miami Vice", "autore": "Anthony Yerkovich", "categoria": "film",
+     "fonte": "scartata dai run reali: e' il CREATORE della serie e TMDB non espone i creatori"},
+    {"titolo": "La traviata", "autore": "Giuseppe Verdi", "categoria": "musica",
+     "fonte": "scartata dai run reali: MusicBrainz rispondeva 'Rigoletto - La donna e' mobile'"},
+    {"titolo": "Aida", "autore": "Giuseppe Verdi", "categoria": "musica",
+     "fonte": "scartata dai run reali: MusicBrainz rispondeva con una singola ARIA, non con l'opera"},
+    {"titolo": "Il sabato del villaggio", "autore": "Giacomo Leopardi", "categoria": "libro",
+     "fonte": "scartata dai run reali: Open Library dava un'edizione con 'Gori, Mario (Librettist)'"},
+    {"titolo": "I fili invisibili della natura", "autore": "", "categoria": "libro",
+     "fonte": "scartata dai run reali: zero risultati su Open Library (editoria italiana)"},
+    {"titolo": "Cinquanta sfumature di grigio", "autore": "E. L. James", "categoria": "libro",
+     "fonte": "scartata dai run reali: zero risultati col titolo in lettere; con '50' trovava una PARODIA"},
+    {"titolo": "Anna", "autore": "Niccolo' Ammaniti", "categoria": "libro",
+     "fonte": "scartata dai run reali: titolo generico, Open Library dava un libro sudafricano"},
+    {"titolo": "Il libro della giungla", "autore": "", "categoria": "libro",
+     "fonte": "caso 'titolo senza autore' (commit 9d16bc9e): il database deve completare Kipling"},
+    {"titolo": "Interstellar", "autore": "", "categoria": "film",
+     "fonte": "caso 'titolo senza autore' (commit 9d16bc9e): il database deve completare Nolan"},
+    {"titolo": "Il padrino", "autore": "", "categoria": "film",
+     "fonte": "caso 'titolo senza autore' (commit 9d16bc9e): il database deve completare Coppola"}
+  ],
+
+  "rumore": [
+    {"titolo": "Buongiorno direttore", "autore": "", "categoria": "libro",
+     "fonte": "rumore vero preso dai run: e' un saluto in onda, non un'opera"},
+    {"titolo": "Il nuovo libro di Fabio Volo", "autore": "Fabio Volo", "categoria": "libro",
+     "fonte": "rumore vero preso dai run: riferimento generico a un'opera non nominata"},
+    {"titolo": "pezzi di Pink Floyd", "autore": "Pink Floyd", "categoria": "musica",
+     "fonte": "rumore vero preso dai run: insieme di opere, non un'opera"},
+    {"titolo": "I film di Hitchcock", "autore": "Alfred Hitchcock", "categoria": "film",
+     "fonte": "rumore vero preso dai run: insieme di opere, non un'opera"},
+    {"titolo": "Euridice", "autore": "Orfeo", "categoria": "musica",
+     "fonte": "rumore vero preso dai run: personaggi del mito scambiati per opera e autore"},
+    {"titolo": "Ray Charles", "autore": "Ray Charles", "categoria": "musica",
+     "fonte": "rumore vero (2026-07-22): titolo uguale all'autore, MusicBrainz conferma tributi e compilation"},
+    {"titolo": "Il 5 maggio del 2014", "autore": "", "categoria": "libro",
+     "fonte": "rumore vero dal dataset frammenti: e' una data"},
+    {"titolo": "Il Mulino Bianco", "autore": "", "categoria": "libro",
+     "fonte": "rumore vero dal dataset frammenti: e' un marchio di biscotti"}
+  ],
+
+  "autori": [
+    {"autore": "Erri De Luca", "categoria": "libro", "atteso": "confermato",
+     "fonte": "caso 'autore senza titolo' (commit 9d16bc9e): 'adesso vi leggo una cosa di Erri De Luca'"},
+    {"autore": "Giacomo Leopardi", "categoria": "libro", "atteso": "confermato",
+     "fonte": "caso 'autore senza titolo' (commit 9d16bc9e)"},
+    {"autore": "Lucio Battisti", "categoria": "musica", "atteso": "confermato",
+     "fonte": "caso 'autore senza titolo' (commit 9d16bc9e)"},
+    {"autore": "Maurizio", "categoria": "libro", "atteso": "scartato",
+     "fonte": "rumore vero: e' un conduttore del programma, non un autore"},
+    {"autore": "Enrico", "categoria": "libro", "atteso": "scartato",
+     "fonte": "rumore vero: senza il controllo di somiglianza per parole diventava 'Heinrich Heine'"},
+    {"autore": "direttore", "categoria": "libro", "atteso": "scartato",
+     "fonte": "rumore vero: sostantivo comune preso per un nome"}
+  ]
+}

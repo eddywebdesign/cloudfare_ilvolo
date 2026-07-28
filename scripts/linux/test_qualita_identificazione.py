@@ -41,7 +41,7 @@ import shutil
 import subprocess
 import sys
 import time
-from datetime import date
+from datetime import date, datetime
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent.parent
@@ -65,9 +65,11 @@ CAMPIONE_STORICO = [
 # quei modelli non arriverebbero in fondo, e un confronto interrotto a meta' non e' un
 # confronto. Questi 8 costano ~100.000 token, sotto la quota di OGNI modello in gara.
 #
-# La composizione non e' casuale: 5 episodi su 8 hanno un ground truth letto a mano
-# (vedi insieme_riferimento.json), cosi' la recall e' misurabile su 37 opere reali
-# invece che sulle 24 di prima.
+# La composizione non e' casuale: 7 episodi su 8 hanno un ground truth letto a mano
+# (vedi insieme_riferimento.json). Di questi, 5 sono campioni PIENI e valgono per la
+# recall (42 opere); gli altri 2 sono marcati "parziale" (elencano solo riferimenti
+# gia' noti come persi) e contano a parte come prova di non-regressione, mai dentro
+# la recall — vedi misura_recall().
 CAMPIONE_MODELLI = [
     "2014-12-24",  # ground truth 10 opere, puntata densa (6 chunk)
     "2015-04-30",  # epoca 2015, gia' estratto in produzione (8 voci): confronto diretto
@@ -238,6 +240,12 @@ def misura_recall(riferimenti_dir: Path, ground_truth: dict, campione: list[str]
     misura e' una prova di non-regressione (li ritroviamo adesso?), non una recall
     vera, quindi vengono contati a parte."""
     trovate, mancate, per_episodio, non_estratti = [], [], {}, []
+    # Contati DAVVERO a parte, come il docstring dichiara da sempre: finche' finivano
+    # nel totale insieme agli altri, due episodi "parziali" (che elencano solo 3 opere
+    # gia' note come perse, non tutte quelle citate) muovevano la recall complessiva
+    # come se fossero campioni pieni. Su un campione da 45 opere pesano abbastanza da
+    # spostare il confronto fra due modelli.
+    parz_trovate, parz_mancate = [], []
     for data_str in campione:
         gt = ground_truth.get(data_str)
         if not gt:
@@ -255,16 +263,24 @@ def misura_recall(riferimenti_dir: Path, ground_truth: dict, campione: list[str]
         for opera in gt["opere"]:
             match = next((p for p in prodotte if opera_riconosciuta(p.get("titolo", ""), opera)), None)
             (ok_ep if match else ko_ep).append((opera, match))
-        trovate += ok_ep
-        mancate += ko_ep
+        if gt.get("parziale"):
+            parz_trovate += ok_ep
+            parz_mancate += ko_ep
+        else:
+            trovate += ok_ep
+            mancate += ko_ep
         per_episodio[data_str] = {
             "attese": len(gt["opere"]), "trovate": len(ok_ep),
             "parziale": bool(gt.get("parziale")), "mancate": [o["titolo"] for o, _ in ko_ep],
         }
     tot = len(trovate) + len(mancate)
-    return {"attese": tot, "trovate": len(trovate), "mancate": mancate,
+    parz_tot = len(parz_trovate) + len(parz_mancate)
+    return {"attese": tot, "trovate": len(trovate), "mancate": mancate + parz_mancate,
             "per_episodio": per_episodio, "non_estratti": non_estratti,
-            "recall": (len(trovate) / tot) if tot else None}
+            "recall": (len(trovate) / tot) if tot else None,
+            # Prova di non-regressione, riportata a parte: "dei riferimenti che
+            # sappiamo di aver perso, quanti ne ritroviamo adesso?"
+            "parziali_trovate": len(parz_trovate), "parziali_attese": parz_tot}
 
 
 def misura_ancoraggio(riferimenti_dir: Path, trascrizioni_dir: Path,
@@ -336,12 +352,19 @@ def salva_risultato(cartella: Path, provider: str, modello: str, campione: list[
     la misura precedente."""
     cartella.mkdir(parents=True, exist_ok=True)
     m, rec, anc = misure["metriche"], misure["recall"], misure["ancoraggio"]
-    nome = f"{date.today()}_{provider}_{modello.replace('/', '-')}.json"
+    # L'ora nel nome, non solo la data: ripetere lo stesso modello nello STESSO giorno
+    # e' l'unico modo di misurare la variabilita' fra due run (misurata ~6 punti su
+    # mistral), e serve proprio a distinguere una regressione vera da un colpo di
+    # fortuna. Col solo giorno nel nome il secondo run cancellava il primo.
+    nome = (f"{date.today()}_{datetime.now().strftime('%H%M')}"
+            f"_{provider}_{modello.replace('/', '-')}.json")
     dati = {
         "provider": provider, "modello": modello, "data": str(date.today()),
         "campione": campione,
         "recall": rec["recall"], "recall_trovate": rec["trovate"], "recall_attese": rec["attese"],
         "recall_per_episodio": rec["per_episodio"],
+        "parziali_trovate": rec.get("parziali_trovate", 0),
+        "parziali_attese": rec.get("parziali_attese", 0),
         "opere_mancate": [o["titolo"] for o, _ in rec["mancate"]],
         "ancoraggio": anc["quota"], "voci_non_ancorate": len(anc["non_ancorate"]),
         "voci_totali": m["tot"], "confermate_db": m["conf"],
@@ -362,7 +385,10 @@ def ricalcola_recall(dati_run: dict, ground_truth: dict) -> tuple | None:
     ADESSO, partendo dalle voci che il run ha salvato.
 
     Gli episodi falliti/incompleti restano fuori dal denominatore: un chunk perso per
-    rate-limit non e' un'opera che il modello non ha saputo riconoscere."""
+    rate-limit non e' un'opera che il modello non ha saputo riconoscere. Fuori anche
+    gli episodi "parziale" (elencano solo casi noti come persi), esattamente come in
+    misura_recall: le due funzioni devono contare allo stesso modo, altrimenti la
+    tabella di --confronta non e' confrontabile col numero stampato dal run."""
     voci_per_ep: dict[str, list[str]] = {}
     for v in dati_run.get("voci", []):
         voci_per_ep.setdefault(v["episodio"], []).append(v.get("titolo", ""))
@@ -371,7 +397,7 @@ def ricalcola_recall(dati_run: dict, ground_truth: dict) -> tuple | None:
     trovate = attese = 0
     for data_str in dati_run.get("campione", []):
         gt_ep = ground_truth.get(data_str)
-        if not gt_ep or data_str in falliti:
+        if not gt_ep or data_str in falliti or gt_ep.get("parziale"):
             continue
         prodotti = voci_per_ep.get(data_str, [])
         for opera in gt_ep["opere"]:
@@ -470,6 +496,9 @@ def stampa_misure(riferimenti_dir: Path, trascrizioni_dir: Path, campione: list[
             print(f"      {data_str}: {d['trovate']}/{d['attese']}{tag}", flush=True)
             if d["mancate"]:
                 print(f"         MANCANTI: {', '.join(d['mancate'])}", flush=True)
+        if rec.get("parziali_attese"):
+            print(f"  non-regressione        : {rec['parziali_trovate']}/{rec['parziali_attese']} "
+                  f"riferimenti gia' noti come persi, ora ritrovati (FUORI dalla recall)", flush=True)
     else:
         print("  RECALL                 : non misurabile (nessun ground truth nel campione)", flush=True)
 

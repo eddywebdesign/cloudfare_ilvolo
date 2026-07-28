@@ -67,7 +67,11 @@ WIKIDATA_API = "https://www.wikidata.org/w/api.php"
 GOOGLE_BOOKS_API = "https://www.googleapis.com/books/v1/volumes"
 WIKIDATA_SLEEP = 0.35   # Wikidata rifiuta le richieste troppo ravvicinate rispondendo
 # con contenuto non-JSON (misurato il 2026-07-27): mai chiamare .json() senza rete.
-GOOGLE_BOOKS_TENTATIVI = 3  # i 503 sono frequenti e intermittenti, non definitivi
+# I 503 di Google Books sono frequenti e intermittenti, non definitivi: misurata il
+# 2026-07-28 una richiesta fallita su 6 in una raffica, con chiave valida. Ogni
+# tentativo in meno e' una voce che resta in sospeso e va rifatta al run successivo.
+GOOGLE_BOOKS_TENTATIVI = 5
+WIKIDATA_TENTATIVI = 4
 
 # Parole spia nella descrizione italiana di Wikidata, per categoria attesa. Servono
 # perche' la ricerca grezza restituisce l'entita' piu' POPOLARE col quel nome, non
@@ -87,6 +91,15 @@ WIKIDATA_SPIE = {
 SOGLIA_ALTA = 0.72   # sopra: confermato automaticamente
 SOGLIA_BASSA = 0.45  # sotto: quasi certamente falso positivo, segnalato come tale
 MUSICBRAINZ_SLEEP = 1.05  # poco sopra 1 richiesta/secondo per margine di sicurezza
+
+# Tutti i campi che questo script puo' scrivere su una voce. Il salvataggio finale
+# rilegge il file da disco (per non sovrascrivere modifiche concorrenti) e ricopia
+# SOLO i campi elencati qui: finche' l'elenco era scritto a mano dentro il ciclo,
+# ogni campo nuovo veniva calcolato, contato e stampato ma mai salvato — successo
+# davvero con autore/autore_dal_database/sottocategoria/link_autore/solo_autore, che
+# non hanno mai raggiunto il disco. Aggiungere qui QUALSIASI campo nuovo.
+CAMPI_PERSISTITI = ("confermato_esterno", "copertina", "sottocategoria",
+                    "autore", "autore_dal_database", "link_autore", "solo_autore")
 
 
 def _normalizza(s: str) -> str:
@@ -151,8 +164,9 @@ def _google_books_key() -> str:
     return GOOGLE_BOOKS_KEY_FILE.read_text(encoding="utf-8").strip()
 
 
-def cerca_google_books(titolo: str, autore: str) -> tuple[float, str, str]:
-    """Cerca un libro su Google Books. Ritorna (punteggio, descrizione, copertina).
+def cerca_google_books(titolo: str, autore: str) -> tuple[float, str, str, str]:
+    """Cerca un libro su Google Books.
+    Ritorna (punteggio, descrizione, copertina, autori trovati).
 
     Perche' serve accanto a Open Library (misurato il 2026-07-27 sui casi reali che
     la pipeline scartava): Open Library e' debole sull'editoria italiana e dava ZERO
@@ -201,7 +215,142 @@ def cerca_google_books(titolo: str, autore: str) -> tuple[float, str, str]:
     return migliore
 
 
-def cerca_wikidata(titolo: str, autore: str, categoria: str) -> tuple[float, str, str]:
+def _wikidata_api(params: dict) -> dict:
+    """Unico punto d'accesso a Wikidata, con attesa crescente sul 429.
+
+    Misurato il 2026-07-28 sul banco della verifica: dopo una ventina di richieste
+    ravvicinate Wikidata risponde 429 e da li' in poi TUTTE le chiamate falliscono.
+    Senza attesa crescente il fallback muore dopo i primi episodi di un batch: su
+    ~1.100 episodi (~7 voci ciascuno) significa perderlo quasi del tutto, in silenzio,
+    perche' un -1.0 non scarta la voce ma la rimanda a un run futuro che ricadrebbe
+    nello stesso muro. Solleva se il muro non si apre: il chiamante lo trattera' come
+    "non ho potuto chiedere", mai come "non esiste"."""
+    attesa = WIKIDATA_SLEEP
+    for _tentativo in range(WIKIDATA_TENTATIVI):
+        r = requests.get(WIKIDATA_API, headers={"User-Agent": USER_AGENT}, timeout=20,
+                         params={**params, "format": "json"})
+        if r.status_code == 429:
+            # Retry-After se c'e', altrimenti si raddoppia l'attesa a ogni giro.
+            pausa = 0.0
+            try:
+                pausa = float(r.headers.get("Retry-After") or 0)
+            except ValueError:
+                pausa = 0.0
+            time.sleep(min(pausa or attesa * 4, 30.0))
+            attesa *= 2
+            continue
+        r.raise_for_status()
+        time.sleep(WIKIDATA_SLEEP)
+        return r.json()
+    raise RuntimeError(f"Wikidata limita le richieste (429) dopo {WIKIDATA_TENTATIVI} tentativi")
+
+
+def _wikidata_cerca(termine: str, lingua: str, limite: int) -> list[dict]:
+    """Ricerca di entita' per nome. Solleva se Wikidata non risponde: vedi _wikidata_api."""
+    return _wikidata_api({"action": "wbsearchentities", "search": termine,
+                          "language": lingua, "uselang": lingua,
+                          "limit": limite, "type": "item"}).get("search", [])
+
+
+# Proprieta' Wikidata che collegano un'opera a chi l'ha fatta, per categoria. Sono
+# CLAIM STRUTTURATI, non testo da interpretare: e' la differenza fra leggere un dato e
+# indovinarlo da una descrizione.
+AUTORE_PROP = {
+    "libro": ("P50",),           # autore
+    "film": ("P57", "P170"),     # regista; creatore (le serie non hanno un regista unico)
+    "musica": ("P86", "P175"),   # compositore; interprete
+}
+
+
+def _wikidata_autore_opera(titolo: str, categoria: str) -> str:
+    """Chiede a Wikidata CHI ha fatto un'opera, leggendo i claim strutturati.
+
+    Terza fonte per il completamento dell'autore, aggiunta il 2026-07-28 dopo aver
+    misurato che le prime due lasciano buchi reali: Open Library restituisce per "Il
+    libro della giungla" quattro schede col titolo esatto e author_name vuoto, e Google
+    Books risponde 503 a intermittenza (osservato: 1 richiesta su 6 in una raffica) —
+    e quel 503 diventava silenziosamente "nessun autore trovato", che e' la solita
+    confusione fra "non ho potuto chiedere" e "non c'e'".
+
+    Qui l'autore non si ricava dalla descrizione a parole: si legge il claim. Provato
+    dal vivo: La traviata -> Verdi (P86), Fantozzi -> Villaggio (P58), Miami Vice ->
+    Yerkovich (P170)."""
+    spie = WIKIDATA_SPIE.get(categoria, ())
+    proprieta = AUTORE_PROP.get(categoria, ())
+    if not spie or not proprieta:
+        return ""
+    try:
+        qid = ""
+        for lingua in ("it", "en"):
+            for it in _wikidata_cerca(titolo, lingua, 10):
+                descrizione = (it.get("description") or "").lower()
+                if not any(s in descrizione for s in spie):
+                    continue
+                if _similarita(titolo, it.get("label", "")) < SOGLIA_TITOLO_CERTO:
+                    continue
+                qid = it.get("id", "")
+                break
+            if qid:
+                break
+        if not qid:
+            return ""
+
+        claims = _wikidata_api({"action": "wbgetentities", "ids": qid,
+                                "props": "claims"})["entities"][qid].get("claims", {})
+        for prop in proprieta:
+            for c in claims.get(prop, []):
+                valore = c.get("mainsnak", {}).get("datavalue", {}).get("value", {})
+                if not isinstance(valore, dict) or not valore.get("id"):
+                    continue
+                persona = valore["id"]
+                etichette = _wikidata_api({"action": "wbgetentities", "ids": persona,
+                                           "props": "labels", "languages": "it|en"})
+                lab = etichette["entities"][persona].get("labels", {})
+                nome = (lab.get("it") or lab.get("en") or {}).get("value", "")
+                if nome:
+                    return nome
+    except Exception as e:
+        print(f"      (Wikidata non ha potuto dire l'autore di {titolo!r}: {e})")
+    return ""
+
+
+# Un "autore" la cui descrizione dice queste cose non e' una persona che ha scritto
+# qualcosa: e' un personaggio. Serve come filtro NEGATIVO, mai come requisito positivo.
+# Misurato il 2026-07-28 sul banco della verifica: il requisito positivo ("l'autore
+# proposto deve risultare un autore reale della categoria") sembra la mossa ovvia ma
+# perde Don Camillo (Guareschi e' 'scrittore', non un mestiere del cinema) e non ferma
+# comunque Orfeo (la sua descrizione contiene 'musicista'). Anche il controllo sui
+# legami strutturati di Wikidata costa -1 opera vera per -1 rumore: Guareschi non
+# compare tra i crediti del film ne' come 'basato su'. Il filtro negativo invece non
+# puo' far cadere un autore vero, perche' nessun autore vero e' un personaggio.
+PERSONAGGI_NON_AUTORI = ("personaggio", "mitologia", "mitologic", "divinit",
+                         "figura biblica", "eroe", "semidio", "creatura",
+                         "fictional", "mytholog", "deity", "legendary")
+
+
+def _e_personaggio_non_autore(nome: str) -> bool:
+    """L'autore proposto e' in realta' un personaggio (mitologico, letterario, biblico)?
+
+    Nato da un caso reale del gruppo rumore: "Euridice"/autore="Orfeo". L'opera esiste
+    davvero (di Jacopo Peri), quindi Wikidata la conferma sul solo titolo e la voce
+    entrava nell'archivio con un autore inventato dal mito. Costa una chiamata sola, e
+    solo nel ramo ambiguo (autore proposto ma assente dalla descrizione dell'opera)."""
+    if not nome:
+        return False
+    try:
+        risultati = _wikidata_cerca(nome, "it", 3)
+    except Exception:
+        # Non ho potuto chiedere: non e' una prova di nulla, non si filtra.
+        return False
+    for it in risultati:
+        if _similarita_autore(nome, it.get("label", "")) < 0.5:
+            continue
+        descrizione = (it.get("description") or "").lower()
+        return any(s in descrizione for s in PERSONAGGI_NON_AUTORI)
+    return False
+
+
+def cerca_wikidata(titolo: str, autore: str, categoria: str) -> tuple[float, str, str, str]:
     """Cerca un'opera su Wikidata, filtrando per la categoria attesa.
 
     E' l'unico database provato che copre con lo stesso endpoint libri, film, serie,
@@ -220,17 +369,11 @@ def cerca_wikidata(titolo: str, autore: str, categoria: str) -> tuple[float, str
     spie = WIKIDATA_SPIE.get(categoria, ())
     for lingua in ("it", "en"):
         try:
-            r = requests.get(WIKIDATA_API, headers={"User-Agent": USER_AGENT}, timeout=15,
-                             params={"action": "wbsearchentities", "search": titolo,
-                                     "language": lingua, "uselang": lingua,
-                                     "format": "json", "limit": 10, "type": "item"})
-            r.raise_for_status()
-            risultati = r.json().get("search", [])
+            risultati = _wikidata_cerca(titolo, lingua, 10)
         except Exception as e:
             # Wikidata risponde con HTML (non JSON) quando limita le richieste: va
             # trattato come "non ho potuto chiedere", non come "non esiste".
             return -1.0, f"errore Wikidata: {e}", "", ""
-        time.sleep(WIKIDATA_SLEEP)
 
         for it in risultati:
             descrizione = (it.get("description") or "").lower()
@@ -245,6 +388,12 @@ def cerca_wikidata(titolo: str, autore: str, categoria: str) -> tuple[float, str
                 # Autore proposto assente dalla descrizione: non basta a scartare
                 # (la descrizione puo' non nominarlo), ma non merita il bonus.
                 punteggio = sim_titolo * 0.8
+                # ...e se quell'autore e' un personaggio, la voce non va confermata
+                # in automatico: l'opera esiste, l'attribuzione no. Si declassa a
+                # "dubbio" invece di scartare, perche' il titolo resta reale e un
+                # occhio umano puo' chiudere il caso in due secondi.
+                if _e_personaggio_non_autore(autore):
+                    punteggio = min(punteggio, SOGLIA_ALTA - 0.01)
             else:
                 punteggio = sim_titolo * 0.7 + (sim_autore * 0.3 if autore else sim_titolo * 0.3)
             if punteggio > 0:
@@ -287,15 +436,9 @@ def verifica_autore(nome: str, categoria: str) -> tuple[float, str, str]:
     if not nome or not professioni:
         return 0.0, "", ""
     try:
-        r = requests.get(WIKIDATA_API, headers={"User-Agent": USER_AGENT}, timeout=15,
-                         params={"action": "wbsearchentities", "search": nome,
-                                 "language": "it", "uselang": "it", "format": "json",
-                                 "limit": 5, "type": "item"})
-        r.raise_for_status()
-        risultati = r.json().get("search", [])
+        risultati = _wikidata_cerca(nome, "it", 5)
     except Exception as e:
         return -1.0, f"errore Wikidata: {e}", ""
-    time.sleep(WIKIDATA_SLEEP)
 
     for it in risultati:
         descrizione = (it.get("description") or "").lower()
@@ -361,6 +504,14 @@ def completa_autore_dal_db(titolo: str, categoria: str, tmdb_key: str = "") -> s
             return ""
     except Exception as e:
         print(f"      (autore non recuperabile dal database: {e})")
+
+    # Terza fonte, per libri e film/serie: i claim strutturati di Wikidata. Copre i due
+    # buchi misurati nelle prime due (schede Open Library senza autore, 503 intermittenti
+    # di Google Books) e in piu' le SERIE, che il ramo film non cercava affatto:
+    # _tmdb_cerca interroga solo "movie", quindi il creatore di una serie non era
+    # raggiungibile da nessuna strada. La musica resta esclusa: vedi sopra.
+    if categoria != "musica":
+        return _wikidata_autore_opera(titolo, categoria)
     return ""
 
 
@@ -384,6 +535,16 @@ def verifica_con_fallback(titolo: str, autore: str, categoria: str,
     if punteggio >= SOGLIA_ALTA:
         return primo
 
+    # Un archivio che non risponde non deve poter emettere una condanna. Misurato il
+    # 2026-07-28: Google Books da' 503 a intermittenza (1 richiesta su 6 in una
+    # raffica, chiave presente) e "I fili invisibili della natura", libro reale
+    # confermato pochi minuti prima, diventava "scartato (0.00)" - cioe' la voce veniva
+    # marcata definitivamente come probabile falso positivo sulla base di una domanda
+    # mai arrivata. Il principio era gia' scritto qui sotto ("un punteggio negativo non
+    # fa mai scartare una voce") ma valeva solo DENTRO il confronto: il verdetto finale
+    # lo ignorava.
+    non_raggiungibile = punteggio < 0
+
     tentativi = []
     if categoria == "libro":
         tentativi.append(("google books", lambda: cerca_google_books(titolo, autore)))
@@ -391,16 +552,80 @@ def verifica_con_fallback(titolo: str, autore: str, categoria: str,
 
     for nome, cerca in tentativi:
         try:
-            p, d, c = cerca()
+            risultato = cerca()
         except Exception as e:
+            # Rete/HTTP/risposta non-JSON: atteso e non fatale, si prova il prossimo.
             print(f"      ({nome} non interrogabile: {e})")
             continue
+        # Spacchettamento FUORI dal try, deliberatamente: se l'arita' del risultato
+        # cambia, l'errore deve farsi sentire invece di somigliare a un problema di
+        # rete. Successo davvero il 2026-07-27: i return di cerca_google_books e
+        # cerca_wikidata passarono da 3 a 4 valori, l'except generico trasformo' il
+        # ValueError in una riga innocua e TUTTO il fallback multi-database resto'
+        # disattivato in silenzio. Stessa famiglia del bug Groq: "fallito" non deve
+        # mai somigliare a "non trovato".
+        p, d, c, _ = risultato
         if p < 0:
             # Non raggiungibile: non e' una prova di inesistenza, si prosegue.
+            non_raggiungibile = True
             continue
         if p > punteggio:
             punteggio, descrizione, copertina = p, f"{d} [via {nome}]", (copertina or c)
+
+    if punteggio < SOGLIA_BASSA and non_raggiungibile:
+        # Sotto SOGLIA_BASSA e con un archivio muto: il verdetto sarebbe "probabile
+        # falso positivo", che NON e' innocuo — pulisci_riferimenti_non_confermati.py
+        # rimuove quelle voci dal dataset. Si sospende e la voce torna in coda per un
+        # run futuro. Sopra SOGLIA_BASSA invece si lascia "dubbio": nessuna voce viene
+        # persa, finisce solo in revisione, quindi non vale la pena rimandare.
+        return -1.0, f"{descrizione} [verdetto sospeso: un archivio non ha risposto]", copertina, sottocat
     return punteggio, descrizione, copertina, sottocat
+
+
+def giudica_voce(titolo: str, autore: str, categoria: str,
+                 tmdb_key: str = "") -> tuple[float, str, str, str, str]:
+    """Giudizio completo di UNA voce: database principale, database di riserva e
+    guardrail. Ritorna (punteggio, match, copertina, sottocategoria, link_autore).
+
+    Esiste come funzione a se' perche' il banco di prova della verifica
+    (scripts/linux/test_verifica_esterna.py) deve giudicare ESATTAMENTE come la
+    produzione: se il banco riscrivesse la stessa sequenza per conto suo, misurerebbe
+    una catena che non e' quella che gira davvero, e la misura varrebbe zero il giorno
+    in cui le due copie divergono. E' proprio quello che e' successo il 2026-07-28
+    con rivaluta_dubbi_esterni.py, che chiamava i database uno per uno saltando il
+    fallback.
+
+    Punteggio -1.0 = non ho potuto chiedere, vedi cerca_google_books()."""
+    if not titolo:
+        # Voce di SOLO AUTORE: non c'e' un'opera da cercare, si verifica che il nome
+        # sia davvero un autore reale della categoria.
+        punteggio, match, url = verifica_autore(autore, categoria)
+        return punteggio, match, "", "", url
+
+    if categoria == "libro":
+        primo = verifica_libro(titolo, autore)
+        time.sleep(0.35)  # margine sotto ~3 richieste/secondo
+    elif categoria == "film":
+        primo = verifica_film(titolo, autore, tmdb_key)
+        time.sleep(0.05)
+    else:
+        primo = verifica_musica(titolo, autore)
+        time.sleep(MUSICBRAINZ_SLEEP)
+
+    punteggio, match, copertina, sub_suggerita = verifica_con_fallback(
+        titolo, autore, categoria, primo)
+
+    # Trovato 2026-07-22 nel run reale sul backlog: "Ray Charles"/autore="Ray Charles"
+    # e "Lucio Dalla"/autore="Lucio Dalla" confermati automaticamente perche' il
+    # database esterno (MusicBrainz include tributi e compilation col nome
+    # dell'artista come titolo) trova un "match" che pero' dice solo "l'artista
+    # esiste", non "e' un'opera specifica citata". Se titolo e autore normalizzati
+    # sono uguali, non fidarsi MAI del punteggio esterno, per quanto alto sia.
+    titolo_norm = _normalizza(titolo)
+    if titolo_norm and titolo_norm == _normalizza(autore):
+        punteggio = min(punteggio, SOGLIA_ALTA - 0.01)
+
+    return punteggio, match, copertina, sub_suggerita, ""
 
 
 def verifica_libro(titolo: str, autore: str) -> tuple[float, str, str, str]:
@@ -769,29 +994,9 @@ def main() -> None:
         titolo = (r.get("titolo") or "").strip()
         autore = r.get("autore", "")
         try:
-            if not titolo:
-                # Voce di SOLO AUTORE: non c'e' un'opera da cercare, si verifica che il
-                # nome sia davvero un autore reale della categoria e si conserva il
-                # collegamento alle sue opere. Se il nome non regge, la voce viene
-                # scartata come qualunque altra non confermata.
-                punteggio, match, url = verifica_autore(autore, categoria)
-                copertina, sub_suggerita = "", ""
-                if punteggio >= SOGLIA_ALTA and url:
-                    r["link_autore"] = url
-                    r["solo_autore"] = True
-            elif categoria == "libro":
-                primo = verifica_libro(titolo, autore)
-                time.sleep(0.35)  # margine sotto ~3 richieste/secondo
-            elif categoria == "film":
-                primo = verifica_film(titolo, autore, tmdb_key)
-                time.sleep(0.05)
-            else:  # musica
-                primo = verifica_musica(titolo, autore)
-                time.sleep(MUSICBRAINZ_SLEEP)
-            if titolo:
-                # Il database principale non basta da solo: vedi verifica_con_fallback().
-                punteggio, match, copertina, sub_suggerita = verifica_con_fallback(
-                    titolo, autore, categoria, primo)
+            # Stessa identica catena usata dal banco di prova della verifica.
+            punteggio, match, copertina, sub_suggerita, url_autore = giudica_voce(
+                titolo, autore, categoria, tmdb_key)
         except Exception as e:
             print(f"  [{i+1}/{len(tutte_le_voci)}] ERRORE imprevisto su {titolo!r}: {e}, salto")
             continue
@@ -800,19 +1005,11 @@ def main() -> None:
             # Errore di rete: non scrivere nulla, riprovare in un run futuro.
             continue
 
-        # Trovato 2026-07-22 nel run reale sul backlog: "Ray Charles"/autore="Ray
-        # Charles" e "Lucio Dalla"/autore="Lucio Dalla" confermati automaticamente
-        # perche' il database esterno (MusicBrainz include tributi/compilation con
-        # lo stesso nome dell'artista come titolo) trova un "match" che pero' dice
-        # solo "l'artista esiste", non "e' un'opera specifica citata". Stesso
-        # controllo strutturale gia' fatto in trascrivi_e_estrai_clip.py: se
-        # titolo e autore normalizzati sono uguali, non fidarsi MAI del punteggio
-        # esterno, forzare "dubbio" a prescindere da quanto alto sia.
-        titolo_norm = _normalizza(titolo)
-        autore_norm = _normalizza(autore)
-        titolo_e_autore_uguali = bool(titolo_norm) and titolo_norm == autore_norm
-        if titolo_e_autore_uguali:
-            punteggio = min(punteggio, SOGLIA_ALTA - 0.01)
+        # Voce di solo autore confermata: si conserva il collegamento alle sue opere
+        # invece di buttare via tutto (deciso con l'utente il 2026-07-27).
+        if url_autore and punteggio >= SOGLIA_ALTA:
+            r["link_autore"] = url_autore
+            r["solo_autore"] = True
 
         r["confermato_esterno"] = punteggio >= SOGLIA_ALTA
         # Copertina salvata SOLO se il match e' confermato: un titolo dubbio/scartato
@@ -854,10 +1051,12 @@ def main() -> None:
         dati = json.loads(fp.read_text(encoding="utf-8"))
         by_id = {r.get("id"): r for r in voci_modificate}
         for r in dati:
-            if r.get("id") in by_id:
-                r["confermato_esterno"] = by_id[r["id"]]["confermato_esterno"]
-                if "copertina" in by_id[r["id"]]:
-                    r["copertina"] = by_id[r["id"]]["copertina"]
+            aggiornata = by_id.get(r.get("id"))
+            if aggiornata is None:
+                continue
+            for campo_scritto in CAMPI_PERSISTITI:
+                if campo_scritto in aggiornata:
+                    r[campo_scritto] = aggiornata[campo_scritto]
         fp.write_text(json.dumps(dati, ensure_ascii=False, indent=2), encoding="utf-8")
 
     esistenti = {}

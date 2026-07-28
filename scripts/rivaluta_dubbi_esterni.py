@@ -28,7 +28,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
 from verifica_riferimenti_esterna import (  # noqa: E402
     DATASET_CONFIG, SOGLIA_ALTA, SOGLIA_BASSA, MUSICBRAINZ_SLEEP,
-    verifica_libro, verifica_film, verifica_musica, _tmdb_key,
+    verifica_libro, verifica_film, verifica_musica, verifica_con_fallback, _tmdb_key,
 )
 from dati_root import dati_root, logs_root  # noqa: E402
 
@@ -80,14 +80,22 @@ def main() -> None:
             titolo, autore = r["titolo"], r.get("autore", "")
             try:
                 if categoria == "libro":
-                    punteggio, match, copertina, _sub = verifica_libro(titolo, autore)
+                    primo = verifica_libro(titolo, autore)
                     time.sleep(0.35)
                 elif categoria == "film":
-                    punteggio, match, copertina, _sub = verifica_film(titolo, autore, tmdb_key)
+                    primo = verifica_film(titolo, autore, tmdb_key)
                     time.sleep(0.05)
                 else:
-                    punteggio, match, copertina, _sub = verifica_musica(titolo, autore)
+                    primo = verifica_musica(titolo, autore)
                     time.sleep(MUSICBRAINZ_SLEEP)
+                # Stessa catena della verifica normale, non il solo database
+                # principale: qui si ri-giudica proprio il backlog gia' scartato, che
+                # e' l'insieme dove Google Books e Wikidata servono di piu'. Finche'
+                # questo script chiamava le tre funzioni da solo, la ri-verifica era
+                # piu' debole della verifica di primo giro e non poteva recuperare
+                # nulla che il database principale avesse gia' mancato.
+                punteggio, match, copertina, _sub = verifica_con_fallback(
+                    titolo, autore, categoria, primo)
             except Exception as e:
                 print(f"  ERRORE su {titolo!r}: {e}, salto")
                 riclassificate["saltate"] += 1

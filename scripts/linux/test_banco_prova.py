@@ -116,6 +116,119 @@ def test_recall() -> None:
         verifica("recall calcolata sul denominatore giusto", abs(r["recall"] - 1 / 3) < 0.001)
 
 
+def test_recall_parziale() -> None:
+    """Gli episodi 'parziale' elencano SOLO riferimenti gia' noti come persi: sono una
+    prova di non-regressione, non un campione rappresentativo. Contarli nel totale
+    faceva muovere la recall complessiva a seconda di quanti casi persi conoscevamo,
+    che non e' una proprieta' del modello."""
+    print("\nmisura_recall - episodi 'parziale' fuori dal denominatore")
+    with tempfile.TemporaryDirectory() as tmp:
+        rif = Path(tmp) / "riferimenti"
+        tra = Path(tmp) / "trascrizioni"
+        rif.mkdir(); tra.mkdir()
+        gt = {
+            "EP-PIENO": {"opere": [{"categoria": "film", "titolo": "Smoke", "autore": "Wayne Wang"},
+                                   {"categoria": "film", "titolo": "Manhattan", "autore": "Woody Allen"}]},
+            "EP-PARZ": {"parziale": True,
+                        "opere": [{"categoria": "film", "titolo": "Miami Vice", "autore": "Yerkovich"}]},
+        }
+        _scrivi(rif, tra, "EP-PIENO", [{"titolo": "Smoke", "categoria": "film"}], "parlano di Smoke")
+        _scrivi(rif, tra, "EP-PARZ", [{"titolo": "Miami Vice", "categoria": "film"}], "Miami Vice")
+
+        r = banco.misura_recall(rif, gt, ["EP-PIENO", "EP-PARZ"])
+        verifica("il parziale non entra nel denominatore della recall", r["attese"] == 2)
+        verifica("il parziale non entra nel numeratore", r["trovate"] == 1)
+        verifica("recall 1/2, non 2/3", abs(r["recall"] - 0.5) < 0.001)
+        verifica("la non-regressione e' riportata a parte",
+                 r["parziali_trovate"] == 1 and r["parziali_attese"] == 1)
+        verifica("il parziale resta visibile nel dettaglio per episodio",
+                 r["per_episodio"]["EP-PARZ"]["parziale"] is True)
+
+        # --confronta ricalcola la recall dei run archiviati: se contasse in modo
+        # diverso da misura_recall, la tabella non sarebbe confrontabile col numero
+        # stampato dal run stesso.
+        run = {"campione": ["EP-PIENO", "EP-PARZ"], "episodi_falliti": [],
+               "voci": [{"episodio": "EP-PIENO", "titolo": "Smoke"},
+                        {"episodio": "EP-PARZ", "titolo": "Miami Vice"}]}
+        _, trovate, attese = banco.ricalcola_recall(run, gt)
+        verifica("ricalcola_recall conta come misura_recall", (trovate, attese) == (1, 2))
+
+
+def test_fallback_arita_verifica_esterna() -> None:
+    """Il controllo che il 2026-07-27 sarebbe servito e non c'era.
+
+    Quel giorno i return di cerca_google_books/cerca_wikidata passarono da 3 a 4 valori
+    senza aggiornare lo spacchettamento dentro verifica_con_fallback: ogni chiamata
+    sollevava ValueError, un except generico la trasformava in una riga di stampa
+    innocua, e l'INTERO fallback multi-database resto' disattivato in silenzio mentre
+    tutto sembrava funzionare. Nessuna misura del banco poteva accorgersene: il codice
+    non falliva, produceva solo risultati peggiori.
+
+    Questo test non tocca la rete: sostituisce le due funzioni di ricerca con finte."""
+    print("\nverifica_con_fallback (arita' dei database di riserva)")
+    sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+    import verifica_riferimenti_esterna as ve  # noqa: E402
+
+    gb_originale, wd_originale = ve.cerca_google_books, ve.cerca_wikidata
+    try:
+        # Il database principale non conferma (0.30), il fallback trova l'opera (0.95).
+        ve.cerca_google_books = lambda t, a: (0.95, "trovato su Google Books", "cop.jpg", "E. L. James")
+        ve.cerca_wikidata = lambda t, a, c: (0.0, "nessun match", "", "")
+        p, d, c, sub = ve.verifica_con_fallback(
+            "Cinquanta sfumature di grigio", "E. L. James", "libro", (0.30, "niente", "", ""))
+        verifica("il fallback alza davvero il punteggio", p == 0.95)
+        verifica("dice da quale database viene", "google books" in d)
+        verifica("porta con se' la copertina", c == "cop.jpg")
+        verifica("non inventa una sottocategoria", sub == "")
+
+        # Un database irraggiungibile (-1) non deve MAI far scendere il punteggio:
+        # "non ho potuto chiedere" non e' "non esiste" (stessa distinzione del bug Groq).
+        ve.cerca_google_books = lambda t, a: (-1.0, "503", "", "")
+        ve.cerca_wikidata = lambda t, a, c: (-1.0, "rete", "", "")
+        p, _, _, _ = ve.verifica_con_fallback("Anna", "Ammaniti", "libro", (0.60, "parziale", "", ""))
+        verifica("database irraggiungibile non abbassa il punteggio", p == 0.60)
+
+        # ...ma se il verdetto sarebbe DISTRUTTIVO (sotto SOGLIA_BASSA la voce viene
+        # rimossa da pulisci_riferimenti_non_confermati.py) e un archivio non ha
+        # risposto, il giudizio va sospeso, non emesso. Misurato il 2026-07-28: un 503
+        # di Google Books trasformava "I fili invisibili della natura", libro reale,
+        # in un probabile falso positivo da cancellare.
+        p, _, _, _ = ve.verifica_con_fallback("I fili invisibili della natura", "", "libro",
+                                              (0.0, "zero risultati", "", ""))
+        verifica("scarto con un archivio muto -> verdetto sospeso, non condanna", p == -1.0)
+
+        # Con tutti gli archivi raggiungibili, invece, lo scarto e' un verdetto pieno:
+        # senza questo il banco non distinguerebbe piu' il rumore vero.
+        ve.cerca_google_books = lambda t, a: (0.0, "nessun risultato", "", "")
+        ve.cerca_wikidata = lambda t, a, c: (0.0, "nessun match", "", "")
+        p, _, _, _ = ve.verifica_con_fallback("Il Mulino Bianco", "", "libro",
+                                              (0.0, "zero risultati", "", ""))
+        verifica("scarto con tutti gli archivi vivi -> resta uno scarto", p == 0.0)
+
+        # Il cuore del test: un'arita' sbagliata deve FARSI SENTIRE, non sparire.
+        ve.cerca_wikidata = lambda t, a, c: (0.9, "tre soli valori", "")
+        try:
+            ve.verifica_con_fallback("La traviata", "Verdi", "musica", (0.30, "niente", "", ""))
+            verifica("arita' sbagliata solleva un errore invece di essere ingoiata", False)
+        except ValueError:
+            verifica("arita' sbagliata solleva un errore invece di essere ingoiata", True)
+    finally:
+        ve.cerca_google_books, ve.cerca_wikidata = gb_originale, wd_originale
+
+
+def test_campi_persistiti() -> None:
+    """Il write-back rilegge il file da disco e ricopia solo i campi elencati in
+    CAMPI_PERSISTITI. Finche' l'elenco stava scritto a mano, i campi aggiunti dopo
+    (autore completato dal database, sottocategoria, solo_autore) venivano calcolati,
+    contati e stampati a fine run ma non raggiungevano mai il disco."""
+    print("\nCAMPI_PERSISTITI (cio' che la verifica esterna salva davvero)")
+    sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+    import verifica_riferimenti_esterna as ve  # noqa: E402
+    for campo in ("confermato_esterno", "copertina", "sottocategoria",
+                  "autore", "autore_dal_database", "link_autore", "solo_autore"):
+        verifica(f"'{campo}' viene persistito", campo in ve.CAMPI_PERSISTITI)
+
+
 def test_ancoraggio() -> None:
     """L'unica misura di precisione non circolare: dice se la voce e' citata DAVVERO
     nell'episodio, cosa che nessun database esterno puo' sapere."""
@@ -210,6 +323,9 @@ def main() -> int:
     test_stesso_titolo()
     test_titoli_alternativi()
     test_recall()
+    test_recall_parziale()
+    test_fallback_arita_verifica_esterna()
+    test_campi_persistiti()
     test_ancoraggio()
     test_config_e_tetto()
     test_ground_truth()
