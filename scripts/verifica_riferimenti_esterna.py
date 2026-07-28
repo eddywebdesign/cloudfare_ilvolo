@@ -61,7 +61,7 @@ DATASET_CONFIG = {
 }
 
 TMDB_KEY_FILE = Path.home() / "TMDB API.txt"
-CREDITS_FM_KEY_FILE = Path.home() / "API_Credits_fm.txt"
+CREDITS_FM_KEY_FILE = Path.home() / "API credit_fm.txt"
 CREDITS_FM_API = "https://api.credits.fm/v1"
 # Senza chiave l'API concede 30 lookup/min, con chiave gratuita 300 (documentazione
 # ufficiale letta il 2026-07-28). La pausa si adatta da sola: senza chiave il ritmo e'
