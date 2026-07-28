@@ -78,10 +78,32 @@ def classifica_con_wikidata(nome: str) -> tuple[str, str]:
     return "", "nessun match"
 
 
+def carica_indice_locale(percorso: Path) -> dict:
+    """Indice costruito dai dump di Wikipedia italiana (costruisci_indice_opere.py).
+
+    E' la risposta al motivo per cui la prima prova non reggeva: interrogare Wikidata
+    una entita' alla volta costava 400 secondi per episodio. Qui la stessa domanda si
+    risponde in memoria, quindi possiamo permetterci di essere severi: match ESATTO sul
+    titolo normalizzato, nessuna somiglianza approssimata. Un titolo che non combacia
+    esattamente non viene chiuso e passa al modello, che e' esattamente il compromesso
+    giusto: meglio dare al modello qualcosa in piu' che sporcare l'archivio a monte."""
+    return json.loads(percorso.read_text(encoding="utf-8"))
+
+
+def classifica_con_indice(nome: str, indice: dict) -> tuple[str, str]:
+    from costruisci_indice_opere import normalizza
+    voce = indice.get(normalizza(nome))
+    if not voce:
+        return "", "non nell'indice"
+    return voce[1], f"{voce[0]} [{voce[2]}]"
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--episodi", nargs="*")
     parser.add_argument("--modello", default="osiria/bert-italian-cased-ner")
+    parser.add_argument("--indice", default=str(Path.home() / "dump_wikipedia" / "indice_opere.json"),
+                        help="indice locale; se assente si ripiega su Wikidata (lento)")
     args = parser.parse_args()
 
     trascrizioni = dati_root(ROOT) / "trascrizioni"
@@ -90,6 +112,14 @@ def main() -> None:
     episodi = [d for d in episodi if (trascrizioni / f"{d}.json").exists() and d in ground_truth]
     if not episodi:
         sys.exit("ERRORE: nessun episodio utilizzabile. ILVOLO_DATA_DIR e' impostata?")
+
+    fp_indice = Path(args.indice)
+    indice = None
+    if fp_indice.exists():
+        indice = carica_indice_locale(fp_indice)
+        print(f"indice locale: {len(indice):,} opere da {fp_indice.name}", flush=True)
+    else:
+        print("indice locale ASSENTE: ripiego su Wikidata, ~5s per entita'", flush=True)
 
     riconoscitore = nomi.carica_riconoscitore(args.modello)
     chiuse_bene = attese = 0
@@ -106,7 +136,10 @@ def main() -> None:
 
         promosse = []
         for c in candidati:
-            cat, descrizione = classifica_con_wikidata(c)
+            if indice is not None:
+                cat, descrizione = classifica_con_indice(c, indice)
+            else:
+                cat, descrizione = classifica_con_wikidata(c)
             if cat:
                 promosse.append((c, cat, descrizione[:60]))
 
