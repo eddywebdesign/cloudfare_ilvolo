@@ -191,8 +191,15 @@ def _similarita_autore(a: str, b: str) -> float:
     return len(comuni) / max(len(parole_a), len(parole_b))
 
 
-def _tmdb_key() -> str:
+def _tmdb_key(obbligatoria: bool = True) -> str:
+    """Chiave TMDB. `obbligatoria=False` per chi vuole SEGNALARE l'assenza invece di
+    morire: il controllo d'ambiente deve poter dire "manca la chiave TMDB e per il
+    resto tutto risponde", non uscire al primo file assente lasciando gli altri
+    archivi non verificati. Successo davvero il 2026-07-28 sul K16, che non aveva
+    nessuna chiave: il controllo e' morto sulla prima e non ha misurato le altre."""
     if not TMDB_KEY_FILE.exists():
+        if not obbligatoria:
+            return ""
         print(f"Errore: chiave TMDB non trovata in {TMDB_KEY_FILE}")
         sys.exit(1)
     return TMDB_KEY_FILE.read_text(encoding="utf-8").strip()

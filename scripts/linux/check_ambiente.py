@@ -87,7 +87,8 @@ def controlla_archivi() -> None:
 
     prove = [
         ("Open Library", lambda: v.verifica_libro("Il nome della rosa", "Umberto Eco")[0]),
-        ("TMDB", lambda: v.verifica_film("Il padrino", "Francis Ford Coppola", v._tmdb_key())[0]),
+        ("TMDB", lambda: v.verifica_film("Il padrino", "Francis Ford Coppola",
+                                         v._tmdb_key(obbligatoria=False))[0]),
         ("MusicBrainz", lambda: v.verifica_musica("Chasing Cars", "Snow Patrol")[0]),
         ("Wikidata opere", lambda: v.cerca_wikidata("La traviata", "Giuseppe Verdi", "musica")[0]),
         ("Wikidata autori", lambda: v.verifica_autore("Giacomo Leopardi", "libro")[0]),
