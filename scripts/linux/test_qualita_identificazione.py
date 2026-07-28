@@ -682,6 +682,15 @@ def main() -> None:
     # sforare, invece di scoprirlo con una raffica di 429. Vive qui e non in
     # llm_multi.py di proposito: la produzione non deve nemmeno sapere che esiste.
     tetto = args.tetto if args.tetto is not None else config_banco.get("tetto_token_per_run")
+    # ⚠️ Il tetto serve a proteggere il BUDGET CLOUD: e' li' per non bruciare in una
+    # misura la quota che serve alla produzione. Un modello locale non consuma quota
+    # alcuna, quindi applicarglielo non protegge niente e falsa la misura: il
+    # 2026-07-29 ha troncato un run a 7 episodi su 8 e il risultato e' finito nella
+    # tabella comparativa marcato "non confrontabile alla pari", che e' il modo piu'
+    # rapido di rendere inutile una prova gia' pagata.
+    if provider_reale == "ollama" and tetto:
+        print(f"Tetto ignorato: {provider_reale} e' locale e non consuma budget.", flush=True)
+        tetto = None
     token_iniziali = llm_multi.token_usati_oggi(provider_reale) if tetto else 0
     if tetto:
         print(f"Tetto di questo run: {tetto:,} token (da {CONFIG_BANCO.name})", flush=True)
