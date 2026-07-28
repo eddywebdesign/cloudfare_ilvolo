@@ -102,6 +102,14 @@ PAROLE_VUOTE = {"il", "lo", "la", "i", "gli", "le", "un", "uno", "una", "di", "d
                 "you", "me", "is", "it", "new", "york"}
 
 
+def piene_di(s: str) -> set:
+    """Parole che identificano davvero qualcosa: senza articoli, preposizioni e simili.
+    Serve sia al confronto sia alla regola di distintivita' della scrematura, e deve
+    essere UNA sola definizione: due nozioni diverse di 'parola piena' nei due punti
+    farebbero misurare una cosa e produrne un'altra."""
+    return {w for w in banco._norm(s).split() if w not in PAROLE_VUOTE and len(w) > 2}
+
+
 def contiene(entita: list[str], cercato: str) -> bool:
     """Il nome cercato compare fra le entita'?
 
@@ -109,14 +117,13 @@ def contiene(entita: list[str], cercato: str) -> bool:
     'Dante Alighieri' contro 'Antonino Pagliaro' dava 0.5 a caratteri e confermava
     un'attribuzione falsa. In piu' le parole vuote non contano, e serve almeno una
     parola PIENA in comune: altrimenti si misura la lingua italiana, non il recupero."""
-    piene = lambda s: {w for w in banco._norm(s).split() if w not in PAROLE_VUOTE and len(w) > 2}
-    cercato_pieno = piene(cercato)
+    cercato_pieno = piene_di(cercato)
     if not cercato_pieno:
         # Titolo fatto di sole parole vuote: si esige la corrispondenza completa.
         atteso = banco._norm(cercato)
         return any(banco._norm(e) == atteso for e in entita)
     for e in entita:
-        e_pieno = piene(e)
+        e_pieno = piene_di(e)
         if not e_pieno:
             continue
         comuni = cercato_pieno & e_pieno

@@ -102,6 +102,8 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--episodi", nargs="*")
     parser.add_argument("--modello", default="osiria/bert-italian-cased-ner")
+    parser.add_argument("--parole-minime", type=int, default=2,
+                        help="parole piene minime perche' un titolo sia SICURO; sotto e' dubbio")
     parser.add_argument("--etichette", default="MISC",
                         help="etichette del riconoscitore ammesse (MISC=opere; PER e LOC sono persone e luoghi)")
     parser.add_argument("--indice", default=str(Path.home() / "dump_wikipedia" / "indice_opere.json"),
@@ -126,6 +128,7 @@ def main() -> None:
     riconoscitore = nomi.carica_riconoscitore(args.modello)
     chiuse_bene = attese = 0
     promosse_totali = 0
+    dubbi_totali = 0
     dettaglio = {}
     inizio = time.time()
 
@@ -144,14 +147,27 @@ def main() -> None:
                             if len(e.get("word", "").strip()) > 2
                             and e.get("entity_group", "MISC") in ammesse})
 
-        promosse = []
+        promosse, dubbi = [], []
         for c in candidati:
             if indice is not None:
                 cat, descrizione = classifica_con_indice(c, indice)
             else:
                 cat, descrizione = classifica_con_wikidata(c)
-            if cat:
+            if not cat:
+                dubbi.append(c)
+                continue
+            # SICURO o DUBBIO. Il match esatto nell'indice non basta: misurato sul
+            # ground truth, il 45% delle promosse era rumore, e "sicuro" non puo'
+            # sbagliare una volta su due. Il rumore osservato e' quasi tutto a parola
+            # singola (Borotalco, Mezzanotte, Patrick, Vanoni, Annibale, Magari:
+            # esistono davvero come opere, ma in onda erano il talco, un orario, una
+            # persona), mentre le opere vere chiuse sono quasi tutte lunghe (Una
+            # poltrona per due, I marciapiedi di New York, La fattoria degli animali).
+            # Un titolo corto non viene buttato: passa al modello, che ha il contesto.
+            if len(nomi.piene_di(c)) >= args.parole_minime:
                 promosse.append((c, cat, descrizione[:60]))
+            else:
+                dubbi.append(c)
 
         gt = ground_truth[data_str]
         note = [(o.get("titolo", ""), o.get("categoria", "")) for o in gt["opere"]]
@@ -164,6 +180,7 @@ def main() -> None:
                 trovate.append((titolo, match[1], match[1] == cat_attesa))
 
         promosse_totali += len(promosse)
+        dubbi_totali += len(dubbi)
         titoli_noti = {banco._norm(t) for t, _ in note}
         rumore = [p for p in promosse if not any(nomi.contiene([p[0]], t) for t, _ in note)]
         dettaglio[data_str] = {
@@ -187,6 +204,8 @@ def main() -> None:
           f"({100*chiuse_bene/max(attese,1):.0f}%)  <- lavoro tolto al modello", flush=True)
     print(f"  entita' promosse a opera in totale  : {promosse_totali} "
           f"(di cui {promosse_totali-chiuse_bene} NON sono opere note)", flush=True)
+    print(f"  candidati lasciati al modello       : {dubbi_totali} "
+          f"(i corti e quelli non nell'indice: hanno bisogno del contesto)", flush=True)
     print(f"  tempo                               : {time.time()-inizio:.0f}s "
           f"per {len(episodi)} episodi", flush=True)
     print("  Le due righe si leggono INSIEME: promuovere tutto chiude tutto e non "
