@@ -195,9 +195,19 @@ def main() -> None:
         cat = categoria_di(nome_cat)
         if not cat:
             continue
-        chiave = normalizza(titolo)
-        if chiave and chiave not in indice:
-            indice[chiave] = [titolo, cat, nome_cat.replace("_", " ")]
+        # ⚠️ Si indicizza ANCHE il titolo senza la disambiguazione fra parentesi.
+        # Wikipedia italiana chiama le pagine "Manhattan (film 1979)", "Smoke (film)",
+        # "Serendipity (film)": indicizzando solo il titolo completo, misurato il
+        # 2026-07-28, film notissimi come Ghostbusters, Manhattan e Smoke risultavano
+        # ASSENTI da un indice che ne conteneva 97.017. In onda nessuno pronuncia la
+        # parentesi, quindi la forma che ci serve e' proprio quella nuda.
+        voce = [titolo, cat, nome_cat.replace("_", " ")]
+        chiavi = [normalizza(titolo)]
+        if "(" in titolo:
+            chiavi.append(normalizza(titolo.split("(")[0]))
+        for chiave in chiavi:
+            if chiave and chiave not in indice:
+                indice[chiave] = voce
         if esaminate % 5000000 == 0:
             print(f"  {esaminate:,} collegamenti, {len(indice):,} opere...", flush=True)
 
