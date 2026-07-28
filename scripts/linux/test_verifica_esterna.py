@@ -36,7 +36,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent.parent
 sys.path.insert(0, str(ROOT / "scripts"))
 from verifica_riferimenti_esterna import (  # noqa: E402
-    SOGLIA_ALTA, SOGLIA_BASSA, giudica_voce, completa_autore_dal_db, _tmdb_key,
+    SOGLIA_ALTA, SOGLIA_BASSA, giudica_voce, completa_autore_dal_db,
+    verifica_categorie_incrociate, deve_incrociare, _tmdb_key,
 )
 from dati_root import logs_root  # noqa: E402
 
@@ -131,6 +132,39 @@ def prova_completamento_autore(casi: list, tmdb_key: str) -> list[dict]:
     return risultati
 
 
+def prova_multicategoria(casi: list, tmdb_key: str) -> list[dict]:
+    """Un nome che esiste in due archivi va riportato in entrambi, ciascuno nella sua
+    categoria (regola dell'utente, 2026-07-28). Qui si verifica che la categoria attesa
+    in piu' venga davvero trovata: se non la troviamo, la voce gemella non nascera'."""
+    print("\nMULTICATEGORIA (lo stesso nome esiste in piu' di un archivio)")
+    risultati = []
+    for c in casi:
+        titolo, autore = c["titolo"], c.get("autore", "")
+        estratta, attesa = c["categoria_estratta"], c["attesa_anche"]
+        try:
+            # Si passa PRIMA dalla stessa guardia della produzione: i casi negativi
+            # non falliscono perche' l'altro archivio non ha il titolo (ce l'ha:
+            # esistono libri intitolati "Pink Floyd"), ma perche' non si deve nemmeno
+            # andare a cercare. Chiamare direttamente la ricerca incrociata misurerebbe
+            # la cosa sbagliata.
+            punteggio, match, _c, _s, _u = giudica_voce(titolo, autore, estratta, tmdb_key)
+            if deve_incrociare(titolo, autore, punteggio >= SOGLIA_ALTA, match):
+                trovate = verifica_categorie_incrociate(titolo, autore, estratta, tmdb_key)
+            else:
+                trovate = []
+        except Exception as e:
+            print(ascii_sicuro(f"  [??] {titolo!r}: ERRORE {e}"))
+            continue
+        categorie = [t[0] for t in trovate]
+        ok = (attesa in categorie) if attesa else (categorie == [])
+        print(ascii_sicuro(f"  [{'ok ' if ok else 'NO '}] {titolo!r} (estratta: {estratta}) "
+                           f"-> trovata anche in: {categorie or 'nessun altro archivio'} "
+                           f"(attesa: {attesa})"))
+        risultati.append({"titolo": titolo, "autore": autore, "categoria": estratta,
+                          "attesa_anche": attesa, "trovate": categorie, "ok": ok})
+    return risultati
+
+
 def prova_autori(casi: list, tmdb_key: str) -> list[dict]:
     """Le voci di solo autore ('adesso vi leggo una cosa di Erri De Luca'): il nome
     deve reggere come autore reale, e un saluto qualunque non deve diventare un poeta."""
@@ -174,11 +208,11 @@ def confronta_col_precedente(cartella: Path, adesso: dict) -> list[str]:
         print("\n(nessun run precedente archiviato: questo diventa il riferimento)")
         return []
     prima = json.loads(precedenti[-1].read_text(encoding="utf-8"))
-    per_chiave_prima = {chiave(r): r for gruppo in ("vere", "rumore", "autori")
+    per_chiave_prima = {chiave(r): r for gruppo in ("vere", "rumore", "autori", "multicategoria")
                         for r in prima.get("risultati", {}).get(gruppo, [])}
     peggiorati = []
     migliorati = []
-    for gruppo in ("vere", "rumore", "autori"):
+    for gruppo in ("vere", "rumore", "autori", "multicategoria"):
         for r in adesso["risultati"].get(gruppo, []):
             vecchio = per_chiave_prima.get(chiave(r))
             if vecchio is None or vecchio.get("ok") is None or r.get("ok") is None:
@@ -223,7 +257,8 @@ def main() -> None:
         return
 
     inizio = time.time()
-    risultati = {"vere": [], "rumore": [], "autori": [], "completamento_autore": []}
+    risultati = {"vere": [], "rumore": [], "autori": [], "completamento_autore": [],
+                 "multicategoria": []}
 
     if args.gruppo in ("vere", "tutti"):
         risultati["vere"] = prova_opere(insieme["vere"], "confermato", tmdb_key,
@@ -234,16 +269,20 @@ def main() -> None:
                                           "GRUPPO RUMORE - non-opere prese dai run reali")
     if args.gruppo in ("autori", "tutti"):
         risultati["autori"] = prova_autori(insieme["autori"], tmdb_key)
+    if args.gruppo in ("multicategoria", "tutti"):
+        risultati["multicategoria"] = prova_multicategoria(insieme["multicategoria"], tmdb_key)
 
     vere_ok = sum(1 for r in risultati["vere"] if r["ok"])
     rumore_ammesso = sum(1 for r in risultati["rumore"] if r["ok"] is False)
     autori_ok = sum(1 for r in risultati["autori"] if r["ok"])
     compl_ok = sum(1 for r in risultati["completamento_autore"] if r["ok"])
+    multi_ok = sum(1 for r in risultati["multicategoria"] if r["ok"])
     sommario = {
         "vere_ok": vere_ok, "vere_tot": len(risultati["vere"]),
         "rumore_ammesso": rumore_ammesso, "rumore_tot": len(risultati["rumore"]),
         "autori_ok": autori_ok, "autori_tot": len(risultati["autori"]),
         "completamento_ok": compl_ok, "completamento_tot": len(risultati["completamento_autore"]),
+        "multicategoria_ok": multi_ok, "multicategoria_tot": len(risultati["multicategoria"]),
     }
 
     print("\n" + "=" * 72)
@@ -254,6 +293,8 @@ def main() -> None:
           f"   (deve restare 0: una voce sbagliata entra nell'archivio come 'verificata')")
     print(f"  solo autore            : {autori_ok}/{len(risultati['autori'])}")
     print(f"  autore completato dal DB: {compl_ok}/{len(risultati['completamento_autore'])}")
+    print(f"  multicategoria         : {multi_ok}/{len(risultati['multicategoria'])}"
+          f"   (lo stesso nome riportato in entrambi gli archivi)")
     print(f"  tempo                  : {time.time() - inizio:.0f}s")
 
     adesso = {"data": str(date.today()), "ora": datetime.now().strftime("%H:%M"),

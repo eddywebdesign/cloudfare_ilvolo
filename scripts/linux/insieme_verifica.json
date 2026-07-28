@@ -69,6 +69,25 @@
      "fonte": "corpus 2017-04-03, CONFERMATA: e' un fungo, nominato in una puntata di divulgazione"}
   ],
 
+  "multicategoria": [
+    {"titolo": "Don Camillo", "autore": "Giovannino Guareschi", "categoria_estratta": "film",
+     "attesa_anche": "libro",
+     "fonte": "regola dell'utente 2026-07-28: e' un film del 1952 ED e' il libro di Guareschi da cui e' tratto. Sceglierne uno solo perde informazione, sceglierlo male e' un errore"},
+    {"titolo": "Il libro della giungla", "autore": "", "categoria_estratta": "libro",
+     "attesa_anche": "film",
+     "fonte": "romanzo di Kipling e film Disney: stesso nome, due archivi"},
+    {"titolo": "Il padrino", "autore": "", "categoria_estratta": "film",
+     "attesa_anche": "libro",
+     "fonte": "film di Coppola e romanzo di Mario Puzo"},
+
+    {"titolo": "Pink Floyd", "autore": "", "categoria_estratta": "musica",
+     "attesa_anche": "",
+     "fonte": "NEGATIVO, guasto reale del 2026-07-28: voce musica senza autore appena declassata a revisione, la verifica incrociata la ritrovava come LIBRO (esistono biografie omonime) e la riconfermava con la categoria sbagliata"},
+    {"titolo": "Solare", "autore": "", "categoria_estratta": "musica",
+     "attesa_anche": "",
+     "fonte": "NEGATIVO, stesso guasto: titolo generico che esiste come libro"}
+  ],
+
   "autori": [
     {"autore": "Erri De Luca", "categoria": "libro", "atteso": "confermato",
      "fonte": "caso 'autore senza titolo' (commit 9d16bc9e): 'adesso vi leggo una cosa di Erri De Luca'"},

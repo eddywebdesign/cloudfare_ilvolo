@@ -101,6 +101,14 @@ MUSICBRAINZ_SLEEP = 1.05  # poco sopra 1 richiesta/secondo per margine di sicure
 CAMPI_PERSISTITI = ("confermato_esterno", "copertina", "sottocategoria",
                     "autore", "autore_dal_database", "link_autore", "solo_autore")
 
+# Marca lasciata nella descrizione del match quando il titolo e' stato confermato ma
+# l'autore proposto NON ha trovato riscontro. Non e' un difetto: la descrizione di
+# Wikidata spesso non nomina l'autore ("Don Camillo - film del 1952 diretto da Julien
+# Duvivier", mentre l'autore proposto e' Guareschi, che e' lo scrittore del libro da
+# cui il film e' tratto). E' proprio il segnale che quel nome puo' appartenere a piu'
+# di un archivio, e fa scattare la verifica incrociata fra categorie.
+MARCA_AUTORE_NON_CORROBORATO = " [autore non corroborato]"
+
 
 def _normalizza(s: str) -> str:
     return re.sub(r"[^\w\s]", "", (s or "").lower()).strip()
@@ -404,7 +412,8 @@ def cerca_wikidata(titolo: str, autore: str, categoria: str) -> tuple[float, str
             # Wikidata lo contiene quasi sempre in chiaro ("romanzo scritto da E. L.
             # James", "opera lirica di Giuseppe Verdi"), quindi lo si cerca li'.
             sim_autore = _similarita_autore(autore, descrizione) if autore else 0.0
-            if autore and sim_autore == 0.0:
+            autore_non_corroborato = bool(autore) and sim_autore == 0.0
+            if autore_non_corroborato:
                 # Autore proposto assente dalla descrizione: non basta a scartare
                 # (la descrizione puo' non nominarlo), ma non merita il bonus.
                 punteggio = sim_titolo * 0.8
@@ -417,8 +426,10 @@ def cerca_wikidata(titolo: str, autore: str, categoria: str) -> tuple[float, str
             else:
                 punteggio = sim_titolo * 0.7 + (sim_autore * 0.3 if autore else sim_titolo * 0.3)
             if punteggio > 0:
+                marca = MARCA_AUTORE_NON_CORROBORATO if autore_non_corroborato else ""
                 return (punteggio,
-                        f"{it.get('label','')} - {it.get('description','')} [wikidata:{it.get('id')}]",
+                        f"{it.get('label','')} - {it.get('description','')} "
+                        f"[wikidata:{it.get('id')}]{marca}",
                         "", "")
     return 0.0, "nessun match Wikidata della categoria attesa", "", ""
 
@@ -648,6 +659,14 @@ def giudica_voce(titolo: str, autore: str, categoria: str,
             match = (f"{titolo} risulta un ARTISTA, non un'opera: il nome e' finito nel "
                      f"campo del titolo e non c'e' un'opera da verificare")
             copertina, sub_suggerita = "", ""
+        else:
+            # Nessun archivio puo' confermare un titolo musicale senza autore: vedi la
+            # nota estesa in verifica_musica(). Il cap va ripetuto QUI perche' il
+            # fallback puo' rialzare il punteggio dopo — misurato su "Velvet
+            # Underground", che Wikidata riconferma come album eponimo del 1969.
+            punteggio = min(punteggio, SOGLIA_ALTA - 0.01)
+            match += " [senza autore: alla revisione]"
+            copertina = ""
 
     # Trovato 2026-07-22 nel run reale sul backlog: "Ray Charles"/autore="Ray Charles"
     # e "Lucio Dalla"/autore="Lucio Dalla" confermati automaticamente perche' il
@@ -660,6 +679,62 @@ def giudica_voce(titolo: str, autore: str, categoria: str,
         punteggio = min(punteggio, SOGLIA_ALTA - 0.01)
 
     return punteggio, match, copertina, sub_suggerita, ""
+
+
+def deve_incrociare(titolo: str, autore: str, confermato: bool, match: str) -> bool:
+    """Vale la pena cercare la stessa opera anche nelle altre categorie?
+
+    Sta qui, e non dentro main(), perche' il banco di prova deve poter misurare la
+    STESSA condizione che gira in produzione: e' una guardia che protegge da un
+    guasto reale, quindi va provata, non ricopiata.
+
+    Due casi soltanto:
+    - confermata nella sua categoria MA con l'autore non corroborato -> lo stesso nome
+      puo' appartenere a un altro archivio (Don Camillo film / libro);
+    - non confermata, ma con un autore proposto -> la categoria puo' essere sbagliata,
+      e l'autore e' cio' che rende la ricerca altrove non un tiro a indovinare.
+
+    L'autore e' obbligatorio nel secondo caso: senza, "Pink Floyd" e "Solare" (voci
+    musica senza autore, inverificabili per definizione) venivano ritrovate come LIBRO
+    e riconfermate con la categoria sbagliata. Misurato il 2026-07-28."""
+    if not titolo:
+        return False
+    autore_incerto = (MARCA_AUTORE_NON_CORROBORATO in match
+                      or "autore mai estratto" in match)
+    if confermato:
+        return autore_incerto
+    return bool(autore.strip())
+
+
+def verifica_categorie_incrociate(titolo: str, autore: str, categoria_estratta: str,
+                                  tmdb_key: str = "") -> list[tuple[str, float, str, str, str]]:
+    """Cerca la stessa coppia titolo/autore anche nelle ALTRE categorie.
+
+    Regola impostata dall'utente il 2026-07-28: davanti a un'ambiguita' che non
+    sappiamo risolvere, se il dato estratto e' certo ed esiste nei database, e lo
+    stesso nome richiama piu' archivi, si riportano ENTRAMBE le voci, ciascuna
+    associata alla propria categoria. "Don Camillo" e' un film del 1952 ed e' anche
+    il libro di Guareschi da cui il film e' tratto: sceglierne uno solo e' una perdita
+    di informazione, e sceglierlo male e' un errore. Non e' un caso di scuola - e'
+    proprio il motivo per cui Don Camillo veniva scartato: TMDB confermava il film ma
+    controllava il regista, e Guareschi e' lo scrittore.
+
+    Ritorna una lista di (categoria, punteggio, match, copertina, sottocategoria) per
+    OGNI categoria diversa da quella estratta che conferma sopra SOGLIA_ALTA. Lista
+    vuota se nessuna: e' il caso normale e non costa nulla al chiamante."""
+    if not titolo:
+        return []
+    altre = [c for c in ("libro", "film", "musica") if c != categoria_estratta]
+    trovate = []
+    for cat in altre:
+        try:
+            punteggio, match, copertina, sub, _url = giudica_voce(titolo, autore, cat, tmdb_key)
+        except Exception as e:
+            print(f"      (categoria {cat} non interrogabile: {e})")
+            continue
+        if punteggio >= SOGLIA_ALTA:
+            trovate.append((cat, punteggio, match, copertina, sub))
+    return trovate
 
 
 def verifica_libro(titolo: str, autore: str) -> tuple[float, str, str, str]:
@@ -1032,13 +1107,24 @@ def verifica_musica(titolo: str, autore: str) -> tuple[float, str, str, str]:
         # CONFERMATE, e leggendone un campione a mano la maggior parte e' di questo
         # tipo: "Bob Dylan", "Metallica", "Velvet Underground", "Nick Drake",
         # "Vangelis". Il guardrail titolo==autore non poteva vederle: l'autore e' vuoto.
-        # Il veto vero e proprio sta in giudica_voce(), a valle di TUTTA la catena:
+        # Il veto sui nomi d'artista sta in giudica_voce(), a valle di TUTTA la catena:
         # metterlo solo qui lasciava rientrare dal fallback 4 casi su 7 (misurato).
-        # Stesso principio di verifica_libro(): autore mai estratto, giudicare solo
-        # sul titolo (la formula 70/30 non puo' mai confermarlo altrimenti).
+        #
+        # ⚠️ UN TITOLO MUSICALE SENZA AUTORE NON SI CONFERMA MAI DA SOLO (deciso con
+        # l'utente il 2026-07-28). A differenza dei libri, dove Open Library e Google
+        # Books rispondono su un titolo preciso, MusicBrainz ha una registrazione per
+        # quasi ogni stringa breve: misurato sul corpus, 268 voci di questo tipo erano
+        # gia' confermate e leggendone un campione la maggior parte non e' musica
+        # citata ("Solare", "Chris", "Tirelli", "Suddenly", versi di sigle, nomi
+        # propri). Confermare sul solo titolo qui non misura l'esistenza dell'opera,
+        # misura la vastita' del catalogo. Restano quindi in DUBBIO: la voce non viene
+        # persa (solo i "probabile falso positivo" vengono rimossi), va in revisione.
+        # E' il primo punto in cui si accetta il limite invece di forzarlo.
         if miglior_sim_titolo >= SOGLIA_TITOLO_SENZA_AUTORE:
-            return (max(migliore[0], SOGLIA_ALTA + 0.01),
-                    migliore[1] + " [confermato solo per titolo, autore mai estratto]",
+            return (min(max(migliore[0], SOGLIA_BASSA + 0.01), SOGLIA_ALTA - 0.01),
+                    migliore[1] + " [titolo musicale senza autore: esiste qualcosa con "
+                                  "questo nome, ma nessun archivio puo' dire che sia "
+                                  "l'opera citata - va alla revisione]",
                     migliore[2], migliore[3])
         return (min(migliore[0], SOGLIA_BASSA - 0.01),
                 migliore[1] + " [titolo non abbastanza simile, probabile rumore di chiacchiera]",
@@ -1084,7 +1170,13 @@ def main() -> None:
     confermati = 0
     scartati = 0
     completati_autore = 0  # titoli confermati il cui autore e' stato messo dal database
+    incrociate = 0         # voci gemelle aggiunte in un'altra categoria
+    corrette_categoria = 0  # voci la cui categoria era sbagliata e il db l'ha corretta
     per_file: dict[Path, list[dict]] = {}
+    nuove_per_file: dict[Path, list[dict]] = {}
+    # Dalla categoria (libro/film/musica) al valore che il dataset scrive nel suo campo
+    # ("categoria" per i riferimenti, "tipo" con prefisso per i frammenti).
+    inversa = {v: k for k, v in mappa.items()}
 
     for i, (fp, r) in enumerate(tutte_le_voci):
         categoria = mappa[r[campo]]
@@ -1127,6 +1219,45 @@ def main() -> None:
                 r["autore"] = trovato
                 r["autore_dal_database"] = True
                 completati_autore += 1
+        # VERIFICA INCROCIATA FRA CATEGORIE (regola dell'utente, 2026-07-28).
+        # Scatta solo sull'ambiguita' vera, non su ogni voce: se il titolo e' stato
+        # confermato E l'autore ha trovato riscontro, non c'e' nulla da disambiguare e
+        # si risparmiano due interrogazioni per voce su tutto l'archivio. Scatta
+        # quando il titolo regge ma l'autore no (Don Camillo: TMDB conferma il film e
+        # controlla il regista, ma Guareschi e' lo scrittore del libro) o quando la
+        # categoria estratta non conferma affatto (il modello puo' averla sbagliata).
+        # La guardia sta in deve_incrociare(), cosi' il banco misura la stessa
+        # condizione che gira qui invece di una sua copia.
+        if deve_incrociare(titolo, autore, r["confermato_esterno"], match):
+            for cat_alt, p_alt, m_alt, cop_alt, sub_alt in verifica_categorie_incrociate(
+                    titolo, autore, categoria, tmdb_key):
+                if not r["confermato_esterno"]:
+                    # La categoria estratta non reggeva e un'altra si': non e' un
+                    # doppione, e' una correzione. La voce cambia categoria.
+                    r[campo] = inversa.get(cat_alt, cat_alt)
+                    r["confermato_esterno"] = True
+                    r["categoria_corretta_dal_db"] = True
+                    if cop_alt:
+                        r["copertina"] = cop_alt
+                    if sub_alt and not (r.get("sottocategoria") or "").strip():
+                        r["sottocategoria"] = sub_alt
+                    match = m_alt
+                    corrette_categoria += 1
+                    continue
+                # La voce regge gia' nella sua categoria e lo stesso nome esiste anche
+                # in un altro archivio: si riportano ENTRAMBE, ciascuna con la propria
+                # categoria, invece di sceglierne una a caso.
+                gemella = dict(r)
+                gemella["id"] = f"{r.get('id')}-{cat_alt}"
+                gemella[campo] = inversa.get(cat_alt, cat_alt)
+                gemella["confermato_esterno"] = True
+                gemella["copertina"] = cop_alt
+                gemella["sottocategoria"] = sub_alt
+                gemella["da_categoria_incrociata"] = True
+                gemella.pop("autore_dal_database", None)
+                nuove_per_file.setdefault(fp, []).append(gemella)
+                incrociate += 1
+
         per_file.setdefault(fp, []).append(r)
 
         if punteggio >= SOGLIA_ALTA:
@@ -1144,16 +1275,23 @@ def main() -> None:
         if (i + 1) % 20 == 0:
             print(f"  [{i+1}/{len(tutte_le_voci)}] confermati finora: {confermati}, dubbi/scartati: {len(dubbi)}")
 
-    for fp, voci_modificate in per_file.items():
+    campi_write_back = CAMPI_PERSISTITI + (campo, "categoria_corretta_dal_db")
+    for fp in set(per_file) | set(nuove_per_file):
         dati = json.loads(fp.read_text(encoding="utf-8"))
-        by_id = {r.get("id"): r for r in voci_modificate}
+        by_id = {r.get("id"): r for r in per_file.get(fp, [])}
         for r in dati:
             aggiornata = by_id.get(r.get("id"))
             if aggiornata is None:
                 continue
-            for campo_scritto in CAMPI_PERSISTITI:
+            for campo_scritto in campi_write_back:
                 if campo_scritto in aggiornata:
                     r[campo_scritto] = aggiornata[campo_scritto]
+        # Voci gemelle nate dalla verifica incrociata: si aggiungono, senza duplicare
+        # se un run precedente le aveva gia' create (l'id e' deterministico apposta).
+        gia_presenti = {r.get("id") for r in dati}
+        for gemella in nuove_per_file.get(fp, []):
+            if gemella.get("id") not in gia_presenti:
+                dati.append(gemella)
         fp.write_text(json.dumps(dati, ensure_ascii=False, indent=2), encoding="utf-8")
 
     esistenti = {}
@@ -1171,8 +1309,10 @@ def main() -> None:
     report_path.write_text(json.dumps(fuso, ensure_ascii=False, indent=2), encoding="utf-8")
 
     autori = f", {completati_autore} autori completati dal database" if completati_autore else ""
+    extra = f", {incrociate} voci gemelle in un'altra categoria" if incrociate else ""
+    extra += f", {corrette_categoria} categorie corrette dal database" if corrette_categoria else ""
     print(f"\nFatto. {confermati} confermate automaticamente, {scartati} probabili falsi positivi, "
-          f"{len(dubbi) - scartati} dubbie{autori} — report completo in {report_path} "
+          f"{len(dubbi) - scartati} dubbie{autori}{extra} - report completo in {report_path} "
           f"({len(fuso)} voci totali). NON cancellato nulla, solo segnalato/marcato.")
 
 
