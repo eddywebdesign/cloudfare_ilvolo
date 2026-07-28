@@ -92,19 +92,35 @@ def entita_di(riconoscitore, testo: str) -> list[dict]:
     return fuori
 
 
+# Parole che non identificano niente da sole. Senza escluderle il confronto regala
+# match falsi: misurato il 2026-07-28, "The Greatest" combaciava con l'entita' "The
+# Voice" per la sola parola "the", e "New York New York" con un generico "New York".
+# Due falsi su diciassette bastavano a gonfiare la misura di 12 punti.
+PAROLE_VUOTE = {"il", "lo", "la", "i", "gli", "le", "un", "uno", "una", "di", "del",
+                "della", "dei", "delle", "da", "in", "con", "su", "per", "tra", "fra",
+                "e", "o", "a", "al", "alla", "the", "of", "and", "in", "to", "my",
+                "you", "me", "is", "it", "new", "york"}
+
+
 def contiene(entita: list[str], cercato: str) -> bool:
-    """Il nome cercato compare fra le entita'? Confronto per PAROLE, non per caratteri:
-    e' la stessa lezione della verifica esterna, dove 'Dante Alighieri' contro
-    'Antonino Pagliaro' dava 0.5 a caratteri e confermava un'attribuzione falsa."""
-    cercato_norm = set(banco._norm(cercato).split())
-    if not cercato_norm:
-        return False
+    """Il nome cercato compare fra le entita'?
+
+    Confronto per PAROLE, non per caratteri: e' la lezione della verifica esterna, dove
+    'Dante Alighieri' contro 'Antonino Pagliaro' dava 0.5 a caratteri e confermava
+    un'attribuzione falsa. In piu' le parole vuote non contano, e serve almeno una
+    parola PIENA in comune: altrimenti si misura la lingua italiana, non il recupero."""
+    piene = lambda s: {w for w in banco._norm(s).split() if w not in PAROLE_VUOTE and len(w) > 2}
+    cercato_pieno = piene(cercato)
+    if not cercato_pieno:
+        # Titolo fatto di sole parole vuote: si esige la corrispondenza completa.
+        atteso = banco._norm(cercato)
+        return any(banco._norm(e) == atteso for e in entita)
     for e in entita:
-        e_norm = set(banco._norm(e).split())
-        if not e_norm:
+        e_pieno = piene(e)
+        if not e_pieno:
             continue
-        comuni = cercato_norm & e_norm
-        if comuni and len(comuni) >= min(len(cercato_norm), len(e_norm)) * 0.5:
+        comuni = cercato_pieno & e_pieno
+        if comuni and len(comuni) >= min(len(cercato_pieno), len(e_pieno)) * 0.6:
             return True
     return False
 
