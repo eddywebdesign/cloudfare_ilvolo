@@ -102,6 +102,8 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--episodi", nargs="*")
     parser.add_argument("--modello", default="osiria/bert-italian-cased-ner")
+    parser.add_argument("--etichette", default="MISC",
+                        help="etichette del riconoscitore ammesse (MISC=opere; PER e LOC sono persone e luoghi)")
     parser.add_argument("--indice", default=str(Path.home() / "dump_wikipedia" / "indice_opere.json"),
                         help="indice locale; se assente si ripiega su Wikidata (lento)")
     args = parser.parse_args()
@@ -131,8 +133,16 @@ def main() -> None:
         d = json.loads((trascrizioni / f"{data_str}.json").read_text(encoding="utf-8"))
         testo = " ".join(s.get("text", "") for s in d.get("segments", []))
         ents = nomi.entita_di(riconoscitore, testo)
+        # ⚠️ Si scartano le entita' che il riconoscitore attribuisce a PERSONE o
+        # LUOGHI. Misurato il 2026-07-28: senza questo filtro l'indice promuoveva
+        # Bologna e Italia a musica, Roma e Manhattan a film - esistono davvero una
+        # canzone "Bologna" e un film "Roma", e l'archivio non puo' sapere che nella
+        # puntata erano citta'. L'etichetta invece lo sa, ed era gia' li': la stavo
+        # buttando via. Le opere vere finiscono quasi tutte in MISC.
+        ammesse = set(args.etichette.split(","))
         candidati = sorted({e.get("word", "").strip() for e in ents
-                            if len(e.get("word", "").strip()) > 2})
+                            if len(e.get("word", "").strip()) > 2
+                            and e.get("entity_group", "MISC") in ammesse})
 
         promosse = []
         for c in candidati:
