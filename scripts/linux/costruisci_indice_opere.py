@@ -132,7 +132,8 @@ def main() -> None:
     cartella = Path(args.dump)
     fp_page = cartella / "itwiki-latest-page.sql.gz"
     fp_cat = cartella / "itwiki-latest-categorylinks.sql.gz"
-    for fp in (fp_page, fp_cat):
+    fp_lt = cartella / "itwiki-latest-linktarget.sql.gz"
+    for fp in (fp_page, fp_cat, fp_lt):
         if not fp.exists():
             sys.exit(f"ERRORE: manca {fp}")
 
@@ -151,27 +152,52 @@ def main() -> None:
             print(f"  {len(titolo_di):,} voci...", flush=True)
     print(f"  voci trovate: {len(titolo_di):,}  ({time.time()-inizio:.0f}s)", flush=True)
 
+    # ⚠️ Lo schema di MediaWiki e' cambiato: categorylinks non ha piu' la colonna
+    # cl_to col nome della categoria, ma cl_target_id, un riferimento numerico alla
+    # tabella linktarget. Scoperto il 2026-07-28 leggendo il CREATE TABLE del dump
+    # dopo che l'indice era uscito con ZERO opere: un fallimento totale e uniforme,
+    # che in questo progetto significa sempre un'assunzione sbagliata mia e mai un
+    # dato reale. Il primo lettore prendeva cl_sortkey credendo fosse il nome.
+    print("leggo i nomi delle categorie (linktarget, namespace 14)...", flush=True)
+    nome_categoria = {}
+    for campi in leggi_tuple(fp_lt):
+        # linktarget: lt_id, lt_namespace, lt_title
+        if len(campi) < 3 or campi[1].strip() != "14":
+            continue
+        try:
+            nome_categoria[int(campi[0])] = pulisci(campi[2])
+        except ValueError:
+            continue
+    print(f"  categorie trovate: {len(nome_categoria):,}", flush=True)
+    if not nome_categoria:
+        sys.exit("ERRORE: nessuna categoria letta da linktarget: schema cambiato di nuovo?")
+
     print("leggo i collegamenti alle categorie...", flush=True)
     indice = {}
     esaminate = 0
     for campi in leggi_tuple(fp_cat):
-        # categorylinks: cl_from, cl_to, ...
-        if len(campi) < 2:
+        # categorylinks: cl_from, cl_sortkey, cl_timestamp, cl_sortkey_prefix,
+        #                cl_type, cl_collation_id, cl_target_id
+        if len(campi) < 7:
             continue
         esaminate += 1
         try:
             pid = int(campi[0])
+            target = int(campi[6])
         except ValueError:
             continue
         titolo = titolo_di.get(pid)
         if not titolo:
             continue
-        cat = categoria_di(pulisci(campi[1]))
+        nome_cat = nome_categoria.get(target)
+        if not nome_cat:
+            continue
+        cat = categoria_di(nome_cat)
         if not cat:
             continue
         chiave = normalizza(titolo)
         if chiave and chiave not in indice:
-            indice[chiave] = [titolo, cat, pulisci(campi[1]).replace("_", " ")]
+            indice[chiave] = [titolo, cat, nome_cat.replace("_", " ")]
         if esaminate % 5000000 == 0:
             print(f"  {esaminate:,} collegamenti, {len(indice):,} opere...", flush=True)
 
