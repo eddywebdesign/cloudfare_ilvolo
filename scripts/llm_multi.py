@@ -92,6 +92,11 @@ OLLAMA_BASE_URL = "http://192.168.8.130:11434"  # K16 (GPU), non localhost -- la
 # Ollama ascolta su 0.0.0.0:11434 (OLLAMA_HOST nel service override), raggiungibile in LAN.
 OLLAMA_MODEL = "qwen2.5:14b-instruct-q4_K_M"
 OLLAMA_KEEP_ALIVE = "30s"
+# Finestra di contesto. Deve contenere prompt + testo + risposta: misurati 15.480
+# caratteri di prompt (~4.000 token) piu' 2.000 di risposta, quindi 8192 lascia
+# margine senza sprecare VRAM (la cache cresce con la finestra). Regolabile senza
+# toccare il codice, perche' cambiando modello o CHUNK_SIZE cambia anche questa.
+OLLAMA_NUM_CTX = int(os.environ.get("ILVOLO_OLLAMA_NUM_CTX", "8192"))
 OLLAMA_TIMEOUT_S = 120  # generoso: in coda dietro whisperx puo' volerci piu' di una chiamata cloud
 # Preferenza modelli Cerebras: il catalogo cambia nel tempo, si sceglie il primo
 # disponibile in questo ordine. I modelli "reasoning" (gpt-oss/glm) hanno bisogno di
@@ -440,12 +445,27 @@ class _OllamaResponse:
 
 class _OllamaCompletions:
     def create(self, model: str, messages: list, max_tokens: int, temperature: float, response_format: dict):
-        # response_format ignorato di proposito: NON passare "format": "json" all'API
-        # ollama, vedi commento su OLLAMA_BASE_URL sopra per il motivo (testato empiricamente).
+        # Due trappole DIVERSE della stessa API, e vanno trattate in modo opposto.
+        #
+        # 1) response_format si ignora di proposito: NON passare "format": "json" a
+        #    ollama, vedi il commento su OLLAMA_BASE_URL sopra (testato empiricamente,
+        #    con quel vincolo il modello collassa su un oggetto invece dell'array).
+        #
+        # 2) ⚠️ num_ctx VA IMPOSTATO, ed e' l'opposto: se non glielo si dice, ollama usa
+        #    una finestra predefinita di 2048 token e TRONCA il prompt in silenzio.
+        #    Misurato il 2026-07-29: il prompt reale dell'estrazione e' 15.480 caratteri,
+        #    cioe' ~4.000 token, piu' 2.000 di risposta attesa. Il modello vedeva meno
+        #    della meta' di quello che gli mandavamo, rispondeva vuoto, e ogni chunk
+        #    falliva con "Expecting value: line 1 column 1".
+        #    Conseguenza da non dimenticare: la recall del 35% misurata il 2026-07-26,
+        #    che fece declassare il modello locale a opt-in, e' stata misurata cosi' -
+        #    su un prompt mutilato, quindi non dice nulla sulla qualita' del modello.
+        #    qwen2.5:14b regge 32.768 token, il limite era solo nostro.
         payload = {
             "model": model, "messages": messages, "stream": False,
             "keep_alive": OLLAMA_KEEP_ALIVE,
-            "options": {"temperature": temperature, "num_predict": max_tokens},
+            "options": {"temperature": temperature, "num_predict": max_tokens,
+                        "num_ctx": OLLAMA_NUM_CTX},
         }
         r = requests.post(f"{OLLAMA_BASE_URL}/api/chat", json=payload, timeout=OLLAMA_TIMEOUT_S)
         r.raise_for_status()
