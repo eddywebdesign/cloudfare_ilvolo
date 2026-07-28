@@ -51,7 +51,22 @@
     {"titolo": "Il 5 maggio del 2014", "autore": "", "categoria": "libro",
      "fonte": "rumore vero dal dataset frammenti: e' una data"},
     {"titolo": "Il Mulino Bianco", "autore": "", "categoria": "libro",
-     "fonte": "rumore vero dal dataset frammenti: e' un marchio di biscotti"}
+     "fonte": "rumore vero dal dataset frammenti: e' un marchio di biscotti"},
+
+    {"titolo": "Bob Dylan", "autore": "", "categoria": "musica",
+     "fonte": "corpus 2017-10-24, CONFERMATA: nome d'artista preso per titolo di canzone"},
+    {"titolo": "Metallica", "autore": "", "categoria": "musica",
+     "fonte": "corpus 2016-10-24, CONFERMATA: nome d'artista preso per titolo"},
+    {"titolo": "Nick Drake", "autore": "", "categoria": "musica",
+     "fonte": "corpus 2018-01-15, CONFERMATA: nome d'artista preso per titolo"},
+    {"titolo": "Velvet Underground", "autore": "", "categoria": "musica",
+     "fonte": "corpus 2017-12-05, CONFERMATA: nome d'artista preso per titolo"},
+    {"titolo": "Vangelis", "autore": "", "categoria": "musica",
+     "fonte": "corpus 2017-02-20, CONFERMATA: nome d'artista preso per titolo"},
+    {"titolo": "Good Morning Life", "autore": "", "categoria": "musica",
+     "fonte": "corpus 2016-10-12/10-27/04-21 (ricorrente), CONFERMATA: verso di una sigla, non un'opera"},
+    {"titolo": "Cordyceps", "autore": "", "categoria": "musica",
+     "fonte": "corpus 2017-04-03, CONFERMATA: e' un fungo, nominato in una puntata di divulgazione"}
   ],
 
   "autori": [

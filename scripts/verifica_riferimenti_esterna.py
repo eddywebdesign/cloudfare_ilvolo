@@ -215,6 +215,22 @@ def cerca_google_books(titolo: str, autore: str) -> tuple[float, str, str, str]:
     return migliore
 
 
+# Descrizioni Wikidata che indicano una PERSONA o un GRUPPO, mai un'opera. Filtro
+# negativo, applicato prima delle spie positive: misurato il 2026-07-28 che la spia
+# "musica" e' sottostringa di "musicALE", quindi "gruppo musicale statunitense" (cioe'
+# i Metallica, una band) superava il filtro di categoria e veniva confermato come se
+# fosse un'opera. Lo stesso vale per un regista o uno scrittore omonimo di un'opera:
+# e' la ragione per cui le spie esistono ("Fantozzi" -> la persona Paolo Villaggio),
+# ma le spie positive da sole non bastano quando le due descrizioni si sovrappongono.
+WIKIDATA_NON_OPERE = ("gruppo musicale", "duo musicale", "band ", "cantante",
+                      "cantautore", "cantautrice", "compositore", "compositrice",
+                      "musicista", "regista", "scrittore", "scrittrice", "attore",
+                      "attrice", "poeta", "poetessa", "personaggio",
+                      "musical group", "musical duo", "singer", "songwriter",
+                      "composer", "musician", "film director", "writer", "actor",
+                      "actress", "poet", "fictional")
+
+
 def _wikidata_api(params: dict) -> dict:
     """Unico punto d'accesso a Wikidata, con attesa crescente sul 429.
 
@@ -377,6 +393,10 @@ def cerca_wikidata(titolo: str, autore: str, categoria: str) -> tuple[float, str
 
         for it in risultati:
             descrizione = (it.get("description") or "").lower()
+            # Prima il filtro negativo: una persona o un gruppo non e' mai un'opera,
+            # per quanto la sua descrizione somigli a quella di una.
+            if any(s in descrizione for s in WIKIDATA_NON_OPERE):
+                continue
             if not any(s in descrizione for s in spie):
                 continue
             sim_titolo = _similarita(titolo, it.get("label", ""))
@@ -614,6 +634,20 @@ def giudica_voce(titolo: str, autore: str, categoria: str,
 
     punteggio, match, copertina, sub_suggerita = verifica_con_fallback(
         titolo, autore, categoria, primo)
+
+    # Veto applicato DOPO tutta la catena, non dentro un singolo database: un titolo
+    # musicale senza autore che coincide con un nome d'artista non e' un'opera, e
+    # ognuno dei database lo conferma per una strada diversa. MusicBrainz trova la
+    # registrazione omonima (tributi, compilation), Wikidata trova l'album eponimo
+    # ("Bob Dylan" e' davvero un album del 1962) o direttamente la band. Misurato il
+    # 2026-07-28: mettendo il controllo solo dentro verifica_musica, 4 casi su 7
+    # rientravano lo stesso dal fallback.
+    if categoria == "musica" and titolo and not autore and punteggio >= SOGLIA_ALTA:
+        if _musicbrainz_e_nome_artista(titolo):
+            punteggio = min(punteggio, SOGLIA_BASSA - 0.01)
+            match = (f"{titolo} risulta un ARTISTA, non un'opera: il nome e' finito nel "
+                     f"campo del titolo e non c'e' un'opera da verificare")
+            copertina, sub_suggerita = "", ""
 
     # Trovato 2026-07-22 nel run reale sul backlog: "Ray Charles"/autore="Ray Charles"
     # e "Lucio Dalla"/autore="Lucio Dalla" confermati automaticamente perche' il
@@ -865,6 +899,59 @@ def verifica_film(titolo: str, autore: str, tmdb_key: str) -> tuple[float, str, 
 GENERI_CLASSICA = {"classical", "opera", "orchestral", "chamber music", "baroque"}
 
 
+# Dischi (release-group) sotto i quali l'omonimia non conta. Non e' un numero scelto a
+# occhio: misurato il 2026-07-28 su 13 casi reali del corpus, i due insiemi si separano
+# senza sovrapposizione a 20. Artisti davvero citati in onda: Sons... no, artisti ->
+# Little Tony 25, Nick Drake 28, Nickelback 70, Janis Joplin 123, Barry White 153,
+# Vangelis 161. Titoli plausibili con un omonimo oscuro: Monday Morning 1, Imani 1,
+# Cordyceps 3, Chanel 7, Superheroes 9, Sons and Daughters 15.
+SOGLIA_ARTISTA_NOTO = 20
+
+
+def _musicbrainz_e_nome_artista(nome: str) -> bool:
+    """Il presunto titolo e' in realta' il nome di un artista NOTO?
+
+    Interroga l'entita' /artist, che verifica_musica non ha mai usato (usa solo
+    /recording). Riconosce Bob Dylan, Metallica, Velvet Underground, Nick Drake,
+    Vangelis, e non scatta su Chasing Cars, Sapore di sale, Locked Away, La traviata.
+
+    La notorieta' NON e' un dettaglio: senza, il filtro e' troppo largo. Misurato il
+    2026-07-28 su 60 voci vere del corpus, il solo controllo del nome revocava anche
+    "Superheroes", "Monday Morning", "Sons and daughters", "Imani", "Chanel" — titoli
+    plausibili che su MusicBrainz coincidono con artisti oscuri, perche' esiste un
+    artista per quasi ogni parola comune. Il conteggio dei dischi separa i due gruppi
+    senza sovrapposizione: noti 123-1263 (Janis Joplin, Pink Floyd, Bob Dylan, U2),
+    omonimi oscuri 1-15. Quando il nome e' quello di un artista famoso e l'autore non
+    e' stato estratto, cio' che e' stato nominato in onda e' quasi sempre l'artista."""
+    if not nome.strip():
+        return False
+    try:
+        r = requests.get("https://musicbrainz.org/ws/2/artist", timeout=20,
+                         headers={"User-Agent": USER_AGENT},
+                         params={"query": f'artist:"{nome}"', "fmt": "json", "limit": 5})
+        r.raise_for_status()
+        artisti = r.json().get("artists", [])
+        time.sleep(MUSICBRAINZ_SLEEP)
+        # Si guardano TUTTI i candidati col nome giusto, non il primo: MusicBrainz
+        # ordina per rilevanza della stringa, non per notorieta', e per "Velvet
+        # Underground" il primo risultato e' una band australiana omonima del 1967 con
+        # un solo disco. Fermarsi al primo faceva sembrare oscuro un nome famoso.
+        for a in artisti:
+            if _similarita_autore(nome, a.get("name", "")) < 0.9 or not a.get("id"):
+                continue
+            r2 = requests.get("https://musicbrainz.org/ws/2/release-group", timeout=20,
+                              headers={"User-Agent": USER_AGENT},
+                              params={"artist": a["id"], "fmt": "json", "limit": 1})
+            r2.raise_for_status()
+            time.sleep(MUSICBRAINZ_SLEEP)
+            if r2.json().get("release-group-count", 0) >= SOGLIA_ARTISTA_NOTO:
+                return True
+    except Exception:
+        # Non ho potuto chiedere: non e' una prova che sia un titolo, non si filtra.
+        return False
+    return False
+
+
 def _sottocategoria_da_tag(tags: list[dict]) -> str:
     """Deriva classica/opera dai tag di genere che MusicBrainz gia' restituisce nella
     stessa risposta (inc=tags, nessuna chiamata aggiuntiva). Se il tag 'opera' e'
@@ -937,6 +1024,16 @@ def verifica_musica(titolo: str, autore: str) -> tuple[float, str, str, str]:
             migliore[2], "",
         )
     if not autore and recordings:
+        # Un titolo musicale senza autore che coincide con un NOME D'ARTISTA non e' un
+        # titolo: e' l'artista, che il modello ha messo nel campo sbagliato. MusicBrainz
+        # da solo non se ne accorge mai, perche' per quasi ogni nome famoso esiste una
+        # registrazione omonima (tributi, compilation, bootleg) — quindi confermava.
+        # Misurato sul corpus il 2026-07-28: 504 voci musica senza autore, 268 gia'
+        # CONFERMATE, e leggendone un campione a mano la maggior parte e' di questo
+        # tipo: "Bob Dylan", "Metallica", "Velvet Underground", "Nick Drake",
+        # "Vangelis". Il guardrail titolo==autore non poteva vederle: l'autore e' vuoto.
+        # Il veto vero e proprio sta in giudica_voce(), a valle di TUTTA la catena:
+        # metterlo solo qui lasciava rientrare dal fallback 4 casi su 7 (misurato).
         # Stesso principio di verifica_libro(): autore mai estratto, giudicare solo
         # sul titolo (la formula 70/30 non puo' mai confermarlo altrimenti).
         if miglior_sim_titolo >= SOGLIA_TITOLO_SENZA_AUTORE:
