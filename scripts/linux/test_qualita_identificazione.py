@@ -81,6 +81,42 @@ CAMPIONE_MODELLI = [
     "2024-11-04",  # ground truth 17 opere, il piu' ricco che abbiamo
 ]
 
+# Campione ESTESO (2026-07-29): i 21 episodi che hanno un ground truth letto a mano.
+# Nasce dal limite misurato in [project_modello_locale_k16]: le recall di qwen3, cerebras,
+# mistral e gemini poggiavano tutte sugli STESSI 5 episodi pieni (42 opere), quindi non
+# dicevano nulla su materiale nuovo. Con i 14 aggiunti il denominatore sale a 98 opere,
+# copre ogni anno dal 2013 al 2026 e ha due episodi per sei di quegli anni.
+# Criterio di scelta neutro e dichiarato, mai discrezionale (vedi _documentazione in
+# insieme_riferimento.json): episodio di lunghezza MEDIANA dell'anno per il primo blocco,
+# estrazione con seed 2026 fra le trascrizioni piene per il secondo.
+# ⚠️ COSTO: ~21 x 15.000 = ~315.000 token a giro, SOPRA la quota giornaliera dei modelli
+# Groq (200K) e di parecchi altri. Con i provider a quota usare --campione modelli; questo
+# campione e' pensato per il modello LOCALE (ollama), che non consuma quota e costa solo
+# tempo (~90 s/episodio, cioe' mezz'ora abbondante a giro).
+CAMPIONE_ESTESO = [
+    "2013-11-27",  # ground truth 1 opera: puntata povera, misura i falsi positivi
+    "2014-02-25",  # ground truth 6 opere, sei titoli annunciati a voce
+    "2014-12-24",  # ground truth 10 opere, puntata densa
+    "2015-10-06",  # ground truth 7 opere, in produzione a ZERO voci
+    "2016-12-06",  # ground truth 2 opere
+    "2017-05-16",  # ground truth 5 opere
+    "2017-11-09",  # ground truth 7 opere, in produzione a ZERO voci
+    "2018-11-23",  # ground truth 4 opere, tre titoli musicali ANNUNCIATI a voce
+    "2019-12-17",  # ground truth 2 opere, unico 2019 con trascrizione piena nel campione
+    "2020-10-07",  # ground truth 4 opere
+    "2020-10-15",  # ground truth 5 opere, opera CITATA e riprodotta (Il grande dittatore)
+    "2021-05-13",  # ground truth 1 opera sola: misura i FALSI POSITIVI
+    "2021-10-04",  # parziale: riferimenti noti come persi (Miami Vice, Dirty Dancing)
+    "2021-10-11",  # parziale: riferimento noto come perso (Flaubert)
+    "2022-02-10",  # ground truth 4 opere, due LIBRI annunciati dall'ospite
+    "2022-02-22",  # ground truth 7 opere, il piu' ricco di libri e documentari
+    "2023-10-24",  # ground truth 4 opere
+    "2024-04-19",  # ground truth 6 opere, unica voce di categoria "arte" (Pieta')
+    "2024-11-04",  # ground truth 17 opere, il piu' ricco che abbiamo
+    "2025-12-17",  # ground truth 4 opere
+    "2026-02-06",  # ground truth 2 opere, epoca recente
+]
+
 
 def scegli_campione(trascrizioni_dir: Path, riferimenti_dir: Path,
                     n: int, seed: int) -> list[str]:
@@ -541,7 +577,10 @@ def main() -> None:
     parser.add_argument("--episodi", type=int, default=14, help="dimensione del campione")
     parser.add_argument("--campione", default=None,
                         help="'modelli' per gli 8 episodi del confronto tra modelli (~100K token, "
-                             "sotto la quota di ogni modello, 5 con ground truth); 'storico' per i "
+                             "sotto la quota di ogni modello, 5 con ground truth); 'esteso' per i "
+                             "21 episodi CON ground truth letto a mano (98 opere, ogni anno dal 2013 "
+                             "al 2026, ~315K token: pensato per il modello locale, sopra la "
+                             "quota Groq); 'storico' per i "
                              "14 su cui sono state fatte le misure del 2026-07-26 (~210K token, "
                              "unico modo di confrontarsi con quei numeri); oppure un elenco di "
                              "date separate da virgola.")
@@ -590,6 +629,8 @@ def main() -> None:
         campione = list(CAMPIONE_MODELLI)
     elif args.campione == "storico":
         campione = list(CAMPIONE_STORICO)
+    elif args.campione == "esteso":
+        campione = list(CAMPIONE_ESTESO)
     elif args.campione:
         campione = [d.strip() for d in args.campione.split(",") if d.strip()]
     else:

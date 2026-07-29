@@ -9,9 +9,785 @@
   "campo_titoli_alternativi": "Stessa opera, nome diverso: titolo originale contro titolo italiano (When Harry Met Sally / Harry ti presento Sally), numeri in cifre contro numeri a lettere (50 / Cinquanta), varianti di punteggiatura. Senza questo campo la misura di recall premia i modelli che usano la stessa lingua del ground truth invece di quelli che identificano meglio: misurato il 2026-07-27, quattro opere realmente trovate da cerebras/gpt-oss-120b risultavano 'mancate' solo perche' scritte in inglese.",
   "criterio_cosa_conta": "Deciso con l'utente il 2026-07-29. Conta SOLO cio' che e' esplicitamente CITATO, SUGGERITO o RIPRODOTTO come contenuto culturale: musica commentata, letture brevi in diretta, libri/film/poesia/arte nominati o consigliati. NON conta la SCALETTA: i brani solo trasmessi sono gia' coperti dalle playlist ufficiali di deejay.it in data/playlist/ (1834 episodi, fonte esterna e indipendente), quindi metterli qui misurerebbe due volte la stessa cosa e gonfierebbe il denominatore con opere che nessun estrattore puo' ricavare dal parlato.",
   "autore_incerto": "Regola dell'utente 2026-07-29. Se esiste una corrispondenza autore-brano/album, la voce si salva. Se non siamo in grado di stabilire la riedizione o la cover precisa, si riporta l'ORIGINALE e si aggiunge la nota '* potrebbe essere versione cover'. Sostituisce la regola precedente di lasciare l'autore vuoto: un originale con avviso e' piu' utile di un campo vuoto, e non finge una certezza che non abbiamo.",
-  "marginali_ELIMINATA": "La categoria 'marginali' e' ABOLITA (utente, 2026-07-29). Era un contenitore di cose troppo diverse fra loro: un artista senza titolo, un'opera incerta, un jingle. Al suo posto una distinzione sola e utilizzabile a valle: cio' che non e' sicuro va alla REVISIONE, con il campo 'da_revisionare': true. Niente terza via."
+  "marginali_ELIMINATA": "La categoria 'marginali' e' ABOLITA (utente, 2026-07-29). Era un contenitore di cose troppo diverse fra loro: un artista senza titolo, un'opera incerta, un jingle. Al suo posto una distinzione sola e utilizzabile a valle: cio' che non e' sicuro va alla REVISIONE, con il campo 'da_revisionare': true. Niente terza via.",
+  "campo_citazione": "Dal 2026-07-29 ogni opera porta la CITAZIONE testuale della trascrizione in cui compare. Serve a rendere il ground truth VERIFICABILE in secondi invece che rileggendo la puntata: il file precedente dichiarava 'letto per intero da un umano' ma era stato compilato in sessioni Claude, quindi non era indipendente da cio' che misura. Con la citazione, chiunque puo' cercare la stringa nella trascrizione e dire se l'opera c'e' davvero.",
+  "regola_brani_trasmessi": "Regola dell'utente 2026-07-29, applicata ai 7 episodi aggiunti quel giorno: NON si ricava il titolo di un brano dal testo cantato. I brani suonati in trasmissione sono gia' coperti dalle playlist ufficiali di deejay.it (data/playlist/). Un brano entra qui SOLO se il titolo e' pronunciato nel parlato (annuncio, disannuncio, commento). Se e' pronunciato solo dentro il testo cantato, resta fuori dal denominatore: nessun estrattore che lavori sul parlato puo' trovarlo, e pretenderlo abbassa la recall di tutti i modelli senza distinguerli.",
+  "campo_da_revisionare": "Sostituisce 'marginali' (abolita). Elenca cio' che e' stato VISTO nella puntata ma non e' conteggiato: autori/artisti citati senza un'opera precisa, clip riprodotte il cui titolo non viene mai pronunciato, programmi TV non catalogabili, opere citate solo come metafora. Documentarle serve a due cose: una loro comparsa nell'output non e' un errore, e si vede a colpo d'occhio quanta parte del contenuto culturale di una puntata sia fuori portata per chiunque lavori sul solo parlato.",
+  "come_e_stato_esteso_2026_07_29": "Portato da 7 a 14 episodi. Scelta degli episodi con criterio neutro e dichiarato: un anno prima scoperto (2013, 2016, 2018, 2020, 2022, 2023, 2026) e, dentro l'anno, l'episodio di lunghezza MEDIANA della trascrizione - non il piu' ricco, che avrebbe gonfiato la recall di tutti. Fuori 2019 (trascrizioni degradate quell'anno: mediana 3.390 caratteri) e 2025 (gia' circondato da 2024 e 2026). SECONDO BLOCCO, stesso giorno: da 14 a 21 episodi. I due anni ancora scoperti (2019, 2025) piu' un SECONDO episodio per cinque anni distribuiti sull'arco (2014, 2017, 2020, 2022, 2024). Qui il criterio neutro cambia forma perche' la mediana dell'anno era gia' stata usata: estrazione pseudo-casuale con seed 2026 fra tutti gli episodi dell'anno con trascrizione piena (>= 15.000 caratteri, soglia che esclude i file troncati, numerosi nel 2019). Nessuna scelta discrezionale.",
+  "categoria_arte": "Dal secondo blocco esiste anche categoria 'arte' (finora solo la Pieta' di Michelangelo, 2024-04-19). Non e' una categoria che la pipeline emette: non importa, perche' opera_riconosciuta() confronta i TITOLI e ignora la categoria. Serve a non falsare il conteggio per categoria mettendo una scultura fra i film."
  },
  "episodi": {
+  "2013-11-27": {
+   "letto_per_intero_il": "2026-07-29",
+   "_nota": "Puntata POVERA di riferimenti citati: quasi tutto il contenuto musicale e' scaletta o clip riprodotte senza titolo pronunciato. Utile come misura dei falsi positivi. Playlist deejay.it ASSENTE per questa data.",
+   "opere": [
+    {
+     "categoria": "musica",
+     "titolo": "Mad World",
+     "autore": "Tears for Fears",
+     "nota": "* potrebbe essere versione cover (la versione spinta in classifica nel 2013 e' plausibilmente quella di Gary Jules)",
+     "citazione": "ieri abbiamo messo Mad World, era 35esima nell'iTunes, grazie a voi che l'avete ascoltata"
+    }
+   ],
+   "da_revisionare": [
+    "Jimi Hendrix: compleanno celebrato e brano trasmesso ('vi metto una canzone di Jimi Hendrix'), ma il titolo non e' mai pronunciato nel parlato",
+    "Elastica: 'un disco degli Elastica', artista senza titolo",
+    "Pooh: nominati piu' volte e richiesti da un ascoltatore, titolo mai pronunciato",
+    "Elisa: 'nuovo singolo di Elisa', titolo mai pronunciato",
+    "Jack Savoretti: il nome si sente solo dentro l'incipit del brano trasmesso",
+    "clip di film riprodotta (dialogo sul dipinto da 30.000 euro, personaggio Driss): titolo mai pronunciato",
+    "Renato Zero, Maurizio Battista, Nigella Lawson, Mattia Feltri: persone, non opere"
+   ]
+  },
+  "2014-02-25": {
+   "letto_per_intero_il": "2026-07-29",
+   "_nota": "Episodio RICCO di annunci a voce (sei titoli pronunciati): il caso favorevole all'estrazione. Playlist deejay.it assente per questa data.",
+   "opere": [
+    {
+     "categoria": "musica",
+     "titolo": "Diamonds on the Inside",
+     "autore": "Ben Harper",
+     "titoli_alternativi": [
+      "Diamond on the inside"
+     ],
+     "citazione": "Diamond on the inside, Ben Harper. Oh, avevo proprio in testa quel grande, caro, vecchio amico Ben"
+    },
+    {
+     "categoria": "musica",
+     "titolo": "Stop the Rock",
+     "autore": "Apollo 440",
+     "citazione": "poi e' arrivato Fatboy Slim, sono arrivati tutti gli altri, Apollo 440, stop the rock and stop the rock"
+    },
+    {
+     "categoria": "musica",
+     "titolo": "Far from Any Road",
+     "autore": "The Handsome Family",
+     "citazione": "far from any road the handsome family, l'hai scelta tu questa? questa l'ho scelta io"
+    },
+    {
+     "categoria": "film",
+     "titolo": "True Detective",
+     "autore": "Nic Pizzolatto",
+     "citazione": "ma questa e' la sigla di True Detective"
+    },
+    {
+     "categoria": "film",
+     "titolo": "Breaking Bad",
+     "autore": "Vince Gilligan",
+     "citazione": "e poi fra cinque anni come Breaking Bad uguale, ho preso i DVD di Breaking Bad tutti"
+    },
+    {
+     "categoria": "musica",
+     "titolo": "Before I Ever Met You",
+     "autore": "Banks",
+     "citazione": "lei si chiama Banks, before I ever met you"
+    }
+   ],
+   "da_revisionare": [
+    "clip riprodotta in apertura (monologo dello zaino che si riempie di tutti gli oggetti della vita): titolo mai pronunciato",
+    "seconda clip riprodotta ('sei cosi' farisaico', 'tradisci Emily', la commissione del senato): titolo mai pronunciato",
+    "clip di un allenatore sulle differenze fra squadra maschile e femminile: nessun nome, nessun titolo",
+    "Two Door Cinema Club: 'si chiama The Door Cinema, anzi Two Door Cinema, scusami', gruppo senza titolo",
+    "Scarlett Johansson: 'canta lei in questo disco', interprete senza titolo",
+    "Chiodo scaccia chiodo: cantata in studio, titolo solo nel cantato (e' invece conteggiata in 2014-12-24, letto col criterio vecchio)",
+    "Seneca: frase citata, nessuna opera",
+    "La pagina bianca, La Voce di Rovigo: rubrica e quotidiano locale"
+   ]
+  },
+  "2014-12-24": {
+   "letto_per_intero_il": "2026-07-27",
+   "_nota": "Puntata della vigilia, 31.231 caratteri, molto densa di riferimenti: buon banco per la recall. In produzione ne risultano 7, di cui 2 confermate.",
+   "opere": [
+    {
+     "categoria": "film",
+     "titolo": "Mamma ho perso l'aereo",
+     "autore": "Chris Columbus",
+     "titoli_alternativi": [
+      "Home Alone",
+      "Mamma, ho perso l'aereo"
+     ]
+    },
+    {
+     "categoria": "film",
+     "titolo": "Una poltrona per due",
+     "autore": "John Landis"
+    },
+    {
+     "categoria": "film",
+     "titolo": "SOS Fantasmi",
+     "autore": "Richard Donner",
+     "titoli_alternativi": [
+      "Scrooged"
+     ]
+    },
+    {
+     "categoria": "film",
+     "titolo": "Breaking Bad",
+     "autore": "Vince Gilligan"
+    },
+    {
+     "categoria": "film",
+     "titolo": "Ai confini della realta'",
+     "autore": "Rod Serling",
+     "titoli_alternativi": [
+      "The Twilight Zone",
+      "Ai confini della realta"
+     ]
+    },
+    {
+     "categoria": "film",
+     "titolo": "Don Camillo",
+     "autore": ""
+    },
+    {
+     "categoria": "libro",
+     "titolo": "In nome della madre",
+     "autore": "Erri De Luca"
+    },
+    {
+     "categoria": "musica",
+     "titolo": "Come Rain or Come Shine",
+     "autore": "Ray Charles"
+    },
+    {
+     "categoria": "musica",
+     "titolo": "29 settembre",
+     "autore": "Lucio Battisti"
+    },
+    {
+     "categoria": "musica",
+     "titolo": "Chiodo scaccia chiodo",
+     "autore": ""
+    }
+   ],
+   "marginali": [
+    "In nome della madre: l'AUTORE e' nominato in chiaro ('Henry De Luca', trascrizione deformata di Erri De Luca) ma il TITOLO non viene mai pronunciato — il brano e' letto ad alta voce. Caso limite utile: senza il titolo nel testo, il guardrail di ancoraggio non puo' confermarlo.",
+    "i film di Hitchcock, il film di Nanni Moretti: registi senza un'opera precisa",
+    "Le Iene, Smetto quando voglio, On the Road: programmi TV/radio, non opere",
+    "canzone finale in inglese ('this is your travelling song') non identificata con certezza",
+    "parodia natalizia sullo zenzero trasmessa in apertura, non identificata con certezza"
+   ]
+  },
+  "2015-10-06": {
+   "letto_per_intero_il": "2026-07-27",
+   "_nota": "Episodio finito a ZERO voci in produzione pur avendo 25.419 caratteri di trascrizione (vedi project_episodi_zero_voci). Letto integralmente: contiene 7 opere certe. Serve sia da ground truth sia da prova che il recupero funziona davvero.",
+   "opere": [
+    {
+     "categoria": "libro",
+     "titolo": "Cinquanta sfumature di grigio",
+     "autore": "E. L. James",
+     "titoli_alternativi": [
+      "50 sfumature di grigio",
+      "Fifty Shades of Grey"
+     ]
+    },
+    {
+     "categoria": "libro",
+     "titolo": "Anna",
+     "autore": "Niccolo' Ammaniti"
+    },
+    {
+     "categoria": "film",
+     "titolo": "Due uomini e mezzo",
+     "autore": "",
+     "titoli_alternativi": [
+      "Two and a Half Men"
+     ]
+    },
+    {
+     "categoria": "film",
+     "titolo": "Grey's Anatomy",
+     "autore": ""
+    },
+    {
+     "categoria": "film",
+     "titolo": "Mamma ho perso l'aereo",
+     "autore": "Chris Columbus",
+     "titoli_alternativi": [
+      "Home Alone",
+      "Mamma, ho perso l'aereo"
+     ]
+    },
+    {
+     "categoria": "musica",
+     "titolo": "Locked Away",
+     "autore": "R. City"
+    },
+    {
+     "categoria": "musica",
+     "titolo": "Chasing Cars",
+     "autore": "Snow Patrol"
+    }
+   ],
+   "marginali": [
+    "Rambo 1 / Rambo 2 (nominati solo come esempio di come si chiamano i sequel)",
+    "brano brasiliano trasmesso, testo in portoghese non identificabile con certezza",
+    "canzone italiana trasmessa ('stai attenta... questa stanza'), non identificata con certezza",
+    "Michael Jackson, Drew Barrymore, Macaulay Culkin, Charlie Sheen: persone, non opere"
+   ]
+  },
+  "2016-12-06": {
+   "letto_per_intero_il": "2026-07-29",
+   "opere": [
+    {
+     "categoria": "musica",
+     "titolo": "A Short Love Story",
+     "autore": "Somewhere Anywhere",
+     "titoli_alternativi": [
+      "A Short Love Story (feat. Claude Eman)"
+     ],
+     "citazione": "Somewhere, anywhere, featuring... Claude Iman. [...] Ma scusami, Somewhere, anywhere e' il nome del gruppo?"
+    },
+    {
+     "categoria": "film",
+     "titolo": "Sex and the City",
+     "autore": "",
+     "citazione": "Io per esempio mi ero preso il cofanetto di Sex and the City, che e' molto femminile, lo so, pero' me lo son guardato tutto"
+    }
+   ],
+   "da_revisionare": [
+    "Eccolo qua il Natale (Cesare Cremonini): trasmessa in apertura e Cremonini nominato, ma il titolo si sente solo nel cantato",
+    "Rolling Stones: 'e' la mia preferita dei Rolling Stones scrive un ragazzo', titolo mai pronunciato (playlist: Under My Thumb)",
+    "Arctic Monkeys: gruppo nominato da un ascoltatore in diretta, nessun titolo",
+    "60 minuti (60 Minutes): programma giornalistico americano, discusso a lungo ma non e' un'opera catalogabile con la stessa regola con cui sono esclusi Le Iene"
+   ]
+  },
+  "2017-05-16": {
+   "letto_per_intero_il": "2026-07-29",
+   "opere": [
+    {
+     "categoria": "musica",
+     "titolo": "Believer",
+     "autore": "Imagine Dragons",
+     "citazione": "Believer. Dobbiamo distinguere subito la differenza fra gente che crede, no? Believer, sono uno che ci crede"
+    },
+    {
+     "categoria": "libro",
+     "titolo": "Cosi' parlo' Zarathustra",
+     "autore": "Friedrich Nietzsche",
+     "titoli_alternativi": [
+      "Also sprach Zarathustra",
+      "Cosi parlo Zarathustra"
+     ],
+     "citazione": "perche' aveva Nice cosi' parlo' Zarathustra sul sedile a fianco"
+    },
+    {
+     "categoria": "film",
+     "titolo": "Fantozzi",
+     "autore": "Luciano Salce",
+     "citazione": "vi ricordate il film di Fantozzi, quelli della nostra eta', quando lui tutta la mattina ha tutto in cronologia e poi si rompe la stringa"
+    },
+    {
+     "categoria": "film",
+     "titolo": "L'uomo che sussurrava ai cavalli",
+     "autore": "Robert Redford",
+     "titoli_alternativi": [
+      "The Horse Whisperer",
+      "l'uomo che sussurrava i cavalli"
+     ],
+     "citazione": "dopo l'uomo che sussurrava i cavalli, il ragazzo che fissava dalla parrucchiera"
+    },
+    {
+     "categoria": "musica",
+     "titolo": "A Kind of Magic",
+     "autore": "Queen",
+     "titoli_alternativi": [
+      "It's a Kind of Magic"
+     ],
+     "citazione": "it's a kind of magic, capito? [...] sentite che meraviglia, amore magic magic magic"
+    }
+   ],
+   "da_revisionare": [
+    "Mario Monicelli: compleanno ricordato e clip di una sua intervista mandata in onda, nessun film nominato",
+    "Litfiba: 'questi sono i Litfiba', brano trasmesso, titolo solo nel cantato (playlist: Spirito)",
+    "Foster the People: 'Come siamo giovani, eh? Foster the people', nessun titolo (playlist: SHC)",
+    "Jain: 'ma questa e' Jane', nessun titolo (playlist: Makeba)",
+    "Alejandro Jodorowsky: 'grazie a voi ho imparato Jodorowsky', nessuna opera",
+    "Gianumberto Accinelli: 'il libro del professore Accinelli', titolo mai detto",
+    "Hermann Hesse e Richard Bach: 'la mia esplosione e' stata quella di Semplici, Ermanes e Richard Bach', autori senza titoli",
+    "Tenente Colombo: citato come modo di dire ('il mio verdetto da Tenente Colombo')"
+   ]
+  },
+  "2017-11-09": {
+   "letto_per_intero_il": "2026-07-26",
+   "opere": [
+    {
+     "categoria": "libro",
+     "titolo": "La fattoria degli animali",
+     "autore": "George Orwell",
+     "titoli_alternativi": [
+      "Animal Farm"
+     ]
+    },
+    {
+     "categoria": "libro",
+     "titolo": "Il libro della giungla",
+     "autore": "Rudyard Kipling",
+     "titoli_alternativi": [
+      "The Jungle Book"
+     ]
+    },
+    {
+     "categoria": "libro",
+     "titolo": "I fili invisibili della natura",
+     "autore": ""
+    },
+    {
+     "categoria": "libro",
+     "titolo": "La meravigliosa vita delle api",
+     "autore": ""
+    },
+    {
+     "categoria": "musica",
+     "titolo": "Loving is Easy",
+     "autore": ""
+    },
+    {
+     "categoria": "musica",
+     "titolo": "Poetica",
+     "autore": "Cesare Cremonini"
+    },
+    {
+     "categoria": "musica",
+     "titolo": "Please Please Please",
+     "autore": ""
+    }
+   ]
+  },
+  "2018-11-23": {
+   "letto_per_intero_il": "2026-07-29",
+   "_nota": "Episodio con tre titoli musicali ANNUNCIATI a voce: il caso migliore per l'estrazione. Contiene anche un titolo di film deformato dalla trascrizione ('mister John' per Mr. Jones), utile come prova di tolleranza al rumore.",
+   "opere": [
+    {
+     "categoria": "film",
+     "titolo": "Mr. Jones",
+     "autore": "Mike Figgis",
+     "titoli_alternativi": [
+      "Mister Jones",
+      "Mr Jones",
+      "mister John"
+     ],
+     "citazione": "io faccio come quel meraviglioso film con Richard Gere, mister John si chiamavano [...] io c'ho gli up and down"
+    },
+    {
+     "categoria": "musica",
+     "titolo": "Fever to the Form",
+     "autore": "Nick Mulvey",
+     "citazione": "questa e' un'altra canzone bella che mettiamo solo noi che ci piace tanto di Nick Mulvey [...] Fever to the form!"
+    },
+    {
+     "categoria": "musica",
+     "titolo": "Street Life",
+     "autore": "Randy Crawford",
+     "nota": "* potrebbe essere versione cover (originale The Crusaders feat. Randy Crawford)",
+     "citazione": "Street life, vita da strada, vita da strada perche' non ho piu' nessun posto dove andare. Ma chi tu? Sei te? Dice, no, dice lei la canzone"
+    },
+    {
+     "categoria": "musica",
+     "titolo": "Romantic",
+     "autore": "Hooverphonic",
+     "titoli_alternativi": [
+      "romantic del Juver Phonics"
+     ],
+     "citazione": "bella romantic del Juver Phonics"
+    }
+   ],
+   "da_revisionare": [
+    "E penso a te (Lucio Battisti): trasmessa e cantata per intero, titolo mai pronunciato nel parlato",
+    "Le Iene, Vanity Fair, Rivista Studio, Vroom, Tutto trotto e un po' di galoppo: programmi TV e periodici, non opere",
+    "canzone finale in inglese ('tell me what you fight for'), non identificata con certezza"
+   ]
+  },
+  "2019-12-17": {
+   "letto_per_intero_il": "2026-07-29",
+   "_nota": "Anno con molte trascrizioni troncate: questa e' piena (24.756 caratteri). Solo due titoli pronunciati, molto contenuto e' telefonate.",
+   "opere": [
+    {
+     "categoria": "musica",
+     "titolo": "everything i wanted",
+     "autore": "Billie Eilish",
+     "titoli_alternativi": [
+      "Everything I Wanted"
+     ],
+     "citazione": "Billy Elish, Radio DJ, Everything I Wanted. Questo e' il volo del mattino"
+    },
+    {
+     "categoria": "musica",
+     "titolo": "NDGO",
+     "autore": "Nankoo",
+     "citazione": "Questo indago che e' un colore pero' e' scritto in questa canzone con la N-D-G-O"
+    }
+   ],
+   "da_revisionare": [
+    "Alejandro Jodorowsky: clip riprodotta e commentata ('facciamo raccontare al nostro amico Jodorowsky'), nessuna opera",
+    "Igor Sibaldi: 'me l'ha detto Igor Sibaldi', nessuna opera",
+    "il libro di Fabio Volo: 'l'hai letto il libro?', titolo mai detto",
+    "Dieci ragazze (Lucio Battisti): cantata in studio, titolo solo nel cantato",
+    "'The Heavy Horses': nome pronunciato dopo un brano, non e' chiaro se titolo o gruppo",
+    "jingle natalizio di Radio DJ ('ti ascoltero' a Natale in alta rotazione'): produzione interna, non catalogabile"
+   ]
+  },
+  "2020-10-07": {
+   "letto_per_intero_il": "2026-07-29",
+   "opere": [
+    {
+     "categoria": "musica",
+     "titolo": "Harakiri",
+     "autore": "Samuele Bersani",
+     "titoli_alternativi": [
+      "Arachiri"
+     ],
+     "citazione": "Era il lieto ritorno di Samuele Bersani con Arachiri su Radio DJ"
+    },
+    {
+     "categoria": "musica",
+     "titolo": "New Shoes",
+     "autore": "Paolo Nutini",
+     "citazione": "Come si intitola la canzone che mettiamo, Maurizio? New Shoes di Paolo Nutini"
+    },
+    {
+     "categoria": "musica",
+     "titolo": "The Wall",
+     "autore": "Pink Floyd",
+     "titoli_alternativi": [
+      "Another Brick in the Wall",
+      "another break in the wall"
+     ],
+     "citazione": "come The Wall, il disco dei Pink Floyd. Muro, mattoni, another break in the wall, mattone, mattone, mattone"
+    },
+    {
+     "categoria": "film",
+     "titolo": "Interstellar",
+     "autore": "Christopher Nolan",
+     "citazione": "Per me Interstellar e' una roba... E' difficile"
+    }
+   ],
+   "da_revisionare": [
+    "Carlo Rovelli: clip riprodotta e autore nominato piu' volte ('mettiamo un pezzo di Rovelli sul tempo'), nessun titolo di libro o conferenza",
+    "L'isola che non c'e' (Edoardo Bennato): cantata per intero in studio, titolo solo nel cantato",
+    "Us and Them (Pink Floyd): trasmessa, titolo mai pronunciato",
+    "Stargate: nominato come metafora dei buchi neri, non come film",
+    "Sarabanda, Zecchino d'Oro: programmi TV"
+   ]
+  },
+  "2020-10-15": {
+   "letto_per_intero_il": "2026-07-29",
+   "_nota": "Contiene un lungo segmento su Il grande dittatore con la clip del discorso finale: caso di opera CITATA e riprodotta insieme.",
+   "opere": [
+    {
+     "categoria": "musica",
+     "titolo": "Levitating",
+     "autore": "Dua Lipa",
+     "titoli_alternativi": [
+      "Levi Titting"
+     ],
+     "citazione": "E la Dua Lipa con Levi Titting su Radio DJ, mancano 70 giorni al Natale"
+    },
+    {
+     "categoria": "film",
+     "titolo": "Il grande dittatore",
+     "autore": "Charlie Chaplin",
+     "titoli_alternativi": [
+      "The Great Dictator"
+     ],
+     "citazione": "quella di fare il film dove prendeva in giro Hitler [...] un film del 1940 che oggi compie 80 anni [...] con il grande dittatore"
+    },
+    {
+     "categoria": "musica",
+     "titolo": "Un'altra vita",
+     "autore": "Franco Battiato",
+     "titoli_alternativi": [
+      "Ci vuole un'altra vita"
+     ],
+     "citazione": "ho detto al mio amico l'altro giorno come la canzone di Battiato ci vuole un'altra vita"
+    },
+    {
+     "categoria": "musica",
+     "titolo": "Long Train Runnin'",
+     "autore": "The Doobie Brothers",
+     "titoli_alternativi": [
+      "Long Trail Running",
+      "Long Train Running"
+     ],
+     "citazione": "loro sono i Doobie Brothers, famosi con Long Trail Running, ma anche questa canzone"
+    },
+    {
+     "categoria": "film",
+     "titolo": "Carambola",
+     "autore": "",
+     "citazione": "questa e' un film che si chiama [...] un film si chiama Carambola"
+    }
+   ],
+   "da_revisionare": [
+    "The Way You Look Tonight (Bryan Ferry): 'ti metto un pezzo jazz', titolo solo nel cantato",
+    "Think About Things (Dadi Freyr): trasmessa, titolo solo nel cantato",
+    "clip dell'Istituto Luce / parodia dei pronostici 1955: nessun titolo",
+    "Jovanotti: 'aveva aperto un negozio, Muffa si chiamava', nessuna opera"
+   ]
+  },
+  "2021-05-13": {
+   "letto_per_intero_il": "2026-07-27",
+   "_nota": "Episodio POVERO di proposito nel campione (7.009 caratteri, intervista sulle reti fantasma): una sola opera certa. Serve a misurare i FALSI POSITIVI piu' che la recall — in produzione ne risultano 3, cioe' due voci di troppo ('Nice grazie Marco', rumore di trascrizione, ed 'Euridice'/'Orfeo', un mito citato di passaggio, non un'opera).",
+   "opere": [
+    {
+     "categoria": "libro",
+     "titolo": "Divina Commedia",
+     "autore": "Dante Alighieri",
+     "titoli_alternativi": [
+      "La Divina Commedia",
+      "Inferno"
+     ]
+    }
+   ],
+   "marginali": [
+    "Orfeo ed Euridice: mito citato come metafora, non un'opera con autore",
+    "Giancarlo Giannini: persona, non opera"
+   ]
+  },
+  "2021-10-04": {
+   "letto_per_intero_il": "2026-07-27",
+   "parziale": true,
+   "_nota": "Registrati solo i riferimenti PERSI dalla pipeline, trovati rileggendo la puntata. Le voci gia' estratte correttamente non sono state ritrascritte qui: questo episodio serve come prova di non-regressione su casi noti come mancanti, non come denominatore completo.",
+   "opere": [
+    {
+     "categoria": "film",
+     "titolo": "Miami Vice",
+     "autore": ""
+    },
+    {
+     "categoria": "film",
+     "titolo": "Dirty Dancing",
+     "autore": "Emile Ardolino"
+    }
+   ]
+  },
+  "2021-10-11": {
+   "letto_per_intero_il": "2026-07-27",
+   "parziale": true,
+   "_nota": "Come sopra: solo il riferimento perso e verificato a mano.",
+   "opere": [
+    {
+     "categoria": "libro",
+     "titolo": "Flaubert",
+     "autore": "Gustave Flaubert"
+    }
+   ]
+  },
+  "2022-02-10": {
+   "letto_per_intero_il": "2026-07-29",
+   "_nota": "Contiene un OSPITE con due libri annunciati a voce: il caso piu' facile per l'estrazione dei libri, categoria dove il ground truth era piu' povero (9 opere in tutto prima di oggi).",
+   "opere": [
+    {
+     "categoria": "libro",
+     "titolo": "Ribellarsi con filosofia",
+     "autore": "Matteo Saudino",
+     "titoli_alternativi": [
+      "Ribellarsi con filosofia. I grandi filosofi e il coraggio di pensare"
+     ],
+     "citazione": "hai scritto questo libro, Ribellarsi con filosofia, i grandi filosofi, coraggio di pensare"
+    },
+    {
+     "categoria": "libro",
+     "titolo": "La filosofia non e' una barba",
+     "autore": "Matteo Saudino",
+     "citazione": "dopo il successo della filosofia non e' una barba, ho continuato il percorso"
+    },
+    {
+     "categoria": "film",
+     "titolo": "Biancaneve e i sette nani",
+     "autore": "Walt Disney",
+     "titoli_alternativi": [
+      "Snow White and the Seven Dwarfs",
+      "Biancaneve"
+     ],
+     "citazione": "Votai contro l'installamento in giardino di Biancaneve e i sette nani in quella ormai storica riunione"
+    },
+    {
+     "categoria": "musica",
+     "titolo": "The Last Goodbye",
+     "autore": "",
+     "citazione": "e' uscito questa mattina alle 7 questo the last goodbye"
+    }
+   ],
+   "da_revisionare": [
+    "Mina / Shirley Bassey: la storia del brano e' raccontata in chiaro ('Mina che prende l'aereo va a New York va li' da Shirley Bassey'), ma nessun titolo viene pronunciato (playlist: Never, Never, Never)",
+    "Francesco De Gregori: 'la famosa canzone di De Gregori sono un pianista di Padova', titolo mai pronunciato",
+    "Piero Pelu' / Litfiba: auguri per i 60 anni e brano trasmesso, titolo solo nel cantato (playlist: Spirito)",
+    "La ragazza del futuro (Cesare Cremonini): trasmessa, titolo solo nel cantato",
+    "Tre civette sul commo': filastrocca popolare discussa a lungo, non catalogabile come opera con autore",
+    "Lonely Planet: collana di guide citata come modo di dire",
+    "Eraclito, Marx, Kant, Ipazia, Spinoza, Anassimandro, Protagora: filosofi elencati dall'ospite, nessuna opera"
+   ]
+  },
+  "2022-02-22": {
+   "letto_per_intero_il": "2026-07-29",
+   "_nota": "L'episodio piu' ricco del secondo blocco: sette titoli, quattro dei quali LIBRI o documentari, categorie dove il ground truth era piu' povero.",
+   "opere": [
+    {
+     "categoria": "libro",
+     "titolo": "I cinque tibetani",
+     "autore": "Peter Kelder",
+     "titoli_alternativi": [
+      "il libro dei 5 tibetani",
+      "5 tibetani",
+      "I 5 tibetani"
+     ],
+     "citazione": "tra l'altro anche il libro dei 5 tibetani schizzato, abbiamo parlato del libro dei 5 tibetani, boom, sono andato su Amazon per prenderlo a mia sorella"
+    },
+    {
+     "categoria": "libro",
+     "titolo": "I funghi che si amano",
+     "autore": "",
+     "nota": "* libro di poesia del co-conduttore Maurizio Rossato: autore non dichiarato in trasmissione, solo il titolo",
+     "citazione": "Maurizio, vuoi dire il titolo di quel libro che non vende. I funghi che si amano."
+    },
+    {
+     "categoria": "libro",
+     "titolo": "Una vita nuova",
+     "autore": "Fabio Volo",
+     "citazione": "si chiama Una vita nuova. Vai in libreria e prendi Una vita nuova, Fabio Volo"
+    },
+    {
+     "categoria": "film",
+     "titolo": "Rotten",
+     "autore": "",
+     "citazione": "se poi vi guardate anche su Netflix c'e' questo documentario [...] Il documentario si chiama Rotten. Ogni puntata e' su un business"
+    },
+    {
+     "categoria": "film",
+     "titolo": "Seaspiracy",
+     "autore": "Ali Tabrizi",
+     "citazione": "Seaspiracy, come si chiama? Quello sul pesce e' un disastro perche' li' stanno rovinando tutto"
+    },
+    {
+     "categoria": "musica",
+     "titolo": "Ovunque proteggimi",
+     "autore": "Vinicio Capossela",
+     "citazione": "ma c'era anche ovunque proteggimi [...] quando c'e' stato un periodo che si metteva ovunque proteggimi e Maurizio piangeva"
+    },
+    {
+     "categoria": "libro",
+     "titolo": "Dagli animali si impara",
+     "autore": "Gianumberto Accinelli",
+     "titoli_alternativi": [
+      "tagli animali si impara"
+     ],
+     "nota": "* titolo deformato dalla trascrizione: 'tagli animali si impara'. Il libro e' dell'ospite, il professor Accinelli",
+     "citazione": "ricordiamo il titolo del libro tagli animali si impara, nelle migliori librerie di tutta Italia"
+    }
+   ],
+   "da_revisionare": [
+    "Si e' spento il sole: 'canzone di Adriano Celentano se non sbaglio nella versione di Vinicio Capossela' - due autori in chiaro ma il titolo compare solo nel cantato (playlist: Si e' spento il sole, Vinicio Capossela)",
+    "The Joker (Steve Miller Band): trasmessa, titolo solo nel cantato",
+    "Gino Strada: clip riprodotta sulla guerra, nessuna opera",
+    "Dario Vergassola: 'ero indeciso se comprare il libro di Fabio Volo o quello di Dario Vergassola', nessun titolo",
+    "raccolta 'the best of' di Vinicio Capossela: nominata ma il titolo esce deformato e non identificabile"
+   ]
+  },
+  "2023-10-24": {
+   "letto_per_intero_il": "2026-07-29",
+   "opere": [
+    {
+     "categoria": "libro",
+     "titolo": "Tutto e' qui per te",
+     "autore": "Fabio Volo",
+     "citazione": "tutto e' qui per te oggi c'e' il preorder ma esce il quattordici [...] ringraziare l'ascoltatrice Laura che ha gia' preso il libro pre-order"
+    },
+    {
+     "categoria": "musica",
+     "titolo": "Loving This New Feeling",
+     "autore": "Alex Farolfi",
+     "titoli_alternativi": [
+      "Loving This New Feeling (feat. Tyte)"
+     ],
+     "citazione": "Salutiamo Alex Farolfi. Loving this new feeling."
+    },
+    {
+     "categoria": "libro",
+     "titolo": "Divina Commedia",
+     "autore": "Dante Alighieri",
+     "titoli_alternativi": [
+      "La Divina Commedia",
+      "Inferno",
+      "Paradiso"
+     ],
+     "citazione": "ma Dante per andare in paradiso passa dall'inferno"
+    },
+    {
+     "categoria": "musica",
+     "titolo": "The Dark Side of the Moon",
+     "autore": "Pink Floyd",
+     "citazione": "ognuno di noi ha i suoi segreti, il suo dark side, the dark side of the moon"
+    }
+   ],
+   "da_revisionare": [
+    "George Orwell: frase citata due volte ('non e' tanto restare vivi quanto restare umani'), nessuna opera nominata",
+    "Franz Kafka: frase citata ('Tu sei per me il coltello con cui frugo dentro me stesso', da Lettere a Milena), opera mai nominata",
+    "Dire Straits: assolo di chitarra commentato, nome deformato in 'Daya Straits'/'Air Streets', titolo mai pronunciato (playlist: Sultans of Swing)",
+    "Ivano Fossati: nominato nel riepilogo, brano trasmesso e cantato, titolo solo nel cantato (playlist: Il bacio sulla bocca)",
+    "Rolling Stones: 'per me i Rolling Stones con questo single', nessun titolo",
+    "Anthony Robbins: clip riprodotta e commentata, nessun titolo di libro o corso",
+    "Blu ghiaccio travolgente (Tommaso Paradiso): trasmessa in apertura, titolo solo nel cantato"
+   ]
+  },
+  "2024-04-19": {
+   "letto_per_intero_il": "2026-07-29",
+   "opere": [
+    {
+     "categoria": "musica",
+     "titolo": "Ci vorrebbe un amico",
+     "autore": "Antonello Venditti",
+     "citazione": "vedi che sono qua tutto solo a Roma, me lo metto questa canzone Maurizio, ci vorrebbe un amico"
+    },
+    {
+     "categoria": "musica",
+     "titolo": "Mon manege a moi",
+     "autore": "Edith Piaf",
+     "titoli_alternativi": [
+      "Mon manege a moi c'est toi"
+     ],
+     "citazione": "Comunque Mon manege a moi e' il titolo. E' il titolo Mon manege a moi"
+    },
+    {
+     "categoria": "musica",
+     "titolo": "Smack My Bitch Up",
+     "autore": "The Prodigy",
+     "citazione": "io sai dove mi riparavo? dentro questo disco dei prodigi [...] smack my bitch up, quando metto questa canzone pelle d'oca"
+    },
+    {
+     "categoria": "musica",
+     "titolo": "Mama Said Knock You Out",
+     "autore": "LL Cool J",
+     "titoli_alternativi": [
+      "Mamma say knock you out"
+     ],
+     "citazione": "Mamma say knock you out, questa l'ho scelta io, ti piace?"
+    },
+    {
+     "categoria": "musica",
+     "titolo": "Volo",
+     "autore": "Fabio Volo",
+     "citazione": "arrivai a Milano perche' avevo scritto una canzone che si chiamava Volo e si metteva a Radio Capital"
+    },
+    {
+     "categoria": "arte",
+     "titolo": "Pieta'",
+     "autore": "Michelangelo Buonarroti",
+     "titoli_alternativi": [
+      "La Pieta'",
+      "Pieta di Michelangelo"
+     ],
+     "citazione": "il marmo di Carrara che e' stato reso famoso nel mondo con la pieta' di Michelangelo"
+    }
+   ],
+   "da_revisionare": [
+    "Report: programma di inchiesta, ospite Sigfrido Ranucci, discusso a lungo - escluso con la stessa regola di Le Iene e 60 Minutes",
+    "il libro di Sigfrido Ranucci: 'se voi leggete il suo libro', titolo mai detto",
+    "Wild World (Yusuf / Cat Stevens): trasmessa, titolo solo nel cantato",
+    "Discoteche abbandonate (Max Pezzali): trasmessa, titolo solo nel cantato",
+    "Edith Piaf e Charles Aznavour nella stessa raccolta: 'c'e' di Piaf, c'e' Aznavour', un solo titolo poi pronunciato"
+   ]
+  },
   "2024-11-04": {
    "letto_per_intero_il": "2026-07-26",
    "opere": [
@@ -129,230 +905,86 @@
     }
    ]
   },
-  "2017-11-09": {
-   "letto_per_intero_il": "2026-07-26",
+  "2025-12-17": {
+   "letto_per_intero_il": "2026-07-29",
    "opere": [
     {
-     "categoria": "libro",
-     "titolo": "La fattoria degli animali",
-     "autore": "George Orwell",
+     "categoria": "musica",
+     "titolo": "Christmas with the Yours",
+     "autore": "Il Complesso Misterioso",
      "titoli_alternativi": [
-      "Animal Farm"
-     ]
+      "Christmas with yours",
+      "Natale con i tuoi"
+     ],
+     "citazione": "Qui si chiama Il complesso misterioso. Chissa' se poi e' stato mai scoperto chi erano i cantanti di questa canzone, Christmas with yours. Natale con i tuoi. Correva il 1995"
     },
     {
      "categoria": "libro",
-     "titolo": "Il libro della giungla",
-     "autore": "Rudyard Kipling",
+     "titolo": "Il ritratto di Dorian Gray",
+     "autore": "Oscar Wilde",
      "titoli_alternativi": [
-      "The Jungle Book"
-     ]
-    },
-    {
-     "categoria": "libro",
-     "titolo": "I fili invisibili della natura",
-     "autore": ""
-    },
-    {
-     "categoria": "libro",
-     "titolo": "La meravigliosa vita delle api",
-     "autore": ""
-    },
-    {
-     "categoria": "musica",
-     "titolo": "Loving is Easy",
-     "autore": ""
-    },
-    {
-     "categoria": "musica",
-     "titolo": "Poetica",
-     "autore": "Cesare Cremonini"
-    },
-    {
-     "categoria": "musica",
-     "titolo": "Please Please Please",
-     "autore": ""
-    }
-   ]
-  },
-  "2021-10-04": {
-   "letto_per_intero_il": "2026-07-27",
-   "parziale": true,
-   "_nota": "Registrati solo i riferimenti PERSI dalla pipeline, trovati rileggendo la puntata. Le voci gia' estratte correttamente non sono state ritrascritte qui: questo episodio serve come prova di non-regressione su casi noti come mancanti, non come denominatore completo.",
-   "opere": [
-    {
-     "categoria": "film",
-     "titolo": "Miami Vice",
-     "autore": ""
+      "The Picture of Dorian Gray",
+      "Dorian Gray"
+     ],
+     "citazione": "il ritratto di Dorian Gray, noi invecchiamo, hai un ritratto in soffitta che invecchia al posto tuo"
     },
     {
      "categoria": "film",
-     "titolo": "Dirty Dancing",
-     "autore": "Emile Ardolino"
-    }
-   ]
-  },
-  "2021-10-11": {
-   "letto_per_intero_il": "2026-07-27",
-   "parziale": true,
-   "_nota": "Come sopra: solo il riferimento perso e verificato a mano.",
-   "opere": [
-    {
-     "categoria": "libro",
-     "titolo": "Flaubert",
-     "autore": "Gustave Flaubert"
-    }
-   ]
-  },
-  "2015-10-06": {
-   "letto_per_intero_il": "2026-07-27",
-   "_nota": "Episodio finito a ZERO voci in produzione pur avendo 25.419 caratteri di trascrizione (vedi project_episodi_zero_voci). Letto integralmente: contiene 7 opere certe. Serve sia da ground truth sia da prova che il recupero funziona davvero.",
-   "opere": [
-    {
-     "categoria": "libro",
-     "titolo": "Cinquanta sfumature di grigio",
-     "autore": "E. L. James",
-     "titoli_alternativi": [
-      "50 sfumature di grigio",
-      "Fifty Shades of Grey"
-     ]
-    },
-    {
-     "categoria": "libro",
-     "titolo": "Anna",
-     "autore": "Niccolo' Ammaniti"
+     "titolo": "Up",
+     "autore": "Pete Docter",
+     "citazione": "Quella la' di Up non c'entra con le letture [...] Quella del cartone animato"
     },
     {
      "categoria": "film",
-     "titolo": "Due uomini e mezzo",
+     "titolo": "Daunbailo'",
+     "autore": "Jim Jarmusch",
+     "titoli_alternativi": [
+      "Down by Law",
+      "Dan Bailo"
+     ],
+     "citazione": "Sai che ha fatto un film con Roberto Benigni, no? Non so se l'avete visto, in bianco e nero. Dan Bailo' si chiama, se non sbaglio"
+    }
+   ],
+   "da_revisionare": [
+    "Tom Waits: 'mi sto mettendo Tom Waits', brano trasmesso, titolo solo nel cantato (playlist: I Hope That I Don't Fall In Love With You)",
+    "John Lennon: 'dopo il disco di John Lennon ve lo dico', titolo mai pronunciato (playlist: Happy Xmas (War Is Over))",
+    "Musica leggerissima (Colapesce Dimartino): trasmessa, il titolo compare solo nel cantato",
+    "Notte di Natale (Lucio Corsi): trasmessa, titolo solo nel cantato",
+    "The Way You Look Tonight (Bryan Ferry): trasmessa, titolo solo nel cantato",
+    "Dante: 'come dice Dante, dentro il dolore c'e' la risposta', nessuna opera nominata",
+    "Osho, Paolo Nori: persone citate, nessuna opera",
+    "testo motivazionale letto in diretta sulle ferite e il trauma: nessuna fonte dichiarata"
+   ]
+  },
+  "2026-02-06": {
+   "letto_per_intero_il": "2026-07-29",
+   "_nota": "Episodio recente e POVERO di titoli pronunciati: due opere, entrambe fuori dalle categorie tipiche (opera lirica e testo religioso). Buona prova sui falsi positivi in epoca recente.",
+   "opere": [
+    {
+     "categoria": "musica",
+     "titolo": "O mio babbino caro",
+     "autore": "Giacomo Puccini",
+     "titoli_alternativi": [
+      "O mio bambino",
+      "O mio babbino"
+     ],
+     "citazione": "Sai che mi sono copiato il vinile della Callas? [...] li' c'e' la famosa canzone O mio bambino che tutti dicono O mio bambino"
+    },
+    {
+     "categoria": "libro",
+     "titolo": "Vangelo",
      "autore": "",
-     "titoli_alternativi": [
-      "Two and a Half Men"
-     ]
-    },
-    {
-     "categoria": "film",
-     "titolo": "Grey's Anatomy",
-     "autore": ""
-    },
-    {
-     "categoria": "film",
-     "titolo": "Mamma ho perso l'aereo",
-     "autore": "Chris Columbus",
-     "titoli_alternativi": [
-      "Home Alone",
-      "Mamma, ho perso l'aereo"
-     ]
-    },
-    {
-     "categoria": "musica",
-     "titolo": "Locked Away",
-     "autore": "R. City"
-    },
-    {
-     "categoria": "musica",
-     "titolo": "Chasing Cars",
-     "autore": "Snow Patrol"
+     "citazione": "ricordatevi che a chi ha verra' dato di piu' e a chi non ha verra' tolto anche quel poco. Lo ricordate questo passaggio del Vangelo?"
     }
    ],
-   "marginali": [
-    "Rambo 1 / Rambo 2 (nominati solo come esempio di come si chiamano i sequel)",
-    "brano brasiliano trasmesso, testo in portoghese non identificabile con certezza",
-    "canzone italiana trasmessa ('stai attenta... questa stanza'), non identificata con certezza",
-    "Michael Jackson, Drew Barrymore, Macaulay Culkin, Charlie Sheen: persone, non opere"
-   ]
-  },
-  "2014-12-24": {
-   "letto_per_intero_il": "2026-07-27",
-   "_nota": "Puntata della vigilia, 31.231 caratteri, molto densa di riferimenti: buon banco per la recall. In produzione ne risultano 7, di cui 2 confermate.",
-   "opere": [
-    {
-     "categoria": "film",
-     "titolo": "Mamma ho perso l'aereo",
-     "autore": "Chris Columbus",
-     "titoli_alternativi": [
-      "Home Alone",
-      "Mamma, ho perso l'aereo"
-     ]
-    },
-    {
-     "categoria": "film",
-     "titolo": "Una poltrona per due",
-     "autore": "John Landis"
-    },
-    {
-     "categoria": "film",
-     "titolo": "SOS Fantasmi",
-     "autore": "Richard Donner",
-     "titoli_alternativi": [
-      "Scrooged"
-     ]
-    },
-    {
-     "categoria": "film",
-     "titolo": "Breaking Bad",
-     "autore": "Vince Gilligan"
-    },
-    {
-     "categoria": "film",
-     "titolo": "Ai confini della realta'",
-     "autore": "Rod Serling",
-     "titoli_alternativi": [
-      "The Twilight Zone",
-      "Ai confini della realta"
-     ]
-    },
-    {
-     "categoria": "film",
-     "titolo": "Don Camillo",
-     "autore": ""
-    },
-    {
-     "categoria": "libro",
-     "titolo": "In nome della madre",
-     "autore": "Erri De Luca"
-    },
-    {
-     "categoria": "musica",
-     "titolo": "Come Rain or Come Shine",
-     "autore": "Ray Charles"
-    },
-    {
-     "categoria": "musica",
-     "titolo": "29 settembre",
-     "autore": "Lucio Battisti"
-    },
-    {
-     "categoria": "musica",
-     "titolo": "Chiodo scaccia chiodo",
-     "autore": ""
-    }
-   ],
-   "marginali": [
-    "In nome della madre: l'AUTORE e' nominato in chiaro ('Henry De Luca', trascrizione deformata di Erri De Luca) ma il TITOLO non viene mai pronunciato — il brano e' letto ad alta voce. Caso limite utile: senza il titolo nel testo, il guardrail di ancoraggio non puo' confermarlo.",
-    "i film di Hitchcock, il film di Nanni Moretti: registi senza un'opera precisa",
-    "Le Iene, Smetto quando voglio, On the Road: programmi TV/radio, non opere",
-    "canzone finale in inglese ('this is your travelling song') non identificata con certezza",
-    "parodia natalizia sullo zenzero trasmessa in apertura, non identificata con certezza"
-   ]
-  },
-  "2021-05-13": {
-   "letto_per_intero_il": "2026-07-27",
-   "_nota": "Episodio POVERO di proposito nel campione (7.009 caratteri, intervista sulle reti fantasma): una sola opera certa. Serve a misurare i FALSI POSITIVI piu' che la recall — in produzione ne risultano 3, cioe' due voci di troppo ('Nice grazie Marco', rumore di trascrizione, ed 'Euridice'/'Orfeo', un mito citato di passaggio, non un'opera).",
-   "opere": [
-    {
-     "categoria": "libro",
-     "titolo": "Divina Commedia",
-     "autore": "Dante Alighieri",
-     "titoli_alternativi": [
-      "La Divina Commedia",
-      "Inferno"
-     ]
-    }
-   ],
-   "marginali": [
-    "Orfeo ed Euridice: mito citato come metafora, non un'opera con autore",
-    "Giancarlo Giannini: persona, non opera"
+   "da_revisionare": [
+    "Casta Diva (Vincenzo Bellini): presente solo come gioco di parole sulla castita' ('Casto e Divo'), il titolo esatto non compare mai",
+    "Maria Callas: 'il vinile della Callas', interprete senza un'opera precisa oltre a O mio babbino caro",
+    "clip di film riprodotta (dialogo di Steiner a Marcello, La dolce vita): titolo mai pronunciato",
+    "Sentimiento Nuovo (Franco Battiato): trasmessa, titolo solo nel cantato",
+    "The Boxer (Simon and Garfunkel): trasmessa, titolo solo nel cantato",
+    "Occhi Ingenui (Franco126, Ele A): trasmessa, titolo solo nel cantato",
+    "Oliviero Toscani, Umberto Galimberti: persone, nessuna opera"
    ]
   }
  }
