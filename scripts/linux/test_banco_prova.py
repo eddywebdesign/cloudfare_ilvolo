@@ -274,6 +274,22 @@ def test_local_first() -> None:
         verifica(f"il match locale ({nome}) non fa perdere la sottocategoria",
                  sottocat == "canzone")
 
+    # Un indizio locale NON e' la risposta di un archivio: non deve poter cancellare un
+    # "non ho potuto chiedere". Se lo cancellasse, la voce resterebbe marcata invece di
+    # tornare in coda per un run futuro. Lo 0.71 dell'indizio sta sopra SOGLIA_BASSA,
+    # quindi senza la separazione fra punteggio finale e punteggio-dei-soli-archivi la
+    # sospensione non scatterebbe.
+    muto = lambda *a, **k: (-1.0, "", "", "")  # noqa: E731 — archivio che non risponde
+    orig = (ve.cerca_google_books, ve.cerca_credits_fm, ve.cerca_wikidata)
+    ve.cerca_google_books = ve.cerca_credits_fm = ve.cerca_wikidata = muto
+    try:
+        p, d, _, _ = ve.verifica_con_fallback("Insieme", "Toto Cutugno", "musica",
+                                              (-1.0, "archivio muto", "", ""))
+        verifica("archivio muto + indizio locale -> verdetto SOSPESO, non 0.71", p == -1.0)
+        verifica("la sospensione lo dice nel testo", "sospeso" in d)
+    finally:
+        ve.cerca_google_books, ve.cerca_credits_fm, ve.cerca_wikidata = orig
+
 
 def test_ancoraggio() -> None:
     """L'unica misura di precisione non circolare: dice se la voce e' citata DAVVERO

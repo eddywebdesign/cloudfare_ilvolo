@@ -157,6 +157,21 @@ def _segna_fonte(nome: str) -> None:
     FONTE_ULTIMA_VERIFICA = nome
 
 
+# Quante volte l'indice locale ha trovato qualcosa, e in quanti casi il match bastava a
+# confermare. E' diverso da "quante volte ha VINTO", che e' l'unica cosa che
+# fonte_verifica sa dire: un match a 0.71 poi battuto da credits.fm a 0.90 non lascia
+# traccia da nessuna parte. Il 2026-07-30 la Wikipedia locale risultava fonte di 2 voci
+# su 121 e non c'era modo di sapere se avesse trovato altre 2 o altre 80 — cioe' la
+# domanda "quanto serve?" era senza risposta per costruzione.
+MATCH_LOCALI = {"trovati": 0, "sufficienti_a_confermare": 0}
+
+
+def registra_match_locale(conferma: bool) -> None:
+    MATCH_LOCALI["trovati"] += 1
+    if conferma:
+        MATCH_LOCALI["sufficienti_a_confermare"] += 1
+
+
 def _flag_ambiente(nome: str, predefinito: bool = True) -> bool:
     """Interruttore letto dall'ambiente, per i run di controllo del banco di prova.
 
@@ -191,6 +206,10 @@ def stampa_tempi() -> None:
         print(f"    {archivio:16} {secondi:8.0f}s  ({100*secondi/max(totale,1):4.1f}%)  "
               f"{chiamate:5} chiamate, {secondi/max(chiamate,1):5.2f}s l'una")
     print(f"    {'TOTALE':16} {totale:8.0f}s")
+    if MATCH_LOCALI["trovati"]:
+        print(f"  wikipedia locale: {MATCH_LOCALI['trovati']} match trovati, di cui "
+              f"{MATCH_LOCALI['sufficienti_a_confermare']} con l'autore corroborato "
+              f"(gli altri valgono solo come indizio)")
 
 
 def _normalizza(s: str) -> str:
@@ -865,6 +884,13 @@ def verifica_con_fallback(titolo: str, autore: str, categoria: str,
     # chiedere" e' una proprieta' del database principale, e un indizio locale non la
     # cancella.
     non_raggiungibile = punteggio < 0
+    # Il punteggio dei soli ARCHIVI interrogati, che l'indizio locale non tocca. Decide
+    # se sospendere il verdetto: un match nell'indice non e' una risposta di un archivio,
+    # quindi non deve poter cancellare un "non ho potuto chiedere". Senza questa
+    # separazione lo 0.71 dell'indizio sta sopra SOGLIA_BASSA e la sospensione non
+    # scatta piu': misurato il 2026-07-30, succedeva a 1 voce su 21 — poco, ma e' un
+    # meccanismo che deve valere sempre, non quasi sempre.
+    punteggio_archivi = punteggio
 
     # -----------------------------------------------------------------
     # LOCAL-FIRST: l'indice Wikipedia in RAM entra nel confronto come gli altri
@@ -877,6 +903,7 @@ def verifica_con_fallback(titolo: str, autore: str, categoria: str,
     locale = verifica_local_first(titolo, autore, categoria)
     if locale is not None:
         p_loc, desc_loc = locale
+        registra_match_locale(p_loc >= SOGLIA_ALTA)
         if p_loc > punteggio:
             punteggio, descrizione = p_loc, desc_loc
             _segna_fonte("wikipedia_locale")
@@ -924,11 +951,12 @@ def verifica_con_fallback(titolo: str, autore: str, categoria: str,
             # Non raggiungibile: non e' una prova di inesistenza, si prosegue.
             non_raggiungibile = True
             continue
+        punteggio_archivi = max(punteggio_archivi, p)
         if p > punteggio:
             punteggio, descrizione, copertina = p, f"{d} [via {nome}]", (copertina or c)
             _segna_fonte(nome)
 
-    if punteggio < SOGLIA_BASSA and non_raggiungibile:
+    if punteggio_archivi < SOGLIA_BASSA and non_raggiungibile:
         # Sotto SOGLIA_BASSA e con un archivio muto: il verdetto sarebbe "probabile
         # falso positivo", che NON e' innocuo — pulisci_riferimenti_non_confermati.py
         # rimuove quelle voci dal dataset. Si sospende e la voce torna in coda per un
@@ -1577,7 +1605,18 @@ def main() -> None:
             continue
 
         if punteggio < 0:
-            # Errore di rete: non scrivere nulla, riprovare in un run futuro.
+            # Errore di rete: NON si scrive confermato_esterno, cosi' la voce resta
+            # non giudicata e il prossimo run la ripesca (la coda si costruisce su
+            # `"confermato_esterno" in r`, non su questo campo).
+            #
+            # Si lascia pero' una traccia del PERCHE'. Finche' non c'era, il banco
+            # mostrava queste voci come fonte "?" — lo stesso simbolo dell'archivio
+            # ignoto — e il 2026-07-30 questo mi ha fatto attribuire alla Wikipedia
+            # locale un calo di sospensioni (21 -> 7) che invece veniva da credits.fm
+            # tornato raggiungibile. Due stati diversi sotto lo stesso simbolo sono
+            # una conclusione sbagliata che aspetta di succedere.
+            r["fonte_verifica"] = "verdetto_sospeso"
+            per_file.setdefault(fp, []).append(r)
             continue
 
         # Voce di solo autore confermata: si conserva il collegamento alle sue opere
