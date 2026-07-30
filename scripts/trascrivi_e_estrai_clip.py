@@ -14,6 +14,7 @@
 
 import difflib
 import json
+import os
 import re
 import subprocess
 import sys
@@ -234,6 +235,22 @@ CHUNK_SIZE = 6000  # caratteri per chunk (~1500 token input, lascia spazio al pr
 CHUNK_SLEEP = 13   # secondi tra chunk (max ~4-5 chunk/min entro 6000 TPM)
 
 
+def _flag_ambiente(nome: str, predefinito: bool = True) -> bool:
+    """Interruttore letto dall'ambiente, per i run di controllo del banco di prova.
+
+    VOLO_PARACADUTE_GEMINI=0 spegne il recupero cloud dei chunk vuoti. Serve perche'
+    il 2026-07-30 questo paracadute e la Wikipedia locale sono entrati INSIEME fra due
+    run del banco: il recall e' salito di 3 opere e nessuno dei due era isolabile,
+    tanto meno distinguibile dal rumore (Qwen3 gira a temperature=0.1, non 0)."""
+    valore = os.environ.get(nome)
+    if valore is None:
+        return predefinito
+    return valore.strip().lower() not in ("0", "no", "off", "false", "")
+
+
+PARACADUTE_GEMINI_ATTIVO = _flag_ambiente("VOLO_PARACADUTE_GEMINI", True)
+
+
 def _groq_chunk(testo: str) -> tuple[list[dict], str]:
     """Singola chiamata LLM (Groq/Cerebras/Gemini/Ollama, sceglie llm_multi) per un
     chunk di testo. Ritorna anche il provider usato: serve al chiamante per decidere
@@ -274,6 +291,33 @@ def _groq_chunk(testo: str) -> tuple[list[dict], str]:
         return [], provider
     return (parsed if isinstance(parsed, list) else []), provider
 
+
+
+def _gemini_chunk_recupero(testo: str) -> list[dict]:
+    import llm_multi
+    try:
+        client, model = llm_multi.client_e_modello("gemini")
+        prompt = PROMPT_TPL.format(testo=testo)
+        resp = client.chat.completions.create(
+            model=model,
+            messages=[
+                {"role": "system", "content": SYSTEM},
+                {"role": "user", "content": prompt},
+            ],
+            max_tokens=2000,
+            temperature=0.1,
+            response_format={"type": "json_object"},
+        )
+        raw = resp.choices[0].message.content.strip()
+        parsed = llm_multi.estrai_json(raw)
+        if isinstance(parsed, dict):
+            for v in parsed.values():
+                if isinstance(v, list): return v
+            return []
+        return parsed if isinstance(parsed, list) else []
+    except Exception as e:
+        print(f"      [Paracadute Cloud] Errore chiamata Gemini: {e}")
+        return []
 
 def estrai_riferimenti(testo: str) -> tuple[list[dict], bool]:
     """Divide il testo in chunk e aggrega i riferimenti trovati (Groq+Cerebras).
@@ -328,6 +372,14 @@ def estrai_riferimenti(testo: str) -> tuple[list[dict], bool]:
         if risultati is None:
             chunk_falliti += 1
         if risultati is not None:
+            # Se il provider era Ollama locale e non ha trovato nulla, scatta il paracadute Cloud
+            if PARACADUTE_GEMINI_ATTIVO and provider_usato == "ollama" and not risultati:
+                print(f"      [Paracadute Cloud] Chunk {idx+1}: il modello locale ha estratto 0 voci. Tento il recupero con Gemini...")
+                risultati_cloud = _gemini_chunk_recupero(chunk)
+                if risultati_cloud:
+                    print(f"      [Paracadute Cloud] Rilevate {len(risultati_cloud)} potenziali opere con Gemini!")
+                    risultati = risultati_cloud
+                    provider_usato = "gemini (paracadute)"
             char_start = idx * CHUNK_SIZE
             char_end = min(len(testo), char_start + len(chunk))
             ancorati = []
@@ -351,6 +403,10 @@ def estrai_riferimenti(testo: str) -> tuple[list[dict], bool]:
                 r["_chunk_testo"] = chunk
                 r["_start_frac"] = char_start / n_char
                 r["_end_frac"] = char_end / n_char
+                # Chi ha prodotto QUESTA voce. Senza il campo, "quante opere del
+                # ground truth le trova il modello locale e quante gliele regala il
+                # paracadute cloud?" resta una domanda senza risposta nei file.
+                r["_provider"] = provider_usato
                 ancorati.append(r)
             print(f"      chunk {idx+1}/{len(chunks)}: {len(ancorati)} riferimenti "
                   f"({len(risultati) - len(ancorati)} scartati, non ancorati al testo)")
@@ -592,6 +648,7 @@ def merge_riferimenti(data_str: str, nuovi: list[dict], testo: str, durata: floa
             "start": ref_start,
             "end": ref_end,
             "episodio_data": data_str,
+            "provider_estrazione": ref.get("_provider", ""),
         }
         # Voce riconosciuta dai versi cantati: il titolo NON e' nel testo, quindi non ha
         # superato l'ancoraggio ma un vincolo diverso — deve essere confermata da un
