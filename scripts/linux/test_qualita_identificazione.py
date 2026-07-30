@@ -412,6 +412,8 @@ def salva_risultato(cartella: Path, provider: str, modello: str, campione: list[
         "assetto": {
             "local_first": os.environ.get("VOLO_LOCAL_FIRST", "1"),
             "paracadute_gemini": os.environ.get("VOLO_PARACADUTE_GEMINI", "1"),
+            "temperatura": os.environ.get("ILVOLO_TEMPERATURA", "0.1"),
+            "ollama_seed": os.environ.get("ILVOLO_OLLAMA_SEED", ""),
         },
         "secondi_totali": round(durata, 1),
         "episodi_falliti": falliti,
@@ -647,6 +649,14 @@ def main() -> None:
                              "config_banco_prova.json: si muove SOLO il modello. "
                              "ATTENZIONE: con questa flag il run consuma quota Gemini SENZA tetto "
                              "(il tetto viene azzerato per i provider locali).")
+    parser.add_argument("--temperatura", type=float, default=None,
+                        help="temperatura di campionamento del modello (default: quella di "
+                             "produzione, 0.1). A 0 il decoding e' greedy: due run identici "
+                             "DOVREBBERO tornare identici, il che renderebbe ogni confronto "
+                             "leggibile senza doverlo ripetere tre volte. Da verificare e non "
+                             "da dare per scontato: in llama.cpp le somme in virgola mobile non "
+                             "sono associative e un batching diverso puo' ribaltare un token "
+                             "quasi in parita'.")
     parser.add_argument("--senza-local-first", action="store_true",
                         help="spegne l'indice Wikipedia in RAM nella verifica esterna, che di "
                              "default e' acceso come in produzione. Serve ai run di controllo: e' "
@@ -730,8 +740,12 @@ def main() -> None:
     # variabile arriva da sola.
     os.environ["VOLO_PARACADUTE_GEMINI"] = "1" if args.paracadute else "0"
     os.environ["VOLO_LOCAL_FIRST"] = "0" if args.senza_local_first else "1"
+    if args.temperatura is not None:
+        os.environ["ILVOLO_TEMPERATURA"] = str(args.temperatura)
     print(f"Assetto: paracadute Gemini {'ACCESO' if args.paracadute else 'spento'}, "
-          f"Wikipedia locale {'spenta' if args.senza_local_first else 'ACCESA'}", flush=True)
+          f"Wikipedia locale {'spenta' if args.senza_local_first else 'ACCESA'}, "
+          f"temperatura {os.environ.get('ILVOLO_TEMPERATURA', '0.1 (default produzione)')}",
+          flush=True)
     if args.paracadute:
         print("  [!] col paracadute il run consuma quota Gemini SENZA tetto "
               "(il tetto viene azzerato per i provider locali): controllala a mano.", flush=True)
