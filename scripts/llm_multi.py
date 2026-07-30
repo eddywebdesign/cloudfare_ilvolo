@@ -101,6 +101,24 @@ OLLAMA_KEEP_ALIVE = "30s"
 # margine senza sprecare VRAM (la cache cresce con la finestra). Regolabile senza
 # toccare il codice, perche' cambiando modello o CHUNK_SIZE cambia anche questa.
 OLLAMA_NUM_CTX = int(os.environ.get("ILVOLO_OLLAMA_NUM_CTX", "8192"))
+# Seme del campionamento. Finora le opzioni passavano temperature/num_predict/num_ctx
+# e NON il seme, quindi il modello locale era non riproducibile per costruzione: la
+# stessa puntata rielaborata dava riferimenti diversi, e non c'era modo di sapere se
+# una differenza fra due misure venisse da una modifica o dal caso.
+#
+# Misurato il 2026-07-30 su 3 episodi, due run per assetto: con il seme fisso a
+# temperatura 0.1 i due run escono IDENTICI (22 voci su 22, recall per episodio
+# uguale, perfino i chunk JSON malformati cadono sullo stesso chunk e allo stesso
+# offset). Senza seme, i due run del banco del 2026-07-29 alle 01:59 e alle 02:26 —
+# stesso modello, stesso campione, nessun commit in mezzo — avevano dato 25/42 e
+# 21/42. Quella non era varianza irriducibile del modello: era questo parametro che
+# non veniva inviato.
+#
+# ⚠️ A temperatura 0 il seme NON basta: il decoding e' greedy e non campiona, ma le
+# somme in virgola mobile in llama.cpp non sono associative, quindi due logit quasi
+# in parita' possono ribaltarsi. Osservato nella stessa prova: l'autore (inventato) di
+# "Under My Skin" oscillava fra "u2" e "bon jovi" fra un run e l'altro.
+OLLAMA_SEED = os.environ.get("ILVOLO_OLLAMA_SEED", "2026")
 OLLAMA_TIMEOUT_S = 120  # generoso: in coda dietro whisperx puo' volerci piu' di una chiamata cloud
 # Preferenza modelli Cerebras: il catalogo cambia nel tempo, si sceglie il primo
 # disponibile in questo ordine. I modelli "reasoning" (gpt-oss/glm) hanno bisogno di
@@ -465,11 +483,15 @@ class _OllamaCompletions:
         #    che fece declassare il modello locale a opt-in, e' stata misurata cosi' -
         #    su un prompt mutilato, quindi non dice nulla sulla qualita' del modello.
         #    qwen2.5:14b regge 32.768 token, il limite era solo nostro.
+        opzioni = {"temperature": temperature, "num_predict": max_tokens,
+                   "num_ctx": OLLAMA_NUM_CTX}
+        # Aggiunto solo se richiesto: senza, il payload resta identico a prima.
+        if OLLAMA_SEED:
+            opzioni["seed"] = int(OLLAMA_SEED)
         payload = {
             "model": model, "messages": messages, "stream": False,
             "keep_alive": OLLAMA_KEEP_ALIVE,
-            "options": {"temperature": temperature, "num_predict": max_tokens,
-                        "num_ctx": OLLAMA_NUM_CTX},
+            "options": opzioni,
         }
         r = requests.post(f"{OLLAMA_BASE_URL}/api/chat", json=payload, timeout=OLLAMA_TIMEOUT_S)
         r.raise_for_status()
