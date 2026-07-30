@@ -250,6 +250,13 @@ def _flag_ambiente(nome: str, predefinito: bool = True) -> bool:
 
 PARACADUTE_GEMINI_ATTIVO = _flag_ambiente("VOLO_PARACADUTE_GEMINI", True)
 
+# Le voci che l'ultimo estrai_riferimenti() ha buttato, col motivo. Un global e NON un
+# terzo valore di ritorno, deliberatamente: la nota dentro estrai_riferimenti() racconta
+# che un cambio di arita' ha gia' disattivato in silenzio l'intero fallback multi-database
+# il 2026-07-27, e questa funzione e' chiamata dalla produzione, dal banco di prova e da
+# reprocessa_riferimenti_dubbi. Il chiamante la legge subito dopo, se gli serve.
+ULTIME_SCARTATE: list[dict] = []
+
 # Temperatura di campionamento del modello. Il default 0.1 e' quello di sempre: la
 # produzione NON cambia comportamento se la variabile non c'e'.
 #
@@ -367,6 +374,8 @@ def estrai_riferimenti(testo: str) -> tuple[list[dict], bool]:
     print(f"    Invio {len(chunks)} chunk (Groq+Cerebras+Gemini)...")
     tutti: list[dict] = []
     scartati_non_ancorati = 0
+    scartate: list[dict] = []
+    recuperate_senza_autore = 0
     chunk_falliti = 0
     for idx, chunk in enumerate(chunks):
         if llm_multi.provider_disponibile() is None:
@@ -414,8 +423,30 @@ def estrai_riferimenti(testo: str) -> tuple[list[dict], bool]:
                 # ancorata al testo puo' sopravvivere anche senza conferma.
                 if r.get("da_versi") is True:
                     r["_richiede_conferma_esterna"] = True
+                elif opera_senza_autore_ma_col_titolo_nel_testo(
+                        r.get("titolo", ""), r.get("autore", ""), chunk):
+                    # Titolo nel testo ma nessuno ha detto di chi e': in radio si elencano
+                    # i film senza nominare il regista. Si tiene, ma con lo stesso vincolo
+                    # dei brani riconosciuti dai versi — deve confermarla un archivio
+                    # esterno, che poi ci mettera' anche l'autore.
+                    r["_richiede_conferma_esterna"] = True
+                    recuperate_senza_autore += 1
                 elif not _titolo_e_ancorato_al_testo(r.get("titolo", ""), r.get("autore", ""), chunk):
                     scartati_non_ancorati += 1
+                    # Il PERCHE', non solo il conteggio. "non ancorati al testo" e'
+                    # un'etichetta sola per quattro rifiuti diversi, e uno di questi —
+                    # l'autore vuoto — colpisce esattamente cio' che il prompt ordina al
+                    # modello di fare ("se il testo non lo dice, lascialo VUOTO").
+                    # Misurato il 2026-07-30: su 153 voci estratte nel run A ne sono
+                    # state scartate ~38, il 25%, e di quelle non restava traccia: se fra
+                    # loro ci sono opere vere, il filtro sta mangiando recall e nessuno
+                    # puo' accorgersene. Il file e' diagnostico, sta accanto ai dati e
+                    # non entra nell'archivio.
+                    scartate.append({
+                        "titolo": r.get("titolo", ""), "autore": r.get("autore", ""),
+                        "categoria": r.get("categoria", ""), "chunk": idx + 1,
+                        "motivo": _motivo_dello_scarto(r.get("titolo", ""), r.get("autore", ""), chunk),
+                    })
                     continue
                 r["_chunk_testo"] = chunk
                 r["_start_frac"] = char_start / n_char
@@ -434,7 +465,15 @@ def estrai_riferimenti(testo: str) -> tuple[list[dict], bool]:
         if idx < len(chunks) - 1 and provider_usato != "ollama":
             time.sleep(CHUNK_SLEEP)
     if scartati_non_ancorati:
+        per_motivo: dict[str, int] = {}
+        for s in scartate:
+            per_motivo[s["motivo"]] = per_motivo.get(s["motivo"], 0) + 1
         print(f"    Totale scartati per allucinazione probabile: {scartati_non_ancorati}")
+        for motivo, n in sorted(per_motivo.items(), key=lambda x: -x[1]):
+            print(f"      {n:3d} — {motivo}")
+    if recuperate_senza_autore:
+        print(f"    {recuperate_senza_autore} opere senza autore tenute, in attesa che un "
+              f"archivio esterno le confermi")
     if chunk_falliti:
         # Niente caratteri fuori ASCII in questo messaggio: la console Windows (cp1252)
         # non li sa codificare e il print stesso solleva UnicodeEncodeError, facendo
@@ -442,6 +481,8 @@ def estrai_riferimenti(testo: str) -> tuple[list[dict], bool]:
         # 2026-07-27 durante il banco di prova, su un episodio con chunk falliti.
         print(f"    [!] {chunk_falliti}/{len(chunks)} chunk NON elaborati (budget/errore) - "
               f"episodio INCOMPLETO, non verra' finalizzato")
+    ULTIME_SCARTATE.clear()
+    ULTIME_SCARTATE.extend(scartate)
     return tutti, chunk_falliti == 0
 
 
@@ -508,6 +549,85 @@ def _titolo_e_frase_di_conversazione(titolo: str) -> bool:
     return sum(1 for p in parole if p in VERBI_CONVERSAZIONE) >= 2
 
 
+# Segnaposti che il modello scrive al posto di un autore che non conosce. Il confronto e'
+# per SOTTOSTRINGA e non per uguaglianza: trovato 2026-07-22 nel run notturno reale che
+# varianti come "Artista non specificato"/"Articolo non specificato nel testo" non sono mai
+# uguali esatte a una voce dell'elenco, quindi lo bypassavano.
+AUTORE_SEGNAPOSTO = ("unknown", "sconosciut", "ignot", "non specificat", "n a", "varie", "vario")
+
+
+def _autore_assente(autore: str) -> bool:
+    """L'autore manca davvero: vuoto, o uno dei segnaposto che valgono come vuoto."""
+    a_norm = _normalizza_titolo(autore)
+    return not a_norm or any(s in a_norm for s in AUTORE_SEGNAPOSTO)
+
+
+def _compare_nel_testo(candidato: str, testo_norm: str) -> bool:
+    """Il candidato (titolo o autore) compare nel testo, anche solo parzialmente?
+
+    Estratta dal ciclo di _titolo_e_ancorato_al_testo per poterla usare anche sul SOLO
+    titolo: serve a decidere se un'opera senza autore sia comunque agganciata al testo.
+    Le due strade devono applicare lo stesso identico criterio, non due copie che
+    divergono al primo ritocco."""
+    norm = _normalizza_titolo(candidato)
+    if not norm:
+        return False
+    parole = [p for p in norm.split() if len(p) >= 4]
+    if not parole:
+        return norm in testo_norm
+    return any(p in testo_norm for p in parole)
+
+
+def opera_senza_autore_ma_col_titolo_nel_testo(titolo: str, autore: str, testo: str) -> bool:
+    """Vale la pena tenerla, rimandando il giudizio ai database esterni?
+
+    ⚠️ Questa funzione esiste per un difetto misurato il 2026-07-30 sulla puntata del
+    2024-11-04: su 9 voci scartate, TUTTE E NOVE lo erano per autore vuoto, ed erano
+    Ghostbusters, Manhattan, Una poltrona per due, Mamma ho perso l'aereo, C'era una volta
+    in America, I marciapiedi di New York, When Harry Met Sally, Serendipity, Innamorarsi.
+    Otto di quelle nove figuravano nell'elenco delle opere che il banco dava per MANCANTI.
+    Il modello le aveva trovate tutte: le buttava il filtro, perche' in radio nessuno dice
+    chi ha diretto Ghostbusters. Il recall di quella puntata era 8 su 17; senza quello
+    scarto sarebbe 16 su 17. Ed e' sistematico: della musica il conduttore nomina
+    l'artista, dei film no — ecco perche' nei run ci sono 78 voci di musica contro 16 di
+    film.
+
+    L'autore obbligatorio pero' NON era una regola arbitraria: nasce il 2026-07-23 da
+    "Baracco Mava" (trascrizione deformata di Barack Obama) finito in archivio come libro
+    con autore vuoto, e da un post Facebook salvato come libro. Toglierla e basta li
+    rifarebbe entrare.
+
+    La via d'uscita e' quella gia' usata per i brani riconosciuti dai versi cantati: la
+    voce si tiene ma NON e' pubblicabile finche' un database esterno non la conferma
+    (vedi _richiede_conferma_esterna). TMDB conferma Ghostbusters e completa_autore_dal_db
+    gli mette pure il regista; nessun archivio conosce "Baracco Mava", che resta fuori.
+    Il vincolo non si allenta: si sposta dove c'e' un archivio a deciderlo."""
+    if not _autore_assente(autore):
+        return False          # ha un autore: non e' questo il caso
+    if _titolo_e_frase_di_conversazione(titolo):
+        return False          # chiacchiera trascritta, non un titolo
+    return _compare_nel_testo(titolo, _normalizza_titolo(testo))
+
+
+def _motivo_dello_scarto(titolo: str, autore: str, testo: str) -> str:
+    """Quale dei quattro controlli di _titolo_e_ancorato_al_testo ha detto no.
+
+    Serve perche' il conteggio a schermo li chiama tutti "non ancorati al testo", che e'
+    vero per uno solo dei quattro. La distinzione non e' accademica: "autore vuoto" e'
+    la voce che il PROMPT ordina al modello di produrre quando il testo non nomina
+    l'autore, quindi se fosse quella la piu' frequente il filtro starebbe scartando
+    proprio le voci corrette. Ricalca la stessa sequenza di controlli, nello stesso
+    ordine: se una delle due cambia, allineare anche l'altra."""
+    a_norm = _normalizza_titolo(autore)
+    if _autore_assente(autore):
+        return "autore vuoto (o segnaposto)"
+    if _normalizza_titolo(titolo) == a_norm:
+        return "titolo uguale all'autore (e' una persona, non un'opera)"
+    if _titolo_e_frase_di_conversazione(titolo):
+        return "titolo letto come frase di conversazione"
+    return "ne' titolo ne' autore compaiono nel chunk"
+
+
 def _titolo_e_ancorato_al_testo(titolo: str, autore: str, testo: str) -> bool:
     """Verifica che titolo o autore compaiano davvero nel testo di origine.
 
@@ -531,35 +651,23 @@ def _titolo_e_ancorato_al_testo(titolo: str, autore: str, testo: str) -> bool:
     titolo con la forma di una frase di conversazione (verbi coniugati, punto
     interrogativo, troppo lungo) viene scartato anche se le sue parole compaiono
     nel testo — l'ancoraggio da solo non basta a distinguere un titolo vero da
-    chiacchiera trascritta letteralmente."""
+    chiacchiera trascritta letteralmente.
+
+    ⚠️ Dal 2026-07-30 questa funzione non e' piu' l'ultima parola sull'autore vuoto: chi
+    la chiama deve prima interrogare opera_senza_autore_ma_col_titolo_nel_testo(), che
+    recupera le opere agganciate al testo rimandandone il giudizio ai database esterni.
+    Il perche' sta nella nota di quella funzione — questo filtro da solo buttava via
+    otto delle nove opere che il banco dava per mancanti nella puntata del 2024-11-04."""
     t_norm = _normalizza_titolo(titolo)
     a_norm = _normalizza_titolo(autore)
-    # Stesso placeholder trovato in trascrivi_locale_episodi.py::AUTORE_PLACEHOLDER_SOTTOSTRINGHE:
-    # controllo per SOTTOSTRINGA (non uguaglianza esatta) - trovato 2026-07-22 nel run
-    # notturno reale che varianti come "Artista non specificato"/"Articolo non specificato
-    # nel testo" non sono mai uguali esatte a una voce del set, quindi lo bypassavano.
-    if any(s in a_norm for s in ("unknown", "sconosciut", "ignot", "non specificat", "n a", "varie", "vario")):
-        autore = ""
-        a_norm = ""
-    if not a_norm:
+    if _autore_assente(autore):
         return False
     if t_norm and a_norm and t_norm == a_norm:
         return False
     if _titolo_e_frase_di_conversazione(titolo):
         return False
     testo_norm = _normalizza_titolo(testo)
-    for candidato in (titolo, autore):
-        norm = _normalizza_titolo(candidato)
-        if not norm:
-            continue
-        parole = [p for p in norm.split() if len(p) >= 4]
-        if not parole:
-            if norm in testo_norm:
-                return True
-            continue
-        if any(p in testo_norm for p in parole):
-            return True
-    return False
+    return any(_compare_nel_testo(c, testo_norm) for c in (titolo, autore))
 
 
 def merge_riferimenti(data_str: str, nuovi: list[dict], testo: str, durata: float) -> None:
