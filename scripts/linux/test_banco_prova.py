@@ -225,8 +225,54 @@ def test_campi_persistiti() -> None:
     sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
     import verifica_riferimenti_esterna as ve  # noqa: E402
     for campo in ("confermato_esterno", "copertina", "sottocategoria",
-                  "autore", "autore_dal_database", "link_autore", "solo_autore"):
+                  "autore", "autore_dal_database", "link_autore", "solo_autore",
+                  "fonte_verifica"):
         verifica(f"'{campo}' viene persistito", campo in ve.CAMPI_PERSISTITI)
+
+
+def test_local_first() -> None:
+    """L'indice Wikipedia in RAM e' un INDIZIO, non una sentenza.
+
+    Fino al 2026-07-30 restituiva 1.0 — il verdetto piu' forte del sistema — su un
+    match di solo titolo, ignorando l'autore, contro un indice che ha una sola voce
+    per titolo normalizzato e risolve le omonimie a caso. Questi casi vengono dal
+    dump reale: "insieme" -> Insieme (Christian), "io" -> Io (Gianna Nannini),
+    "anna" -> Anna (film 1951), "volare" -> Volare! (film)."""
+    print("\nLocal-First (indice Wikipedia in RAM)")
+    sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+    import verifica_riferimenti_esterna as ve  # noqa: E402
+
+    if not ve._carica_indice_wikipedia_se_presente():
+        verifica("indice locale assente: prove saltate (non e' un fallimento)", True)
+        return
+
+    def punteggio(titolo, autore, categoria):
+        r = ve.verifica_local_first(titolo, autore, categoria)
+        return None if r is None else r[0]
+
+    for titolo, autore, cat in (("Insieme", "Toto Cutugno", "musica"),
+                                ("Io", "Mina", "musica"),
+                                ("Anna", "Alberto Moravia", "film"),
+                                ("Volare", "Domenico Modugno", "film")):
+        p = punteggio(titolo, autore, cat)
+        verifica(f"'{titolo}' con un autore estraneo NON viene confermato",
+                 p is not None and p < ve.SOGLIA_ALTA)
+    verifica("titolo senza autore: mai una conferma cieca",
+             (punteggio("Insieme", "", "musica") or 0) < ve.SOGLIA_ALTA)
+    verifica("autore corroborato dalla disambiguazione: conferma",
+             (punteggio("Io", "Gianna Nannini", "musica") or 0) >= ve.SOGLIA_ALTA)
+    verifica("categoria diversa da quella dell'indice: nessun match",
+             punteggio("Insieme", "Christian", "film") is None)
+
+    # Il difetto peggiore: il vecchio codice tornava PRIMA di leggere `primo` e
+    # buttava via la copertina che TMDB/MusicBrainz avevano gia' trovato.
+    cop = "https://esempio/copertina.jpg"
+    for nome, autore in (("indizio", "Toto Cutugno"), ("conferma", "Christian")):
+        _, _, copertina, sottocat = ve.verifica_con_fallback(
+            "Insieme", autore, "musica", (0.60, "match debole", cop, "canzone"))
+        verifica(f"il match locale ({nome}) non fa perdere la copertina", copertina == cop)
+        verifica(f"il match locale ({nome}) non fa perdere la sottocategoria",
+                 sottocat == "canzone")
 
 
 def test_ancoraggio() -> None:
@@ -326,6 +372,7 @@ def main() -> int:
     test_recall_parziale()
     test_fallback_arita_verifica_esterna()
     test_campi_persistiti()
+    test_local_first()
     test_ancoraggio()
     test_config_e_tetto()
     test_ground_truth()

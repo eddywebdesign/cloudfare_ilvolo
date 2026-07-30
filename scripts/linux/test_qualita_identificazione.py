@@ -145,6 +145,15 @@ def metriche(riferimenti_dir: Path, solo: set | None = None) -> dict:
     conf = 0
     per_cat: collections.Counter = collections.Counter()
     conf_cat: collections.Counter = collections.Counter()
+    # Da DOVE arriva ogni voce: quale modello l'ha estratta e quale archivio l'ha
+    # giudicata. Senza questi due conteggi il risparmio di rete della Wikipedia locale
+    # e la resa del paracadute cloud sono affermazioni non controllabili — che e'
+    # esattamente il punto in cui ci si e' arenati il 2026-07-30.
+    per_fonte: collections.Counter = collections.Counter()
+    per_provider: collections.Counter = collections.Counter()
+    # Voci confermate ma senza copertina: e' la spia del difetto per cui il vecchio
+    # Local-First buttava via la copertina gia' trovata da TMDB/MusicBrainz.
+    conf_senza_copertina = 0
     voci: list[tuple] = []
     for f in sorted(riferimenti_dir.glob("*.json")):
         if solo is not None and f.stem not in solo:
@@ -153,12 +162,21 @@ def metriche(riferimenti_dir: Path, solo: set | None = None) -> dict:
             tot += 1
             cat = r.get("categoria", "?")
             per_cat[cat] += 1
+            fonte = r.get("fonte_verifica", "") or "?"
+            provider = r.get("provider_estrazione", "") or "?"
+            per_fonte[fonte] += 1
+            per_provider[provider] += 1
             ok = bool(r.get("confermato_esterno"))
             if ok:
                 conf += 1
                 conf_cat[cat] += 1
-            voci.append((f.stem, cat, r.get("titolo", ""), r.get("autore", ""), ok))
-    return {"tot": tot, "conf": conf, "per_cat": per_cat, "conf_cat": conf_cat, "voci": voci}
+                if not (r.get("copertina") or "").strip():
+                    conf_senza_copertina += 1
+            voci.append((f.stem, cat, r.get("titolo", ""), r.get("autore", ""), ok,
+                         fonte, provider))
+    return {"tot": tot, "conf": conf, "per_cat": per_cat, "conf_cat": conf_cat,
+            "per_fonte": per_fonte, "per_provider": per_provider,
+            "conf_senza_copertina": conf_senza_copertina, "voci": voci}
 
 
 INSIEME_RIFERIMENTO = Path(__file__).resolve().parent / "insieme_riferimento.json"
@@ -275,9 +293,23 @@ def misura_recall(riferimenti_dir: Path, ground_truth: dict, campione: list[str]
         }
     tot = len(trovate) + len(mancate)
     parz_tot = len(parz_trovate) + len(parz_mancate)
+    # DENOMINATORE OMOGENEO. La recall qui sopra esclude gli episodi mai estratti, ed
+    # e' giusto come misura del modello ("delle opere che ha potuto vedere, quante ne
+    # ha trovate?"). Ma rende INCONFRONTABILI due run con un numero diverso di episodi
+    # falliti, ed e' esattamente l'origine del confronto viziato con Mistral Nemo: 14
+    # opere su 90 = 15.6%, contro le 98 opere che Qwen3 aveva davanti — su base
+    # omogenea Nemo faceva 14.3%, non 16%, e i due numeri sono stati messi in tabella
+    # uno accanto all'altro come se fossero la stessa cosa. Questa seconda recall
+    # conta SEMPRE tutte le opere del ground truth del campione, e un episodio non
+    # estratto pesa come un episodio in cui non si e' trovato nulla — che dal punto di
+    # vista di chi confronta due modelli e' la verita'.
+    gt_totale = sum(len(ground_truth[d]["opere"]) for d in campione
+                    if d in ground_truth and not ground_truth[d].get("parziale"))
     return {"attese": tot, "trovate": len(trovate), "mancate": mancate + parz_mancate,
             "per_episodio": per_episodio, "non_estratti": non_estratti,
             "recall": (len(trovate) / tot) if tot else None,
+            "attese_omogenee": gt_totale,
+            "recall_omogenea": (len(trovate) / gt_totale) if gt_totale else None,
             # Prova di non-regressione, riportata a parte: "dei riferimenti che
             # sappiamo di aver perso, quanti ne ritroviamo adesso?"
             "parziali_trovate": len(parz_trovate), "parziali_attese": parz_tot}
@@ -362,6 +394,9 @@ def salva_risultato(cartella: Path, provider: str, modello: str, campione: list[
         "provider": provider, "modello": modello, "data": str(date.today()),
         "campione": campione,
         "recall": rec["recall"], "recall_trovate": rec["trovate"], "recall_attese": rec["attese"],
+        # La misura da usare per confrontare due MODELLI: stesso denominatore sempre.
+        "recall_omogenea": rec.get("recall_omogenea"),
+        "recall_attese_omogenee": rec.get("attese_omogenee"),
         "recall_per_episodio": rec["per_episodio"],
         "parziali_trovate": rec.get("parziali_trovate", 0),
         "parziali_attese": rec.get("parziali_attese", 0),
@@ -369,11 +404,22 @@ def salva_risultato(cartella: Path, provider: str, modello: str, campione: list[
         "ancoraggio": anc["quota"], "voci_non_ancorate": len(anc["non_ancorate"]),
         "voci_totali": m["tot"], "confermate_db": m["conf"],
         "per_categoria": {k: v for k, v in m["per_cat"].items()},
+        "per_fonte_verifica": dict(m["per_fonte"]),
+        "per_provider_estrazione": dict(m["per_provider"]),
+        "confermate_senza_copertina": m["conf_senza_copertina"],
+        # Gli interruttori attivi durante QUESTO run. Senza, due file di risultato
+        # sono indistinguibili e si torna a non saper dire cosa e' cambiato.
+        "assetto": {
+            "local_first": os.environ.get("VOLO_LOCAL_FIRST", "1"),
+            "paracadute_gemini": os.environ.get("VOLO_PARACADUTE_GEMINI", "1"),
+        },
         "secondi_totali": round(durata, 1),
         "episodi_falliti": falliti,
         "fermato_dal_tetto": fermato,
         "voci": [{"episodio": v[0], "categoria": v[1], "titolo": v[2],
-                  "autore": v[3], "confermata": v[4]} for v in m["voci"]],
+                  "autore": v[3], "confermata": v[4],
+                  "fonte_verifica": v[5], "provider_estrazione": v[6]}
+                 for v in m["voci"]],
     }
     fp = cartella / nome
     fp.write_text(json.dumps(dati, ensure_ascii=False, indent=1), encoding="utf-8")
@@ -434,10 +480,10 @@ def stampa_confronto(cartella: Path) -> None:
     # che dice quante opere reali sfuggono. A parita', vince chi ancora meglio al testo.
     righe.sort(key=lambda d: (d.get("recall") or 0, d.get("ancoraggio") or 0), reverse=True)
 
-    print("=" * 100)
+    print("=" * 112)
     print(f"{'provider':10s} {'modello':26s} {'recall':>12s} {'ancor.':>7s} {'conf.DB':>8s} "
-          f"{'voci/ep':>8s} {'s/ep':>6s}  data")
-    print("=" * 100)
+          f"{'voci/ep':>8s} {'s/ep':>6s} {'assetto':>9s}  data")
+    print("=" * 112)
     for d in righe:
         n_ep = len(d.get("campione") or []) or 1
         rec = d.get("recall")
@@ -447,8 +493,17 @@ def stampa_confronto(cartella: Path) -> None:
         conf = d.get("confermate_db", 0)
         tot = d.get("voci_totali", 0)
         conf_txt = f"{100*conf/tot:.0f}%" if tot else "n/d"
+        # Con sei run dello STESSO modello nella stessa tabella (i run di controllo
+        # A/B/C/D), senza questa colonna le righe sono indistinguibili e si torna
+        # esattamente al punto di partenza. "?" = run archiviato prima che l'assetto
+        # venisse registrato: non e' zero, e' "non si sa", e va letto cosi'.
+        ass = d.get("assetto") or {}
+        ass_txt = "?" if not ass else (
+            ("para+" if ass.get("paracadute_gemini", "1") != "0" else "") +
+            ("wiki" if ass.get("local_first", "1") != "0" else "solo-db")).strip("+")
         print(f"{d['provider']:10s} {d['modello'][:26]:26s} {rec_txt:>12s} {anc_txt:>7s} "
-              f"{conf_txt:>8s} {tot/n_ep:>8.1f} {d.get('secondi_totali',0)/n_ep:>6.0f}  {d['data']}")
+              f"{conf_txt:>8s} {tot/n_ep:>8.1f} {d.get('secondi_totali',0)/n_ep:>6.0f} "
+              f"{ass_txt:>9s}  {d['data']}")
         if d.get("fermato_dal_tetto"):
             print(f"           ^ run INCOMPLETO: fermato dal tetto dopo "
                   f"{d['fermato_dal_tetto'][0]} episodi — non confrontabile alla pari")
@@ -491,6 +546,12 @@ def stampa_misure(riferimenti_dir: Path, trascrizioni_dir: Path, campione: list[
     if rec["recall"] is not None:
         print(f"  RECALL (ground truth)  : {rec['trovate']}/{rec['attese']} = "
               f"{100*rec['recall']:.0f}%", flush=True)
+        if rec.get("recall_omogenea") is not None and rec["attese_omogenee"] != rec["attese"]:
+            # Stampata solo quando DIVERGE, cioe' quando qualche episodio non e' stato
+            # estratto: e' li' che il confronto fra due modelli si falsa in silenzio.
+            print(f"  RECALL su base omogenea: {rec['trovate']}/{rec['attese_omogenee']} = "
+                  f"{100*rec['recall_omogenea']:.1f}%  <- usare QUESTA per confrontare "
+                  f"due modelli", flush=True)
         for data_str, d in sorted(rec["per_episodio"].items()):
             tag = " [parziale: solo casi noti come persi]" if d["parziale"] else ""
             print(f"      {data_str}: {d['trovate']}/{d['attese']}{tag}", flush=True)
@@ -523,7 +584,19 @@ def stampa_misure(riferimenti_dir: Path, trascrizioni_dir: Path, campione: list[
     print("\n  CAMPIONE DA LEGGERE (15 voci a caso):", flush=True)
     rnd = random.Random(seed)
     for v in rnd.sample(m["voci"], min(15, len(m["voci"]))):
-        print(f"    [{v[0]}] {'OK ' if v[4] else '   '} {v[1]:7s} {v[2][:44]:44s} | {v[3][:24]}", flush=True)
+        print(f"    [{v[0]}] {'OK ' if v[4] else '   '} {v[1]:7s} {v[2][:44]:44s} | "
+              f"{v[3][:24]:24s} | {v[5]}", flush=True)
+
+    # I due conteggi che rendono confrontabili i run di controllo A/B/C/D.
+    print("\n  CHI HA GIUDICATO (fonte della verifica):", flush=True)
+    for fonte, n in m["per_fonte"].most_common():
+        print(f"    {fonte:22s} {n:4d}  ({100*n/max(m['tot'],1):4.1f}%)", flush=True)
+    print("  CHI HA ESTRATTO (provider del modello):", flush=True)
+    for prov, n in m["per_provider"].most_common():
+        print(f"    {prov:22s} {n:4d}  ({100*n/max(m['tot'],1):4.1f}%)", flush=True)
+    if m["conf_senza_copertina"]:
+        print(f"  [!] {m['conf_senza_copertina']} voci confermate SENZA copertina "
+              f"(era la spia del vecchio Local-First)", flush=True)
     return {"metriche": m, "recall": rec, "ancoraggio": anc}
 
 
@@ -563,6 +636,22 @@ def main() -> None:
     parser.add_argument("--confronta", action="store_true",
                         help="non esegue nulla: legge i risultati gia' archiviati in "
                              "logs/banco_prova/ e stampa la tabella comparativa dei modelli.")
+    parser.add_argument("--paracadute", action="store_true",
+                        help="accende il recupero cloud dei chunk vuoti (Gemini). SPENTO di "
+                             "default nel banco, ACCESO in produzione: --provider ollama agisce su "
+                             "llm_multi.provider_disponibile, ma _gemini_chunk_recupero chiama "
+                             "client_e_modello('gemini') direttamente e scavalca quella leva — un "
+                             "run 'ollama' col paracadute e' un run IBRIDO che si presenta come "
+                             "locale, e regala voci proprio al modello che ne trova meno. "
+                             "Contraddirebbe la regola della campagna scritta in "
+                             "config_banco_prova.json: si muove SOLO il modello. "
+                             "ATTENZIONE: con questa flag il run consuma quota Gemini SENZA tetto "
+                             "(il tetto viene azzerato per i provider locali).")
+    parser.add_argument("--senza-local-first", action="store_true",
+                        help="spegne l'indice Wikipedia in RAM nella verifica esterna, che di "
+                             "default e' acceso come in produzione. Serve ai run di controllo: e' "
+                             "l'unico modo di sapere quanto pesa DAVVERO, invece di dedurlo da un "
+                             "run in cui era entrato insieme a un'altra modifica.")
     parser.add_argument("--solo-misura", action="store_true",
                         help="NON estrae nulla: misura i riferimenti gia' presenti in PRODUZIONE "
                              "per gli episodi del campione. Costo zero (nessuna chiamata LLM, "
@@ -629,6 +718,23 @@ def main() -> None:
     # da questa prova viene contabilizzato davvero e non in un file usa-e-getta.
     os.environ["ILVOLO_DATA_DIR"] = str(data_iso)
     os.environ.setdefault("ILVOLO_LOGS_DIR", str(Path(data_reale).parent / "logs"))
+
+    # ASSETTO DEL RUN. Scritto ESPLICITAMENTE e non con setdefault: qui la riga di
+    # comando e' l'autorita', altrimenti una variabile rimasta esportata nella shell
+    # falserebbe un run senza lasciare traccia — che e' la versione ambientale dello
+    # stesso guaio in cui si e' finiti il 2026-07-30 cambiando due cose insieme.
+    # Va scritto PRIMA dell'import di trascrivi_e_estrai_clip per la stessa ragione
+    # di ILVOLO_DATA_DIR qui sopra: PARACADUTE_GEMINI_ATTIVO e' una costante di
+    # modulo, letta una volta sola all'import. VOLO_LOCAL_FIRST invece serve alla
+    # verifica esterna, che gira come subprocess con env={**os.environ}: da li' la
+    # variabile arriva da sola.
+    os.environ["VOLO_PARACADUTE_GEMINI"] = "1" if args.paracadute else "0"
+    os.environ["VOLO_LOCAL_FIRST"] = "0" if args.senza_local_first else "1"
+    print(f"Assetto: paracadute Gemini {'ACCESO' if args.paracadute else 'spento'}, "
+          f"Wikipedia locale {'spenta' if args.senza_local_first else 'ACCESA'}", flush=True)
+    if args.paracadute:
+        print("  [!] col paracadute il run consuma quota Gemini SENZA tetto "
+              "(il tetto viene azzerato per i provider locali): controllala a mano.", flush=True)
 
     sys.path.insert(0, str(ROOT / "scripts"))
     import llm_multi  # noqa: E402
