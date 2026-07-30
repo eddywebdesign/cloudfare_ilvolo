@@ -250,6 +250,23 @@ def _flag_ambiente(nome: str, predefinito: bool = True) -> bool:
 
 PARACADUTE_GEMINI_ATTIVO = _flag_ambiente("VOLO_PARACADUTE_GEMINI", True)
 
+# Temperatura di campionamento del modello. Il default 0.1 e' quello di sempre: la
+# produzione NON cambia comportamento se la variabile non c'e'.
+#
+# Esiste perche' e' la sorgente del rumore che ha reso indecifrabile ogni confronto
+# fra run. Misurato sui risultati archiviati: i due run del 2026-07-29 alle 01:59 e
+# alle 02:26 sono lo stesso modello sullo stesso campione di 8 episodi, a 27 minuti di
+# distanza, senza episodi falliti — e fanno 25/42 contro 21/42, con un solo episodio
+# che passa da 16/17 a 10/17. Quattro opere di oscillazione senza aver cambiato NULLA,
+# contro le 3 opere attribuite a paracadute + Wikipedia locale.
+#
+# Su un'estrazione JSON il campionamento non compra nulla e costa la riproducibilita':
+# a 0 il decoding e' greedy. Che questo basti a rendere due run identici e' pero' da
+# verificare e non da dare per scontato — in llama.cpp le riduzioni in virgola mobile
+# non sono associative, quindi un batching diverso puo' ribaltare un token quasi in
+# parita'.
+TEMPERATURA = float(os.environ.get("ILVOLO_TEMPERATURA", "0.1"))
+
 
 def _groq_chunk(testo: str) -> tuple[list[dict], str]:
     """Singola chiamata LLM (Groq/Cerebras/Gemini/Ollama, sceglie llm_multi) per un
@@ -275,7 +292,7 @@ def _groq_chunk(testo: str) -> tuple[list[dict], str]:
         # llama-3.1-8b-instant, di piu' con gpt-oss-120b (che ne trova di piu').
         # Alzare non costa: si pagano i token realmente generati, non il tetto.
         max_tokens=2000,
-        temperature=0.1,
+        temperature=TEMPERATURA,
         response_format={"type": "json_object"},
     )
     if resp.usage:
@@ -305,7 +322,7 @@ def _gemini_chunk_recupero(testo: str) -> list[dict]:
                 {"role": "user", "content": prompt},
             ],
             max_tokens=2000,
-            temperature=0.1,
+            temperature=TEMPERATURA,
             response_format={"type": "json_object"},
         )
         raw = resp.choices[0].message.content.strip()
