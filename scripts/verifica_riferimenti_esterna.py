@@ -33,9 +33,11 @@ import argparse
 import difflib
 from contextlib import contextmanager
 import json
+import os
 import re
 import sys
 import time
+import unicodedata
 from pathlib import Path
 
 import requests
@@ -115,7 +117,8 @@ MUSICBRAINZ_SLEEP = 1.05  # poco sopra 1 richiesta/secondo per margine di sicure
 # davvero con autore/autore_dal_database/sottocategoria/link_autore/solo_autore, che
 # non hanno mai raggiunto il disco. Aggiungere qui QUALSIASI campo nuovo.
 CAMPI_PERSISTITI = ("confermato_esterno", "copertina", "sottocategoria",
-                    "autore", "autore_dal_database", "link_autore", "solo_autore")
+                    "autore", "autore_dal_database", "link_autore", "solo_autore",
+                    "fonte_verifica")
 
 # Marca lasciata nella descrizione del match quando il titolo e' stato confermato ma
 # l'autore proposto NON ha trovato riscontro. Non e' un difetto: la descrizione di
@@ -131,6 +134,41 @@ MARCA_AUTORE_NON_CORROBORATO = " [autore non corroborato]"
 # attese di MusicBrainz spiegano in tutto ~78 minuti su 5.868 voci. Ottimizzare
 # l'archivio sbagliato e' il modo piu' rapido di perdere una giornata.
 TEMPI: dict[str, list] = {}
+
+# Quale archivio ha determinato il punteggio dell'ULTIMA voce giudicata. Serve a
+# rispondere con i dati, non a stima, a "quanta rete risparmia davvero la Wikipedia
+# locale?" e "quante voci sono state chiuse da quale database?": finora nessun file
+# salvato conservava questa informazione, quindi ogni affermazione sul risparmio era
+# invivificabile. E' un global e non un valore di ritorno in piu' deliberatamente:
+# giudica_voce() e verifica_con_fallback() sono chiamate da quattro punti diversi e
+# la nota a verifica_con_fallback() documenta che un cambio di arita' ha gia'
+# disattivato in silenzio l'INTERO fallback multi-database il 2026-07-27. Lo script
+# e' rigorosamente sequenziale (nessun thread, nessun pool): il valore va letto
+# subito dopo la chiamata, prima della verifica incrociata che ne giudica altre.
+FONTE_ULTIMA_VERIFICA = ""
+
+# L'archivio interrogato per primo, per categoria. Da qui parte la fonte: i fallback
+# la sovrascrivono solo se alzano davvero il punteggio.
+FONTE_PRIMARIA = {"libro": "open library", "film": "tmdb", "musica": "musicbrainz"}
+
+
+def _segna_fonte(nome: str) -> None:
+    global FONTE_ULTIMA_VERIFICA
+    FONTE_ULTIMA_VERIFICA = nome
+
+
+def _flag_ambiente(nome: str, predefinito: bool = True) -> bool:
+    """Interruttore letto dall'ambiente, per i run di controllo del banco di prova.
+
+    Serve a spegnere UNA parte della catena senza toccare il codice fra un run e
+    l'altro: e' il modo in cui il 2026-07-30 si e' scoperto di non poter dire nulla
+    sul +3 di recall fra due run: paracadute Gemini e Wikipedia locale erano entrati
+    INSIEME, quindi nessuno dei due era isolabile. Stessa scelta gia' fatta per il
+    modello locale (commit 9900fb75)."""
+    valore = os.environ.get(nome)
+    if valore is None:
+        return predefinito
+    return valore.strip().lower() not in ("0", "no", "off", "false", "")
 
 
 @contextmanager
@@ -687,6 +725,122 @@ def _cron_completa_autore_dal_db(titolo: str, categoria: str, tmdb_key: str = ""
     return ""
 
 
+
+# =====================================================================
+# MOTORE LOCAL-FIRST: Wikipedia Unificata (IT+EN) in RAM
+# =====================================================================
+INDICE_WIKI_PATH = Path.home() / "dump_wikipedia" / "indice_opere.json"
+_INDICE_LOCALE_CACHE = None
+
+# L'interruttore per i run di controllo: VOLO_LOCAL_FIRST=0 spegne l'intero motore
+# locale e manda tutto sul percorso cloud di sempre.
+LOCAL_FIRST_ATTIVO = _flag_ambiente("VOLO_LOCAL_FIRST", True)
+
+# Un match locale NON conferma da solo. E' un indizio: vale poco meno della soglia di
+# conferma automatica, quindi entra nel confronto con gli altri archivi invece di
+# scavalcarli, e da solo manda la voce in revisione anziche' pubblicarla.
+#
+# ⚠️ Fino al 2026-07-30 questa funzione restituiva 1.0 — il verdetto piu' forte che
+# esista qui dentro — su un match di SOLO TITOLO, ignorando del tutto l'autore, contro
+# un indice che ha 1.046.512 chiavi ma UNA SOLA voce per titolo normalizzato, con le
+# omonimie risolte a caso da chi ha costruito il dump. Verificato sul disco:
+# "insieme" -> Insieme (Christian), album del 1986; "io" -> Io (Gianna Nannini);
+# "anna" -> Anna (film 1951); "volare" -> Volare! (film). Cioe': qualunque titolo
+# generico che capitasse nella categoria giusta veniva CONFERMATO, con qualsiasi
+# autore, senza che nessun archivio avesse verificato alcunche'.
+PUNTEGGIO_INDIZIO_LOCALE = SOGLIA_ALTA - 0.01
+
+# Quanta parte del nome proposto deve ricomparire nella disambiguazione dell'indice
+# perche' il match valga come conferma e non come semplice indizio. Le parole sono
+# poche (di solito nome e cognome), quindi meta' e' gia' un vincolo forte.
+SOGLIA_AUTORE_LOCALE = 0.5
+
+# Parole che nella parentesi di un titolo Wikipedia sono un TIPO, non un autore
+# ("Anna (film 1951)", "Amore (romanzo)"). Una parentesi fatta solo di queste non puo'
+# corroborare nessun nome di persona.
+PAROLE_DISAMBIGUANTI = {
+    "film", "romanzo", "libro", "album", "canzone", "singolo", "brano", "opera",
+    "serie", "serie tv", "miniserie", "documentario", "cortometraggio", "poesia",
+    "poema", "saggio", "racconto", "raccolta", "fumetto", "musical", "commedia",
+    "tragedia", "novel", "book", "song", "movie", "song", "ep", "sigla",
+}
+
+
+def _carica_indice_wikipedia_se_presente():
+    global _INDICE_LOCALE_CACHE
+    if _INDICE_LOCALE_CACHE is not None:
+        return _INDICE_LOCALE_CACHE
+    if not LOCAL_FIRST_ATTIVO:
+        print("  [Local-First] Disattivato da VOLO_LOCAL_FIRST=0: solo archivi cloud.")
+        _INDICE_LOCALE_CACHE = {}
+        return _INDICE_LOCALE_CACHE
+    if INDICE_WIKI_PATH.exists():
+        try:
+            # Cronometrato a parte dal lookup: sono 94 MB di JSON, un costo
+            # UNA-TANTUM, e mescolarlo col costo per voce rende il "tempo per
+            # chiamata" un numero privo di significato.
+            with cronometra("wikipedia_locale_caricamento"):
+                with open(INDICE_WIKI_PATH, "r", encoding="utf-8") as f:
+                    _INDICE_LOCALE_CACHE = json.load(f)
+            print(f"  [Local-First] Indice Wikipedia (IT+EN) caricato in RAM: {len(_INDICE_LOCALE_CACHE):,} opere.")
+        except Exception as e:
+            print(f"  [Local-First] Errore nel caricamento dell'indice locale: {e}")
+            _INDICE_LOCALE_CACHE = {}
+    else:
+        print("  [Local-First] Indice locale ASSENTE. Fallback totale su API Cloud.")
+        _INDICE_LOCALE_CACHE = {}
+    return _INDICE_LOCALE_CACHE
+
+def _normalizza_titolo_locale(s: str) -> str:
+    s = unicodedata.normalize("NFKD", (s or "").lower())
+    s = "".join(c for c in s if not unicodedata.combining(c))
+    return re.sub(r"\s+", " ", re.sub(r"[^\w\s]", " ", s)).strip()
+
+def _autore_corroborato_dall_indice(autore: str, titolo_db: str) -> bool:
+    """L'indice porta un riscontro del nome proposto?
+
+    L'unico posto dove l'indice nomina l'autore e' la parentesi di disambiguazione
+    del titolo Wikipedia — "Up (R.E.M.)", "Io (Gianna Nannini)", "Insieme (Christian)".
+    Il terzo campo del record NON e' una descrizione ma una categoria Wikipedia
+    ("Album del 1998"), quindi non contiene mai un nome: cercarlo li' e' inutile.
+    Il confronto usa _similarita_autore (parole intere) e non _similarita: la nota
+    di quella funzione spiega perche' due nomi italiani senza una parola in comune
+    arrivano lo stesso a 0.5 di somiglianza carattere-per-carattere."""
+    parentesi = re.search(r"\(([^)]*)\)", titolo_db or "")
+    if not autore or not parentesi:
+        return False
+    contenuto = parentesi.group(1)
+    parole = set(_normalizza(contenuto).split())
+    # "Anna (film 1951)": tutte parole di tipo o cifre, nessun nome da corroborare.
+    if not parole - PAROLE_DISAMBIGUANTI - {p for p in parole if p.isdigit()}:
+        return False
+    return _similarita_autore(autore, contenuto) >= SOGLIA_AUTORE_LOCALE
+
+def verifica_local_first(titolo: str, autore: str, categoria_attesa: str) -> tuple[float, str] | None:
+    """Cerca il titolo nell'indice Wikipedia in RAM. Ritorna (punteggio, descrizione)
+    o None se non c'e' nulla da dire.
+
+    Il punteggio e' PUNTEGGIO_INDIZIO_LOCALE (sotto la soglia di conferma) salvo che
+    l'indice corrobori anche l'autore proposto: vedi la nota estesa sopra."""
+    indice = _carica_indice_wikipedia_se_presente()
+    if not indice:
+        return None
+    # Il cronometro avvolge il lavoro, non il return: fino al 2026-07-30 stava intorno
+    # al solo `return`, quindi lo "0.00 s per chiamata" era vero per costruzione e non
+    # misurava niente.
+    with cronometra("wikipedia_locale"):
+        match = indice.get(_normalizza_titolo_locale(titolo))
+    if not (match and isinstance(match, (list, tuple)) and len(match) >= 3):
+        return None
+    titolo_db, cat_db = str(match[0]), match[1]
+    if cat_db != categoria_attesa:
+        return None
+    if _autore_corroborato_dall_indice(autore, titolo_db):
+        return 1.0, f"{titolo_db} [Wikipedia locale, autore corroborato]"
+    return (PUNTEGGIO_INDIZIO_LOCALE,
+            f"{titolo_db} [Wikipedia locale]{MARCA_AUTORE_NON_CORROBORATO}")
+# =====================================================================
+
 def verifica_con_fallback(titolo: str, autore: str, categoria: str,
                           primo: tuple[float, str, str, str]) -> tuple[float, str, str, str]:
     """Se il database principale non ha confermato, interroga gli altri prima di
@@ -707,6 +861,31 @@ def verifica_con_fallback(titolo: str, autore: str, categoria: str,
     if punteggio >= SOGLIA_ALTA:
         return primo
 
+    # Calcolato QUI, prima che il Local-First possa alzare il punteggio: "non ho potuto
+    # chiedere" e' una proprieta' del database principale, e un indizio locale non la
+    # cancella.
+    non_raggiungibile = punteggio < 0
+
+    # -----------------------------------------------------------------
+    # LOCAL-FIRST: l'indice Wikipedia in RAM entra nel confronto come gli altri
+    # archivi. NON e' piu' una scorciatoia che ritorna prima di tutto: fino al
+    # 2026-07-30 stava in cima alla funzione e faceva `return p, desc, "", ""` PRIMA
+    # ancora di leggere `primo` — cioe' buttava via la copertina e la sottocategoria
+    # che TMDB/MusicBrainz avevano gia' trovato. Ogni voce chiusa dalla Wikipedia
+    # locale finiva sul sito senza copertina, e non era un problema di misura.
+    # -----------------------------------------------------------------
+    locale = verifica_local_first(titolo, autore, categoria)
+    if locale is not None:
+        p_loc, desc_loc = locale
+        if p_loc > punteggio:
+            punteggio, descrizione = p_loc, desc_loc
+            _segna_fonte("wikipedia_locale")
+        if punteggio >= SOGLIA_ALTA:
+            # Confermato in RAM e con l'autore corroborato: qui, e solo qui, si
+            # risparmiano davvero le interrogazioni di rete che seguono.
+            return punteggio, descrizione, copertina, sottocat
+    # -----------------------------------------------------------------
+
     # Un archivio che non risponde non deve poter emettere una condanna. Misurato il
     # 2026-07-28: Google Books da' 503 a intermittenza (1 richiesta su 6 in una
     # raffica, chiave presente) e "I fili invisibili della natura", libro reale
@@ -714,8 +893,7 @@ def verifica_con_fallback(titolo: str, autore: str, categoria: str,
     # marcata definitivamente come probabile falso positivo sulla base di una domanda
     # mai arrivata. Il principio era gia' scritto qui sotto ("un punteggio negativo non
     # fa mai scartare una voce") ma valeva solo DENTRO il confronto: il verdetto finale
-    # lo ignorava.
-    non_raggiungibile = punteggio < 0
+    # lo ignorava. (Il valore e' calcolato piu' sopra, prima del Local-First.)
 
     tentativi = []
     if categoria == "libro":
@@ -748,6 +926,7 @@ def verifica_con_fallback(titolo: str, autore: str, categoria: str,
             continue
         if p > punteggio:
             punteggio, descrizione, copertina = p, f"{d} [via {nome}]", (copertina or c)
+            _segna_fonte(nome)
 
     if punteggio < SOGLIA_BASSA and non_raggiungibile:
         # Sotto SOGLIA_BASSA e con un archivio muto: il verdetto sarebbe "probabile
@@ -772,7 +951,11 @@ def giudica_voce(titolo: str, autore: str, categoria: str,
     con rivaluta_dubbi_esterni.py, che chiamava i database uno per uno saltando il
     fallback.
 
-    Punteggio -1.0 = non ho potuto chiedere, vedi cerca_google_books()."""
+    Punteggio -1.0 = non ho potuto chiedere, vedi cerca_google_books().
+
+    Aggiorna anche FONTE_ULTIMA_VERIFICA: il chiamante deve leggerla SUBITO dopo,
+    prima di giudicare altre voci (la verifica incrociata ne giudica due in piu')."""
+    _segna_fonte(FONTE_PRIMARIA.get(categoria, categoria))
     if not titolo:
         # Voce di SOLO AUTORE: non c'e' un'opera da cercare, si verifica che il nome
         # sia davvero un autore reale della categoria.
@@ -1386,6 +1569,9 @@ def main() -> None:
             # Stessa identica catena usata dal banco di prova della verifica.
             punteggio, match, copertina, sub_suggerita, url_autore = giudica_voce(
                 titolo, autore, categoria, tmdb_key)
+            # Letta QUI e non piu' tardi: la verifica incrociata sotto chiama di nuovo
+            # giudica_voce (su altre categorie) e sovrascriverebbe il valore.
+            fonte = FONTE_ULTIMA_VERIFICA
         except Exception as e:
             print(f"  [{i+1}/{len(tutte_le_voci)}] ERRORE imprevisto su {titolo!r}: {e}, salto")
             continue
@@ -1401,6 +1587,10 @@ def main() -> None:
             r["solo_autore"] = True
 
         r["confermato_esterno"] = punteggio >= SOGLIA_ALTA
+        # Chi ha deciso. Salvata SEMPRE, anche per le voci non confermate: senza
+        # questo campo "quanto risparmia la Wikipedia locale" e "quale archivio chiude
+        # le voci" restano domande a cui si puo' solo rispondere a stima.
+        r["fonte_verifica"] = fonte
         # Copertina salvata SOLO se il match e' confermato: un titolo dubbio/scartato
         # non deve mostrare la copertina di un'opera probabilmente sbagliata.
         if r["confermato_esterno"] and copertina:
@@ -1437,6 +1627,7 @@ def main() -> None:
                     r[campo] = inversa.get(cat_alt, cat_alt)
                     r["confermato_esterno"] = True
                     r["categoria_corretta_dal_db"] = True
+                    r["fonte_verifica"] = "verifica_incrociata"
                     if cop_alt:
                         r["copertina"] = cop_alt
                     if sub_alt and not (r.get("sottocategoria") or "").strip():
@@ -1451,6 +1642,7 @@ def main() -> None:
                 gemella["id"] = f"{r.get('id')}-{cat_alt}"
                 gemella[campo] = inversa.get(cat_alt, cat_alt)
                 gemella["confermato_esterno"] = True
+                gemella["fonte_verifica"] = "verifica_incrociata"
                 gemella["copertina"] = cop_alt
                 gemella["sottocategoria"] = sub_alt
                 gemella["da_categoria_incrociata"] = True
