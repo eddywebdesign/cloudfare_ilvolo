@@ -768,6 +768,11 @@ def merge_riferimenti(data_str: str, nuovi: list[dict], testo: str, durata: floa
             "titolo": titolo,
             "anno": ref.get("anno", ""),
             "autore": ref.get("autore", ""),
+            # In che veste la persona ha fatto l'opera (regista/sceneggiatore/autore
+            # del romanzo/compositore...). Lo compila la verifica esterna quando il
+            # modello non ha estratto l'autore; qui va dichiarato perche' il merge
+            # ricopia solo i campi che conosce e altrimenti lo azzererebbe.
+            "ruolo_autore": ref.get("ruolo_autore", ""),
             "note": ref.get("note", ""),
             "testo": ref_testo,
             "start": ref_start,

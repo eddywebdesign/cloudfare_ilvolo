@@ -374,6 +374,66 @@ def nome_modello_in_uso(llm_multi, provider: str) -> str:
     return "?"
 
 
+def autotest_o_muori() -> None:
+    """Esegue test_banco_prova.py PRIMA di ogni run e si ferma se fallisce.
+
+    Perche' e' qui e non nelle buone intenzioni: l'autotest si e' rotto due volte
+    (2026-07-30 e 2026-07-31) e nessuna delle due se ne era accorto nessuno, perche'
+    NON LO LANCIAVA NIENTE — non un hook, non lancia_clasificacion_omv.sh, non il
+    banco. Veniva eseguito solo quando qualcuno se ne ricordava, cioe' dopo il danno.
+    La seconda volta era rotto in un modo che fermava la suite a meta': i controlli
+    successivi non giravano piu' e tutto sembrava a posto.
+
+    Costa zero (nessuna rete, nessun LLM, nessun accesso allo share) contro un run che
+    dura mezz'ora e su cui si decide quale modello elabora 1.316 episodi: se lo
+    strumento di misura e' rotto, la campagna misura rumore. Meglio scoprirlo al
+    secondo zero.
+
+    Si salta solo con ILVOLO_SALTA_AUTOTEST=1, per quando si sta lavorando proprio
+    sull'autotest e lo si sta facendo fallire di proposito."""
+    if os.environ.get("ILVOLO_SALTA_AUTOTEST") == "1":
+        print("Autotest SALTATO (ILVOLO_SALTA_AUTOTEST=1).", flush=True)
+        return
+    autotest = Path(__file__).resolve().parent / "test_banco_prova.py"
+    if not autotest.exists():
+        return
+    esito = subprocess.run([sys.executable, "-u", str(autotest)],
+                           capture_output=True, text=True)
+    if esito.returncode != 0:
+        print(esito.stdout)
+        print(esito.stderr)
+        sys.exit("ERRORE: l'autotest del banco fallisce, il run NON parte. "
+                 "Gli strumenti di misura vanno riparati prima: una campagna misurata "
+                 "con un metro rotto e' peggio di nessuna misura, perche' sembra un "
+                 "risultato. Per saltarlo davvero: ILVOLO_SALTA_AUTOTEST=1.")
+    verdi = esito.stdout.count("[ok ]")
+    print(f"Autotest del banco: {verdi} controlli verdi, si procede.", flush=True)
+
+
+def assetto_effettivo() -> dict:
+    """Gli interruttori con cui il run ha DAVVERO girato.
+
+    ⚠️ Seme e temperatura si leggono dai MODULI, non dall'ambiente. Finche' questo
+    dizionario faceva os.environ.get("ILVOLO_OLLAMA_SEED", ""), un run col seme di
+    default (2026, llm_multi.OLLAMA_SEED) veniva archiviato come `"ollama_seed": ""`:
+    "non lo so" e "2026" finivano sotto lo stesso simbolo, la stessa confusione fra due
+    stati corretta il 2026-07-30 per verdetto_sospeso. Ripetere il default anche qui
+    voleva dire tenerne due copie: se domani la produzione cambia seme o temperatura,
+    l'etichetta continua a dichiarare il vecchio valore e mente su run gia' archiviati.
+
+    local_first e paracadute restano letti dall'ambiente perche' li' l'ambiente E' la
+    fonte: main() li scrive sempre e per entrambi, prima dell'import (vedi il commento
+    su PARACADUTE_GEMINI_ATTIVO), e la verifica esterna li riceve come subprocess."""
+    import llm_multi  # importabili: main() ha gia' inserito scripts/ in sys.path
+    import trascrivi_e_estrai_clip as tec
+    return {
+        "local_first": os.environ.get("VOLO_LOCAL_FIRST", "1"),
+        "paracadute_gemini": os.environ.get("VOLO_PARACADUTE_GEMINI", "1"),
+        "temperatura": str(tec.TEMPERATURA),
+        "ollama_seed": llm_multi.OLLAMA_SEED,
+    }
+
+
 def salva_risultato(cartella: Path, provider: str, modello: str, campione: list[str],
                     misure: dict, durata: float, falliti: list, fermato: tuple | None) -> Path:
     """Archivia il risultato di UN run in un file per provider+modello.
@@ -409,12 +469,7 @@ def salva_risultato(cartella: Path, provider: str, modello: str, campione: list[
         "confermate_senza_copertina": m["conf_senza_copertina"],
         # Gli interruttori attivi durante QUESTO run. Senza, due file di risultato
         # sono indistinguibili e si torna a non saper dire cosa e' cambiato.
-        "assetto": {
-            "local_first": os.environ.get("VOLO_LOCAL_FIRST", "1"),
-            "paracadute_gemini": os.environ.get("VOLO_PARACADUTE_GEMINI", "1"),
-            "temperatura": os.environ.get("ILVOLO_TEMPERATURA", "0.1"),
-            "ollama_seed": os.environ.get("ILVOLO_OLLAMA_SEED", ""),
-        },
+        "assetto": assetto_effettivo(),
         "secondi_totali": round(durata, 1),
         "episodi_falliti": falliti,
         "fermato_dal_tetto": fermato,
@@ -677,6 +732,8 @@ def main() -> None:
     if args.confronta:
         stampa_confronto(cartella_risultati)
         return
+
+    autotest_o_muori()
 
     data_reale = os.environ.get("ILVOLO_DATA_DIR")
     if not data_reale:

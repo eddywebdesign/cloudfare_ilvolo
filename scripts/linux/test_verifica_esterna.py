@@ -113,21 +113,26 @@ def prova_completamento_autore(casi: list, tmdb_key: str) -> list[dict]:
     for c in senza_autore:
         titolo, categoria = c["titolo"], c["categoria"]
         try:
-            trovato = completa_autore_dal_db(titolo, categoria, tmdb_key)
+            # ⚠️ Coppia (nome, ruolo) dal 2026-07-31: prima era il solo nome, e
+            # spacchettarla e' obbligatorio — una tupla ("", "") e' comunque VERA,
+            # quindi con `trovato = ...` il caso "nessun autore" sarebbe passato per
+            # riuscito su ogni voce, musica compresa. L'anno disambigua gli omonimi.
+            trovato, ruolo = completa_autore_dal_db(titolo, categoria, tmdb_key,
+                                                    c.get("anno", ""))
         except Exception as e:
             print(ascii_sicuro(f"  [??] {titolo!r}: ERRORE {e}"))
             continue
         atteso_pieno = categoria != "musica"  # la musica non si completa, per scelta
         ok = bool(trovato) if atteso_pieno else not trovato
         if trovato:
-            spiegazione = trovato
+            spiegazione = f"{trovato} ({ruolo})" if ruolo else trovato
         elif atteso_pieno:
             spiegazione = "NESSUN AUTORE (il database dovrebbe saperlo)"
         else:
             spiegazione = "nessun autore, come atteso per la musica"
         print(ascii_sicuro(f"  [{'ok ' if ok else 'NO '}] {titolo!r} ({categoria}) -> {spiegazione}"))
         risultati.append({"titolo": titolo, "categoria": categoria,
-                          "autore_trovato": trovato, "ok": ok})
+                          "autore_trovato": trovato, "ruolo": ruolo, "ok": ok})
         time.sleep(0.35)
     return risultati
 

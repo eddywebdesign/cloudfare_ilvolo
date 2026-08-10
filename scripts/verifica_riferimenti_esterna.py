@@ -117,8 +117,8 @@ MUSICBRAINZ_SLEEP = 1.05  # poco sopra 1 richiesta/secondo per margine di sicure
 # davvero con autore/autore_dal_database/sottocategoria/link_autore/solo_autore, che
 # non hanno mai raggiunto il disco. Aggiungere qui QUALSIASI campo nuovo.
 CAMPI_PERSISTITI = ("confermato_esterno", "copertina", "sottocategoria",
-                    "autore", "autore_dal_database", "link_autore", "solo_autore",
-                    "fonte_verifica")
+                    "autore", "autore_dal_database", "ruolo_autore", "link_autore",
+                    "solo_autore", "fonte_verifica")
 
 # Marca lasciata nella descrizione del match quando il titolo e' stato confermato ma
 # l'autore proposto NON ha trovato riscontro. Non e' un difetto: la descrizione di
@@ -393,9 +393,13 @@ AUTORE_PROP = {
     "film": ("P57", "P170"),     # regista; creatore (le serie non hanno un regista unico)
     "musica": ("P86", "P175"),   # compositore; interprete
 }
+# Il ruolo che ogni proprieta' Wikidata attesta. Il dato c'era gia' — era scritto nei
+# commenti qui sopra invece che nel codice, quindi si perdeva insieme al nome.
+RUOLO_PROP = {"P50": "autore", "P57": "regista", "P170": "creatore",
+              "P86": "compositore", "P175": "interprete"}
 
 
-def _wikidata_autore_opera(titolo: str, categoria: str) -> str:
+def _wikidata_autore_opera(titolo: str, categoria: str) -> tuple[str, str]:
     """Chiede a Wikidata CHI ha fatto un'opera, leggendo i claim strutturati.
 
     Terza fonte per il completamento dell'autore, aggiunta il 2026-07-28 dopo aver
@@ -411,7 +415,7 @@ def _wikidata_autore_opera(titolo: str, categoria: str) -> str:
     spie = WIKIDATA_SPIE.get(categoria, ())
     proprieta = AUTORE_PROP.get(categoria, ())
     if not spie or not proprieta:
-        return ""
+        return "", ""
     try:
         qid = ""
         for lingua in ("it", "en"):
@@ -426,7 +430,7 @@ def _wikidata_autore_opera(titolo: str, categoria: str) -> str:
             if qid:
                 break
         if not qid:
-            return ""
+            return "", ""
 
         claims = _wikidata_api({"action": "wbgetentities", "ids": qid,
                                 "props": "claims"})["entities"][qid].get("claims", {})
@@ -441,10 +445,10 @@ def _wikidata_autore_opera(titolo: str, categoria: str) -> str:
                 lab = etichette["entities"][persona].get("labels", {})
                 nome = (lab.get("it") or lab.get("en") or {}).get("value", "")
                 if nome:
-                    return nome
+                    return nome, RUOLO_PROP.get(prop, "")
     except Exception as e:
         print(f"      (Wikidata non ha potuto dire l'autore di {titolo!r}: {e})")
-    return ""
+    return "", ""
 
 
 # Un "autore" la cui descrizione dice queste cose non e' una persona che ha scritto
@@ -683,9 +687,18 @@ def _cron_verifica_autore(nome: str, categoria: str) -> tuple[float, str, str]:
     return 0.0, "nessun autore reale con questo nome per la categoria", ""
 
 
-def _cron_completa_autore_dal_db(titolo: str, categoria: str, tmdb_key: str = "") -> str:
+def _cron_completa_autore_dal_db(titolo: str, categoria: str, tmdb_key: str = "",
+                                 anno: str = "") -> tuple[str, str]:
     """Dato un titolo GIA' confermato ma senza autore, chiede al database chi sia
-    l'autore. Ritorna il nome trovato, o "" se il database non lo espone.
+    l'autore. Ritorna la coppia (nome, ruolo), o ("", "") se il database non lo espone.
+
+    ⚠️ Ritorna una COPPIA dal 2026-07-31, prima era il solo nome. Il ruolo non si butta
+    piu' via: al database si da' fiducia sull'attribuzione (decisione dell'utente), ma
+    va detto in che VESTE quella persona ha fatto l'opera. "Katie Dippold" scritta nel
+    campo autore di Ghostbusters e' un'attribuzione falsa; "Katie Dippold,
+    sceneggiatrice" e' un fatto vero. Molti nomi hanno piu' vesti sulla stessa opera
+    (Kevin Costner: attore, regista, produttore): l'importante e' che la persona
+    figuri e che il ruolo dichiarato sia uno di quelli reali.
 
     Deciso con l'utente il 2026-07-27: se abbiamo il titolo e non l'autore, il caso
     si risolve col database invece di scartare la voce — se il titolo esiste, si
@@ -704,19 +717,30 @@ def _cron_completa_autore_dal_db(titolo: str, categoria: str, tmdb_key: str = ""
                 if _similarita(titolo, d.get("title", "")) >= SOGLIA_TITOLO_CERTO:
                     autori = d.get("author_name") or []
                     if autori:
-                        return autori[0]
+                        return autori[0], "autore"
             # Open Library e' debole sull'editoria italiana: si riprova con Google Books,
             # che per "Anna" di Ammaniti da' l'autore giusto dove OL da' un omonimo.
             p, _desc, _cop, autore_gb = cerca_google_books(titolo, "")
             if p >= SOGLIA_TITOLO_CERTO and autore_gb:
-                return autore_gb
+                return autore_gb, "autore"
         elif categoria == "film":
             risultati = _tmdb_cerca("movie", titolo, tmdb_key)
-            for res in risultati[:3]:
-                if _similarita(titolo, res.get("title", "") or "") >= SOGLIA_TITOLO_CERTO:
-                    registi = _tmdb_registi(res.get("id"), tmdb_key)
-                    if registi:
-                        return registi[0]
+            # Titolo italiano E originale, come fa gia' _cron_verifica_film. Guardando
+            # solo "title" ogni film la cui distribuzione italiana ha aggiunto un
+            # sottotitolo era irraggiungibile: "Ghostbusters" del 1984 su TMDB si chiama
+            # "Ghostbusters (Acchiappafantasmi)" e vale 0.57, sotto SOGLIA_TITOLO_CERTO,
+            # quindi veniva scartato PRIMA che l'anno potesse sceglierlo e restava solo
+            # il remake 2016. Sull'original_title vale 1.00. Misurato il 2026-07-31.
+            candidati = [
+                res for res in risultati[:5]
+                if max(_similarita(titolo, res.get(campo, "") or "")
+                       for campo in ("title", "original_title")) >= SOGLIA_TITOLO_CERTO
+            ]
+            candidati = _preferisci_per_anno(candidati, anno)
+            for res in candidati[:3]:
+                autori = _tmdb_registi(res.get("id"), tmdb_key)
+                if autori:
+                    return autori[0]  # gia' (nome, ruolo), col regista per primo
         else:
             # ⚠️ MUSICA: completamento automatico NON fatto, deliberatamente.
             # Provate dal vivo due strategie il 2026-07-27, entrambe sbagliate in modo
@@ -730,7 +754,7 @@ def _cron_completa_autore_dal_db(titolo: str, categoria: str, tmdb_key: str = ""
             # Un autore sbagliato e' peggio di nessun autore: si propaga nell'archivio
             # come se fosse verificato. Queste voci restano con l'autore vuoto e vanno
             # alla revisione manuale, dove un occhio umano decide in due secondi.
-            return ""
+            return "", ""
     except Exception as e:
         print(f"      (autore non recuperabile dal database: {e})")
 
@@ -741,7 +765,29 @@ def _cron_completa_autore_dal_db(titolo: str, categoria: str, tmdb_key: str = ""
     # raggiungibile da nessuna strada. La musica resta esclusa: vedi sopra.
     if categoria != "musica":
         return _wikidata_autore_opera(titolo, categoria)
-    return ""
+    return "", ""
+
+
+def _preferisci_per_anno(candidati: list[dict], anno: str) -> list[dict]:
+    """Fra piu' film con lo stesso titolo, mette davanti quelli usciti nell'anno detto.
+
+    Senza questo, "Ghostbusters" cade sul remake 2016 perche' TMDB ordina per rilevanza
+    e non per data: si otteneva il ruolo giusto della persona del film sbagliato. L'anno
+    lo estrae gia' il modello (campo `anno` del prompt) ed e' gia' persistito.
+
+    Tolleranza di un anno: fra uscita originale e uscita italiana lo scarto di un anno e'
+    normale. Se nessun candidato rientra, si torna all'ordine di rilevanza invece di
+    restituire il vuoto — un anno sbagliato dal modello non deve far perdere l'autore di
+    un film che il titolo aveva gia' identificato."""
+    if not anno.strip().isdigit():
+        return candidati
+    atteso = int(anno.strip())
+    vicini = []
+    for res in candidati:
+        uscita = (res.get("release_date") or "")[:4]
+        if uscita.isdigit() and abs(int(uscita) - atteso) <= 1:
+            vicini.append(res)
+    return vicini or candidati
 
 
 
@@ -1197,12 +1243,38 @@ TMDB_IMG_BASE = "https://image.tmdb.org/t/p/w200"
 # banco: con i soli registi, "Il padrino"/Mario Puzo e "Don Camillo"/Guareschi non
 # potevano essere confermati come film - Puzo firma la sceneggiatura, Guareschi il
 # romanzo - ed e' proprio la coppia titolo/autore che il programma pronuncia in onda.
-CREDITI_AUTORE_FILM = ("Director", "Screenplay", "Writer", "Novel", "Author",
-                       "Story", "Original Story", "Book")
+# I crediti che valgono come "autore" di un film, IN ORDINE DI PRIORITA' e con
+# l'etichetta con cui il ruolo viene salvato. L'ordine conta solo quando si COMPILA un
+# autore mancante — in verifica l'insieme resta piatto, vedi sopra.
+# ⚠️ Prima del 2026-07-31 il job veniva letto per filtrare e poi BUTTATO VIA: la
+# funzione ritornava nomi nudi, quindi regista, sceneggiatore e autore del romanzo
+# erano indistinguibili a valle e si prendeva il primo nell'ordine arbitrario di TMDB.
+# Cosi' "Ghostbusters" usciva attribuito a Katie Dippold come se fosse la regista,
+# mentre e' la sceneggiatrice (del remake 2016, che e' il secondo difetto: vedi l'anno
+# in _cron_completa_autore_dal_db). Il database non sbagliava: si perdeva il ruolo.
+RUOLI_AUTORE_FILM = (
+    ("Director", "regista"),
+    ("Screenplay", "sceneggiatore"),
+    ("Writer", "sceneggiatore"),
+    ("Story", "soggetto"),
+    ("Original Story", "soggetto"),
+    ("Novel", "autore del romanzo"),
+    ("Book", "autore del romanzo"),
+    ("Author", "autore"),
+)
 
 
-def _tmdb_registi(movie_id: int, tmdb_key: str) -> list[str]:
-    """Chi ha fatto un film, secondo TMDB: regista, sceneggiatore, autore del romanzo.
+def _tmdb_registi(movie_id: int, tmdb_key: str) -> list[tuple[str, str]]:
+    """Chi ha fatto un film, secondo TMDB: coppie (nome, ruolo), col regista per primo.
+
+    ⚠️ Ritorna COPPIE dal 2026-07-31 (prima erano nomi nudi): chi chiama deve
+    spacchettare. E' lo stesso cambio di arita' che il 2026-07-28 disattivo' in
+    silenzio l'intero fallback multi-database — qui coperto da un test apposta.
+
+    L'ordine e' quello di RUOLI_AUTORE_FILM, non quello in cui TMDB elenca il crew:
+    serve a chi compila un autore mancante e vuole il regista se c'e'. Chi verifica un
+    autore proposto ignora l'ordine e guarda tutti i ruoli, come e' giusto.
+
     Serve una chiamata separata a /credits: l'endpoint di ricerca non restituisce i
     crediti, ed e' esattamente il motivo per cui fino al 2026-07-26 verifica_film()
     non poteva controllare l'autore (vedi sotto)."""
@@ -1216,7 +1288,12 @@ def _tmdb_registi(movie_id: int, tmdb_key: str) -> list[str]:
         crew = resp.json().get("crew", [])
     except Exception:
         return []
-    return [c.get("name", "") for c in crew if c.get("job") in CREDITI_AUTORE_FILM]
+    priorita = {job: (i, etichetta)
+                for i, (job, etichetta) in enumerate(RUOLI_AUTORE_FILM)}
+    trovati = [(priorita[c["job"]][0], c.get("name", ""), priorita[c["job"]][1])
+               for c in crew if c.get("job") in priorita and c.get("name")]
+    trovati.sort(key=lambda t: t[0])
+    return [(nome, ruolo) for _ordine, nome, ruolo in trovati]
 
 
 def _tmdb_cerca(endpoint: str, titolo: str, tmdb_key: str) -> list[dict]:
@@ -1297,7 +1374,12 @@ def _cron_verifica_film(titolo: str, autore: str, tmdb_key: str) -> tuple[float,
         # Le serie TV non hanno un "regista" unico in TMDB (created_by e' piu' vicino
         # a "ideatore", spesso vuoto o multiplo per produzioni corali) — per le serie
         # ci si affida al solo titolo, come gia' fatto per la musica senza autore.
-        sim_autore = max((_similarita_autore(autore, d) for d in registi), default=0.0)
+        # Il ruolo si ignora QUI di proposito: una corrispondenza su un ruolo qualsiasi
+        # conferma la voce, perche' in onda si cita tanto il regista quanto lo
+        # sceneggiatore o l'autore del romanzo (Puzo per "Il padrino", Guareschi per
+        # "Don Camillo"). Serve invece in compilazione, dove il ruolo va dichiarato.
+        sim_autore = max((_similarita_autore(autore, nome) for nome, _ruolo in registi),
+                         default=0.0)
         if autore and tipo == "film" and sim_titolo >= SOGLIA_TITOLO_CERTO and sim_autore < SOGLIA_AUTORE_ESTRANEO:
             titolo_certo_ma_autore_estraneo = True
         punteggio = sim_titolo * 0.7 + sim_autore * 0.3 if (autore and tipo == "film") else sim_titolo
@@ -1309,7 +1391,9 @@ def _cron_verifica_film(titolo: str, autore: str, tmdb_key: str) -> tuple[float,
             cover_url = f"{TMDB_IMG_BASE}{poster}" if poster else ""
             desc = f"{nome} ({anno})"
             if registi:
-                desc += f" — regia: {', '.join(registi[:2])}"
+                # Ogni nome col SUO ruolo: l'etichetta fissa "regia:" spacciava per
+                # regista chiunque uscisse per primo dal crew, sceneggiatori compresi.
+                desc += " — " + ", ".join(f"{nome} ({ruolo})" for nome, ruolo in registi[:2])
             sub = tipo if sim_titolo >= SOGLIA_TITOLO_CERTO else ""
             migliore = (punteggio, desc, cover_url, sub)
             migliore_autore_verificato = bool(autore) and tipo == "film" and sim_autore >= SOGLIA_AUTORE_VERIFICATO
@@ -1643,9 +1727,16 @@ def main() -> None:
         # e' chiusa (deciso con l'utente il 2026-07-27). Prima restava a meta': un
         # titolo verificato con un campo autore vuoto, indistinguibile da un errore.
         if r["confermato_esterno"] and not (r.get("autore") or "").strip():
-            trovato = completa_autore_dal_db(titolo, categoria, tmdb_key)
+            # L'anno serve a scegliere il film giusto fra gli omonimi (Ghostbusters
+            # 1984 contro il remake 2016): lo estrae il modello ed e' gia' sulla voce.
+            trovato, ruolo = completa_autore_dal_db(titolo, categoria, tmdb_key,
+                                                    r.get("anno", ""))
             if trovato:
                 r["autore"] = trovato
+                # In che veste: senza, un nome corretto ma di ruolo diverso da quello
+                # atteso resta indistinguibile da un'attribuzione sbagliata.
+                if ruolo:
+                    r["ruolo_autore"] = ruolo
                 r["autore_dal_database"] = True
                 completati_autore += 1
         # VERIFICA INCROCIATA FRA CATEGORIE (regola dell'utente, 2026-07-28).
@@ -1784,9 +1875,10 @@ def verifica_autore(nome: str, categoria: str):
         return _cron_verifica_autore(nome, categoria)
 
 
-def completa_autore_dal_db(titolo: str, categoria: str, tmdb_key: str = ""):
+def completa_autore_dal_db(titolo: str, categoria: str, tmdb_key: str = "",
+                           anno: str = ""):
     with cronometra('completa autore'):
-        return _cron_completa_autore_dal_db(titolo, categoria, tmdb_key)
+        return _cron_completa_autore_dal_db(titolo, categoria, tmdb_key, anno)
 
 
 def _musicbrainz_e_nome_artista(nome: str):

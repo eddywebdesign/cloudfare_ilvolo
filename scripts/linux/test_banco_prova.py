@@ -225,9 +225,101 @@ def test_campi_persistiti() -> None:
     sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
     import verifica_riferimenti_esterna as ve  # noqa: E402
     for campo in ("confermato_esterno", "copertina", "sottocategoria",
-                  "autore", "autore_dal_database", "link_autore", "solo_autore",
-                  "fonte_verifica"):
+                  "autore", "autore_dal_database", "ruolo_autore", "link_autore",
+                  "solo_autore", "fonte_verifica"):
         verifica(f"'{campo}' viene persistito", campo in ve.CAMPI_PERSISTITI)
+
+
+def test_attribuzione_autore() -> None:
+    """Chi ha fatto l'opera, e IN CHE VESTE.
+
+    Il caso che ha fatto scrivere questi controlli: "Ghostbusters" usciva attribuito a
+    Katie Dippold. TMDB non sbagliava — Dippold e' la sceneggiatrice del remake 2016 —
+    ma la pipeline perdeva due informazioni per strada: il RUOLO (il job veniva letto
+    per filtrare e poi scartato, quindi uno sceneggiatore finiva nel campo autore come
+    se fosse il regista) e l'ANNO (i risultati TMDB si prendevano per rilevanza, e sul
+    titolo omonimo vince il remake). Nessuna chiamata di rete: /credits e /search sono
+    sostituiti da finte."""
+    print("\nattribuzione dell'autore (ruolo e anno)")
+    sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
+    import verifica_riferimenti_esterna as ve  # noqa: E402
+
+    # --- il ruolo non si perde, e il regista viene prima ---------------------------
+    class RispostaFinta:
+        def __init__(self, payload):
+            self._p = payload
+
+        def raise_for_status(self):
+            pass
+
+        def json(self):
+            return self._p
+
+    get_originale = ve.requests.get
+    try:
+        # TMDB elenca il crew in ordine arbitrario: qui la sceneggiatrice sta PRIMA
+        # del regista, che e' esattamente come usciva Ghostbusters.
+        ve.requests.get = lambda *a, **k: RispostaFinta({"crew": [
+            {"job": "Screenplay", "name": "Katie Dippold"},
+            {"job": "Director", "name": "Ivan Reitman"},
+        ]})
+        crediti = ve._tmdb_registi(123, "chiave-finta")
+        verifica("ritorna coppie (nome, ruolo), non nomi nudi",
+                 crediti and isinstance(crediti[0], tuple) and len(crediti[0]) == 2)
+        verifica("il regista viene prima anche se TMDB lo elenca dopo",
+                 crediti[0] == ("Ivan Reitman", "regista"))
+        verifica("lo sceneggiatore non si scarta: si etichetta",
+                 ("Katie Dippold", "sceneggiatore") in crediti)
+
+        # Senza regista dichiarato non si promuove nessuno a regista.
+        ve.requests.get = lambda *a, **k: RispostaFinta({"crew": [
+            {"job": "Screenplay", "name": "Katie Dippold"}]})
+        verifica("senza regista, il ruolo resta quello vero",
+                 ve._tmdb_registi(123, "x") == [("Katie Dippold", "sceneggiatore")])
+    finally:
+        ve.requests.get = get_originale
+
+    # --- l'anno sceglie il film giusto fra gli omonimi -----------------------------
+    originale = {"title": "Ghostbusters", "release_date": "1984-06-08", "id": 620}
+    remake = {"title": "Ghostbusters", "release_date": "2016-07-14", "id": 43074}
+    # L'ordine di partenza e' quello di TMDB: il remake per primo, per rilevanza.
+    candidati = [remake, originale]
+    verifica("con l'anno giusto vince l'originale, non il remake",
+             ve._preferisci_per_anno(candidati, "1984") == [originale])
+    verifica("tollera un anno di scarto (uscita italiana)",
+             ve._preferisci_per_anno(candidati, "1985") == [originale])
+    # Un anno assente o sbagliato non deve far perdere l'autore di un film che il
+    # titolo aveva gia' identificato: si torna all'ordine di rilevanza.
+    verifica("senza anno non filtra nulla",
+             ve._preferisci_per_anno(candidati, "") == candidati)
+    verifica("con un anno che non esiste non azzera i candidati",
+             ve._preferisci_per_anno(candidati, "1999") == candidati)
+    verifica("un anno non numerico non rompe nulla",
+             ve._preferisci_per_anno(candidati, "anni '80") == candidati)
+
+    # --- il titolo italiano non deve escludere il film -----------------------------
+    # Il difetto che rendeva inutile la scelta per anno: il filtro dei candidati
+    # guardava SOLO "title", e la distribuzione italiana aggiunge sottotitoli
+    # ("Ghostbusters (Acchiappafantasmi)" = 0.57, sotto soglia). L'originale del 1984
+    # spariva prima che l'anno potesse sceglierlo e restava solo il remake. Qui si
+    # controlla la condizione di ammissione, la stessa che usa _cron_verifica_film.
+    it_col_sottotitolo = {"title": "Ghostbusters (Acchiappafantasmi)",
+                          "original_title": "Ghostbusters"}
+    verifica("il titolo ITALIANO da solo non basta ad ammettere il film",
+             ve._similarita("Ghostbusters", it_col_sottotitolo["title"])
+             < ve.SOGLIA_TITOLO_CERTO)
+    verifica("col titolo originale il film viene ammesso",
+             max(ve._similarita("Ghostbusters", it_col_sottotitolo[c])
+                 for c in ("title", "original_title")) >= ve.SOGLIA_TITOLO_CERTO)
+
+    # --- arita': la coppia va spacchettata ----------------------------------------
+    # Una tupla ("", "") e' VERA: chi non spacchetta crede di aver trovato un autore
+    # anche quando non c'e'. E' lo stesso errore che il 2026-07-28 spense in silenzio
+    # il fallback multi-database (vedi test_fallback_arita_verifica_esterna).
+    vuoto = ve.completa_autore_dal_db("titolo-che-non-esiste-xyz", "musica", "")
+    verifica("completa_autore_dal_db ritorna due valori",
+             isinstance(vuoto, tuple) and len(vuoto) == 2)
+    verifica("la musica non viene completata, per scelta", vuoto == ("", ""))
 
 
 def test_local_first() -> None:
@@ -345,21 +437,39 @@ def test_ground_truth() -> None:
     verifica("ogni opera ha categoria e titolo",
              all(o.get("categoria") and o.get("titolo")
                  for v in gt.values() for o in v["opere"]))
+    # "arte" e' entrata col secondo blocco del 2026-07-29 (finora la sola Pieta' di
+    # Michelangelo, 2024-04-19) e NON e' una categoria che la pipeline emette: serve a
+    # non falsare il conteggio per categoria mettendo una scultura fra i film, e la
+    # recall non ne risente perche' opera_riconosciuta() confronta i titoli e ignora
+    # la categoria (vedi _documentazione.categoria_arte nell'insieme di riferimento).
+    # Finche' mancava qui, il ground truth era in regola e il test lo dichiarava rotto.
     verifica("le categorie sono quelle della tassonomia",
-             all(o["categoria"] in ("libro", "film", "musica")
+             all(o["categoria"] in ("libro", "film", "musica", "arte")
                  for v in gt.values() for o in v["opere"]))
     verifica("gli episodi del campione modelli hanno quasi tutti un ground truth",
              sum(1 for d in banco.CAMPIONE_MODELLI if d in gt) >= 5)
 
 
 def test_archivio_risultati() -> None:
-    """Senza archivio, sei run non sono confrontabili se non a memoria."""
+    """Senza archivio, sei run non sono confrontabili se non a memoria.
+
+    ⚠️ Questo test era ROTTO su HEAD (trovato il 2026-07-31): le misure finte qui
+    sotto erano ferme a una forma vecchia — mancavano per_fonte/per_provider/
+    conf_senza_copertina e le voci avevano 5 campi invece di 7 — quindi
+    salva_risultato moriva di KeyError e l'INTERO autotest si fermava qui, saltando
+    tutto quello che viene dopo. Stessa famiglia del bug di arita' documentato in
+    test_fallback_arita_verifica_esterna: una struttura dati cresce da una parte e la
+    sua controfigura nei test resta indietro. Se aggiungi un campo a salva_risultato,
+    aggiungilo anche qui."""
     print("\narchivio dei risultati e tabella comparativa")
     with tempfile.TemporaryDirectory() as tmp:
         cartella = Path(tmp) / "banco_prova"
         misure_finte = {
             "metriche": {"tot": 10, "conf": 6, "per_cat": {"film": 6, "musica": 4},
-                         "conf_cat": {}, "voci": [("EP-1", "film", "Smoke", "Wayne Wang", True)]},
+                         "conf_cat": {}, "per_fonte": {"tmdb": 6}, "per_provider": {"groq": 10},
+                         "conf_senza_copertina": 2,
+                         "voci": [("EP-1", "film", "Smoke", "Wayne Wang", True,
+                                   "tmdb", "groq")]},
             "recall": {"recall": 0.5, "trovate": 5, "attese": 10, "mancate": [],
                        "per_episodio": {}, "non_estratti": []},
             "ancoraggio": {"quota": 0.9, "ancorate": 9, "non_ancorate": [], "tot": 10},
@@ -374,6 +484,16 @@ def test_archivio_risultati() -> None:
         verifica("conserva le tre misure",
                  d["recall"] == 0.5 and d["ancoraggio"] == 0.9 and d["confermate_db"] == 6)
         verifica("conserva le voci prodotte, per poterle leggere a mano", len(d["voci"]) == 1)
+        verifica("dice quale archivio ha chiuso le voci", d["per_fonte_verifica"] == {"tmdb": 6})
+        # Il seme con cui il run ha girato DEVE finire nell'archivio col suo valore
+        # reale. Finche' l'assetto leggeva os.environ.get("ILVOLO_OLLAMA_SEED", ""),
+        # un run col default (2026) veniva archiviato come "": indistinguibile da
+        # "seme non impostato", e il 2026-07-31 questo ha fatto perdere mezz'ora
+        # ricostruendo il comando di un run gia' archiviato.
+        verifica("l'assetto dichiara il seme EFFETTIVO, non la variabile d'ambiente",
+                 d["assetto"]["ollama_seed"] not in ("", None))
+        verifica("l'assetto dichiara la temperatura effettiva",
+                 d["assetto"]["temperatura"] not in ("", None))
         # La tabella non deve esplodere ne' su cartella vuota ne' su dati parziali.
         banco.stampa_confronto(cartella)
         banco.stampa_confronto(Path(tmp) / "cartella-inesistente")
@@ -388,6 +508,7 @@ def main() -> int:
     test_recall_parziale()
     test_fallback_arita_verifica_esterna()
     test_campi_persistiti()
+    test_attribuzione_autore()
     test_local_first()
     test_ancoraggio()
     test_config_e_tetto()
